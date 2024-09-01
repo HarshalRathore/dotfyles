@@ -1,0 +1,68 @@
+live_config_reload = true
+import = [
+  "/usr/lib/node_modules/alacritty-themes/themes/Tokyonight_Night.toml"
+]
+
+[bell]
+animation = "EaseOutExpo"
+duration = 0
+
+[cursor]
+blink_interval = 500
+blink_timeout = 5
+unfocused_hollow = false
+
+  [cursor.style]
+  blinking = "On"
+  shape = "Block"
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 11
+
+  [font.bold]
+  family = "JetBrainsMono Nerd Font"
+  style = "Bold"
+
+  [font.glyph_offset]
+  x = 0
+  y = 0
+
+  [font.italic]
+  family = "JetBrainsMono Nerd Font"
+
+  [font.normal]
+  family = "JetBrainsMono Nerd Font"
+  style = "Regular"
+
+  [font.offset]
+  x = 0
+  y = 0
+
+[mouse]
+hide_when_typing = true
+
+  [[mouse.bindings]]
+  action = "PasteSelection"
+  mouse = "Middle"
+
+[selection]
+semantic_escape_chars = ",│`|:\"' ()[]{}<>"
+
+[shell]
+program = "/bin/zsh"
+
+[window]
+decorations = "Full"
+dynamic_title = true
+startup_mode = "Maximized"
+
+  [window.dimensions]
+  columns = 160
+  lines = 80
+
+  [window.padding]
+  x = 0
+  y = 0
