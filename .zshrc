@@ -25,7 +25,7 @@ fi
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+    source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
 
@@ -49,18 +49,18 @@ zinit light-mode for \
     zdharma-continuum/zinit-annex-bin-gem-node \
     zdharma-continuum/zinit-annex-patch-dl \
 
-### End of Zinit's installer chunk
+    ### End of Zinit's installer chunk
 
 # Add in Powerlevel10k
 zinit ice depth=1; zinit light romkatv/powerlevel10k
 
 # Add in zsh plugins
 zinit wait lucid for \
- atinit"ZINIT[COMPINIT_OPTS]=-C; zicompinit; zicdreplay" \
+    atinit"ZINIT[COMPINIT_OPTS]=-C; zicompinit; zicdreplay" \
     zdharma-continuum/fast-syntax-highlighting \
- blockf \
+    blockf \
     zsh-users/zsh-completions \
- atload"!_zsh_autosuggest_start" \
+    atload"!_zsh_autosuggest_start" \
     zsh-users/zsh-autosuggestions
 
 # Ctrl+f accepts autocompletions
@@ -96,7 +96,7 @@ zinit snippet OMZP::archlinux
 zinit snippet OMZP::command-not-found
 zinit snippet OMZP::colored-man-pages
 
-# [[ History ]] 
+# [[ History ]]
 HISTSIZE=10000
 HISTFILE=~/.zsh_history
 SAVEHIST=$HISTSIZE
@@ -135,25 +135,25 @@ command -v fzf &>/dev/null && source ~/.fzf.git.zshrc.sh # credits https://githu
 
 # [[ Exports ]]
 export FZF_CTRL_R_OPTS="
-  --bind 'ctrl-y:execute-silent(echo -n {2..} | xclip -sel clip)+abort'
-  --color header:italic
-  --header 'Press CTRL-Y to copy command into clipboard'
-  --tmux right,50%"
+--bind 'ctrl-y:execute-silent(echo -n {2..} | xclip -sel clip)+abort'
+--color header:italic
+--header 'Press CTRL-Y to copy command into clipboard'
+--tmux right,50%"
 
 # Print tree structure in the preview window
 export FZF_ALT_C_OPTS="
-  --walker-skip .git,node_modules,target
-  --preview 'eza --icons --group-directories-first --tree {}'
-  --tmux 70%"
+--walker-skip .git,node_modules,target
+--preview 'eza --icons --group-directories-first --tree {}'
+--tmux 70%"
 
-# Preview file content using bat 
+# Preview file content using bat
 export FZF_CTRL_T_OPTS="
-  --walker-skip .git,node_modules,target
-  --preview 'bat -n --color=always {}'
-  --header 'CTRL-/ Toggle preview window\nALT-/ Toggle Wrapping'
-  --bind 'ctrl-/:change-preview-window(down|hidden|)'
-  --bind 'alt-/:toggle-preview-wrap'
-  --tmux 80%"
+--walker-skip .git,node_modules,target
+--preview 'bat -n --color=always {}'
+--header 'CTRL-/ Toggle preview window\nALT-/ Toggle Wrapping'
+--bind 'ctrl-/:change-preview-window(down|hidden|)'
+--bind 'alt-/:toggle-preview-wrap'
+--tmux 80%"
 
 export ZSH_WAKATIME_PROJECT_DETECTION=true
 
