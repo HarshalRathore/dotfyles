@@ -145,17 +145,28 @@ return {
 				clangd = {},
 				pyright = {},
 				-- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
-
+				markdownlint = {},
 				lua_ls = {
 					-- cmd = {...},
 					-- filetypes = { ...},
 					-- capabilities = {},
 					settings = {
 						Lua = {
+							runtime = {
+								-- Tell the language server which version of Lua you"re using (most likely LuaJIT in the case of Neovim)
+								version = "LuaJIT",
+							},
+							diagnostics = {
+								globals = { "vim" },
+							},
+							workspace = {
+								-- Make the server aware of Neovim runtime files
+								library = { vim.api.nvim_get_runtime_file("", true) },
+							},
 							completion = {
 								callSnippet = "Replace",
 							},
-							-- You can toggle below to ignore Lua_LS's noisy `missing-fields` warnings
+							-- You can toggle below to ignore Lua_LS"s noisy `missing-fields` warnings
 							-- diagnostics = { disable = { 'missing-fields' } },
 						},
 					},
@@ -169,6 +180,11 @@ return {
 				"black", -- Used to format python code
 			}
 			vim.list_extend(ensure_installed, formatters)
+			local linters = {
+				"luacheck",
+				"pylint",
+			}
+			vim.list_extend(ensure_installed, linters)
 			require("mason-tool-installer").setup({ ensure_installed = ensure_installed })
 
 			require("mason-lspconfig").setup()

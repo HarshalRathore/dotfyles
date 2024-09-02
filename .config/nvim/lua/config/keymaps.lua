@@ -56,14 +56,16 @@ keymap("n", "<leader>bd", "<Esc>:bd<CR>", opts("Delete current buffer"))
 
 local which_key = require("which-key")
 which_key.add({
-	{ "<leader>c", group = "[C]ode" },
+	{ "<leader>c", group = "[C]ode", icon = { icon = " ", color = "blue" } },
 	-- { "<leader>d", group = "[D]ocument" },
-	{ "<leader>r", group = "[R]ename" },
-	{ "<leader>s", group = "[S]earch" },
-	{ "<leader>w", group = "[Workspace]" },
-	{ "<leader>t", group = "[T]oggle" },
-	{ "<leader>b", group = "[B]uffers" },
+	{ "<leader>r", group = "[R]ename", icon = { icon = " ", color = "cyan" } },
+	{ "<leader>s", group = "[S]earch", icon = { icon = " ", color = "yellow" } },
+	{ "<leader>w", group = "[Workspace]", icon = { icon = " ", color = "azure" } },
+	{ "<leader>t", group = "[T]oggle", icon = { icon = " ", color = "grey" } },
+	{ "<leader>b", group = "[B]uffers", icon = { icon = " ", color = "cyan" } },
 	{ "<leader>h", group = "Git [H]unk", mode = { "n", "v" } },
+	{ "<leader>d", icon = { icon = "󰍷 ", color = "red" } },
+	{ "<leader>bd", icon = { icon = "󰍷 ", color = "red" } },
 	{
 		"<leader>?",
 		function()
@@ -113,7 +115,7 @@ end, { desc = "[S]earch [/] in Open Files" })
 
 -- Shortcut for searching your Neovim configuration files
 vim.keymap.set("n", "<leader>sn", function()
-	builtin.find_files({ cwd = vim.fn.stdpath("config") })
+	builtin.find_files({ cwd = "~/dotfyles/.config/nvim/" })
 end, { desc = "[S]earch [N]eovim files" })
 
 -- TIP: Comment bellow keymaps if you are already using christoomey/vim-tmux-navigator plugin

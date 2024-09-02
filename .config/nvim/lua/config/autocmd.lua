@@ -16,7 +16,7 @@ vim.api.nvim_create_augroup("AutoSourceInit", { clear = true })
 vim.api.nvim_create_autocmd("BufWritePost", {
 	group = "AutoSourceInit",
 	desc = "Source init.lua when writing in any file in ~/.config/nvim/*",
-	pattern = vim.fn.expand("~") .. "/.config/nvim/*",
+	pattern = vim.fn.expand("~") .. "/dotfyles/.config/nvim/*",
 	callback = function()
 		for name, _ in pairs(package.loaded) do
 			if name:match("^user") then
