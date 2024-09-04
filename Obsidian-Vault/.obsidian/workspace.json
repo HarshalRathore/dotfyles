@@ -1,0 +1,162 @@
+{
+  "main": {
+    "id": "b0a9d1aab067f935",
+    "type": "split",
+    "children": [
+      {
+        "id": "980e930227f58f5b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a3c160ca462da145",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DailyNotes/2024/Sep-09/04_Wed.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "92823507a1cfb9e7",
+    "type": "split",
+    "children": [
+      {
+        "id": "0000506488a14d3a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0b916a15688e3007",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "83df608cad8fa6f2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7a737cbe52e26849",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e90b8a9e49fee251",
+    "type": "split",
+    "children": [
+      {
+        "id": "49cbf2587431578c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4c4150dedd5d0728",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "DailyNotes/2024/Sep-09/04_Wed.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0d4f12ba268190b8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "DailyNotes/2024/Sep-09/04_Wed.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ed3914b40048bb38",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6c84d5cdaf79fc14",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "DailyNotes/2024/Sep-09/04_Wed.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "a3c160ca462da145",
+  "lastOpenFiles": [
+    "Templates/DailyNotes.md",
+    "DailyNotes/2024/Sep-09/04_Wed.md",
+    "Welcome.md",
+    "Templates",
+    "DailyNotes/2024/Sep-09",
+    "DailyNotes/2024",
+    "DailyNotes/2024/Sep-09.md",
+    "DailyNotes/2024/Sep-09/4.md",
+    "DailyNotes/2024-09-04.md",
+    "DailyNotes"
+  ]
+}
