@@ -1,0 +1,10 @@
+[Trigger]
+Operation = Upgrade
+Type = Package
+Target = *
+
+[Action]
+Description = Checking system for unmerged .pacnew files...
+When = PostTransaction
+Exec = /usr/bin/pacdiff --output
+Depends = pacman-contrib
