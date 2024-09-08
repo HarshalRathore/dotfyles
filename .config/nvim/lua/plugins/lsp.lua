@@ -20,21 +20,39 @@ return {
 			{ "hrsh7th/cmp-nvim-lsp" },
 		},
 		config = function()
+			local navic = require("nvim-navic")
+			vim.diagnostic.config({
+				underline = true,
+				update_in_insert = false,
+				virtual_text = {
+					spacing = 4,
+					source = "if_many",
+					prefix = "●",
+				},
+				severity_sort = true,
+				signs = {
+					text = {
+						[vim.diagnostic.severity.ERROR] = " ",
+						[vim.diagnostic.severity.WARN] = " ",
+						[vim.diagnostic.severity.HINT] = " ",
+					},
+					linehl = {
+						[vim.diagnostic.severity.ERROR] = "ErrorMsg",
+					},
+					numhl = {
+						[vim.diagnostic.severity.WARN] = "WarningMsg",
+					},
+				},
+			})
 			-- If you're wondering about lsp vs treesitter, you can check out the wonderfully
 			-- and elegantly composed help section, `:help lsp-vs-treesitter`
 
-			--  This function gets run when an LSP attaches to a particular buffer.
-			--    That is to say, every time a new file is opened that is associated with
-			--    an lsp (for example, opening `main.rs` is associated with `rust_analyzer`) this
-			--    function will be executed to configure the current buffer
 			vim.api.nvim_create_autocmd("LspAttach", {
 				group = vim.api.nvim_create_augroup("kickstart-lsp-attach", { clear = true }),
 				callback = function(event)
 					-- NOTE: Remember that Lua is a real programming language, and as such it is possible
 					-- to define small helper and utility functions so you don't have to repeat yourself.
 					--
-					-- In this case, we create a function that lets us more easily define mappings specific
-					-- for LSP related items. It sets the mode, buffer and description for us each time.
 					local map = function(keys, func, desc)
 						vim.keymap.set("n", keys, func, { buffer = event.buf, desc = "LSP: " .. desc })
 					end
@@ -143,31 +161,31 @@ return {
 			--        For example, to see the options for `lua_ls`, you could go to: https://luals.github.io/wiki/settings/
 			local servers = {
 				clangd = {},
-				pyright = {},
+				pyright = {
+					settings = {
+						analysis = {
+							autoImportCompletions = true,
+							autoSearchPaths = true,
+						},
+					},
+				},
 				-- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
 				markdownlint = {},
 				lua_ls = {
-					-- cmd = {...},
-					-- filetypes = { ...},
-					-- capabilities = {},
 					settings = {
 						Lua = {
 							runtime = {
-								-- Tell the language server which version of Lua you"re using (most likely LuaJIT in the case of Neovim)
 								version = "LuaJIT",
 							},
 							diagnostics = {
 								globals = { "vim" },
 							},
 							workspace = {
-								-- Make the server aware of Neovim runtime files
 								library = { vim.api.nvim_get_runtime_file("", true) },
 							},
 							completion = {
 								callSnippet = "Replace",
 							},
-							-- You can toggle below to ignore Lua_LS"s noisy `missing-fields` warnings
-							-- diagnostics = { disable = { 'missing-fields' } },
 						},
 					},
 				},
@@ -195,6 +213,9 @@ return {
 					-- by the server configuration above. Useful when disabling
 					-- certain features of an LSP (for example, turning off formatting for tsserver)
 					server.capabilities = vim.tbl_deep_extend("force", {}, capabilities, server.capabilities or {})
+					server.on_attach = function(client, bufnr)
+						navic.attach(client, bufnr)
+					end
 					require("lspconfig")[server_name].setup(server)
 				end,
 			})
@@ -214,19 +235,4 @@ return {
 		},
 		cmd = { "Mason", "MasonInstall", "MasonInstallAll", "MasonUpdate" },
 	},
-	--    {
-	--        -- Plugin which makes communication b/w mason.nvm and nvim-lspconfig for LSPs which have different name in both so just install LSP with :Mason
-	--        -- and it will load up whenever required.
-	--        "williamboman/mason-lspconfig.nvim",
-	--        dependencies = { "mason.nvim" },
-	--        config = function()
-	--            require("mason-lspconfig").setup()
-	--            require("mason-lspconfig").setup_handlers({
-	--                function(server_name)
-	--                    server_name.capabilities = vim.tbl_deep_extend('force', {}, capabilities, server.capabilities or {})
-	--                    require("lspconfig")[server_name].setup({})
-	--                end,
-	--            })
-	--        end,
-	--    },
 }

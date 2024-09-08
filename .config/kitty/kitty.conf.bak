@@ -1,13 +1,19 @@
-font_family      JetBrainsMono Nerd Font
+font_family      JetBrainsMono Nerd Font 
 bold_font        auto
 italic_font      auto
 bold_italic_font auto
-adjust_line_height 120%
-font_features none
+font_size       12.0
 
+tab_bar_style       powerline
+tab_powerline_style slanted
+
+mouse_hide_wait 3.0
+open_url_with default
+# url_color #0087bd
+url_style curly
 # Cursor
 cursor_blink_interval 0
-
+shell_integration enabled
 # Window
 hide_window_decorations titlebar-only
 

@@ -15,7 +15,7 @@ vim.api.nvim_create_autocmd("TextYankPost", {
 vim.api.nvim_create_augroup("AutoSourceInit", { clear = true })
 vim.api.nvim_create_autocmd("BufWritePost", {
 	group = "AutoSourceInit",
-	desc = "Source init.lua when writing in any file in ~/.config/nvim/*",
+	desc = "Source init.lua & the current file when writing in any file in ~/dotfyles/.config/nvim/*",
 	pattern = vim.fn.expand("~") .. "/dotfyles/.config/nvim/*",
 	callback = function()
 		for name, _ in pairs(package.loaded) do
@@ -25,7 +25,7 @@ vim.api.nvim_create_autocmd("BufWritePost", {
 		end
 		dofile(vim.env.MYVIMRC)
 		vim.cmd("source %")
-		print("sourced init.lua and " .. vim.fn.expand("%"))
+		vim.notify("sourced init.lua and " .. vim.fn.expand("%"))
 	end,
 })
 

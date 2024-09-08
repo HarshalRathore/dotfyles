@@ -24,15 +24,10 @@ keymap("n", "<right>", '<cmd>echo "Use l to move!!"<CR>')
 keymap("n", "<up>", '<cmd>echo "Use k to move!!"<CR>')
 keymap("n", "<down>", '<cmd>echo "Use j to move!!"<CR>')
 
--- Resize Windows with arrows
-keymap("n", "<C-Down>", ":resize -2<CR>", opts("Change window height upward"))
-keymap("n", "<C-Up>", ":resize +2<CR>", opts("Change window height downward"))
-keymap("n", "<C-Right>", ":vertical resize -2<CR>", opts("Change window width leftward"))
-keymap("n", "<C-Left>", ":vertical resize +2<CR>", opts("Change window width rightward"))
-
 -- Navigate buffers
 keymap("n", "<S-l>", ":bnext<CR>", opts("Switch to Next buffer."))
 keymap("n", "<S-h>", ":bprevious<CR>", opts("Switch to Previous buffer."))
+keymap("n", "<leader>bd", "<Esc>:bd<CR>", opts("Delete current buffer"))
 
 -- Stay in indent mode
 keymap("v", "<", "<gv", opts("Decrease Indent"))
@@ -44,15 +39,33 @@ keymap("n", "<A-k>", ":m .-2<CR>==", opts("move line down(n)"))
 keymap("v", "<A-j>", ":m '>+1<CR>gv=gv", opts("move line up(v)"))
 keymap("v", "<A-k>", ":m '<-2<CR>gv=gv", opts("move line down(v)"))
 
-keymap("v", "p", '"_dP', opts("Pasting without yanking"))
+keymap("v", "p", '"_dp', opts("Paste without yanking"))
+keymap("v", "c", '"_c', opts("change without yanking"))
+keymap("n", "c", '"_c', opts("change without yanking"))
+keymap("n", "d", '"_d', opts("Delete without yanking"))
+keymap("v", "d", '"_d', opts("Delete without yanking"))
 
-keymap("n", "C-X", ":qa", opts("Ctrl-x to close window"))
+-- windows
+keymap("n", "<leader>w", "<c-w>", opts("Windows"))
+keymap("n", "<leader>-", "<C-W>s", opts("Split Window Below"))
+keymap("n", "<leader>|", "<C-W>v", opts("Split Window Right"))
+keymap("n", "<leader>wd", "<C-W>c", opts("Delete Window"))
+keymap("n", "<leader>wD", "<cmd>:bd<cr>", opts("Delete window & buffer"))
+keymap("n", "<c-down>", ":resize -2<cr>", opts("change window height upward"))
+keymap("n", "<c-up>", ":resize +2<cr>", opts("change window height downward"))
+keymap("n", "<c-right>", ":vertical resize -2<cr>", opts("change window width leftward"))
+keymap("n", "<C-Left>", ":vertical resize +2<CR>", opts("Change window width rightward"))
 
-keymap("n", "<leader>d", '"_d', opts("Delete text without yanking"))
-
-keymap("v", "<leader>d", '"_d', opts("Delete text without yanking in Visual Mode"))
-
-keymap("n", "<leader>bd", "<Esc>:bd<CR>", opts("Delete current buffer"))
+-- tabs
+keymap("n", "<leader><tab>l", "<cmd>tablast<cr>", opts("Last Tab"))
+keymap("n", "<leader><tab>o", "<cmd>tabonly<cr>", opts("Close Other Tabs"))
+keymap("n", "<leader><tab>f", "<cmd>tabfirst<cr>", opts("First Tab"))
+keymap("n", "<leader><tab><tab>", "<cmd>tabnew<cr>", opts("New Tab"))
+keymap("n", "<leader><tab>]", "<cmd>tabnext<cr>", opts("Next Tab"))
+keymap("n", "<A-l>", "<cmd>tabnext<cr>", opts("Next Tab"))
+keymap("n", "<leader><tab>d", "<cmd>tabclose<cr>", opts("Close Tab"))
+keymap("n", "<leader><tab>[", "<cmd>tabprevious<cr>", opts("Previous Tab"))
+keymap("n", "<A-h>", "<cmd>tabprevious<cr>", opts("Previous Tab"))
 
 local which_key = require("which-key")
 which_key.add({
@@ -60,11 +73,11 @@ which_key.add({
 	-- { "<leader>d", group = "[D]ocument" },
 	{ "<leader>r", group = "[R]ename", icon = { icon = " ", color = "cyan" } },
 	{ "<leader>s", group = "[S]earch", icon = { icon = " ", color = "yellow" } },
-	{ "<leader>w", group = "[Workspace]", icon = { icon = " ", color = "azure" } },
+	{ "<leader>q", group = "quit/session", icon = { icon = " ", color = "azure" } },
 	{ "<leader>t", group = "[T]oggle", icon = { icon = " ", color = "grey" } },
 	{ "<leader>b", group = "[B]uffers", icon = { icon = " ", color = "cyan" } },
 	{ "<leader>h", group = "Git [H]unk", mode = { "n", "v" } },
-	{ "<leader>d", icon = { icon = "󰍷 ", color = "red" } },
+	-- { "<leader>d", icon = { icon = "󰍷 ", color = "red" } },
 	{ "<leader>bd", icon = { icon = "󰍷 ", color = "red" } },
 	{
 		"<leader>?",
@@ -78,45 +91,63 @@ which_key.add({
 -- See `:help telescope.builtin`
 local builtin = require("telescope.builtin")
 
-vim.keymap.set("n", "<leader>sh", builtin.help_tags, { desc = "[S]earch [H]elp" })
-vim.keymap.set("n", "<leader>sk", builtin.keymaps, { desc = "[S]earch [K]eymaps" })
-vim.keymap.set("n", "<leader>sf", builtin.find_files, { desc = "[S]earch [F]iles" })
-vim.keymap.set("n", "<leader>ss", builtin.builtin, { desc = "[S]earch [S]elect Telescope" })
-vim.keymap.set("n", "<leader>sw", builtin.grep_string, { desc = "[S]earch current [W]ord" })
-vim.keymap.set("n", "<leader>sg", builtin.live_grep, { desc = "[S]earch by [G]rep" })
-vim.keymap.set("n", "<leader>sd", builtin.diagnostics, { desc = "[S]earch [D]iagnostics" })
-vim.keymap.set("n", "<leader>sr", builtin.resume, { desc = "[S]earch [R]esume" })
-vim.keymap.set("n", "<leader>s.", builtin.oldfiles, { desc = '[S]earch Recent Files ("." for repeat)' })
-vim.keymap.set("n", "<leader><leader>", builtin.buffers, { desc = "[ ] Find existing buffers" })
-vim.keymap.set(
+keymap("n", "<leader>sh", builtin.help_tags, opts("[S]earch [H]elp"))
+keymap("n", "<leader>sk", builtin.keymaps, opts("[S]earch [K]eymaps"))
+keymap("n", "<leader>sf", builtin.find_files, opts("[S]earch [F]iles"))
+keymap("n", "<leader>ss", builtin.builtin, opts("[S]earch [S]elect Telescope"))
+keymap("n", "<leader>sw", builtin.grep_string, opts("[S]earch current [W]ord"))
+keymap("n", "<leader>sg", builtin.live_grep, opts("[S]earch by [G]rep"))
+keymap("n", "<leader>sd", builtin.diagnostics, opts("[S]earch [D]iagnostics"))
+keymap("n", "<leader>sr", builtin.resume, opts("[S]earch [R]esume"))
+keymap("n", "<leader>s.", builtin.oldfiles, opts('[S]earch Recent Files ("." for repeat)'))
+keymap("n", "<leader><leader>", builtin.buffers, opts("[ ] Find existing buffers"))
+keymap(
 	"n",
 	"<leader>sp",
 	":lua require'telescope'.extensions.project.project{sync_with_nvim_tree = true,}<CR>",
-	{ desc = "[S]earch [P]roject" }
+	opts("[S]earch [P]roject")
 )
 
 -- Slightly advanced example of overriding default behavior and theme
-vim.keymap.set("n", "<leader>/", function()
+keymap("n", "<leader>/", function()
 	-- You can pass additional configuration to Telescope to change the theme, layout, etc.
 	builtin.current_buffer_fuzzy_find(require("telescope.themes").get_dropdown({
 		winblend = 10,
 		previewer = false,
 	}))
-end, { desc = "[/] Fuzzily search in current buffer" })
+end, opts("[/] Fuzzily search in current buffer"))
 
 -- It's also possible to pass additional configuration options.
 --  See `:help telescope.builtin.live_grep()` for information about particular keys
-vim.keymap.set("n", "<leader>s/", function()
+keymap("n", "<leader>s/", function()
 	builtin.live_grep({
 		grep_open_files = true,
 		prompt_title = "Live Grep in Open Files",
 	})
-end, { desc = "[S]earch [/] in Open Files" })
+end, opts("[S]earch [/] in Open Files"))
 
 -- Shortcut for searching your Neovim configuration files
-vim.keymap.set("n", "<leader>sn", function()
+keymap("n", "<leader>sn", function()
 	builtin.find_files({ cwd = "~/dotfyles/.config/nvim/" })
-end, { desc = "[S]earch [N]eovim files" })
+end, opts("[S]earch [N]eovim files"))
+
+-- diagnostic
+local diagnostic_goto = function(next, severity)
+	local go = next and vim.diagnostic.goto_next or vim.diagnostic.goto_prev
+	severity = severity and vim.diagnostic.severity[severity] or nil
+	return function()
+		go({ severity = severity })
+	end
+end
+keymap("n", "<leader>cd", vim.diagnostic.open_float, opts("Line Diagnostics"))
+keymap("n", "]d", diagnostic_goto(true), opts("Next Diagnostic"))
+keymap("n", "[d", diagnostic_goto(false), opts("Prev Diagnostic"))
+keymap("n", "]e", diagnostic_goto(true, "ERROR"), opts("Next Error"))
+keymap("n", "[e", diagnostic_goto(false, "ERROR"), opts("Prev Error"))
+keymap("n", "]w", diagnostic_goto(true, "WARN"), opts("Next Warning"))
+keymap("n", "[w", diagnostic_goto(false, "WARN"), opts("Prev Warning"))
+keymap("n", "]h", diagnostic_goto(true, "HINT"), opts("Next Warning"))
+keymap("n", "[h", diagnostic_goto(false, "HINT"), opts("Prev Warning"))
 
 -- TIP: Comment bellow keymaps if you are already using christoomey/vim-tmux-navigator plugin
 

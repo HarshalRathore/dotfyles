@@ -43,7 +43,7 @@ return {
 			--  All the info you're looking for is in `:help telescope.setup()`
 			--
 			defaults = {
-				winblend = 20,
+				-- winblend = 20,
 				prompt_prefix = "   ",
 				selection_caret = " ",
 				entry_prefix = " ",

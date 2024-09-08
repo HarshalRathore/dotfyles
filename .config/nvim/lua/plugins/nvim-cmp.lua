@@ -44,8 +44,25 @@ return {
 				require("luasnip").filetype_extend("sh", { "shelldoc" })
 			end,
 		},
-		"saadparwaiz1/cmp_luasnip",
+		{
+			"zbirenbaum/copilot-cmp",
+			event = "InsertEnter",
+			config = function()
+				require("copilot_cmp").setup()
+			end,
+			dependencies = {
+				"zbirenbaum/copilot.lua",
+				cmd = "Copilot",
+				config = function()
+					require("copilot").setup({
+						suggestion = { enabled = false },
+						panel = { enabled = false },
+					})
+				end,
+			},
+		},
 
+		"saadparwaiz1/cmp_luasnip",
 		"hrsh7th/cmp-nvim-lua",
 		"hrsh7th/cmp-buffer",
 		"hrsh7th/cmp-nvim-lsp",
@@ -71,18 +88,18 @@ return {
 			}
 		end
 		cmp.setup({
-			window = {
-				completion = {
-					-- border = border("FloatBorder"),
-					border = { "🭽", "▔", "🭾", "▕", "🭿", "▁", "🭼", "▏" },
-					winhighlight = "Normal:NormalFloat",
-					scrollbar = false,
-				},
-				documentation = {
-					border = { "🭽", "▔", "🭾", "▕", "🭿", "▁", "🭼", "▏" },
-					winhighlight = "Normal:NormalFloat",
-				},
-			},
+			-- window = {
+			-- 	completion = {
+			-- 		-- border = border("FloatBorder"),
+			-- 		border = { "🭽", "▔", "🭾", "▕", "🭿", "▁", "🭼", "▏" },
+			-- 		winhighlight = "Normal:NormalFloat",
+			-- 		scrollbar = false,
+			-- 	},
+			-- 	documentation = {
+			-- 		border = { "🭽", "▔", "🭾", "▕", "🭿", "▁", "🭼", "▏" },
+			-- 		winhighlight = "Normal:NormalFloat",
+			-- 	},
+			-- },
 			snippet = {
 				expand = function(args)
 					luasnip.lsp_expand(args.body)
@@ -141,8 +158,8 @@ return {
 
 				-- If you prefer more traditional completion keymaps,
 				-- you can uncomment the following lines
-				--['<CR>'] = cmp.mapping.confirm { select = true },
-				--['<Tab>'] = cmp.mapping.select_next_item(),
+				["<CR>"] = cmp.mapping.confirm({ select = true }),
+				["<Tab>"] = cmp.mapping.select_next_item(),
 				--['<S-Tab>'] = cmp.mapping.select_prev_item(),
 
 				-- Manually trigger a completion from nvim-cmp.
@@ -178,9 +195,12 @@ return {
 					-- set group index to 0 to skip loading LuaLS completions as lazydev recommends it
 					group_index = 0,
 				},
+				{ name = "copilot" },
 				{ name = "nvim_lsp" },
 				{ name = "luasnip" },
+				{ name = "nvim_lua" },
 				{ name = "path" },
+				{ name = "buffer" },
 			},
 		})
 	end,

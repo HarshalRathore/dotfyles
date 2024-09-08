@@ -1,3 +1,5 @@
+# autoload necessary functions into memory
+autoload -Uz add-zsh-hook
 
 # [[ Overriding ]]
 # To create files with touch including the path!
@@ -45,7 +47,6 @@ z() {
 # On-demand ZSH rehashing based on pacman hook
 # credits https://wiki.archlinux.org/title/Zsh#On-demand_rehash
 zshcache_time="$(date +%s%N)"
-autoload -Uz add-zsh-hook
 rehash_precmd() {
   if [[ -a /var/cache/zsh/pacman ]]; then
     local paccache_time="$(date -r /var/cache/zsh/pacman +%s%N)"
@@ -55,4 +56,14 @@ rehash_precmd() {
     fi
   fi
 }
+
+# Resetting the terminal with escape sequences
+# credits https://wiki.archlinux.org/title/Zsh#Resetting_the_terminal_with_escape_sequences
+# faces problem while using powerlevel10k instant prompt
+# function reset_broken_terminal () {
+# 	printf '%b' '\e[0m\e(B\e)0\017\e[?5l\e7\e[0;0r\e8'
+# }
+
+# Register custom functions on zsh hooks
 add-zsh-hook -Uz precmd rehash_precmd
+# add-zsh-hook -Uz precmd reset_broken_terminal # gives error with powerlevel10k instant prompt

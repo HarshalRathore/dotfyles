@@ -7,7 +7,7 @@ export FZF_DEFAULT_OPTS='
   --preview-window="border-rounded" 
   --prompt="> " 
   --marker=">" 
-  --pointer="◆" 
+  --pointer=" " 
   --separator="─" 
   --scrollbar="│"
   --layout="reverse" 
@@ -23,5 +23,6 @@ export FZF_CTRL_T_OPTS=$FZF_DEFAULT_OPTS
 # export FZF_ALT_C_OPTS=$FZF_DEFAULT_OPTS'
 #  --preview "tree -C {} | head -200"
 # '
-export FZF_DEFAULT_COMMAND='fd --type f --strip-cwd-prefix --hidden --follow --exclude .git'
+export FZF_DEFAULT_COMMAND='fd --type f --strip-cwd-prefix --hidden --follow --exclude .git --exclude node_modules --exclude .mypy_cache --exclude __pycache__ --exclude .myenv --exclude .venv --exclude .vscode --exclude .pytest --exclude migrations'
 export FZF_CTRL_T_COMMAND=$FZF_DEFAULT_COMMAND
+export FZF_ALT_C_COMMAND=$FZF_DEFAULT_COMMAND

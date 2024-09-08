@@ -1,3 +1,4 @@
+---@diagnostic disable: 112
 -- Personal setting options
 vim.opt.number = true
 vim.opt.relativenumber = true
@@ -44,3 +45,6 @@ vim.opt.listchars = {
 
 -- sessionoptions according to autosession plugins README
 vim.o.sessionoptions = "blank,buffers,curdir,folds,help,tabpages,winsize,winpos,terminal,localoptions"
+vim.g.base46_cache = vim.fn.stdpath("data") .. "/nvchad/base46/"
+dofile(vim.g.base46_cache .. "defaults")
+dofile(vim.g.base46_cache .. "statusline")

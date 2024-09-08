@@ -2,6 +2,7 @@ return {
 	{
 		"rebelot/kanagawa.nvim",
 		lazy = false,
+		enabled = false,
 		config = function()
 			require("kanagawa").setup({
 				compile = false,
@@ -28,6 +29,15 @@ return {
 			for hl, col in pairs(CustomColors) do
 				vim.api.nvim_set_hl(0, hl, col)
 			end
+		end,
+	},
+	{
+		"folke/tokyonight.nvim",
+		lazy = false,
+		enabled = true,
+		config = function(_, opts)
+			require("tokyonight").setup()
+			vim.cmd.colorscheme("tokyonight")
 		end,
 	},
 }
