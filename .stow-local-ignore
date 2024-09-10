@@ -24,3 +24,6 @@ _darcs
 
 alacritty.*\.bak$
 lazy-lock\.json$
+
+^/etc/*
+^/Obsidian-Valut/*

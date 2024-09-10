@@ -95,7 +95,7 @@ return {
 				always_divide_middle = true,
 			},
 			sections = {
-				lualine_a = { "mode" },
+				lualine_a = { { "mode", icon = "" } },
 				lualine_b = {
 					{
 						"branch",
@@ -108,17 +108,17 @@ return {
 						virtual_env,
 						color = { fg = "grey" },
 					},
-				},
-				lualine_c = {
 					{
 						"filename",
 						symbols = {
 							readonly = " ",
 						},
 					},
+				},
+				lualine_c = {
 					{
 						"navic",
-						color_correction = "static",
+						color_correction = "dynamic",
 						navic_opts = { highlight = true },
 					},
 				},

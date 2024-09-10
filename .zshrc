@@ -1,3 +1,13 @@
+#           ░▒▓████████▓▒░  ░▒▓███████▓▒░ ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓███████▓▒░   ░▒▓██████▓▒░
+#                  ░▒▓█▓▒░ ░▒▓█▓▒░        ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░
+#                ░▒▓██▓▒░  ░▒▓█▓▒░        ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░
+#              ░▒▓██▓▒░     ░▒▓██████▓▒░  ░▒▓████████▓▒░ ░▒▓███████▓▒░  ░▒▓█▓▒░
+#            ░▒▓██▓▒░             ░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░
+#  ░▒▓██▓▒░ ░▒▓█▓▒░               ░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░
+#  ░▒▓██▓▒░ ░▒▓████████▓▒░ ░▒▓███████▓▒░  ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░░▒▓█▓▒░  ░▒▓██████▓▒░
+#
+#
+
 # [[ Notes ]]
 # C-i fzf-completion
 # C-t fzf-file-widget
@@ -99,8 +109,10 @@ zinit snippet OMZP::colored-man-pages
 # [[ History ]]
 HISTSIZE=10000
 HISTFILE=~/.zsh_history
-SAVEHIST=$HISTSIZE
+SAVEHIST=100000
+HISTORY_IGNORE="(ls|cd|pwd|zsh|exit|cd ..)"
 HISTDUP=erase
+WORDCHARS='*?_-[]~&;!#$%^(){}<>|'
 setopt appendhistory
 setopt sharehistory
 setopt hist_ignore_space
@@ -156,7 +168,8 @@ export FZF_CTRL_T_OPTS="
 --tmux 80%"
 
 export ZSH_WAKATIME_PROJECT_DETECTION=true
-
+export EDITOR=zeditor
+export VISUAL=zeditor
 
 # [[ Utility Functions ]]
 if [[ -f ~/.func.zshrc.sh ]]; then

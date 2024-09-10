@@ -22,7 +22,7 @@ return {
 				},
 			},
 			opts = {
-				timeout = 3000,
+				timeout = 2000,
 				max_height = function()
 					return math.floor(vim.o.lines * 0.75)
 				end,
@@ -56,7 +56,7 @@ return {
 			routes = {
 				{ filter = { event = "notify", find = "no information available" }, opts = { skip = true } },
 				{ filter = { event = "msg_show", find = "written" }, opts = { skip = true } },
-				{ view = "notify", filter = { event = "msg_showmode" } },
+				-- { view = "notify", filter = { event = "msg_showmode" } },
 			},
 		})
 	end,
