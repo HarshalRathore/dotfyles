@@ -21,9 +21,10 @@ _darcs
 ^/README.*
 ^/LICENSE.*
 ^/COPYING
+./pac_pkgs
 
 alacritty.*\.bak$
 lazy-lock\.json$
 
-^/etc/*
-^/Obsidian-Valut/*
+./etc/*
+./Obsidian-Vault/*

@@ -13,6 +13,8 @@
 # C-t fzf-file-widget
 # C-r fzf-history-widget
 # A-c fzf-cd-widget
+# Ctrl+f accepts autocompletions
+# Ctrl+e edit the cmd in $EDITOR
 
 
 # Autostart or attach to a tmux session when launching Zsh
@@ -61,8 +63,14 @@ zinit light-mode for \
 
     ### End of Zinit's installer chunk
 
-# Add in Powerlevel10k
+# Add in prompt
 zinit ice depth=1; zinit light romkatv/powerlevel10k
+
+# Plugin specific config
+function _history_substring_search_config() {
+    bindkey "^[[1;5A" history-substring-search-up
+    bindkey "^[[1;5B" history-substring-search-down
+}
 
 # Add in zsh plugins
 zinit wait lucid for \
@@ -71,14 +79,10 @@ zinit wait lucid for \
     blockf \
     zsh-users/zsh-completions \
     atload"!_zsh_autosuggest_start" \
-    zsh-users/zsh-autosuggestions
-
-# Ctrl+f accepts autocompletions
-zinit light Aloxaf/fzf-tab
-
-# wakatime tracking API key in .wakatime.cfg
-zinit wait lucid for \
-    wbingli/zsh-wakatime
+    atload"bindkey '^Y' autosuggest-execute" \
+    zsh-users/zsh-autosuggestions \
+    atload"!_history_substring_search_config" \
+    zsh-users/zsh-history-substring-search
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -98,8 +102,25 @@ bindkey '\el' forward-word # Alt+l => Ctrl+->
 bindkey '\eh' backward-kill-word # Alt+h => Ctrl+<backSpace>
 bindkey '^[[1;5D' backward-word # Ctrl+<-
 
+autoload -U edit-command-line
+zle -N edit-command-line
+bindkey '^E' edit-command-line
+
+# CURSOR SHAPE # https://unix.stackexchange.com/a/614203
+function zle-keymap-select {
+    if [[ ${KEYMAP} == vicmd ]] || [[ $1 = 'block' ]]; then
+        echo -ne '\e[1 q'
+    elif [[ ${KEYMAP} == main ]] || [[ ${KEYMAP} == viins ]] ||
+    [[ ${KEYMAP} = '' ]] || [[ $1 = 'beam' ]]; then
+        echo -ne '\e[5 q'
+    fi
+}
+zle -N zle-keymap-select
+
+_fix_cursor() { echo -ne '\e[5 q'; }
+precmd_functions+=(_fix_cursor)
+
 # [[ Snippets ]]
-# Add in snippets
 zinit snippet OMZP::git
 zinit snippet OMZP::sudo
 zinit snippet OMZP::archlinux
@@ -110,33 +131,56 @@ zinit snippet OMZP::colored-man-pages
 HISTSIZE=10000
 HISTFILE=~/.zsh_history
 SAVEHIST=100000
-HISTORY_IGNORE="(ls|cd|pwd|zsh|exit|cd ..)"
-HISTDUP=erase
 WORDCHARS='*?_-[]~&;!#$%^(){}<>|'
+# HISTORY_IGNORE="(ls|cd|pwd|zsh|exit|cd ..)"
+# HISTDUP=erase
 setopt appendhistory
 setopt sharehistory
 setopt hist_ignore_space
-setopt hist_ignore_all_dups
-setopt hist_save_no_dups
+# setopt hist_ignore_all_dups
+# setopt hist_save_no_dups
 setopt hist_ignore_dups
 setopt hist_find_no_dups
+setopt INTERACTIVE_COMMENTS
+setopt AUTO_CD # pure directory = cd into it
+setopt CD_SILENT
+setopt CHASE_LINKS # follow symlinks when they are cd target
+setopt NO_BANG_HIST  # don't expand `!`
+
+# auto-escape special characters when pasting URLs
+autoload -U url-quote-magic bracketed-paste-magic
+zle -N self-insert url-quote-magic
+zle -N bracketed-paste bracketed-paste-magic
+
+command_exists() {
+    command -v "$1" >/dev/null 2>&1
+}
 
 # Completion styling
-zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
-zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
-zstyle ':completion:*' menu no
-zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'eza --color=always $realpath'
-zstyle ':completion:*:git-checkout:*' sort false
-zstyle ':completion:*:descriptions' format '[%d]'
-zstyle ':fzf-tab:complete:cd:*' fzf-preview 'eza -1 --color=always $realpath'
-zstyle ':fzf-tab:*' switch-group '<' '>'
-zstyle ':fzf-tab:*' fzf-command ftb-tmux-popup
+if ! command_exists fzf || ! command_exists rg || ! command_exists bat || ! command_exists eza; then
+    source ./.comp.zshrc
+else
+    zinit light Aloxaf/fzf-tab
+    zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
+    zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
+    zstyle ':completion:*' menu no
+    zstyle ':completion:*:git-checkout:*' sort false
+    zstyle ':completion:*:descriptions' format '[%d]'
+    zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'eza --color=always $realpath'
+    zstyle ':fzf-tab:complete:cd:*' fzf-preview 'eza -1 --icons -a --group-directories-first --git --color=always $realpath'
+    zstyle ':fzf-tab:*' switch-group '<' '>'
+    zstyle ':fzf-tab:*' fzf-command ftb-tmux-popup
+fi
 
 # [[ Aliases ]]
-alias cat='bat'
+type bat &>/dev/null && alias cat='bat'
 type eza &>/dev/null && alias ls='eza --icons --group-directories-first'
 type eza &>/dev/null && alias ll='eza -l --icons --no-user --group-directories-first  --time-style long-iso'
 type eza &>/dev/null && alias la='eza -la --icons --no-user --group-directories-first  --time-style long-iso'
+alias ..=" cd .."
+alias ...=" cd ../.."
+alias ....=" cd ../../.."
+alias -g H="--help | bat --language=help --style=plain --wrap=character"
 
 # [[ Shell integrations ]]
 command -v fzf &>/dev/null && eval "$(fzf --zsh)" && source ~/.fzf.zshrc
@@ -144,32 +188,22 @@ command -v zoxide &>/dev/null && eval "$(zoxide init --cmd cd zsh)"
 command -v thefuck &>/dev/null && eval "$(thefuck --alias)"
 command -v fzf &>/dev/null && source ~/.fzf.git.zshrc.sh # credits https://github.com/junegunn/fzf-git.sh
 
-
 # [[ Exports ]]
-export FZF_CTRL_R_OPTS="
---bind 'ctrl-y:execute-silent(echo -n {2..} | xclip -sel clip)+abort'
---color header:italic
---header 'Press CTRL-Y to copy command into clipboard'
---tmux right,50%"
-
-# Print tree structure in the preview window
-export FZF_ALT_C_OPTS="
---walker-skip .git,node_modules,target
---preview 'eza --icons --group-directories-first --tree {}'
---tmux 70%"
-
-# Preview file content using bat
-export FZF_CTRL_T_OPTS="
---walker-skip .git,node_modules,target
---preview 'bat -n --color=always {}'
---header 'CTRL-/ Toggle preview window\nALT-/ Toggle Wrapping'
---bind 'ctrl-/:change-preview-window(down|hidden|)'
---bind 'alt-/:toggle-preview-wrap'
---tmux 80%"
-
-export ZSH_WAKATIME_PROJECT_DETECTION=true
-export EDITOR=zeditor
-export VISUAL=zeditor
+# Affects filetype-coloring in eza, fd, and completion menus
+# DOCS https://github.com/eza-community/eza/blob/main/man/eza_colors.5.md
+# INFO does also accept specific files via glob, e.g. `README.md=4;33`,
+export CLICOLOR=1 # makes `ls` use color by default
+export EZA_COLORS="gm=1;38;5;208" # git `modified` with same orange as in starship
+export EZA_STRICT=1
+export EZA_ICONS_AUTO=1
+export EZA_ICON_SPACING=1
+export GREP_OPTIONS="--color=auto"
+export GREP_COLOR='01;35'
+export EDITOR=nvim
+export VISUAL=nvim
+export ZSH_AUTOSUGGEST_STRATEGY=(match_prev_cmd history completion)
+export HISTORY_SUBSTRING_SEARCH_HIGHLIGHT_FOUND='bg=#d33682,fg=#002b36,bold'
+export HISTORY_SUBSTRING_SEARCH_HIGHLIGHT_NOT_FOUND='bg=#dc322f,fg=#002b36,bold'
 
 # [[ Utility Functions ]]
 if [[ -f ~/.func.zshrc.sh ]]; then

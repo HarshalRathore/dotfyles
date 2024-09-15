@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "980e930227f58f5b",
+        "id": "05a17476a32f9ded",
         "type": "tabs",
         "children": [
           {
-            "id": "a3c160ca462da145",
+            "id": "9c2acdb8208620ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNotes/2024/Sep-09/04_Wed.md",
+                "file": "DailyNotes/2024/Sep-09/12_Thu.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DailyNotes/2024/Sep-09/04_Wed.md",
+                "file": "DailyNotes/2024/Sep-09/12_Thu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DailyNotes/2024/Sep-09/04_Wed.md",
+                "file": "DailyNotes/2024/Sep-09/12_Thu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DailyNotes/2024/Sep-09/04_Wed.md"
+                "file": "DailyNotes/2024/Sep-09/12_Thu.md"
               }
             }
           }
@@ -147,10 +147,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a3c160ca462da145",
+  "active": "9c2acdb8208620ff",
   "lastOpenFiles": [
-    "Templates/DailyNotes.md",
+    "DailyNotes/2024/Sep-09/12_Thu.md",
     "DailyNotes/2024/Sep-09/04_Wed.md",
+    "Templates/DailyNotes.md",
     "Welcome.md",
     "Templates",
     "DailyNotes/2024/Sep-09",

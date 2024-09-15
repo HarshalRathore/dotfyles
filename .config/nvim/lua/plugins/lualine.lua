@@ -13,7 +13,6 @@ return {
 		end
 	end,
 	opts = function()
-		local fn = vim.fn
 		local virtual_env = function()
 			-- only show virtual env for Python
 			if vim.bo.filetype ~= "python" then
@@ -84,7 +83,26 @@ return {
 
 			return ""
 		end
-		local navic = require("nvim-navic")
+		-- Function to get a prettier path relative to the working directory
+		function get_pretty_path()
+			-- Get the current working directory and the current file path
+			local cwd = vim.fn.getcwd()
+			local file_path = vim.fn.expand("%:p")
+
+			-- Remove the common working directory part to make the path relative
+			local relative_path = file_path:gsub("^" .. cwd .. "/", "")
+
+			-- Split the path into components
+			local components = vim.split(relative_path, "/")
+
+			-- If the path has more than 3 components, shorten it
+			if #components > 3 then
+				return "..." .. "/" .. table.concat(vim.list_slice(components, #components - 2, #components), "/")
+			else
+				return relative_path
+			end
+		end
+		local icons = require("utils.icons").icons
 		require("lualine").setup({
 			options = {
 				icons_enabled = true,
@@ -108,31 +126,11 @@ return {
 						virtual_env,
 						color = { fg = "grey" },
 					},
-					{
-						"filename",
-						symbols = {
-							readonly = " ",
-						},
-					},
+					-- {
+					-- 	get_pretty_path,
+					-- },
 				},
 				lualine_c = {
-					{
-						"navic",
-						color_correction = "dynamic",
-						navic_opts = { highlight = true },
-					},
-				},
-				lualine_x = {
-					{
-						require("noice").api.status.search.get,
-						cond = require("noice").api.status.search.has,
-						color = { fg = "grey" },
-					},
-					{
-						get_active_lsp,
-						icon = " ",
-					},
-					{ get_active_formatter },
 					{
 						"diagnostics",
 						sources = { "nvim_diagnostic" },
@@ -143,13 +141,45 @@ return {
 							info = " ",
 						},
 					},
+					{
+						"filename",
+						path = 1,
+						symbols = {
+							readonly = " ",
+						},
+					},
+					-- {
+					-- 	"navic",
+					-- 	color_correction = "dynamic",
+					-- 	navic_opts = { highlight = true },
+					-- },
+				},
+				lualine_x = {
+					-- {
+					-- 	require("noice").api.statusline.mode.get,
+					-- 	cond = require("noice").api.statusline.mode.has,
+					-- 	color = { fg = "#ff9e64" },
+					-- },
+					{
+						get_active_lsp,
+						icon = " ",
+					},
+					{ get_active_formatter },
 				},
 				lualine_y = {
 					{ "filetype", icon_only = true },
+					{
+						"diff",
+						symbols = {
+							added = icons.git.add,
+							modified = icons.git.modified,
+							removed = icons.git.delete,
+						},
+					},
 				},
 				lualine_z = {
-					"progress",
-					"location",
+					{ "progress" },
+					{ "location" },
 				},
 			},
 			inactive_sections = {

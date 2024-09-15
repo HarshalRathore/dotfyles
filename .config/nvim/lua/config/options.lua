@@ -28,7 +28,7 @@ vim.opt.shiftwidth = 4
 vim.opt.mouse = "a"
 vim.opt.inccommand = "split"
 vim.opt.cursorline = true
-vim.opt.showmode = false
+-- vim.opt.showmode = false
 -- Save undo history
 vim.opt.undofile = true
 vim.opt.timeoutlen = 300
@@ -45,6 +45,7 @@ vim.opt.listchars = {
 
 -- sessionoptions according to autosession plugins README
 vim.o.sessionoptions = "blank,buffers,curdir,folds,help,tabpages,winsize,winpos,terminal,localoptions"
-vim.g.base46_cache = vim.fn.stdpath("data") .. "/nvchad/base46/"
-dofile(vim.g.base46_cache .. "defaults")
-dofile(vim.g.base46_cache .. "statusline")
+-- vim.o.winbar = "%f  %{%v:lua.require'nvim-navic'.get_location()%}"
+vim.g.icons = require("utils.icons").icons
+
+vim.o.winbar = "%{%v:lua.require'utils.util'.WinBarStatus()%}"

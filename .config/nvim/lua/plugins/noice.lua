@@ -1,5 +1,6 @@
 return {
 	"folke/noice.nvim",
+	enabled = false,
 	event = "VeryLazy",
 	opts = {
 		-- add any options here
@@ -55,8 +56,21 @@ return {
 			},
 			routes = {
 				{ filter = { event = "notify", find = "no information available" }, opts = { skip = true } },
-				{ filter = { event = "msg_show", find = "written" }, opts = { skip = true } },
-				-- { view = "notify", filter = { event = "msg_showmode" } },
+				{
+					filter = {
+						event = "msg_show",
+						any = {
+							{ find = "%d+L, %d+B" },
+							{ find = "; after #%d+" },
+							{ find = "; before #%d+" },
+						},
+					},
+					view = "mini",
+				},
+				-- {
+				-- 	view = "notify", -- show recording message in popup
+				-- 	filter = { event = "msg_showmode" },
+				-- },
 			},
 		})
 	end,

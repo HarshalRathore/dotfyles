@@ -1,6 +1,5 @@
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
-local term_opts = { silent = true }
 local keymap = vim.keymap.set
 local function opts(desc)
 	local options = {
@@ -11,6 +10,7 @@ local function opts(desc)
 	return options
 end
 
+-- Clear search with <esc>
 keymap("n", "<Esc>", "<cmd>nohlsearch<CR>", opts("Remove highlight search when press 'esc' to go into normal mode"))
 
 -- Exit terminal mode .
@@ -27,7 +27,7 @@ keymap("n", "<down>", '<cmd>echo "Use j to move!!"<CR>')
 -- Navigate buffers
 keymap("n", "<S-l>", ":bnext<CR>", opts("Switch to Next buffer."))
 keymap("n", "<S-h>", ":bprevious<CR>", opts("Switch to Previous buffer."))
-keymap("n", "<leader>bd", "<Esc>:bd<CR>", opts("Delete current buffer"))
+keymap("n", "<leader>bd", utils.bufremove, opts("Delete current buffer"))
 
 -- Stay in indent mode
 keymap("v", "<", "<gv", opts("Decrease Indent"))
@@ -38,7 +38,27 @@ keymap("n", "<A-j>", ":m .+1<CR>==", opts("move line up(n)"))
 keymap("n", "<A-k>", ":m .-2<CR>==", opts("move line down(n)"))
 keymap("v", "<A-j>", ":m '>+1<CR>gv=gv", opts("move line up(v)"))
 keymap("v", "<A-k>", ":m '<-2<CR>gv=gv", opts("move line down(v)"))
+keymap("i", "<A-j>", "<esc><cmd>m .+1<cr>==gi", opts("Move Down"))
+keymap("i", "<A-k>", "<esc><cmd>m .-2<cr>==gi", opts("Move Up"))
 
+-- Save file
+keymap("i", "<C-s>", "<cmd>w<cr><esc>", opts("Save file"))
+keymap("x", "<C-s>", "<cmd>w<cr><esc>", opts("Save file"))
+keymap("n", "<C-s>", "<cmd>w<cr><esc>", opts("Save file"))
+keymap("s", "<C-s>", "<cmd>w<cr><esc>", opts("Save file"))
+
+-- commenting
+keymap("n", "gco", "o<esc>Vcx<esc><cmd>normal gcc<cr>fxa<bs>", opts("Add Comment Below"))
+keymap("n", "gcO", "O<esc>Vcx<esc><cmd>normal gcc<cr>fxa<bs>", opts("Add Comment Above"))
+
+--keywordprg
+keymap("n", "<leader>K", "<cmd>norm! K<cr>", opts("Keywordprg"))
+
+-- highlights under cursor
+keymap("n", "<leader>ui", vim.show_pos, { desc = "Inspect Pos" })
+keymap("n", "<leader>uI", "<cmd>InspectTree<cr>", { desc = "Inspect Tree" })
+
+-- Better Pasting
 keymap("v", "p", '"_dp', opts("Paste without yanking"))
 keymap("v", "c", '"_c', opts("change without yanking"))
 keymap("n", "c", '"_c', opts("change without yanking"))
@@ -66,19 +86,46 @@ keymap("n", "<A-l>", "<cmd>tabnext<cr>", opts("Next Tab"))
 keymap("n", "<leader><tab>d", "<cmd>tabclose<cr>", opts("Close Tab"))
 keymap("n", "<leader><tab>[", "<cmd>tabprevious<cr>", opts("Previous Tab"))
 keymap("n", "<A-h>", "<cmd>tabprevious<cr>", opts("Previous Tab"))
+keymap("n", "<leader>wz", "<C-w>_<C-w>|", opts("full si[z]e"))
+keymap("n", "<leader>wZ", "<C-w>=", opts("even si[Z]e"))
 
 local which_key = require("which-key")
 which_key.add({
-	{ "<leader>c", group = "[C]ode", icon = { icon = " ", color = "blue" } },
+	{ "<leader>c", group = "[C]ode", icon = { icon = " ", color = "green" } },
 	-- { "<leader>d", group = "[D]ocument" },
 	{ "<leader>r", group = "[R]ename", icon = { icon = " ", color = "cyan" } },
 	{ "<leader>s", group = "[S]earch", icon = { icon = " ", color = "yellow" } },
-	{ "<leader>q", group = "quit/session", icon = { icon = " ", color = "azure" } },
+	{ "<leader>q", group = "quit/session", icon = { icon = " ", color = "azure" } },
 	{ "<leader>t", group = "[T]oggle", icon = { icon = " ", color = "grey" } },
-	{ "<leader>b", group = "[B]uffers", icon = { icon = " ", color = "cyan" } },
-	{ "<leader>h", group = "Git [H]unk", mode = { "n", "v" } },
-	-- { "<leader>d", icon = { icon = "󰍷 ", color = "red" } },
+	{
+		"<leader>b",
+		group = "[B]uffers",
+		icon = { icon = " ", color = "cyan" },
+		expand = function()
+			return require("which-key.extras").expand.buf()
+		end,
+	},
+	{
+		"<leader>w",
+		group = "[W]indows",
+		proxy = "<c-w>",
+		expand = function()
+			return require("which-key.extras").expand.win()
+		end,
+	},
 	{ "<leader>bd", icon = { icon = "󰍷 ", color = "red" } },
+	{ "<leader>g", group = "[G]it", icon = { icon = "󰊢 ", color = "orange" } },
+	{ "<leader>gh", group = "[H]unk", icon = { icon = "󰊢 ", color = "orange" } },
+	{ "<leader>gt", group = "[T]oggle", icon = { icon = "󰊢 ", color = "orange" } },
+	{ "<leader>ghb", group = "git [b]lame line", icon = { icon = "󰍷", color = "yellow" } },
+	{ "<leader>ghd", group = "git [d]iff against index", icon = { icon = "󰇙", color = "blue" } },
+	{ "<leader>ghD", group = "git [D]iff against last commit", icon = { icon = "󰅾", color = "blue" } },
+	{ "<leader>ghp", group = "git [p]review hunk", icon = { icon = "󰗏", color = "green" } },
+	{ "<leader>ghr", group = "git [r]eset hunk", icon = { icon = "󰦤", color = "red" } },
+	{ "<leader>ghR", group = "git [R]eset buffer", icon = { icon = "󱗞", color = "red" } },
+	{ "<leader>ghs", group = "git [s]tage hunk", icon = { icon = "󰁽", color = "green" } },
+	{ "<leader>ghS", group = "git [S]tage buffer", icon = { icon = "󰛢", color = "green" } },
+	{ "<leader>ghu", group = "git [u]ndo stage hunk", icon = { icon = "󰄛", color = "yellow" } },
 	{
 		"<leader>?",
 		function()

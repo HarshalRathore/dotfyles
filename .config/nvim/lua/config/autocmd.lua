@@ -25,7 +25,7 @@ vim.api.nvim_create_autocmd("BufWritePost", {
 		end
 		dofile(vim.env.MYVIMRC)
 		vim.cmd("source %")
-		vim.notify("sourced init.lua and " .. vim.fn.expand("%"))
+		vim.notify("sourced init.lua and " .. vim.fn.expand("%:t"))
 	end,
 })
 

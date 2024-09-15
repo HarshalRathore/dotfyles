@@ -1,4 +1,6 @@
 -- Global Settings
+_G.icons = require("utils.icons").icons
+_G.utils = require("utils.util")
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 

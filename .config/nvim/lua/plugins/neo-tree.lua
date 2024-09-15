@@ -28,15 +28,56 @@ return {
 	},
 	cmd = "Neotree",
 	keys = {
-		{ "\\", ":Neotree reveal<CR>", desc = "NeoTree reveal", silent = true },
+		{ "\\", "<cmd>lua utils.peek_neotree()<CR>", desc = "NeoTree reveal", silent = true },
+		{
+			"<leader>e", -- Key mapping
+			function()
+				local reveal_file = vim.fn.expand("%:p")
+				if reveal_file == "" then
+					reveal_file = vim.fn.getcwd()
+				else
+					local f = io.open(reveal_file, "r")
+					if f then
+						f.close(f)
+					else
+						reveal_file = vim.fn.getcwd()
+					end
+				end
+				require("neo-tree.command").execute({
+					toggle = true,
+					reveal_file = reveal_file, -- path to file or folder to reveal
+					reveal_force_cwd = true, -- change cwd without asking if needed
+				})
+			end,
+			desc = "Open neo-tree", -- Description for the keymap
+			silent = true, -- Silence the keymap (no echoing of command)
+		},
 	},
 	opts = {
+		source_selector = {
+			winbar = true,
+			statusline = false,
+		},
 		filesystem = {
+			filtered_items = {
+				hide_by_name = {
+					"node_modules",
+				},
+			},
+			use_libuv_file_watcher = true,
+			follow_current_file = {
+				enabled = true,
+				leave_dirs_open = true,
+			},
 			window = {
 				mappings = {
 					["\\"] = "close_window",
 				},
 			},
 		},
+		-- added = "✚ ", modified = "", deleted = "✖ ", renamed = "󰁕", untracked = "", ignored = " ", unstaged = "󰄱 ", staged = " ", conflict = " ",
 	},
+	config = function(_, opts)
+		require("neo-tree").setup(opts)
+	end,
 }
