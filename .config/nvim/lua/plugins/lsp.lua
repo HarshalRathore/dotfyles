@@ -72,7 +72,7 @@ return {
 					-- Jump to the type of the word under your cursor.
 					--  Useful when you're not sure what type a variable is and you want to see
 					--  the definition of its *type*, not where it was *defined*.
-					map("<leader>D", require("telescope.builtin").lsp_type_definitions, "Type [D]efinition")
+					map("<leader>cD", require("telescope.builtin").lsp_type_definitions, "Type [D]efinition")
 
 					-- Fuzzy find all the symbols in your current document.
 					--  Symbols are things like variables, functions, types, etc.
@@ -170,7 +170,9 @@ return {
 					},
 				},
 				-- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
-				markdownlint = {},
+				dockerls = {},
+				docker_compose_language_service = {},
+				marksman = {},
 				lua_ls = {
 					settings = {
 						Lua = {
@@ -182,9 +184,24 @@ return {
 							},
 							workspace = {
 								library = { vim.api.nvim_get_runtime_file("", true) },
+								checkThirdParty = false,
+							},
+							doc = {
+								privateName = { "^_" },
+							},
+							codeLens = {
+								enable = true,
 							},
 							completion = {
 								callSnippet = "Replace",
+							},
+							hint = {
+								enable = true,
+								setType = false,
+								paramType = true,
+								paramName = "Disable",
+								semicolon = "Disable",
+								arrayIndex = "Disable",
 							},
 						},
 					},
@@ -201,6 +218,7 @@ return {
 			local linters = {
 				"luacheck",
 				"pylint",
+				"hadolint",
 			}
 			vim.list_extend(ensure_installed, linters)
 			require("mason-tool-installer").setup({ ensure_installed = ensure_installed })

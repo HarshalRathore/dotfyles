@@ -64,7 +64,7 @@ set -g renumber-windows on
 set -g set-titles on          
 
 # Set the terminal title string to show pane title, session name, and window details.
-set -g set-titles-string ' #T'
+set -g set-titles-string ' ~ #T'
 
 # Set a slightly longer display time for pane indicators.
 set -g display-panes-time 800 

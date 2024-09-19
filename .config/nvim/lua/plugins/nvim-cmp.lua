@@ -158,7 +158,7 @@ return {
 
 				-- If you prefer more traditional completion keymaps,
 				-- you can uncomment the following lines
-				["<CR>"] = cmp.mapping.confirm({ select = true }),
+				-- ["<CR>"] = cmp.mapping.confirm({ select = true }),
 				["<Tab>"] = cmp.mapping.select_next_item(),
 				--['<S-Tab>'] = cmp.mapping.select_prev_item(),
 
@@ -195,12 +195,12 @@ return {
 					-- set group index to 0 to skip loading LuaLS completions as lazydev recommends it
 					group_index = 0,
 				},
-				{ name = "copilot" },
 				{ name = "nvim_lsp" },
-				{ name = "luasnip" },
 				{ name = "nvim_lua" },
+				{ name = "luasnip" },
 				{ name = "path" },
 				{ name = "buffer" },
+				{ name = "copilot" },
 			},
 		})
 	end,

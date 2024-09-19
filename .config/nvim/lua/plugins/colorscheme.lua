@@ -33,11 +33,25 @@ return {
 	},
 	{
 		"folke/tokyonight.nvim",
+		enabled = false,
 		lazy = false,
-		enabled = true,
 		config = function(_, opts)
-			require("tokyonight").setup()
-			vim.cmd.colorscheme("tokyonight")
+			-- require("tokyonight").setup()
+			-- vim.cmd.colorscheme("tokyonight-night")
+		end,
+	},
+	{
+		"nyoom-engineering/oxocarbon.nvim",
+		-- enalbed = false,
+		config = function()
+			vim.cmd("colorscheme oxocarbon")
+		end,
+	},
+	{
+		"shaunsingh/nord.nvim",
+		enabled = false,
+		config = function()
+			require("nord").set()
 		end,
 	},
 }

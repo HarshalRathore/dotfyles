@@ -49,11 +49,12 @@ return {
 					reveal_force_cwd = true, -- change cwd without asking if needed
 				})
 			end,
-			desc = "Open neo-tree", -- Description for the keymap
+			desc = "Neo-tree", -- Description for the keymap
 			silent = true, -- Silence the keymap (no echoing of command)
 		},
 	},
 	opts = {
+		open_files_do_not_replace_types = { "terminal", "Trouble", "qf", "edgy" },
 		source_selector = {
 			winbar = true,
 			statusline = false,
@@ -77,7 +78,4 @@ return {
 		},
 		-- added = "✚ ", modified = "", deleted = "✖ ", renamed = "󰁕", untracked = "", ignored = " ", unstaged = "󰄱 ", staged = " ", conflict = " ",
 	},
-	config = function(_, opts)
-		require("neo-tree").setup(opts)
-	end,
 }

@@ -1,4 +1,3 @@
----@diagnostic disable: 112
 -- Personal setting options
 vim.opt.number = true
 vim.opt.relativenumber = true
@@ -42,10 +41,5 @@ vim.opt.listchars = {
 	nbsp = "¤", -- Non-breakable spaces are shown as a currency sign
 	eol = "¶", -- End of line is shown as a paragraph sign
 }
-
--- sessionoptions according to autosession plugins README
-vim.o.sessionoptions = "blank,buffers,curdir,folds,help,tabpages,winsize,winpos,terminal,localoptions"
--- vim.o.winbar = "%f  %{%v:lua.require'nvim-navic'.get_location()%}"
-vim.g.icons = require("utils.icons").icons
 
 vim.o.winbar = "%{%v:lua.require'utils.util'.WinBarStatus()%}"

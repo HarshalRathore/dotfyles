@@ -1,7 +1,7 @@
 return {
 	"mfussenegger/nvim-lint",
-	enabled = true,
 	event = "BufReadPre",
+	enabled = false,
 	dependencies = {
 		{
 			"williamboman/mason.nvim",
@@ -12,6 +12,7 @@ return {
 		linters_by_ft = {
 			lua = { "luacheck" }, -- Use luacheck for Lua files
 			markdown = { "markdownlint" }, -- Use markdownlint for Markdown files
+			docker = { "hadolint" }, -- Use hadolint for Dockerfiles
 			-- python = { "pylint" },
 		},
 		linters = {

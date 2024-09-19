@@ -84,7 +84,7 @@ return {
 			return ""
 		end
 		-- Function to get a prettier path relative to the working directory
-		function get_pretty_path()
+		local get_pretty_path = function()
 			-- Get the current working directory and the current file path
 			local cwd = vim.fn.getcwd()
 			local file_path = vim.fn.expand("%:p")
@@ -102,15 +102,21 @@ return {
 				return relative_path
 			end
 		end
-		local icons = require("utils.icons").icons
+		local bottomSeparators = { left = "", right = "" }
+		local topSeparators = { left = "", right = "" }
+		local emptySeparators = { left = "", right = "" }
 		require("lualine").setup({
 			options = {
 				icons_enabled = true,
 				theme = "auto",
-				component_separators = { left = "", right = "" },
-				section_separators = { left = "", right = "" },
 				disabled_filetypes = { statusline = { "dashboard", "alpha", "ministarter" } },
 				always_divide_middle = true,
+				component_separators = { left = "", right = "" },
+				section_separators = bottomSeparators,
+				ignore_focus = {
+					"DressingInput",
+					"DressingSelect",
+				},
 			},
 			sections = {
 				lualine_a = { { "mode", icon = "" } },
@@ -126,9 +132,6 @@ return {
 						virtual_env,
 						color = { fg = "grey" },
 					},
-					-- {
-					-- 	get_pretty_path,
-					-- },
 				},
 				lualine_c = {
 					{
@@ -141,6 +144,7 @@ return {
 							info = " ",
 						},
 					},
+					{ "filetype", icon_only = true, separator = "", padding = { left = 1, right = 0 } },
 					{
 						"filename",
 						path = 1,
@@ -148,37 +152,69 @@ return {
 							readonly = " ",
 						},
 					},
-					-- {
-					-- 	"navic",
-					-- 	color_correction = "dynamic",
-					-- 	navic_opts = { highlight = true },
-					-- },
 				},
 				lualine_x = {
-					-- {
-					-- 	require("noice").api.statusline.mode.get,
-					-- 	cond = require("noice").api.statusline.mode.has,
-					-- 	color = { fg = "#ff9e64" },
-					-- },
+					-- stylua: ignore
+					{
+						-- gives last key 
+						function() return require("noice").api.status.command.get() end,
+						cond = function() return package.loaded["noice"] and require("noice").api.status.command.has() end,
+						color = { fg = "#ff9e64" },
+					},
+					{
+						-- gives recording macro
+						function()
+							local reg = vim.fn.reg_recording()
+							if reg == "" then
+								return ""
+							end -- not recording
+							return "recording @" .. reg
+						end,
+						color = { fg = "#c099ff" },
+					},
 					{
 						get_active_lsp,
 						icon = " ",
+						on_click = function()
+							vim.cmd("LspInfo")
+						end,
 					},
-					{ get_active_formatter },
-				},
-				lualine_y = {
-					{ "filetype", icon_only = true },
+					{
+						get_active_formatter,
+						on_click = function()
+							vim.cmd("ConformInfo")
+						end,
+					},
 					{
 						"diff",
 						symbols = {
-							added = icons.git.add,
+							added = icons.git.add_square_fill,
 							modified = icons.git.modified,
-							removed = icons.git.delete,
+							removed = icons.git.delete_square_fill,
 						},
 					},
 				},
-				lualine_z = {
+				lualine_y = {
+					{
+						function()
+							local words = vim.fn.wordcount()["words"]
+							return " " .. words
+						end,
+						cond = function()
+							local ft = vim.opt_local.filetype:get()
+							local count = {
+								latex = true,
+								tex = true,
+								text = true,
+								markdown = true,
+								vimwiki = true,
+							}
+							return count[ft] ~= nil
+						end,
+					},
 					{ "progress" },
+				},
+				lualine_z = {
 					{ "location" },
 				},
 			},
@@ -186,11 +222,10 @@ return {
 				lualine_a = {},
 				lualine_b = {},
 				lualine_c = { "filename" },
-				lualine_x = { "location" },
+				lualine_x = {},
 				lualine_y = {},
 				lualine_z = {},
 			},
-			tabline = {},
 			extensions = { "neo-tree", "lazy", "mason", "man", "quickfix" },
 		})
 	end,

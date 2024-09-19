@@ -25,10 +25,39 @@ vim.api.nvim_create_autocmd("BufWritePost", {
 		end
 		dofile(vim.env.MYVIMRC)
 		vim.cmd("source %")
-		vim.notify("sourced init.lua and " .. vim.fn.expand("%:t"))
+
+		-- local function get_highlight_groups(groups)
+		-- 	local highlights = {}
+		-- 	for _, group in ipairs(groups) do
+		-- 		highlights[group] = vim.api.nvim_get_hl_by_name(group, true)
+		-- 	end
+		-- 	return highlights
+		-- end
+		-- local function set_highlight_groups(groups)
+		-- 	for group, hl in pairs(groups) do
+		-- 		vim.api.nvim_set_hl(0, group, hl)
+		-- 	end
+		-- end
+		--
+		-- -- Highlight groups to store
+		-- local highlight_groups = {
+		-- 	"NotifyINFOBorder",
+		-- 	"NotifyINFOTitle",
+		-- 	"NotifyINFOIcon",
+		-- }
+		--
+		-- -- Store default highlight values
+		-- local default_highlights = get_highlight_groups(highlight_groups)
+		-- vim.api.nvim_set_hl(0, "NotifyINFOBorder", { fg = "#ff7603", bold = true })
+		-- vim.api.nvim_set_hl(0, "NotifyINFOTitle", { fg = "#ff7603", bold = true })
+		-- vim.api.nvim_set_hl(0, "NotifyINFOIcon", { fg = "#ff7603", bold = true })
+		local message = string.format("sourced init.lua and %s", vim.fn.expand("%:t"))
+		vim.notify(message, vim.log.levels.INFO, {
+			title = "AutoSourceInit",
+		})
+		-- vim.defer_fn(set_highlight_groups(default_highlights), 1000)
 	end,
 })
-
 if vim.env.TMUX ~= nil then
 	vim.api.nvim_create_autocmd({ "BufReadPre", "FocusGained" }, {
 		desc = "Rename tmux window to current buffer file name",

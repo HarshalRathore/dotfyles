@@ -107,18 +107,18 @@ zle -N edit-command-line
 bindkey '^E' edit-command-line
 
 # CURSOR SHAPE # https://unix.stackexchange.com/a/614203
-function zle-keymap-select {
-    if [[ ${KEYMAP} == vicmd ]] || [[ $1 = 'block' ]]; then
-        echo -ne '\e[1 q'
-    elif [[ ${KEYMAP} == main ]] || [[ ${KEYMAP} == viins ]] ||
-    [[ ${KEYMAP} = '' ]] || [[ $1 = 'beam' ]]; then
-        echo -ne '\e[5 q'
-    fi
-}
-zle -N zle-keymap-select
-
-_fix_cursor() { echo -ne '\e[5 q'; }
-precmd_functions+=(_fix_cursor)
+# function zle-keymap-select {
+#     if [[ ${KEYMAP} == vicmd ]] || [[ $1 = 'block' ]]; then
+#         echo -ne '\e[1 q'
+#     elif [[ ${KEYMAP} == main ]] || [[ ${KEYMAP} == viins ]] ||
+#     [[ ${KEYMAP} = '' ]] || [[ $1 = 'beam' ]]; then
+#         echo -ne '\e[5 q'
+#     fi
+# }
+# zle -N zle-keymap-select
+#
+# _fix_cursor() { echo -ne '\e[5 q'; }
+# precmd_functions+=(_fix_cursor)
 
 # [[ Snippets ]]
 zinit snippet OMZP::git
@@ -160,17 +160,50 @@ command_exists() {
 if ! command_exists fzf || ! command_exists rg || ! command_exists bat || ! command_exists eza; then
     source ./.comp.zshrc
 else
+    source ./.comp.zshrc
     zinit light Aloxaf/fzf-tab
     zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
     zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
     zstyle ':completion:*' menu no
     zstyle ':completion:*:git-checkout:*' sort false
     zstyle ':completion:*:descriptions' format '[%d]'
-    zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'eza --color=always $realpath'
-    zstyle ':fzf-tab:complete:cd:*' fzf-preview 'eza -1 --icons -a --group-directories-first --git --color=always $realpath'
+    zstyle ':completion:*:*:*:*:processes' command "ps -u $USER -o pid,user,comm -w -w"
+    zstyle ':fzf-tab:*' popup-min-size 50 8
     zstyle ':fzf-tab:*' switch-group '<' '>'
     zstyle ':fzf-tab:*' fzf-command ftb-tmux-popup
+    zstyle ':fzf-tab:*' fzf-pad 4
+    zstyle ':fzf-tab:*' fzf-flags \
+    --border="rounded" \
+    --cycle \
+    --preview-window="border-rounded" \
+    --prompt=" " \
+    --marker=">" \
+    --pointer=" " \
+
+    zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'eza --color=always $realpath'
+    zstyle ':fzf-tab:complete:cd:*' fzf-preview 'eza -1 --icons -a --group-directories-first --git --color=always $realpath'
+    zstyle ':fzf-tab:complete:cd:*' popup-pad 30 0
+    zstyle ':fzf-tab:complete:(kill|ps):argument-rest' fzf-preview '[[ $group == "[process ID]" ]] && ps --pid=$word -o cmd --no-headers -w -w'
+    zstyle ':fzf-tab:complete:(kill|ps):argument-rest' fzf-flags --preview-window=down:3:wrap
+    zstyle ':fzf-tab:complete:systemctl-*:*' fzf-preview 'SYSTEMD_COLORS=1 systemctl status $word'
+    zstyle ':fzf-tab:complete:(-command-|-parameter-|-brace-parameter-|export|unset|expand):*' fzf-preview 'echo ${(P)word}'
+    zstyle ':fzf-tab:complete:git-log:*' fzf-preview 'git log --color=always $word'
+    zstyle ':fzf-tab:complete:git-help:*' fzf-preview 'git help $word | bat -plman --color=always'
+    zstyle ':fzf-tab:complete:git-(add|diff|restore):*' fzf-preview 'git diff $word | delta'
+    zstyle ':fzf-tab:complete:git-checkout:*' fzf-preview \
+        'case "$group" in
+        "modified file") git diff $word | delta ;;
+        "recent commit object name") git show --color=always $word | delta ;;
+        *) git log --color=always $word ;;
+        esac'
+    zstyle ':fzf-tab:complete:tldr:argument-1' fzf-preview 'tldr --color always $word'
 fi
+
+# [[ Shell integrations ]]
+command -v fzf &>/dev/null && eval "$(fzf --zsh)" && source ~/.fzf.zshrc
+command -v zoxide &>/dev/null && eval "$(zoxide init --cmd cd zsh)"
+command -v thefuck &>/dev/null && eval "$(thefuck --alias)"
+command -v fzf &>/dev/null && source ~/.fzf.git.zshrc.sh # credits https://github.com/junegunn/fzf-git.sh
 
 # [[ Aliases ]]
 type bat &>/dev/null && alias cat='bat'
@@ -182,11 +215,6 @@ alias ...=" cd ../.."
 alias ....=" cd ../../.."
 alias -g H="--help | bat --language=help --style=plain --wrap=character"
 
-# [[ Shell integrations ]]
-command -v fzf &>/dev/null && eval "$(fzf --zsh)" && source ~/.fzf.zshrc
-command -v zoxide &>/dev/null && eval "$(zoxide init --cmd cd zsh)"
-command -v thefuck &>/dev/null && eval "$(thefuck --alias)"
-command -v fzf &>/dev/null && source ~/.fzf.git.zshrc.sh # credits https://github.com/junegunn/fzf-git.sh
 
 # [[ Exports ]]
 # Affects filetype-coloring in eza, fd, and completion menus
@@ -200,7 +228,7 @@ export EZA_ICON_SPACING=1
 export GREP_OPTIONS="--color=auto"
 export GREP_COLOR='01;35'
 export EDITOR=nvim
-export VISUAL=nvim
+export VISUAL=zeditor
 export ZSH_AUTOSUGGEST_STRATEGY=(match_prev_cmd history completion)
 export HISTORY_SUBSTRING_SEARCH_HIGHLIGHT_FOUND='bg=#d33682,fg=#002b36,bold'
 export HISTORY_SUBSTRING_SEARCH_HIGHLIGHT_NOT_FOUND='bg=#dc322f,fg=#002b36,bold'

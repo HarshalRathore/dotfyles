@@ -124,6 +124,7 @@ M.toggle_neotree = function()
 		local ft = vim.api.nvim_buf_get_option(vim.api.nvim_win_get_buf(bufnr), "ft")
 		if string.find(ft, "neo%-tree") then
 			neo_tree_win_exists = true
+
 			break
 		else
 		end
