@@ -196,6 +196,10 @@ keymap("n", "[w", diagnostic_goto(false, "WARN"), opts("Prev Warning"))
 keymap("n", "]h", diagnostic_goto(true, "HINT"), opts("Next Warning"))
 keymap("n", "[h", diagnostic_goto(false, "HINT"), opts("Prev Warning"))
 
+-- Toogleterm
+local root_patterns = { ".git", ".clang-format", "pyproject.toml", "setup.py" }
+local root_dir = vim.fs.dirname(vim.fs.find(root_patterns, { upward = true })[1])
+
 -- TIP: Comment bellow keymaps if you are already using christoomey/vim-tmux-navigator plugin
 
 -- Keybinds to make split navigation easier.

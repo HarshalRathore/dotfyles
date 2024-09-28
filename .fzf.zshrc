@@ -20,6 +20,7 @@ export FZF_DEFAULT_OPTS='
     --bind=alt-enter:toggle+down,ctrl-a:toggle-all
 '
 export FZF_COMPLETION_OPTS=$FZF_DEFAULT_OPTS
+
 export FZF_DEFAULT_COMMAND='fd --type f --strip-cwd-prefix --hidden --follow --exclude .git --exclude node_modules --exclude .mypy_cache --exclude __pycache__ --exclude .myenv --exclude .venv --exclude .vscode --exclude .pytest --exclude migrations'
 export FZF_CTRL_T_COMMAND=$FZF_DEFAULT_COMMAND
 export FZF_ALT_C_COMMAND=$FZF_DEFAULT_COMMAND

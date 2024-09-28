@@ -1,1 +1,1 @@
-return { "nvim-zh/better-escape.vim" }
+return { "nvim-zh/better-escape.vim", event = "InsertEnter" }

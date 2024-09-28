@@ -1,6 +1,6 @@
 return {
 	"nvim-neo-tree/neo-tree.nvim",
-	version = "*",
+	version = "v3.x",
 	dependencies = {
 		"nvim-lua/plenary.nvim",
 		"nvim-tree/nvim-web-devicons", -- not strictly required, but recommended
@@ -58,12 +58,22 @@ return {
 		source_selector = {
 			winbar = true,
 			statusline = false,
+			sources = {
+				{ source = "filesystem" },
+				{ source = "buffers" },
+				{ source = "document_symbols" },
+				{ source = "git_status" },
+			},
 		},
 		filesystem = {
 			filtered_items = {
 				hide_by_name = {
 					"node_modules",
 				},
+				visible = true,
+				hide_gitignored = false,
+				hide_hidden = false,
+				hide_dotfiles = false,
 			},
 			use_libuv_file_watcher = true,
 			follow_current_file = {
@@ -76,6 +86,24 @@ return {
 				},
 			},
 		},
+		default_component_configs = {
+			name = {
+				highlight_opened_files = "all",
+			},
+		},
+		auto_clean_after_session_restore = true,
+		popup_border_style = "rounded",
+		sources = {
+			"filesystem",
+			"buffers",
+			"document_symbols",
+			"git_status",
+		},
+		close_if_last_window = true,
 		-- added = "✚ ", modified = "", deleted = "✖ ", renamed = "󰁕", untracked = "", ignored = " ", unstaged = "󰄱 ", staged = " ", conflict = " ",
 	},
+	config = function(_, opts)
+		vim.api.nvim_set_hl(0, "NeoTreeCursorLine", { bold = true, underline = true })
+		require("neo-tree").setup(opts)
+	end,
 }

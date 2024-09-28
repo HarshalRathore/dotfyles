@@ -13,7 +13,21 @@ return {
 			-- NOTE: `opts = {}` is the same as calling `require('fidget').setup({})`
 			{
 				"j-hui/fidget.nvim",
-				opts = {},
+				opts = {
+					progress = {
+						display = {
+							render_limit = 10,
+						},
+						ignore_done_already = true,
+						ignore_empty_message = true,
+					},
+					notification = {
+						window = {
+							winblend = 0,
+							border = "rounded",
+						},
+					},
+				},
 			},
 
 			-- Allows extra capabilities provided by nvim-cmp

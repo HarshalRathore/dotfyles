@@ -26,7 +26,7 @@ return {
 			button(
 				"p",
 				icons.git.repo .. " Find project",
-				":lua require('telescope').extensions.projects.projects()<CR>"
+				"<cmd>lua require('telescope').extensions.projects.projects()<cr>"
 			),
 			button("o", icons.ui.restore .. "  Recent Files", "<cmd>Telescope oldfiles<cr>"),
 			button("t", icons.kinds.nvchad.Text .. " Find text", ":Telescope live_grep <CR>"),

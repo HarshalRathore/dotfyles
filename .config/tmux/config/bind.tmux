@@ -58,10 +58,10 @@ bind C-j \
 bind r run '"$TMUX_PROGRAM" ${TMUX_SOCKET:+-S "$TMUX_SOCKET"} source "$TMUX_CONF"' \; display "#{TMUX_CONF} sourced"
 
 # Bind C-c to create a new tmux session.
-bind C-c new-session
+# bind C-c new-session
 
 # Bind C-f to prompt for finding a session and switching to it.
-bind F command-prompt -p find-session 'switch-client -t %%'
+bind T command-prompt -p find-session 'switch-client -t %%'
 
 # Bind Shift-Tab to switch to the last active session.
 bind BTab switch-client -l  
@@ -74,6 +74,9 @@ bind - split-window -v -c "#{pane_current_path}"
 
 # Split the current window vertically, maintaining the current pane's working directory.
 bind _ split-window -h -c "#{pane_current_path}"
+
+# new window with current path
+bind C-c new-window -c "#{pane_current_path}"
 
 # Commenting below pane movement keys since we are already using 
 # christoomey/vim-tmux-navigator plugin which provides C-hjkl movements 

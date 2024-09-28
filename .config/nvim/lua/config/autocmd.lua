@@ -1,3 +1,4 @@
+---@diagnostic disable: unused-function
 -- [[ Basic Autocommands ]]
 --  See `:help lua-guide-autocommands`
 
@@ -94,6 +95,7 @@ vim.api.nvim_create_autocmd({ "FileType" }, {
 		"DressingSelect",
 		"tsplayground",
 		"query",
+		"alpha",
 		"",
 	},
 	callback = function()
@@ -128,17 +130,61 @@ vim.api.nvim_create_autocmd({ "FileType" }, {
 	end,
 })
 
-vim.api.nvim_create_autocmd({ "CursorHold" }, {
-	desc = "Silently clears inactive snippets when the cursor is idle to keep your code clean.",
+vim.api.nvim_create_autocmd({ "FileType" }, {
+	desc = "Set terminal keymap for django server",
+	pattern = { "python" },
 	callback = function()
-		local status_ok, luasnip = pcall(require, "luasnip")
-		if not status_ok then
-			return
+		local function djangoServerTerm()
+			local upward = vim.fs.dirname(vim.fs.find("manage.py", { upward = true })[1])
+			local downward = vim.fs.dirname(vim.fs.find("manage.py", { downward = true })[1])
+			local django_root = upward or downward
+			local venv_path = vim.fs.dirname(vim.fs.find(".venv", { upward = true })[1])
+			local activate_cmd = ""
+			if vim.fn.filereadable(venv_path) == 1 then
+				activate_cmd = "source " .. venv_path .. " && "
+			end
+			local cmd = activate_cmd .. "python " .. django_root .. "/manage.py runserver"
+			local term = require("toggleterm.terminal").Terminal:new({
+				cmd = cmd,
+				dir = django_root,
+				display_name = "DjangoServer",
+				close_on_exit = false,
+				direction = "float",
+				winbar = {
+					enabled = true,
+					name_formatter = function(term) --  term: Terminal
+						return term.name
+					end,
+				},
+				open_mapping = false,
+				float_opts = {
+					border = "curved",
+					title_pos = "center",
+				},
+			})
+			term:toggle()
 		end
-		if luasnip.expand_or_jumpable() then
-			-- ask maintainer for option to make this silent
-			-- luasnip.unlink_current()
-			vim.cmd([[silent! lua require("luasnip").unlink_current()]])
-		end
+		vim.api.nvim_buf_set_keymap(
+			0,
+			"n",
+			"<leader>c/",
+			"<cmd>lua djangoServerTerm()<CR>",
+			{ noremap = true, silent = true, desc = "Start DjangoServer" }
+		)
 	end,
 })
+
+-- vim.api.nvim_create_autocmd({ "CursorHold" }, {
+-- 	desc = "Silently clears inactive snippets when the cursor is idle to keep your code clean.",
+-- 	callback = function()
+-- 		local status_ok, luasnip = pcall(require, "luasnip")
+-- 		if not status_ok then
+-- 			return
+-- 		end
+-- 		if luasnip.expand_or_jumpable() then
+-- 			-- ask maintainer for option to make this silent
+-- 			-- luasnip.unlink_current()
+-- 			vim.cmd([[silent! lua require("luasnip").unlink_current()]])
+-- 		end
+-- 	end,
+-- })

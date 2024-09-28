@@ -35,6 +35,8 @@ return {
 			zsh = { "beautysh" },
 			sh = { "beautysh" },
 			bash = { "beautysh" },
+			html = { "prettierd", "prettier" },
+			css = { "prettierd", "prettier" },
 			-- java = { "google-java-format" },
 			--
 			-- You can use 'stop_after_first' to run the first available formatter from the list

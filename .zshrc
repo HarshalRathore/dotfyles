@@ -152,15 +152,10 @@ autoload -U url-quote-magic bracketed-paste-magic
 zle -N self-insert url-quote-magic
 zle -N bracketed-paste bracketed-paste-magic
 
-command_exists() {
-    command -v "$1" >/dev/null 2>&1
-}
-
 # Completion styling
-if ! command_exists fzf || ! command_exists rg || ! command_exists bat || ! command_exists eza; then
-    source ./.comp.zshrc
+if (( ! $+commands[fzf] )) || (( ! $+commands[bat] )) || (( ! $+commands[eza] )) || (( ! $+commands[rg] )) || (( ! $+commands[fd] )) then
+    source ~/.comp.zshrc
 else
-    source ./.comp.zshrc
     zinit light Aloxaf/fzf-tab
     zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
     zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
@@ -173,14 +168,23 @@ else
     zstyle ':fzf-tab:*' fzf-command ftb-tmux-popup
     zstyle ':fzf-tab:*' fzf-pad 4
     zstyle ':fzf-tab:*' fzf-flags \
-    --border="rounded" \
-    --cycle \
-    --preview-window="border-rounded" \
-    --prompt=" " \
-    --marker=">" \
-    --pointer=" " \
+        --color=fg:-1,fg+:-1,bg:-1,bg+:-1 \
+        --color=hl:#f38ba8,hl+:#5fd7ff,info:#cba6f7,marker:#f5e0dc \
+        --color=prompt:#cba6f7,spinner:#f5e0dc,pointer:#f5e0dc,header:#f38ba8 \
+        --color=border:#6c7086,label:#aeaeae,query:#d9d9d9 \
+        --cycle \
+        --preview-window="border-rounded" \
+        --prompt=" " \
+        --marker=">" \
+        --pointer=" " \
+        --separator="─" \
+        --scroll-off=5 \
+        --preview-window=border-left \
+        --scrollbar="│" \
+        --layout="reverse" \
+        --info="right" \
 
-    zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'eza --color=always $realpath'
+        zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'eza --color=always $realpath'
     zstyle ':fzf-tab:complete:cd:*' fzf-preview 'eza -1 --icons -a --group-directories-first --git --color=always $realpath'
     zstyle ':fzf-tab:complete:cd:*' popup-pad 30 0
     zstyle ':fzf-tab:complete:(kill|ps):argument-rest' fzf-preview '[[ $group == "[process ID]" ]] && ps --pid=$word -o cmd --no-headers -w -w'
@@ -195,7 +199,7 @@ else
         "modified file") git diff $word | delta ;;
         "recent commit object name") git show --color=always $word | delta ;;
         *) git log --color=always $word ;;
-        esac'
+    esac'
     zstyle ':fzf-tab:complete:tldr:argument-1' fzf-preview 'tldr --color always $word'
 fi
 

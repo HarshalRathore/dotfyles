@@ -21,6 +21,8 @@ _G.utils = require("utils.util")
 
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
+require("config.options") -- Import vim.opt.* settings from lua/config/options.lua
+require("config.autocmd") -- Import custom autocmd commands
 
 -- Setup lazy.nvim
 require("lazy").setup({
@@ -31,6 +33,4 @@ require("lazy").setup({
 	checker = { enabled = true },
 })
 
-require("config.options") -- Import vim.opt.* settings from lua/config/options.lua
 require("config.keymaps") -- Import key-mappings from lua/config/keymaps.lua
-require("config.autocmd") -- Import custom autocmd commands

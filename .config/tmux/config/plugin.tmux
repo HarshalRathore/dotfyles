@@ -1,5 +1,3 @@
-
-
 #--------------------------------------------------------------#
 ##          Plugins                                           ##
 #--------------------------------------------------------------#
@@ -19,7 +17,7 @@ set -g @tokyo-night-tmux_show_git 1
 set -g @resurrect-capture-pane-contents 'on'
 set -g @resurrect-strategy-nvim 'session'
 
-set -g @fingers-key S
+set -g @fingers-jump-key S
 
 # List of plugins to load with tmux.
 set -g @plugin 'tmux-plugins/tpm'
@@ -54,11 +52,11 @@ set-environment -g TMUX_PLUGIN_MANAGER_PATH "${TMUX_DATA_DIR}/plugins"
 
 # Check if TPM is not installed and install it
 if-shell '[ ! -d "${TMUX_PLUGIN_MANAGER_PATH}/tpm" ]' \
-  'display-message "🚀 Installing Plugin Manager!!!"; run-shell "git clone https://github.com/tmux-plugins/tpm ${TMUX_PLUGIN_MANAGER_PATH}/tpm"'
+  'display-message "🚀 Installing Plugin Manager!!! Press Ctrl+Shift+I"; run-shell "git clone https://github.com/tmux-plugins/tpm ${TMUX_PLUGIN_MANAGER_PATH}/tpm"'
 
 # Source TPM if it exists
 if-shell '[ -f "${TMUX_PLUGIN_MANAGER_PATH}/tpm/tpm" ]' \
   'run-shell "${TMUX_PLUGIN_MANAGER_PATH}/tpm/tpm"'
-      
+
 # Initialize TPM (Tmux Plugin Manager) for managing plugins.
 # run -b '~/.tmux/plugins/tpm/tpm'

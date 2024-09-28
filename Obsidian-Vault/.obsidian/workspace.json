@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "05a17476a32f9ded",
+        "id": "a398432094716349",
         "type": "tabs",
         "children": [
           {
-            "id": "9c2acdb8208620ff",
+            "id": "c382d03d4eaf3aee",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DailyNotes/2024/Sep-09/12_Thu.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -69,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "e90b8a9e49fee251",
@@ -147,7 +142,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9c2acdb8208620ff",
+  "active": "0b916a15688e3007",
   "lastOpenFiles": [
     "DailyNotes/2024/Sep-09/12_Thu.md",
     "DailyNotes/2024/Sep-09/04_Wed.md",
