@@ -19,3 +19,4 @@ _darcs
 alacritty.*\.bak
 lazy-lock\.json
 .luarc.json
+tags
