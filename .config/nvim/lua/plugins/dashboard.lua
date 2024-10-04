@@ -4,21 +4,21 @@ return {
 	lazy = false,
 	dependencies = { "nvim-tree/nvim-web-devicons" },
 	config = function()
-		-- require'alpha'.setup(require'alpha.themes.startify'.config)
 		local alpha = require("alpha")
 		local dashboard = require("alpha.themes.dashboard")
 		local icons = require("utils.icons").icons
-		-- local datetime = os.date(" %H:%M. ")
 		local datetime = tonumber(os.date(" %H "))
 		local stats = require("lazy").stats()
 		local total_plugins = stats.count
-
+		local get_header = require("utils.startpage-headers")
 		local function button(sc, txt, keybind, keybind_opts)
 			local b = dashboard.button(sc, txt, keybind, keybind_opts)
 			b.opts.hl_shortcut = "MiniIconsPurple"
 			return b
 		end
-		local get_header = require("utils.startpage-headers")
+
+		local root_dir = vim.fs.dirname(vim.fs.find({ ".git" }, { upward = true })[1])
+			or vim.fs.dirname(vim.fs.find({ ".git" }, { downward = true })[1])
 		dashboard.section.header.val = get_header(0, true) -- (index, bool) index of ascii art bool if you want random or not eg: (30, false)
 		dashboard.section.buttons.val = {
 			button("e", icons.ui.new_file .. " New file", ":ene <BAR> startinsert <CR>"),
@@ -41,11 +41,6 @@ return {
 			local nvim_version_info = "   v" .. version.major .. "." .. version.minor .. "." .. version.patch
 			local ms = (math.floor(stats.startuptime * 100 + 0.5) / 100)
 			local value = footer_datetime .. "   Plugins " .. total_plugins .. nvim_version_info
-			-- local len = #dashboard.section.header.val[1]
-			-- len = (len / 4)
-			-- for _ = 1, len do
-			-- 	value = " " .. value
-			-- end
 			return value
 		end
 
@@ -62,17 +57,12 @@ return {
 		end
 		-- table.insert(dashboard.section.header.val, footer())
 
-		-- dashboard.section.header.opts.hl = "Function"
-		-- dashboard.section.buttons.opts.hl = "Conceal"
-		-- dashboard.section.footer.opts.hl = "Conceal"
-
 		-- dashboard.section.footer.val = require("alpha.fortune")()
 		dashboard.section.footer.val = footer()
 
 		local greeting = function()
 			-- Determine the appropriate greeting based on the hour
 			local mesg
-			-- Get UserName
 			local username = os.getenv("USERNAME")
 			if datetime >= 0 and datetime < 6 then
 				mesg = "Dreaming..󰒲 󰒲 "
@@ -86,6 +76,39 @@ return {
 				mesg = "Hi " .. username .. ", it's getting late, get some sleep 😴"
 			end
 			return mesg
+		end
+
+		local function capture(cmd, raw)
+			local f = assert(io.popen(cmd, "r"))
+			local s = assert(f:read("*a"))
+			f:close()
+			if raw then
+				return s
+			end
+			s = string.gsub(s, "^%s+", "")
+			s = string.gsub(s, "%s+$", "")
+			s = string.gsub(s, "[\n\r]+", " ")
+			return s
+		end
+
+		local function split(source, sep)
+			local result, i = {}, 1
+			while true do
+				local a, b = source:find(sep)
+				if not a then
+					break
+				end
+				local candidat = source:sub(1, a - 1)
+				if candidat ~= "" then
+					result[i] = candidat
+				end
+				i = i + 1
+				source = source:sub(b + 1)
+			end
+			if source ~= "" then
+				result[i] = source
+			end
+			return result
 		end
 
 		local bottom_section = {
@@ -137,6 +160,28 @@ return {
 			callback = function()
 				vim.cmd([[ set laststatus=0 | autocmd BufUnload <buffer> set laststatus=3 ]])
 			end,
+		})
+
+		vim.api.nvim_create_augroup("vimrc_alpha", { clear = true })
+		vim.api.nvim_create_autocmd({ "User" }, {
+			group = "vimrc_alpha",
+			pattern = "AlphaReady",
+			callback = function()
+				if vim.fn.executable("onefetch") == 1 then
+					local header = split(
+						capture(
+							[[onefetch 2>/dev/null | sed 's/\x1B[@A-Z\\\]^_]\|\x1B\[[0-9:;<=>?]*[-!"#$%&'"'"'()*+,.\/]*[][\\@A-Z^_`a-z{|}~]//g']],
+							true
+						),
+						"\n"
+					)
+					if next(header) ~= nil then
+						require("alpha.themes.dashboard").section.header.val = header
+						require("alpha").redraw()
+					end
+				end
+			end,
+			once = true,
 		})
 	end,
 }
