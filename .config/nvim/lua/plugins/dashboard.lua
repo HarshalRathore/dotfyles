@@ -21,18 +21,18 @@ return {
 		local get_header = require("utils.startpage-headers")
 		dashboard.section.header.val = get_header(0, true) -- (index, bool) index of ascii art bool if you want random or not eg: (30, false)
 		dashboard.section.buttons.val = {
-			button("e", icons.ui.new_file .. "  New file", ":ene <BAR> startinsert <CR>"),
-			button("f", icons.ui.files .. "  Find Files", ":Telescope find_files <CR>"),
+			button("e", icons.ui.new_file .. " New file", ":ene <BAR> startinsert <CR>"),
+			button("f", icons.ui.files .. " Find Files", ":Telescope find_files <CR>"),
 			button(
 				"p",
 				icons.git.repo .. " Find project",
 				"<cmd>lua require('telescope').extensions.projects.projects()<cr>"
 			),
-			button("o", icons.ui.restore .. "  Recent Files", "<cmd>Telescope oldfiles<cr>"),
+			button("o", icons.ui.restore .. " Recent Files", "<cmd>Telescope oldfiles<cr>"),
 			button("t", icons.kinds.nvchad.Text .. " Find text", ":Telescope live_grep <CR>"),
 			button("c", " " .. " Neovim config", "<cmd>e ~/.config/nvim/ | cd %:p:h<cr>"),
 			button("l", "󰒲  Lazy", "<cmd>Lazy<cr>"),
-			button("q", icons.ui.close .. "  Quit NVIM", ":qa<CR>"),
+			button("q", icons.ui.close .. " Quit NVIM", ":qa<CR>"),
 		}
 
 		local function footer()
@@ -69,18 +69,23 @@ return {
 		-- dashboard.section.footer.val = require("alpha.fortune")()
 		dashboard.section.footer.val = footer()
 
-		local greeting
-		-- Determine the appropriate greeting based on the hour
-		if datetime >= 0 and datetime < 6 then
-			greeting = "Dreaming..󰒲 󰒲 "
-		elseif datetime >= 6 and datetime < 12 then
-			greeting = "🌅 Hi Harshal, Good Morning ☀️"
-		elseif datetime >= 12 and datetime < 18 then
-			greeting = "🌞 Hi Harshal, Good Afternoon ☕️"
-		elseif datetime >= 18 and datetime < 21 then
-			greeting = "🌆 Hi Harshal, Good Evening 🌙"
-		else
-			greeting = "Hi Harshal, it's getting late, get some sleep 😴"
+		local greeting = function()
+			-- Determine the appropriate greeting based on the hour
+			local mesg
+			-- Get UserName
+			local username = os.getenv("USERNAME")
+			if datetime >= 0 and datetime < 6 then
+				mesg = "Dreaming..󰒲 󰒲 "
+			elseif datetime >= 6 and datetime < 12 then
+				mesg = "🌅 Hi " .. username .. ", Good Morning ☀️"
+			elseif datetime >= 12 and datetime < 18 then
+				mesg = "🌞 Hi " .. username .. ", Good Afternoon ☕️"
+			elseif datetime >= 18 and datetime < 21 then
+				mesg = "🌆 Hi " .. username .. ", Good Evening 🌙"
+			else
+				mesg = "Hi " .. username .. ", it's getting late, get some sleep 😴"
+			end
+			return mesg
 		end
 
 		local bottom_section = {
