@@ -1,3 +1,14 @@
+# NOTES:
+# - (keyboard)
+#  - Ctrl+Shift+Space toggle into vi mode
+#  - Ctrl+Shift+Enter spawn new instance
+#  - Ctrl+Shift+b backward search
+#  - Ctrl+Shift+f forward search
+
+
+[general]
+live_config_reload = true
+
 [bell]
 animation = "EaseOutExpo"
 duration = 0
@@ -15,7 +26,7 @@ unfocused_hollow = false
 TERM = "xterm-256color"
 
 [font]
-size = 11
+size = 8.5
 
   [font.bold]
   family = "JetBrainsMono Nerd Font"
@@ -46,9 +57,6 @@ hide_when_typing = true
 [selection]
 semantic_escape_chars = ",│`|:\"' ()[]{}<>"
 
-[terminal.shell]
-program = "/bin/zsh"
-
 [window]
 decorations = "Full"
 dynamic_title = true
@@ -62,6 +70,11 @@ startup_mode = "Maximized"
   x = 0
   y = 0
 
+[keyboard]
+bindings = [
+   { key = "Return", mods = "Control|Shift", action = "SpawnNewInstance" }
+]
+
 # Colors (Oxocarbon)
 # Source https://vimcolorschemes.com/nyoom-engineering/oxocarbon.nvim
 [colors.primary]
@@ -72,7 +85,6 @@ foreground = '#ffffff'
 text = '#161616' 
 cursor = '#78a9ff'
 
-# Normal colors
 [colors.normal]
 black   = '#161616'
 red     = '#ee5396'
@@ -83,7 +95,6 @@ magenta = '#be95ff'
 cyan    = '#3ddbd9'   
 white   = '#ffffff'  
 
-# Bright colors
 [colors.bright]
 black   = '#525252'
 red     = '#ee5396'
@@ -94,7 +105,36 @@ magenta = '#be95ff'
 cyan    = '#3ddbd9'   
 white   = '#ffffff'  
 
-[general]
-live_config_reload = true
+[colors.search]
+matches = { foreground = '#e1e5f6', background = '#34457f' } 
+focused_match = { foreground = '#ffffff', background = '#33b1ff' } 
 
-[terminal]
+[colors.hints]
+start = { foreground = '#ffffff', background = '#ff7eb6' }
+end = { foreground = '#ffffff', background = '#ee5396' }
+
+[colors.line_indicator]
+foreground = '#ffffff'
+background = '#161616'
+
+[colors.footer_bar]
+foreground = '#ffffff'
+background = '#1f1f1f'
+
+[colors.selection]
+text = '#1b1b1b'       
+background = '#78a9ff' 
+
+[colors.vi_mode_cursor]
+text = '#1b1b1b'  
+cursor = '#78a9ff'
+
+[colors.dim]
+black   = '#0f0f0f'
+red     = '#712b2b'
+green   = '#5f6f3a'
+yellow  = '#a17e4d'
+blue    = '#456877'
+magenta = '#704d68'
+cyan    = '#4d7770'
+white   = '#8e8e8e'
