@@ -206,7 +206,7 @@ fi
 # [[ Shell integrations ]]
 command -v fzf &>/dev/null && eval "$(fzf --zsh)" && source ~/.fzf.zshrc
 command -v zoxide &>/dev/null && eval "$(zoxide init --cmd cd zsh)"
-command -v thefuck &>/dev/null && eval "$(thefuck --alias)"
+command -v thefuck &>/dev/null && eval "$(thefuck --alias fuck)"
 command -v fzf &>/dev/null && source ~/.fzf.git.zshrc.sh # credits https://github.com/junegunn/fzf-git.sh
 
 # [[ Aliases ]]

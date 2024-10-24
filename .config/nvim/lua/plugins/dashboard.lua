@@ -17,8 +17,6 @@ return {
 			return b
 		end
 
-		local root_dir = vim.fs.dirname(vim.fs.find({ ".git" }, { upward = true })[1])
-			or vim.fs.dirname(vim.fs.find({ ".git" }, { downward = true })[1])
 		dashboard.section.header.val = get_header(0, true) -- (index, bool) index of ascii art bool if you want random or not eg: (30, false)
 		dashboard.section.buttons.val = {
 			button("e", icons.ui.new_file .. " New file", ":ene <BAR> startinsert <CR>"),
@@ -162,6 +160,7 @@ return {
 			end,
 		})
 
+		-- onefetch header for alpha dashboard if onefetch is installed and git repo is present
 		vim.api.nvim_create_augroup("vimrc_alpha", { clear = true })
 		vim.api.nvim_create_autocmd({ "User" }, {
 			group = "vimrc_alpha",
