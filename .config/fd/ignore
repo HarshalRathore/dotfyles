@@ -1,0 +1,76 @@
+# Version control directories
+.git
+.svn
+.hg
+.cvs
+
+# Node.js
+node_modules
+.npm
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.mypy_cache
+.pytest
+migrations
+.venv
+.myenv
+env/
+venv/
+.idea/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+out/
+
+# Rust
+target/
+
+# Go
+vendor/
+*.exe
+*.out
+
+# Ruby
+.bundle
+vendor/bundle
+
+# PHP Composer
+vendor/
+
+# C/C++ build directories
+build/
+CMakeFiles/
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+
+# Logs
+*.log
+logs/
+
+# MacOS
+.DS_Store
+
+# Editors
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# Testing/coverage
+.coverage
+coverage/
+.nyc_output/
+

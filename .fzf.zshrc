@@ -21,9 +21,9 @@ export FZF_DEFAULT_OPTS='
 '
 export FZF_COMPLETION_OPTS=$FZF_DEFAULT_OPTS
 
-export FZF_DEFAULT_COMMAND='fd --type f --strip-cwd-prefix --hidden --follow --exclude .git --exclude node_modules --exclude .mypy_cache --exclude __pycache__ --exclude .myenv --exclude .venv --exclude .vscode --exclude .pytest --exclude migrations'
+export FZF_DEFAULT_COMMAND='fd --type f --strip-cwd-prefix --hidden --follow --ignore-file ~/.config/fd/ignore'
 export FZF_CTRL_T_COMMAND=$FZF_DEFAULT_COMMAND
-export FZF_ALT_C_COMMAND=$FZF_DEFAULT_COMMAND
+export FZF_ALT_C_COMMAND='fd --type d --strip-cwd-prefix --hidden --follow --ignore-file ~/.config/fd/ignore'
 
 export FZF_CTRL_R_OPTS="
 --bind 'ctrl-y:execute-silent(echo -n {2..} | xclip -sel clip)+abort'
