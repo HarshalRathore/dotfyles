@@ -1,0 +1,9 @@
+[Unit]
+Description=Timer to toggle Blur My Shell extension based on battery status
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=1min
+
+[Install]
+WantedBy=timers.target

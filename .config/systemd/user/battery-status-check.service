@@ -1,0 +1,7 @@
+[Unit]
+Description=Toggle Blur My Shell extension based on battery status
+After=graphical-session.target
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /usr/local/bin/check-battery-and-toggle-blur
