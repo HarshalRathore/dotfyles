@@ -26,3 +26,28 @@
 ![Screenshot From 2024-10-04 21-18-10](https://github.com/user-attachments/assets/8cb3e141-036f-493a-80bb-334b637d5e29)
 
 ![Screenshot From 2024-10-04 21-18-47](https://github.com/user-attachments/assets/95811140-76fb-4a75-a5d5-88c0cc9a102b)
+
+
+
+### Decrypt and Restore on a New Machine
+
+To use this on a new machine, follow these steps:
+
+1. Clone the Git repository and pull the encrypted backup (ssh_backup.enc).
+
+2. Decrypt the encrypted file back to a .tar.gz archive:
+
+```openssl enc -aes-256-cbc -d -in ssh_backup.enc -out ssh_backup.tar.gz```
+
+3. Extract the decrypted archive back into your .ssh directory:
+
+```tar -xzf ssh_backup.tar.gz -C ~/```
+
+4. Set the correct permissions for the .ssh directory and its contents:
+
+```chmod 700 ~/.ssh```
+```chmod 600 ~/.ssh/*```
+
+5. Add any required keys to the SSH agent:
+
+```ssh-add ~/.ssh/<your-key-file>```
