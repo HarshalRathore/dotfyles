@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Check if the power supply is connected
+POWER_STATUS=$(cat /sys/class/power_supply/AC0/online)
+
+# Enable or disable the GNOME extension based on power supply connection
+if [ "$POWER_STATUS" == "1" ]; then
+    gnome-extensions enable blur-my-shell@aunetx
+else
+    gnome-extensions disable blur-my-shell@aunetx
+fi
