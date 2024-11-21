@@ -19,7 +19,7 @@
 
 # Autostart or attach to a tmux session when launching Zsh
 # Ensure the terminal is interactive before launching tmux
-if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
+if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ] && [  "$TERM_PROGRAM" != vscode ]; then
     if ! tmux ls > /dev/null 2>&1; then
         exec tmux new-session -As workspace
     else
