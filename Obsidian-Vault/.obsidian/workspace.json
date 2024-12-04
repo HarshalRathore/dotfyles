@@ -4,15 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a398432094716349",
+        "id": "591d127ccc96567f",
         "type": "tabs",
         "children": [
           {
-            "id": "c382d03d4eaf3aee",
+            "id": "212956e7a8f73588",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Kubernetes/TLS in Kubernetes/TLS Certificates.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "TLS Certificates"
             }
           }
         ]
@@ -35,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -50,7 +58,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -58,14 +68,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 268.5019874572754
   },
   "right": {
     "id": "e90b8a9e49fee251",
@@ -81,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DailyNotes/2024/Sep-09/12_Thu.md",
+                "file": "Kubernetes/TLS in Kubernetes/TLS Certificates.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,7 +101,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for TLS Certificates"
             }
           },
           {
@@ -98,10 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DailyNotes/2024/Sep-09/12_Thu.md",
+                "file": "Kubernetes/TLS in Kubernetes/TLS Certificates.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from TLS Certificates"
             }
           },
           {
@@ -112,7 +128,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -121,8 +139,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DailyNotes/2024/Sep-09/12_Thu.md"
-              }
+                "file": "Kubernetes/TLS in Kubernetes/TLS Certificates.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of TLS Certificates"
+            }
+          },
+          {
+            "id": "f28caaa018b6d23b",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           }
         ]
@@ -139,11 +173,32 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "markdown-importer:Open format converter": false,
+      "publish:Publish changes...": false,
+      "hide-folders:Show hidden folders": false
     }
   },
   "active": "0b916a15688e3007",
   "lastOpenFiles": [
+    "Kubernetes/Main Kubernetes Components/Main Kubernetes Components.md",
+    "Kubernetes/TLS in Kubernetes/TLS Certificates.md",
+    "Untitled.md",
+    "Kubernetes/TLS in Kubernetes",
+    "Kubernetes/Main Kubernetes Components/attachments/Pasted image 20241202221024.png",
+    "Services.md",
+    "Kubernetes/Main Kubernetes Components/attachments/Pasted image 20241201193952.png",
+    "Kubernetes/Main Kubernetes Components/attachments/Screenshot From 2024-12-01 18-22-03.png",
+    "Kubernetes/Main Kubernetes Components/attachments",
+    "Pasted image 20241201185534.png",
+    "Kubernetes/Main Kubernetes Components/attachments/Pasted image 20241201185136.png",
+    "Kubernetes/Main Kubernetes Components",
+    "Media-attachment/Pasted image 20241201184607.png",
+    "Media-attachment",
+    "Media-attachment/Pasted image 20241201183813.png",
+    "Kubernetes",
+    "DailyNotes/2024/Sep-09/28_Sat.md",
     "DailyNotes/2024/Sep-09/12_Thu.md",
     "DailyNotes/2024/Sep-09/04_Wed.md",
     "Templates/DailyNotes.md",

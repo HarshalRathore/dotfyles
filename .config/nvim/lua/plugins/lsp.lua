@@ -186,6 +186,7 @@ return {
 				-- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
 				dockerls = {},
 				docker_compose_language_service = {},
+				ts_ls = {},
 				marksman = {},
 				lua_ls = {
 					settings = {
@@ -227,12 +228,14 @@ return {
 			local formatters = {
 				"stylua", -- Used to format Lua code
 				"black", -- Used to format python code
+				"prettierd",
 			}
 			vim.list_extend(ensure_installed, formatters)
 			local linters = {
 				"luacheck",
 				"pylint",
 				"hadolint",
+				"eslint",
 			}
 			vim.list_extend(ensure_installed, linters)
 			require("mason-tool-installer").setup({ ensure_installed = ensure_installed })

@@ -1,3 +1,7 @@
 {
-  "promptDelete": false
+  "promptDelete": true,
+  "newFileLocation": "root",
+  "attachmentFolderPath": "./attachments",
+  "readableLineLength": true,
+  "showLineNumber": false
 }
