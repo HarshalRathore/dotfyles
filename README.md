@@ -1,9 +1,9 @@
-```
- _____     ______     ______   ______   __  __     __         ______    
-/\  __-.  /\  __ \   /\__  _\ /\  ___\ /\ \_\ \   /\ \       /\  ___\   
-\ \ \/\ \ \ \ \/\ \  \/_/\ \/ \ \  __\ \ \____ \  \ \ \____  \ \  __\   
- \ \____-  \ \_____\    \ \_\  \ \_\    \/\_____\  \ \_____\  \ \_____\ 
-  \/____/   \/_____/     \/_/   \/_/     \/_____/   \/_____/   \/_____/                     
+ ```
+                     _____     ______     ______   ______   __  __     __         ______    
+                    /\  __-.  /\  __ \   /\__  _\ /\  ___\ /\ \_\ \   /\ \       /\  ___\   
+                    \ \ \/\ \ \ \ \/\ \  \/_/\ \/ \ \  __\ \ \____ \  \ \ \____  \ \  __\   
+                     \ \____-  \ \_____\    \ \_\  \ \_\    \/\_____\  \ \_____\  \ \_____\ 
+                      \/____/   \/_____/     \/_/   \/_/     \/_____/   \/_____/   \/_____/                     
 ```
 
 ## Some pics
@@ -51,3 +51,5 @@ To use this on a new machine, follow these steps:
 5. Add any required keys to the SSH agent:
 
 ```ssh-add ~/.ssh/<your-key-file>```
+
+#### Time Wasted successfully [![wakatime](https://wakatime.com/badge/github/HarshalRathore/dotfyles.svg)](https://wakatime.com/badge/github/HarshalRathore/dotfyles)
