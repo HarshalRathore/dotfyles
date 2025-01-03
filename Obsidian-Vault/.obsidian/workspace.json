@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/TLS in Kubernetes/TLS Certificates.md",
+                "file": "Kubernetes/TLS in Kubernetes/How TLS Certificates Work in Kubernetes and Manual Cluster Setup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TLS Certificates"
+              "title": "How TLS Certificates Work in Kubernetes and Manual Cluster Setup"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/TLS in Kubernetes/TLS Certificates.md",
+                "file": "Kubernetes/TLS in Kubernetes/How TLS Certificates Work in Kubernetes and Manual Cluster Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for TLS Certificates"
+              "title": "Backlinks for How TLS Certificates Work in Kubernetes and Manual Cluster Setup"
             }
           },
           {
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kubernetes/TLS in Kubernetes/TLS Certificates.md",
+                "file": "Kubernetes/TLS in Kubernetes/How TLS Certificates Work in Kubernetes and Manual Cluster Setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from TLS Certificates"
+              "title": "Outgoing links from How TLS Certificates Work in Kubernetes and Manual Cluster Setup"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kubernetes/TLS in Kubernetes/TLS Certificates.md"
+                "file": "Kubernetes/TLS in Kubernetes/How TLS Certificates Work in Kubernetes and Manual Cluster Setup.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of TLS Certificates"
+              "title": "Outline of How TLS Certificates Work in Kubernetes and Manual Cluster Setup"
             }
           },
           {
@@ -180,10 +180,14 @@
       "hide-folders:Show hidden folders": false
     }
   },
-  "active": "0b916a15688e3007",
+  "active": "212956e7a8f73588",
   "lastOpenFiles": [
-    "Kubernetes/Main Kubernetes Components/Main Kubernetes Components.md",
+    "Kubernetes/TLS in Kubernetes/attachments/Pasted image 20241204113120.png",
+    "Kubernetes/TLS in Kubernetes/attachments/Pasted image 20241204112940.png",
+    "Kubernetes/TLS in Kubernetes/attachments",
     "Kubernetes/TLS in Kubernetes/TLS Certificates.md",
+    "Kubernetes/TLS in Kubernetes/How TLS Certificates Work in Kubernetes and Manual Cluster Setup.md",
+    "Kubernetes/Main Kubernetes Components/Main Kubernetes Components.md",
     "Untitled.md",
     "Kubernetes/TLS in Kubernetes",
     "Kubernetes/Main Kubernetes Components/attachments/Pasted image 20241202221024.png",
