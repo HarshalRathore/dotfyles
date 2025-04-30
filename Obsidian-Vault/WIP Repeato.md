@@ -1,0 +1,16 @@
+- [x] fix user Roles in EditUser.tsx
+- [x] fix service input field in EditVendors.tsx
+- [x] Get Vendor Society and Rider Society table
+- [x] While vendor selecting the riders, if any society of rider get matched with vendor society then provide the rider as option to be added. once already added then rider mut not be available in the list.
+- [x] Rider page: Admin can assign the multiple society to the rider.
+- [x] Vendor page: Admin can assign  the multiple society to the vendor.
+- [x] order page: Filters:
+	- [x] society
+	- [x] vendors
+	- [x] riders
+	- [x] service
+	- [x] date, today, tomorrow, week, next week
+- [x] in the order page, before assign the Vendors, must check the order has been selected via filters (Society, service, Vendor not assigned). Then only provide the popup of Vendors list to select the vendor.
+- [x] Before Rider assignment, must check that the fillters applied already. like( Vendor assigned, society selected)
+- [x] Vendor User approval pending
+- [x] Rider user approval pending

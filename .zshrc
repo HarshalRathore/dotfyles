@@ -237,3 +237,4 @@ export HISTORY_SUBSTRING_SEARCH_HIGHLIGHT_NOT_FOUND='bg=#dc322f,fg=#002b36,bold'
 if [[ -f ~/.func.zshrc.sh ]]; then
     source ~/.func.zshrc.sh
 fi
+alias kubectl="minikube kubectl --"

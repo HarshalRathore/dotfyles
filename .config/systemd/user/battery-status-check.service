@@ -5,3 +5,8 @@ After=graphical-session.target
 [Service]
 Type=oneshot
 ExecStart=/bin/bash /usr/local/bin/check-battery-and-toggle-blur
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=default.target

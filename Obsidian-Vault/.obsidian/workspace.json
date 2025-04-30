@@ -8,20 +8,119 @@
         "type": "tabs",
         "children": [
           {
-            "id": "212956e7a8f73588",
+            "id": "414fe448b580d886",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/TLS in Kubernetes/How TLS Certificates Work in Kubernetes and Manual Cluster Setup.md",
+                "file": "Kubernetes/📄 Building a Kubernetes Cluster from Scratch (Step-by-Step)/Install kubernetes components.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "How TLS Certificates Work in Kubernetes and Manual Cluster Setup"
+              "title": "Install kubernetes components"
+            }
+          },
+          {
+            "id": "6e97665a3963398e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kubernetes/📄 Building a Kubernetes Cluster from Scratch (Step-by-Step)/Install kubernetes components.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Install kubernetes components"
+            }
+          },
+          {
+            "id": "b7890bd0f17d859a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kubernetes/IPv4 - Architecture, Addressing, and Protocol Concepts.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "IPv4 - Architecture, Addressing, and Protocol Concepts"
+            }
+          },
+          {
+            "id": "6875666d3690cd0e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kubernetes/📄 Building a Kubernetes Cluster from Scratch (Step-by-Step)/Bootstrapping Control Place.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Bootstrapping Control Place"
+            }
+          },
+          {
+            "id": "ab2405904b74d281",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kubernetes/Main Kubernetes Components/Pods.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Pods"
+            }
+          },
+          {
+            "id": "d0532d3c943e96c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kubernetes/📄 Building a Kubernetes Cluster from Scratch (Step-by-Step)/Introduction.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Introduction"
+            }
+          },
+          {
+            "id": "28af343333d8eb25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kubernetes/📄 Building a Kubernetes Cluster from Scratch (Step-by-Step)/Kubernetes installation steps.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Kubernetes installation steps"
+            }
+          },
+          {
+            "id": "8d8c7c15d3f33427",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kubernetes/📄 Building a Kubernetes Cluster from Scratch (Step-by-Step)/Install kubernetes components.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Install kubernetes components"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -40,7 +139,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -139,10 +239,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kubernetes/TLS in Kubernetes/How TLS Certificates Work in Kubernetes and Manual Cluster Setup.md"
+                "file": "Kubernetes/Main Kubernetes Components/Pods.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of How TLS Certificates Work in Kubernetes and Manual Cluster Setup"
+              "title": "Outline of Pods"
             }
           },
           {
@@ -174,21 +277,33 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "audio-recorder:Start/stop recording": false,
-      "markdown-importer:Open format converter": false,
-      "publish:Publish changes...": false,
       "hide-folders:Show hidden folders": false
     }
   },
-  "active": "212956e7a8f73588",
+  "active": "ab2405904b74d281",
   "lastOpenFiles": [
+    "Kubernetes/Main Kubernetes Components/attachments/Pasted image 20250430004825.png",
+    "Kubernetes/📄 Building a Kubernetes Cluster from Scratch (Step-by-Step)/Bootstrapping Control Place.md",
+    "Kubernetes/IPv4 - Architecture, Addressing, and Protocol Concepts.md",
+    "Kubernetes/📄 Building a Kubernetes Cluster from Scratch (Step-by-Step)/Install kubernetes components.md",
+    "Kubernetes/📄 Building a Kubernetes Cluster from Scratch (Step-by-Step)/Kubernetes installation steps.md",
+    "Kubernetes/📄 Building a Kubernetes Cluster from Scratch (Step-by-Step)/Introduction.md",
+    "Kubernetes/Main Kubernetes Components/Pods.md",
+    "Kubernetes/Miscellaneous.md",
+    "Docker",
+    "attachments/Pasted image 20250427201715.png",
+    "attachments",
+    "Kubernetes/Main Kubernetes Components/Main Kubernetes Components.md",
+    "Kubernetes/📄 Building a Kubernetes Cluster from Scratch (Step-by-Step)/attachments/Pasted image 20250427171905.png",
+    "Kubernetes/📄 Building a Kubernetes Cluster from Scratch (Step-by-Step)/attachments",
+    "Kubernetes/TLS in Kubernetes/TLS Certificates.md",
+    "Kubernetes/📄 Building a Kubernetes Cluster from Scratch (Step-by-Step)",
+    "Kubernetes/TLS in Kubernetes/How TLS Certificates Work in Kubernetes and Manual Cluster Setup.md",
+    "WIP Repeato.md",
+    "Templates/DailyNotes.md",
     "Kubernetes/TLS in Kubernetes/attachments/Pasted image 20241204113120.png",
     "Kubernetes/TLS in Kubernetes/attachments/Pasted image 20241204112940.png",
     "Kubernetes/TLS in Kubernetes/attachments",
-    "Kubernetes/TLS in Kubernetes/TLS Certificates.md",
-    "Kubernetes/TLS in Kubernetes/How TLS Certificates Work in Kubernetes and Manual Cluster Setup.md",
-    "Kubernetes/Main Kubernetes Components/Main Kubernetes Components.md",
-    "Untitled.md",
     "Kubernetes/TLS in Kubernetes",
     "Kubernetes/Main Kubernetes Components/attachments/Pasted image 20241202221024.png",
     "Services.md",
@@ -200,19 +315,13 @@
     "Kubernetes/Main Kubernetes Components",
     "Media-attachment/Pasted image 20241201184607.png",
     "Media-attachment",
-    "Media-attachment/Pasted image 20241201183813.png",
     "Kubernetes",
     "DailyNotes/2024/Sep-09/28_Sat.md",
     "DailyNotes/2024/Sep-09/12_Thu.md",
     "DailyNotes/2024/Sep-09/04_Wed.md",
-    "Templates/DailyNotes.md",
     "Welcome.md",
-    "Templates",
-    "DailyNotes/2024/Sep-09",
-    "DailyNotes/2024",
     "DailyNotes/2024/Sep-09.md",
     "DailyNotes/2024/Sep-09/4.md",
-    "DailyNotes/2024-09-04.md",
-    "DailyNotes"
+    "DailyNotes/2024-09-04.md"
   ]
 }

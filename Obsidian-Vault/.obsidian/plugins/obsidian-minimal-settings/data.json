@@ -29,6 +29,6 @@
   "underlineExternal": true,
   "folding": true,
   "lineNumbers": false,
-  "readableLineLength": true,
+  "readableLineLength": false,
   "devBlockWidth": false
 }
