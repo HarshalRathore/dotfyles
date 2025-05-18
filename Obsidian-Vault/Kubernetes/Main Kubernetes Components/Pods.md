@@ -111,28 +111,23 @@ Because Kubernetes operates at the Pod level, you can switch container runtimes 
 
 ---
 
-## 8. Practical Example
+## 8. Structure & Practical Example
+```
+# This is a Comment
+# Below is the structure of writing a yaml file for pods
 
-```yaml
 apiVersion: v1
 kind: Pod
 metadata:
-  name: my-app
+  name: pod_name
+  labels:
+    app: label_tag
+    type: front-end
 spec:
-  containers:
-  - name: app
-    image: my-app:latest
-    ports:
-    - containerPort: 80
-  - name: log-sidecar
-    image: busybox
-    command: ["sh","-c","tail -n+1 -f /var/log/app.log"]
-    volumeMounts:
-    - name: app-logs
-      mountPath: /var/log
-  volumes:
-  - name: app-logs
-    emptyDir: {}
+  container:
+    - name: nginx-container
+      image: nginx
+
 ```
 
 - Both containers share the Pod IP and `/var/log` volume.

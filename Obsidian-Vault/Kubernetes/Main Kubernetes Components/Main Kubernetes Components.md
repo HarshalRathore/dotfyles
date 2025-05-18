@@ -70,12 +70,22 @@
 	    - The gateway for all cluster interactions.
 	    - Validates requests and manages security and authentication.
 	- **Scheduler**:
-	    - Assigns pods to worker nodes based on resource availability.
+	    - Control plane component that watches for newly created [Pods](https://kubernetes.io/docs/concepts/workloads/pods/) with no assigned [node](https://kubernetes.io/docs/concepts/architecture/nodes/), and selects a node for them to run on.
 	- **Controller Manager**:
-	    - Monitors cluster state and handles failures (e.g., rescheduling crashed pods).
+		- In robotics and automation, a control loop is a non-terminating loop that regulates the state of a system.
+		  Here is one example of a control loop: a thermostat in a room.
+		  When you set the temperature, that's telling the thermostat about your desired state. The actual room temperature is the current state. The thermostat acts to bring the current state closer to the desired state, by turning equipment on or off. In Kubernetes, controllers are control loops that watch the state of your cluster, then make or request changes where needed. Each controller tries to move the current cluster state closer to the desired state.
+	    - Logically, each [controller](https://kubernetes.io/docs/concepts/architecture/controller/) is a separate process, but to reduce complexity, they are all compiled into a single binary and run in a single process.
+	    - There are many different types of controllers. Some examples of them are:
+			- Node controller: Responsible for noticing and responding when nodes go down.
+			- Job controller: Watches for Job objects that represent one-off tasks, then creates Pods to run those tasks to completion.
+			- EndpointSlice controller: Populates EndpointSlice objects (to provide a link between Services and Pods).
+			- ServiceAccount controller: Create default ServiceAccounts for new namespaces.
 	- **Etcd**:
 	    - A distributed key-value store that maintains the cluster's state.
 	    - Stores only metadata related to cluster management, not application data.
+	    - It listens on port `2379` it has a `etcdctl` utility to talk with the etcd api server.
+	    - Kubeadm runs it as a static pod 
 #### Role of Etcd in cluster Management
 - Acts as the cluster's "brain," storing all state changes.
 - Helps:
