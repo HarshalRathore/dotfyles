@@ -4,95 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "d815ef423ec4d462",
+        "id": "84fb7e415d17035a",
         "type": "tabs",
         "children": [
           {
-            "id": "be1715bed7231265",
+            "id": "516efa330c84afed",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/Main Kubernetes Components & Concepts/Taints & Tolerations.md",
+                "file": "Kubernetes/Cluster Maintenance - Draining & OS Upgrades.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Taints & Tolerations"
-            }
-          },
-          {
-            "id": "cf735d5454d91bfc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kubernetes/Main Kubernetes Components & Concepts/NodeSelector & NodeAffinity.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "NodeSelector & NodeAffinity"
-            }
-          },
-          {
-            "id": "22030c0e2ebcc086",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kubernetes/Main Kubernetes Components & Concepts/Resource Requests & Limits.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Resource Requests & Limits"
-            }
-          },
-          {
-            "id": "2563d9c1c8b6c374",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kubernetes/Main Kubernetes Components & Concepts/DaemonSets.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DaemonSets"
-            }
-          },
-          {
-            "id": "d4395e524145ff0f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kubernetes/Main Kubernetes Components & Concepts/Static Pod.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Static Pod"
-            }
-          },
-          {
-            "id": "c68b5123b4dfe827",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kubernetes/Main Kubernetes Components & Concepts/PriorityClasses.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PriorityClasses"
+              "title": "Cluster Maintenance - Draining & OS Upgrades"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -124,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "admission controller",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -211,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kubernetes/Main Kubernetes Components & Concepts/PriorityClasses.md",
+                "file": "Kubernetes/Cluster Maintenance - Draining & OS Upgrades.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of PriorityClasses"
+              "title": "Outline of Cluster Maintenance - Draining & OS Upgrades"
             }
           },
           {
@@ -252,53 +181,52 @@
       "hide-folders:Show hidden folders": false
     }
   },
-  "active": "0b916a15688e3007",
+  "active": "516efa330c84afed",
   "lastOpenFiles": [
-    "Kubernetes/Main Kubernetes Components & Concepts/Static Pod.md",
-    "Kubernetes/Main Kubernetes Components & Concepts/PriorityClasses.md",
-    "Kubernetes/Main Kubernetes Components & Concepts/DaemonSets.md",
-    "Kubernetes/Main Kubernetes Components & Concepts/Resource Requests & Limits.md",
-    "Kubernetes/Main Kubernetes Components & Concepts/NodeSelector & NodeAffinity.md",
-    "Kubernetes/Main Kubernetes Components & Concepts/Taints & Tolerations.md",
+    "Kubernetes/Kubernetes Components & Concepts/Rolling updates & Rollbacks.md",
+    "Kubernetes/Commands & Args in Containers & Pods.md",
+    "Kubernetes/Kubernetes Components & Concepts/Env, ConfigMaps & Secrets.md",
+    "Kubernetes/Init Containers.md",
+    "Kubernetes/Kubernetes Components & Concepts/Kubernetes Autoscaling.md",
+    "Kubernetes/Cluster Maintenance - Draining & OS Upgrades.md",
+    "attachments/Screenshot From 2025-05-28 21-25-56.png",
+    "attachments/Screenshot From 2025-05-28 21-22-29.png",
+    "attachments/Pasted image 20250528202945.png",
+    "attachments/Pasted image 20250528202842.png",
+    "attachments/Pasted image 20250528200133.png",
+    "attachments/Pasted image 20250528194921.png",
+    "attachments/Pasted image 20250528194830.png",
+    "attachments/Pasted image 20250528194715.png",
+    "Kubernetes/Kubernetes Components & Concepts/Admission Controllers.md",
+    "Kubernetes/Kubernetes Components & Concepts/Replication Controller & ReplicaSet.md",
+    "Kubernetes/Kubernetes Components & Concepts/Containerd, CRI etc..md",
+    "Kubernetes/Kubernetes Components & Concepts/Taints & Tolerations.md",
+    "Kubernetes/Kubernetes Components & Concepts/Static Pod.md",
+    "Kubernetes/Kubernetes Components & Concepts/Scheduling.md",
+    "Kubernetes/Kubernetes Components & Concepts/Resource Requests & Limits.md",
+    "Kubernetes/Kubernetes Components & Concepts/PriorityClasses.md",
+    "Kubernetes/Kubernetes Components & Concepts/Pods.md",
+    "Kubernetes/Kubernetes Components & Concepts/NodeSelector & NodeAffinity.md",
+    "Kubernetes/Kubernetes Components & Concepts/Main Kubernetes Components.md",
+    "Kubernetes/Kubernetes Components & Concepts/attachments/Pasted image 20250522191814.png",
+    "Kubernetes/Kubernetes Components & Concepts/attachments/Pasted image 20250522191747.png",
+    "Kubernetes/Kubernetes Components & Concepts/DaemonSets.md",
     "Kubernetes/📄 Building a Kubernetes Cluster from Scratch (Step-by-Step)/Install kubernetes components.md",
     "Kubernetes/IPv4 - Architecture, Addressing, and Protocol Concepts.md",
     "Kubernetes/📄 Building a Kubernetes Cluster from Scratch (Step-by-Step)/Bootstrapping Control Place.md",
     "Kubernetes/📄 Building a Kubernetes Cluster from Scratch (Step-by-Step)/Kubernetes installation steps.md",
-    "Kubernetes/Main Kubernetes Components & Concepts/Main Kubernetes Components.md",
     "Kubernetes/Manual Notes.md",
-    "Kubernetes/Main Kubernetes Components & Concepts/Manual Scheduling.md",
-    "Kubernetes/Main Kubernetes Components & Concepts/Labels & Selectors.md",
+    "Kubernetes/Kubernetes Components & Concepts/Labels & Selectors.md",
     "Kubernetes/📄 Building a Kubernetes Cluster from Scratch (Step-by-Step)/Introduction.md",
-    "Kubernetes/Main Kubernetes Components & Concepts/Replication Controller & ReplicaSet.md",
-    "Kubernetes/Resources.md",
-    "Kubernetes/Miscellaneous.md",
-    "Kubernetes/Main Kubernetes Components & Concepts/Containerd, CRI etc..md",
-    "Kubernetes/TLS in Kubernetes/TLS Certificates.md",
-    "Kubernetes/TLS in Kubernetes/How TLS Certificates Work in Kubernetes and Manual Cluster Setup.md",
-    "Kubernetes/Main Kubernetes Components & Concepts/Pods.md",
-    "Kubernetes/attachments/Pasted image 20250501022055.png",
     "Kubernetes/attachments",
-    "delete later packages.md",
-    "Kubernetes/Main Kubernetes Components & Concepts/attachments/Pasted image 20250430004825.png",
     "Docker",
-    "attachments/Pasted image 20250427201715.png",
     "attachments",
-    "Kubernetes/📄 Building a Kubernetes Cluster from Scratch (Step-by-Step)/attachments/Pasted image 20250427171905.png",
     "Kubernetes/📄 Building a Kubernetes Cluster from Scratch (Step-by-Step)/attachments",
     "Kubernetes/📄 Building a Kubernetes Cluster from Scratch (Step-by-Step)",
-    "WIP Repeato.md",
-    "Templates/DailyNotes.md",
-    "Kubernetes/TLS in Kubernetes/attachments/Pasted image 20241204113120.png",
-    "Kubernetes/TLS in Kubernetes/attachments/Pasted image 20241204112940.png",
     "Kubernetes/TLS in Kubernetes/attachments",
     "Kubernetes/TLS in Kubernetes",
-    "Kubernetes/Main Kubernetes Components & Concepts/attachments/Pasted image 20241202221024.png",
-    "Services.md",
-    "Kubernetes/Main Kubernetes Components & Concepts/attachments/Pasted image 20241201193952.png",
-    "Kubernetes/Main Kubernetes Components & Concepts/attachments/Screenshot From 2024-12-01 18-22-03.png",
-    "Kubernetes/Main Kubernetes Components & Concepts/attachments",
-    "Pasted image 20241201185534.png",
-    "Kubernetes/Main Kubernetes Components & Concepts",
+    "Kubernetes/Kubernetes Components & Concepts/attachments",
+    "Kubernetes/Kubernetes Components & Concepts",
     "Media-attachment"
   ]
 }
