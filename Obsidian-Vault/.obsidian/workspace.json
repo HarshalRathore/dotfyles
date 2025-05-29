@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "84fb7e415d17035a",
+        "id": "63141ccb675dc83b",
         "type": "tabs",
         "children": [
           {
-            "id": "516efa330c84afed",
+            "id": "61d20944b4bbdc98",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/Cluster Maintenance - Draining & OS Upgrades.md",
+                "file": "Kubernetes/TLS in Kubernetes/How TLS Certificates Work in Kubernetes and Manual Cluster Setup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cluster Maintenance - Draining & OS Upgrades"
+              "title": "How TLS Certificates Work in Kubernetes and Manual Cluster Setup"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5019874572754
+    "width": 200
   },
   "right": {
     "id": "e90b8a9e49fee251",
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kubernetes/Cluster Maintenance - Draining & OS Upgrades.md",
+                "file": "Kubernetes/TLS in Kubernetes/How TLS Certificates Work in Kubernetes and Manual Cluster Setup.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Cluster Maintenance - Draining & OS Upgrades"
+              "title": "Outline of How TLS Certificates Work in Kubernetes and Manual Cluster Setup"
             }
           },
           {
@@ -181,14 +181,19 @@
       "hide-folders:Show hidden folders": false
     }
   },
-  "active": "516efa330c84afed",
+  "active": "61d20944b4bbdc98",
   "lastOpenFiles": [
+    "TLS.md",
+    "Kubernetes/TLS in Kubernetes/How TLS Certificates Work in Kubernetes and Manual Cluster Setup.md",
+    "Kubernetes/TLS in Kubernetes/TLS Certificates.md",
+    "Kubernetes/🔐 Security in Kubernetes.md",
+    "Kubernetes/Cluster Maintenance - Draining & OS Upgrades.md",
+    "Kubernetes/Resources.md",
     "Kubernetes/Kubernetes Components & Concepts/Rolling updates & Rollbacks.md",
     "Kubernetes/Commands & Args in Containers & Pods.md",
     "Kubernetes/Kubernetes Components & Concepts/Env, ConfigMaps & Secrets.md",
     "Kubernetes/Init Containers.md",
     "Kubernetes/Kubernetes Components & Concepts/Kubernetes Autoscaling.md",
-    "Kubernetes/Cluster Maintenance - Draining & OS Upgrades.md",
     "attachments/Screenshot From 2025-05-28 21-25-56.png",
     "attachments/Screenshot From 2025-05-28 21-22-29.png",
     "attachments/Pasted image 20250528202945.png",
@@ -214,10 +219,6 @@
     "Kubernetes/📄 Building a Kubernetes Cluster from Scratch (Step-by-Step)/Install kubernetes components.md",
     "Kubernetes/IPv4 - Architecture, Addressing, and Protocol Concepts.md",
     "Kubernetes/📄 Building a Kubernetes Cluster from Scratch (Step-by-Step)/Bootstrapping Control Place.md",
-    "Kubernetes/📄 Building a Kubernetes Cluster from Scratch (Step-by-Step)/Kubernetes installation steps.md",
-    "Kubernetes/Manual Notes.md",
-    "Kubernetes/Kubernetes Components & Concepts/Labels & Selectors.md",
-    "Kubernetes/📄 Building a Kubernetes Cluster from Scratch (Step-by-Step)/Introduction.md",
     "Kubernetes/attachments",
     "Docker",
     "attachments",
