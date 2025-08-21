@@ -88,8 +88,9 @@ bind C-c new-window -c "#{pane_current_path}"
 #bind -r l select-pane -R  # move right
 
 # Bind C-h and C-l for window navigation: previous and next window respectively.
+unbind-key  C-l
 bind -r C-h previous-window 
-bind -r C-l next-window     
+bind-key -r C-l next-window     
 bind -n M-left previous-window
 bind -n M-right next-window
 

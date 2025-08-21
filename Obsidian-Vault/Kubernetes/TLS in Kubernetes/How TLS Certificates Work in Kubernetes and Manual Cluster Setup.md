@@ -209,12 +209,12 @@ openssl x509 -req -in apiserver.csr -CA ca.crt -CAkey ca.key \
     2.Hashes the CSR content.
     3.Compares the hash with the decrypted signature to ensure the content wasn’t tampered with.
 >
-  If everything is valid, the CA signs the certificate using its **private key**, producing a valid **server certificate**.
+> If everything is valid, the CA signs the certificate using its **private key**, producing a valid **server certificate**.
 > 
 > **Client Certificate:**  
    Clients (like browsers or systems) have a list of trusted **root certificates** from different CAs. When a client receives a server certificate, it:
     1.Uses the public key of the issuing CA (from the root certificate) to verify the server certificate’s digital signature.
     2.Checks the hash and other fields like validity and usage.
 >
-Sometimes, the server may also request a **client certificate** for mutual authentication. In that case, the client provides its own certificate (also issued by a trusted CA), and the server performs similar verification steps to validate the client.
+> Sometimes, the server may also request a **client certificate** for mutual authentication. In that case, the client provides its own certificate (also issued by a trusted CA), and the server performs similar verification steps to validate the client.
 

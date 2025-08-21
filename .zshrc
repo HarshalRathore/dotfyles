@@ -232,6 +232,7 @@ export VISUAL=zeditor
 export ZSH_AUTOSUGGEST_STRATEGY=(match_prev_cmd history completion)
 export HISTORY_SUBSTRING_SEARCH_HIGHLIGHT_FOUND='bg=#d33682,fg=#002b36,bold'
 export HISTORY_SUBSTRING_SEARCH_HIGHLIGHT_NOT_FOUND='bg=#dc322f,fg=#002b36,bold'
+export CHROME_EXECUTABLE=google-chrome-stable
 
 # [[ Utility Functions ]]
 if [[ -f ~/.func.zshrc.sh ]]; then
@@ -239,3 +240,5 @@ if [[ -f ~/.func.zshrc.sh ]]; then
 fi
 alias k="minikube kubectl --"
 alias kubectl="minikube kubectl --"
+alias tf="terraform"
+alias doc="docker"
