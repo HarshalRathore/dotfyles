@@ -4,53 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "63141ccb675dc83b",
+        "id": "ffbcbf930f3b4344",
         "type": "tabs",
         "children": [
           {
-            "id": "61d20944b4bbdc98",
+            "id": "306e4266cddc5b79",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/TLS in Kubernetes/How TLS Certificates Work in Kubernetes and Manual Cluster Setup.md",
+                "file": "DailyNotes/2026/Jan-01/25_Sun.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "How TLS Certificates Work in Kubernetes and Manual Cluster Setup"
-            }
-          },
-          {
-            "id": "51777569b5636a22",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kubernetes/Kubernetes API Groups, Authorization, and RBAC - A Comprehensive Overview.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Kubernetes API Groups, Authorization, and RBAC - A Comprehensive Overview"
-            }
-          },
-          {
-            "id": "3c8d055dae54d511",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kubernetes/Microservices Demo Projects.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Microservices Demo Projects"
+              "title": "25_Sun"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -169,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kubernetes/Microservices Demo Projects.md",
+                "file": "DailyNotes/2026/Jan-01/25_Sun.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Microservices Demo Projects"
+              "title": "Outline of 25_Sun"
             }
           },
           {
@@ -201,6 +172,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -210,22 +182,36 @@
       "hide-folders:Show hidden folders": false
     }
   },
-  "active": "0b916a15688e3007",
+  "active": "306e4266cddc5b79",
   "lastOpenFiles": [
-    "Kubernetes/Kubernetes API Groups, Authorization, and RBAC - A Comprehensive Overview.md",
-    "Kubernetes/Microservices Demo Projects.md",
-    "Kubernetes/IPv4 - Architecture, Addressing, and Protocol Concepts.md",
+    "DailyNotes/2026/Jan-01/25_Sun.md",
+    "DailyNotes/2026/Jan-01",
+    "DailyNotes/2026",
+    "Untitled.md",
     "Kubernetes/TLS in Kubernetes/How TLS Certificates Work in Kubernetes and Manual Cluster Setup.md",
-    "Kubernetes/TLS in Kubernetes/TLS Certificates.md",
-    "Kubernetes/Commands & Args in Containers & Pods.md",
-    "Kubernetes/Cluster Maintenance - Draining & OS Upgrades.md",
-    "Kubernetes/🔐 Security in Kubernetes.md",
-    "TLS.md",
-    "Kubernetes/Resources.md",
-    "Kubernetes/Kubernetes Components & Concepts/Rolling updates & Rollbacks.md",
-    "Kubernetes/Kubernetes Components & Concepts/Env, ConfigMaps & Secrets.md",
-    "Kubernetes/Init Containers.md",
+    "Kubernetes/Kubernetes API Groups, Authorization, and RBAC - A Comprehensive Overview.md",
+    "Node JS.md",
+    "Introduction.md",
+    "WIP Repeato.md",
+    "Kubernetes/📄 Building a Kubernetes Cluster from Scratch (Step-by-Step)/Kubernetes installation steps.md",
+    "Kubernetes/📄 Building a Kubernetes Cluster from Scratch (Step-by-Step)/Introduction.md",
+    "Kubernetes/📄 Building a Kubernetes Cluster from Scratch (Step-by-Step)/Install kubernetes components.md",
+    "Kubernetes/📄 Building a Kubernetes Cluster from Scratch (Step-by-Step)/Bootstrapping Control Place.md",
+    "Kubernetes/Kubernetes Components & Concepts/Taints & Tolerations.md",
+    "Kubernetes/Kubernetes Components & Concepts/Static Pod.md",
+    "Kubernetes/Kubernetes Components & Concepts/Scheduling.md",
+    "Kubernetes/Kubernetes Components & Concepts/Resource Requests & Limits.md",
+    "Kubernetes/Kubernetes Components & Concepts/Replication Controller & ReplicaSet.md",
+    "Kubernetes/Kubernetes Components & Concepts/PriorityClasses.md",
+    "Kubernetes/Kubernetes Components & Concepts/Pods.md",
+    "Kubernetes/Kubernetes Components & Concepts/Labels & Selectors.md",
     "Kubernetes/Kubernetes Components & Concepts/Kubernetes Autoscaling.md",
+    "Kubernetes/Kubernetes Components & Concepts/Env, ConfigMaps & Secrets.md",
+    "Kubernetes/Kubernetes Components & Concepts/DaemonSets.md",
+    "Kubernetes/Kubernetes Components & Concepts/Containerd, CRI etc..md",
+    "Kubernetes/Kubernetes Components & Concepts/Admission Controllers.md",
+    "Kubernetes/TLS in Kubernetes/TLS Certificates.md",
+    "Kubernetes/🔐 Security in Kubernetes.md",
     "attachments/Screenshot From 2025-05-28 21-25-56.png",
     "attachments/Screenshot From 2025-05-28 21-22-29.png",
     "attachments/Pasted image 20250528202945.png",
@@ -234,20 +220,8 @@
     "attachments/Pasted image 20250528194921.png",
     "attachments/Pasted image 20250528194830.png",
     "attachments/Pasted image 20250528194715.png",
-    "Kubernetes/Kubernetes Components & Concepts/Admission Controllers.md",
-    "Kubernetes/Kubernetes Components & Concepts/Replication Controller & ReplicaSet.md",
-    "Kubernetes/Kubernetes Components & Concepts/Containerd, CRI etc..md",
-    "Kubernetes/Kubernetes Components & Concepts/Taints & Tolerations.md",
-    "Kubernetes/Kubernetes Components & Concepts/Static Pod.md",
-    "Kubernetes/Kubernetes Components & Concepts/Scheduling.md",
-    "Kubernetes/Kubernetes Components & Concepts/Resource Requests & Limits.md",
-    "Kubernetes/Kubernetes Components & Concepts/PriorityClasses.md",
-    "Kubernetes/Kubernetes Components & Concepts/Pods.md",
-    "Kubernetes/Kubernetes Components & Concepts/NodeSelector & NodeAffinity.md",
-    "Kubernetes/Kubernetes Components & Concepts/Main Kubernetes Components.md",
+    "attachments/Pasted image 20250427201715.png",
     "Kubernetes/Kubernetes Components & Concepts/attachments/Pasted image 20250522191814.png",
-    "Kubernetes/Kubernetes Components & Concepts/attachments/Pasted image 20250522191747.png",
-    "Kubernetes/Kubernetes Components & Concepts/DaemonSets.md",
     "Kubernetes/attachments",
     "Docker",
     "attachments",
@@ -255,8 +229,6 @@
     "Kubernetes/📄 Building a Kubernetes Cluster from Scratch (Step-by-Step)",
     "Kubernetes/TLS in Kubernetes/attachments",
     "Kubernetes/TLS in Kubernetes",
-    "Kubernetes/Kubernetes Components & Concepts/attachments",
-    "Kubernetes/Kubernetes Components & Concepts",
-    "Media-attachment"
+    "Kubernetes/Kubernetes Components & Concepts/attachments"
   ]
 }

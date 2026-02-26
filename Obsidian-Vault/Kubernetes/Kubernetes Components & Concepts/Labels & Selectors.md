@@ -19,20 +19,20 @@
 ## 🔍 Selectors in Kubernetes
 
 - **Definition**: Selectors are queries that filter Kubernetes resources based on label values. They are used to identify a set of objects.
-    
-- **Types**:
-    
-    - **Equality-based**: Select resources that match specific label values.
-        
-        ```bash
-        kubectl get pods --selector app=frontend
-        ```
-        
-	    - **Set-based**: Select resources that match a set of values.
 
-        ```bash
-        kubectl get pods --selector 'environment in (production, staging)'
-        ```
+- **Types**:
+
+- **Equality-based**: Select resources that match specific label values.
+
+```bash
+kubectl get pods --selector app=frontend
+```
+
+- **Set-based**: Select resources that match a set of values.
+
+```bash
+kubectl get pods --selector 'environment in (production, staging)'
+```
 
 - **Use Cases**:
     
@@ -122,11 +122,11 @@
     - Integrating with external tools or systems.([Medium](https://thekubeguy.com/kubernetes-annotations-the-hidden-feature-that-boosts-your-devops-game-e6c1688b1bcf?utm_source=chatgpt.com "Leveraging Kubernetes Annotations for Better Control - The kube guy"), [Komodor](https://komodor.com/blog/best-practices-guide-for-kubernetes-labels-and-annotations/?utm_source=chatgpt.com "Best Practices Guide for Kubernetes Labels and Annotations"))
 
 - **Usage Example**:    
-    ```yaml
+```yaml
     metadata:
       annotations:
         buildVersion: "1.0.0"
         maintainer: "team@example.com"
-    ```
+```
 
 - **Adding Annotations**: Annotations can be added during object creation or updated later using `kubectl annotate`.([Kubernetes](https://kubernetes.io/docs/reference/kubectl/generated/kubectl_annotate/?utm_source=chatgpt.com "kubectl annotate | Kubernetes"))

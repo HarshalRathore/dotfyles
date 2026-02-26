@@ -207,6 +207,7 @@ command -v fzf &>/dev/null && source ~/.fzf.git.zshrc.sh # credits https://githu
 
 # [[ Aliases ]]
 type bat &>/dev/null && alias cat='bat'
+[[ "$TERM_PROGRAM" == "vscode" ]] && alias cat='/bin/cat'
 type eza &>/dev/null && alias ls='eza --icons --group-directories-first'
 type eza &>/dev/null && alias ll='eza -l --icons --no-user --group-directories-first  --time-style long-iso'
 type eza &>/dev/null && alias la='eza -la --icons --no-user --group-directories-first  --time-style long-iso'
@@ -214,6 +215,10 @@ alias ..=" cd .."
 alias ...=" cd ../.."
 alias ....=" cd ../../.."
 alias -g H="--help | bat --language=help --style=plain --wrap=character"
+alias k="minikube kubectl --"
+alias kubectl="minikube kubectl --"
+alias tf="terraform"
+alias doc="docker"
 
 
 # [[ Exports ]]
@@ -233,12 +238,14 @@ export ZSH_AUTOSUGGEST_STRATEGY=(match_prev_cmd history completion)
 export HISTORY_SUBSTRING_SEARCH_HIGHLIGHT_FOUND='bg=#d33682,fg=#002b36,bold'
 export HISTORY_SUBSTRING_SEARCH_HIGHLIGHT_NOT_FOUND='bg=#dc322f,fg=#002b36,bold'
 export CHROME_EXECUTABLE=google-chrome-stable
+export FLUTTER_ROOT="$HOME/.local/share/flutter"
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH="$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$FLUTTER_ROOT/bin:$HOME/.local/bin:$PATH"
 
 # [[ Utility Functions ]]
 if [[ -f ~/.func.zshrc.sh ]]; then
     source ~/.func.zshrc.sh
 fi
-alias k="minikube kubectl --"
-alias kubectl="minikube kubectl --"
-alias tf="terraform"
-alias doc="docker"
+if [[ -f ~/.config/mcp/.env ]]; then
+    source ~/.config/mcp/.env
+fi
