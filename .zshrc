@@ -243,7 +243,7 @@ export FLUTTER_ROOT="$HOME/.local/share/flutter"
 export ANDROID_HOME=$HOME/Android/Sdk
 export OLLAMA_HOST=0.0.0.0:11434
 # export OLLAMA_HOST=http://100.127.132.14:11434 
-export PATH="$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$FLUTTER_ROOT/bin:$HOME/.local/bin:$PATH"
+export PATH="$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$FLUTTER_ROOT/bin:$HOME/.local/bin:$HOME/.npm-global/bin:$PATH"
 export $(grep -v '^#' ~/harshal/repeato/.env.mcp.local | xargs)
 
 # [[ Utility Functions ]]
