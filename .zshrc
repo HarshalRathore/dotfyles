@@ -201,6 +201,7 @@ fi
 
 # [[ Shell integrations ]]
 command -v fzf &>/dev/null && eval "$(fzf --zsh)" && source ~/.fzf.zshrc
+export _ZO_DOCTOR=0
 command -v zoxide &>/dev/null && eval "$(zoxide init --cmd cd zsh)"
 command -v thefuck &>/dev/null && eval "$(thefuck --alias fuck)"
 command -v fzf &>/dev/null && source ~/.fzf.git.zshrc.sh # credits https://github.com/junegunn/fzf-git.sh
@@ -240,7 +241,10 @@ export HISTORY_SUBSTRING_SEARCH_HIGHLIGHT_NOT_FOUND='bg=#dc322f,fg=#002b36,bold'
 export CHROME_EXECUTABLE=google-chrome-stable
 export FLUTTER_ROOT="$HOME/.local/share/flutter"
 export ANDROID_HOME=$HOME/Android/Sdk
+export OLLAMA_HOST=0.0.0.0:11434
+# export OLLAMA_HOST=http://100.127.132.14:11434 
 export PATH="$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$FLUTTER_ROOT/bin:$HOME/.local/bin:$PATH"
+export $(grep -v '^#' ~/harshal/repeato/.env.mcp.local | xargs)
 
 # [[ Utility Functions ]]
 if [[ -f ~/.func.zshrc.sh ]]; then
@@ -249,3 +253,49 @@ fi
 if [[ -f ~/.config/mcp/.env ]]; then
     source ~/.config/mcp/.env
 fi
+
+# OpenClaw Completion
+source "/home/harshal/.openclaw/completions/openclaw.zsh"
+
+# ── Wayland clipboard shim ────────────────────────────────────────────────────
+# xclip is X11-only and fails on Wayland ("Can't open display: (null)").
+# These functions make xclip-style invocations work transparently on Wayland.
+if [[ "$XDG_SESSION_TYPE" == "wayland" ]]; then
+    xclip() {
+        if [[ "$*" == *"-o"* || "$*" == *"-out"* ]]; then
+            wl-paste
+        else
+            wl-copy
+        fi
+    }
+    # Also alias xsel which has the same problem
+    xsel() {
+        if [[ "$*" == *"-o"* || "$*" == *"--output"* ]]; then
+            wl-paste
+        else
+            wl-copy
+        fi
+    }
+fi
+# ─────────────────────────────────────────────────────────────────────────────
+
+###-begin-opencode-completions-###
+_opencode_yargs_completions()
+{
+  local reply
+  local si=$IFS
+  IFS=$'
+' reply=($(COMP_CWORD="$((CURRENT-1))" COMP_LINE="$BUFFER" COMP_POINT="$CURSOR" opencode --get-yargs-completions "${words[@]}"))
+  IFS=$si
+  if [[ ${#reply} -gt 0 ]]; then
+    _describe 'values' reply
+  else
+    _default
+  fi
+}
+if [[ "'${zsh_eval_context[-1]}" == "loadautofunc" ]]; then
+  _opencode_yargs_completions "$@"
+else
+  compdef _opencode_yargs_completions opencode
+fi
+###-end-opencode-completions-###

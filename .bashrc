@@ -1,7 +1,4 @@
-#
 # ~/.bashrc
-#
-
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
@@ -10,3 +7,5 @@ alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 
 export GPG_TTY=$(tty)
+export PATH="$HOME/.npm-global/bin:$HOME/.local/bin:$PATH"
+export $(grep -v '^#' ~/harshal/repeato/.env.mcp.local | xargs)
