@@ -243,8 +243,11 @@ export FLUTTER_ROOT="$HOME/.local/share/flutter"
 export ANDROID_HOME=$HOME/Android/Sdk
 export OLLAMA_HOST=0.0.0.0:11434
 # export OLLAMA_HOST=http://100.127.132.14:11434 
-export PATH="$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$FLUTTER_ROOT/bin:$HOME/.local/bin:$HOME/.npm-global/bin:$PATH"
+export PATH="$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$FLUTTER_ROOT/bin:$HOME/.local/bin:$HOME/.npm-global/bin:$HOME/.bun/bin:$PATH"
 export $(grep -v '^#' ~/harshal/repeato/.env.mcp.local | xargs)
+export OPENCODE_SERVER_PASSWORD="4122001"
+export OPENCODE_SERVER_USERNAME="harshal"
+export OPENCODE_AUTO_HEAP_SNAPSHOT=1
 
 # [[ Utility Functions ]]
 if [[ -f ~/.func.zshrc.sh ]]; then
