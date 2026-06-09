@@ -451,6 +451,9 @@ set -g @tokyo-night-tmux_window_id_style dsquare
 set -g @tokyo-night-tmux_window_id_style dsquare
 set -g @tokyo-night-tmux_show_git 1
 
+# for Pi agnet harness Warning: tmux extended-keys is off. Modified Enter keys may not work. Add `set -g extended-keys on` to ~/.tmux.conf and restart tmux.
+set -s extended-keys on
+set -g extended-keys-format csi-u
 
 # -- custom variables ----------------------------------------------------------
 

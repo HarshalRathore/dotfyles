@@ -118,7 +118,7 @@ return {
 					--
 					-- When you move your cursor, the highlights will be cleared (the second autocommand).
 					local client = vim.lsp.get_client_by_id(event.data.client_id)
-					if client and client.supports_method(vim.lsp.protocol.Methods.textDocument_documentHighlight) then
+					if client and client:supports_method(vim.lsp.protocol.Methods.textDocument_documentHighlight) then
 						local highlight_augroup =
 							vim.api.nvim_create_augroup("kickstart-lsp-highlight", { clear = false })
 						vim.api.nvim_create_autocmd({ "CursorHold", "CursorHoldI" }, {
@@ -149,7 +149,7 @@ return {
 					-- code, if the language server you are using supports them
 					--
 					-- This may be unwanted, since they displace some of your code
-					if client and client.supports_method(vim.lsp.protocol.Methods.textDocument_inlayHint) then
+					if client and client:supports_method(vim.lsp.protocol.Methods.textDocument_inlayHint) then
 						map("<leader>th", function()
 							vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled({ bufnr = event.buf }))
 						end, "[T]oggle Inlay [H]ints")
@@ -240,20 +240,18 @@ return {
 			vim.list_extend(ensure_installed, linters)
 			require("mason-tool-installer").setup({ ensure_installed = ensure_installed })
 
-			require("mason-lspconfig").setup()
-			require("mason-lspconfig").setup_handlers({
-				function(server_name)
-					local server = servers[server_name] or {}
-					-- This handles overriding only values explicitly passed
-					-- by the server configuration above. Useful when disabling
-					-- certain features of an LSP (for example, turning off formatting for tsserver)
-					server.capabilities = vim.tbl_deep_extend("force", {}, capabilities, server.capabilities or {})
-					server.on_attach = function(client, bufnr)
-						navic.attach(client, bufnr)
-					end
-					require("lspconfig")[server_name].setup(server)
-				end,
-			})
+			-- Use the modern vim.lsp.config API (Neovim 0.11+) instead of the deprecated
+			-- require('lspconfig')[name].setup() pattern. Register each server's config
+			-- before mason-lspconfig auto-enables them.
+			for server_name, server_config in pairs(servers) do
+				server_config.capabilities = vim.tbl_deep_extend("force", {}, capabilities, server_config.capabilities or {})
+				server_config.on_attach = function(client, bufnr)
+					navic.attach(client, bufnr)
+				end
+				vim.lsp.config(server_name, server_config)
+			end
+
+			require("mason-lspconfig").setup({ automatic_enable = true })
 		end,
 	},
 	{

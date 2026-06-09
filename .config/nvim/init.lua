@@ -1,3 +1,6 @@
+-- Ensure tree-sitter CLI is in PATH for nvim-treesitter main branch
+vim.env.PATH = vim.fn.expand("~/.npm-global/bin") .. ":" .. vim.env.PATH
+
 -- Bootstrap lazy.nvim
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not (vim.uv or vim.loop).fs_stat(lazypath) then

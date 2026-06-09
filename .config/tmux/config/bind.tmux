@@ -139,7 +139,11 @@ unbind p
 # -- copy mode -----------------------------------------------------------------
 
 # Bind Enter to enter copy mode in tmux.
-bind Enter copy-mode -e 
+bind Enter copy-mode -e
+
+# Scroll speed inside tmux copy mode (adjust -N values to your liking)
+bind -T copy-mode-vi WheelUpPane   send-keys -X -N 3 scroll-up
+bind -T copy-mode-vi WheelDownPane send-keys -X -N 3 scroll-down 
 
 
 # Bind v for starting selection, C-v for rectangle selection, and y for yanking in vi-mode.

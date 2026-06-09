@@ -1,4 +1,4 @@
-font_family      JetBrainsMono Nerd Font 
+font_family      IosevkaTerm Nerd Font 
 bold_font        auto
 italic_font      auto
 bold_italic_font auto
@@ -8,6 +8,10 @@ tab_bar_style       powerline
 tab_powerline_style slanted
 
 mouse_hide_wait 3.0
+
+# Scroll behavior — keep at 1.0 so tmux receives raw events without amplification
+touch_scroll_multiplier 1.0
+wheel_scroll_multiplier 1.0
 open_url_with default
 # url_color #0087bd
 url_style curly
@@ -16,10 +20,10 @@ cursor_blink_interval 0.5
 shell_integration enabled
 # Window
 hide_window_decorations titlebar-only
-linux_display_server x11
+linux_display_server wayland
 
 
 # BEGIN_KITTY_THEME
-# Catppuccin-Mocha
+# Tokyo Night Moon
 include current-theme.conf
 # END_KITTY_THEME

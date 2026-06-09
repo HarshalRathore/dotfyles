@@ -33,7 +33,11 @@ set-environment -g TMUX_DATA_DIR "${HOME}/.local/share/tmux"
 # Enable true color support in xterm-compatible terminals.
 set-option -sa terminal-overrides ",xterm*:Tc" 
 
-set-option -g default-terminal "screen-256color"
+# Use tmux-256color for better mouse and scroll support, especially on Kitty/Wayland
+set-option -g default-terminal "tmux-256color"
+
+# Kitty-specific overrides for proper mouse scroll passthrough
+set -ga terminal-overrides ",xterm-kitty:smcup@:rmcup@"
 
 # Temporary settings
 set -ga terminal-overrides '*:Ss=\E[%p1%d q:Se=\E[ q' # see :h tui-cursor-shape in nvim for this setting

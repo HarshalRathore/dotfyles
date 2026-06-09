@@ -244,10 +244,12 @@ export ANDROID_HOME=$HOME/Android/Sdk
 export OLLAMA_HOST=0.0.0.0:11434
 # export OLLAMA_HOST=http://100.127.132.14:11434 
 export PATH="$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$FLUTTER_ROOT/bin:$HOME/.local/bin:$HOME/.npm-global/bin:$HOME/.bun/bin:$PATH"
-export $(grep -v '^#' ~/harshal/repeato/.env.mcp.local | xargs)
+# Source repeato local env if present (silent to avoid p10k instant-prompt warning)
+[[ -f ~/harshal/repeato/.env.mcp.local ]] && export $(grep -v '^#' ~/harshal/repeato/.env.mcp.local | xargs 2>/dev/null) || true
 export OPENCODE_SERVER_PASSWORD="4122001"
 export OPENCODE_SERVER_USERNAME="harshal"
 export OPENCODE_AUTO_HEAP_SNAPSHOT=1
+[[ -f ~/.omp/plugins/web-search-mimo/.env ]] && source ~/.omp/plugins/web-search-mimo/.env
 
 # [[ Utility Functions ]]
 if [[ -f ~/.func.zshrc.sh ]]; then
@@ -302,3 +304,35 @@ else
   compdef _opencode_yargs_completions opencode
 fi
 ###-end-opencode-completions-###
+
+# Pi: skip AGENTS.md (reserved for OpenCode), use AGENTS-PI.md via extension
+# See AGENTS-PI.md and .pi/extensions/agents-pi-loader.ts
+unalias pi 2>/dev/null
+pi() {
+  # Auto-start tool name sanitizer proxy for opencode-go provider
+  if ! pgrep -f "pi-tool-sanitizer-proxy" >/dev/null 2>&1; then
+    ~/.pi/proxy/pi-proxy start >/dev/null 2>&1
+  fi
+
+  case "$1" in
+    install|remove|uninstall|update|list|config)
+      command pi "$@"
+      ;;
+    *)
+      command pi --no-context-files "$@"
+      ;;
+  esac
+}
+
+# bun completions
+[ -s "/home/harshal/.bun/_bun" ] && source "/home/harshal/.bun/_bun"
+
+# ── safe-rm: trash-cli wrapper ─────────────────────────────────
+# "trash" accepts -rf flags for GNU rm compatibility (silently ignores them)
+alias rm='trash'
+# Bypass with \rm or when you truly mean permanent delete
+alias rrm='command rm -v'
+
+# Auto-purge systemd timer (24h trash retention)
+# Enable: systemctl --user enable --now trash-purge.timer
+# Check:  systemctl --user status trash-purge.timer
