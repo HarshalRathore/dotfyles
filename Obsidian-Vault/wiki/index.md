@@ -1,0 +1,421 @@
+# Wiki Index
+
+> Auto-generated knowledge base directory
+
+> Note: Text in backticks after page names shows aliases — alternative names, abbreviations, or translations.
+
+## Entities
+
+- [[entities/cleo-lant|cleo-lant]] `aliases: Cleo Lant, cleolant` - summary: "PostHog engineer and author of the stop-ai-slop evals guide and co-author of the self-driv
+- [[entities/josh-snyder|josh-snyder]] `aliases: Josh Snyder, joshsnyder` - summary: "PostHog engineer and co-author of the self-driving product improvement pipeline. Builds au
+- [[entities/robbie-coomber|robbie-coomber]] - title: "Robbie Coomber"
+- [[entities/manual-notes|manual-notes]] - type: entity
+- [[entities/andy-maguire|andy-maguire]] `aliases: Andy Maguire, andymaguire` - summary: "PostHog engineer and author of the scouting and self-driving agent pipeline. Known for dev
+- [[entities/kubectl-set-image-command|kubectl-set-image-command]] - type: entity
+- [[entities/luke-alvoeiro|luke-alvoeiro]] `aliases: Luke Alvoeiro, lukealvoeiro` - summary: "Creator of the Goose open-source coding agent. Leads core agent harness at Factory, buildi
+- [[entities/nick-nisi|nick-nisi]] - title: "Nick Nisi"
+- [[entities/tejas-kumar|tejas-kumar]] - title: "Tejas Kumar"
+- [[entities/liquid-ai|liquid-ai]] - title: "Liquid AI"
+- [[entities/maxime-labonne|maxime-labonne]] - title: "Maxime Labonne"
+- [[entities/matt-pocock|matt-pocock]] - title: "Matt Pocock"
+- [[entities/aiden-bai|aiden-bai]] `aliases: aidenybai, Aiden Bai, Million Software` - summary: "Creator of React Scan and Million.js. Open-source developer focused on React performance t
+- [[entities/boris-cherny|boris-cherny]] - title: "Boris Cherny"
+- [[entities/peter-steinberger|peter-steinberger]] - title: "Peter Steinberger"
+- [[entities/crun|crun]] - type: entity
+- [[entities/clickhouse|clickhouse]] - title: "ClickHouse"
+- [[entities/posthog|posthog]] - title: "PostHog"
+- [[entities/andrej-karpathy|andrej-karpathy]] - title: "Andrej Karpathy"
+- [[entities/geoffrey-huntley|geoffrey-huntley]] `aliases: ghuntley, Geoffrey Huntley, @GeoffreyHuntley, geoff` - summary: "Creator of the Ralph coding technique. Architect of CURSED programming language, author of
+- [[entities/cni-ipam-specification|cni-ipam-specification]] - type: entity
+- [[entities/glusterd-source|glusterd-source]] - type: entity
+- [[entities/master-node|master-node]] - type: entity
+- [[entities/deployments|deployments]] - type: entity
+- [[entities/kube-controller-manager|kube-controller-manager]] - type: entity
+- [[entities/busybox|busybox]] `aliases: BusyBox, Busy Box, bb` - summary: "BusyBox is a lightweight multi-call binary combining common Unix utilities into a single e
+- [[entities/open-policy-agent-opa|open-policy-agent-opa]] `aliases: OPA, OpenPolicyAgent` - summary: "Open Policy Agent (OPA) is an open-source project that provides a general-purpose policy e
+- [[entities/kubernetes-v1-24|kubernetes-v1-24]] `aliases: Kubernetes 1.24, v1.24 release, Kubernetes v1.24` - summary: "Kubernetes v1.24 was a major release of the [[entities/kubernetes|Kubernetes]] container o
+- [[entities/runc|runc]] `aliases: runC low-level runtime, run container` - summary: "runC is a lightweight and portable container runtime that implements the OCI runtime speci
+- [[entities/rkt|rkt]] `aliases: Rocket, rkt container runtime` - summary: "rkt (pronounced 'rocket') was an application container engine developed by [[entities/dock
+- [[entities/glusterd|glusterd]] `aliases: GlusterFS daemon, glusterd` - summary: "Glusterd is the management daemon component of GlusterFS, an open-source, scalable distrib
+- [[entities/ceph|ceph]] `aliases: Ceph storage, CephFS, RADOS` - summary: "Ceph is an open-source distributed storage system designed to provide highly reliable obje
+- [[entities/fluent-bit|fluent-bit]] `aliases: Fluent Bit, fluent-bit, Fluent Bit Agent` - summary: "Fluent Bit is an open-source, lightweight, and high-performance log processor and forwarde
+- [[entities/fluentd|fluentd]] `aliases: Fluentd logging agent, Unified Logging System, fluentd` - summary: "Fluentd is an open-source data collector designed for unified logging, commonly deployed i
+- [[entities/prometheus-node-exporter|prometheus-node-exporter]] `aliases: Node Exporter, node_exporter` - summary: "Prometheus Node Exporter is a standard tool within the Prometheus monitoring ecosystem des
+- [[entities/metrics-server|metrics-server]] `aliases: Kubernetes Metrics Server, Metrics Server for Kubernetes` - summary: "Metrics Server is a cluster component that collects resource usage data from nodes and pod
+- [[entities/cri-o|cri-o]] `aliases: CRI-O runtime, Container Runtime Interface - Open, CRI-O Container Runtime` - summary: "CRI-O is an open-source, lightweight container runtime specifically designed for Kubernete
+- [[entities/host-local|host-local]] `aliases: host-local IPAM, host-local CNI plugin` - summary: "`host-local` is a Container Network Interface (CNI) IP Address Management (IPAM) plugin re
+- [[entities/ctr|ctr]] `aliases: containerd debug CLI, ctr CLI, containerd CLI` - summary: "ctr is the low-level debug CLI bundled with [[entities/containerd|containerd]], offering b
+- [[entities/crictl|crictl]] `aliases: CRI CLI, CRI debug tool` - summary: "Kubernetes-related concept or topic."
+- [[entities/nerdctl|nerdctl]] `aliases: nerdctl CLI, nerdctl command-line tool` - summary: "> - 'nerdctl (Docker-like Containerd client) — [[concepts/scheduling-framework|Scheduling]
+- [[entities/open-container-initiative-oci|open-container-initiative-oci]] `aliases: OCI, Open Container Standards` - summary: "> - 'Containerd splits off as its own CNCF-graduated project, implements the OCI runtime s
+- [[entities/cncf|cncf]] `aliases: Cloud Native Computing Foundation, CNCF` - summary: "The Cloud Native Computing Foundation (CNCF) is a prominent organization within the Linux 
+- [[entities/weavenet|weavenet]] `aliases: Weave Net, weaveNet, Weave CNI` - summary: "WeaveNet is a Container Networking Interface (CNI) plugin that provides networking capabil
+- [[entities/microsoft’s-eshop-reference-application|microsoft’s-eshop-reference-application]] `aliases: eShopOnContainers, dotnet/eShop, eShop Sample App` - summary: "Microsoft’s eShop Reference Application is an open-source sample e-commerce platform built
+- [[entities/helm|helm]] `aliases: Helm, Helm charts, Helm package manager` - summary: "Helm is a package manager and deployment tool for [[entities/kubernetes|Kubernetes]] that 
+- [[entities/google’s-online-boutique|google’s-online-boutique]] `aliases: Hipster Shop, Online Boutique, Google's Microservices Demo` - summary: "Google’s Online Boutique, also known as Hipster Shop, is an open-source e-commerce demonst
+- [[entities/cisco’s-martianbank|cisco’s-martianbank]] `aliases: MartianBank, Cisco MartianBank` - summary: "Cisco’s MartianBank is an open-source demo project that simulates a banking application to
+- [[entities/weaveworks’-sock-shop|weaveworks’-sock-shop]] `aliases: Sock Shop, Weaveworks Sock Shop, Sock Shop Demo` - summary: "Weaveworks’ Sock Shop is an open-source, microservices-based online store application desi
+- [[entities/linux|linux]] `aliases: Linux kernel, GNU/Linux` - summary: "Linux is a free and open-source Unix-like operating system kernel first released by Linus 
+- [[entities/docker|docker]] `aliases: Docker Engine, docker daemon, Docker` - summary: "Docker is a pioneering platform for developing, shipping, and running applications inside 
+- [[entities/docker-compose|docker-compose]] `aliases: compose, docker-compose` - summary: "Docker Compose is a tool for defining and running multi-container [[entities/docker|Docker
+- [[entities/openssl|openssl]] `aliases: OpenSSL Software, OpenSSL Toolkit` - summary: "OpenSSL is a widely used open-source cryptographic software library and toolkit. It provid
+- [[entities/certificate-authority|certificate-authority]] `aliases: CA, Trusted Third Party` - summary: "A Certificate Authority (CA) is a trusted third-party organization that is fundamental to 
+- [[entities/coredns|coredns]] `aliases: Cluster DNS, DNS Add-on` - summary: "CoreDNS is a flexible and extensible DNS server that serves as the standard for in-cluster
+- [[entities/flannel|flannel]] `aliases: Flannel CNI, Flannel (CNI), Flannel CNI Plugin` - summary: "Flannel is a simple overlay network designed to fulfill the networking requirements of a [
+- [[entities/calico|calico]] `aliases: Project Calico, Calico CNI` - summary: "Calico is an open-source networking and network security solution designed for cloud-nativ
+- [[entities/pods|pods]] `aliases: Pod, pod, pods` - summary: "A Pod is the smallest deployable unit in [[entities/kubernetes|Kubernetes]], representing 
+- [[entities/worker-node-2|worker-node-2]] `aliases: worker node 2, Worker Node, worker-node-2` - summary: "worker-node-2 is one of two EC2 instances provisioned to run application workloads in a se
+- [[entities/worker-node-1|worker-node-1]] `aliases: worker node 1, Worker Node, Worker Node 1` - summary: "worker-node-1 is one of the two dedicated EC2 instances provisioned to form the worker nod
+- [[entities/ssh|ssh]] `aliases: Secure Shell, SSH access` - summary: "SSH (Secure Shell) is the cryptographic network protocol used for secure remote command-li
+- [[entities/iam|iam]] `aliases: Identity and Access Management, AWS IAM, Amazon IAM` - summary: "AWS Identity and Access Management (IAM) is a core service of [[entities/aws|AWS]] that pr
+- [[entities/ec2|ec2]] `aliases: Elastic Compute Cloud, EC2` - summary: "Amazon EC2, short for Elastic Compute Cloud, is a core [[entities/aws|AWS]] service that p
+- [[entities/ubuntu-server|ubuntu-server]] `aliases: Ubuntu OS` - summary: "Ubuntu Server is a popular, lightweight, and cloud-friendly Linux distribution designed fo
+- [[entities/aws|aws]] `aliases: Amazon Web Services, Amazon Cloud` - summary: "Amazon Web Services (AWS) is a comprehensive cloud computing platform provided by Amazon. 
+- [[entities/kubectl|kubectl]] `aliases: Kubernetes command-line tool, kubectl CLI` - summary: "kubectl is the official command-line interface tool for interacting with the [[entities/ku
+- [[entities/kubeadm|kubeadm]] `aliases: kubeadm, kubeadm tool` - summary: "kubeadm is a CLI tool from the [[entities/kubernetes|Kubernetes]] project that automates t
+- [[entities/containerd|containerd]] `aliases: containerd runtime, containerd.io` - summary: "containerd is a CNCF-graduated, production-grade container runtime that implements the Kub
+- [[entities/kubelet|kubelet]] `aliases: Kubelet Agent, Node Agent` - summary: "The **kubelet** is the primary node agent that runs on every node in a Kubernetes cluster.
+- [[entities/kubernetes|kubernetes]] `aliases: K8s, Kubernetes` - summary: "Kubernetes is an open-source container orchestration platform for automating deployment, s
+- [[entities/etcd|etcd]] `aliases: etcd database` - summary: "> - 'Run `kube-apiserver`, `etcd`, `kube-controller-manager`, and `kube-scheduler` themsel
+
+## Concepts
+
+- [[concepts/leading-words|leading-words]] - title: "Leading Words"
+- [[concepts/skills-checklist-framework|skills-checklist-framework]] - title: "Skills Checklist Framework"
+- [[concepts/skill-hell|skill-hell]] - title: "Skill Hell"
+- [[concepts/kubernetes-security|kubernetes-security]] `aliases: K8s Security, Container Security, Cloud Native Security, Kubernetes Cluster Security` - type: concept
+- [[concepts/security-in-kubernetes|security-in-kubernetes]] - type: concept
+- [[concepts/kubernetes-installation-steps|kubernetes-installation-steps]] - type: concept
+- [[concepts/introduction-to-kubernetes|introduction-to-kubernetes]] - type: concept
+- [[concepts/introduction-to-infrastructure-provisioning|introduction-to-infrastructure-provisioning]] `aliases: Infrastructure Automation, Cloud Provisioning, Infrastructure Deployment, IT Infrastructure Provisioning, Resource Provisioning, Server Provisioning` - type: concept
+- [[concepts/aws-vpc-introduction|aws-vpc-introduction]] - type: concept
+- [[concepts/bootstrapping-high-availability-control-plane|bootstrapping-high-availability-control-plane]] - type: concept
+- [[concepts/tls-certificates-in-kubernetes|tls-certificates-in-kubernetes]] - type: concept
+- [[concepts/how-tls-certificates-work-in-kubernetes-and-manual-cluster-setup|how-tls-certificates-work-in-kubernetes-and-manual-cluster-setup]] - type: concept
+- [[concepts/docker-embedded-dns-documentation|docker-embedded-dns-documentation]] - type: concept
+- [[concepts/container-dns-resolution-source|container-dns-resolution-source]] - type: concept
+- [[concepts/miscellaneous-source-1e6927|miscellaneous-source-1e6927]] - type: concept
+- [[concepts/miscellaneous-source|miscellaneous-source]] - type: concept
+- [[concepts/disable-swap-command|disable-swap-command]] - type: concept
+- [[concepts/static-pod|static-pod]] - type: concept
+- [[concepts/rolling-updates-&-rollbacks|rolling-updates-&-rollbacks]] `aliases: rolling deployment, rollback mechanism, incremental update, phased rollout, version rollback, revert procedure` - type: concept
+- [[concepts/rolling-updates-rollbacks|rolling-updates-rollbacks]] - type: concept
+- [[concepts/resource-requests-and-limits|resource-requests-and-limits]] - type: concept
+- [[concepts/resource-requests-&-limits|resource-requests-&-limits]] - type: concept
+- [[concepts/replication-controller-&-replicaset|replication-controller-&-replicaset]] - type: concept
+- [[concepts/replication-controllers-&-replicasets|replication-controllers-&-replicasets]] `aliases: RC, ReplicationController, ReplicaSet, Replica Set, Replication Controller, Replica controller` - type: concept
+- [[concepts/priorityclasses|priorityclasses]] `aliases: PriorityClasses, PriorityClass` - type: concept
+- [[concepts/kubernetes-pods|kubernetes-pods]] - type: concept
+- [[concepts/pods-overview|pods-overview]] `aliases: Kubernetes Pods, container pods, K8s pods, pods (Kubernetes), orchestration pods, pods in Kubernetes, application pods` - type: concept
+- [[concepts/bgp-kubernetes-networking|bgp-kubernetes-networking]] - type: concept
+- [[concepts/shared-storage|shared-storage]] - type: concept
+- [[concepts/cluster-autoscaler-overview|cluster-autoscaler-overview]] - type: concept
+- [[concepts/handling-sudden-failures|handling-sudden-failures]] - type: concept
+- [[concepts/encryption|encryption]] - type: concept
+- [[concepts/agent-loop|agent-loop]] - title: "Agent Loop"
+- [[concepts/mutating-admission-controllers|mutating-admission-controllers]] - type: concept
+- [[concepts/introduction-to-aws-iam|introduction-to-aws-iam]] - type: concept
+- [[concepts/introduction-to-ssh-and-kubernetes-cluster-setup|introduction-to-ssh-and-kubernetes-cluster-setup]] - type: concept
+- [[concepts/install-kubernetes-components|install-kubernetes-components]] - type: concept
+- [[concepts/microservices-demo-projects|microservices-demo-projects]] - type: concept
+- [[concepts/worker-nodes|worker-nodes]] - type: concept
+- [[concepts/tls|tls]] - type: concept
+- [[concepts/public-key-infrastructure-pki|public-key-infrastructure-pki]] - type: concept
+- [[concepts/bridged-adapter-networking|bridged-adapter-networking]] - type: concept
+- [[concepts/kube-scheduler|kube-scheduler]] - type: concept
+- [[concepts/equality-based-selectors|equality-based-selectors]] - type: concept
+- [[concepts/self-healing|self-healing]] - type: concept
+- [[concepts/replicaset|replicaset]] - type: concept
+- [[concepts/control-plane|control-plane]] - type: concept
+- [[concepts/equality-based-selector|equality-based-selector]] - type: concept
+- [[concepts/horizontal-pod-autoscaler|horizontal-pod-autoscaler]] - type: concept
+- [[concepts/secret|secret]] - type: concept
+- [[concepts/configmap|configmap]] - type: concept
+- [[concepts/daemonset|daemonset]] - type: concept
+- [[concepts/container-runtime-interface-cri|container-runtime-interface-cri]] - type: concept
+- [[concepts/oci-specifications|oci-specifications]] - type: concept
+- [[concepts/kube-apiserver|kube-apiserver]] - type: concept
+- [[concepts/node-authorization-in-kubernetes|node-authorization-in-kubernetes]] - type: concept
+- [[concepts/rolling-upgrade|rolling-upgrade]] `aliases: Rolling Upgrade Workflow, Cluster Rolling Upgrade, Zero-Downtime Cluster Update` - summary: "A rolling upgrade updates Kubernetes cluster nodes one at a time with minimal downtime, mi
+- [[concepts/pod-eviction|pod-eviction]] `aliases: Pod Evictions, Graceful Pod Eviction` - summary: "Pod eviction is a Kubernetes mechanism that forcibly removes pods from nodes during failur
+- [[concepts/supported-upgrade-path|supported-upgrade-path]] `aliases: Kubernetes Upgrade Path, K8s Upgrade Path` - summary: "The supported upgrade path in Kubernetes requires sequential minor version upgrades withou
+- [[concepts/release-channel|release-channel]] `aliases: Software Release Channel, Release Tracks` - summary: "Release channels categorize software distribution by stability level—Alpha, Beta, and Stab
+- [[concepts/semantic-versioning|semantic-versioning]] `aliases: SemVer, semantic version` - summary: "Semantic Versioning (SemVer) is a standardized MAJOR.MINOR.PATCH scheme for communicating 
+- [[concepts/pod-eviction-timeout|pod-eviction-timeout]] `aliases: Pod Eviction Timeout, podEvictionTimeout` - summary: "pod-eviction-timeout is a kube-controller-manager parameter that sets the grace period bef
+- [[concepts/version-skew-policy|version-skew-policy]] `aliases: Kubernetes version skew policy, K8s version skew` - summary: "Kubernetes version skew policy defines the maximum allowed version differences between clu
+- [[concepts/kubeadm-upgrade|kubeadm-upgrade]] `aliases: kubeadm upgrade apply, kubeadm upgrade node` - summary: "kubeadm upgrade is a kubeadm command set for upgrading Kubernetes cluster control planes a
+- [[concepts/node-cordon|node-cordon]] `aliases: kubectl cordon, cordon` - summary: "Node cordon marks a Kubernetes node as unschedulable, preventing new pods from being assig
+- [[concepts/node-drain|node-drain]] `aliases: kubectl drain, node draining` - summary: "Node drain safely evicts all pods from a Kubernetes node for maintenance by cordoning it a
+- [[concepts/node-uncordon|node-uncordon]] `aliases: node uncordon, kubectl uncordon` - summary: "Node uncordon reverses the cordon state, marking a Kubernetes node as schedulable again to
+- [[concepts/docker-run|docker-run]] `aliases: Docker Run Command` - summary: "The docker run command creates and starts a new container from an image, allowing command 
+- [[concepts/dockerfile|dockerfile]] `aliases: Docker Build File` - summary: "A Dockerfile is a text file with instructions for building Docker images, defining the bas
+- [[concepts/cmd|cmd]] `aliases: default command, Docker CMD, CMD instruction` - summary: "CMD is a Dockerfile instruction that sets the default command for a container, overridable
+- [[concepts/kubernetes-pod-command-and-args|kubernetes-pod-command-and-args]] `aliases: Pod Command and Args, Container Command Override, Docker ENTRYPOINT CMD Mapping` - summary: "Kubernetes command and args fields override a container's ENTRYPOINT and CMD at runtime, e
+- [[concepts/entrypoint|entrypoint]] `aliases: Fixed Executable, ENTRYPOINT instruction` - summary: "ENTRYPOINT is a Dockerfile instruction that specifies the fixed executable to run when a c
+- [[concepts/multi-container-pod|multi-container-pod]] `aliases: multi-container pods, pods with multiple containers` - summary: "A multi-container pod is a pod configuration in Kubernetes that contains more than one con
+- [[concepts/authorization-modes|authorization-modes]] `aliases: --authorization-mode, Kubernetes Authorization Modes, K8s Authorization Modes` - summary: "Authorization Modes are configurable settings that determine which modules evaluate API ac
+- [[concepts/alwaysallow-and-alwaysdeny|alwaysallow-and-alwaysdeny]] `aliases: AlwaysAllow mode, AlwaysDeny mode` - summary: "AlwaysAllow and AlwaysDeny are the two extreme API authorization modes in Kubernetes, perm
+- [[concepts/resources-and-verbs|resources-and-verbs]] `aliases: API Resources and Verbs, K8s Resources and Verbs` - summary: "In the Kubernetes API, **Resources** refer to the individual object types available under 
+- [[concepts/named-api-groups|named-api-groups]] `aliases: Named API Groups, /apis/<group>/<version>, K8s API Groups` - summary: "Named API Groups are a Kubernetes API organization mechanism used to group related resourc
+- [[concepts/kubectl-proxy|kubectl-proxy]] `aliases: kubectl proxy command, Kubernetes API Proxy, local kubectl proxy` - summary: "`kubectl proxy` is a command-line utility within the `kubectl` tool that runs a local HTTP
+- [[concepts/api-groups|api-groups]] `aliases: Kubernetes API Groups, K8s API Groups, API Group` - summary: "API Groups organize Kubernetes API resources into logical categories for versioning, exten
+- [[concepts/core-api-group|core-api-group]] `aliases: /api/v1, Core Kubernetes API Group, v1 Core API` - summary: "The Core API Group is the primary and default API group in the Kubernetes API, identified 
+- [[concepts/namespaceautoprovision|namespaceautoprovision]] `aliases: NamespaceAutocreation, Namespace Auto Provisioning, NSAutoProvision` - summary: "NamespaceAutoProvision is a mutating admission controller within Kubernetes that automatic
+- [[concepts/namespaceexists|namespaceexists]] `aliases: NamespaceValidator, NamespaceValidation` - summary: "NamespaceExists is a validating admission controller in Kubernetes that operates during th
+- [[concepts/defaulttolerationseconds|defaulttolerationseconds]] `aliases: DefaultTolerationSeconds, TolerationDefaults` - summary: "DefaultTolerationSeconds is a built-in mutating admission controller in Kubernetes that au
+- [[concepts/taintnodesbycondition|taintnodesbycondition]] `aliases: NodeConditionTainting, Taint Nodes By Condition, TNC` - summary: "TaintNodesByCondition is a built-in mutating admission controller within the Kubernetes AP
+- [[concepts/noderestriction|noderestriction]] `aliases: NodeRestriction, NodeRestrictionAdmissionController, NodeRestrictionController` - summary: "NodeRestriction is a built-in validating admission controller in Kubernetes that limits th
+- [[concepts/podsecurity|podsecurity]] `aliases: PodSecurityPolicy, PSP` - summary: "PodSecurity is a built-in validating admission controller that enforces Pod Security Stand
+- [[concepts/serviceaccount|serviceaccount]] `aliases: ServiceAccount controller, SAC` - summary: "ServiceAccount is a built-in mutating admission controller within Kubernetes. It automatic
+- [[concepts/limitranger|limitranger]] `aliases: LimitRangeEnforcer, Limit Range Controller` - summary: "LimitRanger is a built-in mutating admission controller in Kubernetes that enforces `Limit
+- [[concepts/namespacelifecycle|namespacelifecycle]] `aliases: NamespaceLifecycle, Namespace Protection, Namespace Lifecycle Controller` - summary: "NamespaceLifecycle is a built-in validating admission controller in Kubernetes that ensure
+- [[concepts/defaultingressclass|defaultingressclass]] `aliases: IngressClassDefaulting, Ingress Class Default Assignment` - summary: "DefaultIngressClass is a built-in mutating admission controller within Kubernetes that aut
+- [[concepts/alwayspullimages|alwayspullimages]] `aliases: AlwaysPullImagesPolicy, Always Pull Images Policy` - summary: "AlwaysPullImages is a built-in admission controller that sets image pull policy to Always,
+- [[concepts/defaultstorageclass|defaultstorageclass]] `aliases: StorageClassDefaulting, Default StorageClass, Default SC` - summary: "DefaultStorageClass is a built-in mutating admission controller in Kubernetes that automat
+- [[concepts/validating-phase|validating-phase]] `aliases: Admission Validating Phase, Validating Admission Phase, K8s Validating Phase` - summary: "The Validating Phase is the second stage in the Kubernetes admission control pipeline, occ
+- [[concepts/mutating-phase|mutating-phase]] `aliases: Admission Mutating Phase, Mutating Admission Phase` - summary: "The Mutating Phase is the first stage within the Kubernetes admission control pipeline, oc
+- [[concepts/validatingadmissionwebhook|validatingadmissionwebhook]] `aliases: Validating Webhook, VWA, Validation Webhook` - summary: "ValidatingAdmissionWebhook is an admission controller in Kubernetes that invokes external 
+- [[concepts/validatingadmissionpolicy|validatingadmissionpolicy]] `aliases: Admission Policy, Kubernetes Admission Policy, ValidatingAdmissionPolicy` - summary: "ValidatingAdmissionPolicy is a Kubernetes admission control method that allows declarative
+- [[concepts/mutatingadmissionwebhook|mutatingadmissionwebhook]] `aliases: Mutating Webhook, Mutating Admission Webhook, MAW` - summary: "MutatingAdmissionWebhook is a type of admission controller in Kubernetes that calls extern
+- [[concepts/low-level-container-runtime|low-level-container-runtime]] `aliases: low-level runtime, OCI runtime` - summary: "A low-level container runtime is a specialized software component that directly interacts 
+- [[concepts/high-level-container-runtime|high-level-container-runtime]] `aliases: high-level runtime` - summary: "A high-level container runtime is a container runtime that provides an API for building, p
+- [[concepts/ralph-coding-technique|ralph-coding-technique]] `aliases: Ralph, Ralph technique, Ralph Wiggum coding, AI recursive coding loop, monolithic AI agent` - summary: "An AI-assisted coding technique using recursive agent loops where an AI generates code, te
+- [[concepts/node-local-agents|node-local-agents]] `aliases: Node Agents, node-local workloads` - summary: "Node-local agents are software components or workloads that are designed to run on every n
+- [[concepts/volume-mounted-files|volume-mounted-files]] `aliases: File Mounting, Volume File Mounting` - summary: "A method in Kubernetes where the data from a ConfigMap or Secret is mounted as individual 
+- [[concepts/envfrom|envfrom]] `aliases: envFrom, Environment From, EnvFrom Injection` - summary: "envFrom is a specification field in Kubernetes Pod and Container definitions that allows a
+- [[concepts/aes-cbc|aes-cbc]] `aliases: AES-CBC Encryption, Advanced Encryption Standard Cipher Block Chaining` - summary: "AES-CBC is a symmetric encryption standard used in Kubernetes EncryptionConfiguration to e
+- [[concepts/encryptionconfiguration|encryptionconfiguration]] `aliases: EncryptionConfig, K8s Encryption Configuration` - summary: "EncryptionConfiguration is a Kubernetes API resource that defines how data at rest should 
+- [[concepts/environment-variables-in-pods|environment-variables-in-pods]] `aliases: Pod Environment Variables, env field` - summary: "Environment Variables in Pods is the mechanism in Kubernetes for injecting configuration d
+- [[concepts/encryption-at-rest|encryption-at-rest]] `aliases: Secret Encryption at Rest, Data at Rest Encryption, Secret Encryption` - summary: "Encryption at Rest is the practice of encrypting data while it is stored on a persistent m
+- [[concepts/updater|updater]] `aliases: VPA Updater, VPA Updater Component` - summary: "The Updater is a component of the Kubernetes Vertical Pod Autoscaler (VPA) responsible for
+- [[concepts/updatepolicy-mode|updatepolicy-mode]] `aliases: updatePolicy.mode, VPA updatePolicy.mode, Vertical Pod Autoscaler update policy mode` - summary: "A configuration field within the Vertical Pod Autoscaler (VPA) that specifies the strategy
+- [[concepts/admission-controller|admission-controller]] - summary: "Admission controllers intercept API requests to enforce cluster policies through mutating 
+- [[concepts/recommender|recommender]] `aliases: VPA Recommender, Vertical Pod Autoscaler Recommender` - summary: "A component of the Vertical Pod Autoscaler (VPA) that analyzes historical and current reso
+- [[concepts/stateful-workloads|stateful-workloads]] `aliases: Stateful Workloads, Persistent Workloads` - summary: "Stateful workloads are applications that maintain persistent, unique state and require sta
+- [[concepts/stateless-services|stateless-services]] `aliases: Stateless workloads, Stateless apps` - summary: "Stateless services are applications or workloads that do not store session state on the in
+- [[concepts/automated-scaling|automated-scaling]] `aliases: Auto Scaling, Autoscaling` - summary: "Automated scaling dynamically adjusts workload replicas and cluster nodes without manual i
+- [[concepts/cluster-scaling|cluster-scaling]] `aliases: Node Scaling, Infrastructure Scaling, Cluster Scaling` - summary: "Cluster scaling refers to the process of adjusting the number of worker nodes (servers) th
+- [[concepts/manual-scaling|manual-scaling]] `aliases: Manual Scaling, Manual H/V Scale, Manual Replica Scaling` - summary: "Manual scaling is the direct, user-initiated process of changing scaling parameters in a K
+- [[concepts/workload-scaling|workload-scaling]] `aliases: Workload Scaling, Pod Scaling, Container Scaling` - summary: "Workload scaling is the process of adjusting the number of pods or the resources (CPU, mem
+- [[concepts/in-place-pod-vertical-scaling|in-place-pod-vertical-scaling]] `aliases: In-Place Resize, InPlacePodVerticalScaling, In-Place Pod Resizing` - summary: "In-Place Pod Vertical Scaling is an alpha Kubernetes feature that allows the CPU and memor
+- [[concepts/cluster-autoscaler|cluster-autoscaler]] `aliases: CA, K8s Cluster Autoscaler, Kubernetes Cluster Autoscaler` - summary: "Cluster Autoscaler automatically adjusts worker node count based on resource demands, scal
+- [[concepts/vertical-scaling|vertical-scaling]] `aliases: scaling up, scaling down, scale up/down` - summary: "Vertical scaling is a method of adjusting the resources (such as CPU and memory) allocated
+- [[concepts/vertical-pod-autoscaler|vertical-pod-autoscaler]] `aliases: VPA, Vertical Autoscaling` - summary: "Vertical Pod Autoscaler (VPA) is a Kubernetes add-on that automatically adjusts the CPU an
+- [[concepts/horizontal-scaling|horizontal-scaling]] `aliases: Scaling Out, Scale-Out` - summary: "Horizontal scaling (also known as scaling out or scaling in) is the process of adding or r
+- [[concepts/set-based-selector|set-based-selector]] `aliases: set-based selection, set-based label selector` - summary: "A set-based selector is a Kubernetes selection mechanism that filters resources based on w
+- [[concepts/matchlabels|matchlabels]] - type: concept
+- [[concepts/annotations|annotations]] `aliases: Kubernetes Annotations, Annotations` - summary: "Annotations are non-identifying key-value pairs that attach supplementary metadata to Kube
+- [[concepts/statefulsets|statefulsets]] `aliases: StatefulSet, Stateful Sets` - summary: "StatefulSets are a Kubernetes workload API object designed to manage stateful applications
+- [[concepts/volumes|volumes]] `aliases: Kubernetes Volumes, Persistent Storage` - summary: "Volumes in Kubernetes are a mechanism for attaching persistent storage to Pods, enabling d
+- [[concepts/ingress|ingress]] `aliases: Kubernetes Ingress, Ingress Controller` - summary: "Ingress is a Kubernetes resource that manages external HTTP and HTTPS access to services w
+- [[concepts/secrets|secrets]] - summary: "Secrets are Kubernetes objects specifically for storing sensitive information like passwor
+- [[concepts/configmaps|configmaps]] - summary: "ConfigMaps centralize plaintext configuration for Kubernetes Pods, storing it as key-value
+- [[concepts/soft-rule|soft-rule]] `aliases: soft preference, best-effort scheduling` - summary: "A soft rule in Kubernetes node affinity represents a scheduling preference for a pod to ru
+- [[concepts/matchexpressions|matchexpressions]] `aliases: Node Affinity Match Expressions, matchExpress` - summary: "`matchExpressions` are a key-value pair matching mechanism used within Kubernetes node aff
+- [[concepts/preferredduringschedulingignoredduringexecution|preferredduringschedulingignoredduringexecution]] `aliases: preferredDuringSchedulingIgnoredDuringExecution affinity type, soft affinity, preferredDuringSchedulingIgnoredDuringExecution` - summary: "`preferredDuringSchedulingIgnoredDuringExecution` is a field within Kubernetes Node Affini
+- [[concepts/requiredduringschedulingignoredduringexecution|requiredduringschedulingignoredduringexecution]] - summary: "`requiredDuringSchedulingIgnoredDuringExecution` is the primary implementation of a '"
+- [[concepts/nodeselector|nodeselector]] `aliases: node selector` - summary: "`nodeSelector` is a simple and straightforward method in Kubernetes for constraining pods 
+- [[concepts/node-affinity|node-affinity]] `aliases: nodeAffinity, Node Affinity` - summary: "Node affinity is an advanced pod scheduling mechanism in Kubernetes that provides more exp
+- [[concepts/cluster-cidr|cluster-cidr]] `aliases: Pod network CIDR, Cluster-wide Pod CIDR, Pod CIDR` - summary: "Cluster CIDR is the overall IP address range (in Classless Inter-Domain Routing notation) 
+- [[concepts/daemonset-for-network-plugins|daemonset-for-network-plugins]] `aliases: CNI DaemonSet, Network plugin DaemonSet` - summary: "A DaemonSet for network plugins is a Kubernetes workload pattern that ensures a single ins
+- [[concepts/inter-node-routing|inter-node-routing]] `aliases: Cross-node Pod communication, Pod routing across nodes, Inter-node routing` - summary: "Inter-node routing is the mechanism in Kubernetes that enables Pods running on different n
+- [[concepts/intra-node-networking|intra-node-networking]] `aliases: Pod-to-Pod communication on same node, Within-node networking` - summary: "Intra-node networking in Kubernetes refers to the communication path between Pods running 
+- [[concepts/route-tables|route-tables]] `aliases: Route tables, Host routing table, Kernel routing table` - summary: "In Kubernetes networking, route tables refer to the IP routing tables maintained by the Li
+- [[concepts/node-subnet|node-subnet]] `aliases: Node pod subnet, Per-node subnet, Per-node CIDR subnet` - summary: "A node subnet is a non-overlapping IP address range assigned to a specific node within a K
+- [[concepts/port-conflicts|port-conflicts]] `aliases: Host port conflicts, Container port conflicts, Port contention` - summary: "Port conflicts are a networking phenomenon where multiple containers or services attempt t
+- [[concepts/kubernetes-network-model|kubernetes-network-model]] `aliases: Kubernetes networking model, Flat network model` - summary: "The Kubernetes network model is a fundamental design principle that defines how networking
+- [[concepts/bgp|bgp]] `aliases: Border Gateway Protocol, BGP` - summary: "BGP is the Internet's exterior gateway protocol that also enables Calico to route pod traf
+- [[concepts/network-plugin|network-plugin]] `aliases: CNI plugin, Network add-on, Pod networking plugin` - summary: "A network plugin in Kubernetes is a software component that implements the Container Netwo
+- [[concepts/flat-network-model|flat-network-model]] `aliases: Flat Pod network, Flat addressing, Kubernetes Flat Network` - summary: "The flat network model is a foundational networking paradigm in Kubernetes that assigns ev
+- [[concepts/vxlan|vxlan]] `aliases: Virtual Extensible LAN, Virtual eXtensible Local Area Network, VXLAN` - summary: "VXLAN (Virtual Extensible LAN) is a networking standard used for overlay encapsulation, al
+- [[concepts/co-scheduling|co-scheduling]] `aliases: Pod Co-scheduling, Container Co-location, Co-scheduling of containers` - summary: "Co-scheduling is a scheduling method in Kubernetes where all containers within a single Po
+- [[concepts/init-container|init-container]] - summary: "Init containers are special containers that run before app containers in a Pod, handling s
+- [[concepts/overlay-networking|overlay-networking]] `aliases: Overlay encapsulation, Network overlay, Overlay network` - summary: "Overlay networking is a method used by CNI plugins to create virtual network layers on top
+- [[concepts/pause-container|pause-container]] `aliases: Pause Container, Sandbox container, Pause sandbox` - summary: "A pause container is a minimal, lightweight container that Kubernetes injects into every P
+- [[concepts/cidr|cidr]] `aliases: Classless Inter-Domain Routing` - summary: "CIDR defines the overall IP address range for all cluster pods, established during cluster
+- [[concepts/ipam|ipam]] `aliases: IP Address Management, IP Management, IP Allocation` - summary: "IPAM (IP Address Management) is the method used by CNI plugins to allocate and manage IP a
+- [[concepts/sidecar-pattern|sidecar-pattern]] `aliases: Sidecar container, Sidecar` - summary: "The sidecar pattern is a design method in Kubernetes where a secondary container is deploy
+- [[concepts/preemptionpolicy|preemptionpolicy]] `aliases: preemption policy, PreemptionPolicy` - summary: "The `preemptionPolicy` is a configurable field within a Kubernetes `PriorityClass` object 
+- [[concepts/globaldefault|globaldefault]] `aliases: globalDefault, Kubernetes globalDefault, PriorityClass default` - summary: "`globalDefault` is an optional boolean field within a Kubernetes `PriorityClass` object. W
+- [[concepts/pod-preemption|pod-preemption]] `aliases: Preemption, Kubernetes Pod Preemption` - summary: "Pod Preemption is a Kubernetes scheduling mechanism that allows higher-priority Pods to ev
+- [[concepts/priorityclassname|priorityclassname]] `aliases: Pod PriorityClass Name, Pod Priority Class` - summary: "`priorityClassName` is a field within the Kubernetes Pod specification (`.spec.priorityCla
+- [[concepts/priorityclass|priorityclass]] `aliases: Kubernetes PriorityClass, pod-priority` - summary: "PriorityClass is a cluster-scoped Kubernetes object defined in the `scheduling.k8s.io/v1` 
+- [[concepts/set-based-selectors|set-based-selectors]] `aliases: matchExpressions selector, set selector, label selector operators` - summary: "Set-based selectors are an advanced label matching mechanism in Kubernetes that allow comp
+- [[concepts/high-availability|high-availability]] `aliases: HA, fault tolerance` - summary: "High Availability (HA) is a system design principle and attribute that ensures a specified
+- [[concepts/desired-state|desired-state]] - summary: "Desired State in Kubernetes refers to the user-defined configuration and specifications th
+- [[concepts/scaling|scaling]] - summary: "Scaling is a fundamental operational practice in Kubernetes for maintaining performance an
+- [[concepts/horizontalpodautoscaler|horizontalpodautoscaler]] - summary: "HorizontalPodAutoscaler (HPA) is a core Kubernetes resource that automatically manages the
+- [[concepts/services|services]] `aliases: Kubernetes Services, K8s Services` - summary: "In Kubernetes, a Service is a logical abstraction that defines a stable network endpoint (
+- [[concepts/selectors|selectors]] - summary: "Selectors are queries that filter Kubernetes resources based on label values, enabling the
+- [[concepts/labels|labels]] - summary: "Labels are fundamental metadata in Kubernetes, consisting of key-value pairs that are atta
+- [[concepts/replicationcontroller|replicationcontroller]] `aliases: RC, Replication Controller` - summary: "A ReplicationController (RC) is a core Kubernetes controller that maintains a stable set o
+- [[concepts/memory-suffixes|memory-suffixes]] `aliases: Memory Units, Binary vs Decimal Suffixes, Kubernetes Memory Suffixes` - summary: "Memory suffixes in Kubernetes refer to the notation system used for specifying memory requ
+- [[concepts/millicpu|millicpu]] `aliases: millicore, CPU milliunits` - summary: "MilliCPU is a unit of measurement for CPU resources in Kubernetes, where 1 millicpu (m) eq
+- [[concepts/oom-kill|oom-kill]] `aliases: OOMK, out-of-memory kill, memory kill` - summary: "An OOM Kill (Out-of-Memory Kill) is an event in Kubernetes where the container runtime's k
+- [[concepts/resourcequota|resourcequota]] - summary: "ResourceQuota is a Kubernetes object that enforces hard limits on the total amount of reso
+- [[concepts/cpu-throttling|cpu-throttling]] `aliases: throttling, kernel throttling` - summary: "CPU Throttling is a runtime enforcement mechanism within container orchestration systems l
+- [[concepts/limitrange|limitrange]] `aliases: LimitRange, LR` - summary: "A LimitRange is a Kubernetes resource object that is configured at the namespace level to 
+- [[concepts/resource-limits|resource-limits]] - summary: "Resource Limits define the maximum allowed CPU and memory consumption for a container. The
+- [[concepts/resource-requests|resource-requests]] - summary: "Resource Requests in Kubernetes define the minimum CPU and memory guarantees for a contain
+- [[concepts/kubectl-set-image|kubectl-set-image]] `aliases: set image command, kubectl set-image, set-image` - summary: "The `kubectl set image` command is a command-line tool (CLI) operation used to quickly upd
+- [[concepts/deployment-rollout-status|deployment-rollout-status]] `aliases: Rollout Status, Deployment Status, rollout status` - summary: "Deployment Rollout Status refers to the real-time state and progress of a Deployment's upd
+- [[concepts/kubectl-rollout-history|kubectl-rollout-history]] `aliases: rollout history command, kubectl rollout history command, rollout history` - summary: "`kubectl rollout history` is a command-line command used with the Kubernetes command-line 
+- [[concepts/kubectl-rollout-status|kubectl-rollout-status]] `aliases: rollout status command, rollout status, kubectl rollout` - summary: "The `kubectl rollout status` command is a Kubernetes command-line utility that monitors an
+- [[concepts/deployment|deployment]] - summary: "A Deployment manages a set of ReplicaSets, which in turn manage the Pods. This higher-leve
+- [[concepts/revision-history|revision-history]] `aliases: deployment revision history, rollout history` - summary: "Revision History is the recorded list of sequential changes (revisions) made to a Kubernet
+- [[concepts/rollback|rollback]] - summary: "In Kubernetes, a rollback is the process of reverting a Deployment to a previous, known-go
+- [[concepts/deployment-strategies|deployment-strategies]] `aliases: Deployment Strategy, Kubernetes Deployment Strategies` - summary: "> - Deployment Strategies – Two Ways to Upgrade"
+- [[concepts/rollout|rollout]] `aliases: Deployment Rollout, Kubernetes Rollout` - summary: "A rollout in Kubernetes is the process triggered when a Deployment is created or updated, 
+- [[concepts/replica-set-creation|replica-set-creation]] `aliases: New ReplicaSet creation, ReplicaSet creation during update` - summary: "Replica-set-creation is the internal Kubernetes mechanism where a new ReplicaSet is automa
+- [[concepts/recreate-strategy|recreate-strategy]] `aliases: Recreate, Recreate Deployment Strategy` - summary: "The Recreate strategy is a Kubernetes Deployment update method that completely terminates 
+- [[concepts/rolling-update-strategy|rolling-update-strategy]] - summary: "The Rolling Update strategy is the default deployment strategy used by Kubernetes Deployme
+- [[concepts/queue-phase|queue-phase]] `aliases: Queue Phase, active queue, Pod queue` - summary: "The Queue Phase is the initial stage in the Kubernetes Scheduling Framework where Pods are
+- [[concepts/scheduler-profiles|scheduler-profiles]] `aliases: Scheduler Profiles, kube-scheduler profiles, schedulerName profiles` - summary: "Scheduler profiles in Kubernetes allow multiple scheduling configurations to run within a 
+- [[concepts/extension-points-in-scheduling|extension-points-in-scheduling]] `aliases: Scheduling Extension Points, Scheduler Extension Points, Framework Extension Points` - summary: "Extension points in the Kubernetes Scheduling Framework are predefined hooks within the sc
+- [[concepts/multiple-schedulers|multiple-schedulers]] `aliases: Multiple schedulers, custom schedulers, Kubernetes multiple schedulers` - summary: "Multiple schedulers in Kubernetes refer to the ability to run several scheduler instances 
+- [[concepts/oci-specs|oci-specs]] - summary: "The OCI defines two core, vendor-neutral specifications: the Image Specification (Image Sp
+- [[concepts/dockershim|dockershim]] - summary: "> **Source: Containerd, CRI etc.** > - ' > - '"
+- [[concepts/node-bound|node-bound]] `aliases: Node-bound, node-specific` - summary: "Node-bound is a core characteristic of static Pods, meaning each static Pod manifest is as
+- [[concepts/self-reconciling|self-reconciling]] - summary: "Self-reconciling is the automatic state maintenance for static Pods managed directly by a 
+- [[concepts/replicasets|replicasets]] - summary: "A ReplicaSet is a Kubernetes controller that ensures a specified number of pod replicas ar
+- [[concepts/bootstrapping-control-plane|bootstrapping-control-plane]] `aliases: control plane bootstrapping, K8s control plane init, Control Plane Bootstrap` - summary: "Bootstrapping control-plane initializes Kubernetes components as static pods to establish 
+- [[concepts/daemonsets|daemonsets]] - summary: "A DaemonSet ensures one pod replica per node is deployed, automatically adjusting the pod 
+- [[concepts/manifest-directory|manifest-directory]] `aliases: pod manifest directory, static pod path, kubelet manifest directory` - summary: "The manifest directory is a filesystem location on each Kubernetes node where the kubelet 
+- [[concepts/mirror-pod|mirror-pod]] `aliases: mirror pods, Mirror Pods, Kubernetes Mirror Pod` - summary: "A Mirror Pod is a representation of a Static Pod that the kubelet creates within the Kuber
+- [[concepts/tolerations|tolerations]] - summary: "Tolerations are a [[entities/kubernetes|Kubernetes]] scheduling property that allows Pods 
+- [[concepts/taints|taints]] - summary: "Taints are labels applied to Kubernetes nodes that repel pods unless they have matching to
+- [[concepts/bridged-adapter|bridged-adapter]] - summary: "Bridged Adapter connects VMs directly to the physical network, making them appear as indep
+- [[concepts/etchosts|etchosts]] `aliases: hosts file, hostname resolution` - summary: "The `/etc/hosts` is a local system configuration file that maps hostnames to IP addresses,
+- [[concepts/swap|swap]] `aliases: swap space, virtual memory` - summary: "Swap is a Linux virtual memory mechanism that uses designated disk space as an extension o
+- [[concepts/containerization|containerization]] `aliases: Containerization, container-based deployment, app containerization` - summary: "Containerization is a lightweight, OS-level virtualization method that packages an applica
+- [[concepts/service-discovery|service-discovery]] `aliases: microservice discovery, service registry, SD` - summary: "Service discovery is the automatic process by which services in a distributed system locat
+- [[concepts/grpc|grpc]] `aliases: Google Remote Procedure Call, gRPC protocol, Google RPC` - summary: "gRPC is a high-performance, open-source remote procedure call (RPC) framework originally d
+- [[concepts/microservices-architecture|microservices-architecture]] `aliases: microservices, distributed services architecture` - summary: "Microservices architecture is a software development approach where an application is stru
+- [[concepts/kubernetes-practice|kubernetes-practice]] `aliases: K8s practice, Kubernetes hands-on learning, K8s practice guide` - summary: "Kubernetes practice refers to the hands-on learning and experimentation with Kubernetes cl
+- [[concepts/veth-pair|veth-pair]] `aliases: virtual ethernet pair, veth device` - summary: "A veth pair (virtual ethernet pair) is a Linux networking construct that creates a virtual
+- [[concepts/docker-gateway-ip|docker-gateway-ip]] `aliases: Docker bridge gateway, container default gateway, Docker gateway address` - summary: "Docker Gateway IP refers to the IP address assigned to the host machine on a Docker bridge
+- [[concepts/nat|nat]] `aliases: Network Address Translation, Docker NAT` - summary: "NAT (Network Address Translation) is a networking technique used by Docker to intercept an
+- [[concepts/iptables|iptables]] - summary: "> **Source: miscellaneous_1e6927** > - Docker configures **iptables** rules in that namesp
+- [[concepts/linux-network-namespace|linux-network-namespace]] `aliases: net namespace, network namespace, Linux net namespace` - summary: "A Linux network namespace is a kernel feature that provides complete isolation of the netw
+- [[concepts/container-dns-resolution|container-dns-resolution]] `aliases: Docker container name resolution, container-to-container DNS` - summary: "Container DNS Resolution is the mechanism by which Docker containers discover and communic
+- [[concepts/linux-namespace-types|linux-namespace-types]] `aliases: Linux namespaces, kernel namespaces` - summary: "Linux namespace types refer to the eight categories of namespaces introduced in the Linux 
+- [[concepts/embedded-dns-server|embedded-dns-server]] `aliases: Docker DNS, internal DNS server` - summary: "The embedded DNS server is a built-in component of the Docker daemon that runs on user-def
+- [[concepts/user-defined-bridge-network|user-defined-bridge-network]] `aliases: custom bridge network, Docker bridge network` - summary: "A user-defined bridge network is a custom virtual network created by a user in Docker that
+- [[concepts/bridge-network-in-docker|bridge-network-in-docker]] `aliases: Docker bridge, virtual switch` - summary: "Docker bridge is the default networking mode providing container-to-container communicatio
+- [[concepts/certificate-chain|certificate-chain]] `aliases: Certificate hierarchy, Cert chain` - summary: "A certificate chain is a hierarchical sequence of digitally signed certificates linking a 
+- [[concepts/certificate-verification|certificate-verification]] `aliases: Certificate validation, SSL/TLS verification, Cert verification` - summary: "Certificate verification validates digital certificates by checking signatures, expiration
+- [[concepts/certificate-authority-ca|certificate-authority-ca]] `aliases: CA, Cluster CA, Root CA` - summary: "A Certificate Authority (CA) is a trusted entity that signs digital certificates, serving 
+- [[concepts/client-certificate|client-certificate]] `aliases: Client Cert, Client Certificates, X.509 Client Certificate` - summary: "A client certificate authenticates components like kubelet and kubectl to the Kubernetes A
+- [[concepts/server-certificate|server-certificate]] `aliases: Server Cert, TLS Server Certificate` - summary: "A server certificate is a digital credential used by a network server to cryptographically
+- [[concepts/manual-certificate-management|manual-certificate-management]] `aliases: Manual TLS Setup, Manual Certificate Generation` - summary: "Manual Certificate Management is the process of setting up Transport Layer Security (TLS) 
+- [[concepts/subject-alternative-name-san|subject-alternative-name-san]] `aliases: SAN, X.509 SAN extension` - summary: "Subject Alternative Name (SAN) is an X.509 certificate extension that specifies additional
+- [[concepts/trust-root|trust-root]] `aliases: Root of Trust, CA Trust Root` - summary: "The Trust Root in a Kubernetes cluster is the foundational Certificate Authority (CA) that
+- [[concepts/mutual-tls-mtls|mutual-tls-mtls]] `aliases: mTLS, mutual authentication TLS` - summary: "Mutual TLS (mTLS) is an extension of the standard TLS protocol that requires both the clie
+- [[concepts/session-key|session-key]] `aliases: session key, symmetric session key, bulk encryption key` - summary: "A session key is a temporary, symmetric cryptographic key generated for the exclusive dura
+- [[concepts/aes-256-gcm|aes-256-gcm]] `aliases: AES-GCM, GCM mode of AES` - summary: "AES-256-GCM is a symmetric encryption algorithm providing both data confidentiality and in
+- [[concepts/ecdhe|ecdhe]] `aliases: Elliptic Curve Diffie-Hellman Ephemeral, ECDH key exchange` - summary: "ECDHE (Elliptic Curve Diffie-Hellman Ephemeral) is a cryptographic key exchange protocol t
+- [[concepts/rsa|rsa]] - summary: "RSA is an asymmetric cryptographic algorithm whose security relies on the practical diffic
+- [[concepts/certificate-signing-request|certificate-signing-request]] - summary: "A Certificate Signing Request (CSR) contains a public key and identity info that a CA sign
+- [[concepts/trust|trust]] `aliases: Chain of Trust, Confidence in Identity` - summary: "In the context of Transport Layer Security (TLS) and Public Key Infrastructure (PKI), **tr
+- [[concepts/self-signed-certificates|self-signed-certificates]] `aliases: Self-Signed Certs, Self-Issued Certificates` - summary: "A self-signed certificate is a digital certificate that has been signed by the same entity
+- [[concepts/digital-signature|digital-signature]] `aliases: Electronic Signature, DS, Digital Sig` - summary: "A digital signature is a cryptographic method that provides authenticity and integrity for
+- [[concepts/man-in-the-middle-attack|man-in-the-middle-attack]] `aliases: MITM Attack, Eavesdropping` - summary: "A Man-in-the-Middle (MITM) attack is a security threat where an attacker secretly intercep
+- [[concepts/public-key-infrastructure|public-key-infrastructure]] - summary: "Public Key Infrastructure (PKI) is a framework of policies, roles, and procedures used to 
+- [[concepts/asymmetric-encryption|asymmetric-encryption]] `aliases: Public-Key Cryptography, Asymmetric Cryptography, Public-key Encryption` - summary: "Asymmetric encryption uses a public-private key pair for secure key exchange and digital s
+- [[concepts/symmetric-encryption|symmetric-encryption]] `aliases: Secret-Key Cryptography, Symmetric Cryptography` - summary: "Symmetric encryption is a method of cryptography where the same secret key is used for bot
+- [[concepts/tls-handshake|tls-handshake]] `aliases: SSL Handshake, Key Exchange` - summary: "The TLS handshake is the initial, standardized process by which a client and server establ
+- [[concepts/tls-certificates|tls-certificates]] `aliases: TLS Certificates, Digital Certificates, SSL/TLS Certificates` - summary: "TLS Certificates are digital documents that bind a cryptographic key pair to an entity (su
+- [[concepts/certificate-generation|certificate-generation]] - summary: "Certificate generation creates a self-signed CA and component-specific signed TLS certific
+- [[concepts/kubeconfig|kubeconfig]] `aliases: kubeconfig, cluster config, admin.conf` - summary: "A kubeconfig is a YAML-formatted configuration file that contains cluster connection detai
+- [[concepts/high-availability-control-plane|high-availability-control-plane]] `aliases: HA control plane, multi-master cluster, high-availability cluster` - summary: "High-availability (HA) control plane is a deployment method for Kubernetes that eliminates
+- [[concepts/scheduler|scheduler]] - summary: "The scheduler is a central decision-maker in the Kubernetes control plane that watches the
+- [[concepts/add-ons-deployment|add-ons-deployment]] `aliases: cluster add-ons, core add-ons, add-ons` - summary: Add-ons deployment installs essential cluster services like kube-proxy and CoreDNS as Pods 
+- [[concepts/controller-manager|controller-manager]] - summary: "The controller-manager, specifically kube-controller-manager, is a fundamental control-pla
+- [[concepts/kube-proxy|kube-proxy]] - summary: "kube-proxy is a fundamental networking component that runs on every node in a Kubernetes c
+- [[concepts/version-locking|version-locking]] `aliases: package version pinning, apt-mark hold, version hold` - summary: "Version locking is a system administration method used to prevent the automatic or uninten
+- [[concepts/pod-network|pod-network]] - summary: "The Pod Network provides a flat, routable network for all Pods in the cluster, allowing di
+- [[concepts/kubernetes-apt-repository-setup|kubernetes-apt-repository-setup]] - summary: "Kubernetes APT repository setup is the procedure for adding the official Kubernetes packag
+- [[concepts/sysctl-configuration-for-kubernetes|sysctl-configuration-for-kubernetes]] - summary: "Sysctl configuration for Kubernetes involves setting kernel parameters such as br_netfilte
+- [[concepts/br_netfilter|br_netfilter]] - summary: "br_netfilter is a Linux kernel module required for Kubernetes networking to allow iptables
+- [[concepts/overlay|overlay]] - summary: "Overlay networking creates virtual networks over existing infrastructure, enabling contain
+- [[concepts/kubeadm-join|kubeadm-join]] `aliases: node join, worker join, Kubeadm Join` - summary: "`kubeadm join` is the command used to join worker nodes or additional control plane nodes 
+- [[concepts/kubeadm-init|kubeadm-init]] `aliases: kubeadm init, kubeadm initialize, control plane initialization` - summary: "`kubeadm init` is the primary command used to initialize and bootstrap the control plane o
+- [[concepts/bootstrapping|bootstrapping]] `aliases: Cluster Bootstrapping, kubeadm Bootstrapping, Bootstrapping a Cluster` - summary: "Bootstrapping initializes a Kubernetes control plane and joins worker nodes to form a func
+- [[concepts/static-pods|static-pods]] - summary: "Static Pods are special Kubernetes Pods managed directly by the kubelet on a specific node
+- [[concepts/vpc-basics|vpc-basics]] `aliases: Virtual Private Cloud Basics` - summary: "VPC Basics refer to the fundamental concepts of Amazon's Virtual Private Cloud networking 
+- [[concepts/infrastructure-provisioning|infrastructure-provisioning]] `aliases: Infrastructure Provisioning, Infra Provisioning, Infrastructure Setup` - summary: "Infrastructure Provisioning is the methodological process of creating and configuring the 
+- [[concepts/self-managed-kubernetes|self-managed-kubernetes]] `aliases: DIY Kubernetes, 自建Kubernetes, 裸金属Kubernetes` - summary: "Self-Managed Kubernetes is a deployment model where an organization takes full responsibil
+- [[concepts/managed-kubernetes|managed-kubernetes]] `aliases: Managed K8s, Kubernetes as a Service, KaaS` - summary: "Managed Kubernetes is a cloud service model where a provider (such as AWS EKS, GCP GKE, or
+- [[concepts/kubernetes-cluster|kubernetes-cluster]] `aliases: K8s cluster, cluster, self-managed Kubernetes cluster` - summary: "A Kubernetes Cluster is the complete, functional deployment of the Kubernetes orchestratio
+- [[concepts/aws-free-tier|aws-free-tier]] `aliases: AWS Free Tier, Free Tier` - summary: "AWS Free Tier provides new customers limited usage of AWS services at no cost for the firs
+- [[concepts/vpc|vpc]] `aliases: Virtual Private Cloud, VPC` - summary: "A Virtual Private Cloud (VPC) is a logically isolated section of a cloud provider's networ
+- [[concepts/worker-node|worker-node]] - summary: "> **Source: kubernetes-installation-steps_e573e8** > - ' > - '"
+- [[concepts/qos-classes|qos-classes]] `aliases: Quality of Service classes, Kubernetes QoS` - summary: "Quality of Service (QoS) classes in Kubernetes are a classification system that categorize
+- [[concepts/kubernetes-api-server|kubernetes-api-server]] - summary: "The Kubernetes API server (kube-apiserver) is the central hub for all cluster communicatio
+- [[concepts/control-plane-node|control-plane-node]] - summary: "The control-plane node is the foundational, conceptual 'brain' of a [[entities/kubernetes|
+- [[concepts/nodeswap-feature-gate|nodeswap-feature-gate]] `aliases: NodeSwap, swap feature gate, Kubernetes NodeSwap` - summary: "NodeSwap is an alpha feature gate in Kubernetes (v1.32+) that enables the use of node-leve
+- [[concepts/container-runtime|container-runtime]] - summary: "The Container Runtime Interface (CRI) is the fundamental plugin API that enables Kubernete
+- [[concepts/security-groups|security-groups]] - summary: "Security Groups act as instance-level firewalls within a Virtual Private Cloud (VPC), gove
+- [[concepts/ufw|ufw]] `aliases: Uncomplicated Firewall, UFW` - summary: "UFW (Uncomplicated Firewall) is a user-friendly command-line interface for managing netfil
+- [[concepts/firewalld|firewalld]] `aliases: Firewall Daemon, firewalld service` - summary: "Firewalld is a dynamic firewall daemon for Linux systems, providing a command-line interfa
+- [[concepts/prerequisites-verification|prerequisites-verification]] `aliases: Prerequisites verification, Node verification, Readiness check` - summary: "Prerequisites verification is a systematic method for confirming that all required system 
+- [[concepts/nodeport-services|nodeport-services]] `aliases: NodePort, NodePort service, Node Port Service` - summary: "A NodePort is a type of [[concepts/network-port-configuration|network port configuration]]
+- [[concepts/hostname-setting|hostname-setting]] `aliases: hostname configuration, host naming, hostname setup` - summary: "The process of assigning a unique and human-readable network identifier to each node withi
+- [[concepts/network-port-configuration|network-port-configuration]] `aliases: Port configuration, Firewall port configuration, Port opening` - summary: "Network port configuration refers to the method of managing and controlling specific TCP/U
+- [[concepts/disable-swap|disable-swap]] `aliases: swapoff, swap disabling, swap disabled` - summary: "Disabling swap is a critical node preparation method for Kubernetes, involving the tempora
+- [[concepts/static-password-file|static-password-file]] `aliases: Basic Auth File, Static Password Authentication, Deprecated Basic Auth File` - summary: "A static password file is a deprecated method for authenticating users to the [[entities/k
+- [[concepts/static-token-file|static-token-file]] `aliases: Token Auth File, Static Token Authentication` - summary: "A static token file is a method for authenticating users to the Kubernetes API server by u
+- [[concepts/human-vs-machine-users|human-vs-machine-users]] `aliases: Human vs Machine Users (Kubernetes), K8s User Types, User Types in Kubernetes` - summary: "A classification within Kubernetes that distinguishes between **human users** (e.g., admin
+- [[concepts/kerberos|kerberos]] `aliases: Kerberos Authentication, Kerberos Protocol, Kerberos Network Authentication` - summary: "Kerberos is a network authentication protocol that provides secure authentication for user
+- [[concepts/oidc|oidc]] `aliases: OpenID Connect, OIDC, OpenID` - summary: "OIDC (OpenID Connect) is an authentication layer built on top of the OAuth 2.0 protocol. I
+- [[concepts/ldap|ldap]] `aliases: LDAP, Lightweight Directory Access Protocol` - summary: "LDAP (Lightweight Directory Access Protocol) is a standard, application-layer protocol for
+- [[concepts/serviceaccounts|serviceaccounts]] `aliases: Service Account, K8s Service Account, K8s Service Accounts` - summary: "ServiceAccounts are Kubernetes resources that provide an identity for non-human entities (
+- [[concepts/x-509-client-certificates|x-509-client-certificates]] `aliases: Client Certificates, X.509 Client Certificate Authentication, Client Cert Auth` - summary: "X.509 client certificates are a public key infrastructure (PKI) based authentication mecha
+- [[concepts/role-rbac|role-rbac]] `aliases: RBAC Role, Kubernetes Role, Namespace Role` - summary: "A Role in Kubernetes Role-Based Access Control (RBAC) is a resource that defines a set of 
+- [[concepts/rolebinding|rolebinding]] `aliases: RoleBinding, Role Binding, Kubernetes RoleBinding` - summary: "RoleBinding is a Kubernetes resource that grants the permissions defined in a Role to a sp
+- [[concepts/clusterrolebinding|clusterrolebinding]] `aliases: ClusterRoleBinding, K8s ClusterRoleBinding` - summary: "ClusterRoleBinding is a Kubernetes resource within the RBAC (Role-Based Access Control) sy
+- [[concepts/clusterrole|clusterrole]] `aliases: ClusterRole, K8s ClusterRole` - summary: "ClusterRole is a Kubernetes resource that defines permissions at the cluster level. It is 
+- [[concepts/node-authorizer|node-authorizer]] - summary: "The Node Authorizer is a core component of the Kubernetes authorization chain, designed to
+- [[concepts/webhooks-authorization|webhooks-authorization]] `aliases: Authorization Webhooks, Webhook Authorizer, Webhook Authorization` - summary: "Webhooks in Kubernetes are an authorization mechanism that delegates access decision-makin
+- [[concepts/host-security|host-security]] `aliases: Host-Level Security, Cluster Access Security, Infrastructure Security` - summary: "Host security in the context of Kubernetes refers to securing the underlying infrastructur
+- [[concepts/tls-encryption|tls-encryption]] - summary: "> **Source: sources/tls-certificates_c8ca8c** > - ' > - '"
+- [[concepts/network-policies|network-policies]] `aliases: Kubernetes Network Policies, K8s Network Policies, NetPol` - summary: "Network Policies are a security mechanism in Kubernetes that allow users to define rules f
+- [[concepts/authorization-kubernetes|authorization-kubernetes]] `aliases: K8s Authorization, Kubernetes Access Control` - summary: "Kubernetes authorization determines what authenticated users and service accounts can do, 
+- [[concepts/rbac|rbac]] `aliases: RBAC, Role-Based Access Control` - summary: "RBAC (Role-Based Access Control) is an authorization method in Kubernetes that restricts a
+- [[concepts/abac|abac]] `aliases: ABAC, Attribute-Based Access Control, Attribute-Based Authorization` - summary: "ABAC (Attribute-Based Access Control) authorizes access using attributes of subjects, reso
+- [[concepts/authentication-kubernetes|authentication-kubernetes]] `aliases: K8s Authentication, Kubernetes API Authentication, K8s API Authentication` - summary: "Kubernetes authentication determines who can access the API server through X.509 certs, to
+
+## Sources
+
+- [[sources/cluster-maintenance-draining-&-os-upgrades_98d707|cluster-maintenance-draining-&-os-upgrades_98d707]] `aliases: Kubernetes Cluster Maintenance Guide, Cluster Maintenance - Draining & OS Upgrades`
+- [[sources/commands-&-args-in-containers-&-pods_300e3e|commands-&-args-in-containers-&-pods_300e3e]] `aliases: Commands & Args in Containers & Pods, Docker Kubernetes Command Override`
+- [[sources/init-containers_798910|init-containers_798910]] `aliases: InitContainers Overview, Kubernetes Init Containers`
+- [[sources/kubernetes-api-groups-authorization-and-rbac-a-comprehensive-overview_ab21cb|kubernetes-api-groups-authorization-and-rbac-a-comprehensive-overview_ab21cb]] `aliases: Kubernetes API Groups Overview`
+- [[sources/admission-controllers_7667fc|admission-controllers_7667fc]] `aliases: Kubernetes Admission Control, K8s Admission Controllers`
+- [[sources/containerd-cri-etc_fb87d8|containerd-cri-etc_fb87d8]] `aliases: Container Runtimes in Kubernetes: Docker, Containerd, and Related Tools, CRI and Containerd Overview`
+- [[sources/daemonsets_9f31ec|daemonsets_9f31ec]] `aliases: Kubernetes DaemonSet Documentation, DaemonSets in K8s`
+- [[sources/ralph-ai-coding-technique_ghuntley|ralph-ai-coding-technique_ghuntley]] `aliases: Ralph Wiggum Software Engineer, Ralph Wiggum Coding Technique`
+- [[sources/env-configmaps-&-secrets_9586ac|env-configmaps-&-secrets_9586ac]] `aliases: Kubernetes Config Management: Env, ConfigMaps & Secrets, K8s Configuration and Secrets Summary`
+- [[sources/kubernetes-autoscaling_59fbf3|kubernetes-autoscaling_59fbf3]] `aliases: K8s Autoscaling Notes, Kubernetes Scaling Quick Reference`
+- [[sources/labels-&-selectors_7e0f44|labels-&-selectors_7e0f44]] `aliases: Kubernetes Metadata Management Guide, Labels and Selectors in Kubernetes`
+- [[sources/main-kubernetes-components_82b036|main-kubernetes-components_82b036]] `aliases: Kubernetes Architecture Overview, k8s core concepts`
+- [[sources/nodeselector-&-nodeaffinity_5d8764|nodeselector-&-nodeaffinity_5d8764]] `aliases: NodeSelector & NodeAffinity, Kubernetes Node Scheduling Constraints`
+- [[sources/pods_c92b62|pods_c92b62]] `aliases: Kubernetes CNI Specification, Container Networking Interface`
+- [[sources/priorityclasses_438f81|priorityclasses_438f81]] `aliases: Pod Priority and Preemption, Kubernetes PriorityClasses`
+- [[sources/replication-controller-&-replicaset_285a2a|replication-controller-&-replicaset_285a2a]] `aliases: RC and RS in Kubernetes, Kubernetes Pod Replication Controllers`
+- [[sources/resource-requests-&-limits_4bd978|resource-requests-&-limits_4bd978]] `aliases: K8s Resource Management, Requests & Limits`
+- [[sources/rolling-updates-&-rollbacks_f484ef|rolling-updates-&-rollbacks_f484ef]] `aliases: K8s Deployment Management: Updates, Rollouts & Rollbacks, Kubernetes Deployment Rollout Reference`
+- [[sources/scheduling_f2b3ef|scheduling_f2b3ef]] `aliases: Kubernetes Scheduling and Container Runtimes, CRI, OCI, and Scheduler Architecture`
+- [[sources/static-pod_d72e06|static-pod_d72e06]] `aliases: Static Pods, Static Pod Manifests`
+- [[sources/taints-&-tolerations_37a014|taints-&-tolerations_37a014]] `aliases: Kubernetes Taints and Tolerations`
+- [[sources/manual-notes_10b5c5|manual-notes_10b5c5]] `aliases: Kubernetes Cluster Node Setup Guide, Manual Kubernetes VM Setup`
+- [[sources/microservices-demo-projects_ac9b1f|microservices-demo-projects_ac9b1f]] `aliases: Microservices Demo Projects List, Kubernetes Microservices Demos`
+- [[sources/miscellaneous_1e6927|miscellaneous_1e6927]] `aliases: Docker Networking Internals, Docker Name Resolution`
+- [[sources/resources_ab28e6|resources_ab28e6]] `aliases: Image Pasted 2025-05-01, Resource Image Ref`
+- [[sources/how-tls-certificates-work-in-kubernetes-and-manual-cluster-setup_e2b507|how-tls-certificates-work-in-kubernetes-and-manual-cluster-setup_e2b507]] `aliases: Kubernetes TLS Certificate Management Guide, Manual TLS Setup for K8s Clusters`
+- [[sources/tls-certificates_c8ca8c|tls-certificates_c8ca8c]] `aliases: TLS Primer, How TLS Works`
+- [[sources/bootstrapping-control-place_e4e0df|bootstrapping-control-place_e4e0df]] `aliases: kubeadm init Guide, Control Plane Bootstrapping`
+- [[sources/install-kubernetes-components_c70e92|install-kubernetes-components_c70e92]] `aliases: Kubernetes Component Installation Guide, Installing k8s Components on Nodes`
+- [[sources/introduction_804367|introduction_804367]] `aliases: Building a Kubernetes Cluster from Scratch: Introduction, Kubernetes Cluster Setup Guide: AWS Introduction`
+- [[sources/kubernetes-installation-steps_e573e8|kubernetes-installation-steps_e573e8]] `aliases: K8s Node Prerequisites, Node Configuration for Kubernetes`
+- [[sources/🔐-security-in-kubernetes_0a37d1|🔐-security-in-kubernetes_0a37d1]] `aliases: K8s Security Overview, Securing Kubernetes Guide`
