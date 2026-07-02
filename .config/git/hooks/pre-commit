@@ -2,15 +2,11 @@
 #
 # pre-commit — Guardrail: block commits containing secrets / API keys
 #
-# Scans all **staged** file content (the index) for patterns that match
+# Scans all **staged** file content for patterns that match
 # known API keys, auth tokens, and private keys.  Exits non-zero and
 # prints the offending file + line + secret type so you can clean it up.
 #
 # Bypass (use with caution):  git commit --no-verify  or  git commit -n
-#
-# Patterns added?  Keep them concrete — avoid flagging doc / example keys
-# that live in the repo deliberately.  Ref: owasp.org/www-community/
-# controls/Secret_Management
 
 set -euo pipefail
 
@@ -21,7 +17,6 @@ BOLD='\033[1m'
 NC='\033[0m'
 
 # ── Pattern definitions (name:regex) ────────────────────────────
-# Each entry: human-readable label:extended-regex
 PATTERNS=(
     "AWS Access Key ID:AKIA[0-9A-Z]{16}"
     "AWS Secret Access Key value:[Aa][Ww][Ss]_[Ss][Ee][Cc][Rr][Ee][Tt]_[Aa][Cc][Cc][Ee][Ss][Ss]_[Kk][Ee][Yy]"
@@ -36,7 +31,7 @@ PATTERNS=(
     "Discord Bot Token:[MN][A-Za-z0-9_\\-]{23,25}\\.[A-Za-z0-9_\\-]{6}\\.[A-Za-z0-9_\\-]{27}"
     "Telegram Bot Token:[0-9]{8,10}:[A-Za-z0-9_\\-]{35}"
     "Slack Webhook URL:hooks\\.slack\\.com/services/T[A-Z0-9_]+/B[A-Z0-9_]+/[A-Za-z0-9_]+"
-    "Generic API Key / Secret / Token:(_(api_key|secret_key|private_key|access_token|auth_token|bot_token|client_secret))\s*[=:]\s*\S{8,}"
+    "Generic API Key / Secret / Token:(api_key|secret_key|private_key|access_token|auth_token|bot_token|client_secret)\\s*[=:]\\s*\\S{8,}"
 )
 
 # ── Main ─────────────────────────────────────────────────────────
@@ -44,28 +39,28 @@ staged_files=$(git diff --cached --name-only --diff-filter=ACMR || true)
 errors=0
 violations=""
 
-for spec in "${PATTERNS[@]}"; do
-    name="${spec%%:*}"
-    pattern="${spec#*:}"
+if [ -n "$staged_files" ]; then
+    for spec in "${PATTERNS[@]}"; do
+        name="${spec%%:*}"
+        pattern="${spec#*:}"
 
-    # Search the index (staged content) — skip binary files (-I)
-    matches=$(git grep -nIE --cached -e "$pattern" 2>/dev/null || true)
-
-    if [ -n "$matches" ]; then
-        while IFS= read -r line; do
-            file="${line%%:*}"
-            rest="${line#*:}"
-            lineno="${rest%%:*}"
-            content="${rest#*:}"
-            # Trim leading whitespace and truncate display
-            content="$(echo "$content" | sed 's/^[[:space:]]*//' | head -c 60)"
-            [ -z "$content" ] && content="(matched raw line)"
-
-            errors=$((errors + 1))
-            violations="${violations}  ${RED}•${NC} ${BOLD}${file}:${lineno}${NC} — ${YELLOW}${name}${NC}\n    ↳ \`${content}\`\n"
-        done <<< "$matches"
-    fi
-done
+        # Only search staged file contents, not entire index
+        for f in $staged_files; do
+            matches=$(git show ":$f" 2>/dev/null | grep -nE -- "$pattern" || true)
+            if [ -n "$matches" ]; then
+                while IFS= read -r line; do
+                    lineno="${line%%:*}"
+                    content="${line#*:}"
+                    # Trim leading whitespace and truncate display
+                    content="$(echo "$content" | sed 's/^[[:space:]]*//' | head -c 60)"
+                    [ -z "$content" ] && content="(matched raw line)"
+                    errors=$((errors + 1))
+                    violations="${violations}  ${RED}•${NC} ${BOLD}${f}:${lineno}${NC} — ${YELLOW}${name}${NC}\n    ↳ \`${content}\`\n"
+                done <<< "$matches"
+            fi
+        done
+    done
+fi
 
 if [ "$errors" -gt 0 ]; then
     printf "\n${RED}╔══════════════════════════════════════════════════════════════╗${NC}\n"
