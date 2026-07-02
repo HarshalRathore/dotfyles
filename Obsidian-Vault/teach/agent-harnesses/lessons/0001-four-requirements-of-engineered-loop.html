@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lesson 001 — The Four Requirements of an Engineered Loop</title>
+<style>
+  :root {
+    --bg: #0e0e10;
+    --surface: #18181b;
+    --border: #2a2a2e;
+    --text: #e4e4e7;
+    --muted: #a1a1aa;
+    --accent: #a78bfa;
+    --accent-dim: #7c3aed;
+    --green: #4ade80;
+    --yellow: #fbbf24;
+    --red: #f87171;
+    --blue: #60a5fa;
+    --font-mono: 'SF Mono', 'Fira Code', 'JetBrains Mono', monospace;
+    --font-serif: 'Georgia', 'Times New Roman', serif;
+    --font-sans: -apple-system, 'Inter', 'Segoe UI', sans-serif;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { font-size: 17px; scroll-behavior: smooth; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-sans);
+    line-height: 1.7;
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem;
+  }
+
+  /* Header */
+  .lesson-header {
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .lesson-number {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 0.75rem;
+    display: block;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+    letter-spacing: -0.02em;
+  }
+
+  .subtitle {
+    color: var(--muted);
+    font-size: 1rem;
+    font-style: italic;
+    font-family: var(--font-serif);
+  }
+
+  /* Typography */
+  h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    letter-spacing: -0.01em;
+    color: #fafafa;
+  }
+
+  h3 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #d4d4d8;
+  }
+
+  p {
+    margin-bottom: 1.25rem;
+  }
+
+  strong { color: #fafafa; font-weight: 600; }
+
+  /* Requirement cards */
+  .req-grid {
+    display: grid;
+    gap: 1rem;
+    margin: 1.5rem 0;
+  }
+
+  .req-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.25rem 1.5rem;
+    position: relative;
+    transition: border-color 0.2s;
+  }
+
+  .req-card:hover {
+    border-color: var(--accent-dim);
+  }
+
+  .req-card::before {
+    content: attr(data-num);
+    position: absolute;
+    top: 1.25rem;
+    right: 1.5rem;
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    color: var(--muted);
+    letter-spacing: 0.1em;
+  }
+
+  .req-card .req-name {
+    font-weight: 600;
+    font-size: 1.05rem;
+    margin-bottom: 0.4rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .req-card .req-icon {
+    font-size: 1.1rem;
+  }
+
+  .req-card .req-desc {
+    color: var(--muted);
+    font-size: 0.92rem;
+    margin-bottom: 0;
+  }
+
+  /* Color coding */
+  .req-card[data-num="1"] { border-left: 3px solid var(--accent); }
+  .req-card[data-num="2"] { border-left: 3px solid var(--green); }
+  .req-card[data-num="3"] { border-left: 3px solid var(--yellow); }
+  .req-card[data-num="4"] { border-left: 3px solid var(--blue); }
+
+  /* Code blocks */
+  pre {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.25rem 1.5rem;
+    margin: 1.5rem 0;
+    overflow-x: auto;
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    line-height: 1.6;
+  }
+
+  code {
+    font-family: var(--font-mono);
+    font-size: 0.88em;
+    background: rgba(167, 139, 250, 0.08);
+    padding: 0.15em 0.4em;
+    border-radius: 4px;
+    color: var(--accent);
+  }
+
+  pre code {
+    background: none;
+    padding: 0;
+    color: inherit;
+  }
+
+  /* Callout boxes */
+  .callout {
+    border-left: 3px solid var(--border);
+    padding: 1rem 1.25rem;
+    margin: 1.5rem 0;
+    border-radius: 0 8px 8px 0;
+    background: var(--surface);
+  }
+
+  .callout.warning {
+    border-left-color: var(--yellow);
+  }
+
+  .callout.insight {
+    border-left-color: var(--green);
+  }
+
+  .callout-label {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+
+  .callout.warning .callout-label { color: var(--yellow); }
+  .callout.insight .callout-label { color: var(--green); }
+
+  .callout p { margin-bottom: 0; font-size: 0.92rem; }
+
+  /* Quiz section */
+  .quiz {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 2rem 0;
+  }
+
+  .quiz-title {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 1rem;
+  }
+
+  .quiz-question {
+    font-weight: 500;
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+  }
+
+  .quiz-option {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.6rem;
+    padding: 0.6rem 0;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.15s;
+  }
+
+  .quiz-option:hover {
+    background: rgba(167, 139, 250, 0.06);
+  }
+
+  .quiz-option .option-key {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--muted);
+    min-width: 1.2rem;
+    text-align: center;
+    flex-shrink: 0;
+  }
+
+  .quiz-option .option-text {
+    font-size: 0.9rem;
+    color: var(--text);
+  }
+
+  .quiz-result {
+    margin-top: 1rem;
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
+    font-size: 0.88rem;
+    display: none;
+  }
+
+  .quiz-result.correct {
+    background: rgba(74, 222, 128, 0.1);
+    border: 1px solid rgba(74, 222, 128, 0.3);
+    color: var(--green);
+    display: block;
+  }
+
+  .quiz-result.incorrect {
+    background: rgba(248, 113, 113, 0.1);
+    border: 1px solid rgba(248, 113, 113, 0.3);
+    color: var(--red);
+    display: block;
+  }
+
+  /* Section divider */
+  .divider {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 2.5rem 0;
+  }
+
+  /* Footer / next */
+  .lesson-footer {
+    border-top: 1px solid var(--border);
+    padding-top: 1.5rem;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .footer-label {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  .next-link {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.95rem;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s;
+  }
+
+  .next-link:hover {
+    border-bottom-color: var(--accent);
+  }
+
+  .sources {
+    font-size: 0.8rem;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+
+  .sources a {
+    color: var(--muted);
+    text-decoration: underline;
+    text-decoration-color: rgba(161, 161, 170, 0.3);
+    text-underline-offset: 2px;
+  }
+
+  .sources a:hover {
+    color: var(--text);
+  }
+
+  /* Flow diagram */
+  .flow-diagram {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    margin: 2rem 0;
+    flex-wrap: wrap;
+  }
+
+  .flow-node {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    font-size: 0.85rem;
+    font-weight: 500;
+    text-align: center;
+    min-width: 100px;
+  }
+
+  .flow-node.goal { border-color: var(--accent); color: var(--accent); }
+  .flow-node.context { border-color: var(--green); color: var(--green); }
+  .flow-node.eval { border-color: var(--yellow); color: var(--yellow); }
+  .flow-node.agent { border-color: var(--blue); color: var(--blue); }
+
+  .flow-arrow {
+    color: var(--muted);
+    font-size: 1.2rem;
+    padding: 0 0.5rem;
+  }
+
+  .flow-loop {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    padding: 0.5rem 0;
+  }
+
+  .loop-badge {
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    letter-spacing: 0.1em;
+    background: rgba(167, 139, 250, 0.12);
+    color: var(--accent);
+    padding: 0.25rem 0.6rem;
+    border-radius: 4px;
+    border: 1px solid rgba(167, 139, 250, 0.2);
+  }
+
+  /* Print styles */
+  @media print {
+    body { background: #fff; color: #111; font-size: 11pt; }
+    .req-card { border-left-width: 3px; }
+    pre { border: 1px solid #ccc; }
+  }
+
+  @media (max-width: 600px) {
+    html { font-size: 15px; }
+    body { padding: 2rem 1rem; }
+  }
+</style>
+</head>
+<body>
+
+<div class="lesson-header">
+  <span class="lesson-number">Lesson 001 — Foundations</span>
+  <h1>The Four Requirements of an Engineered Loop</h1>
+  <p class="subtitle">Every loop that ships real work — not just generated noise — rests on exactly four pillars.</p>
+</div>
+
+<p>Before you build a harness, you need to understand what makes a loop <em>engineered</em> rather than accidental. A loop with no structure is a "slop cannon": it spins, generates, and produces noise. An engineered loop has <strong>constraints that turn non-deterministic generation into deterministic progress</strong>.</p>
+
+<p>There are exactly four requirements. Missing any one collapses the loop into randomness.</p>
+
+<!-- Flow diagram -->
+<div class="flow-diagram">
+  <div class="flow-node goal">Goal</div>
+  <div class="flow-arrow">→</div>
+  <div class="flow-node context">Context</div>
+  <div class="flow-arrow">→</div>
+  <div class="flow-node eval">Evaluation</div>
+  <div class="flow-arrow">→</div>
+  <div class="flow-node agent">Agent</div>
+</div>
+<div class="flow-loop">
+  <span class="loop-badge">⬤ each iteration: propose → act → evaluate → decide</span>
+</div>
+
+<hr class="divider">
+
+<h2 id="requirement-1">1. A Goal</h2>
+
+<p>The goal scopes the loop. It answers: <em>what does "done" look like?</em></p>
+
+<p>Without a goal, the loop has no exit condition and no success metric. The agent spirals because "better code" is not a boundary — it's a direction with no destination.</p>
+
+<p>Examples of well-scoped goals:</p>
+
+<pre><code># ✅ Good
+"Fix the ClickHouse query latency on the events table"
+"Get CI green on the auth branch"
+"Implement all items marked TODO in fix_plan.md"
+
+# ❌ Bad
+"Make the codebase better"
+"Write more tests"
+"Improve performance"</code></pre>
+
+<div class="callout insight">
+  <span class="callout-label">Insight</span>
+  <p>PostHog's loops team found that the most effective goals are <strong>binary and measurable</strong>: CI green or not, test passes or fails, latency under X ms or not. Binary goals eliminate the agent's ability to "feel done" without evidence.</p>
+</div>
+
+<h2 id="requirement-2">2. Context</h2>
+
+<p>Context is the fuel the agent pulls from during each iteration. The critical distinction: <strong>context is curated and fed throughout the run, not dumped upfront</strong>.</p>
+
+<p>Good context includes:</p>
+
+<ul style="margin-bottom: 1.25rem; padding-left: 1.5rem;">
+  <li>Specifications (requirements as files)</li>
+  <li>Current plan / TODO list</li>
+  <li>Recent errors and failures</li>
+  <li>Build/run instructions</li>
+  <li>Skill files the agent can consult</li>
+  <li>Memory of previous iterations</li>
+</ul>
+
+<p>The agent should <strong>fetch and react</strong> to new inputs — not work from a static dump. In the Ralph technique, this means reading <code>fix_plan.md</code> and <code>specs/</code> fresh each iteration. In the Missions architecture, workers inherit a clean slate plus a structured handoff from the previous worker.</p>
+
+<div class="callout warning">
+  <span class="callout-label">Pitfall</span>
+  <p>Dumping the entire codebase into the context window is the most common mistake. The context window is ~170k tokens effective — and the agent can only work with what it attends to. Curate ruthlessly. The agent should request context, not be forced to ignore it.</p>
+</div>
+
+<h2 id="requirement-3">3. Evaluation</h2>
+
+<p>Evaluation is <em>how the agent checks itself</em>. This is the key distinction from standard prompting: in a loop, the agent does the verification, not the engineer.</p>
+
+<p>Common evaluation mechanisms:</p>
+
+<ul style="margin-bottom: 1.25rem; padding-left: 1.5rem;">
+  <li><strong>Tests</strong> — unit, integration, end-to-end</li>
+  <li><strong>Benchmarks</strong> — for performance loops (autoresearch)</li>
+  <li><strong>CI pipelines</strong> — for integration-level gates</li>
+  <li><strong>LLM-as-judge</strong> — the LLM scores its own output against criteria</li>
+  <li><strong>Static analysis</strong> — type checkers, linters, Dialyzer, Pyrefly</li>
+  <li><strong>User testing validators</strong> — spawn the app, interact via computer use</li>
+</ul>
+
+<p>The evaluation criterion should be defined <strong>before implementation</strong>. In the Missions architecture, this is the <a href="#validation-contracts"><strong>validation contract</strong></a> — hundreds of assertions written during planning, before any code exists.</p>
+
+<div class="callout insight">
+  <span class="callout-label">Key insight</span>
+  <p>Tests written <em>after</em> implementation confirm decisions rather than catch bugs. Validation contracts prevent this by defining correctness independently of code. The difference: "this function returns a user object" (post-hoc) vs "the API must return a 200 with a 'id' field and 'name' field" (pre-contract).</p>
+</div>
+
+<h2 id="requirement-4">4. An Agent</h2>
+
+<p>The agent is the actor. It can range from a simple <code>while true; do claude-code; done</code> loop to a sophisticated multi-role system. What matters is not the sophistication of the agent, but that it has the <strong>tools, instructions, and autonomy</strong> to act on the other three requirements.</p>
+
+<p>Agent architectures in the wild:</p>
+
+<table style="width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem;">
+  <thead>
+    <tr style="border-bottom: 1px solid var(--border); text-align: left;">
+      <th style="padding: 0.5rem 0.75rem; color: var(--muted); font-weight: 500;">Architecture</th>
+      <th style="padding: 0.5rem 0.75rem; color: var(--muted); font-weight: 500;">Agents</th>
+      <th style="padding: 0.5rem 0.75rem; color: var(--muted); font-weight: 500;">Best for</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom: 1px solid var(--border);">
+      <td style="padding: 0.5rem 0.75rem;">Ralph</td>
+      <td style="padding: 0.5rem 0.75rem;">1 monolithic</td>
+      <td style="padding: 0.5rem 0.75rem;">Greenfield, single developer</td>
+    </tr>
+    <tr style="border-bottom: 1px solid var(--border);">
+      <td style="padding: 0.5rem 0.75rem;">Missions</td>
+      <td style="padding: 0.5rem 0.75rem;">3 roles (orchestrator, workers, validators)</td>
+      <td style="padding: 0.5rem 0.75rem;">Multi-day feature delivery</td>
+    </tr>
+    <tr>
+      <td style="padding: 0.5rem 0.75rem;">Karpathy autoresearch</td>
+      <td style="padding: 0.5rem 0.75rem;">1 + benchmark</td>
+      <td style="padding: 0.5rem 0.75rem;">Performance optimization</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The choice between monolithic and multi-agent is not about intelligence — it's about <strong>complexity management</strong>. Ralph's philosophy: "Multi-agent, agent-to-agent communication and multiplexing adds enormous complexity — especially when the agents themselves are non-deterministic." One agent, one loop, one repo is simpler and often more effective.</p>
+
+<hr class="divider">
+
+<h2 id="validation-contracts">Bonus: The Validation Contract</h2>
+
+<p>While not one of the four requirements, the <strong>validation contract</strong> is the most important design pattern inside engineered loops. It bridges the Goal and Evaluation requirements:</p>
+
+<ol style="margin-bottom: 1.25rem; padding-left: 1.5rem; font-size: 0.92rem; line-height: 1.8;">
+  <li>Written during <strong>planning</strong>, before any code</li>
+  <li>Defines correctness <strong>independently</strong> of implementation</li>
+  <li>Each feature gets one or more <strong>assertions</strong> it must satisfy</li>
+  <li>Sum of all features means every assertion is covered</li>
+  <li>Prevents tests from being "shaped by the code"</li>
+</ol>
+
+<p>This is what Luke Alvoeiro at Factory calls the most critical innovation in multi-agent engineering: <em>define done before you start building</em>.</p>
+
+<hr class="divider">
+
+<h2>Quiz</h2>
+
+<div class="quiz" id="quiz-1">
+  <div class="quiz-title">🧠 Check your understanding</div>
+
+  <p class="quiz-question">Which of the following is the best-scoped goal for an engineering loop?</p>
+
+  <div class="quiz-option" onclick="checkAnswer(this, false)">
+    <span class="option-key">A</span>
+    <span class="option-text">Make the frontend look better</span>
+  </div>
+  <div class="quiz-option" onclick="checkAnswer(this, false)">
+    <span class="option-key">B</span>
+    <span class="option-text">Reduce API response time to under 200ms for 95% of requests</span>
+  </div>
+  <div class="quiz-option" onclick="checkAnswer(this, false)">
+    <span class="option-key">C</span>
+    <span class="option-text">Write tests for the auth module</span>
+  </div>
+  <div class="quiz-option" onclick="checkAnswer(this, false)">
+    <span class="option-key">D</span>
+    <span class="option-text">Refactor the codebase to be more maintainable</span>
+  </div>
+
+  <div class="quiz-result" id="quiz-result"></div>
+</div>
+
+<hr class="divider">
+
+<div class="lesson-footer">
+  <div>
+    <span class="footer-label">Previous</span>
+    <br>—
+  </div>
+  <div>
+    <span class="footer-label">Next →</span>
+    <a href="0002-monolithic-vs-multi-agent.html" class="next-link">Monolithic vs Multi-Agent: Choosing Your Architecture →</a>
+  </div>
+</div>
+
+<div class="sources">
+  <strong>Sources:</strong>
+  <a href="https://posthog.com/newsletter/loops" target="_blank">PostHog: Why we're bullish on loops</a> ·
+  <a href="https://www.youtube.com/watch?v=ow1we5PzK-o" target="_blank">Luke Alvoeiro, Factory: The Multi-Agent Architecture That Actually Ships</a> ·
+  <a href="https://ghuntley.com" target="_blank">Geoffrey Huntley: Ralph Wiggum as a "Software Engineer"</a>
+</div>
+
+<script>
+function checkAnswer(el, isCorrect) {
+  const result = document.getElementById('quiz-result');
+  const allOptions = el.parentElement.querySelectorAll('.quiz-option');
+
+  allOptions.forEach(opt => {
+    opt.style.pointerEvents = 'none';
+    opt.style.opacity = '0.6';
+  });
+
+  el.style.opacity = '1';
+
+  if (isCorrect) {
+    el.style.background = 'rgba(74, 222, 128, 0.1)';
+    result.className = 'quiz-result correct';
+    result.innerHTML = '<strong>Correct.</strong> Binary, measurable goals eliminate ambiguity. Under 200ms for 95% of requests — you can test this, you can pass or fail, the loop knows when it\'s done.';
+  } else {
+    el.style.background = 'rgba(248, 113, 113, 0.1)';
+    result.className = 'quiz-result incorrect';
+    const corrections = {
+      'A': '"Make the frontend look better" — subjective, no exit condition. The loop can never tell if it\'s done.',
+      'C': '"Write tests for the auth module" — better than A or D, but still not binary. How many tests? What defines "tests for auth"?',
+      'D': '"Refactor the codebase to be more maintainable" — the classic slop cannon. "More maintainable" has no measurable boundary.'
+    };
+    const key = el.querySelector('.option-key').textContent;
+    result.innerHTML = '<strong>Not quite.</strong> ' + (corrections[key] || 'Re-read the Goal section.');
+  }
+}
+</script>
+
+</body>
+</html>

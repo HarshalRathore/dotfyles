@@ -1,0 +1,21 @@
+filters:
+  and:
+    - file.inFolder("wiki/misc")
+properties:
+  file.name:
+    displayName: Article
+  note.summary:
+    displayName: Summary
+  note.created:
+    displayName: Created
+  note.updated:
+    displayName: Updated
+views:
+  - type: table
+    name: Recent
+    limit: 50
+    order:
+      - file.name
+      - summary
+      - created
+      - updated

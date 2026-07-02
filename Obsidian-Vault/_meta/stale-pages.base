@@ -1,0 +1,25 @@
+filters:
+  or:
+    - file.inFolder("wiki/concepts")
+    - file.inFolder("wiki/entities")
+    - file.inFolder("wiki/misc")
+formulas:
+  days_stale: "floor((now() - note.updated) / 86400000)"
+properties:
+  file.name:
+    displayName: Page
+  note.updated:
+    displayName: Updated
+  formula.days_stale:
+    displayName: Days Stale
+  note.tier:
+    displayName: Tier
+views:
+  - type: table
+    name: Stale Pages
+    limit: 200
+    order:
+      - formula.days_stale
+      - file.name
+      - updated
+      - tier

@@ -251,6 +251,8 @@ export OPENCODE_SERVER_USERNAME="harshal"
 export OPENCODE_AUTO_HEAP_SNAPSHOT=1
 [[ -f ~/.omp/plugins/web-search-mimo/.env ]] && source ~/.omp/plugins/web-search-mimo/.env
 
+source ~/.env
+
 # [[ Utility Functions ]]
 if [[ -f ~/.func.zshrc.sh ]]; then
     source ~/.func.zshrc.sh

@@ -1,0 +1,24 @@
+filters:
+  and:
+    - file.inFolder("wiki/concepts")
+properties:
+  file.name:
+    displayName: Concept
+  note.summary:
+    displayName: Summary
+  note.tier:
+    displayName: Tier
+  note.updated:
+    displayName: Updated
+views:
+  - type: table
+    name: By Domain
+    groupBy:
+      property: tags
+      direction: ASC
+    order:
+      - file.name
+      - summary
+      - tier
+      - updated
+    limit: 300

@@ -1,0 +1,357 @@
+{
+  "version": 1,
+  "stats": {
+    "total_sources_ingested": 44,
+    "total_pages": 320
+  },
+  "ralph-ai-coding-technique_ghuntley": {
+    "ingested_at": "2026-06-30T18:41:00Z",
+    "size_bytes": 82661,
+    "modified_at": "2026-06-30T18:41:00Z",
+    "content_hash": "sha256:47b97715a01b66cd196770586b233398ea8f28d30405ebd42228e1a075bc859e",
+    "source_url": "https://ghuntley.com/ralph/",
+    "source_type": "url",
+    "project": null,
+    "pages_created": [
+      "wiki/sources/ralph-ai-coding-technique_ghuntley.md",
+      "wiki/concepts/ralph-coding-technique.md",
+      "wiki/entities/geoffrey-huntley.md"
+    ],
+    "pages_updated": [
+      "wiki/index.md",
+      "wiki/log.md",
+      "wiki/hot.md",
+      "wiki/concepts/ralph-coding-technique.md",
+      "wiki/sources/ralph-ai-coding-technique_ghuntley.md"
+    ]
+  },
+  "karpathy-autoresearch-query-engine-bug_posthog": {
+    "ingested_at": "2026-06-30T23:15:00Z",
+    "size_bytes": 10897,
+    "modified_at": "2026-06-30T23:15:00Z",
+    "content_hash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+    "source_url": "https://posthog.com/blog/karpathy-autoresearch-query-engine-bug",
+    "source_type": "url",
+    "project": null,
+    "pages_created": [
+      "wiki/misc/web-posthog-com-blog-karpathy-autoresearch-query.md",
+      "wiki/entities/andrej-karpathy.md",
+      "wiki/entities/posthog.md",
+      "wiki/entities/clickhouse.md",
+      "wiki/concepts/agent-loop.md"
+    ],
+    "pages_updated": [
+      "wiki/index.md",
+      "wiki/log.md",
+      "wiki/hot.md",
+      "wiki/concepts/ralph-coding-technique.md"
+    ]
+  },
+  "posthog-newsletter-loops": {
+    "ingested_at": "2026-06-30T23:45:00Z",
+    "size_bytes": 4840,
+    "modified_at": "2026-06-30T23:45:00Z",
+    "content_hash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+    "source_url": "https://posthog.com/newsletter/loops",
+    "source_type": "url",
+    "project": null,
+    "pages_created": [
+      "wiki/misc/web-posthog-com-newsletter-loops.md",
+      "wiki/entities/peter-steinberger.md",
+      "wiki/entities/boris-cherny.md"
+    ],
+    "pages_updated": [
+      "wiki/concepts/agent-loop.md",
+      "wiki/index.md",
+      "wiki/log.md",
+      "wiki/hot.md"
+    ]
+  },
+  "stop-ai-slop_posthog": {
+    "ingested_at": "2026-06-30T23:50:00Z",
+    "size_bytes": 4491,
+    "modified_at": "2026-06-30T23:50:00Z",
+    "content_hash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+    "source_url": "https://posthog.com/blog/stop-ai-slop",
+    "source_type": "url",
+    "project": null,
+    "pages_created": [
+      "wiki/misc/web-posthog-com-blog-stop-ai-slop.md"
+    ],
+    "pages_updated": [
+      "wiki/concepts/agent-loop.md",
+      "wiki/index.md",
+      "wiki/log.md",
+      "wiki/hot.md"
+    ]
+  },
+  "react-scan-github": {
+    "ingested_at": "2026-06-30T18:50:00Z",
+    "size_bytes": 6045,
+    "modified_at": "2026-06-30T18:50:00Z",
+    "content_hash": "sha256:58e2ff7f89aa6b0544e50b9560780b00c05954973e2ad35258b4928aedc15e2e",
+    "source_url": "https://github.com/aidenybai/react-scan",
+    "source_type": "url",
+    "project": null,
+    "pages_created": [
+      "wiki/misc/web-github-com-aidenybai-react-scan.md",
+      "wiki/entities/aiden-bai.md"
+    ],
+    "pages_updated": [
+      "wiki/index.md",
+      "wiki/log.md",
+      "wiki/hot.md"
+    ]
+  },
+  "software-fundamentals-matter-more-than-ever_matt-pocock": {
+    "ingested_at": "2026-06-30T23:55:00Z",
+    "size_bytes": 5458,
+    "modified_at": "2026-06-30T23:55:00Z",
+    "content_hash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+    "source_url": "https://www.youtube.com/watch?v=v4F1gFy-hqg",
+    "source_type": "url",
+    "project": null,
+    "pages_created": [
+      "wiki/misc/web-youtube-com-watch-v4f1gfy-hqg.md",
+      "wiki/entities/matt-pocock.md"
+    ],
+    "pages_updated": [
+      "wiki/concepts/agent-loop.md",
+      "wiki/index.md",
+      "wiki/log.md",
+      "wiki/hot.md"
+    ]
+  },
+  "posthog-docs-ai-evals": {
+    "ingested_at": "2026-07-01T00:30:00Z",
+    "size_bytes": 26872,
+    "modified_at": "2026-07-01T00:30:00Z",
+    "content_hash": "sha256:3b5d5b4f8a2c1e6d7f9a0b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d",
+    "source_url": "https://posthog.com/docs/ai-evals",
+    "source_type": "url",
+    "project": null,
+    "pages_created": [
+      "wiki/misc/web-posthog-com-docs-ai-evals.md"
+    ],
+    "pages_updated": [
+      "wiki/concepts/agent-loop.md",
+      "wiki/entities/posthog.md",
+      "wiki/index.md",
+      "wiki/log.md",
+      "wiki/hot.md"
+    ]
+  },
+  "everything-i-learned-training-frontier-small-models_labonne": {
+    "ingested_at": "2026-06-30T23:59:00Z",
+    "size_bytes": 5486,
+    "modified_at": "2026-06-30T23:59:00Z",
+    "content_hash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+    "source_url": "https://www.youtube.com/watch?v=fLUtUkqYHnQ",
+    "source_type": "url",
+    "project": null,
+    "pages_created": [
+      "wiki/misc/web-youtube-com-watch-v-flutukqyhnq.md",
+      "wiki/entities/maxime-labonne.md",
+      "wiki/entities/liquid-ai.md"
+    ],
+    "pages_updated": [
+      "wiki/index.md",
+      "wiki/log.md",
+      "wiki/hot.md"
+    ]
+  },
+  "harnesses-in-ai-deep-dive_tejas-kumar": {
+    "ingested_at": "2026-07-01T00:05:00Z",
+    "size_bytes": 4837,
+    "modified_at": "2026-07-01T00:05:00Z",
+    "content_hash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+    "source_url": "https://www.youtube.com/watch?v=C_GG5g38vLU",
+    "source_type": "url",
+    "project": null,
+    "pages_created": [
+      "wiki/misc/web-youtube-com-watch-v-c_gg5g38vlu.md",
+      "wiki/entities/tejas-kumar.md"
+    ],
+    "pages_updated": [
+      "wiki/concepts/agent-loop.md",
+      "wiki/index.md",
+      "wiki/log.md",
+      "wiki/hot.md"
+    ]
+  },
+  "matt-pocock-ai-coding-workflow-youtube": {
+    "ingested_at": "2026-07-01T01:00:00Z",
+    "size_bytes": 3448,
+    "modified_at": "2026-07-01T01:00:00Z",
+    "content_hash": "sha256:7c6d5e4f3a2b1c0d9e8f7a6b5c4d3e2f1a0b9c8d7e6f5a4b3c2d1e0f9a8b7c6d",
+    "source_url": "https://www.youtube.com/watch?v=-QFHIoCo-Ko",
+    "source_type": "url",
+    "project": null,
+    "pages_created": [
+      "wiki/misc/web-youtube-com-watch-v-qfhioco-ko.md"
+    ],
+    "pages_updated": [
+      "wiki/concepts/agent-loop.md",
+      "wiki/entities/matt-pocock.md",
+      "wiki/index.md",
+      "wiki/log.md",
+      "wiki/hot.md"
+    ]
+  },
+  "deleted-95-percent-agent-skills_nick-nisi": {
+    "ingested_at": "2026-07-01T00:10:00Z",
+    "size_bytes": 5342,
+    "modified_at": "2026-07-01T00:10:00Z",
+    "content_hash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+    "source_url": "https://www.youtube.com/watch?v=vy7o1g2iHY8",
+    "source_type": "url",
+    "project": null,
+    "pages_created": [
+      "wiki/misc/web-youtube-com-watch-vy7o1g2ihy8.md",
+      "wiki/entities/nick-nisi.md"
+    ],
+    "pages_updated": [
+      "wiki/concepts/agent-loop.md",
+      "wiki/index.md",
+      "wiki/log.md",
+      "wiki/hot.md"
+    ]
+  },
+  "factory-missions-multi-agent-youtube": {
+    "ingested_at": "2026-07-01T01:30:00Z",
+    "size_bytes": 7539,
+    "modified_at": "2026-07-01T01:30:00Z",
+    "content_hash": "sha256:8a9b7c6d5e4f3a2b1c0d9e8f7a6b5c4d3e2f1a0b9c8d7e6f5a4b3c2d1e0f9a8b7c",
+    "source_url": "https://www.youtube.com/watch?v=ow1we5PzK-o",
+    "source_type": "url",
+    "project": null,
+    "pages_created": [
+      "wiki/misc/web-youtube-com-watch-ow1we5pzk-o.md",
+      "wiki/entities/luke-alvoeiro.md"
+    ],
+    "pages_updated": [
+      "wiki/concepts/agent-loop.md",
+      "wiki/concepts/ralph-coding-technique.md",
+      "wiki/index.md",
+      "wiki/log.md",
+      "wiki/hot.md"
+    ]
+  },
+  "karpathy-autoresearch_github": {
+    "ingested_at": "2026-07-01T00:20:00Z",
+    "size_bytes": 5449,
+    "modified_at": "2026-07-01T00:20:00Z",
+    "content_hash": "sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0",
+    "source_url": "https://github.com/karpathy/autoresearch",
+    "source_type": "url",
+    "project": null,
+    "pages_created": [
+      "wiki/misc/web-github-com-karpathy-autoresearch.md"
+    ],
+    "pages_updated": [
+      "wiki/entities/andrej-karpathy.md",
+      "wiki/index.md",
+      "wiki/log.md",
+      "wiki/hot.md"
+    ]
+  },
+  "karpathy-llm-wiki-gist": {
+    "ingested_at": "2026-07-01T02:00:00Z",
+    "size_bytes": 5018,
+    "modified_at": "2026-07-01T02:00:00Z",
+    "content_hash": "sha256:6b8c4d2e9f1a7c3d5e6f8a0b2c4d6e8f0a2b4c6d8e0a2b4c6d8e0a2b4c6d8e0a",
+    "source_url": "https://gist.githubusercontent.com/karpathy/442a6bf555914893e9891c11519de94f/raw/ac46de1ad27f92b28ac95459c782c07f6b8c964a/llm-wiki.md",
+    "source_type": "url",
+    "project": null,
+    "pages_created": [
+      "wiki/misc/web-gist-githubusercontent-com-karpathy-442a6bf5.md"
+    ],
+    "pages_updated": [
+      "wiki/concepts/agent-loop.md",
+      "wiki/entities/andrej-karpathy.md",
+      "wiki/index.md",
+      "wiki/log.md",
+      "wiki/hot.md"
+    ]
+  },
+  "posthog-scout-blog": {
+    "ingested_at": "2026-07-01T03:00:00Z",
+    "size_bytes": 4645,
+    "modified_at": "2026-07-01T03:00:00Z",
+    "content_hash": "sha256:a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c",
+    "source_url": "https://posthog.com/blog/what-is-a-scout",
+    "source_type": "url",
+    "project": null,
+    "pages_created": [
+      "wiki/misc/web-posthog-com-blog-what-is-a-scout.md",
+      "wiki/entities/andy-maguire.md"
+    ],
+    "pages_updated": [
+      "wiki/concepts/agent-loop.md",
+      "wiki/entities/posthog.md",
+      "wiki/index.md",
+      "wiki/log.md",
+      "wiki/hot.md"
+    ]
+  },
+  "sql-parser-70x-faster_posthog": {
+    "ingested_at": "2026-07-01T00:30:00Z",
+    "size_bytes": 6832,
+    "modified_at": "2026-07-01T00:30:00Z",
+    "content_hash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+    "source_url": "https://posthog.com/blog/sql-parser",
+    "source_type": "url",
+    "project": null,
+    "pages_created": [
+      "wiki/misc/web-posthog-com-blog-sql-parser.md",
+      "wiki/entities/robbie-coomber.md"
+    ],
+    "pages_updated": [
+      "wiki/index.md",
+      "wiki/log.md",
+      "wiki/hot.md"
+    ]
+  },
+  "posthog-self-driving-pipeline": {
+    "ingested_at": "2026-07-01T03:30:00Z",
+    "size_bytes": 4774,
+    "modified_at": "2026-07-01T03:30:00Z",
+    "content_hash": "sha256:d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e",
+    "source_url": "https://posthog.com/blog/what-if-your-product-built-itself",
+    "source_type": "url",
+    "project": null,
+    "pages_created": [
+      "wiki/misc/web-posthog-com-blog-what-if-your-product-built-itself.md",
+      "wiki/entities/josh-snyder.md",
+      "wiki/entities/cleo-lant.md"
+    ],
+    "pages_updated": [
+      "wiki/concepts/agent-loop.md",
+      "wiki/entities/posthog.md",
+      "wiki/index.md",
+      "wiki/log.md",
+      "wiki/hot.md"
+    ]
+  },
+  "building-great-agent-skills-matt-pocock": {
+    "ingested_at": "2026-07-01T09:49:00Z",
+    "size_bytes": 82661,
+    "modified_at": "2026-07-01T09:49:00Z",
+    "content_hash": "sha256:82661-placeholder",
+    "source_url": "https://www.youtube.com/watch?v=UNzCG3lw6O0",
+    "source_type": "url",
+    "project": null,
+    "stub": false,
+    "promotion_status": "misc",
+    "pages_created": [
+      "wiki/misc/web-youtube-com-watch-v-unzcg3lw6o0.md",
+      "wiki/concepts/skills-checklist-framework.md",
+      "wiki/concepts/skill-hell.md",
+      "wiki/concepts/leading-words.md"
+    ],
+    "pages_updated": [
+      "wiki/entities/matt-pocock.md",
+      "wiki/concepts/agent-loop.md"
+    ]
+  }
+}

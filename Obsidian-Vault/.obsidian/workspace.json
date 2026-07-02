@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ffbcbf930f3b4344",
+        "id": "9421f0c7e3506838",
         "type": "tabs",
         "children": [
           {
-            "id": "306e4266cddc5b79",
+            "id": "0edf8f499d9f881d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DailyNotes/2026/Jan-01/25_Sun.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "25_Sun"
+              "title": "New tab"
             }
           }
         ]
@@ -53,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "admission controller",
+                "query": "agent loop",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/TLS in Kubernetes/How TLS Certificates Work in Kubernetes and Manual Cluster Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for How TLS Certificates Work in Kubernetes and Manual Cluster Setup"
+              "title": "Backlinks"
             }
           },
           {
@@ -113,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kubernetes/TLS in Kubernetes/How TLS Certificates Work in Kubernetes and Manual Cluster Setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from How TLS Certificates Work in Kubernetes and Manual Cluster Setup"
+              "title": "Outgoing links"
             }
           },
           {
@@ -140,13 +134,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DailyNotes/2026/Jan-01/25_Sun.md",
+                "file": "Agent Loop.md",
                 "followCursor": false,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 25_Sun"
+              "title": "Outline of Agent Loop"
             }
           },
           {
@@ -162,8 +156,19 @@
               "icon": "lucide-archive",
               "title": "All properties"
             }
+          },
+          {
+            "id": "033d1b0b9f12b0c1",
+            "type": "leaf",
+            "state": {
+              "type": "llm-wiki-query-view",
+              "state": {},
+              "icon": "message-circle",
+              "title": "Query Wiki - Conversational Query"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -179,56 +184,58 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "hide-folders:Show hidden folders": false
+      "hide-folders:Show hidden folders": false,
+      "karpathywiki:Ingest current file": false,
+      "karpathywiki:Query wiki": false
     }
   },
-  "active": "306e4266cddc5b79",
+  "active": "0b916a15688e3007",
   "lastOpenFiles": [
-    "DailyNotes/2026/Jan-01/25_Sun.md",
-    "DailyNotes/2026/Jan-01",
-    "DailyNotes/2026",
-    "Untitled.md",
-    "Kubernetes/TLS in Kubernetes/How TLS Certificates Work in Kubernetes and Manual Cluster Setup.md",
-    "Kubernetes/Kubernetes API Groups, Authorization, and RBAC - A Comprehensive Overview.md",
-    "Node JS.md",
-    "Introduction.md",
-    "WIP Repeato.md",
-    "Kubernetes/📄 Building a Kubernetes Cluster from Scratch (Step-by-Step)/Kubernetes installation steps.md",
-    "Kubernetes/📄 Building a Kubernetes Cluster from Scratch (Step-by-Step)/Introduction.md",
-    "Kubernetes/📄 Building a Kubernetes Cluster from Scratch (Step-by-Step)/Install kubernetes components.md",
-    "Kubernetes/📄 Building a Kubernetes Cluster from Scratch (Step-by-Step)/Bootstrapping Control Place.md",
-    "Kubernetes/Kubernetes Components & Concepts/Taints & Tolerations.md",
-    "Kubernetes/Kubernetes Components & Concepts/Static Pod.md",
-    "Kubernetes/Kubernetes Components & Concepts/Scheduling.md",
-    "Kubernetes/Kubernetes Components & Concepts/Resource Requests & Limits.md",
-    "Kubernetes/Kubernetes Components & Concepts/Replication Controller & ReplicaSet.md",
-    "Kubernetes/Kubernetes Components & Concepts/PriorityClasses.md",
-    "Kubernetes/Kubernetes Components & Concepts/Pods.md",
-    "Kubernetes/Kubernetes Components & Concepts/Labels & Selectors.md",
-    "Kubernetes/Kubernetes Components & Concepts/Kubernetes Autoscaling.md",
-    "Kubernetes/Kubernetes Components & Concepts/Env, ConfigMaps & Secrets.md",
-    "Kubernetes/Kubernetes Components & Concepts/DaemonSets.md",
-    "Kubernetes/Kubernetes Components & Concepts/Containerd, CRI etc..md",
-    "Kubernetes/Kubernetes Components & Concepts/Admission Controllers.md",
-    "Kubernetes/TLS in Kubernetes/TLS Certificates.md",
-    "Kubernetes/🔐 Security in Kubernetes.md",
-    "attachments/Screenshot From 2025-05-28 21-25-56.png",
-    "attachments/Screenshot From 2025-05-28 21-22-29.png",
-    "attachments/Pasted image 20250528202945.png",
-    "attachments/Pasted image 20250528202842.png",
-    "attachments/Pasted image 20250528200133.png",
-    "attachments/Pasted image 20250528194921.png",
-    "attachments/Pasted image 20250528194830.png",
-    "attachments/Pasted image 20250528194715.png",
-    "attachments/Pasted image 20250427201715.png",
-    "Kubernetes/Kubernetes Components & Concepts/attachments/Pasted image 20250522191814.png",
-    "Kubernetes/attachments",
-    "Docker",
-    "attachments",
-    "Kubernetes/📄 Building a Kubernetes Cluster from Scratch (Step-by-Step)/attachments",
-    "Kubernetes/📄 Building a Kubernetes Cluster from Scratch (Step-by-Step)",
-    "Kubernetes/TLS in Kubernetes/attachments",
-    "Kubernetes/TLS in Kubernetes",
-    "Kubernetes/Kubernetes Components & Concepts/attachments"
+    "entities/peter-steinberger.md",
+    "wiki/misc/web-posthog-com-newsletter-loops.md",
+    "entities",
+    "wiki/misc/web-posthog-com-blog-karpathy-autoresearch-query.md",
+    "wiki/misc/web-posthog-com-docs-ai-evals.md",
+    "wiki/misc/web-posthog-com-blog-what-is-a-scout.md",
+    "wiki/misc/web-posthog-com-blog-sql-parser.md",
+    "wiki/misc/web-posthog-com-blog-stop-ai-slop.md",
+    "wiki/misc/web-posthog-com-blog-what-if-your-product-built-itself.md",
+    "wiki/misc/web-github-com-karpathy-autoresearch.md",
+    "wiki/concepts/agent-loop.md",
+    "wiki/concepts/container-runtime-interface-cri.md",
+    "wiki/concepts/control-plane-node.md",
+    "wiki/concepts/containerization.md",
+    "wiki/concepts/container-runtime.md",
+    "wiki/concepts/container-dns-resolution-source.md",
+    "wiki/concepts/container-dns-resolution.md",
+    "wiki/concepts/configmap.md",
+    "wiki/concepts/co-scheduling.md",
+    "wiki/concepts/cmd.md",
+    "wiki/concepts/certificate-verification.md",
+    "wiki/concepts/cidr.md",
+    "wiki/concepts/client-certificate.md",
+    "wiki/concepts/cluster-autoscaler.md",
+    "wiki/concepts/cluster-cidr.md",
+    "wiki/concepts/cluster-scaling.md",
+    "wiki/concepts/clusterrolebinding.md",
+    "wiki-deadlinks-check.py",
+    "wifi-vault/fix-stubs.py",
+    "wifi-vault",
+    "fix-deadlinks.py",
+    "tmp-dedup2.py",
+    "tmp-dedup.py",
+    "teach/agent-harnesses/lessons/0001-four-requirements-of-engineered-loop.html",
+    "teach/agent-harnesses/reference",
+    "teach/agent-harnesses/lessons",
+    "attachments/loops-startup-monopoly.png",
+    "attachments/loops-peter-steinberger-quote.png",
+    "attachments/loops-hero-why-were-bullish.png",
+    "attachments/posthog-karpathy-autoresearch-blog-cover.jpg",
+    "attachments/posthog-karpathy-autoresearch-hero.png",
+    "attachments/sql-parser-benchmark-chart.png",
+    "attachments/sql-parser-header.png",
+    "attachments/stop-ai-slop-improvement-loop.png",
+    "attachments/stop-ai-slop-hero.png",
+    "attachments/stop-ai-slop-eval-ui.png"
   ]
 }

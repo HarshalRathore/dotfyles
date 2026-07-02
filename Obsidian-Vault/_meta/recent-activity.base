@@ -1,0 +1,23 @@
+filters:
+  or:
+    - file.inFolder("wiki/concepts")
+    - file.inFolder("wiki/entities")
+    - file.inFolder("wiki/misc")
+properties:
+  file.name:
+    displayName: Page
+  note.summary:
+    displayName: Summary
+  note.updated:
+    displayName: Updated
+  note.tier:
+    displayName: Tier
+views:
+  - type: table
+    name: Recent
+    limit: 50
+    order:
+      - updated
+      - file.name
+      - summary
+      - tier

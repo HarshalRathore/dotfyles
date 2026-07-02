@@ -1,0 +1,26 @@
+filters:
+  or:
+    - file.inFolder("wiki/concepts")
+    - file.inFolder("wiki/entities")
+    - file.inFolder("wiki/misc")
+properties:
+  file.name:
+    displayName: Page
+  note.tags:
+    displayName: Tags
+  note.summary:
+    displayName: Summary
+  note.tier:
+    displayName: Tier
+  note.updated:
+    displayName: Updated
+views:
+  - type: table
+    name: All Pages
+    order:
+      - file.name
+      - tags
+      - summary
+      - tier
+      - updated
+    limit: 200
