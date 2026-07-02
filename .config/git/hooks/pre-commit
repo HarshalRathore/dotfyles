@@ -1,0 +1,81 @@
+#!/bin/bash
+#
+# pre-commit — Guardrail: block commits containing secrets / API keys
+#
+# Scans all **staged** file content (the index) for patterns that match
+# known API keys, auth tokens, and private keys.  Exits non-zero and
+# prints the offending file + line + secret type so you can clean it up.
+#
+# Bypass (use with caution):  git commit --no-verify  or  git commit -n
+#
+# Patterns added?  Keep them concrete — avoid flagging doc / example keys
+# that live in the repo deliberately.  Ref: owasp.org/www-community/
+# controls/Secret_Management
+
+set -euo pipefail
+
+# ── Colors ──────────────────────────────────────────────────────
+RED='\033[0;31m'
+YELLOW='\033[1;33m'
+BOLD='\033[1m'
+NC='\033[0m'
+
+# ── Pattern definitions (name:regex) ────────────────────────────
+# Each entry: human-readable label:extended-regex
+PATTERNS=(
+    "AWS Access Key ID:AKIA[0-9A-Z]{16}"
+    "AWS Secret Access Key value:[Aa][Ww][Ss]_[Ss][Ee][Cc][Rr][Ee][Tt]_[Aa][Cc][Cc][Ee][Ss][Ss]_[Kk][Ee][Yy]"
+    "GitHub Personal Access Token:gh[pousr]_[0-9a-zA-Z]{36}"
+    "GitHub App Token:ghs_[0-9a-zA-Z]{36}"
+    "Private / SSH Key:-----BEGIN (RSA|DSA|EC|OPENSSH|PGP) PRIVATE KEY-----"
+    "Slack Token / Bot Token:xox[baprs]-[0-9a-zA-Z-]{10,}"
+    "Stripe Live Secret:sk_live_[0-9a-zA-Z]{24,}|pk_live_[0-9a-zA-Z]{24,}"
+    "Google API Key:AIza[0-9A-Za-z_-]{35}"
+    "OpenAI API Key:sk-[A-Za-z0-9]{20,}"
+    "npm Auth Token:npm_[A-Za-z0-9]{36}"
+    "Discord Bot Token:[MN][A-Za-z0-9_\\-]{23,25}\\.[A-Za-z0-9_\\-]{6}\\.[A-Za-z0-9_\\-]{27}"
+    "Telegram Bot Token:[0-9]{8,10}:[A-Za-z0-9_\\-]{35}"
+    "Slack Webhook URL:hooks\\.slack\\.com/services/T[A-Z0-9_]+/B[A-Z0-9_]+/[A-Za-z0-9_]+"
+)
+
+# ── Main ─────────────────────────────────────────────────────────
+staged_files=$(git diff --cached --name-only --diff-filter=ACMR || true)
+errors=0
+violations=""
+
+for spec in "${PATTERNS[@]}"; do
+    name="${spec%%:*}"
+    pattern="${spec#*:}"
+
+    # Search the index (staged content) — skip binary files (-I)
+    matches=$(git grep -nIE --cached -e "$pattern" 2>/dev/null || true)
+
+    if [ -n "$matches" ]; then
+        while IFS= read -r line; do
+            file="${line%%:*}"
+            rest="${line#*:}"
+            lineno="${rest%%:*}"
+            content="${rest#*:}"
+            # Trim leading whitespace and truncate display
+            content="$(echo "$content" | sed 's/^[[:space:]]*//' | head -c 60)"
+            [ -z "$content" ] && content="(matched raw line)"
+
+            errors=$((errors + 1))
+            violations="${violations}  ${RED}•${NC} ${BOLD}${file}:${lineno}${NC} — ${YELLOW}${name}${NC}\n    ↳ \`${content}\`\n"
+        done <<< "$matches"
+    fi
+done
+
+if [ "$errors" -gt 0 ]; then
+    printf "\n${RED}╔══════════════════════════════════════════════════════════════╗${NC}\n"
+    printf "${RED}║       🚫  COMMIT REJECTED — Potential secret(s) found      ║${NC}\n"
+    printf "${RED}╚══════════════════════════════════════════════════════════════╝${NC}\n"
+    printf "\n${BOLD}Found ${errors} potential secret(s) in staged files:${NC}\n\n"
+    printf "$violations"
+    printf "\n${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}\n"
+    printf "${YELLOW}Bypass with:${NC} git commit --no-verify  (or  git commit -n)\n"
+    printf "${YELLOW}Only bypass if you are SURE these are not real secrets.${NC}\n"
+    exit 1
+fi
+
+exit 0
