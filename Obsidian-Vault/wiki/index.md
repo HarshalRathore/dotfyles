@@ -3,9 +3,9 @@
 > Auto-generated knowledge base directory
 
 > Note: Text in backticks after page names shows aliases — alternative names, abbreviations, or translations.
-
 ## Entities
 
+- [[entities/clay-bavor|clay-bavor]] - title: "Clay Bavor" ( #person #ai #entrepreneur #google-alumni)
 - [[entities/cleo-lant|cleo-lant]] `aliases: Cleo Lant, cleolant` - summary: "PostHog engineer and author of the stop-ai-slop evals guide and co-author of the self-driv
 - [[entities/josh-snyder|josh-snyder]] `aliases: Josh Snyder, joshsnyder` - summary: "PostHog engineer and co-author of the self-driving product improvement pipeline. Builds au
 - [[entities/robbie-coomber|robbie-coomber]] - title: "Robbie Coomber"
@@ -20,7 +20,9 @@
 - [[entities/matt-pocock|matt-pocock]] - title: "Matt Pocock"
 - [[entities/aiden-bai|aiden-bai]] `aliases: aidenybai, Aiden Bai, Million Software` - summary: "Creator of React Scan and Million.js. Open-source developer focused on React performance t
 - [[entities/boris-cherny|boris-cherny]] - title: "Boris Cherny"
-- [[entities/peter-steinberger|peter-steinberger]] - title: "Peter Steinberger"
+- [[entities/peter-steinberger|peter-steinberger]] `aliases: steipete, @steipete` - summary: "Creator of summarize (CLI + Chrome Side Panel for LLM summarization), birdclaw (Twitter/X archive), and the bird CLI. Independent iOS/macOS developer." ( #person #open-source #llm #tools)
+- [[entities/summarize|summarize]] `aliases: summarize CLI, @steipete/summarize, summarize.sh` - summary: "CLI tool and Chrome Side Panel for extracting clean text from URLs/files/media and summarizing via any LLM. Free, open source, MIT." ( #tool #cli #llm #open-source #summarization)
+- [[entities/birdclaw|birdclaw]] `aliases: BirdClaw` - summary: "Local-first Twitter/X archive and operator console in SQLite. CLI + web UI for tweets, DMs, likes, bookmarks. Free, MIT licensed, no X subscription needed." ( #tool #twitter #open-source)
 - [[entities/crun|crun]] - type: entity
 - [[entities/clickhouse|clickhouse]] - title: "ClickHouse"
 - [[entities/posthog|posthog]] - title: "PostHog"
@@ -77,10 +79,149 @@
 - [[entities/kubelet|kubelet]] `aliases: Kubelet Agent, Node Agent` - summary: "The **kubelet** is the primary node agent that runs on every node in a Kubernetes cluster.
 - [[entities/kubernetes|kubernetes]] `aliases: K8s, Kubernetes` - summary: "Kubernetes is an open-source container orchestration platform for automating deployment, s
 - [[entities/etcd|etcd]] `aliases: etcd database` - summary: "> - 'Run `kube-apiserver`, `etcd`, `kube-controller-manager`, and `kube-scheduler` themsel
+- [[entities/ben-kus|ben-kus]] - title: "Ben Kus"
+- [[entities/box|box]] - title: "Box"
+- [[entities/steve-ruiz|steve-ruiz]] - title: "Steve Ruiz" ( #person #creator #tldraw)
+- [[entities/tldraw|tldraw]] - title: "tldraw" ( #company #tool #canvas #whiteboard)
+- [[entities/openai|openai]] - title: "OpenAI"
+- [[entities/toki-sherbakov|toki-sherbakov]] - title: "Toki Sherbakov"
+- [[entities/anoop-kotha|anoop-kotha]] - title: "Anoop Kotha"
+- [[entities/lemonade-insurance|lemonade-insurance]] - title: "Lemonade"
+- [[entities/tinder|tinder]] - title: "Tinder"
+- [[entities/dmitry-kuchin|dmitry-kuchin]] - title: "Dmitry Kuchin"
+- [[entities/multinear|multinear]] - title: "Multinear"
+- [[entities/mitesh-patel|mitesh-patel]] - title: "Mitesh Patel" ( #person #nvidia #rag)
+- [[entities/nvidia|nvidia]] - title: "NVIDIA" ( #company #gpu #ai)
+- [[entities/ragas|ragas]] - title: "Ragas" ( #library #rag #evaluation)
+- [[entities/neo4j|neo4j]] - title: "Neo4j" ( #company #graph-database)
+- [[entities/networkx|networkx]] - title: "NetworkX" ( #library #python #graph)
+- [[entities/netflix|netflix]] - title: "Netflix" ( #company #streaming #recommendation-systems #personalization #recsys)
+- [[entities/blackrock|blackrock]] - title: "BlackRock" ( #company #financial-services #enterprise-ai)
+- [[entities/vaibhav-page|vaibhav-page]] - title: "Vaibhav Page" ( #person #blackrock #principal-engineer)
+- [[entities/infant-vasanth|infant-vasanth]] - title: "Infant Vasanth" ( #person #blackrock #director-of-engineering)
+- [[entities/sharif-shameem|sharif-shameem]] - title: "Sharif Shameem" ( #person #ai #entrepreneur #lexica)
+- [[entities/lexica|lexica]] - title: "Lexica" ( #company #ai #generative-ai)
+- [[entities/jcr-licklider|jcr-licklider]] `aliases: Licklider, JCR Licklider, Joseph Licklider` - summary: "Computer scientist who authored the 1960 'Man-Computer Symbiosis' paper." ( #person #computer-science #pioneer)
+- [[entities/brett-victor|brett-victor]] - title: "Brett Victor" ( #person #hci #interaction-design)
+- [[entities/kshitij-grover|kshitij-grover]] - title: "Kshitij Grover" ( #person #entrepreneur #pricing #ai-engineering)
+- [[entities/alvaro-morales|alvaro-morales]] - title: "Alvaro Morales" ( #person #entrepreneur #pricing #billing #ai-engineering)
+- [[entities/orb|orb]] - title: "Orb" ( #company #billing #infrastructure #pricing)
+- [[entities/replit|replit]] - title: "Replit" ( #company #ai #coding #agent)
+- [[entities/cloudflare|cloudflare]] - title: "Cloudflare" ( #company #infrastructure #cdn #compute)
+- [[entities/brian-balfour|brian-balfour]] - title: "Brian Balfour" ( #person #product-strategy #founder #reforge)
+- [[entities/reforge|reforge]] - title: "Reforge" ( #company #product-management #ai-education)
+- [[entities/granola|granola]] - title: "Granola" ( #company #ai-product #note-taking)
+- [[entities/ravi-meta|ravi-meta]] - title: "Ravi Meta" ( #person #product-management #ai-strategy)
+- [[entities/jamin-ball|jamin-ball]] - title: "Jamin Ball" ( #person #venture-capital #product-strategy)
+- [[entities/altimeter-capital|altimeter-capital]] - title: "Altimeter Capital" ( #company #venture-capital #investor)
+- [[entities/sarah-sachs]] - title: "Sarah Sachs" ( #person #ai #notion #evaluation #product)
+- [[entities/braintrust]] - title: "Braintrust" ( #company #evaluation #ai-platform #observability)
+- [[entities/notion]] - title: "Notion" ( #company #workspace #ai #product)
+- [[entities/jasper|jasper]] - title: "Jasper" ( #company #ai #writing #marketing)
+- [[entities/featherless|featherless]] - title: "Featherless" ( #company #ai #inference #models)
+- [[entities/eugene|eugene]] - title: "Eugene" ( #person #ai #founder #reliability)
+- [[entities/eugene-yan|eugene-yan]] - title: "Eugene Yan" ( #person #ai #recommendation-systems #amazon #recsys)
+- [[entities/kuaishou|kuaishou]] - title: "Kuaishou" ( #company #short-video #recommendation-systems #recsys #china)
+- [[entities/indeed|indeed]] - title: "Indeed" ( #company #job-platform #recommendation-systems #recsys #llm)
+- [[entities/modal|modal]] - title: "Modal" ( #company #cloud #gpu #compute)
+- [[entities/mujoco|mujoco]] - title: "MuJoCo" ( #tool #robotics #simulation #google #deepmind)
+- [[entities/cerebral-valley|cerebral-valley]] - title: "Cerebral Valley" ( #organization #community #hackathon #ai)
+- [[entities/chris-hernandez|chris-hernandez]] - title: "Chris Hernandez" ( #person #speaker #chime #ml)
+- [[entities/chris-kelly]] - title: "Chris Kelly" ( #person #software-engineering #production #aief2025)
+- [[entities/chime|chime]] - title: "Chime" ( #company #fintech)
+- [[entities/freeplay|freeplay]] - title: "Freeplay" ( #company #ai-ops #evaluation)
+- [[entities/anushrut-gupta|anushrut-gupta]] - title: "Anushrut Gupta" ( #person #speaker #promptql)
+- [[entities/promptql|promptql]] - title: "PromptQL" ( #company #ai #semantic-layer)
+- [[entities/assembly-ai|assembly-ai]] - title: "Assembly AI" ( #company #ai #speech #stt)
+- [[entities/livekit|livekit]] - title: "LiveKit" ( #company #voice #ai #infrastructure #real-time)
+- [[entities/tom-shapland|tom-shapland]] - title: "Tom Shapland" ( #person #voice #ai #livekit)
+- [[entities/sarah-guo]] - title: "Sarah Guo" ( #person #venture-capital #ai)
+- [[entities/conviction]] - title: "Conviction" ( #organization #venture-capital #ai)
+- [[entities/cursor-ai]] - title: "Cursor" ( #organization #ai #developer-tools)
+- [[entities/harvey-ai]] - title: "Harvey" ( #organization #ai #legal)
+- [[entities/goodfire-ai]] - title: "Goodfire AI" ( #organization #ai #interpretability #startup)
+- [[entities/sierra-ai]] - title: "Sierra" ( #organization #ai #customer-service)
+- [[entities/open-evidence]] - title: "Open Evidence" ( #organization #ai #healthcare)
+- [[entities/arc-institute]] - title: "ARC Institute" ( #organization #research #genomics #ai)
+- [[entities/greg-kamradt]] - title: "Greg Kamradt" ( #person #ai #benchmarking #arc-agi)
+- [[entities/mark-bissell]] - title: "Mark Bissell" ( #person #ai #interpretability #speaker)
+- [[entities/arc-prize-foundation]] - title: "ARC Prize Foundation" ( #organization #nonprofit #ai #benchmarking #agi)
+- [[entities/francois-chollet]] - title: "Francois Chollet" ( #person #ai #benchmarking #arc-agi)
+- [[entities/sprout-social]] - title: "Sprout Social" ( #company #saas #ai #social-media)
+- [[entities/rossella]] - title: "Rossella" ( #person #speaker #ai #saas)
+- [[entities/debsha]] - title: "Debsha" ( #person #speaker #ai #saas)
+- [[entities/josh-purtell]] - title: "Josh Purtell" ( #person #ai-engineer #agents)
+- [[entities/synth-labs]] - title: "Synth Labs" ( #organization #ai #agents #infrastructure)
+- [[entities/augment-code]] - title: "Augment Code" ( #company #ai #developer-tools #enterprise)
+- [[entities/forrest-brazeal]] - title: "Forrest Brazeal" ( #person #speaker #cloud #developer-relations)
+- [[entities/matt-ball]] - title: "Matt Ball" ( #person #speaker #developer-tools #enterprise)
+- [[entities/alex-atallah]] - title: "Alex Atallah" ( #person #founder #ai #openrouter)
+- [[entities/openrouter]] - title: "OpenRouter" ( #company #ai #inference #marketplace)
 
+- [[entities/jx-mo]] - title: "JX Mo" ( #person #robotics #k-scale-labs)
+- [[entities/k-scale-labs]] - title: "K-Scale Labs" ( #company #robotics #humanoid #open-source)
+
+- [[entities/philipp-krenn]] - title: "Philipp Krenn" ( #person #search #elasticsearch)
+- [[entities/elastic]] - title: "Elastic" ( #company #search #observability)
+- [[entities/apache-lucene]] - title: "Apache Lucene" ( #library #search #indexing)
+
+- [[entities/microsoft|microsoft]] - title: "Microsoft" ( #entity #company #ai-platform #cloud #enterprise)
+- [[entities/asha-sharma|asha-sharma]] - title: "Asha Sharma" ( #entity #person #microsoft #ai-platform)
+- [[entities/github-copilot|github-copilot]] - title: "GitHub Copilot" ( #entity #tool #coding-agent #microsoft #github)
+- [[entities/seth-juarez|seth-juarez]] - title: "Seth Juarez" ( #entity #person #microsoft #ai-platform)
+- [[entities/azure-ai-foundry|azure-ai-foundry]] - title: "Azure AI Foundry" ( #entity #platform #microsoft #agent-factory #ai-platform)
+
+- [[entities/john-pham|john-pham]] - title: "John Pham" ( #person #designer #ux)
+
+- [[entities/jack-rae|jack-rae]] - title: "Jack Rae" ( #entity #person #google #deepmind #reasoning)
+- [[entities/google-deepmind|google-deepmind]] - title: "Google DeepMind" ( #entity #organization #ai #research)
+- [[entities/sf-compute|sf-compute]] `aliases: San Francisco Compute Company, SF Compute` - summary: "GPU cloud provider based in San Francisco." ( #company #cloud #gpu)
+- [[entities/sam-bhagwat|sam-bhagwat]] - title: "Sam Bhagwat" ( #person #ai #speaker #entrepreneur #mastra)
+- [[entities/mastra-ai|mastra-ai]] - title: "Mastra.ai" ( #company #ai #workflow #framework)
+- [[entities/dex-horthy]] - title: "Dex Horthy" ( #person #speaker #humanlayer #ai-engineer #agents)
+- [[entities/humanlayer]] - title: "HumanLayer" ( #company #infrastructure #agents #human-in-the-loop #opensource)
+- [[entities/sean-grove]] - title: "Sean Grove" ( #person #openai #alignment #ai-research #speaker)
+- [[entities/circle]] - title: "Circle" ( #company #fintech #stablecoin #payments)
+- [[entities/corey-cooper]] - title: "Corey Cooper" ( #person #devrel #circle #payments)
+
+- [[entities/yesu-feng|yesu-feng]] - title: "Yesu Feng" ( #person #netflix #recommendation-systems #recsys)
+
+- [[entities/philip-kiely|philip-kiely]] - title: "Philip Kiely" ( #person #developer-advocate #baseten #inference)
+- [[entities/sglang|sglang]] - title: "SGLang" ( #tool #inference #serving #llm #open-source)
+- [[entities/yineng-zhang|yineng-zhang]] - title: "Yineng Zhang" ( #person #engineer #sglang #inference)
+- [[entities/kelvin-ma|kelvin-ma]] - title: "Kelvin Ma" ( #person #google #computer-vision #on-device-ml)
+
+- [[entities/eliza-cabrera]] - title: "Eliza Cabrera" ( #person #ai #product-management #speaker #aief2025)
+- [[entities/jeremy-silva]] - title: "Jeremy Silva" ( #person #ai #product-management #speaker #aief2025)
+- [[entities/workday]] - title: "Workday" ( #company #enterprise-software #hcm #financials #ai)
+- [[entities/google-photos|google-photos]] - title: "Google Photos" ( #entity #google #photo-editing #on-device-ml)
+
+- [[entities/jesús-barrasa|jesús-barrasa]] - title: "Jesús Barrasa" ( #person #neo4j #knowledge-graph #ontology)
+
+- [[entities/apple|apple]] - title: "Apple" ( #entity #company #consumer-electronics #privacy #ai #cloud)
+- [[entities/jmo|jmo]] - title: "Jmo" ( #entity #person #privacy #security #ai #speaker #aief2025)
+- [[entities/confidence-security|confidence-security]] - title: "Confidence Security" ( #entity #company #privacy #security #ai-infrastructure)
+
+- [[entities/arthur-ai]] - title: "Arthur AI" ( #organization #ai #evaluation #monitoring #security)
+- [[entities/john-dickerson]] - title: "John Dickerson" ( #person #ai #evaluation #entrepreneurship #open-source)
+- [[entities/mozilla-ai]] - title: "Mozilla AI" ( #organization #ai #open-source #tooling)
+
+- [[entities/amanda-askell]] - title: "Amanda Askell" ( #person #anthropic #ai #character-design)
+- [[entities/craig-wattrus]] - title: "Craig Wattrus" ( #person #flatfile #ai-engineering #aief2025)
+- [[entities/flatfile]] - title: "Flatfile" ( #company #data-migration #ai-platform)
+
+- [[entities/michael-grinich]] - title: "Michael Grinich" ( #person #ai #identity #auth #workos)
+- [[entities/jeff-atwood]] - title: "Jeff Atwood" ( #person #software-engineering #stack-overflow)
+:- [[entities/charles-frye|charles-frye]] - title: "Charles Frye" ( #person #modal #inference #benchmarking #ai-engineering)
+- [[entities/danielle-perszyk|danielle-perszyk]] - title: "Danielle Perszyk" ( #person #cognitive-scientist #amazon #agi)
+- [[entities/douglas-engelbart|douglas-engelbart]] - title: "Douglas Engelbart" ( #person #inventor #hci #computing-pioneer)
+- [[entities/nova-act|nova-act]] - title: "Nova Act" ( #product #amazon #agents #sdk)
+- [[entities/amazon-agi|amazon-agi]] - title: "Amazon AGI" ( #organization #amazon #agi #research)
 ## Concepts
 
 - [[concepts/leading-words|leading-words]] - title: "Leading Words"
+- [[concepts/on-device-ml-computational-photography|on-device-ml-computational-photography]] - title: "On-Device ML for Computational Photography" ( #concept #computer-vision #on-device-ml #photo-editing)
+- [[concepts/model-as-unit-test-paradigm|model-as-unit-test-paradigm]] - title: "Model-as-Unit-Test Paradigm" ( #concept #ml-engineering #evaluation #testing)
 - [[concepts/skills-checklist-framework|skills-checklist-framework]] - title: "Skills Checklist Framework"
 - [[concepts/skill-hell|skill-hell]] - title: "Skill Hell"
 - [[concepts/kubernetes-security|kubernetes-security]] `aliases: K8s Security, Container Security, Cloud Native Security, Kubernetes Cluster Security` - type: concept
@@ -113,6 +254,21 @@
 - [[concepts/handling-sudden-failures|handling-sudden-failures]] - type: concept
 - [[concepts/encryption|encryption]] - type: concept
 - [[concepts/agent-loop|agent-loop]] - title: "Agent Loop"
+
+- [[concepts/agentic-architecture|agentic-architecture]] - title: "Agentic Architecture"
+- [[concepts/multi-model-voting|multi-model-voting]] - title: "Multi-Model Voting"
+- [[concepts/unstructured-data-extraction|unstructured-data-extraction]] - title: "Unstructured Data Extraction"
+- [[concepts/12-factor-agents]] - title: "12-Factor Agents" ( #agent #patterns #reliability #architecture #methodology)
+- [[concepts/micro-agents]] - title: "Micro-Agents" ( #agent #architecture #pattern #reliability #dag)
+- [[concepts/context-engineering]] - title: "Context Engineering" ( #prompt-engineering #ai #agents #architecture #llm #quality)
+- [[concepts/programmable-money]] - title: "Programmable Money" ( #blockchain #payments #smart-contracts #usdc)
+- [[concepts/stablecoin-settlement]] - title: "Stablecoin Settlement" ( #stablecoins #payments #settlement)
+- [[concepts/agent-to-agent-payments]] - title: "Agent-to-Agent Payments" ( #agents #payments #stablecoins)
+- [[concepts/ai-escrow-automation]] - title: "AI Escrow Automation" ( #escrow #agents #smart-contracts)
+- [[concepts/human-in-the-loop-payments]] - title: "Human-in-the-Loop Payments" ( #payments #agents #safety)
+- [[concepts/circle-smart-contract-escrow]] - title: "Circle Smart Contract Escrow" ( #escrow #solidity #usdc)
+- [[concepts/circle-cctp]] - title: "Cross-Chain Transfer Protocol (CCTP)" ( #blockchain #cross-chain #usdc)
+- [[concepts/gas-abstraction]] - title: "Gas Abstraction" ( #blockchain #gas #usdc)
 - [[concepts/mutating-admission-controllers|mutating-admission-controllers]] - type: concept
 - [[concepts/introduction-to-aws-iam|introduction-to-aws-iam]] - type: concept
 - [[concepts/introduction-to-ssh-and-kubernetes-cluster-setup|introduction-to-ssh-and-kubernetes-cluster-setup]] - type: concept
@@ -222,6 +378,20 @@
 - [[concepts/intra-node-networking|intra-node-networking]] `aliases: Pod-to-Pod communication on same node, Within-node networking` - summary: "Intra-node networking in Kubernetes refers to the communication path between Pods running 
 - [[concepts/route-tables|route-tables]] `aliases: Route tables, Host routing table, Kernel routing table` - summary: "In Kubernetes networking, route tables refer to the IP routing tables maintained by the Li
 - [[concepts/node-subnet|node-subnet]] `aliases: Node pod subnet, Per-node subnet, Per-node CIDR subnet` - summary: "A node subnet is a non-overlapping IP address range assigned to a specific node within a K
+
+- [[concepts/information-retrieval]] - title: "Information Retrieval" ( #search #retrieval #fundamentals)
+- [[concepts/lexical-search]] - title: "Lexical Search" ( #search #keyword #fundamentals)
+- [[concepts/inverted-index]] - title: "Inverted Index" ( #search #data-structure #fundamentals)
+- [[concepts/analysis-pipeline]] - title: "Text Analysis Pipeline" ( #search #indexing #preprocessing)
+- [[concepts/bm25-scoring]] - title: "BM25 Scoring" ( #search #ranking #algorithm)
+- [[concepts/dense-vector-search]] - title: "Dense Vector Search" ( #search #vector #embeddings)
+- [[concepts/sparse-vector-retrieval]] - title: "Sparse Vector Retrieval" ( #search #learned-sparse)
+- [[concepts/hybrid-search]] - title: "Hybrid Search" ( #search #retrieval #hybrid)
+- [[concepts/reciprocal-rank-fusion]] - title: "Reciprocal Rank Fusion" ( #search #ranking #fusion)
+- [[concepts/re-ranking]] - title: "Re-ranking" ( #search #ranking #two-stage)
+- [[concepts/chunking-for-retrieval]] - title: "Chunking for Retrieval" ( #search #retrieval #preprocessing)
+- [[concepts/query-rewriting]] - title: "Query Rewriting" ( #search #llm #rag)
+- [[concepts/search-evaluation-methods]] - title: "Search Evaluation Methods" ( #search #evaluation #quality)
 - [[concepts/port-conflicts|port-conflicts]] `aliases: Host port conflicts, Container port conflicts, Port contention` - summary: "Port conflicts are a networking phenomenon where multiple containers or services attempt t
 - [[concepts/kubernetes-network-model|kubernetes-network-model]] `aliases: Kubernetes networking model, Flat network model` - summary: "The Kubernetes network model is a fundamental design principle that defines how networking
 - [[concepts/bgp|bgp]] `aliases: Border Gateway Protocol, BGP` - summary: "BGP is the Internet's exterior gateway protocol that also enables Calico to route pod traf
@@ -385,6 +555,185 @@
 - [[concepts/abac|abac]] `aliases: ABAC, Attribute-Based Access Control, Attribute-Based Authorization` - summary: "ABAC (Attribute-Based Access Control) authorizes access using attributes of subjects, reso
 - [[concepts/authentication-kubernetes|authentication-kubernetes]] `aliases: K8s Authentication, Kubernetes API Authentication, K8s API Authentication` - summary: "Kubernetes authentication determines who can access the API server through X.509 certs, to
 
+- [[concepts/back-channeling-voice-ai|back-channeling-voice-ai]] - title: "Back-Channeling in Voice AI" ( #voice #ai #speech #conversation #turn-taking)
+- [[concepts/full-duplex-voice-models|full-duplex-voice-models]] - title: "Full Duplex Voice Models" ( #voice #ai #speech #full-duplex #turn-taking)
+- [[concepts/human-turn-taking-prediction|human-turn-taking-prediction]] - title: "Human Turn-Taking Prediction" ( #linguistics #conversation #psychology #turn-taking #voice)
+- [[concepts/semantic-end-of-utterance-detection|semantic-end-of-utterance-detection]] - title: "Semantic End-of-Utterance Detection" ( #voice #ai #speech #vad #turn-taking #semantics)
+- [[concepts/voice-activity-detection|voice-activity-detection]] - title: "Voice Activity Detection" ( #voice #ai #speech #vad #turn-taking)
+
+- [[concepts/voice-agent-architecture|voice-agent-architecture]] - title: "Voice Agent Architecture"
+- [[concepts/speech-to-speech-architecture|speech-to-speech-architecture]] - title: "Speech-to-Speech Architecture"
+- [[concepts/voice-agent-prompting|voice-agent-prompting]] - title: "Voice Agent Prompting"
+- [[concepts/voice-agent-evals|voice-agent-evals]] - title: "Voice Agent Evals"
+- [[concepts/voice-agent-guardrails|voice-agent-guardrails]] - title: "Voice Agent Guardrails"
+- [[concepts/openai-real-time-api|openai-real-time-api]] - title: "OpenAI Real-time API"
+- [[concepts/evaluation-first-development|evaluation-first-development]] - title: "Evaluation-First Development"
+- [[concepts/task-specific-evals|task-specific-evals]] - title: "Task-Specific Evals"
+- [[concepts/synthetic-eval-generation|synthetic-eval-generation]] - title: "Synthetic Eval Generation"
+- [[concepts/per-element-llm-judge]] - title: "Per-Element LLM Judge" ( #ai #evaluation #llm-as-judge #methodology)
+- [[concepts/curated-dataset-strategy]] - title: "Curated Dataset Strategy" ( #ai #evaluation #data-quality #methodology)
+- [[concepts/retrieval-evaluation-isolation]] - title: "Retrieval Evaluation Isolation" ( #ai #rag #evaluation #retrieval)
+- [[concepts/prompt-fallback-infrastructure]] - title: "Prompt Fallback Infrastructure" ( #ai #architecture #reliability #model-management)
+- [[concepts/checklist-based-evaluation|checklist-based-evaluation]] - title: "Checklist-Based Evaluation"
+- [[concepts/ai-regression-testing|ai-regression-testing]] - title: "AI Regression Testing"
+- [[concepts/benchmark-driven-ai-optimization|benchmark-driven-ai-optimization]] - title: "Benchmark-Driven AI Optimization"
+- [[concepts/hybridrag|hybridrag]] - title: "HybridRAG" ( #rag #knowledge-graph #vector-database)
+- [[concepts/graphrag|graphrag]] - title: "GraphRAG" ( #rag #knowledge-graph)
+- [[concepts/triplet-extraction|triplet-extraction]] - title: "Triplet Extraction" ( #knowledge-graph #llm #extraction)
+- [[concepts/knowledge-graph-ontology-design|knowledge-graph-ontology-design]] - title: "Knowledge Graph Ontology Design" ( #knowledge-graph #ontology #llm)
+- [[concepts/ontology-driven-retrieval|ontology-driven-retrieval]] - title: "Ontology-Driven Retrieval" ( #knowledge-graph #ontology #retrieval #method)
+- [[concepts/multi-hop-retrieval|multi-hop-retrieval]] - title: "Multi-Hop Retrieval" ( #rag #knowledge-graph #retrieval)
+- [[concepts/rag-evaluation|rag-evaluation]] - title: "RAG Evaluation" ( #rag #evaluation #metrics)
+:- [[concepts/graph-acceleration|graph-acceleration]] - title: "Graph Acceleration" ( #graph #gpu #cugraph)
+- [[concepts/graph-vs-document-retrieval|graph-vs-document-retrieval]] - title: "Graph vs Document Retrieval" ( #concept #retrieval #knowledge-graph #rag #agent)
+- [[concepts/graph-traversal-similarity|graph-traversal-similarity]] - title: "Graph Traversal Similarity" ( #concept #knowledge-graph #graph-traversal #similarity)
+:- [[concepts/intelligence-bottlenecks|intelligence-bottlenecks]] - title: "Intelligence Bottlenecks" ( #concept #ai #history)
+:- [[concepts/test-time-compute-scaling|test-time-compute-scaling]] - title: "Test-Time Compute Scaling" ( #concept #ai #inference #reasoning)
+:- [[concepts/thinking-budgets|thinking-budgets]] - title: "Thinking Budets" ( #concept #ai #inference #pricing #reasoning)
+
+- [[concepts/enterprise-ai-app-factory|enterprise-ai-app-factory]] - title: "Enterprise AI App Factory" ( #ai #architecture #enterprise #app-development)
+- [[concepts/human-in-the-loop-regulated-ai|human-in-the-loop-regulated-ai]] - title: "Human-in-the-Loop in Regulated AI" ( #ai #regulated-industry #compliance #human-in-the-loop)
+- [[concepts/domain-expert-prompt-engineering|domain-expert-prompt-engineering]] - title: "Domain Expert Prompt Engineering" ( #ai #prompt-engineering #enterprise #llm #domain-experts)
+- [[concepts/demo-driven-ai-exploration|demo-driven-ai-exploration]] - title: "Demo-Driven AI Exploration" ( #ai #llm #methodology #curiosity)
+- [[concepts/ai-engineering-as-excavation|ai-engineering-as-excavation]] - title: "AI Engineering as Excavation" ( #ai #llm #methodology #epistemology)
+- [[concepts/latent-model-capabilities|latent-model-capabilities]] - title: "Latent Model Capabilities" ( #ai #llm #capabilities #emergence)
+- [[concepts/vibe-coding-origins|vibe-coding-origins]] - title: "Vibe Coding Origins" ( #ai #llm #coding #gpt-3)
+
+- [[concepts/wireframe-to-app-generation|wireframe-to-app-generation]] - title: "Wireframe-to-App Generation" ( #ai #vision #code-generation #prototyping)
+- [[concepts/visual-agentic-workflows|visual-agentic-workflows]] - title: "Visual Agentic Workflows" ( #ai #agent #visual-programming #workflow)
+- [[concepts/llm-as-computation-engine|llm-as-computation-engine]] - title: "LLM as Computation Engine" ( #ai #llm #computation #multi-modal)
+- [[concepts/canvas-ai-interface|canvas-ai-interface]] - title: "Canvas as AI Interface" ( #ai #interface #canvas #visual)
+- [[concepts/pricing-as-friction|pricing-as-friction]] - title: "Pricing as Friction" ( #pricing #product-design #ai-engineering #monetization)
+- [[concepts/ai-native-pricing-principles|ai-native-pricing-principles]] - title: "AI-Native Pricing Principles" ( #pricing #ai-engineering #monetization #product-strategy)
+- [[concepts/agent-cost-predictability|agent-cost-predictability]] - title: "Agent Cost Predictability" ( #ai-agents #pricing #cost-management #ai-engineering)
+- [[concepts/outcome-based-pricing-for-ai|outcome-based-pricing-for-ai]] - title: "Outcome-Based Pricing for AI" ( #pricing #ai-engineering #monetization #product-strategy)
+- [[concepts/usage-based-pricing-for-ai|usage-based-pricing-for-ai]] - title: "Usage-Based Pricing for AI" ( #pricing #ai-engineering #monetization #infrastructure)
+- [[concepts/pricing-simulation|pricing-simulation]] - title: "Pricing Simulation" ( #pricing #data-driven #analytics #product-strategy)
+- [[concepts/direct-vs-indirect-ai-monetization|direct-vs-indirect-ai-monetization]] - title: "Direct vs Indirect AI Monetization" ( #pricing #ai-engineering #monetization #product-strategy #go-to-market)
+- [[concepts/value-metric-spectrum|value-metric-spectrum]] - title: "Value Metric Spectrum for AI Pricing" ( #pricing #ai-engineering #monetization #product-strategy #ai-agents)
+- [[concepts/ai-lego-blocks-framework|ai-lego-blocks-framework]] - title: "AI Lego Blocks Framework" ( #product-strategy #ai-product #differentiation #competitive-advantage)
+- [[concepts/sequence-of-moats|sequence-of-moats]] - title: "Sequence of Moats" ( #product-strategy #competitive-advantage #execution #timing)
+- [[concepts/ai-data-output-flywheel|ai-data-output-flywheel]] - title: "AI Data-Output Flywheel" ( #product-strategy #data #flywheel #competitive-advantage #ai-product)
+
+- [[concepts/ai-driven-experimentation|ai-driven-experimentation]] - title: "AI-Driven Experimentation" ( #ai #experimentation #llm #agent #ux #ab-testing)
+- [[concepts/prompt-to-reward-function|prompt-to-reward-function]] - title: "Prompt-to-Reward Function" ( #ai #reinforcement-learning #llm #robotics)
+- [[concepts/open-source-humanoid-robotics]] - title: "Open-Source Humanoid Robotics" ( #robotics #humanoid #open-source #reinforcement-learning)
+- [[concepts/browser-based-robotics-simulation|browser-based-robotics-simulation]] - title: "Browser-Based Robotics Simulation" ( #ai #reinforcement-learning #robotics #simulation)
+- [[concepts/agent-reliability-challenge|agent-reliability-challenge]] - title: "Agent Reliability Challenge" ( #ai #agents #reliability #evaluation #enterprise-ai)
+- [[concepts/scaling-is-dead-thesis|scaling-is-dead-thesis]] - title: "Scaling is Dead Thesis" ( #ai #scaling #reliability #architecture)
+- [[concepts/action-models|action-models]] - title: "Action Models" ( #ai #agents #models #reliability #web-tasks)
+
+- [[concepts/ai-iteration-loop|ai-iteration-loop]] - title: "AI Iteration Loop" ( #ai #operations #evaluation #methodology)
+- [[concepts/ai-ops-evolution|ai-ops-evolution]] - title: "AI Ops Evolution" ( #ai #operations #quality-assurance #team-structure)
+- [[concepts/ai-quality-lead|ai-quality-lead]] - title: "AI Quality Lead" ( #ai #roles #operations #evaluation)
+- [[concepts/build-operate-divide|build-operate-divide]] - title: "Build-Operate Divide" ( #ai #operations #product-development #reliability)
+- [[concepts/quality-chasm-in-ai|quality-chasm-in-ai]] - title: "Quality Chasm in AI" ( #ai #quality #production #reliability)
+- [[concepts/agentic-semantic-layer|agentic-semantic-layer]] - title: "Agentic Semantic Layer" ( #ai #architecture #semantic-layer #agents)
+
+- [[concepts/semantic-ids|semantic-ids]] - title: "Semantic IDs" ( #recommendation-systems #embeddings #cold-start #recsys)
+- [[concepts/llm-data-augmentation-recsys|llm-data-augmentation-recsys]] - title: "LLM Data Augmentation for Recommendation Systems" ( #recommendation-systems #llm #data-augmentation #recsys)
+- [[concepts/unified-recommendation-models|unified-recommendation-models]] - title: "Unified Recommendation Models" ( #recommendation-systems #search #multi-task-learning #recsys)
+- [[concepts/cold-start-recommendation|cold-start-recommendation]] - title: "Cold Start in Recommendation Systems" ( #recommendation-systems #cold-start #data-sparsity #recsys)
+- [[concepts/quality-vs-quantity-recommendations|quality-vs-quantity-recommendations]] - title: "Quality vs Quantity in Recommendations" ( #recommendation-systems #quality #metrics #recsys)
+- [[concepts/exploratory-query-recommendation|exploratory-query-recommendation]] - title: "Exploratory Query Recommendation" ( #recommendation-systems #search #query-generation #llm)
+- [[concepts/data-readiness-myth|data-readiness-myth]] - title: "Data Readiness Myth" ( #ai #data #reliability #enterprise-ai)
+- [[concepts/recsys-event-tokenization|recsys-event-tokenization]] - title: "Event Tokenization for Recommendation Systems" ( #recommendation-systems #tokenization #transformer #recsys)
+- [[concepts/recsys-foundation-model|recsys-foundation-model]] - title: "Recommendation Foundation Models" ( #recommendation-systems #foundation-model #transformer #personalization #recsys)
+- [[concepts/llm-as-planner-not-executor|llm-as-planner-not-executor]] - title: "LLM as Planner, Not Executor" ( #ai #architecture #llm #reliability)
+- [[concepts/tribal-knowledge-in-ai|tribal-knowledge-in-ai]] - title: "Tribal Knowledge in AI" ( #ai #enterprise-ai #domain-knowledge #reliability)
+
+- [[concepts/cursor-for-x]] - title: "Cursor for X" ( #concept #ai #product-strategy #startups)
+- [[concepts/execution-as-moat]] - title: "Execution as Moat" ( #concept #ai #strategy #startups)
+- [[concepts/ai-leapfrog-effect]] - title: "AI Leapfrog Effect" ( #concept #ai #adoption #enterprise)
+- [[concepts/copilot-first-strategy]] - title: "Copilot-First Strategy" ( #concept #ai #product-strategy #agents)
+- [[concepts/prompt-is-a-bug]] - title: "The Prompt Is a Bug" ( #concept #ai #ux #product-design)
+- [[concepts/dial-up-era-of-ai]] - title: "Dial-Up Era of AI" ( #concept #ai #startups #timing)
+- [[concepts/multi-model-world]] - title: "Multi-Model World" ( #concept #ai #infrastructure #strategy)
+- [[concepts/interactive-reasoning-benchmarks]] - title: "Interactive Reasoning Benchmarks" ( #concept #ai #benchmarking #agi #reasoning)
+- [[concepts/arc-agi-3]] - title: "ARC-AGI-3" ( #concept #ai #benchmarking #agi #arc-agi)
+- [[concepts/skill-acquisition-efficiency]] - title: "Skill Acquisition Efficiency" ( #concept #ai #agi #intelligence #benchmarking)
+- [[concepts/core-knowledge-priors]] - title: "Core Knowledge Priors" ( #concept #ai #reasoning #cognition #arc-agi)
+- [[concepts/human-baseline-benchmarking]] - title: "Human Baseline Benchmarking" ( #concept #ai #benchmarking #agi #methodology)
+
+- [[concepts/ai-first-transformation]] - title: "AI-First Transformation" ( #concept #ai #strategy #organization #transformation)
+- [[concepts/ritualized-discovery]] - title: "Ritualized Discovery" ( #concept #ai #methodology #experimentation)
+- [[concepts/mvp-for-learning]] - title: "MVP for Learning" ( #concept #ai #methodology #product-development)
+- [[concepts/smart-velocity]] - title: "Smart Velocity" ( #concept #ai #strategy #product-development)
+- [[concepts/process-as-product]] - title: "Process as Product" ( #concept #ai #methodology #organization #operations)
+- [[concepts/ai-fluency]] - title: "AI Fluency" ( #concept #ai #organization #culture #skills)
+- [[concepts/t-shaped-ai-talent]] - title: "T-Shaped AI Talent" ( #concept #ai #talent #organization #people)
+- [[concepts/stateful-environments]] - title: "Stateful Environments for Vertical Agents" ( #concept #ai #agents #architecture #infrastructure)
+- [[concepts/agent-tree-search]] - title: "Agent Tree Search" ( #concept #ai #agents #architecture #infrastructure)
+
+- [[concepts/mechanistic-interpretability]] - title: "Mechanistic Interpretability" ( #concept #ai #interpretability #research)
+- [[concepts/neural-programming]] - title: "Neural Programming" ( #concept #ai #interpretability #engineering)
+- [[concepts/feature-steering]] - title: "Feature Steering" ( #concept #ai #interpretability #control)
+- [[concepts/sparse-autoencoders]] - title: "Sparse Autoencoders" ( #concept #ai #interpretability #technique)
+:- [[concepts/legacy-code-ai-agent-strategy]] - title: "Legacy Code AI Agent Strategy" ( #concept #ai #agents #legacy-code #engineering #methodology)
+
+- [[concepts/agentic-web]] - title: "Agentic Web" ( #concept #agent #architecture #microsoft #interoperability)
+- [[concepts/peer-programming]] - title: "Peer Programming" ( #concept #ai #development #copilot #agent #workflow)
+- [[concepts/agent-factory]] - title: "Agent Factory" ( #concept #agent #platform #infrastructure #microsoft #deployment)
+- [[concepts/agentic-rag]] - title: "Agentic RAG" ( #concept #rag #retrieval #agents #accuracy #microsoft)
+- [[concepts/signal-loop-ai]] - title: "Signal Loop (AI)" ( #concept #agent #fine-tuning #feedback-loop #personalization #microsoft)
+- [[concepts/local-first-ai-platform]] - title: "Local-First AI Platform" ( #concept #architecture #edge #deployment #infrastructure #microsoft)
+- [[concepts/agent-evaluation-pipeline]] - title: "Agent Evaluation Pipeline" ( #concept #agent #evaluation #ci-cd #testing #quality)
+- [[concepts/model-ensemble-routing]] - title: "Model Ensemble Routing" ( #concept #model #routing #infrastructure #ensemble #microsoft)
+- [[concepts/design-four-pillars]] - title: "Design Four Pillars" ( #design-philosophy #ux #framework #product-design)
+- [[concepts/perceived-performance-ux]] - title: "Perceived Performance UX" ( #performance #ux #frontend #web-vitals)
+- [[concepts/prediction-cone-ui]] - title: "Prediction Cone UI" ( #ui-pattern #interaction-design #menu #ux)
+- [[concepts/specifications-as-code]] - title: "Specifications as Code" ( #specification #ai-engineering #methodology #communication #alignment)
+- [[concepts/deliberative-alignment]] - title: "Deliberative Alignment" ( #ai #alignment #specification #training #evaluation #openai)
+
+- [[concepts/cuda-graph-for-llm-serving]] - title: "CUDA Graph for LLM Serving" ( #gpu #optimization #inference #serving #performance)
+- [[concepts/speculative-decoding-eagle]] - title: "Eagle Speculative Decoding" ( #inference #optimization #serving #speculation)
+:- [[concepts/prefill-decode-throughput-tradeoff]] - title: "Prefill-Decode Throughput Tradeoff" ( #inference #llm #performance #optimization #throughput #serving)
+
+- [[concepts/ai-architect]] - title: "AI Architect" ( #concept #role #organization #ai #customer-experience)
+- [[concepts/agent-development-lifecycle]] - title: "Agent Development Lifecycle (ADLC)" ( #concept #agent #lifecycle #testing #production #ai-engineering)
+- [[concepts/user-simulation-testing]] - title: "User Simulation Testing" ( #concept #agent #testing #evaluation #ai-engineering)
+- [[concepts/closed-loop-agent-improvement]] - title: "Closed-Loop Agent Improvement" ( #concept #agent #ai #production #feedback-loop #operations)
+- [[concepts/ai-evaluation-market-history]] - title: "AI Evaluation Market History" ( #concept #evaluation #market #history #c-suite #agentic)
+
+- [[concepts/ai-sideshow]] - title: "AI Sideshow" ( #concept #ai #product-strategy #anti-pattern)
+- [[concepts/dynamic-products]] - title: "Dynamic Products" ( #concept #ai #product-strategy #methodology)
+
+- [[concepts/private-cloud-compute]] - title: "Private Cloud Compute" ( #concept #privacy #apple #cloud-compute #architecture)
+- [[concepts/remote-attestation]] - title: "Remote Attestation" ( #concept #security #trust #cryptography #attestation)
+- [[concepts/verifiable-transparency]] - title: "Verifiable Transparency" ( #concept #security #transparency #audit #merkle-tree #trust)
+- [[concepts/oblivious-http]] - title: "Oblivious HTTP" ( #concept #privacy #networking #protocol #anonymization)
+- [[concepts/blind-signatures]] - title: "Blind Signatures" ( #concept #cryptography #privacy #authentication)
+- [[concepts/non-targetability]] - title: "Non-Targetability" ( #concept #privacy #security #threat-model)
+- [[concepts/stateless-computation]] - title: "Stateless Computation" ( #concept #architecture #privacy #security)
+- [[concepts/enforceable-guarantees]] - title: "Enforceable Guarantees" ( #concept #security #architecture #privacy)
+- [[concepts/confidential-gpu]] - title: "Confidential GPU" ( #concept #hardware #security #gpu #confidential-computing #tpm)
+- [[concepts/private-ai-inference]] - title: "Private AI Inference" ( #concept #privacy #ai #inference #cloud)
+
+- [[concepts/ai-coworker-form-factors]] - title: "AI Coworker Form Factors" ( #concept #agent #ai #design #ux #interaction-patterns)
+- [[concepts/character-coach-approach]] - title: "Character Coach Approach" ( #concept #agent #ai #design #personality)
+- [[concepts/feeling-the-material]] - title: "Feeling the Material" ( #concept #ai #design #methodology #ux #prototyping)
+- [[concepts/finding-the-grain]] - title: "Finding the Grain" ( #concept #ai #design #methodology #ux)
+- [[concepts/forward-leaning-agent]] - title: "Forward-Leaning Agent" ( #concept #agent #ai #design #personality #behavior)
+- [[concepts/agent-identity]] - title: "Agent Identity" ( #concept #agent #identity #auth #security #architecture)
+- [[concepts/persona-shadowing]] - title: "Persona Shadowing" ( #concept #agent #identity #auth #architecture #pattern)
+- [[concepts/delegation-chains]] - title: "Delegation Chains" ( #concept #agent #identity #auth #architecture #pattern #jwt)
+- [[concepts/capability-based-tokens]] - title: "Capability Tokens" ( #concept #agent #identity #auth #architecture #pattern #tokens)
+- [[concepts/agent-middleware-trust-boundary]] - title: "Agent Middleware Trust Boundary" ( #concept #agent #security #architecture #middleware)
+- [[concepts/agent-traffic-inversion]] - title: "Agent Traffic Inversion" ( #concept #agent #prediction #trend #enterprise)
+- [[concepts/burden-of-generated-code]] - title: "Burden of Generated Code" ( #concept #software-engineering #ai-engineering #maintenance)
+- [[concepts/code-is-artifact]] - title: "Code is an Artifact, Not the Job" ( #concept #software-engineering #philosophy #ai-engineering)
+- [[concepts/code-review-primary-skill]] - title: "Code Review as Primary Skill" ( #concept #code-review #software-engineering #ai-engineering)
+- [[concepts/create-refine-loop]] - title: "Create-Refine Loop" ( #concept #ai-engineering #workflow #methodology)
+
+- [[concepts/useful-general-intelligence]] - title: "Useful General Intelligence" ( #concept #theory #ai #agents)
+- [[concepts/techno-social-co-evolution]] - title: "Techno-Social Co-Evolution" ( #concept #theory #ai #cognition)
+- [[concepts/controlled-hallucination]] - title: "Controlled Hallucination" ( #concept #theory #cognition #neuroscience)
+- [[concepts/cognitive-technologies]] - title: "Cognitive Technologies" ( #concept #theory #cognition #ai)
+- [[concepts/automation-augmentation-agency]] - title: "Automation → Augmentation → Agency" ( #concept #theory #ai #product)
+- [[concepts/agents-with-models-of-mind]] - title: "Agents with Models of Mind" ( #concept #theory #agents #ai)
+- [[concepts/computer-use-agents]] - title: "Computer-Use Agents" ( #concept #agents #ai)
+- [[concepts/human-agent-co-evolution]] - title: "Human-Agent Co-Evolution" ( #concept #theory #agents #ai)
+- [[concepts/language-as-model-of-mind]] - title: "Language as Model of Mind" ( #concept #theory #cognition #linguistics)
 ## Sources
 
 - [[sources/cluster-maintenance-draining-&-os-upgrades_98d707|cluster-maintenance-draining-&-os-upgrades_98d707]] `aliases: Kubernetes Cluster Maintenance Guide, Cluster Maintenance - Draining & OS Upgrades`
@@ -419,3 +768,66 @@
 - [[sources/introduction_804367|introduction_804367]] `aliases: Building a Kubernetes Cluster from Scratch: Introduction, Kubernetes Cluster Setup Guide: AWS Introduction`
 - [[sources/kubernetes-installation-steps_e573e8|kubernetes-installation-steps_e573e8]] `aliases: K8s Node Prerequisites, Node Configuration for Kubernetes`
 - [[sources/🔐-security-in-kubernetes_0a37d1|🔐-security-in-kubernetes_0a37d1]] `aliases: K8s Security Overview, Securing Kubernetes Guide`
+
+## References
+
+- [[references/box-agentic-platform-ben-kus|box-agentic-platform-ben-kus]] - title: "Building an Agentic Platform — Ben Kus, CTO Box"
+- [[references/building-effective-voice-agents-openai-2025|building-effective-voice-agents-openai-2025]] - title: "Building Effective Voice Agents — Toki Sherbakov + Anoop Kotha, OpenAI"
+
+- [[references/build-operate-divide-freeplay-chime-2025|build-operate-divide-freeplay-chime-2025]] - title: "The Build-Operate Divide: Bridging Product Vision and AI Operational Reality — Jeremy (Freeplay) & Chris Hernandez, Chime (AI Engineer World's Fair 2025)"
+- [[references/hybridrag-fusion-graph-vector-retrieval-mitesh-patel|hybridrag-fusion-graph-vector-retrieval-mitesh-patel]] - title: "HybridRAG: A Fusion of Graph and Vector Retrieval — Mitesh Patel, NVIDIA"
+- [[references/improving-recsys-search-llms-eugene-yan|improving-recsys-search-llms-eugene-yan]] - title: "Recsys Keynote: Improving Recommendation Systems & Search in the Age of LLMs — Eugene Yan, Amazon" ( #reference #talk #ai-engineer #recommendation-systems #llm)
+- [[references/blackrock-knowledge-apps-ai-eng-fair-2025|blackrock-knowledge-apps-ai-eng-fair-2025]] - title: "How BlackRock Builds Custom Knowledge Apps at Scale — Vaibhav Page & Infant Vasanth, BlackRock"
+- [[references/on-curiosity-sharif-shameem-ai-eng-2025|on-curiosity-sharif-shameem-ai-eng-2025]] - title: "On Curiosity — Sharif Shameem, Lexica (AI Engineer World's Fair 2025)"
+- [[references/promptql-agentic-semantic-layer-ai-eng-2025|promptql-agentic-semantic-layer-ai-eng-2025]] - title: "\"Data readiness\" is a Myth: Reliable AI with an Agentic Semantic Layer — Anushrut Gupta, PromptQL (AI Engineer World's Fair 2025)"
+- [[references/survive-ai-knife-fight-brian-balfour|survive-ai-knife-fight-brian-balfour]] - title: "Survive the AI Knife Fight: Building Products That Win — Brian Balfour, Reforge (AI Engineer World's Fair 2025)"
+
+- [[references/tldraw-computer-steve-ruiz-ai-eng-2025|tldraw-computer-steve-ruiz-ai-eng-2025]] - title: "tldraw.computer — Steve Ruiz, tldraw (AI Engineer World's Fair 2025)"
+- [[references/revenue-engineering-pricing-ai-product-grover-orb|revenue-engineering-pricing-ai-product-grover-orb]] - title: "Revenue Engineering: How to Price (and Reprice) Your AI Product — Kshitij Grover, Orb (AI Engineer World's Fair 2025)"
+- [[references/ai-eng-worlds-fair-2025-hackathon-presentations|ai-eng-worlds-fair-2025-hackathon-presentations]] - title: "AI Engineer World's Fair 2025 Hackathon Presentations" ( #reference #talk #hackathon)
+:- [[references/to-the-moon-legacy-code-augment-agent]] - title: "To the moon! Navigating deep context in legacy code with Augment Agent — Forrest Brazeal, Matt Ball" ( #reference #talk #legacy-code #agents #developer-tools)
+- [[references/why-chatgpt-keeps-interrupting-you-tom-shapland-livekit|why-chatgpt-keeps-interrupting-you-tom-shapland-livekit]] - title: "Why ChatGPT Keeps Interrupting You — Dr. Tom Shapland, LiveKit" ( #reference #talk #voice #ai #turn-taking)
+- [[references/measuring-agi-interactive-reasoning-benchmarks-arc-agi-3]] - title: "Measuring AGI: Interactive Reasoning Benchmarks for ARC-AGI-3 — Greg Kamradt, ARC Prize Foundation" ( #reference #talk #ai #benchmarking #agi #arc-agi)
+
+- [[references/state-of-startups-and-ai-2025-sarah-guo]] - title: "State of Startups and AI 2025 — Sarah Guo, Conviction" ( #reference #talk #ai #startups #venture-capital)
+- [[references/ai-eng-worlds-fair-2025-hype-to-habit-sprout-social]] - title: "From Hype to Habit: How We're Building an AI-First SaaS Company—While Still Shipping the Roadmap — Rossella & Debsha, Sprout Social" ( #reference #talk #ai #transformation #strategy)
+- [[references/information-retrieval-ground-up-philipp-krenn-elastic-2025]] - title: "Information Retrieval from the Ground Up — Philipp Krenn, Elastic" ( #reference #talk #search #retrieval)
+- [[references/stateful-environments-vertical-agents-josh-purtell-synth-labs]] - title: "Stateful Environments for Vertical Agents — Josh Purtell, Synth Labs" ( #reference #talk #ai-engineer #agents #stateful #infrastructure)
+
+- [[references/notion-ai-building-world-class-products]] - title: "How to build world-class AI products — Sarah Sachs (Notion) & Carlos Esteban (Braintrust)" ( #reference #talk #evaluation #notion #braintrust)
+
+- [[references/monetizing-ai-alvaro-morales-orb|monetizing-ai-alvaro-morales-orb]] - title: "Monetizing AI — Alvaro Morales, Orb (AI Engineer World's Fair 2025)" ( #reference #talk #pricing #monetization #ai-engineering)
+- [[references/why-care-about-ai-interpretability-bissell-goodfire-2025]] - title: "Why You Should Care About AI Interpretability — Mark Bissell, Goodfire AI" ( #reference #talk #interpretability #safety)
+
+- [[references/ai-eng-worlds-fair-2025-spark-to-system-open-agentic-web-asha-sharma]] - title: "Spark to System: Building the Open Agentic Web — Asha Sharma, Microsoft" ( #reference #talk #ai-engineer #microsoft #agents #agentic-web #ai-eng-worlds-fair-2025)
+
+- [[references/good-design-hasnt-changed-with-ai-john-pham-sf-compute]] - title: "Good design hasn't changed with AI — John Pham, SF Compute" ( #reference #talk #design #ux #performance #accessibility #ai-engineer)
+- [[references/ai-eng-worlds-fair-2025-agents-vs-workflows-sam-bhagwat-mastra]] - title: "Agents vs Workflows: Why Not Both? — Sam Bhagwat, Mastra.ai" ( #reference #talk #ai-engineer #agents #workflow)
+
+- [[references/thinking-deeper-in-gemini-jack-rae-deepmind|thinking-deeper-in-gemini-jack-rae-deepmind]] - title: "Thinking Deeper in Gemini — Jack Rae, Google DeepMind" ( #reference #talk #reasoning #google)
+
+- [[references/12-factor-agents-patterns-dex-horthy-humanlayer|12-factor-agents-patterns-dex-horthy-humanlayer]] - title: "12-Factor Agents: Patterns of Reliable LLM Applications — Dex Horthy, HumanLayer" ( #reference #talk #agents #reliability #patterns #humanlayer)
+- [[references/aief2025-private-cloud-compute-jmo]] - title: "The Unofficial Guide to Apple's Private Cloud Compute — Jmo, CONFSEC" ( #reference #talk #aief2025 #privacy #apple #cloud-compute #security)
+- [[references/the-new-code-sean-grove-openai]] - title: "The New Code — Sean Grove, OpenAI" ( #reference #talk #specification #alignment #openai)
+- [[references/aief2025-automating-escrow-usdc-ai-corey-cooper]] - title: "Automating Escrow with USDC and AI — Corey Cooper, Circle" ( #reference #talk #aief2025 #usdc #escrow #ai-agents)
+
+- [[references/aief2025-netflix-one-model-recommendations-yesu-feng|aief2025-netflix-one-model-recommendations-yesu-feng]] - title: "Netflix's Big Bet: One Model to Rule Recommendations — Yesu Feng, Netflix" ( #reference #talk #aief2025 #recommendation-systems #foundation-model #recsys)
+- [[references/aief2025-introduction-to-llm-serving-sglang-philip-kiely-yineng-zhang]] - title: "Introduction to LLM serving with SGLang — Philip Kiely and Yineng Zhang, Baseten" ( #reference #talk #aief2025 #sglang #inference #serving)
+
+- [[references/aief2025-open-source-humanoid-robot-k-scale-labs]] - title: "Your Personal Open-Source Humanoid Robot for $8,999 — JX Mo, K-Scale Labs" ( #reference #talk #aief2025 #robotics #humanoid #open-source)
+- [[references/aief2025-google-photos-magic-editor-kelvin-ma]] - title: "Google Photos Magic Editor: GenAI Under the Hood of a Billion-User App — Kelvin Ma, Google Photos" ( #reference #talk #aief2025 #google #computer-vision #on-device-ml #photo-editing)
+- [[references/aief2025-rise-of-ai-architect-clay-bavor-sierra]] - title: "Rise of the AI Architect — Clay Bavor, Cofounder, Sierra w/ Alessio Fanelli" ( #reference #talk #aief2025 #agents #ai-architecture #sierra #customer-experience)
+
+
+- [[references/aief2025-build-dynamic-products-stop-ai-sideshow]] - title: "Build Dynamic Products, and Stop the AI Sideshow — Eliza Cabrera (Workday) + Jeremy Silva (Freeplay)" ( #reference #talk #aief2025 #product-strategy #ai-integration)
+
+- [[references/aief2025-year-of-evals-john-dickerson-mozilla]] - title: "2025 is the Year of Evals! Just like 2024, and 2023, and … — John Dickerson, CEO Mozilla AI" ( #reference #talk #aief2025 #evaluation #monitoring #market)
+
+- [[references/aief2025-why-your-agent-brain-needs-playbook-ontologies-jesus-barrasa]] - title: "Why Your Agent's Brain Needs a Playbook: Practical Wins from Using Ontologies — Jesús Barrasa, Neo4j" ( #reference #talk #aief2025 #knowledge-graph #ontology #graphrag #neo4j)
+- [[references/aief2025-form-factors-ai-coworkers-craig-wattrus-flatfile]] - title: "Form Factors for Your New AI Coworkers — Craig Wattrus, Flatfile" ( #reference #talk #aief2025 #agent-design #flatfile)
+- [[references/aief2025-agentic-graphrag-zach-blumenfeld]] - title: "AIEF2025 — Agentic GraphRAG: Simplifying Retrieval Across Structured & Unstructured Data — Zach Blumenfeld" ( #reference #talk #aief2025 #knowledge-graph #graphrag #neo4j #mcp)
+
+- [[references/aief2025-ciam-for-ai-michael-grinich]] - title: "CIAM for AI: Authn/Authz for Agents — Michael Grinich, CEO of WorkOS" ( #reference #talk #aief2025 #identity #auth #agents)
+- [[references/aief2025-vibes-wont-cut-it-chris-kelly-augment]] - title: "Vibes Won't Cut It — Chris Kelly, Augment Code (AIEF2025)" ( #reference #talk #aief2025 #production #code-review #software-engineering)
+- [[references/aief2025-inference-engines-benchmarking-charles-frye-modal]] - title: "How Fast Are LLM Inference Engines Anyway? — Charles Frye, Modal (AIEF2025)" ( #reference #talk #aief2025 #inference #benchmarking #llm #modal)
+- [[references/aief2025-useful-general-intelligence-danielle-perszyk]] - title: "Useful General Intelligence — Danielle Perszyk, Amazon AGI (AIEF2025)" ( #reference #talk #aief2025 #agi #agents #cognitive-science)

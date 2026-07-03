@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 44,
-    "total_pages": 320
+    "total_sources_ingested": 46,
+    "total_pages": 323
   },
   "ralph-ai-coding-technique_ghuntley": {
     "ingested_at": "2026-06-30T18:41:00Z",
@@ -352,6 +352,39 @@
     "pages_updated": [
       "wiki/entities/matt-pocock.md",
       "wiki/concepts/agent-loop.md"
+    ]
+  },
+  "github-com-steipete-birdclaw": {
+    "ingested_at": "2026-07-02T18:42:00Z",
+    "size_bytes": 0,
+    "modified_at": "2026-07-02T18:42:00Z",
+    "content_hash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+    "source_url": "https://github.com/steipete/birdclaw",
+    "source_type": "url",
+    "project": null,
+    "pages_created": [
+      "wiki/entities/birdclaw.md",
+      "wiki/entities/peter-steinberger.md"
+    ],
+    "pages_updated": [
+      "wiki/index.md",
+      "wiki/log.md",
+      "wiki/hot.md"
+    ]
+  },
+  "summarize-sh-website-github": {
+    "ingested_at": "2026-07-02T19:09:00Z",
+    "size_bytes": 0,
+    "modified_at": "2026-07-02T19:09:00Z",
+    "content_hash": null,
+    "source_url": "https://summarize.sh/ + https://github.com/steipete/summarize",
+    "source_type": "url",
+    "project": null,
+    "pages_created": [
+      "wiki/entities/summarize.md"
+    ],
+    "pages_updated": [
+      "wiki/entities/peter-steinberger.md"
     ]
   }
 }

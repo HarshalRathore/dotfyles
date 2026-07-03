@@ -11,10 +11,14 @@
             "id": "0edf8f499d9f881d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "wiki/concepts/semantic-end-of-utterance-detection.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "semantic-end-of-utterance-detection"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "agent loop",
+                "query": "anthropic",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "wiki/concepts/semantic-end-of-utterance-detection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for semantic-end-of-utterance-detection"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "wiki/concepts/semantic-end-of-utterance-detection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from semantic-end-of-utterance-detection"
             }
           },
           {
@@ -134,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Agent Loop.md",
+                "file": "wiki/concepts/semantic-end-of-utterance-detection.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Agent Loop"
+              "title": "Outline of semantic-end-of-utterance-detection"
             }
           },
           {
@@ -189,44 +195,44 @@
       "karpathywiki:Query wiki": false
     }
   },
-  "active": "0b916a15688e3007",
+  "active": "0edf8f499d9f881d",
   "lastOpenFiles": [
-    "entities/peter-steinberger.md",
-    "wiki/misc/web-posthog-com-newsletter-loops.md",
+    "wiki/references/aief2025-useful-general-intelligence-danielle-perszyk.md",
+    "wiki/entities/douglas-engelbart.md",
+    "wiki/entities/amazon-agi.md",
+    "wiki/entities/nova-act.md",
+    "wiki/entities/danielle-perszyk.md",
+    "wiki/concepts/language-as-model-of-mind.md",
+    "wiki/concepts/human-agent-co-evolution.md",
+    "wiki/concepts/computer-use-agents.md",
+    "wiki/concepts/agents-with-models-of-mind.md",
+    "wiki/concepts/automation-augmentation-agency.md",
+    "wiki/concepts/cognitive-technologies.md",
+    "wiki/concepts/controlled-hallucination.md",
+    "wiki/concepts/techno-social-co-evolution.md",
+    "wiki/concepts/useful-general-intelligence.md",
+    "wiki/references/aief2025-inference-engines-benchmarking-charles-frye-modal.md",
+    "wiki/concepts/prefill-decode-throughput-tradeoff.md",
+    "wiki/entities/charles-frye.md",
+    "wiki/concepts/create-refine-loop.md",
+    "wiki/concepts/code-review-primary-skill.md",
+    "wiki/concepts/burden-of-generated-code.md",
+    "wiki/concepts/code-is-artifact.md",
+    "wiki/entities/jeff-atwood.md",
+    "wiki/entities/chris-kelly.md",
+    "wiki/references/aief2025-vibes-wont-cut-it-chris-kelly-augment.md",
+    "wiki/sedfF6VUW",
+    "wiki/sedVFe8eQ",
+    "wiki/references/aief2025-ciam-for-ai-michael-grinich.md",
+    "wiki/concepts/agent-traffic-inversion.md",
+    "wiki/sedue3MkS",
+    "wiki/sediJRT43",
+    "wiki/hot.md.bak",
+    "wiki/sedfVULbp",
+    "wiki/references",
+    "wiki/_staging",
     "entities",
-    "wiki/misc/web-posthog-com-blog-karpathy-autoresearch-query.md",
-    "wiki/misc/web-posthog-com-docs-ai-evals.md",
-    "wiki/misc/web-posthog-com-blog-what-is-a-scout.md",
-    "wiki/misc/web-posthog-com-blog-sql-parser.md",
-    "wiki/misc/web-posthog-com-blog-stop-ai-slop.md",
-    "wiki/misc/web-posthog-com-blog-what-if-your-product-built-itself.md",
-    "wiki/misc/web-github-com-karpathy-autoresearch.md",
-    "wiki/concepts/agent-loop.md",
-    "wiki/concepts/container-runtime-interface-cri.md",
-    "wiki/concepts/control-plane-node.md",
-    "wiki/concepts/containerization.md",
-    "wiki/concepts/container-runtime.md",
-    "wiki/concepts/container-dns-resolution-source.md",
-    "wiki/concepts/container-dns-resolution.md",
-    "wiki/concepts/configmap.md",
-    "wiki/concepts/co-scheduling.md",
-    "wiki/concepts/cmd.md",
-    "wiki/concepts/certificate-verification.md",
-    "wiki/concepts/cidr.md",
-    "wiki/concepts/client-certificate.md",
-    "wiki/concepts/cluster-autoscaler.md",
-    "wiki/concepts/cluster-cidr.md",
-    "wiki/concepts/cluster-scaling.md",
-    "wiki/concepts/clusterrolebinding.md",
     "wiki-deadlinks-check.py",
-    "wifi-vault/fix-stubs.py",
-    "wifi-vault",
-    "fix-deadlinks.py",
-    "tmp-dedup2.py",
-    "tmp-dedup.py",
-    "teach/agent-harnesses/lessons/0001-four-requirements-of-engineered-loop.html",
-    "teach/agent-harnesses/reference",
-    "teach/agent-harnesses/lessons",
     "attachments/loops-startup-monopoly.png",
     "attachments/loops-peter-steinberger-quote.png",
     "attachments/loops-hero-why-were-bullish.png",

@@ -9,7 +9,7 @@ sources:
 ---
 # Nick Nisi
 
-DX Engineer at WorkOS, maintaining SDKs across 8+ languages and 20+ repos. Built "Case," a harness for agentic workflows using a TypeScript state machine on top of Pi. His talk at AI Engineer 2026 covered evidence-based agent verification (SHA-256 hashing test output), the discovery that 10,000 lines of auto-generated skills made agents *worse* (97%→77%), and the principle of "enforce with code, not prompts."
+DX Engineer at [[entities/workos|WorkOS]], maintaining SDKs across 8+ languages and 20+ repos. Built "Case," a harness for agentic workflows using a TypeScript state machine on top of Pi. His talk at AI Engineer 2026 covered evidence-based agent verification (SHA-256 hashing test output), the discovery that 10,000 lines of auto-generated skills made agents *worse* (97%→77%), and the principle of "enforce with code, not prompts."
 
 ## Related
 

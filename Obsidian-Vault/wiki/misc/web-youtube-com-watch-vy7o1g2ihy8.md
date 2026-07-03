@@ -69,7 +69,7 @@ Nick Nisi built "Case," a harness for agentic workflows using a TypeScript state
 ## Entities
 
 - [[entities/nick-nisi]] — DX Engineer at WorkOS, creator of the Case harness
--  — Company where Nisi works on SDKs across 8 languages
+- [[entities/workos]] — Company where Nisi works on SDKs across 8 languages
 - [[entities/tejas-kumar]] — Parallel work on agent harnesses at the same conference
 
 ## Open Questions
