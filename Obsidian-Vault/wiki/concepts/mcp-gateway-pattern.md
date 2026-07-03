@@ -8,6 +8,7 @@ tags:
   - gateway
 sources:
   - "https://www.youtube.com/watch?v=0NHCyq8bBcM"
+  - "AIEF2025 - MCP Is Not Good Yet — David Cramer, Sentry - https://www.youtube.com/watch?v=FCi4jT86gSw"
 summary: "Architectural pattern for centralizing MCP connections through a shared gateway service that handles routing, auth, rate limiting, observability, and policy enforcement."
 provenance:
   extracted: 0.70
@@ -50,8 +51,15 @@ The returned object is a standard MCP SDK client session, which means protocol f
 - **Security** — eliminates the need for outbound external network connectivity from individual services; the gateway is the sole egress point.
 - **Operational simplicity** — standardizing on one approach accelerates engineer onboarding: "having a single approach to learn as engineers makes things faster."
 
+## Practitioner Perspective
+
+[[entities/david-cramer|David Cramer]] ([[entities/sentry|Sentry]]) reinforces the gateway pattern through his advocacy of remote MCP over stdio for B2B SaaS. Remote MCP servers, accessed through a shared gateway, give enterprises the same advantages cloud always provided: iteration speed, centralized security control, and operational agility. ^[extracted] The gateway becomes the natural place to enforce the "design for unknown consumer" principle — since the gateway is the single entry point, it's where context should be optimized for any model or client, not a specific one. ^[inferred]
+
 ## Related
 
 - [[concepts/model-context-protocol]] — The protocol the gateway serves
 - [[concepts/enterprise-mcp-deployment]] — The gateway pattern supports enterprise deployment stages
 - [[concepts/pit-of-success-design]] — Design philosophy behind making the gateway the default path
+- [[entities/david-cramer]] — Practitioners' perspective on remote MCP architecture
+- [[entities/sentry]] — Production remote MCP server implementation
+- [[references/aief2025-mcp-is-not-good-yet-david-cramer-sentry]] — Full talk reference

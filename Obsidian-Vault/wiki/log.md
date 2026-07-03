@@ -1,3 +1,10 @@
+- [2026-07-03T13:30:00Z] INGEST source="AIEF2025 - How to defend your sites from AI bots — David Mytton, Arcjet - https://www.youtube.com/watch?v=Gi4V8viBGYQ" mode=append pages_created=5 pages_updated=0
+
+- [2026-07-03T12:00:00Z] INGEST source="AIEF2025 - Graph Intelligence: Enhance Reasoning and Retrieval Using Graph Analytics - Alison & Andreas, Neo4j - https://www.youtube.com/watch?v=GGxAQVbwBL4" mode=append pages_created=3 pages_updated=3
+- [2026-07-03T11:00:00Z] INGEST source="AIEF2025 - Collaborating with Agents in your Software Dev Workflow — Jon Peck & Christopher Harrison, Microsoft - https://www.youtube.com/watch?v=G1hhmz6mXT0" mode=append pages_created=3 pages_updated=5
+- [2026-07-03T10:30:00Z] INGEST source="AIEF2025 - Ship Agents that Ship: A Hands-On Workshop - Kyle Penfound, Jeremy Adams, Dagger - https://www.youtube.com/watch?v=Fzb1a24hF-o" mode=append pages_created=5 pages_updated=2
+
+- [2026-07-03T10:15:00Z] INGEST source="AIEF2025 - MCP Is Not Good Yet — David Cramer, Sentry - https://www.youtube.com/watch?v=FCi4jT86gSw" mode=append pages_created=3 pages_updated=3
 - [2026-07-03T10:00:00Z] INGEST source="AIEF2025 - Useful General Intelligence — Danielle Perszyk, Amazon AGI - https://www.youtube.com/watch?v=Dj0b_cEBHBI" mode=append pages_created=13 pages_updated=0
 - [2026-07-03T09:30:00Z] INGEST source="AIEF2025 - How fast are LLM inference engines anyway? — Charles Frye, Modal - https://www.youtube.com/watch?v=DeFF3J8T5Pk" mode=append pages_created=3 pages_updated=5
 - [2026-07-03T09:15:00Z] INGEST source="AIEF2025 - Vibes won't cut it — Chris Kelly, Augment Code - https://www.youtube.com/watch?v=Dc3qOA9WOnE" mode=append pages_created=6 pages_updated=2
@@ -100,3 +107,6 @@ Fixed 6 deadlinks in log.md itself (wiki/ prefix + .md extension style).
 - [2026-07-03T08:13:21Z] INGEST source="AI Engineer World's Fair 2025 - Monetizing AI — Alvaro Morales, Orb - https://www.youtube.com/watch?v=6WQYLQB0odc" pages_updated=7 pages_created=5 mode=append
 
 - [2026-07-03T08:30:00Z] INGEST source="AI Engineer World's Fair 2025 - Good design hasn't changed with AI — John Pham, SF Compute - https://www.youtube.com/watch?v=7e7eVtcygCM" pages_updated=0 pages_created=6 mode=append
+- [2026-07-03T13:08:34Z] QUERY query="what do we know about agent loops? what are they? how do they work how can i actually use them in my workflow?" result_pages=8 mode=normal escalated=false
+
+- [2026-07-03T13:10:00Z] INGEST source="AIEF2025 - Securing Agents with Open Standards — Bobby Tiernay and Kam Sween, Auth0 - https://www.youtube.com/watch?v=FZoMSupg37E" mode=append pages_created=3 pages_updated=2

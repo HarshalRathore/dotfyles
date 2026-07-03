@@ -51,9 +51,22 @@ These chunks store both raw text and vectorized representations, creating a comb
 
 Neo4j supports [[concepts/ontology-driven-retrieval|ontology-driven retrieval]] — storing the domain ontology as data in the graph and querying it dynamically at retrieval time to control which relationships the retriever traverses. Relationship types can be annotated as "contextualizing," and changing these annotations in the ontology (a data artifact) changes retriever behavior without code changes. ^[extracted] This pattern was introduced by [[entities/jesús-barrasa|Jesús Barrasa]] at AIEF2025. ^[extracted]
 
+## Graph Data Science Library
+
+Neo4j provides the **Graph Data Science (GDS)** library — a collection of graph algorithm implementations optimized for in-database execution. GDS includes algorithms for: ^[extracted]
+
+- **Community detection** — Louvain, Leiden, label propagation, for grouping similar nodes
+- **Similarity** — KNN, node similarity for computing pairwise relationships
+- **Centrality** — PageRank, betweenness centrality for measuring node importance and influence
+- **Path finding** — shortest path, minimum spanning tree
+
+GDS operates on **graph projections** — subgraphs containing only the relevant nodes, relationships, and properties — rather than the full database. Projection modes include `stream` (calculate and return), `mutate` (modify the projection), and `write` (persist results back to the database). ^[extracted]
+
+These algorithms are used in RAG systems for [[concepts/graph-analytics-rag-curation|data curation]] (finding redundant chunks, detecting coverage gaps, measuring retrieval diversity) and for [[concepts/application-observability-graph|application observability]] (PageRank on runtime graphs to surface influential documents). ^[inferred]
+
 ## Mention at AI Engineer World's Fair 2025
 
-At the AI Engineer World's Fair 2025, Neo4j had a booth presence. [[entities/mitesh-patel|Mitesh Patel]] (NVIDIA) mentioned he would be available at the Neo4j booth to answer questions about [[concepts/hybridrag|HybridRAG]] systems. ^[ambiguous] [[entities/jesús-barrasa|Jesús Barrasa]], Field CTO for AI at Neo4j, presented a talk on ontology-driven retrieval. ^[extracted]
+At the AI Engineer World's Fair 2025, Neo4j had a booth presence. [[entities/mitesh-patel|Mitesh Patel]] (NVIDIA) mentioned he would be available at the Neo4j booth to answer questions about [[concepts/hybridrag|HybridRAG]] systems. ^[ambiguous] [[entities/jesús-barrasa|Jesús Barrasa]], Field CTO for AI at Neo4j, presented a talk on ontology-driven retrieval. ^[extracted] **Alison Cosette** (Neo4j Developer Relations) presented the "Graph Intelligence: Enhance Reasoning and Retrieval Using Graph Analytics" workshop, demonstrating how to use GDS algorithms (KNN, community detection, PageRank) to improve RAG data quality and observability. ^[extracted]
 
 ## Related
 
@@ -62,6 +75,8 @@ At the AI Engineer World's Fair 2025, Neo4j had a booth presence. [[entities/mit
 - [[concepts/ontology-driven-retrieval|Ontology-Driven Retrieval]] — retrieval pattern pioneered by Neo4j
 - [[concepts/hybridrag|HybridRAG]] — graph + vector fusion architecture using Neo4j
 - [[concepts/kag-knowledge-augmented-generation|KAG (Knowledge Augmented Generation)]] — wisdom-driven KAG architecture using Neo4j
+- [[concepts/graph-analytics-rag-curation|Graph Analytics for RAG Curation]] — Neo4j GDS for RAG data quality curation
+- [[concepts/application-observability-graph|Application Observability Graph]] — Neo4j-based runtime graph for app observability
 - [[entities/jesús-barrasa|Jesús Barrasa]] — Field CTO for AI at Neo4j
 - [[entities/nvidia|NVIDIA]] — co-presenting at Neo4j booth
 
@@ -69,3 +84,4 @@ At the AI Engineer World's Fair 2025, Neo4j had a booth presence. [[entities/mit
 
 - [[references/aief2025-why-your-agent-brain-needs-playbook-ontologies-jesus-barrasa|AIEF2025 — Why Your Agent's Brain Needs a Playbook — Jesús Barrasa, Neo4j]] — Conference talk
 - [[references/hybridrag-fusion-graph-vector-retrieval-mitesh-patel|HybridRAG: A Fusion of Graph and Vector Retrieval — Mitesh Patel, NVIDIA]] — Conference talk
+- [[references/aief2025-graph-intelligence-alison-andreas-neo4j|AIEF2025 — Graph Intelligence: Enhance Reasoning and Retrieval Using Graph Analytics — Alison Cosette & Andreas, Neo4j]] — Conference talk

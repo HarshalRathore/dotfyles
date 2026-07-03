@@ -85,6 +85,16 @@ The graph also enables **flexible data model expansion**: new data sources (e.g.
 
 This is distinct from the [[concepts/ontology-driven-retrieval|ontology-driven retrieval]] pattern (Jesús Barrasa): ontology-driven retrieval uses the ontology as data to control *which* relationships to traverse, whereas agentic GraphRAG uses the graph as a structured query surface that agents can interrogate analytically. ^[inferred]
 
+### Graph Analytics on the Graph — Post-Construction Curation
+
+Beyond using the graph as a retrieval index, graph data science algorithms can be applied **to the graph itself** for data quality curation. Alison Cosette (Neo4j) at AIEF2025 demonstrated the **Connect → Cluster → Curate** framework: ^[extracted]
+
+1. **Connect** — run KNN on chunk embeddings to create similarity edges between neighboring chunks
+2. **Cluster** — apply community detection (Louvain, Leiden, or label propagation) to group similar chunks
+3. **Curate** — inspect communities for redundant chunks (collapse duplicates via APOC), coverage gaps (communities with anomalous statistics), and diversity issues ("chicken nuggets and Twinkies" problem where top-K results come from one homogeneous cluster) ^[extracted]
+
+This is distinct from GraphRAG's retrieval function: graph analytics operates on the *chunk similarity graph*, not the *entity knowledge graph*. Both can coexist in the same database — the knowledge graph for structured retrieval, the similarity graph for ongoing curation. ^[inferred] See [[concepts/graph-analytics-rag-curation|Graph Analytics for RAG Curation]] for the full framework.
+
 ## Advantages over Vector-Only RAG
 
 - Knowledge graphs capture **relationships** between entities in structured form, not just semantic proximity
@@ -107,8 +117,11 @@ This is distinct from the [[concepts/ontology-driven-retrieval|ontology-driven r
 - [[concepts/triplet-extraction|Triplet Extraction]] — constructing nodes and edges from text
 - [[concepts/knowledge-graph-ontology-design|Knowledge Graph Ontology Design]] — ontology for consistent extraction
 - [[concepts/multi-hop-retrieval|Multi-Hop Retrieval]] — traversal strategy for graph-based RAG
+- [[concepts/graph-analytics-rag-curation|Graph Analytics for RAG Curation]] — graph algorithms for data quality curation
+- [[concepts/application-observability-graph|Application Observability Graph]] — modeling app runtime as a graph
 
 ## Sources
 - [[references/hybridrag-fusion-graph-vector-retrieval-mitesh-patel|HybridRAG: A Fusion of Graph and Vector Retrieval — Mitesh Patel, NVIDIA]] — Conference talk
 - [[references/aief2025-wisdom-driven-kag-chin-keong-lam|AIEF2025 — Wisdom-Driven Knowledge Augmented Generation at Scale — Chin Keong Lam, Patho AI]] — Conference talk
 - [[references/aief2025-why-your-agent-brain-needs-playbook-ontologies-jesus-barrasa|AIEF2025 — Why Your Agent's Brain Needs a Playbook — Jesús Barrasa, Neo4j]] — Conference talk
+- [[references/aief2025-graph-intelligence-alison-andreas-neo4j|AIEF2025 — Graph Intelligence: Enhance Reasoning and Retrieval Using Graph Analytics — Alison Cosette & Andreas, Neo4j]] — Conference talk

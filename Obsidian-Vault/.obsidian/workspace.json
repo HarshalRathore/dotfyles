@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/concepts/semantic-end-of-utterance-detection.md",
+                "file": "wiki/concepts/llm-judge-best-practices.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "semantic-end-of-utterance-detection"
+              "title": "llm-judge-best-practices"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wiki/concepts/semantic-end-of-utterance-detection.md",
+                "file": "wiki/concepts/llm-judge-best-practices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for semantic-end-of-utterance-detection"
+              "title": "Backlinks for llm-judge-best-practices"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wiki/concepts/semantic-end-of-utterance-detection.md",
+                "file": "wiki/concepts/llm-judge-best-practices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from semantic-end-of-utterance-detection"
+              "title": "Outgoing links from llm-judge-best-practices"
             }
           },
           {
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/concepts/semantic-end-of-utterance-detection.md",
+                "file": "wiki/concepts/llm-judge-best-practices.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of semantic-end-of-utterance-detection"
+              "title": "Outline of llm-judge-best-practices"
             }
           },
           {
@@ -197,34 +197,34 @@
   },
   "active": "0edf8f499d9f881d",
   "lastOpenFiles": [
-    "wiki/references/aief2025-useful-general-intelligence-danielle-perszyk.md",
-    "wiki/entities/douglas-engelbart.md",
-    "wiki/entities/amazon-agi.md",
-    "wiki/entities/nova-act.md",
-    "wiki/entities/danielle-perszyk.md",
-    "wiki/concepts/language-as-model-of-mind.md",
-    "wiki/concepts/human-agent-co-evolution.md",
-    "wiki/concepts/computer-use-agents.md",
-    "wiki/concepts/agents-with-models-of-mind.md",
-    "wiki/concepts/automation-augmentation-agency.md",
-    "wiki/concepts/cognitive-technologies.md",
-    "wiki/concepts/controlled-hallucination.md",
-    "wiki/concepts/techno-social-co-evolution.md",
-    "wiki/concepts/useful-general-intelligence.md",
-    "wiki/references/aief2025-inference-engines-benchmarking-charles-frye-modal.md",
-    "wiki/concepts/prefill-decode-throughput-tradeoff.md",
-    "wiki/entities/charles-frye.md",
-    "wiki/concepts/create-refine-loop.md",
-    "wiki/concepts/code-review-primary-skill.md",
-    "wiki/concepts/burden-of-generated-code.md",
-    "wiki/concepts/code-is-artifact.md",
-    "wiki/entities/jeff-atwood.md",
-    "wiki/entities/chris-kelly.md",
-    "wiki/references/aief2025-vibes-wont-cut-it-chris-kelly-augment.md",
+    "wiki/references/aief2025-dont-get-one-shotted-tomas-reimers-graphite.md",
+    "wiki/concepts/developer-outer-loop.md",
+    "wiki/entities/graphite.md",
+    "wiki/entities/tomas-reimers.md",
+    "wiki/references/aief2025-defend-sites-ai-bots-david-mytton-arcjet.md",
+    "wiki/concepts/ai-crawler-landscape.md",
+    "wiki/concepts/ai-bot-defense.md",
+    "wiki/entities/david-mytton.md",
+    "wiki/entities/arcjet.md",
+    "wiki/concepts/application-observability-graph.md",
+    "wiki/concepts/graph-analytics-rag-curation.md",
+    "wiki/references/aief2025-graph-intelligence-alison-andreas-neo4j.md",
+    "wiki/concepts/dot-instructions-files.md",
+    "wiki/entities/christopher-harrison.md",
+    "wiki/references/aief2025-collaborating-with-agents-jon-peck-christopher-harrison.md",
+    "wiki/references/aief2025-ship-agents-that-ship.md",
+    "wiki/concepts/dagger-agent-platform.md",
+    "wiki/entities/jeremy-adams.md",
+    "wiki/entities/kyle-penfound.md",
+    "wiki/entities/dagger.md",
+    "wiki/concepts/client-initiated-backchannel-authentication.md",
+    "wiki/entities/auth0.md",
+    "wiki/references/aief2025-securing-agents-open-standards-bobby-tiernay-auth0.md",
+    "wiki/concepts/eval-ingredients-task-dataset-score.md",
+    "wiki/references/aief2025-evals-workshop-braintrust.md",
+    "wiki/references/aief2025-bitter-layout-maximillian-piras-yutori.md",
     "wiki/sedfF6VUW",
     "wiki/sedVFe8eQ",
-    "wiki/references/aief2025-ciam-for-ai-michael-grinich.md",
-    "wiki/concepts/agent-traffic-inversion.md",
     "wiki/sedue3MkS",
     "wiki/sediJRT43",
     "wiki/hot.md.bak",

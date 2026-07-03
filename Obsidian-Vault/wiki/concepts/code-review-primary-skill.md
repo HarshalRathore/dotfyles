@@ -15,13 +15,18 @@ relationships:
     type: related_to
   - target: "[[concepts/ai-regression-testing]]"
     type: related_to
+  - target: "[[concepts/developer-outer-loop]]"
+    type: related_to
+  - target: "[[entities/graphite]]"
+    type: related_to
 sources:
   - "AIEF2025 - Vibes won't cut it — Chris Kelly, Augment Code - https://www.youtube.com/watch?v=Dc3qOA9WOnE"
-summary: "The argument that as AI generates more code, the ability to read and evaluate code becomes more critical than the ability to write it — and that current code review tooling is inadequate for this shift."
+  - "AIEF2025 - Don't get one-shotted: Use AI to test, review, merge, and deploy code — Tomas Reimers, Graphite - https://www.youtube.com/watch?v=H6MrR5NbTZA"
+summary: "The argument that as AI generates more code, the ability to read and evaluate code becomes more critical than the ability to write it — and that the entire developer toolchain must become AI-native, with self-driving AI code review capable of matching or exceeding human review efficacy."
 provenance:
-  extracted: 0.75
-  inferred: 0.20
-  ambiguous: 0.05
+  extracted: 0.78
+  inferred: 0.18
+  ambiguous: 0.04
 base_confidence: 0.65
 lifecycle: draft
 tier: supporting
@@ -43,6 +48,16 @@ Current code review tools are inadequate for reviewing AI-generated code at scal
 - The "vibes" approach (not examining generated code) is incompatible with production requirements of four nines reliability. ^[inferred]
 - As generation velocity increases, the review bottleneck becomes the critical constraint on safe deployment. ^[inferred]
 
+## Self-Driving Code Review
+
+[[entities/tomas-reimers|Tomas Reimers]] ([[entities/graphite|Graphite]]) argues that AI-native code review is not just necessary but achievable. Graphite's Diamond AI reviewer achieves a ~52% comment acceptance rate — higher than human review comments (~45–50%) — with only ~4% of its comments dismissed as noise. ^[extracted]
+
+This reframes the tooling challenge: the question is not whether AI can review code, but how to integrate AI review into a fundamentally re-architected outer loop where testing, review, merge, and deploy are all AI-native, not just the IDE. ^[inferred]
+
+### AI-native toolchain thesis
+
+Adding AI "teammates" to the existing workflow is insufficient. The entire outer loop — prioritization, tracking, CI pipelines, merge queues, deployment — must be designed for the AI-accelerated inner loop. ^[extracted] See [[concepts/developer-outer-loop|Developer Outer Loop]] for the full model.
+
 ## Implications
 
 - **Interviewing shift** — Interview for code review skill rather than (or alongside) algorithmic puzzle solving. ^[extracted]
@@ -54,6 +69,10 @@ Current code review tools are inadequate for reviewing AI-generated code at scal
 - [[concepts/code-is-artifact|Code is an Artifact, Not the Job]] — Code review evaluates the decisions, not the syntax
 - [[concepts/burden-of-generated-code|Burden of Generated Code]] — Code review is the gate that ensures each line justifies its maintenance burden
 - [[concepts/ai-regression-testing|AI Regression Testing]] — Complementary quality gate: automated evaluation catches what manual review misses
+- [[concepts/developer-outer-loop|Developer Outer Loop]] — The two-loop model showing why AI-native tooling is needed beyond the IDE
 - [[concepts/evaluation-first-development|Evaluation-First Development]] — Broader quality paradigm; code review is one evaluation mechanism
 - [[entities/chris-kelly|Chris Kelly]] — Primary articulator
-- [[references/aief2025-vibes-wont-cut-it-chris-kelly-augment]] — Source talk
+- [[entities/tomas-reimers|Tomas Reimers]] — Proponent of AI-native outer loop tooling
+- [[entities/graphite|Graphite]] — AI code review company with self-driving review (Diamond)
+- [[references/aief2025-vibes-wont-cut-it-chris-kelly-augment]] — Source talk (Kelly)
+- [[references/aief2025-dont-get-one-shotted-tomas-reimers-graphite]] — Source talk (Reimers)

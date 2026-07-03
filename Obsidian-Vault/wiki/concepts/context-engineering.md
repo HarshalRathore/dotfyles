@@ -9,7 +9,7 @@ tags:
   - quality
 sources:
   - "AIEF2025 - 12-Factor Agents: Patterns of Reliable LLM applications — Dex Horthy, HumanLayer - https://www.youtube.com/watch?v=8kMaTybvDUw"
-summary: "The thesis that every aspect of agent quality reduces to getting the right tokens into the model — prompt, memory, RAG, history structure, and error traces are all context engineering."
+  - "AIEF2025 - Collaborating with Agents in your Software Dev Workflow — Jon Peck & Christopher Harrison, Microsoft - https://www.youtube.com/watch?v=G1hhmz6mXT0"
 provenance:
   extracted: 0.70
   inferred: 0.25
@@ -17,7 +17,6 @@ provenance:
 base_confidence: 0.50
 lifecycle: draft
 tier: supporting
-created: 2026-07-03
 updated: 2026-07-03
 ---
 
@@ -43,6 +42,23 @@ This framing was articulated by [[entities/dex-horthy|Dex Horthy]] ([[entities/h
 | **Tool definitions** | How are tool schemas described? Which tools are included or excluded per step? |
 | **State representation** | How is the agent's current state (current step, retry count, pending approvals) serialized into the context? |
 
+
+| **Code quality** | How readable is the code the model sees? Are names, structure, and comments optimized for AI understanding? |
+
+### Broader Framing: Code Quality Is Context
+
+[[entities/christopher-harrison|Christopher Harrison]] offers a complementary framing — context is not just what you feed the model, but the codebase itself: ^[extracted]
+
+> "Co-pilot again behaves like an AI pair programmer. It's going to be reading your code. Just as if I brought somebody else new onto the team."
+
+This means readable code is context: ^[extracted]
+
+- **Good names** — Clear function and variable names let Copilot navigate as well as a human pair programmer would. Single-letter variables and abbreviations cause it to struggle. ^[extracted]
+- **Comments** — Even if "good code doesn't need comments," a line or two helps the AI read faster. ^[extracted]
+- **Project structure** — A well-organized project helps the model reason about the codebase. ^[extracted]
+- **Clear intent** — Specific instructions beat terse commands. "Don't be passive-aggressive with Copilot." ^[extracted]
+
+This expands context engineering beyond prompt construction to encompass the entire developer workflow — how you write, structure, and document code is itself a form of context engineering. ^[inferred]
 All of these are "just how do we get the right tokens into the model" — there is no separate discipline for each. ^[inferred]
 
 ## Key Implications
@@ -85,3 +101,4 @@ Context engineering is broader than [[concepts/domain-expert-prompt-engineering|
 ## Sources
 
 - [[references/12-factor-agents-patterns-dex-horthy-humanlayer|12-Factor Agents: Patterns of Reliable LLM Applications — AI Engineer World's Fair 2025]]
+- AIEF2025 — Collaborating with Agents in your Software Dev Workflow, Jon Peck & Christopher Harrison, Microsoft. https://www.youtube.com/watch?v=G1hhmz6mXT0

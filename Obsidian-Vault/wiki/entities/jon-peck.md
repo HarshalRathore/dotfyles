@@ -9,7 +9,8 @@ tags:
 aliases: [John Peck]
 sources:
   - "AIEF2025 - Unlocking AI Powered DevOps Within Your Organization — Jon Peck, GitHub - https://www.youtube.com/watch?v=C1NivhYS1sI"
-summary: "GitHub Developer Advocate and speaker at AI Engineer World's Fair 2025. Software developer since the late 90s with 10+ years in developer advocacy. Presented on organizational AI adoption strategy with focus on brownfield-first approaches and AI-powered DevOps."
+  - "AIEF2025 - Collaborating with Agents in your Software Dev Workflow — Jon Peck & Christopher Harrison, Microsoft - https://www.youtube.com/watch?v=G1hhmz6mXT0"
+summary: "GitHub Developer Advocate and Enterprise Advocate, speaker at AI Engineer World's Fair 2025 on organizational AI adoption, Copilot Instructions, .instructions files, and coding agent workflows. Software developer since the late 90s with 10+ years in developer advocacy."
 provenance:
   extracted: 0.85
   inferred: 0.15
@@ -23,9 +24,11 @@ updated: 2026-07-03
 
 # Jon Peck
 
-Jon Peck is a Developer Advocate for [[entities/github-copilot|GitHub Copilot]], speaking at the AI Engineer World's Fair 2025 on unlocking AI-powered DevOps within organizations. He has been a software developer since the late 90s and in developer advocacy for about 10 years.
+Jon Peck is a Developer Advocate for [[entities/github-copilot|GitHub Copilot]], speaking at AI Engineer World's Fair 2025 on both organizational AI adoption and hands-on coding agent workflows. He has been a software developer since the late 90s and in developer advocacy for about 10 years.
 
 ## At AIEF2025
+
+Peck co-presented a second talk "Collaborating with Agents in your Software Dev Workflow" with [[entities/christopher-harrison|Christopher Harrison]] (also of GitHub), a hands-on lab covering the Copilot workload spectrum, coding agent security model, MCP integration for agents, and the [[concepts/dot-instructions-files|.instructions files]] feature. ^[extracted]
 
 Peck's talk "Unlocking AI Powered DevOps Within Your Organization" covered:
 
@@ -37,6 +40,8 @@ Peck's talk "Unlocking AI Powered DevOps Within Your Organization" covered:
 - **[[entities/github-copilot|Copilot Code Review]]** — AI-powered asynchronous PR review that generates comments and code suggestions ^[extracted]
 - **MCP integration** — connecting AI agents to external systems via Model Context Protocol servers within VS Code and Copilot Enterprise ^[extracted]
 - **AI governance at org scale** — safety, privacy, repository-level exclusions, and org-wide policy controls ^[extracted]
+- **[[concepts/dot-instructions-files|.instructions files]]** — Per-file-type instruction patterns for consistent code generation via filename pattern matching ^[extracted]
+- **Coding agent security model** — Firewalled execution, ephemeral Actions environments, branch-only access, draft PRs, and no self-review enforcement ^[extracted]
 
 ## Philosophy
 

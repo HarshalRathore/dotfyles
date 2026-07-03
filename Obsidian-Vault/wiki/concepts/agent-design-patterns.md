@@ -8,10 +8,9 @@ tags:
   - anthropic
   - llamaindex
   - micro-agents
-sources:
   - "AI Engineer World's Fair 2025 - Effective agent design patterns in production — Laurie Voss, LlamaIndex - https://www.youtube.com/watch?v=72XxWkd8Jrk"
   - "AIEF2025 - 12-Factor Agents: Patterns of Reliable LLM applications — Dex Horthy, HumanLayer - https://www.youtube.com/watch?v=8kMaTybvDUw"
-summary: "Five codified agent design patterns from Anthropic — chaining, routing, parallelization, orchestrator workers, and evaluator-optimizer — extended with agent-workflow composition patterns, micro-agents, and the power-vs-control trade-off for production systems."
+  - "AIEF2025 - Ship Agents that Ship: A Hands-On Workshop - Kyle Penfound, Jeremy Adams, Dagger - https://www.youtube.com/watch?v=Fzb1a24hF-o"
 provenance:
   extracted: 0.75
   inferred: 0.20
@@ -104,6 +103,21 @@ See [[concepts/micro-agents]] for the full pattern.
 
 [[entities/dex-horthy|Dex Horthy]] argues that tools are just JSON + code (Factor 4 of [[concepts/12-factor-agents]]): the LLM outputs JSON, deterministic code takes that JSON and does something with it. There is nothing special about tools — the magical capability is the LLM's ability to turn natural language into structured JSON. This demystification matters for design patterns because it clarifies that tools are not a separate architectural layer — they are the output format of one step and the input to the next step (switch statement, function call, or API request). ^[extracted]
 
+## Pattern Extension: Tool-Scoped Container Environments (Dagger)
+
+A complementary dimension to the power-vs-control tradeoff, demonstrated by [[entities/kyle-penfound|Kyle Penfound]] and [[entities/jeremy-adams|Jeremy Adams]] ([[entities/dagger|Dagger]]) at AIEF2025: rather than giving an agent free access to all possible tools, construct a **scoped environment** — a container-sandboxed workspace with exactly the tools needed for the task — and hand the agent the environment as its sole interface. ^[extracted]
+
+This introduces a new axis of design decisions alongside the five patterns:
+
+- **Tool scope determination** — the single most important reliability lever. Too many tools cause agent confusion and failure; too few prevent task completion. The recommended approach is iterative: start minimal, observe agent failures, add tools only where the agent consistently fails due to missing capabilities. ^[extracted]
+- **Container isolation** — all agent execution happens in containers, never on the host filesystem. Multiple agents can run in parallel without state conflicts, and failed runs leave no trace. ^[extracted]
+- **Auto-generated tool descriptions** — function signatures (parameter names, types, doc strings) are automatically transformed into tool descriptions for the LLM, eliminating manual JSON tool specification. Tool descriptions stay in sync with code. ^[extracted]
+- **Cross-language tool composition** — tools can be written in different languages and composed through Dagger's cross-language interop. A Python agent can use tools written in Go or TypeScript. ^[extracted]
+- **Deterministic validation outside the loop** — after the agent selects from scoped tools and produces output, deterministic code independently validates the result (e.g., running tests) as a final quality gate. ^[extracted]
+
+This pattern is distinct from the existing design patterns because it operates at the **environment composition** level rather than the **agent reasoning** level: it's about how tools are scoped and presented to the agent, not how the agent chooses among them. ^[inferred] The five patterns describe what the agent does inside its environment; the tool-scoping pattern describes how that environment is constructed. ^[inferred]
+
+
 ## Related
 
 - [[concepts/agentic-architecture]] — Platform-level architecture that uses these patterns
@@ -117,6 +131,8 @@ See [[concepts/micro-agents]] for the full pattern.
 - [[concepts/micro-agents]] — Sizing pattern for the five agent primitives
 - [[concepts/12-factor-agents]] — Framework including tool-use demystification (Factor 4) and micro-agents
 - [[entities/dex-horthy]] — Originator of the tool-use demystification and micro-agents patterns
+- [[entities/dagger]] — Platform implementing tool-scoped container environments
+- [[concepts/dagger-agent-platform]] — Full pattern for scoped agent environments
 
 ## Sources
 
@@ -124,3 +140,5 @@ See [[concepts/micro-agents]] for the full pattern.
 - [[references/ai-eng-worlds-fair-2025-agents-vs-workflows-sam-bhagwat-mastra]] — Talk at AI Engineer World's Fair 2025
 - [[references/12-factor-agents-patterns-dex-horthy-humanlayer|12-Factor Agents: Patterns of Reliable LLM Applications — AI Engineer World's Fair 2025]]
 - [[entities/anthropic]] — Originator of the five patterns
+- [[references/aief2025-ship-agents-that-ship]] — Dagger agents workshop, AI Engineer World's Fair 2025
+

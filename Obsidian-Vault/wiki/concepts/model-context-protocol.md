@@ -10,7 +10,8 @@ sources:
   - "https://www.youtube.com/watch?v=0NHCyq8bBcM"
   - "AI Engineer World's Fair 2025 - Spark to System: Building the Open Agentic Web — Asha Sharma, Microsoft - https://www.youtube.com/watch?v=7Hrw6rtXaHc"
   - "AIEF2025 - Unlocking AI Powered DevOps Within Your Organization — Jon Peck, GitHub - https://www.youtube.com/watch?v=C1NivhYS1sI"
-summary: "An open standard protocol for connecting AI models to external tools and data sources, comprising a JSON-RPC message specification and a transport-agnostic layer."
+  - "AIEF2025 - MCP Is Not Good Yet — David Cramer, Sentry - https://www.youtube.com/watch?v=FCi4jT86gSw"
+summary: "An open standard protocol for connecting AI models to external tools and data sources — framed as a pluggable architecture for agents — comprising a JSON-RPC message specification and transport-agnostic layer."
 provenance:
   extracted: 0.65
   inferred: 0.30
@@ -92,12 +93,49 @@ OpenRouter's web search plug-in augments every language model with web search, i
 
 MCP provides the standard for *how* to call external tools; OpenRouter's middleware provides a pattern for *when and where* to inject them in the inference pipeline (pre-flight, in-stream, or post-hoc). They are complementary — middleware as the orchestration layer, MCP as the tool-calling protocol. ^[inferred]
 
+## MCP as Pluggable Agent Architecture
+
+[[entities/david-cramer|David Cramer]] ([[entities/sentry|Sentry]]) reframes MCP from protocol to architectural pattern: "MCP is a pluggable architecture for agents. Full stop." The JSON-RPC specification is the mechanism; the plugin system connecting agents to capabilities is the value. ^[extracted]
+
+This framing demystifies the stack:
+- **Tools are API calls with a new response format**, not fundamentally new infrastructure. ^[extracted]
+- **Agents are just services** orchestrated around LLM calls. ^[extracted]
+- **MCP is infrastructure plumbing** — "being boring on stuff like this is good." ^[inferred]
+
+Cramer argues the real value is building agents (where you control prompt, model, and orchestration) and exposing them through MCP as a plugin interface — not treating MCP as the product itself. ^[extracted]
+
+### Remote MCP over Stdio for B2B
+
+For enterprise SaaS, Cramer advocates remote MCP servers over stdio: the same advantages cloud always provided — iteration speed, security control, operational agility — still apply. Stdio "is filled with most of" the security problems and is "not super useful for businesses like ours." ^[extracted] OAuth 2.1 is required for remote MCP but "nobody in the world supports this thing" yet; Sentry solved it via Cloudflare Workers' OAuth shim. ^[extracted]
+
+## Practical MCP Design Lessons
+
+From shipping Sentry's production MCP server, Cramer offers concrete guidance:
+
+### Design for Context, Not API Surface
+
+"You cannot just be like, I got an API. I'm going to expose all those endpoints as tools. You're going to get the worst results." ^[extracted] MCP server design must be oriented around how agents consume context:
+- **Return Markdown, not raw JSON** — "if a human can reason about it, the language model can reason about it." ^[extracted]
+- **Craft tool descriptions as agent reasoning context** — hitting token limits from verbose descriptions is a real constraint. ^[inferred]
+- **Design error messages for the model** — errors are context for recovery, not just human logs. ^[extracted]
+
+### You Don't Control the Consumer
+
+"You don't control the consumer. You don't control the model. You are providing context to an agent you don't know what the agent is doing." ^[extracted] This means optimizing for the least common denominator, iterating constantly (Sentry updates weekly), and being mindful that tool description overhead can turn a $1 API call into $10 in context costs. ^[extracted]
+
+### Build Agents, Not Just Servers
+
+Building an agent gives control over the prompt, model, orchestration, and error handling. That agent is the value. MCP is just how you plug it in. Sentry's "Seer" agent (root cause analysis) demonstrates this — exposed through both UI and MCP, but the MCP interface is necessarily degraded because "there is no streaming responses for tools yet," forcing a polling pattern. ^[extracted]
+
 ## Related
 
 - [[concepts/mcp-gateway-pattern]] — Centralized gateway architecture for MCP at scale
 - [[concepts/enterprise-mcp-deployment]] — Maturity stages for deploying MCP in production
 - [[concepts/mcp-dynamic-client-registration]] — Protocol behavior where clients auto-register as applications
 - [[entities/github-copilot]] — GitHub Copilot's VS Code and Enterprise MCP integration
+- [[entities/david-cramer]] — Founder of Sentry, MCP practitioner and critic
+- [[entities/sentry]] — Application monitoring platform with production MCP server
+- [[references/aief2025-mcp-is-not-good-yet-david-cramer-sentry]] — Full talk reference
 
 ## Sources
 

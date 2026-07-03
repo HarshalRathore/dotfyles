@@ -9,6 +9,8 @@ tags:
 aliases: [autonomous issue resolution, AI PR pipeline, Copilot issue assignment]
 sources:
   - "AIEF2025 - Unlocking AI Powered DevOps Within Your Organization — Jon Peck, GitHub - https://www.youtube.com/watch?v=C1NivhYS1sI"
+  - "AIEF2025 - Ship Agents that Ship: A Hands-On Workshop - Kyle Penfound, Jeremy Adams, Dagger - https://www.youtube.com/watch?v=Fzb1a24hF-o"
+  - "AIEF2025 - Collaborating with Agents in your Software Dev Workflow — Jon Peck & Christopher Harrison, Microsoft - https://www.youtube.com/watch?v=G1hhmz6mXT0"
 summary: "Assigning GitHub Issues directly to an AI agent (Copilot), which autonomously creates a branch, writes code, runs tests, and submits a pull request — with human review as the final gate before merge."
 provenance:
   extracted: 0.78
@@ -19,7 +21,6 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
----
 
 # Issue-to-PR Pipeline
 
@@ -36,15 +37,28 @@ The issue-to-PR pipeline is an autonomous workflow where a GitHub Issue is assig
 
 ## Safety Architecture
 
-Peck emphasizes that autonomous agents always work within safety boundaries ^[extracted]:
+Peck and Harrison detail the Coding Agent safety model ^[extracted]:
 
-- **Branch isolation** — all work happens on a new branch, never `main`.
-- **Protected environment** — execution in a sandbox that cannot leak secrets or destroy production.
-- **Human-in-the-loop** — the human is always the final gate. "Don't skip that step." ^[extracted]
+- **Firewalled by default** — No internet access. Dependencies pre-installed or firewall explicitly opened. ^[extracted]
+- **Ephemeral environment** — Runs inside GitHub Actions; environment per-session, destroyed after. ^[extracted]
+- **Branch-only access** — Can only modify its own branch, never main or other resources. ^[extracted]
+- **Draft PRs only** — Creates PRs in draft form. Human must convert to real PR. ^[extracted]
+- **Workflow approval gating** — CI/security checks don't run until human clicks "approve workflow runs." ^[extracted]
+- **No self-review** — Issue assignee cannot review the PR. Someone else must review the agent's code. ^[extracted]
+- **Human-in-the-loop** — The human is always the final gate. "Don't skip that step." ^[extracted]
 
-## Related Pattern: Copilot Code Review
+## Iteration Modes
 
-A complementary pattern is assigning Copilot as a **PR reviewer** — it asynchronously generates comments and code suggestions on any pull request, regardless of how it was created. These appear the same way human reviews do, with accept/reject suggestions. ^[extracted]
+When the agent's output isn't right, two approaches ^[extracted]:
+
+1. **Comment on the PR** — Add a comment for refinement. Copilot starts a new session building on previous work. ^[extracted]
+2. **Reassign for fresh start** — Remove and re-assign Copilot. It starts completely from scratch. ^[extracted]
+
+When the agent gets something wrong, first ask "why?" — usually insufficient context in the issue, instructions file, or MCP setup. ^[extracted]
+
+## DevOps Flow Unchanged
+
+"AI does not change the DevOps flow." ^[extracted] All existing safeguards still apply to agent-generated PRs: manual code review, linters, security scans, unit tests, explicit approval before workflow execution. ^[extracted]
 
 ## Prerequisites for Success
 
@@ -54,6 +68,26 @@ The quality of the issue determines the quality of the result — writing a well
 
 Best suited for well-scoped, contained tasks: documentation gaps, test generation, focused feature additions. Less suitable for broadly-scoped architectural changes or high-risk production modifications. ^[inferred]
 
+## Related Pattern: Dagger Label-Triggered Agent Pipeline
+
+A complementary implementation demonstrated by [[entities/kyle-penfound|Kyle Penfound]] and [[entities/jeremy-adams|Jeremy Adams]] ([[entities/dagger|Dagger]]) at AIEF2025 uses a different trigger mechanism and execution platform. Rather than assigning an issue to Copilot, a GitHub label (`develop`) on the issue triggers a [[entities/github-copilot|GitHub Actions]] workflow that runs a Dagger module: ^[extracted]
+
+1. A GitHub issue is written and labeled `develop`
+2. GitHub Actions runs a Dagger function that reads the issue body as the agent's assignment
+3. The Dagger agent (connected to an LLM) reads the source code, edits files in a container-sandboxed workspace, runs the project's actual tests, and iterates until tests pass
+4. The Dagger function creates a PR with `closes #issue` in the body — automatically linking to the original issue
+5. Human reviews the resulting PR ^[extracted]
+
+Key differences from the Copilot-native approach: ^[inferred]
+
+- **Trigger mechanism** — label-based (anyone who can label an issue can trigger) vs assignment-based (requires explicit issue assignment)
+- **Execution environment** — runs in GitHub Actions via Dagger's container engine vs Copilot's internal infrastructure
+- **Validation** — uses the project's actual test suite as a validation gate within the agent loop, not just during CI after PR creation
+- **Tool scope** — the agent has access to exactly the tools defined in the Dagger workspace module (read, write, list, test) — no more, no less
+- **Container sandboxing** — all agent execution happens in containers isolated from the host filesystem
+
+See [[concepts/dagger-agent-platform]] for the full pattern.
+
 ## Related
 
 - [[concepts/ai-powered-devops]] — AI across the full DevOps lifecycle
@@ -61,7 +95,13 @@ Best suited for well-scoped, contained tasks: documentation gaps, test generatio
 - [[concepts/brownfield-first-ai-adoption]] — Learning strategy for AI-assisted development
 - [[concepts/human-in-the-loop-regulated-ai]] — Human oversight patterns in AI workflows
 - [[concepts/copilot-instructions]] — Codifying standards so autonomous agents follow team practices
+- [[concepts/dagger-agent-platform]] — Dagger's label-triggered agent pipeline as an alternative implementation
+- [[entities/dagger]] — The Dagger platform
+- [[entities/kyle-penfound]] — Co-presenter of the Dagger agent pipeline workshop
+- [[entities/jeremy-adams]] — Co-presenter of the Dagger agent pipeline workshop
 
 ## Sources
 
 - AIEF2025 — Unlocking AI Powered DevOps Within Your Organization, Jon Peck, GitHub. https://www.youtube.com/watch?v=C1NivhYS1sI
+- AIEF2025 — Ship Agents that Ship: A Hands-On Workshop, Kyle Penfound, Jeremy Adams, Dagger. https://www.youtube.com/watch?v=Fzb1a24hF-o
+

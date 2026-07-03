@@ -81,6 +81,9 @@
 - [[entities/etcd|etcd]] `aliases: etcd database` - summary: "> - 'Run `kube-apiserver`, `etcd`, `kube-controller-manager`, and `kube-scheduler` themsel
 - [[entities/ben-kus|ben-kus]] - title: "Ben Kus"
 - [[entities/box|box]] - title: "Box"
+
+- [[entities/dagger|dagger]] - title: "Dagger" ( #entity #company #tool #cicd #container #workflow-engine #agents)
+- [[entities/jeremy-adams|jeremy-adams]] - title: "Jeremy Adams" ( #entity #person #dagger #ecosystem #aief2025)
 - [[entities/steve-ruiz|steve-ruiz]] - title: "Steve Ruiz" ( #person #creator #tldraw)
 - [[entities/tldraw|tldraw]] - title: "tldraw" ( #company #tool #canvas #whiteboard)
 - [[entities/openai|openai]] - title: "OpenAI"
@@ -104,6 +107,7 @@
 - [[entities/jcr-licklider|jcr-licklider]] `aliases: Licklider, JCR Licklider, Joseph Licklider` - summary: "Computer scientist who authored the 1960 'Man-Computer Symbiosis' paper." ( #person #computer-science #pioneer)
 - [[entities/brett-victor|brett-victor]] - title: "Brett Victor" ( #person #hci #interaction-design)
 - [[entities/kshitij-grover|kshitij-grover]] - title: "Kshitij Grover" ( #person #entrepreneur #pricing #ai-engineering)
+- [[entities/kyle-penfound|kyle-penfound]] - title: "Kyle Penfound" ( #person #dagger #devops #platform-engineering #aief2025)
 - [[entities/alvaro-morales|alvaro-morales]] - title: "Alvaro Morales" ( #person #entrepreneur #pricing #billing #ai-engineering)
 - [[entities/orb|orb]] - title: "Orb" ( #company #billing #infrastructure #pricing)
 - [[entities/replit|replit]] - title: "Replit" ( #company #ai #coding #agent)
@@ -111,6 +115,8 @@
 - [[entities/brian-balfour|brian-balfour]] - title: "Brian Balfour" ( #person #product-strategy #founder #reforge)
 - [[entities/reforge|reforge]] - title: "Reforge" ( #company #product-management #ai-education)
 - [[entities/granola|granola]] - title: "Granola" ( #company #ai-product #note-taking)
+
+- [[entities/graphite|graphite]] - title: "Graphite" ( #company #ai #code-review #developer-tools #aief2025)
 - [[entities/ravi-meta|ravi-meta]] - title: "Ravi Meta" ( #person #product-management #ai-strategy)
 - [[entities/jamin-ball|jamin-ball]] - title: "Jamin Ball" ( #person #venture-capital #product-strategy)
 - [[entities/altimeter-capital|altimeter-capital]] - title: "Altimeter Capital" ( #company #venture-capital #investor)
@@ -217,7 +223,17 @@
 - [[entities/douglas-engelbart|douglas-engelbart]] - title: "Douglas Engelbart" ( #person #inventor #hci #computing-pioneer)
 - [[entities/nova-act|nova-act]] - title: "Nova Act" ( #product #amazon #agents #sdk)
 - [[entities/amazon-agi|amazon-agi]] - title: "Amazon AGI" ( #organization #amazon #agi #research)
+- [[entities/david-cramer]] - title: "David Cramer" ( #person #founder #sentry #software-engineering)
+- [[entities/sentry]] - title: "Sentry" ( #company #saas #observability #apm #developer-tools)
+- [[entities/auth0]] - title: "Auth0" ( #company #identity #auth #security #iam)
+- [[entities/arcjet]] - title: "Arcjet" ( #company #security #bot-detection #aief2025)
+- [[entities/david-mytton]] - title: "David Mytton" ( #person #security #founder #aief2025)
+
+- [[entities/tomas-reimers|tomas-reimers]] - title: "Tomas Reimers" ( #person #entrepreneur #code-review #aief2025)
 ## Concepts
+- [[concepts/ai-bot-defense]] - title: "AI Bot Defense" ( #security #bots #crawlers #web-security #rate-limiting)
+- [[concepts/ai-crawler-landscape]] - title: "AI Crawler Landscape" ( #bots #crawlers #ai #web #security #agents)
+
 
 - [[concepts/leading-words|leading-words]] - title: "Leading Words"
 - [[concepts/on-device-ml-computational-photography|on-device-ml-computational-photography]] - title: "On-Device ML for Computational Photography" ( #concept #computer-vision #on-device-ml #photo-editing)
@@ -638,11 +654,11 @@
 - [[concepts/exploratory-query-recommendation|exploratory-query-recommendation]] - title: "Exploratory Query Recommendation" ( #recommendation-systems #search #query-generation #llm)
 - [[concepts/data-readiness-myth|data-readiness-myth]] - title: "Data Readiness Myth" ( #ai #data #reliability #enterprise-ai)
 - [[concepts/recsys-event-tokenization|recsys-event-tokenization]] - title: "Event Tokenization for Recommendation Systems" ( #recommendation-systems #tokenization #transformer #recsys)
-- [[concepts/recsys-foundation-model|recsys-foundation-model]] - title: "Recommendation Foundation Models" ( #recommendation-systems #foundation-model #transformer #personalization #recsys)
+- [[concepts/cursor-for-x]] - title: "Cursor for X" ( #concept #ai #product-strategy #startups)
+- [[concepts/dagger-agent-platform]] - title: "Dagger Agent Platform" ( #concept #agent #architecture #container #sandbox #cicd #dagger)
 - [[concepts/llm-as-planner-not-executor|llm-as-planner-not-executor]] - title: "LLM as Planner, Not Executor" ( #ai #architecture #llm #reliability)
 - [[concepts/tribal-knowledge-in-ai|tribal-knowledge-in-ai]] - title: "Tribal Knowledge in AI" ( #ai #enterprise-ai #domain-knowledge #reliability)
 
-- [[concepts/cursor-for-x]] - title: "Cursor for X" ( #concept #ai #product-strategy #startups)
 - [[concepts/execution-as-moat]] - title: "Execution as Moat" ( #concept #ai #strategy #startups)
 - [[concepts/ai-leapfrog-effect]] - title: "AI Leapfrog Effect" ( #concept #ai #adoption #enterprise)
 - [[concepts/copilot-first-strategy]] - title: "Copilot-First Strategy" ( #concept #ai #product-strategy #agents)
@@ -716,8 +732,8 @@
 - [[concepts/forward-leaning-agent]] - title: "Forward-Leaning Agent" ( #concept #agent #ai #design #personality #behavior)
 - [[concepts/agent-identity]] - title: "Agent Identity" ( #concept #agent #identity #auth #security #architecture)
 - [[concepts/persona-shadowing]] - title: "Persona Shadowing" ( #concept #agent #identity #auth #architecture #pattern)
-- [[concepts/delegation-chains]] - title: "Delegation Chains" ( #concept #agent #identity #auth #architecture #pattern #jwt)
 - [[concepts/capability-based-tokens]] - title: "Capability Tokens" ( #concept #agent #identity #auth #architecture #pattern #tokens)
+- [[concepts/client-initiated-backchannel-authentication]] - title: "Client-Initiated Backchannel Authentication (CIBA)" ( #concept #agent #identity #auth #oauth #security #headless #protocol)
 - [[concepts/agent-middleware-trust-boundary]] - title: "Agent Middleware Trust Boundary" ( #concept #agent #security #architecture #middleware)
 - [[concepts/agent-traffic-inversion]] - title: "Agent Traffic Inversion" ( #concept #agent #prediction #trend #enterprise)
 - [[concepts/burden-of-generated-code]] - title: "Burden of Generated Code" ( #concept #software-engineering #ai-engineering #maintenance)
@@ -824,10 +840,19 @@
 - [[references/aief2025-year-of-evals-john-dickerson-mozilla]] - title: "2025 is the Year of Evals! Just like 2024, and 2023, and … — John Dickerson, CEO Mozilla AI" ( #reference #talk #aief2025 #evaluation #monitoring #market)
 
 - [[references/aief2025-why-your-agent-brain-needs-playbook-ontologies-jesus-barrasa]] - title: "Why Your Agent's Brain Needs a Playbook: Practical Wins from Using Ontologies — Jesús Barrasa, Neo4j" ( #reference #talk #aief2025 #knowledge-graph #ontology #graphrag #neo4j)
+- [[references/aief2025-defend-sites-ai-bots-david-mytton-arcjet]] - title: "How to defend your sites from AI bots — David Mytton, Arcjet (AIEF2025)" ( #reference #talk #aief2025 #security #bots #crawlers)
+
 - [[references/aief2025-form-factors-ai-coworkers-craig-wattrus-flatfile]] - title: "Form Factors for Your New AI Coworkers — Craig Wattrus, Flatfile" ( #reference #talk #aief2025 #agent-design #flatfile)
 - [[references/aief2025-agentic-graphrag-zach-blumenfeld]] - title: "AIEF2025 — Agentic GraphRAG: Simplifying Retrieval Across Structured & Unstructured Data — Zach Blumenfeld" ( #reference #talk #aief2025 #knowledge-graph #graphrag #neo4j #mcp)
 
 - [[references/aief2025-ciam-for-ai-michael-grinich]] - title: "CIAM for AI: Authn/Authz for Agents — Michael Grinich, CEO of WorkOS" ( #reference #talk #aief2025 #identity #auth #agents)
+- [[references/aief2025-mcp-is-not-good-yet-david-cramer-sentry]] - title: "MCP Is Not Good Yet — David Cramer, Sentry (AIEF2025)" ( #reference #talk #aief2025 #mcp #agents #sentry)
+- [[references/aief2025-ship-agents-that-ship]] - title: "Ship Agents that Ship: A Hands-On Workshop — Kyle Penfound, Jeremy Adams, Dagger (AIEF2025)" ( #reference #talk #aief2025 #dagger #agents #workshop #cicd)
 - [[references/aief2025-vibes-wont-cut-it-chris-kelly-augment]] - title: "Vibes Won't Cut It — Chris Kelly, Augment Code (AIEF2025)" ( #reference #talk #aief2025 #production #code-review #software-engineering)
 - [[references/aief2025-inference-engines-benchmarking-charles-frye-modal]] - title: "How Fast Are LLM Inference Engines Anyway? — Charles Frye, Modal (AIEF2025)" ( #reference #talk #aief2025 #inference #benchmarking #llm #modal)
 - [[references/aief2025-useful-general-intelligence-danielle-perszyk]] - title: "Useful General Intelligence — Danielle Perszyk, Amazon AGI (AIEF2025)" ( #reference #talk #aief2025 #agi #agents #cognitive-science)
+- [[references/aief2025-mcp-is-not-good-yet-david-cramer-sentry]] - title: "MCP Is Not Good Yet — David Cramer, Sentry (AIEF2025)" ( #reference #talk #aief2025 #mcp #agents #sentry)
+
+- [[concepts/graph-analytics-rag-curation|graph-analytics-rag-curation]] - title: "Graph Analytics for RAG Curation" ( #rag #graph-analytics #knowledge-graph #curation #retrieval)
+- [[concepts/application-observability-graph|application-observability-graph]] - title: "Application Observability Graph" ( #observability #graph-database #agents #monitoring #analytics)
+- [[references/aief2025-graph-intelligence-alison-andreas-neo4j|aief2025-graph-intelligence-alison-andreas-neo4j]] - title: "AIEF2025 — Graph Intelligence: Enhance Reasoning and Retrieval Using Graph Analytics — Alison Cosette & Andreas, Neo4j" ( #reference #aief2025 #neo4j #graph-analytics #rag #knowledge-graph)

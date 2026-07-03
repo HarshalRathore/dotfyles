@@ -9,7 +9,8 @@ tags:
 sources:
   - "AI Engineer World's Fair 2025 - Spark to System: Building the Open Agentic Web — Asha Sharma, Microsoft - https://www.youtube.com/watch?v=7Hrw6rtXaHc"
   - "AIEF2025 - Unlocking AI Powered DevOps Within Your Organization — Jon Peck, GitHub - https://www.youtube.com/watch?v=C1NivhYS1sI"
-summary: "AI coding assistant evolving from autocomplete sidekick to agentic teammate — assigned tasks via GitHub Issues, operating in its own branch, running tests, extended via open MCP/A2A protocols. Supports agent mode, Copilot Code Review, MCP integration, and issue-to-PR autonomous pipeline."
+  - "AIEF2025 - Collaborating with Agents in your Software Dev Workflow — Jon Peck & Christopher Harrison, Microsoft - https://www.youtube.com/watch?v=G1hhmz6mXT0"
+summary: "AI coding assistant evolving from autocomplete sidekick to agentic teammate — assigned tasks via GitHub Issues, operating in its own branch, running tests, and extended via MCP. Supports agent mode, Copilot Code Review, MCP integration, issue-to-PR pipeline, and .instructions files."
 provenance:
   extracted: 0.78
   inferred: 0.18
@@ -23,7 +24,17 @@ updated: 2026-07-03
 
 # GitHub Copilot
 
-GitHub Copilot has evolved from an autocomplete sidekick ([[concepts/copilot-first-strategy|pair programming]]) into an agentic teammate ([[concepts/peer-programming|peer programming]]) as demonstrated at AI Engineer World's Fair 2025. ^[extracted]
+GitHub Copilot has evolved from an autocomplete sidekick ([[concepts/copilot-first-strategy|pair programming]]) into an agentic teammate ([[concepts/peer-programming|peer programming]]) with a five-level workload spectrum as mapped at AI Engineer World's Fair 2025. ^[extracted]
+
+## Workload Spectrum
+
+As mapped by [[entities/christopher-harrison|Christopher Harrison]], Copilot workloads span five autonomy levels ^[extracted]:
+
+1. **Code Completions** — Original inline suggestions for the next line, function, or class. ^[extracted]
+2. **Chat** — Single-shot Q&A for questions and single-file generation. ^[extracted]
+3. **Edits** — Multi-file changes across related files (e.g., HTML + JS + CSS). ^[extracted]
+4. **Agent Mode (in IDE)** — Navigates project, pulls in relevant files, runs terminal commands (with user approval), iterates, self-heals. ^[extracted]
+5. **Coding Agent (on GitHub.com)** — Assigned via Issues, works autonomously in its own branch via GitHub Actions, creates draft PRs. ^[extracted]
 
 ## Agentic Capabilities
 
@@ -42,6 +53,7 @@ GitHub Copilot has evolved from an autocomplete sidekick ([[concepts/copilot-fir
 - **[[concepts/copilot-instructions|Copilot Instructions]]** — `.github/copilot-instructions.md` codifies team standards (linting, patterns, security checks) so AI follows them automatically. Committed to the repo as a shared team artifact. ^[extracted]
 - **Knowledge bases** (Enterprise) — Named collections of repositories providing best-practice examples, internal API specs, and reference implementations. Selectable by operators during work (e.g., "add the accessibility knowledge base"). ^[extracted]
 - **Org-wide governance** — Repository-level context exclusions (prevent secret leakage), org-wide policy controls for model access and feature gating, privacy guarantees (no training on enterprise data, predictions trashed after each request). ^[extracted]
+- **[[concepts/dot-instructions-files|.instructions files]]** — Per-file-type instruction files for consistent code generation, automatically applied via filename pattern matching (Chat/Agent Mode). ^[extracted]
 
 ## Autonomous Workflow: Issue-to-PR
 
@@ -52,12 +64,24 @@ The [[concepts/issue-to-pr-pipeline|issue-to-PR pipeline]] represents Copilot's 
 3. The human reviews: accept, comment for refinement, or destroy and reassign.
 4. All work happens in isolation — its own branch, protected environment, never touching `main` directly.
 
+## Coding Agent Security Model
+
+Coding Agent operates under strict safety boundaries ^[extracted]:
+
+- **Firewalled by default** — No internet access. Dependencies pre-installed or firewall explicitly opened. ^[extracted]
+- **Ephemeral** — Runs in GitHub Actions, launched per-session, destroyed after. ^[extracted]
+- **Branch-only** — Can only modify its own branch, never main. ^[extracted]
+- **Draft PRs** — Creates PRs in draft form; human must convert to real PR. ^[extracted]
+- **Workflow gating** — CI/security checks don't run until human approves. ^[extracted]
+- **No self-review** — Assignee cannot review; someone else must review the agent's work. ^[extracted]
+
 ## Safety Architecture
 
-GitHub Copilot's enterprise safety model operates at three layers ^[extracted]:
+GitHub Copilot's enterprise safety model operates at four layers ^[extracted]:
 - **Privacy:** No training on enterprise data, indemnification clauses in enterprise agreements, fully opt-in tracking.
 - **Repository-level:** Exclude specific files from Copilot context (e.g., `.env` with secrets).
 - **Org-wide:** Centralized policy management for model access, feature gating, and governance — no per-repo overhead.
+- **Coding Agent isolation:** Firewalled, ephemeral, branch-only, draft PRs, no self-review. ^[extracted]
 
 ## Sources
 
