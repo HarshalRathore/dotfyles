@@ -7,7 +7,7 @@ tags:
   - ontology
   - graphrag
 sources:
-  - "AIEF2025 - Why Your Agent's Brain Needs a Playbook: Practical Wins from Using Ontologies - Jesús Barrasa, Neo4j - https://www.youtube.com/watch?v=CbiR9xS2skQ"
+  - "[[sources/watchv=cbir9xs2skq]]"
 summary: "A retrieval architecture where the domain ontology is stored as data in the knowledge graph and queried dynamically to control which relationships the retriever traverses, enabling behavior changes without code changes."
 provenance:
   extracted: 0.70

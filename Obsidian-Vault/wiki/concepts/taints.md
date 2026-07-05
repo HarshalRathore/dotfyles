@@ -9,8 +9,8 @@ updated:
 lifecycle: draft
 base_confidence: 0.75
 sources:
-  - "taints-&-tolerations_37a014"
-  - "nodeselector-&-nodeaffinity_5d8764"
+  - "[[sources/taints-&-tolerations_37a014]]"
+  - "[[sources/nodeselector-&-nodeaffinity_5d8764]]"
 tags:
 ---
 ## Related Concepts

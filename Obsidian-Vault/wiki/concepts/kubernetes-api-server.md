@@ -3,7 +3,7 @@ type: "concept"
 title: "Api Server"
 created: [datetime.date(2026, 6, 30)]
 updated: [datetime.date(2026, 6, 30)]
-sources: ['static-pod_d72e06', 'main-kubernetes-components_82b036', 'admission-controllers_7667fc']
+sources: ["[[sources/static-pod_d72e06]]", "[[sources/main-kubernetes-components_82b036]]", "[[sources/admission-controllers_7667fc]]"]
 tags:
   - control-plane
   - api

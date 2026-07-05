@@ -4,8 +4,8 @@ category: entities
 tags: [company, cloud, gpu, compute, infrastructure]
 aliases: [Modal.com, Modal Cloud, Modal Labs]
 sources:
-  - "AI Engineer World's Fair 2025 talk - AI Engineer World's Fair 2025 Hackathon Presentations - https://www.youtube.com/watch?v=1ZlO9Yu2ZiU"
-  - "AIEF2025 - How fast are LLM inference engines anyway? — Charles Frye, Modal - https://www.youtube.com/watch?v=DeFF3J8T5Pk"
+  - "[[sources/watchv=1zlo9yu2ziu]]"
+  - "[[sources/watchv=deff3j8t5pk]]"
 summary: "Cloud GPU compute platform providing serverless infrastructure for AI workloads. Created the LLM Almanac — a comprehensive benchmark comparing vLLM, SGLang, and TensorRT-LLM across 10+ models on H100 GPUs."
 provenance:
   extracted: 0.75

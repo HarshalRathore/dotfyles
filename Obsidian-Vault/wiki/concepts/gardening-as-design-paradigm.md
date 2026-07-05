@@ -7,7 +7,7 @@ tags:
   - philosophy
   - aief2025
 sources:
-  - "AIEF2025 - The Bitter Layout or: How I Learned to Love the Model Picker — Maximillian Piras, Yutori - https://www.youtube.com/watch?v=BZtD0yYAgCQ"
+  - "[[sources/watchv=bztd0yyagcq]]"
 summary: "The speculative future of AI UX design where designers shift from construction (procedurally specifying every interaction) to gardening (setting goals and constraints for generative systems to grow within)."
 provenance:
   extracted: 0.30

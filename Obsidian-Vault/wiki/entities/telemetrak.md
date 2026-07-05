@@ -8,7 +8,7 @@ tags:
   - enterprise
 aliases: [Telemetrak AI]
 sources:
-  - "AI Engineer World's Fair 2025 - Critical AI Inference your CIO can Trust — Sahil Yadav, Hariharan Ganesan, Telemetrak - https://www.youtube.com/watch?v=6Tpm4m1YxHk"
+  - "[[sources/watchv=6tpm4m1yxhk]]"
 summary: "Company focused on critical AI inference trust solutions. Present at AI Engineer World's Fair 2025 with the X-TOPS framework and three-pillar trust model for enterprise AI."
 provenance:
   extracted: 0.82

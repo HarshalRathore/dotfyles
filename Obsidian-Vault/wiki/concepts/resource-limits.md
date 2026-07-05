@@ -3,7 +3,7 @@ type: "concept"
 title: "Resource Limits"
 created: [datetime.date(2026, 6, 30)]
 updated: [datetime.date(2026, 6, 30)]
-sources: ['kubernetes-autoscaling_59fbf3']
+sources: ["[[sources/kubernetes-autoscaling_59fbf3]]"]
 tags:
   - resources
   - qos

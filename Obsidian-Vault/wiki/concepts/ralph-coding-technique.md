@@ -1,7 +1,7 @@
 ---
 title: "Ralph Coding Technique"
 sources:
-  - "ralph-ai-coding-technique_ghuntley"
+  - "[[sources/ralph-ai-coding-technique_ghuntley]]"
 tags:
   - "ai-assisted-development"
   - "agent-loop"

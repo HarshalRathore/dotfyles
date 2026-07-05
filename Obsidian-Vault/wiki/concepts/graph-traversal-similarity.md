@@ -11,7 +11,8 @@ aliases:
   - Graph Overlap Similarity
   - Neighborhood Overlap
 sources:
-  - "AIEF2025 - Agentic GraphRAG: Simplifying Retrieval Across Structured & Unstructured Data — Zach Blumenfeld - https://www.youtube.com/watch?v=CzM3cW6FdBs"
+  - "[[sources/watchv=j-9ebjbxcbg]]"
+  - "[[sources/watchv=czm3cw6fdbs]]"
 summary: "A graph-based similarity computation technique that uses variable-length path traversals (0-3 hops) over shared entities — skills, domains, accomplishments — to find and rank similar entities with explainable reasoning."
 provenance:
   extracted: 0.78
@@ -21,7 +22,7 @@ base_confidence: 0.42
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
-updated: 2026-07-03
+updated: 2026-07-04
 relationships:
   - target: "[[concepts/multi-hop-retrieval|Multi-Hop Retrieval]]"
     type: uses

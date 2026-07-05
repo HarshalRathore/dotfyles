@@ -6,7 +6,7 @@ tags:
   - microsoft
   - ai-platform
 sources:
-  - "AI Engineer World's Fair 2025 - Spark to System: Building the Open Agentic Web — Asha Sharma, Microsoft - https://www.youtube.com/watch?v=7Hrw6rtXaHc"
+  - "[[sources/watchv=7hrw6rtxahc]]"
 summary: "Microsoft presenter who demonstrated GitHub Copilot agentic features (Copilot Spaces, task assignment, Amelie M-L-E agent) and local AI deployment at AI Engineer World's Fair 2025."
 provenance:
   extracted: 0.70

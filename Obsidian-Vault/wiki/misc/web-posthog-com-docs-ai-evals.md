@@ -8,7 +8,7 @@ tags:
   - observability
   - posthog
 sources:
-  - "ai-evals"
+  - "[[sources/ai-evals]]"
 source_url: "https://posthog.com/docs/ai-evals"
 created: "2026-07-01"
 updated: "2026-07-01"

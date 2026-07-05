@@ -5,7 +5,8 @@ tags:
   - engineering
   - sql
 sources:
-  - "sql-parser"
+  - "[[sources/sql-parser]]"
+
 ---
 # Robbie Coomber
 

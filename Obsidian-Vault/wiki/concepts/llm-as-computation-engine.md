@@ -8,7 +8,7 @@ relationships:
   - target: "[[concepts/wireframe-to-app-generation]]"
     type: related_to
 sources:
-  - "AI Engineer World's Fair 2025 talk - tldraw.computer - Steve Ruiz, tldraw - https://www.youtube.com/watch?v=1C2TdPkj6aQ"
+  - "[[sources/watchv=1c2tdpkj6aq]]"
 summary: "Using language models as the execution engine for computation that involves ambiguous, multi-modal, or non-linear reasoning — producing outputs through inference rather than deterministic code."
 provenance:
   extracted: 0.60

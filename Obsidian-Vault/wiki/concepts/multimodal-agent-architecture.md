@@ -6,7 +6,7 @@ tags:
   - architecture
   - retrieval
 sources:
-  - "AI Engineer World's Fair 2025 - Building Multimodal AI Agents From Scratch — Apoorva Joshi, MongoDB - https://www.youtube.com/watch?v=640KMYtxCeI"
+  - "[[sources/watchv=640kmytxcei]]"
 summary: "Architecture for agents that process and retrieve across multiple modalities (text, images, tables) using a multimodal LLM for reasoning, VLM-based embedding for retrieval over page-level screenshots, and short-term memory for coherent conversation."
 provenance:
   extracted: 0.75

@@ -6,7 +6,7 @@ tags:
   - developer-tools
   - enterprise
 sources:
-  - "https://www.youtube.com/watch?v=6NIr_cYPglk"
+  - "[[sources/watchv=6nir_cypglk]]"
 summary: "Solutions Architect at Augment Code. Formerly at Postman. Co-presented on legacy code navigation with Augment Agent at AI Engineer World's Fair 2025."
 provenance:
   extracted: 0.75

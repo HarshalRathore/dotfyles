@@ -9,7 +9,7 @@ relationships:
   - target: "[[concepts/scaling-is-dead-thesis]]"
     type: related_to
 sources:
-  - "AI Engineer World's Fair 2025 talk - AI Engineer World's Fair 2025 Hackathon Presentations - https://www.youtube.com/watch?v=1ZlO9Yu2ZiU"
+  - "[[sources/watchv=1zlo9yu2ziu]]"
 summary: "AI models specialized for reliable execution of real-world web tasks (shopping, booking, form filling) rather than broad knowledge or reasoning — prioritizing task completion accuracy over general capability."
 provenance:
   extracted: 0.60

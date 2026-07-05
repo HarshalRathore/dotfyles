@@ -8,7 +8,7 @@ tags:
   - platform
 aliases: [Multineer]
 sources:
-  - "AI Engineer World's Fair 2025 talk — Practical tactics to build reliable AI apps — Dmitry Kuchin, Multinear - https://www.youtube.com/watch?v=-T6uZYYzkWw"
+  - "[[sources/watchv=-t6uzyyzkww]]"
 summary: "Open-source platform for AI evaluation and reliability, founded by Dmitry Kuchin. Implements eval-first methodology with checklist-based evaluation, synthetic test generation, and iterative benchmarking."
 provenance:
   extracted: 0.72

@@ -3,7 +3,7 @@ type: "concept"
 title: "Tolerations"
 created: [datetime.date(2026, 6, 30)]
 updated: [datetime.date(2026, 6, 30)]
-sources: ['nodeselector-&-nodeaffinity_5d8764']
+sources: ["[[sources/nodeselector-&-nodeaffinity_5d8764]]"]
 tags:
   - scheduling
   - taints

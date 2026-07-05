@@ -8,7 +8,7 @@ tags:
   - autonomous-agents
   - matt-pocock
 sources:
-  - "watchv=-qfhioco-ko"
+  - "[[sources/watchv=-qfhioco-ko]]"
 source_url: "https://www.youtube.com/watch?v=-QFHIoCo-Ko"
 created: "2026-07-01"
 updated: "2026-07-01"

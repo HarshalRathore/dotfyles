@@ -7,7 +7,7 @@ tags:
   - debugging
   - devtools
 sources:
-  - "react-scan"
+  - "[[sources/react-scan]]"
 source_url: "https://github.com/aidenybai/react-scan"
 created: "2026-06-30"
 updated: "2026-06-30"

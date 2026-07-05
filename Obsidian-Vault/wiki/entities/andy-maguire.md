@@ -6,7 +6,7 @@ tags:
   - posthog
   - "agent-systems"
 sources:
-  - "web-posthog-com-blog-what-is-a-scout"
+  - "[[sources/web-posthog-com-blog-what-is-a-scout]]"
 aliases:
   - andymaguire
 ---

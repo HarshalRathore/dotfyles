@@ -7,7 +7,7 @@ tags:
   - safety
   - aief2025
 sources:
-  - "AIEF2025 - The Bitter Layout or: How I Learned to Love the Model Picker — Maximillian Piras, Yutori - https://www.youtube.com/watch?v=BZtD0yYAgCQ"
+  - "[[sources/watchv=bztd0yyagcq]]"
 summary: "CEO of Anthropic whose framing that generative AI systems are 'more grown than built' inspired a gardening metaphor for AI UX design."
 provenance:
   extracted: 0.50

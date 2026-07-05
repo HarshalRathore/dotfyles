@@ -7,7 +7,7 @@ tags:
   - social-media
 aliases: [Sprout Social Inc.]
 sources:
-  - "AI Engineer World's Fair 2025 — From Hype to Habit: How We're Building an AI-First SaaS Company—While Still Shipping the Roadmap — Rossella & Debsha, Sprout Social - https://www.youtube.com/watch?v=3YGRcgZJ3yc"
+  - "[[sources/watchv=3ygrcgzj3yc]]"
 summary: "Public SaaS company providing social media management, engagement, analytics, and AI-powered tools. Speakers at AI Engineer World's Fair 2025 on their AI-first transformation journey."
 provenance:
   extracted: 0.75

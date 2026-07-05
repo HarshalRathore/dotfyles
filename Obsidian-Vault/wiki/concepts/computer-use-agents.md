@@ -9,7 +9,7 @@ aliases:
   - UI agents
   - visual grounding agents
 sources:
-  - "AIEF2025 - Useful General Intelligence — Danielle Perszyk, Amazon AGI - https://www.youtube.com/watch?v=Dj0b_cEBHHI"
+  - "[[sources/watchv=dj0b_cebhhi]]"
 summary: "Agents that interact with visual interfaces (pixels, UIs) like humans do — using the browser as their environment, trained to be good at UI navigation and interaction. Distinct from LLM wrappers that function as read-only assistants."
 provenance:
   extracted: 0.75

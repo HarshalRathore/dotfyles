@@ -6,7 +6,7 @@ created:
 updated:
   - 2026-06-30
 sources:
-  - "labels-&-selectors_7e0f44"
+  - "[[sources/labels-&-selectors_7e0f44]]"
 tags:
   - deployment
 aliases:

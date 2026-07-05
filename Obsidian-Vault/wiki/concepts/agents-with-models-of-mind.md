@@ -9,7 +9,7 @@ aliases:
   - agent models of mind
   - mind-reading agents
 sources:
-  - "AIEF2025 - Useful General Intelligence — Danielle Perszyk, Amazon AGI - https://www.youtube.com/watch?v=Dj0b_cEBHHI"
+  - "[[sources/watchv=dj0b_cebhhi]]"
 summary: "Danielle Perszyk's argument that for AI agents to be truly reliable and general-purpose, they will eventually need models of human minds — the ability to infer and reason about human goals, beliefs, and intentions, not just execute instructions."
 provenance:
   extracted: 0.75

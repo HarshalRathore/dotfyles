@@ -11,7 +11,7 @@ aliases:
   - GPU-Accelerated Graph Algorithms
   - cuGraph
 sources:
-  - "AI Engineer World's Fair 2025 talk — HybridRAG: A Fusion of Graph and Vector Retrieval — Mitesh Patel, NVIDIA - https://www.youtube.com/watch?v=-tgQa8Fzf80"
+  - "[[sources/watchv=-tgqa8fzf80]]"
 summary: "The use of GPU-accelerated graph algorithms (via cuGraph, integrated with NetworkX) to reduce graph traversal latency in large-scale knowledge graphs for RAG systems."
 provenance:
   extracted: 0.78

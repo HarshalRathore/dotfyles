@@ -10,7 +10,7 @@ aliases:
   - Circle CCTP
   - cross-chain transfer protocol
 sources:
-  - "AIEF2025 - Automating Escrow with USDC and AI - Corey Cooper, Circle - https://www.youtube.com/watch?v=AXMdSqdoGHM"
+  - "[[sources/watchv=axmdsqdoghm]]"
 summary: "Circle's permissionless protocol for transferring USDC between different blockchain networks, enabling unified multi-chain payment experiences without fragmentation."
 provenance:
   extracted: 0.85

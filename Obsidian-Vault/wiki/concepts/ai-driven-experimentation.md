@@ -9,7 +9,7 @@ relationships:
   - target: "[[concepts/evaluation-first-development]]"
     type: related_to
 sources:
-  - "AI Engineer World's Fair 2025 talk - AI Engineer World's Fair 2025 Hackathon Presentations - https://www.youtube.com/watch?v=1ZlO9Yu2ZiU"
+  - "[[sources/watchv=1zlo9yu2ziu]]"
 summary: "Using AI agents to automate A/B testing and iterative UX refinement — agents generate small code changes, deploy them incrementally, analyze user feedback in real time, and converge on better product variations."
 provenance:
   extracted: 0.60

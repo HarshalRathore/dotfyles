@@ -7,7 +7,7 @@ tags:
   - ux
   - prototyping
 sources:
-  - "AIEF2025 - Form factors for your new AI coworkers — Craig Wattrus, Flatfile - https://www.youtube.com/watch?v=CiMVKnX-CNI"
+  - "[[sources/watchv=cimvknx-cni]]"
 summary: "Woodworking-inspired design philosophy for AI product development: understand model properties through direct interaction and hands-on prototyping rather than through layers of mockups, specs, and click-through prototypes."
 provenance:
   extracted: 0.70

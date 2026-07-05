@@ -8,7 +8,7 @@ tags:
   - customer-experience
 aliases: [AI architect role, AI architect, agent architect]
 sources:
-  - "AIEF2025 - Rise of the AI Architect — Clay Bavor, Cofounder, Sierra w/ Alessio Fanelli - https://www.youtube.com/watch?v=C3geUfBR2js"
+  - "[[sources/watchv=c3geufbr2js]]"
 summary: "An emerging role responsible for managing, coaching, and improving an organization's AI agents — combining technology understanding, brand/experience design, and business outcomes."
 provenance:
   extracted: 0.75

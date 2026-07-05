@@ -9,7 +9,7 @@ tags:
   - microsoft
 aliases: [signal slew, AI signal loop, personalization loop, interaction feedback loop]
 sources:
-  - "AI Engineer World's Fair 2025 - Spark to System: Building the Open Agentic Web — Asha Sharma, Microsoft - https://www.youtube.com/watch?v=7Hrw6rtXaHc"
+  - "[[sources/watchv=7hrw6rtxahc]]"
 summary: "Continuous feedback loop where real-world agent interactions are collected, A/B tested, and used to fine-tune models for personalized outcomes — demonstrated by Dragon healthcare copilot reaching 83% character acceptance rate."
 provenance:
   extracted: 0.72

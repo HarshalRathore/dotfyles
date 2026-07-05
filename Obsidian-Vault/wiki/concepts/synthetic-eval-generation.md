@@ -7,8 +7,7 @@ tags:
   - testing
   - synthetic-data
 sources:
-  - "AI Engineer World's Fair 2025 talk — Practical tactics to build reliable AI apps — Dmitry Kuchin, Multinear - https://www.youtube.com/watch?v=-T6uZYYzkWw"
-summary: "Using capable LLMs (like O3) to generate evaluation datasets from source materials — questions, personas, criteria checklists, and variations — enabling comprehensive testing without manual test authoring."
+  - "[[sources/watchv=mc55hdwlq4o]]"
 provenance:
   extracted: 0.72
   inferred: 0.23
@@ -44,11 +43,9 @@ For each generated question, the LLM identifies specific pieces of information t
 This approach is methodology-dependent, not platform-dependent. [[entities/multinear|Multinear]], the open-source evaluation platform built by [[entities/dmitry-kuchin|Dmitry Kuchin]], implements this workflow, but the technique can be reproduced with any LLM and evaluation framework. ^[extracted]
 
 ## Related
-
-- [[concepts/task-specific-evals|Task-Specific Evals]] — the criteria that synthetic generation produces
-- [[concepts/evaluation-first-development|Evaluation-First Development]] — the methodology that requires comprehensive evals
-- [[concepts/ai-regression-testing|AI Regression Testing]] — the downstream need that synthetic evals fill
-
+- [[concepts/loop-automated-eval-optimization|Loop — Automated Eval Optimization Agent]] — uses synthetic eval generation as part of its optimization triad
+- [[concepts/cloud-4-model-breakthrough|Cloud 4 Model Breakthrough]] — the model enabling synthetic eval generation at scale
+- [[references/aief2025-the-future-of-evals-ankur-goyal-braintrust|The Future of Evals — AIEF2025 Talk]] — Cloud 4's 6x improvement in eval tasks
 ## Sources
 
 - [[references/ai-eng-worlds-fair-2025-talk-practical-tactics-reliable-ai|Practical tactics to build reliable AI apps — Dmitry Kuchin, Multinear]] — Conference talk

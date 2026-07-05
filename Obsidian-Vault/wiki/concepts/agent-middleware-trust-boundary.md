@@ -8,8 +8,8 @@ tags:
   - auth
   - enterprise
 sources:
-  - "AIEF2025 - CIAM for AI: Authn/Authz for Agents — Michael Grinich, CEO of WorkOS - https://www.youtube.com/watch?v=D4Dswf-__RM"
-  - "AIEF2025 - Securing Agents with Open Standards — Bobby Tiernay and Kam Sween, Auth0 - https://www.youtube.com/watch?v=FZoMSupg37E"
+  - "[[sources/watchv=d4dswf-__rm]]"
+  - "[[sources/watchv=fzomsupg37e]]"
 summary: "The architecture pattern of treating agents as untrusted code and placing an authorization middleware layer between agentic code and enterprise resources."
 lifecycle: draft
 tier: supporting

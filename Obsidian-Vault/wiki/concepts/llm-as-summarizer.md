@@ -7,7 +7,7 @@ tags:
   - llm
   - principle
 sources:
-  - "AI Engineer World's Fair 2025 - Effective agent design patterns in production — Laurie Voss, LlamaIndex - https://www.youtube.com/watch?v=72XxWkd8Jrk"
+  - "[[sources/watchv=72xxwkd8jrk]]"
 summary: "Design principle that LLMs excel at turning a large body of text into a smaller body of text (summarization, extraction, structuring), not the reverse. Guides what applications are worth building with LLMs."
 provenance:
   extracted: 0.70

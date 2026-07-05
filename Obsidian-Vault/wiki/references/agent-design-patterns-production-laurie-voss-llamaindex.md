@@ -7,7 +7,7 @@ tags:
   - llamaindex
   - ai-eng-fair-2025
 sources:
-  - "AI Engineer World's Fair 2025 - Effective agent design patterns in production — Laurie Voss, LlamaIndex - https://www.youtube.com/watch?v=72XxWkd8Jrk"
+  - "[[sources/watchv=72xxwkd8jrk]]"
 summary: "Laurie Voss presents the five Anthropic-codified agent design patterns (chaining, routing, parallelization, orchestrator workers, evaluator-optimizer) implemented via LlamaIndex Workflows, plus the core principle that LLMs excel at turning large text into small text."
 provenance:
   extracted: 0.80

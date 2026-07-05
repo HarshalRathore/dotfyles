@@ -7,10 +7,13 @@ tags:
   - tooling
   - observability
 sources:
-  - "AI Engineer World's Fair 2025 — How to build world-class AI products — Sarah Sachs (AI lead @ Notion) & Carlos Esteban (Braintrust) - https://www.youtube.com/watch?v=6YdPI9YbjbI"
-  - "AIEF2025 - [Evals Workshop] Mastering AI Evaluation: From Playground to Production - https://www.youtube.com/watch?v=9iN-cPnp7xg"
-  - "AIEF2025 - 2025 is the Year of Evals! Just like 2024, and 2023, and … — John Dickerson, CEO Mozilla AI - https://www.youtube.com/watch?v=CQGuvf6gSrM"
+  - "[[sources/watchv=6ydpi9ybjbi]]"
+  - "[[sources/watchv=9in-cpnp7xg]]"
+  - "[[sources/watchv=cqguvf6gsrm]]"
+  - "[[sources/watchv=mc55hdwlq4o]]"
 summary: "Enterprise AI evaluation and observability platform providing prompt management, automated evals, production logging, online scoring, and human-in-the-loop review workflows."
+- "AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY"
+  - "AIEF2025 - Why should anyone care about Evals? — Manu Goyal, Braintrust - https://www.youtube.com/watch?v=jJ45Yz1lJao"
 provenance:
   extracted: 0.60
   inferred: 0.35
@@ -19,7 +22,7 @@ base_confidence: 0.45
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
-updated: 2026-07-03
+updated: 2026-07-05
 ---
 
 # Braintrust
@@ -28,7 +31,7 @@ Braintrust is an enterprise AI evaluation and observability platform. It provide
 
 ## Market Position
 
-Braintrust is one of several AI evaluation and observability companies seeing hockey-stick revenue growth in 2025 as enterprises scale agentic AI deployments. [[entities/john-dickerson|John Dickerson]] (CEO, [[entities/mozilla-ai|Mozilla AI]]) notes that leaked revenue numbers for evaluation startups — including Braintrust, Weights & Biases, and Galileo — were already outdated by mid-2025, having been "lagged by about six months or eight months" at publication. ^[extracted] The broader market context: three converging forces (ChatGPT, enterprise budget freezes channeling all IT spend to gen AI, and the rise of agentic systems) have made evaluation infrastructure a C-suite priority rather than a niche engineering concern. ^[extracted] See [[concepts/ai-evaluation-market-history]] for the full analysis.
+Braintrust is one of several AI evaluation and observability companies seeing hockey-stick revenue growth in 2025 as enterprises scale agentic AI deployments. [[entities/john-dickerson|John Dickerson]] (CEO, [[entities/mozilla-ai|Mozilla AI]]) notes that leaked revenue numbers for evaluation startups — including Braintrust, Weights & Biases, and Galileo — were already outdated by mid-2025, having been "lagged by about six months or eight months" at publication. ^[extracted] The broader market context: three converging forces (ChatGPT, enterprise budget freezes channeling all IT spend to gen AI, and the rise of agentic systems) have made evaluation infrastructure a C-suite priority rather than a niche engineering concern. ^[extracted] See [[concepts/ai-evalua…
 
 ## Platform Architecture
 
@@ -65,14 +68,18 @@ In addition to the playground UI, Braintrust provides TypeScript and Python SDKs
 - The same scoring functions can be reused for both offline evals and online scoring
 - Results from both UI and SDK aggregate into the same experiment views
 
-### Loop (Upcoming)
+### Loop
 
-Loop is Braintrust's automated prompt optimization feature, nearing release at the time of the workshop: ^[extracted]
+Loop is Braintrust's automated optimization agent for prompts, datasets, and scorers. It is built into Braintrust and available via a feature flag. ^[extracted]
 
-- Agentically iterates on prompts, running experiments and comparing results against previous baselines
-- Has access to previous experiment results to understand whether each change is an improvement
-- Designed to optimize prompts, datasets, and scores — not just prompts
-- Dogfooded: Braintrust uses Loop internally to evaluate its own AI features
+- Powered by Cloud 4, a frontier model that performs nearly six times better than its predecessor at improving prompts, datasets, and scorers ^[extracted]
+- Agentically iterates on all three eval ingredients (prompts, datasets, scorers), not just prompts ^[extracted]
+- Has access to previous experiment results to understand whether each change is an improvement ^[extracted]
+- Side-by-side UI: every suggestion is shown alongside the original, preserving the ability to inspect data and prompts ^[extracted]
+- Auto-optimize toggle: an "adventurous" mode that runs optimization autonomously without human review ^[extracted]
+- Model selection: defaults to Cloud 4 but allows any model — OpenAI, Gemini, or custom LLMs ^[extracted]
+- Dogfooded: Braintrust uses Loop internally to evaluate its own AI features ^[extracted]
+- Available to existing Braintrust users via a "Loop" feature flag ^[extracted]
 
 ## Evaluation Ingredient Model
 
@@ -95,16 +102,21 @@ Braintrust supports two types of human evaluation: ^[extracted]
 1. **Human review**: Annotators or subject matter experts manually score or audit specific data points, logs, or experiment results. Reviewers work through a dedicated pared-down interface optimized for evaluation speed. Custom score types: yes/no, slider, free text, A/B/C/D selection. Human review scores establish ground truth and calibrate LLM-as-judge prompts. ^[extracted]
 2. **User feedback capture**: Direct thumbs-up/thumbs-down and free-text comments from real users, logged against specific spans in the trace via a `logFeedback()` function. These can be filtered into views (e.g., "all thumbs-down traces") and added to datasets for offline evals. ^[extracted]
 
+## Evals in CI
+
+[[entities/ido-pesok|Ido Pesok]] (Vercel) referenced Braintrust at AIEF2025 as a tool that supports CI-integrated evals: running eval tasks across the full dataset when PRs are submitted, generating reports that visualize improvements and regressions across the entire test "court." ^[extracted] This aligns with Braintrust's SDK-first workflow where `braintrust eval` can be invoked from CI pipelines. ^[inferred]
+
 ## Related
 
 - [[entities/sarah-sachs|Sarah Sachs]] — AI lead at Notion and Braintrust customer, presented on their evaluation methodology
 - [[entities/carlos-esteban|Carlos Esteban]] — Braintrust Solutions Engineer who co-presented the evals workshop
+- [[entities/ido-pesok|Ido Pesok]] — Referenced Braintrust for CI eval integration at AIEF2025
 - [[concepts/per-element-llm-judge|Per-Element LLM Judge]] — the evaluation methodology built on top of Braintrust
 - [[concepts/evaluation-first-development|Evaluation-First Development]] — the development paradigm Braintrust enables
 - [[concepts/eval-ingredients-task-dataset-score|Eval Ingredients: Task, Dataset, Score]] — Braintrust's evaluation model
 - [[concepts/eval-quality-matrix|Eval Quality Matrix]] — diagnostic framework used with Braintrust scores
 - [[concepts/llm-judge-best-practices|LLM-as-Judge Best Practices]] — design principles for Braintrust scorers
-- [[concepts/online-evals|Online Evals]] — production scoring in Braintrust
+- [[concepts/loop-automated-eval-optimization|Loop — Automated Eval Optimization Agent]] — Braintrust's built-in eval optimization agent
 - [[concepts/ai-observability-production-logging|AI Observability & Production Logging]] — production tracing via Braintrust
 - [[concepts/eval-playground-experiment-workflow|Playground vs Experiments Workflow]] — Braintrust's two-mode workflow
 - [[concepts/eval-dataset-strategy|Eval Dataset Strategy]] — dataset bootstrapping on Braintrust
@@ -112,5 +124,6 @@ Braintrust supports two types of human evaluation: ^[extracted]
 
 ## Sources
 
-- [[references/notion-ai-building-world-class-products|How to build world-class AI products — Sarah Sachs (Notion) & Carlos Esteban (Braintrust)]] — AI Engineer World's Fair 2025
+- [[references/aief2025-the-future-of-evals-ankur-goyal-braintrust|The Future of Evals — Ankur Goyal, Braintrust]] — AIEF2025 talk introducing Loop and Cloud 4
+- [[references/aief2025-five-hard-earned-lessons-evals-ankur-goyal-braintrust|Five Hard Earned Lessons About Evals — Ankur Goyal, Braintrust]] — AIEF2025 talk covering five lessons on eval value, engineering, system optimization, and Loop
 - [[references/aief2025-evals-workshop-braintrust|AIEF2025 - [Evals Workshop] Mastering AI Evaluation: From Playground to Production]] — Braintrust workshop at AI Engineer World's Fair 2025

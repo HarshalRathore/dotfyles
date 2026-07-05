@@ -6,8 +6,8 @@ tags:
   - security
   - auth
 sources:
-  - "https://www.youtube.com/watch?v=0MqYA52iWQU"
-  - "AIEF2025 - CIAM for AI: Authn/Authz for Agents — Michael Grinich, CEO of WorkOS - https://www.youtube.com/watch?v=D4Dswf-__RM"
+  - "[[sources/watchv=0mqya52iwqu]]"
+  - "[[sources/watchv=d4dswf-__rm]]"
 summary: "Enterprise security vendor that provides auth, authorization, SSO, audit logs, and DLP infrastructure for AI labs and companies building agentic and MCP-based products."
 provenance:
   extracted: 0.60

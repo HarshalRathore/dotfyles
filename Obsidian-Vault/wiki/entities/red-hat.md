@@ -11,7 +11,7 @@ aliases:
   - Red Hat AI Business Unit
   - RH
 sources:
-  - "AIEF2025 - Strategies for LLM Evals (GuideLLM, lm-eval-harness, OpenAI Evals Workshop) — Taylor Jordan Smith - https://www.youtube.com/watch?v=89NuzmKokIk"
+  - "[[sources/watchv=89nuzmkokik]]"
 summary: "Enterprise open-source software company with an AI Business Unit. Provides LLM evaluation tools and infrastructure including PromptFu, GuideLLM integration, and VLLM-based inference on RHEL."
 provenance:
   extracted: 0.75

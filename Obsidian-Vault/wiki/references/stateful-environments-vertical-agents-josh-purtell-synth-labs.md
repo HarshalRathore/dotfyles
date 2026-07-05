@@ -8,7 +8,7 @@ tags:
   - stateful
   - infrastructure
 sources:
-  - "https://www.youtube.com/watch?v=5rMc-moNVx0"
+  - "[[sources/watchv=5rmc-monvx0]]"
 summary: "AI Engineer World's Fair 2025 talk on containerizing vertical application logic into resettable, network-bound stateful environments for production agents."
 provenance:
   extracted: 0.80

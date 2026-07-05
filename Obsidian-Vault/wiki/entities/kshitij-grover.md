@@ -4,7 +4,7 @@ category: entities
 tags: [person, entrepreneur, billing, pricing, ai-engineering]
 aliases: [Kshitij, Grover, Shitej]
 sources:
-  - "AI Engineer World's Fair 2025 talk - Revenue Engineering: How to Price (and Reprice) Your AI Product — Kshitij Grover, Orb - https://www.youtube.com/watch?v=1C3sZbaxOmw"
+  - "[[sources/watchv=1c3szbaxomw]]"
 summary: "Co-founder of Orb, a usage-based billing infrastructure company. Speaker on revenue engineering and AI product pricing at AI Engineer World's Fair 2025."
 provenance:
   extracted: 0.80

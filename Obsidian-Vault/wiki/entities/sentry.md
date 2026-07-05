@@ -9,7 +9,7 @@ tags:
   - application-monitoring
 aliases: [Sentry.io, getsentry]
 sources:
-  - "AIEF2025 - MCP Is Not Good Yet — David Cramer, Sentry - https://www.youtube.com/watch?v=FCi4jT86gSw"
+  - "[[sources/watchv=fci4jt86gsw]]"
 summary: "Application monitoring and bug tracking platform. Built a production MCP server exposing curated agent workflows for debugging and root cause analysis."
 provenance:
   extracted: 0.80

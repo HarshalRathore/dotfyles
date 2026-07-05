@@ -10,7 +10,7 @@ aliases:
   - programmable dollar
   - code-based money
 sources:
-  - "AIEF2025 - Automating Escrow with USDC and AI - Corey Cooper, Circle - https://www.youtube.com/watch?v=AXMdSqdoGHM"
+  - "[[sources/watchv=axmdsqdoghm]]"
 summary: "Money whose ledger is built into internet technology (blockchain networks and smart contracts), enabling near-instant, borderless, and programmable value transfer with conditional logic."
 provenance:
   extracted: 0.75

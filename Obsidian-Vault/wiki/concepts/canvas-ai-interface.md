@@ -8,7 +8,7 @@ relationships:
   - target: "[[concepts/demo-driven-ai-exploration]]"
     type: extends
 sources:
-  - "AI Engineer World's Fair 2025 talk - tldraw.computer - Steve Ruiz, tldraw - https://www.youtube.com/watch?v=1C2TdPkj6aQ"
+  - "[[sources/watchv=1c2tdpkj6aq]]"
 summary: "Using an infinite digital canvas as the primary interaction surface for AI — where users can draw, embed apps, design agentic pipelines, annotate AI output, and collaborate with AI in a shared visual space."
 provenance:
   extracted: 0.55

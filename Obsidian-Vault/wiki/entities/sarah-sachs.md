@@ -7,7 +7,7 @@ tags:
   - product
   - speaker
 sources:
-  - "AI Engineer World's Fair 2025 — How to build world-class AI products — Sarah Sachs (AI lead @ Notion) & Carlos Esteban (Braintrust) - https://www.youtube.com/watch?v=6YdPI9YbjbI"
+  - "[[sources/watchv=6ydpi9ybjbi]]"
 summary: "AI lead at Notion, responsible for Notion AI product development — including AI writing, search, meetings, and deep research features."
 provenance:
   extracted: 0.50

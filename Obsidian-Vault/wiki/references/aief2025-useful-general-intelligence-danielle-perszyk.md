@@ -39,7 +39,7 @@ relationships:
   - target: "[[entities/douglas-engelbart]]"
     type: cites
 sources:
-  - "AIEF2025 - Useful General Intelligence — Danielle Perszyk, Amazon AGI - https://www.youtube.com/watch?v=Dj0b_cEBHHI"
+  - "[[sources/watchv=dj0b_cebhhi]]"
 summary: "Cognitive scientist Danielle Perszyk (Amazon AGI) proposes Useful General Intelligence as a reframing of AGI — building AI that makes humans smarter rather than building machines that are smarter than humans. Covers techno-social co-evolution, controlled hallucination, computer-use agents (Nova Act), cognitive technologies, and the eventual need for agents with models of human minds."
 provenance:
   extracted: 0.85

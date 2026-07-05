@@ -6,7 +6,7 @@ created:
 updated:
   - 2026-06-30
 sources:
-  - "nodeselector-&-nodeaffinity_5d8764"
+  - "[[sources/nodeselector-&-nodeaffinity_5d8764]]"
 tags:
   - scheduling
 aliases:

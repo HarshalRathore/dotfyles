@@ -6,7 +6,7 @@ tags:
   - ai
   - character-design
 sources:
-  - "AIEF2025 - Form factors for your new AI coworkers — Craig Wattrus, Flatfile - https://www.youtube.com/watch?v=CiMVKnX-CNI"
+  - "[[sources/watchv=cimvknx-cni]]"
 summary: "AI researcher at Anthropic known for leading the character design of Claude. Her approach to building Claude's personality — designing character over controlling outputs — influenced the character coach approach to AI agent design."
 provenance:
   extracted: 0.60

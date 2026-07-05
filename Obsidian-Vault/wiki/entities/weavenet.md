@@ -6,7 +6,7 @@ created:
 updated:
   - 2026-06-30
 sources:
-  - "manual-notes_10b5c5"
+  - "[[sources/manual-notes_10b5c5]]"
 tags:
   - product
 aliases:

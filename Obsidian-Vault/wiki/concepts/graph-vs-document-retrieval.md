@@ -11,7 +11,8 @@ aliases:
   - Structured vs Unstructured Retrieval
   - Graph-Augmented Retrieval
 sources:
-  - "AIEF2025 - Agentic GraphRAG: Simplifying Retrieval Across Structured & Unstructured Data — Zach Blumenfeld - https://www.youtube.com/watch?v=CzM3cW6FdBs"
+  - "[[sources/watchv=j-9ebjbxcbg]]"
+  - "[[sources/watchv=czm3cw6fdbs]]"
 summary: "The contrast between pure document-level retrieval (vector search on raw documents) and graph-based retrieval (structured entity-relationship queries), with the key insight that document-only retrieval fails for aggregation, analytics, similarity, and relationship queries that graphs handle naturally."
 provenance:
   extracted: 0.75
@@ -21,7 +22,7 @@ base_confidence: 0.45
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
-updated: 2026-07-03
+updated: 2026-07-04
 relationships:
   - target: "[[concepts/graphrag|GraphRAG]]"
     type: related_to

@@ -3,8 +3,8 @@ title: "Brett Victor"
 category: entities
 tags: [person, hci, research, interaction-design, programming]
 sources:
-  - "AI Engineer World's Fair 2025 talk — On Curiosity — Sharif Shameem, Lexica - https://www.youtube.com/watch?v=0F8mnGPUycY"
-  - "AIEF2025 - The Bitter Layout or: How I Learned to Love the Model Picker — Maximillian Piras, Yutori - https://www.youtube.com/watch?v=BZtD0yYAgCQ"
+  - "[[sources/watchv=0f8mngpuycy]]"
+  - "[[sources/watchv=bztd0yyagcq]]"
 summary: "HCI researcher known for the principle that 'creators need immediate feedback with what they're creating,' which inspired early GPT-3 interactive coding demos."
 provenance:
   extracted: 0.70

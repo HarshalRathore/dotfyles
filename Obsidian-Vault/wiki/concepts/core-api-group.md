@@ -6,7 +6,7 @@ created:
 updated:
   - 2026-06-30
 sources:
-  - "kubernetes-api-groups-authorization-and-rbac-a-comprehensive-overview_ab21cb"
+  - "[[sources/kubernetes-api-groups-authorization-and-rbac-a-comprehensive-overview_ab21cb]]"
 tags:
   - deployment
 aliases:

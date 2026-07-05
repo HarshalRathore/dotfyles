@@ -9,7 +9,7 @@ aliases:
   - Danielle Perszyk
   - Danielle Perszyk Amazon AGI
 sources:
-  - "AIEF2025 - Useful General Intelligence — Danielle Perszyk, Amazon AGI - https://www.youtube.com/watch?v=Dj0b_cEBHHI"
+  - "[[sources/watchv=dj0b_cebhhi]]"
 summary: "Cognitive scientist at the Amazon AGI SF lab. Speaker at AI Engineer World's Fair 2025 on useful general intelligence — the vision of building AI that augments human intelligence rather than replacing it."
 provenance:
   extracted: 0.75

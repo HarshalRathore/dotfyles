@@ -5,7 +5,7 @@ tags:
   - engineering-culture
   - infrastructure
 sources:
-  - "https://www.youtube.com/watch?v=0NHCyq8bBcM"
+  - "[[sources/watchv=0nhcyq8bbcm]]"
 summary: "Design philosophy where making the correct approach the easiest path naturally guides teams toward good practices without enforcement overhead."
 provenance:
   extracted: 0.60

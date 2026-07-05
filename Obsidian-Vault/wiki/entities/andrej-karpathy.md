@@ -4,8 +4,9 @@ tags:
   - ai
   - research
 sources:
-  - "autoresearch"
-  - "llm-wiki"
+  - "[[sources/autoresearch]]"
+  - "[[sources/llm-wiki]]"
+
 ---
 # Andrej Karpathy
 

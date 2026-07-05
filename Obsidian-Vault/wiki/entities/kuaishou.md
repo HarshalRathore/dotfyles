@@ -4,7 +4,7 @@ category: entities
 tags: [company, short-video, recommendation-systems, recsys, china]
 aliases: []
 sources:
-  - "https://www.youtube.com/watch?v=2vlCqD6igVA"
+  - "[[sources/watchv=2vlcqd6igva]]"
 summary: "China's number two short video platform; pioneered trainable multimodal semantic IDs for recommendation systems and created the Kling text-to-video model."
 provenance:
   extracted: 0.65

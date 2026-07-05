@@ -7,7 +7,7 @@ tags:
   - evaluation
   - reliability
 sources:
-  - "https://www.youtube.com/watch?v=-T6uZYYzkWw"
+  - "[[sources/watchv=-t6uzyyzkww]]"
 summary: "AI Engineer World's Fair 2025 talk covering practical methodology for building reliable AI applications through evaluation-first development, task-specific evals, synthetic eval generation, and checklist-based evaluation."
 provenance:
   extracted: 0.82

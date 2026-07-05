@@ -13,7 +13,7 @@ relationships:
   - target: "[[entities/arcjet]]"
     type: implements
 sources:
-  - "AIEF2025 - How to defend your sites from AI bots — David Mytton, Arcjet - https://www.youtube.com/watch?v=Gi4V8viBGYQ"
+  - "[[sources/watchv=gi4v8vibgyq]]"
 summary: "Layered defense strategies for protecting web applications from AI-driven bots, crawlers, and automated clients. Eight layers from robots.txt to cryptographic fingerprinting."
 provenance:
   extracted: 0.70

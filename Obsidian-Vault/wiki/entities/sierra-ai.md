@@ -7,8 +7,8 @@ tags:
   - enterprise
 aliases: [Sierra AI]
 sources:
-  - "AI Engineer World's Fair 2025 - State of Startups and AI 2025 - Sarah Guo, Conviction - https://www.youtube.com/watch?v=3MZS5gNElZM"
-  - "AIEF2025 - Rise of the AI Architect — Clay Bavor, Cofounder, Sierra w/ Alessio Fanelli - https://www.youtube.com/watch?v=C3geUfBR2js"
+  - "[[sources/watchv=3mzs5gnelzm]]"
+  - "[[sources/watchv=c3geufbr2js]]"
 summary: "AI customer service platform cofounded by Bret Taylor and Clay Bavor. Resolves 70% of customer service queries for companies like SiriusXM and ADT. Builds the AgentOS platform and pioneered the Agent Development Lifecycle (ADLC)."
 provenance:
   extracted: 0.75

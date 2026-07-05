@@ -6,10 +6,12 @@ aliases: [workflow orchestration, Temporal workflow, durable execution]
 relationships:
   - target: "[[concepts/agent-reliability-challenge]]"
     type: related_to
+  - target: "[[concepts/events-wrong-abstraction-thesis]]"
+    type: replaces
   - target: "[[concepts/agentic-architecture]]"
     type: extends
 sources:
-  - "AI Engineer World's Fair 2025 talk - Scaling AI Agents Without Breaking Reliability — Preeti Somal, Temporal - https://www.youtube.com/watch?v=1izYWsokr9s"
+  - "[[sources/watchv=1izywsokr9s]]"
 summary: "A workflow abstraction pattern for AI agents where complex multi-step processes are coded as durable workflows with signals, queries, activities, and full execution history — all reliability concerns handled transparently by the platform."
 provenance:
   extracted: 0.75
@@ -19,7 +21,7 @@ base_confidence: 0.55
 lifecycle: draft
 tier: supporting
 created: 2026-07-03T00:00:00Z
-updated: 2026-07-03T00:00:00Z
+updated: 2026-07-04
 ---
 
 # Temporal Workflow Orchestration
@@ -74,6 +76,7 @@ The workflow history provides an automatically generated audit trail of every st
 - **[[concepts/agentic-architecture|Agentic Architecture]]** — Temporal workflows are one implementation of the directed-graph orchestration pattern described in agentic architecture. ^[inferred] The workflow provides the orchestration layer that agentic architecture requires.
 - **[[concepts/human-in-the-loop-regulated-ai|Human-in-the-Loop in Regulated AI]]** — Temporal signals provide a first-class mechanism for human-in-the-loop patterns within agent workflows. ^[inferred]
 - **[[concepts/agent-loop|Agent Loop]]** — The workflow abstraction wraps and manages the agent loop, adding durability and observability. ^[inferred]
+- **[[concepts/events-wrong-abstraction-thesis|Events are the Wrong Abstraction Thesis]]** — Temporal workflows implement the durable execution abstraction that replaces event-driven architecture as the center of AI agent systems. ^[inferred]
 
 ## Sources
 

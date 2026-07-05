@@ -10,7 +10,7 @@ aliases:
   - Eagle speculative decoding
   - speculative decoding
 sources:
-  - "AIEF2025 - Introduction to LLM serving with SGLang - Philip Kiely and Yineng Zhang, Baseten - https://www.youtube.com/watch?v=Ahtaha9fEM0"
+  - "[[sources/watchv=ahtaha9fem0]]"
 summary: "Speculative decoding algorithm where the draft model is derived from multiple layers of the target model rather than being a separate smaller model."
 provenance:
   extracted: 0.65

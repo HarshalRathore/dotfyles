@@ -7,7 +7,7 @@ tags:
   - trust
 aliases: [Hariharan Ganesan Telemetrak]
 sources:
-  - "AI Engineer World's Fair 2025 - Critical AI Inference your CIO can Trust — Sahil Yadav, Hariharan Ganesan, Telemetrak - https://www.youtube.com/watch?v=6Tpm4m1YxHk"
+  - "[[sources/watchv=6tpm4m1yxhk]]"
 summary: "Co-presenter at AI Engineer World's Fair 2025 on trustworthy AI inference. Presented the three pillars of trust framework and the X-TOPS operational model from Telemetrak."
 provenance:
   extracted: 0.80

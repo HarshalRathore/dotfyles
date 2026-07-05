@@ -20,8 +20,8 @@ relationships:
   - target: "[[entities/graphite]]"
     type: related_to
 sources:
-  - "AIEF2025 - Vibes won't cut it — Chris Kelly, Augment Code - https://www.youtube.com/watch?v=Dc3qOA9WOnE"
-  - "AIEF2025 - Don't get one-shotted: Use AI to test, review, merge, and deploy code — Tomas Reimers, Graphite - https://www.youtube.com/watch?v=H6MrR5NbTZA"
+  - "[[sources/watchv=dc3qoa9wone]]"
+  - "[[sources/watchv=h6mrr5nbtza]]"
 summary: "The argument that as AI generates more code, the ability to read and evaluate code becomes more critical than the ability to write it — and that the entire developer toolchain must become AI-native, with self-driving AI code review capable of matching or exceeding human review efficacy."
 provenance:
   extracted: 0.78

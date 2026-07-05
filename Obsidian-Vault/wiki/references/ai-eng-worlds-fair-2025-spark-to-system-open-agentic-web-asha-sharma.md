@@ -9,7 +9,7 @@ tags:
   - agentic-web
   - ai-eng-worlds-fair-2025
 sources:
-  - "AI Engineer World's Fair 2025 - Spark to System: Building the Open Agentic Web — Asha Sharma, Microsoft - https://www.youtube.com/watch?v=7Hrw6rtXaHc"
+  - "[[sources/watchv=7hrw6rtxahc]]"
 summary: "Asha Sharma (Microsoft) lays out the vision for the open agentic web — agents interacting across clouds, companies, and devices — and demonstrates Microsoft's Foundry platform for building, evaluating, and deploying multi-agent systems from cloud to edge."
 provenance:
   extracted: 0.82

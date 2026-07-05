@@ -6,7 +6,7 @@ created:
 updated:
   - 2026-06-30
 sources:
-  - "daemonsets_9f31ec"
+  - "[[sources/daemonsets_9f31ec]]"
 tags:
   - product
 aliases:

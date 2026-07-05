@@ -12,7 +12,7 @@ aliases:
   - Zach Blumenfeld AIEF2025
   - Agentic GraphRAG
 sources:
-  - "AIEF2025 - Agentic GraphRAG: Simplifying Retrieval Across Structured & Unstructured Data — Zach Blumenfeld - https://www.youtube.com/watch?v=CzM3cW6FdBs"
+  - "[[sources/watchv=czm3cw6fdbs]]"
 summary: "Zach Blumenfeld presents an agentic GraphRAG architecture using Neo4j as the central data layer, demonstrating through a live notebook why document-only vector retrieval fails for analytical queries and how structured graph extraction plus MCP-based Cypher generation enables accurate aggregation, similarity, and relationship queries."
 provenance:
   extracted: 0.80

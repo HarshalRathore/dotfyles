@@ -7,7 +7,7 @@ tags:
   - openrouter
 aliases: [Alex Atallah, Atallah]
 sources:
-  - "AIEF2025 - Fun stories from building OpenRouter and where all this is going - Alex Atallah, OpenRouter - https://www.youtube.com/watch?v=84Vtz2IL1Ug"
+  - "[[sources/watchv=84vtz2il1ug]]"
 summary: "Co-founder of OpenRouter, the multi-model inference marketplace. Previously built Window AI, an open-source Chrome extension for model choice."
 provenance:
   extracted: 0.80

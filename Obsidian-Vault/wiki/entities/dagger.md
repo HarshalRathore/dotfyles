@@ -11,7 +11,8 @@ tags:
 aliases: [dagger.io, Dagger engine, Dagger workflow engine]
 summary: "Container workflow engine and CI/CD platform by the founders of Docker. Now supports LLMs as a first-class primitive for building agent environments with sandboxed execution."
 sources:
-  - "AIEF2025 - Ship Agents that Ship: A Hands-On Workshop - Kyle Penfound, Jeremy Adams, Dagger - https://www.youtube.com/watch?v=Fzb1a24hF-o"
+  - "[[sources/watchv=fzb1a24hf-o]]"
+  - "AIEF2025 - Containing Agent Chaos — Solomon Hykes, Dagger - https://www.youtube.com/watch?v=bUBF5V6oDKw"
 provenance:
   extracted: 0.80
   inferred: 0.18
@@ -78,6 +79,21 @@ Optional visualization layer that streams [[concepts/openai-real-time-api|OpenTe
 
 Dagger modules can be exposed as MCP servers via `dagger --mod <name> mcp`, and external MCP servers can be imported into Dagger as modules. This enables the Dagger module ecosystem to interoperate with the broader MCP ecosystem. ^[extracted]
 
+## Container Use for Agents
+
+At AI Engineer World's Fair 2025, [[entities/solomon-hykes|Solomon Hykes]] introduced the concept of **container use** — the idea that coding agents need a native way to use containers to create portable environments and develop inside them. He positioned Dagger as building "environments that are portable that you can attach to any coding agent" rather than a coding agent itself. ^[extracted]
+
+Solomon articulated four requirements for productive agent environments, each mapped to a container property:
+
+| Requirement | Container Property | Description |
+|---|---|---|
+| **Background work** | Isolation | Agents work independently without constant monitoring |
+| **Rails** | Customizability | Agents constrained to project context, coding style, build/test instructions, base images |
+| **Multiplayer** | Multiplayer | Efficient human stepping-in — not watching every action, not just waiting for PRs |
+| **Optionality** | Openness | No lock-in to all-in-one platforms; choose best model, compute, infrastructure |
+
+This positions container use as a complementary primitive to computer use (visual interface interaction) — one for the code environment, one for the visual interface. ^[extracted]
+
 ## Related
 
 - [[concepts/dagger-agent-platform]] — Dagger's approach to building software engineering agents
@@ -89,6 +105,12 @@ Dagger modules can be exposed as MCP servers via `dagger --mod <name> mcp`, and 
 - [[concepts/containerization]] — Foundation technology for Dagger's sandboxing
 - [[concepts/mcp-gateway-pattern]] — Related integration pattern for module exposure
 - [[concepts/mcp-dynamic-client-registration]] — Dynamic MCP client registration for Dagger's MCP interop
+- [[concepts/container-use|Container Use]] — Solomon Hykes' framework for agent environments
+- [[concepts/agent-environment|Agent Environment]] — The four-property framework
+- [[concepts/agent-isolation|Agent Isolation]] — The isolation property
+- [[concepts/agent-rails|Agent Rails]] — The customizability property
+- [[concepts/open-optionality|Open Optionality]] — The openness property
+- [[entities/solomon-hykes|Solomon Hykes]] — Co-founder who articulated container use
 - [[entities/docker]] — Same founders, predecessor technology
 - [[entities/kubernetes]] — Common deployment target for Dagger workflows
 

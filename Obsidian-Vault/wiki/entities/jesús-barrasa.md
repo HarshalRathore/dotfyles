@@ -7,7 +7,7 @@ tags:
   - graphrag
   - ontology
 sources:
-  - "AIEF2025 - Why Your Agent's Brain Needs a Playbook: Practical Wins from Using Ontologies - Jesús Barrasa, Neo4j - https://www.youtube.com/watch?v=CbiR9xS2skQ"
+  - "[[sources/watchv=cbir9xs2skq]]"
 summary: "Field CTO for AI at Neo4j, specializing in knowledge graphs, GraphRAG architectures, and ontology-driven AI applications."
 provenance:
   extracted: 0.80
@@ -16,8 +16,7 @@ provenance:
 base_confidence: 0.55
 lifecycle: draft
 tier: supporting
-created: 2026-07-03
-updated: 2026-07-03
+updated: 2026-07-04
 ---
 
 # Jesús Barrasa
@@ -33,7 +32,7 @@ At the AI Engineer World's Fair 2025, Barrasa presented "Why Your Agent's Brain 
 - Advancing the [[concepts/graphrag|GraphRAG]] architecture with richer retrieval strategies combining vector search, graph contextualization, and structured queries
 - Identifying the **schema divergence problem** across structured and unstructured data pipelines
 - Promoting ontologies (W3C standards like OWL, RDF) as a shared, formal, implementation-agnostic schema for knowledge graph construction
-- Demonstrating ontology-driven dynamic retrievers where the ontology as a data artifact controls retriever behavior ^[extracted]
+- Co-presented "Practical GraphRAG: Making LLMs smarter with Knowledge Graphs" at AIEF2025 alongside [[entities/michael-hunger|Michael Hunger]] and [[entities/stephen-shin|Stephen Shin]], covering the case for GraphRAG, vector similarity vs. relevance, and the three-phase knowledge graph construction pipeline
 
 ## Related
 
@@ -45,4 +44,5 @@ At the AI Engineer World's Fair 2025, Barrasa presented "Why Your Agent's Brain 
 
 ## Sources
 
-- [[references/aief2025-why-your-agent-brain-needs-playbook-ontologies-jesus-barrasa|AIEF2025 — Why Your Agent's Brain Needs a Playbook]] — Full talk reference
+- [[references/aief2025-why-your-agent-brain-needs-playbook-ontologies-jesus-barrasa|AIEF2025 — Why Your Agent's Brain Needs a Playbook]] — Ontology-driven retrieval talk
+- "AIEF2025 - Practical GraphRAG: Making LLMs smarter with Knowledge Graphs — Michael, Jesus, and Stephen, Neo4j - https://www.youtube.com/watch?v=XNneh6-eyPg" — GraphRAG patterns and construction pipeline talk

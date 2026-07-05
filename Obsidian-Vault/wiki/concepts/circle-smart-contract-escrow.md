@@ -10,7 +10,7 @@ aliases:
   - escrow smart contract
   - Circle escrow contract
 sources:
-  - "AIEF2025 - Automating Escrow with USDC and AI - Corey Cooper, Circle - https://www.youtube.com/watch?v=AXMdSqdoGHM"
+  - "[[sources/watchv=axmdsqdoghm]]"
 summary: "A Solidity escrow contract pattern deployed via Circle's APIs, governing conditional USDC release between depositor, beneficiary, and an AI agent verifier."
 provenance:
   extracted: 0.80

@@ -1,81 +1,61 @@
 ---
-title: ".instructions Files"
+title: "Dot Instructions Files"
 tags:
-  - concept
-  - ai
-  - best-practice
-  - team-workflow
-  - github
+  - dot-instructions
+  - file-patterns
   - copilot
-aliases: [dot-instructions files, per-file-type instructions, pattern-based agent instructions]
-sources:
-  - "AIEF2025 - Collaborating with Agents in your Software Dev Workflow — Jon Peck & Christopher Harrison, Microsoft - https://www.youtube.com/watch?v=G1hhmz6mXT0"
-summary: "Per-file-type instruction files for AI coding tools, automatically applied based on filename pattern matching — ensuring consistent code generation across repeated task types."
+  - github
+  - aief2025
+  - code-standards
+summary: "Per-file-pattern instruction files (*.jsx, *.svelte, etc.) that automatically apply file-type-specific coding conventions to Copilot Chat and Agent Mode via filename matching."
 provenance:
-  extracted: 0.82
+  extracted: 0.80
   inferred: 0.15
-  ambiguous: 0.03
-base_confidence: 0.60
+  ambiguous: 0.05
+base_confidence: 0.70
 lifecycle: draft
+lifecycle_changed: 2026-07-05
 tier: supporting
-created: 2026-07-03
-updated: 2026-07-03
+created: 2026-07-05
+updated: 2026-07-05
+relationships:
+  - target: "[[concepts/copilot-instructions|Copilot Instructions]]"
+    type: complements
+  - target: "[[entities/github-copilot|GitHub Copilot]]"
+    type: feature-of
+  - target: "[[concepts/code-quality-as-context|Code Quality as Context]]"
+    type: implements
 ---
 
-# .instructions Files
+# Dot Instructions Files
 
-`.instructions` files are a pattern-based instruction mechanism for AI coding tools, enabling developers to define file-type-specific guidance that is automatically applied when the AI works on matching files. The feature was highlighted by [[entities/jon-peck|Jon Peck]] at AIEF2025 as a key tool for maintaining consistency in AI-generated code. ^[extracted]
+**Dot instructions files** are per-file-pattern instruction files that automatically apply file-type-specific coding conventions to [[entities/github-copilot|GitHub Copilot]] Chat and Agent Mode via filename pattern matching. ^[extracted]
 
 ## How It Works
 
-Rather than manually telling the AI how to structure every file, developers create `.instructions` files with filename pattern filters: ^[extracted]
+Each file pattern gets its own instruction file: ^[extracted]
 
-- `*.jsx`, `*.tsx` → React component instructions and patterns
-- `*.svelte` → Svelte component guidelines
-- `server/test_*` → Server test conventions
-- Any glob pattern matching files at a specific path
+- `*.jsx` / `*.tsx` → React component instructions
+- `*.svelte` → Svelte component instructions
+- `server/test_*` → server test instructions
+- Files can reference prototype files as examples ("use the games file as a template")
 
-## Key Capabilities
+These are automatically applied based on filename patterns when the user invokes Chat or Agent Mode.
 
-### Reference Prototype Files
+## Purpose
 
-Instructions can point to prototype files as examples: ^[extracted]
+[[entities/jon-peck|Jon Peck]] emphasizes their importance for consistency: "If I'm creating yet another React component, I probably want all of those to follow a particular pattern." ^[extracted]
 
-> "you see that games file over there? Use that. That's how I want this to be built. Hey, you see that test file? Use that. That's how I want it to be built."
+Dot instructions files ensure that file-type-specific conventions are applied consistently without the user having to repeat them in every prompt.
 
-### Automatic Application via Apply-To Patterns
+## Availability
 
-The `apply-to` header in the `.instructions` file defines which files the instructions automatically apply to, eliminating the need for manual context injection. ^[extracted]
+As presented at AIEF2025, dot instructions files were available in Copilot Chat but not yet in Coding Agent. ^[extracted]
 
-### Consistency Across Repeated Tasks
+## Relationship to Other Patterns
 
-Peck emphasizes the value for repetitive development patterns: ^[extracted]
-
-> "If I'm creating yet another React component... I probably want all of those to follow a particular pattern... Let's not start sending mixed messages."
-
-## Current Limitations
-
-- **Chat-only** — As of the talk, `.instructions` files are available in Copilot Chat (and Agent Mode in IDE), but not yet in the Coding Agent (GitHub.com) workflow. ^[extracted]
-- **Manual addition** — Can be manually added to chat even without pattern matching. ^[extracted]
-
-## Relationship to Copilot Instructions
-
-While [[concepts/copilot-instructions|Copilot Instructions]] (`.github/copilot-instructions.md`) provides global, repository-level guidance for all AI interactions, `.instructions` files offer granular, file-type-specific guidance. They are complementary: the global instructions set broad direction and standards; `.instructions` files provide detailed, pattern-specific templates. ^[inferred]
-
-## Practical Usage
-
-Peck describes using `.instructions` files for demo reliability — a probabilistic tool like GitHub Copilot needs consistency, and these files are the top tool for achieving it: ^[extracted]
-
-> "Instructions files have been probably the number one thing that I have leaned on to help ensure that I get some level of consistency."
-
-## Related
-
-- [[concepts/copilot-instructions]] — The repository-level global instructions file
-- [[concepts/context-engineering]] — Getting the right tokens into the model
-- [[concepts/issue-to-pr-pipeline]] — The autonomous pipeline where instructions guide agent behavior
-- [[entities/jon-peck]] — Speaker who demonstrated the feature
-- [[entities/github-copilot]] — The AI coding tool using these files
+Dot instructions files complement [[concepts/copilot-instructions|Copilot Instructions]] (global, repository-wide standards) by adding a file-pattern layer. ^[inferred] Together they form a two-tier instruction system: global standards at the repo level, and file-type conventions via dot instructions files. ^[inferred]
 
 ## Sources
 
-- AIEF2025 — Collaborating with Agents in your Software Dev Workflow, Jon Peck & Christopher Harrison, Microsoft. https://www.youtube.com/watch?v=G1hhmz6mXT0
+- AIEF2025 — The Agent Awakens: Collaborative Development with Copilot, Christopher Harrison, GitHub. https://www.youtube.com/watch?v=tHJSZ1-ZqcA

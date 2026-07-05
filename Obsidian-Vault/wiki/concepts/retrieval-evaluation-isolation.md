@@ -8,7 +8,7 @@ tags:
   - methodology
   - testing
 sources:
-  - "AI Engineer World's Fair 2025 — How to build world-class AI products — Sarah Sachs (AI lead @ Notion) & Carlos Esteban (Braintrust) - https://www.youtube.com/watch?v=6YdPI9YbjbI"
+  - "[[sources/watchv=6ydpi9ybjbi]]"
 summary: "A RAG evaluation pattern where the retrieval step is frozen or evaluated independently from the generation step, preventing retrieval changes from confounding generation quality measurement."
 provenance:
   extracted: 0.72

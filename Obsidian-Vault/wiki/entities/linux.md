@@ -6,7 +6,7 @@ created:
 updated:
   - 2026-06-30
 sources:
-  - "miscellaneous_1e6927"
+  - "[[sources/miscellaneous_1e6927]]"
 tags:
   - product
 aliases:

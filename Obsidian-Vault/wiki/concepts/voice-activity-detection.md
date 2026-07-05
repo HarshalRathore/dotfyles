@@ -8,7 +8,7 @@ tags:
   - turn-taking
   - audio
 sources:
-  - "AI Engineer World's Fair 2025 talk - Why ChatGPT Keeps Interrupting You — Dr. Tom Shapland, LiveKit - https://www.youtube.com/watch?v=1v9zBiZKlIY"
+  - "[[sources/watchv=1v9zbizkliy]]"
 summary: "A two-part system using a neural network (speech/not-speech classification) plus a silence algorithm to detect when a speaker has finished their turn in voice AI conversations."
 provenance:
   extracted: 0.75

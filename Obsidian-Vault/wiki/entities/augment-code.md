@@ -11,6 +11,7 @@ aliases:
   - augmentcode.com
   - "https://www.youtube.com/watch?v=6NIr_cYPglk"
   - "AIEF2025 - Vibes won't cut it — Chris Kelly, Augment Code - https://www.youtube.com/watch?v=Dc3qOA9WOnE"
+  - "AIEF2025 - Mentoring the Machine — Eric Hou, Augment Code - https://www.youtube.com/watch?v=Zniw5c9_jx8"
 summary: "AI-assisted coding platform focused on enterprise codebases, featuring a proprietary context engine that lifts codebase knowledge for LLMs. Provides chat, agent, and remote agent modes for code understanding, testing, and modernization."
 provenance:
   extracted: 0.75
@@ -20,7 +21,7 @@ base_confidence: 0.60
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
-updated: 2026-07-03
+updated: 2026-07-04
 ---
 
 # Augment Code
@@ -50,6 +51,11 @@ Augment positions itself as enterprise-first: designed for organizations with 10
 - [[entities/matt-ball|Matt Ball]] — Solutions Architect
 - [[entities/forrest-brazeal|Forrest Brazeal]] — Partner/advocate (not an employee)
 - [[entities/chris-kelly|Chris Kelly]] — Engineer
+- [[entities/eric-hou|Eric Hou]] — Member of Technical Staff
+
+## Mentoring Approach
+
+Augment's philosophy, articulated by [[entities/eric-hou|Eric Hou]], treats AI agents as **junior engineers that need mentoring** rather than tools to be commanded. ^[extracted] This approach has transformed how Augment operates: engineers scaffold and provide context rather than micromanaging, parallelize work through AI agents, and shift from implementation to evaluation. ^[extracted] A gRPC library upgrade touching 12 services and 20,000 lines of code — estimated at three weeks by normal organizations — was completed and tested by Augment agents in a single day. ^[extracted]
 
 ## Related
 

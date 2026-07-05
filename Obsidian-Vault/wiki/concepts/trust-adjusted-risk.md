@@ -8,7 +8,7 @@ tags:
   - enterprise
 aliases: [trust adjusted risk, TAR, trust risk premium, trust cost quantification]
 sources:
-  - "AI Engineer World's Fair 2025 - Critical AI Inference your CIO can Trust — Sahil Yadav, Hariharan Ganesan, Telemetrak - https://www.youtube.com/watch?v=6Tpm4m1YxHk"
+  - "[[sources/watchv=6tpm4m1yxhk]]"
 summary: "A metric that puts a dollar value on what happens when AI trust breaks — including fines, lost customers, reputational damage, and engineering effort. Designed to help CIOs quantify the business case for AI governance investment."
 provenance:
   extracted: 0.82

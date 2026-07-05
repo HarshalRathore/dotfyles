@@ -6,7 +6,7 @@ created:
 updated:
   - 2026-06-30
 sources:
-  - "bootstrapping-control-place_e4e0df"
+  - "[[sources/bootstrapping-control-place_e4e0df]]"
 tags:
   - deployment
 aliases:

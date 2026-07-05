@@ -7,7 +7,7 @@ relationships:
   - target: "[[concepts/browser-based-robotics-simulation]]"
     type: uses
 sources:
-  - "AI Engineer World's Fair 2025 talk - AI Engineer World's Fair 2025 Hackathon Presentations - https://www.youtube.com/watch?v=1ZlO9Yu2ZiU"
+  - "[[sources/watchv=1zlo9yu2ziu]]"
 summary: "A physics simulation engine originally built by Google DeepMind, widely used for robotics and reinforcement learning research. Supports 3D rendering of articulated robots with full physical dynamics."
 provenance:
   extracted: 0.70

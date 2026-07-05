@@ -8,7 +8,7 @@ tags:
   - reliability
   - patterns
 sources:
-  - "AIEF2025 - 12-Factor Agents: Patterns of Reliable LLM applications — Dex Horthy, HumanLayer - https://www.youtube.com/watch?v=8kMaTybvDUw"
+  - "[[sources/watchv=8kmatybvduw]]"
 summary: "AI Engineer World's Fair 2025 talk codifying 12 factors for building reliable LLM-based agents, grounded in software engineering principles rather than AI-specific abstractions."
 provenance:
   extracted: 0.85

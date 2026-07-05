@@ -4,10 +4,11 @@ category: entities
 tags: [company, infrastructure, cdn, compute, ai]
 aliases: [Cloudflare Workers, CF]
 sources:
-  - "AI Engineer World's Fair 2025 talk - Revenue Engineering: How to Price (and Reprice) Your AI Product — Kshitij Grover, Orb - https://www.youtube.com/watch?v=1C3sZbaxOmw"
-  - "AIEF2025 - The Unofficial Guide to Apple's Private Cloud Compute - Jmo, CONFSEC - https://www.youtube.com/watch?v=CCsWZ5bJlO8"
-  - "AIEF2025 - CIAM for AI: Authn/Authz for Agents — Michael Grinich, CEO of WorkOS - https://www.youtube.com/watch?v=D4Dswf-__RM"
-summary: "Cloud infrastructure and CDN company. Co-developed Oblivious HTTP (OHTTP) with Apple. Serves as the anonymizer relay for Apple's Private Cloud Compute. Workers platform enables CPU-millisecond pricing well-suited for AI agent workloads."
+  - "[[sources/watchv=1c3szbaxomw]]"
+  - "[[sources/watchv=ccswz5bjlo8]]"
+  - "[[sources/watchv=d4dswf-__rm]]"
+  - "AIEF2025 - Building Agents (the hard parts!) - Rita Kozlov, Cloudflare - https://www.youtube.com/watch?v=j_TKDweOsYE"
+summary: "Cloud infrastructure and CDN company. Co-developed Oblivious HTTP (OHTTP) with Apple. Serves as the anonymizer relay for Apple's Private Cloud Compute. Workers platform enables CPU-millisecond pricing well-suited for AI agent workloads. Hosts Durable Objects for stateful serverless primitives. Released Agents SDK for building and hosting AI agents and MCP servers."
 provenance:
   extracted: 0.80
   inferred: 0.15
@@ -48,7 +49,28 @@ Michael Grinich ([[entities/workos|WorkOS]]) at AI Engineer World's Fair 2025 ci
 
 This positions Cloudflare alongside WorkOS and Microsoft in the emerging [[concepts/agent-identity|agent identity]] infrastructure ecosystem. ^[inferred]
 
+## Developer Platform Mission
+
+Rita Kozlov (VP of Product for Cloudflare's developer platform) frames Cloudflare's mission for developers as making it as easy as possible to bring an idea to life — from writing the first line of code, to deploying to production, to going live for the first user and the millions that follow. ^[extracted]
+
+Cloudflare's developer services include functions (Workers), storage, compute, and AI inference. About 20% of Internet traffic flows through Cloudflare, so even users who haven't directly signed up have used Cloudflare's infrastructure (Uber, food delivery, etc.). ^[extracted]
+
+## Durable Objects and Stateful Serverless
+
+Cloudflare's Durable Objects are a serverless primitive with persistent state — analogous to serverless functions but with state management built in. They serve as the foundation for Cloudflare's Agents SDK, providing built-in state management for MCP servers and agent workflows without external database dependencies. ^[extracted]
+
+## Agents SDK
+
+Cloudflare released the Agents SDK, a development toolkit for building and hosting AI agents and MCP servers. Key capabilities:
++ Built-in `MCPAgents` class for hosting remote MCP servers with OAuth, transport (SSE/WebSockets), and HTTP streaming
++ State management via Durable Objects
++ OAuth abstraction — "for people who never want to touch OAuth again"
++ Cross-SDK compatibility with OpenAI's Agents SDK ^[extracted]
+
 ## Related
+- [[concepts/durable-objects]] — Durable Objects as stateful serverless primitive
+- [[entities/cloudflare-agents-sdk]] — Cloudflare's Agents SDK
+- [[concepts/model-context-protocol]] — MCP servers hosted on Cloudflare
 - [[concepts/pricing-as-friction]] — How pricing signals value
 - [[concepts/ai-native-pricing-principles]] — Margin structure as a pricing axis
 - [[references/revenue-engineering-pricing-ai-product-grover-orb]] — Source talk
@@ -57,3 +79,4 @@ This positions Cloudflare alongside WorkOS and Microsoft in the emerging [[conce
 - [[concepts/non-targetability|Non-Targetability]] — privacy property enabled by OHTTP routing
 - [[concepts/agent-middleware-trust-boundary]] — Cloudflare's network-layer MCP auth is an implementation of this pattern
 - [[concepts/agent-identity]] — The broader agent identity paradigm Cloudflare's MCP auth supports
+

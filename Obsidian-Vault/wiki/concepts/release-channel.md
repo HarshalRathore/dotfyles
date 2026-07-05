@@ -1,7 +1,7 @@
 ---
 title: "Release Channel"
 sources:
-  - "cluster-maintenance-draining-&-os-upgrades_98d707"
+  - "[[sources/cluster-maintenance-draining-&-os-upgrades_98d707]]"
 tags:
   - deployment
 aliases:

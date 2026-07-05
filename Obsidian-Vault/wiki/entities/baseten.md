@@ -7,7 +7,7 @@ tags:
   - infrastructure
 aliases: [B10, Baseten]
 sources:
-  - "AI Engineer World's Fair 2025 - The Rise of Open Models in the Enterprise — Amir Haghighat, Baseten - https://www.youtube.com/watch?v=3WV1vT0B0cg"
+  - "[[sources/watchv=3wv1vt0b0cg]]"
 summary: "Inference platform company founded in 2019. Provides horizontal AI infrastructure for enterprises to run and optimize model inference at production scale."
 provenance:
   extracted: 0.80
@@ -51,3 +51,4 @@ Baseten runs a multi-runtime inference stack spanning [[entities/sglang|SGLang]]
 ## Sources
 - AI Engineer World's Fair 2025 — The Rise of Open Models in the Enterprise, Amir Haghighat, Baseten. https://www.youtube.com/watch?v=3WV1vT0B0cg
 - AI Engineer World's Fair 2025 — Introduction to LLM serving with SGLang, Philip Kiely & Yineng Zhang. https://www.youtube.com/watch?v=Ahtaha9fEM0
+- AI Engineer World's Fair 2025 — Optimizing inference for voice models in production, Philip Kiely. https://www.youtube.com/watch?v=gmTHs5T_YAE

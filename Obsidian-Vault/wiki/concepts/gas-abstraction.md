@@ -10,7 +10,7 @@ aliases:
   - fee abstraction
   - paymaster
 sources:
-  - "AIEF2025 - Automating Escrow with USDC and AI - Corey Cooper, Circle - https://www.youtube.com/watch?v=AXMdSqdoGHM"
+  - "[[sources/watchv=axmdsqdoghm]]"
 summary: "Removing the requirement for end users to hold native blockchain tokens for gas fees, enabling them to pay transaction costs in USDC or fiat."
 provenance:
   extracted: 0.85

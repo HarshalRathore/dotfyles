@@ -1,7 +1,7 @@
 ---
 title: Chunking for Retrieval
 tags: [search, retrieval, preprocessing, chunking]
-sources: ["AI Engineer World's Fair 2025 - Information Retrieval from the Ground Up - Philipp Krenn, Elastic - https://www.youtube.com/watch?v=4Xe_iMYxBQc"]
+sources: ["[[sources/ai-engineer-worlds-fair-2025-information-retrieval-from-the-ground-up-philipp-krenn]]", "[[sources/watchv=4xe_imyxbqc]]"]
 summary: "Strategy for splitting documents into smaller segments before embedding for dense vector search. Crucial because dense vector representations can only hold limited context per chunk."
 provenance:
   extracted: 0.85

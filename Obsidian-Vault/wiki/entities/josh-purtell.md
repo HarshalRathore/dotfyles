@@ -5,7 +5,7 @@ tags:
   - ai-engineer
   - agents
 sources:
-  - "AI Engineer World's Fair 2025 - Stateful environments for vertical agents — Josh Purtell, Synth Labs - https://www.youtube.com/watch?v=5rMc-moNVx0"
+  - "[[sources/watchv=5rmc-monvx0]]"
 summary: "Founder of Synth Labs. Builds stateful environment abstractions for vertical AI agents, enabling production-grade agent tree search and rollback."
 provenance:
   extracted: 0.60

@@ -1,7 +1,7 @@
 ---
 title: Search Evaluation Methods
 tags: [search, evaluation, quality, metrics]
-sources: ["AI Engineer World's Fair 2025 - Information Retrieval from the Ground Up - Philipp Krenn, Elastic - https://www.youtube.com/watch?v=4Xe_iMYxBQc"]
+sources: ["[[sources/ai-engineer-worlds-fair-2025-information-retrieval-from-the-ground-up-philipp-krenn]]", "[[sources/watchv=4xe_imyxbqc]]"]
 summary: "Methods for measuring search result quality: golden datasets, clickstream analysis, LLM-as-judge, and human+LLM evaluation. Robust evaluation is rare but critical."
 provenance:
   extracted: 0.85

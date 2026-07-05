@@ -13,7 +13,7 @@ relationships:
   - target: "[[concepts/ai-first-transformation]]"
     type: related_to
 sources:
-  - "AI Engineer World's Fair 2025 — From Hype to Habit: How We're Building an AI-First SaaS Company—While Still Shipping the Roadmap — Rossella & Debsha, Sprout Social - https://www.youtube.com/watch?v=3YGRcgZJ3yc"
+  - "[[sources/watchv=3ygrcgzj3yc]]"
 summary: "The talent profile needed in AI-first companies: deep AI specialization combined with the ability to stretch wide, prototype quickly, collaborate across silos, and navigate ambiguity."
 provenance:
   extracted: 0.80

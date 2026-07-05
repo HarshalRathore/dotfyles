@@ -9,7 +9,7 @@ tags:
 aliases:
   - Netflix Inc.
 sources:
-  - "AIEF2025 - Netflix's Big Bet: One model to rule recommendations: Yesu Feng, Netflix - https://www.youtube.com/watch?v=AbZ4IYGbfpQ"
+  - "[[sources/watchv=abz4iygbfpq]]"
 summary: "Global streaming entertainment company that pioneered a single transformer-based foundation model for all recommendation and personalization use cases."
 provenance:
   extracted: 0.70

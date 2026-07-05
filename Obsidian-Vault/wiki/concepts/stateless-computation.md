@@ -6,7 +6,7 @@ tags:
   - privacy
   - security
 sources:
-  - "AIEF2025 - The Unofficial Guide to Apple's Private Cloud Compute - Jmo, CONFSEC - https://www.youtube.com/watch?v=CCsWZ5bJlO8"
+  - "[[sources/watchv=ccswz5bjlo8]]"
 summary: "Computation model where data is used only to satisfy the immediate request and cannot be logged, stored, or reused — enforced by eliminating persistent storage rather than by policy."
 provenance:
   extracted: 0.80

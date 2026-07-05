@@ -3,7 +3,7 @@ title: "autoresearch — Autonomous pretraining research (Andrej Karpathy)"
 category: misc
 tags: [ai, research, automation, llm-training, pi-autoresearch]
 sources:
-  - "autoresearch"
+  - "[[sources/autoresearch]]"
 source_url: "https://github.com/karpathy/autoresearch"
 created: 2026-07-01T00:20:00Z
 updated: 2026-07-01T00:20:00Z

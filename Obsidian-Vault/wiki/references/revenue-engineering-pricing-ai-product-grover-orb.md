@@ -4,7 +4,7 @@ category: references
 tags: [ai-engineering, pricing, monetization, ai-agents, conference-talk]
 aliases: [Pricing AI Products Grover, Revenue Engineering Talk AI Eng 2025]
 sources:
-  - "AI Engineer World's Fair 2025 talk - Revenue Engineering: How to Price (and Reprice) Your AI Product — Kshitij Grover, Orb - https://www.youtube.com/watch?v=1C3sZbaxOmw"
+  - "[[sources/watchv=1c3szbaxomw]]"
 summary: "Kshitij Grover, co-founder of Orb, argues pricing is a form of friction and outlines three principles for AI-native pricing: audience awareness, margin structure over literal margins, and flexibility to experiment frequently."
 provenance:
   extracted: 0.80

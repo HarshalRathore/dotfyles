@@ -5,7 +5,8 @@ tags:
   - harness
   - workos
 sources:
-  - "watchv=vy7o1g2ihy8"
+  - "[[sources/watchv=vy7o1g2ihy8]]"
+
 ---
 # Nick Nisi
 

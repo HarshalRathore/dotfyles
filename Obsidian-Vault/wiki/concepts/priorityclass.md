@@ -6,7 +6,7 @@ created:
 updated:
   - 2026-06-30
 sources:
-  - "priorityclasses_438f81"
+  - "[[sources/priorityclasses_438f81]]"
 tags:
   - deployment
 aliases:

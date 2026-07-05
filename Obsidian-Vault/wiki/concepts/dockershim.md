@@ -9,8 +9,9 @@ updated:
 lifecycle: draft
 base_confidence: 0.75
 sources:
-  - "scheduling_f2b3ef"
-  - "containerd-cri-etc_fb87d8"
+  - "[[sources/scheduling_f2b3ef]]"
+  - "[[sources/containerd-cri-etc_fb87d8]]"
+
 ---
 ## Applications
 - **Kubernetes Runtime Compatibility**: Enabled early Kubernetes adopters to leverage their existing Docker Engine installations as the node-level container runtime.

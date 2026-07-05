@@ -7,7 +7,7 @@ tags:
   - cloud-compute
   - architecture
 sources:
-  - "AIEF2025 - The Unofficial Guide to Apple's Private Cloud Compute - Jmo, CONFSEC - https://www.youtube.com/watch?v=CCsWZ5bJlO8"
+  - "[[sources/watchv=ccswz5bjlo8]]"
 summary: "Architectural pattern for delivering remote AI inference while preserving user privacy through stateless computation, enforceable guarantees, non-targetability, and verifiable transparency."
 provenance:
   extracted: 0.75

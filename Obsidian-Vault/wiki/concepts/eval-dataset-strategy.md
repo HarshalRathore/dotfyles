@@ -1,82 +1,65 @@
 ---
 title: "Eval Dataset Strategy"
+category: concepts
 tags:
-  - concept
-  - evaluation
+  - evals
   - dataset
-  - methodology
-  - synthetic-data
-  - production-logs
-aliases: [dataset bootstrapping, eval dataset build strategy, test case sourcing]
+  - production-ai
+  - data-collection
+  - test-design
+relationships:
+  - target: "[[concepts/application-layer-evals]]"
+    type: implements
+  - target: "[[concepts/online-evals]]"
+    type: extends
+  - target: "[[concepts/eval-ingredients-task-dataset-score]]"
+    type: implements
 sources:
-  - "AIEF2025 - [Evals Workshop] Mastering AI Evaluation: From Playground to Production - https://www.youtube.com/watch?v=9iN-cPnp7xg"
-summary: "A phased strategy for building evaluation datasets: start small with synthetic data, ground in real logs as the system matures, and incorporate human review to establish ground truth."
+  - "[[sources/watchv=mc55hdwlq4o]]"
 provenance:
-  extracted: 0.72
-  inferred: 0.23
+  extracted: 0.85
+  inferred: 0.10
   ambiguous: 0.05
-base_confidence: 0.55
+base_confidence: 0.70
 lifecycle: draft
 tier: supporting
-created: 2026-07-03
-updated: 2026-07-03
+created: 2026-07-04
+updated: 2026-07-05
 ---
 
 # Eval Dataset Strategy
 
-Building an evaluation dataset is a phased process: start small and iterate rather than waiting for the perfect "golden dataset." The key insight is that a minimal dataset with 10 rows and 1-2 scores provides immediate value — comprehensiveness comes through iteration. ^[extracted]
+An eval dataset strategy is the practice of building a test dataset that accurately represents the domain boundaries and difficulty spectrum of your application's real user queries. ^[extracted] The basketball court metaphor: your data points are positions on the court, with distance from the basket representing query difficulty. ^[extracted]
 
-## The Phases
+## Understanding Your Court
 
-### Phase 1: Synthetic Data
-Use an AI to generate initial test cases covering known use cases and edge cases. Synthetic data is a valid, efficient starting point: ^[extracted]
+The most important step in building evals is understanding your court — the boundaries of your app's domain. ^[extracted] You need to know:
+- Where the boundaries are (what queries are in-bounds vs out-of-bounds)
+- Where your system succeeds (blue = shot made)
+- Where your system fails (red = shot missed)
 
-- Generate diverse phrasings of the same question to test robustness
-- Cover the main user personas and interaction patterns
-- Include obvious edge cases
+## Data Collection Methods
 
-> "Is the dataset synthetic? Can it be synthetic? And the answer is, it's a great way to get started quickly, is having an AI generate those initial use cases." ^[extracted]
+Several methods for collecting real user queries to populate your eval dataset: ^[extracted]
 
-### Phase 2: Ground in Production Logs
-As the system runs (even in staging or internal use), capture real user interactions and add them to the dataset: ^[extracted]
+1. **Thumbs up / thumbs down data** — Noisy but can be good signal for where your app is struggling
+2. **Random log sampling** — Read through random samples in your observability logs (e.g., 100 samples per week) to understand user behavior
+3. **Community forums** — Users report issues with LLM behavior directly
+4. **Social media (X/Twitter)** — Can be noisy but surfaces real user frustration
 
-- Production logs surface actual user phrasings that synthetic data may miss
-- Real examples capture the long tail of unexpected inputs
-- The dataset naturally grows to cover the true domain of user needs
+There is no shortcut — you must do the work to understand what your court looks like. ^[extracted]
 
-> "If you start logging your real user interactions, even if it's just in staging or internally in your organization, you can start to increase the scope of the data set and it will start to become closer to the overall domain of use cases that users will interact with." ^[extracted]
+## Out-of-Bounds Trap
 
-### Phase 3: Human Review for Ground Truth
-Incorporate subject matter experts to: ^[extracted]
+A common mistake is spending time building evals for data your users don't care about. Out-of-bounds queries (e.g., "how many syllables are in caret" for a fruit letter counter) should be excluded from your eval dataset. ^[extracted] Don't try to be productive by making many evals that aren't applicable to your app. ^[inferred]
 
-- Review outputs and score them (thumbs up/down, criteria-based scoring)
-- Provide the "expected" column for dataset rows
-- Establish ground truth that the [[concepts/llm-judge-best-practices|LLM-as-judge]] can be calibrated against
+## Distribution Matters
 
-## Practical Tips
+A good eval dataset should not have a concentrated set of points. You want test cases distributed across the entire court — easy queries near the basket and hard queries far away. ^[extracted] When your dataset is well-distributed, you can clearly see which areas need prioritization (e.g., "the bottom right corner is where many users are struggling"). ^[extracted]
 
-**Start small, iterate** — "It doesn't need to be the largest data set of all time. It doesn't need to include all of your use cases, right? Just get started. Use synthetic data at first." ^[extracted]
+## Related
 
-**Don't wait for golden data** — "The thing to not do is wait until you have a hundred, 200, like you have this golden data set." ^[extracted]
-
-**Use the quality matrix** — If the [[concepts/eval-quality-matrix|eval quality matrix]] shows "Bad Output × Low Score," the dataset is working correctly and you need to improve the app, not the dataset. ^[inferred]
-
-## The Dataset Feedback Loop
-
-[[concepts/online-evals|Online evals]] complete the loop: ^[inferred]
-
-```
-Synthetic dataset → Deploy app → Production logs → Add real examples to dataset → Improved dataset → Better evals → Better app
-```
-
-Braintrust enables this by letting users add a production trace span directly to a dataset with one click — closing the gap between observed failures and the offline eval set. ^[extracted]
-
-## Relationship to Other Approaches
-
-- [[concepts/synthetic-eval-generation|Synthetic Eval Generation]] — detailed process for Phase 1 (generating synthetic test cases from source materials)
-- [[concepts/curated-dataset-strategy|Curated Dataset Strategy]] — applies Phase 3's human curation at scale
-- [[concepts/eval-ingredients-task-dataset-score|Eval Ingredients: Task, Dataset, Score]] — where the dataset fits in the eval framework
-
-## Sources
-
-- [[references/aief2025-evals-workshop-braintrust|AIEF2025 - [Evals Workshop] Mastering AI Evaluation: From Playground to Production]] — Braintrust workshop at AI Engineer World's Fair 2025
+- [[concepts/application-layer-evals|Application-Layer Evals]] — The broader evaluation paradigm
+- [[concepts/loop-automated-eval-optimization|Loop — Automated Eval Optimization Agent]] — automated dataset optimization
+- [[concepts/synthetic-eval-generation|Synthetic Eval Generation]] — LLM-generated test cases for eval datasets
+- [[references/aief2025-the-future-of-evals-ankur-goyal-braintrust|The Future of Evals — AIEF2025 Talk]] — Ankur Goyal's talk on automated evals

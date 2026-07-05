@@ -9,7 +9,7 @@ tags:
 aliases:
   - Taylor Smith
 sources:
-  - "AIEF2025 - Strategies for LLM Evals (GuideLLM, lm-eval-harness, OpenAI Evals Workshop) — Taylor Jordan Smith - https://www.youtube.com/watch?v=89NuzmKokIk"
+  - "[[sources/watchv=89nuzmkokik]]"
 summary: "AI developer advocate, evangelist, and technical marketing professional at Red Hat AI Business Unit. Presented the 'Strategies for LLM Evals' workshop at AI Engineer World's Fair 2025 covering the LLM Evaluation Pyramid."
 provenance:
   extracted: 0.85

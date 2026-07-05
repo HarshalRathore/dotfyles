@@ -3,8 +3,8 @@ title: "I wrote a 70x faster SQL parser while barely looking at the code (Robbie
 category: misc
 tags: [ai, agent-loop, sql, parser, rust, property-based-testing, posthog]
 sources:
-  - "sql-parser"
-  - "2072018523669533180"
+  - "[[sources/sql-parser]]"
+  - "[[sources/2072018523669533180]]"
 source_url: "https://posthog.com/blog/sql-parser"
 created: 2026-07-01T00:30:00Z
 updated: 2026-07-01T00:30:00Z

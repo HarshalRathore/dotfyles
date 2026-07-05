@@ -3,7 +3,7 @@ title: "Lexica"
 category: entities
 tags: [company, ai, generative-ai, image-generation]
 sources:
-  - "AI Engineer World's Fair 2025 talk — On Curiosity — Sharif Shameem, Lexica - https://www.youtube.com/watch?v=0F8mnGPUycY"
+  - "[[sources/watchv=0f8mngpuycy]]"
 summary: "AI company building generative models, specifically image models. Founded by Sharif Shameem."
 provenance:
   extracted: 0.70

@@ -9,8 +9,8 @@ aliases:
   - BlackRock
   - BlackRock Inc.
 sources:
-  - "AI Engineer World's Fair 2025 talk — How BlackRock Builds Custom Knowledge Apps at Scale — Vaibhav Page & Infant Vasanth, BlackRock - https://www.youtube.com/watch?v=08mH36_NVos"
-  - "AIEF2025 - Automating Escrow with USDC and AI - Corey Cooper, Circle - https://www.youtube.com/watch?v=AXMdSqdoGHM"
+  - "[[sources/watchv=08mh36_nvos]]"
+  - "[[sources/watchv=axmdsqdoghm]]"
 summary: "BlackRock is the world's largest asset manager, with a significant internal data platform and engineering organization that builds custom AI knowledge applications for investment operations teams. Also a major investor in Circle."
 provenance:
   extracted: 0.85

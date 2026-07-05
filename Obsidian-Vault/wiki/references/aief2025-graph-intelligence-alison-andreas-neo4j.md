@@ -8,7 +8,7 @@ tags:
   - community-detection
   - knowledge-graph
 sources:
-  - "AIEF2025 - Graph Intelligence: Enhance Reasoning and Retrieval Using Graph Analytics - Alison & Andreas, Neo4j - https://www.youtube.com/watch?v=GGxAQVbwBL4"
+  - "[[sources/watchv=ggxaqvbwbl4]]"
 summary: "How to apply graph data science algorithms — KNN similarity, community detection, PageRank, betweenness centrality — to improve RAG grounding data quality and retrieval diversity at scale. Introduces the Connect → Cluster → Curate framework."
 provenance:
   extracted: 0.85

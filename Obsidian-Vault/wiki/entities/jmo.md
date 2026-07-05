@@ -9,7 +9,7 @@ tags:
   - speaker
   - aief2025
 sources:
-  - "AIEF2025 - The Unofficial Guide to Apple's Private Cloud Compute - Jmo, CONFSEC - https://www.youtube.com/watch?v=CCsWZ5bJlO8"
+  - "[[sources/watchv=ccswz5bjlo8]]"
 summary: "Founder of Confidence Security, PhD in data science/biomedical informatics, former founder of two exited companies (AI/data and cybersecurity/infrastructure). Presented the unofficial guide to Apple's Private Cloud Compute at AIEF2025."
 provenance:
   extracted: 0.80

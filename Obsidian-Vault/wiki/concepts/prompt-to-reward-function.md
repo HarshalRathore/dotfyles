@@ -9,7 +9,7 @@ relationships:
   - target: "[[concepts/agentic-architecture]]"
     type: related_to
 sources:
-  - "AI Engineer World's Fair 2025 talk - AI Engineer World's Fair 2025 Hackathon Presentations - https://www.youtube.com/watch?v=1ZlO9Yu2ZiU"
+  - "[[sources/watchv=1zlo9yu2ziu]]"
 summary: "Using foundation models (O3, Opus, Gemini) to generate reinforcement learning reward functions from natural language descriptions, democratizing RL by removing the need for specialist math and coding."
 provenance:
   extracted: 0.65

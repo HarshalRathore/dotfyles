@@ -8,7 +8,7 @@ tags:
   - prediction
   - voice
 sources:
-  - "AI Engineer World's Fair 2025 talk - Why ChatGPT Keeps Interrupting You — Dr. Tom Shapland, LiveKit - https://www.youtube.com/watch?v=1v9zBiZKlIY"
+  - "[[sources/watchv=1v9zbizkliy]]"
 summary: "The three-stage model by which listeners predict when a speaker will finish their turn: semantic inference, syntactic refinement, and prosodic finalization, enabling responses faster than speech generation allows."
 provenance:
   extracted: 0.70

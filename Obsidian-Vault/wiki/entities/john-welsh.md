@@ -7,7 +7,7 @@ tags:
   - ai-engineering
   - tool-calling
 sources:
-  - "https://www.youtube.com/watch?v=0NHCyq8bBcM"
+  - "[[sources/watchv=0nhcyq8bbcm]]"
 summary: "Member of Technical Staff at Anthropic focused on MCP integration, tool calling systems, and large-scale AI infrastructure."
 provenance:
   extracted: 0.70

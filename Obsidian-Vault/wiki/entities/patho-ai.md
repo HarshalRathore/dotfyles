@@ -11,7 +11,7 @@ aliases:
   - Pato AI
   - Pato.ai
 sources:
-  - "AIEF2025 - Wisdom-Driven Knowledge Augmented Generation at Scale - Chin Keong Lam, Patho AI - https://www.youtube.com/watch?v=9AQOvT8LnMI"
+  - "[[sources/watchv=9aqovt8lnmi]]"
 summary: "AI consulting company founded by Chin Keong Lam, specializing in expert AI systems that use knowledge-augmented generation (KAG) and wisdom graphs for research and advisory tasks."
 provenance:
   extracted: 0.55

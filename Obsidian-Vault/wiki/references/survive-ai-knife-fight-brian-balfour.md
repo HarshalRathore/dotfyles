@@ -8,7 +8,7 @@ tags:
   - competitive-advantage
   - differentiation
 sources:
-  - "https://www.youtube.com/watch?v=1MVh05GDydE"
+  - "[[sources/watchv=1mvh05gdyde]]"
 summary: "AI Engineer World's Fair 2025 talk covering product strategy for building differentiated AI products in hyper-competitive markets, introducing the AI Lego Blocks Framework."
 provenance:
   extracted: 0.82

@@ -11,7 +11,7 @@ aliases:
   - KScale Labs
   - K-Skill Labs
 sources:
-  - "AIEF2025 - Your Personal Open-Source Humanoid Robot for $8,999 — JX Mo, K-Scale Labs - https://www.youtube.com/watch?v=BS92RdBvI90"
+  - "[[sources/watchv=bs92rdbvi90]]"
 summary: "Palo Alto-based startup (15 people) building fully open-source humanoid robots. Creators of K-Bot ($8,999), Z-Bot, KOS robotics OS, and KOS Sim digital twin. MIT-licensed hardware + software + ML stack."
 provenance:
   extracted: 0.80

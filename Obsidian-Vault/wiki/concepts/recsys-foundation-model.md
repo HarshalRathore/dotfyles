@@ -16,7 +16,7 @@ relationships:
   - target: "[[concepts/recsys-event-tokenization]]"
     type: uses
 sources:
-  - "AIEF2025 - Netflix's Big Bet: One model to rule recommendations: Yesu Feng, Netflix - https://www.youtube.com/watch?v=AbZ4IYGbfpQ"
+  - "[[sources/watchv=abz4iygbfpq]]"
 summary: "Architectural pattern where a single large transformer is pre-trained on all user interaction data, then adapted via fine-tuning, embedding push, or subgraph integration for downstream recommendation tasks."
 provenance:
   extracted: 0.75
@@ -98,6 +98,18 @@ Three key techniques borrowed from the LLM world:
 - **Generative retrieval for collections** — multi-step decoding at inference time to naturally handle business rules and diversity
 - **Faster adaptation via prompt tuning** — soft tokens swapped in/out at inference to prompt the FM to behave differently ^[extracted]
 
+## YouTube's Large Recommender Model (LRM)
+
+YouTube's parallel approach to foundation models for recommendations adapts [[entities/gemini|Gemini]] through continued pre-training on YouTube engagement data. Unlike Netflix's event-tokenization foundation model, YouTube's LRM uses [[concepts/semantic-video-tokenization|Semantic ID]] tokenization — videos are tokenized via RQVAE quantization into semantically meaningful tokens that the LLM can process. ^[extracted]
+
+Key differences from Netflix's approach:
+- **Tokenization**: YouTube uses RQVAE-quantized Semantic IDs; Netflix uses event tokenization (when/where/what)
+- **Base model**: YouTube adapts Gemini; Netflix trains from scratch on interaction data
+- **Pre-training**: YouTube uses continued pre-training on engagement sequences; Netflix uses multi-task auto-regressive pre-training ^[extracted]
+- **Consumption**: YouTube deploys custom small versions for each recommendation surface; Netflix uses subgraph integration, embedding push, and fine-tuning ^[extracted]
+
+LRM has been launched in production for YouTube's retrieval system and is being experimented with on ranking. It uses [[concepts/generative-retrieval-recsys|generative retrieval]] — decoding video recommendations directly as Semantic IDs from user prompts. ^[extracted]
+
 ## Related Concepts
 
 - [[concepts/unified-recommendation-models]] — broader category of using one model for many tasks
@@ -107,7 +119,14 @@ Three key techniques borrowed from the LLM world:
 - [[concepts/scaling-laws-recsys]] — evidence that scaling laws apply to recommendation systems
 - [[concepts/llm-data-augmentation-recsys]] — complementary LLM-driven approach for RecSys
 - [[entities/yesu-feng]] — architect of Netflix's recommendation foundation model
+- [[concepts/generative-retrieval-recsys]] — YouTube LRM's generative retrieval strategy
+- [[concepts/semantic-video-tokenization]] — YouTube's RQVAE-based SID tokenization
+- [[concepts/large-recommender-model]] — YouTube's Gemini-adapted foundation model
+- [[entities/youtube]] — Company deploying LRM at 2B+ DAU
 
 ## Sources
+- [[references/aief2025-teaching-gemini-to-speak-youtube-devansh-tandon|AIEF2025 - Teaching Gemini to Speak YouTube]] — YouTube's LRM approach
+
+- "AIEF2025 - Teaching Gemini to Speak YouTube: Adapting LLMs for Video Recommendations to 2B+DAU - Devansh Tandon - https://www.youtube.com/watch?v=LxQsQ3vZDqo"
 
 - [[references/aief2025-netflix-one-model-recommendations-yesu-feng|AIEF2025 — Netflix's Big Bet: One Model to Rule Recommendations]]

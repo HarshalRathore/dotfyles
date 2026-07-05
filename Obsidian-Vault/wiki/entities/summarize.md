@@ -15,8 +15,8 @@ aliases:
   - "@steipete/summarize"
   - summarize.sh
 sources:
-  - "github.com/steipete/summarize"
-  - "summarize.sh website"
+  - "[[sources/summarize]]"
+  - "[[sources/summarize-sh-website]]"
 base_confidence: 0.75
 lifecycle: draft
 lifecycle_changed: 2026-07-02

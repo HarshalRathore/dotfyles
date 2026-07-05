@@ -11,7 +11,7 @@ aliases:
   - Transparency Log
   - Verifiable Audit Log
 sources:
-  - "AIEF2025 - The Unofficial Guide to Apple's Private Cloud Compute - Jmo, CONFSEC - https://www.youtube.com/watch?v=CCsWZ5bJlO8"
+  - "[[sources/watchv=ccswz5bjlo8]]"
 summary: "Design principle that a system's state can be publicly and cryptographically audited — implemented via append-only, Merkle-tree-based logs that record every software deployment for offline verification."
 provenance:
   extracted: 0.78

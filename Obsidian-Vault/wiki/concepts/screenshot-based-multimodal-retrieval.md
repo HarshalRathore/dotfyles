@@ -6,7 +6,7 @@ tags:
   - rag
   - embeddings
 sources:
-  - "AI Engineer World's Fair 2025 - Building Multimodal AI Agents From Scratch — Apoorva Joshi, MongoDB - https://www.youtube.com/watch?v=640KMYtxCeI"
+  - "[[sources/watchv=640kmytxcei]]"
 summary: "A simplified approach to retrieving from mixed-modality documents by capturing page-level screenshots, embedding them with VLM-based multimodal embedding models, and storing image references alongside embeddings in a vector database."
 provenance:
   extracted: 0.82

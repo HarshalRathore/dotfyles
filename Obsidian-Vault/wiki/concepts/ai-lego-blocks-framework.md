@@ -4,7 +4,7 @@ category: concepts
 tags: [product-strategy, ai-product, differentiation, competitive-advantage]
 aliases: [Lego Blocks approach, AI Lego blocks, Lego block framework, assembled AI]
 sources:
-  - "AI Engineer World's Fair 2025 talk - Survive the AI Knife Fight: Building Products That Win — Brian Balfour, Reforge - https://www.youtube.com/watch?v=1MVh05GDydE"
+  - "[[sources/watchv=1mvh05gdyde]]"
 summary: "A framework for AI product differentiation: assemble off-the-shelf AI capabilities with proprietary data, functionality, and unmet customer need understanding to build moats."
 provenance:
   extracted: 0.80

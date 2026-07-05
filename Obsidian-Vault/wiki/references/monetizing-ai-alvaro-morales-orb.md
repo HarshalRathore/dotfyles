@@ -4,7 +4,7 @@ category: references
 tags: [ai-engineering, pricing, monetization, billing, conference-talk]
 aliases: [Alvaro Morales Pricing Talk, Monetizing AI Talk AI Eng 2025]
 sources:
-  - "AI Engineer World's Fair 2025 - Monetizing AI — Alvaro Morales, Orb - https://www.youtube.com/watch?v=6WQYLQB0odc"
+  - "[[sources/watchv=6wqylqb0odc]]"
 summary: "Alvaro Morales, CEO/co-founder of Orb, presents three frameworks for AI pricing: direct vs indirect monetization, value metric spectrum selection, and continuous experimentation via pricing simulation."
 provenance:
   extracted: 0.85

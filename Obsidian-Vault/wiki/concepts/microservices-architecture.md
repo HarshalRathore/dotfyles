@@ -6,7 +6,7 @@ created:
 updated:
   - 2026-06-30
 sources:
-  - "microservices-demo-projects_ac9b1f"
+  - "[[sources/microservices-demo-projects_ac9b1f]]"
 tags:
   - networking
 aliases:

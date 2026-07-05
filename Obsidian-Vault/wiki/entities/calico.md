@@ -6,7 +6,7 @@ created:
 updated:
   - 2026-06-30
 sources:
-  - "install-kubernetes-components_c70e92"
+  - "[[sources/install-kubernetes-components_c70e92]]"
 tags:
   - product
 aliases:

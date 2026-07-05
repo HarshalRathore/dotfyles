@@ -9,7 +9,7 @@ aliases:
   - Yesu Feng Netflix
   - Yisoo Feng
 sources:
-  - "AIEF2025 - Netflix's Big Bet: One model to rule recommendations: Yesu Feng, Netflix - https://www.youtube.com/watch?v=AbZ4IYGbfpQ"
+  - "[[sources/watchv=abz4iygbfpq]]"
 summary: "Netflix engineer who architected the company's unified recommendation foundation model, a single transformer-based model covering all personalization use cases."
 provenance:
   extracted: 0.70

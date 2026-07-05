@@ -8,7 +8,7 @@ tags:
   - reliability
   - methodology
 sources:
-  - "AI Engineer World's Fair 2025 talk — The Build-Operate Divide: Bridging Product Vision and AI Operational Reality — Jeremy (Freeplay) & Chris Hernandez (Chime) - https://www.youtube.com/watch?v=1__V4KTv_Gw"
+  - "[[sources/watchv=1__v4ktv_gw]]"
 summary: "The gap between AI product vision and operational reality where good product concepts fail to reach their potential due to operational challenges rather than technical limitations."
 provenance:
   extracted: 0.80

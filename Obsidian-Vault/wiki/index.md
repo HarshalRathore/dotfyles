@@ -1,858 +1,2763 @@
 # Wiki Index
 
-> Auto-generated knowledge base directory
+Generated: 2026-07-05T04:32:00.495217+00:00
 
-> Note: Text in backticks after page names shows aliases — alternative names, abbreviations, or translations.
-## Entities
+## concepts
 
-- [[entities/clay-bavor|clay-bavor]] - title: "Clay Bavor" ( #person #ai #entrepreneur #google-alumni)
-- [[entities/cleo-lant|cleo-lant]] `aliases: Cleo Lant, cleolant` - summary: "PostHog engineer and author of the stop-ai-slop evals guide and co-author of the self-driv
-- [[entities/josh-snyder|josh-snyder]] `aliases: Josh Snyder, joshsnyder` - summary: "PostHog engineer and co-author of the self-driving product improvement pipeline. Builds au
-- [[entities/robbie-coomber|robbie-coomber]] - title: "Robbie Coomber"
-- [[entities/manual-notes|manual-notes]] - type: entity
-- [[entities/andy-maguire|andy-maguire]] `aliases: Andy Maguire, andymaguire` - summary: "PostHog engineer and author of the scouting and self-driving agent pipeline. Known for dev
-- [[entities/kubectl-set-image-command|kubectl-set-image-command]] - type: entity
-- [[entities/luke-alvoeiro|luke-alvoeiro]] `aliases: Luke Alvoeiro, lukealvoeiro` - summary: "Creator of the Goose open-source coding agent. Leads core agent harness at Factory, buildi
-- [[entities/nick-nisi|nick-nisi]] - title: "Nick Nisi"
-- [[entities/tejas-kumar|tejas-kumar]] - title: "Tejas Kumar"
-- [[entities/liquid-ai|liquid-ai]] - title: "Liquid AI"
-- [[entities/maxime-labonne|maxime-labonne]] - title: "Maxime Labonne"
-- [[entities/matt-pocock|matt-pocock]] - title: "Matt Pocock"
-- [[entities/aiden-bai|aiden-bai]] `aliases: aidenybai, Aiden Bai, Million Software` - summary: "Creator of React Scan and Million.js. Open-source developer focused on React performance t
-- [[entities/boris-cherny|boris-cherny]] - title: "Boris Cherny"
-- [[entities/peter-steinberger|peter-steinberger]] `aliases: steipete, @steipete` - summary: "Creator of summarize (CLI + Chrome Side Panel for LLM summarization), birdclaw (Twitter/X archive), and the bird CLI. Independent iOS/macOS developer." ( #person #open-source #llm #tools)
-- [[entities/summarize|summarize]] `aliases: summarize CLI, @steipete/summarize, summarize.sh` - summary: "CLI tool and Chrome Side Panel for extracting clean text from URLs/files/media and summarizing via any LLM. Free, open source, MIT." ( #tool #cli #llm #open-source #summarization)
-- [[entities/birdclaw|birdclaw]] `aliases: BirdClaw` - summary: "Local-first Twitter/X archive and operator console in SQLite. CLI + web UI for tweets, DMs, likes, bookmarks. Free, MIT licensed, no X subscription needed." ( #tool #twitter #open-source)
-- [[entities/crun|crun]] - type: entity
-- [[entities/clickhouse|clickhouse]] - title: "ClickHouse"
-- [[entities/posthog|posthog]] - title: "PostHog"
-- [[entities/andrej-karpathy|andrej-karpathy]] - title: "Andrej Karpathy"
-- [[entities/geoffrey-huntley|geoffrey-huntley]] `aliases: ghuntley, Geoffrey Huntley, @GeoffreyHuntley, geoff` - summary: "Creator of the Ralph coding technique. Architect of CURSED programming language, author of
-- [[entities/cni-ipam-specification|cni-ipam-specification]] - type: entity
-- [[entities/glusterd-source|glusterd-source]] - type: entity
-- [[entities/master-node|master-node]] - type: entity
-- [[entities/deployments|deployments]] - type: entity
-- [[entities/kube-controller-manager|kube-controller-manager]] - type: entity
-- [[entities/busybox|busybox]] `aliases: BusyBox, Busy Box, bb` - summary: "BusyBox is a lightweight multi-call binary combining common Unix utilities into a single e
-- [[entities/open-policy-agent-opa|open-policy-agent-opa]] `aliases: OPA, OpenPolicyAgent` - summary: "Open Policy Agent (OPA) is an open-source project that provides a general-purpose policy e
-- [[entities/kubernetes-v1-24|kubernetes-v1-24]] `aliases: Kubernetes 1.24, v1.24 release, Kubernetes v1.24` - summary: "Kubernetes v1.24 was a major release of the [[entities/kubernetes|Kubernetes]] container o
-- [[entities/runc|runc]] `aliases: runC low-level runtime, run container` - summary: "runC is a lightweight and portable container runtime that implements the OCI runtime speci
-- [[entities/rkt|rkt]] `aliases: Rocket, rkt container runtime` - summary: "rkt (pronounced 'rocket') was an application container engine developed by [[entities/dock
-- [[entities/glusterd|glusterd]] `aliases: GlusterFS daemon, glusterd` - summary: "Glusterd is the management daemon component of GlusterFS, an open-source, scalable distrib
-- [[entities/ceph|ceph]] `aliases: Ceph storage, CephFS, RADOS` - summary: "Ceph is an open-source distributed storage system designed to provide highly reliable obje
-- [[entities/fluent-bit|fluent-bit]] `aliases: Fluent Bit, fluent-bit, Fluent Bit Agent` - summary: "Fluent Bit is an open-source, lightweight, and high-performance log processor and forwarde
-- [[entities/fluentd|fluentd]] `aliases: Fluentd logging agent, Unified Logging System, fluentd` - summary: "Fluentd is an open-source data collector designed for unified logging, commonly deployed i
-- [[entities/prometheus-node-exporter|prometheus-node-exporter]] `aliases: Node Exporter, node_exporter` - summary: "Prometheus Node Exporter is a standard tool within the Prometheus monitoring ecosystem des
-- [[entities/metrics-server|metrics-server]] `aliases: Kubernetes Metrics Server, Metrics Server for Kubernetes` - summary: "Metrics Server is a cluster component that collects resource usage data from nodes and pod
-- [[entities/cri-o|cri-o]] `aliases: CRI-O runtime, Container Runtime Interface - Open, CRI-O Container Runtime` - summary: "CRI-O is an open-source, lightweight container runtime specifically designed for Kubernete
-- [[entities/host-local|host-local]] `aliases: host-local IPAM, host-local CNI plugin` - summary: "`host-local` is a Container Network Interface (CNI) IP Address Management (IPAM) plugin re
-- [[entities/ctr|ctr]] `aliases: containerd debug CLI, ctr CLI, containerd CLI` - summary: "ctr is the low-level debug CLI bundled with [[entities/containerd|containerd]], offering b
-- [[entities/crictl|crictl]] `aliases: CRI CLI, CRI debug tool` - summary: "Kubernetes-related concept or topic."
-- [[entities/nerdctl|nerdctl]] `aliases: nerdctl CLI, nerdctl command-line tool` - summary: "> - 'nerdctl (Docker-like Containerd client) — [[concepts/scheduling-framework|Scheduling]
-- [[entities/open-container-initiative-oci|open-container-initiative-oci]] `aliases: OCI, Open Container Standards` - summary: "> - 'Containerd splits off as its own CNCF-graduated project, implements the OCI runtime s
-- [[entities/cncf|cncf]] `aliases: Cloud Native Computing Foundation, CNCF` - summary: "The Cloud Native Computing Foundation (CNCF) is a prominent organization within the Linux 
-- [[entities/weavenet|weavenet]] `aliases: Weave Net, weaveNet, Weave CNI` - summary: "WeaveNet is a Container Networking Interface (CNI) plugin that provides networking capabil
-- [[entities/microsoft’s-eshop-reference-application|microsoft’s-eshop-reference-application]] `aliases: eShopOnContainers, dotnet/eShop, eShop Sample App` - summary: "Microsoft’s eShop Reference Application is an open-source sample e-commerce platform built
-- [[entities/helm|helm]] `aliases: Helm, Helm charts, Helm package manager` - summary: "Helm is a package manager and deployment tool for [[entities/kubernetes|Kubernetes]] that 
-- [[entities/google’s-online-boutique|google’s-online-boutique]] `aliases: Hipster Shop, Online Boutique, Google's Microservices Demo` - summary: "Google’s Online Boutique, also known as Hipster Shop, is an open-source e-commerce demonst
-- [[entities/cisco’s-martianbank|cisco’s-martianbank]] `aliases: MartianBank, Cisco MartianBank` - summary: "Cisco’s MartianBank is an open-source demo project that simulates a banking application to
-- [[entities/weaveworks’-sock-shop|weaveworks’-sock-shop]] `aliases: Sock Shop, Weaveworks Sock Shop, Sock Shop Demo` - summary: "Weaveworks’ Sock Shop is an open-source, microservices-based online store application desi
-- [[entities/linux|linux]] `aliases: Linux kernel, GNU/Linux` - summary: "Linux is a free and open-source Unix-like operating system kernel first released by Linus 
-- [[entities/docker|docker]] `aliases: Docker Engine, docker daemon, Docker` - summary: "Docker is a pioneering platform for developing, shipping, and running applications inside 
-- [[entities/docker-compose|docker-compose]] `aliases: compose, docker-compose` - summary: "Docker Compose is a tool for defining and running multi-container [[entities/docker|Docker
-- [[entities/openssl|openssl]] `aliases: OpenSSL Software, OpenSSL Toolkit` - summary: "OpenSSL is a widely used open-source cryptographic software library and toolkit. It provid
-- [[entities/certificate-authority|certificate-authority]] `aliases: CA, Trusted Third Party` - summary: "A Certificate Authority (CA) is a trusted third-party organization that is fundamental to 
-- [[entities/coredns|coredns]] `aliases: Cluster DNS, DNS Add-on` - summary: "CoreDNS is a flexible and extensible DNS server that serves as the standard for in-cluster
-- [[entities/flannel|flannel]] `aliases: Flannel CNI, Flannel (CNI), Flannel CNI Plugin` - summary: "Flannel is a simple overlay network designed to fulfill the networking requirements of a [
-- [[entities/calico|calico]] `aliases: Project Calico, Calico CNI` - summary: "Calico is an open-source networking and network security solution designed for cloud-nativ
-- [[entities/pods|pods]] `aliases: Pod, pod, pods` - summary: "A Pod is the smallest deployable unit in [[entities/kubernetes|Kubernetes]], representing 
-- [[entities/worker-node-2|worker-node-2]] `aliases: worker node 2, Worker Node, worker-node-2` - summary: "worker-node-2 is one of two EC2 instances provisioned to run application workloads in a se
-- [[entities/worker-node-1|worker-node-1]] `aliases: worker node 1, Worker Node, Worker Node 1` - summary: "worker-node-1 is one of the two dedicated EC2 instances provisioned to form the worker nod
-- [[entities/ssh|ssh]] `aliases: Secure Shell, SSH access` - summary: "SSH (Secure Shell) is the cryptographic network protocol used for secure remote command-li
-- [[entities/iam|iam]] `aliases: Identity and Access Management, AWS IAM, Amazon IAM` - summary: "AWS Identity and Access Management (IAM) is a core service of [[entities/aws|AWS]] that pr
-- [[entities/ec2|ec2]] `aliases: Elastic Compute Cloud, EC2` - summary: "Amazon EC2, short for Elastic Compute Cloud, is a core [[entities/aws|AWS]] service that p
-- [[entities/ubuntu-server|ubuntu-server]] `aliases: Ubuntu OS` - summary: "Ubuntu Server is a popular, lightweight, and cloud-friendly Linux distribution designed fo
-- [[entities/aws|aws]] `aliases: Amazon Web Services, Amazon Cloud` - summary: "Amazon Web Services (AWS) is a comprehensive cloud computing platform provided by Amazon. 
-- [[entities/kubectl|kubectl]] `aliases: Kubernetes command-line tool, kubectl CLI` - summary: "kubectl is the official command-line interface tool for interacting with the [[entities/ku
-- [[entities/kubeadm|kubeadm]] `aliases: kubeadm, kubeadm tool` - summary: "kubeadm is a CLI tool from the [[entities/kubernetes|Kubernetes]] project that automates t
-- [[entities/containerd|containerd]] `aliases: containerd runtime, containerd.io` - summary: "containerd is a CNCF-graduated, production-grade container runtime that implements the Kub
-- [[entities/kubelet|kubelet]] `aliases: Kubelet Agent, Node Agent` - summary: "The **kubelet** is the primary node agent that runs on every node in a Kubernetes cluster.
-- [[entities/kubernetes|kubernetes]] `aliases: K8s, Kubernetes` - summary: "Kubernetes is an open-source container orchestration platform for automating deployment, s
-- [[entities/etcd|etcd]] `aliases: etcd database` - summary: "> - 'Run `kube-apiserver`, `etcd`, `kube-controller-manager`, and `kube-scheduler` themsel
-- [[entities/ben-kus|ben-kus]] - title: "Ben Kus"
-- [[entities/box|box]] - title: "Box"
+- [[concepts/10x-generalist-hiring.md]]
+- [[concepts/12-factor-agents.md]]
+- [[concepts/360brew.md]]
+- [[concepts/abac.md]]
+- [[concepts/abstract-reasoning.md]]
+- [[concepts/access-control-matrix.md]]
+- [[concepts/access-token.md]]
+- [[concepts/action-groups.md]]
+- [[concepts/action-models.md]]
+- [[concepts/actor-model-software.md]]
+- [[concepts/adaptive-evals.md]]
+- [[concepts/add-ons-deployment.md]]
+- [[concepts/admission-controller.md]]
+- [[concepts/adoption-threshold.md]]
+- [[concepts/advantage-estimation.md]]
+- [[concepts/aes-256-gcm.md]]
+- [[concepts/aes-cbc.md]]
+- [[concepts/affordance-thinking.md]]
+- [[concepts/agency-effectiveness-axis.md]]
+- [[concepts/agent-adoption-surge.md]]
+- [[concepts/agent-aliasing-and-versioning.md]]
+- [[concepts/agent-architecture.md]]
+- [[concepts/agent-as-laundry.md]]
+- [[concepts/agent-as-optimizer.md]]
+- [[concepts/agent-as-teammate.md]]
+- [[concepts/agent-as-user.md]]
+- [[concepts/agent-at-scale.md]]
+- [[concepts/agent-autonomy-gap.md]]
+- [[concepts/agent-autonomy-spectrum.md]]
+- [[concepts/agent-autonomy.md]]
+- [[concepts/agent-background-work.md]]
+- [[concepts/agent-best-practices.md]]
+- [[concepts/agent-capability-tiers.md]]
+- [[concepts/agent-checkout.md]]
+- [[concepts/agent-code-editor.md]]
+- [[concepts/agent-code-sandbox.md]]
+- [[concepts/agent-coordination.md]]
+- [[concepts/agent-cost-predictability.md]]
+- [[concepts/agent-deployment-challenges.md]]
+- [[concepts/agent-design-patterns.md]]
+- [[concepts/agent-dev-mode.md]]
+- [[concepts/agent-development-lifecycle.md]]
+- [[concepts/agent-driven-development-shift.md]]
+- [[concepts/agent-driven-development.md]]
+- [[concepts/agent-economy-impact.md]]
+- [[concepts/agent-environment.md]]
+- [[concepts/agent-evaluation-pipeline.md]]
+- [[concepts/agent-evaluation-role.md]]
+- [[concepts/agent-evaluations.md]]
+- [[concepts/agent-evolution-co-pilot-to-agent.md]]
+- [[concepts/agent-evolution.md]]
+- [[concepts/agent-exit-strategies.md]]
+- [[concepts/agent-experience.md]]
+- [[concepts/agent-factory.md]]
+- [[concepts/agent-failure-modes.md]]
+- [[concepts/agent-first-class-infrastructure.md]]
+- [[concepts/agent-fleet-architecture.md]]
+- [[concepts/agent-gateway.md]]
+- [[concepts/agent-guardrails.md]]
+- [[concepts/agent-handler-convention.md]]
+- [[concepts/agent-history-in-production.md]]
+- [[concepts/agent-human-interaction.md]]
+- [[concepts/agent-identity-and-payments.md]]
+- [[concepts/agent-identity.md]]
+- [[concepts/agent-infrastructure.md]]
+- [[concepts/agent-interfaces-evolution.md]]
+- [[concepts/agent-isolation.md]]
+- [[concepts/agent-iteration-loop.md]]
+- [[concepts/agent-loop.md]]
+- [[concepts/agent-memory-knowledge.md]]
+- [[concepts/agent-memory-types.md]]
+- [[concepts/agent-mentoring-model.md]]
+- [[concepts/agent-middleware-trust-boundary.md]]
+- [[concepts/agent-native-development.md]]
+- [[concepts/agent-native-runtime.md]]
+- [[concepts/agent-negotiation.md]]
+- [[concepts/agent-oauth-identity.md]]
+- [[concepts/agent-observability.md]]
+- [[concepts/agent-preparedness-framework.md]]
+- [[concepts/agent-prototype-vs-product.md]]
+- [[concepts/agent-rails.md]]
+- [[concepts/agent-readable-docs.md]]
+- [[concepts/agent-reliability-challenge.md]]
+- [[concepts/agent-robustness.md]]
+- [[concepts/agent-routing.md]]
+- [[concepts/agent-run-variability.md]]
+- [[concepts/agent-runtimes.md]]
+- [[concepts/agent-sandboxing.md]]
+- [[concepts/agent-security.md]]
+- [[concepts/agent-self-observability.md]]
+- [[concepts/agent-stack-for-unstructured-data.md]]
+- [[concepts/agent-stack-normalization.md]]
+- [[concepts/agent-swarm.md]]
+- [[concepts/agent-systemic-evaluation.md]]
+- [[concepts/agent-teammate-relationship.md]]
+- [[concepts/agent-terminal.md]]
+- [[concepts/agent-to-agent-communication.md]]
+- [[concepts/agent-to-agent-observability.md]]
+- [[concepts/agent-to-agent-payments.md]]
+- [[concepts/agent-tool-calling.md]]
+- [[concepts/agent-tool-discovery.md]]
+- [[concepts/agent-tools.md]]
+- [[concepts/agent-traffic-inversion.md]]
+- [[concepts/agent-tree-search.md]]
+- [[concepts/agent-vs-code-gen.md]]
+- [[concepts/agent-vs-workflow.md]]
+- [[concepts/agent-web-browsing.md]]
+- [[concepts/agent-workflow-loop.md]]
+- [[concepts/agent-workflows.md]]
+- [[concepts/agentic-architecture.md]]
+- [[concepts/agentic-benchmark-progress.md]]
+- [[concepts/agentic-coding.md]]
+- [[concepts/agentic-commerce.md]]
+- [[concepts/agentic-dials.md]]
+- [[concepts/agentic-evaluators.md]]
+- [[concepts/agentic-mesh.md]]
+- [[concepts/agentic-models.md]]
+- [[concepts/agentic-rag.md]]
+- [[concepts/agentic-reasoning.md]]
+- [[concepts/agentic-retrieval.md]]
+- [[concepts/agentic-science.md]]
+- [[concepts/agentic-semantic-layer.md]]
+- [[concepts/agentic-services.md]]
+- [[concepts/agentic-web.md]]
+- [[concepts/agentic-workflow-latency.md]]
+- [[concepts/agentic-workflow-vs-workflow-agent.md]]
+- [[concepts/agenticity-spectrum.md]]
+- [[concepts/agents-with-models-of-mind.md]]
+- [[concepts/agi-challenges.md]]
+- [[concepts/agi-question-definition.md]]
+- [[concepts/agi-vs-software.md]]
+- [[concepts/agi.md]]
+- [[concepts/ai-adoption-acceleration.md]]
+- [[concepts/ai-agent-data-pipeline.md]]
+- [[concepts/ai-agent-disclosure-norms.md]]
+- [[concepts/ai-agent-gateway.md]]
+- [[concepts/ai-agent-observability.md]]
+- [[concepts/ai-app-ideation-methods.md]]
+- [[concepts/ai-app-viability-through-simplicity.md]]
+- [[concepts/ai-application-data-requirements.md]]
+- [[concepts/ai-application-tiers.md]]
+- [[concepts/ai-architect.md]]
+- [[concepts/ai-as-skill-multiplier.md]]
+- [[concepts/ai-audits-accessibility-security.md]]
+- [[concepts/ai-augmentation-10x.md]]
+- [[concepts/ai-bot-defense.md]]
+- [[concepts/ai-bubble-narrative.md]]
+- [[concepts/ai-builder-tools.md]]
+- [[concepts/ai-capability-first.md]]
+- [[concepts/ai-cheating-technical-interviews.md]]
+- [[concepts/ai-coding-as-agents-primary-interface.md]]
+- [[concepts/ai-coding-assistance.md]]
+- [[concepts/ai-collaboration-skills.md]]
+- [[concepts/ai-compute-scale.md]]
+- [[concepts/ai-coworker-form-factors.md]]
+- [[concepts/ai-crawler-landscape.md]]
+- [[concepts/ai-creative-suite.md]]
+- [[concepts/ai-data-output-flywheel.md]]
+- [[concepts/ai-design-sense.md]]
+- [[concepts/ai-developer-productivity.md]]
+- [[concepts/ai-developer-tool-generations.md]]
+- [[concepts/ai-diplomacy.md]]
+- [[concepts/ai-displacement-engineering.md]]
+- [[concepts/ai-driven-experimentation.md]]
+- [[concepts/ai-education-summit.md]]
+- [[concepts/ai-engineering-as-excavation.md]]
+- [[concepts/ai-engineering-survey-methodology.md]]
+- [[concepts/ai-engineering-title-confusion.md]]
+- [[concepts/ai-engineering.md]]
+- [[concepts/ai-entomology.md]]
+- [[concepts/ai-era-talent-competition.md]]
+- [[concepts/ai-escrow-automation.md]]
+- [[concepts/ai-ethics-creator-responsibility.md]]
+- [[concepts/ai-eval-beyond-sweebench.md]]
+- [[concepts/ai-evaluation-benchmarks.md]]
+- [[concepts/ai-evaluation-market-history.md]]
+- [[concepts/ai-evaluation.md]]
+- [[concepts/ai-first-company-announcements.md]]
+- [[concepts/ai-first-firm.md]]
+- [[concepts/ai-first-transformation.md]]
+- [[concepts/ai-flows.md]]
+- [[concepts/ai-fluency.md]]
+- [[concepts/ai-governance-omb.md]]
+- [[concepts/ai-governance-standards.md]]
+- [[concepts/ai-governance.md]]
+- [[concepts/ai-harness.md]]
+- [[concepts/ai-hide-from-user.md]]
+- [[concepts/ai-hiring-trade-offs.md]]
+- [[concepts/ai-human-perception-contagion.md]]
+- [[concepts/ai-impact-categories.md]]
+- [[concepts/ai-in-healthcare-clinical.md]]
+- [[concepts/ai-in-healthcare-finance.md]]
+- [[concepts/ai-integration-patterns.md]]
+- [[concepts/ai-intensive-applications.md]]
+- [[concepts/ai-intuition.md]]
+- [[concepts/ai-iteration-loop.md]]
+- [[concepts/ai-language-culture-understanding.md]]
+- [[concepts/ai-leapfrog-effect.md]]
+- [[concepts/ai-lego-blocks-framework.md]]
+- [[concepts/ai-multiplication.md]]
+- [[concepts/ai-music-generation.md]]
+- [[concepts/ai-native-company.md]]
+- [[concepts/ai-native-diagram-generation.md]]
+- [[concepts/ai-native-lakehouse.md]]
+- [[concepts/ai-native-pricing-principles.md]]
+- [[concepts/ai-native-product-design.md]]
+- [[concepts/ai-native-search.md]]
+- [[concepts/ai-native-toolchain.md]]
+- [[concepts/ai-news-pipeline.md]]
+- [[concepts/ai-observability-production-logging.md]]
+- [[concepts/ai-ops-evolution.md]]
+- [[concepts/ai-pair-programmer-analogy.md]]
+- [[concepts/ai-partnership-trust.md]]
+- [[concepts/ai-powered-devops.md]]
+- [[concepts/ai-powered-search.md]]
+- [[concepts/ai-product-fit.md]]
+- [[concepts/ai-product-manager.md]]
+- [[concepts/ai-product-rebuilding-wave.md]]
+- [[concepts/ai-productivity-measurement.md]]
+- [[concepts/ai-quality-lead.md]]
+- [[concepts/ai-red-team-blue-team.md]]
+- [[concepts/ai-red-teaming.md]]
+- [[concepts/ai-regression-testing.md]]
+- [[concepts/ai-sdr.md]]
+- [[concepts/ai-sideshow-pattern.md]]
+- [[concepts/ai-sideshow.md]]
+- [[concepts/ai-simulation-hypothesis.md]]
+- [[concepts/ai-skeptic-to-champion-pipeline.md]]
+- [[concepts/ai-skunkworks.md]]
+- [[concepts/ai-spend-trends.md]]
+- [[concepts/ai-takes-tedious-work-first.md]]
+- [[concepts/ai-team-anatomy.md]]
+- [[concepts/ai-team-bottleneck-identification.md]]
+- [[concepts/ai-teammates-insufficient.md]]
+- [[concepts/ai-to-ai-verification.md]]
+- [[concepts/ai-toolkit-vscode.md]]
+- [[concepts/ai-trust-pillars.md]]
+- [[concepts/ai-voice-assistant-quality.md]]
+- [[concepts/ai-workload-orchestration.md]]
+- [[concepts/aiops.md]]
+- [[concepts/alert-fatigue-ai-agents.md]]
+- [[concepts/all-ai-is-distributed-systems.md]]
+- [[concepts/always-on-ai.md]]
+- [[concepts/alwaysallow-and-alwaysdeny.md]]
+- [[concepts/alwayspullimages.md]]
+- [[concepts/ambient-agents.md]]
+- [[concepts/ambient-clinical-documentation.md]]
+- [[concepts/ambient-noise-resilience.md]]
+- [[concepts/ambitious-evals-for-future-models.md]]
+- [[concepts/ampere-s-wager.md]]
+- [[concepts/analysis-pipeline.md]]
+- [[concepts/ann-quality-aware-benchmarking.md]]
+- [[concepts/annotation-augmented-video-understanding.md]]
+- [[concepts/annotations.md]]
+- [[concepts/anthropic-claude-agent-demo.md]]
+- [[concepts/anti-powerpoint.md]]
+- [[concepts/api-first-design-for-agents.md]]
+- [[concepts/api-groups.md]]
+- [[concepts/application-latency-tolerance.md]]
+- [[concepts/application-layer-evals.md]]
+- [[concepts/application-observability-graph.md]]
+- [[concepts/arc-agi-3.md]]
+- [[concepts/aspect-based-evals.md]]
+- [[concepts/assistive-vs-automation-agents.md]]
+- [[concepts/asymmetric-encryption.md]]
+- [[concepts/asynchronous-coding-agents.md]]
+- [[concepts/attack-strategies.md]]
+- [[concepts/audio-decoding-pipeline.md]]
+- [[concepts/audio-event-tagging.md]]
+- [[concepts/augmented-llm-foundations.md]]
+- [[concepts/authentication-kubernetes.md]]
+- [[concepts/authentication-vs-authorization.md]]
+- [[concepts/authorization-kubernetes.md]]
+- [[concepts/authorization-modes.md]]
+- [[concepts/authorization-server.md]]
+- [[concepts/auto-approve-copilot.md]]
+- [[concepts/auto-evals.md]]
+- [[concepts/auto-improving-agent-loop.md]]
+- [[concepts/automated-evals-challenge.md]]
+- [[concepts/automated-scaling.md]]
+- [[concepts/automatic-speech-recognition.md]]
+- [[concepts/automation-augmentation-agency.md]]
+- [[concepts/automation-in-ml-pipeline.md]]
+- [[concepts/autonomous-driving.md]]
+- [[concepts/autonomous-system-unintended-consequences.md]]
+- [[concepts/autoregressive-generation.md]]
+- [[concepts/aws-free-tier.md]]
+- [[concepts/azure-ai-evaluation-sdk.md]]
+- [[concepts/azure-ai-risk-categories.md]]
+- [[concepts/back-channeling-voice-ai.md]]
+- [[concepts/back-pressure.md]]
+- [[concepts/basketball-court-metaphor.md]]
+- [[concepts/bedrock-platform-capabilities.md]]
+- [[concepts/benchmark-design-principles.md]]
+- [[concepts/benchmark-driven-ai-optimization.md]]
+- [[concepts/benchmark-memes.md]]
+- [[concepts/benchmark-qed.md]]
+- [[concepts/benchmark-saturation.md]]
+- [[concepts/best-effort-networking.md]]
+- [[concepts/beyond-chatbots.md]]
+- [[concepts/bgp-kubernetes-networking.md]]
+- [[concepts/bgp.md]]
+- [[concepts/bi-encoder-search.md]]
+- [[concepts/billable-hour-paradox.md]]
+- [[concepts/bitter-design-lesson.md]]
+- [[concepts/bitter-layout.md]]
+- [[concepts/bitter-lesson-agentic.md]]
+- [[concepts/bitter-lesson.md]]
+- [[concepts/black-box-problem.md]]
+- [[concepts/blind-signatures.md]]
+- [[concepts/blueprint-generator-pattern.md]]
+- [[concepts/bluetooth-latency.md]]
+- [[concepts/bm25-scoring.md]]
+- [[concepts/books-reimagined.md]]
+- [[concepts/bootstrapping-control-plane.md]]
+- [[concepts/bootstrapping-high-availability-control-plane.md]]
+- [[concepts/bootstrapping.md]]
+- [[concepts/boundless-surface-area.md]]
+- [[concepts/br_netfilter.md]]
+- [[concepts/brain-memory-analogy.md]]
+- [[concepts/braintrust-proxy.md]]
+- [[concepts/bridge-network-in-docker.md]]
+- [[concepts/bridged-adapter-networking.md]]
+- [[concepts/bridged-adapter.md]]
+- [[concepts/brittleness-lipschitz-discontinuity.md]]
+- [[concepts/brownfield-first-ai-adoption.md]]
+- [[concepts/browser-as-integration-layer.md]]
+- [[concepts/browser-based-robotics-simulation.md]]
+- [[concepts/bug-focused-rules.md]]
+- [[concepts/bug-taxonomy.md]]
+- [[concepts/build-operate-divide.md]]
+- [[concepts/build-vs-buy-agents.md]]
+- [[concepts/building-over-theorizing.md]]
+- [[concepts/built-in-agent-tools.md]]
+- [[concepts/burden-of-generated-code.md]]
+- [[concepts/bus-saturation-overhead.md]]
+- [[concepts/business-relevance-retrieval.md]]
+- [[concepts/buyer-seller-intent.md]]
+- [[concepts/camera-only-driving.md]]
+- [[concepts/can-bus-robotics.md]]
+- [[concepts/canvas-ai-interface.md]]
+- [[concepts/capability-based-tokens.md]]
+- [[concepts/cars-vs-traffic-metaphor.md]]
+- [[concepts/cascading-hierarchy.md]]
+- [[concepts/causal-machine-learning.md]]
+- [[concepts/certificate-authority-ca.md]]
+- [[concepts/certificate-chain.md]]
+- [[concepts/certificate-generation.md]]
+- [[concepts/certificate-signing-request.md]]
+- [[concepts/certificate-verification.md]]
+- [[concepts/chain-of-thought-driving.md]]
+- [[concepts/chain-of-thought.md]]
+- [[concepts/chaos-and-opportunity.md]]
+- [[concepts/character-coach-approach.md]]
+- [[concepts/character-consistency.md]]
+- [[concepts/checklist-based-evaluation.md]]
+- [[concepts/checkpoint-undo-ai-code.md]]
+- [[concepts/china-us-ai-rivalry.md]]
+- [[concepts/chunk-piggybacking.md]]
+- [[concepts/chunking-for-retrieval.md]]
+- [[concepts/chunking-strategies.md]]
+- [[concepts/cidr.md]]
+- [[concepts/circle-cctp.md]]
+- [[concepts/circle-smart-contract-escrow.md]]
+- [[concepts/ciso-approval.md]]
+- [[concepts/classified-data-ai.md]]
+- [[concepts/claude-desktop-mcp-integration.md]]
+- [[concepts/clean-fid.md]]
+- [[concepts/cli-ai-interface-leader.md]]
+- [[concepts/cli-for-ai-tools.md]]
+- [[concepts/client-certificate.md]]
+- [[concepts/client-initiated-backchannel-authentication.md]]
+- [[concepts/clinical-reasoning.md]]
+- [[concepts/clip-limitations.md]]
+- [[concepts/closed-loop-agent-improvement.md]]
+- [[concepts/closed-model-assumption.md]]
+- [[concepts/cloud-4-model-breakthrough.md]]
+- [[concepts/cloud-for-agents.md]]
+- [[concepts/cloud-scale-agent-architecture.md]]
+- [[concepts/cloud-vm-for-agents.md]]
+- [[concepts/cluster-autoscaler-overview.md]]
+- [[concepts/cluster-autoscaler.md]]
+- [[concepts/cluster-cidr.md]]
+- [[concepts/cluster-scaling.md]]
+- [[concepts/clusterrole.md]]
+- [[concepts/clusterrolebinding.md]]
+- [[concepts/cmd.md]]
+- [[concepts/cnssi-1253.md]]
+- [[concepts/co-founder-norm.md]]
+- [[concepts/co-scheduling.md]]
+- [[concepts/code-based-evals.md]]
+- [[concepts/code-cleanliness.md]]
+- [[concepts/code-executing-agents.md]]
+- [[concepts/code-hierarchy-understanding.md]]
+- [[concepts/code-is-artifact.md]]
+- [[concepts/code-is-cheap.md]]
+- [[concepts/code-quality-as-context.md]]
+- [[concepts/code-review-feedback-quality.md]]
+- [[concepts/code-review-primary-skill.md]]
+- [[concepts/code-translation.md]]
+- [[concepts/codebase-conventions.md]]
+- [[concepts/codex-abuse-pattern.md]]
+- [[concepts/coding-agent-security-model.md]]
+- [[concepts/coding-is-going-away.md]]
+- [[concepts/cog-container.md]]
+- [[concepts/cognitive-technologies.md]]
+- [[concepts/cold-outreach-strategy.md]]
+- [[concepts/cold-start-recommendation.md]]
+- [[concepts/collaborative-problem-solving.md]]
+- [[concepts/combination-attack-strategies.md]]
+- [[concepts/combinatorics.md]]
+- [[concepts/commercial-kitchen-economics.md]]
+- [[concepts/commit-based-metrics-limitations.md]]
+- [[concepts/commit-message-generation-copilot.md]]
+- [[concepts/community-summarization.md]]
+- [[concepts/company-type-spectrum.md]]
+- [[concepts/complex-document-understanding.md]]
+- [[concepts/complexity-adjusted-impact.md]]
+- [[concepts/component-inventory.md]]
+- [[concepts/compounding-benefits.md]]
+- [[concepts/compounding-engineering.md]]
+- [[concepts/compute-abuse.md]]
+- [[concepts/compute-allocation.md]]
+- [[concepts/compute-bound-vs-memory-bound.md]]
+- [[concepts/compute-intensity-scaling.md]]
+- [[concepts/compute-scaling-laws.md]]
+- [[concepts/computer-use-agents.md]]
+- [[concepts/computer-use-models.md]]
+- [[concepts/concurrent-testing.md]]
+- [[concepts/confidential-gpu.md]]
+- [[concepts/configmaps.md]]
+- [[concepts/configuration-drift.md]]
+- [[concepts/connections-game.md]]
+- [[concepts/consistency-in-cooking.md]]
+- [[concepts/constants-in-data.md]]
+- [[concepts/consulting-engagement-phases.md]]
+- [[concepts/consumer-ai-voice.md]]
+- [[concepts/consumer-unrest.md]]
+- [[concepts/container-dns-resolution-source.md]]
+- [[concepts/container-dns-resolution.md]]
+- [[concepts/container-runtime-interface-cri.md]]
+- [[concepts/container-runtime.md]]
+- [[concepts/container-use.md]]
+- [[concepts/containerization.md]]
+- [[concepts/content-annotation-search.md]]
+- [[concepts/content-first-design.md]]
+- [[concepts/context-engine-vs-rag.md]]
+- [[concepts/context-engineering.md]]
+- [[concepts/context-gap.md]]
+- [[concepts/context-length-scaling.md]]
+- [[concepts/context-loss.md]]
+- [[concepts/context-management-for-agents.md]]
+- [[concepts/context-over-models.md]]
+- [[concepts/context-per-head.md]]
+- [[concepts/context-philosophy-what-vs-how-much.md]]
+- [[concepts/context-relevance-over-size.md]]
+- [[concepts/context-switching-costs.md]]
+- [[concepts/contextual-modular-rag.md]]
+- [[concepts/contextual-platform-approach.md]]
+- [[concepts/continued-pre-training.md]]
+- [[concepts/continuous-eval-loops.md]]
+- [[concepts/continuous-process-refinement.md]]
+- [[concepts/continuous-profiling.md]]
+- [[concepts/continuous-viable-product.md]]
+- [[concepts/control-plane-node.md]]
+- [[concepts/control-plane.md]]
+- [[concepts/controlled-classified-ai.md]]
+- [[concepts/controlled-hallucination.md]]
+- [[concepts/controller-manager.md]]
+- [[concepts/conversation-output-analysis.md]]
+- [[concepts/conversational-video-interface.md]]
+- [[concepts/conviction-signal.md]]
+- [[concepts/copilot-checkpoint-undo.md]]
+- [[concepts/copilot-code-review.md]]
+- [[concepts/copilot-first-strategy.md]]
+- [[concepts/copilot-instructions.md]]
+- [[concepts/copilot-new-command.md]]
+- [[concepts/copilot-prompt-files.md]]
+- [[concepts/copilot-spaces.md]]
+- [[concepts/copilot-workload-spectrum.md]]
+- [[concepts/core-api-group.md]]
+- [[concepts/core-knowledge-priors.md]]
+- [[concepts/cost-intelligence-bands.md]]
+- [[concepts/cpu-throttling.md]]
+- [[concepts/create-refine-loop.md]]
+- [[concepts/critic-agents.md]]
+- [[concepts/cross-embodiment-robotics.md]]
+- [[concepts/cross-encoder-relevance-model.md]]
+- [[concepts/cuda-graph-for-llm-serving.md]]
+- [[concepts/culinary-embeddings.md]]
+- [[concepts/curated-dataset-strategy.md]]
+- [[concepts/curl-over-click.md]]
+- [[concepts/cursor-for-x.md]]
+- [[concepts/customer-feedback-analysis.md]]
+- [[concepts/customer-first-problem-solving.md]]
+- [[concepts/customer-obsession.md]]
+- [[concepts/customer-relationship-through-memory.md]]
+- [[concepts/cycle-time-plot.md]]
+- [[concepts/cypher-query-language.md]]
+- [[concepts/daemonset-for-network-plugins.md]]
+- [[concepts/daemonset.md]]
+- [[concepts/daemonsets.md]]
+- [[concepts/dagger-agent-platform.md]]
+- [[concepts/daily-pulse.md]]
+- [[concepts/dalle-inflection-point.md]]
+- [[concepts/dashboard-dumpster-diving.md]]
+- [[concepts/data-as-differentiator.md]]
+- [[concepts/data-center-economics.md]]
+- [[concepts/data-coverage-transformation.md]]
+- [[concepts/data-flywheel.md]]
+- [[concepts/data-pyramid.md]]
+- [[concepts/data-readiness-myth.md]]
+- [[concepts/data-scaling-recommendation.md]]
+- [[concepts/data-silos-problem.md]]
+- [[concepts/data-sovereignty.md]]
+- [[concepts/day-2-operations.md]]
+- [[concepts/decision-making-under-uncertainty.md]]
+- [[concepts/decorator-based-tool-creation.md]]
+- [[concepts/decoupled-architecture.md]]
+- [[concepts/decoy-pattern.md]]
+- [[concepts/dedicated-vector-database-adoption.md]]
+- [[concepts/deep-research-agent.md]]
+- [[concepts/deep-research-agents.md]]
+- [[concepts/deep-research-reading.md]]
+- [[concepts/defaultingressclass.md]]
+- [[concepts/defaultstorageclass.md]]
+- [[concepts/defaulttolerationseconds.md]]
+- [[concepts/defect-based-quality.md]]
+- [[concepts/definition-of-success-parallel-agents.md]]
+- [[concepts/delegated-authentication.md]]
+- [[concepts/delegation-chains.md]]
+- [[concepts/deliberative-alignment.md]]
+- [[concepts/demo-culture.md]]
+- [[concepts/demo-driven-ai-exploration.md]]
+- [[concepts/demo-savvy-problem.md]]
+- [[concepts/dense-vector-search.md]]
+- [[concepts/deployment-rollout-status.md]]
+- [[concepts/deployment-strategies.md]]
+- [[concepts/deployment.md]]
+- [[concepts/design-four-pillars.md]]
+- [[concepts/desired-state.md]]
+- [[concepts/deterministic-eval-scoring.md]]
+- [[concepts/deterministic-from-stochastic.md]]
+- [[concepts/deterministic-logic-guardrails.md]]
+- [[concepts/deterministic-trust-expectation.md]]
+- [[concepts/deterministic-vs-autonomous-agents.md]]
+- [[concepts/dev-container-vibe-coding.md]]
+- [[concepts/developer-experience-critique.md]]
+- [[concepts/developer-outer-loop.md]]
+- [[concepts/dial-up-era-of-ai.md]]
+- [[concepts/digital-signature.md]]
+- [[concepts/digital-twin.md]]
+- [[concepts/dinov2-pre-training.md]]
+- [[concepts/direct-preference-optimization.md]]
+- [[concepts/direct-vs-indirect-ai-monetization.md]]
+- [[concepts/dirty-secret-of-abstraction.md]]
+- [[concepts/disable-swap-command.md]]
+- [[concepts/disable-swap.md]]
+- [[concepts/disaggregated-inference.md]]
+- [[concepts/discover-functionality.md]]
+- [[concepts/dispatch-limitation.md]]
+- [[concepts/distributed-inference.md]]
+- [[concepts/distributed-tracing.md]]
+- [[concepts/docker-embedded-dns-documentation.md]]
+- [[concepts/docker-gateway-ip.md]]
+- [[concepts/docker-run.md]]
+- [[concepts/dockerfile.md]]
+- [[concepts/dockershim.md]]
+- [[concepts/document-enrichment.md]]
+- [[concepts/document-mcp-server.md]]
+- [[concepts/document-toolbox.md]]
+- [[concepts/documentation-as-agent-knowledge-base.md]]
+- [[concepts/domain-aware-memory.md]]
+- [[concepts/domain-expert-product-manager.md]]
+- [[concepts/domain-expert-prompt-engineering.md]]
+- [[concepts/domain-graph.md]]
+- [[concepts/domain-intelligence-engine.md]]
+- [[concepts/domain-native-llm-application.md]]
+- [[concepts/domain-specific-embedding-models.md]]
+- [[concepts/domain-specific-evals.md]]
+- [[concepts/doom-codebase-experiment.md]]
+- [[concepts/doordash-analogy.md]]
+- [[concepts/dot-instructions-files.md]]
+- [[concepts/dreamgen.md]]
+- [[concepts/durable-execution.md]]
+- [[concepts/durable-objects.md]]
+- [[concepts/dynamic-batching.md]]
+- [[concepts/dynamic-context-ai.md]]
+- [[concepts/dynamic-eval-sets.md]]
+- [[concepts/dynamic-products.md]]
+- [[concepts/dynamic-ui-generation.md]]
+- [[concepts/e-commerce-ai-transformation.md]]
+- [[concepts/e-commerce-evolution.md]]
+- [[concepts/e-commerce-search-challenges.md]]
+- [[concepts/ebpf.md]]
+- [[concepts/ecdhe.md]]
+- [[concepts/edge-ai-hardware-acceleration.md]]
+- [[concepts/edge-to-cloud.md]]
+- [[concepts/edge-vision-inference.md]]
+- [[concepts/embedded-dns-server.md]]
+- [[concepts/embedding-based-search.md]]
+- [[concepts/embedding-models.md]]
+- [[concepts/embedding-quality.md]]
+- [[concepts/embedding-search.md]]
+- [[concepts/emergent-behavior-in-ai.md]]
+- [[concepts/emergent-intelligence.md]]
+- [[concepts/empirical-embedding-selection.md]]
+- [[concepts/employee-vs-enterprise-productivity.md]]
+- [[concepts/encoder-only-eval-models.md]]
+- [[concepts/encryption-at-rest.md]]
+- [[concepts/encryption.md]]
+- [[concepts/encryptionconfiguration.md]]
+- [[concepts/end-to-end-driving.md]]
+- [[concepts/enforceable-guarantees.md]]
+- [[concepts/engagement-data.md]]
+- [[concepts/enterprise-agent-adoption-equation.md]]
+- [[concepts/enterprise-ai-administration.md]]
+- [[concepts/enterprise-ai-adoption.md]]
+- [[concepts/enterprise-ai-app-factory.md]]
+- [[concepts/enterprise-ai-productivity-paradox.md]]
+- [[concepts/enterprise-inference-infrastructure.md]]
+- [[concepts/enterprise-mcp-deployment.md]]
+- [[concepts/enterprise-rag.md]]
+- [[concepts/entity-type-modeling.md]]
+- [[concepts/entrypoint.md]]
+- [[concepts/envfrom.md]]
+- [[concepts/environment-variables-in-pods.md]]
+- [[concepts/episodic-memory-agents.md]]
+- [[concepts/equality-based-selector.md]]
+- [[concepts/equality-based-selectors.md]]
+- [[concepts/etchosts.md]]
+- [[concepts/etl-pipeline.md]]
+- [[concepts/eval-as-judge.md]]
+- [[concepts/eval-baseline-first.md]]
+- [[concepts/eval-data-flywheel.md]]
+- [[concepts/eval-dataset-strategy.md]]
+- [[concepts/eval-driven-development.md]]
+- [[concepts/eval-driven-iteration.md]]
+- [[concepts/eval-driven-optimization.md]]
+- [[concepts/eval-flywheel-effect.md]]
+- [[concepts/eval-human-in-the-loop.md]]
+- [[concepts/eval-ingredients-task-dataset-score.md]]
+- [[concepts/eval-metrics-relativity.md]]
+- [[concepts/eval-offline-online-duality.md]]
+- [[concepts/eval-optimization-triad.md]]
+- [[concepts/eval-orchestration-parallelism.md]]
+- [[concepts/eval-playground-as-ide.md]]
+- [[concepts/eval-playground-experiment-workflow.md]]
+- [[concepts/eval-production-metrics.md]]
+- [[concepts/eval-quality-diagnostic.md]]
+- [[concepts/eval-quality-matrix.md]]
+- [[concepts/eval-score-types.md]]
+- [[concepts/eval-sdk-first-workflow.md]]
+- [[concepts/eval-task-complexity.md]]
+- [[concepts/evals-are-custom-and-subjective.md]]
+- [[concepts/evals-are-not-unit-tests.md]]
+- [[concepts/evals-as-moat.md]]
+- [[concepts/evals-as-structured-tests.md]]
+- [[concepts/evals-in-ci.md]]
+- [[concepts/evals-industry-transformation.md]]
+- [[concepts/evals-labor-problem.md]]
+- [[concepts/evals-laboratory.md]]
+- [[concepts/evals-must-be-engineered.md]]
+- [[concepts/evals-play-offense.md]]
+- [[concepts/evals-spectrum.md]]
+- [[concepts/evals-testing-pyramid.md]]
+- [[concepts/evaluate-ai-early.md]]
+- [[concepts/evaluation-as-top-pain-point.md]]
+- [[concepts/evaluation-at-pipeline-steps.md]]
+- [[concepts/evaluation-first-development.md]]
+- [[concepts/evaluation-vs-benchmarking.md]]
+- [[concepts/evaluator-thresholds.md]]
+- [[concepts/events-wrong-abstraction-thesis.md]]
+- [[concepts/evidence-based-qa-generation.md]]
+- [[concepts/evolution-of-programming.md]]
+- [[concepts/evolution-of-verification.md]]
+- [[concepts/evolutionary-benchmarks.md]]
+- [[concepts/excel-agent-normalization.md]]
+- [[concepts/execution-as-moat.md]]
+- [[concepts/experiential-benchmarks.md]]
+- [[concepts/explicit-feedback-strategies.md]]
+- [[concepts/explicit-intent-communication.md]]
+- [[concepts/exploratory-query-recommendation.md]]
+- [[concepts/export-controls-ai-hardware.md]]
+- [[concepts/extension-points-in-scheduling.md]]
+- [[concepts/failure-mode-ontology.md]]
+- [[concepts/fair-scheduling.md]]
+- [[concepts/fast-evals.md]]
+- [[concepts/feature-exploration-strategy.md]]
+- [[concepts/feature-flag-infra.md]]
+- [[concepts/feature-steering.md]]
+- [[concepts/fedramp.md]]
+- [[concepts/feeling-the-material.md]]
+- [[concepts/fidelity-vs-speed-tradeoff.md]]
+- [[concepts/finding-the-grain.md]]
+- [[concepts/fine-tuning-best-practices.md]]
+- [[concepts/fine-tuning-for-specialization.md]]
+- [[concepts/fine-tuning-practices-2025.md]]
+- [[concepts/finvoice.md]]
+- [[concepts/firefighting-prioritization.md]]
+- [[concepts/firewalld.md]]
+- [[concepts/first-principles-org-design.md]]
+- [[concepts/first-principles-thinking.md]]
+- [[concepts/flame-chart.md]]
+- [[concepts/flat-network-model.md]]
+- [[concepts/flow-awareness.md]]
+- [[concepts/forceful-product-building.md]]
+- [[concepts/forensic-revenue-attribution.md]]
+- [[concepts/forgetting-mechanisms.md]]
+- [[concepts/forward-deployed-engineering.md]]
+- [[concepts/forward-leaning-agent.md]]
+- [[concepts/foundation-models-autonomous-driving.md]]
+- [[concepts/founder-market-fit.md]]
+- [[concepts/fp8-compute.md]]
+- [[concepts/fp8-kv-cache.md]]
+- [[concepts/frames-processors-pipelines.md]]
+- [[concepts/framework-agnostic-agents.md]]
+- [[concepts/frontier-model-eval-capability.md]]
+- [[concepts/fruit-letter-counter.md]]
+- [[concepts/full-duplex-voice-models.md]]
+- [[concepts/fuzz-testing-ai.md]]
+- [[concepts/fuzzy-text-matching.md]]
+- [[concepts/gardening-as-design-paradigm.md]]
+- [[concepts/gas-abstraction.md]]
+- [[concepts/gemini-25-pro.md]]
+- [[concepts/gemini-live-api.md]]
+- [[concepts/gen-ai-semantic-conventions.md]]
+- [[concepts/genei-document-toolchain.md]]
+- [[concepts/generalist-engineer.md]]
+- [[concepts/generalist-vs-specialist.md]]
+- [[concepts/generative-media.md]]
+- [[concepts/generative-retrieval-recsys.md]]
+- [[concepts/generative-video-vs-image.md]]
+- [[concepts/genos-proprietary-gen-ai-platform.md]]
+- [[concepts/ghost-engineers.md]]
+- [[concepts/github-codespaces-ai-coding.md]]
+- [[concepts/globaldefault.md]]
+- [[concepts/golden-dataset.md]]
+- [[concepts/golden-datasets.md]]
+- [[concepts/good-enough-judgment.md]]
+- [[concepts/government-ai-agents.md]]
+- [[concepts/government-build-vs-buy-ai.md]]
+- [[concepts/gpu-cold-start.md]]
+- [[concepts/gpu-commoditization.md]]
+- [[concepts/gpu-marketplace.md]]
+- [[concepts/gpu-mig.md]]
+- [[concepts/gpu-profiling.md]]
+- [[concepts/gpu-scaling.md]]
+- [[concepts/gpu-time-profiling.md]]
+- [[concepts/gpu-utilization.md]]
+- [[concepts/graffiti-temporal-graph.md]]
+- [[concepts/granular-eval-metrics.md]]
+- [[concepts/graph-acceleration.md]]
+- [[concepts/graph-analytics-enrichment.md]]
+- [[concepts/graph-analytics-rag-curation.md]]
+- [[concepts/graph-coloring.md]]
+- [[concepts/graph-database-challenges.md]]
+- [[concepts/graph-state-management.md]]
+- [[concepts/graph-traversal-similarity.md]]
+- [[concepts/graph-vs-document-retrieval.md]]
+- [[concepts/graphrag-code.md]]
+- [[concepts/graphrag-patterns-catalog.md]]
+- [[concepts/graphrag.md]]
+- [[concepts/greenfield-vs-brownfield.md]]
+- [[concepts/ground-truth-evaluation.md]]
+- [[concepts/grounding-dino.md]]
+- [[concepts/grpc.md]]
+- [[concepts/guardrails-content-filters.md]]
+- [[concepts/hallucination-detection.md]]
+- [[concepts/hardware-vendors-ai.md]]
+- [[concepts/harold-cohen-arian.md]]
+- [[concepts/harvester-cultivator-model.md]]
+- [[concepts/hbm-memory.md]]
+- [[concepts/head-of-line-silence.md]]
+- [[concepts/headcount-vs-productivity.md]]
+- [[concepts/healthcare-administration-costs.md]]
+- [[concepts/healthcare-friction.md]]
+- [[concepts/healthcare-three-stakeholders.md]]
+- [[concepts/heuristics-vs-hard-evidence-context.md]]
+- [[concepts/high-availability-control-plane.md]]
+- [[concepts/high-availability.md]]
+- [[concepts/high-bandwidth-feedback.md]]
+- [[concepts/high-level-container-runtime.md]]
+- [[concepts/high-performer-bifurcation.md]]
+- [[concepts/high-signal-low-noise.md]]
+- [[concepts/high-trust-culture.md]]
+- [[concepts/hnsw-filtering-paradox.md]]
+- [[concepts/holistic-ai-sdlc.md]]
+- [[concepts/holistic-eval-framework.md]]
+- [[concepts/horizontal-pod-autoscaler.md]]
+- [[concepts/horizontal-scaling.md]]
+- [[concepts/horizontal-vs-vertical-mcp.md]]
+- [[concepts/horizontalpodautoscaler.md]]
+- [[concepts/host-security.md]]
+- [[concepts/hostname-setting.md]]
+- [[concepts/hot-model-rollout.md]]
+- [[concepts/hotpotqa.md]]
+- [[concepts/how-tls-certificates-work-in-kubernetes-and-manual-cluster-setup.md]]
+- [[concepts/human-agent-co-evolution.md]]
+- [[concepts/human-baseline-benchmarking.md]]
+- [[concepts/human-computer-interaction.md]]
+- [[concepts/human-in-the-loop-payments.md]]
+- [[concepts/human-in-the-loop-regulated-ai.md]]
+- [[concepts/human-in-the-loop.md]]
+- [[concepts/human-seeded-evals.md]]
+- [[concepts/human-turn-taking-prediction.md]]
+- [[concepts/human-vs-ai-information-consumption.md]]
+- [[concepts/human-vs-machine-users.md]]
+- [[concepts/humanoid-foundation-model.md]]
+- [[concepts/hybrid-autonomy-model.md]]
+- [[concepts/hybrid-graph-extraction.md]]
+- [[concepts/hybrid-retrieval.md]]
+- [[concepts/hybrid-search.md]]
+- [[concepts/hybridrag.md]]
+- [[concepts/hyper-personalized-ads.md]]
+- [[concepts/idor-insecure-direct-object-reference.md]]
+- [[concepts/imitation-learning.md]]
+- [[concepts/immutable-functional-style.md]]
+- [[concepts/implicit-feedback-signal.md]]
+- [[concepts/in-context-learning.md]]
+- [[concepts/in-flight-batching.md]]
+- [[concepts/in-memory-retrieval.md]]
+- [[concepts/in-place-pod-vertical-scaling.md]]
+- [[concepts/incentive-protocols-infrastructure.md]]
+- [[concepts/incremental-context-sharing.md]]
+- [[concepts/indentation-robustness.md]]
+- [[concepts/independent-study.md]]
+- [[concepts/inference-growth.md]]
+- [[concepts/inference-pareto-frontier.md]]
+- [[concepts/inference-performance-evaluation.md]]
+- [[concepts/inference-serving.md]]
+- [[concepts/inference-time-compute.md]]
+- [[concepts/inference-time-scaling.md]]
+- [[concepts/inference-training-blur.md]]
+- [[concepts/inference-verbosity.md]]
+- [[concepts/inference-vs-training-compute.md]]
+- [[concepts/information-retrieval.md]]
+- [[concepts/information-theory-compression.md]]
+- [[concepts/infrastructure-provisioning.md]]
+- [[concepts/ingress.md]]
+- [[concepts/init-container.md]]
+- [[concepts/input-output-evals.md]]
+- [[concepts/input-output-specification.md]]
+- [[concepts/install-kubernetes-components.md]]
+- [[concepts/instructable-voice.md]]
+- [[concepts/instruction-tuning.md]]
+- [[concepts/instrumentation-deep-traces.md]]
+- [[concepts/intelligence-bottlenecks.md]]
+- [[concepts/intelligent-document-processing.md]]
+- [[concepts/intent-infrastructure.md]]
+- [[concepts/intent-understanding.md]]
+- [[concepts/inter-node-routing.md]]
+- [[concepts/interactive-model-discovery.md]]
+- [[concepts/interactive-reasoning-benchmarks.md]]
+- [[concepts/internal-automation.md]]
+- [[concepts/intra-node-networking.md]]
+- [[concepts/introduction-to-aws-iam.md]]
+- [[concepts/introduction-to-infrastructure-provisioning.md]]
+- [[concepts/introduction-to-kubernetes.md]]
+- [[concepts/introduction-to-ssh-and-kubernetes-cluster-setup.md]]
+- [[concepts/inverted-index.md]]
+- [[concepts/invisible-team-members.md]]
+- [[concepts/ipam.md]]
+- [[concepts/iptables.md]]
+- [[concepts/issue-from-video.md]]
+- [[concepts/issue-to-pr-pipeline.md]]
+- [[concepts/jitter-in-robotics.md]]
+- [[concepts/joe-christian-burgum-vector-database-analysis.md]]
+- [[concepts/json-lines-eval-export.md]]
+- [[concepts/junior-buddy-agent.md]]
+- [[concepts/junior-led-vs-senior-led-models.md]]
+- [[concepts/kag-knowledge-augmented-generation.md]]
+- [[concepts/kerberos.md]]
+- [[concepts/knowledge-base-pattern.md]]
+- [[concepts/knowledge-based-voice-agent.md]]
+- [[concepts/knowledge-bases-ai.md]]
+- [[concepts/knowledge-cards.md]]
+- [[concepts/knowledge-distillation-search.md]]
+- [[concepts/knowledge-graph-construction-pipeline.md]]
+- [[concepts/knowledge-graph-ontology-design.md]]
+- [[concepts/knowledge-infrastructure.md]]
+- [[concepts/knowledge-injection.md]]
+- [[concepts/knowledge-work-automation.md]]
+- [[concepts/korea-fox-ad.md]]
+- [[concepts/kpi-alignment.md]]
+- [[concepts/kube-apiserver.md]]
+- [[concepts/kube-proxy.md]]
+- [[concepts/kube-scheduler.md]]
+- [[concepts/kubeadm-init.md]]
+- [[concepts/kubeadm-join.md]]
+- [[concepts/kubeadm-upgrade.md]]
+- [[concepts/kubeconfig.md]]
+- [[concepts/kubectl-proxy.md]]
+- [[concepts/kubectl-rollout-history.md]]
+- [[concepts/kubectl-rollout-status.md]]
+- [[concepts/kubectl-set-image.md]]
+- [[concepts/kubernetes-api-server.md]]
+- [[concepts/kubernetes-apt-repository-setup.md]]
+- [[concepts/kubernetes-challenges.md]]
+- [[concepts/kubernetes-cluster.md]]
+- [[concepts/kubernetes-installation-steps.md]]
+- [[concepts/kubernetes-network-model.md]]
+- [[concepts/kubernetes-pod-command-and-args.md]]
+- [[concepts/kubernetes-pods.md]]
+- [[concepts/kubernetes-practice.md]]
+- [[concepts/kubernetes-security.md]]
+- [[concepts/kv-cache.md]]
+- [[concepts/l2-vs-l4-autonomy.md]]
+- [[concepts/labels.md]]
+- [[concepts/langchain.md]]
+- [[concepts/langgraph-node-architecture.md]]
+- [[concepts/langgraph.md]]
+- [[concepts/language-as-model-of-mind.md]]
+- [[concepts/language-detection.md]]
+- [[concepts/large-recommender-model.md]]
+- [[concepts/large-scale-simulation.md]]
+- [[concepts/last-mile-problem-ai.md]]
+- [[concepts/latent-model-capabilities.md]]
+- [[concepts/layered-agent-safety.md]]
+- [[concepts/layered-graph-architecture.md]]
+- [[concepts/lazy-graphrag.md]]
+- [[concepts/ldap.md]]
+- [[concepts/leading-words.md]]
+- [[concepts/lean-startup-playbook.md]]
+- [[concepts/legacy-as-agent-tools.md]]
+- [[concepts/legacy-code-ai-agent-strategy.md]]
+- [[concepts/legacy-internet-ai-agents.md]]
+- [[concepts/legal-ai.md]]
+- [[concepts/legal-data-characteristics.md]]
+- [[concepts/legal-industry-ai-constraints.md]]
+- [[concepts/level-of-stack.md]]
+- [[concepts/lexical-graph.md]]
+- [[concepts/lexical-search.md]]
+- [[concepts/lighthouse-scores.md]]
+- [[concepts/limitrange.md]]
+- [[concepts/limitranger.md]]
+- [[concepts/linter-integration.md]]
+- [[concepts/linux-namespace-types.md]]
+- [[concepts/linux-network-namespace.md]]
+- [[concepts/litigation-agents.md]]
+- [[concepts/llama-transformer-family.md]]
+- [[concepts/llm-as-computation-engine.md]]
+- [[concepts/llm-as-judge-evaluation.md]]
+- [[concepts/llm-as-judge-problems.md]]
+- [[concepts/llm-as-judge.md]]
+- [[concepts/llm-as-planner-not-executor.md]]
+- [[concepts/llm-as-primary-audience.md]]
+- [[concepts/llm-as-summarizer.md]]
+- [[concepts/llm-benchmarking.md]]
+- [[concepts/llm-big-text-into-small-text.md]]
+- [[concepts/llm-cost-structure.md]]
+- [[concepts/llm-data-augmentation-recsys.md]]
+- [[concepts/llm-evaluation-framework.md]]
+- [[concepts/llm-evaluation-pyramid.md]]
+- [[concepts/llm-hallucination-detection.md]]
+- [[concepts/llm-judge-best-practices.md]]
+- [[concepts/llm-judge-correctness.md]]
+- [[concepts/llm-latency-in-consumer-apps.md]]
+- [[concepts/llm-ops-tooling.md]]
+- [[concepts/llm-overfitting.md]]
+- [[concepts/llm-search-integration.md]]
+- [[concepts/llm-sycophancy.md]]
+- [[concepts/llm-usage-heterogeneity.md]]
+- [[concepts/llm-user-behavior-alignment.md]]
+- [[concepts/llms-are-hard-at-evals.md]]
+- [[concepts/llms-protocol.md]]
+- [[concepts/llms-txt.md]]
+- [[concepts/lm-memory-with-structure.md]]
+- [[concepts/lmos.md]]
+- [[concepts/lnsdlc.md]]
+- [[concepts/local-first-ai-platform.md]]
+- [[concepts/local-global-queries.md]]
+- [[concepts/local-global-search-graphrag.md]]
+- [[concepts/local-model-management.md]]
+- [[concepts/local-models.md]]
+- [[concepts/local-vs-deploy-experience-gap.md]]
+- [[concepts/longtail-scenarios.md]]
+- [[concepts/loop-automated-eval-optimization.md]]
+- [[concepts/low-ego-high-trust.md]]
+- [[concepts/low-level-container-runtime.md]]
+- [[concepts/low-level-inference-optimization.md]]
+- [[concepts/majority-voting-self-consistency.md]]
+- [[concepts/man-in-the-middle-attack.md]]
+- [[concepts/managed-kubernetes.md]]
+- [[concepts/managed-substrate.md]]
+- [[concepts/manager-vibe-coding.md]]
+- [[concepts/maniac-supercomputer.md]]
+- [[concepts/manifest-directory.md]]
+- [[concepts/manim-ai-visualization.md]]
+- [[concepts/manual-certificate-management.md]]
+- [[concepts/manual-scaling.md]]
+- [[concepts/manual-vs-automated-evals.md]]
+- [[concepts/map-free-driving.md]]
+- [[concepts/marginal-cost-of-creation.md]]
+- [[concepts/market-design.md]]
+- [[concepts/market-makers.md]]
+- [[concepts/matchexpressions.md]]
+- [[concepts/material-vs-fluent-design-ai.md]]
+- [[concepts/matricial-learning.md]]
+- [[concepts/mcp-adoption-timeline.md]]
+- [[concepts/mcp-as-agent-tools.md]]
+- [[concepts/mcp-auth-spec-evolution.md]]
+- [[concepts/mcp-compliance-ciso-governance.md]]
+- [[concepts/mcp-dev-mode.md]]
+- [[concepts/mcp-dynamic-client-registration.md]]
+- [[concepts/mcp-dynamic-tool-discovery.md]]
+- [[concepts/mcp-elicitation.md]]
+- [[concepts/mcp-gateway-pattern.md]]
+- [[concepts/mcp-hack-week-launch.md]]
+- [[concepts/mcp-handshake.md]]
+- [[concepts/mcp-local-vs-remote-auth.md]]
+- [[concepts/mcp-native-integration.md]]
+- [[concepts/mcp-observability.md]]
+- [[concepts/mcp-permission-gate.md]]
+- [[concepts/mcp-prm.md]]
+- [[concepts/mcp-protected-servers.md]]
+- [[concepts/mcp-rag-integration.md]]
+- [[concepts/mcp-registry-api.md]]
+- [[concepts/mcp-resource-server-separation.md]]
+- [[concepts/mcp-sampling.md]]
+- [[concepts/mcp-server-simplicity-optimization.md]]
+- [[concepts/mcp-streamable-http.md]]
+- [[concepts/mcp-to-mcp-protocol.md]]
+- [[concepts/mcp-tool-quality-vs-quantity.md]]
+- [[concepts/mcp-tool-sets.md]]
+- [[concepts/mcp-vs-openapi.md]]
+- [[concepts/mcp.md]]
+- [[concepts/measure-monitor-analyze-repeat.md]]
+- [[concepts/measurement-driven-improvement.md]]
+- [[concepts/measurement-vs-improvement-ai.md]]
+- [[concepts/mechanistic-interpretability.md]]
+- [[concepts/medical-claim-denials.md]]
+- [[concepts/medical-necessity-review.md]]
+- [[concepts/meeting-minimalism.md]]
+- [[concepts/memory-management.md]]
+- [[concepts/memory-suffixes.md]]
+- [[concepts/menugen.md]]
+- [[concepts/mermaid.md]]
+- [[concepts/meta-discovery-loop.md]]
+- [[concepts/meta-discovery.md]]
+- [[concepts/metadata-payload-mechanism.md]]
+- [[concepts/meter-chart-llm-task-capability.md]]
+- [[concepts/methodology-over-tooling.md]]
+- [[concepts/micro-agents.md]]
+- [[concepts/microservices-architecture.md]]
+- [[concepts/microservices-demo-projects.md]]
+- [[concepts/middle-east-ai-deal.md]]
+- [[concepts/millicpu.md]]
+- [[concepts/minimal-scaffolding-ai-agents.md]]
+- [[concepts/mirror-pod.md]]
+- [[concepts/miscellaneous-source-1e6927.md]]
+- [[concepts/miscellaneous-source.md]]
+- [[concepts/ml-team-building.md]]
+- [[concepts/mmlu-pro.md]]
+- [[concepts/mmvp-dataset.md]]
+- [[concepts/mobile-first-ai-apps.md]]
+- [[concepts/mobile-manipulation.md]]
+- [[concepts/modality-gap.md]]
+- [[concepts/model-agency.md]]
+- [[concepts/model-as-reasoner.md]]
+- [[concepts/model-as-unit-test-paradigm.md]]
+- [[concepts/model-benchmarks.md]]
+- [[concepts/model-capability-awareness.md]]
+- [[concepts/model-context-protocol.md]]
+- [[concepts/model-data-application-harmony.md]]
+- [[concepts/model-distillation.md]]
+- [[concepts/model-driven-agent-design.md]]
+- [[concepts/model-driven-application-cycles.md]]
+- [[concepts/model-ensemble-routing.md]]
+- [[concepts/model-exponential-curve.md]]
+- [[concepts/model-fine-tuning-data.md]]
+- [[concepts/model-iteration-feedback-loop.md]]
+- [[concepts/model-parallelism-inference.md]]
+- [[concepts/model-personality.md]]
+- [[concepts/model-picker-as-mode.md]]
+- [[concepts/model-picking.md]]
+- [[concepts/model-price-compression.md]]
+- [[concepts/model-progression-framework.md]]
+- [[concepts/model-quality-latency-tradeoff.md]]
+- [[concepts/model-selection-by-application.md]]
+- [[concepts/model-size-scaling.md]]
+- [[concepts/model-spot-checking.md]]
+- [[concepts/model-sub-composition.md]]
+- [[concepts/model-timing.md]]
+- [[concepts/model-tuning-vs-evals.md]]
+- [[concepts/model-update-velocity.md]]
+- [[concepts/model-versioning.md]]
+- [[concepts/modern-prompt-engineering.md]]
+- [[concepts/monte-carlo-methods-ai.md]]
+- [[concepts/monte-carlo-methods.md]]
+- [[concepts/moore-law-for-ai-agents.md]]
+- [[concepts/mttr.md]]
+- [[concepts/mttre.md]]
+- [[concepts/multi-agent-hive-mind.md]]
+- [[concepts/multi-agent-systems.md]]
+- [[concepts/multi-agent-workflows.md]]
+- [[concepts/multi-container-pod.md]]
+- [[concepts/multi-file-modification.md]]
+- [[concepts/multi-hop-retrieval.md]]
+- [[concepts/multi-label-classification.md]]
+- [[concepts/multi-model-voting.md]]
+- [[concepts/multi-model-world.md]]
+- [[concepts/multi-source-grounding.md]]
+- [[concepts/multimodal-agent-architecture.md]]
+- [[concepts/multimodal-evaluation.md]]
+- [[concepts/multimodal-generation.md]]
+- [[concepts/multimodal-models.md]]
+- [[concepts/multimodal-production-gap.md]]
+- [[concepts/multimodal-reading-experience.md]]
+- [[concepts/multimodal-video-search.md]]
+- [[concepts/multiple-ai-frontiers.md]]
+- [[concepts/multiple-schedulers.md]]
+- [[concepts/multiple-variations-parallelism.md]]
+- [[concepts/multithreaded-robotics-architecture.md]]
+- [[concepts/mutating-admission-controllers.md]]
+- [[concepts/mutating-phase.md]]
+- [[concepts/mutatingadmissionwebhook.md]]
+- [[concepts/mutual-tls-mtls.md]]
+- [[concepts/mvp-for-learning.md]]
+- [[concepts/mvp.md]]
+- [[concepts/named-api-groups.md]]
+- [[concepts/namespaceautoprovision.md]]
+- [[concepts/namespaceexists.md]]
+- [[concepts/namespacelifecycle.md]]
+- [[concepts/nat.md]]
+- [[concepts/native-audio-video-composition.md]]
+- [[concepts/natural-language-interface.md]]
+- [[concepts/natural-language-tool-schemas.md]]
+- [[concepts/network-knowledge-graph.md]]
+- [[concepts/network-plugin.md]]
+- [[concepts/network-policies.md]]
+- [[concepts/network-port-configuration.md]]
+- [[concepts/neural-programming.md]]
+- [[concepts/neural-rag.md]]
+- [[concepts/new-sync-benchmark.md]]
+- [[concepts/ngmi-thesis.md]]
+- [[concepts/nightly-regression-benchmarking.md]]
+- [[concepts/nist-ai-risk-management.md]]
+- [[concepts/node-affinity.md]]
+- [[concepts/node-authorization-in-kubernetes.md]]
+- [[concepts/node-authorizer.md]]
+- [[concepts/node-bound.md]]
+- [[concepts/node-cordon.md]]
+- [[concepts/node-drain.md]]
+- [[concepts/node-key-constraint.md]]
+- [[concepts/node-local-agents.md]]
+- [[concepts/node-subnet.md]]
+- [[concepts/node-uncordon.md]]
+- [[concepts/nodeport-services.md]]
+- [[concepts/noderestriction.md]]
+- [[concepts/nodeselector.md]]
+- [[concepts/nodeswap-feature-gate.md]]
+- [[concepts/noise-to-action-learning.md]]
+- [[concepts/non-deterministic-evaluation.md]]
+- [[concepts/non-deterministic-software.md]]
+- [[concepts/non-targetability.md]]
+- [[concepts/oauth-2.0.md]]
+- [[concepts/object-detection-transformers.md]]
+- [[concepts/oblivious-http.md]]
+- [[concepts/observability-driven-development.md]]
+- [[concepts/observability-for-enterprise-trust.md]]
+- [[concepts/observability-tool-landscape.md]]
+- [[concepts/oci-specs.md]]
+- [[concepts/octopus-merge.md]]
+- [[concepts/offline-first-ai.md]]
+- [[concepts/offline-recommendation-table.md]]
+- [[concepts/oidc.md]]
+- [[concepts/omb-memorandum-m25-21.md]]
+- [[concepts/omb-memorandum-m25-22.md]]
+- [[concepts/omnimodal.md]]
+- [[concepts/on-device-inference.md]]
+- [[concepts/on-device-ml-computational-photography.md]]
+- [[concepts/on-device-processing.md]]
+- [[concepts/on-device-robotics-deployment.md]]
+- [[concepts/online-evals.md]]
+- [[concepts/ontology-driven-retrieval.md]]
+- [[concepts/oom-kill.md]]
+- [[concepts/open-inference.md]]
+- [[concepts/open-loop-planning.md]]
+- [[concepts/open-models.md]]
+- [[concepts/open-optionality.md]]
+- [[concepts/open-source-ai-apps.md]]
+- [[concepts/open-source-book-player.md]]
+- [[concepts/open-source-humanoid-robotics.md]]
+- [[concepts/open-telemetry.md]]
+- [[concepts/open-weight-models.md]]
+- [[concepts/open-weights-vs-proprietary-gap.md]]
+- [[concepts/open-x-embodiment.md]]
+- [[concepts/openai-real-time-api.md]]
+- [[concepts/openapi-for-agents.md]]
+- [[concepts/openconfig-schema.md]]
+- [[concepts/openid-connect.md]]
+- [[concepts/orchestrating-vs-executing.md]]
+- [[concepts/orchestration-layer.md]]
+- [[concepts/orchestrator-patterns.md]]
+- [[concepts/orchestrator-worker-pattern.md]]
+- [[concepts/org-innovation.md]]
+- [[concepts/otlp.md]]
+- [[concepts/out-of-domain-generalization.md]]
+- [[concepts/out-of-sample-debugging.md]]
+- [[concepts/outcome-based-pricing-for-ai.md]]
+- [[concepts/outpainting.md]]
+- [[concepts/overlay-networking.md]]
+- [[concepts/overlay.md]]
+- [[concepts/owasp-for-agents.md]]
+- [[concepts/padding-as-synchronization.md]]
+- [[concepts/pagerank-enrichment.md]]
+- [[concepts/paid-trial-hire.md]]
+- [[concepts/parallel-agent-work.md]]
+- [[concepts/parallel-agent-workflows.md]]
+- [[concepts/parallel-agents.md]]
+- [[concepts/parallel-ai-coding-sessions.md]]
+- [[concepts/parallel-ai-workstreams.md]]
+- [[concepts/parsing.md]]
+- [[concepts/pass-at-k.md]]
+- [[concepts/pause-container.md]]
+- [[concepts/peer-programming.md]]
+- [[concepts/pelican-bicycle-benchmark.md]]
+- [[concepts/per-element-llm-judge.md]]
+- [[concepts/perceived-performance-ux.md]]
+- [[concepts/perception-prediction-planning.md]]
+- [[concepts/perceptual-evaluations.md]]
+- [[concepts/perpetually-junior-engineer.md]]
+- [[concepts/persistence-over-prompting.md]]
+- [[concepts/persona-shadowing.md]]
+- [[concepts/personal-clarity.md]]
+- [[concepts/personalization-data-ai.md]]
+- [[concepts/pgvector.md]]
+- [[concepts/physical-ai.md]]
+- [[concepts/physical-vs-virtual-whiteboarding.md]]
+- [[concepts/pii-protection-in-ai.md]]
+- [[concepts/pilot-to-scale-bottleneck.md]]
+- [[concepts/pit-of-success-design.md]]
+- [[concepts/pita-dev.md]]
+- [[concepts/plan-then-code-workflow.md]]
+- [[concepts/platform-engineering.md]]
+- [[concepts/platform-friction-taxonomy.md]]
+- [[concepts/platform-response-to-ai-feedback.md]]
+- [[concepts/platform-shift-analogy.md]]
+- [[concepts/platform-vs-application-teams.md]]
+- [[concepts/playbook-pattern.md]]
+- [[concepts/player-coach-model.md]]
+- [[concepts/pluggable-ai-platform.md]]
+- [[concepts/pm-transformation-ai-era.md]]
+- [[concepts/poc-hell.md]]
+- [[concepts/pod-eviction-timeout.md]]
+- [[concepts/pod-eviction.md]]
+- [[concepts/pod-network.md]]
+- [[concepts/pod-preemption.md]]
+- [[concepts/pods-overview.md]]
+- [[concepts/podsecurity.md]]
+- [[concepts/pooling-embedding.md]]
+- [[concepts/port-conflicts.md]]
+- [[concepts/positive-negative-eval-cases.md]]
+- [[concepts/ppo-vs-grpo-vs-dpo.md]]
+- [[concepts/pre-revenue-fundraising.md]]
+- [[concepts/pre-seed-funding.md]]
+- [[concepts/pre-training-costs.md]]
+- [[concepts/precomputed-similarity-relationships.md]]
+- [[concepts/prediction-cone-ui.md]]
+- [[concepts/preemptionpolicy.md]]
+- [[concepts/preferredduringschedulingignoredduringexecution.md]]
+- [[concepts/prefill-decode-throughput-tradeoff.md]]
+- [[concepts/premature-optimization.md]]
+- [[concepts/prerequisites-verification.md]]
+- [[concepts/price-compression-s-curve.md]]
+- [[concepts/pricing-as-friction.md]]
+- [[concepts/pricing-simulation.md]]
+- [[concepts/prior-authentication.md]]
+- [[concepts/priorityclass.md]]
+- [[concepts/priorityclassname.md]]
+- [[concepts/privacy-sensitive-ai.md]]
+- [[concepts/private-ai-inference.md]]
+- [[concepts/private-cloud-compute.md]]
+- [[concepts/private-robotics-data.md]]
+- [[concepts/proactive-agents.md]]
+- [[concepts/probabilistic-accuracy-chaining.md]]
+- [[concepts/probabilistic-ai-products.md]]
+- [[concepts/probabilistic-evals.md]]
+- [[concepts/probabilistic-software.md]]
+- [[concepts/process-as-product.md]]
+- [[concepts/process-over-tools-evals.md]]
+- [[concepts/procrastination-engineering.md]]
+- [[concepts/product-aggregation.md]]
+- [[concepts/product-discovery.md]]
+- [[concepts/product-feeds.md]]
+- [[concepts/product-intelligence.md]]
+- [[concepts/product-led-hiring.md]]
+- [[concepts/product-market-fit.md]]
+- [[concepts/product-multi-layer-cake.md]]
+- [[concepts/product-taste.md]]
+- [[concepts/production-eval-metrics.md]]
+- [[concepts/production-rag-complexity.md]]
+- [[concepts/production-troubleshooting.md]]
+- [[concepts/profit-first-mentality.md]]
+- [[concepts/programmable-money.md]]
+- [[concepts/prompt-catalog-pattern.md]]
+- [[concepts/prompt-engineering-amnesia.md]]
+- [[concepts/prompt-engineering-for-code-review.md]]
+- [[concepts/prompt-engineering-is-dead.md]]
+- [[concepts/prompt-engineering-llm-output.md]]
+- [[concepts/prompt-fallback-infrastructure.md]]
+- [[concepts/prompt-injection.md]]
+- [[concepts/prompt-is-a-bug.md]]
+- [[concepts/prompt-management-gap.md]]
+- [[concepts/prompt-shields.md]]
+- [[concepts/prompt-to-reward-function.md]]
+- [[concepts/promptification.md]]
+- [[concepts/prompting-vs-fine-tuning.md]]
+- [[concepts/property-graph-model.md]]
+- [[concepts/proxy-metric-problem.md]]
+- [[concepts/public-key-infrastructure-pki.md]]
+- [[concepts/public-key-infrastructure.md]]
+- [[concepts/pydantic.md]]
+- [[concepts/qos-classes.md]]
+- [[concepts/quality-chasm-in-ai.md]]
+- [[concepts/quality-engineering-loop.md]]
+- [[concepts/quality-vs-quantity-recommendations.md]]
+- [[concepts/quantitative-reasoning-rag.md]]
+- [[concepts/quantization-aware-training.md]]
+- [[concepts/quantization-inference.md]]
+- [[concepts/query-decomposition.md]]
+- [[concepts/query-rewriting.md]]
+- [[concepts/query-understanding.md]]
+- [[concepts/queue-phase.md]]
+- [[concepts/queuing-theory-gpu.md]]
+- [[concepts/race-conditions-in-async-systems.md]]
+- [[concepts/rag-agent-symbiosis.md]]
+- [[concepts/rag-as-managed-service.md]]
+- [[concepts/rag-evaluation.md]]
+- [[concepts/rag-grounding.md]]
+- [[concepts/rag-pipeline-architecture.md]]
+- [[concepts/rag-pipeline-evals.md]]
+- [[concepts/raise-without-raising.md]]
+- [[concepts/ralph-coding-technique.md]]
+- [[concepts/rapid-iteration-loop.md]]
+- [[concepts/rbac.md]]
+- [[concepts/re-ranking.md]]
+- [[concepts/read-write-workload-benchmarking.md]]
+- [[concepts/readme-driven-development.md]]
+- [[concepts/real-time-apis.md]]
+- [[concepts/real-time-conversational-video.md]]
+- [[concepts/real-time-os-constraints.md]]
+- [[concepts/real-users-only.md]]
+- [[concepts/real-world-impact-ai.md]]
+- [[concepts/real-world-robotics-data.md]]
+- [[concepts/reasoning-model-pricing.md]]
+- [[concepts/reasoning-model-tradeoffs.md]]
+- [[concepts/reasoning-models-failure-analysis.md]]
+- [[concepts/reasoning-models.md]]
+- [[concepts/reasoning-time-branching.md]]
+- [[concepts/reasoning-token-visibility.md]]
+- [[concepts/recall-at-k.md]]
+- [[concepts/recipe-state-machines.md]]
+- [[concepts/reciprocal-rank-fusion.md]]
+- [[concepts/recommendation-serving-cost.md]]
+- [[concepts/recommender.md]]
+- [[concepts/recreate-strategy.md]]
+- [[concepts/recsys-event-tokenization.md]]
+- [[concepts/recsys-foundation-model.md]]
+- [[concepts/red-teaming.md]]
+- [[concepts/refactoring-priority-matrix.md]]
+- [[concepts/reference-free-evaluation.md]]
+- [[concepts/reference-powered-generation.md]]
+- [[concepts/refresh-token.md]]
+- [[concepts/reinforcement-fine-tuning.md]]
+- [[concepts/reinforcement-learning-at-scale.md]]
+- [[concepts/reinforcement-learning.md]]
+- [[concepts/release-channel.md]]
+- [[concepts/reliability-is-revenue.md]]
+- [[concepts/reliability-over-intelligence.md]]
+- [[concepts/remote-agents-as-a-service.md]]
+- [[concepts/remote-attestation.md]]
+- [[concepts/repetitive-migrations.md]]
+- [[concepts/replica-set-creation.md]]
+- [[concepts/replicasets.md]]
+- [[concepts/replication-controller-&-replicaset.md]]
+- [[concepts/replication-controllers-&-replicasets.md]]
+- [[concepts/replicationcontroller.md]]
+- [[concepts/repo-snapshot-pattern.md]]
+- [[concepts/repository-level-understanding.md]]
+- [[concepts/requiredduringschedulingignoredduringexecution.md]]
+- [[concepts/resource-limits.md]]
+- [[concepts/resource-requests-&-limits.md]]
+- [[concepts/resource-requests-and-limits.md]]
+- [[concepts/resource-requests.md]]
+- [[concepts/resource-server.md]]
+- [[concepts/resourcequota.md]]
+- [[concepts/resources-and-verbs.md]]
+- [[concepts/responsible-ai-governance.md]]
+- [[concepts/retrieval-augmented-generation.md]]
+- [[concepts/retrieval-evaluation-isolation.md]]
+- [[concepts/revenue-cycle-management.md]]
+- [[concepts/revision-history.md]]
+- [[concepts/rework-vs-refactoring.md]]
+- [[concepts/rf-detter.md]]
+- [[concepts/rf100vl.md]]
+- [[concepts/risk-mapping.md]]
+- [[concepts/ritualized-discovery.md]]
+- [[concepts/rl-training-moat.md]]
+- [[concepts/rlhf.md]]
+- [[concepts/robot-evaluation-methods.md]]
+- [[concepts/robot-foundation-models.md]]
+- [[concepts/robot-state-action.md]]
+- [[concepts/robotic-culinary-automation.md]]
+- [[concepts/robotics-control-loop.md]]
+- [[concepts/robotics-data-engine.md]]
+- [[concepts/robotics-synchronization.md]]
+- [[concepts/roi-expectation-pull-forward.md]]
+- [[concepts/roi-measurement-challenges.md]]
+- [[concepts/role-rbac.md]]
+- [[concepts/rolebinding.md]]
+- [[concepts/rollback.md]]
+- [[concepts/rolling-update-strategy.md]]
+- [[concepts/rolling-updates-&-rollbacks.md]]
+- [[concepts/rolling-updates-rollbacks.md]]
+- [[concepts/rolling-upgrade.md]]
+- [[concepts/rollout.md]]
+- [[concepts/route-tables.md]]
+- [[concepts/rqvae-quantization.md]]
+- [[concepts/rsa.md]]
+- [[concepts/runbook-dependency.md]]
+- [[concepts/runway-and-burn-rate.md]]
+- [[concepts/sampled-profiling.md]]
+- [[concepts/sanctions-circumvention.md]]
+- [[concepts/scaling-is-dead-thesis.md]]
+- [[concepts/scaling-judge-time-compute.md]]
+- [[concepts/scaling-laws.md]]
+- [[concepts/scaling-limits.md]]
+- [[concepts/scaling.md]]
+- [[concepts/scenario-tuning-bias.md]]
+- [[concepts/scheduler-profiles.md]]
+- [[concepts/scheduler.md]]
+- [[concepts/schrodingers-chat.md]]
+- [[concepts/scorers-as-specs.md]]
+- [[concepts/screenshot-based-multimodal-retrieval.md]]
+- [[concepts/sdlc-commoditization.md]]
+- [[concepts/sdlc-shift-left-ai.md]]
+- [[concepts/seamless-ai.md]]
+- [[concepts/seamless-authentication-for-agents.md]]
+- [[concepts/search-and-learn.md]]
+- [[concepts/search-and-retrieval.md]]
+- [[concepts/search-evaluation-methods.md]]
+- [[concepts/search-fulfillment.md]]
+- [[concepts/search-relevance.md]]
+- [[concepts/secrets.md]]
+- [[concepts/secure-dev-environment.md]]
+- [[concepts/security-groups.md]]
+- [[concepts/security-in-kubernetes.md]]
+- [[concepts/seed-funding.md]]
+- [[concepts/selectors.md]]
+- [[concepts/self-driving-car-evals.md]]
+- [[concepts/self-driving-code-review.md]]
+- [[concepts/self-healing.md]]
+- [[concepts/self-hosted-overhead.md]]
+- [[concepts/self-managed-kubernetes.md]]
+- [[concepts/self-reconciling.md]]
+- [[concepts/self-reflection-evaluator.md]]
+- [[concepts/self-reported-productivity.md]]
+- [[concepts/self-signed-certificates.md]]
+- [[concepts/self-supervised-driving.md]]
+- [[concepts/semantic-collision-tools.md]]
+- [[concepts/semantic-conventions.md]]
+- [[concepts/semantic-end-of-utterance-detection.md]]
+- [[concepts/semantic-ids.md]]
+- [[concepts/semantic-kernel-agent.md]]
+- [[concepts/semantic-memory-noise.md]]
+- [[concepts/semantic-similarity.md]]
+- [[concepts/semantic-understanding-in-code.md]]
+- [[concepts/semantic-versioning.md]]
+- [[concepts/semantic-video-tokenization.md]]
+- [[concepts/semantic-vs-lexical-query-patterns.md]]
+- [[concepts/semi-supervised-learning.md]]
+- [[concepts/senior-knowledge-replication.md]]
+- [[concepts/sequence-of-moats.md]]
+- [[concepts/sequential-revision.md]]
+- [[concepts/server-certificate.md]]
+- [[concepts/server-rendered-html.md]]
+- [[concepts/service-discovery.md]]
+- [[concepts/serviceaccount.md]]
+- [[concepts/serviceaccounts.md]]
+- [[concepts/services.md]]
+- [[concepts/session-key.md]]
+- [[concepts/set-a-thief-to-catch-a-thief.md]]
+- [[concepts/set-based-selector.md]]
+- [[concepts/set-based-selectors.md]]
+- [[concepts/shared-timeline.md]]
+- [[concepts/shift-left-ai-quality.md]]
+- [[concepts/ship-confidently.md]]
+- [[concepts/ship-first-product.md]]
+- [[concepts/side-project-to-startup.md]]
+- [[concepts/sidecar-pattern.md]]
+- [[concepts/signal-from-noise.md]]
+- [[concepts/signal-loop-ai.md]]
+- [[concepts/silent-ai-failures.md]]
+- [[concepts/simple-ai-app-architecture.md]]
+- [[concepts/simple-browser-vscode.md]]
+- [[concepts/simple-is-better-ai.md]]
+- [[concepts/simpleqa.md]]
+- [[concepts/simulation-based-hiring.md]]
+- [[concepts/simulation-realism-hierarchy.md]]
+- [[concepts/skill-acquisition-efficiency.md]]
+- [[concepts/skill-hell.md]]
+- [[concepts/skills-checklist-framework.md]]
+- [[concepts/sla-based-scheduling.md]]
+- [[concepts/small-ai-teams.md]]
+- [[concepts/small-team-scaling.md]]
+- [[concepts/smart-velocity.md]]
+- [[concepts/soft-rule.md]]
+- [[concepts/software-2-0.md]]
+- [[concepts/software-abstraction-evolution.md]]
+- [[concepts/software-eating-media.md]]
+- [[concepts/software-engineering-model.md]]
+- [[concepts/software-vs-policy-debugging.md]]
+- [[concepts/solvay-analogy.md]]
+- [[concepts/sora-competition-dynamics.md]]
+- [[concepts/sound-effects-generation.md]]
+- [[concepts/spade-pattern.md]]
+- [[concepts/sparse-autoencoders.md]]
+- [[concepts/sparse-vector-retrieval.md]]
+- [[concepts/speaker-diarization.md]]
+- [[concepts/spec-driven-vibe-coding.md]]
+- [[concepts/spec-first-development.md]]
+- [[concepts/specialized-model-for-graph-construction.md]]
+- [[concepts/specifications-as-code.md]]
+- [[concepts/speculative-decoding-eagle.md]]
+- [[concepts/speculative-decoding.md]]
+- [[concepts/speech-to-speech-architecture.md]]
+- [[concepts/speech-to-text.md]]
+- [[concepts/spurious-correlation-detection.md]]
+- [[concepts/stablecoin-settlement.md]]
+- [[concepts/stack-maturity.md]]
+- [[concepts/stack-selection-ai-code.md]]
+- [[concepts/stagehand-browser-tool.md]]
+- [[concepts/standard-models-ai-engineering.md]]
+- [[concepts/stargate-project.md]]
+- [[concepts/startup-grit-and-resilience.md]]
+- [[concepts/startup-survival.md]]
+- [[concepts/state-space-models.md]]
+- [[concepts/stateful-environments.md]]
+- [[concepts/stateful-workloads.md]]
+- [[concepts/statefulsets.md]]
+- [[concepts/stateless-computation.md]]
+- [[concepts/stateless-services.md]]
+- [[concepts/static-eval-sets.md]]
+- [[concepts/static-password-file.md]]
+- [[concepts/static-pod.md]]
+- [[concepts/static-pods.md]]
+- [[concepts/static-secrets-problem.md]]
+- [[concepts/static-token-file.md]]
+- [[concepts/static-vs-dynamic-llm-queries.md]]
+- [[concepts/stochastic-evals.md]]
+- [[concepts/stochastic-systems-evaluation.md]]
+- [[concepts/streaming-diff-algorithm.md]]
+- [[concepts/streaming-telemetry.md]]
+- [[concepts/structural-vs-superficial-understanding.md]]
+- [[concepts/structured-data-filtering.md]]
+- [[concepts/structured-output-classification.md]]
+- [[concepts/structured-output.md]]
+- [[concepts/structured-programming.md]]
+- [[concepts/structured-vibe-coding.md]]
+- [[concepts/style-guide-enforcement.md]]
+- [[concepts/sub-goal-division.md]]
+- [[concepts/subject-alternative-name-san.md]]
+- [[concepts/super-tools.md]]
+- [[concepts/supervised-fine-tuning.md]]
+- [[concepts/supervisor-node.md]]
+- [[concepts/supported-upgrade-path.md]]
+- [[concepts/sustainability-in-ai.md]]
+- [[concepts/swap.md]]
+- [[concepts/swe-bench.md]]
+- [[concepts/sweetask-benchmark.md]]
+- [[concepts/swingbench-verified.md]]
+- [[concepts/symmetric-encryption.md]]
+- [[concepts/synthetic-data-for-evals.md]]
+- [[concepts/synthetic-data-vs-metrics.md]]
+- [[concepts/synthetic-eval-generation.md]]
+- [[concepts/synthetic-query-generation.md]]
+- [[concepts/synthid-watermarking.md]]
+- [[concepts/sysctl-configuration-for-kubernetes.md]]
+- [[concepts/system-1-system-2-thinking.md]]
+- [[concepts/system-level-optimization.md]]
+- [[concepts/system-one-system-two-robotics.md]]
+- [[concepts/system-prompt-security.md]]
+- [[concepts/t-shaped-ai-talent.md]]
+- [[concepts/tacit-code-sharing.md]]
+- [[concepts/tacit-knowledge-codification.md]]
+- [[concepts/tail-query-handling.md]]
+- [[concepts/taintnodesbycondition.md]]
+- [[concepts/taints.md]]
+- [[concepts/take-shots-on-goal.md]]
+- [[concepts/talent-skills-graph.md]]
+- [[concepts/task-specific-evals.md]]
+- [[concepts/tavus-proprietary-models.md]]
+- [[concepts/tavus-replica.md]]
+- [[concepts/taxonomy-classification.md]]
+- [[concepts/tech-as-thought-partner.md]]
+- [[concepts/tech-evolution-from-rule-based.md]]
+- [[concepts/techno-social-co-evolution.md]]
+- [[concepts/technology-adoption-bottleneck.md]]
+- [[concepts/technology-as-enabler.md]]
+- [[concepts/teleoperation-robotics.md]]
+- [[concepts/temporal-graph.md]]
+- [[concepts/temporal-workflow-orchestration.md]]
+- [[concepts/terminal-first-design.md]]
+- [[concepts/test-coverage-as-arbiter.md]]
+- [[concepts/test-time-compute-scaling.md]]
+- [[concepts/text-to-speech-in-agents.md]]
+- [[concepts/text-to-speech.md]]
+- [[concepts/the-agentic-economy.md]]
+- [[concepts/thermal-computer-vision.md]]
+- [[concepts/thinking-budgets.md]]
+- [[concepts/thinking-models-for-bug-detection.md]]
+- [[concepts/three-computer-problem.md]]
+- [[concepts/three-signs-evals-provide-value.md]]
+- [[concepts/tiny-teams.md]]
+- [[concepts/tls-certificates-in-kubernetes.md]]
+- [[concepts/tls-certificates.md]]
+- [[concepts/tls-encryption.md]]
+- [[concepts/tls-handshake.md]]
+- [[concepts/token-burner.md]]
+- [[concepts/tolerations.md]]
+- [[concepts/tool-design-for-agents.md]]
+- [[concepts/tool-design-for-llms.md]]
+- [[concepts/tool-discovery.md]]
+- [[concepts/tool-use-loop.md]]
+- [[concepts/tools-for-imagination.md]]
+- [[concepts/torch-compile-audio.md]]
+- [[concepts/tower-of-babel-story.md]]
+- [[concepts/trace-analysis.md]]
+- [[concepts/trace-context-propagation.md]]
+- [[concepts/tracing-profiling.md]]
+- [[concepts/training-cost-efficiency.md]]
+- [[concepts/trajectory-evaluation.md]]
+- [[concepts/tribal-knowledge-in-ai.md]]
+- [[concepts/tribal-knowledge.md]]
+- [[concepts/triplet-extraction.md]]
+- [[concepts/trust-adjusted-risk.md]]
+- [[concepts/trust-root.md]]
+- [[concepts/trust.md]]
+- [[concepts/turing-award.md]]
+- [[concepts/turn-detection.md]]
+- [[concepts/two-brain-analogy-llm.md]]
+- [[concepts/two-circle-eval-model.md]]
+- [[concepts/type-safe-agent-tool-deps.md]]
+- [[concepts/type-safety-ai.md]]
+- [[concepts/ubiquitous-ai.md]]
+- [[concepts/ufw.md]]
+- [[concepts/umap-visualization.md]]
+- [[concepts/unified-ai-platforms.md]]
+- [[concepts/unified-recommendation-models.md]]
+- [[concepts/unopinionated-product-design.md]]
+- [[concepts/unstructured-data-extraction.md]]
+- [[concepts/upcycling.md]]
+- [[concepts/updatepolicy-mode.md]]
+- [[concepts/updater.md]]
+- [[concepts/usage-based-pricing-for-ai.md]]
+- [[concepts/useful-general-intelligence.md]]
+- [[concepts/user-action-signals.md]]
+- [[concepts/user-defined-bridge-network.md]]
+- [[concepts/user-feedback-evals.md]]
+- [[concepts/user-simulation-testing.md]]
+- [[concepts/user-state-and-codebase-state.md]]
+- [[concepts/validating-phase.md]]
+- [[concepts/validatingadmissionpolicy.md]]
+- [[concepts/validatingadmissionwebhook.md]]
+- [[concepts/validation-error-feedback.md]]
+- [[concepts/value-metric-spectrum.md]]
+- [[concepts/vc-fund-stage-spectrum.md]]
+- [[concepts/vector-database-migration.md]]
+- [[concepts/vector-retrieval-code-limitations.md]]
+- [[concepts/vector-search-limitations.md]]
+- [[concepts/vector-similarity-vs-relevance.md]]
+- [[concepts/vendor-lock-in-llm.md]]
+- [[concepts/verifiable-transparency.md]]
+- [[concepts/verified-superintelligence.md]]
+- [[concepts/version-locking.md]]
+- [[concepts/version-skew-policy.md]]
+- [[concepts/vertical-pod-autoscaler.md]]
+- [[concepts/vertical-scaling.md]]
+- [[concepts/veth-pair.md]]
+- [[concepts/vibe-check.md]]
+- [[concepts/vibe-code-fixer.md]]
+- [[concepts/vibe-coding-as-agentic-ai.md]]
+- [[concepts/vibe-coding-as-whiteboard.md]]
+- [[concepts/vibe-coding-gap.md]]
+- [[concepts/vibe-coding-origins.md]]
+- [[concepts/vibe-coding-with-confidence.md]]
+- [[concepts/vibe-coding.md]]
+- [[concepts/vibe-engineering.md]]
+- [[concepts/video-engagement-reasoning.md]]
+- [[concepts/video-generation-real-time.md]]
+- [[concepts/viral-growth-mechanics.md]]
+- [[concepts/viral-side-project-pattern.md]]
+- [[concepts/virtual-cards.md]]
+- [[concepts/virtual-try-on.md]]
+- [[concepts/vision-evals-saturation.md]]
+- [[concepts/vision-language-action-models.md]]
+- [[concepts/vision-language-models.md]]
+- [[concepts/vision-vs-text-web-agents.md]]
+- [[concepts/visual-agentic-workflows.md]]
+- [[concepts/visual-consistency.md]]
+- [[concepts/visual-context-attachment.md]]
+- [[concepts/vlm-image-captions.md]]
+- [[concepts/vlm-visual-fidelity.md]]
+- [[concepts/voice-activated-software.md]]
+- [[concepts/voice-activity-detection.md]]
+- [[concepts/voice-agent-architecture.md]]
+- [[concepts/voice-agent-escalation.md]]
+- [[concepts/voice-agent-evals.md]]
+- [[concepts/voice-agent-guardrails.md]]
+- [[concepts/voice-agent-prompting.md]]
+- [[concepts/voice-agent-rapid-build.md]]
+- [[concepts/voice-agent-resolution-rate.md]]
+- [[concepts/voice-agent-trust-problem.md]]
+- [[concepts/voice-agents.md]]
+- [[concepts/voice-ai-builder-ecosystem.md]]
+- [[concepts/voice-ai-cost-structure.md]]
+- [[concepts/voice-ai-latency.md]]
+- [[concepts/voice-ai-stack.md]]
+- [[concepts/voice-as-primary-interface.md]]
+- [[concepts/voice-as-ui.md]]
+- [[concepts/voice-cloning.md]]
+- [[concepts/voice-controllability.md]]
+- [[concepts/voice-conversation-design.md]]
+- [[concepts/voice-dictation-ai-coding.md]]
+- [[concepts/voice-dictation-copilot.md]]
+- [[concepts/voice-generation.md]]
+- [[concepts/voice-inference-metrics.md]]
+- [[concepts/voice-marketplace.md]]
+- [[concepts/voice-naturalness.md]]
+- [[concepts/voice-pipeline.md]]
+- [[concepts/voice-to-code.md]]
+- [[concepts/voice-to-voice-vs-stt-lam-tts.md]]
+- [[concepts/voice-uncanny-valley.md]]
+- [[concepts/volume-mounted-files.md]]
+- [[concepts/volumes.md]]
+- [[concepts/vpc-basics.md]]
+- [[concepts/vpc.md]]
+- [[concepts/vs-code-agent-mode-features.md]]
+- [[concepts/vscode-agent-mode.md]]
+- [[concepts/vxlan.md]]
+- [[concepts/warm-intro-strategy.md]]
+- [[concepts/web-agent-vs-browser-tool.md]]
+- [[concepts/web-research-for-optimization.md]]
+- [[concepts/web-rtc.md]]
+- [[concepts/web-sockets.md]]
+- [[concepts/web-trajectories-rl.md]]
+- [[concepts/webhooks-authorization.md]]
+- [[concepts/webrtc-beyond-consumer.md]]
+- [[concepts/webrtc-connection-patterns.md]]
+- [[concepts/webrtc-transport.md]]
+- [[concepts/wheeled-robotics-over-humanoids.md]]
+- [[concepts/when-not-to-use-agentic-workflows.md]]
+- [[concepts/windsurf-browser-previews.md]]
+- [[concepts/windsurf-context-connectors.md]]
+- [[concepts/windsurf-reviews.md]]
+- [[concepts/windsurf-waves.md]]
+- [[concepts/wireframe-to-app-generation.md]]
+- [[concepts/wisdom-graph.md]]
+- [[concepts/work-starvation.md]]
+- [[concepts/work-trial-interviews.md]]
+- [[concepts/worker-node.md]]
+- [[concepts/worker-nodes.md]]
+- [[concepts/workflow-agent-spectrum.md]]
+- [[concepts/workflow-automation.md]]
+- [[concepts/workload-scaling.md]]
+- [[concepts/write-the-launch-post.md]]
+- [[concepts/writer-research-team-structure.md]]
+- [[concepts/x-509-client-certificates.md]]
+- [[concepts/x-tops.md]]
+- [[concepts/yaml-vs-json-for-llms.md]]
+- [[concepts/yashins-bilingual-voice-app.md]]
+- [[concepts/yolo-structured-spectrum-vibe-coding.md]]
+- [[concepts/zero-shot-learning.md]]
 
-- [[entities/dagger|dagger]] - title: "Dagger" ( #entity #company #tool #cicd #container #workflow-engine #agents)
-- [[entities/jeremy-adams|jeremy-adams]] - title: "Jeremy Adams" ( #entity #person #dagger #ecosystem #aief2025)
-- [[entities/steve-ruiz|steve-ruiz]] - title: "Steve Ruiz" ( #person #creator #tldraw)
-- [[entities/tldraw|tldraw]] - title: "tldraw" ( #company #tool #canvas #whiteboard)
-- [[entities/openai|openai]] - title: "OpenAI"
-- [[entities/toki-sherbakov|toki-sherbakov]] - title: "Toki Sherbakov"
-- [[entities/anoop-kotha|anoop-kotha]] - title: "Anoop Kotha"
-- [[entities/lemonade-insurance|lemonade-insurance]] - title: "Lemonade"
-- [[entities/tinder|tinder]] - title: "Tinder"
-- [[entities/dmitry-kuchin|dmitry-kuchin]] - title: "Dmitry Kuchin"
-- [[entities/multinear|multinear]] - title: "Multinear"
-- [[entities/mitesh-patel|mitesh-patel]] - title: "Mitesh Patel" ( #person #nvidia #rag)
-- [[entities/nvidia|nvidia]] - title: "NVIDIA" ( #company #gpu #ai)
-- [[entities/ragas|ragas]] - title: "Ragas" ( #library #rag #evaluation)
-- [[entities/neo4j|neo4j]] - title: "Neo4j" ( #company #graph-database)
-- [[entities/networkx|networkx]] - title: "NetworkX" ( #library #python #graph)
-- [[entities/netflix|netflix]] - title: "Netflix" ( #company #streaming #recommendation-systems #personalization #recsys)
-- [[entities/blackrock|blackrock]] - title: "BlackRock" ( #company #financial-services #enterprise-ai)
-- [[entities/vaibhav-page|vaibhav-page]] - title: "Vaibhav Page" ( #person #blackrock #principal-engineer)
-- [[entities/infant-vasanth|infant-vasanth]] - title: "Infant Vasanth" ( #person #blackrock #director-of-engineering)
-- [[entities/sharif-shameem|sharif-shameem]] - title: "Sharif Shameem" ( #person #ai #entrepreneur #lexica)
-- [[entities/lexica|lexica]] - title: "Lexica" ( #company #ai #generative-ai)
-- [[entities/jcr-licklider|jcr-licklider]] `aliases: Licklider, JCR Licklider, Joseph Licklider` - summary: "Computer scientist who authored the 1960 'Man-Computer Symbiosis' paper." ( #person #computer-science #pioneer)
-- [[entities/brett-victor|brett-victor]] - title: "Brett Victor" ( #person #hci #interaction-design)
-- [[entities/kshitij-grover|kshitij-grover]] - title: "Kshitij Grover" ( #person #entrepreneur #pricing #ai-engineering)
-- [[entities/kyle-penfound|kyle-penfound]] - title: "Kyle Penfound" ( #person #dagger #devops #platform-engineering #aief2025)
-- [[entities/alvaro-morales|alvaro-morales]] - title: "Alvaro Morales" ( #person #entrepreneur #pricing #billing #ai-engineering)
-- [[entities/orb|orb]] - title: "Orb" ( #company #billing #infrastructure #pricing)
-- [[entities/replit|replit]] - title: "Replit" ( #company #ai #coding #agent)
-- [[entities/cloudflare|cloudflare]] - title: "Cloudflare" ( #company #infrastructure #cdn #compute)
-- [[entities/brian-balfour|brian-balfour]] - title: "Brian Balfour" ( #person #product-strategy #founder #reforge)
-- [[entities/reforge|reforge]] - title: "Reforge" ( #company #product-management #ai-education)
-- [[entities/granola|granola]] - title: "Granola" ( #company #ai-product #note-taking)
+## entities
 
-- [[entities/graphite|graphite]] - title: "Graphite" ( #company #ai #code-review #developer-tools #aief2025)
-- [[entities/ravi-meta|ravi-meta]] - title: "Ravi Meta" ( #person #product-management #ai-strategy)
-- [[entities/jamin-ball|jamin-ball]] - title: "Jamin Ball" ( #person #venture-capital #product-strategy)
-- [[entities/altimeter-capital|altimeter-capital]] - title: "Altimeter Capital" ( #company #venture-capital #investor)
-- [[entities/sarah-sachs]] - title: "Sarah Sachs" ( #person #ai #notion #evaluation #product)
-- [[entities/braintrust]] - title: "Braintrust" ( #company #evaluation #ai-platform #observability)
-- [[entities/notion]] - title: "Notion" ( #company #workspace #ai #product)
-- [[entities/jasper|jasper]] - title: "Jasper" ( #company #ai #writing #marketing)
-- [[entities/featherless|featherless]] - title: "Featherless" ( #company #ai #inference #models)
-- [[entities/eugene|eugene]] - title: "Eugene" ( #person #ai #founder #reliability)
-- [[entities/eugene-yan|eugene-yan]] - title: "Eugene Yan" ( #person #ai #recommendation-systems #amazon #recsys)
-- [[entities/kuaishou|kuaishou]] - title: "Kuaishou" ( #company #short-video #recommendation-systems #recsys #china)
-- [[entities/indeed|indeed]] - title: "Indeed" ( #company #job-platform #recommendation-systems #recsys #llm)
-- [[entities/modal|modal]] - title: "Modal" ( #company #cloud #gpu #compute)
-- [[entities/mujoco|mujoco]] - title: "MuJoCo" ( #tool #robotics #simulation #google #deepmind)
-- [[entities/cerebral-valley|cerebral-valley]] - title: "Cerebral Valley" ( #organization #community #hackathon #ai)
-- [[entities/chris-hernandez|chris-hernandez]] - title: "Chris Hernandez" ( #person #speaker #chime #ml)
-- [[entities/chris-kelly]] - title: "Chris Kelly" ( #person #software-engineering #production #aief2025)
-- [[entities/chime|chime]] - title: "Chime" ( #company #fintech)
-- [[entities/freeplay|freeplay]] - title: "Freeplay" ( #company #ai-ops #evaluation)
-- [[entities/anushrut-gupta|anushrut-gupta]] - title: "Anushrut Gupta" ( #person #speaker #promptql)
-- [[entities/promptql|promptql]] - title: "PromptQL" ( #company #ai #semantic-layer)
-- [[entities/assembly-ai|assembly-ai]] - title: "Assembly AI" ( #company #ai #speech #stt)
-- [[entities/livekit|livekit]] - title: "LiveKit" ( #company #voice #ai #infrastructure #real-time)
-- [[entities/tom-shapland|tom-shapland]] - title: "Tom Shapland" ( #person #voice #ai #livekit)
-- [[entities/sarah-guo]] - title: "Sarah Guo" ( #person #venture-capital #ai)
-- [[entities/conviction]] - title: "Conviction" ( #organization #venture-capital #ai)
-- [[entities/cursor-ai]] - title: "Cursor" ( #organization #ai #developer-tools)
-- [[entities/harvey-ai]] - title: "Harvey" ( #organization #ai #legal)
-- [[entities/goodfire-ai]] - title: "Goodfire AI" ( #organization #ai #interpretability #startup)
-- [[entities/sierra-ai]] - title: "Sierra" ( #organization #ai #customer-service)
-- [[entities/open-evidence]] - title: "Open Evidence" ( #organization #ai #healthcare)
-- [[entities/arc-institute]] - title: "ARC Institute" ( #organization #research #genomics #ai)
-- [[entities/greg-kamradt]] - title: "Greg Kamradt" ( #person #ai #benchmarking #arc-agi)
-- [[entities/mark-bissell]] - title: "Mark Bissell" ( #person #ai #interpretability #speaker)
-- [[entities/arc-prize-foundation]] - title: "ARC Prize Foundation" ( #organization #nonprofit #ai #benchmarking #agi)
-- [[entities/francois-chollet]] - title: "Francois Chollet" ( #person #ai #benchmarking #arc-agi)
-- [[entities/sprout-social]] - title: "Sprout Social" ( #company #saas #ai #social-media)
-- [[entities/rossella]] - title: "Rossella" ( #person #speaker #ai #saas)
-- [[entities/debsha]] - title: "Debsha" ( #person #speaker #ai #saas)
-- [[entities/josh-purtell]] - title: "Josh Purtell" ( #person #ai-engineer #agents)
-- [[entities/synth-labs]] - title: "Synth Labs" ( #organization #ai #agents #infrastructure)
-- [[entities/augment-code]] - title: "Augment Code" ( #company #ai #developer-tools #enterprise)
-- [[entities/forrest-brazeal]] - title: "Forrest Brazeal" ( #person #speaker #cloud #developer-relations)
-- [[entities/matt-ball]] - title: "Matt Ball" ( #person #speaker #developer-tools #enterprise)
-- [[entities/alex-atallah]] - title: "Alex Atallah" ( #person #founder #ai #openrouter)
-- [[entities/openrouter]] - title: "OpenRouter" ( #company #ai #inference #marketplace)
+- [[entities/11x.md]]
+- [[entities/567.md]]
+- [[entities/7rdgs.md]]
+- [[entities/a24.md]]
+- [[entities/aakanksha-chowdhery.md]]
+- [[entities/adam-behrens.md]]
+- [[entities/adobe.md]]
+- [[entities/agentuity.md]]
+- [[entities/ai-daily-brief.md]]
+- [[entities/aiden-bai.md]]
+- [[entities/aief2025.md]]
+- [[entities/alex-atallah.md]]
+- [[entities/alex-duffy.md]]
+- [[entities/alex-volkov.md]]
+- [[entities/alexa.md]]
+- [[entities/alibaba.md]]
+- [[entities/alice-ai-sdr.md]]
+- [[entities/alicorp.md]]
+- [[entities/alix-partners.md]]
+- [[entities/altimeter-capital.md]]
+- [[entities/alvaro-morales.md]]
+- [[entities/aman-khan.md]]
+- [[entities/amanda-askell.md]]
+- [[entities/amazon-agi.md]]
+- [[entities/amazon-bedrock-agents.md]]
+- [[entities/amazon-bedrock.md]]
+- [[entities/amazon-nova.md]]
+- [[entities/amazon-q-developer.md]]
+- [[entities/amazon-sns.md]]
+- [[entities/amazon-titan.md]]
+- [[entities/amd.md]]
+- [[entities/amir-haghighat.md]]
+- [[entities/amplify.md]]
+- [[entities/andre-karpathy.md]]
+- [[entities/andreas-kolleger.md]]
+- [[entities/andrej-karpathy.md]]
+- [[entities/andrew-ng.md]]
+- [[entities/andy-maguire.md]]
+- [[entities/anish-agarwal.md]]
+- [[entities/ankur-goyal.md]]
+- [[entities/annika-and-aastha.md]]
+- [[entities/anoop-kotha.md]]
+- [[entities/answer-ai.md]]
+- [[entities/anterior.md]]
+- [[entities/anthropic.md]]
+- [[entities/antje-barth.md]]
+- [[entities/anushrut-gupta.md]]
+- [[entities/apache-lucene.md]]
+- [[entities/apify.md]]
+- [[entities/apoorva-joshi.md]]
+- [[entities/apple.md]]
+- [[entities/arango-db.md]]
+- [[entities/arc-institute.md]]
+- [[entities/arc-prize-foundation.md]]
+- [[entities/arcade.md]]
+- [[entities/arcjet.md]]
+- [[entities/arize-ai.md]]
+- [[entities/arize.md]]
+- [[entities/arthur-ai.md]]
+- [[entities/artificial-analysis.md]]
+- [[entities/asaf.md]]
+- [[entities/asha-sharma.md]]
+- [[entities/assembly-ai.md]]
+- [[entities/augment-code.md]]
+- [[entities/augment-slack-bot.md]]
+- [[entities/auth0.md]]
+- [[entities/aws-agents.md]]
+- [[entities/aws.md]]
+- [[entities/azure-ai-foundry.md]]
+- [[entities/barr-yaron.md]]
+- [[entities/barry-zhang.md]]
+- [[entities/baseten.md]]
+- [[entities/ben-kus.md]]
+- [[entities/ben-stein.md]]
+- [[entities/benjamin-dunphy.md]]
+- [[entities/benjamin-eckel.md]]
+- [[entities/beth-glenfield.md]]
+- [[entities/birdclaw.md]]
+- [[entities/bismuth.md]]
+- [[entities/blackrock.md]]
+- [[entities/bolt.md]]
+- [[entities/bolt.new.md]]
+- [[entities/boris-cherny.md]]
+- [[entities/box.md]]
+- [[entities/brainbox-ai.md]]
+- [[entities/braintrust.md]]
+- [[entities/branch.md]]
+- [[entities/brett-victor.md]]
+- [[entities/brian-balfour.md]]
+- [[entities/brian-johnson.md]]
+- [[entities/bridgewater.md]]
+- [[entities/brooke-hopkins.md]]
+- [[entities/browserbase.md]]
+- [[entities/busybox.md]]
+- [[entities/calico.md]]
+- [[entities/calvin-qi.md]]
+- [[entities/canopy-labs.md]]
+- [[entities/carlos-esteban.md]]
+- [[entities/cartesia.md]]
+- [[entities/cascade.md]]
+- [[entities/casco.md]]
+- [[entities/caylent.md]]
+- [[entities/cedric-vidal.md]]
+- [[entities/ceph.md]]
+- [[entities/cerebral-valley.md]]
+- [[entities/certificate-authority.md]]
+- [[entities/chad-bailey.md]]
+- [[entities/chang-she.md]]
+- [[entities/charles-frye.md]]
+- [[entities/chelcie-taylor.md]]
+- [[entities/cheng-lu.md]]
+- [[entities/chime.md]]
+- [[entities/chin-keong-lam.md]]
+- [[entities/chris-hernandez.md]]
+- [[entities/chris-kelly.md]]
+- [[entities/christian-segeti.md]]
+- [[entities/christopher-chedeau.md]]
+- [[entities/christopher-harrison.md]]
+- [[entities/christopher-lovejoy.md]]
+- [[entities/chroma.md]]
+- [[entities/circle.md]]
+- [[entities/cisco.md]]
+- [[entities/cisco’s-martianbank.md]]
+- [[entities/claude-3-7-sonnet.md]]
+- [[entities/claude-code.md]]
+- [[entities/claude-sonnet-4.md]]
+- [[entities/clay-bavor.md]]
+- [[entities/cleo-lant.md]]
+- [[entities/clerk.md]]
+- [[entities/clickhouse.md]]
+- [[entities/cloud-glue.md]]
+- [[entities/cloudchef.md]]
+- [[entities/cloudflare-agents-sdk.md]]
+- [[entities/cloudflare.md]]
+- [[entities/cluey.md]]
+- [[entities/cncf.md]]
+- [[entities/cni-ipam-specification.md]]
+- [[entities/coasia.md]]
+- [[entities/codex.md]]
+- [[entities/coframe.md]]
+- [[entities/cognition.md]]
+- [[entities/confidence-security.md]]
+- [[entities/consult-gov-uk.md]]
+- [[entities/containerd.md]]
+- [[entities/contextual-ai.md]]
+- [[entities/continue-dev.md]]
+- [[entities/conviction.md]]
+- [[entities/coredns.md]]
+- [[entities/corekey-72b.md]]
+- [[entities/corey-cooper.md]]
+- [[entities/coval.md]]
+- [[entities/craig-wattrus.md]]
+- [[entities/crea.md]]
+- [[entities/crewai.md]]
+- [[entities/cri-o.md]]
+- [[entities/crictl.md]]
+- [[entities/cron.md]]
+- [[entities/ctr.md]]
+- [[entities/cuda.md]]
+- [[entities/cursor-ai.md]]
+- [[entities/dagger.md]]
+- [[entities/daily.md]]
+- [[entities/dan-shipper.md]]
+- [[entities/dani-grant.md]]
+- [[entities/daniel-chalef.md]]
+- [[entities/danielle-perszyk.md]]
+- [[entities/dario-amodei.md]]
+- [[entities/dat-ngo.md]]
+- [[entities/databricks.md]]
+- [[entities/datadog.md]]
+- [[entities/datalab.md]]
+- [[entities/dataquest.md]]
+- [[entities/david-cramer.md]]
+- [[entities/david-favorited.md]]
+- [[entities/david-karam.md]]
+- [[entities/david-mytton.md]]
+- [[entities/david-vorick.md]]
+- [[entities/daytona.md]]
+- [[entities/debsha.md]]
+- [[entities/deepmind.md]]
+- [[entities/deepseek.md]]
+- [[entities/den-delimarsky.md]]
+- [[entities/denys-linkov.md]]
+- [[entities/devansh-tandon.md]]
+- [[entities/devday.md]]
+- [[entities/devin.md]]
+- [[entities/dex-horthy.md]]
+- [[entities/diamond.md]]
+- [[entities/diego-rodriguez.md]]
+- [[entities/digitalocean.md]]
+- [[entities/dmitry-kuchin.md]]
+- [[entities/docker-compose.md]]
+- [[entities/docker.md]]
+- [[entities/donald-hruska.md]]
+- [[entities/doug-guthrie.md]]
+- [[entities/douglas-engelbart.md]]
+- [[entities/dspy.md]]
+- [[entities/dylan-patel.md]]
+- [[entities/dylibso.md]]
+- [[entities/eashan-sinha.md]]
+- [[entities/ec2.md]]
+- [[entities/elastic.md]]
+- [[entities/elasticsearch.md]]
+- [[entities/elevenlabs.md]]
+- [[entities/eliza-cabrera.md]]
+- [[entities/emma-ning.md]]
+- [[entities/eno-reyes.md]]
+- [[entities/ensemble-health.md]]
+- [[entities/entra-id.md]]
+- [[entities/eric-hou.md]]
+- [[entities/eric-simons.md]]
+- [[entities/etcd.md]]
+- [[entities/etlify.md]]
+- [[entities/eugene-yan.md]]
+- [[entities/eugene.md]]
+- [[entities/eureka-labs.md]]
+- [[entities/every-company.md]]
+- [[entities/every-to.md]]
+- [[entities/exa.md]]
+- [[entities/excalidraw.md]]
+- [[entities/exifunction.md]]
+- [[entities/factory.md]]
+- [[entities/factset.md]]
+- [[entities/fal.md]]
+- [[entities/faraday.md]]
+- [[entities/faraz.md]]
+- [[entities/favorited.md]]
+- [[entities/featherless.md]]
+- [[entities/federalist-ai.md]]
+- [[entities/file-ai.md]]
+- [[entities/firecrawl.md]]
+- [[entities/fish-audio.md]]
+- [[entities/flannel.md]]
+- [[entities/flatfile.md]]
+- [[entities/fluent-bit.md]]
+- [[entities/fluentd.md]]
+- [[entities/forrest-brazeal.md]]
+- [[entities/fouad-matin.md]]
+- [[entities/foundry-local.md]]
+- [[entities/francois-chollet.md]]
+- [[entities/frank-liu.md]]
+- [[entities/freeplay.md]]
+- [[entities/g42.md]]
+- [[entities/gabber.md]]
+- [[entities/galileo.md]]
+- [[entities/gamma.md]]
+- [[entities/gemini.md]]
+- [[entities/geoffrey-huntley.md]]
+- [[entities/george-cameron.md]]
+- [[entities/github-copilot.md]]
+- [[entities/gitpod.md]]
+- [[entities/glow-labs.md]]
+- [[entities/glusterd-source.md]]
+- [[entities/glusterd.md]]
+- [[entities/goodfire-ai.md]]
+- [[entities/google-deepmind.md]]
+- [[entities/google-jules.md]]
+- [[entities/google-photos.md]]
+- [[entities/google.md]]
+- [[entities/google’s-online-boutique.md]]
+- [[entities/gorkem-yurtseven.md]]
+- [[entities/gpt-4-5.md]]
+- [[entities/gpt-4o.md]]
+- [[entities/grafana.md]]
+- [[entities/granola.md]]
+- [[entities/grant-lee.md]]
+- [[entities/graphite.md]]
+- [[entities/greg-brockman.md]]
+- [[entities/greg-kamradt.md]]
+- [[entities/grok-ai-chips.md]]
+- [[entities/guardhat.md]]
+- [[entities/guidellm.md]]
+- [[entities/gumloop.md]]
+- [[entities/haize-labs.md]]
+- [[entities/hamed-linkedin-ai.md]]
+- [[entities/han-wang.md]]
+- [[entities/harald-kirschner.md]]
+- [[entities/harald-kirshner.md]]
+- [[entities/hariharan-ganesan.md]]
+- [[entities/harold.md]]
+- [[entities/harrison-chase.md]]
+- [[entities/harvey-ai.md]]
+- [[entities/hassan-el-mghari.md]]
+- [[entities/helicone.md]]
+- [[entities/helm.md]]
+- [[entities/home-depot.md]]
+- [[entities/host-local.md]]
+- [[entities/hpe.md]]
+- [[entities/huawei.md]]
+- [[entities/huggingface.md]]
+- [[entities/humane.md]]
+- [[entities/humanlayer.md]]
+- [[entities/huxe.md]]
+- [[entities/hyperbolic.md]]
+- [[entities/hyperdos.md]]
+- [[entities/iam.md]]
+- [[entities/ian-butler.md]]
+- [[entities/ido-pesok.md]]
+- [[entities/ilan-bigio.md]]
+- [[entities/imagine-4.md]]
+- [[entities/imbue.md]]
+- [[entities/incubator-for-ai.md]]
+- [[entities/indeed.md]]
+- [[entities/infant-vasanth.md]]
+- [[entities/infobip.md]]
+- [[entities/instacart.md]]
+- [[entities/intercom-fin.md]]
+- [[entities/intuit.md]]
+- [[entities/itamar-friedman.md]]
+- [[entities/ivan-burazin.md]]
+- [[entities/jack-rae.md]]
+- [[entities/jam-vc.md]]
+- [[entities/james-lowe.md]]
+- [[entities/jamin-ball.md]]
+- [[entities/jan-curn.md]]
+- [[entities/jared-hanson.md]]
+- [[entities/jason-liu-567.md]]
+- [[entities/jasper-zhang.md]]
+- [[entities/jasper.md]]
+- [[entities/jaspreet-singh.md]]
+- [[entities/jcr-licklider.md]]
+- [[entities/jeff-atwood.md]]
+- [[entities/jeff-huber.md]]
+- [[entities/jensen-huang.md]]
+- [[entities/jeremy-adams.md]]
+- [[entities/jeremy-howard.md]]
+- [[entities/jeremy-silva.md]]
+- [[entities/jerry-liu.md]]
+- [[entities/jesse-han.md]]
+- [[entities/jesús-barrasa.md]]
+- [[entities/jim-bennett.md]]
+- [[entities/jmo.md]]
+- [[entities/joel-hron.md]]
+- [[entities/john-collison.md]]
+- [[entities/john-dickerson.md]]
+- [[entities/john-peck.md]]
+- [[entities/john-pham.md]]
+- [[entities/john-welsh.md]]
+- [[entities/jon-peck.md]]
+- [[entities/jonas-upside.md]]
+- [[entities/jonas.md]]
+- [[entities/jonathan-larson.md]]
+- [[entities/josh-albrecht.md]]
+- [[entities/josh-brown.md]]
+- [[entities/josh-purtell.md]]
+- [[entities/josh-snyder.md]]
+- [[entities/jost-tobias-springberg.md]]
+- [[entities/julia-kasper.md]]
+- [[entities/julian-voice-agent.md]]
+- [[entities/jx-mo.md]]
+- [[entities/jyh-jing-hwang.md]]
+- [[entities/k-scale-labs.md]]
+- [[entities/keegan-mccallum.md]]
+- [[entities/keiji-kanazawa.md]]
+- [[entities/kelvin-ma.md]]
+- [[entities/kenneth-auchenberg.md]]
+- [[entities/kevin-hou.md]]
+- [[entities/kevin-madura.md]]
+- [[entities/keycard.md]]
+- [[entities/keycloak.md]]
+- [[entities/kitze.md]]
+- [[entities/krea-ai.md]]
+- [[entities/kshitij-grover.md]]
+- [[entities/kuaishou.md]]
+- [[entities/kube-controller-manager.md]]
+- [[entities/kubeadm.md]]
+- [[entities/kubectl-set-image-command.md]]
+- [[entities/kubectl.md]]
+- [[entities/kubelet.md]]
+- [[entities/kubernetes-v1-24.md]]
+- [[entities/kubernetes.md]]
+- [[entities/kubestriker.md]]
+- [[entities/kwindla-kramer.md]]
+- [[entities/kyle-kranen.md]]
+- [[entities/kyle-penfound.md]]
+- [[entities/lance-cb.md]]
+- [[entities/lance-db.md]]
+- [[entities/langchain.md]]
+- [[entities/langgraph.md]]
+- [[entities/langsmith.md]]
+- [[entities/larry-tesler.md]]
+- [[entities/launchdarkly.md]]
+- [[entities/laurie-voss.md]]
+- [[entities/lee-co-wizard.md]]
+- [[entities/lemonade-insurance.md]]
+- [[entities/lengthmist.md]]
+- [[entities/leonard-tang.md]]
+- [[entities/leto.md]]
+- [[entities/lexica.md]]
+- [[entities/linear.md]]
+- [[entities/linkedin.md]]
+- [[entities/linus-lee.md]]
+- [[entities/linux.md]]
+- [[entities/live.md]]
+- [[entities/livekit.md]]
+- [[entities/livermore-national-laboratory.md]]
+- [[entities/llama-3.md]]
+- [[entities/llamaindex.md]]
+- [[entities/llamaparse.md]]
+- [[entities/lm-eval-harness.md]]
+- [[entities/lockfire.md]]
+- [[entities/logan-kilpatrick.md]]
+- [[entities/logfire.md]]
+- [[entities/los-alamos-national-laboratory.md]]
+- [[entities/lou-bichard.md]]
+- [[entities/lovable.md]]
+- [[entities/lukasz-gandecki.md]]
+- [[entities/luke-alvoeiro.md]]
+- [[entities/luma-ai.md]]
+- [[entities/lyria-2.md]]
+- [[entities/magi-1.md]]
+- [[entities/mani-khanuja.md]]
+- [[entities/manu-goyal.md]]
+- [[entities/manual-notes.md]]
+- [[entities/mark-benioff.md]]
+- [[entities/mark-bissell.md]]
+- [[entities/mark-machotton.md]]
+- [[entities/mark-myshatyn.md]]
+- [[entities/mark-zuckerberg.md]]
+- [[entities/marker.md]]
+- [[entities/mason-egger.md]]
+- [[entities/master-node.md]]
+- [[entities/mastra-ai.md]]
+- [[entities/material-ui.md]]
+- [[entities/matt-ball.md]]
+- [[entities/matt-pocock.md]]
+- [[entities/matt-traversal.md]]
+- [[entities/matthias-loibl.md]]
+- [[entities/max-brodeur-urbas.md]]
+- [[entities/maxime-labonne.md]]
+- [[entities/maximillian-piras.md]]
+- [[entities/maziar-linkedin-ai.md]]
+- [[entities/mcp-community-registry.md]]
+- [[entities/mcp-steering-committee.md]]
+- [[entities/mcp.run.md]]
+- [[entities/meta.md]]
+- [[entities/metrics-server.md]]
+- [[entities/michael-albada.md]]
+- [[entities/michael-grinich.md]]
+- [[entities/michael-hunger.md]]
+- [[entities/microsoft-ai-red-team.md]]
+- [[entities/microsoft.md]]
+- [[entities/microsoft’s-eshop-reference-application.md]]
+- [[entities/midjourney.md]]
+- [[entities/mike-chambers.md]]
+- [[entities/minute-ai-transcription.md]]
+- [[entities/mistral-ai.md]]
+- [[entities/mistral.md]]
+- [[entities/mitesh-patel.md]]
+- [[entities/mo-bhasin.md]]
+- [[entities/modal.md]]
+- [[entities/monday-com.md]]
+- [[entities/mongodb.md]]
+- [[entities/monologue.md]]
+- [[entities/morph.md]]
+- [[entities/mozilla-ai.md]]
+- [[entities/mujoco.md]]
+- [[entities/muktesh-mishra.md]]
+- [[entities/mukuntha-narayanan.md]]
+- [[entities/multinear.md]]
+- [[entities/n8n.md]]
+- [[entities/nagkumar-arkalgud.md]]
+- [[entities/nasa.md]]
+- [[entities/nathan-sobo.md]]
+- [[entities/nathan-wan.md]]
+- [[entities/nature-footage.md]]
+- [[entities/neil-dwyer.md]]
+- [[entities/neo4j-browser.md]]
+- [[entities/neo4j.md]]
+- [[entities/neon.md]]
+- [[entities/nerdctl.md]]
+- [[entities/netflix.md]]
+- [[entities/networkx.md]]
+- [[entities/new-generation.md]]
+- [[entities/new-york-times.md]]
+- [[entities/nick-nisi.md]]
+- [[entities/nikhil-abraham.md]]
+- [[entities/nina-daily.md]]
+- [[entities/nina-lopatina.md]]
+- [[entities/nir-gazit.md]]
+- [[entities/nlw.md]]
+- [[entities/notable-vc.md]]
+- [[entities/notebooklm.md]]
+- [[entities/notion.md]]
+- [[entities/nova-act.md]]
+- [[entities/nvidia-dynamo.md]]
+- [[entities/nvidia-gr00t.md]]
+- [[entities/nvidia.md]]
+- [[entities/nyt-games.md]]
+- [[entities/o1-pro.md]]
+- [[entities/observable.tools.md]]
+- [[entities/okta.md]]
+- [[entities/ola-mabadeje.md]]
+- [[entities/olive-optimizer.md]]
+- [[entities/olive.md]]
+- [[entities/ollama.md]]
+- [[entities/omar-khattab.md]]
+- [[entities/onnx-runtime.md]]
+- [[entities/open-container-initiative-oci.md]]
+- [[entities/open-evidence.md]]
+- [[entities/open-policy-agent-opa.md]]
+- [[entities/openai-agents-sdk.md]]
+- [[entities/openai.md]]
+- [[entities/openaudio.md]]
+- [[entities/openhands.md]]
+- [[entities/openhome.md]]
+- [[entities/openrouter.md]]
+- [[entities/openssl.md]]
+- [[entities/orb.md]]
+- [[entities/orpheus-tts.md]]
+- [[entities/outshift.md]]
+- [[entities/paige-bailey.md]]
+- [[entities/palantir.md]]
+- [[entities/passport-js.md]]
+- [[entities/patho-ai.md]]
+- [[entities/patrick-collison.md]]
+- [[entities/paul-klein-iv.md]]
+- [[entities/peter-bar.md]]
+- [[entities/peter-robicheaux.md]]
+- [[entities/peter-steinberger.md]]
+- [[entities/philip-kiely.md]]
+- [[entities/philipp-krenn.md]]
+- [[entities/physical-intelligence.md]]
+- [[entities/pi-labs.md]]
+- [[entities/pi-zero.md]]
+- [[entities/pieces.md]]
+- [[entities/pinecone.md]]
+- [[entities/pinterest.md]]
+- [[entities/pion.md]]
+- [[entities/pipe-cat.md]]
+- [[entities/plausible-analytics.md]]
+- [[entities/pods.md]]
+- [[entities/polar-signals.md]]
+- [[entities/postgres-mcp.md]]
+- [[entities/posthog.md]]
+- [[entities/preeti-somal.md]]
+- [[entities/prime-intellect.md]]
+- [[entities/prisma.md]]
+- [[entities/prometheus-node-exporter.md]]
+- [[entities/prometheus-operator.md]]
+- [[entities/prometheus.md]]
+- [[entities/promptfu.md]]
+- [[entities/promptql.md]]
+- [[entities/pydantic-ai.md]]
+- [[entities/pydantic.md]]
+- [[entities/pyrit.md]]
+- [[entities/pytorch.md]]
+- [[entities/qodo.md]]
+- [[entities/quan-vuong.md]]
+- [[entities/quora.md]]
+- [[entities/quotient-ai.md]]
+- [[entities/qwen.md]]
+- [[entities/rafal-willinski.md]]
+- [[entities/ragas.md]]
+- [[entities/raiza-martin.md]]
+- [[entities/rajiv-shah.md]]
+- [[entities/randall-hunt.md]]
+- [[entities/raspberry-pi.md]]
+- [[entities/ravi-meta.md]]
+- [[entities/red-hat.md]]
+- [[entities/redis.md]]
+- [[entities/reflection-ai.md]]
+- [[entities/reforge.md]]
+- [[entities/rene-brandel.md]]
+- [[entities/replicate.md]]
+- [[entities/replit.md]]
+- [[entities/retool.md]]
+- [[entities/rich-sutton.md]]
+- [[entities/richmond-alake.md]]
+- [[entities/rick-blalock.md]]
+- [[entities/rishabh-garg.md]]
+- [[entities/rita-kozlov.md]]
+- [[entities/rkt.md]]
+- [[entities/robbie-coomber.md]]
+- [[entities/robert-brennan.md]]
+- [[entities/roboflow.md]]
+- [[entities/rossella.md]]
+- [[entities/rover-js.md]]
+- [[entities/rt2.md]]
+- [[entities/runc.md]]
+- [[entities/rustin-banks.md]]
+- [[entities/sahil-yadav.md]]
+- [[entities/salesforce.md]]
+- [[entities/sam-altman.md]]
+- [[entities/sam-bhagwat.md]]
+- [[entities/sam-fertig.md]]
+- [[entities/sam-julien.md]]
+- [[entities/sam2.md]]
+- [[entities/samsung.md]]
+- [[entities/samuel-colvin.md]]
+- [[entities/sarah-guo.md]]
+- [[entities/sarah-sachs.md]]
+- [[entities/scott-wu.md]]
+- [[entities/sculptor.md]]
+- [[entities/sean-dubois.md]]
+- [[entities/sean-grove.md]]
+- [[entities/seaweedfs.md]]
+- [[entities/semi-analysis.md]]
+- [[entities/sentry.md]]
+- [[entities/service-now.md]]
+- [[entities/seth-juarez.md]]
+- [[entities/sf-compute.md]]
+- [[entities/sglang.md]]
+- [[entities/shadcn.md]]
+- [[entities/shafik-quoraishee.md]]
+- [[entities/sharif-shameem.md]]
+- [[entities/shijia.md]]
+- [[entities/shristha.md]]
+- [[entities/sid-bendre.md]]
+- [[entities/sierra-ai.md]]
+- [[entities/simon-willison.md]]
+- [[entities/simon.md]]
+- [[entities/simple-browser-vscode.md]]
+- [[entities/sizzy.md]]
+- [[entities/sk-hynix.md]]
+- [[entities/slurm.md]]
+- [[entities/smich.md]]
+- [[entities/snack.md]]
+- [[entities/solomon-hykes.md]]
+- [[entities/sonic-2.md]]
+- [[entities/sorish.md]]
+- [[entities/splunk.md]]
+- [[entities/sprout-social.md]]
+- [[entities/ssh.md]]
+- [[entities/stackblitz.md]]
+- [[entities/stanford.md]]
+- [[entities/stefania-druma.md]]
+- [[entities/stephen-chin.md]]
+- [[entities/stephen-shin.md]]
+- [[entities/steve-ruiz.md]]
+- [[entities/strands-agents.md]]
+- [[entities/stripe.md]]
+- [[entities/suman-debnath.md]]
+- [[entities/summarize.md]]
+- [[entities/supabase.md]]
+- [[entities/superintelligent.md]]
+- [[entities/surepath.md]]
+- [[entities/surya.md]]
+- [[entities/swix.md]]
+- [[entities/swyx.md]]
+- [[entities/synth-labs.md]]
+- [[entities/tailscale.md]]
+- [[entities/tailwind-css.md]]
+- [[entities/tavily.md]]
+- [[entities/tavus.md]]
+- [[entities/taylor-jordan-smith.md]]
+- [[entities/teammates.md]]
+- [[entities/tejas-kumar.md]]
+- [[entities/tejaswi.md]]
+- [[entities/telemetrak.md]]
+- [[entities/temporal.md]]
+- [[entities/tengyu-ma.md]]
+- [[entities/tensorrt-llm.md]]
+- [[entities/tesla-optimus.md]]
+- [[entities/tharun.md]]
+- [[entities/thebrain-pro.md]]
+- [[entities/theme-finder.md]]
+- [[entities/theodora-chu.md]]
+- [[entities/thomson-reuters.md]]
+- [[entities/thor-schaeff.md]]
+- [[entities/tinder.md]]
+- [[entities/tldraw.md]]
+- [[entities/tobin-south.md]]
+- [[entities/together-ai.md]]
+- [[entities/toki-sherbakov.md]]
+- [[entities/tom-moor.md]]
+- [[entities/tom-shapland.md]]
+- [[entities/tom-smoker.md]]
+- [[entities/tomas-reimers.md]]
+- [[entities/traceloop.md]]
+- [[entities/traversal-ai.md]]
+- [[entities/treesitter.md]]
+- [[entities/triton-inference-server.md]]
+- [[entities/tsmc.md]]
+- [[entities/turbotax.md]]
+- [[entities/ubuntu-server.md]]
+- [[entities/upside.md]]
+- [[entities/v0.md]]
+- [[entities/vaibhav-page.md]]
+- [[entities/vasu.md]]
+- [[entities/venato-supercomputer.md]]
+- [[entities/veo-2.md]]
+- [[entities/veo-3.md]]
+- [[entities/vercel.md]]
+- [[entities/vidya.md]]
+- [[entities/vik-paruchuri.md]]
+- [[entities/vinesh.md]]
+- [[entities/visa.md]]
+- [[entities/vitor-balocco.md]]
+- [[entities/vllm.md]]
+- [[entities/voyage-ai.md]]
+- [[entities/vs-code.md]]
+- [[entities/vzero.md]]
+- [[entities/w3schools.md]]
+- [[entities/walmart.md]]
+- [[entities/waymo.md]]
+- [[entities/weave.md]]
+- [[entities/weavenet.md]]
+- [[entities/weaveworks’-sock-shop.md]]
+- [[entities/weights-and-biases.md]]
+- [[entities/wells-fargo.md]]
+- [[entities/whyhow.md]]
+- [[entities/will-brown.md]]
+- [[entities/will-bryk.md]]
+- [[entities/windsurf.md]]
+- [[entities/wisedocs.md]]
+- [[entities/wordle.md]]
+- [[entities/workday.md]]
+- [[entities/worker-node-1.md]]
+- [[entities/worker-node-2.md]]
+- [[entities/workos.md]]
+- [[entities/writer.md]]
+- [[entities/y-combinator.md]]
+- [[entities/yegor-denisov-blanch.md]]
+- [[entities/yesu-feng.md]]
+- [[entities/yineng-zhang.md]]
+- [[entities/yogendra-miraje.md]]
+- [[entities/youtube.md]]
+- [[entities/yutori.md]]
+- [[entities/zach-blumenfeld.md]]
+- [[entities/zapier.md]]
+- [[entities/zed.md]]
+- [[entities/zeke-sikelianos.md]]
+- [[entities/zep.md]]
+- [[entities/zod.md]]
+- [[entities/zscaler.md]]
+- [[entities/zwibbler.md]]
 
-- [[entities/jx-mo]] - title: "JX Mo" ( #person #robotics #k-scale-labs)
-- [[entities/k-scale-labs]] - title: "K-Scale Labs" ( #company #robotics #humanoid #open-source)
+## references
 
-- [[entities/philipp-krenn]] - title: "Philipp Krenn" ( #person #search #elasticsearch)
-- [[entities/elastic]] - title: "Elastic" ( #company #search #observability)
-- [[entities/apache-lucene]] - title: "Apache Lucene" ( #library #search #indexing)
+- [[references/12-factor-agents-patterns-dex-horthy-humanlayer.md]]
+- [[references/agent-design-patterns-production-laurie-voss-llamaindex.md]]
+- [[references/ai-eng-worlds-fair-2025-agents-vs-workflows-sam-bhagwat-mastra.md]]
+- [[references/ai-eng-worlds-fair-2025-hackathon-presentations.md]]
+- [[references/ai-eng-worlds-fair-2025-hype-to-habit-sprout-social.md]]
+- [[references/ai-eng-worlds-fair-2025-llm-evals-strategies-taylor-jordan-smith.md]]
+- [[references/ai-eng-worlds-fair-2025-spark-to-system-open-agentic-web-asha-sharma.md]]
+- [[references/ai-eng-worlds-fair-2025-talk-practical-tactics-reliable-ai.md]]
+- [[references/aief2025-2025-in-llms-simon-willison.md]]
+- [[references/aief2025-3-ingredients-reliable-enterprise-agents-harrison-chase.md]]
+- [[references/aief2025-360brew-llm-based-personalized-ranking-and-recommendation.md]]
+- [[references/aief2025-agentic-excellence-azure-eval-sdk.md]]
+- [[references/aief2025-agentic-graphrag-zach-blumenfeld.md]]
+- [[references/aief2025-agents-500b-promise-donald-hruska-retool.md]]
+- [[references/aief2025-ai-consulting-in-practice-nlw-superintelligent-aidailybrief.md]]
+- [[references/aief2025-ai-education-summit-ben-dunphy.md]]
+- [[references/aief2025-ai-powered-entomology-tomas-reimers-graphite.md]]
+- [[references/aief2025-ai-red-teaming-agent-azure-ai-foundry.md]]
+- [[references/aief2025-ai-that-pays-nathan-wan-ensemble-health.md]]
+- [[references/aief2025-applied-ai-agents-national-security.md]]
+- [[references/aief2025-architecting-agent-memory-richmond-alake-mongodb.md]]
+- [[references/aief2025-automating-escrow-usdc-ai-corey-cooper.md]]
+- [[references/aief2025-ax-is-the-only-experience-that-matters-ivan-burazin-daytona.md]]
+- [[references/aief2025-benchmarks-are-memes-alex-duffy-every.md]]
+- [[references/aief2025-beyond-the-prototype-josh-albrecht-imbue.md]]
+- [[references/aief2025-bitter-layout-maximillian-piras-yutori.md]]
+- [[references/aief2025-bolt-new-how-we-scaled-0-20m-arr-in-60-days-with-15-people-eric-simons-bolt.md]]
+- [[references/aief2025-books-reimagined-ai-experiences-lukasz-gandecki.md]]
+- [[references/aief2025-build-dynamic-products-stop-ai-sideshow.md]]
+- [[references/aief2025-building-a-10-person-unicorn-max-brodeur-urbas-gumloop.md]]
+- [[references/aief2025-building-agent-fleet-architectures.md]]
+- [[references/aief2025-building-agents-at-cloud-scale-antje-barth-aws.md]]
+- [[references/aief2025-building-agents-hard-parts-rita-kozlov.md]]
+- [[references/aief2025-building-ai-agents-jerry-liu-llamaindex.md]]
+- [[references/aief2025-building-alices-brain-ai-sales-rep-learns-like-human-sherwood-satwik-11x.md]]
+- [[references/aief2025-building-applications-ai-agents-michael-albada-microsoft.md]]
+- [[references/aief2025-building-conversational-ai-agents-thor-schaeff.md]]
+- [[references/aief2025-building-metrics-that-actually-work-david-karam-pi-labs.md]]
+- [[references/aief2025-building-protected-mcp-servers-den-delimarsky-julia-kasper.md]]
+- [[references/aief2025-building-smarter-ai-agent-neural-rag-will-bryk-exa.ai.md]]
+- [[references/aief2025-building-the-platform-for-agent-coordination-tom-moor-linear.md]]
+- [[references/aief2025-ci-era-ai-stochastic-evals-nathan-sobo-zed.md]]
+- [[references/aief2025-ciam-for-ai-michael-grinich.md]]
+- [[references/aief2025-claude-code-evolution-of-agentic-coding-boris-cherny.md]]
+- [[references/aief2025-collaborating-with-agents-jon-peck-christopher-harrison.md]]
+- [[references/aief2025-connections-nlp-word-games.md]]
+- [[references/aief2025-conquering-agent-chaos-rick-blalock-agentuity.md]]
+- [[references/aief2025-containing-agent-chaos-solomon-hykes-dagger.md]]
+- [[references/aief2025-continuous-profiling-for-gpus-matthias-loibl.md]]
+- [[references/aief2025-data-is-your-differentiator-mani-khanuja-aws.md]]
+- [[references/aief2025-day2-intro-laurie-voss.md]]
+- [[references/aief2025-defend-sites-ai-bots-david-mytton-arcjet.md]]
+- [[references/aief2025-define-ai-engineer-greg-brockman-openai-jensen-huang.md]]
+- [[references/aief2025-design-like-karpathy-is-watching.md]]
+- [[references/aief2025-designing-ai-intensive-applications-swyx.md]]
+- [[references/aief2025-devin-2-scott-wu.md]]
+- [[references/aief2025-dispatch-from-future-dan-shipper.md]]
+- [[references/aief2025-does-ai-actually-boost-developer-productivity-yegor-denisov-blanch-stanford.md]]
+- [[references/aief2025-dont-get-one-shotted-tomas-reimers-graphite.md]]
+- [[references/aief2025-dream-machine-scaling-keegan-mccallum-luma-ai.md]]
+- [[references/aief2025-engineering-better-evals-dat-ngo-aman-khan-arize.md]]
+- [[references/aief2025-evals-101-doug-guthrie-braintrust.md]]
+- [[references/aief2025-evals-are-not-unit-tests-ido-pesok-vercel-v0.md]]
+- [[references/aief2025-evals-workshop-braintrust.md]]
+- [[references/aief2025-evaluating-ai-search-quotient-ai-tavily.md]]
+- [[references/aief2025-events-wrong-abstraction-mason-egger.md]]
+- [[references/aief2025-everything-is-ugly-so-go-build-something-that-isnt-raiza-martin-huxe.md]]
+- [[references/aief2025-excalidraw-ai-human-whiteboarding-christopher-chedeau.md]]
+- [[references/aief2025-five-hard-earned-lessons-evals-ankur-goyal-braintrust.md]]
+- [[references/aief2025-forget-rag-pipelines-nina-lopatina-rajiv-shah-contextual.md]]
+- [[references/aief2025-form-factors-ai-coworkers-craig-wattrus-flatfile.md]]
+- [[references/aief2025-foundry-local-emma-ning.md]]
+- [[references/aief2025-from-copilot-to-colleague-joel-hron.md]]
+- [[references/aief2025-from-self-driving-to-autonomous-voice-agents-brooke-hopkins-coval.md]]
+- [[references/aief2025-from-vibe-coding-to-vibe-engineering-kitze-sizzy.md]]
+- [[references/aief2025-full-spec-mcp-hidden-capabilities-harald-kirschner.md]]
+- [[references/aief2025-fuzzing-in-the-genai-era.md]]
+- [[references/aief2025-gemini-25-pro-logan-kilpatrick.md]]
+- [[references/aief2025-gemini-progress-logan-kilpatrick.md]]
+- [[references/aief2025-google-photos-magic-editor-kelvin-ma.md]]
+- [[references/aief2025-government-agents-mark-myshatyn.md]]
+- [[references/aief2025-graph-intelligence-alison-andreas-neo4j.md]]
+- [[references/aief2025-graphrag-code-jonathan-larson.md]]
+- [[references/aief2025-hacking-inference-pareto-frontier-kyle-kranen-nvidia.md]]
+- [[references/aief2025-hacking-yagents-yc-spring-2025-rene-brandel-casco.md]]
+- [[references/aief2025-how-intuit-uses-llms-to-explain-taxes-to-millions-of-taxpayers-jaspreet-singh-intuit.md]]
+- [[references/aief2025-how-to-build-planning-agents-without-losing-control-yogendra-miraje-factset.md]]
+- [[references/aief2025-how-to-hire-ai-engineers-when-everyone-is-cheating-beth-glenfield-devday.md]]
+- [[references/aief2025-how-to-improve-your-vibe-coding.md]]
+- [[references/aief2025-how-to-look-at-your-data-jeff-huber-chroma-jason-liu-567.md]]
+- [[references/aief2025-how-to-run-evals-at-scale-muktesh-mishra-adobe.md]]
+- [[references/aief2025-how-to-secure-agents-oauth-jared-hanson.md]]
+- [[references/aief2025-human-seeded-evals-samuel-colvin-pydantic.md]]
+- [[references/aief2025-inference-engines-benchmarking-charles-frye-modal.md]]
+- [[references/aief2025-intro-to-graphrag-zach-blumenfeld.md]]
+- [[references/aief2025-introducing-strands-agents-open-source-ai-agents-sdk-suman-debnath-aws.md]]
+- [[references/aief2025-introduction-to-llm-serving-sglang-philip-kiely-yineng-zhang.md]]
+- [[references/aief2025-knowledge-graphs-litigation-agents-tom-smoker-whyhow.md]]
+- [[references/aief2025-layering-every-technique-in-rag-david-karam.md]]
+- [[references/aief2025-machines-of-buying-and-selling-grace-adam-behrens-new-generation.md]]
+- [[references/aief2025-make-your-llm-app-a-domain-expert-christopher-lovejoy.md]]
+- [[references/aief2025-mastering-engineering-flow-windsurf-eashan-sinha.md]]
+- [[references/aief2025-mcp-is-not-good-yet-david-cramer-sentry.md]]
+- [[references/aief2025-mcp-origins-and-requests-for-startups-theodora-chu.md]]
+- [[references/aief2025-mentoring-the-machine-eric-hou-augment-code.md]]
+- [[references/aief2025-milliseconds-to-magic.md]]
+- [[references/aief2025-multi-agent-ai-and-network-knowledge-graphs-for-change-ola-mabadeje-cisco.md]]
+- [[references/aief2025-netflix-one-model-recommendations-yesu-feng.md]]
+- [[references/aief2025-on-engineering-ai-systems-that-endure-omar-khattab.md]]
+- [[references/aief2025-open-source-humanoid-robot-k-scale-labs.md]]
+- [[references/aief2025-optimizing-inference-voice-models-philip-kiely-baseten.md]]
+- [[references/aief2025-perceptual-evaluations-diego-rodriguez-krea-ai.md]]
+- [[references/aief2025-pipecat-cloud-kwindla-kramer.md]]
+- [[references/aief2025-poc-to-prod-hard-lessons-200-enterprise-genai-deployments.md]]
+- [[references/aief2025-practical-graphrag-michael-jesus-stephen-neo4j.md]]
+- [[references/aief2025-private-cloud-compute-jmo.md]]
+- [[references/aief2025-production-software-keeps-breaking-anish-agarwal-traversal.md]]
+- [[references/aief2025-prompt-engineering-is-dead-nir-gazit-traceloop.md]]
+- [[references/aief2025-rag-in-2025-state-of-the-art-and-the-road-forward-tengyu-ma.md]]
+- [[references/aief2025-real-world-mcps-jon-peck.md]]
+- [[references/aief2025-realtime-conversational-video-with-pipecat-and-tavus.md]]
+- [[references/aief2025-rethinking-team-building-grant-lee-gamma.md]]
+- [[references/aief2025-rft-dpo-sft-fine-tuning-with-openai-ilan-bigio.md]]
+- [[references/aief2025-rise-of-ai-architect-clay-bavor-sierra.md]]
+- [[references/aief2025-rishabh-garg-tesla-optimus.md]]
+- [[references/aief2025-rl-autonomous-coding-aakanksha-chowdhery.md]]
+- [[references/aief2025-robotics-why-now-quan-vuong-jost-tobias-springberg-physical-intelligence.md]]
+- [[references/aief2025-robots-as-professional-chefs-nikhil-abraham-cloudchef.md]]
+- [[references/aief2025-scaling-enterprise-grade-rag-legal-frontier.md]]
+- [[references/aief2025-securing-agents-open-standards-bobby-tiernay-auth0.md]]
+- [[references/aief2025-securing-code-executing-ai-agents-fouad-matin.md]]
+- [[references/aief2025-serving-voice-ai-at-1-hr-neil-dwyer-gabber.md]]
+- [[references/aief2025-serving-voice-ai-at-scale-arjun-desai-cartesia-rohit-talluri-aws.md]]
+- [[references/aief2025-ship-agents-that-ship.md]]
+- [[references/aief2025-ship-it-building-production-ready-agents-mike-chambers-aws.md]]
+- [[references/aief2025-ship-production-software-minutes-not-months-eno-reyes-factory.md]]
+- [[references/aief2025-shipping-enterprise-voice-ai-100-days-peter-bar.md]]
+- [[references/aief2025-shipping-products-when-you-dont-know-what-they-can-do.md]]
+- [[references/aief2025-shipping-something-to-someone-kenneth-auchenberg.md]]
+- [[references/aief2025-small-ai-teams-vik-paruchuri-datalab.md]]
+- [[references/aief2025-software-development-agents-robert-brennan.md]]
+- [[references/aief2025-state-of-generative-media-gorkem-yurtseven-fal.md]]
+- [[references/aief2025-state-of-mcp-observability.md]]
+- [[references/aief2025-stop-using-rag-as-memory-daniel-chalef-zep.md]]
+- [[references/aief2025-structuring-modern-ai-team-denys-linkov-wisedocs.md]]
+- [[references/aief2025-taming-rogue-ai-agents-jim-bennett-galileo.md]]
+- [[references/aief2025-teaching-gemini-to-speak-youtube-devansh-tandon.md]]
+- [[references/aief2025-the-2025-ai-engineering-report-barr-yaron-amplify.md]]
+- [[references/aief2025-the-agent-awakens-christopher-harrison.md]]
+- [[references/aief2025-the-ai-engineers-guide-to-raising-vc.md]]
+- [[references/aief2025-the-billable-hour-is-dead.md]]
+- [[references/aief2025-the-eyes-are-the-context-window-to-the-soul-sam-fertig-windsurf.md]]
+- [[references/aief2025-the-future-of-evals-ankur-goyal-braintrust.md]]
+- [[references/aief2025-the-geopolitics-of-ai-infrastructure-dylan-patel-semianalysis.md]]
+- [[references/aief2025-the-new-lean-startup-sid-bendre-olive.md]]
+- [[references/aief2025-the-next-unicorns-7-top-ai-startups-hf0-residency.md]]
+- [[references/aief2025-the-rise-of-the-agentic-economy-jan-curn-apify.md]]
+- [[references/aief2025-the-state-of-ai-powered-search-and-retrieval-frank-liu-mongodb.md]]
+- [[references/aief2025-the-web-browser-is-all-you-needed-paul-klein-iv-browserbase.md]]
+- [[references/aief2025-top-ten-challenges-agi-stephen-chin-andreas-kolleger.md]]
+- [[references/aief2025-training-agentic-reasoners-will-brown-prime-intellect.md]]
+- [[references/aief2025-transforming-search-discovery-using-llms.md]]
+- [[references/aief2025-trends-across-the-ai-frontier-george-cameron-artificialanalysis.md]]
+- [[references/aief2025-turning-fails-into-features-zapier-evals-rafal-willinski-vitor-balocco.md]]
+- [[references/aief2025-unlocking-ai-devops-jon-peck.md]]
+- [[references/aief2025-useful-general-intelligence-danielle-perszyk.md]]
+- [[references/aief2025-using-oss-models-hassan-el-mghari.md]]
+- [[references/aief2025-vector-search-benchmarking-philipp-krenn-elastic.md]]
+- [[references/aief2025-veo-3-for-developers-paige-bailey-google-deepmind.md]]
+- [[references/aief2025-vibe-coding-at-scale-harald-kirshner.md]]
+- [[references/aief2025-vibe-coding-at-scale-harold.js.md]]
+- [[references/aief2025-vibe-coding-with-confidence-itamar-friedman-qodo.md]]
+- [[references/aief2025-vibes-wont-cut-it-chris-kelly-augment.md]]
+- [[references/aief2025-vision-ai-2025-peter-robicheaux-roboflow.md]]
+- [[references/aief2025-waymas-emma-teaching-cars-to-think-jyh-jing-hwang.md]]
+- [[references/aief2025-what-is-a-humanoid-foundation-model-annika-aastha.md]]
+- [[references/aief2025-what-we-learned-from-using-llms-in-pinterest.md]]
+- [[references/aief2025-when-vectors-break-down-sam-julien-writer.md]]
+- [[references/aief2025-why-should-anyone-care-about-evals-manu-goyal-braintrust.md]]
+- [[references/aief2025-why-we-dont-need-more-data-centers-jasper-zhang-hyperbolic.md]]
+- [[references/aief2025-why-your-agent-brain-needs-playbook-ontologies-jesus-barrasa.md]]
+- [[references/aief2025-why-your-product-needs-an-ai-product-manager-james-lowe-i-ai.md]]
+- [[references/aief2025-windsurf-everywhere-kevin-hou.md]]
+- [[references/aief2025-wisdom-driven-kag-chin-keong-lam.md]]
+- [[references/aief2025-year-of-evals-john-dickerson-mozilla.md]]
+- [[references/aief2025-your-coding-agent-just-got-cloned-rustin-banks-jules.md]]
+- [[references/aief2025-your-realtime-ai-is-ngmi.md]]
+- [[references/blackrock-knowledge-apps-ai-eng-fair-2025.md]]
+- [[references/box-agentic-platform-ben-kus.md]]
+- [[references/build-operate-divide-freeplay-chime-2025.md]]
+- [[references/building-effective-voice-agents-openai-2025.md]]
+- [[references/building-multimodal-ai-agents-from-scratch-apoorva-joshi-mongodb.md]]
+- [[references/copilot-instructions-file-format.md]]
+- [[references/critical-ai-inference-cio-trust-telemetrak-2025.md]]
+- [[references/deepseek-open-source-models.md]]
+- [[references/fundamentals-of-llms-course.md]]
+- [[references/good-design-hasnt-changed-with-ai-john-pham-sf-compute.md]]
+- [[references/hybridrag-fusion-graph-vector-retrieval-mitesh-patel.md]]
+- [[references/improving-recsys-search-llms-eugene-yan.md]]
+- [[references/information-retrieval-ground-up-philipp-krenn-elastic-2025.md]]
+- [[references/infrastructure-for-the-singularity-jesse-han-morph.md]]
+- [[references/llms-txt.md]]
+- [[references/measuring-agi-interactive-reasoning-benchmarks-arc-agi-3.md]]
+- [[references/microsoft-graphrag-blog-post-july-2025.md]]
+- [[references/monetizing-ai-alvaro-morales-orb.md]]
+- [[references/notion-ai-building-world-class-products.md]]
+- [[references/on-curiosity-sharif-shameem-ai-eng-2025.md]]
+- [[references/palm-model.md]]
+- [[references/promptql-agentic-semantic-layer-ai-eng-2025.md]]
+- [[references/revenue-engineering-pricing-ai-product-grover-orb.md]]
+- [[references/rise-of-open-models-enterprise-amir-haghighat.md]]
+- [[references/scaling-ai-agents-without-breaking-reliability-temporal-somal.md]]
+- [[references/scaling-laws-2020.md]]
+- [[references/state-of-startups-and-ai-2025-sarah-guo.md]]
+- [[references/stateful-environments-vertical-agents-josh-purtell-synth-labs.md]]
+- [[references/survive-ai-knife-fight-brian-balfour.md]]
+- [[references/terminal-game-demo-200-lines.md]]
+- [[references/the-bitter-lesson.md]]
+- [[references/the-new-code-sean-grove-openai.md]]
+- [[references/thinking-deeper-in-gemini-jack-rae-deepmind.md]]
+- [[references/tldraw-computer-steve-ruiz-ai-eng-2025.md]]
+- [[references/to-the-moon-legacy-code-augment-agent.md]]
+- [[references/why-care-about-ai-interpretability-bissell-goodfire-2025.md]]
+- [[references/why-chatgpt-keeps-interrupting-you-tom-shapland-livekit.md]]
 
-- [[entities/microsoft|microsoft]] - title: "Microsoft" ( #entity #company #ai-platform #cloud #enterprise)
-- [[entities/asha-sharma|asha-sharma]] - title: "Asha Sharma" ( #entity #person #microsoft #ai-platform)
-- [[entities/github-copilot|github-copilot]] - title: "GitHub Copilot" ( #entity #tool #coding-agent #microsoft #github)
-- [[entities/seth-juarez|seth-juarez]] - title: "Seth Juarez" ( #entity #person #microsoft #ai-platform)
-- [[entities/azure-ai-foundry|azure-ai-foundry]] - title: "Azure AI Foundry" ( #entity #platform #microsoft #agent-factory #ai-platform)
+## misc
 
-- [[entities/john-pham|john-pham]] - title: "John Pham" ( #person #designer #ux)
+- [[misc/ai-engineer-worlds-fair-2025.md]]
+- [[misc/aief2025-building-metrics-workshop.md]]
+- [[misc/on-call-fatigue.md]]
+- [[misc/slow-boiling-frog-benchmarking.md]]
+- [[misc/web-gist-githubusercontent-com-karpathy-442a6bf5.md]]
+- [[misc/web-github-com-aidenybai-react-scan.md]]
+- [[misc/web-github-com-karpathy-autoresearch.md]]
+- [[misc/web-posthog-com-blog-karpathy-autoresearch-query.md]]
+- [[misc/web-posthog-com-blog-sql-parser.md]]
+- [[misc/web-posthog-com-blog-stop-ai-slop.md]]
+- [[misc/web-posthog-com-blog-what-if-your-product-built-itself.md]]
+- [[misc/web-posthog-com-blog-what-is-a-scout.md]]
+- [[misc/web-posthog-com-docs-ai-evals.md]]
+- [[misc/web-posthog-com-newsletter-loops.md]]
+- [[misc/web-youtube-com-watch-ow1we5pzk-o.md]]
+- [[misc/web-youtube-com-watch-v-c_gg5g38vlu.md]]
+- [[misc/web-youtube-com-watch-v-flutukqyhnq.md]]
+- [[misc/web-youtube-com-watch-v-qfhioco-ko.md]]
+- [[misc/web-youtube-com-watch-v-unzcg3lw6o0.md]]
+- [[misc/web-youtube-com-watch-v4f1gfy-hqg.md]]
+- [[misc/web-youtube-com-watch-vy7o1g2ihy8.md]]
 
-- [[entities/jack-rae|jack-rae]] - title: "Jack Rae" ( #entity #person #google #deepmind #reasoning)
-- [[entities/google-deepmind|google-deepmind]] - title: "Google DeepMind" ( #entity #organization #ai #research)
-- [[entities/sf-compute|sf-compute]] `aliases: San Francisco Compute Company, SF Compute` - summary: "GPU cloud provider based in San Francisco." ( #company #cloud #gpu)
-- [[entities/sam-bhagwat|sam-bhagwat]] - title: "Sam Bhagwat" ( #person #ai #speaker #entrepreneur #mastra)
-- [[entities/mastra-ai|mastra-ai]] - title: "Mastra.ai" ( #company #ai #workflow #framework)
-- [[entities/dex-horthy]] - title: "Dex Horthy" ( #person #speaker #humanlayer #ai-engineer #agents)
-- [[entities/humanlayer]] - title: "HumanLayer" ( #company #infrastructure #agents #human-in-the-loop #opensource)
-- [[entities/sean-grove]] - title: "Sean Grove" ( #person #openai #alignment #ai-research #speaker)
-- [[entities/circle]] - title: "Circle" ( #company #fintech #stablecoin #payments)
-- [[entities/corey-cooper]] - title: "Corey Cooper" ( #person #devrel #circle #payments)
-
-- [[entities/yesu-feng|yesu-feng]] - title: "Yesu Feng" ( #person #netflix #recommendation-systems #recsys)
-
-- [[entities/philip-kiely|philip-kiely]] - title: "Philip Kiely" ( #person #developer-advocate #baseten #inference)
-- [[entities/sglang|sglang]] - title: "SGLang" ( #tool #inference #serving #llm #open-source)
-- [[entities/yineng-zhang|yineng-zhang]] - title: "Yineng Zhang" ( #person #engineer #sglang #inference)
-- [[entities/kelvin-ma|kelvin-ma]] - title: "Kelvin Ma" ( #person #google #computer-vision #on-device-ml)
-
-- [[entities/eliza-cabrera]] - title: "Eliza Cabrera" ( #person #ai #product-management #speaker #aief2025)
-- [[entities/jeremy-silva]] - title: "Jeremy Silva" ( #person #ai #product-management #speaker #aief2025)
-- [[entities/workday]] - title: "Workday" ( #company #enterprise-software #hcm #financials #ai)
-- [[entities/google-photos|google-photos]] - title: "Google Photos" ( #entity #google #photo-editing #on-device-ml)
-
-- [[entities/jesús-barrasa|jesús-barrasa]] - title: "Jesús Barrasa" ( #person #neo4j #knowledge-graph #ontology)
-
-- [[entities/apple|apple]] - title: "Apple" ( #entity #company #consumer-electronics #privacy #ai #cloud)
-- [[entities/jmo|jmo]] - title: "Jmo" ( #entity #person #privacy #security #ai #speaker #aief2025)
-- [[entities/confidence-security|confidence-security]] - title: "Confidence Security" ( #entity #company #privacy #security #ai-infrastructure)
-
-- [[entities/arthur-ai]] - title: "Arthur AI" ( #organization #ai #evaluation #monitoring #security)
-- [[entities/john-dickerson]] - title: "John Dickerson" ( #person #ai #evaluation #entrepreneurship #open-source)
-- [[entities/mozilla-ai]] - title: "Mozilla AI" ( #organization #ai #open-source #tooling)
-
-- [[entities/amanda-askell]] - title: "Amanda Askell" ( #person #anthropic #ai #character-design)
-- [[entities/craig-wattrus]] - title: "Craig Wattrus" ( #person #flatfile #ai-engineering #aief2025)
-- [[entities/flatfile]] - title: "Flatfile" ( #company #data-migration #ai-platform)
-
-- [[entities/michael-grinich]] - title: "Michael Grinich" ( #person #ai #identity #auth #workos)
-- [[entities/jeff-atwood]] - title: "Jeff Atwood" ( #person #software-engineering #stack-overflow)
-:- [[entities/charles-frye|charles-frye]] - title: "Charles Frye" ( #person #modal #inference #benchmarking #ai-engineering)
-- [[entities/danielle-perszyk|danielle-perszyk]] - title: "Danielle Perszyk" ( #person #cognitive-scientist #amazon #agi)
-- [[entities/douglas-engelbart|douglas-engelbart]] - title: "Douglas Engelbart" ( #person #inventor #hci #computing-pioneer)
-- [[entities/nova-act|nova-act]] - title: "Nova Act" ( #product #amazon #agents #sdk)
-- [[entities/amazon-agi|amazon-agi]] - title: "Amazon AGI" ( #organization #amazon #agi #research)
-- [[entities/david-cramer]] - title: "David Cramer" ( #person #founder #sentry #software-engineering)
-- [[entities/sentry]] - title: "Sentry" ( #company #saas #observability #apm #developer-tools)
-- [[entities/auth0]] - title: "Auth0" ( #company #identity #auth #security #iam)
-- [[entities/arcjet]] - title: "Arcjet" ( #company #security #bot-detection #aief2025)
-- [[entities/david-mytton]] - title: "David Mytton" ( #person #security #founder #aief2025)
-
-- [[entities/tomas-reimers|tomas-reimers]] - title: "Tomas Reimers" ( #person #entrepreneur #code-review #aief2025)
-## Concepts
-- [[concepts/ai-bot-defense]] - title: "AI Bot Defense" ( #security #bots #crawlers #web-security #rate-limiting)
-- [[concepts/ai-crawler-landscape]] - title: "AI Crawler Landscape" ( #bots #crawlers #ai #web #security #agents)
-
-
-- [[concepts/leading-words|leading-words]] - title: "Leading Words"
-- [[concepts/on-device-ml-computational-photography|on-device-ml-computational-photography]] - title: "On-Device ML for Computational Photography" ( #concept #computer-vision #on-device-ml #photo-editing)
-- [[concepts/model-as-unit-test-paradigm|model-as-unit-test-paradigm]] - title: "Model-as-Unit-Test Paradigm" ( #concept #ml-engineering #evaluation #testing)
-- [[concepts/skills-checklist-framework|skills-checklist-framework]] - title: "Skills Checklist Framework"
-- [[concepts/skill-hell|skill-hell]] - title: "Skill Hell"
-- [[concepts/kubernetes-security|kubernetes-security]] `aliases: K8s Security, Container Security, Cloud Native Security, Kubernetes Cluster Security` - type: concept
-- [[concepts/security-in-kubernetes|security-in-kubernetes]] - type: concept
-- [[concepts/kubernetes-installation-steps|kubernetes-installation-steps]] - type: concept
-- [[concepts/introduction-to-kubernetes|introduction-to-kubernetes]] - type: concept
-- [[concepts/introduction-to-infrastructure-provisioning|introduction-to-infrastructure-provisioning]] `aliases: Infrastructure Automation, Cloud Provisioning, Infrastructure Deployment, IT Infrastructure Provisioning, Resource Provisioning, Server Provisioning` - type: concept
-- [[concepts/aws-vpc-introduction|aws-vpc-introduction]] - type: concept
-- [[concepts/bootstrapping-high-availability-control-plane|bootstrapping-high-availability-control-plane]] - type: concept
-- [[concepts/tls-certificates-in-kubernetes|tls-certificates-in-kubernetes]] - type: concept
-- [[concepts/how-tls-certificates-work-in-kubernetes-and-manual-cluster-setup|how-tls-certificates-work-in-kubernetes-and-manual-cluster-setup]] - type: concept
-- [[concepts/docker-embedded-dns-documentation|docker-embedded-dns-documentation]] - type: concept
-- [[concepts/container-dns-resolution-source|container-dns-resolution-source]] - type: concept
-- [[concepts/miscellaneous-source-1e6927|miscellaneous-source-1e6927]] - type: concept
-- [[concepts/miscellaneous-source|miscellaneous-source]] - type: concept
-- [[concepts/disable-swap-command|disable-swap-command]] - type: concept
-- [[concepts/static-pod|static-pod]] - type: concept
-- [[concepts/rolling-updates-&-rollbacks|rolling-updates-&-rollbacks]] `aliases: rolling deployment, rollback mechanism, incremental update, phased rollout, version rollback, revert procedure` - type: concept
-- [[concepts/rolling-updates-rollbacks|rolling-updates-rollbacks]] - type: concept
-- [[concepts/resource-requests-and-limits|resource-requests-and-limits]] - type: concept
-- [[concepts/resource-requests-&-limits|resource-requests-&-limits]] - type: concept
-- [[concepts/replication-controller-&-replicaset|replication-controller-&-replicaset]] - type: concept
-- [[concepts/replication-controllers-&-replicasets|replication-controllers-&-replicasets]] `aliases: RC, ReplicationController, ReplicaSet, Replica Set, Replication Controller, Replica controller` - type: concept
-- [[concepts/priorityclasses|priorityclasses]] `aliases: PriorityClasses, PriorityClass` - type: concept
-- [[concepts/kubernetes-pods|kubernetes-pods]] - type: concept
-- [[concepts/pods-overview|pods-overview]] `aliases: Kubernetes Pods, container pods, K8s pods, pods (Kubernetes), orchestration pods, pods in Kubernetes, application pods` - type: concept
-- [[concepts/bgp-kubernetes-networking|bgp-kubernetes-networking]] - type: concept
-- [[concepts/shared-storage|shared-storage]] - type: concept
-- [[concepts/cluster-autoscaler-overview|cluster-autoscaler-overview]] - type: concept
-- [[concepts/handling-sudden-failures|handling-sudden-failures]] - type: concept
-- [[concepts/encryption|encryption]] - type: concept
-- [[concepts/agent-loop|agent-loop]] - title: "Agent Loop"
-
-- [[concepts/agentic-architecture|agentic-architecture]] - title: "Agentic Architecture"
-- [[concepts/multi-model-voting|multi-model-voting]] - title: "Multi-Model Voting"
-- [[concepts/unstructured-data-extraction|unstructured-data-extraction]] - title: "Unstructured Data Extraction"
-- [[concepts/12-factor-agents]] - title: "12-Factor Agents" ( #agent #patterns #reliability #architecture #methodology)
-- [[concepts/micro-agents]] - title: "Micro-Agents" ( #agent #architecture #pattern #reliability #dag)
-- [[concepts/context-engineering]] - title: "Context Engineering" ( #prompt-engineering #ai #agents #architecture #llm #quality)
-- [[concepts/programmable-money]] - title: "Programmable Money" ( #blockchain #payments #smart-contracts #usdc)
-- [[concepts/stablecoin-settlement]] - title: "Stablecoin Settlement" ( #stablecoins #payments #settlement)
-- [[concepts/agent-to-agent-payments]] - title: "Agent-to-Agent Payments" ( #agents #payments #stablecoins)
-- [[concepts/ai-escrow-automation]] - title: "AI Escrow Automation" ( #escrow #agents #smart-contracts)
-- [[concepts/human-in-the-loop-payments]] - title: "Human-in-the-Loop Payments" ( #payments #agents #safety)
-- [[concepts/circle-smart-contract-escrow]] - title: "Circle Smart Contract Escrow" ( #escrow #solidity #usdc)
-- [[concepts/circle-cctp]] - title: "Cross-Chain Transfer Protocol (CCTP)" ( #blockchain #cross-chain #usdc)
-- [[concepts/gas-abstraction]] - title: "Gas Abstraction" ( #blockchain #gas #usdc)
-- [[concepts/mutating-admission-controllers|mutating-admission-controllers]] - type: concept
-- [[concepts/introduction-to-aws-iam|introduction-to-aws-iam]] - type: concept
-- [[concepts/introduction-to-ssh-and-kubernetes-cluster-setup|introduction-to-ssh-and-kubernetes-cluster-setup]] - type: concept
-- [[concepts/install-kubernetes-components|install-kubernetes-components]] - type: concept
-- [[concepts/microservices-demo-projects|microservices-demo-projects]] - type: concept
-- [[concepts/worker-nodes|worker-nodes]] - type: concept
-- [[concepts/tls|tls]] - type: concept
-- [[concepts/public-key-infrastructure-pki|public-key-infrastructure-pki]] - type: concept
-- [[concepts/bridged-adapter-networking|bridged-adapter-networking]] - type: concept
-- [[concepts/kube-scheduler|kube-scheduler]] - type: concept
-- [[concepts/equality-based-selectors|equality-based-selectors]] - type: concept
-- [[concepts/self-healing|self-healing]] - type: concept
-- [[concepts/replicaset|replicaset]] - type: concept
-- [[concepts/control-plane|control-plane]] - type: concept
-- [[concepts/equality-based-selector|equality-based-selector]] - type: concept
-- [[concepts/horizontal-pod-autoscaler|horizontal-pod-autoscaler]] - type: concept
-- [[concepts/secret|secret]] - type: concept
-- [[concepts/configmap|configmap]] - type: concept
-- [[concepts/daemonset|daemonset]] - type: concept
-- [[concepts/container-runtime-interface-cri|container-runtime-interface-cri]] - type: concept
-- [[concepts/oci-specifications|oci-specifications]] - type: concept
-- [[concepts/kube-apiserver|kube-apiserver]] - type: concept
-- [[concepts/node-authorization-in-kubernetes|node-authorization-in-kubernetes]] - type: concept
-- [[concepts/rolling-upgrade|rolling-upgrade]] `aliases: Rolling Upgrade Workflow, Cluster Rolling Upgrade, Zero-Downtime Cluster Update` - summary: "A rolling upgrade updates Kubernetes cluster nodes one at a time with minimal downtime, mi
-- [[concepts/pod-eviction|pod-eviction]] `aliases: Pod Evictions, Graceful Pod Eviction` - summary: "Pod eviction is a Kubernetes mechanism that forcibly removes pods from nodes during failur
-- [[concepts/supported-upgrade-path|supported-upgrade-path]] `aliases: Kubernetes Upgrade Path, K8s Upgrade Path` - summary: "The supported upgrade path in Kubernetes requires sequential minor version upgrades withou
-- [[concepts/release-channel|release-channel]] `aliases: Software Release Channel, Release Tracks` - summary: "Release channels categorize software distribution by stability level—Alpha, Beta, and Stab
-- [[concepts/semantic-versioning|semantic-versioning]] `aliases: SemVer, semantic version` - summary: "Semantic Versioning (SemVer) is a standardized MAJOR.MINOR.PATCH scheme for communicating 
-- [[concepts/pod-eviction-timeout|pod-eviction-timeout]] `aliases: Pod Eviction Timeout, podEvictionTimeout` - summary: "pod-eviction-timeout is a kube-controller-manager parameter that sets the grace period bef
-- [[concepts/version-skew-policy|version-skew-policy]] `aliases: Kubernetes version skew policy, K8s version skew` - summary: "Kubernetes version skew policy defines the maximum allowed version differences between clu
-- [[concepts/kubeadm-upgrade|kubeadm-upgrade]] `aliases: kubeadm upgrade apply, kubeadm upgrade node` - summary: "kubeadm upgrade is a kubeadm command set for upgrading Kubernetes cluster control planes a
-- [[concepts/node-cordon|node-cordon]] `aliases: kubectl cordon, cordon` - summary: "Node cordon marks a Kubernetes node as unschedulable, preventing new pods from being assig
-- [[concepts/node-drain|node-drain]] `aliases: kubectl drain, node draining` - summary: "Node drain safely evicts all pods from a Kubernetes node for maintenance by cordoning it a
-- [[concepts/node-uncordon|node-uncordon]] `aliases: node uncordon, kubectl uncordon` - summary: "Node uncordon reverses the cordon state, marking a Kubernetes node as schedulable again to
-- [[concepts/docker-run|docker-run]] `aliases: Docker Run Command` - summary: "The docker run command creates and starts a new container from an image, allowing command 
-- [[concepts/dockerfile|dockerfile]] `aliases: Docker Build File` - summary: "A Dockerfile is a text file with instructions for building Docker images, defining the bas
-- [[concepts/cmd|cmd]] `aliases: default command, Docker CMD, CMD instruction` - summary: "CMD is a Dockerfile instruction that sets the default command for a container, overridable
-- [[concepts/kubernetes-pod-command-and-args|kubernetes-pod-command-and-args]] `aliases: Pod Command and Args, Container Command Override, Docker ENTRYPOINT CMD Mapping` - summary: "Kubernetes command and args fields override a container's ENTRYPOINT and CMD at runtime, e
-- [[concepts/entrypoint|entrypoint]] `aliases: Fixed Executable, ENTRYPOINT instruction` - summary: "ENTRYPOINT is a Dockerfile instruction that specifies the fixed executable to run when a c
-- [[concepts/multi-container-pod|multi-container-pod]] `aliases: multi-container pods, pods with multiple containers` - summary: "A multi-container pod is a pod configuration in Kubernetes that contains more than one con
-- [[concepts/authorization-modes|authorization-modes]] `aliases: --authorization-mode, Kubernetes Authorization Modes, K8s Authorization Modes` - summary: "Authorization Modes are configurable settings that determine which modules evaluate API ac
-- [[concepts/alwaysallow-and-alwaysdeny|alwaysallow-and-alwaysdeny]] `aliases: AlwaysAllow mode, AlwaysDeny mode` - summary: "AlwaysAllow and AlwaysDeny are the two extreme API authorization modes in Kubernetes, perm
-- [[concepts/resources-and-verbs|resources-and-verbs]] `aliases: API Resources and Verbs, K8s Resources and Verbs` - summary: "In the Kubernetes API, **Resources** refer to the individual object types available under 
-- [[concepts/named-api-groups|named-api-groups]] `aliases: Named API Groups, /apis/<group>/<version>, K8s API Groups` - summary: "Named API Groups are a Kubernetes API organization mechanism used to group related resourc
-- [[concepts/kubectl-proxy|kubectl-proxy]] `aliases: kubectl proxy command, Kubernetes API Proxy, local kubectl proxy` - summary: "`kubectl proxy` is a command-line utility within the `kubectl` tool that runs a local HTTP
-- [[concepts/api-groups|api-groups]] `aliases: Kubernetes API Groups, K8s API Groups, API Group` - summary: "API Groups organize Kubernetes API resources into logical categories for versioning, exten
-- [[concepts/core-api-group|core-api-group]] `aliases: /api/v1, Core Kubernetes API Group, v1 Core API` - summary: "The Core API Group is the primary and default API group in the Kubernetes API, identified 
-- [[concepts/namespaceautoprovision|namespaceautoprovision]] `aliases: NamespaceAutocreation, Namespace Auto Provisioning, NSAutoProvision` - summary: "NamespaceAutoProvision is a mutating admission controller within Kubernetes that automatic
-- [[concepts/namespaceexists|namespaceexists]] `aliases: NamespaceValidator, NamespaceValidation` - summary: "NamespaceExists is a validating admission controller in Kubernetes that operates during th
-- [[concepts/defaulttolerationseconds|defaulttolerationseconds]] `aliases: DefaultTolerationSeconds, TolerationDefaults` - summary: "DefaultTolerationSeconds is a built-in mutating admission controller in Kubernetes that au
-- [[concepts/taintnodesbycondition|taintnodesbycondition]] `aliases: NodeConditionTainting, Taint Nodes By Condition, TNC` - summary: "TaintNodesByCondition is a built-in mutating admission controller within the Kubernetes AP
-- [[concepts/noderestriction|noderestriction]] `aliases: NodeRestriction, NodeRestrictionAdmissionController, NodeRestrictionController` - summary: "NodeRestriction is a built-in validating admission controller in Kubernetes that limits th
-- [[concepts/podsecurity|podsecurity]] `aliases: PodSecurityPolicy, PSP` - summary: "PodSecurity is a built-in validating admission controller that enforces Pod Security Stand
-- [[concepts/serviceaccount|serviceaccount]] `aliases: ServiceAccount controller, SAC` - summary: "ServiceAccount is a built-in mutating admission controller within Kubernetes. It automatic
-- [[concepts/limitranger|limitranger]] `aliases: LimitRangeEnforcer, Limit Range Controller` - summary: "LimitRanger is a built-in mutating admission controller in Kubernetes that enforces `Limit
-- [[concepts/namespacelifecycle|namespacelifecycle]] `aliases: NamespaceLifecycle, Namespace Protection, Namespace Lifecycle Controller` - summary: "NamespaceLifecycle is a built-in validating admission controller in Kubernetes that ensure
-- [[concepts/defaultingressclass|defaultingressclass]] `aliases: IngressClassDefaulting, Ingress Class Default Assignment` - summary: "DefaultIngressClass is a built-in mutating admission controller within Kubernetes that aut
-- [[concepts/alwayspullimages|alwayspullimages]] `aliases: AlwaysPullImagesPolicy, Always Pull Images Policy` - summary: "AlwaysPullImages is a built-in admission controller that sets image pull policy to Always,
-- [[concepts/defaultstorageclass|defaultstorageclass]] `aliases: StorageClassDefaulting, Default StorageClass, Default SC` - summary: "DefaultStorageClass is a built-in mutating admission controller in Kubernetes that automat
-- [[concepts/validating-phase|validating-phase]] `aliases: Admission Validating Phase, Validating Admission Phase, K8s Validating Phase` - summary: "The Validating Phase is the second stage in the Kubernetes admission control pipeline, occ
-- [[concepts/mutating-phase|mutating-phase]] `aliases: Admission Mutating Phase, Mutating Admission Phase` - summary: "The Mutating Phase is the first stage within the Kubernetes admission control pipeline, oc
-- [[concepts/validatingadmissionwebhook|validatingadmissionwebhook]] `aliases: Validating Webhook, VWA, Validation Webhook` - summary: "ValidatingAdmissionWebhook is an admission controller in Kubernetes that invokes external 
-- [[concepts/validatingadmissionpolicy|validatingadmissionpolicy]] `aliases: Admission Policy, Kubernetes Admission Policy, ValidatingAdmissionPolicy` - summary: "ValidatingAdmissionPolicy is a Kubernetes admission control method that allows declarative
-- [[concepts/mutatingadmissionwebhook|mutatingadmissionwebhook]] `aliases: Mutating Webhook, Mutating Admission Webhook, MAW` - summary: "MutatingAdmissionWebhook is a type of admission controller in Kubernetes that calls extern
-- [[concepts/low-level-container-runtime|low-level-container-runtime]] `aliases: low-level runtime, OCI runtime` - summary: "A low-level container runtime is a specialized software component that directly interacts 
-- [[concepts/high-level-container-runtime|high-level-container-runtime]] `aliases: high-level runtime` - summary: "A high-level container runtime is a container runtime that provides an API for building, p
-- [[concepts/ralph-coding-technique|ralph-coding-technique]] `aliases: Ralph, Ralph technique, Ralph Wiggum coding, AI recursive coding loop, monolithic AI agent` - summary: "An AI-assisted coding technique using recursive agent loops where an AI generates code, te
-- [[concepts/node-local-agents|node-local-agents]] `aliases: Node Agents, node-local workloads` - summary: "Node-local agents are software components or workloads that are designed to run on every n
-- [[concepts/volume-mounted-files|volume-mounted-files]] `aliases: File Mounting, Volume File Mounting` - summary: "A method in Kubernetes where the data from a ConfigMap or Secret is mounted as individual 
-- [[concepts/envfrom|envfrom]] `aliases: envFrom, Environment From, EnvFrom Injection` - summary: "envFrom is a specification field in Kubernetes Pod and Container definitions that allows a
-- [[concepts/aes-cbc|aes-cbc]] `aliases: AES-CBC Encryption, Advanced Encryption Standard Cipher Block Chaining` - summary: "AES-CBC is a symmetric encryption standard used in Kubernetes EncryptionConfiguration to e
-- [[concepts/encryptionconfiguration|encryptionconfiguration]] `aliases: EncryptionConfig, K8s Encryption Configuration` - summary: "EncryptionConfiguration is a Kubernetes API resource that defines how data at rest should 
-- [[concepts/environment-variables-in-pods|environment-variables-in-pods]] `aliases: Pod Environment Variables, env field` - summary: "Environment Variables in Pods is the mechanism in Kubernetes for injecting configuration d
-- [[concepts/encryption-at-rest|encryption-at-rest]] `aliases: Secret Encryption at Rest, Data at Rest Encryption, Secret Encryption` - summary: "Encryption at Rest is the practice of encrypting data while it is stored on a persistent m
-- [[concepts/updater|updater]] `aliases: VPA Updater, VPA Updater Component` - summary: "The Updater is a component of the Kubernetes Vertical Pod Autoscaler (VPA) responsible for
-- [[concepts/updatepolicy-mode|updatepolicy-mode]] `aliases: updatePolicy.mode, VPA updatePolicy.mode, Vertical Pod Autoscaler update policy mode` - summary: "A configuration field within the Vertical Pod Autoscaler (VPA) that specifies the strategy
-- [[concepts/admission-controller|admission-controller]] - summary: "Admission controllers intercept API requests to enforce cluster policies through mutating 
-- [[concepts/recommender|recommender]] `aliases: VPA Recommender, Vertical Pod Autoscaler Recommender` - summary: "A component of the Vertical Pod Autoscaler (VPA) that analyzes historical and current reso
-- [[concepts/stateful-workloads|stateful-workloads]] `aliases: Stateful Workloads, Persistent Workloads` - summary: "Stateful workloads are applications that maintain persistent, unique state and require sta
-- [[concepts/stateless-services|stateless-services]] `aliases: Stateless workloads, Stateless apps` - summary: "Stateless services are applications or workloads that do not store session state on the in
-- [[concepts/automated-scaling|automated-scaling]] `aliases: Auto Scaling, Autoscaling` - summary: "Automated scaling dynamically adjusts workload replicas and cluster nodes without manual i
-- [[concepts/cluster-scaling|cluster-scaling]] `aliases: Node Scaling, Infrastructure Scaling, Cluster Scaling` - summary: "Cluster scaling refers to the process of adjusting the number of worker nodes (servers) th
-- [[concepts/manual-scaling|manual-scaling]] `aliases: Manual Scaling, Manual H/V Scale, Manual Replica Scaling` - summary: "Manual scaling is the direct, user-initiated process of changing scaling parameters in a K
-- [[concepts/workload-scaling|workload-scaling]] `aliases: Workload Scaling, Pod Scaling, Container Scaling` - summary: "Workload scaling is the process of adjusting the number of pods or the resources (CPU, mem
-- [[concepts/in-place-pod-vertical-scaling|in-place-pod-vertical-scaling]] `aliases: In-Place Resize, InPlacePodVerticalScaling, In-Place Pod Resizing` - summary: "In-Place Pod Vertical Scaling is an alpha Kubernetes feature that allows the CPU and memor
-- [[concepts/cluster-autoscaler|cluster-autoscaler]] `aliases: CA, K8s Cluster Autoscaler, Kubernetes Cluster Autoscaler` - summary: "Cluster Autoscaler automatically adjusts worker node count based on resource demands, scal
-- [[concepts/vertical-scaling|vertical-scaling]] `aliases: scaling up, scaling down, scale up/down` - summary: "Vertical scaling is a method of adjusting the resources (such as CPU and memory) allocated
-- [[concepts/vertical-pod-autoscaler|vertical-pod-autoscaler]] `aliases: VPA, Vertical Autoscaling` - summary: "Vertical Pod Autoscaler (VPA) is a Kubernetes add-on that automatically adjusts the CPU an
-- [[concepts/horizontal-scaling|horizontal-scaling]] `aliases: Scaling Out, Scale-Out` - summary: "Horizontal scaling (also known as scaling out or scaling in) is the process of adding or r
-- [[concepts/set-based-selector|set-based-selector]] `aliases: set-based selection, set-based label selector` - summary: "A set-based selector is a Kubernetes selection mechanism that filters resources based on w
-- [[concepts/matchlabels|matchlabels]] - type: concept
-- [[concepts/annotations|annotations]] `aliases: Kubernetes Annotations, Annotations` - summary: "Annotations are non-identifying key-value pairs that attach supplementary metadata to Kube
-- [[concepts/statefulsets|statefulsets]] `aliases: StatefulSet, Stateful Sets` - summary: "StatefulSets are a Kubernetes workload API object designed to manage stateful applications
-- [[concepts/volumes|volumes]] `aliases: Kubernetes Volumes, Persistent Storage` - summary: "Volumes in Kubernetes are a mechanism for attaching persistent storage to Pods, enabling d
-- [[concepts/ingress|ingress]] `aliases: Kubernetes Ingress, Ingress Controller` - summary: "Ingress is a Kubernetes resource that manages external HTTP and HTTPS access to services w
-- [[concepts/secrets|secrets]] - summary: "Secrets are Kubernetes objects specifically for storing sensitive information like passwor
-- [[concepts/configmaps|configmaps]] - summary: "ConfigMaps centralize plaintext configuration for Kubernetes Pods, storing it as key-value
-- [[concepts/soft-rule|soft-rule]] `aliases: soft preference, best-effort scheduling` - summary: "A soft rule in Kubernetes node affinity represents a scheduling preference for a pod to ru
-- [[concepts/matchexpressions|matchexpressions]] `aliases: Node Affinity Match Expressions, matchExpress` - summary: "`matchExpressions` are a key-value pair matching mechanism used within Kubernetes node aff
-- [[concepts/preferredduringschedulingignoredduringexecution|preferredduringschedulingignoredduringexecution]] `aliases: preferredDuringSchedulingIgnoredDuringExecution affinity type, soft affinity, preferredDuringSchedulingIgnoredDuringExecution` - summary: "`preferredDuringSchedulingIgnoredDuringExecution` is a field within Kubernetes Node Affini
-- [[concepts/requiredduringschedulingignoredduringexecution|requiredduringschedulingignoredduringexecution]] - summary: "`requiredDuringSchedulingIgnoredDuringExecution` is the primary implementation of a '"
-- [[concepts/nodeselector|nodeselector]] `aliases: node selector` - summary: "`nodeSelector` is a simple and straightforward method in Kubernetes for constraining pods 
-- [[concepts/node-affinity|node-affinity]] `aliases: nodeAffinity, Node Affinity` - summary: "Node affinity is an advanced pod scheduling mechanism in Kubernetes that provides more exp
-- [[concepts/cluster-cidr|cluster-cidr]] `aliases: Pod network CIDR, Cluster-wide Pod CIDR, Pod CIDR` - summary: "Cluster CIDR is the overall IP address range (in Classless Inter-Domain Routing notation) 
-- [[concepts/daemonset-for-network-plugins|daemonset-for-network-plugins]] `aliases: CNI DaemonSet, Network plugin DaemonSet` - summary: "A DaemonSet for network plugins is a Kubernetes workload pattern that ensures a single ins
-- [[concepts/inter-node-routing|inter-node-routing]] `aliases: Cross-node Pod communication, Pod routing across nodes, Inter-node routing` - summary: "Inter-node routing is the mechanism in Kubernetes that enables Pods running on different n
-- [[concepts/intra-node-networking|intra-node-networking]] `aliases: Pod-to-Pod communication on same node, Within-node networking` - summary: "Intra-node networking in Kubernetes refers to the communication path between Pods running 
-- [[concepts/route-tables|route-tables]] `aliases: Route tables, Host routing table, Kernel routing table` - summary: "In Kubernetes networking, route tables refer to the IP routing tables maintained by the Li
-- [[concepts/node-subnet|node-subnet]] `aliases: Node pod subnet, Per-node subnet, Per-node CIDR subnet` - summary: "A node subnet is a non-overlapping IP address range assigned to a specific node within a K
-
-- [[concepts/information-retrieval]] - title: "Information Retrieval" ( #search #retrieval #fundamentals)
-- [[concepts/lexical-search]] - title: "Lexical Search" ( #search #keyword #fundamentals)
-- [[concepts/inverted-index]] - title: "Inverted Index" ( #search #data-structure #fundamentals)
-- [[concepts/analysis-pipeline]] - title: "Text Analysis Pipeline" ( #search #indexing #preprocessing)
-- [[concepts/bm25-scoring]] - title: "BM25 Scoring" ( #search #ranking #algorithm)
-- [[concepts/dense-vector-search]] - title: "Dense Vector Search" ( #search #vector #embeddings)
-- [[concepts/sparse-vector-retrieval]] - title: "Sparse Vector Retrieval" ( #search #learned-sparse)
-- [[concepts/hybrid-search]] - title: "Hybrid Search" ( #search #retrieval #hybrid)
-- [[concepts/reciprocal-rank-fusion]] - title: "Reciprocal Rank Fusion" ( #search #ranking #fusion)
-- [[concepts/re-ranking]] - title: "Re-ranking" ( #search #ranking #two-stage)
-- [[concepts/chunking-for-retrieval]] - title: "Chunking for Retrieval" ( #search #retrieval #preprocessing)
-- [[concepts/query-rewriting]] - title: "Query Rewriting" ( #search #llm #rag)
-- [[concepts/search-evaluation-methods]] - title: "Search Evaluation Methods" ( #search #evaluation #quality)
-- [[concepts/port-conflicts|port-conflicts]] `aliases: Host port conflicts, Container port conflicts, Port contention` - summary: "Port conflicts are a networking phenomenon where multiple containers or services attempt t
-- [[concepts/kubernetes-network-model|kubernetes-network-model]] `aliases: Kubernetes networking model, Flat network model` - summary: "The Kubernetes network model is a fundamental design principle that defines how networking
-- [[concepts/bgp|bgp]] `aliases: Border Gateway Protocol, BGP` - summary: "BGP is the Internet's exterior gateway protocol that also enables Calico to route pod traf
-- [[concepts/network-plugin|network-plugin]] `aliases: CNI plugin, Network add-on, Pod networking plugin` - summary: "A network plugin in Kubernetes is a software component that implements the Container Netwo
-- [[concepts/flat-network-model|flat-network-model]] `aliases: Flat Pod network, Flat addressing, Kubernetes Flat Network` - summary: "The flat network model is a foundational networking paradigm in Kubernetes that assigns ev
-- [[concepts/vxlan|vxlan]] `aliases: Virtual Extensible LAN, Virtual eXtensible Local Area Network, VXLAN` - summary: "VXLAN (Virtual Extensible LAN) is a networking standard used for overlay encapsulation, al
-- [[concepts/co-scheduling|co-scheduling]] `aliases: Pod Co-scheduling, Container Co-location, Co-scheduling of containers` - summary: "Co-scheduling is a scheduling method in Kubernetes where all containers within a single Po
-- [[concepts/init-container|init-container]] - summary: "Init containers are special containers that run before app containers in a Pod, handling s
-- [[concepts/overlay-networking|overlay-networking]] `aliases: Overlay encapsulation, Network overlay, Overlay network` - summary: "Overlay networking is a method used by CNI plugins to create virtual network layers on top
-- [[concepts/pause-container|pause-container]] `aliases: Pause Container, Sandbox container, Pause sandbox` - summary: "A pause container is a minimal, lightweight container that Kubernetes injects into every P
-- [[concepts/cidr|cidr]] `aliases: Classless Inter-Domain Routing` - summary: "CIDR defines the overall IP address range for all cluster pods, established during cluster
-- [[concepts/ipam|ipam]] `aliases: IP Address Management, IP Management, IP Allocation` - summary: "IPAM (IP Address Management) is the method used by CNI plugins to allocate and manage IP a
-- [[concepts/sidecar-pattern|sidecar-pattern]] `aliases: Sidecar container, Sidecar` - summary: "The sidecar pattern is a design method in Kubernetes where a secondary container is deploy
-- [[concepts/preemptionpolicy|preemptionpolicy]] `aliases: preemption policy, PreemptionPolicy` - summary: "The `preemptionPolicy` is a configurable field within a Kubernetes `PriorityClass` object 
-- [[concepts/globaldefault|globaldefault]] `aliases: globalDefault, Kubernetes globalDefault, PriorityClass default` - summary: "`globalDefault` is an optional boolean field within a Kubernetes `PriorityClass` object. W
-- [[concepts/pod-preemption|pod-preemption]] `aliases: Preemption, Kubernetes Pod Preemption` - summary: "Pod Preemption is a Kubernetes scheduling mechanism that allows higher-priority Pods to ev
-- [[concepts/priorityclassname|priorityclassname]] `aliases: Pod PriorityClass Name, Pod Priority Class` - summary: "`priorityClassName` is a field within the Kubernetes Pod specification (`.spec.priorityCla
-- [[concepts/priorityclass|priorityclass]] `aliases: Kubernetes PriorityClass, pod-priority` - summary: "PriorityClass is a cluster-scoped Kubernetes object defined in the `scheduling.k8s.io/v1` 
-- [[concepts/set-based-selectors|set-based-selectors]] `aliases: matchExpressions selector, set selector, label selector operators` - summary: "Set-based selectors are an advanced label matching mechanism in Kubernetes that allow comp
-- [[concepts/high-availability|high-availability]] `aliases: HA, fault tolerance` - summary: "High Availability (HA) is a system design principle and attribute that ensures a specified
-- [[concepts/desired-state|desired-state]] - summary: "Desired State in Kubernetes refers to the user-defined configuration and specifications th
-- [[concepts/scaling|scaling]] - summary: "Scaling is a fundamental operational practice in Kubernetes for maintaining performance an
-- [[concepts/horizontalpodautoscaler|horizontalpodautoscaler]] - summary: "HorizontalPodAutoscaler (HPA) is a core Kubernetes resource that automatically manages the
-- [[concepts/services|services]] `aliases: Kubernetes Services, K8s Services` - summary: "In Kubernetes, a Service is a logical abstraction that defines a stable network endpoint (
-- [[concepts/selectors|selectors]] - summary: "Selectors are queries that filter Kubernetes resources based on label values, enabling the
-- [[concepts/labels|labels]] - summary: "Labels are fundamental metadata in Kubernetes, consisting of key-value pairs that are atta
-- [[concepts/replicationcontroller|replicationcontroller]] `aliases: RC, Replication Controller` - summary: "A ReplicationController (RC) is a core Kubernetes controller that maintains a stable set o
-- [[concepts/memory-suffixes|memory-suffixes]] `aliases: Memory Units, Binary vs Decimal Suffixes, Kubernetes Memory Suffixes` - summary: "Memory suffixes in Kubernetes refer to the notation system used for specifying memory requ
-- [[concepts/millicpu|millicpu]] `aliases: millicore, CPU milliunits` - summary: "MilliCPU is a unit of measurement for CPU resources in Kubernetes, where 1 millicpu (m) eq
-- [[concepts/oom-kill|oom-kill]] `aliases: OOMK, out-of-memory kill, memory kill` - summary: "An OOM Kill (Out-of-Memory Kill) is an event in Kubernetes where the container runtime's k
-- [[concepts/resourcequota|resourcequota]] - summary: "ResourceQuota is a Kubernetes object that enforces hard limits on the total amount of reso
-- [[concepts/cpu-throttling|cpu-throttling]] `aliases: throttling, kernel throttling` - summary: "CPU Throttling is a runtime enforcement mechanism within container orchestration systems l
-- [[concepts/limitrange|limitrange]] `aliases: LimitRange, LR` - summary: "A LimitRange is a Kubernetes resource object that is configured at the namespace level to 
-- [[concepts/resource-limits|resource-limits]] - summary: "Resource Limits define the maximum allowed CPU and memory consumption for a container. The
-- [[concepts/resource-requests|resource-requests]] - summary: "Resource Requests in Kubernetes define the minimum CPU and memory guarantees for a contain
-- [[concepts/kubectl-set-image|kubectl-set-image]] `aliases: set image command, kubectl set-image, set-image` - summary: "The `kubectl set image` command is a command-line tool (CLI) operation used to quickly upd
-- [[concepts/deployment-rollout-status|deployment-rollout-status]] `aliases: Rollout Status, Deployment Status, rollout status` - summary: "Deployment Rollout Status refers to the real-time state and progress of a Deployment's upd
-- [[concepts/kubectl-rollout-history|kubectl-rollout-history]] `aliases: rollout history command, kubectl rollout history command, rollout history` - summary: "`kubectl rollout history` is a command-line command used with the Kubernetes command-line 
-- [[concepts/kubectl-rollout-status|kubectl-rollout-status]] `aliases: rollout status command, rollout status, kubectl rollout` - summary: "The `kubectl rollout status` command is a Kubernetes command-line utility that monitors an
-- [[concepts/deployment|deployment]] - summary: "A Deployment manages a set of ReplicaSets, which in turn manage the Pods. This higher-leve
-- [[concepts/revision-history|revision-history]] `aliases: deployment revision history, rollout history` - summary: "Revision History is the recorded list of sequential changes (revisions) made to a Kubernet
-- [[concepts/rollback|rollback]] - summary: "In Kubernetes, a rollback is the process of reverting a Deployment to a previous, known-go
-- [[concepts/deployment-strategies|deployment-strategies]] `aliases: Deployment Strategy, Kubernetes Deployment Strategies` - summary: "> - Deployment Strategies – Two Ways to Upgrade"
-- [[concepts/rollout|rollout]] `aliases: Deployment Rollout, Kubernetes Rollout` - summary: "A rollout in Kubernetes is the process triggered when a Deployment is created or updated, 
-- [[concepts/replica-set-creation|replica-set-creation]] `aliases: New ReplicaSet creation, ReplicaSet creation during update` - summary: "Replica-set-creation is the internal Kubernetes mechanism where a new ReplicaSet is automa
-- [[concepts/recreate-strategy|recreate-strategy]] `aliases: Recreate, Recreate Deployment Strategy` - summary: "The Recreate strategy is a Kubernetes Deployment update method that completely terminates 
-- [[concepts/rolling-update-strategy|rolling-update-strategy]] - summary: "The Rolling Update strategy is the default deployment strategy used by Kubernetes Deployme
-- [[concepts/queue-phase|queue-phase]] `aliases: Queue Phase, active queue, Pod queue` - summary: "The Queue Phase is the initial stage in the Kubernetes Scheduling Framework where Pods are
-- [[concepts/scheduler-profiles|scheduler-profiles]] `aliases: Scheduler Profiles, kube-scheduler profiles, schedulerName profiles` - summary: "Scheduler profiles in Kubernetes allow multiple scheduling configurations to run within a 
-- [[concepts/extension-points-in-scheduling|extension-points-in-scheduling]] `aliases: Scheduling Extension Points, Scheduler Extension Points, Framework Extension Points` - summary: "Extension points in the Kubernetes Scheduling Framework are predefined hooks within the sc
-- [[concepts/multiple-schedulers|multiple-schedulers]] `aliases: Multiple schedulers, custom schedulers, Kubernetes multiple schedulers` - summary: "Multiple schedulers in Kubernetes refer to the ability to run several scheduler instances 
-- [[concepts/oci-specs|oci-specs]] - summary: "The OCI defines two core, vendor-neutral specifications: the Image Specification (Image Sp
-- [[concepts/dockershim|dockershim]] - summary: "> **Source: Containerd, CRI etc.** > - ' > - '"
-- [[concepts/node-bound|node-bound]] `aliases: Node-bound, node-specific` - summary: "Node-bound is a core characteristic of static Pods, meaning each static Pod manifest is as
-- [[concepts/self-reconciling|self-reconciling]] - summary: "Self-reconciling is the automatic state maintenance for static Pods managed directly by a 
-- [[concepts/replicasets|replicasets]] - summary: "A ReplicaSet is a Kubernetes controller that ensures a specified number of pod replicas ar
-- [[concepts/bootstrapping-control-plane|bootstrapping-control-plane]] `aliases: control plane bootstrapping, K8s control plane init, Control Plane Bootstrap` - summary: "Bootstrapping control-plane initializes Kubernetes components as static pods to establish 
-- [[concepts/daemonsets|daemonsets]] - summary: "A DaemonSet ensures one pod replica per node is deployed, automatically adjusting the pod 
-- [[concepts/manifest-directory|manifest-directory]] `aliases: pod manifest directory, static pod path, kubelet manifest directory` - summary: "The manifest directory is a filesystem location on each Kubernetes node where the kubelet 
-- [[concepts/mirror-pod|mirror-pod]] `aliases: mirror pods, Mirror Pods, Kubernetes Mirror Pod` - summary: "A Mirror Pod is a representation of a Static Pod that the kubelet creates within the Kuber
-- [[concepts/tolerations|tolerations]] - summary: "Tolerations are a [[entities/kubernetes|Kubernetes]] scheduling property that allows Pods 
-- [[concepts/taints|taints]] - summary: "Taints are labels applied to Kubernetes nodes that repel pods unless they have matching to
-- [[concepts/bridged-adapter|bridged-adapter]] - summary: "Bridged Adapter connects VMs directly to the physical network, making them appear as indep
-- [[concepts/etchosts|etchosts]] `aliases: hosts file, hostname resolution` - summary: "The `/etc/hosts` is a local system configuration file that maps hostnames to IP addresses,
-- [[concepts/swap|swap]] `aliases: swap space, virtual memory` - summary: "Swap is a Linux virtual memory mechanism that uses designated disk space as an extension o
-- [[concepts/containerization|containerization]] `aliases: Containerization, container-based deployment, app containerization` - summary: "Containerization is a lightweight, OS-level virtualization method that packages an applica
-- [[concepts/service-discovery|service-discovery]] `aliases: microservice discovery, service registry, SD` - summary: "Service discovery is the automatic process by which services in a distributed system locat
-- [[concepts/grpc|grpc]] `aliases: Google Remote Procedure Call, gRPC protocol, Google RPC` - summary: "gRPC is a high-performance, open-source remote procedure call (RPC) framework originally d
-- [[concepts/microservices-architecture|microservices-architecture]] `aliases: microservices, distributed services architecture` - summary: "Microservices architecture is a software development approach where an application is stru
-- [[concepts/kubernetes-practice|kubernetes-practice]] `aliases: K8s practice, Kubernetes hands-on learning, K8s practice guide` - summary: "Kubernetes practice refers to the hands-on learning and experimentation with Kubernetes cl
-- [[concepts/veth-pair|veth-pair]] `aliases: virtual ethernet pair, veth device` - summary: "A veth pair (virtual ethernet pair) is a Linux networking construct that creates a virtual
-- [[concepts/docker-gateway-ip|docker-gateway-ip]] `aliases: Docker bridge gateway, container default gateway, Docker gateway address` - summary: "Docker Gateway IP refers to the IP address assigned to the host machine on a Docker bridge
-- [[concepts/nat|nat]] `aliases: Network Address Translation, Docker NAT` - summary: "NAT (Network Address Translation) is a networking technique used by Docker to intercept an
-- [[concepts/iptables|iptables]] - summary: "> **Source: miscellaneous_1e6927** > - Docker configures **iptables** rules in that namesp
-- [[concepts/linux-network-namespace|linux-network-namespace]] `aliases: net namespace, network namespace, Linux net namespace` - summary: "A Linux network namespace is a kernel feature that provides complete isolation of the netw
-- [[concepts/container-dns-resolution|container-dns-resolution]] `aliases: Docker container name resolution, container-to-container DNS` - summary: "Container DNS Resolution is the mechanism by which Docker containers discover and communic
-- [[concepts/linux-namespace-types|linux-namespace-types]] `aliases: Linux namespaces, kernel namespaces` - summary: "Linux namespace types refer to the eight categories of namespaces introduced in the Linux 
-- [[concepts/embedded-dns-server|embedded-dns-server]] `aliases: Docker DNS, internal DNS server` - summary: "The embedded DNS server is a built-in component of the Docker daemon that runs on user-def
-- [[concepts/user-defined-bridge-network|user-defined-bridge-network]] `aliases: custom bridge network, Docker bridge network` - summary: "A user-defined bridge network is a custom virtual network created by a user in Docker that
-- [[concepts/bridge-network-in-docker|bridge-network-in-docker]] `aliases: Docker bridge, virtual switch` - summary: "Docker bridge is the default networking mode providing container-to-container communicatio
-- [[concepts/certificate-chain|certificate-chain]] `aliases: Certificate hierarchy, Cert chain` - summary: "A certificate chain is a hierarchical sequence of digitally signed certificates linking a 
-- [[concepts/certificate-verification|certificate-verification]] `aliases: Certificate validation, SSL/TLS verification, Cert verification` - summary: "Certificate verification validates digital certificates by checking signatures, expiration
-- [[concepts/certificate-authority-ca|certificate-authority-ca]] `aliases: CA, Cluster CA, Root CA` - summary: "A Certificate Authority (CA) is a trusted entity that signs digital certificates, serving 
-- [[concepts/client-certificate|client-certificate]] `aliases: Client Cert, Client Certificates, X.509 Client Certificate` - summary: "A client certificate authenticates components like kubelet and kubectl to the Kubernetes A
-- [[concepts/server-certificate|server-certificate]] `aliases: Server Cert, TLS Server Certificate` - summary: "A server certificate is a digital credential used by a network server to cryptographically
-- [[concepts/manual-certificate-management|manual-certificate-management]] `aliases: Manual TLS Setup, Manual Certificate Generation` - summary: "Manual Certificate Management is the process of setting up Transport Layer Security (TLS) 
-- [[concepts/subject-alternative-name-san|subject-alternative-name-san]] `aliases: SAN, X.509 SAN extension` - summary: "Subject Alternative Name (SAN) is an X.509 certificate extension that specifies additional
-- [[concepts/trust-root|trust-root]] `aliases: Root of Trust, CA Trust Root` - summary: "The Trust Root in a Kubernetes cluster is the foundational Certificate Authority (CA) that
-- [[concepts/mutual-tls-mtls|mutual-tls-mtls]] `aliases: mTLS, mutual authentication TLS` - summary: "Mutual TLS (mTLS) is an extension of the standard TLS protocol that requires both the clie
-- [[concepts/session-key|session-key]] `aliases: session key, symmetric session key, bulk encryption key` - summary: "A session key is a temporary, symmetric cryptographic key generated for the exclusive dura
-- [[concepts/aes-256-gcm|aes-256-gcm]] `aliases: AES-GCM, GCM mode of AES` - summary: "AES-256-GCM is a symmetric encryption algorithm providing both data confidentiality and in
-- [[concepts/ecdhe|ecdhe]] `aliases: Elliptic Curve Diffie-Hellman Ephemeral, ECDH key exchange` - summary: "ECDHE (Elliptic Curve Diffie-Hellman Ephemeral) is a cryptographic key exchange protocol t
-- [[concepts/rsa|rsa]] - summary: "RSA is an asymmetric cryptographic algorithm whose security relies on the practical diffic
-- [[concepts/certificate-signing-request|certificate-signing-request]] - summary: "A Certificate Signing Request (CSR) contains a public key and identity info that a CA sign
-- [[concepts/trust|trust]] `aliases: Chain of Trust, Confidence in Identity` - summary: "In the context of Transport Layer Security (TLS) and Public Key Infrastructure (PKI), **tr
-- [[concepts/self-signed-certificates|self-signed-certificates]] `aliases: Self-Signed Certs, Self-Issued Certificates` - summary: "A self-signed certificate is a digital certificate that has been signed by the same entity
-- [[concepts/digital-signature|digital-signature]] `aliases: Electronic Signature, DS, Digital Sig` - summary: "A digital signature is a cryptographic method that provides authenticity and integrity for
-- [[concepts/man-in-the-middle-attack|man-in-the-middle-attack]] `aliases: MITM Attack, Eavesdropping` - summary: "A Man-in-the-Middle (MITM) attack is a security threat where an attacker secretly intercep
-- [[concepts/public-key-infrastructure|public-key-infrastructure]] - summary: "Public Key Infrastructure (PKI) is a framework of policies, roles, and procedures used to 
-- [[concepts/asymmetric-encryption|asymmetric-encryption]] `aliases: Public-Key Cryptography, Asymmetric Cryptography, Public-key Encryption` - summary: "Asymmetric encryption uses a public-private key pair for secure key exchange and digital s
-- [[concepts/symmetric-encryption|symmetric-encryption]] `aliases: Secret-Key Cryptography, Symmetric Cryptography` - summary: "Symmetric encryption is a method of cryptography where the same secret key is used for bot
-- [[concepts/tls-handshake|tls-handshake]] `aliases: SSL Handshake, Key Exchange` - summary: "The TLS handshake is the initial, standardized process by which a client and server establ
-- [[concepts/tls-certificates|tls-certificates]] `aliases: TLS Certificates, Digital Certificates, SSL/TLS Certificates` - summary: "TLS Certificates are digital documents that bind a cryptographic key pair to an entity (su
-- [[concepts/certificate-generation|certificate-generation]] - summary: "Certificate generation creates a self-signed CA and component-specific signed TLS certific
-- [[concepts/kubeconfig|kubeconfig]] `aliases: kubeconfig, cluster config, admin.conf` - summary: "A kubeconfig is a YAML-formatted configuration file that contains cluster connection detai
-- [[concepts/high-availability-control-plane|high-availability-control-plane]] `aliases: HA control plane, multi-master cluster, high-availability cluster` - summary: "High-availability (HA) control plane is a deployment method for Kubernetes that eliminates
-- [[concepts/scheduler|scheduler]] - summary: "The scheduler is a central decision-maker in the Kubernetes control plane that watches the
-- [[concepts/add-ons-deployment|add-ons-deployment]] `aliases: cluster add-ons, core add-ons, add-ons` - summary: Add-ons deployment installs essential cluster services like kube-proxy and CoreDNS as Pods 
-- [[concepts/controller-manager|controller-manager]] - summary: "The controller-manager, specifically kube-controller-manager, is a fundamental control-pla
-- [[concepts/kube-proxy|kube-proxy]] - summary: "kube-proxy is a fundamental networking component that runs on every node in a Kubernetes c
-- [[concepts/version-locking|version-locking]] `aliases: package version pinning, apt-mark hold, version hold` - summary: "Version locking is a system administration method used to prevent the automatic or uninten
-- [[concepts/pod-network|pod-network]] - summary: "The Pod Network provides a flat, routable network for all Pods in the cluster, allowing di
-- [[concepts/kubernetes-apt-repository-setup|kubernetes-apt-repository-setup]] - summary: "Kubernetes APT repository setup is the procedure for adding the official Kubernetes packag
-- [[concepts/sysctl-configuration-for-kubernetes|sysctl-configuration-for-kubernetes]] - summary: "Sysctl configuration for Kubernetes involves setting kernel parameters such as br_netfilte
-- [[concepts/br_netfilter|br_netfilter]] - summary: "br_netfilter is a Linux kernel module required for Kubernetes networking to allow iptables
-- [[concepts/overlay|overlay]] - summary: "Overlay networking creates virtual networks over existing infrastructure, enabling contain
-- [[concepts/kubeadm-join|kubeadm-join]] `aliases: node join, worker join, Kubeadm Join` - summary: "`kubeadm join` is the command used to join worker nodes or additional control plane nodes 
-- [[concepts/kubeadm-init|kubeadm-init]] `aliases: kubeadm init, kubeadm initialize, control plane initialization` - summary: "`kubeadm init` is the primary command used to initialize and bootstrap the control plane o
-- [[concepts/bootstrapping|bootstrapping]] `aliases: Cluster Bootstrapping, kubeadm Bootstrapping, Bootstrapping a Cluster` - summary: "Bootstrapping initializes a Kubernetes control plane and joins worker nodes to form a func
-- [[concepts/static-pods|static-pods]] - summary: "Static Pods are special Kubernetes Pods managed directly by the kubelet on a specific node
-- [[concepts/vpc-basics|vpc-basics]] `aliases: Virtual Private Cloud Basics` - summary: "VPC Basics refer to the fundamental concepts of Amazon's Virtual Private Cloud networking 
-- [[concepts/infrastructure-provisioning|infrastructure-provisioning]] `aliases: Infrastructure Provisioning, Infra Provisioning, Infrastructure Setup` - summary: "Infrastructure Provisioning is the methodological process of creating and configuring the 
-- [[concepts/self-managed-kubernetes|self-managed-kubernetes]] `aliases: DIY Kubernetes, 自建Kubernetes, 裸金属Kubernetes` - summary: "Self-Managed Kubernetes is a deployment model where an organization takes full responsibil
-- [[concepts/managed-kubernetes|managed-kubernetes]] `aliases: Managed K8s, Kubernetes as a Service, KaaS` - summary: "Managed Kubernetes is a cloud service model where a provider (such as AWS EKS, GCP GKE, or
-- [[concepts/kubernetes-cluster|kubernetes-cluster]] `aliases: K8s cluster, cluster, self-managed Kubernetes cluster` - summary: "A Kubernetes Cluster is the complete, functional deployment of the Kubernetes orchestratio
-- [[concepts/aws-free-tier|aws-free-tier]] `aliases: AWS Free Tier, Free Tier` - summary: "AWS Free Tier provides new customers limited usage of AWS services at no cost for the firs
-- [[concepts/vpc|vpc]] `aliases: Virtual Private Cloud, VPC` - summary: "A Virtual Private Cloud (VPC) is a logically isolated section of a cloud provider's networ
-- [[concepts/worker-node|worker-node]] - summary: "> **Source: kubernetes-installation-steps_e573e8** > - ' > - '"
-- [[concepts/qos-classes|qos-classes]] `aliases: Quality of Service classes, Kubernetes QoS` - summary: "Quality of Service (QoS) classes in Kubernetes are a classification system that categorize
-- [[concepts/kubernetes-api-server|kubernetes-api-server]] - summary: "The Kubernetes API server (kube-apiserver) is the central hub for all cluster communicatio
-- [[concepts/control-plane-node|control-plane-node]] - summary: "The control-plane node is the foundational, conceptual 'brain' of a [[entities/kubernetes|
-- [[concepts/nodeswap-feature-gate|nodeswap-feature-gate]] `aliases: NodeSwap, swap feature gate, Kubernetes NodeSwap` - summary: "NodeSwap is an alpha feature gate in Kubernetes (v1.32+) that enables the use of node-leve
-- [[concepts/container-runtime|container-runtime]] - summary: "The Container Runtime Interface (CRI) is the fundamental plugin API that enables Kubernete
-- [[concepts/security-groups|security-groups]] - summary: "Security Groups act as instance-level firewalls within a Virtual Private Cloud (VPC), gove
-- [[concepts/ufw|ufw]] `aliases: Uncomplicated Firewall, UFW` - summary: "UFW (Uncomplicated Firewall) is a user-friendly command-line interface for managing netfil
-- [[concepts/firewalld|firewalld]] `aliases: Firewall Daemon, firewalld service` - summary: "Firewalld is a dynamic firewall daemon for Linux systems, providing a command-line interfa
-- [[concepts/prerequisites-verification|prerequisites-verification]] `aliases: Prerequisites verification, Node verification, Readiness check` - summary: "Prerequisites verification is a systematic method for confirming that all required system 
-- [[concepts/nodeport-services|nodeport-services]] `aliases: NodePort, NodePort service, Node Port Service` - summary: "A NodePort is a type of [[concepts/network-port-configuration|network port configuration]]
-- [[concepts/hostname-setting|hostname-setting]] `aliases: hostname configuration, host naming, hostname setup` - summary: "The process of assigning a unique and human-readable network identifier to each node withi
-- [[concepts/network-port-configuration|network-port-configuration]] `aliases: Port configuration, Firewall port configuration, Port opening` - summary: "Network port configuration refers to the method of managing and controlling specific TCP/U
-- [[concepts/disable-swap|disable-swap]] `aliases: swapoff, swap disabling, swap disabled` - summary: "Disabling swap is a critical node preparation method for Kubernetes, involving the tempora
-- [[concepts/static-password-file|static-password-file]] `aliases: Basic Auth File, Static Password Authentication, Deprecated Basic Auth File` - summary: "A static password file is a deprecated method for authenticating users to the [[entities/k
-- [[concepts/static-token-file|static-token-file]] `aliases: Token Auth File, Static Token Authentication` - summary: "A static token file is a method for authenticating users to the Kubernetes API server by u
-- [[concepts/human-vs-machine-users|human-vs-machine-users]] `aliases: Human vs Machine Users (Kubernetes), K8s User Types, User Types in Kubernetes` - summary: "A classification within Kubernetes that distinguishes between **human users** (e.g., admin
-- [[concepts/kerberos|kerberos]] `aliases: Kerberos Authentication, Kerberos Protocol, Kerberos Network Authentication` - summary: "Kerberos is a network authentication protocol that provides secure authentication for user
-- [[concepts/oidc|oidc]] `aliases: OpenID Connect, OIDC, OpenID` - summary: "OIDC (OpenID Connect) is an authentication layer built on top of the OAuth 2.0 protocol. I
-- [[concepts/ldap|ldap]] `aliases: LDAP, Lightweight Directory Access Protocol` - summary: "LDAP (Lightweight Directory Access Protocol) is a standard, application-layer protocol for
-- [[concepts/serviceaccounts|serviceaccounts]] `aliases: Service Account, K8s Service Account, K8s Service Accounts` - summary: "ServiceAccounts are Kubernetes resources that provide an identity for non-human entities (
-- [[concepts/x-509-client-certificates|x-509-client-certificates]] `aliases: Client Certificates, X.509 Client Certificate Authentication, Client Cert Auth` - summary: "X.509 client certificates are a public key infrastructure (PKI) based authentication mecha
-- [[concepts/role-rbac|role-rbac]] `aliases: RBAC Role, Kubernetes Role, Namespace Role` - summary: "A Role in Kubernetes Role-Based Access Control (RBAC) is a resource that defines a set of 
-- [[concepts/rolebinding|rolebinding]] `aliases: RoleBinding, Role Binding, Kubernetes RoleBinding` - summary: "RoleBinding is a Kubernetes resource that grants the permissions defined in a Role to a sp
-- [[concepts/clusterrolebinding|clusterrolebinding]] `aliases: ClusterRoleBinding, K8s ClusterRoleBinding` - summary: "ClusterRoleBinding is a Kubernetes resource within the RBAC (Role-Based Access Control) sy
-- [[concepts/clusterrole|clusterrole]] `aliases: ClusterRole, K8s ClusterRole` - summary: "ClusterRole is a Kubernetes resource that defines permissions at the cluster level. It is 
-- [[concepts/node-authorizer|node-authorizer]] - summary: "The Node Authorizer is a core component of the Kubernetes authorization chain, designed to
-- [[concepts/webhooks-authorization|webhooks-authorization]] `aliases: Authorization Webhooks, Webhook Authorizer, Webhook Authorization` - summary: "Webhooks in Kubernetes are an authorization mechanism that delegates access decision-makin
-- [[concepts/host-security|host-security]] `aliases: Host-Level Security, Cluster Access Security, Infrastructure Security` - summary: "Host security in the context of Kubernetes refers to securing the underlying infrastructur
-- [[concepts/tls-encryption|tls-encryption]] - summary: "> **Source: sources/tls-certificates_c8ca8c** > - ' > - '"
-- [[concepts/network-policies|network-policies]] `aliases: Kubernetes Network Policies, K8s Network Policies, NetPol` - summary: "Network Policies are a security mechanism in Kubernetes that allow users to define rules f
-- [[concepts/authorization-kubernetes|authorization-kubernetes]] `aliases: K8s Authorization, Kubernetes Access Control` - summary: "Kubernetes authorization determines what authenticated users and service accounts can do, 
-- [[concepts/rbac|rbac]] `aliases: RBAC, Role-Based Access Control` - summary: "RBAC (Role-Based Access Control) is an authorization method in Kubernetes that restricts a
-- [[concepts/abac|abac]] `aliases: ABAC, Attribute-Based Access Control, Attribute-Based Authorization` - summary: "ABAC (Attribute-Based Access Control) authorizes access using attributes of subjects, reso
-- [[concepts/authentication-kubernetes|authentication-kubernetes]] `aliases: K8s Authentication, Kubernetes API Authentication, K8s API Authentication` - summary: "Kubernetes authentication determines who can access the API server through X.509 certs, to
-
-- [[concepts/back-channeling-voice-ai|back-channeling-voice-ai]] - title: "Back-Channeling in Voice AI" ( #voice #ai #speech #conversation #turn-taking)
-- [[concepts/full-duplex-voice-models|full-duplex-voice-models]] - title: "Full Duplex Voice Models" ( #voice #ai #speech #full-duplex #turn-taking)
-- [[concepts/human-turn-taking-prediction|human-turn-taking-prediction]] - title: "Human Turn-Taking Prediction" ( #linguistics #conversation #psychology #turn-taking #voice)
-- [[concepts/semantic-end-of-utterance-detection|semantic-end-of-utterance-detection]] - title: "Semantic End-of-Utterance Detection" ( #voice #ai #speech #vad #turn-taking #semantics)
-- [[concepts/voice-activity-detection|voice-activity-detection]] - title: "Voice Activity Detection" ( #voice #ai #speech #vad #turn-taking)
-
-- [[concepts/voice-agent-architecture|voice-agent-architecture]] - title: "Voice Agent Architecture"
-- [[concepts/speech-to-speech-architecture|speech-to-speech-architecture]] - title: "Speech-to-Speech Architecture"
-- [[concepts/voice-agent-prompting|voice-agent-prompting]] - title: "Voice Agent Prompting"
-- [[concepts/voice-agent-evals|voice-agent-evals]] - title: "Voice Agent Evals"
-- [[concepts/voice-agent-guardrails|voice-agent-guardrails]] - title: "Voice Agent Guardrails"
-- [[concepts/openai-real-time-api|openai-real-time-api]] - title: "OpenAI Real-time API"
-- [[concepts/evaluation-first-development|evaluation-first-development]] - title: "Evaluation-First Development"
-- [[concepts/task-specific-evals|task-specific-evals]] - title: "Task-Specific Evals"
-- [[concepts/synthetic-eval-generation|synthetic-eval-generation]] - title: "Synthetic Eval Generation"
-- [[concepts/per-element-llm-judge]] - title: "Per-Element LLM Judge" ( #ai #evaluation #llm-as-judge #methodology)
-- [[concepts/curated-dataset-strategy]] - title: "Curated Dataset Strategy" ( #ai #evaluation #data-quality #methodology)
-- [[concepts/retrieval-evaluation-isolation]] - title: "Retrieval Evaluation Isolation" ( #ai #rag #evaluation #retrieval)
-- [[concepts/prompt-fallback-infrastructure]] - title: "Prompt Fallback Infrastructure" ( #ai #architecture #reliability #model-management)
-- [[concepts/checklist-based-evaluation|checklist-based-evaluation]] - title: "Checklist-Based Evaluation"
-- [[concepts/ai-regression-testing|ai-regression-testing]] - title: "AI Regression Testing"
-- [[concepts/benchmark-driven-ai-optimization|benchmark-driven-ai-optimization]] - title: "Benchmark-Driven AI Optimization"
-- [[concepts/hybridrag|hybridrag]] - title: "HybridRAG" ( #rag #knowledge-graph #vector-database)
-- [[concepts/graphrag|graphrag]] - title: "GraphRAG" ( #rag #knowledge-graph)
-- [[concepts/triplet-extraction|triplet-extraction]] - title: "Triplet Extraction" ( #knowledge-graph #llm #extraction)
-- [[concepts/knowledge-graph-ontology-design|knowledge-graph-ontology-design]] - title: "Knowledge Graph Ontology Design" ( #knowledge-graph #ontology #llm)
-- [[concepts/ontology-driven-retrieval|ontology-driven-retrieval]] - title: "Ontology-Driven Retrieval" ( #knowledge-graph #ontology #retrieval #method)
-- [[concepts/multi-hop-retrieval|multi-hop-retrieval]] - title: "Multi-Hop Retrieval" ( #rag #knowledge-graph #retrieval)
-- [[concepts/rag-evaluation|rag-evaluation]] - title: "RAG Evaluation" ( #rag #evaluation #metrics)
-:- [[concepts/graph-acceleration|graph-acceleration]] - title: "Graph Acceleration" ( #graph #gpu #cugraph)
-- [[concepts/graph-vs-document-retrieval|graph-vs-document-retrieval]] - title: "Graph vs Document Retrieval" ( #concept #retrieval #knowledge-graph #rag #agent)
-- [[concepts/graph-traversal-similarity|graph-traversal-similarity]] - title: "Graph Traversal Similarity" ( #concept #knowledge-graph #graph-traversal #similarity)
-:- [[concepts/intelligence-bottlenecks|intelligence-bottlenecks]] - title: "Intelligence Bottlenecks" ( #concept #ai #history)
-:- [[concepts/test-time-compute-scaling|test-time-compute-scaling]] - title: "Test-Time Compute Scaling" ( #concept #ai #inference #reasoning)
-:- [[concepts/thinking-budgets|thinking-budgets]] - title: "Thinking Budets" ( #concept #ai #inference #pricing #reasoning)
-
-- [[concepts/enterprise-ai-app-factory|enterprise-ai-app-factory]] - title: "Enterprise AI App Factory" ( #ai #architecture #enterprise #app-development)
-- [[concepts/human-in-the-loop-regulated-ai|human-in-the-loop-regulated-ai]] - title: "Human-in-the-Loop in Regulated AI" ( #ai #regulated-industry #compliance #human-in-the-loop)
-- [[concepts/domain-expert-prompt-engineering|domain-expert-prompt-engineering]] - title: "Domain Expert Prompt Engineering" ( #ai #prompt-engineering #enterprise #llm #domain-experts)
-- [[concepts/demo-driven-ai-exploration|demo-driven-ai-exploration]] - title: "Demo-Driven AI Exploration" ( #ai #llm #methodology #curiosity)
-- [[concepts/ai-engineering-as-excavation|ai-engineering-as-excavation]] - title: "AI Engineering as Excavation" ( #ai #llm #methodology #epistemology)
-- [[concepts/latent-model-capabilities|latent-model-capabilities]] - title: "Latent Model Capabilities" ( #ai #llm #capabilities #emergence)
-- [[concepts/vibe-coding-origins|vibe-coding-origins]] - title: "Vibe Coding Origins" ( #ai #llm #coding #gpt-3)
-
-- [[concepts/wireframe-to-app-generation|wireframe-to-app-generation]] - title: "Wireframe-to-App Generation" ( #ai #vision #code-generation #prototyping)
-- [[concepts/visual-agentic-workflows|visual-agentic-workflows]] - title: "Visual Agentic Workflows" ( #ai #agent #visual-programming #workflow)
-- [[concepts/llm-as-computation-engine|llm-as-computation-engine]] - title: "LLM as Computation Engine" ( #ai #llm #computation #multi-modal)
-- [[concepts/canvas-ai-interface|canvas-ai-interface]] - title: "Canvas as AI Interface" ( #ai #interface #canvas #visual)
-- [[concepts/pricing-as-friction|pricing-as-friction]] - title: "Pricing as Friction" ( #pricing #product-design #ai-engineering #monetization)
-- [[concepts/ai-native-pricing-principles|ai-native-pricing-principles]] - title: "AI-Native Pricing Principles" ( #pricing #ai-engineering #monetization #product-strategy)
-- [[concepts/agent-cost-predictability|agent-cost-predictability]] - title: "Agent Cost Predictability" ( #ai-agents #pricing #cost-management #ai-engineering)
-- [[concepts/outcome-based-pricing-for-ai|outcome-based-pricing-for-ai]] - title: "Outcome-Based Pricing for AI" ( #pricing #ai-engineering #monetization #product-strategy)
-- [[concepts/usage-based-pricing-for-ai|usage-based-pricing-for-ai]] - title: "Usage-Based Pricing for AI" ( #pricing #ai-engineering #monetization #infrastructure)
-- [[concepts/pricing-simulation|pricing-simulation]] - title: "Pricing Simulation" ( #pricing #data-driven #analytics #product-strategy)
-- [[concepts/direct-vs-indirect-ai-monetization|direct-vs-indirect-ai-monetization]] - title: "Direct vs Indirect AI Monetization" ( #pricing #ai-engineering #monetization #product-strategy #go-to-market)
-- [[concepts/value-metric-spectrum|value-metric-spectrum]] - title: "Value Metric Spectrum for AI Pricing" ( #pricing #ai-engineering #monetization #product-strategy #ai-agents)
-- [[concepts/ai-lego-blocks-framework|ai-lego-blocks-framework]] - title: "AI Lego Blocks Framework" ( #product-strategy #ai-product #differentiation #competitive-advantage)
-- [[concepts/sequence-of-moats|sequence-of-moats]] - title: "Sequence of Moats" ( #product-strategy #competitive-advantage #execution #timing)
-- [[concepts/ai-data-output-flywheel|ai-data-output-flywheel]] - title: "AI Data-Output Flywheel" ( #product-strategy #data #flywheel #competitive-advantage #ai-product)
-
-- [[concepts/ai-driven-experimentation|ai-driven-experimentation]] - title: "AI-Driven Experimentation" ( #ai #experimentation #llm #agent #ux #ab-testing)
-- [[concepts/prompt-to-reward-function|prompt-to-reward-function]] - title: "Prompt-to-Reward Function" ( #ai #reinforcement-learning #llm #robotics)
-- [[concepts/open-source-humanoid-robotics]] - title: "Open-Source Humanoid Robotics" ( #robotics #humanoid #open-source #reinforcement-learning)
-- [[concepts/browser-based-robotics-simulation|browser-based-robotics-simulation]] - title: "Browser-Based Robotics Simulation" ( #ai #reinforcement-learning #robotics #simulation)
-- [[concepts/agent-reliability-challenge|agent-reliability-challenge]] - title: "Agent Reliability Challenge" ( #ai #agents #reliability #evaluation #enterprise-ai)
-- [[concepts/scaling-is-dead-thesis|scaling-is-dead-thesis]] - title: "Scaling is Dead Thesis" ( #ai #scaling #reliability #architecture)
-- [[concepts/action-models|action-models]] - title: "Action Models" ( #ai #agents #models #reliability #web-tasks)
-
-- [[concepts/ai-iteration-loop|ai-iteration-loop]] - title: "AI Iteration Loop" ( #ai #operations #evaluation #methodology)
-- [[concepts/ai-ops-evolution|ai-ops-evolution]] - title: "AI Ops Evolution" ( #ai #operations #quality-assurance #team-structure)
-- [[concepts/ai-quality-lead|ai-quality-lead]] - title: "AI Quality Lead" ( #ai #roles #operations #evaluation)
-- [[concepts/build-operate-divide|build-operate-divide]] - title: "Build-Operate Divide" ( #ai #operations #product-development #reliability)
-- [[concepts/quality-chasm-in-ai|quality-chasm-in-ai]] - title: "Quality Chasm in AI" ( #ai #quality #production #reliability)
-- [[concepts/agentic-semantic-layer|agentic-semantic-layer]] - title: "Agentic Semantic Layer" ( #ai #architecture #semantic-layer #agents)
-
-- [[concepts/semantic-ids|semantic-ids]] - title: "Semantic IDs" ( #recommendation-systems #embeddings #cold-start #recsys)
-- [[concepts/llm-data-augmentation-recsys|llm-data-augmentation-recsys]] - title: "LLM Data Augmentation for Recommendation Systems" ( #recommendation-systems #llm #data-augmentation #recsys)
-- [[concepts/unified-recommendation-models|unified-recommendation-models]] - title: "Unified Recommendation Models" ( #recommendation-systems #search #multi-task-learning #recsys)
-- [[concepts/cold-start-recommendation|cold-start-recommendation]] - title: "Cold Start in Recommendation Systems" ( #recommendation-systems #cold-start #data-sparsity #recsys)
-- [[concepts/quality-vs-quantity-recommendations|quality-vs-quantity-recommendations]] - title: "Quality vs Quantity in Recommendations" ( #recommendation-systems #quality #metrics #recsys)
-- [[concepts/exploratory-query-recommendation|exploratory-query-recommendation]] - title: "Exploratory Query Recommendation" ( #recommendation-systems #search #query-generation #llm)
-- [[concepts/data-readiness-myth|data-readiness-myth]] - title: "Data Readiness Myth" ( #ai #data #reliability #enterprise-ai)
-- [[concepts/recsys-event-tokenization|recsys-event-tokenization]] - title: "Event Tokenization for Recommendation Systems" ( #recommendation-systems #tokenization #transformer #recsys)
-- [[concepts/cursor-for-x]] - title: "Cursor for X" ( #concept #ai #product-strategy #startups)
-- [[concepts/dagger-agent-platform]] - title: "Dagger Agent Platform" ( #concept #agent #architecture #container #sandbox #cicd #dagger)
-- [[concepts/llm-as-planner-not-executor|llm-as-planner-not-executor]] - title: "LLM as Planner, Not Executor" ( #ai #architecture #llm #reliability)
-- [[concepts/tribal-knowledge-in-ai|tribal-knowledge-in-ai]] - title: "Tribal Knowledge in AI" ( #ai #enterprise-ai #domain-knowledge #reliability)
-
-- [[concepts/execution-as-moat]] - title: "Execution as Moat" ( #concept #ai #strategy #startups)
-- [[concepts/ai-leapfrog-effect]] - title: "AI Leapfrog Effect" ( #concept #ai #adoption #enterprise)
-- [[concepts/copilot-first-strategy]] - title: "Copilot-First Strategy" ( #concept #ai #product-strategy #agents)
-- [[concepts/prompt-is-a-bug]] - title: "The Prompt Is a Bug" ( #concept #ai #ux #product-design)
-- [[concepts/dial-up-era-of-ai]] - title: "Dial-Up Era of AI" ( #concept #ai #startups #timing)
-- [[concepts/multi-model-world]] - title: "Multi-Model World" ( #concept #ai #infrastructure #strategy)
-- [[concepts/interactive-reasoning-benchmarks]] - title: "Interactive Reasoning Benchmarks" ( #concept #ai #benchmarking #agi #reasoning)
-- [[concepts/arc-agi-3]] - title: "ARC-AGI-3" ( #concept #ai #benchmarking #agi #arc-agi)
-- [[concepts/skill-acquisition-efficiency]] - title: "Skill Acquisition Efficiency" ( #concept #ai #agi #intelligence #benchmarking)
-- [[concepts/core-knowledge-priors]] - title: "Core Knowledge Priors" ( #concept #ai #reasoning #cognition #arc-agi)
-- [[concepts/human-baseline-benchmarking]] - title: "Human Baseline Benchmarking" ( #concept #ai #benchmarking #agi #methodology)
-
-- [[concepts/ai-first-transformation]] - title: "AI-First Transformation" ( #concept #ai #strategy #organization #transformation)
-- [[concepts/ritualized-discovery]] - title: "Ritualized Discovery" ( #concept #ai #methodology #experimentation)
-- [[concepts/mvp-for-learning]] - title: "MVP for Learning" ( #concept #ai #methodology #product-development)
-- [[concepts/smart-velocity]] - title: "Smart Velocity" ( #concept #ai #strategy #product-development)
-- [[concepts/process-as-product]] - title: "Process as Product" ( #concept #ai #methodology #organization #operations)
-- [[concepts/ai-fluency]] - title: "AI Fluency" ( #concept #ai #organization #culture #skills)
-- [[concepts/t-shaped-ai-talent]] - title: "T-Shaped AI Talent" ( #concept #ai #talent #organization #people)
-- [[concepts/stateful-environments]] - title: "Stateful Environments for Vertical Agents" ( #concept #ai #agents #architecture #infrastructure)
-- [[concepts/agent-tree-search]] - title: "Agent Tree Search" ( #concept #ai #agents #architecture #infrastructure)
-
-- [[concepts/mechanistic-interpretability]] - title: "Mechanistic Interpretability" ( #concept #ai #interpretability #research)
-- [[concepts/neural-programming]] - title: "Neural Programming" ( #concept #ai #interpretability #engineering)
-- [[concepts/feature-steering]] - title: "Feature Steering" ( #concept #ai #interpretability #control)
-- [[concepts/sparse-autoencoders]] - title: "Sparse Autoencoders" ( #concept #ai #interpretability #technique)
-:- [[concepts/legacy-code-ai-agent-strategy]] - title: "Legacy Code AI Agent Strategy" ( #concept #ai #agents #legacy-code #engineering #methodology)
-
-- [[concepts/agentic-web]] - title: "Agentic Web" ( #concept #agent #architecture #microsoft #interoperability)
-- [[concepts/peer-programming]] - title: "Peer Programming" ( #concept #ai #development #copilot #agent #workflow)
-- [[concepts/agent-factory]] - title: "Agent Factory" ( #concept #agent #platform #infrastructure #microsoft #deployment)
-- [[concepts/agentic-rag]] - title: "Agentic RAG" ( #concept #rag #retrieval #agents #accuracy #microsoft)
-- [[concepts/signal-loop-ai]] - title: "Signal Loop (AI)" ( #concept #agent #fine-tuning #feedback-loop #personalization #microsoft)
-- [[concepts/local-first-ai-platform]] - title: "Local-First AI Platform" ( #concept #architecture #edge #deployment #infrastructure #microsoft)
-- [[concepts/agent-evaluation-pipeline]] - title: "Agent Evaluation Pipeline" ( #concept #agent #evaluation #ci-cd #testing #quality)
-- [[concepts/model-ensemble-routing]] - title: "Model Ensemble Routing" ( #concept #model #routing #infrastructure #ensemble #microsoft)
-- [[concepts/design-four-pillars]] - title: "Design Four Pillars" ( #design-philosophy #ux #framework #product-design)
-- [[concepts/perceived-performance-ux]] - title: "Perceived Performance UX" ( #performance #ux #frontend #web-vitals)
-- [[concepts/prediction-cone-ui]] - title: "Prediction Cone UI" ( #ui-pattern #interaction-design #menu #ux)
-- [[concepts/specifications-as-code]] - title: "Specifications as Code" ( #specification #ai-engineering #methodology #communication #alignment)
-- [[concepts/deliberative-alignment]] - title: "Deliberative Alignment" ( #ai #alignment #specification #training #evaluation #openai)
-
-- [[concepts/cuda-graph-for-llm-serving]] - title: "CUDA Graph for LLM Serving" ( #gpu #optimization #inference #serving #performance)
-- [[concepts/speculative-decoding-eagle]] - title: "Eagle Speculative Decoding" ( #inference #optimization #serving #speculation)
-:- [[concepts/prefill-decode-throughput-tradeoff]] - title: "Prefill-Decode Throughput Tradeoff" ( #inference #llm #performance #optimization #throughput #serving)
-
-- [[concepts/ai-architect]] - title: "AI Architect" ( #concept #role #organization #ai #customer-experience)
-- [[concepts/agent-development-lifecycle]] - title: "Agent Development Lifecycle (ADLC)" ( #concept #agent #lifecycle #testing #production #ai-engineering)
-- [[concepts/user-simulation-testing]] - title: "User Simulation Testing" ( #concept #agent #testing #evaluation #ai-engineering)
-- [[concepts/closed-loop-agent-improvement]] - title: "Closed-Loop Agent Improvement" ( #concept #agent #ai #production #feedback-loop #operations)
-- [[concepts/ai-evaluation-market-history]] - title: "AI Evaluation Market History" ( #concept #evaluation #market #history #c-suite #agentic)
-
-- [[concepts/ai-sideshow]] - title: "AI Sideshow" ( #concept #ai #product-strategy #anti-pattern)
-- [[concepts/dynamic-products]] - title: "Dynamic Products" ( #concept #ai #product-strategy #methodology)
-
-- [[concepts/private-cloud-compute]] - title: "Private Cloud Compute" ( #concept #privacy #apple #cloud-compute #architecture)
-- [[concepts/remote-attestation]] - title: "Remote Attestation" ( #concept #security #trust #cryptography #attestation)
-- [[concepts/verifiable-transparency]] - title: "Verifiable Transparency" ( #concept #security #transparency #audit #merkle-tree #trust)
-- [[concepts/oblivious-http]] - title: "Oblivious HTTP" ( #concept #privacy #networking #protocol #anonymization)
-- [[concepts/blind-signatures]] - title: "Blind Signatures" ( #concept #cryptography #privacy #authentication)
-- [[concepts/non-targetability]] - title: "Non-Targetability" ( #concept #privacy #security #threat-model)
-- [[concepts/stateless-computation]] - title: "Stateless Computation" ( #concept #architecture #privacy #security)
-- [[concepts/enforceable-guarantees]] - title: "Enforceable Guarantees" ( #concept #security #architecture #privacy)
-- [[concepts/confidential-gpu]] - title: "Confidential GPU" ( #concept #hardware #security #gpu #confidential-computing #tpm)
-- [[concepts/private-ai-inference]] - title: "Private AI Inference" ( #concept #privacy #ai #inference #cloud)
-
-- [[concepts/ai-coworker-form-factors]] - title: "AI Coworker Form Factors" ( #concept #agent #ai #design #ux #interaction-patterns)
-- [[concepts/character-coach-approach]] - title: "Character Coach Approach" ( #concept #agent #ai #design #personality)
-- [[concepts/feeling-the-material]] - title: "Feeling the Material" ( #concept #ai #design #methodology #ux #prototyping)
-- [[concepts/finding-the-grain]] - title: "Finding the Grain" ( #concept #ai #design #methodology #ux)
-- [[concepts/forward-leaning-agent]] - title: "Forward-Leaning Agent" ( #concept #agent #ai #design #personality #behavior)
-- [[concepts/agent-identity]] - title: "Agent Identity" ( #concept #agent #identity #auth #security #architecture)
-- [[concepts/persona-shadowing]] - title: "Persona Shadowing" ( #concept #agent #identity #auth #architecture #pattern)
-- [[concepts/capability-based-tokens]] - title: "Capability Tokens" ( #concept #agent #identity #auth #architecture #pattern #tokens)
-- [[concepts/client-initiated-backchannel-authentication]] - title: "Client-Initiated Backchannel Authentication (CIBA)" ( #concept #agent #identity #auth #oauth #security #headless #protocol)
-- [[concepts/agent-middleware-trust-boundary]] - title: "Agent Middleware Trust Boundary" ( #concept #agent #security #architecture #middleware)
-- [[concepts/agent-traffic-inversion]] - title: "Agent Traffic Inversion" ( #concept #agent #prediction #trend #enterprise)
-- [[concepts/burden-of-generated-code]] - title: "Burden of Generated Code" ( #concept #software-engineering #ai-engineering #maintenance)
-- [[concepts/code-is-artifact]] - title: "Code is an Artifact, Not the Job" ( #concept #software-engineering #philosophy #ai-engineering)
-- [[concepts/code-review-primary-skill]] - title: "Code Review as Primary Skill" ( #concept #code-review #software-engineering #ai-engineering)
-- [[concepts/create-refine-loop]] - title: "Create-Refine Loop" ( #concept #ai-engineering #workflow #methodology)
-
-- [[concepts/useful-general-intelligence]] - title: "Useful General Intelligence" ( #concept #theory #ai #agents)
-- [[concepts/techno-social-co-evolution]] - title: "Techno-Social Co-Evolution" ( #concept #theory #ai #cognition)
-- [[concepts/controlled-hallucination]] - title: "Controlled Hallucination" ( #concept #theory #cognition #neuroscience)
-- [[concepts/cognitive-technologies]] - title: "Cognitive Technologies" ( #concept #theory #cognition #ai)
-- [[concepts/automation-augmentation-agency]] - title: "Automation → Augmentation → Agency" ( #concept #theory #ai #product)
-- [[concepts/agents-with-models-of-mind]] - title: "Agents with Models of Mind" ( #concept #theory #agents #ai)
-- [[concepts/computer-use-agents]] - title: "Computer-Use Agents" ( #concept #agents #ai)
-- [[concepts/human-agent-co-evolution]] - title: "Human-Agent Co-Evolution" ( #concept #theory #agents #ai)
-- [[concepts/language-as-model-of-mind]] - title: "Language as Model of Mind" ( #concept #theory #cognition #linguistics)
-## Sources
-
-- [[sources/cluster-maintenance-draining-&-os-upgrades_98d707|cluster-maintenance-draining-&-os-upgrades_98d707]] `aliases: Kubernetes Cluster Maintenance Guide, Cluster Maintenance - Draining & OS Upgrades`
-- [[sources/commands-&-args-in-containers-&-pods_300e3e|commands-&-args-in-containers-&-pods_300e3e]] `aliases: Commands & Args in Containers & Pods, Docker Kubernetes Command Override`
-- [[sources/init-containers_798910|init-containers_798910]] `aliases: InitContainers Overview, Kubernetes Init Containers`
-- [[sources/kubernetes-api-groups-authorization-and-rbac-a-comprehensive-overview_ab21cb|kubernetes-api-groups-authorization-and-rbac-a-comprehensive-overview_ab21cb]] `aliases: Kubernetes API Groups Overview`
-- [[sources/admission-controllers_7667fc|admission-controllers_7667fc]] `aliases: Kubernetes Admission Control, K8s Admission Controllers`
-- [[sources/containerd-cri-etc_fb87d8|containerd-cri-etc_fb87d8]] `aliases: Container Runtimes in Kubernetes: Docker, Containerd, and Related Tools, CRI and Containerd Overview`
-- [[sources/daemonsets_9f31ec|daemonsets_9f31ec]] `aliases: Kubernetes DaemonSet Documentation, DaemonSets in K8s`
-- [[sources/ralph-ai-coding-technique_ghuntley|ralph-ai-coding-technique_ghuntley]] `aliases: Ralph Wiggum Software Engineer, Ralph Wiggum Coding Technique`
-- [[sources/env-configmaps-&-secrets_9586ac|env-configmaps-&-secrets_9586ac]] `aliases: Kubernetes Config Management: Env, ConfigMaps & Secrets, K8s Configuration and Secrets Summary`
-- [[sources/kubernetes-autoscaling_59fbf3|kubernetes-autoscaling_59fbf3]] `aliases: K8s Autoscaling Notes, Kubernetes Scaling Quick Reference`
-- [[sources/labels-&-selectors_7e0f44|labels-&-selectors_7e0f44]] `aliases: Kubernetes Metadata Management Guide, Labels and Selectors in Kubernetes`
-- [[sources/main-kubernetes-components_82b036|main-kubernetes-components_82b036]] `aliases: Kubernetes Architecture Overview, k8s core concepts`
-- [[sources/nodeselector-&-nodeaffinity_5d8764|nodeselector-&-nodeaffinity_5d8764]] `aliases: NodeSelector & NodeAffinity, Kubernetes Node Scheduling Constraints`
-- [[sources/pods_c92b62|pods_c92b62]] `aliases: Kubernetes CNI Specification, Container Networking Interface`
-- [[sources/priorityclasses_438f81|priorityclasses_438f81]] `aliases: Pod Priority and Preemption, Kubernetes PriorityClasses`
-- [[sources/replication-controller-&-replicaset_285a2a|replication-controller-&-replicaset_285a2a]] `aliases: RC and RS in Kubernetes, Kubernetes Pod Replication Controllers`
-- [[sources/resource-requests-&-limits_4bd978|resource-requests-&-limits_4bd978]] `aliases: K8s Resource Management, Requests & Limits`
-- [[sources/rolling-updates-&-rollbacks_f484ef|rolling-updates-&-rollbacks_f484ef]] `aliases: K8s Deployment Management: Updates, Rollouts & Rollbacks, Kubernetes Deployment Rollout Reference`
-- [[sources/scheduling_f2b3ef|scheduling_f2b3ef]] `aliases: Kubernetes Scheduling and Container Runtimes, CRI, OCI, and Scheduler Architecture`
-- [[sources/static-pod_d72e06|static-pod_d72e06]] `aliases: Static Pods, Static Pod Manifests`
-- [[sources/taints-&-tolerations_37a014|taints-&-tolerations_37a014]] `aliases: Kubernetes Taints and Tolerations`
-- [[sources/manual-notes_10b5c5|manual-notes_10b5c5]] `aliases: Kubernetes Cluster Node Setup Guide, Manual Kubernetes VM Setup`
-- [[sources/microservices-demo-projects_ac9b1f|microservices-demo-projects_ac9b1f]] `aliases: Microservices Demo Projects List, Kubernetes Microservices Demos`
-- [[sources/miscellaneous_1e6927|miscellaneous_1e6927]] `aliases: Docker Networking Internals, Docker Name Resolution`
-- [[sources/resources_ab28e6|resources_ab28e6]] `aliases: Image Pasted 2025-05-01, Resource Image Ref`
-- [[sources/how-tls-certificates-work-in-kubernetes-and-manual-cluster-setup_e2b507|how-tls-certificates-work-in-kubernetes-and-manual-cluster-setup_e2b507]] `aliases: Kubernetes TLS Certificate Management Guide, Manual TLS Setup for K8s Clusters`
-- [[sources/tls-certificates_c8ca8c|tls-certificates_c8ca8c]] `aliases: TLS Primer, How TLS Works`
-- [[sources/bootstrapping-control-place_e4e0df|bootstrapping-control-place_e4e0df]] `aliases: kubeadm init Guide, Control Plane Bootstrapping`
-- [[sources/install-kubernetes-components_c70e92|install-kubernetes-components_c70e92]] `aliases: Kubernetes Component Installation Guide, Installing k8s Components on Nodes`
-- [[sources/introduction_804367|introduction_804367]] `aliases: Building a Kubernetes Cluster from Scratch: Introduction, Kubernetes Cluster Setup Guide: AWS Introduction`
-- [[sources/kubernetes-installation-steps_e573e8|kubernetes-installation-steps_e573e8]] `aliases: K8s Node Prerequisites, Node Configuration for Kubernetes`
-- [[sources/🔐-security-in-kubernetes_0a37d1|🔐-security-in-kubernetes_0a37d1]] `aliases: K8s Security Overview, Securing Kubernetes Guide`
-
-## References
-
-- [[references/box-agentic-platform-ben-kus|box-agentic-platform-ben-kus]] - title: "Building an Agentic Platform — Ben Kus, CTO Box"
-- [[references/building-effective-voice-agents-openai-2025|building-effective-voice-agents-openai-2025]] - title: "Building Effective Voice Agents — Toki Sherbakov + Anoop Kotha, OpenAI"
-
-- [[references/build-operate-divide-freeplay-chime-2025|build-operate-divide-freeplay-chime-2025]] - title: "The Build-Operate Divide: Bridging Product Vision and AI Operational Reality — Jeremy (Freeplay) & Chris Hernandez, Chime (AI Engineer World's Fair 2025)"
-- [[references/hybridrag-fusion-graph-vector-retrieval-mitesh-patel|hybridrag-fusion-graph-vector-retrieval-mitesh-patel]] - title: "HybridRAG: A Fusion of Graph and Vector Retrieval — Mitesh Patel, NVIDIA"
-- [[references/improving-recsys-search-llms-eugene-yan|improving-recsys-search-llms-eugene-yan]] - title: "Recsys Keynote: Improving Recommendation Systems & Search in the Age of LLMs — Eugene Yan, Amazon" ( #reference #talk #ai-engineer #recommendation-systems #llm)
-- [[references/blackrock-knowledge-apps-ai-eng-fair-2025|blackrock-knowledge-apps-ai-eng-fair-2025]] - title: "How BlackRock Builds Custom Knowledge Apps at Scale — Vaibhav Page & Infant Vasanth, BlackRock"
-- [[references/on-curiosity-sharif-shameem-ai-eng-2025|on-curiosity-sharif-shameem-ai-eng-2025]] - title: "On Curiosity — Sharif Shameem, Lexica (AI Engineer World's Fair 2025)"
-- [[references/promptql-agentic-semantic-layer-ai-eng-2025|promptql-agentic-semantic-layer-ai-eng-2025]] - title: "\"Data readiness\" is a Myth: Reliable AI with an Agentic Semantic Layer — Anushrut Gupta, PromptQL (AI Engineer World's Fair 2025)"
-- [[references/survive-ai-knife-fight-brian-balfour|survive-ai-knife-fight-brian-balfour]] - title: "Survive the AI Knife Fight: Building Products That Win — Brian Balfour, Reforge (AI Engineer World's Fair 2025)"
-
-- [[references/tldraw-computer-steve-ruiz-ai-eng-2025|tldraw-computer-steve-ruiz-ai-eng-2025]] - title: "tldraw.computer — Steve Ruiz, tldraw (AI Engineer World's Fair 2025)"
-- [[references/revenue-engineering-pricing-ai-product-grover-orb|revenue-engineering-pricing-ai-product-grover-orb]] - title: "Revenue Engineering: How to Price (and Reprice) Your AI Product — Kshitij Grover, Orb (AI Engineer World's Fair 2025)"
-- [[references/ai-eng-worlds-fair-2025-hackathon-presentations|ai-eng-worlds-fair-2025-hackathon-presentations]] - title: "AI Engineer World's Fair 2025 Hackathon Presentations" ( #reference #talk #hackathon)
-:- [[references/to-the-moon-legacy-code-augment-agent]] - title: "To the moon! Navigating deep context in legacy code with Augment Agent — Forrest Brazeal, Matt Ball" ( #reference #talk #legacy-code #agents #developer-tools)
-- [[references/why-chatgpt-keeps-interrupting-you-tom-shapland-livekit|why-chatgpt-keeps-interrupting-you-tom-shapland-livekit]] - title: "Why ChatGPT Keeps Interrupting You — Dr. Tom Shapland, LiveKit" ( #reference #talk #voice #ai #turn-taking)
-- [[references/measuring-agi-interactive-reasoning-benchmarks-arc-agi-3]] - title: "Measuring AGI: Interactive Reasoning Benchmarks for ARC-AGI-3 — Greg Kamradt, ARC Prize Foundation" ( #reference #talk #ai #benchmarking #agi #arc-agi)
-
-- [[references/state-of-startups-and-ai-2025-sarah-guo]] - title: "State of Startups and AI 2025 — Sarah Guo, Conviction" ( #reference #talk #ai #startups #venture-capital)
-- [[references/ai-eng-worlds-fair-2025-hype-to-habit-sprout-social]] - title: "From Hype to Habit: How We're Building an AI-First SaaS Company—While Still Shipping the Roadmap — Rossella & Debsha, Sprout Social" ( #reference #talk #ai #transformation #strategy)
-- [[references/information-retrieval-ground-up-philipp-krenn-elastic-2025]] - title: "Information Retrieval from the Ground Up — Philipp Krenn, Elastic" ( #reference #talk #search #retrieval)
-- [[references/stateful-environments-vertical-agents-josh-purtell-synth-labs]] - title: "Stateful Environments for Vertical Agents — Josh Purtell, Synth Labs" ( #reference #talk #ai-engineer #agents #stateful #infrastructure)
-
-- [[references/notion-ai-building-world-class-products]] - title: "How to build world-class AI products — Sarah Sachs (Notion) & Carlos Esteban (Braintrust)" ( #reference #talk #evaluation #notion #braintrust)
-
-- [[references/monetizing-ai-alvaro-morales-orb|monetizing-ai-alvaro-morales-orb]] - title: "Monetizing AI — Alvaro Morales, Orb (AI Engineer World's Fair 2025)" ( #reference #talk #pricing #monetization #ai-engineering)
-- [[references/why-care-about-ai-interpretability-bissell-goodfire-2025]] - title: "Why You Should Care About AI Interpretability — Mark Bissell, Goodfire AI" ( #reference #talk #interpretability #safety)
-
-- [[references/ai-eng-worlds-fair-2025-spark-to-system-open-agentic-web-asha-sharma]] - title: "Spark to System: Building the Open Agentic Web — Asha Sharma, Microsoft" ( #reference #talk #ai-engineer #microsoft #agents #agentic-web #ai-eng-worlds-fair-2025)
-
-- [[references/good-design-hasnt-changed-with-ai-john-pham-sf-compute]] - title: "Good design hasn't changed with AI — John Pham, SF Compute" ( #reference #talk #design #ux #performance #accessibility #ai-engineer)
-- [[references/ai-eng-worlds-fair-2025-agents-vs-workflows-sam-bhagwat-mastra]] - title: "Agents vs Workflows: Why Not Both? — Sam Bhagwat, Mastra.ai" ( #reference #talk #ai-engineer #agents #workflow)
-
-- [[references/thinking-deeper-in-gemini-jack-rae-deepmind|thinking-deeper-in-gemini-jack-rae-deepmind]] - title: "Thinking Deeper in Gemini — Jack Rae, Google DeepMind" ( #reference #talk #reasoning #google)
-
-- [[references/12-factor-agents-patterns-dex-horthy-humanlayer|12-factor-agents-patterns-dex-horthy-humanlayer]] - title: "12-Factor Agents: Patterns of Reliable LLM Applications — Dex Horthy, HumanLayer" ( #reference #talk #agents #reliability #patterns #humanlayer)
-- [[references/aief2025-private-cloud-compute-jmo]] - title: "The Unofficial Guide to Apple's Private Cloud Compute — Jmo, CONFSEC" ( #reference #talk #aief2025 #privacy #apple #cloud-compute #security)
-- [[references/the-new-code-sean-grove-openai]] - title: "The New Code — Sean Grove, OpenAI" ( #reference #talk #specification #alignment #openai)
-- [[references/aief2025-automating-escrow-usdc-ai-corey-cooper]] - title: "Automating Escrow with USDC and AI — Corey Cooper, Circle" ( #reference #talk #aief2025 #usdc #escrow #ai-agents)
-
-- [[references/aief2025-netflix-one-model-recommendations-yesu-feng|aief2025-netflix-one-model-recommendations-yesu-feng]] - title: "Netflix's Big Bet: One Model to Rule Recommendations — Yesu Feng, Netflix" ( #reference #talk #aief2025 #recommendation-systems #foundation-model #recsys)
-- [[references/aief2025-introduction-to-llm-serving-sglang-philip-kiely-yineng-zhang]] - title: "Introduction to LLM serving with SGLang — Philip Kiely and Yineng Zhang, Baseten" ( #reference #talk #aief2025 #sglang #inference #serving)
-
-- [[references/aief2025-open-source-humanoid-robot-k-scale-labs]] - title: "Your Personal Open-Source Humanoid Robot for $8,999 — JX Mo, K-Scale Labs" ( #reference #talk #aief2025 #robotics #humanoid #open-source)
-- [[references/aief2025-google-photos-magic-editor-kelvin-ma]] - title: "Google Photos Magic Editor: GenAI Under the Hood of a Billion-User App — Kelvin Ma, Google Photos" ( #reference #talk #aief2025 #google #computer-vision #on-device-ml #photo-editing)
-- [[references/aief2025-rise-of-ai-architect-clay-bavor-sierra]] - title: "Rise of the AI Architect — Clay Bavor, Cofounder, Sierra w/ Alessio Fanelli" ( #reference #talk #aief2025 #agents #ai-architecture #sierra #customer-experience)
-
-
-- [[references/aief2025-build-dynamic-products-stop-ai-sideshow]] - title: "Build Dynamic Products, and Stop the AI Sideshow — Eliza Cabrera (Workday) + Jeremy Silva (Freeplay)" ( #reference #talk #aief2025 #product-strategy #ai-integration)
-
-- [[references/aief2025-year-of-evals-john-dickerson-mozilla]] - title: "2025 is the Year of Evals! Just like 2024, and 2023, and … — John Dickerson, CEO Mozilla AI" ( #reference #talk #aief2025 #evaluation #monitoring #market)
-
-- [[references/aief2025-why-your-agent-brain-needs-playbook-ontologies-jesus-barrasa]] - title: "Why Your Agent's Brain Needs a Playbook: Practical Wins from Using Ontologies — Jesús Barrasa, Neo4j" ( #reference #talk #aief2025 #knowledge-graph #ontology #graphrag #neo4j)
-- [[references/aief2025-defend-sites-ai-bots-david-mytton-arcjet]] - title: "How to defend your sites from AI bots — David Mytton, Arcjet (AIEF2025)" ( #reference #talk #aief2025 #security #bots #crawlers)
-
-- [[references/aief2025-form-factors-ai-coworkers-craig-wattrus-flatfile]] - title: "Form Factors for Your New AI Coworkers — Craig Wattrus, Flatfile" ( #reference #talk #aief2025 #agent-design #flatfile)
-- [[references/aief2025-agentic-graphrag-zach-blumenfeld]] - title: "AIEF2025 — Agentic GraphRAG: Simplifying Retrieval Across Structured & Unstructured Data — Zach Blumenfeld" ( #reference #talk #aief2025 #knowledge-graph #graphrag #neo4j #mcp)
-
-- [[references/aief2025-ciam-for-ai-michael-grinich]] - title: "CIAM for AI: Authn/Authz for Agents — Michael Grinich, CEO of WorkOS" ( #reference #talk #aief2025 #identity #auth #agents)
-- [[references/aief2025-mcp-is-not-good-yet-david-cramer-sentry]] - title: "MCP Is Not Good Yet — David Cramer, Sentry (AIEF2025)" ( #reference #talk #aief2025 #mcp #agents #sentry)
-- [[references/aief2025-ship-agents-that-ship]] - title: "Ship Agents that Ship: A Hands-On Workshop — Kyle Penfound, Jeremy Adams, Dagger (AIEF2025)" ( #reference #talk #aief2025 #dagger #agents #workshop #cicd)
-- [[references/aief2025-vibes-wont-cut-it-chris-kelly-augment]] - title: "Vibes Won't Cut It — Chris Kelly, Augment Code (AIEF2025)" ( #reference #talk #aief2025 #production #code-review #software-engineering)
-- [[references/aief2025-inference-engines-benchmarking-charles-frye-modal]] - title: "How Fast Are LLM Inference Engines Anyway? — Charles Frye, Modal (AIEF2025)" ( #reference #talk #aief2025 #inference #benchmarking #llm #modal)
-- [[references/aief2025-useful-general-intelligence-danielle-perszyk]] - title: "Useful General Intelligence — Danielle Perszyk, Amazon AGI (AIEF2025)" ( #reference #talk #aief2025 #agi #agents #cognitive-science)
-- [[references/aief2025-mcp-is-not-good-yet-david-cramer-sentry]] - title: "MCP Is Not Good Yet — David Cramer, Sentry (AIEF2025)" ( #reference #talk #aief2025 #mcp #agents #sentry)
-
-- [[concepts/graph-analytics-rag-curation|graph-analytics-rag-curation]] - title: "Graph Analytics for RAG Curation" ( #rag #graph-analytics #knowledge-graph #curation #retrieval)
-- [[concepts/application-observability-graph|application-observability-graph]] - title: "Application Observability Graph" ( #observability #graph-database #agents #monitoring #analytics)
-- [[references/aief2025-graph-intelligence-alison-andreas-neo4j|aief2025-graph-intelligence-alison-andreas-neo4j]] - title: "AIEF2025 — Graph Intelligence: Enhance Reasoning and Retrieval Using Graph Analytics — Alison Cosette & Andreas, Neo4j" ( #reference #aief2025 #neo4j #graph-analytics #rag #knowledge-graph)

@@ -9,7 +9,7 @@ tags:
   - ml
   - cx
 sources:
-  - "AI Engineer World's Fair 2025 talk — The Build-Operate Divide: Bridging Product Vision and AI Operational Reality — Jeremy (Freeplay) & Chris Hernandez (Chime) - https://www.youtube.com/watch?v=1__V4KTv_Gw"
+  - "[[sources/watchv=1__v4ktv_gw]]"
 summary: "Lead of speech analytics at Chime. ~10 years in CX, ~9 years in ML. Co-speaker on HITL and AI ops evolution at AI Engineer World's Fair 2025."
 provenance:
   extracted: 0.85

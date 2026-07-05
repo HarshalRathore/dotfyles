@@ -11,7 +11,7 @@ aliases:
   - RAGAS
   - RAG Assessment
 sources:
-  - "AI Engineer World's Fair 2025 talk — HybridRAG: A Fusion of Graph and Vector Retrieval — Mitesh Patel, NVIDIA - https://www.youtube.com/watch?v=-tgQa8Fzf80"
+  - "[[sources/watchv=-tgqa8fzf80]]"
 summary: "A Python library for end-to-end evaluation of RAG pipelines, measuring faithfulness, answer relevancy, precision recall, and other metrics across response, retrieval, and query dimensions."
 provenance:
   extracted: 0.80

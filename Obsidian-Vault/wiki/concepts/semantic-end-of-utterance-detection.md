@@ -9,7 +9,7 @@ tags:
   - semantics
   - nlp
 sources:
-  - "AI Engineer World's Fair 2025 talk - Why ChatGPT Keeps Interrupting You — Dr. Tom Shapland, LiveKit - https://www.youtube.com/watch?v=1v9zBiZKlIY"
+  - "[[sources/watchv=1v9zbizkliy]]"
 summary: "Models that augment traditional Voice Activity Detection by analyzing semantics, syntax, and prosody to predict when a speaker has truly finished their turn, reducing interruptions."
 provenance:
   extracted: 0.70

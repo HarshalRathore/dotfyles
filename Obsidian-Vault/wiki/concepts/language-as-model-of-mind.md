@@ -9,7 +9,7 @@ aliases:
   - language and theory of mind
   - models of mind
 sources:
-  - "AIEF2025 - Useful General Intelligence — Danielle Perszyk, Amazon AGI - https://www.youtube.com/watch?v=Dj0b_cEBHHI"
+  - "[[sources/watchv=dj0b_cebhhi]]"
 summary: "Danielle Perszyk's argument that language co-evolved with models of mind (theory of mind) in a flywheel that integrated communication and representation systems — making models of mind 'the first variable' and the origin of generalization in human intelligence."
 provenance:
   extracted: 0.70

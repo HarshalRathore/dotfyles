@@ -7,9 +7,9 @@ tags:
   - integration
   - enterprise
 sources:
-  - "AI Engineer World's Fair 2025 - Effective agent design patterns in production — Laurie Voss, LlamaIndex - https://www.youtube.com/watch?v=72XxWkd8Jrk"
-  - "AIEF2025 - The Bitter Layout or: How I Learned to Love the Model Picker — Maximillian Piras, Yutori - https://www.youtube.com/watch?v=BZtD0yYAgCQ"
-  - "AIEF2025 - Form factors for your new AI coworkers — Craig Wattrus, Flatfile - https://www.youtube.com/watch?v=CiMVKnX-CNI"
+  - "[[sources/watchv=72xxwkd8jrk]]"
+  - "[[sources/watchv=bztd0yyagcq]]"
+  - "[[sources/watchv=cimvknx-cni]]"
 provenance:
   extracted: 0.75
   inferred: 0.20

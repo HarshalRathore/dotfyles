@@ -9,7 +9,7 @@ aliases:
   - MMLU Pro
   - Massive Multitask Language Understanding Pro
 sources:
-  - "AIEF2025 - Strategies for LLM Evals (GuideLLM, lm-eval-harness, OpenAI Evals Workshop) — Taylor Jordan Smith - https://www.youtube.com/watch?v=89NuzmKokIk"
+  - "[[sources/watchv=89nuzmkokik]]"
 summary: "An enhanced version of the MMLU benchmark for factual accuracy evaluation of LLMs. Extended and more challenging than the original MMLU, implemented in the lm-eval-harness framework."
 provenance:
   extracted: 0.70

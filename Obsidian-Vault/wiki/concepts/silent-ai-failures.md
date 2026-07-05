@@ -8,7 +8,7 @@ tags:
   - failure-mode
 aliases: [silent failures in AI, hidden AI failures, AI failure invisibility]
 sources:
-  - "AI Engineer World's Fair 2025 - Critical AI Inference your CIO can Trust — Sahil Yadav, Hariharan Ganesan, Telemetrak - https://www.youtube.com/watch?v=6Tpm4m1YxHk"
+  - "[[sources/watchv=6tpm4m1yxhk]]"
 summary: "AI failures that are difficult to detect and quantify ahead of time but cause enormous cumulative damage — such as telecom network disruptions costing millions per minute, gas sensor data misinterpretations endangering lives, and supply chain SKU errors causing millions in losses."
 provenance:
   extracted: 0.82

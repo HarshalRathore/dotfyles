@@ -11,9 +11,9 @@ tags:
   - llm
   - tools
 sources:
-  - "github.com/steipete/birdclaw"
-  - "github.com/steipete/summarize"
-  - "summarize.sh website"
+  - "[[sources/birdclaw]]"
+  - "[[sources/summarize]]"
+  - "[[sources/summarize-sh-website]]"
 base_confidence: 0.58
 lifecycle: draft
 lifecycle_changed: 2026-07-02

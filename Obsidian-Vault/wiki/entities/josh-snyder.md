@@ -6,7 +6,7 @@ tags:
   - posthog
   - "agent-systems"
 sources:
-  - "web-posthog-com-blog-what-if-your-product-built-itself"
+  - "[[sources/web-posthog-com-blog-what-if-your-product-built-itself]]"
 aliases:
   - joshsnyder
 ---

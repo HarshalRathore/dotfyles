@@ -8,7 +8,7 @@ tags:
   - best-practice
 aliases: [brownfield before greenfield, existing codebase AI, brownfield AI learning]
 sources:
-  - "AIEF2025 - Unlocking AI Powered DevOps Within Your Organization — Jon Peck, GitHub - https://www.youtube.com/watch?v=C1NivhYS1sI"
+  - "[[sources/watchv=c1nivhys1si]]"
 summary: "Strategy of learning effective AI-assisted development by starting with existing brownfield codebases before attempting greenfield projects — grounded in the reality that most daily work is modifying existing applications."
 provenance:
   extracted: 0.75

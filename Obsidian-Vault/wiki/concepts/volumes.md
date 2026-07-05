@@ -6,7 +6,7 @@ created:
 updated:
   - 2026-06-30
 sources:
-  - "main-kubernetes-components_82b036"
+  - "[[sources/main-kubernetes-components_82b036]]"
 tags:
   - deployment
 aliases:

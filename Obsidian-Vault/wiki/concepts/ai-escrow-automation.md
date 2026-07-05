@@ -10,7 +10,7 @@ aliases:
   - escrow agent
   - automated escrow
 sources:
-  - "AIEF2025 - Automating Escrow with USDC and AI - Corey Cooper, Circle - https://www.youtube.com/watch?v=AXMdSqdoGHM"
+  - "[[sources/watchv=axmdsqdoghm]]"
 summary: "Using AI agents to automate escrow workflows — parsing agreements, verifying deliverables, and triggering conditional settlement via smart contracts."
 provenance:
   extracted: 0.80

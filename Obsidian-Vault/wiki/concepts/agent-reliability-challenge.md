@@ -27,6 +27,8 @@ relationships:
   - "AI Engineer World's Fair 2025 - The Rise of Open Models in the Enterprise — Amir Haghighat, Baseten - https://www.youtube.com/watch?v=3WV1vT0B0cg"
   - "AIEF2025 - Thinking Deeper in Gemini — Jack Rae, Google DeepMind - https://www.youtube.com/watch?v=8EQo4J2BWKw"
   - "AIEF2025 - 12-Factor Agents: Patterns of Reliable LLM applications — Dex Horthy, HumanLayer - https://www.youtube.com/watch?v=8kMaTybvDUw"
+  - "AIEF2025 - How to Improve your Vibe Coding — Ian Butler - https://www.youtube.com/watch?v=g03m-WFEu1U"
+  - "AIEF2025 - 3 ingredients for building reliable enterprise agents - Harrison Chase, LangChain/LangGraph - https://www.youtube.com/watch?v=kTnfJszFxCg"
 provenance:
   extracted: 0.75
   inferred: 0.20
@@ -40,9 +42,20 @@ updated: 2026-07-03
 
 # Agent Reliability Challenge
 
-The observation that current AI agents, despite their impressive capabilities (orbital physics calculations, complex reasoning), fail at a rate that makes them unsuitable for production use in most enterprise contexts. A delivery app with 45-65% reliability would be unacceptable — yet this is the current ceiling for the best AI agents. ^[extracted]
 
 ## The Problem
+
+### SM100 Benchmark: Agent Bug Detection Rates
+
+[[entities/ian-butler|Ian Butler]] ([[entities/bismuth|Bismuth]]) published the SM100 benchmark evaluating AI agent bug-finding capabilities across 100+ repositories and 900+ bug reports. ^[extracted] Key findings:
+
+- Cursor and Devon have less than 10% true positive rate for finding bugs ^[extracted]
+- Cursor had a 97% false positive rate across 100+ repos and 1,200+ issues ^[extracted]
+- 3 out of 6 agents had 10% or less true positive rate out of 900+ reports ^[extracted]
+- One agent gave 70 issues for a single task, all false positives ^[extracted]
+- Agents struggle with needle-in-a-haystack navigation across larger codebases ^[extracted]
+
+This data illustrates the agent reliability challenge concretely: when agents generate excessive false positives, developers experience alert fatigue and lose trust, causing real bugs to go to production. ^[inferred]
 
 > "Would you use a delivery app that says it will arrive 45% of the time? Like, think about it. Like, you can do your order, and then maybe it orders 10 pizzas instead of 1, or the pizza never arrived." — Eugene, Featherless ^[extracted]
 
@@ -109,10 +122,33 @@ Unlike the platform-level, stateful-environment, or domain-specialization approa
 3. **Error recovery as context discipline** — on tool failure, the error goes on the context window and the LLM retries. On success, pending errors are cleared. This prevents the context degradation spiral common in long-running agent loops. ^[extracted]
 4. **Deterministic fallback** — when a micro-agent fails, the surrounding DAG can catch the error and route to a fallback path (human escalation, alternative strategy, or known-good default). The agent is not the only failure mode handler — the deterministic infrastructure handles recovery. ^[extracted]
 
+## Workflow-Agent Determinism Approach
+
+[[entities/harrison-chase|Harrison Chase]] ([[entities/langchain|LangChain]]) presents a reliability approach centered on the [[concepts/workflow-agent-spectrum|workflow-agent spectrum]]: making more of the agent **deterministic** rather than relying on pure prompting. ^[extracted]
+
+Chase argues that the common framing of "workflows versus agents" is wrong — the reality is "workflows **and** agents." Parts of an agentic system may loop and call tools (stochastic), while other parts follow deterministic sequences (A → B → C). The key insight: in enterprise contexts, pure prompting might get 90% accuracy on a sequence, but deterministic code gets 100%. That 10% gap matters. ^[extracted]
+
+This is the design philosophy behind [[entities/langgraph|LangGraph]], which is explicitly built to operate anywhere on the workflow-agent spectrum. By placing deterministic code where predictability matters and LLM reasoning where flexibility is needed, the overall system reliability improves. ^[extracted]
+
+This approach complements the micro-agents strategy (Dex Horthy) and the platform-level approach (Temporal): all three use determinism as a reliability lever, but at different layers — LangGraph at the framework level, micro-agents at the workflow composition level, and Temporal at the execution platform level. ^[inferred]
+
+## Durable Execution Approach
+
+[[entities/mason-egger|Egger]] ([[entities/temporal|Temporal]]) presents a platform-level approach that goes beyond workflow orchestration: **durable execution** as a re-centered abstraction. Rather than building reliability into event-driven infrastructure (queues, consumers, dead letter queues), durable execution makes failures inconsequential through automatic state preservation, virtualized execution across machines, time-agnostic duration, and hardware-agnostic deployment. ^[extracted]
+
+The key distinction from [[concepts/temporal-workflow-orchestration|Temporal Workflow Orchestration]]: workflow orchestration still exposes workflows, activities, signals, and queries as developer-facing constructs. Durable execution goes further — the developer writes code that looks like normal synchronous code, and the platform transparently handles all distributed systems complexity. Events remain a hidden implementation detail. ^[extracted]
+
+This approach complements the other strategies: it does not require new models (test-time compute), new environments (Synth Labs), fine-tuning infrastructure (Baseten), or even the explicit workflow constructs of Temporal Workflow Orchestration. It operates at a deeper abstraction layer, abstracting away the distributed systems layer entirely. ^[inferred]
+
+- Related to [[concepts/durable-execution|Durable Execution]] — the concrete abstraction pattern
+- Related to [[concepts/events-wrong-abstraction-thesis|Events are the Wrong Abstraction Thesis]] — the argument that EDA is the wrong center for AI agents
+- Related to [[concepts/software-abstraction-evolution|Software Abstraction Evolution]] — the next step in 50-70 years of abstraction
+
 This approach is distinct from the others: it does not require new models (test-time compute), new platforms (Temporal), new environments (Synth Labs), or fine-tuning infrastructure (Baseten). It applies standard software engineering practices — bounded contexts, deterministic fallbacks, explicit state management — to the agent reliability problem. ^[inferred]
 
 
 ## Relationship to Existing Concepts
+- Related to [[concepts/workflow-agent-spectrum]] — LangGraph's determinism approach to reliability
 
 - Related to [[concepts/tribal-knowledge-in-ai|Tribal Knowledge in AI]] — lack of business-specific understanding as a root cause of unreliability.
 - Related to [[concepts/data-readiness-myth|Data Readiness Myth]] — waiting for perfect data delays deployment without solving the tribal knowledge gap.

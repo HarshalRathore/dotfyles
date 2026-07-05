@@ -6,7 +6,7 @@ created:
 updated:
   - 2026-06-30
 sources:
-  - "scheduling_f2b3ef"
+  - "[[sources/scheduling_f2b3ef]]"
 tags:
   - scheduling
 aliases:

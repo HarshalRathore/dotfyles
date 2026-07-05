@@ -7,7 +7,7 @@ tags:
   - engineering
   - debugging
 sources:
-  - "AI Engineer World's Fair 2025 - Why you should care about AI interpretability - Mark Bissell, Goodfire AI - https://www.youtube.com/watch?v=6AVMHZPjpTQ"
+  - "[[sources/watchv=6avmhzpjptq]]"
 summary: "The ability to debug, steer, and program AI models at the neuron level using interpretability techniques — treating neural networks more like traditional software with inspectable and controllable internals."
 provenance:
   extracted: 0.82

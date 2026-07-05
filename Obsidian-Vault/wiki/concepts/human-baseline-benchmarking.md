@@ -7,7 +7,7 @@ tags:
   - evaluation
   - methodology
 sources:
-  - "AI Engineer World's Fair 2025 — Measuring AGI: Interactive Reasoning Benchmarks for ARC-AGI-3 — Greg Kamradt, ARC Prize Foundation - https://www.youtube.com/watch?v=3XmFPwjG8pg"
+  - "[[sources/watchv=3xmfpwjg8pg]]"
 summary: "A benchmarking methodology that uses human performance as the target baseline for measuring AI intelligence — creating problems feasible for humans but hard for AI, testing human participants in controlled conditions to validate task solvability and establish efficiency baselines."
 provenance:
   extracted: 0.72

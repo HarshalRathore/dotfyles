@@ -7,8 +7,8 @@ tags:
   - strategy
 aliases: [multi-model strategy, model commoditization, model market competition]
 sources:
-  - "AI Engineer World's Fair 2025 - State of Startups and AI 2025 - Sarah Guo, Conviction - https://www.youtube.com/watch?v=3MZS5gNElZM"
-  - "AI Engineer World's Fair 2025 - The Rise of Open Models in the Enterprise — Amir Haghighat, Baseten - https://www.youtube.com/watch?v=3WV1vT0B0cg"
+  - "[[sources/watchv=3mzs5gnelzm]]"
+  - "[[sources/watchv=3wv1vt0b0cg]]"
 summary: "The model market is rapidly commoditizing — plan for a world with multiple model providers, competitive pricing, and open-source alternatives. Last year's model is a commodity."
 provenance:
   extracted: 0.70

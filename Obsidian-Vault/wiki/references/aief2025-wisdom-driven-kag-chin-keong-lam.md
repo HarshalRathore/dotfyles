@@ -12,7 +12,7 @@ aliases:
   - Chin Keong Lam AIEF2025
   - Wisdom-Driven KAG
 sources:
-  - "AIEF2025 - Wisdom-Driven Knowledge Augmented Generation at Scale - Chin Keong Lam, Patho AI - https://www.youtube.com/watch?v=9AQOvT8LnMI"
+  - "[[sources/watchv=9aqovt8lnmi]]"
 summary: "Chin Keong Lam, founder of Patho AI, presents KAG (Knowledge Augmented Generation) — a wisdom-driven architecture using structured knowledge graphs with knowledge cards for precise quantitative reasoning, contrasting it with traditional vector RAG across five dimensions."
 provenance:
   extracted: 0.80

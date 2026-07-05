@@ -6,7 +6,7 @@ tags:
   - ai-engineer
   - infrastructure
 sources:
-  - "AI Engineer World's Fair 2025 talk - Infrastructure for the Singularity — Jesse Han, Morph - https://www.youtube.com/watch?v=2goSS66XRBk"
+  - "[[sources/watchv=2goss66xrbk]]"
 summary: "Jesse Han presents InfiniBranch, Morph Cloud, reasoning time branching, and verified superintelligence — infrastructure reimagined for AI agents."
 provenance:
   extracted: 0.75

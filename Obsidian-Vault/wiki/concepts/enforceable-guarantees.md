@@ -8,7 +8,7 @@ tags:
 aliases:
   - Enforceable Guarantee
 sources:
-  - "AIEF2025 - The Unofficial Guide to Apple's Private Cloud Compute - Jmo, CONFSEC - https://www.youtube.com/watch?v=CCsWZ5bJlO8"
+  - "[[sources/watchv=ccswz5bjlo8]]"
 summary: "Security principle where restrictions are enforced by system architecture (no disk, no SSH, no access) rather than by human-readable policies ('don't SSH in')."
 provenance:
   extracted: 0.82

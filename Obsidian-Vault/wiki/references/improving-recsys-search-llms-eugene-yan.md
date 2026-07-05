@@ -8,7 +8,7 @@ tags:
   - search
   - llm
 sources:
-  - "https://www.youtube.com/watch?v=2vlCqD6igVA"
+  - "[[sources/watchv=2vlcqd6igva]]"
 summary: "AI Engineer World's Fair 2025 keynote covering three ideas for merging recommendation systems and LLMs: semantic IDs, LLM-based data augmentation, and unified models. Includes case studies from Kuaishou, Indeed, Spotify, Netflix, and Etsy."
 provenance:
   extracted: 0.70

@@ -8,11 +8,11 @@ tags:
   - enterprise
   - human-in-the-loop
 sources:
-  - "AI Engineer World's Fair 2025 — How BlackRock Builds Custom Knowledge Apps at Scale — Vaibhav Page & Infant Vasanth, BlackRock - https://www.youtube.com/watch?v=08mH36_NVos"
-  - "AI Engineer World's Fair 2025 — The Build-Operate Divide: Bridging Product Vision and AI Operational Reality — Jeremy (Freeplay) & Chris Hernandez (Chime) - https://www.youtube.com/watch?v=1__V4KTv_Gw"
-  - "AI Engineer World's Fair 2025 - Critical AI Inference your CIO can Trust — Sahil Yadav, Hariharan Ganesan, Telemetrak - https://www.youtube.com/watch?v=6Tpm4m1YxHk"
-  - "AIEF2025 - 12-Factor Agents: Patterns of Reliable LLM applications — Dex Horthy, HumanLayer - https://www.youtube.com/watch?v=8kMaTybvDUw"
-  - "AIEF2025 - [Evals Workshop] Mastering AI Evaluation: From Playground to Production - https://www.youtube.com/watch?v=9iN-cPnp7xg"
+  - "[[sources/watchv=08mh36_nvos]]"
+  - "[[sources/watchv=1__v4ktv_gw]]"
+  - "[[sources/watchv=6tpm4m1yxhk]]"
+  - "[[sources/watchv=8kmatybvduw]]"
+  - "[[sources/watchv=9in-cpnp7xg]]"
 provenance:
   extracted: 0.80
   inferred: 0.18

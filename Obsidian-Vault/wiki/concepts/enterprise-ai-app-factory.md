@@ -8,7 +8,7 @@ tags:
   - sandbox
   - regulated-industry
 sources:
-  - "AI Engineer World's Fair 2025 talk — How BlackRock Builds Custom Knowledge Apps at Scale — Vaibhav Page & Infant Vasanth, BlackRock - https://www.youtube.com/watch?v=08mH36_NVos"
+  - "[[sources/watchv=08mh36_nvos]]"
 summary: "A two-layer architecture (sandbox + factory) for rapidly building custom AI knowledge applications in enterprise settings by empowering domain experts to iterate on extraction logic, then automatically deploying as production apps."
 provenance:
   extracted: 0.85

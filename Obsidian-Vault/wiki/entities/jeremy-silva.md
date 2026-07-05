@@ -9,7 +9,7 @@ tags:
   - aief2025
 aliases: [Jeremy]
 sources:
-  - "AIEF2025 - Build Dynamic Products, and Stop the AI Sideshow — Eliza Cabrera (Workday) + Jeremy Silva (Freeplay) - https://www.youtube.com/watch?v=CB-4NKDYnRs"
+  - "[[sources/watchv=cb-4nkdynrs]]"
 summary: "Product lead at Freeplay with a data science and machine learning background, co-presented at AI Engineer World's Fair 2025 on building dynamic AI products and avoiding the AI sideshow."
 provenance:
   extracted: 0.85

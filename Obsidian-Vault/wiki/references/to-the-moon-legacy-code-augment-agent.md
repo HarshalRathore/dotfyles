@@ -8,7 +8,7 @@ tags:
   - agents
   - developer-tools
 sources:
-  - "https://www.youtube.com/watch?v=6NIr_cYPglk"
+  - "[[sources/watchv=6nir_cypglk]]"
 summary: "AI Engineer World's Fair 2025 talk by Forrest Brazeal and Matt Ball (Augment Code) demonstrating how AI agents can understand, test, and modernize legacy codebases — using the Apollo 11 Guidance Computer as a case study."
 provenance:
   extracted: 0.85

@@ -7,7 +7,7 @@ tags:
   - product-design
 aliases: [prompt is a bug, prompt-as-bug, prompt is a stepping stone]
 sources:
-  - "AI Engineer World's Fair 2025 - State of Startups and AI 2025 - Sarah Guo, Conviction - https://www.youtube.com/watch?v=3MZS5gNElZM"
+  - "[[sources/watchv=3mzs5gnelzm]]"
 summary: "The prompt interface is a stepping stone, not a destination. Best AI products feel like mind reading because they collect context automatically — users should not have to explain what they need."
 provenance:
   extracted: 0.70

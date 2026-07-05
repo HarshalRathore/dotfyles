@@ -8,7 +8,7 @@ tags:
   - turn-taking
   - ai-engineer
 sources:
-  - "AI Engineer World's Fair 2025 talk - Why ChatGPT Keeps Interrupting You — Dr. Tom Shapland, LiveKit - https://www.youtube.com/watch?v=1v9zBiZKlIY"
+  - "[[sources/watchv=1v9zbizkliy]]"
 summary: "AI Engineer World's Fair 2025 talk by Tom Shapland (LiveKit) diagnosing the turn-taking problem in voice AI agents, covering VAD limitations, human turn-taking mechanisms, semantic end-of-utterance models, and full duplex approaches."
 provenance:
   extracted: 0.80

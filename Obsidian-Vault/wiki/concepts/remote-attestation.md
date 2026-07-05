@@ -7,7 +7,7 @@ tags:
   - cryptography
   - attestation
 sources:
-  - "AIEF2025 - The Unofficial Guide to Apple's Private Cloud Compute - Jmo, CONFSEC - https://www.youtube.com/watch?v=CCsWZ5bJlO8"
+  - "[[sources/watchv=ccswz5bjlo8]]"
 summary: "Protocol where a client verifies what software a remote server is running before trusting it with data — the server presents signed claims tied to a public key, and can only decrypt the client's data as long as those claims remain true."
 provenance:
   extracted: 0.80

@@ -10,7 +10,7 @@ tags:
   - security
   - oauth
 sources:
-  - "AIEF2025 - Securing Agents with Open Standards — Bobby Tiernay and Kam Sween, Auth0 - https://www.youtube.com/watch?v=FZoMSupg37E"
+  - "[[sources/watchv=fzomsupg37e]]"
 summary: "Auth0 engineers on practical patterns for agent identity and access control: token exchange over shared secrets, CIBA for headless auth, OAuth 2.1 for MCP, and retrieval-layer authorization for RAG."
 lifecycle: draft
 tier: supporting
@@ -80,6 +80,7 @@ This keeps the MCP security model aligned with existing web standards rather tha
 - [[references/aief2025-ciam-for-ai-michael-grinich]] — Related talk on CIAM for AI
 - [[entities/auth0]] — Identity platform implementing these patterns
 - [[entities/michael-grinich]] — WorkOS CEO on related agent identity patterns
+- [[references/aief2025-how-to-secure-agents-oauth-jared-hanson]] — Jared Hanson (Keycard, Passport.js) on OAuth for agent security and MCP auth spec evolution
 
 ## Sources
 

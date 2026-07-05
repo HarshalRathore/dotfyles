@@ -14,18 +14,23 @@ relationships:
     type: related_to
   - target: "[[concepts/ritualized-discovery]]"
     type: related_to
+  - target: "[[concepts/ai-first-company-announcements]]"
+    type: related_to
+  - target: "[[concepts/ai-team-anatomy]]"
+    type: related_to
 sources:
-  - "AI Engineer World's Fair 2025 — From Hype to Habit: How We're Building an AI-First SaaS Company—While Still Shipping the Roadmap — Rossella & Debsha, Sprout Social - https://www.youtube.com/watch?v=3YGRcgZJ3yc"
+  - "[[sources/watchv=3ygrcgzj3yc]]"
+  - "[[sources/watchv=sbuxrluvrwk]]"
 summary: "A framework for evolving a SaaS company to put AI at the center of strategy, ways of working, and people — organized across three dimensions: Strategy, Ways of Working, and People."
 provenance:
-  extracted: 0.80
+  extracted: 0.78
   inferred: 0.15
-  ambiguous: 0.05
-base_confidence: 0.55
+  ambiguous: 0.07
+base_confidence: 0.58
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
-updated: 2026-07-03
+updated: 2026-07-04
 ---
 
 # AI-First Transformation
@@ -67,6 +72,9 @@ The talk identifies a core challenge: "You basically need the discipline of an e
 ## What Doesn't Change
 
 Despite the transformation, fundamentals remain: AI features must still solve customer problems rooted in needs, not novelty. User experience, performance, reliability, and trust remain non-negotiable. Human creativity, judgment, and care remain central to leadership and decision-making. ^[extracted]
+## Technology Is Not the Bottleneck
+
+A complementary perspective from [[entities/denys-linkov|Denys Linkov]]: organizations often assume technology is the limiting factor, but the real bottleneck is adoption and usage. ^[extracted] Evidence includes the persistence of archaic systems (faxes, checks, paper-based processes) despite modern alternatives. The question shifts from "what technology do we need?" to "how do we use the technology we have?" ^[inferred]
 
 ## Related Concepts
 
@@ -79,7 +87,11 @@ Despite the transformation, fundamentals remain: AI features must still solve cu
 - [[concepts/build-operate-divide]] — The operational challenge this transformation addresses
 - [[concepts/execution-as-moat]] — The strategic imperative that drives velocity
 - [[concepts/ai-ops-evolution]] — How operational teams evolve as part of the transformation
+- [[concepts/ai-first-company-announcements]] — The trend of companies declaring AI-first status
+- [[concepts/technology-adoption-bottleneck]] — Why adoption, not tech, is the real bottleneck
+- [[concepts/ai-team-anatomy]] — What teams need to do to support AI-first operations
 
 ## Sources
 
 - [[references/ai-eng-worlds-fair-2025-hype-to-habit-sprout-social|From Hype to Habit — AI Engineer World's Fair 2025]]
+- [[references/aief2025-structuring-modern-ai-team-denys-linkov-wisedocs|Structuring a modern AI team — Denys Linkov, Wisedocs, AI Engineer World's Fair 2025]]

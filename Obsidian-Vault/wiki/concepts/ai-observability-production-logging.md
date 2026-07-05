@@ -10,7 +10,8 @@ tags:
   - tracing
 aliases: [AI observability, production logging for AI, LLM tracing, AI monitoring infrastructure]
 sources:
-  - "AIEF2025 - [Evals Workshop] Mastering AI Evaluation: From Playground to Production - https://www.youtube.com/watch?v=9iN-cPnp7xg"
+  - "[[sources/watchv=9in-cpnp7xg]]"
+  - "AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY"
 summary: "Infrastructure for logging, tracing, and monitoring AI applications in production: wrapping LLM clients for automatic capture, online scoring, custom views, and human review workflows."
 provenance:
   extracted: 0.75

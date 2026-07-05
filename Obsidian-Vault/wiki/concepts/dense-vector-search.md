@@ -2,7 +2,7 @@
 title: Dense Vector Search
 tags: [search, vector, embeddings, semantic-search]
 aliases: [vector search, semantic search, dense retrieval]
-sources: ["AI Engineer World's Fair 2025 - Information Retrieval from the Ground Up - Philipp Krenn, Elastic - https://www.youtube.com/watch?v=4Xe_iMYxBQc"]
+sources: ["[[sources/ai-engineer-worlds-fair-2025-information-retrieval-from-the-ground-up-philipp-krenn]]", "[[sources/watchv=4xe_imyxbqc]]"]
 summary: "Semantic search using dense floating-point embeddings. Documents and queries are represented in high-dimensional vector space; similarity measured by vector distance. Quality depends entirely on model choice."
 provenance:
   extracted: 0.85

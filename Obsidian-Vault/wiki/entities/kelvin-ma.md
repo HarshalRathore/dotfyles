@@ -13,7 +13,7 @@ relationships:
   - target: "[[entities/google-deepmind]]"
     type: related_to
 sources:
-  - "AIEF2025 - Google Photos Magic Editor: GenAI Under the Hood of a Billion-User App - Kelvin Ma, Google Photos - https://www.youtube.com/watch?v=C13jiFWNuo8"
+  - "[[sources/watchv=c13jifwnuo8]]"
 summary: "Engineer on Google Photos editing team (Computational Photography Team, est. 2018), presented on-device ML architecture powering Google Photos editing at AI Engineer World's Fair 2025."
 provenance:
   extracted: 0.60

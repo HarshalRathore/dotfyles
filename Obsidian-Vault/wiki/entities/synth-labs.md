@@ -6,7 +6,7 @@ tags:
   - agents
   - infrastructure
 sources:
-  - "AI Engineer World's Fair 2025 - Stateful environments for vertical agents — Josh Purtell, Synth Labs - https://www.youtube.com/watch?v=5rMc-moNVx0"
+  - "[[sources/watchv=5rmc-monvx0]]"
 summary: "AI infrastructure company building stateful environment abstractions for vertical agents. Founded by Josh Purtell."
 provenance:
   extracted: 0.50

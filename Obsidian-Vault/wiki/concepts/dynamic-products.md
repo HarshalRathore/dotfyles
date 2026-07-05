@@ -8,7 +8,7 @@ tags:
   - architecture
 aliases: [crawl-walk-run AI integration, dynamic AI products]
 sources:
-  - "AIEF2025 - Build Dynamic Products, and Stop the AI Sideshow — Eliza Cabrera (Workday) + Jeremy Silva (Freeplay) - https://www.youtube.com/watch?v=CB-4NKDYnRs"
+  - "[[sources/watchv=pthmdt92qng]]"
 summary: "The North Star for AI product integration: AI features that are deeply and dynamically integrated into the product ecosystem, responsive to environment and user context, achieved through a crawl-walk-run maturity model."
 provenance:
   extracted: 0.75
@@ -18,7 +18,7 @@ base_confidence: 0.60
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
-updated: 2026-07-03
+updated: 2026-07-04
 ---
 
 # Dynamic Products

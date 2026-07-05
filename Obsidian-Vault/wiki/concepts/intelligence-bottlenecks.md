@@ -13,7 +13,7 @@ relationships:
   - target: "[[concepts/test-time-compute-scaling]]"
     type: derived_from
 sources:
-  - "AIEF2025 - Thinking Deeper in Gemini — Jack Rae, Google DeepMind - https://www.youtube.com/watch?v=8EQo4J2BWKw"
+  - "[[sources/watchv=8eqo4j2bwkw]]"
 summary: "A framework describing AI progress as a sequence of identified and solved bottlenecks: identifying the most prescient limitation in current systems reveals the next breakthrough direction."
 provenance:
   extracted: 0.70

@@ -7,7 +7,7 @@ tags:
   - benchmarking
   - arc-agi
 sources:
-  - "AI Engineer World's Fair 2025 — Measuring AGI: Interactive Reasoning Benchmarks for ARC-AGI-3 — Greg Kamradt, ARC Prize Foundation - https://www.youtube.com/watch?v=3XmFPwjG8pg"
+  - "[[sources/watchv=3xmfpwjg8pg]]"
 summary: "Four innate or hardwired reasoning priors (basic math, basic geometry, agentness, objectness) that ARC-AGI benchmarks use to test abstract reasoning without relying on language, symbols, or learned knowledge."
 provenance:
   extracted: 0.75

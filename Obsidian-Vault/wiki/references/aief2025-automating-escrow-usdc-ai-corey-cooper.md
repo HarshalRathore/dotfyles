@@ -12,7 +12,7 @@ aliases:
   - AIEF2025 Circle Escrow
   - Cooper Circle Escrow 2025
 sources:
-  - "AIEF2025 - Automating Escrow with USDC and AI - Corey Cooper, Circle - https://www.youtube.com/watch?v=AXMdSqdoGHM"
+  - "[[sources/watchv=axmdsqdoghm]]"
 summary: "Corey Cooper (DevRel Lead, Circle) demonstrates using AI agents and USDC stablecoin smart contracts to automate escrow workflows — from PDF agreement parsing to on-chain conditional settlement."
 provenance:
   extracted: 0.85

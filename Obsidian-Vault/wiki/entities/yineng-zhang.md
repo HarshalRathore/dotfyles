@@ -7,7 +7,7 @@ tags:
   - inference
 aliases: [Yineng Zhang, Yineng]
 sources:
-  - "AIEF2025 - Introduction to LLM serving with SGLang - Philip Kiely and Yineng Zhang, Baseten - https://www.youtube.com/watch?v=Ahtaha9fEM0"
+  - "[[sources/watchv=ahtaha9fem0]]"
 summary: "Core maintainer of SGLang and inference lead at Baseten. Previously at Baidu. Author of FlashInfo papers. Involved with LMSys.org."
 provenance:
   extracted: 0.85

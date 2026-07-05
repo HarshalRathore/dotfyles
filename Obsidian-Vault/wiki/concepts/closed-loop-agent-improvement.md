@@ -9,7 +9,7 @@ tags:
   - operations
 aliases: [agent coaching loop, upward spiral of performance, conversation review loop]
 sources:
-  - "AIEF2025 - Rise of the AI Architect — Clay Bavor, Cofounder, Sierra w/ Alessio Fanelli - https://www.youtube.com/watch?v=C3geUfBR2js"
+  - "[[sources/watchv=c3geufbr2js]]"
 summary: "A production feedback system where AI agents learn from past mistakes through human coaching and tooling, creating an 'upward spiral' of performance and capability over time."
 provenance:
   extracted: 0.80

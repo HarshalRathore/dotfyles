@@ -5,7 +5,7 @@ tags:
   - performance
   - "open-source"
 sources:
-  - "web-github-com-aidenybai-react-scan"
+  - "[[sources/web-github-com-aidenybai-react-scan]]"
 aliases:
   - Aiden Bai
   - Million Software

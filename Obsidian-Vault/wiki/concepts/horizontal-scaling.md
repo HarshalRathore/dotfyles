@@ -6,7 +6,7 @@ created:
 updated:
   - 2026-06-30
 sources:
-  - "kubernetes-autoscaling_59fbf3"
+  - "[[sources/kubernetes-autoscaling_59fbf3]]"
 tags:
   - scaling
 aliases:

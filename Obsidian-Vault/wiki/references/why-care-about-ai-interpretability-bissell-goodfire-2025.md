@@ -7,7 +7,7 @@ tags:
   - interpretability
   - safety
 sources:
-  - "AI Engineer World's Fair 2025 - Why you should care about AI interpretability - Mark Bissell, Goodfire AI - https://www.youtube.com/watch?v=6AVMHZPjpTQ"
+  - "[[sources/watchv=6avmhzpjptq]]"
 summary: "Mark Bissell makes the case for mechanistic interpretability as a practical engineering tool — from neural programming and feature steering to model diffs, novel UI paradigms, and scientific knowledge extraction from superhuman models."
 provenance:
   extracted: 0.85

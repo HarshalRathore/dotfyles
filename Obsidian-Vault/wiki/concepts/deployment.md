@@ -9,9 +9,9 @@ updated:
 lifecycle: draft
 base_confidence: 0.75
 sources:
-  - "rolling-updates-&-rollbacks_f484ef"
-  - "replication-controller-&-replicaset_285a2a"
-  - "main-kubernetes-components_82b036"
+  - "[[sources/rolling-updates-&-rollbacks_f484ef]]"
+  - "[[sources/replication-controller-&-replicaset_285a2a]]"
+  - "[[sources/main-kubernetes-components_82b036]]"
 tags:
 ---
 ## Description

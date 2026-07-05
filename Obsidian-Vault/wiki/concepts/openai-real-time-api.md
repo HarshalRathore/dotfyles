@@ -7,8 +7,8 @@ tags:
   - speech
   - real-time
 sources:
-  - "AI Engineer World's Fair 2025 talk — Building Effective Voice Agents — Toki Sherbakov + Anoop Kotha, OpenAI - https://www.youtube.com/watch?v=-OXiljTJxQU"
-  - "AI Engineer World's Fair 2025 talk - Why ChatGPT Keeps Interrupting You — Dr. Tom Shapland, LiveKit - https://www.youtube.com/watch?v=1v9zBiZKlIY"
+  - "[[sources/watchv=-oxiljtjxqu]]"
+  - "[[sources/watchv=1v9zbizkliy]]"
 summary: "OpenAI's speech-to-speech API that handles transcription, reasoning, and speech generation in a single real-time pass for low-latency voice applications."
 provenance:
   extracted: 0.70

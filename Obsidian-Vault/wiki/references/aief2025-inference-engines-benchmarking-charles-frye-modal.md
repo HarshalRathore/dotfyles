@@ -24,7 +24,7 @@ relationships:
   - target: "[[entities/sglang]]"
     type: related_to
 sources:
-  - "AIEF2025 - How fast are LLM inference engines anyway? — Charles Frye, Modal - https://www.youtube.com/watch?v=DeFF3J8T5Pk"
+  - "[[sources/watchv=deff3j8t5pk]]"
 summary: "Charles Frye presents the Modal LLM Almanac — comprehensive benchmark data comparing vLLM, SGLang, and TensorRT-LLM across 10+ models on H100 GPUs. Key finding: prefill-dominated workloads achieve ~4x higher throughput than decode-dominated workloads."
 provenance:
   extracted: 0.85

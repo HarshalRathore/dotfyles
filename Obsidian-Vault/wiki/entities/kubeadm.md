@@ -6,10 +6,10 @@ created:
 updated:
   - 2026-06-30
 sources:
-  - "install-kubernetes-components_c70e92"
-  - "how-tls-certificates-work-in-kubernetes-and-manual-cluster-setup_e2b507"
-  - "manual-notes_10b5c5"
-  - "admission-controllers_7667fc"
+  - "[[sources/install-kubernetes-components_c70e92]]"
+  - "[[sources/how-tls-certificates-work-in-kubernetes-and-manual-cluster-setup_e2b507]]"
+  - "[[sources/manual-notes_10b5c5]]"
+  - "[[sources/admission-controllers_7667fc]]"
 tags:
   - product
 aliases:

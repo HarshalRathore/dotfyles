@@ -5,7 +5,7 @@ tags:
   - research
   - ai-safety
 sources:
-  - "https://www.youtube.com/watch?v=0MqYA52iWQU"
+  - "[[sources/watchv=0mqya52iwqu]]"
 summary: "Research fellow at Stanford working on AI agent safety, PhD graduate, works at WorkOS on enterprise security for AI agents. Gave the 'Enterprise Ready MCP' talk at AI Engineer 2026."
 provenance:
   extracted: 0.65

@@ -10,9 +10,10 @@ aliases:
   - Multi-Hop Graph Retrieval
   - Graph Traversal Strategy
 sources:
-  - "AI Engineer World's Fair 2025 talk — HybridRAG: A Fusion of Graph and Vector Retrieval — Mitesh Patel, NVIDIA - https://www.youtube.com/watch?v=-tgQa8Fzf80"
-  - "AIEF2025 - Wisdom-Driven Knowledge Augmented Generation at Scale - Chin Keong Lam, Patho AI - https://www.youtube.com/watch?v=9AQOvT8LnMI"
-  - "AIEF2025 - Agentic GraphRAG: Simplifying Retrieval Across Structured & Unstructured Data — Zach Blumenfeld - https://www.youtube.com/watch?v=CzM3cW6FdBs"
+  - "[[sources/watchv=j-9ebjbxcbg]]"
+  - "[[sources/watchv=-tgqa8fzf80]]"
+  - "[[sources/watchv=9aqovt8lnmi]]"
+  - "[[sources/watchv=czm3cw6fdbs]]"
 provenance:
   extracted: 0.80
   inferred: 0.15
@@ -21,7 +22,7 @@ base_confidence: 0.42
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
-updated: 2026-07-03
+updated: 2026-07-04
 relationships:
   - target: "[[concepts/graphrag|GraphRAG]]"
     type: uses

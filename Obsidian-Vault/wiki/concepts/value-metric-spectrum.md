@@ -4,7 +4,7 @@ category: concepts
 tags: [pricing, ai-engineering, monetization, product-strategy, ai-agents]
 aliases: [value metric selection, AI pricing spectrum, pricing metric spectrum, token-to-outcome spectrum]
 sources:
-  - "AI Engineer World's Fair 2025 - Monetizing AI — Alvaro Morales, Orb - https://www.youtube.com/watch?v=6WQYLQB0odc"
+  - "[[sources/watchv=6wqylqb0odc]]"
 summary: "A spectrum of value metrics for AI pricing, ranging from resource-based (tokens) through task-based and labor replacement to fully outcome-based pricing aligned with ROI."
 provenance:
   extracted: 0.85

@@ -3,7 +3,7 @@ title: "Harnesses in AI: A Deep Dive — Tejas Kumar, IBM"
 category: misc
 tags: [ai, harness, agent, reliability, guardrails]
 sources:
-  - "watchv=c_gg5g38vlu"
+  - "[[sources/watchv=c_gg5g38vlu]]"
 source_url: "https://www.youtube.com/watch?v=C_GG5g38vLU"
 created: 2026-07-01T00:05:00Z
 updated: 2026-07-01T00:05:00Z

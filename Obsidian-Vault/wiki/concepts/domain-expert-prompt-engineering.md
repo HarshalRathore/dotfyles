@@ -1,78 +1,65 @@
 ---
 title: "Domain Expert Prompt Engineering"
+category: concepts
 tags:
-  - ai
   - prompt-engineering
-  - enterprise
-  - llm
-  - regulated-industry
   - domain-experts
-  - extraction
+  - human-in-the-loop
+  - tax
+  - enterprise-ai
+aliases:
+  - Domain Expert Prompt Engineering
+  - Expert Prompt Engineers
+  - Tax Analyst Prompt Engineering
 sources:
-  - "AI Engineer World's Fair 2025 talk — How BlackRock Builds Custom Knowledge Apps at Scale — Vaibhav Page & Infant Vasanth, BlackRock - https://www.youtube.com/watch?v=08mH36_NVos"
-summary: "The practice of giving domain experts (non-engineers who understand the business) self-service tools to build, iterate, and evaluate LLM prompts and extraction strategies without requiring engineering support for every change."
+  - "AIEF2025 - How Intuit uses LLMs to explain taxes to millions of taxpayers - Jaspreet Singh, Intuit - https://www.youtube.com/watch?v=_zl_zimMRak"
+summary: "Using domain experts (tax analysts) as prompt engineers, bridging the gap between regulatory knowledge and ML engineering. This allows data science teams to focus on metrics and datasets while experts handle prompt quality."
 provenance:
-  extracted: 0.80
-  inferred: 0.20
-  ambiguous: 0.00
-base_confidence: 0.60
+  extracted: 0.85
+  inferred: 0.10
+  ambiguous: 0.05
+base_confidence: 0.85
 lifecycle: draft
+lifecycle_changed: 2026-07-04
 tier: supporting
-created: 2026-07-03
-updated: 2026-07-03
+created: 2026-07-04
+updated: 2026-07-04
+relationships:
+  - target: "[[concepts/llm-evaluation-framework|LLM Evaluation Framework]]"
+    type: part_of
+  - target: "[[concepts/llm-as-judge|LLM as Judge]]"
+    type: relates_to
 ---
 
 # Domain Expert Prompt Engineering
 
-Domain expert prompt engineering is the practice of putting prompt creation, iteration, comparison, and evaluation tools directly into the hands of subject matter experts who understand the business domain but are not software engineers. It is motivated by the observation that in complex domains (financial services, legal, healthcare), prompt engineering rapidly becomes too intricate for engineers to own alone — the domain knowledge needed to describe extraction fields, validate outputs, and handle edge cases lives in the heads of business experts.
+**Domain expert prompt engineering** is the practice of having subject-matter experts write and refine LLM prompts, rather than relying solely on data scientists or ML engineers. ^[extracted]
 
-## The Problem
+## The Intuit Model
 
-As [[entities/blackrock|BlackRock]]'s Vaibhav Page describes: "in our simplest case, like started with a couple of sentences, before you knew it, you're trying to describe this financial instrument and it's like three paragraphs long." ^[extracted]
+Intuit employs tax analysts who decode IRS changes year over year. These analysts serve a dual role: ^[extracted]
 
-The compounding challenges:
+1. **Domain experts** — They understand the regulatory landscape and can verify LLM outputs for accuracy.
+2. **Prompt engineers** — They write and refine prompts, ensuring the LLM's output matches regulatory requirements.
 
-- **Prompt bloat** — simple extraction prompts grow to multi-paragraph descriptions as field complexity increases, requiring structured management
-- **Versioning and comparison** — teams need to version prompts, compare across versions, and evaluate which performs better on real documents
-- **LLM strategy mixing** — the same prompt may need different strategies (in-context, chunking, chain-of-thought) depending on document characteristics (size, complexity, type)
-- **Eval data requirements** — systematic evaluation requires labeled datasets, which domain experts are best positioned to create and validate
+## Why It Works
 
-## The Pattern
+This approach creates a natural division of labor:
 
-BlackRock's solution was to build the [[concepts/enterprise-ai-app-factory|sandbox]], a self-service environment where operators (domain experts) can:
+- **Domain experts** handle prompt quality and initial evaluations — their regulatory knowledge is the bottleneck, not their technical skills.
+- **Data science/ML teams** focus on defining metrics, building datasets, running automated evals, and iterating on model selection.
 
-1. **Define extraction templates** — specify field names, data types, source (extracted vs derived), required/optional flags, validations, and QC checks
-2. **Configure inter-field dependencies** — model conditional relationships between fields (e.g., if bond is callable → call date and call price are required)
-3. **Run extractions across document sets** — test prompts against real documents and review results
-4. **Compare extraction outputs** — side-by-side comparison of different prompts or strategies on the same document set
-5. **Iterate rapidly** — modify prompts, add validations, adjust dependencies, and re-run without engineering support
+The domain experts' prompt work becomes the foundation for automated evaluation systems, including LLM-as-judge models trained on their golden datasets. ^[extracted]
 
-## Key Requirements
+## Broader Implications
 
-Effective domain expert prompt engineering requires:
+Domain expert prompt engineering is particularly valuable in regulated industries (tax, healthcare, legal) where:
+- Output accuracy is non-negotiable
+- Regulatory knowledge changes frequently
+- The domain experts already exist as part of the organization
 
-- **UI tools, not code** — domain experts need visual interfaces for template configuration, not programming languages ^[inferred]
-- **The right abstractions** — field name, data type, source, validations, dependencies are natural concepts for operators working with structured extraction; these map well to a UI form but poorly to raw prompt editing ^[inferred]
-- **Human-in-the-loop as default** — in regulated environments, extraction review ([[concepts/human-in-the-loop-regulated-ai|HITL]]) is built into the workflow, not optional
-- **Deployment without engineering** — once the extraction template is validated, it should be deployable as part of an application without engineers needing to touch the prompt in production ^[inferred]
+## Related
 
-## The ROI Question
-
-A critical insight from the talk: "you have to really evaluate what your ROI is and is it going to be more expensive actually spinning up an AI app versus just having an off-the-shelf product that does it quicker and faster." ^[extracted] Domain expert prompt engineering is valuable when the domain complexity justifies custom extraction, but not every use case benefits — some problems are better solved by existing products.
-
-## Relationship to Other Concepts
-
-- [[concepts/unstructured-data-extraction|Unstructured Data Extraction]] — prompt engineering is the mechanism that makes LLM-based extraction work for complex documents
-- [[concepts/evaluation-first-development|Evaluation-First Development]] — prompt iteration requires systematic evaluation, linking prompt engineering to evaluation practices
-- [[concepts/checklist-based-evaluation|Checklist-Based Evaluation]] — domain experts can define QC checks and validations that serve as evaluation criteria for extraction quality
-- [[concepts/enterprise-ai-app-factory|Enterprise AI App Factory]] — the sandbox is the concrete tool that makes domain expert prompt engineering possible at scale
-
-## Open Questions
-
-- What's the right prompt abstraction level for domain experts? Field-level configuration may work for extraction but fails for free-form generation tasks
-- How do you version and rollback prompt templates in production while maintaining audit trail for regulated environments?
-- What happens when the domain expert leaves — is the prompt knowledge transferable to other experts?
-
-## Sources
-
-- [[references/blackrock-knowledge-apps-ai-eng-fair-2025|How BlackRock Builds Custom Knowledge Apps at Scale — AI Engineer World's Fair 2025]]
+- [[concepts/llm-evaluation-framework|LLM Evaluation Framework]] — Domain experts are Phase 1 and 2 of the eval system
+- [[concepts/llm-as-judge|LLM as Judge]] — Expert-curated golden datasets power LLM judges
+- [[concepts/agent-evaluation-role|Agent Evaluation Role]] — Human's shifted responsibility from doing to evaluating

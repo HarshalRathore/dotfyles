@@ -6,7 +6,7 @@ tags:
   - microsoft
   - ai-platform
 sources:
-  - "AI Engineer World's Fair 2025 - Spark to System: Building the Open Agentic Web — Asha Sharma, Microsoft - https://www.youtube.com/watch?v=7Hrw6rtXaHc"
+  - "[[sources/watchv=7hrw6rtxahc]]"
 summary: "Corporate Vice President leading Microsoft's Core AI Platform. Previously built machine learning products at major tech companies. Keynote speaker at AI Engineer World's Fair 2025."
 provenance:
   extracted: 0.75

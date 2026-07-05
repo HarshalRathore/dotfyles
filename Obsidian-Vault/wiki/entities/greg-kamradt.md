@@ -7,7 +7,7 @@ tags:
   - arc-agi
 aliases: [Greg Kamrad, Greg Kamradt]
 sources:
-  - "AI Engineer World's Fair 2025 — Measuring AGI: Interactive Reasoning Benchmarks for ARC-AGI-3 — Greg Kamradt, ARC Prize Foundation - https://www.youtube.com/watch?v=3XmFPwjG8pg"
+  - "[[sources/watchv=3xmfpwjg8pg]]"
 summary: "President of the ARC Prize Foundation, a nonprofit working toward open AGI. Announced ARC-AGI-3 at AI Engineer World's Fair 2025."
 provenance:
   extracted: 0.80

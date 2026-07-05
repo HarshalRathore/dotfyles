@@ -12,7 +12,7 @@ aliases:
   - AIEF2025 Netflix RecSys Foundation Model
   - Yesu Feng Netflix FM 2025
 sources:
-  - "AIEF2025 - Netflix's Big Bet: One model to rule recommendations: Yesu Feng, Netflix - https://www.youtube.com/watch?v=AbZ4IYGbfpQ"
+  - "[[sources/watchv=abz4iygbfpq]]"
 summary: "Yesu Feng (Netflix) presents Netflix's bet on a single transformer-based foundation model covering all recommendation use cases — covering tokenization, architecture, scaling evidence, consumption patterns, and LLM knowledge transfer."
 provenance:
   extracted: 0.85

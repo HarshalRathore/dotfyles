@@ -17,7 +17,7 @@ relationships:
   - target: "[[concepts/reasoning-time-branching]]"
     type: related_to
 sources:
-  - "AIEF2025 - Thinking Deeper in Gemini — Jack Rae, Google DeepMind - https://www.youtube.com/watch?v=8EQo4J2BWKw"
+  - "[[sources/watchv=8eqo4j2bwkw]]"
 summary: "The paradigm of dynamically scaling computation at inference time to improve model reasoning — inserting a thinking stage where models iteratively process additional tokens before answering, trained via reinforcement learning."
 provenance:
   extracted: 0.75

@@ -6,7 +6,7 @@ created:
 updated:
   - 2026-06-30
 sources:
-  - "tls-certificates_c8ca8c"
+  - "[[sources/tls-certificates_c8ca8c]]"
 tags:
   - organization
 aliases:

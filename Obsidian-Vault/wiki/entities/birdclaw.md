@@ -10,7 +10,7 @@ tags:
   - open-source
   - sqlite
   - privacy
-sources: ["github.com/steipete/birdclaw"]
+sources: ["[[sources/birdclaw]]"]
 base_confidence: 0.55
 lifecycle: draft
 lifecycle_changed: 2026-07-02

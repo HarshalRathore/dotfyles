@@ -7,7 +7,7 @@ tags:
 aliases:
   - Coding Horror
 sources:
-  - "AIEF2025 - Vibes won't cut it — Chris Kelly, Augment Code - https://www.youtube.com/watch?v=Dc3qOA9WOnE"
+  - "[[sources/watchv=dc3qoa9wone]]"
 summary: "Co-founder of Stack Overflow, author of the Coding Horror blog, and advocate for pragmatic software engineering. Famous for the aphorism 'the best code is no code at all.'"
 provenance:
   extracted: 0.70

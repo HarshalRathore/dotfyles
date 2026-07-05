@@ -8,7 +8,7 @@ tags:
   - speaker
 aliases: [Carlos Esteban (Braintrust)]
 sources:
-  - "AIEF2025 - [Evals Workshop] Mastering AI Evaluation: From Playground to Production - https://www.youtube.com/watch?v=9iN-cPnp7xg"
+  - "[[sources/watchv=9in-cpnp7xg]]"
 summary: "Solutions Engineer at Braintrust, co-presented the hands-on evals workshop at AI Engineer World's Fair 2025."
 provenance:
   extracted: 0.65

@@ -9,7 +9,7 @@ tags:
   - evaluation
   - ai-eng-worlds-fair-2025
 sources:
-  - "AI Engineer World's Fair 2025 talk — The Build-Operate Divide: Bridging Product Vision and AI Operational Reality — Jeremy (Freeplay) & Chris Hernandez (Chime) - https://www.youtube.com/watch?v=1__V4KTv_Gw"
+  - "[[sources/watchv=1__v4ktv_gw]]"
 summary: "Jeremy (Freeplay) and Chris Hernandez (Chime) argue that scaling Gen AI is an operational reliability challenge, not just a technical one. The talk covers the iteration loop, human-in-the-loop as feedback engine, the emerging AI Quality Lead role, and ops team evolution."
 provenance:
   extracted: 0.85

@@ -9,7 +9,7 @@ tags:
   - workflow
 aliases: [AI as teammate, copilot as peer, AI peer programming]
 sources:
-  - "AI Engineer World's Fair 2025 - Spark to System: Building the Open Agentic Web — Asha Sharma, Microsoft - https://www.youtube.com/watch?v=7Hrw6rtXaHc"
+  - "[[sources/watchv=7hrw6rtxahc]]"
 summary: "Evolution from pair programming (sidekick autocomplete) to peer programming — AI as a genuine teammate assigned tasks, operating in its own branch, and running tests to completion autonomously."
 provenance:
   extracted: 0.75

@@ -9,7 +9,7 @@ relationships:
   - target: "[[entities/mujoco]]"
     type: uses
 sources:
-  - "AIEF2025 - Your Personal Open-Source Humanoid Robot for $8,999 — JX Mo, K-Scale Labs - https://www.youtube.com/watch?v=BS92RdBvI90"
+  - "[[sources/watchv=bs92rdbvi90]]"
 summary: "An emerging paradigm where humanoid robot hardware (CAD, PCBs), firmware, software, and ML models are fully open-sourced under permissive licenses, dramatically lowering cost and enabling community-driven development."
 provenance:
   extracted: 0.60

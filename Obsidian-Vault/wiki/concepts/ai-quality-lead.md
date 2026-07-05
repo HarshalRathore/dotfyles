@@ -9,7 +9,7 @@ tags:
   - team-structure
 aliases: [AI quality lead role]
 sources:
-  - "AI Engineer World's Fair 2025 talk — The Build-Operate Divide: Bridging Product Vision and AI Operational Reality — Jeremy (Freeplay) & Chris Hernandez (Chime) - https://www.youtube.com/watch?v=1__V4KTv_Gw"
+  - "[[sources/watchv=1__v4ktv_gw]]"
 summary: "An emerging cross-functional role combining deep domain expertise with systems thinking to own AI quality — labeling, eval criteria, experiments, prompt engineering — without necessarily writing production code."
 provenance:
   extracted: 0.80

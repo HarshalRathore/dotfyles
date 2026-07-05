@@ -9,9 +9,10 @@ updated:
 lifecycle: draft
 base_confidence: 0.75
 sources:
-  - "install-kubernetes-components_c70e92"
-  - "how-tls-certificates-work-in-kubernetes-and-manual-cluster-setup_e2b507"
-  - "static-pod_d72e06"
+  - "[[sources/install-kubernetes-components_c70e92]]"
+  - "[[sources/how-tls-certificates-work-in-kubernetes-and-manual-cluster-setup_e2b507]]"
+  - "[[sources/static-pod_d72e06]]"
+
 ---
 ## Description
 Static Pods are special Kubernetes Pods managed directly by the kubelet on a specific node, without involvement from the Kubernetes API server. They are defined by YAML manifest files placed in a static pod manifest directory (typically `/etc/kubernetes/manifests`), which the kubelet watches to automatically create, update, or delete pods based on file changes. This mechanism is crucial for bootstrapping the control plane, as it allows critical components like `kube-apiserver`, `etcd`, `kube-scheduler`, and `kube-controller-manager` to run before the API server itself is available, solving the fundamental "

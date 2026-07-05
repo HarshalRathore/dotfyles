@@ -8,7 +8,7 @@ tags:
   - agent-skill
   - signals
 sources:
-  - "what-is-a-scout"
+  - "[[sources/what-is-a-scout]]"
 source_url: "https://posthog.com/blog/what-is-a-scout"
 created: "2026-07-01"
 updated: "2026-07-01"

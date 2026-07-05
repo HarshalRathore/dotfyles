@@ -9,8 +9,10 @@ tags:
   - reliability
 aliases: [monitor-experiment-test-evaluate loop, Gen AI iteration loop]
 sources:
-  - "AI Engineer World's Fair 2025 talk — The Build-Operate Divide: Bridging Product Vision and AI Operational Reality — Jeremy (Freeplay) & Chris Hernandez (Chime) - https://www.youtube.com/watch?v=1__V4KTv_Gw"
-  - "AI Engineer World's Fair 2025 — How to build world-class AI products — Sarah Sachs (AI lead @ Notion) & Carlos Esteban (Braintrust) - https://www.youtube.com/watch?v=6YdPI9YbjbI"
+  - "[[sources/watchv=1__v4ktv_gw]]"
+  - "[[sources/watchv=6ydpi9ybjbi]]"
+  - "AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY"
+  - "AIEF2025 - Why should anyone care about Evals? — Manu Goyal, Braintrust - https://www.youtube.com/watch?v=jJ45Yz1lJao"
 summary: "The operational cycle of monitoring, experimentation, testing, and evaluation that determines AI product quality. Product quality is a direct function of iteration speed through this loop."
 provenance:
   extracted: 0.80
@@ -81,6 +83,45 @@ The iteration loop operationalizes [[concepts/evaluation-first-development]]. Wh
 - [[concepts/curated-dataset-strategy]] — The dataset curation methodology feeding the loop
 - [[concepts/per-element-llm-judge]] — The scoring methodology used within the loop
 - [[entities/braintrust]] — The platform operationalizing the loop
+
+## Kenneth Auchenberg's Rapid Iteration Loop
+
+Kenneth Auchenberg (ex-Stripe, VSCode) presents a complementary view of iteration loops in his AIEF2025 talk "Shipping something to someone always wins." ^[inferred]
+
+His core argument: product success depends on the number of iterations you can crank out, not the number of big-bang launches. ^[extracted]
+
+### The Skateboard-to-Car Metaphor
+
+Kenneth contrasts two approaches: ^[extracted]
+
+- **The tired way**: Build wheels → chassis → engine → car. No viable product until the end. No feedback along the journey.
+- **The wired way**: Build a skateboard → scooter → bike → car. Every step is a continuously viable product that transports a person from A to B.
+
+A continuously viable solution is "many, many orders of magnitude more valuable" than a solution that only becomes viable at the end. ^[extracted]
+
+### The Loop-in-a-Day Standard
+
+At Stripe, Kenneth's team aimed to run the full feedback loop (ship → feedback → iterate → ship improvement) in less than a day. ^[extracted] "If you cannot run your loop in a day, your process is broken." This does not mean shipping every day — it means being able to ship every day. ^[extracted]
+
+### The Three Requirements
+
+Kenneth's framework for enabling rapid iteration loops: ^[extracted]
+
+1. **Real users** who can see something (not personas — actual people with names, emails, phone numbers)
+2. **A way to get feedback** from them (direct observation, Slack, Discord, personal relationships)
+3. **Ability to iterate and ship an improvement** (the technical and organizational capacity to act on feedback)
+
+### Practical Tactics
+
+- **Write the launch post first**: Before building anything, write the PRD or launch blog post. Push it to early users for feedback before prototyping. ^[extracted]
+- **Design the best product first**: Design your ideal product before considering constraints like legal, compliance, and financials. Legal counterparts help you understand risks but should not shape the product. ^[extracted]
+- **Prototype everything**: In 2025, there is "no excuse" not to prototype. AI tools (Bolt, Claude, coding agents) make it possible regardless of your role. ^[extracted]
+- **Get high-quality feedback**: Don't just pull metrics from dashboards. Shadow customers, text with them directly, monitor API responses to see where they get stuck. ^[extracted]
+- **Feel like a professional services firm**: When done well, you should feel like you're running a professional services firm — deeply invested in making a very few set of users extremely happy. ^[extracted]
+
+### Relationship to AI
+
+Kenneth argues this principle is "more relevant than ever in the age of AI." AI tools dramatically reduce the cost of prototyping and iteration, making rapid loops more achievable than ever before. The bottleneck shifts from technical capacity to organizational discipline and user access. ^[extracted]
 
 ## Sources
 

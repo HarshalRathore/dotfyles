@@ -7,7 +7,7 @@ tags:
   - saas
 aliases: []
 sources:
-  - "AI Engineer World's Fair 2025 — From Hype to Habit: How We're Building an AI-First SaaS Company—While Still Shipping the Roadmap — Rossella & Debsha, Sprout Social - https://www.youtube.com/watch?v=3YGRcgZJ3yc"
+  - "[[sources/watchv=3ygrcgzj3yc]]"
 summary: "Sprout Social AI leader and co-presenter at AI Engineer World's Fair 2025 on building an AI-first SaaS company. Only identified by first name in the talk."
 provenance:
   extracted: 0.50

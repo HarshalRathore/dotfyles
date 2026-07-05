@@ -7,7 +7,7 @@ tags:
   - personality
   - prompt-engineering
 sources:
-  - "AIEF2025 - Form factors for your new AI coworkers — Craig Wattrus, Flatfile - https://www.youtube.com/watch?v=CiMVKnX-CNI"
+  - "[[sources/watchv=cimvknx-cni]]"
 summary: "Design methodology for AI agents: instead of controlling outputs (editing copy, policing word choice), coach the agent's character — build out its nature, personality, and behavioral tendencies."
 provenance:
   extracted: 0.75

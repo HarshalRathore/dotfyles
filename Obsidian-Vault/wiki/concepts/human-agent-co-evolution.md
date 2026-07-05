@@ -8,7 +8,7 @@ aliases:
   - agent-augmented intelligence
   - reciprocal intelligence leveling
 sources:
-  - "AIEF2025 - Useful General Intelligence — Danielle Perszyk, Amazon AGI - https://www.youtube.com/watch?v=Dj0b_cEBHHI"
+  - "[[sources/watchv=dj0b_cebhhi]]"
 summary: "Danielle Perszyk's model of the reciprocal relationship between humans and AI agents: agents learn from humans and redistribute skills across communities, humans teach agents and benefit from agent-discovered knowledge, creating a flywheel of mutual intelligence improvement."
 provenance:
   extracted: 0.75

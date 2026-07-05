@@ -13,7 +13,7 @@ relationships:
   - target: "[[entities/tomas-reimers]]"
     type: describes
 sources:
-  - "AIEF2025 - Don't get one-shotted: Use AI to test, review, merge, and deploy code — Tomas Reimers, Graphite - https://www.youtube.com/watch?v=H6MrR5NbTZA"
+  - "[[sources/watchv=h6mrr5nbtza]]"
 summary: "Tomas Reimers, co-founder of Graphite, argues that AI accelerates the inner loop of development (writing code) so dramatically that the outer loop (testing, reviewing, merging, deploying) becomes the bottleneck — and the entire toolchain must become AI-native, not just the IDE."
 provenance:
   extracted: 0.90
@@ -34,7 +34,7 @@ updated: 2026-07-03
 
 - **Software development has two loops**: The inner loop (writing code, getting features working) and the outer loop (testing, reviewing, merging, deploying). Historically, these operated at roughly the same pace. ^[extracted]
 
-- **AI accelerates the inner loop dramatically**: Nearly all developers surveyed use AI tools; 46% of code on GitHub is written by Copilot. AI tools (Cursor, Windsurf, V0, Bolt) produce higher volumes of code faster than ever before. ^[extracted]
+- **AI accelerates the inner loop dramatically**: Nearly all developers surveyed use AI tools; 46% of code on GitHub is written by Copilot. AI tools ([[entities/cursor-ai|Cursor]], [[entities/windsurf|Windsurf]], [[entities/v0|V0]], [[entities/bolt|Bolt]]) produce higher volumes of code faster than ever before. ^[extracted]
 
 - **The outer loop becomes the bottleneck**: Higher code volume means more to review, test, merge, and deploy. The problems of large-scale code volume that used to only affect big companies now affect all organizations. ^[extracted]
 
@@ -73,3 +73,8 @@ Key properties of Diamond: ^[extracted]
 - [[concepts/peer-programming|Peer Programming]] — AI as autonomous teammate vs AI as completion engine
 - [[concepts/burden-of-generated-code|Burden of Generated Code]] — Every generated line needs outer-loop validation
 - [[entities/graphite|Graphite]] — Company building Diamond
+- [[concepts/self-driving-code-review|Self-Driving Code Review]] — AI handles manual review so developers focus on what matters
+- [[concepts/ai-native-toolchain|AI-Native Toolchain]] — The entire developer toolchain must be AI-native, not just the IDE
+- [[concepts/ai-teammates-insufficient|AI Teammates Are Insufficient]] — Adding AI agents to existing workflows is not enough
+- [[references/aief2025-ai-powered-entomology-tomas-reimers-graphite]] — Reimers' other AIEF2025 talk on bug taxonomy and AI Entomology
+- [[concepts/high-signal-low-noise|High Signal, Low Noise]] — Core quality principle for AI code review systems

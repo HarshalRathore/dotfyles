@@ -6,8 +6,8 @@ created:
 updated:
   - 2026-06-30
 sources:
-  - "static-pod_d72e06"
-  - "main-kubernetes-components_82b036"
+  - "[[sources/static-pod_d72e06]]"
+  - "[[sources/main-kubernetes-components_82b036]]"
 tags:
   - product
 aliases:

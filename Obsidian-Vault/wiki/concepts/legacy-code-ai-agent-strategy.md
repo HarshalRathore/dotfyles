@@ -7,7 +7,7 @@ tags:
   - engineering
   - methodology
 sources:
-  - "https://www.youtube.com/watch?v=6NIr_cYPglk"
+  - "[[sources/watchv=6nir_cypglk]]"
 summary: "A three-step methodology for using AI agents to work with unfamiliar legacy codebases: Understand (explore with chat), Write Tests (validate predicted behavior), Modernize (convert code with test verification)."
 provenance:
   extracted: 0.70

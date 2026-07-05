@@ -8,7 +8,7 @@ tags:
   - bot-detection
 aliases: [David Mytton, mytton]
 sources:
-  - "AIEF2025 - How to defend your sites from AI bots — David Mytton, Arcjet - https://www.youtube.com/watch?v=Gi4V8viBGYQ"
+  - "[[sources/watchv=gi4v8vibgyq]]"
 summary: "Founder of Arcjet, a security SDK for developers providing bot detection and automated client defense."
 provenance:
   extracted: 0.80

@@ -6,7 +6,7 @@ created:
 updated:
   - 2026-06-30
 sources:
-  - "init-containers_798910"
+  - "[[sources/init-containers_798910]]"
 tags:
   - product
 aliases:

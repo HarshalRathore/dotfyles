@@ -7,7 +7,7 @@ tags:
   - human-in-the-loop
   - opensource
 sources:
-  - "AIEF2025 - 12-Factor Agents: Patterns of Reliable LLM applications — Dex Horthy, HumanLayer - https://www.youtube.com/watch?v=8kMaTybvDUw"
+  - "[[sources/watchv=8kmatybvduw]]"
 summary: "Company building open-source infrastructure for agent-to-human communication, including the A2H (Agent-to-Human) Protocol. Founded by Dex Horthy, creator of the 12-Factor Agents framework."
 provenance:
   extracted: 0.75

@@ -7,7 +7,7 @@ tags:
   - enterprise
   - ai
 sources:
-  - "https://www.youtube.com/watch?v=12v5S1n1eOY"
+  - "[[sources/watchv=12v5s1n1eoy]]"
 summary: "Conference talk by Ben Kus, CTO of Box, on Box's journey building an agentic platform for enterprise content AI."
 provenance:
   extracted: 0.90

@@ -8,7 +8,7 @@ tags:
   - ceo
   - workos
 sources:
-  - "AIEF2025 - CIAM for AI: Authn/Authz for Agents — Michael Grinich, CEO of WorkOS - https://www.youtube.com/watch?v=D4Dswf-__RM"
+  - "[[sources/watchv=d4dswf-__rm]]"
 summary: "CEO of WorkOS. Speaker at AI Engineer World's Fair 2025 on customer identity and access management (CIAM) for AI agents, proposing four identity architecture patterns and calling for new standards."
 lifecycle: draft
 tier: supporting

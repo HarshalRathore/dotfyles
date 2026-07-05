@@ -8,7 +8,7 @@ tags:
   - production
   - model-management
 sources:
-  - "AI Engineer World's Fair 2025 — How to build world-class AI products — Sarah Sachs (AI lead @ Notion) & Carlos Esteban (Braintrust) - https://www.youtube.com/watch?v=6YdPI9YbjbI"
+  - "[[sources/watchv=6ydpi9ybjbi]]"
 summary: "The system for managing hundreds of prompts across multiple model providers with config-based fallback mechanisms that account for cost, capability, and latency differences."
 provenance:
   extracted: 0.68

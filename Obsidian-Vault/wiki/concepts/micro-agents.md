@@ -7,7 +7,7 @@ tags:
   - reliability
   - dag
 sources:
-  - "AIEF2025 - 12-Factor Agents: Patterns of Reliable LLM applications — Dex Horthy, HumanLayer - https://www.youtube.com/watch?v=8kMaTybvDUw"
+  - "[[sources/watchv=8kmatybvduw]]"
 summary: "Architectural pattern where small agent loops (3-10 steps) are embedded within larger deterministic workflows, handling only the naturally ambiguous decision points while everything else runs on deterministic code."
 provenance:
   extracted: 0.75

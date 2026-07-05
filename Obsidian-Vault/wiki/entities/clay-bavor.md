@@ -7,7 +7,7 @@ tags:
   - google-alumni
 aliases: [Clay Bavor, Bavor]
 sources:
-  - "AIEF2025 - Rise of the AI Architect — Clay Bavor, Cofounder, Sierra w/ Alessio Fanelli - https://www.youtube.com/watch?v=C3geUfBR2js"
+  - "[[sources/watchv=c3geufbr2js]]"
 summary: "Cofounder of Sierra (AI customer service platform). Former Google VP who led AR/VR, Google Lens. Known for articulating the 'AI Architect' role and Agent Development Life Cycle."
 provenance:
   extracted: 0.80

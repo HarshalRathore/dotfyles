@@ -5,7 +5,7 @@ tags:
   - ai
   - reasoning
 sources:
-  - "AI Engineer World's Fair 2025 talk - Infrastructure for the Singularity — Jesse Han, Morph - https://www.youtube.com/watch?v=2goSS66XRBk"
+  - "[[sources/watchv=2goss66xrbk]]"
 summary: "Upcoming AI model from Morph trained to use InfiniBranch for reasoning time branching and verified reasoning, targeting a Q1 2026 release."
 provenance:
   extracted: 0.70

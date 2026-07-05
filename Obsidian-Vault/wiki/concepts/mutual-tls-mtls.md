@@ -6,7 +6,7 @@ created:
 updated:
   - 2026-06-30
 sources:
-  - "how-tls-certificates-work-in-kubernetes-and-manual-cluster-setup_e2b507"
+  - "[[sources/how-tls-certificates-work-in-kubernetes-and-manual-cluster-setup_e2b507]]"
 tags:
   - security
 aliases:

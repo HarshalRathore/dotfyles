@@ -7,7 +7,7 @@ tags:
   - product-design
 aliases: [four pillars of design, speed trust accessibility light]
 sources:
-  - "AI Engineer World's Fair 2025 - Good design hasn't changed with AI — John Pham, SF Compute - https://www.youtube.com/watch?v=7e7eVtcygCM"
+  - "[[sources/watchv=7e7evtcygcm]]"
 summary: "A design framework articulating four pillars of product experience: Speed (perceived performance), Trust (state communication, error prevention, affordances), Accessibility (inclusive design), and The Light (delight, care, and memorable moments)."
 provenance:
   extracted: 0.65

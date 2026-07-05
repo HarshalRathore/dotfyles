@@ -3,7 +3,7 @@ type: "concept"
 title: "Scheduler"
 created: [datetime.date(2026, 6, 30)]
 updated: [datetime.date(2026, 6, 30)]
-sources: ['static-pod_d72e06', 'resource-requests-&-limits_4bd978', 'main-kubernetes-components_82b036']
+sources: ["[[sources/static-pod_d72e06]]", "[[sources/resource-requests-&-limits_4bd978]]", "[[sources/main-kubernetes-components_82b036]]"]
 tags:
   - control-plane
   - scheduling

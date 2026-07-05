@@ -6,7 +6,7 @@ tags:
   - interpretability
   - speaker
 sources:
-  - "AI Engineer World's Fair 2025 - Why you should care about AI interpretability - Mark Bissell, Goodfire AI - https://www.youtube.com/watch?v=6AVMHZPjpTQ"
+  - "[[sources/watchv=6avmhzpjptq]]"
 summary: "Member of Technical Staff at Goodfire AI specializing in mechanistic interpretability. Previously spent three years on Palantir's healthcare team building reliable AI systems for mission-critical contexts."
 provenance:
   extracted: 0.85

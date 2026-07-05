@@ -9,7 +9,7 @@ aliases:
   - agent payments
   - A2A payments
 sources:
-  - "AIEF2025 - Automating Escrow with USDC and AI - Corey Cooper, Circle - https://www.youtube.com/watch?v=AXMdSqdoGHM"
+  - "[[sources/watchv=axmdsqdoghm]]"
 summary: "Payment rails designed for AI agents transacting with each other — requiring near-instant settlement, irreversibility, always-on availability, and programmable conditional logic."
 provenance:
   extracted: 0.70

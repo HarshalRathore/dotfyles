@@ -7,8 +7,8 @@ tags:
   - documents
   - llm
 sources:
-  - "https://www.youtube.com/watch?v=12v5S1n1eOY"
-  - "AI Engineer World's Fair 2025 talk — HybridRAG: A Fusion of Graph and Vector Retrieval — Mitesh Patel, NVIDIA - https://www.youtube.com/watch?v=-tgQa8Fzf80"
+  - "[[sources/watchv=12v5s1n1eoy]]"
+  - "[[sources/watchv=-tgqa8fzf80]]"
 summary: "Using LLMs to extract structured data from unstructured enterprise documents like contracts, leases, and proposals. Also covers triplet extraction for knowledge graph construction."
 provenance:
   extracted: 0.70

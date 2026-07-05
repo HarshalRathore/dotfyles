@@ -8,7 +8,7 @@ tags:
   - pattern
   - tokens
 sources:
-  - "AIEF2025 - CIAM for AI: Authn/Authz for Agents — Michael Grinich, CEO of WorkOS - https://www.youtube.com/watch?v=D4Dswf-__RM"
+  - "[[sources/watchv=d4dswf-__rm]]"
 summary: "Identity architecture pattern where agents receive time-bound tokens scoped to exactly one action, like 'Agent X can read Bob's calendar for the next 60 minutes.'"
 lifecycle: draft
 tier: supporting

@@ -9,8 +9,8 @@ updated:
 lifecycle: draft
 base_confidence: 0.75
 sources:
-  - "🔐-security-in-kubernetes_0a37d1"
-  - "tls-certificates_c8ca8c"
+  - "[[sources/🔐-security-in-kubernetes_0a37d1]]"
+  - "[[sources/tls-certificates_c8ca8c]]"
 tags:
 ---
 ## Key Characteristics

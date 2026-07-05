@@ -8,9 +8,8 @@ tags:
   - framework
 aliases: [eval three ingredients, task dataset score triad, eval components]
 sources:
-  - "AIEF2025 - [Evals Workshop] Mastering AI Evaluation: From Playground to Production - https://www.youtube.com/watch?v=9iN-cPnp7xg"
-summary: "The three components that every AI evaluation requires: a task (the prompt or workflow being tested), a dataset (real-world test cases), and a score (grading logic — LLM-as-judge or code-based)."
-provenance:
+  - "[[sources/watchv=mc55hdwlq4o]]"
+summary: "The three components that every AI evaluation requires: a task (the prompt or workflow being tested), a dataset (real-world test cases), and a score (grading logic — LLM-as-judge or code-based). Optimized together via [[concepts/loop-automated-eval-optimization|Loop]] for compounding improvements."
   extracted: 0.75
   inferred: 0.20
   ambiguous: 0.05
@@ -18,7 +17,7 @@ base_confidence: 0.55
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
-updated: 2026-07-03
+updated: 2026-07-05
 ---
 
 # Eval Ingredients: Task, Dataset, Score
@@ -54,6 +53,18 @@ The grading logic that evaluates task output against the dataset. Two types: ^[e
 
 Both types output a score from 0 to 1 (converted to percentage). Best practice: use both in combination for balanced assessment. ^[extracted]
 
+## Basketball Court Metaphor
+
+[[entities/ido-pesok|Ido Pesok]] (Vercel) mapped the three ingredients to a basketball court visualization at AIEF2025: ^[extracted]
+
+| Ingredient | Court Metaphor | Description |
+|---|---|---|
+| **Data** | The point on the court | User queries to test against |
+| **Task** | The shot | How you shoot the ball (system prompt, RAG, preprocessing) |
+| **Score** | Did it go in the basket | Check of correctness (pass/fail) |
+
+The metaphor emphasizes that evals are like basketball practice — they should be as similar as possible to the real game. ^[extracted]
+
 ## How They Fit Together
 
 ```
@@ -75,5 +86,6 @@ The ingredients enable a rapid feedback loop: tweak the task (prompt, model, log
 - [[concepts/eval-quality-matrix|Eval Quality Matrix]] — how to diagnose whether to improve the evals or the AI app
 
 ## Sources
+- AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY
 
 - [[references/aief2025-evals-workshop-braintrust|AIEF2025 - [Evals Workshop] Mastering AI Evaluation: From Playground to Production]] — Braintrust workshop at AI Engineer World's Fair 2025

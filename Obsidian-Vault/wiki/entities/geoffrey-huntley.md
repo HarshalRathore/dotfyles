@@ -7,7 +7,7 @@ updated: 2026-06-30
 tags:
   - person
   - ai-assisted-development
-sources: ["ralph-ai-coding-technique_ghuntley"]
+sources: ["[[sources/ralph-ai-coding-technique_ghuntley]]"]
 base_confidence: 0.45
 lifecycle: draft
 lifecycle_changed: 2026-06-30

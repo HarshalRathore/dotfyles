@@ -11,7 +11,7 @@ aliases:
   - promptfu
   - Prompt FU
 sources:
-  - "AIEF2025 - Strategies for LLM Evals (GuideLLM, lm-eval-harness, OpenAI Evals Workshop) — Taylor Jordan Smith - https://www.youtube.com/watch?v=89NuzmKokIk"
+  - "[[sources/watchv=89nuzmkokik]]"
 summary: "Red Hat's open-source safety evaluation tool for LLMs, supporting customizable safety and bias tests with a wide range of examples available in its GitHub repository."
 provenance:
   extracted: 0.75

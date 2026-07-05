@@ -9,7 +9,7 @@ aliases:
   - Amazon AGI SF Lab
   - Amazon AGI San Francisco
 sources:
-  - "AIEF2025 - Useful General Intelligence — Danielle Perszyk, Amazon AGI - https://www.youtube.com/watch?v=Dj0b_cEBHHI"
+  - "[[sources/watchv=dj0b_cebhhi]]"
 summary: "Amazon's experimental artificial general intelligence lab based in San Francisco. Researchers include cognitive scientist Danielle Perszyk. The lab focuses on computer-use agents (Nova Act) and the vision of AI that augments human intelligence rather than replacing it."
 provenance:
   extracted: 0.65

@@ -8,8 +8,8 @@ tags:
   - hybrid
   - architecture
 sources:
-  - "AI Engineer World's Fair 2025 talk — HybridRAG: A Fusion of Graph and Vector Retrieval — Mitesh Patel, NVIDIA - https://www.youtube.com/watch?v=-tgQa8Fzf80"
-  - "AIEF2025 - Wisdom-Driven Knowledge Augmented Generation at Scale - Chin Keong Lam, Patho AI - https://www.youtube.com/watch?v=9AQOvT8LnMI"
+  - "[[sources/watchv=-tgqa8fzf80]]"
+  - "[[sources/watchv=9aqovt8lnmi]]"
 summary: "A RAG architecture that fuses two retrieval pathways — a knowledge graph (graph-based retrieval) and a semantic vector database (embedding-based retrieval) — to capture both structured entity relationships and semantic similarity."
 provenance:
   extracted: 0.78

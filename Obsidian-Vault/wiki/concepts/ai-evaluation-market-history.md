@@ -9,7 +9,7 @@ tags:
   - agentic
 aliases: [year of evals, eval market forces, evaluation becoming C-suite priority]
 sources:
-  - "AIEF2025 - 2025 is the Year of Evals! Just like 2024, and 2023, and … — John Dickerson, CEO Mozilla AI - https://www.youtube.com/watch?v=CQGuvf6gSrM"
+  - "[[sources/watchv=cqguvf6gsrm]]"
 summary: "The historical evolution of AI evaluation from niche ML monitoring concern to C-suite priority, driven by three converging forces: ChatGPT's democratization of AI awareness, enterprise budget freezes that channeled all IT spend to gen AI, and agentic systems creating autonomous risk."
 provenance:
   extracted: 0.72

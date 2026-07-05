@@ -8,7 +8,8 @@ tags:
   - diagnostics
 aliases: [quality score matrix, eval diagnostic matrix, output-score matrix]
 sources:
-  - "AIEF2025 - [Evals Workshop] Mastering AI Evaluation: From Playground to Production - https://www.youtube.com/watch?v=9iN-cPnp7xg"
+  - "[[sources/watchv=9in-cpnp7xg]]"
+  - "AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY"
 summary: "A 2x2 diagnostic matrix that maps human judgment of output quality (good/bad) against eval scores (high/low) to determine whether to improve the AI app or improve the evaluation itself."
 provenance:
   extracted: 0.80

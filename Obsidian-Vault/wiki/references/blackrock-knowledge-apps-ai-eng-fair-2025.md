@@ -11,7 +11,7 @@ aliases:
   - BlackRock AI Apps Framework
   - BlackRock Sandbox App Factory
 sources:
-  - "https://www.youtube.com/watch?v=08mH36_NVos"
+  - "[[sources/watchv=08mh36_nvos]]"
 summary: "AI Engineer World's Fair 2025 talk covering BlackRock's sandbox + app factory framework for building custom AI knowledge applications at scale in the highly regulated financial services domain."
 provenance:
   extracted: 0.90

@@ -7,7 +7,7 @@ tags:
   - infrastructure
   - vertical
 sources:
-  - "AI Engineer World's Fair 2025 - Stateful environments for vertical agents — Josh Purtell, Synth Labs - https://www.youtube.com/watch?v=5rMc-moNVx0"
+  - "[[sources/watchv=5rmc-monvx0]]"
 summary: "Architectural pattern where domain-specific business logic is containerized into a resettable, observable environment external to the agent, enabling rollback, multi-agent coordination, and tree-search over agent trajectories."
 provenance:
   extracted: 0.70

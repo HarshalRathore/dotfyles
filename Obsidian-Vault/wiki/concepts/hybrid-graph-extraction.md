@@ -10,8 +10,8 @@ aliases:
   - LLM + Expert Graph Extraction
   - Semi-Automated Graph Extraction
 sources:
-  - "AIEF2025 - Wisdom-Driven Knowledge Augmented Generation at Scale - Chin Keong Lam, Patho AI - https://www.youtube.com/watch?v=9AQOvT8LnMI"
-  - "AI Engineer World's Fair 2025 talk — HybridRAG: A Fusion of Graph and Vector Retrieval — Mitesh Patel, NVIDIA - https://www.youtube.com/watch?v=-tgQa8Fzf80"
+  - "[[sources/watchv=9aqovt8lnmi]]"
+  - "[[sources/watchv=-tgqa8fzf80]]"
 summary: "A graph construction methodology that combines fully automated LLM triplet extraction with manual expert taxonomy refinement, where domain experts prune and correct the auto-extracted graph to ensure quality."
 provenance:
   extracted: 0.65

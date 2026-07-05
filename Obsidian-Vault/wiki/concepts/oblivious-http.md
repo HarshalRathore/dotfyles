@@ -10,7 +10,7 @@ aliases:
   - OHTTP
   - Oblivious HTTP
 sources:
-  - "AIEF2025 - The Unofficial Guide to Apple's Private Cloud Compute - Jmo, CONFSEC - https://www.youtube.com/watch?v=CCsWZ5bJlO8"
+  - "[[sources/watchv=ccswz5bjlo8]]"
 summary: "Protocol that anonymizes HTTP requests by routing them through a third-party relay, so the destination server sees only the relay's IP, not the original client's — developed by Cloudflare and Apple."
 provenance:
   extracted: 0.80

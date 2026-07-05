@@ -6,8 +6,8 @@ tags:
   - infrastructure
   - reasoning
 sources:
-  - "AI Engineer World's Fair 2025 talk - Infrastructure for the Singularity — Jesse Han, Morph - https://www.youtube.com/watch?v=2goSS66XRBk"
-  - "AIEF2025 - Thinking Deeper in Gemini — Jack Rae, Google DeepMind - https://www.youtube.com/watch?v=8EQo4J2BWKw"
+  - "[[sources/watchv=2goss66xrbk]]"
+  - "[[sources/watchv=8eqo4j2bwkw]]"
 summary: "Technique where AI agents branch their entire computational environment during reasoning to explore multiple solution paths in parallel, then recombine results against verifiers."
 provenance:
   extracted: 0.72

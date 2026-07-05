@@ -3,7 +3,7 @@ title: "Karpathy's Autoresearch found a 3-year-old bug in our query engine (and 
 category: misc
 tags: [ai, query-optimization, clickhouse, engineering, agent-loop]
 sources:
-  - "karpathy-autoresearch-query-engine-bug"
+  - "[[sources/karpathy-autoresearch-query-engine-bug]]"
 source_url: "https://posthog.com/blog/karpathy-autoresearch-query-engine-bug"
 created: 2026-06-30T23:15:00Z
 updated: 2026-06-30T23:15:00Z

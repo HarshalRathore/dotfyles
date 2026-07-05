@@ -1,13 +1,18 @@
 ---
 title: "Stop AI slop: Run evals with LLM-as-a-Judge"
 category: misc
-tags: [ai, evals, llm, observability, product-engineering]
+tags:
+  - ai
+  - evals
+  - llm
+  - observability
+  - product-engineering
 sources:
-  - "stop-ai-slop"
-source_url: "https://posthog.com/blog/stop-ai-slop"
+  - "[[sources/stop-ai-slop]]"
+source_url: https://posthog.com/blog/stop-ai-slop
 created: 2026-06-30T23:50:00Z
 updated: 2026-06-30T23:50:00Z
-summary: "PostHog guide to AI evaluations using LLM-as-a-Judge — why manual review doesn't scale, how to write evals, five pre-built templates, and the AI product improvement loop connecting observability, session replay, and analytics."
+summary: PostHog guide to AI evaluations using LLM-as-a-Judge — why manual review doesn't scale, how to write evals, five pre-built templates, and the AI product improvement loop connecting observability, session replay, and analytics.
 affinity: {}
 promotion_status: misc
 stub: false

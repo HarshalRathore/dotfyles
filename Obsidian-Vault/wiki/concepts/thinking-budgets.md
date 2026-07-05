@@ -16,7 +16,7 @@ relationships:
   - target: "[[concepts/pricing-as-friction]]"
     type: related_to
 sources:
-  - "AIEF2025 - Thinking Deeper in Gemini — Jack Rae, Google DeepMind - https://www.youtube.com/watch?v=8EQo4J2BWKw"
+  - "[[sources/watchv=8eqo4j2bwkw]]"
 summary: "A continuous, granular control mechanism for the quality-cost tradeoff of AI inference — replacing discrete model size choices with a slider-like budget parameter that controls how much thinking compute a model applies."
 provenance:
   extracted: 0.80

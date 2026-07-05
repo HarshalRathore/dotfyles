@@ -9,8 +9,8 @@ updated:
 lifecycle: draft
 base_confidence: 0.75
 sources:
-  - "pods_c92b62"
-  - "init-containers_798910"
+  - "[[sources/pods_c92b62]]"
+  - "[[sources/init-containers_798910]]"
 tags:
 ---
 ## Related Concepts

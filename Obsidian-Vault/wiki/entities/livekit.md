@@ -8,7 +8,7 @@ tags:
   - real-time
   - open-source
 sources:
-  - "AI Engineer World's Fair 2025 talk - Why ChatGPT Keeps Interrupting You — Dr. Tom Shapland, LiveKit - https://www.youtube.com/watch?v=1v9zBiZKlIY"
+  - "[[sources/watchv=1v9zbizkliy]]"
 summary: "Real-time voice AI infrastructure platform providing audio transport, voice agents, and open-weight turn detection models."
 provenance:
   extracted: 0.75

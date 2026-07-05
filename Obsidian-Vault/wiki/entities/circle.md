@@ -10,7 +10,7 @@ aliases:
   - Circle Internet Financial
   - Circle.com
 sources:
-  - "AIEF2025 - Automating Escrow with USDC and AI - Corey Cooper, Circle - https://www.youtube.com/watch?v=AXMdSqdoGHM"
+  - "[[sources/watchv=axmdsqdoghm]]"
 summary: "Fintech company founded in 2013 that issues USDC and EURC stablecoins. Backed by BlackRock and Fidelity. Has settled over $26 trillion in transactions across 20+ blockchain networks."
 provenance:
   extracted: 0.85

@@ -6,7 +6,7 @@ created:
 updated:
   - 2026-06-30
 sources:
-  - "static-pod_d72e06"
+  - "[[sources/static-pod_d72e06]]"
 tags:
   - deployment
 aliases:

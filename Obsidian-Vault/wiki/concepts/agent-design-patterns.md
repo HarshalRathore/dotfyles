@@ -133,6 +133,9 @@ This pattern is distinct from the existing design patterns because it operates a
 - [[entities/dex-horthy]] — Originator of the tool-use demystification and micro-agents patterns
 - [[entities/dagger]] — Platform implementing tool-scoped container environments
 - [[concepts/dagger-agent-platform]] — Full pattern for scoped agent environments
+- [[concepts/agent-vs-workflow]] — swyx's input-output ratio model as an alternative to agent/workflow classification
+- [[concepts/spade-pattern]] — SPADE as a workflow pattern complementary to agent design patterns
+- [[concepts/standard-models-ai-engineering]] — Standard models thesis that contextualizes these patterns
 
 ## Sources
 
@@ -141,4 +144,5 @@ This pattern is distinct from the existing design patterns because it operates a
 - [[references/12-factor-agents-patterns-dex-horthy-humanlayer|12-Factor Agents: Patterns of Reliable LLM Applications — AI Engineer World's Fair 2025]]
 - [[entities/anthropic]] — Originator of the five patterns
 - [[references/aief2025-ship-agents-that-ship]] — Dagger agents workshop, AI Engineer World's Fair 2025
+- "AIEF2025 - Designing AI-Intensive Applications - swyx - https://www.youtube.com/watch?v=IHkyFhU6JEY"
 

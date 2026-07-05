@@ -6,7 +6,7 @@ tags:
   - protocol
   - enterprise
 sources:
-  - "https://www.youtube.com/watch?v=0MqYA52iWQU"
+  - "[[sources/watchv=0mqya52iwqu]]"
 summary: "The MCP protocol behavior where clients dynamically register themselves with servers as applications, creating operational challenges for auth management, dashboards, and headless AI agent authentication."
 provenance:
   extracted: 0.50

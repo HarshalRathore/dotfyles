@@ -8,7 +8,7 @@ tags:
   - financials
   - ai
 sources:
-  - "AIEF2025 - Build Dynamic Products, and Stop the AI Sideshow — Eliza Cabrera (Workday) + Jeremy Silva (Freeplay) - https://www.youtube.com/watch?v=CB-4NKDYnRs"
+  - "[[sources/watchv=cb-4nkdynrs]]"
 summary: "Enterprise cloud software company providing HCM, financials, and planning services. Serves approximately 60% of the S&P 500. Has progressively integrated Gen AI capabilities from embedded features to an agent system of record."
 provenance:
   extracted: 0.70

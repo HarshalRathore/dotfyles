@@ -7,7 +7,7 @@ tags:
   - infrastructure
 aliases: [San Francisco Compute Company, SF Compute]
 sources:
-  - "AI Engineer World's Fair 2025 - Good design hasn't changed with AI — John Pham, SF Compute - https://www.youtube.com/watch?v=7e7eVtcygCM"
+  - "[[sources/watchv=7e7evtcygcm]]"
 summary: "GPU cloud provider based in San Francisco. Known for a design-forward onboarding experience that makes legally required compliance friction feel light through event-driven fog animations, expectation setting, and progressive disclosure."
 provenance:
   extracted: 0.80

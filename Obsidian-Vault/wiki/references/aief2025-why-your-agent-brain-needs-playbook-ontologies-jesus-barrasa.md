@@ -13,7 +13,7 @@ aliases:
   - Jesús Barrasa AIEF2025
   - Ontologies for Agents
 sources:
-  - "AIEF2025 - Why Your Agent's Brain Needs a Playbook: Practical Wins from Using Ontologies - Jesús Barrasa, Neo4j - https://www.youtube.com/watch?v=CbiR9xS2skQ"
+  - "[[sources/watchv=cbir9xs2skq]]"
 summary: "Jesús Barrasa, Field CTO for AI at Neo4j, demonstrates how ontologies serve as an implementation-agnostic schema that drives both knowledge graph construction and dynamic retrieval behavior, solving the schema divergence problem across structured and unstructured data pipelines."
 provenance:
   extracted: 0.85

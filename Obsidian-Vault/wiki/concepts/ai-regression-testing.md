@@ -7,8 +7,8 @@ tags:
   - evaluation
   - reliability
 sources:
-  - "AI Engineer World's Fair 2025 talk — Practical tactics to build reliable AI apps — Dmitry Kuchin, Multinear - https://www.youtube.com/watch?v=-T6uZYYzkWw"
-  - "AIEF2025 - Strategies for LLM Evals (GuideLLM, lm-eval-harness, OpenAI Evals Workshop) — Taylor Jordan Smith - https://www.youtube.com/watch?v=89NuzmKokIk"
+  - "[[sources/watchv=-t6uzyyzkww]]"
+  - "[[sources/watchv=89nuzmkokik]]"
 summary: "In AI applications, changes to prompts, models, logic, or data that fix one issue frequently break something that previously worked — making frequent comprehensive regression testing essential."
 provenance:
   extracted: 0.78

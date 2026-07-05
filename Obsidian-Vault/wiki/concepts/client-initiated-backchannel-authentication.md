@@ -9,7 +9,7 @@ tags:
   - headless
   - protocol
 sources:
-  - "AIEF2025 - Securing Agents with Open Standards — Bobby Tiernay and Kam Sween, Auth0 - https://www.youtube.com/watch?v=FZoMSupg37E"
+  - "[[sources/watchv=fzomsupg37e]]"
 summary: "An OAuth flow enabling authentication and consent for headless agents without a browser UI, using push notifications to a user's trusted device for approval."
 lifecycle: draft
 tier: supporting

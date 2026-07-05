@@ -10,7 +10,7 @@ aliases:
   - USDC settlement
   - digital dollar settlement
 sources:
-  - "AIEF2025 - Automating Escrow with USDC and AI - Corey Cooper, Circle - https://www.youtube.com/watch?v=AXMdSqdoGHM"
+  - "[[sources/watchv=axmdsqdoghm]]"
 summary: "Near-instant, irreversible value settlement using fiat-pegged stablecoins on public blockchain networks, enabling global 24/7 transaction finality."
 provenance:
   extracted: 0.80

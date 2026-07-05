@@ -8,7 +8,7 @@ aliases:
   - cognitive technology
   - tools for thought
 sources:
-  - "AIEF2025 - Useful General Intelligence — Danielle Perszyk, Amazon AGI - https://www.youtube.com/watch?v=Dj0b_cEBHHI"
+  - "[[sources/watchv=dj0b_cebhhi]]"
 summary: "A series of foundational technologies — language, writing, mathematics, computing, now AI agents — each enabling increasingly abstract thought and reorganizing human cognition. Each cognitive technology serves as the foundation for the next."
 provenance:
   extracted: 0.75

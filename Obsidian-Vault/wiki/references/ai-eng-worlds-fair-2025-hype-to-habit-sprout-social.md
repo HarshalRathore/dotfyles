@@ -7,7 +7,7 @@ tags:
   - transformation
   - strategy
 sources:
-  - "https://www.youtube.com/watch?v=3YGRcgZJ3yc"
+  - "[[sources/watchv=3ygrcgzj3yc]]"
 summary: "AI Engineer World's Fair 2025 talk by Sprout Social on their candid, real-time AI transformation journey — covering a three-dimensional framework across strategy, ways of working, and people."
 provenance:
   extracted: 0.80

@@ -8,7 +8,7 @@ tags:
   - product
   - testing
 sources:
-  - "AI Engineer World's Fair 2025 — How to build world-class AI products — Sarah Sachs (AI lead @ Notion) & Carlos Esteban (Braintrust) - https://www.youtube.com/watch?v=6YdPI9YbjbI"
+  - "[[sources/watchv=6ydpi9ybjbi]]"
 summary: "The practice of starting AI evaluation datasets with a small number (10-30) of handcrafted, carefully structured examples rather than generating large volumes of synthetic or dummy data."
 provenance:
   extracted: 0.65

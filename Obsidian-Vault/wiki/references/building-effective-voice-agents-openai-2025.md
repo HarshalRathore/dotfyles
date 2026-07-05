@@ -7,7 +7,7 @@ tags:
   - openai
   - ai-engineer
 sources:
-  - "https://www.youtube.com/watch?v=-OXiljTJxQU"
+  - "[[sources/watchv=-oxiljtjxqu]]"
 summary: "AI Engineer World's Fair 2025 talk covering voice agent architectures, prompting, evals, guardrails, and production patterns for speech-to-speech applications."
 provenance:
   extracted: 0.85

@@ -7,7 +7,7 @@ tags:
   - evaluation
   - ai-engineer-worlds-fair-2025
 sources:
-  - "AIEF2025 - Build Dynamic Products, and Stop the AI Sideshow — Eliza Cabrera (Workday) + Jeremy Silva (Freeplay) - https://www.youtube.com/watch?v=CB-4NKDYnRs"
+  - "[[sources/watchv=cb-4nkdynrs]]"
 summary: "Company focused on solving operational problems in Gen AI product development. Jeremy, Freeplay's product lead, co-presented at AI Engineer World's Fair 2025 on the build-operate divide."
 provenance:
   extracted: 0.75

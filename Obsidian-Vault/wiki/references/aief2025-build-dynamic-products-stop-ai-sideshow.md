@@ -9,7 +9,7 @@ tags:
   - ai-integration
   - crawl-walk-run
 sources:
-  - "AIEF2025 - Build Dynamic Products, and Stop the AI Sideshow — Eliza Cabrera (Workday) + Jeremy Silva (Freeplay) - https://www.youtube.com/watch?v=CB-4NKDYnRs"
+  - "[[sources/watchv=cb-4nkdynrs]]"
 summary: "AI Engineer World's Fair 2025 talk by Eliza Cabrera (Workday) and Jeremy Silva (Freeplay) arguing against bolt-on AI features and presenting the crawl-walk-run framework for deeply integrating AI into products."
 provenance:
   extracted: 0.85

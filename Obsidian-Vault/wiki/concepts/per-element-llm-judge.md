@@ -8,7 +8,7 @@ tags:
   - testing
   - product
 sources:
-  - "AI Engineer World's Fair 2025 — How to build world-class AI products — Sarah Sachs (AI lead @ Notion) & Carlos Esteban (Braintrust) - https://www.youtube.com/watch?v=6YdPI9YbjbI"
+  - "[[sources/watchv=6ydpi9ybjbi]]"
 summary: "An evaluation methodology where each data point in a dataset has its own unique judge prompt with specific scoring criteria, rather than a single generic LLM-as-judge prompt applied to all samples."
 provenance:
   extracted: 0.70

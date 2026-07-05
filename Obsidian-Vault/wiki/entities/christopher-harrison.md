@@ -9,7 +9,8 @@ tags:
   - aief2025
 aliases: [Chris Harrison, geek trainer]
 sources:
-  - "AIEF2025 - Collaborating with Agents in your Software Dev Workflow — Jon Peck & Christopher Harrison, Microsoft - https://www.youtube.com/watch?v=G1hhmz6mXT0"
+  - "[[sources/watchv=g1hhmz6mxt0]]"
+  - "AIEF2025 - The Agent Awakens: Collaborative Development with Copilot - Christopher Harrison, GitHub - https://www.youtube.com/watch?v=tHJSZ1-ZqcA"
 summary: "GitHub Enterprise Advocate (formerly Microsoft), developer experience advocate and speaker at AI Engineer World's Fair 2025. Co-presented on GitHub Copilot's evolution and coding agent workflows."
 provenance:
   extracted: 0.85
@@ -19,7 +20,7 @@ base_confidence: 0.65
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
-updated: 2026-07-03
+updated: 2026-07-05
 ---
 
 # Christopher Harrison
@@ -49,3 +50,4 @@ Alongside [[entities/jon-peck|Jon Peck]], Harrison presented a hands-on lab on G
 ## Sources
 
 - AIEF2025 — Collaborating with Agents in your Software Dev Workflow, Jon Peck & Christopher Harrison, Microsoft. https://www.youtube.com/watch?v=G1hhmz6mXT0
+- AIEF2025 — The Agent Awakens: Collaborative Development with Copilot, Christopher Harrison, GitHub. https://www.youtube.com/watch?v=tHJSZ1-ZqcA

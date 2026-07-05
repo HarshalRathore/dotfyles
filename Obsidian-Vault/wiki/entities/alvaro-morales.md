@@ -4,7 +4,7 @@ category: entities
 tags: [person, entrepreneur, pricing, billing, ai-engineering]
 aliases: [Alvaro]
 sources:
-  - "AI Engineer World's Fair 2025 - Monetizing AI — Alvaro Morales, Orb - https://www.youtube.com/watch?v=6WQYLQB0odc"
+  - "[[sources/watchv=6wqylqb0odc]]"
 summary: "Co-founder and CEO of Orb, a billing infrastructure company for AI and SaaS companies. Speaker on AI pricing strategy and monetization."
 provenance:
   extracted: 0.80

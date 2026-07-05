@@ -10,7 +10,7 @@ aliases:
   - CUDA Graph optimization
   - cuda_graph_max_bs
 sources:
-  - "AIEF2025 - Introduction to LLM serving with SGLang - Philip Kiely and Yineng Zhang, Baseten - https://www.youtube.com/watch?v=Ahtaha9fEM0"
+  - "[[sources/watchv=ahtaha9fem0]]"
 summary: "Technique for capturing and reusing GPU computation graphs to accelerate LLM decoding in serving frameworks like SGLang and vLLM."
 provenance:
   extracted: 0.60

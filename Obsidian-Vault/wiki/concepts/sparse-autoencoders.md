@@ -8,7 +8,7 @@ tags:
   - technique
   - neural-networks
 sources:
-  - "AI Engineer World's Fair 2025 - Why you should care about AI interpretability - Mark Bissell, Goodfire AI - https://www.youtube.com/watch?v=6AVMHZPjpTQ"
+  - "[[sources/watchv=6avmhzpjptq]]"
 summary: "A neural network architecture used in mechanistic interpretability to discover interpretable features inside LLMs by learning sparse decompositions of model activations into individual concept representations."
 provenance:
   extracted: 0.75

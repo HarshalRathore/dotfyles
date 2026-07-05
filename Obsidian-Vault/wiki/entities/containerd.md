@@ -6,10 +6,10 @@ created:
 updated:
   - 2026-06-30
 sources:
-  - "install-kubernetes-components_c70e92"
-  - "manual-notes_10b5c5"
-  - "scheduling_f2b3ef"
-  - "containerd-cri-etc_fb87d8"
+  - "[[sources/install-kubernetes-components_c70e92]]"
+  - "[[sources/manual-notes_10b5c5]]"
+  - "[[sources/scheduling_f2b3ef]]"
+  - "[[sources/containerd-cri-etc_fb87d8]]"
 tags:
   - product
 aliases:

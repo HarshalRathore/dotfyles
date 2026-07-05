@@ -8,7 +8,7 @@ tags:
   - deep-research
   - parallelization
 sources:
-  - "AI Engineer World's Fair 2025 - Effective agent design patterns in production — Laurie Voss, LlamaIndex - https://www.youtube.com/watch?v=72XxWkd8Jrk"
+  - "[[sources/watchv=72xxwkd8jrk]]"
 summary: "Agent design pattern where an LLM orchestrator decomposes a complex task into simpler sub-questions, dispatches them in parallel to worker LLMs, then aggregates results into a coherent answer."
 provenance:
   extracted: 0.75

@@ -4,7 +4,7 @@ category: entities
 tags: [company, ai-product, note-taking, productivity, case-study]
 aliases: [Granola AI, Granola app]
 sources:
-  - "AI Engineer World's Fair 2025 talk - Survive the AI Knife Fight: Building Products That Win — Brian Balfour, Reforge - https://www.youtube.com/watch?v=1MVh05GDydE"
+  - "[[sources/watchv=1mvh05gdyde]]"
 summary: "AI note-taking product that differentiates by empowering users to take better notes rather than replacing them. Used as a primary case study of the AI Lego Blocks Framework."
 provenance:
   extracted: 0.80

@@ -6,7 +6,7 @@ tags:
   - interpretability
   - startup
 sources:
-  - "AI Engineer World's Fair 2025 - Why you should care about AI interpretability - Mark Bissell, Goodfire AI - https://www.youtube.com/watch?v=6AVMHZPjpTQ"
+  - "[[sources/watchv=6avmhzpjptq]]"
 summary: "AI interpretability company building the Ember platform for mechanistic interpretability — enabling debugging, steering, and programming of models at the neuron level. Also created Paint with Ember, an interpretability-driven image generation interface."
 provenance:
   extracted: 0.80

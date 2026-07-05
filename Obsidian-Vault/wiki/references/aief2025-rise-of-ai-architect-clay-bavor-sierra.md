@@ -9,7 +9,7 @@ tags:
   - sierra
   - customer-experience
 sources:
-  - "https://www.youtube.com/watch?v=C3geUfBR2js"
+  - "[[sources/watchv=c3geufbr2js]]"
 summary: "AI Engineer World's Fair 2025 talk by Clay Bavor (Sierra) defining the AI Architect role — combining technology, brand/experience design, and business outcomes — and introducing the Agent Development Lifecycle (ADLC) for building production customer-facing agents."
 provenance:
   extracted: 0.80

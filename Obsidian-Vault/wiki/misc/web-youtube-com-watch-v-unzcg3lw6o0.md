@@ -3,7 +3,7 @@ title: "Building Great Agent Skills: The Missing Manual — Matt Pocock"
 category: misc
 tags: [ai, agent-skills, engineering]
 sources:
-  - "watchv=unzcg3lw6o0"
+  - "[[sources/watchv=unzcg3lw6o0]]"
 source_url: "https://www.youtube.com/watch?v=UNzCG3lw6O0"
 created: "2026-07-01T09:49:00Z"
 updated: "2026-07-01T09:49:00Z"

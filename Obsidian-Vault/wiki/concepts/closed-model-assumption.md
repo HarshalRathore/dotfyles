@@ -8,7 +8,7 @@ tags:
   - inference
 aliases: [closed-model reliance, closed frontier model assumption, API model dependency]
 sources:
-  - "AI Engineer World's Fair 2025 - The Rise of Open Models in the Enterprise — Amir Haghighat, Baseten - https://www.youtube.com/watch?v=3WV1vT0B0cg"
+  - "[[sources/watchv=3wv1vt0b0cg]]"
 summary: "The assumption that enterprises can sustainably build on closed frontier API models (OpenAI, Anthropic) indefinitely — and the four cracks (quality, latency, unit economics, destiny) that are breaking it."
 provenance:
   extracted: 0.75

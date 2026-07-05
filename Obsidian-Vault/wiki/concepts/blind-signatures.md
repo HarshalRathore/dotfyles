@@ -6,7 +6,7 @@ tags:
   - privacy
   - authentication
 sources:
-  - "AIEF2025 - The Unofficial Guide to Apple's Private Cloud Compute - Jmo, CONFSEC - https://www.youtube.com/watch?v=CCsWZ5bJlO8"
+  - "[[sources/watchv=ccswz5bjlo8]]"
 summary: "Cryptographic scheme that allows a user to obtain a signature on a message without revealing the message content to the signer — enabling anonymous authentication (auth without identity)."
 provenance:
   extracted: 0.78

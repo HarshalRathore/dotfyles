@@ -4,7 +4,7 @@ category: entities
 tags: [person, venture-capital, investor, product-strategy]
 aliases: [Ball, Jamin]
 sources:
-  - "AI Engineer World's Fair 2025 talk - Survive the AI Knife Fight: Building Products That Win — Brian Balfour, Reforge - https://www.youtube.com/watch?v=1MVh05GDydE"
+  - "[[sources/watchv=1mvh05gdyde]]"
 summary: "Partner at Altimeter Capital. Author of the 'sequence of moats' concept describing how competitive advantage has shrunk from 6-12 months to 2-3 weeks in the AI era."
 provenance:
   extracted: 0.80

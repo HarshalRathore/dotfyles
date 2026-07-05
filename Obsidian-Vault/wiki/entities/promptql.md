@@ -8,7 +8,8 @@ tags:
   - enterprise-ai
 aliases: [PromQL, Prompt QL]
 sources:
-  - "AI Engineer World's Fair 2025 talk - \"Data readiness\" is a Myth: Reliable AI with an Agentic Semantic Layer — Anushrut Gupta, PromptQL - https://www.youtube.com/watch?v=1nOTQsfe1RU"
+  - "[[sources/ai-engineer-worlds-fair-2025-talk]]"
+Data readiness\" is a Myth: Reliable AI with an Agentic Semantic Layer — Anushrut Gupta, PromptQL - https://www.youtube.com/watch?v=1nOTQsfe1RU"
 summary: "AI company building an agentic semantic layer with a domain-specific language (DSL) for reliable, self-improving data access. Sponsor of the reliability track at AI Engineer World's Fair 2025."
 provenance:
   extracted: 0.80

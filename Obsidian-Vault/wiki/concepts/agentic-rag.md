@@ -9,8 +9,9 @@ tags:
   - microsoft
 aliases: [multi-shot RAG, iterative RAG, agentic retrieval]
 sources:
-  - "AI Engineer World's Fair 2025 - Spark to System: Building the Open Agentic Web — Asha Sharma, Microsoft - https://www.youtube.com/watch?v=7Hrw6rtXaHc"
-  - "AIEF2025 - Agentic GraphRAG: Simplifying Retrieval Across Structured & Unstructured Data — Zach Blumenfeld - https://www.youtube.com/watch?v=CzM3cW6FdBs"
+  - "[[sources/watchv=j-9ebjbxcbg]]"
+  - "[[sources/watchv=7hrw6rtxahc]]"
+  - "[[sources/watchv=czm3cw6fdbs]]"
 provenance:
   extracted: 0.75
   inferred: 0.20
@@ -19,7 +20,7 @@ base_confidence: 0.45
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
-updated: 2026-07-03
+updated: 2026-07-04
 ---
 
 # Agentic RAG
@@ -62,6 +63,24 @@ Key differences from iterative text-based agentic RAG:
 
 The two are complementary: text-based agentic RAG can be used for open-ended research queries, while graph-augmented agentic RAG handles analytical and relationship-oriented questions. Both follow the same pattern of iterative decomposition, but the retrieval surface differs fundamentally. ^[inferred]
 
+## Beyond Agentic RAG: Deep Research
+
+An emerging evolution beyond agentic RAG is the **deep research agent** pattern, where the agent creates a retrieval plan with one or many steps before executing, rather than reacting to retrieval needs step-by-step. Deep research agents can go broad or deep depending on context needs, evaluate whether retrieved context is sufficient, and decide whether to retrieve more. ^[inferred] This pattern was demonstrated by [[entities/11x|11x]] in their Alice SDR knowledge base, where a Leto-powered agent plans multi-step context retrieval for email personalization. ^[extracted]
+
+## RAG vs. Alternatives: The Library Analogy
+
+Tengyu Ma ([[entities/mongodb|MongoDB]], acq. [[entities/voyage-ai|Voyage AI]]) frames the choice between RAG, fine-tuning, and long-context through a library analogy: ^[extracted]
+
+- **Long-context** = memorizing an entire library to answer a single question
+- **Fine-tuning** = rewiring your brain to memorize the library in advance
+- **RAG** = going to a library, finding relevant books, and reading only those
+
+RAG is modular, reliable, fast, and cheap — mirroring how humans actually use knowledge hierarchically. ^[extracted]
+
+## Demo Context
+
+In the AIEF2025 AI Red Teaming demo, [[entities/nagkumar-arkalgud|Nagkumar Arkalgud]] red-teamed a RAG application on PostgreSQL that used a llama-based model served locally via [[entities/ollama|Ollama]]. ^[extracted] The [[concepts/semantic-kernel-agent|Semantic Kernel agent]] generated adversarial prompts and sent them to this RAG app, which retrieved answers from a PostgreSQL database. ^[extracted] This demonstrated that the Red Teaming Agent can test any application accepting a query string and returning a string response — including locally-run RAG systems, not just Azure-hosted applications. ^[extracted]
+
 ## Related
 
 - [[concepts/rag-evaluation]]
@@ -72,3 +91,4 @@ The two are complementary: text-based agentic RAG can be used for open-ended res
 ## Sources
 
 - AI Engineer World's Fair 2025 — Spark to System: Building the Open Agentic Web, Asha Sharma. https://www.youtube.com/watch?v=7Hrw6rtXaHc
+- AIEF2025 - RAG in 2025: State of the Art and the Road Forward — Tengyu Ma, MongoDB (acq. Voyage AI) - https://www.youtube.com/watch?v=W_CYk2ogcDI

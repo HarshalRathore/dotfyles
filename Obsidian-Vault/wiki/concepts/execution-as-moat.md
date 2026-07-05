@@ -7,7 +7,7 @@ tags:
   - startups
 aliases: [execution is the moat, AI defensibility]
 sources:
-  - "AI Engineer World's Fair 2025 - State of Startups and AI 2025 - Sarah Guo, Conviction - https://www.youtube.com/watch?v=3MZS5gNElZM"
+  - "[[sources/watchv=3mzs5gnelzm]]"
 summary: "In AI, defensibility comes from execution — not proprietary technology, data, or first-mover advantage. Shipping a great experience faster than competitors can copy is the only lasting advantage."
 provenance:
   extracted: 0.75

@@ -9,7 +9,7 @@ tags:
   - market
 aliases: [AIEF2025 John Dickerson Year of Evals, John Dickerson Mozilla AI talk]
 sources:
-  - "AIEF2025 - 2025 is the Year of Evals! Just like 2024, and 2023, and … — John Dickerson, CEO Mozilla AI - https://www.youtube.com/watch?v=CQGuvf6gSrM"
+  - "[[sources/watchv=cqguvf6gsrm]]"
 summary: "John Dickerson (CEO, Mozilla AI, former co-founder Arthur AI) argues that three converging forces finally make 2025 the real year of AI evaluation: ChatGPT, budget freezes, and the rise of agentic systems."
 provenance:
   extracted: 0.85

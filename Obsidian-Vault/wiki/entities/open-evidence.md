@@ -6,7 +6,7 @@ tags:
   - healthcare
   - medical
 sources:
-  - "AI Engineer World's Fair 2025 - State of Startups and AI 2025 - Sarah Guo, Conviction - https://www.youtube.com/watch?v=3MZS5gNElZM"
+  - "[[sources/watchv=3mzs5gnelzm]]"
 summary: "AI platform for medical research. Clinician-only access, reaches 1/3 of US doctors weekly with daily average usage."
 provenance:
   extracted: 0.80

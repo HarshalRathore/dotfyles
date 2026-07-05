@@ -6,7 +6,7 @@ created:
 updated:
   - 2026-06-30
 sources:
-  - "resource-requests-&-limits_4bd978"
+  - "[[sources/resource-requests-&-limits_4bd978]]"
 tags:
   - scaling
 aliases:

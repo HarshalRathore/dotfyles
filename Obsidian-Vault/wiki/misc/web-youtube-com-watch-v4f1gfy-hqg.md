@@ -3,7 +3,7 @@ title: "Software Fundamentals Matter More Than Ever — Matt Pocock"
 category: misc
 tags: [ai, software-engineering, fundamentals, deep-modules, ddd, feedback-loops]
 sources:
-  - "watchv=v4f1gfy-hqg"
+  - "[[sources/watchv=v4f1gfy-hqg]]"
 source_url: "https://www.youtube.com/watch?v=v4F1gFy-hqg"
 created: 2026-06-30T23:55:00Z
 updated: 2026-06-30T23:55:00Z

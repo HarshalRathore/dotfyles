@@ -15,7 +15,7 @@ relationships:
   - target: "[[concepts/agent-design-patterns]]"
     type: extends
 sources:
-  - "AIEF2025 - MCP Is Not Good Yet — David Cramer, Sentry - https://www.youtube.com/watch?v=FCi4jT86gSw"
+  - "[[sources/watchv=fci4jt86gsw]]"
 summary: "A grounded, experience-based critique of MCP from the founder of Sentry, arguing that MCP is just a pluggable architecture for agents — not magic — and that the real value is in building agents, not exposing APIs."
 provenance:
   extracted: 0.85

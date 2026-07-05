@@ -7,7 +7,7 @@ tags:
   - startups
   - venture-capital
 sources:
-  - "AI Engineer World's Fair 2025 - State of Startups and AI 2025 - Sarah Guo, Conviction - https://www.youtube.com/watch?v=3MZS5gNElZM"
+  - "[[sources/watchv=3mzs5gnelzm]]"
 summary: "Sarah Guo, founder of Conviction, surveys the AI startup landscape in mid-2025 — reasoning as a new scaling vector, the Cursor playbook for vertical AI, the AI leapfrog effect in conservative industries, and why execution is the only moat."
 provenance:
   extracted: 0.85

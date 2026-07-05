@@ -6,7 +6,7 @@ tags:
   - ai-engineer-worlds-fair
   - evaluation
 sources:
-  - "AI Engineer World's Fair 2025 talk — Practical tactics to build reliable AI apps — Dmitry Kuchin, Multinear - https://www.youtube.com/watch?v=-T6uZYYzkWw"
+  - "[[sources/watchv=-t6uzyyzkww]]"
 summary: "Co-founder, CTO with 15+ years experience, founder of Multinear open-source evaluation platform. Speaker on practical AI evaluation and reliability methodology at AI Engineer World's Fair 2025."
 provenance:
   extracted: 0.70

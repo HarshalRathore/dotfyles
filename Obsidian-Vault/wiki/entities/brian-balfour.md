@@ -4,7 +4,7 @@ category: entities
 tags: [person, product-strategy, founder, product-management, reforge]
 aliases: [Balfour, Brian]
 sources:
-  - "AI Engineer World's Fair 2025 talk - Survive the AI Knife Fight: Building Products That Win — Brian Balfour, Reforge - https://www.youtube.com/watch?v=1MVh05GDydE"
+  - "[[sources/watchv=1mvh05gdyde]]"
 summary: "Founder and CEO of Reforge, 25+ year tech veteran, helped HubSpot launch their CRM, author of the AI Lego Blocks Framework for product differentiation."
 provenance:
   extracted: 0.80

@@ -6,7 +6,7 @@ tags:
   - design
   - aief2025
 sources:
-  - "AIEF2025 - The Bitter Layout or: How I Learned to Love the Model Picker — Maximillian Piras, Yutori - https://www.youtube.com/watch?v=BZtD0yYAgCQ"
+  - "[[sources/watchv=bztd0yyagcq]]"
 summary: "AI company employing Maximillian Piras, the designer who coined the Bitter Layout concept."
 provenance:
   extracted: 0.70

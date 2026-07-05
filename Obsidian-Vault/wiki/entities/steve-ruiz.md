@@ -6,7 +6,7 @@ relationships:
   - target: "[[entities/tldraw]]"
     type: implements
 sources:
-  - "AI Engineer World's Fair 2025 talk - tldraw.computer - Steve Ruiz, tldraw - https://www.youtube.com/watch?v=1C2TdPkj6aQ"
+  - "[[sources/watchv=1c2tdpkj6aq]]"
 summary: "Founder of tldraw, creator of the tldraw canvas SDK and tldraw.computer — a graph-based visual AI pipeline system. Speaker at AI Engineer World's Fair 2025."
 provenance:
   extracted: 0.75

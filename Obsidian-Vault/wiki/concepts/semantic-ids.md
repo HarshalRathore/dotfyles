@@ -9,7 +9,7 @@ relationships:
   - target: "[[concepts/llm-data-augmentation-recsys]]"
     type: related_to
 sources:
-  - "https://www.youtube.com/watch?v=2vlCqD6igVA"
+  - "[[sources/watchv=2vlcqd6igva]]"
 summary: "Content-aware item identifiers for recommendation systems that encode multimodal item features, replacing hash-based IDs to address cold start and sparsity problems."
 provenance:
   extracted: 0.65
@@ -57,6 +57,18 @@ Netflix uses a dedicated sub-team and graph model infrastructure to build a know
 
 Netflix's current research direction includes universal representation for heterogeneous entities via semantic IDs, aiming to cover expanding content types (games, live streaming) under a single embedding space. ^[extracted]
 
+## YouTube's Semantic ID (SID)
+
+YouTube's approach to Semantic IDs uses a different technique from Kuaishou's two-tower model. YouTube's Semantic ID pipeline:
+
+1. **Feature extraction**: Title, description, transcript, audio, and video frame-level data are extracted from each video
+2. **Multi-dimensional embedding**: All features are combined into a single embedding
+3. **RQVAE quantization**: The embedding is quantized using Residual Quantized Variational Autoencoder to produce a video token ^[extracted]
+
+The tokens create a hierarchical organization: first token for broad topics (music, gaming, sports), sub-tokens for specific sub-topics, shared prefixes for similar videos, and unique suffix identifiers. This creates a "new language" of YouTube where billions of videos are organized around semantically meaningful tokens. ^[extracted]
+
+YouTube uses Semantic IDs as the fundamental tokenization layer for its [[concepts/large-recommender-model|Large Recommender Model]], enabling LLM-based generative retrieval for video recommendations at 2B+ DAU. ^[extracted]
+
 
 ## Related Concepts
 
@@ -64,7 +76,9 @@ Netflix's current research direction includes universal representation for heter
 - [[concepts/two-tower-semantic-id-model]] — The architectural pattern used by Kuaishou
 - [[concepts/llm-data-augmentation-recsys|LLM Data Augmentation for RecSys]] — Complementary LLM approach for handling data sparsity
 - [[concepts/unified-recommendation-models]] — Unified models that also benefit from semantic understanding
+- [[concepts/large-recommender-model]] — YouTube's LRM uses SID for generative retrieval
 - [[entities/kuaishou]] — The company that pioneered trainable multimodal semantic IDs
+- [[entities/youtube]] — Company using RQVAE-based Semantic IDs
 
 ## Sources
 
@@ -72,3 +86,6 @@ Netflix's current research direction includes universal representation for heter
 - [[entities/netflix]] — Company using graph-based semantic embeddings
 - [[references/improving-recsys-search-llms-eugene-yan|Recsys Keynote: Improving Recommendation Systems & Search in the Age of LLMs]]
 - [[references/aief2025-netflix-one-model-recommendations-yesu-feng|AIEF2025 — Netflix's Big Bet: One Model to Rule Recommendations]]
+- [[references/aief2025-teaching-gemini-to-speak-youtube-devansh-tandon|AIEF2025 - Teaching Gemini to Speak YouTube]]
+
+

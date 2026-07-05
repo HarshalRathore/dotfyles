@@ -15,7 +15,7 @@ relationships:
   - target: "[[concepts/model-as-unit-test-paradigm]]"
     type: related_to
 sources:
-  - "AIEF2025 - Google Photos Magic Editor: GenAI Under the Hood of a Billion-User App - Kelvin Ma, Google Photos - https://www.youtube.com/watch?v=C13jiFWNuo8"
+  - "[[sources/watchv=c13jifwnuo8]]"
 summary: "Using on-device ML compute (not sensor quality) to replace traditional computational photography techniques, pioneered by Google Photos' Computational Photography team (est. 2018)."
 provenance:
   extracted: 0.70

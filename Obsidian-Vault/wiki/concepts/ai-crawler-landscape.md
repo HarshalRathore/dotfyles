@@ -13,7 +13,7 @@ relationships:
   - target: "[[concepts/agent-traffic-inversion]]"
     type: related_to
 sources:
-  - "AIEF2025 - How to defend your sites from AI bots — David Mytton, Arcjet - https://www.youtube.com/watch?v=Gi4V8viBGYQ"
+  - "[[sources/watchv=gi4v8vibgyq]]"
 summary: "The evolving taxonomy of AI-driven crawlers visiting web applications — from search indexers to model trainers to autonomous agents — and the challenge of distinguishing beneficial from malicious traffic."
 provenance:
   extracted: 0.75

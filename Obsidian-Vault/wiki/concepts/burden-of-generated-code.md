@@ -19,7 +19,7 @@ relationships:
   - target: "[[concepts/legacy-code-ai-agent-strategy]]"
     type: related_to
 sources:
-  - "AIEF2025 - Vibes won't cut it — Chris Kelly, Augment Code - https://www.youtube.com/watch?v=Dc3qOA9WOnE"
+  - "[[sources/watchv=dc3qoa9wone]]"
 summary: "Every line of code — whether human-written or AI-generated — comes with maintenance, debugging, and comprehension costs. More generated code is not better; it's more to maintain."
 provenance:
   extracted: 0.85
@@ -47,6 +47,8 @@ Every line of code carries a burden: it must be maintained, debugged, understood
 - AI coding tools should be evaluated on code *avoided* or *simplified*, not code generated. ^[inferred]
 - Code review gates become more important with AI-generated code because each line must justify its existence against the maintenance burden it introduces. ^[inferred]
 - The "who cares how much code AI can generate" framing reframes the AI coding debate: the goal is minimal, correct code, not maximal output. ^[extracted]
+- **Compounding degradation:** If you keep writing slop and accepting everything, even skilled engineers hit a roadblock where they cannot move forward — bad output degrades the agent's ability to produce good output in subsequent iterations. ^[extracted] This creates a compounding burden where early bad decisions cascade through later generations. ^[inferred]
+
 
 ## Related
 

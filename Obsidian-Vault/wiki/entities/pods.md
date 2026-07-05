@@ -6,10 +6,10 @@ created:
 updated:
   - 2026-06-30
 sources:
-  - "rolling-updates-&-rollbacks_f484ef"
-  - "replication-controller-&-replicaset_285a2a"
-  - "pods_c92b62"
-  - "init-containers_798910"
+  - "[[sources/rolling-updates-&-rollbacks_f484ef]]"
+  - "[[sources/replication-controller-&-replicaset_285a2a]]"
+  - "[[sources/pods_c92b62]]"
+  - "[[sources/init-containers_798910]]"
 tags:
   - term
 aliases:

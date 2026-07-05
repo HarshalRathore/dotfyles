@@ -8,7 +8,7 @@ tags:
   - speaker
   - aief2025
 sources:
-  - "AIEF2025 - Build Dynamic Products, and Stop the AI Sideshow — Eliza Cabrera (Workday) + Jeremy Silva (Freeplay) - https://www.youtube.com/watch?v=CB-4NKDYnRs"
+  - "[[sources/watchv=cb-4nkdynrs]]"
 summary: "Principal AI Product Manager at Workday, building the financial audit agent and leading go-to-market for Workday's policy agent and Workday Assistant."
 provenance:
   extracted: 0.80

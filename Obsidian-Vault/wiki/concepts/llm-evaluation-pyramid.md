@@ -12,7 +12,7 @@ aliases:
   - LLM Eval Pyramid
   - Eval Pyramid
 sources:
-  - "AIEF2025 - Strategies for LLM Evals (GuideLLM, lm-eval-harness, OpenAI Evals Workshop) — Taylor Jordan Smith - https://www.youtube.com/watch?v=89NuzmKokIk"
+  - "[[sources/watchv=89nuzmkokik]]"
 summary: "A tiered framework for evaluating LLMs in production, progressing from system performance (base) through formatting, factual accuracy, safety/bias, to custom evals (top) — analogous to the software testing pyramid."
 provenance:
   extracted: 0.70

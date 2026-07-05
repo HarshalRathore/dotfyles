@@ -6,10 +6,10 @@ created:
 updated:
   - 2026-06-30
 sources:
-  - "install-kubernetes-components_c70e92"
-  - "manual-notes_10b5c5"
-  - "static-pod_d72e06"
-  - "main-kubernetes-components_82b036"
+  - "[[sources/install-kubernetes-components_c70e92]]"
+  - "[[sources/manual-notes_10b5c5]]"
+  - "[[sources/static-pod_d72e06]]"
+  - "[[sources/main-kubernetes-components_82b036]]"
 tags:
   - product
 aliases:

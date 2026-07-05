@@ -7,7 +7,7 @@ tags:
   - architecture
   - pattern
 sources:
-  - "AIEF2025 - CIAM for AI: Authn/Authz for Agents — Michael Grinich, CEO of WorkOS - https://www.youtube.com/watch?v=D4Dswf-__RM"
+  - "[[sources/watchv=d4dswf-__rm]]"
 summary: "Identity architecture pattern where an agent gets a shadow persona that reflects off a user identity but with scoped-down privileges, enabling isolation and accountability."
 lifecycle: draft
 tier: supporting

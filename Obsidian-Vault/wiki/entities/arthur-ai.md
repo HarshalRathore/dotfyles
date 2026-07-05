@@ -8,7 +8,7 @@ tags:
   - security
 aliases: [Arthur AI, Arthur]
 sources:
-  - "AIEF2025 - 2025 is the Year of Evals! Just like 2024, and 2023, and … — John Dickerson, CEO Mozilla AI - https://www.youtube.com/watch?v=CQGuvf6gSrM"
+  - "[[sources/watchv=cqguvf6gsrm]]"
 summary: "AI observability, evaluation, and security company (founded ~2018). Provides monitoring and guardrails across traditional ML, deep learning, gen AI, and agentic AI."
 provenance:
   extracted: 0.70

@@ -6,7 +6,7 @@ tags:
   - ai
   - voice
 sources:
-  - "AI Engineer World's Fair 2025 talk — Building Effective Voice Agents — Toki Sherbakov + Anoop Kotha, OpenAI - https://www.youtube.com/watch?v=-OXiljTJxQU"
+  - "[[sources/watchv=-oxiljtjxqu]]"
 summary: "Dating app cited as a case study for voice agent brand customization, specifically for their Riz Chat experience."
 provenance:
   extracted: 0.70

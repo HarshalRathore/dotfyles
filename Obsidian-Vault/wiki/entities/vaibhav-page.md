@@ -10,7 +10,7 @@ aliases:
   - vaibhav-page
   - Vibev
 sources:
-  - "AI Engineer World's Fair 2025 talk — How BlackRock Builds Custom Knowledge Apps at Scale — Vaibhav Page & Infant Vasanth, BlackRock - https://www.youtube.com/watch?v=08mH36_NVos"
+  - "[[sources/watchv=08mh36_nvos]]"
 summary: "Principal Engineer at BlackRock, working on the data platform team, focused on building AI knowledge applications and the sandbox + app factory framework for enterprise AI at scale."
 provenance:
   extracted: 0.85

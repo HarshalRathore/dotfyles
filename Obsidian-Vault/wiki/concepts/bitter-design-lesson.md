@@ -7,7 +7,7 @@ tags:
   - product
   - aief2025
 sources:
-  - "AIEF2025 - The Bitter Layout or: How I Learned to Love the Model Picker — Maximillian Piras, Yutori - https://www.youtube.com/watch?v=BZtD0yYAgCQ"
+  - "[[sources/watchv=bztd0yyagcq]]"
 summary: "The design corollary to Sutton's Bitter Lesson: if models are not commoditized and inference performance drives competition, the UI is the commodity — interfaces must conform to the next model's capabilities."
 provenance:
   extracted: 0.55

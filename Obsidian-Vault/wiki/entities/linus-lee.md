@@ -7,7 +7,7 @@ tags:
   - design
   - aief2025
 sources:
-  - "AIEF2025 - The Bitter Layout or: How I Learned to Love the Model Picker — Maximillian Piras, Yutori - https://www.youtube.com/watch?v=BZtD0yYAgCQ"
+  - "[[sources/watchv=bztd0yyagcq]]"
 summary: "Early critic (May 2022) of the raw text completion UI paradigm for AI, arguing before ChatGPT launched that it is not the right long-term interaction model."
 provenance:
   extracted: 0.65

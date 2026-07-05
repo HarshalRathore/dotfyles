@@ -8,7 +8,7 @@ tags:
   - iam
   - okta
 sources:
-  - "AIEF2025 - Securing Agents with Open Standards — Bobby Tiernay and Kam Sween, Auth0 - https://www.youtube.com/watch?v=FZoMSupg37E"
+  - "[[sources/watchv=fzomsupg37e]]"
 summary: "Auth0 (an Okta company) is a leading identity and access management platform that provides authentication, authorization, and user management for applications, now extending to AI agent identity with Auth4Gen, an Auth0 MCP server, and agent-focused token exchange patterns."
 lifecycle: draft
 tier: supporting
@@ -42,7 +42,10 @@ Bobby Tiernay and Kam Sween (Auth0 engineers) advocate three practical patterns 
 - [[concepts/mcp-gateway-pattern]] — Gateway pattern for MCP
 - [[references/aief2025-ciam-for-ai-michael-grinich]] — WorkOS perspective on agent identity
 - [[entities/workos]] — Competitor/peer in the agent identity space
+- [[concepts/mcp-auth-spec-evolution]] — Auth0 is one of the identity providers the new MCP auth spec supports as an authorization server
+- [[concepts/mcp-resource-server-separation]] — Auth0 serves as the authorization server in the MCP resource server separation pattern
 
 ## Sources
 
 - [[references/aief2025-securing-agents-open-standards-bobby-tiernay-auth0|Securing Agents with Open Standards — Bobby Tiernay and Kam Sween, Auth0 (AI Engineer World's Fair 2025)]]
+- AIEF2025 - Building Protected MCP Servers — Den Delimarsky and Julia Kasper, MCP Steering Committee & Microsoft - https://www.youtube.com/watch?v=PHBGhUKAM-w

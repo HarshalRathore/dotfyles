@@ -4,7 +4,7 @@ category: concepts
 tags: [product-strategy, data, flywheel, competitive-advantage, ai-product]
 aliases: [data-output flywheel, AI flywheel, data compounding]
 sources:
-  - "AI Engineer World's Fair 2025 talk - Survive the AI Knife Fight: Building Products That Win — Brian Balfour, Reforge - https://www.youtube.com/watch?v=1MVh05GDydE"
+  - "[[sources/watchv=1mvh05gdyde]]"
 summary: "A self-reinforcing cycle where proprietary data generates unique AI outputs, which build more proprietary data, compounding competitive advantage over time."
 provenance:
   extracted: 0.75

@@ -10,7 +10,7 @@ aliases:
   - Charles Frye
   - Charles Frye Modal
 sources:
-  - "AIEF2025 - How fast are LLM inference engines anyway? — Charles Frye, Modal - https://www.youtube.com/watch?v=DeFF3J8T5Pk"
+  - "[[sources/watchv=deff3j8t5pk]]"
 summary: "Developer Advocate at Modal. Created the LLM Almanac benchmark. Predicted open models would catch up to proprietary models (2023). Known for LLM inference benchmarking and performance analysis."
 provenance:
   extracted: 0.80

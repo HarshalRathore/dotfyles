@@ -7,7 +7,7 @@ tags:
   - devops
   - ai-adoption
 sources:
-  - "AIEF2025 - Unlocking AI Powered DevOps Within Your Organization — Jon Peck, GitHub - https://www.youtube.com/watch?v=C1NivhYS1sI"
+  - "[[sources/watchv=c1nivhys1si]]"
 summary: "Talk by Jon Peck (GitHub Developer Advocate) on organizational AI adoption strategy — brownfield-first learning, agentic IDE workflows, codifying team practices via Copilot Instructions, enterprise governance, and the issue-to-PR autonomous pipeline."
 provenance:
   extracted: 0.80

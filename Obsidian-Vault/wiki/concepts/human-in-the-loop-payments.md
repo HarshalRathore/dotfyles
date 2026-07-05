@@ -10,7 +10,7 @@ aliases:
   - human oversight payments
   - AI payment safety
 sources:
-  - "AIEF2025 - Automating Escrow with USDC and AI - Corey Cooper, Circle - https://www.youtube.com/watch?v=AXMdSqdoGHM"
+  - "[[sources/watchv=axmdsqdoghm]]"
 summary: "The design pattern of keeping a human as the final approver in AI-driven payment workflows, reflecting the current gap between probabilistic AI and deterministic payment systems."
 provenance:
   extracted: 0.65

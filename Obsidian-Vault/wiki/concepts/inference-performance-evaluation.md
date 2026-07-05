@@ -13,8 +13,8 @@ aliases:
   - System Performance Evaluation
   - Inference Benchmarks
 sources:
-  - "AIEF2025 - Strategies for LLM Evals (GuideLLM, lm-eval-harness, OpenAI Evals Workshop) — Taylor Jordan Smith - https://www.youtube.com/watch?v=89NuzmKokIk"
-  - "AIEF2025 - How fast are LLM inference engines anyway? — Charles Frye, Modal - https://www.youtube.com/watch?v=DeFF3J8T5Pk"
+  - "[[sources/watchv=89nuzmkokik]]"
+  - "[[sources/watchv=deff3j8t5pk]]"
 summary: "System-level evaluation of LLM inference performance measuring latency, throughput, time-to-first-token, and inter-token latency. Covers both GuideLLM methodology and Modal LLM Almanac's prefill-vs-decode throughput benchmarking."
 provenance:
   extracted: 0.75

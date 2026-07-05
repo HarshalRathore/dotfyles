@@ -8,7 +8,7 @@ tags:
   - operations
 aliases: [mean time to resolve explainable errors, MT-T-R-E, MTTRE]
 sources:
-  - "AI Engineer World's Fair 2025 - Critical AI Inference your CIO can Trust — Sahil Yadav, Hariharan Ganesan, Telemetrak - https://www.youtube.com/watch?v=6Tpm4m1YxHk"
+  - "[[sources/watchv=6tpm4m1yxhk]]"
 summary: "A metric measuring how quickly teams can understand why an unexpected AI behavior happened and deploy a fix. Faster MT-T-R-E correlates with more agile teams, fewer defects, and quicker problem resolution."
 provenance:
   extracted: 0.85

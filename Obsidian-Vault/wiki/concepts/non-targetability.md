@@ -8,7 +8,7 @@ tags:
 aliases:
   - Non-targetability
 sources:
-  - "AIEF2025 - The Unofficial Guide to Apple's Private Cloud Compute - Jmo, CONFSEC - https://www.youtube.com/watch?v=CCsWZ5bJlO8"
+  - "[[sources/watchv=ccswz5bjlo8]]"
 summary: "Privacy property ensuring an attacker cannot single out a specific user's data — to find a target, they would need to compromise all data and sift through it."
 provenance:
   extracted: 0.80

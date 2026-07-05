@@ -7,7 +7,7 @@ tags:
   - agents
   - workflow
 sources:
-  - "https://www.youtube.com/watch?v=8SUJEqQNClw"
+  - "[[sources/watchv=8sujeqqnclw]]"
 summary: "AI Engineer World's Fair 2025 talk by Sam Bhagwat (Mastra.ai) arguing for composing agents and workflows together, rather than treating them as opposing paradigms. Covers composition patterns, code readability, and the power-vs-control trade-off in production AI systems."
 provenance:
   extracted: 0.80

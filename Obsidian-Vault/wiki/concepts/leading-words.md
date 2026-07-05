@@ -5,7 +5,8 @@ tags:
   - "prompt-engineering"
   - steering
 sources:
-  - "web-youtube-com-watch-v-unzcg3lw6o0"
+  - "[[sources/web-youtube-com-watch-v-unzcg3lw6o0]]"
+
 ---
 # Leading Words
 

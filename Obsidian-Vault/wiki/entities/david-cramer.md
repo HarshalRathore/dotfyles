@@ -8,7 +8,7 @@ tags:
   - sentry
 aliases: [David Kramer, dcramer]
 sources:
-  - "AIEF2025 - MCP Is Not Good Yet — David Cramer, Sentry - https://www.youtube.com/watch?v=FCi4jT86gSw"
+  - "[[sources/watchv=fci4jt86gsw]]"
 summary: "Founder of Sentry (application monitoring platform). Engineer-executive who built Sentry's MCP server and advocates for pragmatic agent architectures over protocol hype."
 provenance:
   extracted: 0.85

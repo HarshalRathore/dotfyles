@@ -9,8 +9,8 @@ updated:
 lifecycle: draft
 base_confidence: 0.75
 sources:
-  - "tls-certificates_c8ca8c"
-  - "how-tls-certificates-work-in-kubernetes-and-manual-cluster-setup_e2b507"
+  - "[[sources/tls-certificates_c8ca8c]]"
+  - "[[sources/how-tls-certificates-work-in-kubernetes-and-manual-cluster-setup_e2b507]]"
 tags:
 ---
 ## Description

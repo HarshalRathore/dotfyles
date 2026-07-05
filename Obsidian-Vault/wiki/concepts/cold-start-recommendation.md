@@ -11,7 +11,7 @@ relationships:
   - target: "[[concepts/recsys-foundation-model]]"
     type: related_to
 sources:
-  - "https://www.youtube.com/watch?v=2vlCqD6igVA"
+  - "[[sources/watchv=2vlcqd6igva]]"
 summary: "The challenge of making accurate recommendations for new items or categories with no interaction history, addressed by semantic IDs and LLM-based data augmentation."
 provenance:
   extracted: 0.60
@@ -53,6 +53,10 @@ When a platform introduces an entirely new category (e.g., Spotify adding podcas
 4. **Unified models**: Leverage shared representations across tasks to bootstrap new use cases ([[concepts/unified-recommendation-models|Unified Recommendation Models]]) ^[inferred]
 5. **Combined ID + semantic embeddings**: Netflix's recommendation foundation model combines learned ID embeddings with semantic content information from graph models, enabling cold-start recommendations for new titles without interaction history. ^[extracted]
 
+**YouTube's LRM approach**: YouTube's Large Recommender Model uses [[concepts/semantic-video-tokenization|Semantic ID]] tokenization with RQVAE quantization to give new videos meaningful embeddings immediately. LRM's generative retrieval can recommend new or rare videos by reasoning over their SID tokens even with minimal interaction data. ^[extracted]
+
+**Offline recommendations table**: YouTube also explored precomputing recommendations offline — building a lookup table mapping "if watching video A, what's good to watch next?" — to reduce the serving cost of real-time LRM inference for cold-start scenarios. ^[extracted]
+
 ## Related Concepts
 
 - [[concepts/recsys-foundation-model]] — Foundation model mitigates cold start via combined ID + semantic embeddings
@@ -60,7 +64,13 @@ When a platform introduces an entirely new category (e.g., Spotify adding podcas
 - [[concepts/exploratory-query-recommendation]] — Solution for category cold start
 - [[concepts/unified-recommendation-models]] — Shared representations help mitigate cold start
 - [[concepts/quality-vs-quantity-recommendations]] — Quality improvements reduce cold-start impact
+- [[concepts/semantic-video-tokenization]] — YouTube's SID approach for cold start
+- [[concepts/large-recommender-model]] — LRM's generative retrieval for new content
+- [[concepts/offline-recommendation-table]] — Precomputed recommendations for cost efficiency
 
 ## Sources
+- [[references/aief2025-teaching-gemini-to-speak-youtube-devansh-tandon|AIEF2025 - Teaching Gemini to Speak YouTube]]
+
+- "AIEF2025 - Teaching Gemini to Speak YouTube: Adapting LLMs for Video Recommendations to 2B+DAU - Devansh Tandon - https://www.youtube.com/watch?v=LxQsQ3vZDqo"
 
 - [[references/aief2025-netflix-one-model-recommendations-yesu-feng|AIEF2025 — Netflix's Big Bet: One Model to Rule Recommendations]]

@@ -9,8 +9,8 @@ updated:
 lifecycle: draft
 base_confidence: 0.75
 sources:
-  - "main-kubernetes-components_82b036"
-  - "env-configmaps-&-secrets_9586ac"
+  - "[[sources/main-kubernetes-components_82b036]]"
+  - "[[sources/env-configmaps-&-secrets_9586ac]]"
 tags:
 ---
 ## Description

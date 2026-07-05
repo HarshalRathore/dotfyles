@@ -16,7 +16,7 @@ relationships:
   - target: "[[entities/kelvin-ma]]"
     type: related_to
 sources:
-  - "AIEF2025 - Google Photos Magic Editor: GenAI Under the Hood of a Billion-User App - Kelvin Ma, Google Photos - https://www.youtube.com/watch?v=C13jiFWNuo8"
+  - "[[sources/watchv=c13jifwnuo8]]"
 summary: "Google's photo platform with 1.5B MAU and hundreds of millions of monthly edits. Hosts the Computational Photography Team pioneering on-device ML photo editing."
 provenance:
   extracted: 0.65

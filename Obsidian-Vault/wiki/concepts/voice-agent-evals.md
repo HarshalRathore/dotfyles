@@ -7,7 +7,9 @@ tags:
   - testing
   - observability
 sources:
-  - "AI Engineer World's Fair 2025 talk — Building Effective Voice Agents — Toki Sherbakov + Anoop Kotha, OpenAI - https://www.youtube.com/watch?v=-OXiljTJxQU"
+  - "[[sources/watchv=-oxiljtjxqu]]"
+  - "[[sources/watchv=hoylz7ivgjo]]"
+  - "[[sources/watchv=l8ooyedi_ls]]"
 summary: "Four-tier evaluation strategy for voice agents: observability, SME labeling, transcription-based evals, audio evals, and synthetic conversation simulation."
 provenance:
   extracted: 0.70
@@ -15,9 +17,10 @@ provenance:
   ambiguous: 0.05
 base_confidence: 0.42
 lifecycle: draft
+lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-03
-updated: 2026-07-03
+updated: 2026-07-04
 ---
 
 # Voice Agent Evals
@@ -65,12 +68,28 @@ An emerging technique: simulate conversations between two real-time API clients 
 - Coverage of edge cases and rare scenarios
 - Extraction of eval metrics from derived transcripts and audio
 
+## Production Example: Finvoice
+
+[[entities/intercom-fin|Intercom Fin]] uses a five-layer evaluation approach for Finvoice: ^[extracted]
+1. **Manual and automated test conversations** — running on every major code change, initially tracked in spreadsheets, later automated
+2. **Internal tooling** — streamed web apps for reviewing logs, transcripts, and recordings to troubleshoot customer issues in detail
+3. **Resolution rate** — the North Star metric: user confirms resolution on call, OR user disconnects after hearing at least one answer and does not call back within 24 hours
+4. **LLM-as-judge** — experimental use of another LLM to analyze call transcripts for issues and improvement opportunities
+5. **Customer feedback** — thin-voice playground results from customer service managers providing real-world evaluation data
+
+## General Principles from Application-Layer Evals
+
+[[entities/ido-pesok|Ido Pesok]] (Vercel) emphasized principles that apply to all eval types including voice agents: ^[extracted]
+
+- **Put constants in data, variables in the task** — Keep user queries as constant data; test different prompts and strategies as variables ^[extracted]
+- **Prefer deterministic scoring** — Simple pass/fail scores are easier to debug and share across teams ^[extracted]
+- **Run evals in CI** — Visualize how changes affect the entire test dataset before deployment ^[extracted]
+- **Understand your court** — Map the boundaries of your domain and distribute test cases across the difficulty spectrum ^[extracted]
+
 ## Related
 
 - [[concepts/voice-agent-guardrails|Voice Agent Guardrails]] — safety patterns that complement evaluation
 - [[concepts/voice-agent-prompting|Voice Agent Prompting]] — prompt quality directly affects eval outcomes
 - [[concepts/agent-loop|Agent Loop]] — how evaluation feeds into iterative improvement cycles
-
-## Sources
-
-- [[references/building-effective-voice-agents-openai-2025|Building Effective Voice Agents — Toki Sherbakov + Anoop Kotha, OpenAI]] — Conference talk
+- [[concepts/voice-agent-resolution-rate]] — resolution rate as the North Star metric
+- [[concepts/application-layer-evals|Application-Layer Evals]] — General eval principles that apply to voice agents

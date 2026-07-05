@@ -8,7 +8,7 @@ aliases:
   - offloading to augmentation
   - automation-augmentation chain
 sources:
-  - "AIEF2025 - Useful General Intelligence — Danielle Perszyk, Amazon AGI - https://www.youtube.com/watch?v=Dj0b_cEBHHI"
+  - "[[sources/watchv=dj0b_cebhhi]]"
 summary: "Danielle Perszyk's framework tracing how automation (offloading cognitive work) can lead to augmentation (becoming expert) but doesn't always — it can also reduce agency through echo chambers, endless scrolling, and auto-complete that shuts down thinking."
 provenance:
   extracted: 0.80

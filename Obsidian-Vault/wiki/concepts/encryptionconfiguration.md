@@ -6,7 +6,7 @@ created:
 updated:
   - 2026-06-30
 sources:
-  - "env-configmaps-&-secrets_9586ac"
+  - "[[sources/env-configmaps-&-secrets_9586ac]]"
 tags:
   - security
 aliases:

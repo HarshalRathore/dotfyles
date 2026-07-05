@@ -7,7 +7,7 @@ tags:
   - timing
 aliases: [dial-up era, AI broadband analogy, transformative AI companies]
 sources:
-  - "AI Engineer World's Fair 2025 - State of Startups and AI 2025 - Sarah Guo, Conviction - https://www.youtube.com/watch?v=3MZS5gNElZM"
+  - "[[sources/watchv=3mzs5gnelzm]]"
 summary: "We are in the 'dial-up era' of AI, analogous to the early internet. Truly transformative AI companies — like Instagram, Uber, and DoorDash after the iPhone — have not been built yet."
 provenance:
   extracted: 0.65

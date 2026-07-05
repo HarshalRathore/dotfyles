@@ -12,7 +12,7 @@ relationships:
   - target: "[[concepts/ai-first-transformation]]"
     type: related_to
 sources:
-  - "AI Engineer World's Fair 2025 — From Hype to Habit: How We're Building an AI-First SaaS Company—While Still Shipping the Roadmap — Rossella & Debsha, Sprout Social - https://www.youtube.com/watch?v=3YGRcgZJ3yc"
+  - "[[sources/watchv=3ygrcgzj3yc]]"
 summary: "Using minimum viable products not just to launch quickly but to validate strategic direction — embracing failure as a learning mechanism that drives clarity through ambiguity."
 provenance:
   extracted: 0.80

@@ -8,24 +8,31 @@ tags:
   - scoring
 aliases: [judge prompt design, LLM judge optimization, eval the judge]
 sources:
-  - "AIEF2025 - [Evals Workshop] Mastering AI Evaluation: From Playground to Production - https://www.youtube.com/watch?v=9iN-cPnp7xg"
-  - "AIEF2025 - 2025 is the Year of Evals! Just like 2024, and 2023, and … — John Dickerson, CEO Mozilla AI - https://www.youtube.com/watch?v=CQGuvf6gSrM"
+  - "[[sources/watchv=9in-cpnp7xg]]"
+  - "[[sources/watchv=cqguvf6gsrm]]"
+  - "[[sources/watchv=omgpvw8tbhc]]"
 summary: "Design principles for using an LLM as an evaluation judge: focused criteria per score, use a higher-quality model to grade, evaluate the judge against human ground truth, and trial averaging for non-determinism."
 provenance:
-  extracted: 0.75
+  extracted: 0.73
   inferred: 0.20
-  ambiguous: 0.05
+  ambiguous: 0.07
 base_confidence: 0.55
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
-updated: 2026-07-03
+updated: 2026-07-04
+relationships:
+  - target: "[[concepts/llm-as-judge-problems]]"
+    type: addresses
+  - target: "[[concepts/scaling-judge-time-compute]]"
+    type: related_to
+  - target: "[[concepts/eval-ingredients-task-dataset-score]]"
+    type: implements
 ---
 
 # LLM-as-Judge Best Practices
 
 LLM-as-judge is an evaluation technique where one LLM scores another's output against defined criteria. While powerful, it requires careful design to produce reliable, actionable scores. ^[extracted]
-
 
 ## Known Limitations: LLM-as-Judge Biases
 
@@ -34,6 +41,17 @@ Despite its widespread adoption, LLM-as-judge evaluation has documented biases r
 These biases mean that LLM-as-judge scores can diverge systematically from human assessment on dimensions that matter for production quality. Practitioners must "make sure you're validating this and making sure that you're not going off in some weird bias direction" — validating the judge against human ground truth is not a one-time calibration but an ongoing requirement as models and use cases evolve. ^[extracted]
 
 This reinforces best practice #3 (Eval the Judge) below: calibration against human judgment must be continuous, not one-time.
+
+## Tang's Taxonomy of LLM-as-Judge Problems
+
+[[entities/leonard-tang|Leonard Tang]] (Haize Labs) at AIEF2025 provided a systematic taxonomy of LLM-as-judge failure modes, arguing that off-the-shelf judge calls are "oftentimes not going to solve your reliability issues": ^[extracted]
+
+- **Hallucination**: Judges are themselves LLMs, so they are prone to hallucinations
+- **Miscalibration**: A "1" from an LLM does not mean the same as a "1" from a human; a "5" for a human is very different from a "5" for an LLM
+- **Bias**: Position bias (flipping response order changes results), context bias (changing rubric parts changes results), and general fickleness
+- **Instability**: Even with good criteria articulation, the judge may not operationalize criteria into actual model behavior
+
+Tang's central question: **how do you QA the judge itself?** ^[extracted] His proposed solution is "scaling judge time compute" — investing more compute at the judging stage rather than just at the generation stage. ^[extracted] This reframes LLM-as-judge from a free, off-the-shelf call to a compute-intensive component worth optimizing. ^[inferred]
 
 ## Core Principles
 
@@ -96,6 +114,8 @@ LLM-as-judge excels at subjective, qualitative assessment. [[concepts/eval-ingre
 
 ## Related
 
+- [[concepts/llm-as-judge-problems|LLM-as-Judge Problems]] — Tang's taxonomy of judge failure modes
+- [[concepts/scaling-judge-time-compute|Scaling Judge Time Compute]] — investing more compute at the judging stage
 - [[concepts/per-element-llm-judge|Per-Element LLM Judge]] — per-row customized judge prompts
 - [[concepts/eval-quality-matrix|Eval Quality Matrix]] — diagnostic framework using judge scores
 - [[concepts/checklist-based-evaluation|Checklist-Based Evaluation]] — structural criteria for judge prompts

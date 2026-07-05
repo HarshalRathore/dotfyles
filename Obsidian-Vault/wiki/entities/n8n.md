@@ -10,7 +10,7 @@ aliases:
   - n8n.io
   - N8N Workflow Automation
 sources:
-  - "AIEF2025 - Wisdom-Driven Knowledge Augmented Generation at Scale - Chin Keong Lam, Patho AI - https://www.youtube.com/watch?v=9AQOvT8LnMI"
+  - "[[sources/watchv=9aqovt8lnmi]]"
 summary: "Open-source workflow automation tool with AI agent nodes, used for rapid prototyping of multi-agent KAG systems. Its AI agent node enables supervisory agents that orchestrate sub-agents updating a shared knowledge graph."
 provenance:
   extracted: 0.55

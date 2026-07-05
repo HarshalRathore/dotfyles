@@ -7,7 +7,7 @@ tags:
   - agents
   - ai-engineer
 sources:
-  - "https://www.youtube.com/watch?v=640KMYtxCeI"
+  - "[[sources/watchv=640kmytxcei]]"
 summary: "AI Engineer World's Fair 2025 workshop covering agent fundamentals, the ReAct pattern, multimodal retrieval via page-level screenshots and VLM-based embedding models, and short-term memory for coherent multi-turn conversations."
 provenance:
   extracted: 0.85

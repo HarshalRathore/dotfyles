@@ -3,8 +3,8 @@ title: "AI-Native Pricing Principles"
 category: concepts
 tags: [pricing, ai-engineering, monetization, product-strategy]
 sources:
-  - "AI Engineer World's Fair 2025 talk - Revenue Engineering: How to Price (and Reprice) Your AI Product — Kshitij Grover, Orb - https://www.youtube.com/watch?v=1C3sZbaxOmw"
-  - "AI Engineer World's Fair 2025 - Monetizing AI — Alvaro Morales, Orb - https://www.youtube.com/watch?v=6WQYLQB0odc"
+  - "[[sources/watchv=1c3szbaxomw]]"
+  - "[[sources/watchv=6wqylqb0odc]]"
 provenance:
   extracted: 0.75
   inferred: 0.20

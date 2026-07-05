@@ -4,7 +4,7 @@ category: entities
 tags: [company, ai, coding, agent, platform]
 aliases: [Replit AI]
 sources:
-  - "AI Engineer World's Fair 2025 talk - Revenue Engineering: How to Price (and Reprice) Your AI Product — Kshitij Grover, Orb - https://www.youtube.com/watch?v=1C3sZbaxOmw"
+  - "[[sources/watchv=1c3szbaxomw]]"
 summary: "AI-powered coding platform that builds full-stack web apps via agents. Cited as a key case study in AI agent pricing challenges."
 provenance:
   extracted: 0.80

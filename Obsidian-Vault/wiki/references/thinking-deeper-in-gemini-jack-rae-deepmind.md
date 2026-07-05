@@ -7,7 +7,7 @@ tags:
   - reasoning
   - google
 sources:
-  - "AIEF2025 - Thinking Deeper in Gemini — Jack Rae, Google DeepMind - https://www.youtube.com/watch?v=8EQo4J2BWKw"
+  - "[[sources/watchv=8eqo4j2bwkw]]"
 summary: "Jack Rae, tech lead of thinking at Google DeepMind, presents the research behind Gemini's thinking capabilities — intelligence bottlenecks, test-time compute scaling, RL training for reasoning, thinking budgets, and Deep Think."
 provenance:
   extracted: 0.80

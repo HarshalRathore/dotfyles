@@ -6,7 +6,7 @@ created:
 updated:
   - 2026-06-30
 sources:
-  - "pods_c92b62"
+  - "[[sources/pods_c92b62]]"
 tags:
   - storage
 aliases:

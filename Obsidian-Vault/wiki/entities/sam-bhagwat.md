@@ -7,7 +7,7 @@ tags:
   - entrepreneur
   - mastra
 sources:
-  - "AIEF2025 - Agents vs Workflows: Why Not Both? — Sam Bhagwat, Mastra.ai - https://www.youtube.com/watch?v=8SUJEqQNClw"
+  - "[[sources/watchv=8sujeqqnclw]]"
 summary: "Co-founder of Mastra.ai and Gatsby. Author of 'Principles of AI Agents'. Former Gatsby co-founder; advocates for composing agents and workflows together in production systems."
 provenance:
   extracted: 0.70

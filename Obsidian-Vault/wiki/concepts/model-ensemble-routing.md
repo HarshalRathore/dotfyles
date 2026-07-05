@@ -9,7 +9,7 @@ tags:
   - microsoft
 aliases: [model switchboard, intelligent model routing, model mixture routing, model ensemble platform]
 sources:
-  - "AI Engineer World's Fair 2025 - Spark to System: Building the Open Agentic Web — Asha Sharma, Microsoft - https://www.youtube.com/watch?v=7Hrw6rtXaHc"
+  - "[[sources/watchv=7hrw6rtxahc]]"
 summary: "Intelligent routing layer that selects from thousands of open and proprietary models per task — no single model is right for every product, so platforms route to the best model for each job."
 provenance:
   extracted: 0.72

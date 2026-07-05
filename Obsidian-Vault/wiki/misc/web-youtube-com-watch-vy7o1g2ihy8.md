@@ -3,7 +3,7 @@ title: "How I Deleted 95% of My Agent Skills and Got Better Results — Nick Nis
 category: misc
 tags: [ai, harness, evals, skills, reliability, evidence]
 sources:
-  - "watchv=vy7o1g2ihy8"
+  - "[[sources/watchv=vy7o1g2ihy8]]"
 source_url: "https://www.youtube.com/watch?v=vy7o1g2iHY8"
 created: 2026-07-01T00:10:00Z
 updated: 2026-07-01T00:10:00Z

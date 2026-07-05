@@ -1,0 +1,1020 @@
+{
+  "sources": [
+    {
+      "source": "AIEF2025 - Foundry Local: Cutting-Edge AI experiences on device with ONNX Runtime/Olive \u2014 Emma Ning, Microsoft - https://www.youtube.com/watch?v=l614N5W60ls",
+      "ingested": "2026-07-04T00:00:00Z",
+      "pages_created": [
+        "entities/foundry-local.md",
+        "entities/onnx-runtime.md",
+        "entities/olive-optimizer.md",
+        "entities/emma-ning.md",
+        "entities/pieces.md",
+        "entities/7rdgs.md",
+        "concepts/on-device-inference.md",
+        "concepts/edge-ai-hardware-acceleration.md",
+        "concepts/local-model-management.md",
+        "concepts/hardware-vendors-ai.md",
+        "concepts/cli-for-ai-tools.md",
+        "concepts/offline-first-ai.md",
+        "concepts/privacy-sensitive-ai.md",
+        "concepts/model-quality-latency-tradeoff.md",
+        "references/aief2025-foundry-local-emma-ning.md"
+      ],
+      "pages_updated": [
+        "entities/azure-ai-foundry.md",
+        "concepts/local-first-ai-platform.md",
+        "concepts/quantization-inference.md"
+      ]
+    },
+    {
+      "source": "AIEF2025 - How we hacked YC Spring 2025 batch's AI agents \u2014 Rene Brandel, Casco - https://www.youtube.com/watch?v=kv-QAuKWllQ",
+      "ingested": "2026-07-04T00:00:00Z",
+      "pages_created": [
+        "entities/casco.md",
+        "entities/rene-brandel.md",
+        "references/aief2025-hacking-yagents-yc-spring-2025-rene-brandel-casco.md",
+        "concepts/agent-security.md",
+        "concepts/idor-insecure-direct-object-reference.md",
+        "concepts/agent-as-user.md",
+        "concepts/system-prompt-security.md",
+        "concepts/agent-code-sandbox.md",
+        "concepts/authentication-vs-authorization.md",
+        "concepts/access-control-matrix.md",
+        "concepts/agent-stack-normalization.md",
+        "concepts/red-teaming.md"
+      ],
+      "pages_updated": [
+        "concepts/prompt-injection.md",
+        "concepts/compute-abuse.md",
+        "misc/ai-engineer-worlds-fair-2025.md"
+      ]
+    },
+    {
+      "source": "AIEF2025 - Building Agents (the hard parts!) - Rita Kozlov, Cloudflare - https://www.youtube.com/watch?v=j_TKDweOsYE",
+      "ingested": "2026-07-04T00:00:00Z",
+      "pages_created": [
+        "entities/rita-kozlov.md",
+        "entities/cloudflare-agents-sdk.md",
+        "concepts/agent-architecture.md",
+        "concepts/agent-workflows.md",
+        "concepts/agent-tool-calling.md",
+        "concepts/durable-objects.md",
+        "concepts/agent-economy-impact.md",
+        "references/aief2025-building-agents-hard-parts-rita-kozlov.md",
+        "concepts/human-in-the-loop.md",
+        "concepts/speech-to-text.md",
+        "concepts/agent-gateway.md",
+        "concepts/webrtc-transport.md",
+        "entities/openai-agents-sdk.md"
+      ],
+      "pages_updated": [
+        "entities/cloudflare.md",
+        "concepts/voice-agents.md",
+        "concepts/mcp-sampling.md",
+        "concepts/eval-driven-development.md",
+        "concepts/agent-autonomy.md"
+      ]
+    },
+    {
+      "source": "AIEF2025 - How to look at your data \u2014 Jeff Huber (Chroma) + Jason Liu (567) - https://www.youtube.com/watch?v=jryZvCuA0Uc",
+      "ingested": "2026-07-04T00:00:00Z",
+      "pages_created": [
+        "references/aief2025-how-to-look-at-your-data-jeff-huber-chroma-jason-liu-567.md",
+        "entities/chroma.md",
+        "entities/jeff-huber.md",
+        "entities/jason-liu-567.md",
+        "entities/567.md",
+        "concepts/fast-evals.md",
+        "concepts/golden-dataset.md",
+        "concepts/synthetic-query-generation.md",
+        "concepts/conversation-output-analysis.md",
+        "concepts/empirical-embedding-selection.md",
+        "concepts/measurement-driven-improvement.md",
+        "concepts/recall-at-k.md"
+      ],
+      "pages_updated": [
+        "concepts/implicit-feedback-signal.md",
+        "concepts/llm-evaluation-framework.md"
+      ]
+    },
+    {
+      "source": "AIEF2025 - Prompt Engineering is Dead \u2014 Nir Gazit, Traceloop - https://www.youtube.com/watch?v=jvKf6zXrNO4",
+      "ingested": "2026-07-04T00:00:00Z",
+      "pages_created": [
+        "references/aief2025-prompt-engineering-is-dead-nir-gazit-traceloop.md",
+        "entities/nir-gazit.md",
+        "entities/traceloop.md",
+        "entities/crewai.md",
+        "concepts/prompt-engineering-is-dead.md",
+        "concepts/rag-pipeline-architecture.md",
+        "concepts/llm-as-judge-evaluation.md",
+        "concepts/auto-improving-agent-loop.md",
+        "concepts/eval-driven-optimization.md",
+        "concepts/ground-truth-evaluation.md",
+        "concepts/evaluation-at-pipeline-steps.md",
+        "concepts/agent-as-optimizer.md",
+        "concepts/web-research-for-optimization.md"
+      ],
+      "pages_updated": [
+        "concepts/eval-driven-development.md",
+        "concepts/llm-evaluation-framework.md"
+      ]
+    },
+    {
+      "source": "AIEF2025 - From Self-driving to Autonomous Voice Agents \u2014 Brooke Hopkins, Coval - https://www.youtube.com/watch?v=kDczF4wBh8s",
+      "ingested": "2026-07-04T00:00:00Z",
+      "pages_created": [
+        "entities/brooke-hopkins.md",
+        "entities/coval.md",
+        "references/aief2025-from-self-driving-to-autonomous-voice-agents-brooke-hopkins-coval.md",
+        "concepts/voice-agent-trust-problem.md",
+        "concepts/poc-hell.md",
+        "concepts/large-scale-simulation.md",
+        "concepts/probabilistic-evals.md",
+        "concepts/reference-free-evaluation.md",
+        "concepts/continuous-eval-loops.md",
+        "concepts/deterministic-vs-autonomous-agents.md",
+        "concepts/simulation-realism-hierarchy.md",
+        "concepts/input-output-evals.md"
+      ],
+      "pages_updated": [
+        "concepts/voice-agents.md",
+        "concepts/eval-driven-development.md"
+      ]
+    },
+    {
+      "source": "AIEF2025 - 3 ingredients for building reliable enterprise agents - Harrison Chase, LangChain/LangGraph - https://www.youtube.com/watch?v=kTnfJszFxCg",
+      "ingested": "2026-07-04T00:00:00Z",
+      "pages_created": [
+        "references/aief2025-3-ingredients-reliable-enterprise-agents-harrison-chase.md",
+        "concepts/enterprise-agent-adoption-equation.md",
+        "concepts/workflow-agent-spectrum.md",
+        "concepts/deep-research-agents.md",
+        "concepts/ambient-agents.md",
+        "concepts/observability-for-enterprise-trust.md",
+        "entities/harrison-chase.md",
+        "entities/langgraph.md",
+        "entities/langchain.md",
+        "entities/langsmith.md",
+        "entities/monday-com.md",
+        "entities/asaf.md"
+      ],
+      "pages_updated": [
+        "concepts/agent-workflows.md",
+        "concepts/agent-reliability-challenge.md"
+      ]
+    },
+    {
+      "source": "AIEF2025 - Serving Voice AI at Scale \u2014 Arjun Desai (Cartesia) & Rohit Talluri (AWS) - https://www.youtube.com/watch?v=knH3fmGAteQ",
+      "ingested": "2026-07-04T00:00:00Z",
+      "pages_created": [
+        "entities/cartesia.md",
+        "entities/sonic-2.md",
+        "concepts/state-space-models.md",
+        "concepts/voice-ai-latency.md",
+        "concepts/voice-controllability.md",
+        "concepts/voice-naturalness.md",
+        "concepts/voice-marketplace.md",
+        "concepts/voice-uncanny-valley.md",
+        "references/aief2025-serving-voice-ai-at-scale-arjun-desai-cartesia-rohit-talluri-aws.md"
+      ],
+      "pages_updated": [
+        "concepts/voice-agents.md"
+      ]
+    },
+    {
+      "source": "AIEF2025 - Forget RAG Pipelines\u2014Build Production Ready Agents in 15 Mins: Nina Lopatina, Rajiv Shah, Contextual - https://www.youtube.com/watch?v=lArgRvBV3tQ",
+      "ingested": "2026-07-04T00:00:00Z",
+      "pages_created": [
+        "entities/contextual-ai.md",
+        "entities/nina-lopatina.md",
+        "entities/rajiv-shah.md",
+        "references/aief2025-forget-rag-pipelines-nina-lopatina-rajiv-shah-contextual.md",
+        "concepts/rag-as-managed-service.md",
+        "concepts/contextual-platform-approach.md",
+        "concepts/production-rag-complexity.md",
+        "concepts/contextual-modular-rag.md",
+        "concepts/mcp-rag-integration.md",
+        "concepts/quantitative-reasoning-rag.md",
+        "concepts/spurious-correlation-detection.md"
+      ],
+      "pages_updated": [
+        "misc/ai-engineer-worlds-fair-2025.md",
+        "entities/nvidia.md"
+      ]
+    },
+    {
+      "source": "AIEF2025 - Multi Agent AI and Network Knowledge Graphs for Change \u2014 Ola Mabadeje, Cisco - https://www.youtube.com/watch?v=m0dxZ-NDKHo",
+      "ingested": "2026-07-04T00:00:00Z",
+      "pages_created": [
+        "references/aief2025-multi-agent-ai-and-network-knowledge-graphs-for-change-ola-mabadeje-cisco",
+        "entities/ola-mabadeje",
+        "entities/cisco",
+        "entities/outshift",
+        "entities/arango-db",
+        "entities/service-now",
+        "entities/splunk",
+        "concepts/digital-twin",
+        "concepts/network-knowledge-graph",
+        "concepts/natural-language-interface",
+        "concepts/etl-pipeline",
+        "concepts/openconfig-schema",
+        "concepts/layered-graph-architecture",
+        "concepts/configuration-drift",
+        "concepts/streaming-telemetry"
+      ],
+      "pages_updated": [
+        "concepts/multi-agent-workflows",
+        "concepts/knowledge-graph-construction-pipeline"
+      ]
+    },
+    {
+      "source": "AIEF2025 - [Full Workshop] Building Metrics that actually work \u2014 David Karam, Pi Labs (fmr Google Search) - https://www.youtube.com/watch?v=jxrGodnopHo",
+      "ingested": "2026-07-04T00:00:00Z",
+      "pages_created": [
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/references/aief2025-building-metrics-that-actually-work-david-karam-pi-labs.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/entities/pi-labs.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/evals-labor-problem.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/synthetic-data-vs-metrics.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/llms-are-hard-at-evals.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/methodology-over-tooling.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/stochastic-systems-evaluation.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/evals-are-custom-and-subjective.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/automated-evals-challenge.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/misc/aief2025-building-metrics-workshop.md"
+      ],
+      "pages_updated": [
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/entities/david-karam.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/llm-evaluation-framework.md"
+      ]
+    },
+    {
+      "source": "AIEF2025 - Shipping something to someone always wins \u2014 Kenneth Auchenberg (ex. Stripe, VSCode) - https://www.youtube.com/watch?v=mHzJhXppwUA",
+      "ingested": "2026-07-05T00:00:00Z",
+      "pages_created": [
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/entities/kenneth-auchenberg.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/entities/alicorp.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/references/aief2025-shipping-something-to-someone-kenneth-auchenberg.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/rapid-iteration-loop.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/continuous-viable-product.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/ship-first-product.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/write-the-launch-post.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/high-bandwidth-feedback.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/real-users-only.md"
+      ],
+      "pages_updated": [
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/ai-iteration-loop.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/entities/stripe.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/entities/vs-code.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/misc/ai-engineer-worlds-fair-2025.md"
+      ]
+    },
+    {
+      "source": "AIEF2025 - The 2025 AI Engineering Report \u2014 Barr Yaron, Amplify - https://www.youtube.com/watch?v=mQ7_Zje7WKE",
+      "ingested": "2026-07-05T00:00:00Z",
+      "pages_created": [
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/references/aief2025-the-2025-ai-engineering-report-barr-yaron-amplify.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/entities/barr-yaron.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/entities/amplify.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/multimodal-production-gap.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/prompt-management-gap.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/ai-engineering-survey-methodology.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/fine-tuning-practices-2025.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/ai-agent-disclosure-norms.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/evaluation-as-top-pain-point.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/model-update-velocity.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/dedicated-vector-database-adoption.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/ai-engineering-title-confusion.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/llm-usage-heterogeneity.md"
+      ],
+      "pages_updated": [
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/misc/ai-engineer-worlds-fair-2025.md"
+      ]
+    },
+    {
+      "source": "AIEF2025 - What Is a Humanoid Foundation Model? An Introduction to GR00T N1 - Annika & Aastha - https://www.youtube.com/watch?v=mWKYvT9Lc50",
+      "ingested": "2026-07-05T00:00:00Z",
+      "pages_created": [
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/references/aief2025-what-is-a-humanoid-foundation-model-annika-aastha.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/humanoid-foundation-model.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/physical-ai.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/data-pyramid.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/dreamgen.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/three-computer-problem.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/system-one-system-two-robotics.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/teleoperation-robotics.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/noise-to-action-learning.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/robot-state-action.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/cross-embodiment-robotics.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/imitation-learning.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/entities/nvidia-gr00t.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/entities/vidya.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/entities/annika-and-aastha.md"
+      ],
+      "pages_updated": [
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/vision-language-action-models.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/large-scale-simulation.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/edge-ai-hardware-acceleration.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/on-device-inference.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/synthetic-data-vs-metrics.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/misc/ai-engineer-worlds-fair-2025.md"
+      ]
+    },
+    {
+      "source": "AIEF2025 - Human seeded Evals \u2014 Samuel Colvin, Pydantic - https://www.youtube.com/watch?v=o_LRtAomJCs",
+      "ingested": "2026-07-05T00:00:00Z",
+      "pages_created": [
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/entities/samuel-colvin.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/entities/pydantic-ai.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/entities/logfire.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/entities/barry-zhang.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/type-safety-ai.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/validation-error-feedback.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/structured-output.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/type-safe-agent-tool-deps.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/agent-exit-strategies.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/human-seeded-evals.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/references/aief2025-human-seeded-evals-samuel-colvin-pydantic.md"
+      ],
+      "pages_updated": [
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/entities/pydantic.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/agent-loop.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/agent-architecture.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/entities/gemini.md"
+      ]
+    },
+    {
+      "source": "AIEF2025 - Vibe Coding with Confidence \u2014 Itamar Friedman, Qodo - https://www.youtube.com/watch?v=n991Yxo1aOI",
+      "ingested": "2026-07-05T00:00:00Z",
+      "pages_created": [
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/entities/itamar-friedman.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/entities/qodo.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/references/aief2025-vibe-coding-with-confidence-itamar-friedman-qodo.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/ai-developer-tool-generations.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/cli-ai-interface-leader.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/vibe-coding-with-confidence.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/sdlc-shift-left-ai.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/ai-red-team-blue-team.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/holistic-ai-sdlc.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/agent-to-agent-communication.md"
+      ],
+      "pages_updated": [
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/vibe-coding.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/yolo-structured-spectrum-vibe-coding.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/agent-workflows.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/multi-agent-workflows.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/red-teaming.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/entities/andre-karpathy.md"
+      ]
+    },
+    {
+      "source": "AIEF2025 - Software Development Agents: What Works and What Doesn't - Robert Brennan, OpenHands - https://www.youtube.com/watch?v=o_hhkJtlbSs",
+      "ingested": "2026-07-05T00:00:00Z",
+      "pages_created": [
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/entities/robert-brennan.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/entities/openhands.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/references/aief2025-software-development-agents-robert-brennan.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/coding-is-going-away.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/agent-tools.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/agent-code-editor.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/agent-terminal.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/agent-sandboxing.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/agent-best-practices.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/agent-evolution.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/agent-driven-development-shift.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/agent-web-browsing.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/agent-vs-code-gen.md"
+      ],
+      "pages_updated": [
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/agent-loop.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/agent-architecture.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/agent-autonomy.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/agent-driven-development.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/ai-intuition.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/assistive-vs-automation-agents.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/agent-code-sandbox.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/llm-big-text-into-small-text.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/vision-vs-text-web-agents.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/entities/github-copilot.md"
+      ]
+    },
+    {
+      "source": "AIEF2025 - The State of AI Powered Search and Retrieval \u2014 Frank Liu, MongoDB (prev Voyage AI) - https://www.youtube.com/watch?v=pIPtpBZ6TKk",
+      "ingested": "2026-07-05T00:00:00Z",
+      "pages_created": [
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/entities/frank-liu.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/entities/continue-dev.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/references/aief2025-the-state-of-ai-powered-search-and-retrieval-frank-liu-mongodb.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/ai-powered-search.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/rag-grounding.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/domain-specific-embedding-models.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/agentic-retrieval.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/structured-data-filtering.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/embedding-quality.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/intent-understanding.md"
+      ],
+      "pages_updated": [
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/entities/voyage-ai.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/embedding-models.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/re-ranking.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/rag-pipeline-architecture.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/misc/ai-engineer-worlds-fair-2025.md"
+      ]
+    },
+    {
+      "source": "AIEF2025 - Rethinking Team Building: how a 30-person Startup serves 50 Million Users \u2014 Grant Lee, Gamma - https://www.youtube.com/watch?v=q8zoXAbmJdI",
+      "ingested": "2026-07-05T00:00:00Z",
+      "pages_created": [
+        "entities/grant-lee.md",
+        "concepts/player-coach-model.md",
+        "concepts/content-first-design.md",
+        "concepts/org-innovation.md",
+        "concepts/tools-for-imagination.md",
+        "references/aief2025-rethinking-team-building-grant-lee-gamma.md",
+        "concepts/anti-powerpoint.md",
+        "concepts/cascading-hierarchy.md",
+        "concepts/first-principles-org-design.md"
+      ],
+      "pages_updated": [
+        "entities/gamma.md",
+        "concepts/generalist-vs-specialist.md",
+        "concepts/small-team-scaling.md"
+      ]
+    },
+    {
+      "source": "AIEF2025 - On Engineering AI Systems that Endure The Bitter Lesson - Omar Khattab, DSPy & Databricks - https://www.youtube.com/watch?v=qdmxApz3EJI",
+      "ingested": "2026-07-05T00:00:00Z",
+      "pages_created": [
+        "entities/omar-khattab.md",
+        "entities/dspy.md",
+        "entities/databricks.md",
+        "references/the-bitter-lesson.md",
+        "references/aief2025-on-engineering-ai-systems-that-endure-omar-khattab.md",
+        "concepts/bitter-lesson.md",
+        "concepts/search-and-learn.md",
+        "concepts/premature-optimization.md",
+        "concepts/ai-engineering.md",
+        "concepts/agi-vs-software.md",
+        "concepts/inference-time-scaling.md",
+        "concepts/agi.md",
+        "concepts/reinforcement-learning.md",
+        "concepts/turing-award.md",
+        "concepts/structured-programming.md"
+      ],
+      "pages_updated": [
+        "entities/rich-sutton.md",
+        "concepts/model-update-velocity.md"
+      ]
+    },
+    {
+      "source": "AIEF2025 - The New Lean Startup \u2014 Sid Bendre, Olive - https://www.youtube.com/watch?v=pQz-PgA1eJw",
+      "ingested": "2026-07-05T00:00:00Z",
+      "pages_created": [
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/viral-growth-mechanics.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/feature-flag-infra.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/codex-abuse-pattern.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/entities/launchdarkly.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/entities/palantir.md"
+      ],
+      "pages_updated": [
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/references/aief2025-the-new-lean-startup-sid-bendre-olive.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/entities/sid-bendre.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/entities/olive.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/lean-startup-playbook.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/tiny-teams.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/compounding-benefits.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/ai-augmentation-10x.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/harvester-cultivator-model.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/profit-first-mentality.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/kpi-alignment.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/continuous-process-refinement.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/10x-generalist-hiring.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/super-tools.md"
+      ]
+    },
+    {
+      "source": "AIEF2025 - Serving Voice AI at $1/hr: Open-source, LoRAs, Latency, Load Balancing - Neil Dwyer, Gabber - https://www.youtube.com/watch?v=rD23-VZZHOo",
+      "ingested": "2026-07-05T00:00:00Z",
+      "pages_created": [
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/references/aief2025-serving-voice-ai-at-1-hr-neil-dwyer-gabber.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/entities/neil-dwyer.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/entities/gabber.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/entities/snack.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/voice-cloning.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/head-of-line-silence.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/consumer-ai-voice.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/voice-inference-metrics.md"
+      ],
+      "pages_updated": [
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/entities/orpheus-tts.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/voice-agents.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/voice-ai-latency.md",
+        "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/fine-tuning-practices-2025.md"
+      ]
+    },
+    {
+      "source": "AIEF2025 - Bolt.new: How we scaled $0-20m ARR in 60 days, with 15 people \u2014 Eric Simons, Bolt - https://www.youtube.com/watch?v=s8RM8uYxkoY",
+      "ingested": "2026-07-05T00:00:00Z",
+      "pages_created": [
+        "references/aief2025-bolt-new-how-we-scaled-0-20m-arr-in-60-days-with-15-people-eric-simons-bolt.md",
+        "entities/eric-simons.md",
+        "entities/bolt.new.md",
+        "entities/stackblitz.md",
+        "entities/aief2025.md",
+        "concepts/product-market-fit.md",
+        "concepts/context-per-head.md",
+        "concepts/runway-and-burn-rate.md",
+        "concepts/firefighting-prioritization.md",
+        "concepts/mvp.md",
+        "concepts/low-ego-high-trust.md",
+        "concepts/startup-grit-and-resilience.md",
+        "concepts/take-shots-on-goal.md",
+        "concepts/startup-survival.md",
+        "concepts/ship-first-product.md",
+        "concepts/rapid-iteration-loop.md"
+      ],
+      "pages_updated": []
+    },
+    {
+      "source": "AIEF2025 - Trends Across the AI Frontier \u2014 George Cameron, ArtificialAnalysis.ai - https://www.youtube.com/watch?v=sRpqPgKeXNk",
+      "ingested": "2026-07-05T00:00:00Z",
+      "pages_created": [
+        "entities/artificial-analysis.md",
+        "entities/george-cameron.md",
+        "concepts/ai-evaluation-benchmarks.md",
+        "concepts/llm-cost-structure.md",
+        "concepts/reasoning-model-tradeoffs.md",
+        "concepts/open-weights-vs-proprietary-gap.md",
+        "concepts/multiple-ai-frontiers.md",
+        "concepts/agentic-workflow-latency.md",
+        "concepts/cost-intelligence-bands.md",
+        "concepts/reasoning-token-visibility.md",
+        "references/aief2025-trends-across-the-ai-frontier-george-cameron-artificialanalysis.md"
+      ],
+      "pages_updated": [
+        "entities/deepseek.md",
+        "misc/ai-engineer-worlds-fair-2025.md"
+      ]
+    },
+    {
+      "source": "AIEF2025 - How to Build Planning Agents without losing control - Yogendra Miraje, Factset - https://www.youtube.com/watch?v=sl3icG-IjHo",
+      "ingested": "2026-07-05T00:00:00Z",
+      "pages_created": [
+        "references/aief2025-how-to-build-planning-agents-without-losing-control-yogendra-miraje-factset.md",
+        "entities/yogendra-miraje.md",
+        "entities/factset.md",
+        "concepts/agentic-workflow-vs-workflow-agent.md",
+        "concepts/blueprint-generator-pattern.md",
+        "concepts/sub-goal-division.md",
+        "concepts/tool-design-for-agents.md",
+        "concepts/aspect-based-evals.md",
+        "concepts/proactive-agents.md",
+        "concepts/augmented-llm-foundations.md",
+        "concepts/langgraph-node-architecture.md",
+        "concepts/when-not-to-use-agentic-workflows.md"
+      ],
+      "pages_updated": [
+        "concepts/agent-workflows.md",
+        "concepts/agent-architecture.md",
+        "concepts/workflow-agent-spectrum.md",
+        "concepts/agent-tools.md",
+        "concepts/llm-evaluation-framework.md"
+      ]
+    },
+    {
+      "source": "AIEF2025 - Engineering Better Evals: Scalable LLM Evaluation Pipelines That Work \u2014 Dat Ngo, Aman Khan, Arize - https://www.youtube.com/watch?v=spvXj9tnWAQ",
+      "ingested": "2026-07-05T00:00:00Z",
+      "pages_created": [
+        "references/aief2025-engineering-better-evals-dat-ngo-aman-khan-arize.md",
+        "entities/dat-ngo.md",
+        "entities/aman-khan.md",
+        "entities/arize-ai.md",
+        "concepts/golden-datasets.md",
+        "concepts/evals-spectrum.md",
+        "concepts/platform-vs-application-teams.md",
+        "concepts/two-circle-eval-model.md",
+        "concepts/code-based-evals.md",
+        "concepts/rag-pipeline-evals.md",
+        "concepts/encoder-only-eval-models.md",
+        "concepts/user-feedback-evals.md",
+        "concepts/signal-from-noise.md"
+      ],
+      "pages_updated": [
+        "concepts/llm-evaluation-framework.md",
+        "concepts/evals-testing-pyramid.md",
+        "concepts/continuous-eval-loops.md",
+        "concepts/llms-are-hard-at-evals.md",
+        "concepts/observability-for-enterprise-trust.md"
+      ]
+    },
+    {
+      "source": "AIEF2025 - The Agent Awakens: Collaborative Development with Copilot - Christopher Harrison, GitHub - https://www.youtube.com/watch?v=tHJSZ1-ZqcA",
+      "ingested": "2026-07-05T00:00:00Z",
+      "pages_created": [
+        "references/aief2025-the-agent-awakens-christopher-harrison.md",
+        "entities/john-peck.md",
+        "concepts/ai-pair-programmer-analogy.md",
+        "concepts/code-quality-as-context.md",
+        "concepts/copilot-workload-spectrum.md",
+        "concepts/explicit-intent-communication.md",
+        "concepts/incremental-context-sharing.md",
+        "concepts/coding-agent-security-model.md",
+        "concepts/copilot-instructions.md",
+        "concepts/dot-instructions-files.md",
+        "concepts/issue-to-pr-pipeline.md"
+      ],
+      "pages_updated": [
+        "entities/christopher-harrison.md",
+        "entities/github-copilot.md"
+      ]
+    },
+    {
+      "source": "AIEF2025 - Does AI Actually Boost Developer Productivity? (100k Devs Study) - Yegor Denisov-Blanch, Stanford - https://www.youtube.com/watch?v=tbDDYKRFjhk",
+      "ingested": "2026-07-05T00:00:00Z",
+      "pages_created": [
+        "references/aief2025-does-ai-actually-boost-developer-productivity-yegor-denisov-blanch-stanford.md",
+        "entities/yegor-denisov-blanch.md",
+        "entities/stanford.md",
+        "concepts/ghost-engineers.md",
+        "concepts/ai-productivity-measurement.md",
+        "concepts/rework-vs-refactoring.md",
+        "concepts/commit-based-metrics-limitations.md",
+        "concepts/self-reported-productivity.md",
+        "concepts/greenfield-vs-brownfield.md",
+        "concepts/ai-developer-productivity.md"
+      ],
+      "pages_updated": [
+        "entities/aief2025.md",
+        "misc/ai-engineer-worlds-fair-2025.md"
+      ]
+    },
+    {
+      "path": "/home/harshal/dotfyles/Obsidian-Vault/wiki",
+      "source": "AIEF2025 - Realtime Conversational Video with Pipecat and Tavus \u2014 Chad Bailey and Brian Johnson, Daily & Tavus - https://www.youtube.com/watch?v=ujt0da9Z29Q",
+      "source_key": "AIEF2025-Realtime-Conversational-Video-with-Pipecat-and-Tavus",
+      "ingested_at": "2026-07-05T00:00:00Z",
+      "pages_created": [
+        "entities/chad-bailey.md",
+        "entities/brian-johnson.md",
+        "entities/tavus.md",
+        "concepts/real-time-conversational-video.md",
+        "concepts/conversational-video-interface.md",
+        "concepts/video-generation-real-time.md",
+        "concepts/frames-processors-pipelines.md",
+        "concepts/tavus-proprietary-models.md",
+        "concepts/tavus-replica.md",
+        "concepts/orchestration-layer.md",
+        "references/aief2025-realtime-conversational-video-with-pipecat-and-tavus.md"
+      ],
+      "pages_updated": [
+        "entities/daily.md",
+        "entities/pipe-cat.md",
+        "concepts/voice-agents.md",
+        "concepts/voice-ai-latency.md"
+      ]
+    },
+    {
+      "path": "/home/harshal/dotfyles/Obsidian-Vault/wiki",
+      "source": "AIEF2025 - POC to PROD: Hard Lessons from 200+ Enterprise GenAI Deployments - Randall Hunt, Caylent - https://www.youtube.com/watch?v=vW8wLsb3Nnc",
+      "source_key": "AIEF2025-POC-to-PROD-Hard-Lessons-200-Enterprise-GenAI-Deployments",
+      "ingested_at": "2026-07-05T00:00:00Z",
+      "pages_created": [
+        "entities/randall-hunt.md",
+        "entities/caylent.md",
+        "entities/brainbox-ai.md",
+        "entities/surepath.md",
+        "entities/zscaler.md",
+        "entities/sam2.md",
+        "entities/amazon-sns.md",
+        "entities/amazon-titan.md",
+        "entities/elasticsearch.md",
+        "entities/nasa.md",
+        "entities/nature-footage.md",
+        "concepts/evals-as-moat.md",
+        "concepts/pooling-embedding.md",
+        "concepts/multimodal-video-search.md",
+        "concepts/annotation-augmented-video-understanding.md",
+        "concepts/input-output-specification.md",
+        "concepts/intelligent-document-processing.md",
+        "concepts/pgvector.md",
+        "concepts/vibe-check.md",
+        "concepts/enterprise-ai-administration.md",
+        "concepts/ai-application-tiers.md",
+        "references/aief2025-poc-to-prod-hard-lessons-200-enterprise-genai-deployments.md"
+      ],
+      "pages_updated": []
+    },
+    {
+      "path": "/home/harshal/dotfyles/Obsidian-Vault/wiki",
+      "source": "AIEF2025 - Layering every technique in RAG, one query at a time \u2014 David Karam, Pi Labs (fmr. Google Search) - https://www.youtube.com/watch?v=w9u11ioHGA0",
+      "source_key": "AIEF2025-Layering-every-technique-in-RAG-one-query-at-a-time",
+      "ingested_at": "2026-07-05T00:00:00Z",
+      "pages_created": [
+        "references/aief2025-layering-every-technique-in-rag-david-karam.md",
+        "concepts/quality-engineering-loop.md",
+        "concepts/complexity-adjusted-impact.md",
+        "concepts/proxy-metric-problem.md",
+        "concepts/in-memory-retrieval.md",
+        "concepts/semantic-vs-lexical-query-patterns.md"
+      ],
+      "pages_updated": [
+        "entities/david-karam.md",
+        "entities/pi-labs.md",
+        "concepts/rag-pipeline-architecture.md",
+        "concepts/re-ranking.md",
+        "concepts/embedding-models.md",
+        "concepts/ai-powered-search.md"
+      ]
+    },
+    {
+      "path": "/home/harshal/dotfyles/Obsidian-Vault/wiki",
+      "source": "AIEF2025 - A year of Gemini progress + what comes next \u2014 Logan Kilpatrick, Google DeepMind - https://www.youtube.com/watch?v=wE1ZCmCLP5g",
+      "source_key": "AIEF2025-A-year-of-Gemini-progress-what-comes-next",
+      "ingested_at": "2026-07-05T00:00:00Z",
+      "pages_created": [
+        "references/aief2025-gemini-progress-logan-kilpatrick.md",
+        "concepts/multimodal-models.md",
+        "concepts/agentic-models.md",
+        "concepts/omnimodal.md",
+        "concepts/voice-generation.md",
+        "concepts/inference-growth.md",
+        "concepts/unified-ai-platforms.md"
+      ],
+      "pages_updated": [
+        "entities/logan-kilpatrick.md",
+        "entities/google-deepmind.md",
+        "entities/gemini.md",
+        "references/aief2025-gemini-25-pro-logan-kilpatrick.md"
+      ]
+    },
+    {
+      "path": "/home/harshal/dotfyles/Obsidian-Vault/wiki",
+      "source": "AIEF2025 - Evaluating AI Search: A Practical Framework for Augmented AI Systems \u2014 Quotient AI + Tavily - https://www.youtube.com/watch?v=wRJD0inpmjU",
+      "source_key": "AIEF2025-Evaluating-AI-Search-A-Practical-Framework-for-Augmented-AI-Systems",
+      "ingested_at": "2026-07-05T00:00:00Z",
+      "pages_created": [
+        "entities/quotient-ai.md",
+        "entities/tavily.md",
+        "entities/lengthmist.md",
+        "concepts/dynamic-eval-sets.md",
+        "concepts/static-eval-sets.md",
+        "concepts/holistic-eval-framework.md",
+        "concepts/simpleqa.md",
+        "concepts/hotpotqa.md",
+        "concepts/evidence-based-qa-generation.md",
+        "concepts/multi-source-grounding.md",
+        "concepts/supervisor-node.md",
+        "concepts/llm-judge-correctness.md",
+        "references/aief2025-evaluating-ai-search-quotient-ai-tavily.md"
+      ],
+      "pages_updated": [
+        "concepts/reference-free-evaluation.md",
+        "misc/ai-engineer-worlds-fair-2025.md"
+      ]
+    },
+    {
+      "path": "AIEF2025 - Continuous Profiling for GPUs \u2014 Matthias Loibl, Polar Signals - https://www.youtube.com/watch?v=wt8gzWR6auQ",
+      "ingested_at": "2026-07-05T00:00:00Z",
+      "pages_created": [
+        "entities/matthias-loibl.md",
+        "entities/polar-signals.md",
+        "entities/kubestriker.md",
+        "entities/cuda.md",
+        "entities/prometheus.md",
+        "entities/prometheus-operator.md",
+        "concepts/continuous-profiling.md",
+        "concepts/gpu-profiling.md",
+        "concepts/gpu-time-profiling.md",
+        "concepts/sampled-profiling.md",
+        "concepts/tracing-profiling.md",
+        "concepts/flame-chart.md",
+        "concepts/ebpf.md",
+        "references/aief2025-continuous-profiling-for-gpus-matthias-loibl.md"
+      ],
+      "pages_updated": [
+        "misc/ai-engineer-worlds-fair-2025.md"
+      ]
+    },
+    {
+      "path": "AIEF2025 - MCP: Origins and Requests For Startups \u2014 Theodora Chu, Model Context Protocol PM, Anthropic - https://www.youtube.com/watch?v=x-8pBqWiTzk",
+      "ingested_at": "2026-07-05T00:00:00Z",
+      "pages_created": [
+        "entities/theodora-chu.md",
+        "references/aief2025-mcp-origins-and-requests-for-startups-theodora-chu.md",
+        "concepts/model-agency.md",
+        "concepts/mcp-server-simplicity-optimization.md",
+        "concepts/mcp-elicitation.md",
+        "concepts/mcp-registry-api.md",
+        "concepts/mcp-hack-week-launch.md",
+        "concepts/mcp-adoption-timeline.md"
+      ],
+      "pages_updated": [
+        "concepts/mcp.md",
+        "concepts/mcp-streamable-http.md",
+        "concepts/mcp-auth-spec-evolution.md"
+      ]
+    },
+    {
+      "source": "AIEF2025 - Taming Rogue AI Agents with Observability-Driven Evaluation \u2014 Jim Bennett, Galileo - https://www.youtube.com/watch?v=xJXm4Wcw4m8",
+      "ingested": "2026-07-05T08:59:14Z",
+      "updated": "2026-07-05T08:59:14Z",
+      "pages_created": [
+        "entities/jim-bennett.md",
+        "entities/galileo.md",
+        "references/aief2025-taming-rogue-ai-agents-jim-bennett-galileo.md",
+        "concepts/observability-driven-development.md",
+        "concepts/ai-agent-observability.md",
+        "concepts/trace-analysis.md",
+        "concepts/hallucination-detection.md",
+        "concepts/set-a-thief-to-catch-a-thief.md",
+        "concepts/non-deterministic-evaluation.md",
+        "concepts/granular-eval-metrics.md",
+        "concepts/evals-as-moat.md"
+      ],
+      "pages_updated": [
+        "concepts/llm-evaluation-framework.md",
+        "concepts/eval-driven-development.md",
+        "concepts/llm-as-judge-evaluation.md",
+        "misc/ai-engineer-worlds-fair-2025.md"
+      ],
+      "page_count": 15
+    },
+    {
+      "source": "AIEF2025 - Beyond the Prototype: Using AI to Write High-Quality Code - Josh Albrecht, Imbue - https://www.youtube.com/watch?v=x_1EumTaXeE",
+      "ingested": "2026-07-05T12:00:00Z",
+      "updated": "2026-07-05T12:00:00Z",
+      "pages_created": [
+        "entities/josh-albrecht.md",
+        "entities/imbue.md",
+        "entities/sculptor.md",
+        "concepts/vibe-coding-gap.md",
+        "concepts/shift-left-ai-quality.md",
+        "concepts/plan-then-code-workflow.md",
+        "concepts/spec-first-development.md",
+        "concepts/immutable-functional-style.md",
+        "concepts/ai-to-ai-verification.md",
+        "concepts/defect-based-quality.md",
+        "concepts/style-guide-enforcement.md",
+        "concepts/linter-integration.md",
+        "references/aief2025-beyond-the-prototype-josh-albrecht-imbue.md"
+      ],
+      "pages_updated": [
+        "misc/ai-engineer-worlds-fair-2025.md"
+      ],
+      "page_count": 14
+    },
+    {
+      "source": "AIEF2025 - Building a Smarter AI Agent with Neural RAG - Will Bryk, Exa.ai - https://www.youtube.com/watch?v=xnXqpUW_Kp8",
+      "ingested": "2026-07-05T00:00:00Z",
+      "updated": "2026-07-05T00:00:00Z",
+      "pages_created": [
+        "entities/will-bryk.md",
+        "entities/exa.md",
+        "references/aief2025-building-smarter-ai-agent-neural-rag-will-bryk-exa.ai.md",
+        "concepts/neural-rag.md",
+        "concepts/ai-native-search.md",
+        "concepts/embedding-based-search.md",
+        "concepts/llm-search-integration.md",
+        "concepts/human-vs-ai-information-consumption.md"
+      ],
+      "pages_updated": [
+        "concepts/ai-powered-search.md",
+        "concepts/embedding-models.md",
+        "concepts/bitter-lesson.md",
+        "concepts/rag-pipeline-architecture.md"
+      ],
+      "page_count": 12
+    },
+    {
+      "source": "AIEF2025 - Why your product needs an AI product manager, and why it should be you \u2014 James Lowe, i.AI - https://www.youtube.com/watch?v=xzJdSi2Tsqw",
+      "ingested": "2026-07-05T12:00:00Z",
+      "updated": "2026-07-05T12:00:00Z",
+      "pages_created": [
+        "entities/james-lowe.md",
+        "entities/incubator-for-ai.md",
+        "entities/theme-finder.md",
+        "entities/consult-gov-uk.md",
+        "entities/minute-ai-transcription.md",
+        "concepts/ai-product-manager.md",
+        "concepts/evaluate-ai-early.md",
+        "concepts/feature-exploration-strategy.md",
+        "concepts/ai-capability-first.md",
+        "concepts/probabilistic-ai-products.md",
+        "concepts/ai-evaluation.md",
+        "concepts/ai-coding-assistance.md",
+        "references/aief2025-why-your-product-needs-an-ai-product-manager-james-lowe-i-ai.md"
+      ],
+      "pages_updated": [
+        "concepts/human-in-the-loop.md",
+        "misc/ai-engineer-worlds-fair-2025.md"
+      ],
+      "page_count": 15
+    },
+    {
+      "source": "AIEF2025 - Conquering Agent Chaos \u2014 Rick Blalock, Agentuity - https://www.youtube.com/watch?v=yASxPZ-tZe0",
+      "ingested": "2026-07-05T12:30:00Z",
+      "updated": "2026-07-05T12:30:00Z",
+      "pages_created": [
+        "entities/agentuity.md",
+        "entities/rick-blalock.md",
+        "concepts/agent-deployment-challenges.md",
+        "concepts/agent-infrastructure.md",
+        "concepts/agent-self-observability.md",
+        "concepts/ai-agent-gateway.md",
+        "concepts/agent-first-class-infrastructure.md",
+        "concepts/agent-routing.md",
+        "concepts/framework-agnostic-agents.md",
+        "concepts/agent-dev-mode.md",
+        "concepts/agent-runtimes.md",
+        "concepts/agent-handler-convention.md",
+        "references/aief2025-conquering-agent-chaos-rick-blalock-agentuity.md"
+      ],
+      "pages_updated": [
+        "concepts/ai-agent-observability.md",
+        "concepts/agent-factory.md"
+      ],
+      "page_count": 15
+    },
+    {
+      "source": "AIEF2025 - Everything is ugly, so go build something that isn't \u2014 Raiza Martin, Huxe (ex NotebookLM) - https://www.youtube.com/watch?v=yG5d5UaGz1M",
+      "ingested": "2026-07-05T13:00:00Z",
+      "updated": "2026-07-05T13:00:00Z",
+      "pages_created": [
+        "entities/raiza-martin.md",
+        "entities/huxe.md",
+        "entities/notebooklm.md",
+        "concepts/product-multi-layer-cake.md",
+        "concepts/personal-clarity.md",
+        "concepts/consumer-unrest.md",
+        "concepts/forceful-product-building.md",
+        "concepts/ai-product-rebuilding-wave.md",
+        "concepts/product-taste.md",
+        "concepts/invisible-team-members.md",
+        "concepts/chaos-and-opportunity.md",
+        "references/aief2025-everything-is-ugly-so-go-build-something-that-isnt-raiza-martin-huxe.md"
+      ],
+      "pages_updated": [
+        "misc/ai-engineer-worlds-fair-2025.md",
+        "entities/aief2025.md"
+      ],
+      "page_count": 14
+    },
+    {
+      "source": "AIEF2025 - Machines of Buying and Selling Grace - Adam Behrens, New Generation - https://www.youtube.com/watch?v=zlZz0mDF2eg",
+      "ingested": "2026-07-05T13:30:00Z",
+      "updated": "2026-07-05T13:30:00Z",
+      "pages_created": [
+        "entities/adam-behrens.md",
+        "entities/new-generation.md",
+        "entities/visa.md",
+        "entities/walmart.md",
+        "entities/home-depot.md",
+        "entities/bridgewater.md",
+        "concepts/agentic-commerce.md",
+        "concepts/e-commerce-evolution.md",
+        "concepts/delegated-authentication.md",
+        "concepts/buyer-seller-intent.md",
+        "concepts/product-aggregation.md",
+        "concepts/market-design.md",
+        "concepts/agent-checkout.md",
+        "concepts/intent-infrastructure.md",
+        "concepts/virtual-cards.md",
+        "concepts/market-makers.md",
+        "concepts/product-feeds.md",
+        "concepts/agent-negotiation.md",
+        "references/aief2025-machines-of-buying-and-selling-grace-adam-behrens-new-generation.md"
+      ],
+      "pages_updated": [
+        "entities/stripe.md",
+        "entities/openai.md",
+        "concepts/prompt-injection.md",
+        "entities/aief2025.md"
+      ],
+      "page_count": 23
+    },
+    {
+      "source": "AIEF2025 - Top Ten Challenges to Reach AGI — Stephen Chin, Andreas Kollegger - https://www.youtube.com/watch?v=ypyvj_56sBU",
+      "ingested": "2026-07-05T14:30:00Z",
+      "updated": "2026-07-05T14:30:00Z",
+      "pages_created": [
+        "entities/stephen-chin.md",
+        "entities/andreas-kolleger.md",
+        "references/aief2025-top-ten-challenges-agi-stephen-chin-andreas-kolleger.md",
+        "concepts/agi-challenges.md",
+        "concepts/prompt-engineering-amnesia.md",
+        "concepts/autonomous-system-unintended-consequences.md",
+        "concepts/ai-simulation-hypothesis.md",
+        "concepts/ai-ethics-creator-responsibility.md",
+        "concepts/ai-language-culture-understanding.md",
+        "concepts/multi-agent-hive-mind.md",
+        "concepts/agi-question-definition.md"
+      ],
+      "pages_updated": [
+        "entities/neo4j.md",
+        "concepts/graphrag.md",
+        "misc/ai-engineer-worlds-fair-2025.md"
+      ],
+      "page_count": 14
+    }
+  ]
+}

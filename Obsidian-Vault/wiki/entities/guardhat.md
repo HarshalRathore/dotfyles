@@ -8,7 +8,7 @@ tags:
   - case-study
 aliases: [Guardhat worker safety]
 sources:
-  - "AI Engineer World's Fair 2025 - Critical AI Inference your CIO can Trust — Sahil Yadav, Hariharan Ganesan, Telemetrak - https://www.youtube.com/watch?v=6Tpm4m1YxHk"
+  - "[[sources/watchv=6tpm4m1yxhk]]"
 summary: "Worker safety company with an AI-driven IoT platform using wearable devices to predict and prevent incidents in hazardous environments. Case study for Telemetrak's X-TOPS trust framework where GPS drift caused 70% false positive alerts."
 provenance:
   extracted: 0.85

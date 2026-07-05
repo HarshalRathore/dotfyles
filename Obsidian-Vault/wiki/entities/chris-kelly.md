@@ -8,7 +8,7 @@ tags:
 aliases:
   - Chris Kelly Augment
 sources:
-  - "AIEF2025 - Vibes won't cut it — Chris Kelly, Augment Code - https://www.youtube.com/watch?v=Dc3qOA9WOnE"
+  - "[[sources/watchv=dc3qoa9wone]]"
 summary: "Engineer at Augment Code, former GitHub employee, advocate for production-oriented software engineering in the AI era. Argues that AI code generation is only one part of software engineering and that code review becomes the most important skill as AI writes more code."
 provenance:
   extracted: 0.80

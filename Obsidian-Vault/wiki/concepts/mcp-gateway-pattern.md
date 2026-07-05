@@ -7,8 +7,8 @@ tags:
   - enterprise
   - gateway
 sources:
-  - "https://www.youtube.com/watch?v=0NHCyq8bBcM"
-  - "AIEF2025 - MCP Is Not Good Yet — David Cramer, Sentry - https://www.youtube.com/watch?v=FCi4jT86gSw"
+  - "[[sources/watchv=0nhcyq8bbcm]]"
+  - "[[sources/watchv=fci4jt86gsw]]"
 summary: "Architectural pattern for centralizing MCP connections through a shared gateway service that handles routing, auth, rate limiting, observability, and policy enforcement."
 provenance:
   extracted: 0.70

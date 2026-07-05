@@ -6,7 +6,7 @@ tags:
   - reasoning
   - verification
 sources:
-  - "AI Engineer World's Fair 2025 talk - Infrastructure for the Singularity — Jesse Han, Morph - https://www.youtube.com/watch?v=2goSS66XRBk"
+  - "[[sources/watchv=2goss66xrbk]]"
 summary: "Approach to building AI systems that use formal verification software and symbolic methods to reflect upon and improve their own reasoning, producing algorithmically checkable outputs."
 provenance:
   extracted: 0.65

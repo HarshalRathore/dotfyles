@@ -9,7 +9,7 @@ aliases:
   - Engelbart
   - Doug Engelbart
 sources:
-  - "AIEF2025 - Useful General Intelligence — Danielle Perszyk, Amazon AGI - https://www.youtube.com/watch?v=Dj0b_cEBHHI"
+  - "[[sources/watchv=dj0b_cebhhi]]"
 summary: "Inventor of the computer mouse and graphical user interface. Proponent of augmenting human intelligence rather than building thinking machines. His vision for computers as tools for human augmentation is invoked by Danielle Perszyk as an alternative to standard AGI."
 provenance:
   extracted: 0.65

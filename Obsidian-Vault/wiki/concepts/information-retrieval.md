@@ -1,7 +1,7 @@
 ---
 title: Information Retrieval
 tags: [search, retrieval, fundamentals]
-sources: ["AI Engineer World's Fair 2025 - Information Retrieval from the Ground Up - Philipp Krenn, Elastic - https://www.youtube.com/watch?v=4Xe_iMYxBQc"]
+sources: ["[[sources/ai-engineer-worlds-fair-2025-information-retrieval-from-the-ground-up-philipp-krenn]]", "[[sources/watchv=4xe_imyxbqc]]"]
 summary: "The field of finding relevant information from a collection of documents. Encompasses keyword/lexical search, vector search, hybrid methods, and evaluation. The 'R' in RAG."
 provenance:
   extracted: 0.80

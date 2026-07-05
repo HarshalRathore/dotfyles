@@ -4,7 +4,7 @@ category: references
 tags: [ai, llm, demo, exploration, curiosity, ai-engineering]
 aliases: [Sharif Shameem AI Eng 2025, On Curiosity talk]
 sources:
-  - "AI Engineer World's Fair 2025 talk — On Curiosity — Sharif Shameem, Lexica - https://www.youtube.com/watch?v=0F8mnGPUycY"
+  - "[[sources/watchv=0f8mngpuycy]]"
 summary: "Sharif Shameem argues that curiosity-driven demo building is the primary way to discover latent AI model capabilities, and that AI engineers have a moral obligation to explore and share what they find."
 provenance:
   extracted: 0.85

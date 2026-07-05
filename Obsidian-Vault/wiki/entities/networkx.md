@@ -9,7 +9,7 @@ tags:
 aliases:
   - networkx
 sources:
-  - "AI Engineer World's Fair 2025 talk — HybridRAG: A Fusion of Graph and Vector Retrieval — Mitesh Patel, NVIDIA - https://www.youtube.com/watch?v=-tgQa8Fzf80"
+  - "[[sources/watchv=-tgqa8fzf80]]"
 summary: "A Python library for the creation, manipulation, and study of complex networks and graph algorithms, now integrated with NVIDIA cuGraph for GPU acceleration."
 provenance:
   extracted: 0.50

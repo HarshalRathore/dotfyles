@@ -9,7 +9,7 @@ aliases:
   - Nova Act
   - Amazon Nova Act
 sources:
-  - "AIEF2025 - Useful General Intelligence — Danielle Perszyk, Amazon AGI - https://www.youtube.com/watch?v=Dj0b_cEBHHI"
+  - "[[sources/watchv=dj0b_cebhhi]]"
 summary: "Amazon's computer-use agent SDK combining a vision-trained Amazon Nova model with a Python SDK for building and deploying browser-based agents. Enables natural language to screen actions, with granular atomic action control and composability via standard Python."
 provenance:
   extracted: 0.75

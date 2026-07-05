@@ -1,33 +1,68 @@
 ---
 title: "Skill Hell"
+category: concepts
 tags:
-  - "agent-skills"
-  - "development-patterns"
+  - ai-coding
+  - vibe-engineering
+  - skill-gap
+  - model-capabilities
+  - prompt-engineering
 sources:
-  - "web-youtube-com-watch-v-unzcg3lw6o0"
+  - "[[sources/watchv=jv-wy5pxxlo]]"
+relationships:
+  - target: "[[concepts/vibe-engineering]]"
+    type: contradicts
+  - target: "[[concepts/code-review-primary-skill]]"
+    type: related_to
+  - target: "[[concepts/context-engineering]]"
+    type: related_to
+provenance:
+  extracted: 0.70
+  inferred: 0.25
+  ambiguous: 0.05
+base_confidence: 0.75
+lifecycle: draft
+tier: supporting
+created: 2026-07-04
+updated: 2026-07-04
 ---
+
 # Skill Hell
 
-Skill hell is a failure mode in AI-assisted development where the proliferation of agent skills — freely available to download and contribute — creates an environment where no one can distinguish a well-designed skill from a poorly-designed one. Named as a successor pattern to tutorial hell and framework hell.
+The gap between what developers *think* vibe coding requires (writing English) and what it actually demands (a combination of technical knowledge, model awareness, context management, and engineering judgment). ^[extracted]
 
-## Origin
+## The Misconception
 
-Term coined by Matt Pocock in his 2026 AI Engineer talk "Building Great Agent Skills: The Missing Manual." He notes that his own skills repository (mattpocock/skills) is one of the most popular engineering skill sets, and that this success contributes to the problem — people use skills without knowing how to evaluate them.
+Many developers believe vibe coding is simply "writing English and letting the LLM do the output." This is wrong. Vibe engineering is a mix of multiple skills:
 
-## Symptoms
+- Knowing the limits and capabilities of the model
+- Understanding the agent's features and constraints
+- Managing context windows and what to pass
+- Writing rules and technical prompts
+- Being "chronically untwere" — familiar enough with the ecosystem to understand what's going on
+- Technical knowledge to steer the models effectively ^[extracted]
 
-- Users download many skills but can't compose them effectively
-- Skills promise specific results but don't deliver consistently
-- Organizations have no framework for building internal skills
-- Operating procedures can't be translated into agent instructions
-- Users keep adding more skills hoping each new one will solve the problem ("just one more skill, bro")
+## When Skill Hell Appears
 
-## Solution
+Developers who quit vibe coding too early often fall into skill hell without recognizing it. Common reasons:
 
-The [[concepts/skills-checklist-framework]] provides a structured approach to escaping skill hell: evaluate every skill along four dimensions — how it's triggered, how it's structured, how it steers the agent, and what pruning it's had.
+1. **Unlucky timing** — Trying a tool right after a model downgrade disguised as an update ^[extracted]
+2. **Overwhelmed by choice** — Too many tools, models, and settings to manage ^[extracted]
+3. **PEPA dev background** — Perfectionist developers who can't accept "good enough" code ^[extracted]
+4. **Skill issue** — Lack of the actual skills needed, not the tool ^[extracted]
+5. **NFT-dropshipping association** — Negative perception of the vibe coding community ^[extracted]
+
+## The Good-Enough Judgment
+
+A critical skill in skill hell: knowing which code is good enough and moving on. ^[extracted] Not everything needs optimization. The ability to vibe code something, look at it, test briefly, and move on is a genuine engineering skill — valuable with or without AI. ^[inferred]
+
+## Clean Code for Agents
+
+Agents need clean, consistent code to continue working effectively. If you keep writing slop and accepting everything, even skilled engineers hit a roadblock where they cannot move forward. ^[extracted] This creates a compounding problem: bad output degrades the agent's ability to produce good output in subsequent iterations. ^[inferred]
 
 ## Related
 
-- [[concepts/skills-checklist-framework]] — The framework designed to solve skill hell
-- [[concepts/leading-words]] — A steering technique for well-designed skills
-- [[entities/matt-pocock]] — Creator of the term and framework
+- [[concepts/vibe-engineering|Vibe Engineering]] — The disciplined approach that avoids skill hell
+- [[concepts/code-review-primary-skill|Code Review as Primary Skill]] — The skill that helps escape skill hell
+- [[concepts/context-engineering|Context Engineering]] — A specific skill component
+- [[concepts/burden-of-generated-code|Burden of Generated Code]] — The consequence of staying in skill hell

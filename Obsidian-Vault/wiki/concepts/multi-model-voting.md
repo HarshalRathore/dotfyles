@@ -7,7 +7,7 @@ tags:
   - ensemble
   - llm
 sources:
-  - "https://www.youtube.com/watch?v=12v5S1n1eOY"
+  - "[[sources/watchv=12v5s1n1eoy]]"
 summary: "Technique where multiple LLMs from different vendors vote on answers, with majority consensus used for higher-confidence results."
 provenance:
   extracted: 0.75

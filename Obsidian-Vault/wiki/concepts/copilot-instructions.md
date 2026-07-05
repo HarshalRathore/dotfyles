@@ -1,85 +1,59 @@
 ---
 title: "Copilot Instructions"
 tags:
-  - concept
-  - ai
-  - best-practice
-  - team-workflow
+  - copilot-instructions
+  - team-standards
   - github
-aliases: [copilot-instructions.md, AI instruction files, codified AI standards]
-sources:
-  - "AIEF2025 - Unlocking AI Powered DevOps Within Your Organization — Jon Peck, GitHub - https://www.youtube.com/watch?v=C1NivhYS1sI"
-  - "AIEF2025 - Collaborating with Agents in your Software Dev Workflow — Jon Peck & Christopher Harrison, Microsoft - https://www.youtube.com/watch?v=G1hhmz6mXT0"
-summary: "A committed `.github/copilot-instructions.md` file that codifies team best practices, coding standards, and patterns for AI tools to follow automatically — maintained by lead developers as team decisions evolve."
+  - copilot
+  - aief2025
+  - dot-instructions
+summary: ".github/copilot-instructions.md — a shared team artifact that codifies coding standards, build instructions, and repository conventions so AI tools follow them automatically."
 provenance:
-  extracted: 0.80
-  inferred: 0.18
-  ambiguous: 0.02
-base_confidence: 0.65
+  extracted: 0.85
+  inferred: 0.10
+  ambiguous: 0.05
+base_confidence: 0.80
 lifecycle: draft
+lifecycle_changed: 2026-07-05
 tier: supporting
-created: 2026-07-03
-updated: 2026-07-03
+created: 2026-07-05
+updated: 2026-07-05
+relationships:
+  - target: "[[concepts/dot-instructions-files|Dot Instructions Files]]"
+    type: relates-to
+  - target: "[[entities/github-copilot|GitHub Copilot]]"
+    type: feature-of
+  - target: "[[concepts/code-quality-as-context|Code Quality as Context]]"
+    type: implements
 ---
 
 # Copilot Instructions
 
-Copilot Instructions is the practice of codifying team development standards into a `.github/copilot-instructions.md` file at the repository root, enabling AI coding tools to automatically follow team conventions. The pattern was articulated by [[entities/jon-peck|Jon Peck]] of [[entities/github-copilot|GitHub]] at AI Engineer World's Fair 2025.
+**Copilot Instructions** are codified team standards stored in `.github/copilot-instructions.md` that [[entities/github-copilot|GitHub Copilot]] reads for every coding request, ensuring AI follows team conventions automatically. ^[extracted]
 
 ## How It Works
 
-- **File location:** `.github/copilot-instructions.md` inside the repository. ^[extracted]
-- **Shared artifact:** The file is committed to version control — it becomes part of the repository's shared knowledge. ^[extracted]
-- **Local + remote:** Used locally by individual developers and consumed by AI tools during code generation. ^[extracted]
+The file is committed to the repository as a shared team artifact. It covers: ^[extracted]
 
-## What Instructions Cover
+- App intro and build approach
+- Code standards
+- Pre-commit requirements
+- Global language guidance
+- Specific build instructions
+- Repository structure
 
-Peck describes the file as encoding decisions a team makes during development ^[extracted]:
+Both [[entities/christopher-harrison|Christopher Harrison]] and [[entities/jon-peck|Jon Peck]] presented this at AIEF2025 as a key practice for enterprise Copilot adoption. ^[extracted]
 
-- Which linting practices to follow
-- Model accessor patterns
-- Type conventions and naming rules
-- Security checks that must run on every change
-- Any pattern that the team standardizes on
+## Governance
 
-### Demo and Consistency Value
+Keeping Copilot Instructions current is a lead developer responsibility. ^[extracted] They are not a one-time setup but an evolving document that should be maintained alongside the codebase.
 
-Peck emphasizes the practical value for demo reliability — a probabilistic tool needs consistency, and instructions files are the top mechanism for achieving it: ^[extracted]
+## Relationship to Other Patterns
 
-> "Instructions files have been probably the number one thing that I have leaned on to help ensure that I get some level of consistency."
+Copilot Instructions are the repository-level counterpart to [[concepts/dot-instructions-files|dot instructions files]] (per-file-type patterns). Where dot instructions files handle file-pattern-specific conventions, Copilot Instructions handle global, repository-wide standards. ^[inferred]
 
-## Relationship to .instructions Files
-
-While Copilot Instructions provides global repository-level guidance, [[concepts/dot-instructions-files|.instructions files]] provide granular, file-type-specific guidance applied automatically via pattern matching. The two are complementary: ^[inferred]
-
-- **Copilot Instructions**: Broad direction, team standards, repository structure, language guidance. ^[extracted]
-- **.instructions files**: Per-file-type patterns (e.g., `*.tsx` React components, `*.svelte`) with prototype file references. ^[extracted]
-
-There is no strict hierarchy — Copilot considers all context sources together. Consistency across all sources prevents mixed signals. ^[extracted]
-
-## Don't Be Passive-Aggressive
-
-A key practice from [[entities/christopher-harrison|Christopher Harrison]]: ^[extracted]
-
-> "Don't be passive aggressive with Copilot. That if there's an important piece of information that you need Copilot to consider, go ahead and make sure that you tell Copilot that."
-
-Instructions files are the mechanism for encoding this in advance — standards the AI follows automatically rather than relying on ad-hoc prompting. ^[inferred]
-
-## Ownership and Maintenance
-A lead developer or team manager owns keeping the instructions file current. When the team makes a decision — adopting a new pattern, deprecating an approach, requiring a specific check — it becomes the lead's job to ensure it ends up in `copilot-instructions.md` so AI tools keep all team members aligned. ^[extracted]
-
-## Relationship to Enterprise Knowledge Bases
-
-For [[entities/github-copilot|GitHub Copilot Enterprise]] users, instructions files can be supplemented with **knowledge bases** — named collections of repositories that provide the AI with best-practice examples, internal API specifications, and reference implementations on demand. ^[extracted]
-
-## Related
-
-- [[concepts/brownfield-first-ai-adoption]] — The learning strategy where instructions guide AI interaction
-- [[concepts/ai-powered-devops]] — AI applied across the DevOps lifecycle
-- [[concepts/context-engineering]] — Getting the right context into the model; instructions are part of that
-- [[entities/jon-peck]] — Speaker who articulated the pattern
-- [[concepts/dot-instructions-files]] — Per-file-type guidance complementing global instructions
+Together, they implement [[concepts/code-quality-as-context|code quality as context]] at the organizational level — ensuring the AI has the same team conventions that a new human developer would learn through onboarding. ^[inferred]
 
 ## Sources
 
-- AIEF2025 — Unlocking AI Powered DevOps Within Your Organization, Jon Peck, GitHub. https://www.youtube.com/watch?v=C1NivhYS1sI
+- AIEF2025 — The Agent Awakens: Collaborative Development with Copilot, Christopher Harrison, GitHub. https://www.youtube.com/watch?v=tHJSZ1-ZqcA

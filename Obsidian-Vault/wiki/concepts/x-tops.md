@@ -9,7 +9,7 @@ tags:
   - trust
 aliases: [extended MLOPS, X-TOPS framework, trust-aware MLOPS]
 sources:
-  - "AI Engineer World's Fair 2025 - Critical AI Inference your CIO can Trust — Sahil Yadav, Hariharan Ganesan, Telemetrak - https://www.youtube.com/watch?v=6Tpm4m1YxHk"
+  - "[[sources/watchv=6tpm4m1yxhk]]"
 summary: "An operational framework extending standard MLOPS with built-in trust, conscience, and human oversight — encompassing AI-aware guardrails, trust-specific dashboards, click-to-fix human feedback workflows, and verifiable traceability for mission-critical AI systems."
 provenance:
   extracted: 0.82

@@ -10,7 +10,7 @@ aliases:
   - Mitesh Patel
   - mitesh-patel
 sources:
-  - "AI Engineer World's Fair 2025 talk — HybridRAG: A Fusion of Graph and Vector Retrieval — Mitesh Patel, NVIDIA - https://www.youtube.com/watch?v=-tgQa8Fzf80"
+  - "[[sources/watchv=-tgqa8fzf80]]"
 summary: "Lead of the Developer Advocate team at NVIDIA, specializing in creating technical workflows and notebooks for RAG systems, GraphRAG, and HybridRAG."
 provenance:
   extracted: 0.80

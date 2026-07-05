@@ -4,7 +4,7 @@ category: entities
 tags: [person, engineer, temporal, ai-engineering, conference-speaker]
 aliases: [Preeti, Somal]
 sources:
-  - "AI Engineer World's Fair 2025 talk - Scaling AI Agents Without Breaking Reliability — Preeti Somal, Temporal - https://www.youtube.com/watch?v=1izYWsokr9s"
+  - "[[sources/watchv=1izywsokr9s]]"
 summary: "Engineer at Temporal who presented on using Temporal's workflow orchestration platform to build reliable, scalable AI agents at AI Engineer World's Fair 2025."
 provenance:
   extracted: 0.70

@@ -9,7 +9,7 @@ tags:
 aliases:
   - Mastra
 sources:
-  - "AIEF2025 - Agents vs Workflows: Why Not Both? — Sam Bhagwat, Mastra.ai - https://www.youtube.com/watch?v=8SUJEqQNClw"
+  - "[[sources/watchv=8sujeqqnclw]]"
 summary: "AI workflow framework co-founded by Sam Bhagwat (former Gatsby co-founder). Focuses on composing agents and workflows together with fluent, readable code APIs."
 provenance:
   extracted: 0.65

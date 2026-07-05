@@ -9,8 +9,9 @@ updated:
 lifecycle: draft
 base_confidence: 0.75
 sources:
-  - "kubernetes-installation-steps_e573e8"
-  - "introduction_804367"
+  - "[[sources/kubernetes-installation-steps_e573e8]]"
+  - "[[sources/introduction_804367]]"
+
 ---
 ## Key Characteristics
 - Executes application workloads by running scheduled containers, hosting pods and their enclosed containers.

@@ -8,7 +8,7 @@ tags:
   - pattern
   - jwt
 sources:
-  - "AIEF2025 - CIAM for AI: Authn/Authz for Agents — Michael Grinich, CEO of WorkOS - https://www.youtube.com/watch?v=D4Dswf-__RM"
+  - "[[sources/watchv=d4dswf-__rm]]"
 summary: "Identity architecture pattern where agent authorization is passed step-by-step through cryptographically signed token chains, with each link carrying forward the original user's permissions."
 lifecycle: draft
 tier: supporting

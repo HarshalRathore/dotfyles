@@ -9,7 +9,7 @@ tags:
   - deployment
 aliases: [agent platform, agent build platform, agent deployment factory]
 sources:
-  - "AI Engineer World's Fair 2025 - Spark to System: Building the Open Agentic Web — Asha Sharma, Microsoft - https://www.youtube.com/watch?v=7Hrw6rtXaHc"
+  - "[[sources/watchv=7hrw6rtxahc]]"
 summary: "Platform for building, deploying, and managing AI agents as continuously-evolving behaviors rather than static binaries — with built-in evaluation, monitoring, and cloud-to-edge deployment."
 provenance:
   extracted: 0.72
@@ -37,6 +37,12 @@ The concept of shifting from a traditional software factory (shipping binaries a
 
 [[entities/microsoft|Microsoft]]'s Foundry platform — a reference agent factory — hosts 70,000+ customers with 50,000+ agents built every day. ^[extracted]
 
+## Framework-Agnostic Agent Factories
+
+A related but distinct approach is the framework-agnostic agent factory, exemplified by [[entities/agentuity|Agentuity]]. Rather than a single platform for all agents, Agentuity treats each agent as an independent deployment unit that can use any framework (CrewAI, LangChain, Pydantic, Vercel AI SDK) and any runtime (Bun, Python+UV, Node.js). Agents communicate via platform-managed internal networking with ephemeral tokens. ^[inferred]
+
+[[entities/rick-blalock|Rick Blalock]] notes that Agentuity internally runs 50+ agents using multiple frameworks — not using any single framework exclusively. The platform provides built-in AI gateway, observability, and agent routing, making agents first-class infrastructure citizens. ^[inferred]
+
 ## Related
 
 - [[concepts/agentic-web]]
@@ -45,6 +51,8 @@ The concept of shifting from a traditional software factory (shipping binaries a
 - [[concepts/agent-evaluation-pipeline]]
 - [[entities/azure-ai-foundry]]
 - [[references/ai-eng-worlds-fair-2025-spark-to-system-open-agentic-web-asha-sharma]]
+- [[concepts/framework-agnostic-agents]]
+- [[concepts/agent-runtimes]]
 
 ## Sources
 

@@ -10,7 +10,7 @@ tags:
 aliases: [kpenfound, Kyle Penfound Dagger]
 summary: "Member of the Dagger ecosystem team, co-presenter of the 'Ship Agents that Ship' workshop at AI Engineer World's Fair 2025. Background in DevOps and platform engineering."
 sources:
-  - "AIEF2025 - Ship Agents that Ship: A Hands-On Workshop - Kyle Penfound, Jeremy Adams, Dagger - https://www.youtube.com/watch?v=Fzb1a24hF-o"
+  - "[[sources/watchv=fzb1a24hf-o]]"
 provenance:
   extracted: 0.75
   inferred: 0.20

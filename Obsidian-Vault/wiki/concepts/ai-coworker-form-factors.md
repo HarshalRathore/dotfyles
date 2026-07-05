@@ -7,7 +7,7 @@ tags:
   - ux
   - interaction-patterns
 sources:
-  - "AIEF2025 - Form factors for your new AI coworkers — Craig Wattrus, Flatfile - https://www.youtube.com/watch?v=CiMVKnX-CNI"
+  - "[[sources/watchv=cimvknx-cni]]"
 summary: "Four interaction surfaces for AI coworkers: invisible (background processing), ambient (subtle presence), in-line (workflow-integrated), and conversational (chat)."
 provenance:
   extracted: 0.80

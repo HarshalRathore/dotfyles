@@ -7,7 +7,7 @@ tags:
   - ai
   - cloud
 sources:
-  - "https://www.youtube.com/watch?v=12v5S1n1eOY"
+  - "[[sources/watchv=12v5s1n1eoy]]"
 summary: "Enterprise unstructured content platform managing exabytes of data for 115K+ customers including 2/3 of the Fortune 500."
 provenance:
   extracted: 0.85

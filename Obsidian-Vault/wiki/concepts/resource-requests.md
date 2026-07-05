@@ -9,8 +9,8 @@ updated:
 lifecycle: draft
 base_confidence: 0.75
 sources:
-  - "resource-requests-&-limits_4bd978"
-  - "kubernetes-autoscaling_59fbf3"
+  - "[[sources/resource-requests-&-limits_4bd978]]"
+  - "[[sources/kubernetes-autoscaling_59fbf3]]"
 tags:
 ---
 ## Description

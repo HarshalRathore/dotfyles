@@ -4,7 +4,7 @@ category: entities
 tags: [person, computer-science, pioneer, hci, man-machine]
 aliases: [Licklider, JCR Licklider, Joseph Licklider]
 sources:
-  - "AI Engineer World's Fair 2025 talk — On Curiosity — Sharif Shameem, Lexica - https://www.youtube.com/watch?v=0F8mnGPUycY"
+  - "[[sources/watchv=0f8mngpuycy]]"
 summary: "Computer scientist who authored the 1960 'Man-Computer Symbiosis' paper, envisioning an intelligent assistant with perfect context — a vision cited as still unfulfilled by modern AI tools."
 provenance:
   extracted: 0.70

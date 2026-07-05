@@ -8,7 +8,7 @@ tags:
   - agi
 aliases: [ArcPrize, ARC Prize, Arc Prize Foundation]
 sources:
-  - "AI Engineer World's Fair 2025 — Measuring AGI: Interactive Reasoning Benchmarks for ARC-AGI-3 — Greg Kamradt, ARC Prize Foundation - https://www.youtube.com/watch?v=3XmFPwjG8pg"
+  - "[[sources/watchv=3xmfpwjg8pg]]"
 summary: "Non-profit organization founded by Francois Chollet and Mike Knup with the mission to be a North Star guide towards Open AGI. Creators of the ARC-AGI benchmark series."
 provenance:
   extracted: 0.78

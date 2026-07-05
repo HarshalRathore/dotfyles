@@ -11,7 +11,7 @@ aliases:
   - Guide LLM
   - guidellm
 sources:
-  - "AIEF2025 - Strategies for LLM Evals (GuideLLM, lm-eval-harness, OpenAI Evals Workshop) — Taylor Jordan Smith - https://www.youtube.com/watch?v=89NuzmKokIk"
+  - "[[sources/watchv=89nuzmkokik]]"
 summary: "Open-source system performance benchmarking tool for LLM inference, part of the VLLM ecosystem. Measures latency, throughput, time-to-first-token, and inter-token latency with an in-terminal UI and JSON output."
 provenance:
   extracted: 0.80

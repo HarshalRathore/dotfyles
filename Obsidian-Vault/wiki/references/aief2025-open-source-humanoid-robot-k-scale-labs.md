@@ -11,7 +11,7 @@ aliases:
   - AIEF2025 K-Scale Labs
   - Mo K-Scale Humanoid 2025
 sources:
-  - "AIEF2025 - Your Personal Open-Source Humanoid Robot for $8,999 — JX Mo, K-Scale Labs - https://www.youtube.com/watch?v=BS92RdBvI90"
+  - "[[sources/watchv=bs92rdbvi90]]"
 summary: "JX Mo (founding engineer, K-Scale Labs) presents the K-Bot ($8,999) and Z-Bot open-source humanoid robots — fully open-sourced hardware, software, and ML stack with a developer-first Python/Rust SDK, GPU-accelerated RL training via MJX, and digital twin simulation (KOS Sim) enabling sim2real deployment."
 provenance:
   extracted: 0.85

@@ -9,7 +9,7 @@ relationships:
   - target: "[[concepts/exploratory-query-recommendation]]"
     type: related_to
 sources:
-  - "https://www.youtube.com/watch?v=2vlCqD6igVA"
+  - "[[sources/watchv=2vlcqd6igva]]"
 summary: "Finding that reducing bad recommendations improves engagement more than maintaining high recommendation volume, demonstrated by Indeed's 20% reduction in bad recs leading to 4% higher application rate and 5% lower unsubscribe rate."
 provenance:
   extracted: 0.65

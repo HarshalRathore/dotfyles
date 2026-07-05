@@ -11,8 +11,8 @@ relationships:
   - target: "[[concepts/test-time-compute-scaling]]"
     type: related_to
 sources:
-  - "AI Engineer World's Fair 2025 talk - AI Engineer World's Fair 2025 Hackathon Presentations - https://www.youtube.com/watch?v=1ZlO9Yu2ZiU"
-  - "AIEF2025 - Thinking Deeper in Gemini — Jack Rae, Google DeepMind - https://www.youtube.com/watch?v=8EQo4J2BWKw"
+  - "[[sources/watchv=1zlo9yu2ziu]]"
+  - "[[sources/watchv=8eqo4j2bwkw]]"
 summary: "The argument that scaling model size and compute alone will not solve AI reliability problems, and that architectural innovation or specialized models are needed for production-quality real-world performance."
 provenance:
   extracted: 0.65
@@ -68,3 +68,4 @@ If the scaling is dead thesis is correct:
 
 - [[references/ai-eng-worlds-fair-2025-hackathon-presentations|AI Engineer World's Fair 2025 Hackathon Presentations]] — Featherless Action R1 presentation
 - [[references/thinking-deeper-in-gemini-jack-rae-deepmind|Thinking Deeper in Gemini — Jack Rae, Google DeepMind]] — Provides the test-time compute counterpoint
+- [[references/aief2025-the-next-unicorns-7-top-ai-startups-hf0-residency|AIEF2025 The Next Unicorns]] — Federalist AI CoreKey 72B presentation (non-transformer architecture, 1000x lower inference)

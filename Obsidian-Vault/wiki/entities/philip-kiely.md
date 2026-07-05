@@ -7,7 +7,7 @@ tags:
   - inference
 aliases: [Philip Kiely, philip-kiely]
 sources:
-  - "AIEF2025 - Introduction to LLM serving with SGLang - Philip Kiely and Yineng Zhang, Baseten - https://www.youtube.com/watch?v=Ahtaha9fEM0"
+  - "[[sources/watchv=ahtaha9fem0]]"
 summary: "Developer Advocate at Baseten covering inference and model serving. Co-presented the SGLang workshop at AI Engineer World's Fair 2025."
 provenance:
   extracted: 0.90
@@ -33,3 +33,4 @@ Philip Kiely is a Developer Advocate at [[entities/baseten|Baseten]], focused on
 ## Sources
 
 - AI Engineer World's Fair 2025 — Introduction to LLM serving with SGLang. https://www.youtube.com/watch?v=Ahtaha9fEM0
+- AI Engineer World's Fair 2025 — Optimizing inference for voice models in production. https://www.youtube.com/watch?v=gmTHs5T_YAE

@@ -8,7 +8,9 @@ tags:
   - infrastructure
 aliases: [OpenRouter AI, Open Router]
 sources:
-  - "AIEF2025 - Fun stories from building OpenRouter and where all this is going - Alex Atallah, OpenRouter - https://www.youtube.com/watch?v=84Vtz2IL1Ug"
+  - "[[sources/watchv=84vtz2il1ug]]"
+  - "[[sources/watchv=l8-5ezsoi5a]]"
+  - "[[sources/watchv=lqq_lcbajcc]]"
 summary: "Multi-model inference marketplace providing a single API to 400+ models across 60+ providers. Aggregates inference from open-source and closed models with unified billing, routing, and observability."
 provenance:
   extracted: 0.75
@@ -18,7 +20,12 @@ base_confidence: 0.55
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
-updated: 2026-07-03
+updated: 2026-07-04
+relationships:
+  - target: "[[concepts/vibe-coding-as-agentic-ai|Vibe Coding as Agentic AI]]"
+    type: related_to
+  - target: "[[concepts/swe-bench|SWE Bench]]"
+    type: related_to
 ---
 
 # OpenRouter
@@ -59,6 +66,10 @@ OpenRouter's data supports a **multi-model** future: ^[extracted]
 - OpenAI is somewhat underrepresented in this data because many developers use OpenRouter to get "OpenAI-like behavior for all other models"
 - Inference is a **commodity** — "Claude from Bedrock" should look identical to "Claude from Vertex"
 - The number of active models on OpenRouter has grown steadily; users don't just hop from model to model but ecosystem diversity keeps expanding
+
+### Code Generation Dominance
+
+Donald Hruska (Retool) noted at AIEF2025 that OpenRouter's top apps are dominated by code generation use cases, reflecting the massive shift toward agentic coding tools (Cursor, Windsurf) as the primary consumer of AI inference. This aligns with SWE Bench Verified showing GPT-4.1 up 21pp from GPT-4.0 and Gemini 2.5 Pro up another 9pp — demonstrating the rapid improvement in coding-specific capabilities driving this demand. ^[extracted]
 
 ## Related
 

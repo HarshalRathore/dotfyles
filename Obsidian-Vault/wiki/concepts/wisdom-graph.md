@@ -10,7 +10,7 @@ aliases:
   - Wisdom Engine
   - Wisdom Graph State Machine
 sources:
-  - "AIEF2025 - Wisdom-Driven Knowledge Augmented Generation at Scale - Chin Keong Lam, Patho AI - https://www.youtube.com/watch?v=9AQOvT8LnMI"
+  - "[[sources/watchv=9aqovt8lnmi]]"
 summary: "A state-machine conceptual model for AI systems where Wisdom guides Decision-Making by analyzing Situations using Knowledge, Experience, and Insight — with a continuous feedback loop that enriches the system over time."
 provenance:
   extracted: 0.60

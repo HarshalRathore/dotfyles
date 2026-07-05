@@ -11,7 +11,7 @@ aliases:
   - Apple Inc.
   - Apple Inc
 sources:
-  - "AIEF2025 - The Unofficial Guide to Apple's Private Cloud Compute - Jmo, CONFSEC - https://www.youtube.com/watch?v=CCsWZ5bJlO8"
+  - "[[sources/watchv=ccswz5bjlo8]]"
 summary: "Consumer technology company whose Private Cloud Compute (PCC) architecture set the standard for private AI inference — combining remote attestation, transparency logs, oblivious HTTP, blind signatures, secure enclaves, and hardened OS."
 provenance:
   extracted: 0.75

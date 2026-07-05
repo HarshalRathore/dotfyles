@@ -6,7 +6,7 @@ created:
 updated:
   - 2026-06-30
 sources:
-  - "kubernetes-installation-steps_e573e8"
+  - "[[sources/kubernetes-installation-steps_e573e8]]"
 tags:
   - security
 aliases:

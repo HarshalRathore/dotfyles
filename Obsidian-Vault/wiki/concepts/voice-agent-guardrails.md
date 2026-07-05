@@ -7,7 +7,7 @@ tags:
   - safety
   - real-time
 sources:
-  - "AI Engineer World's Fair 2025 talk — Building Effective Voice Agents — Toki Sherbakov + Anoop Kotha, OpenAI - https://www.youtube.com/watch?v=-OXiljTJxQU"
+  - "[[sources/watchv=-oxiljtjxqu]]"
 summary: "Safety and guardrail patterns for real-time voice agents, emphasizing async execution and debounce strategies to work within audio latency windows."
 provenance:
   extracted: 0.60

@@ -9,8 +9,8 @@ updated:
 lifecycle: draft
 base_confidence: 0.75
 sources:
-  - "kubernetes-autoscaling_59fbf3"
-  - "admission-controllers_7667fc"
+  - "[[sources/kubernetes-autoscaling_59fbf3]]"
+  - "[[sources/admission-controllers_7667fc]]"
 tags:
 ---
 ## Description

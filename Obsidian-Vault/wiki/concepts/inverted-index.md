@@ -1,7 +1,7 @@
 ---
 title: Inverted Index
 tags: [search, data-structure, fundamentals]
-sources: ["AI Engineer World's Fair 2025 - Information Retrieval from the Ground Up - Philipp Krenn, Elastic - https://www.youtube.com/watch?v=4Xe_iMYxBQc"]
+sources: ["[[sources/ai-engineer-worlds-fair-2025-information-retrieval-from-the-ground-up-philipp-krenn]]", "[[sources/watchv=4xe_imyxbqc]]"]
 summary: "The fundamental data structure behind search engines. An alphabetically sorted mapping from every token to the documents containing it, including term frequency and position data."
 provenance:
   extracted: 0.85

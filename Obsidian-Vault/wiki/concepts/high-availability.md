@@ -6,7 +6,7 @@ created:
 updated:
   - 2026-06-30
 sources:
-  - "replication-controller-&-replicaset_285a2a"
+  - "[[sources/replication-controller-&-replicaset_285a2a]]"
 tags:
   - deployment
 aliases:

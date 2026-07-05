@@ -15,7 +15,7 @@ relationships:
   - target: "[[concepts/evaluation-first-development]]"
     type: related_to
 sources:
-  - "AIEF2025 - The New Code — Sean Grove, OpenAI - https://www.youtube.com/watch?v=8rABwKRsec4"
+  - "[[sources/watchv=8rabwkrsec4]]"
 summary: "Paradigm shift where written specifications — not generated code — are the primary development artifact, capturing full intent and values while serving as both human alignment document and machine-executable evaluation criteria."
 provenance:
   extracted: 0.55

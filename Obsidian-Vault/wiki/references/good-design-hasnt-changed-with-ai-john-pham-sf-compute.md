@@ -9,7 +9,7 @@ tags:
   - accessibility
   - ai-engineer
 sources:
-  - "https://www.youtube.com/watch?v=7e7eVtcygCM"
+  - "[[sources/watchv=7e7evtcygcm]]"
 summary: "AI Engineer World's Fair 2025 talk arguing that AI tools do not change the fundamental principles of good design, introducing the four-pillar framework (speed, trust, accessibility, the light) with case studies from SF Compute's GPU cloud onboarding and purchasing experience."
 provenance:
   extracted: 0.78

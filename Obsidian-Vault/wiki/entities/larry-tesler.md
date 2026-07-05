@@ -7,7 +7,7 @@ tags:
   - pioneer
   - aief2025
 sources:
-  - "AIEF2025 - The Bitter Layout or: How I Learned to Love the Model Picker — Maximillian Piras, Yutori - https://www.youtube.com/watch?v=BZtD0yYAgCQ"
+  - "[[sources/watchv=bztd0yyagcq]]"
 summary: "HCI pioneer known for inventing copy-paste and the principle of modeless interfaces ('don't mode me in'), invoked by Piras to critique AI model picker dropdowns."
 provenance:
   extracted: 0.60

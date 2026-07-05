@@ -10,7 +10,7 @@ aliases:
   - Private Inference
   - Confidential AI
 sources:
-  - "AIEF2025 - The Unofficial Guide to Apple's Private Cloud Compute - Jmo, CONFSEC - https://www.youtube.com/watch?v=CCsWZ5bJlO8"
+  - "[[sources/watchv=ccswz5bjlo8]]"
 summary: "Broader paradigm of running AI model inference on remote servers while protecting user data through architectural guarantees — pioneered by Apple's PCC, now adopted by Microsoft and Meta."
 provenance:
   extracted: 0.70

@@ -10,8 +10,8 @@ aliases:
   - vLLM
   - VLLM inference runtime
 sources:
-  - "AIEF2025 - Strategies for LLM Evals (GuideLLM, lm-eval-harness, OpenAI Evals Workshop) — Taylor Jordan Smith - https://www.youtube.com/watch?v=89NuzmKokIk"
-  - "AIEF2025 - How fast are LLM inference engines anyway? — Charles Frye, Modal - https://www.youtube.com/watch?v=DeFF3J8T5Pk"
+  - "[[sources/watchv=89nuzmkokik]]"
+  - "[[sources/watchv=deff3j8t5pk]]"
 summary: "Open-source high-performance LLM inference runtime. Featured in the Modal LLM Almanac as the most optimized engine for Qwen3 and Llama model families. Supports SafeTensor format, PagedAttention, and efficient serving."
 provenance:
   extracted: 0.70

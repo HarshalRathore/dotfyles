@@ -4,7 +4,7 @@ category: entities
 tags: [company, venture-capital, investor]
 aliases: [Altimeter]
 sources:
-  - "AI Engineer World's Fair 2025 talk - Survive the AI Knife Fight: Building Products That Win — Brian Balfour, Reforge - https://www.youtube.com/watch?v=1MVh05GDydE"
+  - "[[sources/watchv=1mvh05gdyde]]"
 summary: "Venture capital firm where Jamin Ball is a partner. Known for investment in technology companies and analysis of competitive dynamics in the AI era."
 provenance:
   extracted: 0.85

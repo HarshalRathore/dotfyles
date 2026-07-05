@@ -8,7 +8,7 @@ tags:
   - speaker
 aliases: [Sean Grove OpenAI]
 sources:
-  - "AIEF2025 - The New Code — Sean Grove, OpenAI - https://www.youtube.com/watch?v=8rABwKRsec4"
+  - "[[sources/watchv=8rabwkrsec4]]"
 summary: "Alignment researcher at OpenAI, speaker at AI Engineer World's Fair 2025 on the case for specifications as the new code."
 provenance:
   extracted: 0.50

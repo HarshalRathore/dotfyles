@@ -4,7 +4,7 @@ category: entities
 tags: [company, ai, inference, infrastructure, models]
 aliases: [Featherless AI, featherless.ai]
 sources:
-  - "AI Engineer World's Fair 2025 talk - AI Engineer World's Fair 2025 Hackathon Presentations - https://www.youtube.com/watch?v=1ZlO9Yu2ZiU"
+  - "[[sources/watchv=1zlo9yu2ziu]]"
 summary: "AI company building inference infrastructure and action models. Published Featherless Action R1 (65% on real eval) and the world's largest non-transformer 72B parameter model based on RWKV architecture."
 provenance:
   extracted: 0.70

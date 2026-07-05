@@ -12,8 +12,8 @@ aliases:
   - Graph Data Science for RAG
   - RAG Grounding Data Curation
 sources:
-  - "AIEF2025 - Graph Intelligence: Enhance Reasoning and Retrieval Using Graph Analytics - Alison & Andreas, Neo4j - https://www.youtube.com/watch?v=GGxAQVbwBL4"
-  - "references/aief2025-graph-intelligence-alison-andreas-neo4j"
+  - "[[sources/watchv=ggxaqvbwbl4]]"
+  - "[[sources/aief2025-graph-intelligence-alison-andreas-neo4j]]"
 summary: "Applying graph data science algorithms — KNN similarity, community detection, PageRank, betweenness centrality — to curate and improve RAG grounding data quality at scale."
 provenance:
   extracted: 0.70

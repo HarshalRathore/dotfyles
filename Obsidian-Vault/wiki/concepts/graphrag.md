@@ -10,15 +10,22 @@ aliases:
   - Graph RAG
   - Knowledge Graph RAG
 sources:
-  - "AI Engineer World's Fair 2025 talk — HybridRAG: A Fusion of Graph and Vector Retrieval — Mitesh Patel, NVIDIA - https://www.youtube.com/watch?v=-tgQa8Fzf80"
-  - "AI Engineer World's Fair 2025 talk - \"Data readiness\" is a Myth: Reliable AI with an Agentic Semantic Layer — Anushrut Gupta, PromptQL - https://www.youtube.com/watch?v=1nOTQsfe1RU"
+  - "[[sources/watchv=j-9ebjbxcbg]]"
+  - "[[sources/watchv=-tgqa8fzf80]]"
+  - "[[sources/ai-engineer-worlds-fair-2025-talk]]"
+  - "[[sources/watchv=9aqovt8lnmi]]"
+  - "[[sources/watchv=cbir9xs2skq]]"
+  - "[[sources/watchv=czm3cw6fdbs]]"
+  - "Data readiness is a Myth: Reliable AI with an Agentic Semantic Layer — Anushrut Gupta, PromptQL - https://www.youtube.com/watch?v=1nOTQsfe1RU"
   - "AIEF2025 - Wisdom-Driven Knowledge Augmented Generation at Scale - Chin Keong Lam, Patho AI - https://www.youtube.com/watch?v=9AQOvT8LnMI"
   - "AIEF2025 - Why Your Agent's Brain Needs a Playbook: Practical Wins from Using Ontologies - Jesús Barrasa, Neo4j - https://www.youtube.com/watch?v=CbiR9xS2skQ"
   - "AIEF2025 - Agentic GraphRAG: Simplifying Retrieval Across Structured & Unstructured Data — Zach Blumenfeld - https://www.youtube.com/watch?v=CzM3cW6FdBs"
+  - "AIEF2025 - Practical GraphRAG: Making LLMs smarter with Knowledge Graphs — Michael, Jesus, and Stephen, Neo4j - https://www.youtube.com/watch?v=XNneh6-eyPg"
+  - "AIEF2025 - Knowledge Graphs in Litigation Agents — Tom Smoker, WhyHow - https://www.youtube.com/watch?v=yYxr6LdXNWM"
+  - "AIEF2025 - Top Ten Challenges to Reach AGI — Stephen Chin, Andreas Kollegger - https://www.youtube.com/watch?v=ypyvj_56sBU"
 lifecycle: draft
 tier: supporting
-created: 2026-07-03
-updated: 2026-07-03
+updated: 2026-07-05
 relationships:
   - target: "[[concepts/hybridrag|HybridRAG]]"
     type: related_to
@@ -95,6 +102,12 @@ Beyond using the graph as a retrieval index, graph data science algorithms can b
 
 This is distinct from GraphRAG's retrieval function: graph analytics operates on the *chunk similarity graph*, not the *entity knowledge graph*. Both can coexist in the same database — the knowledge graph for structured retrieval, the similarity graph for ongoing curation. ^[inferred] See [[concepts/graph-analytics-rag-curation|Graph Analytics for RAG Curation]] for the full framework.
 
+## Litigation Domain: Knowledge Graphs in Legal Work
+
+[[entities/whyhow|WhyHow]] (founded by [[entities/tom-smoker|Tom Smoker]]) applies GraphRAG-inspired patterns to class action and mass tort litigation. Their system represents individuals, products, ingredients, concentrations, and IDs as connected entities in a knowledge graph, enabling lawyers to trace connections between harmed individuals and pharmaceutical manufacturers. ^[extracted]
+
+This domain demonstrates GraphRAG's strength in **networked, schematized data**: the ability to see what is connected to something else, do multi-hop traversal, and perform mass analytics on connections. For litigation, this means tracing individual → product → ingredient → concentration → ID chains to build case networks. ^[extracted] See [[concepts/litigation-agents|Litigation Agents]] for the full domain context.
+
 ## Advantages over Vector-Only RAG
 
 - Knowledge graphs capture **relationships** between entities in structured form, not just semantic proximity
@@ -108,6 +121,32 @@ This is distinct from GraphRAG's retrieval function: graph analytics operates on
 - Triplet quality directly determines retrieval quality — noisy triplets produce noisy results
 - **Cannot capture business semantics at scale** — Knowledge graphs model entity relationships but cannot encode tacit business language like "what does 'at risk' mean to my business?" Each term has context-dependent meaning that varies across teams, domains, and time. Additionally, you cannot practically capture a billion-row Snowflake table in a graph structure. ^[extracted] This limits GraphRAG's applicability as a full semantic layer for enterprise business contexts. ^[inferred] See [[concepts/tribal-knowledge-in-ai|Tribal Knowledge in AI]] and [[concepts/agentic-semantic-layer|Agentic Semantic Layer]] for alternative approaches.
 
+### Real-World Case: Writer
+
+[[entities/writer|Writer]] provides a concrete case study in overcoming graph database challenges. Their team encountered four specific problems: (1) graph construction cost at scale, (2) Cypher struggling with similarity matching, (3) LLMs preferring text over graph structures, and (4) expertise mismatch. Their solution was to build a specialized model for graph construction that runs on CPUs or smaller GPUs — returning to their core competency rather than trying to become graph database experts. This customer-first approach (solving the retrieval problem rather than forcing a technology) is what Sam Julien considers the key to their success. ^[extracted] See [[references/aief2025-when-vectors-break-down-sam-julien-writer|AIEF2025 talk]] for the full journe…
+
+## Industry Trajectory: Hybrid RAG
+
+Michael Hunger, Stephen Shin, and [[entities/jesús-barrasa|Jesús Barrasa]] at AIEF2025 framed GraphRAG as breathing new life into the AI ecosystem. On Gartner's 2024 hype cycle, generic AI is trending down, RAG is getting over the hump, but GraphRAG and related patterns are providing new momentum. Analysts report GraphRAG is grounded in facts, resolves hallucinations, and that knowledge graphs + AI together solve these problems. ^[extracted]
+
+### Evidence Base
+
+| Source | Finding | Metric |
+|---|---|---|
+| Microsoft Research (GraphRAG paper) | Better results with less token cost | Lower cost than standard RAG ^[extracted] |
+| DataWorld study | RAG on graph vs RAG on SQL | 3× improvement in LLM response accuracy ^[extracted] |
+| LinkedIn customer support | Knowledge graph for support scenarios | 28.6% reduction in median per-issue resolution time ^[extracted] |
+
+The speakers also introduced the **GraphRAG Patterns Catalog** (GraphRAG.com) — a collection of named patterns with example graphs and Cypher queries for building GraphRAG applications. ^[extracted]
+
+### The Two-Brain Analogy
+
+The speakers use a cognitive analogy: the human brain's right side is creative, builds things, and extrapolates (like LLMs); the left side is logical, has facts, reasoning, and enriches data (like knowledge graphs). Knowledge graphs provide the factual, logical foundation that grounds and explains the LLM's creative output. ^[extracted] See [[concepts/two-brain-analogy-llm|Two-Brain Analogy: LLMs and Knowledge Graphs]] for the full framing.
+
+### Vector Similarity Is Not Relevance
+
+A core insight: vector similarity is not the same as relevance. Vector databases retrieve by computing embedding distances, which pulls back only a fraction of relevant information, cannot capture entity relationships, and produces unexplainable results. Knowledge graphs retrieve by traversing entity-relationship edges, providing complete retrieval, structural relevance, explainability, and multi-hop reasoning. ^[extracted] See [[concepts/vector-similarity-vs-relevance|Vector Similarity vs. Relevance]] for the full analysis.
+
 ## Related
 - [[concepts/hybridrag|HybridRAG]] — graph + vector fusion
 - [[concepts/kag-knowledge-augmented-generation|KAG (Knowledge Augmented Generation)]] — wisdom-driven graph architecture
@@ -119,9 +158,12 @@ This is distinct from GraphRAG's retrieval function: graph analytics operates on
 - [[concepts/multi-hop-retrieval|Multi-Hop Retrieval]] — traversal strategy for graph-based RAG
 - [[concepts/graph-analytics-rag-curation|Graph Analytics for RAG Curation]] — graph algorithms for data quality curation
 - [[concepts/application-observability-graph|Application Observability Graph]] — modeling app runtime as a graph
+- [[concepts/litigation-agents|Litigation Agents]] — knowledge graphs in legal domain
+- [[concepts/graph-state-management|Graph State Management]] — graphs as workflow state substrate
 
 ## Sources
-- [[references/hybridrag-fusion-graph-vector-retrieval-mitesh-patel|HybridRAG: A Fusion of Graph and Vector Retrieval — Mitesh Patel, NVIDIA]] — Conference talk
-- [[references/aief2025-wisdom-driven-kag-chin-keong-lam|AIEF2025 — Wisdom-Driven Knowledge Augmented Generation at Scale — Chin Keong Lam, Patho AI]] — Conference talk
+- [[references/aief2025-graph-intelligence-alison-andreas-neo4j|AIEF2025 — Graph Intelligence: Enhancing Reasoning and Retrieval Using Graph Analytics — Alison Cosette & Andreas, Neo4j]] — Conference talk
+- [[references/aief2025-building-alices-brain-ai-sales-rep-learns-like-human-sherwood-satwik-11x|AIEF2025 — Building Alice's Brain: an AI Sales Rep that Learns Like a Human — Sherwood & Satwik, 11x]] — Conference talk (hybrid RAG plans)
 - [[references/aief2025-why-your-agent-brain-needs-playbook-ontologies-jesus-barrasa|AIEF2025 — Why Your Agent's Brain Needs a Playbook — Jesús Barrasa, Neo4j]] — Conference talk
-- [[references/aief2025-graph-intelligence-alison-andreas-neo4j|AIEF2025 — Graph Intelligence: Enhance Reasoning and Retrieval Using Graph Analytics — Alison Cosette & Andreas, Neo4j]] — Conference talk
+- [[references/aief2025-when-vectors-break-down-sam-julien-writer|AIEF2025 — When Vectors Break Down: Graph-Based RAG for Dense Enterprise Knowledge — Sam Julien, Writer]] — Conference talk
+- [[references/aief2025-knowledge-graphs-litigation-agents-tom-smoker-whyhow|AIEF2025 — Knowledge Graphs in Litigation Agents — Tom Smoker, WhyHow]] — Conference talk

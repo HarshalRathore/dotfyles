@@ -6,7 +6,7 @@ tags:
   - genomics
   - ai
 sources:
-  - "AI Engineer World's Fair 2025 - Why you should care about AI interpretability - Mark Bissell, Goodfire AI - https://www.youtube.com/watch?v=6AVMHZPjpTQ"
+  - "[[sources/watchv=6avmhzpjptq]]"
 summary: "Research organization training foundational genomics models including EVO2, a superhuman genome prediction model. Collaborates with Goodfire AI on extracting scientific knowledge from neural networks."
 provenance:
   extracted: 0.75

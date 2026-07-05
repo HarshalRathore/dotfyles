@@ -6,7 +6,7 @@ created:
 updated:
   - 2026-06-30
 sources:
-  - "rolling-updates-&-rollbacks_f484ef"
+  - "[[sources/rolling-updates-&-rollbacks_f484ef]]"
 tags:
   - deployment
 aliases:

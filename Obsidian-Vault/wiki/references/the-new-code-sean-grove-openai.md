@@ -8,7 +8,7 @@ tags:
   - alignment
   - openai
 sources:
-  - "AIEF2025 - The New Code — Sean Grove, OpenAI - https://www.youtube.com/watch?v=8rABwKRsec4"
+  - "[[sources/watchv=8rabwkrsec4]]"
 summary: "Sean Grove presents the case for specifications as the new code — arguing that written specifications capturing intent and values are the most valuable artifact in AI engineering, with the OpenAI Model Spec as a case study."
 provenance:
   extracted: 0.75

@@ -8,7 +8,7 @@ tags:
   - sdk
 aliases: [Artjet]
 sources:
-  - "AIEF2025 - How to defend your sites from AI bots — David Mytton, Arcjet - https://www.youtube.com/watch?v=Gi4V8viBGYQ"
+  - "[[sources/watchv=gi4v8vibgyq]]"
 summary: "Security SDK for developers providing bot detection, rate limiting, and automated client defense. Founded by David Mytton."
 provenance:
   extracted: 0.80

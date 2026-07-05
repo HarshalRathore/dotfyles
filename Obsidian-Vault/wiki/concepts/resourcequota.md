@@ -3,7 +3,7 @@ type: "concept"
 title: "Resourcequota"
 created: [datetime.date(2024, 6, 29)]
 updated: [datetime.date(2026, 6, 30)]
-sources: ['admission-controllers_7667fc']
+sources: ["[[sources/admission-controllers_7667fc]]"]
 tags:
   - resources
   - limits

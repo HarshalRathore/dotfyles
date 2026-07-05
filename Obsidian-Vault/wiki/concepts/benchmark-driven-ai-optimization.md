@@ -7,8 +7,8 @@ tags:
   - optimization
   - model-selection
 sources:
-  - "AI Engineer World's Fair 2025 talk — HybridRAG: A Fusion of Graph and Vector Retrieval — Mitesh Patel, NVIDIA - https://www.youtube.com/watch?v=-tgQa8Fzf80"
-  - "AIEF2025 - Strategies for LLM Evals (GuideLLM, lm-eval-harness, OpenAI Evals Workshop) — Taylor Jordan Smith - https://www.youtube.com/watch?v=89NuzmKokIk"
+  - "[[sources/watchv=-tgqa8fzf80]]"
+  - "[[sources/watchv=89nuzmkokik]]"
 summary: "Once a comprehensive evaluation baseline is established, use it as a benchmark to confidently compare models, architectures, and optimization strategies — making AI optimization decisions data-driven."
 provenance:
   extracted: 0.75

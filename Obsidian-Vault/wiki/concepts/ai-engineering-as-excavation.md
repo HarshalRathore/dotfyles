@@ -8,7 +8,7 @@ relationships:
   - target: "[[concepts/latent-model-capabilities]]"
     type: extends
 sources:
-  - "AI Engineer World's Fair 2025 talk — On Curiosity — Sharif Shameem, Lexica - https://www.youtube.com/watch?v=0F8mnGPUycY"
+  - "[[sources/watchv=0f8mngpuycy]]"
 summary: "A paradigm contrasting traditional goal-oriented engineering with AI engineering as a process of discovering hidden, unknown capabilities in models."
 provenance:
   extracted: 0.55

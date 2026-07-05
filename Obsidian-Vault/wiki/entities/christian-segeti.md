@@ -5,7 +5,7 @@ tags:
   - ai
   - reasoning
 sources:
-  - "AI Engineer World's Fair 2025 talk - Infrastructure for the Singularity — Jesse Han, Morph - https://www.youtube.com/watch?v=2goSS66XRBk"
+  - "[[sources/watchv=2goss66xrbk]]"
 summary: "Chief Scientist at Morph, formerly co-founder at xAI, led code reasoning for Grok 3, known for batch storm and adversarial examples."
 provenance:
   extracted: 0.80

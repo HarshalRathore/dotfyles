@@ -6,7 +6,7 @@ created:
 updated:
   - 2026-06-30
 sources:
-  - "admission-controllers_7667fc"
+  - "[[sources/admission-controllers_7667fc]]"
 tags:
   - auth
 aliases:

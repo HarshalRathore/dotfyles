@@ -6,8 +6,8 @@ tags:
   - deployment
   - ai-agents
 sources:
-  - "https://www.youtube.com/watch?v=0MqYA52iWQU"
-  - "AIEF2025 - MCP Is Not Good Yet — David Cramer, Sentry - https://www.youtube.com/watch?v=FCi4jT86gSw"
+  - "[[sources/watchv=0mqya52iwqu]]"
+  - "[[sources/watchv=fci4jt86gsw]]"
 summary: "The progression of MCP (Model Context Protocol) servers from local development through authenticated internal service to full enterprise-ready deployment, covering transport architecture (remote vs stdio), OAuth 2.1 maturity, and the need to design for unknown agent consumers."
 provenance:
   extracted: 0.55

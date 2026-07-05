@@ -9,9 +9,10 @@ updated:
 lifecycle: draft
 base_confidence: 0.75
 sources:
-  - "static-pod_d72e06"
-  - "main-kubernetes-components_82b036"
-  - "daemonsets_9f31ec"
+  - "[[sources/static-pod_d72e06]]"
+  - "[[sources/main-kubernetes-components_82b036]]"
+  - "[[sources/daemonsets_9f31ec]]"
+
 ---
 ## Description
 A DaemonSet ensures one pod replica per node is deployed, automatically adjusting the pod count when nodes are added to or removed from the cluster. This makes it ideal for deploying node-level services like logging agents, monitoring collectors, and network proxies that need to run consistently across all cluster nodes. The controller manages the deployment using label selectors, allowing for selective scheduling on specific nodes using selectors and taint/toleration mechanisms. Since Kubernetes 1.12, DaemonSets utilize the default scheduler with node affinity for pod placement, ensuring pods are bound to nodes based on scheduling constraints. DaemonSets support rolling updates for managed pods, enabling controlled rollout of changes across all nodes. DaemonSet Pods are distinct from static Pods and operate independently of the kubelet's direct management. They are a core tool for implementing infrastructure and observability services that require a presence on every node in a Kubernetes cluster.

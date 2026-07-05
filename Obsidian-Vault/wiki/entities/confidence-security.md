@@ -10,7 +10,7 @@ aliases:
   - ConfSec
   - CONFSEC
 sources:
-  - "AIEF2025 - The Unofficial Guide to Apple's Private Cloud Compute - Jmo, CONFSEC - https://www.youtube.com/watch?v=CCsWZ5bJlO8"
+  - "[[sources/watchv=ccswz5bjlo8]]"
 summary: "Privacy infrastructure company building Apple Private Cloud Compute-equivalent capabilities for non-Apple platforms — TPM-based attestation, transparency logs, and confidential computing."
 provenance:
   extracted: 0.70

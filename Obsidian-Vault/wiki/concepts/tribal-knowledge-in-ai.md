@@ -15,7 +15,8 @@ relationships:
   - target: "[[concepts/agent-reliability-challenge]]"
     type: related_to
 sources:
-  - "AI Engineer World's Fair 2025 talk - \"Data readiness\" is a Myth: Reliable AI with an Agentic Semantic Layer — Anushrut Gupta, PromptQL - https://www.youtube.com/watch?v=1nOTQsfe1RU"
+  - "[[sources/ai-engineer-worlds-fair-2025-talk]]"
+Data readiness\" is a Myth: Reliable AI with an Agentic Semantic Layer — Anushrut Gupta, PromptQL - https://www.youtube.com/watch?v=1nOTQsfe1RU"
 summary: "The underappreciated cause of AI unreliability: LLMs lack the tacit, context-dependent business language that human analysts develop over years in a specific company."
 provenance:
   extracted: 0.70

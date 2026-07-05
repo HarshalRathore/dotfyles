@@ -6,7 +6,7 @@ tags:
   - ai
 aliases: [Sarah Gua]
 sources:
-  - "AI Engineer World's Fair 2025 - State of Startups and AI 2025 - Sarah Guo, Conviction - https://www.youtube.com/watch?v=3MZS5gNElZM"
+  - "[[sources/watchv=3mzs5gnelzm]]"
 summary: "Founder of Conviction, an AI-native venture fund. Previously partner at Greylock. Investor in Cursor, Cognition, Mistral, Thinking Machines, and Harvey."
 provenance:
   extracted: 0.80

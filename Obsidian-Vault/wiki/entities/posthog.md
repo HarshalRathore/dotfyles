@@ -6,7 +6,8 @@ tags:
   - "product-analytics"
   - "ai-observability"
 sources:
-  - "ai-evals"
+  - "[[sources/ai-evals]]"
+
 ---
 PostHog is an all-in-one developer analytics platform. Their engineering team applied Karpathy's autoresearch pattern to optimize ClickHouse query performance, uncovering a 3-year-old timezone wrapping bug. PostHog also provides AI Observability with automated evaluations (LLM-as-judge, code-based Hog evals, and sentiment analysis) as part of their platform, and a self-driving product improvement pipeline that automatically ingests signals, researches problems, and opens PRs.
 

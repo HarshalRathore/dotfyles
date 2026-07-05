@@ -6,7 +6,7 @@ tags:
   - hackathon
   - ai-engineer
 sources:
-  - "https://www.youtube.com/watch?v=1ZlO9Yu2ZiU"
+  - "[[sources/watchv=1zlo9yu2ziu]]"
 summary: "Three finalist teams present their 48-hour builds at the first official AI Engineer hackathon: automated A/B testing agents, browser-based RL robotics simulation, and action models focused on real-world task reliability."
 provenance:
   extracted: 0.85

@@ -19,7 +19,8 @@ relationships:
   - target: "[[concepts/peer-programming]]"
     type: related_to
 sources:
-  - "AIEF2025 - Don't get one-shotted: Use AI to test, review, merge, and deploy code — Tomas Reimers, Graphite - https://www.youtube.com/watch?v=H6MrR5NbTZA"
+  - "[[sources/watchv=h6mrr5nbtza]]"
+  - "[[sources/watchv=jvunpl5qo8q]]"
 summary: "The two-loop model of software development: the inner loop (writing code) and the outer loop (testing, reviewing, merging, deploying). AI accelerates the inner loop dramatically, shifting the bottleneck to the outer loop — requiring AI-native tooling across the entire development lifecycle."
 provenance:
   extracted: 0.80
@@ -29,7 +30,7 @@ base_confidence: 0.65
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
-updated: 2026-07-03
+updated: 2026-07-04
 ---
 
 # Developer Outer Loop
@@ -45,7 +46,7 @@ Software development has always operated in two loops: ^[extracted]
 
 ## The AI-Induced Bottleneck Shift
 
-AI tools ([[entities/cursor-ai|Cursor]], [[entities/github-copilot|Copilot]], Windsurf, V0, Bolt) are dramatically accelerating the inner loop — nearly 46% of code on GitHub is written by Copilot, and AI tool adoption is near-universal among surveyed developers. ^[extracted]
+AI tools ([[entities/cursor-ai|Cursor]], [[entities/github-copilot|Copilot]], [[entities/windsurf|Windsurf]], [[entities/v0|V0]], [[entities/bolt|Bolt]]) are dramatically accelerating the inner loop — nearly 46% of code on GitHub is written by Copilot, and AI tool adoption is near-universal among surveyed developers. ^[extracted]
 
 However, the outer loop has not kept pace. Developers must now review, test, merge, and deploy higher volumes of code than ever before, but the tooling for these tasks has remained largely unchanged. The outer loop is rapidly becoming the bottleneck, and problems that previously only affected large companies (high PR volumes, merge queues, CI management) now affect organizations of all sizes. ^[extracted]
 
@@ -63,6 +64,10 @@ Reimers identifies four requirements for tooling that can handle the AI-accelera
 ## Self-Driving Code Review
 
 The solution Reimers proposes is AI-native outer loop tooling: specifically, self-driving code review where AI handles the manual, painful parts of review so developers can focus on what matters. [[entities/graphite|Graphite]]'s Diamond achieves a 52% AI comment acceptance rate (vs 45–50% for human comments), suggesting AI can match or exceed human review efficacy for routine code review. ^[extracted]
+
+## Windsurf's Outer Loop Automation
+
+Windsurf extends the outer loop beyond code review. Hou describes Windsurf's ability to open PRs via [[entities/github-copilot|GitHub MCP]] with context from previous PRs, run [[concepts/self-driving-code-review|Windsurf Reviews]] that automatically leave comments and suggest changes asynchronously, and deploy to Netlify with one-click custom tool integrations. ^[extracted] This represents the outer loop being fully automated — not just AI-assisted review but autonomous PR creation, review, and deployment. ^[inferred]
 
 ## AI Teammates Are Not Enough
 
@@ -82,3 +87,4 @@ The developer outer loop model is complementary to the [[concepts/create-refine-
 - [[concepts/ai-iteration-loop|AI Iteration Loop]] — Related pattern for iterative AI-assisted development
 - [[entities/graphite|Graphite]] — Company building AI-native outer loop tooling
 - [[references/aief2025-dont-get-one-shotted-tomas-reimers-graphite]] — Source talk
+- [[references/aief2025-windsurf-everywhere-kevin-hou]] — Source talk on Windsurf's outer loop automation

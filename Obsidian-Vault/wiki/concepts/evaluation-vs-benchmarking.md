@@ -11,7 +11,7 @@ aliases:
   - Eval vs Benchmark
   - LLM Evaluation vs Benchmarking
 sources:
-  - "AIEF2025 - Strategies for LLM Evals (GuideLLM, lm-eval-harness, OpenAI Evals Workshop) — Taylor Jordan Smith - https://www.youtube.com/watch?v=89NuzmKokIk"
+  - "[[sources/watchv=89nuzmkokik]]"
 summary: "A definitional distinction: evaluation is a comprehensive end-to-end assessment of a model across many components, while benchmarking is a subcategory using controlled datasets and tasks specifically for comparing models against one another."
 provenance:
   extracted: 0.80

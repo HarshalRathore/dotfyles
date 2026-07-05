@@ -8,7 +8,7 @@ tags:
   - ai
   - chat
 sources:
-  - "AIEF2025 - The Bitter Layout or: How I Learned to Love the Model Picker — Maximillian Piras, Yutori - https://www.youtube.com/watch?v=BZtD0yYAgCQ"
+  - "[[sources/watchv=bztd0yyagcq]]"
 summary: "Maximillian Piras argues that the converged AI UX pattern of chat + model picker persists because it can absorb the next model's capabilities, and introduces the Bitter Design Lesson as a corollary to Sutton's Bitter Lesson."
 provenance:
   extracted: 0.70

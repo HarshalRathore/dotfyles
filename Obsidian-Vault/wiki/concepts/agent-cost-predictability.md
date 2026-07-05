@@ -4,7 +4,7 @@ category: concepts
 tags: [ai-agents, pricing, user-experience, cost-management, ai-engineering]
 aliases: [agent pricing transparency, cost predictability, AI agent costing]
 sources:
-  - "AI Engineer World's Fair 2025 talk - Revenue Engineering: How to Price (and Reprice) Your AI Product — Kshitij Grover, Orb - https://www.youtube.com/watch?v=1C3sZbaxOmw"
+  - "[[sources/watchv=1c3szbaxomw]]"
 summary: "Making the costs of AI agent usage transparent and predictable to end users, including pre-execution cost estimates and spend management capabilities."
 provenance:
   extracted: 0.70

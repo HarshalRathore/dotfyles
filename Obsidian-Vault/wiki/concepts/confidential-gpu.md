@@ -12,7 +12,7 @@ aliases:
   - Confidential H100
   - GPU Memory Encryption
 sources:
-  - "AIEF2025 - The Unofficial Guide to Apple's Private Cloud Compute - Jmo, CONFSEC - https://www.youtube.com/watch?v=CCsWZ5bJlO8"
+  - "[[sources/watchv=ccswz5bjlo8]]"
 summary: "Hardware trust technology where GPU memory is encrypted (H100/H200), preventing physical memory access attacks — paired with TPMs/vTPMs for attestation and key management."
 provenance:
   extracted: 0.75

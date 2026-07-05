@@ -3,18 +3,19 @@ title: "Outcome-Based Pricing for AI"
 category: concepts
 tags: [pricing, ai-engineering, monetization, product-strategy]
 sources:
-  - "AI Engineer World's Fair 2025 talk - Revenue Engineering: How to Price (and Reprice) Your AI Product — Kshitij Grover, Orb - https://www.youtube.com/watch?v=1C3sZbaxOmw"
-  - "AI Engineer World's Fair 2025 - Monetizing AI — Alvaro Morales, Orb - https://www.youtube.com/watch?v=6WQYLQB0odc"
+  - "[[sources/watchv=1c3szbaxomw]]"
+  - "[[sources/watchv=6wqylqb0odc]]"
+  - "[[sources/watchv=hoylz7ivgjo]]"
 provenance:
   extracted: 0.70
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.42
 lifecycle: draft
-lifecycle_changed: 2026-07-03
+lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-03
-updated: 2026-07-03
+updated: 2026-07-04
 ---
 
 # Outcome-Based Pricing for AI
@@ -35,7 +36,6 @@ A pricing model where customers pay based on the outcome or value delivered rath
 - **Measurement precision.** The SLA language must be precise enough to be unambiguous to both provider and customer. ^[extracted]
 - **Provider risk.** The provider bears execution risk — if the AI fails to deliver the outcome, the provider doesn't get paid. ^[inferred]
 
-
 ## Working Example: Intercom FIN
 
 [[entities/intercom|Intercom]] FIN is one of the few successful outcome-based pricing examples at scale. It charges $0.99 per successful customer support ticket resolution. ^[extracted]
@@ -46,6 +46,10 @@ This works because:
 - The outcome is unambiguous — "did this resolve your question?" is a binary, verifiable signal. ^[extracted]
 - The cost to the vendor (the support ticket they would have handled) is directly comparable. ^[inferred]
 - It replaces an existing cost structure companies already track (cost-per-ticket for human support). ^[inferred]
+
+### Voice Channel: Finvoice
+
+The same outcome-based pricing extends to [[concepts/finvoice|Finvoice]], Intercom's voice AI agent for phone support. ^[extracted] The infrastructure cost for voice is estimated at $0.20–$0.30 per minute, while the outcome-based charge remains $0.99 per resolved interaction — providing healthy margin on resolved calls. ^[extracted] Peter Bar of Intercom Fin notes that while usage-based pricing (per-minute or per-call) is currently the most dominant model, the market is expected to converge toward outcome-based pricing because the incentive alignment is superior. ^[extracted]
 
 ## The Outcome Definition Challenge
 
@@ -74,9 +78,12 @@ The [[entities/jasper|Jasper]] example (moving to unlimited pricing by abstracti
 - [[concepts/value-metric-spectrum]] — Outcome pricing as the most ROI-aligned metric
 - [[concepts/ai-native-pricing-principles]] — Flexibility to experiment with pricing models
 - [[concepts/usage-based-pricing-for-ai]] — Predecessor model in the evolution
+- [[concepts/voice-ai-cost-structure]] — Voice AI agent cost breakdown
 - [[references/revenue-engineering-pricing-ai-product-grover-orb]] — Kshitij Grover talk
 - [[references/monetizing-ai-alvaro-morales-orb]] — Alvaro Morales talk
+- [[references/aief2025-shipping-enterprise-voice-ai-100-days-peter-bar]] — Peter Bar on pricing models
 
 ## Sources
 - [[references/revenue-engineering-pricing-ai-product-grover-orb]] — Kshitij Grover, Orb, AI Engineer World's Fair 2025
 - [[references/monetizing-ai-alvaro-morales-orb]] — Alvaro Morales, Orb, AI Engineer World's Fair 2025
+- [[references/aief2025-shipping-enterprise-voice-ai-100-days-peter-bar]] — Peter Bar, Intercom Fin, AIEF2025

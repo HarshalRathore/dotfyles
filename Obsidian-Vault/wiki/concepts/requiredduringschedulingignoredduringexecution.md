@@ -9,7 +9,8 @@ updated:
 lifecycle: draft
 base_confidence: 0.75
 sources:
-  - "nodeselector-&-nodeaffinity_5d8764"
+  - "[[sources/nodeselector-&-nodeaffinity_5d8764]]"
+
 ---
 ## Description
 `requiredDuringSchedulingIgnoredDuringExecution` is the primary implementation of a "

@@ -12,7 +12,7 @@ aliases:
   - AIEF2025 PCC Jmo
   - Jmo PCC Apple 2025
 sources:
-  - "AIEF2025 - The Unofficial Guide to Apple's Private Cloud Compute - Jmo, CONFSEC - https://www.youtube.com/watch?v=CCsWZ5bJlO8"
+  - "[[sources/watchv=ccswz5bjlo8]]"
 summary: "Jmo (Confidence Security) presents an unofficial deep-dive into Apple's Private Cloud Compute (PCC) architecture — the five key privacy requirements, six technical components that implement them, and how non-Apple developers can use similar building blocks (TPMs, confidential VMs, transparency logs)."
 provenance:
   extracted: 0.82

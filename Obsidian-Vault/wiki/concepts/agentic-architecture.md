@@ -7,7 +7,7 @@ tags:
   - orchestration
   - enterprise
 sources:
-  - "https://www.youtube.com/watch?v=12v5S1n1eOY"
+  - "[[sources/watchv=12v5s1n1eoy]]"
 summary: "Platform-level AI architecture using directed graphs of agents with tools, memory, and orchestration for complex enterprise tasks."
 provenance:
   extracted: 0.65

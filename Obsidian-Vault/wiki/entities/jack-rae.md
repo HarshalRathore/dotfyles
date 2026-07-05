@@ -14,7 +14,7 @@ relationships:
   - target: "[[concepts/test-time-compute-scaling]]"
     type: related_to
 sources:
-  - "AIEF2025 - Thinking Deeper in Gemini — Jack Rae, Google DeepMind - https://www.youtube.com/watch?v=8EQo4J2BWKw"
+  - "[[sources/watchv=8eqo4j2bwkw]]"
 summary: "Researcher at Google DeepMind and technical lead of thinking within Gemini, responsible for advancing reasoning and test-time compute scaling in Gemini models."
 provenance:
   extracted: 0.80

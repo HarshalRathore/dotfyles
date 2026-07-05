@@ -6,7 +6,7 @@ tags:
   - posthog
   - "ai-evals"
 sources:
-  - "web-posthog-com-blog-stop-ai-slop"
+  - "[[sources/web-posthog-com-blog-stop-ai-slop]]"
 aliases:
   - cleolant
 ---

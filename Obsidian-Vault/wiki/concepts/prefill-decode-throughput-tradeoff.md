@@ -12,7 +12,7 @@ aliases:
   - compute-bound vs memory-bound inference
   - prefill decode gap
 sources:
-  - "AIEF2025 - How fast are LLM inference engines anyway? — Charles Frye, Modal - https://www.youtube.com/watch?v=DeFF3J8T5Pk"
+  - "[[sources/watchv=deff3j8t5pk]]"
 summary: "In transformer inference, the prefill phase (processing input tokens) is compute-bound, achieving ~4x higher throughput than the decode phase (autoregressive generation), which is memory-bandwidth-bound on H100 GPUs."
 provenance:
   extracted: 0.80

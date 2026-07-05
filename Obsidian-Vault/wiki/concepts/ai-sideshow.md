@@ -7,7 +7,7 @@ tags:
   - anti-pattern
   - methodology
 sources:
-  - "AIEF2025 - Build Dynamic Products, and Stop the AI Sideshow — Eliza Cabrera (Workday) + Jeremy Silva (Freeplay) - https://www.youtube.com/watch?v=CB-4NKDYnRs"
+  - "[[sources/watchv=cb-4nkdynrs]]"
 summary: "The anti-pattern of treating AI as a separate, bolt-on initiative running as a sidecar to core product strategy rather than deeply integrating it into product planning and customer problem-solving."
 provenance:
   extracted: 0.80

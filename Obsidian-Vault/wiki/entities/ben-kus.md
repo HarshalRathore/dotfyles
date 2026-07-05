@@ -7,7 +7,7 @@ tags:
   - ai
   - enterprise
 sources:
-  - "https://www.youtube.com/watch?v=12v5S1n1eOY"
+  - "[[sources/watchv=12v5s1n1eoy]]"
 summary: "CTO of Box, leading the company's AI and agentic platform strategy for enterprise content."
 provenance:
   extracted: 0.80

@@ -18,7 +18,8 @@ relationships:
   - target: "[[concepts/graphrag]]"
     type: contradicts
 sources:
-  - "AI Engineer World's Fair 2025 talk - \"Data readiness\" is a Myth: Reliable AI with an Agentic Semantic Layer — Anushrut Gupta, PromptQL - https://www.youtube.com/watch?v=1nOTQsfe1RU"
+  - "[[sources/ai-engineer-worlds-fair-2025-talk]]"
+Data readiness\" is a Myth: Reliable AI with an Agentic Semantic Layer — Anushrut Gupta, PromptQL - https://www.youtube.com/watch?v=1nOTQsfe1RU"
 summary: "A semantic layer that evolves over time by learning from user corrections, building a company-specific business language through agentic interaction."
 provenance:
   extracted: 0.72

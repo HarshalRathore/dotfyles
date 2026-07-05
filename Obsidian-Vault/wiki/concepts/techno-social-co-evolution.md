@@ -8,7 +8,7 @@ aliases:
   - human-technology co-evolution
   - co-evolution of technology and cognition
 sources:
-  - "AIEF2025 - Useful General Intelligence — Danielle Perszyk, Amazon AGI - https://www.youtube.com/watch?v=Dj0b_cEBHHI"
+  - "[[sources/watchv=dj0b_cebhhi]]"
 summary: "The process by which we invent new technologies that then reshape our brains and cognitive abilities — from language and writing to computers and AI agents. Each innovation changes how we think and process information."
 provenance:
   extracted: 0.75

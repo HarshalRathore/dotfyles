@@ -6,7 +6,7 @@ tags:
   - retrieval
   - architecture
 sources:
-  - "AI Engineer World's Fair 2025 - Building Multimodal AI Agents From Scratch — Apoorva Joshi, MongoDB - https://www.youtube.com/watch?v=640KMYtxCeI"
+  - "[[sources/watchv=640kmytxcei]]"
 summary: "A limitation of CLIP-based multimodal embedding models where text and image vectors from separate encoders occupy distinct regions of the embedding space, causing irrelevant items of the same modality to cluster together rather than related items across modalities."
 provenance:
   extracted: 0.80

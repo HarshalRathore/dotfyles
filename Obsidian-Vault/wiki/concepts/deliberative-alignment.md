@@ -14,7 +14,7 @@ relationships:
   - target: "[[concepts/evaluation-first-development]]"
     type: related_to
 sources:
-  - "AIEF2025 - The New Code — Sean Grove, OpenAI - https://www.youtube.com/watch?v=8rABwKRsec4"
+  - "[[sources/watchv=8rabwkrsec4]]"
 summary: "Technique for automatically aligning AI models to a written specification by using the specification as both training material and evaluation criteria — scoring model responses against the spec and reinforcing weights accordingly."
 provenance:
   extracted: 0.65

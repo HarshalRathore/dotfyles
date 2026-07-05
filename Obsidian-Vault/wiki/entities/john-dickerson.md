@@ -8,7 +8,7 @@ tags:
   - open-source
 aliases: [John Dickerson, JD Dickerson]
 sources:
-  - "AIEF2025 - 2025 is the Year of Evals! Just like 2024, and 2023, and … — John Dickerson, CEO Mozilla AI - https://www.youtube.com/watch?v=CQGuvf6gSrM"
+  - "[[sources/watchv=cqguvf6gsrm]]"
 summary: "CEO of Mozilla AI, former co-founder and chief scientist at Arthur AI. Expert in AI/ML monitoring, evaluation, security, and open source AI tooling."
 provenance:
   extracted: 0.75

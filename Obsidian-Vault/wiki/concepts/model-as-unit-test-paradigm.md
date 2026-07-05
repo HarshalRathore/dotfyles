@@ -16,7 +16,7 @@ relationships:
   - target: "[[concepts/ai-regression-testing]]"
     type: related_to
 sources:
-  - "AIEF2025 - Google Photos Magic Editor: GenAI Under the Hood of a Billion-User App - Kelvin Ma, Google Photos - https://www.youtube.com/watch?v=C13jiFWNuo8"
+  - "[[sources/watchv=c13jifwnuo8]]"
 summary: "ML model benchmarks serve the same role as unit tests in software — guarding against regressions, validating new model versions, requiring ongoing maintenance to stay useful."
 provenance:
   extracted: 0.75

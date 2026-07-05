@@ -7,8 +7,8 @@ tags:
   - benchmarking
   - evaluation
 sources:
-  - "AI Engineer World's Fair 2025 — Measuring AGI: Interactive Reasoning Benchmarks for ARC-AGI-3 — Greg Kamradt, ARC Prize Foundation - https://www.youtube.com/watch?v=3XmFPwjG8pg"
-  - "Francois Chollet, 'On the Measure of Intelligence' (2019)"
+  - "[[sources/watchv=3xmfpwjg8pg]]"
+  - "[[sources/francois-chollet-on-the-measure-of-intelligence-2019]]"
 summary: "Francois Chollet's definition of intelligence as the efficiency with which a system can acquire new skills — distinguishing genuine intelligence from knowledge or memorization."
 provenance:
   extracted: 0.68

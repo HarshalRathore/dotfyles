@@ -7,7 +7,7 @@ tags:
   - tooling
 aliases: [Mozilla AI, Mozilla AI division]
 sources:
-  - "AIEF2025 - 2025 is the Year of Evals! Just like 2024, and 2023, and … — John Dickerson, CEO Mozilla AI - https://www.youtube.com/watch?v=CQGuvf6gSrM"
+  - "[[sources/watchv=cqguvf6gsrm]]"
 summary: "Mozilla's AI division focused on open source AI tooling, supporting the open source AI stack, and enabling community parity with frontier AI labs."
 provenance:
   extracted: 0.70

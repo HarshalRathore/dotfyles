@@ -10,7 +10,7 @@ aliases:
   - Knowledge Card Retrieval
   - Structured Data Cards
 sources:
-  - "AIEF2025 - Wisdom-Driven Knowledge Augmented Generation at Scale - Chin Keong Lam, Patho AI - https://www.youtube.com/watch?v=9AQOvT8LnMI"
+  - "[[sources/watchv=9aqovt8lnmi]]"
 summary: "A structured data retrieval pattern where entity data is stored in queryable card structures (e.g., financial metrics) enabling precise numerical answers via function calls, as opposed to passage retrieval which yields imprecise text snippets."
 provenance:
   extracted: 0.70

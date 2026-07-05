@@ -9,8 +9,8 @@ tags:
 aliases:
   - "Language Agent Tree Search"
 sources:
-  - "AI Engineer World's Fair 2025 - Stateful environments for vertical agents — Josh Purtell, Synth Labs - https://www.youtube.com/watch?v=5rMc-moNVx0"
-  - "AIEF2025 - Thinking Deeper in Gemini — Jack Rae, Google DeepMind - https://www.youtube.com/watch?v=8EQo4J2BWKw"
+  - "[[sources/watchv=5rmc-monvx0]]"
+  - "[[sources/watchv=8eqo4j2bwkw]]"
 summary: "Technique where resettable stateful environments enable branching agent trajectories, exploring multiple paths in parallel, and converging on the best outcome — making Language Agent Tree Search practical for production."
 provenance:
   extracted: 0.65

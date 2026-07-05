@@ -10,7 +10,7 @@ aliases:
   - RecSys Event Tokenization
   - When-Where-What Tokenization
 sources:
-  - "AIEF2025 - Netflix's Big Bet: One model to rule recommendations: Yesu Feng, Netflix - https://www.youtube.com/watch?v=AbZ4IYGbfpQ"
+  - "[[sources/watchv=abz4iygbfpq]]"
 summary: "The process of encoding user interaction events as tokens for recommendation transformers, decomposing each event into when, where, and what facets."
 provenance:
   extracted: 0.80

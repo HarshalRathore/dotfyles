@@ -13,7 +13,8 @@ relationships:
   - target: "[[concepts/agent-reliability-challenge]]"
     type: related_to
 sources:
-  - "AI Engineer World's Fair 2025 talk - \"Data readiness\" is a Myth: Reliable AI with an Agentic Semantic Layer — Anushrut Gupta, PromptQL - https://www.youtube.com/watch?v=1nOTQsfe1RU"
+  - "[[sources/ai-engineer-worlds-fair-2025-talk]]"
+Data readiness\" is a Myth: Reliable AI with an Agentic Semantic Layer — Anushrut Gupta, PromptQL - https://www.youtube.com/watch?v=1nOTQsfe1RU"
 summary: "An architectural pattern where the LLM generates a deterministic plan (in a domain-specific language) but a runtime executes it, eliminating hallucination at the answer layer."
 provenance:
   extracted: 0.78

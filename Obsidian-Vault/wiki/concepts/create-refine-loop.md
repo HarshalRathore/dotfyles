@@ -18,7 +18,7 @@ relationships:
   - target: "[[concepts/evaluation-first-development]]"
     type: extends
 sources:
-  - "AIEF2025 - Vibes won't cut it — Chris Kelly, Augment Code - https://www.youtube.com/watch?v=Dc3qOA9WOnE"
+  - "[[sources/watchv=dc3qoa9wone]]"
 summary: "A three-phase iterative workflow for productive AI coding — Create a plan document, have the AI execute against the plan, then refine the output — repeated as a loop."
 provenance:
   extracted: 0.85

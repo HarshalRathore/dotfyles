@@ -9,9 +9,10 @@ updated:
 lifecycle: draft
 base_confidence: 0.75
 sources:
-  - "replication-controller-&-replicaset_285a2a"
-  - "nodeselector-&-nodeaffinity_5d8764"
-  - "labels-&-selectors_7e0f44"
+  - "[[sources/replication-controller-&-replicaset_285a2a]]"
+  - "[[sources/nodeselector-&-nodeaffinity_5d8764]]"
+  - "[[sources/labels-&-selectors_7e0f44]]"
+
 ---
 ## Description
 Labels are fundamental metadata in [[entities/kubernetes]], consisting of key-value pairs that are attached to objects to organize and manage them. They enable users to specify meaningful identifiers for resources, such as `app: frontend` or `environment: production`, which can be applied during object creation or updated later using commands like `kubectl label`. These labels are central to the operation of [[concepts/selectors]], which allow for filtering and grouping of resources, thereby directing traffic and managing resource sets efficiently. By categorizing objects with labels, teams can easily apply policies, manage deployments, and maintain consistency across their clusters.

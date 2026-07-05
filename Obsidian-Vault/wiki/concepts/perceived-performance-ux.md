@@ -5,9 +5,11 @@ tags:
   - ux
   - frontend
   - web-vitals
+  - voice-ai
 aliases: [perceived time design, perceived performance, performance perception]
 sources:
-  - "AI Engineer World's Fair 2025 - Good design hasn't changed with AI — John Pham, SF Compute - https://www.youtube.com/watch?v=7e7eVtcygCM"
+  - "[[sources/watchv=7e7evtcygcm]]"
+  - "[[sources/watchv=e71ytnbcfxy]]"
 summary: "Design techniques for making software feel fast to users, centered on the observation that humans perceive events under ~400ms as instantaneous — first paint, 60FPS, minimal bundles, SSR, caching, and color psychology as perception modifiers."
 provenance:
   extracted: 0.70
@@ -17,7 +19,7 @@ base_confidence: 0.55
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
-updated: 2026-07-03
+updated: 2026-07-04
 ---
 
 # Perceived Performance UX
@@ -55,8 +57,19 @@ A recurring theme: use browser primitives (CSS transforms, opacity, stacking, HT
 
 Colors (particularly blues and greens) can slow down a person's perception of time. This is used intentionally in interfaces where the user should not rush through important flows (e.g., identity verification during onboarding). ^[extracted] ^[ambiguous]
 
+## Voice AI Latency Thresholds
+
+The same human perception thresholds apply to voice AI, but with tighter constraints. For voice-to-voice conversation, the latency budget is even stricter: ^[inferred]
+
+- **~500ms** — feels natural for human-to-human conversation, the target for voice AI
+- **~1 second** — the upper limit; beyond this, voice agents suffer poor completion rates and NPS scores ^[extracted]
+- **400ms** — the general human perception threshold for instantaneous response (John Pham's rule) ^[extracted]
+
+Voice AI must operate within these thresholds by optimizing the entire pipeline: STT → LLM → TTS → network transport. WebRTC is the primary enabler for staying within the budget by avoiding TCP's head-of-line blocking. ^[inferred]
+
 ## Related
 
 - [[concepts/design-four-pillars]] — Speed is the first pillar
 - [[concepts/prediction-cone-ui]] — UI pattern optimized for perceived performance
-- [[concepts/pit-of-success-design]] — Design philosophy for making correct paths frictionless
+- [[concepts/voice-ai-latency]] — Voice-specific latency thresholds and constraints
+- [[concepts/voice-agents]] — Voice agents must meet these latency thresholds to feel natural

@@ -7,7 +7,7 @@ tags:
   - code-editor
 aliases: [Cursor AI, cursor.dev]
 sources:
-  - "AI Engineer World's Fair 2025 - State of Startups and AI 2025 - Sarah Guo, Conviction - https://www.youtube.com/watch?v=3MZS5gNElZM"
+  - "[[sources/watchv=3mzs5gnelzm]]"
 summary: "AI-native code editor and the archetypal AI application company. Grew from $1M to $100M ARR in 12 months with zero salespeople. Valued at ~$14-15B."
 provenance:
   extracted: 0.75

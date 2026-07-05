@@ -15,7 +15,7 @@ relationships:
   - target: "[[concepts/vibe-coding-origins]]"
     type: related_to
 sources:
-  - "AIEF2025 - Vibes won't cut it — Chris Kelly, Augment Code - https://www.youtube.com/watch?v=Dc3qOA9WOnE"
+  - "[[sources/watchv=dc3qoa9wone]]"
 summary: "A grounded critique of AI coding hype from a production software engineering perspective — arguing that generated code is still code that must be maintained, production systems have emergent behavior pattern matching can't capture, and code review becomes the most important skill as AI generates more code."
 provenance:
   extracted: 0.90

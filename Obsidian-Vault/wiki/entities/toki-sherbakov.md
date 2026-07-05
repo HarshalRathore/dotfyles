@@ -6,7 +6,7 @@ tags:
   - ai
   - voice
 sources:
-  - "AI Engineer World's Fair 2025 talk — Building Effective Voice Agents — Toki Sherbakov + Anoop Kotha, OpenAI - https://www.youtube.com/watch?v=-OXiljTJxQU"
+  - "[[sources/watchv=-oxiljtjxqu]]"
 summary: "Leads the Solution Architecture team in the U.S. for OpenAI. Presented on building effective voice agents at AI Engineer World's Fair 2025."
 provenance:
   extracted: 0.80

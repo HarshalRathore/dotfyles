@@ -7,7 +7,7 @@ tags:
   - ux
 aliases: [prediction cone, predictive pointer cone]
 sources:
-  - "AI Engineer World's Fair 2025 - Good design hasn't changed with AI — John Pham, SF Compute - https://www.youtube.com/watch?v=7e7eVtcygCM"
+  - "[[sources/watchv=7e7evtcygcm]]"
 summary: "A UI pattern for nested menus that generates a geometric cone predicting user intent as the cursor moves between menu levels, allowing imprecise pointer movement without the submenu collapsing."
 provenance:
   extracted: 0.75

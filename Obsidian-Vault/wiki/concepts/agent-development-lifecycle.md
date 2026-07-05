@@ -1,95 +1,71 @@
 ---
-title: "Agent Development Lifecycle (ADLC)"
+title: "Agent Development Lifecycle"
+category: concepts
 tags:
-  - concept
-  - agent
+  - agents
+  - development
   - lifecycle
-  - testing
-  - production
-  - ai-engineering
-aliases: [ADLC, agent software development lifecycle, agent SDLC]
+  - evaluation
+  - model-selection
+  - prompt-design
+aliases: [agent development process, agent lifecycle, building agents]
+relationships:
+  - target: "[[concepts/evaluation-first-development]]"
+    type: extends
+  - target: "[[concepts/agent-evaluation-pipeline]]"
+    type: extends
 sources:
-  - "AIEF2025 - Rise of the AI Architect — Clay Bavor, Cofounder, Sierra w/ Alessio Fanelli - https://www.youtube.com/watch?v=C3geUfBR2js"
-summary: "A new software development lifecycle for probabilistic AI agents, replacing deterministic testing with simulation-based testing, production monitoring, and closed-loop improvement."
+  - "[[sources/watchv=j4vpq2i0qze]]"
 provenance:
   extracted: 0.75
   inferred: 0.20
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.70
 lifecycle: draft
 tier: supporting
-created: 2026-07-03
-updated: 2026-07-03
+created: 2026-07-04
+updated: 2026-07-04
 ---
 
-# Agent Development Lifecycle (ADLC)
+# Agent Development Lifecycle
 
-The Agent Development Lifecycle (ADLC) is a new software development lifecycle [[entities/clay-bavor|Clay Bavor]]'s team at [[entities/sierra-ai|Sierra]] invented for building and operating probabilistic AI agents. Unlike traditional SDLC where software behavior is deterministic and testable with unit tests, ADLC addresses the fundamental challenge that "these are probabilistic pieces of software that could say or do anything." ^[extracted]
+The agent development lifecycle encompasses the full process from model selection through evaluation and deployment. ^[extracted] It emphasizes that evaluation is not a post-build phase but a continuous activity that starts at the very beginning of agent development. ^[extracted]
 
-## The Agent Iceberg
+## Key Stages
 
-A key framing for why ADLC is necessary: most teams underestimate the hidden complexity of production agents. ^[extracted]
+### 1. Model Selection
+Evaluate candidate models on representative prompts before committing to one. Compare models side-by-side on quality, speed, and cost. ^[extracted]
 
-**Above the surface (visible to technical teams):**
-- Choosing a language model
-- Selecting a framework (LangGraph, LangChain)
-- Picking embedding models and vector databases
-- Integrating a few tools
+### 2. System Prompt Design
+Define the agent's behavior through system prompts, grounding strategy, and tool configuration. This is where design matters most for safety. ^[extracted]
 
-**Below the surface (the hidden complexity):** ^[extracted]
-- Regression testing and evaluation
-- Model migration and upgrade strategies
-- Voice-specific complexity (primary vs secondary speaker separation, interruption handling)
-- The full agent development lifecycle
-- User simulation testing
-- Production monitoring and observability
-- Closed-loop improvement systems
+### 3. Tool Integration
+Connect the agent to tools (MCP servers, web scrapers, APIs) and verify end-to-end functionality on specific inputs. ^[extracted]
 
-> "Oh my God, there are hundreds of things." — Clay Bavor on the agent iceberg ^[extracted]
+### 4. Manual Evaluation
+Spot-check individual responses, then batch-evaluate on a curated dataset with manual scoring. ^[extracted]
 
-## Phases of ADLC
+### 5. Automated Evaluation
+Scale evaluation using the Azure AI Evaluation SDK with quality, NLP, and risk/safety evaluators. ^[extracted]
 
-### 1. Understanding & Modeling
+### 6. Continuous Monitoring
+Monitor agent behavior in production with continuous observability and periodic re-evaluation. ^[inferred]
 
-Deeply understand the customer journeys the agent will handle. Model these in code in a way that is "very expressive and lets the agent simultaneously hit curve balls and flex" while remaining "down to fully deterministic where needed" (e.g., compliance language that cannot hallucinate). ^[extracted]
+## Core Principle
 
-### 2. Simulation Testing
+"Evaluation starts at the very beginning of your AI development project — the sooner the better." ^[extracted] Waiting until after building the agent to start evaluating is "a bit late." ^[extracted]
 
-Before going live, run tens or hundreds of thousands of simulated conversations using a [[concepts/user-simulation-testing|user simulation testing harness]]. The harness creates dozens of personas with simulated accounts and even simulated devices (e.g., an amber light on or off for device troubleshooting). ^[extracted]
+## Relationship to Evaluation-First Development
 
-### 3. Production Monitoring
-
-Once live, provide CX and engineering teams with deep insight into where the agent detects it is "beyond its abilities" and hands off to a human. This replaces traditional error monitoring with capability-boundary detection. ^[extracted]
-
-### 4. Closed-Loop Improvement
-
-A set of tools enabling the agent to learn from its past mistakes, be coached by human reviewers, and continuously improve — creating an "upward spiral of performance and capability." ^[extracted]
-
-This loop pairs with a new human role: teams who review hundreds of conversations daily to "coach and refine the agent on how to do it better, how to say it better, how to make better decisions, how to have greater empathy, how to have better judgment." ^[extracted]
-
-## Key Difference from Traditional SDLC
-
-| Aspect | Traditional SDLC | ADLC |
-|---|---|---|
-| Testing approach | Unit tests, integration tests, deterministic assertions | [[concepts/user-simulation-testing|User simulation testing]], persona-based scenarios |
-| Error handling | Exceptions, error codes | Capability-boundary detection, graceful handoff to humans |
-| Quality assurance | QA team runs test cases | [[concepts/ai-architect|AI architect]] coaches agent, reviews conversations |
-| Updates | Code changes, patches | Model upgrades, prompt refinements, behavioral coaching |
-| Determinism | Expected behavior = actual behavior | Probabilistic — agent may handle novel situations |
-
-## Relationship to the Agent Loop
-
-While the [[concepts/agent-loop|agent loop]] describes how an individual agent iterates on a single task, ADLC describes the full lifecycle of building, testing, deploying, and improving a production agent. The agent loop operates within ADLC's simulation testing and closed-loop improvement phases. ^[inferred]
+The agent development lifecycle is the practical implementation of [[concepts/evaluation-first-development|evaluation-first development]] for agentic systems. Where evaluation-first provides the methodology, the lifecycle provides the concrete stages. ^[inferred]
 
 ## Related
 
-- [[concepts/ai-architect]] — The role managing ADLC
-- [[concepts/user-simulation-testing]] — The approach for pre-production testing
-- [[concepts/closed-loop-agent-improvement]] — Production improvement via coaching
-- [[concepts/agent-loop]] — The per-task iteration pattern
-- [[concepts/agent-evaluation-pipeline]] — CI/CD evaluation for agents
-- [[entities/sierra-ai]] — Sierra's AgentOS implements ADLC
+- [[concepts/evaluation-first-development]] — Methodology for building with early evaluation
+- [[concepts/agent-evaluation-pipeline]] — CI/CD integration for continuous evaluation
+- [[concepts/manual-vs-automated-evals]] — Evaluation progression within the lifecycle
+- [[concepts/layered-agent-safety]] — Safety considerations throughout the lifecycle
 
 ## Sources
 
-- AIEF2025 — Rise of the AI Architect, Clay Bavor, Sierra w/ Alessio Fanelli. https://www.youtube.com/watch?v=C3geUfBR2js
+- Agentic Excellence: Mastering AI Agent Evals w/ Azure AI Evaluation SDK — Cedric Vidal, Microsoft. https://www.youtube.com/watch?v=J4vPq2i0QzE

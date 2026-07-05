@@ -18,7 +18,7 @@ relationships:
   - target: "[[concepts/specifications-as-code]]"
     type: related_to
 sources:
-  - "AIEF2025 - Vibes won't cut it — Chris Kelly, Augment Code - https://www.youtube.com/watch?v=Dc3qOA9WOnE"
+  - "[[sources/watchv=dc3qoa9wone]]"
 summary: "The thesis that generating code is not the same as software engineering — code is the output artifact, while the real work is making thousands of design decisions about architecture, trade-offs, and system behavior."
 provenance:
   extracted: 0.80

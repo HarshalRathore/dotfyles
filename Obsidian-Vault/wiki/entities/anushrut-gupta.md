@@ -7,7 +7,8 @@ tags:
   - promptql
 aliases: [Anushrath Gupta]
 sources:
-  - "AI Engineer World's Fair 2025 talk - \"Data readiness\" is a Myth: Reliable AI with an Agentic Semantic Layer — Anushrut Gupta, PromptQL - https://www.youtube.com/watch?v=1nOTQsfe1RU"
+  - "[[sources/ai-engineer-worlds-fair-2025-talk]]"
+Data readiness\" is a Myth: Reliable AI with an Agentic Semantic Layer — Anushrut Gupta, PromptQL - https://www.youtube.com/watch?v=1nOTQsfe1RU"
 summary: "Leads the applied research team at PromptQL. Presented on the data readiness myth and agentic semantic layers at AI Engineer World's Fair 2025."
 provenance:
   extracted: 0.85

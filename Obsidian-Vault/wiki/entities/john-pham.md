@@ -6,7 +6,7 @@ tags:
   - ux
   - performance
 sources:
-  - "AI Engineer World's Fair 2025 - Good design hasn't changed with AI — John Pham, SF Compute - https://www.youtube.com/watch?v=7e7eVtcygCM"
+  - "[[sources/watchv=7e7evtcygcm]]"
 summary: "Designer and engineer at SF Compute, previously at Vercel. Known for building memorable and viral web experiences, creator of the prediction cone UI pattern and the four-pillar design framework."
 provenance:
   extracted: 0.85

@@ -5,7 +5,8 @@ tags:
   - analytics
   - "open-source"
 sources:
-  - "karpathy-autoresearch-query-engine-bug"
+  - "[[sources/karpathy-autoresearch-query-engine-bug]]"
+
 ---
 # ClickHouse
 

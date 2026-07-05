@@ -2,7 +2,7 @@
 title: Sparse Vector Retrieval
 tags: [search, embeddings, learned-sparse]
 aliases: [learned sparse retrieval, ELSER, SPLADE, sparse embeddings]
-sources: ["AI Engineer World's Fair 2025 - Information Retrieval from the Ground Up - Philipp Krenn, Elastic - https://www.youtube.com/watch?v=4Xe_iMYxBQc"]
+sources: ["[[sources/ai-engineer-worlds-fair-2025-information-retrieval-from-the-ground-up-philipp-krenn]]", "[[sources/watchv=4xe_imyxbqc]]"]
 summary: "Learned sparse retrieval (ELSER/SPLADE) represents text as a list of expanded terms with relevance weights. More interpretable than dense vectors but expensive at query time due to many OR-style matches."
 provenance:
   extracted: 0.85

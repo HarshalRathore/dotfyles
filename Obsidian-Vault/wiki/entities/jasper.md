@@ -4,8 +4,8 @@ category: entities
 tags: [company, ai, writing, marketing, saas]
 aliases: [Jasper AI]
 sources:
-  - "AI Engineer World's Fair 2025 talk - Revenue Engineering: How to Price (and Reprice) Your AI Product — Kshitij Grover, Orb - https://www.youtube.com/watch?v=1C3sZbaxOmw"
-  - "AI Engineer World's Fair 2025 - State of Startups and AI 2025 - Sarah Guo, Conviction - https://www.youtube.com/watch?v=3MZS5gNElZM"
+  - "[[sources/watchv=1c3szbaxomw]]"
+  - "[[sources/watchv=3mzs5gnelzm]]"
 summary: "AI-powered writing platform for marketing teams. Notable as a cautionary tale — first-mover brand raised $125M, but its prompt-in-a-textbox product was crushed by ChatGPT, illustrating that execution is the only moat in AI."
 provenance:
   extracted: 0.75

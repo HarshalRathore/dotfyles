@@ -7,7 +7,7 @@ tags:
   - workspace
   - enterprise
 sources:
-  - "AI Engineer World's Fair 2025 — How to build world-class AI products — Sarah Sachs (AI lead @ Notion) & Carlos Esteban (Braintrust) - https://www.youtube.com/watch?v=6YdPI9YbjbI"
+  - "[[sources/watchv=6ydpi9ybjbi]]"
 summary: "Connected workspace platform with over 100 million users, known for its AI features spanning writing, search, meetings, and deep research."
 provenance:
   extracted: 0.55
@@ -45,7 +45,9 @@ Notion AI is the company's suite of AI-powered features. Sarah Sachs is the AI l
 
 Notion's AI quality approach is [[concepts/evaluation-first-development|evaluation-first]]: roughly 10% of engineering time on prompting, 90% on evals. The team uses [[entities/braintrust|Braintrust]] as its evaluation platform, running [[concepts/per-element-llm-judge|per-element LLM-as-judge]] scoring with curated, handcrafted datasets maintained by data specialists. ^[extracted]
 
-## Related
+### 24-Hour Model Integration
+
+Notion demonstrates the first sign of eval value: for every recent model release, Notion incorporates the new model within 24 hours. This is cited by [[entities/ankur-goyal|Ankur Goyal]] at AIEF2025 as a strong indicator that evals are well-engineered and the model-switching pipeline is automated. ^[extracted]
 
 - [[entities/sarah-sachs|Sarah Sachs]] — AI lead at Notion
 - [[entities/braintrust|Braintrust]] — evaluation platform used by Notion

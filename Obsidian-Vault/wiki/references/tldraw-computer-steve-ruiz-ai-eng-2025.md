@@ -3,7 +3,7 @@ title: "tldraw.computer - Steve Ruiz, tldraw (AI Engineer World's Fair 2025)"
 category: references
 tags: [ai, whiteboard, canvas, visual-programming, agentic-workflows, tldraw]
 sources:
-  - "AI Engineer World's Fair 2025 talk - tldraw.computer - Steve Ruiz, tldraw - https://www.youtube.com/watch?v=1C2TdPkj6aQ"
+  - "[[sources/watchv=1c2tdpkj6aq]]"
 summary: "Steve Ruiz presents tldraw's AI features including Make Real (wireframe-to-app generation), Draw Fast (real-time generative drawing), and tldraw.computer (graph-based multi-modal agentic pipelines on an infinite canvas)."
 provenance:
   extracted: 0.92

@@ -2,7 +2,7 @@
 title: Lexical Search
 tags: [search, keyword, fundamentals]
 aliases: [keyword search, full-text search]
-sources: ["AI Engineer World's Fair 2025 - Information Retrieval from the Ground Up - Philipp Krenn, Elastic - https://www.youtube.com/watch?v=4Xe_iMYxBQc"]
+sources: ["[[sources/ai-engineer-worlds-fair-2025-information-retrieval-from-the-ground-up-philipp-krenn]]", "[[sources/watchv=4xe_imyxbqc]]"]
 summary: "Classic search approach that matches on string identity after text analysis. Fast, scalable, predictable — built on the inverted index with BM25 scoring. Dumb but effective for exact and near-exact matches."
 provenance:
   extracted: 0.85

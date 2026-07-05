@@ -8,7 +8,7 @@ tags:
   - agent-systems
   - factory
 sources:
-  - "watchv=ow1we5pzk-o"
+  - "[[sources/watchv=ow1we5pzk-o]]"
 source_url: "https://www.youtube.com/watch?v=ow1we5PzK-o"
 created: "2026-07-01"
 updated: "2026-07-01"

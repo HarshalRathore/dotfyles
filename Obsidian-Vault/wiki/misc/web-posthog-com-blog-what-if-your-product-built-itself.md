@@ -7,7 +7,7 @@ tags:
   - agent-pipeline
   - product-engineering
 sources:
-  - "what-if-your-product-built-itself"
+  - "[[sources/what-if-your-product-built-itself]]"
 source_url: "https://posthog.com/blog/what-if-your-product-built-itself"
 created: "2026-07-01"
 updated: "2026-07-01"

@@ -7,7 +7,7 @@ tags:
   - ai-engineering
   - aief2025
 sources:
-  - "AIEF2025 - Form factors for your new AI coworkers — Craig Wattrus, Flatfile - https://www.youtube.com/watch?v=CiMVKnX-CNI"
+  - "[[sources/watchv=cimvknx-cni]]"
 summary: "Director of AI Transformation at Flatfile. Speaks on AI coworker form factors, character coaching for agents, and using design thinking (woodworking analogies) for AI product development."
 provenance:
   extracted: 0.70

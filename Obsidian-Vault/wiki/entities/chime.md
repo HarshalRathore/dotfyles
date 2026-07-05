@@ -6,7 +6,7 @@ tags:
   - fintech
   - ai-engineer-worlds-fair-2025
 sources:
-  - "AI Engineer World's Fair 2025 talk — The Build-Operate Divide: Bridging Product Vision and AI Operational Reality — Jeremy (Freeplay) & Chris Hernandez (Chime) - https://www.youtube.com/watch?v=1__V4KTv_Gw"
+  - "[[sources/watchv=1__v4ktv_gw]]"
 summary: "Financial technology company. Chris Hernandez, lead of speech analytics at Chime, co-presented on AI ops and HITL at AI Engineer World's Fair 2025."
 provenance:
   extracted: 0.75

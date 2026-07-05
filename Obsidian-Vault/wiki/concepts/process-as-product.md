@@ -13,7 +13,7 @@ relationships:
   - target: "[[concepts/build-operate-divide]]"
     type: related_to
 sources:
-  - "AI Engineer World's Fair 2025 — From Hype to Habit: How We're Building an AI-First SaaS Company—While Still Shipping the Roadmap — Rossella & Debsha, Sprout Social - https://www.youtube.com/watch?v=3YGRcgZJ3yc"
+  - "[[sources/watchv=3ygrcgzj3yc]]"
 summary: "Treating internal organizational processes as products that must be evaluated against outcomes — creating clarity, unblocking teams, and accelerating decision-making or being cut."
 provenance:
   extracted: 0.85

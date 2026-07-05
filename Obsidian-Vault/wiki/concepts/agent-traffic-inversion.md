@@ -7,7 +7,7 @@ tags:
   - enterprise
   - identity
 sources:
-  - "AIEF2025 - CIAM for AI: Authn/Authz for Agents — Michael Grinich, CEO of WorkOS - https://www.youtube.com/watch?v=D4Dswf-__RM"
+  - "[[sources/watchv=d4dswf-__rm]]"
 summary: "Michael Grinich's prediction that software traffic will invert from 95% human/5% automated to 95% agent/5% human, with profound implications for identity, security, and product design."
 lifecycle: draft
 tier: supporting

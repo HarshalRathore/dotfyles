@@ -7,8 +7,8 @@ tags:
   - testing
   - product
 sources:
-  - "AI Engineer World's Fair 2025 talk — Practical tactics to build reliable AI apps — Dmitry Kuchin, Multinear - https://www.youtube.com/watch?v=-T6uZYYzkWw"
-  - "AI Engineer World's Fair 2025 — How to build world-class AI products — Sarah Sachs (AI lead @ Notion) & Carlos Esteban (Braintrust) - https://www.youtube.com/watch?v=6YdPI9YbjbI"
+  - "[[sources/watchv=-t6uzyyzkww]]"
+  - "[[sources/watchv=6ydpi9ybjbi]]"
 summary: "Generic evaluation metrics (groundedness, factuality, bias) don't measure whether an AI application works for users. Metrics must be reverse-engineered from specific business outcomes and user expectations."
 provenance:
   extracted: 0.78

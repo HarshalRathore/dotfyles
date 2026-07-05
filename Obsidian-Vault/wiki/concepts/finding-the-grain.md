@@ -6,7 +6,7 @@ tags:
   - methodology
   - ux
 sources:
-  - "AIEF2025 - Form factors for your new AI coworkers — Craig Wattrus, Flatfile - https://www.youtube.com/watch?v=CiMVKnX-CNI"
+  - "[[sources/watchv=cimvknx-cni]]"
 summary: "Post-2025 AI product design concept: after feeling the material (understanding model properties), find the grain — identify where the AI is smooth/rough, weak/strong — and design form factors that work with, not against, those characteristics."
 provenance:
   extracted: 0.70

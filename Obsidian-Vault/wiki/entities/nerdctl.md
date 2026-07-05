@@ -7,7 +7,7 @@ created:
 updated:
   - 2026-06-30
 sources:
-  - "containerd-cri-etc_fb87d8"
+  - "[[sources/containerd-cri-etc_fb87d8]]"
 tags:
   - product
 aliases:

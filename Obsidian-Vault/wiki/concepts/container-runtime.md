@@ -9,13 +9,14 @@ updated:
 lifecycle: draft
 base_confidence: 0.75
 sources:
-  - "kubernetes-installation-steps_e573e8"
-  - "install-kubernetes-components_c70e92"
-  - "manual-notes_10b5c5"
-  - "scheduling_f2b3ef"
-  - "pods_c92b62"
-  - "main-kubernetes-components_82b036"
-  - "containerd-cri-etc_fb87d8"
+  - "[[sources/kubernetes-installation-steps_e573e8]]"
+  - "[[sources/install-kubernetes-components_c70e92]]"
+  - "[[sources/manual-notes_10b5c5]]"
+  - "[[sources/scheduling_f2b3ef]]"
+  - "[[sources/pods_c92b62]]"
+  - "[[sources/main-kubernetes-components_82b036]]"
+  - "[[sources/containerd-cri-etc_fb87d8]]"
+
 ---
 ## Description
 The Container Runtime Interface (CRI) is the fundamental plugin API that enables Kubernetes to support multiple container runtimes by defining a standard communication protocol between the kubelet and the runtime. It was introduced because Kubernetes outgrew its initial tight coupling with Docker, allowing users to employ alternative runtimes like [[entities/containerd]] or [[entities/cri-o]]. CRI is built upon the standards defined by the [[entities/open-container-initiative-oci]], specifically the OCI Runtime Spec. This abstraction layer is what made the removal of the 'dockershim' possible, as CRI-native runtimes integrate directly without a compatibility shim. Because Kubernetes operates at the Pod level, you can transparently swap out the underlying container runtime while your Pod specs remain unchanged. The setup process for a CRI implementation involves specific system preparations, such as loading kernel modules and configuring `sysctl` parameters for bridge networking.

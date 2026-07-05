@@ -8,7 +8,7 @@ relationships:
   - target: "[[concepts/ai-engineering-as-excavation]]"
     type: related_to
 sources:
-  - "AI Engineer World's Fair 2025 talk — On Curiosity — Sharif Shameem, Lexica - https://www.youtube.com/watch?v=0F8mnGPUycY"
+  - "[[sources/watchv=0f8mngpuycy]]"
 summary: "Hidden or unexpected capabilities in large language models that exist in model weights but are not known even to the models' creators."
 provenance:
   extracted: 0.55

@@ -7,7 +7,7 @@ tags:
   - enterprise
   - open-models
 sources:
-  - "AI Engineer World's Fair 2025 - The Rise of Open Models in the Enterprise — Amir Haghighat, Baseten - https://www.youtube.com/watch?v=3WV1vT0B0cg"
+  - "[[sources/watchv=3wv1vt0b0cg]]"
 summary: "Amir Haghighat draws on 100+ enterprise conversations to trace the shift from closed frontier API models toward open models — the four cracks in the closed-model assumption and the operational dragons of self-hosted inference."
 provenance:
   extracted: 0.78

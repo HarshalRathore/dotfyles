@@ -20,7 +20,8 @@ tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
 sources:
-  - "AIEF2025 - Collaborating with Agents in your Software Dev Workflow — Jon Peck & Christopher Harrison, Microsoft - https://www.youtube.com/watch?v=G1hhmz6mXT0"
+  - "[[sources/watchv=g1hhmz6mxt0]]"
+
 ---
 
 # AIEF2025 — Collaborating with Agents in your Software Dev Workflow

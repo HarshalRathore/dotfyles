@@ -9,7 +9,7 @@ aliases:
   - JX Mo
   - Jax Mo
 sources:
-  - "AIEF2025 - Your Personal Open-Source Humanoid Robot for $8,999 — JX Mo, K-Scale Labs - https://www.youtube.com/watch?v=BS92RdBvI90"
+  - "[[sources/watchv=bs92rdbvi90]]"
 summary: "Founding engineer at K-Scale Labs, building open-source humanoid robots. Presented K-Bot ($8,999) and Z-Bot at AI Engineer World's Fair 2025."
 provenance:
   extracted: 0.80

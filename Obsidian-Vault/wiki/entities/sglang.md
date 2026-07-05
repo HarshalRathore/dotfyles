@@ -10,8 +10,8 @@ aliases:
   - SGLang
   - SGLang inference runtime
 sources:
-  - "AIEF2025 - Introduction to LLM serving with SGLang - Philip Kiely and Yineng Zhang, Baseten - https://www.youtube.com/watch?v=Ahtaha9fEM0"
-  - "AIEF2025 - How fast are LLM inference engines anyway? — Charles Frye, Modal - https://www.youtube.com/watch?v=DeFF3J8T5Pk"
+  - "[[sources/watchv=ahtaha9fem0]]"
+  - "[[sources/watchv=deff3j8t5pk]]"
 summary: "Open-source fast serving framework for LLMs and VLMs. Competing with vLLM and TensorRT-LLM. Supports CUDA Graph optimization and Eagle 3 speculative decoding. Initial Qwen3 8-bit support had bugs in Modal LLM Almanac benchmarks."
 provenance:
   extracted: 0.75

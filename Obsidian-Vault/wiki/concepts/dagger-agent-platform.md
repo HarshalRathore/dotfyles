@@ -11,7 +11,7 @@ tags:
 aliases: [Dagger agents, containerized agent environments, Dagger LLM function]
 summary: "Architectural pattern where containerized Dagger modules serve as scoped, typed agent environments with sandboxed execution, test-driven validation, and cross-language module interop."
 sources:
-  - "AIEF2025 - Ship Agents that Ship: A Hands-On Workshop - Kyle Penfound, Jeremy Adams, Dagger - https://www.youtube.com/watch?v=Fzb1a24hF-o"
+  - "[[sources/watchv=fzb1a24hf-o]]"
 provenance:
   extracted: 0.78
   inferred: 0.18

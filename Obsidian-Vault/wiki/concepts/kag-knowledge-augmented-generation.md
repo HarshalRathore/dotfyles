@@ -11,7 +11,7 @@ aliases:
   - Knowledge Augmented Generation
   - KAG
 sources:
-  - "AIEF2025 - Wisdom-Driven Knowledge Augmented Generation at Scale - Chin Keong Lam, Patho AI - https://www.youtube.com/watch?v=9AQOvT8LnMI"
+  - "[[sources/watchv=9aqovt8lnmi]]"
 summary: "A retrieval-generation architecture that integrates structured knowledge graphs with LLMs to produce accurate, insight-driven responses. Unlike RAG (which retrieves passages), KAG retrieves structured entity-relationship subgraphs and can perform precise quantitative reasoning via knowledge cards."
 provenance:
   extracted: 0.75

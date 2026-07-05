@@ -8,7 +8,7 @@ aliases:
   - perception as controlled hallucination
   - brain as prediction machine
 sources:
-  - "AIEF2025 - Useful General Intelligence — Danielle Perszyk, Amazon AGI - https://www.youtube.com/watch?v=Dj0b_cEBHHI"
+  - "[[sources/watchv=dj0b_cebhhi]]"
 summary: "The neuroscientific view that the brain has no direct access to reality and operates as a prediction machine — constructing perception through controlled hallucination. Applied by Danielle Perszyk as an analogy for AI reliability: hallucinations are features, not bugs, if properly controlled."
 provenance:
   extracted: 0.80

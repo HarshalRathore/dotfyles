@@ -1,24 +1,117 @@
----
-title: Hot Cache
-updated: 2026-07-03T09:30:00Z
-- Ingested Charles Frye's "How Fast Are LLM Inference Engines Anyway?" (AI Engineer World's Fair 2025) — Modal's Developer Advocate presents the LLM Almanac benchmark comparing vLLM, SGLang, and TensorRT-LLM across 10+ models on H100s. Key finding: prefill-dominated workloads achieve ~4x higher throughput than decode-dominated; context is cheaper than reasoning. Frye's 2023 prediction that open models would catch up when capabilities saturate has been validated. Created 1 entity (charles-frye), 1 concept (prefill-decode-throughput-tradeoff), 1 reference. Updated 5 pages (modal, vllm, sglang, inference-performance-evaluation, enterprise-inference-infrastructure).
-## Recent Activity
-- Ingested Chris Kelly's "Vibes Won't Cut It" (AI Engineer World's Fair 2025) — production critique of AI coding hype; code review as primary skill.
-- Ingested Michael Grinich's "CIAM for AI: Authn/Authz for Agents" (AI Engineer World's Fair 2025) — WorkOS CEO on four identity architecture patterns for agents (persona shadowing, delegation chains, capability tokens, escalation to humans), emerging standards (OAuth 2.1+MCP, UMA, GNAP, OIDC-A, Verifiable Credentials), middleware trust boundary pattern, and the agent traffic inversion prediction. Created 1 entity (michael-grinich), 6 concepts (agent-identity, persona-shadowing, delegation-chains, capability-based-tokens, agent-middleware-trust-boundary, agent-traffic-inversion), 1 reference. Updated 2 entities (workos, cloudflare).
-- Ingested Jmo's "The Unofficial Guide to Apple's Private Cloud Compute" (AI Engineer World's Fair 2025 CONFSEC track) — deep-dive into Apple's PCC architecture.
-- Ingested Clay Bavor's "Rise of the AI Architect" (AI Engineer World's Fair 2025).
-- Ingested Josh Purtell's "Stateful Environments for Vertical Agents" (AI Engineer World's Fair 2025).
+# Hot Pages
 
-## Active Threads
-- **Agent identity and auth** — new thread: four architecture patterns for agent identity (persona shadowing, delegation chains, capability tokens, middleware boundary), emerging protocols (OAuth 2.1+MCP, UMA, GNAP, OIDC-A, Verifiable Credentials), and the traffic inversion prediction (95% human→95% agent). Open questions: how to adapt human-consent protocols for machine auth, how to implement dynamic scope negotiation in production.
-- **AI pricing frameworks** — first business/pricing concepts in the wiki. Pricing-as-friction provides a unifying framing device; the three principles give a toolkit for evaluating AI product pricing decisions. Agent cost predictability is an open design problem with early solutions emerging.
+Updated: 2026-07-05T04:32:00.506586+00:00
 
-## Key Takeaways
-- Agent identity is a fundamentally new problem: agents are neither humans (browser-based auth) nor machines (certificate-based auth) — they need a hybrid identity paradigm
-- The middleware trust boundary pattern (treat agents as untrusted, put auth middleware between agent code and resources) is the dominant emerging architecture
-- Grinich predicts 95% of application traffic will be agent-to-agent, inverting today's 95% human ratio
-- Pricing is friction — it signals value and validates willingness-to-pay, but surprise billing is the worst kind of friction for AI agents
-- AI-native pricing requires thinking about margin *structure* (what drives costs) rather than literal margins, because costs change rapidly
-- AI companies should simulate pricing changes across customer cohorts before rolling them out
-- Predictions: price wars, convergence to effectively unlimited plans, outcome-based pricing becoming more real, real-time spend management sophistication
-## Flagged Contradictions
+## Recently Created
+
+- [[entities/dat-ngo.md]] - Dat Ngo
+- [[entities/aman-khan.md]] - Aman Khan
+- [[entities/arize-ai.md]] - Arize AI
+- [[references/aief2025-the-agent-awakens-christopher-harrison.md]] - AIEF2025 — The Agent Awakens: Collaborative Development with Copilot — Christopher Harrison, GitHub
+- [[entities/john-peck.md]] - Jon Peck
+- [[concepts/ai-pair-programmer-analogy.md]] - AI Pair Programmer Analogy
+- [[references/aief2025-does-ai-actually-boost-developer-productivity-yegor-denisov-blanch-stanford.md]] - AIEF2025 — Does AI Actually Boost Developer Productivity? (100k Devs Study) — Yegor Denisov-Blanch, Stanford
+- [[entities/yegor-denisov-blanch.md]] - Yegor Denisov-Blanch
+- [[entities/stanford.md]] - Stanford University
+- [[entities/chad-bailey.md]] - Chad Bailey
+- [[entities/brian-johnson.md]] - Brian Johnson
+- [[entities/tavus.md]] - Tavus
+- [[entities/randall-hunt.md]] - Randall Hunt
+- [[entities/caylent.md]] - Caylent
+- [[entities/brainbox-ai.md]] - Brainbox AI
+- [[references/aief2025-securing-code-executing-ai-agents-fouad-matin.md]] - OpenAI on Securing Code-Executing AI Agents — Fouad Matin
+- [[entities/fouad-matin.md]] - Fouad Matin
+- [[entities/codex.md]] - Codex CLI
+- [[references/aief2025-layering-every-technique-in-rag-david-karam.md]] - AIEF2025 - Layering every technique in RAG, one query at a time — David Karam, Pi Labs
+- [[concepts/quality-engineering-loop.md]] - Quality Engineering Loop
+- [[concepts/complexity-adjusted-impact.md]] - Complexity-Adjusted Impact
+- [[references/aief2025-gemini-progress-logan-kilpatrick.md]] - A year of Gemini progress + what comes next
+- [[concepts/multimodal-models.md]] - Multimodal Models
+- [[concepts/agentic-models.md]] - Agentic Models
+- [[entities/quotient-ai.md]] - Quotient AI
+- [[entities/tavily.md]] - Tavily
+- [[entities/lengthmist.md]] - LengthMist
+- [[entities/matthias-loibl.md]] - Matthias Loibl
+- [[entities/polar-signals.md]] - Polar Signals
+- [[entities/kubestriker.md]] - Kubestriker
+- [[entities/theodora-chu.md]] - Theodora Chu
+- [[references/aief2025-mcp-origins-and-requests-for-startups-theodora-chu.md]] - AIEF2025 - MCP: Origins and Requests For Startups — Theodora Chu
+- [[concepts/model-agency.md]] - Model Agency
+- [[entities/jim-bennett.md]] - Jim Bennett
+- [[entities/galileo.md]] - Galileo
+- [[concepts/observability-driven-development.md]] - Observability-Driven Development
+- [[entities/josh-albrecht.md]] - Josh Albrecht
+- [[entities/imbue.md]] - Imbue
+- [[entities/sculptor.md]] - Sculptor
+- [[entities/will-bryk.md]] - Will Bryk
+- [[entities/exa.md]] - Exa.ai
+- [[references/aief2025-building-smarter-ai-agent-neural-rag-will-bryk-exa.ai.md]] - AIEF2025 - Building a Smarter AI Agent with Neural RAG
+- [[entities/james-lowe.md]] - James Lowe
+- [[entities/incubator-for-ai.md]] - Incubator for AI
+- [[entities/theme-finder.md]] - Theme Finder
+- [[entities/agentuity.md]] - Agentuity
+- [[entities/rick-blalock.md]] - Rick Blalock
+- [[references/aief2025-conquering-agent-chaos-rick-blalock-agentuity.md]] - AIEF2025 — Conquering Agent Chaos — Rick Blalock, Agentuity
+- [[entities/raiza-martin.md]] - Raiza Martin
+- [[entities/huxe.md]] - Huxe
+- [[entities/notebooklm.md]] - NotebookLM
+- [[references/aief2025-knowledge-graphs-litigation-agents-tom-smoker-whyhow.md]] - AIEF2025 — Knowledge Graphs in Litigation Agents
+- [[entities/tom-smoker.md]] - Tom Smoker
+- [[entities/whyhow.md]] - WhyHow
+- [[entities/stephen-chin.md]] - Stephen Chin
+- [[entities/andreas-kolleger.md]] - Andreas Kollegger
+- [[references/aief2025-top-ten-challenges-agi-stephen-chin-andreas-kolleger.md]] - Top Ten Challenges to Reach AGI — Stephen Chin, Andreas Kollegger
+- [[entities/adam-behrens.md]] - Adam Behrens
+- [[entities/new-generation.md]] - New Generation
+- [[entities/visa.md]] - Visa
+
+## Recently Updated
+
+- [[concepts/llm-evaluation-framework.md]] - Added two-circle model, encoder-only evals, platform vs application teams, evals
+- [[concepts/evals-testing-pyramid.md]] - Added new source and signal-from-noise reframing connecting pyramid to evals as 
+- [[concepts/continuous-eval-loops.md]] - Reconstructed full body (was truncated), added new source and two-circle model c
+- [[entities/christopher-harrison.md]] - Added new talk source (tHJSZ1-ZqcA) to sources list; updated timestamp
+- [[entities/github-copilot.md]] - Added new talk source (tHJSZ1-ZqcA) to sources list; updated timestamp
+- [[entities/aief2025.md]] - Added AI productivity study talk to talks list
+- [[misc/ai-engineer-worlds-fair-2025.md]] - Added new 'AI Developer Productivity Research' section with talk entry
+- [[entities/daily.md]] - Added AIEF2025 talk source, Tavus partnership section, new relationship to tavus
+- [[entities/pipe-cat.md]] - Added Tavus integration section, frames/processors/pipelines architecture detail
+- [[concepts/voice-agents.md]] - Added Beyond Voice: Conversational Video section with Tavus/Pipecat integration 
+- [[wiki/index.md]] - Added 8 index entries: 2 entities (fouad-matin, codex), 4 concepts (code-executi
+- [[concepts/agent-sandboxing.md]] - Added Seatbelt, Seccomp, Landlock, auto-approve sandbox, Codex CLI source
+- [[concepts/prompt-injection.md]] - Added GitHub issue injection vector, data exfiltration, Fouad Matin source
+- [[entities/david-karam.md]] - Added new talk source; added AIEF2025 Layering RAG Techniques section; added ref
+- [[entities/pi-labs.md]] - Added new talk source; merged David Karam Key People entry to include both talks
+- [[concepts/rag-pipeline-architecture.md]] - Added Quality Engineering Loop section (Karam's framework) and In-Memory Retriev
+- [[entities/logan-kilpatrick.md]] - Added speaking style section, key quotes, new talk reference (wE1ZCmCLP5g), expa
+- [[entities/google-deepmind.md]] - Added organizational evolution section (two-step restructuring), research conver
+- [[entities/gemini.md]] - Added VO (video generation) section, native audio capabilities section, agentic 
+- [[concepts/reference-free-evaluation.md]] - Added Tavily/Quotient AI source and application of reference-free metrics for su
+- [[misc/ai-engineer-worlds-fair-2025.md]] - Added talk entry under Agents & Evals section with link to new reference page
+- [[misc/ai-engineer-worlds-fair-2025.md]] - Added Matthias Loibl GPU profiling talk to talk catalog table and expanded theme
+- [[concepts/mcp.md]] - Added origin story (David & Justin), design principles (agent-first, Streamable 
+- [[concepts/mcp-streamable-http.md]] - Added Theo Chu's context about Streamable HTTP being a 'controversial decision' 
+- [[concepts/mcp-auth-spec-evolution.md]] - Added Theo Chu's acknowledgment that auth was 'got wrong initially' and the comm
+- [[concepts/llm-evaluation-framework.md]] - Added Per-Span Evaluation for Agentic Workflows section, Custom-Trained Evaluati
+- [[concepts/eval-driven-development.md]] - Added Day-One Integration Lifecycle section with Bennett's 4-phase lifecycle, ne
+- [[concepts/llm-as-judge-evaluation.md]] - Added Set a Thief to Catch a Thief section with Bennett's two-LLM architecture a
+- [[misc/ai-engineer-worlds-fair-2025.md]] - Added Josh Albrecht talk to AIEF2025 talk catalog table and sources list
+- [[concepts/vibe-coding.md]] - Added new section 'The Vibe Coding Gap: Prototype vs Production' with Albrecht's
+- [[concepts/ai-powered-search.md]] - Added AI-Native Search for Agents section with human-vs-AI search distinction; a
+- [[concepts/embedding-models.md]] - Added Exa to Key Players section; added Exa as related entity; added Will Bryk/E
+- [[concepts/bitter-lesson.md]] - Added Application to Search: Neural RAG section with Will Bryk's application; ad
+- [[concepts/human-in-the-loop.md]] - Added James Lowe/i.AI source; added new section on HITL in AI Product Design des
+- [[misc/ai-engineer-worlds-fair-2025.md]] - Added James Lowe talk to AIEF2025 catalog table; added source to YAML frontmatte
+- [[concepts/ai-agent-observability.md]] - Added Agentuity source, new Agent Self-Observability section, and two new wikili
+- [[concepts/agent-factory.md]] - Added Framework-Agnostic Agent Factories section with Agentuity/Rick Blalock ref
+- [[misc/ai-engineer-worlds-fair-2025.md]] - Added Raiza Martin talk to catalog
+- [[entities/aief2025.md]] - Added Raiza Martin, Rick Blalock, and James Lowe talks to talks list
+- [[entities/aief2025.md]] - Added Tom Smoker's Knowledge Graphs in Litigation Agents talk to talks list
+- [[concepts/graphrag.md]] - Added Litigation Domain section (WhyHow/Smoker use case), new source entry, new 
+- [[entities/neo4j.md]] - Added Ecosystem Relationships section with Tom Smoker/WhyHow Neo4j relationship,
+- [[entities/neo4j.md]] - Added new source (AIEF2025 AGI talk), added Andreas Kollegger to Key People, add
+- [[concepts/graphrag.md]] - Fixed malformed source line 19, added AIEF2025 AGI talk as new source
+- [[misc/ai-engineer-worlds-fair-2025.md]] - Added Stephen Chin & Andreas Kollegger talk to Talk Catalog
+- [[entities/stripe.md]] - Added Agent Checkout: Virtual Cards section covering Stripe SDK model for agent-
+- [[entities/openai.md]] - Added ChatGPT as Commerce Interface section covering ChatGPT as agentic commerce
+- [[concepts/prompt-injection.md]] - Added Market Design Context section connecting prompt injection to agentic comme

@@ -7,7 +7,7 @@ tags:
   - ux
   - speech
 sources:
-  - "AI Engineer World's Fair 2025 talk — Building Effective Voice Agents — Toki Sherbakov + Anoop Kotha, OpenAI - https://www.youtube.com/watch?v=-OXiljTJxQU"
+  - "[[sources/watchv=-oxiljtjxqu]]"
 summary: "Techniques for prompting voice agents that go beyond text prompts, controlling expressiveness, tone, demeanor, and enthusiasm through voice-specific customization."
 provenance:
   extracted: 0.65

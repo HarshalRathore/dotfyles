@@ -7,8 +7,8 @@ tags:
   - architecture
   - speech
 sources:
-  - "AI Engineer World's Fair 2025 talk — Building Effective Voice Agents — Toki Sherbakov + Anoop Kotha, OpenAI - https://www.youtube.com/watch?v=-OXiljTJxQU"
-  - "AI Engineer World's Fair 2025 talk - Why ChatGPT Keeps Interrupting You — Dr. Tom Shapland, LiveKit - https://www.youtube.com/watch?v=1v9zBiZKlIY"
+  - "[[sources/watchv=-oxiljtjxqu]]"
+  - "[[sources/watchv=1v9zbizkliy]]"
 summary: "Two dominant architectures for voice agents: chained (transcription + LLM + TTS) and speech-to-speech (single model), with trade-offs across latency, cost, accuracy, UX, and integrations."
 provenance:
   extracted: 0.65

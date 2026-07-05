@@ -9,8 +9,8 @@ relationships:
   - target: "[[concepts/agentic-architecture]]"
     type: related_to
 sources:
-  - "AI Engineer World's Fair 2025 talk - AI Engineer World's Fair 2025 Hackathon Presentations - https://www.youtube.com/watch?v=1ZlO9Yu2ZiU"
-  - "AIEF2025 - Your Personal Open-Source Humanoid Robot for $8,999 — JX Mo, K-Scale Labs - https://www.youtube.com/watch?v=BS92RdBvI90"
+  - "[[sources/watchv=1zlo9yu2ziu]]"
+  - "[[sources/watchv=bs92rdbvi90]]"
 summary: "Running reinforcement learning robotics simulations entirely in the browser, combining physics engines like MuJoCo with foundation model-generated reward functions and cloud GPU training."
 provenance:
   extracted: 0.70

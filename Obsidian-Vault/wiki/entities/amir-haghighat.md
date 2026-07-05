@@ -7,7 +7,7 @@ tags:
   - baseten
 aliases: [Amir Haghighat, amiruci]
 sources:
-  - "AI Engineer World's Fair 2025 - The Rise of Open Models in the Enterprise — Amir Haghighat, Baseten - https://www.youtube.com/watch?v=3WV1vT0B0cg"
+  - "[[sources/watchv=3wv1vt0b0cg]]"
 summary: "Co-founder and CTO of Baseten, an inference platform. Observed enterprise AI adoption patterns across 100+ enterprise conversations over two years."
 provenance:
   extracted: 0.85

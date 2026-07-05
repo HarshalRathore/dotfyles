@@ -7,7 +7,7 @@ tags:
   - arc-agi
 aliases: [François Chollet, Francois Chollet]
 sources:
-  - "AI Engineer World's Fair 2025 — Measuring AGI: Interactive Reasoning Benchmarks for ARC-AGI-3 — Greg Kamradt, ARC Prize Foundation - https://www.youtube.com/watch?v=3XmFPwjG8pg"
+  - "[[sources/watchv=3xmfpwjg8pg]]"
 summary: "AI researcher, creator of Keras, author of 'On the Measure of Intelligence' (2019), and co-founder of the ARC Prize Foundation. Defined intelligence as 'skill acquisition efficiency' and created the ARC-AGI benchmark series."
 provenance:
   extracted: 0.75

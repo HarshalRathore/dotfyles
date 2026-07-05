@@ -7,7 +7,7 @@ tags:
   - hci
   - aief2025
 sources:
-  - "AIEF2025 - The Bitter Layout or: How I Learned to Love the Model Picker — Maximillian Piras, Yutori - https://www.youtube.com/watch?v=BZtD0yYAgCQ"
+  - "[[sources/watchv=bztd0yyagcq]]"
 summary: "The argument that model picker dropdowns in AI applications function as mode selectors — violating Larry Tesler's principle of modeless interfaces by changing how the same inputs map to outputs."
 provenance:
   extracted: 0.65

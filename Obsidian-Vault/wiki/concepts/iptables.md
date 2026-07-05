@@ -3,7 +3,7 @@ type: "concept"
 title: "Iptables"
 created: [datetime.date(2026, 6, 30)]
 updated: [datetime.date(2026, 6, 30)]
-sources: ['manual-notes_10b5c5']
+sources: ["[[sources/manual-notes_10b5c5]]"]
 tags:
   - networking
   - firewall

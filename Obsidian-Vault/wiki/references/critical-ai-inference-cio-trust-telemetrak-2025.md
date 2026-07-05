@@ -8,7 +8,7 @@ tags:
   - governance
   - enterprise
 sources:
-  - "AI Engineer World's Fair 2025 - Critical AI Inference your CIO can Trust — Sahil Yadav, Hariharan Ganesan, Telemetrak - https://www.youtube.com/watch?v=6Tpm4m1YxHk"
+  - "[[sources/watchv=6tpm4m1yxhk]]"
 summary: "Telemetrak presents a three-pillar framework for trustworthy enterprise AI inference — explainability, traceability, and adaptive guardrails — operationalized via X-TOPS (extended MLOPS), with metrics for quantifying AI trustworthiness and a Guardhat case study on reducing false positives from 70% to near zero."
 provenance:
   extracted: 0.85

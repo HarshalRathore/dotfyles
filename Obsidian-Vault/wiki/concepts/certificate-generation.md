@@ -3,7 +3,7 @@ type: "concept"
 title: "Certificate Generation"
 created: [datetime.date(2026, 6, 30)]
 updated: [datetime.date(2026, 6, 30)]
-sources: ['how-tls-certificates-work-in-kubernetes-and-manual-cluster-setup_e2b507']
+sources: ["[[sources/how-tls-certificates-work-in-kubernetes-and-manual-cluster-setup_e2b507]]"]
 tags:
   - security
   - tls

@@ -8,7 +8,7 @@ aliases:
   - UGI
   - useful general intelligence
 sources:
-  - "AIEF2025 - Useful General Intelligence — Danielle Perszyk, Amazon AGI - https://www.youtube.com/watch?v=Dj0b_cEBHBI"
+  - "[[sources/watchv=dj0b_cebhbi]]"
 summary: "Danielle Perszyk's framing of AI that augments human intelligence rather than replacing it — building systems that make humans smarter and give us more agency, contrasting with the standard AGI goal of building machines as smart or smarter than humans."
 provenance:
   extracted: 0.80

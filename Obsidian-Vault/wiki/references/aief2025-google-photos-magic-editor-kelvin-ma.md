@@ -12,7 +12,7 @@ aliases:
   - AIEF2025 Google Photos Magic Editor
   - Kelvin Ma Google Photos 2025
 sources:
-  - "AIEF2025 - Google Photos Magic Editor: GenAI Under the Hood of a Billion-User App - Kelvin Ma, Google Photos - https://www.youtube.com/watch?v=C13jiFWNuo8"
+  - "[[sources/watchv=c13jifwnuo8]]"
 summary: "Google Photos editing on on-device ML photo editing evolution (2018-present): U-Net segmentation, Magic Eraser, model evaluation as unit testing, ML iteration vs deadlines."
 provenance:
   extracted: 0.85

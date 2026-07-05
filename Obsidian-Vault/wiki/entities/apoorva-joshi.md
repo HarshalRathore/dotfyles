@@ -7,7 +7,7 @@ tags:
   - ai
   - engineer
 sources:
-  - "AI Engineer World's Fair 2025 - Building Multimodal AI Agents From Scratch — Apoorva Joshi, MongoDB - https://www.youtube.com/watch?v=640KMYtxCeI"
+  - "[[sources/watchv=640kmytxcei]]"
 summary: "AI-focused Developer Advocate at MongoDB, building workshops for AI developers. Previously 6 years as a data scientist in cybersecurity. Speaker at AI Engineer World's Fair 2025."
 provenance:
   extracted: 0.80

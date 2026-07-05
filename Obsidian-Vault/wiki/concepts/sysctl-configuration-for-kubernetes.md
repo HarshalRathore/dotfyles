@@ -9,8 +9,9 @@ updated:
 lifecycle: draft
 base_confidence: 0.75
 sources:
-  - "install-kubernetes-components_c70e92"
-  - "manual-notes_10b5c5"
+  - "[[sources/install-kubernetes-components_c70e92]]"
+  - "[[sources/manual-notes_10b5c5]]"
+
 ---
 ## Related Concepts
 - [[br_netfilter]]

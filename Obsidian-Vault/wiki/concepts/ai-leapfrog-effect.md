@@ -7,7 +7,7 @@ tags:
   - enterprise
   - startups
 sources:
-  - "AI Engineer World's Fair 2025 - State of Startups and AI 2025 - Sarah Guo, Conviction - https://www.youtube.com/watch?v=3MZS5gNElZM"
+  - "[[sources/watchv=3mzs5gnelzm]]"
 summary: "The counterintuitive observation that the most conservative, low-tech industries (legal, customer service, healthcare) are adopting AI fastest — leapfrogging more tech-forward sectors."
 provenance:
   extracted: 0.70

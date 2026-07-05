@@ -6,17 +6,17 @@ created:
 updated:
   - 2026-06-30
 sources:
-  - "introduction_804367"
-  - "install-kubernetes-components_c70e92"
-  - "manual-notes_10b5c5"
-  - "taints-&-tolerations_37a014"
-  - "static-pod_d72e06"
-  - "scheduling_f2b3ef"
-  - "rolling-updates-&-rollbacks_f484ef"
-  - "replication-controller-&-replicaset_285a2a"
-  - "nodeselector-&-nodeaffinity_5d8764"
-  - "containerd-cri-etc_fb87d8"
-  - "init-containers_798910"
+  - "[[sources/introduction_804367]]"
+  - "[[sources/install-kubernetes-components_c70e92]]"
+  - "[[sources/manual-notes_10b5c5]]"
+  - "[[sources/taints-&-tolerations_37a014]]"
+  - "[[sources/static-pod_d72e06]]"
+  - "[[sources/scheduling_f2b3ef]]"
+  - "[[sources/rolling-updates-&-rollbacks_f484ef]]"
+  - "[[sources/replication-controller-&-replicaset_285a2a]]"
+  - "[[sources/nodeselector-&-nodeaffinity_5d8764]]"
+  - "[[sources/containerd-cri-etc_fb87d8]]"
+  - "[[sources/init-containers_798910]]"
 tags:
   - project
 aliases:

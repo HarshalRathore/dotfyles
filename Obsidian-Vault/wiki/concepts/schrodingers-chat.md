@@ -7,7 +7,7 @@ tags:
   - design
   - aief2025
 sources:
-  - "AIEF2025 - The Bitter Layout or: How I Learned to Love the Model Picker — Maximillian Piras, Yutori - https://www.youtube.com/watch?v=BZtD0yYAgCQ"
+  - "[[sources/watchv=bztd0yyagcq]]"
 summary: "The paradox in AI UX design where chatbots have well-documented usability problems yet remain the dominant interaction paradigm because one attribute — the ability to conform to the next model — outweighs all UX concerns."
 provenance:
   extracted: 0.60

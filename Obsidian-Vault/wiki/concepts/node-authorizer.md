@@ -9,8 +9,8 @@ updated:
 lifecycle: draft
 base_confidence: 0.75
 sources:
-  - "🔐-security-in-kubernetes_0a37d1"
-  - "kubernetes-api-groups-authorization-and-rbac-a-comprehensive-overview_ab21cb"
+  - "[[sources/🔐-security-in-kubernetes_0a37d1]]"
+  - "[[sources/kubernetes-api-groups-authorization-and-rbac-a-comprehensive-overview_ab21cb]]"
 tags:
 ---
 ## Description

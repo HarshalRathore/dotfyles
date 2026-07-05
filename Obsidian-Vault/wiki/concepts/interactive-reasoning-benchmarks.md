@@ -7,7 +7,7 @@ tags:
   - reasoning
   - evaluation
 sources:
-  - "AI Engineer World's Fair 2025 — Measuring AGI: Interactive Reasoning Benchmarks for ARC-AGI-3 — Greg Kamradt, ARC Prize Foundation - https://www.youtube.com/watch?v=3XmFPwjG8pg"
+  - "[[sources/watchv=3xmfpwjg8pg]]"
 summary: "A class of AI benchmarks where agents must explore controlled environments with defined rules and sparse rewards, infer goals through interaction, and demonstrate skill acquisition — moving beyond single-turn evaluation toward measuring human-like intelligence."
 provenance:
   extracted: 0.70

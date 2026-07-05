@@ -6,7 +6,7 @@ created:
 updated:
   - 2026-06-30
 sources:
-  - "introduction_804367"
+  - "[[sources/introduction_804367]]"
 tags:
   - deployment
 aliases:

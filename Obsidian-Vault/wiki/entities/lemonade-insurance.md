@@ -6,7 +6,7 @@ tags:
   - ai
   - voice
 sources:
-  - "AI Engineer World's Fair 2025 talk — Building Effective Voice Agents — Toki Sherbakov + Anoop Kotha, OpenAI - https://www.youtube.com/watch?v=-OXiljTJxQU"
+  - "[[sources/watchv=-oxiljtjxqu]]"
 summary: "AI-powered insurance company cited as a case study for early investment in evals, guardrails, and feedback mechanisms for voice agents."
 provenance:
   extracted: 0.70

@@ -3,7 +3,7 @@ title: "Why we're bullish on loops"
 category: misc
 tags: [ai, loops, agent-loop, engineering, product-engineering]
 sources:
-  - "loops"
+  - "[[sources/loops]]"
 source_url: "https://posthog.com/newsletter/loops"
 created: 2026-06-30T23:45:00Z
 updated: 2026-06-30T23:45:00Z

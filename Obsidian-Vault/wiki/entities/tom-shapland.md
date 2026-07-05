@@ -8,7 +8,7 @@ tags:
   - research
 aliases: [Dr. Tom Shapland]
 sources:
-  - "AI Engineer World's Fair 2025 talk - Why ChatGPT Keeps Interrupting You — Dr. Tom Shapland, LiveKit - https://www.youtube.com/watch?v=1v9zBiZKlIY"
+  - "[[sources/watchv=1v9zbizkliy]]"
 summary: "Director of AI at LiveKit. Expert in voice AI turn-taking, interruption handling, and real-time voice agent infrastructure."
 provenance:
   extracted: 0.80

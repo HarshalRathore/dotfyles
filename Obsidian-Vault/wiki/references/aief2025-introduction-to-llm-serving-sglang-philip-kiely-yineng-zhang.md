@@ -10,7 +10,7 @@ tags:
 aliases:
   - AIEF2025 SGLang workshop
 sources:
-  - "AIEF2025 - Introduction to LLM serving with SGLang - Philip Kiely and Yineng Zhang, Baseten - https://www.youtube.com/watch?v=Ahtaha9fEM0"
+  - "[[sources/watchv=ahtaha9fem0]]"
 summary: "Workshop covering the SGLang LLM serving framework including deployment, CUDA Graph optimization, Eagle 3 speculative decoding, and community contribution."
 provenance:
   extracted: 0.80

@@ -2,7 +2,7 @@
 title: Apache Lucene
 category: entities
 tags: [library, search, indexing, java]
-sources: ["AI Engineer World's Fair 2025 - Information Retrieval from the Ground Up - Philipp Krenn, Elastic - https://www.youtube.com/watch?v=4Xe_iMYxBQc"]
+sources: ["[[sources/ai-engineer-worlds-fair-2025-information-retrieval-from-the-ground-up-philipp-krenn]]", "[[sources/watchv=4xe_imyxbqc]]"]
 summary: "Core Java search library underlying Elasticsearch and many other search engines. Provides inverted index, BM25 scoring, analysis pipelines, and vector search primitives."
 provenance:
   extracted: 0.80

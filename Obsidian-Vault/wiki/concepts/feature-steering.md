@@ -7,7 +7,7 @@ tags:
   - control
   - safety
 sources:
-  - "AI Engineer World's Fair 2025 - Why you should care about AI interpretability - Mark Bissell, Goodfire AI - https://www.youtube.com/watch?v=6AVMHZPjpTQ"
+  - "[[sources/watchv=6avmhzpjptq]]"
 summary: "Actively modifying model behavior by adjusting internal features — the neural representations of concepts inside LLMs — to enforce guardrails, inject contextual behavior, or alter outputs with precision beyond prompt engineering."
 provenance:
   extracted: 0.85

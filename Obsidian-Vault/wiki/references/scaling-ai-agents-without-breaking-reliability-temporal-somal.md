@@ -4,7 +4,7 @@ category: references
 tags: [ai-engineering, reliability, orchestration, workflow, agents, conference-talk, ai-eng-worlds-fair-2025]
 aliases: [Temporal AI agents talk 2025, Somal Temporal 2025]
 sources:
-  - "AI Engineer World's Fair 2025 talk - Scaling AI Agents Without Breaking Reliability — Preeti Somal, Temporal - https://www.youtube.com/watch?v=1izYWsokr9s"
+  - "[[sources/watchv=1izywsokr9s]]"
 summary: "Preeti Somal of Temporal argues that agent reliability should be handled at the orchestration platform level using Temporal's workflow abstraction, not by improving individual LLM reliability."
 provenance:
   extracted: 0.80

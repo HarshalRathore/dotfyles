@@ -12,7 +12,7 @@ aliases:
   - App Graph
   - Runtime Knowledge Graph
 sources:
-  - "AIEF2025 - Graph Intelligence: Enhance Reasoning and Retrieval Using Graph Analytics - Alison & Andreas, Neo4j - https://www.youtube.com/watch?v=GGxAQVbwBL4"
+  - "[[sources/watchv=ggxaqvbwbl4]]"
 summary: "Modeling an AI application's runtime state as a property graph — sessions, prompts, responses, and retrieved context documents interconnected — for content usage analytics and agent behavior monitoring."
 provenance:
   extracted: 0.65

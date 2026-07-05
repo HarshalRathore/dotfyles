@@ -2,7 +2,7 @@
 title: "Deployment Strategies"
 summary: "> - Deployment Strategies – Two Ways to Upgrade"
 sources:
-  - "init-containers_798910"
+  - "[[sources/init-containers_798910]]"
 tags:
   - scaling
 aliases:

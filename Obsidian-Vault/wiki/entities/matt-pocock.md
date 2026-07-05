@@ -5,8 +5,9 @@ tags:
   - ai
   - education
 sources:
-  - "web-youtube-com-watch-v-qfhioco-ko"
-  - "web-youtube-com-watch-v-unzcg3lw6o0"
+  - "[[sources/web-youtube-com-watch-v-qfhioco-ko]]"
+  - "[[sources/web-youtube-com-watch-v-unzcg3lw6o0]]"
+
 ---
 # Matt Pocock
 

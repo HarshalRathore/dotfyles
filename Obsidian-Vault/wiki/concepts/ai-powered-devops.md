@@ -7,7 +7,7 @@ tags:
   - workflow
   - automation
 sources:
-  - "AIEF2025 - Unlocking AI Powered DevOps Within Your Organization — Jon Peck, GitHub - https://www.youtube.com/watch?v=C1NivhYS1sI"
+  - "[[sources/watchv=c1nivhys1si]]"
 summary: "Using AI across the entire DevOps lifecycle — planning, security scanning, testing, deployment, and documentation — where the largest early efficiency gains often come from non-code-generation activities."
 provenance:
   extracted: 0.70

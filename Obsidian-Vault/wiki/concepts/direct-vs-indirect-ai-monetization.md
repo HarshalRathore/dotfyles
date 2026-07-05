@@ -4,7 +4,7 @@ category: concepts
 tags: [pricing, ai-engineering, monetization, product-strategy, go-to-market]
 aliases: [Simon Kutcher monetization framework, direct monetization, indirect monetization, AI monetization strategy]
 sources:
-  - "AI Engineer World's Fair 2025 - Monetizing AI — Alvaro Morales, Orb - https://www.youtube.com/watch?v=6WQYLQB0odc"
+  - "[[sources/watchv=6wqylqb0odc]]"
 summary: "Framework for deciding whether to monetize an AI feature directly (standalone/add-on) or indirectly (bundled free to drive upsells or desired user behavior)."
 provenance:
   extracted: 0.85

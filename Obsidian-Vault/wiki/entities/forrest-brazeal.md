@@ -6,7 +6,7 @@ tags:
   - cloud
   - developer-relations
 sources:
-  - "https://www.youtube.com/watch?v=6NIr_cYPglk"
+  - "[[sources/watchv=6nir_cypglk]]"
 summary: "Cloud educator, speaker, and AI/developer tooling commentator. Presented at AI Engineer World's Fair 2025 on legacy code navigation with Augment Agent."
 provenance:
   extracted: 0.70

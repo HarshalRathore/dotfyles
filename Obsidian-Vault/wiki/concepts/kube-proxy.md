@@ -9,8 +9,8 @@ updated:
 lifecycle: draft
 base_confidence: 0.75
 sources:
-  - "bootstrapping-control-place_e4e0df"
-  - "main-kubernetes-components_82b036"
+  - "[[sources/bootstrapping-control-place_e4e0df]]"
+  - "[[sources/main-kubernetes-components_82b036]]"
 tags:
 ---
 ## Description

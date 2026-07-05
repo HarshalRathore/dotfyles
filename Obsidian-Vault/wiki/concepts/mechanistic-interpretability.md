@@ -7,7 +7,7 @@ tags:
   - safety
   - research
 sources:
-  - "AI Engineer World's Fair 2025 - Why you should care about AI interpretability - Mark Bissell, Goodfire AI - https://www.youtube.com/watch?v=6AVMHZPjpTQ"
+  - "[[sources/watchv=6avmhzpjptq]]"
 summary: "The practice of reverse engineering neural networks to understand their internal computations — identifying and manipulating features (concept representations) inside models to enable debugging, steering, and programmatic control."
 provenance:
   extracted: 0.80

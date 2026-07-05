@@ -11,7 +11,7 @@ relationships:
   - target: "[[concepts/recsys-foundation-model]]"
     type: related_to
 sources:
-  - "https://www.youtube.com/watch?v=2vlCqD6igVA"
+  - "[[sources/watchv=2vlcqd6igva]]"
 summary: "Architectural pattern where a single model replaces multiple specialized models for search, recommendations, and related tasks — reducing operational costs and enabling cross-task learning."
 provenance:
   extracted: 0.65
@@ -65,6 +65,14 @@ Etsy addressed the challenge of getting good search results for both very specif
 
 When compressing too many use cases into a single unified model, improving one task can degrade others. The talk notes that a single model for 12 use cases may need to be split into 2-3 separate unified models to avoid alignment degradation. ^[extracted]
 
+## YouTube's LRM: Unified Gemini for All Recommendation Surfaces
+
+YouTube's [[concepts/large-recommender-model|Large Recommender Model (LRM)]] is a unified approach where a single adapted Gemini checkpoint serves all major recommendation surfaces (home, watch-next, Shorts, personalized search). The model is aligned for different recommendation tasks (retrieval, ranking) and deployed as small custom versions for each surface. ^[extracted]
+
+Unlike Netflix's Unicorn (which unified search + recommendations under one input schema), YouTube's LRM unifies across surfaces by adapting a base LLM (Gemini) through continued pre-training on YouTube-specific data, then creating surface-specific variants. ^[extracted]
+
+LRM uses [[concepts/generative-retrieval-recsys|generative retrieval]] — having the model decode video recommendations directly as Semantic IDs from user prompts — which is a fundamentally different unification strategy from Netflix's subgraph integration approach. ^[extracted]
+
 ## Benefits
 
 - Simplifies system architecture and reduces operational costs
@@ -80,7 +88,14 @@ When compressing too many use cases into a single unified model, improving one t
 - [[concepts/llm-data-augmentation-recsys]] — LLM-generated data improves training for unified models
 - [[concepts/cold-start-recommendation]] — Cold start problem that unified models can help mitigate
 
+- [[concepts/large-recommender-model]] — YouTube's Gemini-adapted unified model
+- [[concepts/generative-retrieval-recsys]] — LRM's generative retrieval strategy
+- [[concepts/semantic-video-tokenization]] — SID tokens enable unified video reasoning
+- [[entities/youtube]] — Company deploying unified LRM at 2B+ DAU
 ## Sources
 
+- [[references/aief2025-teaching-gemini-to-speak-youtube-devansh-tandon|AIEF2025 - Teaching Gemini to Speak YouTube]] — YouTube's LRM unified approach
+
+- "AIEF2025 - Teaching Gemini to Speak YouTube: Adapting LLMs for Video Recommendations to 2B+DAU - Devansh Tandon - https://www.youtube.com/watch?v=LxQsQ3vZDqo"
 - [[references/improving-recsys-search-llms-eugene-yan|Recsys Keynote: Improving Recommendation Systems & Search in the Age of LLMs]]
 - [[references/aief2025-netflix-one-model-recommendations-yesu-feng|AIEF2025 — Netflix's Big Bet: One Model to Rule Recommendations]]

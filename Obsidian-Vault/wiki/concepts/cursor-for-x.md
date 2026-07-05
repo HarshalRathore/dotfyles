@@ -7,7 +7,7 @@ tags:
   - startups
 aliases: [Cursor for every industry, vertical AI playbook]
 sources:
-  - "AI Engineer World's Fair 2025 - State of Startups and AI 2025 - Sarah Guo, Conviction - https://www.youtube.com/watch?v=3MZS5gNElZM"
+  - "[[sources/watchv=3mzs5gnelzm]]"
 summary: "The meta-playbook for building AI applications: apply the Cursor recipe (domain knowledge + workflow packaging + multi-model orchestration + thoughtful UX) to every professional vertical."
 provenance:
   extracted: 0.70

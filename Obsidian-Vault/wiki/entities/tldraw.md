@@ -6,7 +6,7 @@ relationships:
   - target: "[[entities/steve-ruiz]]"
     type: derived_from
 sources:
-  - "AI Engineer World's Fair 2025 talk - tldraw.computer - Steve Ruiz, tldraw - https://www.youtube.com/watch?v=1C2TdPkj6aQ"
+  - "[[sources/watchv=1c2tdpkj6aq]]"
 summary: "Company behind the tldraw infinite canvas SDK and tldraw.com whiteboard application. Known for AI features including Make Real, Draw Fast, and tldraw.computer."
 provenance:
   extracted: 0.80

@@ -7,7 +7,7 @@ tags:
   - testing
   - methodology
 sources:
-  - "AI Engineer World's Fair 2025 talk — Practical tactics to build reliable AI apps — Dmitry Kuchin, Multinear - https://www.youtube.com/watch?v=-T6uZYYzkWw"
+  - "[[sources/watchv=-t6uzyyzkww]]"
 summary: "For each AI use case, define a specific criteria checklist of required information and use an LLM-as-a-judge to evaluate whether outputs satisfy every item."
 provenance:
   extracted: 0.75

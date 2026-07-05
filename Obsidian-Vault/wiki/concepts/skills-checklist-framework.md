@@ -5,7 +5,7 @@ tags:
   - engineering
   - "skill-design"
 sources:
-  - "web-youtube-com-watch-v-unzcg3lw6o0"
+  - "[[sources/web-youtube-com-watch-v-unzcg3lw6o0]]"
 relationships:
   - {'target': '[[concepts/leading-words]]'}
   - {'target': '[[concepts/microservices-architecture]]'}

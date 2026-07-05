@@ -1,7 +1,7 @@
 ---
 title: "Kubernetes Pod command and args"
 sources:
-  - "commands-&-args-in-containers-&-pods_300e3e"
+  - "[[sources/commands-&-args-in-containers-&-pods_300e3e]]"
 tags:
   - deployment
 aliases:

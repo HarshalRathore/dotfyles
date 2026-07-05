@@ -8,7 +8,7 @@ tags:
   - ai-engineering
 aliases: [simulation testing harness, conversational AI testing, persona-based simulation]
 sources:
-  - "AIEF2025 - Rise of the AI Architect — Clay Bavor, Cofounder, Sierra w/ Alessio Fanelli - https://www.youtube.com/watch?v=C3geUfBR2js"
+  - "[[sources/watchv=c3geufbr2js]]"
 summary: "A testing approach for conversational AI agents that simulates dozens of user personas with accounts and scenarios, running tens of thousands of conversations before production deployment."
 provenance:
   extracted: 0.85

@@ -8,7 +8,7 @@ tags:
   - benchmarking
   - llm
 sources:
-  - "AIEF2025 - Strategies for LLM Evals (GuideLLM, lm-eval-harness, OpenAI Evals Workshop) — Taylor Jordan Smith - https://www.youtube.com/watch?v=89NuzmKokIk"
+  - "[[sources/watchv=89nuzmkokik]]"
 summary: "Workshop at AI Engineer World's Fair 2025 covering a tiered approach to LLM evaluation — from system performance benchmarking (GuideLLM) through factual accuracy (lm-eval-harness/MMLU-Pro) to safety testing (PromptFu) — with hands-on exercises using VLLM on Red Hat infrastructure."
 provenance:
   extracted: 0.80

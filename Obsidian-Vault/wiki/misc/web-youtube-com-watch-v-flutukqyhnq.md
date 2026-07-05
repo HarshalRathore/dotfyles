@@ -3,7 +3,7 @@ title: "Everything I Learned Training Frontier Small Models — Maxime Labonne"
 category: misc
 tags: [ai, small-models, edge-ml, lfm, liquid-ai, post-training, rl]
 sources:
-  - "watchv=flutukqyhnq"
+  - "[[sources/watchv=flutukqyhnq]]"
 source_url: "https://www.youtube.com/watch?v=fLUtUkqYHnQ"
 created: 2026-06-30T23:59:00Z
 updated: 2026-06-30T23:59:00Z

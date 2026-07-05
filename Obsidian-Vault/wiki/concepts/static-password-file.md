@@ -7,7 +7,7 @@ created:
 updated:
   - 2026-06-30
 sources:
-  - "🔐-security-in-kubernetes_0a37d1"
+  - "[[sources/🔐-security-in-kubernetes_0a37d1]]"
 tags:
   - security
 aliases:

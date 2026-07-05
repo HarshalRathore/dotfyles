@@ -6,11 +6,11 @@ created:
 updated:
   - 2026-06-30
 sources:
-  - "install-kubernetes-components_c70e92"
-  - "manual-notes_10b5c5"
-  - "rolling-updates-&-rollbacks_f484ef"
-  - "replication-controller-&-replicaset_285a2a"
-  - "kubernetes-autoscaling_59fbf3"
+  - "[[sources/install-kubernetes-components_c70e92]]"
+  - "[[sources/manual-notes_10b5c5]]"
+  - "[[sources/rolling-updates-&-rollbacks_f484ef]]"
+  - "[[sources/replication-controller-&-replicaset_285a2a]]"
+  - "[[sources/kubernetes-autoscaling_59fbf3]]"
 tags:
   - product
 aliases:

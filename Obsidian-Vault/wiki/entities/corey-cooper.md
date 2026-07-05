@@ -9,7 +9,7 @@ tags:
 aliases:
   - Corey Cooper
 sources:
-  - "AIEF2025 - Automating Escrow with USDC and AI - Corey Cooper, Circle - https://www.youtube.com/watch?v=AXMdSqdoGHM"
+  - "[[sources/watchv=axmdsqdoghm]]"
 summary: "DevRel Lead at Circle. Presented on combining USDC and AI agents to automate escrow workflows at AI Engineer World's Fair 2025."
 provenance:
   extracted: 0.90

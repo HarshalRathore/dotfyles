@@ -4,7 +4,7 @@ category: entities
 tags: [organization, community, bay-area, hackathon, ai]
 aliases: [Cerebral Valley]
 sources:
-  - "AI Engineer World's Fair 2025 talk - AI Engineer World's Fair 2025 Hackathon Presentations - https://www.youtube.com/watch?v=1ZlO9Yu2ZiU"
+  - "[[sources/watchv=1zlo9yu2ziu]]"
 summary: "The largest AI community in the world, based in the Bay Area, known for organizing hackathons and events. Partnered with AI Engineer for the first official AI Engineer hackathon at the 2025 World's Fair."
 provenance:
   extracted: 0.85

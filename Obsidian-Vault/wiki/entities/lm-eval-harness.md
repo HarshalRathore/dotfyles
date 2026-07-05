@@ -11,7 +11,7 @@ aliases:
   - EleutherAI LM Eval Harness
   - lm_eval
 sources:
-  - "AIEF2025 - Strategies for LLM Evals (GuideLLM, lm-eval-harness, OpenAI Evals Workshop) — Taylor Jordan Smith - https://www.youtube.com/watch?v=89NuzmKokIk"
+  - "[[sources/watchv=89nuzmkokik]]"
 summary: "Open-source framework from EleutherAI for running standardized LLM benchmarks including MMLU-Pro. Supports many eval tasks and allows custom dataset integration via forking."
 provenance:
   extracted: 0.75

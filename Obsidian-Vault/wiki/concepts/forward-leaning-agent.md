@@ -7,7 +7,7 @@ tags:
   - personality
   - behavior
 sources:
-  - "AIEF2025 - Form factors for your new AI coworkers — Craig Wattrus, Flatfile - https://www.youtube.com/watch?v=CiMVKnX-CNI"
+  - "[[sources/watchv=cimvknx-cni]]"
 summary: "An agent characteristic: curious, excitable, and focused — takes initiative and makes suggestions without needing explicit prompting, but stays within bounds and knows when to defer to humans."
 provenance:
   extracted: 0.75

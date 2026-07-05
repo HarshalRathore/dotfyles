@@ -7,12 +7,16 @@ tags:
   - control-flow
   - state-management
 sources:
-  - "loops"
-  - "stop-ai-slop"
-  - "ai-evals"
-  - "AIEF2025 - 12-Factor Agents: Patterns of Reliable LLM applications — Dex Horthy, HumanLayer - https://www.youtube.com/watch?v=8kMaTybvDUw"
-  - "AIEF2025 - Unlocking AI Powered DevOps Within Your Organization — Jon Peck, GitHub - https://www.youtube.com/watch?v=C1NivhYS1sI"
-summary: "An AI-driven iterative pattern where an autonomous agent repeatedly performs a cycle of work, evaluates the result, and decides whether to continue, adapt, or stop. Covers agent loops in development, research, and IDEs."
+  - "[[sources/loops]]"
+  - "[[sources/stop-ai-slop]]"
+  - "[[sources/ai-evals]]"
+  - "[[sources/watchv=8kmatybvduw]]"
+  - "[[sources/watchv=c1nivhys1si]]"
+  - "[[sources/watchv=lqq_lcbajcc]]"
+  - "[[sources/watchv=lue8k2jqfkk]]"
+  - "[[sources/watchv=pbhm2qknu10]]"
+  - "[[sources/watchv=q3nreeadkmc]]"
+summary: "An AI-driven iterative pattern where an autonomous agent repeatedly performs a cycle of work, evaluates the result, and decides whether to continue, adapt, or stop. Covers agent loops in development, research, IDEs, and RL training."
 provenance:
   extracted: 0.70
   inferred: 0.25
@@ -21,7 +25,14 @@ base_confidence: 0.50
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
-updated: 2026-07-03
+updated: 2026-07-05
+relationships:
+  - target: "[[concepts/vibe-coding-as-agentic-ai|Vibe Coding as Agentic AI]]"
+    type: implements
+  - target: "[[concepts/agent-guardrails|Agent Guardrails]]"
+    type: related_to
+  - target: "[[entities/donald-hruska|Donald Hruska]]"
+    type: related_to
 ---
 
 # Agent Loop
@@ -33,7 +44,7 @@ An agent loop is an AI-driven iterative pattern where an autonomous agent repeat
 A well-engineered loop needs four things:
 1. **A goal** — scope the loop so the agent knows what to achieve. Without a goal, the loop is a "slop cannon."
 2. **Context** — fuel for the loop. Tools, skills, analytics data, errors, memories. Best curated and fed throughout, not dumped upfront. The agent needs to fetch and react to new inputs.
-3. **Evaluation** — how the agent checks itself. Tests, evals, metrics, LLM-as-judge, playgrounds. A key distinction from prompting: the agent does the verification, not the engineer. PostHog AI Evals implements three evaluation types: LLM-as-judge (LLM scores generations against a prompt — pass/fail with reasoning; best for subjective checks like tone, helpfulness, hallucination), code-based Hog evals (deterministic checks via HogVM — millisecond-speed, zero LLM cost; best for format validation, keyword detection, length limits), and sentiment analysis (local ML model classifies user messages as positive/neutral/negative with confidence scores — runs entirely within PostHog, no third-party data sharing). All three share sampling rate (0.1–100%) and property filter support. The five concrete eval criteria (relevance, helpfulness, jailbreak, hallucination, toxicity) map to LLM-as-judge templates. Eval template pattern: set domain expertise, define strict binary pass/fail, include examples of good/bad/edge cases, evaluate one behavior per prompt. Matt Pocock's practical feedback loop techniques for when code builds but doesn't work: static types (e.g. TypeScript), browser access for front-end (let the LLM see what it rendered), and automated tests — iterate with execution feedback, not spec changes. Evaluations can be managed programmatically via PostHog's six MCP tools (list, get, create, update, delete, run). Default evaluation reports are auto-provisioned with count-based triggers and optional Slack/email delivery.
+3. **Evaluation** — how the agent checks itself. Tests, evals, metrics, LLM-as-judge, playgrounds. A key distinction from prompting: the agent does the verification, not the engineer. PostHog AI Evals implements three evaluation types: LLM-as-judge (LLM scores generations against a prompt — pass/fail with reasoning; best for subjective checks like tone, helpfulness, hallucination), code-based Hog evals (deterministic checks via HogVM — millisecond-speed, zero LLM cost; best for format validation, keyword detection, length limits), and sentiment analysis (local ML model classifies user messages as positive/neutral/negative with confidence scores — runs entirely within PostHog, no third-party data sharing). All three share sampling rate (0.1–100%) and property…
 4. **An agent** — from Claude Code with a `while true` (Ralph) to purpose-built harnesses with cron triggers and subagent dispatchers.
 
 ## Examples
@@ -48,7 +59,41 @@ A well-engineered loop needs four things:
 - **Karpathy's Autoresearch:** Optimization-focused loop — run against a benchmark, propose changes, measure, keep/discard. Used by PostHog to optimize ClickHouse queries.
 - **Ralph coding technique:** Build-focused loop — read specs and a TODO list, implement one item per iteration, update the plan, commit. Used for greenfield software development.
 - **ReAct (Reasoning + Acting):** Agent loop where the LLM generates verbal reasoning traces alongside tool actions, observes tool outcomes, and iterates until the final answer is determined. Used for multimodal agents that search over mixed-modality documents and analyze figures. Common in tool-calling agent architectures.
+
 - **IDE agent mode:** Interactive loop where the user iterates on a spec (README-based prompt drafting) with the AI, then hands a well-scoped document to the agent for implementation. During execution, the agent pauses for user approval before terminal access, sending progress updates. The operator can redirect mid-execution or revert all changes and restart. Articulated by [[entities/jon-peck|Jon Peck]] at AIEF2025 for both brownfield and greenfield development. ^[extracted]
+
+- **Validation error feedback (Pydantic AI):** [[entities/samuel-colvin|Samuel Colvin]] demonstrated at AIEF2025 a pattern where schema validation errors are returned to the LLM as feedback, enabling self-correction. A `Person` schema required date of birth before 1900; the LLM returned `1987`, validation failed, the error was returned to Gemini Flash, and the model self-corrected to `1887` on the second attempt. This turns schema validators into deterministic, human-seeded evals — faster and more precise than LLM-as-judge scoring. ^[extracted]
+
+## Claude Code's Loop Design
+
+[[entities/boris-cherny|Boris Cherny]]'s work on Claude Code provides a complementary perspective on agent loops: the tooling around loops must be **unopinionated** to survive rapid model evolution. Claude Code's `/loop` command, automations, and the Ralph plugin all share a design principle — provide raw model access without imposing workflow opinions. This is especially important because:
+
+- The model improves exponentially while product development moves at human speed
+- The right UX for agentic loops is still unknown
+- Staying unopinionated (terminal-first, no scaffolding) lets the loop adapt as models evolve
+
+Boris's thesis: "The more general model always wins" — which extends to loop infrastructure: general-purpose, adaptable tools outlast opinionated, polished ones during periods of rapid model change. ^[extracted]
+
+### Strands: Minimal Scaffolding in Practice
+
+[[entities/strands-agents|Strands Agents]] demonstrates the minimal scaffolding extreme of the agent loop spectrum. With only a model and tools as inputs — no orchestration framework, no state machine, no scaffolding layer — the agent relies entirely on the model's reasoning capability to handle the loop internally. ^[extracted] Suman Debnath (AWS) explicitly encouraged removing system prompts to test whether the model can reason about tasks autonomously, and the demos showed the model successfully sequencing multi-step operations (read → summarize → write → speak) and generating Manim visualizations without scaffolding. ^[extracted] This contrasts with scaffolded approaches like [[concepts/scaffold-over-framework|Scaffold-Over-Framework]] that generate custom loop code — Strands takes the opposite approach, trusting the model entirely. ^[inferred]
+
+## RL Training Loops
+
+A deeper perspective from [[entities/will-brown|Will Brown]] ([[entities/prime-intellect|Prime Intellect]]) at AIEF2025 reframes agent loops as canonical reinforcement learning. Building an agent — with its harness, environment, tools, and iteration — maps directly onto RL concepts: policies, actions, states, rewards, and transition probabilities. ^[extracted]
+
+Under this framing, agents are not just static chains of API calls but **interaction loops with evaluations**. This is exactly how RL is conceptualized: a system interacts with an environment, there is a way of evaluating how well it's doing, and RL is the algorithm to improve based on evaluation scores. ^[extracted]
+
+When engineers tune prompts, fiddle with harnesses, and iterate based on eval results, they are doing RL by hand: ^[extracted]
+
+1. Evals show the current state
+2. Look at the data to see if it matches eval scores
+3. Try a new prompt, a new tool, or a different model
+4. Observe which change improved outcomes
+
+RL algorithms (PPO, GRPO) automate and formalize this process. The key mechanism is **advantage estimation** — identifying which specific decision points in a multi-step interaction caused the difference between success and failure. ^[extracted]
+
+This explains why models like Claude Code and OpenAI O3 are naturally agentic: they were RL-trained in essentially the same setting they are used in — a while loop with tools. ^[extracted]
 
 ## Why Now
 
@@ -57,7 +102,15 @@ The loop pattern has crossed into practical use due to:
 - Real success stories: Stripe did a codebase-wide migration in a day that would take a team two months.
 - Built-in tooling: Claude Code's `/loop` command, Codex automations, Ralph plugin.
 - Subagents separate the loop from the work, saving tokens and preventing degradation.
-- Maturing harnesses: compaction, skills, MCP, cloud execution.
+ - Maturing harnesses: compaction, skills, MCP, cloud execution.
+
+ ## Coding Agent Loop
+
+ [[entities/robert-brennan|Robert Brennan]] (OpenHands) at AIEF2025 provides a complementary framing of the agent loop specifically for coding agents. At its core, an agent is "this loop between a large language model and the external world" — the LLM serves as the brain, and the agent repeatedly takes actions in the external world, gets feedback, and passes it back to the LLM. ^[extracted]
+
+ At each step of the loop, the LLM is asked: **what's the next thing you want to do in order to get one step closer to your goal?** The answer might be: read this file, make this edit, run this command, or look at this web page. The action is executed in the real world, the output is captured, and it is fed back into the LLM for the next turn. ^[extracted]
+
+ This coding agent loop is distinguished from [[concepts/assistive-vs-automation-agents|assistive agents]] by its autonomy window — coding agents work for 5–15 minutes independently, while tactical code generation tools (like [[entities/github-copilot|GitHub Copilot]] autocomplete) require continuous human direction at the line level. ^[inferred]
 
 ## Relationship to Signal Loop
 
@@ -125,3 +178,14 @@ The owning-your-control-flow pattern pairs naturally with [[concepts/micro-agent
 - [[concepts/context-engineering]] — The thesis that everything in agent quality is getting the right tokens into the model
 - [[entities/dex-horthy]] — Originator of the control flow ownership and error recovery patterns
 - [[entities/humanlayer]] — Company building infrastructure for agent state management
+- [[concepts/agent-history-in-production|Agent History in Production]] — The dual role of history (conversational + execution) emphasized by [[entities/mike-chambers|Mike Chambers]] as essential for multi-step agentic reasoning
+- [[concepts/cloud-scale-agent-architecture|Cloud-Scale Agent Architecture]] — The managed-service pattern for deploying agents at cloud scale
+- [[concepts/natural-language-tool-schemas]] — Natural language tool descriptions as a schema paradigm
+- [[concepts/action-groups]] — Action groups as tool collections within managed agent services
+- [[concepts/advantage-estimation|Advantage Estimation]] — The RL mechanism that formalizes what engineers do manually when tuning prompts and harnesses
+- [[concepts/ppo-vs-grpo-vs-dpo|PPO vs GRPO vs DPO]] — RL algorithms that automate the agent loop's implicit learning
+- [[references/aief2025-ship-it-building-production-ready-agents-mike-chambers-aws]] — Mike Chambers' AIEF2025 talk on building production-ready agents
+- [[references/aief2025-claude-code-evolution-of-agentic-coding-boris-cherny]] — Boris Cherny's AIEF2025 talk on evolution of agentic coding and Claude Code's design philosophy
+- [[references/aief2025-training-agentic-reasoners-will-brown-prime-intellect]] — Will Brown's AIEF2025 talk on training agentic reasoners via RL
+- [[references/aief2025-human-seeded-evals-samuel-colvin-pydantic]] — Samuel Colvin's AIEF2025 talk demonstrating validation error feedback in the agent loop
+- [[references/aief2025-introducing-strands-agents-open-source-ai-agents-sdk-suman-debnath-aws]] — Suman Debnath's AIEF2025 talk on Strands, demonstrating minimal scaffolding agent loops

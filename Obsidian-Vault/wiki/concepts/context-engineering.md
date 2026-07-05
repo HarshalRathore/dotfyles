@@ -8,8 +8,8 @@ tags:
   - llm
   - quality
 sources:
-  - "AIEF2025 - 12-Factor Agents: Patterns of Reliable LLM applications — Dex Horthy, HumanLayer - https://www.youtube.com/watch?v=8kMaTybvDUw"
-  - "AIEF2025 - Collaborating with Agents in your Software Dev Workflow — Jon Peck & Christopher Harrison, Microsoft - https://www.youtube.com/watch?v=G1hhmz6mXT0"
+  - "[[sources/watchv=8kmatybvduw]]"
+  - "[[sources/watchv=g1hhmz6mxt0]]"
 provenance:
   extracted: 0.70
   inferred: 0.25

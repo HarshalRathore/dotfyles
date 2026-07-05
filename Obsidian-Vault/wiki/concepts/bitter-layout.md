@@ -8,7 +8,7 @@ tags:
   - chat
   - aief2025
 sources:
-  - "AIEF2025 - The Bitter Layout or: How I Learned to Love the Model Picker — Maximillian Piras, Yutori - https://www.youtube.com/watch?v=BZtD0yYAgCQ"
+  - "[[sources/watchv=bztd0yyagcq]]"
 summary: "The converged AI UX pattern of chat input + turn-by-turn interaction + model picker dropdown that persists not because it is good design, but because it can absorb the next model's capabilities at minimal cost."
 provenance:
   extracted: 0.60

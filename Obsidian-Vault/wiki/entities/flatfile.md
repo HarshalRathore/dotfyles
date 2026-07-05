@@ -6,7 +6,7 @@ tags:
   - ai-platform
   - saas
 sources:
-  - "AIEF2025 - Form factors for your new AI coworkers — Craig Wattrus, Flatfile - https://www.youtube.com/watch?v=CiMVKnX-CNI"
+  - "[[sources/watchv=cimvknx-cni]]"
 summary: "Data migration and import platform that moves data between enterprise systems. Operates an AI platform layer including agents, tools, and real-time context analysis for checking, transforming, and validating data."
 provenance:
   extracted: 0.65

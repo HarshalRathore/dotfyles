@@ -5,7 +5,7 @@ tags:
   - ai
   - infrastructure
 sources:
-  - "AI Engineer World's Fair 2025 talk - Infrastructure for the Singularity — Jesse Han, Morph - https://www.youtube.com/watch?v=2goSS66XRBk"
+  - "[[sources/watchv=2goss66xrbk]]"
 summary: "Founder of Morph, creator of InfiniBranch and Morph Cloud, and advocate for infrastructure purpose-built for AI agents and verified superintelligence."
 provenance:
   extracted: 0.78

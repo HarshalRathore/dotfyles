@@ -12,7 +12,7 @@ aliases:
   - Chin Keong Lam
   - CK Lam
 sources:
-  - "AIEF2025 - Wisdom-Driven Knowledge Augmented Generation at Scale - Chin Keong Lam, Patho AI - https://www.youtube.com/watch?v=9AQOvT8LnMI"
+  - "[[sources/watchv=9aqovt8lnmi]]"
 summary: "Founder and CEO of Patho AI. Presented on Wisdom-Driven Knowledge Augmented Generation (KAG) at AI Engineer World's Fair 2025, advocating structured knowledge graphs over vector RAG for complex analytical queries."
 provenance:
   extracted: 0.65

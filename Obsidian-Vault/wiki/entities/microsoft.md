@@ -7,8 +7,10 @@ tags:
   - cloud
   - enterprise
 sources:
-  - "AI Engineer World's Fair 2025 - Spark to System: Building the Open Agentic Web — Asha Sharma, Microsoft - https://www.youtube.com/watch?v=7Hrw6rtXaHc"
-  - "AIEF2025 - The Unofficial Guide to Apple's Private Cloud Compute - Jmo, CONFSEC - https://www.youtube.com/watch?v=CCsWZ5bJlO8"
+  - "[[sources/watchv=7hrw6rtxahc]]"
+  - "[[sources/watchv=ccswz5bjlo8]]"
+  - "[[sources/watchv=phbghukam-w]]"
+  - "[[sources/watchv=r30col3upug]]"
 provenance:
   extracted: 0.78
   inferred: 0.18
@@ -31,7 +33,7 @@ Microsoft's Core AI Platform, led by [[entities/asha-sharma|Asha Sharma]], devel
 - **Fosse** — Codebase reasoning tool ("GraphRack for your code base") for autonomous codebase improvement. ^[extracted]
 - **Dragon** — Healthcare copilot for automated medical scribing, achieving 83% character acceptance rate through signal-loop fine-tuning on 650K interactions. ^[extracted]
 - **GigaPath** — Open pathology model using dilated attention for gigapixel slide understanding without downsampling. ^[extracted]
-- **Azure AI private inference** — Confidential AI inference offering (in private preview since September 2024) that follows the same [[concepts/private-ai-inference|private AI inference]] architecture pioneered by Apple's [[concepts/private-cloud-compute|Private Cloud Compute]]. ^[extracted]
+- **Security Co-Pilot** — AI-powered cybersecurity assistant. [[entities/michael-albada|Michael Albada]], Principal Applied Scientist, is a key contributor to Security Co-Pilot and the recently announced Security Co-Pilot Agents. ^[extracted]
 
 ## Platform Philosophy
 
@@ -40,6 +42,15 @@ Microsoft's Core AI Platform, led by [[entities/asha-sharma|Asha Sharma]], devel
 - **[[concepts/local-first-ai-platform|Cloud-to-edge]]** — Local is not a fork but a core platform capability; agents created in the cloud must run and reason locally. ^[extracted]
 - **Built-in accountability** — Evaluation SDK, red teaming agents, OpenTelemetry-based observability. ^[extracted]
 
+## MCP Auth Leadership
+
+Microsoft leads the MCP Steering Committee's work on authorization, developing the new draft MCP auth spec with [[entities/anthropic|Anthropic]] and security experts. The spec separates the MCP server as a resource server from a dedicated authorization server, enabling plug-and-play identity providers like [[entities/entra-id|Entra ID]], [[entities/okta|Okta]], [[entities/auth0|Auth0]], and [[entities/keycloak|Keycloak]]. ^[inferred]
+
+[[entities/den-delimarsky|Den Delimarsky]] (Product Engineer, MCP squad) demonstrated a C# ASP.NET Core implementation in the official MCP C# SDK. ^[extracted]
+
+
 ## Sources
 
 - AI Engineer World's Fair 2025 — Spark to System: Building the Open Agentic Web, Asha Sharma. https://www.youtube.com/watch?v=7Hrw6rtXaHc
+- AIEF2025 - Building Protected MCP Servers — Den Delimarsky and Julia Kasper, MCP Steering Committee & Microsoft - https://www.youtube.com/watch?v=PHBGhUKAM-w
+- AI Engineer World's Fair 2025 — Building Applications with AI Agents, Michael Albada, Microsoft. https://www.youtube.com/watch?v=R30col3UPUg

@@ -7,7 +7,7 @@ tags:
   - ai-engineer
   - agents
 sources:
-  - "AIEF2025 - 12-Factor Agents: Patterns of Reliable LLM applications — Dex Horthy, HumanLayer - https://www.youtube.com/watch?v=8kMaTybvDUw"
+  - "[[sources/watchv=8kmatybvduw]]"
 summary: "Founder of HumanLayer, creator of the 12-Factor Agents framework for building reliable LLM applications. Author of the A2H (Agent-to-Human) Protocol for human-in-the-loop agent collaboration."
 provenance:
   extracted: 0.80

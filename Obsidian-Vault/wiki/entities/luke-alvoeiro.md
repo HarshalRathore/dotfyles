@@ -6,7 +6,7 @@ tags:
   - "multi-agent"
   - "ai-engineering"
 sources:
-  - "web-youtube-com-watch-ow1we5pzk-o"
+  - "[[sources/web-youtube-com-watch-ow1we5pzk-o]]"
 aliases:
   - lukealvoeiro
 ---

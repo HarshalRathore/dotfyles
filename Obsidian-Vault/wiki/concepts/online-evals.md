@@ -9,8 +9,10 @@ tags:
   - scoring
 aliases: [production evals, online scoring, live traffic evaluation, online scoring rules]
 sources:
-  - "AIEF2025 - [Evals Workshop] Mastering AI Evaluation: From Playground to Production - https://www.youtube.com/watch?v=9iN-cPnp7xg"
-summary: "Production evaluation of AI systems where live user traffic is automatically scored using defined metrics, enabling regression alerts, real-time monitoring, and continuous dataset improvement."
+  - "[[sources/watchv=9in-cpnp7xg]]"
+  - "[[sources/watchv=l8ooyedi_ls]]"
+  - "AIEF2025 - Five hard earned lessons about Evals — Ankur Goyal, Braintrust - https://www.youtube.com/watch?v=a4BV0gGmXgA"
+summary: "Production evaluation of AI systems where live user traffic is automatically scored using defined metrics, enabling regression alerts, real-time monitoring, and continuous dataset improvement. Complements offline evals and CI-integrated evals."
 provenance:
   extracted: 0.78
   inferred: 0.17
@@ -19,7 +21,7 @@ base_confidence: 0.55
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
-updated: 2026-07-03
+updated: 2026-07-05
 ---
 
 # Online Evals
@@ -53,6 +55,10 @@ Online scoring evaluates production logs against defined score functions at conf
 - **Span-targeted scoring** — Score the root trace or drill into a specific nested span for granular measurement ^[extracted]
 - **A/B comparison of prompts** — Tag production traces by prompt version and compare scores across cohorts ^[extracted]
 
+## Evals in CI
+
+Online scoring complements [[concepts/evals-in-ci|evals in CI]] — the practice of running the same eval tasks across the full dataset when PRs are submitted, visualizing how changes affect the entire "court" of test cases. ^[extracted] Together, CI evals (offline) and online scoring (live traffic) form a complete evaluation feedback loop. ^[inferred]
+
 ## The Flywheel Effect
 
 Online evals enable a continuous improvement loop: ^[inferred]
@@ -73,7 +79,11 @@ In [[entities/braintrust|Braintrust]], online scoring rules are configured in th
 - [[concepts/ai-observability-production-logging|AI Observability & Production Logging]] — how production traces are captured
 - [[concepts/eval-quality-matrix|Eval Quality Matrix]] — diagnostics for interpreting online scores
 - [[concepts/evaluation-first-development|Evaluation-First Development]] — the offline counterpart that feeds into online evals
+- [[concepts/evals-in-ci|Evals in CI]] — Offline evals that run on PRs and commits
+- [[concepts/deterministic-eval-scoring|Deterministic Eval Scoring]] — Simple scores work better for both online and CI evals
+- [[concepts/application-layer-evals|Application-Layer Evals]] — The broader paradigm online evals serve
 
 ## Sources
 
 - [[references/aief2025-evals-workshop-braintrust|AIEF2025 - [Evals Workshop] Mastering AI Evaluation: From Playground to Production]] — Braintrust workshop at AI Engineer World's Fair 2025
+- "AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY"

@@ -9,7 +9,7 @@ tags:
   - cx
 aliases: [QA evolution for Gen AI, CX team evolution, ops as model shapers]
 sources:
-  - "AI Engineer World's Fair 2025 talk — The Build-Operate Divide: Bridging Product Vision and AI Operational Reality — Jeremy (Freeplay) & Chris Hernandez (Chime) - https://www.youtube.com/watch?v=1__V4KTv_Gw"
+  - "[[sources/watchv=1__v4ktv_gw]]"
 summary: "The transformation of QA, CX, and contact center teams from auditors of past interactions into active participants in shaping AI model behavior — as prompt testers, AI performance monitors, and model shapers."
 provenance:
   extracted: 0.80

@@ -8,9 +8,9 @@ tags:
   - inference
 aliases: [enterprise inference dragons, self-hosted inference challenges, production inference ops]
 sources:
-  - "AI Engineer World's Fair 2025 - Critical AI Inference your CIO can Trust — Sahil Yadav, Hariharan Ganesan, Telemetrak - https://www.youtube.com/watch?v=6Tpm4m1YxHk"
-  - "AI Engineer World's Fair 2025 - The Rise of Open Models in the Enterprise — Amir Haghighat, Baseten - https://www.youtube.com/watch?v=3WV1vT0B0cg"
-  - "AIEF2025 - How fast are LLM inference engines anyway? — Charles Frye, Modal - https://www.youtube.com/watch?v=DeFF3J8T5Pk"
+  - "[[sources/watchv=6tpm4m1yxhk]]"
+  - "[[sources/watchv=3wv1vt0b0cg]]"
+  - "[[sources/watchv=deff3j8t5pk]]"
 summary: "The operational challenges ('dragons') that enterprises face when moving from API-based frontier models to self-hosted inference with open models — spanning performance, reliability, scaling, observability, and trust. The economic case for self-hosting is now supported by production-viable open models and mature inference engines."
 provenance:
   extracted: 0.75

@@ -11,8 +11,9 @@ aliases:
   - Entity-Relationship Extraction
   - Triplet Generation
 sources:
-  - "AI Engineer World's Fair 2025 talk — HybridRAG: A Fusion of Graph and Vector Retrieval — Mitesh Patel, NVIDIA - https://www.youtube.com/watch?v=-tgQa8Fzf80"
-  - "AIEF2025 - Agentic GraphRAG: Simplifying Retrieval Across Structured & Unstructured Data — Zach Blumenfeld - https://www.youtube.com/watch?v=CzM3cW6FdBs"
+  - "[[sources/watchv=j-9ebjbxcbg]]"
+  - "[[sources/watchv=-tgqa8fzf80]]"
+  - "[[sources/watchv=czm3cw6fdbs]]"
 provenance:
   extracted: 0.75
   inferred: 0.20
@@ -21,7 +22,7 @@ base_confidence: 0.42
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
-updated: 2026-07-03
+updated: 2026-07-04
 relationships:
   - target: "[[concepts/knowledge-graph-ontology-design|Knowledge Graph Ontology Design]]"
     type: uses

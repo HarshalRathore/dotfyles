@@ -7,7 +7,7 @@ tags:
   - agents
 aliases: [build copilot first, augmentation before automation, Iron Man suit strategy]
 sources:
-  - "AI Engineer World's Fair 2025 - State of Startups and AI 2025 - Sarah Guo, Conviction - https://www.youtube.com/watch?v=3MZS5gNElZM"
+  - "[[sources/watchv=3mzs5gnelzm]]"
 summary: "Build AI augmentation (copilot) first, then extend toward autonomy as model capability improves. Human tolerance for failure drops dramatically with latency — making copilots the lower-risk path."
 provenance:
   extracted: 0.70

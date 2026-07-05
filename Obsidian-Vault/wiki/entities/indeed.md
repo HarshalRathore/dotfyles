@@ -4,7 +4,7 @@ category: entities
 tags: [company, job-platform, recommendation-systems, recsys, llm]
 aliases: [Indeed.com]
 sources:
-  - "https://www.youtube.com/watch?v=2vlCqD6igVA"
+  - "[[sources/watchv=2vlcqd6igva]]"
 summary: "Job search and recruitment platform whose LLM distillation pipeline for filtering bad job recommendations demonstrated that recommendation quality matters more than quantity."
 provenance:
   extracted: 0.65

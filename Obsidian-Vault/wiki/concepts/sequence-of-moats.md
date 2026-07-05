@@ -4,7 +4,7 @@ category: concepts
 tags: [product-strategy, competitive-advantage, execution, timing]
 aliases: [stacked moats, shrinking moats, moat sequence]
 sources:
-  - "AI Engineer World's Fair 2025 talk - Survive the AI Knife Fight: Building Products That Win — Brian Balfour, Reforge - https://www.youtube.com/watch?v=1MVh05GDydE"
+  - "[[sources/watchv=1mvh05gdyde]]"
 summary: "A strategy concept where competitive advantage is built from a sequence of smaller, stacked moats that each buy limited time, rather than a single durable moat."
 provenance:
   extracted: 0.85

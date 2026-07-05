@@ -9,7 +9,7 @@ tags:
   - vector-database
   - evaluation
 sources:
-  - "https://www.youtube.com/watch?v=-tgQa8Fzf80"
+  - "[[sources/watchv=-tgqa8fzf80]]"
 summary: "AI Engineer World's Fair 2025 talk covering HybridRAG architecture that fuses knowledge graph (graph-based) and semantic (vector-based) retrieval for RAG systems, including triplet extraction, ontology design, multi-hop retrieval, graph acceleration, and RAG evaluation."
 provenance:
   extracted: 0.75

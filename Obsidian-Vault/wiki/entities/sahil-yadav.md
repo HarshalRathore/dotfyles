@@ -8,7 +8,7 @@ tags:
   - iot
 aliases: [Sahil Yadav Telemetrak]
 sources:
-  - "AI Engineer World's Fair 2025 - Critical AI Inference your CIO can Trust — Sahil Yadav, Hariharan Ganesan, Telemetrak - https://www.youtube.com/watch?v=6Tpm4m1YxHk"
+  - "[[sources/watchv=6tpm4m1yxhk]]"
 summary: "AI practitioner with 10 years deploying AI across health monitoring, industrial IoT, and telecom network automation. Co-presenter at AI Engineer World's Fair 2025 on trustworthy AI inference."
 provenance:
   extracted: 0.80

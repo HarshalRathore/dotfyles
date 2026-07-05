@@ -9,7 +9,7 @@ tags:
   - quality
 aliases: [CI/CD for agents, agent CI pipeline, agent red teaming, agent observability]
 sources:
-  - "AI Engineer World's Fair 2025 - Spark to System: Building the Open Agentic Web — Asha Sharma, Microsoft - https://www.youtube.com/watch?v=7Hrw6rtXaHc"
+  - "[[sources/watchv=7hrw6rtxahc]]"
 summary: "Integrated evaluation, red teaming, and observability pipeline for agents — evaluated on every update via CI/CD, with continuous monitoring regardless of deployment platform."
 provenance:
   extracted: 0.72
