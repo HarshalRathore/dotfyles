@@ -10,6 +10,7 @@ tags:
 aliases: [advantage-estimation, rl-advantage, forking-process, learning-signal]
 sources:
   - "https://www.youtube.com/watch?v=pbhm2qknu10"
+  - "https://www.youtube.com/watch?v=-9E9_21tx04"
 summary: "The core RL mechanism of identifying which specific decision points in a branching process caused a difference in outcome. Enables surgical learning without changing the model too much overall."
 provenance:
   extracted: 0.75
@@ -20,7 +21,7 @@ lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
-updated: 2026-07-05
+updated: 2026-07-06
 relationships:
   - target: "[[concepts/ppo-vs-grpo-vs-dpo|PPO vs GRPO vs DPO]]"
     type: implements
@@ -61,6 +62,17 @@ The general RL process for advantage estimation involves: ^[extracted]
 
 Whether you are doing PPO, GRPO, or any other RL algorithm, this forking process is the mechanism by which the model learns from the signal of varying outcomes. ^[extracted]
 
+
+## DPO vs. PPO vs. GRPO
+
+Kyle Corbett offered a specific comparison: ^[extracted]
+
+- **DPO** does not necessarily have fine-grained advantage estimation — from a full good completion and a full bad completion, it's not clear where the signal comes from in complex branching processes
+- **PPO** has advantage estimation but is very expensive
+- **GRPO** has taken people by storm as a nice middle ground — more computationally efficient, simple to implement, and still has the forking process from sampling
+
+For most people, the advice is to not get caught up in individual paper details and think holistically about what reinforcement learning is doing.
+
 ## Connection to Manual Agent Tuning
 
 When engineers tune prompts, fiddle with harnesses, and iterate based on eval results, they are doing advantage estimation by hand: ^[extracted]
@@ -79,3 +91,4 @@ Advantage estimation is the mechanism that [[concepts/ppo-vs-grpo-vs-dpo|PPO and
 ## Sources
 
 - AIEF2025 - Training Agentic Reasoners — Will Brown, Prime Intellect - https://www.youtube.com/watch?v=PbHm2qKnu10
+- AI Engineer World's Fair 2025 — Reasoning + RL Track: https://www.youtube.com/watch?v=-9E9_21tx04

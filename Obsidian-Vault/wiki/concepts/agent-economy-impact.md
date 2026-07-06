@@ -1,77 +1,65 @@
 ---
 title: Agent Economy Impact
 category: concepts
-tags:
-- agent-economy
-- business-impact
-- roi
-- productivity
-- ai-agents
-- revenue-impact
-aliases:
-- agents business impact
-- agent ROI
-sources:
-- AIEF2025 - Building Agents (the hard parts!) - Rita Kozlov, Cloudflare - https://www.youtube.com/watch?v=j_TKDweOsYE
-summary: 'Measurable business impact of agent adoption: 28% revenue increases in sales automation, 90% faster support response times, and 50-75% time savings. Early evidence that agents are reshaping how wor...'
-provenance:
-  extracted: 0.9
-  inferred: 0.05
-  ambiguous: 0.05
-base_confidence: 0.7
-lifecycle: draft
-lifecycle_changed: 2026-07-04
-tier: supporting
-created: 2026-07-04
-updated: 2026-07-04
+tags: [productivity, economic-impact, AI-agents, workforce, automation]
+aliases: [agent economy, AI economic impact, productivity boost]
 relationships:
-- target: '[[concepts/agent-adoption-surge]]'
-  type: related_to
-- target: '[[concepts/roi-measurement-challenges]]'
-  type: related_to
-- target: '[[concepts/knowledge-work-automation]]'
-  type: enables
+  - target: '[[concepts/ai-developer-productivity]]'
+    type: extends
+  - target: '[[concepts/iteration-friction]]'
+    type: related_to
+  - target: '[[concepts/10x-generalist-hiring]]'
+    type: related_to
+sources:
+  - https://www.youtube.com/watch?v=4sX_He5c4sI
+summary: AI coding agents deliver 3–5× productivity boosts that dissipate after 3 months due to technical debt — the real gain is safer, more frequent iteration, not raw speed.
+provenance:
+  extracted: 0.80
+  inferred: 0.15
+  ambiguous: 0.05
+base_confidence: 0.55
+lifecycle: draft
+lifecycle_changed: 2026-07-06
+tier: supporting
+created: 2026-07-06T00:00:00Z
+updated: 2026-07-06T00:00:00Z
 ---
 
 # Agent Economy Impact
 
-**Agent economy impact** refers to the measurable business outcomes from adopting AI agents in production workflows. Early evidence from AIEF2025 shows agents are already reshaping how work gets done across multiple business functions.
+AI coding agents deliver an initial **3–5× productivity boost** that **dissipates after 3 months** due to accumulated technical debt. This pattern reveals that the real gain from AI agents is not raw speed but the ability to iterate more safely and frequently. ^[extracted]
 
-## Measured Impact Metrics
+Presented at the AI Engineer World's Fair 2026. ^[extracted]
 
-Rita Kozlov (Cloudflare) at AIEF2025 cited the following early results from businesses adopting agents:
+## The Productivity Paradox
 
-- **28% revenue increases** — Businesses using agents in sales automation see significant revenue uplift.
-- **90% faster response times** — Support teams using AI agents respond 90% faster to customer inquiries.
-- **50–75% time savings** — General productivity gains across the board when using agents.
+| Phase | Productivity | Cause |
+|-------|-------------|-------|
+| Months 1–3 | 3–5× boost | Agents write code faster than humans |
+| Month 3+ | Diminishing returns | Technical debt from agent-generated code |
+| Long-term | ~1× baseline | Debt accumulation cancels speed gains |
 
-These numbers represent early adoption signals — the impact is expected to grow as agents mature and more complex workflows are automated.
+## The Real Value
 
-## From Augmentation to Automation
+The true value of AI agents is not in the initial speed boost but in: ^[inferred]
 
-The agent economy impact represents a shift from the previous phase of AI adoption:
+1. **Faster iteration** — agents enable rapid prototyping and experimentation
+2. **Safer iteration** — agents can write and test code simultaneously
+3. **Reduced iteration friction** — agents collapse the PM→Designer→Dev→QA cycle
 
-1. **Training phase** — Building and training models
-2. **Inference phase** — Using models to generate outputs
-3. **Automation phase** — Agents that execute end-to-end tasks autonomously
+When combined with the **10×–20× productivity** gains from AI agents described by Aurel Zion, the picture is one of agents fundamentally changing the economics of software development — not by making individual steps faster, but by changing the iteration dynamics. ^[extracted]
 
-The automation phase is where the measurable business impact compounds, because agents don't just augment human work — they execute it end-to-end, with human oversight at decision points.
+## Connection to Iteration Friction
 
-## Example: Agentic CRM Workflow
-
-A typical agentic workflow that drives these results:
-
-1. Retrieve customer data (e.g., list of people you spoke to at a conference)
-2. Draft personalized outreach
-3. Human reviews and approves
-4. Send email automatically
-5. Monitor for responses and notify the human
-
-This workflow replaces what was previously a multi-step manual process with an automated pipeline that still respects human judgment at the approval gate.
+The productivity paradox is directly related to **iteration friction**. When agents reduce the cost of iteration, teams can iterate more frequently, which reduces the accumulation of technical debt. ^[inferred]
 
 ## Related
 
-- [[concepts/agent-adoption-surge]] — Rapid adoption of AI agents
-- [[concepts/roi-measurement-challenges]] — Challenges in measuring agent ROI
-- [[concepts/knowledge-work-automation]] — Automating knowledge work with agents
-- [[concepts/assistive-vs-automation-agents]] — Automation agents drive these metrics
+- [[concepts/iteration-friction|Iteration Friction]] — the fundamental cost that AI is reducing
+- [[concepts/10x-generalist-hiring|10x Generalist Hiring]] — the broader 10× productivity theme
+- [[concepts/ai-developer-productivity|AI Developer Productivity]] — how AI changes developer output
+- [[concepts/technical-debt|Technical Debt]] — the reason productivity gains dissipate
+
+## Sources
+
+- AI Engineer World's Fair 2026: https://www.youtube.com/watch?v=4sX_He5c4sI

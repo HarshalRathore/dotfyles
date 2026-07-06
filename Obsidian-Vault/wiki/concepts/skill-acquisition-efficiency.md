@@ -18,7 +18,7 @@ base_confidence: 0.55
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
-updated: 2026-07-03
+updated: 2026-07-06
 category: concepts
 ---
 # Skill Acquisition Efficiency
@@ -55,7 +55,7 @@ The ideal denominator would be **energy consumption**, because the human brain's
 
 ## Related
 
-- [[concepts/interactive-reasoning-benchmarks|Interactive Reasoning Benchmarks]] — Benchmarks designed to measure this metric
+- [[concepts/interactive-reasoning|Interactive Reasoning Benchmarks]] — Benchmarks designed to measure this metric
 - [[concepts/human-baseline-benchmarking|Human Baseline Benchmarking]] — Humans as the efficiency baseline
 - [[concepts/evaluation-first-development|Evaluation-First Development]] — Development methodology centered on evaluation
 - [[concepts/verified-superintelligence|Verified Superintelligence]] — Alternative approach to defining intelligence
@@ -64,3 +64,4 @@ The ideal denominator would be **energy consumption**, because the human brain's
 
 - [[references/measuring-agi-interactive-reasoning-benchmarks-arc-agi-3|Measuring AGI: Interactive Reasoning Benchmarks for ARC-AGI-3 — Greg Kamradt, ARC Prize Foundation]]
 - Francois Chollet, "On the Measure of Intelligence" (2019)
+- AI Engineer World's Fair 2025 — Reasoning + RL Track: https://www.youtube.com/watch?v=-9E9_21tx04

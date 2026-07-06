@@ -12,6 +12,7 @@ summary: A machine learning paradigm where systems learn by interacting with the
 sources:
 - The Bitter Lesson — Rich Sutton - https://www.incompleteideas.net/IncIdeas/BitterLesson.html
 - AIEF2025 - On Engineering AI Systems that Endure The Bitter Lesson - Omar Khattab, DSPy & Databricks - https://www.youtube.com/watch?v=qdmxApz3EJI
+- AI Engineer World's Fair 2025 — Reasoning + RL Track: https://www.youtube.com/watch?v=-9E9_21tx04
 provenance:
   extracted: 0.65
   inferred: 0.3
@@ -21,7 +22,7 @@ lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
-updated: 2026-07-05
+updated: 2026-07-06
 relationships:
 - target: '[[concepts/bitter-lesson|The Bitter Lesson]]'
   type: exemplifies

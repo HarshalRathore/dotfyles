@@ -1,63 +1,71 @@
 ---
 title: Model Progression Framework
 category: concepts
-tags:
-- model-selection
-- fine-tuning
-- prompt-engineering
-- llm
-- strategy
-aliases:
-- model ladder
-- model selection framework
-- prompting to reasoning
+tags: [model-evolution, pre-training, instruction-tuning, reasoning, RLHF]
+aliases: [model progression, language model evolution, LLM training stages]
 relationships:
-- target: '[[concepts/prompting-vs-fine-tuning]]'
-  type: extends
-- target: '[[concepts/supervised-fine-tuning]]'
-  type: related_to
+  - target: '[[concepts/test-time-compute-scaling]]'
+    type: related_to
+  - target: '[[concepts/model-distillation]]'
+    type: related_to
+  - target: '[[concepts/reasoning-models]]'
+    type: related_to
 sources:
-- '[[sources/aief2025-rft]]'
-- '[[sources/dpo]]'
-- '[[sources/sft-fine-tuning-with-openai-—-ilan-bigio]]'
-- 'https://www.youtube.com/watch?v=jfalqqfxqpa'
-summary: 'A decision framework for progressing from simplest to most capable approach: start with prompting, escalate to SFT for domain adaptation, DPO for preference learning, and RFT for reasoning model op...'
+  - https://www.youtube.com/watch?v=4sX_He5c4sI
+summary: The progression of language models from GPT-2 through LSTM days, instruction tuning, chatbot usability, reasoning capability, and finally test-time scaling with RL — a pattern that repeats for each new modality.
 provenance:
-  extracted: 0.7
-  inferred: 0.25
+  extracted: 0.85
+  inferred: 0.10
   ambiguous: 0.05
-base_confidence: 0.65
+base_confidence: 0.55
 lifecycle: draft
+lifecycle_changed: 2026-07-06
 tier: supporting
-created: 2026-07-03 15:05:02+00:00
-updated: 2026-07-03 15:05:02+00:00
+created: 2026-07-06T00:00:00Z
+updated: 2026-07-06T00:00:00Z
 ---
 
 # Model Progression Framework
 
-A decision framework for choosing the right model strategy based on task complexity and performance requirements. The framework progresses from the simplest approach (prompting) to increasingly sophisticated techniques.
+The **model progression framework** describes the typical evolution path of language models (and now other modalities) through distinct capability stages: ^[extracted]
 
-## The Progression Ladder
+| Stage | Description | Example |
+|-------|-------------|---------|
+| 1. Pre-training | Raw text modeling | GPT-2, LSTM days |
+| 2. Instruction tuning | Making the model usable | Chatbot capability |
+| 3. Reasoning | Post-training for reasoning | Test-time scaling, RL |
+| 4. Test-time scaling | Dynamic compute allocation | Thinking models |
 
-1. **Prompting** — Start here. Low barrier to entry, quick iteration, sufficient for most jobs. If prompt engineering gets you to your target quality, stop.
-2. **Supervised Fine-Tuning (SFT)** — Use when prompted reaches its ceiling. Best for simple, constrained tasks with labeled input-output pairs. 100+ samples minimum, 500+ recommended.
-3. **Direct Preference Optimization (DPO)** — Use for subjective quality dimensions (humor, style, taste) where you can define positive and negative examples but not a single correct output.
-4. **Reinforcement Fine-tuning (RFT)** — Use for reasoning-capable models. Requires high-signal data, a solid grader, and is limited to single-turn interactions.
-5. **Distillation** — Use when you need to trade model capability for latency. Distill a larger model's behavior into a smaller, faster model.
+This pattern was described by Shane from Google DeepMind's Omni team. ^[extracted]
 
-## Key Principles
+## The Pattern
 
-- **Always start with prompting** — never jump to fine-tuning without first exhausting prompt engineering ^[extracted]
-- **Run evals at each step** — measure quality objectively before deciding to escalate ^[extracted]
-- **Always start with the biggest model** — begin with the most capable and expensive model that works, then optimize for efficiency afterward ^[extracted]
-- **Context over fine-tuning for knowledge** — inject domain knowledge through context first; fine-tune for later-stage optimization ^[extracted]
+The progression follows a consistent pattern: ^[extracted]
 
-## When to Skip Steps
+1. **Pre-training** — the model learns to predict the next token. At this stage, the model is like GPT-2 — it can generate text but is not usable as a chatbot.
+2. **Instruction tuning** — the model becomes usable as a chatbot. However, at this stage it still has significant hallucinations and the instruction tuning is not good enough for reasoning.
+3. **Reasoning capability** — when pre-training and post-training become good enough for reasoning, test-time scaling in RL takes off. This is when many of the best-performing models emerge.
+4. **Test-time scaling** — the model can dynamically allocate more compute to harder problems.
 
-- If prompting is working well, there's no benefit to fine-tuning
-- If you need domain knowledge rather than behavior changes, use context injection instead of any fine-tuning method
-- For reasoning tasks, skip directly to RFT if you have the infrastructure for it
+## Video Models Follow the Same Pattern
+
+The same progression applies to video models: ^[inferred]
+
+- Video models are at an earlier stage of this progression
+- They are still developing their reasoning capability
+- The pattern suggests video models will follow a similar trajectory
+
+## Connection to VO3
+
+**VO3** (the first joint audio-visual generation model) represents a milestone in this progression — it unified audio and video generation, which were previously separate modalities. ^[extracted]
+
+## Related
+
+- [[concepts/test-time-compute-scaling|Test-Time Compute Scaling]] — the latest stage in model progression
+- [[concepts/reasoning-models|Reasoning Models]] — models with reasoning capability
+- [[concepts/model-distillation|Model Distillation]] — related model improvement approach
+- [[concepts/vo3|VO3]] — the first joint audio-visual generation model
 
 ## Sources
 
-- [[references/rft-dpo-sft-fine-tuning-openai|AIEF2025 - RFT, DPO, SFT: Fine-tuning with OpenAI]] — Ilan Bigio, OpenAI
+- AI Engineer World's Fair 2026: https://www.youtube.com/watch?v=4sX_He5c4sI

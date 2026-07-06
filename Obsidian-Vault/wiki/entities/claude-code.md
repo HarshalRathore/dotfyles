@@ -1,69 +1,39 @@
 ---
 title: Claude Code
-tags:
-- tool
-- ai-coding-agent
-- anthropic
-- claude
-- terminal
-- developer-tools
-- aief2025
-sources:
-- 'https://www.youtube.com/watch?v=lue8k2jqfkk'
-summary: Anthropic's agentic coding tool that provides low-level terminal access to Claude models. Designed to be unopinionated, working across any terminal, IDE, and GitHub repositories.
-provenance:
-  extracted: 0.9
-  inferred: 0.08
-  ambiguous: 0.02
-base_confidence: 0.8
-lifecycle: draft
-tier: supporting
-created: 2026-07-04
-updated: 2026-07-04
 category: entities
+tags: [tool, AI-coding, Anthropic, system-prompt, U-shaped-curve]
+aliases: [claude code, Claude Code]
+relationships:
+  - target: '[[concepts/system-prompt-curve]]'
+    type: demonstrated
+sources:
+  - https://www.youtube.com/watch?v=4sX_He5c4sI
+summary: Anthropic's AI coding agent that demonstrated the U-shaped system prompt curve by removing 80% of its system prompt.
+provenance:
+  extracted: 0.85
+  inferred: 0.10
+  ambiguous: 0.05
+base_confidence: 0.55
+lifecycle: draft
+lifecycle_changed: 2026-07-06
+tier: supporting
+created: 2026-07-06T00:00:00Z
+updated: 2026-07-06T00:00:00Z
 ---
 
 # Claude Code
 
-Claude Code is Anthropic's agentic coding product, created by [[entities/boris-cherny|Boris Cherny]]. It provides direct, low-level access to Claude models for software development tasks, running primarily through the terminal.
+**Claude Code** is Anthropic's AI coding agent that demonstrated the **U-shaped system prompt curve** by removing **80% of its system prompt** — a deliberate reduction tied to newer model capabilities. ^[extracted]
 
-## Design Philosophy
+## System Prompt Reduction
 
-Claude Code follows a **terminal-first, unopinionated** design:
-
-- **Start with the terminal** — intentionally simple, general-purpose interface with low-level model access
-- **Unopinionated** — no flashy UI, no scaffolding, no opinions about what the product should look like
-- **Model company approach** — Anthropic makes models and wants users to experience them; the product gets out of the way
-
-The rationale: Anthropic doesn't know what the right UX is yet, because the model is improving exponentially. By staying minimal, Claude Code can adapt as the model's capabilities evolve. ^[extracted]
-
-## Deployment Modes
-
-| Mode | Description |
-|------|-------------|
-| **Terminal** | Run `claude` in any terminal (iTerm2, WSL, SSH, tmux, VS Code terminal, Cursor terminal). Works anywhere there's a terminal. |
-| **IDE** | Takes over the IDE more — shows diffs as big beautiful IDE diffs, ingests diagnostics from the IDE. Less polished than Cursor/Windsurf but provides raw model access. |
-| **GitHub** | Run Claude in any GitHub repository via the `/install github` command. Runs on user's compute, data stays local. Uses existing tooling stack. |
-
-## Model Support
-
-- Supports Claude Pro plan
-- Supports Claude Max
-- Available at `claude.ai/code` for installation
-- Installable via npm
-
-## Relationship to Competitors
-
-Claude Code intentionally does not compete with products like Cursor or Windsurf on polish. Instead, it provides a raw, low-level experience that lets users experience the model's capabilities directly. Boris Cherny notes he uses Cursor and Windsurf every day — Claude Code fills a different niche. ^[extracted]
+Claude Code's 80% system prompt reduction is not an accident; it's a response to model capability improvements. The newest class of models want fewer, simpler system prompts because they understand context well enough that verbose prompts are unnecessary. ^[extracted]
 
 ## Related
 
-- [[entities/boris-cherny]] — Creator
-- [[entities/anthropic]] — Parent company
-- [[entities/cursor-ai]] — Competing AI coding IDE
-- [[entities/windsurf]] — Competing AI coding IDE
-- [[concepts/agentic-coding]] — The paradigm Claude Code operates in
-- [[concepts/terminal-first-design]] — Claude Code's design approach
-- [[concepts/unopinionated-product-design]] — Product philosophy behind Claude Code
-- [[concepts/evolution-of-programming]] — Historical context for Claude Code's existence
-- [[concepts/agent-loop]] — Claude Code's `/loop` command enables agent loops
+- [[concepts/system-prompt-curve|System Prompt Curve]] — the curve Claude Code demonstrated
+- [[entities/anthropic|Anthropic]] — the company that makes Claude Code
+
+## Sources
+
+- AI Engineer World's Fair 2026: https://www.youtube.com/watch?v=4sX_He5c4sI

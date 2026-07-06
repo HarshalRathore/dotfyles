@@ -14,7 +14,7 @@ base_confidence: 0.75
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-07-06
 relationships:
   - target: "[[entities/aakanksha-chowdhery|Aakanksha Chowdhery]]"
     type: founded_by
@@ -45,3 +45,4 @@ These techniques are grounded in [[concepts/reinforcement-learning-at-scale|rein
 ## Sources
 
 - AIEF2025 - RL for Autonomous Coding — Aakanksha Chowdhery, Reflection.ai - https://www.youtube.com/watch?v=QluDzKVfp6A
+- AI Engineer World's Fair 2025 — Reasoning + RL Track: https://www.youtube.com/watch?v=-9E9_21tx04

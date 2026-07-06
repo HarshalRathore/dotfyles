@@ -50,3 +50,13 @@ The conference covered a broad range of AI engineering topics:
 - Product strategy in the AI era
 - Enterprise AI deployments
 - Developer tooling and productivity
+
+### AI Engineer World's Fair 2026 (WF2026)
+
+The 2026 edition drew 7,000 attendees and featured 18 tracks. Day two was emceed by [[entities/tejas-kumar|Tejas Kumar]] (IBM). Key talks:
+
+- [[references/aief2025-fable-model-field-guide-tariq-shihapar|Tariq Shihapar, Anthropic]] — Fable/Mythos model field guide, capability overhang, system prompt evolution
+- [[references/aief2025-code-verification-acdc-tariq-shawkat|Tariq Shawkat, Sonar]] — ACDC framework for verification-powered agentic loops
+- [[references/aief2025-perception-agents-jabarth|Jabarth, Amazon AGI Lab]] — Perception agents and the verification wall for knowledge work
+
+For details, see [[misc/wf2026]].

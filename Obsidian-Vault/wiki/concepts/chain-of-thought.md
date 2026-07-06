@@ -14,7 +14,7 @@ base_confidence: 0.80
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-07-06
 relationships:
   - target: "[[concepts/emergent-behavior-in-ai|Emergent Behavior in AI]]"
     type: example_of
@@ -32,7 +32,7 @@ relationships:
 
 ## Discovery in PALM
 
-PALM (540B parameters), led by [[entities/aakanksha-chowdhery|Aakanksha Chowdhery]] at Google, demonstrated chain-of-thought in 2021 — four years before it became a mainstream concept. ^[extracted]
+PALM (540B parameters), led by [[entities/akansha-chowdhury|Akansha Chowdhury]] at Google, demonstrated chain-of-thought in 2021 — four years before it became a mainstream concept. ^[extracted]
 
 On math word problems (e.g., tennis ball problems), PALM's initial output looked wrong when not prompted for reasoning. But when asked to show its reasoning chains, the model's answers became correct. ^[extracted]
 
@@ -74,3 +74,4 @@ It is also the precursor to [[concepts/sequential-revision|sequential revision]]
 ## Sources
 
 - AIEF2025 - RL for Autonomous Coding — Aakanksha Chowdhery, Reflection.ai - https://www.youtube.com/watch?v=QluDzKVfp6A
+- AI Engineer World's Fair 2025 — Reasoning + RL Track: https://www.youtube.com/watch?v=-9E9_21tx04

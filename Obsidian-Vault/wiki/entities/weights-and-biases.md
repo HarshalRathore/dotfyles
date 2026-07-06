@@ -1,59 +1,43 @@
 ---
-title: Weights & Biases (W&B)
+title: Weights & Biases
 category: entities
-tags:
-- company
-- ai
-- observability
-- mcp
-- weav
-- aief2025
-aliases:
-- W&B
-- Weights and Biases
-- wandb
-sources:
-- 'https://www.youtube.com/watch?v=lcqat4ip_le'
-provenance:
-  extracted: 0.88
-  inferred: 0.08
-  ambiguous: 0.04
-base_confidence: 0.88
-lifecycle: draft
-lifecycle_changed: 2026-07-04
-tier: supporting
-created: 2026-07-04
-updated: 2026-07-04
+tags: [company, ML-ops, experiment-tracking, ARIA]
+aliases: [weights and biases, wandb]
 relationships:
-- target: '[[entities/weave]]'
-  type: related_to
-- target: '[[concepts/open-telemetry]]'
-  type: uses
-- target: '[[entities/observable.tools]]'
-  type: related_to
-summary: Weights & Biases (W&B)
+  - target: '[[concepts/aria]]'
+    type: product
+sources:
+  - https://www.youtube.com/watch?v=4sX_He5c4sI
+summary: ML operations platform that launched ARIA, an AI data science companion for experiment tracking and reporting.
+provenance:
+  extracted: 0.85
+  inferred: 0.10
+  ambiguous: 0.05
+base_confidence: 0.55
+lifecycle: draft
+lifecycle_changed: 2026-07-06
+tier: supporting
+created: 2026-07-06T00:00:00Z
+updated: 2026-07-06T00:00:00Z
 ---
 
-# Weights & Biases (W&B)
+# Weights & Biases
 
-**Weights & Biases** (W&B) is an AI development platform known for [[entities/weave|Weave]], its LLM observability and agent development tool. At AI Engineer World's Fair 2025, they announced [[concepts/mcp-observability|MCP]] observability support.
+**Weights & Biases** (W&B) is an ML operations platform that launched **ARIA**, an AI data science companion for experiment tracking and reporting. ^[extracted]
 
-## Weave MCP Support
+## ARIA
 
-W&B announced native [[concepts/model-context-protocol|MCP]] tracing support in Weave. Developers set an `mcp_trace_list` environment variable on client and server to see tool calls and durations. Initially supported only Python-based clients as a bespoke SDK integration. ^[extracted]
+ARIA is described as a custom-tuned AI assistant for W&B users that: ^[extracted]
 
-## OpenTelemetry Integration
+- Helps discover insights in experiments as teams grow
+- Generates markdown reports with embedded plots, charts, and graphics
+- Works with W&B workspaces
+- Uses esoteric panels like the parameter importance chart to find correlations between training parameters
 
-W&B Weave supports [[concepts/open-telemetry|OpenTelemetry]] as an open protocol standard. Traces can be sent to W&B's OTLP endpoint at `1b.aii.otel` with authorization headers and project specification. This enables cross-language tracing — a TypeScript agent can send traces to the same Weave instance as a Python agent. ^[extracted]
+## Related
 
-## Weave MCP Server
-
-Weave includes an [[concepts/model-context-protocol|MCP]] server that allows agents and chats to query and summarize their traces. This enables agents to inspect their own execution data and debug issues autonomously. ^[extracted]
-
-## Observable.tools
-
-Alex Volkov of W&B created [[entities/observable.tools|observable.tools]], a manifesto advocating for vendor-neutral, standardized observability in the [[concepts/model-context-protocol|MCP]] ecosystem. ^[extracted]
+- [[concepts/aria|ARIA]] — the AI assistant launched by W&B
 
 ## Sources
 
-- Video: <https://www.youtube.com/watch?v=Lcqat4iP_lE>
+- AI Engineer World's Fair 2026: https://www.youtube.com/watch?v=4sX_He5c4sI

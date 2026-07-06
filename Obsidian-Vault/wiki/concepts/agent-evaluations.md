@@ -28,7 +28,7 @@ base_confidence: 0.78
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-07-06
 summary: Agent Evaluations
 ---
 
@@ -75,3 +75,4 @@ Evals intersect with [[concepts/agent-guardrails|agent guardrails]] as one of th
 - [[references/aief2025-agents-500b-promise-donald-hruska-retool|AIEF2025 — How agents will unlock the $500B promise of AI]]
 - [[references/aief2025-the-future-of-evals-ankur-goyal-braintrust|The Future of Evals — Ankur Goyal, Braintrust]] — Cloud 4 breakthrough enabling automated agent eval optimization
 - AIEF2025 - Training Agentic Reasoners — Will Brown, Prime Intellect - https://www.youtube.com/watch?v=PbHm2qKnu10
+- AI Engineer World's Fair 2025 — Reasoning + RL Track: https://www.youtube.com/watch?v=-9E9_21tx04

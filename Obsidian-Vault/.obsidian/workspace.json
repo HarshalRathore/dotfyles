@@ -13,29 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/concepts/agent-memory-types.md",
+                "file": "wiki/concepts/auto-research-loop.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "agent-memory-types"
+              "title": "auto-research-loop"
             }
           },
           {
-            "id": "03b2b9894897ea77",
+            "id": "09c61c8ebb161445",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/sources/ralph-ai-coding-technique_ghuntley.md",
+                "file": "wiki/concepts/llm-evaluation-framework.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ralph-ai-coding-technique_ghuntley"
+              "title": "llm-evaluation-framework"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -67,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "agent memory",
+                "query": "index",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -88,8 +89,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -210,34 +210,34 @@
       "karpathywiki:Query wiki": false
     }
   },
-  "active": "00133f35fb983610",
+  "active": "09c61c8ebb161445",
   "lastOpenFiles": [
-    "wiki/concepts/agentic-dials.md",
-    "wiki/concepts/agent-memory.md",
-    "wiki/concepts/pricing-simulation.md",
-    "wiki/sources/ralph-ai-coding-technique_ghuntley.md",
-    "wiki/log.md",
+    "wiki/concepts/llm-as-judge.md",
+    "wiki/concepts/agent-as-judge.md",
+    "wiki/sources/wf2026-autoresearch-keynotes.md",
+    "wiki/concepts/auto-research-loop.md",
+    "log.md",
+    "hot.md",
+    "index.md",
+    "entities/peter-steinberger.md",
     "wiki/index.md",
-    "wiki/concepts/10x-generalist-hiring.md",
-    "wiki/hot.md",
-    "wiki/concepts/rag-grounding.md",
-    "wiki/entities/tavily.md",
-    "wiki/concepts/dynamic-eval-sets.md",
-    "wiki/references/aief2025-evaluating-ai-search-quotient-ai-tavily.md",
-    "wiki/references/aief2025-forget-rag-pipelines-nina-lopatina-rajiv-shah-contextual.md",
-    "wiki/references/aief2025-from-vibe-coding-to-vibe-engineering-kitze-sizzy.md",
-    "wiki/references/aief2025-architecting-agent-memory-richmond-alake-mongodb.md",
-    "wiki/references/aief2025-agents-500b-promise-donald-hruska-retool.md",
-    "wiki/references/ai-eng-worlds-fair-2025-llm-evals-strategies-taylor-jordan-smith.md",
-    "wiki/references/aief2025-2025-in-llms-simon-willison.md",
-    "wiki/misc/web-github-com-aidenybai-react-scan.md",
-    "wiki/misc/web-youtube-com-watch-v-qfhioco-ko.md",
-    "wiki/misc/web-posthog-com-newsletter-loops.md",
-    "wiki/misc/web-github-com-karpathy-autoresearch.md",
-    "wiki/misc/web-gist-githubusercontent-com-karpathy-442a6bf5.md",
-    "wiki/references/ai-eng-worlds-fair-2025-talk-practical-tactics-reliable-ai.md",
-    "wiki/schema/suggestions.md",
-    "wiki/schema/config.md",
+    "wiki/concepts/Karpathy-AutoResearch.md",
+    "wiki/sources/autoresearch.md",
+    "wiki/concepts/autonomous-driving.md",
+    "wiki/entities/andrej-karpathy.md",
+    "wiki/concepts/auto-improving-agent-loop.md",
+    "wiki/concepts/eval-orchestration-parallelism.md",
+    "wiki/concepts/ai-chemistry.md",
+    "wiki/entities/fei-fei-fei.md",
+    "wiki/entities/david-silver.md",
+    "wiki/entities/jitendra-malik.md",
+    "wiki/entities/aj.md",
+    "wiki/entities/amol.md",
+    "wiki/concepts/self-supervised-learning.md",
+    "wiki/concepts/optimize-anything.md",
+    "wiki/concepts/decisions-ledger.md",
+    "wiki/concepts/vo3.md",
+    "wiki/concepts/life-leaderboard.md",
     "wiki/sedUkafDv",
     "wiki/sedRrx8qD",
     "wiki/sedsWQ8vP",

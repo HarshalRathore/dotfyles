@@ -41,6 +41,17 @@ Updated: 2026-07-05T04:32:00.506586+00:00
 - [[entities/codex]] - Codex CLI
 - [[references/aief2025-layering-every-technique-in-rag-david-karam]] - AIEF2025 - Layering every technique in RAG, one query at a time — David Karam, Pi Labs
 - [[concepts/quality-engineering-loop]] - Quality Engineering Loop
+- [[entities/tariq-shihapar]] - Tariq Shihapar (Anthropic)
+- [[entities/tariq-shawkat]] - Tariq Shawkat (Sonar)
+- [[entities/jabarth]] - Jabarth (Amazon AGI Lab)
+- [[misc/wf2026]] - WF2026 (AI Engineer World's Fair 2026)
+- [[references/aief2025-fable-model-field-guide-tariq-shihapar]] - Fable Model Field Guide — Tariq Shihapar
+- [[references/aief2025-code-verification-acdc-tariq-shawkat]] - Code Verification with ACDC — Tariq Shawkat
+- [[references/aief2025-perception-agents-jabarth]] - Perception Agents — Jabarth
+- [[concepts/capability-overhang]] - Capability Overhang
+- [[concepts/perception-agents]] - Perception Agents
+- [[concepts/agent-centric-development-cycle]] - Agent-Centric Development Cycle
+- [[concepts/mythos-models]] - Mythos Models
 - [[concepts/complexity-adjusted-impact]] - Complexity-Adjusted Impact
 - [[references/aief2025-gemini-progress-logan-kilpatrick]] - A year of Gemini progress + what comes next
 - [[concepts/multimodal-models]] - Multimodal Models
@@ -135,4 +146,26 @@ Updated: 2026-07-05T04:32:00.506586+00:00
 
 ## Recent Activity
 
+- 2026-07-06 — Ingested WF2026: Autoresearch & Keynotes transcript into wiki/concepts, wiki/entities, and wiki/sources; added major coverage for ACDC, agency ladder, JEPA, memory harnesses, agent evaluation, and sovereign AI.
 - 2026-07-06 — Autonomous wiki repair: YAML 56, frontmatter 2057, links 1306.
+
+## Active Threads
+
+- **Agent reliability**: ACDC framework (guide→verify→solve) and the verification gap between coding tasks and end-to-end workflows.
+- **Auto-research**: Aden, Nano Chat, Nano GPT Speed Run, valued work per watt, and recursive improvement loops.
+- **JEPA**: Pareto-pool optimization, production use, and the cost/performance claims around AMD NPUs and Databricks.
+- **Evaluation**: Agent Arena, agent-as-judge, structured outputs, and telemetry-driven evaluation pipelines.
+- **Local models**: sovereign AI, M3 Ultra / local-model tradeoffs, and control over the full agent stack.
+- **Multimodal systems**: modality gap, VO3, and the split between understanding and generation.
+
+## Key Takeaways
+
+- Coding is verifiable; end-to-end knowledge workflows are not, so verification must be designed into the loop.
+- Agent identity is best modeled as an append-only log, not just a runtime/tool bundle.
+- Memory harnesses, structured outputs, and evaluation pipelines are core infrastructure, not optional add-ons.
+- Auto-research value comes from the loop itself and from distilling improvements back into the system.
+- Technology progress follows S-curves; local and sovereign AI matter because they restore control over the full workflow.
+
+## Flagged Contradictions
+
+- None identified in this ingest.

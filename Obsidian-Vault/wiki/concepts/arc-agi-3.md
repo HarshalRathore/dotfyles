@@ -22,7 +22,7 @@ category: concepts
 ---
 # ARC-AGI-3
 
-ARC-AGI-3 is the third version of the Abstraction and Reasoning Corpus (ARC) benchmark series, created by [[entities/francois-chollet|Francois Chollet]] and developed by the [[entities/arc-prize-foundation|ARC Prize Foundation]]. Unlike its predecessors, ARC-AGI-3 moves from single-turn grid transformation tasks to interactive game environments where agents must explore open worlds, infer rules, and acquire skills through interaction. ^[extracted]
+ARC-AGI-3 is the third version of the Abstraction and Reasoning Corpus (ARC) benchmark series, created by [[entities/francois-chollet|Francois Chollet]] and developed by the [[entities/ark-prize-foundation|ARC Prize Foundation]]. Unlike its predecessors, ARC-AGI-3 moves from single-turn grid transformation tasks to interactive game environments where agents must explore open worlds, infer rules, and acquire skills through interaction. ^[extracted]
 
 ## How ARC-AGI-3 Differs from ARC-AGI-1/2
 
@@ -58,7 +58,7 @@ The ARC Prize Foundation originally built games in Unity but found it overkill f
 
 ## Related
 
-- [[concepts/interactive-reasoning-benchmarks|Interactive Reasoning Benchmarks]] — The benchmark paradigm ARC-AGI-3 exemplifies
+- [[concepts/interactive-reasoning|Interactive Reasoning Benchmarks]] — The benchmark paradigm ARC-AGI-3 exemplifies
 - [[concepts/skill-acquisition-efficiency|Skill Acquisition Efficiency]] — The primary metric for evaluation
 - [[concepts/human-baseline-benchmarking|Human Baseline Benchmarking]] — Human performance used as the baseline
 - [[concepts/verified-superintelligence|Verified Superintelligence]] — Related approach to AGI measurement

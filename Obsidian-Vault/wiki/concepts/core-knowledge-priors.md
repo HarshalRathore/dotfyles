@@ -48,7 +48,7 @@ The ARC-AGI approach is deliberately different from benchmarks that try to creat
 
 - [[concepts/arc-agi-3|ARC-AGI-3]] — The benchmark using these priors
 - [[concepts/skill-acquisition-efficiency|Skill Acquisition Efficiency]] — The metric these priors help evaluate
-- [[concepts/interactive-reasoning-benchmarks|Interactive Reasoning Benchmarks]] — The paradigm requiring these priors
+- [[concepts/interactive-reasoning|Interactive Reasoning Benchmarks]] — The paradigm requiring these priors
 - [[concepts/human-baseline-benchmarking|Human Baseline Benchmarking]] — Why humans are the reference for evaluating these priors
 
 ## Open Questions

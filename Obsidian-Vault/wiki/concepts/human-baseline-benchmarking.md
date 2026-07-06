@@ -22,7 +22,7 @@ category: concepts
 ---
 # Human Baseline Benchmarking
 
-Human baseline benchmarking is a methodology for measuring AI intelligence that uses humans as the reference point. The approach, advocated by the [[entities/arc-prize-foundation|ARC Prize Foundation]], rests on the premise that humans are "the one proof point of general intelligence that we know about." ^[extracted]
+Human baseline benchmarking is a methodology for measuring AI intelligence that uses humans as the reference point. The approach, advocated by the [[entities/ark-prize-foundation|ARC Prize Foundation]], rests on the premise that humans are "the one proof point of general intelligence that we know about." ^[extracted]
 
 ## Core Principles
 
@@ -47,7 +47,7 @@ Kamradt asserts that as long as researchers can create problems that humans can 
 
 - [[concepts/skill-acquisition-efficiency|Skill Acquisition Efficiency]] — The metric used with human baselines
 - [[concepts/arc-agi-3|ARC-AGI-3]] — The benchmark using this methodology
-- [[concepts/interactive-reasoning-benchmarks|Interactive Reasoning Benchmarks]] — The benchmark paradigm
+- [[concepts/interactive-reasoning|Interactive Reasoning Benchmarks]] — The benchmark paradigm
 - [[concepts/evaluation-first-development|Evaluation-First Development]] — Development methodology aligned with this approach
 
 ## Open Questions

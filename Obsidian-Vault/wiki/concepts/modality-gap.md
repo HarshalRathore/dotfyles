@@ -1,60 +1,66 @@
 ---
 title: Modality Gap
-tags:
-- multimodal
-- embeddings
-- retrieval
-- architecture
+category: concepts
+tags: [multimodal, audio, video, understanding, generation, unified-models]
+aliases: [modality gap, audio-video gap, understanding-generation gap]
+relationships:
+  - target: '[[concepts/vo3]]'
+    type: related_to
+  - target: '[[concepts/multimodal-ai]]'
+    type: extends
+  - target: '[[concepts/omnimodal]]'
+    type: related_to
 sources:
-- 'https://www.youtube.com/watch?v=640kmytxcei'
-summary: A limitation of CLIP-based multimodal embedding models where text and image vectors from separate encoders occupy distinct regions of the embedding space, causing irrelevant items of the same modal...
+  - https://www.youtube.com/watch?v=4sX_He5c4sI
+summary: The gap between understanding and generation of video — machines perceive audio and video as the same modality, but current SOTA models do not unify understanding and generation.
 provenance:
-  extracted: 0.8
-  inferred: 0.15
+  extracted: 0.85
+  inferred: 0.10
   ambiguous: 0.05
 base_confidence: 0.55
 lifecycle: draft
+lifecycle_changed: 2026-07-06
 tier: supporting
-created: 2026-07-03
-updated: 2026-07-03
-category: concepts
+created: 2026-07-06T00:00:00Z
+updated: 2026-07-06T00:00:00Z
 ---
 
 # Modality Gap
 
-A limitation of early multimodal embedding models (notably those based on [[entities/openai|OpenAI's]] CLIP architecture) where text and images are passed through **separate neural encoders** before their embeddings are projected into a shared space. This architectural separation means that text vectors of unrelated content may cluster together in the embedding space, while text and image vectors of the same concept may sit far apart — a phenomenon called the modality gap. ^[extracted]
+The **modality gap** is the disconnect between how machines perceive different modalities and how humans experience them. From a machine's perspective, **audio and video are the same modality** — they see no fundamental difference. However, current SOTA models do not unify understanding and generation across modalities. ^[extracted]
 
-## How It Arises
+This insight was presented by Shane from Google DeepMind's Omni team at the AI Engineer World's Fair 2026. ^[extracted]
 
-CLIP-based architectures use a cross-modal contrastive training objective (align image and text pairs) but maintain separate encoders for each modality:
+## The Technical Reality
 
-- Text encoder → text embedding
-- Image encoder → image embedding
-- A projection layer maps both into a shared space
+On a technical level, there are some differences between audio and video, but they are relatively minor. From the model's perspective, both are sequences of data that can be processed similarly. ^[extracted]
 
-Because the representations are computed independently before alignment, the shared space retains a structural separation by modality — text vectors naturally sit closer to other text vectors, and image vectors to other image vectors, regardless of semantic content. ^[extracted]
+## The Understanding-Generation Gap
 
-## Impact on Retrieval
+The key insight: **understanding and generation of video should be unified but are not at SOTA.** ^[extracted]
 
-For [[concepts/screenshot-based-multimodal-retrieval|multimodal retrieval]], the modality gap means:
+Current models typically:
+- Have separate models for understanding (recognition, classification) and generation (creation, synthesis)
+- Do not share representations between understanding and generation
+- Treat audio and video as separate domains even when they are perceptually similar
 
-- A text query about a chart may retrieve unrelated text chunks before the actual relevant chart image
-- Cross-modal similarity search (text query → image result) has degraded accuracy
-- Mixed-modality documents lose coherence — a page's text and its embedded chart may not embed near each other
+## VO3 as a Milestone
 
-## The VLM-Based Solution
+**VO3** was announced as the first model that did joint audio-visual generation — unifying audio and video in a single generation pipeline. This was described as a significant milestone, though the understanding side remains separate. ^[extracted]
 
-Vision-language model (VLM) architectures solve the modality gap by using a **single shared encoder** for both text and images. Both modalities are vectorized through the same network, producing a unified representation that preserves contextual relationships between text and visual elements. This allows a single screenshot of a document page to be embedded as a coherent whole, rather than treating text and images as separate signals. ^[extracted]
+## Implications
 
-Voyage multimodal 3 is an example of a VLM-based multimodal embedding model that avoids the modality gap. Gemini 2.0 Flash Experimental and GPT-4V are multimodal LLMs that similarly process both modalities through a unified architecture.
+1. **Unified models are coming** — the technical basis for unified understanding+generation exists
+2. **Audio-video are closer than assumed** — the gap between them is smaller than the gap between understanding and generation
+3. **Evaluation is nascent** — media model evaluation is more nascent than text model evaluation, and human judgment still plays a large role
 
 ## Related
 
-- [[concepts/multimodal-agent-architecture|Multimodal Agent Architecture]] — Architecture that depends on VLM-based embeddings
-- [[concepts/screenshot-based-multimodal-retrieval|Screenshot-Based Multimodal Retrieval]] — Retrieval technique enabled by VLM-based models
-- [[concepts/dense-vector-search|Dense Vector Search]] — The search paradigm using these embeddings
-- [[concepts/multi-model-world|Multi-Model World]] — Context of competing model architectures
+- [[concepts/vo3|VO3]] — the first joint audio-visual generation model
+- [[concepts/multimodal-ai|Multimodal AI]] — the broader field of multimodal models
+- [[concepts/omnimodal|Omnimodal]] — the vision of fully unified modalities
+- [[concepts/multimodal-evaluation|Multimodal Evaluation]] — the challenge of evaluating multimodal models
 
 ## Sources
 
-- AI Engineer World's Fair 2025 — Apoorva Joshi, MongoDB: <https://www.youtube.com/watch?v=640KMYtxCeI>
+- AI Engineer World's Fair 2026: https://www.youtube.com/watch?v=4sX_He5c4sI
