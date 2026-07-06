@@ -1,20 +1,29 @@
 ---
 type: entity
-title: "Kubectl"
+title: Kubectl
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/install-kubernetes-components_c70e92]]"
-  - "[[sources/manual-notes_10b5c5]]"
-  - "[[sources/rolling-updates-&-rollbacks_f484ef]]"
-  - "[[sources/replication-controller-&-replicaset_285a2a]]"
-  - "[[sources/kubernetes-autoscaling_59fbf3]]"
+- '[[sources/install-kubernetes-components_c70e92]]'
+- '[[sources/manual-notes_10b5c5]]'
+- '[[sources/rolling-updates-&-rollbacks_f484ef]]'
+- '[[sources/replication-controller-&-replicaset_285a2a]]'
+- '[[sources/kubernetes-autoscaling_59fbf3]]'
 tags:
-  - product
+- product
 aliases:
-  - kubectl CLI
+- kubectl CLI
+category: entities
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Kubectl
 ---
 ## Related Entities
 - kubernetes
@@ -25,7 +34,7 @@ aliases:
 - ReplicaSet
 
 ## Related Concepts
-- [[kubernetes-api-server]]
+- [[concepts/kubernetes-api-server]]
 - [[concepts/control-plane-node]]
 - [[concepts/bootstrapping]]
 - [[concepts/replicasets]]

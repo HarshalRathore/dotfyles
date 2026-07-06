@@ -1,22 +1,29 @@
 ---
-summary: "This source explains the concept of **[[concepts/init-container]]** within the [[entities/pods]] lifecycle in [[entities/kubernetes]]. Unlike regular containers i..."
+summary: This source explains the concept of **[[concepts/init-container]]** within the [[entities/pods]] lifecycle in [[entities/kubernetes]]. Unlike regular containers i...
 type: source
-title: "InitContainers - Summary"
-created: "2026-06-30"
-updated: "2026-06-30"
+title: InitContainers - Summary
+created: '2026-06-30'
+updated: '2026-06-30'
 lifecycle: draft
 base_confidence: 0.7
-source_file: ""
+source_file: ''
 tags:
-  - "init-container"
-  - "multi-container pod"
-  - pods
-  - "deployment-strategies"
+- init-container
+- multi-container pod
+- pods
+- deployment-strategies
 aliases:
-  - InitContainers Overview
-  - Kubernetes Init Containers
-contentHash: "a60-5318825c"
-generation_complete: True
+- InitContainers Overview
+- Kubernetes Init Containers
+contentHash: a60-5318825c
+generation_complete: true
+category: sources
+sources: []
+tier: supporting
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
 ---
 # InitContainers - Summary
 

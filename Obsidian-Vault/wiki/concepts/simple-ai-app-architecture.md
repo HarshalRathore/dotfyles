@@ -2,9 +2,11 @@
 title: "Simple AI App Architecture"
 category: concepts
 tags: [concept, ai-architecture, simplicity, api-pattern, aief2025]
-summary: The minimal four-step architecture for AI applications: user input → single AI model call → store result → show to user. Simplicity enables rapid iteration and fast validation.
+summary: >-
+  The minimal four-step architecture for AI applications: user input → single AI model call → store result → show to user. Simplicity enables rapid iteration and fast validation.
 sources: ["AIEF2025 - Using OSS models to build AI apps with millions of users — Hassan El Mghari - https://www.youtube.com/watch?v=gcseUQJ6Gbg"]
-provenance: { extracted: 0.85, inferred: 0.15, ambiguous: 0.0 }
+provenance: >-
+  { extracted: 0.85, inferred: 0.15, ambiguous: 0.0 }
 base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-04
@@ -46,5 +48,5 @@ This pattern is the starting point, not the ceiling. Once an idea is validated, 
 
 ## Related Patterns
 
-- [[AI Integration Patterns|ai-integration-patterns]] — Framework for thinking about how to add AI to products
-- [[AI Product Fit|ai-product-fit]] — Matching AI capabilities to user needs
+- [[concepts/ai-integration-patterns|ai-integration-patterns]] — Framework for thinking about how to add AI to products
+- [[concepts/ai-product-fit|ai-product-fit]] — Matching AI capabilities to user needs

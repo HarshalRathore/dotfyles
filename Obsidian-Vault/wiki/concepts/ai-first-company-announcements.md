@@ -11,7 +11,7 @@ relationships:
   - target: "[[concepts/ai-team-anatomy]]"
     type: related_to
 sources:
-  - "[[sources/watchv=sbuxrluvrwk]]"
+  - "https://www.youtube.com/watch?v=sbuxrluvrwk"
 summary: "The trend of companies announcing 'AI-first' status — Shopify, Duolingo, Zapier — and the new expectation that AI capability must precede human hiring."
 provenance:
   extracted: 0.95

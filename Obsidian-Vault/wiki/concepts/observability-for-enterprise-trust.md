@@ -1,20 +1,20 @@
 ---
-title: "Observability for Enterprise Trust"
+title: Observability for Enterprise Trust
 category: concepts
 tags:
-  - observability
-  - enterprise-ai
-  - evals
-  - langsmith
-  - trust
-  - ciso
-  - governance
+- observability
+- enterprise-ai
+- evals
+- langsmith
+- trust
+- ciso
+- governance
 sources:
-  - "AIEF2025 - 3 ingredients for building reliable enterprise agents - Harrison Chase, LangChain/LangGraph - https://www.youtube.com/watch?v=kTnfJszFxCg"
-  - "AIEF2025 - Engineering Better Evals: Scalable LLM Evaluation Pipelines That Work — Dat Ngo, Aman Khan, Arize - https://www.youtube.com/watch?v=spvXj9tnWAQ"
-summary: "The role of observability and evals in building trust with enterprise stakeholders — not just for developer debugging, but for communicating agent performance, reducing perceived risk, and accelerating production approval."
+- AIEF2025 - 3 ingredients for building reliable enterprise agents - Harrison Chase, LangChain/LangGraph - https://www.youtube.com/watch?v=kTnfJszFxCg
+- 'AIEF2025 - Engineering Better Evals: Scalable LLM Evaluation Pipelines That Work — Dat Ngo, Aman Khan, Arize - https://www.youtube.com/watch?v=spvXj9tnWAQ'
+summary: The role of observability and evals in building trust with enterprise stakeholders — not just for developer debugging, but for communicating agent performance, reducing perceived risk, and accelera...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -24,14 +24,14 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/agent-reliability-challenge]]"
-    type: addresses
-  - target: "[[concepts/ciso-approval]]"
-    type: facilitates
-  - target: "[[concepts/enterprise-agent-adoption-equation]]"
-    type: increases
-  - target: "[[concepts/evals-are-not-unit-tests]]"
-    type: related_to
+- target: '[[concepts/agent-reliability-challenge]]'
+  type: addresses
+- target: '[[concepts/ciso-approval]]'
+  type: facilitates
+- target: '[[concepts/enterprise-agent-adoption-equation]]'
+  type: increases
+- target: '[[concepts/evals-are-not-unit-tests]]'
+  type: related_to
 ---
 
 # Observability for Enterprise Trust

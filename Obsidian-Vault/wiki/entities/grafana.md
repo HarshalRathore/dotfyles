@@ -1,24 +1,30 @@
 ---
 title: Grafana
-tags: [company, observability, visualization, dashboards, metrics]
+tags:
+- company
+- observability
+- visualization
+- dashboards
+- metrics
 sources:
-  - "[[sources/watchv=l6_nigiexzq]]"
-summary: Open-source observability and visualization platform. Mentioned by Anish Agarwal as one of the major dashboard tools engineers must sift through during dashboard dumpster diving during production incidents.
+- 'https://www.youtube.com/watch?v=l6_nigiexzq'
+summary: Open-source observability and visualization platform. Mentioned by Anish Agarwal as one of the major dashboard tools engineers must sift through during dashboard dumpster diving during production i...
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/dashboard-dumpster-diving]]"
-    type: related_to
-  - target: "[[concepts/production-troubleshooting]]"
-    type: related_to
+- target: '[[concepts/dashboard-dumpster-diving]]'
+  type: related_to
+- target: '[[concepts/production-troubleshooting]]'
+  type: related_to
+category: entities
 ---
 
 # Grafana

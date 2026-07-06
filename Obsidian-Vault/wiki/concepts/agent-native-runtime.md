@@ -1,31 +1,35 @@
 ---
-title: "Agent-Native Runtime"
+title: Agent-Native Runtime
 category: concepts
 tags:
-  - agent-native
-  - runtime
-  - sandboxes
-  - agent-environment
-  - aief2025
-aliases: [agent-native runtime, agent computing environment, agent sandbox]
+- agent-native
+- runtime
+- sandboxes
+- agent-environment
+- aief2025
+aliases:
+- agent-native runtime
+- agent computing environment
+- agent sandbox
 sources:
-  - "AIEF2025 - AX is the only Experience that Matters - Ivan Burazin, Daytona - https://www.youtube.com/watch?v=e9sLVMN76qU"
-  - "AIEF2025 - Ship Production Software in Minutes, Not Months — Eno Reyes, Factory - https://www.youtube.com/watch?v=iheWKg2Tkrk"
+- AIEF2025 - AX is the only Experience that Matters - Ivan Burazin, Daytona - https://www.youtube.com/watch?v=e9sLVMN76qU
+- AIEF2025 - Ship Production Software in Minutes, Not Months — Eno Reyes, Factory - https://www.youtube.com/watch?v=iheWKg2Tkrk
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/agent-experience]]"
-    type: implements
-  - target: "[[concepts/agent-autonomy]]"
-    type: enables
+- target: '[[concepts/agent-experience]]'
+  type: implements
+- target: '[[concepts/agent-autonomy]]'
+  type: enables
+summary: Agent-Native Runtime
 ---
 
 # Agent-Native Runtime

@@ -1,33 +1,34 @@
 ---
-title: "Compounding Engineering"
+title: Compounding Engineering
 category: concepts
 tags:
-  - engineering-methodology
-  - ai-native
-  - knowledge-management
-  - aief2025
+- engineering-methodology
+- ai-native
+- knowledge-management
+- aief2025
 aliases:
-  - compounding engineering
-summary: "Engineering methodology where each feature makes the next easier, using plan-delegate-assess-codify loop to capture tacit knowledge."
+- compounding engineering
+summary: Engineering methodology where each feature makes the next easier, using plan-delegate-assess-codify loop to capture tacit knowledge.
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/agent-workflow-loop|Agent Workflow Loop]]"
-    type: implements
-  - target: "[[concepts/tacit-knowledge-codification|Tacit Knowledge Codification]]"
-    type: extends
-  - target: "[[concepts/ai-native-company|AI-Native Company]]"
-    type: related_to
-  - target: "[[concepts/demo-culture|Demo Culture]]"
-    type: related_to
+- target: '[[concepts/agent-workflow-loop|Agent Workflow Loop]]'
+  type: implements
+- target: '[[concepts/tacit-knowledge-codification|Tacit Knowledge Codification]]'
+  type: extends
+- target: '[[concepts/ai-native-company|AI-Native Company]]'
+  type: related_to
+- target: '[[concepts/demo-culture|Demo Culture]]'
+  type: related_to
+sources: []
 ---
 
 # Compounding Engineering

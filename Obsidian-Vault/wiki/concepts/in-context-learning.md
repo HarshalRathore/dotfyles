@@ -1,20 +1,20 @@
 ---
-title: "In-Context Learning"
+title: In-Context Learning
 category: concepts
 tags:
-  - in-context-learning
-  - icl
-  - few-shot
-  - llm
-  - cold-start
+- in-context-learning
+- icl
+- few-shot
+- llm
+- cold-start
 aliases:
-  - in-context learning
-  - ICL
-  - few-shot learning
+- in-context learning
+- ICL
+- few-shot learning
 sources:
-  - "[[sources/watchv=u0s6cfzay5c]]"
+- 'https://www.youtube.com/watch?v=u0s6cfzay5c'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.72
@@ -23,10 +23,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/360brew]]"
-    type: used_by
-  - target: "[[concepts/cold-start-recommendation]]"
-    type: related_to
+- target: '[[concepts/360brew]]'
+  type: used_by
+- target: '[[concepts/cold-start-recommendation]]'
+  type: related_to
+summary: In-Context Learning
 ---
 # In-Context Learning
 

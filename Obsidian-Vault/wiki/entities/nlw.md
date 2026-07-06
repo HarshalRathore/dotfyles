@@ -1,30 +1,31 @@
 ---
-title: "NLW"
+title: NLW
 category: entities
 tags:
-  - person
-  - ceo
-  - ai-consulting
-  - podcast-host
+- person
+- ceo
+- ai-consulting
+- podcast-host
 aliases:
-  - NLW
+- NLW
 sources:
-  - "AIEF2025 - AI Consulting in Practice – NLW, Superintelligent, @AIDailyBrief - https://www.youtube.com/watch?v=ehQFj6VmuI8"
+- AIEF2025 - AI Consulting in Practice – NLW, Superintelligent, @AIDailyBrief - https://www.youtube.com/watch?v=ehQFj6VmuI8
 provenance:
   extracted: 0.95
   inferred: 0.03
   ambiguous: 0.02
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/superintelligent|Superintelligent]]"
-    type: leads
-  - target: "[[entities/ai-daily-brief|AI Daily Brief]]"
-    type: hosts
+- target: '[[entities/superintelligent|Superintelligent]]'
+  type: leads
+- target: '[[entities/ai-daily-brief|AI Daily Brief]]'
+  type: hosts
+summary: NLW
 ---
 
 # NLW

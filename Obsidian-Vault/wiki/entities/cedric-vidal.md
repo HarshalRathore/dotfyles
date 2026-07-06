@@ -1,18 +1,20 @@
 ---
-title: "Cedric Vidal"
+title: Cedric Vidal
 category: entities
 tags:
-  - person
-  - microsoft
-  - principal-advocate
-  - evaluation
-  - azure-ai
-  - aief2025
-aliases: [Cedric, cedric-vidal-microsoft]
+- person
+- microsoft
+- principal-advocate
+- evaluation
+- azure-ai
+- aief2025
+aliases:
+- Cedric
+- cedric-vidal-microsoft
 sources:
-  - "[[sources/watchv=j4vpq2i0qze]]"
+- 'https://www.youtube.com/watch?v=j4vpq2i0qze'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -20,6 +22,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Cedric Vidal
 ---
 
 # Cedric Vidal

@@ -11,7 +11,8 @@ tags:
   - galileo
 sources:
   - "AIEF2025 - Taming Rogue AI Agents with Observability-Driven Evaluation — Jim Bennett, Galileo - https://www.youtube.com/watch?v=xJXm4Wcw4m8"
-summary: Jim Bennett (Galileo) presents observability-driven evaluation for AI agents: per-span metrics, LLMs evaluating LLMs, and day-one eval integration.
+summary: >-
+  Jim Bennett (Galileo) presents observability-driven evaluation for AI agents: per-span metrics, LLMs evaluating LLMs, and day-one eval integration.
 provenance:
   extracted: 0.85
   inferred: 0.10

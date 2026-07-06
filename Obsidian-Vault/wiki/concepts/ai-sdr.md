@@ -1,31 +1,32 @@
 ---
-title: "AI SDR"
+title: AI SDR
 category: concepts
 tags:
-  - ai-sdr
-  - sales
-  - automation
-  - email
-  - agents
-  - go-to-market
+- ai-sdr
+- sales
+- automation
+- email
+- agents
+- go-to-market
 summary: An AI Sales Development Representative — an autonomous agent that performs SDR functions (lead sourcing, outreach, meeting booking) at scale, using RAG to personalize communications.
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/alice-ai-sdr]]"
-    type: implements
-  - target: "[[concepts/agentic-rag]]"
-    type: uses
-  - target: "[[concepts/knowledge-base-pattern]]"
-    type: uses
+- target: '[[entities/alice-ai-sdr]]'
+  type: implements
+- target: '[[concepts/agentic-rag]]'
+  type: uses
+- target: '[[concepts/knowledge-base-pattern]]'
+  type: uses
+sources: []
 ---
 
 # AI SDR

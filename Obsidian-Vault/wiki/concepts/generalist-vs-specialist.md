@@ -1,25 +1,35 @@
 ---
-title: "Generalist vs Specialist Hiring"
+title: Generalist vs Specialist Hiring
 category: concepts
-tags: [hiring, ai-team, generalist, specialist, ml-engineering, team-building, aief2025]
-aliases: [generalist hiring, specialist hiring, hiring generalists]
+tags:
+- hiring
+- ai-team
+- generalist
+- specialist
+- ml-engineering
+- team-building
+- aief2025
+aliases:
+- generalist hiring
+- specialist hiring
+- hiring generalists
 relationships:
-  - target: "[[concepts/ai-team-anatomy]]"
-    type: related_to
-  - target: "[[concepts/ai-hiring-trade-offs]]"
-    type: extends
-  - target: "[[concepts/company-type-spectrum]]"
-    type: related_to
-  - target: "[[concepts/player-coach-model|Player-Coach Model]]"
-    type: related_to
-  - target: "[[entities/grant-lee|Grant Lee]]"
-    type: related_to
+- target: '[[concepts/ai-team-anatomy]]'
+  type: related_to
+- target: '[[concepts/ai-hiring-trade-offs]]'
+  type: extends
+- target: '[[concepts/company-type-spectrum]]'
+  type: related_to
+- target: '[[concepts/player-coach-model|Player-Coach Model]]'
+  type: related_to
+- target: '[[entities/grant-lee|Grant Lee]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=sbuxrluvrwk]]"
-  - "AIEF2025 - Rethinking Team Building: how a 30-person Startup serves 50 Million Users — Grant Lee, Gamma - https://www.youtube.com/watch?v=q8zoXAbmJdI"
-summary: "The case for hiring generalist ML engineers over specialists for early AI teams, supported by automation and platform investment. Extended with cross-discipline generalists who span design, coding, and UX research."
+- 'https://www.youtube.com/watch?v=sbuxrluvrwk'
+- 'AIEF2025 - Rethinking Team Building: how a 30-person Startup serves 50 Million Users — Grant Lee, Gamma - https://www.youtube.com/watch?v=q8zoXAbmJdI'
+summary: The case for hiring generalist ML engineers over specialists for early AI teams, supported by automation and platform investment. Extended with cross-discipline generalists who span design, coding,...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75

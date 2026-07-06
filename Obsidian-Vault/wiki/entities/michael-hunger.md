@@ -1,33 +1,34 @@
 ---
-title: "Michael Hunger"
+title: Michael Hunger
 category: entities
 tags:
-  - person
-  - neo4j
-  - graphrag
-  - knowledge-graph
-  - aief2025
+- person
+- neo4j
+- graphrag
+- knowledge-graph
+- aief2025
 aliases:
-  - Michael Hunger Neo4j
-  - MichaelHunger
+- Michael Hunger Neo4j
+- MichaelHunger
 sources:
-  - "AIEF2025 - Practical GraphRAG: Making LLMs smarter with Knowledge Graphs — Michael, Jesus, and Stephen, Neo4j - https://www.youtube.com/watch?v=XNneh6-eyPg"
+- 'AIEF2025 - Practical GraphRAG: Making LLMs smarter with Knowledge Graphs — Michael, Jesus, and Stephen, Neo4j - https://www.youtube.com/watch?v=XNneh6-eyPg'
 provenance:
   extracted: 0.95
   inferred: 0.05
-  ambiguous: 0.00
-base_confidence: 0.90
+  ambiguous: 0.0
+base_confidence: 0.9
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/neo4j|Neo4j]]"
-    type: related_to
-  - target: "[[entities/stephen-shin|Stephen Shin]]"
-    type: related_to
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: related_to
+- target: '[[entities/neo4j|Neo4j]]'
+  type: related_to
+- target: '[[entities/stephen-shin|Stephen Shin]]'
+  type: related_to
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: related_to
+summary: Michael Hunger
 ---
 
 # Michael Hunger

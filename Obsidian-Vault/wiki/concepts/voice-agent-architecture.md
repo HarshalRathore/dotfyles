@@ -1,24 +1,25 @@
 ---
-title: "Voice Agent Architecture"
+title: Voice Agent Architecture
 tags:
-  - agent
-  - ai
-  - voice
-  - architecture
-  - speech
+- agent
+- ai
+- voice
+- architecture
+- speech
 sources:
-  - "[[sources/watchv=-oxiljtjxqu]]"
-  - "[[sources/watchv=1v9zbizkliy]]"
-summary: "Two dominant architectures for voice agents: chained (transcription + LLM + TTS) and speech-to-speech (single model), with trade-offs across latency, cost, accuracy, UX, and integrations."
+- 'https://www.youtube.com/watch?v=-oxiljtjxqu'
+- 'https://www.youtube.com/watch?v=1v9zbizkliy'
+summary: 'Two dominant architectures for voice agents: chained (transcription + LLM + TTS) and speech-to-speech (single model), with trade-offs across latency, cost, accuracy, UX, and integrations.'
 provenance:
   extracted: 0.65
-  inferred: 0.30
+  inferred: 0.3
   ambiguous: 0.05
 base_confidence: 0.42
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Voice Agent Architecture

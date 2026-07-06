@@ -1,18 +1,18 @@
 ---
-title: "AI Agentic Harness"
+title: AI Agentic Harness
 category: concepts
 tags:
-  - agent
-  - harness
-  - checkpointing
-  - memory
-  - windsurf
-  - agentic
-summary: "The agentic harness is the infrastructure layer that enables AI agents to operate autonomously across software engineering workflows — including memory systems, checkpointing, parallel agent execution, and tool integration beyond code generation."
+- agent
+- harness
+- checkpointing
+- memory
+- windsurf
+- agentic
+summary: The agentic harness is the infrastructure layer that enables AI agents to operate autonomously across software engineering workflows — including memory systems, checkpointing, parallel agent execut...
 sources:
-  - "[[sources/watchv=jvunpl5qo8q]]"
+- 'https://www.youtube.com/watch?v=jvunpl5qo8q'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.65

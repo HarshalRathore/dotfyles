@@ -1,27 +1,28 @@
 ---
-title: "Apple"
+title: Apple
 tags:
-  - entity
-  - company
-  - consumer-electronics
-  - privacy
-  - ai
-  - cloud
+- entity
+- company
+- consumer-electronics
+- privacy
+- ai
+- cloud
 aliases:
-  - Apple Inc.
-  - Apple Inc
+- Apple Inc.
+- Apple Inc
 sources:
-  - "[[sources/watchv=ccswz5bjlo8]]"
-summary: "Consumer technology company whose Private Cloud Compute (PCC) architecture set the standard for private AI inference — combining remote attestation, transparency logs, oblivious HTTP, blind signatures, secure enclaves, and hardened OS."
+- 'https://www.youtube.com/watch?v=ccswz5bjlo8'
+summary: Consumer technology company whose Private Cloud Compute (PCC) architecture set the standard for private AI inference — combining remote attestation, transparency logs, oblivious HTTP, blind signatu...
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Apple

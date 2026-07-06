@@ -1,21 +1,33 @@
 ---
-summary: "This source introduces a step-by-step tutorial for building a self-managed [[concepts/kubernetes-cluster]] from scratch on AWS, chosen over [[concepts/managed-kubernetes]]"
+summary: This source introduces a step-by-step tutorial for building a self-managed [[concepts/kubernetes-cluster]] from scratch on AWS, chosen over [[concepts/managed-kubernetes]]
 tags:
-  - VPC
-  - Security Groups
-  - AWS Free Tier
-  - Master Node
-  - Worker Nodes
-  - Kubernetes Cluster
-  - Managed Kubernetes
-  - "Self-Managed Kubernetes"
-  - Infrastructure Provisioning
-  - VPC Basics
+- VPC
+- Security Groups
+- AWS Free Tier
+- Master Node
+- Worker Nodes
+- Kubernetes Cluster
+- Managed Kubernetes
+- Self-Managed Kubernetes
+- Infrastructure Provisioning
+- VPC Basics
 aliases:
-  - "Building a Kubernetes Cluster from Scratch: Introduction"
-  - "Kubernetes Cluster Setup Guide: AWS Introduction"
-contentHash: "auto-fill-mr0vx781"
-generation_complete: True
+- 'Building a Kubernetes Cluster from Scratch: Introduction'
+- 'Kubernetes Cluster Setup Guide: AWS Introduction'
+contentHash: auto-fill-mr0vx781
+generation_complete: true
+title: '🚀 Setting the Stage: Why Build Your Own Kubernetes Cluster? - Summary'
+category: sources
+sources: []
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+created: '2026-07-02T13:38:25.558466+00:00'
+updated: '2026-07-02T13:38:25.558466+00:00'
 ---
 source_file: ""
 tags: [VPC, Security Groups, AWS Free Tier, Master Node, Worker Nodes, Kubernetes Cluster, Managed Kubernetes, Self-Managed Kubernetes, Infrastructure Provisioning, VPC Basics]

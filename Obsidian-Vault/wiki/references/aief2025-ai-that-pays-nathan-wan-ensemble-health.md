@@ -12,7 +12,7 @@ tags:
   - prior-auth
 summary: "Nathan Wan (Head of AI, Ensemble Health) at AIEF2025 on AI's opportunity in healthcare revenue cycle — claim denials, prior auth, and reducing administrative friction."
 sources:
-  - "[[sources/watchv=tquusn1qsws]]"
+  - "https://www.youtube.com/watch?v=tquusn1qsws"
 provenance:
   extracted: 0.85
   inferred: 0.15

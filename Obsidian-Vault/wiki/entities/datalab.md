@@ -1,30 +1,30 @@
 ---
-title: "Datalab"
+title: Datalab
 category: entities
 tags:
-  - company
-  - ai
-  - document-intelligence
-  - open-source
-  - aief2025
+- company
+- ai
+- document-intelligence
+- open-source
+- aief2025
 aliases:
-  - DataLab
+- DataLab
 relationships:
-  - target: "[[entities/vik-paruchuri|Vik Paruchuri]]"
-    type: implements
-  - target: "[[entities/marker|Marker]]"
-    type: implements
-  - target: "[[entities/surya|Surya OCR]]"
-    type: implements
-  - target: "[[concepts/small-ai-teams|Small AI Teams with Huge Impact]]"
-    type: related_to
+- target: '[[entities/vik-paruchuri|Vik Paruchuri]]'
+  type: implements
+- target: '[[entities/marker|Marker]]'
+  type: implements
+- target: '[[entities/surya|Surya OCR]]'
+  type: implements
+- target: '[[concepts/small-ai-teams|Small AI Teams with Huge Impact]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=k-iykdmfkhe]]"
-summary: "AI document intelligence company founded by Vik Paruchuri. Seven-figure ARR with 4-person team. Built open-source tools Marker and Surya OCR. Customers include tier-one AI labs, universities, Fortune 500, and Gamma."
+- 'https://www.youtube.com/watch?v=k-iykdmfkhe'
+summary: AI document intelligence company founded by Vik Paruchuri. Seven-figure ARR with 4-person team. Built open-source tools Marker and Surya OCR. Customers include tier-one AI labs, universities, Fortu...
 provenance:
   extracted: 0.95
   inferred: 0.05
-  ambiguous: 0.00
+  ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-04

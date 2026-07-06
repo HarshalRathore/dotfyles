@@ -1,38 +1,39 @@
 ---
-title: "Compute Allocation"
+title: Compute Allocation
 category: concepts
 tags:
-  - compute
-  - allocation
-  - resource-management
-  - ai-infrastructure
-  - smart-allocation
-  - aief2025
+- compute
+- allocation
+- resource-management
+- ai-infrastructure
+- smart-allocation
+- aief2025
 aliases:
-  - compute allocation
-  - smart compute allocation
-  - resource allocation
+- compute allocation
+- smart compute allocation
+- resource allocation
 sources:
-  - "[[sources/watchv=m6vbaig1tsm]]"
+- 'https://www.youtube.com/watch?v=m6vbaig1tsm'
 provenance:
   extracted: 0.85
   inferred: 0.15
-  ambiguous: 0.00
-base_confidence: 0.80
+  ambiguous: 0.0
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/gpu-marketplace|GPU Marketplace]]"
-    type: related_to
-  - target: "[[concepts/gpu-utilization|GPU Utilization]]"
-    type: related_to
-  - target: "[[concepts/gpu-commoditization|GPU Commoditization]]"
-    type: related_to
-  - target: "[[concepts/compute-scaling-laws|Compute Scaling Laws]]"
-    type: related_to
+- target: '[[concepts/gpu-marketplace|GPU Marketplace]]'
+  type: related_to
+- target: '[[concepts/gpu-utilization|GPU Utilization]]'
+  type: related_to
+- target: '[[concepts/gpu-commoditization|GPU Commoditization]]'
+  type: related_to
+- target: '[[concepts/compute-scaling-laws|Compute Scaling Laws]]'
+  type: related_to
+summary: Compute Allocation
 ---
 
 # Compute Allocation

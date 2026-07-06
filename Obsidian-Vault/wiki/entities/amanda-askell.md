@@ -1,15 +1,15 @@
 ---
-title: "Amanda Askell"
+title: Amanda Askell
 tags:
-  - person
-  - anthropic
-  - ai
-  - character-design
+- person
+- anthropic
+- ai
+- character-design
 sources:
-  - "[[sources/watchv=cimvknx-cni]]"
-summary: "AI researcher at Anthropic known for leading the character design of Claude. Her approach to building Claude's personality — designing character over controlling outputs — influenced the character coach approach to AI agent design."
+- 'https://www.youtube.com/watch?v=cimvknx-cni'
+summary: AI researcher at Anthropic known for leading the character design of Claude. Her approach to building Claude's personality — designing character over controlling outputs — influenced the character...
 provenance:
-  extracted: 0.60
+  extracted: 0.6
   inferred: 0.35
   ambiguous: 0.05
 base_confidence: 0.45
@@ -17,6 +17,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Amanda Askell

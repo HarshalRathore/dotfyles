@@ -1,22 +1,22 @@
 ---
-title: "Windsurf everywhere, doing everything, all at once"
+title: Windsurf everywhere, doing everything, all at once
 category: references
 tags:
-  - aief2025
-  - windsurf
-  - coding-agent
-  - software-engineering
-  - agent-harness
-  - fine-tuning
-  - model-context-protocol
-summary: "Kevin Hou, lead product at Windsurf, presents Windsurf's vision of ubiquitous AI in software engineering — a shared timeline between human and AI, the SweeOne model trained for workflows not just code, and the data flywheel connecting product usage to model improvement."
+- aief2025
+- windsurf
+- coding-agent
+- software-engineering
+- agent-harness
+- fine-tuning
+- model-context-protocol
+summary: Kevin Hou, lead product at Windsurf, presents Windsurf's vision of ubiquitous AI in software engineering — a shared timeline between human and AI, the SweeOne model trained for workflows not just c...
 sources:
-  - "[[sources/watchv=jvunpl5qo8q]]"
+- 'https://www.youtube.com/watch?v=jvunpl5qo8q'
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting

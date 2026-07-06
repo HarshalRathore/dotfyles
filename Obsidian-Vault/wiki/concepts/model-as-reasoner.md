@@ -1,17 +1,20 @@
 ---
-title: "Model as Reasoner"
+title: Model as Reasoner
 tags:
-  - ai-agents
-  - llm-capability
-  - reasoning
-  - scaffolding
-  - agent-design
-aliases: [model reasoning, LLM as reasoner, trusting the model]
+- ai-agents
+- llm-capability
+- reasoning
+- scaffolding
+- agent-design
+aliases:
+- model reasoning
+- LLM as reasoner
+- trusting the model
 sources:
-  - "[[sources/watchv=q3nreeadkmc]]"
-summary: "Delegating reasoning, planning, and task decomposition to the LLM rather than encoding them in system prompts or orchestration logic."
+- 'https://www.youtube.com/watch?v=q3nreeadkmc'
+summary: Delegating reasoning, planning, and task decomposition to the LLM rather than encoding them in system prompts or orchestration logic.
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.75
@@ -20,12 +23,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/minimal-scaffolding-ai-agents|Minimal Scaffolding for AI Agents]]"
-    type: extends
-  - target: "[[concepts/reasoning-models|Reasoning Models]]"
-    type: related_to
-  - target: "[[concepts/vibe-coding|Vibe Coding]]"
-    type: related_to
+- target: '[[concepts/minimal-scaffolding-ai-agents|Minimal Scaffolding for AI Agents]]'
+  type: extends
+- target: '[[concepts/reasoning-models|Reasoning Models]]'
+  type: related_to
+- target: '[[concepts/vibe-coding|Vibe Coding]]'
+  type: related_to
+category: concepts
 ---
 
 # Model as Reasoner

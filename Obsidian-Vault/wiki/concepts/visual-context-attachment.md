@@ -1,16 +1,16 @@
 ---
-title: "Visual Context Attachment in AI Coding"
+title: Visual Context Attachment in AI Coding
 category: concepts
 tags:
-  - github-copilot
-  - vscode
-  - visual-editing
-  - vibe-coding
-  - ui
+- github-copilot
+- vscode
+- visual-editing
+- vibe-coding
+- ui
 sources:
-  - "[[sources/watchv=eafp8pds7h4]]"
+- 'https://www.youtube.com/watch?v=eafp8pds7h4'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.55
@@ -18,6 +18,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Visual Context Attachment in AI Coding
 ---
 
 # Visual Context Attachment in AI Coding

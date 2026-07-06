@@ -1,29 +1,34 @@
 ---
-title: "Model Spot-Checking"
+title: Model Spot-Checking
 category: concepts
 tags:
-  - evaluation
-  - model-comparison
-  - spot-checking
-  - manual-evals
-  - baseline-quality
-aliases: [model spot check, model comparison, manual model eval, cherry-pick eval]
+- evaluation
+- model-comparison
+- spot-checking
+- manual-evals
+- baseline-quality
+aliases:
+- model spot check
+- model comparison
+- manual model eval
+- cherry-pick eval
 relationships:
-  - target: "[[concepts/manual-vs-automated-evals]]"
-    type: implements
-  - target: "[[concepts/azure-ai-evaluation-sdk]]"
-    type: related_to
+- target: '[[concepts/manual-vs-automated-evals]]'
+  type: implements
+- target: '[[concepts/azure-ai-evaluation-sdk]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=j4vpq2i0qze]]"
+- 'https://www.youtube.com/watch?v=j4vpq2i0qze'
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Model Spot-Checking
 ---
 
 # Model Spot-Checking

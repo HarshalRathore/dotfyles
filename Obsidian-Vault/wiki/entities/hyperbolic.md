@@ -1,20 +1,20 @@
 ---
-title: "Hyperbolic"
+title: Hyperbolic
 category: entities
 tags:
-  - company
-  - gpu
-  - marketplace
-  - ai-infrastructure
-  - aief2025
+- company
+- gpu
+- marketplace
+- ai-infrastructure
+- aief2025
 aliases:
-  - Hyperbolic AI
+- Hyperbolic AI
 sources:
-  - "[[sources/watchv=m6vbaig1tsm]]"
+- 'https://www.youtube.com/watch?v=m6vbaig1tsm'
 provenance:
-  extracted: 0.90
-  inferred: 0.10
-  ambiguous: 0.00
+  extracted: 0.9
+  inferred: 0.1
+  ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-04
@@ -22,12 +22,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/hyperdos|HyperDOS]]"
-    type: implements
-  - target: "[[concepts/gpu-marketplace|GPU Marketplace]]"
-    type: implements
-  - target: "[[concepts/gpu-commoditization|GPU Commoditization]]"
-    type: related_to
+- target: '[[entities/hyperdos|HyperDOS]]'
+  type: implements
+- target: '[[concepts/gpu-marketplace|GPU Marketplace]]'
+  type: implements
+- target: '[[concepts/gpu-commoditization|GPU Commoditization]]'
+  type: related_to
+summary: Hyperbolic
 ---
 
 # Hyperbolic

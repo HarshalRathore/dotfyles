@@ -1,18 +1,18 @@
 ---
-title: "Zero-Shot Learning"
+title: Zero-Shot Learning
 category: concepts
 tags:
-  - zero-shot-learning
-  - zero-shot
-  - llm
-  - generalization
+- zero-shot-learning
+- zero-shot
+- llm
+- generalization
 aliases:
-  - zero-shot learning
-  - zero-shot
+- zero-shot learning
+- zero-shot
 sources:
-  - "[[sources/watchv=u0s6cfzay5c]]"
+- 'https://www.youtube.com/watch?v=u0s6cfzay5c'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -21,10 +21,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/360brew]]"
-    type: used_by
-  - target: "[[concepts/in-context-learning]]"
-    type: related_to
+- target: '[[concepts/360brew]]'
+  type: used_by
+- target: '[[concepts/in-context-learning]]'
+  type: related_to
+summary: Zero-Shot Learning
 ---
 # Zero-Shot Learning
 

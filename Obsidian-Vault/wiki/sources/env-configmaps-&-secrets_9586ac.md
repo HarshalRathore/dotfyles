@@ -1,20 +1,32 @@
 ---
-summary: "This source provides a comprehensive guide to managing application configuration and sensitive data within Kubernetes. It details the use of the `env` field to inject "
+summary: 'This source provides a comprehensive guide to managing application configuration and sensitive data within Kubernetes. It details the use of the `env` field to inject '
 tags:
-  - Environment Variables in Pods
-  - Encryption at Rest
-  - EncryptionConfiguration
-  - "AES-CBC"
-  - ConfigMap
-  - Secret
-  - envFrom
-  - "Volume-mounted files"
+- Environment Variables in Pods
+- Encryption at Rest
+- EncryptionConfiguration
+- AES-CBC
+- ConfigMap
+- Secret
+- envFrom
+- Volume-mounted files
 aliases:
-  - "Kubernetes Config Management: Env"
-  - "ConfigMaps & Secrets"
-  - K8s Configuration and Secrets Summary
-contentHash: "faa-b895240b"
-generation_complete: True
+- 'Kubernetes Config Management: Env'
+- ConfigMaps & Secrets
+- K8s Configuration and Secrets Summary
+contentHash: faa-b895240b
+generation_complete: true
+title: 'Kubernetes Configuration Management: Environment Variables, ConfigMaps, Secrets, and Encryption - Summary'
+category: sources
+sources: []
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+created: '2026-07-02T13:38:25.556024+00:00'
+updated: '2026-07-02T13:38:25.556024+00:00'
 ---
 # Kubernetes Configuration Management: Environment Variables, ConfigMaps, Secrets, and Encryption - Summary
 

@@ -1,16 +1,22 @@
 ---
 title: Cerebral Valley
 category: entities
-tags: [organization, community, bay-area, hackathon, ai]
-aliases: [Cerebral Valley]
+tags:
+- organization
+- community
+- bay-area
+- hackathon
+- ai
+aliases:
+- Cerebral Valley
 sources:
-  - "[[sources/watchv=1zlo9yu2ziu]]"
-summary: "The largest AI community in the world, based in the Bay Area, known for organizing hackathons and events. Partnered with AI Engineer for the first official AI Engineer hackathon at the 2025 World's Fair."
+- 'https://www.youtube.com/watch?v=1zlo9yu2ziu'
+summary: The largest AI community in the world, based in the Bay Area, known for organizing hackathons and events. Partnered with AI Engineer for the first official AI Engineer hackathon at the 2025 World's...
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-03

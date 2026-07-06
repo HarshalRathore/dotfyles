@@ -1,30 +1,32 @@
 ---
-title: "Copilot Instructions"
+title: Copilot Instructions
 tags:
-  - copilot-instructions
-  - team-standards
-  - github
-  - copilot
-  - aief2025
-  - dot-instructions
-summary: ".github/copilot-instructions.md — a shared team artifact that codifies coding standards, build instructions, and repository conventions so AI tools follow them automatically."
+- copilot-instructions
+- team-standards
+- github
+- copilot
+- aief2025
+- dot-instructions
+summary: .github/copilot-instructions.md — a shared team artifact that codifies coding standards, build instructions, and repository conventions so AI tools follow them automatically.
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/dot-instructions-files|Dot Instructions Files]]"
-    type: relates-to
-  - target: "[[entities/github-copilot|GitHub Copilot]]"
-    type: feature-of
-  - target: "[[concepts/code-quality-as-context|Code Quality as Context]]"
-    type: implements
+- target: '[[concepts/dot-instructions-files|Dot Instructions Files]]'
+  type: relates-to
+- target: '[[entities/github-copilot|GitHub Copilot]]'
+  type: feature-of
+- target: '[[concepts/code-quality-as-context|Code Quality as Context]]'
+  type: implements
+category: concepts
+sources: []
 ---
 
 # Copilot Instructions

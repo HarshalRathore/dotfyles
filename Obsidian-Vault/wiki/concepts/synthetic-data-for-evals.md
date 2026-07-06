@@ -1,33 +1,34 @@
 ---
-title: "Synthetic Data for Evals"
+title: Synthetic Data for Evals
 category: concepts
 tags:
-  - evaluation
-  - synthetic-data
-  - data-centric
-  - eval-design
+- evaluation
+- synthetic-data
+- data-centric
+- eval-design
 aliases:
-  - synthetic eval data
-  - artificial eval data
+- synthetic eval data
+- artificial eval data
 sources:
-  - "AIEF2025 - How to run Evals at Scale: Thinking beyond Accuracy or Similarity — Muktesh Mishra, Adobe - https://www.youtube.com/watch?v=coKKKKh8Vns"
+- 'AIEF2025 - How to run Evals at Scale: Thinking beyond Accuracy or Similarity — Muktesh Mishra, Adobe - https://www.youtube.com/watch?v=coKKKKh8Vns'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/adaptive-evals|Adaptive Evals]]"
-    type: enables
-  - target: "[[concepts/data-flywheel|Data Flywheel]]"
-    type: feeds
-  - target: "[[concepts/eval-driven-development|Eval-Driven Development]]"
-    type: supports
+- target: '[[concepts/adaptive-evals|Adaptive Evals]]'
+  type: enables
+- target: '[[concepts/data-flywheel|Data Flywheel]]'
+  type: feeds
+- target: '[[concepts/eval-driven-development|Eval-Driven Development]]'
+  type: supports
+summary: Synthetic Data for Evals
 ---
 
 # Synthetic Data for Evals

@@ -1,30 +1,31 @@
 ---
-title: "Samsung"
+title: Samsung
 tags:
-  - company
-  - south-korea
-  - semiconductor
-  - hbm
-  - memory
+- company
+- south-korea
+- semiconductor
+- hbm
+- memory
 sources:
-  - "AIEF2025 - The Geopolitics of AI Infrastructure - Dylan Patel, SemiAnalysis - https://www.youtube.com/watch?v=Zz4QjZsYWK0"
-summary: "South Korean technology conglomerate and major HBM (High Bandwidth Memory) manufacturer, selling to Chinese intermediaries despite export restrictions."
+- AIEF2025 - The Geopolitics of AI Infrastructure - Dylan Patel, SemiAnalysis - https://www.youtube.com/watch?v=Zz4QjZsYWK0
+summary: South Korean technology conglomerate and major HBM (High Bandwidth Memory) manufacturer, selling to Chinese intermediaries despite export restrictions.
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.75
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
-updated: 2026-07-04T23:59:00Z
+updated: 2026-07-04 23:59:00+00:00
 relationships:
-  - target: "[[entities/huawei|Huawei]]"
-    type: supplies
-  - target: "[[entities/sk-hynix|SK Hynix]]"
-    type: competes_with
-  - target: "[[concepts/hbm-memory|HBM Memory]]"
-    type: produces
+- target: '[[entities/huawei|Huawei]]'
+  type: supplies
+- target: '[[entities/sk-hynix|SK Hynix]]'
+  type: competes_with
+- target: '[[concepts/hbm-memory|HBM Memory]]'
+  type: produces
+category: entities
 ---
 
 # Samsung

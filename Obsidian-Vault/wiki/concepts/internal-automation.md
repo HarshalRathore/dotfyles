@@ -1,12 +1,12 @@
 ---
-title: "Internal Automation"
+title: Internal Automation
 category: concepts
 tags:
-  - automation
-  - operations
-  - startup
-  - efficiency
-  - aief2025
+- automation
+- operations
+- startup
+- efficiency
+- aief2025
 summary: Strategy of automating every internal business operation, and when something can't be automated, building features on your product to enable that automation.
 provenance:
   extracted: 0.85
@@ -19,10 +19,11 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/small-team-scaling]]"
-    type: extends
-  - target: "[[concepts/workflow-automation]]"
-    type: related_to
+- target: '[[concepts/small-team-scaling]]'
+  type: extends
+- target: '[[concepts/workflow-automation]]'
+  type: related_to
+sources: []
 ---
 
 ## Internal Automation

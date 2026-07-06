@@ -1,19 +1,25 @@
 ---
-title: "Delegation Chains"
+title: Delegation Chains
 tags:
-  - agent
-  - identity
-  - auth
-  - architecture
-  - pattern
-  - jwt
+- agent
+- identity
+- auth
+- architecture
+- pattern
+- jwt
 sources:
-  - "[[sources/watchv=d4dswf-__rm]]"
-summary: "Identity architecture pattern where agent authorization is passed step-by-step through cryptographically signed token chains, with each link carrying forward the original user's permissions."
+- 'https://www.youtube.com/watch?v=d4dswf-__rm'
+summary: Identity architecture pattern where agent authorization is passed step-by-step through cryptographically signed token chains, with each link carrying forward the original user's permissions.
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
 ---
 # Delegation Chains
 

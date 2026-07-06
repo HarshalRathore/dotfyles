@@ -1,31 +1,31 @@
 ---
-title: "Lyria 2"
+title: Lyria 2
 category: entities
 tags:
-  - model
-  - music-generation
-  - audio-generation
-  - google-deepmind
+- model
+- music-generation
+- audio-generation
+- google-deepmind
 aliases:
-  - Lyria2
+- Lyria2
 sources:
-  - "AIEF2025 - Veo 3 for Developers — Paige Bailey, Google DeepMind - https://www.youtube.com/watch?v=hlcAZ2lX_ZI"
-summary: "Google DeepMind's high-fidelity music generation model with granular creative control over tones and styles. Built in collaboration with musicians including Jacob Collier and Toru Iuma. Includes SynthID watermarking."
+- AIEF2025 - Veo 3 for Developers — Paige Bailey, Google DeepMind - https://www.youtube.com/watch?v=hlcAZ2lX_ZI
+summary: Google DeepMind's high-fidelity music generation model with granular creative control over tones and styles. Built in collaboration with musicians including Jacob Collier and Toru Iuma. Includes Sy...
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/google-deepmind|Google DeepMind]]"
-    type: related_to
-  - target: "[[concepts/synthid-watermarking|SynthID Watermarking]]"
-    type: uses
+- target: '[[entities/google-deepmind|Google DeepMind]]'
+  type: related_to
+- target: '[[concepts/synthid-watermarking|SynthID Watermarking]]'
+  type: uses
 ---
 
 # Lyria 2

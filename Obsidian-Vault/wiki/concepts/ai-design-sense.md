@@ -1,23 +1,23 @@
 ---
-title: "AI Design Sense"
+title: AI Design Sense
 category: concepts
 tags:
-  - ai-evaluation
-  - design
-  - vibe-coding
-  - model-capabilities
-  - vibe-engineering
+- ai-evaluation
+- design
+- vibe-coding
+- model-capabilities
+- vibe-engineering
 sources:
-  - "[[sources/watchv=jv-wy5pxxlo]]"
+- 'https://www.youtube.com/watch?v=jv-wy5pxxlo'
 relationships:
-  - target: "[[concepts/vibe-coding-as-whiteboard]]"
-    type: extends
-  - target: "[[concepts/ai-evaluation-market-history]]"
-    type: related_to
-  - target: "[[concepts/yolo-structured-spectrum-vibe-coding]]"
-    type: related_to
+- target: '[[concepts/vibe-coding-as-whiteboard]]'
+  type: extends
+- target: '[[concepts/ai-evaluation-market-history]]'
+  type: related_to
+- target: '[[concepts/yolo-structured-spectrum-vibe-coding]]'
+  type: related_to
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.74
@@ -25,6 +25,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: AI Design Sense
 ---
 
 # AI Design Sense

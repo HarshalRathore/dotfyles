@@ -1,12 +1,18 @@
 ---
 title: pgvector
 category: concepts
-tags: [pgvector, postgres, vector-database, vector-search, embeddings, database]
-summary: "A PostgreSQL extension that adds vector similarity search capabilities, enabling storage and retrieval of embeddings directly within PostgreSQL. Randall Hunt calls it 'my favorite right now' for enterprise AI systems."
+tags:
+- pgvector
+- postgres
+- vector-database
+- vector-search
+- embeddings
+- database
+summary: A PostgreSQL extension that adds vector similarity search capabilities, enabling storage and retrieval of embeddings directly within PostgreSQL. Randall Hunt calls it 'my favorite right now' for en...
 provenance:
-  extracted: 0.90
-  inferred: 0.10
-  ambiguous: 0.00
+  extracted: 0.9
+  inferred: 0.1
+  ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-05
@@ -14,12 +20,13 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/vector-database-migration]]"
-    type: related_to
-  - target: "[[concepts/embedding-models]]"
-    type: related_to
-  - target: "[[concepts/vector-similarity-vs-relevance]]"
-    type: related_to
+- target: '[[concepts/vector-database-migration]]'
+  type: related_to
+- target: '[[concepts/embedding-models]]'
+  type: related_to
+- target: '[[concepts/vector-similarity-vs-relevance]]'
+  type: related_to
+sources: []
 ---
 
 **pgvector** is an open-source PostgreSQL extension that adds vector similarity search capabilities to PostgreSQL databases. It enables storage, indexing, and querying of embedding vectors directly within PostgreSQL, eliminating the need for a separate vector database in many cases.

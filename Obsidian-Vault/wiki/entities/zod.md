@@ -4,7 +4,7 @@ category: entities
 tags: [library, typescript, schema-validation, data-models, agent-memory]
 summary: "TypeScript-first schema validation library. Used by Zep to define entity types with fields and business rules for domain-aware memory."
 sources:
-  - "[[sources/watchv=t5imo5ntyha]]"
+  - "https://www.youtube.com/watch?v=t5imo5ntyha"
 provenance:
   extracted: 0.70
   inferred: 0.25

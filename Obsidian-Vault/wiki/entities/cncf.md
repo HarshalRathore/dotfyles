@@ -1,16 +1,25 @@
 ---
 type: entity
-title: "Cncf"
+title: Cncf
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/containerd-cri-etc_fb87d8]]"
+- '[[sources/containerd-cri-etc_fb87d8]]'
 tags:
-  - organization
+- organization
 aliases:
-  - CNCF
+- CNCF
+category: entities
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Cncf
 ---
 ## Description
 The Cloud Native Computing Foundation (CNCF) is a prominent organization within the Linux Foundation that hosts and nurtures a large ecosystem of open-source projects in the cloud-native computing space. It provides a vendor-neutral home for projects like Kubernetes, [[entities/containerd]], and Prometheus, fostering collaborative development. By establishing industry standards, promoting best practices, and providing open governance, CNCF plays a critical role in shaping the modern infrastructure landscape and advancing the adoption of cloud-native technologies. A key metric of success for projects under its umbrella is achieving "graduated" status, which signifies maturity, robust adoption, and long-term viability.

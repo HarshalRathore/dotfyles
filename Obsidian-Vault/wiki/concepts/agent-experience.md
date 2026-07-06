@@ -1,16 +1,19 @@
 ---
-title: "Agent Experience (AX)"
+title: Agent Experience (AX)
 category: concepts
 tags:
-  - agent-experience
-  - ax
-  - agent-first
-  - developer-experience
-  - ai-agents
-  - aief2025
-aliases: [agent experience, AX, agent experience design]
+- agent-experience
+- ax
+- agent-first
+- developer-experience
+- ai-agents
+- aief2025
+aliases:
+- agent experience
+- AX
+- agent experience design
 sources:
-  - "AIEF2025 - AX is the only Experience that Matters - Ivan Burazin, Daytona - https://www.youtube.com/watch?v=e9sLVMN76qU"
+- AIEF2025 - AX is the only Experience that Matters - Ivan Burazin, Daytona - https://www.youtube.com/watch?v=e9sLVMN76qU
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -22,14 +25,15 @@ tier: core
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/agent-autonomy]]"
-    type: requires
-  - target: "[[concepts/api-first-design-for-agents]]"
-    type: encompasses
-  - target: "[[concepts/agent-readable-docs]]"
-    type: encompasses
-  - target: "[[concepts/seamless-authentication-for-agents]]"
-    type: encompasses
+- target: '[[concepts/agent-autonomy]]'
+  type: requires
+- target: '[[concepts/api-first-design-for-agents]]'
+  type: encompasses
+- target: '[[concepts/agent-readable-docs]]'
+  type: encompasses
+- target: '[[concepts/seamless-authentication-for-agents]]'
+  type: encompasses
+summary: Agent Experience (AX)
 ---
 
 # Agent Experience (AX)

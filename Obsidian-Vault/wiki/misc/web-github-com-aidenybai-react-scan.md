@@ -1,17 +1,17 @@
 ---
-title: "React Scan"
+title: React Scan
 category: misc
 tags:
-  - react
-  - performance
-  - debugging
-  - devtools
+- react
+- performance
+- debugging
+- devtools
 sources:
-  - "[[sources/react-scan]]"
-source_url: "https://github.com/aidenybai/react-scan"
-created: "2026-06-30"
-updated: "2026-06-30"
-summary: "Zero-config tool that automatically detects and visually highlights unnecessary React re-renders. Drop-in script tag or npm install, no code changes required."
+- '[[sources/react-scan]]'
+source_url: https://github.com/aidenybai/react-scan
+created: '2026-06-30'
+updated: '2026-06-30'
+summary: Zero-config tool that automatically detects and visually highlights unnecessary React re-renders. Drop-in script tag or npm install, no code changes required.
 affinity:
   repeato: 1
 promotion_status: misc
@@ -23,6 +23,7 @@ provenance:
 base_confidence: 0.55
 lifecycle: draft
 lifecycle_changed: 2026-06-30
+tier: supporting
 ---
 
 # React Scan

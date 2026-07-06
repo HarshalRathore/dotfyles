@@ -3,7 +3,7 @@ title: "Sharif Shameem"
 category: entities
 tags: [person, ai, entrepreneur, llm, lexica, generative-ai]
 sources:
-  - "[[sources/watchv=0f8mngpuycy]]"
+  - "https://www.youtube.com/watch?v=0f8mngpuycy"
 summary: "Founder of Lexica, generative AI company building image models. Early GPT-3 demo builder whose work pioneered vibe coding and demo-driven AI exploration."
 provenance:
   extracted: 0.70

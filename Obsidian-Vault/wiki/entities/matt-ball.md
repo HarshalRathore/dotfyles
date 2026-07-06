@@ -1,22 +1,23 @@
 ---
-title: "Matt Ball"
+title: Matt Ball
 tags:
-  - person
-  - speaker
-  - developer-tools
-  - enterprise
+- person
+- speaker
+- developer-tools
+- enterprise
 sources:
-  - "[[sources/watchv=6nir_cypglk]]"
-summary: "Solutions Architect at Augment Code. Formerly at Postman. Co-presented on legacy code navigation with Augment Agent at AI Engineer World's Fair 2025."
+- 'https://www.youtube.com/watch?v=6nir_cypglk'
+summary: Solutions Architect at Augment Code. Formerly at Postman. Co-presented on legacy code navigation with Augment Agent at AI Engineer World's Fair 2025.
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Matt Ball

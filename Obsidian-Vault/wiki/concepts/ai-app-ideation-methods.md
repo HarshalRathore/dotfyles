@@ -2,9 +2,11 @@
 title: "AI App Ideation Methods"
 category: concepts
 tags: [concept, ideation, product-discovery, open-source, aief2025]
-summary: Methods for generating AI app ideas: listening to user requests on social media, maintaining a running idea list, and capitalizing on new model releases.
+summary: >-
+  Methods for generating AI app ideas: listening to user requests on social media, maintaining a running idea list, and capitalizing on new model releases.
 sources: ["AIEF2025 - Using OSS models to build AI apps with millions of users — Hassan El Mghari - https://www.youtube.com/watch?v=gcseUQJ6Gbg"]
-provenance: { extracted: 0.8, inferred: 0.2, ambiguous: 0.0 }
+provenance: >-
+  { extracted: 0.8, inferred: 0.2, ambiguous: 0.0 }
 base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04

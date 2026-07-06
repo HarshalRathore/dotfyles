@@ -4,7 +4,7 @@ category: concepts
 tags: [pass-at-k, coverage-score, evaluation, coding-benchmark, swe-bench, inference-time-compute, aief2025]
 aliases: [pass@k, coverage score, k-at-pass]
 sources:
-  - "[[sources/watchv=qludzkvfp6a]]"
+  - "https://www.youtube.com/watch?v=qludzkvfp6a"
 summary: "A metric measuring the fraction of problems solved when generating k samples. Demonstrates that inference-time compute predictably improves coding accuracy on SWE-bench verified."
 provenance:
   extracted: 0.85

@@ -2,10 +2,12 @@
 title: AI Trust Pillars
 category: concepts
 tags: [ai-trust, security, compliance, fedramp, nist, continuous-monitoring, vendor-assurance]
-summary: The foundational pillars of trust when deploying AI systems in high-stakes environments: security posture, compliance depth, real-world impact understanding, and continuous monitoring.
+summary: >-
+  The foundational pillars of trust when deploying AI systems in high-stakes environments: security posture, compliance depth, real-world impact understanding, and continuous monitoring.
 sources:
-  - "[[sources/watchv=tnsgx36ly0q]]"
-provenance: {extracted: 0.70, inferred: 0.25, ambiguous: 0.05}
+  - "https://www.youtube.com/watch?v=tnsgx36ly0q"
+provenance: >-
+  {extracted: 0.70, inferred: 0.25, ambiguous: 0.05}
 base_confidence: 0.80
 lifecycle: draft
 lifecycle_changed: 2026-07-04

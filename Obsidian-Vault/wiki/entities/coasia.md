@@ -1,32 +1,33 @@
 ---
-title: "Coasia"
+title: Coasia
 tags:
-  - company
-  - taiwan
-  - intermediary
-  - hbm
-  - supply-chain
+- company
+- taiwan
+- intermediary
+- hbm
+- supply-chain
 sources:
-  - "AIEF2025 - The Geopolitics of AI Infrastructure - Dylan Patel, SemiAnalysis - https://www.youtube.com/watch?v=Zz4QjZsYWK0"
-summary: "Taiwanese company that serves as an intermediary in the HBM supply chain, purchasing HBM from Samsung and packaging it into Faraday chips for shipment to China."
+- AIEF2025 - The Geopolitics of AI Infrastructure - Dylan Patel, SemiAnalysis - https://www.youtube.com/watch?v=Zz4QjZsYWK0
+summary: Taiwanese company that serves as an intermediary in the HBM supply chain, purchasing HBM from Samsung and packaging it into Faraday chips for shipment to China.
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
-updated: 2026-07-04T23:59:00Z
+updated: 2026-07-04 23:59:00+00:00
 relationships:
-  - target: "[[entities/samsung|Samsung]]"
-    type: buys_from
-  - target: "[[entities/faraday|Faraday]]"
-    type: supplies
-  - target: "[[entities/huawei|Huawei]]"
-    type: indirectly_supplies
-  - target: "[[concepts/hbm-memory|HBM Memory]]"
-    type: processes
+- target: '[[entities/samsung|Samsung]]'
+  type: buys_from
+- target: '[[entities/faraday|Faraday]]'
+  type: supplies
+- target: '[[entities/huawei|Huawei]]'
+  type: indirectly_supplies
+- target: '[[concepts/hbm-memory|HBM Memory]]'
+  type: processes
+category: entities
 ---
 
 # Coasia

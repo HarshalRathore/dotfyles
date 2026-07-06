@@ -18,7 +18,7 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-05
 sources:
-  - "[[sources/watchv=exed-8gfumm]]"
+  - "https://www.youtube.com/watch?v=exed-8gfumm"
   - "AIEF2025 - MCP: Origins and Requests For Startups — Theodora Chu, Model Context Protocol PM, Anthropic - https://www.youtube.com/watch?v=x-8pBqWiTzk"
 
 ---

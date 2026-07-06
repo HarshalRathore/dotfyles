@@ -1,12 +1,12 @@
 ---
-title: "Workflow Automation"
+title: Workflow Automation
 category: concepts
 tags:
-  - automation
-  - workflows
-  - ai-agents
-  - nodes
-  - aief2025
+- automation
+- workflows
+- ai-agents
+- nodes
+- aief2025
 summary: Approach to AI automation where tasks are defined as configurable nodes in a workflow graph, rather than relying on general-purpose agents to figure things out from natural language.
 provenance:
   extracted: 0.75
@@ -19,10 +19,11 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/agent-vs-workflow]]"
-    type: related_to
-  - target: "[[entities/gumloop]]"
-    type: implements
+- target: '[[concepts/agent-vs-workflow]]'
+  type: related_to
+- target: '[[entities/gumloop]]'
+  type: implements
+sources: []
 ---
 
 ## Workflow Automation

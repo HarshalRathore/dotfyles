@@ -1,27 +1,33 @@
 ---
 title: Datadog
-tags: [company, observability, monitoring, dashboards, apm]
+tags:
+- company
+- observability
+- monitoring
+- dashboards
+- apm
 sources:
-  - "[[sources/watchv=l6_nigiexzq]]"
-  - "[[sources/watchv=lcqat4ip_le]]"
+- 'https://www.youtube.com/watch?v=l6_nigiexzq'
+- 'https://www.youtube.com/watch?v=lcqat4ip_le'
 summary: Cloud-scale observability platform providing monitoring, analytics, and real-time dashboards. Mentioned in both production troubleshooting and MCP observability contexts.
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/dashboard-dumpster-diving]]"
-    type: related_to
-  - target: "[[concepts/production-troubleshooting]]"
-    type: related_to
-  - target: "[[entities/observable.tools]]"
-    type: related_to
+- target: '[[concepts/dashboard-dumpster-diving]]'
+  type: related_to
+- target: '[[concepts/production-troubleshooting]]'
+  type: related_to
+- target: '[[entities/observable.tools]]'
+  type: related_to
+category: entities
 ---
 
 # Datadog

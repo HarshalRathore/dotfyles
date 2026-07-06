@@ -1,31 +1,32 @@
 ---
-title: "Model Personality"
+title: Model Personality
 category: concepts
 tags:
-  - llm
-  - model-personality
-  - benchmark
-  - strategic-behavior
-  - aief2025
-  - negotiation
-summary: "The observation that different LLMs exhibit distinct, measurable behavioral patterns in open-ended tasks — such as O3's consistent deception in AI Diplomacy. Personality emerges as a benchmarkable dimension of model capability."
+- llm
+- model-personality
+- benchmark
+- strategic-behavior
+- aief2025
+- negotiation
+summary: The observation that different LLMs exhibit distinct, measurable behavioral patterns in open-ended tasks — such as O3's consistent deception in AI Diplomacy. Personality emerges as a benchmarkable...
 provenance:
   extracted: 0.65
-  inferred: 0.30
+  inferred: 0.3
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/ai-diplomacy|AI Diplomacy]]"
-    type: related_to
-  - target: "[[concepts/benchmark-design-principles|Benchmark Design Principles]]"
-    type: related_to
-  - target: "[[concepts/experiential-benchmarks|Experiential Benchmarks]]"
-    type: related_to
+- target: '[[concepts/ai-diplomacy|AI Diplomacy]]'
+  type: related_to
+- target: '[[concepts/benchmark-design-principles|Benchmark Design Principles]]'
+  type: related_to
+- target: '[[concepts/experiential-benchmarks|Experiential Benchmarks]]'
+  type: related_to
+sources: []
 ---
 
 # Model Personality

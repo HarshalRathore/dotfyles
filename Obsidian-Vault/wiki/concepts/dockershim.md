@@ -1,17 +1,23 @@
 ---
-summary: "> **Source: Containerd, CRI etc.** > - ' > - '"
+summary: '> **Source: Containerd, CRI etc.** > - '' > - '''
 type: concept
-title: "Applications"
+title: Applications
 created:
-  - "2026-06-30"
+- '2026-06-30'
 updated:
-  - "2026-06-30"
+- '2026-06-30'
 lifecycle: draft
 base_confidence: 0.75
 sources:
-  - "[[sources/scheduling_f2b3ef]]"
-  - "[[sources/containerd-cri-etc_fb87d8]]"
-
+- '[[sources/scheduling_f2b3ef]]'
+- '[[sources/containerd-cri-etc_fb87d8]]'
+category: concepts
+tags: []
+tier: supporting
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
 ---
 ## Applications
 - **Kubernetes Runtime Compatibility**: Enabled early Kubernetes adopters to leverage their existing Docker Engine installations as the node-level container runtime.

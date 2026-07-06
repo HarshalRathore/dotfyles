@@ -1,23 +1,32 @@
 ---
-title: "Prompting vs Fine-tuning"
+title: Prompting vs Fine-tuning
 category: concepts
-tags: [prompting, fine-tuning, llm, model-selection, prompt-engineering]
+tags:
+- prompting
+- fine-tuning
+- llm
+- model-selection
+- prompt-engineering
 relationships:
-  - target: "[[concepts/supervised-fine-tuning]]"
-    type: extends
-  - target: "[[concepts/prompt-engineering]]"
-    type: extends
-sources: ["[[sources/aief2025-rft]]", "[[sources/dpo]]", "[[sources/sft-fine-tuning-with-openai-—-ilan-bigio]]", "[[sources/watchv=jfalqqfxqpa]]"]
-summary: "A comparison framework between prompting (low barrier, quick iteration) and fine-tuning (continued training for domain optimization). The recommended decision process: always start with prompting and escalate only when evals show prompting is insufficient."
+- target: '[[concepts/supervised-fine-tuning]]'
+  type: extends
+- target: '[[concepts/prompt-engineering]]'
+  type: extends
+sources:
+- '[[sources/aief2025-rft]]'
+- '[[sources/dpo]]'
+- '[[sources/sft-fine-tuning-with-openai-—-ilan-bigio]]'
+- 'https://www.youtube.com/watch?v=jfalqqfxqpa'
+summary: 'A comparison framework between prompting (low barrier, quick iteration) and fine-tuning (continued training for domain optimization). The recommended decision process: always start with prompting a...'
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 tier: supporting
-created: 2026-07-03T15:05:02Z
-updated: 2026-07-03T15:05:02Z
+created: 2026-07-03 15:05:02+00:00
+updated: 2026-07-03 15:05:02+00:00
 ---
 
 # Prompting vs Fine-tuning

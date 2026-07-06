@@ -7,7 +7,7 @@ relationships:
   - target: "[[entities/temporal]]"
     type: works_at
 sources:
-  - "[[sources/watchv=kj9ezytws1y]]"
+  - "https://www.youtube.com/watch?v=kj9ezytws1y"
 summary: "Engineer at Temporal who presented at AI Engineer World's Fair 2025 arguing that event-driven architecture is the wrong abstraction for AI agents and durable execution is the proper alternative."
 provenance:
   extracted: 0.85

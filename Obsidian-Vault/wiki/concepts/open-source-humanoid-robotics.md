@@ -1,20 +1,28 @@
 ---
 title: Open-Source Humanoid Robotics
 category: concepts
-tags: [robotics, humanoid, open-source, hardware, reinforcement-learning]
-aliases: [open source humanoids, open humanoid robots, FOSS humanoid]
+tags:
+- robotics
+- humanoid
+- open-source
+- hardware
+- reinforcement-learning
+aliases:
+- open source humanoids
+- open humanoid robots
+- FOSS humanoid
 relationships:
-  - target: "[[concepts/browser-based-robotics-simulation]]"
-    type: related_to
-  - target: "[[entities/mujoco]]"
-    type: uses
+- target: '[[concepts/browser-based-robotics-simulation]]'
+  type: related_to
+- target: '[[entities/mujoco]]'
+  type: uses
 sources:
-  - "[[sources/watchv=bs92rdbvi90]]"
-summary: "An emerging paradigm where humanoid robot hardware (CAD, PCBs), firmware, software, and ML models are fully open-sourced under permissive licenses, dramatically lowering cost and enabling community-driven development."
+- 'https://www.youtube.com/watch?v=bs92rdbvi90'
+summary: An emerging paradigm where humanoid robot hardware (CAD, PCBs), firmware, software, and ML models are fully open-sourced under permissive licenses, dramatically lowering cost and enabling community...
 provenance:
-  extracted: 0.60
-  inferred: 0.30
-  ambiguous: 0.10
+  extracted: 0.6
+  inferred: 0.3
+  ambiguous: 0.1
 base_confidence: 0.45
 lifecycle: draft
 tier: supporting

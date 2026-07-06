@@ -1,32 +1,35 @@
 ---
-title: "Agentic Commerce"
+title: Agentic Commerce
 category: concepts
 tags:
-  - agentic-commerce
-  - ai-commerce
-  - agent-infrastructure
-  - e-commerce
-  - intent-infrastructure
-aliases: [agentic e-commerce, agent commerce]
+- agentic-commerce
+- ai-commerce
+- agent-infrastructure
+- e-commerce
+- intent-infrastructure
+aliases:
+- agentic e-commerce
+- agent commerce
 sources:
-  - "AIEF2025 - Machines of Buying and Selling Grace - Adam Behrens, New Generation - https://www.youtube.com/watch?v=zlZz0mDF2eg"
+- AIEF2025 - Machines of Buying and Selling Grace - Adam Behrens, New Generation - https://www.youtube.com/watch?v=zlZz0mDF2eg
 provenance:
-  extracted: 0.60
-  inferred: 0.40
-  ambiguous: 0.00
-base_confidence: 0.70
+  extracted: 0.6
+  inferred: 0.4
+  ambiguous: 0.0
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/e-commerce-evolution|E-commerce Evolution]]"
-    type: extends
-  - target: "[[concepts/intent-infrastructure|Intent Infrastructure]]"
-    type: uses
-  - target: "[[concepts/agent-checkout|Agent Checkout]]"
-    type: requires
+- target: '[[concepts/e-commerce-evolution|E-commerce Evolution]]'
+  type: extends
+- target: '[[concepts/intent-infrastructure|Intent Infrastructure]]'
+  type: uses
+- target: '[[concepts/agent-checkout|Agent Checkout]]'
+  type: requires
+summary: Agentic Commerce
 ---
 
 # Agentic Commerce

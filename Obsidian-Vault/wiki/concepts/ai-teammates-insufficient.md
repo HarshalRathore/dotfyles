@@ -1,33 +1,34 @@
 ---
-title: "AI Teammates Are Insufficient"
+title: AI Teammates Are Insufficient
 tags:
-  - ai
-  - developer-tools
-  - software-engineering
-  - workflow
-  - aief2025
+- ai
+- developer-tools
+- software-engineering
+- workflow
+- aief2025
 aliases:
-  - AI teammates not enough
-  - AI agents insufficient
+- AI teammates not enough
+- AI agents insufficient
 relationships:
-  - target: "[[concepts/ai-native-toolchain]]"
-    type: related_to
-  - target: "[[concepts/peer-programming]]"
-    type: contradicts
-  - target: "[[concepts/developer-outer-loop]]"
-    type: related_to
+- target: '[[concepts/ai-native-toolchain]]'
+  type: related_to
+- target: '[[concepts/peer-programming]]'
+  type: contradicts
+- target: '[[concepts/developer-outer-loop]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=h6mrr5nbtza]]"
-summary: "Adding AI 'teammates' (background agents, AI reviewers) to the existing workflow is insufficient to solve the outer loop bottleneck. The entire toolchain must be AI-native."
+- 'https://www.youtube.com/watch?v=h6mrr5nbtza'
+summary: Adding AI 'teammates' (background agents, AI reviewers) to the existing workflow is insufficient to solve the outer loop bottleneck. The entire toolchain must be AI-native.
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+category: concepts
 ---
 
 # AI Teammates Are Insufficient

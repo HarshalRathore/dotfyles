@@ -1,31 +1,33 @@
 ---
-title: "Jon Peck"
+title: Jon Peck
 tags:
-  - entity
-  - person
-  - devrel
-  - github
-  - microsoft
-  - aief2025
-aliases: [Jon Peck]
+- entity
+- person
+- devrel
+- github
+- microsoft
+- aief2025
+aliases:
+- Jon Peck
 sources:
-  - "AIEF2025 - The Agent Awakens: Collaborative Development with Copilot - Christopher Harrison, GitHub - https://www.youtube.com/watch?v=tHJSZ1-ZqcA"
-summary: "GitHub Enterprise Advocate, developer relations specialist. Co-presents on GitHub Copilot workflows and coding agent patterns at AI Engineer World's Fair 2025."
+- 'AIEF2025 - The Agent Awakens: Collaborative Development with Copilot - Christopher Harrison, GitHub - https://www.youtube.com/watch?v=tHJSZ1-ZqcA'
+summary: GitHub Enterprise Advocate, developer relations specialist. Co-presents on GitHub Copilot workflows and coding agent patterns at AI Engineer World's Fair 2025.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/github-copilot|GitHub Copilot]]"
-    type: advocates-for
-  - target: "[[entities/christopher-harrison|Christopher Harrison]]"
-    type: collaborates-with
+- target: '[[entities/github-copilot|GitHub Copilot]]'
+  type: advocates-for
+- target: '[[entities/christopher-harrison|Christopher Harrison]]'
+  type: collaborates-with
+category: entities
 ---
 
 # Jon Peck

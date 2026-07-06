@@ -1,31 +1,35 @@
 ---
-title: "Graph Coloring Problem"
+title: Graph Coloring Problem
 tags:
-  - graph-theory
-  - computer-science
-  - optimization
-  - combinatorics
-  - connections
-aliases: [Graph Coloring, Graph Coloring Problem, Chromatic Number]
+- graph-theory
+- computer-science
+- optimization
+- combinatorics
+- connections
+aliases:
+- Graph Coloring
+- Graph Coloring Problem
+- Chromatic Number
 sources:
-  - "[[sources/watchv=p_uhfgh4j9y]]"
-summary: "Graph theory problem assigning colors to vertices. Applied to Connections where words are vertices, categories are colors, and semantic similarity forms edges."
+- 'https://www.youtube.com/watch?v=p_uhfgh4j9y'
+summary: Graph theory problem assigning colors to vertices. Applied to Connections where words are vertices, categories are colors, and semantic similarity forms edges.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/connections-game]]"
-    type: applied_to
-  - target: "[[concepts/semantic-similarity]]"
-    type: uses
-  - target: "[[concepts/combinatorics]]"
-    type: related_to
+- target: '[[concepts/connections-game]]'
+  type: applied_to
+- target: '[[concepts/semantic-similarity]]'
+  type: uses
+- target: '[[concepts/combinatorics]]'
+  type: related_to
+category: concepts
 ---
 
 # Graph Coloring Problem

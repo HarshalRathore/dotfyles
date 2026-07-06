@@ -1,25 +1,26 @@
 ---
-title: "Building AI Agents that actually automate Knowledge Work — Jerry Liu, LlamaIndex"
+title: Building AI Agents that actually automate Knowledge Work — Jerry Liu, LlamaIndex
 tags:
-  - reference
-  - talk
-  - agent
-  - llamaindex
-  - document-parsing
-  - rag
-  - ai-eng-fair-2025
+- reference
+- talk
+- agent
+- llamaindex
+- document-parsing
+- rag
+- ai-eng-fair-2025
 sources:
-  - "AIEF2025 - Building AI Agents that actually automate Knowledge Work - Jerry Liu, LlamaIndex - https://www.youtube.com/watch?v=jVGCulhBRZI"
-summary: "Jerry Liu presents LlamaIndex's document toolbox for automating knowledge work over unstructured enterprise data, including the document MCP server concept, assistive vs automation agents, and new Excel normalization capabilities."
+- AIEF2025 - Building AI Agents that actually automate Knowledge Work - Jerry Liu, LlamaIndex - https://www.youtube.com/watch?v=jVGCulhBRZI
+summary: Jerry Liu presents LlamaIndex's document toolbox for automating knowledge work over unstructured enterprise data, including the document MCP server concept, assistive vs automation agents, and new...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+category: references
 ---
 
 # Building AI Agents that actually automate Knowledge Work — Jerry Liu, LlamaIndex

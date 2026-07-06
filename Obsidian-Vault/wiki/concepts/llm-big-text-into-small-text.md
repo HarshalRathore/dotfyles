@@ -1,16 +1,16 @@
 ---
-title: "LLMs Turn Big Text Into Small Text"
+title: LLMs Turn Big Text Into Small Text
 category: concepts
 tags:
-  - llm
-  - summarization
-  - structured-output
-  - llamaindex
-  - integration
+- llm
+- summarization
+- structured-output
+- llamaindex
+- integration
 summary: The principle that LLMs excel at turning large bodies of unstructured text into smaller, structured representations — making them integration tools rather than chatbots.
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 lifecycle: draft
 base_confidence: 0.65
@@ -18,12 +18,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/rag-evaluation|RAG]]"
-    type: related_to
-  - target: "[[concepts/beyond-chatbots]]"
-    type: related_to
-  - target: "[[concepts/llm-as-summarizer]]"
-    type: extends
+- target: '[[concepts/rag-evaluation|RAG]]'
+  type: related_to
+- target: '[[concepts/beyond-chatbots]]'
+  type: related_to
+- target: '[[concepts/llm-as-summarizer]]'
+  type: extends
+sources: []
 ---
 
 # LLMs Turn Big Text Into Small Text

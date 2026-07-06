@@ -1,12 +1,18 @@
 ---
 title: VLM Visual Fidelity Gap
 category: concepts
-tags: [vlm, visual-fidelity, visual-generalization, linguistic-generalization, multimodal, grounding-dino]
-summary: Current VLMs excel at linguistic generalization but fail at visual generalization — they can understand novel class names in text but cannot detect those objects visually without extensive fine-tuning.
+tags:
+- vlm
+- visual-fidelity
+- visual-generalization
+- linguistic-generalization
+- multimodal
+- grounding-dino
+summary: Current VLMs excel at linguistic generalization but fail at visual generalization — they can understand novel class names in text but cannot detect those objects visually without extensive fine-tun...
 sources:
-  - "[[sources/watchv=iqc05ecvnye]]"
+- 'https://www.youtube.com/watch?v=iqc05ecvnye'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -16,12 +22,12 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/vision-language-models|vision-language-models]]"
-    type: extends
-  - target: "[[concepts/clip-limitations|clip-limitations]]"
-    type: related_to
-  - target: "[[concepts/rf100vl|rf100vl]]"
-    type: related_to
+- target: '[[concepts/vision-language-models|vision-language-models]]'
+  type: extends
+- target: '[[concepts/clip-limitations|clip-limitations]]'
+  type: related_to
+- target: '[[concepts/rf100vl|rf100vl]]'
+  type: related_to
 ---
 
 Visual language models exhibit a fundamental asymmetry: they are excellent at generalizing out-of-distribution in the linguistic domain but "absolutely hopeless" at generalizing in the visual domain.

@@ -1,41 +1,42 @@
 ---
-title: "AIEF2025 - Vibe Coding at Scale: Customizing AI Assistants for Enterprise Environments - Harald Kirshner"
+title: 'AIEF2025 - Vibe Coding at Scale: Customizing AI Assistants for Enterprise Environments - Harald Kirshner'
 category: references
 tags:
-  - aief2025
-  - vibe-coding
-  - enterprise-ai
-  - vscode
-  - github-copilot
-  - mcp
-  - templates
-  - model-comparison
+- aief2025
+- vibe-coding
+- enterprise-ai
+- vscode
+- github-copilot
+- mcp
+- templates
+- model-comparison
 aliases:
-  - vibe-coding-at-scale
-  - kirshner-vibe-coding-aief2025
+- vibe-coding-at-scale
+- kirshner-vibe-coding-aief2025
 sources:
-  - "AIEF2025 - Vibe Coding at Scale: Customizing AI Assistants for Enterprise Environments - Harald Kirshner, - https://www.youtube.com/watch?v=i1uPAN6uW4s"
+- 'AIEF2025 - Vibe Coding at Scale: Customizing AI Assistants for Enterprise Environments - Harald Kirshner, - https://www.youtube.com/watch?v=i1uPAN6uW4s'
 provenance:
   extracted: 0.95
   inferred: 0.05
-  ambiguous: 0.00
-base_confidence: 0.90
+  ambiguous: 0.0
+base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/aief2025|AI Engineer World's Fair 2025]]"
-    type: part-of
-  - target: "[[entities/harald-kirshner|Harald Kirshner]]"
-    type: by
-  - target: "[[entities/microsoft|Microsoft]]"
-    type: by
-  - target: "[[concepts/yolo-structured-spectrum-vibe-coding|YOLO, Structured, Spec-Driven Spectrum of Vibe Coding]]"
-    type: introduces
-  - target: "[[concepts/ai-design-sense|AI Design Sense]]"
-    type: demonstrates
+- target: '[[entities/aief2025|AI Engineer World''s Fair 2025]]'
+  type: part-of
+- target: '[[entities/harald-kirshner|Harald Kirshner]]'
+  type: by
+- target: '[[entities/microsoft|Microsoft]]'
+  type: by
+- target: '[[concepts/yolo-structured-spectrum-vibe-coding|YOLO, Structured, Spec-Driven Spectrum of Vibe Coding]]'
+  type: introduces
+- target: '[[concepts/ai-design-sense|AI Design Sense]]'
+  type: demonstrates
+summary: 'Vibe Coding at Scale: Customizing AI Assistants for Enterprise Environments'
 ---
 
 # Vibe Coding at Scale: Customizing AI Assistants for Enterprise Environments

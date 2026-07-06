@@ -1,18 +1,18 @@
 ---
-title: "Hybrid Retrieval"
+title: Hybrid Retrieval
 tags:
-  - retrieval
-  - search
-  - vector-search
-  - keyword-search
-  - semantic-search
-  - filtering
-  - aief2025
+- retrieval
+- search
+- vector-search
+- keyword-search
+- semantic-search
+- filtering
+- aief2025
 aliases:
-  - Multi-Strategy Retrieval
+- Multi-Strategy Retrieval
 sources:
-  - "[[sources/watchv=w1mizchnkfa]]"
-summary: "Combining vector search, keyword matching, semantic search, temporal filtering, and domain-specific filtering in a single retrieval pipeline to handle complex queries."
+- 'https://www.youtube.com/watch?v=w1mizchnkfa'
+summary: Combining vector search, keyword matching, semantic search, temporal filtering, and domain-specific filtering in a single retrieval pipeline to handle complex queries.
 provenance:
   extracted: 0.8
   inferred: 0.2
@@ -23,10 +23,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/hybrid-search|Hybrid Search]]"
-    type: extends
-  - target: "[[concepts/enterprise-rag|Enterprise RAG]]"
-    type: uses
+- target: '[[concepts/hybrid-search|Hybrid Search]]'
+  type: extends
+- target: '[[concepts/enterprise-rag|Enterprise RAG]]'
+  type: uses
+category: concepts
 ---
 
 # Hybrid Retrieval

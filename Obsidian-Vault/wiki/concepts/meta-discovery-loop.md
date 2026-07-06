@@ -11,7 +11,7 @@ tags:
 aliases: [meta-discovery-loop, meta discovery loop, self-debugging loop]
 summary: An agent uses observability tools as MCP servers to inspect its own traces, discover other tools, and autonomously debug and fix issues.
 sources:
-  - "[[sources/watchv=lcqat4ip_le]]"
+  - "https://www.youtube.com/watch?v=lcqat4ip_le"
 provenance:
   extracted: 0.92
   inferred: 0.06

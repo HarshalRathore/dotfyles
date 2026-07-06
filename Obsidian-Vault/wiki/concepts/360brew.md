@@ -1,21 +1,21 @@
 ---
-title: "360Brew"
+title: 360Brew
 category: concepts
 tags:
-  - 360brew
-  - llm
-  - recommendation-systems
-  - personalization
-  - foundation-model
-  - linkedin
-  - multi-task-learning
+- 360brew
+- llm
+- recommendation-systems
+- personalization
+- foundation-model
+- linkedin
+- multi-task-learning
 aliases:
-  - 360Brew
-  - Brew XL
+- 360Brew
+- Brew XL
 sources:
-  - "[[sources/watchv=u0s6cfzay5c]]"
+- 'https://www.youtube.com/watch?v=u0s6cfzay5c'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -24,18 +24,19 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/unified-recommendation-models]]"
-    type: implements
-  - target: "[[concepts/model-distillation]]"
-    type: uses
-  - target: "[[concepts/cold-start-recommendation]]"
-    type: extends
-  - target: "[[concepts/instruction-tuning]]"
-    type: uses
-  - target: "[[concepts/in-context-learning]]"
-    type: uses
-  - target: "[[concepts/promptification]]"
-    type: uses
+- target: '[[concepts/unified-recommendation-models]]'
+  type: implements
+- target: '[[concepts/model-distillation]]'
+  type: uses
+- target: '[[concepts/cold-start-recommendation]]'
+  type: extends
+- target: '[[concepts/instruction-tuning]]'
+  type: uses
+- target: '[[concepts/in-context-learning]]'
+  type: uses
+- target: '[[concepts/promptification]]'
+  type: uses
+summary: 360Brew
 ---
 # 360Brew
 

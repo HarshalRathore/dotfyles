@@ -1,40 +1,44 @@
 ---
-title: "Semantic Similarity"
+title: Semantic Similarity
 tags:
-  - nlp
-  - embeddings
-  - word-relationships
-  - connections
-  - graph-coloring
-  - agent-memory
-  - rag
-aliases: [Semantic Similarity, Semantic Relatedness, Word Similarity]
+- nlp
+- embeddings
+- word-relationships
+- connections
+- graph-coloring
+- agent-memory
+- rag
+aliases:
+- Semantic Similarity
+- Semantic Relatedness
+- Word Similarity
 sources:
-  - "[[sources/watchv=p_uhfgh4j9y]]"
-  - "[[sources/watchv=t5imo5ntyha]]"
-summary: "The measure of how closely related two words are in meaning. Used as edge weights in Connections graph coloring solvers. Critiqued as insufficient for business-relevant memory retrieval in agent systems."
+- 'https://www.youtube.com/watch?v=p_uhfgh4j9y'
+- 'https://www.youtube.com/watch?v=t5imo5ntyha'
+summary: The measure of how closely related two words are in meaning. Used as edge weights in Connections graph coloring solvers. Critiqued as insufficient for business-relevant memory retrieval in agent sy...
 provenance:
-  extracted: 0.60
-  inferred: 0.30
-  ambiguous: 0.10
+  extracted: 0.6
+  inferred: 0.3
+  ambiguous: 0.1
 base_confidence: 0.65
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/graph-coloring]]"
-    type: used_in
-  - target: "[[concepts/connections-game]]"
-    type: applied_to
-  - target: "[[concepts/abstract-reasoning]]"
-    type: enables
-  - target: "[[concepts/llm-judge-best-practices]]"
-    type: related_to
-  - target: "[[concepts/domain-aware-memory]]"
-    type: contrasted_with
-  - target: "[[concepts/business-relevance-retrieval]]"
-    type: replaced_by
+- target: '[[concepts/graph-coloring]]'
+  type: used_in
+- target: '[[concepts/connections-game]]'
+  type: applied_to
+- target: '[[concepts/abstract-reasoning]]'
+  type: enables
+- target: '[[concepts/llm-judge-best-practices]]'
+  type: related_to
+- target: '[[concepts/domain-aware-memory]]'
+  type: contrasted_with
+- target: '[[concepts/business-relevance-retrieval]]'
+  type: replaced_by
+category: concepts
 ---
 
 # Semantic Similarity

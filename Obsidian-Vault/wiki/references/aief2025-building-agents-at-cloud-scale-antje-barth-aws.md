@@ -1,16 +1,16 @@
 ---
-title: "AIEF2025 - Building Agents at Cloud Scale — Antje Barth, AWS"
+title: AIEF2025 - Building Agents at Cloud Scale — Antje Barth, AWS
 tags:
-  - ai-engineer-worlds-fair-2025
-  - aws
-  - ai-agents
-  - cloud-scale
-  - strands-agents
-  - alexa
-  - amazon-q
+- ai-engineer-worlds-fair-2025
+- aws
+- ai-agents
+- cloud-scale
+- strands-agents
+- alexa
+- amazon-q
 sources:
-  - "AIEF2025 - Building Agents at Cloud Scale — Antje Barth, AWS - https://www.youtube.com/watch?v=WJjInLeaJjo"
-summary: "Antje Barth (AWS) at AI Engineer World's Fair 2025: building AI agents at cloud scale, covering Alexa Plus reimagining, Strands Agents SDK, Amazon Q Developer CLI, and model-driven agent design."
+- AIEF2025 - Building Agents at Cloud Scale — Antje Barth, AWS - https://www.youtube.com/watch?v=WJjInLeaJjo
+summary: 'Antje Barth (AWS) at AI Engineer World''s Fair 2025: building AI agents at cloud scale, covering Alexa Plus reimagining, Strands Agents SDK, Amazon Q Developer CLI, and model-driven agent design.'
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -22,14 +22,15 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/antje-barth|Antje Barth]]"
-    type: related_to
-  - target: "[[entities/aws|AWS]]"
-    type: related_to
-  - target: "[[entities/strands-agents|Strands Agents]]"
-    type: related_to
-  - target: "[[entities/alexa|Alexa]]"
-    type: related_to
+- target: '[[entities/antje-barth|Antje Barth]]'
+  type: related_to
+- target: '[[entities/aws|AWS]]'
+  type: related_to
+- target: '[[entities/strands-agents|Strands Agents]]'
+  type: related_to
+- target: '[[entities/alexa|Alexa]]'
+  type: related_to
+category: references
 ---
 # AIEF2025 - Building Agents at Cloud Scale — Antje Barth, AWS
 

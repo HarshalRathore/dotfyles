@@ -1,17 +1,17 @@
 ---
-title: "Context Gap"
+title: Context Gap
 tags:
-  - ai-agents
-  - context
-  - onboarding
-  - aief2025
+- ai-agents
+- context
+- onboarding
+- aief2025
 aliases:
-  - context gap
-  - knowledge gap
+- context gap
+- knowledge gap
 sources:
-  - "AIEF2025 - Mentoring the Machine — Eric Hou, Augment Code - https://www.youtube.com/watch?v=Zniw5c9_jx8"
+- AIEF2025 - Mentoring the Machine — Eric Hou, Augment Code - https://www.youtube.com/watch?v=Zniw5c9_jx8
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.88
@@ -20,14 +20,20 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: [[concepts/agent-mentoring-model|Agent Mentoring Model]]
-    type: addressed_by
-  - target: [[concepts/perpetually-junior-engineer|Perpetually Junior Engineer]]
-    type: core_component_of
-  - target: [[concepts/agent-memory-knowledge|Agent Memory & Knowledge]]
-    type: relates_to
-  - target: [[concepts/dynamic-context-ai|Dynamic Context AI]]
-    type: relates_to
+- target:
+  - - concepts/agent-mentoring-model|Agent Mentoring Model
+  type: addressed_by
+- target:
+  - - concepts/perpetually-junior-engineer|Perpetually Junior Engineer
+  type: core_component_of
+- target:
+  - - concepts/agent-memory-knowledge|Agent Memory & Knowledge
+  type: relates_to
+- target:
+  - - concepts/dynamic-context-ai|Dynamic Context AI
+  type: relates_to
+category: concepts
+summary: Context Gap
 ---
 
 # Context Gap

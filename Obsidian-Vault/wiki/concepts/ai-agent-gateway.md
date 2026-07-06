@@ -1,11 +1,19 @@
 ---
 title: AI Agent Gateway
 category: concepts
-tags: [ai-gateway, agent-gateway, model-routing, cost-tracking, agent-infrastructure]
-aliases: [agent gateway, AI gateway, model gateway]
-summary: A unified gateway layer for AI agents that abstracts model API keys, routes requests, and tracks costs, prompts, and responses — eliminating the need for developers to manage model credentials directly.
+tags:
+- ai-gateway
+- agent-gateway
+- model-routing
+- cost-tracking
+- agent-infrastructure
+aliases:
+- agent gateway
+- AI gateway
+- model gateway
+summary: A unified gateway layer for AI agents that abstracts model API keys, routes requests, and tracks costs, prompts, and responses — eliminating the need for developers to manage model credentials dire...
 sources:
-  - "AIEF2025 - Conquering Agent Chaos — Rick Blalock, Agentuity - https://www.youtube.com/watch?v=yASxPZ-tZe0"
+- AIEF2025 - Conquering Agent Chaos — Rick Blalock, Agentuity - https://www.youtube.com/watch?v=yASxPZ-tZe0
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -17,10 +25,10 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/agent-routing]]"
-    type: enables
-  - target: "[[concepts/agent-infrastructure]]"
-    type: component_of
+- target: '[[concepts/agent-routing]]'
+  type: enables
+- target: '[[concepts/agent-infrastructure]]'
+  type: component_of
 ---
 
 ## AI Agent Gateway

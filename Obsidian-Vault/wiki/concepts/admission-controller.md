@@ -1,17 +1,23 @@
 ---
 summary: Admission controllers intercept API requests to enforce cluster policies through mutating and validating phases.
 type: concept
-title: "Admission Controller"
+title: Admission Controller
 created:
-  - "2026-06-30"
+- '2026-06-30'
 updated:
-  - "2026-06-30"
+- '2026-06-30'
 lifecycle: draft
 base_confidence: 0.75
 sources:
-  - "[[sources/kubernetes-autoscaling_59fbf3]]"
-  - "[[sources/admission-controllers_7667fc]]"
-tags:
+- '[[sources/kubernetes-autoscaling_59fbf3]]'
+- '[[sources/admission-controllers_7667fc]]'
+tags: []
+category: concepts
+tier: supporting
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
 ---
 ## Description
 An Admission Controller is a component within the Kubernetes API server that intercepts create, update, and delete requests after authentication and authorization but before object persistence. It enforces cluster-wide policies by validating, mutating, or rejecting objects based on defined rules, running in two distinct phases: mutating (which can modify request objects) and validating (which only checks for compliance). This mechanism is crucial for implementing security policies, resource constraints, and default behaviors that RBAC alone cannot enforce.

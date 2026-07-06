@@ -1,39 +1,39 @@
 ---
-title: "Cloudflare Agents SDK"
+title: Cloudflare Agents SDK
 category: entities
 tags:
-  - sdk
-  - cloudflare
-  - agents
-  - mcp
-  - durable-objects
-  - serverless
-  - oauth
+- sdk
+- cloudflare
+- agents
+- mcp
+- durable-objects
+- serverless
+- oauth
 aliases:
-  - Cloudflare Agents
-  - CF Agents SDK
+- Cloudflare Agents
+- CF Agents SDK
 sources:
-  - "AIEF2025 - Building Agents (the hard parts!) - Rita Kozlov, Cloudflare - https://www.youtube.com/watch?v=j_TKDweOsYE"
-summary: "Cloudflare's SDK for building and hosting AI agents and MCP servers. Provides built-in OAuth, transport (SSE/WebSockets), HTTP streaming, and state management via Durable Objects. Compatible with OpenAI's Agents SDK."
+- AIEF2025 - Building Agents (the hard parts!) - Rita Kozlov, Cloudflare - https://www.youtube.com/watch?v=j_TKDweOsYE
+summary: Cloudflare's SDK for building and hosting AI agents and MCP servers. Provides built-in OAuth, transport (SSE/WebSockets), HTTP streaming, and state management via Durable Objects. Compatible with O...
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/model-context-protocol]]"
-    type: implements
-  - target: "[[concepts/durable-objects]]"
-    type: uses
-  - target: "[[entities/cloudflare]]"
-    type: owned_by
-  - target: "[[concepts/agent-architecture]]"
-    type: enables
+- target: '[[concepts/model-context-protocol]]'
+  type: implements
+- target: '[[concepts/durable-objects]]'
+  type: uses
+- target: '[[entities/cloudflare]]'
+  type: owned_by
+- target: '[[concepts/agent-architecture]]'
+  type: enables
 ---
 
 # Cloudflare Agents SDK

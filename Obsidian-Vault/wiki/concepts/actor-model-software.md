@@ -1,33 +1,38 @@
 ---
-title: "Actor Model of Software"
+title: Actor Model of Software
 category: concepts
 tags:
-  - software-architecture
-  - actors
-  - docker
-  - mcp
-  - composable-software
-  - apify
-aliases: [actor model, actors, actor-based software, self-contained software]
+- software-architecture
+- actors
+- docker
+- mcp
+- composable-software
+- apify
+aliases:
+- actor model
+- actors
+- actor-based software
+- self-contained software
 sources:
-  - "AIEF2025 - The rise of the agentic economy on the shoulders of MCP — Jan Curn, Apify - https://www.youtube.com/watch?v=blW-lSd5CYQ"
+- AIEF2025 - The rise of the agentic economy on the shoulders of MCP — Jan Curn, Apify - https://www.youtube.com/watch?v=blW-lSd5CYQ
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/the-agentic-economy]]"
-    type: enables
-  - target: "[[concepts/mcp-as-agent-tools|MCP as Agent Tool Layer]]"
-    type: relates_to
-  - target: "[[entities/apify]]"
-    type: used_by
+- target: '[[concepts/the-agentic-economy]]'
+  type: enables
+- target: '[[concepts/mcp-as-agent-tools|MCP as Agent Tool Layer]]'
+  type: relates_to
+- target: '[[entities/apify]]'
+  type: used_by
+summary: Actor Model of Software
 ---
 
 # Actor Model of Software

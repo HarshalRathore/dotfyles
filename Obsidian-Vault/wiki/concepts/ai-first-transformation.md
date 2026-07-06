@@ -1,27 +1,29 @@
 ---
-title: "AI-First Transformation"
+title: AI-First Transformation
 tags:
-  - concept
-  - ai
-  - strategy
-  - organization
-  - transformation
-aliases: [becoming an AI-first company, AI-first SaaS transformation]
+- concept
+- ai
+- strategy
+- organization
+- transformation
+aliases:
+- becoming an AI-first company
+- AI-first SaaS transformation
 relationships:
-  - target: "[[concepts/build-operate-divide]]"
-    type: related_to
-  - target: "[[concepts/execution-as-moat]]"
-    type: related_to
-  - target: "[[concepts/ritualized-discovery]]"
-    type: related_to
-  - target: "[[concepts/ai-first-company-announcements]]"
-    type: related_to
-  - target: "[[concepts/ai-team-anatomy]]"
-    type: related_to
+- target: '[[concepts/build-operate-divide]]'
+  type: related_to
+- target: '[[concepts/execution-as-moat]]'
+  type: related_to
+- target: '[[concepts/ritualized-discovery]]'
+  type: related_to
+- target: '[[concepts/ai-first-company-announcements]]'
+  type: related_to
+- target: '[[concepts/ai-team-anatomy]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=3ygrcgzj3yc]]"
-  - "[[sources/watchv=sbuxrluvrwk]]"
-summary: "A framework for evolving a SaaS company to put AI at the center of strategy, ways of working, and people — organized across three dimensions: Strategy, Ways of Working, and People."
+- 'https://www.youtube.com/watch?v=3ygrcgzj3yc'
+- 'https://www.youtube.com/watch?v=sbuxrluvrwk'
+summary: 'A framework for evolving a SaaS company to put AI at the center of strategy, ways of working, and people — organized across three dimensions: Strategy, Ways of Working, and People.'
 provenance:
   extracted: 0.78
   inferred: 0.15
@@ -31,6 +33,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-04
+category: concepts
 ---
 
 # AI-First Transformation
@@ -46,7 +49,7 @@ In an AI-enhanced approach, the question is "where can we add intelligence to an
 This shift requires:
 - Reimagining what's possible rather than just optimizing existing workflows ^[inferred]
 - Solving problems that were previously unsolvable in ways customers may not even imagine ^[extracted]
-- Navigating the tension between shipping current roadmap needs and investing in the AI future — a form of the [[concepts/art-agi-3?|Innovator's Dilemma]] amplified by AI's pace ^[inferred]
+- Navigating the tension between shipping current roadmap needs and investing in the AI future — a form of the Innovator's Dilemma amplified by AI's pace ^[inferred]
 
 ### 2. Ways of Working — From Deterministic Roadmaps to Ambiguity-Embracing Discovery
 

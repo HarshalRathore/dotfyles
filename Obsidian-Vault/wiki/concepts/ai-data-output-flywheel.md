@@ -4,7 +4,7 @@ category: concepts
 tags: [product-strategy, data, flywheel, competitive-advantage, ai-product]
 aliases: [data-output flywheel, AI flywheel, data compounding]
 sources:
-  - "[[sources/watchv=1mvh05gdyde]]"
+  - "https://www.youtube.com/watch?v=1mvh05gdyde"
 summary: "A self-reinforcing cycle where proprietary data generates unique AI outputs, which build more proprietary data, compounding competitive advantage over time."
 provenance:
   extracted: 0.75

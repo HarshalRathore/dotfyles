@@ -15,7 +15,7 @@ relationships:
   - target: "[[concepts/application-layer-evals]]"
     type: relates_to
 sources:
-  - "[[sources/watchv=l8ooyedi_ls]]"
+  - "https://www.youtube.com/watch?v=l8ooyedi_ls"
 summary: "A fictional app used by Ido Pesok at AIEF2025 to illustrate why LLMs are unreliable in production. The app counts letters in fruit names — works in demo, fails with real users."
 provenance:
   extracted: 0.95

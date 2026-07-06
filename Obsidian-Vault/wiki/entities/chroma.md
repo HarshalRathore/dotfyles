@@ -1,19 +1,20 @@
 ---
-title: "Chroma"
+title: Chroma
 category: entities
 tags:
-  - company
-  - ai
-  - vector-database
-  - embeddings
-  - open-source
-  - chroma-ai
-aliases: [chroma-ai]
+- company
+- ai
+- vector-database
+- embeddings
+- open-source
+- chroma-ai
+aliases:
+- chroma-ai
 sources:
-  - "AIEF2025 - How to look at your data — Jeff Huber (Chroma) + Jason Liu (567) - https://www.youtube.com/watch?v=jryZvCuA0Uc"
+- AIEF2025 - How to look at your data — Jeff Huber (Chroma) + Jason Liu (567) - https://www.youtube.com/watch?v=jryZvCuA0Uc
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.85
 lifecycle: draft
@@ -22,12 +23,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/jeff-huber|Jeff Huber]]"
-    type: related_to
-  - target: "[[concepts/fast-evals|Fast Evals]]"
-    type: uses
-  - target: "[[entities/weights-and-biases|Weights & Biases]]"
-    type: related_to
+- target: '[[entities/jeff-huber|Jeff Huber]]'
+  type: related_to
+- target: '[[concepts/fast-evals|Fast Evals]]'
+  type: uses
+- target: '[[entities/weights-and-biases|Weights & Biases]]'
+  type: related_to
+summary: Chroma
 ---
 
 # Chroma

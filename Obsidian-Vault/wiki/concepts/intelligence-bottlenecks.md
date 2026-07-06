@@ -1,22 +1,22 @@
 ---
-title: "Intelligence Bottlenecks"
+title: Intelligence Bottlenecks
 tags:
-  - concept
-  - ai
-  - history
-  - scaling
-  - reasoning
+- concept
+- ai
+- history
+- scaling
+- reasoning
 aliases:
-  - AI bottleneck progress
-  - bottleneck-driven AI progress
+- AI bottleneck progress
+- bottleneck-driven AI progress
 relationships:
-  - target: "[[concepts/test-time-compute-scaling]]"
-    type: derived_from
+- target: '[[concepts/test-time-compute-scaling]]'
+  type: derived_from
 sources:
-  - "[[sources/watchv=8eqo4j2bwkw]]"
-summary: "A framework describing AI progress as a sequence of identified and solved bottlenecks: identifying the most prescient limitation in current systems reveals the next breakthrough direction."
+- 'https://www.youtube.com/watch?v=8eqo4j2bwkw'
+summary: 'A framework describing AI progress as a sequence of identified and solved bottlenecks: identifying the most prescient limitation in current systems reveals the next breakthrough direction.'
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.45
@@ -24,6 +24,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Intelligence Bottlenecks

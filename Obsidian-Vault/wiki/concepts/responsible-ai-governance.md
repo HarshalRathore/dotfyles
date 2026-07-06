@@ -1,24 +1,25 @@
 ---
-title: "Responsible AI Governance"
+title: Responsible AI Governance
 category: concepts
 tags:
-  - responsible-ai
-  - governance
-  - pii
-  - privacy
-  - brand-trust
-  - enterprise-ai
+- responsible-ai
+- governance
+- pii
+- privacy
+- brand-trust
+- enterprise-ai
 sources:
-  - "[[sources/watchv=rofhhjmumcc]]"
+- 'https://www.youtube.com/watch?v=rofhhjmumcc'
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Responsible AI Governance
 ---
 # Responsible AI Governance
 

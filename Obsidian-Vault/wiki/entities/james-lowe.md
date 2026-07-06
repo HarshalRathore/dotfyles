@@ -1,10 +1,16 @@
 ---
-title: "James Lowe"
+title: James Lowe
 category: entities
-tags: [person, ai-engineering, product-management, uk-government, ai-product-manager]
-aliases: [james lowe]
+tags:
+- person
+- ai-engineering
+- product-management
+- uk-government
+- ai-product-manager
+aliases:
+- james lowe
 sources:
-  - "AIEF2025 - Why your product needs an AI product manager, and why it should be you — James Lowe, i.AI - https://www.youtube.com/watch?v=xzJdSi2Tsqw"
+- AIEF2025 - Why your product needs an AI product manager, and why it should be you — James Lowe, i.AI - https://www.youtube.com/watch?v=xzJdSi2Tsqw
 provenance:
   extracted: 0.95
   inferred: 0.05
@@ -16,10 +22,11 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/incubator-for-ai]]"
-    type: works_at
-  - target: "[[concepts/ai-product-manager]]"
-    type: advocates
+- target: '[[entities/incubator-for-ai]]'
+  type: works_at
+- target: '[[concepts/ai-product-manager]]'
+  type: advocates
+summary: James Lowe
 ---
 
 # James Lowe

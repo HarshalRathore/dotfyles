@@ -1,14 +1,23 @@
 ---
 title: Diego Rodriguez
 category: entities
-tags: [person, entrepreneur, ai, creative-suite, aief2025, hf0-residency, crea, krea-ai, perceptual-evals]
-summary: "Co-founder and CTO of CREA (AI creative suite, 25M users) and Krea.ai (generative media, perceptual evaluation). Previously founded multiple companies. Speaker at AIEF2025 on perceptual evaluations for aesthetics."
+tags:
+- person
+- entrepreneur
+- ai
+- creative-suite
+- aief2025
+- hf0-residency
+- crea
+- krea-ai
+- perceptual-evals
+summary: Co-founder and CTO of CREA (AI creative suite, 25M users) and Krea.ai (generative media, perceptual evaluation). Previously founded multiple companies. Speaker at AIEF2025 on perceptual evaluations...
 sources:
-  - "[[sources/watchv=l8-5ezsoi5a]]"
-  - "AIEF2025 - Perceptual Evaluations: Evals for Aesthetics — Diego Rodriguez, Krea.ai - https://www.youtube.com/watch?v=h5ItAJuB3Fc"
+- 'https://www.youtube.com/watch?v=l8-5ezsoi5a'
+- 'AIEF2025 - Perceptual Evaluations: Evals for Aesthetics — Diego Rodriguez, Krea.ai - https://www.youtube.com/watch?v=h5ItAJuB3Fc'
 provenance:
   extracted: 0.9
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
@@ -17,10 +26,10 @@ created: 2026-07-04
 lifecycle_changed: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/crea]]"
-    type: implements
-  - target: "[[entities/krea-ai|Krea.ai]]"
-    type: implements
+- target: '[[entities/crea]]'
+  type: implements
+- target: '[[entities/krea-ai|Krea.ai]]'
+  type: implements
 ---
 
 # Diego Rodriguez

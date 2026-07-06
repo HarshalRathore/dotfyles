@@ -1,26 +1,30 @@
 ---
-title: "Parallel Agent Workflows"
+title: Parallel Agent Workflows
 category: concepts
 tags:
-  - parallel-agents
-  - multi-agent
-  - agent-coordination
-  - async-agents
-  - coding-agents
-  - aief2025
+- parallel-agents
+- multi-agent
+- agent-coordination
+- async-agents
+- coding-agents
+- aief2025
 sources:
-  - "AIEF2025 - Your Coding Agent Just Got Cloned And Your Brain Isn't Ready - Rustin Banks, Google Jules - https://www.youtube.com/watch?v=X4BwOu0GWb8"
+- AIEF2025 - Your Coding Agent Just Got Cloned And Your Brain Isn't Ready - Rustin Banks, Google Jules - https://www.youtube.com/watch?v=X4BwOu0GWb8
 relationships:
-  - target: [[concepts/multi-agent-workflows|Multi-Agent Workflows]]
-    type: extends
-  - target: [[concepts/agent-coordination|Agent Coordination]]
-    type: related_to
-  - target: [[concepts/remote-agents-as-a-service|Remote Agents as a Service]]
-    type: requires
-  - target: [[concepts/definition-of-success-parallel-agents|Definition of Success for Parallel Agents]]
-    type: depends_on
+- target:
+  - - concepts/multi-agent-workflows|Multi-Agent Workflows
+  type: extends
+- target:
+  - - concepts/agent-coordination|Agent Coordination
+  type: related_to
+- target:
+  - - concepts/remote-agents-as-a-service|Remote Agents as a Service
+  type: requires
+- target:
+  - - concepts/definition-of-success-parallel-agents|Definition of Success for Parallel Agents
+  type: depends_on
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.82
@@ -28,6 +32,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Parallel Agent Workflows
 ---
 
 # Parallel Agent Workflows

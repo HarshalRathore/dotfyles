@@ -1,21 +1,24 @@
 ---
-title: "AX is the only Experience that Matters — Ivan Burazin, Daytona"
+title: AX is the only Experience that Matters — Ivan Burazin, Daytona
 category: references
 tags:
-  - aief2025
-  - talk
-  - agent-experience
-  - ax
-  - agent-autonomy
-  - api-first
-  - agent-native
-  - daytona
-  - ivan-burazin
-aliases: [ax is the only experience that matters, agent experience, ivan burazin daytona]
+- aief2025
+- talk
+- agent-experience
+- ax
+- agent-autonomy
+- api-first
+- agent-native
+- daytona
+- ivan-burazin
+aliases:
+- ax is the only experience that matters
+- agent experience
+- ivan burazin daytona
 sources:
-  - "AIEF2025 - AX is the only Experience that Matters - Ivan Burazin, Daytona - https://www.youtube.com/watch?v=e9sLVMN76qU"
+- AIEF2025 - AX is the only Experience that Matters - Ivan Burazin, Daytona - https://www.youtube.com/watch?v=e9sLVMN76qU
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.17
   ambiguous: 0.03
 base_confidence: 0.85
@@ -25,12 +28,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/ivan-burazin]]"
-    type: presented_by
-  - target: "[[entities/daytona]]"
-    type: presented_at_company
-  - target: "[[concepts/agent-experience]]"
-    type: primary_topic
+- target: '[[entities/ivan-burazin]]'
+  type: presented_by
+- target: '[[entities/daytona]]'
+  type: presented_at_company
+- target: '[[concepts/agent-experience]]'
+  type: primary_topic
+summary: AX is the only Experience that Matters — Ivan Burazin, Daytona
 ---
 
 # AX is the only Experience that Matters — Ivan Burazin, Daytona

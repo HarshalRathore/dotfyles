@@ -1,30 +1,31 @@
 ---
-title: "Parsing"
+title: Parsing
 category: concepts
 tags:
-  - parsing
-  - rag
-  - multimodal
-  - document-processing
-  - markdown
+- parsing
+- rag
+- multimodal
+- document-processing
+- markdown
 summary: The process of converting non-text resources (PDFs, images, websites, audio, video) into structured text (markdown) that LLMs can understand. A critical first step in any RAG pipeline.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/chunking-strategies]]"
-    type: derived_from
-  - target: "[[concepts/multimodal-evaluation]]"
-    type: related_to
-  - target: "[[concepts/knowledge-base-pattern]]"
-    type: uses
+- target: '[[concepts/chunking-strategies]]'
+  type: derived_from
+- target: '[[concepts/multimodal-evaluation]]'
+  type: related_to
+- target: '[[concepts/knowledge-base-pattern]]'
+  type: uses
+sources: []
 ---
 
 # Parsing

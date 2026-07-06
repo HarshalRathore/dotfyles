@@ -1,31 +1,35 @@
 ---
-title: "Combination Attack Strategies"
+title: Combination Attack Strategies
 category: concepts
 tags:
-  - attack-strategies
-  - adversarial
-  - composability
-  - ai-red-teaming
-  - pyrit
-aliases: [composable attack strategies, chained attack strategies, multi-layer attacks]
+- attack-strategies
+- adversarial
+- composability
+- ai-red-teaming
+- pyrit
+aliases:
+- composable attack strategies
+- chained attack strategies
+- multi-layer attacks
 relationships:
-  - target: "[[concepts/attack-strategies]]"
-    type: extends
-  - target: "[[entities/pyrit]]"
-    type: implements
-  - target: "[[concepts/ai-red-teaming]]"
-    type: implements
+- target: '[[concepts/attack-strategies]]'
+  type: extends
+- target: '[[entities/pyrit]]'
+  type: implements
+- target: '[[concepts/ai-red-teaming]]'
+  type: implements
 sources:
-  - "[[sources/watchv=jhjkgramfiu]]"
+- 'https://www.youtube.com/watch?v=jhjkgramfiu'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Combination Attack Strategies
 ---
 
 # Combination Attack Strategies

@@ -1,44 +1,45 @@
 ---
-title: "Eval-Driven Development"
+title: Eval-Driven Development
 category: concepts
 tags:
-  - evaluation
-  - development-methodology
-  - quality
-  - enterprise-ai
+- evaluation
+- development-methodology
+- quality
+- enterprise-ai
 aliases:
-  - Eval-Driven Development
-  - EDD
-  - Evaluation-First Development
+- Eval-Driven Development
+- EDD
+- Evaluation-First Development
 sources:
-  - "AIEF2025 - How Intuit uses LLMs to explain taxes to millions of taxpayers - Jaspreet Singh, Intuit - https://www.youtube.com/watch?v=_zl_zimMRak"
-  - "AIEF2025 - Five hard earned lessons about Evals — Ankur Goyal, Braintrust - https://www.youtube.com/watch?v=a4BV0gGmXgA"
-  - "AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY"
-  - "AIEF2025 - How to run Evals at Scale: Thinking beyond Accuracy or Similarity — Muktesh Mishra, Adobe - https://www.youtube.com/watch?v=coKKKKh8Vns"
-  - "AIEF2025 - Why should anyone care about Evals? — Manu Goyal, Braintrust - https://www.youtube.com/watch?v=jJ45Yz1lJao"
-  - "AIEF2025 - Building Agents (the hard parts!) - Rita Kozlov, Cloudflare - https://www.youtube.com/watch?v=j_TKDweOsYE"
-  - "AIEF2025 - Prompt Engineering is Dead — Nir Gazit, Traceloop - https://www.youtube.com/watch?v=jvKf6zXrNO4"
-  - "AIEF2025 - From Self-driving to Autonomous Voice Agents — Brooke Hopkins, Coval - https://www.youtube.com/watch?v=kDczF4wBh8s"
-  - "AIEF2025 - Taming Rogue AI Agents with Observability-Driven Evaluation — Jim Bennett, Galileo - https://www.youtube.com/watch?v=xJXm4Wcw4m8"
+- AIEF2025 - How Intuit uses LLMs to explain taxes to millions of taxpayers - Jaspreet Singh, Intuit - https://www.youtube.com/watch?v=_zl_zimMRak
+- AIEF2025 - Five hard earned lessons about Evals — Ankur Goyal, Braintrust - https://www.youtube.com/watch?v=a4BV0gGmXgA
+- AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY
+- 'AIEF2025 - How to run Evals at Scale: Thinking beyond Accuracy or Similarity — Muktesh Mishra, Adobe - https://www.youtube.com/watch?v=coKKKKh8Vns'
+- AIEF2025 - Why should anyone care about Evals? — Manu Goyal, Braintrust - https://www.youtube.com/watch?v=jJ45Yz1lJao
+- AIEF2025 - Building Agents (the hard parts!) - Rita Kozlov, Cloudflare - https://www.youtube.com/watch?v=j_TKDweOsYE
+- AIEF2025 - Prompt Engineering is Dead — Nir Gazit, Traceloop - https://www.youtube.com/watch?v=jvKf6zXrNO4
+- AIEF2025 - From Self-driving to Autonomous Voice Agents — Brooke Hopkins, Coval - https://www.youtube.com/watch?v=kDczF4wBh8s
+- AIEF2025 - Taming Rogue AI Agents with Observability-Driven Evaluation — Jim Bennett, Galileo - https://www.youtube.com/watch?v=xJXm4Wcw4m8
 provenance:
-  extracted: 0.60
-  inferred: 0.30
-  ambiguous: 0.10
-base_confidence: 0.70
+  extracted: 0.6
+  inferred: 0.3
+  ambiguous: 0.1
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/llm-evaluation-framework|LLM Evaluation Framework]]"
-    type: implements
-  - target: "[[concepts/model-picking|Model Picking]]"
-    type: enables
-  - target: "[[concepts/auto-improving-agent-loop|Auto-Improving Agent Loop]]"
-    type: extends
-  - target: "[[concepts/continuous-eval-loops|Continuous Eval Loops]]"
-    type: implements
+- target: '[[concepts/llm-evaluation-framework|LLM Evaluation Framework]]'
+  type: implements
+- target: '[[concepts/model-picking|Model Picking]]'
+  type: enables
+- target: '[[concepts/auto-improving-agent-loop|Auto-Improving Agent Loop]]'
+  type: extends
+- target: '[[concepts/continuous-eval-loops|Continuous Eval Loops]]'
+  type: implements
+summary: Eval-Driven Development
 ---
 
 # Eval-Driven Development

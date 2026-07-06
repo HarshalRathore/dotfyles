@@ -9,7 +9,7 @@ relationships:
   - target: "[[concepts/llm-data-augmentation-recsys]]"
     type: related_to
 sources:
-  - "[[sources/watchv=2vlcqd6igva]]"
+  - "https://www.youtube.com/watch?v=2vlcqd6igva"
 summary: "Content-aware item identifiers for recommendation systems that encode multimodal item features, replacing hash-based IDs to address cold start and sparsity problems."
 provenance:
   extracted: 0.65

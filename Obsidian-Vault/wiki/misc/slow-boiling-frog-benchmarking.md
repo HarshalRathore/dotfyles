@@ -1,16 +1,16 @@
 ---
-title: "Slow Boiling Frog Benchmarking"
+title: Slow Boiling Frog Benchmarking
 category: concepts
 tags:
-  - benchmarking
-  - regression-detection
-  - performance-monitoring
-  - aief2025
+- benchmarking
+- regression-detection
+- performance-monitoring
+- aief2025
 sources:
-  - "AIEF2025 - Vector Search Benchmarking - Philipp Krenn, Elastic - https://www.youtube.com/watch?v=YrUBFXa1KUY"
-summary: "The 'slow boiling frog' problem in benchmarking: gradual performance degradation goes unnoticed when benchmarks are run ad hoc. Solved by nightly automated benchmarking that continuously compares against baseline."
+- AIEF2025 - Vector Search Benchmarking - Philipp Krenn, Elastic - https://www.youtube.com/watch?v=YrUBFXa1KUY
+summary: 'The ''slow boiling frog'' problem in benchmarking: gradual performance degradation goes unnoticed when benchmarks are run ad hoc. Solved by nightly automated benchmarking that continuously compares a...'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
 base_confidence: 0.85
@@ -20,12 +20,12 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/nightly-regression-benchmarking|Nightly Regression Benchmarking]]"
-    type: related_to
-  - target: "[[concepts/benchmark-design-principles|Benchmark Design Principles]]"
-    type: related_to
-  - target: "[[concepts/benchmark-memes|Benchmark Memes]]"
-    type: related_to
+- target: '[[concepts/nightly-regression-benchmarking|Nightly Regression Benchmarking]]'
+  type: related_to
+- target: '[[concepts/benchmark-design-principles|Benchmark Design Principles]]'
+  type: related_to
+- target: '[[concepts/benchmark-memes|Benchmark Memes]]'
+  type: related_to
 ---
 
 # Slow Boiling Frog Benchmarking

@@ -1,14 +1,19 @@
 ---
-title: "Coding Agents vs Code Generation Tools"
+title: Coding Agents vs Code Generation Tools
 category: concepts
-tags: [coding-agents, code-generation, github-copilot, agentic-development, tool-evolution]
-summary: The distinction between tactical code generation tools (autocomplete, IDE assistants) and autonomous coding agents. Agents take natural language descriptions and work independently for minutes to produce solutions.
+tags:
+- coding-agents
+- code-generation
+- github-copilot
+- agentic-development
+- tool-evolution
+summary: The distinction between tactical code generation tools (autocomplete, IDE assistants) and autonomous coding agents. Agents take natural language descriptions and work independently for minutes to p...
 sources:
-  - "AIEF2025 - Software Development Agents: What Works and What Doesn't - Robert Brennan, OpenHands - https://www.youtube.com/watch?v=o_hhkJtlbSs"
+- 'AIEF2025 - Software Development Agents: What Works and What Doesn''t - Robert Brennan, OpenHands - https://www.youtube.com/watch?v=o_hhkJtlbSs'
 provenance:
   extracted: 0.92
   inferred: 0.08
-  ambiguous: 0.00
+  ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-05
@@ -16,12 +21,12 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/assistive-vs-automation-agents|Assistive vs Automation Agents]]"
-    type: related_to
-  - target: "[[concepts/agent-evolution|Agent Evolution: From Autocomplete to Autonomous]]"
-    type: extends
-  - target: "[[concepts/agent-loop|Agent Loop]]"
-    type: related_to
+- target: '[[concepts/assistive-vs-automation-agents|Assistive vs Automation Agents]]'
+  type: related_to
+- target: '[[concepts/agent-evolution|Agent Evolution: From Autocomplete to Autonomous]]'
+  type: extends
+- target: '[[concepts/agent-loop|Agent Loop]]'
+  type: related_to
 ---
 
 # Coding Agents vs Code Generation Tools

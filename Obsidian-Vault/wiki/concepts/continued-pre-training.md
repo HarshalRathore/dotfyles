@@ -1,33 +1,33 @@
 ---
-title: "Continued Pre-training for Domain Adaptation"
+title: Continued Pre-training for Domain Adaptation
 category: concepts
 tags:
-  - llm
-  - fine-tuning
-  - domain-adaptation
-  - recommendation-systems
-  - gemini
+- llm
+- fine-tuning
+- domain-adaptation
+- recommendation-systems
+- gemini
 aliases:
-  - Continued Pre-training
-  - Domain Pre-training
-  - Post-pre-training
+- Continued Pre-training
+- Domain Pre-training
+- Post-pre-training
 relationships:
-  - target: "[[concepts/large-recommender-model]]"
-    type: uses
-  - target: "[[concepts/semantic-video-tokenization]]"
-    type: uses
-  - target: "[[concepts/recommendation-serving-cost]]"
-    type: related_to
-  - target: "[[concepts/reinforcement-learning-at-scale]]"
-    type: related_to
+- target: '[[concepts/large-recommender-model]]'
+  type: uses
+- target: '[[concepts/semantic-video-tokenization]]'
+  type: uses
+- target: '[[concepts/recommendation-serving-cost]]'
+  type: related_to
+- target: '[[concepts/reinforcement-learning-at-scale]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=lxqsq3vzdqo]]"
-  - "[[sources/watchv=pbhm2qknu10]]"
-  - "[[sources/watchv=u0s6cfzay5c]]"
-summary: "The two-phase process of teaching a base LLM (Gemini) both a new token language (Semantic IDs) and domain-specific reasoning patterns (video engagement sequences). Complemented by RL training for interactive behavior."
+- 'https://www.youtube.com/watch?v=lxqsq3vzdqo'
+- 'https://www.youtube.com/watch?v=pbhm2qknu10'
+- 'https://www.youtube.com/watch?v=u0s6cfzay5c'
+summary: The two-phase process of teaching a base LLM (Gemini) both a new token language (Semantic IDs) and domain-specific reasoning patterns (video engagement sequences). Complemented by RL training for i...
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.65
 lifecycle: draft

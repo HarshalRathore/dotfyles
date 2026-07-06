@@ -1,16 +1,19 @@
 ---
-title: "Agent Factory"
+title: Agent Factory
 tags:
-  - concept
-  - agent
-  - platform
-  - infrastructure
-  - microsoft
-  - deployment
-aliases: [agent platform, agent build platform, agent deployment factory]
+- concept
+- agent
+- platform
+- infrastructure
+- microsoft
+- deployment
+aliases:
+- agent platform
+- agent build platform
+- agent deployment factory
 sources:
-  - "[[sources/watchv=7hrw6rtxahc]]"
-summary: "Platform for building, deploying, and managing AI agents as continuously-evolving behaviors rather than static binaries — with built-in evaluation, monitoring, and cloud-to-edge deployment."
+- 'https://www.youtube.com/watch?v=7hrw6rtxahc'
+summary: Platform for building, deploying, and managing AI agents as continuously-evolving behaviors rather than static binaries — with built-in evaluation, monitoring, and cloud-to-edge deployment.
 provenance:
   extracted: 0.72
   inferred: 0.23
@@ -20,6 +23,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Agent Factory

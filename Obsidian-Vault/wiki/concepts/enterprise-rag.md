@@ -1,17 +1,17 @@
 ---
-title: "Enterprise RAG"
+title: Enterprise RAG
 tags:
-  - rag
-  - enterprise
-  - scaling
-  - data-security
-  - infrastructure
-  - aief2025
+- rag
+- enterprise
+- scaling
+- data-security
+- infrastructure
+- aief2025
 aliases:
-  - Enterprise Retrieval-Augmented Generation
+- Enterprise Retrieval-Augmented Generation
 sources:
-  - "[[sources/watchv=w1mizchnkfa]]"
-summary: "RAG systems at enterprise scale face challenges in data volume, query complexity, domain specificity, data security, and evaluation — requiring infrastructure that supports vector, keyword, and filtering databases."
+- 'https://www.youtube.com/watch?v=w1mizchnkfa'
+summary: RAG systems at enterprise scale face challenges in data volume, query complexity, domain specificity, data security, and evaluation — requiring infrastructure that supports vector, keyword, and fil...
 provenance:
   extracted: 0.85
   inferred: 0.15
@@ -22,10 +22,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/legal-ai|Legal AI]]"
-    type: extends
-  - target: "[[concepts/ai-native-lakehouse|AI-Native Multimodal Lakehouse]]"
-    type: uses
+- target: '[[concepts/legal-ai|Legal AI]]'
+  type: extends
+- target: '[[concepts/ai-native-lakehouse|AI-Native Multimodal Lakehouse]]'
+  type: uses
+category: concepts
 ---
 
 # Enterprise RAG

@@ -1,32 +1,32 @@
 ---
-title: "AI Multiplication"
+title: AI Multiplication
 category: concepts
 tags:
-  - ai
-  - productivity
-  - multiplier
-  - scaling
-  - aief2025
+- ai
+- productivity
+- multiplier
+- scaling
+- aief2025
 aliases:
-  - AI as productivity multiplier
-  - AI productivity multiplier
+- AI as productivity multiplier
+- AI productivity multiplier
 relationships:
-  - target: "[[concepts/small-ai-teams|Small AI Teams with Huge Impact]]"
-    type: implements
-  - target: "[[concepts/ai-native-toolchain|AI-Native Toolchain]]"
-    type: related_to
-  - target: "[[concepts/ai-as-skill-multiplier|AI as Skill Multiplier]]"
-    type: extends
-  - target: "[[concepts/compute-scaling-laws|Compute Scaling Laws]]"
-    type: related_to
+- target: '[[concepts/small-ai-teams|Small AI Teams with Huge Impact]]'
+  type: implements
+- target: '[[concepts/ai-native-toolchain|AI-Native Toolchain]]'
+  type: related_to
+- target: '[[concepts/ai-as-skill-multiplier|AI as Skill Multiplier]]'
+  type: extends
+- target: '[[concepts/compute-scaling-laws|Compute Scaling Laws]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=k-iykdmfkhe]]"
-  - "[[sources/watchv=m6vbaig1tsm]]"
-summary: "The principle that AI tools multiply team productivity by handling the 'easy low leverage pieces' — data pipelines, API integration, boilerplate — allowing small teams of generalists to accomplish work that would require large specialized teams."
+- 'https://www.youtube.com/watch?v=k-iykdmfkhe'
+- 'https://www.youtube.com/watch?v=m6vbaig1tsm'
+summary: The principle that AI tools multiply team productivity by handling the 'easy low leverage pieces' — data pipelines, API integration, boilerplate — allowing small teams of generalists to accomplish...
 provenance:
   extracted: 0.75
   inferred: 0.25
-  ambiguous: 0.00
+  ambiguous: 0.0
 base_confidence: 0.75
 lifecycle: draft
 lifecycle_changed: 2026-07-04

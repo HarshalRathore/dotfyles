@@ -1,22 +1,22 @@
 ---
-title: "AIEF2025 - Why We Don't Need More Data Centers - Dr. Jasper Zhang, Hyperbolic"
+title: AIEF2025 - Why We Don't Need More Data Centers - Dr. Jasper Zhang, Hyperbolic
 category: references
 tags:
-  - reference
-  - talk
-  - aief2025
-  - gpu
-  - marketplace
-  - hyperbolic
-  - data-center
+- reference
+- talk
+- aief2025
+- gpu
+- marketplace
+- hyperbolic
+- data-center
 aliases:
-  - aief2025-why-we-dont-need-more-data-centers-jasper-zhang-hyperbolic
+- aief2025-why-we-dont-need-more-data-centers-jasper-zhang-hyperbolic
 sources:
-  - "[[sources/watchv=m6vbaig1tsm]]"
+- 'https://www.youtube.com/watch?v=m6vbaig1tsm'
 provenance:
-  extracted: 1.00
-  inferred: 0.00
-  ambiguous: 0.00
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
 base_confidence: 0.95
 lifecycle: draft
 lifecycle_changed: 2026-07-04
@@ -24,12 +24,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/jasper-zhang|Dr. Jasper Zhang]]"
-    type: related_to
-  - target: "[[entities/hyperbolic|Hyperbolic]]"
-    type: related_to
-  - target: "[[concepts/gpu-marketplace|GPU Marketplace]]"
-    type: related_to
+- target: '[[entities/jasper-zhang|Dr. Jasper Zhang]]'
+  type: related_to
+- target: '[[entities/hyperbolic|Hyperbolic]]'
+  type: related_to
+- target: '[[concepts/gpu-marketplace|GPU Marketplace]]'
+  type: related_to
+summary: AIEF2025 - Why We Don't Need More Data Centers - Dr. Jasper Zhang, Hyperbolic
 ---
 
 # AIEF2025 - Why We Don't Need More Data Centers - Dr. Jasper Zhang, Hyperbolic

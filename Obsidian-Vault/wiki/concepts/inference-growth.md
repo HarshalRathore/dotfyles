@@ -1,31 +1,32 @@
 ---
-title: "Inference Growth"
+title: Inference Growth
 category: concepts
 tags:
-  - inference
-  - scaling
-  - adoption
-  - ai-infrastructure
-  - google
-  - gemini
-summary: "The exponential increase in AI inference workloads — measured as the ratio of current inference volume to a baseline period. A key signal of model adoption and ecosystem demand."
+- inference
+- scaling
+- adoption
+- ai-infrastructure
+- google
+- gemini
+summary: The exponential increase in AI inference workloads — measured as the ratio of current inference volume to a baseline period. A key signal of model adoption and ecosystem demand.
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/gemini|Gemini]]"
-    type: related_to
-  - target: "[[concepts/model-update-velocity|Model Update Velocity]]"
-    type: related_to
-  - target: "[[concepts/ai-developer-productivity|AI Developer Productivity]]"
-    type: related_to
+- target: '[[entities/gemini|Gemini]]'
+  type: related_to
+- target: '[[concepts/model-update-velocity|Model Update Velocity]]'
+  type: related_to
+- target: '[[concepts/ai-developer-productivity|AI Developer Productivity]]'
+  type: related_to
+sources: []
 ---
 
 # Inference Growth

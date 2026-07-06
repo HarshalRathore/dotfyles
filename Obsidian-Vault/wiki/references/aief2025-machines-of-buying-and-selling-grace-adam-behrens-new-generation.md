@@ -1,32 +1,35 @@
 ---
-title: "AIEF2025 - Machines of Buying and Selling Grace - Adam Behrens, New Generation"
+title: AIEF2025 - Machines of Buying and Selling Grace - Adam Behrens, New Generation
 category: references
 tags:
-  - conference-talk
-  - aief2025
-  - agentic-commerce
-  - e-commerce
-  - agent-infrastructure
-aliases: [Machines of Buying and Selling Grace, Adam Behrens AIEF2025]
+- conference-talk
+- aief2025
+- agentic-commerce
+- e-commerce
+- agent-infrastructure
+aliases:
+- Machines of Buying and Selling Grace
+- Adam Behrens AIEF2025
 sources:
-  - "AIEF2025 - Machines of Buying and Selling Grace - Adam Behrens, New Generation - https://www.youtube.com/watch?v=zlZz0mDF2eg"
+- AIEF2025 - Machines of Buying and Selling Grace - Adam Behrens, New Generation - https://www.youtube.com/watch?v=zlZz0mDF2eg
 provenance:
   extracted: 0.95
   inferred: 0.05
-  ambiguous: 0.00
-base_confidence: 0.90
+  ambiguous: 0.0
+base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/adam-behrens|Adam Behrens]]"
-    type: related_to
-  - target: "[[entities/new-generation|New Generation]]"
-    type: related_to
-  - target: "[[concepts/agentic-commerce|Agentic Commerce]]"
-    type: related_to
+- target: '[[entities/adam-behrens|Adam Behrens]]'
+  type: related_to
+- target: '[[entities/new-generation|New Generation]]'
+  type: related_to
+- target: '[[concepts/agentic-commerce|Agentic Commerce]]'
+  type: related_to
+summary: AIEF2025 - Machines of Buying and Selling Grace - Adam Behrens, New Generation
 ---
 
 # AIEF2025 - Machines of Buying and Selling Grace - Adam Behrens, New Generation

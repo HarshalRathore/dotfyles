@@ -1,29 +1,36 @@
 ---
-summary: "This guide details the manual process of establishing a Kubernetes cluster on virtual machines. It begins with crucial VM specifications (CPU ≥ 2, RAM ≥ 1.5GB, Disk ≥ 10GB) and recommends using Bri..."
+summary: This guide details the manual process of establishing a Kubernetes cluster on virtual machines. It begins with crucial VM specifications (CPU ≥ 2, RAM ≥ 1.5GB, Disk ≥ 10GB) and recommends using Bri...
 type: source
-title: "Setting up Nodes - Summary"
-created: "2026-06-30"
-updated: "2026-06-30"
+title: Setting up Nodes - Summary
+created: '2026-06-30'
+updated: '2026-06-30'
 lifecycle: draft
 base_confidence: 0.7
-source_file: ""
+source_file: ''
 tags:
-  - Bridged Adapter
-  - /etc/hosts
-  - swap
-  - iptables
-  - CRI
-  - CNI
-  - Bridged Adapter networking
-  - overlay
-  - br_netfilter
-  - "kubernetes-apt-repository-setup"
-  - "sysctl-configuration-for-kubernetes"
+- Bridged Adapter
+- /etc/hosts
+- swap
+- iptables
+- CRI
+- CNI
+- Bridged Adapter networking
+- overlay
+- br_netfilter
+- kubernetes-apt-repository-setup
+- sysctl-configuration-for-kubernetes
 aliases:
-  - Kubernetes Cluster Node Setup Guide
-  - Manual Kubernetes VM Setup
-contentHash: "1155-88022e7c"
-generation_complete: True
+- Kubernetes Cluster Node Setup Guide
+- Manual Kubernetes VM Setup
+contentHash: 1155-88022e7c
+generation_complete: true
+category: sources
+sources: []
+tier: supporting
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
 ---
 # Setting up Nodes - Summary
 
@@ -51,8 +58,8 @@ This guide details the manual process of establishing a Kubernetes cluster on vi
 - scheduling_f2b3ef
 - pods_c92b62
 - [[concepts/overlay]]
-- [[br_netfilter]]
-- [[kubernetes-apt-repository-setup]]
+- [[concepts/br_netfilter]]
+- [[concepts/kubernetes-apt-repository-setup]]
 - [[concepts/sysctl-configuration-for-kubernetes]]
 
 ## Main Points

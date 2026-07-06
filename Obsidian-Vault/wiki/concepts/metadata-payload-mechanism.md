@@ -11,7 +11,7 @@ tags:
 aliases: [metadata-payload-mechanism, metadata payload, mcp metadata context propagation]
 summary: The mechanism for passing OpenTelemetry trace context from an MCP client to server through the protocol's metadata payload field.
 sources:
-  - "[[sources/watchv=lcqat4ip_le]]"
+  - "https://www.youtube.com/watch?v=lcqat4ip_le"
 provenance:
   extracted: 0.88
   inferred: 0.08

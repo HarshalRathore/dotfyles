@@ -1,32 +1,35 @@
 ---
-title: "DigitalOcean"
+title: DigitalOcean
 tags:
-  - company
-  - cloud-provider
-  - observability
-  - customer-case-study
-  - ai-eng-worlds-fair-2025
-aliases: [digitalocean, DO]
+- company
+- cloud-provider
+- observability
+- customer-case-study
+- ai-eng-worlds-fair-2025
+aliases:
+- digitalocean
+- DO
 sources:
-  - "[[sources/watchv=l6_nigiexzq]]"
+- 'https://www.youtube.com/watch?v=l6_nigiexzq'
 summary: Cloud provider serving hundreds of thousands of customers. Traversal.ai customer that achieved ~40% MTTR reduction through autonomous incident investigation using causal ML and agent swarms.
 provenance:
   extracted: 0.95
   inferred: 0.04
   ambiguous: 0.01
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/traversal-ai]]"
-    type: uses
-  - target: "[[concepts/mttr]]"
-    type: related_to
-  - target: "[[concepts/production-troubleshooting]]"
-    type: related_to
+- target: '[[entities/traversal-ai]]'
+  type: uses
+- target: '[[concepts/mttr]]'
+  type: related_to
+- target: '[[concepts/production-troubleshooting]]'
+  type: related_to
+category: entities
 ---
 
 # DigitalOcean

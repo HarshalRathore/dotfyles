@@ -10,7 +10,7 @@ tags:
 aliases: [Simon, Simon Lockfire, Simon from Lockfire]
 summary: Engineer from Lockfire who spoke on stage at AIEF2025 about LLM observability and OpenTelemetry adoption.
 sources:
-  - "[[sources/watchv=lcqat4ip_le]]"
+  - "https://www.youtube.com/watch?v=lcqat4ip_le"
 provenance:
   extracted: 0.95
   inferred: 0.04

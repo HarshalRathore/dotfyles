@@ -1,17 +1,17 @@
 ---
-title: "Legal AI"
+title: Legal AI
 tags:
-  - legal
-  - ai
-  - enterprise
-  - domain-specific
-  - rag
-  - aief2025
+- legal
+- ai
+- enterprise
+- domain-specific
+- rag
+- aief2025
 aliases:
-  - AI in Legal
+- AI in Legal
 sources:
-  - "[[sources/watchv=w1mizchnkfa]]"
-summary: "AI applications in the legal industry face unique challenges: massive domain-specific documents, complex expert queries, strict data privacy requirements, and the need for expert-in-the-loop evaluation."
+- 'https://www.youtube.com/watch?v=w1mizchnkfa'
+summary: 'AI applications in the legal industry face unique challenges: massive domain-specific documents, complex expert queries, strict data privacy requirements, and the need for expert-in-the-loop evalua...'
 provenance:
   extracted: 0.8
   inferred: 0.2
@@ -22,10 +22,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/enterprise-rag|Enterprise RAG]]"
-    type: extends
-  - target: "[[concepts/eval-driven-development|Eval-Driven Development]]"
-    type: uses
+- target: '[[concepts/enterprise-rag|Enterprise RAG]]'
+  type: extends
+- target: '[[concepts/eval-driven-development|Eval-Driven Development]]'
+  type: uses
+category: concepts
 ---
 
 # Legal AI

@@ -1,17 +1,21 @@
 ---
-title: "Emergent Intelligence"
+title: Emergent Intelligence
 category: concepts
 tags:
-  - emergent-behavior
-  - intelligence
-  - ai-agents
-  - complexity
-  - systems-thinking
-aliases: [emergent intelligence, emergent behavior, collective intelligence, emergence]
+- emergent-behavior
+- intelligence
+- ai-agents
+- complexity
+- systems-thinking
+aliases:
+- emergent intelligence
+- emergent behavior
+- collective intelligence
+- emergence
 sources:
-  - "AIEF2025 - The rise of the agentic economy on the shoulders of MCP — Jan Curn, Apify - https://www.youtube.com/watch?v=blW-lSd5CYQ"
+- AIEF2025 - The rise of the agentic economy on the shoulders of MCP — Jan Curn, Apify - https://www.youtube.com/watch?v=blW-lSd5CYQ
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.75
@@ -21,12 +25,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/the-agentic-economy]]"
-    type: applies_to
-  - target: "[[concepts/actor-model-software]]"
-    type: relates_to
-  - target: "[[concepts/emergent-behavior-in-ai|Emergent Behavior in AI]]"
-    type: extends
+- target: '[[concepts/the-agentic-economy]]'
+  type: applies_to
+- target: '[[concepts/actor-model-software]]'
+  type: relates_to
+- target: '[[concepts/emergent-behavior-in-ai|Emergent Behavior in AI]]'
+  type: extends
+summary: Emergent Intelligence
 ---
 
 # Emergent Intelligence

@@ -8,7 +8,7 @@ tags:
   - software-engineering
   - aief2025
 sources:
-  - "[[sources/watchv=mi83but_23o]]"
+  - "https://www.youtube.com/watch?v=mi83but_23o"
 summary: "The optimal way to interact with AI agents changes every 2-3 months as capabilities advance. Each capability tier has its own interface bottleneck and optimal interaction model."
 provenance:
   extracted: 0.80

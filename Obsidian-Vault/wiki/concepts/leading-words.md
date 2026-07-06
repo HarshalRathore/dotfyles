@@ -1,12 +1,22 @@
 ---
-title: "Leading Words"
+title: Leading Words
 tags:
-  - "agent-skills"
-  - "prompt-engineering"
-  - steering
+- agent-skills
+- prompt-engineering
+- steering
 sources:
-  - "[[sources/web-youtube-com-watch-v-unzcg3lw6o0]]"
-
+- '[[misc/web-youtube-com-watch-v-unzcg3lw6o0]]'
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+created: '2026-07-04T15:08:36.759092+00:00'
+updated: '2026-07-04T15:08:36.759092+00:00'
+summary: Leading Words
 ---
 # Leading Words
 

@@ -1,23 +1,24 @@
 ---
-title: "Model Fine-Tuning Data"
+title: Model Fine-Tuning Data
 category: concepts
 tags:
-  - fine-tuning
-  - model-training
-  - data-strategy
-  - generative-ai
-  - enterprise-ai
+- fine-tuning
+- model-training
+- data-strategy
+- generative-ai
+- enterprise-ai
 sources:
-  - "[[sources/watchv=rofhhjmumcc]]"
+- 'https://www.youtube.com/watch?v=rofhhjmumcc'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.82
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Model Fine-Tuning Data
 ---
 # Model Fine-Tuning Data
 
@@ -59,5 +60,5 @@ Tengyu Ma argues that fine-tuning faces fundamental challenges for enterprise kn
 
 ## Sources
 
-- [[sources/watchv=rofhhjmumcc]]
+- https://www.youtube.com/watch?v=rofhhjmumcc
 - AIEF2025 - RAG in 2025: State of the Art and the Road Forward — Tengyu Ma, MongoDB (acq. Voyage AI) - https://www.youtube.com/watch?v=W_CYk2ogcDI

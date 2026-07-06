@@ -1,11 +1,22 @@
 ---
-title: "ENTRYPOINT"
+title: ENTRYPOINT
 sources:
-  - "[[sources/commands-&-args-in-containers-&-pods_300e3e]]"
+- '[[sources/commands-&-args-in-containers-&-pods_300e3e]]'
 tags:
-  - deployment
+- deployment
 aliases:
-  - ENTRYPOINT instruction
+- ENTRYPOINT instruction
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+created: '2026-07-04T15:08:37.874101+00:00'
+updated: '2026-07-04T15:08:37.874101+00:00'
+summary: ENTRYPOINT
 ---
 # ENTRYPOINT
 

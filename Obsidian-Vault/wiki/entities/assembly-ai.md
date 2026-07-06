@@ -1,16 +1,16 @@
 ---
-title: "Assembly AI"
+title: Assembly AI
 tags:
-  - company
-  - ai
-  - speech
-  - stt
-  - voice
+- company
+- ai
+- speech
+- stt
+- voice
 sources:
-  - "[[sources/watchv=1v9zbizkliy]]"
-summary: "Speech-to-text provider whose streaming STT service emits both transcript and end-of-utterance probability from a single model."
+- 'https://www.youtube.com/watch?v=1v9zbizkliy'
+summary: Speech-to-text provider whose streaming STT service emits both transcript and end-of-utterance probability from a single model.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.42
@@ -18,6 +18,7 @@ lifecycle: draft
 tier: peripheral
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Assembly AI

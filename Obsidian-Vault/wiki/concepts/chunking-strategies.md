@@ -1,30 +1,31 @@
 ---
-title: "Chunking Strategies"
+title: Chunking Strategies
 category: concepts
 tags:
-  - chunking
-  - rag
-  - text-splitting
-  - vector-database
-  - semantic-units
-summary: Strategies for splitting parsed text into retrievable semantic units for vector database storage. Key decision: what logical units to preserve while keeping chunks within embedding token limits.
+- chunking
+- rag
+- text-splitting
+- vector-database
+- semantic-units
+summary: 'Strategies for splitting parsed text into retrievable semantic units for vector database storage. Key decision: what logical units to preserve while keeping chunks within embedding token limits.'
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/parsing]]"
-    type: derived_from
-  - target: "[[concepts/agentic-rag]]"
-    type: related_to
-  - target: "[[concepts/knowledge-base-pattern]]"
-    type: uses
+- target: '[[concepts/parsing]]'
+  type: derived_from
+- target: '[[concepts/agentic-rag]]'
+  type: related_to
+- target: '[[concepts/knowledge-base-pattern]]'
+  type: uses
+sources: []
 ---
 
 # Chunking Strategies

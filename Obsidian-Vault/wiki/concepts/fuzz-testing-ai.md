@@ -4,7 +4,7 @@ category: concepts
 tags: [fuzz-testing, ai-reliability, property-based-testing, hazing, qa, evaluation, adversarial-testing]
 summary: "Large-scale adversarial input generation to discover bugs and corner cases in AI applications before production — the AI adaptation of software fuzzing and property-based testing."
 sources:
-  - "[[sources/watchv=omgpvw8tbhc]]"
+  - "https://www.youtube.com/watch?v=omgpvw8tbhc"
 provenance:
   extracted: 0.80
   inferred: 0.15

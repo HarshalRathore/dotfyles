@@ -10,7 +10,7 @@ tags:
   - commercial-automation
 summary: The argument that wheeled two-arm robots are superior to humanoid robots for commercial kitchen automation due to cost, reliability, maintenance, and practical deployment advantages.
 sources:
-  - "[[sources/watchv=mbwgiwjdlso]]"
+  - "https://www.youtube.com/watch?v=mbwgiwjdlso"
 provenance:
   extracted: 0.90
   inferred: 0.07

@@ -4,7 +4,7 @@ category: entities
 tags: [person, infrastructure, ml-engineering, gpu-scaling, model-serving, luma-ai]
 summary: ML engineer at Luma AI who presented on scaling Dream Machine to 1M users in 4 days at AI Engineer World's Fair 2025.
 sources:
-  - "[[sources/watchv=ey4o9m6aswi]]"
+  - "https://www.youtube.com/watch?v=ey4o9m6aswi"
 provenance:
   extracted: 0.95
   inferred: 0.03
@@ -16,11 +16,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[luma-ai]]"
+  - target: "[[entities/luma-ai]]"
     type: related_to
-  - target: "[[sorish]]"
+  - target: "[[entities/sorish]]"
     type: related_to
-  - target: "[[vasu]]"
+  - target: "[[entities/vasu]]"
     type: related_to
 ---
 

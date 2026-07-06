@@ -16,25 +16,25 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/nir-gazit.md]]"
+  - target: "[[entities/nir-gazit]]"
     type: related_to
-  - target: "[[entities/traceloop.md]]"
+  - target: "[[entities/traceloop]]"
     type: related_to
-  - target: "[[concepts/prompt-engineering-is-dead.md]]"
+  - target: "[[concepts/prompt-engineering-is-dead]]"
     type: related_to
-  - target: "[[concepts/rag-pipeline-architecture.md]]"
+  - target: "[[concepts/rag-pipeline-architecture]]"
     type: related_to
-  - target: "[[concepts/llm-as-judge-evaluation.md]]"
+  - target: "[[concepts/llm-as-judge-evaluation]]"
     type: related_to
-  - target: "[[concepts/auto-improving-agent-loop.md]]"
+  - target: "[[concepts/auto-improving-agent-loop]]"
     type: related_to
 ---
 
 # Prompt Engineering is Dead — Nir Gazit, Traceloop
 
-Nir Gazit, founder of [[entities/traceloop.md|Traceloop]], delivered this talk at the AI Engineer World's Fair 2025 arguing that prompt engineering never actually existed as a discipline of engineering. He illustrated this through a personal story: he improved his company's RAG-based chatbot on their website over five weeks without doing any prompt engineering at all.
+Nir Gazit, founder of [[entities/traceloop|Traceloop]], delivered this talk at the AI Engineer World's Fair 2025 arguing that prompt engineering never actually existed as a discipline of engineering. He illustrated this through a personal story: he improved his company's RAG-based chatbot on their website over five weeks without doing any prompt engineering at all.
 
-The chatbot was a simple retrieval-augmented generation pipeline — a [[concepts/rag-pipeline-architecture.md|RAG pipeline]] using Chroma vector database and OpenAI — that answered questions about Traceloop documentation. After initial deployment, the bot made too many mistakes, answered off-topic questions (e.g., about the weather), and needed improvement. The conventional approach would be iterative prompt engineering. Instead, Gazit built an auto-improving agent system.
+The chatbot was a simple retrieval-augmented generation pipeline — a [[concepts/rag-pipeline-architecture|RAG pipeline]] using Chroma vector database and OpenAI — that answered questions about Traceloop documentation. After initial deployment, the bot made too many mistakes, answered off-topic questions (e.g., about the weather), and needed improvement. The conventional approach would be iterative prompt engineering. Instead, Gazit built an auto-improving agent system.
 
 His approach had three components: a RAG pipeline, an evaluator, and an auto-improving agent. The evaluator used an LLM-as-judge approach with ground truth — he created 20 question examples, each with three expected facts, and the judge verified whether each fact appeared in the generated answer, producing pass/fail per fact and a summary score. The auto-improving agent (built with [[entities/crewai.md|CrewAI]) would crawl the web for prompt engineering guides, combine them with the evaluator's failure reasons, generate a new prompt, and iterate the evaluation loop — analogous to classic ML training but with "vibes."
 

@@ -1,27 +1,42 @@
 ---
 title: Product Intelligence
-tags: [product-intelligence, issue-management, ai, search, re-ranking, relationship-mapping]
-aliases: [product intelligence, similar-issues-v2]
-summary: "An AI pipeline that analyzes relationships between work items using query rewriting, hybrid search, re-ranking, and deterministic rules to produce suggested labels, assignees, duplicates, and project recommendations."
-sources: ["[[sources/aief2025-building-the-platform-for-agent-coordination-—-tom-moor]]", "[[sources/watchv=ug9iadmi2dg]]"]
+tags:
+- product-intelligence
+- issue-management
+- ai
+- search
+- re-ranking
+- relationship-mapping
+aliases:
+- product intelligence
+- similar-issues-v2
+summary: An AI pipeline that analyzes relationships between work items using query rewriting, hybrid search, re-ranking, and deterministic rules to produce suggested labels, assignees, duplicates, and proje...
+sources:
+- '[[sources/aief2025-building-the-platform-for-agent-coordination-—-tom-moor]]'
+- 'https://www.youtube.com/watch?v=ug9iadmi2dg'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
 lifecycle: draft
 tier: supporting
-created: 2026-07-04T00:00:00Z
-updated: 2026-07-04T00:00:00Z
+created: 2026-07-04 00:00:00+00:00
+updated: 2026-07-04 00:00:00+00:00
 relationships:
-  - target: [[concepts/hybrid-search|Hybrid Search]]
-    type: uses
-  - target: [[concepts/query-rewriting|Query Rewriting]]
-    type: uses
-  - target: [[concepts/re-ranking|Re-ranking]]
-    type: uses
-  - target: [[concepts/semantic-similarity|Semantic Similarity]]
-    type: extends
+- target:
+  - - concepts/hybrid-search|Hybrid Search
+  type: uses
+- target:
+  - - concepts/query-rewriting|Query Rewriting
+  type: uses
+- target:
+  - - concepts/re-ranking|Re-ranking
+  type: uses
+- target:
+  - - concepts/semantic-similarity|Semantic Similarity
+  type: extends
+category: concepts
 ---
 
 # Product Intelligence

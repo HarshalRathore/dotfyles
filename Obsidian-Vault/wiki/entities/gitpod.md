@@ -1,33 +1,36 @@
 ---
-title: "Gitpod"
+title: Gitpod
 category: entities
 tags:
-  - company
-  - platform
-  - secure-dev-environment
-  - kubernetes
-  - ai-agents
-  - regulated-industries
-summary: Gitpod is a platform for secure developer environments. Developers work ~37 hours/week inside Gitpod. Serves banks, pharmaceutical, and healthcare companies. Now runs AI agent fleet architecture on its evolved platform.
+- company
+- platform
+- secure-dev-environment
+- kubernetes
+- ai-agents
+- regulated-industries
+summary: Gitpod is a platform for secure developer environments. Developers work ~37 hours/week inside Gitpod. Serves banks, pharmaceutical, and healthcare companies. Now runs AI agent fleet architecture on...
 sources:
-  - "AIEF2025 - Building agent fleet architectures your CISO doesn't hate — Lou Bichard, Gitpod - https://www.youtube.com/watch?v=d9rsC6_VLoA"
+- AIEF2025 - Building agent fleet architectures your CISO doesn't hate — Lou Bichard, Gitpod - https://www.youtube.com/watch?v=d9rsC6_VLoA
 provenance:
-  extracted: 0.90
-  inferred: 0.10
-  ambiguous: 0.00
-base_confidence: 0.90
+  extracted: 0.9
+  inferred: 0.1
+  ambiguous: 0.0
+base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: [[concepts/secure-dev-environment|Secure Dev Environment]]
-    type: provides
-  - target: [[concepts/agent-fleet-architecture|Agent Fleet Architecture]]
-    type: runs
-  - target: [[entities/lou-bichard|Lou Bichard]]
-    type: employs
+- target:
+  - - concepts/secure-dev-environment|Secure Dev Environment
+  type: provides
+- target:
+  - - concepts/agent-fleet-architecture|Agent Fleet Architecture
+  type: runs
+- target:
+  - - entities/lou-bichard|Lou Bichard
+  type: employs
 ---
 
 # Gitpod

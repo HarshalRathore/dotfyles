@@ -1,17 +1,17 @@
 ---
-title: "Evaluation as Top Pain Point"
+title: Evaluation as Top Pain Point
 category: concepts
 tags:
-  - evals
-  - pain-points
-  - ai-engineering
-  - survey
-summary: "The 2025 survey finding that evaluation is the number one most painful thing about AI engineering today — confirming that evals remain the field's central challenge despite significant progress in the space."
+- evals
+- pain-points
+- ai-engineering
+- survey
+summary: The 2025 survey finding that evaluation is the number one most painful thing about AI engineering today — confirming that evals remain the field's central challenge despite significant progress in...
 sources:
-  - "AIEF2025 - The 2025 AI Engineering Report — Barr Yaron, Amplify - https://www.youtube.com/watch?v=mQ7_Zje7WKE"
+- AIEF2025 - The 2025 AI Engineering Report — Barr Yaron, Amplify - https://www.youtube.com/watch?v=mQ7_Zje7WKE
 provenance:
-  extracted: 0.90
-  inferred: 0.10
+  extracted: 0.9
+  inferred: 0.1
   ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
@@ -20,10 +20,10 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/llm-evaluation-framework|LLM Evaluation Framework]]"
-    type: related_to
-  - target: "[[concepts/eval-driven-development|Eval-Driven Development]]"
-    type: related_to
+- target: '[[concepts/llm-evaluation-framework|LLM Evaluation Framework]]'
+  type: related_to
+- target: '[[concepts/eval-driven-development|Eval-Driven Development]]'
+  type: related_to
 ---
 
 # Evaluation as Top Pain Point

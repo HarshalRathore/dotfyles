@@ -1,27 +1,29 @@
 ---
-title: "Human-in-the-Loop in Regulated AI"
+title: Human-in-the-Loop in Regulated AI
 tags:
-  - ai
-  - architecture
-  - regulated-industry
-  - compliance
-  - enterprise
-  - human-in-the-loop
+- ai
+- architecture
+- regulated-industry
+- compliance
+- enterprise
+- human-in-the-loop
 sources:
-  - "[[sources/watchv=08mh36_nvos]]"
-  - "[[sources/watchv=1__v4ktv_gw]]"
-  - "[[sources/watchv=6tpm4m1yxhk]]"
-  - "[[sources/watchv=8kmatybvduw]]"
-  - "[[sources/watchv=9in-cpnp7xg]]"
+- 'https://www.youtube.com/watch?v=08mh36_nvos'
+- 'https://www.youtube.com/watch?v=1__v4ktv_gw'
+- 'https://www.youtube.com/watch?v=6tpm4m1yxhk'
+- 'https://www.youtube.com/watch?v=8kmatybvduw'
+- 'https://www.youtube.com/watch?v=9in-cpnp7xg'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.18
   ambiguous: 0.02
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
+summary: Human-in-the-Loop in Regulated AI
 ---
 
 # Human-in-the-Loop in Regulated AI

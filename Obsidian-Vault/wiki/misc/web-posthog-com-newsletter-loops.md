@@ -1,23 +1,29 @@
 ---
-title: "Why we're bullish on loops"
+title: Why we're bullish on loops
 category: misc
-tags: [ai, loops, agent-loop, engineering, product-engineering]
+tags:
+- ai
+- loops
+- agent-loop
+- engineering
+- product-engineering
 sources:
-  - "[[sources/loops]]"
-source_url: "https://posthog.com/newsletter/loops"
-created: 2026-06-30T23:45:00Z
-updated: 2026-06-30T23:45:00Z
-summary: "PostHog's newsletter on engineering loops with AI agents — the four requirements (goal, context, evaluation, agent), concrete examples, industry momentum, and the vision of self-driving products."
+- '[[sources/loops]]'
+source_url: https://posthog.com/newsletter/loops
+created: 2026-06-30 23:45:00+00:00
+updated: 2026-06-30 23:45:00+00:00
+summary: PostHog's newsletter on engineering loops with AI agents — the four requirements (goal, context, evaluation, agent), concrete examples, industry momentum, and the vision of self-driving products.
 affinity: {}
 promotion_status: misc
 stub: false
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.45
 lifecycle: draft
 lifecycle_changed: 2026-06-30
+tier: supporting
 ---
 
 # Why we're bullish on loops
@@ -50,7 +56,7 @@ PostHog's newsletter argues that the future of AI-assisted engineering is not pr
 
 ## Entities
 
-- [[posthog]] — The company and author of this newsletter
+- [[entities/posthog]] — The company and author of this newsletter
 - [[entities/andrej-karpathy]] — Popularized the autoresearch loop pattern referenced in the performance autoresearcher example
 - [[entities/peter-steinberger]] — Creator of OpenClaw, mentioned as one of the voices driving the loops conversation
 - [[entities/boris-cherny]] — Creator of Claude Code, mentioned alongside Steinberger as championing loops
@@ -63,4 +69,4 @@ PostHog's newsletter argues that the future of AI-assisted engineering is not pr
 
 ## Related
 
-- [[web-github-com-karpathy-autoresearch]] — PostHog's prior article about using the Karpathy autoresearcher loop to find a ClickHouse bug; referenced in this newsletter as a concrete example of performance autoresearch
+- [[misc/web-github-com-karpathy-autoresearch]] — PostHog's prior article about using the Karpathy autoresearcher loop to find a ClickHouse bug; referenced in this newsletter as a concrete example of performance autoresearch

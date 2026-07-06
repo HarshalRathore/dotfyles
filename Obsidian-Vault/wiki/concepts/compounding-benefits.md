@@ -1,30 +1,37 @@
 ---
 title: Compounding Benefits
 category: concepts
-tags: [compounding, blueprints, playbooks, learnings, lean-startup, reusability]
+tags:
+- compounding
+- blueprints
+- playbooks
+- learnings
+- lean-startup
+- reusability
 sources:
-  - AIEF2025 - The New Lean Startup — Sid Bendre, Olive - https://www.youtube.com/watch?v=pQz-PgA1eJw
+- AIEF2025 - The New Lean Startup — Sid Bendre, Olive - https://www.youtube.com/watch?v=pQz-PgA1eJw
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
-created: 2026-07-05T00:00:00Z
-updated: 2026-07-05T00:00:00Z
+created: 2026-07-05 00:00:00+00:00
+updated: 2026-07-05 00:00:00+00:00
 relationships:
-  - target: "[[concepts/lean-startup-playbook]]"
-    type: related_to
-  - target: "[[concepts/continuous-process-refinement]]"
-    type: related_to
-  - target: "[[concepts/super-tools]]"
-    type: related_to
-  - target: "[[concepts/ai-augmentation-10x]]"
-    type: related_to
-  - target: "[[concepts/tiny-teams]]"
-    type: related_to
+- target: '[[concepts/lean-startup-playbook]]'
+  type: related_to
+- target: '[[concepts/continuous-process-refinement]]'
+  type: related_to
+- target: '[[concepts/super-tools]]'
+  type: related_to
+- target: '[[concepts/ai-augmentation-10x]]'
+  type: related_to
+- target: '[[concepts/tiny-teams]]'
+  type: related_to
+summary: Compounding Benefits
 ---
 
 # Compounding Benefits

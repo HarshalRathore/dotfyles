@@ -1,29 +1,38 @@
 ---
 type: entity
-title: "Kubernetes"
+title: Kubernetes
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/introduction_804367]]"
-  - "[[sources/install-kubernetes-components_c70e92]]"
-  - "[[sources/manual-notes_10b5c5]]"
-  - "[[sources/taints-&-tolerations_37a014]]"
-  - "[[sources/static-pod_d72e06]]"
-  - "[[sources/scheduling_f2b3ef]]"
-  - "[[sources/rolling-updates-&-rollbacks_f484ef]]"
-  - "[[sources/replication-controller-&-replicaset_285a2a]]"
-  - "[[sources/nodeselector-&-nodeaffinity_5d8764]]"
-  - "[[sources/containerd-cri-etc_fb87d8]]"
-  - "[[sources/init-containers_798910]]"
+- '[[sources/introduction_804367]]'
+- '[[sources/install-kubernetes-components_c70e92]]'
+- '[[sources/manual-notes_10b5c5]]'
+- '[[sources/taints-&-tolerations_37a014]]'
+- '[[sources/static-pod_d72e06]]'
+- '[[sources/scheduling_f2b3ef]]'
+- '[[sources/rolling-updates-&-rollbacks_f484ef]]'
+- '[[sources/replication-controller-&-replicaset_285a2a]]'
+- '[[sources/nodeselector-&-nodeaffinity_5d8764]]'
+- '[[sources/containerd-cri-etc_fb87d8]]'
+- '[[sources/init-containers_798910]]'
 tags:
-  - project
+- project
 aliases:
-  - Kubernetes
+- Kubernetes
+category: entities
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Kubernetes
 ---
 ## Description
-Kubernetes is an open-source container orchestration platform for automating deployment, scaling, and management of containerized applications. Originally built specifically to orchestrate [[entities/docker]] containers, the platform had an initial tight coupling where Kubernetes only spoke Docker. To support alternative runtimes and evolve, it introduced the [[concepts/container-runtime]] based on [[entities/open-container-initiative-oci]] standards. A major architectural shift occurred with the removal of 'dockershim' in version v1.24, which severed direct Kubernetes support for the Docker Engine, though Docker images remain fully compatible. The platform now primarily relies on runtimes like [[entities/containerd]], accessed via CRI, and provides tools like [[entities/crictl]] for node-level debugging. It manages pods across [[worker-node-2]] while protecting [[concepts/control-plane-node]] through automatic tainting mechanisms, using [[concepts/replicasets]] to maintain desired pod replicas for self-healing and horizontal scaling. Within pod management, Kubernetes defines the pod specification API to include dedicated sections for [[concepts/init-container]] alongside regular containers, ensuring init containers run to completion before main application containers start and handling pod restarts if an init container fails.
+Kubernetes is an open-source container orchestration platform for automating deployment, scaling, and management of containerized applications. Originally built specifically to orchestrate [[entities/docker]] containers, the platform had an initial tight coupling where Kubernetes only spoke Docker. To support alternative runtimes and evolve, it introduced the [[concepts/container-runtime]] based on [[entities/open-container-initiative-oci]] standards. A major architectural shift occurred with the removal of 'dockershim' in version v1.24, which severed direct Kubernetes support for the Docker Engine, though Docker images remain fully compatible. The platform now primarily relies on runtimes like [[entities/containerd]], accessed via CRI, and provides tools like [[entities/crictl]] for node-level debugging. It manages pods across [[entities/worker-node-2]] while protecting [[concepts/control-plane-node]] through automatic tainting mechanisms, using [[concepts/replicasets]] to maintain desired pod replicas for self-healing and horizontal scaling. Within pod management, Kubernetes defines the pod specification API to include dedicated sections for [[concepts/init-container]] alongside regular containers, ensuring init containers run to completion before main application containers start and handling pod restarts if an init container fails.
 
 ## Related Entities
 - [[entities/docker]]
@@ -38,14 +47,14 @@ Kubernetes is an open-source container orchestration platform for automating dep
 
 ## Related Concepts
 - [[concepts/container-runtime]]
-- [[dockershim]]
+- [[concepts/dockershim]]
 - [[concepts/control-plane-node]]
-- [[worker-node]]
-- [[kubernetes-api-server]]
+- [[concepts/worker-node]]
+- [[concepts/kubernetes-api-server]]
 - [[concepts/authentication-kubernetes]]
 - [[concepts/authorization-kubernetes]]
 - [[concepts/network-policies]]
-- [[tls-encryption]]
+- [[concepts/tls-encryption]]
 - [[concepts/host-security]]
 - [[concepts/serviceaccounts]]
 - [[concepts/static-pods]]

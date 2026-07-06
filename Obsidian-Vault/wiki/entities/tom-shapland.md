@@ -1,17 +1,18 @@
 ---
-title: "Tom Shapland"
+title: Tom Shapland
 tags:
-  - person
-  - voice
-  - ai
-  - livekit
-  - research
-aliases: [Dr. Tom Shapland]
+- person
+- voice
+- ai
+- livekit
+- research
+aliases:
+- Dr. Tom Shapland
 sources:
-  - "[[sources/watchv=1v9zbizkliy]]"
-summary: "Director of AI at LiveKit. Expert in voice AI turn-taking, interruption handling, and real-time voice agent infrastructure."
+- 'https://www.youtube.com/watch?v=1v9zbizkliy'
+summary: Director of AI at LiveKit. Expert in voice AI turn-taking, interruption handling, and real-time voice agent infrastructure.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.42
@@ -19,6 +20,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Tom Shapland

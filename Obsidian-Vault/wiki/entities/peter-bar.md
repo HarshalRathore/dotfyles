@@ -1,27 +1,28 @@
 ---
-title: "Peter Bar"
+title: Peter Bar
 category: entities
 tags:
-  - person
-  - intercom
-  - voice-ai
-  - product-management
+- person
+- intercom
+- voice-ai
+- product-management
 summary: Peter Bar from Intercom Fin, speaker at AI Engineer World's Fair 2025 on building Finvoice, an enterprise voice AI agent shipped in 100 days.
 provenance:
   extracted: 0.95
   inferred: 0.05
-  ambiguous: 0.00
-base_confidence: 0.80
+  ambiguous: 0.0
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/intercom-fin]]"
-    type: implements
-  - target: "[[concepts/finvoice]]"
-    type: implements
+- target: '[[entities/intercom-fin]]'
+  type: implements
+- target: '[[concepts/finvoice]]'
+  type: implements
+sources: []
 ---
 
 # Peter Bar

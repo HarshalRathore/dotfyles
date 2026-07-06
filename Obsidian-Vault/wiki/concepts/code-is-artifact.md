@@ -1,34 +1,35 @@
 ---
-title: "Code is an Artifact, Not the Job"
+title: Code is an Artifact, Not the Job
 tags:
-  - software-engineering
-  - philosophy
-  - ai-engineering
-  - production
+- software-engineering
+- philosophy
+- ai-engineering
+- production
 aliases:
-  - code artifact not job
-  - code generation vs software engineering
+- code artifact not job
+- code generation vs software engineering
 relationships:
-  - target: "[[concepts/burden-of-generated-code]]"
-    type: related_to
-  - target: "[[concepts/code-review-primary-skill]]"
-    type: related_to
-  - target: "[[concepts/vibe-coding-origins]]"
-    type: contradicts
-  - target: "[[concepts/specifications-as-code]]"
-    type: related_to
+- target: '[[concepts/burden-of-generated-code]]'
+  type: related_to
+- target: '[[concepts/code-review-primary-skill]]'
+  type: related_to
+- target: '[[concepts/vibe-coding-origins]]'
+  type: contradicts
+- target: '[[concepts/specifications-as-code]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=dc3qoa9wone]]"
-summary: "The thesis that generating code is not the same as software engineering — code is the output artifact, while the real work is making thousands of design decisions about architecture, trade-offs, and system behavior."
+- 'https://www.youtube.com/watch?v=dc3qoa9wone'
+summary: The thesis that generating code is not the same as software engineering — code is the output artifact, while the real work is making thousands of design decisions about architecture, trade-offs, an...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Code is an Artifact, Not the Job

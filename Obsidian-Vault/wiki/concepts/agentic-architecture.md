@@ -1,22 +1,24 @@
 ---
-title: "Agentic Architecture"
+title: Agentic Architecture
 tags:
-  - agent
-  - ai
-  - architecture
-  - orchestration
-  - enterprise
+- agent
+- ai
+- architecture
+- orchestration
+- enterprise
 sources:
-  - "[[sources/watchv=12v5s1n1eoy]]"
-summary: "Platform-level AI architecture using directed graphs of agents with tools, memory, and orchestration for complex enterprise tasks."
+- 'https://www.youtube.com/watch?v=12v5s1n1eoy'
+summary: Platform-level AI architecture using directed graphs of agents with tools, memory, and orchestration for complex enterprise tasks.
 provenance:
   extracted: 0.65
-  inferred: 0.30
+  inferred: 0.3
   ambiguous: 0.05
 base_confidence: 0.55
 lifecycle: draft
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
+tier: supporting
 ---
 
 # Agentic Architecture

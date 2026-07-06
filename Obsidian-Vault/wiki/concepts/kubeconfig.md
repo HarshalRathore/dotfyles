@@ -1,17 +1,26 @@
 ---
 type: concept
-title: "kubeconfig"
+title: kubeconfig
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/bootstrapping-control-place_e4e0df]]"
+- '[[sources/bootstrapping-control-place_e4e0df]]'
 tags:
-  - deployment
+- deployment
 aliases:
-  - cluster config
-  - admin.conf
+- cluster config
+- admin.conf
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: kubeconfig
 ---
 # kubeconfig
 
@@ -34,7 +43,7 @@ A kubeconfig is a YAML-formatted configuration file that contains cluster connec
 ## Related Concepts
 - [[concepts/kubeadm-init]]
 - [[concepts/authentication-kubernetes]]
-- [[tls-encryption]]
+- [[concepts/tls-encryption]]
 
 ## Related Entities
 - [[entities/kubectl]]

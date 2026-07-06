@@ -1,20 +1,29 @@
 ---
 type: entity
-title: "Pods"
+title: Pods
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/rolling-updates-&-rollbacks_f484ef]]"
-  - "[[sources/replication-controller-&-replicaset_285a2a]]"
-  - "[[sources/pods_c92b62]]"
-  - "[[sources/init-containers_798910]]"
+- '[[sources/rolling-updates-&-rollbacks_f484ef]]'
+- '[[sources/replication-controller-&-replicaset_285a2a]]'
+- '[[sources/pods_c92b62]]'
+- '[[sources/init-containers_798910]]'
 tags:
-  - term
+- term
 aliases:
-  - pod
-  - pods
+- pod
+- pods
+category: entities
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Pods
 ---
 ## Related Entities
 - [[entities/worker-node-1]]
@@ -31,7 +40,7 @@ aliases:
 
 ## Related Concepts
 - [[concepts/container-runtime]]
-- [[worker-node]]
+- [[concepts/worker-node]]
 - [[concepts/rolling-update-strategy]]
 - [[concepts/recreate-strategy]]
 - [[concepts/replicasets]]

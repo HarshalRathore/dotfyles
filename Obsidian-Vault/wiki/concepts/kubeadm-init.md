@@ -1,17 +1,26 @@
 ---
 type: concept
-title: "kubeadm init"
+title: kubeadm init
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/install-kubernetes-components_c70e92]]"
+- '[[sources/install-kubernetes-components_c70e92]]'
 tags:
-  - deployment
+- deployment
 aliases:
-  - kubeadm initialize
-  - control plane initialization
+- kubeadm initialize
+- control plane initialization
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: kubeadm init
 ---
 # kubeadm init
 
@@ -33,7 +42,7 @@ The primary application is for bootstrapping a [[concepts/self-reconciling]] clu
 - [[concepts/static-pods]]
 - [[concepts/self-managed-kubernetes]]
 - [[concepts/kubernetes-cluster]]
-- [[worker-node]]
+- [[concepts/worker-node]]
 - [[concepts/container-runtime]]
 - [[concepts/prerequisites-verification]]
 

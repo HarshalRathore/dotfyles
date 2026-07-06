@@ -1,21 +1,21 @@
 ---
-title: "AI Red Team vs Blue Team"
+title: AI Red Team vs Blue Team
 category: concepts
 tags:
-  - red-teaming
-  - blue-team
-  - code-review
-  - testing
-  - aief2025
-  - qodo
-  - itamar-friedman
-  - ai-safety
-summary: Qodo's framing of AI coding tools as either blue team (code generation) or red team (reviewing, testing, quality assurance). The argument that the industry over-indexes on blue team while neglecting red team capabilities.
+- red-teaming
+- blue-team
+- code-review
+- testing
+- aief2025
+- qodo
+- itamar-friedman
+- ai-safety
+summary: Qodo's framing of AI coding tools as either blue team (code generation) or red team (reviewing, testing, quality assurance). The argument that the industry over-indexes on blue team while neglectin...
 sources:
-  - "AIEF2025 - Vibe Coding with Confidence — Itamar Friedman, Qodo - https://www.youtube.com/watch?v=n991Yxo1aOI"
+- AIEF2025 - Vibe Coding with Confidence — Itamar Friedman, Qodo - https://www.youtube.com/watch?v=n991Yxo1aOI
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.75
 lifecycle: draft
@@ -24,14 +24,14 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/red-teaming|Red Teaming]]"
-    type: extends
-  - target: "[[concepts/vibe-coding-with-confidence|Vibe Coding with Confidence]]"
-    type: enables
-  - target: "[[concepts/vibe-coding|Vibe Coding]]"
-    type: addresses_limitations_of
-  - target: "[[entities/qodo|Qodo]]"
-    type: implements
+- target: '[[concepts/red-teaming|Red Teaming]]'
+  type: extends
+- target: '[[concepts/vibe-coding-with-confidence|Vibe Coding with Confidence]]'
+  type: enables
+- target: '[[concepts/vibe-coding|Vibe Coding]]'
+  type: addresses_limitations_of
+- target: '[[entities/qodo|Qodo]]'
+  type: implements
 ---
 
 # AI Red Team vs Blue Team

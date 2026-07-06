@@ -1,34 +1,34 @@
 ---
-title: "AIEF2025 - How to look at your data — Jeff Huber (Chroma) + Jason Liu (567)"
+title: AIEF2025 - How to look at your data — Jeff Huber (Chroma) + Jason Liu (567)
 category: references
 tags:
-  - aief2025
-  - evals
-  - retrieval
-  - embedding-models
-  - fast-evals
-  - conversation-analysis
-  - implicit-feedback
-  - golden-datasets
-  - synthetic-queries
-summary: "Two-part talk on empirically measuring and improving AI systems: Jeff Huber covers fast evals for retrieval systems and embedding model selection; Jason Liu covers analyzing conversation outputs at scale to extract product and agent insights."
+- aief2025
+- evals
+- retrieval
+- embedding-models
+- fast-evals
+- conversation-analysis
+- implicit-feedback
+- golden-datasets
+- synthetic-queries
+summary: 'Two-part talk on empirically measuring and improving AI systems: Jeff Huber covers fast evals for retrieval systems and embedding model selection; Jason Liu covers analyzing conversation outputs at...'
 sources:
-  - "AIEF2025 - How to look at your data — Jeff Huber (Chroma) + Jason Liu (567) - https://www.youtube.com/watch?v=jryZvCuA0Uc"
+- AIEF2025 - How to look at your data — Jeff Huber (Chroma) + Jason Liu (567) - https://www.youtube.com/watch?v=jryZvCuA0Uc
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/llm-evaluation-framework|LLM Evaluation Framework]]"
-    type: relates_to
-  - target: "[[concepts/implicit-feedback-signal|Implicit Feedback Signals]]"
-    type: extends
+- target: '[[concepts/llm-evaluation-framework|LLM Evaluation Framework]]'
+  type: relates_to
+- target: '[[concepts/implicit-feedback-signal|Implicit Feedback Signals]]'
+  type: extends
 ---
 
 # AIEF2025 - How to look at your data — Jeff Huber (Chroma) + Jason Liu (567)

@@ -1,35 +1,35 @@
 ---
-title: "Gemini"
+title: Gemini
 category: entities
 tags:
-  - model
-  - llm
-  - google
-  - google-deepmind
-  - multimodal
-  - recommendation-systems
-  - omnimodal
-  - agentic
+- model
+- llm
+- google
+- google-deepmind
+- multimodal
+- recommendation-systems
+- omnimodal
+- agentic
 aliases:
-  - Gemini LLM
-  - Google Gemini
+- Gemini LLM
+- Google Gemini
 relationships:
-  - target: "[[entities/google-deepmind]]"
-    type: related_to
-  - target: "[[entities/youtube]]"
-    type: uses
+- target: '[[entities/google-deepmind]]'
+  type: related_to
+- target: '[[entities/youtube]]'
+  type: uses
 sources:
-  - "AIEF2025 - Waymo's EMMA: Teaching Cars to Think - Jyh Jing Hwang, Waymo - https://www.youtube.com/watch?v=iS9YFW28XyM"
-  - "[[sources/watchv=lxqsq3vzdqo]]"
-  - "[[sources/watchv=8eqo4j2bwkw]]"
-  - "[[sources/watchv=u-fmsby-khy_test]]"
-  - "AIEF2025 - Human seeded Evals — Samuel Colvin, Pydantic - https://www.youtube.com/watch?v=o_LRtAomJCs"
-summary: "Google DeepMind's multimodal LLM family. Includes Gemini 2.5 Pro (latest benchmark-improving update), YouTube Large Recommender Model adaptation, thinking/reasoning capabilities, VO video generation, and trajectory toward omnimodal models."
+- 'AIEF2025 - Waymo''s EMMA: Teaching Cars to Think - Jyh Jing Hwang, Waymo - https://www.youtube.com/watch?v=iS9YFW28XyM'
+- 'https://www.youtube.com/watch?v=lxqsq3vzdqo'
+- 'https://www.youtube.com/watch?v=8eqo4j2bwkw'
+- 'https://www.youtube.com/watch?v=u-fmsby-khy_test'
+- AIEF2025 - Human seeded Evals — Samuel Colvin, Pydantic - https://www.youtube.com/watch?v=o_LRtAomJCs
+summary: Google DeepMind's multimodal LLM family. Includes Gemini 2.5 Pro (latest benchmark-improving update), YouTube Large Recommender Model adaptation, thinking/reasoning capabilities, VO video generatio...
 provenance:
-  extracted: 0.60
-  inferred: 0.30
-  ambiguous: 0.10
-base_confidence: 0.50
+  extracted: 0.6
+  inferred: 0.3
+  ambiguous: 0.1
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-04

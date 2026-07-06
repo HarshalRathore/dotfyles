@@ -4,7 +4,7 @@ category: concepts
 tags: [ai-music, music-generation, books, mood-detection, aief2025]
 summary: "Using AI to generate background music for books, guided by scene mood and theme prompts — music that flows with the narrative to enhance emotional impact."
 sources:
-  - "[[sources/watchv=kcka7rzcxlk]]"
+  - "https://www.youtube.com/watch?v=kcka7rzcxlk"
 provenance: { extracted: 1.0, inferred: 0.0, ambiguous: 0.0 }
 base_confidence: 0.9
 lifecycle: draft

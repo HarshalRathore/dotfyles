@@ -1,19 +1,19 @@
 ---
-title: "DevDay"
+title: DevDay
 category: entities
 tags:
-  - conference
-  - hiring
-  - ai-recruitment
-  - simulation
-  - devtools
+- conference
+- hiring
+- ai-recruitment
+- simulation
+- devtools
 aliases:
-  - Dev Day
+- Dev Day
 sources:
-  - "AIEF2025 - How to Hire AI Engineers when EVERYONE is cheating with AI — Beth Glenfield, DevDay - https://www.youtube.com/watch?v=Zqu0VaJw3vo"
+- AIEF2025 - How to Hire AI Engineers when EVERYONE is cheating with AI — Beth Glenfield, DevDay - https://www.youtube.com/watch?v=Zqu0VaJw3vo
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.75
 lifecycle: draft
@@ -22,10 +22,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[misc/ai-engineer-worlds-fair-2025|AI Engineer World's Fair 2025]]"
-    type: related_to
-  - target: "[[concepts/simulation-based-hiring|Simulation-Based Hiring]]"
-    type: implements
+- target: '[[misc/ai-engineer-worlds-fair-2025|AI Engineer World''s Fair 2025]]'
+  type: related_to
+- target: '[[concepts/simulation-based-hiring|Simulation-Based Hiring]]'
+  type: implements
+summary: DevDay
 ---
 
 # DevDay

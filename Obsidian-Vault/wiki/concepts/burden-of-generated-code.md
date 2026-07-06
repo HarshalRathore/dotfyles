@@ -1,35 +1,36 @@
 ---
-title: "Burden of Generated Code"
+title: Burden of Generated Code
 tags:
-  - software-engineering
-  - ai-engineering
-  - code-quality
-  - maintenance
+- software-engineering
+- ai-engineering
+- code-quality
+- maintenance
 aliases:
-  - code as liability
-  - generated code maintenance
-  - every line of code costs
+- code as liability
+- generated code maintenance
+- every line of code costs
 relationships:
-  - target: "[[concepts/code-is-artifact]]"
-    type: related_to
-  - target: "[[concepts/code-review-primary-skill]]"
-    type: related_to
-  - target: "[[concepts/vibe-coding-origins]]"
-    type: contradicts
-  - target: "[[concepts/legacy-code-ai-agent-strategy]]"
-    type: related_to
+- target: '[[concepts/code-is-artifact]]'
+  type: related_to
+- target: '[[concepts/code-review-primary-skill]]'
+  type: related_to
+- target: '[[concepts/vibe-coding-origins]]'
+  type: contradicts
+- target: '[[concepts/legacy-code-ai-agent-strategy]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=dc3qoa9wone]]"
-summary: "Every line of code — whether human-written or AI-generated — comes with maintenance, debugging, and comprehension costs. More generated code is not better; it's more to maintain."
+- 'https://www.youtube.com/watch?v=dc3qoa9wone'
+summary: Every line of code — whether human-written or AI-generated — comes with maintenance, debugging, and comprehension costs. More generated code is not better; it's more to maintain.
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.75
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Burden of Generated Code

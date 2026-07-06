@@ -1,24 +1,32 @@
 ---
-title: "I wrote a 70x faster SQL parser while barely looking at the code (Robbie Coomber)"
+title: I wrote a 70x faster SQL parser while barely looking at the code (Robbie Coomber)
 category: misc
-tags: [ai, agent-loop, sql, parser, rust, property-based-testing, posthog]
+tags:
+- ai
+- agent-loop
+- sql
+- parser
+- rust
+- property-based-testing
+- posthog
 sources:
-  - "[[sources/sql-parser]]"
-  - "[[sources/2072018523669533180]]"
-source_url: "https://posthog.com/blog/sql-parser"
-created: 2026-07-01T00:30:00Z
-updated: 2026-07-01T00:30:00Z
-summary: "Robbie Coomber rewrote PostHog's SQL parser (ANTLR C++ → hand-rolled Rust) using multiple parallel Claude Code sessions, achieving 454x faster parsing in production. Key techniques: property-based testing with Hypothesis, coverage-guided test generation, shadow mode verification."
+- '[[sources/sql-parser]]'
+- '[[sources/2072018523669533180]]'
+source_url: https://posthog.com/blog/sql-parser
+created: 2026-07-01 00:30:00+00:00
+updated: 2026-07-01 00:30:00+00:00
+summary: 'Robbie Coomber rewrote PostHog''s SQL parser (ANTLR C++ → hand-rolled Rust) using multiple parallel Claude Code sessions, achieving 454x faster parsing in production. Key techniques: property-based...'
 affinity: {}
 promotion_status: misc
 stub: false
 provenance:
   extracted: 0.88
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.02
 base_confidence: 0.45
 lifecycle: draft
 lifecycle_changed: 2026-07-01
+tier: supporting
 ---
 
 # I wrote a 70x faster SQL parser while barely looking at the code — Robbie Coomber
@@ -92,14 +100,14 @@ The performance gap exists because:
 ## Concepts
 
 - [[concepts/agent-loop]] — This is one of the most detailed real-world agent loop examples in the wiki: generate test failures → think about fix → implement → regress → repeat
-- [[web-github-com-karpathy-autoresearch]] — The predecessor article; this work followed the autoresearch success
-- [[web-posthog-com-newsletter-loops]] — The "one loop per task" approach: this article had one loop for parser writing with parallel sub-loops for PBT and Claude sessions
-- [[web-posthog-com-blog-stop-ai-slop]] — Evals (property-based testing, regression suite) are what made this project possible; without the oracle, the agent couldn't verify correctness
+- [[misc/web-github-com-karpathy-autoresearch]] — The predecessor article; this work followed the autoresearch success
+- [[misc/web-posthog-com-newsletter-loops]] — The "one loop per task" approach: this article had one loop for parser writing with parallel sub-loops for PBT and Claude sessions
+- [[misc/web-posthog-com-blog-stop-ai-slop]] — Evals (property-based testing, regression suite) are what made this project possible; without the oracle, the agent couldn't verify correctness
 
 ## Entities
 
 - [[entities/robbie-coomber]] — PostHog engineer who wrote this article and built the parser
-- [[posthog]] — The company
+- [[entities/posthog]] — The company
 - [[entities/andrej-karpathy]] — The autoresearch pattern that inspired this work
 
 ## Open Questions
@@ -110,5 +118,5 @@ The performance gap exists because:
 
 ## Related
 
-- [[web-youtube-com-watch-vy7o1g2ihy8]] — Nick Nisi's talk on skill deletion and evidence-based verification; the PBT+oracle approach is evidence-based verification for parser correctness
-- [[web-youtube-com-watch-v4f1gfy-hqg]] — Matt Pocock's fundamentals talk; this project embodies several fundamentals: test-driven development, clear interface boundaries (AST), deep modules (parser → transpiler separation)
+- [[misc/web-youtube-com-watch-vy7o1g2ihy8]] — Nick Nisi's talk on skill deletion and evidence-based verification; the PBT+oracle approach is evidence-based verification for parser correctness
+- [[misc/web-youtube-com-watch-v4f1gfy-hqg]] — Matt Pocock's fundamentals talk; this project embodies several fundamentals: test-driven development, clear interface boundaries (AST), deep modules (parser → transpiler separation)

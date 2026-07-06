@@ -1,19 +1,19 @@
 ---
-title: "Intuit"
+title: Intuit
 category: entities
 tags:
-  - company
-  - fintech
-  - tax
-  - gen-ai
-  - enterprise-ai
+- company
+- fintech
+- tax
+- gen-ai
+- enterprise-ai
 aliases:
-  - Intuit
-  - Intuit Inc.
+- Intuit
+- Intuit Inc.
 sources:
-  - "AIEF2025 - How Intuit uses LLMs to explain taxes to millions of taxpayers - Jaspreet Singh, Intuit - https://www.youtube.com/watch?v=_zl_zimMRak"
+- AIEF2025 - How Intuit uses LLMs to explain taxes to millions of taxpayers - Jaspreet Singh, Intuit - https://www.youtube.com/watch?v=_zl_zimMRak
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.07
   ambiguous: 0.03
 base_confidence: 0.85
@@ -23,14 +23,15 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/turbotax|TurboTax]]"
-    type: owns
-  - target: "[[entities/intuit-assist|Intuit Assist]]"
-    type: operates
-  - target: "[[entities/anthropic|Anthropic]]"
-    type: uses
-  - target: "[[entities/openai|OpenAI]]"
-    type: uses
+- target: '[[entities/turbotax|TurboTax]]'
+  type: owns
+- target: '[[entities/intuit-assist|Intuit Assist]]'
+  type: operates
+- target: '[[entities/anthropic|Anthropic]]'
+  type: uses
+- target: '[[entities/openai|OpenAI]]'
+  type: uses
+summary: Intuit
 ---
 
 # Intuit

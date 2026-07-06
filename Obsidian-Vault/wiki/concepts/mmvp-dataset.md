@@ -1,27 +1,33 @@
 ---
 title: MMVP Dataset — Measuring LLM Vision Inability
 category: concepts
-tags: [mmvp, benchmark, multimodal, llm-visual-failure, visual-perception, hallucination]
-summary: MMVP is a dataset designed to measure the inability of large language models to perform basic visual tasks, revealing that even GPT-4o hallucinates on simple visual questions like determining school bus direction.
+tags:
+- mmvp
+- benchmark
+- multimodal
+- llm-visual-failure
+- visual-perception
+- hallucination
+summary: MMVP is a dataset designed to measure the inability of large language models to perform basic visual tasks, revealing that even GPT-4o hallucinates on simple visual questions like determining schoo...
 sources:
-  - "[[sources/watchv=iqc05ecvnye]]"
+- 'https://www.youtube.com/watch?v=iqc05ecvnye'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/clip-limitations|clip-limitations]]"
-    type: related_to
-  - target: "[[concepts/vision-language-models|vision-language-models]]"
-    type: related_to
-  - target: "[[concepts/vision-evals-saturation|vision-evals-saturation]]"
-    type: related_to
+- target: '[[concepts/clip-limitations|clip-limitations]]'
+  type: related_to
+- target: '[[concepts/vision-language-models|vision-language-models]]'
+  type: related_to
+- target: '[[concepts/vision-evals-saturation|vision-evals-saturation]]'
+  type: related_to
 ---
 
 MMVP (Multimodal Visual Perception) is a dataset designed to measure the inability of large language models to perceive visual information. It demonstrates that even the most intelligent models we have — like GPT-4o — "cannot see" due to a lack of visual features they can perceive with.

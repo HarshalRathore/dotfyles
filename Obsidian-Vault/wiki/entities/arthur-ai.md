@@ -1,24 +1,27 @@
 ---
-title: "Arthur AI"
+title: Arthur AI
 tags:
-  - organization
-  - ai
-  - evaluation
-  - monitoring
-  - security
-aliases: [Arthur AI, Arthur]
+- organization
+- ai
+- evaluation
+- monitoring
+- security
+aliases:
+- Arthur AI
+- Arthur
 sources:
-  - "[[sources/watchv=cqguvf6gsrm]]"
-summary: "AI observability, evaluation, and security company (founded ~2018). Provides monitoring and guardrails across traditional ML, deep learning, gen AI, and agentic AI."
+- 'https://www.youtube.com/watch?v=cqguvf6gsrm'
+summary: AI observability, evaluation, and security company (founded ~2018). Provides monitoring and guardrails across traditional ML, deep learning, gen AI, and agentic AI.
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
-created: 2026-07-03T08:13:21Z
-updated: 2026-07-03T08:13:21Z
+created: 2026-07-03 08:13:21+00:00
+updated: 2026-07-03 08:13:21+00:00
+category: entities
 ---
 
 # Arthur AI

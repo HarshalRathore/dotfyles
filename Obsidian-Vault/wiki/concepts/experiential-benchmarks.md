@@ -1,17 +1,17 @@
 ---
-title: "Experiential Benchmarks"
+title: Experiential Benchmarks
 category: concepts
 tags:
-  - benchmark
-  - design
-  - evaluation
-  - real-world
-  - aief2025
-  - experiential
-summary: "Benchmarks that mimic real-world situations rather than abstract test formats. Designed to connect model evaluation to actual utility and make benchmarks accessible to non-experts as a spectator sport."
+- benchmark
+- design
+- evaluation
+- real-world
+- aief2025
+- experiential
+summary: Benchmarks that mimic real-world situations rather than abstract test formats. Designed to connect model evaluation to actual utility and make benchmarks accessible to non-experts as a spectator sp...
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.78
 lifecycle: draft
@@ -20,14 +20,15 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/benchmark-design-principles|Benchmark Design Principles]]"
-    type: extends
-  - target: "[[concepts/ai-diplomacy|AI Diplomacy]]"
-    type: related_to
-  - target: "[[concepts/model-personality|Model Personality]]"
-    type: related_to
-  - target: "[[concepts/benchmark-memes|Benchmark Memes]]"
-    type: related_to
+- target: '[[concepts/benchmark-design-principles|Benchmark Design Principles]]'
+  type: extends
+- target: '[[concepts/ai-diplomacy|AI Diplomacy]]'
+  type: related_to
+- target: '[[concepts/model-personality|Model Personality]]'
+  type: related_to
+- target: '[[concepts/benchmark-memes|Benchmark Memes]]'
+  type: related_to
+sources: []
 ---
 
 # Experiential Benchmarks

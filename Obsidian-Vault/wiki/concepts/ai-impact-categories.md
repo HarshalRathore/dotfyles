@@ -1,30 +1,31 @@
 ---
-title: "AI Impact Categories"
+title: AI Impact Categories
 category: concepts
 tags:
-  - roi
-  - measurement
-  - impact
-  - enterprise-ai
+- roi
+- measurement
+- impact
+- enterprise-ai
 aliases:
-  - AI Use Case Impact Framework
+- AI Use Case Impact Framework
 sources:
-  - "AIEF2025 - AI Consulting in Practice – NLW, Superintelligent, @AIDailyBrief - https://www.youtube.com/watch?v=ehQFj6VmuI8"
+- AIEF2025 - AI Consulting in Practice – NLW, Superintelligent, @AIDailyBrief - https://www.youtube.com/watch?v=ehQFj6VmuI8
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/roi-measurement-challenges|ROI Measurement Challenges]]"
-    type: addresses
-  - target: "[[concepts/roi-expectation-pull-forward|ROI Expectation Pull-Forward]]"
-    type: related_to
+- target: '[[concepts/roi-measurement-challenges|ROI Measurement Challenges]]'
+  type: addresses
+- target: '[[concepts/roi-expectation-pull-forward|ROI Expectation Pull-Forward]]'
+  type: related_to
+summary: AI Impact Categories
 ---
 
 # AI Impact Categories

@@ -1,15 +1,15 @@
 ---
-title: "Refresh Token"
+title: Refresh Token
 category: concepts
 tags:
-  - oauth
-  - tokens
-  - authorization
-  - security
+- oauth
+- tokens
+- authorization
+- security
 sources:
-  - "AIEF2025 - How to Secure Agents using OAuth — Jared Hanson (Keycard, Passport.js) - https://www.youtube.com/watch?v=blmAkayzE8M"
+- AIEF2025 - How to Secure Agents using OAuth — Jared Hanson (Keycard, Passport.js) - https://www.youtube.com/watch?v=blmAkayzE8M
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
 base_confidence: 0.95
@@ -18,12 +18,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/oauth-2.0|OAuth 2.0]]"
-    type: related_to
-  - target: "[[concepts/access-token|Access Token]]"
-    type: related_to
-  - target: "[[concepts/authorization-server|Authorization Server]]"
-    type: related_to
+- target: '[[concepts/oauth-2.0|OAuth 2.0]]'
+  type: related_to
+- target: '[[concepts/access-token|Access Token]]'
+  type: related_to
+- target: '[[concepts/authorization-server|Authorization Server]]'
+  type: related_to
+summary: Refresh Token
 ---
 
 # Refresh Token

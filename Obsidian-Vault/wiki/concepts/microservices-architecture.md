@@ -1,16 +1,25 @@
 ---
 type: concept
-title: "microservices architecture"
+title: microservices architecture
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/microservices-demo-projects_ac9b1f]]"
+- '[[sources/microservices-demo-projects_ac9b1f]]'
 tags:
-  - networking
+- networking
 aliases:
-  - distributed services architecture
+- distributed services architecture
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: microservices architecture
 ---
 # microservices architecture
 

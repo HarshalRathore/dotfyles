@@ -4,7 +4,7 @@ category: concepts
 tags: [ai-agents, pricing, user-experience, cost-management, ai-engineering]
 aliases: [agent pricing transparency, cost predictability, AI agent costing]
 sources:
-  - "[[sources/watchv=1c3szbaxomw]]"
+  - "https://www.youtube.com/watch?v=1c3szbaxomw"
 summary: "Making the costs of AI agent usage transparent and predictable to end users, including pre-execution cost estimates and spend management capabilities."
 provenance:
   extracted: 0.70

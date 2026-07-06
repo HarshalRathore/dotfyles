@@ -1,15 +1,16 @@
 ---
-title: "Multinear"
+title: Multinear
 tags:
-  - company
-  - evaluation
-  - open-source
-  - ai
-  - platform
-aliases: [Multineer]
+- company
+- evaluation
+- open-source
+- ai
+- platform
+aliases:
+- Multineer
 sources:
-  - "[[sources/watchv=-t6uzyyzkww]]"
-summary: "Open-source platform for AI evaluation and reliability, founded by Dmitry Kuchin. Implements eval-first methodology with checklist-based evaluation, synthetic test generation, and iterative benchmarking."
+- 'https://www.youtube.com/watch?v=-t6uzyyzkww'
+summary: Open-source platform for AI evaluation and reliability, founded by Dmitry Kuchin. Implements eval-first methodology with checklist-based evaluation, synthetic test generation, and iterative benchma...
 provenance:
   extracted: 0.72
   inferred: 0.23
@@ -19,6 +20,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Multinear

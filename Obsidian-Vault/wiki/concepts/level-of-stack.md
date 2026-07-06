@@ -1,34 +1,35 @@
 ---
-title: "Level of Stack"
+title: Level of Stack
 category: concepts
 tags:
-  - abstraction
-  - programming
-  - ai-native
-  - aief2025
+- abstraction
+- programming
+- ai-native
+- aief2025
 aliases:
-  - level of the stack
-  - programming stack level
-summary: "The concept that AI agents are pushing programming up a level of abstraction — from Python, JavaScript, and scripting languages up into English as the primary programming language."
+- level of the stack
+- programming stack level
+summary: The concept that AI agents are pushing programming up a level of abstraction — from Python, JavaScript, and scripting languages up into English as the primary programming language.
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/evolution-of-programming|Evolution of Programming]]"
-    type: extends
-  - target: "[[concepts/agentic-coding|Agentic Coding]]"
-    type: implements
-  - target: "[[concepts/ai-native-company|AI-Native Company]]"
-    type: related_to
-  - target: "[[concepts/tacit-knowledge-codification|Tacit Knowledge Codification]]"
-    type: related_to
+- target: '[[concepts/evolution-of-programming|Evolution of Programming]]'
+  type: extends
+- target: '[[concepts/agentic-coding|Agentic Coding]]'
+  type: implements
+- target: '[[concepts/ai-native-company|AI-Native Company]]'
+  type: related_to
+- target: '[[concepts/tacit-knowledge-codification|Tacit Knowledge Codification]]'
+  type: related_to
+sources: []
 ---
 
 # Level of Stack

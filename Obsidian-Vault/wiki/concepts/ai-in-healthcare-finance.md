@@ -11,7 +11,7 @@ tags:
   - denials
 summary: "AI applied to the financial side of healthcare — revenue cycle management, claim denials, prior authorization, and billing. A major underexplored opportunity compared to clinical AI."
 sources:
-  - "[[sources/watchv=tquusn1qsws]]"
+  - "https://www.youtube.com/watch?v=tquusn1qsws"
 provenance:
   extracted: 0.85
   inferred: 0.15

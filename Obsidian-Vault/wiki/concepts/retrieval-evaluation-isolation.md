@@ -1,24 +1,25 @@
 ---
-title: "Retrieval Evaluation Isolation"
+title: Retrieval Evaluation Isolation
 tags:
-  - ai
-  - rag
-  - evaluation
-  - retrieval
-  - methodology
-  - testing
+- ai
+- rag
+- evaluation
+- retrieval
+- methodology
+- testing
 sources:
-  - "[[sources/watchv=6ydpi9ybjbi]]"
-summary: "A RAG evaluation pattern where the retrieval step is frozen or evaluated independently from the generation step, preventing retrieval changes from confounding generation quality measurement."
+- 'https://www.youtube.com/watch?v=6ydpi9ybjbi'
+summary: A RAG evaluation pattern where the retrieval step is frozen or evaluated independently from the generation step, preventing retrieval changes from confounding generation quality measurement.
 provenance:
   extracted: 0.72
   inferred: 0.23
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Retrieval Evaluation Isolation

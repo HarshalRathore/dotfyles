@@ -1,20 +1,20 @@
 ---
-title: "TensorRT-LLM"
+title: TensorRT-LLM
 category: entities
 tags:
-  - inference-engine
-  - tensorrt
-  - nvidia
-  - llm-serving
-  - optimization
-  - hopper
-  - fp8
+- inference-engine
+- tensorrt
+- nvidia
+- llm-serving
+- optimization
+- hopper
+- fp8
 aliases:
-  - TensorRT LLM
-  - TensorRT-LLM
+- TensorRT LLM
+- TensorRT-LLM
 summary: NVIDIA's high-performance inference engine for LLMs, optimized for Hopper architecture with FP8 support. Outperforms vLLM for many workloads, especially on small models running on MIG instances.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -23,14 +23,15 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/nvidia]]"
-    type: implements
-  - target: "[[entities/vllm]]"
-    type: competes_with
-  - target: "[[entities/baseten]]"
-    type: used_by
-  - target: "[[concepts/quantization-inference]]"
-    type: enables
+- target: '[[entities/nvidia]]'
+  type: implements
+- target: '[[entities/vllm]]'
+  type: competes_with
+- target: '[[entities/baseten]]'
+  type: used_by
+- target: '[[concepts/quantization-inference]]'
+  type: enables
+sources: []
 ---
 
 # TensorRT-LLM

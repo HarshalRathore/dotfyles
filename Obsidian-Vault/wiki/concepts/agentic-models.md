@@ -1,31 +1,32 @@
 ---
-title: "Agentic Models"
+title: Agentic Models
 category: concepts
 tags:
-  - agentic
-  - models
-  - reasoning
-  - ai
-  - google-deepmind
-  - gemini
-summary: "The trend of LLMs absorbing scaffolding work that previously lived in external agent frameworks — planning, tool use, and execution becoming native model capabilities rather than ecosystem patterns."
+- agentic
+- models
+- reasoning
+- ai
+- google-deepmind
+- gemini
+summary: The trend of LLMs absorbing scaffolding work that previously lived in external agent frameworks — planning, tool use, and execution becoming native model capabilities rather than ecosystem patterns.
 provenance:
   extracted: 0.55
-  inferred: 0.40
+  inferred: 0.4
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/agent-vs-workflow|Agent vs Workflow]]"
-    type: related_to
-  - target: "[[concepts/reasoning-models|Reasoning Models]]"
-    type: related_to
-  - target: "[[concepts/proactive-agents|Proactive Agents]]"
-    type: extends
+- target: '[[concepts/agent-vs-workflow|Agent vs Workflow]]'
+  type: related_to
+- target: '[[concepts/reasoning-models|Reasoning Models]]'
+  type: related_to
+- target: '[[concepts/proactive-agents|Proactive Agents]]'
+  type: extends
+sources: []
 ---
 
 # Agentic Models

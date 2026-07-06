@@ -1,25 +1,28 @@
 ---
-title: "Tribal Knowledge in AI"
+title: Tribal Knowledge in AI
 tags:
-  - ai
-  - enterprise-ai
-  - domain-knowledge
-  - reliability
-  - semantics
-aliases: [tacit business knowledge, domain-specific business language, tribal knowledge gap]
+- ai
+- enterprise-ai
+- domain-knowledge
+- reliability
+- semantics
+aliases:
+- tacit business knowledge
+- domain-specific business language
+- tribal knowledge gap
 relationships:
-  - target: "[[concepts/agentic-semantic-layer]]"
-    type: extends
-  - target: "[[concepts/data-readiness-myth]]"
-    type: related_to
-  - target: "[[concepts/agent-reliability-challenge]]"
-    type: related_to
+- target: '[[concepts/agentic-semantic-layer]]'
+  type: extends
+- target: '[[concepts/data-readiness-myth]]'
+  type: related_to
+- target: '[[concepts/agent-reliability-challenge]]'
+  type: related_to
 sources:
-  - "[[sources/ai-engineer-worlds-fair-2025-talk]]"
+- '[[sources/ai-engineer-worlds-fair-2025-talk]]'
 Data readiness\" is a Myth: Reliable AI with an Agentic Semantic Layer — Anushrut Gupta, PromptQL - https://www.youtube.com/watch?v=1nOTQsfe1RU"
-summary: "The underappreciated cause of AI unreliability: LLMs lack the tacit, context-dependent business language that human analysts develop over years in a specific company."
+summary: 'The underappreciated cause of AI unreliability: LLMs lack the tacit, context-dependent business language that human analysts develop over years in a specific company.'
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.42
@@ -27,6 +30,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Tribal Knowledge in AI

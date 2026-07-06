@@ -1,33 +1,36 @@
 ---
-title: "Alex Volkov"
+title: Alex Volkov
 category: entities
 tags:
-  - person
-  - ai-evangelist
-  - weights-and-biases
-  - mcp
-  - observability
-  - aief2025
-aliases: [Alex Volkov, alexvolkov]
+- person
+- ai-evangelist
+- weights-and-biases
+- mcp
+- observability
+- aief2025
+aliases:
+- Alex Volkov
+- alexvolkov
 sources:
-  - "[[sources/watchv=lcqat4ip_le]]"
+- 'https://www.youtube.com/watch?v=lcqat4ip_le'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/weights-and-biases]]"
-    type: related_to
-  - target: "[[concepts/mcp-observability]]"
-    type: related_to
-  - target: "[[entities/observable.tools]]"
-    type: related_to
+- target: '[[entities/weights-and-biases]]'
+  type: related_to
+- target: '[[concepts/mcp-observability]]'
+  type: related_to
+- target: '[[entities/observable.tools]]'
+  type: related_to
+summary: Alex Volkov
 ---
 
 # Alex Volkov

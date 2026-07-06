@@ -1,9 +1,18 @@
 ---
 title: Tom Moor
-tags: [person, engineering-leader, linear, ai-strategy, speaker, aief2025]
-aliases: [Tom Moor]
-summary: "Engineering leader at Linear who leads their AI journey from skunkworks team in 2023 to agent coordination platform. Spoke at AI Engineer World's Fair 2025 on building the platform for agent coordination."
-sources: ["[[sources/aief2025-building-the-platform-for-agent-coordination-—-tom-moor]]", "[[sources/watchv=ug9iadmi2dg]]"]
+tags:
+- person
+- engineering-leader
+- linear
+- ai-strategy
+- speaker
+- aief2025
+aliases:
+- Tom Moor
+summary: Engineering leader at Linear who leads their AI journey from skunkworks team in 2023 to agent coordination platform. Spoke at AI Engineer World's Fair 2025 on building the platform for agent coordi...
+sources:
+- '[[sources/aief2025-building-the-platform-for-agent-coordination-—-tom-moor]]'
+- 'https://www.youtube.com/watch?v=ug9iadmi2dg'
 provenance:
   extracted: 1.0
   inferred: 0.0
@@ -11,11 +20,13 @@ provenance:
 base_confidence: 0.95
 lifecycle: draft
 tier: supporting
-created: 2026-07-04T00:00:00Z
-updated: 2026-07-04T00:00:00Z
+created: 2026-07-04 00:00:00+00:00
+updated: 2026-07-04 00:00:00+00:00
 relationships:
-  - target: [[entities/linear|Linear]]
-    type: works_at
+- target:
+  - - entities/linear|Linear
+  type: works_at
+category: entities
 ---
 
 # Tom Moor

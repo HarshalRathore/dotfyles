@@ -1,18 +1,29 @@
 ---
 title: Query Rewriting
-tags: [search, llm, query-processing, rag]
-aliases: [query expansion, query transformation]
-sources: ["[[sources/ai-engineer-worlds-fair-2025-information-retrieval-from-the-ground-up-philipp-krenn]]", "[[sources/watchv=4xe_imyxbqc]]", "[[sources/aief2025-building-the-platform-for-agent-coordination-—-tom-moor]]", "[[sources/watchv=ug9iadmi2dg]]"]
-summary: "Using an LLM to transform a user's natural language query into something more search-engine-friendly before retrieval. Includes HyDE (synthetic document generation for vector search)."
+tags:
+- search
+- llm
+- query-processing
+- rag
+aliases:
+- query expansion
+- query transformation
+sources:
+- '[[sources/ai-engineer-worlds-fair-2025-information-retrieval-from-the-ground-up-philipp-krenn]]'
+- 'https://www.youtube.com/watch?v=4xe_imyxbqc'
+- '[[sources/aief2025-building-the-platform-for-agent-coordination-—-tom-moor]]'
+- 'https://www.youtube.com/watch?v=ug9iadmi2dg'
+summary: Using an LLM to transform a user's natural language query into something more search-engine-friendly before retrieval. Includes HyDE (synthetic document generation for vector search).
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.75
 lifecycle: draft
 tier: supporting
-created: 2026-07-03T08:30:00Z
-updated: 2026-07-04T00:00:00Z
+created: 2026-07-03 08:30:00+00:00
+updated: 2026-07-04 00:00:00+00:00
+category: concepts
 ---
 
 # Query Rewriting

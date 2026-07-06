@@ -1,23 +1,25 @@
 ---
-title: "Unstructured Data Extraction"
+title: Unstructured Data Extraction
 tags:
-  - ai
-  - data-extraction
-  - enterprise
-  - documents
-  - llm
+- ai
+- data-extraction
+- enterprise
+- documents
+- llm
 sources:
-  - "[[sources/watchv=12v5s1n1eoy]]"
-  - "[[sources/watchv=-tgqa8fzf80]]"
-summary: "Using LLMs to extract structured data from unstructured enterprise documents like contracts, leases, and proposals. Also covers triplet extraction for knowledge graph construction."
+- 'https://www.youtube.com/watch?v=12v5s1n1eoy'
+- 'https://www.youtube.com/watch?v=-tgqa8fzf80'
+summary: Using LLMs to extract structured data from unstructured enterprise documents like contracts, leases, and proposals. Also covers triplet extraction for knowledge graph construction.
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
+tier: supporting
 ---
 
 # Unstructured Data Extraction

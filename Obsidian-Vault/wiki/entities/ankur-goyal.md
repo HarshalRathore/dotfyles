@@ -17,7 +17,7 @@ relationships:
   - target: "[[references/aief2025-five-hard-earned-lessons-evals-ankur-goyal-braintrust]]"
     type: related_to
 sources:
-  - "[[sources/watchv=mc55hdwlq4o]]"
+  - "https://www.youtube.com/watch?v=mc55hdwlq4o"
 summary: "Speaker at AI Engineer World's Fair 2025 presenting on the future of AI evaluation, author of Braintrust's Loop product for automated prompt/dataset/scorer optimization."
 provenance:
   extracted: 0.90

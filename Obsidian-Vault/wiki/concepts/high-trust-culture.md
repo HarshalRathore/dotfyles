@@ -18,7 +18,7 @@ relationships:
   - target: "[[concepts/headcount-vs-productivity|Headcount vs Productivity]]"
     type: related_to
 sources:
-  - "[[sources/watchv=k-iykdmfkhe]]"
+  - "https://www.youtube.com/watch?v=k-iykdmfkhe"
 summary: "The principle that small AI teams require high trust, minimal bureaucracy, continuous discussions, and people who can move fast without being managed. Politics are the death of small teams."
 provenance:
   extracted: 0.90

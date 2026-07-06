@@ -1,17 +1,17 @@
 ---
-title: "Dynamic Eval Sets"
+title: Dynamic Eval Sets
 category: concepts
 tags:
-  - evals
-  - benchmarking
-  - dynamic-data
-  - rag
-  - ai-search
+- evals
+- benchmarking
+- dynamic-data
+- rag
+- ai-search
 aliases:
-  - dynamic evaluation sets
-  - dynamic benchmarks
+- dynamic evaluation sets
+- dynamic benchmarks
 sources:
-  - "AIEF2025 - Evaluating AI Search: A Practical Framework for Augmented AI Systems — Quotient AI + Tavily - https://www.youtube.com/watch?v=wRJD0inpmjU"
+- 'AIEF2025 - Evaluating AI Search: A Practical Framework for Augmented AI Systems — Quotient AI + Tavily - https://www.youtube.com/watch?v=wRJD0inpmjU'
 provenance:
   extracted: 0.88
   inferred: 0.08
@@ -23,12 +23,13 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/static-eval-sets]]"
-    type: contrasts_with
-  - target: "[[concepts/ai-powered-search]]"
-    type: used_in
-  - target: "[[concepts/reference-free-evaluation]]"
-    type: enables
+- target: '[[concepts/static-eval-sets]]'
+  type: contrasts_with
+- target: '[[concepts/ai-powered-search]]'
+  type: used_in
+- target: '[[concepts/reference-free-evaluation]]'
+  type: enables
+summary: Dynamic Eval Sets
 ---
 
 # Dynamic Eval Sets

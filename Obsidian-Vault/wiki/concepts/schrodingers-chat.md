@@ -1,23 +1,24 @@
 ---
-title: "Schrodinger's Chat"
+title: Schrodinger's Chat
 tags:
-  - ai
-  - ux
-  - chat
-  - design
-  - aief2025
+- ai
+- ux
+- chat
+- design
+- aief2025
 sources:
-  - "[[sources/watchv=bztd0yyagcq]]"
-summary: "The paradox in AI UX design where chatbots have well-documented usability problems yet remain the dominant interaction paradigm because one attribute — the ability to conform to the next model — outweighs all UX concerns."
+- 'https://www.youtube.com/watch?v=bztd0yyagcq'
+summary: The paradox in AI UX design where chatbots have well-documented usability problems yet remain the dominant interaction paradigm because one attribute — the ability to conform to the next model — ou...
 provenance:
-  extracted: 0.60
+  extracted: 0.6
   inferred: 0.35
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Schrodinger's Chat

@@ -1,30 +1,31 @@
 ---
-title: "Ontology-Driven Retrieval"
+title: Ontology-Driven Retrieval
 tags:
-  - method
-  - retrieval
-  - knowledge-graph
-  - ontology
-  - graphrag
+- method
+- retrieval
+- knowledge-graph
+- ontology
+- graphrag
 sources:
-  - "[[sources/watchv=cbir9xs2skq]]"
-summary: "A retrieval architecture where the domain ontology is stored as data in the knowledge graph and queried dynamically to control which relationships the retriever traverses, enabling behavior changes without code changes."
+- 'https://www.youtube.com/watch?v=cbir9xs2skq'
+summary: A retrieval architecture where the domain ontology is stored as data in the knowledge graph and queried dynamically to control which relationships the retriever traverses, enabling behavior changes...
 provenance:
-  extracted: 0.70
-  inferred: 0.20
-  ambiguous: 0.10
+  extracted: 0.7
+  inferred: 0.2
+  ambiguous: 0.1
 base_confidence: 0.45
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
 relationships:
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: extends
-  - target: "[[concepts/knowledge-graph-ontology-design|Knowledge Graph Ontology Design]]"
-    type: uses
-  - target: "[[entities/neo4j|Neo4j]]"
-    type: uses
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: extends
+- target: '[[concepts/knowledge-graph-ontology-design|Knowledge Graph Ontology Design]]'
+  type: uses
+- target: '[[entities/neo4j|Neo4j]]'
+  type: uses
+category: concepts
 ---
 
 # Ontology-Driven Retrieval

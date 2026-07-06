@@ -1,10 +1,18 @@
 ---
-title: "AI Capability First"
+title: AI Capability First
 category: concepts
-tags: [ai-product-development, ai-evaluation, prototyping, product-strategy, experimentation]
-aliases: [ai capability first, capability-first, ai-first-then-product]
+tags:
+- ai-product-development
+- ai-evaluation
+- prototyping
+- product-strategy
+- experimentation
+aliases:
+- ai capability first
+- capability-first
+- ai-first-then-product
 sources:
-  - "AIEF2025 - Why your product needs an AI product manager, and why it should be you — James Lowe, i.AI - https://www.youtube.com/watch?v=xzJdSi2Tsqw"
+- AIEF2025 - Why your product needs an AI product manager, and why it should be you — James Lowe, i.AI - https://www.youtube.com/watch?v=xzJdSi2Tsqw
 provenance:
   extracted: 0.8
   inferred: 0.2
@@ -16,10 +24,11 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/evaluate-ai-early]]"
-    type: implements
-  - target: "[[concepts/ai-product-manager]]"
-    type: core_skill_of
+- target: '[[concepts/evaluate-ai-early]]'
+  type: implements
+- target: '[[concepts/ai-product-manager]]'
+  type: core_skill_of
+summary: AI Capability First
 ---
 
 # AI Capability First

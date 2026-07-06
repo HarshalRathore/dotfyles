@@ -4,7 +4,7 @@ category: concepts
 tags: [books, ai-experiences, multimodal, reading, thebrain-pro, aief2025]
 summary: "AI-powered multimodal book experience platform that transforms classic literature into interactive reading with graphics, music, and voice Q&A."
 sources:
-  - "[[sources/watchv=kcka7rzcxlk]]"
+  - "https://www.youtube.com/watch?v=kcka7rzcxlk"
 provenance: { extracted: 1.0, inferred: 0.0, ambiguous: 0.0 }
 base_confidence: 0.95
 lifecycle: draft

@@ -4,7 +4,7 @@ category: entities
 tags: [gpu, hardware, chip-manufacturer, ml-hardware, inference]
 summary: GPU chip manufacturer whose accelerators Luma AI explores for Dream Machine inference, targeting PyTorch compatibility for hardware-agnostic model deployment.
 sources:
-  - "[[sources/watchv=ey4o9m6aswi]]"
+  - "https://www.youtube.com/watch?v=ey4o9m6aswi"
 provenance:
   extracted: 0.80
   inferred: 0.15
@@ -16,11 +16,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[nvidia]]"
+  - target: "[[entities/nvidia]]"
     type: related_to
-  - target: "[[pytorch]]"
+  - target: "[[entities/pytorch]]"
     type: related_to
-  - target: "[[inference-serving]]"
+  - target: "[[concepts/inference-serving]]"
     type: related_to
 ---
 

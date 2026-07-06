@@ -1,15 +1,16 @@
 ---
-title: "Telemetrak"
+title: Telemetrak
 tags:
-  - company
-  - ai
-  - trust
-  - iot
-  - enterprise
-aliases: [Telemetrak AI]
+- company
+- ai
+- trust
+- iot
+- enterprise
+aliases:
+- Telemetrak AI
 sources:
-  - "[[sources/watchv=6tpm4m1yxhk]]"
-summary: "Company focused on critical AI inference trust solutions. Present at AI Engineer World's Fair 2025 with the X-TOPS framework and three-pillar trust model for enterprise AI."
+- 'https://www.youtube.com/watch?v=6tpm4m1yxhk'
+summary: Company focused on critical AI inference trust solutions. Present at AI Engineer World's Fair 2025 with the X-TOPS framework and three-pillar trust model for enterprise AI.
 provenance:
   extracted: 0.82
   inferred: 0.15
@@ -19,6 +20,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Telemetrak

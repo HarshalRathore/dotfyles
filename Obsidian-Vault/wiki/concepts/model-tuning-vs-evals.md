@@ -1,29 +1,30 @@
 ---
-title: "Model Tuning vs Evals"
+title: Model Tuning vs Evals
 category: concepts
 tags:
-  - evals
-  - model-training
-  - production-ai
-  - self-driving-cars
+- evals
+- model-training
+- production-ai
+- self-driving-cars
 sources:
-  - "AIEF2025 - Why should anyone care about Evals? — Manu Goyal, Braintrust - https://www.youtube.com/watch?v=jJ45Yz1lJao"
+- AIEF2025 - Why should anyone care about Evals? — Manu Goyal, Braintrust - https://www.youtube.com/watch?v=jJ45Yz1lJao
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/evals-are-not-unit-tests|Evals Are Not Unit Tests]]"
-    type: relates_to
-  - target: "[[concepts/self-driving-car-evals|Self-Driving Car Evals]]"
-    type: illustrated_by
-  - target: "[[concepts/eval-driven-development|Eval-Driven Development]]"
-    type: motivates
+- target: '[[concepts/evals-are-not-unit-tests|Evals Are Not Unit Tests]]'
+  type: relates_to
+- target: '[[concepts/self-driving-car-evals|Self-Driving Car Evals]]'
+  type: illustrated_by
+- target: '[[concepts/eval-driven-development|Eval-Driven Development]]'
+  type: motivates
+summary: Model Tuning vs Evals
 ---
 
 # Model Tuning vs Evals

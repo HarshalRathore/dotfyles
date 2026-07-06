@@ -1,12 +1,12 @@
 ---
-title: "Leto"
+title: Leto
 category: entities
 tags:
-  - agent-platform
-  - deep-research
-  - cloud-agents
-  - rag
-  - vendor
+- agent-platform
+- deep-research
+- cloud-agents
+- rag
+- vendor
 summary: Leto is a cloud agent provider used by 11x to build their deep research agent for Alice's knowledge base retrieval. Easy to build with; supports multi-step retrieval planning.
 provenance:
   extracted: 0.95
@@ -19,10 +19,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/deep-research-agent]]"
-    type: implements
-  - target: "[[entities/alice-ai-sdr]]"
-    type: uses
+- target: '[[concepts/deep-research-agent]]'
+  type: implements
+- target: '[[entities/alice-ai-sdr]]'
+  type: uses
+sources: []
 ---
 
 # Leto

@@ -1,14 +1,21 @@
 ---
-title: "VLM-Generated Image Captions"
+title: VLM-Generated Image Captions
 category: concepts
-tags: [vlm, vision-language-model, image-captioning, multimodal, content-annotation, search-relevance, aief2025]
+tags:
+- vlm
+- vision-language-model
+- image-captioning
+- multimodal
+- content-annotation
+- search-relevance
+- aief2025
 aliases:
-  - VLM image captions
-  - synthetic image captions
+- VLM image captions
+- synthetic image captions
 sources:
-  - "AIEF2025 - What We Learned from Using LLMs in Pinterest — Mukuntha Narayanan, Han Wang, Pinterest - https://www.youtube.com/watch?v=XdAWgO11zuk"
+- AIEF2025 - What We Learned from Using LLMs in Pinterest — Mukuntha Narayanan, Han Wang, Pinterest - https://www.youtube.com/watch?v=XdAWgO11zuk
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.75
@@ -17,12 +24,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/content-annotation-search|Content Annotation for Search]]"
-    type: used_in
-  - target: "[[concepts/multimodal-search|Multimodal Search]]"
-    type: enables
-  - target: "[[concepts/document-enrichment|Document Enrichment]]"
-    type: related_to
+- target: '[[concepts/content-annotation-search|Content Annotation for Search]]'
+  type: used_in
+- target: '[[concepts/multimodal-search|Multimodal Search]]'
+  type: enables
+- target: '[[concepts/document-enrichment|Document Enrichment]]'
+  type: related_to
+summary: VLM-Generated Image Captions
 ---
 
 # VLM-Generated Image Captions

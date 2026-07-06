@@ -1,25 +1,28 @@
 ---
-title: "Kyle Penfound"
+title: Kyle Penfound
 tags:
-  - entity
-  - person
-  - dagger
-  - devops
-  - platform-engineering
-  - aief2025
-aliases: [kpenfound, Kyle Penfound Dagger]
-summary: "Member of the Dagger ecosystem team, co-presenter of the 'Ship Agents that Ship' workshop at AI Engineer World's Fair 2025. Background in DevOps and platform engineering."
+- entity
+- person
+- dagger
+- devops
+- platform-engineering
+- aief2025
+aliases:
+- kpenfound
+- Kyle Penfound Dagger
+summary: Member of the Dagger ecosystem team, co-presenter of the 'Ship Agents that Ship' workshop at AI Engineer World's Fair 2025. Background in DevOps and platform engineering.
 sources:
-  - "[[sources/watchv=fzb1a24hf-o]]"
+- 'https://www.youtube.com/watch?v=fzb1a24hf-o'
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.40
+base_confidence: 0.4
 lifecycle: draft
 tier: peripheral
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Kyle Penfound

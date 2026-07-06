@@ -1,34 +1,35 @@
 ---
-title: "Supervisor Node"
+title: Supervisor Node
 category: concepts
 tags:
-  - multi-agent
-  - langgraph
-  - coordination
-  - evals
-  - aief2025
+- multi-agent
+- langgraph
+- coordination
+- evals
+- aief2025
 aliases:
-  - supervisor pattern
-  - agent supervisor
+- supervisor pattern
+- agent supervisor
 sources:
-  - "AIEF2025 - Evaluating AI Search: A Practical Framework for Augmented AI Systems — Quotient AI + Tavily - https://www.youtube.com/watch?v=wRJD0inpmjU"
+- 'AIEF2025 - Evaluating AI Search: A Practical Framework for Augmented AI Systems — Quotient AI + Tavily - https://www.youtube.com/watch?v=wRJD0inpmjU'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.06
   ambiguous: 0.04
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/langgraph]]"
-    type: used_in
-  - target: "[[concepts/multi-agent-workflows]]"
-    type: relates_to
-  - target: "[[concepts/dynamic-eval-sets]]"
-    type: improves
+- target: '[[entities/langgraph]]'
+  type: used_in
+- target: '[[concepts/multi-agent-workflows]]'
+  type: relates_to
+- target: '[[concepts/dynamic-eval-sets]]'
+  type: improves
+summary: Supervisor Node
 ---
 
 # Supervisor Node

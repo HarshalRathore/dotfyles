@@ -1,26 +1,27 @@
 ---
-title: "Event Tokenization for Recommendation Systems"
+title: Event Tokenization for Recommendation Systems
 tags:
-  - recommendation-systems
-  - tokenization
-  - transformer
-  - recsys
-  - representation-learning
+- recommendation-systems
+- tokenization
+- transformer
+- recsys
+- representation-learning
 aliases:
-  - RecSys Event Tokenization
-  - When-Where-What Tokenization
+- RecSys Event Tokenization
+- When-Where-What Tokenization
 sources:
-  - "[[sources/watchv=abz4iygbfpq]]"
-summary: "The process of encoding user interaction events as tokens for recommendation transformers, decomposing each event into when, where, and what facets."
+- 'https://www.youtube.com/watch?v=abz4iygbfpq'
+summary: The process of encoding user interaction events as tokens for recommendation transformers, decomposing each event into when, where, and what facets.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Event Tokenization for Recommendation Systems

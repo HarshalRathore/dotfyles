@@ -1,32 +1,37 @@
 ---
-title: "Agent vs. Workflow Debate"
+title: Agent vs. Workflow Debate
 tags:
-  - agent
-  - workflow
-  - terminology
-  - mental-model
-  - human-input
-  - ai-output
-  - windsurf
+- agent
+- workflow
+- terminology
+- mental-model
+- human-input
+- ai-output
+- windsurf
 sources:
-  - "[[sources/watchv=ihkyfhu6jey]]"
-  - "AIEF2025 - Mastering Engineering Flow with Windsurf - Eashan Sinha, Windsurf - https://www.youtube.com/watch?v=W_5tzQY-hVs"
+- 'https://www.youtube.com/watch?v=ihkyfhu6jey'
+- AIEF2025 - Mastering Engineering Flow with Windsurf - Eashan Sinha, Windsurf - https://www.youtube.com/watch?v=W_5tzQY-hVs
 provenance:
   extracted: 0.82
   inferred: 0.12
   ambiguous: 0.06
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-05
 relationships:
-  - target: [[concepts/workflow-agent-spectrum|Workflow-Agent Spectrum]]
-    type: extends
-  - target: [[concepts/agent-vs-workflow|Agent vs Workflow]]
-    type: related_to
-  - target: [[concepts/orchestrator-patterns|Orchestrator Patterns]]
-    type: related_to
+- target:
+  - - concepts/workflow-agent-spectrum|Workflow-Agent Spectrum
+  type: extends
+- target:
+  - - concepts/agent-vs-workflow|Agent vs Workflow
+  type: related_to
+- target:
+  - - concepts/orchestrator-patterns|Orchestrator Patterns
+  type: related_to
+category: concepts
+summary: Agent vs. Workflow Debate
 ---
 
 # Agent vs. Workflow Debate

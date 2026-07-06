@@ -1,17 +1,20 @@
 ---
-title: "Manim AI Visualization"
+title: Manim AI Visualization
 tags:
-  - manim
-  - ai-visualization
-  - mathematical-animation
-  - 3blue1brown
-  - generative-ai
-aliases: [manim, Manim AI, mathematical animation AI]
+- manim
+- ai-visualization
+- mathematical-animation
+- 3blue1brown
+- generative-ai
+aliases:
+- manim
+- Manim AI
+- mathematical animation AI
 sources:
-  - "[[sources/watchv=q3nreeadkmc]]"
-summary: "AI agents generating Manim mathematical animations in 3Blue1Brown style from natural language prompts, automating a process requiring significant Manim expertise."
+- 'https://www.youtube.com/watch?v=q3nreeadkmc'
+summary: AI agents generating Manim mathematical animations in 3Blue1Brown style from natural language prompts, automating a process requiring significant Manim expertise.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -20,10 +23,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/mcp-as-agent-tools|MCP as Agent Tool Layer]]"
-    type: implements
-  - target: "[[concepts/minimal-scaffolding-ai-agents|Minimal Scaffolding for AI Agents]]"
-    type: related_to
+- target: '[[concepts/mcp-as-agent-tools|MCP as Agent Tool Layer]]'
+  type: implements
+- target: '[[concepts/minimal-scaffolding-ai-agents|Minimal Scaffolding for AI Agents]]'
+  type: related_to
+category: concepts
 ---
 
 # Manim AI Visualization

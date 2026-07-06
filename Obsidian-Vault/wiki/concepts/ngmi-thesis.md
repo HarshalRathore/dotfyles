@@ -1,31 +1,32 @@
 ---
-title: "NGMI Thesis for Realtime AI"
+title: NGMI Thesis for Realtime AI
 category: concepts
 tags:
-  - voice-ai
-  - latency
-  - web-rtc
-  - web-sockets
-  - ngmi
-  - platform-shift
+- voice-ai
+- latency
+- web-rtc
+- web-sockets
+- ngmi
+- platform-shift
 sources:
-  - "[[sources/watchv=e71ytnbcfxy]]"
+- 'https://www.youtube.com/watch?v=e71ytnbcfxy'
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: core
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/voice-ai-latency]]"
-    type: related_to
-  - target: "[[concepts/web-rtc]]"
-    type: related_to
-  - target: "[[concepts/web-sockets]]"
-    type: related_to
+- target: '[[concepts/voice-ai-latency]]'
+  type: related_to
+- target: '[[concepts/web-rtc]]'
+  type: related_to
+- target: '[[concepts/web-sockets]]'
+  type: related_to
+summary: NGMI Thesis for Realtime AI
 ---
 
 # NGMI Thesis for Realtime AI

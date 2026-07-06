@@ -4,7 +4,7 @@ category: entities
 tags: [person, ai-engineer, healthcare-ai, medical-doctor, speaker, aief2025]
 summary: "Medical doctor turned AI engineer with 8 years clinical practice and 7 years building AI systems with medical domain expertise. Currently at Anterior, building clinical reasoning tools."
 sources:
-  - "[[sources/watchv=mrm7oa3jsfs]]"
+  - "https://www.youtube.com/watch?v=mrm7oa3jsfs"
 provenance:
   extracted: 0.9
   inferred: 0.1

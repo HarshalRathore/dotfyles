@@ -1,17 +1,17 @@
 ---
-title: "Deep Research Agents"
+title: Deep Research Agents
 category: concepts
 tags:
-  - agents
-  - deep-research
-  - long-running-agents
-  - enterprise-ai
-  - high-value-tasks
+- agents
+- deep-research
+- long-running-agents
+- enterprise-ai
+- high-value-tasks
 sources:
-  - "AIEF2025 - 3 ingredients for building reliable enterprise agents - Harrison Chase, LangChain/LangGraph - https://www.youtube.com/watch?v=kTnfJszFxCg"
-summary: "A class of agents that perform extended research tasks over long time horizons (minutes to hours), contrasting with traditional quick-response RAG/QA systems. Part of a broader shift toward long-running, high-value agent patterns."
+- AIEF2025 - 3 ingredients for building reliable enterprise agents - Harrison Chase, LangChain/LangGraph - https://www.youtube.com/watch?v=kTnfJszFxCg
+summary: A class of agents that perform extended research tasks over long time horizons (minutes to hours), contrasting with traditional quick-response RAG/QA systems. Part of a broader shift toward long-ru...
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.07
   ambiguous: 0.03
 base_confidence: 0.75
@@ -21,14 +21,14 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/ambient-agents]]"
-    type: related_to
-  - target: "[[concepts/assistive-vs-automation-agents]]"
-    type: related_to
-  - target: "[[concepts/enterprise-agent-adoption-equation]]"
-    type: increases
-  - target: "[[concepts/knowledge-work-automation]]"
-    type: related_to
+- target: '[[concepts/ambient-agents]]'
+  type: related_to
+- target: '[[concepts/assistive-vs-automation-agents]]'
+  type: related_to
+- target: '[[concepts/enterprise-agent-adoption-equation]]'
+  type: increases
+- target: '[[concepts/knowledge-work-automation]]'
+  type: related_to
 ---
 
 # Deep Research Agents

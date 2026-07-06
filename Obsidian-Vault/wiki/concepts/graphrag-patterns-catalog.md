@@ -1,19 +1,19 @@
 ---
-title: "GraphRAG Patterns Catalog"
+title: GraphRAG Patterns Catalog
 category: concepts
 tags:
-  - graphrag
-  - patterns
-  - knowledge-graph
-  - neo4j
-  - cypher
+- graphrag
+- patterns
+- knowledge-graph
+- neo4j
+- cypher
 aliases:
-  - GraphRAG.com
-  - GraphRAG Design Patterns
+- GraphRAG.com
+- GraphRAG Design Patterns
 sources:
-  - "AIEF2025 - Practical GraphRAG: Making LLMs smarter with Knowledge Graphs — Michael, Jesus, and Stephen, Neo4j - https://www.youtube.com/watch?v=XNneh6-eyPg"
+- 'AIEF2025 - Practical GraphRAG: Making LLMs smarter with Knowledge Graphs — Michael, Jesus, and Stephen, Neo4j - https://www.youtube.com/watch?v=XNneh6-eyPg'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.07
   ambiguous: 0.03
 base_confidence: 0.75
@@ -22,12 +22,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: related_to
-  - target: "[[concepts/lexical-graph|Lexical Graph]]"
-    type: related_to
-  - target: "[[concepts/domain-graph|Domain Graph]]"
-    type: related_to
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: related_to
+- target: '[[concepts/lexical-graph|Lexical Graph]]'
+  type: related_to
+- target: '[[concepts/domain-graph|Domain Graph]]'
+  type: related_to
+summary: GraphRAG Patterns Catalog
 ---
 
 # GraphRAG Patterns Catalog

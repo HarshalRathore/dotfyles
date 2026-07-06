@@ -17,19 +17,19 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/ground-truth-evaluation.md]]"
+  - target: "[[concepts/ground-truth-evaluation]]"
     type: extends
-  - target: "[[concepts/rag-pipeline-architecture.md]]"
+  - target: "[[concepts/rag-pipeline-architecture]]"
     type: related_to
-  - target: "[[concepts/eval-driven-development.md]]"
+  - target: "[[concepts/eval-driven-development]]"
     type: extends
-  - target: "[[concepts/llm-evaluation-framework.md]]"
+  - target: "[[concepts/llm-evaluation-framework]]"
     type: related_to
 ---
 
 # LLM-as-Judge Evaluation
 
-An evaluation approach where an LLM serves as the judge, assessing outputs against quality criteria. [[entities/nir-gazit.md|Nir Gazit]] chose this approach at AIEF2025, arguing it's easier to build and deploy than classic NLP metrics.
+An evaluation approach where an LLM serves as the judge, assessing outputs against quality criteria. [[entities/nir-gazit|Nir Gazit]] chose this approach at AIEF2025, arguing it's easier to build and deploy than classic NLP metrics.
 
 There are two variants:
 
@@ -37,7 +37,7 @@ There are two variants:
 
 **Context-based**: The judge assesses the answer using only the question and retrieved context, without any ground truth. This is more flexible but potentially less accurate.
 
-In Gazit's implementation, the judge produced per-fact pass/fail boolean results with reasons for failures, plus a summary numerical score aggregating across all facts and examples. This structured output — boolean per-fact scores with explanations — is what enabled the [[concepts/auto-improving-agent-loop.md|auto-improving agent loop]] to use the evaluation results as feedback for prompt optimization.
+In Gazit's implementation, the judge produced per-fact pass/fail boolean results with reasons for failures, plus a summary numerical score aggregating across all facts and examples. This structured output — boolean per-fact scores with explanations — is what enabled the [[concepts/auto-improving-agent-loop|auto-improving agent loop]] to use the evaluation results as feedback for prompt optimization.
 ## Set a Thief to Catch a Thief
 
 [[entities/jim-bennett|Jim Bennett]] ([[entities/galileo|Galileo]]) at AIEF2025 uses the British idiom "set a thief to catch a thief" to describe LLM-as-judge evaluation. The production LLM is the "thief" (being evaluated) and the evaluation LLM is the "thief set to catch it" (the evaluator). Bennett's key finding: **AIs are about as good as humans at determining whether an AI worked**. ^[extracted]

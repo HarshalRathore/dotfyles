@@ -1,30 +1,32 @@
 ---
-title: "Incremental Context Sharing"
+title: Incremental Context Sharing
 tags:
-  - incremental-context
-  - agent-communication
-  - conversation-pattern
-  - copilot
-  - aief2025
-  - github
-summary: "The pattern of sharing context with AI agents incrementally through natural conversation — starting broad, adding detail as it becomes relevant, and letting the agent adapt its responses over time."
+- incremental-context
+- agent-communication
+- conversation-pattern
+- copilot
+- aief2025
+- github
+summary: The pattern of sharing context with AI agents incrementally through natural conversation — starting broad, adding detail as it becomes relevant, and letting the agent adapt its responses over time.
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/ai-pair-programmer-analogy|AI Pair Programmer Analogy]]"
-    type: implements
-  - target: "[[concepts/context-management-for-agents|Context Management for Agents]]"
-    type: relates-to
-  - target: "[[concepts/explicit-intent-communication|Explicit Intent Communication]]"
-    type: complements
+- target: '[[concepts/ai-pair-programmer-analogy|AI Pair Programmer Analogy]]'
+  type: implements
+- target: '[[concepts/context-management-for-agents|Context Management for Agents]]'
+  type: relates-to
+- target: '[[concepts/explicit-intent-communication|Explicit Intent Communication]]'
+  type: complements
+category: concepts
+sources: []
 ---
 
 # Incremental Context Sharing

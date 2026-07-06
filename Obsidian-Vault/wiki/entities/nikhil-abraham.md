@@ -11,7 +11,7 @@ tags:
   - founder
 summary: Co-founder and CEO of CloudChef, presenting on robotic culinary automation at AIEF2025. Leads a small, fast-growing team building wheeled robots that cook in commercial kitchens.
 sources:
-  - "[[sources/watchv=mbwgiwjdlso]]"
+  - "https://www.youtube.com/watch?v=mbwgiwjdlso"
 provenance:
   extracted: 0.95
   inferred: 0.05

@@ -1,16 +1,25 @@
 ---
 type: concept
-title: "Node-bound"
+title: Node-bound
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/static-pod_d72e06]]"
+- '[[sources/static-pod_d72e06]]'
 tags:
-  - scheduling
+- scheduling
 aliases:
-  - "node-specific"
+- node-specific
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Node-bound
 ---
 # Node-bound
 

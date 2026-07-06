@@ -1,20 +1,20 @@
 ---
-title: "Open Weight Models"
+title: Open Weight Models
 category: concepts
 tags:
-  - open-source
-  - model-distribution
-  - open-weight
-  - llm
-  - aief2025
+- open-source
+- model-distribution
+- open-weight
+- llm
+- aief2025
 aliases:
-  - open weight
-  - open weight models
+- open weight
+- open weight models
 sources:
-  - "AIEF2025 - 2025 in LLMs so far, illustrated by Pelicans on Bicycles — Simon Willison - https://www.youtube.com/watch?v=YpY83-kA7Bo"
-summary: "LLMs whose model weights are publicly released for download, enabling local inference, fine-tuning, and community evaluation. DeepSeek V3's Christmas Day release exemplified the disruptive potential of open-weight distribution."
+- AIEF2025 - 2025 in LLMs so far, illustrated by Pelicans on Bicycles — Simon Willison - https://www.youtube.com/watch?v=YpY83-kA7Bo
+summary: LLMs whose model weights are publicly released for download, enabling local inference, fine-tuning, and community evaluation. DeepSeek V3's Christmas Day release exemplified the disruptive potentia...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -24,10 +24,10 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/local-models|Local Models]]"
-    type: enables
-  - target: "[[concepts/proprietary-models|Proprietary Models]]"
-    type: contrasts_with
+- target: '[[concepts/local-models|Local Models]]'
+  type: enables
+- target: '[[concepts/proprietary-models|Proprietary Models]]'
+  type: contrasts_with
 ---
 
 # Open Weight Models

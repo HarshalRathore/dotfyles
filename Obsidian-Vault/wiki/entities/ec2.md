@@ -1,16 +1,25 @@
 ---
 type: entity
-title: "EC2"
+title: EC2
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/introduction_804367]]"
+- '[[sources/introduction_804367]]'
 tags:
-  - product
+- product
 aliases:
-  - EC2
+- EC2
+category: entities
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: EC2
 ---
 # EC2
 
@@ -19,7 +28,7 @@ aliases:
 - Source: introduction_804367
 
 ## Description
-Amazon EC2, short for Elastic Compute Cloud, is a core [[entities/aws]] service that provides resizable virtual servers, known as instances, in the cloud. In the context of setting up a Kubernetes cluster from scratch, EC2 is the foundational infrastructure used to provision the necessary compute nodes. The process involves selecting specific instance types, such as t2.medium for the [[concepts/control-plane-node]] and t2.large for [[worker-node]]s, which are then configured with an operating system like [[entities/ubuntu-server]], security keys, and network rules. This allows for the creation of a custom, bare-metal-like environment to host the Kubernetes Kubernetes components without relying on managed services.
+Amazon EC2, short for Elastic Compute Cloud, is a core [[entities/aws]] service that provides resizable virtual servers, known as instances, in the cloud. In the context of setting up a Kubernetes cluster from scratch, EC2 is the foundational infrastructure used to provision the necessary compute nodes. The process involves selecting specific instance types, such as t2.medium for the [[concepts/control-plane-node]] and t2.large for [[concepts/worker-node]]s, which are then configured with an operating system like [[entities/ubuntu-server]], security keys, and network rules. This allows for the creation of a custom, bare-metal-like environment to host the Kubernetes Kubernetes components without relying on managed services.
 
 ## Related Entities
 - [[entities/aws]]

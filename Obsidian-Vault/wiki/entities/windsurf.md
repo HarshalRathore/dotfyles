@@ -1,35 +1,36 @@
 ---
-title: "Windsurf"
+title: Windsurf
 tags:
-  - ai
-  - coding-agent
-  - developer-tools
-  - aief2025
+- ai
+- coding-agent
+- developer-tools
+- aief2025
 aliases:
-  - Windsurf
+- Windsurf
 relationships:
-  - target: "[[concepts/developer-outer-loop]]"
-    type: related_to
-  - target: "[[entities/cursor-ai]]"
-    type: related_to
-  - target: "[[entities/github-copilot]]"
-    type: related_to
-  - target: "[[entities/cascade|Cascade]]"
-    type: related_to
+- target: '[[concepts/developer-outer-loop]]'
+  type: related_to
+- target: '[[entities/cursor-ai]]'
+  type: related_to
+- target: '[[entities/github-copilot]]'
+  type: related_to
+- target: '[[entities/cascade|Cascade]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=h6mrr5nbtza]]"
-  - "[[sources/watchv=jvunpl5qo8q]]"
-  - "AIEF2025 - The Eyes Are The (Context) Window to The Soul: How Windsurf Gets to Know You — Sam Fertig, Windsurf - https://www.youtube.com/watch?v=jUv5WSPo9fk"
-summary: "AI coding tool and editor that generates ~90M lines of code/day. Pioneered the shared timeline model between human and AI. Powers Cascade, the first agentic IDE. Introduced AI Flows in Nov 2024. Ships 10+ waves including MCP, parallel agents, and the SweeOne model."
+- 'https://www.youtube.com/watch?v=h6mrr5nbtza'
+- 'https://www.youtube.com/watch?v=jvunpl5qo8q'
+- 'AIEF2025 - The Eyes Are The (Context) Window to The Soul: How Windsurf Gets to Know You — Sam Fertig, Windsurf - https://www.youtube.com/watch?v=jUv5WSPo9fk'
+summary: AI coding tool and editor that generates ~90M lines of code/day. Pioneered the shared timeline model between human and AI. Powers Cascade, the first agentic IDE. Introduced AI Flows in Nov 2024. Sh...
 provenance:
   extracted: 0.95
   inferred: 0.03
   ambiguous: 0.02
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-05
+category: entities
 ---
 
 # Windsurf

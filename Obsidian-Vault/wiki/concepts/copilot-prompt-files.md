@@ -1,23 +1,24 @@
 ---
-title: "Copilot Prompt Files"
+title: Copilot Prompt Files
 category: concepts
 tags:
-  - copilot
-  - prompt-files
-  - vscode
-  - agent-mode
-  - github
+- copilot
+- prompt-files
+- vscode
+- agent-mode
+- github
 sources:
-  - "[[sources/watchv=rkvilz06y08]]"
+- 'https://www.youtube.com/watch?v=rkvilz06y08'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Copilot Prompt Files
 ---
 
 # Copilot Prompt Files

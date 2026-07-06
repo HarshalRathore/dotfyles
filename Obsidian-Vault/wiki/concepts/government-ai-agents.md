@@ -4,7 +4,7 @@ category: concepts
 tags: [government, ai-agents, national-security, regulations, compliance, fedramp, classified-data, hpc, agentic-science]
 summary: AI agents operating within government regulatory frameworks, handling classified data, executing on HPC infrastructure, and subject to OMB/FedRAMP/DOD governance requirements.
 sources:
-  - "[[sources/watchv=tnsgx36ly0q]]"
+  - "https://www.youtube.com/watch?v=tnsgx36ly0q"
 provenance: {extracted: 0.80, inferred: 0.15, ambiguous: 0.05}
 base_confidence: 0.85
 lifecycle: draft

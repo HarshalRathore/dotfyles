@@ -17,7 +17,7 @@ relationships:
   - target: "[[concepts/semantic-ids]]"
     type: related_to
 sources:
-  - "[[sources/watchv=lxqsq3vzdqo]]"
+  - "https://www.youtube.com/watch?v=lxqsq3vzdqo"
 summary: "Residual Quantized Variational Autoencoder — the quantization technique YouTube uses to convert multi-dimensional video embeddings into discrete Semantic ID tokens that LLMs can process."
 provenance:
   extracted: 0.60

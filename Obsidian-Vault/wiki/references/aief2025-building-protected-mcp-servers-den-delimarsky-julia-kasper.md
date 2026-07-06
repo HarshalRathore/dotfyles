@@ -1,43 +1,48 @@
 ---
-title: "Building Protected MCP Servers — Den Delimarsky and Julia Kasper, MCP Steering Committee & Microsoft"
+title: Building Protected MCP Servers — Den Delimarsky and Julia Kasper, MCP Steering Committee & Microsoft
 category: references
 tags:
-  - aief2025
-  - mcp
-  - auth
-  - security
-  - oauth
-  - protected-servers
-  - prm
-  - talk
-aliases: [building protected mcp servers, mcp auth, protected resource metadata, mcp authorization spec]
+- aief2025
+- mcp
+- auth
+- security
+- oauth
+- protected-servers
+- prm
+- talk
+aliases:
+- building protected mcp servers
+- mcp auth
+- protected resource metadata
+- mcp authorization spec
 sources:
-  - "[[sources/watchv=phbghukam-w]]"
+- 'https://www.youtube.com/watch?v=phbghukam-w'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: core
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/den-delimarsky]]"
-    type: related_to
-  - target: "[[entities/julia-kasper]]"
-    type: related_to
-  - target: "[[concepts/mcp-protected-servers]]"
-    type: related_to
-  - target: "[[concepts/mcp-prm]]"
-    type: related_to
-  - target: "[[concepts/mcp-auth-spec-evolution]]"
-    type: related_to
-  - target: "[[concepts/mcp-local-vs-remote-auth]]"
-    type: related_to
-  - target: "[[entities/mcp-steering-committee]]"
-    type: related_to
+- target: '[[entities/den-delimarsky]]'
+  type: related_to
+- target: '[[entities/julia-kasper]]'
+  type: related_to
+- target: '[[concepts/mcp-protected-servers]]'
+  type: related_to
+- target: '[[concepts/mcp-prm]]'
+  type: related_to
+- target: '[[concepts/mcp-auth-spec-evolution]]'
+  type: related_to
+- target: '[[concepts/mcp-local-vs-remote-auth]]'
+  type: related_to
+- target: '[[entities/mcp-steering-committee]]'
+  type: related_to
+summary: Building Protected MCP Servers — Den Delimarsky and Julia Kasper, MCP Steering Committee & Microsoft
 ---
 
 # Building Protected MCP Servers — Den Delimarsky and Julia Kasper, MCP Steering Committee & Microsoft

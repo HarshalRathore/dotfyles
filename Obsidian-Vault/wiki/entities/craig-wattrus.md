@@ -1,23 +1,24 @@
 ---
-title: "Craig Wattrus"
+title: Craig Wattrus
 tags:
-  - person
-  - speaker
-  - flatfile
-  - ai-engineering
-  - aief2025
+- person
+- speaker
+- flatfile
+- ai-engineering
+- aief2025
 sources:
-  - "[[sources/watchv=cimvknx-cni]]"
-summary: "Director of AI Transformation at Flatfile. Speaks on AI coworker form factors, character coaching for agents, and using design thinking (woodworking analogies) for AI product development."
+- 'https://www.youtube.com/watch?v=cimvknx-cni'
+summary: Director of AI Transformation at Flatfile. Speaks on AI coworker form factors, character coaching for agents, and using design thinking (woodworking analogies) for AI product development.
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Craig Wattrus

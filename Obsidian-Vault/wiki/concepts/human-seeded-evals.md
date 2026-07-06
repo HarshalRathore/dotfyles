@@ -1,18 +1,18 @@
 ---
-title: "Human-Seeded Evals"
+title: Human-Seeded Evals
 category: concepts
 tags:
-  - evals
-  - validation
-  - schema-validation
-  - pydantic
-  - agent-loop
-  - self-correction
-summary: "Pattern where human-defined schema validators act as deterministic evals that the LLM learns from in real-time. Validation errors are returned to the model for self-correction, creating a feedback loop between human-defined constraints and model output."
+- evals
+- validation
+- schema-validation
+- pydantic
+- agent-loop
+- self-correction
+summary: Pattern where human-defined schema validators act as deterministic evals that the LLM learns from in real-time. Validation errors are returned to the model for self-correction, creating a feedback...
 sources:
-  - "AIEF2025 - Human seeded Evals — Samuel Colvin, Pydantic - https://www.youtube.com/watch?v=o_LRtAomJCs"
+- AIEF2025 - Human seeded Evals — Samuel Colvin, Pydantic - https://www.youtube.com/watch?v=o_LRtAomJCs
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.85
@@ -22,14 +22,14 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/eval-driven-development]]"
-    type: implements
-  - target: "[[concepts/validation-error-feedback]]"
-    type: implements
-  - target: "[[concepts/llm-as-judge-evaluation]]"
-    type: contrasts_with
-  - target: "[[concepts/evals-are-custom-and-subjective]]"
-    type: relates_to
+- target: '[[concepts/eval-driven-development]]'
+  type: implements
+- target: '[[concepts/validation-error-feedback]]'
+  type: implements
+- target: '[[concepts/llm-as-judge-evaluation]]'
+  type: contrasts_with
+- target: '[[concepts/evals-are-custom-and-subjective]]'
+  type: relates_to
 ---
 
 # Human-Seeded Evals

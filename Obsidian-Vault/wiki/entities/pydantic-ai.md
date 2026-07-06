@@ -1,16 +1,16 @@
 ---
-title: "Pydantic AI"
+title: Pydantic AI
 category: entities
 tags:
-  - agent-framework
-  - pydantic
-  - type-safety
-  - python
-  - structured-output
-  - agent-loop
-summary: "Type-safe AI agent framework by Samuel Colvin. Provides structured data extraction, validation error feedback loops, and type-safe tool dependencies. Claims to be the only agent framework with this level of type safety."
+- agent-framework
+- pydantic
+- type-safety
+- python
+- structured-output
+- agent-loop
+summary: Type-safe AI agent framework by Samuel Colvin. Provides structured data extraction, validation error feedback loops, and type-safe tool dependencies. Claims to be the only agent framework with this...
 sources:
-  - "AIEF2025 - Human seeded Evals — Samuel Colvin, Pydantic - https://www.youtube.com/watch?v=o_LRtAomJCs"
+- AIEF2025 - Human seeded Evals — Samuel Colvin, Pydantic - https://www.youtube.com/watch?v=o_LRtAomJCs
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -22,18 +22,18 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/pydantic]]"
-    type: built_on
-  - target: "[[entities/samuel-colvin]]"
-    type: created_by
-  - target: "[[entities/logfire]]"
-    type: integrates_with
-  - target: "[[entities/langchain]]"
-    type: contrasts_with
-  - target: "[[entities/langgraph]]"
-    type: contrasts_with
-  - target: "[[entities/gemini]]"
-    type: uses
+- target: '[[entities/pydantic]]'
+  type: built_on
+- target: '[[entities/samuel-colvin]]'
+  type: created_by
+- target: '[[entities/logfire]]'
+  type: integrates_with
+- target: '[[entities/langchain]]'
+  type: contrasts_with
+- target: '[[entities/langgraph]]'
+  type: contrasts_with
+- target: '[[entities/gemini]]'
+  type: uses
 ---
 
 # Pydantic AI

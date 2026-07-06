@@ -1,17 +1,25 @@
 ---
-title: "Information Retrieval from the Ground Up — Philipp Krenn (Elastic)"
-tags: [search, retrieval, rag, elasticsearch, ai-eng-fair-2025]
-sources: ["[[sources/ai-engineer-worlds-fair-2025-information-retrieval-from-the-ground-up-philipp-krenn]]", "[[sources/watchv=4xe_imyxbqc]]"]
-summary: "Hands-on walkthrough of retrieval fundamentals — keyword/lexical search through hybrid retrieval — with live Elasticsearch demos using Star Wars quotes. Covers tokenization, stemming, inverted index, BM25, dense/sparse vectors, RRF, re-ranking, and search evaluation."
+title: Information Retrieval from the Ground Up — Philipp Krenn (Elastic)
+tags:
+- search
+- retrieval
+- rag
+- elasticsearch
+- ai-eng-fair-2025
+sources:
+- '[[sources/ai-engineer-worlds-fair-2025-information-retrieval-from-the-ground-up-philipp-krenn]]'
+- 'https://www.youtube.com/watch?v=4xe_imyxbqc'
+summary: Hands-on walkthrough of retrieval fundamentals — keyword/lexical search through hybrid retrieval — with live Elasticsearch demos using Star Wars quotes. Covers tokenization, stemming, inverted inde...
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
-created: 2026-07-03T08:30:00Z
-updated: 2026-07-03T08:30:00Z
+created: 2026-07-03 08:30:00+00:00
+updated: 2026-07-03 08:30:00+00:00
+category: references
 ---
 
 # Information Retrieval from the Ground Up

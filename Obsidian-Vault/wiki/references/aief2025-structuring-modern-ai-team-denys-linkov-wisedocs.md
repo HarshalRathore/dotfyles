@@ -15,7 +15,7 @@ relationships:
   - target: "[[concepts/ai-team-anatomy]]"
     type: related_to
 sources:
-  - "[[sources/watchv=sbuxrluvrwk]]"
+  - "https://www.youtube.com/watch?v=sbuxrluvrwk"
 summary: "Denys Linkov (WiseDocs) at AI Engineer World's Fair 2025: three themes on building AI teams — company types, the generalist approach, and hiring trade-offs."
 provenance:
   extracted: 0.95

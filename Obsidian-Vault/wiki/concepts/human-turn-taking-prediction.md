@@ -1,17 +1,17 @@
 ---
-title: "Human Turn-Taking Prediction"
+title: Human Turn-Taking Prediction
 tags:
-  - linguistics
-  - conversation
-  - psychology
-  - turn-taking
-  - prediction
-  - voice
+- linguistics
+- conversation
+- psychology
+- turn-taking
+- prediction
+- voice
 sources:
-  - "[[sources/watchv=1v9zbizkliy]]"
-summary: "The three-stage model by which listeners predict when a speaker will finish their turn: semantic inference, syntactic refinement, and prosodic finalization, enabling responses faster than speech generation allows."
+- 'https://www.youtube.com/watch?v=1v9zbizkliy'
+summary: 'The three-stage model by which listeners predict when a speaker will finish their turn: semantic inference, syntactic refinement, and prosodic finalization, enabling responses faster than speech ge...'
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.42
@@ -19,6 +19,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Human Turn-Taking Prediction

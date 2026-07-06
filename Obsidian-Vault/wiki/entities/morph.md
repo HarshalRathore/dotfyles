@@ -1,22 +1,23 @@
 ---
-title: "Morph"
+title: Morph
 tags:
-  - company
-  - ai
-  - infrastructure
-  - cloud
+- company
+- ai
+- infrastructure
+- cloud
 sources:
-  - "[[sources/watchv=2goss66xrbk]]"
-summary: "AI infrastructure company building InfiniBranch, Morph Cloud, and verified superintelligence technology for agentic AI systems."
+- 'https://www.youtube.com/watch?v=2goss66xrbk'
+summary: AI infrastructure company building InfiniBranch, Morph Cloud, and verified superintelligence technology for agentic AI systems.
 provenance:
   extracted: 0.75
   inferred: 0.15
-  ambiguous: 0.10
+  ambiguous: 0.1
 base_confidence: 0.42
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 # Morph
 

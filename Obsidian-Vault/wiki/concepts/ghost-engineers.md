@@ -1,20 +1,20 @@
 ---
-title: "Ghost Engineers"
+title: Ghost Engineers
 category: concepts
 tags:
-  - software-engineering
-  - productivity
-  - management
-  - measurement
-  - ai-productivity
+- software-engineering
+- productivity
+- management
+- measurement
+- ai-productivity
 aliases:
-  - Ghost Engineer
-  - Ghost Developers
+- Ghost Engineer
+- Ghost Developers
 sources:
-  - "AIEF2025 - Does AI Actually Boost Developer Productivity? (100k Devs Study) - Yegor Denisov-Blanch, Stanford - https://www.youtube.com/watch?v=tbDDYKRFjhk"
-summary: "A 'ghost engineer' is a software engineer who collects a paycheck but does essentially no work. Stanford's study found ~10% of engineers in a 50k dataset fit this pattern — surprising to some, unsurprising to others."
+- AIEF2025 - Does AI Actually Boost Developer Productivity? (100k Devs Study) - Yegor Denisov-Blanch, Stanford - https://www.youtube.com/watch?v=tbDDYKRFjhk
+summary: A 'ghost engineer' is a software engineer who collects a paycheck but does essentially no work. Stanford's study found ~10% of engineers in a 50k dataset fit this pattern — surprising to some, unsu...
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.75
@@ -24,12 +24,12 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/ai-productivity-measurement|AI Productivity Measurement]]"
-    type: related_to
-  - target: "[[concepts/commit-based-metrics-limitations|Commit-Based Metrics Limitations]]"
-    type: related_to
-  - target: "[[entities/stanford|Stanford University]]"
-    type: discovered_by
+- target: '[[concepts/ai-productivity-measurement|AI Productivity Measurement]]'
+  type: related_to
+- target: '[[concepts/commit-based-metrics-limitations|Commit-Based Metrics Limitations]]'
+  type: related_to
+- target: '[[entities/stanford|Stanford University]]'
+  type: discovered_by
 ---
 
 # Ghost Engineers

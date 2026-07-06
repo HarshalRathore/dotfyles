@@ -1,27 +1,28 @@
 ---
-title: "SGLang"
+title: SGLang
 tags:
-  - tool
-  - inference
-  - serving
-  - llm
-  - open-source
+- tool
+- inference
+- serving
+- llm
+- open-source
 aliases:
-  - SGLang
-  - SGLang inference runtime
+- SGLang
+- SGLang inference runtime
 sources:
-  - "[[sources/watchv=ahtaha9fem0]]"
-  - "[[sources/watchv=deff3j8t5pk]]"
-summary: "Open-source fast serving framework for LLMs and VLMs. Competing with vLLM and TensorRT-LLM. Supports CUDA Graph optimization and Eagle 3 speculative decoding. Initial Qwen3 8-bit support had bugs in Modal LLM Almanac benchmarks."
+- 'https://www.youtube.com/watch?v=ahtaha9fem0'
+- 'https://www.youtube.com/watch?v=deff3j8t5pk'
+summary: Open-source fast serving framework for LLMs and VLMs. Competing with vLLM and TensorRT-LLM. Supports CUDA Graph optimization and Eagle 3 speculative decoding. Initial Qwen3 8-bit support had bugs i...
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # SGLang

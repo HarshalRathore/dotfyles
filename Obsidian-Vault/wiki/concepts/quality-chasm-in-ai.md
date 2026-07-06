@@ -9,7 +9,7 @@ tags:
   - product-development
 aliases: [V1 to V2 quality chasm, AI quality chasm]
 sources:
-  - "[[sources/watchv=1__v4ktv_gw]]"
+  - "https://www.youtube.com/watch?v=1__v4ktv_gw"
 summary: "The reliability gap teams hit when moving from a working prototype or V1 AI product to a V2 that drives real customer value — only crossable through systematic iteration."
 provenance:
   extracted: 0.80

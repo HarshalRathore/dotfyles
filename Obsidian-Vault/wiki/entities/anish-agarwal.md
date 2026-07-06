@@ -1,36 +1,39 @@
 ---
-title: "Anish Agarwal"
+title: Anish Agarwal
 tags:
-  - person
-  - entrepreneur
-  - ai
-  - causal-machine-learning
-  - observability
-  - speaker
-  - ai-eng-worlds-fair-2025
-aliases: [anish-agarwal, Anish Agarwal]
+- person
+- entrepreneur
+- ai
+- causal-machine-learning
+- observability
+- speaker
+- ai-eng-worlds-fair-2025
+aliases:
+- anish-agarwal
+- Anish Agarwal
 sources:
-  - "[[sources/watchv=l6_nigiexzq]]"
-summary: CEO and co-founder of Traversal.ai. AI researcher specializing in causal machine learning. Speaks at AI Engineer World's Fair 2025 on why AI coding tools will make production troubleshooting exponentially harder.
+- 'https://www.youtube.com/watch?v=l6_nigiexzq'
+summary: CEO and co-founder of Traversal.ai. AI researcher specializing in causal machine learning. Speaks at AI Engineer World's Fair 2025 on why AI coding tools will make production troubleshooting expone...
 provenance:
   extracted: 0.95
   inferred: 0.04
   ambiguous: 0.01
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/traversal-ai]]"
-    type: related_to
-  - target: "[[entities/matt-traversal]]"
-    type: related_to
-  - target: "[[concepts/causal-machine-learning]]"
-    type: related_to
-  - target: "[[concepts/production-troubleshooting]]"
-    type: related_to
+- target: '[[entities/traversal-ai]]'
+  type: related_to
+- target: '[[entities/matt-traversal]]'
+  type: related_to
+- target: '[[concepts/causal-machine-learning]]'
+  type: related_to
+- target: '[[concepts/production-troubleshooting]]'
+  type: related_to
+category: entities
 ---
 
 # Anish Agarwal

@@ -1,18 +1,20 @@
 ---
-title: "Dylibso"
+title: Dylibso
 category: entities
 tags:
-  - company
-  - ai
-  - mcp
-  - mcp.run
-  - observability
-  - aief2025
-aliases: [Dylibso, dylibso]
+- company
+- ai
+- mcp
+- mcp.run
+- observability
+- aief2025
+aliases:
+- Dylibso
+- dylibso
 sources:
-  - "[[sources/watchv=lcqat4ip_le]]"
+- 'https://www.youtube.com/watch?v=lcqat4ip_le'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -22,12 +24,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/mcp.run]]"
-    type: related_to
-  - target: "[[entities/benjamin-eckel]]"
-    type: related_to
-  - target: "[[entities/observable.tools]]"
-    type: related_to
+- target: '[[entities/mcp.run]]'
+  type: related_to
+- target: '[[entities/benjamin-eckel]]'
+  type: related_to
+- target: '[[entities/observable.tools]]'
+  type: related_to
+summary: Dylibso
 ---
 
 # Dylibso

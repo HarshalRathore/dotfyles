@@ -1,16 +1,16 @@
 ---
-title: "OpenID Connect"
+title: OpenID Connect
 category: concepts
 tags:
-  - oidc
-  - authentication
-  - oauth
-  - jwt
-  - identity
+- oidc
+- authentication
+- oauth
+- jwt
+- identity
 sources:
-  - "AIEF2025 - How to Secure Agents using OAuth — Jared Hanson (Keycard, Passport.js) - https://www.youtube.com/watch?v=blmAkayzE8M"
+- AIEF2025 - How to Secure Agents using OAuth — Jared Hanson (Keycard, Passport.js) - https://www.youtube.com/watch?v=blmAkayzE8M
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
 base_confidence: 0.95
@@ -19,12 +19,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/oauth-2.0|OAuth 2.0]]"
-    type: extends
-  - target: "[[concepts/jwt|JWT]]"
-    type: uses
-  - target: "[[concepts/authorization-server|Authorization Server]]"
-    type: related_to
+- target: '[[concepts/oauth-2.0|OAuth 2.0]]'
+  type: extends
+- target: '[[concepts/jwt|JWT]]'
+  type: uses
+- target: '[[concepts/authorization-server|Authorization Server]]'
+  type: related_to
+summary: OpenID Connect
 ---
 
 # OpenID Connect

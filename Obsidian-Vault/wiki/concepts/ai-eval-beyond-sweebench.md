@@ -1,19 +1,19 @@
 ---
-title: "AI Evals Beyond SweeBench"
+title: AI Evals Beyond SweeBench
 category: concepts
 tags:
-  - eval
-  - benchmark
-  - sweebench
-  - windsurf
-  - sweeone
-  - software-engineering
-  - workflow
-summary: "The argument that AI coding evaluation must move beyond SweeBench-style code generation benchmarks to measure full software engineering workflows: mid-workflow assistance, PR completion, tool usage, and real-world developer behavior."
+- eval
+- benchmark
+- sweebench
+- windsurf
+- sweeone
+- software-engineering
+- workflow
+summary: 'The argument that AI coding evaluation must move beyond SweeBench-style code generation benchmarks to measure full software engineering workflows: mid-workflow assistance, PR completion, tool usage...'
 sources:
-  - "[[sources/watchv=jvunpl5qo8q]]"
+- 'https://www.youtube.com/watch?v=jvunpl5qo8q'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.65

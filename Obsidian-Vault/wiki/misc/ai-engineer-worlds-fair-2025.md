@@ -1,10 +1,18 @@
 ---
 title: AI Engineer World's Fair 2025
 category: misc
-tags: [conference, aief2025, ai, engineering]
-summary: AIEF2025 — AI Engineer World's Fair 2025, a conference bringing together AI engineers, product leaders, and builders. Multiple talks covering agent architectures, evals, RAG, voice AI, and product strategy.
-sources: ["AIEF2025 - Everything is ugly, so go build something that isn't — Raiza Martin, Huxe (ex NotebookLM) - https://www.youtube.com/watch?v=yG5d5UaGz1M"]
-provenance: {extracted: 0.8, inferred: 0.2, ambiguous: 0.0}
+tags:
+- conference
+- aief2025
+- ai
+- engineering
+summary: AIEF2025 — AI Engineer World's Fair 2025, a conference bringing together AI engineers, product leaders, and builders. Multiple talks covering agent architectures, evals, RAG, voice AI, and product...
+sources:
+- AIEF2025 - Everything is ugly, so go build something that isn't — Raiza Martin, Huxe (ex NotebookLM) - https://www.youtube.com/watch?v=yG5d5UaGz1M
+provenance:
+  extracted: 0.8
+  inferred: 0.2
+  ambiguous: 0.0
 base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-05
@@ -12,8 +20,8 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/aief2025]]"
-    type: related_to
+- target: '[[entities/aief2025]]'
+  type: related_to
 ---
 
 ## AI Engineer World's Fair 2025

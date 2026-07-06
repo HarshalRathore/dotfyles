@@ -13,19 +13,19 @@ tier: supporting
 created: 2026-07-05T00:00:00Z
 updated: 2026-07-05T00:00:00Z
 relationships:
-  - target: "[[concepts/continuous-profiling.md]]"
+  - target: "[[concepts/continuous-profiling]]"
     type: extends
-  - target: "[[concepts/sampled-profiling.md]]"
+  - target: "[[concepts/sampled-profiling]]"
     type: uses
-  - target: "[[concepts/gpu-time-profiling.md]]"
+  - target: "[[concepts/gpu-time-profiling]]"
     type: derives
-  - target: "[[entities/nvidia.md]]"
+  - target: "[[entities/nvidia]]"
     type: uses
 ---
 
 # GPU Profiling
 
-[[GPU Profiling]] is the practice of monitoring and analyzing GPU performance metrics to understand how compute resources are being used. It extends the broader practice of [[concepts/continuous-profiling.md|continuous profiling]] to the GPU domain.
+[[concepts/gpu-profiling]] is the practice of monitoring and analyzing GPU performance metrics to understand how compute resources are being used. It extends the broader practice of [[concepts/continuous-profiling|continuous profiling]] to the GPU domain.
 
 ## Key Metrics
 
@@ -41,7 +41,7 @@ GPU profiling collects several categories of metrics:
 
 ## Data Sources
 
-GPU metrics are collected by querying NVIDIA and VMware APIs to extract low-level GPU telemetry. This data is then correlated with [[concepts/continuous-profiling.md|CPU profiles]] collected via [[concepts/ebpf.md|eBPF]] to provide a unified view of system performance.
+GPU metrics are collected by querying NVIDIA and VMware APIs to extract low-level GPU telemetry. This data is then correlated with [[concepts/continuous-profiling|CPU profiles]] collected via [[concepts/ebpf|eBPF]] to provide a unified view of system performance.
 
 ## GPU Time Profiling
 

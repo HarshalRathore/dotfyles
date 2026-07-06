@@ -1,16 +1,16 @@
 ---
-title: "Eval Flywheel Effect"
+title: Eval Flywheel Effect
 category: concepts
 tags:
-  - evals
-  - feedback-loop
-  - continuous-improvement
-  - production-ai
-  - braintrust
+- evals
+- feedback-loop
+- continuous-improvement
+- production-ai
+- braintrust
 sources:
-  - "AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY"
+- AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -20,12 +20,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/online-evals|Online Evals]]"
-    type: uses
-  - target: "[[concepts/ai-iteration-loop|AI Iteration Loop]]"
-    type: implements
-  - target: "[[concepts/eval-baseline-first|Eval Baseline First]]"
-    type: builds_on
+- target: '[[concepts/online-evals|Online Evals]]'
+  type: uses
+- target: '[[concepts/ai-iteration-loop|AI Iteration Loop]]'
+  type: implements
+- target: '[[concepts/eval-baseline-first|Eval Baseline First]]'
+  type: builds_on
+summary: Eval Flywheel Effect
 ---
 
 # Eval Flywheel Effect

@@ -1,17 +1,26 @@
 ---
 type: entity
-title: "IAM"
+title: IAM
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/introduction_804367]]"
+- '[[sources/introduction_804367]]'
 tags:
-  - product
+- product
 aliases:
-  - AWS IAM
-  - Amazon IAM
+- AWS IAM
+- Amazon IAM
+category: entities
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: IAM
 ---
 # IAM
 

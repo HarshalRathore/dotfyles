@@ -4,7 +4,7 @@ category: concepts
 tags: [ai-design, user-experience, human-curation, ai-int invisible-ai, aief2025]
 summary: "Design philosophy that AI should be invisible to end users — AI handles the heavy lifting behind the scenes, but human curation ensures quality and emotional resonance."
 sources:
-  - "[[sources/watchv=kcka7rzcxlk]]"
+  - "https://www.youtube.com/watch?v=kcka7rzcxlk"
 provenance: { extracted: 1.0, inferred: 0.0, ambiguous: 0.0 }
 base_confidence: 0.95
 lifecycle: draft

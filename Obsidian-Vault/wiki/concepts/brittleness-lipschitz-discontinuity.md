@@ -1,13 +1,19 @@
 ---
-title: "Brittleness and Lipschitz Discontinuity in AI"
+title: Brittleness and Lipschitz Discontinuity in AI
 category: concepts
-tags: [brittleness, lipschitz-discontinuity, ai-reliability, genai, input-sensitivity, non-determinism]
-summary: "GenAI systems exhibit extreme sensitivity to input perturbations — tiny changes in syntax, semantics, or appearance cause wildly different outputs. This is the core property making AI hard to build with, worse than non-determinism."
+tags:
+- brittleness
+- lipschitz-discontinuity
+- ai-reliability
+- genai
+- input-sensitivity
+- non-determinism
+summary: GenAI systems exhibit extreme sensitivity to input perturbations — tiny changes in syntax, semantics, or appearance cause wildly different outputs. This is the core property making AI hard to build...
 sources:
-  - "[[sources/watchv=omgpvw8tbhc]]"
+- 'https://www.youtube.com/watch?v=omgpvw8tbhc'
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.75
 lifecycle: draft
@@ -15,14 +21,14 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/fuzz-testing-ai]]"
-    type: motivates
-  - target: "[[concepts/last-mile-problem-ai]]"
-    type: extends
-  - target: "[[concepts/reliability-over-intelligence]]"
-    type: related_to
-  - target: "[[concepts/evals-are-not-unit-tests]]"
-    type: related_to
+- target: '[[concepts/fuzz-testing-ai]]'
+  type: motivates
+- target: '[[concepts/last-mile-problem-ai]]'
+  type: extends
+- target: '[[concepts/reliability-over-intelligence]]'
+  type: related_to
+- target: '[[concepts/evals-are-not-unit-tests]]'
+  type: related_to
 ---
 
 # Brittleness and Lipschitz Discontinuity in AI

@@ -1,13 +1,13 @@
 ---
-title: "Monologue"
+title: Monologue
 category: entities
 tags:
-  - product
-  - ai
-  - speech-to-text
-  - aief2025
-  - every-company
-summary: "A speech-to-text app built by Every, similar to Whisper Flow. Beautifully designed with complicated functionality, built by one engineer with thousands of users."
+- product
+- ai
+- speech-to-text
+- aief2025
+- every-company
+summary: A speech-to-text app built by Every, similar to Whisper Flow. Beautifully designed with complicated functionality, built by one engineer with thousands of users.
 provenance:
   extracted: 0.95
   inferred: 0.04
@@ -19,10 +19,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/every-company|Every]]"
-    type: implements
-  - target: "[[entities/dan-shipper|Dan Shipper]]"
-    type: related_to
+- target: '[[entities/every-company|Every]]'
+  type: implements
+- target: '[[entities/dan-shipper|Dan Shipper]]'
+  type: related_to
+sources: []
 ---
 
 # Monologue

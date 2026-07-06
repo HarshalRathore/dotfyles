@@ -1,35 +1,35 @@
 ---
-title: "Natural Language Interface"
+title: Natural Language Interface
 category: concepts
 tags:
-  - natural-language
-  - interface
-  - multi-agent
-  - network-operations
-  - itsm
-  - chat
+- natural-language
+- interface
+- multi-agent
+- network-operations
+- itsm
+- chat
 aliases:
-  - NL Interface
+- NL Interface
 sources:
-  - "AIEF2025 - Multi Agent AI and Network Knowledge Graphs for Change — Ola Mabadeje, Cisco - https://www.youtube.com/watch?v=m0dxZ-NDKHo"
-summary: "A natural language interaction layer that enables both human operators and other systems (like ITSM tools) to query and interact with AI agent systems, including inter-system agent-to-agent communication."
+- AIEF2025 - Multi Agent AI and Network Knowledge Graphs for Change — Ola Mabadeje, Cisco - https://www.youtube.com/watch?v=m0dxZ-NDKHo
+summary: A natural language interaction layer that enables both human operators and other systems (like ITSM tools) to query and interact with AI agent systems, including inter-system agent-to-agent communi...
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/multi-agent-workflows|Multi-Agent Workflows]]"
-    type: used_by
-  - target: "[[entities/service-now|ServiceNow]]"
-    type: integrates_with
-  - target: "[[concepts/agent-tool-calling|Agent Tool Calling]]"
-    type: related_to
+- target: '[[concepts/multi-agent-workflows|Multi-Agent Workflows]]'
+  type: used_by
+- target: '[[entities/service-now|ServiceNow]]'
+  type: integrates_with
+- target: '[[concepts/agent-tool-calling|Agent Tool Calling]]'
+  type: related_to
 ---
 
 # Natural Language Interface

@@ -1,34 +1,35 @@
 ---
-title: "Voice AI Builder Ecosystem"
+title: Voice AI Builder Ecosystem
 category: concepts
 tags:
-  - voice-ai
-  - open-source
-  - community
-  - democratization
-  - voice-agents
-  - tools
+- voice-ai
+- open-source
+- community
+- democratization
+- voice-agents
+- tools
 sources:
-  - "[[sources/watchv=e71ytnbcfxy]]"
-  - "[[sources/watchv=ia4lzjh9sts]]"
+- 'https://www.youtube.com/watch?v=e71ytnbcfxy'
+- 'https://www.youtube.com/watch?v=ia4lzjh9sts'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/voice-agents]]"
-    type: related_to
-  - target: "[[concepts/voice-as-ui]]"
-    type: related_to
-  - target: "[[entities/pipe-cat]]"
-    type: related_to
-  - target: "[[entities/fal]]"
-    type: related_to
+- target: '[[concepts/voice-agents]]'
+  type: related_to
+- target: '[[concepts/voice-as-ui]]'
+  type: related_to
+- target: '[[entities/pipe-cat]]'
+  type: related_to
+- target: '[[entities/fal]]'
+  type: related_to
+summary: Voice AI Builder Ecosystem
 ---
 
 # Voice AI Builder Ecosystem

@@ -1,10 +1,17 @@
 ---
-title: "Physical vs. Virtual Whiteboarding"
+title: Physical vs. Virtual Whiteboarding
 category: concepts
-tags: [concept, whiteboarding, product-design, digital-advantages, excalidraw, aief2025]
-summary: Framework for designing digital tools: don't replicate physical limitations one-to-one; instead, exploit the unique advantages of the virtual medium. Articulated by Christopher Chedeau in AIEF2025.
-sources: ["AIEF2025 - Excalidraw: AI and Human Whiteboarding Partnership - Christopher Chedeau - https://www.youtube.com/watch?v=aopgVJBQC0o"]
-provenance: { extracted: 0.85, inferred: 0.15, ambiguous: 0.0 }
+tags:
+- concept
+- whiteboarding
+- product-design
+- digital-advantages
+- excalidraw
+- aief2025
+summary: 'Framework for designing digital tools: don''t replicate physical limitations one-to-one; instead, exploit the unique advantages of the virtual medium. Articulated by Christopher Chedeau in AIEF2025.'
+sources:
+- '["AIEF2025 - Excalidraw: AI and Human Whiteboarding Partnership - Christopher Chedeau - https://www.youtube.com/watch?v=aopgVJBQC0o"]'
+provenance: '{ extracted: 0.85, inferred: 0.15, ambiguous: 0.0 }'
 base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-04
@@ -12,17 +19,17 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/excalidraw]]"
-    type: related_to
-  - target: "[[entities/christopher-chedeau]]"
-    type: related_to
-  - target: "[[concepts/ai-integration-patterns]]"
-    type: extends
+- target: '[[entities/excalidraw]]'
+  type: related_to
+- target: '[[entities/christopher-chedeau]]'
+  type: related_to
+- target: '[[concepts/ai-integration-patterns]]'
+  type: extends
 ---
 
 # Physical vs. Virtual Whiteboarding
 
-The **physical vs. virtual whiteboarding** framework, articulated by [[Christopher Chedeau|christopher-chedeau]] at AIEF2025, describes a pattern in product design: early digital versions of physical tools tend to replicate the physical tool's limitations one-to-one, missing opportunities to exploit digital advantages.
+The **physical vs. virtual whiteboarding** framework, articulated by [[entities/christopher-chedeau|christopher-chedeau]] at AIEF2025, describes a pattern in product design: early digital versions of physical tools tend to replicate the physical tool's limitations one-to-one, missing opportunities to exploit digital advantages.
 
 ## The Pattern
 

@@ -1,36 +1,37 @@
 ---
-title: "Queuing Theory in GPU Markets"
+title: Queuing Theory in GPU Markets
 category: concepts
 tags:
-  - queuing-theory
-  - gpu
-  - marketplace
-  - economics
-  - mm-c-model
-  - aief2025
+- queuing-theory
+- gpu
+- marketplace
+- economics
+- mm-c-model
+- aief2025
 aliases:
-  - queuing theory gpu
-  - M/M/c GPU
-  - queuing theory compute
+- queuing theory gpu
+- M/M/c GPU
+- queuing theory compute
 sources:
-  - "[[sources/watchv=m6vbaig1tsm]]"
+- 'https://www.youtube.com/watch?v=m6vbaig1tsm'
 provenance:
-  extracted: 0.70
-  inferred: 0.30
-  ambiguous: 0.00
-base_confidence: 0.70
+  extracted: 0.7
+  inferred: 0.3
+  ambiguous: 0.0
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/gpu-marketplace|GPU Marketplace]]"
-    type: related_to
-  - target: "[[concepts/compute-allocation|Compute Allocation]]"
-    type: related_to
-  - target: "[[concepts/gpu-utilization|GPU Utilization]]"
-    type: related_to
+- target: '[[concepts/gpu-marketplace|GPU Marketplace]]'
+  type: related_to
+- target: '[[concepts/compute-allocation|Compute Allocation]]'
+  type: related_to
+- target: '[[concepts/gpu-utilization|GPU Utilization]]'
+  type: related_to
+summary: Queuing Theory in GPU Markets
 ---
 
 # Queuing Theory in GPU Markets

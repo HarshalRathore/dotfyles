@@ -20,6 +20,6 @@ relationships:
 
 # Rover.js
 
-Rover.js is a JavaScript library that [[Christopher Chedeau|christopher-chedeau]] used to build the first version of [[Excalidraw|excalidraw]] in January 2020. When [[Zwibbler|zwibbler]] was unavailable, Chedeau opened a code sandbox and wrote code using Rover.js to create a minimal whiteboard demo, which went viral on Twitter.
+Rover.js is a JavaScript library that [[entities/christopher-chedeau|christopher-chedeau]] used to build the first version of [[entities/excalidraw|excalidraw]] in January 2020. When [[entities/zwibbler|zwibbler]] was unavailable, Chedeau opened a code sandbox and wrote code using Rover.js to create a minimal whiteboard demo, which went viral on Twitter.
 
 Rover.js provided the canvas and drawing primitives that allowed Chedeau to rapidly prototype the whiteboard functionality. The library's simplicity enabled the quick build that became the seed of Excalidraw.

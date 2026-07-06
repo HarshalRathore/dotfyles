@@ -1,25 +1,26 @@
 ---
 title: '"Data readiness" is a Myth: Reliable AI with an Agentic Semantic Layer — Anushrut Gupta, PromptQL'
 tags:
-  - reference
-  - talk
-  - ai-engineer
-  - semantic-layer
-  - reliability
-  - ai-agents
+- reference
+- talk
+- ai-engineer
+- semantic-layer
+- reliability
+- ai-agents
 sources:
-  - "[[sources/ai-engineer-worlds-fair-2025-talk]]"
+- '[[sources/ai-engineer-worlds-fair-2025-talk]]'
 Data readiness\" is a Myth: Reliable AI with an Agentic Semantic Layer — Anushrut Gupta, PromptQL - https://www.youtube.com/watch?v=1nOTQsfe1RU"
-summary: "AI Engineer World's Fair 2025 talk arguing that the pursuit of perfect 'data readiness' is futile, and proposing an agentic semantic layer that learns business context through corrections."
+summary: AI Engineer World's Fair 2025 talk arguing that the pursuit of perfect 'data readiness' is futile, and proposing an agentic semantic layer that learns business context through corrections.
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.42
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: references
 ---
 
 # "Data readiness" is a Myth: Reliable AI with an Agentic Semantic Layer

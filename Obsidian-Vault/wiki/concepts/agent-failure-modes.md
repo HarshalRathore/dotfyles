@@ -1,34 +1,35 @@
 ---
-title: "Agent Failure Modes"
+title: Agent Failure Modes
 category: concepts
 tags:
-  - failure-modes
-  - ai-agents
-  - debugging
-  - evals
-  - classification
+- failure-modes
+- ai-agents
+- debugging
+- evals
+- classification
 aliases:
-  - failure mode analysis
-  - agent failures
+- failure mode analysis
+- agent failures
 sources:
-  - "AIEF2025 - Turning Fails into Features: Zapier's Hard-Won Eval Lessons — Rafal Willinski, Vitor Balocco, Zapier - https://www.youtube.com/watch?v=blrovBxxN9o"
+- 'AIEF2025 - Turning Fails into Features: Zapier''s Hard-Won Eval Lessons — Rafal Willinski, Vitor Balocco, Zapier - https://www.youtube.com/watch?v=blrovBxxN9o'
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/evals-testing-pyramid|Evals Testing Pyramid]]"
-    type: informs
-  - target: "[[concepts/llm-ops-tooling|LLM Ops Tooling]]"
-    type: analyzed-by
-  - target: "[[concepts/data-flywheel|Data Flywheel]]"
-    type: feeds
+- target: '[[concepts/evals-testing-pyramid|Evals Testing Pyramid]]'
+  type: informs
+- target: '[[concepts/llm-ops-tooling|LLM Ops Tooling]]'
+  type: analyzed-by
+- target: '[[concepts/data-flywheel|Data Flywheel]]'
+  type: feeds
+summary: Agent Failure Modes
 ---
 
 # Agent Failure Modes

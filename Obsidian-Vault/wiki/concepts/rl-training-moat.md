@@ -9,7 +9,7 @@ tags:
   - aief2025
 aliases: [rl-moat, training-moat, custom-model-moat, rl-advantage]
 sources:
-  - "[[sources/watchv=pbhm2qknu10]]"
+  - "https://www.youtube.com/watch?v=pbhm2qknu10"
 summary: "The thesis that teams who RL-tune open models for their specific tasks build a defensible moat beyond generic API wrappers — owning your model creates competitive advantage."
 provenance:
   extracted: 0.70

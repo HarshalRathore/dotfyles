@@ -1,16 +1,16 @@
 ---
-title: "Alexa"
+title: Alexa
 tags:
-  - aws
-  - ai-agents
-  - voice-assistant
-  - smart-home
-  - alexa-plus
+- aws
+- ai-agents
+- voice-assistant
+- smart-home
+- alexa-plus
 sources:
-  - "AIEF2025 - Building Agents at Cloud Scale — Antje Barth, AWS - https://www.youtube.com/watch?v=WJjInLeaJjo"
-summary: "Amazon's voice assistant platform, now being completely reimagined as Alexa Plus — the largest integration of services, agentic capabilities, and LLMs known to any organization, deployed across 600M+ devices."
+- AIEF2025 - Building Agents at Cloud Scale — Antje Barth, AWS - https://www.youtube.com/watch?v=WJjInLeaJjo
+summary: Amazon's voice assistant platform, now being completely reimagined as Alexa Plus — the largest integration of services, agentic capabilities, and LLMs known to any organization, deployed across 600...
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -20,12 +20,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/aws|AWS]]"
-    type: related_to
-  - target: "[[entities/amazon-bedrock|Amazon Bedrock]]"
-    type: uses
-  - target: "[[concepts/model-driven-agent-design|Model-Driven Agent Design]]"
-    type: implements
+- target: '[[entities/aws|AWS]]'
+  type: related_to
+- target: '[[entities/amazon-bedrock|Amazon Bedrock]]'
+  type: uses
+- target: '[[concepts/model-driven-agent-design|Model-Driven Agent Design]]'
+  type: implements
+category: entities
 ---
 # Alexa
 

@@ -1,16 +1,25 @@
 ---
 type: entity
-title: "Linux"
+title: Linux
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/miscellaneous_1e6927]]"
+- '[[sources/miscellaneous_1e6927]]'
 tags:
-  - product
+- product
 aliases:
-  - GNU/Linux
+- GNU/Linux
+category: entities
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Linux
 ---
 # Linux
 

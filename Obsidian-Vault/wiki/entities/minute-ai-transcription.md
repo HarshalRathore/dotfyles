@@ -1,10 +1,17 @@
 ---
-title: "Minute (AI Transcription)"
+title: Minute (AI Transcription)
 category: entities
-tags: [product, ai-transcription, ai-summarization, government, meeting-tools, ai-coding-assistance]
-aliases: [minute]
+tags:
+- product
+- ai-transcription
+- ai-summarization
+- government
+- meeting-tools
+- ai-coding-assistance
+aliases:
+- minute
 sources:
-  - "AIEF2025 - Why your product needs an AI product manager, and why it should be you — James Lowe, i.AI - https://www.youtube.com/watch?v=xzJdSi2Tsqw"
+- AIEF2025 - Why your product needs an AI product manager, and why it should be you — James Lowe, i.AI - https://www.youtube.com/watch?v=xzJdSi2Tsqw
 provenance:
   extracted: 0.85
   inferred: 0.15
@@ -16,10 +23,11 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/incubator-for-ai]]"
-    type: created_by
-  - target: "[[concepts/feature-exploration-strategy]]"
-    type: demonstrates
+- target: '[[entities/incubator-for-ai]]'
+  type: created_by
+- target: '[[concepts/feature-exploration-strategy]]'
+  type: demonstrates
+summary: Minute (AI Transcription)
 ---
 
 # Minute (AI Transcription)

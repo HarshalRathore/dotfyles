@@ -1,33 +1,34 @@
 ---
-title: "Turn Detection"
+title: Turn Detection
 category: concepts
 tags:
-  - voice-ai
-  - turn-taking
-  - voice-activity-detection
-  - real-time
-  - smart-turn
-  - client-side-vad
+- voice-ai
+- turn-taking
+- voice-activity-detection
+- real-time
+- smart-turn
+- client-side-vad
 sources:
-  - "[[sources/watchv=ia4lzjh9sts]]"
-  - "[[sources/watchv=e71ytnbcfxy]]"
-  - "AIEF2025 - Milliseconds to Magic: Real‑Time Workflows using the Gemini Live API and Pipecat - https://www.youtube.com/watch?v=fWY1FQwpWkY"
+- 'https://www.youtube.com/watch?v=ia4lzjh9sts'
+- 'https://www.youtube.com/watch?v=e71ytnbcfxy'
+- 'AIEF2025 - Milliseconds to Magic: Real‑Time Workflows using the Gemini Live API and Pipecat - https://www.youtube.com/watch?v=fWY1FQwpWkY'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: core
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/voice-ai-latency]]"
-    type: related_to
-  - target: "[[concepts/ambient-noise-resilience]]"
-    type: related_to
-  - target: "[[concepts/human-turn-taking-prediction]]"
-    type: extends
+- target: '[[concepts/voice-ai-latency]]'
+  type: related_to
+- target: '[[concepts/ambient-noise-resilience]]'
+  type: related_to
+- target: '[[concepts/human-turn-taking-prediction]]'
+  type: extends
+summary: Turn Detection
 ---
 
 # Turn Detection

@@ -1,26 +1,27 @@
 ---
-title: "Cross-Chain Transfer Protocol (CCTP)"
+title: Cross-Chain Transfer Protocol (CCTP)
 tags:
-  - blockchain
-  - cross-chain
-  - usdc
-  - interoperability
+- blockchain
+- cross-chain
+- usdc
+- interoperability
 aliases:
-  - CCTP
-  - Circle CCTP
-  - cross-chain transfer protocol
+- CCTP
+- Circle CCTP
+- cross-chain transfer protocol
 sources:
-  - "[[sources/watchv=axmdsqdoghm]]"
-summary: "Circle's permissionless protocol for transferring USDC between different blockchain networks, enabling unified multi-chain payment experiences without fragmentation."
+- 'https://www.youtube.com/watch?v=axmdsqdoghm'
+summary: Circle's permissionless protocol for transferring USDC between different blockchain networks, enabling unified multi-chain payment experiences without fragmentation.
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.55
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Cross-Chain Transfer Protocol (CCTP)

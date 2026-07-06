@@ -1,19 +1,19 @@
 ---
-title: "Agent Robustness"
+title: Agent Robustness
 category: concepts
 tags:
-  - agent
-  - robustness
-  - reliability
-  - safety
-  - post-training
+- agent
+- robustness
+- reliability
+- safety
+- post-training
 aliases:
-  - ai agent reliability
-  - agent control
+- ai agent reliability
+- agent control
 sources:
-  - "AIEF2025 - OpenAI on Securing Code-Executing AI Agents — Fouad Matin (Codex, Agent Robustness) - https://www.youtube.com/watch?v=w7IMuYsBNr8"
+- AIEF2025 - OpenAI on Securing Code-Executing AI Agents — Fouad Matin (Codex, Agent Robustness) - https://www.youtube.com/watch?v=w7IMuYsBNr8
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -23,14 +23,15 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/agent-preparedness-framework|Agent Preparedness Framework]]"
-    type: related_to
-  - target: "[[concepts/agent-sandboxing|Agent Sandboxing]]"
-    type: requires
-  - target: "[[concepts/red-teaming|Red Teaming]]"
-    type: related_to
-  - target: "[[concepts/agent-autonomy|Agent Autonomy]]"
-    type: related_to
+- target: '[[concepts/agent-preparedness-framework|Agent Preparedness Framework]]'
+  type: related_to
+- target: '[[concepts/agent-sandboxing|Agent Sandboxing]]'
+  type: requires
+- target: '[[concepts/red-teaming|Red Teaming]]'
+  type: related_to
+- target: '[[concepts/agent-autonomy|Agent Autonomy]]'
+  type: related_to
+summary: Agent Robustness
 ---
 
 # Agent Robustness

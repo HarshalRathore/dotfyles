@@ -1,33 +1,34 @@
 ---
-title: "High Signal, Low Noise"
+title: High Signal, Low Noise
 tags:
-  - code-review
-  - ai
-  - quality
-  - software-engineering
-  - aief2025
+- code-review
+- ai
+- quality
+- software-engineering
+- aief2025
 aliases:
-  - high signal low noise
-  - AI feedback quality
+- high signal low noise
+- AI feedback quality
 relationships:
-  - target: "[[concepts/self-driving-code-review]]"
-    type: related_to
-  - target: "[[concepts/ai-native-toolchain]]"
-    type: implements
-  - target: "[[concepts/code-review-primary-skill]]"
-    type: related_to
+- target: '[[concepts/self-driving-code-review]]'
+  type: related_to
+- target: '[[concepts/ai-native-toolchain]]'
+  type: implements
+- target: '[[concepts/code-review-primary-skill]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=h6mrr5nbtza]]"
-summary: "AI review feedback should prioritize meaningful, actionable insights over trivial issues. High signal, low noise is a core quality principle for AI code review systems."
+- 'https://www.youtube.com/watch?v=h6mrr5nbtza'
+summary: AI review feedback should prioritize meaningful, actionable insights over trivial issues. High signal, low noise is a core quality principle for AI code review systems.
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+category: concepts
 ---
 
 # High Signal, Low Noise

@@ -1,26 +1,28 @@
 ---
-title: "AIEF2025 - Ship it! Building Production Ready Agents — Mike Chambers, AWS"
+title: AIEF2025 - Ship it! Building Production Ready Agents — Mike Chambers, AWS
+category: references
 tags:
-  - ai-engineering
-  - agents
-  - production
-  - aws
-  - bedrock
-  - lambda
-  - conference-talk
-  - ai-eng-worlds-fair-2025
+- ai-engineering
+- agents
+- production
+- aws
+- bedrock
+- lambda
+- conference-talk
+- ai-eng-worlds-fair-2025
 sources:
-  - "[[sources/watchv=ht4l0dep69i]]"
-summary: "AWS Developer Advocate Mike Chambers demonstrates taking a local Python agent to cloud scale using Amazon Bedrock Agents, Lambda for tool execution, and the full managed agent lifecycle — from configuration to production deployment.
+- https://www.youtube.com/watch?v=ht4l0dep69i
+summary: AWS Developer Advocate Mike Chambers demonstrates taking a local Python agent to cloud scale using Amazon Bedrock Agents, Lambda for tool execution, and the full managed agent lifecycle — from conf...
 provenance:
-  extracted: 0.95
-  inferred: 0.03
-  ambiguous: 0.02
-base_confidence: 0.85
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+base_confidence: 0.42
 lifecycle: draft
+lifecycle_changed: '2026-07-06'
 tier: supporting
-created: 2026-07-04
-updated: 2026-07-04
+created: '2026-07-04'
+updated: '2026-07-04'
 ---
 # AIEF2025 - Ship it! Building Production Ready Agents — Mike Chambers, AWS
 

@@ -1,15 +1,15 @@
 ---
-title: "Graph Database Challenges"
+title: Graph Database Challenges
 category: concepts
 tags:
-  - graph-database
-  - cypher
-  - knowledge-graph
-  - rag
-  - aief2025
+- graph-database
+- cypher
+- knowledge-graph
+- rag
+- aief2025
 sources:
-  - "AIEF2025 - When Vectors Break Down: Graph-Based RAG for Dense Enterprise Knowledge - Sam Julien, Writer - https://www.youtube.com/watch?v=XlAIgmi_Vow"
-summary: "Four challenges Writer encountered when using graph databases for enterprise RAG: costly graph construction at scale, Cypher's struggle with similarity matching, LLM preference for text over graph structures, and expertise mismatch."
+- 'AIEF2025 - When Vectors Break Down: Graph-Based RAG for Dense Enterprise Knowledge - Sam Julien, Writer - https://www.youtube.com/watch?v=XlAIgmi_Vow'
+summary: 'Four challenges Writer encountered when using graph databases for enterprise RAG: costly graph construction at scale, Cypher''s struggle with similarity matching, LLM preference for text over graph...'
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -21,12 +21,12 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: related_to
-  - target: "[[concepts/specialized-model-for-graph-construction|Specialized Model for Graph Construction]]"
-    type: related_to
-  - target: "[[entities/neo4j|Neo4j]]"
-    type: related_to
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: related_to
+- target: '[[concepts/specialized-model-for-graph-construction|Specialized Model for Graph Construction]]'
+  type: related_to
+- target: '[[entities/neo4j|Neo4j]]'
+  type: related_to
 ---
 
 # Graph Database Challenges

@@ -1,24 +1,24 @@
 ---
-title: "Kevin Hou"
+title: Kevin Hou
 category: entities
 tags:
-  - person
-  - product
-  - windsurf
-  - aief2025
-  - speaker
+- person
+- product
+- windsurf
+- aief2025
+- speaker
 aliases:
-  - Kevin Hou
-  - kevinhou
+- Kevin Hou
+- kevinhou
 relationships:
-  - target: "[[entities/windsurf]]"
-    type: related_to
-  - target: "[[concepts/software-engineering-model]]"
-    type: related_to
-  - target: "[[concepts/data-flywheel]]"
-    type: related_to
+- target: '[[entities/windsurf]]'
+  type: related_to
+- target: '[[concepts/software-engineering-model]]'
+  type: related_to
+- target: '[[concepts/data-flywheel]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=jvunpl5qo8q]]"
+- 'https://www.youtube.com/watch?v=jvunpl5qo8q'
 provenance:
   extracted: 0.95
   inferred: 0.03
@@ -29,6 +29,7 @@ lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Kevin Hou
 ---
 
 # Kevin Hou

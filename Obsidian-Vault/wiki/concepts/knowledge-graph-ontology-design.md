@@ -1,21 +1,21 @@
 ---
-title: "Knowledge Graph Ontology Design"
+title: Knowledge Graph Ontology Design
 tags:
-  - knowledge-graph
-  - ontology
-  - llm
-  - extraction
-  - prompt-engineering
-  - rag
+- knowledge-graph
+- ontology
+- llm
+- extraction
+- prompt-engineering
+- rag
 aliases:
-  - Ontology Design for KG
-  - Knowledge Graph Schema
+- Ontology Design for KG
+- Knowledge Graph Schema
 sources:
-  - "[[sources/watchv=j-9ebjbxcbg]]"
-  - "[[sources/watchv=-tgqa8fzf80]]"
-  - "[[sources/watchv=9aqovt8lnmi]]"
-  - "[[sources/watchv=cbir9xs2skq]]"
-  - "[[sources/watchv=czm3cw6fdbs]]"
+- 'https://www.youtube.com/watch?v=j-9ebjbxcbg'
+- 'https://www.youtube.com/watch?v=-tgqa8fzf80'
+- 'https://www.youtube.com/watch?v=9aqovt8lnmi'
+- 'https://www.youtube.com/watch?v=cbir9xs2skq'
+- 'https://www.youtube.com/watch?v=czm3cw6fdbs'
 provenance:
   extracted: 0.78
   inferred: 0.17
@@ -26,16 +26,18 @@ tier: supporting
 created: 2026-07-03
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/triplet-extraction|Triplet Extraction]]"
-    type: uses
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: used_by
-  - target: "[[concepts/hybrid-graph-extraction|Hybrid Graph Extraction]]"
-    type: related_to
-  - target: "[[concepts/kag-knowledge-augmented-generation|KAG (Knowledge Augmented Generation)]]"
-    type: related_to
-  - target: "[[concepts/ontology-driven-retrieval|Ontology-Driven Retrieval]]"
-    type: related_to
+- target: '[[concepts/triplet-extraction|Triplet Extraction]]'
+  type: uses
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: used_by
+- target: '[[concepts/hybrid-graph-extraction|Hybrid Graph Extraction]]'
+  type: related_to
+- target: '[[concepts/kag-knowledge-augmented-generation|KAG (Knowledge Augmented Generation)]]'
+  type: related_to
+- target: '[[concepts/ontology-driven-retrieval|Ontology-Driven Retrieval]]'
+  type: related_to
+category: concepts
+summary: Knowledge Graph Ontology Design
 ---
 
 # Knowledge Graph Ontology Design

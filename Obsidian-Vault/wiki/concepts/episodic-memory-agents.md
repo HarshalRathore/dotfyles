@@ -1,16 +1,16 @@
 ---
-title: "Episodic Memory for Agents"
+title: Episodic Memory for Agents
 category: concepts
 tags:
-  - memory
-  - episodic-memory
-  - agents
-  - state-management
-  - graph-databases
+- memory
+- episodic-memory
+- agents
+- state-management
+- graph-databases
 sources:
-  - "AIEF2025 - Knowledge Graphs in Litigation Agents — Tom Smoker, WhyHow - https://www.youtube.com/watch?v=yYxr6LdXNWM"
+- AIEF2025 - Knowledge Graphs in Litigation Agents — Tom Smoker, WhyHow - https://www.youtube.com/watch?v=yYxr6LdXNWM
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.65
@@ -20,12 +20,13 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/multi-agent-systems|Multi-Agent Systems]]"
-    type: used_by
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: implemented_via
-  - target: "[[concepts/decision-making-under-uncertainty|Decision-Making Under Uncertainty]]"
-    type: mitigates
+- target: '[[concepts/multi-agent-systems|Multi-Agent Systems]]'
+  type: used_by
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: implemented_via
+- target: '[[concepts/decision-making-under-uncertainty|Decision-Making Under Uncertainty]]'
+  type: mitigates
+summary: Episodic Memory for Agents
 ---
 
 # Episodic Memory for Agents

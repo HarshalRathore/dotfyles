@@ -1,14 +1,14 @@
 ---
-title: "Den Delimarsky"
+title: Den Delimarsky
 category: entities
 tags:
-  - person
-  - microsoft
-  - mcp
-  - steering-committee
-  - product-engineer
+- person
+- microsoft
+- mcp
+- steering-committee
+- product-engineer
 sources:
-  - "[[sources/watchv=phbghukam-w]]"
+- 'https://www.youtube.com/watch?v=phbghukam-w'
 provenance:
   extracted: 0.95
   inferred: 0.03
@@ -20,12 +20,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/microsoft]]"
-    type: related_to
-  - target: "[[entities/mcp-steering-committee]]"
-    type: related_to
-  - target: "[[entities/julia-kasper]]"
-    type: related_to
+- target: '[[entities/microsoft]]'
+  type: related_to
+- target: '[[entities/mcp-steering-committee]]'
+  type: related_to
+- target: '[[entities/julia-kasper]]'
+  type: related_to
+summary: Den Delimarsky
 ---
 
 # Den Delimarsky

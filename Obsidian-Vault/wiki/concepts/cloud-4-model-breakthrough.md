@@ -15,7 +15,7 @@ relationships:
   - target: "[[concepts/synthetic-eval-generation]]"
     type: related_to
 sources:
-  - "[[sources/watchv=mc55hdwlq4o]]"
+  - "https://www.youtube.com/watch?v=mc55hdwlq4o"
 summary: "Cloud 4 is a frontier model identified by Braintrust as a breakthrough for eval-related tasks — performing nearly 6x better than its predecessor at improving prompts, datasets, and scorers."
 provenance:
   extracted: 0.88

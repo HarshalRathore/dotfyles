@@ -1,17 +1,17 @@
 ---
-title: "Strategies for LLM Evals — Taylor Jordan Smith, Red Hat"
+title: Strategies for LLM Evals — Taylor Jordan Smith, Red Hat
 tags:
-  - reference
-  - talk
-  - ai-engineering
-  - evaluation
-  - benchmarking
-  - llm
+- reference
+- talk
+- ai-engineering
+- evaluation
+- benchmarking
+- llm
 sources:
-  - "[[sources/watchv=89nuzmkokik]]"
-summary: "Workshop at AI Engineer World's Fair 2025 covering a tiered approach to LLM evaluation — from system performance benchmarking (GuideLLM) through factual accuracy (lm-eval-harness/MMLU-Pro) to safety testing (PromptFu) — with hands-on exercises using VLLM on Red Hat infrastructure."
+- 'https://www.youtube.com/watch?v=89nuzmkokik'
+summary: Workshop at AI Engineer World's Fair 2025 covering a tiered approach to LLM evaluation — from system performance benchmarking (GuideLLM) through factual accuracy (lm-eval-harness/MMLU-Pro) to safet...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.18
   ambiguous: 0.02
 base_confidence: 0.65
@@ -19,6 +19,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: references
 ---
 
 # Strategies for LLM Evals — Taylor Jordan Smith, Red Hat

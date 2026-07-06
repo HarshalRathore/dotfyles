@@ -1,17 +1,17 @@
 ---
-title: "Multi-Agent Systems"
+title: Multi-Agent Systems
 category: concepts
 tags:
-  - agents
-  - multi-agent
-  - architecture
-  - workflow
-  - ai-systems
+- agents
+- multi-agent
+- architecture
+- workflow
+- ai-systems
 sources:
-  - "AIEF2025 - Knowledge Graphs in Litigation Agents — Tom Smoker, WhyHow - https://www.youtube.com/watch?v=yYxr6LdXNWM"
-  - "AIEF2025 - Conquering Agent Chaos — Rick Blalock, Agentuity - https://www.youtube.com/watch?v=yASxPZ-tZe0"
+- AIEF2025 - Knowledge Graphs in Litigation Agents — Tom Smoker, WhyHow - https://www.youtube.com/watch?v=yYxr6LdXNWM
+- AIEF2025 - Conquering Agent Chaos — Rick Blalock, Agentuity - https://www.youtube.com/watch?v=yASxPZ-tZe0
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.75
@@ -21,12 +21,13 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: related_to
-  - target: "[[concepts/probabilistic-accuracy-chaining|Probabilistic Accuracy Chaining]]"
-    type: relates_to
-  - target: "[[concepts/agent-architecture|Agent Architecture]]"
-    type: extends
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: related_to
+- target: '[[concepts/probabilistic-accuracy-chaining|Probabilistic Accuracy Chaining]]'
+  type: relates_to
+- target: '[[concepts/agent-architecture|Agent Architecture]]'
+  type: extends
+summary: Multi-Agent Systems
 ---
 
 # Multi-Agent Systems

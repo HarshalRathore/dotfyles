@@ -5,7 +5,7 @@ tags: [person, openai, developer-experience, fine-tuning]
 relationships:
   - target: "[[entities/openai]]"
     type: works_at
-sources: ["[[sources/aief2025-rft]]", "[[sources/dpo]]", "[[sources/sft-fine-tuning-with-openai-—-ilan-bigio]]", "[[sources/watchv=jfalqqfxqpa]]"]
+sources: ["[[sources/aief2025-rft]]", "[[sources/dpo]]", "[[sources/sft-fine-tuning-with-openai-—-ilan-bigio]]", "https://www.youtube.com/watch?v=jfalqqfxqpa"]
 summary: "Developer Experience team member at OpenAI who focuses on early testing of new API products and directions. Presented on SFT, DPO, and RFT at AI Engineer World's Fair 2025."
 provenance:
   extracted: 0.80

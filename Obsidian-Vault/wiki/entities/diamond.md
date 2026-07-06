@@ -12,8 +12,8 @@ relationships:
   - target: "[[concepts/ai-entomology]]"
     type: applies
 sources:
-  - "[[sources/watchv=tswqekftnaw]]"
-  - "[[sources/watchv=h6mrr5nbtza]]"
+  - "https://www.youtube.com/watch?v=tswqekftnaw"
+  - "https://www.youtube.com/watch?v=h6mrr5nbtza"
 summary: "AI code review platform by Graphite that provides high-signal, low-noise feedback on pull requests with a 52% comment acceptance rate and <4% downvote rate."
 provenance:
   extracted: 0.85

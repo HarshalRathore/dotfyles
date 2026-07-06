@@ -1,20 +1,23 @@
 ---
-title: "Agent Systemic Evaluation"
+title: Agent Systemic Evaluation
 category: concepts
 tags:
-  - evaluation
-  - agents
-  - end-to-end
-  - systemic
-  - integration-testing
-aliases: [systemic eval, end-to-end agent eval, agent integration testing]
+- evaluation
+- agents
+- end-to-end
+- systemic
+- integration-testing
+aliases:
+- systemic eval
+- end-to-end agent eval
+- agent integration testing
 relationships:
-  - target: "[[concepts/manual-vs-automated-evals]]"
-    type: implements
-  - target: "[[concepts/agent-evaluation-pipeline]]"
-    type: related_to
+- target: '[[concepts/manual-vs-automated-evals]]'
+  type: implements
+- target: '[[concepts/agent-evaluation-pipeline]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=j4vpq2i0qze]]"
+- 'https://www.youtube.com/watch?v=j4vpq2i0qze'
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -24,6 +27,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Agent Systemic Evaluation
 ---
 
 # Agent Systemic Evaluation

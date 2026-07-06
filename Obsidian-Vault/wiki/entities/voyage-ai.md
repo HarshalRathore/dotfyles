@@ -9,7 +9,7 @@ tags:
 aliases: [Voyage, voyage-ai]
 summary: "Company providing multimodal embedding models, including the VLM-based Voyage multimodal 3 model used in screenshot-based multimodal retrieval architectures."
 sources:
-  - "[[sources/watchv=640kmytxcei]]"
+  - "https://www.youtube.com/watch?v=640kmytxcei"
   - "AIEF2025 - The State of AI Powered Search and Retrieval — Frank Liu, MongoDB (prev Voyage AI) - https://www.youtube.com/watch?v=pIPtpBZ6TKk"
   - "AIEF2025 - RAG in 2025: State of the Art and the Road Forward — Tengyu Ma, MongoDB (acq. Voyage AI) - https://www.youtube.com/watch?v=W_CYk2ogcDI"
 provenance:

@@ -1,25 +1,31 @@
 ---
-title: "Search Fulfillment"
+title: Search Fulfillment
 category: concepts
-tags: [search-fulfillment, engagement-metrics, search-relevance, user-actions, aief2025]
+tags:
+- search-fulfillment
+- engagement-metrics
+- search-relevance
+- user-actions
+- aief2025
 aliases:
-  - search fulfillment metric
+- search fulfillment metric
 sources:
-  - "AIEF2025 - What We Learned from Using LLMs in Pinterest — Mukuntha Narayanan, Han Wang, Pinterest - https://www.youtube.com/watch?v=XdAWgO11zuk"
+- AIEF2025 - What We Learned from Using LLMs in Pinterest — Mukuntha Narayanan, Han Wang, Pinterest - https://www.youtube.com/watch?v=XdAWgO11zuk
 provenance:
   extracted: 0.65
-  inferred: 0.30
+  inferred: 0.3
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/search-relevance|Search Relevance]]"
-    type: measures
-  - target: "[[concepts/user-engagement-metrics|User Engagement Metrics]]"
-    type: related_to
+- target: '[[concepts/search-relevance|Search Relevance]]'
+  type: measures
+- target: '[[concepts/user-engagement-metrics|User Engagement Metrics]]'
+  type: related_to
+summary: Search Fulfillment
 ---
 
 # Search Fulfillment

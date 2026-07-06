@@ -9,8 +9,8 @@ relationships:
   - target: "[[concepts/agentic-architecture]]"
     type: related_to
 sources:
-  - "[[sources/watchv=1zlo9yu2ziu]]"
-  - "[[sources/watchv=bs92rdbvi90]]"
+  - "https://www.youtube.com/watch?v=1zlo9yu2ziu"
+  - "https://www.youtube.com/watch?v=bs92rdbvi90"
 summary: "Running reinforcement learning robotics simulations entirely in the browser, combining physics engines like MuJoCo with foundation model-generated reward functions and cloud GPU training."
 provenance:
   extracted: 0.70

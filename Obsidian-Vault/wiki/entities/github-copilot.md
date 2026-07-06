@@ -1,40 +1,41 @@
 ---
-title: "GitHub Copilot"
+title: GitHub Copilot
 category: entities
 tags:
-  - entity
-  - tool
-  - coding-agent
-  - microsoft
-  - github
+- entity
+- tool
+- coding-agent
+- microsoft
+- github
 aliases:
-  - copilot
+- copilot
 sources:
-  - "[[sources/watchv=eafp8pds7h4]]"
-  - "[[sources/watchv=7hrw6rtxahc]]"
-  - "[[sources/watchv=c1nivhys1si]]"
-  - "[[sources/watchv=g1hhmz6mxt0]]"
-  - "AIEF2025 - Vibe Coding at Scale: Customizing AI Assistants for Enterprise Environments - Harald Kirshner, - https://www.youtube.com/watch?v=i1uPAN6uW4s"
-  - "AIEF2025 - The Agent Awakens: Collaborative Development with Copilot - Christopher Harrison, GitHub - https://www.youtube.com/watch?v=tHJSZ1-ZqcA"
+- 'https://www.youtube.com/watch?v=eafp8pds7h4'
+- 'https://www.youtube.com/watch?v=7hrw6rtxahc'
+- 'https://www.youtube.com/watch?v=c1nivhys1si'
+- 'https://www.youtube.com/watch?v=g1hhmz6mxt0'
+- 'AIEF2025 - Vibe Coding at Scale: Customizing AI Assistants for Enterprise Environments - Harald Kirshner, - https://www.youtube.com/watch?v=i1uPAN6uW4s'
+- 'AIEF2025 - The Agent Awakens: Collaborative Development with Copilot - Christopher Harrison, GitHub - https://www.youtube.com/watch?v=tHJSZ1-ZqcA'
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/microsoft|Microsoft]]"
-    type: developed-by
-  - target: "[[entities/vs-code|VS Code]]"
-    type: integrates-with
-  - target: "[[concepts/vibe-coding|Vibe Coding]]"
-    type: enables
-  - target: "[[concepts/model-context-protocol|MCP]]"
-    type: extends-via
+- target: '[[entities/microsoft|Microsoft]]'
+  type: developed-by
+- target: '[[entities/vs-code|VS Code]]'
+  type: integrates-with
+- target: '[[concepts/vibe-coding|Vibe Coding]]'
+  type: enables
+- target: '[[concepts/model-context-protocol|MCP]]'
+  type: extends-via
+summary: GitHub Copilot
 ---
 
 # GitHub Copilot

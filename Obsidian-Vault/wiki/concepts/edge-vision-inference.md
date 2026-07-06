@@ -1,12 +1,18 @@
 ---
 title: Edge Vision Inference
 category: concepts
-tags: [edge-computing, computer-vision, latency, real-time, on-device-ml, vision-inference]
-summary: Computer vision applications interacting with the real world require edge inference due to latency constraints — perception of motion demands multiple frames per second, which centralized computation cannot provide.
+tags:
+- edge-computing
+- computer-vision
+- latency
+- real-time
+- on-device-ml
+- vision-inference
+summary: Computer vision applications interacting with the real world require edge inference due to latency constraints — perception of motion demands multiple frames per second, which centralized computati...
 sources:
-  - "[[sources/watchv=iqc05ecvnye]]"
+- 'https://www.youtube.com/watch?v=iqc05ecvnye'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.07
   ambiguous: 0.03
 base_confidence: 0.85
@@ -16,10 +22,10 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/edge-to-cloud|edge-to-cloud]]"
-    type: extends
-  - target: "[[concepts/vision-language-models|vision-language-models]]"
-    type: related_to
+- target: '[[concepts/edge-to-cloud|edge-to-cloud]]'
+  type: extends
+- target: '[[concepts/vision-language-models|vision-language-models]]'
+  type: related_to
 ---
 
 Computer vision systems that interact with the physical world face fundamentally different constraints than language models. The built environment is structured around vision as a fundamental primitive, and systems that perceive it must operate under real-time constraints.

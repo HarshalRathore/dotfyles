@@ -1,21 +1,22 @@
 ---
-title: "Magi 1"
+title: Magi 1
 tags:
-  - model
-  - ai
-  - reasoning
+- model
+- ai
+- reasoning
 sources:
-  - "[[sources/watchv=2goss66xrbk]]"
-summary: "Upcoming AI model from Morph trained to use InfiniBranch for reasoning time branching and verified reasoning, targeting a Q1 2026 release."
+- 'https://www.youtube.com/watch?v=2goss66xrbk'
+summary: Upcoming AI model from Morph trained to use InfiniBranch for reasoning time branching and verified reasoning, targeting a Q1 2026 release.
 provenance:
-  extracted: 0.70
-  inferred: 0.20
-  ambiguous: 0.10
+  extracted: 0.7
+  inferred: 0.2
+  ambiguous: 0.1
 base_confidence: 0.42
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 # Magi 1
 

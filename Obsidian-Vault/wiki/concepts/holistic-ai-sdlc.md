@@ -1,21 +1,21 @@
 ---
-title: "Holistic AI Across the SDLC"
+title: Holistic AI Across the SDLC
 category: concepts
 tags:
-  - sdlc
-  - holistic-ai
-  - aief2025
-  - itamar-friedman
-  - qodo
-  - agentic-workflows
-  - code-review
-  - testing
-summary: The thesis that the next breakthrough in AI software development will be a holistic, unified solution spanning the entire SDLC — not point tools for individual phases. Analogized to Wiz's approach to cloud security.
+- sdlc
+- holistic-ai
+- aief2025
+- itamar-friedman
+- qodo
+- agentic-workflows
+- code-review
+- testing
+summary: The thesis that the next breakthrough in AI software development will be a holistic, unified solution spanning the entire SDLC — not point tools for individual phases. Analogized to Wiz's approach...
 sources:
-  - "AIEF2025 - Vibe Coding with Confidence — Itamar Friedman, Qodo - https://www.youtube.com/watch?v=n991Yxo1aOI"
+- AIEF2025 - Vibe Coding with Confidence — Itamar Friedman, Qodo - https://www.youtube.com/watch?v=n991Yxo1aOI
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.75
 lifecycle: draft
@@ -24,14 +24,14 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/vibe-coding-with-confidence|Vibe Coding with Confidence]]"
-    type: enables
-  - target: "[[concepts/sdlc-shift-left-ai|SDLC Shift-Left AI]]"
-    type: encompasses
-  - target: "[[concepts/agent-to-agent-communication|Agent-to-Agent Communication]]"
-    type: requires
-  - target: "[[concepts/ai-red-team-blue-team|AI Red Team vs Blue Team]]"
-    type: incorporates
+- target: '[[concepts/vibe-coding-with-confidence|Vibe Coding with Confidence]]'
+  type: enables
+- target: '[[concepts/sdlc-shift-left-ai|SDLC Shift-Left AI]]'
+  type: encompasses
+- target: '[[concepts/agent-to-agent-communication|Agent-to-Agent Communication]]'
+  type: requires
+- target: '[[concepts/ai-red-team-blue-team|AI Red Team vs Blue Team]]'
+  type: incorporates
 ---
 
 # Holistic AI Across the SDLC

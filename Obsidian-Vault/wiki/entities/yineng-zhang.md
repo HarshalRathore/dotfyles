@@ -1,23 +1,26 @@
 ---
-title: "Yineng Zhang"
+title: Yineng Zhang
 tags:
-  - person
-  - engineer
-  - sglang
-  - inference
-aliases: [Yineng Zhang, Yineng]
+- person
+- engineer
+- sglang
+- inference
+aliases:
+- Yineng Zhang
+- Yineng
 sources:
-  - "[[sources/watchv=ahtaha9fem0]]"
-summary: "Core maintainer of SGLang and inference lead at Baseten. Previously at Baidu. Author of FlashInfo papers. Involved with LMSys.org."
+- 'https://www.youtube.com/watch?v=ahtaha9fem0'
+summary: Core maintainer of SGLang and inference lead at Baseten. Previously at Baidu. Author of FlashInfo papers. Involved with LMSys.org.
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.45
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Yineng Zhang

@@ -1,36 +1,36 @@
 ---
-title: "Context Length Scaling"
+title: Context Length Scaling
 category: concepts
 tags:
-  - context-window
-  - context-length
-  - llm
-  - amazon-nova
-  - aief2025
+- context-window
+- context-length
+- llm
+- amazon-nova
+- aief2025
 aliases:
-  - context length
-  - context window scaling
-  - long context
+- context length
+- context window scaling
+- long context
 sources:
-  - "AIEF2025 - 2025 in LLMs so far, illustrated by Pelicans on Bicycles — Simon Willison - https://www.youtube.com/watch?v=YpY83-kA7Bo"
-summary: "The trend of expanding LLM context windows to 1M+ tokens, demonstrated by Amazon Nova's 1 million token context window. Enables processing of entire documents, codebases, or long conversations in a single pass."
+- AIEF2025 - 2025 in LLMs so far, illustrated by Pelicans on Bicycles — Simon Willison - https://www.youtube.com/watch?v=YpY83-kA7Bo
+summary: The trend of expanding LLM context windows to 1M+ tokens, demonstrated by Amazon Nova's 1 million token context window. Enables processing of entire documents, codebases, or long conversations in a...
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/amazon-nova|Amazon Nova]]"
-    type: demonstrated_by
-  - target: "[[concepts/retrieval-augmented-generation|Retrieval Augmented Generation]]"
-    type: competes_with
-  - target: "[[concepts/kv-cache|KV Cache]]"
-    type: relates_to
+- target: '[[entities/amazon-nova|Amazon Nova]]'
+  type: demonstrated_by
+- target: '[[concepts/retrieval-augmented-generation|Retrieval Augmented Generation]]'
+  type: competes_with
+- target: '[[concepts/kv-cache|KV Cache]]'
+  type: relates_to
 ---
 
 # Context Length Scaling

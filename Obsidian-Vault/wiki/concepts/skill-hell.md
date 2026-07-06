@@ -1,23 +1,23 @@
 ---
-title: "Skill Hell"
+title: Skill Hell
 category: concepts
 tags:
-  - ai-coding
-  - vibe-engineering
-  - skill-gap
-  - model-capabilities
-  - prompt-engineering
+- ai-coding
+- vibe-engineering
+- skill-gap
+- model-capabilities
+- prompt-engineering
 sources:
-  - "[[sources/watchv=jv-wy5pxxlo]]"
+- 'https://www.youtube.com/watch?v=jv-wy5pxxlo'
 relationships:
-  - target: "[[concepts/vibe-engineering]]"
-    type: contradicts
-  - target: "[[concepts/code-review-primary-skill]]"
-    type: related_to
-  - target: "[[concepts/context-engineering]]"
-    type: related_to
+- target: '[[concepts/vibe-engineering]]'
+  type: contradicts
+- target: '[[concepts/code-review-primary-skill]]'
+  type: related_to
+- target: '[[concepts/context-engineering]]'
+  type: related_to
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.75
@@ -25,6 +25,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Skill Hell
 ---
 
 # Skill Hell

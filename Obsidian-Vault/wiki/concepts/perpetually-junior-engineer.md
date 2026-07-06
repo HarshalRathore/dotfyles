@@ -1,18 +1,18 @@
 ---
-title: "Perpetually Junior Engineer"
+title: Perpetually Junior Engineer
 tags:
-  - ai-agents
-  - junior-engineer
-  - aief2025
-  - agent-model
+- ai-agents
+- junior-engineer
+- aief2025
+- agent-model
 aliases:
-  - perpetually junior engineer
-  - AI as perpetually junior
+- perpetually junior engineer
+- AI as perpetually junior
 sources:
-  - "AIEF2025 - Mentoring the Machine — Eric Hou, Augment Code - https://www.youtube.com/watch?v=Zniw5c9_jx8"
+- AIEF2025 - Mentoring the Machine — Eric Hou, Augment Code - https://www.youtube.com/watch?v=Zniw5c9_jx8
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.85
 lifecycle: draft
@@ -20,12 +20,17 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: [[concepts/context-gap|Context Gap]]
-    type: caused_by
-  - target: [[concepts/agent-mentoring-model|Agent Mentoring Model]]
-    type: motivates
-  - target: [[concepts/agent-as-teammate|Agent as Teammate]]
-    type: extends
+- target:
+  - - concepts/context-gap|Context Gap
+  type: caused_by
+- target:
+  - - concepts/agent-mentoring-model|Agent Mentoring Model
+  type: motivates
+- target:
+  - - concepts/agent-as-teammate|Agent as Teammate
+  type: extends
+category: concepts
+summary: Perpetually Junior Engineer
 ---
 
 # Perpetually Junior Engineer

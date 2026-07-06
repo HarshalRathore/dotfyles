@@ -4,7 +4,7 @@ category: entities
 tags: [person, speaker, aief2025, zep, agent-memory, knowledge-graph]
 summary: "Speaker at AI Engineer World's Fair 2025 representing Zep. Presented on domain-aware memory and Graffiti, Zep's open-source temporal graph framework."
 sources:
-  - "[[sources/watchv=t5imo5ntyha]]"
+  - "https://www.youtube.com/watch?v=t5imo5ntyha"
 provenance:
   extracted: 0.95
   inferred: 0.03

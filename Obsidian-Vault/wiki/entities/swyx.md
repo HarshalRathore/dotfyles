@@ -1,23 +1,25 @@
 ---
-title: "swyx"
+title: swyx
 tags:
-  - person
-  - ai-engineer
-  - ai-news
-  - conference-organizer
-  - open-source
-  - ai-intensive
+- person
+- ai-engineer
+- ai-news
+- conference-organizer
+- open-source
+- ai-intensive
 sources:
-  - "[[sources/watchv=ihkyfhu6jey]]"
+- 'https://www.youtube.com/watch?v=ihkyfhu6jey'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+category: entities
+summary: swyx
 ---
 
 # swyx

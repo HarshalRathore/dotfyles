@@ -17,13 +17,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/chroma.md]]"
+  - target: "[[entities/chroma]]"
     type: uses
-  - target: "[[entities/openai.md]]"
+  - target: "[[entities/openai]]"
     type: uses
-  - target: "[[concepts/retrieval-evaluation-isolation.md]]"
+  - target: "[[concepts/retrieval-evaluation-isolation]]"
     type: extends
-  - target: "[[concepts/llm-as-judge-evaluation.md]]"
+  - target: "[[concepts/llm-as-judge-evaluation]]"
     type: related_to
   - target: "[[concepts/agentic-retrieval]]"
     type: extends
@@ -33,12 +33,12 @@ relationships:
 
 The standard architecture for retrieval-augmented generation consists of two main steps:
 
-1. **Retrieval**: Given a user query, search a [[entities/chroma.md|vector database]] (e.g., Chroma) to find relevant documents. Documents are embedded and indexed by semantic similarity.
-2. **Generation**: Pass the query plus retrieved context to an LLM (e.g., [[entities/openai.md|OpenAI]]) which generates an answer grounded in the retrieved documents.
+1. **Retrieval**: Given a user query, search a [[entities/chroma|vector database]] (e.g., Chroma) to find relevant documents. Documents are embedded and indexed by semantic similarity.
+2. **Generation**: Pass the query plus retrieved context to an LLM (e.g., [[entities/openai|OpenAI]]) which generates an answer grounded in the retrieved documents.
 
-This architecture was the subject of [[entities/nir-gazit.md|Nir Gazit]]'s AIEF2025 talk, where he used a simple RAG pipeline as the subject of his auto-improving agent experiment. The pipeline is described as "super simple" — the easiest drug you can think of — yet even this simple system required significant effort to get working well.
+This architecture was the subject of [[entities/nir-gazit|Nir Gazit]]'s AIEF2025 talk, where he used a simple RAG pipeline as the subject of his auto-improving agent experiment. The pipeline is described as "super simple" — the easiest drug you can think of — yet even this simple system required significant effort to get working well.
 
-The RAG pipeline can be evaluated at multiple levels: individual retrieval quality (does the vector DB return the right documents?), individual generation quality (does the LLM use context well?), and end-to-end quality (does the final answer satisfy the user's question?). This multi-level evaluation capability is what enables [[concepts/llm-as-judge-evaluation.md|LLM-as-judge]] evaluation and [[concepts/auto-improving-agent-loop.md|auto-improving agent loops]].
+The RAG pipeline can be evaluated at multiple levels: individual retrieval quality (does the vector DB return the right documents?), individual generation quality (does the LLM use context well?), and end-to-end quality (does the final answer satisfy the user's question?). This multi-level evaluation capability is what enables [[concepts/llm-as-judge-evaluation|LLM-as-judge]] evaluation and [[concepts/auto-improving-agent-loop|auto-improving agent loops]].
 
 ## Agentic Evolution
 

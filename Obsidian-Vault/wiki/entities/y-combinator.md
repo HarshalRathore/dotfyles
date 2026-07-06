@@ -1,12 +1,12 @@
 ---
-title: "Y Combinator"
+title: Y Combinator
 category: entities
 tags:
-  - company
-  - venture-capital
-  - accelerator
-  - startup
-  - aief2025
+- company
+- venture-capital
+- accelerator
+- startup
+- aief2025
 summary: Startup accelerator. Gumloop was part of the Winter 2024 batch. Max Brodeur-Urbas raised a Series A as a team of two after YC.
 provenance:
   extracted: 0.95
@@ -19,10 +19,11 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/gumloop]]"
-    type: related_to
-  - target: "[[entities/max-brodeur-urbas]]"
-    type: related_to
+- target: '[[entities/gumloop]]'
+  type: related_to
+- target: '[[entities/max-brodeur-urbas]]'
+  type: related_to
+sources: []
 ---
 
 ## Y Combinator

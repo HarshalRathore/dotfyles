@@ -4,7 +4,7 @@ category: concepts
 tags: [ml, classification, taxonomy, search, nlp, e-commerce]
 summary: "A classification problem where a single input maps to multiple output labels simultaneously — common in search query-to-category mapping where queries can belong to several taxonomy categories."
 sources:
-  - "[[sources/watchv=pjavhm_3ljg]]"
+  - "https://www.youtube.com/watch?v=pjavhm_3ljg"
 provenance:
   extracted: 0.65
   inferred: 0.30

@@ -1,19 +1,19 @@
 ---
-title: "Scaling Enterprise-Grade RAG: Lessons from Legal Frontier"
+title: 'Scaling Enterprise-Grade RAG: Lessons from Legal Frontier'
 tags:
-  - talk
-  - rag
-  - legal-ai
-  - enterprise
-  - lance-db
-  - harvey
-  - aief2025
+- talk
+- rag
+- legal-ai
+- enterprise
+- lance-db
+- harvey
+- aief2025
 aliases:
-  - Scaling Enterprise-Grade RAG
-  - Legal Frontier RAG
+- Scaling Enterprise-Grade RAG
+- Legal Frontier RAG
 sources:
-  - "[[sources/watchv=w1mizchnkfa]]"
-summary: "Calvin Qi (Harvey) and Chang She (LanceDB) discuss challenges of building RAG systems for legal data at massive scale, including query complexity, eval-driven development, and AI-native lakehouse infrastructure."
+- 'https://www.youtube.com/watch?v=w1mizchnkfa'
+summary: Calvin Qi (Harvey) and Chang She (LanceDB) discuss challenges of building RAG systems for legal data at massive scale, including query complexity, eval-driven development, and AI-native lakehouse i...
 provenance:
   extracted: 0.9
   inferred: 0.1
@@ -24,10 +24,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/harvey-ai|Harvey]]"
-    type: related_to
-  - target: "[[entities/lance-db|LanceDB]]"
-    type: related_to
+- target: '[[entities/harvey-ai|Harvey]]'
+  type: related_to
+- target: '[[entities/lance-db|LanceDB]]'
+  type: related_to
+category: references
 ---
 
 # Scaling Enterprise-Grade RAG: Lessons from Legal Frontier

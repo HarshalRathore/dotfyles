@@ -13,14 +13,14 @@ tier: supporting
 created: 2026-07-05T00:00:00Z
 updated: 2026-07-05T00:00:00Z
 relationships:
-  - target: "[[entities/polar-signals.md]]"
+  - target: "[[entities/polar-signals]]"
     type: relates_to
-  - target: "[[entities/prometheus-operator.md]]"
+  - target: "[[entities/prometheus-operator]]"
     type: relates_to
 ---
 
 # Prometheus
 
-[[Prometheus]] is an open-source monitoring and alerting toolkit from the Cloud Native Computing Foundation (CNCF). It is a time-series database with a powerful query language (PromQL) and is widely used for infrastructure and application monitoring.
+[[entities/prometheus]] is an open-source monitoring and alerting toolkit from the Cloud Native Computing Foundation (CNCF). It is a time-series database with a powerful query language (PromQL) and is widely used for infrastructure and application monitoring.
 
-Polar Signals extends the Prometheus ecosystem with continuous profiling capabilities, adding CPU, memory, and GPU profiling on top of the metrics collection infrastructure. The [[entities/prometheus-operator.md|Prometheus Operator]] is maintained by Polar Signals' [[entities/matthias-loibl.md|Matthias Loibl]] and serves as the open-source foundation of their platform.
+Polar Signals extends the Prometheus ecosystem with continuous profiling capabilities, adding CPU, memory, and GPU profiling on top of the metrics collection infrastructure. The [[entities/prometheus-operator|Prometheus Operator]] is maintained by Polar Signals' [[entities/matthias-loibl|Matthias Loibl]] and serves as the open-source foundation of their platform.

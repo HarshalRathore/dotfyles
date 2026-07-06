@@ -1,16 +1,25 @@
 ---
 type: concept
-title: "low-level container runtime"
+title: low-level container runtime
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/containerd-cri-etc_fb87d8]]"
+- '[[sources/containerd-cri-etc_fb87d8]]'
 tags:
-  - container
+- container
 aliases:
-  - OCI runtime
+- OCI runtime
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: low-level container runtime
 ---
 # low-level container runtime
 

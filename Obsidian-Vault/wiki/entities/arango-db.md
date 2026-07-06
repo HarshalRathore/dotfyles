@@ -1,32 +1,33 @@
 ---
-title: "ArangoDB"
+title: ArangoDB
 category: entities
 tags:
-  - entity
-  - company
-  - graph-database
-  - document-database
-  - multi-model
-  - ai
+- entity
+- company
+- graph-database
+- document-database
+- multi-model
+- ai
 aliases:
-  - Arango DB
+- Arango DB
 sources:
-  - "AIEF2025 - Multi Agent AI and Network Knowledge Graphs for Change — Ola Mabadeje, Cisco - https://www.youtube.com/watch?v=m0dxZ-NDKHo"
+- AIEF2025 - Multi Agent AI and Network Knowledge Graphs for Change — Ola Mabadeje, Cisco - https://www.youtube.com/watch?v=m0dxZ-NDKHo
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/neo4j|Neo4j]]"
-    type: competitor
-  - target: "[[concepts/network-knowledge-graph|Network Knowledge Graph]]"
-    type: implements
+- target: '[[entities/neo4j|Neo4j]]'
+  type: competitor
+- target: '[[concepts/network-knowledge-graph|Network Knowledge Graph]]'
+  type: implements
+summary: ArangoDB
 ---
 
 # ArangoDB

@@ -1,32 +1,36 @@
 ---
-title: "The State of MCP Observability: Observable.tools"
+title: 'The State of MCP Observability: Observable.tools'
 category: references
 tags:
-  - aief2025
-  - mcp
-  - observability
-  - open-telemetry
-  - talk
-aliases: [state of mcp observability, observable.tools talk, mcp observability aief2025]
+- aief2025
+- mcp
+- observability
+- open-telemetry
+- talk
+aliases:
+- state of mcp observability
+- observable.tools talk
+- mcp observability aief2025
 sources:
-  - "[[sources/watchv=lcqat4ip_le]]"
+- 'https://www.youtube.com/watch?v=lcqat4ip_le'
 provenance:
   extracted: 0.95
   inferred: 0.03
   ambiguous: 0.02
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/alex-volkov]]"
-    type: related_to
-  - target: "[[entities/benjamin-eckel]]"
-    type: related_to
-  - target: "[[concepts/mcp-observability]]"
-    type: related_to
+- target: '[[entities/alex-volkov]]'
+  type: related_to
+- target: '[[entities/benjamin-eckel]]'
+  type: related_to
+- target: '[[concepts/mcp-observability]]'
+  type: related_to
+summary: 'The State of MCP Observability: Observable.tools'
 ---
 
 # The State of MCP Observability: Observable.tools

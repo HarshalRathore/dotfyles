@@ -1,13 +1,20 @@
 ---
 title: Domain-Specific Embedding Models
 category: concepts
-tags: [embeddings, domain-adaptation, evaluation, voyage-ai, semantic-search]
-aliases: [domain embeddings, domain-specific models]
-summary: "The principle that no single embedding model works best for all domains — specialized models (code, law, general) outperform general-purpose models within their target domain, and must be selected empirically."
+tags:
+- embeddings
+- domain-adaptation
+- evaluation
+- voyage-ai
+- semantic-search
+aliases:
+- domain embeddings
+- domain-specific models
+summary: The principle that no single embedding model works best for all domains — specialized models (code, law, general) outperform general-purpose models within their target domain, and must be selected...
 sources:
-  - "AIEF2025 - The State of AI Powered Search and Retrieval — Frank Liu, MongoDB (prev Voyage AI) - https://www.youtube.com/watch?v=pIPtpBZ6TKk"
+- AIEF2025 - The State of AI Powered Search and Retrieval — Frank Liu, MongoDB (prev Voyage AI) - https://www.youtube.com/watch?v=pIPtpBZ6TKk
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -17,12 +24,12 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/empirical-embedding-selection]]"
-    type: related_to
-  - target: "[[concepts/embedding-models]]"
-    type: extends
-  - target: "[[concepts/rag-pipeline-architecture]]"
-    type: used_in
+- target: '[[concepts/empirical-embedding-selection]]'
+  type: related_to
+- target: '[[concepts/embedding-models]]'
+  type: extends
+- target: '[[concepts/rag-pipeline-architecture]]'
+  type: used_in
 ---
 
 # Domain-Specific Embedding Models

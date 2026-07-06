@@ -4,7 +4,7 @@ category: concepts
 tags: [model-deployment, zero-downtime, hot-reload, model-versioning, ml-ops]
 summary: The ability to update model versions across a fleet of GPU workers without restarting them — enabling simultaneous deployment to thousands of GPUs with zero downtime.
 sources:
-  - "[[sources/watchv=ey4o9m6aswi]]"
+  - "https://www.youtube.com/watch?v=ey4o9m6aswi"
 provenance:
   extracted: 0.85
   inferred: 0.10
@@ -16,11 +16,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[model-versioning]]"
+  - target: "[[concepts/model-versioning]]"
     type: extends
-  - target: "[[inference-serving]]"
+  - target: "[[concepts/inference-serving]]"
     type: related_to
-  - target: "[[distributed-inference]]"
+  - target: "[[concepts/distributed-inference]]"
     type: related_to
 ---
 

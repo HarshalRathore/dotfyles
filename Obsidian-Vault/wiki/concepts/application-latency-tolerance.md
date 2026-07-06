@@ -1,35 +1,35 @@
 ---
-title: "Application Latency Tolerance"
+title: Application Latency Tolerance
 category: concepts
 tags:
-  - latency
-  - application-design
-  - user-experience
-  - inference
-  - pareto-frontier
+- latency
+- application-design
+- user-experience
+- inference
+- pareto-frontier
 aliases:
-  - latency tolerance
-  - application latency requirements
-  - user latency expectations
+- latency tolerance
+- application latency requirements
+- user latency expectations
 sources:
-  - "AIEF2025 - Hacking the Inference Pareto Frontier - Kyle Kranen, NVIDIA - https://www.youtube.com/watch?v=Y2qc0UhDSnc"
-  - "AIEF2025 - How Intuit uses LLMs to explain taxes to millions of taxpayers - Jaspreet Singh, Intuit - https://www.youtube.com/watch?v=_zl_zimMRak"
-summary: "The principle that different AI applications have fundamentally different latency requirements, and optimization should target the specific latency tolerance of the application rather than a universal 'fast is better' heuristic."
+- AIEF2025 - Hacking the Inference Pareto Frontier - Kyle Kranen, NVIDIA - https://www.youtube.com/watch?v=Y2qc0UhDSnc
+- AIEF2025 - How Intuit uses LLMs to explain taxes to millions of taxpayers - Jaspreet Singh, Intuit - https://www.youtube.com/watch?v=_zl_zimMRak
+summary: The principle that different AI applications have fundamentally different latency requirements, and optimization should target the specific latency tolerance of the application rather than a univer...
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/inference-pareto-frontier|Inference Pareto Frontier]]"
-    type: determines_point_on
-  - target: "[[concepts/user-experience-latency|User Experience and Latency]]"
-    type: relates_to
+- target: '[[concepts/inference-pareto-frontier|Inference Pareto Frontier]]'
+  type: determines_point_on
+- target: '[[concepts/user-experience-latency|User Experience and Latency]]'
+  type: relates_to
 ---
 
 # Application Latency Tolerance

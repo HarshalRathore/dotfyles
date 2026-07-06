@@ -1,12 +1,28 @@
 ---
-type: "concept"
-title: "Tolerations"
-created: [datetime.date(2026, 6, 30)]
-updated: [datetime.date(2026, 6, 30)]
-sources: ["[[sources/nodeselector-&-nodeaffinity_5d8764]]"]
+type: concept
+title: Tolerations
+created:
+- datetime.date(2026
+- 6
+- 30)
+updated:
+- datetime.date(2026
+- 6
+- 30)
+sources:
+- '[[sources/nodeselector-&-nodeaffinity_5d8764]]'
 tags:
-  - scheduling
-  - taints
+- scheduling
+- taints
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Tolerations
 ---
 ## Related Concepts
 - [[concepts/taints]]

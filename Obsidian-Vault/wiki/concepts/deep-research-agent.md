@@ -1,30 +1,31 @@
 ---
-title: "Deep Research Agent"
+title: Deep Research Agent
 category: concepts
 tags:
-  - deep-research
-  - agentic-rag
-  - multi-step-retrieval
-  - agent-planning
-  - retrieval
+- deep-research
+- agentic-rag
+- multi-step-retrieval
+- agent-planning
+- retrieval
 summary: An agent pattern that plans and executes multi-step retrieval, evaluating whether additional context is needed before synthesizing a final answer. An evolution beyond traditional and agentic RAG.
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/agentic-rag]]"
-    type: extends
-  - target: "[[concepts/multi-hop-retrieval]]"
-    type: extends
-  - target: "[[entities/leto]]"
-    type: implements
+- target: '[[concepts/agentic-rag]]'
+  type: extends
+- target: '[[concepts/multi-hop-retrieval]]'
+  type: extends
+- target: '[[entities/leto]]'
+  type: implements
+sources: []
 ---
 
 # Deep Research Agent

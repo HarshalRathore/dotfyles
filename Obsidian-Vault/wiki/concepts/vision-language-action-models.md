@@ -1,40 +1,27 @@
 ---
-title: "Vision-Language-Action Models"
+title: Vision-Language-Action Models
 category: concepts
 tags:
-  - vla
-  - robotics
-  - vision-language-model
-  - multimodal
-  - robot-control
-  - foundation-models
-aliases:
-  - VLA
-  - vision language action
-  - vision language action model
+- vla
+- robotics
+- vision-language-model
+- multimodal
+- robot-control
+- foundation-models
 sources:
-  - "AIEF2025 - Robotics: why now? - Quan Vuong and Jost Tobias Springberg, Physical Intelligence - https://www.youtube.com/watch?v=cGLa8DsOYdk"
-  - "AIEF2025 - What Is a Humanoid Foundation Model? An Introduction to GR00T N1 - Annika & Aastha - https://www.youtube.com/watch?v=mWKYvT9Lc50"
-summary: "A model architecture that extends Vision-Language Models (VLMs) for robotic control by adding robot state inputs and producing control actions instead of text responses. GR00T N1 extends this with a dual-system design and cross-embodiment capability.
+- 'AIEF2025 - Robotics: why now? - Quan Vuong and Jost Tobias Springberg, Physical Intelligence - https://www.youtube.com/watch?v=cGLa8DsOYdk'
+- AIEF2025 - What Is a Humanoid Foundation Model? An Introduction to GR00T N1 - Annika & Aastha - https://www.youtube.com/watch?v=mWKYvT9Lc50
+summary: A model architecture that extends Vision-Language Models (VLMs) for robotic control by adding robot state inputs and producing control actions instead of text responses. GR00T N1 extends this with...
 provenance:
-  extracted: 0.82
-  inferred: 0.13
-  ambiguous: 0.05
-base_confidence: 0.82
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+base_confidence: 0.42
 lifecycle: draft
-lifecycle_changed: 2026-07-05
+lifecycle_changed: '2026-07-05'
 tier: supporting
-created: 2026-07-04
-updated: 2026-07-05
-relationships:
-  - target: "[[concepts/vision-language-models|Vision-Language Models]]"
-    type: extends
-  - target: "[[concepts/robotics-data-engine|Robotics Data Engine]]"
-    type: requires
-  - target: "[[concepts/robotics-control-loop|Robotics Control Loop]]"
-    type: feeds
-  - target: "[[entities/rt2|RT2]]"
-    type: predecessor
+created: '2026-07-04'
+updated: '2026-07-05'
 ---
 
 # Vision-Language-Action Models

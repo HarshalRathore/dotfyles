@@ -1,16 +1,19 @@
 ---
-title: "Non-Deterministic Software"
+title: Non-Deterministic Software
 category: concepts
 tags:
-  - ai-agents
-  - non-determinism
-  - software-engineering
-  - reliability
-  - aief2025
-aliases: [non-deterministic software, non-deterministic ai, ai non-determinism]
+- ai-agents
+- non-determinism
+- software-engineering
+- reliability
+- aief2025
+aliases:
+- non-deterministic software
+- non-deterministic ai
+- ai non-determinism
 sources:
-  - "[[sources/watchv=pthmdt92qng]]"
-  - "[[sources/watchv=l8ooyedi_ls]]"
+- 'https://www.youtube.com/watch?v=pthmdt92qng'
+- 'https://www.youtube.com/watch?v=l8ooyedi_ls'
 provenance:
   extracted: 0.72
   inferred: 0.23
@@ -22,14 +25,15 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/emergent-behavior-in-ai]]"
-    type: relates_to
-  - target: "[[concepts/agent-evaluations]]"
-    type: requires
-  - target: "[[concepts/demo-savvy-problem]]"
-    type: causes
-  - target: "[[concepts/reliability-over-intelligence]]"
-    type: motivates
+- target: '[[concepts/emergent-behavior-in-ai]]'
+  type: relates_to
+- target: '[[concepts/agent-evaluations]]'
+  type: requires
+- target: '[[concepts/demo-savvy-problem]]'
+  type: causes
+- target: '[[concepts/reliability-over-intelligence]]'
+  type: motivates
+summary: Non-Deterministic Software
 ---
 
 # Non-Deterministic Software

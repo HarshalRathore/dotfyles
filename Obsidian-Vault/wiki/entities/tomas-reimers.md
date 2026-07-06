@@ -1,31 +1,32 @@
 ---
-title: "Tomas Reimers"
+title: Tomas Reimers
 tags:
-  - person
-  - entrepreneur
-  - code-review
-  - aief2025
+- person
+- entrepreneur
+- code-review
+- aief2025
 aliases:
-  - Tomas Reimers
-  - Reimers
+- Tomas Reimers
+- Reimers
 relationships:
-  - target: "[[entities/graphite]]"
-    type: founder_of
-  - target: "[[concepts/developer-outer-loop]]"
-    type: articulates
+- target: '[[entities/graphite]]'
+  type: founder_of
+- target: '[[concepts/developer-outer-loop]]'
+  type: articulates
 sources:
-  - "[[sources/watchv=h6mrr5nbtza]]"
-  - "[[sources/watchv=tswqekftnaw]]"
-summary: "Co-founder of Graphite, an AI code review company. Articulated the inner loop / outer loop model, the AI Entomology framework for classifying code bugs, and the 2D bug taxonomy of code review comments."
+- 'https://www.youtube.com/watch?v=h6mrr5nbtza'
+- 'https://www.youtube.com/watch?v=tswqekftnaw'
+summary: Co-founder of Graphite, an AI code review company. Articulated the inner loop / outer loop model, the AI Entomology framework for classifying code bugs, and the 2D bug taxonomy of code review comme...
 provenance:
   extracted: 0.85
   inferred: 0.15
-  ambiguous: 0.00
-base_confidence: 0.70
+  ambiguous: 0.0
+base_confidence: 0.7
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Tomas Reimers

@@ -1,20 +1,20 @@
 ---
-title: "Claude 3.7 Sonnet"
+title: Claude 3.7 Sonnet
 category: entities
 tags:
-  - anthropic
-  - claude
-  - reasoning
-  - model
-  - aief2025
+- anthropic
+- claude
+- reasoning
+- model
+- aief2025
 aliases:
-  - Claude 3.7
-  - Claude 3.7 Sonnet
+- Claude 3.7
+- Claude 3.7 Sonnet
 sources:
-  - "AIEF2025 - 2025 in LLMs so far, illustrated by Pelicans on Bicycles — Simon Willison - https://www.youtube.com/watch?v=YpY83-kA7Bo"
-summary: "Anthropic's first reasoning model, released February 2025. Simon Willison praised it as a 'great model' with creative SVG output — putting a bicycle on top of a bicycle since pelicans can't ride bicycles."
+- AIEF2025 - 2025 in LLMs so far, illustrated by Pelicans on Bicycles — Simon Willison - https://www.youtube.com/watch?v=YpY83-kA7Bo
+summary: Anthropic's first reasoning model, released February 2025. Simon Willison praised it as a 'great model' with creative SVG output — putting a bicycle on top of a bicycle since pelicans can't ride bi...
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -24,12 +24,12 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/anthropic|Anthropic]]"
-    type: produced_by
-  - target: "[[concepts/reasoning-models|Reasoning Models]]"
-    type: exemplifies
-  - target: "[[concepts/pelican-bicycle-benchmark|Pelican-on-Bicycle Benchmark]]"
-    type: tested_on
+- target: '[[entities/anthropic|Anthropic]]'
+  type: produced_by
+- target: '[[concepts/reasoning-models|Reasoning Models]]'
+  type: exemplifies
+- target: '[[concepts/pelican-bicycle-benchmark|Pelican-on-Bicycle Benchmark]]'
+  type: tested_on
 ---
 
 # Claude 3.7 Sonnet

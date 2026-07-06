@@ -1,31 +1,35 @@
 ---
-title: "Combinatorics in Word Games"
+title: Combinatorics in Word Games
 tags:
-  - combinatorics
-  - probability
-  - word-games
-  - connections
-  - random-guessing
-aliases: [Combinatorics, Word Game Combinatorics, Connections Mathematics]
+- combinatorics
+- probability
+- word-games
+- connections
+- random-guessing
+aliases:
+- Combinatorics
+- Word Game Combinatorics
+- Connections Mathematics
 sources:
-  - "[[sources/watchv=p_uhfgh4j9y]]"
-summary: "The mathematics of random guessing in Connections: ~0% win rate on full board, ~1 in 5000 after one category correct, ~1 in 35 after two categories correct. Demonstrates why intuition is essential."
+- 'https://www.youtube.com/watch?v=p_uhfgh4j9y'
+summary: 'The mathematics of random guessing in Connections: ~0% win rate on full board, ~1 in 5000 after one category correct, ~1 in 35 after two categories correct. Demonstrates why intuition is essential.'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/connections-game]]"
-    type: applied_to
-  - target: "[[concepts/graph-coloring]]"
-    type: related_to
-  - target: "[[concepts/semantic-similarity]]"
-    type: contrasts_with
+- target: '[[concepts/connections-game]]'
+  type: applied_to
+- target: '[[concepts/graph-coloring]]'
+  type: related_to
+- target: '[[concepts/semantic-similarity]]'
+  type: contrasts_with
+category: concepts
 ---
 
 # Combinatorics in Word Games

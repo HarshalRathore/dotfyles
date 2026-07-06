@@ -1,23 +1,23 @@
 ---
-title: "Data Center Economics"
+title: Data Center Economics
 category: concepts
 tags:
-  - data-center
-  - economics
-  - infrastructure
-  - ai-infrastructure
-  - capex
-  - aief2025
+- data-center
+- economics
+- infrastructure
+- ai-infrastructure
+- capex
+- aief2025
 aliases:
-  - data center economics
-  - datacenter economics
-  - dc economics
+- data center economics
+- datacenter economics
+- dc economics
 sources:
-  - "[[sources/watchv=m6vbaig1tsm]]"
+- 'https://www.youtube.com/watch?v=m6vbaig1tsm'
 provenance:
-  extracted: 0.90
-  inferred: 0.10
-  ambiguous: 0.00
+  extracted: 0.9
+  inferred: 0.1
+  ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-04
@@ -25,12 +25,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/gpu-marketplace|GPU Marketplace]]"
-    type: contradicts
-  - target: "[[concepts/compute-allocation|Compute Allocation]]"
-    type: contradicts
-  - target: "[[concepts/sustainability-in-ai|Sustainability in AI]]"
-    type: related_to
+- target: '[[concepts/gpu-marketplace|GPU Marketplace]]'
+  type: contradicts
+- target: '[[concepts/compute-allocation|Compute Allocation]]'
+  type: contradicts
+- target: '[[concepts/sustainability-in-ai|Sustainability in AI]]'
+  type: related_to
+summary: Data Center Economics
 ---
 
 # Data Center Economics

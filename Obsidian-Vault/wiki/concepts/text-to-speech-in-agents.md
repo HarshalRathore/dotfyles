@@ -1,30 +1,34 @@
 ---
-title: "Text-to-Speech in AI Agents"
+title: Text-to-Speech in AI Agents
 tags:
-  - text-to-speech
-  - tts
-  - ai-agents
-  - multimodal
-  - voice
-  - agent-tools
-aliases: [tts agents, voice output agents, agent speech]
+- text-to-speech
+- tts
+- ai-agents
+- multimodal
+- voice
+- agent-tools
+aliases:
+- tts agents
+- voice output agents
+- agent speech
 sources:
-  - "[[sources/watchv=q3nreeadkmc]]"
-summary: "Using text-to-speech as a built-in tool in AI agents, enabling agents to speak their outputs aloud as part of a multi-step pipeline — demonstrated as file-read → summarize → write → speak."
+- 'https://www.youtube.com/watch?v=q3nreeadkmc'
+summary: Using text-to-speech as a built-in tool in AI agents, enabling agents to speak their outputs aloud as part of a multi-step pipeline — demonstrated as file-read → summarize → write → speak.
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/built-in-agent-tools|Built-in Agent Tools]]"
-    type: implements
-  - target: "[[concepts/back-channeling-voice-ai|Back-Channeling Voice AI]]"
-    type: related_to
+- target: '[[concepts/built-in-agent-tools|Built-in Agent Tools]]'
+  type: implements
+- target: '[[concepts/back-channeling-voice-ai|Back-Channeling Voice AI]]'
+  type: related_to
+category: concepts
 ---
 
 # Text-to-Speech in AI Agents

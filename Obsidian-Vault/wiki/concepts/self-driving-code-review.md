@@ -1,29 +1,29 @@
 ---
-title: "Self-Driving Code Review"
+title: Self-Driving Code Review
 tags:
-  - code-review
-  - ai
-  - automation
-  - software-engineering
-  - aief2025
+- code-review
+- ai
+- automation
+- software-engineering
+- aief2025
 aliases:
-  - self-driving review
-  - AI code review
-  - autonomous code review
+- self-driving review
+- AI code review
+- autonomous code review
 relationships:
-  - target: "[[concepts/developer-outer-loop]]"
-    type: extends
-  - target: "[[concepts/ai-native-toolchain]]"
-    type: implements
-  - target: "[[concepts/high-signal-low-noise]]"
-    type: related_to
-  - target: "[[entities/graphite]]"
-    type: implements
+- target: '[[concepts/developer-outer-loop]]'
+  type: extends
+- target: '[[concepts/ai-native-toolchain]]'
+  type: implements
+- target: '[[concepts/high-signal-low-noise]]'
+  type: related_to
+- target: '[[entities/graphite]]'
+  type: implements
 sources:
-  - "[[sources/watchv=h6mrr5nbtza]]"
-summary: "AI handles the manual, painful parts of code review so developers can focus on what matters — shipping features that work as expected. Achieves higher acceptance rates than human review comments."
+- 'https://www.youtube.com/watch?v=h6mrr5nbtza'
+summary: AI handles the manual, painful parts of code review so developers can focus on what matters — shipping features that work as expected. Achieves higher acceptance rates than human review comments.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.65
@@ -31,6 +31,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+category: concepts
 ---
 
 # Self-Driving Code Review

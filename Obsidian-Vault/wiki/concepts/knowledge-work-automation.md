@@ -1,16 +1,16 @@
 ---
-title: "Knowledge Work Automation"
+title: Knowledge Work Automation
 category: concepts
 tags:
-  - automation
-  - knowledge-work
-  - enterprise-ai
-  - unstructured-data
-  - agent
+- automation
+- knowledge-work
+- enterprise-ai
+- unstructured-data
+- agent
 summary: The paradigm of using AI agents to automate tasks that historically required humans to read, analyze, and act on unstructured documents — PDFs, spreadsheets, presentations, and other enterprise data.
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.65
 lifecycle: draft
@@ -19,12 +19,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/assistive-vs-automation-agents]]"
-    type: related_to
-  - target: "[[concepts/document-toolbox]]"
-    type: uses
-  - target: "[[concepts/agent-autonomy]]"
-    type: related_to
+- target: '[[concepts/assistive-vs-automation-agents]]'
+  type: related_to
+- target: '[[concepts/document-toolbox]]'
+  type: uses
+- target: '[[concepts/agent-autonomy]]'
+  type: related_to
+sources: []
 ---
 
 # Knowledge Work Automation

@@ -1,18 +1,18 @@
 ---
-title: "AIEF2025 - Building Alice's Brain: an AI Sales Rep that Learns Like a Human — Sherwood & Satwik, 11x"
+title: 'AIEF2025 - Building Alice''s Brain: an AI Sales Rep that Learns Like a Human — Sherwood & Satwik, 11x'
 tags:
-  - ai-sdr
-  - rag
-  - knowledge-base
-  - parsing
-  - vector-database
-  - conference-talk
-  - ai-eng-worlds-fair-2025
+- ai-sdr
+- rag
+- knowledge-base
+- parsing
+- vector-database
+- conference-talk
+- ai-eng-worlds-fair-2025
 sources:
-  - "[[sources/watchv=kwmkmv0fnwq]]"
-summary: 11x tech leads Sherwood and Satwik present Alice's knowledge base — a RAG pipeline that lets their AI SDR proactively pull seller context from documents, websites, and media instead of requiring manual onboarding.
+- 'https://www.youtube.com/watch?v=kwmkmv0fnwq'
+summary: 11x tech leads Sherwood and Satwik present Alice's knowledge base — a RAG pipeline that lets their AI SDR proactively pull seller context from documents, websites, and media instead of requiring ma...
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -22,14 +22,15 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/alice-ai-sdr]]"
-    type: related_to
-  - target: "[[entities/11x]]"
-    type: related_to
-  - target: "[[concepts/ai-sdr]]"
-    type: related_to
-  - target: "[[concepts/agentic-rag]]"
-    type: related_to
+- target: '[[entities/alice-ai-sdr]]'
+  type: related_to
+- target: '[[entities/11x]]'
+  type: related_to
+- target: '[[concepts/ai-sdr]]'
+  type: related_to
+- target: '[[concepts/agentic-rag]]'
+  type: related_to
+category: references
 ---
 
 # AIEF2025 - Building Alice's Brain: an AI Sales Rep that Learns Like a Human — Sherwood & Satwik, 11x

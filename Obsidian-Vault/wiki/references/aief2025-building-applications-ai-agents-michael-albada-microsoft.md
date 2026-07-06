@@ -10,7 +10,7 @@ tags:
   - cybersecurity
 category: references
 sources:
-  - "[[sources/watchv=r30col3upug]]"
+  - "https://www.youtube.com/watch?v=r30col3upug"
 summary: "Michael Albada (Microsoft Principal Applied Scientist) covers agentic development fundamentals: agency vs effectiveness, tool-use design, orchestration patterns, and production pitfalls."
 provenance:
   extracted: 0.90

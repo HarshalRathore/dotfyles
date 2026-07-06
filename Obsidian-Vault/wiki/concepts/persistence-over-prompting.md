@@ -4,7 +4,7 @@ category: concepts
 tags: [persistence, prompt-engineering, memory, agent-design, customer-relationships, future-of-ai]
 summary: "The principle that persistence-based memory will replace prompt engineering as the primary mechanism for controlling agent behavior and building customer relationships."
 sources:
-  - "[[sources/watchv=w2hvdb4jbjs]]"
+  - "https://www.youtube.com/watch?v=w2hvdb4jbjs"
 provenance:
   extracted: 0.85
   inferred: 0.10

@@ -1,19 +1,19 @@
 ---
-title: "Talent Skills Graph"
+title: Talent Skills Graph
 tags:
-  - knowledge-graph
-  - hr-tech
-  - talent-management
-  - neo4j
-  - graphrag
-  - aief2025
+- knowledge-graph
+- hr-tech
+- talent-management
+- neo4j
+- graphrag
+- aief2025
 aliases:
-  - Employee Skills Graph
-  - Skills Graph
+- Employee Skills Graph
+- Skills Graph
 sources:
-  - "[[sources/watchv=j-9ebjbxcbg]]"
-  - "[[sources/watchv=czm3cw6fdbs]]"
-summary: "A knowledge graph use case for employee talent management: modeling people, their skills, accomplishments, and domains to enable team formation, substitution, collaboration analysis, and talent distribution queries."
+- 'https://www.youtube.com/watch?v=j-9ebjbxcbg'
+- 'https://www.youtube.com/watch?v=czm3cw6fdbs'
+summary: 'A knowledge graph use case for employee talent management: modeling people, their skills, accomplishments, and domains to enable team formation, substitution, collaboration analysis, and talent dis...'
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -24,10 +24,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: use_case_of
-  - target: "[[concepts/property-graph-model|Property Graph Model]]"
-    type: implements
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: use_case_of
+- target: '[[concepts/property-graph-model|Property Graph Model]]'
+  type: implements
+category: concepts
 ---
 
 # Talent Skills Graph

@@ -1,14 +1,19 @@
 ---
-title: "Agent Web Browsing"
+title: Agent Web Browsing
 category: concepts
-tags: [agent-tools, web-browsing, accessibility-tree, screenshot-agents, computer-use-models]
-summary: How coding agents interact with web browsers: accessibility trees and markdown conversion outperform raw HTML. Screenshot-based interaction with labeled nodes enables clicking. Computer-use models are the emerging approach.
+tags:
+- agent-tools
+- web-browsing
+- accessibility-tree
+- screenshot-agents
+- computer-use-models
+summary: 'How coding agents interact with web browsers: accessibility trees and markdown conversion outperform raw HTML. Screenshot-based interaction with labeled nodes enables clicking. Computer-use models...'
 sources:
-  - "AIEF2025 - Software Development Agents: What Works and What Doesn't - Robert Brennan, OpenHands - https://www.youtube.com/watch?v=o_hhkJtlbSs"
+- 'AIEF2025 - Software Development Agents: What Works and What Doesn''t - Robert Brennan, OpenHands - https://www.youtube.com/watch?v=o_hhkJtlbSs'
 provenance:
   extracted: 0.88
   inferred: 0.12
-  ambiguous: 0.00
+  ambiguous: 0.0
 base_confidence: 0.83
 lifecycle: draft
 lifecycle_changed: 2026-07-05
@@ -16,12 +21,12 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/agent-tools|Agent Tools]]"
-    type: extends
-  - target: "[[concepts/vision-vs-text-web-agents|Vision vs Text Web Agents]]"
-    type: related_to
-  - target: "[[concepts/computer-use-agents|Computer Use Agents]]"
-    type: related_to
+- target: '[[concepts/agent-tools|Agent Tools]]'
+  type: extends
+- target: '[[concepts/vision-vs-text-web-agents|Vision vs Text Web Agents]]'
+  type: related_to
+- target: '[[concepts/computer-use-agents|Computer Use Agents]]'
+  type: related_to
 ---
 
 # Agent Web Browsing

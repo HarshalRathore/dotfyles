@@ -1,18 +1,18 @@
 ---
-title: "Data Scaling in Recommendation"
+title: Data Scaling in Recommendation
 category: concepts
 tags:
-  - data-scaling
-  - scaling
-  - recommendation-systems
-  - user-behavior
+- data-scaling
+- scaling
+- recommendation-systems
+- user-behavior
 aliases:
-  - data scaling
-  - data scaling in recsys
+- data scaling
+- data scaling in recsys
 sources:
-  - "[[sources/watchv=u0s6cfzay5c]]"
+- 'https://www.youtube.com/watch?v=u0s6cfzay5c'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.78
@@ -21,10 +21,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/360brew]]"
-    type: demonstrated_by
-  - target: "[[concepts/scaling-laws]]"
-    type: related_to
+- target: '[[concepts/360brew]]'
+  type: demonstrated_by
+- target: '[[concepts/scaling-laws]]'
+  type: related_to
+summary: Data Scaling in Recommendation
 ---
 # Data Scaling in Recommendation
 

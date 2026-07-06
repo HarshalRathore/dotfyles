@@ -1,13 +1,13 @@
 ---
-title: "AI Engineer World's Fair 2025 Hackathon Presentations"
+title: AI Engineer World's Fair 2025 Hackathon Presentations
 tags:
-  - reference
-  - talk
-  - hackathon
-  - ai-engineer
+- reference
+- talk
+- hackathon
+- ai-engineer
 sources:
-  - "[[sources/watchv=1zlo9yu2ziu]]"
-summary: "Three finalist teams present their 48-hour builds at the first official AI Engineer hackathon: automated A/B testing agents, browser-based RL robotics simulation, and action models focused on real-world task reliability."
+- 'https://www.youtube.com/watch?v=1zlo9yu2ziu'
+summary: 'Three finalist teams present their 48-hour builds at the first official AI Engineer hackathon: automated A/B testing agents, browser-based RL robotics simulation, and action models focused on real-...'
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -17,6 +17,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: references
 ---
 
 # AI Engineer World's Fair 2025 Hackathon Presentations

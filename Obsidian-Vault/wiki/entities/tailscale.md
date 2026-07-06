@@ -4,7 +4,7 @@ category: entities
 tags: [networking, vpn, mesh-network, remote-access, ml-infrastructure]
 summary: WireGuard-based mesh VPN used by Luma AI to connect heterogeneous GPU clusters across cloud providers into a unified compute pool for Dream Machine inference.
 sources:
-  - "[[sources/watchv=ey4o9m6aswi]]"
+  - "https://www.youtube.com/watch?v=ey4o9m6aswi"
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -16,11 +16,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[distributed-inference]]"
+  - target: "[[concepts/distributed-inference]]"
     type: uses
-  - target: "[[decoupled-architecture]]"
+  - target: "[[concepts/decoupled-architecture]]"
     type: related_to
-  - target: "[[gpu-scaling]]"
+  - target: "[[concepts/gpu-scaling]]"
     type: related_to
 ---
 

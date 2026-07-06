@@ -1,26 +1,27 @@
 ---
-title: "Eagle Speculative Decoding"
+title: Eagle Speculative Decoding
 tags:
-  - inference
-  - optimization
-  - serving
-  - speculation
+- inference
+- optimization
+- serving
+- speculation
 aliases:
-  - Eagle 3
-  - Eagle speculative decoding
-  - speculative decoding
+- Eagle 3
+- Eagle speculative decoding
+- speculative decoding
 sources:
-  - "[[sources/watchv=ahtaha9fem0]]"
-summary: "Speculative decoding algorithm where the draft model is derived from multiple layers of the target model rather than being a separate smaller model."
+- 'https://www.youtube.com/watch?v=ahtaha9fem0'
+summary: Speculative decoding algorithm where the draft model is derived from multiple layers of the target model rather than being a separate smaller model.
 provenance:
   extracted: 0.65
-  inferred: 0.30
+  inferred: 0.3
   ambiguous: 0.05
 base_confidence: 0.45
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Eagle Speculative Decoding

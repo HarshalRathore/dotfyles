@@ -1,30 +1,32 @@
 ---
-title: "Coding Agent Security Model"
+title: Coding Agent Security Model
 tags:
-  - coding-agent
-  - security
-  - github
-  - safety-model
-  - aief2025
-  - copilot
-summary: "The six-layer safety architecture for GitHub's autonomous Coding Agent: firewalled, ephemeral, branch-only, draft PRs, workflow approval gating, and no self-review."
+- coding-agent
+- security
+- github
+- safety-model
+- aief2025
+- copilot
+summary: 'The six-layer safety architecture for GitHub''s autonomous Coding Agent: firewalled, ephemeral, branch-only, draft PRs, workflow approval gating, and no self-review.'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/github-copilot|GitHub Copilot]]"
-    type: describes
-  - target: "[[concepts/copilot-workload-spectrum|Copilot Workload Spectrum]]"
-    type: constrains
-  - target: "[[concepts/agent-sandboxing|Agent Sandboxing]]"
-    type: relates-to
+- target: '[[entities/github-copilot|GitHub Copilot]]'
+  type: describes
+- target: '[[concepts/copilot-workload-spectrum|Copilot Workload Spectrum]]'
+  type: constrains
+- target: '[[concepts/agent-sandboxing|Agent Sandboxing]]'
+  type: relates-to
+category: concepts
+sources: []
 ---
 
 # Coding Agent Security Model

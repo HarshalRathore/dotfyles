@@ -1,20 +1,20 @@
 ---
-title: "Data Coverage Transformation"
+title: Data Coverage Transformation
 category: concepts
 tags:
-  - ai-impact
-  - data-processing
-  - sampling
-  - aief2025
+- ai-impact
+- data-processing
+- sampling
+- aief2025
 sources:
-  - "AIEF2025 - The Billable Hour is Dead; Long Live the Billable Hour — Kevin Madura + Mo Bhasin, Alix Partners - https://www.youtube.com/watch?v=Wv1tAxKYLeE"
+- AIEF2025 - The Billable Hour is Dead; Long Live the Billable Hour — Kevin Madura + Mo Bhasin, Alix Partners - https://www.youtube.com/watch?v=Wv1tAxKYLeE
 relationships:
-  - target: "[[concepts/consulting-engagement-phases|Consulting Engagement Phases]]"
-    type: related_to
-  - target: "[[concepts/employee-vs-enterprise-productivity|Employee vs Enterprise Productivity]]"
-    type: related_to
+- target: '[[concepts/consulting-engagement-phases|Consulting Engagement Phases]]'
+  type: related_to
+- target: '[[concepts/employee-vs-enterprise-productivity|Employee vs Enterprise Productivity]]'
+  type: related_to
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.85
@@ -22,6 +22,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Data Coverage Transformation
 ---
 
 # Data Coverage Transformation

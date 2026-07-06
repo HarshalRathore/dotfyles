@@ -1,16 +1,25 @@
 ---
 type: entity
-title: "Glusterd"
+title: Glusterd
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/daemonsets_9f31ec]]"
+- '[[sources/daemonsets_9f31ec]]'
 tags:
-  - product
+- product
 aliases:
-  - glusterd
+- glusterd
+category: entities
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Glusterd
 ---
 # Glusterd
 

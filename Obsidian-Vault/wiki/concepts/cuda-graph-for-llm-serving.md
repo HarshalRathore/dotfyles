@@ -1,19 +1,19 @@
 ---
-title: "CUDA Graph for LLM Serving"
+title: CUDA Graph for LLM Serving
 tags:
-  - gpu
-  - optimization
-  - inference
-  - serving
-  - performance
+- gpu
+- optimization
+- inference
+- serving
+- performance
 aliases:
-  - CUDA Graph optimization
-  - cuda_graph_max_bs
+- CUDA Graph optimization
+- cuda_graph_max_bs
 sources:
-  - "[[sources/watchv=ahtaha9fem0]]"
-summary: "Technique for capturing and reusing GPU computation graphs to accelerate LLM decoding in serving frameworks like SGLang and vLLM."
+- 'https://www.youtube.com/watch?v=ahtaha9fem0'
+summary: Technique for capturing and reusing GPU computation graphs to accelerate LLM decoding in serving frameworks like SGLang and vLLM.
 provenance:
-  extracted: 0.60
+  extracted: 0.6
   inferred: 0.35
   ambiguous: 0.05
 base_confidence: 0.45
@@ -21,6 +21,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # CUDA Graph for LLM Serving

@@ -1,16 +1,16 @@
 ---
-title: "AIEF2025 — Realtime Conversational Video with Pipecat and Tavus"
+title: AIEF2025 — Realtime Conversational Video with Pipecat and Tavus
 category: references
 tags:
-  - aief2025
-  - video-ai
-  - pipecat
-  - tavus
-  - real-time
-  - conversational-video
-  - voice-ai
+- aief2025
+- video-ai
+- pipecat
+- tavus
+- real-time
+- conversational-video
+- voice-ai
 sources:
-  - "AIEF2025 - Realtime Conversational Video with Pipecat and Tavus — Chad Bailey and Brian Johnson, Daily & Tavus - https://www.youtube.com/watch?v=ujt0da9Z29Q"
+- AIEF2025 - Realtime Conversational Video with Pipecat and Tavus — Chad Bailey and Brian Johnson, Daily & Tavus - https://www.youtube.com/watch?v=ujt0da9Z29Q
 provenance:
   extracted: 0.95
   inferred: 0.03
@@ -22,16 +22,17 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/chad-bailey]]"
-    type: related_to
-  - target: "[[entities/brian-johnson]]"
-    type: related_to
-  - target: "[[entities/daily]]"
-    type: related_to
-  - target: "[[entities/tavus]]"
-    type: related_to
-  - target: "[[entities/pipe-cat]]"
-    type: related_to
+- target: '[[entities/chad-bailey]]'
+  type: related_to
+- target: '[[entities/brian-johnson]]'
+  type: related_to
+- target: '[[entities/daily]]'
+  type: related_to
+- target: '[[entities/tavus]]'
+  type: related_to
+- target: '[[entities/pipe-cat]]'
+  type: related_to
+summary: AIEF2025 — Realtime Conversational Video with Pipecat and Tavus
 ---
 
 # AIEF2025 — Realtime Conversational Video with Pipecat and Tavus

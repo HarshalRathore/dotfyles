@@ -1,35 +1,36 @@
 ---
-title: "LLMs Are Hard at Evals"
+title: LLMs Are Hard at Evals
 category: concepts
 tags:
-  - evals
-  - llm-as-judge
-  - self-evaluation
-  - automated-evals
-  - ai-evaluation
+- evals
+- llm-as-judge
+- self-evaluation
+- automated-evals
+- ai-evaluation
 aliases:
-  - llm-eval-difficulty
-  - automated-evals-challenge
+- llm-eval-difficulty
+- automated-evals-challenge
 sources:
-  - "AIEF2025 - [Full Workshop] Building Metrics that actually work — David Karam, Pi Labs (fmr Google Search) - https://www.youtube.com/watch?v=jxrGodnopHo"
-  - "AIEF2025 - Engineering Better Evals: Scalable LLM Evaluation Pipelines That Work — Dat Ngo, Aman Khan, Arize - https://www.youtube.com/watch?v=spvXj9tnWAQ"
+- AIEF2025 - [Full Workshop] Building Metrics that actually work — David Karam, Pi Labs (fmr Google Search) - https://www.youtube.com/watch?v=jxrGodnopHo
+- 'AIEF2025 - Engineering Better Evals: Scalable LLM Evaluation Pipelines That Work — Dat Ngo, Aman Khan, Arize - https://www.youtube.com/watch?v=spvXj9tnWAQ'
 provenance:
   extracted: 0.85
   inferred: 0.15
-  ambiguous: 0.00
-base_confidence: 0.80
+  ambiguous: 0.0
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/llm-as-judge-evaluation|LLM as Judge Evaluation]]"
-    type: contrasts_with
-  - target: "[[concepts/eval-driven-development|Eval-Driven Development]]"
-    type: motivates
-  - target: "[[concepts/evals-are-not-unit-tests|Evals Are Not Unit Tests]]"
-    type: relates_to
+- target: '[[concepts/llm-as-judge-evaluation|LLM as Judge Evaluation]]'
+  type: contrasts_with
+- target: '[[concepts/eval-driven-development|Eval-Driven Development]]'
+  type: motivates
+- target: '[[concepts/evals-are-not-unit-tests|Evals Are Not Unit Tests]]'
+  type: relates_to
+summary: LLMs Are Hard at Evals
 ---
 
 # LLMs Are Hard at Evals

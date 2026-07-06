@@ -1,34 +1,34 @@
 ---
-title: "End-to-End Driving"
+title: End-to-End Driving
 category: concepts
 tags:
-  - end-to-end
-  - autonomous-driving
-  - neural-networks
-  - camera-only
-  - map-free
+- end-to-end
+- autonomous-driving
+- neural-networks
+- camera-only
+- map-free
 aliases:
-  - end-to-end autonomous driving
-  - end-to-end driving models
+- end-to-end autonomous driving
+- end-to-end driving models
 sources:
-  - "AIEF2025 - Waymo's EMMA: Teaching Cars to Think - Jyh Jing Hwang, Waymo - https://www.youtube.com/watch?v=iS9YFW28XyM"
-summary: "An autonomous driving paradigm where a single model takes raw sensory input (camera video + routing text) and directly outputs driving actions (waypoints), eliminating the modular perception-prediction-planning pipeline."
+- 'AIEF2025 - Waymo''s EMMA: Teaching Cars to Think - Jyh Jing Hwang, Waymo - https://www.youtube.com/watch?v=iS9YFW28XyM'
+summary: An autonomous driving paradigm where a single model takes raw sensory input (camera video + routing text) and directly outputs driving actions (waypoints), eliminating the modular perception-predic...
 provenance:
-  extracted: 0.80
-  inferred: 0.20
-  ambiguous: 0.00
-base_confidence: 0.80
+  extracted: 0.8
+  inferred: 0.2
+  ambiguous: 0.0
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/perception-prediction-planning]]"
-    type: replaces
-  - target: "[[concepts/foundation-models-autonomous-driving]]"
-    type: related_to
-  - target: "[[concepts/self-supervised-driving]]"
-    type: related_to
+- target: '[[concepts/perception-prediction-planning]]'
+  type: replaces
+- target: '[[concepts/foundation-models-autonomous-driving]]'
+  type: related_to
+- target: '[[concepts/self-supervised-driving]]'
+  type: related_to
 ---
 
 # End-to-End Driving

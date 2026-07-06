@@ -1,14 +1,14 @@
 ---
-title: "Neural Programming"
+title: Neural Programming
 tags:
-  - concept
-  - ai
-  - interpretability
-  - engineering
-  - debugging
+- concept
+- ai
+- interpretability
+- engineering
+- debugging
 sources:
-  - "[[sources/watchv=6avmhzpjptq]]"
-summary: "The ability to debug, steer, and program AI models at the neuron level using interpretability techniques — treating neural networks more like traditional software with inspectable and controllable internals."
+- 'https://www.youtube.com/watch?v=6avmhzpjptq'
+summary: The ability to debug, steer, and program AI models at the neuron level using interpretability techniques — treating neural networks more like traditional software with inspectable and controllable...
 provenance:
   extracted: 0.82
   inferred: 0.15
@@ -18,6 +18,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Neural Programming

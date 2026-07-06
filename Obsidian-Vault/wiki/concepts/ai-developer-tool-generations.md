@@ -9,7 +9,8 @@ tags:
   - autocomplete
   - agentic-ai
   - cli
-summary: Three-generation framework for AI developer tools: Gen 1.0 autocomplete, Gen 2.0 chat/agentic, Gen 3.0 CLI-based end-to-end workflows. Each generation changes what developers can accomplish and how.
+summary: >-
+  Three-generation framework for AI developer tools: Gen 1.0 autocomplete, Gen 2.0 chat/agentic, Gen 3.0 CLI-based end-to-end workflows. Each generation changes what developers can accomplish and how.
 sources:
   - "AIEF2025 - Vibe Coding with Confidence — Itamar Friedman, Qodo - https://www.youtube.com/watch?v=n991Yxo1aOI"
 provenance:

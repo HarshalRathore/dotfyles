@@ -10,7 +10,7 @@ tags:
   - biotech
 summary: "Head of AI at Ensemble Health Partners; ex-Google (speech recognition, ambient docs), biotech diagnostics and therapeutics. Spoke at AIEF2025 on AI in healthcare revenue cycle."
 sources:
-  - "[[sources/watchv=tquusn1qsws]]"
+  - "https://www.youtube.com/watch?v=tquusn1qsws"
 provenance:
   extracted: 0.9
   inferred: 0.1

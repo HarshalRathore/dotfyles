@@ -1,28 +1,29 @@
 ---
-title: "Model Context Protocol (MCP)"
+title: Model Context Protocol (MCP)
 tags:
-  - mcp
-  - protocol
-  - ai-integration
-  - tool-calling
-  - json-rpc
+- mcp
+- protocol
+- ai-integration
+- tool-calling
+- json-rpc
 sources:
-  - "[[sources/watchv=exed-8gfumm]]"
-  - "[[sources/watchv=0nhcyq8bbcm]]"
-  - "[[sources/watchv=7hrw6rtxahc]]"
-  - "[[sources/watchv=c1nivhys1si]]"
-  - "[[sources/watchv=fci4jt86gsw]]"
-  - "[[sources/watchv=jvunpl5qo8q]]"
-summary: "An open standard protocol for connecting AI models to external tools and data sources — framed as a pluggable architecture for agents — comprising a JSON-RPC message specification and transport-agnostic layer."
+- 'https://www.youtube.com/watch?v=exed-8gfumm'
+- 'https://www.youtube.com/watch?v=0nhcyq8bbcm'
+- 'https://www.youtube.com/watch?v=7hrw6rtxahc'
+- 'https://www.youtube.com/watch?v=c1nivhys1si'
+- 'https://www.youtube.com/watch?v=fci4jt86gsw'
+- 'https://www.youtube.com/watch?v=jvunpl5qo8q'
+summary: An open standard protocol for connecting AI models to external tools and data sources — framed as a pluggable architecture for agents — comprising a JSON-RPC message specification and transport-agn...
 provenance:
   extracted: 0.65
-  inferred: 0.30
+  inferred: 0.3
   ambiguous: 0.05
 base_confidence: 0.42
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-04
+category: concepts
 ---
 
 # Model Context Protocol (MCP)

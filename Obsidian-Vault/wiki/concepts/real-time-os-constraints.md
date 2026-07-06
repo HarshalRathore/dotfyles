@@ -1,10 +1,19 @@
 ---
-title: "Real-Time OS Constraints"
+title: Real-Time OS Constraints
 category: concepts
-tags: [real-time-os, robotics, microcontroller, rtos, synchronization, embedded]
-aliases: [RTOS constraints, embedded OS limitations, microcontroller threading]
+tags:
+- real-time-os
+- robotics
+- microcontroller
+- rtos
+- synchronization
+- embedded
+aliases:
+- RTOS constraints
+- embedded OS limitations
+- microcontroller threading
 sources:
-  - "AIEF2025 - Rishabh Garg, Tesla Optimus — Challenges in High Performance Robotics Systems - https://www.youtube.com/watch?v=bCGbuyv8PMk"
+- AIEF2025 - Rishabh Garg, Tesla Optimus — Challenges in High Performance Robotics Systems - https://www.youtube.com/watch?v=bCGbuyv8PMk
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -16,12 +25,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/robotics-synchronization|Robotics Synchronization]]"
-    type: constrains
-  - target: "[[concepts/multithreaded-robotics-architecture|Multithreaded Robotics Architecture]]"
-    type: limits
-  - target: "[[concepts/padding-as-synchronization|Padding as Synchronization]]"
-    type: motivates
+- target: '[[concepts/robotics-synchronization|Robotics Synchronization]]'
+  type: constrains
+- target: '[[concepts/multithreaded-robotics-architecture|Multithreaded Robotics Architecture]]'
+  type: limits
+- target: '[[concepts/padding-as-synchronization|Padding as Synchronization]]'
+  type: motivates
+summary: Real-Time OS Constraints
 ---
 
 # Real-Time OS Constraints

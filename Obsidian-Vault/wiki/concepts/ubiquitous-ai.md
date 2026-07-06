@@ -1,21 +1,21 @@
 ---
-title: "Ubiquitous AI"
+title: Ubiquitous AI
 category: concepts
 tags:
-  - ai
-  - integration
-  - windsurf
-  - mcp
-  - context
-  - developer-tools
-summary: "The vision of AI being present and context-aware across all the tools and sources a developer uses — reading from Slack, GitHub, Google Docs, Figma, Jira, and any MCP-connected service, not just the IDE."
+- ai
+- integration
+- windsurf
+- mcp
+- context
+- developer-tools
+summary: The vision of AI being present and context-aware across all the tools and sources a developer uses — reading from Slack, GitHub, Google Docs, Figma, Jira, and any MCP-connected service, not just th...
 sources:
-  - "[[sources/watchv=jvunpl5qo8q]]"
+- 'https://www.youtube.com/watch?v=jvunpl5qo8q'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting

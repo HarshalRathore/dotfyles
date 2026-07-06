@@ -1,30 +1,31 @@
 ---
-title: "Real-Time APIs"
+title: Real-Time APIs
 category: concepts
 tags:
-  - real-time-api
-  - voice-ai
-  - streaming
-  - inference
-  - gemini
+- real-time-api
+- voice-ai
+- streaming
+- inference
+- gemini
 sources:
-  - "AIEF2025 - Milliseconds to Magic: Real‑Time Workflows using the Gemini Live API and Pipecat - https://www.youtube.com/watch?v=fWY1FQwpWkY"
+- 'AIEF2025 - Milliseconds to Magic: Real‑Time Workflows using the Gemini Live API and Pipecat - https://www.youtube.com/watch?v=fWY1FQwpWkY'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/gemini-live-api]]"
-    type: extends
-  - target: "[[concepts/voice-ai-stack]]"
-    type: related_to
-  - target: "[[concepts/voice-ai-latency]]"
-    type: enables
+- target: '[[concepts/gemini-live-api]]'
+  type: extends
+- target: '[[concepts/voice-ai-stack]]'
+  type: related_to
+- target: '[[concepts/voice-ai-latency]]'
+  type: enables
+summary: Real-Time APIs
 ---
 
 # Real-Time APIs

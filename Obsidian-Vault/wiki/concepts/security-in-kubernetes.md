@@ -1,17 +1,24 @@
 ---
-title: "Security in Kubernetes (merged into Host Security)"
+title: Security in Kubernetes (merged into Host Security)
 type: redirect
 tags:
-  - term
-  - security
-redirects_to: "[[host-security]]"
-created: 
-updated: "2026-07-02"
+- term
+- security
+redirects_to: '[[concepts/host-security]]'
+created: '2026-07-02T13:49:05.212930+00:00'
+updated: '2026-07-02'
 base_confidence: 0.7
 lifecycle: draft
 tier: peripheral
+category: concepts
+sources: []
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Security In Kubernetes
 ---
 
-This page has been merged into [[host-security]].
+This page has been merged into [[concepts/host-security]].
 
 This stub contained minimal content and is no longer maintained. See the target page for the full coverage of this topic.

@@ -1,16 +1,18 @@
 ---
-title: "Teammates"
+title: Teammates
 category: entities
 tags:
-  - company
-  - ai-agents
-  - digital-workforce
-  - collaboration
-  - agent-identity
-  - aief2025
-aliases: [Teammates, teammates]
+- company
+- ai-agents
+- digital-workforce
+- collaboration
+- agent-identity
+- aief2025
+aliases:
+- Teammates
+- teammates
 sources:
-  - "[[sources/watchv=pthmdt92qng]]"
+- 'https://www.youtube.com/watch?v=pthmdt92qng'
 provenance:
   extracted: 0.92
   inferred: 0.06
@@ -22,12 +24,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/ben-stein]]"
-    type: founded_by
-  - target: "[[concepts/agent-identity]]"
-    type: implements
-  - target: "[[concepts/affordance-thinking]]"
-    type: practices
+- target: '[[entities/ben-stein]]'
+  type: founded_by
+- target: '[[concepts/agent-identity]]'
+  type: implements
+- target: '[[concepts/affordance-thinking]]'
+  type: practices
+summary: Teammates
 ---
 
 # Teammates

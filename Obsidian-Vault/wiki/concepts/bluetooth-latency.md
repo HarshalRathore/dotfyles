@@ -1,16 +1,16 @@
 ---
-title: "Bluetooth as Voice AI Latency Enemy"
+title: Bluetooth as Voice AI Latency Enemy
 category: concepts
 tags:
-  - voice-ai
-  - latency
-  - bluetooth
-  - networking
-  - real-world
+- voice-ai
+- latency
+- bluetooth
+- networking
+- real-world
 sources:
-  - "[[sources/watchv=e71ytnbcfxy]]"
+- 'https://www.youtube.com/watch?v=e71ytnbcfxy'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -19,10 +19,11 @@ tier: peripheral
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/voice-ai-latency]]"
-    type: related_to
-  - target: "[[concepts/web-rtc]]"
-    type: related_to
+- target: '[[concepts/voice-ai-latency]]'
+  type: related_to
+- target: '[[concepts/web-rtc]]'
+  type: related_to
+summary: Bluetooth as Voice AI Latency Enemy
 ---
 
 # Bluetooth as Voice AI Latency Enemy

@@ -13,15 +13,15 @@ tier: supporting
 created: 2026-07-05T00:00:00Z
 updated: 2026-07-05T00:00:00Z
 relationships:
-  - target: "[[concepts/continuous-profiling.md]]"
+  - target: "[[concepts/continuous-profiling]]"
     type: implements
-  - target: "[[concepts/tracing-profiling.md]]"
+  - target: "[[concepts/tracing-profiling]]"
     type: contrasts
 ---
 
 # Sampled Profiling
 
-[[Sampled Profiling]] is a technique where the profiler samples system state at fixed intervals rather than recording every event. This contrasts with [[concepts/tracing-profiling.md|tracing profiling]], which records every event continuously but at high cost and data volume.
+[[concepts/sampled-profiling]] is a technique where the profiler samples system state at fixed intervals rather than recording every event. This contrasts with [[concepts/tracing-profiling|tracing profiling]], which records every event continuously but at high cost and data volume.
 
 ## How It Works
 
@@ -43,4 +43,4 @@ While sampled profiling will miss individual rare events (a stack that executed 
 
 ## Implementation
 
-Linux [[concepts/ebpf.md|eBPF]] enables sampled profiling with minimal overhead because the sampling is performed by the kernel itself, requiring no application instrumentation.
+Linux [[concepts/ebpf|eBPF]] enables sampled profiling with minimal overhead because the sampling is performed by the kernel itself, requiring no application instrumentation.

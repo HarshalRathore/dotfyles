@@ -1,30 +1,40 @@
 ---
 title: Semantic vs Lexical Query Patterns
 category: concepts
-tags: [query-patterns, bm25, embeddings, lexical-search, semantic-search, hybrid-search, aief2025]
-aliases: [query-style, keyword-vs-natural-language, query-pattern-matching]
-summary: "Two dominant query styles: keyword-style queries (short, term-based, matched by BM25) and natural-language queries (conversational, matched by vector search). Analyzing your query set determines which retrieval technique to use."
+tags:
+- query-patterns
+- bm25
+- embeddings
+- lexical-search
+- semantic-search
+- hybrid-search
+- aief2025
+aliases:
+- query-style
+- keyword-vs-natural-language
+- query-pattern-matching
+summary: 'Two dominant query styles: keyword-style queries (short, term-based, matched by BM25) and natural-language queries (conversational, matched by vector search). Analyzing your query set determines wh...'
 sources:
-  - "AIEF2025 - Layering every technique in RAG, one query at a time — David Karam, Pi Labs (fmr. Google Search) - https://www.youtube.com/watch?v=w9u11ioHGA0"
+- AIEF2025 - Layering every technique in RAG, one query at a time — David Karam, Pi Labs (fmr. Google Search) - https://www.youtube.com/watch?v=w9u11ioHGA0
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/lexical-search|Lexical Search]]"
-    type: relates_to
-  - target: "[[concepts/dense-vector-search|Dense Vector Search]]"
-    type: relates_to
-  - target: "[[concepts/hybrid-search|Hybrid Search]]"
-    type: combines
-  - target: "[[concepts/quality-engineering-loop]]"
-    type: used_in
+- target: '[[concepts/lexical-search|Lexical Search]]'
+  type: relates_to
+- target: '[[concepts/dense-vector-search|Dense Vector Search]]'
+  type: relates_to
+- target: '[[concepts/hybrid-search|Hybrid Search]]'
+  type: combines
+- target: '[[concepts/quality-engineering-loop]]'
+  type: used_in
 ---
 
 # Semantic vs Lexical Query Patterns

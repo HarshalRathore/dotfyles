@@ -1,10 +1,15 @@
 ---
-title: "Pricing Simulation"
+title: Pricing Simulation
 category: concepts
-tags: [pricing, data-driven, analytics, product-strategy, ai-engineering]
+tags:
+- pricing
+- data-driven
+- analytics
+- product-strategy
+- ai-engineering
 sources:
-  - "[[sources/watchv=1c3szbaxomw]]"
-  - "[[sources/watchv=6wqylqb0odc]]"
+- 'https://www.youtube.com/watch?v=1c3szbaxomw'
+- 'https://www.youtube.com/watch?v=6wqylqb0odc'
 provenance:
   extracted: 0.68
   inferred: 0.27
@@ -15,6 +20,7 @@ lifecycle_changed: 2026-07-03
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+summary: Pricing Simulation
 ---
 
 # Pricing Simulation

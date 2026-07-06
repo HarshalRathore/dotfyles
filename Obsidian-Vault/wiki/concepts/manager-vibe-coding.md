@@ -1,20 +1,20 @@
 ---
-title: "Manager Vibe Coding"
+title: Manager Vibe Coding
 category: concepts
 tags:
-  - vibe-coding
-  - management
-  - ai-coding
-  - software-culture
+- vibe-coding
+- management
+- ai-coding
+- software-culture
 sources:
-  - "[[sources/watchv=jv-wy5pxxlo]]"
+- 'https://www.youtube.com/watch?v=jv-wy5pxxlo'
 relationships:
-  - target: "[[concepts/vibe-coding-origins]]"
-    type: extends
-  - target: "[[concepts/vibe-engineering]]"
-    type: contradicts
+- target: '[[concepts/vibe-coding-origins]]'
+  type: extends
+- target: '[[concepts/vibe-engineering]]'
+  type: contradicts
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.82
@@ -22,6 +22,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Manager Vibe Coding
 ---
 
 # Manager Vibe Coding

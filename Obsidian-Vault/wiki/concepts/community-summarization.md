@@ -1,19 +1,19 @@
 ---
-title: "Community Summarization"
+title: Community Summarization
 category: concepts
 tags:
-  - community-detection
-  - graphrag
-  - enrichment
-  - summarization
-  - graph-analytics
-  - louvain
-  - leiden
+- community-detection
+- graphrag
+- enrichment
+- summarization
+- graph-analytics
+- louvain
+- leiden
 aliases:
-  - Graph Community Summarization
-  - Community Detection Summarization
+- Graph Community Summarization
+- Community Detection Summarization
 sources:
-  - "AIEF2025 - Practical GraphRAG: Making LLMs smarter with Knowledge Graphs — Michael, Jesus, and Stephen, Neo4j - https://www.youtube.com/watch?v=XNneh6-eyPg"
+- 'AIEF2025 - Practical GraphRAG: Making LLMs smarter with Knowledge Graphs — Michael, Jesus, and Stephen, Neo4j - https://www.youtube.com/watch?v=XNneh6-eyPg'
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -24,12 +24,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/graph-analytics-enrichment|Graph Analytics Enrichment]]"
-    type: extends
-  - target: "[[concepts/local-global-search-graphrag|Local and Global Search in GraphRAG]]"
-    type: uses
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: uses
+- target: '[[concepts/graph-analytics-enrichment|Graph Analytics Enrichment]]'
+  type: extends
+- target: '[[concepts/local-global-search-graphrag|Local and Global Search in GraphRAG]]'
+  type: uses
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: uses
+summary: Community Summarization
 ---
 
 # Community Summarization

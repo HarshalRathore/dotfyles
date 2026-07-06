@@ -1,16 +1,25 @@
 ---
 type: entity
-title: "CoreDNS"
+title: CoreDNS
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/bootstrapping-control-place_e4e0df]]"
+- '[[sources/bootstrapping-control-place_e4e0df]]'
 tags:
-  - product
+- product
 aliases:
-  - "DNS Add-on"
+- DNS Add-on
+category: entities
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: CoreDNS
 ---
 # CoreDNS
 

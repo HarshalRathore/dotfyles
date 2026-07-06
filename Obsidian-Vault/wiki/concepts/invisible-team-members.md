@@ -1,10 +1,18 @@
 ---
 title: Invisible Team Members
 category: concepts
-tags: [team, ai-era, collaboration, ai-tools]
-summary: The phenomenon where every team now includes invisible AI participants — ChatGPT, Claude, Gemini — behind every document, slide, and artifact. Teams of five people with five AI assistants is the new normal.
-sources: ["AIEF2025 - Everything is ugly, so go build something that isn't — Raiza Martin, Huxe (ex NotebookLM) - https://www.youtube.com/watch?v=yG5d5UaGz1M"]
-provenance: {extracted: 0.85, inferred: 0.15, ambiguous: 0.0}
+tags:
+- team
+- ai-era
+- collaboration
+- ai-tools
+summary: The phenomenon where every team now includes invisible AI participants — ChatGPT, Claude, Gemini — behind every document, slide, and artifact. Teams of five people with five AI assistants is the ne...
+sources:
+- AIEF2025 - Everything is ugly, so go build something that isn't — Raiza Martin, Huxe (ex NotebookLM) - https://www.youtube.com/watch?v=yG5d5UaGz1M
+provenance:
+  extracted: 0.85
+  inferred: 0.15
+  ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-05
@@ -12,12 +20,12 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/product-multi-layer-cake]]"
-    type: extends
-  - target: "[[concepts/ai-product-rebuilding-wave]]"
-    type: related_to
-  - target: "[[concepts/forceful-product-building]]"
-    type: related_to
+- target: '[[concepts/product-multi-layer-cake]]'
+  type: extends
+- target: '[[concepts/ai-product-rebuilding-wave]]'
+  type: related_to
+- target: '[[concepts/forceful-product-building]]'
+  type: related_to
 ---
 
 ## Invisible Team Members

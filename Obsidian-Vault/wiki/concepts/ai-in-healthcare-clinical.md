@@ -11,7 +11,7 @@ tags:
   - documentation
 summary: "AI applied to clinical healthcare — diagnostics, imaging, drug discovery, and decision support. The most visible but also the toughest and hardest to solve AI-in-healthcare problems."
 sources:
-  - "[[sources/watchv=tquusn1qsws]]"
+  - "https://www.youtube.com/watch?v=tquusn1qsws"
 provenance:
   extracted: 0.85
   inferred: 0.15

@@ -1,13 +1,13 @@
 ---
-title: "Pion"
+title: Pion
 category: entities
 tags:
-  - tool
-  - web-rtc
-  - go
-  - open-source
+- tool
+- web-rtc
+- go
+- open-source
 sources:
-  - "[[sources/watchv=e71ytnbcfxy]]"
+- 'https://www.youtube.com/watch?v=e71ytnbcfxy'
 provenance:
   extracted: 0.95
   inferred: 0.05
@@ -18,8 +18,9 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/web-rtc]]"
-    type: implements
+- target: '[[concepts/web-rtc]]'
+  type: implements
+summary: Pion
 ---
 
 # Pion

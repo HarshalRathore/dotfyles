@@ -1,30 +1,31 @@
 ---
-title: "Passport.js"
+title: Passport.js
 category: entities
 tags:
-  - library
-  - node-js
-  - authentication
-  - oauth
-  - middleware
+- library
+- node-js
+- authentication
+- oauth
+- middleware
 sources:
-  - "AIEF2025 - How to Secure Agents using OAuth — Jared Hanson (Keycard, Passport.js) - https://www.youtube.com/watch?v=blmAkayzE8M"
+- AIEF2025 - How to Secure Agents using OAuth — Jared Hanson (Keycard, Passport.js) - https://www.youtube.com/watch?v=blmAkayzE8M
 provenance:
-  extracted: 1.00
-  inferred: 0.00
-  ambiguous: 0.00
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
 base_confidence: 0.95
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/jared-hanson|Jared Hanson]]"
-    type: implements
-  - target: "[[entities/keycard|Keycard]]"
-    type: related_to
-  - target: "[[concepts/oauth-2.0|OAuth 2.0]]"
-    type: uses
+- target: '[[entities/jared-hanson|Jared Hanson]]'
+  type: implements
+- target: '[[entities/keycard|Keycard]]'
+  type: related_to
+- target: '[[concepts/oauth-2.0|OAuth 2.0]]'
+  type: uses
+summary: Passport.js
 ---
 
 # Passport.js

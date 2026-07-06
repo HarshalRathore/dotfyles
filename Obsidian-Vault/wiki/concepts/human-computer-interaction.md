@@ -1,28 +1,29 @@
 ---
-title: "Human-Computer Interaction"
+title: Human-Computer Interaction
 category: concepts
 tags:
-  - hci
-  - user-interface
-  - interaction-design
-  - ai-education
-  - emerging-ux
-summary: "The study of how humans interact with computers, evolving from screen-and-keyboard interfaces toward more natural forms of interaction with AI systems."
+- hci
+- user-interface
+- interaction-design
+- ai-education
+- emerging-ux
+summary: The study of how humans interact with computers, evolving from screen-and-keyboard interfaces toward more natural forms of interaction with AI systems.
 provenance:
-  extracted: 0.50
-  inferred: 0.40
-  ambiguous: 0.10
-base_confidence: 0.60
+  extracted: 0.5
+  inferred: 0.4
+  ambiguous: 0.1
+base_confidence: 0.6
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/ai-education-summit|AI Education Summit]]"
-    type: related_to
-  - target: "[[entities/benjamin-dunphy|Benjamin Dunphy]]"
-    type: related_to
+- target: '[[concepts/ai-education-summit|AI Education Summit]]'
+  type: related_to
+- target: '[[entities/benjamin-dunphy|Benjamin Dunphy]]'
+  type: related_to
+sources: []
 ---
 
 # Human-Computer Interaction

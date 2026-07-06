@@ -1,33 +1,33 @@
 ---
-title: "Multimodal Generation"
+title: Multimodal Generation
 category: concepts
 tags:
-  - multimodal
-  - ai-generation
-  - video
-  - audio
-  - tokens
+- multimodal
+- ai-generation
+- video
+- audio
+- tokens
 aliases:
-  - Multimodal AI
-  - Cross-Modal Generation
+- Multimodal AI
+- Cross-Modal Generation
 sources:
-  - "AIEF2025 - Veo 3 for Developers — Paige Bailey, Google DeepMind - https://www.youtube.com/watch?v=hlcAZ2lX_ZI"
-summary: "The paradigm of generating content across multiple modalities (video, audio, text, images) within a single model architecture, where tokens from different modalities are composed together natively rather than as separate post-processing steps."
+- AIEF2025 - Veo 3 for Developers — Paige Bailey, Google DeepMind - https://www.youtube.com/watch?v=hlcAZ2lX_ZI
+summary: The paradigm of generating content across multiple modalities (video, audio, text, images) within a single model architecture, where tokens from different modalities are composed together natively...
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/native-audio-video-composition|Native Audio-Video Composition]]"
-    type: extends
-  - target: "[[concepts/visual-consistency|Visual Consistency]]"
-    type: related_to
+- target: '[[concepts/native-audio-video-composition|Native Audio-Video Composition]]'
+  type: extends
+- target: '[[concepts/visual-consistency|Visual Consistency]]'
+  type: related_to
 ---
 
 # Multimodal Generation

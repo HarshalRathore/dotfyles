@@ -1,18 +1,18 @@
 ---
-title: "Walmart"
+title: Walmart
 category: entities
 tags:
-  - company
-  - retail
-  - e-commerce
-  - big-box
+- company
+- retail
+- e-commerce
+- big-box
 aliases: []
 sources:
-  - "AIEF2025 - Machines of Buying and Selling Grace - Adam Behrens, New Generation - https://www.youtube.com/watch?v=zlZz0mDF2eg"
+- AIEF2025 - Machines of Buying and Selling Grace - Adam Behrens, New Generation - https://www.youtube.com/watch?v=zlZz0mDF2eg
 provenance:
-  extracted: 0.90
-  inferred: 0.10
-  ambiguous: 0.00
+  extracted: 0.9
+  inferred: 0.1
+  ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-05
@@ -20,8 +20,9 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/e-commerce-evolution|E-commerce Evolution]]"
-    type: exemplifies
+- target: '[[concepts/e-commerce-evolution|E-commerce Evolution]]'
+  type: exemplifies
+summary: Walmart
 ---
 
 # Walmart

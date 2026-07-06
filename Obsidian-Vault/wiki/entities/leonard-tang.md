@@ -4,7 +4,7 @@ category: entities
 tags: [person, founder, haize, ai-reliability, fuzz-testing, qa, evaluation, speaker, aief2025]
 summary: "Founder of Haize Labs, a property-based testing and fuzz testing company for AI reliability. Speaker at AI Engineer World's Fair 2025 on fuzzing in the GenAI era."
 sources:
-  - "[[sources/watchv=omgpvw8tbhc]]"
+  - "https://www.youtube.com/watch?v=omgpvw8tbhc"
 provenance:
   extracted: 0.95
   inferred: 0.03

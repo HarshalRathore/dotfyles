@@ -1,31 +1,42 @@
 ---
-title: AIEF2025 - POC to PROD: Hard Lessons from 200+ Enterprise GenAI Deployments
+title: 'AIEF2025 - POC to PROD: Hard Lessons from 200+ Enterprise GenAI Deployments'
 category: references
-tags: [aief2025, enterprise-ai, poc-to-prod, evals, input-output, moat, multimodal, video-search, pgvector, semantic-search]
-summary: "Randall Hunt of Caylent shares hard lessons from 200+ enterprise GenAI deployments at AIEF2025, covering evals as the real moat, input-output specification, multimodal video search, and practical architecture patterns."
+tags:
+- aief2025
+- enterprise-ai
+- poc-to-prod
+- evals
+- input-output
+- moat
+- multimodal
+- video-search
+- pgvector
+- semantic-search
+summary: Randall Hunt of Caylent shares hard lessons from 200+ enterprise GenAI deployments at AIEF2025, covering evals as the real moat, input-output specification, multimodal video search, and practical a...
 provenance:
   extracted: 0.95
   inferred: 0.05
-  ambiguous: 0.00
-base_confidence: 0.90
+  ambiguous: 0.0
+base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/randall-hunt]]"
-    type: related_to
-  - target: "[[entities/caylent]]"
-    type: related_to
-  - target: "[[concepts/evals-testing-pyramid]]"
-    type: related_to
-  - target: "[[concepts/sequence-of-moats]]"
-    type: related_to
-  - target: "[[concepts/multimodal-embedding]]"
-    type: related_to
-  - target: "[[concepts/pgvector]]"
-    type: related_to
+- target: '[[entities/randall-hunt]]'
+  type: related_to
+- target: '[[entities/caylent]]'
+  type: related_to
+- target: '[[concepts/evals-testing-pyramid]]'
+  type: related_to
+- target: '[[concepts/sequence-of-moats]]'
+  type: related_to
+- target: '[[concepts/multimodal-embedding]]'
+  type: related_to
+- target: '[[concepts/pgvector]]'
+  type: related_to
+sources: []
 ---
 
 ## TL;DR

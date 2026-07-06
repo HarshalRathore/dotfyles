@@ -1,25 +1,26 @@
 ---
-title: "Danielle Perszyk"
+title: Danielle Perszyk
 tags:
-  - person
-  - cognitive-scientist
-  - amazon
-  - agi
+- person
+- cognitive-scientist
+- amazon
+- agi
 aliases:
-  - Danielle Perszyk
-  - Danielle Perszyk Amazon AGI
+- Danielle Perszyk
+- Danielle Perszyk Amazon AGI
 sources:
-  - "[[sources/watchv=dj0b_cebhhi]]"
-summary: "Cognitive scientist at the Amazon AGI SF lab. Speaker at AI Engineer World's Fair 2025 on useful general intelligence — the vision of building AI that augments human intelligence rather than replacing it."
+- 'https://www.youtube.com/watch?v=dj0b_cebhhi'
+summary: Cognitive scientist at the Amazon AGI SF lab. Speaker at AI Engineer World's Fair 2025 on useful general intelligence — the vision of building AI that augments human intelligence rather than replac...
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.55
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Danielle Perszyk

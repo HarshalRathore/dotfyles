@@ -1,18 +1,18 @@
 ---
-title: "Jmo"
+title: Jmo
 tags:
-  - entity
-  - person
-  - privacy
-  - security
-  - ai
-  - speaker
-  - aief2025
+- entity
+- person
+- privacy
+- security
+- ai
+- speaker
+- aief2025
 sources:
-  - "[[sources/watchv=ccswz5bjlo8]]"
-summary: "Founder of Confidence Security, PhD in data science/biomedical informatics, former founder of two exited companies (AI/data and cybersecurity/infrastructure). Presented the unofficial guide to Apple's Private Cloud Compute at AIEF2025."
+- 'https://www.youtube.com/watch?v=ccswz5bjlo8'
+summary: Founder of Confidence Security, PhD in data science/biomedical informatics, former founder of two exited companies (AI/data and cybersecurity/infrastructure). Presented the unofficial guide to Appl...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.55
@@ -20,6 +20,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Jmo

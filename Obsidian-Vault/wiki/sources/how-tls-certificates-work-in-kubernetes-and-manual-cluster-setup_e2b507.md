@@ -1,32 +1,39 @@
 ---
-summary: "This source provides a detailed guide on implementing TLS security in Kubernetes clusters through manual configuration. It explains why TLS is critical in a distributed system, emphasizing that..."
+summary: This source provides a detailed guide on implementing TLS security in Kubernetes clusters through manual configuration. It explains why TLS is critical in a distributed system, emphasizing that...
 type: source
-title: "TLS Certificates in Kubernetes — Manual Setup and Configuration - Summary"
-created: "2026-06-30"
-updated: "2026-06-30"
+title: TLS Certificates in Kubernetes — Manual Setup and Configuration - Summary
+created: '2026-06-30'
+updated: '2026-06-30'
 lifecycle: draft
 base_confidence: 0.7
-source_file: ""
+source_file: ''
 tags:
-  - Mutual TLS (mTLS)
-  - Subject Alternative Name (SAN)
-  - Trust Root
-  - Manual Certificate Management
-  - Certificate Authority (CA)
-  - Client Certificate
-  - Server Certificate
-  - Static Pods
-  - kubeadm
-  - Certificate Signing Request (CSR)
-  - Certificate Generation
-  - Public Key Infrastructure (PKI)
-  - Certificate Verification
-  - Certificate Chain
+- Mutual TLS (mTLS)
+- Subject Alternative Name (SAN)
+- Trust Root
+- Manual Certificate Management
+- Certificate Authority (CA)
+- Client Certificate
+- Server Certificate
+- Static Pods
+- kubeadm
+- Certificate Signing Request (CSR)
+- Certificate Generation
+- Public Key Infrastructure (PKI)
+- Certificate Verification
+- Certificate Chain
 aliases:
-  - Kubernetes TLS Certificate Management Guide
-  - Manual TLS Setup for K8s Clusters
-contentHash: "21af-157b2f21"
-generation_complete: True
+- Kubernetes TLS Certificate Management Guide
+- Manual TLS Setup for K8s Clusters
+contentHash: 21af-157b2f21
+generation_complete: true
+category: sources
+sources: []
+tier: supporting
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
 ---
 # TLS Certificates in Kubernetes — Manual Setup and Configuration - Summary
 

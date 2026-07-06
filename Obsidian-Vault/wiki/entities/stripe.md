@@ -1,37 +1,38 @@
 ---
-title: "Stripe"
+title: Stripe
 category: entities
 tags:
-  - company
-  - payments
-  - fintech
-  - saas
+- company
+- payments
+- fintech
+- saas
 aliases:
-  - Stripe Inc.
+- Stripe Inc.
 sources:
-  - "AIEF2025 - #define AI Engineer - Greg Brockman, OpenAI (ft. Jensen Huang) - https://www.youtube.com/watch?v=avWhreBUYF0"
-  - "AIEF2025 - Machines of Buying and Selling Grace - Adam Behrens, New Generation - https://www.youtube.com/watch?v=zlZz0mDF2eg"
+- 'AIEF2025 - #define AI Engineer - Greg Brockman, OpenAI (ft. Jensen Huang) - https://www.youtube.com/watch?v=avWhreBUYF0'
+- AIEF2025 - Machines of Buying and Selling Grace - Adam Behrens, New Generation - https://www.youtube.com/watch?v=zlZz0mDF2eg
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: core
 created: 2026-07-04
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/greg-brockman|Greg Brockman]]"
-    type: employs
-  - target: "[[entities/patrick-collison|Patrick Collison]]"
-    type: co-founded-by
-  - target: "[[entities/john-collison|John Collison]]"
-    type: co-founded-by
-  - target: "[[entities/wells-fargo|Wells Fargo]]"
-    type: integrates-with
-  - target: "[[concepts/virtual-cards|Virtual Cards]]"
-    type: implements
+- target: '[[entities/greg-brockman|Greg Brockman]]'
+  type: employs
+- target: '[[entities/patrick-collison|Patrick Collison]]'
+  type: co-founded-by
+- target: '[[entities/john-collison|John Collison]]'
+  type: co-founded-by
+- target: '[[entities/wells-fargo|Wells Fargo]]'
+  type: integrates-with
+- target: '[[concepts/virtual-cards|Virtual Cards]]'
+  type: implements
+summary: Stripe
 ---
 
 # Stripe

@@ -1,16 +1,16 @@
 ---
-title: "Tom Smoker"
+title: Tom Smoker
 category: entities
 tags:
-  - person
-  - speaker
-  - entrepreneur
-  - graphs
-  - legal-ai
+- person
+- speaker
+- entrepreneur
+- graphs
+- legal-ai
 sources:
-  - "AIEF2025 - Knowledge Graphs in Litigation Agents — Tom Smoker, WhyHow - https://www.youtube.com/watch?v=yYxr6LdXNWM"
+- AIEF2025 - Knowledge Graphs in Litigation Agents — Tom Smoker, WhyHow - https://www.youtube.com/watch?v=yYxr6LdXNWM
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -20,10 +20,11 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/whyhow|WhyHow]]"
-    type: founded
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: advocates
+- target: '[[entities/whyhow|WhyHow]]'
+  type: founded
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: advocates
+summary: Tom Smoker
 ---
 
 # Tom Smoker

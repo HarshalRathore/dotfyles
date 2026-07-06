@@ -4,7 +4,7 @@ category: entities
 tags: [inference-server, nvidia, model-serving, gpu-inference, open-source]
 summary: NVIDIA's model inference server. Luma AI used it for Dream Machine launch but replaced it with custom PyTorch serving for brittleness, multi-node limits, and chipset support.
 sources:
-  - "[[sources/watchv=ey4o9m6aswi]]"
+  - "https://www.youtube.com/watch?v=ey4o9m6aswi"
 provenance:
   extracted: 0.80
   inferred: 0.15
@@ -16,11 +16,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[nvidia]]"
+  - target: "[[entities/nvidia]]"
     type: related_to
-  - target: "[[inference-serving]]"
+  - target: "[[concepts/inference-serving]]"
     type: related_to
-  - target: "[[pytorch]]"
+  - target: "[[entities/pytorch]]"
     type: related_to
 ---
 

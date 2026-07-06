@@ -1,17 +1,23 @@
 ---
-summary: "> **Source: kubernetes-installation-steps_e573e8** > - ' > - '"
+summary: '> **Source: kubernetes-installation-steps_e573e8** > - '' > - '''
 type: concept
-title: "Key Characteristics"
+title: Key Characteristics
 created:
-  - "2026-06-30"
+- '2026-06-30'
 updated:
-  - "2026-06-30"
+- '2026-06-30'
 lifecycle: draft
 base_confidence: 0.75
 sources:
-  - "[[sources/kubernetes-installation-steps_e573e8]]"
-  - "[[sources/introduction_804367]]"
-
+- '[[sources/kubernetes-installation-steps_e573e8]]'
+- '[[sources/introduction_804367]]'
+category: concepts
+tags: []
+tier: supporting
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
 ---
 ## Key Characteristics
 - Executes application workloads by running scheduled containers, hosting pods and their enclosed containers.

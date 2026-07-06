@@ -1,21 +1,21 @@
 ---
-title: "Adaptive Evals"
+title: Adaptive Evals
 category: concepts
 tags:
-  - evaluation
-  - adaptive
-  - application-specific
-  - rag
-  - code-generation
-  - agents
+- evaluation
+- adaptive
+- application-specific
+- rag
+- code-generation
+- agents
 aliases:
-  - adaptive evaluation
-  - application-specific evals
+- adaptive evaluation
+- application-specific evals
 sources:
-  - "AIEF2025 - How to run Evals at Scale: Thinking beyond Accuracy or Similarity — Muktesh Mishra, Adobe - https://www.youtube.com/watch?v=coKKKKh8Vns"
+- 'AIEF2025 - How to run Evals at Scale: Thinking beyond Accuracy or Similarity — Muktesh Mishra, Adobe - https://www.youtube.com/watch?v=coKKKKh8Vns'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.85
 lifecycle: draft
@@ -24,14 +24,15 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/llm-evaluation-framework|LLM Evaluation Framework]]"
-    type: extends
-  - target: "[[concepts/rag-evaluation|RAG Evaluation]]"
-    type: applies_to
-  - target: "[[concepts/trajectory-evaluation|Trajectory Evaluation]]"
-    type: includes
-  - target: "[[concepts/eval-driven-development|Eval-Driven Development]]"
-    type: enables
+- target: '[[concepts/llm-evaluation-framework|LLM Evaluation Framework]]'
+  type: extends
+- target: '[[concepts/rag-evaluation|RAG Evaluation]]'
+  type: applies_to
+- target: '[[concepts/trajectory-evaluation|Trajectory Evaluation]]'
+  type: includes
+- target: '[[concepts/eval-driven-development|Eval-Driven Development]]'
+  type: enables
+summary: Adaptive Evals
 ---
 
 # Adaptive Evals

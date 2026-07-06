@@ -1,25 +1,42 @@
 ---
-title: "Building the platform for agent coordination — Tom Moor, Linear"
-tags: [talk, agents, coordination, ai-strategy, linear, developer-tools, aief2025, hybrid-search, agent-platform]
-aliases: [aief2025-agent-coordination-tom-moor, tom-moor-agent-coordination]
-summary: "Tom Moor, engineering leader at Linear, describes Linear's AI journey from skunkworks to agent coordination platform — covering search infrastructure, product intelligence, and treating agents as teammates."
-sources: ["[[sources/aief2025-building-the-platform-for-agent-coordination-—-tom-moor]]", "[[sources/watchv=ug9iadmi2dg]]"]
+title: Building the platform for agent coordination — Tom Moor, Linear
+tags:
+- talk
+- agents
+- coordination
+- ai-strategy
+- linear
+- developer-tools
+- aief2025
+- hybrid-search
+- agent-platform
+aliases:
+- aief2025-agent-coordination-tom-moor
+- tom-moor-agent-coordination
+summary: Tom Moor, engineering leader at Linear, describes Linear's AI journey from skunkworks to agent coordination platform — covering search infrastructure, product intelligence, and treating agents as t...
+sources:
+- '[[sources/aief2025-building-the-platform-for-agent-coordination-—-tom-moor]]'
+- 'https://www.youtube.com/watch?v=ug9iadmi2dg'
 provenance:
   extracted: 0.95
   inferred: 0.03
   ambiguous: 0.02
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 tier: supporting
-created: 2026-07-04T00:00:00Z
-updated: 2026-07-04T00:00:00Z
+created: 2026-07-04 00:00:00+00:00
+updated: 2026-07-04 00:00:00+00:00
 relationships:
-  - target: [[concepts/agent-coordination|Agent Coordination Platform]]
-    type: related_to
-  - target: [[entities/linear|Linear]]
-    type: related_to
-  - target: [[entities/tom-moor|Tom Moor]]
-    type: related_to
+- target:
+  - - concepts/agent-coordination|Agent Coordination Platform
+  type: related_to
+- target:
+  - - entities/linear|Linear
+  type: related_to
+- target:
+  - - entities/tom-moor|Tom Moor
+  type: related_to
+category: references
 ---
 
 # Building the Platform for Agent Coordination — Tom Moor, Linear

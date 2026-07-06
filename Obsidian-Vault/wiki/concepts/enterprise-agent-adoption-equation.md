@@ -1,18 +1,18 @@
 ---
-title: "Enterprise Agent Adoption Equation"
+title: Enterprise Agent Adoption Equation
 category: concepts
 tags:
-  - enterprise-ai
-  - agent-adoption
-  - agent-reliability
-  - risk-reward
-  - first-principles
-  - langchain
+- enterprise-ai
+- agent-adoption
+- agent-reliability
+- risk-reward
+- first-principles
+- langchain
 sources:
-  - "AIEF2025 - 3 ingredients for building reliable enterprise agents - Harrison Chase, LangChain/LangGraph - https://www.youtube.com/watch?v=kTnfJszFxCg"
-summary: "A first-principles equation for enterprise AI agent adoption: (probability of success × value when right) − cost when wrong > cost of running. The three terms define the design space for enterprise agent success."
+- AIEF2025 - 3 ingredients for building reliable enterprise agents - Harrison Chase, LangChain/LangGraph - https://www.youtube.com/watch?v=kTnfJszFxCg
+summary: 'A first-principles equation for enterprise AI agent adoption: (probability of success × value when right) − cost when wrong > cost of running. The three terms define the design space for enterprise...'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -22,12 +22,12 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/agent-reliability-challenge]]"
-    type: related_to
-  - target: "[[concepts/workflow-agent-spectrum]]"
-    type: related_to
-  - target: "[[concepts/assistive-vs-automation-agents]]"
-    type: related_to
+- target: '[[concepts/agent-reliability-challenge]]'
+  type: related_to
+- target: '[[concepts/workflow-agent-spectrum]]'
+  type: related_to
+- target: '[[concepts/assistive-vs-automation-agents]]'
+  type: related_to
 ---
 
 # Enterprise Agent Adoption Equation

@@ -16,13 +16,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/golden-dataset.md]]"
+  - target: "[[concepts/golden-dataset]]"
     type: extends
-  - target: "[[concepts/llm-as-judge-evaluation.md]]"
+  - target: "[[concepts/llm-as-judge-evaluation]]"
     type: implements
-  - target: "[[concepts/eval-driven-optimization.md]]"
+  - target: "[[concepts/eval-driven-optimization]]"
     type: related_to
-  - target: "[[concepts/fast-evals.md]]"
+  - target: "[[concepts/fast-evals]]"
     type: related_to
 ---
 
@@ -30,7 +30,7 @@ relationships:
 
 An evaluation approach that compares system outputs against known correct answers or expected facts. This requires a curated dataset of questions with specified expected content — what the answer should contain.
 
-[[entities/nir-gazit.md|Nir Gazit]] used ground truth evaluation at AIEF2025: he created 20 question examples about Traceloop documentation, and for each question he specified three facts that the generated answer should contain. The [[concepts/llm-as-judge-evaluation.md|LLM-as-judge]] evaluator then checked whether each fact appeared in the generated answer, producing per-fact pass/fail results.
+[[entities/nir-gazit|Nir Gazit]] used ground truth evaluation at AIEF2025: he created 20 question examples about Traceloop documentation, and for each question he specified three facts that the generated answer should contain. The [[concepts/llm-as-judge-evaluation|LLM-as-judge]] evaluator then checked whether each fact appeared in the generated answer, producing per-fact pass/fail results.
 
 Key properties:
 

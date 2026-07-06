@@ -1,34 +1,35 @@
 ---
-title: "vZero"
+title: vZero
 tags:
-  - ai
-  - coding-agent
-  - developer-tools
-  - vibe-coding
-  - vercel
-  - aief2025
+- ai
+- coding-agent
+- developer-tools
+- vibe-coding
+- vercel
+- aief2025
 aliases:
-  - Vercel v0
-  - Vercel vZero
+- Vercel v0
+- Vercel vZero
 relationships:
-  - target: "[[entities/vercel]]"
-    type: developed_by
-  - target: "[[entities/v0]]"
-    type: related_to
-  - target: "[[concepts/vibe-coding-as-whiteboard]]"
-    type: implements
+- target: '[[entities/vercel]]'
+  type: developed_by
+- target: '[[entities/v0]]'
+  type: related_to
+- target: '[[concepts/vibe-coding-as-whiteboard]]'
+  type: implements
 sources:
-  - "[[sources/watchv=l8ooyedi_ls]]"
-summary: "Full-stack vibe coding platform by Vercel. Crossed 100M messages sent at time of AIEF2025 talk. Features GitHub Sync for bidirectional code collaboration."
+- 'https://www.youtube.com/watch?v=l8ooyedi_ls'
+summary: Full-stack vibe coding platform by Vercel. Crossed 100M messages sent at time of AIEF2025 talk. Features GitHub Sync for bidirectional code collaboration.
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-05
+category: entities
 ---
 
 # vZero

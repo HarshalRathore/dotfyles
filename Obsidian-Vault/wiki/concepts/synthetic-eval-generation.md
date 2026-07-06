@@ -1,13 +1,13 @@
 ---
-title: "Synthetic Eval Generation"
+title: Synthetic Eval Generation
 tags:
-  - ai
-  - evaluation
-  - llm
-  - testing
-  - synthetic-data
+- ai
+- evaluation
+- llm
+- testing
+- synthetic-data
 sources:
-  - "[[sources/watchv=mc55hdwlq4o]]"
+- 'https://www.youtube.com/watch?v=mc55hdwlq4o'
 provenance:
   extracted: 0.72
   inferred: 0.23
@@ -17,6 +17,8 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
+summary: Synthetic Eval Generation
 ---
 
 # Synthetic Eval Generation

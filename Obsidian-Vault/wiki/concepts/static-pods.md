@@ -1,18 +1,24 @@
 ---
-summary: "Static Pods are special Kubernetes Pods managed directly by the kubelet on a specific node, without involvement from the Kubernetes API server. They are defined by YAML manifest files placed in..."
+summary: Static Pods are special Kubernetes Pods managed directly by the kubelet on a specific node, without involvement from the Kubernetes API server. They are defined by YAML manifest files placed in...
 type: concept
-title: "Static Pods"
+title: Static Pods
 created:
-  - "2026-06-30"
+- '2026-06-30'
 updated:
-  - "2026-06-30"
+- '2026-06-30'
 lifecycle: draft
 base_confidence: 0.75
 sources:
-  - "[[sources/install-kubernetes-components_c70e92]]"
-  - "[[sources/how-tls-certificates-work-in-kubernetes-and-manual-cluster-setup_e2b507]]"
-  - "[[sources/static-pod_d72e06]]"
-
+- '[[sources/install-kubernetes-components_c70e92]]'
+- '[[sources/how-tls-certificates-work-in-kubernetes-and-manual-cluster-setup_e2b507]]'
+- '[[sources/static-pod_d72e06]]'
+category: concepts
+tags: []
+tier: supporting
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
 ---
 ## Description
 Static Pods are special Kubernetes Pods managed directly by the kubelet on a specific node, without involvement from the Kubernetes API server. They are defined by YAML manifest files placed in a static pod manifest directory (typically `/etc/kubernetes/manifests`), which the kubelet watches to automatically create, update, or delete pods based on file changes. This mechanism is crucial for bootstrapping the control plane, as it allows critical components like `kube-apiserver`, `etcd`, `kube-scheduler`, and `kube-controller-manager` to run before the API server itself is available, solving the fundamental "
@@ -20,7 +26,7 @@ Static Pods are special Kubernetes Pods managed directly by the kubelet on a spe
 
 ## Related Concepts
 - [[concepts/control-plane-node]]
-- [[worker-node]]
+- [[concepts/worker-node]]
 - bootstrapping-control-place_e4e0df
 - mirror-pod
 

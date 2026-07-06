@@ -22,7 +22,7 @@ relationships:
 
 # Anthropic Claude Agent Demo (AIEF2025)
 
-During the Anthropic keynote at the AI Engineer World's Fair 2025, the team used [[Excalidraw|excalidraw]] to demonstrate [[Claude Code|claude-code]]'s AI agent capabilities. Specifically, they had the agent reimplement the most popular feature request for Excalidraw — a table layout — directly inside the whiteboard tool.
+During the Anthropic keynote at the AI Engineer World's Fair 2025, the team used [[entities/excalidraw|excalidraw]] to demonstrate [[entities/claude-code|claude-code]]'s AI agent capabilities. Specifically, they had the agent reimplement the most popular feature request for Excalidraw — a table layout — directly inside the whiteboard tool.
 
 ## Significance
 
@@ -30,8 +30,8 @@ This demo was notable for several reasons:
 
 1. **Real tool, real feature request**: Rather than a synthetic benchmark, the agent was asked to implement the most requested feature on a real open-source project.
 2. **Whiteboard context**: The agent had to understand the Excalidraw data model and rendering system, not just generate code in a vacuum.
-3. **Open invitation**: [[Christopher Chedeau|christopher-chedeau]] joked that anyone working at Claude was welcome to submit a PR for the implementation — it hadn't been sent yet as of the talk.
+3. **Open invitation**: [[entities/christopher-chedeau|christopher-chedeau]] joked that anyone working at Claude was welcome to submit a PR for the implementation — it hadn't been sent yet as of the talk.
 
 ## Connection to AI Integration Philosophy
 
-The demo aligns with Chedeau's broader philosophy about [[AI integration patterns|ai-integration-patterns]]: rather than having AI generate visual content (which failed), having AI generate structured data that an existing tool renders (which worked). The Claude agent didn't draw tables — it generated the Excalidraw data structures that render as tables.
+The demo aligns with Chedeau's broader philosophy about [[concepts/ai-integration-patterns|ai-integration-patterns]]: rather than having AI generate visual content (which failed), having AI generate structured data that an existing tool renders (which worked). The Claude agent didn't draw tables — it generated the Excalidraw data structures that render as tables.

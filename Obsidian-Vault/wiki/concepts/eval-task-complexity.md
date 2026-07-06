@@ -1,29 +1,30 @@
 ---
-title: "Eval Task Complexity"
+title: Eval Task Complexity
 category: concepts
 tags:
-  - evals
-  - task
-  - evaluation-methodology
-  - braintrust
-  - agentic-workflows
+- evals
+- task
+- evaluation-methodology
+- braintrust
+- agentic-workflows
 sources:
-  - "AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY"
+- AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/eval-ingredients-task-dataset-score|Eval Ingredients: Task, Dataset, Score]]"
-    type: elaborates
-  - target: "[[concepts/eval-driven-development|Eval-Driven Development]]"
-    type: supports
+- target: '[[concepts/eval-ingredients-task-dataset-score|Eval Ingredients: Task, Dataset, Score]]'
+  type: elaborates
+- target: '[[concepts/eval-driven-development|Eval-Driven Development]]'
+  type: supports
+summary: Eval Task Complexity
 ---
 
 # Eval Task Complexity

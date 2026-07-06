@@ -1,9 +1,9 @@
 ---
-title: "Clinical Reasoning"
+title: Clinical Reasoning
 category: concepts
-summary: "Domain-specific reasoning used by clinicians to evaluate treatment appropriateness. A key domain expertise AI systems must encode for healthcare applications, exemplified by Anterior's Florence."
+summary: Domain-specific reasoning used by clinicians to evaluate treatment appropriateness. A key domain expertise AI systems must encode for healthcare applications, exemplified by Anterior's Florence.
 sources:
-  - "[[sources/watchv=mrm7oa3jsfs]]"
+- 'https://www.youtube.com/watch?v=mrm7oa3jsfs'
 provenance:
   extracted: 0.7
   inferred: 0.3
@@ -14,12 +14,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/medical-necessity-review]]"
-    type: enables
-  - target: "[[concepts/domain-native-llm-application]]"
-    type: domain-of
-  - target: "[[concepts/last-mile-problem-ai]]"
-    type: example-of
+- target: '[[concepts/medical-necessity-review]]'
+  type: enables
+- target: '[[concepts/domain-native-llm-application]]'
+  type: domain-of
+- target: '[[concepts/last-mile-problem-ai]]'
+  type: example-of
+tags: []
 ---
 
 # Clinical Reasoning

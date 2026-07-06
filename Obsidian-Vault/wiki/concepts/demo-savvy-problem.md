@@ -15,8 +15,8 @@ relationships:
   - target: "[[concepts/reliability-over-intelligence]]"
     type: extends
 sources:
-  - "[[sources/watchv=l8ooyedi_ls]]"
-  - "[[sources/watchv=omgpvw8tbhc]]"
+  - "https://www.youtube.com/watch?v=l8ooyedi_ls"
+  - "https://www.youtube.com/watch?v=omgpvw8tbhc"
 summary: "AI apps are demo-savvy: they look great in demos and to coworkers but break in production with real user queries. Driven primarily by brittleness (Lipschitz discontinuity), not non-determinism."
 provenance:
   extracted: 0.83

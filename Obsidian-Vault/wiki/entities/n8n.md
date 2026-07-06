@@ -1,20 +1,20 @@
 ---
-title: "N8N"
+title: N8N
 tags:
-  - tool
-  - workflow
-  - automation
-  - no-code
-  - node-js
+- tool
+- workflow
+- automation
+- no-code
+- node-js
 aliases:
-  - n8n.io
-  - N8N Workflow Automation
+- n8n.io
+- N8N Workflow Automation
 sources:
-  - "[[sources/watchv=9aqovt8lnmi]]"
-summary: "Open-source workflow automation tool with AI agent nodes, used for rapid prototyping of multi-agent KAG systems. Its AI agent node enables supervisory agents that orchestrate sub-agents updating a shared knowledge graph."
+- 'https://www.youtube.com/watch?v=9aqovt8lnmi'
+summary: Open-source workflow automation tool with AI agent nodes, used for rapid prototyping of multi-agent KAG systems. Its AI agent node enables supervisory agents that orchestrate sub-agents updating a...
 provenance:
   extracted: 0.55
-  inferred: 0.40
+  inferred: 0.4
   ambiguous: 0.05
 base_confidence: 0.25
 lifecycle: draft
@@ -22,12 +22,13 @@ tier: peripheral
 created: 2026-07-03
 updated: 2026-07-03
 relationships:
-  - target: "[[concepts/kag-knowledge-augmented-generation|KAG (Knowledge Augmented Generation)]]"
-    type: related_to
-  - target: "[[concepts/wisdom-graph|Wisdom Graph]]"
-    type: related_to
-  - target: "[[entities/neo4j|Neo4j]]"
-    type: related_to
+- target: '[[concepts/kag-knowledge-augmented-generation|KAG (Knowledge Augmented Generation)]]'
+  type: related_to
+- target: '[[concepts/wisdom-graph|Wisdom Graph]]'
+  type: related_to
+- target: '[[entities/neo4j|Neo4j]]'
+  type: related_to
+category: entities
 ---
 
 # N8N

@@ -1,24 +1,25 @@
 ---
-title: "LiveKit"
+title: LiveKit
 tags:
-  - company
-  - voice
-  - ai
-  - infrastructure
-  - real-time
-  - open-source
+- company
+- voice
+- ai
+- infrastructure
+- real-time
+- open-source
 sources:
-  - "[[sources/watchv=1v9zbizkliy]]"
-summary: "Real-time voice AI infrastructure platform providing audio transport, voice agents, and open-weight turn detection models."
+- 'https://www.youtube.com/watch?v=1v9zbizkliy'
+summary: Real-time voice AI infrastructure platform providing audio transport, voice agents, and open-weight turn detection models.
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.42
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # LiveKit

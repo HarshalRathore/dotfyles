@@ -1,23 +1,26 @@
 ---
-title: "Prediction Cone UI"
+title: Prediction Cone UI
 tags:
-  - ui-pattern
-  - interaction-design
-  - menu
-  - ux
-aliases: [prediction cone, predictive pointer cone]
+- ui-pattern
+- interaction-design
+- menu
+- ux
+aliases:
+- prediction cone
+- predictive pointer cone
 sources:
-  - "[[sources/watchv=7e7evtcygcm]]"
-summary: "A UI pattern for nested menus that generates a geometric cone predicting user intent as the cursor moves between menu levels, allowing imprecise pointer movement without the submenu collapsing."
+- 'https://www.youtube.com/watch?v=7e7evtcygcm'
+summary: A UI pattern for nested menus that generates a geometric cone predicting user intent as the cursor moves between menu levels, allowing imprecise pointer movement without the submenu collapsing.
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Prediction Cone UI

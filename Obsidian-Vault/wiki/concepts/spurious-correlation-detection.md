@@ -1,17 +1,17 @@
 ---
-title: "Spurious Correlation Detection"
+title: Spurious Correlation Detection
 category: concepts
 tags:
-  - rag
-  - spurious-correlations
-  - data-quality
-  - hallucination
-  - evaluation
-summary: "Using spurious correlation data as a stress test for RAG systems — evaluating whether retrieval systems correctly handle data that contradicts conventional wisdom rather than regurgitating expected patterns."
+- rag
+- spurious-correlations
+- data-quality
+- hallucination
+- evaluation
+summary: Using spurious correlation data as a stress test for RAG systems — evaluating whether retrieval systems correctly handle data that contradicts conventional wisdom rather than regurgitating expected...
 sources:
-  - "AIEF2025 - Forget RAG Pipelines—Build Production Ready Agents in 15 Mins: Nina Lopatina, Rajiv Shah, Contextual - https://www.youtube.com/watch?v=lArgRvBV3tQ"
+- 'AIEF2025 - Forget RAG Pipelines—Build Production Ready Agents in 15 Mins: Nina Lopatina, Rajiv Shah, Contextual - https://www.youtube.com/watch?v=lArgRvBV3tQ'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.65
@@ -21,14 +21,14 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/contextual-ai]]"
-    type: related_to
-  - target: "[[concepts/quantitative-reasoning-rag]]"
-    type: related_to
-  - target: "[[concepts/rag-evaluation]]"
-    type: related_to
-  - target: "[[concepts/rag-agent-symbiosis]]"
-    type: related_to
+- target: '[[entities/contextual-ai]]'
+  type: related_to
+- target: '[[concepts/quantitative-reasoning-rag]]'
+  type: related_to
+- target: '[[concepts/rag-evaluation]]'
+  type: related_to
+- target: '[[concepts/rag-agent-symbiosis]]'
+  type: related_to
 ---
 
 # Spurious Correlation Detection

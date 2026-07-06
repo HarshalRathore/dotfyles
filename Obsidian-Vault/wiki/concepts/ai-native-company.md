@@ -1,16 +1,16 @@
 ---
-title: "AI-Native Company"
+title: AI-Native Company
 category: concepts
 tags:
-  - ai-native
-  - company-design
-  - engineering-culture
-  - aief2025
+- ai-native
+- company-design
+- engineering-culture
+- aief2025
 aliases:
-  - ai native company
-summary: "A company built from the ground up with AI agents as the primary engineering workforce, where 99%+ of code is written by AI and each product is maintained by a single developer."
+- ai native company
+summary: A company built from the ground up with AI agents as the primary engineering workforce, where 99%+ of code is written by AI and each product is maintained by a single developer.
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -20,14 +20,15 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/compounding-engineering|Compounding Engineering]]"
-    type: implements
-  - target: "[[concepts/small-ai-teams|Small AI Teams with Huge Impact]]"
-    type: extends
-  - target: "[[concepts/level-of-stack|Level of Stack]]"
-    type: related_to
-  - target: "[[entities/every-company|Every]]"
-    type: implements
+- target: '[[concepts/compounding-engineering|Compounding Engineering]]'
+  type: implements
+- target: '[[concepts/small-ai-teams|Small AI Teams with Huge Impact]]'
+  type: extends
+- target: '[[concepts/level-of-stack|Level of Stack]]'
+  type: related_to
+- target: '[[entities/every-company|Every]]'
+  type: implements
+sources: []
 ---
 
 # AI-Native Company

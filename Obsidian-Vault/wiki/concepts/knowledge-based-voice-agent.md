@@ -1,16 +1,16 @@
 ---
-title: "Knowledge-Based Voice Agent"
+title: Knowledge-Based Voice Agent
 category: concepts
 tags:
-  - voice-ai
-  - agent
-  - rag
-  - customer-service
-  - use-case-design
+- voice-ai
+- agent
+- rag
+- customer-service
+- use-case-design
 summary: A voice agent design pattern that answers customer questions using knowledge base content (help articles) rather than narrow task scheduling or API integrations.
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.75
 lifecycle: draft
@@ -19,12 +19,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/finvoice]]"
-    type: implements
-  - target: "[[concepts/agentic-rag]]"
-    type: uses
-  - target: "[[concepts/beyond-chatbots]]"
-    type: extends
+- target: '[[concepts/finvoice]]'
+  type: implements
+- target: '[[concepts/agentic-rag]]'
+  type: uses
+- target: '[[concepts/beyond-chatbots]]'
+  type: extends
+sources: []
 ---
 
 # Knowledge-Based Voice Agent

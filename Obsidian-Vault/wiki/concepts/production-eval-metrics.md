@@ -1,30 +1,31 @@
 ---
-title: "Production Eval Metrics"
+title: Production Eval Metrics
 category: concepts
 tags:
-  - evals
-  - metrics
-  - production
-  - online-evals
-  - braintrust
+- evals
+- metrics
+- production
+- online-evals
+- braintrust
 sources:
-  - "AIEF2025 - Why should anyone care about Evals? — Manu Goyal, Braintrust - https://www.youtube.com/watch?v=jJ45Yz1lJao"
+- AIEF2025 - Why should anyone care about Evals? — Manu Goyal, Braintrust - https://www.youtube.com/watch?v=jJ45Yz1lJao
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/eval-offline-online-duality|Eval Offline/Online Duality]]"
-    type: relates_to
-  - target: "[[concepts/eval-data-flywheel|Eval Data Flywheel]]"
-    type: enables
-  - target: "[[concepts/eval-production-metrics|Eval Production Metrics]]"
-    type: extends
+- target: '[[concepts/eval-offline-online-duality|Eval Offline/Online Duality]]'
+  type: relates_to
+- target: '[[concepts/eval-data-flywheel|Eval Data Flywheel]]'
+  type: enables
+- target: '[[concepts/eval-production-metrics|Eval Production Metrics]]'
+  type: extends
+summary: Production Eval Metrics
 ---
 
 # Production Eval Metrics

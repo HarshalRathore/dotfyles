@@ -10,7 +10,7 @@ tags:
   - multi-modal
 summary: Using thermal (infrared) imagery alongside RGB vision for food perception — judging doneness, browning, and cooking state by temperature and color patterns invisible to standard cameras.
 sources:
-  - "[[sources/watchv=mbwgiwjdlso]]"
+  - "https://www.youtube.com/watch?v=mbwgiwjdlso"
 provenance:
   extracted: 0.80
   inferred: 0.15

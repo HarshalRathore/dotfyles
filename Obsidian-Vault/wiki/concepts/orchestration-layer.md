@@ -1,17 +1,17 @@
 ---
-title: "Orchestration Layer"
+title: Orchestration Layer
 category: concepts
 tags:
-  - real-time-ai
-  - pipecat
-  - voice-ai
-  - video-ai
-  - pipeline
-  - infrastructure
+- real-time-ai
+- pipecat
+- voice-ai
+- video-ai
+- pipeline
+- infrastructure
 sources:
-  - "AIEF2025 - Realtime Conversational Video with Pipecat and Tavus — Chad Bailey and Brian Johnson, Daily & Tavus - https://www.youtube.com/watch?v=ujt0da9Z29Q"
+- AIEF2025 - Realtime Conversational Video with Pipecat and Tavus — Chad Bailey and Brian Johnson, Daily & Tavus - https://www.youtube.com/watch?v=ujt0da9Z29Q
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.78
@@ -21,12 +21,13 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/pipe-cat]]"
-    type: implements
-  - target: "[[concepts/real-time-conversational-video]]"
-    type: related_to
-  - target: "[[concepts/voice-agents]]"
-    type: related_to
+- target: '[[entities/pipe-cat]]'
+  type: implements
+- target: '[[concepts/real-time-conversational-video]]'
+  type: related_to
+- target: '[[concepts/voice-agents]]'
+  type: related_to
+summary: Orchestration Layer
 ---
 
 # Orchestration Layer

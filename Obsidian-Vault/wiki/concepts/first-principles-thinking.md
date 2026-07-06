@@ -1,30 +1,31 @@
 ---
-title: "First Principles Thinking"
+title: First Principles Thinking
 category: concepts
 tags:
-  - problem-solving
-  - decision-making
-  - constraint-analysis
-  - first-principles
+- problem-solving
+- decision-making
+- constraint-analysis
+- first-principles
 aliases:
-  - first-principles
+- first-principles
 sources:
-  - "AIEF2025 - #define AI Engineer - Greg Brockman, OpenAI (ft. Jensen Huang) - https://www.youtube.com/watch?v=avWhreBUYF0"
+- 'AIEF2025 - #define AI Engineer - Greg Brockman, OpenAI (ft. Jensen Huang) - https://www.youtube.com/watch?v=avWhreBUYF0'
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/greg-brockman|Greg Brockman]]"
-    type: uses
-  - target: "[[entities/stripe|Stripe]]"
-    type: applied-by
+- target: '[[entities/greg-brockman|Greg Brockman]]'
+  type: uses
+- target: '[[entities/stripe|Stripe]]'
+  type: applied-by
+summary: First Principles Thinking
 ---
 
 # First Principles Thinking

@@ -1,30 +1,31 @@
 ---
-title: "Evals as Laboratory"
+title: Evals as Laboratory
 category: concepts
 tags:
-  - evals
-  - experimentation
-  - iteration
-  - production-ai
-  - braintrust
+- evals
+- experimentation
+- iteration
+- production-ai
+- braintrust
 sources:
-  - "AIEF2025 - Why should anyone care about Evals? — Manu Goyal, Braintrust - https://www.youtube.com/watch?v=jJ45Yz1lJao"
+- AIEF2025 - Why should anyone care about Evals? — Manu Goyal, Braintrust - https://www.youtube.com/watch?v=jJ45Yz1lJao
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/ai-iteration-loop|AI Iteration Loop]]"
-    type: enables
-  - target: "[[concepts/eval-driven-development|Eval-Driven Development]]"
-    type: implements
-  - target: "[[concepts/ship-confidently|Ship Confidently]]"
-    type: supports
+- target: '[[concepts/ai-iteration-loop|AI Iteration Loop]]'
+  type: enables
+- target: '[[concepts/eval-driven-development|Eval-Driven Development]]'
+  type: implements
+- target: '[[concepts/ship-confidently|Ship Confidently]]'
+  type: supports
+summary: Evals as Laboratory
 ---
 
 # Evals as Laboratory

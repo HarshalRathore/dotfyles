@@ -1,27 +1,28 @@
 ---
-title: "Evaluation vs. Benchmarking"
+title: Evaluation vs. Benchmarking
 tags:
-  - evaluation
-  - benchmarking
-  - methodology
-  - definition
-  - llm
-  - testing
+- evaluation
+- benchmarking
+- methodology
+- definition
+- llm
+- testing
 aliases:
-  - Eval vs Benchmark
-  - LLM Evaluation vs Benchmarking
+- Eval vs Benchmark
+- LLM Evaluation vs Benchmarking
 sources:
-  - "[[sources/watchv=89nuzmkokik]]"
-summary: "A definitional distinction: evaluation is a comprehensive end-to-end assessment of a model across many components, while benchmarking is a subcategory using controlled datasets and tasks specifically for comparing models against one another."
+- 'https://www.youtube.com/watch?v=89nuzmkokik'
+summary: 'A definitional distinction: evaluation is a comprehensive end-to-end assessment of a model across many components, while benchmarking is a subcategory using controlled datasets and tasks specifical...'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Evaluation vs. Benchmarking

@@ -1,27 +1,34 @@
 ---
-title: "Heuristics vs Hard Evidence in Context"
+title: Heuristics vs Hard Evidence in Context
 category: concepts
-tags: [context, user-state, codebase-state, ai-coding, windsurf, heuristics]
+tags:
+- context
+- user-state
+- codebase-state
+- ai-coding
+- windsurf
+- heuristics
 aliases:
-  - Heuristics and Hard Evidence Context
-  - Two Buckets of Context
+- Heuristics and Hard Evidence Context
+- Two Buckets of Context
 sources:
-  - "AIEF2025 - The Eyes Are The (Context) Window to The Soul: How Windsurf Gets to Know You — Sam Fertig, Windsurf - https://www.youtube.com/watch?v=jUv5WSPo9fk"
+- 'AIEF2025 - The Eyes Are The (Context) Window to The Soul: How Windsurf Gets to Know You — Sam Fertig, Windsurf - https://www.youtube.com/watch?v=jUv5WSPo9fk'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/context-philosophy-what-vs-how-much]]"
-    type: component-of
-  - target: "[[concepts/user-state-and-codebase-state]]"
-    type: relates_to
+- target: '[[concepts/context-philosophy-what-vs-how-much]]'
+  type: component-of
+- target: '[[concepts/user-state-and-codebase-state]]'
+  type: relates_to
+summary: Heuristics vs Hard Evidence in Context
 ---
 
 # Heuristics vs Hard Evidence in Context

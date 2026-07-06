@@ -1,33 +1,34 @@
 ---
-title: "Gemini 2.5 Pro"
+title: Gemini 2.5 Pro
 category: concepts
 tags:
-  - gemini
-  - google-deepmind
-  - llm
-  - benchmark
-  - aief2025
-  - model-update
-summary: "Google DeepMind's latest Gemini 2.5 Pro model update, announced at AIEF2025 as a comprehensive performance improvement across benchmarks based on developer feedback. Also featured in AI Diplomacy benchmark as a strong alliance-builder."
+- gemini
+- google-deepmind
+- llm
+- benchmark
+- aief2025
+- model-update
+summary: Google DeepMind's latest Gemini 2.5 Pro model update, announced at AIEF2025 as a comprehensive performance improvement across benchmarks based on developer feedback. Also featured in AI Diplomacy b...
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/gemini|Gemini]]"
-    type: extends
-  - target: "[[entities/google-deepmind|Google DeepMind]]"
-    type: related_to
-  - target: "[[concepts/model-benchmarks|Model Benchmarks]]"
-    type: related_to
-  - target: "[[concepts/ai-diplomacy|AI Diplomacy]]"
-    type: related_to
+- target: '[[entities/gemini|Gemini]]'
+  type: extends
+- target: '[[entities/google-deepmind|Google DeepMind]]'
+  type: related_to
+- target: '[[concepts/model-benchmarks|Model Benchmarks]]'
+  type: related_to
+- target: '[[concepts/ai-diplomacy|AI Diplomacy]]'
+  type: related_to
+sources: []
 ---
 
 # Gemini 2.5 Pro

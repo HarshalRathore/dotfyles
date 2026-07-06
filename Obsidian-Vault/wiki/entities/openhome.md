@@ -4,7 +4,7 @@ category: entities
 tags: [company, ai, smart-speaker, voice-ai, developer-platform, aief2025, hf0-residency]
 summary: "AI-driven smart speaker platform enabling developers to build custom voice AI applications. 10K+ developers, offering free dev kits. Presented at AIEF2025 HF0 Residency."
 sources:
-  - "[[sources/watchv=l8-5ezsoi5a]]"
+  - "https://www.youtube.com/watch?v=l8-5ezsoi5a"
 provenance:
   extracted: 0.95
   inferred: 0.05

@@ -1,24 +1,25 @@
 ---
-title: "The New Code — Sean Grove, OpenAI"
+title: The New Code — Sean Grove, OpenAI
 tags:
-  - reference
-  - talk
-  - ai-engineer
-  - specification
-  - alignment
-  - openai
+- reference
+- talk
+- ai-engineer
+- specification
+- alignment
+- openai
 sources:
-  - "[[sources/watchv=8rabwkrsec4]]"
-summary: "Sean Grove presents the case for specifications as the new code — arguing that written specifications capturing intent and values are the most valuable artifact in AI engineering, with the OpenAI Model Spec as a case study."
+- 'https://www.youtube.com/watch?v=8rabwkrsec4'
+summary: Sean Grove presents the case for specifications as the new code — arguing that written specifications capturing intent and values are the most valuable artifact in AI engineering, with the OpenAI M...
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.40
+base_confidence: 0.4
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: references
 ---
 
 # The New Code — Sean Grove, OpenAI

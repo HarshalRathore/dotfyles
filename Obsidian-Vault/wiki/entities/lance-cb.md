@@ -1,16 +1,16 @@
 ---
-title: "LanceCB"
+title: LanceCB
 tags:
-  - company
-  - ml-infrastructure
-  - data-tools
-  - machine-learning
-  - aief2025
+- company
+- ml-infrastructure
+- data-tools
+- machine-learning
+- aief2025
 aliases:
-  - LanceCB
+- LanceCB
 sources:
-  - "[[sources/watchv=w1mizchnkfa]]"
-summary: "Data tools company for ML and data science founded by Calvin Qi (Pandas co-author). Building tools for data that doesn't fit neatly into Pandas data frames."
+- 'https://www.youtube.com/watch?v=w1mizchnkfa'
+summary: Data tools company for ML and data science founded by Calvin Qi (Pandas co-author). Building tools for data that doesn't fit neatly into Pandas data frames.
 provenance:
   extracted: 0.9
   inferred: 0.1
@@ -21,10 +21,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/pandas|Pandas]]"
-    type: related_to
-  - target: "[[entities/lance-db|LanceDB]]"
-    type: related_to
+- target: '[[entities/pandas|Pandas]]'
+  type: related_to
+- target: '[[entities/lance-db|LanceDB]]'
+  type: related_to
+category: entities
 ---
 
 # LanceCB

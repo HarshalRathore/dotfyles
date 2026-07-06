@@ -1,18 +1,18 @@
 ---
-title: "AI Bubble Narrative"
+title: AI Bubble Narrative
 category: concepts
 tags:
-  - ai-bubble
-  - skepticism
-  - enterprise-ai
-  - media
+- ai-bubble
+- skepticism
+- enterprise-ai
+- media
 aliases:
-  - AI Bubble
-  - AI Hype Criticism
+- AI Bubble
+- AI Hype Criticism
 sources:
-  - "AIEF2025 - AI Consulting in Practice – NLW, Superintelligent, @AIDailyBrief - https://www.youtube.com/watch?v=ehQFj6VmuI8"
+- AIEF2025 - AI Consulting in Practice – NLW, Superintelligent, @AIDailyBrief - https://www.youtube.com/watch?v=ehQFj6VmuI8
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -22,10 +22,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/ai-spend-trends|AI Spend Trends]]"
-    type: contradicted-by
-  - target: "[[concepts/enterprise-ai-adoption|Enterprise AI Adoption]]"
-    type: contradicted-by
+- target: '[[concepts/ai-spend-trends|AI Spend Trends]]'
+  type: contradicted-by
+- target: '[[concepts/enterprise-ai-adoption|Enterprise AI Adoption]]'
+  type: contradicted-by
+summary: AI Bubble Narrative
 ---
 
 # AI Bubble Narrative

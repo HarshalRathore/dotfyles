@@ -1,32 +1,42 @@
 ---
-title: "AIEF2025 - Building a Smarter AI Agent with Neural RAG"
+title: AIEF2025 - Building a Smarter AI Agent with Neural RAG
 category: references
-tags: [aief2025, neural-rag, ai-native-search, embeddings, exa, will-bryk, search, llm-retrieval]
-aliases: [neural rag talk, will bryk exa talk]
-summary: "Will Bryk (Exa.ai) at AIEF2025: the case for AI-native search built from scratch with transformer embeddings, the information theory argument for why LLMs need search, and why human-optimized search engines are suboptimal for AI agents."
+tags:
+- aief2025
+- neural-rag
+- ai-native-search
+- embeddings
+- exa
+- will-bryk
+- search
+- llm-retrieval
+aliases:
+- neural rag talk
+- will bryk exa talk
+summary: 'Will Bryk (Exa.ai) at AIEF2025: the case for AI-native search built from scratch with transformer embeddings, the information theory argument for why LLMs need search, and why human-optimized searc...'
 sources:
-  - "AIEF2025 - Building a Smarter AI Agent with Neural RAG - Will Bryk, Exa.ai - https://www.youtube.com/watch?v=xnXqpUW_Kp8"
+- AIEF2025 - Building a Smarter AI Agent with Neural RAG - Will Bryk, Exa.ai - https://www.youtube.com/watch?v=xnXqpUW_Kp8
 provenance:
   extracted: 0.95
   inferred: 0.05
-  ambiguous: 0.00
-base_confidence: 0.90
+  ambiguous: 0.0
+base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/will-bryk]]"
-    type: authored_by
-  - target: "[[entities/exa]]"
-    type: about
-  - target: "[[concepts/neural-rag]]"
-    type: describes
-  - target: "[[concepts/ai-native-search]]"
-    type: describes
-  - target: "[[concepts/bitter-lesson]]"
-    type: applies
+- target: '[[entities/will-bryk]]'
+  type: authored_by
+- target: '[[entities/exa]]'
+  type: about
+- target: '[[concepts/neural-rag]]'
+  type: describes
+- target: '[[concepts/ai-native-search]]'
+  type: describes
+- target: '[[concepts/bitter-lesson]]'
+  type: applies
 ---
 
 # Building a Smarter AI Agent with Neural RAG

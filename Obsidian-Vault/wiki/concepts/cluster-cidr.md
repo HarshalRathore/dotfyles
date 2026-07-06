@@ -1,17 +1,26 @@
 ---
 type: concept
-title: "Cluster CIDR"
+title: Cluster CIDR
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/pods_c92b62]]"
+- '[[sources/pods_c92b62]]'
 tags:
-  - deployment
+- deployment
 aliases:
-  - "Cluster-wide Pod CIDR"
-  - Pod CIDR
+- Cluster-wide Pod CIDR
+- Pod CIDR
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Cluster CIDR
 ---
 # Cluster CIDR
 

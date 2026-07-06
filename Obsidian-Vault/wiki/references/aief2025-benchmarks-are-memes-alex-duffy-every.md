@@ -1,18 +1,18 @@
 ---
-title: "Benchmarks Are Memes: How What We Measure Shapes AI—and Us"
+title: 'Benchmarks Are Memes: How What We Measure Shapes AI—and Us'
 category: references
 tags:
-  - benchmark
-  - meme-theory
-  - evaluation
-  - llm
-  - aief2025
-  - benchmark-design
-  - model-personality
-  - ai-diplomacy
-summary: "Alex Duffy argues that benchmarks function as memes in the Dawkins sense — ideas that spread and shape the most powerful tool ever created. He proposes six design principles for future benchmarks and demonstrates with AI Diplomacy, a zero-luck negotiation game between LLMs."
+- benchmark
+- meme-theory
+- evaluation
+- llm
+- aief2025
+- benchmark-design
+- model-personality
+- ai-diplomacy
+summary: Alex Duffy argues that benchmarks function as memes in the Dawkins sense — ideas that spread and shape the most powerful tool ever created. He proposes six design principles for future benchmarks a...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.82
@@ -22,20 +22,21 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/model-benchmarks|Model Benchmarks]]"
-    type: extends
-  - target: "[[concepts/benchmark-memes|Benchmark Memes]]"
-    type: related_to
-  - target: "[[concepts/benchmark-design-principles|Benchmark Design Principles]]"
-    type: related_to
-  - target: "[[concepts/ai-diplomacy|AI Diplomacy]]"
-    type: related_to
-  - target: "[[entities/alex-duffy|Alex Duffy]]"
-    type: related_to
-  - target: "[[entities/openai|OpenAI]]"
-    type: related_to
-  - target: "[[entities/google-deepmind|Google DeepMind]]"
-    type: related_to
+- target: '[[concepts/model-benchmarks|Model Benchmarks]]'
+  type: extends
+- target: '[[concepts/benchmark-memes|Benchmark Memes]]'
+  type: related_to
+- target: '[[concepts/benchmark-design-principles|Benchmark Design Principles]]'
+  type: related_to
+- target: '[[concepts/ai-diplomacy|AI Diplomacy]]'
+  type: related_to
+- target: '[[entities/alex-duffy|Alex Duffy]]'
+  type: related_to
+- target: '[[entities/openai|OpenAI]]'
+  type: related_to
+- target: '[[entities/google-deepmind|Google DeepMind]]'
+  type: related_to
+sources: []
 ---
 
 # Benchmarks Are Memes: How What We Measure Shapes AI—and Us

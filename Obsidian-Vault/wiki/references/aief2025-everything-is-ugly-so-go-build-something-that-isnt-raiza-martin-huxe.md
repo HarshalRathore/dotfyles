@@ -1,10 +1,21 @@
 ---
 title: AIEF2025 - Everything is ugly, so go build something that isn't — Raiza Martin, Huxe (ex NotebookLM)
 category: references
-tags: [aief2025, product, ai, talk, raiza-martin, huxe, notebooklm]
-summary: Raiza Martin's talk at the AI Engineer World's Fair 2025 on why all current products are at their ugliest point ever, the multi-layer cake model of product building, and personal clarity as the foundation of forceful product creation.
-sources: ["AIEF2025 - Everything is ugly, so go build something that isn't — Raiza Martin, Huxe (ex NotebookLM) - https://www.youtube.com/watch?v=yG5d5UaGz1M"]
-provenance: {extracted: 0.85, inferred: 0.15, ambiguous: 0.0}
+tags:
+- aief2025
+- product
+- ai
+- talk
+- raiza-martin
+- huxe
+- notebooklm
+summary: Raiza Martin's talk at the AI Engineer World's Fair 2025 on why all current products are at their ugliest point ever, the multi-layer cake model of product building, and personal clarity as the fou...
+sources:
+- AIEF2025 - Everything is ugly, so go build something that isn't — Raiza Martin, Huxe (ex NotebookLM) - https://www.youtube.com/watch?v=yG5d5UaGz1M
+provenance:
+  extracted: 0.85
+  inferred: 0.15
+  ambiguous: 0.0
 base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-05
@@ -12,22 +23,22 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/raiza-martin]]"
-    type: related_to
-  - target: "[[entities/notebooklm]]"
-    type: related_to
-  - target: "[[entities/huxe]]"
-    type: related_to
-  - target: "[[concepts/product-multi-layer-cake]]"
-    type: related_to
-  - target: "[[concepts/personal-clarity]]"
-    type: related_to
-  - target: "[[concepts/consumer-unrest]]"
-    type: related_to
-  - target: "[[concepts/forceful-product-building]]"
-    type: related_to
-  - target: "[[concepts/ai-product-rebuilding-wave]]"
-    type: related_to
+- target: '[[entities/raiza-martin]]'
+  type: related_to
+- target: '[[entities/notebooklm]]'
+  type: related_to
+- target: '[[entities/huxe]]'
+  type: related_to
+- target: '[[concepts/product-multi-layer-cake]]'
+  type: related_to
+- target: '[[concepts/personal-clarity]]'
+  type: related_to
+- target: '[[concepts/consumer-unrest]]'
+  type: related_to
+- target: '[[concepts/forceful-product-building]]'
+  type: related_to
+- target: '[[concepts/ai-product-rebuilding-wave]]'
+  type: related_to
 ---
 
 ## Talk Summary

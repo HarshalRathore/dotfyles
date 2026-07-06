@@ -3,7 +3,8 @@ title: Agent Deployment Challenges
 category: concepts
 tags: [agent-deployment, serverless, timeouts, statefulness, gateway, agent-infrastructure]
 aliases: [agent deployment problems, agent deployment headaches]
-summary: The core challenges of deploying AI agents in production: serverless timeouts, statefulness mismatches with web architecture, and inter-agent gateway wiring complexity.
+summary: >-
+  The core challenges of deploying AI agents in production: serverless timeouts, statefulness mismatches with web architecture, and inter-agent gateway wiring complexity.
 sources:
   - "AIEF2025 - Conquering Agent Chaos — Rick Blalock, Agentuity - https://www.youtube.com/watch?v=yASxPZ-tZe0"
 provenance:

@@ -1,24 +1,33 @@
 ---
-title: "Model Agency"
+title: Model Agency
 category: concepts
-tags: [model-agency, mcp, agent-architecture, llm-tools, context-integration, ai-agents]
-summary: "The concept that language models should be able to interact with the outside world — reaching beyond their context window to access real-time data, tools, and actions. The foundational problem MCP was designed to solve."
+tags:
+- model-agency
+- mcp
+- agent-architecture
+- llm-tools
+- context-integration
+- ai-agents
+summary: The concept that language models should be able to interact with the outside world — reaching beyond their context window to access real-time data, tools, and actions. The foundational problem MCP...
 sources:
-  - "AIEF2025 - MCP: Origins and Requests For Startups — Theodora Chu, Model Context Protocol PM, Anthropic - https://www.youtube.com/watch?v=x-8pBqWiTzk"
-provenance: { extracted: 0.80, inferred: 0.15, ambiguous: 0.05 }
+- 'AIEF2025 - MCP: Origins and Requests For Startups — Theodora Chu, Model Context Protocol PM, Anthropic - https://www.youtube.com/watch?v=x-8pBqWiTzk'
+provenance:
+  extracted: 0.8
+  inferred: 0.15
+  ambiguous: 0.05
 base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
-created: 2026-07-05T00:00:00Z
-updated: 2026-07-05T00:00:00Z
+created: 2026-07-05 00:00:00+00:00
+updated: 2026-07-05 00:00:00+00:00
 relationships:
-  - target: "[[concepts/mcp|Model Context Protocol]]"
-    type: extends
-  - target: "[[concepts/agent-loop|Agent Loop]]"
-    type: related_to
-  - target: "[[concepts/agent-autonomy|Agent Autonomy]]"
-    type: related_to
+- target: '[[concepts/mcp|Model Context Protocol]]'
+  type: extends
+- target: '[[concepts/agent-loop|Agent Loop]]'
+  type: related_to
+- target: '[[concepts/agent-autonomy|Agent Autonomy]]'
+  type: related_to
 ---
 
 # Model Agency

@@ -8,7 +8,7 @@ relationships:
     type: extends
   - target: "[[concepts/supervised-fine-tuning]]"
     type: related_to
-sources: ["[[sources/aief2025-rft]]", "[[sources/dpo]]", "[[sources/sft-fine-tuning-with-openai-—-ilan-bigio]]", "[[sources/watchv=jfalqqfxqpa]]"]
+sources: ["[[sources/aief2025-rft]]", "[[sources/dpo]]", "[[sources/sft-fine-tuning-with-openai-—-ilan-bigio]]", "https://www.youtube.com/watch?v=jfalqqfxqpa"]
 summary: "Actionable best practices for fine-tuning models: always start with prompting, run evals, use diverse data, handle overfitting, include context in training, and begin with the biggest model."
 provenance:
   extracted: 0.75

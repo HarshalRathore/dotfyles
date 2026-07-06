@@ -1,16 +1,25 @@
 ---
 type: concept
-title: "Environment Variables in Pods"
+title: Environment Variables in Pods
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/env-configmaps-&-secrets_9586ac]]"
+- '[[sources/env-configmaps-&-secrets_9586ac]]'
 tags:
-  - deployment
+- deployment
 aliases:
-  - env field
+- env field
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Environment Variables in Pods
 ---
 # Environment Variables in Pods
 

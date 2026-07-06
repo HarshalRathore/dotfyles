@@ -1,35 +1,36 @@
 ---
-title: "AI-Era Talent Competition"
+title: AI-Era Talent Competition
 category: concepts
 tags:
-  - hiring
-  - talent-war
-  - ai-engineering
-  - competition
-  - recruitment
+- hiring
+- talent-war
+- ai-engineering
+- competition
+- recruitment
 aliases:
-  - talent war AI era
-  - competing for AI engineers
-  - AI talent competition
+- talent war AI era
+- competing for AI engineers
+- AI talent competition
 sources:
-  - "AIEF2025 - How to Hire AI Engineers when EVERYONE is cheating with AI — Beth Glenfield, DevDay - https://www.youtube.com/watch?v=Zqu0VaJw3vo"
+- AIEF2025 - How to Hire AI Engineers when EVERYONE is cheating with AI — Beth Glenfield, DevDay - https://www.youtube.com/watch?v=Zqu0VaJw3vo
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/ai-hiring-trade-offs|AI Hiring Trade-offs]]"
-    type: related_to
-  - target: "[[concepts/enterprise-ai-productivity-paradox|Enterprise AI Productivity Paradox]]"
-    type: related_to
-  - target: "[[concepts/employee-vs-enterprise-productivity|Employee vs Enterprise Productivity]]"
-    type: related_to
+- target: '[[concepts/ai-hiring-trade-offs|AI Hiring Trade-offs]]'
+  type: related_to
+- target: '[[concepts/enterprise-ai-productivity-paradox|Enterprise AI Productivity Paradox]]'
+  type: related_to
+- target: '[[concepts/employee-vs-enterprise-productivity|Employee vs Enterprise Productivity]]'
+  type: related_to
+summary: AI-Era Talent Competition
 ---
 
 # AI-Era Talent Competition

@@ -1,21 +1,21 @@
 ---
-title: "SweeTask Benchmark"
+title: SweeTask Benchmark
 category: concepts
 tags:
-  - benchmark
-  - eval
-  - windsurf
-  - sweeone
-  - software-engineering
-  - aief2025
-summary: "Windsurf's conversational benchmark for evaluating AI models on mid-workflow assistance — testing how well a model helps when dropped into an existing conversation or partially completed task, measuring helpfulness, efficiency, and correctness."
+- benchmark
+- eval
+- windsurf
+- sweeone
+- software-engineering
+- aief2025
+summary: Windsurf's conversational benchmark for evaluating AI models on mid-workflow assistance — testing how well a model helps when dropped into an existing conversation or partially completed task, meas...
 sources:
-  - "[[sources/watchv=jvunpl5qo8q]]"
+- 'https://www.youtube.com/watch?v=jvunpl5qo8q'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.07
   ambiguous: 0.03
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting

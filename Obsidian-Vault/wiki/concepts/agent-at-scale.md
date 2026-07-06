@@ -1,30 +1,31 @@
 ---
-title: "Agent at Scale"
+title: Agent at Scale
 tags:
-  - ai-agents
-  - cloud-scale
-  - aws
-  - performance
+- ai-agents
+- cloud-scale
+- aws
+- performance
 sources:
-  - "AIEF2025 - Building Agents at Cloud Scale — Antje Barth, AWS - https://www.youtube.com/watch?v=WJjInLeaJjo"
-summary: "Patterns and considerations for deploying AI agents at massive scale — demonstrated by AWS with 600M+ Alexa devices, 1000+ GenAI applications, and hundreds of expert systems coordinating across tens of thousands of partner services."
+- AIEF2025 - Building Agents at Cloud Scale — Antje Barth, AWS - https://www.youtube.com/watch?v=WJjInLeaJjo
+summary: Patterns and considerations for deploying AI agents at massive scale — demonstrated by AWS with 600M+ Alexa devices, 1000+ GenAI applications, and hundreds of expert systems coordinating across ten...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/alexa|Alexa]]"
-    type: implements
-  - target: "[[entities/aws|AWS]]"
-    type: related_to
-  - target: "[[concepts/agentic-services|Agentic Services]]"
-    type: extends
+- target: '[[entities/alexa|Alexa]]'
+  type: implements
+- target: '[[entities/aws|AWS]]'
+  type: related_to
+- target: '[[concepts/agentic-services|Agentic Services]]'
+  type: extends
+category: concepts
 ---
 # Agent at Scale
 

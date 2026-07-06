@@ -1,30 +1,31 @@
 ---
-title: "PITA Dev"
+title: PITA Dev
 category: concepts
 tags:
-  - software-culture
-  - code-review
-  - ai-coding
-  - engineering-culture
-  - over-engineering
+- software-culture
+- code-review
+- ai-coding
+- engineering-culture
+- over-engineering
 sources:
-  - "[[sources/watchv=jv-wy5pxxlo]]"
+- 'https://www.youtube.com/watch?v=jv-wy5pxxlo'
 relationships:
-  - target: "[[concepts/vibe-engineering]]"
-    type: contradicts
-  - target: "[[concepts/code-review-primary-skill]]"
-    type: related_to
-  - target: "[[concepts/simple-is-better-ai]]"
-    type: related_to
+- target: '[[concepts/vibe-engineering]]'
+  type: contradicts
+- target: '[[concepts/code-review-primary-skill]]'
+  type: related_to
+- target: '[[concepts/simple-is-better-ai]]'
+  type: related_to
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: PITA Dev
 ---
 
 # PITA Dev

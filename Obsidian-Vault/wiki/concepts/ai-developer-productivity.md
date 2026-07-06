@@ -1,20 +1,20 @@
 ---
-title: "AI Developer Productivity"
+title: AI Developer Productivity
 category: concepts
 tags:
-  - ai
-  - productivity
-  - software-engineering
-  - developer-tools
-  - measurement
+- ai
+- productivity
+- software-engineering
+- developer-tools
+- measurement
 aliases:
-  - AI Developer Productivity
-  - AI Impact on Developer Productivity
+- AI Developer Productivity
+- AI Impact on Developer Productivity
 sources:
-  - "AIEF2025 - Does AI Actually Boost Developer Productivity? (100k Devs Study) - Yegor Denisov-Blanch, Stanford - https://www.youtube.com/watch?v=tbDDYKRFjhk"
-summary: "AI coding tools produce a 15-20% net productivity boost but 30-40% raw output increase, with significant rework costs. AI is not a one-size-fits-all solution — it decreases productivity in some cases and should not be used everywhere."
+- AIEF2025 - Does AI Actually Boost Developer Productivity? (100k Devs Study) - Yegor Denisov-Blanch, Stanford - https://www.youtube.com/watch?v=tbDDYKRFjhk
+summary: AI coding tools produce a 15-20% net productivity boost but 30-40% raw output increase, with significant rework costs. AI is not a one-size-fits-all solution — it decreases productivity in some cas...
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.75
@@ -24,14 +24,14 @@ tier: core
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/ai-productivity-measurement|AI Productivity Measurement]]"
-    type: related_to
-  - target: "[[concepts/rework-vs-refactoring|Rework vs Refactoring]]"
-    type: related_to
-  - target: "[[concepts/greenfield-vs-brownfield|Greenfield vs Brownfield]]"
-    type: related_to
-  - target: "[[concepts/commit-based-metrics-limitations|Commit-Based Metrics Limitations]]"
-    type: related_to
+- target: '[[concepts/ai-productivity-measurement|AI Productivity Measurement]]'
+  type: related_to
+- target: '[[concepts/rework-vs-refactoring|Rework vs Refactoring]]'
+  type: related_to
+- target: '[[concepts/greenfield-vs-brownfield|Greenfield vs Brownfield]]'
+  type: related_to
+- target: '[[concepts/commit-based-metrics-limitations|Commit-Based Metrics Limitations]]'
+  type: related_to
 ---
 
 # AI Developer Productivity

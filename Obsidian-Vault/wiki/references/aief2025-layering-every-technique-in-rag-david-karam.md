@@ -1,21 +1,21 @@
 ---
-title: "AIEF2025 - Layering every technique in RAG, one query at a time — David Karam, Pi Labs"
+title: AIEF2025 - Layering every technique in RAG, one query at a time — David Karam, Pi Labs
 category: references
 tags:
-  - aief2025
-  - talk
-  - rag
-  - retrieval
-  - bm25
-  - embeddings
-  - re-ranking
-  - quality-engineering
+- aief2025
+- talk
+- rag
+- retrieval
+- bm25
+- embeddings
+- re-ranking
+- quality-engineering
 aliases:
-  - layering-every-technique-in-rag
+- layering-every-technique-in-rag
 sources:
-  - "AIEF2025 - Layering every technique in RAG, one query at a time — David Karam, Pi Labs (fmr. Google Search) - https://www.youtube.com/watch?v=w9u11ioHGA0"
+- AIEF2025 - Layering every technique in RAG, one query at a time — David Karam, Pi Labs (fmr. Google Search) - https://www.youtube.com/watch?v=w9u11ioHGA0
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.85
@@ -25,18 +25,19 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/david-karam|David Karam]]"
-    type: authored_by
-  - target: "[[entities/pi-labs|Pi Labs]]"
-    type: presented_by
-  - target: "[[entities/aief2025|AIEF2025]]"
-    type: presented_at
-  - target: "[[concepts/rag-pipeline-architecture|RAG Pipeline Architecture]]"
-    type: related_to
-  - target: "[[concepts/re-ranking|Re-ranking]]"
-    type: related_to
-  - target: "[[concepts/embedding-models|Embedding Models]]"
-    type: related_to
+- target: '[[entities/david-karam|David Karam]]'
+  type: authored_by
+- target: '[[entities/pi-labs|Pi Labs]]'
+  type: presented_by
+- target: '[[entities/aief2025|AIEF2025]]'
+  type: presented_at
+- target: '[[concepts/rag-pipeline-architecture|RAG Pipeline Architecture]]'
+  type: related_to
+- target: '[[concepts/re-ranking|Re-ranking]]'
+  type: related_to
+- target: '[[concepts/embedding-models|Embedding Models]]'
+  type: related_to
+summary: AIEF2025 - Layering every technique in RAG, one query at a time
 ---
 
 # AIEF2025 - Layering every technique in RAG, one query at a time

@@ -4,9 +4,9 @@ category: concepts
 tags: [ai-reliability, production-ai, agent-reliability, inference-cost, practical-ai, domain-native, healthcare-ai]
 summary: "The thesis that AI companies should prioritize reliability for boring tasks over marginal intelligence gains, because 99.9% reliable models for common tasks unlock billion-dollar applications."
 sources:
-  - "[[sources/watchv=l8-5ezsoi5a]]"
-  - "[[sources/watchv=mc55hdwlq4o]]"
-  - "[[sources/watchv=mrm7oa3jsfs]]"
+  - "https://www.youtube.com/watch?v=l8-5ezsoi5a"
+  - "https://www.youtube.com/watch?v=mc55hdwlq4o"
+  - "https://www.youtube.com/watch?v=mrm7oa3jsfs"
 provenance:
   extracted: 0.7
   inferred: 0.3

@@ -1,17 +1,26 @@
 ---
 type: concept
-title: "DefaultStorageClass"
+title: DefaultStorageClass
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/admission-controllers_7667fc]]"
+- '[[sources/admission-controllers_7667fc]]'
 tags:
-  - deployment
+- deployment
 aliases:
-  - Default StorageClass
-  - Default SC
+- Default StorageClass
+- Default SC
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: DefaultStorageClass
 ---
 # DefaultStorageClass
 

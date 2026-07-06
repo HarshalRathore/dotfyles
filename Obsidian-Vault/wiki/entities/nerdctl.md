@@ -1,17 +1,25 @@
 ---
-summary: "> - 'nerdctl (Docker-like Containerd client) — '"
+summary: '> - ''nerdctl (Docker-like Containerd client) — '''
 type: entity
-title: "Nerdctl"
+title: Nerdctl
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/containerd-cri-etc_fb87d8]]"
+- '[[sources/containerd-cri-etc_fb87d8]]'
 tags:
-  - product
+- product
 aliases:
-  - "nerdctl command-line tool"
+- nerdctl command-line tool
+category: entities
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
 ---
 ## Related Entities
 - [[entities/containerd]]

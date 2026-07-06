@@ -1,34 +1,35 @@
 ---
-title: "Reasoning Models for Failure Analysis"
+title: Reasoning Models for Failure Analysis
 category: concepts
 tags:
-  - reasoning-models
-  - failure-analysis
-  - debugging
-  - ai-agents
-  - llm-as-judge
+- reasoning-models
+- failure-analysis
+- debugging
+- ai-agents
+- llm-as-judge
 aliases:
-  - LLM failure explanation
-  - reasoning models for debugging
+- LLM failure explanation
+- reasoning models for debugging
 sources:
-  - "AIEF2025 - Turning Fails into Features: Zapier's Hard-Won Eval Lessons — Rafal Willinski, Vitor Balocco, Zapier - https://www.youtube.com/watch?v=blrovBxxN9o"
+- 'AIEF2025 - Turning Fails into Features: Zapier''s Hard-Won Eval Lessons — Rafal Willinski, Vitor Balocco, Zapier - https://www.youtube.com/watch?v=blrovBxxN9o'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/llm-as-judge|LLM as Judge]]"
-    type: extends
-  - target: "[[concepts/llm-ops-tooling|LLM Ops Tooling]]"
-    type: used-by
-  - target: "[[concepts/reasoning-models|Reasoning Models]]"
-    type: uses
+- target: '[[concepts/llm-as-judge|LLM as Judge]]'
+  type: extends
+- target: '[[concepts/llm-ops-tooling|LLM Ops Tooling]]'
+  type: used-by
+- target: '[[concepts/reasoning-models|Reasoning Models]]'
+  type: uses
+summary: Reasoning Models for Failure Analysis
 ---
 
 # Reasoning Models for Failure Analysis

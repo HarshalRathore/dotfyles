@@ -1,25 +1,32 @@
 ---
 title: Amazon Titan
 category: entities
-tags: [aws, embeddings, multimodal-embeddings, titan-embeddings, vector-search, amazon-nova]
-summary: "Amazon's family of foundation models including Titan embeddings — multimodal embedding models that create shared spaces for text and image embeddings, enabling cross-modal search."
+tags:
+- aws
+- embeddings
+- multimodal-embeddings
+- titan-embeddings
+- vector-search
+- amazon-nova
+summary: Amazon's family of foundation models including Titan embeddings — multimodal embedding models that create shared spaces for text and image embeddings, enabling cross-modal search.
 provenance:
   extracted: 0.85
   inferred: 0.15
-  ambiguous: 0.00
-base_confidence: 0.80
+  ambiguous: 0.0
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/aws]]"
-    type: implements
-  - target: "[[entities/amazon-nova]]"
-    type: related_to
-  - target: "[[concepts/multimodal-embedding]]"
-    type: related_to
+- target: '[[entities/aws]]'
+  type: implements
+- target: '[[entities/amazon-nova]]'
+  type: related_to
+- target: '[[concepts/multimodal-embedding]]'
+  type: related_to
+sources: []
 ---
 
 **Amazon Titan** is AWS's family of foundation models, including text, image, and **multimodal embedding models**. The Titan V2 multimodal embeddings are specifically designed to create shared embedding spaces where text and image embeddings can be compared directly.

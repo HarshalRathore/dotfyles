@@ -1,33 +1,26 @@
 ---
-title: "Braintrust Proxy"
+title: Braintrust Proxy
 category: concepts
 tags:
-  - braintrust
-  - model-agnostic
-  - proxy
-  - model-switching
-  - production-ai
-  - aief2025
+- braintrust
+- model-agnostic
+- proxy
+- model-switching
+- production-ai
+- aief2025
 sources:
-  - "AIEF2025 - Five hard earned lessons about Evals — Ankur Goyal, Braintrust - https://www.youtube.com/watch?v=a4BV0gGmXgA"
-summary: "A proxy layer that enables switching between model providers without changing application code. Supports model-agnostic evaluation so new models can be tested with minimal friction.
+- AIEF2025 - Five hard earned lessons about Evals — Ankur Goyal, Braintrust - https://www.youtube.com/watch?v=a4BV0gGmXgA
+summary: A proxy layer that enables switching between model providers without changing application code. Supports model-agnostic evaluation so new models can be tested with minimal friction.
 provenance:
-  extracted: 0.90
-  inferred: 0.10
-  ambiguous: 0.00
-base_confidence: 0.80
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+base_confidence: 0.42
 lifecycle: draft
-lifecycle_changed: 2026-07-04
+lifecycle_changed: '2026-07-06'
 tier: supporting
-created: 2026-07-04
-updated: 2026-07-04
-relationships:
-  - target: "[[concepts/ambitious-evals-for-future-models|Ambitious Evals for Future Models]]"
-    type: enables
-  - target: "[[concepts/model-picking|Model Picking]]"
-    type: relates_to
-  - target: "[[concepts/braintrust|Braintrust]]"
-    type: part_of
+created: '2026-07-04'
+updated: '2026-07-04'
 ---
 
 # Braintrust Proxy
@@ -54,4 +47,4 @@ The proxy pattern is not unique to Braintrust — similar tools exist across the
 
 - [[concepts/ambitious-evals-for-future-models|Ambitious Evals for Future Models]] — The practice the proxy enables
 - [[concepts/model-picking|Model Picking]] — Evaluating and selecting models
-- [[concepts/braintrust|Braintrust]] — The platform that provides the proxy
+- [[entities/braintrust|Braintrust]] — The platform that provides the proxy

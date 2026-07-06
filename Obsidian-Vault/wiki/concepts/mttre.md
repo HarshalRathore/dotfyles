@@ -1,24 +1,28 @@
 ---
-title: "MT-T-R-E (Mean Time to Resolve Explainable Errors)"
+title: MT-T-R-E (Mean Time to Resolve Explainable Errors)
 tags:
-  - concept
-  - ai
-  - metric
-  - reliability
-  - operations
-aliases: [mean time to resolve explainable errors, MT-T-R-E, MTTRE]
+- concept
+- ai
+- metric
+- reliability
+- operations
+aliases:
+- mean time to resolve explainable errors
+- MT-T-R-E
+- MTTRE
 sources:
-  - "[[sources/watchv=6tpm4m1yxhk]]"
-summary: "A metric measuring how quickly teams can understand why an unexpected AI behavior happened and deploy a fix. Faster MT-T-R-E correlates with more agile teams, fewer defects, and quicker problem resolution."
+- 'https://www.youtube.com/watch?v=6tpm4m1yxhk'
+summary: A metric measuring how quickly teams can understand why an unexpected AI behavior happened and deploy a fix. Faster MT-T-R-E correlates with more agile teams, fewer defects, and quicker problem res...
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # MT-T-R-E (Mean Time to Resolve Explainable Errors)

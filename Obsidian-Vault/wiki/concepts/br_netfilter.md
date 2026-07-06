@@ -1,17 +1,23 @@
 ---
 summary: br_netfilter is a Linux kernel module required for Kubernetes networking to allow iptables to inspect container traffic.
 type: concept
-title: "Br Netfilter"
+title: Br Netfilter
 created:
-  - "2026-06-30"
+- '2026-06-30'
 updated:
-  - "2026-06-30"
+- '2026-06-30'
 lifecycle: draft
 base_confidence: 0.75
 sources:
-  - "[[sources/install-kubernetes-components_c70e92]]"
-  - "[[sources/manual-notes_10b5c5]]"
-
+- '[[sources/install-kubernetes-components_c70e92]]'
+- '[[sources/manual-notes_10b5c5]]'
+category: concepts
+tags: []
+tier: supporting
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
 ---
 ## Related Concepts
 - [[concepts/container-runtime]]

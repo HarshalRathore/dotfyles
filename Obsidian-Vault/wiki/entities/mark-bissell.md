@@ -1,22 +1,23 @@
 ---
-title: "Mark Bissell"
+title: Mark Bissell
 tags:
-  - person
-  - ai
-  - interpretability
-  - speaker
+- person
+- ai
+- interpretability
+- speaker
 sources:
-  - "[[sources/watchv=6avmhzpjptq]]"
-summary: "Member of Technical Staff at Goodfire AI specializing in mechanistic interpretability. Previously spent three years on Palantir's healthcare team building reliable AI systems for mission-critical contexts."
+- 'https://www.youtube.com/watch?v=6avmhzpjptq'
+summary: Member of Technical Staff at Goodfire AI specializing in mechanistic interpretability. Previously spent three years on Palantir's healthcare team building reliable AI systems for mission-critical c...
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Mark Bissell

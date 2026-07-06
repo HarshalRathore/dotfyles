@@ -4,7 +4,7 @@ category: concepts
 tags: [domain-intelligence, ai-system-design, pipeline-improvement, domain-expertise, vertical-ai, ai-architecture]
 summary: "A two-part system (measurement + improvement) that converts customer-specific domain insights into measurable AI pipeline performance improvements. Central to building domain-native LLM applications."
 sources:
-  - "[[sources/watchv=mrm7oa3jsfs]]"
+  - "https://www.youtube.com/watch?v=mrm7oa3jsfs"
 provenance:
   extracted: 0.85
   inferred: 0.15

@@ -1,16 +1,22 @@
 ---
-summary: "`requiredDuringSchedulingIgnoredDuringExecution` is the primary implementation of a '"
+summary: '`requiredDuringSchedulingIgnoredDuringExecution` is the primary implementation of a '''
 type: concept
-title: "Requiredduringschedulingignoredduringexecution"
+title: Requiredduringschedulingignoredduringexecution
 created:
-  - "2026-06-30"
+- '2026-06-30'
 updated:
-  - "2026-06-30"
+- '2026-06-30'
 lifecycle: draft
 base_confidence: 0.75
 sources:
-  - "[[sources/nodeselector-&-nodeaffinity_5d8764]]"
-
+- '[[sources/nodeselector-&-nodeaffinity_5d8764]]'
+category: concepts
+tags: []
+tier: supporting
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
 ---
 ## Description
 `requiredDuringSchedulingIgnoredDuringExecution` is the primary implementation of a "

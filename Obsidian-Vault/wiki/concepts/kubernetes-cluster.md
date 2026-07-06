@@ -1,17 +1,26 @@
 ---
 type: concept
-title: "Kubernetes Cluster"
+title: Kubernetes Cluster
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/introduction_804367]]"
+- '[[sources/introduction_804367]]'
 tags:
-  - deployment
+- deployment
 aliases:
-  - cluster
-  - "self-managed Kubernetes cluster"
+- cluster
+- self-managed Kubernetes cluster
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Kubernetes Cluster
 ---
 # Kubernetes Cluster
 

@@ -1,29 +1,30 @@
 ---
-title: "Cluey"
+title: Cluey
 category: entities
 tags:
-  - company
-  - hiring
-  - ai-cheating
-  - recruitment
-  - ai-tools
+- company
+- hiring
+- ai-cheating
+- recruitment
+- ai-tools
 aliases:
-  - Cluey
+- Cluey
 sources:
-  - "AIEF2025 - How to Hire AI Engineers when EVERYONE is cheating with AI — Beth Glenfield, DevDay - https://www.youtube.com/watch?v=Zqu0VaJw3vo"
+- AIEF2025 - How to Hire AI Engineers when EVERYONE is cheating with AI — Beth Glenfield, DevDay - https://www.youtube.com/watch?v=Zqu0VaJw3vo
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/ai-cheating-technical-interviews|AI Cheating in Technical Interviews]]"
-    type: implements
+- target: '[[concepts/ai-cheating-technical-interviews|AI Cheating in Technical Interviews]]'
+  type: implements
+summary: Cluey
 ---
 
 # Cluey

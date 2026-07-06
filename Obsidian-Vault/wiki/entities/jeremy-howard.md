@@ -15,7 +15,7 @@ relationships:
   - target: "[[concepts/small-ai-teams|Small AI Teams with Huge Impact]]"
     type: related_to
 sources:
-  - "[[sources/watchv=k-iykdmfkhe]]"
+  - "https://www.youtube.com/watch?v=k-iykdmfkhe"
 summary: "Entrepreneur and AI researcher who founded Answer AI. Advocates for teams of fewer than 15 generalists, simple technology, and AI-filled edges. His philosophy directly influenced Datalab's approach."
 provenance:
   extracted: 0.90

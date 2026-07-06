@@ -1,25 +1,26 @@
 ---
-title: "Computer-Use Agents"
+title: Computer-Use Agents
 tags:
-  - concept
-  - agents
-  - ai
+- concept
+- agents
+- ai
 aliases:
-  - computer use agents
-  - UI agents
-  - visual grounding agents
+- computer use agents
+- UI agents
+- visual grounding agents
 sources:
-  - "[[sources/watchv=dj0b_cebhhi]]"
-summary: "Agents that interact with visual interfaces (pixels, UIs) like humans do — using the browser as their environment, trained to be good at UI navigation and interaction. Distinct from LLM wrappers that function as read-only assistants."
+- 'https://www.youtube.com/watch?v=dj0b_cebhhi'
+summary: Agents that interact with visual interfaces (pixels, UIs) like humans do — using the browser as their environment, trained to be good at UI navigation and interaction. Distinct from LLM wrappers th...
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Computer-Use Agents

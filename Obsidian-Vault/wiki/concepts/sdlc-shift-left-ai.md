@@ -1,21 +1,21 @@
 ---
-title: "SDLC Shift-Left AI"
+title: SDLC Shift-Left AI
 category: concepts
 tags:
-  - sdlc
-  - shift-left
-  - aief2025
-  - itamar-friedman
-  - qodo
-  - code-review
-  - testing
-  - agentic-workflows
-summary: The V-shape model of SDLC executability and the argument for shifting review and testing left — so developers get feedback as they write code rather than after pushing. Requires agentic workflows where agents talk to each other.
+- sdlc
+- shift-left
+- aief2025
+- itamar-friedman
+- qodo
+- code-review
+- testing
+- agentic-workflows
+summary: The V-shape model of SDLC executability and the argument for shifting review and testing left — so developers get feedback as they write code rather than after pushing. Requires agentic workflows w...
 sources:
-  - "AIEF2025 - Vibe Coding with Confidence — Itamar Friedman, Qodo - https://www.youtube.com/watch?v=n991Yxo1aOI"
+- AIEF2025 - Vibe Coding with Confidence — Itamar Friedman, Qodo - https://www.youtube.com/watch?v=n991Yxo1aOI
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.75
 lifecycle: draft
@@ -24,12 +24,12 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/vibe-coding-with-confidence|Vibe Coding with Confidence]]"
-    type: enables
-  - target: "[[concepts/agent-to-agent-communication|Agent-to-Agent Communication]]"
-    type: requires
-  - target: "[[concepts/agent-workflows|Agent Workflows]]"
-    type: implements
+- target: '[[concepts/vibe-coding-with-confidence|Vibe Coding with Confidence]]'
+  type: enables
+- target: '[[concepts/agent-to-agent-communication|Agent-to-Agent Communication]]'
+  type: requires
+- target: '[[concepts/agent-workflows|Agent Workflows]]'
+  type: implements
 ---
 
 # SDLC Shift-Left AI

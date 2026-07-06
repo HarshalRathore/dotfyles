@@ -4,7 +4,7 @@ category: references
 tags: [scaling-laws, power-law, llm, google, 2020, compute-data-parameter-tradeoff]
 aliases: [scaling laws, scaling law, power law LLM, 2020 scaling paper]
 sources:
-  - "[[sources/watchv=qludzkvfp6a]]"
+  - "https://www.youtube.com/watch?v=qludzkvfp6a"
 summary: "The 2020 breakthrough paper establishing power law relationships between test loss and compute/data/parameters in transformer models. Bigger models generalize across domains."
 provenance:
   extracted: 0.85

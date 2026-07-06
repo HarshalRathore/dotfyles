@@ -1,16 +1,18 @@
 ---
-title: "Connections Game"
+title: Connections Game
 tags:
-  - word-game
-  - puzzle
-  - new-york-times
-  - nlp-benchmark
-  - daily-puzzle
-  - abstract-reasoning
-aliases: [Connections, NYT Connections]
+- word-game
+- puzzle
+- new-york-times
+- nlp-benchmark
+- daily-puzzle
+- abstract-reasoning
+aliases:
+- Connections
+- NYT Connections
 sources:
-  - "[[sources/watchv=p_uhfgh4j9y]]"
-summary: "NYT daily puzzle grouping 16 words into 4 categories of 4. Second-most-played NYT game with hundreds of millions of plays. Used as a reproducible LLM benchmark."
+- 'https://www.youtube.com/watch?v=p_uhfgh4j9y'
+summary: NYT daily puzzle grouping 16 words into 4 categories of 4. Second-most-played NYT game with hundreds of millions of plays. Used as a reproducible LLM benchmark.
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -21,16 +23,17 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/nyt-games]]"
-    type: published_by
-  - target: "[[entities/shafik-quoraishee]]"
-    type: analyzed_by
-  - target: "[[concepts/graph-coloring]]"
-    type: modeled_as
-  - target: "[[concepts/system-1-system-2-thinking]]"
-    type: solved_using
-  - target: "[[entities/wordle]]"
-    type: compared_to
+- target: '[[entities/nyt-games]]'
+  type: published_by
+- target: '[[entities/shafik-quoraishee]]'
+  type: analyzed_by
+- target: '[[concepts/graph-coloring]]'
+  type: modeled_as
+- target: '[[concepts/system-1-system-2-thinking]]'
+  type: solved_using
+- target: '[[entities/wordle]]'
+  type: compared_to
+category: concepts
 ---
 
 # Connections Game

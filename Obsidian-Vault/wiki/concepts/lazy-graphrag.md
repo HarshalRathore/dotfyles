@@ -1,30 +1,31 @@
 ---
-title: "LazyGraphRAG"
+title: LazyGraphRAG
 category: concepts
 tags:
-  - graphrag
-  - retrieval
-  - microsoft-research
-  - performance
+- graphrag
+- retrieval
+- microsoft-research
+- performance
 aliases:
-  - Lazy GraphRAG
+- Lazy GraphRAG
 sources:
-  - "AIEF2025 - GraphRAG methods to create optimized LLM context windows for Retrieval — Jonathan Larson, Microsoft - https://www.youtube.com/watch?v=c5qJHr3DnT4"
+- AIEF2025 - GraphRAG methods to create optimized LLM context windows for Retrieval — Jonathan Larson, Microsoft - https://www.youtube.com/watch?v=c5qJHr3DnT4
 provenance:
-  extracted: 0.60
-  inferred: 0.30
-  ambiguous: 0.10
-base_confidence: 0.50
+  extracted: 0.6
+  inferred: 0.3
+  ambiguous: 0.1
+base_confidence: 0.5
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: extends
-  - target: "[[concepts/benchmark-qed|Benchmark QED]]"
-    type: evaluated-on
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: extends
+- target: '[[concepts/benchmark-qed|Benchmark QED]]'
+  type: evaluated-on
+summary: LazyGraphRAG
 ---
 
 # LazyGraphRAG

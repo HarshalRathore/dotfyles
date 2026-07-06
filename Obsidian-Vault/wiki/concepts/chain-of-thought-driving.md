@@ -1,34 +1,34 @@
 ---
-title: "Chain-of-Thought Driving"
+title: Chain-of-Thought Driving
 category: concepts
 tags:
-  - chain-of-thought
-  - reasoning
-  - autonomous-driving
-  - explainability
-  - foundation-models
+- chain-of-thought
+- reasoning
+- autonomous-driving
+- explainability
+- foundation-models
 aliases:
-  - reasoning in autonomous driving
-  - explainable autonomous driving
+- reasoning in autonomous driving
+- explainable autonomous driving
 sources:
-  - "AIEF2025 - Waymo's EMMA: Teaching Cars to Think - Jyh Jing Hwang, Waymo - https://www.youtube.com/watch?v=iS9YFW28XyM"
-summary: "A technique for adding chain-of-thought reasoning to autonomous driving systems — the model first identifies critical objects, predicts their behavior, and states driving meta-decisions before outputting waypoints, improving both quality and explainability."
+- 'AIEF2025 - Waymo''s EMMA: Teaching Cars to Think - Jyh Jing Hwang, Waymo - https://www.youtube.com/watch?v=iS9YFW28XyM'
+summary: A technique for adding chain-of-thought reasoning to autonomous driving systems — the model first identifies critical objects, predicts their behavior, and states driving meta-decisions before outp...
 provenance:
   extracted: 0.85
   inferred: 0.15
-  ambiguous: 0.00
-base_confidence: 0.80
+  ambiguous: 0.0
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/foundation-models-autonomous-driving]]"
-    type: enables
-  - target: "[[concepts/end-to-end-driving]]"
-    type: enhances
-  - target: "[[concepts/scaling-laws]]"
-    type: related_to
+- target: '[[concepts/foundation-models-autonomous-driving]]'
+  type: enables
+- target: '[[concepts/end-to-end-driving]]'
+  type: enhances
+- target: '[[concepts/scaling-laws]]'
+  type: related_to
 ---
 
 # Chain-of-Thought Driving

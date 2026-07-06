@@ -8,7 +8,7 @@ tags:
   - aief2025
   - cognition
 sources:
-  - "[[sources/watchv=mi83but_23o]]"
+  - "https://www.youtube.com/watch?v=mi83but_23o"
 summary: "Founder and CEO of Cognition, creator of Devin. Spoke at AI Engineer World's Fair 2025 about the evolution of AI software engineering agents and Moore's Law for agent capabilities."
 provenance:
   extracted: 0.95

@@ -1,29 +1,32 @@
 ---
-title: "Process as Product"
+title: Process as Product
 tags:
-  - concept
-  - ai
-  - methodology
-  - organization
-  - operations
-aliases: [process product thinking, outcome-driven process]
+- concept
+- ai
+- methodology
+- organization
+- operations
+aliases:
+- process product thinking
+- outcome-driven process
 relationships:
-  - target: "[[concepts/ai-first-transformation]]"
-    type: related_to
-  - target: "[[concepts/build-operate-divide]]"
-    type: related_to
+- target: '[[concepts/ai-first-transformation]]'
+  type: related_to
+- target: '[[concepts/build-operate-divide]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=3ygrcgzj3yc]]"
-summary: "Treating internal organizational processes as products that must be evaluated against outcomes — creating clarity, unblocking teams, and accelerating decision-making or being cut."
+- 'https://www.youtube.com/watch?v=3ygrcgzj3yc'
+summary: Treating internal organizational processes as products that must be evaluated against outcomes — creating clarity, unblocking teams, and accelerating decision-making or being cut.
 provenance:
   extracted: 0.85
   inferred: 0.13
   ambiguous: 0.02
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Process as Product

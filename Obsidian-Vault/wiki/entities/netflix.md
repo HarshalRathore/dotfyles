@@ -1,18 +1,18 @@
 ---
-title: "Netflix"
+title: Netflix
 tags:
-  - company
-  - streaming
-  - recommendation-systems
-  - personalization
-  - recsys
+- company
+- streaming
+- recommendation-systems
+- personalization
+- recsys
 aliases:
-  - Netflix Inc.
+- Netflix Inc.
 sources:
-  - "[[sources/watchv=abz4iygbfpq]]"
-summary: "Global streaming entertainment company that pioneered a single transformer-based foundation model for all recommendation and personalization use cases."
+- 'https://www.youtube.com/watch?v=abz4iygbfpq'
+summary: Global streaming entertainment company that pioneered a single transformer-based foundation model for all recommendation and personalization use cases.
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.55
@@ -20,6 +20,7 @@ lifecycle: draft
 tier: peripheral
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Netflix

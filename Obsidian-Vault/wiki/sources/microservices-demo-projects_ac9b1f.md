@@ -1,23 +1,30 @@
 ---
-summary: "This source provides a curated list of open-source microservices demo projects chosen for practical Kubernetes learning. It evaluates projects based on moderate complexity, realistic architectu..."
+summary: This source provides a curated list of open-source microservices demo projects chosen for practical Kubernetes learning. It evaluates projects based on moderate complexity, realistic architectu...
 type: source
-title: "Open-Source Microservices Demo Projects - Summary"
-created: "2026-06-30"
-updated: "2026-06-30"
+title: Open-Source Microservices Demo Projects - Summary
+created: '2026-06-30'
+updated: '2026-06-30'
 lifecycle: draft
 base_confidence: 0.7
-source_file: ""
+source_file: ''
 tags:
-  - microservices architecture
-  - Kubernetes practice
-  - gRPC
-  - Service discovery
-  - Containerization
+- microservices architecture
+- Kubernetes practice
+- gRPC
+- Service discovery
+- Containerization
 aliases:
-  - Microservices Demo Projects List
-  - Kubernetes Microservices Demos
-contentHash: "11c8-c37b2d2b"
-generation_complete: True
+- Microservices Demo Projects List
+- Kubernetes Microservices Demos
+contentHash: 11c8-c37b2d2b
+generation_complete: true
+category: sources
+sources: []
+tier: supporting
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
 ---
 # Open-Source Microservices Demo Projects - Summary
 

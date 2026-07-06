@@ -1,31 +1,32 @@
 ---
-title: "New Generation"
+title: New Generation
 category: entities
 tags:
-  - company
-  - ai-commerce
-  - agent-infrastructure
-  - agentic-economy
+- company
+- ai-commerce
+- agent-infrastructure
+- agentic-economy
 aliases: []
 sources:
-  - "AIEF2025 - Machines of Buying and Selling Grace - Adam Behrens, New Generation - https://www.youtube.com/watch?v=zlZz0mDF2eg"
+- AIEF2025 - Machines of Buying and Selling Grace - Adam Behrens, New Generation - https://www.youtube.com/watch?v=zlZz0mDF2eg
 provenance:
   extracted: 0.85
   inferred: 0.15
-  ambiguous: 0.00
-base_confidence: 0.80
+  ambiguous: 0.0
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/adam-behrens|Adam Behrens]]"
-    type: founded-by
-  - target: "[[concepts/agentic-commerce|Agentic Commerce]]"
-    type: builds-for
-  - target: "[[entities/visa|Visa]]"
-    type: partners-with
+- target: '[[entities/adam-behrens|Adam Behrens]]'
+  type: founded-by
+- target: '[[concepts/agentic-commerce|Agentic Commerce]]'
+  type: builds-for
+- target: '[[entities/visa|Visa]]'
+  type: partners-with
+summary: New Generation
 ---
 
 # New Generation

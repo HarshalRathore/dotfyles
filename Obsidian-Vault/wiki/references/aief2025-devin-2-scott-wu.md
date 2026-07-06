@@ -1,22 +1,22 @@
 ---
-title: "AIEF2025 - Devin 2.0 and the Future of SWE — Scott Wu, Cognition"
+title: AIEF2025 - Devin 2.0 and the Future of SWE — Scott Wu, Cognition
 category: references
 tags:
-  - aief2025
-  - talk
-  - devin
-  - cognition
-  - scott-wu
-  - ai-agents
-  - software-engineering
+- aief2025
+- talk
+- devin
+- cognition
+- scott-wu
+- ai-agents
+- software-engineering
 sources:
-  - "[[sources/watchv=mi83but_23o]]"
-summary: "Scott Wu (Cognition) presents Moore's Law for AI agents (70-day doubling in code), traces the tiered evolution from tab completion to cross-file diagnosis, and explains why agent interfaces change every 2-3 months."
+- 'https://www.youtube.com/watch?v=mi83but_23o'
+summary: Scott Wu (Cognition) presents Moore's Law for AI agents (70-day doubling in code), traces the tiered evolution from tab completion to cross-file diagnosis, and explains why agent interfaces change...
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting

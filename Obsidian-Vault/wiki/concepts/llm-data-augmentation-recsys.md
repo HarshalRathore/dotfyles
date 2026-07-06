@@ -9,7 +9,7 @@ relationships:
   - target: "[[concepts/quality-vs-quantity-recommendations]]"
     type: related_to
 sources:
-  - "[[sources/watchv=2vlcqd6igva]]"
+  - "https://www.youtube.com/watch?v=2vlcqd6igva"
 summary: "Using LLMs to generate synthetic data, labels, and metadata for recommendation systems and search — cheaper and more scalable than human annotation."
 provenance:
   extracted: 0.70

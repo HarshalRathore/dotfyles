@@ -1,13 +1,18 @@
 ---
-title: "Context Management for Agents"
+title: Context Management for Agents
 category: concepts
-tags: [context-management, context-window, agent-navigation, vibe-coding, aief2025]
-summary: The practice of actively managing an AI agent's context window during codebase navigation — feeding diffs, protecting key files, and building component inventories — to maintain reasoning quality across large codebases.
+tags:
+- context-management
+- context-window
+- agent-navigation
+- vibe-coding
+- aief2025
+summary: The practice of actively managing an AI agent's context window during codebase navigation — feeding diffs, protecting key files, and building component inventories — to maintain reasoning quality a...
 sources:
-  - "AIEF2025 - How to Improve your Vibe Coding — Ian Butler - https://www.youtube.com/watch?v=g03m-WFEu1U"
-  - "AIEF2025 - The Eyes Are The (Context) Window to The Soul: How Windsurf Gets to Know You — Sam Fertig, Windsurf - https://www.youtube.com/watch?v=jUv5WSPo9fk"
+- AIEF2025 - How to Improve your Vibe Coding — Ian Butler - https://www.youtube.com/watch?v=g03m-WFEu1U
+- 'AIEF2025 - The Eyes Are The (Context) Window to The Soul: How Windsurf Gets to Know You — Sam Fertig, Windsurf - https://www.youtube.com/watch?v=jUv5WSPo9fk'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -17,14 +22,14 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/vibe-coding]]"
-    type: improves
-  - target: "[[concepts/context-engineering]]"
-    type: extends
-  - target: "[[concepts/agent-memory-types]]"
-    type: relates_to
-  - target: "[[concepts/user-state-and-codebase-state|User State and Codebase State]]"
-    type: relates-to
+- target: '[[concepts/vibe-coding]]'
+  type: improves
+- target: '[[concepts/context-engineering]]'
+  type: extends
+- target: '[[concepts/agent-memory-types]]'
+  type: relates_to
+- target: '[[concepts/user-state-and-codebase-state|User State and Codebase State]]'
+  type: relates-to
 ---
 
 # Context Management for Agents

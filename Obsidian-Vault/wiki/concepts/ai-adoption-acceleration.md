@@ -1,36 +1,36 @@
 ---
-title: "AI Adoption Acceleration"
+title: AI Adoption Acceleration
 category: concepts
 tags:
-  - ai-adoption
-  - adoption-curves
-  - developer-tools
-  - knowledge-workers
-  - ai-agents
-  - market-trends
+- ai-adoption
+- adoption-curves
+- developer-tools
+- knowledge-workers
+- ai-agents
+- market-trends
 aliases:
-  - AI adoption rates
-  - AI acceleration
+- AI adoption rates
+- AI acceleration
 sources:
-  - "AIEF2025 - Building Agents (the hard parts!) - Rita Kozlov, Cloudflare - https://www.youtube.com/watch?v=j_TKDweOsYE"
-summary: "AI adoption has accelerated far beyond prior predictions: 75%+ of knowledge workers now use AI (surpassing 2030 Gartner estimates), 76%+ of developers use AI in development. The shift from training to inference to automation is accelerating."
+- AIEF2025 - Building Agents (the hard parts!) - Rita Kozlov, Cloudflare - https://www.youtube.com/watch?v=j_TKDweOsYE
+summary: 'AI adoption has accelerated far beyond prior predictions: 75%+ of knowledge workers now use AI (surpassing 2030 Gartner estimates), 76%+ of developers use AI in development. The shift from training...'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/agent-adoption-surge]]"
-    type: related_to
-  - target: "[[concepts/enterprise-ai-adoption]]"
-    type: related_to
-  - target: "[[concepts/ai-impact-categories]]"
-    type: related_to
+- target: '[[concepts/agent-adoption-surge]]'
+  type: related_to
+- target: '[[concepts/enterprise-ai-adoption]]'
+  type: related_to
+- target: '[[concepts/ai-impact-categories]]'
+  type: related_to
 ---
 
 # AI Adoption Acceleration

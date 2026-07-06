@@ -1,16 +1,16 @@
 ---
-title: "Legal Industry AI Constraints"
+title: Legal Industry AI Constraints
 category: concepts
 tags:
-  - legal
-  - ai-constraints
-  - domain-specific
-  - correctness
-  - compliance
+- legal
+- ai-constraints
+- domain-specific
+- correctness
+- compliance
 sources:
-  - "AIEF2025 - Knowledge Graphs in Litigation Agents — Tom Smoker, WhyHow - https://www.youtube.com/watch?v=yYxr6LdXNWM"
+- AIEF2025 - Knowledge Graphs in Litigation Agents — Tom Smoker, WhyHow - https://www.youtube.com/watch?v=yYxr6LdXNWM
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -20,12 +20,13 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/litigation-agents|Litigation Agents]]"
-    type: constrains
-  - target: "[[concepts/probabilistic-accuracy-chaining|Probabilistic Accuracy Chaining]]"
-    type: motivates
-  - target: "[[concepts/human-in-the-loop|Human-in-the-Loop]]"
-    type: requires
+- target: '[[concepts/litigation-agents|Litigation Agents]]'
+  type: constrains
+- target: '[[concepts/probabilistic-accuracy-chaining|Probabilistic Accuracy Chaining]]'
+  type: motivates
+- target: '[[concepts/human-in-the-loop|Human-in-the-Loop]]'
+  type: requires
+summary: Legal Industry AI Constraints
 ---
 
 # Legal Industry AI Constraints

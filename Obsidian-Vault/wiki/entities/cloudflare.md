@@ -1,16 +1,23 @@
 ---
-title: "Cloudflare"
+title: Cloudflare
 category: entities
-tags: [company, infrastructure, cdn, compute, ai]
-aliases: [Cloudflare Workers, CF]
+tags:
+- company
+- infrastructure
+- cdn
+- compute
+- ai
+aliases:
+- Cloudflare Workers
+- CF
 sources:
-  - "[[sources/watchv=1c3szbaxomw]]"
-  - "[[sources/watchv=ccswz5bjlo8]]"
-  - "[[sources/watchv=d4dswf-__rm]]"
-  - "AIEF2025 - Building Agents (the hard parts!) - Rita Kozlov, Cloudflare - https://www.youtube.com/watch?v=j_TKDweOsYE"
-summary: "Cloud infrastructure and CDN company. Co-developed Oblivious HTTP (OHTTP) with Apple. Serves as the anonymizer relay for Apple's Private Cloud Compute. Workers platform enables CPU-millisecond pricing well-suited for AI agent workloads. Hosts Durable Objects for stateful serverless primitives. Released Agents SDK for building and hosting AI agents and MCP servers."
+- 'https://www.youtube.com/watch?v=1c3szbaxomw'
+- 'https://www.youtube.com/watch?v=ccswz5bjlo8'
+- 'https://www.youtube.com/watch?v=d4dswf-__rm'
+- AIEF2025 - Building Agents (the hard parts!) - Rita Kozlov, Cloudflare - https://www.youtube.com/watch?v=j_TKDweOsYE
+summary: Cloud infrastructure and CDN company. Co-developed Oblivious HTTP (OHTTP) with Apple. Serves as the anonymizer relay for Apple's Private Cloud Compute. Workers platform enables CPU-millisecond pric...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.42

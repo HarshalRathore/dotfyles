@@ -1,27 +1,28 @@
 ---
-title: "Manu Goyal"
+title: Manu Goyal
 category: entities
 tags:
-  - person
-  - speaker
-  - braintrust
-  - evals
+- person
+- speaker
+- braintrust
+- evals
 sources:
-  - "AIEF2025 - Why should anyone care about Evals? — Manu Goyal, Braintrust - https://www.youtube.com/watch?v=jJ45Yz1lJao"
+- AIEF2025 - Why should anyone care about Evals? — Manu Goyal, Braintrust - https://www.youtube.com/watch?v=jJ45Yz1lJao
 provenance:
   extracted: 0.95
   inferred: 0.05
-  ambiguous: 0.00
-base_confidence: 0.90
+  ambiguous: 0.0
+base_confidence: 0.9
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/braintrust|Braintrust]]"
-    type: works_at
-  - target: "[[concepts/evals-are-not-unit-tests|Evals Are Not Unit Tests]]"
-    type: advocates
+- target: '[[entities/braintrust|Braintrust]]'
+  type: works_at
+- target: '[[concepts/evals-are-not-unit-tests|Evals Are Not Unit Tests]]'
+  type: advocates
+summary: Manu Goyal
 ---
 
 # Manu Goyal

@@ -1,32 +1,36 @@
 ---
-title: "MCP vs OpenAPI for Agent Tooling"
+title: MCP vs OpenAPI for Agent Tooling
 category: concepts
 tags:
-  - mcp
-  - openapi
-  - agent-tools
-  - tool-discovery
-  - model-context-protocol
-aliases: [mcp vs openapi, MCP vs OpenAPI, MCP vs Open API]
+- mcp
+- openapi
+- agent-tools
+- tool-discovery
+- model-context-protocol
+aliases:
+- mcp vs openapi
+- MCP vs OpenAPI
+- MCP vs Open API
 sources:
-  - "AIEF2025 - The rise of the agentic economy on the shoulders of MCP — Jan Curn, Apify - https://www.youtube.com/watch?v=blW-lSd5CYQ"
+- AIEF2025 - The rise of the agentic economy on the shoulders of MCP — Jan Curn, Apify - https://www.youtube.com/watch?v=blW-lSd5CYQ
 provenance:
   extracted: 0.65
-  inferred: 0.30
+  inferred: 0.3
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/mcp-dynamic-tool-discovery|MCP Dynamic Tool Discovery]]"
-    type: related_to
-  - target: "[[concepts/tool-discovery]]"
-    type: related_to
-  - target: "[[concepts/the-agentic-economy]]"
-    type: enables
+- target: '[[concepts/mcp-dynamic-tool-discovery|MCP Dynamic Tool Discovery]]'
+  type: related_to
+- target: '[[concepts/tool-discovery]]'
+  type: related_to
+- target: '[[concepts/the-agentic-economy]]'
+  type: enables
+summary: MCP vs OpenAPI for Agent Tooling
 ---
 
 # MCP vs OpenAPI for Agent Tooling

@@ -1,18 +1,21 @@
 ---
-title: "llms.txt"
+title: llms.txt
 category: references
 tags:
-  - llms-txt
-  - agent-readable
-  - documentation
-  - machine-readable
-  - agent-experience
-  - aief2025
-aliases: [llms.txt, llms txt, LLMs.txt]
+- llms-txt
+- agent-readable
+- documentation
+- machine-readable
+- agent-experience
+- aief2025
+aliases:
+- llms.txt
+- llms txt
+- LLMs.txt
 sources:
-  - "AIEF2025 - AX is the only Experience that Matters - Ivan Burazin, Daytona - https://www.youtube.com/watch?v=e9sLVMN76qU"
+- AIEF2025 - AX is the only Experience that Matters - Ivan Burazin, Daytona - https://www.youtube.com/watch?v=e9sLVMN76qU
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -22,10 +25,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/agent-readable-docs]]"
-    type: implements
-  - target: "[[concepts/agent-experience]]"
-    type: component_of
+- target: '[[concepts/agent-readable-docs]]'
+  type: implements
+- target: '[[concepts/agent-experience]]'
+  type: component_of
+summary: llms.txt
 ---
 
 # llms.txt

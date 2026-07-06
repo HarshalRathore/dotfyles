@@ -1,38 +1,42 @@
 ---
-title: "Production Troubleshooting"
+title: Production Troubleshooting
 tags:
-  - production
-  - debugging
-  - incident-response
-  - root-cause-analysis
-  - on-call
-  - observability
-  - ai
-aliases: [production-troubleshooting, incident-debugging, production-debugging]
+- production
+- debugging
+- incident-response
+- root-cause-analysis
+- on-call
+- observability
+- ai
+aliases:
+- production-troubleshooting
+- incident-debugging
+- production-debugging
 sources:
-  - "[[sources/watchv=l6_nigiexzq]]"
-summary: The process of diagnosing and resolving production incidents. Anish Agarwal argues this is the hardest part of software engineering to automate and will get worse as AI-generated code reduces human context about system internals.
+- 'https://www.youtube.com/watch?v=l6_nigiexzq'
+summary: The process of diagnosing and resolving production incidents. Anish Agarwal argues this is the hardest part of software engineering to automate and will get worse as AI-generated code reduces human...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/aiops]]"
-    type: contradicts
-  - target: "[[concepts/causal-machine-learning]]"
-    type: related_to
-  - target: "[[concepts/agent-swarm]]"
-    type: related_to
-  - target: "[[concepts/mttr]]"
-    type: related_to
-  - target: "[[concepts/runbook-dependency]]"
-    type: related_to
+- target: '[[concepts/aiops]]'
+  type: contradicts
+- target: '[[concepts/causal-machine-learning]]'
+  type: related_to
+- target: '[[concepts/agent-swarm]]'
+  type: related_to
+- target: '[[concepts/mttr]]'
+  type: related_to
+- target: '[[concepts/runbook-dependency]]'
+  type: related_to
+category: concepts
 ---
 
 # Production Troubleshooting

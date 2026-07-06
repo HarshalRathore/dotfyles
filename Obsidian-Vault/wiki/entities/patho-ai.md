@@ -1,34 +1,35 @@
 ---
-title: "Patho AI"
+title: Patho AI
 tags:
-  - company
-  - ai
-  - knowledge-graph
-  - kag
-  - consulting
+- company
+- ai
+- knowledge-graph
+- kag
+- consulting
 aliases:
-  - Patho.ai
-  - Pato AI
-  - Pato.ai
+- Patho.ai
+- Pato AI
+- Pato.ai
 sources:
-  - "[[sources/watchv=9aqovt8lnmi]]"
-summary: "AI consulting company founded by Chin Keong Lam, specializing in expert AI systems that use knowledge-augmented generation (KAG) and wisdom graphs for research and advisory tasks."
+- 'https://www.youtube.com/watch?v=9aqovt8lnmi'
+summary: AI consulting company founded by Chin Keong Lam, specializing in expert AI systems that use knowledge-augmented generation (KAG) and wisdom graphs for research and advisory tasks.
 provenance:
   extracted: 0.55
   inferred: 0.35
-  ambiguous: 0.10
-base_confidence: 0.30
+  ambiguous: 0.1
+base_confidence: 0.3
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
 relationships:
-  - target: "[[entities/chin-keong-lam|Chin Keong Lam]]"
-    type: related_to
-  - target: "[[concepts/kag-knowledge-augmented-generation|KAG (Knowledge Augmented Generation)]]"
-    type: related_to
-  - target: "[[concepts/wisdom-graph|Wisdom Graph]]"
-    type: related_to
+- target: '[[entities/chin-keong-lam|Chin Keong Lam]]'
+  type: related_to
+- target: '[[concepts/kag-knowledge-augmented-generation|KAG (Knowledge Augmented Generation)]]'
+  type: related_to
+- target: '[[concepts/wisdom-graph|Wisdom Graph]]'
+  type: related_to
+category: entities
 ---
 
 # Patho AI

@@ -5,7 +5,7 @@ tags: [supercomputer, hpc, nvidia, hpe, grace-hopper, los-alamos, ai-research, a
 summary: 2,500+ node supercomputer at LANL built with NVIDIA and HPE, running Grace Hopper superchips for AI research and hosting OpenAI models on classified networks.
 sources:
   - "AIEF2025 - Applied AI and Agentic Science at a National Laboratory — Mark Machotton, Los Alamos National Laboratory - https://www.youtube.com/watch?v=cFxWPP1ik6A"
-  - "[[sources/watchv=tnsgx36ly0q]]"
+  - "https://www.youtube.com/watch?v=tnsgx36ly0q"
 provenance: {extracted: 1.0, inferred: 0.0, ambiguous: 0.0}
 base_confidence: 0.95
 lifecycle: draft

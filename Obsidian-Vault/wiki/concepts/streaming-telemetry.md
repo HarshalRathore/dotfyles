@@ -1,33 +1,33 @@
 ---
-title: "Streaming Telemetry"
+title: Streaming Telemetry
 category: concepts
 tags:
-  - streaming-telemetry
-  - network-operations
-  - telemetry
-  - real-time
-  - data-ingestion
-  - monitoring
+- streaming-telemetry
+- network-operations
+- telemetry
+- real-time
+- data-ingestion
+- monitoring
 aliases:
-  - Stream Telemetry
+- Stream Telemetry
 sources:
-  - "AIEF2025 - Multi Agent AI and Network Knowledge Graphs for Change — Ola Mabadeje, Cisco - https://www.youtube.com/watch?v=m0dxZ-NDKHo"
-summary: "A real-time data delivery mode for network telemetry where devices continuously stream operational data (interfaces, protocols, performance metrics) to monitoring systems, serving as one of the ingestion sources for network knowledge graph ETL pipelines."
+- AIEF2025 - Multi Agent AI and Network Knowledge Graphs for Change — Ola Mabadeje, Cisco - https://www.youtube.com/watch?v=m0dxZ-NDKHo
+summary: A real-time data delivery mode for network telemetry where devices continuously stream operational data (interfaces, protocols, performance metrics) to monitoring systems, serving as one of the ing...
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/etl-pipeline|ETL Pipeline]]"
-    type: data_source
-  - target: "[[concepts/network-knowledge-graph|Network Knowledge Graph]]"
-    type: feeds
+- target: '[[concepts/etl-pipeline|ETL Pipeline]]'
+  type: data_source
+- target: '[[concepts/network-knowledge-graph|Network Knowledge Graph]]'
+  type: feeds
 ---
 
 # Streaming Telemetry

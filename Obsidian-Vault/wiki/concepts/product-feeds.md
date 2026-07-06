@@ -1,29 +1,32 @@
 ---
-title: "Product Feeds"
+title: Product Feeds
 category: concepts
 tags:
-  - product-feeds
-  - data-aggregation
-  - merchant-data
-  - e-commerce-infrastructure
-aliases: [product data feeds, merchant feeds]
+- product-feeds
+- data-aggregation
+- merchant-data
+- e-commerce-infrastructure
+aliases:
+- product data feeds
+- merchant feeds
 sources:
-  - "AIEF2025 - Machines of Buying and Selling Grace - Adam Behrens, New Generation - https://www.youtube.com/watch?v=zlZz0mDF2eg"
+- AIEF2025 - Machines of Buying and Selling Grace - Adam Behrens, New Generation - https://www.youtube.com/watch?v=zlZz0mDF2eg
 provenance:
-  extracted: 0.80
-  inferred: 0.20
-  ambiguous: 0.00
-base_confidence: 0.80
+  extracted: 0.8
+  inferred: 0.2
+  ambiguous: 0.0
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/product-aggregation|Product Data Aggregation]]"
-    type: implements
-  - target: "[[concepts/agentic-commerce|Agentic Commerce]]"
-    type: used-by
+- target: '[[concepts/product-aggregation|Product Data Aggregation]]'
+  type: implements
+- target: '[[concepts/agentic-commerce|Agentic Commerce]]'
+  type: used-by
+summary: Product Feeds
 ---
 
 # Product Feeds

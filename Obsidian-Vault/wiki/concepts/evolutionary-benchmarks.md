@@ -1,16 +1,16 @@
 ---
-title: "Evolutionary Benchmarks"
+title: Evolutionary Benchmarks
 category: concepts
 tags:
-  - benchmark
-  - design
-  - evaluation
-  - saturation
-  - aief2025
-summary: "Benchmarks that get harder and deeper as models improve, rather than capping at a fixed accuracy threshold. Designed to resist saturation and maintain discriminative power across model generations."
+- benchmark
+- design
+- evaluation
+- saturation
+- aief2025
+summary: Benchmarks that get harder and deeper as models improve, rather than capping at a fixed accuracy threshold. Designed to resist saturation and maintain discriminative power across model generations.
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.78
 lifecycle: draft
@@ -19,12 +19,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/benchmark-saturation|Benchmark Saturation]]"
-    type: related_to
-  - target: "[[concepts/benchmark-design-principles|Benchmark Design Principles]]"
-    type: extends
-  - target: "[[concepts/experiential-benchmarks|Experiential Benchmarks]]"
-    type: related_to
+- target: '[[concepts/benchmark-saturation|Benchmark Saturation]]'
+  type: related_to
+- target: '[[concepts/benchmark-design-principles|Benchmark Design Principles]]'
+  type: extends
+- target: '[[concepts/experiential-benchmarks|Experiential Benchmarks]]'
+  type: related_to
+sources: []
 ---
 
 # Evolutionary Benchmarks

@@ -1,17 +1,17 @@
 ---
-title: "John Collison"
+title: John Collison
 category: entities
 tags:
-  - person
-  - co-founder
-  - stripe
-  - entrepreneur
+- person
+- co-founder
+- stripe
+- entrepreneur
 aliases:
-  - John Collison
+- John Collison
 sources:
-  - "AIEF2025 - #define AI Engineer - Greg Brockman, OpenAI (ft. Jensen Huang) - https://www.youtube.com/watch?v=avWhreBUYF0"
+- 'AIEF2025 - #define AI Engineer - Greg Brockman, OpenAI (ft. Jensen Huang) - https://www.youtube.com/watch?v=avWhreBUYF0'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
 base_confidence: 0.85
@@ -21,10 +21,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/stripe|Stripe]]"
-    type: co-founded
-  - target: "[[entities/patrick-collison|Patrick Collison]]"
-    type: sibling
+- target: '[[entities/stripe|Stripe]]'
+  type: co-founded
+- target: '[[entities/patrick-collison|Patrick Collison]]'
+  type: sibling
+summary: John Collison
 ---
 
 # John Collison

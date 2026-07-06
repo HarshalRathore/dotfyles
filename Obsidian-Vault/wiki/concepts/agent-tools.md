@@ -1,15 +1,21 @@
 ---
-title: "Agent Tools"
+title: Agent Tools
 category: concepts
-tags: [agent-tools, coding-agents, code-editor, terminal, web-browser, agent-architecture]
-summary: The three core tools of a software development agent: code editor (diff-based), terminal (command execution), and web browser (accessibility trees, screenshots). These replace the human engineer's IDE, shell, and browser.
+tags:
+- agent-tools
+- coding-agents
+- code-editor
+- terminal
+- web-browser
+- agent-architecture
+summary: 'The three core tools of a software development agent: code editor (diff-based), terminal (command execution), and web browser (accessibility trees, screenshots). These replace the human engineer''s...'
 sources:
-  - "AIEF2025 - Software Development Agents: What Works and What Doesn't - Robert Brennan, OpenHands - https://www.youtube.com/watch?v=o_hhkJtlbSs"
-  - "AIEF2025 - How to Build Planning Agents without losing control - Yogendra Miraje, Factset - https://www.youtube.com/watch?v=sl3icG-IjHo"
+- 'AIEF2025 - Software Development Agents: What Works and What Doesn''t - Robert Brennan, OpenHands - https://www.youtube.com/watch?v=o_hhkJtlbSs'
+- AIEF2025 - How to Build Planning Agents without losing control - Yogendra Miraje, Factset - https://www.youtube.com/watch?v=sl3icG-IjHo
 provenance:
-  extracted: 0.90
-  inferred: 0.10
-  ambiguous: 0.00
+  extracted: 0.9
+  inferred: 0.1
+  ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-05
@@ -17,14 +23,14 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/agent-architecture|Agent Architecture]]"
-    type: extends
-  - target: "[[concepts/agent-code-editor|Agent Code Editor]]"
-    type: related_to
-  - target: "[[concepts/agent-terminal|Agent Terminal]]"
-    type: related_to
-  - target: "[[concepts/vision-vs-text-web-agents|Vision vs Text Web Agents]]"
-    type: related_to
+- target: '[[concepts/agent-architecture|Agent Architecture]]'
+  type: extends
+- target: '[[concepts/agent-code-editor|Agent Code Editor]]'
+  type: related_to
+- target: '[[concepts/agent-terminal|Agent Terminal]]'
+  type: related_to
+- target: '[[concepts/vision-vs-text-web-agents|Vision vs Text Web Agents]]'
+  type: related_to
 ---
 
 # Agent Tools

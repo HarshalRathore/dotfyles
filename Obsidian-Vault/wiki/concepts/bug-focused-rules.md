@@ -1,27 +1,33 @@
 ---
-title: "Bug-Focused Rules"
+title: Bug-Focused Rules
 category: concepts
-tags: [agent-rules, bug-detection, security, owasp, vibe-coding, aief2025]
-summary: Structured rules files that prime AI agents to find specific classes of bugs — using OWASP Top 10, explicit bug class naming, and required test validation — to reduce false positives and alert fatigue.
+tags:
+- agent-rules
+- bug-detection
+- security
+- owasp
+- vibe-coding
+- aief2025
+summary: Structured rules files that prime AI agents to find specific classes of bugs — using OWASP Top 10, explicit bug class naming, and required test validation — to reduce false positives and alert fati...
 sources:
-  - "AIEF2025 - How to Improve your Vibe Coding — Ian Butler - https://www.youtube.com/watch?v=g03m-WFEu1U"
+- AIEF2025 - How to Improve your Vibe Coding — Ian Butler - https://www.youtube.com/watch?v=g03m-WFEu1U
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/vibe-coding]]"
-    type: improves
-  - target: "[[concepts/alert-fatigue-ai-agents]]"
-    type: reduces
-  - target: "[[concepts/agent-evaluation-pipeline]]"
-    type: complements
+- target: '[[concepts/vibe-coding]]'
+  type: improves
+- target: '[[concepts/alert-fatigue-ai-agents]]'
+  type: reduces
+- target: '[[concepts/agent-evaluation-pipeline]]'
+  type: complements
 ---
 
 # Bug-Focused Rules

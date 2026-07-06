@@ -1,18 +1,18 @@
 ---
-title: "Veo 2"
+title: Veo 2
 category: entities
 tags:
-  - model
-  - video-generation
-  - google-deepmind
-  - creative-control
+- model
+- video-generation
+- google-deepmind
+- creative-control
 aliases:
-  - Veo2
+- Veo2
 sources:
-  - "AIEF2025 - Veo 3 for Developers — Paige Bailey, Google DeepMind - https://www.youtube.com/watch?v=hlcAZ2lX_ZI"
-summary: "Google DeepMind's video generation model with extensive creative control features: reference-powered videos, outpainting, add/remove objects, character control, first-to-last frame interpolation, and camera movement control — all available via API."
+- AIEF2025 - Veo 3 for Developers — Paige Bailey, Google DeepMind - https://www.youtube.com/watch?v=hlcAZ2lX_ZI
+summary: 'Google DeepMind''s video generation model with extensive creative control features: reference-powered videos, outpainting, add/remove objects, character control, first-to-last frame interpolation, a...'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
 base_confidence: 0.85
@@ -22,14 +22,14 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/google-deepmind|Google DeepMind]]"
-    type: related_to
-  - target: "[[entities/veo-3|Veo 3]]"
-    type: replaces
-  - target: "[[concepts/reference-powered-generation|Reference-Powered Generation]]"
-    type: implements
-  - target: "[[concepts/outpainting|Outpainting]]"
-    type: implements
+- target: '[[entities/google-deepmind|Google DeepMind]]'
+  type: related_to
+- target: '[[entities/veo-3|Veo 3]]'
+  type: replaces
+- target: '[[concepts/reference-powered-generation|Reference-Powered Generation]]'
+  type: implements
+- target: '[[concepts/outpainting|Outpainting]]'
+  type: implements
 ---
 
 # Veo 2

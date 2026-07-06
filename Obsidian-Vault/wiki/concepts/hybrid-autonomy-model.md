@@ -10,7 +10,7 @@ tags:
   - food-tech
 summary: A 95% autonomous / 5% teleoperated hybrid model where foundation models handle routine tasks and humans intervene for edge cases, achieving better speed and reliability than either approach alone.
 sources:
-  - "[[sources/watchv=mbwgiwjdlso]]"
+  - "https://www.youtube.com/watch?v=mbwgiwjdlso"
 provenance:
   extracted: 0.85
   inferred: 0.10

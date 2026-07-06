@@ -1,32 +1,32 @@
 ---
-title: "Visual Consistency"
+title: Visual Consistency
 category: concepts
 tags:
-  - consistency
-  - video-generation
-  - temporal-coherence
-  - style
+- consistency
+- video-generation
+- temporal-coherence
+- style
 aliases:
-  - Temporal Consistency
-  - Frame Consistency
+- Temporal Consistency
+- Frame Consistency
 sources:
-  - "AIEF2025 - Veo 3 for Developers — Paige Bailey, Google DeepMind - https://www.youtube.com/watch?v=hlcAZ2lX_ZI"
-summary: "The challenge of maintaining coherent characters, backgrounds, and scene elements across frames in generated video — historically a major limitation where characters 'jump' between frames and backgrounds disappear unexpectedly."
+- AIEF2025 - Veo 3 for Developers — Paige Bailey, Google DeepMind - https://www.youtube.com/watch?v=hlcAZ2lX_ZI
+summary: The challenge of maintaining coherent characters, backgrounds, and scene elements across frames in generated video — historically a major limitation where characters 'jump' between frames and backg...
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/veo-3|Veo 3]]"
-    type: related_to
-  - target: "[[concepts/character-consistency|Character Consistency]]"
-    type: extends
+- target: '[[entities/veo-3|Veo 3]]'
+  type: related_to
+- target: '[[concepts/character-consistency|Character Consistency]]'
+  type: extends
 ---
 
 # Visual Consistency

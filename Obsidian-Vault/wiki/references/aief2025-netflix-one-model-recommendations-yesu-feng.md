@@ -1,28 +1,29 @@
 ---
-title: "Netflix's Big Bet: One Model to Rule Recommendations — Yesu Feng, Netflix"
+title: 'Netflix''s Big Bet: One Model to Rule Recommendations — Yesu Feng, Netflix'
 tags:
-  - reference
-  - talk
-  - aief2025
-  - recommendation-systems
-  - foundation-model
-  - recsys
-  - netflix
+- reference
+- talk
+- aief2025
+- recommendation-systems
+- foundation-model
+- recsys
+- netflix
 aliases:
-  - AIEF2025 Netflix RecSys Foundation Model
-  - Yesu Feng Netflix FM 2025
+- AIEF2025 Netflix RecSys Foundation Model
+- Yesu Feng Netflix FM 2025
 sources:
-  - "[[sources/watchv=abz4iygbfpq]]"
-summary: "Yesu Feng (Netflix) presents Netflix's bet on a single transformer-based foundation model covering all recommendation use cases — covering tokenization, architecture, scaling evidence, consumption patterns, and LLM knowledge transfer."
+- 'https://www.youtube.com/watch?v=abz4iygbfpq'
+summary: Yesu Feng (Netflix) presents Netflix's bet on a single transformer-based foundation model covering all recommendation use cases — covering tokenization, architecture, scaling evidence, consumption...
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: references
 ---
 
 # Netflix's Big Bet: One Model to Rule Recommendations — Yesu Feng, Netflix

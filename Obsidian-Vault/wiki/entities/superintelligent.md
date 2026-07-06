@@ -1,16 +1,16 @@
 ---
-title: "Superintelligent"
+title: Superintelligent
 category: entities
 tags:
-  - company
-  - ai-planning
-  - enterprise-ai
+- company
+- ai-planning
+- enterprise-ai
 aliases:
-  - Superintelligent
+- Superintelligent
 sources:
-  - "AIEF2025 - AI Consulting in Practice – NLW, Superintelligent, @AIDailyBrief - https://www.youtube.com/watch?v=ehQFj6VmuI8"
+- AIEF2025 - AI Consulting in Practice – NLW, Superintelligent, @AIDailyBrief - https://www.youtube.com/watch?v=ehQFj6VmuI8
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.07
   ambiguous: 0.03
 base_confidence: 0.75
@@ -20,12 +20,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/nlw|NLW]]"
-    type: led-by
-  - target: "[[concepts/enterprise-ai-adoption|Enterprise AI Adoption]]"
-    type: studies
-  - target: "[[concepts/roi-measurement-challenges|ROI Measurement Challenges]]"
-    type: researches
+- target: '[[entities/nlw|NLW]]'
+  type: led-by
+- target: '[[concepts/enterprise-ai-adoption|Enterprise AI Adoption]]'
+  type: studies
+- target: '[[concepts/roi-measurement-challenges|ROI Measurement Challenges]]'
+  type: researches
+summary: Superintelligent
 ---
 
 # Superintelligent

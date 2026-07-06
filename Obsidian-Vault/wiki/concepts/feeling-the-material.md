@@ -1,23 +1,24 @@
 ---
-title: "Feeling the Material"
+title: Feeling the Material
 tags:
-  - ai
-  - design
-  - methodology
-  - ux
-  - prototyping
+- ai
+- design
+- methodology
+- ux
+- prototyping
 sources:
-  - "[[sources/watchv=cimvknx-cni]]"
-summary: "Woodworking-inspired design philosophy for AI product development: understand model properties through direct interaction and hands-on prototyping rather than through layers of mockups, specs, and click-through prototypes."
+- 'https://www.youtube.com/watch?v=cimvknx-cni'
+summary: 'Woodworking-inspired design philosophy for AI product development: understand model properties through direct interaction and hands-on prototyping rather than through layers of mockups, specs, and...'
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.28
   ambiguous: 0.02
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Feeling the Material

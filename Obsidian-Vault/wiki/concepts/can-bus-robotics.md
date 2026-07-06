@@ -1,12 +1,20 @@
 ---
-title: "CAN Bus in Robotics"
+title: CAN Bus in Robotics
 category: concepts
-tags: [can-bus, robotics, communication-protocol, bus-saturation, real-time]
-aliases: [Controller Area Network, CAN bus timing, automotive bus robotics]
+tags:
+- can-bus
+- robotics
+- communication-protocol
+- bus-saturation
+- real-time
+aliases:
+- Controller Area Network
+- CAN bus timing
+- automotive bus robotics
 sources:
-  - "AIEF2025 - Rishabh Garg, Tesla Optimus — Challenges in High Performance Robotics Systems - https://www.youtube.com/watch?v=bCGbuyv8PMk"
+- AIEF2025 - Rishabh Garg, Tesla Optimus — Challenges in High Performance Robotics Systems - https://www.youtube.com/watch?v=bCGbuyv8PMk
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -16,12 +24,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/robotics-control-loop|Robotics Control Loop]]"
-    type: enables
-  - target: "[[concepts/bus-saturation-overhead|Bus Saturation Overhead]]"
-    type: causes
-  - target: "[[concepts/software-vs-policy-debugging|Software vs Policy Debugging]]"
-    type: relates_to
+- target: '[[concepts/robotics-control-loop|Robotics Control Loop]]'
+  type: enables
+- target: '[[concepts/bus-saturation-overhead|Bus Saturation Overhead]]'
+  type: causes
+- target: '[[concepts/software-vs-policy-debugging|Software vs Policy Debugging]]'
+  type: relates_to
+summary: CAN Bus in Robotics
 ---
 
 # CAN Bus in Robotics

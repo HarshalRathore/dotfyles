@@ -1,35 +1,35 @@
 ---
-title: "Contextual Modular RAG"
+title: Contextual Modular RAG
 category: concepts
 tags:
-  - rag
-  - modular
-  - extraction
-  - re-ranking
-  - retrieval
-  - platform
-summary: "Breaking RAG into modular components — extraction, re-ranking, retrieval — that can be used individually or as a complete managed service, allowing targeted improvements without rebuilding the pipeline."
+- rag
+- modular
+- extraction
+- re-ranking
+- retrieval
+- platform
+summary: Breaking RAG into modular components — extraction, re-ranking, retrieval — that can be used individually or as a complete managed service, allowing targeted improvements without rebuilding the pipe...
 sources:
-  - "AIEF2025 - Forget RAG Pipelines—Build Production Ready Agents in 15 Mins: Nina Lopatina, Rajiv Shah, Contextual - https://www.youtube.com/watch?v=lArgRvBV3tQ"
+- 'AIEF2025 - Forget RAG Pipelines—Build Production Ready Agents in 15 Mins: Nina Lopatina, Rajiv Shah, Contextual - https://www.youtube.com/watch?v=lArgRvBV3tQ'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/contextual-ai]]"
-    type: related_to
-  - target: "[[concepts/rag-as-managed-service]]"
-    type: related_to
-  - target: "[[concepts/production-rag-complexity]]"
-    type: related_to
-  - target: "[[concepts/contextual-platform-approach]]"
-    type: related_to
+- target: '[[entities/contextual-ai]]'
+  type: related_to
+- target: '[[concepts/rag-as-managed-service]]'
+  type: related_to
+- target: '[[concepts/production-rag-complexity]]'
+  type: related_to
+- target: '[[concepts/contextual-platform-approach]]'
+  type: related_to
 ---
 
 # Contextual Modular RAG

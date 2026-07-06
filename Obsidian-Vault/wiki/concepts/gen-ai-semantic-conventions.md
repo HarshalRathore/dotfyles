@@ -1,17 +1,20 @@
 ---
-title: "GenAI Semantic Conventions"
+title: GenAI Semantic Conventions
 category: concepts
 tags:
-  - semantic-conventions
-  - genai
-  - open-telemetry
-  - mcp
-  - agent-traces
-aliases: [GenAI semantic conventions, GenAI semconv, OpenTelemetry GenAI]
+- semantic-conventions
+- genai
+- open-telemetry
+- mcp
+- agent-traces
+aliases:
+- GenAI semantic conventions
+- GenAI semconv
+- OpenTelemetry GenAI
 sources:
-  - "[[sources/watchv=lcqat4ip_le]]"
+- 'https://www.youtube.com/watch?v=lcqat4ip_le'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -21,12 +24,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/semantic-conventions]]"
-    type: extends
-  - target: "[[concepts/open-telemetry]]"
-    type: uses
-  - target: "[[concepts/mcp-observability]]"
-    type: related_to
+- target: '[[concepts/semantic-conventions]]'
+  type: extends
+- target: '[[concepts/open-telemetry]]'
+  type: uses
+- target: '[[concepts/mcp-observability]]'
+  type: related_to
+summary: GenAI Semantic Conventions
 ---
 
 # GenAI Semantic Conventions

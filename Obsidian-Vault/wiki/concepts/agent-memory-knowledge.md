@@ -8,9 +8,9 @@ tags:
   - software-engineering
   - aief2025
 sources:
-  - "[[sources/watchv=mi83but_23o]]"
-  - "[[sources/watchv=t5imo5ntyha]]"
-  - "[[sources/watchv=w2hvdb4jbjs]]"
+  - "https://www.youtube.com/watch?v=mi83but_23o"
+  - "https://www.youtube.com/watch?v=t5imo5ntyha"
+  - "https://www.youtube.com/watch?v=w2hvdb4jbjs"
 summary: "Systems for maintaining and applying learnings across repeated agent tasks. Includes domain-aware memory, memory types mapped from human cognition, agenticity spectrum, and persistence-based memory."
 provenance:
   extracted: 0.80
@@ -147,6 +147,6 @@ Memory is what makes the agent improve over time rather than performing at the s
 
 ## Sources
 
-- [[sources/watchv=mi83but_23o]] — Devin 2.0 and the Future of SWE, Scott Wu, Cognition
+- https://www.youtube.com/watch?v=mi83but_23o — Devin 2.0 and the Future of SWE, Scott Wu, Cognition
 - AIEF2025 - Stop Using RAG as Memory — Daniel Chalef, Zep - https://www.youtube.com/watch?v=T5IMo5ntyhA
 - AIEF2025 - Architecting Agent Memory: Principles, Patterns, and Best Practices — Richmond Alake, MongoDB - https://www.youtube.com/watch?v=W2HVdB4Jbjs

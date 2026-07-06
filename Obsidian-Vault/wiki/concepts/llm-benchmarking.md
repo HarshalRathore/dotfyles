@@ -1,33 +1,37 @@
 ---
-title: "LLM Benchmarking"
+title: LLM Benchmarking
 tags:
-  - evaluation
-  - llm-evaluation
-  - benchmarking
-  - reproducibility
-  - connections
-aliases: [LLM Benchmarking, Language Model Benchmarking, AI Benchmarking]
+- evaluation
+- llm-evaluation
+- benchmarking
+- reproducibility
+- connections
+aliases:
+- LLM Benchmarking
+- Language Model Benchmarking
+- AI Benchmarking
 sources:
-  - "[[sources/watchv=p_uhfgh4j9y]]"
-summary: "Measuring LLM capabilities via reproducible tasks. Connections serves as a benchmark since puzzles are identical for every player and model."
+- 'https://www.youtube.com/watch?v=p_uhfgh4j9y'
+summary: Measuring LLM capabilities via reproducible tasks. Connections serves as a benchmark since puzzles are identical for every player and model.
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/connections-game]]"
-    type: uses
-  - target: "[[concepts/abstract-reasoning]]"
-    type: measures
-  - target: "[[concepts/llm-judge-best-practices]]"
-    type: related_to
-  - target: "[[concepts/eval-dataset-strategy]]"
-    type: related_to
+- target: '[[concepts/connections-game]]'
+  type: uses
+- target: '[[concepts/abstract-reasoning]]'
+  type: measures
+- target: '[[concepts/llm-judge-best-practices]]'
+  type: related_to
+- target: '[[concepts/eval-dataset-strategy]]'
+  type: related_to
+category: concepts
 ---
 
 # LLM Benchmarking

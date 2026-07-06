@@ -1,23 +1,23 @@
 ---
-title: "Agent Observability"
+title: Agent Observability
 category: concepts
 tags:
-  - agent
-  - observability
-  - monitoring
-  - token-costs
-  - fleet-management
+- agent
+- observability
+- monitoring
+- token-costs
+- fleet-management
 sources:
-  - "[[sources/watchv=lqq_lcbajcc]]"
+- 'https://www.youtube.com/watch?v=lqq_lcbajcc'
 relationships:
-  - target: "[[concepts/agent-guardrails|Agent Guardrails]]"
-    type: implements
-  - target: "[[concepts/agent-loop|Agent Loop]]"
-    type: related_to
-  - target: "[[concepts/agent-evaluations|Agent Evaluations]]"
-    type: related_to
+- target: '[[concepts/agent-guardrails|Agent Guardrails]]'
+  type: implements
+- target: '[[concepts/agent-loop|Agent Loop]]'
+  type: related_to
+- target: '[[concepts/agent-evaluations|Agent Evaluations]]'
+  type: related_to
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.82
@@ -25,6 +25,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Agent Observability
 ---
 
 # Agent Observability

@@ -1,17 +1,17 @@
 ---
-title: "Lexical Graph"
+title: Lexical Graph
 category: concepts
 tags:
-  - knowledge-graph
-  - graphrag
-  - document-structure
-  - chunks
-  - retrieval
+- knowledge-graph
+- graphrag
+- document-structure
+- chunks
+- retrieval
 aliases:
-  - Lexical Graph RAG
-  - Document Graph
+- Lexical Graph RAG
+- Document Graph
 sources:
-  - "AIEF2025 - Practical GraphRAG: Making LLMs smarter with Knowledge Graphs — Michael, Jesus, and Stephen, Neo4j - https://www.youtube.com/watch?v=XNneh6-eyPg"
+- 'AIEF2025 - Practical GraphRAG: Making LLMs smarter with Knowledge Graphs — Michael, Jesus, and Stephen, Neo4j - https://www.youtube.com/watch?v=XNneh6-eyPg'
 provenance:
   extracted: 0.95
   inferred: 0.03
@@ -22,12 +22,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: uses
-  - target: "[[concepts/knowledge-graph-construction-pipeline|Knowledge Graph Construction Pipeline]]"
-    type: extends
-  - target: "[[concepts/domain-graph|Domain Graph]]"
-    type: related_to
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: uses
+- target: '[[concepts/knowledge-graph-construction-pipeline|Knowledge Graph Construction Pipeline]]'
+  type: extends
+- target: '[[concepts/domain-graph|Domain Graph]]'
+  type: related_to
+summary: Lexical Graph
 ---
 
 # Lexical Graph

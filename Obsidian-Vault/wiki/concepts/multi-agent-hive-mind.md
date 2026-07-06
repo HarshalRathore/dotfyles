@@ -1,16 +1,16 @@
 ---
-title: "Multi-Agent Hive Mind"
+title: Multi-Agent Hive Mind
 category: concepts
 tags:
-  - multi-agent-systems
-  - agi
-  - coordination
-  - aief2025
+- multi-agent-systems
+- agi
+- coordination
+- aief2025
 sources:
-  - "AIEF2025 - Top Ten Challenges to Reach AGI — Stephen Chin, Andreas Kollegger - https://www.youtube.com/watch?v=ypyvj_56sBU"
+- AIEF2025 - Top Ten Challenges to Reach AGI — Stephen Chin, Andreas Kollegger - https://www.youtube.com/watch?v=ypyvj_56sBU
 provenance:
   extracted: 0.65
-  inferred: 0.30
+  inferred: 0.3
   ambiguous: 0.05
 base_confidence: 0.65
 lifecycle: draft
@@ -19,12 +19,13 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/agi-challenges|AGI Challenges]]"
-    type: is_challenge_of
-  - target: "[[concepts/multi-agent-systems|Multi-Agent Systems]]"
-    type: extends
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: relates_to
+- target: '[[concepts/agi-challenges|AGI Challenges]]'
+  type: is_challenge_of
+- target: '[[concepts/multi-agent-systems|Multi-Agent Systems]]'
+  type: extends
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: relates_to
+summary: Multi-Agent Hive Mind
 ---
 
 # Multi-Agent Hive Mind

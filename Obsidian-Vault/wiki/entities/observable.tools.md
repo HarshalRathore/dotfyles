@@ -1,17 +1,19 @@
 ---
-title: "observable.tools"
+title: observable.tools
 category: entities
 tags:
-  - mcp
-  - observability
-  - open-source
-  - manifesto
-  - aief2025
-aliases: [observable.tools, Observable Tools]
+- mcp
+- observability
+- open-source
+- manifesto
+- aief2025
+aliases:
+- observable.tools
+- Observable Tools
 sources:
-  - "[[sources/watchv=lcqat4ip_le]]"
+- 'https://www.youtube.com/watch?v=lcqat4ip_le'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -21,12 +23,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/mcp-observability]]"
-    type: related_to
-  - target: "[[concepts/open-telemetry]]"
-    type: related_to
-  - target: "[[entities/alex-volkov]]"
-    type: related_to
+- target: '[[concepts/mcp-observability]]'
+  type: related_to
+- target: '[[concepts/open-telemetry]]'
+  type: related_to
+- target: '[[entities/alex-volkov]]'
+  type: related_to
+summary: observable.tools
 ---
 
 # observable.tools

@@ -1,29 +1,30 @@
 ---
-title: "What is a Scout? — PostHog's Self-driving Agent Pattern"
+title: What is a Scout? — PostHog's Self-driving Agent Pattern
 category: misc
 tags:
-  - posthog
-  - agent
-  - self-driving
-  - agent-skill
-  - signals
+- posthog
+- agent
+- self-driving
+- agent-skill
+- signals
 sources:
-  - "[[sources/what-is-a-scout]]"
-source_url: "https://posthog.com/blog/what-is-a-scout"
-created: "2026-07-01"
-updated: "2026-07-01"
-summary: "Deep dive into PostHog Scouts — small scheduled agents that watch PostHog data, learn what's worth knowing, and emit signals for the self-driving pipeline. By Andy Maguire (Jun 2026)."
+- '[[sources/what-is-a-scout]]'
+source_url: https://posthog.com/blog/what-is-a-scout
+created: '2026-07-01'
+updated: '2026-07-01'
+summary: Deep dive into PostHog Scouts — small scheduled agents that watch PostHog data, learn what's worth knowing, and emit signals for the self-driving pipeline. By Andy Maguire (Jun 2026).
 affinity:
   posthog: 3
 promotion_status: misc
 stub: false
 provenance:
   extracted: 0.88
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.02
 base_confidence: 0.55
 lifecycle: draft
 lifecycle_changed: 2026-07-01
+tier: supporting
 ---
 
 # What is a Scout? — PostHog's Self-driving Agent Pattern
@@ -81,11 +82,11 @@ How a scout remembers: a persistent memory/scratchpad that accumulates findings 
 ## Entities
 
 - [[entities/andy-maguire]] — Author of this post, PostHog engineer building the self-driving pipeline
-- [[posthog]] — The company behind Scouts and Self-driving
+- [[entities/posthog]] — The company behind Scouts and Self-driving
 
 ## Related
 
-- [[posthog]] — PostHog entity page
+- [[entities/posthog]] — PostHog entity page
 - [[entities/andy-maguire]] — Author entity page
-- [[web-posthog-com-newsletter-loops]] — PostHog newsletter on engineering loops, introduced the "self-driving" concept
+- [[misc/web-posthog-com-newsletter-loops]] — PostHog newsletter on engineering loops, introduced the "self-driving" concept
 - [[concepts/agent-loop]] — The agent loop concept that scouts specialize with scheduled execution and signal emission

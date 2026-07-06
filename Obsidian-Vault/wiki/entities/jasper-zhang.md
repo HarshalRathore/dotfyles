@@ -1,33 +1,34 @@
 ---
-title: "Dr. Jasper Zhang"
+title: Dr. Jasper Zhang
 category: entities
 tags:
-  - person
-  - entrepreneur
-  - gpu
-  - ai-infrastructure
-  - aief2025
-  - hyperbolic
+- person
+- entrepreneur
+- gpu
+- ai-infrastructure
+- aief2025
+- hyperbolic
 aliases:
-  - Jasper Zhang
-  - Jasper
+- Jasper Zhang
+- Jasper
 sources:
-  - "[[sources/watchv=m6vbaig1tsm]]"
+- 'https://www.youtube.com/watch?v=m6vbaig1tsm'
 provenance:
   extracted: 0.95
   inferred: 0.05
-  ambiguous: 0.00
-base_confidence: 0.90
+  ambiguous: 0.0
+base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/hyperbolic|Hyperbolic]]"
-    type: implements
-  - target: "[[concepts/gpu-marketplace|GPU Marketplace]]"
-    type: related_to
+- target: '[[entities/hyperbolic|Hyperbolic]]'
+  type: implements
+- target: '[[concepts/gpu-marketplace|GPU Marketplace]]'
+  type: related_to
+summary: Dr. Jasper Zhang
 ---
 
 # Dr. Jasper Zhang

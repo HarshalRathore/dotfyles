@@ -1,35 +1,39 @@
 ---
-title: "The Agentic Economy"
+title: The Agentic Economy
 category: concepts
 tags:
-  - ai-agents
-  - economy
-  - mcp
-  - agent-to-agent
-  - marketplace
-  - agent-autonomy
-aliases: [agentic economy, agent economy, agentic mesh]
+- ai-agents
+- economy
+- mcp
+- agent-to-agent
+- marketplace
+- agent-autonomy
+aliases:
+- agentic economy
+- agent economy
+- agentic mesh
 sources:
-  - "AIEF2025 - The rise of the agentic economy on the shoulders of MCP — Jan Curn, Apify - https://www.youtube.com/watch?v=blW-lSd5CYQ"
+- AIEF2025 - The rise of the agentic economy on the shoulders of MCP — Jan Curn, Apify - https://www.youtube.com/watch?v=blW-lSd5CYQ
 provenance:
-  extracted: 0.60
+  extracted: 0.6
   inferred: 0.35
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/mcp-dynamic-tool-discovery|MCP Dynamic Tool Discovery]]"
-    type: requires
-  - target: "[[concepts/agent-identity-and-payments]]"
-    type: depends_on
-  - target: "[[concepts/actor-model-software]]"
-    type: built_on
-  - target: "[[concepts/emergent-intelligence]]"
-    type: instance_of
+- target: '[[concepts/mcp-dynamic-tool-discovery|MCP Dynamic Tool Discovery]]'
+  type: requires
+- target: '[[concepts/agent-identity-and-payments]]'
+  type: depends_on
+- target: '[[concepts/actor-model-software]]'
+  type: built_on
+- target: '[[concepts/emergent-intelligence]]'
+  type: instance_of
+summary: The Agentic Economy
 ---
 
 # The Agentic Economy

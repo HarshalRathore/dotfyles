@@ -1,10 +1,17 @@
 ---
-title: "Incubator for AI"
+title: Incubator for AI
 category: entities
-tags: [organization, uk-government, ai-public-sector, experimentation, product-building]
-aliases: [i.ai, incubator for ai]
+tags:
+- organization
+- uk-government
+- ai-public-sector
+- experimentation
+- product-building
+aliases:
+- i.ai
+- incubator for ai
 sources:
-  - "AIEF2025 - Why your product needs an AI product manager, and why it should be you — James Lowe, i.AI - https://www.youtube.com/watch?v=xzJdSi2Tsqw"
+- AIEF2025 - Why your product needs an AI product manager, and why it should be you — James Lowe, i.AI - https://www.youtube.com/watch?v=xzJdSi2Tsqw
 provenance:
   extracted: 0.9
   inferred: 0.1
@@ -16,14 +23,15 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/james-lowe]]"
-    type: employs
-  - target: "[[entities/consult-gov-uk]]"
-    type: created
-  - target: "[[entities/minute-ai-transcription]]"
-    type: created
-  - target: "[[entities/theme-finder]]"
-    type: created
+- target: '[[entities/james-lowe]]'
+  type: employs
+- target: '[[entities/consult-gov-uk]]'
+  type: created
+- target: '[[entities/minute-ai-transcription]]'
+  type: created
+- target: '[[entities/theme-finder]]'
+  type: created
+summary: Incubator for AI
 ---
 
 # Incubator for AI

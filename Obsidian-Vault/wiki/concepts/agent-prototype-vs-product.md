@@ -1,20 +1,20 @@
 ---
-title: "Agent Prototype vs Production Product"
+title: Agent Prototype vs Production Product
 category: concepts
 tags:
-  - ai-agents
-  - product-development
-  - production-ai
-  - prototyping
-  - maturity
+- ai-agents
+- product-development
+- production-ai
+- prototyping
+- maturity
 aliases:
-  - prototype vs product
-  - agent maturity
+- prototype vs product
+- agent maturity
 sources:
-  - "AIEF2025 - Turning Fails into Features: Zapier's Hard-Won Eval Lessons — Rafal Willinski, Vitor Balocco, Zapier - https://www.youtube.com/watch?v=blrovBxxN9o"
+- 'AIEF2025 - Turning Fails into Features: Zapier''s Hard-Won Eval Lessons — Rafal Willinski, Vitor Balocco, Zapier - https://www.youtube.com/watch?v=blrovBxxN9o'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.75
 lifecycle: draft
@@ -23,12 +23,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/data-flywheel|Data Flywheel]]"
-    type: transitions-to
-  - target: "[[concepts/probabilistic-software|Probabilistic Software]]"
-    type: relates-to
-  - target: "[[concepts/ai-iteration-loop|AI Iteration Loop]]"
-    type: enters
+- target: '[[concepts/data-flywheel|Data Flywheel]]'
+  type: transitions-to
+- target: '[[concepts/probabilistic-software|Probabilistic Software]]'
+  type: relates-to
+- target: '[[concepts/ai-iteration-loop|AI Iteration Loop]]'
+  type: enters
+summary: Agent Prototype vs Production Product
 ---
 
 # Agent Prototype vs Production Product

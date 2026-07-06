@@ -1,31 +1,41 @@
 ---
 title: Kubestriker
 category: entities
-tags: [kubestriker, polar-signals, profiling, kubernetes, saas, observability, eBPF]
-summary: Polar Signals' SaaS platform for continuous profiling on Kubernetes. Deployed as a daemon set, collects CPU, memory, and GPU profiles via eBPF. Provides flame chart visualization and GPU time profiling.
+tags:
+- kubestriker
+- polar-signals
+- profiling
+- kubernetes
+- saas
+- observability
+- eBPF
+summary: Polar Signals' SaaS platform for continuous profiling on Kubernetes. Deployed as a daemon set, collects CPU, memory, and GPU profiles via eBPF. Provides flame chart visualization and GPU time profi...
 sources:
-  - "AIEF2025 - Continuous Profiling for GPUs — Matthias Loibl, Polar Signals - https://www.youtube.com/watch?v=wt8gzWR6auQ"
-provenance: { extracted: 1.0, inferred: 0.0, ambiguous: 0.0 }
+- AIEF2025 - Continuous Profiling for GPUs — Matthias Loibl, Polar Signals - https://www.youtube.com/watch?v=wt8gzWR6auQ
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
 base_confidence: 0.95
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
-created: 2026-07-05T00:00:00Z
-updated: 2026-07-05T00:00:00Z
+created: 2026-07-05 00:00:00+00:00
+updated: 2026-07-05 00:00:00+00:00
 relationships:
-  - target: "[[entities/polar-signals.md]]"
-    type: implements
-  - target: "[[concepts/continuous-profiling.md]]"
-    type: implements
-  - target: "[[concepts/gpu-profiling.md]]"
-    type: implements
-  - target: "[[concepts/gpu-time-profiling.md]]"
-    type: implements
+- target: '[[entities/polar-signals]]'
+  type: implements
+- target: '[[concepts/continuous-profiling]]'
+  type: implements
+- target: '[[concepts/gpu-profiling]]'
+  type: implements
+- target: '[[concepts/gpu-time-profiling]]'
+  type: implements
 ---
 
 # Kubestriker
 
-[[Kubestriker]] is Polar Signals' SaaS platform for continuous profiling on Kubernetes and Linux hosts. It is the commercial product built on top of the [[entities/prometheus-operator.md|Prometheus Operator]] and [[concepts/ebpf.md|eBPF]] technology.
+[[entities/kubestriker]] is Polar Signals' SaaS platform for continuous profiling on Kubernetes and Linux hosts. It is the commercial product built on top of the [[entities/prometheus-operator|Prometheus Operator]] and [[concepts/ebpf|eBPF]] technology.
 
 ## Deployment
 
@@ -37,11 +47,11 @@ Kubestriker can be deployed in multiple ways:
 ## Capabilities
 
 Kubestriker provides:
-- [[concepts/continuous-profiling.md|Continuous CPU profiling]] via eBPF sampling (20-100 samples/second)
-- [[concepts/continuous-profiling.md|Memory profiling]] with allocation pattern tracking
+- [[concepts/continuous-profiling|Continuous CPU profiling]] via eBPF sampling (20-100 samples/second)
+- [[concepts/continuous-profiling|Memory profiling]] with allocation pattern tracking
 - [[concepts/gpu-profiling|GPU profiling]] with metrics for utilization, memory, power, temperature, and PCIe throughput
 - [[concepts/gpu-time-profiling|GPU time profiling]] tracking actual CUDA kernel execution time
-- [[concepts/flame-chart.md|Flame chart]] visualization with interactive time range selection
+- [[concepts/flame-chart|Flame chart]] visualization with interactive time range selection
 - Cross-correlation of CPU profiles with GPU metrics
 
 ## Integration

@@ -1,16 +1,18 @@
 ---
-title: "Cursor for X"
+title: Cursor for X
 tags:
-  - concept
-  - ai
-  - product-strategy
-  - startups
-aliases: [Cursor for every industry, vertical AI playbook]
+- concept
+- ai
+- product-strategy
+- startups
+aliases:
+- Cursor for every industry
+- vertical AI playbook
 sources:
-  - "[[sources/watchv=3mzs5gnelzm]]"
-summary: "The meta-playbook for building AI applications: apply the Cursor recipe (domain knowledge + workflow packaging + multi-model orchestration + thoughtful UX) to every professional vertical."
+- 'https://www.youtube.com/watch?v=3mzs5gnelzm'
+summary: 'The meta-playbook for building AI applications: apply the Cursor recipe (domain knowledge + workflow packaging + multi-model orchestration + thoughtful UX) to every professional vertical.'
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.55
@@ -18,6 +20,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Cursor for X

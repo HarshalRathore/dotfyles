@@ -1,11 +1,16 @@
 ---
 title: Tower of Babel Story
 category: concepts
-tags: [ai, communication, metaphor, aief2025, framing]
-summary: "Diego Rodriguez (CREA) used the Tower of Babel story as a framing metaphor for language barriers and misunderstanding in AI — comparing stand-up meetings about tech stacks to God creating languages to prevent reaching heaven."
+tags:
+- ai
+- communication
+- metaphor
+- aief2025
+- framing
+summary: Diego Rodriguez (CREA) used the Tower of Babel story as a framing metaphor for language barriers and misunderstanding in AI — comparing stand-up meetings about tech stacks to God creating languages...
 sources:
-  - "[[sources/watchv=l8-5ezsoi5a]]"
-  - "AIEF2025 - Perceptual Evaluations: Evals for Aesthetics — Diego Rodriguez, Krea.ai - https://www.youtube.com/watch?v=h5ItAJuB3Fc"
+- 'https://www.youtube.com/watch?v=l8-5ezsoi5a'
+- 'AIEF2025 - Perceptual Evaluations: Evals for Aesthetics — Diego Rodriguez, Krea.ai - https://www.youtube.com/watch?v=h5ItAJuB3Fc'
 provenance:
   extracted: 0.95
   inferred: 0.05
@@ -17,10 +22,10 @@ created: 2026-07-04
 lifecycle_changed: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/voice-as-primary-interface]]"
-    type: related_to
-  - target: "[[entities/diego-rodriguez]]"
-    type: related_to
+- target: '[[concepts/voice-as-primary-interface]]'
+  type: related_to
+- target: '[[entities/diego-rodriguez]]'
+  type: related_to
 ---
 
 # Tower of Babel Story

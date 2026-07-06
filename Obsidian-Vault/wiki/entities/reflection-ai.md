@@ -4,7 +4,7 @@ category: entities
 tags: [company, ai, autonomous-coding, reinforcement-learning, llm, aief2025]
 aliases: [reflection ai]
 sources:
-  - "[[sources/watchv=qludzkvfp6a]]"
+  - "https://www.youtube.com/watch?v=qludzkvfp6a"
 summary: "Company founded by Aakanksha Chowdhery (former Google PALM/Gemini researcher) focused on pushing the frontier for autonomous coding with reinforcement learning."
 provenance:
   extracted: 0.85

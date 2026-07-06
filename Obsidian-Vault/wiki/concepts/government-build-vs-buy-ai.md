@@ -2,10 +2,12 @@
 title: Government Build-vs-Buy AI
 category: concepts
 tags: [build-vs-buy, government-ai, national-security, custom-models, frontier-partnerships, ai-strategy]
-summary: The government AI procurement dilemma: build custom models and infrastructure vs. buy commercial solutions, constrained by classified data, compliance requirements, and mission-critical stakes.
+summary: >-
+  The government AI procurement dilemma: build custom models and infrastructure vs. buy commercial solutions, constrained by classified data, compliance requirements, and mission-critical stakes.
 sources:
-  - "[[sources/watchv=tnsgx36ly0q]]"
-provenance: {extracted: 0.75, inferred: 0.20, ambiguous: 0.05}
+  - "https://www.youtube.com/watch?v=tnsgx36ly0q"
+provenance: >-
+  {extracted: 0.75, inferred: 0.20, ambiguous: 0.05}
 base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-04

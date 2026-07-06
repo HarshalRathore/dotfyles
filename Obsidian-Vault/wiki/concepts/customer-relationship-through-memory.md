@@ -4,7 +4,7 @@ category: concepts
 tags: [agent-memory, customer-relationships, persistence, agent-design, personalization, agent-believability]
 summary: "The principle that agents build genuine customer relationships through persistent memory — remembering past interactions, preferences, and context to create continuous personalized experiences."
 sources:
-  - "[[sources/watchv=w2hvdb4jbjs]]"
+  - "https://www.youtube.com/watch?v=w2hvdb4jbjs"
 provenance:
   extracted: 0.85
   inferred: 0.10

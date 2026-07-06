@@ -1,24 +1,25 @@
 ---
-title: "Orchestrator-Worker Pattern"
+title: Orchestrator-Worker Pattern
 tags:
-  - agent
-  - ai
-  - architecture
-  - design-pattern
-  - deep-research
-  - parallelization
+- agent
+- ai
+- architecture
+- design-pattern
+- deep-research
+- parallelization
 sources:
-  - "[[sources/watchv=72xxwkd8jrk]]"
-summary: "Agent design pattern where an LLM orchestrator decomposes a complex task into simpler sub-questions, dispatches them in parallel to worker LLMs, then aggregates results into a coherent answer."
+- 'https://www.youtube.com/watch?v=72xxwkd8jrk'
+summary: Agent design pattern where an LLM orchestrator decomposes a complex task into simpler sub-questions, dispatches them in parallel to worker LLMs, then aggregates results into a coherent answer.
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Orchestrator-Worker Pattern

@@ -1,27 +1,28 @@
 ---
-title: "Harold Cohen - ARIAN"
+title: Harold Cohen - ARIAN
 category: concepts
 tags:
-  - ai-art
-  - ai-history
-  - generative-art
-  - computational-creativity
+- ai-art
+- ai-history
+- generative-art
+- computational-creativity
 sources:
-  - "[[sources/watchv=p370d8kmlkw]]"
+- 'https://www.youtube.com/watch?v=p370d8kmlkw'
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 tier: peripheral
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/generative-media]]"
-    type: related_to
-  - target: "[[concepts/dalle-inflection-point]]"
-    type: related_to
+- target: '[[concepts/generative-media]]'
+  type: related_to
+- target: '[[concepts/dalle-inflection-point]]'
+  type: related_to
+summary: Harold Cohen - ARIAN
 ---
 
 # Harold Cohen - ARIAN

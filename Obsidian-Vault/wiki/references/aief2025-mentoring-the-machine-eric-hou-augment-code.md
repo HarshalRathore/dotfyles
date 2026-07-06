@@ -1,31 +1,35 @@
 ---
-title: "AIEF2025 - Mentoring the Machine — Eric Hou, Augment Code"
+title: AIEF2025 - Mentoring the Machine — Eric Hou, Augment Code
 tags:
-  - reference
-  - talk
-  - aief2025
-  - ai-agents
-  - mentoring
-  - augment-code
+- reference
+- talk
+- aief2025
+- ai-agents
+- mentoring
+- augment-code
 aliases:
-  - Mentoring the Machine
-  - Eric Hou AIEF2025
+- Mentoring the Machine
+- Eric Hou AIEF2025
 sources:
-  - "AIEF2025 - Mentoring the Machine — Eric Hou, Augment Code - https://www.youtube.com/watch?v=Zniw5c9_jx8"
+- AIEF2025 - Mentoring the Machine — Eric Hou, Augment Code - https://www.youtube.com/watch?v=Zniw5c9_jx8
 provenance:
   extracted: 0.95
   inferred: 0.03
   ambiguous: 0.02
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: [[entities/eric-hou|Eric Hou]]
-    type: speaker
-  - target: [[entities/augment-code|Augment Code]]
-    type: affiliation
+- target:
+  - - entities/eric-hou|Eric Hou
+  type: speaker
+- target:
+  - - entities/augment-code|Augment Code
+  type: affiliation
+category: references
+summary: AIEF2025 - Mentoring the Machine — Eric Hou, Augment Code
 ---
 
 # AIEF2025 - Mentoring the Machine — Eric Hou, Augment Code

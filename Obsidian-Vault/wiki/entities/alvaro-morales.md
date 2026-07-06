@@ -4,7 +4,7 @@ category: entities
 tags: [person, entrepreneur, pricing, billing, ai-engineering]
 aliases: [Alvaro]
 sources:
-  - "[[sources/watchv=6wqylqb0odc]]"
+  - "https://www.youtube.com/watch?v=6wqylqb0odc"
 summary: "Co-founder and CEO of Orb, a billing infrastructure company for AI and SaaS companies. Speaker on AI pricing strategy and monetization."
 provenance:
   extracted: 0.80

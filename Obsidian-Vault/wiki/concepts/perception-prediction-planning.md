@@ -1,32 +1,32 @@
 ---
-title: "Perception-Prediction-Planning"
+title: Perception-Prediction-Planning
 category: concepts
 tags:
-  - perception
-  - prediction
-  - planning
-  - autonomous-driving
-  - modular-pipeline
+- perception
+- prediction
+- planning
+- autonomous-driving
+- modular-pipeline
 aliases:
-  - perception prediction planning
-  - PPP pipeline
+- perception prediction planning
+- PPP pipeline
 sources:
-  - "AIEF2025 - Waymo's EMMA: Teaching Cars to Think - Jyh Jing Hwang, Waymo - https://www.youtube.com/watch?v=iS9YFW28XyM"
-summary: "The traditional modular architecture for autonomous driving systems, consisting of three sequential stages: perception (understand the world), prediction (forecast future states), and planning (determine driving actions)."
+- 'AIEF2025 - Waymo''s EMMA: Teaching Cars to Think - Jyh Jing Hwang, Waymo - https://www.youtube.com/watch?v=iS9YFW28XyM'
+summary: 'The traditional modular architecture for autonomous driving systems, consisting of three sequential stages: perception (understand the world), prediction (forecast future states), and planning (det...'
 provenance:
-  extracted: 0.90
-  inferred: 0.10
-  ambiguous: 0.00
+  extracted: 0.9
+  inferred: 0.1
+  ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/end-to-end-driving]]"
-    type: replaced_by
-  - target: "[[concepts/foundation-models-autonomous-driving]]"
-    type: related_to
+- target: '[[concepts/end-to-end-driving]]'
+  type: replaced_by
+- target: '[[concepts/foundation-models-autonomous-driving]]'
+  type: related_to
 ---
 
 # Perception-Prediction-Planning

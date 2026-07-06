@@ -1,21 +1,21 @@
 ---
-title: "Prefill-Decode Throughput Tradeoff"
+title: Prefill-Decode Throughput Tradeoff
 tags:
-  - inference
-  - llm
-  - performance
-  - optimization
-  - throughput
-  - serving
+- inference
+- llm
+- performance
+- optimization
+- throughput
+- serving
 aliases:
-  - prefill vs decode throughput
-  - compute-bound vs memory-bound inference
-  - prefill decode gap
+- prefill vs decode throughput
+- compute-bound vs memory-bound inference
+- prefill decode gap
 sources:
-  - "[[sources/watchv=deff3j8t5pk]]"
-summary: "In transformer inference, the prefill phase (processing input tokens) is compute-bound, achieving ~4x higher throughput than the decode phase (autoregressive generation), which is memory-bandwidth-bound on H100 GPUs."
+- 'https://www.youtube.com/watch?v=deff3j8t5pk'
+summary: In transformer inference, the prefill phase (processing input tokens) is compute-bound, achieving ~4x higher throughput than the decode phase (autoregressive generation), which is memory-bandwidth-...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.65
@@ -23,6 +23,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Prefill-Decode Throughput Tradeoff

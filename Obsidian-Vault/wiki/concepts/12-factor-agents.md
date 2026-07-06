@@ -1,16 +1,16 @@
 ---
-title: "12-Factor Agents"
+title: 12-Factor Agents
 tags:
-  - agent
-  - patterns
-  - reliability
-  - architecture
-  - methodology
+- agent
+- patterns
+- reliability
+- architecture
+- methodology
 sources:
-  - "[[sources/watchv=8kmatybvduw]]"
-summary: "Codified set of 12 patterns for building reliable LLM-based agents, grounded in software engineering principles rather than AI-specific abstractions. Created by Dex Horthy, HumanLayer."
+- 'https://www.youtube.com/watch?v=8kmatybvduw'
+summary: Codified set of 12 patterns for building reliable LLM-based agents, grounded in software engineering principles rather than AI-specific abstractions. Created by Dex Horthy, HumanLayer.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.55
@@ -18,6 +18,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # 12-Factor Agents

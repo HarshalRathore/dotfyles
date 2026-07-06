@@ -4,7 +4,7 @@ category: concepts
 tags: [gpu-scaling, auto-scaling, burst-scaling, gpu-orchestration, ml-infrastructure]
 summary: Strategies for scaling GPU compute resources to handle inference demand spikes — including Luma's approach of repurposing training clusters and auto-scaling on burst detection.
 sources:
-  - "[[sources/watchv=ey4o9m6aswi]]"
+  - "https://www.youtube.com/watch?v=ey4o9m6aswi"
 provenance:
   extracted: 0.85
   inferred: 0.10
@@ -16,13 +16,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[inference-serving]]"
+  - target: "[[concepts/inference-serving]]"
     type: related_to
-  - target: "[[distributed-inference]]"
+  - target: "[[concepts/distributed-inference]]"
     type: related_to
-  - target: "[[fair-scheduling]]"
+  - target: "[[concepts/fair-scheduling]]"
     type: related_to
-  - target: "[[cold-start-recommendation]]"
+  - target: "[[concepts/cold-start-recommendation]]"
     type: related_to
 ---
 

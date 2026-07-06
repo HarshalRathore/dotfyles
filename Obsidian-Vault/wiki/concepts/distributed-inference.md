@@ -4,7 +4,7 @@ category: concepts
 tags: [inference, multi-node, gpu-distribution, distributed-systems, video-models]
 summary: Running model inference across multiple GPUs and nodes to achieve acceptable latency for large models, particularly video generation models that require significant compute.
 sources:
-  - "[[sources/watchv=ey4o9m6aswi]]"
+  - "https://www.youtube.com/watch?v=ey4o9m6aswi"
 provenance:
   extracted: 0.80
   inferred: 0.15
@@ -16,13 +16,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[inference-serving]]"
+  - target: "[[concepts/inference-serving]]"
     type: related_to
-  - target: "[[decoupled-architecture]]"
+  - target: "[[concepts/decoupled-architecture]]"
     type: extends
-  - target: "[[gpu-scaling]]"
+  - target: "[[concepts/gpu-scaling]]"
     type: related_to
-  - target: "[[enterprise-inference-infrastructure]]"
+  - target: "[[concepts/enterprise-inference-infrastructure]]"
     type: related_to
 ---
 

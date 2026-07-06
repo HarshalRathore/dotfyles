@@ -1,25 +1,35 @@
 ---
 title: Enterprise AI Administration
 category: concepts
-tags: [enterprise-ai, administration, governance, monitoring, pii, phi, third-party-tools, zscaler, surepath]
-summary: "The challenge of administering and tracking usage of third-party AI tools in enterprise environments, including PII/PHI monitoring, traffic interception, and compliance — solved with tools like SurePath and Zscaler."
+tags:
+- enterprise-ai
+- administration
+- governance
+- monitoring
+- pii
+- phi
+- third-party-tools
+- zscaler
+- surepath
+summary: The challenge of administering and tracking usage of third-party AI tools in enterprise environments, including PII/PHI monitoring, traffic interception, and compliance — solved with tools like Sur...
 provenance:
   extracted: 0.85
   inferred: 0.15
-  ambiguous: 0.00
-base_confidence: 0.80
+  ambiguous: 0.0
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/evals-as-moat]]"
-    type: related_to
-  - target: "[[concepts/agent-middleware-trust-boundary]]"
-    type: related_to
-  - target: "[[concepts/observability-for-enterprise-trust]]"
-    type: related_to
+- target: '[[concepts/evals-as-moat]]'
+  type: related_to
+- target: '[[concepts/agent-middleware-trust-boundary]]'
+  type: related_to
+- target: '[[concepts/observability-for-enterprise-trust]]'
+  type: related_to
+sources: []
 ---
 
 **Enterprise AI Administration** refers to the challenge of administering, tracking, and governing the usage of third-party AI tools and APIs within enterprise environments. As organizations adopt generative AI tools, they need visibility into how employees use these tools, what data is being sent, and whether sensitive information (PII, PHI) is being exposed. ^[extracted]

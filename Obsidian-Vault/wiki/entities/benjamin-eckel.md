@@ -1,36 +1,40 @@
 ---
-title: "Benjamin Eckel"
+title: Benjamin Eckel
 category: entities
 tags:
-  - person
-  - co-founder
-  - cto
-  - dylibso
-  - mcp
-  - observability
-  - aief2025
-aliases: [Benjamin Eckel, benjamineckel, Ben Eckel]
+- person
+- co-founder
+- cto
+- dylibso
+- mcp
+- observability
+- aief2025
+aliases:
+- Benjamin Eckel
+- benjamineckel
+- Ben Eckel
 sources:
-  - "[[sources/watchv=lcqat4ip_le]]"
+- 'https://www.youtube.com/watch?v=lcqat4ip_le'
 provenance:
   extracted: 0.92
   inferred: 0.06
   ambiguous: 0.02
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/dylibso]]"
-    type: related_to
-  - target: "[[entities/mcp.run]]"
-    type: related_to
-  - target: "[[concepts/mcp-observability]]"
-    type: related_to
-  - target: "[[entities/observable.tools]]"
-    type: related_to
+- target: '[[entities/dylibso]]'
+  type: related_to
+- target: '[[entities/mcp.run]]'
+  type: related_to
+- target: '[[concepts/mcp-observability]]'
+  type: related_to
+- target: '[[entities/observable.tools]]'
+  type: related_to
+summary: Benjamin Eckel
 ---
 
 # Benjamin Eckel

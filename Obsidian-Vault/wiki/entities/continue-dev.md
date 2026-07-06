@@ -1,28 +1,36 @@
 ---
 title: continue.dev
 category: entities
-tags: [tool, open-source, code-search, rag, coding-agent, vscode-extension]
-aliases: [Continue, continue.dev]
-summary: "Open-source coding assistant that implements a classic RAG plus re-ranking approach for 'chat with your codebase' applications. Found Voyage Code 3 to be the best embedding model for code understanding."
+tags:
+- tool
+- open-source
+- code-search
+- rag
+- coding-agent
+- vscode-extension
+aliases:
+- Continue
+- continue.dev
+summary: Open-source coding assistant that implements a classic RAG plus re-ranking approach for 'chat with your codebase' applications. Found Voyage Code 3 to be the best embedding model for code understan...
 sources:
-  - "AIEF2025 - The State of AI Powered Search and Retrieval — Frank Liu, MongoDB (prev Voyage AI) - https://www.youtube.com/watch?v=pIPtpBZ6TKk"
+- AIEF2025 - The State of AI Powered Search and Retrieval — Frank Liu, MongoDB (prev Voyage AI) - https://www.youtube.com/watch?v=pIPtpBZ6TKk
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.07
   ambiguous: 0.03
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/rag-pipeline-architecture]]"
-    type: implements
-  - target: "[[entities/voyage-ai]]"
-    type: uses
-  - target: "[[concepts/domain-specific-embedding-models]]"
-    type: exemplifies
+- target: '[[concepts/rag-pipeline-architecture]]'
+  type: implements
+- target: '[[entities/voyage-ai]]'
+  type: uses
+- target: '[[concepts/domain-specific-embedding-models]]'
+  type: exemplifies
 ---
 
 # continue.dev

@@ -1,16 +1,16 @@
 ---
-title: "Stack Selection for AI Code Generation"
+title: Stack Selection for AI Code Generation
 category: concepts
 tags:
-  - github-copilot
-  - vibe-coding
-  - stack-selection
-  - ai-coding
-  - best-practices
+- github-copilot
+- vibe-coding
+- stack-selection
+- ai-coding
+- best-practices
 sources:
-  - "[[sources/watchv=eafp8pds7h4]]"
+- 'https://www.youtube.com/watch?v=eafp8pds7h4'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.55
@@ -18,6 +18,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Stack Selection for AI Code Generation
 ---
 
 # Stack Selection for AI Code Generation

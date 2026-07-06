@@ -1,23 +1,23 @@
 ---
-title: "Vibe Coding as Agentic AI"
+title: Vibe Coding as Agentic AI
 category: concepts
 tags:
-  - vibe-coding
-  - agentic-ai
-  - cursor
-  - windsurf
-  - prototype
+- vibe-coding
+- agentic-ai
+- cursor
+- windsurf
+- prototype
 sources:
-  - "[[sources/watchv=lqq_lcbajcc]]"
+- 'https://www.youtube.com/watch?v=lqq_lcbajcc'
 relationships:
-  - target: "[[concepts/vibe-coding|Vibe Coding]]"
-    type: implements
-  - target: "[[concepts/vibe-engineering|Vibe Engineering]]"
-    type: extends
-  - target: "[[concepts/agent-loop|Agent Loop]]"
-    type: implements
+- target: '[[concepts/vibe-coding|Vibe Coding]]'
+  type: implements
+- target: '[[concepts/vibe-engineering|Vibe Engineering]]'
+  type: extends
+- target: '[[concepts/agent-loop|Agent Loop]]'
+  type: implements
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.75
@@ -25,6 +25,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Vibe Coding as Agentic AI
 ---
 
 # Vibe Coding as Agentic AI

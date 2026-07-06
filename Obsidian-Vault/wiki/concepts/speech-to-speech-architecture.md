@@ -1,17 +1,17 @@
 ---
-title: "Speech-to-Speech Architecture"
+title: Speech-to-Speech Architecture
 tags:
-  - ai
-  - voice
-  - architecture
-  - speech
-  - multimodal
+- ai
+- voice
+- architecture
+- speech
+- multimodal
 sources:
-  - "[[sources/watchv=-oxiljtjxqu]]"
-  - "[[sources/watchv=ia4lzjh9sts]]"
-summary: "An end-to-end model architecture that handles transcription, reasoning, and speech generation in a single pass, enabling low-latency, expressive voice interactions."
+- 'https://www.youtube.com/watch?v=-oxiljtjxqu'
+- 'https://www.youtube.com/watch?v=ia4lzjh9sts'
+summary: An end-to-end model architecture that handles transcription, reasoning, and speech generation in a single pass, enabling low-latency, expressive voice interactions.
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.42
@@ -20,10 +20,11 @@ tier: supporting
 created: 2026-07-03
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/voice-agents]]"
-    type: related_to
-  - target: "[[concepts/turn-detection]]"
-    type: related_to
+- target: '[[concepts/voice-agents]]'
+  type: related_to
+- target: '[[concepts/turn-detection]]'
+  type: related_to
+category: concepts
 ---
 
 # Speech-to-Speech Architecture

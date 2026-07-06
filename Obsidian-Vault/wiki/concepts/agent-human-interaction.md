@@ -1,18 +1,18 @@
 ---
-title: "Agent-Human Interaction"
+title: Agent-Human Interaction
 category: concepts
 tags:
-  - agents
-  - human-ai
-  - adoption
-  - ux
+- agents
+- human-ai
+- adoption
+- ux
 aliases:
-  - Human-Agent Interaction
-  - Agent UX
+- Human-Agent Interaction
+- Agent UX
 sources:
-  - "AIEF2025 - AI Consulting in Practice – NLW, Superintelligent, @AIDailyBrief - https://www.youtube.com/watch?v=ehQFj6VmuI8"
+- AIEF2025 - AI Consulting in Practice – NLW, Superintelligent, @AIDailyBrief - https://www.youtube.com/watch?v=ehQFj6VmuI8
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -22,10 +22,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/agent-adoption-surge|Agent Adoption Surge]]"
-    type: follows
-  - target: "[[concepts/pilot-to-scale-bottleneck|Pilot-to-Scale Bottleneck]]"
-    type: component-of
+- target: '[[concepts/agent-adoption-surge|Agent Adoption Surge]]'
+  type: follows
+- target: '[[concepts/pilot-to-scale-bottleneck|Pilot-to-Scale Bottleneck]]'
+  type: component-of
+summary: Agent-Human Interaction
 ---
 
 # Agent-Human Interaction

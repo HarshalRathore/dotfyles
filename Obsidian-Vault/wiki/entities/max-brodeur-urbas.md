@@ -1,14 +1,14 @@
 ---
-title: "Max Brodeur-Urbas"
+title: Max Brodeur-Urbas
 category: entities
 tags:
-  - person
-  - founder
-  - gumloop
-  - y-combinator
-  - aief2025
-  - ai-native
-  - small-team
+- person
+- founder
+- gumloop
+- y-combinator
+- aief2025
+- ai-native
+- small-team
 summary: Founder of Gumloop. YC Winter 2024. Raised Series A as a team of two. Built workflow automation tool from AutoGPT UI. Advocates for scaling with under 10 people.
 provenance:
   extracted: 0.85
@@ -21,12 +21,13 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/gumloop]]"
-    type: implements
-  - target: "[[concepts/small-team-scaling]]"
-    type: related_to
-  - target: "[[concepts/product-led-hiring]]"
-    type: related_to
+- target: '[[entities/gumloop]]'
+  type: implements
+- target: '[[concepts/small-team-scaling]]'
+  type: related_to
+- target: '[[concepts/product-led-hiring]]'
+  type: related_to
+sources: []
 ---
 
 ## Max Brodeur-Urbas

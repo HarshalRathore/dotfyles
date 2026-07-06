@@ -1,14 +1,21 @@
 ---
 title: Intent Understanding in Search
 category: concepts
-tags: [search, intent, semantic-understanding, user-experience, ai-powered-search]
-aliases: [search intent, query intent]
-summary: "The capability of AI-powered search systems to infer the user's underlying goal from their query, rather than matching surface-level keywords — enabling results that match what the user wants, not just what they said."
+tags:
+- search
+- intent
+- semantic-understanding
+- user-experience
+- ai-powered-search
+aliases:
+- search intent
+- query intent
+summary: The capability of AI-powered search systems to infer the user's underlying goal from their query, rather than matching surface-level keywords — enabling results that match what the user wants, not...
 sources:
-  - "AIEF2025 - The State of AI Powered Search and Retrieval — Frank Liu, MongoDB (prev Voyage AI) - https://www.youtube.com/watch?v=pIPtpBZ6TKk"
+- AIEF2025 - The State of AI Powered Search and Retrieval — Frank Liu, MongoDB (prev Voyage AI) - https://www.youtube.com/watch?v=pIPtpBZ6TKk
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.75
 lifecycle: draft
@@ -17,12 +24,12 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/ai-powered-search]]"
-    type: used_in
-  - target: "[[concepts/semantic-similarity]]"
-    type: extends
-  - target: "[[concepts/query-rewriting]]"
-    type: related_to
+- target: '[[concepts/ai-powered-search]]'
+  type: used_in
+- target: '[[concepts/semantic-similarity]]'
+  type: extends
+- target: '[[concepts/query-rewriting]]'
+  type: related_to
 ---
 
 # Intent Understanding in Search

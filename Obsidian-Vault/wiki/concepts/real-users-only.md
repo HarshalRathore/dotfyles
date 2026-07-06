@@ -2,29 +2,29 @@
 title: Real Users Only
 category: concepts
 tags:
-  - user-research
-  - product-development
-  - feedback-loops
-  - personas
-  - ux
-summary: The principle that feedback loops require real people with names, emails, and phone numbers — not personas or abstract user segments. You must know your users personally and understand how they solve the problem today.
+- user-research
+- product-development
+- feedback-loops
+- personas
+- ux
+summary: The principle that feedback loops require real people with names, emails, and phone numbers — not personas or abstract user segments. You must know your users personally and understand how they sol...
 sources:
-  - AIEF2025 - Shipping something to someone always wins — Kenneth Auchenberg (ex. Stripe, VSCode) - https://www.youtube.com/watch?v=mHzJhXppwUA
+- AIEF2025 - Shipping something to someone always wins — Kenneth Auchenberg (ex. Stripe, VSCode) - https://www.youtube.com/watch?v=mHzJhXppwUA
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.92
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
-created: 2026-07-05T00:00:00Z
-updated: 2026-07-05T00:00:00Z
+created: 2026-07-05 00:00:00+00:00
+updated: 2026-07-05 00:00:00+00:00
 relationships:
-  - target: "[[concepts/rapid-iteration-loop]]"
-    type: extends
-  - target: "[[concepts/high-bandwidth-feedback]]"
-    type: related_to
+- target: '[[concepts/rapid-iteration-loop]]'
+  type: extends
+- target: '[[concepts/high-bandwidth-feedback]]'
+  type: related_to
 ---
 
 ## Definition

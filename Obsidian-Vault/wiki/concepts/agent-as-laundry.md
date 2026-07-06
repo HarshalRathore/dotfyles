@@ -1,25 +1,29 @@
 ---
-title: "Agent as Laundry"
+title: Agent as Laundry
 category: concepts
 tags:
-  - async-agents
-  - agent-metaphor
-  - background-tasks
-  - coding-agents
-  - aief2025
+- async-agents
+- agent-metaphor
+- background-tasks
+- coding-agents
+- aief2025
 sources:
-  - "AIEF2025 - Your Coding Agent Just Got Cloned And Your Brain Isn't Ready - Rustin Banks, Google Jules - https://www.youtube.com/watch?v=X4BwOu0GWb8"
+- AIEF2025 - Your Coding Agent Just Got Cloned And Your Brain Isn't Ready - Rustin Banks, Google Jules - https://www.youtube.com/watch?v=X4BwOu0GWb8
 relationships:
-  - target: [[concepts/asynchronous-coding-agents|Asynchronous Coding Agents]]
-    type: exemplifies
-  - target: [[concepts/parallel-agent-workflows|Parallel Agent Workflows]]
-    type: enables
-  - target: [[concepts/ai-audits-accessibility-security|AI Audits: Accessibility and Security]]
-    type: relates_to
-  - target: [[concepts/agent-at-scale|Agent at Scale]]
-    type: relates_to
+- target:
+  - - concepts/asynchronous-coding-agents|Asynchronous Coding Agents
+  type: exemplifies
+- target:
+  - - concepts/parallel-agent-workflows|Parallel Agent Workflows
+  type: enables
+- target:
+  - - concepts/ai-audits-accessibility-security|AI Audits: Accessibility and Security
+  type: relates_to
+- target:
+  - - concepts/agent-at-scale|Agent at Scale
+  type: relates_to
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.07
   ambiguous: 0.03
 base_confidence: 0.85
@@ -27,6 +31,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Agent as Laundry
 ---
 
 # Agent as Laundry

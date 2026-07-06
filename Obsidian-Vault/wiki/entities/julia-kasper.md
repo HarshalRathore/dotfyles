@@ -1,14 +1,14 @@
 ---
-title: "Julia Kasper"
+title: Julia Kasper
 category: entities
 tags:
-  - person
-  - microsoft
-  - mcp
-  - azure
-  - api-management
+- person
+- microsoft
+- mcp
+- azure
+- api-management
 sources:
-  - "[[sources/watchv=phbghukam-w]]"
+- 'https://www.youtube.com/watch?v=phbghukam-w'
 provenance:
   extracted: 0.95
   inferred: 0.03
@@ -20,10 +20,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/microsoft]]"
-    type: related_to
-  - target: "[[entities/den-delimarsky]]"
-    type: related_to
+- target: '[[entities/microsoft]]'
+  type: related_to
+- target: '[[entities/den-delimarsky]]'
+  type: related_to
+summary: Julia Kasper
 ---
 
 # Julia Kasper

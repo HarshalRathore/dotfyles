@@ -1,21 +1,21 @@
 ---
-title: "Agent Tool Calling"
+title: Agent Tool Calling
 category: concepts
 tags:
-  - tool-calling
-  - agents
-  - function-calling
-  - llm-capabilities
-  - mcp
-  - api-exposure
+- tool-calling
+- agents
+- function-calling
+- llm-capabilities
+- mcp
+- api-exposure
 aliases:
-  - function calling
-  - tool use by LLMs
+- function calling
+- tool use by LLMs
 sources:
-  - "AIEF2025 - Building Agents (the hard parts!) - Rita Kozlov, Cloudflare - https://www.youtube.com/watch?v=j_TKDweOsYE"
-summary: "The capability of LLMs to invoke external tools and APIs as part of their reasoning process. A foundational capability that has matured significantly, enabling MCP as a standard for exposing APIs to LLMs."
+- AIEF2025 - Building Agents (the hard parts!) - Rita Kozlov, Cloudflare - https://www.youtube.com/watch?v=j_TKDweOsYE
+summary: The capability of LLMs to invoke external tools and APIs as part of their reasoning process. A foundational capability that has matured significantly, enabling MCP as a standard for exposing APIs t...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -25,12 +25,12 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/model-context-protocol]]"
-    type: enables
-  - target: "[[concepts/agent-architecture]]"
-    type: core_component_of
-  - target: "[[concepts/openapi-for-agents]]"
-    type: related_to
+- target: '[[concepts/model-context-protocol]]'
+  type: enables
+- target: '[[concepts/agent-architecture]]'
+  type: core_component_of
+- target: '[[concepts/openapi-for-agents]]'
+  type: related_to
 ---
 
 # Agent Tool Calling

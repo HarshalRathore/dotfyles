@@ -1,12 +1,18 @@
 ---
-title: "Jasper"
+title: Jasper
 category: entities
-tags: [company, ai, writing, marketing, saas]
-aliases: [Jasper AI]
+tags:
+- company
+- ai
+- writing
+- marketing
+- saas
+aliases:
+- Jasper AI
 sources:
-  - "[[sources/watchv=1c3szbaxomw]]"
-  - "[[sources/watchv=3mzs5gnelzm]]"
-summary: "AI-powered writing platform for marketing teams. Notable as a cautionary tale — first-mover brand raised $125M, but its prompt-in-a-textbox product was crushed by ChatGPT, illustrating that execution is the only moat in AI."
+- 'https://www.youtube.com/watch?v=1c3szbaxomw'
+- 'https://www.youtube.com/watch?v=3mzs5gnelzm'
+summary: AI-powered writing platform for marketing teams. Notable as a cautionary tale — first-mover brand raised $125M, but its prompt-in-a-textbox product was crushed by ChatGPT, illustrating that executi...
 provenance:
   extracted: 0.75
   inferred: 0.18

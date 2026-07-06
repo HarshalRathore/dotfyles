@@ -1,16 +1,16 @@
 ---
-title: "Interactive Reasoning Benchmarks"
+title: Interactive Reasoning Benchmarks
 tags:
-  - ai
-  - benchmarking
-  - agi
-  - reasoning
-  - evaluation
+- ai
+- benchmarking
+- agi
+- reasoning
+- evaluation
 sources:
-  - "[[sources/watchv=3xmfpwjg8pg]]"
-summary: "A class of AI benchmarks where agents must explore controlled environments with defined rules and sparse rewards, infer goals through interaction, and demonstrate skill acquisition — moving beyond single-turn evaluation toward measuring human-like intelligence."
+- 'https://www.youtube.com/watch?v=3xmfpwjg8pg'
+summary: A class of AI benchmarks where agents must explore controlled environments with defined rules and sparse rewards, infer goals through interaction, and demonstrate skill acquisition — moving beyond...
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.55
@@ -18,6 +18,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 # Interactive Reasoning Benchmarks
 

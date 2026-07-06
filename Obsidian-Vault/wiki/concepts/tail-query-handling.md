@@ -4,7 +4,7 @@ category: concepts
 tags: [search, tail-queries, data-sparsity, llm, e-commerce, cold-start]
 summary: "Strategies for handling low-frequency, highly specific search queries that lack sufficient engagement data for traditional ML models — where LLMs with proper context can excel."
 sources:
-  - "[[sources/watchv=pjavhm_3ljg]]"
+  - "https://www.youtube.com/watch?v=pjavhm_3ljg"
 provenance:
   extracted: 0.70
   inferred: 0.25

@@ -4,7 +4,7 @@ category: concepts
 tags: [ai-reliability, production-ai, revenue, practical-ai, aief2025]
 summary: "The thesis that reliability is the direct driver of revenue in AI applications — every reliable use case unlocks a billion-dollar app. Articulated by Federalist AI at AIEF2025."
 sources:
-  - "[[sources/watchv=l8-5ezsoi5a]]"
+  - "https://www.youtube.com/watch?v=l8-5ezsoi5a"
 provenance:
   extracted: 0.85
   inferred: 0.15

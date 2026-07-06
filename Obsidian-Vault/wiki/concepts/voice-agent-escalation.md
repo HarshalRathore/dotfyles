@@ -1,16 +1,16 @@
 ---
-title: "Voice Agent Escalation and Context Handoff"
+title: Voice Agent Escalation and Context Handoff
 category: concepts
 tags:
-  - voice-ai
-  - human-agent
-  - escalation
-  - workflow-integration
-  - customer-service
+- voice-ai
+- human-agent
+- escalation
+- workflow-integration
+- customer-service
 summary: Patterns for escalating voice AI agent calls to human agents with full context handoff, including transcript summaries and configurable escalation paths.
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.75
 lifecycle: draft
@@ -19,12 +19,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/finvoice]]"
-    type: implements
-  - target: "[[concepts/voice-agents]]"
-    type: extends
-  - target: "[[concepts/ai-observability-production-logging]]"
-    type: uses
+- target: '[[concepts/finvoice]]'
+  type: implements
+- target: '[[concepts/voice-agents]]'
+  type: extends
+- target: '[[concepts/ai-observability-production-logging]]'
+  type: uses
+sources: []
 ---
 
 # Voice Agent Escalation and Context Handoff

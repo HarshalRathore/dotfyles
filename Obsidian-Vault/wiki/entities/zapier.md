@@ -1,19 +1,19 @@
 ---
-title: "Zapier"
+title: Zapier
 category: entities
 tags:
-  - company
-  - automation
-  - ai-agents
-  - saas
-  - ai-first
+- company
+- automation
+- ai-agents
+- saas
+- ai-first
 aliases:
-  - Zapier
+- Zapier
 sources:
-  - "AIEF2025 - Turning Fails into Features: Zapier's Hard-Won Eval Lessons — Rafal Willinski, Vitor Balocco, Zapier - https://www.youtube.com/watch?v=blrovBxxN9o"
-  - "AIEF2025 - The rise of the agentic economy on the shoulders of MCP — Jan Curn, Apify - https://www.youtube.com/watch?v=blW-lSd5CYQ"
+- 'AIEF2025 - Turning Fails into Features: Zapier''s Hard-Won Eval Lessons — Rafal Willinski, Vitor Balocco, Zapier - https://www.youtube.com/watch?v=blrovBxxN9o'
+- AIEF2025 - The rise of the agentic economy on the shoulders of MCP — Jan Curn, Apify - https://www.youtube.com/watch?v=blW-lSd5CYQ
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -23,12 +23,13 @@ tier: core
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/braintrust|Braintrust]]"
-    type: uses
-  - target: "[[concepts/evals-testing-pyramid|Evals Testing Pyramid]]"
-    type: provides-case-study
-  - target: "[[concepts/ai-first-company-announcements|AI-First Company Announcements]]"
-    type: example-of
+- target: '[[entities/braintrust|Braintrust]]'
+  type: uses
+- target: '[[concepts/evals-testing-pyramid|Evals Testing Pyramid]]'
+  type: provides-case-study
+- target: '[[concepts/ai-first-company-announcements|AI-First Company Announcements]]'
+  type: example-of
+summary: Zapier
 ---
 
 # Zapier

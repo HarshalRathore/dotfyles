@@ -1,19 +1,19 @@
 ---
-title: "Perceptual Evaluations: Evals for Aesthetics"
+title: 'Perceptual Evaluations: Evals for Aesthetics'
 category: references
 tags:
-  - aief2025
-  - perceptual-evals
-  - aesthetics
-  - evals
-  - human-perception
-  - compression
-  - fid-score
-summary: "Diego Rodriguez (Krea.ai) argues that AI evaluation metrics must measure human-perceived quality rather than proxy signals like FID scores, which are optimized for computational convenience over human judgment."
+- aief2025
+- perceptual-evals
+- aesthetics
+- evals
+- human-perception
+- compression
+- fid-score
+summary: Diego Rodriguez (Krea.ai) argues that AI evaluation metrics must measure human-perceived quality rather than proxy signals like FID scores, which are optimized for computational convenience over hu...
 sources:
-  - "AIEF2025 - Perceptual Evaluations: Evals for Aesthetics — Diego Rodriguez, Krea.ai - https://www.youtube.com/watch?v=h5ItAJuB3Fc"
+- 'AIEF2025 - Perceptual Evaluations: Evals for Aesthetics — Diego Rodriguez, Krea.ai - https://www.youtube.com/watch?v=h5ItAJuB3Fc'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -23,12 +23,12 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/diego-rodriguez|Diego Rodriguez]]"
-    type: related_to
-  - target: "[[entities/krea-ai|Krea.ai]]"
-    type: related_to
-  - target: "[[entities/cheng-lu|Cheng Lu]]"
-    type: related_to
+- target: '[[entities/diego-rodriguez|Diego Rodriguez]]'
+  type: related_to
+- target: '[[entities/krea-ai|Krea.ai]]'
+  type: related_to
+- target: '[[entities/cheng-lu|Cheng Lu]]'
+  type: related_to
 ---
 
 # Perceptual Evaluations: Evals for Aesthetics

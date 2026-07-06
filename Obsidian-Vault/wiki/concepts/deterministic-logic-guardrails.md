@@ -9,7 +9,7 @@ tags:
   - tool-design
 category: concepts
 sources:
-  - "[[sources/watchv=r30col3upug]]"
+  - "https://www.youtube.com/watch?v=r30col3upug"
 summary: "Keep deterministic business logic outside the LLM: expose tools to update state variables, validate state changes in code, and only execute actions when all conditions are met."
 provenance:
   extracted: 0.92

@@ -1,9 +1,15 @@
 ---
 title: Viral Growth Mechanics
 category: concepts
-tags: [viral-growth, tiktok, social-media, user-acquisition, lean-startup, olive]
+tags:
+- viral-growth
+- tiktok
+- social-media
+- user-acquisition
+- lean-startup
+- olive
 sources:
-  - AIEF2025 - The New Lean Startup — Sid Bendre, Olive - https://www.youtube.com/watch?v=pQz-PgA1eJw
+- AIEF2025 - The New Lean Startup — Sid Bendre, Olive - https://www.youtube.com/watch?v=pQz-PgA1eJw
 provenance:
   extracted: 0.78
   inferred: 0.18
@@ -12,17 +18,18 @@ base_confidence: 0.82
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
-created: 2026-07-05T00:00:00Z
-updated: 2026-07-05T00:00:00Z
+created: 2026-07-05 00:00:00+00:00
+updated: 2026-07-05 00:00:00+00:00
 relationships:
-  - target: "[[concepts/tiny-teams]]"
-    type: related_to
-  - target: "[[concepts/lean-startup-playbook]]"
-    type: related_to
-  - target: "[[concepts/compounding-benefits]]"
-    type: related_to
-  - target: "[[entities/olive]]"
-    type: related_to
+- target: '[[concepts/tiny-teams]]'
+  type: related_to
+- target: '[[concepts/lean-startup-playbook]]'
+  type: related_to
+- target: '[[concepts/compounding-benefits]]'
+  type: related_to
+- target: '[[entities/olive]]'
+  type: related_to
+summary: Viral Growth Mechanics
 ---
 
 # Viral Growth Mechanics

@@ -1,32 +1,43 @@
 ---
 title: Neural RAG
 category: concepts
-tags: [neural-rag, neural-search, embedding-search, ai-native-search, exa, metarank, transformer-search]
-aliases: [neural search, neural retrieval, Exa search, Metarank]
-summary: "Search paradigm that represents documents as transformer embeddings rather than keyword indexes, enabling semantic understanding of complex queries including negative constraints and multi-constraint natural language."
+tags:
+- neural-rag
+- neural-search
+- embedding-search
+- ai-native-search
+- exa
+- metarank
+- transformer-search
+aliases:
+- neural search
+- neural retrieval
+- Exa search
+- Metarank
+summary: Search paradigm that represents documents as transformer embeddings rather than keyword indexes, enabling semantic understanding of complex queries including negative constraints and multi-constrai...
 sources:
-  - "AIEF2025 - Building a Smarter AI Agent with Neural RAG - Will Bryk, Exa.ai - https://www.youtube.com/watch?v=xnXqpUW_Kp8"
+- AIEF2025 - Building a Smarter AI Agent with Neural RAG - Will Bryk, Exa.ai - https://www.youtube.com/watch?v=xnXqpUW_Kp8
 provenance:
   extracted: 0.85
   inferred: 0.15
-  ambiguous: 0.00
-base_confidence: 0.80
+  ambiguous: 0.0
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/embedding-based-search]]"
-    type: implements
-  - target: "[[concepts/ai-native-search]]"
-    type: enables
-  - target: "[[concepts/rag-pipeline-architecture]]"
-    type: extends
-  - target: "[[concepts/bitter-lesson]]"
-    type: applies
-  - target: "[[entities/exa]]"
-    type: implemented_by
+- target: '[[concepts/embedding-based-search]]'
+  type: implements
+- target: '[[concepts/ai-native-search]]'
+  type: enables
+- target: '[[concepts/rag-pipeline-architecture]]'
+  type: extends
+- target: '[[concepts/bitter-lesson]]'
+  type: applies
+- target: '[[entities/exa]]'
+  type: implemented_by
 ---
 
 # Neural RAG

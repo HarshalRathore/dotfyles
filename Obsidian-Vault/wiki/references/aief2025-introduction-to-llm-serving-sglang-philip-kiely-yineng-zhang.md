@@ -1,19 +1,19 @@
 ---
-title: "Introduction to LLM serving with SGLang — Philip Kiely and Yineng Zhang, Baseten"
+title: Introduction to LLM serving with SGLang — Philip Kiely and Yineng Zhang, Baseten
 tags:
-  - reference
-  - talk
-  - aief2025
-  - sglang
-  - inference
-  - serving
+- reference
+- talk
+- aief2025
+- sglang
+- inference
+- serving
 aliases:
-  - AIEF2025 SGLang workshop
+- AIEF2025 SGLang workshop
 sources:
-  - "[[sources/watchv=ahtaha9fem0]]"
-summary: "Workshop covering the SGLang LLM serving framework including deployment, CUDA Graph optimization, Eagle 3 speculative decoding, and community contribution."
+- 'https://www.youtube.com/watch?v=ahtaha9fem0'
+summary: Workshop covering the SGLang LLM serving framework including deployment, CUDA Graph optimization, Eagle 3 speculative decoding, and community contribution.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.55
@@ -21,6 +21,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: references
 ---
 
 # Introduction to LLM serving with SGLang

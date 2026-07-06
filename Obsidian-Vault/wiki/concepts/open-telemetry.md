@@ -1,19 +1,23 @@
 ---
-title: "OpenTelemetry (OTEL)"
+title: OpenTelemetry (OTEL)
 category: concepts
 tags:
-  - open-telemetry
-  - otel
-  - observability
-  - distributed-tracing
-  - telemetry
-  - mcp
-aliases: [OpenTelemetry, OTEL, otel, Open Tel]
+- open-telemetry
+- otel
+- observability
+- distributed-tracing
+- telemetry
+- mcp
+aliases:
+- OpenTelemetry
+- OTEL
+- otel
+- Open Tel
 sources:
-  - "[[sources/watchv=lcqat4ip_le]]"
+- 'https://www.youtube.com/watch?v=lcqat4ip_le'
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.85
 lifecycle: draft
@@ -22,14 +26,15 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/mcp-observability]]"
-    type: related_to
-  - target: "[[concepts/distributed-tracing]]"
-    type: extends
-  - target: "[[concepts/otlp]]"
-    type: related_to
-  - target: "[[concepts/semantic-conventions]]"
-    type: related_to
+- target: '[[concepts/mcp-observability]]'
+  type: related_to
+- target: '[[concepts/distributed-tracing]]'
+  type: extends
+- target: '[[concepts/otlp]]'
+  type: related_to
+- target: '[[concepts/semantic-conventions]]'
+  type: related_to
+summary: OpenTelemetry (OTEL)
 ---
 
 # OpenTelemetry (OTEL)

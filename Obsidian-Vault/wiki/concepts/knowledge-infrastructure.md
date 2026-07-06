@@ -1,34 +1,40 @@
 ---
-title: "Knowledge Infrastructure"
+title: Knowledge Infrastructure
 tags:
-  - ai-agents
-  - infrastructure
-  - context-engine
-  - documentation
-  - aief2025
+- ai-agents
+- infrastructure
+- context-engine
+- documentation
+- aief2025
 aliases:
-  - knowledge infrastructure
-  - agent knowledge infrastructure
+- knowledge infrastructure
+- agent knowledge infrastructure
 sources:
-  - "AIEF2025 - Mentoring the Machine — Eric Hou, Augment Code - https://www.youtube.com/watch?v=Zniw5c9_jx8"
+- AIEF2025 - Mentoring the Machine — Eric Hou, Augment Code - https://www.youtube.com/watch?v=Zniw5c9_jx8
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: [[concepts/context-gap|Context Gap]]
-    type: addresses
-  - target: [[concepts/context-engine-vs-rag|Context Engine vs RAG]]
-    type: relates_to
-  - target: [[concepts/agent-mentoring-model|Agent Mentoring Model]]
-    type: required_by
-  - target: [[concepts/parallel-ai-workstreams|Parallel AI Workstreams]]
-    type: enables
+- target:
+  - - concepts/context-gap|Context Gap
+  type: addresses
+- target:
+  - - concepts/context-engine-vs-rag|Context Engine vs RAG
+  type: relates_to
+- target:
+  - - concepts/agent-mentoring-model|Agent Mentoring Model
+  type: required_by
+- target:
+  - - concepts/parallel-ai-workstreams|Parallel AI Workstreams
+  type: enables
+category: concepts
+summary: Knowledge Infrastructure
 ---
 
 # Knowledge Infrastructure

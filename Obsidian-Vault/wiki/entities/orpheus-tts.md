@@ -1,33 +1,34 @@
 ---
-title: "Orpheus TTS"
+title: Orpheus TTS
 category: entities
 tags:
-  - tts
-  - text-to-speech
-  - voice-ai
-  - open-source
-  - llama
-  - canopy-labs
+- tts
+- text-to-speech
+- voice-ai
+- open-source
+- llama
+- canopy-labs
 aliases:
-  - Orpheus
-  - Orpheus TTS
-summary: Open-source TTS model by Canopy Labs built on a LLaMA 3.2 3B backbone with causal LM architecture, larger vocabulary for speech tokens, and extended context via RoPE scaling. Pre-trained on ~100k hours of voice+text data. Outputs snack tokens at ~85 tokens/sec for real-time streaming.
+- Orpheus
+- Orpheus TTS
+summary: Open-source TTS model by Canopy Labs built on a LLaMA 3.2 3B backbone with causal LM architecture, larger vocabulary for speech tokens, and extended context via RoPE scaling. Pre-trained on ~100k h...
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/canopy-labs]]"
-    type: implements
-  - target: "[[concepts/llama-transformer-family]]"
-    type: derived_from
-  - target: "[[concepts/voice-inference-metrics]]"
-    type: uses
+- target: '[[entities/canopy-labs]]'
+  type: implements
+- target: '[[concepts/llama-transformer-family]]'
+  type: derived_from
+- target: '[[concepts/voice-inference-metrics]]'
+  type: uses
+sources: []
 ---
 
 # Orpheus TTS

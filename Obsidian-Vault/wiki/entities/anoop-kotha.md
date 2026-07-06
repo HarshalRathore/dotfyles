@@ -1,15 +1,15 @@
 ---
-title: "Anoop Kotha"
+title: Anoop Kotha
 tags:
-  - person
-  - openai
-  - ai
-  - voice
+- person
+- openai
+- ai
+- voice
 sources:
-  - "[[sources/watchv=-oxiljtjxqu]]"
-summary: "Solution Architect at OpenAI. Co-presented on voice agent patterns including delegation, evals, and guardrails at AI Engineer World's Fair 2025."
+- 'https://www.youtube.com/watch?v=-oxiljtjxqu'
+summary: Solution Architect at OpenAI. Co-presented on voice agent patterns including delegation, evals, and guardrails at AI Engineer World's Fair 2025.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.42
@@ -17,6 +17,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Anoop Kotha

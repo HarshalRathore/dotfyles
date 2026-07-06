@@ -17,7 +17,7 @@ relationships:
   - target: "[[concepts/small-ai-teams|Small AI Teams with Huge Impact]]"
     type: related_to
 sources:
-  - "[[sources/watchv=k-iykdmfkhe]]"
+  - "https://www.youtube.com/watch?v=k-iykdmfkhe"
 summary: "Datalab's frontend stack: server-rendered HTML with HTMX and Alpine.js instead of React or fancy frameworks. Simple, clean, modular code that AI can add to very well."
 provenance:
   extracted: 0.90

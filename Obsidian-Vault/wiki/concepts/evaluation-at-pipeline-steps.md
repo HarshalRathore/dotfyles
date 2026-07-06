@@ -16,21 +16,21 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/retrieval-evaluation-isolation.md]]"
+  - target: "[[concepts/retrieval-evaluation-isolation]]"
     type: extends
-  - target: "[[concepts/rag-pipeline-architecture.md]]"
+  - target: "[[concepts/rag-pipeline-architecture]]"
     type: related_to
-  - target: "[[concepts/eval-driven-optimization.md]]"
+  - target: "[[concepts/eval-driven-optimization]]"
     type: related_to
-  - target: "[[concepts/evals-are-not-unit-tests.md]]"
+  - target: "[[concepts/evals-are-not-unit-tests]]"
     type: related_to
 ---
 
 # Evaluation at Pipeline Steps
 
-The practice of evaluating individual steps of an LLM pipeline separately, in addition to end-to-end evaluation. [[entities/nir-gazit.md|Nir Gazit]] described this at AIEF2025 as analogous to unit testing in software engineering.
+The practice of evaluating individual steps of an LLM pipeline separately, in addition to end-to-end evaluation. [[entities/nir-gazit|Nir Gazit]] described this at AIEF2025 as analogous to unit testing in software engineering.
 
-For a [[concepts/rag-pipeline-architecture.md|RAG pipeline]] with two main steps (retrieval from vector DB, then LLM generation), you can evaluate:
+For a [[concepts/rag-pipeline-architecture|RAG pipeline]] with two main steps (retrieval from vector DB, then LLM generation), you can evaluate:
 
 1. **Retrieval step**: Does the vector database return the right documents for the query? This isolates the retrieval quality from the generation quality.
 2. **Generation step**: Does the LLM use the retrieved context well to generate a good answer? This isolates generation quality from retrieval quality.

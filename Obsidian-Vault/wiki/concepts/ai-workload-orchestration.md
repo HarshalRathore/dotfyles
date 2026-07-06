@@ -1,36 +1,37 @@
 ---
-title: "AI Workload Orchestration"
+title: AI Workload Orchestration
 category: concepts
 tags:
-  - ai-workload
-  - orchestration
-  - inference
-  - training
-  - gpu
-  - aief2025
+- ai-workload
+- orchestration
+- inference
+- training
+- gpu
+- aief2025
 aliases:
-  - ai workload orchestration
-  - workload orchestration
-  - ai workload management
+- ai workload orchestration
+- workload orchestration
+- ai workload management
 sources:
-  - "[[sources/watchv=m6vbaig1tsm]]"
+- 'https://www.youtube.com/watch?v=m6vbaig1tsm'
 provenance:
   extracted: 0.85
   inferred: 0.15
-  ambiguous: 0.00
-base_confidence: 0.80
+  ambiguous: 0.0
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/gpu-marketplace|GPU Marketplace]]"
-    type: extends
-  - target: "[[concepts/compute-allocation|Compute Allocation]]"
-    type: related_to
-  - target: "[[concepts/gpu-utilization|GPU Utilization]]"
-    type: related_to
+- target: '[[concepts/gpu-marketplace|GPU Marketplace]]'
+  type: extends
+- target: '[[concepts/compute-allocation|Compute Allocation]]'
+  type: related_to
+- target: '[[concepts/gpu-utilization|GPU Utilization]]'
+  type: related_to
+summary: AI Workload Orchestration
 ---
 
 # AI Workload Orchestration

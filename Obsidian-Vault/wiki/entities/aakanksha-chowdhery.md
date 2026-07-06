@@ -4,7 +4,7 @@ category: entities
 tags: [researcher, llm, palm, gemini, reflection-ai, autonomous-coding, reinforcement-learning, aief2025]
 aliases: [Aakanksha, Akhan Shaw, Aakanksha C]
 sources:
-  - "[[sources/watchv=qludzkvfp6a]]"
+  - "https://www.youtube.com/watch?v=qludzkvfp6a"
 summary: "Former Google researcher (6+ years) who led PALM research and was a lead researcher on Gemini. Now at Reflection.ai pushing the frontier for autonomous coding with reinforcement learning."
 provenance:
   extracted: 0.90
@@ -30,7 +30,7 @@ relationships:
 
 ## Career
 
-- **Google** (6+ years): Led research for [[concepts/palm-model|PALM]] and was a lead researcher on [[concepts/gemini-model|Gemini]]
+- **Google** (6+ years): Led research for [[references/palm-model|PALM]] and was a lead researcher on [[concepts/gemini-model|Gemini]]
 - **Reflection.ai** (current): Working on pushing the frontier for autonomous coding with reinforcement learning
 
 ## Key Contributions

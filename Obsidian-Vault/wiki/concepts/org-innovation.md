@@ -1,27 +1,27 @@
 ---
-title: "Organizational Innovation"
+title: Organizational Innovation
 category: concepts
 tags:
-  - org-design
-  - startup
-  - team-building
-  - first-principles
-  - aief2025
+- org-design
+- startup
+- team-building
+- first-principles
+- aief2025
 relationships:
-  - target: "[[concepts/player-coach-model|Player-Coach Model]]"
-    type: extends
-  - target: "[[concepts/generalist-vs-specialist|Generalist vs Specialist Hiring]]"
-    type: extends
-  - target: "[[concepts/small-team-scaling|Small Team Scaling]]"
-    type: extends
-  - target: "[[concepts/tiny-teams|Tiny Teams]]"
-    type: related_to
+- target: '[[concepts/player-coach-model|Player-Coach Model]]'
+  type: extends
+- target: '[[concepts/generalist-vs-specialist|Generalist vs Specialist Hiring]]'
+  type: extends
+- target: '[[concepts/small-team-scaling|Small Team Scaling]]'
+  type: extends
+- target: '[[concepts/tiny-teams|Tiny Teams]]'
+  type: related_to
 sources:
-  - "AIEF2025 - Rethinking Team Building: how a 30-person Startup serves 50 Million Users — Grant Lee, Gamma - https://www.youtube.com/watch?v=q8zoXAbmJdI"
-summary: "Applying first-principles thinking to team building and org design, not just product building. Rejects traditional VP-director cascading hierarchy in favor of lean, generalist, player-coach organizations."
+- 'AIEF2025 - Rethinking Team Building: how a 30-person Startup serves 50 Million Users — Grant Lee, Gamma - https://www.youtube.com/watch?v=q8zoXAbmJdI'
+summary: Applying first-principles thinking to team building and org design, not just product building. Rejects traditional VP-director cascading hierarchy in favor of lean, generalist, player-coach organiz...
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.75
 lifecycle: draft

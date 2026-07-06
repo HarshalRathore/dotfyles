@@ -1,24 +1,24 @@
 ---
-title: "Fuzzy Text Matching"
+title: Fuzzy Text Matching
 category: concepts
 tags:
-  - fuzzy-matching
-  - text-comparison
-  - llm
-  - dynamic-programming
-  - ai-editing
-  - approximate-match
+- fuzzy-matching
+- text-comparison
+- llm
+- dynamic-programming
+- ai-editing
+- approximate-match
 sources:
-  - "AIEF2025 - CI in the Era of AI: From Unit Tests to Stochastic Evals — Nathan Sobo, Zed - https://www.youtube.com/watch?v=WXy8Yy9xGss"
+- 'AIEF2025 - CI in the Era of AI: From Unit Tests to Stochastic Evals — Nathan Sobo, Zed - https://www.youtube.com/watch?v=WXy8Yy9xGss'
 relationships:
-  - target: "[[concepts/streaming-diff-algorithm|Streaming Diff Algorithm]]"
-    type: related_to
-  - target: "[[concepts/indentation-robustness|Indentation Robustness]]"
-    type: related_to
-  - target: "[[concepts/stochastic-evals|Stochastic Evals]]"
-    type: related_to
+- target: '[[concepts/streaming-diff-algorithm|Streaming Diff Algorithm]]'
+  type: related_to
+- target: '[[concepts/indentation-robustness|Indentation Robustness]]'
+  type: related_to
+- target: '[[concepts/stochastic-evals|Stochastic Evals]]'
+  type: related_to
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.86
@@ -26,6 +26,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Fuzzy Text Matching
 ---
 
 # Fuzzy Text Matching

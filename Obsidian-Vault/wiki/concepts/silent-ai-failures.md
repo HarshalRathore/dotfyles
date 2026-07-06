@@ -1,24 +1,28 @@
 ---
-title: "Silent AI Failures"
+title: Silent AI Failures
 tags:
-  - concept
-  - ai
-  - risk
-  - enterprise
-  - failure-mode
-aliases: [silent failures in AI, hidden AI failures, AI failure invisibility]
+- concept
+- ai
+- risk
+- enterprise
+- failure-mode
+aliases:
+- silent failures in AI
+- hidden AI failures
+- AI failure invisibility
 sources:
-  - "[[sources/watchv=6tpm4m1yxhk]]"
-summary: "AI failures that are difficult to detect and quantify ahead of time but cause enormous cumulative damage — such as telecom network disruptions costing millions per minute, gas sensor data misinterpretations endangering lives, and supply chain SKU errors causing millions in losses."
+- 'https://www.youtube.com/watch?v=6tpm4m1yxhk'
+summary: AI failures that are difficult to detect and quantify ahead of time but cause enormous cumulative damage — such as telecom network disruptions costing millions per minute, gas sensor data misinterp...
 provenance:
   extracted: 0.82
   inferred: 0.15
   ambiguous: 0.03
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Silent AI Failures

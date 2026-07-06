@@ -1,23 +1,31 @@
 ---
-title: "Everything I Learned Training Frontier Small Models — Maxime Labonne"
+title: Everything I Learned Training Frontier Small Models — Maxime Labonne
 category: misc
-tags: [ai, small-models, edge-ml, lfm, liquid-ai, post-training, rl]
+tags:
+- ai
+- small-models
+- edge-ml
+- lfm
+- liquid-ai
+- post-training
+- rl
 sources:
-  - "[[sources/watchv=flutukqyhnq]]"
-source_url: "https://www.youtube.com/watch?v=fLUtUkqYHnQ"
-created: 2026-06-30T23:59:00Z
-updated: 2026-06-30T23:59:00Z
-summary: "Maxime Labonne's AI Engineer talk on post-training frontier small models (350M–1.2B): architecture tradeoffs, the LFM 2.5 recipe, doom loops at 1B scale, and agentic RL with verifiable rewards."
+- 'https://www.youtube.com/watch?v=flutukqyhnq'
+source_url: https://www.youtube.com/watch?v=fLUtUkqYHnQ
+created: 2026-06-30 23:59:00+00:00
+updated: 2026-06-30 23:59:00+00:00
+summary: 'Maxime Labonne''s AI Engineer talk on post-training frontier small models (350M–1.2B): architecture tradeoffs, the LFM 2.5 recipe, doom loops at 1B scale, and agentic RL with verifiable rewards.'
 affinity: {}
 promotion_status: misc
 stub: false
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.18
   ambiguous: 0.02
 base_confidence: 0.45
 lifecycle: draft
 lifecycle_changed: 2026-06-30
+tier: supporting
 ---
 
 # Everything I Learned Training Frontier Small Models — Maxime Labonne
@@ -83,7 +91,7 @@ Maxime Labonne's talk covers how to post-train frontier small models (350M–1.2
 ## Concepts
 
 - [[concepts/agent-loop]] — Agentic RL is a form of agent loop; the evaluation (LLM jury, verifiable rewards) maps to the loop's evaluation requirement
-- [[web-posthog-com-blog-stop-ai-slop]] — LLM-as-a-Judge eval pattern used here for scoring rollouts; same concept applied to model training
+- [[misc/web-posthog-com-blog-stop-ai-slop]] — LLM-as-a-Judge eval pattern used here for scoring rollouts; same concept applied to model training
 
 ## Entities
 
@@ -99,4 +107,4 @@ Maxime Labonne's talk covers how to post-train frontier small models (350M–1.2
 
 ## Related
 
-- [[web-youtube-com-watch-v4f1gfy-hqg]] — Matt Pocock's talk on software fundamentals at the same conference
+- [[misc/web-youtube-com-watch-v4f1gfy-hqg]] — Matt Pocock's talk on software fundamentals at the same conference

@@ -1,26 +1,28 @@
 ---
-title: "Swix"
+title: Swix
 category: entities
 tags:
-  - person
-  - co-founder
-  - aief2025
-aliases: [Swix]
+- person
+- co-founder
+- aief2025
+aliases:
+- Swix
 sources:
-  - "AIEF2025 - AX is the only Experience that Matters - Ivan Burazin, Daytona - https://www.youtube.com/watch?v=e9sLVMN76qU"
+- AIEF2025 - AX is the only Experience that Matters - Ivan Burazin, Daytona - https://www.youtube.com/watch?v=e9sLVMN76qU
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: peripheral
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/agent-experience]]"
-    type: disputes_definition_of
+- target: '[[concepts/agent-experience]]'
+  type: disputes_definition_of
+summary: Swix
 ---
 
 # Swix

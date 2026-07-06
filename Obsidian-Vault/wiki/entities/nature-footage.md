@@ -1,12 +1,17 @@
 ---
 title: Nature Footage
 category: entities
-tags: [company, stock-footage, video-library, multimodal-search, wildlife]
-summary: "A stock footage company with extensive wildlife video library (lions, tigers, bears, crocodiles). Caylent built a multimodal video search system for them using Nova Pro and Titan V2 embeddings."
+tags:
+- company
+- stock-footage
+- video-library
+- multimodal-search
+- wildlife
+summary: A stock footage company with extensive wildlife video library (lions, tigers, bears, crocodiles). Caylent built a multimodal video search system for them using Nova Pro and Titan V2 embeddings.
 provenance:
   extracted: 0.85
   inferred: 0.15
-  ambiguous: 0.00
+  ambiguous: 0.0
 base_confidence: 0.75
 lifecycle: draft
 lifecycle_changed: 2026-07-05
@@ -14,10 +19,11 @@ tier: peripheral
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/caylent]]"
-    type: related_to
-  - target: "[[entities/randall-hunt]]"
-    type: related_to
+- target: '[[entities/caylent]]'
+  type: related_to
+- target: '[[entities/randall-hunt]]'
+  type: related_to
+sources: []
 ---
 
 **Nature Footage** is a stock footage company with an extensive library of wildlife videos including lions, tigers, bears, and crocodiles. **[[entities/caylent|Caylent]]** built a multimodal video search system for them.

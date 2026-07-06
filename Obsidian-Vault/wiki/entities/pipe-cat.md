@@ -1,17 +1,17 @@
 ---
-title: "PipeCat"
+title: PipeCat
 category: entities
 tags:
-  - tool
-  - open-source
-  - voice-ai
-  - agents
-  - framework
-  - video-ai
+- tool
+- open-source
+- voice-ai
+- agents
+- framework
+- video-ai
 sources:
-  - "[[sources/watchv=e71ytnbcfxy]]"
-  - "[[sources/watchv=ia4lzjh9sts]]"
-  - "AIEF2025 - Realtime Conversational Video with Pipecat and Tavus — Chad Bailey and Brian Johnson, Daily & Tavus - https://www.youtube.com/watch?v=ujt0da9Z29Q"
+- 'https://www.youtube.com/watch?v=e71ytnbcfxy'
+- 'https://www.youtube.com/watch?v=ia4lzjh9sts'
+- AIEF2025 - Realtime Conversational Video with Pipecat and Tavus — Chad Bailey and Brian Johnson, Daily & Tavus - https://www.youtube.com/watch?v=ujt0da9Z29Q
 provenance:
   extracted: 0.88
   inferred: 0.09
@@ -22,18 +22,19 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/voice-agents]]"
-    type: enables
-  - target: "[[concepts/web-rtc]]"
-    type: uses
-  - target: "[[concepts/turn-detection]]"
-    type: uses
-  - target: "[[entities/daily]]"
-    type: related_to
-  - target: "[[entities/tavus]]"
-    type: related_to
-  - target: "[[concepts/real-time-conversational-video]]"
-    type: enables
+- target: '[[concepts/voice-agents]]'
+  type: enables
+- target: '[[concepts/web-rtc]]'
+  type: uses
+- target: '[[concepts/turn-detection]]'
+  type: uses
+- target: '[[entities/daily]]'
+  type: related_to
+- target: '[[entities/tavus]]'
+  type: related_to
+- target: '[[concepts/real-time-conversational-video]]'
+  type: enables
+summary: PipeCat
 ---
 
 # PipeCat

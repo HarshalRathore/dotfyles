@@ -1,9 +1,22 @@
 ---
 title: Linear
-tags: [company, tool, developer-tools, issue-tracker, project-management, ai, agent-platform, speaker, aief2025]
-aliases: [Linear, linear.app]
-summary: "Product development tool used by OpenAI, Ramp, and thousands of modern software companies. Describes itself as 'an operating system for engineering and product teams.' Launched an agent coordination platform in 2025."
-sources: ["[[sources/aief2025-building-the-platform-for-agent-coordination-—-tom-moor]]", "[[sources/watchv=ug9iadmi2dg]]"]
+tags:
+- company
+- tool
+- developer-tools
+- issue-tracker
+- project-management
+- ai
+- agent-platform
+- speaker
+- aief2025
+aliases:
+- Linear
+- linear.app
+summary: Product development tool used by OpenAI, Ramp, and thousands of modern software companies. Describes itself as 'an operating system for engineering and product teams.' Launched an agent coordinatio...
+sources:
+- '[[sources/aief2025-building-the-platform-for-agent-coordination-—-tom-moor]]'
+- 'https://www.youtube.com/watch?v=ug9iadmi2dg'
 provenance:
   extracted: 1.0
   inferred: 0.0
@@ -11,13 +24,16 @@ provenance:
 base_confidence: 0.95
 lifecycle: draft
 tier: supporting
-created: 2026-07-04T00:00:00Z
-updated: 2026-07-04T00:00:00Z
+created: 2026-07-04 00:00:00+00:00
+updated: 2026-07-04 00:00:00+00:00
 relationships:
-  - target: [[concepts/agent-coordination|Agent Coordination]]
-    type: uses
-  - target: [[concepts/hybrid-search|Hybrid Search]]
-    type: uses
+- target:
+  - - concepts/agent-coordination|Agent Coordination
+  type: uses
+- target:
+  - - concepts/hybrid-search|Hybrid Search
+  type: uses
+category: entities
 ---
 
 # Linear

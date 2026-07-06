@@ -12,7 +12,7 @@ tags:
   - aief2025
 summary: ElevenLabs — AI voice company building TTS, ASR, sound effects, and multilingual conversational AI agent infrastructure.
 sources:
-  - "[[sources/watchv=mptcbazn84a]]"
+  - "https://www.youtube.com/watch?v=mptcbazn84a"
 provenance:
   extracted: 0.90
   inferred: 0.05

@@ -1,17 +1,17 @@
 ---
-title: "Agent Stack for Unstructured Data"
+title: Agent Stack for Unstructured Data
 category: concepts
 tags:
-  - agent
-  - architecture
-  - unstructured-data
-  - mcp
-  - a2a
-  - workflow
-summary: The two-component stack required to build agents that automate knowledge work over unstructured enterprise data: tool interfaces (MCP, A2A) and agent architecture (reasoning loops, workflows).
+- agent
+- architecture
+- unstructured-data
+- mcp
+- a2a
+- workflow
+summary: 'The two-component stack required to build agents that automate knowledge work over unstructured enterprise data: tool interfaces (MCP, A2A) and agent architecture (reasoning loops, workflows).'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.65
 lifecycle: draft
@@ -20,12 +20,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/document-toolbox]]"
-    type: implements
-  - target: "[[concepts/agent-design-patterns]]"
-    type: related_to
-  - target: "[[concepts/mcp]]"
-    type: uses
+- target: '[[concepts/document-toolbox]]'
+  type: implements
+- target: '[[concepts/agent-design-patterns]]'
+  type: related_to
+- target: '[[concepts/mcp]]'
+  type: uses
+sources: []
 ---
 
 # Agent Stack for Unstructured Data

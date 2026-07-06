@@ -1,11 +1,11 @@
 ---
-title: "Julian"
+title: Julian
 category: entities
 tags:
-  - voice-agent
-  - digital-worker
-  - 11x
-  - go-to-market
+- voice-agent
+- digital-worker
+- 11x
+- go-to-market
 summary: Julian is 11x's voice agent, part of their digital worker platform alongside Alice (AI SDR). Designed for voice-based GTM conversations.
 provenance:
   extracted: 0.95
@@ -18,12 +18,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/11x]]"
-    type: implements
-  - target: "[[entities/alice-ai-sdr]]"
-    type: related_to
-  - target: "[[concepts/voice-agents]]"
-    type: implements
+- target: '[[entities/11x]]'
+  type: implements
+- target: '[[entities/alice-ai-sdr]]'
+  type: related_to
+- target: '[[concepts/voice-agents]]'
+  type: implements
+sources: []
 ---
 
 # Julian

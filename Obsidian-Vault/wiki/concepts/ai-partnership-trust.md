@@ -1,24 +1,34 @@
 ---
 title: AI Partnership Trust
 category: concepts
-tags: [ai-partnerships, trust-boundary, frontier-labs, government-labs, data-sharing, vendor-trust, national-security]
-summary: The trust dynamic between government laboratories and commercial AI vendors/frontier labs — where government labs serve as "a safe place to do dangerous things" for partners that cannot freely share or hire.
+tags:
+- ai-partnerships
+- trust-boundary
+- frontier-labs
+- government-labs
+- data-sharing
+- vendor-trust
+- national-security
+summary: The trust dynamic between government laboratories and commercial AI vendors/frontier labs — where government labs serve as "a safe place to do dangerous things" for partners that cannot freely shar...
 sources:
-  - "[[sources/watchv=tnsgx36ly0q]]"
-provenance: {extracted: 0.80, inferred: 0.15, ambiguous: 0.05}
+- 'https://www.youtube.com/watch?v=tnsgx36ly0q'
+provenance:
+  extracted: 0.8
+  inferred: 0.15
+  ambiguous: 0.05
 base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
-created: 2026-07-04T12:00:00Z
-updated: 2026-07-04T12:00:00Z
+created: 2026-07-04 12:00:00+00:00
+updated: 2026-07-04 12:00:00+00:00
 relationships:
-  - target: "[[concepts/ai-trust-pillars]]"
-    type: extends
-  - target: "[[concepts/build-vs-buy-agents]]"
-    type: relates_to
-  - target: "[[concepts/government-ai-agents]]"
-    type: enables
+- target: '[[concepts/ai-trust-pillars]]'
+  type: extends
+- target: '[[concepts/build-vs-buy-agents]]'
+  type: relates_to
+- target: '[[concepts/government-ai-agents]]'
+  type: enables
 ---
 
 AI partnership trust describes the unique trust dynamics that emerge when government laboratories (with classified data and mission-critical infrastructure) partner with commercial AI vendors and frontier model labs. This trust is bidirectional: government labs need vendors' models and capabilities, while vendors need government labs' data and safe environments for sensitive work.

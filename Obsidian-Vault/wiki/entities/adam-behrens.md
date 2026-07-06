@@ -1,19 +1,20 @@
 ---
-title: "Adam Behrens"
+title: Adam Behrens
 category: entities
 tags:
-  - person
-  - founder
-  - philosopher
-  - engineer
-  - ai-commerce
-aliases: [Adam]
+- person
+- founder
+- philosopher
+- engineer
+- ai-commerce
+aliases:
+- Adam
 sources:
-  - "AIEF2025 - Machines of Buying and Selling Grace - Adam Behrens, New Generation - https://www.youtube.com/watch?v=zlZz0mDF2eg"
+- AIEF2025 - Machines of Buying and Selling Grace - Adam Behrens, New Generation - https://www.youtube.com/watch?v=zlZz0mDF2eg
 provenance:
-  extracted: 0.80
-  inferred: 0.20
-  ambiguous: 0.00
+  extracted: 0.8
+  inferred: 0.2
+  ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-05
@@ -21,10 +22,11 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/new-generation|New Generation]]"
-    type: founded
-  - target: "[[entities/bridgewater|Bridgewater]]"
-    type: worked-at
+- target: '[[entities/new-generation|New Generation]]'
+  type: founded
+- target: '[[entities/bridgewater|Bridgewater]]'
+  type: worked-at
+summary: Adam Behrens
 ---
 
 # Adam Behrens

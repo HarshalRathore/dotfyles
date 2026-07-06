@@ -1,43 +1,44 @@
 ---
-title: "OpenAI on Securing Code-Executing AI Agents — Fouad Matin (Codex, Agent Robustness)"
+title: OpenAI on Securing Code-Executing AI Agents — Fouad Matin (Codex, Agent Robustness)
 category: references
 tags:
-  - aief2025
-  - agent-security
-  - agent-sandboxing
-  - prompt-injection
-  - data-exfiltration
-  - codex
-  - agent-robustness
-  - openai
+- aief2025
+- agent-security
+- agent-sandboxing
+- prompt-injection
+- data-exfiltration
+- codex
+- agent-robustness
+- openai
 aliases:
-  - aief2025-securing-code-executing-agents
-  - fouad-matin-agent-security
+- aief2025-securing-code-executing-agents
+- fouad-matin-agent-security
 sources:
-  - "AIEF2025 - OpenAI on Securing Code-Executing AI Agents — Fouad Matin (Codex, Agent Robustness) - https://www.youtube.com/watch?v=w7IMuYsBNr8"
+- AIEF2025 - OpenAI on Securing Code-Executing AI Agents — Fouad Matin (Codex, Agent Robustness) - https://www.youtube.com/watch?v=w7IMuYsBNr8
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/fouad-matin|Fouad Matin]]"
-    type: related_to
-  - target: "[[entities/openai|OpenAI]]"
-    type: related_to
-  - target: "[[entities/codex|Codex CLI]]"
-    type: related_to
-  - target: "[[concepts/code-executing-agents|Code-Executing Agents]]"
-    type: related_to
-  - target: "[[concepts/agent-sandboxing|Agent Sandboxing]]"
-    type: related_to
-  - target: "[[concepts/prompt-injection|Prompt Injection]]"
-    type: related_to
+- target: '[[entities/fouad-matin|Fouad Matin]]'
+  type: related_to
+- target: '[[entities/openai|OpenAI]]'
+  type: related_to
+- target: '[[entities/codex|Codex CLI]]'
+  type: related_to
+- target: '[[concepts/code-executing-agents|Code-Executing Agents]]'
+  type: related_to
+- target: '[[concepts/agent-sandboxing|Agent Sandboxing]]'
+  type: related_to
+- target: '[[concepts/prompt-injection|Prompt Injection]]'
+  type: related_to
+summary: OpenAI on Securing Code-Executing AI Agents — Fouad Matin (AIEF2025)
 ---
 
 # OpenAI on Securing Code-Executing AI Agents — Fouad Matin (AIEF2025)

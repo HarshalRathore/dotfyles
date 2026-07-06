@@ -1,30 +1,31 @@
 ---
-title: "Voice Agent Rapid Build Pattern"
+title: Voice Agent Rapid Build Pattern
 category: concepts
 tags:
-  - voice-ai
-  - product-development
-  - mvp
-  - rapid-deployment
-  - enterprise-ai
+- voice-ai
+- product-development
+- mvp
+- rapid-deployment
+- enterprise-ai
 summary: The pattern of building a production voice AI agent in ~100 days by leveraging existing infrastructure (chat agent, RAG, telephony) and shipping a minimal but meaningful MVP.
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/finvoice]]"
-    type: implements
-  - target: "[[concepts/agent-development-lifecycle]]"
-    type: related_to
-  - target: "[[concepts/eval-playground-experiment-workflow]]"
-    type: uses
+- target: '[[concepts/finvoice]]'
+  type: implements
+- target: '[[concepts/agent-development-lifecycle]]'
+  type: related_to
+- target: '[[concepts/eval-playground-experiment-workflow]]'
+  type: uses
+sources: []
 ---
 
 # Voice Agent Rapid Build Pattern

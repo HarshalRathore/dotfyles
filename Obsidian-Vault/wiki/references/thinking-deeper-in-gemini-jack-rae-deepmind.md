@@ -1,23 +1,24 @@
 ---
-title: "Thinking Deeper in Gemini — Jack Rae, Google DeepMind"
+title: Thinking Deeper in Gemini — Jack Rae, Google DeepMind
 tags:
-  - reference
-  - talk
-  - ai-engineer
-  - reasoning
-  - google
+- reference
+- talk
+- ai-engineer
+- reasoning
+- google
 sources:
-  - "[[sources/watchv=8eqo4j2bwkw]]"
-summary: "Jack Rae, tech lead of thinking at Google DeepMind, presents the research behind Gemini's thinking capabilities — intelligence bottlenecks, test-time compute scaling, RL training for reasoning, thinking budgets, and Deep Think."
+- 'https://www.youtube.com/watch?v=8eqo4j2bwkw'
+summary: Jack Rae, tech lead of thinking at Google DeepMind, presents the research behind Gemini's thinking capabilities — intelligence bottlenecks, test-time compute scaling, RL training for reasoning, thi...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: references
 ---
 
 # Thinking Deeper in Gemini — Jack Rae, Google DeepMind

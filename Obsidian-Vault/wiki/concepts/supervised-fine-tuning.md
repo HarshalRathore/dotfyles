@@ -8,7 +8,7 @@ relationships:
     type: related_to
   - target: "[[concepts/reinforcement-fine-tuning]]"
     type: related_to
-sources: ["[[sources/aief2025-rft]]", "[[sources/dpo]]", "[[sources/sft-fine-tuning-with-openai-—-ilan-bigio]]", "[[sources/watchv=jfalqqfxqpa]]"]
+sources: ["[[sources/aief2025-rft]]", "[[sources/dpo]]", "[[sources/sft-fine-tuning-with-openai-—-ilan-bigio]]", "https://www.youtube.com/watch?v=jfalqqfxqpa"]
 summary: "Continued training on labeled input-output pairs where the model learns to directly imitate provided examples. The foundational fine-tuning method with the lowest barrier to entry."
 provenance:
   extracted: 0.75

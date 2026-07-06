@@ -1,17 +1,17 @@
 ---
-title: "AIEF2025 - Mastering Engineering Flow with Windsurf - Eashan Sinha, Windsurf"
+title: AIEF2025 - Mastering Engineering Flow with Windsurf - Eashan Sinha, Windsurf
 tags:
-  - aief2025
-  - windsurf
-  - cascade
-  - ai-flows
-  - flow-awareness
-  - reference
+- aief2025
+- windsurf
+- cascade
+- ai-flows
+- flow-awareness
+- reference
 aliases:
-  - Mastering Engineering Flow with Windsurf
-  - Eashan Sinha AIEF2025
+- Mastering Engineering Flow with Windsurf
+- Eashan Sinha AIEF2025
 sources:
-  - "AIEF2025 - Mastering Engineering Flow with Windsurf - Eashan Sinha, Windsurf - https://www.youtube.com/watch?v=W_5tzQY-hVs"
+- AIEF2025 - Mastering Engineering Flow with Windsurf - Eashan Sinha, Windsurf - https://www.youtube.com/watch?v=W_5tzQY-hVs
 provenance:
   extracted: 1.0
   inferred: 0.0
@@ -22,12 +22,17 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: [[entities/eashan-sinha|Eashan Sinha]]
-    type: related_to
-  - target: [[entities/windsurf|Windsurf]]
-    type: related_to
-  - target: [[entities/cascade|Cascade]]
-    type: related_to
+- target:
+  - - entities/eashan-sinha|Eashan Sinha
+  type: related_to
+- target:
+  - - entities/windsurf|Windsurf
+  type: related_to
+- target:
+  - - entities/cascade|Cascade
+  type: related_to
+category: references
+summary: AIEF2025 - Mastering Engineering Flow with Windsurf - Eashan Sinha, Windsurf
 ---
 
 # AIEF2025 - Mastering Engineering Flow with Windsurf - Eashan Sinha, Windsurf

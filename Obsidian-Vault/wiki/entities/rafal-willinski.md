@@ -1,31 +1,32 @@
 ---
-title: "Rafal Willinski"
+title: Rafal Willinski
 category: entities
 tags:
-  - person
-  - zapier
-  - ai-agents
-  - evaluation
-  - aief2025
+- person
+- zapier
+- ai-agents
+- evaluation
+- aief2025
 aliases:
-  - Rafal Willinski
+- Rafal Willinski
 sources:
-  - "AIEF2025 - Turning Fails into Features: Zapier's Hard-Won Eval Lessons — Rafal Willinski, Vitor Balocco, Zapier - https://www.youtube.com/watch?v=blrovBxxN9o"
+- 'AIEF2025 - Turning Fails into Features: Zapier''s Hard-Won Eval Lessons — Rafal Willinski, Vitor Balocco, Zapier - https://www.youtube.com/watch?v=blrovBxxN9o'
 provenance:
   extracted: 0.95
   inferred: 0.03
   ambiguous: 0.02
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/zapier|Zapier]]"
-    type: works-at
-  - target: "[[entities/vitor-balocco|Vitor Balocco]]"
-    type: collaborates-with
+- target: '[[entities/zapier|Zapier]]'
+  type: works-at
+- target: '[[entities/vitor-balocco|Vitor Balocco]]'
+  type: collaborates-with
+summary: Rafal Willinski
 ---
 
 # Rafal Willinski

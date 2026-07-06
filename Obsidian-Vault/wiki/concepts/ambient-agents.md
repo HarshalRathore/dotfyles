@@ -1,34 +1,34 @@
 ---
-title: "Ambient Agents"
+title: Ambient Agents
 category: concepts
 tags:
-  - agents
-  - ambient-computing
-  - long-running-agents
-  - background-agents
-  - enterprise-ai
+- agents
+- ambient-computing
+- long-running-agents
+- background-agents
+- enterprise-ai
 sources:
-  - "AIEF2025 - 3 ingredients for building reliable enterprise agents - Harrison Chase, LangChain/LangGraph - https://www.youtube.com/watch?v=kTnfJszFxCg"
-summary: "Agents that run continuously in the background for extended periods (hours), doing substantial work without requiring active user interaction. Part of a broader shift from quick-response to long-running agent patterns."
+- AIEF2025 - 3 ingredients for building reliable enterprise agents - Harrison Chase, LangChain/LangGraph - https://www.youtube.com/watch?v=kTnfJszFxCg
+summary: Agents that run continuously in the background for extended periods (hours), doing substantial work without requiring active user interaction. Part of a broader shift from quick-response to long-ru...
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/deep-research-agents]]"
-    type: related_to
-  - target: "[[concepts/assistive-vs-automation-agents]]"
-    type: related_to
-  - target: "[[concepts/enterprise-agent-adoption-equation]]"
-    type: increases
-  - target: "[[concepts/agent-autonomy]]"
-    type: related_to
+- target: '[[concepts/deep-research-agents]]'
+  type: related_to
+- target: '[[concepts/assistive-vs-automation-agents]]'
+  type: related_to
+- target: '[[concepts/enterprise-agent-adoption-equation]]'
+  type: increases
+- target: '[[concepts/agent-autonomy]]'
+  type: related_to
 ---
 
 # Ambient Agents

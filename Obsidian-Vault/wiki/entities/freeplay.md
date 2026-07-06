@@ -7,7 +7,7 @@ tags:
   - evaluation
   - ai-engineer-worlds-fair-2025
 sources:
-  - "[[sources/watchv=cb-4nkdynrs]]"
+  - "https://www.youtube.com/watch?v=cb-4nkdynrs"
 summary: "Company focused on solving operational problems in Gen AI product development. Jeremy, Freeplay's product lead, co-presented at AI Engineer World's Fair 2025 on the build-operate divide."
 provenance:
   extracted: 0.75

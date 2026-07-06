@@ -1,21 +1,21 @@
 ---
-title: "Codex CLI"
+title: Codex CLI
 category: entities
 tags:
-  - tool
-  - openai
-  - cli
-  - agent
-  - code-execution
-  - open-source
+- tool
+- openai
+- cli
+- agent
+- code-execution
+- open-source
 aliases:
-  - codex command line
-  - openai codex cli
+- codex command line
+- openai codex cli
 sources:
-  - "AIEF2025 - OpenAI on Securing Code-Executing AI Agents — Fouad Matin (Codex, Agent Robustness) - https://www.youtube.com/watch?v=w7IMuYsBNr8"
+- AIEF2025 - OpenAI on Securing Code-Executing AI Agents — Fouad Matin (Codex, Agent Robustness) - https://www.youtube.com/watch?v=w7IMuYsBNr8
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.75
 lifecycle: draft
@@ -24,14 +24,15 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/openai|OpenAI]]"
-    type: created_by
-  - target: "[[concepts/code-executing-agents|Code-Executing Agents]]"
-    type: implements
-  - target: "[[concepts/agent-sandboxing|Agent Sandboxing]]"
-    type: uses
-  - target: "[[concepts/prompt-injection|Prompt Injection]]"
-    type: defends_against
+- target: '[[entities/openai|OpenAI]]'
+  type: created_by
+- target: '[[concepts/code-executing-agents|Code-Executing Agents]]'
+  type: implements
+- target: '[[concepts/agent-sandboxing|Agent Sandboxing]]'
+  type: uses
+- target: '[[concepts/prompt-injection|Prompt Injection]]'
+  type: defends_against
+summary: Codex CLI
 ---
 
 # Codex CLI

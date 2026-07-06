@@ -10,7 +10,7 @@ tags:
   - transcription
 summary: Audio event tagging — detecting and labeling non-speech sounds (coughing, laughing, etc.) within ASR transcripts. Built into ElevenLabs' multilingual ASR model.
 sources:
-  - "[[sources/watchv=mptcbazn84a]]"
+  - "https://www.youtube.com/watch?v=mptcbazn84a"
 provenance:
   extracted: 0.90
   inferred: 0.05

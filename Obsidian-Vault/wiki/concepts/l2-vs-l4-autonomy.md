@@ -1,34 +1,34 @@
 ---
-title: "L2 vs L4 Autonomy"
+title: L2 vs L4 Autonomy
 category: concepts
 tags:
-  - autonomy-levels
-  - autonomous-driving
-  - sae-levels
-  - perception
-  - safety
+- autonomy-levels
+- autonomous-driving
+- sae-levels
+- perception
+- safety
 aliases:
-  - autonomy levels
-  - SAE levels driving
+- autonomy levels
+- SAE levels driving
 sources:
-  - "AIEF2025 - Waymo's EMMA: Teaching Cars to Think - Jyh Jing Hwang, Waymo - https://www.youtube.com/watch?v=iS9YFW28XyM"
-summary: "The gap between L2 (partial automation, driver must monitor) and L4 (high automation, no driver needed) in autonomous driving — demonstrated by the difference between drifting research prototypes and Waymo's production system."
+- 'AIEF2025 - Waymo''s EMMA: Teaching Cars to Think - Jyh Jing Hwang, Waymo - https://www.youtube.com/watch?v=iS9YFW28XyM'
+summary: The gap between L2 (partial automation, driver must monitor) and L4 (high automation, no driver needed) in autonomous driving — demonstrated by the difference between drifting research prototypes a...
 provenance:
   extracted: 0.85
   inferred: 0.15
-  ambiguous: 0.00
+  ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/autonomous-driving]]"
-    type: related_to
-  - target: "[[concepts/perception-prediction-planning]]"
-    type: related_to
-  - target: "[[concepts/end-to-end-driving]]"
-    type: related_to
+- target: '[[concepts/autonomous-driving]]'
+  type: related_to
+- target: '[[concepts/perception-prediction-planning]]'
+  type: related_to
+- target: '[[concepts/end-to-end-driving]]'
+  type: related_to
 ---
 
 # L2 vs L4 Autonomy

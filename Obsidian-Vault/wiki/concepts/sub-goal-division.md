@@ -1,21 +1,21 @@
 ---
-title: "Sub-goal Division"
+title: Sub-goal Division
 category: concepts
 tags:
-  - planning
-  - task-decomposition
-  - agentic-workflows
-  - sub-goals
-  - goal-breakdown
+- planning
+- task-decomposition
+- agentic-workflows
+- sub-goals
+- goal-breakdown
 aliases:
-  - task decomposition
-  - subgoal division
-  - goal decomposition
-  - planning by sub-goal division
+- task decomposition
+- subgoal division
+- goal decomposition
+- planning by sub-goal division
 sources:
-  - "AIEF2025 - How to Build Planning Agents without losing control - Yogendra Miraje, Factset - https://www.youtube.com/watch?v=sl3icG-IjHo"
+- AIEF2025 - How to Build Planning Agents without losing control - Yogendra Miraje, Factset - https://www.youtube.com/watch?v=sl3icG-IjHo
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -25,12 +25,13 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/agentic-workflow-vs-workflow-agent|Agentic Workflow vs Workflow Agent]]"
-    type: enables
-  - target: "[[concepts/blueprint-generator-pattern|Blueprint Generator Pattern]]"
-    type: implements
-  - target: "[[concepts/agent-architecture|Agent Architecture]]"
-    type: core_capability
+- target: '[[concepts/agentic-workflow-vs-workflow-agent|Agentic Workflow vs Workflow Agent]]'
+  type: enables
+- target: '[[concepts/blueprint-generator-pattern|Blueprint Generator Pattern]]'
+  type: implements
+- target: '[[concepts/agent-architecture|Agent Architecture]]'
+  type: core_capability
+summary: Sub-goal Division
 ---
 
 # Sub-goal Division

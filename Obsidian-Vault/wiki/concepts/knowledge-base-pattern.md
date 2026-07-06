@@ -1,32 +1,33 @@
 ---
-title: "Knowledge Base Pattern"
+title: Knowledge Base Pattern
 category: concepts
 tags:
-  - knowledge-base
-  - rag
-  - agent-memory
-  - context-management
-  - vector-database
-summary: A design pattern where AI agents maintain a centralized, queryable repository of domain knowledge built from uploaded documents, websites, and media — enabling proactive context retrieval instead of manual configuration.
+- knowledge-base
+- rag
+- agent-memory
+- context-management
+- vector-database
+summary: A design pattern where AI agents maintain a centralized, queryable repository of domain knowledge built from uploaded documents, websites, and media — enabling proactive context retrieval instead o...
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/agentic-rag]]"
-    type: extends
-  - target: "[[entities/alice-ai-sdr]]"
-    type: implements
-  - target: "[[concepts/parsing]]"
-    type: uses
-  - target: "[[concepts/chunking-strategies]]"
-    type: uses
+- target: '[[concepts/agentic-rag]]'
+  type: extends
+- target: '[[entities/alice-ai-sdr]]'
+  type: implements
+- target: '[[concepts/parsing]]'
+  type: uses
+- target: '[[concepts/chunking-strategies]]'
+  type: uses
+sources: []
 ---
 
 # Knowledge Base Pattern

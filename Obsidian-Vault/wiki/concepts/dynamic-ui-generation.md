@@ -1,30 +1,31 @@
 ---
-title: "Dynamic UI Generation"
+title: Dynamic UI Generation
 category: concepts
 tags:
-  - voice-ai
-  - ui-generation
-  - real-time
-  - multimodal
-  - conversational-ui
+- voice-ai
+- ui-generation
+- real-time
+- multimodal
+- conversational-ui
 sources:
-  - "AIEF2025 - Milliseconds to Magic: Real‑Time Workflows using the Gemini Live API and Pipecat - https://www.youtube.com/watch?v=fWY1FQwpWkY"
+- 'AIEF2025 - Milliseconds to Magic: Real‑Time Workflows using the Gemini Live API and Pipecat - https://www.youtube.com/watch?v=fWY1FQwpWkY'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/voice-agents]]"
-    type: related_to
-  - target: "[[concepts/llm-ui]]"
-    type: related_to
-  - target: "[[concepts/voice-ai-stack]]"
-    type: related_to
+- target: '[[concepts/voice-agents]]'
+  type: related_to
+- target: '[[concepts/llm-ui]]'
+  type: related_to
+- target: '[[concepts/voice-ai-stack]]'
+  type: related_to
+summary: Dynamic UI Generation
 ---
 
 # Dynamic UI Generation

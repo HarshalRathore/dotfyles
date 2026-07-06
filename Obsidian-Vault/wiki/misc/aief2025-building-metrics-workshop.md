@@ -1,21 +1,21 @@
 ---
-title: "AIEF2025 - Building Metrics that actually work — David Karam, Pi Labs"
+title: AIEF2025 - Building Metrics that actually work — David Karam, Pi Labs
 category: misc
 tags:
-  - aief2025
-  - workshop
-  - evals
-  - metrics
-  - david-karam
-  - pi-labs
+- aief2025
+- workshop
+- evals
+- metrics
+- david-karam
+- pi-labs
 aliases:
-  - building-metrics-workshop
+- building-metrics-workshop
 sources:
-  - "AIEF2025 - [Full Workshop] Building Metrics that actually work — David Karam, Pi Labs (fmr Google Search) - https://www.youtube.com/watch?v=jxrGodnopHo"
+- AIEF2025 - [Full Workshop] Building Metrics that actually work — David Karam, Pi Labs (fmr Google Search) - https://www.youtube.com/watch?v=jxrGodnopHo
 provenance:
-  extracted: 0.90
-  inferred: 0.10
-  ambiguous: 0.00
+  extracted: 0.9
+  inferred: 0.1
+  ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-04
@@ -23,12 +23,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/david-karam|David Karam]]"
-    type: features_speaker
-  - target: "[[entities/pi-labs|Pi Labs]]"
-    type: features_speaker_affiliation
-  - target: "[[references/aief2025-building-metrics-that-actually-work-david-karam-pi-labs|AIEF2025 - Building Metrics that actually work — David Karam, Pi Labs]]"
-    type: has_reference_page
+- target: '[[entities/david-karam|David Karam]]'
+  type: features_speaker
+- target: '[[entities/pi-labs|Pi Labs]]'
+  type: features_speaker_affiliation
+- target: '[[references/aief2025-building-metrics-that-actually-work-david-karam-pi-labs|AIEF2025 - Building Metrics that actually work — David Karam, Pi Labs]]'
+  type: has_reference_page
+summary: AIEF2025 - Building Metrics that actually work
 ---
 
 # AIEF2025 - Building Metrics that actually work

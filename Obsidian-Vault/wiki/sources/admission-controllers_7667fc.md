@@ -1,39 +1,46 @@
 ---
-summary: "This source explains that Admission Controllers are critical components in the Kubernetes API Server. They intercept create, update, and delete requests after authentication and authorization but b..."
+summary: This source explains that Admission Controllers are critical components in the Kubernetes API Server. They intercept create, update, and delete requests after authentication and authorization but b...
 type: source
-title: "Admission Controllers in Kubernetes - Summary"
-created: "2026-06-30"
-updated: "2026-06-30"
+title: Admission Controllers in Kubernetes - Summary
+created: '2026-06-30'
+updated: '2026-06-30'
 lifecycle: draft
 base_confidence: 0.7
-source_file: ""
+source_file: ''
 tags:
-  - MutatingAdmissionWebhook
-  - ValidatingAdmissionWebhook
-  - ValidatingAdmissionPolicy
-  - Mutating Phase
-  - Validating Phase
-  - Admission Controller
-  - AlwaysPullImages
-  - DefaultStorageClass
-  - DefaultIngressClass
-  - LimitRanger
-  - NamespaceLifecycle
-  - ResourceQuota
-  - PodSecurity
-  - NodeRestriction
-  - ServiceAccount
-  - DefaultTolerationSeconds
-  - TaintNodesByCondition
-  - NamespaceExists
-  - NamespaceAutoProvision
-  - kubeadm
-  - "kube-apiserver"
+- MutatingAdmissionWebhook
+- ValidatingAdmissionWebhook
+- ValidatingAdmissionPolicy
+- Mutating Phase
+- Validating Phase
+- Admission Controller
+- AlwaysPullImages
+- DefaultStorageClass
+- DefaultIngressClass
+- LimitRanger
+- NamespaceLifecycle
+- ResourceQuota
+- PodSecurity
+- NodeRestriction
+- ServiceAccount
+- DefaultTolerationSeconds
+- TaintNodesByCondition
+- NamespaceExists
+- NamespaceAutoProvision
+- kubeadm
+- kube-apiserver
 aliases:
-  - Kubernetes Admission Control
-  - K8s Admission Controllers
-contentHash: "99a-0f024d0e"
-generation_complete: True
+- Kubernetes Admission Control
+- K8s Admission Controllers
+contentHash: 99a-0f024d0e
+generation_complete: true
+category: sources
+sources: []
+tier: supporting
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
 ---
 # Admission Controllers in Kubernetes - Summary
 

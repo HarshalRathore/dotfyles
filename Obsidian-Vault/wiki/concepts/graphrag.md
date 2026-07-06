@@ -1,40 +1,48 @@
 ---
-title: "GraphRAG"
+title: GraphRAG
 tags:
-  - rag
-  - retrieval
-  - knowledge-graph
-  - graph-database
-  - architecture
+- rag
+- retrieval
+- knowledge-graph
+- graph-database
+- architecture
 aliases:
-  - Graph RAG
-  - Knowledge Graph RAG
+- Graph RAG
+- Knowledge Graph RAG
 sources:
-  - "[[sources/watchv=j-9ebjbxcbg]]"
-  - "[[sources/watchv=-tgqa8fzf80]]"
-  - "[[sources/ai-engineer-worlds-fair-2025-talk]]"
-  - "[[sources/watchv=9aqovt8lnmi]]"
-  - "[[sources/watchv=cbir9xs2skq]]"
-  - "[[sources/watchv=czm3cw6fdbs]]"
-  - "Data readiness is a Myth: Reliable AI with an Agentic Semantic Layer — Anushrut Gupta, PromptQL - https://www.youtube.com/watch?v=1nOTQsfe1RU"
-  - "AIEF2025 - Wisdom-Driven Knowledge Augmented Generation at Scale - Chin Keong Lam, Patho AI - https://www.youtube.com/watch?v=9AQOvT8LnMI"
-  - "AIEF2025 - Why Your Agent's Brain Needs a Playbook: Practical Wins from Using Ontologies - Jesús Barrasa, Neo4j - https://www.youtube.com/watch?v=CbiR9xS2skQ"
-  - "AIEF2025 - Agentic GraphRAG: Simplifying Retrieval Across Structured & Unstructured Data — Zach Blumenfeld - https://www.youtube.com/watch?v=CzM3cW6FdBs"
-  - "AIEF2025 - Practical GraphRAG: Making LLMs smarter with Knowledge Graphs — Michael, Jesus, and Stephen, Neo4j - https://www.youtube.com/watch?v=XNneh6-eyPg"
-  - "AIEF2025 - Knowledge Graphs in Litigation Agents — Tom Smoker, WhyHow - https://www.youtube.com/watch?v=yYxr6LdXNWM"
-  - "AIEF2025 - Top Ten Challenges to Reach AGI — Stephen Chin, Andreas Kollegger - https://www.youtube.com/watch?v=ypyvj_56sBU"
+- 'https://www.youtube.com/watch?v=j-9ebjbxcbg'
+- 'https://www.youtube.com/watch?v=-tgqa8fzf80'
+- '[[sources/ai-engineer-worlds-fair-2025-talk]]'
+- 'https://www.youtube.com/watch?v=9aqovt8lnmi'
+- 'https://www.youtube.com/watch?v=cbir9xs2skq'
+- 'https://www.youtube.com/watch?v=czm3cw6fdbs'
+- 'Data readiness is a Myth: Reliable AI with an Agentic Semantic Layer — Anushrut Gupta, PromptQL - https://www.youtube.com/watch?v=1nOTQsfe1RU'
+- AIEF2025 - Wisdom-Driven Knowledge Augmented Generation at Scale - Chin Keong Lam, Patho AI - https://www.youtube.com/watch?v=9AQOvT8LnMI
+- 'AIEF2025 - Why Your Agent''s Brain Needs a Playbook: Practical Wins from Using Ontologies - Jesús Barrasa, Neo4j - https://www.youtube.com/watch?v=CbiR9xS2skQ'
+- 'AIEF2025 - Agentic GraphRAG: Simplifying Retrieval Across Structured & Unstructured Data — Zach Blumenfeld - https://www.youtube.com/watch?v=CzM3cW6FdBs'
+- 'AIEF2025 - Practical GraphRAG: Making LLMs smarter with Knowledge Graphs — Michael, Jesus, and Stephen, Neo4j - https://www.youtube.com/watch?v=XNneh6-eyPg'
+- AIEF2025 - Knowledge Graphs in Litigation Agents — Tom Smoker, WhyHow - https://www.youtube.com/watch?v=yYxr6LdXNWM
+- AIEF2025 - Top Ten Challenges to Reach AGI — Stephen Chin, Andreas Kollegger - https://www.youtube.com/watch?v=ypyvj_56sBU
 lifecycle: draft
 tier: supporting
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/hybridrag|HybridRAG]]"
-    type: related_to
-  - target: "[[concepts/triplet-extraction|Triplet Extraction]]"
-    type: uses
-  - target: "[[concepts/kag-knowledge-augmented-generation|KAG (Knowledge Augmented Generation)]]"
-    type: related_to
-  - target: "[[concepts/ontology-driven-retrieval|Ontology-Driven Retrieval]]"
-    type: related_to
+- target: '[[concepts/hybridrag|HybridRAG]]'
+  type: related_to
+- target: '[[concepts/triplet-extraction|Triplet Extraction]]'
+  type: uses
+- target: '[[concepts/kag-knowledge-augmented-generation|KAG (Knowledge Augmented Generation)]]'
+  type: related_to
+- target: '[[concepts/ontology-driven-retrieval|Ontology-Driven Retrieval]]'
+  type: related_to
+category: concepts
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+created: '2026-07-05T04:30:43.871841+00:00'
+summary: GraphRAG
 ---
 
 # GraphRAG

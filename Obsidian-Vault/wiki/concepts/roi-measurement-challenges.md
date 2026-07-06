@@ -1,34 +1,35 @@
 ---
-title: "ROI Measurement Challenges"
+title: ROI Measurement Challenges
 category: concepts
 tags:
-  - roi
-  - measurement
-  - enterprise-ai
-  - impact
+- roi
+- measurement
+- enterprise-ai
+- impact
 aliases:
-  - AI ROI Measurement
-  - Measuring AI Impact
+- AI ROI Measurement
+- Measuring AI Impact
 sources:
-  - "AIEF2025 - AI Consulting in Practice – NLW, Superintelligent, @AIDailyBrief - https://www.youtube.com/watch?v=ehQFj6VmuI8"
-  - "KPMG Pulse Survey"
+- AIEF2025 - AI Consulting in Practice – NLW, Superintelligent, @AIDailyBrief - https://www.youtube.com/watch?v=ehQFj6VmuI8
+- KPMG Pulse Survey
 provenance:
   extracted: 0.75
   inferred: 0.15
-  ambiguous: 0.10
-base_confidence: 0.80
+  ambiguous: 0.1
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: core
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/enterprise-ai-adoption|Enterprise AI Adoption]]"
-    type: related_to
-  - target: "[[concepts/roi-expectation-pull-forward|ROI Expectation Pull-Forward]]"
-    type: related_to
-  - target: "[[concepts/ai-impact-categories|AI Impact Categories]]"
-    type: related_to
+- target: '[[concepts/enterprise-ai-adoption|Enterprise AI Adoption]]'
+  type: related_to
+- target: '[[concepts/roi-expectation-pull-forward|ROI Expectation Pull-Forward]]'
+  type: related_to
+- target: '[[concepts/ai-impact-categories|AI Impact Categories]]'
+  type: related_to
+summary: ROI Measurement Challenges
 ---
 
 # ROI Measurement Challenges

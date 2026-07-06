@@ -1,32 +1,36 @@
 ---
-title: "Seamless Authentication for Agents"
+title: Seamless Authentication for Agents
 category: concepts
 tags:
-  - agent-experience
-  - authentication
-  - agent-identity
-  - oauth
-  - aief2025
-aliases: [seamless auth, agent authentication, agent login]
+- agent-experience
+- authentication
+- agent-identity
+- oauth
+- aief2025
+aliases:
+- seamless auth
+- agent authentication
+- agent login
 sources:
-  - "AIEF2025 - AX is the only Experience that Matters - Ivan Burazin, Daytona - https://www.youtube.com/watch?v=e9sLVMN76qU"
+- AIEF2025 - AX is the only Experience that Matters - Ivan Burazin, Daytona - https://www.youtube.com/watch?v=e9sLVMN76qU
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/agent-experience]]"
-    type: component_of
-  - target: "[[concepts/agent-autonomy]]"
-    type: enables
-  - target: "[[entities/arcade]]"
-    type: implemented_by
+- target: '[[concepts/agent-experience]]'
+  type: component_of
+- target: '[[concepts/agent-autonomy]]'
+  type: enables
+- target: '[[entities/arcade]]'
+  type: implemented_by
+summary: Seamless Authentication for Agents
 ---
 
 # Seamless Authentication for Agents

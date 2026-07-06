@@ -1,36 +1,37 @@
 ---
-title: "Compute Scaling Laws"
+title: Compute Scaling Laws
 category: concepts
 tags:
-  - scaling-laws
-  - compute
-  - ai
-  - productivity
-  - model-quality
-  - aief2025
+- scaling-laws
+- compute
+- ai
+- productivity
+- model-quality
+- aief2025
 aliases:
-  - scaling laws compute
-  - compute scaling
-  - ai scaling laws
+- scaling laws compute
+- compute scaling
+- ai scaling laws
 sources:
-  - "[[sources/watchv=m6vbaig1tsm]]"
+- 'https://www.youtube.com/watch?v=m6vbaig1tsm'
 provenance:
-  extracted: 0.80
-  inferred: 0.20
-  ambiguous: 0.00
-base_confidence: 0.80
+  extracted: 0.8
+  inferred: 0.2
+  ambiguous: 0.0
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/gpu-marketplace|GPU Marketplace]]"
-    type: related_to
-  - target: "[[concepts/compute-allocation|Compute Allocation]]"
-    type: related_to
-  - target: "[[concepts/model-data-application-harmony|Model-Data-Application Harmony]]"
-    type: related_to
+- target: '[[concepts/gpu-marketplace|GPU Marketplace]]'
+  type: related_to
+- target: '[[concepts/compute-allocation|Compute Allocation]]'
+  type: related_to
+- target: '[[concepts/model-data-application-harmony|Model-Data-Application Harmony]]'
+  type: related_to
+summary: Compute Scaling Laws
 ---
 
 # Compute Scaling Laws

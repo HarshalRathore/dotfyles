@@ -1,34 +1,35 @@
 ---
-title: "Jared Hanson"
+title: Jared Hanson
 category: entities
 tags:
-  - person
-  - keycard
-  - passport-js
-  - auth0
-  - okta
-  - oauth
-  - identity
+- person
+- keycard
+- passport-js
+- auth0
+- okta
+- oauth
+- identity
 sources:
-  - "AIEF2025 - How to Secure Agents using OAuth — Jared Hanson (Keycard, Passport.js) - https://www.youtube.com/watch?v=blmAkayzE8M"
+- AIEF2025 - How to Secure Agents using OAuth — Jared Hanson (Keycard, Passport.js) - https://www.youtube.com/watch?v=blmAkayzE8M
 provenance:
-  extracted: 1.00
-  inferred: 0.00
-  ambiguous: 0.00
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
 base_confidence: 0.95
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/keycard|Keycard]]"
-    type: implements
-  - target: "[[entities/passport-js|Passport.js]]"
-    type: implements
-  - target: "[[entities/auth0|Auth0]]"
-    type: related_to
-  - target: "[[entities/okta|Okta]]"
-    type: related_to
+- target: '[[entities/keycard|Keycard]]'
+  type: implements
+- target: '[[entities/passport-js|Passport.js]]'
+  type: implements
+- target: '[[entities/auth0|Auth0]]'
+  type: related_to
+- target: '[[entities/okta|Okta]]'
+  type: related_to
+summary: Jared Hanson
 ---
 
 # Jared Hanson

@@ -1,38 +1,39 @@
 ---
-title: "Knowledge Graph Construction Pipeline"
+title: Knowledge Graph Construction Pipeline
 category: concepts
 tags:
-  - knowledge-graph
-  - graphrag
-  - construction
-  - pipeline
-  - entity-extraction
-  - lexical-graph
+- knowledge-graph
+- graphrag
+- construction
+- pipeline
+- entity-extraction
+- lexical-graph
 aliases:
-  - KG Construction
-  - Graph Building Pipeline
-  - Three-Phase Graph Construction
+- KG Construction
+- Graph Building Pipeline
+- Three-Phase Graph Construction
 sources:
-  - "AIEF2025 - Practical GraphRAG: Making LLMs smarter with Knowledge Graphs — Michael, Jesus, and Stephen, Neo4j - https://www.youtube.com/watch?v=XNneh6-eyPg"
-  - "AIEF2025 - Multi Agent AI and Network Knowledge Graphs for Change — Ola Mabadeje, Cisco - https://www.youtube.com/watch?v=m0dxZ-NDKHo"
+- 'AIEF2025 - Practical GraphRAG: Making LLMs smarter with Knowledge Graphs — Michael, Jesus, and Stephen, Neo4j - https://www.youtube.com/watch?v=XNneh6-eyPg'
+- AIEF2025 - Multi Agent AI and Network Knowledge Graphs for Change — Ola Mabadeje, Cisco - https://www.youtube.com/watch?v=m0dxZ-NDKHo
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: uses
-  - target: "[[concepts/lexical-graph|Lexical Graph]]"
-    type: extends
-  - target: "[[concepts/domain-graph|Domain Graph]]"
-    type: extends
-  - target: "[[concepts/triplet-extraction|Triplet Extraction]]"
-    type: uses
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: uses
+- target: '[[concepts/lexical-graph|Lexical Graph]]'
+  type: extends
+- target: '[[concepts/domain-graph|Domain Graph]]'
+  type: extends
+- target: '[[concepts/triplet-extraction|Triplet Extraction]]'
+  type: uses
+summary: Knowledge Graph Construction Pipeline
 ---
 
 # Knowledge Graph Construction Pipeline

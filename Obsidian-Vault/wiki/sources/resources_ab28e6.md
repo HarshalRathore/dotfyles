@@ -1,17 +1,25 @@
 ---
-summary: "This source file is an image reference contained within a larger documentation file (`Kubernetes/Resources.md`). The provided content is only an embed tag for the image file `Pasted image 20250..."
+summary: This source file is an image reference contained within a larger documentation file (`Kubernetes/Resources.md`). The provided content is only an embed tag for the image file `Pasted image 20250...
 type: source
-title: "Pasted image 20250501022055.png - Summary"
-created: "2026-06-30"
-updated: "2026-06-30"
+title: Pasted image 20250501022055.png - Summary
+created: '2026-06-30'
+updated: '2026-06-30'
 lifecycle: draft
 base_confidence: 0.7
-source_file: ""
+source_file: ''
 aliases:
-  - "Image Pasted 2025-05-01"
-  - Resource Image Ref
-contentHash: "24-8aa1e564"
-generation_complete: True
+- Image Pasted 2025-05-01
+- Resource Image Ref
+contentHash: 24-8aa1e564
+generation_complete: true
+category: sources
+tags: []
+sources: []
+tier: supporting
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
 ---
 # Pasted image 20250501022055.png - Summary
 

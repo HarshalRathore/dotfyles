@@ -11,7 +11,7 @@ relationships:
   - target: "[[concepts/ai-first-transformation]]"
     type: related_to
 sources:
-  - "[[sources/watchv=sbuxrluvrwk]]"
+  - "https://www.youtube.com/watch?v=sbuxrluvrwk"
 summary: "ML team lead at WiseDocs who spoke at AI Engineer World's Fair 2025 on structuring AI teams, the generalist approach, and hiring trade-offs."
 provenance:
   extracted: 0.90

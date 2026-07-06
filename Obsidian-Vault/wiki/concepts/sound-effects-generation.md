@@ -9,7 +9,7 @@ tags:
   - multimodal
 summary: AI-generated sound effects from text prompts. ElevenLabs' sound effects model generates four samples per prompt, powers the Sound Board drum machine, and includes text-to-bark for dog applications.
 sources:
-  - "[[sources/watchv=mptcbazn84a]]"
+  - "https://www.youtube.com/watch?v=mptcbazn84a"
 provenance:
   extracted: 0.85
   inferred: 0.10

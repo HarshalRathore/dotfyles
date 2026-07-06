@@ -1,10 +1,22 @@
 ---
-title: "Fluentd"
+title: Fluentd
 tags:
-  - product
+- product
 aliases:
-  - Unified Logging System
-  - fluentd
+- Unified Logging System
+- fluentd
+category: entities
+sources: []
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+created: '2026-07-02T13:38:25.540056+00:00'
+updated: '2026-07-02T13:38:25.540056+00:00'
+summary: Fluentd
 ---
 # Fluentd
 

@@ -1,30 +1,34 @@
 ---
-title: "Agent Development Lifecycle"
+title: Agent Development Lifecycle
 category: concepts
 tags:
-  - agents
-  - development
-  - lifecycle
-  - evaluation
-  - model-selection
-  - prompt-design
-aliases: [agent development process, agent lifecycle, building agents]
+- agents
+- development
+- lifecycle
+- evaluation
+- model-selection
+- prompt-design
+aliases:
+- agent development process
+- agent lifecycle
+- building agents
 relationships:
-  - target: "[[concepts/evaluation-first-development]]"
-    type: extends
-  - target: "[[concepts/agent-evaluation-pipeline]]"
-    type: extends
+- target: '[[concepts/evaluation-first-development]]'
+  type: extends
+- target: '[[concepts/agent-evaluation-pipeline]]'
+  type: extends
 sources:
-  - "[[sources/watchv=j4vpq2i0qze]]"
+- 'https://www.youtube.com/watch?v=j4vpq2i0qze'
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Agent Development Lifecycle
 ---
 
 # Agent Development Lifecycle

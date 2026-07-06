@@ -1,23 +1,25 @@
 ---
-title: "Natural Language Tool Schemas"
+title: Natural Language Tool Schemas
+category: concepts
 tags:
-  - agent
-  - tools
-  - llm
-  - prompt-design
-  - schema
+- agent
+- tools
+- llm
+- prompt-design
+- schema
 sources:
-  - "[[sources/watchv=ht4l0dep69i]]"
-summary: "The paradigm of describing agent tools and their parameters in natural language rather than formal code schemas, relying on the LLM's language understanding to determine tool relevance and parameter requirements.
+- https://www.youtube.com/watch?v=ht4l0dep69i
+summary: The paradigm of describing agent tools and their parameters in natural language rather than formal code schemas, relying on the LLM's language understanding to determine tool relevance and paramete...
 provenance:
-  extracted: 0.90
-  inferred: 0.07
-  ambiguous: 0.03
-base_confidence: 0.82
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+base_confidence: 0.42
 lifecycle: draft
+lifecycle_changed: '2026-07-06'
 tier: supporting
-created: 2026-07-04
-updated: 2026-07-04
+created: '2026-07-04'
+updated: '2026-07-04'
 ---
 # Natural Language Tool Schemas
 

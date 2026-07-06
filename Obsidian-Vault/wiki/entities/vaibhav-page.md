@@ -1,29 +1,30 @@
 ---
-title: "Vaibhav Page"
+title: Vaibhav Page
 tags:
-  - person
-  - blackrock
-  - ai-engineer-worlds-fair
-  - principal-engineer
+- person
+- blackrock
+- ai-engineer-worlds-fair
+- principal-engineer
 aliases:
-  - Vaibhav Page
-  - vaibhav-page
-  - Vibev
+- Vaibhav Page
+- vaibhav-page
+- Vibev
 sources:
-  - "[[sources/watchv=08mh36_nvos]]"
-summary: "Principal Engineer at BlackRock, working on the data platform team, focused on building AI knowledge applications and the sandbox + app factory framework for enterprise AI at scale."
+- 'https://www.youtube.com/watch?v=08mh36_nvos'
+summary: Principal Engineer at BlackRock, working on the data platform team, focused on building AI knowledge applications and the sandbox + app factory framework for enterprise AI at scale.
 provenance:
   extracted: 0.85
   inferred: 0.15
-  ambiguous: 0.00
+  ambiguous: 0.0
 base_confidence: 0.55
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
 relationships:
-  - target: "[[entities/blackrock|BlackRock]]"
-    type: related_to
+- target: '[[entities/blackrock|BlackRock]]'
+  type: related_to
+category: entities
 ---
 
 # Vaibhav Page

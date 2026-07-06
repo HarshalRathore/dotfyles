@@ -1,18 +1,18 @@
 ---
-title: "Building Over Theorizing"
+title: Building Over Theorizing
 category: concepts
 tags:
-  - philosophy
-  - software-engineering
-  - pragmatism
-  - maker-culture
+- philosophy
+- software-engineering
+- pragmatism
+- maker-culture
 aliases:
-  - building-not-theorizing
+- building-not-theorizing
 sources:
-  - "AIEF2025 - #define AI Engineer - Greg Brockman, OpenAI (ft. Jensen Huang) - https://www.youtube.com/watch?v=avWhreBUYF0"
+- 'AIEF2025 - #define AI Engineer - Greg Brockman, OpenAI (ft. Jensen Huang) - https://www.youtube.com/watch?v=avWhreBUYF0'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.75
 lifecycle: draft
@@ -21,10 +21,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/greg-brockman|Greg Brockman]]"
-    type: articulated-by
-  - target: "[[concepts/mathematics|Mathematics]]"
-    type: contrasts-with
+- target: '[[entities/greg-brockman|Greg Brockman]]'
+  type: articulated-by
+- target: '[[concepts/mathematics|Mathematics]]'
+  type: contrasts-with
+summary: Building Over Theorizing
 ---
 
 # Building Over Theorizing

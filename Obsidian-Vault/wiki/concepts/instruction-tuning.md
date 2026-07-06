@@ -1,20 +1,20 @@
 ---
-title: "Instruction Tuning"
+title: Instruction Tuning
 category: concepts
 tags:
-  - instruction-tuning
-  - llm
-  - fine-tuning
-  - personalization
+- instruction-tuning
+- llm
+- fine-tuning
+- personalization
 aliases:
-  - instruction tuning
-  - instruction fine-tuning
-  - IFT
+- instruction tuning
+- instruction fine-tuning
+- IFT
 sources:
-  - "[[sources/watchv=u0s6cfzay5c]]"
+- 'https://www.youtube.com/watch?v=u0s6cfzay5c'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.75
 lifecycle: draft
@@ -22,10 +22,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/360brew]]"
-    type: used_by
-  - target: "[[concepts/model-distillation]]"
-    type: related_to
+- target: '[[concepts/360brew]]'
+  type: used_by
+- target: '[[concepts/model-distillation]]'
+  type: related_to
+summary: Instruction Tuning
 ---
 # Instruction Tuning
 

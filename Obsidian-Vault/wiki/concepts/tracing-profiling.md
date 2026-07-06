@@ -13,15 +13,15 @@ tier: supporting
 created: 2026-07-05T00:00:00Z
 updated: 2026-07-05T00:00:00Z
 relationships:
-  - target: "[[concepts/sampled-profiling.md]]"
+  - target: "[[concepts/sampled-profiling]]"
     type: contrasts
-  - target: "[[concepts/continuous-profiling.md]]"
+  - target: "[[concepts/continuous-profiling]]"
     type: relates_to
 ---
 
 # Tracing Profiling
 
-[[Tracing Profiling]] is a profiling approach that records every single event continuously, providing the most complete possible view of system behavior. It is one of two main profiling paradigms, the other being [[concepts/sampled-profiling.md|sampled profiling]].
+[[concepts/tracing-profiling]] is a profiling approach that records every single event continuously, providing the most complete possible view of system behavior. It is one of two main profiling paradigms, the other being [[concepts/sampled-profiling|sampled profiling]].
 
 ## Characteristics
 
@@ -32,7 +32,7 @@ relationships:
 
 ## Contrast with Sampled Profiling
 
-Tracing profiling is generally impractical for continuous production use due to its high overhead and data volume. [[concepts/sampled-profiling.md|Sampled profiling]] is preferred for always-on monitoring because it achieves acceptable overhead (< 1% CPU, ~4 MB memory) while still capturing relevant patterns when run continuously.
+Tracing profiling is generally impractical for continuous production use due to its high overhead and data volume. [[concepts/sampled-profiling|Sampled profiling]] is preferred for always-on monitoring because it achieves acceptable overhead (< 1% CPU, ~4 MB memory) while still capturing relevant patterns when run continuously.
 
 ## Historical Context
 

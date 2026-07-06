@@ -1,17 +1,26 @@
 ---
 type: concept
-title: "Version Locking"
+title: Version Locking
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/install-kubernetes-components_c70e92]]"
+- '[[sources/install-kubernetes-components_c70e92]]'
 tags:
-  - deployment
+- deployment
 aliases:
-  - "apt-mark hold"
-  - version hold
+- apt-mark hold
+- version hold
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Version Locking
 ---
 # Version Locking
 
@@ -31,7 +40,7 @@ Version locking is a system administration method used to prevent the automatic 
 - **Production Environment Hardening**: Used in any scenario where reproducibility and stability are prioritized over accessing the latest features or patches.
 
 ## Related Concepts
-- [[kubernetes-apt-repository-setup]]
+- [[concepts/kubernetes-apt-repository-setup]]
 - kubernetes-tooling-installation
 
 ## Related Entities

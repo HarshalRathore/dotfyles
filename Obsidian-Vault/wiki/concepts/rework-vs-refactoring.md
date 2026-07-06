@@ -1,36 +1,36 @@
 ---
-title: "Rework vs Refactoring"
+title: Rework vs Refactoring
 category: concepts
 tags:
-  - software-engineering
-  - ai-productivity
-  - code-quality
-  - measurement
-  - rework
-  - refactoring
+- software-engineering
+- ai-productivity
+- code-quality
+- measurement
+- rework
+- refactoring
 aliases:
-  - Rework
-  - Rework vs Refactoring
+- Rework
+- Rework vs Refactoring
 sources:
-  - "AIEF2025 - Does AI Actually Boost Developer Productivity? (100k Devs Study) - Yegor Denisov-Blanch, Stanford - https://www.youtube.com/watch?v=tbDDYKRFjhk"
-summary: "In AI productivity measurement, 'rework' means altering recently-written code (wasteful), while 'refactoring' means altering existing code without changing behavior (potentially beneficial). AI implementation immediately increases rework, masking true productivity gains."
+- AIEF2025 - Does AI Actually Boost Developer Productivity? (100k Devs Study) - Yegor Denisov-Blanch, Stanford - https://www.youtube.com/watch?v=tbDDYKRFjhk
+summary: In AI productivity measurement, 'rework' means altering recently-written code (wasteful), while 'refactoring' means altering existing code without changing behavior (potentially beneficial). AI imp...
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/ai-productivity-measurement|AI Productivity Measurement]]"
-    type: used_by
-  - target: "[[concepts/ai-developer-productivity|AI Developer Productivity]]"
-    type: related_to
-  - target: "[[concepts/commit-based-metrics-limitations|Commit-Based Metrics Limitations]]"
-    type: related_to
+- target: '[[concepts/ai-productivity-measurement|AI Productivity Measurement]]'
+  type: used_by
+- target: '[[concepts/ai-developer-productivity|AI Developer Productivity]]'
+  type: related_to
+- target: '[[concepts/commit-based-metrics-limitations|Commit-Based Metrics Limitations]]'
+  type: related_to
 ---
 
 # Rework vs Refactoring

@@ -1,16 +1,19 @@
 ---
-title: "OpenInference"
+title: OpenInference
 category: concepts
 tags:
-  - open-inference
-  - mcp
-  - observability
-  - instrumentation
-  - semantic-conventions
-  - aief2025
-aliases: [OpenInference, open-inference, Open Inference]
+- open-inference
+- mcp
+- observability
+- instrumentation
+- semantic-conventions
+- aief2025
+aliases:
+- OpenInference
+- open-inference
+- Open Inference
 sources:
-  - "[[sources/watchv=lcqat4ip_le]]"
+- 'https://www.youtube.com/watch?v=lcqat4ip_le'
 provenance:
   extracted: 0.92
   inferred: 0.06
@@ -22,12 +25,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/semantic-conventions]]"
-    type: extends
-  - target: "[[concepts/mcp-observability]]"
-    type: related_to
-  - target: "[[entities/arize]]"
-    type: related_to
+- target: '[[concepts/semantic-conventions]]'
+  type: extends
+- target: '[[concepts/mcp-observability]]'
+  type: related_to
+- target: '[[entities/arize]]'
+  type: related_to
+summary: OpenInference
 ---
 
 # OpenInference

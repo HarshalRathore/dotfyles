@@ -1,23 +1,23 @@
 ---
-title: "GPU Utilization"
+title: GPU Utilization
 category: concepts
 tags:
-  - gpu
-  - utilization
-  - efficiency
-  - ai-infrastructure
-  - resource-allocation
-  - aief2025
+- gpu
+- utilization
+- efficiency
+- ai-infrastructure
+- resource-allocation
+- aief2025
 aliases:
-  - gpu utilization
-  - gpu idle time
-  - compute utilization
+- gpu utilization
+- gpu idle time
+- compute utilization
 sources:
-  - "[[sources/watchv=m6vbaig1tsm]]"
+- 'https://www.youtube.com/watch?v=m6vbaig1tsm'
 provenance:
-  extracted: 0.90
-  inferred: 0.10
-  ambiguous: 0.00
+  extracted: 0.9
+  inferred: 0.1
+  ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-04
@@ -25,12 +25,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/gpu-marketplace|GPU Marketplace]]"
-    type: related_to
-  - target: "[[concepts/gpu-commoditization|GPU Commoditization]]"
-    type: extends
-  - target: "[[concepts/compute-allocation|Compute Allocation]]"
-    type: related_to
+- target: '[[concepts/gpu-marketplace|GPU Marketplace]]'
+  type: related_to
+- target: '[[concepts/gpu-commoditization|GPU Commoditization]]'
+  type: extends
+- target: '[[concepts/compute-allocation|Compute Allocation]]'
+  type: related_to
+summary: GPU Utilization
 ---
 
 # GPU Utilization

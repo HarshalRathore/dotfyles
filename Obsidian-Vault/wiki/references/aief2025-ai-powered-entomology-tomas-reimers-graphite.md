@@ -1,29 +1,37 @@
 ---
-title: "AI Powered Entomology: Lessons from Millions of AI Code Reviews — Tomas Reimers, Graphite (AIEF2025)"
+title: 'AI Powered Entomology: Lessons from Millions of AI Code Reviews — Tomas Reimers, Graphite (AIEF2025)'
 category: references
-tags: [ai-engineering, code-review, bug-taxonomy, llm-evaluation, aief2025]
-aliases: [AI powered entomology, Graphite bug taxonomy, AI code review bug types]
+tags:
+- ai-engineering
+- code-review
+- bug-taxonomy
+- llm-evaluation
+- aief2025
+aliases:
+- AI powered entomology
+- Graphite bug taxonomy
+- AI code review bug types
 relationships:
-  - target: "[[concepts/bug-taxonomy]]"
-    type: articulates
-  - target: "[[concepts/tribal-knowledge]]"
-    type: discusses
-  - target: "[[concepts/code-cleanliness]]"
-    type: discusses
-  - target: "[[concepts/code-review-feedback-quality]]"
-    type: articulates
-  - target: "[[entities/graphite]]"
-    type: describes
-  - target: "[[entities/tomas-reimers]]"
-    type: describes
+- target: '[[concepts/bug-taxonomy]]'
+  type: articulates
+- target: '[[concepts/tribal-knowledge]]'
+  type: discusses
+- target: '[[concepts/code-cleanliness]]'
+  type: discusses
+- target: '[[concepts/code-review-feedback-quality]]'
+  type: articulates
+- target: '[[entities/graphite]]'
+  type: describes
+- target: '[[entities/tomas-reimers]]'
+  type: describes
 sources:
-  - "[[sources/watchv=tswqekftnaw]]"
-summary: "Tomas Reimers presents a 2D taxonomy of code review comments based on what LLMs can catch and what humans want to receive, revealing that tribal knowledge and codebase conventions are the hardest categories for AI to handle."
+- 'https://www.youtube.com/watch?v=tswqekftnaw'
+summary: Tomas Reimers presents a 2D taxonomy of code review comments based on what LLMs can catch and what humans want to receive, revealing that tribal knowledge and codebase conventions are the hardest c...
 provenance:
-  extracted: 0.70
-  inferred: 0.20
-  ambiguous: 0.10
-base_confidence: 0.70
+  extracted: 0.7
+  inferred: 0.2
+  ambiguous: 0.1
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting

@@ -1,34 +1,35 @@
 ---
-title: "Property Graph Model"
+title: Property Graph Model
 tags:
-  - knowledge-graph
-  - neo4j
-  - graph-database
-  - data-model
-  - graphrag
-  - aief2025
+- knowledge-graph
+- neo4j
+- graph-database
+- data-model
+- graphrag
+- aief2025
 aliases:
-  - Property Graph
+- Property Graph
 sources:
-  - "[[sources/watchv=j-9ebjbxcbg]]"
-  - "[[sources/watchv=czm3cw6fdbs]]"
-summary: "Neo4j's data model consisting of three primitives: nodes (nouns/entities), directed relationships (verbs/connections), and properties (key-value pairs). Both nodes and relationships can carry properties including vectors."
+- 'https://www.youtube.com/watch?v=j-9ebjbxcbg'
+- 'https://www.youtube.com/watch?v=czm3cw6fdbs'
+summary: 'Neo4j''s data model consisting of three primitives: nodes (nouns/entities), directed relationships (verbs/connections), and properties (key-value pairs). Both nodes and relationships can carry prope...'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/neo4j|Neo4j]]"
-    type: implemented_by
-  - target: "[[concepts/cypher-query-language|Cypher Query Language]]"
-    type: queried_by
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: used_by
+- target: '[[entities/neo4j|Neo4j]]'
+  type: implemented_by
+- target: '[[concepts/cypher-query-language|Cypher Query Language]]'
+  type: queried_by
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: used_by
+category: concepts
 ---
 
 # Property Graph Model

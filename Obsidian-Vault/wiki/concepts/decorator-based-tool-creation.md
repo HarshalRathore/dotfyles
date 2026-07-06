@@ -1,29 +1,25 @@
 ---
-title: "Decorator-Based Tool Creation"
+title: Decorator-Based Tool Creation
+category: concepts
 tags:
-  - ai-agents
-  - tools
-  - python
-  - decorator-pattern
-  - agent-frameworks
-aliases: [tool decorator, @tools.tool, python tool decorator]
+- ai-agents
+- tools
+- python
+- decorator-pattern
+- agent-frameworks
 sources:
-  - "[[sources/watchv=q3nreeadkmc]]"
-summary: "Pattern of converting any Python function into an agent tool using a decorator (e.g., @tools.tool), eliminating boilerplate and making custom tool creation as simple as adding an annotation."
+- https://www.youtube.com/watch?v=q3nreeadkmc
+summary: Pattern of converting any Python function into an agent tool using a decorator (e.g., @tools.tool), eliminating boilerplate and making custom tool creation as simple as adding an annotation.
 provenance:
-  extracted: 0.85
-  inferred: 0.10
-  ambiguous: 0.05
-base_confidence: 0.80
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+base_confidence: 0.42
 lifecycle: draft
+lifecycle_changed: '2026-07-06'
 tier: supporting
-created: 2026-07-04
-updated: 2026-07-04
-relationships:
-  - target: "[[concepts/built-in-agent-tools|Built-in Agent Tools]]"
-    type: related_to
-  - target: "[[concepts/minimal-scaffolding-ai-agents|Minimal Scaffolding for AI Agents]]"
-    type: implements
+created: '2026-07-04'
+updated: '2026-07-04'
 ---
 
 # Decorator-Based Tool Creation

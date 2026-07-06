@@ -1,32 +1,35 @@
 ---
-title: "Prompt Shields"
+title: Prompt Shields
 category: concepts
 tags:
-  - prompt-shields
-  - guardrails
-  - prompt-injection
-  - defense
-  - azure-ai-foundry
-  - microsoft
-aliases: [prompt injection defense, prompt shields]
+- prompt-shields
+- guardrails
+- prompt-injection
+- defense
+- azure-ai-foundry
+- microsoft
+aliases:
+- prompt injection defense
+- prompt shields
 relationships:
-  - target: "[[concepts/guardrails-content-filters]]"
-    type: extends
-  - target: "[[concepts/attack-strategies]]"
-    type: related_to
-  - target: "[[concepts/prompt-injection]]"
-    type: related_to
+- target: '[[concepts/guardrails-content-filters]]'
+  type: extends
+- target: '[[concepts/attack-strategies]]'
+  type: related_to
+- target: '[[concepts/prompt-injection]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=jhjkgramfiu]]"
+- 'https://www.youtube.com/watch?v=jhjkgramfiu'
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Prompt Shields
 ---
 
 # Prompt Shields

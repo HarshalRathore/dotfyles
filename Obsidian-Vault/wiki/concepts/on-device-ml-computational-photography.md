@@ -1,24 +1,24 @@
 ---
-title: "On-Device ML for Computational Photography"
+title: On-Device ML for Computational Photography
 tags:
-  - concept
-  - computer-vision
-  - on-device-ml
-  - photo-editing
-  - mobile-ml
+- concept
+- computer-vision
+- on-device-ml
+- photo-editing
+- mobile-ml
 aliases:
-  - on-device computational photography
-  - mobile ML photography
+- on-device computational photography
+- mobile ML photography
 relationships:
-  - target: "[[concepts/inference-performance-evaluation]]"
-    type: related_to
-  - target: "[[concepts/model-as-unit-test-paradigm]]"
-    type: related_to
+- target: '[[concepts/inference-performance-evaluation]]'
+  type: related_to
+- target: '[[concepts/model-as-unit-test-paradigm]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=c13jifwnuo8]]"
-summary: "Using on-device ML compute (not sensor quality) to replace traditional computational photography techniques, pioneered by Google Photos' Computational Photography team (est. 2018)."
+- 'https://www.youtube.com/watch?v=c13jifwnuo8'
+summary: Using on-device ML compute (not sensor quality) to replace traditional computational photography techniques, pioneered by Google Photos' Computational Photography team (est. 2018).
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.55
@@ -26,6 +26,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # On-Device ML for Computational Photography

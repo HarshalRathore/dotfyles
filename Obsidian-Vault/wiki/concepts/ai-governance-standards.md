@@ -2,10 +2,12 @@
 title: AI Governance Standards
 category: concepts
 tags: [ai-governance, standards, fedramp, nist-800-53, cnssi-1253, dod-csfc, compliance, continuous-monitoring]
-summary: The layered compliance standards framework for AI systems in government: NIST 800-53, FedRAMP, DOD CSfC, and CNSSI 1253 — creating the world's most comprehensive AI compliance regime.
+summary: >-
+  The layered compliance standards framework for AI systems in government: NIST 800-53, FedRAMP, DOD CSfC, and CNSSI 1253 — creating the world's most comprehensive AI compliance regime.
 sources:
-  - "[[sources/watchv=tnsgx36ly0q]]"
-provenance: {extracted: 0.90, inferred: 0.05, ambiguous: 0.05}
+  - "https://www.youtube.com/watch?v=tnsgx36ly0q"
+provenance: >-
+  {extracted: 0.90, inferred: 0.05, ambiguous: 0.05}
 base_confidence: 0.90
 lifecycle: draft
 lifecycle_changed: 2026-07-04

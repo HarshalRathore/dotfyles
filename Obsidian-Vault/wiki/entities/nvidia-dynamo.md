@@ -1,15 +1,15 @@
 ---
-title: "NVIDIA Dynamo"
+title: NVIDIA Dynamo
 tags:
-  - nvidia
-  - inference
-  - open-source
-  - llm-serving
-  - disaggregation
-  - model-serving
+- nvidia
+- inference
+- open-source
+- llm-serving
+- disaggregation
+- model-serving
 sources:
-  - "AIEF2025 - Hacking the Inference Pareto Frontier - Kyle Kranen, NVIDIA - https://www.youtube.com/watch?v=Y2qc0UhDSnc"
-summary: "Open-source NVIDIA project for data-center-scale LLM inference, enabling teams to manipulate their deployment's Pareto frontier for better SLAs or lower costs through techniques like disaggregation."
+- AIEF2025 - Hacking the Inference Pareto Frontier - Kyle Kranen, NVIDIA - https://www.youtube.com/watch?v=Y2qc0UhDSnc
+summary: Open-source NVIDIA project for data-center-scale LLM inference, enabling teams to manipulate their deployment's Pareto frontier for better SLAs or lower costs through techniques like disaggregation.
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -21,14 +21,15 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/nvidia|NVIDIA]]"
-    type: implements
-  - target: "[[entities/kyle-kranen|Kyle Kranen]]"
-    type: led_by
-  - target: "[[concepts/disaggregated-inference|Disaggregated Inference]]"
-    type: enables
-  - target: "[[concepts/inference-pareto-frontier|Inference Pareto Frontier]]"
-    type: optimizes
+- target: '[[entities/nvidia|NVIDIA]]'
+  type: implements
+- target: '[[entities/kyle-kranen|Kyle Kranen]]'
+  type: led_by
+- target: '[[concepts/disaggregated-inference|Disaggregated Inference]]'
+  type: enables
+- target: '[[concepts/inference-pareto-frontier|Inference Pareto Frontier]]'
+  type: optimizes
+category: entities
 ---
 
 # NVIDIA Dynamo

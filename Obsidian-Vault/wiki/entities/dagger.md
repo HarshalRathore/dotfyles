@@ -1,20 +1,23 @@
 ---
-title: "Dagger"
+title: Dagger
 tags:
-  - entity
-  - company
-  - tool
-  - cicd
-  - container
-  - workflow-engine
-  - agents
-aliases: [dagger.io, Dagger engine, Dagger workflow engine]
-summary: "Container workflow engine and CI/CD platform by the founders of Docker. Now supports LLMs as a first-class primitive for building agent environments with sandboxed execution."
+- entity
+- company
+- tool
+- cicd
+- container
+- workflow-engine
+- agents
+aliases:
+- dagger.io
+- Dagger engine
+- Dagger workflow engine
+summary: Container workflow engine and CI/CD platform by the founders of Docker. Now supports LLMs as a first-class primitive for building agent environments with sandboxed execution.
 sources:
-  - "[[sources/watchv=fzb1a24hf-o]]"
-  - "AIEF2025 - Containing Agent Chaos — Solomon Hykes, Dagger - https://www.youtube.com/watch?v=bUBF5V6oDKw"
+- 'https://www.youtube.com/watch?v=fzb1a24hf-o'
+- AIEF2025 - Containing Agent Chaos — Solomon Hykes, Dagger - https://www.youtube.com/watch?v=bUBF5V6oDKw
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.18
   ambiguous: 0.02
 base_confidence: 0.55
@@ -22,6 +25,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Dagger

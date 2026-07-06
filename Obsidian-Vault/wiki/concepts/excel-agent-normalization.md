@@ -1,15 +1,15 @@
 ---
-title: "Excel Agent Normalization"
+title: Excel Agent Normalization
 category: concepts
 tags:
-  - excel
-  - agent
-  - data-normalization
-  - llamaindex
-  - spreadsheet
+- excel
+- agent
+- data-normalization
+- llamaindex
+- spreadsheet
 summary: An AI agent approach to normalizing unstructured Excel spreadsheets into clean 2D tables, enabling downstream querying and analysis that RAG and text-as-CSV cannot handle.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.65
@@ -19,12 +19,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/document-toolbox]]"
-    type: implements
-  - target: "[[concepts/parsing]]"
-    type: extends
-  - target: "[[concepts/rag-evaluation|RAG]]"
-    type: contradicts
+- target: '[[concepts/document-toolbox]]'
+  type: implements
+- target: '[[concepts/parsing]]'
+  type: extends
+- target: '[[concepts/rag-evaluation|RAG]]'
+  type: contradicts
+sources: []
 ---
 
 # Excel Agent Normalization

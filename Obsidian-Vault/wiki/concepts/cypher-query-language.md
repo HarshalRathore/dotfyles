@@ -1,19 +1,19 @@
 ---
-title: "Cypher Query Language"
+title: Cypher Query Language
 tags:
-  - neo4j
-  - query-language
-  - graph-database
-  - knowledge-graph
-  - graphrag
-  - aief2025
+- neo4j
+- query-language
+- graph-database
+- knowledge-graph
+- graphrag
+- aief2025
 aliases:
-  - Cypher
-  - Neo4j Query Language
+- Cypher
+- Neo4j Query Language
 sources:
-  - "[[sources/watchv=j-9ebjbxcbg]]"
-  - "[[sources/watchv=czm3cw6fdbs]]"
-summary: "Neo4j's declarative query language that uses ASCII-art-like syntax to express graph patterns. Supports MATCH, MERGE, CREATE, aggregation, variable-length path traversal, and vector search integration."
+- 'https://www.youtube.com/watch?v=j-9ebjbxcbg'
+- 'https://www.youtube.com/watch?v=czm3cw6fdbs'
+summary: Neo4j's declarative query language that uses ASCII-art-like syntax to express graph patterns. Supports MATCH, MERGE, CREATE, aggregation, variable-length path traversal, and vector search integration.
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -24,12 +24,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/neo4j|Neo4j]]"
-    type: used_by
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: used_by
-  - target: "[[concepts/property-graph-model|Property Graph Model]]"
-    type: queries
+- target: '[[entities/neo4j|Neo4j]]'
+  type: used_by
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: used_by
+- target: '[[concepts/property-graph-model|Property Graph Model]]'
+  type: queries
+category: concepts
 ---
 
 # Cypher Query Language

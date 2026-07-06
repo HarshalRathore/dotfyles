@@ -1,24 +1,24 @@
 ---
-title: "Kitze"
+title: Kitze
 category: entities
 tags:
-  - person
-  - entrepreneur
-  - independent-developer
-  - twitter-influencer
-  - aief2025
-  - vibe-engineering
+- person
+- entrepreneur
+- independent-developer
+- twitter-influencer
+- aief2025
+- vibe-engineering
 sources:
-  - "[[sources/watchv=jv-wy5pxxlo]]"
+- 'https://www.youtube.com/watch?v=jv-wy5pxxlo'
 relationships:
-  - target: "[[entities/sizzy]]"
-    type: implements
-  - target: "[[concepts/vibe-engineering]]"
-    type: implements
-  - target: "[[concepts/voice-dictation-ai-coding]]"
-    type: uses
+- target: '[[entities/sizzy]]'
+  type: implements
+- target: '[[concepts/vibe-engineering]]'
+  type: implements
+- target: '[[concepts/voice-dictation-ai-coding]]'
+  type: uses
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -26,6 +26,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Kitze
 ---
 
 # Kitze

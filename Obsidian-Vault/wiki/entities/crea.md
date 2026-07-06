@@ -4,7 +4,7 @@ category: entities
 tags: [company, ai, creative-suite, aief2025, hf0-residency, diego-rodriguez]
 summary: "AI creative suite founded by Diego Rodriguez (CTO). 25M users, built with a team of 8. Presented at HF0 Residency talk at AIEF2025."
 sources:
-  - "[[sources/watchv=l8-5ezsoi5a]]"
+  - "https://www.youtube.com/watch?v=l8-5ezsoi5a"
 provenance:
   extracted: 0.9
   inferred: 0.1

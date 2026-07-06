@@ -1,16 +1,16 @@
 ---
-title: "From Rule-Based to Adaptive Technology"
+title: From Rule-Based to Adaptive Technology
 category: concepts
 tags:
-  - ai-philosophy
-  - rule-based-systems
-  - adaptive-systems
-  - ai-vision
-  - evolution
+- ai-philosophy
+- rule-based-systems
+- adaptive-systems
+- ai-vision
+- evolution
 sources:
-  - "AIEF2025 - Why should anyone care about Evals? — Manu Goyal, Braintrust - https://www.youtube.com/watch?v=jJ45Yz1lJao"
+- AIEF2025 - Why should anyone care about Evals? — Manu Goyal, Braintrust - https://www.youtube.com/watch?v=jJ45Yz1lJao
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
 base_confidence: 0.75
@@ -19,12 +19,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/software-2-0|Software 2.0]]"
-    type: extends
-  - target: "[[concepts/agent-native-development|Agent-Native Development]]"
-    type: motivates
-  - target: "[[concepts/tech-as-thought-partner|Technology as Thought Partner]]"
-    type: relates_to
+- target: '[[concepts/software-2-0|Software 2.0]]'
+  type: extends
+- target: '[[concepts/agent-native-development|Agent-Native Development]]'
+  type: motivates
+- target: '[[concepts/tech-as-thought-partner|Technology as Thought Partner]]'
+  type: relates_to
+summary: From Rule-Based to Adaptive Technology
 ---
 
 # From Rule-Based to Adaptive Technology

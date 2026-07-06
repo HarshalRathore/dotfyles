@@ -1,30 +1,31 @@
 ---
-title: "Model-Driven Application Cycles"
+title: Model-Driven Application Cycles
 category: concepts
 tags:
-  - voice-ai
-  - model-driven
-  - stochastic
-  - application-design
-  - probabilistic
+- voice-ai
+- model-driven
+- stochastic
+- application-design
+- probabilistic
 sources:
-  - "AIEF2025 - Milliseconds to Magic: Real‑Time Workflows using the Gemini Live API and Pipecat - https://www.youtube.com/watch?v=fWY1FQwpWkY"
+- 'AIEF2025 - Milliseconds to Magic: Real‑Time Workflows using the Gemini Live API and Pipecat - https://www.youtube.com/watch?v=fWY1FQwpWkY'
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/model-driven-agent-design]]"
-    type: related_to
-  - target: "[[concepts/probabilistic-software]]"
-    type: extends
-  - target: "[[concepts/voice-agents]]"
-    type: related_to
+- target: '[[concepts/model-driven-agent-design]]'
+  type: related_to
+- target: '[[concepts/probabilistic-software]]'
+  type: extends
+- target: '[[concepts/voice-agents]]'
+  type: related_to
+summary: Model-Driven Application Cycles
 ---
 
 # Model-Driven Application Cycles

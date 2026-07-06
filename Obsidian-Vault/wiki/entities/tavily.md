@@ -1,18 +1,18 @@
 ---
-title: "Tavily"
+title: Tavily
 category: entities
 tags:
-  - ai-search
-  - real-time-data
-  - retrieval
-  - evals
-  - aief2025
+- ai-search
+- real-time-data
+- retrieval
+- evals
+- aief2025
 aliases:
-  - tavily api
+- tavily api
 sources:
-  - "AIEF2025 - Evaluating AI Search: A Practical Framework for Augmented AI Systems — Quotient AI + Tavily - https://www.youtube.com/watch?v=wRJD0inpmjU"
+- 'AIEF2025 - Evaluating AI Search: A Practical Framework for Augmented AI Systems — Quotient AI + Tavily - https://www.youtube.com/watch?v=wRJD0inpmjU'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -22,12 +22,13 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/quotient-ai]]"
-    type: collaborates_with
-  - target: "[[concepts/dynamic-eval-sets]]"
-    type: created
-  - target: "[[concepts/ai-powered-search]]"
-    type: implements
+- target: '[[entities/quotient-ai]]'
+  type: collaborates_with
+- target: '[[concepts/dynamic-eval-sets]]'
+  type: created
+- target: '[[concepts/ai-powered-search]]'
+  type: implements
+summary: Tavily
 ---
 
 # Tavily

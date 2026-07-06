@@ -4,7 +4,7 @@ category: concepts
 tags: [taxonomy, classification, search, nlp, e-commerce, llm]
 summary: "The task of mapping user queries or content to labels in a predefined hierarchical category system — a core component of search query understanding in e-commerce."
 sources:
-  - "[[sources/watchv=pjavhm_3ljg]]"
+  - "https://www.youtube.com/watch?v=pjavhm_3ljg"
 provenance:
   extracted: 0.75
   inferred: 0.20

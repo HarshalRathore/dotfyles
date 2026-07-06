@@ -1,30 +1,31 @@
 ---
-title: "LeeCo Wizard"
+title: LeeCo Wizard
 category: entities
 tags:
-  - tool
-  - ai-assistant
-  - hiring
-  - ai-cheating
-  - interview-prep
+- tool
+- ai-assistant
+- hiring
+- ai-cheating
+- interview-prep
 aliases:
-  - LeeCo
-  - LeeCo Wizard
+- LeeCo
+- LeeCo Wizard
 sources:
-  - "AIEF2025 - How to Hire AI Engineers when EVERYONE is cheating with AI — Beth Glenfield, DevDay - https://www.youtube.com/watch?v=Zqu0VaJw3vo"
+- AIEF2025 - How to Hire AI Engineers when EVERYONE is cheating with AI — Beth Glenfield, DevDay - https://www.youtube.com/watch?v=Zqu0VaJw3vo
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/ai-cheating-technical-interviews|AI Cheating in Technical Interviews]]"
-    type: implements
+- target: '[[concepts/ai-cheating-technical-interviews|AI Cheating in Technical Interviews]]'
+  type: implements
+summary: LeeCo Wizard
 ---
 
 # LeeCo Wizard

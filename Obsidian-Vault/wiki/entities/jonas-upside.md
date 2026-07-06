@@ -4,7 +4,7 @@ category: entities
 tags: [person, entrepreneur, data-analytics, aief2025, hf0-residency, upside, branch]
 summary: "Engineer and co-founder of Upside (forensic revenue attribution). Previously worked at Branch (app deep linking, search engine for 100M+ users). Dropped out of high school at 15."
 sources:
-  - "[[sources/watchv=l8-5ezsoi5a]]"
+  - "https://www.youtube.com/watch?v=l8-5ezsoi5a"
 provenance:
   extracted: 0.95
   inferred: 0.05

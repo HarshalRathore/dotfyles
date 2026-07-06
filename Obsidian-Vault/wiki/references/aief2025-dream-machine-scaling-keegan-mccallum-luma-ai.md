@@ -4,7 +4,7 @@ category: references
 tags: [aief2025, luma-ai, gpu-scaling, inference-serving, fair-scheduling, model-versioning, distributed-inference]
 summary: Keegan McCallum's talk on scaling Dream Machine from 500 to ~9,000 GPUs in 4 days, custom PyTorch serving, SLA-based fair scheduling, and model versioning.
 sources:
-  - "[[sources/watchv=ey4o9m6aswi]]"
+  - "https://www.youtube.com/watch?v=ey4o9m6aswi"
 provenance:
   extracted: 0.95
   inferred: 0.03
@@ -16,13 +16,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[luma-ai]]"
+  - target: "[[entities/luma-ai]]"
     type: related_to
-  - target: "[[keegan-mccallum]]"
+  - target: "[[entities/keegan-mccallum]]"
     type: related_to
-  - target: "[[inference-serving]]"
+  - target: "[[concepts/inference-serving]]"
     type: related_to
-  - target: "[[fair-scheduling]]"
+  - target: "[[concepts/fair-scheduling]]"
     type: related_to
 ---
 
@@ -99,13 +99,13 @@ Implemented by engineer Sorish in "a couple hours" after the system was designed
 
 ## Related Pages
 
-- [[luma-ai]] — Company overview
-- [[keegan-mccallum]] — Speaker profile
-- [[inference-serving]] — Serving architecture patterns
-- [[fair-scheduling]] — SLA-based scheduling system
-- [[model-versioning]] — Model repo pattern and hot rollout
-- [[distributed-inference]] — Multi-node GPU inference
-- [[triton-inference-server]] — NVIDIA's inference server (initially used, then replaced)
+- [[entities/luma-ai]] — Company overview
+- [[entities/keegan-mccallum]] — Speaker profile
+- [[concepts/inference-serving]] — Serving architecture patterns
+- [[concepts/fair-scheduling]] — SLA-based scheduling system
+- [[concepts/model-versioning]] — Model repo pattern and hot rollout
+- [[concepts/distributed-inference]] — Multi-node GPU inference
+- [[entities/triton-inference-server]] — NVIDIA's inference server (initially used, then replaced)
 
 ## Q&A Highlights
 

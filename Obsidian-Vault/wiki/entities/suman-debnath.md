@@ -1,23 +1,24 @@
 ---
-title: "Suman Debnath"
+title: Suman Debnath
 tags:
-  - person
-  - aws
-  - ai
-  - open-source
-  - developer-advocate
+- person
+- aws
+- ai
+- open-source
+- developer-advocate
 sources:
-  - "[[sources/watchv=q3nreeadkmc]]"
-summary: "AWS developer advocate who introduced Strands Agents, an open-source AI agent SDK focused on minimal scaffolding — just model and tools."
+- 'https://www.youtube.com/watch?v=q3nreeadkmc'
+summary: AWS developer advocate who introduced Strands Agents, an open-source AI agent SDK focused on minimal scaffolding — just model and tools.
 provenance:
   extracted: 0.95
   inferred: 0.05
-  ambiguous: 0.00
+  ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+category: entities
 ---
 
 # Suman Debnath

@@ -1,19 +1,19 @@
 ---
-title: "Software Engineering Model"
+title: Software Engineering Model
 category: concepts
 tags:
-  - ai
-  - model
-  - fine-tuning
-  - windsurf
-  - sweeone
-  - workflow
-  - eval
-summary: "A model trained specifically for software engineering workflows rather than pure code generation — exemplified by Windsurf's SweeOne, which handles PRs, mid-workflow assistance, and achieves near-frontier quality at fraction of the cost."
+- ai
+- model
+- fine-tuning
+- windsurf
+- sweeone
+- workflow
+- eval
+summary: A model trained specifically for software engineering workflows rather than pure code generation — exemplified by Windsurf's SweeOne, which handles PRs, mid-workflow assistance, and achieves near-f...
 sources:
-  - "[[sources/watchv=jvunpl5qo8q]]"
+- 'https://www.youtube.com/watch?v=jvunpl5qo8q'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.65

@@ -1,21 +1,21 @@
 ---
-title: "Token Burner"
+title: Token Burner
 category: concepts
 tags:
-  - ai-coding
-  - vibe-coding
-  - productivity-metrics
-  - enterprise-ai
-  - vibe-engineering
+- ai-coding
+- vibe-coding
+- productivity-metrics
+- enterprise-ai
+- vibe-engineering
 sources:
-  - "[[sources/watchv=jv-wy5pxxlo]]"
+- 'https://www.youtube.com/watch?v=jv-wy5pxxlo'
 relationships:
-  - target: "[[concepts/vibe-engineering]]"
-    type: related_to
-  - target: "[[concepts/vibe-coding-as-whiteboard]]"
-    type: related_to
+- target: '[[concepts/vibe-engineering]]'
+  type: related_to
+- target: '[[concepts/vibe-coding-as-whiteboard]]'
+  type: related_to
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.82
@@ -23,6 +23,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Token Burner
 ---
 
 # Token Burner

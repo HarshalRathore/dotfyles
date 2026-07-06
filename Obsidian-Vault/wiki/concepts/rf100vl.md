@@ -1,27 +1,34 @@
 ---
 title: RF100VL Benchmark
 category: concepts
-tags: [rf100vl, benchmark, object-detection, vision-language, few-shot, domain-adaptability, roboflow]
-summary: A vision-language benchmark of 100 object detection datasets from diverse domains (medical imaging, aerial views, microscopy) designed to measure visual intelligence and domain adaptability beyond COCO's limitations.
+tags:
+- rf100vl
+- benchmark
+- object-detection
+- vision-language
+- few-shot
+- domain-adaptability
+- roboflow
+summary: A vision-language benchmark of 100 object detection datasets from diverse domains (medical imaging, aerial views, microscopy) designed to measure visual intelligence and domain adaptability beyond...
 sources:
-  - "[[sources/watchv=iqc05ecvnye]]"
+- 'https://www.youtube.com/watch?v=iqc05ecvnye'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/vision-evals-saturation|vision-evals-saturation]]"
-    type: derived_from
-  - target: "[[concepts/vision-language-models|vision-language-models]]"
-    type: extends
-  - target: "[[entities/roboflow|roboflow]]"
-    type: related_to
+- target: '[[concepts/vision-evals-saturation|vision-evals-saturation]]'
+  type: derived_from
+- target: '[[concepts/vision-language-models|vision-language-models]]'
+  type: extends
+- target: '[[entities/roboflow|roboflow]]'
+  type: related_to
 ---
 
 RF100VL is a vision-language benchmark created by Roboflow to measure the domain adaptability and visual intelligence of object detection models. It was introduced at AIEF2025 as a response to COCO's saturation — COCO is "too easily solvable" with common classes like humans and coffee cups.

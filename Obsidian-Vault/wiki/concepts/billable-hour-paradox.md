@@ -1,20 +1,20 @@
 ---
-title: "Billable Hour Paradox"
+title: Billable Hour Paradox
 category: concepts
 tags:
-  - professional-services
-  - ai-economics
-  - billing
-  - aief2025
+- professional-services
+- ai-economics
+- billing
+- aief2025
 sources:
-  - "AIEF2025 - The Billable Hour is Dead; Long Live the Billable Hour — Kevin Madura + Mo Bhasin, Alix Partners - https://www.youtube.com/watch?v=Wv1tAxKYLeE"
+- AIEF2025 - The Billable Hour is Dead; Long Live the Billable Hour — Kevin Madura + Mo Bhasin, Alix Partners - https://www.youtube.com/watch?v=Wv1tAxKYLeE
 relationships:
-  - target: "[[concepts/ai-first-firm|AI-First Firm]]"
-    type: related_to
-  - target: "[[concepts/enterprise-ai-productivity-paradox|Enterprise AI Productivity Paradox]]"
-    type: related_to
+- target: '[[concepts/ai-first-firm|AI-First Firm]]'
+  type: related_to
+- target: '[[concepts/enterprise-ai-productivity-paradox|Enterprise AI Productivity Paradox]]'
+  type: related_to
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.85
@@ -22,6 +22,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Billable Hour Paradox
 ---
 
 # Billable Hour Paradox

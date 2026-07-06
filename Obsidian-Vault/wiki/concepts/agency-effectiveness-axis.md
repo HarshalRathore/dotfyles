@@ -1,31 +1,31 @@
 ---
-title: "Agency-Effectiveness Axis"
+title: Agency-Effectiveness Axis
 tags:
-  - ai-agents
-  - mental-model
-  - evaluation
-  - design-principle
-  - effectiveness
-  - agency
+- ai-agents
+- mental-model
+- evaluation
+- design-principle
+- effectiveness
+- agency
 category: concepts
 sources:
-  - "[[sources/watchv=r30col3upug]]"
-summary: "A two-dimensional framework for evaluating AI systems: agency (degree of autonomous reasoning/action) and effectiveness (how well the system solves the actual problem). Adding agency must not compromise effectiveness."
+- 'https://www.youtube.com/watch?v=r30col3upug'
+summary: 'A two-dimensional framework for evaluating AI systems: agency (degree of autonomous reasoning/action) and effectiveness (how well the system solves the actual problem). Adding agency must not compr...'
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/agent-vs-workflow]]"
-    type: extends
-  - target: "[[concepts/automation-augmentation-agency]]"
-    type: related_to
+- target: '[[concepts/agent-vs-workflow]]'
+  type: extends
+- target: '[[concepts/automation-augmentation-agency]]'
+  type: related_to
 ---
 
 # Agency-Effectiveness Axis

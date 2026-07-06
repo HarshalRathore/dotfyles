@@ -1,19 +1,23 @@
 ---
-title: "Agent Identity and Payments"
+title: Agent Identity and Payments
 category: concepts
 tags:
-  - ai-agents
-  - identity
-  - payments
-  - mcp
-  - agent-autonomy
-  - machine-to-machine
-aliases: [agent identity, agent payments, machine payments, agent wallet]
+- ai-agents
+- identity
+- payments
+- mcp
+- agent-autonomy
+- machine-to-machine
+aliases:
+- agent identity
+- agent payments
+- machine payments
+- agent wallet
 sources:
-  - "AIEF2025 - The rise of the agentic economy on the shoulders of MCP — Jan Curn, Apify - https://www.youtube.com/watch?v=blW-lSd5CYQ"
+- AIEF2025 - The rise of the agentic economy on the shoulders of MCP — Jan Curn, Apify - https://www.youtube.com/watch?v=blW-lSd5CYQ
 provenance:
   extracted: 0.65
-  inferred: 0.30
+  inferred: 0.3
   ambiguous: 0.05
 base_confidence: 0.65
 lifecycle: draft
@@ -22,14 +26,15 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/the-agentic-economy]]"
-    type: enables
-  - target: "[[concepts/agent-architecture]]"
-    type: extends
-  - target: "[[entities/coinbase]]"
-    type: related_to
-  - target: "[[entities/stripe]]"
-    type: related_to
+- target: '[[concepts/the-agentic-economy]]'
+  type: enables
+- target: '[[concepts/agent-architecture]]'
+  type: extends
+- target: '[[entities/coinbase]]'
+  type: related_to
+- target: '[[entities/stripe]]'
+  type: related_to
+summary: Agent Identity and Payments
 ---
 
 # Agent Identity and Payments

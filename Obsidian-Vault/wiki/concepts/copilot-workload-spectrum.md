@@ -1,15 +1,15 @@
 ---
-title: "Copilot Workload Spectrum"
+title: Copilot Workload Spectrum
 tags:
-  - github-copilot
-  - workload-spectrum
-  - autonomy-levels
-  - coding-agent
-  - aief2025
-  - github
-summary: "The five-level spectrum of GitHub Copilot workloads, from inline code completions to autonomous coding agents, each serving a different level of autonomy."
+- github-copilot
+- workload-spectrum
+- autonomy-levels
+- coding-agent
+- aief2025
+- github
+summary: The five-level spectrum of GitHub Copilot workloads, from inline code completions to autonomous coding agents, each serving a different level of autonomy.
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
 base_confidence: 0.85
@@ -19,12 +19,14 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/github-copilot|GitHub Copilot]]"
-    type: describes
-  - target: "[[concepts/ai-pair-programmer-analogy|AI Pair Programmer Analogy]]"
-    type: implements
-  - target: "[[concepts/agent-autonomy|Agent Autonomy]]"
-    type: exemplifies
+- target: '[[entities/github-copilot|GitHub Copilot]]'
+  type: describes
+- target: '[[concepts/ai-pair-programmer-analogy|AI Pair Programmer Analogy]]'
+  type: implements
+- target: '[[concepts/agent-autonomy|Agent Autonomy]]'
+  type: exemplifies
+category: concepts
+sources: []
 ---
 
 # Copilot Workload Spectrum

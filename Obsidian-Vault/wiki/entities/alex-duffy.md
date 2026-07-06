@@ -1,17 +1,17 @@
 ---
-title: "Alex Duffy"
+title: Alex Duffy
 category: entities
 tags:
-  - person
-  - every-to
-  - ai-education
-  - benchmark-design
-  - speaker
-  - aief2025
-  - ai-diplomacy
-summary: "Lead of Training Consulting at Every.to. AI education advocate who created AI Diplomacy, a benchmark game where LLMs negotiate and form alliances. Spoke at AIEF2025 on benchmarks as memes."
+- person
+- every-to
+- ai-education
+- benchmark-design
+- speaker
+- aief2025
+- ai-diplomacy
+summary: Lead of Training Consulting at Every.to. AI education advocate who created AI Diplomacy, a benchmark game where LLMs negotiate and form alliances. Spoke at AIEF2025 on benchmarks as memes.
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
 base_confidence: 0.85
@@ -21,12 +21,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/every-to|Every.to]]"
-    type: related_to
-  - target: "[[concepts/benchmark-memes|Benchmark Memes]]"
-    type: related_to
-  - target: "[[concepts/ai-diplomacy|AI Diplomacy]]"
-    type: related_to
+- target: '[[entities/every-to|Every.to]]'
+  type: related_to
+- target: '[[concepts/benchmark-memes|Benchmark Memes]]'
+  type: related_to
+- target: '[[concepts/ai-diplomacy|AI Diplomacy]]'
+  type: related_to
+sources: []
 ---
 
 # Alex Duffy

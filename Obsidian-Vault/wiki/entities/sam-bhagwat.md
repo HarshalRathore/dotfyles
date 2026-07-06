@@ -1,16 +1,16 @@
 ---
-title: "Sam Bhagwat"
+title: Sam Bhagwat
 tags:
-  - person
-  - ai
-  - speaker
-  - entrepreneur
-  - mastra
+- person
+- ai
+- speaker
+- entrepreneur
+- mastra
 sources:
-  - "[[sources/watchv=8sujeqqnclw]]"
-summary: "Co-founder of Mastra.ai and Gatsby. Author of 'Principles of AI Agents'. Former Gatsby co-founder; advocates for composing agents and workflows together in production systems."
+- 'https://www.youtube.com/watch?v=8sujeqqnclw'
+summary: Co-founder of Mastra.ai and Gatsby. Author of 'Principles of AI Agents'. Former Gatsby co-founder; advocates for composing agents and workflows together in production systems.
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.55
@@ -18,6 +18,7 @@ lifecycle: draft
 tier: peripheral
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Sam Bhagwat

@@ -10,7 +10,7 @@ tags:
   - agentic
 category: concepts
 sources:
-  - "[[sources/watchv=r30col3upug]]"
+  - "https://www.youtube.com/watch?v=r30col3upug"
 summary: "Three levels of agent orchestration: chains (linear, simplest), trees (branching via LLM), and agentic (autonomous tool selection). Increasing complexity trades measurability for maintainability."
 provenance:
   extracted: 0.88

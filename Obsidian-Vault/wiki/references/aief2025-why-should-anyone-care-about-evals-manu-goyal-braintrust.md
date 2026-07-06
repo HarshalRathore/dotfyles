@@ -1,17 +1,17 @@
 ---
-title: "Why should anyone care about Evals? — Manu Goyal, Braintrust"
+title: Why should anyone care about Evals? — Manu Goyal, Braintrust
 category: references
 tags:
-  - evals
-  - aief2025
-  - braintrust
-  - production-ai
-  - iteration-speed
-  - self-driving-cars
+- evals
+- aief2025
+- braintrust
+- production-ai
+- iteration-speed
+- self-driving-cars
 sources:
-  - "AIEF2025 - Why should anyone care about Evals? — Manu Goyal, Braintrust - https://www.youtube.com/watch?v=jJ45Yz1lJao"
+- AIEF2025 - Why should anyone care about Evals? — Manu Goyal, Braintrust - https://www.youtube.com/watch?v=jJ45Yz1lJao
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
 base_confidence: 0.85
@@ -20,14 +20,15 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/evals-are-not-unit-tests|Evals Are Not Unit Tests]]"
-    type: relates_to
-  - target: "[[concepts/eval-driven-development|Eval-Driven Development]]"
-    type: illustrates
-  - target: "[[concepts/data-flywheel|Data Flywheel]]"
-    type: illustrates
-  - target: "[[concepts/ai-iteration-loop|AI Iteration Loop]]"
-    type: supports
+- target: '[[concepts/evals-are-not-unit-tests|Evals Are Not Unit Tests]]'
+  type: relates_to
+- target: '[[concepts/eval-driven-development|Eval-Driven Development]]'
+  type: illustrates
+- target: '[[concepts/data-flywheel|Data Flywheel]]'
+  type: illustrates
+- target: '[[concepts/ai-iteration-loop|AI Iteration Loop]]'
+  type: supports
+summary: Why should anyone care about Evals? — Manu Goyal, Braintrust
 ---
 
 # Why should anyone care about Evals? — Manu Goyal, Braintrust

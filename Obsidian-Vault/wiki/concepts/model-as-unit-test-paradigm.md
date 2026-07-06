@@ -1,32 +1,33 @@
 ---
-title: "Model-as-Unit-Test Paradigm"
+title: Model-as-Unit-Test Paradigm
 tags:
-  - concept
-  - ml-engineering
-  - evaluation
-  - testing
-  - quality
+- concept
+- ml-engineering
+- evaluation
+- testing
+- quality
 aliases:
-  - benchmarks as unit tests
-  - model eval as unit test
-  - ML unit testing
+- benchmarks as unit tests
+- model eval as unit test
+- ML unit testing
 relationships:
-  - target: "[[concepts/evaluation-first-development]]"
-    type: related_to
-  - target: "[[concepts/ai-regression-testing]]"
-    type: related_to
+- target: '[[concepts/evaluation-first-development]]'
+  type: related_to
+- target: '[[concepts/ai-regression-testing]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=c13jifwnuo8]]"
-summary: "ML model benchmarks serve the same role as unit tests in software — guarding against regressions, validating new model versions, requiring ongoing maintenance to stay useful."
+- 'https://www.youtube.com/watch?v=c13jifwnuo8'
+summary: ML model benchmarks serve the same role as unit tests in software — guarding against regressions, validating new model versions, requiring ongoing maintenance to stay useful.
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.55
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Model-as-Unit-Test Paradigm

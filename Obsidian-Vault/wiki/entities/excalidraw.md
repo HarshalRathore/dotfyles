@@ -22,11 +22,11 @@ relationships:
 
 # Excalidraw
 
-Excalidraw is an open-source virtual whiteboarding tool created by [[Christopher Chedeau|christopher-chedeau]] in January 2020. It was originally built as a personal project to create illustrations for a blog post but became a real product after going viral on Twitter.
+Excalidraw is an open-source virtual whiteboarding tool created by [[entities/christopher-chedeau|christopher-chedeau]] in January 2020. It was originally built as a personal project to create illustrations for a blog post but became a real product after going viral on Twitter.
 
 ## Origin
 
-Chedeau built the first version in a code sandbox using [[Rover.js|rover-js]] after [[Zwibbler|zwibbler]] was unavailable. The initial post on Twitter received 200+ likes and significant community interest, which led to Excalidraw's development as a public tool.
+Chedeau built the first version in a code sandbox using rover-js after [[entities/zwibbler|zwibbler]] was unavailable. The initial post on Twitter received 200+ likes and significant community interest, which led to Excalidraw's development as a public tool.
 
 ## Design Philosophy
 
@@ -42,7 +42,7 @@ This philosophy — don't just digitize the physical, exploit the virtual — be
 
 ## Anthropic Keynote Demo
 
-During the Anthropic keynote at AIEF2025, Excalidraw was used to demonstrate [[Claude Code|claude-code]]'s AI agent capabilities. The team had the agent reimplement the most popular feature request — a table layout — inside Excalidraw. As of the talk, no PR had been submitted.
+During the Anthropic keynote at AIEF2025, Excalidraw was used to demonstrate [[entities/claude-code|claude-code]]'s AI agent capabilities. The team had the agent reimplement the most popular feature request — a table layout — inside Excalidraw. As of the talk, no PR had been submitted.
 
 ## AI Integration Experiments
 

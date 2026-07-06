@@ -1,16 +1,25 @@
 ---
 type: concept
-title: "multi-container pod"
+title: multi-container pod
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/init-containers_798910]]"
+- '[[sources/init-containers_798910]]'
 tags:
-  - deployment
+- deployment
 aliases:
-  - pods with multiple containers
+- pods with multiple containers
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: multi-container pod
 ---
 # multi-container pod
 

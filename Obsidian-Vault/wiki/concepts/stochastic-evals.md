@@ -1,34 +1,35 @@
 ---
-title: "Stochastic Evals"
+title: Stochastic Evals
 category: concepts
 tags:
-  - evaluation
-  - ai-testing
-  - non-deterministic
-  - ci
-  - agentic
-  - llm
+- evaluation
+- ai-testing
+- non-deterministic
+- ci
+- agentic
+- llm
 sources:
-  - "AIEF2025 - CI in the Era of AI: From Unit Tests to Stochastic Evals — Nathan Sobo, Zed - https://www.youtube.com/watch?v=WXy8Yy9xGss"
-  - "AIEF2025 - Five hard earned lessons about Evals — Ankur Goyal, Braintrust - https://www.youtube.com/watch?v=a4BV0gGmXgA"
+- 'AIEF2025 - CI in the Era of AI: From Unit Tests to Stochastic Evals — Nathan Sobo, Zed - https://www.youtube.com/watch?v=WXy8Yy9xGss'
+- AIEF2025 - Five hard earned lessons about Evals — Ankur Goyal, Braintrust - https://www.youtube.com/watch?v=a4BV0gGmXgA
 relationships:
-  - target: "[[concepts/evals-are-not-unit-tests|Evals Are Not Unit Tests]]"
-    type: extends
-  - target: "[[concepts/deterministic-eval-scoring|Deterministic Eval Scoring]]"
-    type: related_to
-  - target: "[[concepts/reliability-over-intelligence|Reliability Over Intelligence]]"
-    type: extends
-  - target: "[[concepts/eval-driven-development|Eval-Driven Development]]"
-    type: related_to
+- target: '[[concepts/evals-are-not-unit-tests|Evals Are Not Unit Tests]]'
+  type: extends
+- target: '[[concepts/deterministic-eval-scoring|Deterministic Eval Scoring]]'
+  type: related_to
+- target: '[[concepts/reliability-over-intelligence|Reliability Over Intelligence]]'
+  type: extends
+- target: '[[concepts/eval-driven-development|Eval-Driven Development]]'
+  type: related_to
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.85
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Stochastic Evals
 ---
 
 # Stochastic Evals

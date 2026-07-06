@@ -1,10 +1,18 @@
 ---
-title: "AI Product Manager"
+title: AI Product Manager
 category: concepts
-tags: [product-management, ai, role, mindset, ai-engineering, decision-making]
-aliases: [ai product manager, ai-pm]
+tags:
+- product-management
+- ai
+- role
+- mindset
+- ai-engineering
+- decision-making
+aliases:
+- ai product manager
+- ai-pm
 sources:
-  - "AIEF2025 - Why your product needs an AI product manager, and why it should be you — James Lowe, i.AI - https://www.youtube.com/watch?v=xzJdSi2Tsqw"
+- AIEF2025 - Why your product needs an AI product manager, and why it should be you — James Lowe, i.AI - https://www.youtube.com/watch?v=xzJdSi2Tsqw
 provenance:
   extracted: 0.7
   inferred: 0.3
@@ -16,14 +24,15 @@ tier: core
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/product-management-triangle]]"
-    type: extends
-  - target: "[[concepts/evaluate-ai-early]]"
-    type: requires
-  - target: "[[concepts/probabilistic-ai-products]]"
-    type: manages
-  - target: "[[entities/james-lowe]]"
-    type: defined_by
+- target: '[[concepts/product-management-triangle]]'
+  type: extends
+- target: '[[concepts/evaluate-ai-early]]'
+  type: requires
+- target: '[[concepts/probabilistic-ai-products]]'
+  type: manages
+- target: '[[entities/james-lowe]]'
+  type: defined_by
+summary: AI Product Manager
 ---
 
 # AI Product Manager

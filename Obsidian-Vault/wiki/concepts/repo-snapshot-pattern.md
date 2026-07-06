@@ -8,7 +8,7 @@ tags:
   - software-engineering
   - aief2025
 sources:
-  - "[[sources/watchv=mi83but_23o]]"
+  - "https://www.youtube.com/watch?v=mi83but_23o"
 summary: "The ability to set up, snapshot, reload, and roll back repository states for AI agent execution. Enables clean, isolated environments for agents to work in without affecting the developer's workspace."
 provenance:
   extracted: 0.85

@@ -1,35 +1,41 @@
 ---
-title: "The Rise of the Agentic Economy on the Shoulders of MCP — Jan Curn, Apify"
+title: The Rise of the Agentic Economy on the Shoulders of MCP — Jan Curn, Apify
 category: references
 tags:
-  - aief2025
-  - talk
-  - mcp
-  - agentic-economy
-  - tool-discovery
-  - agent-identity
-  - apify
-  - jan-curn
-aliases: [agentic economy, agentic mesh, agent-to-agent, B2A, A2A]
+- aief2025
+- talk
+- mcp
+- agentic-economy
+- tool-discovery
+- agent-identity
+- apify
+- jan-curn
+aliases:
+- agentic economy
+- agentic mesh
+- agent-to-agent
+- B2A
+- A2A
 sources:
-  - "AIEF2025 - The rise of the agentic economy on the shoulders of MCP — Jan Curn, Apify - https://www.youtube.com/watch?v=blW-lSd5CYQ"
+- AIEF2025 - The rise of the agentic economy on the shoulders of MCP — Jan Curn, Apify - https://www.youtube.com/watch?v=blW-lSd5CYQ
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/jan-curn]]"
-    type: created_by
-  - target: "[[entities/apify]]"
-    type: presented_by
-  - target: "[[concepts/the-agentic-economy]]"
-    type: primary_topic
+- target: '[[entities/jan-curn]]'
+  type: created_by
+- target: '[[entities/apify]]'
+  type: presented_by
+- target: '[[concepts/the-agentic-economy]]'
+  type: primary_topic
+summary: The Rise of the Agentic Economy on the Shoulders of MCP — Jan Curn, Apify
 ---
 
 # The Rise of the Agentic Economy on the Shoulders of MCP — Jan Curn, Apify

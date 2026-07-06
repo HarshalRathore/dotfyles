@@ -1,25 +1,26 @@
 ---
-title: "Azure AI Foundry"
+title: Azure AI Foundry
 tags:
-  - entity
-  - platform
-  - microsoft
-  - agent-factory
-  - ai-platform
+- entity
+- platform
+- microsoft
+- agent-factory
+- ai-platform
 sources:
-  - "[[sources/watchv=7hrw6rtxahc]]"
-  - "[[sources/watchv=j4vpq2i0qze]]"
-  - "AIEF2025 - Foundry Local: Cutting-Edge AI experiences on device with ONNX Runtime/Olive — Emma Ning, Microsoft - https://www.youtube.com/watch?v=l614N5W60ls"
-summary: "Microsoft's enterprise AI agent platform with model catalog (10K+ models), intelligent routing, agent SDK, evaluation SDK (quality/NLP/risk evaluators, multimodal, configurable thresholds), and continuous observability. Hosts 70K+ customers, 50K+ agents built daily."
+- 'https://www.youtube.com/watch?v=7hrw6rtxahc'
+- 'https://www.youtube.com/watch?v=j4vpq2i0qze'
+- 'AIEF2025 - Foundry Local: Cutting-Edge AI experiences on device with ONNX Runtime/Olive — Emma Ning, Microsoft - https://www.youtube.com/watch?v=l614N5W60ls'
+summary: Microsoft's enterprise AI agent platform with model catalog (10K+ models), intelligent routing, agent SDK, evaluation SDK (quality/NLP/risk evaluators, multimodal, configurable thresholds), and con...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.16
   ambiguous: 0.04
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-04
+category: entities
 ---
 
 # Azure AI Foundry

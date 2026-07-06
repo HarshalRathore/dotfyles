@@ -1,18 +1,24 @@
 ---
-title: "Agent Traffic Inversion"
+title: Agent Traffic Inversion
 tags:
-  - agent
-  - prediction
-  - trend
-  - enterprise
-  - identity
+- agent
+- prediction
+- trend
+- enterprise
+- identity
 sources:
-  - "[[sources/watchv=d4dswf-__rm]]"
-summary: "Michael Grinich's prediction that software traffic will invert from 95% human/5% automated to 95% agent/5% human, with profound implications for identity, security, and product design."
+- 'https://www.youtube.com/watch?v=d4dswf-__rm'
+summary: Michael Grinich's prediction that software traffic will invert from 95% human/5% automated to 95% agent/5% human, with profound implications for identity, security, and product design.
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
 ---
 # Agent Traffic Inversion
 

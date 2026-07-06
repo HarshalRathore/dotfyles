@@ -1,40 +1,40 @@
 ---
-title: "AIEF2025 — Intro to GraphRAG: Hands-On Workshop — Zach Blumenfeld"
+title: 'AIEF2025 — Intro to GraphRAG: Hands-On Workshop — Zach Blumenfeld'
 category: references
 tags:
-  - ai-engineering
-  - knowledge-graph
-  - graphrag
-  - neo4j
-  - aief2025
-  - workshop
-  - cypher
-  - langchain
-  - pydantic
+- ai-engineering
+- knowledge-graph
+- graphrag
+- neo4j
+- aief2025
+- workshop
+- cypher
+- langchain
+- pydantic
 aliases:
-  - Zach Blumenfeld GraphRAG Workshop
-  - Intro to GraphRAG
+- Zach Blumenfeld GraphRAG Workshop
+- Intro to GraphRAG
 sources:
-  - "[[sources/watchv=j-9ebjbxcbg]]"
-summary: "A hands-on 80-minute workshop introducing GraphRAG fundamentals through three modules: Neo4j graph basics with Cypher queries, entity extraction from unstructured data, and building a simple agent with retrieval tools using LangGraph."
+- 'https://www.youtube.com/watch?v=j-9ebjbxcbg'
+summary: 'A hands-on 80-minute workshop introducing GraphRAG fundamentals through three modules: Neo4j graph basics with Cypher queries, entity extraction from unstructured data, and building a simple agent...'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: related_to
-  - target: "[[concepts/cypher-query-language|Cypher Query Language]]"
-    type: uses
-  - target: "[[concepts/property-graph-model|Property Graph Model]]"
-    type: uses
-  - target: "[[concepts/talent-skills-graph|Talent Skills Graph]]"
-    type: related_to
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: related_to
+- target: '[[concepts/cypher-query-language|Cypher Query Language]]'
+  type: uses
+- target: '[[concepts/property-graph-model|Property Graph Model]]'
+  type: uses
+- target: '[[concepts/talent-skills-graph|Talent Skills Graph]]'
+  type: related_to
 ---
 
 # AIEF2025 — Intro to GraphRAG: Hands-On Workshop

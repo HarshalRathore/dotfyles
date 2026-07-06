@@ -1,16 +1,19 @@
 ---
-title: "Trace Context Propagation"
+title: Trace Context Propagation
 category: concepts
 tags:
-  - trace-context
-  - context-propagation
-  - distributed-tracing
-  - open-telemetry
-  - mcp
-  - observability
-aliases: [trace-context-propagation, context propagation, trace context]
+- trace-context
+- context-propagation
+- distributed-tracing
+- open-telemetry
+- mcp
+- observability
+aliases:
+- trace-context-propagation
+- context propagation
+- trace context
 sources:
-  - "[[sources/watchv=lcqat4ip_le]]"
+- 'https://www.youtube.com/watch?v=lcqat4ip_le'
 provenance:
   extracted: 0.88
   inferred: 0.08
@@ -22,12 +25,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/distributed-tracing]]"
-    type: extends
-  - target: "[[concepts/open-telemetry]]"
-    type: uses
-  - target: "[[concepts/mcp-observability]]"
-    type: related_to
+- target: '[[concepts/distributed-tracing]]'
+  type: extends
+- target: '[[concepts/open-telemetry]]'
+  type: uses
+- target: '[[concepts/mcp-observability]]'
+  type: related_to
+summary: Trace Context Propagation
 ---
 
 # Trace Context Propagation

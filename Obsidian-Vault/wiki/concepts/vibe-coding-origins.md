@@ -1,28 +1,31 @@
 ---
-title: "Vibe Coding Origins"
+title: Vibe Coding Origins
 category: concepts
-tags: [ai, llm, coding, demo, gpt-3, vibe-coding]
-relationships:
-  - target: "[[concepts/demo-driven-ai-exploration]]"
-    type: derived_from
-  - target: "[[concepts/latent-model-capabilities]]"
-    type: extends
-  - target: "[[concepts/test-time-compute-scaling]]"
-    type: related_to
+tags:
+- ai
+- llm
+- coding
+- demo
+- gpt-3
+- vibe-coding
 sources:
-  - "[[sources/watchv=0f8mngpuycy]]"
-  - "[[sources/watchv=8rabwkrsec4]]"
-  - "[[sources/watchv=8eqo4j2bwkw]]"
-  - "[[sources/watchv=dc3qoa9wone]]"
-  - "[[sources/watchv=eafp8pds7h4]]"
-  - "[[sources/watchv=kcka7rzcxlk]]"
-extracted: 0.55
-  inferred: 0.40
-  ambiguous: 0.05
+- https://www.youtube.com/watch?v=0f8mngpuycy
+- https://www.youtube.com/watch?v=8rabwkrsec4
+- https://www.youtube.com/watch?v=8eqo4j2bwkw
+- https://www.youtube.com/watch?v=dc3qoa9wone
+- https://www.youtube.com/watch?v=eafp8pds7h4
+- https://www.youtube.com/watch?v=kcka7rzcxlk
+summary: Vibe Coding Origins
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
 base_confidence: 0.42
 lifecycle: draft
+lifecycle_changed: '2026-07-06'
 tier: supporting
-updated: 2026-07-04
+created: '2026-07-06'
+updated: '2026-07-04'
 ---
 
 # Vibe Coding Origins

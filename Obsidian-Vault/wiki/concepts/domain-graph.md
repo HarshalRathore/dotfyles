@@ -1,16 +1,16 @@
 ---
-title: "Domain Graph"
+title: Domain Graph
 category: concepts
 tags:
-  - knowledge-graph
-  - graphrag
-  - entities
-  - relationships
-  - ontology
+- knowledge-graph
+- graphrag
+- entities
+- relationships
+- ontology
 aliases:
-  - Domain Knowledge Graph
+- Domain Knowledge Graph
 sources:
-  - "AIEF2025 - Practical GraphRAG: Making LLMs smarter with Knowledge Graphs — Michael, Jesus, and Stephen, Neo4j - https://www.youtube.com/watch?v=XNneh6-eyPg"
+- 'AIEF2025 - Practical GraphRAG: Making LLMs smarter with Knowledge Graphs — Michael, Jesus, and Stephen, Neo4j - https://www.youtube.com/watch?v=XNneh6-eyPg'
 provenance:
   extracted: 0.95
   inferred: 0.03
@@ -21,14 +21,15 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: uses
-  - target: "[[concepts/lexical-graph|Lexical Graph]]"
-    type: related_to
-  - target: "[[concepts/knowledge-graph-construction-pipeline|Knowledge Graph Construction Pipeline]]"
-    type: extends
-  - target: "[[concepts/knowledge-graph-ontology-design|Knowledge Graph Ontology Design]]"
-    type: uses
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: uses
+- target: '[[concepts/lexical-graph|Lexical Graph]]'
+  type: related_to
+- target: '[[concepts/knowledge-graph-construction-pipeline|Knowledge Graph Construction Pipeline]]'
+  type: extends
+- target: '[[concepts/knowledge-graph-ontology-design|Knowledge Graph Ontology Design]]'
+  type: uses
+summary: Domain Graph
 ---
 
 # Domain Graph

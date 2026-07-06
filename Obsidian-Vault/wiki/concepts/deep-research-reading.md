@@ -4,7 +4,7 @@ category: concepts
 tags: [deep-research, ai-reading, book-analysis, contextual-qa, aief2025]
 summary: "AI system that reads an entire book to answer natural language questions about it, with awareness of the reader's current position for spoiler-free answers."
 sources:
-  - "[[sources/watchv=kcka7rzcxlk]]"
+  - "https://www.youtube.com/watch?v=kcka7rzcxlk"
 provenance: { extracted: 1.0, inferred: 0.0, ambiguous: 0.0 }
 base_confidence: 0.95
 lifecycle: draft

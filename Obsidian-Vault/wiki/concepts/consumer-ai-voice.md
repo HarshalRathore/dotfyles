@@ -1,33 +1,34 @@
 ---
-title: "Consumer AI Voice"
+title: Consumer AI Voice
 category: concepts
 tags:
-  - consumer-ai
-  - voice-ai
-  - pricing
-  - open-source
-  - voice-cloning
-  - voice-agents
+- consumer-ai
+- voice-ai
+- pricing
+- open-source
+- voice-cloning
+- voice-agents
 summary: The consumer AI voice market — use cases like AI companions, therapists, and trainers that require near-free voice infrastructure, driving adoption of self-hosted open-source TTS models.
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/voice-agents]]"
-    type: related_to
-  - target: "[[concepts/voice-ai-latency]]"
-    type: related_to
-  - target: "[[concepts/voice-cloning]]"
-    type: related_to
-  - target: "[[concepts/ubiquitous-ai]]"
-    type: related_to
+- target: '[[concepts/voice-agents]]'
+  type: related_to
+- target: '[[concepts/voice-ai-latency]]'
+  type: related_to
+- target: '[[concepts/voice-cloning]]'
+  type: related_to
+- target: '[[concepts/ubiquitous-ai]]'
+  type: related_to
+sources: []
 ---
 
 # Consumer AI Voice

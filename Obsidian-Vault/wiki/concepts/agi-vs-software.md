@@ -1,13 +1,18 @@
 ---
-title: "AGI vs Software Engineering"
+title: AGI vs Software Engineering
 category: concepts
-tags: [agi, software-engineering, reliability, intelligence-vs-control, bitter-lesson]
-summary: "The distinction between building general intelligence (AI research goal) and building reliable software (AI engineering goal). We build software not because we lack AGI, but because we need controllable systems."
+tags:
+- agi
+- software-engineering
+- reliability
+- intelligence-vs-control
+- bitter-lesson
+summary: The distinction between building general intelligence (AI research goal) and building reliable software (AI engineering goal). We build software not because we lack AGI, but because we need control...
 sources:
-  - "AIEF2025 - On Engineering AI Systems that Endure The Bitter Lesson - Omar Khattab, DSPy & Databricks - https://www.youtube.com/watch?v=qdmxApz3EJI"
+- AIEF2025 - On Engineering AI Systems that Endure The Bitter Lesson - Omar Khattab, DSPy & Databricks - https://www.youtube.com/watch?v=qdmxApz3EJI
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.85
 lifecycle: draft
@@ -16,12 +21,12 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/ai-engineering|AI Engineering]]"
-    type: distinguishes_from
-  - target: "[[concepts/bitter-lesson|The Bitter Lesson]]"
-    type: reframed_by
-  - target: "[[concepts/agent-autonomy|Agent Autonomy]]"
-    type: relates_to
+- target: '[[concepts/ai-engineering|AI Engineering]]'
+  type: distinguishes_from
+- target: '[[concepts/bitter-lesson|The Bitter Lesson]]'
+  type: reframed_by
+- target: '[[concepts/agent-autonomy|Agent Autonomy]]'
+  type: relates_to
 ---
 
 # AGI vs Software Engineering

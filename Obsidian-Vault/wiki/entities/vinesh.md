@@ -4,7 +4,7 @@ category: entities
 tags: [person, instacart, search, machine-learning, aief2025, speaker]
 summary: "Search and machine learning team member at Instacart. Presented on transforming search and discovery using LLMs at AIEF2025 alongside Tejaswi."
 sources:
-  - "[[sources/watchv=pjavhm_3ljg]]"
+  - "https://www.youtube.com/watch?v=pjavhm_3ljg"
 provenance:
   extracted: 0.95
   inferred: 0.03

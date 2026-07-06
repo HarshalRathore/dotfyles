@@ -1,36 +1,36 @@
 ---
-title: "Open X-Embodiment Dataset"
+title: Open X-Embodiment Dataset
 category: concepts
 tags:
-  - robotics
-  - dataset
-  - open-data
-  - benchmark
-  - foundation-models
-  - data-collection
+- robotics
+- dataset
+- open-data
+- benchmark
+- foundation-models
+- data-collection
 aliases:
-  - open x embodiment
-  - x-embodiment
+- open x embodiment
+- x-embodiment
 sources:
-  - "AIEF2025 - Robotics: why now? - Quan Vuong and Jost Tobias Springberg, Physical Intelligence - https://www.youtube.com/watch?v=cGLa8DsOYdk"
-summary: "The largest publicly available robotics dataset (~3,800 hours of data from static scenes in robot labs worldwide), used as a baseline benchmark that Physical Intelligence surpassed within 6 months of building their data engine."
+- 'AIEF2025 - Robotics: why now? - Quan Vuong and Jost Tobias Springberg, Physical Intelligence - https://www.youtube.com/watch?v=cGLa8DsOYdk'
+summary: The largest publicly available robotics dataset (~3,800 hours of data from static scenes in robot labs worldwide), used as a baseline benchmark that Physical Intelligence surpassed within 6 months...
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/robotics-data-engine|Robotics Data Engine]]"
-    type: baseline-for
-  - target: "[[concepts/real-world-robotics-data|Real-World Robotics Data]]"
-    type: example-of
-  - target: "[[concepts/vision-language-action-models|Vision-Language-Action Models]]"
-    type: trains
+- target: '[[concepts/robotics-data-engine|Robotics Data Engine]]'
+  type: baseline-for
+- target: '[[concepts/real-world-robotics-data|Real-World Robotics Data]]'
+  type: example-of
+- target: '[[concepts/vision-language-action-models|Vision-Language-Action Models]]'
+  type: trains
 ---
 
 # Open X-Embodiment Dataset

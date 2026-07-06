@@ -1,16 +1,16 @@
 ---
-title: "AIEF2025 - Claude Code & the evolution of agentic coding — Boris Cherny, Anthropic"
+title: AIEF2025 - Claude Code & the evolution of agentic coding — Boris Cherny, Anthropic
 category: references
 tags:
-  - aief2025
-  - talk
-  - claude-code
-  - agentic-coding
-  - anthropic
-  - evolution
+- aief2025
+- talk
+- claude-code
+- agentic-coding
+- anthropic
+- evolution
 sources:
-  - "[[sources/watchv=lue8k2jqfkk]]"
-summary: "Boris Cherny (Anthropic) traces the history of programming from punch cards to AI coding agents, explains Claude Code's terminal-first unopinionated design, and presents the thesis that model capability and programming UX are both on exponential curves."
+- 'https://www.youtube.com/watch?v=lue8k2jqfkk'
+summary: Boris Cherny (Anthropic) traces the history of programming from punch cards to AI coding agents, explains Claude Code's terminal-first unopinionated design, and presents the thesis that model capab...
 provenance:
   extracted: 0.95
   inferred: 0.03

@@ -1,18 +1,18 @@
 ---
-title: "Context Switching Costs"
+title: Context Switching Costs
 tags:
-  - productivity
-  - context-switching
-  - software-engineering
-  - aief2025
+- productivity
+- context-switching
+- software-engineering
+- aief2025
 aliases:
-  - context switching costs
-  - recovery time
-  - interruption cost
+- context switching costs
+- recovery time
+- interruption cost
 sources:
-  - "AIEF2025 - Mentoring the Machine — Eric Hou, Augment Code - https://www.youtube.com/watch?v=Zniw5c9_jx8"
+- AIEF2025 - Mentoring the Machine — Eric Hou, Augment Code - https://www.youtube.com/watch?v=Zniw5c9_jx8
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.85
@@ -21,10 +21,14 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: [[concepts/parallel-ai-workstreams|Parallel AI Workstreams]]
-    type: mitigated_by
-  - target: [[concepts/agent-orchestration-role|Agent Orchestration Role]]
-    type: motivates
+- target:
+  - - concepts/parallel-ai-workstreams|Parallel AI Workstreams
+  type: mitigated_by
+- target:
+  - - concepts/agent-orchestration-role|Agent Orchestration Role
+  type: motivates
+category: concepts
+summary: Context Switching Costs
 ---
 
 # Context Switching Costs

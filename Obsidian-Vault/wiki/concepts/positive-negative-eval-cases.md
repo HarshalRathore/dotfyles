@@ -1,18 +1,18 @@
 ---
-title: "Positive and Negative Eval Cases"
+title: Positive and Negative Eval Cases
 category: concepts
 tags:
-  - evaluation
-  - test-cases
-  - coverage
-  - edge-cases
+- evaluation
+- test-cases
+- coverage
+- edge-cases
 aliases:
-  - positive negative eval cases
-  - eval case coverage
+- positive negative eval cases
+- eval case coverage
 sources:
-  - "AIEF2025 - How to run Evals at Scale: Thinking beyond Accuracy or Similarity — Muktesh Mishra, Adobe - https://www.youtube.com/watch?v=coKKKKh8Vns"
+- 'AIEF2025 - How to run Evals at Scale: Thinking beyond Accuracy or Similarity — Muktesh Mishra, Adobe - https://www.youtube.com/watch?v=coKKKKh8Vns'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
 base_confidence: 0.85
@@ -22,12 +22,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/adaptive-evals|Adaptive Evals]]"
-    type: supports
-  - target: "[[concepts/synthetic-data-for-evals|Synthetic Data for Evals]]"
-    type: relates_to
-  - target: "[[concepts/evals-as-structured-tests|Evals as Structured Tests]]"
-    type: extends
+- target: '[[concepts/adaptive-evals|Adaptive Evals]]'
+  type: supports
+- target: '[[concepts/synthetic-data-for-evals|Synthetic Data for Evals]]'
+  type: relates_to
+- target: '[[concepts/evals-as-structured-tests|Evals as Structured Tests]]'
+  type: extends
+summary: Positive and Negative Eval Cases
 ---
 
 # Positive and Negative Eval Cases

@@ -1,23 +1,24 @@
 ---
-title: "GitHub Codespaces for AI Coding"
+title: GitHub Codespaces for AI Coding
 category: concepts
 tags:
-  - github-codespaces
-  - vscode
-  - vibe-coding
-  - dev-container
-  - cloud
+- github-codespaces
+- vscode
+- vibe-coding
+- dev-container
+- cloud
 sources:
-  - "[[sources/watchv=eafp8pds7h4]]"
+- 'https://www.youtube.com/watch?v=eafp8pds7h4'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: GitHub Codespaces for AI Coding
 ---
 
 # GitHub Codespaces for AI Coding

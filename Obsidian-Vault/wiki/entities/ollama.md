@@ -1,23 +1,25 @@
 ---
-title: "Ollama"
+title: Ollama
 category: entities
 tags:
-  - tool
-  - open-source
-  - local-inference
-  - llm
-  - inference
-aliases: [Ollama, ollama CLI]
+- tool
+- open-source
+- local-inference
+- llm
+- inference
+aliases:
+- Ollama
+- ollama CLI
 relationships:
-  - target: "[[concepts/ai-red-teaming]]"
-    type: uses
-  - target: "[[entities/microsoft]]"
-    type: related_to
+- target: '[[concepts/ai-red-teaming]]'
+  type: uses
+- target: '[[entities/microsoft]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=jhjkgramfiu]]"
-  - "[[sources/watchv=q3nreeadkmc]]"
+- 'https://www.youtube.com/watch?v=jhjkgramfiu'
+- 'https://www.youtube.com/watch?v=q3nreeadkmc'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
 base_confidence: 0.85
@@ -25,6 +27,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Ollama
 ---
 
 # Ollama

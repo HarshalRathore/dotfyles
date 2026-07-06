@@ -1,31 +1,34 @@
 ---
-title: "Microsoft AI Red Team"
+title: Microsoft AI Red Team
 category: entities
 tags:
-  - organization
-  - microsoft
-  - ai-red-teaming
-  - security
-  - ai-risk
-aliases: [Microsoft Red Team, AI Red Team]
+- organization
+- microsoft
+- ai-red-teaming
+- security
+- ai-risk
+aliases:
+- Microsoft Red Team
+- AI Red Team
 relationships:
-  - target: "[[entities/microsoft]]"
-    type: implements
-  - target: "[[entities/pyrit]]"
-    type: implements
-  - target: "[[concepts/ai-red-teaming]]"
-    type: related_to
+- target: '[[entities/microsoft]]'
+  type: implements
+- target: '[[entities/pyrit]]'
+  type: implements
+- target: '[[concepts/ai-red-teaming]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=jhjkgramfiu]]"
+- 'https://www.youtube.com/watch?v=jhjkgramfiu'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Microsoft AI Red Team
 ---
 
 # Microsoft AI Red Team

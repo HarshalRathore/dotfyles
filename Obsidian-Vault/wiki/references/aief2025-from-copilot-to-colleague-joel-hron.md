@@ -1,12 +1,19 @@
 ---
-title: "From Copilot to Colleague: Trustworthy Agents for High-Stakes"
+title: 'From Copilot to Colleague: Trustworthy Agents for High-Stakes'
 category: references
-tags: [aief2025, talk, thomson-reuters, enterprise-ai, evals, legacy-systems, agent-design]
-summary: Joel Hron, CTO of Thomson Reuters, describes the company's evolution from helpful AI assistants to productive agents in high-stakes domains (law, tax, risk), covering agentic dials, eval challenges, and legacy decomposition.
+tags:
+- aief2025
+- talk
+- thomson-reuters
+- enterprise-ai
+- evals
+- legacy-systems
+- agent-design
+summary: Joel Hron, CTO of Thomson Reuters, describes the company's evolution from helpful AI assistants to productive agents in high-stakes domains (law, tax, risk), covering agentic dials, eval challenges...
 sources:
-  - "AIEF2025 - From Copilot to Colleague: Trustworthy Agents for High-Stakes - Joel Hron, CTO Thomson Reuters - https://www.youtube.com/watch?v=kDEvo2__Ijg"
+- 'AIEF2025 - From Copilot to Colleague: Trustworthy Agents for High-Stakes - Joel Hron, CTO Thomson Reuters - https://www.youtube.com/watch?v=kDEvo2__Ijg'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -16,10 +23,10 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/joel-hron]]"
-    type: features
-  - target: "[[entities/thomson-reuters]]"
-    type: about
+- target: '[[entities/joel-hron]]'
+  type: features
+- target: '[[entities/thomson-reuters]]'
+  type: about
 ---
 
 # From Copilot to Colleague: Trustworthy Agents for High-Stakes

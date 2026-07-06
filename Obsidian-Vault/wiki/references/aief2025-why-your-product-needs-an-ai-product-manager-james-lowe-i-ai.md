@@ -1,10 +1,19 @@
 ---
-title: "AIEF2025 — Why your product needs an AI product manager, and why it should be you — James Lowe, i.AI"
+title: AIEF2025 — Why your product needs an AI product manager, and why it should be you — James Lowe, i.AI
 category: references
-tags: [aief2025, talk, ai-product-manager, product-management, uk-government, evaluation, feature-exploration]
-aliases: [james-lowe-aief2025, why-your-product-needs-an-ai-product-manager]
+tags:
+- aief2025
+- talk
+- ai-product-manager
+- product-management
+- uk-government
+- evaluation
+- feature-exploration
+aliases:
+- james-lowe-aief2025
+- why-your-product-needs-an-ai-product-manager
 sources:
-  - "AIEF2025 - Why your product needs an AI product manager, and why it should be you — James Lowe, i.AI - https://www.youtube.com/watch?v=xzJdSi2Tsqw"
+- AIEF2025 - Why your product needs an AI product manager, and why it should be you — James Lowe, i.AI - https://www.youtube.com/watch?v=xzJdSi2Tsqw
 provenance:
   extracted: 0.9
   inferred: 0.1
@@ -16,10 +25,11 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/james-lowe]]"
-    type: features
-  - target: "[[entities/incubator-for-ai]]"
-    type: about
+- target: '[[entities/james-lowe]]'
+  type: features
+- target: '[[entities/incubator-for-ai]]'
+  type: about
+summary: AIEF2025 — Why your product needs an AI product manager, and why it should be you
 ---
 
 # AIEF2025 — Why your product needs an AI product manager, and why it should be you

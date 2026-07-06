@@ -1,23 +1,24 @@
 ---
-title: "AI Application Data Requirements"
+title: AI Application Data Requirements
 category: concepts
 tags:
-  - data-strategy
-  - ai-agents
-  - application-design
-  - generative-ai
-  - enterprise-ai
+- data-strategy
+- ai-agents
+- application-design
+- generative-ai
+- enterprise-ai
 sources:
-  - "[[sources/watchv=rofhhjmumcc]]"
+- 'https://www.youtube.com/watch?v=rofhhjmumcc'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.83
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: AI Application Data Requirements
 ---
 # AI Application Data Requirements
 

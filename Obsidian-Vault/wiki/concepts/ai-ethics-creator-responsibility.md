@@ -1,29 +1,30 @@
 ---
-title: "AI Ethics and Creator Responsibility"
+title: AI Ethics and Creator Responsibility
 category: concepts
 tags:
-  - ai-ethics
-  - ai-safety
-  - agi
-  - emotions
-  - aief2025
+- ai-ethics
+- ai-safety
+- agi
+- emotions
+- aief2025
 sources:
-  - "AIEF2025 - Top Ten Challenges to Reach AGI — Stephen Chin, Andreas Kollegger - https://www.youtube.com/watch?v=ypyvj_56sBU"
+- AIEF2025 - Top Ten Challenges to Reach AGI — Stephen Chin, Andreas Kollegger - https://www.youtube.com/watch?v=ypyvj_56sBU
 provenance:
-  extracted: 0.60
+  extracted: 0.6
   inferred: 0.35
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/agi-challenges|AGI Challenges]]"
-    type: is_challenge_of
-  - target: "[[concepts/agent-autonomy-spectrum|Agent Autonomy Spectrum]]"
-    type: relates_to
+- target: '[[concepts/agi-challenges|AGI Challenges]]'
+  type: is_challenge_of
+- target: '[[concepts/agent-autonomy-spectrum|Agent Autonomy Spectrum]]'
+  type: relates_to
+summary: AI Ethics and Creator Responsibility
 ---
 
 # AI Ethics and Creator Responsibility

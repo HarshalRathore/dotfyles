@@ -2,15 +2,24 @@
 type: concept
 title: Container DNS Resolution
 created:
-  - 2026-06-30
-updated: "2026-07-02"
+- 2026-06-30
+updated: '2026-07-02'
 sources:
-  - miscellaneous_1e6927
+- miscellaneous_1e6927
 tags:
-  - term
-  - networking
+- term
+- networking
 aliases:
-  - container-to-container DNS
+- container-to-container DNS
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Container DNS Resolution
 ---
 # Container DNS Resolution
 

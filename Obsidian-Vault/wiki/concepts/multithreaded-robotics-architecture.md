@@ -1,10 +1,19 @@
 ---
-title: "Multithreaded Robotics Architecture"
+title: Multithreaded Robotics Architecture
 category: concepts
-tags: [multithreading, pipelining, robotics, concurrency, real-time, rx-tx-separation]
-aliases: [pipelined robotics, threaded robot control, robotics concurrency]
+tags:
+- multithreading
+- pipelining
+- robotics
+- concurrency
+- real-time
+- rx-tx-separation
+aliases:
+- pipelined robotics
+- threaded robot control
+- robotics concurrency
 sources:
-  - "AIEF2025 - Rishabh Garg, Tesla Optimus — Challenges in High Performance Robotics Systems - https://www.youtube.com/watch?v=bCGbuyv8PMk"
+- AIEF2025 - Rishabh Garg, Tesla Optimus — Challenges in High Performance Robotics Systems - https://www.youtube.com/watch?v=bCGbuyv8PMk
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -16,14 +25,15 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/robotics-control-loop|Robotics Control Loop]]"
-    type: extends
-  - target: "[[concepts/bus-saturation-overhead|Bus Saturation Overhead]]"
-    type: mitigates
-  - target: "[[concepts/jitter-in-robotics|Jitter in Robotics]]"
-    type: introduces
-  - target: "[[concepts/robotics-synchronization|Robotics Synchronization]]"
-    type: requires
+- target: '[[concepts/robotics-control-loop|Robotics Control Loop]]'
+  type: extends
+- target: '[[concepts/bus-saturation-overhead|Bus Saturation Overhead]]'
+  type: mitigates
+- target: '[[concepts/jitter-in-robotics|Jitter in Robotics]]'
+  type: introduces
+- target: '[[concepts/robotics-synchronization|Robotics Synchronization]]'
+  type: requires
+summary: Multithreaded Robotics Architecture
 ---
 
 # Multithreaded Robotics Architecture

@@ -1,28 +1,28 @@
 ---
-title: "Headcount vs Productivity"
+title: Headcount vs Productivity
 category: concepts
 tags:
-  - productivity
-  - team-design
-  - scaling
-  - startup
-  - aief2025
+- productivity
+- team-design
+- scaling
+- startup
+- aief2025
 aliases:
-  - Headcount does not equal productivity
-  - More people not more productivity
+- Headcount does not equal productivity
+- More people not more productivity
 relationships:
-  - target: "[[concepts/small-ai-teams|Small AI Teams with Huge Impact]]"
-    type: implements
-  - target: "[[concepts/generalist-engineer|Generalist Engineer]]"
-    type: related_to
+- target: '[[concepts/small-ai-teams|Small AI Teams with Huge Impact]]'
+  type: implements
+- target: '[[concepts/generalist-engineer|Generalist Engineer]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=k-iykdmfkhe]]"
-summary: "The principle that adding people to a team does not linearly increase productivity — and can decrease it through bureaucracy, meeting overload, and specialist silos. Productivity scales through generalists, AI tools, and simple processes."
+- 'https://www.youtube.com/watch?v=k-iykdmfkhe'
+summary: The principle that adding people to a team does not linearly increase productivity — and can decrease it through bureaucracy, meeting overload, and specialist silos. Productivity scales through gen...
 provenance:
   extracted: 0.85
   inferred: 0.15
-  ambiguous: 0.00
-base_confidence: 0.80
+  ambiguous: 0.0
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting

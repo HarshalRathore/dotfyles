@@ -1,18 +1,18 @@
 ---
-title: "LanceDB"
+title: LanceDB
 tags:
-  - company
-  - vector-database
-  - ai-infrastructure
-  - lakehouse
-  - multimodal
-  - open-source
-  - aief2025
+- company
+- vector-database
+- ai-infrastructure
+- lakehouse
+- multimodal
+- open-source
+- aief2025
 aliases:
-  - Lance
+- Lance
 sources:
-  - "[[sources/watchv=w1mizchnkfa]]"
-summary: "LanceDB delivers an AI-native multimodal lake house — positioning beyond just a vector database as a foundational platform for AI data operations including feature extraction, summarization, and generation."
+- 'https://www.youtube.com/watch?v=w1mizchnkfa'
+summary: LanceDB delivers an AI-native multimodal lake house — positioning beyond just a vector database as a foundational platform for AI data operations including feature extraction, summarization, and ge...
 provenance:
   extracted: 0.8
   inferred: 0.2
@@ -23,10 +23,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/ai-native-lakehouse|AI-Native Multimodal Lakehouse]]"
-    type: implements
-  - target: "[[entities/harvey-ai|Harvey]]"
-    type: uses
+- target: '[[concepts/ai-native-lakehouse|AI-Native Multimodal Lakehouse]]'
+  type: implements
+- target: '[[entities/harvey-ai|Harvey]]'
+  type: uses
+category: entities
 ---
 
 # LanceDB

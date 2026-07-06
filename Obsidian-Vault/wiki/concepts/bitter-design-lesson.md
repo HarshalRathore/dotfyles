@@ -1,23 +1,24 @@
 ---
-title: "The Bitter Design Lesson"
+title: The Bitter Design Lesson
 tags:
-  - ai
-  - ux
-  - design
-  - product
-  - aief2025
+- ai
+- ux
+- design
+- product
+- aief2025
 sources:
-  - "[[sources/watchv=bztd0yyagcq]]"
-summary: "The design corollary to Sutton's Bitter Lesson: if models are not commoditized and inference performance drives competition, the UI is the commodity — interfaces must conform to the next model's capabilities."
+- 'https://www.youtube.com/watch?v=bztd0yyagcq'
+summary: 'The design corollary to Sutton''s Bitter Lesson: if models are not commoditized and inference performance drives competition, the UI is the commodity — interfaces must conform to the next model''s ca...'
 provenance:
   extracted: 0.55
-  inferred: 0.40
+  inferred: 0.4
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # The Bitter Design Lesson

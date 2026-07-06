@@ -1,24 +1,26 @@
 ---
-title: "Sparse Autoencoders"
-aliases: [SAE]
+title: Sparse Autoencoders
+aliases:
+- SAE
 tags:
-  - concept
-  - ai
-  - interpretability
-  - technique
-  - neural-networks
+- concept
+- ai
+- interpretability
+- technique
+- neural-networks
 sources:
-  - "[[sources/watchv=6avmhzpjptq]]"
-summary: "A neural network architecture used in mechanistic interpretability to discover interpretable features inside LLMs by learning sparse decompositions of model activations into individual concept representations."
+- 'https://www.youtube.com/watch?v=6avmhzpjptq'
+summary: A neural network architecture used in mechanistic interpretability to discover interpretable features inside LLMs by learning sparse decompositions of model activations into individual concept repr...
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.45
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Sparse Autoencoders

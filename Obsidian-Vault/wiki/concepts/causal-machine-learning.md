@@ -1,19 +1,22 @@
 ---
-title: "Causal Machine Learning"
+title: Causal Machine Learning
 tags:
-  - causal-inference
-  - machine-learning
-  - statistics
-  - correlation-vs-causation
-  - observability
-  - aiops
-aliases: [causal-ml, causal-machine-learning, causal-inference-ml]
+- causal-inference
+- machine-learning
+- statistics
+- correlation-vs-causation
+- observability
+- aiops
+aliases:
+- causal-ml
+- causal-machine-learning
+- causal-inference-ml
 sources:
-  - "[[sources/watchv=l6_nigiexzq]]"
-summary: A branch of machine learning focused on discovering cause-and-effect relationships from data, not just correlations. Applied by Traversal.ai to distinguish root causes from correlated failures in production incidents.
+- 'https://www.youtube.com/watch?v=l6_nigiexzq'
+summary: A branch of machine learning focused on discovering cause-and-effect relationships from data, not just correlations. Applied by Traversal.ai to distinguish root causes from correlated failures in p...
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.75
 lifecycle: draft
@@ -22,12 +25,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/aiops]]"
-    type: extends
-  - target: "[[concepts/production-troubleshooting]]"
-    type: uses
-  - target: "[[concepts/agent-swarm]]"
-    type: related_to
+- target: '[[concepts/aiops]]'
+  type: extends
+- target: '[[concepts/production-troubleshooting]]'
+  type: uses
+- target: '[[concepts/agent-swarm]]'
+  type: related_to
+category: concepts
 ---
 
 # Causal Machine Learning

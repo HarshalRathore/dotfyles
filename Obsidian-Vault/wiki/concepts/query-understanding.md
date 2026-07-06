@@ -4,7 +4,7 @@ category: concepts
 tags: [search, llm, query-processing, nlp, e-commerce, taxonomy, multi-label-classification]
 summary: "The most upstream component of the search stack, responsible for normalizing, tagging, classifying, and mapping user queries to a product taxonomy before retrieval and ranking."
 sources:
-  - "[[sources/watchv=pjavhm_3ljg]]"
+  - "https://www.youtube.com/watch?v=pjavhm_3ljg"
 provenance:
   extracted: 0.75
   inferred: 0.20

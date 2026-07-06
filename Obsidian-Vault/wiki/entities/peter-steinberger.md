@@ -1,19 +1,19 @@
 ---
-summary: "Creator of summarize (CLI + Chrome Side Panel for LLM-powered summarization), birdclaw (local-first Twitter/X archive and operator console), sweetistics, and the bird CLI. Independent iOS/macOS developer and open-source author."
-title: "Peter Steinberger"
+summary: Creator of summarize (CLI + Chrome Side Panel for LLM-powered summarization), birdclaw (local-first Twitter/X archive and operator console), sweetistics, and the bird CLI. Independent iOS/macOS dev...
+title: Peter Steinberger
 type: entity
 created: 2026-07-02
 updated: 2026-07-02
 tags:
-  - person
-  - open-source
-  - ios
-  - llm
-  - tools
+- person
+- open-source
+- ios
+- llm
+- tools
 sources:
-  - "[[sources/birdclaw]]"
-  - "[[sources/summarize]]"
-  - "[[sources/summarize-sh-website]]"
+- '[[entities/birdclaw]]'
+- '[[entities/summarize]]'
+- '[[sources/summarize-sh-website]]'
 base_confidence: 0.58
 lifecycle: draft
 lifecycle_changed: 2026-07-02
@@ -22,10 +22,11 @@ visibility: public
 provenance:
   extracted: 0.72
   inferred: 0.28
-  ambiguous: 0.00
+  ambiguous: 0.0
 aliases:
-  - steipete
-  - "@steipete"
+- steipete
+- '@steipete'
+category: entities
 ---
 
 # Peter Steinberger

@@ -1,16 +1,25 @@
 ---
 type: concept
-title: "Subject Alternative Name (SAN)"
+title: Subject Alternative Name (SAN)
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/how-tls-certificates-work-in-kubernetes-and-manual-cluster-setup_e2b507]]"
+- '[[sources/how-tls-certificates-work-in-kubernetes-and-manual-cluster-setup_e2b507]]'
 tags:
-  - tls
+- tls
 aliases:
-  - X.509 SAN extension
+- X.509 SAN extension
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Subject Alternative Name (SAN)
 ---
 # Subject Alternative Name (SAN)
 

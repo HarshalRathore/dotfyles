@@ -20,6 +20,6 @@ relationships:
 
 # Zwibbler
 
-Zwibbler is an online whiteboard and illustration tool that [[Christopher Chedeau|christopher-chedeau]] attempted to use in January 2020 while trying to create handwritten-style illustrations for a blog post. The service was down at the time, which directly led Chedeau to build [[Excalidraw|excalidraw]] instead.
+Zwibbler is an online whiteboard and illustration tool that [[entities/christopher-chedeau|christopher-chedeau]] attempted to use in January 2020 while trying to create handwritten-style illustrations for a blog post. The service was down at the time, which directly led Chedeau to build [[entities/excalidraw|excalidraw]] instead.
 
 Zwibbler was one of the few tools available at the time for creating handwritten-style illustrations online. Its unavailability — ironic given the very need it was meant to serve — became the catalyst for one of the most widely adopted open-source whiteboarding tools.

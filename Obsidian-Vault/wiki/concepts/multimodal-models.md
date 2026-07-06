@@ -1,16 +1,16 @@
 ---
-title: "Multimodal Models"
+title: Multimodal Models
 category: concepts
 tags:
-  - multimodal
-  - models
-  - ai
-  - google-deepmind
-  - gemini
-  - omnimodal
-summary: "AI models that natively process and generate across multiple modalities — text, image, audio, video — in a single unified architecture. The trajectory moves from multimodal toward omnimodal."
+- multimodal
+- models
+- ai
+- google-deepmind
+- gemini
+- omnimodal
+summary: AI models that natively process and generate across multiple modalities — text, image, audio, video — in a single unified architecture. The trajectory moves from multimodal toward omnimodal.
 provenance:
-  extracted: 0.60
+  extracted: 0.6
   inferred: 0.35
   ambiguous: 0.05
 base_confidence: 0.75
@@ -20,12 +20,13 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/omnimodal|Omnimodal Models]]"
-    type: extends
-  - target: "[[entities/gemini|Gemini]]"
-    type: related_to
-  - target: "[[concepts/voice-generation|Voice Generation]]"
-    type: related_to
+- target: '[[concepts/omnimodal|Omnimodal Models]]'
+  type: extends
+- target: '[[entities/gemini|Gemini]]'
+  type: related_to
+- target: '[[concepts/voice-generation|Voice Generation]]'
+  type: related_to
+sources: []
 ---
 
 # Multimodal Models

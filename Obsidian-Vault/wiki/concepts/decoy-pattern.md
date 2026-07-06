@@ -1,17 +1,20 @@
 ---
-title: "Decoy Pattern in Word Games"
+title: Decoy Pattern in Word Games
 tags:
-  - puzzle-design
-  - misdirection
-  - connections
-  - game-design
-  - ai-benchmark
-aliases: [Decoy Pattern, Decoy Words, Misdirection Pattern]
+- puzzle-design
+- misdirection
+- connections
+- game-design
+- ai-benchmark
+aliases:
+- Decoy Pattern
+- Decoy Words
+- Misdirection Pattern
 sources:
-  - "[[sources/watchv=p_uhfgh4j9y]]"
-summary: "Words in Connections puzzles that appear to belong to an easier category but actually belong to the purple category. Designed to test whether AI and humans can resist superficial pattern matching."
+- 'https://www.youtube.com/watch?v=p_uhfgh4j9y'
+summary: Words in Connections puzzles that appear to belong to an easier category but actually belong to the purple category. Designed to test whether AI and humans can resist superficial pattern matching.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -20,14 +23,15 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/connections-game]]"
-    type: used_in
-  - target: "[[concepts/llm-overfitting]]"
-    type: causes
-  - target: "[[concepts/abstract-reasoning]]"
-    type: tests
-  - target: "[[concepts/system-1-system-2-thinking]]"
-    type: exploits
+- target: '[[concepts/connections-game]]'
+  type: used_in
+- target: '[[concepts/llm-overfitting]]'
+  type: causes
+- target: '[[concepts/abstract-reasoning]]'
+  type: tests
+- target: '[[concepts/system-1-system-2-thinking]]'
+  type: exploits
+category: concepts
 ---
 
 # Decoy Pattern in Word Games

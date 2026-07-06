@@ -1,31 +1,38 @@
 ---
-title: "The Eyes Are The (Context) Window to The Soul: How Windsurf Gets to Know You — Sam Fertig, Windsurf"
+title: 'The Eyes Are The (Context) Window to The Soul: How Windsurf Gets to Know You — Sam Fertig, Windsurf'
 category: references
-tags: [aief2025, windsurf, context, ai-coding, cascade, user-modeling]
+tags:
+- aief2025
+- windsurf
+- context
+- ai-coding
+- cascade
+- user-modeling
 aliases:
-  - Sam Fertig AIEF2025
-  - Windsurf Context Philosophy
+- Sam Fertig AIEF2025
+- Windsurf Context Philosophy
 sources:
-  - "AIEF2025 - The Eyes Are The (Context) Window to The Soul: How Windsurf Gets to Know You — Sam Fertig, Windsurf - https://www.youtube.com/watch?v=jUv5WSPo9fk"
+- 'AIEF2025 - The Eyes Are The (Context) Window to The Soul: How Windsurf Gets to Know You — Sam Fertig, Windsurf - https://www.youtube.com/watch?v=jUv5WSPo9fk'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/windsurf]]"
-    type: relates_to
-  - target: "[[entities/cascade]]"
-    type: relates_to
-  - target: "[[concepts/context-over-models]]"
-    type: extends
-  - target: "[[concepts/context-philosophy-what-vs-how-much]]"
-    type: defines
+- target: '[[entities/windsurf]]'
+  type: relates_to
+- target: '[[entities/cascade]]'
+  type: relates_to
+- target: '[[concepts/context-over-models]]'
+  type: extends
+- target: '[[concepts/context-philosophy-what-vs-how-much]]'
+  type: defines
+summary: 'The Eyes Are The (Context) Window to The Soul: How Windsurf Gets to Know You — Sam Fertig, Windsurf'
 ---
 
 # The Eyes Are The (Context) Window to The Soul: How Windsurf Gets to Know You — Sam Fertig, Windsurf

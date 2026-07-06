@@ -1,20 +1,25 @@
 ---
 title: Elastic
-tags: [company, search, elasticsearch, observability]
+tags:
+- company
+- search
+- elasticsearch
+- observability
 sources:
-  - "[[sources/watchv=4xe_imyxbqc]]"
-  - "[[sources/watchv=l6_nigiexzq]]"
-  - "AIEF2025 - Vector Search Benchmarking - Philipp Krenn, Elastic - https://www.youtube.com/watch?v=YrUBFXa1KUY"
-summary: "Company behind Elasticsearch, the most downloaded and deployed search engine. Provides keyword search, vector search, hybrid search, and observability solutions built on Apache Lucene."
+- 'https://www.youtube.com/watch?v=4xe_imyxbqc'
+- 'https://www.youtube.com/watch?v=l6_nigiexzq'
+- AIEF2025 - Vector Search Benchmarking - Philipp Krenn, Elastic - https://www.youtube.com/watch?v=YrUBFXa1KUY
+summary: Company behind Elasticsearch, the most downloaded and deployed search engine. Provides keyword search, vector search, hybrid search, and observability solutions built on Apache Lucene.
 provenance:
-  extracted: 0.80
-  inferred: 0.20
-  ambiguous: 0.00
+  extracted: 0.8
+  inferred: 0.2
+  ambiguous: 0.0
 base_confidence: 0.75
 lifecycle: draft
 tier: supporting
-created: 2026-07-03T08:30:00Z
+created: 2026-07-03 08:30:00+00:00
 updated: 2026-07-04
+category: entities
 ---
 
 # Elastic

@@ -1,24 +1,27 @@
 ---
-title: "John Dickerson"
+title: John Dickerson
 tags:
-  - person
-  - ai
-  - evaluation
-  - entrepreneurship
-  - open-source
-aliases: [John Dickerson, JD Dickerson]
+- person
+- ai
+- evaluation
+- entrepreneurship
+- open-source
+aliases:
+- John Dickerson
+- JD Dickerson
 sources:
-  - "[[sources/watchv=cqguvf6gsrm]]"
-summary: "CEO of Mozilla AI, former co-founder and chief scientist at Arthur AI. Expert in AI/ML monitoring, evaluation, security, and open source AI tooling."
+- 'https://www.youtube.com/watch?v=cqguvf6gsrm'
+summary: CEO of Mozilla AI, former co-founder and chief scientist at Arthur AI. Expert in AI/ML monitoring, evaluation, security, and open source AI tooling.
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.55
 lifecycle: draft
 tier: supporting
-created: 2026-07-03T08:13:21Z
-updated: 2026-07-03T08:13:21Z
+created: 2026-07-03 08:13:21+00:00
+updated: 2026-07-03 08:13:21+00:00
+category: entities
 ---
 
 # John Dickerson

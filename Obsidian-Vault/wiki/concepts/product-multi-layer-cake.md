@@ -2,9 +2,11 @@
 title: Product Multi-Layer Cake
 category: concepts
 tags: [product, framework, ai-era, product-management]
-summary: A four-layer framework for understanding product building in the AI era: Self, Team, Product, User. Each layer is being rewritten simultaneously, creating both chaos and opportunity.
+summary: >-
+  A four-layer framework for understanding product building in the AI era: Self, Team, Product, User. Each layer is being rewritten simultaneously, creating both chaos and opportunity.
 sources: ["AIEF2025 - Everything is ugly, so go build something that isn't — Raiza Martin, Huxe (ex NotebookLM) - https://www.youtube.com/watch?v=yG5d5UaGz1M"]
-provenance: {extracted: 0.9, inferred: 0.1, ambiguous: 0.0}
+provenance: >-
+  {extracted: 0.9, inferred: 0.1, ambiguous: 0.0}
 base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-05

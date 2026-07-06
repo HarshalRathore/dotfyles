@@ -2,31 +2,31 @@
 title: Continuous Viable Product
 category: concepts
 tags:
-  - product-development
-  - iteration
-  - viable-product
-  - mvp
-  - shipping
-summary: A product that provides value at every iteration stage — every step is a functioning product that transports a user from A to B, enabling continuous feedback rather than waiting for a finished product.
+- product-development
+- iteration
+- viable-product
+- mvp
+- shipping
+summary: A product that provides value at every iteration stage — every step is a functioning product that transports a user from A to B, enabling continuous feedback rather than waiting for a finished prod...
 sources:
-  - AIEF2025 - Shipping something to someone always wins — Kenneth Auchenberg (ex. Stripe, VSCode) - https://www.youtube.com/watch?v=mHzJhXppwUA
+- AIEF2025 - Shipping something to someone always wins — Kenneth Auchenberg (ex. Stripe, VSCode) - https://www.youtube.com/watch?v=mHzJhXppwUA
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
-created: 2026-07-05T00:00:00Z
-updated: 2026-07-05T00:00:00Z
+created: 2026-07-05 00:00:00+00:00
+updated: 2026-07-05 00:00:00+00:00
 relationships:
-  - target: "[[concepts/rapid-iteration-loop]]"
-    type: related_to
-  - target: "[[concepts/ai-iteration-loop]]"
-    type: extends
-  - target: "[[concepts/poc-hell]]"
-    type: contradicts
+- target: '[[concepts/rapid-iteration-loop]]'
+  type: related_to
+- target: '[[concepts/ai-iteration-loop]]'
+  type: extends
+- target: '[[concepts/poc-hell]]'
+  type: contradicts
 ---
 
 ## Definition

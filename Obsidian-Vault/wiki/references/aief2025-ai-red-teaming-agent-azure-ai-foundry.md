@@ -1,21 +1,24 @@
 ---
-title: "AIEF2025 - AI Red Teaming Agent: Azure AI Foundry"
+title: 'AIEF2025 - AI Red Teaming Agent: Azure AI Foundry'
 category: references
 tags:
-  - ai-red-teaming
-  - azure-ai-foundry
-  - microsoft
-  - evaluation
-  - security
-  - aief2025
-  - pyrit
-  - semantic-kernel
-aliases: [AI Red Teaming Agent, PyRIT SDK, Azure AI red teaming]
+- ai-red-teaming
+- azure-ai-foundry
+- microsoft
+- evaluation
+- security
+- aief2025
+- pyrit
+- semantic-kernel
+aliases:
+- AI Red Teaming Agent
+- PyRIT SDK
+- Azure AI red teaming
 sources:
-  - "[[sources/watchv=jhjkgramfiu]]"
-summary: "Microsoft demonstrates the AI Red Teaming Agent in Azure AI Foundry — a hosted SDK wrapping PyRIT for automated adversarial testing of AI applications and models via attack strategies and risk-category evaluators. Live demo shows interactive and automated scanning modes, composable attack strategies (flip, base64, Caesar), and that guardrails materially reduce attack success across GPT-4o, GPT-3.5, and GPT-4.1 nano models."
+- 'https://www.youtube.com/watch?v=jhjkgramfiu'
+summary: Microsoft demonstrates the AI Red Teaming Agent in Azure AI Foundry — a hosted SDK wrapping PyRIT for automated adversarial testing of AI applications and models via attack strategies and risk-cate...
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85

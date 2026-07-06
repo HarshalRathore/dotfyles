@@ -1,34 +1,35 @@
 ---
-title: "Measure, Monitor, Analyze, Repeat"
+title: Measure, Monitor, Analyze, Repeat
 category: concepts
 tags:
-  - evaluation
-  - iteration
-  - continuous-improvement
-  - scaling
+- evaluation
+- iteration
+- continuous-improvement
+- scaling
 aliases:
-  - mmar loop
-  - eval iteration loop
-  - measure monitor analyze repeat
+- mmar loop
+- eval iteration loop
+- measure monitor analyze repeat
 sources:
-  - "AIEF2025 - How to run Evals at Scale: Thinking beyond Accuracy or Similarity — Muktesh Mishra, Adobe - https://www.youtube.com/watch?v=coKKKKh8Vns"
+- 'AIEF2025 - How to run Evals at Scale: Thinking beyond Accuracy or Similarity — Muktesh Mishra, Adobe - https://www.youtube.com/watch?v=coKKKKh8Vns'
 provenance:
   extracted: 0.95
   inferred: 0.03
   ambiguous: 0.02
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/ai-iteration-loop|AI Iteration Loop]]"
-    type: relates_to
-  - target: "[[concepts/data-flywheel|Data Flywheel]]"
-    type: extends
-  - target: "[[concepts/eval-driven-development|Eval-Driven Development]]"
-    type: operationalizes
+- target: '[[concepts/ai-iteration-loop|AI Iteration Loop]]'
+  type: relates_to
+- target: '[[concepts/data-flywheel|Data Flywheel]]'
+  type: extends
+- target: '[[concepts/eval-driven-development|Eval-Driven Development]]'
+  type: operationalizes
+summary: Measure, Monitor, Analyze, Repeat
 ---
 
 # Measure, Monitor, Analyze, Repeat

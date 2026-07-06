@@ -4,7 +4,7 @@ category: entities
 tags: [person, product-strategy, founder, product-management, reforge]
 aliases: [Balfour, Brian]
 sources:
-  - "[[sources/watchv=1mvh05gdyde]]"
+  - "https://www.youtube.com/watch?v=1mvh05gdyde"
 summary: "Founder and CEO of Reforge, 25+ year tech veteran, helped HubSpot launch their CRM, author of the AI Lego Blocks Framework for product differentiation."
 provenance:
   extracted: 0.80

@@ -4,7 +4,7 @@ category: entities
 tags: [person, founder, ai-reliability, aief2025, hf0-residency, federalist-ai]
 summary: "Founder of Federalist AI, a research lab building reliable personalized AGI. Presented CoreKey 72B and the reliability-is-revenue thesis at AIEF2025 HF0 Residency."
 sources:
-  - "[[sources/watchv=l8-5ezsoi5a]]"
+  - "https://www.youtube.com/watch?v=l8-5ezsoi5a"
 provenance:
   extracted: 0.9
   inferred: 0.1

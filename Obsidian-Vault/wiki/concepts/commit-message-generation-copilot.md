@@ -1,23 +1,24 @@
 ---
-title: "Commit Message Generation in Copilot"
+title: Commit Message Generation in Copilot
 category: concepts
 tags:
-  - github-copilot
-  - vscode
-  - vibe-coding
-  - git
-  - ux
+- github-copilot
+- vscode
+- vibe-coding
+- git
+- ux
 sources:
-  - "[[sources/watchv=eafp8pds7h4]]"
+- 'https://www.youtube.com/watch?v=eafp8pds7h4'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Commit Message Generation in Copilot
 ---
 
 # Commit Message Generation in Copilot

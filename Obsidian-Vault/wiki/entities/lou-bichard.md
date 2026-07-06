@@ -1,15 +1,15 @@
 ---
-title: "Lou Bichard"
+title: Lou Bichard
 category: entities
 tags:
-  - person
-  - gitpod
-  - field-tto
-  - platform-engineering
-  - security
-summary: Lou Bichard, Field TTO at Gitpod. Background in software and platform engineering; nearly four years at Gitpod building secure dev environment platforms for regulated industries; six years total on product infrastructure for secure environments.
+- person
+- gitpod
+- field-tto
+- platform-engineering
+- security
+summary: Lou Bichard, Field TTO at Gitpod. Background in software and platform engineering; nearly four years at Gitpod building secure dev environment platforms for regulated industries; six years total on...
 sources:
-  - "AIEF2025 - Building agent fleet architectures your CISO doesn't hate — Lou Bichard, Gitpod - https://www.youtube.com/watch?v=d9rsC6_VLoA"
+- AIEF2025 - Building agent fleet architectures your CISO doesn't hate — Lou Bichard, Gitpod - https://www.youtube.com/watch?v=d9rsC6_VLoA
 provenance:
   extracted: 1.0
   inferred: 0.0
@@ -21,8 +21,9 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: [[entities/gitpod|Gitpod]]
-    type: works_at
+- target:
+  - - entities/gitpod|Gitpod
+  type: works_at
 ---
 
 # Lou Bichard

@@ -1,16 +1,19 @@
 ---
-title: "Copilot-First Strategy"
+title: Copilot-First Strategy
 tags:
-  - concept
-  - ai
-  - product-strategy
-  - agents
-aliases: [build copilot first, augmentation before automation, Iron Man suit strategy]
+- concept
+- ai
+- product-strategy
+- agents
+aliases:
+- build copilot first
+- augmentation before automation
+- Iron Man suit strategy
 sources:
-  - "[[sources/watchv=3mzs5gnelzm]]"
-summary: "Build AI augmentation (copilot) first, then extend toward autonomy as model capability improves. Human tolerance for failure drops dramatically with latency — making copilots the lower-risk path."
+- 'https://www.youtube.com/watch?v=3mzs5gnelzm'
+summary: Build AI augmentation (copilot) first, then extend toward autonomy as model capability improves. Human tolerance for failure drops dramatically with latency — making copilots the lower-risk path.
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.55
@@ -18,6 +21,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Copilot-First Strategy

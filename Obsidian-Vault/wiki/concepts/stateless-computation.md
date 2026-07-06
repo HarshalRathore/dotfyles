@@ -1,15 +1,15 @@
 ---
-title: "Stateless Computation"
+title: Stateless Computation
 tags:
-  - concept
-  - architecture
-  - privacy
-  - security
+- concept
+- architecture
+- privacy
+- security
 sources:
-  - "[[sources/watchv=ccswz5bjlo8]]"
-summary: "Computation model where data is used only to satisfy the immediate request and cannot be logged, stored, or reused — enforced by eliminating persistent storage rather than by policy."
+- 'https://www.youtube.com/watch?v=ccswz5bjlo8'
+summary: Computation model where data is used only to satisfy the immediate request and cannot be logged, stored, or reused — enforced by eliminating persistent storage rather than by policy.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.55
@@ -17,6 +17,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Stateless Computation

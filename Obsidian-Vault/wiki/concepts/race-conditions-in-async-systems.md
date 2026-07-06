@@ -1,21 +1,29 @@
 ---
 title: Race Conditions in Async Systems
 category: concepts
-tags: [race-conditions, async-systems, distributed-systems, reliability, event-driven]
-aliases: [async race conditions, race conditions event-driven, race conditions ai agents]
+tags:
+- race-conditions
+- async-systems
+- distributed-systems
+- reliability
+- event-driven
+aliases:
+- async race conditions
+- race conditions event-driven
+- race conditions ai agents
 relationships:
-  - target: "[[concepts/events-wrong-abstraction-thesis|Events are the Wrong Abstraction Thesis]]"
-    type: related_to
-  - target: "[[concepts/agent-reliability-challenge|Agent Reliability Challenge]]"
-    type: related_to
+- target: '[[concepts/events-wrong-abstraction-thesis|Events are the Wrong Abstraction Thesis]]'
+  type: related_to
+- target: '[[concepts/agent-reliability-challenge|Agent Reliability Challenge]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=kj9ezytws1y]]"
-summary: "Race conditions are the inevitable result of asynchronous, uncoordinated event processing — where multiple consumers access shared state without coordination, leading to unpredictable behavior and the hardest bugs to diagnose."
+- 'https://www.youtube.com/watch?v=kj9ezytws1y'
+summary: Race conditions are the inevitable result of asynchronous, uncoordinated event processing — where multiple consumers access shared state without coordination, leading to unpredictable behavior and...
 provenance:
-  extracted: 0.90
-  inferred: 0.10
-  ambiguous: 0.00
-base_confidence: 0.80
+  extracted: 0.9
+  inferred: 0.1
+  ambiguous: 0.0
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04

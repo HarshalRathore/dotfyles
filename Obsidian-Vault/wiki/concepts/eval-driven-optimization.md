@@ -16,13 +16,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/eval-driven-development.md]]"
+  - target: "[[concepts/eval-driven-development]]"
     type: extends
-  - target: "[[concepts/auto-improving-agent-loop.md]]"
+  - target: "[[concepts/auto-improving-agent-loop]]"
     type: related_to
-  - target: "[[concepts/prompt-engineering-is-dead.md]]"
+  - target: "[[concepts/prompt-engineering-is-dead]]"
     type: related_to
-  - target: "[[concepts/production-eval-metrics.md]]"
+  - target: "[[concepts/production-eval-metrics]]"
     type: related_to
 ---
 
@@ -30,7 +30,7 @@ relationships:
 
 The practice of using automated evaluation metrics as the primary feedback signal for iterative system improvement. Instead of relying on human intuition, heuristic adjustments, or manual prompt tweaking, eval-driven optimization treats evaluation scores as the objective function to minimize.
 
-[[entities/nir-gazit.md|Nir Gazit]]'s AIEF2025 talk demonstrated this with a [[concepts/rag-pipeline-architecture.md|RAG chatbot]]: the evaluation score (percentage of expected facts present in generated answers) served as the loss signal, and an [[concepts/auto-improving-agent-loop.md|auto-improving agent loop]] used it to guide prompt optimization.
+[[entities/nir-gazit|Nir Gazit]]'s AIEF2025 talk demonstrated this with a [[concepts/rag-pipeline-architecture|RAG chatbot]]: the evaluation score (percentage of expected facts present in generated answers) served as the loss signal, and an [[concepts/auto-improving-agent-loop|auto-improving agent loop]] used it to guide prompt optimization.
 
 Key characteristics:
 

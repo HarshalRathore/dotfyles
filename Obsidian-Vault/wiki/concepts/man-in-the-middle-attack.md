@@ -1,16 +1,25 @@
 ---
 type: concept
-title: "Man-in-the-Middle Attack"
+title: Man-in-the-Middle Attack
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/tls-certificates_c8ca8c]]"
+- '[[sources/tls-certificates_c8ca8c]]'
 tags:
-  - security
+- security
 aliases:
-  - Eavesdropping
+- Eavesdropping
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Man-in-the-Middle Attack
 ---
 # Man-in-the-Middle Attack
 

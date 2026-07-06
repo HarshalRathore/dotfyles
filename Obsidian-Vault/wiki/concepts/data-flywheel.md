@@ -1,22 +1,22 @@
 ---
-title: "Data Flywheel"
+title: Data Flywheel
 category: concepts
 tags:
-  - feedback-loop
-  - continuous-improvement
-  - ai-agents
-  - production-ai
-  - data-collection
+- feedback-loop
+- continuous-improvement
+- ai-agents
+- production-ai
+- data-collection
 aliases:
-  - data flywheel
-  - feedback flywheel
+- data flywheel
+- feedback flywheel
 sources:
-  - "AIEF2025 - Turning Fails into Features: Zapier's Hard-Won Eval Lessons — Rafal Willinski, Vitor Balocco, Zapier - https://www.youtube.com/watch?v=blrovBxxN9o"
-  - "AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY"
-  - "AIEF2025 - Why should anyone care about Evals? — Manu Goyal, Braintrust - https://www.youtube.com/watch?v=jJ45Yz1lJao"
+- 'AIEF2025 - Turning Fails into Features: Zapier''s Hard-Won Eval Lessons — Rafal Willinski, Vitor Balocco, Zapier - https://www.youtube.com/watch?v=blrovBxxN9o'
+- AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY
+- AIEF2025 - Why should anyone care about Evals? — Manu Goyal, Braintrust - https://www.youtube.com/watch?v=jJ45Yz1lJao
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.75
 lifecycle: draft
@@ -25,12 +25,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/eval-flywheel-effect|Eval Flywheel Effect]]"
-    type: relates-to
-  - target: "[[concepts/ai-iteration-loop|AI Iteration Loop]]"
-    type: implements
-  - target: "[[entities/zapier|Zapier]]"
-    type: used-by
+- target: '[[concepts/eval-flywheel-effect|Eval Flywheel Effect]]'
+  type: relates-to
+- target: '[[concepts/ai-iteration-loop|AI Iteration Loop]]'
+  type: implements
+- target: '[[entities/zapier|Zapier]]'
+  type: used-by
+summary: Data Flywheel
 ---
 
 # Data Flywheel

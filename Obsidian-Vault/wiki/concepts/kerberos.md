@@ -1,18 +1,27 @@
 ---
 type: concept
-title: "Kerberos"
+title: Kerberos
 visibility: internal
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/🔐-security-in-kubernetes_0a37d1]]"
+- '[[sources/🔐-security-in-kubernetes_0a37d1]]'
 tags:
-  - auth
+- auth
 aliases:
-  - Kerberos Protocol
-  - Kerberos Network Authentication
+- Kerberos Protocol
+- Kerberos Network Authentication
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Kerberos
 ---
 # Kerberos
 
@@ -35,8 +44,8 @@ Kerberos is a network authentication protocol that provides secure authenticatio
 ## Related Concepts
 - [[concepts/authentication-kubernetes]]
 - [[concepts/ldap]]
-- [[x-509-client-certificates]]
-- [[tls-encryption]]
+- [[concepts/x-509-client-certificates]]
+- [[concepts/tls-encryption]]
 
 ## Related Entities
 - [[entities/kubernetes]]

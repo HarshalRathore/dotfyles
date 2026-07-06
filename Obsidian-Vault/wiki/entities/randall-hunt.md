@@ -1,12 +1,19 @@
 ---
 title: Randall Hunt
 category: entities
-tags: [ai-engineer, founder, aws, mongodb, spacex, caylent, enterprise-ai]
-summary: "AI engineer and builder who co-founded Kalen (Caylent). Previously at AWS, SpaceX (led CI/CD team), and TenGen (became MongoDB). Spoke at AIEF2025 on hard lessons from 200+ enterprise GenAI deployments."
+tags:
+- ai-engineer
+- founder
+- aws
+- mongodb
+- spacex
+- caylent
+- enterprise-ai
+summary: AI engineer and builder who co-founded Kalen (Caylent). Previously at AWS, SpaceX (led CI/CD team), and TenGen (became MongoDB). Spoke at AIEF2025 on hard lessons from 200+ enterprise GenAI deploym...
 provenance:
-  extracted: 0.90
-  inferred: 0.10
-  ambiguous: 0.00
+  extracted: 0.9
+  inferred: 0.1
+  ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-05
@@ -14,14 +21,15 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/caylent]]"
-    type: implements
-  - target: "[[entities/aws]]"
-    type: related_to
-  - target: "[[entities/nvidia]]"
-    type: related_to
-  - target: "[[references/aief2025-poc-to-prod-hard-lessons-200-enterprise-genai-deployments]]"
-    type: related_to
+- target: '[[entities/caylent]]'
+  type: implements
+- target: '[[entities/aws]]'
+  type: related_to
+- target: '[[entities/nvidia]]'
+  type: related_to
+- target: '[[references/aief2025-poc-to-prod-hard-lessons-200-enterprise-genai-deployments]]'
+  type: related_to
+sources: []
 ---
 
 **Randall Hunt** is an AI engineer and builder who co-founded **[[entities/caylent|Caylent]]** (formerly Kalen), a company he describes as built by hiring "passionate autodidacts with a little bit of product ADHD" who build software for hundreds of customers ranging from Fortune 500 companies to startups. He is active on X at [@JRHunt](https://x.com/JRHunt).

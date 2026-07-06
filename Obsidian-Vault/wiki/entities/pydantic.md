@@ -4,7 +4,7 @@ category: entities
 tags: [library, python, schema-validation, data-models, agent-memory, ai-agents, type-safety]
 summary: "Python library for data validation using type annotations. Foundation for Pydantic AI (type-safe agent framework), Zep entity types, and domain-aware memory schemas."
 sources:
-  - "[[sources/watchv=t5imo5ntyha]]"
+  - "https://www.youtube.com/watch?v=t5imo5ntyha"
   - "AIEF2025 - Human seeded Evals — Samuel Colvin, Pydantic - https://www.youtube.com/watch?v=o_LRtAomJCs"
 provenance:
   extracted: 0.70

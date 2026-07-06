@@ -1,34 +1,35 @@
 ---
-title: "Probabilistic Software"
+title: Probabilistic Software
 category: concepts
 tags:
-  - ai
-  - software-engineering
-  - non-determinism
-  - ai-agents
-  - production-ai
+- ai
+- software-engineering
+- non-determinism
+- ai-agents
+- production-ai
 aliases:
-  - probabilistic systems
-  - non-deterministic software
+- probabilistic systems
+- non-deterministic software
 sources:
-  - "AIEF2025 - Turning Fails into Features: Zapier's Hard-Won Eval Lessons — Rafal Willinski, Vitor Balocco, Zapier - https://www.youtube.com/watch?v=blrovBxxN9o"
+- 'AIEF2025 - Turning Fails into Features: Zapier''s Hard-Won Eval Lessons — Rafal Willinski, Vitor Balocco, Zapier - https://www.youtube.com/watch?v=blrovBxxN9o'
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/data-flywheel|Data Flywheel]]"
-    type: necessitates
-  - target: "[[concepts/evals-testing-pyramid|Evals Testing Pyramid]]"
-    type: requires
-  - target: "[[concepts/emergent-behavior-in-ai|Emergent Behavior in AI]]"
-    type: relates-to
+- target: '[[concepts/data-flywheel|Data Flywheel]]'
+  type: necessitates
+- target: '[[concepts/evals-testing-pyramid|Evals Testing Pyramid]]'
+  type: requires
+- target: '[[concepts/emergent-behavior-in-ai|Emergent Behavior in AI]]'
+  type: relates-to
+summary: Probabilistic Software
 ---
 
 # Probabilistic Software

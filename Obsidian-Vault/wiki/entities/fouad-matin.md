@@ -1,33 +1,34 @@
 ---
-title: "Fouad Matin"
+title: Fouad Matin
 category: entities
 tags:
-  - person
-  - security
-  - openai
-  - agent-robustness
-  - codex
+- person
+- security
+- openai
+- agent-robustness
+- codex
 aliases:
-  - fouad matin
+- fouad matin
 sources:
-  - "AIEF2025 - OpenAI on Securing Code-Executing AI Agents — Fouad Matin (Codex, Agent Robustness) - https://www.youtube.com/watch?v=w7IMuYsBNr8"
+- AIEF2025 - OpenAI on Securing Code-Executing AI Agents — Fouad Matin (Codex, Agent Robustness) - https://www.youtube.com/watch?v=w7IMuYsBNr8
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/openai|OpenAI]]"
-    type: works_at
-  - target: "[[entities/codex|Codex CLI]]"
-    type: works_on
-  - target: "[[concepts/agent-robustness|Agent Robustness]]"
-    type: related_to
+- target: '[[entities/openai|OpenAI]]'
+  type: works_at
+- target: '[[entities/codex|Codex CLI]]'
+  type: works_on
+- target: '[[concepts/agent-robustness|Agent Robustness]]'
+  type: related_to
+summary: Fouad Matin
 ---
 
 # Fouad Matin

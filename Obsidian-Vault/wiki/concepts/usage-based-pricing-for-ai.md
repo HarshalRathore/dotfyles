@@ -1,10 +1,14 @@
 ---
-title: "Usage-Based Pricing for AI"
+title: Usage-Based Pricing for AI
 category: concepts
-tags: [pricing, ai-engineering, monetization, infrastructure]
+tags:
+- pricing
+- ai-engineering
+- monetization
+- infrastructure
 sources:
-  - "[[sources/watchv=1c3szbaxomw]]"
-  - "[[sources/watchv=6wqylqb0odc]]"
+- 'https://www.youtube.com/watch?v=1c3szbaxomw'
+- 'https://www.youtube.com/watch?v=6wqylqb0odc'
 provenance:
   extracted: 0.72
   inferred: 0.23
@@ -15,6 +19,7 @@ lifecycle_changed: 2026-07-03
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+summary: Usage-Based Pricing for AI
 ---
 
 # Usage-Based Pricing for AI

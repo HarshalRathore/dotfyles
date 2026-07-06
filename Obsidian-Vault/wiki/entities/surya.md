@@ -1,32 +1,32 @@
 ---
-title: "Surya OCR"
+title: Surya OCR
 category: entities
 tags:
-  - tool
-  - open-source
-  - ocr
-  - computer-vision
-  - multilingual
-  - ai-model
-  - datalab
+- tool
+- open-source
+- ocr
+- computer-vision
+- multilingual
+- ai-model
+- datalab
 aliases:
-  - Surya
-  - SuryaOCR
+- Surya
+- SuryaOCR
 relationships:
-  - target: "[[entities/datalab|Datalab]]"
-    type: implements
-  - target: "[[entities/vik-paruchuri|Vik Paruchuri]]"
-    type: implements
-  - target: "[[concepts/model-data-application-harmony|Model-Data-Application Harmony]]"
-    type: related_to
+- target: '[[entities/datalab|Datalab]]'
+  type: implements
+- target: '[[entities/vik-paruchuri|Vik Paruchuri]]'
+  type: implements
+- target: '[[concepts/model-data-application-harmony|Model-Data-Application Harmony]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=k-iykdmfkhe]]"
-summary: "Multilingual OCR model by Datalab. Surya OCR3: 500M parameters, 90 languages, 99% accuracy on internal benchmarks including math. Features character-level bounding boxes and PDF text grounding at line level."
+- 'https://www.youtube.com/watch?v=k-iykdmfkhe'
+summary: 'Multilingual OCR model by Datalab. Surya OCR3: 500M parameters, 90 languages, 99% accuracy on internal benchmarks including math. Features character-level bounding boxes and PDF text grounding at l...'
 provenance:
-  extracted: 0.90
-  inferred: 0.10
-  ambiguous: 0.00
-base_confidence: 0.80
+  extracted: 0.9
+  inferred: 0.1
+  ambiguous: 0.0
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting

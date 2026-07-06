@@ -1,30 +1,31 @@
 ---
-title: "TSMC"
+title: TSMC
 tags:
-  - company
-  - taiwan
-  - semiconductor
-  - foundry
-  - chip-manufacturing
+- company
+- taiwan
+- semiconductor
+- foundry
+- chip-manufacturing
 sources:
-  - "AIEF2025 - The Geopolitics of AI Infrastructure - Dylan Patel, SemiAnalysis - https://www.youtube.com/watch?v=Zz4QjZsYWK0"
-summary: "Taiwan Semiconductor Manufacturing Company — the world's leading semiconductor foundry, supplying chips to NVIDIA, Apple, and (through intermediaries) Huawei."
+- AIEF2025 - The Geopolitics of AI Infrastructure - Dylan Patel, SemiAnalysis - https://www.youtube.com/watch?v=Zz4QjZsYWK0
+summary: Taiwan Semiconductor Manufacturing Company — the world's leading semiconductor foundry, supplying chips to NVIDIA, Apple, and (through intermediaries) Huawei.
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
-updated: 2026-07-04T23:59:00Z
+updated: 2026-07-04 23:59:00+00:00
 relationships:
-  - target: "[[entities/nvidia|NVIDIA]]"
-    type: supplies
-  - target: "[[entities/huawei|Huawei]]"
-    type: supplies
-  - target: "[[concepts/china-us-ai-rivalry|China-US AI Rivalry]]"
-    type: central_to
+- target: '[[entities/nvidia|NVIDIA]]'
+  type: supplies
+- target: '[[entities/huawei|Huawei]]'
+  type: supplies
+- target: '[[concepts/china-us-ai-rivalry|China-US AI Rivalry]]'
+  type: central_to
+category: entities
 ---
 
 # TSMC

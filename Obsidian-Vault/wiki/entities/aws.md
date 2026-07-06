@@ -1,17 +1,26 @@
 ---
 type: entity
-title: "AWS"
+title: AWS
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-07-04
+- 2026-07-04
 sources:
-  - "[[sources/introduction_804367]]"
-  - "AIEF2025 - Building Agents at Cloud Scale — Antje Barth, AWS - https://www.youtube.com/watch?v=WJjInLeaJjo"
+- '[[sources/introduction_804367]]'
+- AIEF2025 - Building Agents at Cloud Scale — Antje Barth, AWS - https://www.youtube.com/watch?v=WJjInLeaJjo
 tags:
-  - organization
+- organization
 aliases:
-  - Amazon Cloud
+- Amazon Cloud
+category: entities
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: AWS
 ---
 # AWS
 

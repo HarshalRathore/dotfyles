@@ -1,20 +1,20 @@
 ---
-title: "Agent Preparedness Framework"
+title: Agent Preparedness Framework
 category: concepts
 tags:
-  - agent-security
-  - safety
-  - guardrails
-  - openai
-  - framework
+- agent-security
+- safety
+- guardrails
+- openai
+- framework
 aliases:
-  - agent safety framework
-  - preparedness framework
+- agent safety framework
+- preparedness framework
 sources:
-  - "AIEF2025 - OpenAI on Securing Code-Executing AI Agents — Fouad Matin (Codex, Agent Robustness) - https://www.youtube.com/watch?v=w7IMuYsBNr8"
+- AIEF2025 - OpenAI on Securing Code-Executing AI Agents — Fouad Matin (Codex, Agent Robustness) - https://www.youtube.com/watch?v=w7IMuYsBNr8
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.75
 lifecycle: draft
@@ -23,14 +23,15 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/agent-sandboxing|Agent Sandboxing]]"
-    type: includes
-  - target: "[[concepts/prompt-injection|Prompt Injection]]"
-    type: defends_against
-  - target: "[[concepts/holistic-ai-sdlc|Holistic AI SDLC]]"
-    type: related_to
-  - target: "[[concepts/red-teaming|Red Teaming]]"
-    type: related_to
+- target: '[[concepts/agent-sandboxing|Agent Sandboxing]]'
+  type: includes
+- target: '[[concepts/prompt-injection|Prompt Injection]]'
+  type: defends_against
+- target: '[[concepts/holistic-ai-sdlc|Holistic AI SDLC]]'
+  type: related_to
+- target: '[[concepts/red-teaming|Red Teaming]]'
+  type: related_to
+summary: Agent Preparedness Framework
 ---
 
 # Agent Preparedness Framework

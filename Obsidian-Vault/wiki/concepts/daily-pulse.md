@@ -1,23 +1,37 @@
 ---
 title: Daily Pulse
-tags: [summarization, workspace-synthesis, ai, communication, podcast]
-aliases: [daily pulse, weekly pulse, workspace pulse, ai summary]
-summary: "An AI-generated daily or weekly synthesis of workspace activity — summarizing updates, decisions, and progress, optionally delivered as an audio podcast for passive consumption."
-sources: ["[[sources/aief2025-building-the-platform-for-agent-coordination-—-tom-moor]]", "[[sources/watchv=ug9iadmi2dg]]"]
+tags:
+- summarization
+- workspace-synthesis
+- ai
+- communication
+- podcast
+aliases:
+- daily pulse
+- weekly pulse
+- workspace pulse
+- ai summary
+summary: An AI-generated daily or weekly synthesis of workspace activity — summarizing updates, decisions, and progress, optionally delivered as an audio podcast for passive consumption.
+sources:
+- '[[sources/aief2025-building-the-platform-for-agent-coordination-—-tom-moor]]'
+- 'https://www.youtube.com/watch?v=ug9iadmi2dg'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
-created: 2026-07-04T00:00:00Z
-updated: 2026-07-04T00:00:00Z
+created: 2026-07-04 00:00:00+00:00
+updated: 2026-07-04 00:00:00+00:00
 relationships:
-  - target: [[concepts/summarization|Summarization]]
-    type: uses
-  - target: [[concepts/voice-agent-prompting|Voice Agent Prompting]]
-    type: related_to
+- target:
+  - - concepts/summarization|Summarization
+  type: uses
+- target:
+  - - concepts/voice-agent-prompting|Voice Agent Prompting
+  type: related_to
+category: concepts
 ---
 
 # Daily Pulse

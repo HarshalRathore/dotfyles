@@ -1,16 +1,17 @@
 ---
-summary: "Local-first Twitter/X archive and operator console. Stores tweets, DMs, likes, and bookmarks in local SQLite with a CLI and web UI. Fully offline-capable via archive import."
-title: "birdclaw"
+summary: Local-first Twitter/X archive and operator console. Stores tweets, DMs, likes, and bookmarks in local SQLite with a CLI and web UI. Fully offline-capable via archive import.
+title: birdclaw
 type: entity
 created: 2026-07-02
 updated: 2026-07-02
 tags:
-  - tool
-  - twitter
-  - open-source
-  - sqlite
-  - privacy
-sources: ["[[sources/birdclaw]]"]
+- tool
+- twitter
+- open-source
+- sqlite
+- privacy
+sources:
+- '[[entities/birdclaw]]'
 base_confidence: 0.55
 lifecycle: draft
 lifecycle_changed: 2026-07-02
@@ -19,10 +20,11 @@ visibility: public
 provenance:
   extracted: 0.75
   inferred: 0.25
-  ambiguous: 0.00
+  ambiguous: 0.0
 aliases:
-  - BirdClaw
-  - birdclaw tool
+- BirdClaw
+- birdclaw tool
+category: entities
 ---
 
 # birdclaw

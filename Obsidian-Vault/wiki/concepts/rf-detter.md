@@ -4,7 +4,7 @@ category: concepts
 tags: [rf-detter, object-detection, transformer, dinov2, backbone, real-time, roboflow]
 summary: Roboflow's detection transformer model that swaps DETR's backbone with DINOv2's pre-trained backbone for real-time object detection, achieving improvements on COCO and massive gains on RF100VL.
 sources:
-  - "[[sources/watchv=iqc05ecvnye]]"
+  - "https://www.youtube.com/watch?v=iqc05ecvnye"
 provenance:
   extracted: 0.90
   inferred: 0.07

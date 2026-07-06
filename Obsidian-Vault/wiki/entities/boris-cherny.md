@@ -1,26 +1,27 @@
 ---
-title: "Boris Cherny"
+title: Boris Cherny
 tags:
-  - person
-  - anthropic
-  - claude-code
-  - speaker
-  - aief2025
-  - javascript
-  - node
+- person
+- anthropic
+- claude-code
+- speaker
+- aief2025
+- javascript
+- node
 sources:
-  - "[[sources/watchv=lue8k2jqfkk]]"
-  - "[[sources/borisyankov]]"
-summary: "Member of Technical Staff at Anthropic and creator of Claude Code. Known in the JavaScript ecosystem for Node.js tooling and the ts-node project."
+- 'https://www.youtube.com/watch?v=lue8k2jqfkk'
+- '[[sources/borisyankov]]'
+summary: Member of Technical Staff at Anthropic and creator of Claude Code. Known in the JavaScript ecosystem for Node.js tooling and the ts-node project.
 provenance:
   extracted: 0.95
   inferred: 0.05
-  ambiguous: 0.00
+  ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+category: entities
 ---
 
 # Boris Cherny

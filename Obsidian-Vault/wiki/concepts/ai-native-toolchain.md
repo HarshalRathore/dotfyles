@@ -1,38 +1,39 @@
 ---
-title: "AI-Native Toolchain"
+title: AI-Native Toolchain
 tags:
-  - ai
-  - developer-tools
-  - software-engineering
-  - workflow
-  - aief2025
+- ai
+- developer-tools
+- software-engineering
+- workflow
+- aief2025
 aliases:
-  - AI-native toolchain
-  - AI-native developer workflow
+- AI-native toolchain
+- AI-native developer workflow
 relationships:
-  - target: "[[concepts/developer-outer-loop]]"
-    type: extends
-  - target: "[[concepts/self-driving-code-review]]"
-    type: implements
-  - target: "[[concepts/ai-teammates-insufficient]]"
-    type: related_to
-  - target: "[[concepts/ai-powered-devops]]"
-    type: related_to
-  - target: "[[concepts/small-ai-teams|Small AI Teams with Huge Impact]]"
-    type: related_to
+- target: '[[concepts/developer-outer-loop]]'
+  type: extends
+- target: '[[concepts/self-driving-code-review]]'
+  type: implements
+- target: '[[concepts/ai-teammates-insufficient]]'
+  type: related_to
+- target: '[[concepts/ai-powered-devops]]'
+  type: related_to
+- target: '[[concepts/small-ai-teams|Small AI Teams with Huge Impact]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=h6mrr5nbtza]]"
-  - "[[sources/watchv=k-iykdmfkhe]]"
-summary: "The entire developer toolchain — testing, review, merge, deploy — must be designed for the AI-accelerated inner loop. AI-native means more than AI teammates; it means re-architecting the outer loop from the ground up."
+- 'https://www.youtube.com/watch?v=h6mrr5nbtza'
+- 'https://www.youtube.com/watch?v=k-iykdmfkhe'
+summary: The entire developer toolchain — testing, review, merge, deploy — must be designed for the AI-accelerated inner loop. AI-native means more than AI teammates; it means re-architecting the outer loop...
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.65
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+category: concepts
 ---
 
 # AI-Native Toolchain

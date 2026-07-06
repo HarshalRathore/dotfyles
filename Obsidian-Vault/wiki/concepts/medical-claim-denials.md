@@ -10,7 +10,7 @@ tags:
   - insurance
 summary: "Rejection of insurance claims by payers, representing a major source of healthcare friction. Most denials are technical errors, not medical disagreements, making them preventable with AI."
 sources:
-  - "[[sources/watchv=tquusn1qsws]]"
+  - "https://www.youtube.com/watch?v=tquusn1qsws"
 provenance:
   extracted: 0.9
   inferred: 0.1

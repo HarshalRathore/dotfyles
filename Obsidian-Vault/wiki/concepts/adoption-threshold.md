@@ -1,33 +1,34 @@
 ---
-title: "Adoption Threshold"
+title: Adoption Threshold
 category: concepts
 tags:
-  - ai-adoption
-  - organizational-change
-  - ai-native
-  - aief2025
+- ai-adoption
+- organizational-change
+- ai-native
+- aief2025
 aliases:
-  - adoption threshold
-  - 100% adoption
-  - full adoption threshold
-summary: "10x performance gap between 90% and 100% AI adoption — partial adoption drags the entire org back to slower traditional workflows."
+- adoption threshold
+- 100% adoption
+- full adoption threshold
+summary: 10x performance gap between 90% and 100% AI adoption — partial adoption drags the entire org back to slower traditional workflows.
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/ai-native-company|AI-Native Company]]"
-    type: extends
-  - target: "[[concepts/compounding-engineering|Compounding Engineering]]"
-    type: related_to
-  - target: "[[concepts/high-trust-culture|High-Trust Culture]]"
-    type: related_to
+- target: '[[concepts/ai-native-company|AI-Native Company]]'
+  type: extends
+- target: '[[concepts/compounding-engineering|Compounding Engineering]]'
+  type: related_to
+- target: '[[concepts/high-trust-culture|High-Trust Culture]]'
+  type: related_to
+sources: []
 ---
 
 # Adoption Threshold

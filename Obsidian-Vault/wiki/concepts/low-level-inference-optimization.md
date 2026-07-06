@@ -4,7 +4,7 @@ category: concepts
 tags: [inference-optimization, kernel-tuning, triton-compiler, hardware-acceleration, ml-infrastructure]
 summary: Dedicated engineering teams focused on optimizing low-level operations within deep learning frameworks for production inference performance across heterogeneous hardware.
 sources:
-  - "[[sources/watchv=ey4o9m6aswi]]"
+  - "https://www.youtube.com/watch?v=ey4o9m6aswi"
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -16,11 +16,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[inference-serving]]"
+  - target: "[[concepts/inference-serving]]"
     type: related_to
-  - target: "[[pytorch]]"
+  - target: "[[entities/pytorch]]"
     type: related_to
-  - target: "[[gpu-scaling]]"
+  - target: "[[concepts/gpu-scaling]]"
     type: related_to
 ---
 

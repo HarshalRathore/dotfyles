@@ -1,31 +1,32 @@
 ---
-title: "AIEF2025 — How agents will unlock the $500B promise of AI"
+title: AIEF2025 — How agents will unlock the $500B promise of AI
 category: references
 tags:
-  - aief2025
-  - agent-strategy
-  - build-vs-buy
-  - enterprise-ai
-  - vibe-coding
-  - production-agents
+- aief2025
+- agent-strategy
+- build-vs-buy
+- enterprise-ai
+- vibe-coding
+- production-agents
 sources:
-  - "[[sources/watchv=lqq_lcbajcc]]"
+- 'https://www.youtube.com/watch?v=lqq_lcbajcc'
 relationships:
-  - target: "[[entities/donald-hruska|Donald Hruska]]"
-    type: related_to
-  - target: "[[entities/retool|Retool]]"
-    type: related_to
-  - target: "[[concepts/build-vs-buy-agents|Build vs Buy Agents]]"
-    type: defines
+- target: '[[entities/donald-hruska|Donald Hruska]]'
+  type: related_to
+- target: '[[entities/retool|Retool]]'
+  type: related_to
+- target: '[[concepts/build-vs-buy-agents|Build vs Buy Agents]]'
+  type: defines
 provenance:
   extracted: 0.95
   inferred: 0.03
   ambiguous: 0.02
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: AIEF2025 — How agents will unlock the $500B promise of AI
 ---
 
 # AIEF2025 — How agents will unlock the $500B promise of AI

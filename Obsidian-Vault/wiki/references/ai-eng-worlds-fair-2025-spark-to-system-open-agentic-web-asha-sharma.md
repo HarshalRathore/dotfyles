@@ -1,16 +1,16 @@
 ---
-title: "Spark to System: Building the Open Agentic Web — Asha Sharma, Microsoft"
+title: 'Spark to System: Building the Open Agentic Web — Asha Sharma, Microsoft'
 tags:
-  - reference
-  - talk
-  - ai-engineer
-  - microsoft
-  - agents
-  - agentic-web
-  - ai-eng-worlds-fair-2025
+- reference
+- talk
+- ai-engineer
+- microsoft
+- agents
+- agentic-web
+- ai-eng-worlds-fair-2025
 sources:
-  - "[[sources/watchv=7hrw6rtxahc]]"
-summary: "Asha Sharma (Microsoft) lays out the vision for the open agentic web — agents interacting across clouds, companies, and devices — and demonstrates Microsoft's Foundry platform for building, evaluating, and deploying multi-agent systems from cloud to edge."
+- 'https://www.youtube.com/watch?v=7hrw6rtxahc'
+summary: Asha Sharma (Microsoft) lays out the vision for the open agentic web — agents interacting across clouds, companies, and devices — and demonstrates Microsoft's Foundry platform for building, evaluat...
 provenance:
   extracted: 0.82
   inferred: 0.15
@@ -20,6 +20,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: references
 ---
 
 # Spark to System: Building the Open Agentic Web — Asha Sharma, Microsoft

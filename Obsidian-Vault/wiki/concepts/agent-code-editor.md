@@ -2,7 +2,8 @@
 title: "Agent Code Editor"
 category: concepts
 tags: [agent-tools, code-editor, diff-editing, token-efficiency, ast]
-summary: How coding agents edit source code: diff-based (find-and-replace) editing vs full-file regeneration. Diff-based editing saves tokens on large files. AST navigation may supplement text-based editing.
+summary: >-
+  How coding agents edit source code: diff-based (find-and-replace) editing vs full-file regeneration. Diff-based editing saves tokens on large files. AST navigation may supplement text-based editing.
 sources:
   - "AIEF2025 - Software Development Agents: What Works and What Doesn't - Robert Brennan, OpenHands - https://www.youtube.com/watch?v=o_hhkJtlbSs"
 provenance:

@@ -1,16 +1,16 @@
 ---
-title: "Voice Conversation Design"
+title: Voice Conversation Design
 category: concepts
 tags:
-  - voice-ai
-  - conversation-design
-  - ux
-  - latency
-  - user-experience
-summary: Design principles for voice agent conversations that differ fundamentally from text chat: latency management, answer chunking, and guiding user interaction patterns.
+- voice-ai
+- conversation-design
+- ux
+- latency
+- user-experience
+summary: 'Design principles for voice agent conversations that differ fundamentally from text chat: latency management, answer chunking, and guiding user interaction patterns.'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.75
 lifecycle: draft
@@ -19,12 +19,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/voice-ai-latency]]"
-    type: uses
-  - target: "[[concepts/voice-agents]]"
-    type: implements
-  - target: "[[concepts/voice-as-ui]]"
-    type: extends
+- target: '[[concepts/voice-ai-latency]]'
+  type: uses
+- target: '[[concepts/voice-agents]]'
+  type: implements
+- target: '[[concepts/voice-as-ui]]'
+  type: extends
+sources: []
 ---
 
 # Voice Conversation Design

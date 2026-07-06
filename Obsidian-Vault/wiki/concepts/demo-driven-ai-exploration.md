@@ -8,7 +8,7 @@ relationships:
   - target: "[[concepts/latent-model-capabilities]]"
     type: extends
 sources:
-  - "[[sources/watchv=0f8mngpuycy]]"
+  - "https://www.youtube.com/watch?v=0f8mngpuycy"
 summary: "The practice of building demos as the primary methodology for discovering what AI models can do, rather than reasoning about capabilities theoretically."
 provenance:
   extracted: 0.55

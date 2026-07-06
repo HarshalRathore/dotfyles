@@ -1,25 +1,29 @@
 ---
-title: "Peer Programming"
+title: Peer Programming
 tags:
-  - concept
-  - ai
-  - development
-  - copilot
-  - agent
-  - workflow
-aliases: [AI as teammate, copilot as peer, AI peer programming]
+- concept
+- ai
+- development
+- copilot
+- agent
+- workflow
+aliases:
+- AI as teammate
+- copilot as peer
+- AI peer programming
 sources:
-  - "[[sources/watchv=7hrw6rtxahc]]"
-summary: "Evolution from pair programming (sidekick autocomplete) to peer programming — AI as a genuine teammate assigned tasks, operating in its own branch, and running tests to completion autonomously."
+- 'https://www.youtube.com/watch?v=7hrw6rtxahc'
+summary: Evolution from pair programming (sidekick autocomplete) to peer programming — AI as a genuine teammate assigned tasks, operating in its own branch, and running tests to completion autonomously.
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Peer Programming

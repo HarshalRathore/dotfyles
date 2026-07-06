@@ -1,18 +1,18 @@
 ---
-title: "Semantic End-of-Utterance Detection"
+title: Semantic End-of-Utterance Detection
 tags:
-  - voice
-  - ai
-  - speech
-  - vad
-  - turn-taking
-  - semantics
-  - nlp
+- voice
+- ai
+- speech
+- vad
+- turn-taking
+- semantics
+- nlp
 sources:
-  - "[[sources/watchv=1v9zbizkliy]]"
-summary: "Models that augment traditional Voice Activity Detection by analyzing semantics, syntax, and prosody to predict when a speaker has truly finished their turn, reducing interruptions."
+- 'https://www.youtube.com/watch?v=1v9zbizkliy'
+summary: Models that augment traditional Voice Activity Detection by analyzing semantics, syntax, and prosody to predict when a speaker has truly finished their turn, reducing interruptions.
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.42
@@ -20,6 +20,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Semantic End-of-Utterance Detection

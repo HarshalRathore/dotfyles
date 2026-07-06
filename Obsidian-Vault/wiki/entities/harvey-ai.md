@@ -1,18 +1,19 @@
 ---
-title: "Harvey"
+title: Harvey
 tags:
-  - organization
-  - ai
-  - legal
-  - enterprise
-aliases: [Harvey AI]
+- organization
+- ai
+- legal
+- enterprise
+aliases:
+- Harvey AI
 sources:
-  - "[[sources/watchv=3mzs5gnelzm]]"
-  - "[[sources/watchv=w1mizchnkfa]]"
-summary: "AI platform for the legal industry. Reached $70M+ ARR within two years. OpenAI was its seed investor. AI is now essential for competitiveness in legal. Processes legal data at three scales using LanceDB infrastructure."
+- 'https://www.youtube.com/watch?v=3mzs5gnelzm'
+- 'https://www.youtube.com/watch?v=w1mizchnkfa'
+summary: AI platform for the legal industry. Reached $70M+ ARR within two years. OpenAI was its seed investor. AI is now essential for competitiveness in legal. Processes legal data at three scales using La...
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.65
 lifecycle: draft
@@ -20,10 +21,11 @@ tier: supporting
 created: 2026-07-03
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/lance-db|LanceDB]]"
-    type: uses
-  - target: "[[entities/calvin-qi|Calvin Qi]]"
-    type: related_to
+- target: '[[entities/lance-db|LanceDB]]'
+  type: uses
+- target: '[[entities/calvin-qi|Calvin Qi]]'
+  type: related_to
+category: entities
 ---
 
 # Harvey

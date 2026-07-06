@@ -1,38 +1,39 @@
 ---
-title: "Vibe Engineering"
+title: Vibe Engineering
 category: concepts
 tags:
-  - vibe-engineering
-  - vibe-coding
-  - ai-coding
-  - agentic-coding
-  - code-scrutiny
-  - prompt-engineering
+- vibe-engineering
+- vibe-coding
+- ai-coding
+- agentic-coding
+- code-scrutiny
+- prompt-engineering
 sources:
-  - "[[sources/watchv=jv-wy5pxxlo]]"
-  - "[[sources/watchv=lqq_lcbajcc]]"
+- 'https://www.youtube.com/watch?v=jv-wy5pxxlo'
+- 'https://www.youtube.com/watch?v=lqq_lcbajcc'
 relationships:
-  - target: "[[concepts/vibe-coding-origins]]"
-    type: extends
-  - target: "[[concepts/burden-of-generated-code]]"
-    type: contradicts
-  - target: "[[concepts/code-review-primary-skill]]"
-    type: implements
-  - target: "[[concepts/agent-loop|Agent Loop]]"
-    type: related_to
-  - target: "[[concepts/vibe-coding-as-agentic-ai|Vibe Coding as Agentic AI]]"
-    type: related_to
-  - target: "[[concepts/voice-dictation-ai-coding]]"
-    type: uses
+- target: '[[concepts/vibe-coding-origins]]'
+  type: extends
+- target: '[[concepts/burden-of-generated-code]]'
+  type: contradicts
+- target: '[[concepts/code-review-primary-skill]]'
+  type: implements
+- target: '[[concepts/agent-loop|Agent Loop]]'
+  type: related_to
+- target: '[[concepts/vibe-coding-as-agentic-ai|Vibe Coding as Agentic AI]]'
+  type: related_to
+- target: '[[concepts/voice-dictation-ai-coding]]'
+  type: uses
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.78
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Vibe Engineering
 ---
 
 # Vibe Engineering

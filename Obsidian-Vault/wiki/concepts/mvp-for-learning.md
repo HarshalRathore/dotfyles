@@ -1,21 +1,24 @@
 ---
-title: "MVP for Learning"
+title: MVP for Learning
 tags:
-  - concept
-  - ai
-  - methodology
-  - product-development
-aliases: [minimum viable product for learning, learning MVP, experimental MVP]
+- concept
+- ai
+- methodology
+- product-development
+aliases:
+- minimum viable product for learning
+- learning MVP
+- experimental MVP
 relationships:
-  - target: "[[concepts/ritualized-discovery]]"
-    type: related_to
-  - target: "[[concepts/ai-first-transformation]]"
-    type: related_to
+- target: '[[concepts/ritualized-discovery]]'
+  type: related_to
+- target: '[[concepts/ai-first-transformation]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=3ygrcgzj3yc]]"
-summary: "Using minimum viable products not just to launch quickly but to validate strategic direction — embracing failure as a learning mechanism that drives clarity through ambiguity."
+- 'https://www.youtube.com/watch?v=3ygrcgzj3yc'
+summary: Using minimum viable products not just to launch quickly but to validate strategic direction — embracing failure as a learning mechanism that drives clarity through ambiguity.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.18
   ambiguous: 0.02
 base_confidence: 0.55
@@ -23,6 +26,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # MVP for Learning

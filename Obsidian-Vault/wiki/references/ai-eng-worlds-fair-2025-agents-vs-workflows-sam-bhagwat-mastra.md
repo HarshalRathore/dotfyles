@@ -1,16 +1,16 @@
 ---
-title: "Agents vs Workflows: Why Not Both? — Sam Bhagwat, Mastra.ai"
+title: 'Agents vs Workflows: Why Not Both? — Sam Bhagwat, Mastra.ai'
 tags:
-  - reference
-  - talk
-  - ai-engineer
-  - agents
-  - workflow
+- reference
+- talk
+- ai-engineer
+- agents
+- workflow
 sources:
-  - "[[sources/watchv=8sujeqqnclw]]"
-summary: "AI Engineer World's Fair 2025 talk by Sam Bhagwat (Mastra.ai) arguing for composing agents and workflows together, rather than treating them as opposing paradigms. Covers composition patterns, code readability, and the power-vs-control trade-off in production AI systems."
+- 'https://www.youtube.com/watch?v=8sujeqqnclw'
+summary: AI Engineer World's Fair 2025 talk by Sam Bhagwat (Mastra.ai) arguing for composing agents and workflows together, rather than treating them as opposing paradigms. Covers composition patterns, code...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.18
   ambiguous: 0.02
 base_confidence: 0.65
@@ -18,6 +18,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: references
 ---
 
 # Agents vs Workflows: Why Not Both?

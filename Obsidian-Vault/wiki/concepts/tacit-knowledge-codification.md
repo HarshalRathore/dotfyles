@@ -1,32 +1,33 @@
 ---
-title: "Tacit Knowledge Codification"
+title: Tacit Knowledge Codification
 category: concepts
 tags:
-  - knowledge-management
-  - ai-native
-  - organizational-learning
-  - aief2025
+- knowledge-management
+- ai-native
+- organizational-learning
+- aief2025
 aliases:
-  - tacit knowledge codification
-  - codifying tacit knowledge
-summary: "The process of converting tacit knowledge (intuitions, patterns, and decisions accumulated by individual engineers) into explicit, shareable artifacts like prompts, sub-agents, and slash commands."
+- tacit knowledge codification
+- codifying tacit knowledge
+summary: The process of converting tacit knowledge (intuitions, patterns, and decisions accumulated by individual engineers) into explicit, shareable artifacts like prompts, sub-agents, and slash commands.
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/compounding-engineering|Compounding Engineering]]"
-    type: implements
-  - target: "[[concepts/level-of-stack|Level of Stack]]"
-    type: related_to
-  - target: "[[concepts/agent-workflow-loop|Agent Workflow Loop]]"
-    type: related_to
+- target: '[[concepts/compounding-engineering|Compounding Engineering]]'
+  type: implements
+- target: '[[concepts/level-of-stack|Level of Stack]]'
+  type: related_to
+- target: '[[concepts/agent-workflow-loop|Agent Workflow Loop]]'
+  type: related_to
+sources: []
 ---
 
 # Tacit Knowledge Codification

@@ -1,27 +1,35 @@
 ---
-title: "Cross-Encoder Relevance Model"
+title: Cross-Encoder Relevance Model
 category: concepts
-tags: [cross-encoder, relevance-model, search-relevance, llm, classification, five-point-scale, aief2025]
+tags:
+- cross-encoder
+- relevance-model
+- search-relevance
+- llm
+- classification
+- five-point-scale
+- aief2025
 sources:
-  - "AIEF2025 - What We Learned from Using LLMs in LLMs in Pinterest — Mukuntha Narayanan, Han Wang, Pinterest - https://www.youtube.com/watch?v=XdAWgO11zuk"
+- AIEF2025 - What We Learned from Using LLMs in LLMs in Pinterest — Mukuntha Narayanan, Han Wang, Pinterest - https://www.youtube.com/watch?v=XdAWgO11zuk
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/bi-encoder-search|Bi-Encoder Search]]"
-    type: contrasted_with
-  - target: "[[concepts/model-distillation|Model Distillation]]"
-    type: used_as_teacher_in
-  - target: "[[concepts/re-ranking|Re-ranking]]"
-    type: applied_in
-  - target: "[[concepts/semantic-similarity|Semantic Similarity]]"
-    type: extends
+- target: '[[concepts/bi-encoder-search|Bi-Encoder Search]]'
+  type: contrasted_with
+- target: '[[concepts/model-distillation|Model Distillation]]'
+  type: used_as_teacher_in
+- target: '[[concepts/re-ranking|Re-ranking]]'
+  type: applied_in
+- target: '[[concepts/semantic-similarity|Semantic Similarity]]'
+  type: extends
+summary: Cross-Encoder Relevance Model
 ---
 
 # Cross-Encoder Relevance Model

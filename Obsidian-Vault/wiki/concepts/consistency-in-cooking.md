@@ -10,7 +10,7 @@ tags:
   - blind-taste-tests
 summary: The concept that cooking consistency is measured by human sensory standards, not chemical precision — evaluated via blind taste tests comparing robot recreation vs human second-attempt reproduction.
 sources:
-  - "[[sources/watchv=mbwgiwjdlso]]"
+  - "https://www.youtube.com/watch?v=mbwgiwjdlso"
 provenance:
   extracted: 0.85
   inferred: 0.10

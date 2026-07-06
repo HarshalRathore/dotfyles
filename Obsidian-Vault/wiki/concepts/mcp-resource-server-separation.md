@@ -1,31 +1,32 @@
 ---
-title: "MCP Resource Server Separation"
+title: MCP Resource Server Separation
 category: concepts
 tags:
-  - mcp
-  - auth
-  - oauth
-  - architecture
-  - separation-of-concerns
+- mcp
+- auth
+- oauth
+- architecture
+- separation-of-concerns
 sources:
-  - "[[sources/watchv=phbghukam-w]]"
+- 'https://www.youtube.com/watch?v=phbghukam-w'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/mcp-auth-spec-evolution]]"
-    type: related_to
-  - target: "[[concepts/mcp-protected-servers]]"
-    type: related_to
-  - target: "[[concepts/oauth-2.0]]"
-    type: uses
+- target: '[[concepts/mcp-auth-spec-evolution]]'
+  type: related_to
+- target: '[[concepts/mcp-protected-servers]]'
+  type: related_to
+- target: '[[concepts/oauth-2.0]]'
+  type: uses
+summary: MCP Resource Server Separation
 ---
 
 # MCP Resource Server Separation

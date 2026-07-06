@@ -1,9 +1,9 @@
 ---
-title: "Domain Expert Product Manager"
+title: Domain Expert Product Manager
 category: concepts
-summary: "A domain expert fills the central PM role in an AI team building vertical apps. Bridges domain knowledge and AI design, enabling rapid iteration of domain insights into pipeline improvements."
+summary: A domain expert fills the central PM role in an AI team building vertical apps. Bridges domain knowledge and AI design, enabling rapid iteration of domain insights into pipeline improvements.
 sources:
-  - "[[sources/watchv=mrm7oa3jsfs]]"
+- 'https://www.youtube.com/watch?v=mrm7oa3jsfs'
 provenance:
   extracted: 0.85
   inferred: 0.15
@@ -14,12 +14,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/domain-native-llm-application]]"
-    type: implements
-  - target: "[[concepts/domain-intelligence-engine]]"
-    type: enables
-  - target: "[[concepts/failure-mode-ontology]]"
-    type: co-develops
+- target: '[[concepts/domain-native-llm-application]]'
+  type: implements
+- target: '[[concepts/domain-intelligence-engine]]'
+  type: enables
+- target: '[[concepts/failure-mode-ontology]]'
+  type: co-develops
+tags: []
 ---
 
 # Domain Expert Product Manager

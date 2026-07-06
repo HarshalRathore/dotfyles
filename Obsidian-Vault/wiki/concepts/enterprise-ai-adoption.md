@@ -1,37 +1,38 @@
 ---
-title: "Enterprise AI Adoption"
+title: Enterprise AI Adoption
 category: concepts
 tags:
-  - enterprise-ai
-  - adoption
-  - enterprise
-  - ai-implementation
+- enterprise-ai
+- adoption
+- enterprise
+- ai-implementation
 aliases:
-  - Enterprise AI Adoption Trends
+- Enterprise AI Adoption Trends
 sources:
-  - "AIEF2025 - AI Consulting in Practice – NLW, Superintelligent, @AIDailyBrief - https://www.youtube.com/watch?v=ehQFj6VmuI8"
-  - "KPMG Quarterly Pulse Survey"
-  - "McKinsey State of AI Study"
-  - "Deloitte AI Survey"
+- AIEF2025 - AI Consulting in Practice – NLW, Superintelligent, @AIDailyBrief - https://www.youtube.com/watch?v=ehQFj6VmuI8
+- KPMG Quarterly Pulse Survey
+- McKinsey State of AI Study
+- Deloitte AI Survey
 provenance:
-  extracted: 0.70
-  inferred: 0.20
-  ambiguous: 0.10
-base_confidence: 0.80
+  extracted: 0.7
+  inferred: 0.2
+  ambiguous: 0.1
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: core
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/agent-adoption-surge|Agent Adoption Surge]]"
-    type: contains
-  - target: "[[concepts/pilot-to-scale-bottleneck|Pilot-to-Scale Bottleneck]]"
-    type: related_to
-  - target: "[[concepts/high-performer-bifurcation|High Performer Bifurcation]]"
-    type: related_to
-  - target: "[[concepts/ai-spend-trends|AI Spend Trends]]"
-    type: related_to
+- target: '[[concepts/agent-adoption-surge|Agent Adoption Surge]]'
+  type: contains
+- target: '[[concepts/pilot-to-scale-bottleneck|Pilot-to-Scale Bottleneck]]'
+  type: related_to
+- target: '[[concepts/high-performer-bifurcation|High Performer Bifurcation]]'
+  type: related_to
+- target: '[[concepts/ai-spend-trends|AI Spend Trends]]'
+  type: related_to
+summary: Enterprise AI Adoption
 ---
 
 # Enterprise AI Adoption

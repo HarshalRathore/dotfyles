@@ -1,22 +1,22 @@
 ---
-title: "Chin Keong Lam"
+title: Chin Keong Lam
 tags:
-  - person
-  - speaker
-  - ai-engineering
-  - patho-ai
-  - aief2025
-  - kag
+- person
+- speaker
+- ai-engineering
+- patho-ai
+- aief2025
+- kag
 aliases:
-  - Ching-Kyong Lam
-  - Chin Keong Lam
-  - CK Lam
+- Ching-Kyong Lam
+- Chin Keong Lam
+- CK Lam
 sources:
-  - "[[sources/watchv=9aqovt8lnmi]]"
-summary: "Founder and CEO of Patho AI. Presented on Wisdom-Driven Knowledge Augmented Generation (KAG) at AI Engineer World's Fair 2025, advocating structured knowledge graphs over vector RAG for complex analytical queries."
+- 'https://www.youtube.com/watch?v=9aqovt8lnmi'
+summary: Founder and CEO of Patho AI. Presented on Wisdom-Driven Knowledge Augmented Generation (KAG) at AI Engineer World's Fair 2025, advocating structured knowledge graphs over vector RAG for complex ana...
 provenance:
   extracted: 0.65
-  inferred: 0.30
+  inferred: 0.3
   ambiguous: 0.05
 base_confidence: 0.35
 lifecycle: draft
@@ -24,12 +24,13 @@ tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
 relationships:
-  - target: "[[entities/patho-ai|Patho AI]]"
-    type: related_to
-  - target: "[[concepts/kag-knowledge-augmented-generation|KAG (Knowledge Augmented Generation)]]"
-    type: related_to
-  - target: "[[concepts/wisdom-graph|Wisdom Graph]]"
-    type: related_to
+- target: '[[entities/patho-ai|Patho AI]]'
+  type: related_to
+- target: '[[concepts/kag-knowledge-augmented-generation|KAG (Knowledge Augmented Generation)]]'
+  type: related_to
+- target: '[[concepts/wisdom-graph|Wisdom Graph]]'
+  type: related_to
+category: entities
 ---
 
 # Chin Keong Lam

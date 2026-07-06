@@ -1,22 +1,23 @@
 ---
-title: "Forrest Brazeal"
+title: Forrest Brazeal
 tags:
-  - person
-  - speaker
-  - cloud
-  - developer-relations
+- person
+- speaker
+- cloud
+- developer-relations
 sources:
-  - "[[sources/watchv=6nir_cypglk]]"
-summary: "Cloud educator, speaker, and AI/developer tooling commentator. Presented at AI Engineer World's Fair 2025 on legacy code navigation with Augment Agent."
+- 'https://www.youtube.com/watch?v=6nir_cypglk'
+summary: Cloud educator, speaker, and AI/developer tooling commentator. Presented at AI Engineer World's Fair 2025 on legacy code navigation with Augment Agent.
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Forrest Brazeal

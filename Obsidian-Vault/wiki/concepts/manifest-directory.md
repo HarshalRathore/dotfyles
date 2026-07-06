@@ -1,17 +1,26 @@
 ---
 type: concept
-title: "Manifest directory"
+title: Manifest directory
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/static-pod_d72e06]]"
+- '[[sources/static-pod_d72e06]]'
 tags:
-  - deployment
+- deployment
 aliases:
-  - static pod path
-  - kubelet manifest directory
+- static pod path
+- kubelet manifest directory
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Manifest directory
 ---
 # Manifest directory
 

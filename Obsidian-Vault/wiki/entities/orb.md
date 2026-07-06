@@ -1,13 +1,18 @@
 ---
-title: "Orb"
+title: Orb
 category: entities
-tags: [company, billing, infrastructure, pricing, ai-engineering]
+tags:
+- company
+- billing
+- infrastructure
+- pricing
+- ai-engineering
 sources:
-  - "[[sources/watchv=1c3szbaxomw]]"
-  - "[[sources/watchv=6wqylqb0odc]]"
+- 'https://www.youtube.com/watch?v=1c3szbaxomw'
+- 'https://www.youtube.com/watch?v=6wqylqb0odc'
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.42
 lifecycle: draft
@@ -15,6 +20,7 @@ lifecycle_changed: 2026-07-03
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+summary: Orb
 ---
 
 # Orb

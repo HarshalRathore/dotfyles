@@ -1,17 +1,26 @@
 ---
 type: entity
-title: "Etcd"
+title: Etcd
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/static-pod_d72e06]]"
-  - "[[sources/main-kubernetes-components_82b036]]"
+- '[[sources/static-pod_d72e06]]'
+- '[[sources/main-kubernetes-components_82b036]]'
 tags:
-  - product
+- product
 aliases:
-  - etcd database
+- etcd database
+category: entities
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Etcd
 ---
 ## Related Entities
 - Kubernetes
@@ -21,7 +30,7 @@ aliases:
 - [[entities/kubeadm]]
 
 ## Related Concepts
-- [[tls-encryption]]
+- [[concepts/tls-encryption]]
 - [[concepts/static-pods]]
 - [[concepts/bootstrapping-control-plane]]
 - [[concepts/control-plane-node]]

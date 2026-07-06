@@ -1,22 +1,22 @@
 ---
-title: "Concurrent Testing"
+title: Concurrent Testing
 category: concepts
 tags:
-  - testing
-  - concurrency
-  - race-conditions
-  - ci
-  - deterministic
-  - interleaving
+- testing
+- concurrency
+- race-conditions
+- ci
+- deterministic
+- interleaving
 sources:
-  - "AIEF2025 - CI in the Era of AI: From Unit Tests to Stochastic Evals — Nathan Sobo, Zed - https://www.youtube.com/watch?v=WXy8Yy9xGss"
+- 'AIEF2025 - CI in the Era of AI: From Unit Tests to Stochastic Evals — Nathan Sobo, Zed - https://www.youtube.com/watch?v=WXy8Yy9xGss'
 relationships:
-  - target: "[[concepts/stochastic-evals|Stochastic Evals]]"
-    type: related_to
-  - target: "[[concepts/deterministic-eval-scoring|Deterministic Eval Scoring]]"
-    type: related_to
+- target: '[[concepts/stochastic-evals|Stochastic Evals]]'
+  type: related_to
+- target: '[[concepts/deterministic-eval-scoring|Deterministic Eval Scoring]]'
+  type: related_to
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.07
   ambiguous: 0.03
 base_confidence: 0.88
@@ -24,6 +24,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Concurrent Testing
 ---
 
 # Concurrent Testing

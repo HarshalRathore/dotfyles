@@ -1,16 +1,16 @@
 ---
-title: "Keycloak"
+title: Keycloak
 category: entities
 tags:
-  - identity
-  - auth
-  - open-source
-  - iam
-  - oauth
+- identity
+- auth
+- open-source
+- iam
+- oauth
 sources:
-  - "[[sources/watchv=phbghukam-w]]"
+- 'https://www.youtube.com/watch?v=phbghukam-w'
 provenance:
-  extracted: 0.60
+  extracted: 0.6
   inferred: 0.35
   ambiguous: 0.05
 base_confidence: 0.65
@@ -20,12 +20,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/okta]]"
-    type: related_to
-  - target: "[[entities/auth0]]"
-    type: related_to
-  - target: "[[entities/entra-id]]"
-    type: related_to
+- target: '[[entities/okta]]'
+  type: related_to
+- target: '[[entities/auth0]]'
+  type: related_to
+- target: '[[entities/entra-id]]'
+  type: related_to
+summary: Keycloak
 ---
 
 # Keycloak

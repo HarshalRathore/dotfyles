@@ -1,18 +1,27 @@
 ---
 title: Text Analysis Pipeline
-tags: [search, indexing, preprocessing]
-aliases: [analyzer, analysis pipeline, tokenizer]
-sources: ["[[sources/ai-engineer-worlds-fair-2025-information-retrieval-from-the-ground-up-philipp-krenn]]", "[[sources/watchv=4xe_imyxbqc]]"]
-summary: "Configurable chain of character filters, tokenizer, and token filters that transforms raw text into searchable tokens at ingestion and query time in a search engine."
+tags:
+- search
+- indexing
+- preprocessing
+aliases:
+- analyzer
+- analysis pipeline
+- tokenizer
+sources:
+- '[[sources/ai-engineer-worlds-fair-2025-information-retrieval-from-the-ground-up-philipp-krenn]]'
+- 'https://www.youtube.com/watch?v=4xe_imyxbqc'
+summary: Configurable chain of character filters, tokenizer, and token filters that transforms raw text into searchable tokens at ingestion and query time in a search engine.
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
-created: 2026-07-03T08:30:00Z
-updated: 2026-07-03T08:30:00Z
+created: 2026-07-03 08:30:00+00:00
+updated: 2026-07-03 08:30:00+00:00
+category: concepts
 ---
 
 # Text Analysis Pipeline

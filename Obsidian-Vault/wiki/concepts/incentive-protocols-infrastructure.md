@@ -4,7 +4,7 @@ category: concepts
 tags: [incentive-protocols, crypto-economics, solar-energy, infrastructure, developing-world, token-incentives]
 summary: "Using token-based incentive mechanisms to fund and coordinate infrastructure construction in developing markets, applying Bitcoin's mining incentive model to solar panel deployment."
 sources:
-  - "[[sources/watchv=l8-5ezsoi5a]]"
+  - "https://www.youtube.com/watch?v=l8-5ezsoi5a"
 provenance:
   extracted: 0.85
   inferred: 0.15

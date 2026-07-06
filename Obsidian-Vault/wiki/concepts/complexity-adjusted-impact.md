@@ -1,28 +1,38 @@
 ---
 title: Complexity-Adjusted Impact
 category: concepts
-tags: [complexity, impact, technique-selection, prioritization, lazy-principle, aief2025]
-aliases: [complexity impact matrix, difficulty impact, stay lazy, complexity-adjusted]
-summary: "Framework for prioritizing RAG techniques: plot each technique on a difficulty × impact matrix, then implement easy-high-impact items first and skip hard-low-impact ones. Also called the 'stay lazy' principle."
+tags:
+- complexity
+- impact
+- technique-selection
+- prioritization
+- lazy-principle
+- aief2025
+aliases:
+- complexity impact matrix
+- difficulty impact
+- stay lazy
+- complexity-adjusted
+summary: 'Framework for prioritizing RAG techniques: plot each technique on a difficulty × impact matrix, then implement easy-high-impact items first and skip hard-low-impact ones. Also called the ''stay lazy...'
 sources:
-  - "AIEF2025 - Layering every technique in RAG, one query at a time — David Karam, Pi Labs (fmr. Google Search) - https://www.youtube.com/watch?v=w9u11ioHGA0"
+- AIEF2025 - Layering every technique in RAG, one query at a time — David Karam, Pi Labs (fmr. Google Search) - https://www.youtube.com/watch?v=w9u11ioHGA0
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/quality-engineering-loop]]"
-    type: used_in
-  - target: "[[concepts/premature-optimization]]"
-    type: relates_to
-  - target: "[[concepts/rag-pipeline-architecture|RAG Pipeline Architecture]]"
-    type: applied_to
+- target: '[[concepts/quality-engineering-loop]]'
+  type: used_in
+- target: '[[concepts/premature-optimization]]'
+  type: relates_to
+- target: '[[concepts/rag-pipeline-architecture|RAG Pipeline Architecture]]'
+  type: applied_to
 ---
 
 # Complexity-Adjusted Impact

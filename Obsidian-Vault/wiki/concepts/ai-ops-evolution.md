@@ -1,21 +1,24 @@
 ---
-title: "AI Ops Evolution"
+title: AI Ops Evolution
 category: concepts
 tags:
-  - ai
-  - operations
-  - quality-assurance
-  - team-structure
-  - cx
-aliases: [QA evolution for Gen AI, CX team evolution, ops as model shapers]
+- ai
+- operations
+- quality-assurance
+- team-structure
+- cx
+aliases:
+- QA evolution for Gen AI
+- CX team evolution
+- ops as model shapers
 sources:
-  - "[[sources/watchv=1__v4ktv_gw]]"
-summary: "The transformation of QA, CX, and contact center teams from auditors of past interactions into active participants in shaping AI model behavior — as prompt testers, AI performance monitors, and model shapers."
+- 'https://www.youtube.com/watch?v=1__v4ktv_gw'
+summary: The transformation of QA, CX, and contact center teams from auditors of past interactions into active participants in shaping AI model behavior — as prompt testers, AI performance monitors, and mod...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.18
   ambiguous: 0.02
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-03

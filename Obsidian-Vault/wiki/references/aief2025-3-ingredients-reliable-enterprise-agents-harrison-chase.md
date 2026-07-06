@@ -1,38 +1,38 @@
 ---
-title: "3 Ingredients for Building Reliable Enterprise Agents — Harrison Chase, LangChain/LangGraph"
+title: 3 Ingredients for Building Reliable Enterprise Agents — Harrison Chase, LangChain/LangGraph
 category: references
 tags:
-  - aief2025
-  - enterprise-ai
-  - agent-reliability
-  - langgraph
-  - langsmith
-  - agent-workflows
-  - evals
-  - observability
-  - talk
+- aief2025
+- enterprise-ai
+- agent-reliability
+- langgraph
+- langsmith
+- agent-workflows
+- evals
+- observability
+- talk
 sources:
-  - "AIEF2025 - 3 ingredients for building reliable enterprise agents - Harrison Chase, LangChain/LangGraph - https://www.youtube.com/watch?v=kTnfJszFxCg"
-summary: "Harrison Chase distills enterprise agent adoption into a first-principles equation: value when right, cost when wrong, and probability of success. Argues for deterministic workflows over pure prompting, and observability as a trust-building tool for enterprise stakeholders."
+- AIEF2025 - 3 ingredients for building reliable enterprise agents - Harrison Chase, LangChain/LangGraph - https://www.youtube.com/watch?v=kTnfJszFxCg
+summary: 'Harrison Chase distills enterprise agent adoption into a first-principles equation: value when right, cost when wrong, and probability of success. Argues for deterministic workflows over pure promp...'
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/enterprise-agent-adoption-equation]]"
-    type: defines
-  - target: "[[concepts/workflow-agent-spectrum]]"
-    type: defines
-  - target: "[[concepts/agent-reliability-challenge]]"
-    type: related_to
-  - target: "[[concepts/observability-for-enterprise-trust]]"
-    type: defines
+- target: '[[concepts/enterprise-agent-adoption-equation]]'
+  type: defines
+- target: '[[concepts/workflow-agent-spectrum]]'
+  type: defines
+- target: '[[concepts/agent-reliability-challenge]]'
+  type: related_to
+- target: '[[concepts/observability-for-enterprise-trust]]'
+  type: defines
 ---
 
 # 3 Ingredients for Building Reliable Enterprise Agents — Harrison Chase, LangChain/LangGraph

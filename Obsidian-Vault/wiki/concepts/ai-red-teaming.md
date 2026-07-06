@@ -1,34 +1,38 @@
 ---
-title: "AI Red Teaming"
+title: AI Red Teaming
 category: concepts
 tags:
-  - ai-red-teaming
-  - security
-  - adversarial-testing
-  - safety
-  - evaluation
-  - agents
-aliases: [red teaming, adversarial testing AI, AI security testing]
+- ai-red-teaming
+- security
+- adversarial-testing
+- safety
+- evaluation
+- agents
+aliases:
+- red teaming
+- adversarial testing AI
+- AI security testing
 relationships:
-  - target: "[[concepts/layered-agent-safety]]"
-    type: extends
-  - target: "[[entities/pyrit]]"
-    type: uses
-  - target: "[[concepts/attack-strategies]]"
-    type: uses
-  - target: "[[concepts/guardrails-content-filters]]"
-    type: related_to
+- target: '[[concepts/layered-agent-safety]]'
+  type: extends
+- target: '[[entities/pyrit]]'
+  type: uses
+- target: '[[concepts/attack-strategies]]'
+  type: uses
+- target: '[[concepts/guardrails-content-filters]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=jhjkgramfiu]]"
+- 'https://www.youtube.com/watch?v=jhjkgramfiu'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: AI Red Teaming
 ---
 
 # AI Red Teaming

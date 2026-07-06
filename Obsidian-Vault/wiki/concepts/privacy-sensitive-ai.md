@@ -1,30 +1,30 @@
 ---
-title: "Privacy-Sensitive AI"
+title: Privacy-Sensitive AI
 category: concepts
 tags:
-  - privacy
-  - security
-  - data-sovereignty
-  - local-ai
-  - compliance
+- privacy
+- security
+- data-sovereignty
+- local-ai
+- compliance
 sources:
-  - "AIEF2025 - Foundry Local: Cutting-Edge AI experiences on device with ONNX Runtime/Olive — Emma Ning, Microsoft - https://www.youtube.com/watch?v=l614N5W60ls"
-summary: "AI applications that process sensitive data (legal, medical, financial) requiring on-device execution to prevent data from leaving the user's control. Driven by compliance, legal, and organizational policy constraints."
+- 'AIEF2025 - Foundry Local: Cutting-Edge AI experiences on device with ONNX Runtime/Olive — Emma Ning, Microsoft - https://www.youtube.com/watch?v=l614N5W60ls'
+summary: AI applications that process sensitive data (legal, medical, financial) requiring on-device execution to prevent data from leaving the user's control. Driven by compliance, legal, and organizationa...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/on-device-inference|On-Device Inference]]"
-    type: requires
-  - target: "[[concepts/data-sovereignty|Data Sovereignty]]"
-    type: implements
+- target: '[[concepts/on-device-inference|On-Device Inference]]'
+  type: requires
+- target: '[[concepts/data-sovereignty|Data Sovereignty]]'
+  type: implements
 ---
 
 # Privacy-Sensitive AI

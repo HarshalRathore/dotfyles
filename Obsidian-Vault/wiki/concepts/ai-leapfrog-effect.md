@@ -1,16 +1,16 @@
 ---
-title: "AI Leapfrog Effect"
+title: AI Leapfrog Effect
 tags:
-  - concept
-  - ai
-  - adoption
-  - enterprise
-  - startups
+- concept
+- ai
+- adoption
+- enterprise
+- startups
 sources:
-  - "[[sources/watchv=3mzs5gnelzm]]"
-summary: "The counterintuitive observation that the most conservative, low-tech industries (legal, customer service, healthcare) are adopting AI fastest — leapfrogging more tech-forward sectors."
+- 'https://www.youtube.com/watch?v=3mzs5gnelzm'
+summary: The counterintuitive observation that the most conservative, low-tech industries (legal, customer service, healthcare) are adopting AI fastest — leapfrogging more tech-forward sectors.
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.55
@@ -18,6 +18,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # AI Leapfrog Effect
@@ -30,9 +31,9 @@ Guo cites three portfolio companies as evidence: ^[extracted]
 
 | Company | Industry | Traction |
 |---|---|---|
-| [[entities/harvey-ai\|Harvey]] | Legal | $70M+ ARR, AI now essential for competitiveness |
-| [[entities/sierra-ai\|Sierra]] | Customer service | 70% query resolution, serving SiriusXM/ADT |
-| [[entities/open-evidence\|Open Evidence]] | Healthcare | 1/3 of US doctors weekly, daily usage |
+| [[entities/harvey-ai|Harvey]] | Legal | $70M+ ARR, AI now essential for competitiveness |
+| [[entities/sierra-ai|Sierra]] | Customer service | 70% query resolution, serving SiriusXM/ADT |
+| [[entities/open-evidence|Open Evidence]] | Healthcare | 1/3 of US doctors weekly, daily usage |
 
 ## Why This Happens
 

@@ -1,33 +1,25 @@
 ---
-title: "Teleoperation in Robotics"
+title: Teleoperation in Robotics
 category: concepts
 tags:
-  - teleoperation
-  - robotics
-  - data-collection
-  - human-in-the-loop
-  - telemanipulation
-  - imitation-learning
-summary: "The practice of humans remotely controlling robots through wearable interfaces (e.g., VR headsets + data gloves) to collect high-quality task execution data for training robotics foundation models.
+- teleoperation
+- robotics
+- data-collection
+- human-in-the-loop
+- telemanipulation
+- imitation-learning
+sources: []
+summary: The practice of humans remotely controlling robots through wearable interfaces (e.g., VR headsets + data gloves) to collect high-quality task execution data for training robotics foundation models.
 provenance:
-  extracted: 0.80
-  inferred: 0.15
-  ambiguous: 0.05
-base_confidence: 0.80
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+base_confidence: 0.42
 lifecycle: draft
-lifecycle_changed: 2026-07-05
+lifecycle_changed: '2026-07-05'
 tier: supporting
-created: 2026-07-05
-updated: 2026-07-05
-relationships:
-  - target: "[[concepts/data-pyramid|Data Pyramid]]"
-    type: produces
-  - target: "[[concepts/dreamgen|DreamGen]]"
-    type: feeds
-  - target: "[[concepts/imitation-learning|Imitation Learning]]"
-    type: enables
-  - target: "[[concepts/human-in-the-loop|Human-in-the-Loop]]"
-    type: is_a
+created: '2026-07-05'
+updated: '2026-07-05'
 ---
 
 # Teleoperation in Robotics

@@ -1,15 +1,15 @@
 ---
-title: "E-Commerce AI Transformation"
+title: E-Commerce AI Transformation
 category: concepts
 tags:
-  - e-commerce
-  - ai-transformation
-  - generative-media
-  - online-shopping
+- e-commerce
+- ai-transformation
+- generative-media
+- online-shopping
 sources:
-  - "[[sources/watchv=p370d8kmlkw]]"
+- 'https://www.youtube.com/watch?v=p370d8kmlkw'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -18,10 +18,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/generative-media]]"
-    type: uses
-  - target: "[[concepts/virtual-try-on]]"
-    type: includes
+- target: '[[concepts/generative-media]]'
+  type: uses
+- target: '[[concepts/virtual-try-on]]'
+  type: includes
+summary: E-Commerce AI Transformation
 ---
 
 # E-Commerce AI Transformation

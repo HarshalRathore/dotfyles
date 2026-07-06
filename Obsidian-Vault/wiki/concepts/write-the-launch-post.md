@@ -2,29 +2,29 @@
 title: Write the Launch Post
 category: concepts
 tags:
-  - product-development
-  - prd
-  - documentation
-  - shipping
-  - communication
-summary: Writing the launch blog post or PRD before building anything. Forces specificity, clarifies what's being built, how to position it, and how to sell it. Pushed to real users for feedback before prototyping.
+- product-development
+- prd
+- documentation
+- shipping
+- communication
+summary: Writing the launch blog post or PRD before building anything. Forces specificity, clarifies what's being built, how to position it, and how to sell it. Pushed to real users for feedback before prot...
 sources:
-  - AIEF2025 - Shipping something to someone always wins — Kenneth Auchenberg (ex. Stripe, VSCode) - https://www.youtube.com/watch?v=mHzJhXppwUA
+- AIEF2025 - Shipping something to someone always wins — Kenneth Auchenberg (ex. Stripe, VSCode) - https://www.youtube.com/watch?v=mHzJhXppwUA
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.92
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
-created: 2026-07-05T00:00:00Z
-updated: 2026-07-05T00:00:00Z
+created: 2026-07-05 00:00:00+00:00
+updated: 2026-07-05 00:00:00+00:00
 relationships:
-  - target: "[[concepts/rapid-iteration-loop]]"
-    type: related_to
-  - target: "[[concepts/documentation-as-agent-knowledge-base]]"
-    type: related_to
+- target: '[[concepts/rapid-iteration-loop]]'
+  type: related_to
+- target: '[[concepts/documentation-as-agent-knowledge-base]]'
+  type: related_to
 ---
 
 ## Definition

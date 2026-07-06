@@ -1,26 +1,27 @@
 ---
-title: "BlackRock"
+title: BlackRock
 tags:
-  - company
-  - financial-services
-  - asset-management
-  - enterprise-ai
+- company
+- financial-services
+- asset-management
+- enterprise-ai
 aliases:
-  - BlackRock
-  - BlackRock Inc.
+- BlackRock
+- BlackRock Inc.
 sources:
-  - "[[sources/watchv=08mh36_nvos]]"
-  - "[[sources/watchv=axmdsqdoghm]]"
-summary: "BlackRock is the world's largest asset manager, with a significant internal data platform and engineering organization that builds custom AI knowledge applications for investment operations teams. Also a major investor in Circle."
+- 'https://www.youtube.com/watch?v=08mh36_nvos'
+- 'https://www.youtube.com/watch?v=axmdsqdoghm'
+summary: BlackRock is the world's largest asset manager, with a significant internal data platform and engineering organization that builds custom AI knowledge applications for investment operations teams....
 provenance:
   extracted: 0.85
   inferred: 0.15
-  ambiguous: 0.00
+  ambiguous: 0.0
 base_confidence: 0.65
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # BlackRock

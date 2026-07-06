@@ -1,10 +1,18 @@
 ---
-title: "Feature Exploration Strategy"
+title: Feature Exploration Strategy
 category: concepts
-tags: [product-development, feature-design, ai-coding-assistance, experimentation, user-testing]
-aliases: [feature exploration, go wide with features, explore features broadly]
+tags:
+- product-development
+- feature-design
+- ai-coding-assistance
+- experimentation
+- user-testing
+aliases:
+- feature exploration
+- go wide with features
+- explore features broadly
 sources:
-  - "AIEF2025 - Why your product needs an AI product manager, and why it should be you — James Lowe, i.AI - https://www.youtube.com/watch?v=xzJdSi2Tsqw"
+- AIEF2025 - Why your product needs an AI product manager, and why it should be you — James Lowe, i.AI - https://www.youtube.com/watch?v=xzJdSi2Tsqw
 provenance:
   extracted: 0.85
   inferred: 0.15
@@ -16,12 +24,13 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/ai-product-manager]]"
-    type: strategy_of
-  - target: "[[concepts/evaluate-ai-early]]"
-    type: contrasts_with
-  - target: "[[concepts/ai-coding-assistance]]"
-    type: enables
+- target: '[[concepts/ai-product-manager]]'
+  type: strategy_of
+- target: '[[concepts/evaluate-ai-early]]'
+  type: contrasts_with
+- target: '[[concepts/ai-coding-assistance]]'
+  type: enables
+summary: Feature Exploration Strategy
 ---
 
 # Feature Exploration Strategy

@@ -1,21 +1,21 @@
 ---
-title: "Hardware Vendors in AI Inference"
+title: Hardware Vendors in AI Inference
 category: concepts
 tags:
-  - hardware
-  - nvidia
-  - intel
-  - amd
-  - qualcomm
-  - gpu
-  - npu
-  - inference
+- hardware
+- nvidia
+- intel
+- amd
+- qualcomm
+- gpu
+- npu
+- inference
 sources:
-  - "AIEF2025 - Foundry Local: Cutting-Edge AI experiences on device with ONNX Runtime/Olive — Emma Ning, Microsoft - https://www.youtube.com/watch?v=l614N5W60ls"
-summary: "The ecosystem of hardware manufacturers (NVIDIA, Intel, AMD, Qualcomm) whose silicon (GPU, NPU, CPU) powers on-device AI inference, with platform vendors integrating their accelerators into inference runtimes."
+- 'AIEF2025 - Foundry Local: Cutting-Edge AI experiences on device with ONNX Runtime/Olive — Emma Ning, Microsoft - https://www.youtube.com/watch?v=l614N5W60ls'
+summary: The ecosystem of hardware manufacturers (NVIDIA, Intel, AMD, Qualcomm) whose silicon (GPU, NPU, CPU) powers on-device AI inference, with platform vendors integrating their accelerators into inferen...
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.65
 lifecycle: draft
@@ -24,10 +24,10 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/on-device-inference|On-Device Inference]]"
-    type: enables
-  - target: "[[entities/onnx-runtime|ONNX Runtime]]"
-    type: integrated-into
+- target: '[[concepts/on-device-inference|On-Device Inference]]'
+  type: enables
+- target: '[[entities/onnx-runtime|ONNX Runtime]]'
+  type: integrated-into
 ---
 
 # Hardware Vendors in AI Inference

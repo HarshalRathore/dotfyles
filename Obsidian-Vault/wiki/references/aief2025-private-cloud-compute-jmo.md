@@ -1,28 +1,29 @@
 ---
-title: "The Unofficial Guide to Apple's Private Cloud Compute — Jmo, CONFSEC"
+title: The Unofficial Guide to Apple's Private Cloud Compute — Jmo, CONFSEC
 tags:
-  - reference
-  - talk
-  - aief2025
-  - privacy
-  - apple
-  - cloud-compute
-  - security
+- reference
+- talk
+- aief2025
+- privacy
+- apple
+- cloud-compute
+- security
 aliases:
-  - AIEF2025 PCC Jmo
-  - Jmo PCC Apple 2025
+- AIEF2025 PCC Jmo
+- Jmo PCC Apple 2025
 sources:
-  - "[[sources/watchv=ccswz5bjlo8]]"
-summary: "Jmo (Confidence Security) presents an unofficial deep-dive into Apple's Private Cloud Compute (PCC) architecture — the five key privacy requirements, six technical components that implement them, and how non-Apple developers can use similar building blocks (TPMs, confidential VMs, transparency logs)."
+- 'https://www.youtube.com/watch?v=ccswz5bjlo8'
+summary: Jmo (Confidence Security) presents an unofficial deep-dive into Apple's Private Cloud Compute (PCC) architecture — the five key privacy requirements, six technical components that implement them, a...
 provenance:
   extracted: 0.82
   inferred: 0.15
   ambiguous: 0.03
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: references
 ---
 
 # The Unofficial Guide to Apple's Private Cloud Compute — Jmo, CONFSEC

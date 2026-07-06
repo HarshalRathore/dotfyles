@@ -1,30 +1,37 @@
 ---
 title: Embedding Quality
 category: concepts
-tags: [embeddings, quality, retrieval-accuracy, evaluation, semantic-search]
-aliases: [embedding model quality, embedding accuracy]
-summary: "The principle that embedding quality is the core determinant of retrieval accuracy in AI-powered search systems — 95-99% of such systems use embeddings, making model selection the highest-leverage decision."
+tags:
+- embeddings
+- quality
+- retrieval-accuracy
+- evaluation
+- semantic-search
+aliases:
+- embedding model quality
+- embedding accuracy
+summary: The principle that embedding quality is the core determinant of retrieval accuracy in AI-powered search systems — 95-99% of such systems use embeddings, making model selection the highest-leverage...
 sources:
-  - "AIEF2025 - The State of AI Powered Search and Retrieval — Frank Liu, MongoDB (prev Voyage AI) - https://www.youtube.com/watch?v=pIPtpBZ6TKk"
+- AIEF2025 - The State of AI Powered Search and Retrieval — Frank Liu, MongoDB (prev Voyage AI) - https://www.youtube.com/watch?v=pIPtpBZ6TKk
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/embedding-models]]"
-    type: related_to
-  - target: "[[concepts/ai-powered-search]]"
-    type: used_in
-  - target: "[[concepts/rag-grounding]]"
-    type: used_in
-  - target: "[[concepts/empirical-embedding-selection]]"
-    type: related_to
+- target: '[[concepts/embedding-models]]'
+  type: related_to
+- target: '[[concepts/ai-powered-search]]'
+  type: used_in
+- target: '[[concepts/rag-grounding]]'
+  type: used_in
+- target: '[[concepts/empirical-embedding-selection]]'
+  type: related_to
 ---
 
 # Embedding Quality

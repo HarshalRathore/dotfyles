@@ -1,19 +1,31 @@
 ---
-summary: "This source explains **Static Pods** in the [[concepts/static-pods]] platform, which are Pods managed directly by the [[entities/kubelet]] on a single node, bypassing the "
+summary: 'This source explains **Static Pods** in the [[concepts/static-pods]] platform, which are Pods managed directly by the [[entities/kubelet]] on a single node, bypassing the '
 tags:
-  - Static Pods
-  - Mirror Pod
-  - Manifest directory
-  - "Bootstrapping control-plane"
-  - ReplicaSets
-  - DaemonSets
-  - "Node-bound"
-  - "Self-reconciling"
+- Static Pods
+- Mirror Pod
+- Manifest directory
+- Bootstrapping control-plane
+- ReplicaSets
+- DaemonSets
+- Node-bound
+- Self-reconciling
 aliases:
-  - Static Pods
-  - Static Pod Manifests
-contentHash: "e92-02c964a6"
-generation_complete: True
+- Static Pods
+- Static Pod Manifests
+contentHash: e92-02c964a6
+generation_complete: true
+title: Static Pods in Kubernetes - Summary
+category: sources
+sources: []
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+created: '2026-07-02T13:38:25.553109+00:00'
+updated: '2026-07-02T13:38:25.553109+00:00'
 ---
 # Static Pods in Kubernetes - Summary
 

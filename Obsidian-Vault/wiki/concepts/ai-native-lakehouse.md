@@ -1,17 +1,17 @@
 ---
-title: "AI-Native Multimodal Lakehouse"
+title: AI-Native Multimodal Lakehouse
 tags:
-  - lakehouse
-  - ai-infrastructure
-  - data-platform
-  - vector-database
-  - multimodal
-  - aief2025
+- lakehouse
+- ai-infrastructure
+- data-platform
+- vector-database
+- multimodal
+- aief2025
 aliases:
-  - AI-Native Lakehouse
+- AI-Native Lakehouse
 sources:
-  - "[[sources/watchv=w1mizchnkfa]]"
-summary: "A data platform that goes beyond vector search to serve as a foundational system for all AI data operations — feature extraction, summarization, generation, and search — unified in one lakehouse."
+- 'https://www.youtube.com/watch?v=w1mizchnkfa'
+summary: A data platform that goes beyond vector search to serve as a foundational system for all AI data operations — feature extraction, summarization, generation, and search — unified in one lakehouse.
 provenance:
   extracted: 0.85
   inferred: 0.15
@@ -22,10 +22,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/enterprise-rag|Enterprise RAG]]"
-    type: uses
-  - target: "[[entities/lance-db|LanceDB]]"
-    type: implements
+- target: '[[concepts/enterprise-rag|Enterprise RAG]]'
+  type: uses
+- target: '[[entities/lance-db|LanceDB]]'
+  type: implements
+category: concepts
 ---
 
 # AI-Native Multimodal Lakehouse

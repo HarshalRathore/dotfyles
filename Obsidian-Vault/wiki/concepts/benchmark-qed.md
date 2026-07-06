@@ -1,20 +1,20 @@
 ---
-title: "Benchmark QED"
+title: Benchmark QED
 category: concepts
 tags:
-  - benchmark
-  - evaluation
-  - graphrag
-  - microsoft-research
-  - open-source
+- benchmark
+- evaluation
+- graphrag
+- microsoft-research
+- open-source
 aliases:
-  - QED Benchmark
+- QED Benchmark
 sources:
-  - "AIEF2025 - GraphRAG methods to create optimized LLM context windows for Retrieval — Jonathan Larson, Microsoft - https://www.youtube.com/watch?v=c5qJHr3DnT4"
+- AIEF2025 - GraphRAG methods to create optimized LLM context windows for Retrieval — Jonathan Larson, Microsoft - https://www.youtube.com/watch?v=c5qJHr3DnT4
 provenance:
-  extracted: 0.70
-  inferred: 0.20
-  ambiguous: 0.10
+  extracted: 0.7
+  inferred: 0.2
+  ambiguous: 0.1
 base_confidence: 0.55
 lifecycle: draft
 lifecycle_changed: 2026-07-04
@@ -22,12 +22,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: evaluates
-  - target: "[[concepts/lazy-graphrag|LazyGraphRAG]]"
-    type: evaluates
-  - target: "[[concepts/rag-evaluation|RAG Evaluation]]"
-    type: related_to
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: evaluates
+- target: '[[concepts/lazy-graphrag|LazyGraphRAG]]'
+  type: evaluates
+- target: '[[concepts/rag-evaluation|RAG Evaluation]]'
+  type: related_to
+summary: Benchmark QED
 ---
 
 # Benchmark QED

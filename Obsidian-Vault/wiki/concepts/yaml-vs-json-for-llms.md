@@ -1,34 +1,27 @@
 ---
-title: "YAML vs JSON for LLMs"
+title: YAML vs JSON for LLMs
 category: concepts
 tags:
-  - format
-  - llm
-  - token-efficiency
-  - prompt-engineering
-  - context
-  - braintrust
-  - aief2025
+- format
+- llm
+- token-efficiency
+- prompt-engineering
+- context
+- braintrust
+- aief2025
 sources:
-  - "AIEF2025 - Five hard earned lessons about Evals — Ankur Goyal, Braintrust - https://www.youtube.com/watch?v=a4BV0gGmXgA"
-summary: "YAML tool outputs are more token-efficient and easier for LLMs to parse than verbose JSON, even though both represent the same structured data to programs.
+- AIEF2025 - Five hard earned lessons about Evals — Ankur Goyal, Braintrust - https://www.youtube.com/watch?v=a4BV0gGmXgA
+summary: YAML tool outputs are more token-efficient and easier for LLMs to parse than verbose JSON, even though both represent the same structured data to programs.
 provenance:
-  extracted: 0.95
-  inferred: 0.05
-  ambiguous: 0.00
-base_confidence: 0.80
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+base_confidence: 0.42
 lifecycle: draft
-lifecycle_changed: 2026-07-04
+lifecycle_changed: '2026-07-04'
 tier: supporting
-created: 2026-07-04
-updated: 2026-07-04
-relationships:
-  - target: "[[concepts/tool-design-for-llms|Tool Design for LLMs]]"
-    type: illustrates
-  - target: "[[concepts/modern-prompt-engineering|Modern Prompt Engineering]]"
-    type: relates_to
-  - target: "[[concepts/system-level-optimization|System-Level Optimization]]"
-    type: relates_to
+created: '2026-07-04'
+updated: '2026-07-04'
 ---
 
 # YAML vs JSON for LLMs

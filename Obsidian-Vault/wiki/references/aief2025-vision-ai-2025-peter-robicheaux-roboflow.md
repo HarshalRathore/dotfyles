@@ -4,7 +4,7 @@ category: references
 tags: [aief2025, computer-vision, vision-language-models, evaluation, pre-training, dino, clip, benchmark]
 summary: Peter Robicheaux (ML Lead, Roboflow) argues vision models are not smart, evals are saturated, CLIP fails on visual fidelity, and introduces RF100VL benchmark and RF-DeTter model.
 sources:
-  - "[[sources/watchv=iqc05ecvnye]]"
+  - "https://www.youtube.com/watch?v=iqc05ecvnye"
 provenance:
   extracted: 0.95
   inferred: 0.03

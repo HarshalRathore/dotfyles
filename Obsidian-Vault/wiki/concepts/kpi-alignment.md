@@ -1,28 +1,35 @@
 ---
 title: KPI Alignment
 category: concepts
-tags: [kpi, alignment, lean-startup, micromanagement, decision-making, operating-principles]
+tags:
+- kpi
+- alignment
+- lean-startup
+- micromanagement
+- decision-making
+- operating-principles
 sources:
-  - AIEF2025 - The New Lean Startup — Sid Bendre, Olive - https://www.youtube.com/watch?v=pQz-PgA1eJw
+- AIEF2025 - The New Lean Startup — Sid Bendre, Olive - https://www.youtube.com/watch?v=pQz-PgA1eJw
 provenance:
   extracted: 0.88
   inferred: 0.08
   ambiguous: 0.04
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
-created: 2026-07-05T00:00:00Z
-updated: 2026-07-05T00:00:00Z
+created: 2026-07-05 00:00:00+00:00
+updated: 2026-07-05 00:00:00+00:00
 relationships:
-  - target: "[[concepts/lean-startup-playbook]]"
-    type: related_to
-  - target: "[[concepts/profit-first-mentality]]"
-    type: related_to
-  - target: "[[concepts/continuous-process-refinement]]"
-    type: related_to
-  - target: "[[concepts/tiny-teams]]"
-    type: related_to
+- target: '[[concepts/lean-startup-playbook]]'
+  type: related_to
+- target: '[[concepts/profit-first-mentality]]'
+  type: related_to
+- target: '[[concepts/continuous-process-refinement]]'
+  type: related_to
+- target: '[[concepts/tiny-teams]]'
+  type: related_to
+summary: KPI Alignment
 ---
 
 # KPI Alignment

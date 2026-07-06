@@ -1,30 +1,31 @@
 ---
-title: "Streaming Diff Algorithm"
+title: Streaming Diff Algorithm
 category: concepts
 tags:
-  - diff
-  - streaming
-  - llm
-  - text-comparison
-  - ai-editing
+- diff
+- streaming
+- llm
+- text-comparison
+- ai-editing
 sources:
-  - "AIEF2025 - CI in the Era of AI: From Unit Tests to Stochastic Evals — Nathan Sobo, Zed - https://www.youtube.com/watch?v=WXy8Yy9xGss"
+- 'AIEF2025 - CI in the Era of AI: From Unit Tests to Stochastic Evals — Nathan Sobo, Zed - https://www.youtube.com/watch?v=WXy8Yy9xGss'
 relationships:
-  - target: "[[concepts/fuzzy-text-matching|Fuzzy Text Matching]]"
-    type: related_to
-  - target: "[[concepts/stochastic-evals|Stochastic Evals]]"
-    type: related_to
-  - target: "[[concepts/indentation-robustness|Indentation Robustness]]"
-    type: related_to
+- target: '[[concepts/fuzzy-text-matching|Fuzzy Text Matching]]'
+  type: related_to
+- target: '[[concepts/stochastic-evals|Stochastic Evals]]'
+  type: related_to
+- target: '[[concepts/indentation-robustness|Indentation Robustness]]'
+  type: related_to
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.88
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Streaming Diff Algorithm
 ---
 
 # Streaming Diff Algorithm

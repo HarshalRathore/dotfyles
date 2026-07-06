@@ -1,16 +1,25 @@
 ---
 type: concept
-title: "Resources and Verbs"
+title: Resources and Verbs
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/kubernetes-api-groups-authorization-and-rbac-a-comprehensive-overview_ab21cb]]"
+- '[[sources/kubernetes-api-groups-authorization-and-rbac-a-comprehensive-overview_ab21cb]]'
 tags:
-  - deployment
+- deployment
 aliases:
-  - K8s Resources and Verbs
+- K8s Resources and Verbs
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Resources and Verbs
 ---
 # Resources and Verbs
 
@@ -39,7 +48,7 @@ In the Kubernetes API, **Resources** refer to the individual object types availa
 - [[concepts/rbac]]
 
 ## Related Entities
-- [[kubernetes]]
+- [[entities/kubernetes]]
 
 ## Mentions in Source
 - "Resources: Individual object types under each group (e.g., deployments, pods)" — kubernetes-api-groups-authorization-and-rbac-a-comprehensive-overview_ab21cb

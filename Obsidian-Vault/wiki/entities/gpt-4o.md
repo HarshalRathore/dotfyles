@@ -1,37 +1,37 @@
 ---
-title: "GPT-4o Multimodal Image Generation"
+title: GPT-4o Multimodal Image Generation
 category: entities
 tags:
-  - openai
-  - multimodal
-  - image-generation
-  - virality
-  - aief2025
-  - ai-native-toolchain
+- openai
+- multimodal
+- image-generation
+- virality
+- aief2025
+- ai-native-toolchain
 aliases:
-  - GPT-4o image generation
-  - GPT-4o multimodal
-  - GPT-4.0 native multimodal
+- GPT-4o image generation
+- GPT-4o multimodal
+- GPT-4.0 native multimodal
 sources:
-  - "AIEF2025 - 2025 in LLMs so far, illustrated by Pelicans on Bicycles — Simon Willison - https://www.youtube.com/watch?v=YpY83-kA7Bo"
-summary: "OpenAI's GPT-4o native multimodal image generation feature launched in March 2025, achieving 100 million new signups in a week with viral adoption. Notable for its 'memory' feature that adds unrequested elements to generated images."
+- AIEF2025 - 2025 in LLMs so far, illustrated by Pelicans on Bicycles — Simon Willison - https://www.youtube.com/watch?v=YpY83-kA7Bo
+summary: OpenAI's GPT-4o native multimodal image generation feature launched in March 2025, achieving 100 million new signups in a week with viral adoption. Notable for its 'memory' feature that adds unrequ...
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/openai|OpenAI]]"
-    type: produced_by
-  - target: "[[concepts/ai-native-toolchain|AI-Native Toolchain]]"
-    type: exemplifies
-  - target: "[[entities/cleo-lant|Cleo Lant]]"
-    type: tested_by
+- target: '[[entities/openai|OpenAI]]'
+  type: produced_by
+- target: '[[concepts/ai-native-toolchain|AI-Native Toolchain]]'
+  type: exemplifies
+- target: '[[entities/cleo-lant|Cleo Lant]]'
+  type: tested_by
 ---
 
 # GPT-4o Multimodal Image Generation

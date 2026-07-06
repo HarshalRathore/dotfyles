@@ -4,7 +4,7 @@ category: entities
 tags: [company, computer-vision, ml-platform, open-source, vision-models, aief2025]
 summary: Platform for building and deploying vision models. Created RF100VL benchmark and RF-DeTter detection transformer. Maintains Roboflow Universe with ~750k datasets.
 sources:
-  - "[[sources/watchv=iqc05ecvnye]]"
+  - "https://www.youtube.com/watch?v=iqc05ecvnye"
 provenance:
   extracted: 0.90
   inferred: 0.07

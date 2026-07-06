@@ -1,22 +1,24 @@
 ---
-title: "Multi-Model Voting"
+title: Multi-Model Voting
 tags:
-  - agent
-  - ai
-  - accuracy
-  - ensemble
-  - llm
+- agent
+- ai
+- accuracy
+- ensemble
+- llm
 sources:
-  - "[[sources/watchv=12v5s1n1eoy]]"
-summary: "Technique where multiple LLMs from different vendors vote on answers, with majority consensus used for higher-confidence results."
+- 'https://www.youtube.com/watch?v=12v5s1n1eoy'
+summary: Technique where multiple LLMs from different vendors vote on answers, with majority consensus used for higher-confidence results.
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
+tier: supporting
 ---
 
 # Multi-Model Voting

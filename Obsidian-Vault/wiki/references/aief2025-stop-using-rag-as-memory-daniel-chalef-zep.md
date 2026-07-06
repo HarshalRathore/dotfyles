@@ -1,10 +1,19 @@
 ---
-title: "AIEF2025 — Stop Using RAG as Memory"
+title: AIEF2025 — Stop Using RAG as Memory
 category: references
-tags: [aief2025, agent-memory, domain-aware-memory, knowledge-graph, rag, zep, graffiti, temporal-graph, semantic-similarity]
-summary: "Daniel Chalef of Zep argues that memory for AI agents should be modeled after the business domain, not dumped as arbitrary facts into vector databases. Domain-aware memory using temporal graphs eliminates semantic collision."
+tags:
+- aief2025
+- agent-memory
+- domain-aware-memory
+- knowledge-graph
+- rag
+- zep
+- graffiti
+- temporal-graph
+- semantic-similarity
+summary: Daniel Chalef of Zep argues that memory for AI agents should be modeled after the business domain, not dumped as arbitrary facts into vector databases. Domain-aware memory using temporal graphs eli...
 sources:
-  - "[[sources/watchv=t5imo5ntyha]]"
+- 'https://www.youtube.com/watch?v=t5imo5ntyha'
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -16,14 +25,14 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/domain-aware-memory]]"
-    type: related_to
-  - target: "[[entities/zep]]"
-    type: related_to
-  - target: "[[entities/daniel-chalef]]"
-    type: related_to
-  - target: "[[concepts/semantic-similarity]]"
-    type: contradicts
+- target: '[[concepts/domain-aware-memory]]'
+  type: related_to
+- target: '[[entities/zep]]'
+  type: related_to
+- target: '[[entities/daniel-chalef]]'
+  type: related_to
+- target: '[[concepts/semantic-similarity]]'
+  type: contradicts
 ---
 
 # AIEF2025 — Stop Using RAG as Memory

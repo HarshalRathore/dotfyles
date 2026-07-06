@@ -1,16 +1,16 @@
 ---
-title: "AIEF2025 - #define AI Engineer - Greg Brockman, OpenAI (ft. Jensen Huang)"
+title: 'AIEF2025 - #define AI Engineer - Greg Brockman, OpenAI (ft. Jensen Huang)'
 category: references
 tags:
-  - talk
-  - aief2025
-  - openai
-  - stripe
-  - interview
+- talk
+- aief2025
+- openai
+- stripe
+- interview
 aliases:
-  - define-ai-engineer
+- define-ai-engineer
 sources:
-  - "AIEF2025 - #define AI Engineer - Greg Brockman, OpenAI (ft. Jensen Huang) - https://www.youtube.com/watch?v=avWhreBUYF0"
+- 'AIEF2025 - #define AI Engineer - Greg Brockman, OpenAI (ft. Jensen Huang) - https://www.youtube.com/watch?v=avWhreBUYF0'
 provenance:
   extracted: 1.0
   inferred: 0.0
@@ -22,12 +22,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/greg-brockman|Greg Brockman]]"
-    type: features
-  - target: "[[entities/jensen-huang|Jensen Huang]]"
-    type: features
-  - target: "[[entities/aief2025|AI Engineer World's Fair 2025]]"
-    type: part-of
+- target: '[[entities/greg-brockman|Greg Brockman]]'
+  type: features
+- target: '[[entities/jensen-huang|Jensen Huang]]'
+  type: features
+- target: '[[entities/aief2025|AI Engineer World''s Fair 2025]]'
+  type: part-of
+summary: 'AIEF2025 - #define AI Engineer - Greg Brockman, OpenAI (ft. Jensen Huang)'
 ---
 
 # AIEF2025 - #define AI Engineer - Greg Brockman, OpenAI (ft. Jensen Huang)

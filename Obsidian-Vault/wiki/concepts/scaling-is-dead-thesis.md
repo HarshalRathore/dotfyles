@@ -1,22 +1,30 @@
 ---
 title: Scaling is Dead Thesis
 category: concepts
-tags: [ai, scaling, reliability, architecture, inference, agents]
-aliases: [post-scaling AI, beyond scaling laws]
+tags:
+- ai
+- scaling
+- reliability
+- architecture
+- inference
+- agents
+aliases:
+- post-scaling AI
+- beyond scaling laws
 relationships:
-  - target: "[[concepts/agent-reliability-challenge]]"
-    type: related_to
-  - target: "[[concepts/action-models]]"
-    type: related_to
-  - target: "[[concepts/test-time-compute-scaling]]"
-    type: related_to
+- target: '[[concepts/agent-reliability-challenge]]'
+  type: related_to
+- target: '[[concepts/action-models]]'
+  type: related_to
+- target: '[[concepts/test-time-compute-scaling]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=1zlo9yu2ziu]]"
-  - "[[sources/watchv=8eqo4j2bwkw]]"
-summary: "The argument that scaling model size and compute alone will not solve AI reliability problems, and that architectural innovation or specialized models are needed for production-quality real-world performance."
+- 'https://www.youtube.com/watch?v=1zlo9yu2ziu'
+- 'https://www.youtube.com/watch?v=8eqo4j2bwkw'
+summary: The argument that scaling model size and compute alone will not solve AI reliability problems, and that architectural innovation or specialized models are needed for production-quality real-world p...
 provenance:
   extracted: 0.65
-  inferred: 0.30
+  inferred: 0.3
   ambiguous: 0.05
 base_confidence: 0.45
 lifecycle: draft

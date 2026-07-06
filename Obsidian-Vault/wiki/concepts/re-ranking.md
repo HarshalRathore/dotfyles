@@ -3,7 +3,7 @@ title: Re-ranking
 category: concepts
 tags: [search, ranking, two-stage-retrieval]
 aliases: [re-rank, re-ranker]
-sources: ["[[sources/ai-engineer-worlds-fair-2025-information-retrieval-from-the-ground-up-philipp-krenn]]", "[[sources/watchv=4xe_imyxbqc]]"]
+sources: ["[[sources/ai-engineer-worlds-fair-2025-information-retrieval-from-the-ground-up-philipp-krenn]]", "https://www.youtube.com/watch?v=4xe_imyxbqc"]
 summary: "Two-stage retrieval: retrieve a broad set of candidates with a cheap method, then re-score the top N with a more expensive, higher-quality model. Increasingly popular for improving search quality."
 provenance:
   extracted: 0.85

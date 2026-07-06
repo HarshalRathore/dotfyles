@@ -4,7 +4,7 @@ category: entities
 tags: [company, ai, startup, books, thebrain-pro, aief2025]
 summary: "Company founded by Łukasz Gądecki behind Books Reimagined — AI-powered multimodal book experiences. Open-sourced its player at AIEF2025."
 sources:
-  - "[[sources/watchv=kcka7rzcxlk]]"
+  - "https://www.youtube.com/watch?v=kcka7rzcxlk"
 provenance: { extracted: 1.0, inferred: 0.0, ambiguous: 0.0 }
 base_confidence: 0.95
 lifecycle: draft

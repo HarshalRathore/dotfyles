@@ -1,24 +1,34 @@
 ---
 title: Classified Data AI
 category: concepts
-tags: [classified-data, born-classified, nuclear-weapons, data-security, air-gapped, national-security, government-ai]
-summary: AI systems operating on data that is permanently classified (born-classified, never expires), creating unique constraints for model training, inference, and vendor partnerships in the national security domain.
+tags:
+- classified-data
+- born-classified
+- nuclear-weapons
+- data-security
+- air-gapped
+- national-security
+- government-ai
+summary: AI systems operating on data that is permanently classified (born-classified, never expires), creating unique constraints for model training, inference, and vendor partnerships in the national secu...
 sources:
-  - "[[sources/watchv=tnsgx36ly0q]]"
-provenance: {extracted: 0.80, inferred: 0.15, ambiguous: 0.05}
+- 'https://www.youtube.com/watch?v=tnsgx36ly0q'
+provenance:
+  extracted: 0.8
+  inferred: 0.15
+  ambiguous: 0.05
 base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
-created: 2026-07-04T12:00:00Z
-updated: 2026-07-04T12:00:00Z
+created: 2026-07-04 12:00:00+00:00
+updated: 2026-07-04 12:00:00+00:00
 relationships:
-  - target: "[[concepts/government-ai-agents]]"
-    type: extends
-  - target: "[[concepts/ai-trust-pillars]]"
-    type: uses
-  - target: "[[concepts/ai-partnership-trust]]"
-    type: related_to
+- target: '[[concepts/government-ai-agents]]'
+  type: extends
+- target: '[[concepts/ai-trust-pillars]]'
+  type: uses
+- target: '[[concepts/ai-partnership-trust]]'
+  type: related_to
 ---
 
 Classified data AI refers to the domain of AI systems that process, train on, or generate outputs from data that is permanently classified — most notably nuclear weapon physics information, which is "born classified and stays classified forever." This creates constraints that no commercial AI system has had to address.

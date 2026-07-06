@@ -11,7 +11,7 @@ relationships:
   - target: "[[concepts/ai-team-bottleneck-identification]]"
     type: related_to
 sources:
-  - "[[sources/watchv=sbuxrluvrwk]]"
+  - "https://www.youtube.com/watch?v=sbuxrluvrwk"
 summary: "The observation that technology is rarely the limiting factor for organizational success — adoption, usage, and change management are the real bottlenecks."
 provenance:
   extracted: 0.90

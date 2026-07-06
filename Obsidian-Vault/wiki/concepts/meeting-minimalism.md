@@ -1,12 +1,12 @@
 ---
-title: "Meeting Minimalism"
+title: Meeting Minimalism
 category: concepts
 tags:
-  - meetings
-  - productivity
-  - startup
-  - deep-work
-  - aief2025
+- meetings
+- productivity
+- startup
+- deep-work
+- aief2025
 summary: Intentional strategy of minimizing meetings to protect deep focus time for builders. Only founders/leaders maintain busy calendars for customer-facing activities.
 provenance:
   extracted: 0.9
@@ -19,10 +19,11 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/small-team-scaling]]"
-    type: extends
-  - target: "[[concepts/ai-native-company]]"
-    type: related_to
+- target: '[[concepts/small-team-scaling]]'
+  type: extends
+- target: '[[concepts/ai-native-company]]'
+  type: related_to
+sources: []
 ---
 
 ## Meeting Minimalism

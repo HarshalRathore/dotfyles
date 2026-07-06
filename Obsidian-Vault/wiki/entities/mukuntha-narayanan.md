@@ -1,26 +1,33 @@
 ---
 title: Mukuntha Narayanan
 category: entities
-tags: [person, machine-learning-engineer, pinterest, search-relevance, knowledge-distillation, aief2025]
+tags:
+- person
+- machine-learning-engineer
+- pinterest
+- search-relevance
+- knowledge-distillation
+- aief2025
 aliases:
-  - Mukuntha
-  - Khan
+- Mukuntha
+- Khan
 sources:
-  - "AIEF2025 - What We Learned from Using LLMs in Pinterest — Mukuntha Narayanan, Han Wang, Pinterest - https://www.youtube.com/watch?v=XdAWgO11zuk"
+- AIEF2025 - What We Learned from Using LLMs in Pinterest — Mukuntha Narayanan, Han Wang, Pinterest - https://www.youtube.com/watch?v=XdAWgO11zuk
 provenance:
   extracted: 0.95
   inferred: 0.03
   ambiguous: 0.02
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/pinterest|Pinterest]]"
-    type: works_at
-  - target: "[[entities/han-wang|Han Wang]]"
-    type: colleague_of
+- target: '[[entities/pinterest|Pinterest]]'
+  type: works_at
+- target: '[[entities/han-wang|Han Wang]]'
+  type: colleague_of
+summary: Mukuntha Narayanan
 ---
 
 # Mukuntha Narayanan

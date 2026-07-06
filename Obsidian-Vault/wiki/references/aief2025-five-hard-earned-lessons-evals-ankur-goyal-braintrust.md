@@ -15,7 +15,8 @@ tags:
 aliases: [AIEF2025 Five hard earned lessons evals, Five lessons about evals, Ankur Goyal Braintrust evals talk]
 sources:
   - "AIEF2025 - Five hard earned lessons about Evals — Ankur Goyal, Braintrust - https://www.youtube.com/watch?v=a4BV0gGmXgA"
-summary: "AIEF2025 talk by Ankur Goyal presenting five lessons: evals must provide value, must be engineered, scorers are specs, modern prompts are about context, and you must optimize the entire system.
+summary: >-
+  "AIEF2025 talk by Ankur Goyal presenting five lessons: evals must provide value, must be engineered, scorers are specs, modern prompts are about context, and you must optimize the entire system.
 provenance:
   extracted: 0.90
   inferred: 0.08

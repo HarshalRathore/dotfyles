@@ -1,23 +1,25 @@
 ---
-title: "AIEF2025 - Designing AI-Intensive Applications — swyx"
+title: AIEF2025 - Designing AI-Intensive Applications — swyx
 tags:
-  - aief2025
-  - ai-intensive
-  - agent-patterns
-  - standard-models
-  - architecture
-  - workflow
+- aief2025
+- ai-intensive
+- agent-patterns
+- standard-models
+- architecture
+- workflow
 sources:
-  - "[[sources/watchv=ihkyfhu6jey]]"
+- 'https://www.youtube.com/watch?v=ihkyfhu6jey'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+category: references
+summary: AIEF2025 - Designing AI-Intensive Applications — swyx
 ---
 
 # AIEF2025 - Designing AI-Intensive Applications — swyx

@@ -1,12 +1,19 @@
 ---
 title: Caylent
 category: entities
-tags: [company, aws-partner, enterprise-ai, genai, chatbots, copilots, agents]
-summary: "AWS Partner of the Year company co-founded by Randall Hunt. Builds enterprise AI solutions including chatbots, copilots, and AI agents. Serves hundreds of customers from Fortune 500 to startups."
+tags:
+- company
+- aws-partner
+- enterprise-ai
+- genai
+- chatbots
+- copilots
+- agents
+summary: AWS Partner of the Year company co-founded by Randall Hunt. Builds enterprise AI solutions including chatbots, copilots, and AI agents. Serves hundreds of customers from Fortune 500 to startups.
 provenance:
   extracted: 0.95
   inferred: 0.05
-  ambiguous: 0.00
+  ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-05
@@ -14,14 +21,15 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/randall-hunt]]"
-    type: related_to
-  - target: "[[entities/aws]]"
-    type: related_to
-  - target: "[[entities/brainbox-ai]]"
-    type: related_to
-  - target: "[[entities/nature-footage]]"
-    type: related_to
+- target: '[[entities/randall-hunt]]'
+  type: related_to
+- target: '[[entities/aws]]'
+  type: related_to
+- target: '[[entities/brainbox-ai]]'
+  type: related_to
+- target: '[[entities/nature-footage]]'
+  type: related_to
+sources: []
 ---
 
 **Caylent** (formerly Kalen) is a software development and AI consulting company based in the United States. It is an AWS Partner of the Year winner and co-founded by **[[entities/randall-hunt|Randall Hunt]].**

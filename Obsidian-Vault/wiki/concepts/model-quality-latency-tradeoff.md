@@ -1,18 +1,18 @@
 ---
-title: "Model Quality vs Latency Tradeoff"
+title: Model Quality vs Latency Tradeoff
 category: concepts
 tags:
-  - model-selection
-  - performance
-  - quality
-  - inference
-  - local-ai
+- model-selection
+- performance
+- quality
+- inference
+- local-ai
 sources:
-  - "AIEF2025 - Foundry Local: Cutting-Edge AI experiences on device with ONNX Runtime/Olive — Emma Ning, Microsoft - https://www.youtube.com/watch?v=l614N5W60ls"
-summary: "The fundamental tradeoff in on-device AI between model size/quality and inference speed — larger models produce better outputs but run slower, smaller models are faster but less capable. Developers must select based on their application's requirements."
+- 'AIEF2025 - Foundry Local: Cutting-Edge AI experiences on device with ONNX Runtime/Olive — Emma Ning, Microsoft - https://www.youtube.com/watch?v=l614N5W60ls'
+summary: The fundamental tradeoff in on-device AI between model size/quality and inference speed — larger models produce better outputs but run slower, smaller models are faster but less capable. Developers...
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.65
 lifecycle: draft
@@ -21,10 +21,10 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/quantization-inference|Quantization for Inference]]"
-    type: complements
-  - target: "[[concepts/on-device-inference|On-Device Inference]]"
-    type: applies_to
+- target: '[[concepts/quantization-inference|Quantization for Inference]]'
+  type: complements
+- target: '[[concepts/on-device-inference|On-Device Inference]]'
+  type: applies_to
 ---
 
 # Model Quality vs Latency Tradeoff

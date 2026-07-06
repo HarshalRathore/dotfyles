@@ -1,23 +1,25 @@
 ---
-title: "Mike Chambers"
+title: Mike Chambers
+category: entities
 tags:
-  - person
-  - developer-advocate
-  - aws
-  - generative-ai
-  - llm
+- person
+- developer-advocate
+- aws
+- generative-ai
+- llm
 sources:
-  - "[[sources/watchv=ht4l0dep69i]]"
-summary: "Developer Advocate for Amazon Web Services, specializing in generative AI. Co-created the DeepLearning.AI 'Fundamentals of LLMs' course with Dr. Andrew Ng, taken by over 370,000 people.
+- https://www.youtube.com/watch?v=ht4l0dep69i
+summary: Developer Advocate for Amazon Web Services, specializing in generative AI. Co-created the DeepLearning.AI 'Fundamentals of LLMs' course with Dr. Andrew Ng, taken by over 370,000 people.
 provenance:
-  extracted: 0.95
-  inferred: 0.03
-  ambiguous: 0.02
-base_confidence: 0.85
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+base_confidence: 0.42
 lifecycle: draft
+lifecycle_changed: '2026-07-06'
 tier: supporting
-created: 2026-07-04
-updated: 2026-07-04
+created: '2026-07-04'
+updated: '2026-07-04'
 ---
 # Mike Chambers
 

@@ -1,18 +1,18 @@
 ---
-title: "Yesu Feng"
+title: Yesu Feng
 tags:
-  - person
-  - netflix
-  - recommendation-systems
-  - recsys
+- person
+- netflix
+- recommendation-systems
+- recsys
 aliases:
-  - Yesu Feng Netflix
-  - Yisoo Feng
+- Yesu Feng Netflix
+- Yisoo Feng
 sources:
-  - "[[sources/watchv=abz4iygbfpq]]"
-summary: "Netflix engineer who architected the company's unified recommendation foundation model, a single transformer-based model covering all personalization use cases."
+- 'https://www.youtube.com/watch?v=abz4iygbfpq'
+summary: Netflix engineer who architected the company's unified recommendation foundation model, a single transformer-based model covering all personalization use cases.
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.55
@@ -20,11 +20,12 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Yesu Feng
 
-Engineer at [[Netflix]] leading the development of a unified transformer-based foundation model for recommendation and personalization across all Netflix surfaces. Presented this work at AI Engineer World's Fair 2025 (AIEF2025), introduced by [[entities/eugene-yan|Eugene Yan]]. ^[extracted]
+Engineer at [[entities/netflix]] leading the development of a unified transformer-based foundation model for recommendation and personalization across all Netflix surfaces. Presented this work at AI Engineer World's Fair 2025 (AIEF2025), introduced by [[entities/eugene-yan|Eugene Yan]]. ^[extracted]
 
 ## Key Contributions
 

@@ -1,24 +1,25 @@
 ---
-title: "MCP Permission Gate"
+title: MCP Permission Gate
 category: concepts
 tags:
-  - mcp
-  - permission
-  - security
-  - github-copilot
-  - agent-mode
-  - user-gate
+- mcp
+- permission
+- security
+- github-copilot
+- agent-mode
+- user-gate
 sources:
-  - "[[sources/watchv=rkvilz06y08]]"
+- 'https://www.youtube.com/watch?v=rkvilz06y08'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: MCP Permission Gate
 ---
 
 # MCP Permission Gate

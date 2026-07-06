@@ -1,17 +1,26 @@
 ---
 type: concept
-title: "Asymmetric Encryption"
+title: Asymmetric Encryption
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/tls-certificates_c8ca8c]]"
+- '[[sources/tls-certificates_c8ca8c]]'
 tags:
-  - tls
+- tls
 aliases:
-  - Asymmetric Cryptography
-  - "Public-key Encryption"
+- Asymmetric Cryptography
+- Public-key Encryption
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Asymmetric Encryption
 ---
 # Asymmetric Encryption
 

@@ -1,17 +1,17 @@
 ---
-title: "Collaborative Problem-Solving"
+title: Collaborative Problem-Solving
 category: concepts
 tags:
-  - teamwork
-  - parallel-development
-  - engineering-culture
-  - rapid-delivery
+- teamwork
+- parallel-development
+- engineering-culture
+- rapid-delivery
 aliases:
-  - collaborative-problem-solving
+- collaborative-problem-solving
 sources:
-  - "AIEF2025 - #define AI Engineer - Greg Brockman, OpenAI (ft. Jensen Huang) - https://www.youtube.com/watch?v=avWhreBUYF0"
+- 'AIEF2025 - #define AI Engineer - Greg Brockman, OpenAI (ft. Jensen Huang) - https://www.youtube.com/watch?v=avWhreBUYF0'
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.65
@@ -21,10 +21,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/stripe|Stripe]]"
-    type: exemplified-by
-  - target: "[[entities/greg-brockman|Greg Brockman]]"
-    type: practiced-by
+- target: '[[entities/stripe|Stripe]]'
+  type: exemplified-by
+- target: '[[entities/greg-brockman|Greg Brockman]]'
+  type: practiced-by
+summary: Collaborative Problem-Solving
 ---
 
 # Collaborative Problem-Solving

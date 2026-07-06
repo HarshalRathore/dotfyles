@@ -1,30 +1,30 @@
 ---
-title: "Semantic Video Tokenization"
+title: Semantic Video Tokenization
 category: concepts
 tags:
-  - recommendation-systems
-  - tokenization
-  - embeddings
-  - semantic-ids
-  - youtube
-  - recsys
+- recommendation-systems
+- tokenization
+- embeddings
+- semantic-ids
+- youtube
+- recsys
 aliases:
-  - Semantic ID
-  - SID
-  - Video Semantic Tokenization
+- Semantic ID
+- SID
+- Video Semantic Tokenization
 relationships:
-  - target: "[[concepts/semantic-ids]]"
-    type: extends
-  - target: "[[concepts/rqvae-quantization]]"
-    type: uses
-  - target: "[[concepts/large-recommender-model]]"
-    type: uses
+- target: '[[concepts/semantic-ids]]'
+  type: extends
+- target: '[[concepts/rqvae-quantization]]'
+  type: uses
+- target: '[[concepts/large-recommender-model]]'
+  type: uses
 sources:
-  - "[[sources/watchv=lxqsq3vzdqo]]"
-summary: "YouTube's approach to tokenizing videos into semantically meaningful tokens using multi-modal feature extraction and RQVAE quantization, replacing hash-based IDs to enable LLM-based video recommendations."
+- 'https://www.youtube.com/watch?v=lxqsq3vzdqo'
+summary: YouTube's approach to tokenizing videos into semantically meaningful tokens using multi-modal feature extraction and RQVAE quantization, replacing hash-based IDs to enable LLM-based video recommend...
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.65
 lifecycle: draft

@@ -1,18 +1,20 @@
 ---
-title: "Arize"
+title: Arize
 category: entities
 tags:
-  - company
-  - ai
-  - observability
-  - mcp
-  - open-inference
-  - aief2025
-aliases: [Arize, arize-ai]
+- company
+- ai
+- observability
+- mcp
+- open-inference
+- aief2025
+aliases:
+- Arize
+- arize-ai
 sources:
-  - "[[sources/watchv=lcqat4ip_le]]"
+- 'https://www.youtube.com/watch?v=lcqat4ip_le'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -22,12 +24,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/open-inference]]"
-    type: related_to
-  - target: "[[concepts/mcp-observability]]"
-    type: related_to
-  - target: "[[concepts/semantic-conventions]]"
-    type: related_to
+- target: '[[concepts/open-inference]]'
+  type: related_to
+- target: '[[concepts/mcp-observability]]'
+  type: related_to
+- target: '[[concepts/semantic-conventions]]'
+  type: related_to
+summary: Arize
 ---
 
 # Arize

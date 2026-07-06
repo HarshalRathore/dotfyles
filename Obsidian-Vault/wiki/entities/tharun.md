@@ -1,26 +1,26 @@
 ---
-title: "Tharun"
+title: Tharun
 category: entities
 tags:
-  - person
-  - engineer
-  - research-engineer
-  - datalab
+- person
+- engineer
+- research-engineer
+- datalab
 relationships:
-  - target: "[[entities/datalab|Datalab]]"
-    type: implements
-  - target: "[[entities/vik-paruchuri|Vik Paruchuri]]"
-    type: related_to
-  - target: "[[entities/surya|Surya OCR]]"
-    type: implements
+- target: '[[entities/datalab|Datalab]]'
+  type: implements
+- target: '[[entities/vik-paruchuri|Vik Paruchuri]]'
+  type: related_to
+- target: '[[entities/surya|Surya OCR]]'
+  type: implements
 sources:
-  - "[[sources/watchv=k-iykdmfkhe]]"
-summary: "Research engineer at Datalab. Co-developed Surya OCR3 end-to-end with Vik Paruchuri, handling customer discovery, architecture, data pipeline building, model training, inference code, and customer integration."
+- 'https://www.youtube.com/watch?v=k-iykdmfkhe'
+summary: Research engineer at Datalab. Co-developed Surya OCR3 end-to-end with Vik Paruchuri, handling customer discovery, architecture, data pipeline building, model training, inference code, and customer...
 provenance:
   extracted: 0.95
   inferred: 0.05
-  ambiguous: 0.00
-base_confidence: 0.80
+  ambiguous: 0.0
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting

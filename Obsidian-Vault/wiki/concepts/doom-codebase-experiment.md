@@ -1,19 +1,19 @@
 ---
-title: "Doom Codebase Experiment"
+title: Doom Codebase Experiment
 category: concepts
 tags:
-  - graphrag
-  - code-understanding
-  - microsoft-research
-  - demonstration
-  - large-codebase
+- graphrag
+- code-understanding
+- microsoft-research
+- demonstration
+- large-codebase
 aliases:
-  - Doom experiment
-  - Doom GraphRAG demo
+- Doom experiment
+- Doom GraphRAG demo
 sources:
-  - "AIEF2025 - GraphRAG methods to create optimized LLM context windows for Retrieval — Jonathan Larson, Microsoft - https://www.youtube.com/watch?v=c5qJHr3DnT4"
+- AIEF2025 - GraphRAG methods to create optimized LLM context windows for Retrieval — Jonathan Larson, Microsoft - https://www.youtube.com/watch?v=c5qJHr3DnT4
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -23,12 +23,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/graphrag-code|GraphRAG for Code]]"
-    type: demonstrates
-  - target: "[[concepts/structural-vs-superficial-understanding|Structural vs. Superficial Understanding in Code]]"
-    type: demonstrates
-  - target: "[[concepts/multi-file-modification|Multi-File Modification Challenge]]"
-    type: demonstrates
+- target: '[[concepts/graphrag-code|GraphRAG for Code]]'
+  type: demonstrates
+- target: '[[concepts/structural-vs-superficial-understanding|Structural vs. Superficial Understanding in Code]]'
+  type: demonstrates
+- target: '[[concepts/multi-file-modification|Multi-File Modification Challenge]]'
+  type: demonstrates
+summary: Doom Codebase Experiment
 ---
 
 # Doom Codebase Experiment

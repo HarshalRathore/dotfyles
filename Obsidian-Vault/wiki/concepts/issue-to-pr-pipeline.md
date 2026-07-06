@@ -1,30 +1,32 @@
 ---
-title: "Issue-to-PR Pipeline"
+title: Issue-to-PR Pipeline
 tags:
-  - issue-to-pr
-  - autonomous-agents
-  - github
-  - copilot
-  - coding-agent
-  - aief2025
-summary: "The autonomous pipeline where a GitHub Issue is assigned to a coding agent, which creates a branch, implements, tests, and opens a PR — with human review as the final gate."
+- issue-to-pr
+- autonomous-agents
+- github
+- copilot
+- coding-agent
+- aief2025
+summary: The autonomous pipeline where a GitHub Issue is assigned to a coding agent, which creates a branch, implements, tests, and opens a PR — with human review as the final gate.
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/github-copilot|GitHub Copilot]]"
-    type: feature-of
-  - target: "[[concepts/coding-agent-security-model|Coding Agent Security Model]]"
-    type: constrains
-  - target: "[[concepts/copilot-workload-spectrum|Copilot Workload Spectrum]]"
-    type: exemplifies
+- target: '[[entities/github-copilot|GitHub Copilot]]'
+  type: feature-of
+- target: '[[concepts/coding-agent-security-model|Coding Agent Security Model]]'
+  type: constrains
+- target: '[[concepts/copilot-workload-spectrum|Copilot Workload Spectrum]]'
+  type: exemplifies
+category: concepts
+sources: []
 ---
 
 # Issue-to-PR Pipeline

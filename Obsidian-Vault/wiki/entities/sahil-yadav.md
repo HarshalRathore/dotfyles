@@ -1,24 +1,26 @@
 ---
-title: "Sahil Yadav"
+title: Sahil Yadav
 tags:
-  - person
-  - speaker
-  - ai-eng-fair-2025
-  - trust
-  - iot
-aliases: [Sahil Yadav Telemetrak]
+- person
+- speaker
+- ai-eng-fair-2025
+- trust
+- iot
+aliases:
+- Sahil Yadav Telemetrak
 sources:
-  - "[[sources/watchv=6tpm4m1yxhk]]"
-summary: "AI practitioner with 10 years deploying AI across health monitoring, industrial IoT, and telecom network automation. Co-presenter at AI Engineer World's Fair 2025 on trustworthy AI inference."
+- 'https://www.youtube.com/watch?v=6tpm4m1yxhk'
+summary: AI practitioner with 10 years deploying AI across health monitoring, industrial IoT, and telecom network automation. Co-presenter at AI Engineer World's Fair 2025 on trustworthy AI inference.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.18
   ambiguous: 0.02
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Sahil Yadav

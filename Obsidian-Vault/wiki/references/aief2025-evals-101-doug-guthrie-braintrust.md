@@ -1,33 +1,34 @@
 ---
-title: "Evals 101 — Doug Guthrie, Braintrust"
+title: Evals 101 — Doug Guthrie, Braintrust
 category: references
 tags:
-  - evals
-  - intro
-  - braintrust
-  - aief2025
-  - evaluation-methodology
+- evals
+- intro
+- braintrust
+- aief2025
+- evaluation-methodology
 sources:
-  - "AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY"
+- AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY
 provenance:
   extracted: 0.95
   inferred: 0.05
-  ambiguous: 0.00
-base_confidence: 0.90
+  ambiguous: 0.0
+base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/eval-flywheel-effect|Eval Flywheel Effect]]"
-    type: introduces
-  - target: "[[concepts/eval-baseline-first|Eval Baseline First]]"
-    type: introduces
-  - target: "[[concepts/eval-ingredients-task-dataset-score|Eval Ingredients: Task, Dataset, Score]]"
-    type: elaborates
-  - target: "[[entities/braintrust|Braintrust]]"
-    type: represents
+- target: '[[concepts/eval-flywheel-effect|Eval Flywheel Effect]]'
+  type: introduces
+- target: '[[concepts/eval-baseline-first|Eval Baseline First]]'
+  type: introduces
+- target: '[[concepts/eval-ingredients-task-dataset-score|Eval Ingredients: Task, Dataset, Score]]'
+  type: elaborates
+- target: '[[entities/braintrust|Braintrust]]'
+  type: represents
+summary: Evals 101 — Doug Guthrie, Braintrust
 ---
 
 # Evals 101 — Doug Guthrie, Braintrust

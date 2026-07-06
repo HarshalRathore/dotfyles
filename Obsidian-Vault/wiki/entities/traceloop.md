@@ -16,16 +16,16 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/nir-gazit.md]]"
+  - target: "[[entities/nir-gazit]]"
     type: related_to
   - target: "[[concepts/llm-observability.md]]"
     type: related_to
-  - target: "[[concepts/rag-pipeline-architecture.md]]"
+  - target: "[[concepts/rag-pipeline-architecture]]"
     type: related_to
 ---
 
 # Traceloop
 
-[[entities/nir-gazit.md|Nir Gazit]]'s company — an LLM observability and agent infrastructure platform. Traceloop provides tools for tracing, evaluating, and improving LLM-based applications, including RAG pipelines and agentic systems.
+[[entities/nir-gazit|Nir Gazit]]'s company — an LLM observability and agent infrastructure platform. Traceloop provides tools for tracing, evaluating, and improving LLM-based applications, including RAG pipelines and agentic systems.
 
 The company's own website features a RAG-based chatbot that answers questions about Traceloop documentation, which Gazit used as the subject of his AIEF2025 talk about auto-improving agent loops.

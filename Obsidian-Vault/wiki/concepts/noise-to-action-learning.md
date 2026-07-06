@@ -1,32 +1,26 @@
 ---
-title: "Noise-to-Action Learning"
+title: Noise-to-Action Learning
 category: concepts
 tags:
-  - noise-to-action
-  - robotics
-  - sensor-noise
-  - imitation-learning
-  - action-prediction
-  - nvidia
-  - groot
-summary: "A learning paradigm in robotics where models learn to predict actions from noisy sensor observations — because sensors don't capture action perfectly, the model must learn to map imperfect observations to correct control signals.
+- noise-to-action
+- robotics
+- sensor-noise
+- imitation-learning
+- action-prediction
+- nvidia
+- groot
+sources: []
+summary: A learning paradigm in robotics where models learn to predict actions from noisy sensor observations — because sensors don't capture action perfectly, the model must learn to map imperfect observat...
 provenance:
-  extracted: 0.80
-  inferred: 0.15
-  ambiguous: 0.05
-base_confidence: 0.75
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+base_confidence: 0.42
 lifecycle: draft
-lifecycle_changed: 2026-07-05
+lifecycle_changed: '2026-07-05'
 tier: supporting
-created: 2026-07-05
-updated: 2026-07-05
-relationships:
-  - target: "[[entities/nvidia-gr00t|NVIDIA Project GR00T]]"
-    type: used_by
-  - target: "[[concepts/robot-state-action|Robot State and Action]]"
-    type: relates_to
-  - target: "[[concepts/imitation-learning|Imitation Learning]]"
-    type: extends
+created: '2026-07-05'
+updated: '2026-07-05'
 ---
 
 # Noise-to-Action Learning

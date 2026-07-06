@@ -1,20 +1,26 @@
 ---
-title: "Client-Initiated Backchannel Authentication (CIBA)"
+title: Client-Initiated Backchannel Authentication (CIBA)
 tags:
-  - agent
-  - identity
-  - auth
-  - oauth
-  - security
-  - headless
-  - protocol
+- agent
+- identity
+- auth
+- oauth
+- security
+- headless
+- protocol
 sources:
-  - "[[sources/watchv=fzomsupg37e]]"
-summary: "An OAuth flow enabling authentication and consent for headless agents without a browser UI, using push notifications to a user's trusted device for approval."
+- 'https://www.youtube.com/watch?v=fzomsupg37e'
+summary: An OAuth flow enabling authentication and consent for headless agents without a browser UI, using push notifications to a user's trusted device for approval.
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
 ---
 # Client-Initiated Backchannel Authentication (CIBA)
 

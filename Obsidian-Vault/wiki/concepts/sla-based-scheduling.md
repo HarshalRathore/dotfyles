@@ -4,7 +4,7 @@ category: concepts
 tags: [sla, scheduling, aging, priority, multi-tenant, fair-scheduling]
 summary: A scheduling approach where job priority is determined by the percentage of their service-level objective (SLA) consumed, producing fair resource allocation across user tiers.
 sources:
-  - "[[sources/watchv=ey4o9m6aswi]]"
+  - "https://www.youtube.com/watch?v=ey4o9m6aswi"
 provenance:
   extracted: 0.85
   inferred: 0.10
@@ -16,13 +16,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[fair-scheduling]]"
+  - target: "[[concepts/fair-scheduling]]"
     type: extends
-  - target: "[[work-starvation]]"
+  - target: "[[concepts/work-starvation]]"
     type: related_to
-  - target: "[[back-pressure]]"
+  - target: "[[concepts/back-pressure]]"
     type: related_to
-  - target: "[[gpu-scaling]]"
+  - target: "[[concepts/gpu-scaling]]"
     type: related_to
 ---
 

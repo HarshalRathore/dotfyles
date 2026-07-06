@@ -1,19 +1,19 @@
 ---
-title: "Voice-Activated Software"
+title: Voice-Activated Software
 category: concepts
 tags:
-  - voice
-  - ai
-  - windsurf
-  - interface
-  - ambient
-  - coding
-summary: "The vision of software development through voice interaction — coding from bed, the toilet, or the bus via voice-activated AI assistants like Alexa. Represents the interface frontier of always-on AI in software engineering."
+- voice
+- ai
+- windsurf
+- interface
+- ambient
+- coding
+summary: The vision of software development through voice interaction — coding from bed, the toilet, or the bus via voice-activated AI assistants like Alexa. Represents the interface frontier of always-on A...
 sources:
-  - "[[sources/watchv=jvunpl5qo8q]]"
+- 'https://www.youtube.com/watch?v=jvunpl5qo8q'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.65
 lifecycle: draft

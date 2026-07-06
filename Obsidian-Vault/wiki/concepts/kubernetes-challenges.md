@@ -1,33 +1,36 @@
 ---
-title: "Kubernetes Challenges"
+title: Kubernetes Challenges
 category: concepts
 tags:
-  - kubernetes
-  - infrastructure
-  - complexity
-  - fixed-cost
-  - platform
-  - enterprise
-summary: The operational and economic challenges of running Kubernetes for workloads it wasn't designed for — high fixed costs, complexity, and vendor lock-in that make it a poor fit for certain deployment models.
+- kubernetes
+- infrastructure
+- complexity
+- fixed-cost
+- platform
+- enterprise
+summary: The operational and economic challenges of running Kubernetes for workloads it wasn't designed for — high fixed costs, complexity, and vendor lock-in that make it a poor fit for certain deployment...
 sources:
-  - "AIEF2025 - Building agent fleet architectures your CISO doesn't hate — Lou Bichard, Gitpod - https://www.youtube.com/watch?v=d9rsC6_VLoA"
+- AIEF2025 - Building agent fleet architectures your CISO doesn't hate — Lou Bichard, Gitpod - https://www.youtube.com/watch?v=d9rsC6_VLoA
 provenance:
-  extracted: 0.70
-  inferred: 0.30
-  ambiguous: 0.00
-base_confidence: 0.80
+  extracted: 0.7
+  inferred: 0.3
+  ambiguous: 0.0
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: [[concepts/agent-fleet-architecture|Agent Fleet Architecture]]
-    type: motivates
-  - target: [[concepts/first-principles-design|First-Principles Design]]
-    type: motivates
-  - target: [[concepts/managed-substrate|Managed Substrate]]
-    type: limitation-of
+- target:
+  - - concepts/agent-fleet-architecture|Agent Fleet Architecture
+  type: motivates
+- target:
+  - - concepts/first-principles-design|First-Principles Design
+  type: motivates
+- target:
+  - - concepts/managed-substrate|Managed Substrate
+  type: limitation-of
 ---
 
 # Kubernetes Challenges

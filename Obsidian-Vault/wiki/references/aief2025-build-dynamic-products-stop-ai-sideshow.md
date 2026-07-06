@@ -1,16 +1,16 @@
 ---
-title: "Build Dynamic Products, and Stop the AI Sideshow — Eliza Cabrera (Workday) + Jeremy Silva (Freeplay)"
+title: Build Dynamic Products, and Stop the AI Sideshow — Eliza Cabrera (Workday) + Jeremy Silva (Freeplay)
 category: references
 tags:
-  - reference
-  - talk
-  - aief2025
-  - product-strategy
-  - ai-integration
-  - crawl-walk-run
+- reference
+- talk
+- aief2025
+- product-strategy
+- ai-integration
+- crawl-walk-run
 sources:
-  - "[[sources/watchv=cb-4nkdynrs]]"
-summary: "AI Engineer World's Fair 2025 talk by Eliza Cabrera (Workday) and Jeremy Silva (Freeplay) arguing against bolt-on AI features and presenting the crawl-walk-run framework for deeply integrating AI into products."
+- 'https://www.youtube.com/watch?v=cb-4nkdynrs'
+summary: AI Engineer World's Fair 2025 talk by Eliza Cabrera (Workday) and Jeremy Silva (Freeplay) arguing against bolt-on AI features and presenting the crawl-walk-run framework for deeply integrating AI i...
 provenance:
   extracted: 0.85
   inferred: 0.12

@@ -1,35 +1,36 @@
 ---
-title: "Proactive Agents"
+title: Proactive Agents
 category: concepts
 tags:
-  - proactive-agents
-  - agentic-workflows
-  - react-agents
-  - planning
-  - enterprise-ai
+- proactive-agents
+- agentic-workflows
+- react-agents
+- planning
+- enterprise-ai
 aliases:
-  - proactive agent
-  - beyond react
-  - reactive to proactive
+- proactive agent
+- beyond react
+- reactive to proactive
 sources:
-  - "AIEF2025 - How to Build Planning Agents without losing control - Yogendra Miraje, Factset - https://www.youtube.com/watch?v=sl3icG-IjHo"
+- AIEF2025 - How to Build Planning Agents without losing control - Yogendra Miraje, Factset - https://www.youtube.com/watch?v=sl3icG-IjHo
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/agentic-workflow-vs-workflow-agent|Agentic Workflow vs Workflow Agent]]"
-    type: enables
-  - target: "[[concepts/sub-goal-division|Sub-goal Division]]"
-    type: uses
-  - target: "[[concepts/agent-evolution|Agent Evolution]]"
-    type: extends
+- target: '[[concepts/agentic-workflow-vs-workflow-agent|Agentic Workflow vs Workflow Agent]]'
+  type: enables
+- target: '[[concepts/sub-goal-division|Sub-goal Division]]'
+  type: uses
+- target: '[[concepts/agent-evolution|Agent Evolution]]'
+  type: extends
+summary: Proactive Agents
 ---
 
 # Proactive Agents

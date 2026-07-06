@@ -1,24 +1,26 @@
 ---
-title: "Keiji Kanazawa"
+title: Keiji Kanazawa
 category: entities
 tags:
-  - person
-  - microsoft
-  - azure-ai-foundry
-  - ai-red-teaming
-  - aief2025
-aliases: [Keiji Kanazawa, KG]
+- person
+- microsoft
+- azure-ai-foundry
+- ai-red-teaming
+- aief2025
+aliases:
+- Keiji Kanazawa
+- KG
 relationships:
-  - target: "[[entities/azure-ai-foundry]]"
-    type: uses
-  - target: "[[entities/microsoft-ai-red-team]]"
-    type: related_to
-  - target: "[[concepts/layered-agent-safety]]"
-    type: related_to
+- target: '[[entities/azure-ai-foundry]]'
+  type: uses
+- target: '[[entities/microsoft-ai-red-team]]'
+  type: related_to
+- target: '[[concepts/layered-agent-safety]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=jhjkgramfiu]]"
+- 'https://www.youtube.com/watch?v=jhjkgramfiu'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
 base_confidence: 0.85
@@ -26,6 +28,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Keiji Kanazawa
 ---
 
 # Keiji Kanazawa

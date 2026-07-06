@@ -2,29 +2,29 @@
 title: High-Bandwidth Feedback
 category: concepts
 tags:
-  - feedback
-  - user-research
-  - product-development
-  - metrics
-  - observation
-summary: High-quality, high-bandwidth feedback from real users — through direct observation, personal relationships, and deep engagement — rather than surface-level metrics and dashboards. The difference between quantitative signals and qualitative understanding.
+- feedback
+- user-research
+- product-development
+- metrics
+- observation
+summary: High-quality, high-bandwidth feedback from real users — through direct observation, personal relationships, and deep engagement — rather than surface-level metrics and dashboards. The difference be...
 sources:
-  - AIEF2025 - Shipping something to someone always wins — Kenneth Auchenberg (ex. Stripe, VSCode) - https://www.youtube.com/watch?v=mHzJhXppwUA
+- AIEF2025 - Shipping something to someone always wins — Kenneth Auchenberg (ex. Stripe, VSCode) - https://www.youtube.com/watch?v=mHzJhXppwUA
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
-created: 2026-07-05T00:00:00Z
-updated: 2026-07-05T00:00:00Z
+created: 2026-07-05 00:00:00+00:00
+updated: 2026-07-05 00:00:00+00:00
 relationships:
-  - target: "[[concepts/rapid-iteration-loop]]"
-    type: extends
-  - target: "[[concepts/llm-evaluation-framework]]"
-    type: related_to
+- target: '[[concepts/rapid-iteration-loop]]'
+  type: extends
+- target: '[[concepts/llm-evaluation-framework]]'
+  type: related_to
 ---
 
 ## Definition

@@ -1,18 +1,18 @@
 ---
-title: "AIEF2025 - Pipecat Cloud: Enterprise Voice Agents Built On Open Source"
+title: 'AIEF2025 - Pipecat Cloud: Enterprise Voice Agents Built On Open Source'
 category: references
 tags:
-  - aief2025
-  - voice-ai
-  - pipecat
-  - cloud
-  - enterprise
-  - open-source
-  - real-time
+- aief2025
+- voice-ai
+- pipecat
+- cloud
+- enterprise
+- open-source
+- real-time
 sources:
-  - "[[sources/watchv=ia4lzjh9sts]]"
+- 'https://www.youtube.com/watch?v=ia4lzjh9sts'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -21,12 +21,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/pipe-cat]]"
-    type: related_to
-  - target: "[[entities/daily]]"
-    type: related_to
-  - target: "[[concepts/voice-ai-latency]]"
-    type: related_to
+- target: '[[entities/pipe-cat]]'
+  type: related_to
+- target: '[[entities/daily]]'
+  type: related_to
+- target: '[[concepts/voice-ai-latency]]'
+  type: related_to
+summary: 'AIEF2025 - Pipecat Cloud: Enterprise Voice Agents Built On Open Source'
 ---
 
 # AIEF2025 - Pipecat Cloud: Enterprise Voice Agents Built On Open Source

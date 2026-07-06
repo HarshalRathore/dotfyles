@@ -1,35 +1,36 @@
 ---
-title: "Every"
+title: Every
 category: entities
 tags:
-  - company
-  - startup
-  - ai-native
-  - small-team
-  - aief2025
+- company
+- startup
+- ai-native
+- small-team
+- aief2025
 aliases:
-  - Every company
-  - Every.ai
-summary: "A 15-person AI-native company run by Dan Shipper, operating 6 business units and 4 software products with 99% AI-written code, 7K+ paying subscribers, and only $1M raised."
+- Every company
+- Every.ai
+summary: A 15-person AI-native company run by Dan Shipper, operating 6 business units and 4 software products with 99% AI-written code, 7K+ paying subscribers, and only $1M raised.
 provenance:
   extracted: 0.95
   inferred: 0.04
   ambiguous: 0.01
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/dan-shipper|Dan Shipper]]"
-    type: implements
-  - target: "[[concepts/ai-native-company|AI-Native Company]]"
-    type: implements
-  - target: "[[concepts/compounding-engineering|Compounding Engineering]]"
-    type: implements
-  - target: "[[concepts/small-ai-teams|Small AI Teams with Huge Impact]]"
-    type: related_to
+- target: '[[entities/dan-shipper|Dan Shipper]]'
+  type: implements
+- target: '[[concepts/ai-native-company|AI-Native Company]]'
+  type: implements
+- target: '[[concepts/compounding-engineering|Compounding Engineering]]'
+  type: implements
+- target: '[[concepts/small-ai-teams|Small AI Teams with Huge Impact]]'
+  type: related_to
+sources: []
 ---
 
 # Every

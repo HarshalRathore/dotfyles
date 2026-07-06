@@ -1,36 +1,24 @@
 ---
-title: "Agent Code Sandbox Security"
+title: Agent Code Sandbox Security
 category: concepts
 tags:
-  - code-execution
-  - sandbox
-  - agent-security
-  - security
-  - arbitrary-compute
-aliases:
-  - code sandbox security
-  - agent code execution
-  - sandbox security
- - "AIEF2025 - How we hacked YC Spring 2025 batch's AI agents — Rene Brandel, Casco - https://www.youtube.com/watch?v=kv-QAuKWllQ"
- - "AIEF2025 - Software Development Agents: What Works and What Doesn't - Robert Brennan, OpenHands - https://www.youtube.com/watch?v=o_hhkJtlbSs"
-summary: "Security risks of code execution sandboxes in AI agents — arbitrary compute creates attack surfaces through sandbox escape, resource exhaustion, and system prompt inversion."
+- code-execution
+- sandbox
+- agent-security
+- security
+- arbitrary-compute
+sources: []
+summary: Security risks of code execution sandboxes in AI agents — arbitrary compute creates attack surfaces through sandbox escape, resource exhaustion, and system prompt inversion.
 provenance:
-  extracted: 0.85
-  inferred: 0.10
-  ambiguous: 0.05
-base_confidence: 0.80
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+base_confidence: 0.42
 lifecycle: draft
-lifecycle_changed: 2026-07-04
+lifecycle_changed: '2026-07-05'
 tier: supporting
-created: 2026-07-04
-updated: 2026-07-04
-relationships:
-  - target: "[[concepts/agent-security|Agent Security]]"
-    type: related_to
-  - target: "[[concepts/system-prompt-security|System Prompt Security]]"
-    type: related_to
-  - target: "[[concepts/compute-abuse|Compute Abuse]]"
-    type: related_to
+created: '2026-07-04'
+updated: '2026-07-04'
 ---
 
 # Agent Code Sandbox Security

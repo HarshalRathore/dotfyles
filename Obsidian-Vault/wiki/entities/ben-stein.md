@@ -1,17 +1,19 @@
 ---
-title: "Ben Stein"
+title: Ben Stein
 category: entities
 tags:
-  - person
-  - founder
-  - product-management
-  - teammates
-  - aief2025
-aliases: [Ben Stein, ben-stein]
+- person
+- founder
+- product-management
+- teammates
+- aief2025
+aliases:
+- Ben Stein
+- ben-stein
 sources:
-  - "[[sources/watchv=pthmdt92qng]]"
+- 'https://www.youtube.com/watch?v=pthmdt92qng'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -21,12 +23,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/teammates]]"
-    type: co_founded
-  - target: "[[concepts/affordance-thinking]]"
-    type: introduces
-  - target: "[[concepts/emergent-behavior-in-ai]]"
-    type: discusses
+- target: '[[entities/teammates]]'
+  type: co_founded
+- target: '[[concepts/affordance-thinking]]'
+  type: introduces
+- target: '[[concepts/emergent-behavior-in-ai]]'
+  type: discusses
+summary: Ben Stein
 ---
 
 # Ben Stein

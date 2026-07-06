@@ -1,17 +1,17 @@
 ---
-title: "AIEF2025 - Production software keeps breaking and it will only get worse — Anish Agarwal, Traversal.ai"
+title: AIEF2025 - Production software keeps breaking and it will only get worse — Anish Agarwal, Traversal.ai
 tags:
-  - production-troubleshooting
-  - causal-machine-learning
-  - agent-swarm
-  - aiops
-  - observability
-  - mttr
-  - conference-talk
-  - ai-eng-worlds-fair-2025
+- production-troubleshooting
+- causal-machine-learning
+- agent-swarm
+- aiops
+- observability
+- mttr
+- conference-talk
+- ai-eng-worlds-fair-2025
 sources:
-  - "[[sources/watchv=l6_nigiexzq]]"
-summary: Traversal.ai founders Anish Agarwal and Matt argue that AI coding tools will make production troubleshooting exponentially harder, and present causal ML + reasoning models + agent swarms as the solution — validated at DigitalOcean with 40% MTTR reduction.
+- 'https://www.youtube.com/watch?v=l6_nigiexzq'
+summary: Traversal.ai founders Anish Agarwal and Matt argue that AI coding tools will make production troubleshooting exponentially harder, and present causal ML + reasoning models + agent swarms as the sol...
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -23,20 +23,21 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/traversal-ai]]"
-    type: related_to
-  - target: "[[entities/anish-agarwal]]"
-    type: related_to
-  - target: "[[entities/digitalocean]]"
-    type: related_to
-  - target: "[[concepts/causal-machine-learning]]"
-    type: related_to
-  - target: "[[concepts/agent-swarm]]"
-    type: related_to
-  - target: "[[concepts/aiops]]"
-    type: contradicts
-  - target: "[[concepts/production-troubleshooting]]"
-    type: related_to
+- target: '[[entities/traversal-ai]]'
+  type: related_to
+- target: '[[entities/anish-agarwal]]'
+  type: related_to
+- target: '[[entities/digitalocean]]'
+  type: related_to
+- target: '[[concepts/causal-machine-learning]]'
+  type: related_to
+- target: '[[concepts/agent-swarm]]'
+  type: related_to
+- target: '[[concepts/aiops]]'
+  type: contradicts
+- target: '[[concepts/production-troubleshooting]]'
+  type: related_to
+category: references
 ---
 
 # AIEF2025 - Production software keeps breaking and it will only get worse — Anish Agarwal, Traversal.ai

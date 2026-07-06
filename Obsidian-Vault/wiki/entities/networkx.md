@@ -1,25 +1,26 @@
 ---
-title: "NetworkX"
+title: NetworkX
 tags:
-  - library
-  - python
-  - graph
-  - network-analysis
-  - open-source
+- library
+- python
+- graph
+- network-analysis
+- open-source
 aliases:
-  - networkx
+- networkx
 sources:
-  - "[[sources/watchv=-tgqa8fzf80]]"
-summary: "A Python library for the creation, manipulation, and study of complex networks and graph algorithms, now integrated with NVIDIA cuGraph for GPU acceleration."
+- 'https://www.youtube.com/watch?v=-tgqa8fzf80'
+summary: A Python library for the creation, manipulation, and study of complex networks and graph algorithms, now integrated with NVIDIA cuGraph for GPU acceleration.
 provenance:
-  extracted: 0.50
-  inferred: 0.50
-  ambiguous: 0.00
+  extracted: 0.5
+  inferred: 0.5
+  ambiguous: 0.0
 base_confidence: 0.42
 lifecycle: draft
 tier: peripheral
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # NetworkX

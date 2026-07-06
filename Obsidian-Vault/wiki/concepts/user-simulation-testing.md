@@ -1,24 +1,28 @@
 ---
-title: "User Simulation Testing"
+title: User Simulation Testing
 tags:
-  - concept
-  - agent
-  - testing
-  - evaluation
-  - ai-engineering
-aliases: [simulation testing harness, conversational AI testing, persona-based simulation]
+- concept
+- agent
+- testing
+- evaluation
+- ai-engineering
+aliases:
+- simulation testing harness
+- conversational AI testing
+- persona-based simulation
 sources:
-  - "[[sources/watchv=c3geufbr2js]]"
-summary: "A testing approach for conversational AI agents that simulates dozens of user personas with accounts and scenarios, running tens of thousands of conversations before production deployment."
+- 'https://www.youtube.com/watch?v=c3geufbr2js'
+summary: A testing approach for conversational AI agents that simulates dozens of user personas with accounts and scenarios, running tens of thousands of conversations before production deployment.
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.55
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # User Simulation Testing

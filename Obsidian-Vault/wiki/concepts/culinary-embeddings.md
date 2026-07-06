@@ -10,7 +10,7 @@ tags:
   - foundation-models
 summary: Food-specific embedding representations derived from thermal and RGB imagery that encode cooking state (doneness, browning, texture) for use in recipe state machines and perception models.
 sources:
-  - "[[sources/watchv=mbwgiwjdlso]]"
+  - "https://www.youtube.com/watch?v=mbwgiwjdlso"
 provenance:
   extracted: 0.80
   inferred: 0.15

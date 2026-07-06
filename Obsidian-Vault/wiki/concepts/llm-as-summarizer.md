@@ -1,16 +1,16 @@
 ---
-title: "LLM as Summarizer"
+title: LLM as Summarizer
 tags:
-  - agent
-  - ai
-  - design-pattern
-  - llm
-  - principle
+- agent
+- ai
+- design-pattern
+- llm
+- principle
 sources:
-  - "[[sources/watchv=72xxwkd8jrk]]"
-summary: "Design principle that LLMs excel at turning a large body of text into a smaller body of text (summarization, extraction, structuring), not the reverse. Guides what applications are worth building with LLMs."
+- 'https://www.youtube.com/watch?v=72xxwkd8jrk'
+summary: Design principle that LLMs excel at turning a large body of text into a smaller body of text (summarization, extraction, structuring), not the reverse. Guides what applications are worth building w...
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.55
@@ -18,6 +18,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # LLM as Summarizer

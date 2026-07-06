@@ -1,32 +1,33 @@
 ---
-title: "Dispatch from the Future: building an AI-native Company"
+title: 'Dispatch from the Future: building an AI-native Company'
 category: references
 tags:
-  - aief2025
-  - ai-native
-  - compounding-engineering
-  - small-teams
-  - ai-coding
-summary: "Dan Shipper's AIEF2025 talk on building Every — 15 people, 4 products, 99% AI-written code, using compounding engineering."
+- aief2025
+- ai-native
+- compounding-engineering
+- small-teams
+- ai-coding
+summary: Dan Shipper's AIEF2025 talk on building Every — 15 people, 4 products, 99% AI-written code, using compounding engineering.
 provenance:
   extracted: 0.95
   inferred: 0.04
   ambiguous: 0.01
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/dan-shipper|Dan Shipper]]"
-    type: related_to
-  - target: "[[entities/every-company|Every]]"
-    type: related_to
-  - target: "[[concepts/compounding-engineering|Compounding Engineering]]"
-    type: related_to
-  - target: "[[concepts/ai-native-company|AI-Native Company]]"
-    type: related_to
+- target: '[[entities/dan-shipper|Dan Shipper]]'
+  type: related_to
+- target: '[[entities/every-company|Every]]'
+  type: related_to
+- target: '[[concepts/compounding-engineering|Compounding Engineering]]'
+  type: related_to
+- target: '[[concepts/ai-native-company|AI-Native Company]]'
+  type: related_to
+sources: []
 ---
 
 # Dispatch from the Future: building an AI-native Company

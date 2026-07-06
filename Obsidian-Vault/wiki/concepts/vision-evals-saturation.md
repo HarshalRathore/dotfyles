@@ -4,7 +4,7 @@ category: concepts
 tags: [computer-vision, evaluation, benchmarks, coco, imagenet, pattern-matching, llm-visual-failure]
 summary: Vision benchmarks like ImageNet and COCO are saturated because they measure pattern matching rather than visual intelligence, disincentivizing large-scale pre-training for vision models.
 sources:
-  - "[[sources/watchv=iqc05ecvnye]]"
+  - "https://www.youtube.com/watch?v=iqc05ecvnye"
 provenance:
   extracted: 0.80
   inferred: 0.15

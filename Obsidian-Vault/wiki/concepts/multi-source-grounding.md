@@ -1,17 +1,17 @@
 ---
-title: "Multi-Source Grounding"
+title: Multi-Source Grounding
 category: concepts
 tags:
-  - evals
-  - retrieval
-  - bias-reduction
-  - rag
-  - ai-search
+- evals
+- retrieval
+- bias-reduction
+- rag
+- ai-search
 aliases:
-  - multi-provider grounding
-  - diverse source grounding
+- multi-provider grounding
+- diverse source grounding
 sources:
-  - "AIEF2025 - Evaluating AI Search: A Practical Framework for Augmented AI Systems — Quotient AI + Tavily - https://www.youtube.com/watch?v=wRJD0inpmjU"
+- 'AIEF2025 - Evaluating AI Search: A Practical Framework for Augmented AI Systems — Quotient AI + Tavily - https://www.youtube.com/watch?v=wRJD0inpmjU'
 provenance:
   extracted: 0.88
   inferred: 0.08
@@ -23,10 +23,11 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/rag-grounding]]"
-    type: extends
-  - target: "[[concepts/dynamic-eval-sets]]"
-    type: used_in
+- target: '[[concepts/rag-grounding]]'
+  type: extends
+- target: '[[concepts/dynamic-eval-sets]]'
+  type: used_in
+summary: Multi-Source Grounding
 ---
 
 # Multi-Source Grounding

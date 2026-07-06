@@ -1,18 +1,18 @@
 ---
-title: "Terminal Game Demo — 200-Line Codebase Experiment"
+title: Terminal Game Demo — 200-Line Codebase Experiment
 category: references
 tags:
-  - graphrag
-  - code-understanding
-  - demonstration
-  - microsoft-research
-  - aief2025
+- graphrag
+- code-understanding
+- demonstration
+- microsoft-research
+- aief2025
 aliases:
-  - 200-line game demo
+- 200-line game demo
 sources:
-  - "AIEF2025 - GraphRAG methods to create optimized LLM context windows for Retrieval — Jonathan Larson, Microsoft - https://www.youtube.com/watch?v=c5qJHr3DnT4"
+- AIEF2025 - GraphRAG methods to create optimized LLM context windows for Retrieval — Jonathan Larson, Microsoft - https://www.youtube.com/watch?v=c5qJHr3DnT4
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
 base_confidence: 0.85
@@ -22,12 +22,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/graphrag-code|GraphRAG for Code]]"
-    type: demonstrates
-  - target: "[[concepts/semantic-understanding-in-code|Semantic Understanding in Code Analysis]]"
-    type: demonstrates
-  - target: "[[concepts/local-global-queries|Local and Global Queries in GraphRAG]]"
-    type: demonstrates
+- target: '[[concepts/graphrag-code|GraphRAG for Code]]'
+  type: demonstrates
+- target: '[[concepts/semantic-understanding-in-code|Semantic Understanding in Code Analysis]]'
+  type: demonstrates
+- target: '[[concepts/local-global-queries|Local and Global Queries in GraphRAG]]'
+  type: demonstrates
+summary: Terminal Game Demo — 200-Line Codebase Experiment
 ---
 
 # Terminal Game Demo — 200-Line Codebase Experiment

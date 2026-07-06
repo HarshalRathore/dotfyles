@@ -1,16 +1,16 @@
 ---
-title: "DALL-E Inflection Point"
+title: DALL-E Inflection Point
 category: concepts
 tags:
-  - dall-e
-  - openai
-  - generative-media
-  - inflection-point
-  - ai-history
+- dall-e
+- openai
+- generative-media
+- inflection-point
+- ai-history
 sources:
-  - "[[sources/watchv=p370d8kmlkw]]"
+- 'https://www.youtube.com/watch?v=p370d8kmlkw'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.85
@@ -19,10 +19,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/generative-media]]"
-    type: related_to
-  - target: "[[entities/openai]]"
-    type: related_to
+- target: '[[concepts/generative-media]]'
+  type: related_to
+- target: '[[entities/openai]]'
+  type: related_to
+summary: DALL-E Inflection Point
 ---
 
 # DALL-E Inflection Point

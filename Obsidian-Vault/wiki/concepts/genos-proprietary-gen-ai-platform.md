@@ -1,19 +1,19 @@
 ---
-title: "GenOS — Proprietary Gen AI Platform"
+title: GenOS — Proprietary Gen AI Platform
 category: concepts
 tags:
-  - gen-ai
-  - platform
-  - enterprise-ai
-  - orchestration
-  - proprietary
+- gen-ai
+- platform
+- enterprise-ai
+- orchestration
+- proprietary
 aliases:
-  - GenOS
-  - Generative AI Operating System
-  - Proprietary Gen AI Platform
+- GenOS
+- Generative AI Operating System
+- Proprietary Gen AI Platform
 sources:
-  - "AIEF2025 - How Intuit uses LLMs to explain taxes to millions of taxpayers - Jaspreet Singh, Intuit - https://www.youtube.com/watch?v=_zl_zimMRak"
-summary: "A proprietary generative AI platform built because off-the-shelf GenOS tooling doesn't support regulatory, safety-critical use cases at enterprise scale. Components include GenUX, Orchestrator, and the Intuit Assist consumer experience."
+- AIEF2025 - How Intuit uses LLMs to explain taxes to millions of taxpayers - Jaspreet Singh, Intuit - https://www.youtube.com/watch?v=_zl_zimMRak
+summary: A proprietary generative AI platform built because off-the-shelf GenOS tooling doesn't support regulatory, safety-critical use cases at enterprise scale. Components include GenUX, Orchestrator, and...
 provenance:
   extracted: 0.75
   inferred: 0.18
@@ -25,10 +25,10 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/llm-evaluation-framework|LLM Evaluation Framework]]"
-    type: supports
-  - target: "[[concepts/model-picking|Model Picking]]"
-    type: enables
+- target: '[[concepts/llm-evaluation-framework|LLM Evaluation Framework]]'
+  type: supports
+- target: '[[concepts/model-picking|Model Picking]]'
+  type: enables
 ---
 
 # GenOS — Proprietary Gen AI Platform

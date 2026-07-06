@@ -1,30 +1,31 @@
 ---
-title: "RAG-Agent Symbiosis"
+title: RAG-Agent Symbiosis
 category: concepts
 tags:
-  - rag
-  - agent
-  - retrieval
-  - llamaindex
-  - symbiosis
-summary: The symbiotic relationship between RAG and agents: agents need RAG for context, and RAG needs agents for introspection, decomposition, and self-correction.
+- rag
+- agent
+- retrieval
+- llamaindex
+- symbiosis
+summary: 'The symbiotic relationship between RAG and agents: agents need RAG for context, and RAG needs agents for introspection, decomposition, and self-correction.'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/rag-evaluation|RAG]]"
-    type: related_to
-  - target: "[[concepts/agent-design-patterns]]"
-    type: related_to
-  - target: "[[concepts/document-toolbox]]"
-    type: related_to
+- target: '[[concepts/rag-evaluation|RAG]]'
+  type: related_to
+- target: '[[concepts/agent-design-patterns]]'
+  type: related_to
+- target: '[[concepts/document-toolbox]]'
+  type: related_to
+sources: []
 ---
 
 # RAG-Agent Symbiosis

@@ -1,12 +1,22 @@
 ---
-title: "Deployment Strategies"
-summary: "> - Deployment Strategies – Two Ways to Upgrade"
+title: Deployment Strategies
+summary: '> - Deployment Strategies – Two Ways to Upgrade'
 sources:
-  - "[[sources/init-containers_798910]]"
+- '[[sources/init-containers_798910]]'
 tags:
-  - scaling
+- scaling
 aliases:
-  - Kubernetes Deployment Strategies
+- Kubernetes Deployment Strategies
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+created: '2026-07-04T15:08:38.216104+00:00'
+updated: '2026-07-04T15:08:38.216104+00:00'
 ---
 ## Related Concepts
 - [[concepts/rolling-update-strategy]]

@@ -9,7 +9,7 @@ tags:
   - generative-ai
 summary: Text-to-Speech (TTS) — converting written text into natural-sounding speech. Core component of voice agent pipelines, enabling AI agents to communicate verbally.
 sources:
-  - "[[sources/watchv=mptcbazn84a]]"
+  - "https://www.youtube.com/watch?v=mptcbazn84a"
 provenance:
   extracted: 0.90
   inferred: 0.05

@@ -1,16 +1,20 @@
 ---
-title: "Signal Loop (AI)"
+title: Signal Loop (AI)
 tags:
-  - concept
-  - agent
-  - fine-tuning
-  - feedback-loop
-  - personalization
-  - microsoft
-aliases: [signal slew, AI signal loop, personalization loop, interaction feedback loop]
+- concept
+- agent
+- fine-tuning
+- feedback-loop
+- personalization
+- microsoft
+aliases:
+- signal slew
+- AI signal loop
+- personalization loop
+- interaction feedback loop
 sources:
-  - "[[sources/watchv=7hrw6rtxahc]]"
-summary: "Continuous feedback loop where real-world agent interactions are collected, A/B tested, and used to fine-tune models for personalized outcomes — demonstrated by Dragon healthcare copilot reaching 83% character acceptance rate."
+- 'https://www.youtube.com/watch?v=7hrw6rtxahc'
+summary: Continuous feedback loop where real-world agent interactions are collected, A/B tested, and used to fine-tune models for personalized outcomes — demonstrated by Dragon healthcare copilot reaching 8...
 provenance:
   extracted: 0.72
   inferred: 0.23
@@ -20,6 +24,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Signal Loop (AI)

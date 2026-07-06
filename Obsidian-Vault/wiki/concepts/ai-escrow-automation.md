@@ -1,26 +1,27 @@
 ---
-title: "AI Escrow Automation"
+title: AI Escrow Automation
 tags:
-  - escrow
-  - agents
-  - payments
-  - smart-contracts
-  - verification
+- escrow
+- agents
+- payments
+- smart-contracts
+- verification
 aliases:
-  - escrow agent
-  - automated escrow
+- escrow agent
+- automated escrow
 sources:
-  - "[[sources/watchv=axmdsqdoghm]]"
-summary: "Using AI agents to automate escrow workflows — parsing agreements, verifying deliverables, and triggering conditional settlement via smart contracts."
+- 'https://www.youtube.com/watch?v=axmdsqdoghm'
+summary: Using AI agents to automate escrow workflows — parsing agreements, verifying deliverables, and triggering conditional settlement via smart contracts.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # AI Escrow Automation

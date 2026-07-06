@@ -1,20 +1,20 @@
 ---
-title: "Agent Stack Normalization"
+title: Agent Stack Normalization
 category: concepts
 tags:
-  - agent-architecture
-  - agent-stack
-  - normalization
-  - ai-infrastructure
-  - agent-design
+- agent-architecture
+- agent-stack
+- normalization
+- ai-infrastructure
+- agent-design
 aliases:
-  - agent stack normalization
-  - normalized agent architecture
+- agent stack normalization
+- normalized agent architecture
 sources:
-  - "AIEF2025 - How we hacked YC Spring 2025 batch's AI agents — Rene Brandel, Casco - https://www.youtube.com/watch?v=kv-QAuKWllQ"
-summary: "The normalization of AI agent architecture into a standard pattern: server frontend → API server → LLM → tools → data sources. This standardization simplifies development but requires new security thinking."
+- AIEF2025 - How we hacked YC Spring 2025 batch's AI agents — Rene Brandel, Casco - https://www.youtube.com/watch?v=kv-QAuKWllQ
+summary: 'The normalization of AI agent architecture into a standard pattern: server frontend → API server → LLM → tools → data sources. This standardization simplifies development but requires new security...'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
 base_confidence: 0.85
@@ -24,12 +24,12 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/agent-architecture|Agent Architecture]]"
-    type: related_to
-  - target: "[[concepts/agent-security|Agent Security]]"
-    type: related_to
-  - target: "[[concepts/stack-maturity|Stack Maturity]]"
-    type: related_to
+- target: '[[concepts/agent-architecture|Agent Architecture]]'
+  type: related_to
+- target: '[[concepts/agent-security|Agent Security]]'
+  type: related_to
+- target: '[[concepts/stack-maturity|Stack Maturity]]'
+  type: related_to
 ---
 
 # Agent Stack Normalization

@@ -1,27 +1,35 @@
 ---
 title: Object Detection Transformers vs Convolutional Models
 category: concepts
-tags: [object-detection, transformers, convolutions, detr, yolov8, pre-training, backbone, performance]
-summary: Transformer-based object detectors (like DETR) leverage large-scale pre-training for massive accuracy gains, while convolutional models gain almost nothing — revealing a fundamental architectural difference in how these model families absorb pre-trained knowledge.
+tags:
+- object-detection
+- transformers
+- convolutions
+- detr
+- yolov8
+- pre-training
+- backbone
+- performance
+summary: Transformer-based object detectors (like DETR) leverage large-scale pre-training for massive accuracy gains, while convolutional models gain almost nothing — revealing a fundamental architectural d...
 sources:
-  - "[[sources/watchv=iqc05ecvnye]]"
+- 'https://www.youtube.com/watch?v=iqc05ecvnye'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/rf-detter|RF-DeTter]]"
-    type: extends
-  - target: "[[concepts/dinov2-pre-training|dinov2-pre-training]]"
-    type: related_to
-  - target: "[[concepts/edge-vision-inference|edge-vision-inference]]"
-    type: related_to
+- target: '[[concepts/rf-detter|RF-DeTter]]'
+  type: extends
+- target: '[[concepts/dinov2-pre-training|dinov2-pre-training]]'
+  type: related_to
+- target: '[[concepts/edge-vision-inference|edge-vision-inference]]'
+  type: related_to
 ---
 
 The object detection landscape reveals a stark architectural divide between convolutional models and transformer-based models in how they leverage pre-training.

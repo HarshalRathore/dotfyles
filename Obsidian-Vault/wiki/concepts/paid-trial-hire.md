@@ -1,29 +1,29 @@
 ---
-title: "Paid Trial Hire"
+title: Paid Trial Hire
 category: concepts
 tags:
-  - hiring
-  - interview-process
-  - screening
-  - aief2025
+- hiring
+- interview-process
+- screening
+- aief2025
 aliases:
-  - Paid trial project
-  - Paid project hire
+- Paid trial project
+- Paid project hire
 relationships:
-  - target: "[[concepts/generalist-engineer|Generalist Engineer]]"
-    type: implements
-  - target: "[[concepts/high-trust-culture|High-Trust Culture]]"
-    type: related_to
-  - target: "[[concepts/small-ai-teams|Small AI Teams with Huge Impact]]"
-    type: related_to
+- target: '[[concepts/generalist-engineer|Generalist Engineer]]'
+  type: implements
+- target: '[[concepts/high-trust-culture|High-Trust Culture]]'
+  type: related_to
+- target: '[[concepts/small-ai-teams|Small AI Teams with Huge Impact]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=k-iykdmfkhe]]"
-summary: "Datalab's three-step hiring process: (1) peer chat to solve a challenge together, (2) paid ~10-hour project ($1,000) to test actual shipping ability, (3) culture fit review. About 40% of interviewed candidates are hired."
+- 'https://www.youtube.com/watch?v=k-iykdmfkhe'
+summary: 'Datalab''s three-step hiring process: (1) peer chat to solve a challenge together, (2) paid ~10-hour project ($1,000) to test actual shipping ability, (3) culture fit review. About 40% of interviewe...'
 provenance:
   extracted: 0.95
   inferred: 0.05
-  ambiguous: 0.00
-base_confidence: 0.80
+  ambiguous: 0.0
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting

@@ -1,35 +1,39 @@
 ---
-title: "Agent Fleet Architecture"
+title: Agent Fleet Architecture
 category: concepts
 tags:
-  - agent-fleet
-  - architecture
-  - ai-agents
-  - security
-  - enterprise
-  - ciso
-summary: An architecture for deploying and operating AI agent fleets in regulated enterprise environments where CISO approval, data sovereignty, and security compliance are prerequisites — not optional features.
+- agent-fleet
+- architecture
+- ai-agents
+- security
+- enterprise
+- ciso
+summary: An architecture for deploying and operating AI agent fleets in regulated enterprise environments where CISO approval, data sovereignty, and security compliance are prerequisites — not optional feat...
 sources:
-  - "AIEF2025 - Building agent fleet architectures your CISO doesn't hate — Lou Bichard, Gitpod - https://www.youtube.com/watch?v=d9rsC6_VLoA"
+- AIEF2025 - Building agent fleet architectures your CISO doesn't hate — Lou Bichard, Gitpod - https://www.youtube.com/watch?v=d9rsC6_VLoA
 provenance:
-  extracted: 0.70
-  inferred: 0.30
-  ambiguous: 0.00
-base_confidence: 0.80
+  extracted: 0.7
+  inferred: 0.3
+  ambiguous: 0.0
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: core
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: [[concepts/managed-substrate|Managed Substrate]]
-    type: derived_from
-  - target: [[concepts/ciso-approval|CISO Approval]]
-    type: requires
-  - target: [[concepts/secure-dev-environment|Secure Dev Environment]]
-    type: uses
-  - target: [[concepts/self-hosted-overhead|Self-Hosted Overhead]]
-    type: addresses
+- target:
+  - - concepts/managed-substrate|Managed Substrate
+  type: derived_from
+- target:
+  - - concepts/ciso-approval|CISO Approval
+  type: requires
+- target:
+  - - concepts/secure-dev-environment|Secure Dev Environment
+  type: uses
+- target:
+  - - concepts/self-hosted-overhead|Self-Hosted Overhead
+  type: addresses
 ---
 
 # Agent Fleet Architecture

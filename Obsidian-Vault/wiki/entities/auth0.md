@@ -1,19 +1,25 @@
 ---
-title: "Auth0"
+title: Auth0
 tags:
-  - company
-  - identity
-  - auth
-  - security
-  - iam
-  - okta
+- company
+- identity
+- auth
+- security
+- iam
+- okta
 sources:
-  - "[[sources/watchv=fzomsupg37e]]"
-summary: "Auth0 (an Okta company) is a leading identity and access management platform that provides authentication, authorization, and user management for applications, now extending to AI agent identity with Auth4Gen, an Auth0 MCP server, and agent-focused token exchange patterns."
+- 'https://www.youtube.com/watch?v=fzomsupg37e'
+summary: Auth0 (an Okta company) is a leading identity and access management platform that provides authentication, authorization, and user management for applications, now extending to AI agent identity wi...
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
 ---
 # Auth0
 

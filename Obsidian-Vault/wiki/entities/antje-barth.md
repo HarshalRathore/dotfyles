@@ -1,28 +1,29 @@
 ---
-title: "Antje Barth"
+title: Antje Barth
 tags:
-  - aws
-  - speaker
-  - ai-agents
-  - cloud-scale
+- aws
+- speaker
+- ai-agents
+- cloud-scale
 sources:
-  - "AIEF2025 - Building Agents at Cloud Scale — Antje Barth, AWS - https://www.youtube.com/watch?v=WJjInLeaJjo"
-summary: "AWS speaker at AI Engineer World's Fair 2025 who presented on building AI agents at cloud scale, including the Alexa Plus reimagining and the open-source Strands Agents SDK."
+- AIEF2025 - Building Agents at Cloud Scale — Antje Barth, AWS - https://www.youtube.com/watch?v=WJjInLeaJjo
+summary: AWS speaker at AI Engineer World's Fair 2025 who presented on building AI agents at cloud scale, including the Alexa Plus reimagining and the open-source Strands Agents SDK.
 provenance:
   extracted: 0.95
   inferred: 0.05
-  ambiguous: 0.00
-base_confidence: 0.90
+  ambiguous: 0.0
+base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/aws|AWS]]"
-    type: related_to
-  - target: "[[references/aief2025-building-agents-at-cloud-scale-antje-barth-aws|AIEF2025 Building Agents at Cloud Scale]]"
-    type: related_to
+- target: '[[entities/aws|AWS]]'
+  type: related_to
+- target: '[[references/aief2025-building-agents-at-cloud-scale-antje-barth-aws|AIEF2025 Building Agents at Cloud Scale]]'
+  type: related_to
+category: entities
 ---
 # Antje Barth
 

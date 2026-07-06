@@ -1,31 +1,32 @@
 ---
-title: "David Karam"
+title: David Karam
 category: entities
 tags:
-  - person
-  - ai-evaluation
-  - google
-  - pi-labs
+- person
+- ai-evaluation
+- google
+- pi-labs
 aliases:
-  - dkaram
+- dkaram
 sources:
-  - "AIEF2025 - Layering every technique in RAG, one query at a time — David Karam, Pi Labs (fmr. Google Search) - https://www.youtube.com/watch?v=w9u11ioHGA0"
-  - "AIEF2025 - [Full Workshop] Building Metrics that actually work — David Karam, Pi Labs (fmr Google Search) - https://www.youtube.com/watch?v=jxrGodnopHo"
+- AIEF2025 - Layering every technique in RAG, one query at a time — David Karam, Pi Labs (fmr. Google Search) - https://www.youtube.com/watch?v=w9u11ioHGA0
+- AIEF2025 - [Full Workshop] Building Metrics that actually work — David Karam, Pi Labs (fmr Google Search) - https://www.youtube.com/watch?v=jxrGodnopHo
 provenance:
   extracted: 0.95
   inferred: 0.05
-  ambiguous: 0.00
-base_confidence: 0.90
+  ambiguous: 0.0
+base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/pi-labs|Pi Labs]]"
-    type: works_at
-  - target: "[[entities/google|Google]]"
-    type: formerly_worked_at
+- target: '[[entities/pi-labs|Pi Labs]]'
+  type: works_at
+- target: '[[entities/google|Google]]'
+  type: formerly_worked_at
+summary: David Karam
 ---
 
 # David Karam

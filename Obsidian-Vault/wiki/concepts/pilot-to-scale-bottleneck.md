@@ -1,34 +1,35 @@
 ---
-title: "Pilot-to-Scale Bottleneck"
+title: Pilot-to-Scale Bottleneck
 category: concepts
 tags:
-  - enterprise-ai
-  - scaling
-  - adoption
-  - implementation
+- enterprise-ai
+- scaling
+- adoption
+- implementation
 aliases:
-  - AI Pilot Bottleneck
-  - Scaling AI Initiatives
+- AI Pilot Bottleneck
+- Scaling AI Initiatives
 sources:
-  - "AIEF2025 - AI Consulting in Practice – NLW, Superintelligent, @AIDailyBrief - https://www.youtube.com/watch?v=ehQFj6VmuI8"
-  - "McKinsey State of AI Study"
+- AIEF2025 - AI Consulting in Practice – NLW, Superintelligent, @AIDailyBrief - https://www.youtube.com/watch?v=ehQFj6VmuI8
+- McKinsey State of AI Study
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: core
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/enterprise-ai-adoption|Enterprise AI Adoption]]"
-    type: describes
-  - target: "[[concepts/high-performer-bifurcation|High Performer Bifurcation]]"
-    type: explains
-  - target: "[[concepts/agent-adoption-surge|Agent Adoption Surge]]"
-    type: contrasts-with
+- target: '[[concepts/enterprise-ai-adoption|Enterprise AI Adoption]]'
+  type: describes
+- target: '[[concepts/high-performer-bifurcation|High Performer Bifurcation]]'
+  type: explains
+- target: '[[concepts/agent-adoption-surge|Agent Adoption Surge]]'
+  type: contrasts-with
+summary: Pilot-to-Scale Bottleneck
 ---
 
 # Pilot-to-Scale Bottleneck

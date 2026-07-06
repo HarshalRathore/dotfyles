@@ -20,7 +20,7 @@ relationships:
   - target: "[[concepts/offline-recommendation-table]]"
     type: related_to
 sources:
-  - "[[sources/watchv=lxqsq3vzdqo]]"
+  - "https://www.youtube.com/watch?v=lxqsq3vzdqo"
 summary: "The primary constraint on deploying LLM-based recommendation systems at scale. YouTube's LRM achieved 95%+ TPU cost reduction to make production deployment feasible for 2B+ DAU."
 provenance:
   extracted: 0.70

@@ -1,13 +1,18 @@
 ---
-title: "autoresearch — Autonomous pretraining research (Andrej Karpathy)"
+title: autoresearch — Autonomous pretraining research (Andrej Karpathy)
 category: misc
-tags: [ai, research, automation, llm-training, pi-autoresearch]
+tags:
+- ai
+- research
+- automation
+- llm-training
+- pi-autoresearch
 sources:
-  - "[[sources/autoresearch]]"
-source_url: "https://github.com/karpathy/autoresearch"
-created: 2026-07-01T00:20:00Z
-updated: 2026-07-01T00:20:00Z
-summary: "Karpathy's original autoresearch repo: an AI agent that autonomously modifies LLM training code, runs 5-minute experiments, and keeps/discards based on validation bits-per-byte — the canonical implementation of the autoresearch pattern."
+- '[[sources/autoresearch]]'
+source_url: https://github.com/karpathy/autoresearch
+created: 2026-07-01 00:20:00+00:00
+updated: 2026-07-01 00:20:00+00:00
+summary: 'Karpathy''s original autoresearch repo: an AI agent that autonomously modifies LLM training code, runs 5-minute experiments, and keeps/discards based on validation bits-per-byte — the canonical impl...'
 affinity: {}
 promotion_status: misc
 stub: false
@@ -15,9 +20,10 @@ provenance:
   extracted: 0.85
   inferred: 0.13
   ambiguous: 0.02
-base_confidence: 0.55  # github (repository) = 0.75 → 0.17 + 0.5*0.75 = 0.545
+base_confidence: 0.55
 lifecycle: draft
 lifecycle_changed: 2026-07-01
+tier: supporting
 ---
 
 # autoresearch — Autonomous pretraining research (Andrej Karpathy)
@@ -92,5 +98,5 @@ After each 5-minute run, the script prints: `val_bpb`, `training_seconds`, `tota
 
 ## Related
 
-- [[web-github-com-karpathy-autoresearch]] — PostHog's application of this pattern to ClickHouse query optimization
-- [[web-posthog-com-newsletter-loops]] — The newsletter on engineering loops references the performance autoresearcher pattern by name
+- [[misc/web-github-com-karpathy-autoresearch]] — PostHog's application of this pattern to ClickHouse query optimization
+- [[misc/web-posthog-com-newsletter-loops]] — The newsletter on engineering loops references the performance autoresearcher pattern by name

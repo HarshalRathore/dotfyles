@@ -1,31 +1,32 @@
 ---
-title: "Voice-to-Voice vs STT-LAM-TTS Architecture"
+title: Voice-to-Voice vs STT-LAM-TTS Architecture
 category: concepts
 tags:
-  - voice-ai
-  - architecture
-  - stt
-  - tts
-  - voice-to-voice
-  - model-design
-summary: Comparison of two voice agent architectures: the traditional STT → LLM → TTS pipeline versus emerging voice-to-voice models that process audio directly.
+- voice-ai
+- architecture
+- stt
+- tts
+- voice-to-voice
+- model-design
+summary: 'Comparison of two voice agent architectures: the traditional STT → LLM → TTS pipeline versus emerging voice-to-voice models that process audio directly.'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/voice-pipeline]]"
-    type: related_to
-  - target: "[[concepts/voice-ai-latency]]"
-    type: related_to
-  - target: "[[concepts/finvoice]]"
-    type: implements
+- target: '[[concepts/voice-pipeline]]'
+  type: related_to
+- target: '[[concepts/voice-ai-latency]]'
+  type: related_to
+- target: '[[concepts/finvoice]]'
+  type: implements
+sources: []
 ---
 
 # Voice-to-Voice vs STT-LAM-TTS Architecture

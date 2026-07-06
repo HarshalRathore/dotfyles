@@ -1,33 +1,34 @@
 ---
-title: "System One / System Two Robotics"
+title: System One / System Two Robotics
 category: concepts
 tags:
-  - system-one
-  - system-two
-  - robotics
-  - dual-system
-  - planning
-  - kahneman
-  - nvidia
-  - groot
-summary: "A dual-system architecture for robotics inspired by Daniel Kahneman's Thinking Fast and Slow: System Two is the slow planner that breaks down complex tasks; System One is the fast executor operating at ~120 Hz.
+- system-one
+- system-two
+- robotics
+- dual-system
+- planning
+- kahneman
+- nvidia
+- groot
+summary: '"A dual-system architecture for robotics inspired by Daniel Kahneman''s Thinking Fast and Slow: System Two is the slow planner that breaks down complex tasks; System One is the fast executor operati...'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/nvidia-gr00t|NVIDIA Project GR00T]]"
-    type: implemented_by
-  - target: "[[concepts/physical-ai|Physical AI]]"
-    type: enables
-  - target: "[[concepts/vision-language-action-models|Vision-Language-Action Models]]"
-    type: extends
+- target: '[[entities/nvidia-gr00t|NVIDIA Project GR00T]]'
+  type: implemented_by
+- target: '[[concepts/physical-ai|Physical AI]]'
+  type: enables
+- target: '[[concepts/vision-language-action-models|Vision-Language-Action Models]]'
+  type: extends
+sources: []
 ---
 
 # System One / System Two Robotics

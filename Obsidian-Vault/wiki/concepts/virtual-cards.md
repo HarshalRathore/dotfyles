@@ -1,19 +1,21 @@
 ---
-title: "Virtual Cards"
+title: Virtual Cards
 category: concepts
 tags:
-  - virtual-cards
-  - payments
-  - agent-payments
-  - fintech
-  - checkout
-aliases: [virtual credit card, one-time card]
+- virtual-cards
+- payments
+- agent-payments
+- fintech
+- checkout
+aliases:
+- virtual credit card
+- one-time card
 sources:
-  - "AIEF2025 - Machines of Buying and Selling Grace - Adam Behrens, New Generation - https://www.youtube.com/watch?v=zlZz0mDF2eg"
+- AIEF2025 - Machines of Buying and Selling Grace - Adam Behrens, New Generation - https://www.youtube.com/watch?v=zlZz0mDF2eg
 provenance:
   extracted: 0.75
   inferred: 0.25
-  ambiguous: 0.00
+  ambiguous: 0.0
 base_confidence: 0.75
 lifecycle: draft
 lifecycle_changed: 2026-07-05
@@ -21,12 +23,13 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/agent-checkout|Agent Checkout]]"
-    type: enables
-  - target: "[[concepts/delegated-authentication|Delegated Authentication]]"
-    type: contrasts-with
-  - target: "[[entities/stripe|Stripe]]"
-    type: implemented-by
+- target: '[[concepts/agent-checkout|Agent Checkout]]'
+  type: enables
+- target: '[[concepts/delegated-authentication|Delegated Authentication]]'
+  type: contrasts-with
+- target: '[[entities/stripe|Stripe]]'
+  type: implemented-by
+summary: Virtual Cards
 ---
 
 # Virtual Cards

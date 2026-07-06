@@ -1,39 +1,40 @@
 ---
-title: "Voice AI Latency"
+title: Voice AI Latency
 category: concepts
 tags:
-  - voice-ai
-  - latency
-  - real-time
-  - speed
-  - voice-agents
-  - inference
-  - video-ai
+- voice-ai
+- latency
+- real-time
+- speed
+- voice-agents
+- inference
+- video-ai
 sources:
-  - "AIEF2025 - Serving Voice AI at Scale — Arjun Desai (Cartesia) & Rohit Talluri (AWS) - https://www.youtube.com/watch?v=knH3fmGAteQ"
-  - "AIEF2025 - Serving Voice AI at $1/hr: Open-source, LoRAs, Latency, Load Balancing - Neil Dwyer, Gabber - https://www.youtube.com/watch?v=rD23-VZZHOo"
-  - "AIEF2025 - Realtime Conversational Video with Pipecat and Tavus — Chad Bailey and Brian Johnson, Daily & Tavus - https://www.youtube.com/watch?v=ujt0da9Z29Q"
+- AIEF2025 - Serving Voice AI at Scale — Arjun Desai (Cartesia) & Rohit Talluri (AWS) - https://www.youtube.com/watch?v=knH3fmGAteQ
+- 'AIEF2025 - Serving Voice AI at $1/hr: Open-source, LoRAs, Latency, Load Balancing - Neil Dwyer, Gabber - https://www.youtube.com/watch?v=rD23-VZZHOo'
+- AIEF2025 - Realtime Conversational Video with Pipecat and Tavus — Chad Bailey and Brian Johnson, Daily & Tavus - https://www.youtube.com/watch?v=ujt0da9Z29Q
 provenance:
   extracted: 0.58
   inferred: 0.32
-  ambiguous: 0.10
-base_confidence: 0.80
+  ambiguous: 0.1
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/voice-naturalness]]"
-    type: related_to
-  - target: "[[concepts/voice-controllability]]"
-    type: related_to
-  - target: "[[concepts/state-space-models]]"
-    type: related_to
-  - target: "[[concepts/voice-agents]]"
-    type: related_to
-  - target: "[[concepts/real-time-conversational-video]]"
-    type: related_to
+- target: '[[concepts/voice-naturalness]]'
+  type: related_to
+- target: '[[concepts/voice-controllability]]'
+  type: related_to
+- target: '[[concepts/state-space-models]]'
+  type: related_to
+- target: '[[concepts/voice-agents]]'
+  type: related_to
+- target: '[[concepts/real-time-conversational-video]]'
+  type: related_to
+summary: Voice AI Latency
 ---
 
 # Voice AI Latency

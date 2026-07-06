@@ -9,7 +9,7 @@ tags:
   - ai
 summary: "U.S. healthcare revenue cycle management company serving hundreds of hospitals. ~14,000 employees. Led by Head of AI Nathan Wan. Provides end-to-end RCM with longitudinal data visibility."
 sources:
-  - "[[sources/watchv=tquusn1qsws]]"
+  - "https://www.youtube.com/watch?v=tquusn1qsws"
 provenance:
   extracted: 0.95
   inferred: 0.05

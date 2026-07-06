@@ -1,26 +1,33 @@
 ---
 title: Codex Abuse Pattern
 category: concepts
-tags: [codex, account-cycling, model-abuse, early-ai, openai, lean-startup]
+tags:
+- codex
+- account-cycling
+- model-abuse
+- early-ai
+- openai
+- lean-startup
 sources:
-  - AIEF2025 - The New Lean Startup — Sid Bendre, Olive - https://www.youtube.com/watch?v=pQz-PgA1eJw
+- AIEF2025 - The New Lean Startup — Sid Bendre, Olive - https://www.youtube.com/watch?v=pQz-PgA1eJw
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.78
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: peripheral
-created: 2026-07-05T00:00:00Z
-updated: 2026-07-05T00:00:00Z
+created: 2026-07-05 00:00:00+00:00
+updated: 2026-07-05 00:00:00+00:00
 relationships:
-  - target: "[[entities/olive]]"
-    type: related_to
-  - target: "[[entities/openai]]"
-    type: related_to
-  - target: "[[concepts/super-tools]]"
-    type: related_to
+- target: '[[entities/olive]]'
+  type: related_to
+- target: '[[entities/openai]]'
+  type: related_to
+- target: '[[concepts/super-tools]]'
+  type: related_to
+summary: Codex Abuse Pattern
 ---
 
 # Codex Abuse Pattern

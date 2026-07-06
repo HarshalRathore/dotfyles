@@ -16,19 +16,19 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/agent-as-optimizer.md]]"
+  - target: "[[concepts/agent-as-optimizer]]"
     type: extends
-  - target: "[[concepts/auto-improving-agent-loop.md]]"
+  - target: "[[concepts/auto-improving-agent-loop]]"
     type: related_to
-  - target: "[[concepts/prompt-engineering-is-dead.md]]"
+  - target: "[[concepts/prompt-engineering-is-dead]]"
     type: related_to
 ---
 
 # Web Research for Optimization
 
-The pattern of having an autonomous agent research the web for best practices, techniques, and guides to inform system optimization. [[entities/nir-gazit.md|Nir Gazit]] used this at AIEF2025 as part of his [[concepts/auto-improving-agent-loop.md|auto-improving agent loop]].
+The pattern of having an autonomous agent research the web for best practices, techniques, and guides to inform system optimization. [[entities/nir-gazit|Nir Gazit]] used this at AIEF2025 as part of his [[concepts/auto-improving-agent-loop|auto-improving agent loop]].
 
-In his implementation, the researcher agent (built with [[entities/crewai.md|CrewAI]]) would:
+In his implementation, the researcher agent (built with [[entities/crewai|CrewAI]]) would:
 
 1. Crawl the web to find the latest prompt engineering guides and techniques
 2. Extract relevant advice and patterns

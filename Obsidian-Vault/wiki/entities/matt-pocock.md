@@ -1,13 +1,23 @@
 ---
-title: "Matt Pocock"
+title: Matt Pocock
 tags:
-  - typescript
-  - ai
-  - education
+- typescript
+- ai
+- education
 sources:
-  - "[[sources/web-youtube-com-watch-v-qfhioco-ko]]"
-  - "[[sources/web-youtube-com-watch-v-unzcg3lw6o0]]"
-
+- '[[misc/web-youtube-com-watch-v-qfhioco-ko]]'
+- '[[misc/web-youtube-com-watch-v-unzcg3lw6o0]]'
+category: entities
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+created: '2026-07-04T15:08:28.766025+00:00'
+updated: '2026-07-04T15:08:28.766025+00:00'
+summary: Matt Pocock
 ---
 # Matt Pocock
 
@@ -25,11 +35,11 @@ He created several open-source skills for AI-assisted development:
 - **Leading words** ([[concepts/leading-words]]) — popularized the technique of using compact meaning-dense phrases to steer agent behavior through reasoning traces
 ## Related
 
-- [[web-youtube-com-watch-v4f1gfy-hqg]] — His AI Engineer talk on software fundamentals
-- [[web-youtube-com-watch-v-unzcg3lw6o0]] — His AI Engineer workshop on the full AI coding workflow (requirements → TDD → AFK runs)
+- [[misc/web-youtube-com-watch-v4f1gfy-hqg]] — His AI Engineer talk on software fundamentals
+- [[misc/web-youtube-com-watch-v-unzcg3lw6o0]] — His AI Engineer workshop on the full AI coding workflow (requirements → TDD → AFK runs)
 - [[concepts/skills-checklist-framework]] — His framework for evaluating agent skills
 - [[concepts/skill-hell]] — His diagnosis of the agent skill quality problem
 - [[concepts/leading-words]] — His steering technique for agent skills
 - [[concepts/agent-loop]] — His feedback loop techniques (static types, browser, tests)
 - [[concepts/ralph-coding-technique]] — Related approach to AI-assisted development
-- [[web-youtube-com-watch-v-qfhioco-ko]] — His AI Engineer talk on the Skills Checklist Framework
+- [[misc/web-youtube-com-watch-v-qfhioco-ko]] — His AI Engineer talk on the Skills Checklist Framework

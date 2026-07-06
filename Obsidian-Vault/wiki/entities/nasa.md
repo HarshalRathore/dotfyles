@@ -1,12 +1,17 @@
 ---
 title: NASA
 category: entities
-tags: [nasa, space, physics, government, aerospace]
-summary: "National Aeronautics and Space Administration. Randall Hunt did physics work at NASA before his career at TenGen/MongoDB, SpaceX, and AWS."
+tags:
+- nasa
+- space
+- physics
+- government
+- aerospace
+summary: National Aeronautics and Space Administration. Randall Hunt did physics work at NASA before his career at TenGen/MongoDB, SpaceX, and AWS.
 provenance:
-  extracted: 0.90
-  inferred: 0.10
-  ambiguous: 0.00
+  extracted: 0.9
+  inferred: 0.1
+  ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-05
@@ -14,8 +19,9 @@ tier: peripheral
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/randall-hunt]]"
-    type: related_to
+- target: '[[entities/randall-hunt]]'
+  type: related_to
+sources: []
 ---
 
 **NASA** (National Aeronautics and Space Administration) is the United States government agency responsible for the civilian space program, aeronautics research, and space research.

@@ -1,16 +1,20 @@
 ---
-title: "Model Ensemble Routing"
+title: Model Ensemble Routing
 tags:
-  - concept
-  - model
-  - routing
-  - infrastructure
-  - ensemble
-  - microsoft
-aliases: [model switchboard, intelligent model routing, model mixture routing, model ensemble platform]
+- concept
+- model
+- routing
+- infrastructure
+- ensemble
+- microsoft
+aliases:
+- model switchboard
+- intelligent model routing
+- model mixture routing
+- model ensemble platform
 sources:
-  - "[[sources/watchv=7hrw6rtxahc]]"
-summary: "Intelligent routing layer that selects from thousands of open and proprietary models per task — no single model is right for every product, so platforms route to the best model for each job."
+- 'https://www.youtube.com/watch?v=7hrw6rtxahc'
+summary: Intelligent routing layer that selects from thousands of open and proprietary models per task — no single model is right for every product, so platforms route to the best model for each job.
 provenance:
   extracted: 0.72
   inferred: 0.23
@@ -20,6 +24,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Model Ensemble Routing

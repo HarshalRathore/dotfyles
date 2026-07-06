@@ -1,31 +1,33 @@
 ---
-title: "Wordle"
+title: Wordle
 tags:
-  - word-game
-  - puzzle
-  - new-york-times
-  - popular-game
-  - daily-puzzle
-aliases: [Wordle]
+- word-game
+- puzzle
+- new-york-times
+- popular-game
+- daily-puzzle
+aliases:
+- Wordle
 sources:
-  - "[[sources/watchv=p_uhfgh4j9y]]"
-summary: "The most-played game on the New York Times platform. Acquired by NYT in 2022. Compared to Connections as the top game by plays."
+- 'https://www.youtube.com/watch?v=p_uhfgh4j9y'
+summary: The most-played game on the New York Times platform. Acquired by NYT in 2022. Compared to Connections as the top game by plays.
 provenance:
   extracted: 0.95
   inferred: 0.03
   ambiguous: 0.02
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/nyt-games]]"
-    type: published_by
-  - target: "[[entities/new-york-times]]"
-    type: owned_by
-  - target: "[[concepts/connections-game]]"
-    type: compared_to
+- target: '[[entities/nyt-games]]'
+  type: published_by
+- target: '[[entities/new-york-times]]'
+  type: owned_by
+- target: '[[concepts/connections-game]]'
+  type: compared_to
+category: entities
 ---
 
 # Wordle

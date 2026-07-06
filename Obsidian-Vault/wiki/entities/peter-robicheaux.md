@@ -4,7 +4,7 @@ category: entities
 tags: [person, ml-engineer, computer-vision, roboflow, speaker, aief2025]
 summary: ML Lead at Roboflow, speaker on the state of computer vision in 2025, author of RF-DeTter and co-creator of RF100VL benchmark.
 sources:
-  - "[[sources/watchv=iqc05ecvnye]]"
+  - "https://www.youtube.com/watch?v=iqc05ecvnye"
 provenance:
   extracted: 0.95
   inferred: 0.03

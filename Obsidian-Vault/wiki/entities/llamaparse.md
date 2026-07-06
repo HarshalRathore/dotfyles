@@ -1,16 +1,16 @@
 ---
-title: "LlamaParse"
+title: LlamaParse
 category: entities
 tags:
-  - parsing
-  - document-parsing
-  - image-parsing
-  - markdown-output
-  - llamaindex
-  - vendor
-summary: LlamaParse is a LlamaIndex product for parsing documents and images into structured markdown. Uses interleaved LLM/LVM and traditional parsing with agentic validation for complex enterprise documents. Benchmarked against SANA 3.5, 4.0, Gemini 2.5 Pro, and OpenAI 4.1.
+- parsing
+- document-parsing
+- image-parsing
+- markdown-output
+- llamaindex
+- vendor
+summary: LlamaParse is a LlamaIndex product for parsing documents and images into structured markdown. Uses interleaved LLM/LVM and traditional parsing with agentic validation for complex enterprise documen...
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -20,12 +20,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/parsing]]"
-    type: implements
-  - target: "[[entities/alice-ai-sdr]]"
-    type: uses
-  - target: "[[concepts/complex-document-understanding]]"
-    type: implements
+- target: '[[concepts/parsing]]'
+  type: implements
+- target: '[[entities/alice-ai-sdr]]'
+  type: uses
+- target: '[[concepts/complex-document-understanding]]'
+  type: implements
+sources: []
 ---
 
 # LlamaParse

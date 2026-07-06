@@ -1,23 +1,25 @@
 ---
-title: "SDLC Commoditization in AI"
+title: SDLC Commoditization in AI
 tags:
-  - sdlc
-  - commoditization
-  - ai-engineering
-  - production
-  - evals
-  - security
+- sdlc
+- commoditization
+- ai-engineering
+- production
+- evals
+- security
 sources:
-  - "[[sources/watchv=ihkyfhu6jey]]"
+- 'https://www.youtube.com/watch?v=ihkyfhu6jey'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+category: concepts
+summary: SDLC Commoditization in AI
 ---
 
 # SDLC Commoditization in AI

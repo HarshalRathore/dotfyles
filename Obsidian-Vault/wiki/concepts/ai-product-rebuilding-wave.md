@@ -1,10 +1,18 @@
 ---
 title: AI Product Rebuilding Wave
 category: concepts
-tags: [product, ai-era, rebuilding, software-evolution]
-summary: The prediction that all existing software will undergo a rebuilding phase as AI makes possible interactions that were previously inconceivable. Products built in the pre-AI era are at their ugliest point ever.
-sources: ["AIEF2025 - Everything is ugly, so go build something that isn't — Raiza Martin, Huxe (ex NotebookLM) - https://www.youtube.com/watch?v=yG5d5UaGz1M"]
-provenance: {extracted: 0.85, inferred: 0.15, ambiguous: 0.0}
+tags:
+- product
+- ai-era
+- rebuilding
+- software-evolution
+summary: The prediction that all existing software will undergo a rebuilding phase as AI makes possible interactions that were previously inconceivable. Products built in the pre-AI era are at their ugliest...
+sources:
+- AIEF2025 - Everything is ugly, so go build something that isn't — Raiza Martin, Huxe (ex NotebookLM) - https://www.youtube.com/watch?v=yG5d5UaGz1M
+provenance:
+  extracted: 0.85
+  inferred: 0.15
+  ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-05
@@ -12,14 +20,14 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/consumer-unrest]]"
-    type: extends
-  - target: "[[concepts/forceful-product-building]]"
-    type: related_to
-  - target: "[[concepts/product-multi-layer-cake]]"
-    type: related_to
-  - target: "[[concepts/product-taste]]"
-    type: related_to
+- target: '[[concepts/consumer-unrest]]'
+  type: extends
+- target: '[[concepts/forceful-product-building]]'
+  type: related_to
+- target: '[[concepts/product-multi-layer-cake]]'
+  type: related_to
+- target: '[[concepts/product-taste]]'
+  type: related_to
 ---
 
 ## AI Product Rebuilding Wave

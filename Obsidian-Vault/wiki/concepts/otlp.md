@@ -1,15 +1,17 @@
 ---
-title: "OTLP (OpenTelemetry Protocol)"
+title: OTLP (OpenTelemetry Protocol)
 category: concepts
 tags:
-  - otlp
-  - open-telemetry
-  - protocol
-  - observability
-  - telemetry
-aliases: [OTLP, OpenTelemetry Protocol]
+- otlp
+- open-telemetry
+- protocol
+- observability
+- telemetry
+aliases:
+- OTLP
+- OpenTelemetry Protocol
 sources:
-  - "[[sources/watchv=lcqat4ip_le]]"
+- 'https://www.youtube.com/watch?v=lcqat4ip_le'
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -21,12 +23,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/open-telemetry]]"
-    type: extends
-  - target: "[[concepts/distributed-tracing]]"
-    type: related_to
-  - target: "[[concepts/mcp-observability]]"
-    type: related_to
+- target: '[[concepts/open-telemetry]]'
+  type: extends
+- target: '[[concepts/distributed-tracing]]'
+  type: related_to
+- target: '[[concepts/mcp-observability]]'
+  type: related_to
+summary: OTLP (OpenTelemetry Protocol)
 ---
 
 # OTLP (OpenTelemetry Protocol)

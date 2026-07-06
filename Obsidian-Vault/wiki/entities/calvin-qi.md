@@ -1,19 +1,19 @@
 ---
-title: "Calvin Qi"
+title: Calvin Qi
 tags:
-  - person
-  - engineer
-  - legal-ai
-  - rag
-  - pandas
-  - speaker
-  - aief2025
+- person
+- engineer
+- legal-ai
+- rag
+- pandas
+- speaker
+- aief2025
 aliases:
-  - Chong Qi
-  - Calvin
+- Chong Qi
+- Calvin
 sources:
-  - "[[sources/watchv=w1mizchnkfa]]"
-summary: "CEO and co-founder of LanceCB, co-author of Pandas. Leads RAG team at Harvey, tackling retrieval over massive complex legal document sets."
+- 'https://www.youtube.com/watch?v=w1mizchnkfa'
+summary: CEO and co-founder of LanceCB, co-author of Pandas. Leads RAG team at Harvey, tackling retrieval over massive complex legal document sets.
 provenance:
   extracted: 0.85
   inferred: 0.15
@@ -24,10 +24,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/harvey-ai|Harvey]]"
-    type: uses
-  - target: "[[entities/lance-db|LanceDB]]"
-    type: related_to
+- target: '[[entities/harvey-ai|Harvey]]'
+  type: uses
+- target: '[[entities/lance-db|LanceDB]]'
+  type: related_to
+category: entities
 ---
 
 # Calvin Qi

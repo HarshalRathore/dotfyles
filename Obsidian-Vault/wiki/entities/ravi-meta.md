@@ -4,7 +4,7 @@ category: entities
 tags: [person, product-management, ai-strategy, product-leadership]
 aliases: [Meta, Ravi]
 sources:
-  - "[[sources/watchv=1mvh05gdyde]]"
+  - "https://www.youtube.com/watch?v=1mvh05gdyde"
 summary: "Former Chief Product Officer at Tinder. Product leader at Facebook, Microsoft, and TripAdvisor. Collaborated on Reforge's AI strategy course."
 provenance:
   extracted: 0.85

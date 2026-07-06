@@ -1,35 +1,28 @@
 ---
-title: "Scorers as Specs"
+title: Scorers as Specs
 category: concepts
 tags:
-  - evals
-  - scorers
-  - specs
-  - product-design
-  - production-ai
-  - braintrust
-  - aief2025
+- evals
+- scorers
+- specs
+- product-design
+- production-ai
+- braintrust
+- aief2025
 sources:
-  - "AIEF2025 - Five hard earned lessons about Evals — Ankur Goyal, Braintrust - https://www.youtube.com/watch?v=a4BV0gGmXgA"
-  - "AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY"
-summary: "Scoring functions are specifications for your AI application — they define what good looks like for your specific product. Using generic scorers means using someone else's spec, not yours.
+- AIEF2025 - Five hard earned lessons about Evals — Ankur Goyal, Braintrust - https://www.youtube.com/watch?v=a4BV0gGmXgA
+- AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY
+summary: Scoring functions are specifications for your AI application — they define what good looks like for your specific product. Using generic scorers means using someone else's spec, not yours.
 provenance:
-  extracted: 0.95
-  inferred: 0.05
-  ambiguous: 0.00
-base_confidence: 0.85
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+base_confidence: 0.42
 lifecycle: draft
-lifecycle_changed: 2026-07-04
+lifecycle_changed: '2026-07-04'
 tier: supporting
-created: 2026-07-04
-updated: 2026-07-04
-relationships:
-  - target: "[[concepts/evals-must-be-engineered|Evals Must Be Engineered]]"
-    type: relates_to
-  - target: "[[concepts/llm-as-judge|LLM as Judge]]"
-    type: implements
-  - target: "[[concepts/task-specific-evals|Task-Specific Evals]]"
-    type: extends
+created: '2026-07-04'
+updated: '2026-07-04'
 ---
 
 # Scorers as Specs

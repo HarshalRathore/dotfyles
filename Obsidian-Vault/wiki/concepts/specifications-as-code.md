@@ -1,31 +1,35 @@
 ---
-title: "Specifications as Code"
+title: Specifications as Code
 tags:
-  - specification
-  - ai-engineering
-  - methodology
-  - communication
-  - alignment
-aliases: [specs as code, specification-driven development, spec-first engineering]
+- specification
+- ai-engineering
+- methodology
+- communication
+- alignment
+aliases:
+- specs as code
+- specification-driven development
+- spec-first engineering
 relationships:
-  - target: "[[concepts/deliberative-alignment]]"
-    type: related_to
-  - target: "[[concepts/vibe-coding-origins]]"
-    type: extends
-  - target: "[[concepts/evaluation-first-development]]"
-    type: related_to
+- target: '[[concepts/deliberative-alignment]]'
+  type: related_to
+- target: '[[concepts/vibe-coding-origins]]'
+  type: extends
+- target: '[[concepts/evaluation-first-development]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=8rabwkrsec4]]"
-summary: "Paradigm shift where written specifications — not generated code — are the primary development artifact, capturing full intent and values while serving as both human alignment document and machine-executable evaluation criteria."
+- 'https://www.youtube.com/watch?v=8rabwkrsec4'
+summary: Paradigm shift where written specifications — not generated code — are the primary development artifact, capturing full intent and values while serving as both human alignment document and machine-...
 provenance:
   extracted: 0.55
-  inferred: 0.40
+  inferred: 0.4
   ambiguous: 0.05
-base_confidence: 0.40
+base_confidence: 0.4
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Specifications as Code

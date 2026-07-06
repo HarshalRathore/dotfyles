@@ -1,27 +1,37 @@
 ---
-title: "AIEF2025 - What We Learned from Using LLMs in Pinterest"
+title: AIEF2025 - What We Learned from Using LLMs in Pinterest
 category: references
-tags: [aief2025, pinterest, search-relevance, cross-encoder, knowledge-distillation, bi-encoder, llm, mukuntha-narayanan, han-wang]
+tags:
+- aief2025
+- pinterest
+- search-relevance
+- cross-encoder
+- knowledge-distillation
+- bi-encoder
+- llm
+- mukuntha-narayanan
+- han-wang
 sources:
-  - "AIEF2025 - What We Learned from Using LLMs in Pinterest — Mukuntha Narayanan, Han Wang, Pinterest - https://www.youtube.com/watch?v=XdAWgO11zuk"
+- AIEF2025 - What We Learned from Using LLMs in Pinterest — Mukuntha Narayanan, Han Wang, Pinterest - https://www.youtube.com/watch?v=XdAWgO11zuk
 provenance:
   extracted: 0.95
   inferred: 0.03
   ambiguous: 0.02
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/pinterest|Pinterest]]"
-    type: about
-  - target: "[[entities/mukuntha-narayanan|Mukuntha Narayanan]]"
-    type: speaker
-  - target: "[[entities/han-wang|Han Wang]]"
-    type: speaker
-  - target: "[[entities/llama-3|Llama 3]]"
-    type: mentions
+- target: '[[entities/pinterest|Pinterest]]'
+  type: about
+- target: '[[entities/mukuntha-narayanan|Mukuntha Narayanan]]'
+  type: speaker
+- target: '[[entities/han-wang|Han Wang]]'
+  type: speaker
+- target: '[[entities/llama-3|Llama 3]]'
+  type: mentions
+summary: AIEF2025 - What We Learned from Using LLMs in Pinterest
 ---
 
 # AIEF2025 - What We Learned from Using LLMs in Pinterest

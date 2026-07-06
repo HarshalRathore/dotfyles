@@ -1,17 +1,20 @@
 ---
-title: "Affordance Thinking"
+title: Affordance Thinking
 category: concepts
 tags:
-  - product-management
-  - ai-agents
-  - affordances
-  - design-philosophy
-  - aief2025
-aliases: [affordance thinking, affordance-based design, think in affordances]
+- product-management
+- ai-agents
+- affordances
+- design-philosophy
+- aief2025
+aliases:
+- affordance thinking
+- affordance-based design
+- think in affordances
 sources:
-  - "[[sources/watchv=pthmdt92qng]]"
+- 'https://www.youtube.com/watch?v=pthmdt92qng'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.18
   ambiguous: 0.02
 base_confidence: 0.75
@@ -21,14 +24,15 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/emergent-behavior-in-ai]]"
-    type: extends
-  - target: "[[concepts/boundless-surface-area]]"
-    type: responds_to
-  - target: "[[concepts/discover-functionality]]"
-    type: enables
-  - target: "[[concepts/unopinionated-product-design]]"
-    type: related_to
+- target: '[[concepts/emergent-behavior-in-ai]]'
+  type: extends
+- target: '[[concepts/boundless-surface-area]]'
+  type: responds_to
+- target: '[[concepts/discover-functionality]]'
+  type: enables
+- target: '[[concepts/unopinionated-product-design]]'
+  type: related_to
+summary: Affordance Thinking
 ---
 
 # Affordance Thinking

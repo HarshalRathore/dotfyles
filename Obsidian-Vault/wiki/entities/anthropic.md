@@ -1,18 +1,18 @@
 ---
-title: "Anthropic"
+title: Anthropic
 tags:
-  - organization
-  - ai-company
-  - llm
-  - mcp
-  - infrastructure
+- organization
+- ai-company
+- llm
+- mcp
+- infrastructure
 sources:
-  - "[[sources/watchv=0f8mngpuycy]]"
-  - "[[sources/watchv=0nhcyq8bbcm]]"
-  - "[[sources/watchv=3mzs5gnelzm]]"
-  - "[[sources/watchv=6avmhzpjptq]]"
-  - "[[sources/watchv=lue8k2jqfkk]]"
-summary: "AI safety and research company and creator of Claude, which originated the Model Context Protocol (MCP) and demonstrated Golden Gate Claude as a prominent mechanistic interpretability demo. Creator of Claude Code, an agentic coding tool. Claude has been gaining market share against OpenAI on multi-model platforms."
+- 'https://www.youtube.com/watch?v=0f8mngpuycy'
+- 'https://www.youtube.com/watch?v=0nhcyq8bbcm'
+- 'https://www.youtube.com/watch?v=3mzs5gnelzm'
+- 'https://www.youtube.com/watch?v=6avmhzpjptq'
+- 'https://www.youtube.com/watch?v=lue8k2jqfkk'
+summary: AI safety and research company and creator of Claude, which originated the Model Context Protocol (MCP) and demonstrated Golden Gate Claude as a prominent mechanistic interpretability demo. Creator...
 provenance:
   extracted: 0.65
   inferred: 0.28
@@ -22,6 +22,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-04
+category: entities
 ---
 
 # Anthropic

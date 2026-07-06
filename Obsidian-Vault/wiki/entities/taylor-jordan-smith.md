@@ -1,24 +1,26 @@
 ---
-title: "Taylor Jordan Smith"
+title: Taylor Jordan Smith
 tags:
-  - person
-  - speaker
-  - ai-engineering
-  - red-hat
-  - evaluation
+- person
+- speaker
+- ai-engineering
+- red-hat
+- evaluation
 aliases:
-  - Taylor Smith
+- Taylor Smith
 sources:
-  - "[[sources/watchv=89nuzmkokik]]"
-summary: "AI developer advocate, evangelist, and technical marketing professional at Red Hat AI Business Unit. Presented the 'Strategies for LLM Evals' workshop at AI Engineer World's Fair 2025 covering the LLM Evaluation Pyramid."
+- 'https://www.youtube.com/watch?v=89nuzmkokik'
+summary: AI developer advocate, evangelist, and technical marketing professional at Red Hat AI Business Unit. Presented the 'Strategies for LLM Evals' workshop at AI Engineer World's Fair 2025 covering the...
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
+base_confidence: 0.42
 ---
 
 # Taylor Jordan Smith

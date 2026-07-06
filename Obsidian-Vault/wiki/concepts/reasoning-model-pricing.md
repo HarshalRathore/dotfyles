@@ -1,22 +1,22 @@
 ---
-title: "Reasoning Model Pricing"
+title: Reasoning Model Pricing
 category: concepts
 tags:
-  - pricing
-  - reasoning
-  - cost
-  - llm
-  - aief2025
+- pricing
+- reasoning
+- cost
+- llm
+- aief2025
 aliases:
-  - reasoning model cost
-  - reasoning model pricing
-  - expensive reasoning
+- reasoning model cost
+- reasoning model pricing
+- expensive reasoning
 sources:
-  - "AIEF2025 - 2025 in LLMs so far, illustrated by Pelicans on Bicycles — Simon Willison - https://www.youtube.com/watch?v=YpY83-kA7Bo"
-summary: "The trend of reasoning models (Claude 3.7 Sonnet, O1 Pro) being priced at extreme premiums relative to standard models, with O1 Pro at ~$150/1M input tokens — twice GPT-4.5's $75 rate — raising questions about cost-effectiveness."
+- AIEF2025 - 2025 in LLMs so far, illustrated by Pelicans on Bicycles — Simon Willison - https://www.youtube.com/watch?v=YpY83-kA7Bo
+summary: The trend of reasoning models (Claude 3.7 Sonnet, O1 Pro) being priced at extreme premiums relative to standard models, with O1 Pro at ~$150/1M input tokens — twice GPT-4.5's $75 rate — raising que...
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.75
 lifecycle: draft
@@ -25,10 +25,10 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/reasoning-models|Reasoning Models]]"
-    type: relates_to
-  - target: "[[concepts/model-price-compression|Model Price Compression]]"
-    type: contrasts_with
+- target: '[[concepts/reasoning-models|Reasoning Models]]'
+  type: relates_to
+- target: '[[concepts/model-price-compression|Model Price Compression]]'
+  type: contrasts_with
 ---
 
 # Reasoning Model Pricing

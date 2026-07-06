@@ -1,24 +1,25 @@
 ---
-title: "Techno-Social Co-Evolution"
+title: Techno-Social Co-Evolution
 tags:
-  - theory
-  - ai
-  - cognition
+- theory
+- ai
+- cognition
 aliases:
-  - human-technology co-evolution
-  - co-evolution of technology and cognition
+- human-technology co-evolution
+- co-evolution of technology and cognition
 sources:
-  - "[[sources/watchv=dj0b_cebhhi]]"
-summary: "The process by which we invent new technologies that then reshape our brains and cognitive abilities — from language and writing to computers and AI agents. Each innovation changes how we think and process information."
+- 'https://www.youtube.com/watch?v=dj0b_cebhhi'
+summary: The process by which we invent new technologies that then reshape our brains and cognitive abilities — from language and writing to computers and AI agents. Each innovation changes how we think and...
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Techno-Social Co-Evolution

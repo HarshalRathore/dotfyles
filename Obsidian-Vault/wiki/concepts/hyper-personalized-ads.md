@@ -1,16 +1,16 @@
 ---
-title: "Hyper-Personalized Ads"
+title: Hyper-Personalized Ads
 category: concepts
 tags:
-  - advertising
-  - personalization
-  - generative-media
-  - hyper-personalization
+- advertising
+- personalization
+- generative-media
+- hyper-personalization
 sources:
-  - "[[sources/watchv=p370d8kmlkw]]"
+- 'https://www.youtube.com/watch?v=p370d8kmlkw'
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.75
 lifecycle: draft
@@ -18,10 +18,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/marginal-cost-of-creation]]"
-    type: enabled_by
-  - target: "[[concepts/generative-media]]"
-    type: uses
+- target: '[[concepts/marginal-cost-of-creation]]'
+  type: enabled_by
+- target: '[[concepts/generative-media]]'
+  type: uses
+summary: Hyper-Personalized Ads
 ---
 
 # Hyper-Personalized Ads

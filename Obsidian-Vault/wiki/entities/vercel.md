@@ -1,29 +1,30 @@
 ---
-title: "Vercel"
+title: Vercel
 tags:
-  - company
-  - cloud-platform
-  - ai
-  - developer-tools
+- company
+- cloud-platform
+- ai
+- developer-tools
 relationships:
-  - target: "[[entities/v0]]"
-    type: develops
-  - target: "[[entities/vzero]]"
-    type: develops
-  - target: "[[entities/braintrust]]"
-    type: related_to
+- target: '[[entities/v0]]'
+  type: develops
+- target: '[[entities/vzero]]'
+  type: develops
+- target: '[[entities/braintrust]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=l8ooyedi_ls]]"
-summary: "Cloud platform for frontend hosting and AI tooling. Creator of the Vercel AI SDK, v0 (v0.dev), and vZero (full-stack vibe coding platform)."
+- 'https://www.youtube.com/watch?v=l8ooyedi_ls'
+summary: Cloud platform for frontend hosting and AI tooling. Creator of the Vercel AI SDK, v0 (v0.dev), and vZero (full-stack vibe coding platform).
 provenance:
-  extracted: 0.70
-  inferred: 0.20
-  ambiguous: 0.10
+  extracted: 0.7
+  inferred: 0.2
+  ambiguous: 0.1
 base_confidence: 0.65
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-05
+category: entities
 ---
 
 # Vercel

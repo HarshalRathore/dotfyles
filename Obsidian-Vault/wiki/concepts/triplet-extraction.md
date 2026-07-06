@@ -1,22 +1,22 @@
 ---
-title: "Triplet Extraction"
+title: Triplet Extraction
 tags:
-  - knowledge-graph
-  - llm
-  - extraction
-  - nlp
-  - rag
-  - data-processing
+- knowledge-graph
+- llm
+- extraction
+- nlp
+- rag
+- data-processing
 aliases:
-  - Entity-Relationship Extraction
-  - Triplet Generation
+- Entity-Relationship Extraction
+- Triplet Generation
 sources:
-  - "[[sources/watchv=j-9ebjbxcbg]]"
-  - "[[sources/watchv=-tgqa8fzf80]]"
-  - "[[sources/watchv=czm3cw6fdbs]]"
+- 'https://www.youtube.com/watch?v=j-9ebjbxcbg'
+- 'https://www.youtube.com/watch?v=-tgqa8fzf80'
+- 'https://www.youtube.com/watch?v=czm3cw6fdbs'
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.42
 lifecycle: draft
@@ -24,10 +24,12 @@ tier: supporting
 created: 2026-07-03
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/knowledge-graph-ontology-design|Knowledge Graph Ontology Design]]"
-    type: uses
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: used_by
+- target: '[[concepts/knowledge-graph-ontology-design|Knowledge Graph Ontology Design]]'
+  type: uses
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: used_by
+category: concepts
+summary: Triplet Extraction
 ---
 
 # Triplet Extraction

@@ -1,24 +1,33 @@
 ---
-title: "MCP Elicitation"
+title: MCP Elicitation
 category: concepts
-tags: [mcp, elicitation, user-input, server-to-client, draft-spec, human-in-the-loop]
-summary: "An MCP draft spec feature that allows servers to ask end users for additional information, enabling interactive workflows where the server can request clarification from the human user through the client."
+tags:
+- mcp
+- elicitation
+- user-input
+- server-to-client
+- draft-spec
+- human-in-the-loop
+summary: An MCP draft spec feature that allows servers to ask end users for additional information, enabling interactive workflows where the server can request clarification from the human user through the...
 sources:
-  - "AIEF2025 - MCP: Origins and Requests For Startups — Theodora Chu, Model Context Protocol PM, Anthropic - https://www.youtube.com/watch?v=x-8pBqWiTzk"
-provenance: { extracted: 0.90, inferred: 0.07, ambiguous: 0.03 }
-base_confidence: 0.80
+- 'AIEF2025 - MCP: Origins and Requests For Startups — Theodora Chu, Model Context Protocol PM, Anthropic - https://www.youtube.com/watch?v=x-8pBqWiTzk'
+provenance:
+  extracted: 0.9
+  inferred: 0.07
+  ambiguous: 0.03
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
-created: 2026-07-05T00:00:00Z
-updated: 2026-07-05T00:00:00Z
+created: 2026-07-05 00:00:00+00:00
+updated: 2026-07-05 00:00:00+00:00
 relationships:
-  - target: "[[concepts/mcp|Model Context Protocol]]"
-    type: extends
-  - target: "[[concepts/mcp-sampling|MCP Sampling]]"
-    type: related_to
-  - target: "[[concepts/human-in-the-loop|Human-in-the-Loop]]"
-    type: related_to
+- target: '[[concepts/mcp|Model Context Protocol]]'
+  type: extends
+- target: '[[concepts/mcp-sampling|MCP Sampling]]'
+  type: related_to
+- target: '[[concepts/human-in-the-loop|Human-in-the-Loop]]'
+  type: related_to
 ---
 
 # MCP Elicitation

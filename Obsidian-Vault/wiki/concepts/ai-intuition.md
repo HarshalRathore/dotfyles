@@ -1,17 +1,17 @@
 ---
-title: "AI Intuition"
+title: AI Intuition
 category: concepts
 tags:
-  - ai-capabilities
-  - skill-development
-  - vibe-coding
-  - aief2025
+- ai-capabilities
+- skill-development
+- vibe-coding
+- aief2025
 aliases:
-  - building-ai-intuition
+- building-ai-intuition
 sources:
-  - "AIEF2025 - Vibe Coding at Scale: Customizing AI Assistants for Enterprise Environments - Harald Kirshner, - https://www.youtube.com/watch?v=i1uPAN6uW4s"
+- 'AIEF2025 - Vibe Coding at Scale: Customizing AI Assistants for Enterprise Environments - Harald Kirshner, - https://www.youtube.com/watch?v=i1uPAN6uW4s'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -21,12 +21,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/vibe-coding|Vibe Coding]]"
-    type: developed-by
-  - target: "[[concepts/yolo-structured-spectrum-vibe-coding|YOLO, Structured, Spec-Driven Spectrum of Vibe Coding]]"
-    type: developed-in
-  - target: "[[concepts/ai-design-sense|AI Design Sense]]"
-    type: related_to
+- target: '[[concepts/vibe-coding|Vibe Coding]]'
+  type: developed-by
+- target: '[[concepts/yolo-structured-spectrum-vibe-coding|YOLO, Structured, Spec-Driven Spectrum of Vibe Coding]]'
+  type: developed-in
+- target: '[[concepts/ai-design-sense|AI Design Sense]]'
+  type: related_to
+summary: AI Intuition
 ---
 
 # AI Intuition

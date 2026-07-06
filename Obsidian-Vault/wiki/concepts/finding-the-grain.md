@@ -1,15 +1,15 @@
 ---
-title: "Finding the Grain"
+title: Finding the Grain
 tags:
-  - ai
-  - design
-  - methodology
-  - ux
+- ai
+- design
+- methodology
+- ux
 sources:
-  - "[[sources/watchv=cimvknx-cni]]"
-summary: "Post-2025 AI product design concept: after feeling the material (understanding model properties), find the grain — identify where the AI is smooth/rough, weak/strong — and design form factors that work with, not against, those characteristics."
+- 'https://www.youtube.com/watch?v=cimvknx-cni'
+summary: 'Post-2025 AI product design concept: after feeling the material (understanding model properties), find the grain — identify where the AI is smooth/rough, weak/strong — and design form factors that...'
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.28
   ambiguous: 0.02
 base_confidence: 0.55
@@ -17,6 +17,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Finding the Grain

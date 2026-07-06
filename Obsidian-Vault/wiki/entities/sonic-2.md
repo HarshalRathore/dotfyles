@@ -1,16 +1,16 @@
 ---
-title: "Sonic 2"
+title: Sonic 2
 category: entities
 tags:
-  - tts
-  - text-to-speech
-  - voice-ai
-  - cartesia
-  - state-space-models
+- tts
+- text-to-speech
+- voice-ai
+- cartesia
+- state-space-models
 sources:
-  - "AIEF2025 - Serving Voice AI at Scale — Arjun Desai (Cartesia) & Rohit Talluri (AWS) - https://www.youtube.com/watch?v=knH3fmGAteQ"
+- AIEF2025 - Serving Voice AI at Scale — Arjun Desai (Cartesia) & Rohit Talluri (AWS) - https://www.youtube.com/watch?v=knH3fmGAteQ
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -20,14 +20,15 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/cartesia]]"
-    type: related_to
-  - target: "[[concepts/state-space-models]]"
-    type: implements
-  - target: "[[concepts/voice-ai-latency]]"
-    type: related_to
-  - target: "[[entities/orpheus-tts]]"
-    type: related_to
+- target: '[[entities/cartesia]]'
+  type: related_to
+- target: '[[concepts/state-space-models]]'
+  type: implements
+- target: '[[concepts/voice-ai-latency]]'
+  type: related_to
+- target: '[[entities/orpheus-tts]]'
+  type: related_to
+summary: Sonic 2
 ---
 
 # Sonic 2

@@ -1,30 +1,34 @@
 ---
-title: "Rustin Banks"
+title: Rustin Banks
 category: entities
 tags:
-  - google
-  - google-labs
-  - product-manager
-  - coding-agent
-  - aief2025
+- google
+- google-labs
+- product-manager
+- coding-agent
+- aief2025
 sources:
-  - "AIEF2025 - Your Coding Agent Just Got Cloned And Your Brain Isn't Ready - Rustin Banks, Google Jules - https://www.youtube.com/watch?v=X4BwOu0GWb8"
+- AIEF2025 - Your Coding Agent Just Got Cloned And Your Brain Isn't Ready - Rustin Banks, Google Jules - https://www.youtube.com/watch?v=X4BwOu0GWb8
 relationships:
-  - target: [[entities/google|Google]]
-    type: works_at
-  - target: [[entities/google-jules|Google Jules]]
-    type: product_manager_of
-  - target: [[concepts/parallel-agent-workflows|Parallel Agent Workflows]]
-    type: advocate_of
+- target:
+  - - entities/google|Google
+  type: works_at
+- target:
+  - - entities/google-jules|Google Jules
+  type: product_manager_of
+- target:
+  - - concepts/parallel-agent-workflows|Parallel Agent Workflows
+  type: advocate_of
 provenance:
   extracted: 0.95
   inferred: 0.03
   ambiguous: 0.02
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Rustin Banks
 ---
 
 # Rustin Banks

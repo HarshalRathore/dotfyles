@@ -4,7 +4,7 @@ category: concepts
 tags: [ai-reliability, analogy, production-ai, aief2025]
 summary: "Eugene (Federalist AI) used the DoorDash analogy to illustrate unacceptable AI reliability: a 45% success rate is like ordering food where your order goes missing or you get 100 pizzas."
 sources:
-  - "[[sources/watchv=l8-5ezsoi5a]]"
+  - "https://www.youtube.com/watch?v=l8-5ezsoi5a"
 provenance:
   extracted: 0.95
   inferred: 0.05

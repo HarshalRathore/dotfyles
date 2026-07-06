@@ -10,7 +10,7 @@ tags:
   - agentic-ai
 aliases: [Will Brown, willbrown]
 sources:
-  - "[[sources/watchv=pbhm2qknu10]]"
+  - "https://www.youtube.com/watch?v=pbhm2qknu10"
 summary: "Speaker at AIEF2025, affiliated with Prime Intellect. Presented on training agentic reasoners via reinforcement learning, arguing reasoning and agents are the same thing."
 provenance:
   extracted: 0.90

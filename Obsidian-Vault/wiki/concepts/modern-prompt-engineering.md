@@ -10,7 +10,8 @@ tags:
   - aief2025
 sources:
   - "AIEF2025 - Five hard earned lessons about Evals — Ankur Goyal, Braintrust - https://www.youtube.com/watch?v=a4BV0gGmXgA"
-summary: "Modern prompt engineering evolved beyond system prompts: most tokens in agent prompts come from context (tools, outputs, history). You must engineer the entire context.
+summary: >-
+  "Modern prompt engineering evolved beyond system prompts: most tokens in agent prompts come from context (tools, outputs, history). You must engineer the entire context.
 provenance:
   extracted: 0.90
   inferred: 0.10

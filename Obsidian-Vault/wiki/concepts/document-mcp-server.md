@@ -1,16 +1,16 @@
 ---
-title: "Document MCP Server"
+title: Document MCP Server
 category: concepts
 tags:
-  - mcp
-  - agent
-  - document-parsing
-  - tool-interface
-  - llamaindex
+- mcp
+- agent
+- document-parsing
+- tool-interface
+- llamaindex
 summary: A pattern for exposing a generalized set of document interaction tools (search, lookup, manipulation, querying) to AI agents via MCP, extending beyond single-endpoint RAG retrieval.
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.65
 lifecycle: draft
@@ -19,12 +19,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/mcp]]"
-    type: implements
-  - target: "[[concepts/document-toolbox]]"
-    type: implements
-  - target: "[[concepts/api-first-design-for-agents]]"
-    type: related_to
+- target: '[[concepts/mcp]]'
+  type: implements
+- target: '[[concepts/document-toolbox]]'
+  type: implements
+- target: '[[concepts/api-first-design-for-agents]]'
+  type: related_to
+sources: []
 ---
 
 # Document MCP Server

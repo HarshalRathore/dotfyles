@@ -1,20 +1,20 @@
 ---
-title: "Vector Retrieval Limitations for Code"
+title: Vector Retrieval Limitations for Code
 category: concepts
 tags:
-  - rag
-  - code-understanding
-  - vector-search
-  - retrieval
-  - graphrag
+- rag
+- code-understanding
+- vector-search
+- retrieval
+- graphrag
 aliases:
-  - vector RAG code limitations
-  - why vector search fails for code
+- vector RAG code limitations
+- why vector search fails for code
 sources:
-  - "AIEF2025 - GraphRAG methods to create optimized LLM context windows for Retrieval — Jonathan Larson, Microsoft - https://www.youtube.com/watch?v=c5qJHr3DnT4"
+- AIEF2025 - GraphRAG methods to create optimized LLM context windows for Retrieval — Jonathan Larson, Microsoft - https://www.youtube.com/watch?v=c5qJHr3DnT4
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.75
 lifecycle: draft
@@ -23,12 +23,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: solved-by
-  - target: "[[concepts/retrieval-augmented-generation|Retrieval Augmented Generation]]"
-    type: contrasts-with
-  - target: "[[concepts/graphrag-code|GraphRAG for Code]]"
-    type: motivates
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: solved-by
+- target: '[[concepts/retrieval-augmented-generation|Retrieval Augmented Generation]]'
+  type: contrasts-with
+- target: '[[concepts/graphrag-code|GraphRAG for Code]]'
+  type: motivates
+summary: Vector Retrieval Limitations for Code
 ---
 
 # Vector Retrieval Limitations for Code

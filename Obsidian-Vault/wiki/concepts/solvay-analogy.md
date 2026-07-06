@@ -1,22 +1,24 @@
 ---
-title: "Solvay Conference Analogy"
+title: Solvay Conference Analogy
 tags:
-  - analogy
-  - history-of-science
-  - ai-engineering
-  - standard-model
-  - convergence
+- analogy
+- history-of-science
+- ai-engineering
+- standard-model
+- convergence
 sources:
-  - "[[sources/watchv=ihkyfhu6jey]]"
+- 'https://www.youtube.com/watch?v=ihkyfhu6jey'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+category: concepts
+summary: Solvay Conference Analogy
 ---
 
 # Solvay Conference Analogy

@@ -9,7 +9,7 @@ relationships:
   - target: "[[concepts/ai-first-transformation]]"
     type: related_to
 sources:
-  - "[[sources/watchv=sbuxrluvrwk]]"
+  - "https://www.youtube.com/watch?v=sbuxrluvrwk"
 summary: "Verticalized AI solutions company focused on document processing, led by ML team lead Denys Linkov."
 provenance:
   extracted: 0.95

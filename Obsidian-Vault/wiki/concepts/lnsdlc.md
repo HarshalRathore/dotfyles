@@ -1,15 +1,15 @@
 ---
-title: "LNSDLC"
+title: LNSDLC
 tags:
-  - sdlc
-  - lifecycle
-  - ai-engineering
-  - standard-model
-  - architecture
+- sdlc
+- lifecycle
+- ai-engineering
+- standard-model
+- architecture
 sources:
-  - "[[sources/watchv=ihkyfhu6jey]]"
+- 'https://www.youtube.com/watch?v=ihkyfhu6jey'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.55
@@ -17,6 +17,8 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+category: concepts
+summary: LNSDLC
 ---
 
 # LNSDLC

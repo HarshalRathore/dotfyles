@@ -1,23 +1,26 @@
 ---
-title: "Amir Haghighat"
+title: Amir Haghighat
 tags:
-  - person
-  - speaker
-  - inference
-  - baseten
-aliases: [Amir Haghighat, amiruci]
+- person
+- speaker
+- inference
+- baseten
+aliases:
+- Amir Haghighat
+- amiruci
 sources:
-  - "[[sources/watchv=3wv1vt0b0cg]]"
-summary: "Co-founder and CTO of Baseten, an inference platform. Observed enterprise AI adoption patterns across 100+ enterprise conversations over two years."
+- 'https://www.youtube.com/watch?v=3wv1vt0b0cg'
+summary: Co-founder and CTO of Baseten, an inference platform. Observed enterprise AI adoption patterns across 100+ enterprise conversations over two years.
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Amir Haghighat

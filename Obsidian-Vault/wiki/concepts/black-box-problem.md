@@ -11,7 +11,7 @@ tags:
 aliases: [black-box-problem, black box problem, mcp black box]
 summary: Third-party MCP servers appear as opaque spans in distributed traces because their internal execution is invisible to the client.
 sources:
-  - "[[sources/watchv=lcqat4ip_le]]"
+  - "https://www.youtube.com/watch?v=lcqat4ip_le"
 provenance:
   extracted: 0.90
   inferred: 0.08

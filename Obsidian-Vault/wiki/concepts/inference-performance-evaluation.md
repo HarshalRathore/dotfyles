@@ -1,30 +1,31 @@
 ---
-title: "Inference Performance Evaluation"
+title: Inference Performance Evaluation
 tags:
-  - evaluation
-  - inference
-  - benchmarking
-  - performance
-  - latency
-  - throughput
-  - llm
+- evaluation
+- inference
+- benchmarking
+- performance
+- latency
+- throughput
+- llm
 aliases:
-  - LLM Inference Benchmarking
-  - System Performance Evaluation
-  - Inference Benchmarks
+- LLM Inference Benchmarking
+- System Performance Evaluation
+- Inference Benchmarks
 sources:
-  - "[[sources/watchv=89nuzmkokik]]"
-  - "[[sources/watchv=deff3j8t5pk]]"
-summary: "System-level evaluation of LLM inference performance measuring latency, throughput, time-to-first-token, and inter-token latency. Covers both GuideLLM methodology and Modal LLM Almanac's prefill-vs-decode throughput benchmarking."
+- 'https://www.youtube.com/watch?v=89nuzmkokik'
+- 'https://www.youtube.com/watch?v=deff3j8t5pk'
+summary: System-level evaluation of LLM inference performance measuring latency, throughput, time-to-first-token, and inter-token latency. Covers both GuideLLM methodology and Modal LLM Almanac's prefill-vs...
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.55
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Inference Performance Evaluation

@@ -1,15 +1,15 @@
 ---
-title: "Lemonade"
+title: Lemonade
 tags:
-  - company
-  - insurance
-  - ai
-  - voice
+- company
+- insurance
+- ai
+- voice
 sources:
-  - "[[sources/watchv=-oxiljtjxqu]]"
-summary: "AI-powered insurance company cited as a case study for early investment in evals, guardrails, and feedback mechanisms for voice agents."
+- 'https://www.youtube.com/watch?v=-oxiljtjxqu'
+summary: AI-powered insurance company cited as a case study for early investment in evals, guardrails, and feedback mechanisms for voice agents.
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.42
@@ -17,6 +17,7 @@ lifecycle: draft
 tier: peripheral
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Lemonade

@@ -1,22 +1,23 @@
 ---
-title: "ARC Institute"
+title: ARC Institute
 tags:
-  - organization
-  - research
-  - genomics
-  - ai
+- organization
+- research
+- genomics
+- ai
 sources:
-  - "[[sources/watchv=6avmhzpjptq]]"
-summary: "Research organization training foundational genomics models including EVO2, a superhuman genome prediction model. Collaborates with Goodfire AI on extracting scientific knowledge from neural networks."
+- 'https://www.youtube.com/watch?v=6avmhzpjptq'
+summary: Research organization training foundational genomics models including EVO2, a superhuman genome prediction model. Collaborates with Goodfire AI on extracting scientific knowledge from neural networks.
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.42
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # ARC Institute

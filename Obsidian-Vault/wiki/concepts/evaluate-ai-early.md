@@ -1,10 +1,18 @@
 ---
-title: "Evaluate AI Early"
+title: Evaluate AI Early
 category: concepts
-tags: [ai-evaluation, ai-product-development, prototyping, experimentation, eval-driven-development]
-aliases: [evaluate ai early, resolve ai uncertainties early, ai eval first]
+tags:
+- ai-evaluation
+- ai-product-development
+- prototyping
+- experimentation
+- eval-driven-development
+aliases:
+- evaluate ai early
+- resolve ai uncertainties early
+- ai eval first
 sources:
-  - "AIEF2025 - Why your product needs an AI product manager, and why it should be you — James Lowe, i.AI - https://www.youtube.com/watch?v=xzJdSi2Tsqw"
+- AIEF2025 - Why your product needs an AI product manager, and why it should be you — James Lowe, i.AI - https://www.youtube.com/watch?v=xzJdSi2Tsqw
 provenance:
   extracted: 0.8
   inferred: 0.2
@@ -16,12 +24,13 @@ tier: core
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/ai-product-manager]]"
-    type: core_skill_of
-  - target: "[[concepts/feature-exploration-strategy]]"
-    type: contrasts_with
-  - target: "[[concepts/ai-capability-first]]"
-    type: implements
+- target: '[[concepts/ai-product-manager]]'
+  type: core_skill_of
+- target: '[[concepts/feature-exploration-strategy]]'
+  type: contrasts_with
+- target: '[[concepts/ai-capability-first]]'
+  type: implements
+summary: Evaluate AI Early
 ---
 
 # Evaluate AI Early

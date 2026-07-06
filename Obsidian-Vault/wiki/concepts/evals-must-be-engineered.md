@@ -11,7 +11,8 @@ tags:
   - aief2025
 sources:
   - "AIEF2025 - Five hard earned lessons about Evals — Ankur Goyal, Braintrust - https://www.youtube.com/watch?v=a4BV0gGmXgA"
-summary: "Evals are an engineering problem: no dataset aligns perfectly with reality, datasets must be continuously reconciled with production experience, and scorers are product-specific specs.
+summary: >-
+  "Evals are an engineering problem: no dataset aligns perfectly with reality, datasets must be continuously reconciled with production experience, and scorers are product-specific specs.
 provenance:
   extracted: 0.90
   inferred: 0.10

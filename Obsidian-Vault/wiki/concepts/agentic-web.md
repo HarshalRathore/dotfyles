@@ -1,16 +1,16 @@
 ---
-title: "Agentic Web"
+title: Agentic Web
 tags:
-  - concept
-  - agent
-  - architecture
-  - microsoft
-  - interoperability
+- concept
+- agent
+- architecture
+- microsoft
+- interoperability
 sources:
-  - "[[sources/watchv=7hrw6rtxahc]]"
-summary: "Vision of a world where AI agents interact with tools, models, and other agents across any cloud, company, or device — enabled by open protocols, cloud-to-edge deployment, and agent factories."
+- 'https://www.youtube.com/watch?v=7hrw6rtxahc'
+summary: Vision of a world where AI agents interact with tools, models, and other agents across any cloud, company, or device — enabled by open protocols, cloud-to-edge deployment, and agent factories.
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.45
@@ -18,6 +18,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Agentic Web

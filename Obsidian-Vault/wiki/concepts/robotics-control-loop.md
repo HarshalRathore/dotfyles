@@ -1,12 +1,21 @@
 ---
-title: "Robotics Control Loop"
+title: Robotics Control Loop
 category: concepts
-tags: [robotics, control-loop, real-time, actuator, sensor, policy]
-aliases: [robot control loop, sensor-policy-actuator loop, robotics timing]
+tags:
+- robotics
+- control-loop
+- real-time
+- actuator
+- sensor
+- policy
+aliases:
+- robot control loop
+- sensor-policy-actuator loop
+- robotics timing
 sources:
-  - "AIEF2025 - Rishabh Garg, Tesla Optimus — Challenges in High Performance Robotics Systems - https://www.youtube.com/watch?v=bCGbuyv8PMk"
+- AIEF2025 - Rishabh Garg, Tesla Optimus — Challenges in High Performance Robotics Systems - https://www.youtube.com/watch?v=bCGbuyv8PMk
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -16,14 +25,15 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/can-bus-robotics|CAN Bus in Robotics]]"
-    type: depends_on
-  - target: "[[concepts/multithreaded-robotics-architecture|Multithreaded Robotics Architecture]]"
-    type: extended_by
-  - target: "[[concepts/jitter-in-robotics|Jitter in Robotics]]"
-    type: affected_by
-  - target: "[[concepts/robotics-synchronization|Robotics Synchronization]]"
-    type: requires
+- target: '[[concepts/can-bus-robotics|CAN Bus in Robotics]]'
+  type: depends_on
+- target: '[[concepts/multithreaded-robotics-architecture|Multithreaded Robotics Architecture]]'
+  type: extended_by
+- target: '[[concepts/jitter-in-robotics|Jitter in Robotics]]'
+  type: affected_by
+- target: '[[concepts/robotics-synchronization|Robotics Synchronization]]'
+  type: requires
+summary: Robotics Control Loop
 ---
 
 # Robotics Control Loop

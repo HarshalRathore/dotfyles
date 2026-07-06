@@ -1,19 +1,19 @@
 ---
-title: "ANN Quality-Aware Benchmarking"
+title: ANN Quality-Aware Benchmarking
 category: concepts
 tags:
-  - vector-search
-  - benchmarking
-  - precision-recall
-  - approximate-nearest-neighbor
-  - hnsw
-  - aief2025
+- vector-search
+- benchmarking
+- precision-recall
+- approximate-nearest-neighbor
+- hnsw
+- aief2025
 sources:
-  - "AIEF2025 - Vector Search Benchmarking - Philipp Krenn, Elastic - https://www.youtube.com/watch?v=YrUBFXa1KUY"
-summary: "Benchmarks for approximate nearest neighbor search must include precision and recall metrics alongside performance. Without quality measures, speed comparisons are meaningless — faster systems may return worse results."
+- AIEF2025 - Vector Search Benchmarking - Philipp Krenn, Elastic - https://www.youtube.com/watch?v=YrUBFXa1KUY
+summary: Benchmarks for approximate nearest neighbor search must include precision and recall metrics alongside performance. Without quality measures, speed comparisons are meaningless — faster systems may...
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.82
 lifecycle: draft
@@ -22,12 +22,12 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/vector-search-limitations|Vector Search Limitations]]"
-    type: extends
-  - target: "[[concepts/benchmark-design-principles|Benchmark Design Principles]]"
-    type: related_to
-  - target: "[[concepts/vector-similarity-vs-relevance|Vector Similarity vs. Relevance]]"
-    type: related_to
+- target: '[[concepts/vector-search-limitations|Vector Search Limitations]]'
+  type: extends
+- target: '[[concepts/benchmark-design-principles|Benchmark Design Principles]]'
+  type: related_to
+- target: '[[concepts/vector-similarity-vs-relevance|Vector Similarity vs. Relevance]]'
+  type: related_to
 ---
 
 # ANN Quality-Aware Benchmarking

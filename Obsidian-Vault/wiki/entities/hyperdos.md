@@ -1,21 +1,21 @@
 ---
-title: "HyperDOS"
+title: HyperDOS
 category: entities
 tags:
-  - software
-  - orchestration
-  - gpu
-  - kubernetes
-  - distributed-systems
-  - hyperbolic
+- software
+- orchestration
+- gpu
+- kubernetes
+- distributed-systems
+- hyperbolic
 aliases:
-  - Hyperbolic Distributed Operating System
+- Hyperbolic Distributed Operating System
 sources:
-  - "[[sources/watchv=m6vbaig1tsm]]"
+- 'https://www.youtube.com/watch?v=m6vbaig1tsm'
 provenance:
-  extracted: 0.90
-  inferred: 0.10
-  ambiguous: 0.00
+  extracted: 0.9
+  inferred: 0.1
+  ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-04
@@ -23,10 +23,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/hyperbolic|Hyperbolic]]"
-    type: implements
-  - target: "[[entities/kubernetes|Kubernetes]]"
-    type: related_to
+- target: '[[entities/hyperbolic|Hyperbolic]]'
+  type: implements
+- target: '[[entities/kubernetes|Kubernetes]]'
+  type: related_to
+summary: HyperDOS
 ---
 
 # HyperDOS

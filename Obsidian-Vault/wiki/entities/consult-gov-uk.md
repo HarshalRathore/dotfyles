@@ -1,10 +1,18 @@
 ---
-title: "Consult (UK Government)"
+title: Consult (UK Government)
 category: entities
-tags: [project, uk-government, consultation, public-policy, text-analysis, nlp]
-aliases: [consult, uk government consultation]
+tags:
+- project
+- uk-government
+- consultation
+- public-policy
+- text-analysis
+- nlp
+aliases:
+- consult
+- uk government consultation
 sources:
-  - "AIEF2025 - Why your product needs an AI product manager, and why it should be you — James Lowe, i.AI - https://www.youtube.com/watch?v=xzJdSi2Tsqw"
+- AIEF2025 - Why your product needs an AI product manager, and why it should be you — James Lowe, i.AI - https://www.youtube.com/watch?v=xzJdSi2Tsqw
 provenance:
   extracted: 0.9
   inferred: 0.1
@@ -16,10 +24,11 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/incubator-for-ai]]"
-    type: created_by
-  - target: "[[entities/theme-finder]]"
-    type: produced
+- target: '[[entities/incubator-for-ai]]'
+  type: created_by
+- target: '[[entities/theme-finder]]'
+  type: produced
+summary: Consult (UK Government)
 ---
 
 # Consult (UK Government)

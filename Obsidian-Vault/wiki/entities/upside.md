@@ -1,10 +1,17 @@
 ---
 title: Upside
 category: entities
-tags: [company, ai, revenue-attribution, data-analytics, aief2025, hf0-residency, knowledge-graph]
-summary: "Forensic revenue attribution and intelligence platform. Uses LLMs to turn messy enterprise data into structured maps of customer interactions. Building in stealth for ~1 year, hiring for knowledge graphs and graph analytics."
+tags:
+- company
+- ai
+- revenue-attribution
+- data-analytics
+- aief2025
+- hf0-residency
+- knowledge-graph
+summary: Forensic revenue attribution and intelligence platform. Uses LLMs to turn messy enterprise data into structured maps of customer interactions. Building in stealth for ~1 year, hiring for knowledge...
 sources:
-  - "[[sources/watchv=l8-5ezsoi5a]]"
+- 'https://www.youtube.com/watch?v=l8-5ezsoi5a'
 provenance:
   extracted: 0.9
   inferred: 0.1
@@ -15,10 +22,10 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/forensic-revenue-attribution]]"
-    type: implements
-  - target: "[[concepts/knowledge-graph-ontology-design]]"
-    type: uses
+- target: '[[concepts/forensic-revenue-attribution]]'
+  type: implements
+- target: '[[concepts/knowledge-graph-ontology-design]]'
+  type: uses
 ---
 
 # Upside

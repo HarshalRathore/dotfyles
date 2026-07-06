@@ -1,30 +1,31 @@
 ---
-title: "Rich Sutton"
+title: Rich Sutton
 tags:
-  - person
-  - ai
-  - reinforcement-learning
-  - research
-  - aief2025
+- person
+- ai
+- reinforcement-learning
+- research
+- aief2025
 sources:
-  - "[[sources/watchv=bztd0yyagcq]]"
-summary: "AI researcher and reinforcement learning pioneer, author of The Bitter Lesson essay arguing that general methods leveraging computation outperform human-engineered approaches."
+- 'https://www.youtube.com/watch?v=bztd0yyagcq'
+summary: AI researcher and reinforcement learning pioneer, author of The Bitter Lesson essay arguing that general methods leveraging computation outperform human-engineered approaches.
 provenance:
   extracted: 0.65
-  inferred: 0.30
+  inferred: 0.3
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/omar-khattab|Omar Khattab]]"
-    type: discussed_by
-  - target: "[[concepts/bitter-lesson|The Bitter Lesson (Concept)]]"
-    type: authored
-  - target: "[[concepts/reinforcement-learning|Reinforcement Learning]]"
-    type: field
+- target: '[[entities/omar-khattab|Omar Khattab]]'
+  type: discussed_by
+- target: '[[concepts/bitter-lesson|The Bitter Lesson (Concept)]]'
+  type: authored
+- target: '[[concepts/reinforcement-learning|Reinforcement Learning]]'
+  type: field
+category: entities
 ---
 
 # Rich Sutton

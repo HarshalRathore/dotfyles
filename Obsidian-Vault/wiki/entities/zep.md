@@ -4,7 +4,7 @@ category: entities
 tags: [company, ai-agents, agent-memory, knowledge-graph, temporal-graph, open-source]
 summary: "Company building domain-aware memory for AI agents using temporal graphs. Creator of Graffiti, an open-source temporal graph framework for custom entity and edge definitions."
 sources:
-  - "[[sources/watchv=t5imo5ntyha]]"
+  - "https://www.youtube.com/watch?v=t5imo5ntyha"
 provenance:
   extracted: 0.90
   inferred: 0.07

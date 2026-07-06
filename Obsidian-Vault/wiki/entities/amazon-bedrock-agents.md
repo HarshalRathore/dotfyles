@@ -1,24 +1,26 @@
 ---
-title: "Amazon Bedrock Agents"
+title: Amazon Bedrock Agents
+category: entities
 tags:
-  - aws
-  - agents
-  - managed-service
-  - bedrock
-  - cloud-scale
+- aws
+- agents
+- managed-service
+- bedrock
+- cloud-scale
 sources:
-  - "[[sources/watchv=ht4l0dep69i]]"
-  - "[[sources/watchv=rofhhjmumcc]]"
-summary: "AWS's fully managed service for building, deploying, and versioning AI agents. Handles the agentic loop, conversational history, and tool orchestration with no infrastructure management required.
+- https://www.youtube.com/watch?v=ht4l0dep69i
+- https://www.youtube.com/watch?v=rofhhjmumcc
+summary: AWS's fully managed service for building, deploying, and versioning AI agents. Handles the agentic loop, conversational history, and tool orchestration with no infrastructure management required.
 provenance:
-  extracted: 0.90
-  inferred: 0.07
-  ambiguous: 0.03
-base_confidence: 0.85
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+base_confidence: 0.42
 lifecycle: draft
+lifecycle_changed: '2026-07-06'
 tier: supporting
-created: 2026-07-04
-updated: 2026-07-04
+created: '2026-07-04'
+updated: '2026-07-04'
 ---
 # Amazon Bedrock Agents
 

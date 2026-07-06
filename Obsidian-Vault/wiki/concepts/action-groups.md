@@ -1,23 +1,25 @@
 ---
-title: "Action Groups"
+title: Action Groups
+category: concepts
 tags:
-  - agent
-  - tools
-  - aws
-  - bedrock
-  - architecture
+- agent
+- tools
+- aws
+- bedrock
+- architecture
 sources:
-  - "[[sources/watchv=ht4l0dep69i]]"
-summary: "A collection of tools within a managed agent service (notably Amazon Bedrock Agents) that enables grouping related capabilities. Each action group can be backed by a Lambda function with auto-configured permissions.
+- https://www.youtube.com/watch?v=ht4l0dep69i
+summary: A collection of tools within a managed agent service (notably Amazon Bedrock Agents) that enables grouping related capabilities. Each action group can be backed by a Lambda function with auto-confi...
 provenance:
-  extracted: 0.85
-  inferred: 0.10
-  ambiguous: 0.05
-base_confidence: 0.80
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+base_confidence: 0.42
 lifecycle: draft
+lifecycle_changed: '2026-07-06'
 tier: supporting
-created: 2026-07-04
-updated: 2026-07-04
+created: '2026-07-04'
+updated: '2026-07-04'
 ---
 # Action Groups
 

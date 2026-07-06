@@ -1,18 +1,18 @@
 ---
-title: "LM Memory with Structure"
+title: LM Memory with Structure
 category: concepts
 tags:
-  - llm
-  - memory
-  - knowledge-graph
-  - ai-applications
-  - graphrag
+- llm
+- memory
+- knowledge-graph
+- ai-applications
+- graphrag
 aliases:
-  - structured memory for LMs
+- structured memory for LMs
 sources:
-  - "AIEF2025 - GraphRAG methods to create optimized LLM context windows for Retrieval — Jonathan Larson, Microsoft - https://www.youtube.com/watch?v=c5qJHr3DnT4"
+- AIEF2025 - GraphRAG methods to create optimized LLM context windows for Retrieval — Jonathan Larson, Microsoft - https://www.youtube.com/watch?v=c5qJHr3DnT4
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.65
@@ -22,12 +22,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: implements
-  - target: "[[concepts/agentic-rag|Agentic RAG]]"
-    type: enables
-  - target: "[[concepts/knowledge-graph-ontology-design|Knowledge Graph Ontology Design]]"
-    type: uses
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: implements
+- target: '[[concepts/agentic-rag|Agentic RAG]]'
+  type: enables
+- target: '[[concepts/knowledge-graph-ontology-design|Knowledge Graph Ontology Design]]'
+  type: uses
+summary: LM Memory with Structure
 ---
 
 # LM Memory with Structure

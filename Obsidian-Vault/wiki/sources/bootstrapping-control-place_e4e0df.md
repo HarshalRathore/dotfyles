@@ -1,25 +1,32 @@
 ---
-summary: "This source provides a step-by-step guide for initializing the Kubernetes control plane on a master node using `kubeadm init`. The process unfolds in four main stages: performing pre-flight checks ..."
+summary: 'This source provides a step-by-step guide for initializing the Kubernetes control plane on a master node using `kubeadm init`. The process unfolds in four main stages: performing pre-flight checks ...'
 type: source
-title: "Bootstrap the Kubernetes Control Plane - Summary"
-created: "2026-06-30"
-updated: "2026-06-30"
+title: Bootstrap the Kubernetes Control Plane - Summary
+created: '2026-06-30'
+updated: '2026-06-30'
 lifecycle: draft
 base_confidence: 0.7
-source_file: ""
+source_file: ''
 tags:
-  - "kube-proxy"
-  - "controller-manager"
-  - scheduler
-  - "add-ons deployment"
-  - "high-availability control plane"
-  - certificate generation
-  - kubeconfig
+- kube-proxy
+- controller-manager
+- scheduler
+- add-ons deployment
+- high-availability control plane
+- certificate generation
+- kubeconfig
 aliases:
-  - kubeadm init Guide
-  - Control Plane Bootstrapping
-contentHash: "1ecb-2b131903"
-generation_complete: True
+- kubeadm init Guide
+- Control Plane Bootstrapping
+contentHash: 1ecb-2b131903
+generation_complete: true
+category: sources
+sources: []
+tier: supporting
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
 ---
 # Bootstrap the Kubernetes Control Plane - Summary
 

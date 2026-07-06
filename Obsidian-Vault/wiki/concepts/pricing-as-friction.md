@@ -1,10 +1,14 @@
 ---
-title: "Pricing as Friction"
+title: Pricing as Friction
 category: concepts
-tags: [pricing, product-design, ai-engineering, monetization]
+tags:
+- pricing
+- product-design
+- ai-engineering
+- monetization
 sources:
-  - "[[sources/watchv=1c3szbaxomw]]"
-  - "[[sources/watchv=6wqylqb0odc]]"
+- 'https://www.youtube.com/watch?v=1c3szbaxomw'
+- 'https://www.youtube.com/watch?v=6wqylqb0odc'
 provenance:
   extracted: 0.72
   inferred: 0.23
@@ -15,6 +19,7 @@ lifecycle_changed: 2026-07-03
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+summary: Pricing as Friction
 ---
 
 # Pricing as Friction

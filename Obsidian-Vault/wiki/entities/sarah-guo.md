@@ -1,15 +1,16 @@
 ---
-title: "Sarah Guo"
+title: Sarah Guo
 tags:
-  - person
-  - venture-capital
-  - ai
-aliases: [Sarah Gua]
+- person
+- venture-capital
+- ai
+aliases:
+- Sarah Gua
 sources:
-  - "[[sources/watchv=3mzs5gnelzm]]"
-summary: "Founder of Conviction, an AI-native venture fund. Previously partner at Greylock. Investor in Cursor, Cognition, Mistral, Thinking Machines, and Harvey."
+- 'https://www.youtube.com/watch?v=3mzs5gnelzm'
+summary: Founder of Conviction, an AI-native venture fund. Previously partner at Greylock. Investor in Cursor, Cognition, Mistral, Thinking Machines, and Harvey.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.55
@@ -17,6 +18,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Sarah Guo

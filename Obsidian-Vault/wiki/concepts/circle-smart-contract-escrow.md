@@ -1,19 +1,19 @@
 ---
-title: "Circle Smart Contract Escrow"
+title: Circle Smart Contract Escrow
 tags:
-  - escrow
-  - smart-contracts
-  - solidity
-  - usdc
-  - circle
+- escrow
+- smart-contracts
+- solidity
+- usdc
+- circle
 aliases:
-  - escrow smart contract
-  - Circle escrow contract
+- escrow smart contract
+- Circle escrow contract
 sources:
-  - "[[sources/watchv=axmdsqdoghm]]"
-summary: "A Solidity escrow contract pattern deployed via Circle's APIs, governing conditional USDC release between depositor, beneficiary, and an AI agent verifier."
+- 'https://www.youtube.com/watch?v=axmdsqdoghm'
+summary: A Solidity escrow contract pattern deployed via Circle's APIs, governing conditional USDC release between depositor, beneficiary, and an AI agent verifier.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.55
@@ -21,6 +21,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Circle Smart Contract Escrow

@@ -1,25 +1,32 @@
 ---
 title: Palantir
 category: entities
-tags: [palantir, enterprise-software, organizational-model, harvester-cultivator, consulting-engineering]
-aliases: [pal]
+tags:
+- palantir
+- enterprise-software
+- organizational-model
+- harvester-cultivator
+- consulting-engineering
+aliases:
+- pal
 sources:
-  - AIEF2025 - The New Lean Startup — Sid Bendre, Olive - https://www.youtube.com/watch?v=pQz-PgA1eJw
+- AIEF2025 - The New Lean Startup — Sid Bendre, Olive - https://www.youtube.com/watch?v=pQz-PgA1eJw
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
-created: 2026-07-05T00:00:00Z
-updated: 2026-07-05T00:00:00Z
+created: 2026-07-05 00:00:00+00:00
+updated: 2026-07-05 00:00:00+00:00
 relationships:
-  - target: "[[concepts/harvester-cultivator-model]]"
-    type: related_to
-  - target: "[[entities/olive]]"
-    type: related_to
+- target: '[[concepts/harvester-cultivator-model]]'
+  type: related_to
+- target: '[[entities/olive]]'
+  type: related_to
+summary: Palantir
 ---
 
 # Palantir

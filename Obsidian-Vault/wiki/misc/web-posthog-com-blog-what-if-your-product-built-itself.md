@@ -1,28 +1,29 @@
 ---
-title: "What If Your Product Built Itself? — PostHog Self-driving Pipeline"
+title: What If Your Product Built Itself? — PostHog Self-driving Pipeline
 category: misc
 tags:
-  - posthog
-  - self-driving
-  - agent-pipeline
-  - product-engineering
+- posthog
+- self-driving
+- agent-pipeline
+- product-engineering
 sources:
-  - "[[sources/what-if-your-product-built-itself]]"
-source_url: "https://posthog.com/blog/what-if-your-product-built-itself"
-created: "2026-07-01"
-updated: "2026-07-01"
-summary: "PostHog's self-driving product improvement pipeline — ingest signals, group into problems, research, decide actionability, write fix, open PR, iterate until CI green. By Josh Snyder and Cleo Lant (Jun 2026)."
+- '[[sources/what-if-your-product-built-itself]]'
+source_url: https://posthog.com/blog/what-if-your-product-built-itself
+created: '2026-07-01'
+updated: '2026-07-01'
+summary: PostHog's self-driving product improvement pipeline — ingest signals, group into problems, research, decide actionability, write fix, open PR, iterate until CI green. By Josh Snyder and Cleo Lant (...
 affinity:
   posthog: 3
 promotion_status: misc
 stub: false
 provenance:
   extracted: 0.88
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.02
 base_confidence: 0.55
 lifecycle: draft
 lifecycle_changed: 2026-07-01
+tier: supporting
 ---
 
 # What If Your Product Built Itself? — PostHog Self-driving Pipeline
@@ -75,17 +76,17 @@ Products need to build for **agents as a first-class surface**. PostHog's MCP se
 ## Concepts
 
 - [[concepts/agent-loop]] — This pipeline is a concrete production deployment of the agent loop: signals as the goal, grouped reports as context, research and PR writing as the agent, and CI green as the evaluation.
-- [[web-posthog-com-blog-what-is-a-scout]] — Scouts feed signals into this pipeline. The scout article describes what a signal looks like; this article describes what happens after the signal.
+- [[misc/web-posthog-com-blog-what-is-a-scout]] — Scouts feed signals into this pipeline. The scout article describes what a signal looks like; this article describes what happens after the signal.
 
 ## Entities
 
 - [[entities/josh-snyder]] — Co-author, PostHog engineer building the self-driving pipeline
 - [[entities/cleo-lant]] — Co-author, PostHog engineer, also wrote the "stop AI slop" evals guide
-- [[posthog]] — The company behind the self-driving product pipeline
+- [[entities/posthog]] — The company behind the self-driving product pipeline
 
 ## Related
 
-- [[web-posthog-com-blog-what-is-a-scout]] — Companion post about scouts (the signal layer above this pipeline)
-- [[web-posthog-com-blog-stop-ai-slop]] — Cleo Lant's earlier post on AI evals that informs the quality assurance layer
-- [[posthog]] — PostHog entity page
+- [[misc/web-posthog-com-blog-what-is-a-scout]] — Companion post about scouts (the signal layer above this pipeline)
+- [[misc/web-posthog-com-blog-stop-ai-slop]] — Cleo Lant's earlier post on AI evals that informs the quality assurance layer
+- [[entities/posthog]] — PostHog entity page
 - [[concepts/agent-loop]] — Agent loop concept that this pipeline implements

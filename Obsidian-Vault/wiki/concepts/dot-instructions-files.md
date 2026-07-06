@@ -1,30 +1,32 @@
 ---
-title: "Dot Instructions Files"
+title: Dot Instructions Files
 tags:
-  - dot-instructions
-  - file-patterns
-  - copilot
-  - github
-  - aief2025
-  - code-standards
-summary: "Per-file-pattern instruction files (*.jsx, *.svelte, etc.) that automatically apply file-type-specific coding conventions to Copilot Chat and Agent Mode via filename matching."
+- dot-instructions
+- file-patterns
+- copilot
+- github
+- aief2025
+- code-standards
+summary: Per-file-pattern instruction files (*.jsx, *.svelte, etc.) that automatically apply file-type-specific coding conventions to Copilot Chat and Agent Mode via filename matching.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/copilot-instructions|Copilot Instructions]]"
-    type: complements
-  - target: "[[entities/github-copilot|GitHub Copilot]]"
-    type: feature-of
-  - target: "[[concepts/code-quality-as-context|Code Quality as Context]]"
-    type: implements
+- target: '[[concepts/copilot-instructions|Copilot Instructions]]'
+  type: complements
+- target: '[[entities/github-copilot|GitHub Copilot]]'
+  type: feature-of
+- target: '[[concepts/code-quality-as-context|Code Quality as Context]]'
+  type: implements
+category: concepts
+sources: []
 ---
 
 # Dot Instructions Files

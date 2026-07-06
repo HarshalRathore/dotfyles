@@ -1,13 +1,13 @@
 ---
-title: "Andreas Kollegger"
+title: Andreas Kollegger
 category: entities
 tags:
-  - person
-  - speaker
-  - neo4j
-  - aief2025
+- person
+- speaker
+- neo4j
+- aief2025
 sources:
-  - "AIEF2025 - Top Ten Challenges to Reach AGI — Stephen Chin, Andreas Kollegger - https://www.youtube.com/watch?v=ypyvj_56sBU"
+- AIEF2025 - Top Ten Challenges to Reach AGI — Stephen Chin, Andreas Kollegger - https://www.youtube.com/watch?v=ypyvj_56sBU
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -19,10 +19,11 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/neo4j|Neo4j]]"
-    type: works_at
-  - target: "[[entities/stephen-chin|Stephen Chin]]"
-    type: colleague
+- target: '[[entities/neo4j|Neo4j]]'
+  type: works_at
+- target: '[[entities/stephen-chin|Stephen Chin]]'
+  type: colleague
+summary: Andreas Kollegger
 ---
 
 # Andreas Kollegger

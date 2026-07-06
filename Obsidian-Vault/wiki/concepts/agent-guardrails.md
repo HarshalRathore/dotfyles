@@ -1,23 +1,23 @@
 ---
-title: "Agent Guardrails"
+title: Agent Guardrails
 category: concepts
 tags:
-  - agent
-  - security
-  - production
-  - governance
-  - enterprise-ai
+- agent
+- security
+- production
+- governance
+- enterprise-ai
 sources:
-  - "[[sources/watchv=lqq_lcbajcc]]"
+- 'https://www.youtube.com/watch?v=lqq_lcbajcc'
 relationships:
-  - target: "[[concepts/vibe-coding|Vibe Coding]]"
-    type: contradicts
-  - target: "[[concepts/agent-evaluations|Agent Evaluations]]"
-    type: related_to
-  - target: "[[concepts/agent-observability|Agent Observability]]"
-    type: related_to
+- target: '[[concepts/vibe-coding|Vibe Coding]]'
+  type: contradicts
+- target: '[[concepts/agent-evaluations|Agent Evaluations]]'
+  type: related_to
+- target: '[[concepts/agent-observability|Agent Observability]]'
+  type: related_to
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.82
@@ -25,6 +25,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Agent Guardrails
 ---
 
 # Agent Guardrails

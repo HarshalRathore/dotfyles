@@ -1,21 +1,21 @@
 ---
-title: "Methodology Over Tooling in AI Evaluation"
+title: Methodology Over Tooling in AI Evaluation
 category: concepts
 tags:
-  - evals
-  - methodology
-  - evaluation-methodology
-  - best-practices
-  - ai-evaluation
+- evals
+- methodology
+- evaluation-methodology
+- best-practices
+- ai-evaluation
 aliases:
-  - eval-methodology
-  - process-over-tools
+- eval-methodology
+- process-over-tools
 sources:
-  - "AIEF2025 - [Full Workshop] Building Metrics that actually work — David Karam, Pi Labs (fmr Google Search) - https://www.youtube.com/watch?v=jxrGodnopHo"
+- AIEF2025 - [Full Workshop] Building Metrics that actually work — David Karam, Pi Labs (fmr Google Search) - https://www.youtube.com/watch?v=jxrGodnopHo
 provenance:
-  extracted: 0.90
-  inferred: 0.10
-  ambiguous: 0.00
+  extracted: 0.9
+  inferred: 0.1
+  ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-04
@@ -23,12 +23,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/eval-driven-development|Eval-Driven Development]]"
-    type: relates_to
-  - target: "[[concepts/llm-evaluation-framework|LLM Evaluation Framework]]"
-    type: underlies
-  - target: "[[concepts/eval-driven-optimization|Eval-Driven Optimization]]"
-    type: relates_to
+- target: '[[concepts/eval-driven-development|Eval-Driven Development]]'
+  type: relates_to
+- target: '[[concepts/llm-evaluation-framework|LLM Evaluation Framework]]'
+  type: underlies
+- target: '[[concepts/eval-driven-optimization|Eval-Driven Optimization]]'
+  type: relates_to
+summary: Methodology Over Tooling in AI Evaluation
 ---
 
 # Methodology Over Tooling in AI Evaluation

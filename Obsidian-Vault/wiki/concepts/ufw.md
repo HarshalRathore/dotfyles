@@ -1,16 +1,25 @@
 ---
 type: concept
-title: "ufw"
+title: ufw
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/kubernetes-installation-steps_e573e8]]"
+- '[[sources/kubernetes-installation-steps_e573e8]]'
 tags:
-  - networking
+- networking
 aliases:
-  - UFW
+- UFW
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: ufw
 ---
 # ufw
 

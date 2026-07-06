@@ -1,17 +1,17 @@
 ---
-title: "The Geopolitics of AI Infrastructure — Dylan Patel, SemiAnalysis"
+title: The Geopolitics of AI Infrastructure — Dylan Patel, SemiAnalysis
 tags:
-  - reference
-  - talk
-  - aief2025
-  - geopolitics
-  - ai-infrastructure
-  - semiconductor
-  - china
-  - middle-east
+- reference
+- talk
+- aief2025
+- geopolitics
+- ai-infrastructure
+- semiconductor
+- china
+- middle-east
 sources:
-  - "AIEF2025 - The Geopolitics of AI Infrastructure - Dylan Patel, SemiAnalysis - https://www.youtube.com/watch?v=Zz4QjZsYWK0"
-summary: "SemiAnalysis founder Dylan Patel covers China-US semiconductor competition, Huawei's Ascend chips and supply chain circumvention, and the Middle East AI infrastructure boom."
+- AIEF2025 - The Geopolitics of AI Infrastructure - Dylan Patel, SemiAnalysis - https://www.youtube.com/watch?v=Zz4QjZsYWK0
+summary: SemiAnalysis founder Dylan Patel covers China-US semiconductor competition, Huawei's Ascend chips and supply chain circumvention, and the Middle East AI infrastructure boom.
 provenance:
   extracted: 0.95
   inferred: 0.03
@@ -20,18 +20,19 @@ base_confidence: 0.85
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
-updated: 2026-07-04T23:59:00Z
+updated: 2026-07-04 23:59:00+00:00
 relationships:
-  - target: "[[entities/dylan-patel|Dylan Patel]]"
-    type: presented_by
-  - target: "[[entities/semi-analysis|SemiAnalysis]]"
-    type: organization
-  - target: "[[entities/huawei|Huawei]]"
-    type: covers
-  - target: "[[entities/nvidia|NVIDIA]]"
-    type: covers
-  - target: "[[entities/g42|G42]]"
-    type: covers
+- target: '[[entities/dylan-patel|Dylan Patel]]'
+  type: presented_by
+- target: '[[entities/semi-analysis|SemiAnalysis]]'
+  type: organization
+- target: '[[entities/huawei|Huawei]]'
+  type: covers
+- target: '[[entities/nvidia|NVIDIA]]'
+  type: covers
+- target: '[[entities/g42|G42]]'
+  type: covers
+category: references
 ---
 
 # The Geopolitics of AI Infrastructure — Dylan Patel, SemiAnalysis

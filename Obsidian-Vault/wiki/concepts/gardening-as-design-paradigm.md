@@ -1,16 +1,16 @@
 ---
-title: "Gardening as Design Paradigm"
+title: Gardening as Design Paradigm
 tags:
-  - ai
-  - ux
-  - design
-  - philosophy
-  - aief2025
+- ai
+- ux
+- design
+- philosophy
+- aief2025
 sources:
-  - "[[sources/watchv=bztd0yyagcq]]"
-summary: "The speculative future of AI UX design where designers shift from construction (procedurally specifying every interaction) to gardening (setting goals and constraints for generative systems to grow within)."
+- 'https://www.youtube.com/watch?v=bztd0yyagcq'
+summary: The speculative future of AI UX design where designers shift from construction (procedurally specifying every interaction) to gardening (setting goals and constraints for generative systems to grow...
 provenance:
-  extracted: 0.30
+  extracted: 0.3
   inferred: 0.65
   ambiguous: 0.05
 base_confidence: 0.35
@@ -18,6 +18,7 @@ lifecycle: draft
 tier: peripheral
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Gardening as Design Paradigm

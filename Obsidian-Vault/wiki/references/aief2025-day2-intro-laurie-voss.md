@@ -1,31 +1,32 @@
 ---
-title: "Day 2 Keynotes Intro"
+title: Day 2 Keynotes Intro
 category: references
 tags:
-  - aief2025
-  - keynote
-  - day2
-  - laurie-voss
-  - gemini
-  - ai-education
-summary: "Laurie Voss's Day 2 opening at AIEF2025, introducing Logan Kilpatrick (Gemini 2.5 Pro), Docker founder (agent reliability), and Benjamin Dunphy (AI Education Summit announcement)."
+- aief2025
+- keynote
+- day2
+- laurie-voss
+- gemini
+- ai-education
+summary: Laurie Voss's Day 2 opening at AIEF2025, introducing Logan Kilpatrick (Gemini 2.5 Pro), Docker founder (agent reliability), and Benjamin Dunphy (AI Education Summit announcement).
 provenance:
   extracted: 0.95
   inferred: 0.03
   ambiguous: 0.02
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/laurie-voss|Laurie Voss]]"
-    type: related_to
-  - target: "[[entities/logan-kilpatrick|Logan Kilpatrick]]"
-    type: related_to
-  - target: "[[entities/benjamin-dunphy|Benjamin Dunphy]]"
-    type: related_to
+- target: '[[entities/laurie-voss|Laurie Voss]]'
+  type: related_to
+- target: '[[entities/logan-kilpatrick|Logan Kilpatrick]]'
+  type: related_to
+- target: '[[entities/benjamin-dunphy|Benjamin Dunphy]]'
+  type: related_to
+sources: []
 ---
 
 # Day 2 Keynotes Intro

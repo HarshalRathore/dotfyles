@@ -1,23 +1,25 @@
 ---
-title: "Benchmark-Driven AI Optimization"
+title: Benchmark-Driven AI Optimization
 tags:
-  - ai
-  - evaluation
-  - benchmarking
-  - optimization
-  - model-selection
+- ai
+- evaluation
+- benchmarking
+- optimization
+- model-selection
 sources:
-  - "[[sources/watchv=-tgqa8fzf80]]"
-  - "[[sources/watchv=89nuzmkokik]]"
-summary: "Once a comprehensive evaluation baseline is established, use it as a benchmark to confidently compare models, architectures, and optimization strategies — making AI optimization decisions data-driven."
+- 'https://www.youtube.com/watch?v=-tgqa8fzf80'
+- 'https://www.youtube.com/watch?v=89nuzmkokik'
+summary: Once a comprehensive evaluation baseline is established, use it as a benchmark to confidently compare models, architectures, and optimization strategies — making AI optimization decisions data-driven.
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.58
 lifecycle: draft
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
+tier: supporting
 ---
 
 # Benchmark-Driven AI Optimization

@@ -1,14 +1,21 @@
 ---
-title: "The Bitter Lesson"
+title: The Bitter Lesson
 category: concepts
-tags: [bitter-lesson, scaling, search, learning, ai-research, rich-sutton, domain-knowledge]
-summary: "AI research insight: general methods leveraging computation (search + learning) consistently outperform approaches incorporating human domain knowledge. Hard-coded knowledge becomes a liability as compute grows."
+tags:
+- bitter-lesson
+- scaling
+- search
+- learning
+- ai-research
+- rich-sutton
+- domain-knowledge
+summary: 'AI research insight: general methods leveraging computation (search + learning) consistently outperform approaches incorporating human domain knowledge. Hard-coded knowledge becomes a liability as...'
 sources:
-  - "The Bitter Lesson — Rich Sutton - https://www.incompleteideas.net/IncIdeas/BitterLesson.html"
-  - "AIEF2025 - On Engineering AI Systems that Endure The Bitter Lesson - Omar Khattab, DSPy & Databricks - https://www.youtube.com/watch?v=qdmxApz3EJI"
+- The Bitter Lesson — Rich Sutton - https://www.incompleteideas.net/IncIdeas/BitterLesson.html
+- AIEF2025 - On Engineering AI Systems that Endure The Bitter Lesson - Omar Khattab, DSPy & Databricks - https://www.youtube.com/watch?v=qdmxApz3EJI
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.85
 lifecycle: draft
@@ -17,14 +24,14 @@ tier: core
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/rich-sutton|Rich Sutton]]"
-    type: authored_by
-  - target: "[[concepts/search-and-learn|Search and Learn]]"
-    type: described_by
-  - target: "[[concepts/premature-optimization|Premature Optimization]]"
-    type: related_to
-  - target: "[[concepts/ai-engineering|AI Engineering]]"
-    type: constrains
+- target: '[[entities/rich-sutton|Rich Sutton]]'
+  type: authored_by
+- target: '[[concepts/search-and-learn|Search and Learn]]'
+  type: described_by
+- target: '[[concepts/premature-optimization|Premature Optimization]]'
+  type: related_to
+- target: '[[concepts/ai-engineering|AI Engineering]]'
+  type: constrains
 ---
 
 # The Bitter Lesson

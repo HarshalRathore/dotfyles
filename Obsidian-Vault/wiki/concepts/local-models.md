@@ -1,37 +1,37 @@
 ---
-title: "Local Models"
+title: Local Models
 category: concepts
 tags:
-  - local
-  - on-device
-  - consumer-hardware
-  - open-source
-  - llm
-  - aief2025
+- local
+- on-device
+- consumer-hardware
+- open-source
+- llm
+- aief2025
 aliases:
-  - local inference
-  - on-device models
-  - laptop models
+- local inference
+- on-device models
+- laptop models
 sources:
-  - "AIEF2025 - 2025 in LLMs so far, illustrated by Pelicans on Bicycles — Simon Willison - https://www.youtube.com/watch?v=YpY83-kA7Bo"
-summary: "LLMs that run on consumer hardware (laptops, desktops) without cloud dependency. By early 2025, models as small as 24B parameters (Mistral Small 3) achieved GPT-4-class capabilities, making local inference practically useful."
+- AIEF2025 - 2025 in LLMs so far, illustrated by Pelicans on Bicycles — Simon Willison - https://www.youtube.com/watch?v=YpY83-kA7Bo
+summary: LLMs that run on consumer hardware (laptops, desktops) without cloud dependency. By early 2025, models as small as 24B parameters (Mistral Small 3) achieved GPT-4-class capabilities, making local i...
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/model-size-scaling|Model Size Scaling]]"
-    type: relates_to
-  - target: "[[concepts/open-weight-models|Open Weight Models]]"
-    type: enabled_by
-  - target: "[[concepts/reasoning-models|Reasoning Models]]"
-    type: contrasts_with
+- target: '[[concepts/model-size-scaling|Model Size Scaling]]'
+  type: relates_to
+- target: '[[concepts/open-weight-models|Open Weight Models]]'
+  type: enabled_by
+- target: '[[concepts/reasoning-models|Reasoning Models]]'
+  type: contrasts_with
 ---
 
 # Local Models

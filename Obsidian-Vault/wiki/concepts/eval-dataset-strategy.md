@@ -1,30 +1,31 @@
 ---
-title: "Eval Dataset Strategy"
+title: Eval Dataset Strategy
 category: concepts
 tags:
-  - evals
-  - dataset
-  - production-ai
-  - data-collection
-  - test-design
+- evals
+- dataset
+- production-ai
+- data-collection
+- test-design
 relationships:
-  - target: "[[concepts/application-layer-evals]]"
-    type: implements
-  - target: "[[concepts/online-evals]]"
-    type: extends
-  - target: "[[concepts/eval-ingredients-task-dataset-score]]"
-    type: implements
+- target: '[[concepts/application-layer-evals]]'
+  type: implements
+- target: '[[concepts/online-evals]]'
+  type: extends
+- target: '[[concepts/eval-ingredients-task-dataset-score]]'
+  type: implements
 sources:
-  - "[[sources/watchv=mc55hdwlq4o]]"
+- 'https://www.youtube.com/watch?v=mc55hdwlq4o'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-05
+summary: Eval Dataset Strategy
 ---
 
 # Eval Dataset Strategy

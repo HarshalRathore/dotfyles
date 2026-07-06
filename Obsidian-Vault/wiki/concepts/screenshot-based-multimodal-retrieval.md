@@ -1,13 +1,13 @@
 ---
-title: "Screenshot-Based Multimodal Retrieval"
+title: Screenshot-Based Multimodal Retrieval
 tags:
-  - multimodal
-  - retrieval
-  - rag
-  - embeddings
+- multimodal
+- retrieval
+- rag
+- embeddings
 sources:
-  - "[[sources/watchv=640kmytxcei]]"
-summary: "A simplified approach to retrieving from mixed-modality documents by capturing page-level screenshots, embedding them with VLM-based multimodal embedding models, and storing image references alongside embeddings in a vector database."
+- 'https://www.youtube.com/watch?v=640kmytxcei'
+summary: A simplified approach to retrieving from mixed-modality documents by capturing page-level screenshots, embedding them with VLM-based multimodal embedding models, and storing image references alongs...
 provenance:
   extracted: 0.82
   inferred: 0.15
@@ -17,6 +17,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Screenshot-Based Multimodal Retrieval

@@ -4,7 +4,7 @@ category: entities
 tags: [person, founder, engineer, aief2025, hf0-residency, upside, branch]
 summary: "Co-founder of Upside (forensic revenue attribution). Former engineer at Branch, where he built a search engine used by over 100 million people daily. Presented at AIEF2025 HF0 Residency."
 sources:
-  - "[[sources/watchv=l8-5ezsoi5a]]"
+  - "https://www.youtube.com/watch?v=l8-5ezsoi5a"
 provenance:
   extracted: 0.95
   inferred: 0.05

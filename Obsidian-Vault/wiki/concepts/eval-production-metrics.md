@@ -1,29 +1,30 @@
 ---
-title: "Eval Production Metrics"
+title: Eval Production Metrics
 category: concepts
 tags:
-  - evals
-  - metrics
-  - observability
-  - production
-  - braintrust
+- evals
+- metrics
+- observability
+- production
+- braintrust
 sources:
-  - "AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY"
+- AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/online-evals|Online Evals]]"
-    type: uses
-  - target: "[[concepts/ai-observability-production-logging|AI Observability & Production Logging]]"
-    type: relates_to
+- target: '[[concepts/online-evals|Online Evals]]'
+  type: uses
+- target: '[[concepts/ai-observability-production-logging|AI Observability & Production Logging]]'
+  type: relates_to
+summary: Eval Production Metrics
 ---
 
 # Eval Production Metrics

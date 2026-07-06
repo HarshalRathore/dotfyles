@@ -1,22 +1,23 @@
 ---
-title: "Blind Signatures"
+title: Blind Signatures
 tags:
-  - concept
-  - cryptography
-  - privacy
-  - authentication
+- concept
+- cryptography
+- privacy
+- authentication
 sources:
-  - "[[sources/watchv=ccswz5bjlo8]]"
-summary: "Cryptographic scheme that allows a user to obtain a signature on a message without revealing the message content to the signer — enabling anonymous authentication (auth without identity)."
+- 'https://www.youtube.com/watch?v=ccswz5bjlo8'
+summary: Cryptographic scheme that allows a user to obtain a signature on a message without revealing the message content to the signer — enabling anonymous authentication (auth without identity).
 provenance:
   extracted: 0.78
   inferred: 0.18
   ambiguous: 0.04
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Blind Signatures

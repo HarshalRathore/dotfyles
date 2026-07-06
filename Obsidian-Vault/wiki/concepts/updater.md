@@ -1,16 +1,25 @@
 ---
 type: concept
-title: "Updater"
+title: Updater
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/kubernetes-autoscaling_59fbf3]]"
+- '[[sources/kubernetes-autoscaling_59fbf3]]'
 tags:
-  - deployment
+- deployment
 aliases:
-  - VPA Updater Component
+- VPA Updater Component
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Updater
 ---
 # Updater
 

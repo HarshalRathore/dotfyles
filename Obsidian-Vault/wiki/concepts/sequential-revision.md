@@ -4,7 +4,7 @@ category: concepts
 tags: [sequential-revision, self-correction, llm, inference-time-compute, iterative-improvement, aief2025]
 aliases: [sequential revision, iterative revision, self-correction, model revision]
 sources:
-  - "[[sources/watchv=qludzkvfp6a]]"
+  - "https://www.youtube.com/watch?v=qludzkvfp6a"
 summary: "Having an LLM review and correct its own previous output, iteratively improving. Mirrors how humans write, evaluate, and fix their own work."
 provenance:
   extracted: 0.85

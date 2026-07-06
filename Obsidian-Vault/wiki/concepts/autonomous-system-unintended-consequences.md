@@ -1,17 +1,17 @@
 ---
-title: "Autonomous System Unintended Consequences"
+title: Autonomous System Unintended Consequences
 category: concepts
 tags:
-  - ai-safety
-  - alignment
-  - autonomous-systems
-  - agi
-  - aief2025
+- ai-safety
+- alignment
+- autonomous-systems
+- agi
+- aief2025
 sources:
-  - "AIEF2025 - Top Ten Challenges to Reach AGI — Stephen Chin, Andreas Kollegger - https://www.youtube.com/watch?v=ypyvj_56sBU"
+- AIEF2025 - Top Ten Challenges to Reach AGI — Stephen Chin, Andreas Kollegger - https://www.youtube.com/watch?v=ypyvj_56sBU
 provenance:
   extracted: 0.65
-  inferred: 0.30
+  inferred: 0.3
   ambiguous: 0.05
 base_confidence: 0.65
 lifecycle: draft
@@ -20,12 +20,13 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/agi-challenges|AGI Challenges]]"
-    type: is_challenge_of
-  - target: "[[concepts/human-in-the-loop|Human in the Loop]]"
-    type: relates_to
-  - target: "[[concepts/agent-autonomy-spectrum|Agent Autonomy Spectrum]]"
-    type: relates_to
+- target: '[[concepts/agi-challenges|AGI Challenges]]'
+  type: is_challenge_of
+- target: '[[concepts/human-in-the-loop|Human in the Loop]]'
+  type: relates_to
+- target: '[[concepts/agent-autonomy-spectrum|Agent Autonomy Spectrum]]'
+  type: relates_to
+summary: Autonomous System Unintended Consequences
 ---
 
 # Autonomous System Unintended Consequences

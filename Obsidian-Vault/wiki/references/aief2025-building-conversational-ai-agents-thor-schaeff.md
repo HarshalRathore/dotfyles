@@ -12,7 +12,7 @@ tags:
   - multilingual
 summary: Full workshop at AIEF2025 by Thor Schaeff (ElevenLabs) on building multilingual conversational AI agents, covering STT→LLM→TTS pipeline, ElevenLabs' ASR model, sound effects, and developer tools.
 sources:
-  - "[[sources/watchv=mptcbazn84a]]"
+  - "https://www.youtube.com/watch?v=mptcbazn84a"
 provenance:
   extracted: 0.95
   inferred: 0.05

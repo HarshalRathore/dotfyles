@@ -1,27 +1,27 @@
 ---
-title: "Forward Deployed Engineering"
+title: Forward Deployed Engineering
 category: concepts
 tags:
-  - engineering
-  - customer-success
-  - consulting
-  - ai
-  - aief2025
+- engineering
+- customer-success
+- consulting
+- ai
+- aief2025
 aliases:
-  - Forward deployed engineers
-  - FDE
+- Forward deployed engineers
+- FDE
 relationships:
-  - target: "[[concepts/small-ai-teams|Small AI Teams with Huge Impact]]"
-    type: related_to
-  - target: "[[concepts/ai-native-toolchain|AI-Native Toolchain]]"
-    type: related_to
+- target: '[[concepts/small-ai-teams|Small AI Teams with Huge Impact]]'
+  type: related_to
+- target: '[[concepts/ai-native-toolchain|AI-Native Toolchain]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=k-iykdmfkhe]]"
-summary: "The traditional model of deploying engineers to client sites to iterate on solutions until they're good enough. Vik Paruchuri proposes replacing this model with trained AI models that loop over customer outputs."
+- 'https://www.youtube.com/watch?v=k-iykdmfkhe'
+summary: The traditional model of deploying engineers to client sites to iterate on solutions until they're good enough. Vik Paruchuri proposes replacing this model with trained AI models that loop over cus...
 provenance:
   extracted: 0.85
   inferred: 0.15
-  ambiguous: 0.00
+  ambiguous: 0.0
 base_confidence: 0.75
 lifecycle: draft
 lifecycle_changed: 2026-07-04

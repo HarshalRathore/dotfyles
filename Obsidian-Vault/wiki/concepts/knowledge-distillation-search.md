@@ -1,15 +1,22 @@
 ---
-title: "Knowledge Distillation for Search"
+title: Knowledge Distillation for Search
 category: concepts
-tags: [knowledge-distillation, model-distillation, search-relevance, teacher-student, semi-supervised, production-ml, aief2025]
+tags:
+- knowledge-distillation
+- model-distillation
+- search-relevance
+- teacher-student
+- semi-supervised
+- production-ml
+- aief2025
 aliases:
-  - knowledge distillation search
-  - search model distillation
+- knowledge distillation search
+- search model distillation
 sources:
-  - "AIEF2025 - What We Learned from Using LLMs in Pinterest — Mukuntha Narayanan, Han Wang, Pinterest - https://www.youtube.com/watch?v=XdAWgO11zuk"
+- AIEF2025 - What We Learned from Using LLMs in Pinterest — Mukuntha Narayanan, Han Wang, Pinterest - https://www.youtube.com/watch?v=XdAWgO11zuk
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.78
 lifecycle: draft
@@ -17,14 +24,15 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/cross-encoder-relevance-model|Cross-Encoder Relevance Model]]"
-    type: used_by
-  - target: "[[concepts/bi-encoder-search|Bi-Encoder Search]]"
-    type: produces
-  - target: "[[concepts/semi-supervised-learning|Semi-Supervised Learning]]"
-    type: uses
-  - target: "[[concepts/model-distillation|Model Distillation]]"
-    type: extends
+- target: '[[concepts/cross-encoder-relevance-model|Cross-Encoder Relevance Model]]'
+  type: used_by
+- target: '[[concepts/bi-encoder-search|Bi-Encoder Search]]'
+  type: produces
+- target: '[[concepts/semi-supervised-learning|Semi-Supervised Learning]]'
+  type: uses
+- target: '[[concepts/model-distillation|Model Distillation]]'
+  type: extends
+summary: Knowledge Distillation for Search
 ---
 
 # Knowledge Distillation for Search

@@ -1,28 +1,29 @@
 ---
-title: "Sizzy"
+title: Sizzy
 category: entities
 tags:
-  - tool
-  - front-end-development
-  - browser
-  - developer-tools
-  - kitze
+- tool
+- front-end-development
+- browser
+- developer-tools
+- kitze
 sources:
-  - "[[sources/watchv=jv-wy5pxxlo]]"
+- 'https://www.youtube.com/watch?v=jv-wy5pxxlo'
 relationships:
-  - target: "[[entities/kitze]]"
-    type: implements
-  - target: "[[concepts/ai-native-toolchain]]"
-    type: related_to
+- target: '[[entities/kitze]]'
+  type: implements
+- target: '[[concepts/ai-native-toolchain]]'
+  type: related_to
 provenance:
   extracted: 0.95
   inferred: 0.03
   ambiguous: 0.02
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Sizzy
 ---
 
 # Sizzy

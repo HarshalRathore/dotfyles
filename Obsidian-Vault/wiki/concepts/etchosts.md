@@ -1,16 +1,25 @@
 ---
 type: concept
-title: "/etc/hosts"
+title: /etc/hosts
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/manual-notes_10b5c5]]"
+- '[[sources/manual-notes_10b5c5]]'
 tags:
-  - networking
+- networking
 aliases:
-  - hostname resolution
+- hostname resolution
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: /etc/hosts
 ---
 # /etc/hosts
 

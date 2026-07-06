@@ -1,41 +1,41 @@
 ---
-title: "Robotics: Why Now? — Quan Vuong and Jost Tobias Springberg, Physical Intelligence"
+title: 'Robotics: Why Now? — Quan Vuong and Jost Tobias Springberg, Physical Intelligence'
 category: references
 tags:
-  - reference
-  - talk
-  - aief2025
-  - robotics
-  - vla
-  - vision-language-action
-  - physical-intelligence
-  - data-engineering
+- reference
+- talk
+- aief2025
+- robotics
+- vla
+- vision-language-action
+- physical-intelligence
+- data-engineering
 aliases:
-  - AIEF2025 Physical Intelligence
-  - PI Robotics Talk
-  - Robotics Why Now
+- AIEF2025 Physical Intelligence
+- PI Robotics Talk
+- Robotics Why Now
 sources:
-  - "AIEF2025 - Robotics: why now? - Quan Vuong and Jost Tobias Springberg, Physical Intelligence - https://www.youtube.com/watch?v=cGLa8DsOYdk"
-summary: "Physical Intelligence co-founders present their vision for general-purpose robot control via Vision-Language-Action models, their data engine pipeline, and why the AI wave has made robotics feasible now."
+- 'AIEF2025 - Robotics: why now? - Quan Vuong and Jost Tobias Springberg, Physical Intelligence - https://www.youtube.com/watch?v=cGLa8DsOYdk'
+summary: Physical Intelligence co-founders present their vision for general-purpose robot control via Vision-Language-Action models, their data engine pipeline, and why the AI wave has made robotics feasibl...
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/physical-intelligence|Physical Intelligence]]"
-    type: about
-  - target: "[[concepts/vision-language-action-models|Vision-Language-Action Models]]"
-    type: introduces
-  - target: "[[concepts/robotics-data-engine|Robotics Data Engine]]"
-    type: describes
-  - target: "[[concepts/teleoperation-robotics|Teleoperation in Robotics]]"
-    type: demonstrates
+- target: '[[entities/physical-intelligence|Physical Intelligence]]'
+  type: about
+- target: '[[concepts/vision-language-action-models|Vision-Language-Action Models]]'
+  type: introduces
+- target: '[[concepts/robotics-data-engine|Robotics Data Engine]]'
+  type: describes
+- target: '[[concepts/teleoperation-robotics|Teleoperation in Robotics]]'
+  type: demonstrates
 ---
 
 # Robotics: Why Now? — Quan Vuong and Jost Tobias Springberg, Physical Intelligence

@@ -8,7 +8,7 @@ relationships:
   - target: "[[concepts/demo-driven-ai-exploration]]"
     type: extends
 sources:
-  - "[[sources/watchv=1c2tdpkj6aq]]"
+  - "https://www.youtube.com/watch?v=1c2tdpkj6aq"
 summary: "Using vision-capable LLMs to convert hand-drawn wireframes, screenshots, or lo-fi mockups into working applications through iterative screenshot-and-prompt cycles."
 provenance:
   extracted: 0.70

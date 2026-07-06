@@ -1,23 +1,26 @@
 ---
-title: "Greg Kamradt"
+title: Greg Kamradt
 tags:
-  - person
-  - ai
-  - benchmarking
-  - arc-agi
-aliases: [Greg Kamrad, Greg Kamradt]
+- person
+- ai
+- benchmarking
+- arc-agi
+aliases:
+- Greg Kamrad
+- Greg Kamradt
 sources:
-  - "[[sources/watchv=3xmfpwjg8pg]]"
-summary: "President of the ARC Prize Foundation, a nonprofit working toward open AGI. Announced ARC-AGI-3 at AI Engineer World's Fair 2025."
+- 'https://www.youtube.com/watch?v=3xmfpwjg8pg'
+summary: President of the ARC Prize Foundation, a nonprofit working toward open AGI. Announced ARC-AGI-3 at AI Engineer World's Fair 2025.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 # Greg Kamradt
 

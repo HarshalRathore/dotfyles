@@ -1,17 +1,26 @@
 ---
 type: concept
-title: "Pause Container"
+title: Pause Container
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/pods_c92b62]]"
+- '[[sources/pods_c92b62]]'
 tags:
-  - container
+- container
 aliases:
-  - Sandbox container
-  - Pause sandbox
+- Sandbox container
+- Pause sandbox
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Pause Container
 ---
 # Pause Container
 

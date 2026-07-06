@@ -1,16 +1,16 @@
 ---
-title: "AI-Powered DevOps"
+title: AI-Powered DevOps
 tags:
-  - concept
-  - devops
-  - ai
-  - workflow
-  - automation
+- concept
+- devops
+- ai
+- workflow
+- automation
 sources:
-  - "[[sources/watchv=c1nivhys1si]]"
-summary: "Using AI across the entire DevOps lifecycle — planning, security scanning, testing, deployment, and documentation — where the largest early efficiency gains often come from non-code-generation activities."
+- 'https://www.youtube.com/watch?v=c1nivhys1si'
+summary: Using AI across the entire DevOps lifecycle — planning, security scanning, testing, deployment, and documentation — where the largest early efficiency gains often come from non-code-generation acti...
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.55
@@ -18,6 +18,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # AI-Powered DevOps

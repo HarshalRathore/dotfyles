@@ -4,7 +4,7 @@ category: entities
 tags: [person, engineer, luma-ai, api, developer-relations]
 summary: Luma AI engineer who manages the public API, built out their SDK and developer relations program, and handles the API integration for Dream Machine image/video generation.
 sources:
-  - "[[sources/watchv=ey4o9m6aswi]]"
+  - "https://www.youtube.com/watch?v=ey4o9m6aswi"
 provenance:
   extracted: 0.90
   inferred: 0.08
@@ -16,9 +16,9 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[luma-ai]]"
+  - target: "[[entities/luma-ai]]"
     type: related_to
-  - target: "[[keegan-mccallum]]"
+  - target: "[[entities/keegan-mccallum]]"
     type: related_to
 ---
 

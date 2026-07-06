@@ -1,33 +1,34 @@
 ---
-title: "Pi Labs"
+title: Pi Labs
 category: entities
 tags:
-  - company
-  - ai-evaluation
-  - ai-metrics
-  - google-alumni
+- company
+- ai-evaluation
+- ai-metrics
+- google-alumni
 aliases:
-  - pilabs
+- pilabs
 sources:
-  - "AIEF2025 - Layering every technique in RAG, one query at a time — David Karam, Pi Labs (fmr. Google Search) - https://www.youtube.com/watch?v=w9u11ioHGA0"
-  - "AIEF2025 - [Full Workshop] Building Metrics that actually work — David Karam, Pi Labs (fmr Google Search) - https://www.youtube.com/watch?v=jxrGodnopHo"
+- AIEF2025 - Layering every technique in RAG, one query at a time — David Karam, Pi Labs (fmr. Google Search) - https://www.youtube.com/watch?v=w9u11ioHGA0
+- AIEF2025 - [Full Workshop] Building Metrics that actually work — David Karam, Pi Labs (fmr Google Search) - https://www.youtube.com/watch?v=jxrGodnopHo
 provenance:
   extracted: 0.85
   inferred: 0.15
-  ambiguous: 0.00
-base_confidence: 0.80
+  ambiguous: 0.0
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/david-karam|David Karam]]"
-    type: employs
-  - target: "[[entities/google|Google]]"
-    type: founded_by_google_alumni
-  - target: "[[concepts/eval-driven-development|Eval-Driven Development]]"
-    type: works_on
+- target: '[[entities/david-karam|David Karam]]'
+  type: employs
+- target: '[[entities/google|Google]]'
+  type: founded_by_google_alumni
+- target: '[[concepts/eval-driven-development|Eval-Driven Development]]'
+  type: works_on
+summary: Pi Labs
 ---
 
 # Pi Labs

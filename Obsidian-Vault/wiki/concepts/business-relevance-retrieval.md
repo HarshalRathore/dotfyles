@@ -1,13 +1,18 @@
 ---
-title: "Business Relevance vs Semantic Similarity"
+title: Business Relevance vs Semantic Similarity
 category: concepts
-tags: [retrieval, semantic-similarity, business-domain, agent-memory, knowledge-graph]
-summary: "The principle that retrieval should be driven by business relevance (entity type, domain context, user intent) rather than semantic similarity (embedding proximity), which conflates topical proximity with actual relevance."
+tags:
+- retrieval
+- semantic-similarity
+- business-domain
+- agent-memory
+- knowledge-graph
+summary: The principle that retrieval should be driven by business relevance (entity type, domain context, user intent) rather than semantic similarity (embedding proximity), which conflates topical proximi...
 sources:
-  - "[[sources/watchv=t5imo5ntyha]]"
+- 'https://www.youtube.com/watch?v=t5imo5ntyha'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.77
 lifecycle: draft
@@ -16,12 +21,12 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/semantic-similarity]]"
-    type: contradicts
-  - target: "[[concepts/domain-aware-memory]]"
-    type: core_principle
-  - target: "[[concepts/knowledge-graph-ontology-design]]"
-    type: requires
+- target: '[[concepts/semantic-similarity]]'
+  type: contradicts
+- target: '[[concepts/domain-aware-memory]]'
+  type: core_principle
+- target: '[[concepts/knowledge-graph-ontology-design]]'
+  type: requires
 ---
 
 # Business Relevance vs Semantic Similarity

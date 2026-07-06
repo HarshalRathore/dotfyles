@@ -1,15 +1,15 @@
 ---
-title: "Your Realtime AI is NGMI — Sean DuBois (OpenAI), Kwindla Kramer (Daily)"
+title: Your Realtime AI is NGMI — Sean DuBois (OpenAI), Kwindla Kramer (Daily)
 category: references
 tags:
-  - aief2025
-  - voice-ai
-  - web-rtc
-  - web-sockets
-  - latency
-  - real-time
+- aief2025
+- voice-ai
+- web-rtc
+- web-sockets
+- latency
+- real-time
 sources:
-  - "[[sources/watchv=e71ytnbcfxy]]"
+- 'https://www.youtube.com/watch?v=e71ytnbcfxy'
 provenance:
   extracted: 1.0
   inferred: 0.0
@@ -20,12 +20,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/voice-ai-latency]]"
-    type: related_to
-  - target: "[[concepts/web-rtc]]"
-    type: related_to
-  - target: "[[concepts/voice-agents]]"
-    type: related_to
+- target: '[[concepts/voice-ai-latency]]'
+  type: related_to
+- target: '[[concepts/web-rtc]]'
+  type: related_to
+- target: '[[concepts/voice-agents]]'
+  type: related_to
+summary: Your Realtime AI is NGMI
 ---
 
 # Your Realtime AI is NGMI

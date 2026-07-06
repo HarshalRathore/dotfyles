@@ -1,22 +1,23 @@
 ---
-title: "Multimodal Agent Architecture"
+title: Multimodal Agent Architecture
 tags:
-  - agent
-  - multimodal
-  - architecture
-  - retrieval
+- agent
+- multimodal
+- architecture
+- retrieval
 sources:
-  - "[[sources/watchv=640kmytxcei]]"
-summary: "Architecture for agents that process and retrieve across multiple modalities (text, images, tables) using a multimodal LLM for reasoning, VLM-based embedding for retrieval over page-level screenshots, and short-term memory for coherent conversation."
+- 'https://www.youtube.com/watch?v=640kmytxcei'
+summary: Architecture for agents that process and retrieve across multiple modalities (text, images, tables) using a multimodal LLM for reasoning, VLM-based embedding for retrieval over page-level screensho...
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.55
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Multimodal Agent Architecture

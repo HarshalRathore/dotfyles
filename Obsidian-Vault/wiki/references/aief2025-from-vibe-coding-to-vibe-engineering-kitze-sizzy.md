@@ -1,26 +1,27 @@
 ---
-title: "From Vibe Coding To Vibe Engineering — Kitze, Sizzy"
+title: From Vibe Coding To Vibe Engineering — Kitze, Sizzy
 category: references
 tags:
-  - vibe-coding
-  - vibe-engineering
-  - ai-coding
-  - aief2025
-  - cursor
-  - composer
-  - voice-to-code
-  - abstraction
+- vibe-coding
+- vibe-engineering
+- ai-coding
+- aief2025
+- cursor
+- composer
+- voice-to-code
+- abstraction
 sources:
-  - "[[sources/watchv=jv-wy5pxxlo]]"
+- 'https://www.youtube.com/watch?v=jv-wy5pxxlo'
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: From Vibe Coding To Vibe Engineering — Kitze, Sizzy
 ---
 
 # From Vibe Coding To Vibe Engineering — Kitze, Sizzy

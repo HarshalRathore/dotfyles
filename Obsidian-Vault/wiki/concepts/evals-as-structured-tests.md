@@ -1,15 +1,15 @@
 ---
-title: "Evals as Structured Tests"
+title: Evals as Structured Tests
 category: concepts
 tags:
-  - evals
-  - testing
-  - methodology
-  - braintrust
+- evals
+- testing
+- methodology
+- braintrust
 sources:
-  - "AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY"
+- AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
 base_confidence: 0.85
@@ -19,12 +19,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/eval-ingredients-task-dataset-score|Eval Ingredients: Task, Dataset, Score]]"
-    type: elaborates
-  - target: "[[concepts/evals-are-not-unit-tests|Evals Are Not Unit Tests]]"
-    type: contrasts
-  - target: "[[concepts/eval-driven-development|Eval-Driven Development]]"
-    type: implements
+- target: '[[concepts/eval-ingredients-task-dataset-score|Eval Ingredients: Task, Dataset, Score]]'
+  type: elaborates
+- target: '[[concepts/evals-are-not-unit-tests|Evals Are Not Unit Tests]]'
+  type: contrasts
+- target: '[[concepts/eval-driven-development|Eval-Driven Development]]'
+  type: implements
+summary: Evals as Structured Tests
 ---
 
 # Evals as Structured Tests

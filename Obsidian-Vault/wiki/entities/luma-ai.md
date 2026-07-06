@@ -4,7 +4,7 @@ category: entities
 tags: [ai, foundation-model-lab, video-generation, multimodal, inference, api, luma-ray2]
 summary: Foundation model lab building general multimodal intelligence; creators of Dream Machine video model and Ray2. Scaled to 1M users in 4 days in June 2024.
 sources:
-  - "[[sources/watchv=ey4o9m6aswi]]"
+  - "https://www.youtube.com/watch?v=ey4o9m6aswi"
 provenance:
   extracted: 0.85
   inferred: 0.10
@@ -16,17 +16,17 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[nvidia]]"
+  - target: "[[entities/nvidia]]"
     type: related_to
-  - target: "[[amd]]"
+  - target: "[[entities/amd]]"
     type: related_to
-  - target: "[[humane]]"
+  - target: "[[entities/humane]]"
     type: related_to
-  - target: "[[grok-ai-chips]]"
+  - target: "[[entities/grok-ai-chips]]"
     type: related_to
 ---
 
-Luma AI is a [[foundation-model-lab]] aiming to build general multimodal intelligence capable of generating, understanding, and operating in the physical world. Unlike pure video-model companies, Luma positions itself as a broad foundation model lab with capabilities spanning video generation, image generation, and multimodal understanding.
+Luma AI is a foundation-model-lab aiming to build general multimodal intelligence capable of generating, understanding, and operating in the physical world. Unlike pure video-model companies, Luma positions itself as a broad foundation model lab with capabilities spanning video generation, image generation, and multimodal understanding.
 
 Luma's flagship product is Dream Machine, a video generation model launched in June 2024 that achieved 1 million users in 4 days — matching ChatGPT's historic growth trajectory. Within 12 hours of launch, Luma processed approximately 500,000 videos. The company's CEO, described as a "self-appointed chaos monkey," amplified the launch by tweeting about scaling, which caused a 10x traffic spike that nearly overwhelmed their infrastructure.
 

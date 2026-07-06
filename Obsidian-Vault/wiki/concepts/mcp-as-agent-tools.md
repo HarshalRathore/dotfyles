@@ -1,36 +1,40 @@
 ---
-title: "MCP as Agent Tool Layer"
+title: MCP as Agent Tool Layer
 tags:
-  - mcp
-  - model-context-protocol
-  - ai-agents
-  - tool-use
-  - agent-architecture
-aliases: [mcp tools, MCP tool layer, MCP agent integration]
+- mcp
+- model-context-protocol
+- ai-agents
+- tool-use
+- agent-architecture
+aliases:
+- mcp tools
+- MCP tool layer
+- MCP agent integration
 sources:
-  - "[[sources/watchv=q3nreeadkmc]]"
-summary: "Pattern where an entire MCP server serves as the tool layer for an AI agent, broadcasting all server-exposed tools to the agent via a single call instead of wiring individual tools manually."
+- 'https://www.youtube.com/watch?v=q3nreeadkmc'
+summary: Pattern where an entire MCP server serves as the tool layer for an AI agent, broadcasting all server-exposed tools to the agent via a single call instead of wiring individual tools manually.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/mcp-resource-server-separation|MCP Resource Server Separation]]"
-    type: related_to
-  - target: "[[concepts/agent-loop|Agent Loop]]"
-    type: related_to
-  - target: "[[concepts/minimal-scaffolding-ai-agents|Minimal Scaffolding for AI Agents]]"
-    type: implements
+- target: '[[concepts/mcp-resource-server-separation|MCP Resource Server Separation]]'
+  type: related_to
+- target: '[[concepts/agent-loop|Agent Loop]]'
+  type: related_to
+- target: '[[concepts/minimal-scaffolding-ai-agents|Minimal Scaffolding for AI Agents]]'
+  type: implements
+category: concepts
 ---
 
 # MCP as Agent Tool Layer
 
-Instead of wiring individual tools to an agent one by one, an entire [[entities/mcp|Model Context Protocol]] server can serve as the agent's complete tool layer. The agent calls `list_tools_sync()` on the MCP client, which broadcasts all tools exposed by the server. ^[extracted]
+Instead of wiring individual tools to an agent one by one, an entire [[concepts/mcp|Model Context Protocol]] server can serve as the agent's complete tool layer. The agent calls `list_tools_sync()` on the MCP client, which broadcasts all tools exposed by the server. ^[extracted]
 
 ## Pattern
 

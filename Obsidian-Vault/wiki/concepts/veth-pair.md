@@ -1,16 +1,25 @@
 ---
 type: concept
-title: "veth pair"
+title: veth pair
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/miscellaneous_1e6927]]"
+- '[[sources/miscellaneous_1e6927]]'
 tags:
-  - networking
+- networking
 aliases:
-  - veth device
+- veth device
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: veth pair
 ---
 # veth pair
 

@@ -1,15 +1,21 @@
 ---
-title: "Bi-Encoder Search"
+title: Bi-Encoder Search
 category: concepts
-tags: [bi-encoder, search-relevance, embedding, offline-caching, production-ml, aief2025]
+tags:
+- bi-encoder
+- search-relevance
+- embedding
+- offline-caching
+- production-ml
+- aief2025
 aliases:
-  - bi-encoder search
-  - dual-encoder search
+- bi-encoder search
+- dual-encoder search
 sources:
-  - "AIEF2025 - What We Learned from Using LLMs in Pinterest — Mukuntha Narayanan, Han Wang, Pinterest - https://www.youtube.com/watch?v=XdAWgO11zuk"
+- AIEF2025 - What We Learned from Using LLMs in Pinterest — Mukuntha Narayanan, Han Wang, Pinterest - https://www.youtube.com/watch?v=XdAWgO11zuk
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.78
 lifecycle: draft
@@ -17,14 +23,15 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/cross-encoder-relevance-model|Cross-Encoder Relevance Model]]"
-    type: contrasted_with
-  - target: "[[concepts/knowledge-distillation-search|Knowledge Distillation for Search]]"
-    type: used_in
-  - target: "[[concepts/re-ranking|Re-ranking]]"
-    type: applied_in
-  - target: "[[concepts/hybrid-search|Hybrid Search]]"
-    type: used_in
+- target: '[[concepts/cross-encoder-relevance-model|Cross-Encoder Relevance Model]]'
+  type: contrasted_with
+- target: '[[concepts/knowledge-distillation-search|Knowledge Distillation for Search]]'
+  type: used_in
+- target: '[[concepts/re-ranking|Re-ranking]]'
+  type: applied_in
+- target: '[[concepts/hybrid-search|Hybrid Search]]'
+  type: used_in
+summary: Bi-Encoder Search
 ---
 
 # Bi-Encoder Search

@@ -1,26 +1,27 @@
 ---
-title: "FactSet"
+title: FactSet
 category: entities
 tags:
-  - company
-  - financial-data
-  - enterprise-ai
-  - financial-software
+- company
+- financial-data
+- enterprise-ai
+- financial-software
 sources:
-  - "AIEF2025 - How to Build Planning Agents without losing control - Yogendra Miraje, Factset - https://www.youtube.com/watch?v=sl3icG-IjHo"
+- AIEF2025 - How to Build Planning Agents without losing control - Yogendra Miraje, Factset - https://www.youtube.com/watch?v=sl3icG-IjHo
 provenance:
   extracted: 0.95
   inferred: 0.03
   ambiguous: 0.02
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/yogendra-miraje|Yogendra Miraje]]"
-    type: employs
+- target: '[[entities/yogendra-miraje|Yogendra Miraje]]'
+  type: employs
+summary: FactSet
 ---
 
 # FactSet

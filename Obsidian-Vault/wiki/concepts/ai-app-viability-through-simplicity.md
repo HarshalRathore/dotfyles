@@ -40,5 +40,5 @@ Simplicity is not a limitation of early-stage AI products — it is a deliberate
 
 ## Related
 
-- [[Simple AI App Architecture|simple-ai-app-architecture]] — The four-step pattern
-- [[AI Product Fit|ai-product-fit]] — Matching AI capabilities to user needs
+- [[concepts/simple-ai-app-architecture|simple-ai-app-architecture]] — The four-step pattern
+- [[concepts/ai-product-fit|ai-product-fit]] — Matching AI capabilities to user needs

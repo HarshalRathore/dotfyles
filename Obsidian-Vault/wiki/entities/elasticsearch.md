@@ -1,25 +1,32 @@
 ---
 title: Elasticsearch
 category: entities
-tags: [search, vector-search, elasticsearch, document-database, multimodal-search, logging]
-summary: "A distributed search and analytics engine with vector search capabilities. Used by Caylent for multimodal video search, storing pooled embeddings alongside metadata for text-to-video retrieval."
+tags:
+- search
+- vector-search
+- elasticsearch
+- document-database
+- multimodal-search
+- logging
+summary: A distributed search and analytics engine with vector search capabilities. Used by Caylent for multimodal video search, storing pooled embeddings alongside metadata for text-to-video retrieval.
 provenance:
   extracted: 0.85
   inferred: 0.15
-  ambiguous: 0.00
-base_confidence: 0.80
+  ambiguous: 0.0
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/multimodal-video-search]]"
-    type: related_to
-  - target: "[[concepts/vector-database-migration]]"
-    type: related_to
-  - target: "[[concepts/pgvector]]"
-    type: related_to
+- target: '[[concepts/multimodal-video-search]]'
+  type: related_to
+- target: '[[concepts/vector-database-migration]]'
+  type: related_to
+- target: '[[concepts/pgvector]]'
+  type: related_to
+sources: []
 ---
 
 **Elasticsearch** is a distributed search and analytics engine built on Apache Lucene. It provides full-text search, structured search, analytics, and — since recent versions — vector search capabilities.

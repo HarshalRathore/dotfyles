@@ -4,7 +4,7 @@ category: concepts
 tags: [llm, user-behavior, e-commerce, prompt-engineering, alignment, aief2025]
 summary: "The challenge that LLMs trained on general web data misalign with domain-specific user behavior, requiring contextual grounding (like top-K conversions) to produce useful outputs."
 sources:
-  - "[[sources/watchv=pjavhm_3ljg]]"
+  - "https://www.youtube.com/watch?v=pjavhm_3ljg"
 provenance:
   extracted: 0.80
   inferred: 0.15

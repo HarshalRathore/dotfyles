@@ -1,24 +1,26 @@
 ---
-title: "Semantic Kernel Agent"
+title: Semantic Kernel Agent
 category: concepts
 tags:
-  - semantic-kernel
-  - microsoft
-  - agents
-  - plugin-architecture
-  - azure-ai-foundry
-aliases: [Semantic Kernel, SK agent]
+- semantic-kernel
+- microsoft
+- agents
+- plugin-architecture
+- azure-ai-foundry
+aliases:
+- Semantic Kernel
+- SK agent
 relationships:
-  - target: "[[entities/microsoft]]"
-    type: implements
-  - target: "[[entities/azure-ai-foundry]]"
-    type: uses
-  - target: "[[concepts/agent-loop]]"
-    type: related_to
+- target: '[[entities/microsoft]]'
+  type: implements
+- target: '[[entities/azure-ai-foundry]]'
+  type: uses
+- target: '[[concepts/agent-loop]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=jhjkgramfiu]]"
+- 'https://www.youtube.com/watch?v=jhjkgramfiu'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -26,6 +28,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Semantic Kernel Agent
 ---
 
 # Semantic Kernel Agent

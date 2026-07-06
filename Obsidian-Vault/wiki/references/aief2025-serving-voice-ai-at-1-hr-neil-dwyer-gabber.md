@@ -1,19 +1,19 @@
 ---
-title: "Serving Voice AI at $1/hr: Open-source, LoRAs, Latency, Load Balancing — Neil Dwyer, Gabber"
+title: 'Serving Voice AI at $1/hr: Open-source, LoRAs, Latency, Load Balancing — Neil Dwyer, Gabber'
 category: references
 tags:
-  - voice-ai
-  - orpheus
-  - lora
-  - voice-cloning
-  - latency
-  - open-source
-  - aief2025
-  - voice-inference-metrics
-  - snack-tokens
-  - consumer-ai
-  - head-of-line-silence
-summary: Neil Dwyer (CTO, Gabber) at AIEF2025 on hosting Orpheus TTS inference at $1/hr for consumer voice AI, covering LoRA fine-tuning for voice cloning, head-of-line silence, snack token throughput, and why consumer use cases demand open-source self-hosting.
+- voice-ai
+- orpheus
+- lora
+- voice-cloning
+- latency
+- open-source
+- aief2025
+- voice-inference-metrics
+- snack-tokens
+- consumer-ai
+- head-of-line-silence
+summary: Neil Dwyer (CTO, Gabber) at AIEF2025 on hosting Orpheus TTS inference at $1/hr for consumer voice AI, covering LoRA fine-tuning for voice cloning, head-of-line silence, snack token throughput, and...
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -25,22 +25,22 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 sources:
-  - "AIEF2025 - Serving Voice AI at $1/hr: Open-source, LoRAs, Latency, Load Balancing - Neil Dwyer, Gabber - https://www.youtube.com/watch?v=rD23-VZZHOo"
+- 'AIEF2025 - Serving Voice AI at $1/hr: Open-source, LoRAs, Latency, Load Balancing - Neil Dwyer, Gabber - https://www.youtube.com/watch?v=rD23-VZZHOo'
 relationships:
-  - target: "[[entities/neil-dwyer]]"
-    type: related_to
-  - target: "[[entities/gabber]]"
-    type: related_to
-  - target: "[[entities/orpheus-tts]]"
-    type: related_to
-  - target: "[[entities/snack]]"
-    type: related_to
-  - target: "[[concepts/voice-ai-latency]]"
-    type: related_to
-  - target: "[[concepts/voice-cloning]]"
-    type: related_to
-  - target: "[[concepts/fine-tuning-practices-2025]]"
-    type: related_to
+- target: '[[entities/neil-dwyer]]'
+  type: related_to
+- target: '[[entities/gabber]]'
+  type: related_to
+- target: '[[entities/orpheus-tts]]'
+  type: related_to
+- target: '[[entities/snack]]'
+  type: related_to
+- target: '[[concepts/voice-ai-latency]]'
+  type: related_to
+- target: '[[concepts/voice-cloning]]'
+  type: related_to
+- target: '[[concepts/fine-tuning-practices-2025]]'
+  type: related_to
 ---
 
 # Serving Voice AI at $1/hr: Open-source, LoRAs, Latency, Load Balancing — Neil Dwyer, Gabber

@@ -1,16 +1,16 @@
 ---
-title: "Pinecone"
+title: Pinecone
 category: entities
 tags:
-  - vector-database
-  - ai-infrastructure
-  - embeddings
-  - similarity-search
-  - managed-service
+- vector-database
+- ai-infrastructure
+- embeddings
+- similarity-search
+- managed-service
 summary: Pinecone is a managed vector database for similarity search, used by 11x for Alice's knowledge base. Offers bundled embedding models, cloud hosting, and SDKs.
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.85
 lifecycle: draft
@@ -19,10 +19,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/dense-vector-search]]"
-    type: implements
-  - target: "[[entities/alice-ai-sdr]]"
-    type: uses
+- target: '[[concepts/dense-vector-search]]'
+  type: implements
+- target: '[[entities/alice-ai-sdr]]'
+  type: uses
+sources: []
 ---
 
 # Pinecone

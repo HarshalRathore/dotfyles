@@ -11,7 +11,7 @@ relationships:
   - target: "[[concepts/recsys-foundation-model]]"
     type: related_to
 sources:
-  - "[[sources/watchv=2vlcqd6igva]]"
+  - "https://www.youtube.com/watch?v=2vlcqd6igva"
 summary: "Architectural pattern where a single model replaces multiple specialized models for search, recommendations, and related tasks — reducing operational costs and enabling cross-task learning."
 provenance:
   extracted: 0.65

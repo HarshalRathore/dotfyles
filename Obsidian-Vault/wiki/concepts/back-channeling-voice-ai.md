@@ -1,24 +1,25 @@
 ---
-title: "Back-Channeling in Voice AI"
+title: Back-Channeling in Voice AI
 tags:
-  - voice
-  - ai
-  - speech
-  - conversation
-  - turn-taking
-  - linguistics
+- voice
+- ai
+- speech
+- conversation
+- turn-taking
+- linguistics
 sources:
-  - "[[sources/watchv=1v9zbizkliy]]"
-summary: "The challenge of distinguishing listener backchannels ('mm-hmm', 'yeah', 'uh-huh') from genuine turn-taking signals in voice AI, and handling human interruptions of AI agents."
+- 'https://www.youtube.com/watch?v=1v9zbizkliy'
+summary: The challenge of distinguishing listener backchannels ('mm-hmm', 'yeah', 'uh-huh') from genuine turn-taking signals in voice AI, and handling human interruptions of AI agents.
 provenance:
   extracted: 0.65
-  inferred: 0.30
+  inferred: 0.3
   ambiguous: 0.05
 base_confidence: 0.42
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Back-Channeling in Voice AI

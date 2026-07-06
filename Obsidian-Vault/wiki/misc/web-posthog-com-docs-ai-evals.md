@@ -1,18 +1,18 @@
 ---
-title: "PostHog AI Evals Documentation"
+title: PostHog AI Evals Documentation
 category: misc
 tags:
-  - ai
-  - evals
-  - llm
-  - observability
-  - posthog
+- ai
+- evals
+- llm
+- observability
+- posthog
 sources:
-  - "[[sources/ai-evals]]"
-source_url: "https://posthog.com/docs/ai-evals"
-created: "2026-07-01"
-updated: "2026-07-01"
-summary: "Official PostHog documentation on AI evaluations — three evaluation types (LLM-as-judge, Hog code-based, sentiment analysis), MCP management, evaluation reports, error states, and pricing."
+- '[[sources/ai-evals]]'
+source_url: https://posthog.com/docs/ai-evals
+created: '2026-07-01'
+updated: '2026-07-01'
+summary: Official PostHog documentation on AI evaluations — three evaluation types (LLM-as-judge, Hog code-based, sentiment analysis), MCP management, evaluation reports, error states, and pricing.
 affinity:
   posthog: 3
 promotion_status: misc
@@ -24,11 +24,12 @@ provenance:
 base_confidence: 0.62
 lifecycle: draft
 lifecycle_changed: 2026-07-01
+tier: supporting
 ---
 
 # PostHog AI Evals Documentation
 
-Official documentation for [[posthog]]'s AI evaluation system — three types of evaluations for automatically assessing LLM generation quality, with MCP tooling for programmatic management.
+Official documentation for [[entities/posthog]]'s AI evaluation system — three types of evaluations for automatically assessing LLM generation quality, with MCP tooling for programmatic management.
 
 ## Overview
 
@@ -98,14 +99,14 @@ Automatic disable on: trial limit reached (100 free runs), model not allowed on 
 ## Concepts
 
 - [[concepts/agent-loop]] — Agent loops require evaluation as their third component. PostHog AI Evals provides concrete tooling for the evaluation requirement in production agent loops.
-- [[web-posthog-com-blog-stop-ai-slop]] — Companion blog post introducing LLM-as-a-Judge conceptually; this docs page is the official reference implementation.
+- [[misc/web-posthog-com-blog-stop-ai-slop]] — Companion blog post introducing LLM-as-a-Judge conceptually; this docs page is the official reference implementation.
 
 ## Entities
 
-- [[posthog]] — The company and platform behind AI Evals
+- [[entities/posthog]] — The company and platform behind AI Evals
 
 ## Related
 
-- [[posthog]] — PostHog entity page
-- [[web-posthog-com-blog-stop-ai-slop]] — Blog post introduction to LLM-as-a-Judge evals
+- [[entities/posthog]] — PostHog entity page
+- [[misc/web-posthog-com-blog-stop-ai-slop]] — Blog post introduction to LLM-as-a-Judge evals
 - [[concepts/agent-loop]] — The evaluation requirement for agent loops

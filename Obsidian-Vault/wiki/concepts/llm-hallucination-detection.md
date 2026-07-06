@@ -1,21 +1,25 @@
 ---
-title: "LLM Hallucination Detection"
+title: LLM Hallucination Detection
 category: concepts
-tags: [llm-hallucination, code-review, llm-evaluation, feedback-signals]
+tags:
+- llm-hallucination
+- code-review
+- llm-evaluation
+- feedback-signals
 relationships:
-  - target: "[[concepts/code-review-feedback-quality]]"
-    type: related_to
-  - target: "[[concepts/agent-evaluations]]"
-    type: related_to
-  - target: "[[concepts/high-signal-low-noise]]"
-    type: related_to
+- target: '[[concepts/code-review-feedback-quality]]'
+  type: related_to
+- target: '[[concepts/agent-evaluations]]'
+  type: related_to
+- target: '[[concepts/high-signal-low-noise]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=tswqekftnaw]]"
-summary: "Using upvote/downvote reactions on AI-generated code review comments as a signal for when LLMs are hallucinating or extending beyond their capabilities — a practical feedback mechanism for constraining AI output."
+- 'https://www.youtube.com/watch?v=tswqekftnaw'
+summary: Using upvote/downvote reactions on AI-generated code review comments as a signal for when LLMs are hallucinating or extending beyond their capabilities — a practical feedback mechanism for constrai...
 provenance:
   extracted: 0.75
   inferred: 0.15
-  ambiguous: 0.10
+  ambiguous: 0.1
 base_confidence: 0.65
 lifecycle: draft
 lifecycle_changed: 2026-07-04

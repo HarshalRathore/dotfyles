@@ -1,16 +1,16 @@
 ---
-title: "AI Education Summit Announcement"
+title: AI Education Summit Announcement
 category: references
 tags:
-  - aief2025
-  - ai-education
-  - pedagogy
-  - hci
-  - benjamin-dunphy
-  - stefania-druma
-summary: "Benjamin Dunphy's AIEF2025 announcement of the AI Education Summit, addressing the gap between AI advancement and educational preparedness, featuring Stefania Druga."
+- aief2025
+- ai-education
+- pedagogy
+- hci
+- benjamin-dunphy
+- stefania-druma
+summary: Benjamin Dunphy's AIEF2025 announcement of the AI Education Summit, addressing the gap between AI advancement and educational preparedness, featuring Stefania Druga.
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -20,12 +20,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/benjamin-dunphy|Benjamin Dunphy]]"
-    type: related_to
-  - target: "[[entities/stefania-druma|Stefania Druga]]"
-    type: related_to
-  - target: "[[concepts/ai-education-summit|AI Education Summit]]"
-    type: related_to
+- target: '[[entities/benjamin-dunphy|Benjamin Dunphy]]'
+  type: related_to
+- target: '[[entities/stefania-druma|Stefania Druga]]'
+  type: related_to
+- target: '[[concepts/ai-education-summit|AI Education Summit]]'
+  type: related_to
+sources: []
 ---
 
 # AI Education Summit Announcement

@@ -1,21 +1,25 @@
 ---
-title: "Codebase Conventions"
+title: Codebase Conventions
 category: concepts
-tags: [codebase-conventions, code-review, stylistic-changes, team-culture]
+tags:
+- codebase-conventions
+- code-review
+- stylistic-changes
+- team-culture
 relationships:
-  - target: "[[concepts/bug-taxonomy]]"
-    type: extends
-  - target: "[[concepts/tribal-knowledge]]"
-    type: related_to
-  - target: "[[concepts/code-cleanliness]]"
-    type: related_to
+- target: '[[concepts/bug-taxonomy]]'
+  type: extends
+- target: '[[concepts/tribal-knowledge]]'
+  type: related_to
+- target: '[[concepts/code-cleanliness]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=tswqekftnaw]]"
-summary: "Team-specific coding patterns and stylistic choices that deviate from generic best practices — a category of code review feedback that LLMs can catch but often flag inappropriately because they lack codebase-specific context."
+- 'https://www.youtube.com/watch?v=tswqekftnaw'
+summary: Team-specific coding patterns and stylistic choices that deviate from generic best practices — a category of code review feedback that LLMs can catch but often flag inappropriately because they lac...
 provenance:
-  extracted: 0.70
-  inferred: 0.20
-  ambiguous: 0.10
+  extracted: 0.7
+  inferred: 0.2
+  ambiguous: 0.1
 base_confidence: 0.65
 lifecycle: draft
 lifecycle_changed: 2026-07-04

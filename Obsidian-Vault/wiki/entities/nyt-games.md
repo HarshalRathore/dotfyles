@@ -1,17 +1,19 @@
 ---
-title: "NYT Games"
+title: NYT Games
 tags:
-  - company
-  - games
-  - word-games
-  - new-york-times
-  - puzzle
-aliases: [NYT Games, New York Times Games]
+- company
+- games
+- word-games
+- new-york-times
+- puzzle
+aliases:
+- NYT Games
+- New York Times Games
 sources:
-  - "[[sources/watchv=p_uhfgh4j9y]]"
-summary: "The games division of The New York Times, responsible for popular word games including Connections and Wordle. All puzzles and game mechanics are human-made."
+- 'https://www.youtube.com/watch?v=p_uhfgh4j9y'
+summary: The games division of The New York Times, responsible for popular word games including Connections and Wordle. All puzzles and game mechanics are human-made.
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -20,12 +22,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/new-york-times]]"
-    type: part_of
-  - target: "[[concepts/connections-game]]"
-    type: publishes
-  - target: "[[entities/wordle]]"
-    type: publishes
+- target: '[[entities/new-york-times]]'
+  type: part_of
+- target: '[[concepts/connections-game]]'
+  type: publishes
+- target: '[[entities/wordle]]'
+  type: publishes
+category: entities
 ---
 
 # NYT Games

@@ -1,34 +1,35 @@
 ---
-title: "LangGraph Node Architecture"
+title: LangGraph Node Architecture
 category: concepts
 tags:
-  - langgraph
-  - node-architecture
-  - agentic-workflows
-  - planning
-  - enterprise-ai
+- langgraph
+- node-architecture
+- agentic-workflows
+- planning
+- enterprise-ai
 aliases:
-  - langgraph nodes
-  - graph-based agent architecture
+- langgraph nodes
+- graph-based agent architecture
 sources:
-  - "AIEF2025 - How to Build Planning Agents without losing control - Yogendra Miraje, Factset - https://www.youtube.com/watch?v=sl3icG-IjHo"
+- AIEF2025 - How to Build Planning Agents without losing control - Yogendra Miraje, Factset - https://www.youtube.com/watch?v=sl3icG-IjHo
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/blueprint-generator-pattern|Blueprint Generator Pattern]]"
-    type: implements
-  - target: "[[concepts/agentic-workflow-vs-workflow-agent|Agentic Workflow vs Workflow Agent]]"
-    type: enables
-  - target: "[[concepts/agent-workflows|Agent Workflows]]"
-    type: extends
+- target: '[[concepts/blueprint-generator-pattern|Blueprint Generator Pattern]]'
+  type: implements
+- target: '[[concepts/agentic-workflow-vs-workflow-agent|Agentic Workflow vs Workflow Agent]]'
+  type: enables
+- target: '[[concepts/agent-workflows|Agent Workflows]]'
+  type: extends
+summary: LangGraph Node Architecture
 ---
 
 # LangGraph Node Architecture

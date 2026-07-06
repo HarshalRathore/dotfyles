@@ -1,17 +1,17 @@
 ---
-title: "Jonathan Larson"
+title: Jonathan Larson
 category: entities
 tags:
-  - person
-  - microsoft
-  - graphrag
-  - microsoft-research
+- person
+- microsoft
+- graphrag
+- microsoft-research
 aliases:
-  - Jonathan Larson (Microsoft)
+- Jonathan Larson (Microsoft)
 sources:
-  - "AIEF2025 - GraphRAG methods to create optimized LLM context windows for Retrieval — Jonathan Larson, Microsoft - https://www.youtube.com/watch?v=c5qJHr3DnT4"
+- AIEF2025 - GraphRAG methods to create optimized LLM context windows for Retrieval — Jonathan Larson, Microsoft - https://www.youtube.com/watch?v=c5qJHr3DnT4
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
 base_confidence: 0.85
@@ -21,12 +21,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/microsoft|Microsoft]]"
-    type: works-for
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: leads-team
-  - target: "[[concepts/lazy-graphrag|LazyGraphRAG]]"
-    type: works-on
+- target: '[[entities/microsoft|Microsoft]]'
+  type: works-for
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: leads-team
+- target: '[[concepts/lazy-graphrag|LazyGraphRAG]]'
+  type: works-on
+summary: Jonathan Larson
 ---
 
 # Jonathan Larson

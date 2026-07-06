@@ -1,19 +1,19 @@
 ---
-title: "Torch Compile for Audio Decoding"
+title: Torch Compile for Audio Decoding
 category: concepts
 tags:
-  - pytorch
-  - torch-compile
-  - audio
-  - decoding
-  - gpu
-  - optimization
+- pytorch
+- torch-compile
+- audio
+- decoding
+- gpu
+- optimization
 aliases:
-  - torch compile audio
-  - GPU audio decoding
+- torch compile audio
+- GPU audio decoding
 summary: Applying PyTorch's torch compile and inference mode to audio decoders (like Snac) for GPU-accelerated decoding, reducing CPU-GPU transfer overhead in TTS inference pipelines.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -22,12 +22,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/audio-decoding-pipeline]]"
-    type: optimizes
-  - target: "[[entities/nvidia]]"
-    type: used_on
-  - target: "[[concepts/dynamic-batching]]"
-    type: used_with
+- target: '[[concepts/audio-decoding-pipeline]]'
+  type: optimizes
+- target: '[[entities/nvidia]]'
+  type: used_on
+- target: '[[concepts/dynamic-batching]]'
+  type: used_with
+sources: []
 ---
 
 # Torch Compile for Audio Decoding

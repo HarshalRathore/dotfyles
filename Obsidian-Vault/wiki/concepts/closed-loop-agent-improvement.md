@@ -1,18 +1,21 @@
 ---
-title: "Closed-Loop Agent Improvement"
+title: Closed-Loop Agent Improvement
 tags:
-  - concept
-  - agent
-  - ai
-  - production
-  - feedback-loop
-  - operations
-aliases: [agent coaching loop, upward spiral of performance, conversation review loop]
+- concept
+- agent
+- ai
+- production
+- feedback-loop
+- operations
+aliases:
+- agent coaching loop
+- upward spiral of performance
+- conversation review loop
 sources:
-  - "[[sources/watchv=c3geufbr2js]]"
-summary: "A production feedback system where AI agents learn from past mistakes through human coaching and tooling, creating an 'upward spiral' of performance and capability over time."
+- 'https://www.youtube.com/watch?v=c3geufbr2js'
+summary: A production feedback system where AI agents learn from past mistakes through human coaching and tooling, creating an 'upward spiral' of performance and capability over time.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.55
@@ -20,6 +23,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Closed-Loop Agent Improvement

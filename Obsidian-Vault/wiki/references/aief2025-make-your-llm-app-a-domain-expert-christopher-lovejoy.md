@@ -1,9 +1,9 @@
 ---
-title: "AIEF2025 - Make your LLM app a Domain Expert: How to Build an Expert System — Christopher Lovejoy, Anterior"
+title: 'AIEF2025 - Make your LLM app a Domain Expert: How to Build an Expert System — Christopher Lovejoy, Anterior'
 category: references
-summary: "Christopher Lovejoy (Anterior) on domain-native LLM apps. The system for incorporating domain insights matters more than model sophistication. Covers last-mile problem and failure mode ontology."
+summary: Christopher Lovejoy (Anterior) on domain-native LLM apps. The system for incorporating domain insights matters more than model sophistication. Covers last-mile problem and failure mode ontology.
 sources:
-  - "[[sources/watchv=mrm7oa3jsfs]]"
+- 'https://www.youtube.com/watch?v=mrm7oa3jsfs'
 provenance:
   extracted: 1.0
   inferred: 0.0
@@ -14,10 +14,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/christopher-lovejoy]]"
-    type: related_to
-  - target: "[[entities/anterior]]"
-    type: related_to
+- target: '[[entities/christopher-lovejoy]]'
+  type: related_to
+- target: '[[entities/anterior]]'
+  type: related_to
+tags: []
 ---
 
 # AIEF2025 - Make your LLM app a Domain Expert: How to Build an Expert System

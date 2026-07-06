@@ -4,7 +4,7 @@ category: entities
 tags: [organization, national-lab, government, national-security, ai-research, hpc, nuclear-stewardship, aief2025]
 summary: U.S. national laboratory with 70-year history in applied AI/ML, 20,000 researchers, 13 nuclear facilities. Pioneering agentic AI for science under strict government regulations.
 sources:
-  - "[[sources/watchv=tnsgx36ly0q]]"
+  - "https://www.youtube.com/watch?v=tnsgx36ly0q"
   - "AIEF2025 - Applied AI and Agentic Science at a National Laboratory — Mark Machotton, Los Alamos National Laboratory - https://www.youtube.com/watch?v=cFxWPP1ik6A"
 provenance: {extracted: 1.0, inferred: 0.0, ambiguous: 0.0}
 base_confidence: 0.95

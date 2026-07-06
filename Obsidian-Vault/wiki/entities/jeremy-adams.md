@@ -1,24 +1,26 @@
 ---
-title: "Jeremy Adams"
+title: Jeremy Adams
 tags:
-  - entity
-  - person
-  - dagger
-  - ecosystem
-  - aief2025
-aliases: [Jeremy Adams Dagger]
-summary: "Member of the Dagger ecosystem team, co-presenter of the 'Ship Agents that Ship' workshop at AI Engineer World's Fair 2025. Focuses on developer ecosystems and community adoption of Dagger for CI/CD and AI agent workflows."
+- entity
+- person
+- dagger
+- ecosystem
+- aief2025
+aliases:
+- Jeremy Adams Dagger
+summary: Member of the Dagger ecosystem team, co-presenter of the 'Ship Agents that Ship' workshop at AI Engineer World's Fair 2025. Focuses on developer ecosystems and community adoption of Dagger for CI/C...
 sources:
-  - "[[sources/watchv=fzb1a24hf-o]]"
+- 'https://www.youtube.com/watch?v=fzb1a24hf-o'
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.40
+base_confidence: 0.4
 lifecycle: draft
 tier: peripheral
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Jeremy Adams

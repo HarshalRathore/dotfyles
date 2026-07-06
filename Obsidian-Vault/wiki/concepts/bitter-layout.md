@@ -1,17 +1,17 @@
 ---
-title: "The Bitter Layout"
+title: The Bitter Layout
 tags:
-  - ai
-  - ux
-  - design
-  - product
-  - chat
-  - aief2025
+- ai
+- ux
+- design
+- product
+- chat
+- aief2025
 sources:
-  - "[[sources/watchv=bztd0yyagcq]]"
-summary: "The converged AI UX pattern of chat input + turn-by-turn interaction + model picker dropdown that persists not because it is good design, but because it can absorb the next model's capabilities at minimal cost."
+- 'https://www.youtube.com/watch?v=bztd0yyagcq'
+summary: The converged AI UX pattern of chat input + turn-by-turn interaction + model picker dropdown that persists not because it is good design, but because it can absorb the next model's capabilities at...
 provenance:
-  extracted: 0.60
+  extracted: 0.6
   inferred: 0.35
   ambiguous: 0.05
 base_confidence: 0.55
@@ -19,6 +19,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # The Bitter Layout

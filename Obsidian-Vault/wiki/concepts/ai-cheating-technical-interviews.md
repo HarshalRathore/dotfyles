@@ -1,21 +1,21 @@
 ---
-title: "AI Cheating in Technical Interviews"
+title: AI Cheating in Technical Interviews
 category: concepts
 tags:
-  - hiring
-  - ai-cheating
-  - technical-interviews
-  - ai-assistants
-  - recruitment
+- hiring
+- ai-cheating
+- technical-interviews
+- ai-assistants
+- recruitment
 aliases:
-  - AI interview cheating
-  - cheating with AI interviews
-  - AI assistants in interviews
+- AI interview cheating
+- cheating with AI interviews
+- AI assistants in interviews
 sources:
-  - "AIEF2025 - How to Hire AI Engineers when EVERYONE is cheating with AI — Beth Glenfield, DevDay - https://www.youtube.com/watch?v=Zqu0VaJw3vo"
+- AIEF2025 - How to Hire AI Engineers when EVERYONE is cheating with AI — Beth Glenfield, DevDay - https://www.youtube.com/watch?v=Zqu0VaJw3vo
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.75
 lifecycle: draft
@@ -24,12 +24,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/simulation-based-hiring|Simulation-Based Hiring]]"
-    type: addresses
-  - target: "[[concepts/ai-hiring-trade-offs|AI Hiring Trade-offs]]"
-    type: related_to
-  - target: "[[entities/cluey|Cluey]]"
-    type: relates_to
+- target: '[[concepts/simulation-based-hiring|Simulation-Based Hiring]]'
+  type: addresses
+- target: '[[concepts/ai-hiring-trade-offs|AI Hiring Trade-offs]]'
+  type: related_to
+- target: '[[entities/cluey|Cluey]]'
+  type: relates_to
+summary: AI Cheating in Technical Interviews
 ---
 
 # AI Cheating in Technical Interviews

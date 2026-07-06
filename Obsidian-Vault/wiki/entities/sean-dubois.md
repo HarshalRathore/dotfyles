@@ -1,14 +1,14 @@
 ---
-title: "Sean DuBois"
+title: Sean DuBois
 category: entities
 tags:
-  - person
-  - openai
-  - web-rtc
-  - voice-ai
-  - speaker
+- person
+- openai
+- web-rtc
+- voice-ai
+- speaker
 sources:
-  - "[[sources/watchv=e71ytnbcfxy]]"
+- 'https://www.youtube.com/watch?v=e71ytnbcfxy'
 provenance:
   extracted: 0.95
   inferred: 0.05
@@ -19,10 +19,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/openai]]"
-    type: related_to
-  - target: "[[entities/pion]]"
-    type: related_to
+- target: '[[entities/openai]]'
+  type: related_to
+- target: '[[entities/pion]]'
+  type: related_to
+summary: Sean DuBois
 ---
 
 # Sean DuBois

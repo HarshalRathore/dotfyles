@@ -1,23 +1,27 @@
 ---
-title: "Manual vs Automated Agent Evaluation"
+title: Manual vs Automated Agent Evaluation
 category: concepts
 tags:
-  - evaluation
-  - manual-evals
-  - automated-evals
-  - agent-testing
-  - evaluation-methodology
-aliases: [manual evaluation, automated evaluation, eval progression, evaluation phases]
+- evaluation
+- manual-evals
+- automated-evals
+- agent-testing
+- evaluation-methodology
+aliases:
+- manual evaluation
+- automated evaluation
+- eval progression
+- evaluation phases
 relationships:
-  - target: "[[concepts/azure-ai-evaluation-sdk]]"
-    type: extends
-  - target: "[[concepts/agent-evaluation-pipeline]]"
-    type: related_to
+- target: '[[concepts/azure-ai-evaluation-sdk]]'
+  type: extends
+- target: '[[concepts/agent-evaluation-pipeline]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=mc55hdwlq4o]]"
-  - "AIEF2025 - Five hard earned lessons about Evals — Ankur Goyal, Braintrust - https://www.youtube.com/watch?v=a4BV0gGmXgA"
+- 'https://www.youtube.com/watch?v=mc55hdwlq4o'
+- AIEF2025 - Five hard earned lessons about Evals — Ankur Goyal, Braintrust - https://www.youtube.com/watch?v=a4BV0gGmXgA
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -25,6 +29,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Manual vs Automated Agent Evaluation
 ---
 
 # Manual vs Automated Agent Evaluation

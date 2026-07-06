@@ -1,19 +1,21 @@
 ---
-title: "Agent Negotiation"
+title: Agent Negotiation
 category: concepts
 tags:
-  - agent-negotiation
-  - ai-agents
-  - commerce
-  - decision-intelligence
-  - agentic-commerce
-aliases: [agentic negotiation, AI negotiation]
+- agent-negotiation
+- ai-agents
+- commerce
+- decision-intelligence
+- agentic-commerce
+aliases:
+- agentic negotiation
+- AI negotiation
 sources:
-  - "AIEF2025 - Machines of Buying and Selling Grace - Adam Behrens, New Generation - https://www.youtube.com/watch?v=zlZz0mDF2eg"
+- AIEF2025 - Machines of Buying and Selling Grace - Adam Behrens, New Generation - https://www.youtube.com/watch?v=zlZz0mDF2eg
 provenance:
   extracted: 0.65
   inferred: 0.35
-  ambiguous: 0.00
+  ambiguous: 0.0
 base_confidence: 0.65
 lifecycle: draft
 lifecycle_changed: 2026-07-05
@@ -21,12 +23,13 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/market-makers|Market Makers]]"
-    type: implements
-  - target: "[[concepts/market-design|Market Design]]"
-    type: enables
-  - target: "[[concepts/buyer-seller-intent|Buyer and Seller Intent]]"
-    type: operates-on
+- target: '[[concepts/market-makers|Market Makers]]'
+  type: implements
+- target: '[[concepts/market-design|Market Design]]'
+  type: enables
+- target: '[[concepts/buyer-seller-intent|Buyer and Seller Intent]]'
+  type: operates-on
+summary: Agent Negotiation
 ---
 
 # Agent Negotiation

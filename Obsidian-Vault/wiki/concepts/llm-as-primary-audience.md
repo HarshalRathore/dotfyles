@@ -1,26 +1,34 @@
 ---
-title: "LLM as Primary Audience"
+title: LLM as Primary Audience
 category: concepts
-tags: [llm-audience, api-design, documentation, agent-first, product-design]
-summary: "The thesis that the primary audience of any product, service, library, or API is now a language model, not a human. Documentation, APIs, and interfaces should be optimized for machine consumption first."
+tags:
+- llm-audience
+- api-design
+- documentation
+- agent-first
+- product-design
+summary: The thesis that the primary audience of any product, service, library, or API is now a language model, not a human. Documentation, APIs, and interfaces should be optimized for machine consumption f...
 sources:
-  - "AIEF2025 - Design like Karpathy is watching — Zeke Sikelianos, Replicate - https://www.youtube.com/watch?v=huQPkrwVWwc"
-provenance: { extracted: 0.9, inferred: 0.1, ambiguous: 0.0 }
+- AIEF2025 - Design like Karpathy is watching — Zeke Sikelianos, Replicate - https://www.youtube.com/watch?v=huQPkrwVWwc
+provenance:
+  extracted: 0.9
+  inferred: 0.1
+  ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
-created: 2026-07-04T00:00:00Z
-updated: 2026-07-04T00:00:00Z
+created: 2026-07-04 00:00:00+00:00
+updated: 2026-07-04 00:00:00+00:00
 relationships:
-  - target: "[[concepts/agent-readable-docs|Agent-Readable Docs]]"
-    type: extends
-  - target: "[[concepts/llms-txt|LLMs.txt]]"
-    type: related_to
-  - target: "[[concepts/curl-over-click|Curl Over Click]]"
-    type: related_to
-  - target: "[[concepts/api-first-design-for-agents|API-First Design for Agents]]"
-    type: related_to
+- target: '[[concepts/agent-readable-docs|Agent-Readable Docs]]'
+  type: extends
+- target: '[[concepts/llms-txt|LLMs.txt]]'
+  type: related_to
+- target: '[[concepts/curl-over-click|Curl Over Click]]'
+  type: related_to
+- target: '[[concepts/api-first-design-for-agents|API-First Design for Agents]]'
+  type: related_to
 ---
 
 ## LLM as Primary Audience

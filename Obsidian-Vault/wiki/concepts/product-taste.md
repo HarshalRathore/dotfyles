@@ -1,10 +1,19 @@
 ---
 title: Product Taste
 category: concepts
-tags: [product, taste, design, ai-era, product-management]
-summary: The third dimension of personal clarity (alongside vision and purpose). Having a refined sense of what good looks like in product design and interaction, especially in the AI era where new interaction paradigms are possible.
-sources: ["AIEF2025 - Everything is ugly, so go build something that isn't — Raiza Martin, Huxe (ex NotebookLM) - https://www.youtube.com/watch?v=yG5d5UaGz1M"]
-provenance: {extracted: 0.7, inferred: 0.3, ambiguous: 0.0}
+tags:
+- product
+- taste
+- design
+- ai-era
+- product-management
+summary: The third dimension of personal clarity (alongside vision and purpose). Having a refined sense of what good looks like in product design and interaction, especially in the AI era where new interact...
+sources:
+- AIEF2025 - Everything is ugly, so go build something that isn't — Raiza Martin, Huxe (ex NotebookLM) - https://www.youtube.com/watch?v=yG5d5UaGz1M
+provenance:
+  extracted: 0.7
+  inferred: 0.3
+  ambiguous: 0.0
 base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
@@ -12,12 +21,12 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/personal-clarity]]"
-    type: extends
-  - target: "[[concepts/forceful-product-building]]"
-    type: related_to
-  - target: "[[concepts/ai-product-rebuilding-wave]]"
-    type: related_to
+- target: '[[concepts/personal-clarity]]'
+  type: extends
+- target: '[[concepts/forceful-product-building]]'
+  type: related_to
+- target: '[[concepts/ai-product-rebuilding-wave]]'
+  type: related_to
 ---
 
 ## Product Taste

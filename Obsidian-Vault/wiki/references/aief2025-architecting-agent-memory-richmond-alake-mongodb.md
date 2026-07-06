@@ -4,7 +4,7 @@ category: references
 tags: [aief2025, agent-memory, memory-management, agenticity-spectrum, rag, agentic-rag, mongodb, prompt-engineering, customer-relationships]
 summary: "Richmond Alake of MongoDB presents agent memory as the core mechanism for building reliable, believable, and capable AI agents — covering memory types, management systems, and the agenticity spectrum."
 sources:
-  - "[[sources/watchv=w2hvdb4jbjs]]"
+  - "https://www.youtube.com/watch?v=w2hvdb4jbjs"
 provenance:
   extracted: 0.80
   inferred: 0.15

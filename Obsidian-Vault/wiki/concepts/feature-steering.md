@@ -1,23 +1,24 @@
 ---
-title: "Feature Steering"
+title: Feature Steering
 tags:
-  - concept
-  - ai
-  - interpretability
-  - control
-  - safety
+- concept
+- ai
+- interpretability
+- control
+- safety
 sources:
-  - "[[sources/watchv=6avmhzpjptq]]"
-summary: "Actively modifying model behavior by adjusting internal features — the neural representations of concepts inside LLMs — to enforce guardrails, inject contextual behavior, or alter outputs with precision beyond prompt engineering."
+- 'https://www.youtube.com/watch?v=6avmhzpjptq'
+summary: Actively modifying model behavior by adjusting internal features — the neural representations of concepts inside LLMs — to enforce guardrails, inject contextual behavior, or alter outputs with prec...
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Feature Steering

@@ -1,17 +1,17 @@
 ---
-title: "AIEF2025 - How to run Evals at Scale: Thinking beyond Accuracy or Similarity — Muktesh Mishra, Adobe"
+title: 'AIEF2025 - How to run Evals at Scale: Thinking beyond Accuracy or Similarity — Muktesh Mishra, Adobe'
 category: references
 tags:
-  - aief2025
-  - evaluation
-  - scale
-  - adaptive-evals
-  - data-centric
+- aief2025
+- evaluation
+- scale
+- adaptive-evals
+- data-centric
 aliases:
-  - Evals at Scale — Muktesh Mishra
-  - Thinking beyond Accuracy or Similarity
+- Evals at Scale — Muktesh Mishra
+- Thinking beyond Accuracy or Similarity
 sources:
-  - "AIEF2025 - How to run Evals at Scale: Thinking beyond Accuracy or Similarity — Muktesh Mishra, Adobe - https://www.youtube.com/watch?v=coKKKKh8Vns"
+- 'AIEF2025 - How to run Evals at Scale: Thinking beyond Accuracy or Similarity — Muktesh Mishra, Adobe - https://www.youtube.com/watch?v=coKKKKh8Vns'
 provenance:
   extracted: 1.0
   inferred: 0.0
@@ -23,12 +23,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/muktesh-mishra|Muktesh Mishra]]"
-    type: presented_by
-  - target: "[[entities/adobe|Adobe]]"
-    type: affiliation
-  - target: "[[concepts/adaptive-evals|Adaptive Evals]]"
-    type: covers
+- target: '[[entities/muktesh-mishra|Muktesh Mishra]]'
+  type: presented_by
+- target: '[[entities/adobe|Adobe]]'
+  type: affiliation
+- target: '[[concepts/adaptive-evals|Adaptive Evals]]'
+  type: covers
+summary: 'AIEF2025 — How to run Evals at Scale: Thinking beyond Accuracy or Similarity'
 ---
 
 # AIEF2025 — How to run Evals at Scale: Thinking beyond Accuracy or Similarity

@@ -1,17 +1,20 @@
 ---
-title: "PM Transformation in the AI Era"
+title: PM Transformation in the AI Era
 category: concepts
 tags:
-  - product-management
-  - ai-agents
-  - organizational-change
-  - aief2025
-aliases: [product management transformation, pm transformation, product management evolution ai]
+- product-management
+- ai-agents
+- organizational-change
+- aief2025
+aliases:
+- product management transformation
+- pm transformation
+- product management evolution ai
 sources:
-  - "[[sources/watchv=pthmdt92qng]]"
-  - "[[sources/watchv=cb-4nkdynrs]]"
+- 'https://www.youtube.com/watch?v=pthmdt92qng'
+- 'https://www.youtube.com/watch?v=cb-4nkdynrs'
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.74
@@ -21,14 +24,15 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/affordance-thinking]]"
-    type: includes
-  - target: "[[concepts/dynamic-products]]"
-    type: relates_to
-  - target: "[[concepts/domain-expert-product-manager]]"
-    type: extends
-  - target: "[[concepts/discover-functionality]]"
-    type: includes
+- target: '[[concepts/affordance-thinking]]'
+  type: includes
+- target: '[[concepts/dynamic-products]]'
+  type: relates_to
+- target: '[[concepts/domain-expert-product-manager]]'
+  type: extends
+- target: '[[concepts/discover-functionality]]'
+  type: includes
+summary: PM Transformation in the AI Era
 ---
 
 # PM Transformation in the AI Era

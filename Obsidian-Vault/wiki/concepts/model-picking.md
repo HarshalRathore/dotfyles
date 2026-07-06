@@ -1,18 +1,18 @@
 ---
-title: "Model Picking"
+title: Model Picking
 category: concepts
 tags:
-  - model-selection
-  - llm
-  - vendor-management
-  - enterprise-ai
+- model-selection
+- llm
+- vendor-management
+- enterprise-ai
 aliases:
-  - Model Selection
-  - Model Picking
-  - Choosing LLMs
+- Model Selection
+- Model Picking
+- Choosing LLMs
 sources:
-  - "AIEF2025 - How Intuit uses LLMs to explain taxes to millions of taxpayers - Jaspreet Singh, Intuit - https://www.youtube.com/watch?v=_zl_zimMRak"
-summary: "The ongoing challenge of selecting and switching between LLM providers and models. Even within the same vendor, model upgrades require significant effort and are only feasible with strong evaluation infrastructure in place."
+- AIEF2025 - How Intuit uses LLMs to explain taxes to millions of taxpayers - Jaspreet Singh, Intuit - https://www.youtube.com/watch?v=_zl_zimMRak
+summary: The ongoing challenge of selecting and switching between LLM providers and models. Even within the same vendor, model upgrades require significant effort and are only feasible with strong evaluatio...
 provenance:
   extracted: 0.75
   inferred: 0.18
@@ -24,10 +24,10 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/vendor-lock-in-llm|Vendor Lock-in in LLM]]"
-    type: relates_to
-  - target: "[[concepts/llm-evaluation-framework|LLM Evaluation Framework]]"
-    type: depends_on
+- target: '[[concepts/vendor-lock-in-llm|Vendor Lock-in in LLM]]'
+  type: relates_to
+- target: '[[concepts/llm-evaluation-framework|LLM Evaluation Framework]]'
+  type: depends_on
 ---
 
 # Model Picking

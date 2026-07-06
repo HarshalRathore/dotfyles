@@ -1,22 +1,25 @@
 ---
-title: "T-Shaped AI Talent"
+title: T-Shaped AI Talent
 tags:
-  - concept
-  - ai
-  - talent
-  - organization
-  - people
-aliases: [T-shaped AI builder, versatile AI specialist, AI T-skills]
+- concept
+- ai
+- talent
+- organization
+- people
+aliases:
+- T-shaped AI builder
+- versatile AI specialist
+- AI T-skills
 relationships:
-  - target: "[[concepts/ai-fluency]]"
-    type: related_to
-  - target: "[[concepts/ai-first-transformation]]"
-    type: related_to
+- target: '[[concepts/ai-fluency]]'
+  type: related_to
+- target: '[[concepts/ai-first-transformation]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=3ygrcgzj3yc]]"
-summary: "The talent profile needed in AI-first companies: deep AI specialization combined with the ability to stretch wide, prototype quickly, collaborate across silos, and navigate ambiguity."
+- 'https://www.youtube.com/watch?v=3ygrcgzj3yc'
+summary: 'The talent profile needed in AI-first companies: deep AI specialization combined with the ability to stretch wide, prototype quickly, collaborate across silos, and navigate ambiguity.'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.18
   ambiguous: 0.02
 base_confidence: 0.55
@@ -24,6 +27,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # T-Shaped AI Talent

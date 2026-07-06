@@ -4,7 +4,7 @@ category: concepts
 tags: [majority-voting, self-consistency, llm, inference-time-compute, sampling, aief2025]
 aliases: [majority voting, self-consistency, multiple sampling, consensus voting]
 sources:
-  - "[[sources/watchv=qludzkvfp6a]]"
+  - "https://www.youtube.com/watch?v=qludzkvfp6a"
 summary: "Generating multiple independent responses from an LLM and selecting the consensus answer. A form of inference-time compute scaling that predictably improves accuracy."
 provenance:
   extracted: 0.85

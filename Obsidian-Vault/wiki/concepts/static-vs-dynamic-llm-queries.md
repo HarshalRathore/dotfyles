@@ -1,22 +1,22 @@
 ---
-title: "Static vs Dynamic LLM Queries"
+title: Static vs Dynamic LLM Queries
 category: concepts
 tags:
-  - llm
-  - queries
-  - prompts
-  - tax
-  - enterprise-ai
+- llm
+- queries
+- prompts
+- tax
+- enterprise-ai
 aliases:
-  - Static vs Dynamic Queries
-  - Static Dynamic LLM
-  - Prepared vs Open-ended Queries
+- Static vs Dynamic Queries
+- Static Dynamic LLM
+- Prepared vs Open-ended Queries
 sources:
-  - "AIEF2025 - How Intuit uses LLMs to explain taxes to millions of taxpayers - Jaspreet Singh, Intuit - https://www.youtube.com/watch?v=_zl_zimMRak"
-summary: "Two query patterns for LLM applications: static queries (prepared-statement style with known context) and dynamic queries (open-ended user questions). Static queries are easier to evaluate and optimize; dynamic queries require more flexible prompting and RAG."
+- AIEF2025 - How Intuit uses LLMs to explain taxes to millions of taxpayers - Jaspreet Singh, Intuit - https://www.youtube.com/watch?v=_zl_zimMRak
+summary: 'Two query patterns for LLM applications: static queries (prepared-statement style with known context) and dynamic queries (open-ended user questions). Static queries are easier to evaluate and opti...'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.85
 lifecycle: draft
@@ -25,10 +25,10 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/retrieval-augmented-generation|Retrieval-Augmented Generation]]"
-    type: relates_to
-  - target: "[[concepts/rag-pipeline-architecture|RAG Pipeline Architecture]]"
-    type: relates_to
+- target: '[[concepts/retrieval-augmented-generation|Retrieval-Augmented Generation]]'
+  type: relates_to
+- target: '[[concepts/rag-pipeline-architecture|RAG Pipeline Architecture]]'
+  type: relates_to
 ---
 
 # Static vs Dynamic LLM Queries

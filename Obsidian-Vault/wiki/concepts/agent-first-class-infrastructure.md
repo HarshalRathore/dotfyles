@@ -1,13 +1,20 @@
 ---
 title: Agent as First-Class Infrastructure Citizen
 category: concepts
-tags: [agent-infrastructure, first-class-citizen, agent-routing, agent-security, api-keys]
-aliases: [agent first-class citizen, agents as infrastructure citizens]
-summary: Treating agents as first-class citizens in infrastructure — the platform handles all routing, security, and lifecycle management for each agent, rather than treating agents as afterthoughts on generic compute.
+tags:
+- agent-infrastructure
+- first-class-citizen
+- agent-routing
+- agent-security
+- api-keys
+aliases:
+- agent first-class citizen
+- agents as infrastructure citizens
+summary: Treating agents as first-class citizens in infrastructure — the platform handles all routing, security, and lifecycle management for each agent, rather than treating agents as afterthoughts on gene...
 sources:
-  - "AIEF2025 - Conquering Agent Chaos — Rick Blalock, Agentuity - https://www.youtube.com/watch?v=yASxPZ-tZe0"
+- AIEF2025 - Conquering Agent Chaos — Rick Blalock, Agentuity - https://www.youtube.com/watch?v=yASxPZ-tZe0
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -17,12 +24,12 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/agent-deployment-challenges]]"
-    type: solves
-  - target: "[[concepts/agent-routing]]"
-    type: enables
-  - target: "[[concepts/agent-factory]]"
-    type: relates_to
+- target: '[[concepts/agent-deployment-challenges]]'
+  type: solves
+- target: '[[concepts/agent-routing]]'
+  type: enables
+- target: '[[concepts/agent-factory]]'
+  type: relates_to
 ---
 
 ## Agent as First-Class Infrastructure Citizen

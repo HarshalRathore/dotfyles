@@ -1,14 +1,14 @@
 ---
-title: "Christian Segeti"
+title: Christian Segeti
 tags:
-  - person
-  - ai
-  - reasoning
+- person
+- ai
+- reasoning
 sources:
-  - "[[sources/watchv=2goss66xrbk]]"
-summary: "Chief Scientist at Morph, formerly co-founder at xAI, led code reasoning for Grok 3, known for batch storm and adversarial examples."
+- 'https://www.youtube.com/watch?v=2goss66xrbk'
+summary: Chief Scientist at Morph, formerly co-founder at xAI, led code reasoning for Grok 3, known for batch storm and adversarial examples.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.12
   ambiguous: 0.08
 base_confidence: 0.42
@@ -16,6 +16,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 # Christian Segeti
 

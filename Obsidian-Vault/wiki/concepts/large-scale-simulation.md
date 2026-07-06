@@ -1,40 +1,31 @@
 ---
-title: "Large-Scale Simulation"
+title: Large-Scale Simulation
 category: concepts
 tags:
-  - simulation
-  - evals
-  - voice-ai
-  - autonomous-driving
-  - testing
-  - scalability
-  - robotics
-  - synthetic-data
-  - nvidia
-  - omniverse
+- simulation
+- evals
+- voice-ai
+- autonomous-driving
+- testing
+- scalability
+- robotics
+- synthetic-data
+- nvidia
+- omniverse
 sources:
-  - "AIEF2025 - From Self-driving to Autonomous Voice Agents — Brooke Hopkins, Coval - https://www.youtube.com/watch?v=kDczF4wBh8s"
-  - "AIEF2025 - What Is a Humanoid Foundation Model? An Introduction to GR00T N1 - Annika & Aastha - https://www.youtube.com/watch?v=mWKYvT9Lc50"
-summary: "Evaluation methodology testing AI systems across thousands of scenarios to measure aggregate performance metrics — the key unlock for autonomous vehicles, now applied to voice agents and robotics simulation for foundation model training.
+- AIEF2025 - From Self-driving to Autonomous Voice Agents — Brooke Hopkins, Coval - https://www.youtube.com/watch?v=kDczF4wBh8s
+- AIEF2025 - What Is a Humanoid Foundation Model? An Introduction to GR00T N1 - Annika & Aastha - https://www.youtube.com/watch?v=mWKYvT9Lc50
+summary: Evaluation methodology testing AI systems across thousands of scenarios to measure aggregate performance metrics — the key unlock for autonomous vehicles, now applied to voice agents and robotics s...
 provenance:
-  extracted: 0.75
-  inferred: 0.20
-  ambiguous: 0.05
-base_confidence: 0.80
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+base_confidence: 0.42
 lifecycle: draft
-lifecycle_changed: 2026-07-05
+lifecycle_changed: '2026-07-05'
 tier: supporting
-created: 2026-07-04
-updated: 2026-07-05
-relationships:
-  - target: "[[concepts/simulation-realism-hierarchy|Simulation Realism Hierarchy]]"
-    type: related_to
-  - target: "[[concepts/data-pyramid|Data Pyramid]]"
-    type: produces
-  - target: "[[entities/nvidia-gr00t|NVIDIA Project GR00T]]"
-    type: used_by
-  - target: "[[concepts/large-scale-simulation|Large-Scale Simulation]]"
-    type: implements
+created: '2026-07-04'
+updated: '2026-07-05'
 ---
 
 # Large-Scale Simulation

@@ -1,20 +1,20 @@
 ---
-title: "Audio Decoding Pipeline"
+title: Audio Decoding Pipeline
 category: concepts
 tags:
-  - audio
-  - decoding
-  - voice-ai
-  - tts
-  - pytorch
-  - snac
-  - inference
+- audio
+- decoding
+- voice-ai
+- tts
+- pytorch
+- snac
+- inference
 aliases:
-  - audio decoding
-  - TTS audio pipeline
-summary: The audio decoding component of a TTS inference pipeline — converting discrete audio tokens into waveform audio. Uses tools like Snac decoder with torch compile and PyTorch inference mode for GPU-accelerated decoding.
+- audio decoding
+- TTS audio pipeline
+summary: The audio decoding component of a TTS inference pipeline — converting discrete audio tokens into waveform audio. Uses tools like Snac decoder with torch compile and PyTorch inference mode for GPU-a...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -23,12 +23,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/dynamic-batching]]"
-    type: used_in
-  - target: "[[concepts/voice-inference-metrics]]"
-    type: affects
-  - target: "[[concepts/text-to-speech]]"
-    type: component_of
+- target: '[[concepts/dynamic-batching]]'
+  type: used_in
+- target: '[[concepts/voice-inference-metrics]]'
+  type: affects
+- target: '[[concepts/text-to-speech]]'
+  type: component_of
+sources: []
 ---
 
 # Audio Decoding Pipeline

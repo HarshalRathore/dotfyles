@@ -1,17 +1,17 @@
 ---
-title: "Chris Kelly"
+title: Chris Kelly
 tags:
-  - person
-  - software-engineering
-  - production
-  - aief2025
+- person
+- software-engineering
+- production
+- aief2025
 aliases:
-  - Chris Kelly Augment
+- Chris Kelly Augment
 sources:
-  - "[[sources/watchv=dc3qoa9wone]]"
-summary: "Engineer at Augment Code, former GitHub employee, advocate for production-oriented software engineering in the AI era. Argues that AI code generation is only one part of software engineering and that code review becomes the most important skill as AI writes more code."
+- 'https://www.youtube.com/watch?v=dc3qoa9wone'
+summary: Engineer at Augment Code, former GitHub employee, advocate for production-oriented software engineering in the AI era. Argues that AI code generation is only one part of software engineering and th...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.55
@@ -19,6 +19,7 @@ lifecycle: draft
 tier: peripheral
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Chris Kelly

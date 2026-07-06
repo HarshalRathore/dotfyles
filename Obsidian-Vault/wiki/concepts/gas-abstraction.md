@@ -1,26 +1,27 @@
 ---
-title: "Gas Abstraction"
+title: Gas Abstraction
 tags:
-  - blockchain
-  - gas
-  - usdc
-  - developer-tools
+- blockchain
+- gas
+- usdc
+- developer-tools
 aliases:
-  - gasless transactions
-  - fee abstraction
-  - paymaster
+- gasless transactions
+- fee abstraction
+- paymaster
 sources:
-  - "[[sources/watchv=axmdsqdoghm]]"
-summary: "Removing the requirement for end users to hold native blockchain tokens for gas fees, enabling them to pay transaction costs in USDC or fiat."
+- 'https://www.youtube.com/watch?v=axmdsqdoghm'
+summary: Removing the requirement for end users to hold native blockchain tokens for gas fees, enabling them to pay transaction costs in USDC or fiat.
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.55
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Gas Abstraction

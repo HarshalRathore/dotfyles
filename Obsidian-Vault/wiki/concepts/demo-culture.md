@@ -1,34 +1,35 @@
 ---
-title: "Demo Culture"
+title: Demo Culture
 category: concepts
 tags:
-  - culture
-  - prototyping
-  - ai-native
-  - aief2025
+- culture
+- prototyping
+- ai-native
+- aief2025
 aliases:
-  - demo-driven development
-  - demo culture
-summary: "An organizational culture where ideas are validated through working demos built in hours rather than memos or decks, enabled by cheap code and AI-assisted rapid prototyping."
+- demo-driven development
+- demo culture
+summary: An organizational culture where ideas are validated through working demos built in hours rather than memos or decks, enabled by cheap code and AI-assisted rapid prototyping.
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/code-is-cheap|Code Is Cheap]]"
-    type: extends
-  - target: "[[concepts/compounding-engineering|Compounding Engineering]]"
-    type: related_to
-  - target: "[[concepts/ai-native-company|AI-Native Company]]"
-    type: related_to
-  - target: "[[concepts/feeling-the-material|Feeling the Material]]"
-    type: related_to
+- target: '[[concepts/code-is-cheap|Code Is Cheap]]'
+  type: extends
+- target: '[[concepts/compounding-engineering|Compounding Engineering]]'
+  type: related_to
+- target: '[[concepts/ai-native-company|AI-Native Company]]'
+  type: related_to
+- target: '[[concepts/feeling-the-material|Feeling the Material]]'
+  type: related_to
+sources: []
 ---
 
 # Demo Culture

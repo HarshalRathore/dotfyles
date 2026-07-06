@@ -1,21 +1,21 @@
 ---
-title: "Evals Testing Pyramid"
+title: Evals Testing Pyramid
 category: concepts
 tags:
-  - evals
-  - testing
-  - hierarchy
-  - ai-agents
-  - evaluation-methodology
+- evals
+- testing
+- hierarchy
+- ai-agents
+- evaluation-methodology
 aliases:
-  - eval hierarchy
-  - testing pyramid for AI
+- eval hierarchy
+- testing pyramid for AI
 sources:
-  - "AIEF2025 - Turning Fails into Features: Zapier's Hard-Won Eval Lessons — Rafal Willinski, Vitor Balocco, Zapier - https://www.youtube.com/watch?v=blrovBxxN9o"
-  - "AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY"
-  - "AIEF2025 - Engineering Better Evals: Scalable LLM Evaluation Pipelines That Work — Dat Ngo, Aman Khan, Arize - https://www.youtube.com/watch?v=spvXj9tnWAQ"
+- 'AIEF2025 - Turning Fails into Features: Zapier''s Hard-Won Eval Lessons — Rafal Willinski, Vitor Balocco, Zapier - https://www.youtube.com/watch?v=blrovBxxN9o'
+- AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY
+- 'AIEF2025 - Engineering Better Evals: Scalable LLM Evaluation Pipelines That Work — Dat Ngo, Aman Khan, Arize - https://www.youtube.com/watch?v=spvXj9tnWAQ'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -25,12 +25,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/evals-as-structured-tests|Evals as Structured Tests]]"
-    type: extends
-  - target: "[[concepts/eval-offline-online-duality|Eval Offline/Online Duality]]"
-    type: relates-to
-  - target: "[[entities/zapier|Zapier]]"
-    type: used-by
+- target: '[[concepts/evals-as-structured-tests|Evals as Structured Tests]]'
+  type: extends
+- target: '[[concepts/eval-offline-online-duality|Eval Offline/Online Duality]]'
+  type: relates-to
+- target: '[[entities/zapier|Zapier]]'
+  type: used-by
+summary: Evals Testing Pyramid
 ---
 
 # Evals Testing Pyramid

@@ -1,30 +1,31 @@
 ---
-title: "SMIC"
+title: SMIC
 tags:
-  - company
-  - china
-  - semiconductor
-  - foundry
-  - chip-manufacturing
+- company
+- china
+- semiconductor
+- foundry
+- chip-manufacturing
 sources:
-  - "AIEF2025 - The Geopolitics of AI Infrastructure - Dylan Patel, SemiAnalysis - https://www.youtube.com/watch?v=Zz4QjZsYWK0"
-summary: "Semiconductor Manufacturing International Corporation — China's leading semiconductor foundry, expected to begin 7nm AI chip production at high volumes within the year."
+- AIEF2025 - The Geopolitics of AI Infrastructure - Dylan Patel, SemiAnalysis - https://www.youtube.com/watch?v=Zz4QjZsYWK0
+summary: Semiconductor Manufacturing International Corporation — China's leading semiconductor foundry, expected to begin 7nm AI chip production at high volumes within the year.
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
-updated: 2026-07-04T23:59:00Z
+updated: 2026-07-04 23:59:00+00:00
 relationships:
-  - target: "[[entities/huawei|Huawei]]"
-    type: supplies
-  - target: "[[entities/tsmc|TSMC]]"
-    type: competes_with
-  - target: "[[concepts/china-us-ai-rivalry|China-US AI Rivalry]]"
-    type: central_to
+- target: '[[entities/huawei|Huawei]]'
+  type: supplies
+- target: '[[entities/tsmc|TSMC]]'
+  type: competes_with
+- target: '[[concepts/china-us-ai-rivalry|China-US AI Rivalry]]'
+  type: central_to
+category: entities
 ---
 
 # SMIC

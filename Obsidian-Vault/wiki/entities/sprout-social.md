@@ -1,23 +1,25 @@
 ---
-title: "Sprout Social"
+title: Sprout Social
 tags:
-  - company
-  - saas
-  - ai
-  - social-media
-aliases: [Sprout Social Inc.]
+- company
+- saas
+- ai
+- social-media
+aliases:
+- Sprout Social Inc.
 sources:
-  - "[[sources/watchv=3ygrcgzj3yc]]"
-summary: "Public SaaS company providing social media management, engagement, analytics, and AI-powered tools. Speakers at AI Engineer World's Fair 2025 on their AI-first transformation journey."
+- 'https://www.youtube.com/watch?v=3ygrcgzj3yc'
+summary: Public SaaS company providing social media management, engagement, analytics, and AI-powered tools. Speakers at AI Engineer World's Fair 2025 on their AI-first transformation journey.
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Sprout Social

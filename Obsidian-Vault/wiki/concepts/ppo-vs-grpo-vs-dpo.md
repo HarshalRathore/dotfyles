@@ -10,7 +10,7 @@ tags:
   - aief2025
 aliases: [ppo, grpo, dpo, rl-algorithms, rl-algorithm-comparison]
 sources:
-  - "[[sources/watchv=pbhm2qknu10]]"
+  - "https://www.youtube.com/watch?v=pbhm2qknu10"
 summary: "Comparison of three RL algorithm families: PPO (expensive, fine-grained advantage), GRPO (efficient middle ground with forking from sampling), and DPO (lacks fine-grained advantage estimation)."
 provenance:
   extracted: 0.70

@@ -1,36 +1,42 @@
 ---
-title: "Your Coding Agent Just Got Cloned And Your Brain Isn't Ready"
+title: Your Coding Agent Just Got Cloned And Your Brain Isn't Ready
 category: references
 tags:
-  - aief2025
-  - parallel-agents
-  - coding-agents
-  - google-jules
-  - remote-agents
-  - async-agents
-  - agent-workflows
+- aief2025
+- parallel-agents
+- coding-agents
+- google-jules
+- remote-agents
+- async-agents
+- agent-workflows
 sources:
-  - "AIEF2025 - Your Coding Agent Just Got Cloned And Your Brain Isn't Ready - Rustin Banks, Google Jules - https://www.youtube.com/watch?v=X4BwOu0GWb8"
+- AIEF2025 - Your Coding Agent Just Got Cloned And Your Brain Isn't Ready - Rustin Banks, Google Jules - https://www.youtube.com/watch?v=X4BwOu0GWb8
 relationships:
-  - target: [[entities/rustin-banks|Rustin Banks]]
-    type: related_to
-  - target: [[entities/google-jules|Google Jules]]
-    type: related_to
-  - target: [[concepts/parallel-agent-workflows|Parallel Agent Workflows]]
-    type: introduces
-  - target: [[concepts/multiple-variations-parallelism|Multiple Variations Parallelism]]
-    type: introduces
-  - target: [[concepts/remote-agents-as-a-service|Remote Agents as a Service]]
-    type: exemplifies
+- target:
+  - - entities/rustin-banks|Rustin Banks
+  type: related_to
+- target:
+  - - entities/google-jules|Google Jules
+  type: related_to
+- target:
+  - - concepts/parallel-agent-workflows|Parallel Agent Workflows
+  type: introduces
+- target:
+  - - concepts/multiple-variations-parallelism|Multiple Variations Parallelism
+  type: introduces
+- target:
+  - - concepts/remote-agents-as-a-service|Remote Agents as a Service
+  type: exemplifies
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.88
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Your Coding Agent Just Got Cloned And Your Brain Isn't Ready
 ---
 
 # Your Coding Agent Just Got Cloned And Your Brain Isn't Ready

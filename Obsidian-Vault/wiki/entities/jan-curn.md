@@ -1,34 +1,38 @@
 ---
-title: "Jan Čern"
+title: Jan Čern
 category: entities
 tags:
-  - person
-  - founder
-  - apify
-  - mcp
-  - ai-agents
-  - aief2025
-  - speaker
-aliases: [Jan Curn, Jan Čern, Jan Czern]
+- person
+- founder
+- apify
+- mcp
+- ai-agents
+- aief2025
+- speaker
+aliases:
+- Jan Curn
+- Jan Čern
+- Jan Czern
 sources:
-  - "AIEF2025 - The rise of the agentic economy on the shoulders of MCP — Jan Curn, Apify - https://www.youtube.com/watch?v=blW-lSd5CYQ"
+- AIEF2025 - The rise of the agentic economy on the shoulders of MCP — Jan Curn, Apify - https://www.youtube.com/watch?v=blW-lSd5CYQ
 provenance:
   extracted: 0.95
   inferred: 0.03
   ambiguous: 0.02
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/apify]]"
-    type: founded
-  - target: "[[concepts/the-agentic-economy]]"
-    type: advocates
-  - target: "[[concepts/tool-discovery]]"
-    type: emphasizes
+- target: '[[entities/apify]]'
+  type: founded
+- target: '[[concepts/the-agentic-economy]]'
+  type: advocates
+- target: '[[concepts/tool-discovery]]'
+  type: emphasizes
+summary: Jan Čern
 ---
 
 # Jan Čern

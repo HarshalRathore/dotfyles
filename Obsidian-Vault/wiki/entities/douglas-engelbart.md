@@ -1,25 +1,26 @@
 ---
-title: "Douglas Engelbart"
+title: Douglas Engelbart
 tags:
-  - person
-  - inventor
-  - hci
-  - computing-pioneer
+- person
+- inventor
+- hci
+- computing-pioneer
 aliases:
-  - Engelbart
-  - Doug Engelbart
+- Engelbart
+- Doug Engelbart
 sources:
-  - "[[sources/watchv=dj0b_cebhhi]]"
-summary: "Inventor of the computer mouse and graphical user interface. Proponent of augmenting human intelligence rather than building thinking machines. His vision for computers as tools for human augmentation is invoked by Danielle Perszyk as an alternative to standard AGI."
+- 'https://www.youtube.com/watch?v=dj0b_cebhhi'
+summary: Inventor of the computer mouse and graphical user interface. Proponent of augmenting human intelligence rather than building thinking machines. His vision for computers as tools for human augmentat...
 provenance:
   extracted: 0.65
-  inferred: 0.30
+  inferred: 0.3
   ambiguous: 0.05
 base_confidence: 0.75
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Douglas Engelbart

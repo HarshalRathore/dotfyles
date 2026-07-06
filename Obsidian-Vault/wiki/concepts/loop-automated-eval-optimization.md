@@ -11,7 +11,8 @@ tags:
   - cloud-4
 sources:
   - "AIEF2025 - Five hard earned lessons about Evals — Ankur Goyal, Braintrust - https://www.youtube.com/watch?v=a4BV0gGmXgA"
-summary: "Braintrust's Loop feature: an automated agent that optimizes prompts, datasets, and scorers together. Available via feature flag, powered by Cloud 4, with side-by-side UI and auto-optimize mode.
+summary: >-
+  "Braintrust's Loop feature: an automated agent that optimizes prompts, datasets, and scorers together. Available via feature flag, powered by Cloud 4, with side-by-side UI and auto-optimize mode.
 provenance:
   extracted: 0.90
   inferred: 0.10
@@ -29,7 +30,7 @@ relationships:
     type: enables
   - target: "[[concepts/manual-vs-automated-evals|Manual vs Automated Agent Evaluation]]"
     type: advances
-  - target: "[[concepts/braintrust|Braintrust]]"
+  - target: "[[entities/braintrust|Braintrust]]"
     type: part_of
 ---
 
@@ -64,5 +65,5 @@ Loop is available to existing Braintrust users via a "Loop" feature flag in the 
 - [[concepts/system-level-optimization|System-Level Optimization]] — The principle Loop implements
 - [[concepts/evals-play-offense|Evals Play Offense]] — The strategic practice Loop enables
 - [[concepts/manual-vs-automated-evals|Manual vs Automated Agent Evaluation]] — The progression Loop closes
-- [[concepts/braintrust|Braintrust]] — The platform
+- [[entities/braintrust|Braintrust]] — The platform
 - [[references/aief2025-the-future-of-evals-ankur-goyal-braintrust|The Future of Evals — AIEF2025 Talk]] — Ankur Goyal's talk introducing Loop

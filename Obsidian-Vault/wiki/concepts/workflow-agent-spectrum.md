@@ -1,40 +1,40 @@
 ---
-title: "Workflow-Agent Spectrum"
+title: Workflow-Agent Spectrum
 category: concepts
 tags:
-  - agent-workflows
-  - agents
-  - determinism
-  - langgraph
-  - enterprise-ai
-  - control
+- agent-workflows
+- agents
+- determinism
+- langgraph
+- enterprise-ai
+- control
 sources:
-  - "AIEF2025 - 3 ingredients for building reliable enterprise agents - Harrison Chase, LangChain/LangGraph - https://www.youtube.com/watch?v=kTnfJszFxCg"
-  - "AIEF2025 - How to Build Planning Agents without losing control - Yogendra Miraje, Factset - https://www.youtube.com/watch?v=sl3icG-IjHo"
-summary: "The spectrum between fully deterministic workflows and fully autonomous agents. Enterprise agents typically need a mix of both — deterministic sequences for predictability, LLM-driven decisions for flexibility."
+- AIEF2025 - 3 ingredients for building reliable enterprise agents - Harrison Chase, LangChain/LangGraph - https://www.youtube.com/watch?v=kTnfJszFxCg
+- AIEF2025 - How to Build Planning Agents without losing control - Yogendra Miraje, Factset - https://www.youtube.com/watch?v=sl3icG-IjHo
+summary: The spectrum between fully deterministic workflows and fully autonomous agents. Enterprise agents typically need a mix of both — deterministic sequences for predictability, LLM-driven decisions for...
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/agent-workflows]]"
-    type: extends
-  - target: "[[concepts/agent-reliability-challenge]]"
-    type: related_to
-  - target: "[[concepts/deterministic-vs-autonomous-agents]]"
-    type: related_to
-  - target: "[[concepts/enterprise-agent-adoption-equation]]"
-    type: affects
-  - target: "[[concepts/agentic-workflow-vs-workflow-agent|Agentic Workflow vs Workflow Agent]]"
-    type: extends
-  - target: "[[concepts/when-not-to-use-agentic-workflows|When NOT to Use Agentic Workflows]]"
-    type: related_to
+- target: '[[concepts/agent-workflows]]'
+  type: extends
+- target: '[[concepts/agent-reliability-challenge]]'
+  type: related_to
+- target: '[[concepts/deterministic-vs-autonomous-agents]]'
+  type: related_to
+- target: '[[concepts/enterprise-agent-adoption-equation]]'
+  type: affects
+- target: '[[concepts/agentic-workflow-vs-workflow-agent|Agentic Workflow vs Workflow Agent]]'
+  type: extends
+- target: '[[concepts/when-not-to-use-agentic-workflows|When NOT to Use Agentic Workflows]]'
+  type: related_to
 ---
 
 # Workflow-Agent Spectrum

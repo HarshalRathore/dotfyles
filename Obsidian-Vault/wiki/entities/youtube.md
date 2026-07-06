@@ -17,7 +17,7 @@ relationships:
   - target: "[[entities/gemini]]"
     type: uses
 sources:
-  - "[[sources/watchv=lxqsq3vzdqo]]"
+  - "https://www.youtube.com/watch?v=lxqsq3vzdqo"
 summary: "Global video platform with 2B+ daily active users, where a large majority of watch time is driven by the recommendation system across home, watch-next, Shorts, and personalized search."
 provenance:
   extracted: 0.75

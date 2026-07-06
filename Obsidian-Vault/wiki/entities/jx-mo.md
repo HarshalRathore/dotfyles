@@ -1,18 +1,18 @@
 ---
-title: "JX Mo"
+title: JX Mo
 tags:
-  - person
-  - robotics
-  - open-source
-  - k-scale-labs
+- person
+- robotics
+- open-source
+- k-scale-labs
 aliases:
-  - JX Mo
-  - Jax Mo
+- JX Mo
+- Jax Mo
 sources:
-  - "[[sources/watchv=bs92rdbvi90]]"
-summary: "Founding engineer at K-Scale Labs, building open-source humanoid robots. Presented K-Bot ($8,999) and Z-Bot at AI Engineer World's Fair 2025."
+- 'https://www.youtube.com/watch?v=bs92rdbvi90'
+summary: Founding engineer at K-Scale Labs, building open-source humanoid robots. Presented K-Bot ($8,999) and Z-Bot at AI Engineer World's Fair 2025.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.55
@@ -20,6 +20,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # JX Mo

@@ -1,30 +1,31 @@
 ---
-title: "On-Device Processing for Voice AI"
+title: On-Device Processing for Voice AI
 category: concepts
 tags:
-  - voice-ai
-  - on-device
-  - edge-computing
-  - raspberry-pi
-  - latency
+- voice-ai
+- on-device
+- edge-computing
+- raspberry-pi
+- latency
 sources:
-  - "[[sources/watchv=e71ytnbcfxy]]"
+- 'https://www.youtube.com/watch?v=e71ytnbcfxy'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/edge-to-cloud]]"
-    type: related_to
-  - target: "[[concepts/voice-ai-latency]]"
-    type: related_to
-  - target: "[[entities/raspberry-pi]]"
-    type: related_to
+- target: '[[concepts/edge-to-cloud]]'
+  type: related_to
+- target: '[[concepts/voice-ai-latency]]'
+  type: related_to
+- target: '[[entities/raspberry-pi]]'
+  type: related_to
+summary: On-Device Processing for Voice AI
 ---
 
 # On-Device Processing for Voice AI

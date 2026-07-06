@@ -1,32 +1,32 @@
 ---
-title: "Fine-Tuning Practices in 2025"
+title: Fine-Tuning Practices in 2025
 category: concepts
 tags:
-  - fine-tuning
-  - lora
-  - qlora
-  - dpo
-  - sft
-  - parameter-efficient
-summary: "The 2025 landscape of model fine-tuning: LoRA/QLoRA dominates parameter-efficient methods, DPO and reinforcement fine-tuning are emerging, and supervised fine-tuning remains the most popular core approach. Fine-tuning prevalence was higher than expected."
+- fine-tuning
+- lora
+- qlora
+- dpo
+- sft
+- parameter-efficient
+summary: 'The 2025 landscape of model fine-tuning: LoRA/QLoRA dominates parameter-efficient methods, DPO and reinforcement fine-tuning are emerging, and supervised fine-tuning remains the most popular core a...'
 sources:
-  - "AIEF2025 - The 2025 AI Engineering Report — Barr Yaron, Amplify - https://www.youtube.com/watch?v=mQ7_Zje7WKE"
-  - "AIEF2025 - Serving Voice AI at $1/hr: Open-source, LoRAs, Latency, Load Balancing - Neil Dwyer, Gabber - https://www.youtube.com/watch?v=rD23-VZZHOo"
+- AIEF2025 - The 2025 AI Engineering Report — Barr Yaron, Amplify - https://www.youtube.com/watch?v=mQ7_Zje7WKE
+- 'AIEF2025 - Serving Voice AI at $1/hr: Open-source, LoRAs, Latency, Load Balancing - Neil Dwyer, Gabber - https://www.youtube.com/watch?v=rD23-VZZHOo'
 provenance:
-  extracted: 0.90
-  inferred: 0.10
+  extracted: 0.9
+  inferred: 0.1
   ambiguous: 0.0
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/rag-pipeline-architecture|RAG Pipeline Architecture]]"
-    type: related_to
-  - target: "[[concepts/llm-evaluation-framework|LLM Evaluation Framework]]"
-    type: related_to
+- target: '[[concepts/rag-pipeline-architecture|RAG Pipeline Architecture]]'
+  type: related_to
+- target: '[[concepts/llm-evaluation-framework|LLM Evaluation Framework]]'
+  type: related_to
 ---
 
 # Fine-Tuning Practices in 2025

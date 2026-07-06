@@ -1,23 +1,23 @@
 ---
-title: "Eval-as-Judge"
+title: Eval-as-Judge
 category: concepts
 tags:
-  - llm-judge
-  - evaluation
-  - ai-testing
-  - self-evaluation
-  - stochastic-evals
+- llm-judge
+- evaluation
+- ai-testing
+- self-evaluation
+- stochastic-evals
 sources:
-  - "AIEF2025 - CI in the Era of AI: From Unit Tests to Stochastic Evals — Nathan Sobo, Zed - https://www.youtube.com/watch?v=WXy8Yy9xGss"
+- 'AIEF2025 - CI in the Era of AI: From Unit Tests to Stochastic Evals — Nathan Sobo, Zed - https://www.youtube.com/watch?v=WXy8Yy9xGss'
 relationships:
-  - target: "[[concepts/stochastic-evals|Stochastic Evals]]"
-    type: related_to
-  - target: "[[concepts/evals-are-not-unit-tests|Evals Are Not Unit Tests]]"
-    type: extends
-  - target: "[[concepts/agentic-evaluators|Agentic Evaluators]]"
-    type: related_to
+- target: '[[concepts/stochastic-evals|Stochastic Evals]]'
+  type: related_to
+- target: '[[concepts/evals-are-not-unit-tests|Evals Are Not Unit Tests]]'
+  type: extends
+- target: '[[concepts/agentic-evaluators|Agentic Evaluators]]'
+  type: related_to
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.82
@@ -25,6 +25,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Eval-as-Judge
 ---
 
 # Eval-as-Judge

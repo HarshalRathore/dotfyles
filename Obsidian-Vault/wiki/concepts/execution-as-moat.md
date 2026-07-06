@@ -1,23 +1,26 @@
 ---
-title: "Execution as Moat"
+title: Execution as Moat
 tags:
-  - concept
-  - ai
-  - strategy
-  - startups
-aliases: [execution is the moat, AI defensibility]
+- concept
+- ai
+- strategy
+- startups
+aliases:
+- execution is the moat
+- AI defensibility
 sources:
-  - "[[sources/watchv=3mzs5gnelzm]]"
-summary: "In AI, defensibility comes from execution — not proprietary technology, data, or first-mover advantage. Shipping a great experience faster than competitors can copy is the only lasting advantage."
+- 'https://www.youtube.com/watch?v=3mzs5gnelzm'
+summary: In AI, defensibility comes from execution — not proprietary technology, data, or first-mover advantage. Shipping a great experience faster than competitors can copy is the only lasting advantage.
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Execution as Moat

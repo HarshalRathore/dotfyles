@@ -1,19 +1,19 @@
 ---
-title: "Stablecoin Settlement"
+title: Stablecoin Settlement
 tags:
-  - stablecoins
-  - payments
-  - blockchain
-  - settlement
-  - fintech
+- stablecoins
+- payments
+- blockchain
+- settlement
+- fintech
 aliases:
-  - USDC settlement
-  - digital dollar settlement
+- USDC settlement
+- digital dollar settlement
 sources:
-  - "[[sources/watchv=axmdsqdoghm]]"
-summary: "Near-instant, irreversible value settlement using fiat-pegged stablecoins on public blockchain networks, enabling global 24/7 transaction finality."
+- 'https://www.youtube.com/watch?v=axmdsqdoghm'
+summary: Near-instant, irreversible value settlement using fiat-pegged stablecoins on public blockchain networks, enabling global 24/7 transaction finality.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.55
@@ -21,6 +21,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Stablecoin Settlement

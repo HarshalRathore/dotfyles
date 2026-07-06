@@ -1,28 +1,29 @@
 ---
-title: "LLM Evaluation Pyramid"
+title: LLM Evaluation Pyramid
 tags:
-  - evaluation
-  - llm
-  - benchmarking
-  - methodology
-  - testing
-  - production
+- evaluation
+- llm
+- benchmarking
+- methodology
+- testing
+- production
 aliases:
-  - Model Evaluation Pyramid
-  - LLM Eval Pyramid
-  - Eval Pyramid
+- Model Evaluation Pyramid
+- LLM Eval Pyramid
+- Eval Pyramid
 sources:
-  - "[[sources/watchv=89nuzmkokik]]"
-summary: "A tiered framework for evaluating LLMs in production, progressing from system performance (base) through formatting, factual accuracy, safety/bias, to custom evals (top) — analogous to the software testing pyramid."
+- 'https://www.youtube.com/watch?v=89nuzmkokik'
+summary: A tiered framework for evaluating LLMs in production, progressing from system performance (base) through formatting, factual accuracy, safety/bias, to custom evals (top) — analogous to the software...
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # LLM Evaluation Pyramid

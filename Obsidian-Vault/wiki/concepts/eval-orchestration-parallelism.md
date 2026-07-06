@@ -1,34 +1,35 @@
 ---
-title: "Eval Orchestration and Parallelism"
+title: Eval Orchestration and Parallelism
 category: concepts
 tags:
-  - evaluation
-  - scaling
-  - orchestration
-  - parallelism
-  - performance
+- evaluation
+- scaling
+- orchestration
+- parallelism
+- performance
 aliases:
-  - eval orchestration
-  - parallel eval execution
+- eval orchestration
+- parallel eval execution
 sources:
-  - "AIEF2025 - How to run Evals at Scale: Thinking beyond Accuracy or Similarity — Muktesh Mishra, Adobe - https://www.youtube.com/watch?v=coKKKKh8Vns"
+- 'AIEF2025 - How to run Evals at Scale: Thinking beyond Accuracy or Similarity — Muktesh Mishra, Adobe - https://www.youtube.com/watch?v=coKKKKh8Vns'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/measure-monitor-analyze-repeat|Measure, Monitor, Analyze, Repeat]]"
-    type: enables
-  - target: "[[concepts/eval-driven-development|Eval-Driven Development]]"
-    type: supports
-  - target: "[[concepts/agent-rails|Agent Rails]]"
-    type: relates_to
+- target: '[[concepts/measure-monitor-analyze-repeat|Measure, Monitor, Analyze, Repeat]]'
+  type: enables
+- target: '[[concepts/eval-driven-development|Eval-Driven Development]]'
+  type: supports
+- target: '[[concepts/agent-rails|Agent Rails]]'
+  type: relates_to
+summary: Eval Orchestration and Parallelism
 ---
 
 # Eval Orchestration and Parallelism

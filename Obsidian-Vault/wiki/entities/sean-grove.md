@@ -1,24 +1,26 @@
 ---
-title: "Sean Grove"
+title: Sean Grove
 tags:
-  - person
-  - openai
-  - alignment
-  - ai-research
-  - speaker
-aliases: [Sean Grove OpenAI]
+- person
+- openai
+- alignment
+- ai-research
+- speaker
+aliases:
+- Sean Grove OpenAI
 sources:
-  - "[[sources/watchv=8rabwkrsec4]]"
-summary: "Alignment researcher at OpenAI, speaker at AI Engineer World's Fair 2025 on the case for specifications as the new code."
+- 'https://www.youtube.com/watch?v=8rabwkrsec4'
+summary: Alignment researcher at OpenAI, speaker at AI Engineer World's Fair 2025 on the case for specifications as the new code.
 provenance:
-  extracted: 0.50
-  inferred: 0.40
-  ambiguous: 0.10
+  extracted: 0.5
+  inferred: 0.4
+  ambiguous: 0.1
 base_confidence: 0.35
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Sean Grove

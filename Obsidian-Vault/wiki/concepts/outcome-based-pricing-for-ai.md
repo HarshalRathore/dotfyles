@@ -1,13 +1,17 @@
 ---
-title: "Outcome-Based Pricing for AI"
+title: Outcome-Based Pricing for AI
 category: concepts
-tags: [pricing, ai-engineering, monetization, product-strategy]
+tags:
+- pricing
+- ai-engineering
+- monetization
+- product-strategy
 sources:
-  - "[[sources/watchv=1c3szbaxomw]]"
-  - "[[sources/watchv=6wqylqb0odc]]"
-  - "[[sources/watchv=hoylz7ivgjo]]"
+- 'https://www.youtube.com/watch?v=1c3szbaxomw'
+- 'https://www.youtube.com/watch?v=6wqylqb0odc'
+- 'https://www.youtube.com/watch?v=hoylz7ivgjo'
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.42
@@ -16,6 +20,7 @@ lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-04
+summary: Outcome-Based Pricing for AI
 ---
 
 # Outcome-Based Pricing for AI

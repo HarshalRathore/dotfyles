@@ -1,22 +1,22 @@
 ---
-title: "AIEF2025 — Does AI Actually Boost Developer Productivity? (100k Devs Study) — Yegor Denisov-Blanch, Stanford"
+title: AIEF2025 — Does AI Actually Boost Developer Productivity? (100k Devs Study) — Yegor Denisov-Blanch, Stanford
 category: references
 tags:
-  - aief2025
-  - ai-productivity
-  - software-engineering
-  - research
-  - methodology
-  - developer-metrics
+- aief2025
+- ai-productivity
+- software-engineering
+- research
+- methodology
+- developer-metrics
 aliases:
-  - AIEF2025 AI Productivity Study
-  - Stanford AI Productivity Study
-  - 100k Devs Study
+- AIEF2025 AI Productivity Study
+- Stanford AI Productivity Study
+- 100k Devs Study
 sources:
-  - "AIEF2025 - Does AI Actually Boost Developer Productivity? (100k Devs Study) - Yegor Denisov-Blanch, Stanford - https://www.youtube.com/watch?v=tbDDYKRFjhk"
-summary: "Stanford's largest study on AI's impact on developer productivity, analyzing 100k+ engineers across 600+ companies. Finds 15-20% net productivity boost from AI, but significant rework costs mask true gains. Critiques commit-based metrics and self-reported surveys."
+- AIEF2025 - Does AI Actually Boost Developer Productivity? (100k Devs Study) - Yegor Denisov-Blanch, Stanford - https://www.youtube.com/watch?v=tbDDYKRFjhk
+summary: Stanford's largest study on AI's impact on developer productivity, analyzing 100k+ engineers across 600+ companies. Finds 15-20% net productivity boost from AI, but significant rework costs mask tr...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.85
@@ -26,16 +26,16 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/yegor-denisov-blanch|Yegor Denisov-Blanch]]"
-    type: authored_by
-  - target: "[[entities/stanford|Stanford University]]"
-    type: affiliated_with
-  - target: "[[concepts/ghost-engineers|Ghost Engineers]]"
-    type: related_to
-  - target: "[[concepts/ai-productivity-measurement|AI Productivity Measurement]]"
-    type: related_to
-  - target: "[[concepts/rework-vs-refactoring|Rework vs Refactoring]]"
-    type: related_to
+- target: '[[entities/yegor-denisov-blanch|Yegor Denisov-Blanch]]'
+  type: authored_by
+- target: '[[entities/stanford|Stanford University]]'
+  type: affiliated_with
+- target: '[[concepts/ghost-engineers|Ghost Engineers]]'
+  type: related_to
+- target: '[[concepts/ai-productivity-measurement|AI Productivity Measurement]]'
+  type: related_to
+- target: '[[concepts/rework-vs-refactoring|Rework vs Refactoring]]'
+  type: related_to
 ---
 
 # AIEF2025 — Does AI Actually Boost Developer Productivity? (100k Devs Study)

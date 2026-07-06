@@ -1,38 +1,38 @@
 ---
-title: "The Evals Spectrum"
+title: The Evals Spectrum
 category: concepts
 tags:
-  - evals
-  - evaluation-methodology
-  - toolbox
-  - llm-as-judge
-  - heuristics
-  - golden-dataset
+- evals
+- evaluation-methodology
+- toolbox
+- llm-as-judge
+- heuristics
+- golden-dataset
 aliases:
-  - evals toolbox
-  - eval types spectrum
-summary: "Evals span a spectrum from cheap, high-scale code-based heuristics to expensive, high-quality human judgment. LLM-as-judge is only one tool — the full toolbox includes code evals, golden datasets, user feedback, and more."
+- evals toolbox
+- eval types spectrum
+summary: Evals span a spectrum from cheap, high-scale code-based heuristics to expensive, high-quality human judgment. LLM-as-judge is only one tool — the full toolbox includes code evals, golden datasets,...
 sources:
-  - "AIEF2025 - Engineering Better Evals: Scalable LLM Evaluation Pipelines That Work — Dat Ngo, Aman Khan, Arize - https://www.youtube.com/watch?v=spvXj9tnWAQ"
+- 'AIEF2025 - Engineering Better Evals: Scalable LLM Evaluation Pipelines That Work — Dat Ngo, Aman Khan, Arize - https://www.youtube.com/watch?v=spvXj9tnWAQ'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/golden-datasets|Golden Datasets]]"
-    type: includes
-  - target: "[[concepts/llm-as-judge-evaluation|LLM as Judge Evaluation]]"
-    type: includes
-  - target: "[[concepts/evals-as-structured-tests|Evals as Structured Tests]]"
-    type: extends
-  - target: "[[concepts/evals-testing-pyramid|Evals Testing Pyramid]]"
-    type: relates_to
+- target: '[[concepts/golden-datasets|Golden Datasets]]'
+  type: includes
+- target: '[[concepts/llm-as-judge-evaluation|LLM as Judge Evaluation]]'
+  type: includes
+- target: '[[concepts/evals-as-structured-tests|Evals as Structured Tests]]'
+  type: extends
+- target: '[[concepts/evals-testing-pyramid|Evals Testing Pyramid]]'
+  type: relates_to
 ---
 
 # The Evals Spectrum

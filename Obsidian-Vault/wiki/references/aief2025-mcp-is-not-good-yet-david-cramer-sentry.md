@@ -1,27 +1,36 @@
 ---
-title: "MCP Is Not Good Yet — David Cramer, Sentry (AIEF2025)"
+title: MCP Is Not Good Yet — David Cramer, Sentry (AIEF2025)
 category: references
-tags: [mcp, aief2025, agents, production, architecture, sentry, tool-calling]
-aliases: [MCP Is Not Good Yet, David Cramer AIEF2025 MCP]
+tags:
+- mcp
+- aief2025
+- agents
+- production
+- architecture
+- sentry
+- tool-calling
+aliases:
+- MCP Is Not Good Yet
+- David Cramer AIEF2025 MCP
 relationships:
-  - target: "[[concepts/model-context-protocol]]"
-    type: extends
-  - target: "[[concepts/enterprise-mcp-deployment]]"
-    type: related_to
-  - target: "[[concepts/context-engineering]]"
-    type: related_to
-  - target: "[[concepts/mcp-gateway-pattern]]"
-    type: related_to
-  - target: "[[concepts/agent-design-patterns]]"
-    type: extends
+- target: '[[concepts/model-context-protocol]]'
+  type: extends
+- target: '[[concepts/enterprise-mcp-deployment]]'
+  type: related_to
+- target: '[[concepts/context-engineering]]'
+  type: related_to
+- target: '[[concepts/mcp-gateway-pattern]]'
+  type: related_to
+- target: '[[concepts/agent-design-patterns]]'
+  type: extends
 sources:
-  - "[[sources/watchv=fci4jt86gsw]]"
-summary: "A grounded, experience-based critique of MCP from the founder of Sentry, arguing that MCP is just a pluggable architecture for agents — not magic — and that the real value is in building agents, not exposing APIs."
+- 'https://www.youtube.com/watch?v=fci4jt86gsw'
+summary: A grounded, experience-based critique of MCP from the founder of Sentry, arguing that MCP is just a pluggable architecture for agents — not magic — and that the real value is in building agents, no...
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 tier: supporting
 created: 2026-07-03

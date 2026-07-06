@@ -1,28 +1,29 @@
 ---
-title: "Ambient Noise Resilience"
+title: Ambient Noise Resilience
 category: concepts
 tags:
-  - voice-ai
-  - noise
-  - background-noise
-  - turn-detection
-  - transcription
+- voice-ai
+- noise
+- background-noise
+- turn-detection
+- transcription
 sources:
-  - "[[sources/watchv=ia4lzjh9sts]]"
+- 'https://www.youtube.com/watch?v=ia4lzjh9sts'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/turn-detection]]"
-    type: related_to
-  - target: "[[entities/daily]]"
-    type: uses
+- target: '[[concepts/turn-detection]]'
+  type: related_to
+- target: '[[entities/daily]]'
+  type: uses
+summary: Ambient Noise Resilience
 ---
 
 # Ambient Noise Resilience

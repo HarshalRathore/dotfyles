@@ -1,23 +1,25 @@
 ---
-title: "AI Regression Testing"
+title: AI Regression Testing
 tags:
-  - ai
-  - testing
-  - regression
-  - evaluation
-  - reliability
+- ai
+- testing
+- regression
+- evaluation
+- reliability
 sources:
-  - "[[sources/watchv=-t6uzyyzkww]]"
-  - "[[sources/watchv=89nuzmkokik]]"
-summary: "In AI applications, changes to prompts, models, logic, or data that fix one issue frequently break something that previously worked — making frequent comprehensive regression testing essential."
+- 'https://www.youtube.com/watch?v=-t6uzyyzkww'
+- 'https://www.youtube.com/watch?v=89nuzmkokik'
+summary: In AI applications, changes to prompts, models, logic, or data that fix one issue frequently break something that previously worked — making frequent comprehensive regression testing essential.
 provenance:
   extracted: 0.78
   inferred: 0.17
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 updated: 2026-07-03
+category: concepts
+created: '2026-07-04T15:08:39.210113+00:00'
 ---
 
 # AI Regression Testing

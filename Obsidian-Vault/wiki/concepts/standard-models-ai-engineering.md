@@ -1,15 +1,15 @@
 ---
-title: "Standard Models in AI Engineering"
+title: Standard Models in AI Engineering
 tags:
-  - standard-model
-  - ai-engineering
-  - architecture
-  - pattern
-  - mental-model
+- standard-model
+- ai-engineering
+- architecture
+- pattern
+- mental-model
 sources:
-  - "[[sources/watchv=ihkyfhu6jey]]"
+- 'https://www.youtube.com/watch?v=ihkyfhu6jey'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.55
@@ -17,6 +17,8 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+category: concepts
+summary: Standard Models in AI Engineering
 ---
 
 # Standard Models in AI Engineering

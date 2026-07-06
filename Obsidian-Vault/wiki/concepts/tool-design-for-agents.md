@@ -1,38 +1,39 @@
 ---
-title: "Tool Design for Agents"
+title: Tool Design for Agents
 category: concepts
 tags:
-  - agent-tools
-  - tool-design
-  - mcp
-  - tool-schemas
-  - enterprise-ai
-  - microservices
+- agent-tools
+- tool-design
+- mcp
+- tool-schemas
+- enterprise-ai
+- microservices
 aliases:
-  - designing tools for agents
-  - agent tool schemas
-  - tool description for agents
+- designing tools for agents
+- agent tool schemas
+- tool description for agents
 sources:
-  - "AIEF2025 - How to Build Planning Agents without losing control - Yogendra Miraje, Factset - https://www.youtube.com/watch?v=sl3icG-IjHo"
+- AIEF2025 - How to Build Planning Agents without losing control - Yogendra Miraje, Factset - https://www.youtube.com/watch?v=sl3icG-IjHo
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/agent-tools|Agent Tools]]"
-    type: extends
-  - target: "[[concepts/model-context-protocol|Model Context Protocol]]"
-    type: uses
-  - target: "[[concepts/blueprint-generator-pattern|Blueprint Generator Pattern]]"
-    type: used_by
-  - target: "[[concepts/natural-language-tool-schemas|Natural Language Tool Schemas]]"
-    type: related_to
+- target: '[[concepts/agent-tools|Agent Tools]]'
+  type: extends
+- target: '[[concepts/model-context-protocol|Model Context Protocol]]'
+  type: uses
+- target: '[[concepts/blueprint-generator-pattern|Blueprint Generator Pattern]]'
+  type: used_by
+- target: '[[concepts/natural-language-tool-schemas|Natural Language Tool Schemas]]'
+  type: related_to
+summary: Tool Design for Agents
 ---
 
 # Tool Design for Agents

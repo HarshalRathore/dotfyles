@@ -1,15 +1,15 @@
 ---
-title: "Model Iteration Feedback Loop"
+title: Model Iteration Feedback Loop
 category: concepts
 tags:
-  - model-development
-  - developer-feedback
-  - iterative-improvement
-  - aief2025
-  - gemini
-summary: "The pattern of releasing model updates based on developer ecosystem feedback, as demonstrated by Google DeepMind's approach to Gemini 2.5 Pro."
+- model-development
+- developer-feedback
+- iterative-improvement
+- aief2025
+- gemini
+summary: The pattern of releasing model updates based on developer ecosystem feedback, as demonstrated by Google DeepMind's approach to Gemini 2.5 Pro.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -19,12 +19,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/model-benchmarks|Model Benchmarks]]"
-    type: related_to
-  - target: "[[entities/google-deepmind|Google DeepMind]]"
-    type: related_to
-  - target: "[[concepts/open-models|Open Models]]"
-    type: related_to
+- target: '[[concepts/model-benchmarks|Model Benchmarks]]'
+  type: related_to
+- target: '[[entities/google-deepmind|Google DeepMind]]'
+  type: related_to
+- target: '[[concepts/open-models|Open Models]]'
+  type: related_to
+sources: []
 ---
 
 # Model Iteration Feedback Loop

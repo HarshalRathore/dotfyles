@@ -1,24 +1,25 @@
 ---
-title: "Task-Specific Evals"
+title: Task-Specific Evals
 tags:
-  - ai
-  - evaluation
-  - metrics
-  - testing
-  - product
+- ai
+- evaluation
+- metrics
+- testing
+- product
 sources:
-  - "[[sources/watchv=-t6uzyyzkww]]"
-  - "[[sources/watchv=6ydpi9ybjbi]]"
-summary: "Generic evaluation metrics (groundedness, factuality, bias) don't measure whether an AI application works for users. Metrics must be reverse-engineered from specific business outcomes and user expectations."
+- 'https://www.youtube.com/watch?v=-t6uzyyzkww'
+- 'https://www.youtube.com/watch?v=6ydpi9ybjbi'
+summary: Generic evaluation metrics (groundedness, factuality, bias) don't measure whether an AI application works for users. Metrics must be reverse-engineered from specific business outcomes and user expe...
 provenance:
   extracted: 0.78
   inferred: 0.17
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Task-Specific Evals

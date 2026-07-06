@@ -1,15 +1,15 @@
 ---
-title: "Document Toolbox"
+title: Document Toolbox
 category: concepts
 tags:
-  - agent
-  - document-parsing
-  - rag
-  - enterprise-data
-  - llamaindex
+- agent
+- document-parsing
+- rag
+- enterprise-data
+- llamaindex
 summary: A generalized set of tool interfaces beyond naive RAG that equip AI agents to understand, search, manipulate, and query over massive amounts of unstructured enterprise documents.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.65
@@ -19,12 +19,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/rag-evaluation|RAG]]"
-    type: extends
-  - target: "[[concepts/document-mcp-server]]"
-    type: implements
-  - target: "[[concepts/assistive-vs-automation-agents]]"
-    type: related_to
+- target: '[[concepts/rag-evaluation|RAG]]'
+  type: extends
+- target: '[[concepts/document-mcp-server]]'
+  type: implements
+- target: '[[concepts/assistive-vs-automation-agents]]'
+  type: related_to
+sources: []
 ---
 
 # Document Toolbox

@@ -4,7 +4,7 @@ category: concepts
 tags: [voice-ai, conversational-ui, natural-language, smart-speaker, human-computer-interaction]
 summary: "The thesis that natural conversation should replace command-based language and GUIs as the primary interface for interacting with AI and smart devices."
 sources:
-  - "[[sources/watchv=l8-5ezsoi5a]]"
+  - "https://www.youtube.com/watch?v=l8-5ezsoi5a"
 provenance:
   extracted: 0.7
   inferred: 0.3

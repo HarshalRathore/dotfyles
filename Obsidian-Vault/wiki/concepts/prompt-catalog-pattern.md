@@ -1,23 +1,24 @@
 ---
-title: "Prompt Catalog Pattern"
+title: Prompt Catalog Pattern
 category: concepts
 tags:
-  - prompt-engineering
-  - ai-agents
-  - templates
-  - generative-ai
-  - system-design
+- prompt-engineering
+- ai-agents
+- templates
+- generative-ai
+- system-design
 sources:
-  - "[[sources/watchv=rofhhjmumcc]]"
+- 'https://www.youtube.com/watch?v=rofhhjmumcc'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Prompt Catalog Pattern
 ---
 # Prompt Catalog Pattern
 

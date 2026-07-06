@@ -9,8 +9,8 @@ tags:
   - reliability
 aliases: [monitor-experiment-test-evaluate loop, Gen AI iteration loop]
 sources:
-  - "[[sources/watchv=1__v4ktv_gw]]"
-  - "[[sources/watchv=6ydpi9ybjbi]]"
+  - "https://www.youtube.com/watch?v=1__v4ktv_gw"
+  - "https://www.youtube.com/watch?v=6ydpi9ybjbi"
   - "AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY"
   - "AIEF2025 - Why should anyone care about Evals? — Manu Goyal, Braintrust - https://www.youtube.com/watch?v=jJ45Yz1lJao"
 summary: "The operational cycle of monitoring, experimentation, testing, and evaluation that determines AI product quality. Product quality is a direct function of iteration speed through this loop."

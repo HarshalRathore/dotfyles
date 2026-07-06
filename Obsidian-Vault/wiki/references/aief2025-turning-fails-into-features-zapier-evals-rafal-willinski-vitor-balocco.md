@@ -1,18 +1,18 @@
 ---
-title: "Turning Fails into Features: Zapier's Hard-Won Eval Lessons — Rafal Willinski, Vitor Balocco, Zapier"
+title: 'Turning Fails into Features: Zapier''s Hard-Won Eval Lessons — Rafal Willinski, Vitor Balocco, Zapier'
 category: references
 tags:
-  - reference
-  - talk
-  - aief2025
-  - zapier
-  - evaluation
-  - ai-agents
-  - feedback
-  - instrumentation
-  - eval-pyramid
+- reference
+- talk
+- aief2025
+- zapier
+- evaluation
+- ai-agents
+- feedback
+- instrumentation
+- eval-pyramid
 sources:
-  - "AIEF2025 - Turning Fails into Features: Zapier's Hard-Won Eval Lessons — Rafal Willinski, Vitor Balocco, Zapier - https://www.youtube.com/watch?v=blrovBxxN9o"
+- 'AIEF2025 - Turning Fails into Features: Zapier''s Hard-Won Eval Lessons — Rafal Willinski, Vitor Balocco, Zapier - https://www.youtube.com/watch?v=blrovBxxN9o'
 provenance:
   extracted: 1.0
   inferred: 0.0
@@ -24,12 +24,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/rafal-willinski|Rafal Willinski]]"
-    type: features
-  - target: "[[entities/vitor-balocco|Vitor Balocco]]"
-    type: features
-  - target: "[[entities/zapier|Zapier]]"
-    type: about
+- target: '[[entities/rafal-willinski|Rafal Willinski]]'
+  type: features
+- target: '[[entities/vitor-balocco|Vitor Balocco]]'
+  type: features
+- target: '[[entities/zapier|Zapier]]'
+  type: about
+summary: 'Turning Fails into Features: Zapier''s Hard-Won Eval Lessons'
 ---
 
 # Turning Fails into Features: Zapier's Hard-Won Eval Lessons

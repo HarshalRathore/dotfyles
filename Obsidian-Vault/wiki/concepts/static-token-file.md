@@ -1,16 +1,25 @@
 ---
 type: concept
-title: "Static Token File"
+title: Static Token File
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/🔐-security-in-kubernetes_0a37d1]]"
+- '[[sources/🔐-security-in-kubernetes_0a37d1]]'
 tags:
-  - security
+- security
 aliases:
-  - Static Token Authentication
+- Static Token Authentication
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Static Token File
 ---
 # Static Token File
 

@@ -4,7 +4,7 @@ category: concepts
 tags: [scheduling, fair-scheduling, priority, sla, work-starvation, multi-tenant]
 summary: Scheduling systems that fairly allocate limited GPU resources across multiple user tiers, preventing work starvation through SLA-aware aging mechanisms.
 sources:
-  - "[[sources/watchv=ey4o9m6aswi]]"
+  - "https://www.youtube.com/watch?v=ey4o9m6aswi"
 provenance:
   extracted: 0.80
   inferred: 0.15
@@ -16,13 +16,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[work-starvation]]"
+  - target: "[[concepts/work-starvation]]"
     type: extends
-  - target: "[[sla-based-scheduling]]"
+  - target: "[[concepts/sla-based-scheduling]]"
     type: extends
-  - target: "[[back-pressure]]"
+  - target: "[[concepts/back-pressure]]"
     type: related_to
-  - target: "[[gpu-scaling]]"
+  - target: "[[concepts/gpu-scaling]]"
     type: related_to
 ---
 

@@ -1,22 +1,25 @@
 ---
-title: "AI Fluency"
+title: AI Fluency
 tags:
-  - concept
-  - ai
-  - organization
-  - culture
-  - skills
-aliases: [organization-wide AI literacy, AI capability building, AI enablement]
+- concept
+- ai
+- organization
+- culture
+- skills
+aliases:
+- organization-wide AI literacy
+- AI capability building
+- AI enablement
 relationships:
-  - target: "[[concepts/t-shaped-ai-talent]]"
-    type: related_to
-  - target: "[[concepts/ai-first-transformation]]"
-    type: related_to
+- target: '[[concepts/t-shaped-ai-talent]]'
+  type: related_to
+- target: '[[concepts/ai-first-transformation]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=3ygrcgzj3yc]]"
-summary: "Building AI understanding and practical capability across the entire organization — not just the AI team — so that every function can leverage AI in their work."
+- 'https://www.youtube.com/watch?v=3ygrcgzj3yc'
+summary: Building AI understanding and practical capability across the entire organization — not just the AI team — so that every function can leverage AI in their work.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.18
   ambiguous: 0.02
 base_confidence: 0.55
@@ -24,6 +27,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # AI Fluency

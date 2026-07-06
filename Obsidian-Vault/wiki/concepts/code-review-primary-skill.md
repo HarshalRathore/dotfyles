@@ -1,28 +1,28 @@
 ---
-title: "Code Review as Primary Skill"
+title: Code Review as Primary Skill
 tags:
-  - code-review
-  - software-engineering
-  - ai-engineering
-  - quality
+- code-review
+- software-engineering
+- ai-engineering
+- quality
 aliases:
-  - code review skill
-  - AI era code review
+- code review skill
+- AI era code review
 relationships:
-  - target: "[[concepts/code-is-artifact]]"
-    type: related_to
-  - target: "[[concepts/burden-of-generated-code]]"
-    type: related_to
-  - target: "[[concepts/ai-regression-testing]]"
-    type: related_to
-  - target: "[[concepts/developer-outer-loop]]"
-    type: related_to
-  - target: "[[entities/graphite]]"
-    type: related_to
+- target: '[[concepts/code-is-artifact]]'
+  type: related_to
+- target: '[[concepts/burden-of-generated-code]]'
+  type: related_to
+- target: '[[concepts/ai-regression-testing]]'
+  type: related_to
+- target: '[[concepts/developer-outer-loop]]'
+  type: related_to
+- target: '[[entities/graphite]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=dc3qoa9wone]]"
-  - "[[sources/watchv=h6mrr5nbtza]]"
-summary: "The argument that as AI generates more code, the ability to read and evaluate code becomes more critical than the ability to write it — and that the entire developer toolchain must become AI-native, with self-driving AI code review capable of matching or exceeding human review efficacy."
+- 'https://www.youtube.com/watch?v=dc3qoa9wone'
+- 'https://www.youtube.com/watch?v=h6mrr5nbtza'
+summary: The argument that as AI generates more code, the ability to read and evaluate code becomes more critical than the ability to write it — and that the entire developer toolchain must become AI-native...
 provenance:
   extracted: 0.78
   inferred: 0.18
@@ -32,6 +32,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Code Review as Primary Skill

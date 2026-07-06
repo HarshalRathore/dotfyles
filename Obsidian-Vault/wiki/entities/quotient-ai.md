@@ -1,15 +1,15 @@
 ---
-title: "Quotient AI"
+title: Quotient AI
 category: entities
 tags:
-  - ai-evaluation
-  - agent-monitoring
-  - evals
-  - aief2025
+- ai-evaluation
+- agent-monitoring
+- evals
+- aief2025
 aliases:
-  - quotient
+- quotient
 sources:
-  - "AIEF2025 - Evaluating AI Search: A Practical Framework for Augmented AI Systems — Quotient AI + Tavily - https://www.youtube.com/watch?v=wRJD0inpmjU"
+- 'AIEF2025 - Evaluating AI Search: A Practical Framework for Augmented AI Systems — Quotient AI + Tavily - https://www.youtube.com/watch?v=wRJD0inpmjU'
 provenance:
   extracted: 0.92
   inferred: 0.06
@@ -21,12 +21,13 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/tavily]]"
-    type: collaborates_with
-  - target: "[[concepts/llm-as-judge-evaluation]]"
-    type: uses
-  - target: "[[concepts/holistic-eval-framework]]"
-    type: developed
+- target: '[[entities/tavily]]'
+  type: collaborates_with
+- target: '[[concepts/llm-as-judge-evaluation]]'
+  type: uses
+- target: '[[concepts/holistic-eval-framework]]'
+  type: developed
+summary: Quotient AI
 ---
 
 # Quotient AI

@@ -1,13 +1,19 @@
 ---
-title: "Scaling Judge Time Compute"
+title: Scaling Judge Time Compute
 category: concepts
-tags: [judge-scaling, compute-scaling, evaluation, reward-modeling, ai-evaluation, inference-time]
-summary: "The philosophy of investing more compute at the judging/evaluation stage — scaling judge time compute — rather than only at the generation stage. Two approaches: train reasoning models or use structured methods."
+tags:
+- judge-scaling
+- compute-scaling
+- evaluation
+- reward-modeling
+- ai-evaluation
+- inference-time
+summary: 'The philosophy of investing more compute at the judging/evaluation stage — scaling judge time compute — rather than only at the generation stage. Two approaches: train reasoning models or use struc...'
 sources:
-  - "[[sources/watchv=omgpvw8tbhc]]"
+- 'https://www.youtube.com/watch?v=omgpvw8tbhc'
 provenance:
   extracted: 0.65
-  inferred: 0.30
+  inferred: 0.3
   ambiguous: 0.05
 base_confidence: 0.65
 lifecycle: draft
@@ -15,16 +21,16 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/llm-as-judge-problems]]"
-    type: addresses
-  - target: "[[concepts/fuzz-testing-ai]]"
-    type: improves
-  - target: "[[concepts/compute-scaling-laws]]"
-    type: related_to
-  - target: "[[concepts/reasoning-models]]"
-    type: related_to
-  - target: "[[concepts/eval-ingredients-task-dataset-score]]"
-    type: extends
+- target: '[[concepts/llm-as-judge-problems]]'
+  type: addresses
+- target: '[[concepts/fuzz-testing-ai]]'
+  type: improves
+- target: '[[concepts/compute-scaling-laws]]'
+  type: related_to
+- target: '[[concepts/reasoning-models]]'
+  type: related_to
+- target: '[[concepts/eval-ingredients-task-dataset-score]]'
+  type: extends
 ---
 
 # Scaling Judge Time Compute

@@ -1,27 +1,27 @@
 ---
-title: "Dashboard Dumpster Diving"
+title: Dashboard Dumpster Diving
 category: concepts
 tags:
-  - evals
-  - dashboard
-  - manual-review
-  - eval-ops
-  - human-in-the-loop
+- evals
+- dashboard
+- manual-review
+- eval-ops
+- human-in-the-loop
 relationships:
-  - target: "[[concepts/manual-vs-automated-evals]]"
-    type: related_to
-  - target: "[[concepts/online-evals]]"
-    type: related_to
-  - target: "[[concepts/agent-evaluations]]"
-    type: related_to
+- target: '[[concepts/manual-vs-automated-evals]]'
+  type: related_to
+- target: '[[concepts/online-evals]]'
+  type: related_to
+- target: '[[concepts/agent-evaluations]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=mc55hdwlq4o]]"
-summary: "The eval workflow problem where evaluation results are presented as static dashboards that humans must manually inspect, interpret, and act on — the bottleneck that automated eval agents like Loop aim to solve."
+- 'https://www.youtube.com/watch?v=mc55hdwlq4o'
+summary: The eval workflow problem where evaluation results are presented as static dashboards that humans must manually inspect, interpret, and act on — the bottleneck that automated eval agents like Loop...
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 tier: supporting
 created: 2026-07-04

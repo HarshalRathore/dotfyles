@@ -4,7 +4,7 @@ category: concepts
 tags: [search, discovery, e-commerce, user-experience, recommendation, llm]
 summary: "The capability to help users find new and related products beyond their explicit search query — enabling serendipitous discovery like a physical grocery store experience."
 sources:
-  - "[[sources/watchv=pjavhm_3ljg]]"
+  - "https://www.youtube.com/watch?v=pjavhm_3ljg"
 provenance:
   extracted: 0.80
   inferred: 0.15

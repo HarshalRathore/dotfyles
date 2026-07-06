@@ -7,7 +7,7 @@ tags:
   - software-engineering
   - aief2025
 sources:
-  - "[[sources/watchv=mi83but_23o]]"
+  - "https://www.youtube.com/watch?v=mi83but_23o"
 summary: "The pattern where AI agents consistently take over the most tedious, repetitive, boilerplate work first — freeing humans for creative tasks. Observed from tab completion through cross-file diagnosis."
 provenance:
   extracted: 0.80

@@ -1,19 +1,19 @@
 ---
-title: "Trajectory Evaluation"
+title: Trajectory Evaluation
 category: concepts
 tags:
-  - evaluation
-  - agents
-  - trajectory
-  - multi-step
-  - adaptive-evals
+- evaluation
+- agents
+- trajectory
+- multi-step
+- adaptive-evals
 aliases:
-  - agent trajectory eval
-  - path evaluation
+- agent trajectory eval
+- path evaluation
 sources:
-  - "AIEF2025 - How to run Evals at Scale: Thinking beyond Accuracy or Similarity — Muktesh Mishra, Adobe - https://www.youtube.com/watch?v=coKKKKh8Vns"
+- 'AIEF2025 - How to run Evals at Scale: Thinking beyond Accuracy or Similarity — Muktesh Mishra, Adobe - https://www.youtube.com/watch?v=coKKKKh8Vns'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
 base_confidence: 0.85
@@ -23,12 +23,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/adaptive-evals|Adaptive Evals]]"
-    type: component_of
-  - target: "[[concepts/evals-testing-pyramid|Evals Testing Pyramid]]"
-    type: relates_to
-  - target: "[[concepts/agent-rails|Agent Rails]]"
-    type: evaluates
+- target: '[[concepts/adaptive-evals|Adaptive Evals]]'
+  type: component_of
+- target: '[[concepts/evals-testing-pyramid|Evals Testing Pyramid]]'
+  type: relates_to
+- target: '[[concepts/agent-rails|Agent Rails]]'
+  type: evaluates
+summary: Trajectory Evaluation
 ---
 
 # Trajectory Evaluation

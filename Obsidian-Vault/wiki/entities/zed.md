@@ -1,33 +1,34 @@
 ---
-title: "Zed"
+title: Zed
 category: entities
 tags:
-  - code-editor
-  - ai-native
-  - rust
-  - gpu-shaders
-  - agentic-editing
-  - stochastic-evals
+- code-editor
+- ai-native
+- rust
+- gpu-shaders
+- agentic-editing
+- stochastic-evals
 sources:
-  - "AIEF2025 - CI in the Era of AI: From Unit Tests to Stochastic Evals — Nathan Sobo, Zed - https://www.youtube.com/watch?v=WXy8Yy9xGss"
+- 'AIEF2025 - CI in the Era of AI: From Unit Tests to Stochastic Evals — Nathan Sobo, Zed - https://www.youtube.com/watch?v=WXy8Yy9xGss'
 relationships:
-  - target: "[[entities/nathan-sobo|Nathan Sobo]]"
-    type: implements
-  - target: "[[entities/claude-code|Claude Code]]"
-    type: related_to
-  - target: "[[entities/vs-code|VS Code]]"
-    type: replaces
-  - target: "[[concepts/stochastic-evals|Stochastic Evals]]"
-    type: uses
+- target: '[[entities/nathan-sobo|Nathan Sobo]]'
+  type: implements
+- target: '[[entities/claude-code|Claude Code]]'
+  type: related_to
+- target: '[[entities/vs-code|VS Code]]'
+  type: replaces
+- target: '[[concepts/stochastic-evals|Stochastic Evals]]'
+  type: uses
 provenance:
   extracted: 0.95
   inferred: 0.03
   ambiguous: 0.02
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Zed
 ---
 
 # Zed

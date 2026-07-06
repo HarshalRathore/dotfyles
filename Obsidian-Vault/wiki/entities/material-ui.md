@@ -1,32 +1,33 @@
 ---
-title: "Material UI"
+title: Material UI
 category: entities
 tags:
-  - entity
-  - framework
-  - ui-library
-  - react
-  - aief2025
+- entity
+- framework
+- ui-library
+- react
+- aief2025
 aliases:
-  - MUI
-  - material-ui
+- MUI
+- material-ui
 sources:
-  - "AIEF2025 - Vibe Coding at Scale: Customizing AI Assistants for Enterprise Environments - Harald Kirshner, - https://www.youtube.com/watch?v=i1uPAN6uW4s"
+- 'AIEF2025 - Vibe Coding at Scale: Customizing AI Assistants for Enterprise Environments - Harald Kirshner, - https://www.youtube.com/watch?v=i1uPAN6uW4s'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/react|React]]"
-    type: built-for
-  - target: "[[concepts/vibe-coding|Vibe Coding]]"
-    type: used-by
+- target: '[[entities/react|React]]'
+  type: built-for
+- target: '[[concepts/vibe-coding|Vibe Coding]]'
+  type: used-by
+summary: Material UI
 ---
 
 # Material UI

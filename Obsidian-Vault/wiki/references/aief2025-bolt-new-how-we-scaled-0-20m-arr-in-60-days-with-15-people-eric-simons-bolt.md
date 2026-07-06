@@ -1,42 +1,42 @@
 ---
-title: "Bolt.new: How we scaled $0-20m ARR in 60 days, with 15 people — Eric Simons, Bolt"
+title: 'Bolt.new: How we scaled $0-20m ARR in 60 days, with 15 people — Eric Simons, Bolt'
 category: references
 tags:
-  - aief2025
-  - bolt
-  - stackblitz
-  - startup-growth
-  - product-market-fit
-  - lean-team
-  - arr
+- aief2025
+- bolt
+- stackblitz
+- startup-growth
+- product-market-fit
+- lean-team
+- arr
 aliases:
-  - AIEF2025 - Bolt.new ARR
+- AIEF2025 - Bolt.new ARR
 sources:
-  - "AIEF2025 - Bolt.new: How we scaled $0-20m ARR in 60 days, with 15 people — Eric Simons, Bolt - https://www.youtube.com/watch?v=s8RM8uYxkoY"
-summary: "Eric Simons of Bolt.new shares how StackBlitz's team of <20 people scaled ARR from $0.7M to $20M in 60 days after launching Bolt.new, covering team structure, prioritization, and the philosophy of small teams with high context per head."
+- 'AIEF2025 - Bolt.new: How we scaled $0-20m ARR in 60 days, with 15 people — Eric Simons, Bolt - https://www.youtube.com/watch?v=s8RM8uYxkoY'
+summary: Eric Simons of Bolt.new shares how StackBlitz's team of <20 people scaled ARR from $0.7M to $20M in 60 days after launching Bolt.new, covering team structure, prioritization, and the philosophy of...
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/eric-simons|Eric Simons]]"
-    type: related_to
-  - target: "[[entities/bolt.new|Bolt.new]]"
-    type: related_to
-  - target: "[[entities/stackblitz|StackBlitz]]"
-    type: related_to
-  - target: "[[concepts/product-market-fit|Product-Market Fit]]"
-    type: related_to
-  - target: "[[concepts/small-team-scaling|Small-Team Scaling]]"
-    type: related_to
-  - target: "[[misc/ai-engineer-worlds-fair-2025|AI Engineer World's Fair 2025]]"
-    type: hosted
+- target: '[[entities/eric-simons|Eric Simons]]'
+  type: related_to
+- target: '[[entities/bolt.new|Bolt.new]]'
+  type: related_to
+- target: '[[entities/stackblitz|StackBlitz]]'
+  type: related_to
+- target: '[[concepts/product-market-fit|Product-Market Fit]]'
+  type: related_to
+- target: '[[concepts/small-team-scaling|Small-Team Scaling]]'
+  type: related_to
+- target: '[[misc/ai-engineer-worlds-fair-2025|AI Engineer World''s Fair 2025]]'
+  type: hosted
 ---
 
 # Bolt.new: How we scaled $0-20m ARR in 60 days, with 15 people — Eric Simons, Bolt

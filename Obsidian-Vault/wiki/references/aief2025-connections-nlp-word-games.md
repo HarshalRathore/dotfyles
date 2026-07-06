@@ -1,38 +1,39 @@
 ---
-title: "AIEF2025 - New York Times' Connections: A Case Study on NLP in Word Games — Shafik Quoraishee, NYT Games"
+title: 'AIEF2025 - New York Times'' Connections: A Case Study on NLP in Word Games — Shafik Quoraishee, NYT Games'
 tags:
-  - aief2025
-  - connections
-  - nlp
-  - word-games
-  - llm-benchmarking
-  - graph-coloring
-  - talk
+- aief2025
+- connections
+- nlp
+- word-games
+- llm-benchmarking
+- graph-coloring
+- talk
 sources:
-  - "[[sources/watchv=p_uhfgh4j9y]]"
-summary: "NYT Connections game presented as an NLP benchmark testing LLMs' abstract reasoning and overfitting resistance via graph coloring and System 1/System 2 thinking."
+- 'https://www.youtube.com/watch?v=p_uhfgh4j9y'
+summary: NYT Connections game presented as an NLP benchmark testing LLMs' abstract reasoning and overfitting resistance via graph coloring and System 1/System 2 thinking.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/shafik-quoraishee]]"
-    type: authored_by
-  - target: "[[entities/nyt-games]]"
-    type: about
-  - target: "[[concepts/connections-game]]"
-    type: introduces
-  - target: "[[concepts/graph-coloring]]"
-    type: applies
-  - target: "[[concepts/system-1-system-2-thinking]]"
-    type: applies
-  - target: "[[concepts/abstract-reasoning]]"
-    type: evaluates
+- target: '[[entities/shafik-quoraishee]]'
+  type: authored_by
+- target: '[[entities/nyt-games]]'
+  type: about
+- target: '[[concepts/connections-game]]'
+  type: introduces
+- target: '[[concepts/graph-coloring]]'
+  type: applies
+- target: '[[concepts/system-1-system-2-thinking]]'
+  type: applies
+- target: '[[concepts/abstract-reasoning]]'
+  type: evaluates
+category: references
 ---
 
 # AIEF2025 — New York Times' Connections: A Case Study on NLP in Word Games

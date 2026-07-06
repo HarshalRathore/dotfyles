@@ -1,12 +1,19 @@
 ---
-title: "Tesla Optimus"
+title: Tesla Optimus
 category: entities
-tags: [robotics, humanoid, tesla, automation, optimus]
-aliases: [Tesla Optimus robot, Optimus humanoid]
+tags:
+- robotics
+- humanoid
+- tesla
+- automation
+- optimus
+aliases:
+- Tesla Optimus robot
+- Optimus humanoid
 sources:
-  - "AIEF2025 - Rishabh Garg, Tesla Optimus — Challenges in High Performance Robotics Systems - https://www.youtube.com/watch?v=bCGbuyv8PMk"
+- AIEF2025 - Rishabh Garg, Tesla Optimus — Challenges in High Performance Robotics Systems - https://www.youtube.com/watch?v=bCGbuyv8PMk
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.85
@@ -16,14 +23,15 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/tesla|Tesla]]"
-    type: developed_by
-  - target: "[[concepts/open-source-humanoid-robotics|Open-Source Humanoid Robotics]]"
-    type: contrasts_with
-  - target: "[[concepts/can-bus-robotics|CAN Bus in Robotics]]"
-    type: uses
-  - target: "[[concepts/real-time-os-constraints|Real-Time OS Constraints]]"
-    type: constrained_by
+- target: '[[entities/tesla|Tesla]]'
+  type: developed_by
+- target: '[[concepts/open-source-humanoid-robotics|Open-Source Humanoid Robotics]]'
+  type: contrasts_with
+- target: '[[concepts/can-bus-robotics|CAN Bus in Robotics]]'
+  type: uses
+- target: '[[concepts/real-time-os-constraints|Real-Time OS Constraints]]'
+  type: constrained_by
+summary: Tesla Optimus
 ---
 
 # Tesla Optimus

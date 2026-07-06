@@ -1,37 +1,37 @@
 ---
-title: "Agent Capability Tiers"
+title: Agent Capability Tiers
 category: concepts
 tags:
-  - ai-agents
-  - capability-evolution
-  - software-engineering
-  - aief2025
-  - reinforcement-learning
+- ai-agents
+- capability-evolution
+- software-engineering
+- aief2025
+- reinforcement-learning
 sources:
-  - "[[sources/watchv=mi83but_23o]]"
-  - "[[sources/watchv=pbhm2qknu10]]"
-summary: "Agent capabilities evolve through discrete tiers: tab completion → repetitive migrations → isolated bug fixes → cross-file diagnosis. RL-trained models (O3, Claude Code) exhibit naturally agentic behavior at higher tiers."
+- 'https://www.youtube.com/watch?v=mi83but_23o'
+- 'https://www.youtube.com/watch?v=pbhm2qknu10'
+summary: 'Agent capabilities evolve through discrete tiers: tab completion → repetitive migrations → isolated bug fixes → cross-file diagnosis. RL-trained models (O3, Claude Code) exhibit naturally agentic b...'
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/moore-law-for-ai-agents]]"
-    type: related_to
-  - target: "[[concepts/agent-interfaces-evolution]]"
-    type: related_to
-  - target: "[[concepts/playbook-pattern]]"
-    type: related_to
-  - target: "[[concepts/repetitive-migrations]]"
-    type: related_to
-  - target: "[[concepts/reinforcement-learning-at-scale]]"
-    type: related_to
+- target: '[[concepts/moore-law-for-ai-agents]]'
+  type: related_to
+- target: '[[concepts/agent-interfaces-evolution]]'
+  type: related_to
+- target: '[[concepts/playbook-pattern]]'
+  type: related_to
+- target: '[[concepts/repetitive-migrations]]'
+  type: related_to
+- target: '[[concepts/reinforcement-learning-at-scale]]'
+  type: related_to
 ---
 
 # Agent Capability Tiers

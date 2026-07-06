@@ -1,31 +1,32 @@
 ---
-title: "360Brew: LLM-based Personalized Ranking and Recommendation — Hamed and Maziar, LinkedIn AI"
+title: '360Brew: LLM-based Personalized Ranking and Recommendation — Hamed and Maziar, LinkedIn AI'
 tags:
-  - reference
-  - talk
-  - aief2025
-  - recommendation-systems
-  - llm
-  - personalization
-  - foundation-model
-  - linkedin
-  - 360brew
+- reference
+- talk
+- aief2025
+- recommendation-systems
+- llm
+- personalization
+- foundation-model
+- linkedin
+- 360brew
 aliases:
-  - AIEF2025 360Brew
-  - LinkedIn 360Brew
-  - Hamed Maziar LinkedIn AI
+- AIEF2025 360Brew
+- LinkedIn 360Brew
+- Hamed Maziar LinkedIn AI
 sources:
-  - "[[sources/watchv=u0s6cfzay5c]]"
-summary: "Hamed and Maziar (LinkedIn AI) present 360Brew, a single LLM-based foundation model (~150B params distilled to 3B) that replaces dozens of disjoint recommendation models at LinkedIn, with zero-shot capability, in-context learning for cold-start, and instruction-following for user-directed personalization."
+- 'https://www.youtube.com/watch?v=u0s6cfzay5c'
+summary: Hamed and Maziar (LinkedIn AI) present 360Brew, a single LLM-based foundation model (~150B params distilled to 3B) that replaces dozens of disjoint recommendation models at LinkedIn, with zero-shot...
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.75
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+category: references
 ---
 
 # 360Brew: LLM-based Personalized Ranking and Recommendation — Hamed and Maziar, LinkedIn AI

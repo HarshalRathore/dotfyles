@@ -1,10 +1,16 @@
 ---
 title: Speculative Decoding
 category: concepts
-tags: [ai, inference, optimization, speculative, efficiency, aief2025]
-summary: "An inference optimization technique that allows non-transformer architectures (like CoreKey 72B) to be applied to existing transformer models, enabling 1000x lower inference costs without replacing deployed models."
+tags:
+- ai
+- inference
+- optimization
+- speculative
+- efficiency
+- aief2025
+summary: An inference optimization technique that allows non-transformer architectures (like CoreKey 72B) to be applied to existing transformer models, enabling 1000x lower inference costs without replacing...
 sources:
-  - "[[sources/watchv=l8-5ezsoi5a]]"
+- 'https://www.youtube.com/watch?v=l8-5ezsoi5a'
 provenance:
   extracted: 0.7
   inferred: 0.25
@@ -15,10 +21,10 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/scaling-is-dead-thesis]]"
-    type: related_to
-  - target: "[[entities/corekey-72b]]"
-    type: related_to
+- target: '[[concepts/scaling-is-dead-thesis]]'
+  type: related_to
+- target: '[[entities/corekey-72b]]'
+  type: related_to
 ---
 
 # Speculative Decoding

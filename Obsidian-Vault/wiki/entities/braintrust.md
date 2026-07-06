@@ -1,28 +1,28 @@
 ---
-title: "Braintrust"
+title: Braintrust
+category: entities
 tags:
-  - company
-  - evaluation
-  - ai-platform
-  - tooling
-  - observability
+- company
+- evaluation
+- ai-platform
+- tooling
+- observability
 sources:
-  - "[[sources/watchv=6ydpi9ybjbi]]"
-  - "[[sources/watchv=9in-cpnp7xg]]"
-  - "[[sources/watchv=cqguvf6gsrm]]"
-  - "[[sources/watchv=mc55hdwlq4o]]"
-summary: "Enterprise AI evaluation and observability platform providing prompt management, automated evals, production logging, online scoring, and human-in-the-loop review workflows."
-- "AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY"
-  - "AIEF2025 - Why should anyone care about Evals? — Manu Goyal, Braintrust - https://www.youtube.com/watch?v=jJ45Yz1lJao"
+- https://www.youtube.com/watch?v=6ydpi9ybjbi
+- https://www.youtube.com/watch?v=9in-cpnp7xg
+- https://www.youtube.com/watch?v=cqguvf6gsrm
+- https://www.youtube.com/watch?v=mc55hdwlq4o
+summary: Enterprise AI evaluation and observability platform providing prompt management, automated evals, production logging, online scoring, and human-in-the-loop review workflows.
 provenance:
-  extracted: 0.60
-  inferred: 0.35
-  ambiguous: 0.05
-base_confidence: 0.45
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+base_confidence: 0.42
 lifecycle: draft
+lifecycle_changed: '2026-07-06'
 tier: supporting
-created: 2026-07-03
-updated: 2026-07-05
+created: '2026-07-03'
+updated: '2026-07-05'
 ---
 
 # Braintrust

@@ -1,17 +1,17 @@
 ---
-title: "LLM Usage Heterogeneity"
+title: LLM Usage Heterogeneity
 category: concepts
 tags:
-  - llm
-  - multi-use
-  - adoption
-  - ai-engineering
-summary: "The finding that LLM usage is highly heterogeneous: 94% of LLM users employ at least two use cases, 82% use at least three, spanning internal and external applications across code generation, writing, content generation, and more."
+- llm
+- multi-use
+- adoption
+- ai-engineering
+summary: 'The finding that LLM usage is highly heterogeneous: 94% of LLM users employ at least two use cases, 82% use at least three, spanning internal and external applications across code generation, writi...'
 sources:
-  - "AIEF2025 - The 2025 AI Engineering Report — Barr Yaron, Amplify - https://www.youtube.com/watch?v=mQ7_Zje7WKE"
+- AIEF2025 - The 2025 AI Engineering Report — Barr Yaron, Amplify - https://www.youtube.com/watch?v=mQ7_Zje7WKE
 provenance:
-  extracted: 0.90
-  inferred: 0.10
+  extracted: 0.9
+  inferred: 0.1
   ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
@@ -20,10 +20,10 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/ai-adoption-acceleration|AI Adoption Acceleration]]"
-    type: related_to
-  - target: "[[concepts/multimodal-production-gap|Multimodal Production Gap]]"
-    type: related_to
+- target: '[[concepts/ai-adoption-acceleration|AI Adoption Acceleration]]'
+  type: related_to
+- target: '[[concepts/multimodal-production-gap|Multimodal Production Gap]]'
+  type: related_to
 ---
 
 # LLM Usage Heterogeneity

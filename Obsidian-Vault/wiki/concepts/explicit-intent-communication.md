@@ -1,15 +1,15 @@
 ---
-title: "Explicit Intent Communication"
+title: Explicit Intent Communication
 tags:
-  - agent-communication
-  - prompt-crafting
-  - copilot
-  - human-ai-collaboration
-  - aief2025
-  - github
-summary: "The principle of communicating intent explicitly to AI coding agents — don't be passive-aggressive, don't expect agents to infer unstated requirements, and share context incrementally through natural conversation."
+- agent-communication
+- prompt-crafting
+- copilot
+- human-ai-collaboration
+- aief2025
+- github
+summary: The principle of communicating intent explicitly to AI coding agents — don't be passive-aggressive, don't expect agents to infer unstated requirements, and share context incrementally through natur...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -19,12 +19,14 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/ai-pair-programmer-analogy|AI Pair Programmer Analogy]]"
-    type: implements
-  - target: "[[concepts/code-quality-as-context|Code Quality as Context]]"
-    type: complements
-  - target: "[[concepts/prompt-crafting|Prompt Crafting]]"
-    type: extends
+- target: '[[concepts/ai-pair-programmer-analogy|AI Pair Programmer Analogy]]'
+  type: implements
+- target: '[[concepts/code-quality-as-context|Code Quality as Context]]'
+  type: complements
+- target: '[[concepts/prompt-crafting|Prompt Crafting]]'
+  type: extends
+category: concepts
+sources: []
 ---
 
 # Explicit Intent Communication

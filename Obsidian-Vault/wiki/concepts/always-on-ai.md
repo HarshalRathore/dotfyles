@@ -1,22 +1,22 @@
 ---
-title: "Always-On AI"
+title: Always-On AI
 category: concepts
 tags:
-  - ai
-  - ambient
-  - autonomous
-  - windsurf
-  - background
-  - human-ai-ratio
-  - agent-ratio
-summary: "The vision of AI working continuously in the background — researching, preparing, and acting autonomously — targeting a 99% agent / 1% human ratio where the AI only asks for final approval. An extension of ambient agents into the software engineering domain."
+- ai
+- ambient
+- autonomous
+- windsurf
+- background
+- human-ai-ratio
+- agent-ratio
+summary: The vision of AI working continuously in the background — researching, preparing, and acting autonomously — targeting a 99% agent / 1% human ratio where the AI only asks for final approval. An exte...
 sources:
-  - "[[sources/watchv=jvunpl5qo8q]]"
+- 'https://www.youtube.com/watch?v=jvunpl5qo8q'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting

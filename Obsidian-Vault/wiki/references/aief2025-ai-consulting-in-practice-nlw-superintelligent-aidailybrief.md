@@ -1,19 +1,19 @@
 ---
-title: "AI Consulting in Practice – NLW, Superintelligent, @AIDailyBrief"
+title: AI Consulting in Practice – NLW, Superintelligent, @AIDailyBrief
 category: references
 tags:
-  - aief2025
-  - enterprise-ai
-  - ai-adoption
-  - roi
-  - consulting
+- aief2025
+- enterprise-ai
+- ai-adoption
+- roi
+- consulting
 aliases:
-  - AI Consulting in Practice
-  - NLW AIEF2025 Talk
+- AI Consulting in Practice
+- NLW AIEF2025 Talk
 sources:
-  - "AIEF2025 - AI Consulting in Practice – NLW, Superintelligent, @AIDailyBrief - https://www.youtube.com/watch?v=ehQFj6VmuI8"
+- AIEF2025 - AI Consulting in Practice – NLW, Superintelligent, @AIDailyBrief - https://www.youtube.com/watch?v=ehQFj6VmuI8
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.85
@@ -23,14 +23,15 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/aief2025|AIEF2025]]"
-    type: hosted
-  - target: "[[concepts/enterprise-ai-adoption|Enterprise AI Adoption]]"
-    type: related_to
-  - target: "[[concepts/agent-adoption-surge|Agent Adoption Surge]]"
-    type: related_to
-  - target: "[[concepts/roi-measurement-challenges|ROI Measurement Challenges]]"
-    type: related_to
+- target: '[[entities/aief2025|AIEF2025]]'
+  type: hosted
+- target: '[[concepts/enterprise-ai-adoption|Enterprise AI Adoption]]'
+  type: related_to
+- target: '[[concepts/agent-adoption-surge|Agent Adoption Surge]]'
+  type: related_to
+- target: '[[concepts/roi-measurement-challenges|ROI Measurement Challenges]]'
+  type: related_to
+summary: AI Consulting in Practice – NLW, Superintelligent, @AIDailyBrief
 ---
 
 # AI Consulting in Practice – NLW, Superintelligent, @AIDailyBrief

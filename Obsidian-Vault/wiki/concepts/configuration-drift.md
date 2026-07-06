@@ -1,34 +1,34 @@
 ---
-title: "Configuration Drift"
+title: Configuration Drift
 category: concepts
 tags:
-  - configuration-drift
-  - network-operations
-  - validation
-  - testing
-  - knowledge-graph
+- configuration-drift
+- network-operations
+- validation
+- testing
+- knowledge-graph
 aliases:
-  - Drift Detection
+- Drift Detection
 sources:
-  - "AIEF2025 - Multi Agent AI and Network Knowledge Graphs for Change — Ola Mabadeje, Cisco - https://www.youtube.com/watch?v=m0dxZ-NDKHo"
-summary: "The detection and comparison of deviations between a network device's actual configuration and its desired or baseline configuration, performed by AI agents querying the raw configuration layer of a network knowledge graph."
+- AIEF2025 - Multi Agent AI and Network Knowledge Graphs for Change — Ola Mabadeje, Cisco - https://www.youtube.com/watch?v=m0dxZ-NDKHo
+summary: The detection and comparison of deviations between a network device's actual configuration and its desired or baseline configuration, performed by AI agents querying the raw configuration layer of...
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/layered-graph-architecture|Layered Graph Architecture]]"
-    type: operates_at_layer
-  - target: "[[concepts/network-knowledge-graph|Network Knowledge Graph]]"
-    type: uses
-  - target: "[[concepts/digital-twin|Digital Twin]]"
-    type: tested_on
+- target: '[[concepts/layered-graph-architecture|Layered Graph Architecture]]'
+  type: operates_at_layer
+- target: '[[concepts/network-knowledge-graph|Network Knowledge Graph]]'
+  type: uses
+- target: '[[concepts/digital-twin|Digital Twin]]'
+  type: tested_on
 ---
 
 # Configuration Drift

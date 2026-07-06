@@ -1,37 +1,40 @@
 ---
-title: "AIEF2025 - Training Agentic Reasoners — Will Brown, Prime Intellect"
+title: AIEF2025 - Training Agentic Reasoners — Will Brown, Prime Intellect
 category: references
 tags:
-  - aief2025
-  - reinforcement-learning
-  - reasoning
-  - agents
-  - deepseek
-  - openai
-  - o3
-  - grpo
-  - ppo
-  - dpo
-  - speaker
-aliases: [aief2025-training-agentic-reasoners, training-agentic-reasoners, will-brown-aief2025]
+- aief2025
+- reinforcement-learning
+- reasoning
+- agents
+- deepseek
+- openai
+- o3
+- grpo
+- ppo
+- dpo
+- speaker
+aliases:
+- aief2025-training-agentic-reasoners
+- training-agentic-reasoners
+- will-brown-aief2025
 sources:
-  - "[[sources/watchv=pbhm2qknu10]]"
-summary: "Will Brown (Prime Intellect) at AIEF2025 argues that reasoning and agents are the same thing, both are interaction loops with evaluations. Covers RL at scale, PPO/GRPO/DPO comparison, and the custom model moat thesis."
+- 'https://www.youtube.com/watch?v=pbhm2qknu10'
+summary: Will Brown (Prime Intellect) at AIEF2025 argues that reasoning and agents are the same thing, both are interaction loops with evaluations. Covers RL at scale, PPO/GRPO/DPO comparison, and the custo...
 provenance:
   extracted: 0.95
   inferred: 0.03
   ambiguous: 0.02
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/will-brown|Will Brown]]"
-    type: related_to
-  - target: "[[entities/prime-intellect|Prime Intellect]]"
-    type: related_to
+- target: '[[entities/will-brown|Will Brown]]'
+  type: related_to
+- target: '[[entities/prime-intellect|Prime Intellect]]'
+  type: related_to
 ---
 
 # Training Agentic Reasoners — Will Brown, Prime Intellect

@@ -1,22 +1,22 @@
 ---
-title: "Graph Analytics for RAG Curation"
+title: Graph Analytics for RAG Curation
 tags:
-  - rag
-  - graph-analytics
-  - community-detection
-  - knowledge-graph
-  - curation
-  - retrieval
+- rag
+- graph-analytics
+- community-detection
+- knowledge-graph
+- curation
+- retrieval
 aliases:
-  - Connect Cluster Curate
-  - Graph Data Science for RAG
-  - RAG Grounding Data Curation
+- Connect Cluster Curate
+- Graph Data Science for RAG
+- RAG Grounding Data Curation
 sources:
-  - "[[sources/watchv=ggxaqvbwbl4]]"
-  - "[[sources/aief2025-graph-intelligence-alison-andreas-neo4j]]"
-summary: "Applying graph data science algorithms — KNN similarity, community detection, PageRank, betweenness centrality — to curate and improve RAG grounding data quality at scale."
+- 'https://www.youtube.com/watch?v=ggxaqvbwbl4'
+- '[[references/aief2025-graph-intelligence-alison-andreas-neo4j]]'
+summary: Applying graph data science algorithms — KNN similarity, community detection, PageRank, betweenness centrality — to curate and improve RAG grounding data quality at scale.
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.42
@@ -24,6 +24,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Graph Analytics for RAG Curation

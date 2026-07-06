@@ -1,16 +1,16 @@
 ---
-title: "Complex Document Understanding"
+title: Complex Document Understanding
 category: concepts
 tags:
-  - document-parsing
-  - llm
-  - lvm
-  - enterprise-data
-  - accuracy
-summary: The challenge of parsing complex human-designed documents (tables, charts, irregular layouts) for machine consumption, and the hybrid approach of interleaving LLMs/LVMs with traditional parsing techniques.
+- document-parsing
+- llm
+- lvm
+- enterprise-data
+- accuracy
+summary: The challenge of parsing complex human-designed documents (tables, charts, irregular layouts) for machine consumption, and the hybrid approach of interleaving LLMs/LVMs with traditional parsing tec...
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.65
 lifecycle: draft
@@ -19,12 +19,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/parsing]]"
-    type: extends
-  - target: "[[entities/llamaparse]]"
-    type: implements
-  - target: "[[concepts/document-toolbox]]"
-    type: related_to
+- target: '[[concepts/parsing]]'
+  type: extends
+- target: '[[entities/llamaparse]]'
+  type: implements
+- target: '[[concepts/document-toolbox]]'
+  type: related_to
+sources: []
 ---
 
 # Complex Document Understanding

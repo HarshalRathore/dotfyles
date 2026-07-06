@@ -1,28 +1,35 @@
 ---
 title: Profit-First Mentality
 category: concepts
-tags: [profit, lean-startup, financial-discipline, startup, decision-making, kpi]
+tags:
+- profit
+- lean-startup
+- financial-discipline
+- startup
+- decision-making
+- kpi
 sources:
-  - AIEF2025 - The New Lean Startup — Sid Bendre, Olive - https://www.youtube.com/watch?v=pQz-PgA1eJw
+- AIEF2025 - The New Lean Startup — Sid Bendre, Olive - https://www.youtube.com/watch?v=pQz-PgA1eJw
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.07
   ambiguous: 0.03
 base_confidence: 0.92
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
-created: 2026-07-05T00:00:00Z
-updated: 2026-07-05T00:00:00Z
+created: 2026-07-05 00:00:00+00:00
+updated: 2026-07-05 00:00:00+00:00
 relationships:
-  - target: "[[concepts/lean-startup-playbook]]"
-    type: related_to
-  - target: "[[concepts/tiny-teams]]"
-    type: related_to
-  - target: "[[concepts/kpi-alignment]]"
-    type: related_to
-  - target: "[[concepts/scaling-is-dead-thesis]]"
-    type: related_to
+- target: '[[concepts/lean-startup-playbook]]'
+  type: related_to
+- target: '[[concepts/tiny-teams]]'
+  type: related_to
+- target: '[[concepts/kpi-alignment]]'
+  type: related_to
+- target: '[[concepts/scaling-is-dead-thesis]]'
+  type: related_to
+summary: Profit-First Mentality
 ---
 
 # Profit-First Mentality

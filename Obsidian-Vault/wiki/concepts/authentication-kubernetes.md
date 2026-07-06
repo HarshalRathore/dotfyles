@@ -1,17 +1,26 @@
 ---
 type: concept
-title: "Authentication (Kubernetes)"
+title: Authentication (Kubernetes)
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/🔐-security-in-kubernetes_0a37d1]]"
+- '[[sources/🔐-security-in-kubernetes_0a37d1]]'
 tags:
-  - security
+- security
 aliases:
-  - Kubernetes API Authentication
-  - K8s API Authentication
+- Kubernetes API Authentication
+- K8s API Authentication
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Authentication (Kubernetes)
 ---
 # Authentication (Kubernetes)
 
@@ -40,7 +49,7 @@ Authentication in Kubernetes is the process that determines **who** is allowed t
 ## Related Concepts
 - [[concepts/authorization-kubernetes]]
 - [[concepts/serviceaccounts]]
-- [[x-509-client-certificates]]
+- [[concepts/x-509-client-certificates]]
 - [[concepts/human-vs-machine-users]]
 
 

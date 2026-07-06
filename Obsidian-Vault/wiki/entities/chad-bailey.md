@@ -1,15 +1,15 @@
 ---
-title: "Chad Bailey"
+title: Chad Bailey
 category: entities
 tags:
-  - person
-  - voice-ai
-  - real-time
-  - daily
-  - pipecat
-  - speaker
+- person
+- voice-ai
+- real-time
+- daily
+- pipecat
+- speaker
 sources:
-  - "AIEF2025 - Realtime Conversational Video with Pipecat and Tavus — Chad Bailey and Brian Johnson, Daily & Tavus - https://www.youtube.com/watch?v=ujt0da9Z29Q"
+- AIEF2025 - Realtime Conversational Video with Pipecat and Tavus — Chad Bailey and Brian Johnson, Daily & Tavus - https://www.youtube.com/watch?v=ujt0da9Z29Q
 provenance:
   extracted: 0.95
   inferred: 0.03
@@ -21,14 +21,15 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/daily]]"
-    type: related_to
-  - target: "[[entities/pipe-cat]]"
-    type: related_to
-  - target: "[[entities/brian-johnson]]"
-    type: related_to
-  - target: "[[entities/tavus]]"
-    type: related_to
+- target: '[[entities/daily]]'
+  type: related_to
+- target: '[[entities/pipe-cat]]'
+  type: related_to
+- target: '[[entities/brian-johnson]]'
+  type: related_to
+- target: '[[entities/tavus]]'
+  type: related_to
+summary: Chad Bailey
 ---
 
 # Chad Bailey

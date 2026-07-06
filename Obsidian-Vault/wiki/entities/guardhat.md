@@ -1,24 +1,26 @@
 ---
-title: "Guardhat"
+title: Guardhat
 tags:
-  - company
-  - iot
-  - worker-safety
-  - ai
-  - case-study
-aliases: [Guardhat worker safety]
+- company
+- iot
+- worker-safety
+- ai
+- case-study
+aliases:
+- Guardhat worker safety
 sources:
-  - "[[sources/watchv=6tpm4m1yxhk]]"
-summary: "Worker safety company with an AI-driven IoT platform using wearable devices to predict and prevent incidents in hazardous environments. Case study for Telemetrak's X-TOPS trust framework where GPS drift caused 70% false positive alerts."
+- 'https://www.youtube.com/watch?v=6tpm4m1yxhk'
+summary: Worker safety company with an AI-driven IoT platform using wearable devices to predict and prevent incidents in hazardous environments. Case study for Telemetrak's X-TOPS trust framework where GPS...
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Guardhat

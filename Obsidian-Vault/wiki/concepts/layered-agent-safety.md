@@ -1,30 +1,35 @@
 ---
-title: "Layered Agent Safety"
+title: Layered Agent Safety
 category: concepts
 tags:
-  - safety
-  - agents
-  - defense-in-depth
-  - risk-mitigation
-  - application-layer
-aliases: [defense in depth agents, layered safety, agent safety layers, safety layers]
+- safety
+- agents
+- defense-in-depth
+- risk-mitigation
+- application-layer
+aliases:
+- defense in depth agents
+- layered safety
+- agent safety layers
+- safety layers
 relationships:
-  - target: "[[concepts/agent-evaluation-pipeline]]"
-    type: related_to
-  - target: "[[concepts/ai-red-teaming]]"
-    type: extends
+- target: '[[concepts/agent-evaluation-pipeline]]'
+  type: related_to
+- target: '[[concepts/ai-red-teaming]]'
+  type: extends
 sources:
-  - "[[sources/watchv=j4vpq2i0qze]]"
-  - "[[sources/watchv=jhjkgramfiu]]"
+- 'https://www.youtube.com/watch?v=j4vpq2i0qze'
+- 'https://www.youtube.com/watch?v=jhjkgramfiu'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.78
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Layered Agent Safety
 ---
 
 # Layered Agent Safety

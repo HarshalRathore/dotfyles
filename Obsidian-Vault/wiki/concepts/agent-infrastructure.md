@@ -3,7 +3,8 @@ title: Agent Infrastructure
 category: concepts
 tags: [agent-infrastructure, agent-primitives, agent-runtime, agent-observability, agent-memory, code-execution]
 aliases: [agent infrastructure primitives, what agents need]
-summary: The six infrastructure primitives that AI agents need to succeed: long runtimes, pause/resume, decoupled I/O, introspection/self-observability, memory, and code execution.
+summary: >-
+  The six infrastructure primitives that AI agents need to succeed: long runtimes, pause/resume, decoupled I/O, introspection/self-observability, memory, and code execution.
 sources:
   - "AIEF2025 - Conquering Agent Chaos — Rick Blalock, Agentuity - https://www.youtube.com/watch?v=yASxPZ-tZe0"
 provenance:

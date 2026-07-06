@@ -1,16 +1,17 @@
 ---
-title: "Jason Liu (567)"
+title: Jason Liu (567)
 category: entities
 tags:
-  - person
-  - ai
-  - 567
-aliases: [jason-liu]
+- person
+- ai
+- 567
+aliases:
+- jason-liu
 sources:
-  - "AIEF2025 - How to look at your data — Jeff Huber (Chroma) + Jason Liu (567) - https://www.youtube.com/watch?v=jryZvCuA0Uc"
+- AIEF2025 - How to look at your data — Jeff Huber (Chroma) + Jason Liu (567) - https://www.youtube.com/watch?v=jryZvCuA0Uc
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.85
 lifecycle: draft
@@ -19,10 +20,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/conversation-output-analysis|Conversation Output Analysis]]"
-    type: related_to
-  - target: "[[concepts/implicit-feedback-signal|Implicit Feedback Signals]]"
-    type: related_to
+- target: '[[concepts/conversation-output-analysis|Conversation Output Analysis]]'
+  type: related_to
+- target: '[[concepts/implicit-feedback-signal|Implicit Feedback Signals]]'
+  type: related_to
+summary: Jason Liu (567)
 ---
 
 # Jason Liu (567)

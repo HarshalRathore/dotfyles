@@ -1,31 +1,32 @@
 ---
-title: "Eval Baseline First"
+title: Eval Baseline First
 category: concepts
 tags:
-  - evals
-  - methodology
-  - getting-started
-  - production-ai
-  - braintrust
+- evals
+- methodology
+- getting-started
+- production-ai
+- braintrust
 sources:
-  - "AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY"
+- AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/eval-flywheel-effect|Eval Flywheel Effect]]"
-    type: precedes
-  - target: "[[concepts/eval-quality-matrix|Eval Quality Matrix]]"
-    type: enables
-  - target: "[[concepts/eval-driven-development|Eval-Driven Development]]"
-    type: relates_to
+- target: '[[concepts/eval-flywheel-effect|Eval Flywheel Effect]]'
+  type: precedes
+- target: '[[concepts/eval-quality-matrix|Eval Quality Matrix]]'
+  type: enables
+- target: '[[concepts/eval-driven-development|Eval-Driven Development]]'
+  type: relates_to
+summary: Eval Baseline First
 ---
 
 # Eval Baseline First

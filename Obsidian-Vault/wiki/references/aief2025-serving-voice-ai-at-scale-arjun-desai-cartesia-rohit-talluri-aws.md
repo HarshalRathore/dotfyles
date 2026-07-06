@@ -1,17 +1,17 @@
 ---
-title: "Serving Voice AI at Scale — Arjun Desai (Cartesia) & Rohit Talluri (AWS)"
+title: Serving Voice AI at Scale — Arjun Desai (Cartesia) & Rohit Talluri (AWS)
 category: references
 tags:
-  - voice-ai
-  - enterprise-ai
-  - cartesia
-  - aws
-  - aief2025
-  - tts
-  - state-space-models
-  - sonic-2
-  - voice-controllability
-summary: Arjun Desai (Cartesia) and Rohit Talluri (AWS) at AIEF2025 on building real-time voice AI for enterprise, covering state space models, Sonic 2, voice quality/latency/controllability pillars, and the voice marketplace.
+- voice-ai
+- enterprise-ai
+- cartesia
+- aws
+- aief2025
+- tts
+- state-space-models
+- sonic-2
+- voice-controllability
+summary: Arjun Desai (Cartesia) and Rohit Talluri (AWS) at AIEF2025 on building real-time voice AI for enterprise, covering state space models, Sonic 2, voice quality/latency/controllability pillars, and th...
 provenance:
   extracted: 0.95
   inferred: 0.04
@@ -23,20 +23,20 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 sources:
-  - "AIEF2025 - Serving Voice AI at Scale — Arjun Desai (Cartesia) & Rohit Talluri (AWS) - https://www.youtube.com/watch?v=knH3fmGAteQ"
+- AIEF2025 - Serving Voice AI at Scale — Arjun Desai (Cartesia) & Rohit Talluri (AWS) - https://www.youtube.com/watch?v=knH3fmGAteQ
 relationships:
-  - target: "[[entities/cartesia]]"
-    type: related_to
-  - target: "[[entities/sonic-2]]"
-    type: related_to
-  - target: "[[entities/aws]]"
-    type: related_to
-  - target: "[[concepts/voice-ai-latency]]"
-    type: related_to
-  - target: "[[concepts/voice-controllability]]"
-    type: related_to
-  - target: "[[concepts/state-space-models]]"
-    type: related_to
+- target: '[[entities/cartesia]]'
+  type: related_to
+- target: '[[entities/sonic-2]]'
+  type: related_to
+- target: '[[entities/aws]]'
+  type: related_to
+- target: '[[concepts/voice-ai-latency]]'
+  type: related_to
+- target: '[[concepts/voice-controllability]]'
+  type: related_to
+- target: '[[concepts/state-space-models]]'
+  type: related_to
 ---
 
 # Serving Voice AI at Scale — Arjun Desai (Cartesia) & Rohit Talluri (AWS)

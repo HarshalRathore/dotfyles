@@ -1,19 +1,19 @@
 ---
-title: "Explicit Feedback Strategies"
+title: Explicit Feedback Strategies
 category: concepts
 tags:
-  - feedback
-  - user-experience
-  - evals
-  - ai-agents
-  - ux-design
+- feedback
+- user-experience
+- evals
+- ai-agents
+- ux-design
 aliases:
-  - explicit feedback
-  - feedback collection
+- explicit feedback
+- feedback collection
 sources:
-  - "AIEF2025 - Turning Fails into Features: Zapier's Hard-Won Eval Lessons — Rafal Willinski, Vitor Balocco, Zapier - https://www.youtube.com/watch?v=blrovBxxN9o"
+- 'AIEF2025 - Turning Fails into Features: Zapier''s Hard-Won Eval Lessons — Rafal Willinski, Vitor Balocco, Zapier - https://www.youtube.com/watch?v=blrovBxxN9o'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -23,10 +23,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/implicit-feedback-signal|Implicit Feedback Signals]]"
-    type: contrasts-with
-  - target: "[[concepts/eval-flywheel-effect|Eval Flywheel Effect]]"
-    type: feeds-into
+- target: '[[concepts/implicit-feedback-signal|Implicit Feedback Signals]]'
+  type: contrasts-with
+- target: '[[concepts/eval-flywheel-effect|Eval Flywheel Effect]]'
+  type: feeds-into
+summary: Explicit Feedback Strategies
 ---
 
 # Explicit Feedback Strategies

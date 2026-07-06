@@ -1,14 +1,23 @@
 ---
-title: "Luke Alvoeiro"
-created: "2026-07-01"
-updated: "2026-07-01"
+title: Luke Alvoeiro
+created: '2026-07-01'
+updated: '2026-07-01'
 tags:
-  - "multi-agent"
-  - "ai-engineering"
+- multi-agent
+- ai-engineering
 sources:
-  - "[[sources/web-youtube-com-watch-ow1we5pzk-o]]"
+- '[[misc/web-youtube-com-watch-ow1we5pzk-o]]'
 aliases:
-  - lukealvoeiro
+- lukealvoeiro
+category: entities
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Luke Alvoeiro
 ---
 # Luke Alvoeiro
 
@@ -31,4 +40,4 @@ Luke Alvoeiro is a software engineer and multi-agent systems architect. He creat
 
 ## Sources
 
-- [[web-youtube-com-watch-v-flutukqyhnq]] — AI Engineer 2026 talk: "The Multi-Agent Architecture That Actually Ships"
+- [[misc/web-youtube-com-watch-v-flutukqyhnq]] — AI Engineer 2026 talk: "The Multi-Agent Architecture That Actually Ships"

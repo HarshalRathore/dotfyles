@@ -11,7 +11,7 @@ relationships:
   - target: "[[concepts/ai-team-anatomy]]"
     type: related_to
 sources:
-  - "[[sources/watchv=sbuxrluvrwk]]"
+  - "https://www.youtube.com/watch?v=sbuxrluvrwk"
 summary: "A spectrum classifying companies by their relationship to technology: technology companies, verticalized solutions, and tech-enabled companies — each with distinct challenges and hiring strategies."
 provenance:
   extracted: 0.95

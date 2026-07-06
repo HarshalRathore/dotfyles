@@ -1,28 +1,29 @@
 ---
-title: "Canopy Labs"
+title: Canopy Labs
 category: entities
 tags:
-  - organization
-  - company
-  - tts
-  - voice-ai
-  - open-source
+- organization
+- company
+- tts
+- voice-ai
+- open-source
 aliases:
-  - Canopy Labs
-  - canopy-labs
+- Canopy Labs
+- canopy-labs
 summary: Open-source AI company that created Orpheus TTS, a LLaMA-based text-to-speech model. Team includes Elias, Amu, and others.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/orpheus-tts]]"
-    type: implements
+- target: '[[entities/orpheus-tts]]'
+  type: implements
+sources: []
 ---
 
 # Canopy Labs

@@ -1,16 +1,16 @@
 ---
-title: "ServiceNow"
+title: ServiceNow
 category: entities
 tags:
-  - entity
-  - company
-  - itsm
-  - it-service-management
-  - enterprise-software
+- entity
+- company
+- itsm
+- it-service-management
+- enterprise-software
 aliases:
-  - Service Now
+- Service Now
 sources:
-  - "AIEF2025 - Multi Agent AI and Network Knowledge Graphs for Change — Ola Mabadeje, Cisco - https://www.youtube.com/watch?v=m0dxZ-NDKHo"
+- AIEF2025 - Multi Agent AI and Network Knowledge Graphs for Change — Ola Mabadeje, Cisco - https://www.youtube.com/watch?v=m0dxZ-NDKHo
 provenance:
   extracted: 0.95
   inferred: 0.04
@@ -22,10 +22,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/natural-language-interface|Natural Language Interface]]"
-    type: implements
-  - target: "[[concepts/multi-agent-workflows|Multi-Agent Workflows]]"
-    type: uses
+- target: '[[concepts/natural-language-interface|Natural Language Interface]]'
+  type: implements
+- target: '[[concepts/multi-agent-workflows|Multi-Agent Workflows]]'
+  type: uses
+summary: ServiceNow
 ---
 
 # ServiceNow

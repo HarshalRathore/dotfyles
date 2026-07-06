@@ -14,7 +14,7 @@ tags:
   - stack-maturity
 summary: Thor Schaeff — Developer Experience engineer at ElevenLabs, focused on the conversational AI agents platform. Speaker at AIEF2025.
 sources:
-  - "[[sources/watchv=mptcbazn84a]]"
+  - "https://www.youtube.com/watch?v=mptcbazn84a"
   - "AIEF2025 - Milliseconds to Magic: Real‑Time Workflows using the Gemini Live API and Pipecat - https://www.youtube.com/watch?v=fWY1FQwpWkY"
 provenance:
   extracted: 0.95

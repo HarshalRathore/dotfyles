@@ -1,19 +1,25 @@
 ---
-title: "CIAM for AI: Authn/Authz for Agents — Michael Grinich, CEO of WorkOS"
+title: 'CIAM for AI: Authn/Authz for Agents — Michael Grinich, CEO of WorkOS'
 tags:
-  - reference
-  - talk
-  - aief2025
-  - identity
-  - auth
-  - agents
+- reference
+- talk
+- aief2025
+- identity
+- auth
+- agents
 sources:
-  - "[[sources/watchv=d4dswf-__rm]]"
-summary: "WorkOS CEO Michael Grinich at AI Engineer World's Fair 2025 on why AI agents need first-class identity, four architecture patterns (persona shadowing, delegation chains, capability tokens, human escalation), and emerging standards (OAuth 2.1+MCP, UMA, GNAP, OIDC-A, Verifiable Credentials)."
+- 'https://www.youtube.com/watch?v=d4dswf-__rm'
+summary: WorkOS CEO Michael Grinich at AI Engineer World's Fair 2025 on why AI agents need first-class identity, four architecture patterns (persona shadowing, delegation chains, capability tokens, human es...
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: references
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
 ---
 # CIAM for AI: Authn/Authz for Agents — Michael Grinich
 

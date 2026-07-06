@@ -1,35 +1,35 @@
 ---
-title: "System Prompt Security"
+title: System Prompt Security
 category: concepts
 tags:
-  - system-prompt
-  - security
-  - prompt-engineering
-  - adversarial
-  - agent-security
+- system-prompt
+- security
+- prompt-engineering
+- adversarial
+- agent-security
 aliases:
-  - system prompt security
-  - prompt security
+- system prompt security
+- prompt security
 sources:
-  - "AIEF2025 - How we hacked YC Spring 2025 batch's AI agents — Rene Brandel, Casco - https://www.youtube.com/watch?v=kv-QAuKWllQ"
-summary: "System prompts reveal agent capabilities and constraints. Attackers extract system prompts to discover tool definitions and invert instructions. The prompt itself is not a vulnerability but an intelligence source for attackers."
+- AIEF2025 - How we hacked YC Spring 2025 batch's AI agents — Rene Brandel, Casco - https://www.youtube.com/watch?v=kv-QAuKWllQ
+summary: System prompts reveal agent capabilities and constraints. Attackers extract system prompts to discover tool definitions and invert instructions. The prompt itself is not a vulnerability but an inte...
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/prompt-injection|Prompt Injection]]"
-    type: related_to
-  - target: "[[concepts/agent-security|Agent Security]]"
-    type: related_to
-  - target: "[[concepts/prompt-engineering-is-dead|Prompt Engineering Is Dead]]"
-    type: related_to
+- target: '[[concepts/prompt-injection|Prompt Injection]]'
+  type: related_to
+- target: '[[concepts/agent-security|Agent Security]]'
+  type: related_to
+- target: '[[concepts/prompt-engineering-is-dead|Prompt Engineering Is Dead]]'
+  type: related_to
 ---
 
 # System Prompt Security

@@ -1,17 +1,17 @@
 ---
-title: "Zach Blumenfeld"
+title: Zach Blumenfeld
 tags:
-  - person
-  - neo4j
-  - graphrag
-  - ai-engineering
-  - aief2025
+- person
+- neo4j
+- graphrag
+- ai-engineering
+- aief2025
 aliases:
-  - Zach Blumenfeld
+- Zach Blumenfeld
 sources:
-  - "[[sources/watchv=j-9ebjbxcbg]]"
-  - "[[sources/watchv=czm3cw6fdbs]]"
-summary: "Neo4j presenter and educator who delivered two talks at AIEF2025: a hands-on GraphRAG workshop and an architectural talk on agentic GraphRAG using Neo4j, MCP, and Pydantic-based entity extraction."
+- 'https://www.youtube.com/watch?v=j-9ebjbxcbg'
+- 'https://www.youtube.com/watch?v=czm3cw6fdbs'
+summary: 'Neo4j presenter and educator who delivered two talks at AIEF2025: a hands-on GraphRAG workshop and an architectural talk on agentic GraphRAG using Neo4j, MCP, and Pydantic-based entity extraction.'
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -22,10 +22,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/neo4j|Neo4j]]"
-    type: works_for
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: related_to
+- target: '[[entities/neo4j|Neo4j]]'
+  type: works_for
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: related_to
+category: entities
 ---
 
 # Zach Blumenfeld

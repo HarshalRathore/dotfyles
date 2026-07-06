@@ -1,19 +1,19 @@
 ---
-title: "Multi-File Modification Challenge"
+title: Multi-File Modification Challenge
 category: concepts
 tags:
-  - code-generation
-  - agentic-coding
-  - multi-file
-  - repository-understanding
-  - graphrag
+- code-generation
+- agentic-coding
+- multi-file
+- repository-understanding
+- graphrag
 aliases:
-  - multi-file editing
-  - cross-file modification
+- multi-file editing
+- cross-file modification
 sources:
-  - "AIEF2025 - GraphRAG methods to create optimized LLM context windows for Retrieval — Jonathan Larson, Microsoft - https://www.youtube.com/watch?v=c5qJHr3DnT4"
+- AIEF2025 - GraphRAG methods to create optimized LLM context windows for Retrieval — Jonathan Larson, Microsoft - https://www.youtube.com/watch?v=c5qJHr3DnT4
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -23,12 +23,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/graphrag-code|GraphRAG for Code]]"
-    type: solved-by
-  - target: "[[concepts/code-translation|Code Translation with LLMs]]"
-    type: related_to
-  - target: "[[concepts/agent-rails|Agent Rails]]"
-    type: relates_to
+- target: '[[concepts/graphrag-code|GraphRAG for Code]]'
+  type: solved-by
+- target: '[[concepts/code-translation|Code Translation with LLMs]]'
+  type: related_to
+- target: '[[concepts/agent-rails|Agent Rails]]'
+  type: relates_to
+summary: Multi-File Modification Challenge
 ---
 
 # Multi-File Modification Challenge

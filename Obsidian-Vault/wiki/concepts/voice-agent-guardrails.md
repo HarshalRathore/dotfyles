@@ -1,16 +1,16 @@
 ---
-title: "Voice Agent Guardrails"
+title: Voice Agent Guardrails
 tags:
-  - guardrails
-  - voice
-  - ai
-  - safety
-  - real-time
+- guardrails
+- voice
+- ai
+- safety
+- real-time
 sources:
-  - "[[sources/watchv=-oxiljtjxqu]]"
-summary: "Safety and guardrail patterns for real-time voice agents, emphasizing async execution and debounce strategies to work within audio latency windows."
+- 'https://www.youtube.com/watch?v=-oxiljtjxqu'
+summary: Safety and guardrail patterns for real-time voice agents, emphasizing async execution and debounce strategies to work within audio latency windows.
 provenance:
-  extracted: 0.60
+  extracted: 0.6
   inferred: 0.35
   ambiguous: 0.05
 base_confidence: 0.42
@@ -18,6 +18,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Voice Agent Guardrails

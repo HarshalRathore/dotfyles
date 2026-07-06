@@ -1,37 +1,37 @@
 ---
-title: "Agent-to-Agent Communication (MCP, A2A)"
+title: Agent-to-Agent Communication (MCP, A2A)
 category: concepts
 tags:
-  - agent-to-agent
-  - mcp
-  - a2a
-  - agentic-workflows
-  - aief2025
-  - itamar-friedman
-  - qodo
-  - model-context-protocol
-summary: MCP and A2A (Agent-to-Agent) protocols enabling different AI agents to communicate and coordinate across SDLC phases — one agent using tools that connect all SDLC parts. Essential for holistic AI workflows.
+- agent-to-agent
+- mcp
+- a2a
+- agentic-workflows
+- aief2025
+- itamar-friedman
+- qodo
+- model-context-protocol
+summary: MCP and A2A (Agent-to-Agent) protocols enabling different AI agents to communicate and coordinate across SDLC phases — one agent using tools that connect all SDLC parts. Essential for holistic AI w...
 sources:
-  - "AIEF2025 - Vibe Coding with Confidence — Itamar Friedman, Qodo - https://www.youtube.com/watch?v=n991Yxo1aOI"
+- AIEF2025 - Vibe Coding with Confidence — Itamar Friedman, Qodo - https://www.youtube.com/watch?v=n991Yxo1aOI
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/model-context-protocol|MCP]]"
-    type: implements
-  - target: "[[concepts/agent-workflows|Agent Workflows]]"
-    type: enables
-  - target: "[[concepts/holistic-ai-sdlc|Holistic AI Across the SDLC]]"
-    type: enables
-  - target: "[[concepts/sdlc-shift-left-ai|SDLC Shift-Left AI]]"
-    type: enables
+- target: '[[concepts/model-context-protocol|MCP]]'
+  type: implements
+- target: '[[concepts/agent-workflows|Agent Workflows]]'
+  type: enables
+- target: '[[concepts/holistic-ai-sdlc|Holistic AI Across the SDLC]]'
+  type: enables
+- target: '[[concepts/sdlc-shift-left-ai|SDLC Shift-Left AI]]'
+  type: enables
 ---
 
 # Agent-to-Agent Communication (MCP, A2A)

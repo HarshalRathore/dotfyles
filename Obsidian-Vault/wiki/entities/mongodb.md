@@ -4,7 +4,7 @@ category: entities
 tags: [company, database, nosql, graph-capabilities, vector-search, ai-infrastructure, agent-memory, aief2025]
 summary: "NoSQL document database company positioning itself as the memory provider for agentic systems, offering multiple retrieval mechanisms for agent memory."
 sources:
-  - "[[sources/watchv=w2hvdb4jbjs]]"
+  - "https://www.youtube.com/watch?v=w2hvdb4jbjs"
 provenance:
   extracted: 0.70
   inferred: 0.20

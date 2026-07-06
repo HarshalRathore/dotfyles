@@ -1,25 +1,26 @@
 ---
-title: "Real World MCPs in GitHub Copilot Agent Mode — Jon Peck, Microsoft"
+title: Real World MCPs in GitHub Copilot Agent Mode — Jon Peck, Microsoft
 category: references
 tags:
-  - aief2025
-  - mcp
-  - github-copilot
-  - agent-mode
-  - jon-peck
-  - microsoft
-  - vscode
+- aief2025
+- mcp
+- github-copilot
+- agent-mode
+- jon-peck
+- microsoft
+- vscode
 sources:
-  - "[[sources/watchv=rkvilz06y08]]"
+- 'https://www.youtube.com/watch?v=rkvilz06y08'
 provenance:
   extracted: 0.95
   inferred: 0.05
-  ambiguous: 0.00
+  ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Real World MCPs in GitHub Copilot Agent Mode — Jon Peck, Microsoft
 ---
 
 # Real World MCPs in GitHub Copilot Agent Mode — Jon Peck, Microsoft

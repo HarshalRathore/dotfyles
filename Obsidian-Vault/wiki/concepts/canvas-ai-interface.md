@@ -1,18 +1,24 @@
 ---
-title: "Canvas as AI Interface"
+title: Canvas as AI Interface
 category: concepts
-tags: [ai, interface, canvas, whiteboard, visual, interaction-design]
+tags:
+- ai
+- interface
+- canvas
+- whiteboard
+- visual
+- interaction-design
 relationships:
-  - target: "[[concepts/visual-agentic-workflows]]"
-    type: related_to
-  - target: "[[concepts/demo-driven-ai-exploration]]"
-    type: extends
+- target: '[[concepts/visual-agentic-workflows]]'
+  type: related_to
+- target: '[[concepts/demo-driven-ai-exploration]]'
+  type: extends
 sources:
-  - "[[sources/watchv=1c2tdpkj6aq]]"
-summary: "Using an infinite digital canvas as the primary interaction surface for AI — where users can draw, embed apps, design agentic pipelines, annotate AI output, and collaborate with AI in a shared visual space."
+- 'https://www.youtube.com/watch?v=1c2tdpkj6aq'
+summary: Using an infinite digital canvas as the primary interaction surface for AI — where users can draw, embed apps, design agentic pipelines, annotate AI output, and collaborate with AI in a shared visu...
 provenance:
   extracted: 0.55
-  inferred: 0.40
+  inferred: 0.4
   ambiguous: 0.05
 base_confidence: 0.45
 lifecycle: draft

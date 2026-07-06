@@ -1,17 +1,17 @@
 ---
-title: "Stateful Environments for Vertical Agents — Josh Purtell, Synth Labs"
+title: Stateful Environments for Vertical Agents — Josh Purtell, Synth Labs
 tags:
-  - reference
-  - talk
-  - ai-engineer
-  - agents
-  - stateful
-  - infrastructure
+- reference
+- talk
+- ai-engineer
+- agents
+- stateful
+- infrastructure
 sources:
-  - "[[sources/watchv=5rmc-monvx0]]"
-summary: "AI Engineer World's Fair 2025 talk on containerizing vertical application logic into resettable, network-bound stateful environments for production agents."
+- 'https://www.youtube.com/watch?v=5rmc-monvx0'
+summary: AI Engineer World's Fair 2025 talk on containerizing vertical application logic into resettable, network-bound stateful environments for production agents.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.42
@@ -19,6 +19,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: references
 ---
 
 # Stateful Environments for Vertical Agents

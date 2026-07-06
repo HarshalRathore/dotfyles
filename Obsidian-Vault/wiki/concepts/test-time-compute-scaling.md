@@ -1,33 +1,34 @@
 ---
-title: "Test-Time Compute Scaling"
+title: Test-Time Compute Scaling
 tags:
-  - concept
-  - ai
-  - inference
-  - reasoning
-  - scaling
+- concept
+- ai
+- inference
+- reasoning
+- scaling
 aliases:
-  - Inference-time compute scaling
-  - Thinking compute scaling
+- Inference-time compute scaling
+- Thinking compute scaling
 relationships:
-  - target: "[[concepts/intelligence-bottlenecks]]"
-    type: extends
-  - target: "[[concepts/thinking-budgets]]"
-    type: related_to
-  - target: "[[concepts/reasoning-time-branching]]"
-    type: related_to
+- target: '[[concepts/intelligence-bottlenecks]]'
+  type: extends
+- target: '[[concepts/thinking-budgets]]'
+  type: related_to
+- target: '[[concepts/reasoning-time-branching]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=8eqo4j2bwkw]]"
-summary: "The paradigm of dynamically scaling computation at inference time to improve model reasoning — inserting a thinking stage where models iteratively process additional tokens before answering, trained via reinforcement learning."
+- 'https://www.youtube.com/watch?v=8eqo4j2bwkw'
+summary: The paradigm of dynamically scaling computation at inference time to improve model reasoning — inserting a thinking stage where models iteratively process additional tokens before answering, traine...
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Test-Time Compute Scaling

@@ -1,29 +1,33 @@
 ---
-title: "Smart Velocity"
+title: Smart Velocity
 tags:
-  - concept
-  - ai
-  - strategy
-  - product-development
-  - methodology
-aliases: [velocity over speed, speed with direction, purposeful velocity]
+- concept
+- ai
+- strategy
+- product-development
+- methodology
+aliases:
+- velocity over speed
+- speed with direction
+- purposeful velocity
 relationships:
-  - target: "[[concepts/execution-as-moat]]"
-    type: related_to
-  - target: "[[concepts/ai-first-transformation]]"
-    type: related_to
+- target: '[[concepts/execution-as-moat]]'
+  type: related_to
+- target: '[[concepts/ai-first-transformation]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=3ygrcgzj3yc]]"
-summary: "The principle that in AI product development, speed only matters when paired with clarity of direction — moving fast with purpose rather than speed for its own sake."
+- 'https://www.youtube.com/watch?v=3ygrcgzj3yc'
+summary: The principle that in AI product development, speed only matters when paired with clarity of direction — moving fast with purpose rather than speed for its own sake.
 provenance:
   extracted: 0.85
   inferred: 0.13
   ambiguous: 0.02
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Smart Velocity

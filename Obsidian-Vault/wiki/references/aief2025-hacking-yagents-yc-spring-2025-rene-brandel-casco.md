@@ -1,23 +1,23 @@
 ---
-title: "How we hacked YC Spring 2025 batch's AI agents — Rene Brandel, Casco"
+title: How we hacked YC Spring 2025 batch's AI agents — Rene Brandel, Casco
 category: references
 tags:
-  - aief2025
-  - agent-security
-  - red-teaming
-  - y-combinator
-  - idor
-  - code-execution
-  - system-prompt
+- aief2025
+- agent-security
+- red-teaming
+- y-combinator
+- idor
+- code-execution
+- system-prompt
 aliases:
-  - AIEF2025 - Hacking YC Agents
-  - Casco YC Agent Hack
+- AIEF2025 - Hacking YC Agents
+- Casco YC Agent Hack
 sources:
-  - "AIEF2025 - How we hacked YC Spring 2025 batch's AI agents — Rene Brandel, Casco - https://www.youtube.com/watch?v=kv-QAuKWllQ"
-summary: "Casco CEO Rene Brandel demonstrates hacking 7 of 16 YC Spring 2025 batch agents in 30 minutes each, revealing three common agent security vulnerabilities: IDOR, code sandbox abuse, and prompt inversion."
+- AIEF2025 - How we hacked YC Spring 2025 batch's AI agents — Rene Brandel, Casco - https://www.youtube.com/watch?v=kv-QAuKWllQ
+summary: 'Casco CEO Rene Brandel demonstrates hacking 7 of 16 YC Spring 2025 batch agents in 30 minutes each, revealing three common agent security vulnerabilities: IDOR, code sandbox abuse, and prompt inver...'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.85
 lifecycle: draft
@@ -26,16 +26,16 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/agent-security|Agent Security]]"
-    type: related_to
-  - target: "[[concepts/idor-insecure-direct-object-reference|IDOR]]"
-    type: related_to
-  - target: "[[concepts/agent-as-user|Agents Act as Users]]"
-    type: related_to
-  - target: "[[entities/casco|Casco]]"
-    type: created_by
-  - target: "[[entities/rene-brandel|Rene Brandel]]"
-    type: presented_by
+- target: '[[concepts/agent-security|Agent Security]]'
+  type: related_to
+- target: '[[concepts/idor-insecure-direct-object-reference|IDOR]]'
+  type: related_to
+- target: '[[concepts/agent-as-user|Agents Act as Users]]'
+  type: related_to
+- target: '[[entities/casco|Casco]]'
+  type: created_by
+- target: '[[entities/rene-brandel|Rene Brandel]]'
+  type: presented_by
 ---
 
 # How we hacked YC Spring 2025 batch's AI agents — Rene Brandel, Casco

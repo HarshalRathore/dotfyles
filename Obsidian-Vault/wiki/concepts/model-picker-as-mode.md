@@ -1,23 +1,24 @@
 ---
-title: "Model Picker as Mode Selector"
+title: Model Picker as Mode Selector
 tags:
-  - ai
-  - ux
-  - design
-  - hci
-  - aief2025
+- ai
+- ux
+- design
+- hci
+- aief2025
 sources:
-  - "[[sources/watchv=bztd0yyagcq]]"
-summary: "The argument that model picker dropdowns in AI applications function as mode selectors — violating Larry Tesler's principle of modeless interfaces by changing how the same inputs map to outputs."
+- 'https://www.youtube.com/watch?v=bztd0yyagcq'
+summary: The argument that model picker dropdowns in AI applications function as mode selectors — violating Larry Tesler's principle of modeless interfaces by changing how the same inputs map to outputs.
 provenance:
   extracted: 0.65
-  inferred: 0.30
+  inferred: 0.3
   ambiguous: 0.05
 base_confidence: 0.55
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Model Picker as Mode Selector

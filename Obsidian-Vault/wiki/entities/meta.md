@@ -1,35 +1,35 @@
 ---
-title: "Meta"
+title: Meta
 category: entities
 tags:
-  - company
-  - ai
-  - llm
-  - open-source
-  - facebook
-  - aief2025
+- company
+- ai
+- llm
+- open-source
+- facebook
+- aief2025
 aliases:
-  - Meta
-  - Meta Platforms
-  - Facebook
+- Meta
+- Meta Platforms
+- Facebook
 sources:
-  - "AIEF2025 - 2025 in LLMs so far, illustrated by Pelicans on Bicycles — Simon Willison - https://www.youtube.com/watch?v=YpY83-kA7Bo"
-summary: "Tech company whose Llama 3.3 70B model was described by Simon Willison as matching the capabilities of its own 405B model, making GPT-4-class AI runnable on a three-year-old consumer laptop for the first time."
+- AIEF2025 - 2025 in LLMs so far, illustrated by Pelicans on Bicycles — Simon Willison - https://www.youtube.com/watch?v=YpY83-kA7Bo
+summary: Tech company whose Llama 3.3 70B model was described by Simon Willison as matching the capabilities of its own 405B model, making GPT-4-class AI runnable on a three-year-old consumer laptop for the...
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/huggingface|Hugging Face]]"
-    type: distributes_through
-  - target: "[[concepts/local-models|Local Models]]"
-    type: enables
+- target: '[[entities/huggingface|Hugging Face]]'
+  type: distributes_through
+- target: '[[concepts/local-models|Local Models]]'
+  type: enables
 ---
 
 # Meta

@@ -1,34 +1,34 @@
 ---
-title: "Writer"
+title: Writer
 category: entities
 tags:
-  - company
-  - ai
-  - enterprise
-  - llm
-  - rag
-  - knowledge-graph
-  - aief2025
+- company
+- ai
+- enterprise
+- llm
+- rag
+- knowledge-graph
+- aief2025
 sources:
-  - "AIEF2025 - When Vectors Break Down: Graph-Based RAG for Dense Enterprise Knowledge - Sam Julien, Writer - https://www.youtube.com/watch?v=XlAIgmi_Vow"
-summary: "End-to-end agentic platform for enterprises. Builds its own models (Palmyra series), graph-based RAG systems, and AI application tools. Serves Fortune 500 and Global 2000 companies in regulated industries."
+- 'AIEF2025 - When Vectors Break Down: Graph-Based RAG for Dense Enterprise Knowledge - Sam Julien, Writer - https://www.youtube.com/watch?v=XlAIgmi_Vow'
+summary: End-to-end agentic platform for enterprises. Builds its own models (Palmyra series), graph-based RAG systems, and AI application tools. Serves Fortune 500 and Global 2000 companies in regulated ind...
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: implements
-  - target: "[[concepts/enterprise-rag|Enterprise RAG]]"
-    type: uses
-  - target: "[[entities/sam-julien|Sam Julien]]"
-    type: employs
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: implements
+- target: '[[concepts/enterprise-rag|Enterprise RAG]]'
+  type: uses
+- target: '[[entities/sam-julien|Sam Julien]]'
+  type: employs
 ---
 
 # Writer

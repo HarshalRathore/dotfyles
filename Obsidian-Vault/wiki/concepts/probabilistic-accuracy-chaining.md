@@ -1,16 +1,16 @@
 ---
-title: "Probabilistic Accuracy Chaining"
+title: Probabilistic Accuracy Chaining
 category: concepts
 tags:
-  - accuracy
-  - chaining
-  - probabilistic
-  - agents
-  - error-compounding
+- accuracy
+- chaining
+- probabilistic
+- agents
+- error-compounding
 sources:
-  - "AIEF2025 - Knowledge Graphs in Litigation Agents — Tom Smoker, WhyHow - https://www.youtube.com/watch?v=yYxr6LdXNWM"
+- AIEF2025 - Knowledge Graphs in Litigation Agents — Tom Smoker, WhyHow - https://www.youtube.com/watch?v=yYxr6LdXNWM
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -20,12 +20,13 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/multi-agent-systems|Multi-Agent Systems]]"
-    type: constrains
-  - target: "[[concepts/decision-making-under-uncertainty|Decision-Making Under Uncertainty]]"
-    type: causes
-  - target: "[[concepts/probabilistic-ai-products|Probabilistic AI Products]]"
-    type: extends
+- target: '[[concepts/multi-agent-systems|Multi-Agent Systems]]'
+  type: constrains
+- target: '[[concepts/decision-making-under-uncertainty|Decision-Making Under Uncertainty]]'
+  type: causes
+- target: '[[concepts/probabilistic-ai-products|Probabilistic AI Products]]'
+  type: extends
+summary: Probabilistic Accuracy Chaining
 ---
 
 # Probabilistic Accuracy Chaining

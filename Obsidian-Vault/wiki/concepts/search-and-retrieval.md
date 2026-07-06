@@ -4,7 +4,7 @@ category: concepts
 tags: [search, retrieval, information-retrieval, e-commerce, ranking, ranking-systems]
 summary: "The end-to-end search pipeline from query understanding through retrieval and ranking — the core infrastructure that determines what users see when they search."
 sources:
-  - "[[sources/watchv=pjavhm_3ljg]]"
+  - "https://www.youtube.com/watch?v=pjavhm_3ljg"
 provenance:
   extracted: 0.70
   inferred: 0.25

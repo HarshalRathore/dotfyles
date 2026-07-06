@@ -1,14 +1,14 @@
 ---
-title: "Core Knowledge Priors"
+title: Core Knowledge Priors
 tags:
-  - ai
-  - reasoning
-  - cognition
-  - benchmarking
-  - arc-agi
+- ai
+- reasoning
+- cognition
+- benchmarking
+- arc-agi
 sources:
-  - "[[sources/watchv=3xmfpwjg8pg]]"
-summary: "Four innate or hardwired reasoning priors (basic math, basic geometry, agentness, objectness) that ARC-AGI benchmarks use to test abstract reasoning without relying on language, symbols, or learned knowledge."
+- 'https://www.youtube.com/watch?v=3xmfpwjg8pg'
+summary: Four innate or hardwired reasoning priors (basic math, basic geometry, agentness, objectness) that ARC-AGI benchmarks use to test abstract reasoning without relying on language, symbols, or learned...
 provenance:
   extracted: 0.75
   inferred: 0.18
@@ -18,6 +18,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 # Core Knowledge Priors
 

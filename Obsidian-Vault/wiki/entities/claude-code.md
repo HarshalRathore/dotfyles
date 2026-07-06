@@ -1,25 +1,26 @@
 ---
-title: "Claude Code"
+title: Claude Code
 tags:
-  - tool
-  - ai-coding-agent
-  - anthropic
-  - claude
-  - terminal
-  - developer-tools
-  - aief2025
+- tool
+- ai-coding-agent
+- anthropic
+- claude
+- terminal
+- developer-tools
+- aief2025
 sources:
-  - "[[sources/watchv=lue8k2jqfkk]]"
-summary: "Anthropic's agentic coding tool that provides low-level terminal access to Claude models. Designed to be unopinionated, working across any terminal, IDE, and GitHub repositories."
+- 'https://www.youtube.com/watch?v=lue8k2jqfkk'
+summary: Anthropic's agentic coding tool that provides low-level terminal access to Claude models. Designed to be unopinionated, working across any terminal, IDE, and GitHub repositories.
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+category: entities
 ---
 
 # Claude Code

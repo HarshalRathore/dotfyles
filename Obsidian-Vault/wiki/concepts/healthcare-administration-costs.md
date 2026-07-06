@@ -10,7 +10,7 @@ tags:
   - rcm
 summary: "The disproportionate cost of healthcare administration — 20% of U.S. GDP attributed to healthcare, with admin growing 30-fold while clinical staff barely doubled over three decades."
 sources:
-  - "[[sources/watchv=tquusn1qsws]]"
+  - "https://www.youtube.com/watch?v=tquusn1qsws"
 provenance:
   extracted: 0.9
   inferred: 0.1

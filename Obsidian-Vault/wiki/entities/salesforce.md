@@ -1,19 +1,19 @@
 ---
-title: "Salesforce"
+title: Salesforce
 category: entities
 tags:
-  - company
-  - enterprise-software
-  - ai
-  - crm
+- company
+- enterprise-software
+- ai
+- crm
 aliases:
-  - Salesforce
-  - SFDC
+- Salesforce
+- SFDC
 sources:
-  - "AIEF2025 - How to Hire AI Engineers when EVERYONE is cheating with AI — Beth Glenfield, DevDay - https://www.youtube.com/watch?v=Zqu0VaJw3vo"
-  - "AIEF2025 - Structuring Modern AI Team — Denys Linkov, Wisedocs - https://www.youtube.com/watch?v=SbUxRluVRwk"
+- AIEF2025 - How to Hire AI Engineers when EVERYONE is cheating with AI — Beth Glenfield, DevDay - https://www.youtube.com/watch?v=Zqu0VaJw3vo
+- AIEF2025 - Structuring Modern AI Team — Denys Linkov, Wisedocs - https://www.youtube.com/watch?v=SbUxRluVRwk
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.75
@@ -23,8 +23,9 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/mark-benioff|Mark Benioff]]"
-    type: led_by
+- target: '[[entities/mark-benioff|Mark Benioff]]'
+  type: led_by
+summary: Salesforce
 ---
 
 # Salesforce

@@ -2,34 +2,34 @@
 title: AIEF2025 — Shipping something to someone always wins
 category: references
 tags:
-  - aief2025
-  - talk
-  - product-development
-  - iteration
-  - feedback-loops
-  - shipping
-summary: Kenneth Auchenberg (ex-Stripe, VSCode) presents his core product principle: building great products is about rapid iterative feedback loops with real users, not big-bang launches. Uses the skateboard-to-car metaphor and practical tactics from his Stripe days.
+- aief2025
+- talk
+- product-development
+- iteration
+- feedback-loops
+- shipping
+summary: 'Kenneth Auchenberg (ex-Stripe, VSCode) presents his core product principle: building great products is about rapid iterative feedback loops with real users, not big-bang launches. Uses the skateboa...'
 sources:
-  - AIEF2025 - Shipping something to someone always wins — Kenneth Auchenberg (ex. Stripe, VSCode) - https://www.youtube.com/watch?v=mHzJhXppwUA
+- AIEF2025 - Shipping something to someone always wins — Kenneth Auchenberg (ex. Stripe, VSCode) - https://www.youtube.com/watch?v=mHzJhXppwUA
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.92
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
-created: 2026-07-05T00:00:00Z
-updated: 2026-07-05T00:00:00Z
+created: 2026-07-05 00:00:00+00:00
+updated: 2026-07-05 00:00:00+00:00
 relationships:
-  - target: "[[entities/kenneth-auchenberg]]"
-    type: related_to
-  - target: "[[entities/stripe]]"
-    type: related_to
-  - target: "[[concepts/rapid-iteration-loop]]"
-    type: related_to
-  - target: "[[concepts/continuous-viable-product]]"
-    type: related_to
+- target: '[[entities/kenneth-auchenberg]]'
+  type: related_to
+- target: '[[entities/stripe]]'
+  type: related_to
+- target: '[[concepts/rapid-iteration-loop]]'
+  type: related_to
+- target: '[[concepts/continuous-viable-product]]'
+  type: related_to
 ---
 
 ## Summary

@@ -1,35 +1,35 @@
 ---
-title: "Veo 3 for Developers — Paige Bailey, Google DeepMind"
+title: Veo 3 for Developers — Paige Bailey, Google DeepMind
 category: references
 tags:
-  - aief2025
-  - video-generation
-  - multimodal
-  - ai-media
-  - google-deepmind
+- aief2025
+- video-generation
+- multimodal
+- ai-media
+- google-deepmind
 aliases:
-  - Veo 3
-  - Veo3
+- Veo 3
+- Veo3
 sources:
-  - "AIEF2025 - Veo 3 for Developers — Paige Bailey, Google DeepMind - https://www.youtube.com/watch?v=hlcAZ2lX_ZI"
-summary: "Paige Bailey (engine lead, DevRel at Google DeepMind) presents Veo 3, Imagine 4, and Lyria 2 — Google DeepMind's latest generative media models with native multimodal audio-video generation, creative control, and responsible AI safeguards."
+- AIEF2025 - Veo 3 for Developers — Paige Bailey, Google DeepMind - https://www.youtube.com/watch?v=hlcAZ2lX_ZI
+summary: Paige Bailey (engine lead, DevRel at Google DeepMind) presents Veo 3, Imagine 4, and Lyria 2 — Google DeepMind's latest generative media models with native multimodal audio-video generation, creati...
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/google-deepmind|Google DeepMind]]"
-    type: related_to
-  - target: "[[entities/paige-bailey|Paige Bailey]]"
-    type: related_to
-  - target: "[[entities/veo-3|Veo 3]]"
-    type: related_to
+- target: '[[entities/google-deepmind|Google DeepMind]]'
+  type: related_to
+- target: '[[entities/paige-bailey|Paige Bailey]]'
+  type: related_to
+- target: '[[entities/veo-3|Veo 3]]'
+  type: related_to
 ---
 
 # Veo 3 for Developers — Paige Bailey, Google DeepMind

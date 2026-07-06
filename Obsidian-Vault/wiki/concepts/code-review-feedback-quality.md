@@ -1,22 +1,26 @@
 ---
-title: "Code Review Feedback Quality"
+title: Code Review Feedback Quality
 category: concepts
-tags: [code-review, feedback-quality, llm-evaluation, ai-code-review]
+tags:
+- code-review
+- feedback-quality
+- llm-evaluation
+- ai-code-review
 relationships:
-  - target: "[[concepts/bug-taxonomy]]"
-    type: extends
-  - target: "[[concepts/high-signal-low-noise]]"
-    type: related_to
-  - target: "[[concepts/self-driving-code-review]]"
-    type: related_to
+- target: '[[concepts/bug-taxonomy]]'
+  type: extends
+- target: '[[concepts/high-signal-low-noise]]'
+  type: related_to
+- target: '[[concepts/self-driving-code-review]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=tswqekftnaw]]"
-summary: "A 2D evaluation framework for code review comments based on LLM capability and human desirability, used to constrain AI output to the intersection of what LLMs can catch and what humans want to receive."
+- 'https://www.youtube.com/watch?v=tswqekftnaw'
+summary: A 2D evaluation framework for code review comments based on LLM capability and human desirability, used to constrain AI output to the intersection of what LLMs can catch and what humans want to rec...
 provenance:
   extracted: 0.75
   inferred: 0.15
-  ambiguous: 0.10
-base_confidence: 0.70
+  ambiguous: 0.1
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting

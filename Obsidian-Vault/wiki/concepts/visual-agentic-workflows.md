@@ -8,7 +8,7 @@ relationships:
   - target: "[[concepts/canvas-ai-interface]]"
     type: uses
 sources:
-  - "[[sources/watchv=1c2tdpkj6aq]]"
+  - "https://www.youtube.com/watch?v=1c2tdpkj6aq"
 summary: "Designing multi-step AI agent workflows as visual graphs on a canvas — each node is an LLM-driven block that accepts inputs, executes a prompt, and pipes outputs to downstream nodes."
 provenance:
   extracted: 0.65

@@ -1,23 +1,24 @@
 ---
-title: "Why You Should Care About AI Interpretability — Mark Bissell, Goodfire AI"
+title: Why You Should Care About AI Interpretability — Mark Bissell, Goodfire AI
 tags:
-  - reference
-  - talk
-  - ai-engineer
-  - interpretability
-  - safety
+- reference
+- talk
+- ai-engineer
+- interpretability
+- safety
 sources:
-  - "[[sources/watchv=6avmhzpjptq]]"
-summary: "Mark Bissell makes the case for mechanistic interpretability as a practical engineering tool — from neural programming and feature steering to model diffs, novel UI paradigms, and scientific knowledge extraction from superhuman models."
+- 'https://www.youtube.com/watch?v=6avmhzpjptq'
+summary: Mark Bissell makes the case for mechanistic interpretability as a practical engineering tool — from neural programming and feature steering to model diffs, novel UI paradigms, and scientific knowle...
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: references
 ---
 
 # Why You Should Care About AI Interpretability — Mark Bissell, Goodfire AI
@@ -61,7 +62,7 @@ Bissell demonstrates **Paint with Ember** (paint.goodfire.ai), an interpretabili
 
 Beyond engineering and UI, interpretability enables:
 - **Explainable outputs** — critical for regulated industries (finance, healthcare, law) ^[extracted]
-- **Scientific knowledge extraction** — working with the [[entities/arc-institute|ARC Institute]] on [[entities/arc-institute#EVO2|EVO2]], a superhuman genomics model, to extract biological concepts the model has learned that humans don't yet know. Also working with a major health system to identify novel biomarkers of disease from genomics models. ^[extracted]
+- **Scientific knowledge extraction** — working with the [[entities/arc-institute|ARC Institute]] on [[entities/arc-institute|EVO2]], a superhuman genomics model, to extract biological concepts the model has learned that humans don't yet know. Also working with a major health system to identify novel biomarkers of disease from genomics models. ^[extracted]
 - **Efficiency gains** — identifying which weights are wasted on memorization vs. productive computation, enabling targeted pruning (e.g., a version of Claude that only needs to perform coding could shed irrelevant parameters). ^[extracted]
 
 ## Key Quotes

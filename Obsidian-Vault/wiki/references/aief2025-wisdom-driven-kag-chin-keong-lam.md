@@ -1,41 +1,41 @@
 ---
-title: "AIEF2025 — Wisdom-Driven Knowledge Augmented Generation at Scale — Chin Keong Lam, Patho AI"
+title: AIEF2025 — Wisdom-Driven Knowledge Augmented Generation at Scale — Chin Keong Lam, Patho AI
 category: references
 tags:
-  - ai-engineering
-  - knowledge-graph
-  - kag
-  - retrieval
-  - neo4j
-  - aief2025
+- ai-engineering
+- knowledge-graph
+- kag
+- retrieval
+- neo4j
+- aief2025
 aliases:
-  - Chin Keong Lam AIEF2025
-  - Wisdom-Driven KAG
+- Chin Keong Lam AIEF2025
+- Wisdom-Driven KAG
 sources:
-  - "[[sources/watchv=9aqovt8lnmi]]"
-summary: "Chin Keong Lam, founder of Patho AI, presents KAG (Knowledge Augmented Generation) — a wisdom-driven architecture using structured knowledge graphs with knowledge cards for precise quantitative reasoning, contrasting it with traditional vector RAG across five dimensions."
+- 'https://www.youtube.com/watch?v=9aqovt8lnmi'
+summary: Chin Keong Lam, founder of Patho AI, presents KAG (Knowledge Augmented Generation) — a wisdom-driven architecture using structured knowledge graphs with knowledge cards for precise quantitative rea...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.40
+base_confidence: 0.4
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
 relationships:
-  - target: "[[concepts/kag-knowledge-augmented-generation|KAG (Knowledge Augmented Generation)]]"
-    type: related_to
-  - target: "[[concepts/wisdom-graph|Wisdom Graph]]"
-    type: related_to
-  - target: "[[concepts/knowledge-cards|Knowledge Cards]]"
-    type: related_to
-  - target: "[[concepts/hybrid-graph-extraction|Hybrid Graph Extraction]]"
-    type: related_to
-  - target: "[[entities/chin-keong-lam|Chin Keong Lam]]"
-    type: related_to
-  - target: "[[entities/patho-ai|Patho AI]]"
-    type: related_to
+- target: '[[concepts/kag-knowledge-augmented-generation|KAG (Knowledge Augmented Generation)]]'
+  type: related_to
+- target: '[[concepts/wisdom-graph|Wisdom Graph]]'
+  type: related_to
+- target: '[[concepts/knowledge-cards|Knowledge Cards]]'
+  type: related_to
+- target: '[[concepts/hybrid-graph-extraction|Hybrid Graph Extraction]]'
+  type: related_to
+- target: '[[entities/chin-keong-lam|Chin Keong Lam]]'
+  type: related_to
+- target: '[[entities/patho-ai|Patho AI]]'
+  type: related_to
 ---
 
 # AIEF2025 — Wisdom-Driven Knowledge Augmented Generation at Scale

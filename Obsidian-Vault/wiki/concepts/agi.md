@@ -1,27 +1,32 @@
 ---
-title: "AGI (Artificial General Intelligence)"
+title: AGI (Artificial General Intelligence)
 category: concepts
-tags: [agi, general-intelligence, ai-research, ai-engineering, reliability]
-summary: "Artificial General Intelligence — the ability to figure things out in new environments fast. Distinguished from software engineering: we have billions of unreliable general intelligences already (humans)."
+tags:
+- agi
+- general-intelligence
+- ai-research
+- ai-engineering
+- reliability
+summary: 'Artificial General Intelligence — the ability to figure things out in new environments fast. Distinguished from software engineering: we have billions of unreliable general intelligences already (h...'
 sources:
-  - "AIEF2025 - On Engineering AI Systems that Endure The Bitter Lesson - Omar Khattab, DSPy & Databricks - https://www.youtube.com/watch?v=qdmxApz3EJI"
+- AIEF2025 - On Engineering AI Systems that Endure The Bitter Lesson - Omar Khattab, DSPy & Databricks - https://www.youtube.com/watch?v=qdmxApz3EJI
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/ai-engineering|AI Engineering]]"
-    type: distinguished_from
-  - target: "[[concepts/agi-vs-software|AGI vs Software Engineering]]"
-    type: central_to
-  - target: "[[concepts/bitter-lesson|The Bitter Lesson]]"
-    type: goal_of
+- target: '[[concepts/ai-engineering|AI Engineering]]'
+  type: distinguished_from
+- target: '[[concepts/agi-vs-software|AGI vs Software Engineering]]'
+  type: central_to
+- target: '[[concepts/bitter-lesson|The Bitter Lesson]]'
+  type: goal_of
 ---
 
 # AGI (Artificial General Intelligence)

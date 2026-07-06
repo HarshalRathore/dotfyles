@@ -1,16 +1,16 @@
 ---
-title: "Microsoft"
+title: Microsoft
 tags:
-  - entity
-  - company
-  - ai-platform
-  - cloud
-  - enterprise
+- entity
+- company
+- ai-platform
+- cloud
+- enterprise
 sources:
-  - "[[sources/watchv=7hrw6rtxahc]]"
-  - "[[sources/watchv=ccswz5bjlo8]]"
-  - "[[sources/watchv=phbghukam-w]]"
-  - "[[sources/watchv=r30col3upug]]"
+- 'https://www.youtube.com/watch?v=7hrw6rtxahc'
+- 'https://www.youtube.com/watch?v=ccswz5bjlo8'
+- 'https://www.youtube.com/watch?v=phbghukam-w'
+- 'https://www.youtube.com/watch?v=r30col3upug'
 provenance:
   extracted: 0.78
   inferred: 0.18
@@ -20,6 +20,8 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
+summary: Microsoft
 ---
 
 # Microsoft

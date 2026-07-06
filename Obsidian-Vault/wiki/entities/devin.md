@@ -8,7 +8,7 @@ tags:
   - aief2025
   - cognition
 sources:
-  - "[[sources/watchv=mi83but_23o]]"
+  - "https://www.youtube.com/watch?v=mi83but_23o"
 summary: "First widely-adopted AI software engineering agent by Cognition. Evolved from tab completion to full agentic coding across capability tiers, with PMF initially found in repetitive code migrations."
 provenance:
   extracted: 0.90

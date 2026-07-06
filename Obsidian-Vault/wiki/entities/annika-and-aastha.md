@@ -1,35 +1,26 @@
 ---
-title: "Annika and Aastha"
+title: Annika and Aastha
 category: entities
 tags:
-  - speaker
-  - robotics
-  - nvidia
-  - groot
-  - physical-ai
-  - humanoid
-aliases:
-  - Annika
-  - Aastha
-  - Asta
+- speaker
+- robotics
+- nvidia
+- groot
+- physical-ai
+- humanoid
 sources:
-  - "AIEF2025 - What Is a Humanoid Foundation Model? An Introduction to GR00T N1 - Annika & Aastha - https://www.youtube.com/watch?v=mWKYvT9Lc50"
-summary: "Two GR00T team members from Vidya who presented at AIEF2025 on the GR00T N1 humanoid foundation model, the data pyramid strategy, and the dual-system (System One / System Two) robotics architecture.
+- AIEF2025 - What Is a Humanoid Foundation Model? An Introduction to GR00T N1 - Annika & Aastha - https://www.youtube.com/watch?v=mWKYvT9Lc50
+summary: Two GR00T team members from Vidya who presented at AIEF2025 on the GR00T N1 humanoid foundation model, the data pyramid strategy, and the dual-system (System One / System Two) robotics architecture.
 provenance:
-  extracted: 0.95
-  inferred: 0.03
-  ambiguous: 0.02
-base_confidence: 0.85
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+base_confidence: 0.42
 lifecycle: draft
-lifecycle_changed: 2026-07-05
-tier: peripheral
-created: 2026-07-05
-updated: 2026-07-05
-relationships:
-  - target: "[[entities/vidya|Vidya]]"
-    type: employed_by
-  - target: "[[entities/nvidia-gr00t|NVIDIA Project GR00T]]"
-    type: contributes_to
+lifecycle_changed: '2026-07-05'
+tier: supporting
+created: '2026-07-05'
+updated: '2026-07-05'
 ---
 
 # Annika and Aastha

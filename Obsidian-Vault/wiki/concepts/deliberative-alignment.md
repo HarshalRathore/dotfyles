@@ -1,30 +1,34 @@
 ---
-title: "Deliberative Alignment"
+title: Deliberative Alignment
 tags:
-  - ai
-  - alignment
-  - specification
-  - training
-  - evaluation
-  - openai
-aliases: [spec-as-training-material, specification-based alignment, specification-guided alignment]
+- ai
+- alignment
+- specification
+- training
+- evaluation
+- openai
+aliases:
+- spec-as-training-material
+- specification-based alignment
+- specification-guided alignment
 relationships:
-  - target: "[[concepts/specifications-as-code]]"
-    type: extends
-  - target: "[[concepts/evaluation-first-development]]"
-    type: related_to
+- target: '[[concepts/specifications-as-code]]'
+  type: extends
+- target: '[[concepts/evaluation-first-development]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=8rabwkrsec4]]"
-summary: "Technique for automatically aligning AI models to a written specification by using the specification as both training material and evaluation criteria — scoring model responses against the spec and reinforcing weights accordingly."
+- 'https://www.youtube.com/watch?v=8rabwkrsec4'
+summary: Technique for automatically aligning AI models to a written specification by using the specification as both training material and evaluation criteria — scoring model responses against the spec and...
 provenance:
   extracted: 0.65
-  inferred: 0.30
+  inferred: 0.3
   ambiguous: 0.05
 base_confidence: 0.45
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Deliberative Alignment

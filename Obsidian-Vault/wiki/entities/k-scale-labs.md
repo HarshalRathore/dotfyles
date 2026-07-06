@@ -1,20 +1,20 @@
 ---
-title: "K-Scale Labs"
+title: K-Scale Labs
 tags:
-  - company
-  - robotics
-  - open-source
-  - hardware
-  - humanoid
+- company
+- robotics
+- open-source
+- hardware
+- humanoid
 aliases:
-  - K-Scale
-  - KScale Labs
-  - K-Skill Labs
+- K-Scale
+- KScale Labs
+- K-Skill Labs
 sources:
-  - "[[sources/watchv=bs92rdbvi90]]"
-summary: "Palo Alto-based startup (15 people) building fully open-source humanoid robots. Creators of K-Bot ($8,999), Z-Bot, KOS robotics OS, and KOS Sim digital twin. MIT-licensed hardware + software + ML stack."
+- 'https://www.youtube.com/watch?v=bs92rdbvi90'
+summary: Palo Alto-based startup (15 people) building fully open-source humanoid robots. Creators of K-Bot ($8,999), Z-Bot, KOS robotics OS, and KOS Sim digital twin. MIT-licensed hardware + software + ML s...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.55
@@ -22,6 +22,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # K-Scale Labs

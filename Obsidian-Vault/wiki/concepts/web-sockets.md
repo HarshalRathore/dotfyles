@@ -1,25 +1,26 @@
 ---
-title: "WebSockets"
+title: WebSockets
 category: concepts
 tags:
-  - web-sockets
-  - networking
-  - protocol
-  - real-time
+- web-sockets
+- networking
+- protocol
+- real-time
 sources:
-  - "[[sources/watchv=e71ytnbcfxy]]"
+- 'https://www.youtube.com/watch?v=e71ytnbcfxy'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/web-rtc]]"
-    type: contrasts
+- target: '[[concepts/web-rtc]]'
+  type: contrasts
+summary: WebSockets
 ---
 
 # WebSockets

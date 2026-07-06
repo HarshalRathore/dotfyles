@@ -1,17 +1,19 @@
 ---
-title: "MTTR (Mean Time to Resolution)"
+title: MTTR (Mean Time to Resolution)
 tags:
-  - metric
-  - reliability
-  - observability
-  - incident-response
-  - operations
-aliases: [mttr, mean-time-to-resolution]
+- metric
+- reliability
+- observability
+- incident-response
+- operations
+aliases:
+- mttr
+- mean-time-to-resolution
 sources:
-  - "[[sources/watchv=l6_nigiexzq]]"
-summary: Mean Time to Resolution — the average time from incident detection to resolution. Key metric for production troubleshooting effectiveness. Traversal.ai achieved ~40% MTTR reduction at DigitalOcean through autonomous investigation.
+- 'https://www.youtube.com/watch?v=l6_nigiexzq'
+summary: Mean Time to Resolution — the average time from incident detection to resolution. Key metric for production troubleshooting effectiveness. Traversal.ai achieved ~40% MTTR reduction at DigitalOcean...
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -21,14 +23,15 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/production-troubleshooting]]"
-    type: related_to
-  - target: "[[entities/traversal-ai]]"
-    type: related_to
-  - target: "[[entities/digitalocean]]"
-    type: related_to
-  - target: "[[concepts/mttre]]"
-    type: related_to
+- target: '[[concepts/production-troubleshooting]]'
+  type: related_to
+- target: '[[entities/traversal-ai]]'
+  type: related_to
+- target: '[[entities/digitalocean]]'
+  type: related_to
+- target: '[[concepts/mttre]]'
+  type: related_to
+category: concepts
 ---
 
 # MTTR (Mean Time to Resolution)

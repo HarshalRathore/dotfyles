@@ -1,24 +1,25 @@
 ---
-title: "Voice Activity Detection"
+title: Voice Activity Detection
 tags:
-  - voice
-  - ai
-  - speech
-  - vad
-  - turn-taking
-  - audio
+- voice
+- ai
+- speech
+- vad
+- turn-taking
+- audio
 sources:
-  - "[[sources/watchv=1v9zbizkliy]]"
-summary: "A two-part system using a neural network (speech/not-speech classification) plus a silence algorithm to detect when a speaker has finished their turn in voice AI conversations."
+- 'https://www.youtube.com/watch?v=1v9zbizkliy'
+summary: A two-part system using a neural network (speech/not-speech classification) plus a silence algorithm to detect when a speaker has finished their turn in voice AI conversations.
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.42
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Voice Activity Detection

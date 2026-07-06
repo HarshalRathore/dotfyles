@@ -1,17 +1,26 @@
 ---
 type: concept
-title: "Bootstrapping control-plane"
+title: Bootstrapping control-plane
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/static-pod_d72e06]]"
+- '[[sources/static-pod_d72e06]]'
 tags:
-  - deployment
+- deployment
 aliases:
-  - K8s control plane init
-  - Control Plane Bootstrap
+- K8s control plane init
+- Control Plane Bootstrap
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Bootstrapping control-plane
 ---
 # Bootstrapping control-plane
 

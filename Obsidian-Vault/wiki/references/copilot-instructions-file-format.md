@@ -1,23 +1,24 @@
 ---
-title: "Copilot Instructions File Format"
+title: Copilot Instructions File Format
 category: references
 tags:
-  - github-copilot
-  - vscode
-  - instructions
-  - enterprise-ai
-  - vibe-coding
+- github-copilot
+- vscode
+- instructions
+- enterprise-ai
+- vibe-coding
 sources:
-  - "[[sources/watchv=eafp8pds7h4]]"
+- 'https://www.youtube.com/watch?v=eafp8pds7h4'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.55
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Copilot Instructions File Format
 ---
 
 # Copilot Instructions File Format

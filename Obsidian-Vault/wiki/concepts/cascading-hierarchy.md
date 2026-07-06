@@ -1,27 +1,27 @@
 ---
-title: "Cascading Hierarchy"
+title: Cascading Hierarchy
 category: concepts
 tags:
-  - org-design
-  - startup
-  - hierarchy
-  - scaling
-  - aief2025
+- org-design
+- startup
+- hierarchy
+- scaling
+- aief2025
 relationships:
-  - target: "[[concepts/first-principles-org-design|First-Principles Org Design]]"
-    type: contradicts
-  - target: "[[concepts/player-coach-model|Player-Coach Model]]"
-    type: contradicts
-  - target: "[[concepts/small-team-scaling|Small Team Scaling]]"
-    type: related_to
+- target: '[[concepts/first-principles-org-design|First-Principles Org Design]]'
+  type: contradicts
+- target: '[[concepts/player-coach-model|Player-Coach Model]]'
+  type: contradicts
+- target: '[[concepts/small-team-scaling|Small Team Scaling]]'
+  type: related_to
 sources:
-  - "AIEF2025 - Rethinking Team Building: how a 30-person Startup serves 50 Million Users — Grant Lee, Gamma - https://www.youtube.com/watch?v=q8zoXAbmJdI"
-summary: "The traditional startup scaling pattern: VP hires directors, directors hire direct reports, cascading across every function. Can transform a small team into a large organization overnight during blitzscaling."
+- 'AIEF2025 - Rethinking Team Building: how a 30-person Startup serves 50 Million Users — Grant Lee, Gamma - https://www.youtube.com/watch?v=q8zoXAbmJdI'
+summary: 'The traditional startup scaling pattern: VP hires directors, directors hire direct reports, cascading across every function. Can transform a small team into a large organization overnight during bl...'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting

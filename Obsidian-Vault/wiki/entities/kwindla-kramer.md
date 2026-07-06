@@ -1,16 +1,16 @@
 ---
-title: "Kwindla Kramer"
+title: Kwindla Kramer
 category: entities
 tags:
-  - person
-  - daily
-  - voice-ai
-  - speaker
-  - open-source
-  - co-founder
+- person
+- daily
+- voice-ai
+- speaker
+- open-source
+- co-founder
 sources:
-  - "[[sources/watchv=e71ytnbcfxy]]"
-  - "[[sources/watchv=ia4lzjh9sts]]"
+- 'https://www.youtube.com/watch?v=e71ytnbcfxy'
+- 'https://www.youtube.com/watch?v=ia4lzjh9sts'
 provenance:
   extracted: 0.92
   inferred: 0.06
@@ -21,12 +21,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/daily]]"
-    type: related_to
-  - target: "[[entities/pipe-cat]]"
-    type: related_to
-  - target: "[[entities/nina-daily]]"
-    type: related_to
+- target: '[[entities/daily]]'
+  type: related_to
+- target: '[[entities/pipe-cat]]'
+  type: related_to
+- target: '[[entities/nina-daily]]'
+  type: related_to
+summary: Kwindla Kramer
 ---
 
 # Kwindla Kramer

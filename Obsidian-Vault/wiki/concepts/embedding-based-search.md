@@ -1,30 +1,38 @@
 ---
 title: Embedding-Based Search
 category: concepts
-tags: [embedding-search, vector-search, dense-retrieval, semantic-search, neural-rag]
-aliases: [dense retrieval, vector search, embedding retrieval]
-summary: "Search technique that represents documents and queries as dense embedding vectors, performing similarity search in vector space rather than keyword matching. Foundation of neural RAG and AI-native search."
+tags:
+- embedding-search
+- vector-search
+- dense-retrieval
+- semantic-search
+- neural-rag
+aliases:
+- dense retrieval
+- vector search
+- embedding retrieval
+summary: Search technique that represents documents and queries as dense embedding vectors, performing similarity search in vector space rather than keyword matching. Foundation of neural RAG and AI-native...
 sources:
-  - "AIEF2025 - Building a Smarter AI Agent with Neural RAG - Will Bryk, Exa.ai - https://www.youtube.com/watch?v=xnXqpUW_Kp8"
+- AIEF2025 - Building a Smarter AI Agent with Neural RAG - Will Bryk, Exa.ai - https://www.youtube.com/watch?v=xnXqpUW_Kp8
 provenance:
   extracted: 0.85
   inferred: 0.15
-  ambiguous: 0.00
-base_confidence: 0.80
+  ambiguous: 0.0
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/neural-rag]]"
-    type: implements
-  - target: "[[concepts/embedding-models]]"
-    type: uses
-  - target: "[[concepts/semantic-vs-lexical-query-patterns]]"
-    type: relates_to
-  - target: "[[concepts/ai-native-search]]"
-    type: enables
+- target: '[[concepts/neural-rag]]'
+  type: implements
+- target: '[[concepts/embedding-models]]'
+  type: uses
+- target: '[[concepts/semantic-vs-lexical-query-patterns]]'
+  type: relates_to
+- target: '[[concepts/ai-native-search]]'
+  type: enables
 ---
 
 # Embedding-Based Search

@@ -1,29 +1,30 @@
 ---
-title: "Protected Resource Metadata (PRM)"
+title: Protected Resource Metadata (PRM)
 category: concepts
 tags:
-  - mcp
-  - auth
-  - oauth
-  - metadata
-  - discovery
+- mcp
+- auth
+- oauth
+- metadata
+- discovery
 sources:
-  - "[[sources/watchv=phbghukam-w]]"
+- 'https://www.youtube.com/watch?v=phbghukam-w'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/mcp-protected-servers]]"
-    type: uses
-  - target: "[[concepts/mcp-auth-spec-evolution]]"
-    type: derived_from
+- target: '[[concepts/mcp-protected-servers]]'
+  type: uses
+- target: '[[concepts/mcp-auth-spec-evolution]]'
+  type: derived_from
+summary: Protected Resource Metadata (PRM)
 ---
 
 # Protected Resource Metadata (PRM)

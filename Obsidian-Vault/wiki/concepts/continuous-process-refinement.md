@@ -1,28 +1,34 @@
 ---
 title: Continuous Process Refinement
 category: concepts
-tags: [continuous-improvement, lean-startup, process-refinement, feedback-loop, systems-thinking]
+tags:
+- continuous-improvement
+- lean-startup
+- process-refinement
+- feedback-loop
+- systems-thinking
 sources:
-  - AIEF2025 - The New Lean Startup — Sid Bendre, Olive - https://www.youtube.com/watch?v=pQz-PgA1eJw
+- AIEF2025 - The New Lean Startup — Sid Bendre, Olive - https://www.youtube.com/watch?v=pQz-PgA1eJw
 provenance:
   extracted: 0.87
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.03
 base_confidence: 0.91
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
-created: 2026-07-05T00:00:00Z
-updated: 2026-07-05T00:00:00Z
+created: 2026-07-05 00:00:00+00:00
+updated: 2026-07-05 00:00:00+00:00
 relationships:
-  - target: "[[concepts/lean-startup-playbook]]"
-    type: related_to
-  - target: "[[concepts/kpi-alignment]]"
-    type: related_to
-  - target: "[[concepts/compounding-benefits]]"
-    type: related_to
-  - target: "[[concepts/super-tools]]"
-    type: related_to
+- target: '[[concepts/lean-startup-playbook]]'
+  type: related_to
+- target: '[[concepts/kpi-alignment]]'
+  type: related_to
+- target: '[[concepts/compounding-benefits]]'
+  type: related_to
+- target: '[[concepts/super-tools]]'
+  type: related_to
+summary: Continuous Process Refinement
 ---
 
 # Continuous Process Refinement

@@ -1,16 +1,25 @@
 ---
 type: entity
-title: "runC"
+title: runC
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/containerd-cri-etc_fb87d8]]"
+- '[[sources/containerd-cri-etc_fb87d8]]'
 tags:
-  - product
+- product
 aliases:
-  - run container
+- run container
+category: entities
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: runC
 ---
 # runC
 

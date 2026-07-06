@@ -1,26 +1,27 @@
 ---
-title: "Confidence Security"
+title: Confidence Security
 tags:
-  - entity
-  - company
-  - privacy
-  - security
-  - ai-infrastructure
+- entity
+- company
+- privacy
+- security
+- ai-infrastructure
 aliases:
-  - ConfSec
-  - CONFSEC
+- ConfSec
+- CONFSEC
 sources:
-  - "[[sources/watchv=ccswz5bjlo8]]"
-summary: "Privacy infrastructure company building Apple Private Cloud Compute-equivalent capabilities for non-Apple platforms — TPM-based attestation, transparency logs, and confidential computing."
+- 'https://www.youtube.com/watch?v=ccswz5bjlo8'
+summary: Privacy infrastructure company building Apple Private Cloud Compute-equivalent capabilities for non-Apple platforms — TPM-based attestation, transparency logs, and confidential computing.
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.40
+base_confidence: 0.4
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Confidence Security

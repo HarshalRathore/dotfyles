@@ -1,27 +1,32 @@
 ---
-title: "Coding Is Going Away"
+title: Coding Is Going Away
 category: concepts
-tags: [software-engineering, ai-impact, coding-agents, agent-driven-development, role-shift]
-summary: The thesis that software engineers will spend significantly less time writing code due to AI coding agents, but software engineering as a discipline will not disappear — the human role shifts to critical thinking, empathy, and architecture.
+tags:
+- software-engineering
+- ai-impact
+- coding-agents
+- agent-driven-development
+- role-shift
+summary: The thesis that software engineers will spend significantly less time writing code due to AI coding agents, but software engineering as a discipline will not disappear — the human role shifts to cr...
 sources:
-  - "AIEF2025 - Software Development Agents: What Works and What Doesn't - Robert Brennan, OpenHands - https://www.youtube.com/watch?v=o_hhkJtlbSs"
+- 'AIEF2025 - Software Development Agents: What Works and What Doesn''t - Robert Brennan, OpenHands - https://www.youtube.com/watch?v=o_hhkJtlbSs'
 provenance:
   extracted: 0.85
   inferred: 0.15
-  ambiguous: 0.00
-base_confidence: 0.80
+  ambiguous: 0.0
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/agent-driven-development|Agent-Driven Development]]"
-    type: related_to
-  - target: "[[concepts/orchestrating-vs-executing|Orchestrating vs. Executing]]"
-    type: extends
-  - target: "[[concepts/ai-intuition|AI Intuition]]"
-    type: related_to
+- target: '[[concepts/agent-driven-development|Agent-Driven Development]]'
+  type: related_to
+- target: '[[concepts/orchestrating-vs-executing|Orchestrating vs. Executing]]'
+  type: extends
+- target: '[[concepts/ai-intuition|AI Intuition]]'
+  type: related_to
 ---
 
 # Coding Is Going Away

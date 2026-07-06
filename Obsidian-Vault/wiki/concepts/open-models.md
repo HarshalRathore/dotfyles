@@ -1,15 +1,15 @@
 ---
-title: "Open Models"
+title: Open Models
 category: concepts
 tags:
-  - open-models
-  - llm
-  - model-release
-  - developer-ecosystem
-  - model-development
-summary: "The ecosystem of openly released AI models, contrasting with closed/proprietary models, and the developer feedback loops they enable."
+- open-models
+- llm
+- model-release
+- developer-ecosystem
+- model-development
+summary: The ecosystem of openly released AI models, contrasting with closed/proprietary models, and the developer feedback loops they enable.
 provenance:
-  extracted: 0.40
+  extracted: 0.4
   inferred: 0.45
   ambiguous: 0.15
 base_confidence: 0.55
@@ -19,10 +19,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/model-iteration-feedback-loop|Model Iteration Feedback Loop]]"
-    type: related_to
-  - target: "[[concepts/model-benchmarks|Model Benchmarks]]"
-    type: related_to
+- target: '[[concepts/model-iteration-feedback-loop|Model Iteration Feedback Loop]]'
+  type: related_to
+- target: '[[concepts/model-benchmarks|Model Benchmarks]]'
+  type: related_to
+sources: []
 ---
 
 # Open Models

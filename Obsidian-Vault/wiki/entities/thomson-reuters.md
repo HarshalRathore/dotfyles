@@ -1,25 +1,32 @@
 ---
-title: "Thomson Reuters"
+title: Thomson Reuters
 category: entities
-tags: [company, legal, tax, compliance, enterprise-ai, aief2025, proprietary-content]
-summary: 100+ year old company serving legal, tax, compliance, audit, and risk industries. 97% of top 100 US law firms and 99% of Fortune 100 corporate customers. 4,500 domain experts, 1.5TB proprietary content, $200M+/year AI investment.
+tags:
+- company
+- legal
+- tax
+- compliance
+- enterprise-ai
+- aief2025
+- proprietary-content
+summary: 100+ year old company serving legal, tax, compliance, audit, and risk industries. 97% of top 100 US law firms and 99% of Fortune 100 corporate customers. 4,500 domain experts, 1.5TB proprietary con...
 sources:
-  - "AIEF2025 - From Copilot to Colleague: Trustworthy Agents for High-Stakes - Joel Hron, CTO Thomson Reuters - https://www.youtube.com/watch?v=kDEvo2__Ijg"
+- 'AIEF2025 - From Copilot to Colleague: Trustworthy Agents for High-Stakes - Joel Hron, CTO Thomson Reuters - https://www.youtube.com/watch?v=kDEvo2__Ijg'
 provenance:
   extracted: 0.95
   inferred: 0.03
   ambiguous: 0.02
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/joel-hron]]"
-    type: employs
-  - target: "[[concepts/enterprise-ai-adoption]]"
-    type: example_of
+- target: '[[entities/joel-hron]]'
+  type: employs
+- target: '[[concepts/enterprise-ai-adoption]]'
+  type: example_of
 ---
 
 # Thomson Reuters

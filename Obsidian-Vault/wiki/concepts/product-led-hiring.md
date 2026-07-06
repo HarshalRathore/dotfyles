@@ -1,12 +1,12 @@
 ---
-title: "Product-Led Hiring"
+title: Product-Led Hiring
 category: concepts
 tags:
-  - hiring
-  - product
-  - startup
-  - recruitment
-  - aief2025
+- hiring
+- product
+- startup
+- recruitment
+- aief2025
 summary: Hiring strategy where existing customers and users of a product become the best candidates for the company, because they already love the product and understand its use cases deeply.
 provenance:
   extracted: 0.8
@@ -19,10 +19,11 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/small-team-scaling]]"
-    type: extends
-  - target: "[[concepts/work-trial-interviews]]"
-    type: related_to
+- target: '[[concepts/small-team-scaling]]'
+  type: extends
+- target: '[[concepts/work-trial-interviews]]'
+  type: related_to
+sources: []
 ---
 
 ## Product-Led Hiring

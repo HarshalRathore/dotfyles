@@ -4,7 +4,7 @@ category: concepts
 tags: [inference, training, compute, economics, llm, cost-optimization, aief2025]
 aliases: [inference vs training, training vs inference, compute economics, inference cost, training cost]
 sources:
-  - "[[sources/watchv=qludzkvfp6a]]"
+  - "https://www.youtube.com/watch?v=qludzkvfp6a"
 summary: "The economic asymmetry between expensive pre-training (tens of millions) and cheap inference drives the shift toward inference-time compute scaling for improving model outputs."
 provenance:
   extracted: 0.85

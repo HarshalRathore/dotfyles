@@ -1,17 +1,17 @@
 ---
-title: "PII Protection in AI"
+title: PII Protection in AI
 category: concepts
 tags:
-  - pii
-  - privacy
-  - security
-  - responsible-ai
-  - enterprise-ai
-  - customer-facing
+- pii
+- privacy
+- security
+- responsible-ai
+- enterprise-ai
+- customer-facing
 sources:
-  - "[[sources/watchv=rofhhjmumcc]]"
+- 'https://www.youtube.com/watch?v=rofhhjmumcc'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.82
@@ -19,6 +19,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: PII Protection in AI
 ---
 # PII Protection in AI
 

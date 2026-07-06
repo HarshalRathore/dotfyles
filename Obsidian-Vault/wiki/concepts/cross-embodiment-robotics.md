@@ -1,32 +1,26 @@
 ---
-title: "Cross-Embodiment Robotics"
+title: Cross-Embodiment Robotics
 category: concepts
 tags:
-  - cross-embodiment
-  - robotics
-  - foundation-model
-  - generalization
-  - humanoid
-  - nvidia
-  - groot
-summary: "The capability of a single foundation model to be fine-tuned for different robot embodiments (physical forms) while retaining general-purpose capabilities — enabling one model to control multiple robot types.
+- cross-embodiment
+- robotics
+- foundation-model
+- generalization
+- humanoid
+- nvidia
+- groot
+sources: []
+summary: The capability of a single foundation model to be fine-tuned for different robot embodiments (physical forms) while retaining general-purpose capabilities — enabling one model to control multiple r...
 provenance:
-  extracted: 0.75
-  inferred: 0.20
-  ambiguous: 0.05
-base_confidence: 0.75
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+base_confidence: 0.42
 lifecycle: draft
-lifecycle_changed: 2026-07-05
+lifecycle_changed: '2026-07-05'
 tier: supporting
-created: 2026-07-05
-updated: 2026-07-05
-relationships:
-  - target: "[[entities/nvidia-gr00t|NVIDIA Project GR00T]]"
-    type: implemented_by
-  - target: "[[concepts/humanoid-foundation-model|Humanoid Foundation Model]]"
-    type: requires
-  - target: "[[concepts/physical-ai|Physical AI]]"
-    type: enables
+created: '2026-07-05'
+updated: '2026-07-05'
 ---
 
 # Cross-Embodiment Robotics

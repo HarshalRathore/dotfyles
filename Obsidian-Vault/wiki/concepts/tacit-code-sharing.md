@@ -1,15 +1,15 @@
 ---
-title: "Tacit Code Sharing"
+title: Tacit Code Sharing
 category: concepts
 tags:
-  - knowledge-sharing
-  - ai-native
-  - organizational-learning
-  - aief2025
+- knowledge-sharing
+- ai-native
+- organizational-learning
+- aief2025
 aliases:
-  - tacit code sharing
-  - tacit knowledge sharing
-summary: "Compounding engineering's second-order effect: tacit knowledge becomes trivially shareable via prompts, sub-agents, and slash commands."
+- tacit code sharing
+- tacit knowledge sharing
+summary: 'Compounding engineering''s second-order effect: tacit knowledge becomes trivially shareable via prompts, sub-agents, and slash commands.'
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -21,12 +21,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/compounding-engineering|Compounding Engineering]]"
-    type: extends
-  - target: "[[concepts/tacit-knowledge-codification|Tacit Knowledge Codification]]"
-    type: implements
-  - target: "[[concepts/level-of-stack|Level of Stack]]"
-    type: related_to
+- target: '[[concepts/compounding-engineering|Compounding Engineering]]'
+  type: extends
+- target: '[[concepts/tacit-knowledge-codification|Tacit Knowledge Codification]]'
+  type: implements
+- target: '[[concepts/level-of-stack|Level of Stack]]'
+  type: related_to
+sources: []
 ---
 
 # Tacit Code Sharing

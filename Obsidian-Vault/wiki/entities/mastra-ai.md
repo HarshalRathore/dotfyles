@@ -1,25 +1,26 @@
 ---
-title: "Mastra.ai"
+title: Mastra.ai
 tags:
-  - company
-  - ai
-  - workflow
-  - framework
-  - agents
+- company
+- ai
+- workflow
+- framework
+- agents
 aliases:
-  - Mastra
+- Mastra
 sources:
-  - "[[sources/watchv=8sujeqqnclw]]"
-summary: "AI workflow framework co-founded by Sam Bhagwat (former Gatsby co-founder). Focuses on composing agents and workflows together with fluent, readable code APIs."
+- 'https://www.youtube.com/watch?v=8sujeqqnclw'
+summary: AI workflow framework co-founded by Sam Bhagwat (former Gatsby co-founder). Focuses on composing agents and workflows together with fluent, readable code APIs.
 provenance:
   extracted: 0.65
-  inferred: 0.30
+  inferred: 0.3
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: peripheral
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Mastra.ai

@@ -1,10 +1,18 @@
 ---
 title: Chaos and Opportunity
 category: concepts
-tags: [product, ai-era, strategy, product-management]
-summary: The principle that chaos and opportunity are complementary forces in the AI era. As every layer of product building is rewritten, the discomfort of role uncertainty is matched by the opportunity to build new products.
-sources: ["AIEF2025 - Everything is ugly, so go build something that isn't — Raiza Martin, Huxe (ex NotebookLM) - https://www.youtube.com/watch?v=yG5d5UaGz1M"]
-provenance: {extracted: 0.85, inferred: 0.15, ambiguous: 0.0}
+tags:
+- product
+- ai-era
+- strategy
+- product-management
+summary: The principle that chaos and opportunity are complementary forces in the AI era. As every layer of product building is rewritten, the discomfort of role uncertainty is matched by the opportunity to...
+sources:
+- AIEF2025 - Everything is ugly, so go build something that isn't — Raiza Martin, Huxe (ex NotebookLM) - https://www.youtube.com/watch?v=yG5d5UaGz1M
+provenance:
+  extracted: 0.85
+  inferred: 0.15
+  ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-05
@@ -12,12 +20,12 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/forceful-product-building]]"
-    type: extends
-  - target: "[[concepts/ai-product-rebuilding-wave]]"
-    type: related_to
-  - target: "[[concepts/product-multi-layer-cake]]"
-    type: related_to
+- target: '[[concepts/forceful-product-building]]'
+  type: extends
+- target: '[[concepts/ai-product-rebuilding-wave]]'
+  type: related_to
+- target: '[[concepts/product-multi-layer-cake]]'
+  type: related_to
 ---
 
 ## Chaos and Opportunity

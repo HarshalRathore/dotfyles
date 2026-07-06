@@ -1,23 +1,24 @@
 ---
-title: "Checklist-Based Evaluation"
+title: Checklist-Based Evaluation
 tags:
-  - ai
-  - evaluation
-  - llm-as-judge
-  - testing
-  - methodology
+- ai
+- evaluation
+- llm-as-judge
+- testing
+- methodology
 sources:
-  - "[[sources/watchv=-t6uzyyzkww]]"
-summary: "For each AI use case, define a specific criteria checklist of required information and use an LLM-as-a-judge to evaluate whether outputs satisfy every item."
+- 'https://www.youtube.com/watch?v=-t6uzyyzkww'
+summary: For each AI use case, define a specific criteria checklist of required information and use an LLM-as-a-judge to evaluate whether outputs satisfy every item.
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.58
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Checklist-Based Evaluation

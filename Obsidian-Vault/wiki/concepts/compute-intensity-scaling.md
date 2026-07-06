@@ -1,27 +1,28 @@
 ---
-title: "Compute Intensity Scaling"
+title: Compute Intensity Scaling
 category: concepts
 tags:
-  - compute
-  - video-generation
-  - scaling
-  - ai-infrastructure
+- compute
+- video-generation
+- scaling
+- ai-infrastructure
 sources:
-  - "[[sources/watchv=p370d8kmlkw]]"
+- 'https://www.youtube.com/watch?v=p370d8kmlkw'
 provenance:
   extracted: 0.65
-  inferred: 0.30
+  inferred: 0.3
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/generative-video-vs-image]]"
-    type: related_to
-  - target: "[[entities/fal]]"
-    type: related_to
+- target: '[[concepts/generative-video-vs-image]]'
+  type: related_to
+- target: '[[entities/fal]]'
+  type: related_to
+summary: Compute Intensity Scaling
 ---
 
 # Compute Intensity Scaling

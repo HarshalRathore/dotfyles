@@ -1,21 +1,30 @@
 ---
 title: AI-Driven Experimentation
 category: concepts
-tags: [ai, experimentation, llm, agent, ux, ab-testing, product-development]
-aliases: [agentic A/B testing, AI-powered UX optimization]
+tags:
+- ai
+- experimentation
+- llm
+- agent
+- ux
+- ab-testing
+- product-development
+aliases:
+- agentic A/B testing
+- AI-powered UX optimization
 relationships:
-  - target: "[[concepts/agentic-architecture]]"
-    type: extends
-  - target: "[[concepts/evaluation-first-development]]"
-    type: related_to
+- target: '[[concepts/agentic-architecture]]'
+  type: extends
+- target: '[[concepts/evaluation-first-development]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=1zlo9yu2ziu]]"
-summary: "Using AI agents to automate A/B testing and iterative UX refinement — agents generate small code changes, deploy them incrementally, analyze user feedback in real time, and converge on better product variations."
+- 'https://www.youtube.com/watch?v=1zlo9yu2ziu'
+summary: Using AI agents to automate A/B testing and iterative UX refinement — agents generate small code changes, deploy them incrementally, analyze user feedback in real time, and converge on better produ...
 provenance:
-  extracted: 0.60
+  extracted: 0.6
   inferred: 0.35
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03

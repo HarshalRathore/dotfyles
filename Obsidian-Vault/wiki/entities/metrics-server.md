@@ -1,16 +1,25 @@
 ---
 type: entity
-title: "Metrics Server"
+title: Metrics Server
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/kubernetes-autoscaling_59fbf3]]"
+- '[[sources/kubernetes-autoscaling_59fbf3]]'
 tags:
-  - product
+- product
 aliases:
-  - Metrics Server for Kubernetes
+- Metrics Server for Kubernetes
+category: entities
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Metrics Server
 ---
 # Metrics Server
 

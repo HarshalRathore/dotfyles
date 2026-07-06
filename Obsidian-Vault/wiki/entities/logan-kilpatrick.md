@@ -1,32 +1,33 @@
 ---
-title: "Logan Kilpatrick"
+title: Logan Kilpatrick
 category: entities
 tags:
-  - person
-  - google-deepmind
-  - developer-relations
-  - aief2025
-  - gemini
-summary: "Developer relations engineer at Google DeepMind who announced Gemini 2.5 Pro, recapped a year of Gemini progress, and previewed the future across models, the Gemini app, and the developer platform at AIEF2025."
+- person
+- google-deepmind
+- developer-relations
+- aief2025
+- gemini
+summary: Developer relations engineer at Google DeepMind who announced Gemini 2.5 Pro, recapped a year of Gemini progress, and previewed the future across models, the Gemini app, and the developer platform...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/google-deepmind|Google DeepMind]]"
-    type: related_to
-  - target: "[[entities/gemini|Gemini]]"
-    type: related_to
-  - target: "[[references/aief2025-gemini-25-pro-logan-kilpatrick|Gemini 2.5 Pro Launch]]"
-    type: related_to
-  - target: "[[references/aief2025-gemini-progress-logan-kilpatrick|A year of Gemini progress + what comes next]]"
-    type: related_to
+- target: '[[entities/google-deepmind|Google DeepMind]]'
+  type: related_to
+- target: '[[entities/gemini|Gemini]]'
+  type: related_to
+- target: '[[references/aief2025-gemini-25-pro-logan-kilpatrick|Gemini 2.5 Pro Launch]]'
+  type: related_to
+- target: '[[references/aief2025-gemini-progress-logan-kilpatrick|A year of Gemini progress + what comes next]]'
+  type: related_to
+sources: []
 ---
 
 # Logan Kilpatrick

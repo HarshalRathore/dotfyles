@@ -1,33 +1,25 @@
 ---
-title: "Physical AI"
+title: Physical AI
 category: concepts
 tags:
-  - physical-ai
-  - robotics
-  - embodied-ai
-  - humanoid
-  - nvidia
-  - foundation-model
-summary: "The challenge of taking large language model intelligence and making it operable in the physical world — controlling robots, instruments, and devices that interact with matter rather than just processing information.
+- physical-ai
+- robotics
+- embodied-ai
+- humanoid
+- nvidia
+- foundation-model
+sources: []
+summary: The challenge of taking large language model intelligence and making it operable in the physical world — controlling robots, instruments, and devices that interact with matter rather than just proc...
 provenance:
-  extracted: 0.75
-  inferred: 0.20
-  ambiguous: 0.05
-base_confidence: 0.80
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+base_confidence: 0.42
 lifecycle: draft
-lifecycle_changed: 2026-07-05
-tier: core
-created: 2026-07-05
-updated: 2026-07-05
-relationships:
-  - target: "[[concepts/humanoid-foundation-model|Humanoid Foundation Model]]"
-    type: implemented_by
-  - target: "[[concepts/vision-language-action-models|Vision-Language-Action Models]]"
-    type: uses
-  - target: "[[concepts/data-pyramid|Data Pyramid]]"
-    type: trained_on
-  - target: "[[entities/nvidia-gr00t|NVIDIA Project GR00T]]"
-    type: implemented_by
+lifecycle_changed: '2026-07-05'
+tier: supporting
+created: '2026-07-05'
+updated: '2026-07-05'
 ---
 
 # Physical AI

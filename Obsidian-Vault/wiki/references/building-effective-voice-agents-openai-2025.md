@@ -1,14 +1,14 @@
 ---
-title: "Building Effective Voice Agents — Toki Sherbakov + Anoop Kotha, OpenAI"
+title: Building Effective Voice Agents — Toki Sherbakov + Anoop Kotha, OpenAI
 tags:
-  - reference
-  - talk
-  - voice
-  - openai
-  - ai-engineer
+- reference
+- talk
+- voice
+- openai
+- ai-engineer
 sources:
-  - "[[sources/watchv=-oxiljtjxqu]]"
-summary: "AI Engineer World's Fair 2025 talk covering voice agent architectures, prompting, evals, guardrails, and production patterns for speech-to-speech applications."
+- 'https://www.youtube.com/watch?v=-oxiljtjxqu'
+summary: AI Engineer World's Fair 2025 talk covering voice agent architectures, prompting, evals, guardrails, and production patterns for speech-to-speech applications.
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -18,6 +18,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: references
 ---
 
 # Building Effective Voice Agents

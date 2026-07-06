@@ -1,36 +1,37 @@
 ---
-title: "LLM Ops Tooling"
+title: LLM Ops Tooling
 category: concepts
 tags:
-  - llm-ops
-  - tooling
-  - observability
-  - evals
-  - ai-agents
-  - internal-tools
+- llm-ops
+- tooling
+- observability
+- evals
+- ai-agents
+- internal-tools
 aliases:
-  - LLM operations
-  - LLM ops
+- LLM operations
+- LLM ops
 sources:
-  - "AIEF2025 - Turning Fails into Features: Zapier's Hard-Won Eval Lessons — Rafal Willinski, Vitor Balocco, Zapier - https://www.youtube.com/watch?v=blrovBxxN9o"
-  - "AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY"
+- 'AIEF2025 - Turning Fails into Features: Zapier''s Hard-Won Eval Lessons — Rafal Willinski, Vitor Balocco, Zapier - https://www.youtube.com/watch?v=blrovBxxN9o'
+- AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/ai-observability-production-logging|AI Observability & Production Logging]]"
-    type: extends
-  - target: "[[concepts/evals-testing-pyramid|Evals Testing Pyramid]]"
-    type: enables
-  - target: "[[entities/braintrust|Braintrust]]"
-    type: commercial-alternative
+- target: '[[concepts/ai-observability-production-logging|AI Observability & Production Logging]]'
+  type: extends
+- target: '[[concepts/evals-testing-pyramid|Evals Testing Pyramid]]'
+  type: enables
+- target: '[[entities/braintrust|Braintrust]]'
+  type: commercial-alternative
+summary: LLM Ops Tooling
 ---
 
 # LLM Ops Tooling

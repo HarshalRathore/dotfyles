@@ -1,16 +1,19 @@
 ---
-title: "The Prompt Is a Bug"
+title: The Prompt Is a Bug
 tags:
-  - concept
-  - ai
-  - ux
-  - product-design
-aliases: [prompt is a bug, prompt-as-bug, prompt is a stepping stone]
+- concept
+- ai
+- ux
+- product-design
+aliases:
+- prompt is a bug
+- prompt-as-bug
+- prompt is a stepping stone
 sources:
-  - "[[sources/watchv=3mzs5gnelzm]]"
-summary: "The prompt interface is a stepping stone, not a destination. Best AI products feel like mind reading because they collect context automatically — users should not have to explain what they need."
+- 'https://www.youtube.com/watch?v=3mzs5gnelzm'
+summary: The prompt interface is a stepping stone, not a destination. Best AI products feel like mind reading because they collect context automatically — users should not have to explain what they need.
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.55
@@ -18,6 +21,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # The Prompt Is a Bug

@@ -14,7 +14,7 @@ relationships:
   - target: "[[concepts/small-ai-teams|Small AI Teams with Huge Impact]]"
     type: related_to
 sources:
-  - "[[sources/watchv=k-iykdmfkhe]]"
+  - "https://www.youtube.com/watch?v=k-iykdmfkhe"
 summary: "Company founded by Jeremy Howard that embodies the small-team generalist philosophy. Jeremy Howard's investment philosophy influences Datalab's approach to team building."
 provenance:
   extracted: 0.85

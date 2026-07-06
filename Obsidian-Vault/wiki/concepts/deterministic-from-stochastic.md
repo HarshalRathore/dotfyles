@@ -1,24 +1,24 @@
 ---
-title: "Deterministic-From-Stochastic"
+title: Deterministic-From-Stochastic
 category: concepts
 tags:
-  - testing
-  - ci
-  - ai
-  - algorithmic-fix
-  - stochastic-evals
-  - failure-mode
+- testing
+- ci
+- ai
+- algorithmic-fix
+- stochastic-evals
+- failure-mode
 sources:
-  - "AIEF2025 - CI in the Era of AI: From Unit Tests to Stochastic Evals — Nathan Sobo, Zed - https://www.youtube.com/watch?v=WXy8Yy9xGss"
+- 'AIEF2025 - CI in the Era of AI: From Unit Tests to Stochastic Evals — Nathan Sobo, Zed - https://www.youtube.com/watch?v=WXy8Yy9xGss'
 relationships:
-  - target: "[[concepts/stochastic-evals|Stochastic Evals]]"
-    type: derived_from
-  - target: "[[concepts/deterministic-eval-scoring|Deterministic Eval Scoring]]"
-    type: extends
-  - target: "[[concepts/eval-driven-development|Eval-Driven Development]]"
-    type: related_to
+- target: '[[concepts/stochastic-evals|Stochastic Evals]]'
+  type: derived_from
+- target: '[[concepts/deterministic-eval-scoring|Deterministic Eval Scoring]]'
+  type: extends
+- target: '[[concepts/eval-driven-development|Eval-Driven Development]]'
+  type: related_to
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.87
@@ -26,6 +26,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Deterministic-From-Stochastic
 ---
 
 # Deterministic-From-Stochastic

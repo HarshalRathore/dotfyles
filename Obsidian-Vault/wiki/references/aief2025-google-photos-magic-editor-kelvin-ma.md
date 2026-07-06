@@ -1,28 +1,29 @@
 ---
-title: "Google Photos Magic Editor: GenAI Under the Hood of a Billion-User App — Kelvin Ma, Google Photos"
+title: 'Google Photos Magic Editor: GenAI Under the Hood of a Billion-User App — Kelvin Ma, Google Photos'
 tags:
-  - reference
-  - talk
-  - aief2025
-  - google
-  - computer-vision
-  - on-device-ml
-  - photo-editing
+- reference
+- talk
+- aief2025
+- google
+- computer-vision
+- on-device-ml
+- photo-editing
 aliases:
-  - AIEF2025 Google Photos Magic Editor
-  - Kelvin Ma Google Photos 2025
+- AIEF2025 Google Photos Magic Editor
+- Kelvin Ma Google Photos 2025
 sources:
-  - "[[sources/watchv=c13jifwnuo8]]"
-summary: "Google Photos editing on on-device ML photo editing evolution (2018-present): U-Net segmentation, Magic Eraser, model evaluation as unit testing, ML iteration vs deadlines."
+- 'https://www.youtube.com/watch?v=c13jifwnuo8'
+summary: 'Google Photos editing on on-device ML photo editing evolution (2018-present): U-Net segmentation, Magic Eraser, model evaluation as unit testing, ML iteration vs deadlines.'
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: references
 ---
 
 # Google Photos Magic Editor: GenAI Under the Hood of a Billion-User App — Kelvin Ma, Google Photos

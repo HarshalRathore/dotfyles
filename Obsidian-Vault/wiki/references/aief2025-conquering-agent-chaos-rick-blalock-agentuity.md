@@ -1,28 +1,38 @@
 ---
 title: AIEF2025 — Conquering Agent Chaos — Rick Blalock, Agentuity
 category: references
-tags: [aief2025, agent-deployment, agent-infrastructure, agent-chaos, agentuity, serverless-timeouts, agent-observability, framework-agnostic]
-aliases: [Conquering Agent Chaos, Rick Blalock AIEF2025]
-summary: Rick Blalock (Agentuity) presents the core deployment challenges of AI agents — serverless timeouts, statefulness, gateway wiring — and the infrastructure primitives agents need: long runtimes, pause/resume, introspection, memory, and code execution.
+tags:
+- aief2025
+- agent-deployment
+- agent-infrastructure
+- agent-chaos
+- agentuity
+- serverless-timeouts
+- agent-observability
+- framework-agnostic
+aliases:
+- Conquering Agent Chaos
+- Rick Blalock AIEF2025
+summary: 'Rick Blalock (Agentuity) presents the core deployment challenges of AI agents — serverless timeouts, statefulness, gateway wiring — and the infrastructure primitives agents need: long runtimes, pau...'
 sources:
-  - "AIEF2025 - Conquering Agent Chaos — Rick Blalock, Agentuity - https://www.youtube.com/watch?v=yASxPZ-tZe0"
+- AIEF2025 - Conquering Agent Chaos — Rick Blalock, Agentuity - https://www.youtube.com/watch?v=yASxPZ-tZe0
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/aief2025]]"
-    type: part_of
-  - target: "[[entities/rick-blalock]]"
-    type: speaker
-  - target: "[[entities/agentuity]]"
-    type: presented_by
+- target: '[[entities/aief2025]]'
+  type: part_of
+- target: '[[entities/rick-blalock]]'
+  type: speaker
+- target: '[[entities/agentuity]]'
+  type: presented_by
 ---
 
 ## Conquering Agent Chaos

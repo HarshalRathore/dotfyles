@@ -1,26 +1,27 @@
 ---
-title: "Circle"
+title: Circle
 tags:
-  - company
-  - fintech
-  - stablecoin
-  - payments
-  - blockchain
+- company
+- fintech
+- stablecoin
+- payments
+- blockchain
 aliases:
-  - Circle Internet Financial
-  - Circle.com
+- Circle Internet Financial
+- Circle.com
 sources:
-  - "[[sources/watchv=axmdsqdoghm]]"
-summary: "Fintech company founded in 2013 that issues USDC and EURC stablecoins. Backed by BlackRock and Fidelity. Has settled over $26 trillion in transactions across 20+ blockchain networks."
+- 'https://www.youtube.com/watch?v=axmdsqdoghm'
+summary: Fintech company founded in 2013 that issues USDC and EURC stablecoins. Backed by BlackRock and Fidelity. Has settled over $26 trillion in transactions across 20+ blockchain networks.
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Circle

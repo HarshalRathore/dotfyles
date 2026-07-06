@@ -11,7 +11,7 @@ relationships:
   - target: "[[concepts/recsys-foundation-model]]"
     type: related_to
 sources:
-  - "[[sources/watchv=2vlcqd6igva]]"
+  - "https://www.youtube.com/watch?v=2vlcqd6igva"
 summary: "The challenge of making accurate recommendations for new items or categories with no interaction history, addressed by semantic IDs and LLM-based data augmentation."
 provenance:
   extracted: 0.60

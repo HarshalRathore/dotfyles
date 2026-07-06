@@ -1,17 +1,20 @@
 ---
-title: "AIEF2025 - Shipping Products When You Don't Know What They Can Do — Ben Stein, Teammates"
+title: AIEF2025 - Shipping Products When You Don't Know What They Can Do — Ben Stein, Teammates
 category: references
 tags:
-  - aief2025
-  - product-management
-  - ai-agents
-  - affordances
-  - emergent-behavior
-  - evals
-  - speech
-aliases: [shipping products ai, ben stein teammates talk, aief2025 ben stein]
+- aief2025
+- product-management
+- ai-agents
+- affordances
+- emergent-behavior
+- evals
+- speech
+aliases:
+- shipping products ai
+- ben stein teammates talk
+- aief2025 ben stein
 sources:
-  - "[[sources/watchv=pthmdt92qng]]"
+- 'https://www.youtube.com/watch?v=pthmdt92qng'
 provenance:
   extracted: 0.95
   inferred: 0.04
@@ -23,20 +26,21 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/ben-stein]]"
-    type: authored_by
-  - target: "[[entities/teammates]]"
-    type: about
-  - target: "[[concepts/affordance-thinking]]"
-    type: introduces
-  - target: "[[concepts/emergent-behavior-in-ai]]"
-    type: introduces
-  - target: "[[concepts/boundless-surface-area]]"
-    type: introduces
-  - target: "[[concepts/discover-functionality]]"
-    type: introduces
-  - target: "[[concepts/agent-evaluations]]"
-    type: references
+- target: '[[entities/ben-stein]]'
+  type: authored_by
+- target: '[[entities/teammates]]'
+  type: about
+- target: '[[concepts/affordance-thinking]]'
+  type: introduces
+- target: '[[concepts/emergent-behavior-in-ai]]'
+  type: introduces
+- target: '[[concepts/boundless-surface-area]]'
+  type: introduces
+- target: '[[concepts/discover-functionality]]'
+  type: introduces
+- target: '[[concepts/agent-evaluations]]'
+  type: references
+summary: AIEF2025 - Shipping Products When You Don't Know What They Can Do
 ---
 
 # AIEF2025 - Shipping Products When You Don't Know What They Can Do

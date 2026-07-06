@@ -4,7 +4,7 @@ category: entities
 tags: [company, ai, social-app, live-engagement, aief2025, hf0-residency]
 summary: "World's most engaging live app. Scaled from $1 to $100M annualized in six months. Founded by David, who previously built a social app with 250M users generating $20M/year."
 sources:
-  - "[[sources/watchv=l8-5ezsoi5a]]"
+  - "https://www.youtube.com/watch?v=l8-5ezsoi5a"
 provenance:
   extracted: 0.95
   inferred: 0.05

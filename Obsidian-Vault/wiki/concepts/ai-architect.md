@@ -1,24 +1,28 @@
 ---
-title: "AI Architect"
+title: AI Architect
 tags:
-  - concept
-  - role
-  - organization
-  - ai
-  - customer-experience
-aliases: [AI architect role, AI architect, agent architect]
+- concept
+- role
+- organization
+- ai
+- customer-experience
+aliases:
+- AI architect role
+- AI architect
+- agent architect
 sources:
-  - "[[sources/watchv=c3geufbr2js]]"
-summary: "An emerging role responsible for managing, coaching, and improving an organization's AI agents — combining technology understanding, brand/experience design, and business outcomes."
+- 'https://www.youtube.com/watch?v=c3geufbr2js'
+summary: An emerging role responsible for managing, coaching, and improving an organization's AI agents — combining technology understanding, brand/experience design, and business outcomes.
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.55
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # AI Architect
@@ -52,7 +56,7 @@ Based on Sierra's observation of successful customers: ^[extracted]
 | Role | Era | Focus |
 |---|---|---|
 | Webmaster | Early internet | Company's digital storefront |
-| [[concepts/ai-architect\|AI Architect]] | AI era | Company's AI agent |
+| [[concepts/ai-architect|AI Architect]] | AI era | Company's AI agent |
 
 ## Related
 

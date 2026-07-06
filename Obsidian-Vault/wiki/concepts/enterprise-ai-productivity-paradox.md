@@ -1,27 +1,28 @@
 ---
-title: "Enterprise AI Productivity Paradox"
+title: Enterprise AI Productivity Paradox
 category: concepts
 tags:
-  - ai-adoption
-  - enterprise-productivity
-  - ai-paradox
-  - aief2025
+- ai-adoption
+- enterprise-productivity
+- ai-paradox
+- aief2025
 sources:
-  - "AIEF2025 - The Billable Hour is Dead; Long Live the Billable Hour — Kevin Madura + Mo Bhasin, Alix Partners - https://www.youtube.com/watch?v=Wv1tAxKYLeE"
+- AIEF2025 - The Billable Hour is Dead; Long Live the Billable Hour — Kevin Madura + Mo Bhasin, Alix Partners - https://www.youtube.com/watch?v=Wv1tAxKYLeE
 relationships:
-  - target: "[[concepts/skills-checklist-framework|Skills Checklist Framework]]"
-    type: related_to
-  - target: "[[concepts/ai-first-company-announcements|AI-First Company]]"
-    type: related_to
+- target: '[[concepts/skills-checklist-framework|Skills Checklist Framework]]'
+  type: related_to
+- target: '[[concepts/ai-first-company-announcements|AI-First Company]]'
+  type: related_to
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Enterprise AI Productivity Paradox
 ---
 
 # Enterprise AI Productivity Paradox

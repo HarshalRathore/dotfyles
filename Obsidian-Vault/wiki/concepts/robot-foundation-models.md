@@ -10,7 +10,7 @@ tags:
   - imitation-learning
 summary: Foundation models trained on robotic motion primitives (picking, stirring, sautéing) via fine-tuning and teleoperation, enabling robots to learn cooking skills from expert demonstrations.
 sources:
-  - "[[sources/watchv=mbwgiwjdlso]]"
+  - "https://www.youtube.com/watch?v=mbwgiwjdlso"
 provenance:
   extracted: 0.80
   inferred: 0.15

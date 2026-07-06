@@ -1,33 +1,37 @@
 ---
-title: "Abstract Reasoning"
+title: Abstract Reasoning
 tags:
-  - ai-capability
-  - llm-evaluation
-  - pattern-recognition
-  - generalization
-  - connections
-aliases: [Abstract Reasoning, AI Abstract Reasoning, LLM Abstract Reasoning]
+- ai-capability
+- llm-evaluation
+- pattern-recognition
+- generalization
+- connections
+aliases:
+- Abstract Reasoning
+- AI Abstract Reasoning
+- LLM Abstract Reasoning
 sources:
-  - "[[sources/watchv=p_uhfgh4j9y]]"
-summary: "Identifying patterns beyond surface features. Connections tests LLMs' abstract reasoning via decoys that penalize superficial similarity matching."
+- 'https://www.youtube.com/watch?v=p_uhfgh4j9y'
+summary: Identifying patterns beyond surface features. Connections tests LLMs' abstract reasoning via decoys that penalize superficial similarity matching.
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/connections-game]]"
-    type: tested_by
-  - target: "[[concepts/semantic-similarity]]"
-    type: contrasts_with
-  - target: "[[concepts/system-1-system-2-thinking]]"
-    type: requires
-  - target: "[[concepts/llm-benchmarking]]"
-    type: benchmarked_by
+- target: '[[concepts/connections-game]]'
+  type: tested_by
+- target: '[[concepts/semantic-similarity]]'
+  type: contrasts_with
+- target: '[[concepts/system-1-system-2-thinking]]'
+  type: requires
+- target: '[[concepts/llm-benchmarking]]'
+  type: benchmarked_by
+category: concepts
 ---
 
 # Abstract Reasoning

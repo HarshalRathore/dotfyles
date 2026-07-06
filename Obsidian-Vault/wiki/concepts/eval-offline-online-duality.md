@@ -1,32 +1,33 @@
 ---
-title: "Offline vs Online Evals Duality"
+title: Offline vs Online Evals Duality
 category: concepts
 tags:
-  - evals
-  - offline-evals
-  - online-evals
-  - development-methodology
-  - production-ai
-  - braintrust
+- evals
+- offline-evals
+- online-evals
+- development-methodology
+- production-ai
+- braintrust
 sources:
-  - "AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY"
+- AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/online-evals|Online Evals]]"
-    type: contrasts
-  - target: "[[concepts/eval-flywheel-effect|Eval Flywheel Effect]]"
-    type: feeds
-  - target: "[[concepts/eval-driven-development|Eval-Driven Development]]"
-    type: supports
+- target: '[[concepts/online-evals|Online Evals]]'
+  type: contrasts
+- target: '[[concepts/eval-flywheel-effect|Eval Flywheel Effect]]'
+  type: feeds
+- target: '[[concepts/eval-driven-development|Eval-Driven Development]]'
+  type: supports
+summary: Offline vs Online Evals Duality
 ---
 
 # Offline vs Online Evals Duality

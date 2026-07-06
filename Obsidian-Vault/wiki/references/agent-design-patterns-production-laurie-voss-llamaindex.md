@@ -1,23 +1,24 @@
 ---
-title: "Effective Agent Design Patterns in Production — Laurie Voss, LlamaIndex"
+title: Effective Agent Design Patterns in Production — Laurie Voss, LlamaIndex
 tags:
-  - reference
-  - talk
-  - agent
-  - llamaindex
-  - ai-eng-fair-2025
+- reference
+- talk
+- agent
+- llamaindex
+- ai-eng-fair-2025
 sources:
-  - "[[sources/watchv=72xxwkd8jrk]]"
-summary: "Laurie Voss presents the five Anthropic-codified agent design patterns (chaining, routing, parallelization, orchestrator workers, evaluator-optimizer) implemented via LlamaIndex Workflows, plus the core principle that LLMs excel at turning large text into small text."
+- 'https://www.youtube.com/watch?v=72xxwkd8jrk'
+summary: Laurie Voss presents the five Anthropic-codified agent design patterns (chaining, routing, parallelization, orchestrator workers, evaluator-optimizer) implemented via LlamaIndex Workflows, plus the...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: references
 ---
 
 # Effective Agent Design Patterns in Production — Laurie Voss, LlamaIndex

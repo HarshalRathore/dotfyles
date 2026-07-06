@@ -1,21 +1,30 @@
 ---
 summary: Source document explaining how to override Docker ENTRYPOINT and CMD instructions using Kubernetes Pod command and args fields at runtime.
 type: source
-title: "Overriding Entrypoints and Commands in Docker and Kubernetes - Summary"
+title: Overriding Entrypoints and Commands in Docker and Kubernetes - Summary
 base_confidence: 0.7
 lifecycle: draft
-source_file: ""
+source_file: ''
 tags:
-  - CMD
-  - ENTRYPOINT
-  - Kubernetes Pod command and args
-  - Dockerfile
-  - docker run
+- CMD
+- ENTRYPOINT
+- Kubernetes Pod command and args
+- Dockerfile
+- docker run
 aliases:
-  - "Commands & Args in Containers & Pods"
-  - Docker Kubernetes Command Override
-contentHash: "859-c9f4d1c4"
-generation_complete: True
+- Commands & Args in Containers & Pods
+- Docker Kubernetes Command Override
+contentHash: 859-c9f4d1c4
+generation_complete: true
+category: sources
+sources: []
+tier: supporting
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+created: '2026-07-02T13:38:25.546603+00:00'
+updated: '2026-07-02T13:38:25.546603+00:00'
 ---
 # Overriding Entrypoints and Commands in Docker and Kubernetes - Summary
 

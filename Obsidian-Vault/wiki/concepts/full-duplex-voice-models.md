@@ -1,24 +1,25 @@
 ---
-title: "Full Duplex Voice Models"
+title: Full Duplex Voice Models
 tags:
-  - voice
-  - ai
-  - speech
-  - full-duplex
-  - turn-taking
-  - architecture
+- voice
+- ai
+- speech
+- full-duplex
+- turn-taking
+- architecture
 sources:
-  - "[[sources/watchv=1v9zbizkliy]]"
-summary: "Voice AI models that process audio input and generate speech output simultaneously, mimicking the human brain's concurrent comprehension and production tracks."
+- 'https://www.youtube.com/watch?v=1v9zbizkliy'
+summary: Voice AI models that process audio input and generate speech output simultaneously, mimicking the human brain's concurrent comprehension and production tracks.
 provenance:
   extracted: 0.65
-  inferred: 0.30
+  inferred: 0.3
   ambiguous: 0.05
 base_confidence: 0.42
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Full Duplex Voice Models

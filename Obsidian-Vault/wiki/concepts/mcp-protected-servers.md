@@ -1,18 +1,18 @@
 ---
-title: "Protected MCP Servers"
+title: Protected MCP Servers
 category: concepts
 tags:
-  - mcp
-  - auth
-  - security
-  - oauth
-  - enterprise
-  - remote-servers
+- mcp
+- auth
+- security
+- oauth
+- enterprise
+- remote-servers
 sources:
-  - "[[sources/watchv=phbghukam-w]]"
-  - "[[sources/watchv=fci4jt86gsw]]"
+- 'https://www.youtube.com/watch?v=phbghukam-w'
+- 'https://www.youtube.com/watch?v=fci4jt86gsw'
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.75
@@ -22,16 +22,17 @@ tier: core
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/mcp-prm]]"
-    type: uses
-  - target: "[[concepts/mcp-auth-spec-evolution]]"
-    type: derived_from
-  - target: "[[concepts/mcp-local-vs-remote-auth]]"
-    type: related_to
-  - target: "[[concepts/enterprise-mcp-deployment]]"
-    type: extends
-  - target: "[[concepts/mcp-gateway-pattern]]"
-    type: related_to
+- target: '[[concepts/mcp-prm]]'
+  type: uses
+- target: '[[concepts/mcp-auth-spec-evolution]]'
+  type: derived_from
+- target: '[[concepts/mcp-local-vs-remote-auth]]'
+  type: related_to
+- target: '[[concepts/enterprise-mcp-deployment]]'
+  type: extends
+- target: '[[concepts/mcp-gateway-pattern]]'
+  type: related_to
+summary: Protected MCP Servers
 ---
 
 # Protected MCP Servers

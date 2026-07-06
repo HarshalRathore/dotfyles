@@ -15,7 +15,7 @@ relationships:
   - target: "[[concepts/headcount-vs-productivity|Headcount vs Productivity]]"
     type: related_to
 sources:
-  - "[[sources/watchv=k-iykdmfkhe]]"
+  - "https://www.youtube.com/watch?v=k-iykdmfkhe"
 summary: "Online education startup founded by Vik Paruchuri. Scaled to 30 people and $4M ARR bootstrapped during COVID. Post-COVID layoffs (30→15→7) unexpectedly increased productivity and happiness."
 provenance:
   extracted: 0.95

@@ -1,24 +1,33 @@
 ---
-title: "AI Coding as Agent's Primary Interface"
+title: AI Coding as Agent's Primary Interface
 category: concepts
-tags: [ai-coding, agent-interface, llm-editor, code-understanding, ai-editor, developer-tooling]
-summary: "The pattern where AI editors (Cursor, Windsurf, Claude Code) become the primary interface for understanding and modifying codebases, consuming structured documentation directly rather than reading source code."
+tags:
+- ai-coding
+- agent-interface
+- llm-editor
+- code-understanding
+- ai-editor
+- developer-tooling
+summary: The pattern where AI editors (Cursor, Windsurf, Claude Code) become the primary interface for understanding and modifying codebases, consuming structured documentation directly rather than reading...
 sources:
-  - "AIEF2025 - Design like Karpathy is watching — Zeke Sikelianos, Replicate - https://www.youtube.com/watch?v=huQPkrwVWwc"
-provenance: { extracted: 0.85, inferred: 0.15, ambiguous: 0.0 }
+- AIEF2025 - Design like Karpathy is watching — Zeke Sikelianos, Replicate - https://www.youtube.com/watch?v=huQPkrwVWwc
+provenance:
+  extracted: 0.85
+  inferred: 0.15
+  ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
-created: 2026-07-04T00:00:00Z
-updated: 2026-07-04T00:00:00Z
+created: 2026-07-04 00:00:00+00:00
+updated: 2026-07-04 00:00:00+00:00
 relationships:
-  - target: "[[concepts/llm-as-primary-audience|LLM as Primary Audience]]"
-    type: extends
-  - target: "[[concepts/llms-txt|LLMs.txt]]"
-    type: related_to
-  - target: "[[concepts/vibe-coding|Vibe Coding]]"
-    type: related_to
+- target: '[[concepts/llm-as-primary-audience|LLM as Primary Audience]]'
+  type: extends
+- target: '[[concepts/llms-txt|LLMs.txt]]'
+  type: related_to
+- target: '[[concepts/vibe-coding|Vibe Coding]]'
+  type: related_to
 ---
 
 ## AI Coding as Agent's Primary Interface

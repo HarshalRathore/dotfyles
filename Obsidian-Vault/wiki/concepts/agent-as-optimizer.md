@@ -16,13 +16,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/auto-improving-agent-loop.md]]"
+  - target: "[[concepts/auto-improving-agent-loop]]"
     type: implements
-  - target: "[[concepts/prompt-engineering-is-dead.md]]"
+  - target: "[[concepts/prompt-engineering-is-dead]]"
     type: related_to
-  - target: "[[concepts/eval-driven-optimization.md]]"
+  - target: "[[concepts/eval-driven-optimization]]"
     type: related_to
-  - target: "[[entities/crewai.md]]"
+  - target: "[[entities/crewai]]"
     type: uses
 ---
 
@@ -30,7 +30,7 @@ relationships:
 
 The pattern of using an autonomous agent as an optimizer — the agent takes a system, evaluates it, analyzes failures, and generates improvements. This is analogous to a gradient descent optimizer in machine learning, where the agent plays the role of the optimizer and the evaluator plays the role of the loss function.
 
-[[entities/nir-gazit.md|Nir Gazit]] demonstrated this at AIEF2025 using [[entities/crewai.md|CrewAI]] to build a researcher agent that:
+[[entities/nir-gazit|Nir Gazit]] demonstrated this at AIEF2025 using [[entities/crewai|CrewAI]] to build a researcher agent that:
 
 1. Crawls the web for prompt engineering guides (data collection / gradient estimation)
 2. Runs the evaluator to get a baseline score (loss computation)

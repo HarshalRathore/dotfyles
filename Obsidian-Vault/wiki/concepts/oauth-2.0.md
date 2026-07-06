@@ -1,17 +1,17 @@
 ---
-title: "OAuth 2.0"
+title: OAuth 2.0
 category: concepts
 tags:
-  - oauth
-  - protocol
-  - authorization
-  - tokens
-  - security
+- oauth
+- protocol
+- authorization
+- tokens
+- security
 sources:
-  - "AIEF2025 - How to Secure Agents using OAuth — Jared Hanson (Keycard, Passport.js) - https://www.youtube.com/watch?v=blmAkayzE8M"
-  - "[[sources/watchv=fzomsupg37e]]"
+- AIEF2025 - How to Secure Agents using OAuth — Jared Hanson (Keycard, Passport.js) - https://www.youtube.com/watch?v=blmAkayzE8M
+- 'https://www.youtube.com/watch?v=fzomsupg37e'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.95
@@ -20,16 +20,17 @@ tier: core
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/openid-connect|OpenID Connect]]"
-    type: extends
-  - target: "[[concepts/authorization-server|Authorization Server]]"
-    type: related_to
-  - target: "[[concepts/resource-server|Resource Server]]"
-    type: related_to
-  - target: "[[concepts/access-token|Access Token]]"
-    type: related_to
-  - target: "[[concepts/refresh-token|Refresh Token]]"
-    type: related_to
+- target: '[[concepts/openid-connect|OpenID Connect]]'
+  type: extends
+- target: '[[concepts/authorization-server|Authorization Server]]'
+  type: related_to
+- target: '[[concepts/resource-server|Resource Server]]'
+  type: related_to
+- target: '[[concepts/access-token|Access Token]]'
+  type: related_to
+- target: '[[concepts/refresh-token|Refresh Token]]'
+  type: related_to
+summary: OAuth 2.0
 ---
 
 # OAuth 2.0

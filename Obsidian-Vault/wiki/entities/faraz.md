@@ -11,7 +11,7 @@ relationships:
   - target: "[[entities/vik-paruchuri|Vik Paruchuri]]"
     type: related_to
 sources:
-  - "[[sources/watchv=k-iykdmfkhe]]"
+  - "https://www.youtube.com/watch?v=k-iykdmfkhe"
 summary: "Newest hire at Datalab. Team grew from 3 to 4 people with Faraz's addition. Not pictured in the AIEF2025 talk materials."
 provenance:
   extracted: 0.95

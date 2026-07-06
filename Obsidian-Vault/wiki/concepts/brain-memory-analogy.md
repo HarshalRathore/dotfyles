@@ -1,12 +1,18 @@
 ---
-title: "Brain Memory Analogy"
+title: Brain Memory Analogy
 category: concepts
-tags: [agent-memory, cognitive-science, human-memory, cerebellum, memory-types, ai-design]
-summary: "Using human brain memory architecture as an analogy for designing agent memory systems — mapping short-term, long-term, working, semantic, episodic, procedural memory, and cerebellum storage to agent equivalents."
+tags:
+- agent-memory
+- cognitive-science
+- human-memory
+- cerebellum
+- memory-types
+- ai-design
+summary: Using human brain memory architecture as an analogy for designing agent memory systems — mapping short-term, long-term, working, semantic, episodic, procedural memory, and cerebellum storage to age...
 sources:
-  - "[[sources/watchv=w2hvdb4jbjs]]"
+- 'https://www.youtube.com/watch?v=w2hvdb4jbjs'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.65
@@ -16,12 +22,12 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/agent-memory-types]]"
-    type: related_to
-  - target: "[[concepts/memory-management]]"
-    type: related_to
-  - target: "[[concepts/agent-memory-knowledge]]"
-    type: related_to
+- target: '[[concepts/agent-memory-types]]'
+  type: related_to
+- target: '[[concepts/memory-management]]'
+  type: related_to
+- target: '[[concepts/agent-memory-knowledge]]'
+  type: related_to
 ---
 
 # Brain Memory Analogy

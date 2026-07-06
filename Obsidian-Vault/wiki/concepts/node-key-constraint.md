@@ -1,32 +1,33 @@
 ---
-title: "Node Key Constraint"
+title: Node Key Constraint
 tags:
-  - neo4j
-  - database-performance
-  - constraint
-  - graph-database
-  - graphrag
-  - aief2025
+- neo4j
+- database-performance
+- constraint
+- graph-database
+- graphrag
+- aief2025
 aliases:
-  - Uniqueness Constraint
-  - Node Key
+- Uniqueness Constraint
+- Node Key
 sources:
-  - "[[sources/watchv=j-9ebjbxcbg]]"
-summary: "A Neo4j uniqueness constraint that ensures a property (or set of properties) is unique and non-null across all nodes of a label. Critical for performance: without constraints, MERGE operations require full graph scans instead of indexed lookups."
+- 'https://www.youtube.com/watch?v=j-9ebjbxcbg'
+summary: 'A Neo4j uniqueness constraint that ensures a property (or set of properties) is unique and non-null across all nodes of a label. Critical for performance: without constraints, MERGE operations requ...'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/neo4j|Neo4j]]"
-    type: implemented_by
-  - target: "[[concepts/cypher-query-language|Cypher Query Language]]"
-    type: used_by
+- target: '[[entities/neo4j|Neo4j]]'
+  type: implemented_by
+- target: '[[concepts/cypher-query-language|Cypher Query Language]]'
+  type: used_by
+category: concepts
 ---
 
 # Node Key Constraint

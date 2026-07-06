@@ -10,7 +10,7 @@ tags:
 aliases: [Lockfire, lockfire]
 summary: LLM observability platform that adopted OpenTelemetry support, mentioned alongside W&B Weave and Sentry as part of the emerging OTEL-compatible observability ecosystem.
 sources:
-  - "[[sources/watchv=lcqat4ip_le]]"
+  - "https://www.youtube.com/watch?v=lcqat4ip_le"
 provenance:
   extracted: 0.90
   inferred: 0.08

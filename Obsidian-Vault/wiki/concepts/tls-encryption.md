@@ -1,17 +1,23 @@
 ---
-summary: "> **Source: sources/tls-certificates_c8ca8c** > - ' > - '"
+summary: '> **Source: sources/tls-certificates_c8ca8c** > - '' > - '''
 type: concept
-title: "Key Characteristics"
+title: Key Characteristics
 created:
-  - "2026-06-30"
+- '2026-06-30'
 updated:
-  - "2026-06-30"
+- '2026-06-30'
 lifecycle: draft
 base_confidence: 0.75
 sources:
-  - "[[sources/🔐-security-in-kubernetes_0a37d1]]"
-  - "[[sources/tls-certificates_c8ca8c]]"
-tags:
+- '[[sources/🔐-security-in-kubernetes_0a37d1]]'
+- '[[sources/tls-certificates_c8ca8c]]'
+tags: []
+category: concepts
+tier: supporting
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
 ---
 ## Key Characteristics
 - Provides encryption for data transmitted between network services.

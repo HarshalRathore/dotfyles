@@ -1,19 +1,24 @@
 ---
-title: "System 1 / System 2 Thinking"
+title: System 1 / System 2 Thinking
 tags:
-  - cognitive-science
-  - decision-making
-  - kahneman
-  - problem-solving
-  - connections
-  - ai-reasoning
-aliases: [System 1, System 2, System One, System Two, Fast and Slow Thinking]
+- cognitive-science
+- decision-making
+- kahneman
+- problem-solving
+- connections
+- ai-reasoning
+aliases:
+- System 1
+- System 2
+- System One
+- System Two
+- Fast and Slow Thinking
 sources:
-  - "[[sources/watchv=p_uhfgh4j9y]]"
-summary: "Kahneman's dual-process theory: System 1 (fast, intuitive) and System 2 (slow, deliberate). Applied to Connections solving and AI reasoning."
+- 'https://www.youtube.com/watch?v=p_uhfgh4j9y'
+summary: 'Kahneman''s dual-process theory: System 1 (fast, intuitive) and System 2 (slow, deliberate). Applied to Connections solving and AI reasoning.'
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.75
 lifecycle: draft
@@ -21,12 +26,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/connections-game]]"
-    type: applied_to
-  - target: "[[concepts/abstract-reasoning]]"
-    type: analogous_to
-  - target: "[[concepts/reasoning-models]]"
-    type: related_to
+- target: '[[concepts/connections-game]]'
+  type: applied_to
+- target: '[[concepts/abstract-reasoning]]'
+  type: analogous_to
+- target: '[[concepts/reasoning-models]]'
+  type: related_to
+category: concepts
 ---
 
 # System 1 / System 2 Thinking

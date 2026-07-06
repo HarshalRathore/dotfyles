@@ -1,16 +1,18 @@
 ---
-title: "Clay Bavor"
+title: Clay Bavor
 tags:
-  - person
-  - ai
-  - entrepreneur
-  - google-alumni
-aliases: [Clay Bavor, Bavor]
+- person
+- ai
+- entrepreneur
+- google-alumni
+aliases:
+- Clay Bavor
+- Bavor
 sources:
-  - "[[sources/watchv=c3geufbr2js]]"
-summary: "Cofounder of Sierra (AI customer service platform). Former Google VP who led AR/VR, Google Lens. Known for articulating the 'AI Architect' role and Agent Development Life Cycle."
+- 'https://www.youtube.com/watch?v=c3geufbr2js'
+summary: Cofounder of Sierra (AI customer service platform). Former Google VP who led AR/VR, Google Lens. Known for articulating the 'AI Architect' role and Agent Development Life Cycle.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.55
@@ -18,6 +20,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Clay Bavor

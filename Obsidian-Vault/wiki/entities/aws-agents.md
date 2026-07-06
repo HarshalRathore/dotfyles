@@ -1,30 +1,31 @@
 ---
-title: "AWS Agents Ecosystem"
+title: AWS Agents Ecosystem
 tags:
-  - aws
-  - ai-agents
-  - enterprise-ai
-  - generative-ai
+- aws
+- ai-agents
+- enterprise-ai
+- generative-ai
 sources:
-  - "AIEF2025 - Building Agents at Cloud Scale — Antje Barth, AWS - https://www.youtube.com/watch?v=WJjInLeaJjo"
-summary: "AWS's internal ecosystem of AI agents: 1,000+ generative AI applications, an internal agent managing 6,000+ tools via semantic search, and the Alexa Plus platform with hundreds of expert systems."
+- AIEF2025 - Building Agents at Cloud Scale — Antje Barth, AWS - https://www.youtube.com/watch?v=WJjInLeaJjo
+summary: 'AWS''s internal ecosystem of AI agents: 1,000+ generative AI applications, an internal agent managing 6,000+ tools via semantic search, and the Alexa Plus platform with hundreds of expert systems.'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/aws|AWS]]"
-    type: related_to
-  - target: "[[entities/alexa|Alexa]]"
-    type: related_to
-  - target: "[[entities/strands-agents|Strands Agents]]"
-    type: related_to
+- target: '[[entities/aws|AWS]]'
+  type: related_to
+- target: '[[entities/alexa|Alexa]]'
+  type: related_to
+- target: '[[entities/strands-agents|Strands Agents]]'
+  type: related_to
+category: entities
 ---
 # AWS Agents Ecosystem
 

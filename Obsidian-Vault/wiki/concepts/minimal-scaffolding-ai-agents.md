@@ -1,19 +1,22 @@
 ---
-title: "Minimal Scaffolding for AI Agents"
+title: Minimal Scaffolding for AI Agents
 tags:
-  - ai-agents
-  - simplicity
-  - design-philosophy
-  - scaffolding
-  - agent-frameworks
-  - model-capability
-aliases: [scaffolding, minimal scaffolding, agent scaffolding]
+- ai-agents
+- simplicity
+- design-philosophy
+- scaffolding
+- agent-frameworks
+- model-capability
+aliases:
+- scaffolding
+- minimal scaffolding
+- agent scaffolding
 sources:
-  - "[[sources/watchv=q3nreeadkmc]]"
-summary: "Design philosophy that AI agents should require minimal scaffolding — just a model and tools — trusting increasingly capable LLMs to handle reasoning, planning, and orchestration autonomously."
+- 'https://www.youtube.com/watch?v=q3nreeadkmc'
+summary: Design philosophy that AI agents should require minimal scaffolding — just a model and tools — trusting increasingly capable LLMs to handle reasoning, planning, and orchestration autonomously.
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.75
 lifecycle: draft
@@ -21,12 +24,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/agent-loop|Agent Loop]]"
-    type: related_to
-  - target: "[[concepts/vibe-coding|Vibe Coding]]"
-    type: related_to
-  - target: "[[concepts/simple-is-better-ai|Simple is Better AI]]"
-    type: extends
+- target: '[[concepts/agent-loop|Agent Loop]]'
+  type: related_to
+- target: '[[concepts/vibe-coding|Vibe Coding]]'
+  type: related_to
+- target: '[[concepts/simple-is-better-ai|Simple is Better AI]]'
+  type: extends
+category: concepts
 ---
 
 # Minimal Scaffolding for AI Agents

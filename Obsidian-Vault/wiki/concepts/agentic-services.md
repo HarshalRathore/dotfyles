@@ -1,30 +1,31 @@
 ---
-title: "Agentic Services"
+title: Agentic Services
 tags:
-  - ai-agents
-  - service-architecture
-  - cloud-scale
-  - aws
+- ai-agents
+- service-architecture
+- cloud-scale
+- aws
 sources:
-  - "AIEF2025 - Building Agents at Cloud Scale — Antje Barth, AWS - https://www.youtube.com/watch?v=WJjInLeaJjo"
-summary: "The paradigm shift from traditional web services to AI-powered agentic services that can reason, plan, and take actions autonomously — demonstrated by AWS with Amazon Q Developer CLI built in three weeks."
+- AIEF2025 - Building Agents at Cloud Scale — Antje Barth, AWS - https://www.youtube.com/watch?v=WJjInLeaJjo
+summary: The paradigm shift from traditional web services to AI-powered agentic services that can reason, plan, and take actions autonomously — demonstrated by AWS with Amazon Q Developer CLI built in three...
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/model-driven-agent-design|Model-Driven Agent Design]]"
-    type: implements
-  - target: "[[entities/amazon-q-developer|Amazon Q Developer]]"
-    type: related_to
-  - target: "[[entities/strands-agents|Strands Agents]]"
-    type: related_to
+- target: '[[concepts/model-driven-agent-design|Model-Driven Agent Design]]'
+  type: implements
+- target: '[[entities/amazon-q-developer|Amazon Q Developer]]'
+  type: related_to
+- target: '[[entities/strands-agents|Strands Agents]]'
+  type: related_to
+category: concepts
 ---
 # Agentic Services
 

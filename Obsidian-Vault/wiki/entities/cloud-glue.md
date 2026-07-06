@@ -1,14 +1,14 @@
 ---
-title: "Cloud Glue"
+title: Cloud Glue
 category: entities
 tags:
-  - parsing
-  - audio-parsing
-  - video-parsing
-  - transcription
-  - video-understanding
-  - vendor
-  - upstart
+- parsing
+- audio-parsing
+- video-parsing
+- transcription
+- video-understanding
+- vendor
+- upstart
 summary: Cloud Glue is a newer parsing vendor that handles both audio and video resources, including extracting information directly from video content (not just transcription).
 provenance:
   extracted: 0.95
@@ -21,10 +21,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/parsing]]"
-    type: implements
-  - target: "[[entities/alice-ai-sdr]]"
-    type: uses
+- target: '[[concepts/parsing]]'
+  type: implements
+- target: '[[entities/alice-ai-sdr]]'
+  type: uses
+sources: []
 ---
 
 # Cloud Glue

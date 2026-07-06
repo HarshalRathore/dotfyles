@@ -1,36 +1,37 @@
 ---
-title: "Code-Executing Agents"
+title: Code-Executing Agents
 category: concepts
 tags:
-  - agent
-  - code-execution
-  - tool-use
-  - agentic-ai
-  - frontier-models
+- agent
+- code-execution
+- tool-use
+- agentic-ai
+- frontier-models
 aliases:
-  - code executing agents
-  - agents that run code
+- code executing agents
+- agents that run code
 sources:
-  - "AIEF2025 - OpenAI on Securing Code-Executing AI Agents — Fouad Matin (Codex, Agent Robustness) - https://www.youtube.com/watch?v=w7IMuYsBNr8"
+- AIEF2025 - OpenAI on Securing Code-Executing AI Agents — Fouad Matin (Codex, Agent Robustness) - https://www.youtube.com/watch?v=w7IMuYsBNr8
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/agent-loop|Agent Loop]]"
-    type: extends
-  - target: "[[concepts/agent-tools|Agent Tools]]"
-    type: uses
-  - target: "[[concepts/agent-sandboxing|Agent Sandboxing]]"
-    type: requires
-  - target: "[[concepts/vibe-coding|Vibe Coding]]"
-    type: enables
+- target: '[[concepts/agent-loop|Agent Loop]]'
+  type: extends
+- target: '[[concepts/agent-tools|Agent Tools]]'
+  type: uses
+- target: '[[concepts/agent-sandboxing|Agent Sandboxing]]'
+  type: requires
+- target: '[[concepts/vibe-coding|Vibe Coding]]'
+  type: enables
+summary: Code-Executing Agents
 ---
 
 # Code-Executing Agents

@@ -1,18 +1,18 @@
 ---
-title: "Copilot Code Review"
+title: Copilot Code Review
 category: concepts
 tags:
-  - copilot
-  - code-review
-  - ai-review
-  - github
-  - microsoft
-  - aief2025
+- copilot
+- code-review
+- ai-review
+- github
+- microsoft
+- aief2025
 sources:
-  - "[[sources/watchv=rkvilz06y08]]"
+- 'https://www.youtube.com/watch?v=rkvilz06y08'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.75
 lifecycle: draft
@@ -20,10 +20,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/github-copilot]]"
-    type: implements
-  - target: "[[concepts/agent-vs-workflow]]"
-    type: related_to
+- target: '[[entities/github-copilot]]'
+  type: implements
+- target: '[[concepts/agent-vs-workflow]]'
+  type: related_to
+summary: Copilot Code Review
 ---
 
 # Copilot Code Review

@@ -1,32 +1,33 @@
 ---
-title: "MCP Authorization Spec Evolution"
+title: MCP Authorization Spec Evolution
 category: concepts
 tags:
-  - mcp
-  - auth
-  - oauth
-  - spec
-  - protocol
+- mcp
+- auth
+- oauth
+- spec
+- protocol
 sources:
-  - "[[sources/watchv=phbghukam-w]]"
-  - "AIEF2025 - MCP: Origins and Requests For Startups — Theodora Chu, Model Context Protocol PM, Anthropic - https://www.youtube.com/watch?v=x-8pBqWiTzk"
+- 'https://www.youtube.com/watch?v=phbghukam-w'
+- 'AIEF2025 - MCP: Origins and Requests For Startups — Theodora Chu, Model Context Protocol PM, Anthropic - https://www.youtube.com/watch?v=x-8pBqWiTzk'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/mcp-protected-servers]]"
-    type: related_to
-  - target: "[[concepts/mcp-prm]]"
-    type: related_to
-  - target: "[[concepts/model-context-protocol]]"
-    type: related_to
+- target: '[[concepts/mcp-protected-servers]]'
+  type: related_to
+- target: '[[concepts/mcp-prm]]'
+  type: related_to
+- target: '[[concepts/model-context-protocol]]'
+  type: related_to
+summary: MCP Authorization Spec Evolution
 ---
 
 # MCP Authorization Spec Evolution

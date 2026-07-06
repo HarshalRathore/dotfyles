@@ -1,16 +1,16 @@
 ---
-title: "Kyle Kranen"
+title: Kyle Kranen
 tags:
-  - person
-  - nvidia
-  - inference
-  - llm-serving
-  - open-source
+- person
+- nvidia
+- inference
+- llm-serving
+- open-source
 sources:
-  - "AIEF2025 - Hacking the Inference Pareto Frontier - Kyle Kranen, NVIDIA - https://www.youtube.com/watch?v=Y2qc0UhDSnc"
-summary: "Architect and lead for NVIDIA Dynamo, previously managed NVIDIA's largest inference deployment with multi-million-dollar quarterly cloud bill."
+- AIEF2025 - Hacking the Inference Pareto Frontier - Kyle Kranen, NVIDIA - https://www.youtube.com/watch?v=Y2qc0UhDSnc
+summary: Architect and lead for NVIDIA Dynamo, previously managed NVIDIA's largest inference deployment with multi-million-dollar quarterly cloud bill.
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -20,12 +20,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/nvidia|NVIDIA]]"
-    type: works_at
-  - target: "[[entities/nvidia-dynamo|NVIDIA Dynamo]]"
-    type: leads
-  - target: "[[concepts/inference-pareto-frontier|Inference Pareto Frontier]]"
-    type: author_of
+- target: '[[entities/nvidia|NVIDIA]]'
+  type: works_at
+- target: '[[entities/nvidia-dynamo|NVIDIA Dynamo]]'
+  type: leads
+- target: '[[concepts/inference-pareto-frontier|Inference Pareto Frontier]]'
+  type: author_of
+category: entities
 ---
 
 # Kyle Kranen

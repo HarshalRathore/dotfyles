@@ -1,21 +1,19 @@
 ---
-title: "Containing Agent Chaos — Solomon Hykes, Dagger"
+title: Containing Agent Chaos — Solomon Hykes, Dagger
 category: references
 tags:
-  - aief2025
-  - talk
-  - agents
-  - containers
-  - platform-engineering
-  - coding-agents
-  - dagger
-aliases:
-summary: "Solomon Hykes at AIEF2025: coding agents need container-native environments with isolation, customizability, multiplayer, and openness — introducing container use for agent environments."
-  - containing agent chaos
-  - solomon hykes aief2025
+- aief2025
+- talk
+- agents
+- containers
+- platform-engineering
+- coding-agents
+- dagger
+aliases: null
+summary: '"Solomon Hykes at AIEF2025: coding agents need container-native environments with isolation, customizability, multiplayer, and openness — introducing container use for agent environments." - contai...'
 Solomon Hykes at AIEF2025: coding agents need container-native environments with isolation, customizability, multiplayer, and openness — introducing "container use" for agent environments.
 sources:
-  - "AIEF2025 - Containing Agent Chaos — Solomon Hykes, Dagger - https://www.youtube.com/watch?v=bUBF5V6oDKw"
+- AIEF2025 - Containing Agent Chaos — Solomon Hykes, Dagger - https://www.youtube.com/watch?v=bUBF5V6oDKw
 provenance:
   extracted: 0.88
   inferred: 0.09
@@ -27,16 +25,21 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: [[entities/solomon-hykes|Solomon Hykes]]
-    type: presented_by
-  - target: [[entities/dagger|Dagger]]
-    type: presented_by
-  - target: [[concepts/container-use|Container Use]]
-    type: introduces
-  - target: [[concepts/agent-environment|Agent Environment]]
-    type: defines
-  - target: [[concepts/platform-engineering|Platform Engineering]]
-    type: reframes
+- target:
+  - - entities/solomon-hykes|Solomon Hykes
+  type: presented_by
+- target:
+  - - entities/dagger|Dagger
+  type: presented_by
+- target:
+  - - concepts/container-use|Container Use
+  type: introduces
+- target:
+  - - concepts/agent-environment|Agent Environment
+  type: defines
+- target:
+  - - concepts/platform-engineering|Platform Engineering
+  type: reframes
 ---
 
 # Containing Agent Chaos — Solomon Hykes, Dagger

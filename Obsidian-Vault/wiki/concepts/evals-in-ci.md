@@ -15,7 +15,7 @@ relationships:
   - target: "[[concepts/online-evals]]"
     type: related_to
 sources:
-  - "[[sources/watchv=l8ooyedi_ls]]"
+  - "https://www.youtube.com/watch?v=l8ooyedi_ls"
 summary: "Integrating AI application evals into CI/CD pipelines to detect regressions, measure improvement, and visualize how code changes affect the entire test dataset."
 provenance:
   extracted: 0.85

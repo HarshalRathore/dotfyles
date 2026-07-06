@@ -1,19 +1,19 @@
 ---
-title: "Data is Your Differentiator: Building Secure and Tailored AI Systems — Mani Khanuja, AWS"
+title: 'Data is Your Differentiator: Building Secure and Tailored AI Systems — Mani Khanuja, AWS'
 category: references
 tags:
-  - talk
-  - ai-engineering
-  - data-strategy
-  - generative-ai
-  - aws
-  - bedrock
-  - aief2025
-  - responsible-ai
+- talk
+- ai-engineering
+- data-strategy
+- generative-ai
+- aws
+- bedrock
+- aief2025
+- responsible-ai
 sources:
-  - "[[sources/watchv=rofhhjmumcc]]"
+- 'https://www.youtube.com/watch?v=rofhhjmumcc'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -21,6 +21,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: 'Data is Your Differentiator: Building Secure and Tailored AI Systems'
 ---
 # Data is Your Differentiator: Building Secure and Tailored AI Systems
 

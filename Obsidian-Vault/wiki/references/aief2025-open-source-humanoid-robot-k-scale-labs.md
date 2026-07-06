@@ -1,27 +1,28 @@
 ---
-title: "Your Personal Open-Source Humanoid Robot for $8,999 — JX Mo, K-Scale Labs"
+title: Your Personal Open-Source Humanoid Robot for $8,999 — JX Mo, K-Scale Labs
 tags:
-  - reference
-  - talk
-  - aief2025
-  - robotics
-  - humanoid
-  - open-source
+- reference
+- talk
+- aief2025
+- robotics
+- humanoid
+- open-source
 aliases:
-  - AIEF2025 K-Scale Labs
-  - Mo K-Scale Humanoid 2025
+- AIEF2025 K-Scale Labs
+- Mo K-Scale Humanoid 2025
 sources:
-  - "[[sources/watchv=bs92rdbvi90]]"
-summary: "JX Mo (founding engineer, K-Scale Labs) presents the K-Bot ($8,999) and Z-Bot open-source humanoid robots — fully open-sourced hardware, software, and ML stack with a developer-first Python/Rust SDK, GPU-accelerated RL training via MJX, and digital twin simulation (KOS Sim) enabling sim2real deployment."
+- 'https://www.youtube.com/watch?v=bs92rdbvi90'
+summary: JX Mo (founding engineer, K-Scale Labs) presents the K-Bot ($8,999) and Z-Bot open-source humanoid robots — fully open-sourced hardware, software, and ML stack with a developer-first Python/Rust SD...
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: references
 ---
 
 # Your Personal Open-Source Humanoid Robot for $8,999 — JX Mo, K-Scale Labs

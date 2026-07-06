@@ -1,33 +1,34 @@
 ---
-title: "Okta"
+title: Okta
 category: entities
 tags:
-  - company
-  - identity
-  - auth
-  - security
-  - iam
-  - oauth
+- company
+- identity
+- auth
+- security
+- iam
+- oauth
 sources:
-  - "[[sources/watchv=phbghukam-w]]"
-  - "[[sources/watchv=fzomsupg37e]]"
+- 'https://www.youtube.com/watch?v=phbghukam-w'
+- 'https://www.youtube.com/watch?v=fzomsupg37e'
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/auth0]]"
-    type: related_to
-  - target: "[[entities/entra-id]]"
-    type: related_to
-  - target: "[[entities/keycloak]]"
-    type: related_to
+- target: '[[entities/auth0]]'
+  type: related_to
+- target: '[[entities/entra-id]]'
+  type: related_to
+- target: '[[entities/keycloak]]'
+  type: related_to
+summary: Okta
 ---
 
 # Okta

@@ -1,25 +1,26 @@
 ---
-title: "Raspberry Pi"
+title: Raspberry Pi
 category: entities
 tags:
-  - hardware
-  - edge-computing
-  - voice-ai
-  - on-device
+- hardware
+- edge-computing
+- voice-ai
+- on-device
 sources:
-  - "[[sources/watchv=e71ytnbcfxy]]"
+- 'https://www.youtube.com/watch?v=e71ytnbcfxy'
 provenance:
-  extracted: 0.90
-  inferred: 0.10
+  extracted: 0.9
+  inferred: 0.1
   ambiguous: 0.0
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: peripheral
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/web-rtc]]"
-    type: related_to
+- target: '[[concepts/web-rtc]]'
+  type: related_to
+summary: Raspberry Pi
 ---
 
 # Raspberry Pi

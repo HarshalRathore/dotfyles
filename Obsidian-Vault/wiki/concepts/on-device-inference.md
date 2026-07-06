@@ -1,18 +1,18 @@
 ---
-title: "On-Device Inference"
+title: On-Device Inference
 category: concepts
 tags:
-  - inference
-  - edge-computing
-  - local-ai
-  - hardware-acceleration
-  - cross-platform
+- inference
+- edge-computing
+- local-ai
+- hardware-acceleration
+- cross-platform
 sources:
-  - "AIEF2025 - Foundry Local: Cutting-Edge AI experiences on device with ONNX Runtime/Olive — Emma Ning, Microsoft - https://www.youtube.com/watch?v=l614N5W60ls"
-summary: "Running AI model inference directly on end-user devices (laptops, desktops, phones) using local hardware accelerators (GPU, NPU, CPU) rather than cloud data centers, enabling offline operation, privacy, and low latency."
+- 'AIEF2025 - Foundry Local: Cutting-Edge AI experiences on device with ONNX Runtime/Olive — Emma Ning, Microsoft - https://www.youtube.com/watch?v=l614N5W60ls'
+summary: Running AI model inference directly on end-user devices (laptops, desktops, phones) using local hardware accelerators (GPU, NPU, CPU) rather than cloud data centers, enabling offline operation, pri...
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.65
 lifecycle: draft
@@ -21,12 +21,12 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/local-first-ai-platform|Local-First AI Platform]]"
-    type: implements
-  - target: "[[concepts/edge-ai-hardware-acceleration|Edge AI Hardware Acceleration]]"
-    type: requires
-  - target: "[[concepts/cost-efficiency-in-ai|Cost Efficiency in AI]]"
-    type: enables
+- target: '[[concepts/local-first-ai-platform|Local-First AI Platform]]'
+  type: implements
+- target: '[[concepts/edge-ai-hardware-acceleration|Edge AI Hardware Acceleration]]'
+  type: requires
+- target: '[[concepts/cost-efficiency-in-ai|Cost Efficiency in AI]]'
+  type: enables
 ---
 
 # On-Device Inference

@@ -1,20 +1,20 @@
 ---
-title: "GraphRAG for Code"
+title: GraphRAG for Code
 category: concepts
 tags:
-  - graphrag
-  - code-understanding
-  - repository-analysis
-  - code-translation
-  - microsoft-research
+- graphrag
+- code-understanding
+- repository-analysis
+- code-translation
+- microsoft-research
 aliases:
-  - GraphRAG for Code
-  - GraphRack for Code
+- GraphRAG for Code
+- GraphRack for Code
 sources:
-  - "AIEF2025 - GraphRAG methods to create optimized LLM context windows for Retrieval — Jonathan Larson, Microsoft - https://www.youtube.com/watch?v=c5qJHr3DnT4"
+- AIEF2025 - GraphRAG methods to create optimized LLM context windows for Retrieval — Jonathan Larson, Microsoft - https://www.youtube.com/watch?v=c5qJHr3DnT4
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.75
 lifecycle: draft
@@ -23,14 +23,15 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: extends
-  - target: "[[concepts/local-global-queries|Local and Global Queries in GraphRAG]]"
-    type: uses
-  - target: "[[concepts/code-translation|Code Translation with LLMs]]"
-    type: enables
-  - target: "[[entities/microsoft|Microsoft]]"
-    type: developed-by
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: extends
+- target: '[[concepts/local-global-queries|Local and Global Queries in GraphRAG]]'
+  type: uses
+- target: '[[concepts/code-translation|Code Translation with LLMs]]'
+  type: enables
+- target: '[[entities/microsoft|Microsoft]]'
+  type: developed-by
+summary: GraphRAG for Code
 ---
 
 # GraphRAG for Code

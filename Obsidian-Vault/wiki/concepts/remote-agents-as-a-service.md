@@ -1,33 +1,38 @@
 ---
-title: "Remote Agents as a Service"
+title: Remote Agents as a Service
 category: concepts
 tags:
-  - remote-agents
-  - cloud-agents
-  - agents-as-a-service
-  - coding-agents
-  - infrastructure
-  - aief2025
+- remote-agents
+- cloud-agents
+- agents-as-a-service
+- coding-agents
+- infrastructure
+- aief2025
 sources:
-  - "AIEF2025 - Your Coding Agent Just Got Cloned And Your Brain Isn't Ready - Rustin Banks, Google Jules - https://www.youtube.com/watch?v=X4BwOu0GWb8"
+- AIEF2025 - Your Coding Agent Just Got Cloned And Your Brain Isn't Ready - Rustin Banks, Google Jules - https://www.youtube.com/watch?v=X4BwOu0GWb8
 relationships:
-  - target: [[concepts/parallel-agent-workflows|Parallel Agent Workflows]]
-    type: enables
-  - target: [[concepts/asynchronous-coding-agents|Asynchronous Coding Agents]]
-    type: enables
-  - target: [[concepts/agent-at-scale|Agent at Scale]]
-    type: related_to
-  - target: [[concepts/cloud-vm-for-agents|Cloud VM for Agents]]
-    type: implements
+- target:
+  - - concepts/parallel-agent-workflows|Parallel Agent Workflows
+  type: enables
+- target:
+  - - concepts/asynchronous-coding-agents|Asynchronous Coding Agents
+  type: enables
+- target:
+  - - concepts/agent-at-scale|Agent at Scale
+  type: related_to
+- target:
+  - - concepts/cloud-vm-for-agents|Cloud VM for Agents
+  type: implements
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Remote Agents as a Service
 ---
 
 # Remote Agents as a Service

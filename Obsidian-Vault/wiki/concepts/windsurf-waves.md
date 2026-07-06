@@ -1,16 +1,16 @@
 ---
-title: "Windsurf Waves"
+title: Windsurf Waves
 category: concepts
 tags:
-  - windsurf
-  - product-evolution
-  - waves
-  - agentic
-  - mcp
-  - aief2025
-summary: "Windsurf's framework for organizing product evolution into sequential 'waves' of innovation — from autocomplete to parallel agents, with 10 waves shipped including MCP, auto-generated memories, deploys, and browser previews."
+- windsurf
+- product-evolution
+- waves
+- agentic
+- mcp
+- aief2025
+summary: Windsurf's framework for organizing product evolution into sequential 'waves' of innovation — from autocomplete to parallel agents, with 10 waves shipped including MCP, auto-generated memories, dep...
 sources:
-  - "[[sources/watchv=jvunpl5qo8q]]"
+- 'https://www.youtube.com/watch?v=jvunpl5qo8q'
 provenance:
   extracted: 0.95
   inferred: 0.03

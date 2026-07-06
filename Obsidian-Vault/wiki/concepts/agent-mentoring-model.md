@@ -1,19 +1,19 @@
 ---
-title: "Agent Mentoring Model"
+title: Agent Mentoring Model
 tags:
-  - ai-agents
-  - mentoring
-  - agent-strategy
-  - aief2025
-  - human-agent-collaboration
+- ai-agents
+- mentoring
+- agent-strategy
+- aief2025
+- human-agent-collaboration
 aliases:
-  - mentoring the machine
-  - agent mentoring
-  - mentoring AI agents
+- mentoring the machine
+- agent mentoring
+- mentoring AI agents
 sources:
-  - "AIEF2025 - Mentoring the Machine — Eric Hou, Augment Code - https://www.youtube.com/watch?v=Zniw5c9_jx8"
+- AIEF2025 - Mentoring the Machine — Eric Hou, Augment Code - https://www.youtube.com/watch?v=Zniw5c9_jx8
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.85
@@ -22,14 +22,20 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: [[concepts/agent-as-teammate|Agent as Teammate]]
-    type: extends
-  - target: [[concepts/context-gap|Context Gap]]
-    type: addresses
-  - target: [[concepts/perpetually-junior-engineer|Perpetually Junior Engineer]]
-    type: operationalizes
-  - target: [[concepts/agent-evaluation-role|Agent Evaluation Role]]
-    type: requires
+- target:
+  - - concepts/agent-as-teammate|Agent as Teammate
+  type: extends
+- target:
+  - - concepts/context-gap|Context Gap
+  type: addresses
+- target:
+  - - concepts/perpetually-junior-engineer|Perpetually Junior Engineer
+  type: operationalizes
+- target:
+  - - concepts/agent-evaluation-role|Agent Evaluation Role
+  type: requires
+category: concepts
+summary: Agent Mentoring Model
 ---
 
 # Agent Mentoring Model

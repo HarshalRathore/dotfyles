@@ -1,19 +1,19 @@
 ---
-title: "Fidelity vs. Speed Trade-off"
+title: Fidelity vs. Speed Trade-off
 category: concepts
 tags:
-  - evaluation
-  - human-in-the-loop
-  - automation
-  - trade-off
-  - scalability
+- evaluation
+- human-in-the-loop
+- automation
+- trade-off
+- scalability
 aliases:
-  - eval fidelity speed tradeoff
-  - human vs automated evals
+- eval fidelity speed tradeoff
+- human vs automated evals
 sources:
-  - "AIEF2025 - How to run Evals at Scale: Thinking beyond Accuracy or Similarity — Muktesh Mishra, Adobe - https://www.youtube.com/watch?v=coKKKKh8Vns"
+- 'AIEF2025 - How to run Evals at Scale: Thinking beyond Accuracy or Similarity — Muktesh Mishra, Adobe - https://www.youtube.com/watch?v=coKKKKh8Vns'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
 base_confidence: 0.85
@@ -23,12 +23,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/eval-human-in-the-loop|Human-in-the-Loop Evals]]"
-    type: relates_to
-  - target: "[[concepts/adaptive-evals|Adaptive Evals]]"
-    type: constrains
-  - target: "[[concepts/stochastic-evals|Stochastic Evals]]"
-    type: relates_to
+- target: '[[concepts/eval-human-in-the-loop|Human-in-the-Loop Evals]]'
+  type: relates_to
+- target: '[[concepts/adaptive-evals|Adaptive Evals]]'
+  type: constrains
+- target: '[[concepts/stochastic-evals|Stochastic Evals]]'
+  type: relates_to
+summary: Fidelity vs. Speed Trade-off
 ---
 
 # Fidelity vs. Speed Trade-off

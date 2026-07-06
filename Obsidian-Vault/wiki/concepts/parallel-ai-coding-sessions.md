@@ -1,23 +1,24 @@
 ---
-title: "Parallel AI Coding Sessions"
+title: Parallel AI Coding Sessions
 category: concepts
 tags:
-  - github-copilot
-  - vscode
-  - vibe-coding
-  - exploration
-  - ux
+- github-copilot
+- vscode
+- vibe-coding
+- exploration
+- ux
 sources:
-  - "[[sources/watchv=eafp8pds7h4]]"
+- 'https://www.youtube.com/watch?v=eafp8pds7h4'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.55
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Parallel AI Coding Sessions
 ---
 
 # Parallel AI Coding Sessions

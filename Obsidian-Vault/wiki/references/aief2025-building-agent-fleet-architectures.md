@@ -1,38 +1,43 @@
 ---
-title: "AIEF2025 — Building agent fleet architectures your CISO doesn't hate"
+title: AIEF2025 — Building agent fleet architectures your CISO doesn't hate
 category: references
 tags:
-  - aief2025
-  - agent-fleet
-  - architecture
-  - security
-  - ciso
-  - gitpod
-  - managed-substrate
-summary: Lou Bichard's talk at AI Engineer World's Fair 2025 on Gitpod's architectural evolution from multi-tenant SaaS to managed substrate to a first-principles platform for secure dev environments and AI agent fleets.
+- aief2025
+- agent-fleet
+- architecture
+- security
+- ciso
+- gitpod
+- managed-substrate
+summary: Lou Bichard's talk at AI Engineer World's Fair 2025 on Gitpod's architectural evolution from multi-tenant SaaS to managed substrate to a first-principles platform for secure dev environments and AI...
 sources:
-  - "AIEF2025 - Building agent fleet architectures your CISO doesn't hate — Lou Bichard, Gitpod - https://www.youtube.com/watch?v=d9rsC6_VLoA"
+- AIEF2025 - Building agent fleet architectures your CISO doesn't hate — Lou Bichard, Gitpod - https://www.youtube.com/watch?v=d9rsC6_VLoA
 provenance:
   extracted: 0.95
   inferred: 0.05
-  ambiguous: 0.00
-base_confidence: 0.90
+  ambiguous: 0.0
+base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: [[entities/lou-bichard|Lou Bichard]]
-    type: discussed_by
-  - target: [[entities/gitpod|Gitpod]]
-    type: about
-  - target: [[concepts/agent-fleet-architecture|Agent Fleet Architecture]]
-    type: discusses
-  - target: [[concepts/managed-substrate|Managed Substrate]]
-    type: discusses
-  - target: [[concepts/ciso-approval|CISO Approval]]
-    type: discusses
+- target:
+  - - entities/lou-bichard|Lou Bichard
+  type: discussed_by
+- target:
+  - - entities/gitpod|Gitpod
+  type: about
+- target:
+  - - concepts/agent-fleet-architecture|Agent Fleet Architecture
+  type: discusses
+- target:
+  - - concepts/managed-substrate|Managed Substrate
+  type: discusses
+- target:
+  - - concepts/ciso-approval|CISO Approval
+  type: discusses
 ---
 
 # AIEF2025 — Building agent fleet architectures your CISO doesn't hate

@@ -1,24 +1,28 @@
 ---
-title: "Closed Model Assumption"
+title: Closed Model Assumption
 tags:
-  - concept
-  - ai
-  - enterprise
-  - strategy
-  - inference
-aliases: [closed-model reliance, closed frontier model assumption, API model dependency]
+- concept
+- ai
+- enterprise
+- strategy
+- inference
+aliases:
+- closed-model reliance
+- closed frontier model assumption
+- API model dependency
 sources:
-  - "[[sources/watchv=3wv1vt0b0cg]]"
-summary: "The assumption that enterprises can sustainably build on closed frontier API models (OpenAI, Anthropic) indefinitely — and the four cracks (quality, latency, unit economics, destiny) that are breaking it."
+- 'https://www.youtube.com/watch?v=3wv1vt0b0cg'
+summary: The assumption that enterprises can sustainably build on closed frontier API models (OpenAI, Anthropic) indefinitely — and the four cracks (quality, latency, unit economics, destiny) that are break...
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Closed Model Assumption

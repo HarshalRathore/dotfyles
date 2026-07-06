@@ -2,7 +2,8 @@
 title: "Agent Best Practices"
 category: concepts
 tags: [agent-best-practices, coding-agents, prompt-strategy, agent-workflow, getting-started]
-summary: Practical best practices for using coding agents: start small with single-commit tasks, be specific about what and how, mention frameworks and strategies, target tasks with clear definitions of done.
+summary: >-
+  Practical best practices for using coding agents: start small with single-commit tasks, be specific about what and how, mention frameworks and strategies, target tasks with clear definitions of done.
 sources:
   - "AIEF2025 - Software Development Agents: What Works and What Doesn't - Robert Brennan, OpenHands - https://www.youtube.com/watch?v=o_hhkJtlbSs"
 provenance:

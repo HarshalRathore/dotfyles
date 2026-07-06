@@ -1,32 +1,35 @@
 ---
-title: "PyRIT"
+title: PyRIT
 category: entities
 tags:
-  - tool
-  - python
-  - microsoft
-  - ai-red-teaming
-  - security
-  - open-source
-aliases: [Python Red Team Infrastructure Tool, pyrit]
+- tool
+- python
+- microsoft
+- ai-red-teaming
+- security
+- open-source
+aliases:
+- Python Red Team Infrastructure Tool
+- pyrit
 relationships:
-  - target: "[[entities/microsoft-ai-red-team]]"
-    type: implements
-  - target: "[[entities/azure-ai-foundry]]"
-    type: uses
-  - target: "[[concepts/ai-red-teaming]]"
-    type: implements
+- target: '[[entities/microsoft-ai-red-team]]'
+  type: implements
+- target: '[[entities/azure-ai-foundry]]'
+  type: uses
+- target: '[[concepts/ai-red-teaming]]'
+  type: implements
 sources:
-  - "[[sources/watchv=jhjkgramfiu]]"
+- 'https://www.youtube.com/watch?v=jhjkgramfiu'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: PyRIT
 ---
 
 # PyRIT

@@ -1,30 +1,30 @@
 ---
-title: "Small AI Teams with Huge Impact — Vik Paruchuri, Datalab"
+title: Small AI Teams with Huge Impact — Vik Paruchuri, Datalab
 category: references
 tags:
-  - aief2025
-  - talk
-  - small-teams
-  - productivity
-  - datalab
-  - generalist
+- aief2025
+- talk
+- small-teams
+- productivity
+- datalab
+- generalist
 aliases:
-  - AIEF2025 - Small AI Teams with Huge Impact
-  - Vik Paruchuri AIEF2025
+- AIEF2025 - Small AI Teams with Huge Impact
+- Vik Paruchuri AIEF2025
 relationships:
-  - target: "[[entities/vik-paruchuri|Vik Paruchuri]]"
-    type: related_to
-  - target: "[[entities/datalab|Datalab]]"
-    type: related_to
-  - target: "[[concepts/small-ai-teams|Small AI Teams with Huge Impact]]"
-    type: related_to
+- target: '[[entities/vik-paruchuri|Vik Paruchuri]]'
+  type: related_to
+- target: '[[entities/datalab|Datalab]]'
+  type: related_to
+- target: '[[concepts/small-ai-teams|Small AI Teams with Huge Impact]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=k-iykdmfkhe]]"
-summary: "AIEF2025 talk by Vik Paruchuri, CEO of Datalab. Argues that head count does not equal productivity. Shares how a 3-4 person team achieved seven-figure ARR, 40k GitHub stars, and trained state-of-the-art OCR models."
+- 'https://www.youtube.com/watch?v=k-iykdmfkhe'
+summary: AIEF2025 talk by Vik Paruchuri, CEO of Datalab. Argues that head count does not equal productivity. Shares how a 3-4 person team achieved seven-figure ARR, 40k GitHub stars, and trained state-of-th...
 provenance:
-  extracted: 1.00
-  inferred: 0.00
-  ambiguous: 0.00
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
 base_confidence: 0.95
 lifecycle: draft
 lifecycle_changed: 2026-07-04

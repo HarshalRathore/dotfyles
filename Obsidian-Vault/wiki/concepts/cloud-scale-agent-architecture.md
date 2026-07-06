@@ -1,16 +1,16 @@
 ---
-title: "Cloud-Scale Agent Architecture"
+title: Cloud-Scale Agent Architecture
 tags:
-  - agent
-  - architecture
-  - cloud
-  - production
-  - aws
+- agent
+- architecture
+- cloud
+- production
+- aws
 sources:
-  - "[[sources/watchv=ht4l0dep69i]]"
-summary: "An architecture pattern for deploying AI agents at cloud scale using managed services: model hosting via a foundation model API, agentic loop and history via a managed agent service, and tool execution via serverless functions.
+- 'https://www.youtube.com/watch?v=ht4l0dep69i'
+summary: '"An architecture pattern for deploying AI agents at cloud scale using managed services: model hosting via a foundation model API, agentic loop and history via a managed agent service, and tool exec...'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -18,6 +18,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+category: concepts
 ---
 # Cloud-Scale Agent Architecture
 

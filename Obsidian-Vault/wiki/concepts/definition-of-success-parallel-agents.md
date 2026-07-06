@@ -1,32 +1,37 @@
 ---
-title: "Definition of Success for Parallel Agents"
+title: Definition of Success for Parallel Agents
 category: concepts
 tags:
-  - parallel-agents
-  - success-criteria
-  - test-coverage
-  - evaluation
-  - aief2025
+- parallel-agents
+- success-criteria
+- test-coverage
+- evaluation
+- aief2025
 sources:
-  - "AIEF2025 - Your Coding Agent Just Got Cloned And Your Brain Isn't Ready - Rustin Banks, Google Jules - https://www.youtube.com/watch?v=X4BwOu0GWb8"
+- AIEF2025 - Your Coding Agent Just Got Cloned And Your Brain Isn't Ready - Rustin Banks, Google Jules - https://www.youtube.com/watch?v=X4BwOu0GWb8
 relationships:
-  - target: [[concepts/parallel-agent-workflows|Parallel Agent Workflows]]
-    type: enables
-  - target: [[concepts/test-coverage-as-arbiter|Test Coverage as Arbiter]]
-    type: implements
-  - target: [[concepts/stochastic-evals|Stochastic Evals]]
-    type: related_to
-  - target: [[concepts/agent-evaluations|Agent Evaluations]]
-    type: related_to
+- target:
+  - - concepts/parallel-agent-workflows|Parallel Agent Workflows
+  type: enables
+- target:
+  - - concepts/test-coverage-as-arbiter|Test Coverage as Arbiter
+  type: implements
+- target:
+  - - concepts/stochastic-evals|Stochastic Evals
+  type: related_to
+- target:
+  - - concepts/agent-evaluations|Agent Evaluations
+  type: related_to
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.82
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Definition of Success for Parallel Agents
 ---
 
 # Definition of Success for Parallel Agents

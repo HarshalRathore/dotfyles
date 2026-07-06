@@ -1,20 +1,20 @@
 ---
-title: "Ragas"
+title: Ragas
 tags:
-  - library
-  - rag
-  - evaluation
-  - metrics
-  - python
-  - open-source
+- library
+- rag
+- evaluation
+- metrics
+- python
+- open-source
 aliases:
-  - RAGAS
-  - RAG Assessment
+- RAGAS
+- RAG Assessment
 sources:
-  - "[[sources/watchv=-tgqa8fzf80]]"
-summary: "A Python library for end-to-end evaluation of RAG pipelines, measuring faithfulness, answer relevancy, precision recall, and other metrics across response, retrieval, and query dimensions."
+- 'https://www.youtube.com/watch?v=-tgqa8fzf80'
+summary: A Python library for end-to-end evaluation of RAG pipelines, measuring faithfulness, answer relevancy, precision recall, and other metrics across response, retrieval, and query dimensions.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.42
@@ -23,8 +23,9 @@ tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
 relationships:
-  - target: "[[concepts/rag-evaluation|RAG Evaluation]]"
-    type: implements
+- target: '[[concepts/rag-evaluation|RAG Evaluation]]'
+  type: implements
+category: entities
 ---
 
 # Ragas

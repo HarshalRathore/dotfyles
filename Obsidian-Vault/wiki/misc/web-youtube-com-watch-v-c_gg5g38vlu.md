@@ -1,23 +1,29 @@
 ---
-title: "Harnesses in AI: A Deep Dive — Tejas Kumar, IBM"
+title: 'Harnesses in AI: A Deep Dive — Tejas Kumar, IBM'
 category: misc
-tags: [ai, harness, agent, reliability, guardrails]
+tags:
+- ai
+- harness
+- agent
+- reliability
+- guardrails
 sources:
-  - "[[sources/watchv=c_gg5g38vlu]]"
-source_url: "https://www.youtube.com/watch?v=C_GG5g38vLU"
-created: 2026-07-01T00:05:00Z
-updated: 2026-07-01T00:05:00Z
-summary: "Tejas Kumar's AI Engineer talk on building agent harnesses — the infrastructure layer (tooling + context + guardrails) that wraps agents to make them reliable, with a live demo using GPT-3.5 Turbo against Hacker News."
+- 'https://www.youtube.com/watch?v=c_gg5g38vlu'
+source_url: https://www.youtube.com/watch?v=C_GG5g38vLU
+created: 2026-07-01 00:05:00+00:00
+updated: 2026-07-01 00:05:00+00:00
+summary: Tejas Kumar's AI Engineer talk on building agent harnesses — the infrastructure layer (tooling + context + guardrails) that wraps agents to make them reliable, with a live demo using GPT-3.5 Turbo...
 affinity: {}
 promotion_status: misc
 stub: false
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.18
   ambiguous: 0.02
 base_confidence: 0.45
 lifecycle: draft
 lifecycle_changed: 2026-07-01
+tier: supporting
 ---
 
 # Harnesses in AI: A Deep Dive — Tejas Kumar, IBM
@@ -61,8 +67,8 @@ Using GPT-3.5 Turbo (cheap, unreliable by default) against Hacker News:
 ## Concepts
 
 - [[concepts/agent-loop]] — A harness is what makes an agent loop reliable; the verify step is a concrete implementation of an agent loop's evaluation requirement
-- [[web-posthog-com-newsletter-loops]] — The "agent" requirement (purpose-built harnesses with cron triggers and subagent dispatchers) is exactly what Tejas builds in this talk
-- [[web-posthog-com-blog-stop-ai-slop]] — Evals are a form of verification; the verify step in the harness is an eval running inside the agent loop
+- [[misc/web-posthog-com-newsletter-loops]] — The "agent" requirement (purpose-built harnesses with cron triggers and subagent dispatchers) is exactly what Tejas builds in this talk
+- [[misc/web-posthog-com-blog-stop-ai-slop]] — Evals are a form of verification; the verify step in the harness is an eval running inside the agent loop
 
 ## Entities
 
@@ -76,5 +82,5 @@ Using GPT-3.5 Turbo (cheap, unreliable by default) against Hacker News:
 
 ## Related
 
-- [[web-youtube-com-watch-v4f1gfy-hqg]] — Matt Pocock's talk on software fundamentals at the same conference; both argue that engineering discipline matters more than model choice
-- [[web-github-com-karpathy-autoresearch]] — The autoresearch pattern is itself a harness (goal + benchmark + keep/discard loop), just specialized for optimization
+- [[misc/web-youtube-com-watch-v4f1gfy-hqg]] — Matt Pocock's talk on software fundamentals at the same conference; both argue that engineering discipline matters more than model choice
+- [[misc/web-github-com-karpathy-autoresearch]] — The autoresearch pattern is itself a harness (goal + benchmark + keep/discard loop), just specialized for optimization

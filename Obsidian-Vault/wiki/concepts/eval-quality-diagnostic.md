@@ -1,31 +1,32 @@
 ---
-title: "Eval Quality Diagnostic"
+title: Eval Quality Diagnostic
 category: concepts
 tags:
-  - evals
-  - diagnostics
-  - debugging
-  - methodology
-  - braintrust
+- evals
+- diagnostics
+- debugging
+- methodology
+- braintrust
 sources:
-  - "AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY"
+- AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/eval-quality-matrix|Eval Quality Matrix]]"
-    type: elaborates
-  - target: "[[concepts/eval-baseline-first|Eval Baseline First]]"
-    type: uses
-  - target: "[[concepts/eval-driven-iteration|Eval-Driven Iteration]]"
-    type: guides
+- target: '[[concepts/eval-quality-matrix|Eval Quality Matrix]]'
+  type: elaborates
+- target: '[[concepts/eval-baseline-first|Eval Baseline First]]'
+  type: uses
+- target: '[[concepts/eval-driven-iteration|Eval-Driven Iteration]]'
+  type: guides
+summary: Eval Quality Diagnostic
 ---
 
 # Eval Quality Diagnostic

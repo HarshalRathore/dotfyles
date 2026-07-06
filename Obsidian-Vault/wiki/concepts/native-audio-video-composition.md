@@ -1,20 +1,20 @@
 ---
-title: "Native Audio-Video Composition"
+title: Native Audio-Video Composition
 category: concepts
 tags:
-  - audio
-  - video
-  - tokens
-  - multimodal
-  - composition
+- audio
+- video
+- tokens
+- multimodal
+- composition
 aliases:
-  - Native Audio Video
-  - Audio-Video Tokens
+- Native Audio Video
+- Audio-Video Tokens
 sources:
-  - "AIEF2025 - Veo 3 for Developers — Paige Bailey, Google DeepMind - https://www.youtube.com/watch?v=hlcAZ2lX_ZI"
-summary: "The architecture pattern where audio and video tokens are composed together within a single model's token space, enabling temporally and semantically aligned audio-video generation without post-processing."
+- AIEF2025 - Veo 3 for Developers — Paige Bailey, Google DeepMind - https://www.youtube.com/watch?v=hlcAZ2lX_ZI
+summary: The architecture pattern where audio and video tokens are composed together within a single model's token space, enabling temporally and semantically aligned audio-video generation without post-pro...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -24,10 +24,10 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/multimodal-generation|Multimodal Generation]]"
-    type: extends
-  - target: "[[entities/veo-3|Veo 3]]"
-    type: related_to
+- target: '[[concepts/multimodal-generation|Multimodal Generation]]'
+  type: extends
+- target: '[[entities/veo-3|Veo 3]]'
+  type: related_to
 ---
 
 # Native Audio-Video Composition

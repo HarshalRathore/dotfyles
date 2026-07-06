@@ -1,38 +1,39 @@
 ---
-title: "KAG (Knowledge Augmented Generation)"
+title: KAG (Knowledge Augmented Generation)
 tags:
-  - rag
-  - knowledge-graph
-  - retrieval
-  - kag
-  - architecture
-  - structured-data
+- rag
+- knowledge-graph
+- retrieval
+- kag
+- architecture
+- structured-data
 aliases:
-  - Knowledge Augmented Generation
-  - KAG
+- Knowledge Augmented Generation
+- KAG
 sources:
-  - "[[sources/watchv=9aqovt8lnmi]]"
-summary: "A retrieval-generation architecture that integrates structured knowledge graphs with LLMs to produce accurate, insight-driven responses. Unlike RAG (which retrieves passages), KAG retrieves structured entity-relationship subgraphs and can perform precise quantitative reasoning via knowledge cards."
+- 'https://www.youtube.com/watch?v=9aqovt8lnmi'
+summary: A retrieval-generation architecture that integrates structured knowledge graphs with LLMs to produce accurate, insight-driven responses. Unlike RAG (which retrieves passages), KAG retrieves structu...
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.40
+base_confidence: 0.4
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
 relationships:
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: related_to
-  - target: "[[concepts/hybridrag|HybridRAG]]"
-    type: related_to
-  - target: "[[concepts/wisdom-graph|Wisdom Graph]]"
-    type: extends
-  - target: "[[concepts/knowledge-cards|Knowledge Cards]]"
-    type: uses
-  - target: "[[concepts/hybrid-graph-extraction|Hybrid Graph Extraction]]"
-    type: uses
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: related_to
+- target: '[[concepts/hybridrag|HybridRAG]]'
+  type: related_to
+- target: '[[concepts/wisdom-graph|Wisdom Graph]]'
+  type: extends
+- target: '[[concepts/knowledge-cards|Knowledge Cards]]'
+  type: uses
+- target: '[[concepts/hybrid-graph-extraction|Hybrid Graph Extraction]]'
+  type: uses
+category: concepts
 ---
 
 # KAG (Knowledge Augmented Generation)

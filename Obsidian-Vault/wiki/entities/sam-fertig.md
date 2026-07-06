@@ -1,13 +1,18 @@
 ---
-title: "Sam Fertig"
+title: Sam Fertig
 category: entities
-tags: [person, windsurf, engineer, aief2025, ai-coding]
+tags:
+- person
+- windsurf
+- engineer
+- aief2025
+- ai-coding
 aliases:
-  - Sam Fertig
+- Sam Fertig
 sources:
-  - "AIEF2025 - The Eyes Are The (Context) Window to The Soul: How Windsurf Gets to Know You — Sam Fertig, Windsurf - https://www.youtube.com/watch?v=jUv5WSPo9fk"
+- 'AIEF2025 - The Eyes Are The (Context) Window to The Soul: How Windsurf Gets to Know You — Sam Fertig, Windsurf - https://www.youtube.com/watch?v=jUv5WSPo9fk'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.75
@@ -17,8 +22,9 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/windsurf]]"
-    type: works_at
+- target: '[[entities/windsurf]]'
+  type: works_at
+summary: Sam Fertig
 ---
 
 # Sam Fertig

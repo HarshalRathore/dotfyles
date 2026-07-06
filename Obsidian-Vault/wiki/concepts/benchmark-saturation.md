@@ -1,16 +1,16 @@
 ---
-title: "Benchmark Saturation"
+title: Benchmark Saturation
 category: concepts
 tags:
-  - benchmark
-  - saturation
-  - evaluation
-  - llm
-  - aief2025
-  - superglue
-summary: "The state where language models become so proficient at a benchmark that it loses discriminative power. Analogous to benchmark saturation in traditional ML, where models exceed human performance on standardized test-like evaluations."
+- benchmark
+- saturation
+- evaluation
+- llm
+- aief2025
+- superglue
+summary: The state where language models become so proficient at a benchmark that it loses discriminative power. Analogous to benchmark saturation in traditional ML, where models exceed human performance on...
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.75
@@ -20,12 +20,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/benchmark-memes|Benchmark Memes]]"
-    type: derived_from
-  - target: "[[concepts/evolutionary-benchmarks|Evolutionary Benchmarks]]"
-    type: related_to
-  - target: "[[concepts/model-benchmarks|Model Benchmarks]]"
-    type: related_to
+- target: '[[concepts/benchmark-memes|Benchmark Memes]]'
+  type: derived_from
+- target: '[[concepts/evolutionary-benchmarks|Evolutionary Benchmarks]]'
+  type: related_to
+- target: '[[concepts/model-benchmarks|Model Benchmarks]]'
+  type: related_to
+sources: []
 ---
 
 # Benchmark Saturation

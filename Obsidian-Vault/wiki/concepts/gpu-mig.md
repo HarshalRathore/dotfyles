@@ -1,20 +1,20 @@
 ---
-title: "GPU MIG (Multi-Instance GPU)"
+title: GPU MIG (Multi-Instance GPU)
 category: concepts
 tags:
-  - gpu
-  - mig
-  - h100
-  - cost-optimization
-  - inference
-  - tensorrt-llm
-  - hopper
+- gpu
+- mig
+- h100
+- cost-optimization
+- inference
+- tensorrt-llm
+- hopper
 aliases:
-  - Multi-Instance GPU
-  - MIG
-summary: NVIDIA H100 Multi-Instance GPU technology that partitions a single GPU into isolated instances, enabling cost-efficient deployment of small models (3B params) on fraction of an H100 while retaining Hopper architecture benefits.
+- Multi-Instance GPU
+- MIG
+summary: NVIDIA H100 Multi-Instance GPU technology that partitions a single GPU into isolated instances, enabling cost-efficient deployment of small models (3B params) on fraction of an H100 while retaining...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -23,12 +23,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/gpu-utilization]]"
-    type: extends
-  - target: "[[entities/nvidia]]"
-    type: implements
-  - target: "[[concepts/voice-inference-metrics]]"
-    type: optimizes
+- target: '[[concepts/gpu-utilization]]'
+  type: extends
+- target: '[[entities/nvidia]]'
+  type: implements
+- target: '[[concepts/voice-inference-metrics]]'
+  type: optimizes
+sources: []
 ---
 
 # GPU MIG (Multi-Instance GPU)

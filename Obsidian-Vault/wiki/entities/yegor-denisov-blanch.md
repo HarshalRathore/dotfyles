@@ -1,19 +1,19 @@
 ---
-title: "Yegor Denisov-Blanch"
+title: Yegor Denisov-Blanch
 category: entities
 tags:
-  - person
-  - researcher
-  - stanford
-  - software-engineering
-  - ai-productivity
-  - aief2025
+- person
+- researcher
+- stanford
+- software-engineering
+- ai-productivity
+- aief2025
 aliases:
-  - Yegor Denisov-Blanch
-  - Yegor
+- Yegor Denisov-Blanch
+- Yegor
 sources:
-  - "AIEF2025 - Does AI Actually Boost Developer Productivity? (100k Devs Study) - Yegor Denisov-Blanch, Stanford - https://www.youtube.com/watch?v=tbDDYKRFjhk"
-summary: "Stanford researcher and speaker at AI Engineer World's Fair 2025. Leads one of the largest studies on AI's impact on developer productivity, analyzing 100k+ engineers across 600+ companies. Former digital transformation leader at a large enterprise."
+- AIEF2025 - Does AI Actually Boost Developer Productivity? (100k Devs Study) - Yegor Denisov-Blanch, Stanford - https://www.youtube.com/watch?v=tbDDYKRFjhk
+summary: Stanford researcher and speaker at AI Engineer World's Fair 2025. Leads one of the largest studies on AI's impact on developer productivity, analyzing 100k+ engineers across 600+ companies. Former...
 provenance:
   extracted: 0.95
   inferred: 0.04
@@ -25,12 +25,12 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/stanford|Stanford University]]"
-    type: affiliated_with
-  - target: "[[concepts/ai-productivity-measurement|AI Productivity Measurement]]"
-    type: related_to
-  - target: "[[concepts/ghost-engineers|Ghost Engineers]]"
-    type: related_to
+- target: '[[entities/stanford|Stanford University]]'
+  type: affiliated_with
+- target: '[[concepts/ai-productivity-measurement|AI Productivity Measurement]]'
+  type: related_to
+- target: '[[concepts/ghost-engineers|Ghost Engineers]]'
+  type: related_to
 ---
 
 # Yegor Denisov-Blanch

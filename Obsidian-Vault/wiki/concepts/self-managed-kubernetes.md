@@ -1,17 +1,26 @@
 ---
 type: concept
-title: "Self-Managed Kubernetes"
+title: Self-Managed Kubernetes
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/introduction_804367]]"
+- '[[sources/introduction_804367]]'
 tags:
-  - deployment
+- deployment
 aliases:
-  - 自建Kubernetes
-  - 裸金属Kubernetes
+- 自建Kubernetes
+- 裸金属Kubernetes
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Self-Managed Kubernetes
 ---
 # Self-Managed Kubernetes
 
@@ -34,7 +43,7 @@ Self-Managed Kubernetes is a deployment model where an organization takes full r
 
 ## Related Concepts
 - [[concepts/control-plane-node]]
-- [[worker-node]]
+- [[concepts/worker-node]]
 - [[concepts/container-runtime]]
 
 ## Related Entities

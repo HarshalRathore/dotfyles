@@ -1,28 +1,34 @@
 ---
-title: "Reinforcement Learning"
+title: Reinforcement Learning
 category: concepts
-tags: [reinforcement-learning, rl, learning, search, bitter-lesson, rich-sutton]
-summary: "A machine learning paradigm where systems learn by interacting with their environment. Sutton identifies it as one of the two general methods (with search) that consistently outperform domain-knowledge approaches."
+tags:
+- reinforcement-learning
+- rl
+- learning
+- search
+- bitter-lesson
+- rich-sutton
+summary: A machine learning paradigm where systems learn by interacting with their environment. Sutton identifies it as one of the two general methods (with search) that consistently outperform domain-knowl...
 sources:
-  - "The Bitter Lesson — Rich Sutton - https://www.incompleteideas.net/IncIdeas/BitterLesson.html"
-  - "AIEF2025 - On Engineering AI Systems that Endure The Bitter Lesson - Omar Khattab, DSPy & Databricks - https://www.youtube.com/watch?v=qdmxApz3EJI"
+- The Bitter Lesson — Rich Sutton - https://www.incompleteideas.net/IncIdeas/BitterLesson.html
+- AIEF2025 - On Engineering AI Systems that Endure The Bitter Lesson - Omar Khattab, DSPy & Databricks - https://www.youtube.com/watch?v=qdmxApz3EJI
 provenance:
   extracted: 0.65
-  inferred: 0.30
+  inferred: 0.3
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/bitter-lesson|The Bitter Lesson]]"
-    type: exemplifies
-  - target: "[[concepts/search-and-learn|Search and Learn]]"
-    type: implements
-  - target: "[[entities/rich-sutton|Rich Sutton]]"
-    type: pioneered_by
+- target: '[[concepts/bitter-lesson|The Bitter Lesson]]'
+  type: exemplifies
+- target: '[[concepts/search-and-learn|Search and Learn]]'
+  type: implements
+- target: '[[entities/rich-sutton|Rich Sutton]]'
+  type: pioneered_by
 ---
 
 # Reinforcement Learning

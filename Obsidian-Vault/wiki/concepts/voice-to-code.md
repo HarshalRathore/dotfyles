@@ -1,24 +1,24 @@
 ---
-title: "Voice-to-Code"
+title: Voice-to-Code
 category: concepts
 tags:
-  - voice-to-code
-  - voice-dictation
-  - ai-coding
-  - vibe-engineering
-  - prompt-engineering
-  - cursor
+- voice-to-code
+- voice-dictation
+- ai-coding
+- vibe-engineering
+- prompt-engineering
+- cursor
 sources:
-  - "[[sources/watchv=jv-wy5pxxlo]]"
+- 'https://www.youtube.com/watch?v=jv-wy5pxxlo'
 relationships:
-  - target: "[[concepts/voice-dictation-ai-coding]]"
-    type: extends
-  - target: "[[concepts/vibe-engineering]]"
-    type: implements
-  - target: "[[concepts/context-engineering]]"
-    type: related_to
+- target: '[[concepts/voice-dictation-ai-coding]]'
+  type: extends
+- target: '[[concepts/vibe-engineering]]'
+  type: implements
+- target: '[[concepts/context-engineering]]'
+  type: related_to
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.78
@@ -26,6 +26,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Voice-to-Code
 ---
 
 # Voice-to-Code

@@ -1,32 +1,33 @@
 ---
-title: "Omnimodal Models"
+title: Omnimodal Models
 category: concepts
 tags:
-  - omnimodal
-  - multimodal
-  - models
-  - google-deepmind
-  - gemini
-  - audio
-  - video
-summary: "The next evolution beyond multimodal: AI models that handle all modalities (text, image, audio, video) with equal depth and native cross-modal reasoning, not just parallel processing."
+- omnimodal
+- multimodal
+- models
+- google-deepmind
+- gemini
+- audio
+- video
+summary: 'The next evolution beyond multimodal: AI models that handle all modalities (text, image, audio, video) with equal depth and native cross-modal reasoning, not just parallel processing.'
 provenance:
-  extracted: 0.60
+  extracted: 0.6
   inferred: 0.35
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/multimodal-models|Multimodal Models]]"
-    type: extends
-  - target: "[[concepts/voice-generation|Voice Generation]]"
-    type: related_to
-  - target: "[[entities/gemini|Gemini]]"
-    type: related_to
+- target: '[[concepts/multimodal-models|Multimodal Models]]'
+  type: extends
+- target: '[[concepts/voice-generation|Voice Generation]]'
+  type: related_to
+- target: '[[entities/gemini|Gemini]]'
+  type: related_to
+sources: []
 ---
 
 # Omnimodal Models

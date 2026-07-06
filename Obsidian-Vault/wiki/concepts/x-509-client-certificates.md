@@ -1,17 +1,26 @@
 ---
 type: concept
-title: "X.509 client certificates"
+title: X.509 client certificates
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/🔐-security-in-kubernetes_0a37d1]]"
+- '[[sources/🔐-security-in-kubernetes_0a37d1]]'
 tags:
-  - tls
+- tls
 aliases:
-  - X.509 Client Certificate Authentication
-  - Client Cert Auth
+- X.509 Client Certificate Authentication
+- Client Cert Auth
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: X.509 client certificates
 ---
 # X.509 client certificates
 
@@ -35,7 +44,7 @@ X.509 client certificates are a public key infrastructure (PKI) based authentica
 
 ## Related Concepts
 - [[concepts/authentication-kubernetes]]
-- [[tls-certificates]]
+- [[concepts/tls-certificates]]
 - [[concepts/rbac]]
 
 ## Related Entities

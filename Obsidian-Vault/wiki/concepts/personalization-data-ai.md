@@ -1,23 +1,24 @@
 ---
-title: "Personalization Data in AI"
+title: Personalization Data in AI
 category: concepts
 tags:
-  - personalization
-  - customer-data
-  - ai-agents
-  - generative-ai
-  - user-profiles
+- personalization
+- customer-data
+- ai-agents
+- generative-ai
+- user-profiles
 sources:
-  - "[[sources/watchv=rofhhjmumcc]]"
+- 'https://www.youtube.com/watch?v=rofhhjmumcc'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.82
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Personalization Data in AI
 ---
 # Personalization Data in AI
 

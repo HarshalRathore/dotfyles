@@ -1,11 +1,13 @@
 ---
-title: Government Agents: AI Agents Meet Tough Regulations
+title: >-
+  Government Agents: AI Agents Meet Tough Regulations
 category: references
 tags: [aief2025, government-ai, ai-agents, regulations, national-security, los-alamos, hpc, classified-data, ai-governance, agentic-science]
 summary: Mark Myshatyn (LANL) on bringing AI agents into government mission work under strict regulatory constraints — OMB memos, FedRAMP, CNSSI 1253, classified data, and HPC-executed agents.
 sources:
-  - "[[sources/watchv=tnsgx36ly0q]]"
-provenance: {extracted: 0.85, inferred: 0.10, ambiguous: 0.05}
+  - "https://www.youtube.com/watch?v=tnsgx36ly0q"
+provenance: >-
+  {extracted: 0.85, inferred: 0.10, ambiguous: 0.05}
 base_confidence: 0.90
 lifecycle: draft
 lifecycle_changed: 2026-07-04

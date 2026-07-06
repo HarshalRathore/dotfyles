@@ -1,16 +1,25 @@
 ---
 type: concept
-title: "LimitRanger"
+title: LimitRanger
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/admission-controllers_7667fc]]"
+- '[[sources/admission-controllers_7667fc]]'
 tags:
-  - scheduling
+- scheduling
 aliases:
-  - Limit Range Controller
+- Limit Range Controller
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: LimitRanger
 ---
 # LimitRanger
 

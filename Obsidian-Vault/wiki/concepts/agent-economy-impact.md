@@ -1,36 +1,36 @@
 ---
-title: "Agent Economy Impact"
+title: Agent Economy Impact
 category: concepts
 tags:
-  - agent-economy
-  - business-impact
-  - roi
-  - productivity
-  - ai-agents
-  - revenue-impact
+- agent-economy
+- business-impact
+- roi
+- productivity
+- ai-agents
+- revenue-impact
 aliases:
-  - agents business impact
-  - agent ROI
+- agents business impact
+- agent ROI
 sources:
-  - "AIEF2025 - Building Agents (the hard parts!) - Rita Kozlov, Cloudflare - https://www.youtube.com/watch?v=j_TKDweOsYE"
-summary: "Measurable business impact of agent adoption: 28% revenue increases in sales automation, 90% faster support response times, and 50-75% time savings. Early evidence that agents are reshaping how work gets done."
+- AIEF2025 - Building Agents (the hard parts!) - Rita Kozlov, Cloudflare - https://www.youtube.com/watch?v=j_TKDweOsYE
+summary: 'Measurable business impact of agent adoption: 28% revenue increases in sales automation, 90% faster support response times, and 50-75% time savings. Early evidence that agents are reshaping how wor...'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/agent-adoption-surge]]"
-    type: related_to
-  - target: "[[concepts/roi-measurement-challenges]]"
-    type: related_to
-  - target: "[[concepts/knowledge-work-automation]]"
-    type: enables
+- target: '[[concepts/agent-adoption-surge]]'
+  type: related_to
+- target: '[[concepts/roi-measurement-challenges]]'
+  type: related_to
+- target: '[[concepts/knowledge-work-automation]]'
+  type: enables
 ---
 
 # Agent Economy Impact

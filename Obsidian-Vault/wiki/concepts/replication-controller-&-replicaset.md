@@ -1,11 +1,21 @@
 ---
-title: "Replication Controller & ReplicaSet"
+title: Replication Controller & ReplicaSet
 type: redirect
-redirects_to: "[[admission-controller]]"
+redirects_to: '[[concepts/admission-controller]]'
 tags:
-  - term
-created: 
-updated: "2026-07-02"
+- term
+created: '2026-07-02T13:49:05.210593+00:00'
+updated: '2026-07-02'
+category: concepts
+sources: []
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Replication Controller & Replicaset
 ---
 
-This page has been merged into [[admission-controller]].
+This page has been merged into [[concepts/admission-controller]].

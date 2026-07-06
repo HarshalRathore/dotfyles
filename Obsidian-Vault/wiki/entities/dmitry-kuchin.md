@@ -1,15 +1,15 @@
 ---
-title: "Dmitry Kuchin"
+title: Dmitry Kuchin
 tags:
-  - person
-  - speaker
-  - ai-engineer-worlds-fair
-  - evaluation
+- person
+- speaker
+- ai-engineer-worlds-fair
+- evaluation
 sources:
-  - "[[sources/watchv=-t6uzyyzkww]]"
-summary: "Co-founder, CTO with 15+ years experience, founder of Multinear open-source evaluation platform. Speaker on practical AI evaluation and reliability methodology at AI Engineer World's Fair 2025."
+- 'https://www.youtube.com/watch?v=-t6uzyyzkww'
+summary: Co-founder, CTO with 15+ years experience, founder of Multinear open-source evaluation platform. Speaker on practical AI evaluation and reliability methodology at AI Engineer World's Fair 2025.
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.55
@@ -17,6 +17,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Dmitry Kuchin

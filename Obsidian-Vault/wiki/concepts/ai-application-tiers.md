@@ -1,12 +1,19 @@
 ---
 title: AI Application Tiers
 category: concepts
-tags: [ai-application, tiers, enterprise-ai, self-service, automation, monetization, chatbot]
-summary: "A three-tier classification of enterprise AI applications: self-service productivity tools, automated business functions, and monetization features — each with different complexity, value, and risk profiles."
+tags:
+- ai-application
+- tiers
+- enterprise-ai
+- self-service
+- automation
+- monetization
+- chatbot
+summary: 'A three-tier classification of enterprise AI applications: self-service productivity tools, automated business functions, and monetization features — each with different complexity, value, and risk...'
 provenance:
-  extracted: 0.90
-  inferred: 0.10
-  ambiguous: 0.00
+  extracted: 0.9
+  inferred: 0.1
+  ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-05
@@ -14,14 +21,15 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/evals-as-moat]]"
-    type: related_to
-  - target: "[[concepts/monetizing-ai]]"
-    type: related_to
-  - target: "[[concepts/intelligent-document-processing]]"
-    type: related_to
-  - target: "[[concepts/enterprise-ai-administration]]"
-    type: related_to
+- target: '[[concepts/evals-as-moat]]'
+  type: related_to
+- target: '[[concepts/monetizing-ai]]'
+  type: related_to
+- target: '[[concepts/intelligent-document-processing]]'
+  type: related_to
+- target: '[[concepts/enterprise-ai-administration]]'
+  type: related_to
+sources: []
 ---
 
 **AI Application Tiers** is a three-tier classification of how enterprises use generative AI, ranging from simple productivity tools to complex autonomous systems. This framework was presented by **[[entities/randall-hunt|Randall Hunt]]** of **[[entities/caylent|Caylent]]** at AIEF2025.

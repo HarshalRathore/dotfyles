@@ -1,37 +1,26 @@
 ---
-title: "Human-in-the-Loop"
+title: Human-in-the-Loop
 category: concepts
 tags:
-  - human-in-the-loop
-  - agents
-  - approval-gates
-  - agentic-workflows
-  - oversight
-aliases:
-  - HITL
-  - human approval
-  - agent approval
+- human-in-the-loop
+- agents
+- approval-gates
+- agentic-workflows
+- oversight
 sources:
-  - "AIEF2025 - Building Agents (the hard parts!) - Rita Kozlov, Cloudflare - https://www.youtube.com/watch?v=j_TKDweOsYE"
-  - "AIEF2025 - Why your product needs an AI product manager, and why it should be you — James Lowe, i.AI - https://www.youtube.com/watch?v=xzJdSi2Tsqw"
-summary: "Human approval gates in agentic workflows where agents pause for human review before executing actions — a critical pattern for responsible automation that balances autonomy with human oversight.
+- AIEF2025 - Building Agents (the hard parts!) - Rita Kozlov, Cloudflare - https://www.youtube.com/watch?v=j_TKDweOsYE
+- AIEF2025 - Why your product needs an AI product manager, and why it should be you — James Lowe, i.AI - https://www.youtube.com/watch?v=xzJdSi2Tsqw
+summary: Human approval gates in agentic workflows where agents pause for human review before executing actions — a critical pattern for responsible automation that balances autonomy with human oversight.
 provenance:
-  extracted: 0.80
-  inferred: 0.12
-  ambiguous: 0.08
-base_confidence: 0.75
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+base_confidence: 0.42
 lifecycle: draft
-lifecycle_changed: 2026-07-05
+lifecycle_changed: '2026-07-05'
 tier: supporting
-created: 2026-07-04
-updated: 2026-07-05
-relationships:
-  - target: "[[concepts/agent-workflows]]"
-    type: extends
-  - target: "[[concepts/assistive-vs-automation-agents]]"
-    type: related_to
-  - target: "[[concepts/agent-architecture]]"
-    type: core_component_of
+created: '2026-07-04'
+updated: '2026-07-05'
 ---
 
 # Human-in-the-Loop

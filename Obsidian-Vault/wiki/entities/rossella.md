@@ -1,23 +1,24 @@
 ---
-title: "Rossella"
+title: Rossella
 tags:
-  - person
-  - speaker
-  - ai
-  - saas
+- person
+- speaker
+- ai
+- saas
 aliases: []
 sources:
-  - "[[sources/watchv=3ygrcgzj3yc]]"
-summary: "Sprout Social AI leader and co-presenter at AI Engineer World's Fair 2025 on building an AI-first SaaS company. Only identified by first name in the talk."
+- 'https://www.youtube.com/watch?v=3ygrcgzj3yc'
+summary: Sprout Social AI leader and co-presenter at AI Engineer World's Fair 2025 on building an AI-first SaaS company. Only identified by first name in the talk.
 provenance:
-  extracted: 0.50
-  inferred: 0.40
-  ambiguous: 0.10
+  extracted: 0.5
+  inferred: 0.4
+  ambiguous: 0.1
 base_confidence: 0.35
 lifecycle: draft
 tier: peripheral
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Rossella

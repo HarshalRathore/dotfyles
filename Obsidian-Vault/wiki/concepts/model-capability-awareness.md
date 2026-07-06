@@ -1,30 +1,31 @@
 ---
-title: "Model Capability Awareness"
+title: Model Capability Awareness
 category: concepts
 tags:
-  - ai-coding
-  - vibe-engineering
-  - model-capabilities
-  - prompt-engineering
-  - skill-hell
+- ai-coding
+- vibe-engineering
+- model-capabilities
+- prompt-engineering
+- skill-hell
 sources:
-  - "[[sources/watchv=jv-wy5pxxlo]]"
+- 'https://www.youtube.com/watch?v=jv-wy5pxxlo'
 relationships:
-  - target: "[[concepts/vibe-engineering]]"
-    type: implements
-  - target: "[[concepts/skill-hell]]"
-    type: related_to
-  - target: "[[concepts/context-engineering]]"
-    type: related_to
+- target: '[[concepts/vibe-engineering]]'
+  type: implements
+- target: '[[concepts/skill-hell]]'
+  type: related_to
+- target: '[[concepts/context-engineering]]'
+  type: related_to
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.76
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Model Capability Awareness
 ---
 
 # Model Capability Awareness

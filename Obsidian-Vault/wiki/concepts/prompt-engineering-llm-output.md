@@ -1,21 +1,21 @@
 ---
-title: "Prompt Engineering for LLM Output"
+title: Prompt Engineering for LLM Output
 category: concepts
 tags:
-  - prompt-engineering
-  - llm
-  - output-formatting
-  - xml-tags
-  - ai-editing
+- prompt-engineering
+- llm
+- output-formatting
+- xml-tags
+- ai-editing
 sources:
-  - "AIEF2025 - CI in the Era of AI: From Unit Tests to Stochastic Evals — Nathan Sobo, Zed - https://www.youtube.com/watch?v=WXy8Yy9xGss"
+- 'AIEF2025 - CI in the Era of AI: From Unit Tests to Stochastic Evals — Nathan Sobo, Zed - https://www.youtube.com/watch?v=WXy8Yy9xGss'
 relationships:
-  - target: "[[concepts/stochastic-evals|Stochastic Evals]]"
-    type: related_to
-  - target: "[[concepts/deterministic-from-stochastic|Deterministic-From-Stochastic]]"
-    type: related_to
+- target: '[[concepts/stochastic-evals|Stochastic Evals]]'
+  type: related_to
+- target: '[[concepts/deterministic-from-stochastic|Deterministic-From-Stochastic]]'
+  type: related_to
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.85
@@ -23,6 +23,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Prompt Engineering for LLM Output
 ---
 
 # Prompt Engineering for LLM Output

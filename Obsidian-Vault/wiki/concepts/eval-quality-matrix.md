@@ -1,25 +1,29 @@
 ---
-title: "Eval Quality Matrix"
+title: Eval Quality Matrix
 tags:
-  - concept
-  - evaluation
-  - methodology
-  - debugging
-  - diagnostics
-aliases: [quality score matrix, eval diagnostic matrix, output-score matrix]
+- concept
+- evaluation
+- methodology
+- debugging
+- diagnostics
+aliases:
+- quality score matrix
+- eval diagnostic matrix
+- output-score matrix
 sources:
-  - "[[sources/watchv=9in-cpnp7xg]]"
-  - "AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY"
-summary: "A 2x2 diagnostic matrix that maps human judgment of output quality (good/bad) against eval scores (high/low) to determine whether to improve the AI app or improve the evaluation itself."
+- 'https://www.youtube.com/watch?v=9in-cpnp7xg'
+- AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY
+summary: A 2x2 diagnostic matrix that maps human judgment of output quality (good/bad) against eval scores (high/low) to determine whether to improve the AI app or improve the evaluation itself.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Eval Quality Matrix

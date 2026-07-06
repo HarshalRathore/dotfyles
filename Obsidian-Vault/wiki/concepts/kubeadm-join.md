@@ -1,17 +1,26 @@
 ---
 type: concept
-title: "kubeadm join"
+title: kubeadm join
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/install-kubernetes-components_c70e92]]"
+- '[[sources/install-kubernetes-components_c70e92]]'
 tags:
-  - deployment
+- deployment
 aliases:
-  - worker join
-  - Kubeadm Join
+- worker join
+- Kubeadm Join
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: kubeadm join
 ---
 # kubeadm join
 
@@ -30,7 +39,7 @@ aliases:
 - Automating node provisioning and cluster scaling in self-managed Kubernetes environments.
 
 ## Related Concepts
-- [[worker-node]]
+- [[concepts/worker-node]]
 - [[concepts/kubeadm-init]]
 - [[concepts/bootstrapping]]
 

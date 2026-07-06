@@ -1,19 +1,28 @@
 ---
 type: entity
-title: "Containerd"
+title: Containerd
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/install-kubernetes-components_c70e92]]"
-  - "[[sources/manual-notes_10b5c5]]"
-  - "[[sources/scheduling_f2b3ef]]"
-  - "[[sources/containerd-cri-etc_fb87d8]]"
+- '[[sources/install-kubernetes-components_c70e92]]'
+- '[[sources/manual-notes_10b5c5]]'
+- '[[sources/scheduling_f2b3ef]]'
+- '[[sources/containerd-cri-etc_fb87d8]]'
 tags:
-  - product
+- product
 aliases:
-  - containerd.io
+- containerd.io
+category: entities
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Containerd
 ---
 ## Related Entities
 - [[entities/kubeadm]]
@@ -31,7 +40,7 @@ aliases:
 - [[concepts/container-runtime]]
 - [[concepts/container-runtime]]
 - node configuration
-- [[worker-node]]
+- [[concepts/worker-node]]
 - [[concepts/container-dns-resolution]]
 - OCI runtime spec
 

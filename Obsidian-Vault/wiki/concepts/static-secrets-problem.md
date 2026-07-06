@@ -1,30 +1,31 @@
 ---
-title: "Static Secrets Problem"
+title: Static Secrets Problem
 category: concepts
 tags:
-  - security
-  - api-keys
-  - secrets
-  - oauth
-  - agent-security
+- security
+- api-keys
+- secrets
+- oauth
+- agent-security
 sources:
-  - "AIEF2025 - How to Secure Agents using OAuth — Jared Hanson (Keycard, Passport.js) - https://www.youtube.com/watch?v=blmAkayzE8M"
+- AIEF2025 - How to Secure Agents using OAuth — Jared Hanson (Keycard, Passport.js) - https://www.youtube.com/watch?v=blmAkayzE8M
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/oauth-2.0|OAuth 2.0]]"
-    type: contradicts
-  - target: "[[concepts/access-token|Access Token]]"
-    type: related_to
-  - target: "[[concepts/mcp-resource-server-separation|MCP Resource Server Separation]]"
-    type: related_to
+- target: '[[concepts/oauth-2.0|OAuth 2.0]]'
+  type: contradicts
+- target: '[[concepts/access-token|Access Token]]'
+  type: related_to
+- target: '[[concepts/mcp-resource-server-separation|MCP Resource Server Separation]]'
+  type: related_to
+summary: Static Secrets Problem
 ---
 
 # Static Secrets Problem

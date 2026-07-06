@@ -16,24 +16,24 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/prompt-engineering-is-dead.md]]"
+  - target: "[[concepts/prompt-engineering-is-dead]]"
     type: implements
-  - target: "[[concepts/llm-as-judge-evaluation.md]]"
+  - target: "[[concepts/llm-as-judge-evaluation]]"
     type: uses
-  - target: "[[concepts/eval-driven-development.md]]"
+  - target: "[[concepts/eval-driven-development]]"
     type: extends
-  - target: "[[entities/crewai.md]]"
+  - target: "[[entities/crewai]]"
     type: uses
 ---
 
 # Auto-Improving Agent Loop
 
-An autonomous agent loop that iteratively improves a system by combining evaluation feedback with external knowledge sources. [[entities/nir-gazit.md|Nir Gazit]] demonstrated this at AIEF2025 to optimize a [[concepts/rag-pipeline-architecture.md|RAG chatbot]] without manual prompt engineering.
+An autonomous agent loop that iteratively improves a system by combining evaluation feedback with external knowledge sources. [[entities/nir-gazit|Nir Gazit]] demonstrated this at AIEF2025 to optimize a [[concepts/rag-pipeline-architecture|RAG chatbot]] without manual prompt engineering.
 
 The loop has four phases:
 
-1. **Research**: An agent (built with [[entities/crewai.md|CrewAI]]) crawls the web for prompt engineering guides and best practices.
-2. **Evaluate**: The current system is evaluated using an [[concepts/llm-as-judge-evaluation.md|LLM-as-judge]] evaluator, producing a score and failure reasons.
+1. **Research**: An agent (built with [[entities/crewai|CrewAI]]) crawls the web for prompt engineering guides and best practices.
+2. **Evaluate**: The current system is evaluated using an [[concepts/llm-as-judge-evaluation|LLM-as-judge]] evaluator, producing a score and failure reasons.
 3. **Synthesize**: The agent combines the failure reasons from evaluation with the prompt engineering guides from research to generate a new, improved prompt.
 4. **Iterate**: The new prompt is fed back into the evaluator, the loop repeats, and the score is expected to improve.
 

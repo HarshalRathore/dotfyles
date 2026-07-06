@@ -1,21 +1,21 @@
 ---
-title: "Pelican-on-Bicycle Benchmark"
+title: Pelican-on-Bicycle Benchmark
 category: concepts
 tags:
-  - benchmark
-  - evaluation
-  - svg
-  - code-generation
-  - informal-benchmark
-  - aief2025
+- benchmark
+- evaluation
+- svg
+- code-generation
+- informal-benchmark
+- aief2025
 aliases:
-  - pelican benchmark
-  - pelican on bicycle
+- pelican benchmark
+- pelican on bicycle
 sources:
-  - "AIEF2025 - 2025 in LLMs so far, illustrated by Pelicans on Bicycles — Simon Willison - https://www.youtube.com/watch?v=YpY83-kA7Bo"
-summary: "An informal benchmark created by Simon Willison that prompts text LLMs to generate SVG code of a pelican riding a bicycle, evaluating spatial reasoning, code generation, and creative problem-solving in text-only models."
+- AIEF2025 - 2025 in LLMs so far, illustrated by Pelicans on Bicycles — Simon Willison - https://www.youtube.com/watch?v=YpY83-kA7Bo
+summary: An informal benchmark created by Simon Willison that prompts text LLMs to generate SVG code of a pelican riding a bicycle, evaluating spatial reasoning, code generation, and creative problem-solvin...
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -25,10 +25,10 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/swe-bench|SWE-bench]]"
-    type: related_to
-  - target: "[[concepts/leaderboard-skepticism|Leaderboard Skepticism]]"
-    type: alternative_to
+- target: '[[concepts/swe-bench|SWE-bench]]'
+  type: related_to
+- target: '[[concepts/leaderboard-skepticism|Leaderboard Skepticism]]'
+  type: alternative_to
 ---
 
 # Pelican-on-Bicycle Benchmark

@@ -1,16 +1,16 @@
 ---
-title: "Agent Iteration Loop"
+title: Agent Iteration Loop
 category: concepts
 tags:
-  - agent
-  - iteration
-  - prompt-engineering
-  - github-copilot
-  - agent-mode
+- agent
+- iteration
+- prompt-engineering
+- github-copilot
+- agent-mode
 sources:
-  - "[[sources/watchv=rkvilz06y08]]"
+- 'https://www.youtube.com/watch?v=rkvilz06y08'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -18,6 +18,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Agent Iteration Loop
 ---
 
 # Agent Iteration Loop

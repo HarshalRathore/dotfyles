@@ -1,15 +1,17 @@
 ---
-title: "David Cramer"
+title: David Cramer
 tags:
-  - person
-  - founder
-  - engineer
-  - software-engineering
-  - sentry
-aliases: [David Kramer, dcramer]
+- person
+- founder
+- engineer
+- software-engineering
+- sentry
+aliases:
+- David Kramer
+- dcramer
 sources:
-  - "[[sources/watchv=fci4jt86gsw]]"
-summary: "Founder of Sentry (application monitoring platform). Engineer-executive who built Sentry's MCP server and advocates for pragmatic agent architectures over protocol hype."
+- 'https://www.youtube.com/watch?v=fci4jt86gsw'
+summary: Founder of Sentry (application monitoring platform). Engineer-executive who built Sentry's MCP server and advocates for pragmatic agent architectures over protocol hype.
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -19,6 +21,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # David Cramer

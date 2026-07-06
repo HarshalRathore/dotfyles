@@ -1,16 +1,16 @@
 ---
-title: "Gumloop"
+title: Gumloop
 category: entities
 tags:
-  - company
-  - tool
-  - workflow-automation
-  - ai-agents
-  - y-combinator
-  - aief2025
-  - node-based
-  - automation
-summary: "Workflow automation tool by Max Brodeur-Urbas. YC Winter 2024. Raised Series A as two people. Core product: AI agents as configurable workflow nodes. Used by large enterprises."
+- company
+- tool
+- workflow-automation
+- ai-agents
+- y-combinator
+- aief2025
+- node-based
+- automation
+summary: 'Workflow automation tool by Max Brodeur-Urbas. YC Winter 2024. Raised Series A as two people. Core product: AI agents as configurable workflow nodes. Used by large enterprises.'
 provenance:
   extracted: 0.9
   inferred: 0.1
@@ -22,12 +22,13 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/workflow-automation]]"
-    type: implements
-  - target: "[[entities/max-brodeur-urbas]]"
-    type: related_to
-  - target: "[[entities/instacart]]"
-    type: uses
+- target: '[[concepts/workflow-automation]]'
+  type: implements
+- target: '[[entities/max-brodeur-urbas]]'
+  type: related_to
+- target: '[[entities/instacart]]'
+  type: uses
+sources: []
 ---
 
 ## Gumloop

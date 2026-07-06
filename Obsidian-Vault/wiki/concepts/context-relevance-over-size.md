@@ -1,27 +1,34 @@
 ---
-title: "Context Relevance Over Size"
+title: Context Relevance Over Size
 category: concepts
-tags: [context, context-window, ai-coding, windsurf, latency, optimization]
+tags:
+- context
+- context-window
+- ai-coding
+- windsurf
+- latency
+- optimization
 aliases:
-  - Relevance Over Context Size
-  - Context Quality Over Quantity
+- Relevance Over Context Size
+- Context Quality Over Quantity
 sources:
-  - "AIEF2025 - The Eyes Are The (Context) Window to The Soul: How Windsurf Gets to Know You — Sam Fertig, Windsurf - https://www.youtube.com/watch?v=jUv5WSPo9fk"
+- 'AIEF2025 - The Eyes Are The (Context) Window to The Soul: How Windsurf Gets to Know You — Sam Fertig, Windsurf - https://www.youtube.com/watch?v=jUv5WSPo9fk'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.07
   ambiguous: 0.03
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/context-philosophy-what-vs-how-much]]"
-    type: component-of
-  - target: "[[concepts/context-over-models]]"
-    type: extends
+- target: '[[concepts/context-philosophy-what-vs-how-much]]'
+  type: component-of
+- target: '[[concepts/context-over-models]]'
+  type: extends
+summary: Context Relevance Over Size
 ---
 
 # Context Relevance Over Size

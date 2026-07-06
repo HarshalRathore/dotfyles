@@ -1,16 +1,25 @@
 ---
 type: concept
-title: "LimitRange"
+title: LimitRange
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/resource-requests-&-limits_4bd978]]"
+- '[[sources/resource-requests-&-limits_4bd978]]'
 tags:
-  - scheduling
+- scheduling
 aliases:
-  - LR
+- LR
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: LimitRange
 ---
 # LimitRange
 

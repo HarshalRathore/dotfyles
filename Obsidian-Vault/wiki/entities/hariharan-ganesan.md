@@ -1,23 +1,25 @@
 ---
-title: "Hariharan Ganesan"
+title: Hariharan Ganesan
 tags:
-  - person
-  - speaker
-  - ai-eng-fair-2025
-  - trust
-aliases: [Hariharan Ganesan Telemetrak]
+- person
+- speaker
+- ai-eng-fair-2025
+- trust
+aliases:
+- Hariharan Ganesan Telemetrak
 sources:
-  - "[[sources/watchv=6tpm4m1yxhk]]"
-summary: "Co-presenter at AI Engineer World's Fair 2025 on trustworthy AI inference. Presented the three pillars of trust framework and the X-TOPS operational model from Telemetrak."
+- 'https://www.youtube.com/watch?v=6tpm4m1yxhk'
+summary: Co-presenter at AI Engineer World's Fair 2025 on trustworthy AI inference. Presented the three pillars of trust framework and the X-TOPS operational model from Telemetrak.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.18
   ambiguous: 0.02
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Hariharan Ganesan

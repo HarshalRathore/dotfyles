@@ -1,26 +1,27 @@
 ---
-title: "Private AI Inference"
+title: Private AI Inference
 tags:
-  - concept
-  - privacy
-  - ai
-  - inference
-  - cloud
+- concept
+- privacy
+- ai
+- inference
+- cloud
 aliases:
-  - Private Inference
-  - Confidential AI
+- Private Inference
+- Confidential AI
 sources:
-  - "[[sources/watchv=ccswz5bjlo8]]"
-summary: "Broader paradigm of running AI model inference on remote servers while protecting user data through architectural guarantees — pioneered by Apple's PCC, now adopted by Microsoft and Meta."
+- 'https://www.youtube.com/watch?v=ccswz5bjlo8'
+summary: Broader paradigm of running AI model inference on remote servers while protecting user data through architectural guarantees — pioneered by Apple's PCC, now adopted by Microsoft and Meta.
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Private AI Inference

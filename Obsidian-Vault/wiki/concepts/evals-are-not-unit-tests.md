@@ -1,21 +1,21 @@
 ---
-title: "Evals Are Not Unit Tests"
+title: Evals Are Not Unit Tests
 tags:
-  - evals
-  - testing
-  - reliability
-  - production-ai
-  - llm-reliability
+- evals
+- testing
+- reliability
+- production-ai
+- llm-reliability
 relationships:
-  - target: "[[concepts/demo-savvy-problem]]"
-    type: related_to
-  - target: "[[concepts/fruit-letter-counter]]"
-    type: illustrates
+- target: '[[concepts/demo-savvy-problem]]'
+  type: related_to
+- target: '[[concepts/fruit-letter-counter]]'
+  type: illustrates
 sources:
-  - "[[sources/watchv=l8ooyedi_ls]]"
-  - "[[sources/watchv=omgpvw8tbhc]]"
-  - "AIEF2025 - Why should anyone care about Evals? — Manu Goyal, Braintrust - https://www.youtube.com/watch?v=jJ45Yz1lJao"
-summary: "The thesis that AI application evals are fundamentally different from unit tests: 95% of an AI app's code works 100% of the time, but the crucial 5% (the LLM) can fail unpredictably, requiring a different evaluation paradigm."
+- 'https://www.youtube.com/watch?v=l8ooyedi_ls'
+- 'https://www.youtube.com/watch?v=omgpvw8tbhc'
+- AIEF2025 - Why should anyone care about Evals? — Manu Goyal, Braintrust - https://www.youtube.com/watch?v=jJ45Yz1lJao
+summary: 'The thesis that AI application evals are fundamentally different from unit tests: 95% of an AI app''s code works 100% of the time, but the crucial 5% (the LLM) can fail unpredictably, requiring a di...'
 provenance:
   extracted: 0.83
   inferred: 0.12
@@ -25,7 +25,8 @@ lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
-
+category: concepts
+updated: '2026-07-04T22:20:03.229713+00:00'
 ---
 
 # Evals Are Not Unit Tests

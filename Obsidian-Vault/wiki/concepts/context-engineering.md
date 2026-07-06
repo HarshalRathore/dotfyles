@@ -1,23 +1,26 @@
 ---
-title: "Context Engineering"
+title: Context Engineering
 tags:
-  - prompt-engineering
-  - ai
-  - agents
-  - architecture
-  - llm
-  - quality
+- prompt-engineering
+- ai
+- agents
+- architecture
+- llm
+- quality
 sources:
-  - "[[sources/watchv=8kmatybvduw]]"
-  - "[[sources/watchv=g1hhmz6mxt0]]"
+- 'https://www.youtube.com/watch?v=8kmatybvduw'
+- 'https://www.youtube.com/watch?v=g1hhmz6mxt0'
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 updated: 2026-07-03
+category: concepts
+created: '2026-07-04T15:08:38.589107+00:00'
+summary: Context Engineering
 ---
 
 # Context Engineering

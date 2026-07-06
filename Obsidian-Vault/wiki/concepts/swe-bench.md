@@ -1,23 +1,23 @@
 ---
-title: "SWE Bench"
+title: SWE Bench
 category: concepts
 tags:
-  - benchmark
-  - ai-coding
-  - evaluation
-  - real-world-tasks
-  - model-capability
-  - data-driven-evals
+- benchmark
+- ai-coding
+- evaluation
+- real-world-tasks
+- model-capability
+- data-driven-evals
 sources:
-  - "[[sources/watchv=lqq_lcbajcc]]"
-  - "AIEF2025 - CI in the Era of AI: From Unit Tests to Stochastic Evals — Nathan Sobo, Zed - https://www.youtube.com/watch?v=WXy8Yy9xGss"
+- 'https://www.youtube.com/watch?v=lqq_lcbajcc'
+- 'AIEF2025 - CI in the Era of AI: From Unit Tests to Stochastic Evals — Nathan Sobo, Zed - https://www.youtube.com/watch?v=WXy8Yy9xGss'
 relationships:
-  - target: "[[concepts/agent-evaluations|Agent Evaluations]]"
-    type: related_to
-  - target: "[[concepts/vibe-coding|Vibe Coding]]"
-    type: related_to
-  - target: "[[concepts/stochastic-evals|Stochastic Evals]]"
-    type: related_to
+- target: '[[concepts/agent-evaluations|Agent Evaluations]]'
+  type: related_to
+- target: '[[concepts/vibe-coding|Vibe Coding]]'
+  type: related_to
+- target: '[[concepts/stochastic-evals|Stochastic Evals]]'
+  type: related_to
 provenance:
   extracted: 0.88
   inferred: 0.05
@@ -27,6 +27,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: SWE Bench
 ---
 
 # SWE Bench

@@ -1,18 +1,18 @@
 ---
-title: "Agent Evaluation Role"
+title: Agent Evaluation Role
 tags:
-  - ai-agents
-  - evaluation
-  - human-agent-collaboration
-  - aief2025
+- ai-agents
+- evaluation
+- human-agent-collaboration
+- aief2025
 aliases:
-  - agent evaluation role
-  - evaluation over implementation
+- agent evaluation role
+- evaluation over implementation
 sources:
-  - "AIEF2025 - Mentoring the Machine — Eric Hou, Augment Code - https://www.youtube.com/watch?v=Zniw5c9_jx8"
+- AIEF2025 - Mentoring the Machine — Eric Hou, Augment Code - https://www.youtube.com/watch?v=Zniw5c9_jx8
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.85
 lifecycle: draft
@@ -20,12 +20,17 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: [[concepts/agent-mentoring-model|Agent Mentoring Model]]
-    type: core_component_of
-  - target: [[concepts/parallel-ai-workstreams|Parallel AI Workstreams]]
-    type: enables
-  - target: [[concepts/senior-knowledge-replication|Senior Knowledge Replication]]
-    type: relates_to
+- target:
+  - - concepts/agent-mentoring-model|Agent Mentoring Model
+  type: core_component_of
+- target:
+  - - concepts/parallel-ai-workstreams|Parallel AI Workstreams
+  type: enables
+- target:
+  - - concepts/senior-knowledge-replication|Senior Knowledge Replication
+  type: relates_to
+category: concepts
+summary: Agent Evaluation Role
 ---
 
 # Agent Evaluation Role

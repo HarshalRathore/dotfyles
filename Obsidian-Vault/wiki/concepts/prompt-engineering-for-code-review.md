@@ -10,7 +10,7 @@ relationships:
   - target: "[[concepts/high-signal-low-noise]]"
     type: related_to
 sources:
-  - "[[sources/watchv=tswqekftnaw]]"
+  - "https://www.youtube.com/watch?v=tswqekftnaw"
 summary: "Constraining LLM output in code review by updating prompts to only trigger comments that fall in the intersection of LLM capability and human desirability — the top-right quadrant of the bug taxonomy."
 provenance:
   extracted: 0.70

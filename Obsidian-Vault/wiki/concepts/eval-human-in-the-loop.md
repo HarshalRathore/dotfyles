@@ -1,32 +1,33 @@
 ---
-title: "Human-in-the-Loop Evals"
+title: Human-in-the-Loop Evals
 category: concepts
 tags:
-  - evals
-  - human-review
-  - user-feedback
-  - production-ai
-  - braintrust
+- evals
+- human-review
+- user-feedback
+- production-ai
+- braintrust
 sources:
-  - "AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY"
-  - "AIEF2025 - How to run Evals at Scale: Thinking beyond Accuracy or Similarity — Muktesh Mishra, Adobe - https://www.youtube.com/watch?v=coKKKKh8Vns"
+- AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY
+- 'AIEF2025 - How to run Evals at Scale: Thinking beyond Accuracy or Similarity — Muktesh Mishra, Adobe - https://www.youtube.com/watch?v=coKKKKh8Vns'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.12
   ambiguous: 0.08
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/eval-flywheel-effect|Eval Flywheel Effect]]"
-    type: enables
-  - target: "[[concepts/online-evals|Online Evals]]"
-    type: complements
-  - target: "[[concepts/llm-as-judge|LLM as Judge]]"
-    type: grounds
+- target: '[[concepts/eval-flywheel-effect|Eval Flywheel Effect]]'
+  type: enables
+- target: '[[concepts/online-evals|Online Evals]]'
+  type: complements
+- target: '[[concepts/llm-as-judge|LLM as Judge]]'
+  type: grounds
+summary: Human-in-the-Loop Evals
 ---
 
 # Human-in-the-Loop Evals

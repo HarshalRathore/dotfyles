@@ -1,12 +1,18 @@
 ---
 title: Vibe Check
 category: concepts
-tags: [vibe-check, evals, testing, quality-assurance, ai-systems, anti-pattern]
-summary: "The anti-pattern of evaluating an AI system by testing it with a single prompt and declaring it 'good enough' based on a subjective impression, rather than using rigorous, reproducible evaluation methodology."
+tags:
+- vibe-check
+- evals
+- testing
+- quality-assurance
+- ai-systems
+- anti-pattern
+summary: The anti-pattern of evaluating an AI system by testing it with a single prompt and declaring it 'good enough' based on a subjective impression, rather than using rigorous, reproducible evaluation m...
 provenance:
   extracted: 0.85
   inferred: 0.15
-  ambiguous: 0.00
+  ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-05
@@ -14,12 +20,13 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/evals-as-moat]]"
-    type: contradicts
-  - target: "[[concepts/evals-testing-pyramid]]"
-    type: related_to
-  - target: "[[concepts/input-output-specification]]"
-    type: related_to
+- target: '[[concepts/evals-as-moat]]'
+  type: contradicts
+- target: '[[concepts/evals-testing-pyramid]]'
+  type: related_to
+- target: '[[concepts/input-output-specification]]'
+  type: related_to
+sources: []
 ---
 
 A **vibe check** is the anti-pattern of evaluating an AI system by testing it with a single prompt (or a few lucky prompts) and declaring the system "good enough" based on a subjective impression. This is contrasted with rigorous evaluation that proves robustness across a wide range of inputs. ^[inferred]

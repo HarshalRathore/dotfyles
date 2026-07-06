@@ -4,7 +4,7 @@ category: concepts
 tags: [search, e-commerce, cold-start, tail-queries, precision, recall, user-experience]
 summary: "Unique search challenges in e-commerce: overly broad queries with cold start, highly specific tail queries with data sparsity, and the dual need for efficient finding plus new product discovery."
 sources:
-  - "[[sources/watchv=pjavhm_3ljg]]"
+  - "https://www.youtube.com/watch?v=pjavhm_3ljg"
 provenance:
   extracted: 0.85
   inferred: 0.10

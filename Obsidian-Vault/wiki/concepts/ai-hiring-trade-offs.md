@@ -11,7 +11,7 @@ relationships:
   - target: "[[concepts/ai-team-bottleneck-identification]]"
     type: related_to
 sources:
-  - "[[sources/watchv=sbuxrluvrwk]]"
+  - "https://www.youtube.com/watch?v=sbuxrluvrwk"
 summary: "Evaluating AI hiring decisions along three axes — model training, model serving, and business acumen — with 'good enough' thresholds rather than 'best in class'."
 provenance:
   extracted: 0.90

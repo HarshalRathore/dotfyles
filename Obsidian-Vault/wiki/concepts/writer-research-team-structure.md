@@ -1,34 +1,34 @@
 ---
-title: "Writer Research Team Structure"
+title: Writer Research Team Structure
 category: concepts
 tags:
-  - research-team
-  - ai-organization
-  - enterprise-models
-  - evaluations
-  - domain-models
-  - retrieval
-  - aief2025
+- research-team
+- ai-organization
+- enterprise-models
+- evaluations
+- domain-models
+- retrieval
+- aief2025
 sources:
-  - "AIEF2025 - When Vectors Break Down: Graph-Based RAG for Dense Enterprise Knowledge - Sam Julien, Writer - https://www.youtube.com/watch?v=XlAIgmi_Vow"
-summary: "Writer's research team has four areas of focus: enterprise models (Palmyra X5), practical evaluations (Failsafe QA), domain-specific specialization (Palmyra Med/Fin), and retrieval/knowledge integration."
+- 'AIEF2025 - When Vectors Break Down: Graph-Based RAG for Dense Enterprise Knowledge - Sam Julien, Writer - https://www.youtube.com/watch?v=XlAIgmi_Vow'
+summary: 'Writer''s research team has four areas of focus: enterprise models (Palmyra X5), practical evaluations (Failsafe QA), domain-specific specialization (Palmyra Med/Fin), and retrieval/knowledge integr...'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/writer|Writer]]"
-    type: describes
-  - target: "[[concepts/enterprise-rag|Enterprise RAG]]"
-    type: related_to
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: related_to
+- target: '[[entities/writer|Writer]]'
+  type: describes
+- target: '[[concepts/enterprise-rag|Enterprise RAG]]'
+  type: related_to
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: related_to
 ---
 
 # Writer Research Team Structure

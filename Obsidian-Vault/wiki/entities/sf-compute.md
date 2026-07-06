@@ -1,16 +1,18 @@
 ---
-title: "SF Compute (San Francisco Compute Company)"
+title: SF Compute (San Francisco Compute Company)
 tags:
-  - company
-  - cloud
-  - gpu
-  - infrastructure
-aliases: [San Francisco Compute Company, SF Compute]
+- company
+- cloud
+- gpu
+- infrastructure
+aliases:
+- San Francisco Compute Company
+- SF Compute
 sources:
-  - "[[sources/watchv=7e7evtcygcm]]"
-summary: "GPU cloud provider based in San Francisco. Known for a design-forward onboarding experience that makes legally required compliance friction feel light through event-driven fog animations, expectation setting, and progressive disclosure."
+- 'https://www.youtube.com/watch?v=7e7evtcygcm'
+summary: GPU cloud provider based in San Francisco. Known for a design-forward onboarding experience that makes legally required compliance friction feel light through event-driven fog animations, expectati...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.18
   ambiguous: 0.02
 base_confidence: 0.55
@@ -18,6 +20,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # SF Compute

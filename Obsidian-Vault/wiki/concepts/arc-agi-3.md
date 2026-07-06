@@ -1,23 +1,24 @@
 ---
-title: "ARC-AGI-3"
+title: ARC-AGI-3
 tags:
-  - ai
-  - benchmarking
-  - agi
-  - reasoning
-  - arc-agi
+- ai
+- benchmarking
+- agi
+- reasoning
+- arc-agi
 sources:
-  - "[[sources/watchv=3xmfpwjg8pg]]"
-summary: "The third version of the ARC-AGI benchmark series, moving from single-turn grid tasks to interactive game environments where AI must explore, infer rules, and complete objectives across ~120 novel games."
+- 'https://www.youtube.com/watch?v=3xmfpwjg8pg'
+summary: The third version of the ARC-AGI benchmark series, moving from single-turn grid tasks to interactive game environments where AI must explore, infer rules, and complete objectives across ~120 novel...
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 # ARC-AGI-3
 

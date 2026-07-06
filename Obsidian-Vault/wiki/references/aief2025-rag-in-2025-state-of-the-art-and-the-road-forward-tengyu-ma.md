@@ -1,13 +1,24 @@
 ---
-title: "RAG in 2025: State of the Art and the Road Forward"
+title: 'RAG in 2025: State of the Art and the Road Forward'
 category: references
-tags: [rag, embedding-models, retrieval, fine-tuning, long-context, hybrid-search, re-ranking, query-decomposition, quantization, aief2025, tengyu-ma]
-summary: "Tengyu Ma (MongoDB, acq. Voyage AI) presents why RAG beats fine-tuning and long-context for enterprise knowledge, covering embedding model progress, matricial learning, quantization, hybrid search, and query decomposition."
+tags:
+- rag
+- embedding-models
+- retrieval
+- fine-tuning
+- long-context
+- hybrid-search
+- re-ranking
+- query-decomposition
+- quantization
+- aief2025
+- tengyu-ma
+summary: Tengyu Ma (MongoDB, acq. Voyage AI) presents why RAG beats fine-tuning and long-context for enterprise knowledge, covering embedding model progress, matricial learning, quantization, hybrid search,...
 sources:
-  - "AIEF2025 - RAG in 2025: State of the Art and the Road Forward — Tengyu Ma, MongoDB (acq. Voyage AI) - https://www.youtube.com/watch?v=W_CYk2ogcDI"
+- 'AIEF2025 - RAG in 2025: State of the Art and the Road Forward — Tengyu Ma, MongoDB (acq. Voyage AI) - https://www.youtube.com/watch?v=W_CYk2ogcDI'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.75
 lifecycle: draft
@@ -16,16 +27,16 @@ tier: core
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/tengyu-ma]]"
-    type: related_to
-  - target: "[[entities/mongodb]]"
-    type: related_to
-  - target: "[[entities/voyage-ai]]"
-    type: related_to
-  - target: "[[concepts/embedding-models]]"
-    type: related_to
-  - target: "[[concepts/matricial-learning]]"
-    type: related_to
+- target: '[[entities/tengyu-ma]]'
+  type: related_to
+- target: '[[entities/mongodb]]'
+  type: related_to
+- target: '[[entities/voyage-ai]]'
+  type: related_to
+- target: '[[concepts/embedding-models]]'
+  type: related_to
+- target: '[[concepts/matricial-learning]]'
+  type: related_to
 ---
 
 # RAG in 2025: State of the Art and the Road Forward

@@ -1,16 +1,16 @@
 ---
-title: "Form Factors for Your New AI Coworkers — Craig Wattrus, Flatfile"
+title: Form Factors for Your New AI Coworkers — Craig Wattrus, Flatfile
 tags:
-  - reference
-  - talk
-  - aief2025
-  - agent-design
-  - flatfile
+- reference
+- talk
+- aief2025
+- agent-design
+- flatfile
 sources:
-  - "[[sources/watchv=cimvknx-cni]]"
-summary: "Craig Wattrus (Flatfile) on four form factors for AI coworkers (invisible, ambient, in-line, conversational), character coaching vs output control, and woodworking-inspired design philosophy of feeling the material and finding the grain."
+- 'https://www.youtube.com/watch?v=cimvknx-cni'
+summary: Craig Wattrus (Flatfile) on four form factors for AI coworkers (invisible, ambient, in-line, conversational), character coaching vs output control, and woodworking-inspired design philosophy of fee...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.18
   ambiguous: 0.02
 base_confidence: 0.65
@@ -18,6 +18,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: references
 ---
 
 # Form Factors for Your New AI Coworkers — Craig Wattrus, Flatfile

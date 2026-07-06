@@ -1,18 +1,18 @@
 ---
-title: "Rise of the AI Architect — Clay Bavor, Cofounder, Sierra w/ Alessio Fanelli"
+title: Rise of the AI Architect — Clay Bavor, Cofounder, Sierra w/ Alessio Fanelli
 tags:
-  - reference
-  - talk
-  - aief2025
-  - agents
-  - ai-architecture
-  - sierra
-  - customer-experience
+- reference
+- talk
+- aief2025
+- agents
+- ai-architecture
+- sierra
+- customer-experience
 sources:
-  - "[[sources/watchv=c3geufbr2js]]"
-summary: "AI Engineer World's Fair 2025 talk by Clay Bavor (Sierra) defining the AI Architect role — combining technology, brand/experience design, and business outcomes — and introducing the Agent Development Lifecycle (ADLC) for building production customer-facing agents."
+- 'https://www.youtube.com/watch?v=c3geufbr2js'
+summary: AI Engineer World's Fair 2025 talk by Clay Bavor (Sierra) defining the AI Architect role — combining technology, brand/experience design, and business outcomes — and introducing the Agent Developme...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.65
@@ -20,6 +20,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: references
 ---
 
 # Rise of the AI Architect — Clay Bavor, Cofounder, Sierra

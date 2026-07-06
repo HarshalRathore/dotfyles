@@ -1,16 +1,16 @@
 ---
-title: "AI Coworker Form Factors"
+title: AI Coworker Form Factors
 tags:
-  - agent
-  - ai
-  - design
-  - ux
-  - interaction-patterns
+- agent
+- ai
+- design
+- ux
+- interaction-patterns
 sources:
-  - "[[sources/watchv=cimvknx-cni]]"
-summary: "Four interaction surfaces for AI coworkers: invisible (background processing), ambient (subtle presence), in-line (workflow-integrated), and conversational (chat)."
+- 'https://www.youtube.com/watch?v=cimvknx-cni'
+summary: 'Four interaction surfaces for AI coworkers: invisible (background processing), ambient (subtle presence), in-line (workflow-integrated), and conversational (chat).'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.65
@@ -18,6 +18,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # AI Coworker Form Factors

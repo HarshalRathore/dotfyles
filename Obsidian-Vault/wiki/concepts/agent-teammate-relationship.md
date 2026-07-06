@@ -1,19 +1,19 @@
 ---
-title: "Agent-Teammate Relationship"
+title: Agent-Teammate Relationship
 tags:
-  - agent-teammate
-  - human-ai-collaboration
-  - developer-tools
-  - windsurf
-  - aief2025
-  - mental-model
+- agent-teammate
+- human-ai-collaboration
+- developer-tools
+- windsurf
+- aief2025
+- mental-model
 aliases:
-  - agent teammate relationship
-  - treating agents as teammates
+- agent teammate relationship
+- treating agents as teammates
 sources:
-  - "AIEF2025 - Mastering Engineering Flow with Windsurf - Eashan Sinha, Windsurf - https://www.youtube.com/watch?v=W_5tzQY-hVs"
+- AIEF2025 - Mastering Engineering Flow with Windsurf - Eashan Sinha, Windsurf - https://www.youtube.com/watch?v=W_5tzQY-hVs
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.07
   ambiguous: 0.03
 base_confidence: 0.85
@@ -22,12 +22,17 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: [[concepts/agent-as-teammate|Agent as Teammate]]
-    type: extends
-  - target: [[concepts/flow-awareness|Flow Awareness]]
-    type: related_to
-  - target: [[concepts/agent-vs-workflow|Agent vs Workflow]]
-    type: related_to
+- target:
+  - - concepts/agent-as-teammate|Agent as Teammate
+  type: extends
+- target:
+  - - concepts/flow-awareness|Flow Awareness
+  type: related_to
+- target:
+  - - concepts/agent-vs-workflow|Agent vs Workflow
+  type: related_to
+category: concepts
+summary: Agent-Teammate Relationship
 ---
 
 # Agent-Teammate Relationship

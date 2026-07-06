@@ -1,15 +1,15 @@
 ---
-title: "Tinder"
+title: Tinder
 tags:
-  - company
-  - consumer
-  - ai
-  - voice
+- company
+- consumer
+- ai
+- voice
 sources:
-  - "[[sources/watchv=-oxiljtjxqu]]"
-summary: "Dating app cited as a case study for voice agent brand customization, specifically for their Riz Chat experience."
+- 'https://www.youtube.com/watch?v=-oxiljtjxqu'
+summary: Dating app cited as a case study for voice agent brand customization, specifically for their Riz Chat experience.
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.42
@@ -17,6 +17,7 @@ lifecycle: draft
 tier: peripheral
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Tinder

@@ -1,34 +1,35 @@
 ---
-summary: "CLI tool and Chrome Side Panel for extracting clean text from URLs, files, and media, then summarizing via any LLM provider. Free, open source, MIT licensed."
-title: "summarize"
+summary: CLI tool and Chrome Side Panel for extracting clean text from URLs, files, and media, then summarizing via any LLM provider. Free, open source, MIT licensed.
+title: summarize
 type: entity
 created: 2026-07-02
 updated: 2026-07-02
 tags:
-  - tool
-  - cli
-  - llm
-  - open-source
-  - summarization
+- tool
+- cli
+- llm
+- open-source
+- summarization
 aliases:
-  - summarize CLI
-  - "@steipete/summarize"
-  - summarize.sh
+- summarize CLI
+- '@steipete/summarize'
+- summarize.sh
 sources:
-  - "[[sources/summarize]]"
-  - "[[sources/summarize-sh-website]]"
+- '[[entities/summarize]]'
+- '[[sources/summarize-sh-website]]'
 base_confidence: 0.75
 lifecycle: draft
 lifecycle_changed: 2026-07-02
 tier: supporting
 visibility: public
 provenance:
-  extracted: 0.80
-  inferred: 0.20
-  ambiguous: 0.00
+  extracted: 0.8
+  inferred: 0.2
+  ambiguous: 0.0
 relationships:
-  - target: "[[entities/peter-steinberger]]"
-    type: created_by
+- target: '[[entities/peter-steinberger]]'
+  type: created_by
+category: entities
 ---
 
 # summarize

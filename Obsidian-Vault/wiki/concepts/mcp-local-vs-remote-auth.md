@@ -1,16 +1,16 @@
 ---
-title: "MCP Local vs Remote Authorization"
+title: MCP Local vs Remote Authorization
 category: concepts
 tags:
-  - mcp
-  - auth
-  - security
-  - local
-  - remote
+- mcp
+- auth
+- security
+- local
+- remote
 sources:
-  - "[[sources/watchv=phbghukam-w]]"
+- 'https://www.youtube.com/watch?v=phbghukam-w'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -20,10 +20,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/mcp-protected-servers]]"
-    type: related_to
-  - target: "[[concepts/enterprise-mcp-deployment]]"
-    type: related_to
+- target: '[[concepts/mcp-protected-servers]]'
+  type: related_to
+- target: '[[concepts/enterprise-mcp-deployment]]'
+  type: related_to
+summary: MCP Local vs Remote Authorization
 ---
 
 # MCP Local vs Remote Authorization

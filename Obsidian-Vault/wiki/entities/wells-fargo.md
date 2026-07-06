@@ -1,28 +1,29 @@
 ---
-title: "Wells Fargo"
+title: Wells Fargo
 category: entities
 tags:
-  - company
-  - banking
-  - payments
-  - financial-services
+- company
+- banking
+- payments
+- financial-services
 aliases:
-  - Wells Fargo
+- Wells Fargo
 sources:
-  - "AIEF2025 - #define AI Engineer - Greg Brockman, OpenAI (ft. Jensen Huang) - https://www.youtube.com/watch?v=avWhreBUYF0"
+- 'AIEF2025 - #define AI Engineer - Greg Brockman, OpenAI (ft. Jensen Huang) - https://www.youtube.com/watch?v=avWhreBUYF0'
 provenance:
   extracted: 0.95
   inferred: 0.03
   ambiguous: 0.02
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: peripheral
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/stripe|Stripe]]"
-    type: integrates-with
+- target: '[[entities/stripe|Stripe]]'
+  type: integrates-with
+summary: Wells Fargo
 ---
 
 # Wells Fargo

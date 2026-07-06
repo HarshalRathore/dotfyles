@@ -1,26 +1,31 @@
 ---
-title: "Agentic RAG"
+title: Agentic RAG
 tags:
-  - concept
-  - rag
-  - retrieval
-  - agents
-  - accuracy
-  - microsoft
-aliases: [multi-shot RAG, iterative RAG, agentic retrieval]
+- concept
+- rag
+- retrieval
+- agents
+- accuracy
+- microsoft
+aliases:
+- multi-shot RAG
+- iterative RAG
+- agentic retrieval
 sources:
-  - "[[sources/watchv=j-9ebjbxcbg]]"
-  - "[[sources/watchv=7hrw6rtxahc]]"
-  - "[[sources/watchv=czm3cw6fdbs]]"
+- 'https://www.youtube.com/watch?v=j-9ebjbxcbg'
+- 'https://www.youtube.com/watch?v=7hrw6rtxahc'
+- 'https://www.youtube.com/watch?v=czm3cw6fdbs'
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.45
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-04
+category: concepts
+summary: Agentic RAG
 ---
 
 # Agentic RAG

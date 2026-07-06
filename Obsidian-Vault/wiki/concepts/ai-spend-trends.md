@@ -1,20 +1,20 @@
 ---
-title: "AI Spend Trends"
+title: AI Spend Trends
 category: concepts
 tags:
-  - ai-spend
-  - investment
-  - enterprise-ai
-  - budget
+- ai-spend
+- investment
+- enterprise-ai
+- budget
 aliases:
-  - AI Investment Trends
-  - Enterprise AI Spending
+- AI Investment Trends
+- Enterprise AI Spending
 sources:
-  - "AIEF2025 - AI Consulting in Practice – NLW, Superintelligent, @AIDailyBrief - https://www.youtube.com/watch?v=ehQFj6VmuI8"
-  - "KPMG Pulse Survey"
-  - "Deloitte AI Survey"
+- AIEF2025 - AI Consulting in Practice – NLW, Superintelligent, @AIDailyBrief - https://www.youtube.com/watch?v=ehQFj6VmuI8
+- KPMG Pulse Survey
+- Deloitte AI Survey
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
 base_confidence: 0.85
@@ -24,12 +24,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/enterprise-ai-adoption|Enterprise AI Adoption]]"
-    type: enables
-  - target: "[[concepts/roi-expectation-pull-forward|ROI Expectation Pull-Forward]]"
-    type: related_to
-  - target: "[[concepts/ai-bubble-narrative|AI Bubble Narrative]]"
-    type: contradicts
+- target: '[[concepts/enterprise-ai-adoption|Enterprise AI Adoption]]'
+  type: enables
+- target: '[[concepts/roi-expectation-pull-forward|ROI Expectation Pull-Forward]]'
+  type: related_to
+- target: '[[concepts/ai-bubble-narrative|AI Bubble Narrative]]'
+  type: contradicts
+summary: AI Spend Trends
 ---
 
 # AI Spend Trends

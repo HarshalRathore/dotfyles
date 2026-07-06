@@ -4,8 +4,8 @@ category: concepts
 tags: [vibe-coding, ai-coding, rapid-prototyping, development-methodology, aief2025]
 summary: "Development approach using AI to rapidly prototype without upfront planning, iterating through waves of AI-generated code until stability, then switching to traditional engineering."
 sources:
-  - "[[sources/watchv=kcka7rzcxlk]]"
-  - "[[sources/watchv=lqq_lcbajcc]]"
+  - "https://www.youtube.com/watch?v=kcka7rzcxlk"
+  - "https://www.youtube.com/watch?v=lqq_lcbajcc"
   - "AIEF2025 - Design like Karpathy is watching — Zeke Sikelianos, Replicate - https://www.youtube.com/watch?v=huQPkrwVWwc"
   - "AIEF2025 - Vibe Coding at Scale: Customizing AI Assistants for Enterprise Environments - Harald Kirshner, - https://www.youtube.com/watch?v=i1uPAN6uW4s"
   - "AIEF2025 - Vibe Coding with Confidence — Itamar Friedman, Qodo - https://www.youtube.com/watch?v=n991Yxo1aOI"

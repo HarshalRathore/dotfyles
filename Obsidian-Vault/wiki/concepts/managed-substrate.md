@@ -1,20 +1,20 @@
 ---
-title: "Managed Substrate"
+title: Managed Substrate
 category: concepts
 tags:
-  - managed-substrate
-  - deployment-model
-  - multi-tenant
-  - self-hosted
-  - hybrid
-  - enterprise
-summary: A deployment model where customer-owned infrastructure holds the workload (source code, data, integrations) but the vendor manages the service layer — combining data sovereignty with operational convenience.
+- managed-substrate
+- deployment-model
+- multi-tenant
+- self-hosted
+- hybrid
+- enterprise
+summary: A deployment model where customer-owned infrastructure holds the workload (source code, data, integrations) but the vendor manages the service layer — combining data sovereignty with operational co...
 sources:
-  - "AIEF2025 - Building agent fleet architectures your CISO doesn't hate — Lou Bichard, Gitpod - https://www.youtube.com/watch?v=d9rsC6_VLoA"
+- AIEF2025 - Building agent fleet architectures your CISO doesn't hate — Lou Bichard, Gitpod - https://www.youtube.com/watch?v=d9rsC6_VLoA
 provenance:
   extracted: 0.85
   inferred: 0.15
-  ambiguous: 0.00
+  ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-04
@@ -22,14 +22,18 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: [[concepts/self-hosted-overhead|Self-Hosted Overhead]]
-    type: addresses
-  - target: [[concepts/data-sovereignty|Data Sovereignty]]
-    type: satisfies
-  - target: [[concepts/agent-fleet-architecture|Agent Fleet Architecture]]
-    type: intermediate-step
-  - target: [[concepts/compute-abuse|Compute Abuse]]
-    type: mitigates
+- target:
+  - - concepts/self-hosted-overhead|Self-Hosted Overhead
+  type: addresses
+- target:
+  - - concepts/data-sovereignty|Data Sovereignty
+  type: satisfies
+- target:
+  - - concepts/agent-fleet-architecture|Agent Fleet Architecture
+  type: intermediate-step
+- target:
+  - - concepts/compute-abuse|Compute Abuse
+  type: mitigates
 ---
 
 # Managed Substrate

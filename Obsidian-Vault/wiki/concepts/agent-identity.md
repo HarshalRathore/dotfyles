@@ -1,32 +1,36 @@
 ---
-title: "Agent Identity"
+title: Agent Identity
 category: concepts
 tags:
-  - ai-agents
-  - ux-design
-  - agent-persona
-  - collaboration
-  - aief2025
-aliases: [agent identity, ai agent persona, agent personality]
+- ai-agents
+- ux-design
+- agent-persona
+- collaboration
+- aief2025
+aliases:
+- agent identity
+- ai agent persona
+- agent personality
 sources:
-  - "[[sources/watchv=pthmdt92qng]]"
+- 'https://www.youtube.com/watch?v=pthmdt92qng'
 provenance:
   extracted: 0.88
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.02
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/teammates]]"
-    type: implemented_by
-  - target: "[[concepts/agent-capability-tiers]]"
-    type: complements
-  - target: "[[concepts/agent-interfaces-evolution]]"
-    type: relates_to
+- target: '[[entities/teammates]]'
+  type: implemented_by
+- target: '[[concepts/agent-capability-tiers]]'
+  type: complements
+- target: '[[concepts/agent-interfaces-evolution]]'
+  type: relates_to
+summary: Agent Identity
 ---
 
 # Agent Identity

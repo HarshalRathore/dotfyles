@@ -1,18 +1,18 @@
 ---
-title: "NVIDIA"
+title: NVIDIA
 tags:
-  - company
-  - gpu
-  - ai
-  - hardware
-  - software
-  - cugraph
-  - nemotron
+- company
+- gpu
+- ai
+- hardware
+- software
+- cugraph
+- nemotron
 sources:
-  - "[[sources/watchv=-tgqa8fzf80]]"
-  - "[[sources/watchv=m6vbaig1tsm]]"
-  - "AIEF2025 - Hacking the Inference Pareto Frontier - Kyle Kranen, NVIDIA - https://www.youtube.com/watch?v=Y2qc0UhDSnc"
-summary: "Technology company known for GPUs and AI computing, providing GPU-accelerated graph libraries (cuGraph), LLM reward models (NeMoTron), open-source inference tools (Dynamo), and developer programs."
+- 'https://www.youtube.com/watch?v=-tgqa8fzf80'
+- 'https://www.youtube.com/watch?v=m6vbaig1tsm'
+- AIEF2025 - Hacking the Inference Pareto Frontier - Kyle Kranen, NVIDIA - https://www.youtube.com/watch?v=Y2qc0UhDSnc
+summary: Technology company known for GPUs and AI computing, providing GPU-accelerated graph libraries (cuGraph), LLM reward models (NeMoTron), open-source inference tools (Dynamo), and developer programs.
 provenance:
   extracted: 0.72
   inferred: 0.23
@@ -23,14 +23,15 @@ tier: supporting
 created: 2026-07-03
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/hyperbolic|Hyperbolic]]"
-    type: related_to
-  - target: "[[entities/luma-ai|Luma AI]]"
-    type: related_to
-  - target: "[[entities/nvidia-dynamo|NVIDIA Dynamo]]"
-    type: owns
-  - target: "[[entities/kyle-kranen|Kyle Kranen]]"
-    type: employs
+- target: '[[entities/hyperbolic|Hyperbolic]]'
+  type: related_to
+- target: '[[entities/luma-ai|Luma AI]]'
+  type: related_to
+- target: '[[entities/nvidia-dynamo|NVIDIA Dynamo]]'
+  type: owns
+- target: '[[entities/kyle-kranen|Kyle Kranen]]'
+  type: employs
+category: entities
 ---
 
 # NVIDIA

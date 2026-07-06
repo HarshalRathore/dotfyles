@@ -10,7 +10,7 @@ tags:
   - aief2025
 aliases: [rl-at-scale, rl-scaling, deepseek-rl, rl-working]
 sources:
-  - "[[sources/watchv=pbhm2qknu10]]"
+  - "https://www.youtube.com/watch?v=pbhm2qknu10"
 summary: "RL applied at scale works now: DeepSeek surprised the field by showing RL at scale produces strong open models with few tweaks. O3 and other frontier models double down on RL as the scaling direction."
 provenance:
   extracted: 0.80

@@ -1,31 +1,32 @@
 ---
-title: "Stephen Chin"
+title: Stephen Chin
 category: entities
 tags:
-  - person
-  - speaker
-  - neo4j
-  - aief2025
+- person
+- speaker
+- neo4j
+- aief2025
 sources:
-  - "AIEF2025 - Top Ten Challenges to Reach AGI — Stephen Chin, Andreas Kollegger - https://www.youtube.com/watch?v=ypyvj_56sBU"
-  - "AIEF2025 - Practical GraphRAG: Making LLMs smarter with Knowledge Graphs — Michael, Jesus, and Stephen, Neo4j - https://www.youtube.com/watch?v=XNneh6-eyPg"
+- AIEF2025 - Top Ten Challenges to Reach AGI — Stephen Chin, Andreas Kollegger - https://www.youtube.com/watch?v=ypyvj_56sBU
+- 'AIEF2025 - Practical GraphRAG: Making LLMs smarter with Knowledge Graphs — Michael, Jesus, and Stephen, Neo4j - https://www.youtube.com/watch?v=XNneh6-eyPg'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/neo4j|Neo4j]]"
-    type: works_at
-  - target: "[[entities/andreas-kolleger|Andreas Kollegger]]"
-    type: colleague
-  - target: "[[entities/stephen-shin|Stephen Shin]]"
-    type: related_to
+- target: '[[entities/neo4j|Neo4j]]'
+  type: works_at
+- target: '[[entities/andreas-kolleger|Andreas Kollegger]]'
+  type: colleague
+- target: '[[entities/stephen-shin|Stephen Shin]]'
+  type: related_to
+summary: Stephen Chin
 ---
 
 # Stephen Chin

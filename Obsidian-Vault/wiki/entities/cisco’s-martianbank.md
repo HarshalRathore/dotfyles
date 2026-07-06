@@ -1,16 +1,25 @@
 ---
 type: entity
-title: "Cisco’s MartianBank"
+title: Cisco’s MartianBank
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/microservices-demo-projects_ac9b1f]]"
+- '[[sources/microservices-demo-projects_ac9b1f]]'
 tags:
-  - project
+- project
 aliases:
-  - Cisco MartianBank
+- Cisco MartianBank
+category: entities
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Cisco’s MartianBank
 ---
 # Cisco’s MartianBank
 

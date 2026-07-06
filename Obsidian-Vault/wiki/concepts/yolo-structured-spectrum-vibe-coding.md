@@ -1,34 +1,35 @@
 ---
-title: "YOLO, Structured, Spec-Driven Spectrum of Vibe Coding"
+title: YOLO, Structured, Spec-Driven Spectrum of Vibe Coding
 category: concepts
 tags:
-  - vibe-coding
-  - enterprise-ai
-  - ai-assistants
-  - aief2025
-  - development-methodology
+- vibe-coding
+- enterprise-ai
+- ai-assistants
+- aief2025
+- development-methodology
 aliases:
-  - vibe-coding-spectrum
-  - yolo-structured-spec-driven
+- vibe-coding-spectrum
+- yolo-structured-spec-driven
 sources:
-  - "AIEF2025 - Vibe Coding at Scale: Customizing AI Assistants for Enterprise Environments - Harald Kirshner, - https://www.youtube.com/watch?v=i1uPAN6uW4s"
+- 'AIEF2025 - Vibe Coding at Scale: Customizing AI Assistants for Enterprise Environments - Harald Kirshner, - https://www.youtube.com/watch?v=i1uPAN6uW4s'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/vibe-coding|Vibe Coding]]"
-    type: extends
-  - target: "[[concepts/agent-rails|Agent Rails]]"
-    type: related_to
-  - target: "[[concepts/ai-design-sense|AI Design Sense]]"
-    type: related_to
+- target: '[[concepts/vibe-coding|Vibe Coding]]'
+  type: extends
+- target: '[[concepts/agent-rails|Agent Rails]]'
+  type: related_to
+- target: '[[concepts/ai-design-sense|AI Design Sense]]'
+  type: related_to
+summary: YOLO, Structured, Spec-Driven Spectrum of Vibe Coding
 ---
 
 # YOLO, Structured, Spec-Driven Spectrum of Vibe Coding

@@ -1,12 +1,22 @@
 ---
-title: "Robbie Coomber"
+title: Robbie Coomber
 tags:
-  - posthog
-  - engineering
-  - sql
+- posthog
+- engineering
+- sql
 sources:
-  - "[[sources/sql-parser]]"
-
+- '[[sources/sql-parser]]'
+category: entities
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+created: '2026-07-04T15:08:27.735017+00:00'
+updated: '2026-07-04T15:08:27.735017+00:00'
+summary: Robbie Coomber
 ---
 # Robbie Coomber
 
@@ -14,8 +24,8 @@ PostHog engineer. Wrote the autoresearch ClickHouse bug article and the SQL pars
 
 ## Related
 
-- [[web-posthog-com-blog-sql-parser]] — His article on rewriting PostHog's SQL parser with AI
-- [[web-github-com-karpathy-autoresearch]] — His earlier article on using autoresearch to find a ClickHouse bug
+- [[misc/web-posthog-com-blog-sql-parser]] — His article on rewriting PostHog's SQL parser with AI
+- [[misc/web-github-com-karpathy-autoresearch]] — His earlier article on using autoresearch to find a ClickHouse bug
 
 
 ## Related Pages

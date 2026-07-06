@@ -1,28 +1,29 @@
 ---
-title: "Software Eating Media"
+title: Software Eating Media
 category: concepts
 tags:
-  - media
-  - software
-  - youtube
-  - advertising
-  - digital-transformation
+- media
+- software
+- youtube
+- advertising
+- digital-transformation
 sources:
-  - "[[sources/watchv=p370d8kmlkw]]"
+- 'https://www.youtube.com/watch?v=p370d8kmlkw'
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/generative-media]]"
-    type: related_to
-  - target: "[[concepts/hyper-personalized-ads]]"
-    type: related_to
+- target: '[[concepts/generative-media]]'
+  type: related_to
+- target: '[[concepts/hyper-personalized-ads]]'
+  type: related_to
+summary: Software Eating Media
 ---
 
 # Software Eating Media

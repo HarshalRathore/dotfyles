@@ -1,22 +1,23 @@
 ---
-title: "Asha Sharma"
+title: Asha Sharma
 tags:
-  - entity
-  - person
-  - microsoft
-  - ai-platform
+- entity
+- person
+- microsoft
+- ai-platform
 sources:
-  - "[[sources/watchv=7hrw6rtxahc]]"
-summary: "Corporate Vice President leading Microsoft's Core AI Platform. Previously built machine learning products at major tech companies. Keynote speaker at AI Engineer World's Fair 2025."
+- 'https://www.youtube.com/watch?v=7hrw6rtxahc'
+summary: Corporate Vice President leading Microsoft's Core AI Platform. Previously built machine learning products at major tech companies. Keynote speaker at AI Engineer World's Fair 2025.
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.45
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Asha Sharma

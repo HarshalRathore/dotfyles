@@ -1,30 +1,31 @@
 ---
-title: "Retool"
+title: Retool
 category: entities
 tags:
-  - company
-  - internal-tools
-  - ai-agents
-  - low-code
-  - aief2025
+- company
+- internal-tools
+- ai-agents
+- low-code
+- aief2025
 sources:
-  - "[[sources/watchv=lqq_lcbajcc]]"
+- 'https://www.youtube.com/watch?v=lqq_lcbajcc'
 relationships:
-  - target: "[[concepts/agent-platform|Agent Platform]]"
-    type: implements
-  - target: "[[concepts/agent-guardrails|Agent Guardrails]]"
-    type: related_to
-  - target: "[[concepts/build-vs-buy-agents|Build vs Buy Agents]]"
-    type: related_to
+- target: '[[concepts/agent-platform|Agent Platform]]'
+  type: implements
+- target: '[[concepts/agent-guardrails|Agent Guardrails]]'
+  type: related_to
+- target: '[[concepts/build-vs-buy-agents|Build vs Buy Agents]]'
+  type: related_to
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.85
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Retool
 ---
 
 # Retool

@@ -8,9 +8,10 @@ tags:
   - taste-tests
   - motor-skills
   - perception-evals
-summary: Multi-dimensional evaluation of cooking robots: motor skills (speed vs human), perception accuracy (state estimation vs expert chefs), and end-product quality (blind taste tests vs human recreation).
+summary: >-
+  Multi-dimensional evaluation of cooking robots: motor skills (speed vs human), perception accuracy (state estimation vs expert chefs), and end-product quality (blind taste tests vs human recreation).
 sources:
-  - "[[sources/watchv=mbwgiwjdlso]]"
+  - "https://www.youtube.com/watch?v=mbwgiwjdlso"
 provenance:
   extracted: 0.85
   inferred: 0.10

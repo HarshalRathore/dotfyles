@@ -1,26 +1,35 @@
 ---
-title: "Menugen"
+title: Menugen
 category: concepts
-tags: [menugen, vibe-coding, karpathy, hackathon, developer-experience, local-vs-deploy]
-summary: "Andre Karpathy's vibe coding experiment: a web app that takes photos of restaurant menus and generates image representations of menu contents. Demonstrated the gap between local prototyping and production deployment."
+tags:
+- menugen
+- vibe-coding
+- karpathy
+- hackathon
+- developer-experience
+- local-vs-deploy
+summary: 'Andre Karpathy''s vibe coding experiment: a web app that takes photos of restaurant menus and generates image representations of menu contents. Demonstrated the gap between local prototyping and pro...'
 sources:
-  - "AIEF2025 - Design like Karpathy is watching — Zeke Sikelianos, Replicate - https://www.youtube.com/watch?v=huQPkrwVWwc"
-provenance: { extracted: 0.85, inferred: 0.15, ambiguous: 0.0 }
+- AIEF2025 - Design like Karpathy is watching — Zeke Sikelianos, Replicate - https://www.youtube.com/watch?v=huQPkrwVWwc
+provenance:
+  extracted: 0.85
+  inferred: 0.15
+  ambiguous: 0.0
 base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
-created: 2026-07-04T00:00:00Z
-updated: 2026-07-04T00:00:00Z
+created: 2026-07-04 00:00:00+00:00
+updated: 2026-07-04 00:00:00+00:00
 relationships:
-  - target: "[[concepts/vibe-coding|Vibe Coding]]"
-    type: implements
-  - target: "[[concepts/local-vs-deploy-experience-gap|Local vs Deploy Experience Gap]]"
-    type: extends
-  - target: "[[entities/andre-karpathy|Andre Karpathy]]"
-    type: related_to
-  - target: "[[references/llms-txt|LLMs.txt]]"
-    type: related_to
+- target: '[[concepts/vibe-coding|Vibe Coding]]'
+  type: implements
+- target: '[[concepts/local-vs-deploy-experience-gap|Local vs Deploy Experience Gap]]'
+  type: extends
+- target: '[[entities/andre-karpathy|Andre Karpathy]]'
+  type: related_to
+- target: '[[references/llms-txt|LLMs.txt]]'
+  type: related_to
 ---
 
 ## Menugen

@@ -1,15 +1,18 @@
 ---
-title: "Boundless Surface Area"
+title: Boundless Surface Area
 category: concepts
 tags:
-  - ai-agents
-  - product-design
-  - ux
-  - input-space
-  - aief2025
-aliases: [boundless surface area, unbounded input, open-ended input]
+- ai-agents
+- product-design
+- ux
+- input-space
+- aief2025
+aliases:
+- boundless surface area
+- unbounded input
+- open-ended input
 sources:
-  - "[[sources/watchv=pthmdt92qng]]"
+- 'https://www.youtube.com/watch?v=pthmdt92qng'
 provenance:
   extracted: 0.85
   inferred: 0.13
@@ -21,14 +24,15 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/affordance-thinking]]"
-    type: motivates
-  - target: "[[concepts/emergent-behavior-in-ai]]"
-    type: enables
-  - target: "[[concepts/brownfield-first-ai-adoption]]"
-    type: relates_to
-  - target: "[[concepts/unopinionated-product-design]]"
-    type: relates_to
+- target: '[[concepts/affordance-thinking]]'
+  type: motivates
+- target: '[[concepts/emergent-behavior-in-ai]]'
+  type: enables
+- target: '[[concepts/brownfield-first-ai-adoption]]'
+  type: relates_to
+- target: '[[concepts/unopinionated-product-design]]'
+  type: relates_to
+summary: Boundless Surface Area
 ---
 
 # Boundless Surface Area

@@ -1,23 +1,24 @@
 ---
-title: "Sarah Sachs"
+title: Sarah Sachs
 tags:
-  - person
-  - ai
-  - notion
-  - product
-  - speaker
+- person
+- ai
+- notion
+- product
+- speaker
 sources:
-  - "[[sources/watchv=6ydpi9ybjbi]]"
-summary: "AI lead at Notion, responsible for Notion AI product development — including AI writing, search, meetings, and deep research features."
+- 'https://www.youtube.com/watch?v=6ydpi9ybjbi'
+summary: AI lead at Notion, responsible for Notion AI product development — including AI writing, search, meetings, and deep research features.
 provenance:
-  extracted: 0.50
-  inferred: 0.40
-  ambiguous: 0.10
-base_confidence: 0.40
+  extracted: 0.5
+  inferred: 0.4
+  ambiguous: 0.1
+base_confidence: 0.4
 lifecycle: draft
 tier: peripheral
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Sarah Sachs

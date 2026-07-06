@@ -1,30 +1,31 @@
 ---
-title: "Self-Driving Car Evals"
+title: Self-Driving Car Evals
 category: concepts
 tags:
-  - evals
-  - self-driving-cars
-  - analogy
-  - production-ai
-  - safety
+- evals
+- self-driving-cars
+- analogy
+- production-ai
+- safety
 sources:
-  - "AIEF2025 - Why should anyone care about Evals? — Manu Goyal, Braintrust - https://www.youtube.com/watch?v=jJ45Yz1lJao"
+- AIEF2025 - Why should anyone care about Evals? — Manu Goyal, Braintrust - https://www.youtube.com/watch?v=jJ45Yz1lJao
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/model-tuning-vs-evals|Model Tuning vs Evals]]"
-    type: illustrates
-  - target: "[[concepts/evals-are-not-unit-tests|Evals Are Not Unit Tests]]"
-    type: supports
-  - target: "[[concepts/longtail-scenarios|Longtail Scenarios]]"
-    type: relates_to
+- target: '[[concepts/model-tuning-vs-evals|Model Tuning vs Evals]]'
+  type: illustrates
+- target: '[[concepts/evals-are-not-unit-tests|Evals Are Not Unit Tests]]'
+  type: supports
+- target: '[[concepts/longtail-scenarios|Longtail Scenarios]]'
+  type: relates_to
+summary: Self-Driving Car Evals
 ---
 
 # Self-Driving Car Evals

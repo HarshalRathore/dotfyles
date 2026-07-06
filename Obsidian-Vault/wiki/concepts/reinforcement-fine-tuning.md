@@ -1,26 +1,39 @@
 ---
-title: "Reinforcement Fine-Tuning (RFT)"
+title: Reinforcement Fine-Tuning (RFT)
 category: concepts
-tags: [fine-tuning, reinforcement-learning, reasoning, llm, openai, grader]
-aliases: [RFT, reasoning fine-tuning, reinforcement learning fine-tuning]
+tags:
+- fine-tuning
+- reinforcement-learning
+- reasoning
+- llm
+- openai
+- grader
+aliases:
+- RFT
+- reasoning fine-tuning
+- reinforcement learning fine-tuning
 relationships:
-  - target: "[[concepts/llm-reasoning]]"
-    type: extends
-  - target: "[[concepts/rlhf]]"
-    type: related_to
-  - target: "[[concepts/direct-preference-optimization]]"
-    type: related_to
-sources: ["[[sources/aief2025-rft]]", "[[sources/dpo]]", "[[sources/sft-fine-tuning-with-openai-—-ilan-bigio]]", "[[sources/watchv=jfalqqfxqpa]]"]
-summary: "OpenAI's fine-tuning method for reasoning models: the model generates chain-of-thought outputs evaluated by a grader that provides feedback for continued training. Designed to reach state-of-the-art performance on reasoning tasks."
+- target: '[[concepts/llm-reasoning]]'
+  type: extends
+- target: '[[concepts/rlhf]]'
+  type: related_to
+- target: '[[concepts/direct-preference-optimization]]'
+  type: related_to
+sources:
+- '[[sources/aief2025-rft]]'
+- '[[sources/dpo]]'
+- '[[sources/sft-fine-tuning-with-openai-—-ilan-bigio]]'
+- 'https://www.youtube.com/watch?v=jfalqqfxqpa'
+summary: 'OpenAI''s fine-tuning method for reasoning models: the model generates chain-of-thought outputs evaluated by a grader that provides feedback for continued training. Designed to reach state-of-the-ar...'
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 tier: supporting
-created: 2026-07-03T15:05:02Z
-updated: 2026-07-03T15:05:02Z
+created: 2026-07-03 15:05:02+00:00
+updated: 2026-07-03 15:05:02+00:00
 ---
 
 # Reinforcement Fine-Tuning (RFT)

@@ -10,7 +10,7 @@ tags:
   - foundation-models
 summary: Modeling recipes as state machines driven by thermal and visual embeddings, where each state transition depends on the current sensory state of the food rather than a fixed time schedule.
 sources:
-  - "[[sources/watchv=mbwgiwjdlso]]"
+  - "https://www.youtube.com/watch?v=mbwgiwjdlso"
 provenance:
   extracted: 0.85
   inferred: 0.10

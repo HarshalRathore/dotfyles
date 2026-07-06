@@ -1,20 +1,20 @@
 ---
-title: "ROI Expectation Pull-Forward"
+title: ROI Expectation Pull-Forward
 category: concepts
 tags:
-  - roi
-  - expectations
-  - enterprise-ai
-  - timeline
+- roi
+- expectations
+- enterprise-ai
+- timeline
 aliases:
-  - Shortening ROI Timelines
-  - AI ROI Expectations
+- Shortening ROI Timelines
+- AI ROI Expectations
 sources:
-  - "AIEF2025 - AI Consulting in Practice – NLW, Superintelligent, @AIDailyBrief - https://www.youtube.com/watch?v=ehQFj6VmuI8"
-  - "KPMG Annual CEO Survey"
+- AIEF2025 - AI Consulting in Practice – NLW, Superintelligent, @AIDailyBrief - https://www.youtube.com/watch?v=ehQFj6VmuI8
+- KPMG Annual CEO Survey
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.85
 lifecycle: draft
@@ -23,12 +23,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/roi-measurement-challenges|ROI Measurement Challenges]]"
-    type: contrasts-with
-  - target: "[[concepts/ai-spend-trends|AI Spend Trends]]"
-    type: related_to
-  - target: "[[concepts/enterprise-ai-adoption|Enterprise AI Adoption]]"
-    type: related_to
+- target: '[[concepts/roi-measurement-challenges|ROI Measurement Challenges]]'
+  type: contrasts-with
+- target: '[[concepts/ai-spend-trends|AI Spend Trends]]'
+  type: related_to
+- target: '[[concepts/enterprise-ai-adoption|Enterprise AI Adoption]]'
+  type: related_to
+summary: ROI Expectation Pull-Forward
 ---
 
 # ROI Expectation Pull-Forward

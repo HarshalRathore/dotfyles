@@ -7,7 +7,7 @@ tags:
   - anti-pattern
   - methodology
 sources:
-  - "[[sources/watchv=cb-4nkdynrs]]"
+  - "https://www.youtube.com/watch?v=cb-4nkdynrs"
 summary: "The anti-pattern of treating AI as a separate, bolt-on initiative running as a sidecar to core product strategy rather than deeply integrating it into product planning and customer problem-solving."
 provenance:
   extracted: 0.80

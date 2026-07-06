@@ -1,17 +1,26 @@
 ---
 type: concept
-title: "Cluster Autoscaler"
+title: Cluster Autoscaler
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/kubernetes-autoscaling_59fbf3]]"
+- '[[sources/kubernetes-autoscaling_59fbf3]]'
 tags:
-  - scaling
+- scaling
 aliases:
-  - K8s Cluster Autoscaler
-  - Kubernetes Cluster Autoscaler
+- K8s Cluster Autoscaler
+- Kubernetes Cluster Autoscaler
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Cluster Autoscaler
 ---
 # Cluster Autoscaler
 
@@ -39,7 +48,7 @@ Cluster Autoscaler is a Kubernetes component that automatically adjusts the numb
 ## Related Concepts
 - Horizontal Pod Autoscaler
 - Vertical Pod Autoscaler
-- [[worker-node]]
+- [[concepts/worker-node]]
 
 
 ## Related Entities

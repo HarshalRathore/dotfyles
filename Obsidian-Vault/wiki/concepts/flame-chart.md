@@ -13,15 +13,15 @@ tier: supporting
 created: 2026-07-05T00:00:00Z
 updated: 2026-07-05T00:00:00Z
 relationships:
-  - target: "[[concepts/continuous-profiling.md]]"
+  - target: "[[concepts/continuous-profiling]]"
     type: uses
-  - target: "[[concepts/gpu-time-profiling.md]]"
+  - target: "[[concepts/gpu-time-profiling]]"
     type: uses
 ---
 
 # Flame Chart
 
-A [[Flame Chart]] is a visualization technique used in profiling to display call stacks over time. Each horizontal bar represents a function in the call stack, and the width of the bar is proportional to the time spent in that function.
+A [[concepts/flame-chart]] is a visualization technique used in profiling to display call stacks over time. Each horizontal bar represents a function in the call stack, and the width of the bar is proportional to the time spent in that function.
 
 ## Structure
 

@@ -1,17 +1,20 @@
 ---
-title: "Multi-Model World"
+title: Multi-Model World
 tags:
-  - concept
-  - ai
-  - infrastructure
-  - strategy
-aliases: [multi-model strategy, model commoditization, model market competition]
+- concept
+- ai
+- infrastructure
+- strategy
+aliases:
+- multi-model strategy
+- model commoditization
+- model market competition
 sources:
-  - "[[sources/watchv=3mzs5gnelzm]]"
-  - "[[sources/watchv=3wv1vt0b0cg]]"
-summary: "The model market is rapidly commoditizing — plan for a world with multiple model providers, competitive pricing, and open-source alternatives. Last year's model is a commodity."
+- 'https://www.youtube.com/watch?v=3mzs5gnelzm'
+- 'https://www.youtube.com/watch?v=3wv1vt0b0cg'
+summary: The model market is rapidly commoditizing — plan for a world with multiple model providers, competitive pricing, and open-source alternatives. Last year's model is a commodity.
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.55
@@ -19,6 +22,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Multi-Model World

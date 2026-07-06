@@ -1,33 +1,34 @@
 ---
-title: "Voice Uncanny Valley"
+title: Voice Uncanny Valley
 category: concepts
 tags:
-  - voice-ai
-  - uncanny-valley
-  - user-experience
-  - naturalness
-  - controllability
+- voice-ai
+- uncanny-valley
+- user-experience
+- naturalness
+- controllability
 sources:
-  - "AIEF2025 - Serving Voice AI at Scale — Arjun Desai (Cartesia) & Rohit Talluri (AWS) - https://www.youtube.com/watch?v=knH3fmGAteQ"
+- AIEF2025 - Serving Voice AI at Scale — Arjun Desai (Cartesia) & Rohit Talluri (AWS) - https://www.youtube.com/watch?v=knH3fmGAteQ
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/voice-naturalness]]"
-    type: related_to
-  - target: "[[concepts/voice-controllability]]"
-    type: related_to
-  - target: "[[concepts/voice-marketplace]]"
-    type: related_to
-  - target: "[[entities/cartesia]]"
-    type: related_to
+- target: '[[concepts/voice-naturalness]]'
+  type: related_to
+- target: '[[concepts/voice-controllability]]'
+  type: related_to
+- target: '[[concepts/voice-marketplace]]'
+  type: related_to
+- target: '[[entities/cartesia]]'
+  type: related_to
+summary: Voice Uncanny Valley
 ---
 
 # Voice Uncanny Valley

@@ -1,14 +1,14 @@
 ---
-title: "State of Startups and AI 2025 — Sarah Guo, Conviction"
+title: State of Startups and AI 2025 — Sarah Guo, Conviction
 tags:
-  - reference
-  - talk
-  - ai
-  - startups
-  - venture-capital
+- reference
+- talk
+- ai
+- startups
+- venture-capital
 sources:
-  - "[[sources/watchv=3mzs5gnelzm]]"
-summary: "Sarah Guo, founder of Conviction, surveys the AI startup landscape in mid-2025 — reasoning as a new scaling vector, the Cursor playbook for vertical AI, the AI leapfrog effect in conservative industries, and why execution is the only moat."
+- 'https://www.youtube.com/watch?v=3mzs5gnelzm'
+summary: Sarah Guo, founder of Conviction, surveys the AI startup landscape in mid-2025 — reasoning as a new scaling vector, the Cursor playbook for vertical AI, the AI leapfrog effect in conservative indus...
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -18,6 +18,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: references
 ---
 
 # State of Startups and AI 2025 — Sarah Guo, Conviction

@@ -1,18 +1,22 @@
 ---
-title: "Tobin South"
+title: Tobin South
 tags:
-  - person
-  - research
-  - ai-safety
+- person
+- research
+- ai-safety
 sources:
-  - "[[sources/watchv=0mqya52iwqu]]"
-summary: "Research fellow at Stanford working on AI agent safety, PhD graduate, works at WorkOS on enterprise security for AI agents. Gave the 'Enterprise Ready MCP' talk at AI Engineer 2026."
+- 'https://www.youtube.com/watch?v=0mqya52iwqu'
+summary: Research fellow at Stanford working on AI agent safety, PhD graduate, works at WorkOS on enterprise security for AI agents. Gave the 'Enterprise Ready MCP' talk at AI Engineer 2026.
 provenance:
   extracted: 0.65
-  inferred: 0.30
+  inferred: 0.3
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
+category: entities
+tier: supporting
+created: '2026-07-04T15:08:26.845009+00:00'
+updated: '2026-07-04T15:08:26.845009+00:00'
 ---
 # Tobin South
 

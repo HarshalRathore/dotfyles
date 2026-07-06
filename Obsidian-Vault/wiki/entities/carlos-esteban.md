@@ -1,24 +1,26 @@
 ---
-title: "Carlos Esteban"
+title: Carlos Esteban
 tags:
-  - entity
-  - person
-  - evaluation
-  - braintrust
-  - speaker
-aliases: [Carlos Esteban (Braintrust)]
+- entity
+- person
+- evaluation
+- braintrust
+- speaker
+aliases:
+- Carlos Esteban (Braintrust)
 sources:
-  - "[[sources/watchv=9in-cpnp7xg]]"
-summary: "Solutions Engineer at Braintrust, co-presented the hands-on evals workshop at AI Engineer World's Fair 2025."
+- 'https://www.youtube.com/watch?v=9in-cpnp7xg'
+summary: Solutions Engineer at Braintrust, co-presented the hands-on evals workshop at AI Engineer World's Fair 2025.
 provenance:
   extracted: 0.65
-  inferred: 0.30
+  inferred: 0.3
   ambiguous: 0.05
 base_confidence: 0.45
 lifecycle: draft
 tier: peripheral
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Carlos Esteban

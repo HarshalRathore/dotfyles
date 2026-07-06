@@ -4,7 +4,7 @@ category: references
 tags: [aief2025, autonomous-coding, reinforcement-learning, scaling-laws, chain-of-thought, inference-time-compute, majority-voting, sequential-revision]
 aliases: [RL for Autonomous Coding, Aakanksha Chowdhery AIEF2025]
 sources:
-  - "[[sources/watchv=qludzkvfp6a]]"
+  - "https://www.youtube.com/watch?v=qludzkvfp6a"
 summary: "Aakanksha Chowdhery traces the arc of LLM progress from scaling laws through chain-of-thought emergence, RLHF, and into inference-time compute scaling via majority voting and sequential revision."
 provenance:
   extracted: 0.90

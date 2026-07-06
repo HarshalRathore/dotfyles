@@ -1,34 +1,34 @@
 ---
-title: "LLM Latency in Consumer Apps"
+title: LLM Latency in Consumer Apps
 category: concepts
 tags:
-  - latency
-  - llm
-  - consumer-apps
-  - user-experience
-  - performance
+- latency
+- llm
+- consumer-apps
+- user-experience
+- performance
 aliases:
-  - LLM Latency
-  - LLM Response Time
-  - Consumer App Latency
+- LLM Latency
+- LLM Response Time
+- Consumer App Latency
 sources:
-  - "AIEF2025 - How Intuit uses LLMs to explain taxes to millions of taxpayers - Jaspreet Singh, Intuit - https://www.youtube.com/watch?v=_zl_zimMRak"
-summary: "Consumer-facing LLM applications face 3-10 second latency, far from backend-service SLAs of 100-200ms. This latency gap requires different UX design patterns and optimization strategies than traditional backend services."
+- AIEF2025 - How Intuit uses LLMs to explain taxes to millions of taxpayers - Jaspreet Singh, Intuit - https://www.youtube.com/watch?v=_zl_zimMRak
+summary: Consumer-facing LLM applications face 3-10 second latency, far from backend-service SLAs of 100-200ms. This latency gap requires different UX design patterns and optimization strategies than tradit...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/application-latency-tolerance|Application Latency Tolerance]]"
-    type: relates_to
-  - target: "[[concepts/inference-pareto-frontier|Inference Pareto Frontier]]"
-    type: relates_to
+- target: '[[concepts/application-latency-tolerance|Application Latency Tolerance]]'
+  type: relates_to
+- target: '[[concepts/inference-pareto-frontier|Inference Pareto Frontier]]'
+  type: relates_to
 ---
 
 # LLM Latency in Consumer Apps

@@ -1,21 +1,21 @@
 ---
-title: "AI as Skill Multiplier"
+title: AI as Skill Multiplier
 category: concepts
 tags:
-  - ai
-  - skill
-  - multiplier
-  - windsurf
-  - developer-productivity
-  - skill-enabler
-summary: "The concept of AI tools as skill multipliers or skill enablers — allowing developers of all levels to produce higher quality work by leveraging AI, while simultaneously generating the feedback data that improves the AI itself."
+- ai
+- skill
+- multiplier
+- windsurf
+- developer-productivity
+- skill-enabler
+summary: The concept of AI tools as skill multipliers or skill enablers — allowing developers of all levels to produce higher quality work by leveraging AI, while simultaneously generating the feedback data...
 sources:
-  - "[[sources/watchv=jvunpl5qo8q]]"
+- 'https://www.youtube.com/watch?v=jvunpl5qo8q'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting

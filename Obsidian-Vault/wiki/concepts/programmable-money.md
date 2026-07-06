@@ -1,26 +1,27 @@
 ---
-title: "Programmable Money"
+title: Programmable Money
 tags:
-  - blockchain
-  - payments
-  - smart-contracts
-  - usdc
-  - fintech
+- blockchain
+- payments
+- smart-contracts
+- usdc
+- fintech
 aliases:
-  - programmable dollar
-  - code-based money
+- programmable dollar
+- code-based money
 sources:
-  - "[[sources/watchv=axmdsqdoghm]]"
-summary: "Money whose ledger is built into internet technology (blockchain networks and smart contracts), enabling near-instant, borderless, and programmable value transfer with conditional logic."
+- 'https://www.youtube.com/watch?v=axmdsqdoghm'
+summary: Money whose ledger is built into internet technology (blockchain networks and smart contracts), enabling near-instant, borderless, and programmable value transfer with conditional logic.
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.55
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Programmable Money

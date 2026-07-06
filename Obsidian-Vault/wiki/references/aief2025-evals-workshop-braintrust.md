@@ -1,10 +1,18 @@
 ---
-title: "AIEF2025 - [Evals Workshop] Mastering AI Evaluation: From Playground to Production"
+title: 'AIEF2025 - [Evals Workshop] Mastering AI Evaluation: From Playground to Production'
 category: references
-tags: [reference, workshop, aief2025, evals, evaluation, braintrust, llm-judge, scoring]
-summary: "Braintrust workshop at AIEF2025 on building structured AI evaluation pipelines: eval ingredients (task, dataset, score), LLM-as-judge best practices, judge calibration, and the transition from playground to production evals."
+tags:
+- reference
+- workshop
+- aief2025
+- evals
+- evaluation
+- braintrust
+- llm-judge
+- scoring
+summary: 'Braintrust workshop at AIEF2025 on building structured AI evaluation pipelines: eval ingredients (task, dataset, score), LLM-as-judge best practices, judge calibration, and the transition from play...'
 sources:
-  - "[[sources/watchv=9in-cpnp7xg]]"
+- 'https://www.youtube.com/watch?v=9in-cpnp7xg'
 provenance:
   extracted: 0.95
   inferred: 0.03
@@ -15,14 +23,14 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/eval-ingredients-task-dataset-score]]"
-    type: source_of
-  - target: "[[concepts/llm-judge-best-practices]]"
-    type: source_of
-  - target: "[[concepts/loop-automated-eval-optimization]]"
-    type: source_of
-  - target: "[[concepts/eval-optimization-triad]]"
-    type: source_of
+- target: '[[concepts/eval-ingredients-task-dataset-score]]'
+  type: source_of
+- target: '[[concepts/llm-judge-best-practices]]'
+  type: source_of
+- target: '[[concepts/loop-automated-eval-optimization]]'
+  type: source_of
+- target: '[[concepts/eval-optimization-triad]]'
+  type: source_of
 ---
 
 # AIEF2025 - [Evals Workshop] Mastering AI Evaluation: From Playground to Production

@@ -1,17 +1,17 @@
 ---
-title: "Parallel AI Workstreams"
+title: Parallel AI Workstreams
 tags:
-  - ai-agents
-  - parallel-work
-  - orchestration
-  - aief2025
+- ai-agents
+- parallel-work
+- orchestration
+- aief2025
 aliases:
-  - parallel AI workstreams
-  - orchestrating AI workstreams
+- parallel AI workstreams
+- orchestrating AI workstreams
 sources:
-  - "AIEF2025 - Mentoring the Machine — Eric Hou, Augment Code - https://www.youtube.com/watch?v=Zniw5c9_jx8"
+- AIEF2025 - Mentoring the Machine — Eric Hou, Augment Code - https://www.youtube.com/watch?v=Zniw5c9_jx8
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.82
@@ -20,14 +20,20 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: [[concepts/parallel-agent-workflows|Parallel Agent Workflows]]
-    type: related_to
-  - target: [[concepts/agent-mentoring-model|Agent Mentoring Model]]
-    type: enabled_by
-  - target: [[concepts/agent-evaluation-role|Agent Evaluation Role]]
-    type: enables
-  - target: [[concepts/flow-awareness|Flow Awareness]]
-    type: complements
+- target:
+  - - concepts/parallel-agent-workflows|Parallel Agent Workflows
+  type: related_to
+- target:
+  - - concepts/agent-mentoring-model|Agent Mentoring Model
+  type: enabled_by
+- target:
+  - - concepts/agent-evaluation-role|Agent Evaluation Role
+  type: enables
+- target:
+  - - concepts/flow-awareness|Flow Awareness
+  type: complements
+category: concepts
+summary: Parallel AI Workstreams
 ---
 
 # Parallel AI Workstreams

@@ -1,19 +1,19 @@
 ---
-title: "Out-of-Domain Generalization"
+title: Out-of-Domain Generalization
 category: concepts
 tags:
-  - out-of-domain
-  - generalization
-  - llm
-  - recommendation-systems
+- out-of-domain
+- generalization
+- llm
+- recommendation-systems
 aliases:
-  - out-of-domain generalization
-  - OOD generalization
+- out-of-domain generalization
+- OOD generalization
 sources:
-  - "[[sources/watchv=u0s6cfzay5c]]"
+- 'https://www.youtube.com/watch?v=u0s6cfzay5c'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.72
 lifecycle: draft
@@ -21,10 +21,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/360brew]]"
-    type: demonstrated_by
-  - target: "[[concepts/zero-shot-learning]]"
-    type: related_to
+- target: '[[concepts/360brew]]'
+  type: demonstrated_by
+- target: '[[concepts/zero-shot-learning]]'
+  type: related_to
+summary: Out-of-Domain Generalization
 ---
 # Out-of-Domain Generalization
 

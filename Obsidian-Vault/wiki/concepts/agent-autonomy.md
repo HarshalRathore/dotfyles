@@ -1,33 +1,37 @@
 ---
-title: "Agent Autonomy"
+title: Agent Autonomy
 category: concepts
 tags:
-  - agent-autonomy
-  - agent-experience
-  - ax
-  - ai-agents
-  - aief2025
-aliases: [agent autonomy, autonomous agents, agent independence]
+- agent-autonomy
+- agent-experience
+- ax
+- ai-agents
+- aief2025
+aliases:
+- agent autonomy
+- autonomous agents
+- agent independence
 sources:
-  - "AIEF2025 - AX is the only Experience that Matters - Ivan Burazin, Daytona - https://www.youtube.com/watch?v=e9sLVMN76qU"
-  - "AIEF2025 - Building Agents (the hard parts!) - Rita Kozlov, Cloudflare - https://www.youtube.com/watch?v=j_TKDweOsYE"
+- AIEF2025 - AX is the only Experience that Matters - Ivan Burazin, Daytona - https://www.youtube.com/watch?v=e9sLVMN76qU
+- AIEF2025 - Building Agents (the hard parts!) - Rita Kozlov, Cloudflare - https://www.youtube.com/watch?v=j_TKDweOsYE
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.17
   ambiguous: 0.03
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: core
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/agent-experience]]"
-    type: core_component_of
-  - target: "[[concepts/seamless-authentication-for-agents]]"
-    type: requires
-  - target: "[[concepts/api-first-design-for-agents]]"
-    type: requires
+- target: '[[concepts/agent-experience]]'
+  type: core_component_of
+- target: '[[concepts/seamless-authentication-for-agents]]'
+  type: requires
+- target: '[[concepts/api-first-design-for-agents]]'
+  type: requires
+summary: Agent Autonomy
 ---
 
 # Agent Autonomy

@@ -1,38 +1,38 @@
 ---
-title: "AI Productivity Measurement"
+title: AI Productivity Measurement
 category: concepts
 tags:
-  - ai
-  - productivity
-  - measurement
-  - software-engineering
-  - methodology
-  - developer-metrics
+- ai
+- productivity
+- measurement
+- software-engineering
+- methodology
+- developer-metrics
 aliases:
-  - AI Productivity Measurement
-  - Measuring AI Impact on Developers
+- AI Productivity Measurement
+- Measuring AI Impact on Developers
 sources:
-  - "AIEF2025 - Does AI Actually Boost Developer Productivity? (100k Devs Study) - Yegor Denisov-Blanch, Stanford - https://www.youtube.com/watch?v=tbDDYKRFjhk"
-summary: "The challenge of accurately measuring AI's impact on developer productivity. Stanford's study critiques three flawed approaches (commit-based metrics, greenfield experiments, self-reported surveys) and proposes automated Git-based functionality measurement."
+- AIEF2025 - Does AI Actually Boost Developer Productivity? (100k Devs Study) - Yegor Denisov-Blanch, Stanford - https://www.youtube.com/watch?v=tbDDYKRFjhk
+summary: The challenge of accurately measuring AI's impact on developer productivity. Stanford's study critiques three flawed approaches (commit-based metrics, greenfield experiments, self-reported surveys)...
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: core
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/commit-based-metrics-limitations|Commit-Based Metrics Limitations]]"
-    type: contradicts
-  - target: "[[concepts/self-reported-productivity|Self-Reported Productivity]]"
-    type: contradicts
-  - target: "[[concepts/greenfield-vs-brownfield|Greenfield vs Brownfield]]"
-    type: related_to
-  - target: "[[concepts/rework-vs-refactoring|Rework vs Refactoring]]"
-    type: related_to
+- target: '[[concepts/commit-based-metrics-limitations|Commit-Based Metrics Limitations]]'
+  type: contradicts
+- target: '[[concepts/self-reported-productivity|Self-Reported Productivity]]'
+  type: contradicts
+- target: '[[concepts/greenfield-vs-brownfield|Greenfield vs Brownfield]]'
+  type: related_to
+- target: '[[concepts/rework-vs-refactoring|Rework vs Refactoring]]'
+  type: related_to
 ---
 
 # AI Productivity Measurement

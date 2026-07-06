@@ -1,19 +1,21 @@
 ---
-title: "Agent Checkout"
+title: Agent Checkout
 category: concepts
 tags:
-  - agent-checkout
-  - checkout
-  - payments
-  - ai-agents
-  - transaction-infrastructure
-aliases: [agentic checkout, AI checkout]
+- agent-checkout
+- checkout
+- payments
+- ai-agents
+- transaction-infrastructure
+aliases:
+- agentic checkout
+- AI checkout
 sources:
-  - "AIEF2025 - Machines of Buying and Selling Grace - Adam Behrens, New Generation - https://www.youtube.com/watch?v=zlZz0mDF2eg"
+- AIEF2025 - Machines of Buying and Selling Grace - Adam Behrens, New Generation - https://www.youtube.com/watch?v=zlZz0mDF2eg
 provenance:
   extracted: 0.75
   inferred: 0.25
-  ambiguous: 0.00
+  ambiguous: 0.0
 base_confidence: 0.75
 lifecycle: draft
 lifecycle_changed: 2026-07-05
@@ -21,12 +23,13 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/delegated-authentication|Delegated Authentication]]"
-    type: uses
-  - target: "[[concepts/virtual-cards|Virtual Cards]]"
-    type: uses
-  - target: "[[concepts/agentic-commerce|Agentic Commerce]]"
-    type: component-of
+- target: '[[concepts/delegated-authentication|Delegated Authentication]]'
+  type: uses
+- target: '[[concepts/virtual-cards|Virtual Cards]]'
+  type: uses
+- target: '[[concepts/agentic-commerce|Agentic Commerce]]'
+  type: component-of
+summary: Agent Checkout
 ---
 
 # Agent Checkout

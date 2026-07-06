@@ -1,22 +1,31 @@
 ---
-title: "Eno Reyes"
+title: Eno Reyes
 category: entities
-tags: [eno-reyes, factory, ai-agents, agent-native, software-development, speaker]
-summary: "Founder of Factory, an AI agent platform company. Started working on LLMs around GPT-3.5. Advocates for agent-driven development and the transition from human-driven to agent-driven software development."
+tags:
+- eno-reyes
+- factory
+- ai-agents
+- agent-native
+- software-development
+- speaker
+summary: Founder of Factory, an AI agent platform company. Started working on LLMs around GPT-3.5. Advocates for agent-driven development and the transition from human-driven to agent-driven software develo...
 sources:
-  - "AIEF2025 - Ship Production Software in Minutes, Not Months — Eno Reyes, Factory - https://www.youtube.com/watch?v=iheWKg2Tkrk"
-provenance: { extracted: 0.95, inferred: 0.05, ambiguous: 0.0 }
+- AIEF2025 - Ship Production Software in Minutes, Not Months — Eno Reyes, Factory - https://www.youtube.com/watch?v=iheWKg2Tkrk
+provenance:
+  extracted: 0.95
+  inferred: 0.05
+  ambiguous: 0.0
 base_confidence: 0.95
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
-created: 2026-07-04T00:00:00Z
-updated: 2026-07-04T00:00:00Z
+created: 2026-07-04 00:00:00+00:00
+updated: 2026-07-04 00:00:00+00:00
 relationships:
-  - target: "[[entities/factory|Factory]]"
-    type: founded
-  - target: "[[misc/ai-engineer-worlds-fair-2025|AI Engineer World's Fair 2025]]"
-    type: speaker-at
+- target: '[[entities/factory|Factory]]'
+  type: founded
+- target: '[[misc/ai-engineer-worlds-fair-2025|AI Engineer World''s Fair 2025]]'
+  type: speaker-at
 ---
 
 ## Eno Reyes

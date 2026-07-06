@@ -1,23 +1,36 @@
 ---
 title: Pluggable AI Platform
-tags: [ai-platform, extensibility, plugin-architecture, agent-integration, developer-tools]
-aliases: [pluggable ai, extensible ai platform, agent platform]
-summary: "A product platform designed to be extensible with custom AI agents — recognizing that every team has unique workflows that can't be served by pre-baked AI features alone."
-sources: ["[[sources/aief2025-building-the-platform-for-agent-coordination-—-tom-moor]]", "[[sources/watchv=ug9iadmi2dg]]"]
+tags:
+- ai-platform
+- extensibility
+- plugin-architecture
+- agent-integration
+- developer-tools
+aliases:
+- pluggable ai
+- extensible ai platform
+- agent platform
+summary: A product platform designed to be extensible with custom AI agents — recognizing that every team has unique workflows that can't be served by pre-baked AI features alone.
+sources:
+- '[[sources/aief2025-building-the-platform-for-agent-coordination-—-tom-moor]]'
+- 'https://www.youtube.com/watch?v=ug9iadmi2dg'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
-created: 2026-07-04T00:00:00Z
-updated: 2026-07-04T00:00:00Z
+created: 2026-07-04 00:00:00+00:00
+updated: 2026-07-04 00:00:00+00:00
 relationships:
-  - target: [[concepts/agent-coordination|Agent Coordination Platform]]
-    type: extends
-  - target: [[concepts/agent-vs-workflow|Agent vs Workflow]]
-    type: related_to
+- target:
+  - - concepts/agent-coordination|Agent Coordination Platform
+  type: extends
+- target:
+  - - concepts/agent-vs-workflow|Agent vs Workflow
+  type: related_to
+category: concepts
 ---
 
 # Pluggable AI Platform

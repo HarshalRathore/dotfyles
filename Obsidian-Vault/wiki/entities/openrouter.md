@@ -1,20 +1,22 @@
 ---
-title: "OpenRouter"
+title: OpenRouter
 tags:
-  - company
-  - ai
-  - inference
-  - marketplace
-  - infrastructure
-aliases: [OpenRouter AI, Open Router]
+- company
+- ai
+- inference
+- marketplace
+- infrastructure
+aliases:
+- OpenRouter AI
+- Open Router
 sources:
-  - "[[sources/watchv=84vtz2il1ug]]"
-  - "[[sources/watchv=l8-5ezsoi5a]]"
-  - "[[sources/watchv=lqq_lcbajcc]]"
-summary: "Multi-model inference marketplace providing a single API to 400+ models across 60+ providers. Aggregates inference from open-source and closed models with unified billing, routing, and observability."
+- 'https://www.youtube.com/watch?v=84vtz2il1ug'
+- 'https://www.youtube.com/watch?v=l8-5ezsoi5a'
+- 'https://www.youtube.com/watch?v=lqq_lcbajcc'
+summary: Multi-model inference marketplace providing a single API to 400+ models across 60+ providers. Aggregates inference from open-source and closed models with unified billing, routing, and observability.
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.55
 lifecycle: draft
@@ -22,10 +24,11 @@ tier: supporting
 created: 2026-07-03
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/vibe-coding-as-agentic-ai|Vibe Coding as Agentic AI]]"
-    type: related_to
-  - target: "[[concepts/swe-bench|SWE Bench]]"
-    type: related_to
+- target: '[[concepts/vibe-coding-as-agentic-ai|Vibe Coding as Agentic AI]]'
+  type: related_to
+- target: '[[concepts/swe-bench|SWE Bench]]'
+  type: related_to
+category: entities
 ---
 
 # OpenRouter

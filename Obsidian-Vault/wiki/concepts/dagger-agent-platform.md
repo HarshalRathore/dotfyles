@@ -1,17 +1,20 @@
 ---
-title: "Dagger Agent Platform"
+title: Dagger Agent Platform
 tags:
-  - concept
-  - agent
-  - architecture
-  - container
-  - sandbox
-  - cicd
-  - dagger
-aliases: [Dagger agents, containerized agent environments, Dagger LLM function]
-summary: "Architectural pattern where containerized Dagger modules serve as scoped, typed agent environments with sandboxed execution, test-driven validation, and cross-language module interop."
+- concept
+- agent
+- architecture
+- container
+- sandbox
+- cicd
+- dagger
+aliases:
+- Dagger agents
+- containerized agent environments
+- Dagger LLM function
+summary: Architectural pattern where containerized Dagger modules serve as scoped, typed agent environments with sandboxed execution, test-driven validation, and cross-language module interop.
 sources:
-  - "[[sources/watchv=fzb1a24hf-o]]"
+- 'https://www.youtube.com/watch?v=fzb1a24hf-o'
 provenance:
   extracted: 0.78
   inferred: 0.18
@@ -21,6 +24,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Dagger Agent Platform

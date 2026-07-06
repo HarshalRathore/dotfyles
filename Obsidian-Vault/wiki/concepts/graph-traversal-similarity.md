@@ -1,19 +1,19 @@
 ---
-title: "Graph Traversal Similarity"
+title: Graph Traversal Similarity
 tags:
-  - knowledge-graph
-  - graph-traversal
-  - similarity
-  - agent
-  - retrieval
+- knowledge-graph
+- graph-traversal
+- similarity
+- agent
+- retrieval
 aliases:
-  - Variable-Length Path Similarity
-  - Graph Overlap Similarity
-  - Neighborhood Overlap
+- Variable-Length Path Similarity
+- Graph Overlap Similarity
+- Neighborhood Overlap
 sources:
-  - "[[sources/watchv=j-9ebjbxcbg]]"
-  - "[[sources/watchv=czm3cw6fdbs]]"
-summary: "A graph-based similarity computation technique that uses variable-length path traversals (0-3 hops) over shared entities — skills, domains, accomplishments — to find and rank similar entities with explainable reasoning."
+- 'https://www.youtube.com/watch?v=j-9ebjbxcbg'
+- 'https://www.youtube.com/watch?v=czm3cw6fdbs'
+summary: A graph-based similarity computation technique that uses variable-length path traversals (0-3 hops) over shared entities — skills, domains, accomplishments — to find and rank similar entities with...
 provenance:
   extracted: 0.78
   inferred: 0.17
@@ -24,12 +24,13 @@ tier: supporting
 created: 2026-07-03
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/multi-hop-retrieval|Multi-Hop Retrieval]]"
-    type: uses
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: used_by
-  - target: "[[concepts/graph-vs-document-retrieval|Graph vs Document Retrieval]]"
-    type: related_to
+- target: '[[concepts/multi-hop-retrieval|Multi-Hop Retrieval]]'
+  type: uses
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: used_by
+- target: '[[concepts/graph-vs-document-retrieval|Graph vs Document Retrieval]]'
+  type: related_to
+category: concepts
 ---
 
 # Graph Traversal Similarity

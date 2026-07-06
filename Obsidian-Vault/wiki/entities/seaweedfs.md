@@ -4,7 +4,7 @@ category: entities
 tags: [distributed-storage, filesystem, object-storage, ml-infrastructure, storage]
 summary: Distributed filesystem used by Luma AI for storing model weights, checkpoints, and intermediate data across their multi-provider GPU inference fleet.
 sources:
-  - "[[sources/watchv=ey4o9m6aswi]]"
+  - "https://www.youtube.com/watch?v=ey4o9m6aswi"
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -16,11 +16,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[distributed-inference]]"
+  - target: "[[concepts/distributed-inference]]"
     type: uses
-  - target: "[[model-versioning]]"
+  - target: "[[concepts/model-versioning]]"
     type: related_to
-  - target: "[[inference-serving]]"
+  - target: "[[concepts/inference-serving]]"
     type: related_to
 ---
 

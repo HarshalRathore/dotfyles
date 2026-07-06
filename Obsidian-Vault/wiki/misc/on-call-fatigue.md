@@ -1,32 +1,36 @@
 ---
-title: "On-Call Fatigue"
+title: On-Call Fatigue
 tags:
-  - on-call
-  - fatigue
-  - engineer-burnout
-  - production-troubleshooting
-  - ai-coding
-aliases: [on-call-fatigue, on-call-burden, on-call-problem]
+- on-call
+- fatigue
+- engineer-burnout
+- production-troubleshooting
+- ai-coding
+aliases:
+- on-call-fatigue
+- on-call-burden
+- on-call-problem
 sources:
-  - "[[sources/watchv=l6_nigiexzq]]"
-summary: The phenomenon where engineers spend most of their time on on-call and QA rather than creative system design work, as AI coding tools increase system complexity while reducing human understanding of internals.
+- 'https://www.youtube.com/watch?v=l6_nigiexzq'
+summary: The phenomenon where engineers spend most of their time on on-call and QA rather than creative system design work, as AI coding tools increase system complexity while reducing human understanding o...
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/production-troubleshooting]]"
-    type: related_to
-  - target: "[[concepts/context-loss]]"
-    type: derived_from
-  - target: "[[concepts/agent-swarm]]"
-    type: related_to
+- target: '[[concepts/production-troubleshooting]]'
+  type: related_to
+- target: '[[concepts/context-loss]]'
+  type: derived_from
+- target: '[[concepts/agent-swarm]]'
+  type: related_to
+category: misc
 ---
 
 # On-Call Fatigue

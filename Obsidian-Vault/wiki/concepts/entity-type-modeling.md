@@ -4,7 +4,7 @@ category: concepts
 tags: [data-modeling, knowledge-graph, ontology, schema, agent-memory, domain-driven-design]
 summary: "The practice of defining structured entity types with typed fields and business rules as the primary unit of memory or knowledge storage, instead of free-form text or unstructured facts."
 sources:
-  - "[[sources/watchv=t5imo5ntyha]]"
+  - "https://www.youtube.com/watch?v=t5imo5ntyha"
 provenance:
   extracted: 0.80
   inferred: 0.15

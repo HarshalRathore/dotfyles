@@ -1,17 +1,26 @@
 ---
 type: concept
-title: "high-availability control plane"
+title: high-availability control plane
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/bootstrapping-control-place_e4e0df]]"
+- '[[sources/bootstrapping-control-place_e4e0df]]'
 tags:
-  - deployment
+- deployment
 aliases:
-  - "multi-master cluster"
-  - "high-availability cluster"
+- multi-master cluster
+- high-availability cluster
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: high-availability control plane
 ---
 # high-availability control plane
 

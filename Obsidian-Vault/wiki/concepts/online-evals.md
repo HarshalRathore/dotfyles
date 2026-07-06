@@ -1,18 +1,22 @@
 ---
-title: "Online Evals"
+title: Online Evals
 tags:
-  - concept
-  - evaluation
-  - production
-  - monitoring
-  - observability
-  - scoring
-aliases: [production evals, online scoring, live traffic evaluation, online scoring rules]
+- concept
+- evaluation
+- production
+- monitoring
+- observability
+- scoring
+aliases:
+- production evals
+- online scoring
+- live traffic evaluation
+- online scoring rules
 sources:
-  - "[[sources/watchv=9in-cpnp7xg]]"
-  - "[[sources/watchv=l8ooyedi_ls]]"
-  - "AIEF2025 - Five hard earned lessons about Evals — Ankur Goyal, Braintrust - https://www.youtube.com/watch?v=a4BV0gGmXgA"
-summary: "Production evaluation of AI systems where live user traffic is automatically scored using defined metrics, enabling regression alerts, real-time monitoring, and continuous dataset improvement. Complements offline evals and CI-integrated evals."
+- 'https://www.youtube.com/watch?v=9in-cpnp7xg'
+- 'https://www.youtube.com/watch?v=l8ooyedi_ls'
+- AIEF2025 - Five hard earned lessons about Evals — Ankur Goyal, Braintrust - https://www.youtube.com/watch?v=a4BV0gGmXgA
+summary: Production evaluation of AI systems where live user traffic is automatically scored using defined metrics, enabling regression alerts, real-time monitoring, and continuous dataset improvement. Comp...
 provenance:
   extracted: 0.78
   inferred: 0.17
@@ -22,6 +26,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-05
+category: concepts
 ---
 
 # Online Evals

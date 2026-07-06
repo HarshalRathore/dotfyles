@@ -1,12 +1,20 @@
 ---
-title: "Real-World Robotics Data"
+title: Real-World Robotics Data
 category: concepts
-tags: [robotics, data-collection, can-bus, diagnostics, external-monitoring]
-aliases: [robotics monitoring, can bus data, external transceiver]
+tags:
+- robotics
+- data-collection
+- can-bus
+- diagnostics
+- external-monitoring
+aliases:
+- robotics monitoring
+- can bus data
+- external transceiver
 sources:
-  - "AIEF2025 - Rishabh Garg, Tesla Optimus — Challenges in High Performance Robotics Systems - https://www.youtube.com/watch?v=bCGbuyv8PMk"
+- AIEF2025 - Rishabh Garg, Tesla Optimus — Challenges in High Performance Robotics Systems - https://www.youtube.com/watch?v=bCGbuyv8PMk
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -16,12 +24,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/cycle-time-plot|Cycle Time Plot]]"
-    type: feeds
-  - target: "[[concepts/software-vs-policy-debugging|Software vs Policy Debugging]]"
-    type: enables
-  - target: "[[concepts/can-bus-robotics|CAN Bus in Robotics]]"
-    type: monitors
+- target: '[[concepts/cycle-time-plot|Cycle Time Plot]]'
+  type: feeds
+- target: '[[concepts/software-vs-policy-debugging|Software vs Policy Debugging]]'
+  type: enables
+- target: '[[concepts/can-bus-robotics|CAN Bus in Robotics]]'
+  type: monitors
+summary: Real-World Robotics Data
 ---
 
 # Real-World Robotics Data

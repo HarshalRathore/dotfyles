@@ -4,7 +4,7 @@ category: concepts
 tags: [ai-evaluation, ai-improvement, measurement, ai-optimization, domain-metrics, pipeline-improvement]
 summary: "The two-phase approach to improving AI systems: first measure domain-specific performance with proper metrics and failure mode ontologies, then convert domain insights into pipeline improvements."
 sources:
-  - "[[sources/watchv=mrm7oa3jsfs]]"
+  - "https://www.youtube.com/watch?v=mrm7oa3jsfs"
 provenance:
   extracted: 0.8
   inferred: 0.2

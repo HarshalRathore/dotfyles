@@ -1,13 +1,13 @@
 ---
-title: "Gorkem Yurtseven"
+title: Gorkem Yurtseven
 category: entities
 tags:
-  - person
-  - founder
-  - generative-media
-  - fal
+- person
+- founder
+- generative-media
+- fal
 sources:
-  - "[[sources/watchv=p370d8kmlkw]]"
+- 'https://www.youtube.com/watch?v=p370d8kmlkw'
 provenance:
   extracted: 0.95
   inferred: 0.05
@@ -18,10 +18,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/fal]]"
-    type: works_at
-  - target: "[[concepts/generative-media]]"
-    type: related_to
+- target: '[[entities/fal]]'
+  type: works_at
+- target: '[[concepts/generative-media]]'
+  type: related_to
+summary: Gorkem Yurtseven
 ---
 
 # Gorkem Yurtseven

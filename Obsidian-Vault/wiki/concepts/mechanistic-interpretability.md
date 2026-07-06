@@ -1,23 +1,24 @@
 ---
-title: "Mechanistic Interpretability"
+title: Mechanistic Interpretability
 tags:
-  - concept
-  - ai
-  - interpretability
-  - safety
-  - research
+- concept
+- ai
+- interpretability
+- safety
+- research
 sources:
-  - "[[sources/watchv=6avmhzpjptq]]"
-summary: "The practice of reverse engineering neural networks to understand their internal computations — identifying and manipulating features (concept representations) inside models to enable debugging, steering, and programmatic control."
+- 'https://www.youtube.com/watch?v=6avmhzpjptq'
+summary: The practice of reverse engineering neural networks to understand their internal computations — identifying and manipulating features (concept representations) inside models to enable debugging, st...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Mechanistic Interpretability

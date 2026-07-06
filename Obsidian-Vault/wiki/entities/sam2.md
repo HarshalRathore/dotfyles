@@ -1,25 +1,32 @@
 ---
 title: SAM2
 category: entities
-tags: [ai-model, computer-vision, segmentation, video-segmentation, meta, segment-anything]
-summary: "Meta's Segment Anything Model 2 — an automated segmentation model for images and video. Used to generate annotations that dramatically improve video understanding model accuracy."
+tags:
+- ai-model
+- computer-vision
+- segmentation
+- video-segmentation
+- meta
+- segment-anything
+summary: Meta's Segment Anything Model 2 — an automated segmentation model for images and video. Used to generate annotations that dramatically improve video understanding model accuracy.
 provenance:
   extracted: 0.85
   inferred: 0.15
-  ambiguous: 0.00
-base_confidence: 0.80
+  ambiguous: 0.0
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/meta]]"
-    type: implements
-  - target: "[[concepts/annotation-augmented-video-understanding]]"
-    type: related_to
-  - target: "[[concepts/multimodal-video-search]]"
-    type: related_to
+- target: '[[entities/meta]]'
+  type: implements
+- target: '[[concepts/annotation-augmented-video-understanding]]'
+  type: related_to
+- target: '[[concepts/multimodal-video-search]]'
+  type: related_to
+sources: []
 ---
 
 **SAM2** (Segment Anything Model 2) is Meta's automated segmentation model for images and video. It extends the original SAM (Segment Anything Model) with video segmentation capabilities.

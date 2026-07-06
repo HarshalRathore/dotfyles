@@ -13,11 +13,11 @@ tier: supporting
 created: 2026-07-05T00:00:00Z
 updated: 2026-07-05T00:00:00Z
 relationships:
-  - target: "[[entities/matthias-loibl.md]]"
+  - target: "[[entities/matthias-loibl]]"
     type: relates_to
-  - target: "[[entities/polar-signals.md]]"
+  - target: "[[entities/polar-signals]]"
     type: relates_to
-  - target: "[[concepts/gpu-profiling.md]]"
+  - target: "[[concepts/gpu-profiling]]"
     type: relates_to
 ---
 
@@ -35,7 +35,7 @@ Matthias Loibl presented on maximizing GPU efficiency through continuous profili
 
 ### Profiling Fundamentals
 - Profiling dates back to the 1970s with IBM researchers
-- Two main approaches: [[concepts/tracing-profiling.md|tracing]] (records every event, high cost) vs [[concepts/sampled-profiling.md|sampled]] (samples at fixed intervals, low overhead)
+- Two main approaches: [[concepts/tracing-profiling|tracing]] (records every event, high cost) vs [[concepts/sampled-profiling|sampled]] (samples at fixed intervals, low overhead)
 - Sampled profiling achieves < 1% CPU overhead and ~4 MB memory overhead at 20-100 samples/second
 - Running sampled profiling continuously in production captures the most significant patterns over time
 
@@ -54,7 +54,7 @@ Polar Signals collects these GPU metrics via NVIDIA and VMware APIs:
 - Linux kernel tracks CUDA kernel lifecycle events via eBPF
 - Records start time when CUDA stack is pushed, end time when kernel terminates
 - Duration = actual GPU time spent by each kernel function
-- Displayed as [[concepts/flame-chart.md|flame charts]] where bar width = GPU time, not CPU time
+- Displayed as [[concepts/flame-chart|flame charts]] where bar width = GPU time, not CPU time
 - Shows CPU-side call stack (Python → CUDA) with GPU time at leaf functions
 
 ### Platform: Kubestriker

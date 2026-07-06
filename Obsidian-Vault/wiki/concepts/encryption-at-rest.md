@@ -1,17 +1,26 @@
 ---
 type: concept
-title: "Encryption at Rest"
+title: Encryption at Rest
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/env-configmaps-&-secrets_9586ac]]"
+- '[[sources/env-configmaps-&-secrets_9586ac]]'
 tags:
-  - security
+- security
 aliases:
-  - Data at Rest Encryption
-  - Secret Encryption
+- Data at Rest Encryption
+- Secret Encryption
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Encryption at Rest
 ---
 # Encryption at Rest
 

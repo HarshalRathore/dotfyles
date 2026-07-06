@@ -1,9 +1,9 @@
 ---
-title: "Anterior"
+title: Anterior
 category: entities
-summary: "NY clinician-led company building clinical reasoning tools for health insurance. Serves insurers covering ~50M lives. AI system 'Florence' achieves ~99% on medical necessity reviews."
+summary: NY clinician-led company building clinical reasoning tools for health insurance. Serves insurers covering ~50M lives. AI system 'Florence' achieves ~99% on medical necessity reviews.
 sources:
-  - "[[sources/watchv=mrm7oa3jsfs]]"
+- 'https://www.youtube.com/watch?v=mrm7oa3jsfs'
 provenance:
   extracted: 0.95
   inferred: 0.05
@@ -14,12 +14,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/domain-native-llm-application]]"
-    type: implements
-  - target: "[[concepts/clinical-reasoning]]"
-    type: uses
-  - target: "[[concepts/medical-necessity-review]]"
-    type: implements
+- target: '[[concepts/domain-native-llm-application]]'
+  type: implements
+- target: '[[concepts/clinical-reasoning]]'
+  type: uses
+- target: '[[concepts/medical-necessity-review]]'
+  type: implements
+tags: []
 ---
 
 # Anterior

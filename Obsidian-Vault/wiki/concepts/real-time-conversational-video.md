@@ -1,35 +1,36 @@
 ---
-title: "Real-Time Conversational Video"
+title: Real-Time Conversational Video
 category: concepts
 tags:
-  - video-ai
-  - real-time
-  - conversational-ai
-  - latency
-  - video-generation
-  - pipecat
-  - tavus
+- video-ai
+- real-time
+- conversational-ai
+- latency
+- video-generation
+- pipecat
+- tavus
 sources:
-  - "AIEF2025 - Realtime Conversational Video with Pipecat and Tavus — Chad Bailey and Brian Johnson, Daily & Tavus - https://www.youtube.com/watch?v=ujt0da9Z29Q"
+- AIEF2025 - Realtime Conversational Video with Pipecat and Tavus — Chad Bailey and Brian Johnson, Daily & Tavus - https://www.youtube.com/watch?v=ujt0da9Z29Q
 provenance:
   extracted: 0.75
   inferred: 0.18
   ambiguous: 0.07
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/voice-agents]]"
-    type: extends
-  - target: "[[concepts/voice-ai-latency]]"
-    type: related_to
-  - target: "[[concepts/conversational-video-interface]]"
-    type: related_to
-  - target: "[[entities/tavus]]"
-    type: related_to
+- target: '[[concepts/voice-agents]]'
+  type: extends
+- target: '[[concepts/voice-ai-latency]]'
+  type: related_to
+- target: '[[concepts/conversational-video-interface]]'
+  type: related_to
+- target: '[[entities/tavus]]'
+  type: related_to
+summary: Real-Time Conversational Video
 ---
 
 # Real-Time Conversational Video

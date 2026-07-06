@@ -1,17 +1,26 @@
 ---
 type: concept
-title: "Workload Scaling"
+title: Workload Scaling
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/kubernetes-autoscaling_59fbf3]]"
+- '[[sources/kubernetes-autoscaling_59fbf3]]'
 tags:
-  - scaling
+- scaling
 aliases:
-  - Pod Scaling
-  - Container Scaling
+- Pod Scaling
+- Container Scaling
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Workload Scaling
 ---
 # Workload Scaling
 

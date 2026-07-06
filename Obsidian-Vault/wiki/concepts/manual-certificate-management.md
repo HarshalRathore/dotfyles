@@ -1,16 +1,25 @@
 ---
 type: concept
-title: "Manual Certificate Management"
+title: Manual Certificate Management
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/how-tls-certificates-work-in-kubernetes-and-manual-cluster-setup_e2b507]]"
+- '[[sources/how-tls-certificates-work-in-kubernetes-and-manual-cluster-setup_e2b507]]'
 tags:
-  - tls
+- tls
 aliases:
-  - Manual Certificate Generation
+- Manual Certificate Generation
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Manual Certificate Management
 ---
 # Manual Certificate Management
 

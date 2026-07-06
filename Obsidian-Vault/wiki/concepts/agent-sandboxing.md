@@ -2,7 +2,8 @@
 title: "Agent Sandboxing"
 category: concepts
 tags: [agent-security, sandboxing, docker, least-privilege, credential-scoping]
-summary: Security model for autonomous coding agents: Docker container isolation, scoped credentials, and principle of least privilege. Agents running unattended need strong isolation.
+summary: >-
+  Security model for autonomous coding agents: Docker container isolation, scoped credentials, and principle of least privilege. Agents running unattended need strong isolation.
 sources:
   - "AIEF2025 - Software Development Agents: What Works and What Doesn't - Robert Brennan, OpenHands - https://www.youtube.com/watch?v=o_hhkJtlbSs"
   - "AIEF2025 - OpenAI on Securing Code-Executing AI Agents — Fouad Matin (Codex, Agent Robustness) - https://www.youtube.com/watch?v=w7IMuYsBNr8"

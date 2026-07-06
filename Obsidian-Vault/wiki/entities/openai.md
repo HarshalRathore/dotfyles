@@ -1,17 +1,17 @@
 ---
-title: "OpenAI"
+title: OpenAI
 tags:
-  - organization
-  - ai
-  - llm
-  - research
+- organization
+- ai
+- llm
+- research
 sources:
-  - "[[sources/watchv=0f8mngpuycy]]"
-  - "[[sources/watchv=-oxiljtjxqu]]"
-  - "[[sources/watchv=3mzs5gnelzm]]"
-  - "[[sources/watchv=jfalqqfxqpa]]"
-  - "AIEF2025 - Machines of Buying and Selling Grace - Adam Behrens, New Generation - https://www.youtube.com/watch?v=zlZz0mDF2eg"
-summary: "AI research and deployment company behind GPT, the Real-time API, and multimodal models spanning text, image, video, and audio. Its model market share is declining as competition from Anthropic, Google, and open-source intensifies."
+- 'https://www.youtube.com/watch?v=0f8mngpuycy'
+- 'https://www.youtube.com/watch?v=-oxiljtjxqu'
+- 'https://www.youtube.com/watch?v=3mzs5gnelzm'
+- 'https://www.youtube.com/watch?v=jfalqqfxqpa'
+- AIEF2025 - Machines of Buying and Selling Grace - Adam Behrens, New Generation - https://www.youtube.com/watch?v=zlZz0mDF2eg
+summary: AI research and deployment company behind GPT, the Real-time API, and multimodal models spanning text, image, video, and audio. Its model market share is declining as competition from Anthropic, Go...
 provenance:
   extracted: 0.55
   inferred: 0.38
@@ -22,6 +22,7 @@ lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-05
+category: entities
 ---
 
 # OpenAI

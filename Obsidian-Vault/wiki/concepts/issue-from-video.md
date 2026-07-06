@@ -1,23 +1,36 @@
 ---
 title: Issue from Video
-tags: [computer-vision, video-analysis, bug-reproduction, multimodal-ai, issue-management]
-aliases: [issue from video, video-to-issue, video bug report]
-summary: "Using multimodal AI to analyze customer-submitted video recordings, extract reproduction steps, and automatically create structured bug reports or feature requests."
-sources: ["[[sources/aief2025-building-the-platform-for-agent-coordination-—-tom-moor]]", "[[sources/watchv=ug9iadmi2dg]]"]
+tags:
+- computer-vision
+- video-analysis
+- bug-reproduction
+- multimodal-ai
+- issue-management
+aliases:
+- issue from video
+- video-to-issue
+- video bug report
+summary: Using multimodal AI to analyze customer-submitted video recordings, extract reproduction steps, and automatically create structured bug reports or feature requests.
+sources:
+- '[[sources/aief2025-building-the-platform-for-agent-coordination-—-tom-moor]]'
+- 'https://www.youtube.com/watch?v=ug9iadmi2dg'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
-created: 2026-07-04T00:00:00Z
-updated: 2026-07-04T00:00:00Z
+created: 2026-07-04 00:00:00+00:00
+updated: 2026-07-04 00:00:00+00:00
 relationships:
-  - target: [[concepts/multimodal-ai|Multimodal AI]]
-    type: uses
-  - target: [[concepts/computer-use-agents|Computer Use Agents]]
-    type: related_to
+- target:
+  - - concepts/multimodal-ai|Multimodal AI
+  type: uses
+- target:
+  - - concepts/computer-use-agents|Computer Use Agents
+  type: related_to
+category: concepts
 ---
 
 # Issue from Video

@@ -4,7 +4,7 @@ category: entities
 tags: [person, enterprise-ai-architect, los-alamos, national-lab, speaker, aief2025, government-ai]
 summary: Enterprise AI Architect at Los Alamos National Laboratory, speaking on AI agents meeting tough government regulations at AIEF 2025.
 sources:
-  - "[[sources/watchv=tnsgx36ly0q]]"
+  - "https://www.youtube.com/watch?v=tnsgx36ly0q"
 provenance: {extracted: 1.0, inferred: 0.0, ambiguous: 0.0}
 base_confidence: 0.95
 lifecycle: draft

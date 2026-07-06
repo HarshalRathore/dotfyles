@@ -1,27 +1,38 @@
 ---
-title: "DeepSeek Open Source Models"
+title: DeepSeek Open Source Models
 category: references
-tags: [deepseek, open-source, llm, coding-benchmark, swe-bench, inference-time-compute, aief2025]
-aliases: [DeepSeek, deep seek, deepseek models, open source deepseek]
+tags:
+- deepseek
+- open-source
+- llm
+- coding-benchmark
+- swe-bench
+- inference-time-compute
+- aief2025
+aliases:
+- DeepSeek
+- deep seek
+- deepseek models
+- open source deepseek
 sources:
-  - "[[sources/watchv=qludzkvfp6a]]"
-summary: "Open-source DeepSeek models demonstrated that inference-time compute scaling works on real coding benchmarks. SWE-bench verified scores improved predictably with more samples, reaching ~80% by end of 2024."
+- 'https://www.youtube.com/watch?v=qludzkvfp6a'
+summary: Open-source DeepSeek models demonstrated that inference-time compute scaling works on real coding benchmarks. SWE-bench verified scores improved predictably with more samples, reaching ~80% by end...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/inference-time-compute|Inference-Time Compute Scaling]]"
-    type: demonstrates
-  - target: "[[concepts/swingbench-verified|SWE-bench Verified]]"
-    type: evaluated_on
-  - target: "[[concepts/pass-at-k|Pass@k / Coverage Score]]"
-    type: used_with
+- target: '[[concepts/inference-time-compute|Inference-Time Compute Scaling]]'
+  type: demonstrates
+- target: '[[concepts/swingbench-verified|SWE-bench Verified]]'
+  type: evaluated_on
+- target: '[[concepts/pass-at-k|Pass@k / Coverage Score]]'
+  type: used_with
 ---
 
 # DeepSeek Open Source Models

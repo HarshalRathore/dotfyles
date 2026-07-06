@@ -1,33 +1,38 @@
 ---
-title: "Agent Coordination"
+title: Agent Coordination
 category: concepts
 tags:
-  - agent-coordination
-  - multi-agent
-  - parallel-agents
-  - merging
-  - orchestration
-  - aief2025
+- agent-coordination
+- multi-agent
+- parallel-agents
+- merging
+- orchestration
+- aief2025
 sources:
-  - "AIEF2025 - Your Coding Agent Just Got Cloned And Your Brain Isn't Ready - Rustin Banks, Google Jules - https://www.youtube.com/watch?v=X4BwOu0GWb8"
+- AIEF2025 - Your Coding Agent Just Got Cloned And Your Brain Isn't Ready - Rustin Banks, Google Jules - https://www.youtube.com/watch?v=X4BwOu0GWb8
 relationships:
-  - target: [[concepts/parallel-agent-workflows|Parallel Agent Workflows]]
-    type: enables
-  - target: [[concepts/critic-agents|Critic Agents]]
-    type: implements
-  - target: [[concepts/octopus-merge|Octopus Merge]]
-    type: implements
-  - target: [[concepts/multi-agent-workflows|Multi-Agent Workflows]]
-    type: extends
+- target:
+  - - concepts/parallel-agent-workflows|Parallel Agent Workflows
+  type: enables
+- target:
+  - - concepts/critic-agents|Critic Agents
+  type: implements
+- target:
+  - - concepts/octopus-merge|Octopus Merge
+  type: implements
+- target:
+  - - concepts/multi-agent-workflows|Multi-Agent Workflows
+  type: extends
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.75
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Agent Coordination
 ---
 
 # Agent Coordination

@@ -1,40 +1,41 @@
 ---
-title: "Huawei"
+title: Huawei
 tags:
-  - company
-  - china
-  - semiconductor
-  - ai
-  - gpu
-  - sanctioned
-  - telecommunications
+- company
+- china
+- semiconductor
+- ai
+- gpu
+- sanctioned
+- telecommunications
 sources:
-  - "AIEF2025 - The Geopolitics of AI Infrastructure - Dylan Patel, SemiAnalysis - https://www.youtube.com/watch?v=Zz4QjZsYWK0"
-summary: "Chinese technology giant that has developed competitive AI chips (Ascend 910B/C) and large-scale GPU cluster architectures, circumventing US sanctions through complex supply chains."
+- AIEF2025 - The Geopolitics of AI Infrastructure - Dylan Patel, SemiAnalysis - https://www.youtube.com/watch?v=Zz4QjZsYWK0
+summary: Chinese technology giant that has developed competitive AI chips (Ascend 910B/C) and large-scale GPU cluster architectures, circumventing US sanctions through complex supply chains.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
-updated: 2026-07-04T23:59:00Z
+updated: 2026-07-04 23:59:00+00:00
 relationships:
-  - target: "[[entities/tsmc|TSMC]]"
-    type: uses
-  - target: "[[entities/smich|SMIC]]"
-    type: related_to
-  - target: "[[entities/nvidia|NVIDIA]]"
-    type: competes_with
-  - target: "[[entities/samsung|Samsung]]"
-    type: uses
-  - target: "[[entities/deepseek|DeepSeek]]"
-    type: supplies
-  - target: "[[concepts/hbm-memory|HBM Memory]]"
-    type: uses
-  - target: "[[concepts/china-us-ai-rivalry|China-US AI Rivalry]]"
-    type: central_to
+- target: '[[entities/tsmc|TSMC]]'
+  type: uses
+- target: '[[entities/smich|SMIC]]'
+  type: related_to
+- target: '[[entities/nvidia|NVIDIA]]'
+  type: competes_with
+- target: '[[entities/samsung|Samsung]]'
+  type: uses
+- target: '[[entities/deepseek|DeepSeek]]'
+  type: supplies
+- target: '[[concepts/hbm-memory|HBM Memory]]'
+  type: uses
+- target: '[[concepts/china-us-ai-rivalry|China-US AI Rivalry]]'
+  type: central_to
+category: entities
 ---
 
 # Huawei

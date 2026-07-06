@@ -4,7 +4,7 @@ category: concepts
 tags: [pre-training, cost, llm, compute, inference-time-compute, economics, aief2025]
 aliases: [pre-training cost, training cost, llm training cost, model training economics]
 sources:
-  - "[[sources/watchv=qludzkvfp6a]]"
+  - "https://www.youtube.com/watch?v=qludzkvfp6a"
 summary: "Pre-training LLMs costs tens of millions of dollars while inference is extremely cheap. This economic asymmetry motivates inference-time compute scaling as pre-training gains saturate."
 provenance:
   extracted: 0.85

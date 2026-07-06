@@ -1,24 +1,36 @@
 ---
-title: "Model Progression Framework"
+title: Model Progression Framework
 category: concepts
-tags: [model-selection, fine-tuning, prompt-engineering, llm, strategy]
-aliases: [model ladder, model selection framework, prompting to reasoning]
+tags:
+- model-selection
+- fine-tuning
+- prompt-engineering
+- llm
+- strategy
+aliases:
+- model ladder
+- model selection framework
+- prompting to reasoning
 relationships:
-  - target: "[[concepts/prompting-vs-fine-tuning]]"
-    type: extends
-  - target: "[[concepts/supervised-fine-tuning]]"
-    type: related_to
-sources: ["[[sources/aief2025-rft]]", "[[sources/dpo]]", "[[sources/sft-fine-tuning-with-openai-—-ilan-bigio]]", "[[sources/watchv=jfalqqfxqpa]]"]
-summary: "A decision framework for progressing from simplest to most capable approach: start with prompting, escalate to SFT for domain adaptation, DPO for preference learning, and RFT for reasoning model optimization."
+- target: '[[concepts/prompting-vs-fine-tuning]]'
+  type: extends
+- target: '[[concepts/supervised-fine-tuning]]'
+  type: related_to
+sources:
+- '[[sources/aief2025-rft]]'
+- '[[sources/dpo]]'
+- '[[sources/sft-fine-tuning-with-openai-—-ilan-bigio]]'
+- 'https://www.youtube.com/watch?v=jfalqqfxqpa'
+summary: 'A decision framework for progressing from simplest to most capable approach: start with prompting, escalate to SFT for domain adaptation, DPO for preference learning, and RFT for reasoning model op...'
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.65
 lifecycle: draft
 tier: supporting
-created: 2026-07-03T15:05:02Z
-updated: 2026-07-03T15:05:02Z
+created: 2026-07-03 15:05:02+00:00
+updated: 2026-07-03 15:05:02+00:00
 ---
 
 # Model Progression Framework

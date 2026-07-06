@@ -14,7 +14,7 @@ relationships:
   - target: "[[concepts/online-evals]]"
     type: related_to
 sources:
-  - "[[sources/watchv=l8ooyedi_ls]]"
+  - "https://www.youtube.com/watch?v=l8ooyedi_ls"
 summary: "Principle that eval scores should lean toward deterministic pass/fail rather than complex scoring functions, because simpler scores are easier to debug, share, and distribute across teams."
 provenance:
   extracted: 0.80

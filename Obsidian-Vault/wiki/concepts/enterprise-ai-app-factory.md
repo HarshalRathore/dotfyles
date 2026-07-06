@@ -1,24 +1,25 @@
 ---
-title: "Enterprise AI App Factory"
+title: Enterprise AI App Factory
 tags:
-  - ai
-  - architecture
-  - enterprise
-  - app-development
-  - sandbox
-  - regulated-industry
+- ai
+- architecture
+- enterprise
+- app-development
+- sandbox
+- regulated-industry
 sources:
-  - "[[sources/watchv=08mh36_nvos]]"
-summary: "A two-layer architecture (sandbox + factory) for rapidly building custom AI knowledge applications in enterprise settings by empowering domain experts to iterate on extraction logic, then automatically deploying as production apps."
+- 'https://www.youtube.com/watch?v=08mh36_nvos'
+summary: A two-layer architecture (sandbox + factory) for rapidly building custom AI knowledge applications in enterprise settings by empowering domain experts to iterate on extraction logic, then automatic...
 provenance:
   extracted: 0.85
   inferred: 0.15
-  ambiguous: 0.00
+  ambiguous: 0.0
 base_confidence: 0.65
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Enterprise AI App Factory

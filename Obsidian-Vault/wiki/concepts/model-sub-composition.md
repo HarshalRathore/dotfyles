@@ -1,27 +1,32 @@
 ---
 title: Model Sub-Composition in Large Generative Models
 category: concepts
-tags: [model-architecture, large-models, video-generation, multi-model, ml-infrastructure]
-summary: Large generative models like Dream Machine are composed of 10-20 different sub-models that must be loaded, compiled, and coordinated — creating unique challenges for inference serving and GPU utilization.
+tags:
+- model-architecture
+- large-models
+- video-generation
+- multi-model
+- ml-infrastructure
+summary: Large generative models like Dream Machine are composed of 10-20 different sub-models that must be loaded, compiled, and coordinated — creating unique challenges for inference serving and GPU utili...
 sources:
-  - "[[sources/watchv=ey4o9m6aswi]]"
+- 'https://www.youtube.com/watch?v=ey4o9m6aswi'
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[distributed-inference]]"
-    type: extends
-  - target: "[[gpu-cold-start]]"
-    type: related_to
-  - target: "[[model-versioning]]"
-    type: related_to
+- target: '[[concepts/distributed-inference]]'
+  type: extends
+- target: '[[concepts/gpu-cold-start]]'
+  type: related_to
+- target: '[[concepts/model-versioning]]'
+  type: related_to
 ---
 
 Large generative models, particularly video generation models, are often composed of 10-20 different sub-models rather than a single monolithic model. Each sub-model handles a different aspect of the generation pipeline — encoding, attention, decoding, upscaling, temporal consistency, etc.

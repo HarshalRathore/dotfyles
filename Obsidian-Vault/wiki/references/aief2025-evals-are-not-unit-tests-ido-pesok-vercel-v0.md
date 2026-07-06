@@ -1,35 +1,36 @@
 ---
-title: "AIEF2025 - Evals Are Not Unit Tests — Ido Pesok, Vercel v0"
+title: AIEF2025 - Evals Are Not Unit Tests — Ido Pesok, Vercel v0
 tags:
-  - aief2025
-  - evals
-  - testing
-  - production-ai
-  - vercel
-  - talk
+- aief2025
+- evals
+- testing
+- production-ai
+- vercel
+- talk
 sources:
-  - "[[sources/watchv=l8ooyedi_ls]]"
-summary: "Ido Pesok (Vercel) explains why AI application evals differ fundamentally from unit tests, using a basketball court metaphor for building eval datasets."
+- 'https://www.youtube.com/watch?v=l8ooyedi_ls'
+summary: Ido Pesok (Vercel) explains why AI application evals differ fundamentally from unit tests, using a basketball court metaphor for building eval datasets.
 provenance:
   extracted: 0.95
   inferred: 0.03
   ambiguous: 0.02
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/ido-pesok]]"
-    type: authored_by
-  - target: "[[entities/vzero]]"
-    type: about
-  - target: "[[concepts/fruit-letter-counter]]"
-    type: introduces
-  - target: "[[concepts/basketball-court-metaphor]]"
-    type: introduces
-  - target: "[[concepts/demo-savvy-problem]]"
-    type: introduces
+- target: '[[entities/ido-pesok]]'
+  type: authored_by
+- target: '[[entities/vzero]]'
+  type: about
+- target: '[[concepts/fruit-letter-counter]]'
+  type: introduces
+- target: '[[concepts/basketball-court-metaphor]]'
+  type: introduces
+- target: '[[concepts/demo-savvy-problem]]'
+  type: introduces
+category: references
 ---
 
 # AIEF2025 - Evals Are Not Unit Tests — Ido Pesok, Vercel v0

@@ -1,16 +1,25 @@
 ---
 type: concept
-title: "AES-CBC"
+title: AES-CBC
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/env-configmaps-&-secrets_9586ac]]"
+- '[[sources/env-configmaps-&-secrets_9586ac]]'
 tags:
-  - tls
+- tls
 aliases:
-  - Advanced Encryption Standard Cipher Block Chaining
+- Advanced Encryption Standard Cipher Block Chaining
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: AES-CBC
 ---
 # AES-CBC
 

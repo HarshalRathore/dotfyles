@@ -1,19 +1,19 @@
 ---
-title: "Daily"
+title: Daily
 category: entities
 tags:
-  - company
-  - voice-ai
-  - real-time
-  - audio
-  - video
-  - infrastructure
-  - open-source
+- company
+- voice-ai
+- real-time
+- audio
+- video
+- infrastructure
+- open-source
 sources:
-  - "[[sources/watchv=e71ytnbcfxy]]"
-  - "[[sources/watchv=ia4lzjh9sts]]"
-  - "AIEF2025 - Milliseconds to Magic: Real‑Time Workflows using the Gemini Live API and Pipecat - https://www.youtube.com/watch?v=fWY1FQwpWkY"
-  - "AIEF2025 - Realtime Conversational Video with Pipecat and Tavus — Chad Bailey and Brian Johnson, Daily & Tavus - https://www.youtube.com/watch?v=ujt0da9Z29Q"
+- 'https://www.youtube.com/watch?v=e71ytnbcfxy'
+- 'https://www.youtube.com/watch?v=ia4lzjh9sts'
+- 'AIEF2025 - Milliseconds to Magic: Real‑Time Workflows using the Gemini Live API and Pipecat - https://www.youtube.com/watch?v=fWY1FQwpWkY'
+- AIEF2025 - Realtime Conversational Video with Pipecat and Tavus — Chad Bailey and Brian Johnson, Daily & Tavus - https://www.youtube.com/watch?v=ujt0da9Z29Q
 provenance:
   extracted: 0.88
   inferred: 0.08
@@ -25,16 +25,17 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/web-rtc]]"
-    type: related_to
-  - target: "[[entities/pipe-cat]]"
-    type: related_to
-  - target: "[[entities/nina-daily]]"
-    type: related_to
-  - target: "[[entities/gemini]]"
-    type: related_to
-  - target: "[[entities/tavus]]"
-    type: related_to
+- target: '[[concepts/web-rtc]]'
+  type: related_to
+- target: '[[entities/pipe-cat]]'
+  type: related_to
+- target: '[[entities/nina-daily]]'
+  type: related_to
+- target: '[[entities/gemini]]'
+  type: related_to
+- target: '[[entities/tavus]]'
+  type: related_to
+summary: Daily
 ---
 
 # Daily

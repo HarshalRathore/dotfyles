@@ -1,28 +1,24 @@
 ---
-title: "Jerry Liu"
+title: Jerry Liu
 category: entities
 tags:
-  - person
-  - ceo
-  - llamaindex
-  - ai-engineer
-  - founder
+- person
+- ceo
+- llamaindex
+- ai-engineer
+- founder
+sources: []
 summary: Co-founder and CEO of LlamaIndex. Presented on building AI agents for knowledge work automation over unstructured enterprise data at AI Engineer World's Fair 2025.
 provenance:
-  extracted: 0.90
-  inferred: 0.08
-  ambiguous: 0.02
-base_confidence: 0.80
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+base_confidence: 0.42
 lifecycle: draft
-lifecycle_changed: 2026-07-04
+lifecycle_changed: '2026-07-04'
 tier: supporting
-created: 2026-07-04
-updated: 2026-07-04
-relationships:
-  - target: "[[entities/llamaindex|LlamaIndex]]"
-    type: related_to
-  - "[[references/aief2025-building-ai-agents-jerry-liu-llamaindex]]"
-    type: related_to
+created: '2026-07-04'
+updated: '2026-07-04'
 ---
 
 # Jerry Liu

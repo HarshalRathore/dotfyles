@@ -1,26 +1,28 @@
 ---
-title: "Agentic Semantic Layer"
+title: Agentic Semantic Layer
 tags:
-  - ai
-  - architecture
-  - semantic-layer
-  - agents
-  - reliability
-  - enterprise-ai
-aliases: [self-improving semantic layer, agentic semantic graph]
+- ai
+- architecture
+- semantic-layer
+- agents
+- reliability
+- enterprise-ai
+aliases:
+- self-improving semantic layer
+- agentic semantic graph
 relationships:
-  - target: "[[concepts/data-readiness-myth]]"
-    type: extends
-  - target: "[[concepts/tribal-knowledge-in-ai]]"
-    type: implements
-  - target: "[[concepts/llm-as-planner-not-executor]]"
-    type: uses
-  - target: "[[concepts/graphrag]]"
-    type: contradicts
+- target: '[[concepts/data-readiness-myth]]'
+  type: extends
+- target: '[[concepts/tribal-knowledge-in-ai]]'
+  type: implements
+- target: '[[concepts/llm-as-planner-not-executor]]'
+  type: uses
+- target: '[[concepts/graphrag]]'
+  type: contradicts
 sources:
-  - "[[sources/ai-engineer-worlds-fair-2025-talk]]"
+- '[[sources/ai-engineer-worlds-fair-2025-talk]]'
 Data readiness\" is a Myth: Reliable AI with an Agentic Semantic Layer — Anushrut Gupta, PromptQL - https://www.youtube.com/watch?v=1nOTQsfe1RU"
-summary: "A semantic layer that evolves over time by learning from user corrections, building a company-specific business language through agentic interaction."
+summary: A semantic layer that evolves over time by learning from user corrections, building a company-specific business language through agentic interaction.
 provenance:
   extracted: 0.72
   inferred: 0.23
@@ -30,6 +32,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Agentic Semantic Layer

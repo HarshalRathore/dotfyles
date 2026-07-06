@@ -1,18 +1,18 @@
 ---
-title: "Process Over Tools in Evals"
+title: Process Over Tools in Evals
 category: concepts
 tags:
-  - evaluation
-  - process
-  - methodology
-  - governance
+- evaluation
+- process
+- methodology
+- governance
 aliases:
-  - eval process over tools
-  - eval governance
+- eval process over tools
+- eval governance
 sources:
-  - "AIEF2025 - How to run Evals at Scale: Thinking beyond Accuracy or Similarity — Muktesh Mishra, Adobe - https://www.youtube.com/watch?v=coKKKKh8Vns"
+- 'AIEF2025 - How to run Evals at Scale: Thinking beyond Accuracy or Similarity — Muktesh Mishra, Adobe - https://www.youtube.com/watch?v=coKKKKh8Vns'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
 base_confidence: 0.85
@@ -22,12 +22,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/eval-driven-development|Eval-Driven Development]]"
-    type: supports
-  - target: "[[concepts/fidelity-vs-speed-tradeoff|Fidelity vs. Speed Trade-off]]"
-    type: constrains
-  - target: "[[concepts/adaptive-evals|Adaptive Evals]]"
-    type: enables
+- target: '[[concepts/eval-driven-development|Eval-Driven Development]]'
+  type: supports
+- target: '[[concepts/fidelity-vs-speed-tradeoff|Fidelity vs. Speed Trade-off]]'
+  type: constrains
+- target: '[[concepts/adaptive-evals|Adaptive Evals]]'
+  type: enables
+summary: Process Over Tools in Evals
 ---
 
 # Process Over Tools in Evals

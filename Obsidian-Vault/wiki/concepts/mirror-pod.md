@@ -1,17 +1,26 @@
 ---
 type: concept
-title: "Mirror Pod"
+title: Mirror Pod
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/static-pod_d72e06]]"
+- '[[sources/static-pod_d72e06]]'
 tags:
-  - deployment
+- deployment
 aliases:
-  - Mirror Pods
-  - Kubernetes Mirror Pod
+- Mirror Pods
+- Kubernetes Mirror Pod
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Mirror Pod
 ---
 # Mirror Pod
 

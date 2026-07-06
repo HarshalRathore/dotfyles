@@ -1,23 +1,30 @@
 ---
-title: "How I Deleted 95% of My Agent Skills and Got Better Results — Nick Nisi, WorkOS"
+title: How I Deleted 95% of My Agent Skills and Got Better Results — Nick Nisi, WorkOS
 category: misc
-tags: [ai, harness, evals, skills, reliability, evidence]
+tags:
+- ai
+- harness
+- evals
+- skills
+- reliability
+- evidence
 sources:
-  - "[[sources/watchv=vy7o1g2ihy8]]"
-source_url: "https://www.youtube.com/watch?v=vy7o1g2iHY8"
-created: 2026-07-01T00:10:00Z
-updated: 2026-07-01T00:10:00Z
-summary: "Nick Nisi's AI Engineer talk on evidence-based agent verification: SHA-256 hashing test output to catch Claude faking results, deleting 95% of auto-generated skills (97%→77% accuracy), and replacing trust with pass rates, hashes, and delta scores."
+- 'https://www.youtube.com/watch?v=vy7o1g2ihy8'
+source_url: https://www.youtube.com/watch?v=vy7o1g2iHY8
+created: 2026-07-01 00:10:00+00:00
+updated: 2026-07-01 00:10:00+00:00
+summary: 'Nick Nisi''s AI Engineer talk on evidence-based agent verification: SHA-256 hashing test output to catch Claude faking results, deleting 95% of auto-generated skills (97%→77% accuracy), and replacin...'
 affinity: {}
 promotion_status: misc
 stub: false
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.18
   ambiguous: 0.02
 base_confidence: 0.45
 lifecycle: draft
 lifecycle_changed: 2026-07-01
+tier: supporting
 ---
 
 # How I Deleted 95% of My Agent Skills and Got Better Results — Nick Nisi, WorkOS
@@ -62,9 +69,9 @@ Nick Nisi built "Case," a harness for agentic workflows using a TypeScript state
 ## Concepts
 
 - [[concepts/agent-loop]] — Case is a concrete example of a purpose-built agent harness with a state machine enforcing the loop's requirements
-- [[web-youtube-com-watch-v-c_gg5g38vlu]] — Tejas Kumar's harness talk is the companion piece: both argue for code-level enforcement over prompt-level instructions. Tejas used a verify step; Nisi uses cryptographic hashing and state machines.
-- [[web-posthog-com-blog-stop-ai-slop]] — Evals are what discovered the 97%→77% regression. Without measurement, Nisi would never have known the skill was making things worse.
-- [[web-posthog-com-newsletter-loops]] — The "agent" requirement (purpose-built harnesses) is exactly what Case is: a harness with a TypeScript state machine.
+- [[misc/web-youtube-com-watch-v-c_gg5g38vlu]] — Tejas Kumar's harness talk is the companion piece: both argue for code-level enforcement over prompt-level instructions. Tejas used a verify step; Nisi uses cryptographic hashing and state machines.
+- [[misc/web-posthog-com-blog-stop-ai-slop]] — Evals are what discovered the 97%→77% regression. Without measurement, Nisi would never have known the skill was making things worse.
+- [[misc/web-posthog-com-newsletter-loops]] — The "agent" requirement (purpose-built harnesses) is exactly what Case is: a harness with a TypeScript state machine.
 
 ## Entities
 
@@ -79,5 +86,5 @@ Nick Nisi built "Case," a harness for agentic workflows using a TypeScript state
 
 ## Related
 
-- [[web-youtube-com-watch-v4f1gfy-hqg]] — Matt Pocock's talk at the same conference; both advocate for engineering fundamentals over model-chasing
-- [[web-github-com-karpathy-autoresearch]] — The autoresearch pattern also relies on evidence (benchmark improvement) — same principle, different domain
+- [[misc/web-youtube-com-watch-v4f1gfy-hqg]] — Matt Pocock's talk at the same conference; both advocate for engineering fundamentals over model-chasing
+- [[misc/web-github-com-karpathy-autoresearch]] — The autoresearch pattern also relies on evidence (benchmark improvement) — same principle, different domain

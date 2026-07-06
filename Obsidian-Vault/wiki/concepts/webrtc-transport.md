@@ -1,37 +1,26 @@
 ---
-title: "WebRTC Transport"
+title: WebRTC Transport
 category: concepts
 tags:
-  - webrtc
-  - voice-agents
-  - real-time
-  - transport-protocol
-  - voice-ai
-  - streaming
-aliases:
-  - WebRTC
-  - real-time transport
-  - voice transport
+- webrtc
+- voice-agents
+- real-time
+- transport-protocol
+- voice-ai
+- streaming
 sources:
-  - "AIEF2025 - Building Agents (the hard parts!) - Rita Kozlov, Cloudflare - https://www.youtube.com/watch?v=j_TKDweOsYE"
-summary: "WebRTC as the real-time transport layer for voice-based agent interfaces, enabling bidirectional audio streaming between users and AI agents. A foundational technology for voice agents.
+- AIEF2025 - Building Agents (the hard parts!) - Rita Kozlov, Cloudflare - https://www.youtube.com/watch?v=j_TKDweOsYE
+summary: WebRTC as the real-time transport layer for voice-based agent interfaces, enabling bidirectional audio streaming between users and AI agents. A foundational technology for voice agents.
 provenance:
-  extracted: 0.85
-  inferred: 0.10
-  ambiguous: 0.05
-base_confidence: 0.75
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+base_confidence: 0.42
 lifecycle: draft
-lifecycle_changed: 2026-07-04
+lifecycle_changed: '2026-07-04'
 tier: supporting
-created: 2026-07-04
-updated: 2026-07-04
-relationships:
-  - target: "[[concepts/voice-agents]]"
-    type: core_component_of
-  - target: "[[concepts/voice-ai-stack]]"
-    type: extends
-  - target: "[[concepts/speech-to-text]]"
-    type: feeds_into
+created: '2026-07-04'
+updated: '2026-07-04'
 ---
 
 # WebRTC Transport

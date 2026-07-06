@@ -1,30 +1,31 @@
 ---
-title: "Head of Line Silence"
+title: Head of Line Silence
 category: concepts
 tags:
-  - voice-ai
-  - latency
-  - orpheus
-  - real-time
-  - voice-inference-metrics
-summary: A latency artifact specific to Orpheus TTS where ~600ms of silence is baked into the beginning of generated audio, adding significant latency to real-time voice interactions. Can be eliminated by fine-tuning.
+- voice-ai
+- latency
+- orpheus
+- real-time
+- voice-inference-metrics
+summary: A latency artifact specific to Orpheus TTS where ~600ms of silence is baked into the beginning of generated audio, adding significant latency to real-time voice interactions. Can be eliminated by f...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/voice-ai-latency]]"
-    type: related_to
-  - target: "[[entities/orpheus-tts]]"
-    type: related_to
-  - target: "[[concepts/voice-cloning]]"
-    type: related_to
+- target: '[[concepts/voice-ai-latency]]'
+  type: related_to
+- target: '[[entities/orpheus-tts]]'
+  type: related_to
+- target: '[[concepts/voice-cloning]]'
+  type: related_to
+sources: []
 ---
 
 # Head of Line Silence

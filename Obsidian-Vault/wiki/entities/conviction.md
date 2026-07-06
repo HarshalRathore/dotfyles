@@ -1,22 +1,23 @@
 ---
-title: "Conviction"
+title: Conviction
 tags:
-  - organization
-  - venture-capital
-  - ai
-  - investment
+- organization
+- venture-capital
+- ai
+- investment
 sources:
-  - "[[sources/watchv=3mzs5gnelzm]]"
-summary: "AI-native venture capital firm founded by Sarah Guo and Mike Vernal. Runs the Embed grant program for AI startups and backs companies across the AI stack."
+- 'https://www.youtube.com/watch?v=3mzs5gnelzm'
+summary: AI-native venture capital firm founded by Sarah Guo and Mike Vernal. Runs the Embed grant program for AI startups and backs companies across the AI stack.
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Conviction

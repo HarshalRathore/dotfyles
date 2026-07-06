@@ -1,24 +1,28 @@
 ---
-title: "Brownfield-First AI Adoption"
+title: Brownfield-First AI Adoption
 tags:
-  - concept
-  - ai-adoption
-  - devops
-  - workflow
-  - best-practice
-aliases: [brownfield before greenfield, existing codebase AI, brownfield AI learning]
+- concept
+- ai-adoption
+- devops
+- workflow
+- best-practice
+aliases:
+- brownfield before greenfield
+- existing codebase AI
+- brownfield AI learning
 sources:
-  - "[[sources/watchv=c1nivhys1si]]"
-summary: "Strategy of learning effective AI-assisted development by starting with existing brownfield codebases before attempting greenfield projects — grounded in the reality that most daily work is modifying existing applications."
+- 'https://www.youtube.com/watch?v=c1nivhys1si'
+summary: Strategy of learning effective AI-assisted development by starting with existing brownfield codebases before attempting greenfield projects — grounded in the reality that most daily work is modifyi...
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Brownfield-First AI Adoption

@@ -1,16 +1,18 @@
 ---
-title: "Alex Atallah"
+title: Alex Atallah
 tags:
-  - person
-  - ai
-  - founder
-  - openrouter
-aliases: [Alex Atallah, Atallah]
+- person
+- ai
+- founder
+- openrouter
+aliases:
+- Alex Atallah
+- Atallah
 sources:
-  - "[[sources/watchv=84vtz2il1ug]]"
-summary: "Co-founder of OpenRouter, the multi-model inference marketplace. Previously built Window AI, an open-source Chrome extension for model choice."
+- 'https://www.youtube.com/watch?v=84vtz2il1ug'
+summary: Co-founder of OpenRouter, the multi-model inference marketplace. Previously built Window AI, an open-source Chrome extension for model choice.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.55
@@ -18,6 +20,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Alex Atallah

@@ -1,23 +1,24 @@
 ---
-title: "Practical tactics to build reliable AI apps — Dmitry Kuchin, Multinear"
+title: Practical tactics to build reliable AI apps — Dmitry Kuchin, Multinear
 tags:
-  - reference
-  - talk
-  - ai-engineer
-  - evaluation
-  - reliability
+- reference
+- talk
+- ai-engineer
+- evaluation
+- reliability
 sources:
-  - "[[sources/watchv=-t6uzyyzkww]]"
-summary: "AI Engineer World's Fair 2025 talk covering practical methodology for building reliable AI applications through evaluation-first development, task-specific evals, synthetic eval generation, and checklist-based evaluation."
+- 'https://www.youtube.com/watch?v=-t6uzyyzkww'
+summary: AI Engineer World's Fair 2025 talk covering practical methodology for building reliable AI applications through evaluation-first development, task-specific evals, synthetic eval generation, and che...
 provenance:
   extracted: 0.82
   inferred: 0.15
   ambiguous: 0.03
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: references
 ---
 
 # Practical tactics to build reliable AI apps

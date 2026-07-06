@@ -1,15 +1,18 @@
 ---
-title: "Discover Functionality"
+title: Discover Functionality
 category: concepts
 tags:
-  - product-management
-  - ai-agents
-  - discovery
-  - emergent-behavior
-  - aief2025
-aliases: [discover functionality, discover what AI can do, functionality discovery]
+- product-management
+- ai-agents
+- discovery
+- emergent-behavior
+- aief2025
+aliases:
+- discover functionality
+- discover what AI can do
+- functionality discovery
 sources:
-  - "[[sources/watchv=pthmdt92qng]]"
+- 'https://www.youtube.com/watch?v=pthmdt92qng'
 provenance:
   extracted: 0.82
   inferred: 0.16
@@ -21,14 +24,15 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/affordance-thinking]]"
-    type: enabled_by
-  - target: "[[concepts/emergent-behavior-in-ai]]"
-    type: responds_to
-  - target: "[[concepts/product-discovery]]"
-    type: extends
-  - target: "[[concepts/agent-evaluations]]"
-    type: measured_by
+- target: '[[concepts/affordance-thinking]]'
+  type: enabled_by
+- target: '[[concepts/emergent-behavior-in-ai]]'
+  type: responds_to
+- target: '[[concepts/product-discovery]]'
+  type: extends
+- target: '[[concepts/agent-evaluations]]'
+  type: measured_by
+summary: Discover Functionality
 ---
 
 # Discover Functionality

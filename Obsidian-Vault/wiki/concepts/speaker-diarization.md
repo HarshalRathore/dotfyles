@@ -10,7 +10,7 @@ tags:
   - transcription
 summary: Speaker diarization — identifying and labeling different speakers in audio. Built into ElevenLabs' multilingual ASR model for structured transcript output.
 sources:
-  - "[[sources/watchv=mptcbazn84a]]"
+  - "https://www.youtube.com/watch?v=mptcbazn84a"
 provenance:
   extracted: 0.90
   inferred: 0.05

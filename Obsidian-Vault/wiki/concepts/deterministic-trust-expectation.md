@@ -1,13 +1,19 @@
 ---
-title: "Deterministic Trust Expectation"
+title: Deterministic Trust Expectation
 category: concepts
-tags: [agent-reliability, enterprise-ai, evals, trust, determinism, aief2025]
-summary: The expectation that AI systems should produce deterministic outcomes for given inputs — a trust requirement that is fundamentally incompatible with stochastic LLM behavior, especially in high-stakes domains.
+tags:
+- agent-reliability
+- enterprise-ai
+- evals
+- trust
+- determinism
+- aief2025
+summary: The expectation that AI systems should produce deterministic outcomes for given inputs — a trust requirement that is fundamentally incompatible with stochastic LLM behavior, especially in high-stak...
 sources:
-  - "AIEF2025 - From Copilot to Colleague: Trustworthy Agents for High-Stakes - Joel Hron, CTO Thomson Reuters - https://www.youtube.com/watch?v=kDEvo2__Ijg"
+- 'AIEF2025 - From Copilot to Colleague: Trustworthy Agents for High-Stakes - Joel Hron, CTO Thomson Reuters - https://www.youtube.com/watch?v=kDEvo2__Ijg'
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.75
 lifecycle: draft
@@ -16,12 +22,12 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/agent-reliability-challenge]]"
-    type: extends
-  - target: "[[concepts/agent-run-variability]]"
-    type: relates_to
-  - target: "[[concepts/eval-driven-development]]"
-    type: motivates
+- target: '[[concepts/agent-reliability-challenge]]'
+  type: extends
+- target: '[[concepts/agent-run-variability]]'
+  type: relates_to
+- target: '[[concepts/eval-driven-development]]'
+  type: motivates
 ---
 
 # Deterministic Trust Expectation

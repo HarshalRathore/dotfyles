@@ -1,23 +1,24 @@
 ---
-title: "Jeff Atwood"
+title: Jeff Atwood
 tags:
-  - person
-  - software-engineering
-  - stack-overflow
+- person
+- software-engineering
+- stack-overflow
 aliases:
-  - Coding Horror
+- Coding Horror
 sources:
-  - "[[sources/watchv=dc3qoa9wone]]"
-summary: "Co-founder of Stack Overflow, author of the Coding Horror blog, and advocate for pragmatic software engineering. Famous for the aphorism 'the best code is no code at all.'"
+- 'https://www.youtube.com/watch?v=dc3qoa9wone'
+summary: Co-founder of Stack Overflow, author of the Coding Horror blog, and advocate for pragmatic software engineering. Famous for the aphorism 'the best code is no code at all.'
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: peripheral
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Jeff Atwood

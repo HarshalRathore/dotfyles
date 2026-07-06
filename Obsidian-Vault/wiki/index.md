@@ -1,2763 +1,2968 @@
 # Wiki Index
 
-Generated: 2026-07-05T04:32:00.495217+00:00
+_Generated: 2026-07-06T11:48:36.717996+00:00_
 
-## concepts
+## Concepts
 
-- [[concepts/10x-generalist-hiring.md]]
-- [[concepts/12-factor-agents.md]]
-- [[concepts/360brew.md]]
-- [[concepts/abac.md]]
-- [[concepts/abstract-reasoning.md]]
-- [[concepts/access-control-matrix.md]]
-- [[concepts/access-token.md]]
-- [[concepts/action-groups.md]]
-- [[concepts/action-models.md]]
-- [[concepts/actor-model-software.md]]
-- [[concepts/adaptive-evals.md]]
-- [[concepts/add-ons-deployment.md]]
-- [[concepts/admission-controller.md]]
-- [[concepts/adoption-threshold.md]]
-- [[concepts/advantage-estimation.md]]
-- [[concepts/aes-256-gcm.md]]
-- [[concepts/aes-cbc.md]]
-- [[concepts/affordance-thinking.md]]
-- [[concepts/agency-effectiveness-axis.md]]
-- [[concepts/agent-adoption-surge.md]]
-- [[concepts/agent-aliasing-and-versioning.md]]
-- [[concepts/agent-architecture.md]]
-- [[concepts/agent-as-laundry.md]]
-- [[concepts/agent-as-optimizer.md]]
-- [[concepts/agent-as-teammate.md]]
-- [[concepts/agent-as-user.md]]
-- [[concepts/agent-at-scale.md]]
-- [[concepts/agent-autonomy-gap.md]]
-- [[concepts/agent-autonomy-spectrum.md]]
-- [[concepts/agent-autonomy.md]]
-- [[concepts/agent-background-work.md]]
-- [[concepts/agent-best-practices.md]]
-- [[concepts/agent-capability-tiers.md]]
-- [[concepts/agent-checkout.md]]
-- [[concepts/agent-code-editor.md]]
-- [[concepts/agent-code-sandbox.md]]
-- [[concepts/agent-coordination.md]]
-- [[concepts/agent-cost-predictability.md]]
-- [[concepts/agent-deployment-challenges.md]]
-- [[concepts/agent-design-patterns.md]]
-- [[concepts/agent-dev-mode.md]]
-- [[concepts/agent-development-lifecycle.md]]
-- [[concepts/agent-driven-development-shift.md]]
-- [[concepts/agent-driven-development.md]]
-- [[concepts/agent-economy-impact.md]]
-- [[concepts/agent-environment.md]]
-- [[concepts/agent-evaluation-pipeline.md]]
-- [[concepts/agent-evaluation-role.md]]
-- [[concepts/agent-evaluations.md]]
-- [[concepts/agent-evolution-co-pilot-to-agent.md]]
-- [[concepts/agent-evolution.md]]
-- [[concepts/agent-exit-strategies.md]]
-- [[concepts/agent-experience.md]]
-- [[concepts/agent-factory.md]]
-- [[concepts/agent-failure-modes.md]]
-- [[concepts/agent-first-class-infrastructure.md]]
-- [[concepts/agent-fleet-architecture.md]]
-- [[concepts/agent-gateway.md]]
-- [[concepts/agent-guardrails.md]]
-- [[concepts/agent-handler-convention.md]]
-- [[concepts/agent-history-in-production.md]]
-- [[concepts/agent-human-interaction.md]]
-- [[concepts/agent-identity-and-payments.md]]
-- [[concepts/agent-identity.md]]
-- [[concepts/agent-infrastructure.md]]
-- [[concepts/agent-interfaces-evolution.md]]
-- [[concepts/agent-isolation.md]]
-- [[concepts/agent-iteration-loop.md]]
-- [[concepts/agent-loop.md]]
-- [[concepts/agent-memory-knowledge.md]]
-- [[concepts/agent-memory-types.md]]
-- [[concepts/agent-mentoring-model.md]]
-- [[concepts/agent-middleware-trust-boundary.md]]
-- [[concepts/agent-native-development.md]]
-- [[concepts/agent-native-runtime.md]]
-- [[concepts/agent-negotiation.md]]
-- [[concepts/agent-oauth-identity.md]]
-- [[concepts/agent-observability.md]]
-- [[concepts/agent-preparedness-framework.md]]
-- [[concepts/agent-prototype-vs-product.md]]
-- [[concepts/agent-rails.md]]
-- [[concepts/agent-readable-docs.md]]
-- [[concepts/agent-reliability-challenge.md]]
-- [[concepts/agent-robustness.md]]
-- [[concepts/agent-routing.md]]
-- [[concepts/agent-run-variability.md]]
-- [[concepts/agent-runtimes.md]]
-- [[concepts/agent-sandboxing.md]]
-- [[concepts/agent-security.md]]
-- [[concepts/agent-self-observability.md]]
-- [[concepts/agent-stack-for-unstructured-data.md]]
-- [[concepts/agent-stack-normalization.md]]
-- [[concepts/agent-swarm.md]]
-- [[concepts/agent-systemic-evaluation.md]]
-- [[concepts/agent-teammate-relationship.md]]
-- [[concepts/agent-terminal.md]]
-- [[concepts/agent-to-agent-communication.md]]
-- [[concepts/agent-to-agent-observability.md]]
-- [[concepts/agent-to-agent-payments.md]]
-- [[concepts/agent-tool-calling.md]]
-- [[concepts/agent-tool-discovery.md]]
-- [[concepts/agent-tools.md]]
-- [[concepts/agent-traffic-inversion.md]]
-- [[concepts/agent-tree-search.md]]
-- [[concepts/agent-vs-code-gen.md]]
-- [[concepts/agent-vs-workflow.md]]
-- [[concepts/agent-web-browsing.md]]
-- [[concepts/agent-workflow-loop.md]]
-- [[concepts/agent-workflows.md]]
-- [[concepts/agentic-architecture.md]]
-- [[concepts/agentic-benchmark-progress.md]]
-- [[concepts/agentic-coding.md]]
-- [[concepts/agentic-commerce.md]]
-- [[concepts/agentic-dials.md]]
-- [[concepts/agentic-evaluators.md]]
-- [[concepts/agentic-mesh.md]]
-- [[concepts/agentic-models.md]]
-- [[concepts/agentic-rag.md]]
-- [[concepts/agentic-reasoning.md]]
-- [[concepts/agentic-retrieval.md]]
-- [[concepts/agentic-science.md]]
-- [[concepts/agentic-semantic-layer.md]]
-- [[concepts/agentic-services.md]]
-- [[concepts/agentic-web.md]]
-- [[concepts/agentic-workflow-latency.md]]
-- [[concepts/agentic-workflow-vs-workflow-agent.md]]
-- [[concepts/agenticity-spectrum.md]]
-- [[concepts/agents-with-models-of-mind.md]]
-- [[concepts/agi-challenges.md]]
-- [[concepts/agi-question-definition.md]]
-- [[concepts/agi-vs-software.md]]
-- [[concepts/agi.md]]
-- [[concepts/ai-adoption-acceleration.md]]
-- [[concepts/ai-agent-data-pipeline.md]]
-- [[concepts/ai-agent-disclosure-norms.md]]
-- [[concepts/ai-agent-gateway.md]]
-- [[concepts/ai-agent-observability.md]]
-- [[concepts/ai-app-ideation-methods.md]]
-- [[concepts/ai-app-viability-through-simplicity.md]]
-- [[concepts/ai-application-data-requirements.md]]
-- [[concepts/ai-application-tiers.md]]
-- [[concepts/ai-architect.md]]
-- [[concepts/ai-as-skill-multiplier.md]]
-- [[concepts/ai-audits-accessibility-security.md]]
-- [[concepts/ai-augmentation-10x.md]]
-- [[concepts/ai-bot-defense.md]]
-- [[concepts/ai-bubble-narrative.md]]
-- [[concepts/ai-builder-tools.md]]
-- [[concepts/ai-capability-first.md]]
-- [[concepts/ai-cheating-technical-interviews.md]]
-- [[concepts/ai-coding-as-agents-primary-interface.md]]
-- [[concepts/ai-coding-assistance.md]]
-- [[concepts/ai-collaboration-skills.md]]
-- [[concepts/ai-compute-scale.md]]
-- [[concepts/ai-coworker-form-factors.md]]
-- [[concepts/ai-crawler-landscape.md]]
-- [[concepts/ai-creative-suite.md]]
-- [[concepts/ai-data-output-flywheel.md]]
-- [[concepts/ai-design-sense.md]]
-- [[concepts/ai-developer-productivity.md]]
-- [[concepts/ai-developer-tool-generations.md]]
-- [[concepts/ai-diplomacy.md]]
-- [[concepts/ai-displacement-engineering.md]]
-- [[concepts/ai-driven-experimentation.md]]
-- [[concepts/ai-education-summit.md]]
-- [[concepts/ai-engineering-as-excavation.md]]
-- [[concepts/ai-engineering-survey-methodology.md]]
-- [[concepts/ai-engineering-title-confusion.md]]
-- [[concepts/ai-engineering.md]]
-- [[concepts/ai-entomology.md]]
-- [[concepts/ai-era-talent-competition.md]]
-- [[concepts/ai-escrow-automation.md]]
-- [[concepts/ai-ethics-creator-responsibility.md]]
-- [[concepts/ai-eval-beyond-sweebench.md]]
-- [[concepts/ai-evaluation-benchmarks.md]]
-- [[concepts/ai-evaluation-market-history.md]]
-- [[concepts/ai-evaluation.md]]
-- [[concepts/ai-first-company-announcements.md]]
-- [[concepts/ai-first-firm.md]]
-- [[concepts/ai-first-transformation.md]]
-- [[concepts/ai-flows.md]]
-- [[concepts/ai-fluency.md]]
-- [[concepts/ai-governance-omb.md]]
-- [[concepts/ai-governance-standards.md]]
-- [[concepts/ai-governance.md]]
-- [[concepts/ai-harness.md]]
-- [[concepts/ai-hide-from-user.md]]
-- [[concepts/ai-hiring-trade-offs.md]]
-- [[concepts/ai-human-perception-contagion.md]]
-- [[concepts/ai-impact-categories.md]]
-- [[concepts/ai-in-healthcare-clinical.md]]
-- [[concepts/ai-in-healthcare-finance.md]]
-- [[concepts/ai-integration-patterns.md]]
-- [[concepts/ai-intensive-applications.md]]
-- [[concepts/ai-intuition.md]]
-- [[concepts/ai-iteration-loop.md]]
-- [[concepts/ai-language-culture-understanding.md]]
-- [[concepts/ai-leapfrog-effect.md]]
-- [[concepts/ai-lego-blocks-framework.md]]
-- [[concepts/ai-multiplication.md]]
-- [[concepts/ai-music-generation.md]]
-- [[concepts/ai-native-company.md]]
-- [[concepts/ai-native-diagram-generation.md]]
-- [[concepts/ai-native-lakehouse.md]]
-- [[concepts/ai-native-pricing-principles.md]]
-- [[concepts/ai-native-product-design.md]]
-- [[concepts/ai-native-search.md]]
-- [[concepts/ai-native-toolchain.md]]
-- [[concepts/ai-news-pipeline.md]]
-- [[concepts/ai-observability-production-logging.md]]
-- [[concepts/ai-ops-evolution.md]]
-- [[concepts/ai-pair-programmer-analogy.md]]
-- [[concepts/ai-partnership-trust.md]]
-- [[concepts/ai-powered-devops.md]]
-- [[concepts/ai-powered-search.md]]
-- [[concepts/ai-product-fit.md]]
-- [[concepts/ai-product-manager.md]]
-- [[concepts/ai-product-rebuilding-wave.md]]
-- [[concepts/ai-productivity-measurement.md]]
-- [[concepts/ai-quality-lead.md]]
-- [[concepts/ai-red-team-blue-team.md]]
-- [[concepts/ai-red-teaming.md]]
-- [[concepts/ai-regression-testing.md]]
-- [[concepts/ai-sdr.md]]
-- [[concepts/ai-sideshow-pattern.md]]
-- [[concepts/ai-sideshow.md]]
-- [[concepts/ai-simulation-hypothesis.md]]
-- [[concepts/ai-skeptic-to-champion-pipeline.md]]
-- [[concepts/ai-skunkworks.md]]
-- [[concepts/ai-spend-trends.md]]
-- [[concepts/ai-takes-tedious-work-first.md]]
-- [[concepts/ai-team-anatomy.md]]
-- [[concepts/ai-team-bottleneck-identification.md]]
-- [[concepts/ai-teammates-insufficient.md]]
-- [[concepts/ai-to-ai-verification.md]]
-- [[concepts/ai-toolkit-vscode.md]]
-- [[concepts/ai-trust-pillars.md]]
-- [[concepts/ai-voice-assistant-quality.md]]
-- [[concepts/ai-workload-orchestration.md]]
-- [[concepts/aiops.md]]
-- [[concepts/alert-fatigue-ai-agents.md]]
-- [[concepts/all-ai-is-distributed-systems.md]]
-- [[concepts/always-on-ai.md]]
-- [[concepts/alwaysallow-and-alwaysdeny.md]]
-- [[concepts/alwayspullimages.md]]
-- [[concepts/ambient-agents.md]]
-- [[concepts/ambient-clinical-documentation.md]]
-- [[concepts/ambient-noise-resilience.md]]
-- [[concepts/ambitious-evals-for-future-models.md]]
-- [[concepts/ampere-s-wager.md]]
-- [[concepts/analysis-pipeline.md]]
-- [[concepts/ann-quality-aware-benchmarking.md]]
-- [[concepts/annotation-augmented-video-understanding.md]]
-- [[concepts/annotations.md]]
-- [[concepts/anthropic-claude-agent-demo.md]]
-- [[concepts/anti-powerpoint.md]]
-- [[concepts/api-first-design-for-agents.md]]
-- [[concepts/api-groups.md]]
-- [[concepts/application-latency-tolerance.md]]
-- [[concepts/application-layer-evals.md]]
-- [[concepts/application-observability-graph.md]]
-- [[concepts/arc-agi-3.md]]
-- [[concepts/aspect-based-evals.md]]
-- [[concepts/assistive-vs-automation-agents.md]]
-- [[concepts/asymmetric-encryption.md]]
-- [[concepts/asynchronous-coding-agents.md]]
-- [[concepts/attack-strategies.md]]
-- [[concepts/audio-decoding-pipeline.md]]
-- [[concepts/audio-event-tagging.md]]
-- [[concepts/augmented-llm-foundations.md]]
-- [[concepts/authentication-kubernetes.md]]
-- [[concepts/authentication-vs-authorization.md]]
-- [[concepts/authorization-kubernetes.md]]
-- [[concepts/authorization-modes.md]]
-- [[concepts/authorization-server.md]]
-- [[concepts/auto-approve-copilot.md]]
-- [[concepts/auto-evals.md]]
-- [[concepts/auto-improving-agent-loop.md]]
-- [[concepts/automated-evals-challenge.md]]
-- [[concepts/automated-scaling.md]]
-- [[concepts/automatic-speech-recognition.md]]
-- [[concepts/automation-augmentation-agency.md]]
-- [[concepts/automation-in-ml-pipeline.md]]
-- [[concepts/autonomous-driving.md]]
-- [[concepts/autonomous-system-unintended-consequences.md]]
-- [[concepts/autoregressive-generation.md]]
-- [[concepts/aws-free-tier.md]]
-- [[concepts/azure-ai-evaluation-sdk.md]]
-- [[concepts/azure-ai-risk-categories.md]]
-- [[concepts/back-channeling-voice-ai.md]]
-- [[concepts/back-pressure.md]]
-- [[concepts/basketball-court-metaphor.md]]
-- [[concepts/bedrock-platform-capabilities.md]]
-- [[concepts/benchmark-design-principles.md]]
-- [[concepts/benchmark-driven-ai-optimization.md]]
-- [[concepts/benchmark-memes.md]]
-- [[concepts/benchmark-qed.md]]
-- [[concepts/benchmark-saturation.md]]
-- [[concepts/best-effort-networking.md]]
-- [[concepts/beyond-chatbots.md]]
-- [[concepts/bgp-kubernetes-networking.md]]
-- [[concepts/bgp.md]]
-- [[concepts/bi-encoder-search.md]]
-- [[concepts/billable-hour-paradox.md]]
-- [[concepts/bitter-design-lesson.md]]
-- [[concepts/bitter-layout.md]]
-- [[concepts/bitter-lesson-agentic.md]]
-- [[concepts/bitter-lesson.md]]
-- [[concepts/black-box-problem.md]]
-- [[concepts/blind-signatures.md]]
-- [[concepts/blueprint-generator-pattern.md]]
-- [[concepts/bluetooth-latency.md]]
-- [[concepts/bm25-scoring.md]]
-- [[concepts/books-reimagined.md]]
-- [[concepts/bootstrapping-control-plane.md]]
-- [[concepts/bootstrapping-high-availability-control-plane.md]]
-- [[concepts/bootstrapping.md]]
-- [[concepts/boundless-surface-area.md]]
-- [[concepts/br_netfilter.md]]
-- [[concepts/brain-memory-analogy.md]]
-- [[concepts/braintrust-proxy.md]]
-- [[concepts/bridge-network-in-docker.md]]
-- [[concepts/bridged-adapter-networking.md]]
-- [[concepts/bridged-adapter.md]]
-- [[concepts/brittleness-lipschitz-discontinuity.md]]
-- [[concepts/brownfield-first-ai-adoption.md]]
-- [[concepts/browser-as-integration-layer.md]]
-- [[concepts/browser-based-robotics-simulation.md]]
-- [[concepts/bug-focused-rules.md]]
-- [[concepts/bug-taxonomy.md]]
-- [[concepts/build-operate-divide.md]]
-- [[concepts/build-vs-buy-agents.md]]
-- [[concepts/building-over-theorizing.md]]
-- [[concepts/built-in-agent-tools.md]]
-- [[concepts/burden-of-generated-code.md]]
-- [[concepts/bus-saturation-overhead.md]]
-- [[concepts/business-relevance-retrieval.md]]
-- [[concepts/buyer-seller-intent.md]]
-- [[concepts/camera-only-driving.md]]
-- [[concepts/can-bus-robotics.md]]
-- [[concepts/canvas-ai-interface.md]]
-- [[concepts/capability-based-tokens.md]]
-- [[concepts/cars-vs-traffic-metaphor.md]]
-- [[concepts/cascading-hierarchy.md]]
-- [[concepts/causal-machine-learning.md]]
-- [[concepts/certificate-authority-ca.md]]
-- [[concepts/certificate-chain.md]]
-- [[concepts/certificate-generation.md]]
-- [[concepts/certificate-signing-request.md]]
-- [[concepts/certificate-verification.md]]
-- [[concepts/chain-of-thought-driving.md]]
-- [[concepts/chain-of-thought.md]]
-- [[concepts/chaos-and-opportunity.md]]
-- [[concepts/character-coach-approach.md]]
-- [[concepts/character-consistency.md]]
-- [[concepts/checklist-based-evaluation.md]]
-- [[concepts/checkpoint-undo-ai-code.md]]
-- [[concepts/china-us-ai-rivalry.md]]
-- [[concepts/chunk-piggybacking.md]]
-- [[concepts/chunking-for-retrieval.md]]
-- [[concepts/chunking-strategies.md]]
-- [[concepts/cidr.md]]
-- [[concepts/circle-cctp.md]]
-- [[concepts/circle-smart-contract-escrow.md]]
-- [[concepts/ciso-approval.md]]
-- [[concepts/classified-data-ai.md]]
-- [[concepts/claude-desktop-mcp-integration.md]]
-- [[concepts/clean-fid.md]]
-- [[concepts/cli-ai-interface-leader.md]]
-- [[concepts/cli-for-ai-tools.md]]
-- [[concepts/client-certificate.md]]
-- [[concepts/client-initiated-backchannel-authentication.md]]
-- [[concepts/clinical-reasoning.md]]
-- [[concepts/clip-limitations.md]]
-- [[concepts/closed-loop-agent-improvement.md]]
-- [[concepts/closed-model-assumption.md]]
-- [[concepts/cloud-4-model-breakthrough.md]]
-- [[concepts/cloud-for-agents.md]]
-- [[concepts/cloud-scale-agent-architecture.md]]
-- [[concepts/cloud-vm-for-agents.md]]
-- [[concepts/cluster-autoscaler-overview.md]]
-- [[concepts/cluster-autoscaler.md]]
-- [[concepts/cluster-cidr.md]]
-- [[concepts/cluster-scaling.md]]
-- [[concepts/clusterrole.md]]
-- [[concepts/clusterrolebinding.md]]
-- [[concepts/cmd.md]]
-- [[concepts/cnssi-1253.md]]
-- [[concepts/co-founder-norm.md]]
-- [[concepts/co-scheduling.md]]
-- [[concepts/code-based-evals.md]]
-- [[concepts/code-cleanliness.md]]
-- [[concepts/code-executing-agents.md]]
-- [[concepts/code-hierarchy-understanding.md]]
-- [[concepts/code-is-artifact.md]]
-- [[concepts/code-is-cheap.md]]
-- [[concepts/code-quality-as-context.md]]
-- [[concepts/code-review-feedback-quality.md]]
-- [[concepts/code-review-primary-skill.md]]
-- [[concepts/code-translation.md]]
-- [[concepts/codebase-conventions.md]]
-- [[concepts/codex-abuse-pattern.md]]
-- [[concepts/coding-agent-security-model.md]]
-- [[concepts/coding-is-going-away.md]]
-- [[concepts/cog-container.md]]
-- [[concepts/cognitive-technologies.md]]
-- [[concepts/cold-outreach-strategy.md]]
-- [[concepts/cold-start-recommendation.md]]
-- [[concepts/collaborative-problem-solving.md]]
-- [[concepts/combination-attack-strategies.md]]
-- [[concepts/combinatorics.md]]
-- [[concepts/commercial-kitchen-economics.md]]
-- [[concepts/commit-based-metrics-limitations.md]]
-- [[concepts/commit-message-generation-copilot.md]]
-- [[concepts/community-summarization.md]]
-- [[concepts/company-type-spectrum.md]]
-- [[concepts/complex-document-understanding.md]]
-- [[concepts/complexity-adjusted-impact.md]]
-- [[concepts/component-inventory.md]]
-- [[concepts/compounding-benefits.md]]
-- [[concepts/compounding-engineering.md]]
-- [[concepts/compute-abuse.md]]
-- [[concepts/compute-allocation.md]]
-- [[concepts/compute-bound-vs-memory-bound.md]]
-- [[concepts/compute-intensity-scaling.md]]
-- [[concepts/compute-scaling-laws.md]]
-- [[concepts/computer-use-agents.md]]
-- [[concepts/computer-use-models.md]]
-- [[concepts/concurrent-testing.md]]
-- [[concepts/confidential-gpu.md]]
-- [[concepts/configmaps.md]]
-- [[concepts/configuration-drift.md]]
-- [[concepts/connections-game.md]]
-- [[concepts/consistency-in-cooking.md]]
-- [[concepts/constants-in-data.md]]
-- [[concepts/consulting-engagement-phases.md]]
-- [[concepts/consumer-ai-voice.md]]
-- [[concepts/consumer-unrest.md]]
-- [[concepts/container-dns-resolution-source.md]]
-- [[concepts/container-dns-resolution.md]]
-- [[concepts/container-runtime-interface-cri.md]]
-- [[concepts/container-runtime.md]]
-- [[concepts/container-use.md]]
-- [[concepts/containerization.md]]
-- [[concepts/content-annotation-search.md]]
-- [[concepts/content-first-design.md]]
-- [[concepts/context-engine-vs-rag.md]]
-- [[concepts/context-engineering.md]]
-- [[concepts/context-gap.md]]
-- [[concepts/context-length-scaling.md]]
-- [[concepts/context-loss.md]]
-- [[concepts/context-management-for-agents.md]]
-- [[concepts/context-over-models.md]]
-- [[concepts/context-per-head.md]]
-- [[concepts/context-philosophy-what-vs-how-much.md]]
-- [[concepts/context-relevance-over-size.md]]
-- [[concepts/context-switching-costs.md]]
-- [[concepts/contextual-modular-rag.md]]
-- [[concepts/contextual-platform-approach.md]]
-- [[concepts/continued-pre-training.md]]
-- [[concepts/continuous-eval-loops.md]]
-- [[concepts/continuous-process-refinement.md]]
-- [[concepts/continuous-profiling.md]]
-- [[concepts/continuous-viable-product.md]]
-- [[concepts/control-plane-node.md]]
-- [[concepts/control-plane.md]]
-- [[concepts/controlled-classified-ai.md]]
-- [[concepts/controlled-hallucination.md]]
-- [[concepts/controller-manager.md]]
-- [[concepts/conversation-output-analysis.md]]
-- [[concepts/conversational-video-interface.md]]
-- [[concepts/conviction-signal.md]]
-- [[concepts/copilot-checkpoint-undo.md]]
-- [[concepts/copilot-code-review.md]]
-- [[concepts/copilot-first-strategy.md]]
-- [[concepts/copilot-instructions.md]]
-- [[concepts/copilot-new-command.md]]
-- [[concepts/copilot-prompt-files.md]]
-- [[concepts/copilot-spaces.md]]
-- [[concepts/copilot-workload-spectrum.md]]
-- [[concepts/core-api-group.md]]
-- [[concepts/core-knowledge-priors.md]]
-- [[concepts/cost-intelligence-bands.md]]
-- [[concepts/cpu-throttling.md]]
-- [[concepts/create-refine-loop.md]]
-- [[concepts/critic-agents.md]]
-- [[concepts/cross-embodiment-robotics.md]]
-- [[concepts/cross-encoder-relevance-model.md]]
-- [[concepts/cuda-graph-for-llm-serving.md]]
-- [[concepts/culinary-embeddings.md]]
-- [[concepts/curated-dataset-strategy.md]]
-- [[concepts/curl-over-click.md]]
-- [[concepts/cursor-for-x.md]]
-- [[concepts/customer-feedback-analysis.md]]
-- [[concepts/customer-first-problem-solving.md]]
-- [[concepts/customer-obsession.md]]
-- [[concepts/customer-relationship-through-memory.md]]
-- [[concepts/cycle-time-plot.md]]
-- [[concepts/cypher-query-language.md]]
-- [[concepts/daemonset-for-network-plugins.md]]
-- [[concepts/daemonset.md]]
-- [[concepts/daemonsets.md]]
-- [[concepts/dagger-agent-platform.md]]
-- [[concepts/daily-pulse.md]]
-- [[concepts/dalle-inflection-point.md]]
-- [[concepts/dashboard-dumpster-diving.md]]
-- [[concepts/data-as-differentiator.md]]
-- [[concepts/data-center-economics.md]]
-- [[concepts/data-coverage-transformation.md]]
-- [[concepts/data-flywheel.md]]
-- [[concepts/data-pyramid.md]]
-- [[concepts/data-readiness-myth.md]]
-- [[concepts/data-scaling-recommendation.md]]
-- [[concepts/data-silos-problem.md]]
-- [[concepts/data-sovereignty.md]]
-- [[concepts/day-2-operations.md]]
-- [[concepts/decision-making-under-uncertainty.md]]
-- [[concepts/decorator-based-tool-creation.md]]
-- [[concepts/decoupled-architecture.md]]
-- [[concepts/decoy-pattern.md]]
-- [[concepts/dedicated-vector-database-adoption.md]]
-- [[concepts/deep-research-agent.md]]
-- [[concepts/deep-research-agents.md]]
-- [[concepts/deep-research-reading.md]]
-- [[concepts/defaultingressclass.md]]
-- [[concepts/defaultstorageclass.md]]
-- [[concepts/defaulttolerationseconds.md]]
-- [[concepts/defect-based-quality.md]]
-- [[concepts/definition-of-success-parallel-agents.md]]
-- [[concepts/delegated-authentication.md]]
-- [[concepts/delegation-chains.md]]
-- [[concepts/deliberative-alignment.md]]
-- [[concepts/demo-culture.md]]
-- [[concepts/demo-driven-ai-exploration.md]]
-- [[concepts/demo-savvy-problem.md]]
-- [[concepts/dense-vector-search.md]]
-- [[concepts/deployment-rollout-status.md]]
-- [[concepts/deployment-strategies.md]]
-- [[concepts/deployment.md]]
-- [[concepts/design-four-pillars.md]]
-- [[concepts/desired-state.md]]
-- [[concepts/deterministic-eval-scoring.md]]
-- [[concepts/deterministic-from-stochastic.md]]
-- [[concepts/deterministic-logic-guardrails.md]]
-- [[concepts/deterministic-trust-expectation.md]]
-- [[concepts/deterministic-vs-autonomous-agents.md]]
-- [[concepts/dev-container-vibe-coding.md]]
-- [[concepts/developer-experience-critique.md]]
-- [[concepts/developer-outer-loop.md]]
-- [[concepts/dial-up-era-of-ai.md]]
-- [[concepts/digital-signature.md]]
-- [[concepts/digital-twin.md]]
-- [[concepts/dinov2-pre-training.md]]
-- [[concepts/direct-preference-optimization.md]]
-- [[concepts/direct-vs-indirect-ai-monetization.md]]
-- [[concepts/dirty-secret-of-abstraction.md]]
-- [[concepts/disable-swap-command.md]]
-- [[concepts/disable-swap.md]]
-- [[concepts/disaggregated-inference.md]]
-- [[concepts/discover-functionality.md]]
-- [[concepts/dispatch-limitation.md]]
-- [[concepts/distributed-inference.md]]
-- [[concepts/distributed-tracing.md]]
-- [[concepts/docker-embedded-dns-documentation.md]]
-- [[concepts/docker-gateway-ip.md]]
-- [[concepts/docker-run.md]]
-- [[concepts/dockerfile.md]]
-- [[concepts/dockershim.md]]
-- [[concepts/document-enrichment.md]]
-- [[concepts/document-mcp-server.md]]
-- [[concepts/document-toolbox.md]]
-- [[concepts/documentation-as-agent-knowledge-base.md]]
-- [[concepts/domain-aware-memory.md]]
-- [[concepts/domain-expert-product-manager.md]]
-- [[concepts/domain-expert-prompt-engineering.md]]
-- [[concepts/domain-graph.md]]
-- [[concepts/domain-intelligence-engine.md]]
-- [[concepts/domain-native-llm-application.md]]
-- [[concepts/domain-specific-embedding-models.md]]
-- [[concepts/domain-specific-evals.md]]
-- [[concepts/doom-codebase-experiment.md]]
-- [[concepts/doordash-analogy.md]]
-- [[concepts/dot-instructions-files.md]]
-- [[concepts/dreamgen.md]]
-- [[concepts/durable-execution.md]]
-- [[concepts/durable-objects.md]]
-- [[concepts/dynamic-batching.md]]
-- [[concepts/dynamic-context-ai.md]]
-- [[concepts/dynamic-eval-sets.md]]
-- [[concepts/dynamic-products.md]]
-- [[concepts/dynamic-ui-generation.md]]
-- [[concepts/e-commerce-ai-transformation.md]]
-- [[concepts/e-commerce-evolution.md]]
-- [[concepts/e-commerce-search-challenges.md]]
-- [[concepts/ebpf.md]]
-- [[concepts/ecdhe.md]]
-- [[concepts/edge-ai-hardware-acceleration.md]]
-- [[concepts/edge-to-cloud.md]]
-- [[concepts/edge-vision-inference.md]]
-- [[concepts/embedded-dns-server.md]]
-- [[concepts/embedding-based-search.md]]
-- [[concepts/embedding-models.md]]
-- [[concepts/embedding-quality.md]]
-- [[concepts/embedding-search.md]]
-- [[concepts/emergent-behavior-in-ai.md]]
-- [[concepts/emergent-intelligence.md]]
-- [[concepts/empirical-embedding-selection.md]]
-- [[concepts/employee-vs-enterprise-productivity.md]]
-- [[concepts/encoder-only-eval-models.md]]
-- [[concepts/encryption-at-rest.md]]
-- [[concepts/encryption.md]]
-- [[concepts/encryptionconfiguration.md]]
-- [[concepts/end-to-end-driving.md]]
-- [[concepts/enforceable-guarantees.md]]
-- [[concepts/engagement-data.md]]
-- [[concepts/enterprise-agent-adoption-equation.md]]
-- [[concepts/enterprise-ai-administration.md]]
-- [[concepts/enterprise-ai-adoption.md]]
-- [[concepts/enterprise-ai-app-factory.md]]
-- [[concepts/enterprise-ai-productivity-paradox.md]]
-- [[concepts/enterprise-inference-infrastructure.md]]
-- [[concepts/enterprise-mcp-deployment.md]]
-- [[concepts/enterprise-rag.md]]
-- [[concepts/entity-type-modeling.md]]
-- [[concepts/entrypoint.md]]
-- [[concepts/envfrom.md]]
-- [[concepts/environment-variables-in-pods.md]]
-- [[concepts/episodic-memory-agents.md]]
-- [[concepts/equality-based-selector.md]]
-- [[concepts/equality-based-selectors.md]]
-- [[concepts/etchosts.md]]
-- [[concepts/etl-pipeline.md]]
-- [[concepts/eval-as-judge.md]]
-- [[concepts/eval-baseline-first.md]]
-- [[concepts/eval-data-flywheel.md]]
-- [[concepts/eval-dataset-strategy.md]]
-- [[concepts/eval-driven-development.md]]
-- [[concepts/eval-driven-iteration.md]]
-- [[concepts/eval-driven-optimization.md]]
-- [[concepts/eval-flywheel-effect.md]]
-- [[concepts/eval-human-in-the-loop.md]]
-- [[concepts/eval-ingredients-task-dataset-score.md]]
-- [[concepts/eval-metrics-relativity.md]]
-- [[concepts/eval-offline-online-duality.md]]
-- [[concepts/eval-optimization-triad.md]]
-- [[concepts/eval-orchestration-parallelism.md]]
-- [[concepts/eval-playground-as-ide.md]]
-- [[concepts/eval-playground-experiment-workflow.md]]
-- [[concepts/eval-production-metrics.md]]
-- [[concepts/eval-quality-diagnostic.md]]
-- [[concepts/eval-quality-matrix.md]]
-- [[concepts/eval-score-types.md]]
-- [[concepts/eval-sdk-first-workflow.md]]
-- [[concepts/eval-task-complexity.md]]
-- [[concepts/evals-are-custom-and-subjective.md]]
-- [[concepts/evals-are-not-unit-tests.md]]
-- [[concepts/evals-as-moat.md]]
-- [[concepts/evals-as-structured-tests.md]]
-- [[concepts/evals-in-ci.md]]
-- [[concepts/evals-industry-transformation.md]]
-- [[concepts/evals-labor-problem.md]]
-- [[concepts/evals-laboratory.md]]
-- [[concepts/evals-must-be-engineered.md]]
-- [[concepts/evals-play-offense.md]]
-- [[concepts/evals-spectrum.md]]
-- [[concepts/evals-testing-pyramid.md]]
-- [[concepts/evaluate-ai-early.md]]
-- [[concepts/evaluation-as-top-pain-point.md]]
-- [[concepts/evaluation-at-pipeline-steps.md]]
-- [[concepts/evaluation-first-development.md]]
-- [[concepts/evaluation-vs-benchmarking.md]]
-- [[concepts/evaluator-thresholds.md]]
-- [[concepts/events-wrong-abstraction-thesis.md]]
-- [[concepts/evidence-based-qa-generation.md]]
-- [[concepts/evolution-of-programming.md]]
-- [[concepts/evolution-of-verification.md]]
-- [[concepts/evolutionary-benchmarks.md]]
-- [[concepts/excel-agent-normalization.md]]
-- [[concepts/execution-as-moat.md]]
-- [[concepts/experiential-benchmarks.md]]
-- [[concepts/explicit-feedback-strategies.md]]
-- [[concepts/explicit-intent-communication.md]]
-- [[concepts/exploratory-query-recommendation.md]]
-- [[concepts/export-controls-ai-hardware.md]]
-- [[concepts/extension-points-in-scheduling.md]]
-- [[concepts/failure-mode-ontology.md]]
-- [[concepts/fair-scheduling.md]]
-- [[concepts/fast-evals.md]]
-- [[concepts/feature-exploration-strategy.md]]
-- [[concepts/feature-flag-infra.md]]
-- [[concepts/feature-steering.md]]
-- [[concepts/fedramp.md]]
-- [[concepts/feeling-the-material.md]]
-- [[concepts/fidelity-vs-speed-tradeoff.md]]
-- [[concepts/finding-the-grain.md]]
-- [[concepts/fine-tuning-best-practices.md]]
-- [[concepts/fine-tuning-for-specialization.md]]
-- [[concepts/fine-tuning-practices-2025.md]]
-- [[concepts/finvoice.md]]
-- [[concepts/firefighting-prioritization.md]]
-- [[concepts/firewalld.md]]
-- [[concepts/first-principles-org-design.md]]
-- [[concepts/first-principles-thinking.md]]
-- [[concepts/flame-chart.md]]
-- [[concepts/flat-network-model.md]]
-- [[concepts/flow-awareness.md]]
-- [[concepts/forceful-product-building.md]]
-- [[concepts/forensic-revenue-attribution.md]]
-- [[concepts/forgetting-mechanisms.md]]
-- [[concepts/forward-deployed-engineering.md]]
-- [[concepts/forward-leaning-agent.md]]
-- [[concepts/foundation-models-autonomous-driving.md]]
-- [[concepts/founder-market-fit.md]]
-- [[concepts/fp8-compute.md]]
-- [[concepts/fp8-kv-cache.md]]
-- [[concepts/frames-processors-pipelines.md]]
-- [[concepts/framework-agnostic-agents.md]]
-- [[concepts/frontier-model-eval-capability.md]]
-- [[concepts/fruit-letter-counter.md]]
-- [[concepts/full-duplex-voice-models.md]]
-- [[concepts/fuzz-testing-ai.md]]
-- [[concepts/fuzzy-text-matching.md]]
-- [[concepts/gardening-as-design-paradigm.md]]
-- [[concepts/gas-abstraction.md]]
-- [[concepts/gemini-25-pro.md]]
-- [[concepts/gemini-live-api.md]]
-- [[concepts/gen-ai-semantic-conventions.md]]
-- [[concepts/genei-document-toolchain.md]]
-- [[concepts/generalist-engineer.md]]
-- [[concepts/generalist-vs-specialist.md]]
-- [[concepts/generative-media.md]]
-- [[concepts/generative-retrieval-recsys.md]]
-- [[concepts/generative-video-vs-image.md]]
-- [[concepts/genos-proprietary-gen-ai-platform.md]]
-- [[concepts/ghost-engineers.md]]
-- [[concepts/github-codespaces-ai-coding.md]]
-- [[concepts/globaldefault.md]]
-- [[concepts/golden-dataset.md]]
-- [[concepts/golden-datasets.md]]
-- [[concepts/good-enough-judgment.md]]
-- [[concepts/government-ai-agents.md]]
-- [[concepts/government-build-vs-buy-ai.md]]
-- [[concepts/gpu-cold-start.md]]
-- [[concepts/gpu-commoditization.md]]
-- [[concepts/gpu-marketplace.md]]
-- [[concepts/gpu-mig.md]]
-- [[concepts/gpu-profiling.md]]
-- [[concepts/gpu-scaling.md]]
-- [[concepts/gpu-time-profiling.md]]
-- [[concepts/gpu-utilization.md]]
-- [[concepts/graffiti-temporal-graph.md]]
-- [[concepts/granular-eval-metrics.md]]
-- [[concepts/graph-acceleration.md]]
-- [[concepts/graph-analytics-enrichment.md]]
-- [[concepts/graph-analytics-rag-curation.md]]
-- [[concepts/graph-coloring.md]]
-- [[concepts/graph-database-challenges.md]]
-- [[concepts/graph-state-management.md]]
-- [[concepts/graph-traversal-similarity.md]]
-- [[concepts/graph-vs-document-retrieval.md]]
-- [[concepts/graphrag-code.md]]
-- [[concepts/graphrag-patterns-catalog.md]]
-- [[concepts/graphrag.md]]
-- [[concepts/greenfield-vs-brownfield.md]]
-- [[concepts/ground-truth-evaluation.md]]
-- [[concepts/grounding-dino.md]]
-- [[concepts/grpc.md]]
-- [[concepts/guardrails-content-filters.md]]
-- [[concepts/hallucination-detection.md]]
-- [[concepts/hardware-vendors-ai.md]]
-- [[concepts/harold-cohen-arian.md]]
-- [[concepts/harvester-cultivator-model.md]]
-- [[concepts/hbm-memory.md]]
-- [[concepts/head-of-line-silence.md]]
-- [[concepts/headcount-vs-productivity.md]]
-- [[concepts/healthcare-administration-costs.md]]
-- [[concepts/healthcare-friction.md]]
-- [[concepts/healthcare-three-stakeholders.md]]
-- [[concepts/heuristics-vs-hard-evidence-context.md]]
-- [[concepts/high-availability-control-plane.md]]
-- [[concepts/high-availability.md]]
-- [[concepts/high-bandwidth-feedback.md]]
-- [[concepts/high-level-container-runtime.md]]
-- [[concepts/high-performer-bifurcation.md]]
-- [[concepts/high-signal-low-noise.md]]
-- [[concepts/high-trust-culture.md]]
-- [[concepts/hnsw-filtering-paradox.md]]
-- [[concepts/holistic-ai-sdlc.md]]
-- [[concepts/holistic-eval-framework.md]]
-- [[concepts/horizontal-pod-autoscaler.md]]
-- [[concepts/horizontal-scaling.md]]
-- [[concepts/horizontal-vs-vertical-mcp.md]]
-- [[concepts/horizontalpodautoscaler.md]]
-- [[concepts/host-security.md]]
-- [[concepts/hostname-setting.md]]
-- [[concepts/hot-model-rollout.md]]
-- [[concepts/hotpotqa.md]]
-- [[concepts/how-tls-certificates-work-in-kubernetes-and-manual-cluster-setup.md]]
-- [[concepts/human-agent-co-evolution.md]]
-- [[concepts/human-baseline-benchmarking.md]]
-- [[concepts/human-computer-interaction.md]]
-- [[concepts/human-in-the-loop-payments.md]]
-- [[concepts/human-in-the-loop-regulated-ai.md]]
-- [[concepts/human-in-the-loop.md]]
-- [[concepts/human-seeded-evals.md]]
-- [[concepts/human-turn-taking-prediction.md]]
-- [[concepts/human-vs-ai-information-consumption.md]]
-- [[concepts/human-vs-machine-users.md]]
-- [[concepts/humanoid-foundation-model.md]]
-- [[concepts/hybrid-autonomy-model.md]]
-- [[concepts/hybrid-graph-extraction.md]]
-- [[concepts/hybrid-retrieval.md]]
-- [[concepts/hybrid-search.md]]
-- [[concepts/hybridrag.md]]
-- [[concepts/hyper-personalized-ads.md]]
-- [[concepts/idor-insecure-direct-object-reference.md]]
-- [[concepts/imitation-learning.md]]
-- [[concepts/immutable-functional-style.md]]
-- [[concepts/implicit-feedback-signal.md]]
-- [[concepts/in-context-learning.md]]
-- [[concepts/in-flight-batching.md]]
-- [[concepts/in-memory-retrieval.md]]
-- [[concepts/in-place-pod-vertical-scaling.md]]
-- [[concepts/incentive-protocols-infrastructure.md]]
-- [[concepts/incremental-context-sharing.md]]
-- [[concepts/indentation-robustness.md]]
-- [[concepts/independent-study.md]]
-- [[concepts/inference-growth.md]]
-- [[concepts/inference-pareto-frontier.md]]
-- [[concepts/inference-performance-evaluation.md]]
-- [[concepts/inference-serving.md]]
-- [[concepts/inference-time-compute.md]]
-- [[concepts/inference-time-scaling.md]]
-- [[concepts/inference-training-blur.md]]
-- [[concepts/inference-verbosity.md]]
-- [[concepts/inference-vs-training-compute.md]]
-- [[concepts/information-retrieval.md]]
-- [[concepts/information-theory-compression.md]]
-- [[concepts/infrastructure-provisioning.md]]
-- [[concepts/ingress.md]]
-- [[concepts/init-container.md]]
-- [[concepts/input-output-evals.md]]
-- [[concepts/input-output-specification.md]]
-- [[concepts/install-kubernetes-components.md]]
-- [[concepts/instructable-voice.md]]
-- [[concepts/instruction-tuning.md]]
-- [[concepts/instrumentation-deep-traces.md]]
-- [[concepts/intelligence-bottlenecks.md]]
-- [[concepts/intelligent-document-processing.md]]
-- [[concepts/intent-infrastructure.md]]
-- [[concepts/intent-understanding.md]]
-- [[concepts/inter-node-routing.md]]
-- [[concepts/interactive-model-discovery.md]]
-- [[concepts/interactive-reasoning-benchmarks.md]]
-- [[concepts/internal-automation.md]]
-- [[concepts/intra-node-networking.md]]
-- [[concepts/introduction-to-aws-iam.md]]
-- [[concepts/introduction-to-infrastructure-provisioning.md]]
-- [[concepts/introduction-to-kubernetes.md]]
-- [[concepts/introduction-to-ssh-and-kubernetes-cluster-setup.md]]
-- [[concepts/inverted-index.md]]
-- [[concepts/invisible-team-members.md]]
-- [[concepts/ipam.md]]
-- [[concepts/iptables.md]]
-- [[concepts/issue-from-video.md]]
-- [[concepts/issue-to-pr-pipeline.md]]
-- [[concepts/jitter-in-robotics.md]]
-- [[concepts/joe-christian-burgum-vector-database-analysis.md]]
-- [[concepts/json-lines-eval-export.md]]
-- [[concepts/junior-buddy-agent.md]]
-- [[concepts/junior-led-vs-senior-led-models.md]]
-- [[concepts/kag-knowledge-augmented-generation.md]]
-- [[concepts/kerberos.md]]
-- [[concepts/knowledge-base-pattern.md]]
-- [[concepts/knowledge-based-voice-agent.md]]
-- [[concepts/knowledge-bases-ai.md]]
-- [[concepts/knowledge-cards.md]]
-- [[concepts/knowledge-distillation-search.md]]
-- [[concepts/knowledge-graph-construction-pipeline.md]]
-- [[concepts/knowledge-graph-ontology-design.md]]
-- [[concepts/knowledge-infrastructure.md]]
-- [[concepts/knowledge-injection.md]]
-- [[concepts/knowledge-work-automation.md]]
-- [[concepts/korea-fox-ad.md]]
-- [[concepts/kpi-alignment.md]]
-- [[concepts/kube-apiserver.md]]
-- [[concepts/kube-proxy.md]]
-- [[concepts/kube-scheduler.md]]
-- [[concepts/kubeadm-init.md]]
-- [[concepts/kubeadm-join.md]]
-- [[concepts/kubeadm-upgrade.md]]
-- [[concepts/kubeconfig.md]]
-- [[concepts/kubectl-proxy.md]]
-- [[concepts/kubectl-rollout-history.md]]
-- [[concepts/kubectl-rollout-status.md]]
-- [[concepts/kubectl-set-image.md]]
-- [[concepts/kubernetes-api-server.md]]
-- [[concepts/kubernetes-apt-repository-setup.md]]
-- [[concepts/kubernetes-challenges.md]]
-- [[concepts/kubernetes-cluster.md]]
-- [[concepts/kubernetes-installation-steps.md]]
-- [[concepts/kubernetes-network-model.md]]
-- [[concepts/kubernetes-pod-command-and-args.md]]
-- [[concepts/kubernetes-pods.md]]
-- [[concepts/kubernetes-practice.md]]
-- [[concepts/kubernetes-security.md]]
-- [[concepts/kv-cache.md]]
-- [[concepts/l2-vs-l4-autonomy.md]]
-- [[concepts/labels.md]]
-- [[concepts/langchain.md]]
-- [[concepts/langgraph-node-architecture.md]]
-- [[concepts/langgraph.md]]
-- [[concepts/language-as-model-of-mind.md]]
-- [[concepts/language-detection.md]]
-- [[concepts/large-recommender-model.md]]
-- [[concepts/large-scale-simulation.md]]
-- [[concepts/last-mile-problem-ai.md]]
-- [[concepts/latent-model-capabilities.md]]
-- [[concepts/layered-agent-safety.md]]
-- [[concepts/layered-graph-architecture.md]]
-- [[concepts/lazy-graphrag.md]]
-- [[concepts/ldap.md]]
-- [[concepts/leading-words.md]]
-- [[concepts/lean-startup-playbook.md]]
-- [[concepts/legacy-as-agent-tools.md]]
-- [[concepts/legacy-code-ai-agent-strategy.md]]
-- [[concepts/legacy-internet-ai-agents.md]]
-- [[concepts/legal-ai.md]]
-- [[concepts/legal-data-characteristics.md]]
-- [[concepts/legal-industry-ai-constraints.md]]
-- [[concepts/level-of-stack.md]]
-- [[concepts/lexical-graph.md]]
-- [[concepts/lexical-search.md]]
-- [[concepts/lighthouse-scores.md]]
-- [[concepts/limitrange.md]]
-- [[concepts/limitranger.md]]
-- [[concepts/linter-integration.md]]
-- [[concepts/linux-namespace-types.md]]
-- [[concepts/linux-network-namespace.md]]
-- [[concepts/litigation-agents.md]]
-- [[concepts/llama-transformer-family.md]]
-- [[concepts/llm-as-computation-engine.md]]
-- [[concepts/llm-as-judge-evaluation.md]]
-- [[concepts/llm-as-judge-problems.md]]
-- [[concepts/llm-as-judge.md]]
-- [[concepts/llm-as-planner-not-executor.md]]
-- [[concepts/llm-as-primary-audience.md]]
-- [[concepts/llm-as-summarizer.md]]
-- [[concepts/llm-benchmarking.md]]
-- [[concepts/llm-big-text-into-small-text.md]]
-- [[concepts/llm-cost-structure.md]]
-- [[concepts/llm-data-augmentation-recsys.md]]
-- [[concepts/llm-evaluation-framework.md]]
-- [[concepts/llm-evaluation-pyramid.md]]
-- [[concepts/llm-hallucination-detection.md]]
-- [[concepts/llm-judge-best-practices.md]]
-- [[concepts/llm-judge-correctness.md]]
-- [[concepts/llm-latency-in-consumer-apps.md]]
-- [[concepts/llm-ops-tooling.md]]
-- [[concepts/llm-overfitting.md]]
-- [[concepts/llm-search-integration.md]]
-- [[concepts/llm-sycophancy.md]]
-- [[concepts/llm-usage-heterogeneity.md]]
-- [[concepts/llm-user-behavior-alignment.md]]
-- [[concepts/llms-are-hard-at-evals.md]]
-- [[concepts/llms-protocol.md]]
-- [[concepts/llms-txt.md]]
-- [[concepts/lm-memory-with-structure.md]]
-- [[concepts/lmos.md]]
-- [[concepts/lnsdlc.md]]
-- [[concepts/local-first-ai-platform.md]]
-- [[concepts/local-global-queries.md]]
-- [[concepts/local-global-search-graphrag.md]]
-- [[concepts/local-model-management.md]]
-- [[concepts/local-models.md]]
-- [[concepts/local-vs-deploy-experience-gap.md]]
-- [[concepts/longtail-scenarios.md]]
-- [[concepts/loop-automated-eval-optimization.md]]
-- [[concepts/low-ego-high-trust.md]]
-- [[concepts/low-level-container-runtime.md]]
-- [[concepts/low-level-inference-optimization.md]]
-- [[concepts/majority-voting-self-consistency.md]]
-- [[concepts/man-in-the-middle-attack.md]]
-- [[concepts/managed-kubernetes.md]]
-- [[concepts/managed-substrate.md]]
-- [[concepts/manager-vibe-coding.md]]
-- [[concepts/maniac-supercomputer.md]]
-- [[concepts/manifest-directory.md]]
-- [[concepts/manim-ai-visualization.md]]
-- [[concepts/manual-certificate-management.md]]
-- [[concepts/manual-scaling.md]]
-- [[concepts/manual-vs-automated-evals.md]]
-- [[concepts/map-free-driving.md]]
-- [[concepts/marginal-cost-of-creation.md]]
-- [[concepts/market-design.md]]
-- [[concepts/market-makers.md]]
-- [[concepts/matchexpressions.md]]
-- [[concepts/material-vs-fluent-design-ai.md]]
-- [[concepts/matricial-learning.md]]
-- [[concepts/mcp-adoption-timeline.md]]
-- [[concepts/mcp-as-agent-tools.md]]
-- [[concepts/mcp-auth-spec-evolution.md]]
-- [[concepts/mcp-compliance-ciso-governance.md]]
-- [[concepts/mcp-dev-mode.md]]
-- [[concepts/mcp-dynamic-client-registration.md]]
-- [[concepts/mcp-dynamic-tool-discovery.md]]
-- [[concepts/mcp-elicitation.md]]
-- [[concepts/mcp-gateway-pattern.md]]
-- [[concepts/mcp-hack-week-launch.md]]
-- [[concepts/mcp-handshake.md]]
-- [[concepts/mcp-local-vs-remote-auth.md]]
-- [[concepts/mcp-native-integration.md]]
-- [[concepts/mcp-observability.md]]
-- [[concepts/mcp-permission-gate.md]]
-- [[concepts/mcp-prm.md]]
-- [[concepts/mcp-protected-servers.md]]
-- [[concepts/mcp-rag-integration.md]]
-- [[concepts/mcp-registry-api.md]]
-- [[concepts/mcp-resource-server-separation.md]]
-- [[concepts/mcp-sampling.md]]
-- [[concepts/mcp-server-simplicity-optimization.md]]
-- [[concepts/mcp-streamable-http.md]]
-- [[concepts/mcp-to-mcp-protocol.md]]
-- [[concepts/mcp-tool-quality-vs-quantity.md]]
-- [[concepts/mcp-tool-sets.md]]
-- [[concepts/mcp-vs-openapi.md]]
-- [[concepts/mcp.md]]
-- [[concepts/measure-monitor-analyze-repeat.md]]
-- [[concepts/measurement-driven-improvement.md]]
-- [[concepts/measurement-vs-improvement-ai.md]]
-- [[concepts/mechanistic-interpretability.md]]
-- [[concepts/medical-claim-denials.md]]
-- [[concepts/medical-necessity-review.md]]
-- [[concepts/meeting-minimalism.md]]
-- [[concepts/memory-management.md]]
-- [[concepts/memory-suffixes.md]]
-- [[concepts/menugen.md]]
-- [[concepts/mermaid.md]]
-- [[concepts/meta-discovery-loop.md]]
-- [[concepts/meta-discovery.md]]
-- [[concepts/metadata-payload-mechanism.md]]
-- [[concepts/meter-chart-llm-task-capability.md]]
-- [[concepts/methodology-over-tooling.md]]
-- [[concepts/micro-agents.md]]
-- [[concepts/microservices-architecture.md]]
-- [[concepts/microservices-demo-projects.md]]
-- [[concepts/middle-east-ai-deal.md]]
-- [[concepts/millicpu.md]]
-- [[concepts/minimal-scaffolding-ai-agents.md]]
-- [[concepts/mirror-pod.md]]
-- [[concepts/miscellaneous-source-1e6927.md]]
-- [[concepts/miscellaneous-source.md]]
-- [[concepts/ml-team-building.md]]
-- [[concepts/mmlu-pro.md]]
-- [[concepts/mmvp-dataset.md]]
-- [[concepts/mobile-first-ai-apps.md]]
-- [[concepts/mobile-manipulation.md]]
-- [[concepts/modality-gap.md]]
-- [[concepts/model-agency.md]]
-- [[concepts/model-as-reasoner.md]]
-- [[concepts/model-as-unit-test-paradigm.md]]
-- [[concepts/model-benchmarks.md]]
-- [[concepts/model-capability-awareness.md]]
-- [[concepts/model-context-protocol.md]]
-- [[concepts/model-data-application-harmony.md]]
-- [[concepts/model-distillation.md]]
-- [[concepts/model-driven-agent-design.md]]
-- [[concepts/model-driven-application-cycles.md]]
-- [[concepts/model-ensemble-routing.md]]
-- [[concepts/model-exponential-curve.md]]
-- [[concepts/model-fine-tuning-data.md]]
-- [[concepts/model-iteration-feedback-loop.md]]
-- [[concepts/model-parallelism-inference.md]]
-- [[concepts/model-personality.md]]
-- [[concepts/model-picker-as-mode.md]]
-- [[concepts/model-picking.md]]
-- [[concepts/model-price-compression.md]]
-- [[concepts/model-progression-framework.md]]
-- [[concepts/model-quality-latency-tradeoff.md]]
-- [[concepts/model-selection-by-application.md]]
-- [[concepts/model-size-scaling.md]]
-- [[concepts/model-spot-checking.md]]
-- [[concepts/model-sub-composition.md]]
-- [[concepts/model-timing.md]]
-- [[concepts/model-tuning-vs-evals.md]]
-- [[concepts/model-update-velocity.md]]
-- [[concepts/model-versioning.md]]
-- [[concepts/modern-prompt-engineering.md]]
-- [[concepts/monte-carlo-methods-ai.md]]
-- [[concepts/monte-carlo-methods.md]]
-- [[concepts/moore-law-for-ai-agents.md]]
-- [[concepts/mttr.md]]
-- [[concepts/mttre.md]]
-- [[concepts/multi-agent-hive-mind.md]]
-- [[concepts/multi-agent-systems.md]]
-- [[concepts/multi-agent-workflows.md]]
-- [[concepts/multi-container-pod.md]]
-- [[concepts/multi-file-modification.md]]
-- [[concepts/multi-hop-retrieval.md]]
-- [[concepts/multi-label-classification.md]]
-- [[concepts/multi-model-voting.md]]
-- [[concepts/multi-model-world.md]]
-- [[concepts/multi-source-grounding.md]]
-- [[concepts/multimodal-agent-architecture.md]]
-- [[concepts/multimodal-evaluation.md]]
-- [[concepts/multimodal-generation.md]]
-- [[concepts/multimodal-models.md]]
-- [[concepts/multimodal-production-gap.md]]
-- [[concepts/multimodal-reading-experience.md]]
-- [[concepts/multimodal-video-search.md]]
-- [[concepts/multiple-ai-frontiers.md]]
-- [[concepts/multiple-schedulers.md]]
-- [[concepts/multiple-variations-parallelism.md]]
-- [[concepts/multithreaded-robotics-architecture.md]]
-- [[concepts/mutating-admission-controllers.md]]
-- [[concepts/mutating-phase.md]]
-- [[concepts/mutatingadmissionwebhook.md]]
-- [[concepts/mutual-tls-mtls.md]]
-- [[concepts/mvp-for-learning.md]]
-- [[concepts/mvp.md]]
-- [[concepts/named-api-groups.md]]
-- [[concepts/namespaceautoprovision.md]]
-- [[concepts/namespaceexists.md]]
-- [[concepts/namespacelifecycle.md]]
-- [[concepts/nat.md]]
-- [[concepts/native-audio-video-composition.md]]
-- [[concepts/natural-language-interface.md]]
-- [[concepts/natural-language-tool-schemas.md]]
-- [[concepts/network-knowledge-graph.md]]
-- [[concepts/network-plugin.md]]
-- [[concepts/network-policies.md]]
-- [[concepts/network-port-configuration.md]]
-- [[concepts/neural-programming.md]]
-- [[concepts/neural-rag.md]]
-- [[concepts/new-sync-benchmark.md]]
-- [[concepts/ngmi-thesis.md]]
-- [[concepts/nightly-regression-benchmarking.md]]
-- [[concepts/nist-ai-risk-management.md]]
-- [[concepts/node-affinity.md]]
-- [[concepts/node-authorization-in-kubernetes.md]]
-- [[concepts/node-authorizer.md]]
-- [[concepts/node-bound.md]]
-- [[concepts/node-cordon.md]]
-- [[concepts/node-drain.md]]
-- [[concepts/node-key-constraint.md]]
-- [[concepts/node-local-agents.md]]
-- [[concepts/node-subnet.md]]
-- [[concepts/node-uncordon.md]]
-- [[concepts/nodeport-services.md]]
-- [[concepts/noderestriction.md]]
-- [[concepts/nodeselector.md]]
-- [[concepts/nodeswap-feature-gate.md]]
-- [[concepts/noise-to-action-learning.md]]
-- [[concepts/non-deterministic-evaluation.md]]
-- [[concepts/non-deterministic-software.md]]
-- [[concepts/non-targetability.md]]
-- [[concepts/oauth-2.0.md]]
-- [[concepts/object-detection-transformers.md]]
-- [[concepts/oblivious-http.md]]
-- [[concepts/observability-driven-development.md]]
-- [[concepts/observability-for-enterprise-trust.md]]
-- [[concepts/observability-tool-landscape.md]]
-- [[concepts/oci-specs.md]]
-- [[concepts/octopus-merge.md]]
-- [[concepts/offline-first-ai.md]]
-- [[concepts/offline-recommendation-table.md]]
-- [[concepts/oidc.md]]
-- [[concepts/omb-memorandum-m25-21.md]]
-- [[concepts/omb-memorandum-m25-22.md]]
-- [[concepts/omnimodal.md]]
-- [[concepts/on-device-inference.md]]
-- [[concepts/on-device-ml-computational-photography.md]]
-- [[concepts/on-device-processing.md]]
-- [[concepts/on-device-robotics-deployment.md]]
-- [[concepts/online-evals.md]]
-- [[concepts/ontology-driven-retrieval.md]]
-- [[concepts/oom-kill.md]]
-- [[concepts/open-inference.md]]
-- [[concepts/open-loop-planning.md]]
-- [[concepts/open-models.md]]
-- [[concepts/open-optionality.md]]
-- [[concepts/open-source-ai-apps.md]]
-- [[concepts/open-source-book-player.md]]
-- [[concepts/open-source-humanoid-robotics.md]]
-- [[concepts/open-telemetry.md]]
-- [[concepts/open-weight-models.md]]
-- [[concepts/open-weights-vs-proprietary-gap.md]]
-- [[concepts/open-x-embodiment.md]]
-- [[concepts/openai-real-time-api.md]]
-- [[concepts/openapi-for-agents.md]]
-- [[concepts/openconfig-schema.md]]
-- [[concepts/openid-connect.md]]
-- [[concepts/orchestrating-vs-executing.md]]
-- [[concepts/orchestration-layer.md]]
-- [[concepts/orchestrator-patterns.md]]
-- [[concepts/orchestrator-worker-pattern.md]]
-- [[concepts/org-innovation.md]]
-- [[concepts/otlp.md]]
-- [[concepts/out-of-domain-generalization.md]]
-- [[concepts/out-of-sample-debugging.md]]
-- [[concepts/outcome-based-pricing-for-ai.md]]
-- [[concepts/outpainting.md]]
-- [[concepts/overlay-networking.md]]
-- [[concepts/overlay.md]]
-- [[concepts/owasp-for-agents.md]]
-- [[concepts/padding-as-synchronization.md]]
-- [[concepts/pagerank-enrichment.md]]
-- [[concepts/paid-trial-hire.md]]
-- [[concepts/parallel-agent-work.md]]
-- [[concepts/parallel-agent-workflows.md]]
-- [[concepts/parallel-agents.md]]
-- [[concepts/parallel-ai-coding-sessions.md]]
-- [[concepts/parallel-ai-workstreams.md]]
-- [[concepts/parsing.md]]
-- [[concepts/pass-at-k.md]]
-- [[concepts/pause-container.md]]
-- [[concepts/peer-programming.md]]
-- [[concepts/pelican-bicycle-benchmark.md]]
-- [[concepts/per-element-llm-judge.md]]
-- [[concepts/perceived-performance-ux.md]]
-- [[concepts/perception-prediction-planning.md]]
-- [[concepts/perceptual-evaluations.md]]
-- [[concepts/perpetually-junior-engineer.md]]
-- [[concepts/persistence-over-prompting.md]]
-- [[concepts/persona-shadowing.md]]
-- [[concepts/personal-clarity.md]]
-- [[concepts/personalization-data-ai.md]]
-- [[concepts/pgvector.md]]
-- [[concepts/physical-ai.md]]
-- [[concepts/physical-vs-virtual-whiteboarding.md]]
-- [[concepts/pii-protection-in-ai.md]]
-- [[concepts/pilot-to-scale-bottleneck.md]]
-- [[concepts/pit-of-success-design.md]]
-- [[concepts/pita-dev.md]]
-- [[concepts/plan-then-code-workflow.md]]
-- [[concepts/platform-engineering.md]]
-- [[concepts/platform-friction-taxonomy.md]]
-- [[concepts/platform-response-to-ai-feedback.md]]
-- [[concepts/platform-shift-analogy.md]]
-- [[concepts/platform-vs-application-teams.md]]
-- [[concepts/playbook-pattern.md]]
-- [[concepts/player-coach-model.md]]
-- [[concepts/pluggable-ai-platform.md]]
-- [[concepts/pm-transformation-ai-era.md]]
-- [[concepts/poc-hell.md]]
-- [[concepts/pod-eviction-timeout.md]]
-- [[concepts/pod-eviction.md]]
-- [[concepts/pod-network.md]]
-- [[concepts/pod-preemption.md]]
-- [[concepts/pods-overview.md]]
-- [[concepts/podsecurity.md]]
-- [[concepts/pooling-embedding.md]]
-- [[concepts/port-conflicts.md]]
-- [[concepts/positive-negative-eval-cases.md]]
-- [[concepts/ppo-vs-grpo-vs-dpo.md]]
-- [[concepts/pre-revenue-fundraising.md]]
-- [[concepts/pre-seed-funding.md]]
-- [[concepts/pre-training-costs.md]]
-- [[concepts/precomputed-similarity-relationships.md]]
-- [[concepts/prediction-cone-ui.md]]
-- [[concepts/preemptionpolicy.md]]
-- [[concepts/preferredduringschedulingignoredduringexecution.md]]
-- [[concepts/prefill-decode-throughput-tradeoff.md]]
-- [[concepts/premature-optimization.md]]
-- [[concepts/prerequisites-verification.md]]
-- [[concepts/price-compression-s-curve.md]]
-- [[concepts/pricing-as-friction.md]]
-- [[concepts/pricing-simulation.md]]
-- [[concepts/prior-authentication.md]]
-- [[concepts/priorityclass.md]]
-- [[concepts/priorityclassname.md]]
-- [[concepts/privacy-sensitive-ai.md]]
-- [[concepts/private-ai-inference.md]]
-- [[concepts/private-cloud-compute.md]]
-- [[concepts/private-robotics-data.md]]
-- [[concepts/proactive-agents.md]]
-- [[concepts/probabilistic-accuracy-chaining.md]]
-- [[concepts/probabilistic-ai-products.md]]
-- [[concepts/probabilistic-evals.md]]
-- [[concepts/probabilistic-software.md]]
-- [[concepts/process-as-product.md]]
-- [[concepts/process-over-tools-evals.md]]
-- [[concepts/procrastination-engineering.md]]
-- [[concepts/product-aggregation.md]]
-- [[concepts/product-discovery.md]]
-- [[concepts/product-feeds.md]]
-- [[concepts/product-intelligence.md]]
-- [[concepts/product-led-hiring.md]]
-- [[concepts/product-market-fit.md]]
-- [[concepts/product-multi-layer-cake.md]]
-- [[concepts/product-taste.md]]
-- [[concepts/production-eval-metrics.md]]
-- [[concepts/production-rag-complexity.md]]
-- [[concepts/production-troubleshooting.md]]
-- [[concepts/profit-first-mentality.md]]
-- [[concepts/programmable-money.md]]
-- [[concepts/prompt-catalog-pattern.md]]
-- [[concepts/prompt-engineering-amnesia.md]]
-- [[concepts/prompt-engineering-for-code-review.md]]
-- [[concepts/prompt-engineering-is-dead.md]]
-- [[concepts/prompt-engineering-llm-output.md]]
-- [[concepts/prompt-fallback-infrastructure.md]]
-- [[concepts/prompt-injection.md]]
-- [[concepts/prompt-is-a-bug.md]]
-- [[concepts/prompt-management-gap.md]]
-- [[concepts/prompt-shields.md]]
-- [[concepts/prompt-to-reward-function.md]]
-- [[concepts/promptification.md]]
-- [[concepts/prompting-vs-fine-tuning.md]]
-- [[concepts/property-graph-model.md]]
-- [[concepts/proxy-metric-problem.md]]
-- [[concepts/public-key-infrastructure-pki.md]]
-- [[concepts/public-key-infrastructure.md]]
-- [[concepts/pydantic.md]]
-- [[concepts/qos-classes.md]]
-- [[concepts/quality-chasm-in-ai.md]]
-- [[concepts/quality-engineering-loop.md]]
-- [[concepts/quality-vs-quantity-recommendations.md]]
-- [[concepts/quantitative-reasoning-rag.md]]
-- [[concepts/quantization-aware-training.md]]
-- [[concepts/quantization-inference.md]]
-- [[concepts/query-decomposition.md]]
-- [[concepts/query-rewriting.md]]
-- [[concepts/query-understanding.md]]
-- [[concepts/queue-phase.md]]
-- [[concepts/queuing-theory-gpu.md]]
-- [[concepts/race-conditions-in-async-systems.md]]
-- [[concepts/rag-agent-symbiosis.md]]
-- [[concepts/rag-as-managed-service.md]]
-- [[concepts/rag-evaluation.md]]
-- [[concepts/rag-grounding.md]]
-- [[concepts/rag-pipeline-architecture.md]]
-- [[concepts/rag-pipeline-evals.md]]
-- [[concepts/raise-without-raising.md]]
-- [[concepts/ralph-coding-technique.md]]
-- [[concepts/rapid-iteration-loop.md]]
-- [[concepts/rbac.md]]
-- [[concepts/re-ranking.md]]
-- [[concepts/read-write-workload-benchmarking.md]]
-- [[concepts/readme-driven-development.md]]
-- [[concepts/real-time-apis.md]]
-- [[concepts/real-time-conversational-video.md]]
-- [[concepts/real-time-os-constraints.md]]
-- [[concepts/real-users-only.md]]
-- [[concepts/real-world-impact-ai.md]]
-- [[concepts/real-world-robotics-data.md]]
-- [[concepts/reasoning-model-pricing.md]]
-- [[concepts/reasoning-model-tradeoffs.md]]
-- [[concepts/reasoning-models-failure-analysis.md]]
-- [[concepts/reasoning-models.md]]
-- [[concepts/reasoning-time-branching.md]]
-- [[concepts/reasoning-token-visibility.md]]
-- [[concepts/recall-at-k.md]]
-- [[concepts/recipe-state-machines.md]]
-- [[concepts/reciprocal-rank-fusion.md]]
-- [[concepts/recommendation-serving-cost.md]]
-- [[concepts/recommender.md]]
-- [[concepts/recreate-strategy.md]]
-- [[concepts/recsys-event-tokenization.md]]
-- [[concepts/recsys-foundation-model.md]]
-- [[concepts/red-teaming.md]]
-- [[concepts/refactoring-priority-matrix.md]]
-- [[concepts/reference-free-evaluation.md]]
-- [[concepts/reference-powered-generation.md]]
-- [[concepts/refresh-token.md]]
-- [[concepts/reinforcement-fine-tuning.md]]
-- [[concepts/reinforcement-learning-at-scale.md]]
-- [[concepts/reinforcement-learning.md]]
-- [[concepts/release-channel.md]]
-- [[concepts/reliability-is-revenue.md]]
-- [[concepts/reliability-over-intelligence.md]]
-- [[concepts/remote-agents-as-a-service.md]]
-- [[concepts/remote-attestation.md]]
-- [[concepts/repetitive-migrations.md]]
-- [[concepts/replica-set-creation.md]]
-- [[concepts/replicasets.md]]
-- [[concepts/replication-controller-&-replicaset.md]]
-- [[concepts/replication-controllers-&-replicasets.md]]
-- [[concepts/replicationcontroller.md]]
-- [[concepts/repo-snapshot-pattern.md]]
-- [[concepts/repository-level-understanding.md]]
-- [[concepts/requiredduringschedulingignoredduringexecution.md]]
-- [[concepts/resource-limits.md]]
-- [[concepts/resource-requests-&-limits.md]]
-- [[concepts/resource-requests-and-limits.md]]
-- [[concepts/resource-requests.md]]
-- [[concepts/resource-server.md]]
-- [[concepts/resourcequota.md]]
-- [[concepts/resources-and-verbs.md]]
-- [[concepts/responsible-ai-governance.md]]
-- [[concepts/retrieval-augmented-generation.md]]
-- [[concepts/retrieval-evaluation-isolation.md]]
-- [[concepts/revenue-cycle-management.md]]
-- [[concepts/revision-history.md]]
-- [[concepts/rework-vs-refactoring.md]]
-- [[concepts/rf-detter.md]]
-- [[concepts/rf100vl.md]]
-- [[concepts/risk-mapping.md]]
-- [[concepts/ritualized-discovery.md]]
-- [[concepts/rl-training-moat.md]]
-- [[concepts/rlhf.md]]
-- [[concepts/robot-evaluation-methods.md]]
-- [[concepts/robot-foundation-models.md]]
-- [[concepts/robot-state-action.md]]
-- [[concepts/robotic-culinary-automation.md]]
-- [[concepts/robotics-control-loop.md]]
-- [[concepts/robotics-data-engine.md]]
-- [[concepts/robotics-synchronization.md]]
-- [[concepts/roi-expectation-pull-forward.md]]
-- [[concepts/roi-measurement-challenges.md]]
-- [[concepts/role-rbac.md]]
-- [[concepts/rolebinding.md]]
-- [[concepts/rollback.md]]
-- [[concepts/rolling-update-strategy.md]]
-- [[concepts/rolling-updates-&-rollbacks.md]]
-- [[concepts/rolling-updates-rollbacks.md]]
-- [[concepts/rolling-upgrade.md]]
-- [[concepts/rollout.md]]
-- [[concepts/route-tables.md]]
-- [[concepts/rqvae-quantization.md]]
-- [[concepts/rsa.md]]
-- [[concepts/runbook-dependency.md]]
-- [[concepts/runway-and-burn-rate.md]]
-- [[concepts/sampled-profiling.md]]
-- [[concepts/sanctions-circumvention.md]]
-- [[concepts/scaling-is-dead-thesis.md]]
-- [[concepts/scaling-judge-time-compute.md]]
-- [[concepts/scaling-laws.md]]
-- [[concepts/scaling-limits.md]]
-- [[concepts/scaling.md]]
-- [[concepts/scenario-tuning-bias.md]]
-- [[concepts/scheduler-profiles.md]]
-- [[concepts/scheduler.md]]
-- [[concepts/schrodingers-chat.md]]
-- [[concepts/scorers-as-specs.md]]
-- [[concepts/screenshot-based-multimodal-retrieval.md]]
-- [[concepts/sdlc-commoditization.md]]
-- [[concepts/sdlc-shift-left-ai.md]]
-- [[concepts/seamless-ai.md]]
-- [[concepts/seamless-authentication-for-agents.md]]
-- [[concepts/search-and-learn.md]]
-- [[concepts/search-and-retrieval.md]]
-- [[concepts/search-evaluation-methods.md]]
-- [[concepts/search-fulfillment.md]]
-- [[concepts/search-relevance.md]]
-- [[concepts/secrets.md]]
-- [[concepts/secure-dev-environment.md]]
-- [[concepts/security-groups.md]]
-- [[concepts/security-in-kubernetes.md]]
-- [[concepts/seed-funding.md]]
-- [[concepts/selectors.md]]
-- [[concepts/self-driving-car-evals.md]]
-- [[concepts/self-driving-code-review.md]]
-- [[concepts/self-healing.md]]
-- [[concepts/self-hosted-overhead.md]]
-- [[concepts/self-managed-kubernetes.md]]
-- [[concepts/self-reconciling.md]]
-- [[concepts/self-reflection-evaluator.md]]
-- [[concepts/self-reported-productivity.md]]
-- [[concepts/self-signed-certificates.md]]
-- [[concepts/self-supervised-driving.md]]
-- [[concepts/semantic-collision-tools.md]]
-- [[concepts/semantic-conventions.md]]
-- [[concepts/semantic-end-of-utterance-detection.md]]
-- [[concepts/semantic-ids.md]]
-- [[concepts/semantic-kernel-agent.md]]
-- [[concepts/semantic-memory-noise.md]]
-- [[concepts/semantic-similarity.md]]
-- [[concepts/semantic-understanding-in-code.md]]
-- [[concepts/semantic-versioning.md]]
-- [[concepts/semantic-video-tokenization.md]]
-- [[concepts/semantic-vs-lexical-query-patterns.md]]
-- [[concepts/semi-supervised-learning.md]]
-- [[concepts/senior-knowledge-replication.md]]
-- [[concepts/sequence-of-moats.md]]
-- [[concepts/sequential-revision.md]]
-- [[concepts/server-certificate.md]]
-- [[concepts/server-rendered-html.md]]
-- [[concepts/service-discovery.md]]
-- [[concepts/serviceaccount.md]]
-- [[concepts/serviceaccounts.md]]
-- [[concepts/services.md]]
-- [[concepts/session-key.md]]
-- [[concepts/set-a-thief-to-catch-a-thief.md]]
-- [[concepts/set-based-selector.md]]
-- [[concepts/set-based-selectors.md]]
-- [[concepts/shared-timeline.md]]
-- [[concepts/shift-left-ai-quality.md]]
-- [[concepts/ship-confidently.md]]
-- [[concepts/ship-first-product.md]]
-- [[concepts/side-project-to-startup.md]]
-- [[concepts/sidecar-pattern.md]]
-- [[concepts/signal-from-noise.md]]
-- [[concepts/signal-loop-ai.md]]
-- [[concepts/silent-ai-failures.md]]
-- [[concepts/simple-ai-app-architecture.md]]
-- [[concepts/simple-browser-vscode.md]]
-- [[concepts/simple-is-better-ai.md]]
-- [[concepts/simpleqa.md]]
-- [[concepts/simulation-based-hiring.md]]
-- [[concepts/simulation-realism-hierarchy.md]]
-- [[concepts/skill-acquisition-efficiency.md]]
-- [[concepts/skill-hell.md]]
-- [[concepts/skills-checklist-framework.md]]
-- [[concepts/sla-based-scheduling.md]]
-- [[concepts/small-ai-teams.md]]
-- [[concepts/small-team-scaling.md]]
-- [[concepts/smart-velocity.md]]
-- [[concepts/soft-rule.md]]
-- [[concepts/software-2-0.md]]
-- [[concepts/software-abstraction-evolution.md]]
-- [[concepts/software-eating-media.md]]
-- [[concepts/software-engineering-model.md]]
-- [[concepts/software-vs-policy-debugging.md]]
-- [[concepts/solvay-analogy.md]]
-- [[concepts/sora-competition-dynamics.md]]
-- [[concepts/sound-effects-generation.md]]
-- [[concepts/spade-pattern.md]]
-- [[concepts/sparse-autoencoders.md]]
-- [[concepts/sparse-vector-retrieval.md]]
-- [[concepts/speaker-diarization.md]]
-- [[concepts/spec-driven-vibe-coding.md]]
-- [[concepts/spec-first-development.md]]
-- [[concepts/specialized-model-for-graph-construction.md]]
-- [[concepts/specifications-as-code.md]]
-- [[concepts/speculative-decoding-eagle.md]]
-- [[concepts/speculative-decoding.md]]
-- [[concepts/speech-to-speech-architecture.md]]
-- [[concepts/speech-to-text.md]]
-- [[concepts/spurious-correlation-detection.md]]
-- [[concepts/stablecoin-settlement.md]]
-- [[concepts/stack-maturity.md]]
-- [[concepts/stack-selection-ai-code.md]]
-- [[concepts/stagehand-browser-tool.md]]
-- [[concepts/standard-models-ai-engineering.md]]
-- [[concepts/stargate-project.md]]
-- [[concepts/startup-grit-and-resilience.md]]
-- [[concepts/startup-survival.md]]
-- [[concepts/state-space-models.md]]
-- [[concepts/stateful-environments.md]]
-- [[concepts/stateful-workloads.md]]
-- [[concepts/statefulsets.md]]
-- [[concepts/stateless-computation.md]]
-- [[concepts/stateless-services.md]]
-- [[concepts/static-eval-sets.md]]
-- [[concepts/static-password-file.md]]
-- [[concepts/static-pod.md]]
-- [[concepts/static-pods.md]]
-- [[concepts/static-secrets-problem.md]]
-- [[concepts/static-token-file.md]]
-- [[concepts/static-vs-dynamic-llm-queries.md]]
-- [[concepts/stochastic-evals.md]]
-- [[concepts/stochastic-systems-evaluation.md]]
-- [[concepts/streaming-diff-algorithm.md]]
-- [[concepts/streaming-telemetry.md]]
-- [[concepts/structural-vs-superficial-understanding.md]]
-- [[concepts/structured-data-filtering.md]]
-- [[concepts/structured-output-classification.md]]
-- [[concepts/structured-output.md]]
-- [[concepts/structured-programming.md]]
-- [[concepts/structured-vibe-coding.md]]
-- [[concepts/style-guide-enforcement.md]]
-- [[concepts/sub-goal-division.md]]
-- [[concepts/subject-alternative-name-san.md]]
-- [[concepts/super-tools.md]]
-- [[concepts/supervised-fine-tuning.md]]
-- [[concepts/supervisor-node.md]]
-- [[concepts/supported-upgrade-path.md]]
-- [[concepts/sustainability-in-ai.md]]
-- [[concepts/swap.md]]
-- [[concepts/swe-bench.md]]
-- [[concepts/sweetask-benchmark.md]]
-- [[concepts/swingbench-verified.md]]
-- [[concepts/symmetric-encryption.md]]
-- [[concepts/synthetic-data-for-evals.md]]
-- [[concepts/synthetic-data-vs-metrics.md]]
-- [[concepts/synthetic-eval-generation.md]]
-- [[concepts/synthetic-query-generation.md]]
-- [[concepts/synthid-watermarking.md]]
-- [[concepts/sysctl-configuration-for-kubernetes.md]]
-- [[concepts/system-1-system-2-thinking.md]]
-- [[concepts/system-level-optimization.md]]
-- [[concepts/system-one-system-two-robotics.md]]
-- [[concepts/system-prompt-security.md]]
-- [[concepts/t-shaped-ai-talent.md]]
-- [[concepts/tacit-code-sharing.md]]
-- [[concepts/tacit-knowledge-codification.md]]
-- [[concepts/tail-query-handling.md]]
-- [[concepts/taintnodesbycondition.md]]
-- [[concepts/taints.md]]
-- [[concepts/take-shots-on-goal.md]]
-- [[concepts/talent-skills-graph.md]]
-- [[concepts/task-specific-evals.md]]
-- [[concepts/tavus-proprietary-models.md]]
-- [[concepts/tavus-replica.md]]
-- [[concepts/taxonomy-classification.md]]
-- [[concepts/tech-as-thought-partner.md]]
-- [[concepts/tech-evolution-from-rule-based.md]]
-- [[concepts/techno-social-co-evolution.md]]
-- [[concepts/technology-adoption-bottleneck.md]]
-- [[concepts/technology-as-enabler.md]]
-- [[concepts/teleoperation-robotics.md]]
-- [[concepts/temporal-graph.md]]
-- [[concepts/temporal-workflow-orchestration.md]]
-- [[concepts/terminal-first-design.md]]
-- [[concepts/test-coverage-as-arbiter.md]]
-- [[concepts/test-time-compute-scaling.md]]
-- [[concepts/text-to-speech-in-agents.md]]
-- [[concepts/text-to-speech.md]]
-- [[concepts/the-agentic-economy.md]]
-- [[concepts/thermal-computer-vision.md]]
-- [[concepts/thinking-budgets.md]]
-- [[concepts/thinking-models-for-bug-detection.md]]
-- [[concepts/three-computer-problem.md]]
-- [[concepts/three-signs-evals-provide-value.md]]
-- [[concepts/tiny-teams.md]]
-- [[concepts/tls-certificates-in-kubernetes.md]]
-- [[concepts/tls-certificates.md]]
-- [[concepts/tls-encryption.md]]
-- [[concepts/tls-handshake.md]]
-- [[concepts/token-burner.md]]
-- [[concepts/tolerations.md]]
-- [[concepts/tool-design-for-agents.md]]
-- [[concepts/tool-design-for-llms.md]]
-- [[concepts/tool-discovery.md]]
-- [[concepts/tool-use-loop.md]]
-- [[concepts/tools-for-imagination.md]]
-- [[concepts/torch-compile-audio.md]]
-- [[concepts/tower-of-babel-story.md]]
-- [[concepts/trace-analysis.md]]
-- [[concepts/trace-context-propagation.md]]
-- [[concepts/tracing-profiling.md]]
-- [[concepts/training-cost-efficiency.md]]
-- [[concepts/trajectory-evaluation.md]]
-- [[concepts/tribal-knowledge-in-ai.md]]
-- [[concepts/tribal-knowledge.md]]
-- [[concepts/triplet-extraction.md]]
-- [[concepts/trust-adjusted-risk.md]]
-- [[concepts/trust-root.md]]
-- [[concepts/trust.md]]
-- [[concepts/turing-award.md]]
-- [[concepts/turn-detection.md]]
-- [[concepts/two-brain-analogy-llm.md]]
-- [[concepts/two-circle-eval-model.md]]
-- [[concepts/type-safe-agent-tool-deps.md]]
-- [[concepts/type-safety-ai.md]]
-- [[concepts/ubiquitous-ai.md]]
-- [[concepts/ufw.md]]
-- [[concepts/umap-visualization.md]]
-- [[concepts/unified-ai-platforms.md]]
-- [[concepts/unified-recommendation-models.md]]
-- [[concepts/unopinionated-product-design.md]]
-- [[concepts/unstructured-data-extraction.md]]
-- [[concepts/upcycling.md]]
-- [[concepts/updatepolicy-mode.md]]
-- [[concepts/updater.md]]
-- [[concepts/usage-based-pricing-for-ai.md]]
-- [[concepts/useful-general-intelligence.md]]
-- [[concepts/user-action-signals.md]]
-- [[concepts/user-defined-bridge-network.md]]
-- [[concepts/user-feedback-evals.md]]
-- [[concepts/user-simulation-testing.md]]
-- [[concepts/user-state-and-codebase-state.md]]
-- [[concepts/validating-phase.md]]
-- [[concepts/validatingadmissionpolicy.md]]
-- [[concepts/validatingadmissionwebhook.md]]
-- [[concepts/validation-error-feedback.md]]
-- [[concepts/value-metric-spectrum.md]]
-- [[concepts/vc-fund-stage-spectrum.md]]
-- [[concepts/vector-database-migration.md]]
-- [[concepts/vector-retrieval-code-limitations.md]]
-- [[concepts/vector-search-limitations.md]]
-- [[concepts/vector-similarity-vs-relevance.md]]
-- [[concepts/vendor-lock-in-llm.md]]
-- [[concepts/verifiable-transparency.md]]
-- [[concepts/verified-superintelligence.md]]
-- [[concepts/version-locking.md]]
-- [[concepts/version-skew-policy.md]]
-- [[concepts/vertical-pod-autoscaler.md]]
-- [[concepts/vertical-scaling.md]]
-- [[concepts/veth-pair.md]]
-- [[concepts/vibe-check.md]]
-- [[concepts/vibe-code-fixer.md]]
-- [[concepts/vibe-coding-as-agentic-ai.md]]
-- [[concepts/vibe-coding-as-whiteboard.md]]
-- [[concepts/vibe-coding-gap.md]]
-- [[concepts/vibe-coding-origins.md]]
-- [[concepts/vibe-coding-with-confidence.md]]
-- [[concepts/vibe-coding.md]]
-- [[concepts/vibe-engineering.md]]
-- [[concepts/video-engagement-reasoning.md]]
-- [[concepts/video-generation-real-time.md]]
-- [[concepts/viral-growth-mechanics.md]]
-- [[concepts/viral-side-project-pattern.md]]
-- [[concepts/virtual-cards.md]]
-- [[concepts/virtual-try-on.md]]
-- [[concepts/vision-evals-saturation.md]]
-- [[concepts/vision-language-action-models.md]]
-- [[concepts/vision-language-models.md]]
-- [[concepts/vision-vs-text-web-agents.md]]
-- [[concepts/visual-agentic-workflows.md]]
-- [[concepts/visual-consistency.md]]
-- [[concepts/visual-context-attachment.md]]
-- [[concepts/vlm-image-captions.md]]
-- [[concepts/vlm-visual-fidelity.md]]
-- [[concepts/voice-activated-software.md]]
-- [[concepts/voice-activity-detection.md]]
-- [[concepts/voice-agent-architecture.md]]
-- [[concepts/voice-agent-escalation.md]]
-- [[concepts/voice-agent-evals.md]]
-- [[concepts/voice-agent-guardrails.md]]
-- [[concepts/voice-agent-prompting.md]]
-- [[concepts/voice-agent-rapid-build.md]]
-- [[concepts/voice-agent-resolution-rate.md]]
-- [[concepts/voice-agent-trust-problem.md]]
-- [[concepts/voice-agents.md]]
-- [[concepts/voice-ai-builder-ecosystem.md]]
-- [[concepts/voice-ai-cost-structure.md]]
-- [[concepts/voice-ai-latency.md]]
-- [[concepts/voice-ai-stack.md]]
-- [[concepts/voice-as-primary-interface.md]]
-- [[concepts/voice-as-ui.md]]
-- [[concepts/voice-cloning.md]]
-- [[concepts/voice-controllability.md]]
-- [[concepts/voice-conversation-design.md]]
-- [[concepts/voice-dictation-ai-coding.md]]
-- [[concepts/voice-dictation-copilot.md]]
-- [[concepts/voice-generation.md]]
-- [[concepts/voice-inference-metrics.md]]
-- [[concepts/voice-marketplace.md]]
-- [[concepts/voice-naturalness.md]]
-- [[concepts/voice-pipeline.md]]
-- [[concepts/voice-to-code.md]]
-- [[concepts/voice-to-voice-vs-stt-lam-tts.md]]
-- [[concepts/voice-uncanny-valley.md]]
-- [[concepts/volume-mounted-files.md]]
-- [[concepts/volumes.md]]
-- [[concepts/vpc-basics.md]]
-- [[concepts/vpc.md]]
-- [[concepts/vs-code-agent-mode-features.md]]
-- [[concepts/vscode-agent-mode.md]]
-- [[concepts/vxlan.md]]
-- [[concepts/warm-intro-strategy.md]]
-- [[concepts/web-agent-vs-browser-tool.md]]
-- [[concepts/web-research-for-optimization.md]]
-- [[concepts/web-rtc.md]]
-- [[concepts/web-sockets.md]]
-- [[concepts/web-trajectories-rl.md]]
-- [[concepts/webhooks-authorization.md]]
-- [[concepts/webrtc-beyond-consumer.md]]
-- [[concepts/webrtc-connection-patterns.md]]
-- [[concepts/webrtc-transport.md]]
-- [[concepts/wheeled-robotics-over-humanoids.md]]
-- [[concepts/when-not-to-use-agentic-workflows.md]]
-- [[concepts/windsurf-browser-previews.md]]
-- [[concepts/windsurf-context-connectors.md]]
-- [[concepts/windsurf-reviews.md]]
-- [[concepts/windsurf-waves.md]]
-- [[concepts/wireframe-to-app-generation.md]]
-- [[concepts/wisdom-graph.md]]
-- [[concepts/work-starvation.md]]
-- [[concepts/work-trial-interviews.md]]
-- [[concepts/worker-node.md]]
-- [[concepts/worker-nodes.md]]
-- [[concepts/workflow-agent-spectrum.md]]
-- [[concepts/workflow-automation.md]]
-- [[concepts/workload-scaling.md]]
-- [[concepts/write-the-launch-post.md]]
-- [[concepts/writer-research-team-structure.md]]
-- [[concepts/x-509-client-certificates.md]]
-- [[concepts/x-tops.md]]
-- [[concepts/yaml-vs-json-for-llms.md]]
-- [[concepts/yashins-bilingual-voice-app.md]]
-- [[concepts/yolo-structured-spectrum-vibe-coding.md]]
-- [[concepts/zero-shot-learning.md]]
+- [[concepts/10x-generalist-hiring|10X Generalist Hiring]] — 10X Generalist Hiring ( #hiring #lean-startup #generalist #startup #team-building)
+- [[concepts/12-factor-agents|12-Factor Agents]] — Codified set of 12 patterns for building reliable LLM-based agents, grounded in software engineering principles rather than AI-specific abstractions. Created by Dex Horthy, HumanLayer. ( #agent #patterns #reliability #architecture #methodology)
+- [[concepts/360brew|360Brew]] — 360Brew ( #360brew #llm #recommendation-systems #personalization #foundation-model)
+- [[concepts/abac|ABAC]] — ABAC ( #security)
+- [[concepts/abstract-reasoning|Abstract Reasoning]] — Identifying patterns beyond surface features. Connections tests LLMs' abstract reasoning via decoys that penalize superficial similarity matching. ( #ai-capability #llm-evaluation #pattern-recognition #generalization #connections)
+- [[concepts/access-control-matrix|Access Control Matrix]] — An access control matrix is a role-level permission structure that maps users to resources and operations. It is the fundamental mechanism for preventing IDOR and enforcing authorization. ( #access-control #authorization #security #agent-security #rbac)
+- [[concepts/access-token|Access Token]] — Access Token ( #oauth #tokens #authorization #security)
+- [[concepts/action-groups|Action Groups]] — A collection of tools within a managed agent service (notably Amazon Bedrock Agents) that enables grouping related capabilities. Each action group can be backed by a Lambda function with auto-confi... ( #agent #tools #aws #bedrock #architecture)
+- [[concepts/action-models|Action Models]] — AI models specialized for reliable execution of real-world web tasks (shopping, booking, form filling) rather than broad knowledge or reasoning — prioritizing task completion accuracy over general... ( #ai #agents #models #reliability #web-tasks)
+- [[concepts/actor-model-software|Actor Model of Software]] — Actor Model of Software ( #software-architecture #actors #docker #mcp #composable-software)
+- [[concepts/adaptive-evals|Adaptive Evals]] — Adaptive Evals ( #evaluation #adaptive #application-specific #rag #code-generation)
+- [[concepts/add-ons-deployment|add-ons deployment]] — add-ons deployment ( #deployment)
+- [[concepts/admission-controller|Admission Controller]] — Admission controllers intercept API requests to enforce cluster policies through mutating and validating phases.
+- [[concepts/adoption-threshold|Adoption Threshold]] — 10x performance gap between 90% and 100% AI adoption — partial adoption drags the entire org back to slower traditional workflows. ( #ai-adoption #organizational-change #ai-native #aief2025)
+- [[concepts/advantage-estimation|Advantage Estimation]] — The core RL mechanism of identifying which specific decision points in a branching process caused a difference in outcome. Enables surgical learning without changing the model too much overall. ( #reinforcement-learning #advantage #forking #learning-signal #aief2025)
+- [[concepts/aes-256-gcm|AES-256-GCM]] — AES-256-GCM ( #tls)
+- [[concepts/aes-cbc|AES-CBC]] — AES-CBC ( #tls)
+- [[concepts/affordance-thinking|Affordance Thinking]] — Affordance Thinking ( #product-management #ai-agents #affordances #design-philosophy #aief2025)
+- [[concepts/agency-effectiveness-axis|Agency-Effectiveness Axis]] — A two-dimensional framework for evaluating AI systems: agency (degree of autonomous reasoning/action) and effectiveness (how well the system solves the actual problem). Adding agency must not compr... ( #ai-agents #mental-model #evaluation #design-principle #effectiveness)
+- [[concepts/agent-adoption-surge|Agent Adoption Surge]] — Agent Adoption Surge ( #agents #adoption #enterprise-ai #automation)
+- [[concepts/agent-aliasing-and-versioning|Agent Aliasing and Versioning]] — The practice of assigning alias identifiers to published agent configurations, enabling environment-based promotion (dev/staging/prod) without recreating the agent definition. ( #agent #versioning #production #lifecycle #aws)
+- [[concepts/agent-architecture|Agent Architecture]] — Four-component framework for building agents: client (human interface), AI reasoning (executive branch), workflows (execution orchestration), and tools (action mechanisms). Complements Jerry Liu's... ( #agent-architecture #agents #ai-agents #agent-design #client-server)
+- [[concepts/agent-as-laundry|Agent as Laundry]] — Agent as Laundry ( #async-agents #agent-metaphor #background-tasks #coding-agents #aief2025)
+- [[concepts/agent-as-optimizer|Agent as Optimizer]] — The pattern of using an autonomous agent as an optimizer — the agent takes a system, evaluates it, analyzes failures, and generates improvements, analogous to a gradient descent optimizer in ML. ( #agent #optimization #autonomous-agent #ml-training #crewai)
+- [[concepts/agent-as-teammate|Agent as Teammate]] — Framing AI agents as 'infinitely scalable cloud-based teammates' rather than tools — implying they should be managed, assigned work, and integrated into team structures like human members. Windsurf... ( #agents #team-dynamics #ai-strategy #cloud-agents #workforce)
+- [[concepts/agent-as-user|Agents Act as Users]] — Agents should be treated as users, not API servers. They should operate with user-level permissions, validate inputs, sanitize outputs, and follow the same access control rules as human users. ( #agent-security #authorization #access-control #agent-design #security-patterns)
+- [[concepts/agent-at-scale|Agent at Scale]] — Patterns and considerations for deploying AI agents at massive scale — demonstrated by AWS with 600M+ Alexa devices, 1000+ GenAI applications, and hundreds of expert systems coordinating across ten... ( #ai-agents #cloud-scale #aws #performance)
+- [[concepts/agent-autonomy|Agent Autonomy]] — Agent Autonomy ( #agent-autonomy #agent-experience #ax #ai-agents #aief2025)
+- [[concepts/agent-autonomy-gap|Agent Autonomy Gap]] — Agent Autonomy Gap ( #ai-agents #agent-autonomy #agent-identity #mcp #agentic-economy)
+- [[concepts/agent-autonomy-spectrum|Agent Autonomy Spectrum]] — Agent Autonomy Spectrum ( #agent #autonomy #safety #guardrails #human-in-the-loop)
+- [[concepts/agent-background-work|Agent Background Work]] — Solomon Hykes' concept of agents working autonomously in the background without constant human monitoring — enabled by isolated, customizable environments with rails. ( #agents #coding-agents #async-agents #background-tasks #aief2025)
+- [[concepts/agent-best-practices|Agent Best Practices]] — Practical best practices for using coding agents: start small with single-commit tasks, be specific about what and how, mention frameworks and strategies, target tasks with clear definitions of done. ( #agent-best-practices #coding-agents #prompt-strategy #agent-workflow #getting-started)
+- [[concepts/agent-capability-tiers|Agent Capability Tiers]] — Agent capabilities evolve through discrete tiers: tab completion → repetitive migrations → isolated bug fixes → cross-file diagnosis. RL-trained models (O3, Claude Code) exhibit naturally agentic b... ( #ai-agents #capability-evolution #software-engineering #aief2025 #reinforcement-learning)
+- [[concepts/agent-checkout|Agent Checkout]] — Agent Checkout ( #agent-checkout #checkout #payments #ai-agents #transaction-infrastructure)
+- [[concepts/agent-code-editor|Agent Code Editor]] — How coding agents edit source code: diff-based (find-and-replace) editing vs full-file regeneration. Diff-based editing saves tokens on large files. AST navigation may supplement text-based editing. ( #agent-tools #code-editor #diff-editing #token-efficiency #ast)
+- [[concepts/agent-code-sandbox|Agent Code Sandbox Security]] — Security risks of code execution sandboxes in AI agents — arbitrary compute creates attack surfaces through sandbox escape, resource exhaustion, and system prompt inversion. ( #code-execution #sandbox #agent-security #security #arbitrary-compute)
+- [[concepts/agent-coordination|Agent Coordination]] — Agent Coordination ( #agent-coordination #multi-agent #parallel-agents #merging #orchestration)
+- [[concepts/agent-cost-predictability|Agent Cost Predictability]] — Making the costs of AI agent usage transparent and predictable to end users, including pre-execution cost estimates and spend management capabilities. ( #ai-agents #pricing #user-experience #cost-management #ai-engineering)
+- [[concepts/agent-deployment-challenges|Agent Deployment Challenges]] — The core challenges of deploying AI agents in production: serverless timeouts, statefulness mismatches with web architecture, and inter-agent gateway wiring complexity. ( #agent-deployment #serverless #timeouts #statefulness #gateway)
+- [[concepts/agent-design-patterns|Agent Design Patterns]] — Agent Design Patterns ( #agent #ai #architecture #design-pattern #anthropic)
+- [[concepts/agent-dev-mode|Agent Dev Mode]] — A local development environment for AI agents that includes a built-in simulator, port-assigned agent running, production-mirror observability, and multi-project support. ( #agent-dev-mode #agent-testing #agent-simulator #local-agent-development #agent-observability)
+- [[concepts/agent-development-lifecycle|Agent Development Lifecycle]] — Agent Development Lifecycle ( #agents #development #lifecycle #evaluation #model-selection)
+- [[concepts/agent-driven-development|Agent-Driven Development]] — The paradigm shift from human-driven software development to agent-driven development, where agents delegate the majority of software lifecycle tasks and humans move from executing to orchestrating. ( #agent-driven #agent-native #software-development #paradigm-shift #ai-development)
+- [[concepts/agent-driven-development-shift|Agent-Driven Development Shift]] — The workflow shift where ~90% of code passes through an agent, with only ~10% requiring direct IDE work. Engineers become reviewers and spec-writers rather than primary code authors. ( #agent-driven-development #workflow #code-review #ide-workflow #productivity)
+- [[concepts/agent-economy-impact|Agent Economy Impact]] — Measurable business impact of agent adoption: 28% revenue increases in sales automation, 90% faster support response times, and 50-75% time savings. Early evidence that agents are reshaping how wor... ( #agent-economy #business-impact #roi #productivity #ai-agents)
+- [[concepts/agent-environment|Agent Environment]] — Solomon Hykes' framework for the four properties that productive agent environments must have: isolation, customizability, multiplayer, and openness. Containers provide the foundational technology. ( #agents #environments #containers #platform-engineering #aief2025)
+- [[concepts/agent-evaluation-pipeline|Agent Evaluation Pipeline]] — Integrated evaluation, red teaming, and observability pipeline for agents — evaluated on every update via CI/CD, with continuous monitoring regardless of deployment platform. ( #concept #agent #evaluation #ci-cd #testing)
+- [[concepts/agent-evaluation-role|Agent Evaluation Role]] — Agent Evaluation Role ( #ai-agents #evaluation #human-agent-collaboration #aief2025)
+- [[concepts/agent-evaluations|Agent Evaluations]] — Agent Evaluations ( #agent #evals #quality-assurance #production #non-deterministic)
+- [[concepts/agent-evolution|Agent Evolution: From Autocomplete to Autonomous]] — The evolution of coding tools from tactical autocomplete (GitHub Copilot) through AI-powered IDEs to autonomous agents (OpenHands, Devin) that work independently for minutes. ( #coding-agents #agent-evolution #github-copilot #coding-tools #agentic-development)
+- [[concepts/agent-evolution-co-pilot-to-agent|Agent Evolution: Co-pilot to Agent]] — Agent Evolution: Co-pilot to Agent ( #agent-evolution #co-pilot #agent #developer-tools #aief2025)
+- [[concepts/agent-exit-strategies|Agent Exit Strategies]] — Patterns for determining when an agent loop should terminate: plain text output, final result tools, structured output types, and iteration limits. ( #agent-loop #agent-termination #control-flow #agent-design)
+- [[concepts/agent-experience|Agent Experience (AX)]] — Agent Experience (AX) ( #agent-experience #ax #agent-first #developer-experience #ai-agents)
+- [[concepts/agent-factory|Agent Factory]] — Platform for building, deploying, and managing AI agents as continuously-evolving behaviors rather than static binaries — with built-in evaluation, monitoring, and cloud-to-edge deployment. ( #concept #agent #platform #infrastructure #microsoft)
+- [[concepts/agent-failure-modes|Agent Failure Modes]] — Agent Failure Modes ( #failure-modes #ai-agents #debugging #evals #classification)
+- [[concepts/agent-first-class-infrastructure|Agent as First-Class Infrastructure Citizen]] — Treating agents as first-class citizens in infrastructure — the platform handles all routing, security, and lifecycle management for each agent, rather than treating agents as afterthoughts on gene... ( #agent-infrastructure #first-class-citizen #agent-routing #agent-security #api-keys)
+- [[concepts/agent-fleet-architecture|Agent Fleet Architecture]] — An architecture for deploying and operating AI agent fleets in regulated enterprise environments where CISO approval, data sovereignty, and security compliance are prerequisites — not optional feat... ( #agent-fleet #architecture #ai-agents #security #enterprise)
+- [[concepts/agent-gateway|Agent Gateway]] — A middleware layer between the client interface and the LLM that provides caching, evaluation hooks, and observability for agent systems. Enables iterative improvement by measuring agent behavior a... ( #agent-gateway #caching #evals #agent-iteration #middleware)
+- [[concepts/agent-guardrails|Agent Guardrails]] — Agent Guardrails ( #agent #security #production #governance #enterprise-ai)
+- [[concepts/agent-handler-convention|Agent Handler Convention]] — The convention for agent entry points — a default export function serving as a request handler, with platform-injected routing, context objects, and multi-modal input support on the request object. ( #agent-handler #agent-convention #agent-entry-point #agent-routing #agent-context)
+- [[concepts/agent-history-in-production|Agent History in Production]] — "The dual role of history in production agents: conversational history (remembering user interactions) and execution history (remembering the agent's own reasoning steps and tool calls). Both are e... ( #agent #history #state-management #production #context)
+- [[concepts/agent-human-interaction|Agent-Human Interaction]] — Agent-Human Interaction ( #agents #human-ai #adoption #ux)
+- [[concepts/agent-iceberg|Agent Iceberg]] — Stub page created to resolve incoming wiki links for Agent Iceberg. ( #stub)
+- [[concepts/agent-identity|Agent Identity]] — Agent Identity ( #ai-agents #ux-design #agent-persona #collaboration #aief2025)
+- [[concepts/agent-identity-and-payments|Agent Identity and Payments]] — Agent Identity and Payments ( #ai-agents #identity #payments #mcp #agent-autonomy)
+- [[concepts/agent-infrastructure|Agent Infrastructure]] — The six infrastructure primitives that AI agents need to succeed: long runtimes, pause/resume, decoupled I/O, introspection/self-observability, memory, and code execution. ( #agent-infrastructure #agent-primitives #agent-runtime #agent-observability #agent-memory)
+- [[concepts/agent-interfaces-evolution|Agent Interfaces Evolution]] — The optimal way to interact with AI agents changes every 2-3 months as capabilities advance. Each capability tier has its own interface bottleneck and optimal interaction model. ( #ai-agents #ux-design #interface-design #software-engineering #aief2025)
+- [[concepts/agent-isolation|Agent Isolation]] — The principle that coding agents must work in isolated environments to enable background work, prevent interference, and contain failures. Containers provide the foundational technology. ( #agents #isolation #containers #environments #parallel-agents)
+- [[concepts/agent-iteration-loop|Agent Iteration Loop]] — Agent Iteration Loop ( #agent #iteration #prompt-engineering #github-copilot #agent-mode)
+- [[concepts/agent-loop|Agent Loop]] — An AI-driven iterative pattern where an autonomous agent repeatedly performs a cycle of work, evaluates the result, and decides whether to continue, adapt, or stop. Covers agent loops in developmen... ( #agent #automation #engineering #control-flow #state-management)
+- [[concepts/agent-memory|Agent Memory]] — Stub page created to resolve incoming wiki links for Agent Memory. ( #stub)
+- [[concepts/agent-memory-knowledge|Agent Memory and Knowledge]] — Systems for maintaining and applying learnings across repeated agent tasks. Includes domain-aware memory, memory types mapped from human cognition, agenticity spectrum, and persistence-based memory. ( #ai-agents #agent-systems #knowledge-management #software-engineering #aief2025)
+- [[concepts/agent-memory-types|Agent Memory Types]] — Different forms of memory in AI agents: short-term, long-term, working, semantic, episodic, procedural, conversational, entity memory, knowledge, cache — mapped from human cognitive science. ( #agent-memory #memory-types #short-term #long-term #working-memory)
+- [[concepts/agent-mentoring-model|Agent Mentoring Model]] — Agent Mentoring Model ( #ai-agents #mentoring #agent-strategy #aief2025 #human-agent-collaboration)
+- [[concepts/agent-middleware-trust-boundary|Agent Middleware Trust Boundary]] — The architecture pattern of treating agents as untrusted code and placing an authorization middleware layer between agentic code and enterprise resources. ( #agent #security #architecture #middleware #auth)
+- [[concepts/agent-native-development|Agent-Native Development]] — A development paradigm where organizations build on platforms purpose-designed for agent delegation, with centralized context, reliable agents, and parallel infrastructure — not human tools with AI... ( #agent-native #development #platform #orchestration #ai-development)
+- [[concepts/agent-native-runtime|Agent-Native Runtime]] — Agent-Native Runtime ( #agent-native #runtime #sandboxes #agent-environment #aief2025)
+- [[concepts/agent-negotiation|Agent Negotiation]] — Agent Negotiation ( #agent-negotiation #ai-agents #commerce #decision-intelligence #agentic-commerce)
+- [[concepts/agent-oauth-identity|Agent OAuth Identity]] — Agent OAuth Identity ( #agents #oauth #identity #security #mcp)
+- [[concepts/agent-observability|Agent Observability]] — Agent Observability ( #agent #observability #monitoring #token-costs #fleet-management)
+- [[concepts/agent-orchestration-role|Agent Orchestration Role]] — Stub page created to resolve incoming wiki links for Agent Orchestration Role. ( #stub)
+- [[concepts/agent-platform|Agent Platform]] — Stub page created to resolve incoming wiki links for Agent Platform. ( #stub)
+- [[concepts/agent-preparedness-framework|Agent Preparedness Framework]] — Agent Preparedness Framework ( #agent-security #safety #guardrails #openai #framework)
+- [[concepts/agent-prototype-vs-product|Agent Prototype vs Production Product]] — Agent Prototype vs Production Product ( #ai-agents #product-development #production-ai #prototyping #maturity)
+- [[concepts/agent-rails|Agent Rails]] — Solomon Hykes concept of constraining coding agents to project context, coding style, build/test instructions — enabling productive background work. ( #agents #coding-agents #constraints #guardrails #context)
+- [[concepts/agent-readable-docs|Agent-Readable Docs]] — Agent-Readable Docs ( #agent-experience #documentation #agent-readable #llms-txt #aief2025)
+- [[concepts/agent-reliability-challenge|Agent Reliability Challenge]] — Agent Reliability Challenge ( #ai #agents #reliability #evaluation #enterprise-ai)
+- [[concepts/agent-robustness|Agent Robustness]] — Agent Robustness ( #agent #robustness #reliability #safety #post-training)
+- [[concepts/agent-routing|Agent Routing]] — The mechanism by which agents discover, authenticate, and communicate with each other within a multi-agent system — using ephemeral tokens scoped to execution lifetime and platform-managed routing. ( #agent-routing #agent-networking #agent-to-agent #internal-networking #agent-communication)
+- [[concepts/agent-run-variability|Agent Run-to-Run Variability]] — The finding that AI agents produce different bug reports across runs even when finding bugs at the same top-line count — indicating agents do not holistically analyze files the way humans do. ( #agent-reliability #run-variability #bug-detection #agent-evaluation #aief2025)
+- [[concepts/agent-runtimes|Agent Runtimes]] — The execution environments that AI agents can run on — Bun (preferred for speed), Python with UV (preferred over pip), and Node.js — supporting framework-agnostic agent deployment. ( #agent-runtime #bun #python-uv #nodejs #agent-deployment)
+- [[concepts/agent-sandboxing|Agent Sandboxing]] — Security model for autonomous coding agents: Docker container isolation, scoped credentials, and principle of least privilege. Agents running unattended need strong isolation. ( #agent-security #sandboxing #docker #least-privilege #credential-scoping)
+- [[concepts/agent-security|Agent Security]] — Security posture for AI agent systems — examining all attack vectors across the agent stack, not just prompt injection. Includes IDOR, code sandbox abuse, and authorization gaps. ( #agent-security #security #ai-security #red-teaming #vulnerability)
+- [[concepts/agent-self-observability|Agent Self-Observability]] — Agents understanding their own execution traces and spans — a distinct capability from traditional human-facing observability. Enables autonomous debugging and self-improvement. ( #agent-observability #self-observability #self-reflection #introspection #agent-autonomy)
+- [[concepts/agent-stack-for-unstructured-data|Agent Stack for Unstructured Data]] — The two-component stack required to build agents that automate knowledge work over unstructured enterprise data: tool interfaces (MCP, A2A) and agent architecture (reasoning loops, workflows). ( #agent #architecture #unstructured-data #mcp #a2a)
+- [[concepts/agent-stack-normalization|Agent Stack Normalization]] — The normalization of AI agent architecture into a standard pattern: server frontend → API server → LLM → tools → data sources. This standardization simplifies development but requires new security... ( #agent-architecture #agent-stack #normalization #ai-infrastructure #agent-design)
+- [[concepts/agent-swarm|Agent Swarm]] — An agentic control flow pattern where thousands of parallel agent tool calls perform exhaustive search across telemetry data. Used by Traversal.ai to autonomously troubleshoot production incidents... ( #agents #parallel-execution #ai-ops #observability #incident-response)
+- [[concepts/agent-systemic-evaluation|Agent Systemic Evaluation]] — Agent Systemic Evaluation ( #evaluation #agents #end-to-end #systemic #integration-testing)
+- [[concepts/agent-teammate-relationship|Agent-Teammate Relationship]] — Agent-Teammate Relationship ( #agent-teammate #human-ai-collaboration #developer-tools #windsurf #aief2025)
+- [[concepts/agent-terminal|Agent Terminal]] — How coding agents interact with the terminal: challenges with long-running commands, parallel execution, background processes, and server-curl patterns. Text-in-text-out is deceptively complex. ( #agent-tools #terminal #command-execution #long-running-processes #parallel-execution)
+- [[concepts/agent-to-agent-communication|Agent-to-Agent Communication (MCP, A2A)]] — MCP and A2A (Agent-to-Agent) protocols enabling different AI agents to communicate and coordinate across SDLC phases — one agent using tools that connect all SDLC parts. Essential for holistic AI w... ( #agent-to-agent #mcp #a2a #agentic-workflows #aief2025)
+- [[concepts/agent-to-agent-observability|Agent-to-Agent Observability]] — Agent-to-Agent Observability ( #agent-observability #mcp #distributed-tracing #meta-observability #autonomous-debugging)
+- [[concepts/agent-to-agent-payments|Agent-to-Agent Payments]] — Payment rails designed for AI agents transacting with each other — requiring near-instant settlement, irreversibility, always-on availability, and programmable conditional logic. ( #agents #payments #stablecoins #infrastructure)
+- [[concepts/agent-tool-calling|Agent Tool Calling]] — The capability of LLMs to invoke external tools and APIs as part of their reasoning process. A foundational capability that has matured significantly, enabling MCP as a standard for exposing APIs t... ( #tool-calling #agents #function-calling #llm-capabilities #mcp)
+- [[concepts/agent-tool-discovery|Agent Tool Discovery]] — The pattern of using semantic search over a knowledge base to discover and select the most relevant tools for an agent's current task, rather than loading all tools into context. ( #ai-agents #tool-management #rag #aws #strands-agents)
+- [[concepts/agent-tools|Agent Tools]] — The three core tools of a software development agent: code editor (diff-based), terminal (command execution), and web browser (accessibility trees, screenshots). These replace the human engineer's... ( #agent-tools #coding-agents #code-editor #terminal #web-browser)
+- [[concepts/agent-traffic-inversion|Agent Traffic Inversion]] — Michael Grinich's prediction that software traffic will invert from 95% human/5% automated to 95% agent/5% human, with profound implications for identity, security, and product design. ( #agent #prediction #trend #enterprise #identity)
+- [[concepts/agent-tree-search|Agent Tree Search]] — Technique where resettable stateful environments enable branching agent trajectories, exploring multiple paths in parallel, and converging on the best outcome — making Language Agent Tree Search pr... ( #ai #agents #architecture #infrastructure #reliability)
+- [[concepts/agent-vs-code-gen|Coding Agents vs Code Generation Tools]] — The distinction between tactical code generation tools (autocomplete, IDE assistants) and autonomous coding agents. Agents take natural language descriptions and work independently for minutes to p... ( #coding-agents #code-generation #github-copilot #agentic-development #tool-evolution)
+- [[concepts/agent-vs-workflow|Agent vs. Workflow Debate]] — Agent vs. Workflow Debate ( #agent #workflow #terminology #mental-model #human-input)
+- [[concepts/agent-web-browsing|Agent Web Browsing]] — How coding agents interact with web browsers: accessibility trees and markdown conversion outperform raw HTML. Screenshot-based interaction with labeled nodes enables clicking. Computer-use models... ( #agent-tools #web-browsing #accessibility-tree #screenshot-agents #computer-use-models)
+- [[concepts/agent-workflow-loop|Agent Workflow Loop]] — The four-step loop (plan, delegate, assess, codify) that structures how engineers work with AI agents, forming the operational core of compounding engineering. ( #agent-workflow #engineering-methodology #ai-native #aief2025)
+- [[concepts/agent-workflows|Agent Workflows]] — Workflow orchestration layer in agent architecture that tracks execution state, manages action sequencing, and bridges the gap between AI reasoning and tool execution. Core to agentic automation. ( #agent-workflows #agents #orchestration #workflow-engine #ai-agents)
+- [[concepts/agentic-architecture|Agentic Architecture]] — Platform-level AI architecture using directed graphs of agents with tools, memory, and orchestration for complex enterprise tasks. ( #agent #ai #architecture #orchestration #enterprise)
+- [[concepts/agentic-benchmark-progress|Agentic Benchmark Progress]] — Academic agentic benchmarks have improved from single-digit scores to 50-70% over 5-10 years, reflecting progress in multi-step tool calling and complex environment navigation — but perfection rema... ( #ai-agents #benchmarks #evaluation #progress #tool-calling)
+- [[concepts/agentic-coding|Agentic Coding]] — The paradigm where developers write natural language instead of code, and an AI agent translates it into executable programs. Represents the highest level of programming abstraction yet. ( #ai-coding #agents #programming #developer-tools #aief2025)
+- [[concepts/agentic-commerce|Agentic Commerce]] — Agentic Commerce ( #agentic-commerce #ai-commerce #agent-infrastructure #e-commerce #intent-infrastructure)
+- [[concepts/agentic-dials|Agentic Dials]] — Framework for thinking about agentic AI as four tunable dials — autonomy, context, memory, coordination — rather than a binary agentic/non-agentic distinction. Each dial is adjusted based on use ca... ( #agent-design #autonomy #context #memory #coordination)
+- [[concepts/agentic-evaluators|Agentic Evaluators]] — Agentic Evaluators ( #evaluators #agents #evaluation #azure-ai-foundry #microsoft)
+- [[concepts/agentic-mesh|Agentic Mesh]] — Agentic Mesh ( #ai-agents #mcp #agent-communication #agentic-economy #interop)
+- [[concepts/agentic-models|Agentic Models]] — The trend of LLMs absorbing scaffolding work that previously lived in external agent frameworks — planning, tool use, and execution becoming native model capabilities rather than ecosystem patterns. ( #agentic #models #reasoning #ai #google-deepmind)
+- [[concepts/agentic-rag|Agentic RAG]] — Agentic RAG ( #concept #rag #retrieval #agents #accuracy)
+- [[concepts/agentic-reasoning|Agentic Reasoning]] — The thesis that reasoning models and agentic systems are the same thing: both are interaction loops with evaluations. RL-trained models like O3 and Claude Code are naturally agentic. ( #reasoning #agents #reinforcement-learning #agentic-ai #aief2025)
+- [[concepts/agentic-retrieval|Agentic Retrieval]] — Retrieval architecture where the search system participates in a feedback loop with the LLM — the agent decomposes queries, issues multiple searches, expands queries, and iterates rather than perfo... ( #agentic #retrieval #feedback-loop #query-decomposition #multi-step)
+- [[concepts/agentic-science|Agentic Science]] — Using AI agents that execute code on HPC systems to accelerate scientific discovery — reading papers, generating hypotheses, running simulations, and designing experiments. ( #ai-agents #scientific-research #hpc #simulation #national-security)
+- [[concepts/agentic-semantic-layer|Agentic Semantic Layer]] — A semantic layer that evolves over time by learning from user corrections, building a company-specific business language through agentic interaction. ( #ai #architecture #semantic-layer #agents #reliability)
+- [[concepts/agentic-services|Agentic Services]] — The paradigm shift from traditional web services to AI-powered agentic services that can reason, plan, and take actions autonomously — demonstrated by AWS with Amazon Q Developer CLI built in three... ( #ai-agents #service-architecture #cloud-scale #aws)
+- [[concepts/agentic-web|Agentic Web]] — Vision of a world where AI agents interact with tools, models, and other agents across any cloud, company, or device — enabled by open protocols, cloud-to-edge deployment, and agent factories. ( #concept #agent #architecture #microsoft #interoperability)
+- [[concepts/agentic-workflow-latency|Agentic Workflow Latency]] — Model latency compounds multiplicatively in agentic workflows — a 10-second model with 30 sequential calls creates a 5-minute wait, constraining what applications can be built. ( #agents #latency #agentic #sequential-calls #aief2025)
+- [[concepts/agentic-workflow-vs-workflow-agent|Agentic Workflow vs Workflow Agent]] — Agentic Workflow vs Workflow Agent ( #agentic-workflows #workflow-agents #enterprise-ai #control #autonomy)
+- [[concepts/agenticity-spectrum|Agenticity Spectrum]] — A spectrum-based view of agent autonomy levels, from minimal LLM loops to fully autonomous multi-agent systems, with memory as the defining characteristic. ( #agent #autonomy #spectrum #agenticity #agent-definition)
+- [[concepts/agents-as-collective-subconscious|Agents As Collective Subconscious]] — Stub page created to resolve incoming wiki links for Agents As Collective Subconscious. ( #stub)
+- [[concepts/agents-with-models-of-mind|Agents with Models of Mind]] — Danielle Perszyk's argument that for AI agents to be truly reliable and general-purpose, they will eventually need models of human minds — the ability to infer and reason about human goals, beliefs... ( #theory #agents #ai)
+- [[concepts/agi|AGI (Artificial General Intelligence)]] — Artificial General Intelligence — the ability to figure things out in new environments fast. Distinguished from software engineering: we have billions of unreliable general intelligences already (h... ( #agi #general-intelligence #ai-research #ai-engineering #reliability)
+- [[concepts/agi-achievement-claim|Agi Achievement Claim]] — Stub page created to resolve incoming wiki links for Agi Achievement Claim. ( #stub)
+- [[concepts/agi-challenges|AGI Challenges]] — AGI Challenges ( #agi #ai-safety #alignment #ai-research #aief2025)
+- [[concepts/agi-question-definition|AGI Question Definition]] — AGI Question Definition ( #agi #epistemology #ai-research #aief2025)
+- [[concepts/agi-vs-software|AGI vs Software Engineering]] — The distinction between building general intelligence (AI research goal) and building reliable software (AI engineering goal). We build software not because we lack AGI, but because we need control... ( #agi #software-engineering #reliability #intelligence-vs-control #bitter-lesson)
+- [[concepts/agreement-alignment|Agreement Alignment]] — Stub page created to resolve incoming wiki links for Agreement Alignment. ( #stub)
+- [[concepts/ai-adoption-acceleration|AI Adoption Acceleration]] — AI adoption has accelerated far beyond prior predictions: 75%+ of knowledge workers now use AI (surpassing 2030 Gartner estimates), 76%+ of developers use AI in development. The shift from training... ( #ai-adoption #adoption-curves #developer-tools #knowledge-workers #ai-agents)
+- [[concepts/ai-agent-data-pipeline|AI Agent Data Pipeline]] — AI Agent Data Pipeline ( #ai-agents #data-strategy #prompt-engineering #generative-ai #rag)
+- [[concepts/ai-agent-disclosure-norms|AI Agent Disclosure Norms]] — Survey finding that most AI engineers believe AI agents should be required to disclose when they're AI and not human — reflecting community norms around transparency in AI-human interactions. ( #ai-agents #disclosure #transparency #ethics #ai-governance)
+- [[concepts/ai-agent-gateway|AI Agent Gateway]] — A unified gateway layer for AI agents that abstracts model API keys, routes requests, and tracks costs, prompts, and responses — eliminating the need for developers to manage model credentials dire... ( #ai-gateway #agent-gateway #model-routing #cost-tracking #agent-infrastructure)
+- [[concepts/ai-agent-observability|AI Agent Observability]] — Instrumenting AI agent executions to capture every step — LLM calls, tool invocations, decisions — as structured traces and spans for debugging and evaluation. ( #observability #agent-evaluation #traces #spans #ai-agents)
+- [[concepts/ai-app-ideation-methods|AI App Ideation Methods]] — Methods for generating AI app ideas: listening to user requests on social media, maintaining a running idea list, and capitalizing on new model releases. ( #concept #ideation #product-discovery #open-source #aief2025)
+- [[concepts/ai-app-viability-through-simplicity|AI App Viability Through Simplicity]] — Building simple AI apps enables faster iteration and more rapid validation of ideas. Simplicity is a feature, not a limitation, for early-stage AI products. ( #concept #validation #iteration #product-strategy #aief2025)
+- [[concepts/ai-application-data-requirements|AI Application Data Requirements]] — AI Application Data Requirements ( #data-strategy #ai-agents #application-design #generative-ai #enterprise-ai)
+- [[concepts/ai-application-tiers|AI Application Tiers]] — A three-tier classification of enterprise AI applications: self-service productivity tools, automated business functions, and monetization features — each with different complexity, value, and risk... ( #ai-application #tiers #enterprise-ai #self-service #automation)
+- [[concepts/ai-architect|AI Architect]] — An emerging role responsible for managing, coaching, and improving an organization's AI agents — combining technology understanding, brand/experience design, and business outcomes. ( #concept #role #organization #ai #customer-experience)
+- [[concepts/ai-as-skill-multiplier|AI as Skill Multiplier]] — The concept of AI tools as skill multipliers or skill enablers — allowing developers of all levels to produce higher quality work by leveraging AI, while simultaneously generating the feedback data... ( #ai #skill #multiplier #windsurf #developer-productivity)
+- [[concepts/ai-audits-accessibility-security|AI Audits: Accessibility and Security]] — AI Audits: Accessibility and Security ( #accessibility #security #audits #ai-agents #code-quality)
+- [[concepts/ai-augmentation-10x|AI Augmentation 10X]] — AI Augmentation 10X ( #ai-augmentation #10x #tool-use #lean-startup #productivity)
+- [[concepts/ai-bot-defense|AI Bot Defense]] — Layered defense strategies for protecting web applications from AI-driven bots, crawlers, and automated clients. Eight layers from robots.txt to cryptographic fingerprinting. ( #security #bots #crawlers #web-security #rate-limiting)
+- [[concepts/ai-bubble-narrative|AI Bubble Narrative]] — AI Bubble Narrative ( #ai-bubble #skepticism #enterprise-ai #media)
+- [[concepts/ai-builder-tools|AI Builder Tools]] — AI-powered builder tools (Bolt, V0, Lovable) and IDE tools (Cursor, Windsurf) have dramatically lowered the barrier to building software applications. ( #concept #developer-tools #vibe-coding #barrier-to-entry #aief2025)
+- [[concepts/ai-capability-first|AI Capability First]] — AI Capability First ( #ai-product-development #ai-evaluation #prototyping #product-strategy #experimentation)
+- [[concepts/ai-cheating-technical-interviews|AI Cheating in Technical Interviews]] — AI Cheating in Technical Interviews ( #hiring #ai-cheating #technical-interviews #ai-assistants #recruitment)
+- [[concepts/ai-coding-as-agents-primary-interface|AI Coding as Agent's Primary Interface]] — The pattern where AI editors (Cursor, Windsurf, Claude Code) become the primary interface for understanding and modifying codebases, consuming structured documentation directly rather than reading... ( #ai-coding #agent-interface #llm-editor #code-understanding #ai-editor)
+- [[concepts/ai-coding-assistance|AI Coding Assistance]] — AI Coding Assistance ( #ai-coding #coding-assistance #developer-tools #rapid-prototyping #feature-exploration)
+- [[concepts/ai-collaboration-skills|AI Collaboration Skills]] — AI Collaboration Skills ( #ai-collaboration #hiring #ai-skills #engineering #assessment)
+- [[concepts/ai-compute-scale|AI Compute Scale]] — The massive scale of modern AI infrastructure, measured in gigawatts of power consumption and hundreds of thousands of GPUs, representing a new category of industrial-scale computing. ( #ai-infrastructure #data-center #gpu-clusters #power #scale)
+- [[concepts/ai-coworker-form-factors|AI Coworker Form Factors]] — Four interaction surfaces for AI coworkers: invisible (background processing), ambient (subtle presence), in-line (workflow-integrated), and conversational (chat). ( #agent #ai #design #ux #interaction-patterns)
+- [[concepts/ai-crawler-landscape|AI Crawler Landscape]] — The evolving taxonomy of AI-driven crawlers visiting web applications — from search indexers to model trainers to autonomous agents — and the challenge of distinguishing beneficial from malicious t... ( #bots #crawlers #ai #web #security)
+- [[concepts/ai-creative-suite|AI Creative Suite]] — AI-powered creative tooling for studios and content creators, enabling mass generation and management of personalized creative content at scale (millions of images per day). ( #ai-creative-tools #content-generation #creative-suite #ai-design #studio-tools)
+- [[concepts/ai-data-output-flywheel|AI Data-Output Flywheel]] — A self-reinforcing cycle where proprietary data generates unique AI outputs, which build more proprietary data, compounding competitive advantage over time. ( #product-strategy #data #flywheel #competitive-advantage #ai-product)
+- [[concepts/ai-design-sense|AI Design Sense]] — AI Design Sense ( #ai-evaluation #design #vibe-coding #model-capabilities #vibe-engineering)
+- [[concepts/ai-developer-productivity|AI Developer Productivity]] — AI coding tools produce a 15-20% net productivity boost but 30-40% raw output increase, with significant rework costs. AI is not a one-size-fits-all solution — it decreases productivity in some cas... ( #ai #productivity #software-engineering #developer-tools #measurement)
+- [[concepts/ai-developer-tool-generations|AI Developer Tool Generations (Gen 1.0 → 3.0)]] — Three-generation framework for AI developer tools: Gen 1.0 autocomplete, Gen 2.0 chat/agentic, Gen 3.0 CLI-based end-to-end workflows. Each generation changes what developers can accomplish and how. ( #ai-developer-tools #developer-experience #aief2025 #itamar-friedman #autocomplete)
+- [[concepts/ai-diplomacy|AI Diplomacy]] — A benchmark game created by Alex Duffy where LLMs play the board game Diplomacy — a zero-luck strategy game where progress depends entirely on inter-model messaging, negotiation, alliance formation... ( #benchmark #game #negotiation #model-personality #llm)
+- [[concepts/ai-displacement-engineering|AI Displacement in Engineering]] — AI Displacement in Engineering ( #ai-displacement #engineering-jobs #mid-level-engineers #entry-level #ai-productivity)
+- [[concepts/ai-driven-experimentation|AI-Driven Experimentation]] — Using AI agents to automate A/B testing and iterative UX refinement — agents generate small code changes, deploy them incrementally, analyze user feedback in real time, and converge on better produ... ( #ai #experimentation #llm #agent #ux)
+- [[concepts/ai-education|Ai Education]] — Stub page created to resolve incoming wiki links for Ai Education. ( #stub)
+- [[concepts/ai-education-summit|AI Education Summit]] — A new initiative announced at AIEF2025 to address the gap between rapid AI advancement and the preparedness of children, parents, and educators to navigate AI ethically and effectively. ( #ai-education #pedagogy #aief2025 #hci #ethics)
+- [[concepts/ai-engineering|AI Engineering]] — The discipline of building reliable, robust, controllable, and scalable AI systems. Distinguished from AI research: engineering subtracts agency in the right places rather than maximizing intellige... ( #ai-engineering #software-engineering #reliability #bitter-lesson #engineering-principles)
+- [[concepts/ai-engineering-as-excavation|AI Engineering as Excavation]] — A paradigm contrasting traditional goal-oriented engineering with AI engineering as a process of discovering hidden, unknown capabilities in models. ( #ai #llm #methodology #engineering #epistemology)
+- [[concepts/ai-engineering-survey-methodology|AI Engineering Survey Methodology]] — Approaches to surveying the AI engineering community: 500 respondents at AIEF2025, title self-reporting, multi-select questions, and the challenge of measuring a rapidly evolving field. ( #survey #methodology #ai-engineering #state-of-the-field)
+- [[concepts/ai-engineering-title-confusion|AI Engineering Title Confusion]] — The finding that very few people at an AI Engineering conference hold the actual title 'AI engineer' — reflecting widespread title confusion as the field evolves and job descriptions lag reality. ( #ai-engineering #job-titles #role-definitions #survey)
+- [[concepts/ai-entomology|AI Entomology]] — The practice of studying bugs in AI-generated code using AI itself — applying LLMs to detect, classify, and categorize the types of bugs that emerge when AI accelerates code generation. ( #ai-entomology #code-review #bug-analysis #llm-evaluation)
+- [[concepts/ai-era-talent-competition|AI-Era Talent Competition]] — AI-Era Talent Competition ( #hiring #talent-war #ai-engineering #competition #recruitment)
+- [[concepts/ai-escrow-automation|AI Escrow Automation]] — Using AI agents to automate escrow workflows — parsing agreements, verifying deliverables, and triggering conditional settlement via smart contracts. ( #escrow #agents #payments #smart-contracts #verification)
+- [[concepts/ai-ethics-creator-responsibility|AI Ethics and Creator Responsibility]] — AI Ethics and Creator Responsibility ( #ai-ethics #ai-safety #agi #emotions #aief2025)
+- [[concepts/ai-eval-beyond-sweebench|AI Evals Beyond SweeBench]] — The argument that AI coding evaluation must move beyond SweeBench-style code generation benchmarks to measure full software engineering workflows: mid-workflow assistance, PR completion, tool usage... ( #eval #benchmark #sweebench #windsurf #sweeone)
+- [[concepts/ai-evaluation|AI Evaluation]] — AI Evaluation ( #ai-evaluation #evals #quality-assurance #ai-product-development #metrics)
+- [[concepts/ai-evaluation-benchmarks|AI Evaluation Benchmarks]] — Systematic evaluation of AI models across multiple dimensions — intelligence, cost, speed, verbosity — using composite indices and per-token/per-latency metrics to compare models objectively. ( #evaluation #benchmarking #llm #intelligence-index #aief2025)
+- [[concepts/ai-evaluation-market-history|AI Evaluation Market History]] — The historical evolution of AI evaluation from niche ML monitoring concern to C-suite priority, driven by three converging forces: ChatGPT's democratization of AI awareness, enterprise budget freez... ( #concept #evaluation #market #history #c-suite)
+- [[concepts/ai-first-company-announcements|AI-First Company Announcements]] — The trend of companies announcing 'AI-first' status — Shopify, Duolingo, Zapier — and the new expectation that AI capability must precede human hiring. ( #ai-first #strategy #company-announcements #ai-transformation)
+- [[concepts/ai-first-firm|AI-First Firm]] — AI-First Firm ( #ai-adoption #organizational-design #ai-first-company-announcements #aief2025)
+- [[concepts/ai-first-transformation|AI-First Transformation]] — A framework for evolving a SaaS company to put AI at the center of strategy, ways of working, and people — organized across three dimensions: Strategy, Ways of Working, and People. ( #concept #ai #strategy #organization #transformation)
+- [[concepts/ai-flows|AI Flows]] — AI Flows ( #ai-flows #windsurf #agent #developer-tools #aief2025)
+- [[concepts/ai-fluency|AI Fluency]] — Building AI understanding and practical capability across the entire organization — not just the AI team — so that every function can leverage AI in their work. ( #concept #ai #organization #culture #skills)
+- [[concepts/ai-governance|AI Governance]] — U.S. government AI governance landscape: OMB memoranda, NIST frameworks, FedRAMP, DoD SRG, and CNSSI 1253. Strategies still under development as of 2025. ( #ai-policy #government-regulation #nist #fedramp #omb)
+- [[concepts/ai-governance-omb|AI Governance — OMB Memoranda]] — Federal AI governance framework driven by OMB Memoranda M25-21 and M25-22, layered with FedRAMP, DOD CSfC, CNSSI 1253, and NIST SP 800-53 — creating the world's most comprehensive AI compliance reg... ( #ai-governance #omb #federal-regulation #fedramp #cnssi-1253)
+- [[concepts/ai-governance-standards|AI Governance Standards]] — The layered compliance standards framework for AI systems in government: NIST 800-53, FedRAMP, DOD CSfC, and CNSSI 1253 — creating the world's most comprehensive AI compliance regime. ( #ai-governance #standards #fedramp #nist-800-53 #cnssi-1253)
+- [[concepts/ai-harness|AI Agentic Harness]] — The agentic harness is the infrastructure layer that enables AI agents to operate autonomously across software engineering workflows — including memory systems, checkpointing, parallel agent execut... ( #agent #harness #checkpointing #memory #windsurf)
+- [[concepts/ai-hide-from-user|Hiding AI from Users]] — Design philosophy that AI should be invisible to end users — AI handles the heavy lifting behind the scenes, but human curation ensures quality and emotional resonance. ( #ai-design #user-experience #human-curation #ai-int invisible-ai #aief2025)
+- [[concepts/ai-hiring-trade-offs|AI Hiring Trade-offs]] — Evaluating AI hiring decisions along three axes — model training, model serving, and business acumen — with 'good enough' thresholds rather than 'best in class'. ( #hiring #ai-team #ml-engineering #trade-offs #skills-axis)
+- [[concepts/ai-human-perception-contagion|AI and Human Perception Contagion]] — The hypothesis that AI models inherit human perceptual limitations through compressed training data (internet images), creating a contagion of human perceptual flaws in AI systems. ( #human-perception #training-data #compression #ai-limitations #aief2025)
+- [[concepts/ai-impact-categories|AI Impact Categories]] — AI Impact Categories ( #roi #measurement #impact #enterprise-ai)
+- [[concepts/ai-in-healthcare-clinical|AI in Healthcare (Clinical)]] — AI applied to clinical healthcare — diagnostics, imaging, drug discovery, and decision support. The most visible but also the toughest and hardest to solve AI-in-healthcare problems. ( #ai #healthcare #clinical #diagnostics #imaging)
+- [[concepts/ai-in-healthcare-finance|AI in Healthcare Finance]] — AI applied to the financial side of healthcare — revenue cycle management, claim denials, prior authorization, and billing. A major underexplored opportunity compared to clinical AI. ( #ai #healthcare #finance #revenue-cycle #rcm)
+- [[concepts/ai-integration-patterns|AI Integration Patterns]] — Framework for thinking about AI integration: most current approaches re-implement existing workflows with AI rather than asking what AI enables that wasn't possible before. ( #concept #ai-integration #product-design #aief2025 #excalidraw)
+- [[concepts/ai-intensive-applications|AI-Intensive Applications]] — AI-Intensive Applications ( #ai-intensive #architecture #multi-step #orchestration #pattern)
+- [[concepts/ai-intuition|AI Intuition]] — AI Intuition ( #ai-capabilities #skill-development #vibe-coding #aief2025)
+- [[concepts/ai-iteration-loop|AI Iteration Loop]] — The operational cycle of monitoring, experimentation, testing, and evaluation that determines AI product quality. Product quality is a direct function of iteration speed through this loop. ( #ai #operations #evaluation #methodology #reliability)
+- [[concepts/ai-language-culture-understanding|AI Language and Culture Understanding]] — AI Language and Culture Understanding ( #natural-language #culture #sarcasm #idioms #agi)
+- [[concepts/ai-leapfrog-effect|AI Leapfrog Effect]] — The counterintuitive observation that the most conservative, low-tech industries (legal, customer service, healthcare) are adopting AI fastest — leapfrogging more tech-forward sectors. ( #concept #ai #adoption #enterprise #startups)
+- [[concepts/ai-lego-blocks-framework|AI Lego Blocks Framework]] — A framework for AI product differentiation: assemble off-the-shelf AI capabilities with proprietary data, functionality, and unmet customer need understanding to build moats. ( #product-strategy #ai-product #differentiation #competitive-advantage)
+- [[concepts/ai-multiplication|AI Multiplication]] — The principle that AI tools multiply team productivity by handling the 'easy low leverage pieces' — data pipelines, API integration, boilerplate — allowing small teams of generalists to accomplish... ( #ai #productivity #multiplier #scaling #aief2025)
+- [[concepts/ai-music-generation|AI Music Generation for Books]] — Using AI to generate background music for books, guided by scene mood and theme prompts — music that flows with the narrative to enhance emotional impact. ( #ai-music #music-generation #books #mood-detection #aief2025)
+- [[concepts/ai-native-company|AI-Native Company]] — A company built from the ground up with AI agents as the primary engineering workforce, where 99%+ of code is written by AI and each product is maintained by a single developer. ( #ai-native #company-design #engineering-culture #aief2025)
+- [[concepts/ai-native-diagram-generation|AI-Native Diagram Generation]] — The approach of having AI generate structured diagram data formats (rather than visual content) as a more promising path for AI diagram tools. Illustrated by Gemini generating Excalidraw files. ( #concept #ai-integration #diagram-generation #excalidraw #aief2025)
+- [[concepts/ai-native-lakehouse|AI-Native Multimodal Lakehouse]] — A data platform that goes beyond vector search to serve as a foundational system for all AI data operations — feature extraction, summarization, generation, and search — unified in one lakehouse. ( #lakehouse #ai-infrastructure #data-platform #vector-database #multimodal)
+- [[concepts/ai-native-pricing-principles|AI-Native Pricing Principles]] — AI-Native Pricing Principles ( #pricing #ai-engineering #monetization #product-strategy)
+- [[concepts/ai-native-product-design|AI-Native Product Design]] — Designing products where the primary consumer is an AI coding agent rather than a human developer. Encompasses LLM-friendly docs, curl-first APIs, OpenAPI schemas, and MCP integration. ( #ai-native #product-design #llm-audience #developer-experience #api-design)
+- [[concepts/ai-native-search|AI-Native Search]] — Search paradigm designed from scratch for AI agents rather than humans. AI agents process vast information, use complex queries, and need dense knowledge retrieval — requiring fundamentally differe... ( #ai-native-search #ai-agent-search #agent-first-search #exa #ai-native-toolchain)
+- [[concepts/ai-native-toolchain|AI-Native Toolchain]] — The entire developer toolchain — testing, review, merge, deploy — must be designed for the AI-accelerated inner loop. AI-native means more than AI teammates; it means re-architecting the outer loop... ( #ai #developer-tools #software-engineering #workflow #aief2025)
+- [[concepts/ai-news-pipeline|AI News Pipeline]] — AI News Pipeline ( #ai-news #pipeline #scraping #summarization #workflow)
+- [[concepts/ai-observability-production-logging|AI Observability & Production Logging]] — Infrastructure for logging, tracing, and monitoring AI applications in production: wrapping LLM clients for automatic capture, online scoring, custom views, and human review workflows. ( #concept #ai #observability #logging #production)
+- [[concepts/ai-ops-evolution|AI Ops Evolution]] — The transformation of QA, CX, and contact center teams from auditors of past interactions into active participants in shaping AI model behavior — as prompt testers, AI performance monitors, and mod... ( #ai #operations #quality-assurance #team-structure #cx)
+- [[concepts/ai-pair-programmer-analogy|AI Pair Programmer Analogy]] — The mental model of treating GitHub Copilot as a human pair programmer — sharing context incrementally through natural conversation, rather than crafting terse prompts for a dumb tool. ( #ai-pair-programmer #copilot #human-ai-collaboration #mental-model #aief2025)
+- [[concepts/ai-partnership-trust|AI Partnership Trust]] — The trust dynamic between government laboratories and commercial AI vendors/frontier labs — where government labs serve as "a safe place to do dangerous things" for partners that cannot freely shar... ( #ai-partnerships #trust-boundary #frontier-labs #government-labs #data-sharing)
+- [[concepts/ai-powered-devops|AI-Powered DevOps]] — Using AI across the entire DevOps lifecycle — planning, security scanning, testing, deployment, and documentation — where the largest early efficiency gains often come from non-code-generation acti... ( #concept #devops #ai #workflow #automation)
+- [[concepts/ai-powered-search|AI-Powered Search]] — Search system that finds related concepts without identical wording, understands user intent, and can perform reasoning and instruction following — going beyond TF-IDF/BM25 keyword matching. ( #search #retrieval #semantic-search #embeddings #intent-understanding)
+- [[concepts/ai-product-fit|AI Product Fit]] — The principle that just because an AI model exists and works doesn't mean it should be integrated into a product. Product fit requires alignment with actual user behavior, not just technical capabi... ( #concept #ai-integration #product-design #aief2025 #excalidraw)
+- [[concepts/ai-product-manager|AI Product Manager]] — AI Product Manager ( #product-management #ai #role #mindset #ai-engineering)
+- [[concepts/ai-product-rebuilding-wave|AI Product Rebuilding Wave]] — The prediction that all existing software will undergo a rebuilding phase as AI makes possible interactions that were previously inconceivable. Products built in the pre-AI era are at their ugliest... ( #product #ai-era #rebuilding #software-evolution)
+- [[concepts/ai-productivity-measurement|AI Productivity Measurement]] — The challenge of accurately measuring AI's impact on developer productivity. Stanford's study critiques three flawed approaches (commit-based metrics, greenfield experiments, self-reported surveys)... ( #ai #productivity #measurement #software-engineering #methodology)
+- [[concepts/ai-quality-lead|AI Quality Lead]] — An emerging cross-functional role combining deep domain expertise with systems thinking to own AI quality — labeling, eval criteria, experiments, prompt engineering — without necessarily writing pr... ( #ai #roles #operations #evaluation #team-structure)
+- [[concepts/ai-red-team-blue-team|AI Red Team vs Blue Team]] — Qodo's framing of AI coding tools as either blue team (code generation) or red team (reviewing, testing, quality assurance). The argument that the industry over-indexes on blue team while neglectin... ( #red-teaming #blue-team #code-review #testing #aief2025)
+- [[concepts/ai-red-teaming|AI Red Teaming]] — AI Red Teaming ( #ai-red-teaming #security #adversarial-testing #safety #evaluation)
+- [[concepts/ai-regression-testing|AI Regression Testing]] — In AI applications, changes to prompts, models, logic, or data that fix one issue frequently break something that previously worked — making frequent comprehensive regression testing essential. ( #ai #testing #regression #evaluation #reliability)
+- [[concepts/ai-sdr|AI SDR]] — An AI Sales Development Representative — an autonomous agent that performs SDR functions (lead sourcing, outreach, meeting booking) at scale, using RAG to personalize communications. ( #ai-sdr #sales #automation #email #agents)
+- [[concepts/ai-sideshow|AI Sideshow]] — The anti-pattern of treating AI as a separate, bolt-on initiative running as a sidecar to core product strategy rather than deeply integrating it into product planning and customer problem-solving. ( #ai #product-strategy #anti-pattern #methodology)
+- [[concepts/ai-sideshow-pattern|AI Sideshow Pattern]] — The pattern of adding AI features that are technically impressive but don't serve the core product experience — creating an "AI sideshow" that degrades rather than enhances the product. ( #concept #ai-integration #product-design #aief2025 #excalidraw)
+- [[concepts/ai-simulation-hypothesis|AI Simulation Hypothesis]] — AI Simulation Hypothesis ( #ai-safety #deception #transparency #agi #aief2025)
+- [[concepts/ai-skeptic-to-champion-pipeline|AI Skeptic-to-Champion Pipeline]] — AI Skeptic-to-Champion Pipeline ( #ai-adoption #change-management #ai-implementation #aief2025)
+- [[concepts/ai-skunkworks|AI Skunkworks]] — An internal AI team formed to experiment and build AI capabilities without the constraints of product timelines — often starting with no AI experience and learning by doing. ( #ai-strategy #skunkworks #internal-ai #team-building #pragmatic-ai)
+- [[concepts/ai-spend-trends|AI Spend Trends]] — AI Spend Trends ( #ai-spend #investment #enterprise-ai #budget)
+- [[concepts/ai-takes-tedious-work-first|AI Takes Tedious Work First]] — The pattern where AI agents consistently take over the most tedious, repetitive, boilerplate work first — freeing humans for creative tasks. Observed from tab completion through cross-file diagnosis. ( #ai-agents #automation-pattern #software-engineering #aief2025)
+- [[concepts/ai-team-anatomy|AI Team Anatomy]] — The comprehensive set of responsibilities an AI team must handle: use case definition, product integration, ROI measurement, data strategy, workflow refinement, interface building, and go-to-market. ( #ai-team #ml-team #org-design #ai-engineering #responsibilities)
+- [[concepts/ai-team-bottleneck-identification|AI Team Bottleneck Identification]] — Before hiring for AI, identify what is actually stopping your organization from achieving success — shipping features, acquiring users, retention, monetization, scalability, or reliability. ( #ai-team #bottleneck #hiring #prioritization #strategy)
+- [[concepts/ai-teammates-insufficient|AI Teammates Are Insufficient]] — Adding AI 'teammates' (background agents, AI reviewers) to the existing workflow is insufficient to solve the outer loop bottleneck. The entire toolchain must be AI-native. ( #ai #developer-tools #software-engineering #workflow #aief2025)
+- [[concepts/ai-to-ai-verification|AI-to-AI Verification]] — Using one AI system to evaluate and verify the output of another AI system — building trust through automated, systematic evaluation rather than manual inspection. ( #ai-verification #code-quality #ai-agents #trust #aief2025)
+- [[concepts/ai-toolkit-vscode|AI Toolkit (VS Code Extension)]] — AI Toolkit (VS Code Extension) ( #vscode #ai-toolkit #evaluation #agent-development #microsoft)
+- [[concepts/ai-trust-pillars|AI Trust Pillars]] — The foundational pillars of trust when deploying AI systems in high-stakes environments: security posture, compliance depth, real-world impact understanding, and continuous monitoring. ( #ai-trust #security #compliance #fedramp #nist)
+- [[concepts/ai-voice-assistant-quality|AI Voice Assistant Quality Problems]] — Common failures in AI voice assistants: unreliable turn-taking, wrong interruptions, delays, and poor timing. Hold-to-speak models can solve many of these issues. ( #voice-ai #voice-assistants #turn-taking #latency #user-experience)
+- [[concepts/ai-workload-orchestration|AI Workload Orchestration]] — AI Workload Orchestration ( #ai-workload #orchestration #inference #training #gpu)
+- [[concepts/aiops|AIOps]] — The use of traditional machine learning and statistical anomaly detection for IT operations and incident management. Criticized by Traversal.ai for producing too many false positives and more noise... ( #aiops #anomaly-detection #machine-learning #observability #false-positives)
+- [[concepts/alert-fatigue-ai-agents|Alert Fatigue in AI Agents]] — The phenomenon where AI coding agents generate excessive false positive bug reports, causing developer fatigue and eroding trust in agent outputs — leading to bugs going to production. ( #alert-fatigue #false-positives #agent-trust #vibe-coding #aief2025)
+- [[concepts/all-ai-is-distributed-systems|All AI is Distributed Systems]] — Any code that crosses a network boundary is a distributed system. AI systems inherently cross network boundaries — calling LLM APIs, communicating between agent services — making them distributed s... ( #ai #distributed-systems #reliability #ai-agents #architecture)
+- [[concepts/always-on-ai|Always-On AI]] — The vision of AI working continuously in the background — researching, preparing, and acting autonomously — targeting a 99% agent / 1% human ratio where the AI only asks for final approval. An exte... ( #ai #ambient #autonomous #windsurf #background)
+- [[concepts/alwaysallow-and-alwaysdeny|AlwaysAllow and AlwaysDeny]] — AlwaysAllow and AlwaysDeny ( #security)
+- [[concepts/alwayspullimages|AlwaysPullImages]] — AlwaysPullImages ( #security)
+- [[concepts/ambient-agents|Ambient Agents]] — Agents that run continuously in the background for extended periods (hours), doing substantial work without requiring active user interaction. Part of a broader shift from quick-response to long-ru... ( #agents #ambient-computing #long-running-agents #background-agents #enterprise-ai)
+- [[concepts/ambient-clinical-documentation|Ambient Clinical Documentation]] — AI-powered documentation that automatically captures and structures clinical notes from patient encounters, reducing the administrative burden on doctors. ( #ai #healthcare #documentation #ambient #speech-recognition)
+- [[concepts/ambient-noise-resilience|Ambient Noise Resilience]] — Ambient Noise Resilience ( #voice-ai #noise #background-noise #turn-detection #transcription)
+- [[concepts/ambitious-evals-for-future-models|Ambitious Evals for Future Models]] — Build evals ambitious enough that they're not viable today. When a new model releases, plug it in and see if previously-infeasible use cases become viable. ( #evals #model-evaluation #product-strategy #production-ai #braintrust)
+- [[concepts/ampere-s-wager|Ampere's Wager]] — A thought experiment challenging the assumption that more AI research talent is always better: would you trade your domain-knowledgeable team for five top AI researchers? ( #hiring #ai-team #domain-knowledge #thought-experiment #philosophy)
+- [[concepts/analysis-pipeline|Text Analysis Pipeline]] — Configurable chain of character filters, tokenizer, and token filters that transforms raw text into searchable tokens at ingestion and query time in a search engine. ( #search #indexing #preprocessing)
+- [[concepts/ann-quality-aware-benchmarking|ANN Quality-Aware Benchmarking]] — Benchmarks for approximate nearest neighbor search must include precision and recall metrics alongside performance. Without quality measures, speed comparisons are meaningless — faster systems may... ( #vector-search #benchmarking #precision-recall #approximate-nearest-neighbor #hnsw)
+- [[concepts/annotation-augmented-video-understanding|Annotation-Augmented Video Understanding]] — A technique where minimal manual or automated annotations (e.g., court lines, object boundaries) are overlaid on video frames to dramatically improve the accuracy of video understanding models. ( #video-understanding #annotation #SAM2 #video-annotation #multimodal)
+- [[concepts/annotations|Annotations]] — Annotations ( #deployment)
+- [[concepts/anthropic-claude-agent-demo|Anthropic Claude Agent Demo (AIEF2025)]] — The Anthropic keynote demo at AIEF2025 where Claude's AI agent was shown reimplementing a table layout inside Excalidraw — demonstrating agentic coding in a whiteboard context. ( #concept #ai-agents #claude #anthropic #excalidraw)
+- [[concepts/anti-powerpoint|Anti-PowerPoint]] — Gamma's product positioning as the anti-PowerPoint — reimaging presentation creation from a design-first to content-first model where users focus on ideas, not formatting. ( #product-positioning #ai-tools #presentations #aief2025 #gamma)
+- [[concepts/api-first-design-for-agents|API-First Design for Agents]] — API-First Design for Agents ( #agent-experience #api-first #machine-native #agent-experience #aief2025)
+- [[concepts/api-groups|API Groups]] — API Groups ( #deployment)
+- [[concepts/application-latency-tolerance|Application Latency Tolerance]] — The principle that different AI applications have fundamentally different latency requirements, and optimization should target the specific latency tolerance of the application rather than a univer... ( #latency #application-design #user-experience #inference #pareto-frontier)
+- [[concepts/application-layer-evals|Application-Layer Evals]] — Application-Layer Evals ( #evals #application-layer #production-ai #reliability #testing)
+- [[concepts/application-observability-graph|Application Observability Graph]] — Modeling an AI application's runtime state as a property graph — sessions, prompts, responses, and retrieved context documents interconnected — for content usage analytics and agent behavior monito... ( #observability #graph-database #agents #rag #monitoring)
+- [[concepts/approximate-nearest-neighbor|Approximate Nearest Neighbor]] — Stub page created to resolve incoming wiki links for Approximate Nearest Neighbor. ( #stub)
+- [[concepts/arc-agi-3|ARC-AGI-3]] — The third version of the ARC-AGI benchmark series, moving from single-turn grid tasks to interactive game environments where AI must explore, infer rules, and complete objectives across ~120 novel... ( #ai #benchmarking #agi #reasoning #arc-agi)
+- [[concepts/aspect-based-evals|Aspect-Based Evals]] — Aspect-Based Evals ( #evals #evaluation #aspect-based #llm-as-judge #code-based-evals)
+- [[concepts/assistive-vs-automation-agents|Assistive vs Automation Agents]] — Two categories of AI agents for knowledge work automation: assistive agents (chat interfaces helping humans get information faster) and automation agents (background agents automating routine tasks). ( #agent #agent-types #automation #knowledge-work #llamaindex)
+- [[concepts/asymmetric-encryption|Asymmetric Encryption]] — Asymmetric Encryption ( #tls)
+- [[concepts/asynchronous-coding-agents|Asynchronous Coding Agents]] — Asynchronous Coding Agents ( #async-agents #coding-agents #background-agents #parallel-agents #aief2025)
+- [[concepts/attack-strategies|Attack Strategies]] — Attack Strategies ( #attack-strategies #adversarial #prompt-injection #obfuscation #ai-red-teaming)
+- [[concepts/audio-decoding-pipeline|Audio Decoding Pipeline]] — The audio decoding component of a TTS inference pipeline — converting discrete audio tokens into waveform audio. Uses tools like Snac decoder with torch compile and PyTorch inference mode for GPU-a... ( #audio #decoding #voice-ai #tts #pytorch)
+- [[concepts/audio-event-tagging|Audio Event Tagging]] — Audio event tagging — detecting and labeling non-speech sounds (coughing, laughing, etc.) within ASR transcripts. Built into ElevenLabs' multilingual ASR model. ( #speech #asr #audio-events #non-speech #elevenlabs)
+- [[concepts/augmented-llm-foundations|Augmented LLM Foundations]] — Augmented LLM Foundations ( #augmented-llm #llm-fundamentals #agentic-systems #tool-use #memory)
+- [[concepts/authentication-kubernetes|Authentication (Kubernetes)]] — Authentication (Kubernetes) ( #security)
+- [[concepts/authentication-vs-authorization|Authentication vs Authorization for Agents]] — Agent security requires two distinct checks: authentication (valid token) and authorization (access control matrix matching requestor to resource). Authentication alone is insufficient. ( #authentication #authorization #agent-security #access-control #security)
+- [[concepts/authorization-kubernetes|Authorization (Kubernetes)]] — Authorization (Kubernetes) ( #security)
+- [[concepts/authorization-modes|Authorization Modes]] — Authorization Modes ( #security)
+- [[concepts/authorization-server|Authorization Server]] — Authorization Server ( #oauth #authorization #tokens #identity #consent)
+- [[concepts/auto-approve-copilot|Auto-Approve and Auto-Accept in Copilot]] — Auto-Approve and Auto-Accept in Copilot ( #github-copilot #vscode #vibe-coding #yolo #ux)
+- [[concepts/auto-evals|AutoEvals]] — Braintrust's open-source library for automated evaluation scoring. Powerful but intentionally flexible, because every advanced company needs to write and modify custom scoring functions. ( #auto-evals #scorers #open-source #braintrust #evaluation)
+- [[concepts/auto-improving-agent-loop|Auto-Improving Agent Loop]] — An autonomous agent loop that iteratively improves a system by combining evaluation feedback with external knowledge, analogous to ML training. ( #agent-loop #auto-improvement #self-improving #evaluation-driven #iterative-optimization)
+- [[concepts/automated-evals-challenge|Automated Evals Challenge]] — Automated Evals Challenge ( #evals #automation #llm-as-judge #automated-evals #ai-evaluation)
+- [[concepts/automated-scaling|Automated Scaling]] — Automated Scaling ( #scaling)
+- [[concepts/automatic-speech-recognition|Automatic Speech Recognition]] — Automatic Speech Recognition (ASR) — converting spoken audio to text. ElevenLabs' model benchmarks across 99 languages with word-level timestamps, speaker diarization, and audio event tagging. ( #speech #stt #asr #voice-ai #multilingual)
+- [[concepts/automation-augmentation-agency|Automation → Augmentation → Agency]] — Danielle Perszyk's framework tracing how automation (offloading cognitive work) can lead to augmentation (becoming expert) but doesn't always — it can also reduce agency through echo chambers, endl... ( #theory #ai #product)
+- [[concepts/automation-in-ml-pipeline|Automation in ML Pipelines]] — Automation in ML Pipelines ( #automation #ml-pipeline #mlops #model-training)
+- [[concepts/autonomous-driving|Autonomous Driving]] — The field of enabling vehicles to navigate and operate without human intervention, evolving from 1980s neural networks through modular perception-prediction-planning pipelines to foundation-model-b... ( #autonomous-driving #self-driving #robotaxi #perception #prediction)
+- [[concepts/autonomous-system-unintended-consequences|Autonomous System Unintended Consequences]] — Autonomous System Unintended Consequences ( #ai-safety #alignment #autonomous-systems #agi #aief2025)
+- [[concepts/autoregressive-generation|Autoregressive Generation]] — The token-by-token generation paradigm where each new token is predicted based on all previous tokens, forming the basis for the decode phase of LLM inference. ( #inference #autoregressive #llm #token-generation #decode)
+- [[concepts/aws-free-tier|AWS Free Tier]] — AWS Free Tier ( #deployment)
+- [[concepts/azure-ai-evaluation-sdk|Azure AI Evaluation SDK]] — Azure AI Evaluation SDK ( #evaluation #azure-ai-foundry #azure-ai-eval-sdk #agents #microsoft)
+- [[concepts/azure-ai-risk-categories|Azure AI Risk Categories]] — Azure AI Risk Categories ( #risk-categories #safety #evaluation #azure-ai-foundry #microsoft)
+- [[concepts/back-channeling-voice-ai|Back-Channeling in Voice AI]] — The challenge of distinguishing listener backchannels ('mm-hmm', 'yeah', 'uh-huh') from genuine turn-taking signals in voice AI, and handling human interruptions of AI agents. ( #voice #ai #speech #conversation #turn-taking)
+- [[concepts/back-pressure|Back Pressure in ML Serving]] — The phenomenon where decoupled ML serving systems create imbalanced queues when CPU workers pull more work than GPU clusters can process. Luma's dispatch limitation system addresses this. ( #back-pressure #queue-management #dispatch-limitation #distributed-systems #ml-infrastructure)
+- [[concepts/basketball-court-metaphor|Basketball Court Metaphor]] — A visualization metaphor for evals: the basketball court where data points are positions (user queries), distance from the basket represents difficulty, blue means shot made, red means shot missed,... ( #evals #visualization #dataset-strategy #metaphor #production-ai)
+- [[concepts/bedrock-platform-capabilities|Bedrock Platform Capabilities]] — Bedrock Platform Capabilities ( #aws #bedrock #ai-platform #generative-ai #rag)
+- [[concepts/benchmark-design-principles|Benchmark Design Principles]] — Six principles for designing effective benchmarks for LLM evaluation: multi-faceted, creativity-rewarding, accessible, generative, evolutionary, and experiential. Proposed by Alex Duffy at AIEF2025... ( #benchmark #design #evaluation #llm #aief2025)
+- [[concepts/benchmark-driven-ai-optimization|Benchmark-Driven AI Optimization]] — Once a comprehensive evaluation baseline is established, use it as a benchmark to confidently compare models, architectures, and optimization strategies — making AI optimization decisions data-driven. ( #ai #evaluation #benchmarking #optimization #model-selection)
+- [[concepts/benchmark-memes|Benchmark Memes]] — The thesis that benchmarks function as memes in the Dawkins sense — ideas that spread and shape AI model development. A single person's idea about what capability matters can propagate and become t... ( #benchmark #meme-theory #dawkins #evaluation #llm)
+- [[concepts/benchmark-qed|Benchmark QED]] — Benchmark QED ( #benchmark #evaluation #graphrag #microsoft-research #open-source)
+- [[concepts/benchmark-saturation|Benchmark Saturation]] — The state where language models become so proficient at a benchmark that it loses discriminative power. Analogous to benchmark saturation in traditional ML, where models exceed human performance on... ( #benchmark #saturation #evaluation #llm #aief2025)
+- [[concepts/best-effort-networking|Best-Effort Networking]] — Best-Effort Networking ( #networking #web-rtc #latency #packet-loss #real-time)
+- [[concepts/beyond-chatbots|Beyond Chatbots]] — Beyond Chatbots ( #agent #ai #architecture #integration #enterprise)
+- [[concepts/bgp|BGP]] — BGP ( #networking)
+- [[concepts/bgp-kubernetes-networking|bgp-kubernetes-networking]] — Bgp Kubernetes Networking ( #term)
+- [[concepts/bi-encoder-search|Bi-Encoder Search]] — Bi-Encoder Search ( #bi-encoder #search-relevance #embedding #offline-caching #production-ml)
+- [[concepts/billable-hour-paradox|Billable Hour Paradox]] — Billable Hour Paradox ( #professional-services #ai-economics #billing #aief2025)
+- [[concepts/bitter-design-lesson|The Bitter Design Lesson]] — The design corollary to Sutton's Bitter Lesson: if models are not commoditized and inference performance drives competition, the UI is the commodity — interfaces must conform to the next model's ca... ( #ai #ux #design #product #aief2025)
+- [[concepts/bitter-layout|The Bitter Layout]] — The converged AI UX pattern of chat input + turn-by-turn interaction + model picker dropdown that persists not because it is good design, but because it can absorb the next model's capabilities at... ( #ai #ux #design #product #chat)
+- [[concepts/bitter-lesson|The Bitter Lesson]] — AI research insight: general methods leveraging computation (search + learning) consistently outperform approaches incorporating human domain knowledge. Hard-coded knowledge becomes a liability as... ( #bitter-lesson #scaling #search #learning #ai-research)
+- [[concepts/bitter-lesson-agentic|Bitter Lesson for Agentic Systems]] — When hardcoded orchestration (chains and trees) becomes too complex to maintain, the bitter lesson says to move to agentic patterns — trading measurability for long-term maintainability. ( #ai-agents #bitter-lesson #rich-sutton #orchestration #complexity)
+- [[concepts/black-box-problem|Black Box Problem (MCP)]] — Third-party MCP servers appear as opaque spans in distributed traces because their internal execution is invisible to the client. ( #black-box-problem #mcp #observability #distributed-systems #third-party)
+- [[concepts/blind-signatures|Blind Signatures]] — Cryptographic scheme that allows a user to obtain a signature on a message without revealing the message content to the signer — enabling anonymous authentication (auth without identity). ( #concept #cryptography #privacy #authentication)
+- [[concepts/blueprint-generator-pattern|Blueprint Generator Pattern]] — Blueprint Generator Pattern ( #blueprint #planning #agentic-workflows #langgraph #task-decomposition)
+- [[concepts/bluetooth-latency|Bluetooth as Voice AI Latency Enemy]] — Bluetooth as Voice AI Latency Enemy ( #voice-ai #latency #bluetooth #networking #real-world)
+- [[concepts/bm25-scoring|BM25 Scoring]] — The standard ranking algorithm for lexical search. Replaces TF-IDF with a saturated term frequency curve. Combines term frequency, inverse document frequency, and field length normalization. ( #search #ranking #algorithm)
+- [[concepts/books-reimagined|Books Reimagined]] — AI-powered multimodal book experience platform that transforms classic literature into interactive reading with graphics, music, and voice Q&A. ( #books #ai-experiences #multimodal #reading #thebrain-pro)
+- [[concepts/bootstrapping|Bootstrapping]] — Bootstrapping ( #deployment)
+- [[concepts/bootstrapping-control-plane|Bootstrapping control-plane]] — Bootstrapping control-plane ( #deployment)
+- [[concepts/bootstrapping-high-availability-control-plane|bootstrapping-high-availability-control-plane]] — Bootstrapping High Availability Control Plane ( #term)
+- [[concepts/boundless-surface-area|Boundless Surface Area]] — Boundless Surface Area ( #ai-agents #product-design #ux #input-space #aief2025)
+- [[concepts/br_netfilter|Br Netfilter]] — br_netfilter is a Linux kernel module required for Kubernetes networking to allow iptables to inspect container traffic.
+- [[concepts/brain-memory-analogy|Brain Memory Analogy]] — Using human brain memory architecture as an analogy for designing agent memory systems — mapping short-term, long-term, working, semantic, episodic, procedural memory, and cerebellum storage to age... ( #agent-memory #cognitive-science #human-memory #cerebellum #memory-types)
+- [[concepts/braintrust-proxy|Braintrust Proxy]] — A proxy layer that enables switching between model providers without changing application code. Supports model-agnostic evaluation so new models can be tested with minimal friction. ( #braintrust #model-agnostic #proxy #model-switching #production-ai)
+- [[concepts/bridge-network-in-docker|Bridge network in Docker]] — Bridge network in Docker ( #container)
+- [[concepts/bridged-adapter|Bridged Adapter]] — Bridged Adapter connects VMs directly to the physical network, making them appear as independent devices with their own IP addresses.
+- [[concepts/bridged-adapter-networking|Bridged Adapter Networking]] — Bridged Adapter Networking ( #term)
+- [[concepts/brittleness-lipschitz-discontinuity|Brittleness and Lipschitz Discontinuity in AI]] — GenAI systems exhibit extreme sensitivity to input perturbations — tiny changes in syntax, semantics, or appearance cause wildly different outputs. This is the core property making AI hard to build... ( #brittleness #lipschitz-discontinuity #ai-reliability #genai #input-sensitivity)
+- [[concepts/brownfield-first-ai-adoption|Brownfield-First AI Adoption]] — Strategy of learning effective AI-assisted development by starting with existing brownfield codebases before attempting greenfield projects — grounded in the reality that most daily work is modifyi... ( #concept #ai-adoption #devops #workflow #best-practice)
+- [[concepts/browser-as-integration-layer|Browser as Integration Layer]] — The browser as the universal integration layer between AI agents and the legacy internet — the path of last resort when APIs and MCP servers don't exist. ( #browser #integration #ai-agents #web-automation #mcp)
+- [[concepts/browser-based-robotics-simulation|Browser-Based Robotics Simulation]] — Running reinforcement learning robotics simulations entirely in the browser, combining physics engines like MuJoCo with foundation model-generated reward functions and cloud GPU training. ( #ai #reinforcement-learning #robotics #simulation #browser)
+- [[concepts/bug-focused-rules|Bug-Focused Rules]] — Structured rules files that prime AI agents to find specific classes of bugs — using OWASP Top 10, explicit bug class naming, and required test validation — to reduce false positives and alert fati... ( #agent-rules #bug-detection #security #owasp #vibe-coding)
+- [[concepts/bug-taxonomy|Bug Taxonomy]] — A 2D taxonomy classifying code review comments by whether LLMs can catch them and whether humans want to receive them, revealing seven distinct categories of feedback. ( #bug-taxonomy #code-review #llm-evaluation #classification)
+- [[concepts/build-operate-divide|Build-Operate Divide]] — The gap between AI product vision and operational reality where good product concepts fail to reach their potential due to operational challenges rather than technical limitations. ( #ai #operations #product-development #reliability #methodology)
+- [[concepts/build-vs-buy-agents|Build vs Buy Agents]] — Build vs Buy Agents ( #agent #strategy #enterprise-ai #engineering-decision #platform-selection)
+- [[concepts/building-over-theorizing|Building Over Theorizing]] — Building Over Theorizing ( #philosophy #software-engineering #pragmatism #maker-culture)
+- [[concepts/built-in-agent-tools|Built-in Agent Tools]] — Pre-packaged tools that ship with an agent SDK — such as file read, file write, and text-to-speech — allowing agents to perform common operations without custom tool code. ( #ai-agents #tools #agent-frameworks #developer-experience #sdk-design)
+- [[concepts/burden-of-generated-code|Burden of Generated Code]] — Every line of code — whether human-written or AI-generated — comes with maintenance, debugging, and comprehension costs. More generated code is not better; it's more to maintain. ( #software-engineering #ai-engineering #code-quality #maintenance)
+- [[concepts/bus-saturation-overhead|Bus Saturation Overhead]] — Bus Saturation Overhead ( #bus-saturation #communication-overhead #robotics #latency #can-bus)
+- [[concepts/business-relevance-retrieval|Business Relevance vs Semantic Similarity]] — The principle that retrieval should be driven by business relevance (entity type, domain context, user intent) rather than semantic similarity (embedding proximity), which conflates topical proximi... ( #retrieval #semantic-similarity #business-domain #agent-memory #knowledge-graph)
+- [[concepts/buyer-seller-intent|Buyer and Seller Intent]] — Buyer and Seller Intent ( #buyer-intent #seller-intent #intent-infrastructure #ai-commerce #preferences)
+- [[concepts/camera-only-driving|Camera-Only Driving]] — An autonomous driving approach that uses only cameras (no LiDAR, radar) for perception — enabled by foundation models that can reason about 3D spatial relationships from 2D video alone. ( #camera-only #autonomous-driving #lidar #sensors #end-to-end)
+- [[concepts/can-bus-robotics|CAN Bus in Robotics]] — CAN Bus in Robotics ( #can-bus #robotics #communication-protocol #bus-saturation #real-time)
+- [[concepts/canvas-ai-interface|Canvas as AI Interface]] — Using an infinite digital canvas as the primary interaction surface for AI — where users can draw, embed apps, design agentic pipelines, annotate AI output, and collaborate with AI in a shared visu... ( #ai #interface #canvas #whiteboard #visual)
+- [[concepts/capability-based-tokens|Capability Tokens]] — Identity architecture pattern where agents receive time-bound tokens scoped to exactly one action, like 'Agent X can read Bob's calendar for the next 60 minutes.' ( #agent #identity #auth #architecture #pattern)
+- [[concepts/cars-vs-traffic-metaphor|Cars vs Traffic Metaphor]] — Cheng Lu's (MidJourney) metaphor distinguishing predictable AI components (cars = engines + wheels) from unpredictable emergent behavior (traffic). Engineers should focus on traffic, not cars. ( #prediction #emergent-behavior #ai-strategy #metaphor #aief2025)
+- [[concepts/cascading-hierarchy|Cascading Hierarchy]] — The traditional startup scaling pattern: VP hires directors, directors hire direct reports, cascading across every function. Can transform a small team into a large organization overnight during bl... ( #org-design #startup #hierarchy #scaling #aief2025)
+- [[concepts/causal-language-model|Causal Language Model]] — Stub page created to resolve incoming wiki links for Causal Language Model. ( #stub)
+- [[concepts/causal-machine-learning|Causal Machine Learning]] — A branch of machine learning focused on discovering cause-and-effect relationships from data, not just correlations. Applied by Traversal.ai to distinguish root causes from correlated failures in p... ( #causal-inference #machine-learning #statistics #correlation-vs-causation #observability)
+- [[concepts/certificate-authority-ca|Certificate Authority (CA)]] — Certificate Authority (CA) ( #tls)
+- [[concepts/certificate-chain|Certificate Chain]] — Certificate Chain ( #tls)
+- [[concepts/certificate-generation|Certificate Generation]] — Certificate Generation ( #security #tls)
+- [[concepts/certificate-signing-request|Certificate Signing Request]] — A Certificate Signing Request (CSR) contains a public key and identity info that a CA signs to issue a valid certificate.
+- [[concepts/certificate-verification|Certificate Verification]] — Certificate Verification ( #tls)
+- [[concepts/chain-of-thought|Chain-of-Thought]] — Asking LLMs to output their reasoning chains before answering dramatically improves performance. An emergent capability discovered in PALM (540B params) that generalized across domains. ( #chain-of-thought #reasoning #llm #prompting #emergent-behavior)
+- [[concepts/chain-of-thought-driving|Chain-of-Thought Driving]] — A technique for adding chain-of-thought reasoning to autonomous driving systems — the model first identifies critical objects, predicts their behavior, and states driving meta-decisions before outp... ( #chain-of-thought #reasoning #autonomous-driving #explainability #foundation-models)
+- [[concepts/chaos-and-opportunity|Chaos and Opportunity]] — The principle that chaos and opportunity are complementary forces in the AI era. As every layer of product building is rewritten, the discomfort of role uncertainty is matched by the opportunity to... ( #product #ai-era #strategy #product-management)
+- [[concepts/character-coach-approach|Character Coach Approach]] — Design methodology for AI agents: instead of controlling outputs (editing copy, policing word choice), coach the agent's character — build out its nature, personality, and behavioral tendencies. ( #agent #ai #design #personality #prompt-engineering)
+- [[concepts/character-consistency|Character Consistency]] — The capability to maintain a character's identity, appearance, and movement across video frames — including mouth movement control, reference-space movement control, and lip-sync to audio scripts. ( #consistency #video-generation #characters #lip-sync)
+- [[concepts/checklist-based-evaluation|Checklist-Based Evaluation]] — For each AI use case, define a specific criteria checklist of required information and use an LLM-as-a-judge to evaluate whether outputs satisfy every item. ( #ai #evaluation #llm-as-judge #testing #methodology)
+- [[concepts/checkpoint-undo-ai-code|Checkpoint and Undo in AI Code Generation]] — Checkpoint and Undo in AI Code Generation ( #github-copilot #vscode #vibe-coding #version-control #ux)
+- [[concepts/china-us-ai-rivalry|China-US AI Rivalry]] — The strategic competition between the US and China for AI supremacy, centered on semiconductor access, export controls, and the effectiveness of hardware restrictions. ( #geopolitics #ai-infrastructure #export-controls #semiconductor #compute)
+- [[concepts/chunk-piggybacking|Chunk Piggybacking]] — A scheduling technique where prefill computation is piggybacked onto decode steps, partially overlapping the two phases on the same GPU to reduce scheduling conflicts without full disaggregation. ( #inference #scheduling #prefill #decode #llm-serving)
+- [[concepts/chunking-for-retrieval|Chunking for Retrieval]] — Strategy for splitting documents into smaller segments before embedding for dense vector search. Crucial because dense vector representations can only hold limited context per chunk. ( #search #retrieval #preprocessing #chunking)
+- [[concepts/chunking-strategies|Chunking Strategies]] — Strategies for splitting parsed text into retrievable semantic units for vector database storage. Key decision: what logical units to preserve while keeping chunks within embedding token limits. ( #chunking #rag #text-splitting #vector-database #semantic-units)
+- [[concepts/cidr|CIDR]] — CIDR ( #deployment)
+- [[concepts/circle-cctp|Cross-Chain Transfer Protocol (CCTP)]] — Circle's permissionless protocol for transferring USDC between different blockchain networks, enabling unified multi-chain payment experiences without fragmentation. ( #blockchain #cross-chain #usdc #interoperability)
+- [[concepts/circle-smart-contract-escrow|Circle Smart Contract Escrow]] — A Solidity escrow contract pattern deployed via Circle's APIs, governing conditional USDC release between depositor, beneficiary, and an AI agent verifier. ( #escrow #smart-contracts #solidity #usdc #circle)
+- [[concepts/ciso-approval|CISO Approval]] — The enterprise security review process that AI and platform tools must pass before deployment in regulated organizations. The architecture itself — not just the AI models — must satisfy CISO requir... ( #ciso #security #compliance #enterprise #regulated-industries)
+- [[concepts/classification-vs-generation|Classification Vs Generation]] — Stub page created to resolve incoming wiki links for Classification Vs Generation. ( #stub)
+- [[concepts/classified-data-ai|Classified Data AI]] — AI systems operating on data that is permanently classified (born-classified, never expires), creating unique constraints for model training, inference, and vendor partnerships in the national secu... ( #classified-data #born-classified #nuclear-weapons #data-security #air-gapped)
+- [[concepts/claude-desktop-mcp-integration|Claude Desktop MCP Integration]] — The mechanism for connecting Claude Desktop to external APIs via MCP servers. A minimal JSON configuration gives Claude direct access to platform capabilities with the user's API token. ( #claude-desktop #mcp #mcp-server #api-integration #agent-tools)
+- [[concepts/clean-fid|Clean FID and Its Limitations]] — FID (Fréchet Inception Distance) scores measure how well diffusion models reproduce images, but they penalize JPEG artifacts heavily — treating perceptually identical images as catastrophically bad. ( #fid-score #evaluation-metrics #generative-ai #perceptual-quality #aief2025)
+- [[concepts/cli-ai-interface-leader|CLI as AI Interface Leader]] — The thesis that CLI — not IDE plugins or chat interfaces — will become the primary interface for AI coding tools, enabling end-to-end workflows, cross-SDLC automation, and agent-to-agent coordination. ( #cli #developer-experience #aief2025 #itamar-friedman #qodo)
+- [[concepts/cli-for-ai-tools|CLI for AI Tools]] — Command-line interfaces as the primary developer tool for discovering, running, and evaluating AI models on-device — offering model browsing, interactive inference, and performance metrics in a ter... ( #cli #developer-experience #model-management #local-ai)
+- [[concepts/client-certificate|Client Certificate]] — Client Certificate ( #tls)
+- [[concepts/client-initiated-backchannel-authentication|Client-Initiated Backchannel Authentication (CIBA)]] — An OAuth flow enabling authentication and consent for headless agents without a browser UI, using push notifications to a user's trusted device for approval. ( #agent #identity #auth #oauth #security)
+- [[concepts/clinical-reasoning|Clinical Reasoning]] — Domain-specific reasoning used by clinicians to evaluate treatment appropriateness. A key domain expertise AI systems must encode for healthcare applications, exemplified by Anterior's Florence.
+- [[concepts/clip-limitations|CLIP Limitations in Vision-Language Pre-training]] — CLIP's contrastive pre-training fails to capture fine-grained visual distinctions because its caption-based loss function cannot distinguish images that share the same caption but differ in visual... ( #clip #vision-language #pre-training #contrastive-learning #visual-fidelity)
+- [[concepts/closed-loop-agent-improvement|Closed-Loop Agent Improvement]] — A production feedback system where AI agents learn from past mistakes through human coaching and tooling, creating an 'upward spiral' of performance and capability over time. ( #concept #agent #ai #production #feedback-loop)
+- [[concepts/closed-model-assumption|Closed Model Assumption]] — The assumption that enterprises can sustainably build on closed frontier API models (OpenAI, Anthropic) indefinitely — and the four cracks (quality, latency, unit economics, destiny) that are break... ( #concept #ai #enterprise #strategy #inference)
+- [[concepts/cloud-4-model-breakthrough|Cloud 4 Model Breakthrough]] — Cloud 4 is a frontier model identified by Braintrust as a breakthrough for eval-related tasks — performing nearly 6x better than its predecessor at improving prompts, datasets, and scorers. ( #cloud-4 #frontier-models #eval-capability #model-benchmarking #braintrust)
+- [[concepts/cloud-for-agents|Cloud for Agents]] — Cloud infrastructure purpose-built for AI agents, featuring declarative workspaces, fast snapshotting and branching of environments, and frictionless handoff between humans and agents. Extended to... ( #ai #infrastructure #cloud #agents #voice-ai)
+- [[concepts/cloud-scale-agent-architecture|Cloud-Scale Agent Architecture]] — "An architecture pattern for deploying AI agents at cloud scale using managed services: model hosting via a foundation model API, agentic loop and history via a managed agent service, and tool exec... ( #agent #architecture #cloud #production #aws)
+- [[concepts/cloud-vm-for-agents|Cloud VM for Agents]] — Cloud VM for Agents ( #cloud-vm #agent-infrastructure #remote-agents #sandbox #aief2025)
+- [[concepts/cluster-autoscaler|Cluster Autoscaler]] — Cluster Autoscaler ( #scaling)
+- [[concepts/cluster-autoscaler-overview|Cluster Autoscaler Overview (merged into 🚀 Setting the Stage: Why Build Your Own Kubernetes Cluster? - Summary)]] — Cluster Autoscaler Overview ( #term #VPC #Security Groups #AWS Free Tier #Master Node)
+- [[concepts/cluster-cidr|Cluster CIDR]] — Cluster CIDR ( #deployment)
+- [[concepts/cluster-scaling|Cluster Scaling]] — Cluster Scaling ( #scaling)
+- [[concepts/clusterrole|ClusterRole]] — ClusterRole ( #security)
+- [[concepts/clusterrolebinding|ClusterRoleBinding]] — ClusterRoleBinding ( #security)
+- [[concepts/cmd|CMD]] — CMD ( #deployment)
+- [[concepts/cnssi-1253|CNSSI 1253]] — Committee on National Security Systems Instruction 1253 — U.S. cryptographic key management standard layered on FedRAMP and DoD SRG for classified AI systems. ( #security-standard #classified #government-ai #national-security #compliance)
+- [[concepts/co-founder-norm|Co-Founder Norm]] — Most VCs-backed companies have co-founders. Solo founders are not impossible but are the exception rather than the rule at early stages. ( #co-founder #founder-team #vc #fundraising #startup)
+- [[concepts/co-scheduling|Co-scheduling]] — Co-scheduling ( #scheduling)
+- [[concepts/code-based-evals|Code-Based Evals]] — Cheap, fast, deterministic evaluation methods using code logic (regex, keyword matching, JSON parsing) instead of LLMs or humans. The most accessible and cost-effective eval type. ( #evals #heuristics #code-evals #deterministic-evals #evaluation-methodology)
+- [[concepts/code-cleanliness|Code Cleanliness]] — Best-practice comments like 'add tests' or 'extract this function' that LLMs can easily generate but humans find frustrating to receive from AI — sitting in the bottom-left quadrant of the bug taxo... ( #code-cleanliness #code-review #llm-limitations #best-practices)
+- [[concepts/code-executing-agents|Code-Executing Agents]] — Code-Executing Agents ( #agent #code-execution #tool-use #agentic-ai #frontier-models)
+- [[concepts/code-hierarchy-understanding|Code Hierarchy Understanding]] — Treating code as a connected hierarchy rather than just text — using call hierarchies, language servers, and git commit history to understand how files relate to one another. Critical for Tier 4 cr... ( #ai-agents #code-understanding #software-engineering #aief2025)
+- [[concepts/code-is-artifact|Code is an Artifact, Not the Job]] — The thesis that generating code is not the same as software engineering — code is the output artifact, while the real work is making thousands of design decisions about architecture, trade-offs, an... ( #software-engineering #philosophy #ai-engineering #production)
+- [[concepts/code-is-cheap|Code Is Cheap]] — The economic principle that AI agents have made code cheap enough to prototype risky ideas freely, enabling more experiments and lower-cost exploration of uncertain directions. ( #economics #ai-coding #prototyping #aief2025)
+- [[concepts/code-quality-as-context|Code Quality as Context]] — The principle that code quality — good names, comments, project structure — is the primary form of context for AI coding agents, analogous to how readable code helps human pair programmers. ( #code-quality #context #pair-programming #readability #aief2025)
+- [[concepts/code-review-feedback-quality|Code Review Feedback Quality]] — A 2D evaluation framework for code review comments based on LLM capability and human desirability, used to constrain AI output to the intersection of what LLMs can catch and what humans want to rec... ( #code-review #feedback-quality #llm-evaluation #ai-code-review)
+- [[concepts/code-review-primary-skill|Code Review as Primary Skill]] — The argument that as AI generates more code, the ability to read and evaluate code becomes more critical than the ability to write it — and that the entire developer toolchain must become AI-native... ( #code-review #software-engineering #ai-engineering #quality)
+- [[concepts/code-translation|Code Translation with LLMs]] — Code Translation with LLMs ( #code-translation #llm #code-generation #multi-file #graphrag)
+- [[concepts/codebase-conventions|Codebase Conventions]] — Team-specific coding patterns and stylistic choices that deviate from generic best practices — a category of code review feedback that LLMs can catch but often flag inappropriately because they lac... ( #codebase-conventions #code-review #stylistic-changes #team-culture)
+- [[concepts/codex-abuse-pattern|Codex Abuse Pattern]] — Codex Abuse Pattern ( #codex #account-cycling #model-abuse #early-ai #openai)
+- [[concepts/coding-agent-security-model|Coding Agent Security Model]] — The six-layer safety architecture for GitHub's autonomous Coding Agent: firewalled, ephemeral, branch-only, draft PRs, workflow approval gating, and no self-review. ( #coding-agent #security #github #safety-model #aief2025)
+- [[concepts/coding-is-going-away|Coding Is Going Away]] — The thesis that software engineers will spend significantly less time writing code due to AI coding agents, but software engineering as a discipline will not disappear — the human role shifts to cr... ( #software-engineering #ai-impact #coding-agents #agent-driven-development #role-shift)
+- [[concepts/cog-container|Cog]] — Open source tool by Replicate for packaging machine learning models into production-ready Docker containers. Creates a standardized API around models using OpenAPI with standard inputs and outputs. ( #cog #containerization #machine-learning #docker #openapi)
+- [[concepts/cognitive-technologies|Cognitive Technologies]] — A series of foundational technologies — language, writing, mathematics, computing, now AI agents — each enabling increasingly abstract thought and reorganizing human cognition. Each cognitive techn... ( #theory #cognition #ai)
+- [[concepts/cold-outreach-strategy|Cold Outreach Strategy]] — Effective cold outreach to VCs requires specific asks, warm signals, and brevity. The goal is to compel a response, not make the sale in the email. ( #cold-email #cold-outreach #vc #fundraising #startup)
+- [[concepts/cold-start-recommendation|Cold Start in Recommendation Systems]] — The challenge of making accurate recommendations for new items or categories with no interaction history, addressed by semantic IDs and LLM-based data augmentation. ( #recommendation-systems #cold-start #data-sparsity #recsys)
+- [[concepts/collaborative-problem-solving|Collaborative Problem-Solving]] — Collaborative Problem-Solving ( #teamwork #parallel-development #engineering-culture #rapid-delivery)
+- [[concepts/combination-attack-strategies|Combination Attack Strategies]] — Combination Attack Strategies ( #attack-strategies #adversarial #composability #ai-red-teaming #pyrit)
+- [[concepts/combinatorics|Combinatorics in Word Games]] — The mathematics of random guessing in Connections: ~0% win rate on full board, ~1 in 5000 after one category correct, ~1 in 35 after two categories correct. Demonstrates why intuition is essential. ( #combinatorics #probability #word-games #connections #random-guessing)
+- [[concepts/commercial-kitchen-economics|Commercial Kitchen Automation Economics]] — The economic case for robotic kitchen automation: $12/hr robot labor with no overtime, turnover, or sick days vs human chefs at $150k+/year, deployed in novel kitchens without pre-programming. ( #economics #commercial-kitchen #robotics #labor-costs #automation)
+- [[concepts/commit-based-metrics-limitations|Commit-Based Metrics Limitations]] — Commit count, PR count, and time-between-commits are flawed productivity metrics because task size varies. AI often introduces new tasks (bug fixes for AI code), making teams appear more active whi... ( #software-engineering #metrics #measurement #productivity #developer-metrics)
+- [[concepts/commit-message-generation-copilot|Commit Message Generation in Copilot]] — Commit Message Generation in Copilot ( #github-copilot #vscode #vibe-coding #git #ux)
+- [[concepts/community-summarization|Community Summarization]] — Community Summarization ( #community-detection #graphrag #enrichment #summarization #graph-analytics)
+- [[concepts/company-type-spectrum|Company Type Spectrum]] — A spectrum classifying companies by their relationship to technology: technology companies, verticalized solutions, and tech-enabled companies — each with distinct challenges and hiring strategies. ( #company-types #strategy #ai-team #technology #organization)
+- [[concepts/complex-document-understanding|Complex Document Understanding]] — The challenge of parsing complex human-designed documents (tables, charts, irregular layouts) for machine consumption, and the hybrid approach of interleaving LLMs/LVMs with traditional parsing tec... ( #document-parsing #llm #lvm #enterprise-data #accuracy)
+- [[concepts/complexity-adjusted-impact|Complexity-Adjusted Impact]] — Framework for prioritizing RAG techniques: plot each technique on a difficulty × impact matrix, then implement easy-high-impact items first and skip hard-low-impact ones. Also called the 'stay lazy... ( #complexity #impact #technique-selection #prioritization #lazy-principle)
+- [[concepts/component-inventory|Component Inventory]] — Having an AI agent generate a step-by-step inventory of a codebase's components — classes, variables, and usage patterns — to improve its ability to find bugs through indexed understanding. ( #component-inventory #context-management #codebase-navigation #agent-evaluation #aief2025)
+- [[concepts/compounding-benefits|Compounding Benefits]] — Compounding Benefits ( #compounding #blueprints #playbooks #learnings #lean-startup)
+- [[concepts/compounding-engineering|Compounding Engineering]] — Engineering methodology where each feature makes the next easier, using plan-delegate-assess-codify loop to capture tacit knowledge. ( #engineering-methodology #ai-native #knowledge-management #aief2025)
+- [[concepts/compute-abuse|Compute Abuse]] — The abuse of free or subsidized compute resources in multi-tenant SaaS platforms — most commonly crypto mining, but also DDoS, resource exhaustion, and other forms of compute theft. ( #compute-abuse #crypto-mining #abuse #multi-tenant #security)
+- [[concepts/compute-allocation|Compute Allocation]] — Compute Allocation ( #compute #allocation #resource-management #ai-infrastructure #smart-allocation)
+- [[concepts/compute-bound-vs-memory-bound|Compute vs Memory Bound Inference]] — The two fundamental performance bottlenecks in LLM inference: compute-bound (GPU compute saturation, typical of prefill) and memory-bound (memory bandwidth saturation, typical of decode). ( #inference #performance #gpu #compute-bound #memory-bound)
+- [[concepts/compute-intensity-scaling|Compute Intensity Scaling]] — Compute Intensity Scaling ( #compute #video-generation #scaling #ai-infrastructure)
+- [[concepts/compute-scaling-laws|Compute Scaling Laws]] — Compute Scaling Laws ( #scaling-laws #compute #ai #productivity #model-quality)
+- [[concepts/computer-use-agents|Computer-Use Agents]] — Agents that interact with visual interfaces (pixels, UIs) like humans do — using the browser as their environment, trained to be good at UI navigation and interaction. Distinct from LLM wrappers th... ( #concept #agents #ai)
+- [[concepts/computer-use-models|Computer-Use Models]] — AI models specifically trained on web trajectories via reinforcement learning, rather than using stock image models for browsing tasks. ( #computer-use-models #ai-agents #browsing #rl #specialized-models)
+- [[concepts/concurrent-testing|Concurrent Testing]] — Concurrent Testing ( #testing #concurrency #race-conditions #ci #deterministic)
+- [[concepts/confidential-gpu|Confidential GPU]] — Hardware trust technology where GPU memory is encrypted (H100/H200), preventing physical memory access attacks — paired with TPMs/vTPMs for attestation and key management. ( #concept #hardware #security #gpu #confidential-computing)
+- [[concepts/configmap|Configmap]] — Stub page created to resolve incoming wiki links for Configmap. ( #stub)
+- [[concepts/configmaps|Configmaps]] — ConfigMaps centralize plaintext configuration for Kubernetes Pods, storing it as key-value pairs that can represent entire configuration files or literal values. They are designed for non-sensi...
+- [[concepts/configuration-drift|Configuration Drift]] — The detection and comparison of deviations between a network device's actual configuration and its desired or baseline configuration, performed by AI agents querying the raw configuration layer of... ( #configuration-drift #network-operations #validation #testing #knowledge-graph)
+- [[concepts/connections-game|Connections Game]] — NYT daily puzzle grouping 16 words into 4 categories of 4. Second-most-played NYT game with hundreds of millions of plays. Used as a reproducible LLM benchmark. ( #word-game #puzzle #new-york-times #nlp-benchmark #daily-puzzle)
+- [[concepts/consistency-in-cooking|Consistency in Cooking]] — The concept that cooking consistency is measured by human sensory standards, not chemical precision — evaluated via blind taste tests comparing robot recreation vs human second-attempt reproduction. ( #cooking #consistency #quality-evaluation #food-science #robotics)
+- [[concepts/constants-in-data|Constants in Data, Variables in Task]] — Eval design pattern: put constant user queries in the dataset (data), and put what you're testing (system prompts, RAG, preprocessing) in the task. Enables clarity, reuse, and generalization across... ( #evals #test-design #dataset #task-design #reusability)
+- [[concepts/consulting-engagement-phases|Consulting Engagement Phases]] — Consulting Engagement Phases ( #professional-services #ai-workflow #consulting #aief2025)
+- [[concepts/consumer-ai-voice|Consumer AI Voice]] — The consumer AI voice market — use cases like AI companions, therapists, and trainers that require near-free voice infrastructure, driving adoption of self-hosted open-source TTS models. ( #consumer-ai #voice-ai #pricing #open-source #voice-cloning)
+- [[concepts/consumer-unrest|Consumer Unrest]] — The growing friction users experience when transitioning from AI-native products (ChatGPT, Cursor, Claude) to legacy software, creating a chasm between AI-native and traditional software experiences. ( #product #user-experience #ai-era #consumer-behavior)
+- [[concepts/container-dns-resolution|Container DNS Resolution]] — Container DNS Resolution ( #term #networking)
+- [[concepts/container-dns-resolution-source|Container DNS Resolution Source]] — Container Dns Resolution Source
+- [[concepts/container-runtime|Container Runtime]] — The Container Runtime Interface (CRI) is the fundamental plugin API that enables Kubernetes to support multiple container runtimes by defining a standard communication protocol between the kube...
+- [[concepts/container-runtime-interface-cri|Container Runtime Interface (CRI)]] — Container Runtime Interface Cri ( #term)
+- [[concepts/container-use|Container Use]] — Solomon Hykes' framework that coding agents need native container environments — developing entirely inside containers for isolation, customization, multiplayer, and open optionality. ( #containers #agents #coding-agents #environments #dagger)
+- [[concepts/containerization|Containerization]] — Containerization ( #container)
+- [[concepts/content-annotation-search|Content Annotation for Search]] — Content Annotation for Search ( #content-annotation #search-relevance #feature-engineering #multimodal #vlm)
+- [[concepts/content-first-design|Content-First Design]] — Design philosophy that prioritizes content creation over design mechanics. Users focus on ideas rather than formatting boxes, aligning layouts, and resizing elements. ( #design #product-philosophy #ai-tools #aief2025 #gamma)
+- [[concepts/context-engine-vs-rag|Context Engine vs RAG]] — Context Engine vs RAG ( #context-engine #rag #retrieval #windsurf #aief2025)
+- [[concepts/context-engineering|Context Engineering]] — Context Engineering ( #prompt-engineering #ai #agents #architecture #llm)
+- [[concepts/context-gap|Context Gap]] — Context Gap ( #ai-agents #context #onboarding #aief2025)
+- [[concepts/context-length-scaling|Context Length Scaling]] — The trend of expanding LLM context windows to 1M+ tokens, demonstrated by Amazon Nova's 1 million token context window. Enables processing of entire documents, codebases, or long conversations in a... ( #context-window #context-length #llm #amazon-nova #aief2025)
+- [[concepts/context-loss|Context Loss]] — The phenomenon where humans lose understanding of system internals as AI systems write more code, creating a knowledge gap that makes production troubleshooting exponentially harder. ( #context-loss #ai-coding #knowledge-gap #production-troubleshooting #ai-generated-code)
+- [[concepts/context-management-for-agents|Context Management for Agents]] — The practice of actively managing an AI agent's context window during codebase navigation — feeding diffs, protecting key files, and building component inventories — to maintain reasoning quality a... ( #context-management #context-window #agent-navigation #vibe-coding #aief2025)
+- [[concepts/context-over-models|Context Over Models]] — AI tools fail primarily because they lack crucial context, not because models are insufficient. The solution is better context provision, not just better models. ( #context #llm-failure-modes #prompt-engineering #ai-tooling #agent-reliability)
+- [[concepts/context-per-head|Context Per Head]] — The principle that small teams with more context per person outperform larger teams. Each person has more agency, needs less permission, and moves faster. ( #team-design #startup #org-design #small-teams)
+- [[concepts/context-philosophy-what-vs-how-much|Context Philosophy: What vs How Much]] — Context Philosophy: What vs How Much ( #context #llm-context #ai-coding #windsurf #context-engineering)
+- [[concepts/context-relevance-over-size|Context Relevance Over Size]] — Context Relevance Over Size ( #context #context-window #ai-coding #windsurf #latency)
+- [[concepts/context-switching-costs|Context Switching Costs]] — Context Switching Costs ( #productivity #context-switching #software-engineering #aief2025)
+- [[concepts/context-window-size|Context Window Size]] — Stub page created to resolve incoming wiki links for Context Window Size. ( #stub)
+- [[concepts/contextual-modular-rag|Contextual Modular RAG]] — Breaking RAG into modular components — extraction, re-ranking, retrieval — that can be used individually or as a complete managed service, allowing targeted improvements without rebuilding the pipe... ( #rag #modular #extraction #re-ranking #retrieval)
+- [[concepts/contextual-platform-approach|Contextual Platform Approach]] — Contextual AI's three-tier platform approach: no-code for business users, developer-focused for pipeline orchestration, and modular for replacing single RAG components. ( #rag #platform #no-code #developer-experience #modular)
+- [[concepts/continued-pre-training|Continued Pre-training for Domain Adaptation]] — The two-phase process of teaching a base LLM (Gemini) both a new token language (Semantic IDs) and domain-specific reasoning patterns (video engagement sequences). Complemented by RL training for i... ( #llm #fine-tuning #domain-adaptation #recommendation-systems #gemini)
+- [[concepts/continuous-batching|Continuous Batching]] — Stub page created to resolve incoming wiki links for Continuous Batching. ( #stub)
+- [[concepts/continuous-eval-loops|Continuous Eval Loops]] — The operational cycle of simulation, evaluation, iteration, regression testing, and monitoring that makes AI systems scalable — the same cycle used in autonomous vehicle development. ( #evals #voice-ai #simulation #ci-cd #iteration)
+- [[concepts/continuous-process-refinement|Continuous Process Refinement]] — Continuous Process Refinement ( #continuous-improvement #lean-startup #process-refinement #feedback-loop #systems-thinking)
+- [[concepts/continuous-profiling|Continuous Profiling]] — Running sampled profiling continuously in production to capture real-world performance patterns, enabling performance optimization and infrastructure cost reduction without application instrumentat... ( #profiling #continuous #observability #performance #eBPF)
+- [[concepts/continuous-viable-product|Continuous Viable Product]] — A product that provides value at every iteration stage — every step is a functioning product that transports a user from A to B, enabling continuous feedback rather than waiting for a finished prod... ( #product-development #iteration #viable-product #mvp #shipping)
+- [[concepts/control-plane|control-plane]] — Control Plane ( #term)
+- [[concepts/control-plane-node|Control Plane Node]] — The control-plane node is the foundational, conceptual 'brain' of a [[entities/kubernetes]] cluster, responsible for maintaining the cluster's state, making global decisions, and coo...
+- [[concepts/controlled-classified-ai|Controlled and Classified AI Systems]] — AI systems on classified data face unique challenges: data never expires from classification, agents must run on isolated networks, and trust requirements exceed commercial SaaS. ( #classified-data #data-governance #national-security #ai-security #hpc)
+- [[concepts/controlled-hallucination|Controlled Hallucination]] — The neuroscientific view that the brain has no direct access to reality and operates as a prediction machine — constructing perception through controlled hallucination. Applied by Danielle Perszyk... ( #theory #cognition #neuroscience)
+- [[concepts/controller-manager|Controller Manager]] — The controller-manager, specifically kube-controller-manager, is a fundamental control-plane component that executes critical controller processes such as replica controllers, endpoint controll...
+- [[concepts/conversation-output-analysis|Conversation Output Analysis]] — Systematic analysis of conversation outputs at scale to extract product insights, agent tooling needs, and implicit feedback signals — moving beyond manual review when conversation volume exceeds h... ( #conversation-analysis #evals #ai-agents #product-insights #implicit-feedback)
+- [[concepts/conversational-video-interface|Conversational Video Interface]] — Conversational Video Interface ( #video-ai #conversational-ai #digital-twin #video-replication #real-time)
+- [[concepts/conviction-signal|Conviction Signal]] — Leaving your full-time job to build your startup serves as a strong signal of conviction to VCs, who use it as a heuristic for founder commitment. ( #conviction #founder-commitment #vc #fundraising #signal)
+- [[concepts/copilot-checkpoint-undo|Copilot Checkpoint and Undo System]] — Copilot Checkpoint and Undo System ( #copilot #checkpoints #undo #version-control #github)
+- [[concepts/copilot-code-review|Copilot Code Review]] — Copilot Code Review ( #copilot #code-review #ai-review #github #microsoft)
+- [[concepts/copilot-first-strategy|Copilot-First Strategy]] — Build AI augmentation (copilot) first, then extend toward autonomy as model capability improves. Human tolerance for failure drops dramatically with latency — making copilots the lower-risk path. ( #concept #ai #product-strategy #agents)
+- [[concepts/copilot-instructions|Copilot Instructions]] — .github/copilot-instructions.md — a shared team artifact that codifies coding standards, build instructions, and repository conventions so AI tools follow them automatically. ( #copilot-instructions #team-standards #github #copilot #aief2025)
+- [[concepts/copilot-new-command|Copilot New Command for Project Scaffolding]] — Copilot New Command for Project Scaffolding ( #github-copilot #vscode #vibe-coding #scaffolding #project-setup)
+- [[concepts/copilot-prompt-files|Copilot Prompt Files]] — Copilot Prompt Files ( #copilot #prompt-files #vscode #agent-mode #github)
+- [[concepts/copilot-spaces|Copilot Spaces]] — Copilot Spaces ( #copilot #spaces #qna #github #microsoft)
+- [[concepts/copilot-workload-spectrum|Copilot Workload Spectrum]] — The five-level spectrum of GitHub Copilot workloads, from inline code completions to autonomous coding agents, each serving a different level of autonomy. ( #github-copilot #workload-spectrum #autonomy-levels #coding-agent #aief2025)
+- [[concepts/core-api-group|Core API Group]] — Core API Group ( #deployment)
+- [[concepts/core-knowledge-priors|Core Knowledge Priors]] — Four innate or hardwired reasoning priors (basic math, basic geometry, agentness, objectness) that ARC-AGI benchmarks use to test abstract reasoning without relying on language, symbols, or learned... ( #ai #reasoning #cognition #benchmarking #arc-agi)
+- [[concepts/core-web-vitals|Core Web Vitals]] — Stub page created to resolve incoming wiki links for Core Web Vitals. ( #stub)
+- [[concepts/cost-efficiency-in-ai|Cost Efficiency In Ai]] — Stub page created to resolve incoming wiki links for Cost Efficiency In Ai. ( #stub)
+- [[concepts/cost-intelligence-bands|Cost Intelligence Bands]] — Models bucketed by intelligence level: GPT-4 level cost fell 100× since mid-2023, with new quality bands halving in cost within months of release. ( #cost #intelligence #quality-bands #price-compression #aief2025)
+- [[concepts/cpu-throttling|CPU Throttling]] — CPU Throttling ( #scaling)
+- [[concepts/create-refine-loop|Create-Refine Loop]] — A three-phase iterative workflow for productive AI coding — Create a plan document, have the AI execute against the plan, then refine the output — repeated as a loop. ( #ai-engineering #workflow #prompt-engineering #methodology)
+- [[concepts/critic-agents|Critic Agents]] — Critic Agents ( #critic-agents #code-review #agent-coordination #parallel-agents #merging)
+- [[concepts/cross-embodiment-robotics|Cross-Embodiment Robotics]] — The capability of a single foundation model to be fine-tuned for different robot embodiments (physical forms) while retaining general-purpose capabilities — enabling one model to control multiple r... ( #cross-embodiment #robotics #foundation-model #generalization #humanoid)
+- [[concepts/cross-encoder-relevance-model|Cross-Encoder Relevance Model]] — Cross-Encoder Relevance Model ( #cross-encoder #relevance-model #search-relevance #llm #classification)
+- [[concepts/cuda-graph-for-llm-serving|CUDA Graph for LLM Serving]] — Technique for capturing and reusing GPU computation graphs to accelerate LLM decoding in serving frameworks like SGLang and vLLM. ( #gpu #optimization #inference #serving #performance)
+- [[concepts/culinary-embeddings|Culinary Embeddings]] — Food-specific embedding representations derived from thermal and RGB imagery that encode cooking state (doneness, browning, texture) for use in recipe state machines and perception models. ( #embeddings #computer-vision #cooking #thermal-imaging #food-perception)
+- [[concepts/curated-dataset-strategy|Curated Dataset Strategy]] — The practice of starting AI evaluation datasets with a small number (10-30) of handcrafted, carefully structured examples rather than generating large volumes of synthetic or dummy data. ( #ai #evaluation #data-quality #methodology #product)
+- [[concepts/curl-over-click|Curl Over Click]] — The principle that LLMs prefer curl commands over interactive UI for API interaction. A curl command encodes HTTP method, JSON payload, credentials, request type, and endpoint — everything an LLM n... ( #curl #api-design #llm-consumption #developer-experience #machine-readable)
+- [[concepts/cursor-for-x|Cursor for X]] — The meta-playbook for building AI applications: apply the Cursor recipe (domain knowledge + workflow packaging + multi-model orchestration + thoughtful UX) to every professional vertical. ( #concept #ai #product-strategy #startups)
+- [[concepts/customer-feedback-analysis|Customer Feedback Analysis]] — Using LLMs to analyze hundreds or thousands of customer feedback items, identifying feature opportunities, grouping requests, and producing actionable product recommendations. ( #customer-feedback #llm #product-management #text-analysis #prioritization)
+- [[concepts/customer-first-problem-solving|Customer-First Problem Solving]] — An organizational approach where teams solve customer problems rather than chase hype or implement specific solutions. Writer's research team uses this approach to drive their RAG system development. ( #customer-first #problem-solving #ai-strategy #product-development #aief2025)
+- [[concepts/customer-obsession|Customer Obsession]] — Customer Obsession ( #philosophy #engineering-culture #startup #customer-success)
+- [[concepts/customer-relationship-through-memory|Customer Relationship Through Memory]] — The principle that agents build genuine customer relationships through persistent memory — remembering past interactions, preferences, and context to create continuous personalized experiences. ( #agent-memory #customer-relationships #persistence #agent-design #personalization)
+- [[concepts/cycle-time-plot|Cycle Time Plot]] — Cycle Time Plot ( #cycle-time-plot #diagnostics #timing #can-bus #robotics)
+- [[concepts/cypher-query-language|Cypher Query Language]] — Neo4j's declarative query language that uses ASCII-art-like syntax to express graph patterns. Supports MATCH, MERGE, CREATE, aggregation, variable-length path traversal, and vector search integration. ( #neo4j #query-language #graph-database #knowledge-graph #graphrag)
+- [[concepts/daemonset|DaemonSet]] — Daemonset ( #term)
+- [[concepts/daemonset-for-network-plugins|DaemonSet for network plugins]] — DaemonSet for network plugins ( #deployment)
+- [[concepts/daemonsets|Daemonsets]] — A DaemonSet ensures one pod replica per node is deployed, automatically adjusting the pod count when nodes are added to or removed from the cluster. This makes it ideal for deploying node-level...
+- [[concepts/dagger-agent-platform|Dagger Agent Platform]] — Architectural pattern where containerized Dagger modules serve as scoped, typed agent environments with sandboxed execution, test-driven validation, and cross-language module interop. ( #concept #agent #architecture #container #sandbox)
+- [[concepts/daily-pulse|Daily Pulse]] — An AI-generated daily or weekly synthesis of workspace activity — summarizing updates, decisions, and progress, optionally delivered as an audio podcast for passive consumption. ( #summarization #workspace-synthesis #ai #communication #podcast)
+- [[concepts/dalle-inflection-point|DALL-E Inflection Point]] — DALL-E Inflection Point ( #dall-e #openai #generative-media #inflection-point #ai-history)
+- [[concepts/dashboard-dumpster-diving|Dashboard Dumpster Diving]] — The eval workflow problem where evaluation results are presented as static dashboards that humans must manually inspect, interpret, and act on — the bottleneck that automated eval agents like Loop... ( #evals #dashboard #manual-review #eval-ops #human-in-the-loop)
+- [[concepts/data-as-differentiator|Data as Differentiator]] — Data as Differentiator ( #data-strategy #generative-ai #competitive-advantage #ai-foundation #enterprise-ai)
+- [[concepts/data-center-economics|Data Center Economics]] — Data Center Economics ( #data-center #economics #infrastructure #ai-infrastructure #capex)
+- [[concepts/data-coverage-transformation|Data Coverage Transformation]] — Data Coverage Transformation ( #ai-impact #data-processing #sampling #aief2025)
+- [[concepts/data-flywheel|Data Flywheel]] — Data Flywheel ( #feedback-loop #continuous-improvement #ai-agents #production-ai #data-collection)
+- [[concepts/data-pyramid|Data Pyramid]] — "A three-tier data strategy for robotics foundation models: scarce high-quality real-world teleoperation data at the top, large-scale synthetic simulation data in the middle, and weakly-relevant in... ( #data-pyramid #robotics #synthetic-data #teleoperation #data-strategy)
+- [[concepts/data-readiness-myth|Data Readiness Myth]] — The industry fallacy that data must be perfectly clean, annotated, and structured before AI can work reliably on it — a goal that never materializes in practice. ( #ai #data #reliability #production #enterprise-ai)
+- [[concepts/data-scaling-recommendation|Data Scaling in Recommendation]] — Data Scaling in Recommendation ( #data-scaling #scaling #recommendation-systems #user-behavior)
+- [[concepts/data-silos-problem|Data Silos Problem]] — Data Silos Problem ( #data-strategy #data-governance #enterprise-ai #data-integration #generative-ai)
+- [[concepts/data-sovereignty|Data Sovereignty]] — The principle that customer data must remain under the customer's control — physically residing on their infrastructure and not being accessible to or processed by the vendor's systems. ( #data-sovereignty #data-residency #regulated-industries #enterprise #compliance)
+- [[concepts/day-2-operations|Day-2 Operations]] — The operational challenges that arise after software is deployed — maintenance, upgrades, monitoring, scaling, and customer support — which self-hosted models impose entirely on the customer. ( #day-2 #operations #operational-overhead #platform #enterprise)
+- [[concepts/decision-making-under-uncertainty|Decision-Making Under Uncertainty]] — Decision-Making Under Uncertainty ( #uncertainty #decision-making #agents #reliability #ai-systems)
+- [[concepts/decorator-based-tool-creation|Decorator-Based Tool Creation]] — Pattern of converting any Python function into an agent tool using a decorator (e.g., @tools.tool), eliminating boilerplate and making custom tool creation as simple as adding an annotation. ( #ai-agents #tools #python #decorator-pattern #agent-frameworks)
+- [[concepts/decoupled-architecture|Decoupled Architecture]] — A serving architecture where CPU workers and GPU workers operate as independent, queue-mediated layers — preventing GPU blocking on I/O and enabling heterogeneous compute placement. Also covers the... ( #architecture #gpu-inference #cpu-workers #queue-based #distributed-systems)
+- [[concepts/decoy-pattern|Decoy Pattern in Word Games]] — Words in Connections puzzles that appear to belong to an easier category but actually belong to the purple category. Designed to test whether AI and humans can resist superficial pattern matching. ( #puzzle-design #misdirection #connections #game-design #ai-benchmark)
+- [[concepts/dedicated-vector-database-adoption|Dedicated Vector Database Adoption]] — 65% of AI engineering teams use a dedicated vector database rather than general-purpose databases with vector extensions. Among users, 35% self-host and 30% use third-party providers. ( #vector-database #rag #infrastructure #self-hosting)
+- [[concepts/deep-research-agent|Deep Research Agent]] — An agent pattern that plans and executes multi-step retrieval, evaluating whether additional context is needed before synthesizing a final answer. An evolution beyond traditional and agentic RAG. ( #deep-research #agentic-rag #multi-step-retrieval #agent-planning #retrieval)
+- [[concepts/deep-research-agents|Deep Research Agents]] — A class of agents that perform extended research tasks over long time horizons (minutes to hours), contrasting with traditional quick-response RAG/QA systems. Part of a broader shift toward long-ru... ( #agents #deep-research #long-running-agents #enterprise-ai #high-value-tasks)
+- [[concepts/deep-research-reading|Deep Research Reading]] — AI system that reads an entire book to answer natural language questions about it, with awareness of the reader's current position for spoiler-free answers. ( #deep-research #ai-reading #book-analysis #contextual-qa #aief2025)
+- [[concepts/defaultingressclass|DefaultIngressClass]] — DefaultIngressClass ( #deployment)
+- [[concepts/defaultstorageclass|DefaultStorageClass]] — DefaultStorageClass ( #deployment)
+- [[concepts/defaulttolerationseconds|DefaultTolerationSeconds]] — DefaultTolerationSeconds ( #scheduling)
+- [[concepts/defect-based-quality|Defect-Based Quality]] — Defining software quality through the academic lens of defect counting — measuring quality by the number of defects, time to fix them, and technique effectiveness at catching them. ( #code-quality #software-engineering #defect-metrics #aief2025)
+- [[concepts/defect-prevention|Defect Prevention]] — Stub page created to resolve incoming wiki links for Defect Prevention. ( #stub)
+- [[concepts/definition-of-success-parallel-agents|Definition of Success for Parallel Agents]] — Definition of Success for Parallel Agents ( #parallel-agents #success-criteria #test-coverage #evaluation #aief2025)
+- [[concepts/delegated-authentication|Delegated Authentication]] — Delegated Authentication ( #delegated-authentication #agent-checkout #payments #authentication #ai-agents)
+- [[concepts/delegation-chains|Delegation Chains]] — Identity architecture pattern where agent authorization is passed step-by-step through cryptographically signed token chains, with each link carrying forward the original user's permissions. ( #agent #identity #auth #architecture #pattern)
+- [[concepts/deliberative-alignment|Deliberative Alignment]] — Technique for automatically aligning AI models to a written specification by using the specification as both training material and evaluation criteria — scoring model responses against the spec and... ( #ai #alignment #specification #training #evaluation)
+- [[concepts/demo-culture|Demo Culture]] — An organizational culture where ideas are validated through working demos built in hours rather than memos or decks, enabled by cheap code and AI-assisted rapid prototyping. ( #culture #prototyping #ai-native #aief2025)
+- [[concepts/demo-driven-ai-exploration|Demo-Driven AI Exploration]] — The practice of building demos as the primary methodology for discovering what AI models can do, rather than reasoning about capabilities theoretically. ( #ai #llm #methodology #exploration #demo)
+- [[concepts/demo-savvy-problem|Demo-Savvy Problem]] — AI apps are demo-savvy: they look great in demos and to coworkers but break in production with real user queries. Driven primarily by brittleness (Lipschitz discontinuity), not non-determinism. ( #evals #production-ai #reliability #demo-vs-production #llm-unreliability)
+- [[concepts/dense-vector-search|Dense Vector Search]] — Semantic search using dense floating-point embeddings. Documents and queries are represented in high-dimensional vector space; similarity measured by vector distance. Quality depends entirely on mo... ( #search #vector #embeddings #semantic-search)
+- [[concepts/deployment|Deployment]] — A Deployment manages a set of ReplicaSets, which in turn manage the Pods. This higher-level abstraction provides powerful features for application lifecycle management, including declarative up...
+- [[concepts/deployment-rollout-status|Deployment Rollout Status]] — Deployment Rollout Status ( #deployment)
+- [[concepts/deployment-strategies|Deployment Strategies]] — > - Deployment Strategies – Two Ways to Upgrade ( #scaling)
+- [[concepts/design-four-pillars|Design Four Pillars]] — A design framework articulating four pillars of product experience: Speed (perceived performance), Trust (state communication, error prevention, affordances), Accessibility (inclusive design), and... ( #design-philosophy #ux #framework #product-design)
+- [[concepts/desired-state|Desired State]] — Desired State in Kubernetes refers to the user-defined configuration and specifications that dictate how the cluster and its workloads should behave. Controllers within the control plane operat...
+- [[concepts/deterministic-eval-scoring|Deterministic Eval Scoring]] — Principle that eval scores should lean toward deterministic pass/fail rather than complex scoring functions, because simpler scores are easier to debug, share, and distribute across teams. ( #evals #scoring #test-design #debugging)
+- [[concepts/deterministic-from-stochastic|Deterministic-From-Stochastic]] — Deterministic-From-Stochastic ( #testing #ci #ai #algorithmic-fix #stochastic-evals)
+- [[concepts/deterministic-logic-guardrails|Deterministic Logic Guardrails]] — Keep deterministic business logic outside the LLM: expose tools to update state variables, validate state changes in code, and only execute actions when all conditions are met. ( #ai-agents #business-logic #guardrails #state-management #reliability)
+- [[concepts/deterministic-trust-expectation|Deterministic Trust Expectation]] — The expectation that AI systems should produce deterministic outcomes for given inputs — a trust requirement that is fundamentally incompatible with stochastic LLM behavior, especially in high-stak... ( #agent-reliability #enterprise-ai #evals #trust #determinism)
+- [[concepts/deterministic-vs-autonomous-agents|Deterministic vs. Autonomous Agents]] — A false dichotomy in voice agent design: deterministic paths (reliable but limited) vs full autonomy (flexible but unpredictable). Large-scale simulation enables both. ( #agents #voice-ai #autonomy #design-patterns)
+- [[concepts/dev-container-vibe-coding|Dev Container Vibe Coding]] — Dev Container Vibe Coding ( #dev-container #github-copilot #vibe-coding #vscode #github-codespaces)
+- [[concepts/developer-experience|Developer Experience]] — Stub page created to resolve incoming wiki links for Developer Experience. ( #stub)
+- [[concepts/developer-experience-critique|Developer Experience Critique]] — The pattern where AI-generated projects expose developer experience failures across major platforms — outdated docs, API changes, rate limiting, and onboarding friction. ( #developer-experience #dx #platform-critique #documentation-quality #api-design)
+- [[concepts/developer-outer-loop|Developer Outer Loop]] — The two-loop model of software development: the inner loop (writing code) and the outer loop (testing, reviewing, merging, deploying). AI accelerates the inner loop dramatically, shifting the bottl... ( #concept #software-engineering #workflow #code-review #cicd)
+- [[concepts/dial-up-era-of-ai|Dial-Up Era of AI]] — We are in the 'dial-up era' of AI, analogous to the early internet. Truly transformative AI companies — like Instagram, Uber, and DoorDash after the iPhone — have not been built yet. ( #concept #ai #startups #timing)
+- [[concepts/digital-signature|Digital Signature]] — Digital Signature ( #security)
+- [[concepts/digital-twin|Digital Twin]] — A graph-based representation of a production network that serves as a testable model for AI agents to reason about changes before they are deployed to the real system. ( #digital-twin #simulation #network-operations #knowledge-graph #ai)
+- [[concepts/dinov2-pre-training|DINOv2 Self-Supervised Vision Pre-training]] — DINOv2 is a self-supervised vision model trained on internet-scale data that discovers rich, discriminative visual features including object boundaries, body segments, and cross-species analogies —... ( #dino #self-supervised-learning #vision-pretraining #visual-features #pca-visualization)
+- [[concepts/direct-preference-optimization|Direct Preference Optimization (DPO)]] — A fine-tuning method where the model learns the preference delta between positive and negative output pairs rather than memorizing individual examples. Operates in the model's latent embedding space. ( #fine-tuning #preference-learning #rl #llm #openai)
+- [[concepts/direct-vs-indirect-ai-monetization|Direct vs Indirect AI Monetization]] — Framework for deciding whether to monetize an AI feature directly (standalone/add-on) or indirectly (bundled free to drive upsells or desired user behavior). ( #pricing #ai-engineering #monetization #product-strategy #go-to-market)
+- [[concepts/dirty-secret-of-abstraction|Dirty Secret of Abstraction]] — Each layer of abstraction still uses the previous layer under the hood — the complexity doesn't disappear, it just moves deeper into the tooling. This pattern makes abstraction useful but means the... ( #abstraction #software-engineering #distributed-systems #durable-execution)
+- [[concepts/disable-swap|Disable swap]] — Disable swap ( #security)
+- [[concepts/disable-swap-command|disable-swap-command]] — Disable Swap Command ( #term)
+- [[concepts/disaggregated-inference|Disaggregated Inference]] — Splitting LLM inference into separate prefill (compute-bound) and decode (memory-bound) phases running on different GPU sets, enabling granular resource allocation and up to 2× throughput gains. ( #inference #disaggregation #prefill #decode #kv-cache)
+- [[concepts/discover-functionality|Discover Functionality]] — Discover Functionality ( #product-management #ai-agents #discovery #emergent-behavior #aief2025)
+- [[concepts/dispatch-limitation|Dispatch Limitation in Multi-Cluster Serving]] — A queue management mechanism that limits the number of jobs assigned to a GPU cluster before being picked up, preventing localized queue buildup in decoupled CPU/GPU architectures. ( #dispatch-limitation #back-pressure #queue-management #multi-cluster #ml-infrastructure)
+- [[concepts/distributed-inference|Distributed Inference]] — Running model inference across multiple GPUs and nodes to achieve acceptable latency for large models, particularly video generation models that require significant compute. ( #inference #multi-node #gpu-distribution #distributed-systems #video-models)
+- [[concepts/distributed-tracing|Distributed Tracing]] — Distributed Tracing ( #distributed-tracing #tracing #observability #open-telemetry #spans)
+- [[concepts/docker-embedded-dns-documentation|docker-embedded-dns-documentation]] — Docker Embedded Dns Documentation ( #term)
+- [[concepts/docker-gateway-ip|Docker Gateway IP]] — Docker Gateway IP ( #container)
+- [[concepts/docker-run|docker run]] — docker run ( #deployment)
+- [[concepts/dockerfile|Dockerfile]] — Dockerfile ( #deployment)
+- [[concepts/dockershim|Applications]] — > **Source: Containerd, CRI etc.** > - ' > - '
+- [[concepts/document-enrichment|Document Enrichment]] — RAG enhancement technique that adds metadata (titles, headers) to documents before embedding, improving their semantic signal and retrieval quality. ( #rag #retrieval #document-processing #metadata #voyage-ai)
+- [[concepts/document-mcp-server|Document MCP Server]] — A pattern for exposing a generalized set of document interaction tools (search, lookup, manipulation, querying) to AI agents via MCP, extending beyond single-endpoint RAG retrieval. ( #mcp #agent #document-parsing #tool-interface #llamaindex)
+- [[concepts/document-toolbox|Document Toolbox]] — A generalized set of tool interfaces beyond naive RAG that equip AI agents to understand, search, manipulate, and query over massive amounts of unstructured enterprise documents. ( #agent #document-parsing #rag #enterprise-data #llamaindex)
+- [[concepts/documentation-as-agent-knowledge-base|Documentation as Agent Knowledge Base]] — In agent-native development, documentation and process become the knowledge base and map for agents to learn and imitate team thinking — transforming what is normally overhead into an asset. ( #documentation #knowledge-base #agent-native #process #ai-agents)
+- [[concepts/domain-aware-memory|Domain-Aware Memory]] — An approach to agent memory where the memory model is defined by the business domain's entity types and relationships, rather than free-form fact generation into vector databases. ( #agent-memory #domain-model #knowledge-graph #rag #semantic-similarity)
+- [[concepts/domain-expert-product-manager|Domain Expert Product Manager]] — A domain expert fills the central PM role in an AI team building vertical apps. Bridges domain knowledge and AI design, enabling rapid iteration of domain insights into pipeline improvements.
+- [[concepts/domain-expert-prompt-engineering|Domain Expert Prompt Engineering]] — Using domain experts (tax analysts) as prompt engineers, bridging the gap between regulatory knowledge and ML engineering. This allows data science teams to focus on metrics and datasets while expe... ( #prompt-engineering #domain-experts #human-in-the-loop #tax #enterprise-ai)
+- [[concepts/domain-graph|Domain Graph]] — Domain Graph ( #knowledge-graph #graphrag #entities #relationships #ontology)
+- [[concepts/domain-intelligence-engine|Domain Intelligence Engine]] — A two-part system (measurement + improvement) that converts customer-specific domain insights into measurable AI pipeline performance improvements. Central to building domain-native LLM applications. ( #domain-intelligence #ai-system-design #pipeline-improvement #domain-expertise #vertical-ai)
+- [[concepts/domain-native-llm-application|Domain-Native LLM Application]] — LLM architecture prioritizing domain insight incorporation over model sophistication. The bet: domain context, not model capability, is the bottleneck in vertical AI.
+- [[concepts/domain-specific-embedding-models|Domain-Specific Embedding Models]] — The principle that no single embedding model works best for all domains — specialized models (code, law, general) outperform general-purpose models within their target domain, and must be selected... ( #embeddings #domain-adaptation #evaluation #voyage-ai #semantic-search)
+- [[concepts/domain-specific-evals|Domain-Specific Evals]] — The challenge and approach of building evaluations for domain-specific AI systems where ground truth is ambiguous, expert evaluators are expensive and variable, and the stakes of being wrong are high. ( #evals #enterprise-ai #domain-expertise #rubrics #aief2025)
+- [[concepts/doom-codebase-experiment|Doom Codebase Experiment]] — Doom Codebase Experiment ( #graphrag #code-understanding #microsoft-research #demonstration #large-codebase)
+- [[concepts/doordash-analogy|DoorDash Analogy]] — Eugene (Federalist AI) used the DoorDash analogy to illustrate unacceptable AI reliability: a 45% success rate is like ordering food where your order goes missing or you get 100 pizzas. ( #ai-reliability #analogy #production-ai #aief2025)
+- [[concepts/dot-instructions-files|Dot Instructions Files]] — Per-file-pattern instruction files (*.jsx, *.svelte, etc.) that automatically apply file-type-specific coding conventions to Copilot Chat and Agent Mode via filename matching. ( #dot-instructions #file-patterns #copilot #github #aief2025)
+- [[concepts/dreamgen|DreamGen]] — A data multiplication technique announced at Computex that takes human teleoperation trajectories and multiplies them through video generation models (World Foundation Models) to create large-scale... ( #dreamgen #data-multiplication #video-generation #world-foundation-model #robotics)
+- [[concepts/durable-execution|Durable Execution]] — A paradigm of crash-proof execution where application state is automatically preserved, execution spans processes and machines transparently, and failures become inconsequential — proposed as the r... ( #durable-execution #reliability #crash-proof #distributed-systems #workflow)
+- [[concepts/durable-objects|Durable Objects]] — Cloudflare's serverless primitive with persistent state, analogous to serverless functions but with state management. Used by Cloudflare's Agents SDK to provide built-in state management for MCP se... ( #durable-objects #cloudflare #serverless #stateful-serverless #agent-state)
+- [[concepts/dynamic-batching|Dynamic Batching for Voice Inference]] — A batching strategy for TTS inference that packs tokens into variable-size batches and flushes on a timeout (e.g., 15ms), trading latency for throughput. Different from LLM continuous batching. ( #batching #voice-ai #inference #optimization #throughput)
+- [[concepts/dynamic-context-ai|Dynamic Context in AI Agents]] — Dynamic Context in AI Agents ( #context-management #ai-agents #rag #generative-ai #data-retrieval)
+- [[concepts/dynamic-eval-sets|Dynamic Eval Sets]] — Dynamic Eval Sets ( #evals #benchmarking #dynamic-data #rag #ai-search)
+- [[concepts/dynamic-products|Dynamic Products]] — The North Star for AI product integration: AI features that are deeply and dynamically integrated into the product ecosystem, responsive to environment and user context, achieved through a crawl-wa... ( #ai #product-strategy #methodology #architecture)
+- [[concepts/dynamic-ui-generation|Dynamic UI Generation]] — Dynamic UI Generation ( #voice-ai #ui-generation #real-time #multimodal #conversational-ui)
+- [[concepts/e-commerce-ai-transformation|E-Commerce AI Transformation]] — E-Commerce AI Transformation ( #e-commerce #ai-transformation #generative-media #online-shopping)
+- [[concepts/e-commerce-evolution|E-commerce Evolution]] — E-commerce Evolution ( #e-commerce #retail #digitization #browsing #commerce-history)
+- [[concepts/e-commerce-search-challenges|E-Commerce Search Challenges]] — Unique search challenges in e-commerce: overly broad queries with cold start, highly specific tail queries with data sparsity, and the dual need for efficient finding plus new product discovery. ( #search #e-commerce #cold-start #tail-queries #precision)
+- [[concepts/ebpf|eBPF]] — Extended Berkeley Packet Filter — a Linux kernel technology that enables safe, low-overhead program execution in the kernel for observability, networking, and profiling without application instrume... ( #ebpf #linux #kernel #observability #profiling)
+- [[concepts/ecdhe|ECDHE]] — ECDHE ( #tls)
+- [[concepts/edge-ai-hardware-acceleration|Edge AI Hardware Acceleration]] — Specialized silicon (GPU, NPU, CPU, integrated GPU) that accelerates AI inference on end-user devices, with hardware-specific model variants optimized for each accelerator type. ( #hardware #gpu #npu #cpu #edge-computing)
+- [[concepts/edge-to-cloud|Edge-to-Cloud Audio Architecture]] — Edge-to-Cloud Audio Architecture ( #voice-ai #architecture #web-rtc #real-time)
+- [[concepts/edge-vision-inference|Edge Vision Inference]] — Computer vision applications interacting with the real world require edge inference due to latency constraints — perception of motion demands multiple frames per second, which centralized computati... ( #edge-computing #computer-vision #latency #real-time #on-device-ml)
+- [[concepts/embedded-dns-server|Embedded DNS server]] — Embedded DNS server ( #deployment)
+- [[concepts/embedding-based-search|Embedding-Based Search]] — Search technique that represents documents and queries as dense embedding vectors, performing similarity search in vector space rather than keyword matching. Foundation of neural RAG and AI-native... ( #embedding-search #vector-search #dense-retrieval #semantic-search #neural-rag)
+- [[concepts/embedding-models|Embedding Models]] — Neural models that vectorize text into semantic representations for RAG retrieval. Significant accuracy and scaling improvements 2023–2025, with ~80% average retrieval accuracy across 100 datasets. ( #embeddings #vector-search #retrieval #nlp #scaling-laws)
+- [[concepts/embedding-quality|Embedding Quality]] — The principle that embedding quality is the core determinant of retrieval accuracy in AI-powered search systems — 95-99% of such systems use embeddings, making model selection the highest-leverage... ( #embeddings #quality #retrieval-accuracy #evaluation #semantic-search)
+- [[concepts/embedding-search|Embedding Search]] — Search method using vector embeddings to find content by meaning rather than exact text matching — useful for finding scenes or passages when you can't remember exact keywords. ( #search #embeddings #semantic-search #natural-language #books)
+- [[concepts/emergent-behavior|Emergent Behavior]] — Stub page created to resolve incoming wiki links for Emergent Behavior. ( #stub)
+- [[concepts/emergent-behavior-in-ai|Emergent Behavior in AI]] — Emergent Behavior in AI ( #ai-agents #emergent-behavior #product-management #non-determinism #aief2025)
+- [[concepts/emergent-intelligence|Emergent Intelligence]] — Emergent Intelligence ( #emergent-behavior #intelligence #ai-agents #complexity #systems-thinking)
+- [[concepts/emerging-ux|Emerging Ux]] — Stub page created to resolve incoming wiki links for Emerging Ux. ( #stub)
+- [[concepts/empirical-embedding-selection|Empirical Embedding Selection]] — The practice of selecting embedding models by empirically testing them on your own data using fast evals, rather than relying solely on public benchmark rankings like MTEB. ( #embedding-models #evaluation #retrieval #empirical #model-selection)
+- [[concepts/employee-vs-enterprise-productivity|Employee vs Enterprise Productivity]] — Employee vs Enterprise Productivity ( #ai-adoption #productivity #enterprise-productivity #aief2025)
+- [[concepts/encoder-only-eval-models|Encoder-Only Eval Models]] — Encoder-only models (BERT-type) for LLM-as-judge evaluation — ~10x cheaper and 1-2 orders of magnitude faster than autoregressive models, making large-scale eval runs practical. ( #evals #llm-as-judge #encoder-models #bert #cost-optimization)
+- [[concepts/encryption|encryption]] — Encryption ( #term)
+- [[concepts/encryption-at-rest|Encryption at Rest]] — Encryption at Rest ( #security)
+- [[concepts/encryptionconfiguration|EncryptionConfiguration]] — EncryptionConfiguration ( #security)
+- [[concepts/end-to-end-driving|End-to-End Driving]] — An autonomous driving paradigm where a single model takes raw sensory input (camera video + routing text) and directly outputs driving actions (waypoints), eliminating the modular perception-predic... ( #end-to-end #autonomous-driving #neural-networks #camera-only #map-free)
+- [[concepts/enforceable-guarantees|Enforceable Guarantees]] — Security principle where restrictions are enforced by system architecture (no disk, no SSH, no access) rather than by human-readable policies ('don't SSH in'). ( #concept #security #architecture #privacy)
+- [[concepts/engagement-data|Engagement Data]] — User interaction signals (clicks, purchases, views) used to train search and recommendation models — the core data source that traditional ML depends on, and the source of cold-start and tail-query... ( #data #engagement #search #ml #e-commerce)
+- [[concepts/enterprise-agent-adoption-equation|Enterprise Agent Adoption Equation]] — A first-principles equation for enterprise AI agent adoption: (probability of success × value when right) − cost when wrong > cost of running. The three terms define the design space for enterprise... ( #enterprise-ai #agent-adoption #agent-reliability #risk-reward #first-principles)
+- [[concepts/enterprise-ai-administration|Enterprise AI Administration]] — The challenge of administering and tracking usage of third-party AI tools in enterprise environments, including PII/PHI monitoring, traffic interception, and compliance — solved with tools like Sur... ( #enterprise-ai #administration #governance #monitoring #pii)
+- [[concepts/enterprise-ai-adoption|Enterprise AI Adoption]] — Enterprise AI Adoption ( #enterprise-ai #adoption #enterprise #ai-implementation)
+- [[concepts/enterprise-ai-app-factory|Enterprise AI App Factory]] — A two-layer architecture (sandbox + factory) for rapidly building custom AI knowledge applications in enterprise settings by empowering domain experts to iterate on extraction logic, then automatic... ( #ai #architecture #enterprise #app-development #sandbox)
+- [[concepts/enterprise-ai-productivity-paradox|Enterprise AI Productivity Paradox]] — Enterprise AI Productivity Paradox ( #ai-adoption #enterprise-productivity #ai-paradox #aief2025)
+- [[concepts/enterprise-inference-infrastructure|Enterprise Inference Infrastructure]] — The operational challenges ('dragons') that enterprises face when moving from API-based frontier models to self-hosted inference with open models — spanning performance, reliability, scaling, obser... ( #concept #ai #infrastructure #enterprise #inference)
+- [[concepts/enterprise-mcp-deployment|Enterprise-Ready MCP Deployment]] — The progression of MCP (Model Context Protocol) servers from local development through authenticated internal service to full enterprise-ready deployment, covering transport architecture (remote vs... ( #mcp #enterprise #deployment #ai-agents)
+- [[concepts/enterprise-rag|Enterprise RAG]] — RAG systems at enterprise scale face challenges in data volume, query complexity, domain specificity, data security, and evaluation — requiring infrastructure that supports vector, keyword, and fil... ( #rag #enterprise #scaling #data-security #infrastructure)
+- [[concepts/entity-type-modeling|Entity Type Modeling]] — The practice of defining structured entity types with typed fields and business rules as the primary unit of memory or knowledge storage, instead of free-form text or unstructured facts. ( #data-modeling #knowledge-graph #ontology #schema #agent-memory)
+- [[concepts/entrypoint|ENTRYPOINT]] — ENTRYPOINT ( #deployment)
+- [[concepts/envfrom|envFrom]] — envFrom ( #deployment)
+- [[concepts/environment-variables-in-pods|Environment Variables in Pods]] — Environment Variables in Pods ( #deployment)
+- [[concepts/episodic-memory-agents|Episodic Memory for Agents]] — Episodic Memory for Agents ( #memory #episodic-memory #agents #state-management #graph-databases)
+- [[concepts/equality-based-selector|Equality-based Selector]] — Equality Based Selector ( #term)
+- [[concepts/equality-based-selectors|Equality-based Selectors]] — Equality Based Selectors ( #term)
+- [[concepts/etchosts|/etc/hosts]] — /etc/hosts ( #networking)
+- [[concepts/etl-pipeline|ETL Pipeline]] — A data ingestion pipeline that transforms heterogeneous network data from multiple sources and formats into a unified schema (OpenConfig) for storage in a knowledge graph. ( #etl #data-pipeline #network-operations #data-ingestion #schema-normalization)
+- [[concepts/eval-as-judge|Eval-as-Judge]] — Eval-as-Judge ( #llm-judge #evaluation #ai-testing #self-evaluation #stochastic-evals)
+- [[concepts/eval-baseline-first|Eval Baseline First]] — Eval Baseline First ( #evals #methodology #getting-started #production-ai #braintrust)
+- [[concepts/eval-data-flywheel|Eval Data Flywheel]] — Eval Data Flywheel ( #evals #feedback-loop #data-flywheel #continuous-improvement #production-ai)
+- [[concepts/eval-dataset-strategy|Eval Dataset Strategy]] — Eval Dataset Strategy ( #evals #dataset #production-ai #data-collection #test-design)
+- [[concepts/eval-driven-development|Eval-Driven Development]] — Eval-Driven Development ( #evaluation #development-methodology #quality #enterprise-ai)
+- [[concepts/eval-driven-iteration|Eval-Driven Iteration]] — Eval-Driven Iteration ( #evals #iteration #development-methodology #prompt-engineering #braintrust)
+- [[concepts/eval-driven-optimization|Eval-Driven Optimization]] — The practice of using automated evaluation metrics as the primary feedback signal for iterative system improvement, replacing manual tuning and heuristic-based adjustments. ( #evaluation #optimization #iterative-improvement #metric-driven #ai-engineering)
+- [[concepts/eval-flywheel-effect|Eval Flywheel Effect]] — Eval Flywheel Effect ( #evals #feedback-loop #continuous-improvement #production-ai #braintrust)
+- [[concepts/eval-human-in-the-loop|Human-in-the-Loop Evals]] — Human-in-the-Loop Evals ( #evals #human-review #user-feedback #production-ai #braintrust)
+- [[concepts/eval-ingredients-task-dataset-score|"Eval Ingredients: Task, Dataset, Score"]] — "The three components that every AI evaluation requires: a task (the prompt or workflow being tested), a dataset (real-world test cases), and a score (grading logic — LLM-as-judge or code-based). O... ( #concept #evaluation #methodology #testing #framework)
+- [[concepts/eval-metrics-relativity|Evaluation Metrics Relativity]] — The argument that evaluation metrics lack the relativity to capture meaning, artistic intent, and contextual significance — dimensions that only human judgment can assess. ( #evals #metrics #aesthetics #human-judgment #aief2025)
+- [[concepts/eval-offline-online-duality|Offline vs Online Evals Duality]] — Offline vs Online Evals Duality ( #evals #offline-evals #online-evals #development-methodology #production-ai)
+- [[concepts/eval-optimization-triad|Eval Optimization Triad]] — The principle that eval quality depends on the interdependent optimization of three components — prompts, datasets, and scorers — where optimizing all three together yields better results than opti... ( #evals #optimization #prompts #datasets #scorers)
+- [[concepts/eval-orchestration-parallelism|Eval Orchestration and Parallelism]] — Eval Orchestration and Parallelism ( #evaluation #scaling #orchestration #parallelism #performance)
+- [[concepts/eval-playground-as-ide|Eval Playground as IDE]] — Eval Playground as IDE ( #evals #playground #experimentation #braintrust #development-tools)
+- [[concepts/eval-playground-experiment-workflow|Eval Playground vs Experiments Workflow]] — Two complementary modes for AI evaluation: the playground for rapid iteration and A/B comparison of prompts and models, and experiments for long-lived historical tracking of scores over time. ( #concept #evaluation #workflow #experimentation #testing)
+- [[concepts/eval-production-metrics|Eval Production Metrics]] — Eval Production Metrics ( #evals #metrics #observability #production #braintrust)
+- [[concepts/eval-quality-diagnostic|Eval Quality Diagnostic]] — Eval Quality Diagnostic ( #evals #diagnostics #debugging #methodology #braintrust)
+- [[concepts/eval-quality-matrix|Eval Quality Matrix]] — A 2x2 diagnostic matrix that maps human judgment of output quality (good/bad) against eval scores (high/low) to determine whether to improve the AI app or improve the evaluation itself. ( #concept #evaluation #methodology #debugging #diagnostics)
+- [[concepts/eval-score-types|Eval Score Types]] — Eval Score Types ( #evals #scoring #llm-as-judge #code-based #braintrust)
+- [[concepts/eval-scoring-flywheel|Eval Scoring Flywheel]] — Stub page created to resolve incoming wiki links for Eval Scoring Flywheel. ( #stub)
+- [[concepts/eval-sdk-first-workflow|Eval SDK-First Workflow]] — Eval SDK-First Workflow ( #evals #sdk #development-workflow #braintrust #ci-cd)
+- [[concepts/eval-task-complexity|Eval Task Complexity]] — Eval Task Complexity ( #evals #task #evaluation-methodology #braintrust #agentic-workflows)
+- [[concepts/evals-are-custom-and-subjective|Evals Are Custom and Subjective]] — Evals Are Custom and Subjective ( #evals #evaluation #custom-evals #subjective-evaluation #ai-evaluation)
+- [[concepts/evals-are-not-unit-tests|Evals Are Not Unit Tests]] — The thesis that AI application evals are fundamentally different from unit tests: 95% of an AI app's code works 100% of the time, but the crucial 5% (the LLM) can fail unpredictably, requiring a di... ( #evals #testing #reliability #production-ai #llm-reliability)
+- [[concepts/evals-as-moat|Evals as Moat]] — Evaluation infrastructure — golden datasets, per-span metrics, LLM-as-judge pipelines — becomes a competitive moat because it is hard to copy and improves with scale. ( #evals #competitive-advantage #ai-agents #data-flywheel #moat)
+- [[concepts/evals-as-structured-tests|Evals as Structured Tests]] — Evals as Structured Tests ( #evals #testing #methodology #braintrust)
+- [[concepts/evals-in-ci|Evals in CI]] — Integrating AI application evals into CI/CD pipelines to detect regressions, measure improvement, and visualize how code changes affect the entire test dataset. ( #evals #ci-cd #continuous-evaluation #regression-testing #production-ai)
+- [[concepts/evals-industry-transformation|Evals as Industry Transformation]] — Evals as Industry Transformation ( #evals #industry-transformation #production-ai #ai-adoption)
+- [[concepts/evals-labor-problem|Evals Labor Problem]] — Evals Labor Problem ( #evals #evaluation #development-cost #ai-development #labor-intensive)
+- [[concepts/evals-laboratory|Evals as Laboratory]] — Evals as Laboratory ( #evals #experimentation #iteration #production-ai #braintrust)
+- [[concepts/evals-must-be-engineered|Evals Must Be Engineered]] — "Evals are an engineering problem: no dataset aligns perfectly with reality, datasets must be continuously reconciled with production experience, and scorers are product-specific specs. ( #evals #engineering #dataset-design #scorer-design #production-ai)
+- [[concepts/evals-play-offense|Evals Play Offense]] — Evals should play offense — understanding which use cases you can solve before shipping, not just catch regressions like unit tests. They enable strategic product discovery and model-picking. ( #evals #strategy #product-discovery #production-ai #braintrust)
+- [[concepts/evals-spectrum|The Evals Spectrum]] — Evals span a spectrum from cheap, high-scale code-based heuristics to expensive, high-quality human judgment. LLM-as-judge is only one tool — the full toolbox includes code evals, golden datasets,... ( #evals #evaluation-methodology #toolbox #llm-as-judge #heuristics)
+- [[concepts/evals-testing-pyramid|Evals Testing Pyramid]] — Evals Testing Pyramid ( #evals #testing #hierarchy #ai-agents #evaluation-methodology)
+- [[concepts/evaluate-ai-early|Evaluate AI Early]] — Evaluate AI Early ( #ai-evaluation #ai-product-development #prototyping #experimentation #eval-driven-development)
+- [[concepts/evaluation-as-top-pain-point|Evaluation as Top Pain Point]] — The 2025 survey finding that evaluation is the number one most painful thing about AI engineering today — confirming that evals remain the field's central challenge despite significant progress in... ( #evals #pain-points #ai-engineering #survey)
+- [[concepts/evaluation-at-pipeline-steps|Evaluation at Pipeline Steps]] — The practice of evaluating individual steps of an LLM pipeline separately (e.g., retrieval quality, generation quality) in addition to end-to-end evaluation — analogous to unit testing in software. ( #evaluation #unit-testing #pipeline #retrieval-evaluation #generation-evaluation)
+- [[concepts/evaluation-first-development|Evaluation-First Development]] — Evaluation-First Development ( #ai #evaluation #methodology #testing #development)
+- [[concepts/evaluation-vs-benchmarking|Evaluation vs. Benchmarking]] — A definitional distinction: evaluation is a comprehensive end-to-end assessment of a model across many components, while benchmarking is a subcategory using controlled datasets and tasks specifical... ( #evaluation #benchmarking #methodology #definition #llm)
+- [[concepts/evaluator-thresholds|Evaluator Thresholds]] — Evaluator Thresholds ( #evaluation #thresholds #scoring #risk-calibration #domain-specific-evals)
+- [[concepts/events-wrong-abstraction-thesis|Events are the Wrong Abstraction Thesis]] — The argument that event-driven architecture puts the wrong thing at the center of AI agent ecosystems — creating more infrastructure than business logic, scattered logic, and hidden design-time cou... ( #architecture #event-driven #critique #durable-execution #ai-agents)
+- [[concepts/evidence-based-qa-generation|Evidence-Based QA Generation]] — Evidence-Based QA Generation ( #evals #synthetic-data #qa-generation #hallucination-prevention #rag)
+- [[concepts/evolution-of-programming|Evolution of Programming]] — The historical progression of programming from physical punch cards through higher-level languages, text editors, IDEs, and now AI coding agents — with both model capability and programming UX on e... ( #history #programming #abstraction #ux #software-engineering)
+- [[concepts/evolution-of-verification|Evolution of Verification]] — The progression of software verification from manual debugging through probabilistic methods (fuzzing, chaos engineering) to agentic self-verification — evolving alongside programming itself. ( #testing #verification #debugging #quality-assurance #software-engineering)
+- [[concepts/evolutionary-benchmarks|Evolutionary Benchmarks]] — Benchmarks that get harder and deeper as models improve, rather than capping at a fixed accuracy threshold. Designed to resist saturation and maintain discriminative power across model generations. ( #benchmark #design #evaluation #saturation #aief2025)
+- [[concepts/excel-agent-normalization|Excel Agent Normalization]] — An AI agent approach to normalizing unstructured Excel spreadsheets into clean 2D tables, enabling downstream querying and analysis that RAG and text-as-CSV cannot handle. ( #excel #agent #data-normalization #llamaindex #spreadsheet)
+- [[concepts/execution-as-moat|Execution as Moat]] — In AI, defensibility comes from execution — not proprietary technology, data, or first-mover advantage. Shipping a great experience faster than competitors can copy is the only lasting advantage. ( #concept #ai #strategy #startups)
+- [[concepts/experiential-benchmarks|Experiential Benchmarks]] — Benchmarks that mimic real-world situations rather than abstract test formats. Designed to connect model evaluation to actual utility and make benchmarks accessible to non-experts as a spectator sp... ( #benchmark #design #evaluation #real-world #aief2025)
+- [[concepts/explicit-feedback-strategies|Explicit Feedback Strategies]] — Explicit Feedback Strategies ( #feedback #user-experience #evals #ai-agents #ux-design)
+- [[concepts/explicit-intent-communication|Explicit Intent Communication]] — The principle of communicating intent explicitly to AI coding agents — don't be passive-aggressive, don't expect agents to infer unstated requirements, and share context incrementally through natur... ( #agent-communication #prompt-crafting #copilot #human-ai-collaboration #aief2025)
+- [[concepts/exploratory-query-recommendation|Exploratory Query Recommendation]] — Using LLMs to generate natural language search queries that surface new content categories (e.g., podcasts, audiobooks) to users who would not otherwise discover them. ( #recommendation-systems #search #query-generation #llm #category-growth)
+- [[concepts/export-controls-ai-hardware|Export Controls on AI Hardware]] — US export controls restricting China's access to advanced GPUs, HBM, and semiconductor manufacturing equipment — and why they have proven largely ineffective. ( #geopolitics #export-controls #semiconductor #gpu #hbm)
+- [[concepts/extension-points-in-scheduling|Extension points in scheduling]] — Extension points in scheduling ( #scheduling)
+- [[concepts/failure-mode-ontology|Failure Mode Ontology]] — A structured taxonomy of all ways an AI system can fail in a specific domain, co-developed with domain experts. Enables systematic measurement and targeted improvement of AI pipeline performance. ( #failure-modes #ai-evaluation #error-analysis #domain-expertise #ai-reliability)
+- [[concepts/fair-scheduling|Fair Scheduling in ML Serving]] — Scheduling systems that fairly allocate limited GPU resources across multiple user tiers, preventing work starvation through SLA-aware aging mechanisms. ( #scheduling #fair-scheduling #priority #sla #work-starvation)
+- [[concepts/fast-evals|Fast Evals]] — A lightweight evaluation method using sets of query-document pairs that run in seconds for pennies, enabling rapid experimentation and empirical comparison of retrieval systems. ( #evals #retrieval #evaluation #ai #methodology)
+- [[concepts/feature-exploration-strategy|Feature Exploration Strategy]] — Feature Exploration Strategy ( #product-development #feature-design #ai-coding-assistance #experimentation #user-testing)
+- [[concepts/feature-flag-infra|Feature Flag Infrastructure]] — Feature Flag Infrastructure ( #feature-flags #launchdarkly #infrastructure #lean-startup #experimentation)
+- [[concepts/feature-steering|Feature Steering]] — Actively modifying model behavior by adjusting internal features — the neural representations of concepts inside LLMs — to enforce guardrails, inject contextual behavior, or alter outputs with prec... ( #concept #ai #interpretability #control #safety)
+- [[concepts/fedramp|FedRAMP]] — Federal Risk and Authorization Management Program — standardized security assessment for U.S. government cloud services. Rev4 has 1,000+ controls with new continuous monitoring requirements. ( #cloud-security #government-compliance #security-controls #authorization #saas)
+- [[concepts/feeling-the-material|Feeling the Material]] — Woodworking-inspired design philosophy for AI product development: understand model properties through direct interaction and hands-on prototyping rather than through layers of mockups, specs, and... ( #ai #design #methodology #ux #prototyping)
+- [[concepts/fidelity-vs-speed-tradeoff|Fidelity vs. Speed Trade-off]] — Fidelity vs. Speed Trade-off ( #evaluation #human-in-the-loop #automation #trade-off #scalability)
+- [[concepts/finding-the-grain|Finding the Grain]] — Post-2025 AI product design concept: after feeling the material (understanding model properties), find the grain — identify where the AI is smooth/rough, weak/strong — and design form factors that... ( #ai #design #methodology #ux)
+- [[concepts/fine-tuning-best-practices|Fine-tuning Best Practices]] — Actionable best practices for fine-tuning models: always start with prompting, run evals, use diverse data, handle overfitting, include context in training, and begin with the biggest model. ( #fine-tuning #best-practices #llm #data-quality #evals)
+- [[concepts/fine-tuning-for-specialization|Fine-Tuning for Specialization]] — Fine-tuning an LLM for a specific domain reduces prompt length and instruction requirements, but creates a model too specialized for its use case, limiting reusability across other applications. ( #fine-tuning #llm #specialization #model-selection #aws-bedrock)
+- [[concepts/fine-tuning-methods|Fine Tuning Methods]] — Stub page created to resolve incoming wiki links for Fine Tuning Methods. ( #stub)
+- [[concepts/fine-tuning-practices-2025|Fine-Tuning Practices in 2025]] — The 2025 landscape of model fine-tuning: LoRA/QLoRA dominates parameter-efficient methods, DPO and reinforcement fine-tuning are emerging, and supervised fine-tuning remains the most popular core a... ( #fine-tuning #lora #qlora #dpo #sft)
+- [[concepts/finvoice|Finvoice]] — Finvoice is Intercom's voice AI agent for inbound phone support — a knowledge-based voice agent built in 100 days, extending the existing Fin chat agent to the voice channel. ( #voice-ai #enterprise-ai #customer-service #intercom #agent-loop)
+- [[concepts/firefighting-prioritization|Firefighting Prioritization]] — When everything is on fire, the firefighting framework: prioritize high-impact areas, infrastructure, and key people. Some fires must burn. Focusing on 10% gets the lion's share of results. ( #prioritization #startup #decision-making #resource-allocation)
+- [[concepts/firewalld|firewalld]] — firewalld ( #networking)
+- [[concepts/first-principles-design|First Principles Design]] — Stub page created to resolve incoming wiki links for First Principles Design. ( #stub)
+- [[concepts/first-principles-org-design|First-Principles Org Design]] — Applying first-principles thinking to team building and org design — the same rigor founders apply to product building. Rejects traditional cascading hierarchy in favor of AI-era lean structures. ( #org-design #first-principles #startup #team-building #aief2025)
+- [[concepts/first-principles-thinking|First Principles Thinking]] — First Principles Thinking ( #problem-solving #decision-making #constraint-analysis #first-principles)
+- [[concepts/flame-chart|Flame Chart]] — A visualization of call stacks over time where bar widths represent time spent, used in both CPU and GPU profiling to identify performance hotspots and bottlenecks. ( #profiling #visualization #flame-chart #performance #call-stack)
+- [[concepts/flat-network-model|Flat Network Model]] — Flat Network Model ( #networking)
+- [[concepts/flow-awareness|Flow Awareness]] — Flow Awareness ( #flow-awareness #user-intent #agent #context #windsurf)
+- [[concepts/forceful-product-building|Forceful Product Building]] — The idea that building a product that meaningfully exists in people's lives is a forceful (not gentle) experience requiring sustained energy against resistance from every direction. ( #product #leadership #ai-era #product-management)
+- [[concepts/forensic-revenue-attribution|Forensic Revenue Attribution]] — Using LLMs to forensically extract structured insights from messy enterprise data (emails, CRM records) to create actionable maps of customer interactions and revenue drivers. ( #revenue-attribution #data-forensics #enterprise-data #llm-parsing #knowledge-graphs)
+- [[concepts/forgetting-mechanisms|Forgetting Mechanisms]] — Research direction into implementing forgetting mechanisms in agent memory systems — a more nuanced approach to memory removal than simple deletion, inspired by human memory dynamics. ( #agent-memory #forgetting #memory-management #deletion #memory-research)
+- [[concepts/forward-deployed-engineering|Forward Deployed Engineering]] — The traditional model of deploying engineers to client sites to iterate on solutions until they're good enough. Vik Paruchuri proposes replacing this model with trained AI models that loop over cus... ( #engineering #customer-success #consulting #ai #aief2025)
+- [[concepts/forward-leaning-agent|Forward-Leaning Agent]] — An agent characteristic: curious, excitable, and focused — takes initiative and makes suggestions without needing explicit prompting, but stays within bounds and knows when to defer to humans. ( #agent #ai #design #personality #behavior)
+- [[concepts/foundation-models|Foundation Models]] — Stub page created to resolve incoming wiki links for Foundation Models. ( #stub)
+- [[concepts/foundation-models-autonomous-driving|Foundation Models in Autonomous Driving]] — The application of multimodal foundation models (Gemini, etc.) to autonomous driving, enabling end-to-end systems that generalize to longtail scenarios and provide explainable reasoning through cha... ( #foundation-models #autonomous-driving #gemini #large-language-models #multimodal)
+- [[concepts/founder-market-fit|Founder-Market Fit Over Product-Market Fit]] — At pre-seed and seed stages, VCs invest in founder quality, team-building ability, and unique market insight rather than product-market fit. ( #founder #team #vision #vc #fundraising)
+- [[concepts/fp8-compute|FP8 Compute on Hopper]] — NVIDIA Hopper architecture's native FP8 (8-bit floating point) compute support, enabling faster matrix operations and reduced memory usage for LLM inference. Requires H100/H200 GPUs. ( #fp8 #hopper #nvidia #quantization #gpu)
+- [[concepts/fp8-kv-cache|FP8 KV Cache Quantization]] — Quantizing the KV cache to FP8 precision on Hopper GPUs, reducing memory usage for attention state. Works well even on small models like Orpheus TTS (3B), enabling higher concurrency. ( #quantization #fp8 #kv-cache #hopper #memory-optimization)
+- [[concepts/frames-processors-pipelines|Frames, Processors, and Pipelines]] — Frames, Processors, and Pipelines ( #pipecat #real-time #architecture #streaming #media-pipeline)
+- [[concepts/framework-agnostic-agents|Framework-Agnostic Agents]] — The approach of deploying and coordinating AI agents built with different frameworks (CrewAI, LangChain, Pydantic, Vercel AI SDK) within the same system, with platform-managed inter-agent communica... ( #framework-agnostic #multi-framework #agent-deployment #crewai #langchain)
+- [[concepts/frontier-model-eval-capability|Frontier Model Eval Capability]] — The measurement of frontier models' capability at eval-related tasks — improving prompts, datasets, and scorers — tracked via quarterly evaluations. Cloud 4 represents a 6x breakthrough over its pr... ( #frontier-models #eval-capability #model-benchmarking #llm-evals)
+- [[concepts/fruit-letter-counter|Fruit Letter Counter]] — A fictional app used by Ido Pesok at AIEF2025 to illustrate why LLMs are unreliable in production. The app counts letters in fruit names — works in demo, fails with real users. ( #evals #example #llm-unreliability #production-ai #demonstration)
+- [[concepts/full-duplex-voice-models|Full Duplex Voice Models]] — Voice AI models that process audio input and generate speech output simultaneously, mimicking the human brain's concurrent comprehension and production tracks. ( #voice #ai #speech #full-duplex #turn-taking)
+- [[concepts/functional-programming|Functional Programming]] — Stub page created to resolve incoming wiki links for Functional Programming. ( #stub)
+- [[concepts/fuzz-testing-ai|Fuzz Testing in AI]] — Large-scale adversarial input generation to discover bugs and corner cases in AI applications before production — the AI adaptation of software fuzzing and property-based testing. ( #fuzz-testing #ai-reliability #property-based-testing #hazing #qa)
+- [[concepts/fuzzy-text-matching|Fuzzy Text Matching]] — Fuzzy Text Matching ( #fuzzy-matching #text-comparison #llm #dynamic-programming #ai-editing)
+- [[concepts/gardening-as-design-paradigm|Gardening as Design Paradigm]] — The speculative future of AI UX design where designers shift from construction (procedurally specifying every interaction) to gardening (setting goals and constraints for generative systems to grow... ( #ai #ux #design #philosophy #aief2025)
+- [[concepts/gas-abstraction|Gas Abstraction]] — Removing the requirement for end users to hold native blockchain tokens for gas fees, enabling them to pay transaction costs in USDC or fiat. ( #blockchain #gas #usdc #developer-tools)
+- [[concepts/gemini-25-pro|Gemini 2.5 Pro]] — Google DeepMind's latest Gemini 2.5 Pro model update, announced at AIEF2025 as a comprehensive performance improvement across benchmarks based on developer feedback. Also featured in AI Diplomacy b... ( #gemini #google-deepmind #llm #benchmark #aief2025)
+- [[concepts/gemini-live-api|Gemini Live API]] — Gemini Live API ( #gemini #real-time-api #google #voice-ai #turn-detection)
+- [[concepts/gemini-model|Gemini Model]] — Stub page created to resolve incoming wiki links for Gemini Model. ( #stub)
+- [[concepts/gen-ai-semantic-conventions|GenAI Semantic Conventions]] — GenAI Semantic Conventions ( #semantic-conventions #genai #open-telemetry #mcp #agent-traces)
+- [[concepts/genei-document-toolchain|GenEI Document Toolchain]] — LlamaIndex's GenEI-native document toolchain — a cloud service providing document parsing, extraction, indexing, and tool interfaces for AI agents to interact with enterprise documents. ( #genai #document-parsing #enterprise-data #llamaindex #toolchain)
+- [[concepts/generalist-engineer|Generalist Engineer]] — The ideal team member for small AI teams: someone who can work across the full stack, talk to customers, build go-to-market, and operate with high maturity. Seniority means maturity, not years of e... ( #hiring #team-design #generalist #ai #aief2025)
+- [[concepts/generalist-vs-specialist|Generalist vs Specialist Hiring]] — The case for hiring generalist ML engineers over specialists for early AI teams, supported by automation and platform investment. Extended with cross-discipline generalists who span design, coding,... ( #hiring #ai-team #generalist #specialist #ml-engineering)
+- [[concepts/generative-media|Generative Media]] — Generative Media ( #generative-media #ai-content #video-generation #image-generation #audio-generation)
+- [[concepts/generative-retrieval-recsys|Generative Retrieval for Recommendation Systems]] — Using LLMs to generate item recommendations directly as tokens from user prompts, rather than scoring a candidate set. YouTube's LRM uses this approach to produce unique recommendations for hard ta... ( #recommendation-systems #generative-retrieval #llm #retrieval #recsys)
+- [[concepts/generative-video-vs-image|Generative Video vs Image Market]] — Generative Video vs Image Market ( #video-generation #image-generation #generative-media #market-size)
+- [[concepts/genos-proprietary-gen-ai-platform|GenOS — Proprietary Gen AI Platform]] — A proprietary generative AI platform built because off-the-shelf GenOS tooling doesn't support regulatory, safety-critical use cases at enterprise scale. Components include GenUX, Orchestrator, and... ( #gen-ai #platform #enterprise-ai #orchestration #proprietary)
+- [[concepts/ghost-engineers|Ghost Engineers]] — A 'ghost engineer' is a software engineer who collects a paycheck but does essentially no work. Stanford's study found ~10% of engineers in a 50k dataset fit this pattern — surprising to some, unsu... ( #software-engineering #productivity #management #measurement #ai-productivity)
+- [[concepts/github-codespaces-ai-coding|GitHub Codespaces for AI Coding]] — GitHub Codespaces for AI Coding ( #github-codespaces #vscode #vibe-coding #dev-container #cloud)
+- [[concepts/global-search-graphrag|Global Search Graphrag]] — Stub page created to resolve incoming wiki links for Global Search Graphrag. ( #stub)
+- [[concepts/globaldefault|globalDefault]] — globalDefault ( #deployment)
+- [[concepts/golden-dataset|Golden Dataset]] — A curated collection of query-document pairs used as ground truth for evaluating retrieval systems. Each pair represents: given this query, this document should be retrieved. ( #evals #evaluation #retrieval #golden-dataset #test-data)
+- [[concepts/golden-datasets|Golden Datasets]] — Manually graded, trusted reference datasets used to calibrate and quantify the accuracy of automated evals like LLM-as-judge. Represents quality in the scale-vs-quality evals framework. ( #evals #golden-dataset #ground-truth #quality #evaluation-methodology)
+- [[concepts/good-enough-judgment|Good-Enough Judgment]] — Good-Enough Judgment ( #ai-coding #vibe-engineering #pragmatism #software-engineering #abstraction)
+- [[concepts/government-ai-agents|Government AI Agents]] — AI agents operating within government regulatory frameworks, handling classified data, executing on HPC infrastructure, and subject to OMB/FedRAMP/DOD governance requirements. ( #government #ai-agents #national-security #regulations #compliance)
+- [[concepts/government-build-vs-buy-ai|Government Build-vs-Buy AI]] — The government AI procurement dilemma: build custom models and infrastructure vs. buy commercial solutions, constrained by classified data, compliance requirements, and mission-critical stakes. ( #build-vs-buy #government-ai #national-security #custom-models #frontier-partnerships)
+- [[concepts/gpu-cold-start|GPU Cold Start Problem]] — The expensive latency cost of warming up GPU workers for inference — loading and compiling 10-20 sub-models takes 10-20 minutes, making traditional auto-scaling wasteful for large model serving. In... ( #cold-start #gpu-scaling #auto-scaling #ml-infrastructure #model-loading)
+- [[concepts/gpu-commoditization|GPU Commoditization]] — GPU Commoditization ( #gpu #commodity #marketplace #ai-infrastructure #pricing)
+- [[concepts/gpu-marketplace|GPU Marketplace]] — GPU Marketplace ( #gpu #marketplace #compute #ai-infrastructure #resource-allocation)
+- [[concepts/gpu-mig|GPU MIG (Multi-Instance GPU)]] — NVIDIA H100 Multi-Instance GPU technology that partitions a single GPU into isolated instances, enabling cost-efficient deployment of small models (3B params) on fraction of an H100 while retaining... ( #gpu #mig #h100 #cost-optimization #inference)
+- [[concepts/gpu-profiling|GPU Profiling]] — Technique for monitoring GPU utilization, memory, power, temperature, and per-process performance metrics to identify bottlenecks and optimize GPU resource usage. ( #gpu #profiling #performance #nvidia #cuda)
+- [[concepts/gpu-scaling|GPU Scaling for ML Inference]] — Strategies for scaling GPU compute resources to handle inference demand spikes — including Luma's approach of repurposing training clusters and auto-scaling on burst detection. ( #gpu-scaling #auto-scaling #burst-scaling #gpu-orchestration #ml-infrastructure)
+- [[concepts/gpu-time-profiling|GPU Time Profiling]] — A specialized GPU profiling technique that measures actual GPU time spent by individual CUDA kernel functions, correlating CPU-side call stacks with GPU execution duration. ( #gpu #profiling #cuda #time-measurement #kernel-profiling)
+- [[concepts/gpu-utilization|GPU Utilization]] — GPU Utilization ( #gpu #utilization #efficiency #ai-infrastructure #resource-allocation)
+- [[concepts/graffiti-temporal-graph|Graffiti (Temporal Graph Framework)]] — Zep's open-source temporal graph framework that allows developers to build custom entities and edges for their particular business domain. Powers Zep's domain-aware memory system. ( #temporal-graph #knowledge-graph #open-source #zep #domain-aware-memory)
+- [[concepts/granular-eval-metrics|Granular Eval Metrics]] — Evaluation metrics measured at individual steps within an agentic workflow — tool correctness, retrieval quality, hallucination — not binary pass/fail. ( #evals #metrics #agent-evaluation #observability #evaluation-metrics)
+- [[concepts/graph-acceleration|Graph Acceleration]] — The use of GPU-accelerated graph algorithms (via cuGraph, integrated with NetworkX) to reduce graph traversal latency in large-scale knowledge graphs for RAG systems. ( #graph #gpu #acceleration #cugraph #networkx)
+- [[concepts/graph-analytics-enrichment|Graph Analytics Enrichment]] — Graph Analytics Enrichment ( #knowledge-graph #graphrag #graph-analytics #pagerank #community-detection)
+- [[concepts/graph-analytics-rag-curation|Graph Analytics for RAG Curation]] — Applying graph data science algorithms — KNN similarity, community detection, PageRank, betweenness centrality — to curate and improve RAG grounding data quality at scale. ( #rag #graph-analytics #community-detection #knowledge-graph #curation)
+- [[concepts/graph-coloring|Graph Coloring Problem]] — Graph theory problem assigning colors to vertices. Applied to Connections where words are vertices, categories are colors, and semantic similarity forms edges. ( #graph-theory #computer-science #optimization #combinatorics #connections)
+- [[concepts/graph-database-challenges|Graph Database Challenges]] — Four challenges Writer encountered when using graph databases for enterprise RAG: costly graph construction at scale, Cypher's struggle with similarity matching, LLM preference for text over graph... ( #graph-database #cypher #knowledge-graph #rag #aief2025)
+- [[concepts/graph-state-management|Graph State Management]] — Graph State Management ( #state-management #graphs #agents #knowledge-graphs #data-models)
+- [[concepts/graph-traversal-similarity|Graph Traversal Similarity]] — A graph-based similarity computation technique that uses variable-length path traversals (0-3 hops) over shared entities — skills, domains, accomplishments — to find and rank similar entities with... ( #knowledge-graph #graph-traversal #similarity #agent #retrieval)
+- [[concepts/graph-vs-document-retrieval|Graph vs Document Retrieval]] — The contrast between pure document-level retrieval (vector search on raw documents) and graph-based retrieval (structured entity-relationship queries), with the key insight that document-only retri... ( #retrieval #knowledge-graph #rag #agent #architecture)
+- [[concepts/graphrag|GraphRAG]] — GraphRAG ( #rag #retrieval #knowledge-graph #graph-database #architecture)
+- [[concepts/graphrag-code|GraphRAG for Code]] — GraphRAG for Code ( #graphrag #code-understanding #repository-analysis #code-translation #microsoft-research)
+- [[concepts/graphrag-patterns-catalog|GraphRAG Patterns Catalog]] — GraphRAG Patterns Catalog ( #graphrag #patterns #knowledge-graph #neo4j #cypher)
+- [[concepts/greenfield-vs-brownfield|Greenfield vs Brownfield]] — Most software engineering is brownfield (existing codebases with dependencies), not greenfield (from-scratch). AI excels at greenfield boilerplate, so lab studies showing AI's massive advantage in... ( #software-engineering #ai #methodology #productivity)
+- [[concepts/ground-truth-evaluation|Ground Truth Evaluation]] — An evaluation approach that compares system outputs against known correct answers or expected facts — requiring a curated dataset of questions with specified expected content. ( #evaluation #ground-truth #golden-dataset #eval-data #reference-answers)
+- [[concepts/grounding-dino|Grounding DINO]] — A zero-shot object detection model that can detect objects given natural language class names. Benchmarked on RF100VL where zero-shot achieves ~19 mAP and fine-tuning with federated loss achieves t... ( #grounding-dino #object-detection #zero-shot #vision-language #federated-loss)
+- [[concepts/grpc|gRPC]] — gRPC ( #networking)
+- [[concepts/guardrails-content-filters|Guardrails & Content Filters]] — Guardrails & Content Filters ( #guardrails #content-filters #safety #azure-ai-foundry #microsoft)
+- [[concepts/hallucination-detection|Hallucination Detection]] — Detecting when AI systems generate factually incorrect or fabricated information — a core evaluation metric measurable via LLM-as-judge scoring. ( #hallucination #llm-evaluation #evals #ai-agents #truthfulness)
+- [[concepts/hallucination-prevention|Hallucination Prevention]] — Stub page created to resolve incoming wiki links for Hallucination Prevention. ( #stub)
+- [[concepts/hardware-vendors-ai|Hardware Vendors in AI Inference]] — The ecosystem of hardware manufacturers (NVIDIA, Intel, AMD, Qualcomm) whose silicon (GPU, NPU, CPU) powers on-device AI inference, with platform vendors integrating their accelerators into inferen... ( #hardware #nvidia #intel #amd #qualcomm)
+- [[concepts/harold-cohen-arian|Harold Cohen - ARIAN]] — Harold Cohen - ARIAN ( #ai-art #ai-history #generative-art #computational-creativity)
+- [[concepts/harvester-cultivator-model|Harvester/Cultivator Model]] — Harvester/Cultivator Model ( #organizational-structure #palantir #harvester #cultivator #ai-engineering)
+- [[concepts/hbm-memory|HBM Memory]] — High Bandwidth Memory — critical memory technology for AI accelerators, subject to US export bans to China but reaching Chinese manufacturers through complex supply chains. ( #semiconductor #memory #ai-hardware #hbm #gpu)
+- [[concepts/head-of-line-silence|Head of Line Silence]] — A latency artifact specific to Orpheus TTS where ~600ms of silence is baked into the beginning of generated audio, adding significant latency to real-time voice interactions. Can be eliminated by f... ( #voice-ai #latency #orpheus #real-time #voice-inference-metrics)
+- [[concepts/headcount-vs-productivity|Headcount vs Productivity]] — The principle that adding people to a team does not linearly increase productivity — and can decrease it through bureaucracy, meeting overload, and specialist silos. Productivity scales through gen... ( #productivity #team-design #scaling #startup #aief2025)
+- [[concepts/healthcare-administration-costs|Healthcare Administration Costs]] — The disproportionate cost of healthcare administration — 20% of U.S. GDP attributed to healthcare, with admin growing 30-fold while clinical staff barely doubled over three decades. ( #healthcare #administration #costs #gdp #efficiency)
+- [[concepts/healthcare-friction|Healthcare Friction]] — Inefficiencies from communication between payers, providers, and patients. Includes claim denials, appeals, rework, and delays that increase cost without improving outcomes. ( #healthcare #friction #inefficiency #administration #claims)
+- [[concepts/healthcare-three-stakeholders|Healthcare Three Stakeholders]] — The three core groups in U.S. healthcare: patients (receive care), providers (deliver care), and payers (fund care). Understanding their interactions is key to analyzing healthcare friction. ( #healthcare #patients #providers #payers #terminology)
+- [[concepts/heuristics-vs-hard-evidence-context|Heuristics vs Hard Evidence in Context]] — Heuristics vs Hard Evidence in Context ( #context #user-state #codebase-state #ai-coding #windsurf)
+- [[concepts/high-availability|High Availability]] — High Availability ( #deployment)
+- [[concepts/high-availability-control-plane|high-availability control plane]] — high-availability control plane ( #deployment)
+- [[concepts/high-bandwidth-feedback|High-Bandwidth Feedback]] — High-quality, high-bandwidth feedback from real users — through direct observation, personal relationships, and deep engagement — rather than surface-level metrics and dashboards. The difference be... ( #feedback #user-research #product-development #metrics #observation)
+- [[concepts/high-level-container-runtime|high-level container runtime]] — high-level container runtime ( #container)
+- [[concepts/high-performer-bifurcation|High Performer Bifurcation]] — High Performer Bifurcation ( #enterprise-ai #adoption #performance #strategy)
+- [[concepts/high-signal-low-noise|High Signal, Low Noise]] — AI review feedback should prioritize meaningful, actionable insights over trivial issues. High signal, low noise is a core quality principle for AI code review systems. ( #code-review #ai #quality #software-engineering #aief2025)
+- [[concepts/high-trust-culture|High-Trust Culture]] — The principle that small AI teams require high trust, minimal bureaucracy, continuous discussions, and people who can move fast without being managed. Politics are the death of small teams. ( #culture #team-design #trust #startup #aief2025)
+- [[concepts/hnsw-filtering-paradox|HNSW Filtering Paradox]] — In HNSW-based vector search, applying a restrictive filter makes queries slower — the opposite of traditional databases. Filters force the algorithm to examine more candidates before finding matchi... ( #hnsw #vector-search #filtering #performance #approximate-nearest-neighbor)
+- [[concepts/holistic-ai-sdlc|Holistic AI Across the SDLC]] — The thesis that the next breakthrough in AI software development will be a holistic, unified solution spanning the entire SDLC — not point tools for individual phases. Analogized to Wiz's approach... ( #sdlc #holistic-ai #aief2025 #itamar-friedman #qodo)
+- [[concepts/holistic-eval-framework|Holistic Eval Framework]] — Holistic Eval Framework ( #evals #benchmarking #multi-metric #ai-search #aief2025)
+- [[concepts/horizontal-pod-autoscaler|Horizontal Pod Autoscaler]] — Horizontal Pod Autoscaler ( #term)
+- [[concepts/horizontal-scaling|Horizontal Scaling]] — Horizontal Scaling ( #scaling)
+- [[concepts/horizontal-vs-vertical-mcp|Horizontal vs Vertical MCP]] — Two MCP server models: vertical (specific tool calls for a specific domain) vs horizontal (broad perimeter, one server can do many things across many pages). ( #mcp #horizontal-mcp #vertical-mcp #ai-agents #tool-discovery)
+- [[concepts/horizontalpodautoscaler|Horizontalpodautoscaler]] — HorizontalPodAutoscaler (HPA) is a core Kubernetes resource that automatically manages the replica count of a target workload, such as a ReplicaSet or Deployment. It con...
+- [[concepts/host-security|Host Security]] — Host Security ( #security)
+- [[concepts/hostname-setting|Hostname setting]] — Hostname setting ( #networking)
+- [[concepts/hot-model-rollout|Hot Model Rollout]] — The ability to update model versions across a fleet of GPU workers without restarting them — enabling simultaneous deployment to thousands of GPUs with zero downtime. ( #model-deployment #zero-downtime #hot-reload #model-versioning #ml-ops)
+- [[concepts/hotpotqa|HotPotQA]] — HotPotQA ( #evals #benchmarking #multi-hop #retrieval #static-eval-sets)
+- [[concepts/how-tls-certificates-work-in-kubernetes-and-manual-cluster-setup|how-tls-certificates-work-in-kubernetes-and-manual-cluster-setup (merged into Manual Certificate Management)]] — How Tls Certificates Work In Kubernetes And Manual Cluster Setup ( #term #tls)
+- [[concepts/human-agent-co-evolution|Human-Agent Co-Evolution]] — Danielle Perszyk's model of the reciprocal relationship between humans and AI agents: agents learn from humans and redistribute skills across communities, humans teach agents and benefit from agent... ( #theory #agents #ai)
+- [[concepts/human-baseline-benchmarking|Human Baseline Benchmarking]] — A benchmarking methodology that uses human performance as the target baseline for measuring AI intelligence — creating problems feasible for humans but hard for AI, testing human participants in co... ( #ai #benchmarking #agi #evaluation #methodology)
+- [[concepts/human-computer-interaction|Human-Computer Interaction]] — The study of how humans interact with computers, evolving from screen-and-keyboard interfaces toward more natural forms of interaction with AI systems. ( #hci #user-interface #interaction-design #ai-education #emerging-ux)
+- [[concepts/human-in-the-loop|Human-in-the-Loop]] — Human approval gates in agentic workflows where agents pause for human review before executing actions — a critical pattern for responsible automation that balances autonomy with human oversight. ( #human-in-the-loop #agents #approval-gates #agentic-workflows #oversight)
+- [[concepts/human-in-the-loop-payments|Human-in-the-Loop Payments]] — The design pattern of keeping a human as the final approver in AI-driven payment workflows, reflecting the current gap between probabilistic AI and deterministic payment systems. ( #payments #agents #safety #human-in-the-loop)
+- [[concepts/human-in-the-loop-regulated-ai|Human-in-the-Loop in Regulated AI]] — Human-in-the-Loop in Regulated AI ( #ai #architecture #regulated-industry #compliance #enterprise)
+- [[concepts/human-seeded-evals|Human-Seeded Evals]] — Pattern where human-defined schema validators act as deterministic evals that the LLM learns from in real-time. Validation errors are returned to the model for self-correction, creating a feedback... ( #evals #validation #schema-validation #pydantic #agent-loop)
+- [[concepts/human-turn-taking-prediction|Human Turn-Taking Prediction]] — The three-stage model by which listeners predict when a speaker will finish their turn: semantic inference, syntactic refinement, and prosodic finalization, enabling responses faster than speech ge... ( #linguistics #conversation #psychology #turn-taking #prediction)
+- [[concepts/human-vs-ai-information-consumption|Human vs AI Information Consumption]] — The fundamental difference between human and AI information consumption patterns: humans type simple keywords and click a few links; AI agents process vast information, use complex queries, and nee... ( #human-ai-difference #information-consumption #user-model #search-design #ai-native-toolchain)
+- [[concepts/human-vs-machine-users|Human vs Machine Users]] — Human vs Machine Users ( #deployment)
+- [[concepts/humanoid-foundation-model|Humanoid Foundation Model]] — A foundation model designed specifically for humanoid robots — a general-purpose AI that can be fine-tuned across different robot embodiments to perform diverse physical tasks in human-built enviro... ( #humanoid #foundation-model #robotics #physical-ai #cross-embodiment)
+- [[concepts/hybrid-autonomy-model|Hybrid Autonomy Model]] — A 95% autonomous / 5% teleoperated hybrid model where foundation models handle routine tasks and humans intervene for edge cases, achieving better speed and reliability than either approach alone. ( #robotics #autonomy #teleoperation #foundation-models #human-in-the-loop)
+- [[concepts/hybrid-graph-extraction|Hybrid Graph Extraction]] — A graph construction methodology that combines fully automated LLM triplet extraction with manual expert taxonomy refinement, where domain experts prune and correct the auto-extracted graph to ensu... ( #knowledge-graph #extraction #llm #ontology #methodology)
+- [[concepts/hybrid-retrieval|Hybrid Retrieval]] — Combining vector search, keyword matching, semantic search, temporal filtering, and domain-specific filtering in a single retrieval pipeline to handle complex queries. ( #retrieval #search #vector-search #keyword-search #semantic-search)
+- [[concepts/hybrid-search|Hybrid Search]] — Combining multiple search methods (keyword + dense vector + sparse vector) to get the best of each. Increasingly recognized as necessary for production retrieval systems. Uses RRF or score normaliz... ( #search #retrieval #hybrid #fusion)
+- [[concepts/hybridrag|HybridRAG]] — A RAG architecture that fuses two retrieval pathways — a knowledge graph (graph-based retrieval) and a semantic vector database (embedding-based retrieval) — to capture both structured entity relat... ( #rag #retrieval #knowledge-graph #vector-database #hybrid)
+- [[concepts/hyper-personalized-ads|Hyper-Personalized Ads]] — Hyper-Personalized Ads ( #advertising #personalization #generative-media #hyper-personalization)
+- [[concepts/idor-insecure-direct-object-reference|IDOR — Insecure Direct Object Reference]] — IDOR is an access control flaw where predictable resource identifiers (user IDs, document IDs) allow unauthorized data access when only token validity is checked, not resource ownership. ( #idor #security #authorization #access-control #vulnerability)
+- [[concepts/imitation-learning|Imitation Learning in Robotics]] — The paradigm where robots learn by watching human demonstrations — teleoperation trajectories serve as the demonstration dataset from which the robot's policy is learned, forming the basis for foun... ( #imitation-learning #robotics #teleoperation #demonstration #behavioral-cloning)
+- [[concepts/immutable-functional-style|Immutable Functional Style]] — A coding style that encourages immutable data structures and functional patterns to prevent entire classes of errors like race conditions — recommended for both humans and AI agents. ( #functional-programming #immutability #style-guide #race-conditions #ai-coding)
+- [[concepts/implicit-feedback-signal|Implicit Feedback Signals]] — Implicit Feedback Signals ( #feedback #user-behavior #evals #ai-agents #user-signal)
+- [[concepts/in-context-learning|In-Context Learning]] — In-Context Learning ( #in-context-learning #icl #few-shot #llm #cold-start)
+- [[concepts/in-flight-batching|In-Flight Batching]] — A scheduling technique for LLM inference where new requests are batched with ongoing generation, allowing mixed prefill and decode requests on the same GPU — but with inherent scheduling conflicts. ( #inference #batching #scheduling #llm-serving #prefill)
+- [[concepts/in-memory-retrieval|In-Memory Retrieval]] — The simplest RAG approach: bring all documents into the LLM context window without any retrieval step. Works when document count is small; fails when context is polluted or exceeds window size. ( #in-memory #context-window #rag #retrieval #llm)
+- [[concepts/in-place-pod-vertical-scaling|In-Place Pod Vertical Scaling]] — In-Place Pod Vertical Scaling ( #scaling)
+- [[concepts/incentive-protocols-infrastructure|Incentive Protocols for Infrastructure]] — Using token-based incentive mechanisms to fund and coordinate infrastructure construction in developing markets, applying Bitcoin's mining incentive model to solar panel deployment. ( #incentive-protocols #crypto-economics #solar-energy #infrastructure #developing-world)
+- [[concepts/incremental-context-sharing|Incremental Context Sharing]] — The pattern of sharing context with AI agents incrementally through natural conversation — starting broad, adding detail as it becomes relevant, and letting the agent adapt its responses over time. ( #incremental-context #agent-communication #conversation-pattern #copilot #aief2025)
+- [[concepts/indentation-robustness|Indentation Robustness]] — Indentation Robustness ( #indentation #llm #text-editing #ai-editing #delta-computation)
+- [[concepts/independent-study|Independent Study]] — Independent Study ( #learning #self-education #pedagogy #skill-acquisition)
+- [[concepts/inference-as-commodity|Inference As Commodity]] — Stub page created to resolve incoming wiki links for Inference As Commodity. ( #stub)
+- [[concepts/inference-growth|Inference Growth]] — The exponential increase in AI inference workloads — measured as the ratio of current inference volume to a baseline period. A key signal of model adoption and ecosystem demand. ( #inference #scaling #adoption #ai-infrastructure #google)
+- [[concepts/inference-pareto-frontier|Inference Pareto Frontier]] — The quality-latency-cost tradeoff surface for LLM inference: the set of optimal operating points where improving one axis requires sacrificing another. Different applications need different points... ( #inference #pareto-frontier #latency #cost #quality)
+- [[concepts/inference-performance-evaluation|Inference Performance Evaluation]] — System-level evaluation of LLM inference performance measuring latency, throughput, time-to-first-token, and inter-token latency. Covers both GuideLLM methodology and Modal LLM Almanac's prefill-vs... ( #evaluation #inference #benchmarking #performance #latency)
+- [[concepts/inference-serving|Inference Serving]] — The architecture and operational patterns for serving trained ML models at scale during inference. Luma AI's journey from Triton to custom PyTorch-based serving illustrates key design tradeoffs. ( #inference #model-serving #gpu-inference #ml-infrastructure #serving-stack)
+- [[concepts/inference-time-compute|Inference-Time Compute Scaling]] — The paradigm of improving LLM outputs by spending additional compute per inference call — generating multiple samples, performing majority voting, and sequential revision — rather than scaling pre-... ( #inference-time-compute #scaling #llm #cost-optimization #autonomous-coding)
+- [[concepts/inference-time-scaling|Inference-Time Scaling]] — Spending more compute at test time to find better answers through exploration — the modern LLM mapping of Sutton's 'search' from the Bitter Lesson. ( #inference #scaling #compute #search #llm)
+- [[concepts/inference-training-blur|Inference-Training Blur]] — The convergence of inference and training infrastructure, where inference clusters are repurposed for training workloads (RLVR) during low-utilization periods. ( #ai-infrastructure #training #inference #rlvr #compute)
+- [[concepts/inference-verbosity|Inference Verbosity]] — The tendency of models to produce many output tokens relative to the intelligence delivered. Verbosity is a first-class cost and latency driver, not just a side effect. ( #verbosity #output-tokens #cost #reasoning #aief2025)
+- [[concepts/inference-vs-training-compute|Inference vs Training Compute]] — The economic asymmetry between expensive pre-training (tens of millions) and cheap inference drives the shift toward inference-time compute scaling for improving model outputs. ( #inference #training #compute #economics #llm)
+- [[concepts/information-retrieval|Information Retrieval]] — The field of finding relevant information from a collection of documents. Encompasses keyword/lexical search, vector search, hybrid methods, and evaluation. The 'R' in RAG. ( #search #retrieval #fundamentals)
+- [[concepts/information-theory|Information Theory]] — Stub page created to resolve incoming wiki links for Information Theory. ( #stub)
+- [[concepts/information-theory-compression|Information Theory and Compression]] — Claude Shannon's information theory and compression formats (JPEG, MP3, MP4) exploit human perceptual limitations — removing information we cannot perceive. This has implications for AI training da... ( #information-theory #compression #human-perception #jpeg #mp3)
+- [[concepts/infrastructure-provisioning|Infrastructure Provisioning]] — Infrastructure Provisioning ( #deployment)
+- [[concepts/ingress|Ingress]] — Ingress ( #networking)
+- [[concepts/init-container|Init Container]] — Init containers are special containers that run before app containers in a Pod, handling setup tasks like initializing shared volumes or waiting for dependencies.
+- [[concepts/inpainting|Inpainting]] — Stub page created to resolve incoming wiki links for Inpainting. ( #stub)
+- [[concepts/input-output-evals|Input-Output Evals]] — Traditional LLM evaluation where inputs are checked against a golden dataset — insufficient for voice agents due to conversational diversity; probabilistic evals are the alternative. ( #evals #llm #testing #golden-dataset)
+- [[concepts/input-output-specification|Input-Output Specification]] — The principle that clearly defining what goes into an AI system and what comes out is the most fundamental and durable part of building an AI application — more important than the choice of model o... ( #input-output #specification #ai-systems #moat #system-design)
+- [[concepts/install-kubernetes-components|install-kubernetes-components]] — Install Kubernetes Components ( #term)
+- [[concepts/instructable-voice|Instructable Voice]] — Voice models that accept natural language instructions controlling not just what to say but how to say it — including emotional tone, proximity, focus, and delivery style. ( #voice-model #tts #voice-control #instructable-models #openaudio)
+- [[concepts/instruction-tuning|Instruction Tuning]] — Instruction Tuning ( #instruction-tuning #llm #fine-tuning #personalization)
+- [[concepts/instrumentation-deep-traces|Instrumentation & Deep Traces]] — Instrumentation & Deep Traces ( #instrumentation #tracing #observability #debugging #ai-agents)
+- [[concepts/intelligence-bottlenecks|Intelligence Bottlenecks]] — A framework describing AI progress as a sequence of identified and solved bottlenecks: identifying the most prescient limitation in current systems reveals the next breakthrough direction. ( #concept #ai #history #scaling #reasoning)
+- [[concepts/intelligent-document-processing|Intelligent Document Processing]] — An AI application pattern where documents (receipts, bills of lading, invoices) are processed using a combination of custom classifiers and generative AI models for faster, more accurate results th... ( #document-processing #intelligent-document-processing #idp #classification #generative-ai)
+- [[concepts/intent-infrastructure|Intent Infrastructure]] — Intent Infrastructure ( #intent-infrastructure #commerce-infrastructure #ai-infrastructure #transaction-infrastructure)
+- [[concepts/intent-understanding|Intent Understanding in Search]] — The capability of AI-powered search systems to infer the user's underlying goal from their query, rather than matching surface-level keywords — enabling results that match what the user wants, not... ( #search #intent #semantic-understanding #user-experience #ai-powered-search)
+- [[concepts/inter-node-routing|Inter-node routing]] — Inter-node routing ( #networking)
+- [[concepts/interactive-model-discovery|Interactive Model Discovery]] — The shift from static model pages to interactive AI conversations for model discovery. Users can now converse with ChatGPT or Claude about a model directly from its platform page. ( #model-discovery #interactive-ai #chatgpt-integration #claude-integration #model-pages)
+- [[concepts/interactive-reasoning-benchmarks|Interactive Reasoning Benchmarks]] — A class of AI benchmarks where agents must explore controlled environments with defined rules and sparse rewards, infer goals through interaction, and demonstrate skill acquisition — moving beyond... ( #ai #benchmarking #agi #reasoning #evaluation)
+- [[concepts/internal-automation|Internal Automation]] — Strategy of automating every internal business operation, and when something can't be automated, building features on your product to enable that automation. ( #automation #operations #startup #efficiency #aief2025)
+- [[concepts/internal-tools|Internal Tools]] — Stub page created to resolve incoming wiki links for Internal Tools. ( #stub)
+- [[concepts/intra-node-networking|Intra-node Networking]] — Intra-node Networking ( #networking)
+- [[concepts/introduction-to-aws-iam|Introduction to AWS IAM (merged into AWS Free Tier)]] — Introduction To Aws Iam ( #term #deployment)
+- [[concepts/introduction-to-infrastructure-provisioning|Introduction to Infrastructure Provisioning (merged into Infrastructure Provisioning)]] — Introduction To Infrastructure Provisioning ( #term #deployment)
+- [[concepts/introduction-to-kubernetes|/introduction-to-kubernetes (merged into Kubernetes)]] — Introduction To Kubernetes ( #term #project)
+- [[concepts/introduction-to-ssh-and-kubernetes-cluster-setup|Introduction to SSH and Kubernetes Cluster Setup (merged into Kubernetes Node Maintenance and Cluster Upgrade Strategies - Summary)]] — Introduction To Ssh And Kubernetes Cluster Setup ( #term #node drain #node cordon #node uncordon #pod-eviction-timeout)
+- [[concepts/inverted-index|Inverted Index]] — The fundamental data structure behind search engines. An alphabetically sorted mapping from every token to the documents containing it, including term frequency and position data. ( #search #data-structure #fundamentals)
+- [[concepts/invisible-team-members|Invisible Team Members]] — The phenomenon where every team now includes invisible AI participants — ChatGPT, Claude, Gemini — behind every document, slide, and artifact. Teams of five people with five AI assistants is the ne... ( #team #ai-era #collaboration #ai-tools)
+- [[concepts/ipam|IPAM]] — IPAM ( #storage)
+- [[concepts/iptables|Iptables]] — Iptables ( #networking #firewall)
+- [[concepts/issue-from-video|Issue from Video]] — Using multimodal AI to analyze customer-submitted video recordings, extract reproduction steps, and automatically create structured bug reports or feature requests. ( #computer-vision #video-analysis #bug-reproduction #multimodal-ai #issue-management)
+- [[concepts/issue-to-pr-pipeline|Issue-to-PR Pipeline]] — The autonomous pipeline where a GitHub Issue is assigned to a coding agent, which creates a branch, implements, tests, and opens a PR — with human review as the final gate. ( #issue-to-pr #autonomous-agents #github #copilot #coding-agent)
+- [[concepts/jitter-in-robotics|Jitter in Robotics]] — Jitter in Robotics ( #jitter #timing #robotics #actuator #stutter)
+- [[concepts/joe-christian-burgum-vector-database-analysis|Joe Christian Burgum: Rise and Fall of Vector Databases]] — Joe Christian Burgum's analysis of the vector database infrastructure category: a gold rush after ChatGPT's launch, followed by industry recognition that vector search alone is insufficient for sop... ( #vector-database #infrastructure #market-analysis #rag #aief2025)
+- [[concepts/json-lines-eval-export|JSON Lines Evaluation Export]] — JSON Lines Evaluation Export ( #evaluation #data-format #json-lines #export #ci-cd)
+- [[concepts/junior-buddy-agent|Junior Buddy Agent Model]] — The mental model of an AI agent as a 'junior buddy' — capable of intern-level tasks, requiring some guidance but improving over time through feedback and memory. Emerged at Tier 3 of agent capability. ( #ai-agents #agent-models #software-engineering #aief2025)
+- [[concepts/junior-led-vs-senior-led-models|Junior-led vs Senior-led Consulting Models]] — Junior-led vs Senior-led Consulting Models ( #professional-services #consulting #organizational-models #aief2025)
+- [[concepts/jwt|Jwt]] — Stub page created to resolve incoming wiki links for Jwt. ( #stub)
+- [[concepts/kag-knowledge-augmented-generation|KAG (Knowledge Augmented Generation)]] — A retrieval-generation architecture that integrates structured knowledge graphs with LLMs to produce accurate, insight-driven responses. Unlike RAG (which retrieves passages), KAG retrieves structu... ( #rag #knowledge-graph #retrieval #kag #architecture)
+- [[concepts/kerberos|Kerberos]] — Kerberos ( #auth)
+- [[concepts/knowledge-base-pattern|Knowledge Base Pattern]] — A design pattern where AI agents maintain a centralized, queryable repository of domain knowledge built from uploaded documents, websites, and media — enabling proactive context retrieval instead o... ( #knowledge-base #rag #agent-memory #context-management #vector-database)
+- [[concepts/knowledge-based-voice-agent|Knowledge-Based Voice Agent]] — A voice agent design pattern that answers customer questions using knowledge base content (help articles) rather than narrow task scheduling or API integrations. ( #voice-ai #agent #rag #customer-service #use-case-design)
+- [[concepts/knowledge-bases-ai|Knowledge Bases for AI]] — Knowledge Bases for AI ( #knowledge-bases #copilot #enterprise #github #microsoft)
+- [[concepts/knowledge-cards|Knowledge Cards]] — A structured data retrieval pattern where entity data is stored in queryable card structures (e.g., financial metrics) enabling precise numerical answers via function calls, as opposed to passage r... ( #retrieval #structured-data #kag #rag #function-calling)
+- [[concepts/knowledge-distillation-search|Knowledge Distillation for Search]] — Knowledge Distillation for Search ( #knowledge-distillation #model-distillation #search-relevance #teacher-student #semi-supervised)
+- [[concepts/knowledge-graph-construction-pipeline|Knowledge Graph Construction Pipeline]] — Knowledge Graph Construction Pipeline ( #knowledge-graph #graphrag #construction #pipeline #entity-extraction)
+- [[concepts/knowledge-graph-ontology-design|Knowledge Graph Ontology Design]] — Knowledge Graph Ontology Design ( #knowledge-graph #ontology #llm #extraction #prompt-engineering)
+- [[concepts/knowledge-infrastructure|Knowledge Infrastructure]] — Knowledge Infrastructure ( #ai-agents #infrastructure #context-engine #documentation #aief2025)
+- [[concepts/knowledge-injection|Knowledge Injection in LLMs]] — Strategies for injecting domain knowledge into LLMs: context injection is preferred over fine-tuning for knowledge acquisition, with fine-tuning reserved for later-stage optimization of behavior ra... ( #knowledge-injection #context #fine-tuning #llm #domain-knowledge)
+- [[concepts/knowledge-work-automation|Knowledge Work Automation]] — The paradigm of using AI agents to automate tasks that historically required humans to read, analyze, and act on unstructured documents — PDFs, spreadsheets, presentations, and other enterprise data. ( #automation #knowledge-work #enterprise-ai #unstructured-data #agent)
+- [[concepts/korea-fox-ad|Korea Fox Ad]] — Diego Rodriguez's third framing metaphor: a studio went from sign-up to conversion to payment to broadcast in two days, demonstrating the velocity of AI-driven creative workflows. ( #ai-adoption #speed #metaphor #aief2025 #creative-ai)
+- [[concepts/kpi-alignment|KPI Alignment]] — KPI Alignment ( #kpi #alignment #lean-startup #micromanagement #decision-making)
+- [[concepts/kube-apiserver|kube-apiserver]] — Kube Apiserver ( #term)
+- [[concepts/kube-proxy|Kube Proxy]] — kube-proxy is a fundamental networking component that runs on every node in a Kubernetes cluster, typically deployed as a DaemonSet to ensure one instance per node. It maintains and updates net...
+- [[concepts/kube-scheduler|kube-scheduler]] — Kube Scheduler ( #term)
+- [[concepts/kubeadm-init|kubeadm init]] — kubeadm init ( #deployment)
+- [[concepts/kubeadm-join|kubeadm join]] — kubeadm join ( #deployment)
+- [[concepts/kubeadm-upgrade|kubeadm upgrade]] — kubeadm upgrade ( #deployment)
+- [[concepts/kubeconfig|kubeconfig]] — kubeconfig ( #deployment)
+- [[concepts/kubectl-proxy|kubectl proxy]] — kubectl proxy ( #deployment)
+- [[concepts/kubectl-rollout-history|kubectl rollout history]] — kubectl rollout history ( #deployment)
+- [[concepts/kubectl-rollout-status|kubectl rollout status]] — kubectl rollout status ( #deployment)
+- [[concepts/kubectl-set-image|kubectl set image]] — kubectl set image ( #deployment)
+- [[concepts/kubernetes-api-server|Api Server]] — Kubernetes Api Server ( #control-plane #api)
+- [[concepts/kubernetes-apt-repository-setup|Apt Repository Setup]] — Kubernetes APT repository setup is the procedure for adding the official Kubernetes package repository to Ubuntu/Debian APT sources, enabling installation of kubeadm, kubelet, and kubectl packages.
+- [[concepts/kubernetes-challenges|Kubernetes Challenges]] — The operational and economic challenges of running Kubernetes for workloads it wasn't designed for — high fixed costs, complexity, and vendor lock-in that make it a poor fit for certain deployment... ( #kubernetes #infrastructure #complexity #fixed-cost #platform)
+- [[concepts/kubernetes-cluster|Kubernetes Cluster]] — Kubernetes Cluster ( #deployment)
+- [[concepts/kubernetes-installation-steps|kubernetes-installation-steps]] — Kubernetes Installation Steps ( #term)
+- [[concepts/kubernetes-network-model|Kubernetes Network Model]] — Kubernetes Network Model ( #networking)
+- [[concepts/kubernetes-pod-command-and-args|Kubernetes Pod command and args]] — Kubernetes Pod command and args ( #deployment)
+- [[concepts/kubernetes-pods|Kubernetes Pods]] — Kubernetes Pods ( #term)
+- [[concepts/kubernetes-practice|Kubernetes practice]] — Kubernetes practice ( #deployment)
+- [[concepts/kubernetes-security|Kubernetes Security]] — Kubernetes Security ( #term)
+- [[concepts/kv-cache|KV Cache]] — The caching of key and value vectors during LLM inference, enabling autoregressive generation to avoid regenerating KV vectors for each new token. Foundation for prefill/decode phase separation. ( #inference #kv-cache #attention #llm #optimization)
+- [[concepts/l2-vs-l4-autonomy|L2 vs L4 Autonomy]] — The gap between L2 (partial automation, driver must monitor) and L4 (high automation, no driver needed) in autonomous driving — demonstrated by the difference between drifting research prototypes a... ( #autonomy-levels #autonomous-driving #sae-levels #perception #safety)
+- [[concepts/labels|Labels]] — Labels are fundamental metadata in Kubernetes, consisting of key-value pairs that are attached to objects to organize and manage them. They enable users to specify meaningful identifiers for resour...
+- [[concepts/langchain|LangChain]] — An LLM application framework used at AIEF2025 for document decomposition and structured entity extraction from unstructured text, producing JSON conforming to a Pydantic schema for graph database l... ( #framework #llm #rag #extraction #graphrag)
+- [[concepts/langgraph|LangGraph]] — A LangChain sub-project for building stateful, multi-actor applications with LLMs. At AIEF2025, used to build a simple retrieval agent that connects to a Neo4j knowledge graph via retrieval tools. ( #framework #agents #llm #graphrag #aief2025)
+- [[concepts/langgraph-node-architecture|LangGraph Node Architecture]] — LangGraph Node Architecture ( #langgraph #node-architecture #agentic-workflows #planning #enterprise-ai)
+- [[concepts/language-as-model-of-mind|Language as Model of Mind]] — Danielle Perszyk's argument that language co-evolved with models of mind (theory of mind) in a flywheel that integrated communication and representation systems — making models of mind 'the first v... ( #theory #cognition #linguistics)
+- [[concepts/language-detection|Language Detection]] — Automatic language detection in voice agents — identifying the spoken language to enable seamless multilingual conversation switching within a voice agent pipeline. ( #multilingual #voice-ai #language #asr #elevenlabs)
+- [[concepts/large-recommender-model|Large Recommender Model]] — YouTube's Gemini-adapted LLM for video recommendations at 2B+ DAU. Uses Semantic ID tokenization, continued pre-training, and generative retrieval to decode video recommendations directly from user... ( #recommendation-systems #llm #gemini #generative-retrieval #youtube)
+- [[concepts/large-scale-simulation|Large-Scale Simulation]] — Evaluation methodology testing AI systems across thousands of scenarios to measure aggregate performance metrics — the key unlock for autonomous vehicles, now applied to voice agents and robotics s... ( #simulation #evals #voice-ai #autonomous-driving #testing)
+- [[concepts/last-mile-problem-ai|The Last Mile Problem in AI]] — The gap between demo-ready/POC-ready AI systems and production-grade, enterprise-grade, reliable systems. Has persisted 2+ years since ChatGPT despite promises of autonomy and enterprise transforma... ( #last-mile #ai-reliability #production-ai #demo-vs-production #enterprise-ai)
+- [[concepts/latent-model-capabilities|Latent Model Capabilities]] — Hidden or unexpected capabilities in large language models that exist in model weights but are not known even to the models' creators. ( #ai #llm #capabilities #emergence #discovery)
+- [[concepts/layered-agent-safety|Layered Agent Safety]] — Layered Agent Safety ( #safety #agents #defense-in-depth #risk-mitigation #application-layer)
+- [[concepts/layered-graph-architecture|Layered Graph Architecture]] — A knowledge graph organization pattern where data is structured in conceptual layers matching networking domains, allowing AI agents to query only the relevant depth for their specific task rather... ( #knowledge-graph #architecture #network-operations #graph-design #multi-agent)
+- [[concepts/lazy-graphrag|LazyGraphRAG]] — LazyGraphRAG ( #graphrag #retrieval #microsoft-research #performance)
+- [[concepts/ldap|LDAP]] — LDAP ( #auth)
+- [[concepts/lead-code-obsolescence|Lead Code Obsolescence]] — Stub page created to resolve incoming wiki links for Lead Code Obsolescence. ( #stub)
+- [[concepts/leaderboard-skepticism|Leaderboard Skepticism]] — Stub page created to resolve incoming wiki links for Leaderboard Skepticism. ( #stub)
+- [[concepts/leading-words|Leading Words]] — Leading Words ( #agent-skills #prompt-engineering #steering)
+- [[concepts/lean-startup-playbook|Lean Startup Playbook]] — Lean Startup Playbook ( #lean-startup #operating-principles #organizational-structure #ai-tooling #playbook)
+- [[concepts/legacy-as-agent-tools|Legacy as Agent Tools]] — The pattern of decomposing legacy enterprise applications into tools that AI agents can use — reframing 100+ years of domain logic from baggage into unique competitive assets. ( #agent-architecture #legacy-systems #enterprise-ai #decomposition #aief2025)
+- [[concepts/legacy-code-ai-agent-strategy|Legacy Code AI Agent Strategy]] — A three-step methodology for using AI agents to work with unfamiliar legacy codebases: Understand (explore with chat), Write Tests (validate predicted behavior), Modernize (convert code with test v... ( #concept #agents #legacy-code #engineering #methodology)
+- [[concepts/legacy-internet-ai-agents|Legacy Internet and AI Agents]] — The 'unsexy internet' — billions of websites without APIs or MCP servers — that AI agents need to interact with, and why the browser is the universal bridge. ( #legacy-internet #ai-agents #integration #web-automation #unsexy-internet)
+- [[concepts/legal-ai|Legal AI]] — AI applications in the legal industry face unique challenges: massive domain-specific documents, complex expert queries, strict data privacy requirements, and the need for expert-in-the-loop evalua... ( #legal #ai #enterprise #domain-specific #rag)
+- [[concepts/legal-data-characteristics|Legal Data Characteristics]] — Legal data is characterized by extreme length, high density, complex cross-references, domain-specific jargon, temporal sensitivity, and strict privacy requirements. ( #legal #data-characteristics #document-processing #domain-specific #rag)
+- [[concepts/legal-industry-ai-constraints|Legal Industry AI Constraints]] — Legal Industry AI Constraints ( #legal #ai-constraints #domain-specific #correctness #compliance)
+- [[concepts/level-of-stack|Level of Stack]] — The concept that AI agents are pushing programming up a level of abstraction — from Python, JavaScript, and scripting languages up into English as the primary programming language. ( #abstraction #programming #ai-native #aief2025)
+- [[concepts/lexical-graph|Lexical Graph]] — Lexical Graph ( #knowledge-graph #graphrag #document-structure #chunks #retrieval)
+- [[concepts/lexical-search|Lexical Search]] — Classic search approach that matches on string identity after text analysis. Fast, scalable, predictable — built on the inverted index with BM25 scoring. Dumb but effective for exact and near-exact... ( #search #keyword #fundamentals)
+- [[concepts/lighthouse-scores|Lighthouse Scores]] — Lighthouse Scores ( #lighthouse #performance #web-vitals #audits #ai-agents)
+- [[concepts/limitrange|LimitRange]] — LimitRange ( #scheduling)
+- [[concepts/limitranger|LimitRanger]] — LimitRanger ( #scheduling)
+- [[concepts/lines-of-code-metrics|Lines Of Code Metrics]] — Stub page created to resolve incoming wiki links for Lines Of Code Metrics. ( #stub)
+- [[concepts/linter-integration|Linter Integration]] — Integrating linters (Ruff, MyPy, PyLint, Pyre) into the AI coding workflow with automatic error detection and fixing, tracking before/after states to prevent regression. ( #linting #automated-fixing #code-quality #ai-coding #aief2025)
+- [[concepts/linux-namespace-types|Linux namespace types]] — Linux namespace types ( #networking)
+- [[concepts/linux-network-namespace|Linux network namespace]] — Linux network namespace ( #networking)
+- [[concepts/litigation-agents|Litigation Agents]] — Litigation Agents ( #agents #litigation #legal-ai #domain-specific #knowledge-graphs)
+- [[concepts/llama-transformer-family|LLaMA Transformer Family]] — Meta's LLaMA family of open-weight transformer models (LLaMA 3, 3.2) that serve as backbone architectures for various AI applications including TTS, embeddings, and other modalities. ( #llama #transformer #meta #causal-lm #open-models)
+- [[concepts/llm-as-computation-engine|LLM as Computation Engine]] — Using language models as the execution engine for computation that involves ambiguous, multi-modal, or non-linear reasoning — producing outputs through inference rather than deterministic code. ( #ai #llm #computation #reasoning #multi-modal)
+- [[concepts/llm-as-judge|LLM as Judge]] — LLM as Judge ( #llm #evaluation #automated-eval #llm-as-judge #golden-dataset)
+- [[concepts/llm-as-judge-evaluation|LLM-as-Judge Evaluation]] — An LLM evaluates generated answers against criteria — using ground truth answers or judging purely on question-context triples. ( #evaluation #llm-as-judge #llm-evaluation #automated-evaluation #judge-model)
+- [[concepts/llm-as-judge-problems|LLM-as-Judge Problems]] — Off-the-shelf LLM-as-judge suffers from hallucinations, miscalibration, bias, and instability. These failures make it unreliable as a quality metric for AI evaluation and fuzz testing. ( #llm-as-judge #evaluation #scoring #reward-modeling #judge-calibration)
+- [[concepts/llm-as-planner-not-executor|LLM as Planner, Not Executor]] — An architectural pattern where the LLM generates a deterministic plan (in a domain-specific language) but a runtime executes it, eliminating hallucination at the answer layer. ( #ai #architecture #llm #reliability #deterministic)
+- [[concepts/llm-as-primary-audience|LLM as Primary Audience]] — The thesis that the primary audience of any product, service, library, or API is now a language model, not a human. Documentation, APIs, and interfaces should be optimized for machine consumption f... ( #llm-audience #api-design #documentation #agent-first #product-design)
+- [[concepts/llm-as-summarizer|LLM as Summarizer]] — Design principle that LLMs excel at turning a large body of text into a smaller body of text (summarization, extraction, structuring), not the reverse. Guides what applications are worth building w... ( #agent #ai #design-pattern #llm #principle)
+- [[concepts/llm-benchmarking|LLM Benchmarking]] — Measuring LLM capabilities via reproducible tasks. Connections serves as a benchmark since puzzles are identical for every player and model. ( #evaluation #llm-evaluation #benchmarking #reproducibility #connections)
+- [[concepts/llm-big-text-into-small-text|LLMs Turn Big Text Into Small Text]] — The principle that LLMs excel at turning large bodies of unstructured text into smaller, structured representations — making them integration tools rather than chatbots. ( #llm #summarization #structured-output #llamaindex #integration)
+- [[concepts/llm-cost-structure|LLM Cost Structure]] — True LLM cost is per-token price × output verbosity including hidden reasoning tokens. Costs for equivalent intelligence have fallen 100× since mid-2023. ( #cost #pricing #llm #token #reasoning-tokens)
+- [[concepts/llm-data-augmentation-recsys|LLM Data Augmentation for Recommendation Systems]] — Using LLMs to generate synthetic data, labels, and metadata for recommendation systems and search — cheaper and more scalable than human annotation. ( #recommendation-systems #llm #data-augmentation #synthetic-data #recsys)
+- [[concepts/llm-evaluation|Llm Evaluation]] — Stub page created to resolve incoming wiki links for Llm Evaluation. ( #stub)
+- [[concepts/llm-evaluation-framework|LLM Evaluation Framework]] — LLM Evaluation Framework ( #llm #evaluation #metrics #quality #enterprise-ai)
+- [[concepts/llm-evaluation-pyramid|LLM Evaluation Pyramid]] — A tiered framework for evaluating LLMs in production, progressing from system performance (base) through formatting, factual accuracy, safety/bias, to custom evals (top) — analogous to the software... ( #evaluation #llm #benchmarking #methodology #testing)
+- [[concepts/llm-hallucination-detection|LLM Hallucination Detection]] — Using upvote/downvote reactions on AI-generated code review comments as a signal for when LLMs are hallucinating or extending beyond their capabilities — a practical feedback mechanism for constrai... ( #llm-hallucination #code-review #llm-evaluation #feedback-signals)
+- [[concepts/llm-judge-best-practices|LLM-as-Judge Best Practices]] — Design principles for using an LLM as an evaluation judge: focused criteria per score, use a higher-quality model to grade, evaluate the judge against human ground truth, and trial averaging for no... ( #concept #evaluation #llm-as-judge #methodology #scoring)
+- [[concepts/llm-judge-correctness|LLM Judge Correctness Metric]] — LLM Judge Correctness Metric ( #evals #llm-as-judge #metrics #ai-search #aief2025)
+- [[concepts/llm-latency-in-consumer-apps|LLM Latency in Consumer Apps]] — Consumer-facing LLM applications face 3-10 second latency, far from backend-service SLAs of 100-200ms. This latency gap requires different UX design patterns and optimization strategies than tradit... ( #latency #llm #consumer-apps #user-experience #performance)
+- [[concepts/llm-observability|Llm Observability]] — Stub page created to resolve incoming wiki links for Llm Observability. ( #stub)
+- [[concepts/llm-ops-tooling|LLM Ops Tooling]] — LLM Ops Tooling ( #llm-ops #tooling #observability #evals #ai-agents)
+- [[concepts/llm-overfitting|LLM Overfitting in Word Games]] — LLMs matching words by superficial similarities instead of deeper relationships. Connections' decoy design tests overfitting resistance. ( #llm-evaluation #overfitting #superficial-patterns #connections #generalization)
+- [[concepts/llm-reasoning|Llm Reasoning]] — Stub page created to resolve incoming wiki links for Llm Reasoning. ( #stub)
+- [[concepts/llm-search-integration|LLM-Search Integration]] — The integration pattern where LLMs use external search engines to access current web information that cannot fit in model weights. The information-theoretic basis for why LLMs always need search. ( #llm-search #llm-retrieval #search-integration #rag #information-retrieval)
+- [[concepts/llm-sycophancy|LLM Sycophancy]] — The phenomenon where LLMs learn to agree with users regardless of idea quality, caused by poorly designed benchmark feedback loops. Cited by Alex Duffy as an example of how benchmark design can go... ( #llm #alignment #benchmark #openai #chatgpt)
+- [[concepts/llm-ui|Llm Ui]] — Stub page created to resolve incoming wiki links for Llm Ui. ( #stub)
+- [[concepts/llm-usage-heterogeneity|LLM Usage Heterogeneity]] — The finding that LLM usage is highly heterogeneous: 94% of LLM users employ at least two use cases, 82% use at least three, spanning internal and external applications across code generation, writi... ( #llm #multi-use #adoption #ai-engineering)
+- [[concepts/llm-user-behavior-alignment|LLM-User Behavior Alignment]] — The challenge that LLMs trained on general web data misalign with domain-specific user behavior, requiring contextual grounding (like top-K conversions) to produce useful outputs. ( #llm #user-behavior #e-commerce #prompt-engineering #alignment)
+- [[concepts/llms-are-hard-at-evals|LLMs Are Hard at Evals]] — LLMs Are Hard at Evals ( #evals #llm-as-judge #self-evaluation #automated-evals #ai-evaluation)
+- [[concepts/llms-protocol|LLMs Protocol (llms.txt)]] — The emerging convention for providing LLM-friendly documentation as a single markdown file. Represents a protocol shift from HTML documentation to machine-native documentation formats. ( #llms-protocol #llms-txt #documentation-standard #agent-readability #machine-readable-docs)
+- [[concepts/llms-txt|LLMs.txt]] — A specification for LLM-friendly documentation — a single clean markdown file that is more consumable by language models than HTML docs. Used by Replicate, cog.run, and other API platforms. ( #llms-txt #documentation #llm-friendly #agent-readable #api-design)
+- [[concepts/lm-memory-with-structure|LM Memory with Structure]] — LM Memory with Structure ( #llm #memory #knowledge-graph #ai-applications #graphrag)
+- [[concepts/lmos|LMOS]] — LMOS ( #lm-os #language-model #operating-system #standard-model #ai-engineering)
+- [[concepts/lnsdlc|LNSDLC]] — LNSDLC ( #sdlc #lifecycle #ai-engineering #standard-model #architecture)
+- [[concepts/local-first-ai-platform|Local-First AI Platform]] — Architectural principle that local execution must be a core platform capability, not a fork — agents created in the cloud should run and reason locally on devices for latency, privacy, and offline... ( #concept #architecture #edge #deployment #infrastructure)
+- [[concepts/local-global-queries|Local and Global Queries in GraphRAG]] — Local and Global Queries in GraphRAG ( #graphrag #retrieval #querying #knowledge-graph #code-understanding)
+- [[concepts/local-global-search-graphrag|Local and Global Search in GraphRAG]] — Local and Global Search in GraphRAG ( #graphrag #retrieval #search #knowledge-graph #neo4j)
+- [[concepts/local-model-management|Local Model Management]] — The practice of managing AI model discovery, download, caching, and execution on end-user devices — including model catalog browsing, hardware-specific variant selection, and local model storage. ( #model-lifecycle #on-device-ai #model-catalog #edge-computing)
+- [[concepts/local-models|Local Models]] — LLMs that run on consumer hardware (laptops, desktops) without cloud dependency. By early 2025, models as small as 24B parameters (Mistral Small 3) achieved GPT-4-class capabilities, making local i... ( #local #on-device #consumer-hardware #open-source #llm)
+- [[concepts/local-vs-deploy-experience-gap|Local vs Deploy Experience Gap]] — The phenomenon where AI-generated prototypes work beautifully locally but encounter significant friction when deployed — a universal pain point surfacing across major platforms. ( #developer-experience #local-vs-deploy #deployment-friction #vibe-coding #platform-fragmentation)
+- [[concepts/longtail-scenarios|Longtail Scenarios]] — Rare but critical scenarios in autonomous driving that occur frequently at scale — such as bird flocks attacking cars or wet-road scooter slips — where foundation models show superior generalizatio... ( #longtail #edge-cases #autonomous-driving #rare-events #generalization)
+- [[concepts/loop-automated-eval-optimization|Loop — Automated Eval Optimization]] — "Braintrust's Loop feature: an automated agent that optimizes prompts, datasets, and scorers together. Available via feature flag, powered by Cloud 4, with side-by-side UI and auto-optimize mode. ( #loop #automation #optimization #evals #braintrust)
+- [[concepts/lora-fine-tuning|Lora Fine Tuning]] — Stub page created to resolve incoming wiki links for Lora Fine Tuning. ( #stub)
+- [[concepts/loss-analysis|Loss Analysis]] — Stub page created to resolve incoming wiki links for Loss Analysis. ( #stub)
+- [[concepts/low-ego-high-trust|Low Ego, High Trust]] — A team culture characterized by low ego (no hierarchy-driven decision-making) and high trust (deep mutual reliance). Essential for surviving extreme startup chaos with small teams. ( #team-culture #startup #org-design #leadership)
+- [[concepts/low-level-container-runtime|low-level container runtime]] — low-level container runtime ( #container)
+- [[concepts/low-level-inference-optimization|Low-Level Inference Optimization Teams]] — Dedicated engineering teams focused on optimizing low-level operations within deep learning frameworks for production inference performance across heterogeneous hardware. ( #inference-optimization #kernel-tuning #triton-compiler #hardware-acceleration #ml-infrastructure)
+- [[concepts/majority-voting-self-consistency|Majority Voting / Self-Consistency]] — Generating multiple independent responses from an LLM and selecting the consensus answer. A form of inference-time compute scaling that predictably improves accuracy. ( #majority-voting #self-consistency #llm #inference-time-compute #sampling)
+- [[concepts/man-in-the-middle-attack|Man-in-the-Middle Attack]] — Man-in-the-Middle Attack ( #security)
+- [[concepts/managed-kubernetes|Managed Kubernetes]] — Managed Kubernetes ( #deployment)
+- [[concepts/managed-substrate|Managed Substrate]] — A deployment model where customer-owned infrastructure holds the workload (source code, data, integrations) but the vendor manages the service layer — combining data sovereignty with operational co... ( #managed-substrate #deployment-model #multi-tenant #self-hosted #hybrid)
+- [[concepts/manager-vibe-coding|Manager Vibe Coding]] — Manager Vibe Coding ( #vibe-coding #management #ai-coding #software-culture)
+- [[concepts/maniac-supercomputer|Maniac I Supercomputer]] — One of the first supercomputers at Los Alamos. In 1956, LANL ran Los Alamos Chess on Maniac I — a chess variant with no bishops, on hardware too small to hold a full board. ( #supercomputer #los-alamos #computing-history #manhattan-project #1950s)
+- [[concepts/manifest-directory|Manifest directory]] — Manifest directory ( #deployment)
+- [[concepts/manim-ai-visualization|Manim AI Visualization]] — AI agents generating Manim mathematical animations in 3Blue1Brown style from natural language prompts, automating a process requiring significant Manim expertise. ( #manim #ai-visualization #mathematical-animation #3blue1brown #generative-ai)
+- [[concepts/manual-certificate-management|Manual Certificate Management]] — Manual Certificate Management ( #tls)
+- [[concepts/manual-scaling|Manual Scaling]] — Manual Scaling ( #scaling)
+- [[concepts/manual-vs-automated-evals|Manual vs Automated Agent Evaluation]] — Manual vs Automated Agent Evaluation ( #evaluation #manual-evals #automated-evals #agent-testing #evaluation-methodology)
+- [[concepts/map-free-driving|Map-Free Driving]] — An autonomous driving approach that operates without HD (high-definition) maps, using only standard map data — enabled by foundation models that can understand road geometry from camera video alone. ( #map-free #autonomous-driving #hd-maps #end-to-end #generalization)
+- [[concepts/marginal-cost-of-creation|Marginal Cost of Creation]] — Marginal Cost of Creation ( #economics #generative-media #marginal-cost #ai-economics)
+- [[concepts/market-design|Market Design]] — Market Design ( #market-design #market-makers #commerce-infrastructure #preference-management #ai-markets)
+- [[concepts/market-makers|Market Makers]] — Market Makers ( #market-makers #market-design #intermediaries #commerce #price-discovery)
+- [[concepts/matchexpressions|matchExpressions]] — matchExpressions ( #scheduling)
+- [[concepts/matchlabels|Matchlabels]] — Stub page created to resolve incoming wiki links for Matchlabels. ( #stub)
+- [[concepts/material-vs-fluent-design-ai|Material Design and Fluent Design in AI Generation]] — Material Design and Fluent Design in AI Generation ( #design-systems #github-copilot #vibe-coding #ui #google)
+- [[concepts/mathematics|Mathematics]] — Stub page created to resolve incoming wiki links for Mathematics. ( #stub)
+- [[concepts/matricial-learning|Matricial Learning]] — Technique for reducing embedding vector storage by using a subset of dimensions (e.g., first 256 of 2048) with minimal accuracy loss (1–2%). ( #embeddings #dimensionality-reduction #storage-optimization #quantization #voyage-ai)
+- [[concepts/mcp|Model Context Protocol]] — A protocol for connecting language models to external tools and data sources. Created by two Anthropic engineers, launched at Hack Week, and adopted by Cursor, VS Code, Google, Microsoft, and OpenAI. ( #mcp #model-context-protocol #agent-tools #claude #openapi)
+- [[concepts/mcp-adoption-timeline|MCP Adoption Timeline]] — The adoption journey of MCP from its November launch through Cursor's adoption, coding IDE integration, and eventual adoption by major model providers (Google, Microsoft, OpenAI). ( #mcp #adoption #cursor #vs-code #sagemath)
+- [[concepts/mcp-as-agent-tools|MCP as Agent Tool Layer]] — Pattern where an entire MCP server serves as the tool layer for an AI agent, broadcasting all server-exposed tools to the agent via a single call instead of wiring individual tools manually. ( #mcp #model-context-protocol #ai-agents #tool-use #agent-architecture)
+- [[concepts/mcp-auth-spec-evolution|MCP Authorization Spec Evolution]] — MCP Authorization Spec Evolution ( #mcp #auth #oauth #spec #protocol)
+- [[concepts/mcp-compliance-ciso-governance|MCP Compliance and CISO Governance]] — CISO concerns about dynamic MCP tool discovery — the challenge of approving infinite MCP server integrations and how horizontal MCP servers reduce the onboarding burden. ( #mcp #compliance #ciso #security-governance #agent-security)
+- [[concepts/mcp-dev-mode|MCP Dev Mode (VS Code)]] — VS Code's MCP Dev Mode — a debugger attachment feature for MCP servers running inside VS Code, supporting Python and Node out of the box. ( #mcp #debugging #vscode #developer-experience #model-context-protocol)
+- [[concepts/mcp-dynamic-client-registration|MCP Dynamic Client Registration]] — The MCP protocol behavior where clients dynamically register themselves with servers as applications, creating operational challenges for auth management, dashboards, and headless AI agent authenti... ( #mcp #auth #protocol #enterprise)
+- [[concepts/mcp-dynamic-tool-discovery|MCP Dynamic Tool Discovery]] — MCP's built-in capability for servers to add or remove tools at runtime, enabling context-aware tool exposure that adapts to the current state of a session or application. ( #mcp #dynamic-discovery #tools #stateful #model-context-protocol)
+- [[concepts/mcp-elicitation|MCP Elicitation]] — An MCP draft spec feature that allows servers to ask end users for additional information, enabling interactive workflows where the server can request clarification from the human user through the... ( #mcp #elicitation #user-input #server-to-client #draft-spec)
+- [[concepts/mcp-gateway-pattern|MCP Gateway Pattern]] — Architectural pattern for centralizing MCP connections through a shared gateway service that handles routing, auth, rate limiting, observability, and policy enforcement. ( #mcp #architecture #infrastructure #enterprise #gateway)
+- [[concepts/mcp-hack-week-launch|MCP Hack Week Launch]] — MCP's origin story: created by two engineers at Anthropic's Hack Week in November, went viral internally, and was open-sourced to the world — the first turning point in MCP's history. ( #mcp #hack-week #anthropic #open-source #viral-launch)
+- [[concepts/mcp-handshake|MCP Handshake]] — MCP Handshake ( #mcp #handshake #agent #copilot #protocol)
+- [[concepts/mcp-local-vs-remote-auth|MCP Local vs Remote Authorization]] — MCP Local vs Remote Authorization ( #mcp #auth #security #local #remote)
+- [[concepts/mcp-native-integration|MCP Native Integration]] — Native Model Context Protocol (MCP) integration in AI agent frameworks, enabling agents to discover and use tools from thousands of MCP servers without custom adapters. ( #mcp #tool-integration #ai-agents #aws #strands-agents)
+- [[concepts/mcp-observability|MCP Observability]] — MCP Observability ( #mcp #observability #tracing #distributed-systems #open-telemetry)
+- [[concepts/mcp-permission-gate|MCP Permission Gate]] — MCP Permission Gate ( #mcp #permission #security #github-copilot #agent-mode)
+- [[concepts/mcp-prm|Protected Resource Metadata (PRM)]] — Protected Resource Metadata (PRM) ( #mcp #auth #oauth #metadata #discovery)
+- [[concepts/mcp-protected-servers|Protected MCP Servers]] — Protected MCP Servers ( #mcp #auth #security #oauth #enterprise)
+- [[concepts/mcp-rag-integration|MCP RAG Integration]] — Connecting RAG agents to external applications like Claude Desktop via the Model Context Protocol (MCP), enabling RAG capabilities to be consumed by other AI systems. ( #mcp #rag #claude-desktop #integration #agent-tools)
+- [[concepts/mcp-registry-api|MCP Registry API]] — An MCP feature in development that would provide a standardized API for models to discover and connect to MCP servers, reducing the friction of finding and integrating with tools. ( #mcp #registry-api #server-discovery #mcp-server #protocol-roadmap)
+- [[concepts/mcp-resource-server-separation|MCP Resource Server Separation]] — MCP Resource Server Separation ( #mcp #auth #oauth #architecture #separation-of-concerns)
+- [[concepts/mcp-sampling|MCP Sampling]] — MCP's server-to-client primitive that allows MCP servers to request LLM completions from the client, enabling servers to leverage the client's model without direct API access. ( #mcp #sampling #model-context-protocol #server-initiated #llm-completion)
+- [[concepts/mcp-server-simplicity-optimization|MCP Server Simplicity Optimization]] — MCP's design principle of optimizing for server simplicity over client complexity, based on the prediction that there will be more MCP servers than clients in the ecosystem. ( #mcp #server-simplicity #protocol-design #mcp-server #client-complexity)
+- [[concepts/mcp-streamable-http|MCP Streamable HTTP Transport]] — MCP's modern transport protocol using streamable HTTP as a replacement for SSE, reducing stateful server churn while maintaining streaming capabilities. ( #mcp #streamable-http #transport #sse #model-context-protocol)
+- [[concepts/mcp-to-mcp-protocol|MCP-to-MCP Protocol]] — MCP-to-MCP Protocol ( #mcp #protocol #remote #security #agent)
+- [[concepts/mcp-tool-quality-vs-quantity|MCP Tool Quality vs Quantity]] — The principle that MCP server design should prioritize tool quality over quantity — fewer, well-designed tools outperform large static tool sets that confuse AI agents. ( #mcp #tools #quality #model-context-protocol #ai-reliability)
+- [[concepts/mcp-tool-sets|MCP Tool Sets]] — User-defined groupings of MCP tools for specific workflows, enabling focused tool exposure without the confusion of oversized static tool sets. ( #mcp #tool-sets #tools #vscode #model-context-protocol)
+- [[concepts/mcp-vs-openapi|MCP vs OpenAPI for Agent Tooling]] — MCP vs OpenAPI for Agent Tooling ( #mcp #openapi #agent-tools #tool-discovery #model-context-protocol)
+- [[concepts/measure-monitor-analyze-repeat|Measure, Monitor, Analyze, Repeat]] — Measure, Monitor, Analyze, Repeat ( #evaluation #iteration #continuous-improvement #scaling)
+- [[concepts/measurement-driven-improvement|Measurement-Driven Improvement]] — The principle that you can only manage what you measure — using fast, cheap, continuous measurement as the primary lever for systematic improvement of AI systems. ( #measurement #improvement #evals #methodology #data-driven)
+- [[concepts/measurement-vs-improvement-ai|Measurement vs Improvement in AI]] — The two-phase approach to improving AI systems: first measure domain-specific performance with proper metrics and failure mode ontologies, then convert domain insights into pipeline improvements. ( #ai-evaluation #ai-improvement #measurement #ai-optimization #domain-metrics)
+- [[concepts/mechanistic-interpretability|Mechanistic Interpretability]] — The practice of reverse engineering neural networks to understand their internal computations — identifying and manipulating features (concept representations) inside models to enable debugging, st... ( #concept #ai #interpretability #safety #research)
+- [[concepts/medical-claim-denials|Medical Claim Denials]] — Rejection of insurance claims by payers, representing a major source of healthcare friction. Most denials are technical errors, not medical disagreements, making them preventable with AI. ( #healthcare #claims #denials #appeals #billing)
+- [[concepts/medical-necessity-review|Medical Necessity Review]] — Evaluating whether recommended treatments meet insurance coverage criteria. A key use case for domain-native LLM apps, exemplified by Anterior's AI system Florence achieving ~99% accuracy.
+- [[concepts/meeting-minimalism|Meeting Minimalism]] — Intentional strategy of minimizing meetings to protect deep focus time for builders. Only founders/leaders maintain busy calendars for customer-facing activities. ( #meetings #productivity #startup #deep-work #aief2025)
+- [[concepts/memory-management|Memory Management]] — The systematic process of organizing information in the context window: generation, storage, retrieval, integration, updates, and deletion — with retrieval as the most critical component. ( #agent-memory #memory-management #retrieval #generation #storage)
+- [[concepts/memory-suffixes|Memory Suffixes]] — Memory Suffixes ( #scaling)
+- [[concepts/menugen|Menugen]] — Andre Karpathy's vibe coding experiment: a web app that takes photos of restaurant menus and generates image representations of menu contents. Demonstrated the gap between local prototyping and pro... ( #menugen #vibe-coding #karpathy #hackathon #developer-experience)
+- [[concepts/mermaid|Mermaid]] — Mermaid ( #mermaid #diagramming #text-based #agent-readable #workflow)
+- [[concepts/meta-discovery|Meta Discovery]] — Meta Discovery ( #meta-discovery #mcp #agent-debugging #autonomous-agents #observability)
+- [[concepts/meta-discovery-loop|Meta-Discovery Loop]] — An agent uses observability tools as MCP servers to inspect its own traces, discover other tools, and autonomously debug and fix issues. ( #meta-discovery-loop #mcp #observability #autonomous-agents #agent-debugging)
+- [[concepts/metadata-payload-mechanism|Metadata Payload Mechanism]] — The mechanism for passing OpenTelemetry trace context from an MCP client to server through the protocol's metadata payload field. ( #metadata-payload #mcp #trace-context-propagation #open-telemetry #protocol-metadata)
+- [[concepts/meter-chart-llm-task-capability|Meter Chart and LLM Task Capability]] — Meter Chart and LLM Task Capability ( #llm-evaluation #ai-disruption #capability-measurement #aief2025)
+- [[concepts/methodology-over-tooling|Methodology Over Tooling in AI Evaluation]] — Methodology Over Tooling in AI Evaluation ( #evals #methodology #evaluation-methodology #best-practices #ai-evaluation)
+- [[concepts/micro-agents|Micro-Agents]] — Architectural pattern where small agent loops (3-10 steps) are embedded within larger deterministic workflows, handling only the naturally ambiguous decision points while everything else runs on de... ( #agent #architecture #pattern #reliability #dag)
+- [[concepts/microservices-architecture|microservices architecture]] — microservices architecture ( #networking)
+- [[concepts/microservices-demo-projects|Microservices Demo Projects]] — Microservices Demo Projects ( #term)
+- [[concepts/middle-east-ai-deal|Middle East AI Deal]] — The UAE-US agreement enabling G42 to purchase 500,000 GPUs/year, with 80% allocated to US companies in exchange for infrastructure investment and matching capital. ( #geopolitics #ai-infrastructure #middle-east #uae #gpu)
+- [[concepts/millicpu|MilliCPU]] — MilliCPU ( #scaling)
+- [[concepts/minimal-scaffolding-ai-agents|Minimal Scaffolding for AI Agents]] — Design philosophy that AI agents should require minimal scaffolding — just a model and tools — trusting increasingly capable LLMs to handle reasoning, planning, and orchestration autonomously. ( #ai-agents #simplicity #design-philosophy #scaffolding #agent-frameworks)
+- [[concepts/mirror-pod|Mirror Pod]] — Mirror Pod ( #deployment)
+- [[concepts/miscellaneous-source|Miscellaneous Source]] — Miscellaneous Source ( #term)
+- [[concepts/miscellaneous-source-1e6927|Miscellaneous Source 1e6927]] — Miscellaneous Source 1E6927 ( #term)
+- [[concepts/ml-team-building|Building the First ML Team]] — Building the first ML team from scratch: custom MLOps platform, generalist hiring, automation-first approach, and scaling to hundreds of thousands of concurrent models. ( #ml-team #platform #mlops #automation #team-building)
+- [[concepts/mmlu-pro|MMLU-Pro]] — An enhanced version of the MMLU benchmark for factual accuracy evaluation of LLMs. Extended and more challenging than the original MMLU, implemented in the lm-eval-harness framework. ( #evaluation #benchmarking #llm #accuracy)
+- [[concepts/mmvp-dataset|MMVP Dataset — Measuring LLM Vision Inability]] — MMVP is a dataset designed to measure the inability of large language models to perform basic visual tasks, revealing that even GPT-4o hallucinates on simple visual questions like determining schoo... ( #mmvp #benchmark #multimodal #llm-visual-failure #visual-perception)
+- [[concepts/mobile-first-ai-apps|Mobile-First AI Apps]] — AI applications see surprisingly high mobile usage, making mobile experience a critical design consideration from the start. ( #concept #mobile #user-experience #ai-apps #aief2025)
+- [[concepts/mobile-manipulation|Mobile Manipulation in Robotics]] — Robotics capability combining mobile locomotion with dexterous manipulation — enabling robots to move through environments while performing tasks. Added by Physical Intelligence as a new data colle... ( #robotics #mobile-robotics #manipulation #locomotion #foundation-models)
+- [[concepts/modality-gap|Modality Gap]] — A limitation of CLIP-based multimodal embedding models where text and image vectors from separate encoders occupy distinct regions of the embedding space, causing irrelevant items of the same modal... ( #multimodal #embeddings #retrieval #architecture)
+- [[concepts/model-agency|Model Agency]] — The concept that language models should be able to interact with the outside world — reaching beyond their context window to access real-time data, tools, and actions. The foundational problem MCP... ( #model-agency #mcp #agent-architecture #llm-tools #context-integration)
+- [[concepts/model-as-reasoner|Model as Reasoner]] — Delegating reasoning, planning, and task decomposition to the LLM rather than encoding them in system prompts or orchestration logic. ( #ai-agents #llm-capability #reasoning #scaffolding #agent-design)
+- [[concepts/model-as-unit-test-paradigm|Model-as-Unit-Test Paradigm]] — ML model benchmarks serve the same role as unit tests in software — guarding against regressions, validating new model versions, requiring ongoing maintenance to stay useful. ( #concept #ml-engineering #evaluation #testing #quality)
+- [[concepts/model-benchmarks|Model Benchmarks]] — Standardized evaluation metrics used to measure and compare AI model performance across reasoning, coding, math, and other capabilities. Benchmarks function as memes that shape AI development throu... ( #benchmark #evaluation #llm #gemini #model-development)
+- [[concepts/model-capability-awareness|Model Capability Awareness]] — Model Capability Awareness ( #ai-coding #vibe-engineering #model-capabilities #prompt-engineering #skill-hell)
+- [[concepts/model-commoditization|Model Commoditization]] — Stub page created to resolve incoming wiki links for Model Commoditization. ( #stub)
+- [[concepts/model-context-protocol|Model Context Protocol (MCP)]] — An open standard protocol for connecting AI models to external tools and data sources — framed as a pluggable architecture for agents — comprising a JSON-RPC message specification and transport-agn... ( #mcp #protocol #ai-integration #tool-calling #json-rpc)
+- [[concepts/model-data-application-harmony|Model-Data-Application Harmony]] — The principle that successful 2025 AI products require tight alignment between model, data, and application — where the application design mimics user behavior to inform model training, creating a... ( #ai #product-design #windsurf #sweeone #model-training)
+- [[concepts/model-distillation|Model Distillation]] — Technique of training a smaller, faster model to replicate the behavior of a larger, more capable model. In the demo case, GPT-3.5 was distilled to achieve GPT-4 level performance at GPT-3.5 latency. ( #distillation #model-compression #llm #fine-tuning #openai)
+- [[concepts/model-driven-agent-design|Model-Driven Agent Design]] — An agent design approach where developers define what the agent should do (prompt + tools) and let state-of-the-art LLMs handle reasoning, planning, and action — minimizing scaffolding and orchestr... ( #ai-agents #agent-architecture #llm-driven #aws #strands-agents)
+- [[concepts/model-driven-application-cycles|Model-Driven Application Cycles]] — Model-Driven Application Cycles ( #voice-ai #model-driven #stochastic #application-design #probabilistic)
+- [[concepts/model-ensemble-routing|Model Ensemble Routing]] — Intelligent routing layer that selects from thousands of open and proprietary models per task — no single model is right for every product, so platforms route to the best model for each job. ( #concept #model #routing #infrastructure #ensemble)
+- [[concepts/model-exponential-curve|Model Exponential Curve]] — The observation that AI model capability improves exponentially while product development moves at human speed, creating a widening gap that shapes product design decisions. ( #ai #models #exponential-growth #capability #aief2025)
+- [[concepts/model-fine-tuning-data|Model Fine-Tuning Data]] — Model Fine-Tuning Data ( #fine-tuning #model-training #data-strategy #generative-ai #enterprise-ai)
+- [[concepts/model-iteration-feedback-loop|Model Iteration Feedback Loop]] — The pattern of releasing model updates based on developer ecosystem feedback, as demonstrated by Google DeepMind's approach to Gemini 2.5 Pro. ( #model-development #developer-feedback #iterative-improvement #aief2025 #gemini)
+- [[concepts/model-parallelism-inference|Model Parallelism in Inference]] — Distributing model computation across multiple GPUs during inference, including context parallelism (splitting the attention window across devices), to alter speed, cost, and quality characteristics. ( #inference #parallelism #model-parallelism #context-parallelism #llm-serving)
+- [[concepts/model-personality|Model Personality]] — The observation that different LLMs exhibit distinct, measurable behavioral patterns in open-ended tasks — such as O3's consistent deception in AI Diplomacy. Personality emerges as a benchmarkable... ( #llm #model-personality #benchmark #strategic-behavior #aief2025)
+- [[concepts/model-picker-as-mode|Model Picker as Mode Selector]] — The argument that model picker dropdowns in AI applications function as mode selectors — violating Larry Tesler's principle of modeless interfaces by changing how the same inputs map to outputs. ( #ai #ux #design #hci #aief2025)
+- [[concepts/model-picking|Model Picking]] — The ongoing challenge of selecting and switching between LLM providers and models. Even within the same vendor, model upgrades require significant effort and are only feasible with strong evaluatio... ( #model-selection #llm #vendor-management #enterprise-ai)
+- [[concepts/model-price-compression|Model Price Compression]] — The dramatic compression of capable LLM prices over three years — from GPT-3.5 DaVinci at $60/M tokens to GPT-4o Nano at ~$0.10/M tokens, a 500×+ reduction — making high-quality AI accessible at ne... ( #pricing #compression #llm #economics #aief2025)
+- [[concepts/model-progression-framework|Model Progression Framework]] — A decision framework for progressing from simplest to most capable approach: start with prompting, escalate to SFT for domain adaptation, DPO for preference learning, and RFT for reasoning model op... ( #model-selection #fine-tuning #prompt-engineering #llm #strategy)
+- [[concepts/model-quality-latency-tradeoff|Model Quality vs Latency Tradeoff]] — The fundamental tradeoff in on-device AI between model size/quality and inference speed — larger models produce better outputs but run slower, smaller models are faster but less capable. Developers... ( #model-selection #performance #quality #inference #local-ai)
+- [[concepts/model-selection-by-application|Model Selection by Application]] — Model selection should be driven by application requirements (latency, cost, intelligence) rather than raw benchmark scores alone. ( #model-selection #application-design #tradeoffs #frontier #aief2025)
+- [[concepts/model-size-scaling|Model Size Scaling]] — Model Size Scaling ( #model-size #scaling #llm #recommendation-systems)
+- [[concepts/model-spot-checking|Model Spot-Checking]] — Model Spot-Checking ( #evaluation #model-comparison #spot-checking #manual-evals #baseline-quality)
+- [[concepts/model-sub-composition|Model Sub-Composition in Large Generative Models]] — Large generative models like Dream Machine are composed of 10-20 different sub-models that must be loaded, compiled, and coordinated — creating unique challenges for inference serving and GPU utili... ( #model-architecture #large-models #video-generation #multi-model #ml-infrastructure)
+- [[concepts/model-timing|Model Timing]] — Model Timing ( #ai-coding #model-providers #vibe-coding #skill-hell #user-experience)
+- [[concepts/model-tuning-vs-evals|Model Tuning vs Evals]] — Model Tuning vs Evals ( #evals #model-training #production-ai #self-driving-cars)
+- [[concepts/model-update-velocity|Model and Prompt Update Velocity]] — The high velocity at which AI engineering teams update their models and prompts: 50%+ update models monthly, 17% weekly, 70% update prompts monthly, 10% daily — driven by constant model releases an... ( #model-updates #prompt-updates #iteration-velocity #ai-infrastructure)
+- [[concepts/model-versioning|Model Versioning and Model Repo Pattern]] — A model management pattern where each model has an immutable versioned repository in object storage with YAML-based active-version pointers, enabling reproducible deployments and hot-rollout updates. ( #model-versioning #model-repo #immutable-versions #model-deployment #ml-ops)
+- [[concepts/modern-prompt-engineering|Modern Prompt Engineering]] — "Modern prompt engineering evolved beyond system prompts: most tokens in agent prompts come from context (tools, outputs, history). You must engineer the entire context. ( #prompt-engineering #context #production-ai #agents #braintrust)
+- [[concepts/monetizing-ai|Monetizing Ai]] — Stub page created to resolve incoming wiki links for Monetizing Ai. ( #stub)
+- [[concepts/monte-carlo-methods|Monte Carlo Methods]] — Statistical simulation technique developed at Los Alamos during the Manhattan Project era. Still in use today for uncertainty quantification and scientific computation. ( #monte-carlo #statistics #simulation #los-alamos #computational-physics)
+- [[concepts/monte-carlo-methods-ai|Monte Carlo Methods in AI]] — Monte Carlo simulation methods developed at Los Alamos during the Manhattan Project era, representing one of the earliest applications of statistical computation that evolved into modern AI/ML prac... ( #monte-carlo #statistics #simulation #los-alamos #nuclear-physics)
+- [[concepts/moore-law-for-ai-agents|Moore's Law for AI Agents]] — AI agent capability in code doubles every 70 days — faster than general LLM doubling (~7 months). This translates to 16-64x improvement per year, measured as uninterrupted work before human interve... ( #ai-agents #exponential-growth #capability-scaling #software-engineering #aief2025)
+- [[concepts/mttr|MTTR (Mean Time to Resolution)]] — Mean Time to Resolution — the average time from incident detection to resolution. Key metric for production troubleshooting effectiveness. Traversal.ai achieved ~40% MTTR reduction at DigitalOcean... ( #metric #reliability #observability #incident-response #operations)
+- [[concepts/mttre|MT-T-R-E (Mean Time to Resolve Explainable Errors)]] — A metric measuring how quickly teams can understand why an unexpected AI behavior happened and deploy a fix. Faster MT-T-R-E correlates with more agile teams, fewer defects, and quicker problem res... ( #concept #ai #metric #reliability #operations)
+- [[concepts/multi-agent-architecture|Multi Agent Architecture]] — Stub page created to resolve incoming wiki links for Multi Agent Architecture. ( #stub)
+- [[concepts/multi-agent-hive-mind|Multi-Agent Hive Mind]] — Multi-Agent Hive Mind ( #multi-agent-systems #agi #coordination #aief2025)
+- [[concepts/multi-agent-systems|Multi-Agent Systems]] — Multi-Agent Systems ( #agents #multi-agent #architecture #workflow #ai-systems)
+- [[concepts/multi-agent-workflows|Multi-Agent Workflows]] — Patterns for coordinating multiple AI agents working together — including graph-based workflows, swarm approaches, and inter-system agent-to-agent communication across platform boundaries. ( #ai-agents #multi-agent #network-operations #aws #strands-agents)
+- [[concepts/multi-container-pod|multi-container pod]] — multi-container pod ( #deployment)
+- [[concepts/multi-file-modification|Multi-File Modification Challenge]] — Multi-File Modification Challenge ( #code-generation #agentic-coding #multi-file #repository-understanding #graphrag)
+- [[concepts/multi-hop-retrieval|Multi-Hop Retrieval]] — Multi-Hop Retrieval ( #rag #knowledge-graph #retrieval #graph-traversal #latency)
+- [[concepts/multi-label-classification|Multi-Label Classification]] — A classification problem where a single input maps to multiple output labels simultaneously — common in search query-to-category mapping where queries can belong to several taxonomy categories. ( #ml #classification #taxonomy #search #nlp)
+- [[concepts/multi-model-voting|Multi-Model Voting]] — Technique where multiple LLMs from different vendors vote on answers, with majority consensus used for higher-confidence results. ( #agent #ai #accuracy #ensemble #llm)
+- [[concepts/multi-model-world|Multi-Model World]] — The model market is rapidly commoditizing — plan for a world with multiple model providers, competitive pricing, and open-source alternatives. Last year's model is a commodity. ( #concept #ai #infrastructure #strategy)
+- [[concepts/multi-source-grounding|Multi-Source Grounding]] — Multi-Source Grounding ( #evals #retrieval #bias-reduction #rag #ai-search)
+- [[concepts/multi-tenant-security|Multi Tenant Security]] — Stub page created to resolve incoming wiki links for Multi Tenant Security. ( #stub)
+- [[concepts/multilingual-ai|Multilingual Ai]] — Stub page created to resolve incoming wiki links for Multilingual Ai. ( #stub)
+- [[concepts/multimodal-agent-architecture|Multimodal Agent Architecture]] — Architecture for agents that process and retrieve across multiple modalities (text, images, tables) using a multimodal LLM for reasoning, VLM-based embedding for retrieval over page-level screensho... ( #agent #multimodal #architecture #retrieval)
+- [[concepts/multimodal-ai|Multimodal Ai]] — Stub page created to resolve incoming wiki links for Multimodal Ai. ( #stub)
+- [[concepts/multimodal-embedding|Multimodal Embedding]] — Stub page created to resolve incoming wiki links for Multimodal Embedding. ( #stub)
+- [[concepts/multimodal-evaluation|Multimodal Evaluation]] — Multimodal Evaluation ( #evaluation #multimodal #multi-modal #vision #image-evals)
+- [[concepts/multimodal-generation|Multimodal Generation]] — The paradigm of generating content across multiple modalities (video, audio, text, images) within a single model architecture, where tokens from different modalities are composed together natively... ( #multimodal #ai-generation #video #audio #tokens)
+- [[concepts/multimodal-models|Multimodal Models]] — AI models that natively process and generate across multiple modalities — text, image, audio, video — in a single unified architecture. The trajectory moves from multimodal toward omnimodal. ( #multimodal #models #ai #google-deepmind #gemini)
+- [[concepts/multimodal-production-gap|Multimodal Production Gap]] — The finding that image, video, and audio usage in production lag text usage by significant margins, while adoption intent for non-text modalities remains high — especially audio. ( #multimodal #production-readiness #adoption #text-vs-other-modalities)
+- [[concepts/multimodal-reading-experience|Multimodal Reading Experience]] — Reading experience that combines text, AI-generated graphics, AI-generated music, and character avatars to transform books into movie-like experiences. ( #multimodal #reading #books #graphics #music)
+- [[concepts/multimodal-search|Multimodal Search]] — Stub page created to resolve incoming wiki links for Multimodal Search. ( #stub)
+- [[concepts/multimodal-video-search|Multimodal Video Search]] — A video search architecture where videos are indexed using multimodal embeddings from frame samples, pooled into single representations, and stored in vector-capable databases for text-to-video ret... ( #video-search #multimodal #semantic-search #embedding #elasticsearch)
+- [[concepts/multiple-ai-frontiers|Multiple AI Frontiers]] — The concept that AI progress is not a single frontier of raw intelligence but multiple frontiers — reasoning, open weights, cost, and speed — each with different trade-offs and use cases. ( #frontier #model-selection #tradeoffs #intelligence #aief2025)
+- [[concepts/multiple-schedulers|Multiple schedulers]] — Multiple schedulers ( #scheduling)
+- [[concepts/multiple-variations-parallelism|Multiple Variations Parallelism]] — Multiple Variations Parallelism ( #parallel-agents #multi-variation #agent-comparison #emergent-behavior #aief2025)
+- [[concepts/multithreaded-robotics-architecture|Multithreaded Robotics Architecture]] — Multithreaded Robotics Architecture ( #multithreading #pipelining #robotics #concurrency #real-time)
+- [[concepts/mutating-admission-controllers|mutating-admission-controllers]] — Mutating Admission Controllers ( #term)
+- [[concepts/mutating-phase|Mutating Phase]] — Mutating Phase ( #scheduling)
+- [[concepts/mutatingadmissionwebhook|MutatingAdmissionWebhook]] — MutatingAdmissionWebhook ( #auth)
+- [[concepts/mutual-tls-mtls|Mutual TLS (mTLS)]] — Mutual TLS (mTLS) ( #security)
+- [[concepts/mvp|MVP (Minimal Viable Product)]] — A product stripped to its essential functionality — no extras, no polish. Bolt.new's MVP was described as a race car: 'just metal, no back seat, no side seat.' It still achieved $20M ARR in 60 days. ( #product-development #lean-startup #launch-strategy #experimentation)
+- [[concepts/mvp-for-learning|MVP for Learning]] — Using minimum viable products not just to launch quickly but to validate strategic direction — embracing failure as a learning mechanism that drives clarity through ambiguity. ( #concept #ai #methodology #product-development)
+- [[concepts/named-api-groups|Named API Groups]] — Named API Groups ( #deployment)
+- [[concepts/namespaceautoprovision|NamespaceAutoProvision]] — NamespaceAutoProvision ( #deployment)
+- [[concepts/namespaceexists|NamespaceExists]] — NamespaceExists ( #deployment)
+- [[concepts/namespacelifecycle|NamespaceLifecycle]] — NamespaceLifecycle ( #deployment)
+- [[concepts/nat|NAT]] — NAT ( #networking)
+- [[concepts/native-audio-video-composition|Native Audio-Video Composition]] — The architecture pattern where audio and video tokens are composed together within a single model's token space, enabling temporally and semantically aligned audio-video generation without post-pro... ( #audio #video #tokens #multimodal #composition)
+- [[concepts/natural-language-interface|Natural Language Interface]] — A natural language interaction layer that enables both human operators and other systems (like ITSM tools) to query and interact with AI agent systems, including inter-system agent-to-agent communi... ( #natural-language #interface #multi-agent #network-operations #itsm)
+- [[concepts/natural-language-tool-schemas|Natural Language Tool Schemas]] — The paradigm of describing agent tools and their parameters in natural language rather than formal code schemas, relying on the LLM's language understanding to determine tool relevance and paramete... ( #agent #tools #llm #prompt-design #schema)
+- [[concepts/network-knowledge-graph|Network Knowledge Graph]] — A graph-based representation of a production network built on OpenConfig schema and ArangoDB, enabling AI agents to reason about network changes, perform impact assessments, and execute testing bef... ( #knowledge-graph #network-operations #digital-twin #openconfig #arango-db)
+- [[concepts/network-plugin|Network plugin]] — Network plugin ( #deployment)
+- [[concepts/network-policies|Network Policies]] — Network Policies ( #security)
+- [[concepts/network-port-configuration|Network port configuration]] — Network port configuration ( #networking)
+- [[concepts/neural-programming|Neural Programming]] — The ability to debug, steer, and program AI models at the neuron level using interpretability techniques — treating neural networks more like traditional software with inspectable and controllable... ( #concept #ai #interpretability #engineering #debugging)
+- [[concepts/neural-rag|Neural RAG]] — Search paradigm that represents documents as transformer embeddings rather than keyword indexes, enabling semantic understanding of complex queries including negative constraints and multi-constrai... ( #neural-rag #neural-search #embedding-search #ai-native-search #exa)
+- [[concepts/new-sync-benchmark|NewSync Benchmark]] — One of the most popular open-loop planning benchmarks for autonomous driving, where Waymo's EMMA achieved state-of-the-art results with a simple end-to-end formulation. ( #benchmark #autonomous-driving #open-loop #planning #evaluation)
+- [[concepts/ngmi-thesis|NGMI Thesis for Realtime AI]] — NGMI Thesis for Realtime AI ( #voice-ai #latency #web-rtc #web-sockets #ngmi)
+- [[concepts/nightly-regression-benchmarking|Nightly Regression Benchmarking]] — Running benchmarks automatically every night to detect gradual performance regression — the antidote to the 'slow boiling frog' problem where slow degradation goes unnoticed in ad hoc benchmarking. ( #benchmarking #regression-detection #ci-cd #performance-monitoring #aief2025)
+- [[concepts/nist-ai-risk-management|NIST AI Risk Management Framework]] — NIST's AI Risk Management Framework (2023) provides structured guidance for managing AI risks across the lifecycle. Referenced in OMB memoranda M-25-21 and M-25-22. ( #nist #ai-risk #ai-governance #framework #government-ai)
+- [[concepts/node-affinity|Node Affinity]] — Node Affinity ( #deployment)
+- [[concepts/node-authorization-in-kubernetes|Node Authorization in Kubernetes (merged into Control Plane Node)]] — Node Authorization In Kubernetes ( #term)
+- [[concepts/node-authorizer|Node Authorizer]] — The Node Authorizer is a core component of the Kubernetes authorization chain, designed to enforce node-level security. It operates by authorizing API requests made specifically by kubelets, which ...
+- [[concepts/node-bound|Node-bound]] — Node-bound ( #scheduling)
+- [[concepts/node-cordon|Node Cordon]] — Node Cordon ( #deployment)
+- [[concepts/node-drain|node drain]] — node drain ( #deployment)
+- [[concepts/node-key-constraint|Node Key Constraint]] — A Neo4j uniqueness constraint that ensures a property (or set of properties) is unique and non-null across all nodes of a label. Critical for performance: without constraints, MERGE operations requ... ( #neo4j #database-performance #constraint #graph-database #graphrag)
+- [[concepts/node-local-agents|Node-Local Agents]] — Node-Local Agents ( #deployment)
+- [[concepts/node-subnet|Node subnet]] — Node subnet ( #deployment)
+- [[concepts/node-uncordon|node uncordon]] — node uncordon ( #deployment)
+- [[concepts/nodeport-services|NodePort Services]] — NodePort Services ( #networking)
+- [[concepts/noderestriction|NodeRestriction]] — NodeRestriction ( #security)
+- [[concepts/nodeselector|nodeSelector]] — nodeSelector ( #deployment)
+- [[concepts/nodeswap-feature-gate|NodeSwap feature gate]] — NodeSwap feature gate ( #scheduling)
+- [[concepts/noise-to-action-learning|Noise-to-Action Learning]] — A learning paradigm in robotics where models learn to predict actions from noisy sensor observations — because sensors don't capture action perfectly, the model must learn to map imperfect observat... ( #noise-to-action #robotics #sensor-noise #imitation-learning #action-prediction)
+- [[concepts/non-deterministic-evaluation|Non-Deterministic Evaluation]] — Evaluating non-deterministic AI systems: the same input produces different outputs and execution paths, making evaluation inherently probabilistic. ( #evals #non-deterministic #ai-agents #stochastic #evaluation-challenge)
+- [[concepts/non-deterministic-software|Non-Deterministic Software]] — Non-Deterministic Software ( #ai-agents #non-determinism #software-engineering #reliability #aief2025)
+- [[concepts/non-targetability|Non-Targetability]] — Privacy property ensuring an attacker cannot single out a specific user's data — to find a target, they would need to compromise all data and sift through it. ( #concept #privacy #security #threat-model)
+- [[concepts/oauth-2.0|OAuth 2.0]] — OAuth 2.0 ( #oauth #protocol #authorization #tokens #security)
+- [[concepts/object-detection-transformers|Object Detection Transformers vs Convolutional Models]] — Transformer-based object detectors (like DETR) leverage large-scale pre-training for massive accuracy gains, while convolutional models gain almost nothing — revealing a fundamental architectural d... ( #object-detection #transformers #convolutions #detr #yolov8)
+- [[concepts/oblivious-http|Oblivious HTTP]] — Protocol that anonymizes HTTP requests by routing them through a third-party relay, so the destination server sees only the relay's IP, not the original client's — developed by Cloudflare and Apple. ( #concept #privacy #networking #protocol #anonymization)
+- [[concepts/observability-driven-development|Observability-Driven Development]] — Measures AI agent performance at every step of the execution flow — tool calls, retrieval, decisions — using per-span metrics to pinpoint failures. ( #observability #evals #agent-evaluation #trace-analysis #ai-agents)
+- [[concepts/observability-for-enterprise-trust|Observability for Enterprise Trust]] — The role of observability and evals in building trust with enterprise stakeholders — not just for developer debugging, but for communicating agent performance, reducing perceived risk, and accelera... ( #observability #enterprise-ai #evals #langsmith #trust)
+- [[concepts/observability-tool-landscape|Observability Tool Landscape]] — The landscape of observability tools used in production environments: Grafana, Datadog, Splunk, Elastic, Sentry. These tools process and visualize telemetry data but create the "dashboard dumpster... ( #observability #tools #monitoring #logging #dashboards)
+- [[concepts/oci-specifications|Oci Specifications]] — Stub page created to resolve incoming wiki links for Oci Specifications. ( #stub)
+- [[concepts/oci-specs|Oci Specs]] — The OCI defines two core, vendor-neutral specifications: the Image Specification (Image Spec), which dictates how container images are built, packaged, and distributed, and the Runtime Specificatio...
+- [[concepts/octopus-merge|Octopus Merge]] — Octopus Merge ( #merge #parallel-agents #agent-coordination #git #consolidation)
+- [[concepts/offline-first-ai|Offline-First AI]] — Architectural philosophy where AI capabilities are designed to operate fully without network connectivity, using on-device models and local inference engines. Contrasts with cloud-dependent AI that... ( #offline #architecture #edge-computing #local-ai #resilience)
+- [[concepts/offline-recommendation-table|Offline Recommendations Table]] — A strategy to reduce LLM serving cost by precomputing recommendations offline — building a lookup table that maps 'if watching video A, what candid videos are good to watch next?' — converting real... ( #recommendation-systems #offline-computation #serving-cost #recsys)
+- [[concepts/oidc|OIDC]] — OIDC ( #auth)
+- [[concepts/omb-memorandum-m25-21|OMB Memorandum M-25-21]] — OMB Memorandum M-25-21 (April 2025) codifies AI governance for federal agencies, mandating 180-day strategy development and mission-critical AI integration. ( #omb #ai-policy #government-regulation #ai-governance #federal-agencies)
+- [[concepts/omb-memorandum-m25-22|OMB Memorandum M-25-22]] — OMB Memorandum M-25-22 (April 2025) — companion to M-25-21, codifying additional AI governance requirements for federal agencies. ( #omb #ai-policy #government-regulation #ai-governance #federal-agencies)
+- [[concepts/omnimodal|Omnimodal Models]] — The next evolution beyond multimodal: AI models that handle all modalities (text, image, audio, video) with equal depth and native cross-modal reasoning, not just parallel processing. ( #omnimodal #multimodal #models #google-deepmind #gemini)
+- [[concepts/on-device-inference|On-Device Inference]] — Running AI model inference directly on end-user devices (laptops, desktops, phones) using local hardware accelerators (GPU, NPU, CPU) rather than cloud data centers, enabling offline operation, pri... ( #inference #edge-computing #local-ai #hardware-acceleration #cross-platform)
+- [[concepts/on-device-ml-computational-photography|On-Device ML for Computational Photography]] — Using on-device ML compute (not sensor quality) to replace traditional computational photography techniques, pioneered by Google Photos' Computational Photography team (est. 2018). ( #concept #computer-vision #on-device-ml #photo-editing #mobile-ml)
+- [[concepts/on-device-processing|On-Device Processing for Voice AI]] — On-Device Processing for Voice AI ( #voice-ai #on-device #edge-computing #raspberry-pi #latency)
+- [[concepts/on-device-robotics-deployment|On-Device Robotics Deployment]] — The challenge of deploying large robot control policies across multiple on-premise, on-device robot locations — no standard solution exists for running VLA models on actual robots. ( #robotics #edge-computing #deployment #on-device #inference)
+- [[concepts/online-evals|Online Evals]] — Production evaluation of AI systems where live user traffic is automatically scored using defined metrics, enabling regression alerts, real-time monitoring, and continuous dataset improvement. Comp... ( #concept #evaluation #production #monitoring #observability)
+- [[concepts/ontology-driven-retrieval|Ontology-Driven Retrieval]] — A retrieval architecture where the domain ontology is stored as data in the knowledge graph and queried dynamically to control which relationships the retriever traverses, enabling behavior changes... ( #method #retrieval #knowledge-graph #ontology #graphrag)
+- [[concepts/oom-kill|OOM Kill]] — OOM Kill ( #scaling)
+- [[concepts/open-inference|OpenInference]] — OpenInference ( #open-inference #mcp #observability #instrumentation #semantic-conventions)
+- [[concepts/open-loop-planning|Open-Loop Planning]] — An autonomous driving evaluation methodology where the model predicts future trajectories without interacting with the environment — used in benchmarks like NewSync to compare planning algorithms. ( #open-loop #planning #autonomous-driving #benchmarking #evaluation)
+- [[concepts/open-models|Open Models]] — The ecosystem of openly released AI models, contrasting with closed/proprietary models, and the developer feedback loops they enable. ( #open-models #llm #model-release #developer-ecosystem #model-development)
+- [[concepts/open-optionality|Open Optionality]] — Solomon Hykes' principle that agent environments must not lock users into all-in-one platforms, enabling choice of the best model, compute, and infrastructure for each job. ( #agents #optionality #vendor-lock-in #composability #aief2025)
+- [[concepts/open-source-ai|Open Source Ai]] — Stub page created to resolve incoming wiki links for Open Source Ai. ( #stub)
+- [[concepts/open-source-ai-apps|Open Source AI Apps]] — Building AI apps as open source projects enables community contributions, transparent code, and organic distribution through GitHub stars and community sharing. ( #concept #open-source #distribution #community #aief2025)
+- [[concepts/open-source-book-player|Open Source Book Player]] — TheBrain.pro open-sourced its book player at AIEF2025, enabling anyone to create Netflix-style interactive book experiences with AI-generated graphics, music, and voice Q&A. ( #open-source #book-player #books #aief2025 #thebrain-pro)
+- [[concepts/open-source-humanoid-robotics|Open-Source Humanoid Robotics]] — An emerging paradigm where humanoid robot hardware (CAD, PCBs), firmware, software, and ML models are fully open-sourced under permissive licenses, dramatically lowering cost and enabling community... ( #robotics #humanoid #open-source #hardware #reinforcement-learning)
+- [[concepts/open-telemetry|OpenTelemetry (OTEL)]] — OpenTelemetry (OTEL) ( #open-telemetry #otel #observability #distributed-tracing #telemetry)
+- [[concepts/open-weight-models|Open Weight Models]] — LLMs whose model weights are publicly released for download, enabling local inference, fine-tuning, and community evaluation. DeepSeek V3's Christmas Day release exemplified the disruptive potentia... ( #open-source #model-distribution #open-weight #llm #aief2025)
+- [[concepts/open-weights-vs-proprietary-gap|Open Weights vs Proprietary Intelligence Gap]] — Open-weight vs proprietary intelligence gap closed to its narrowest ever through DeepSeek V3 and R1, with Chinese labs leading both reasoning and non-reasoning categories. ( #open-weight #proprietary #intelligence-gap #chinese-ai #aief2025)
+- [[concepts/open-x-embodiment|Open X-Embodiment Dataset]] — The largest publicly available robotics dataset (~3,800 hours of data from static scenes in robot labs worldwide), used as a baseline benchmark that Physical Intelligence surpassed within 6 months... ( #robotics #dataset #open-data #benchmark #foundation-models)
+- [[concepts/openai-real-time-api|OpenAI Real-time API]] — OpenAI's speech-to-speech API that handles transcription, reasoning, and speech generation in a single real-time pass for low-latency voice applications. ( #openai #api #voice #speech #real-time)
+- [[concepts/openapi-for-agents|OpenAPI for Agents]] — Using OpenAPI JSON schemas as the foundation for agent tool discovery and execution. A single JSON file describing paths, endpoints, parameters, and payloads becomes the contract between agents and... ( #openapi #json-schema #api-schema #agent-tools #machine-readable)
+- [[concepts/openconfig-schema|OpenConfig Schema]] — A networking-specific data schema used as the normalization target for network knowledge graph ingestion pipelines, chosen because LLMs understand it well due to extensive documentation. ( #openconfig #schema #networking #data-normalization #llm-friendly)
+- [[concepts/openid-connect|OpenID Connect]] — OpenID Connect ( #oidc #authentication #oauth #jwt #identity)
+- [[concepts/orchestrating-vs-executing|Orchestrating vs. Executing]] — The evolution of software development from executing tasks personally to orchestrating systems of agents that work on behalf of teams. ( #orchestration #execution #agent-native #software-development #paradigm-shift)
+- [[concepts/orchestration-layer|Orchestration Layer]] — Orchestration Layer ( #real-time-ai #pipecat #voice-ai #video-ai #pipeline)
+- [[concepts/orchestrator-patterns|Orchestration Patterns for AI Agents]] — Three levels of agent orchestration: chains (linear, simplest), trees (branching via LLM), and agentic (autonomous tool selection). Increasing complexity trades measurability for maintainability. ( #ai-agents #orchestration #workflow #architecture #chains)
+- [[concepts/orchestrator-worker-pattern|Orchestrator-Worker Pattern]] — Agent design pattern where an LLM orchestrator decomposes a complex task into simpler sub-questions, dispatches them in parallel to worker LLMs, then aggregates results into a coherent answer. ( #agent #ai #architecture #design-pattern #deep-research)
+- [[concepts/org-innovation|Organizational Innovation]] — Applying first-principles thinking to team building and org design, not just product building. Rejects traditional VP-director cascading hierarchy in favor of lean, generalist, player-coach organiz... ( #org-design #startup #team-building #first-principles #aief2025)
+- [[concepts/otlp|OTLP (OpenTelemetry Protocol)]] — OTLP (OpenTelemetry Protocol) ( #otlp #open-telemetry #protocol #observability #telemetry)
+- [[concepts/out-of-domain-generalization|Out-of-Domain Generalization]] — Out-of-Domain Generalization ( #out-of-domain #generalization #llm #recommendation-systems)
+- [[concepts/out-of-sample-debugging|Out-of-Sample Debugging]] — The ability to troubleshoot a production incident from first principles without having seen it before. Traversal.ai's goal: combine causal ML, reasoning models, and agent swarms to achieve autonomo... ( #debugging #incident-response #autonomous-ai #first-principles #observability)
+- [[concepts/outcome-based-pricing-for-ai|Outcome-Based Pricing for AI]] — Outcome-Based Pricing for AI ( #pricing #ai-engineering #monetization #product-strategy)
+- [[concepts/outpainting|Outpainting]] — The technique of extending a scene or frame beyond its original boundaries, generating content that matches the original view — enabling expansion of narrow views into wider scenes. ( #outpainting #image-expansion #video-generation #composition)
+- [[concepts/overlay|Overlay]] — Overlay networking creates virtual networks over existing infrastructure, enabling container pods to communicate across physical nodes using encapsulation.
+- [[concepts/overlay-networking|Overlay networking]] — Overlay networking ( #networking)
+- [[concepts/owasp-for-agents|OWASP for Agents]] — Using OWASP Top 10 as structured security context for AI coding agents — feeding the framework into agent rules files to bias models toward considering security issues during code analysis. ( #owasp #security #agent-rules #bug-detection #aief2025)
+- [[concepts/padding-as-synchronization|Padding as Synchronization]] — Padding as Synchronization ( #padding #synchronization #robotics #real-time #embedded)
+- [[concepts/pagerank-enrichment|PageRank Enrichment]] — PageRank Enrichment ( #pagerank #graph-analytics #graphrag #enrichment #centrality)
+- [[concepts/paid-trial-hire|Paid Trial Hire]] — Datalab's three-step hiring process: (1) peer chat to solve a challenge together, (2) paid ~10-hour project ($1,000) to test actual shipping ability, (3) culture fit review. About 40% of interviewe... ( #hiring #interview-process #screening #aief2025)
+- [[concepts/parallel-agent-work|Parallel Agent Work]] — The capability for engineers to work on multiple features and bugs in parallel by managing multiple AI agent panes simultaneously, dramatically increasing individual throughput. ( #parallel-work #ai-agents #productivity #aief2025)
+- [[concepts/parallel-agent-workflows|Parallel Agent Workflows]] — Parallel Agent Workflows ( #parallel-agents #multi-agent #agent-coordination #async-agents #coding-agents)
+- [[concepts/parallel-agents|Parallel Agents]] — The capability for AI agents to execute multiple tasks simultaneously — researching while coding, testing while preparing PRs — enabling background operation and supporting the always-on AI vision. ( #agent #parallel #windsurf #concurrent #agentic)
+- [[concepts/parallel-ai-coding-sessions|Parallel AI Coding Sessions]] — Parallel AI Coding Sessions ( #github-copilot #vscode #vibe-coding #exploration #ux)
+- [[concepts/parallel-ai-workstreams|Parallel AI Workstreams]] — Parallel AI Workstreams ( #ai-agents #parallel-work #orchestration #aief2025)
+- [[concepts/parsing|Parsing]] — The process of converting non-text resources (PDFs, images, websites, audio, video) into structured text (markdown) that LLMs can understand. A critical first step in any RAG pipeline. ( #parsing #rag #multimodal #document-processing #markdown)
+- [[concepts/pass-at-k|Pass@k / Coverage Score]] — A metric measuring the fraction of problems solved when generating k samples. Demonstrates that inference-time compute predictably improves coding accuracy on SWE-bench verified. ( #pass-at-k #coverage-score #evaluation #coding-benchmark #swe-bench)
+- [[concepts/pause-container|Pause Container]] — Pause Container ( #container)
+- [[concepts/payers|Payers]] — Stub page created to resolve incoming wiki links for Payers. ( #stub)
+- [[concepts/peer-programming|Peer Programming]] — Evolution from pair programming (sidekick autocomplete) to peer programming — AI as a genuine teammate assigned tasks, operating in its own branch, and running tests to completion autonomously. ( #concept #ai #development #copilot #agent)
+- [[concepts/pelican-bicycle-benchmark|Pelican-on-Bicycle Benchmark]] — An informal benchmark created by Simon Willison that prompts text LLMs to generate SVG code of a pelican riding a bicycle, evaluating spatial reasoning, code generation, and creative problem-solvin... ( #benchmark #evaluation #svg #code-generation #informal-benchmark)
+- [[concepts/per-element-llm-judge|Per-Element LLM Judge]] — An evaluation methodology where each data point in a dataset has its own unique judge prompt with specific scoring criteria, rather than a single generic LLM-as-judge prompt applied to all samples. ( #ai #evaluation #llm-as-judge #methodology #testing)
+- [[concepts/perceived-performance-ux|Perceived Performance UX]] — Design techniques for making software feel fast to users, centered on the observation that humans perceive events under ~400ms as instantaneous — first paint, 60FPS, minimal bundles, SSR, caching,... ( #performance #ux #frontend #web-vitals #voice-ai)
+- [[concepts/perception-prediction-planning|Perception-Prediction-Planning]] — The traditional modular architecture for autonomous driving systems, consisting of three sequential stages: perception (understand the world), prediction (forecast future states), and planning (det... ( #perception #prediction #planning #autonomous-driving #modular-pipeline)
+- [[concepts/perceptual-evaluations|Perceptual Evaluations]] — The argument that AI evaluation metrics must measure human-perceived quality rather than proxy signals like FID scores — metrics should reflect what humans actually see, not what algorithms can count. ( #evals #aesthetics #human-perception #metrics #generative-ai)
+- [[concepts/perpetually-junior-engineer|Perpetually Junior Engineer]] — Perpetually Junior Engineer ( #ai-agents #junior-engineer #aief2025 #agent-model)
+- [[concepts/persistence-over-prompting|Persistence Over Prompting]] — The principle that persistence-based memory will replace prompt engineering as the primary mechanism for controlling agent behavior and building customer relationships. ( #persistence #prompt-engineering #memory #agent-design #customer-relationships)
+- [[concepts/persona-shadowing|Persona Shadowing]] — Identity architecture pattern where an agent gets a shadow persona that reflects off a user identity but with scoped-down privileges, enabling isolation and accountability. ( #agent #identity #auth #architecture #pattern)
+- [[concepts/personal-clarity|Personal Clarity]] — The idea that forceful product building requires personal clarity in three dimensions — vision, purpose, and taste — starting with a singular individual before it can propagate to teams and organiz... ( #product #leadership #clarity #vision #ai-era)
+- [[concepts/personalization-data-ai|Personalization Data in AI]] — Personalization Data in AI ( #personalization #customer-data #ai-agents #generative-ai #user-profiles)
+- [[concepts/pgvector|pgvector]] — A PostgreSQL extension that adds vector similarity search capabilities, enabling storage and retrieval of embeddings directly within PostgreSQL. Randall Hunt calls it 'my favorite right now' for en... ( #pgvector #postgres #vector-database #vector-search #embeddings)
+- [[concepts/physical-ai|Physical AI]] — The challenge of taking large language model intelligence and making it operable in the physical world — controlling robots, instruments, and devices that interact with matter rather than just proc... ( #physical-ai #robotics #embodied-ai #humanoid #nvidia)
+- [[concepts/physical-vs-virtual-whiteboarding|Physical vs. Virtual Whiteboarding]] — Framework for designing digital tools: don't replicate physical limitations one-to-one; instead, exploit the unique advantages of the virtual medium. Articulated by Christopher Chedeau in AIEF2025. ( #concept #whiteboarding #product-design #digital-advantages #excalidraw)
+- [[concepts/pii-protection-in-ai|PII Protection in AI]] — PII Protection in AI ( #pii #privacy #security #responsible-ai #enterprise-ai)
+- [[concepts/pilot-to-scale-bottleneck|Pilot-to-Scale Bottleneck]] — Pilot-to-Scale Bottleneck ( #enterprise-ai #scaling #adoption #implementation)
+- [[concepts/pit-of-success-design|Pit of Success Design]] — Design philosophy where making the correct approach the easiest path naturally guides teams toward good practices without enforcement overhead. ( #design-philosophy #engineering-culture #infrastructure)
+- [[concepts/pita-dev|PITA Dev]] — PITA Dev ( #software-culture #code-review #ai-coding #engineering-culture #over-engineering)
+- [[concepts/plan-then-code-spectrum|Plan Then Code Spectrum]] — Stub page created to resolve incoming wiki links for Plan Then Code Spectrum. ( #stub)
+- [[concepts/plan-then-code-workflow|Plan-Then-Code Workflow]] — A workflow pattern where AI coding agents are forced to generate a plan before writing any code, enforced through system prompt manipulation. ( #planning #ai-agents #workflow #ai-coding #aief2025)
+- [[concepts/platform-engineering|Platform Engineering]] — The discipline of enabling others to build software productively. Solomon Hykes reframed it for the agent era: platform engineers now enable robots to ship software. ( #platform-engineering #infrastructure #developer-experience #agents #aief2025)
+- [[concepts/platform-friction-taxonomy|Platform Friction Taxonomy]] — A taxonomy of common friction points that AI-generated projects encounter when deploying across multiple platforms — documentation staleness, API drift, rate limiting, and onboarding complexity. ( #developer-experience #platform-fragmentation #friction-points #api-design #documentation-quality)
+- [[concepts/platform-response-to-ai-feedback|Platform Response to AI Feedback]] — How platforms should respond when AI-surfaced developer experience problems are identified — by embracing LLM-friendly features and treating AI feedback as legitimate product direction. ( #platform-design #ai-feedback #developer-experience #product-iteration #llm-audience)
+- [[concepts/platform-shift-analogy|Platform Shift Analogy for Voice AI]] — Platform Shift Analogy for Voice AI ( #voice-ai #platform-shift #ui #interaction-design #generative-ai)
+- [[concepts/platform-vs-application-teams|Platform vs Application Teams]] — LLM teams split into platform teams (owning infrastructure, costs, latency) and application teams (owning evals and user outcomes) in a hub-and-spoke model. Each cares about different metrics. ( #platform-engineering #organization #hub-and-spoke #metrics #aief2025)
+- [[concepts/playbook-pattern|Playbook Pattern]] — A system for outlining clear step-by-step instructions that AI agents follow reliably. Built by Cognition for Devin to handle repetitive migrations across thousands of files. ( #ai-agents #instruction-following #agent-systems #software-engineering #aief2025)
+- [[concepts/player-coach-model|Player-Coach Model]] — Leadership model where managers also do hands-on work, adapted from sports. Critical in fast-moving AI era where leaders must read the field and adjust without waiting for top-down mandates. ( #leadership #management #org-design #ai-era #aief2025)
+- [[concepts/pluggable-ai-platform|Pluggable AI Platform]] — A product platform designed to be extensible with custom AI agents — recognizing that every team has unique workflows that can't be served by pre-baked AI features alone. ( #ai-platform #extensibility #plugin-architecture #agent-integration #developer-tools)
+- [[concepts/pm-transformation-ai-era|PM Transformation in the AI Era]] — PM Transformation in the AI Era ( #product-management #ai-agents #organizational-change #aief2025)
+- [[concepts/poc-hell|POC Hell]] — The state where voice agents remain stuck in proof-of-concept phase and never transition to production deployment, caused by lack of simulation infrastructure to validate at scale. ( #voice-ai #enterprise-ai #adoption #scaling #evals)
+- [[concepts/pod-eviction|Pod Eviction]] — Pod Eviction ( #phenomenon)
+- [[concepts/pod-eviction-timeout|pod-eviction-timeout]] — pod-eviction-timeout ( #deployment)
+- [[concepts/pod-network|Pod Network]] — The Pod Network provides a flat, routable network for all Pods in the cluster, allowing direct communication regardless of the underlying node infrastructure. It is implemented and managed by a...
+- [[concepts/pod-preemption|Pod Preemption]] — Pod Preemption ( #scheduling)
+- [[concepts/pods-overview|/pods-overview (merged into Pods)]] — Pods Overview ( #term)
+- [[concepts/podsecurity|PodSecurity]] — PodSecurity ( #deployment)
+- [[concepts/pooling-embedding|Pooling Embedding]] — A technique where embeddings from multiple samples (e.g., video frames) are combined into a single pooled embedding, enabling efficient multimodal search over sequences of data. ( #embedding #pooling #multimodal #video-search #semantic-search)
+- [[concepts/port-conflicts|Port Conflicts]] — Port Conflicts ( #networking)
+- [[concepts/positive-negative-eval-cases|Positive and Negative Eval Cases]] — Positive and Negative Eval Cases ( #evaluation #test-cases #coverage #edge-cases)
+- [[concepts/ppo-vs-grpo-vs-dpo|PPO vs GRPO vs DPO]] — Comparison of three RL algorithm families: PPO (expensive, fine-grained advantage), GRPO (efficient middle ground with forking from sampling), and DPO (lacks fine-grained advantage estimation). ( #reinforcement-learning #ppo #grpo #dpo #preference-optimization)
+- [[concepts/pragmatic-ai|Pragmatic Ai]] — Stub page created to resolve incoming wiki links for Pragmatic Ai. ( #stub)
+- [[concepts/pre-revenue-fundraising|Pre-Revenue VC Fundraising]] — VC funds at pre-seed and seed stages invest in companies without revenue or product, backing the founder, team, and vision instead. ( #vc #fundraising #pre-revenue #pre-seed #seed)
+- [[concepts/pre-seed-funding|Pre-Seed Funding]] — Pre-seed VC investing is the earliest institutional funding stage. Pre-seed funds invest in founders, teams, and vision — not revenue or products. ( #pre-seed #funding #vc #fundraising #startup)
+- [[concepts/pre-training-costs|Pre-Training Costs]] — Pre-training LLMs costs tens of millions of dollars while inference is extremely cheap. This economic asymmetry motivates inference-time compute scaling as pre-training gains saturate. ( #pre-training #cost #llm #compute #inference-time-compute)
+- [[concepts/precomputed-similarity-relationships|Precomputed Similarity Relationships]] — A performance optimization that materializes pairwise entity similarity as graph edges with an overlap property, turning O(n²) similarity computation into a simple graph traversal for repeated quer... ( #knowledge-graph #similarity #graph-analytics #neo4j #performance)
+- [[concepts/prediction-cone-ui|Prediction Cone UI]] — A UI pattern for nested menus that generates a geometric cone predicting user intent as the cursor moves between menu levels, allowing imprecise pointer movement without the submenu collapsing. ( #ui-pattern #interaction-design #menu #ux)
+- [[concepts/preemptionpolicy|preemptionPolicy]] — preemptionPolicy ( #scheduling)
+- [[concepts/preferredduringschedulingignoredduringexecution|preferredDuringSchedulingIgnoredDuringExecution]] — preferredDuringSchedulingIgnoredDuringExecution ( #scheduling)
+- [[concepts/prefill-decode-throughput-tradeoff|Prefill-Decode Throughput Tradeoff]] — In transformer inference, the prefill phase (processing input tokens) is compute-bound, achieving ~4x higher throughput than the decode phase (autoregressive generation), which is memory-bandwidth-... ( #inference #llm #performance #optimization #throughput)
+- [[concepts/premature-optimization|Premature Optimization]] — Donald Knuth's principle that optimizing before understanding the problem leads to fragile, non-scalable code. Omar Khattab draws a parallel between this and Sutton's Bitter Lesson in AI. ( #premature-optimization #structured-programming #knuth #bitter-lesson #domain-knowledge)
+- [[concepts/prerequisites-verification|Prerequisites verification]] — Prerequisites verification ( #deployment)
+- [[concepts/price-compression-s-curve|Price Compression S-Curve]] — When a new intelligence quality band is reached, the cost of accessing that level of intelligence halves within months. GPT-4 level cost has fallen 100× since mid-2023. ( #price-compression #cost #intelligence-bands #s-curve #aief2025)
+- [[concepts/pricing-as-friction|Pricing as Friction]] — Pricing as Friction ( #pricing #product-design #ai-engineering #monetization)
+- [[concepts/pricing-simulation|Pricing Simulation]] — Pricing Simulation ( #pricing #data-driven #analytics #product-strategy #ai-engineering)
+- [[concepts/prior-authentication|Prior Authorization]] — A payer-required permission process where providers must obtain approval before performing certain procedures. A major source of administrative friction and claim denials. ( #healthcare #prior-auth #insurance #payers #authorization)
+- [[concepts/priorityclass|PriorityClass]] — PriorityClass ( #deployment)
+- [[concepts/priorityclassname|priorityClassName]] — priorityClassName ( #deployment)
+- [[concepts/privacy-first-ai|Privacy First Ai]] — Stub page created to resolve incoming wiki links for Privacy First Ai. ( #stub)
+- [[concepts/privacy-sensitive-ai|Privacy-Sensitive AI]] — AI applications that process sensitive data (legal, medical, financial) requiring on-device execution to prevent data from leaving the user's control. Driven by compliance, legal, and organizationa... ( #privacy #security #data-sovereignty #local-ai #compliance)
+- [[concepts/private-ai-inference|Private AI Inference]] — Broader paradigm of running AI model inference on remote servers while protecting user data through architectural guarantees — pioneered by Apple's PCC, now adopted by Microsoft and Meta. ( #concept #privacy #ai #inference #cloud)
+- [[concepts/private-cloud-compute|Private Cloud Compute]] — Architectural pattern for delivering remote AI inference while preserving user privacy through stateless computation, enforceable guarantees, non-targetability, and verifiable transparency. ( #concept #privacy #apple #cloud-compute #architecture)
+- [[concepts/private-robotics-data|Private Robotics Data]] — Collecting proprietary robotics data by installing sensors in active commercial kitchens — hundreds of thousands of live-cooked meals with thermal and RGB footage — to train culinary-specific perce... ( #robotics #data-collection #proprietary-data #foundation-models #self-supervised-learning)
+- [[concepts/proactive-agents|Proactive Agents]] — Proactive Agents ( #proactive-agents #agentic-workflows #react-agents #planning #enterprise-ai)
+- [[concepts/probabilistic-accuracy-chaining|Probabilistic Accuracy Chaining]] — Probabilistic Accuracy Chaining ( #accuracy #chaining #probabilistic #agents #error-compounding)
+- [[concepts/probabilistic-ai-products|Probabilistic AI Products]] — Probabilistic AI Products ( #ai-products #probabilistic #non-deterministic #guardrails #user-experience)
+- [[concepts/probabilistic-evals|Probabilistic Evals]] — Evaluation metrics measuring outcome frequency across many simulated scenarios, rather than checking whether each specific input produces the expected output. ( #evals #voice-ai #simulation #probabilistic #metrics)
+- [[concepts/probabilistic-software|Probabilistic Software]] — Probabilistic Software ( #ai #software-engineering #non-determinism #ai-agents #production-ai)
+- [[concepts/process-as-product|Process as Product]] — Treating internal organizational processes as products that must be evaluated against outcomes — creating clarity, unblocking teams, and accelerating decision-making or being cut. ( #concept #ai #methodology #organization #operations)
+- [[concepts/process-over-tools-evals|Process Over Tools in Evals]] — Process Over Tools in Evals ( #evaluation #process #methodology #governance)
+- [[concepts/procrastination-engineering|Procrastination Engineering]] — The practice of channeling procrastination into productive engineering work — using the time before a deadline to build something useful instead of doomscrolling. The origin story of Excalidraw. ( #concept #productivity #open-source #excalidraw-origin #side-projects)
+- [[concepts/product-aggregation|Product Data Aggregation]] — Product Data Aggregation ( #product-aggregation #product-data #api-design #merchant-infrastructure #data-infrastructure)
+- [[concepts/product-discovery|Product Discovery]] — The capability to help users find new and related products beyond their explicit search query — enabling serendipitous discovery like a physical grocery store experience. ( #search #discovery #e-commerce #user-experience #recommendation)
+- [[concepts/product-feeds|Product Feeds]] — Product Feeds ( #product-feeds #data-aggregation #merchant-data #e-commerce-infrastructure)
+- [[concepts/product-intelligence|Product Intelligence]] — An AI pipeline that analyzes relationships between work items using query rewriting, hybrid search, re-ranking, and deterministic rules to produce suggested labels, assignees, duplicates, and proje... ( #product-intelligence #issue-management #ai #search #re-ranking)
+- [[concepts/product-led-hiring|Product-Led Hiring]] — Hiring strategy where existing customers and users of a product become the best candidates for the company, because they already love the product and understand its use cases deeply. ( #hiring #product #startup #recruitment #aief2025)
+- [[concepts/product-management-triangle|Product Management Triangle]] — Stub page created to resolve incoming wiki links for Product Management Triangle. ( #stub)
+- [[concepts/product-market-fit|Product-Market Fit]] — The state where a product satisfies strong market demand. Eric Simons compares it to an enterprise sales pipeline — you need volume at the top of funnel to find the hits that close. ( #startup #product-development #validation #lean-startup)
+- [[concepts/product-multi-layer-cake|Product Multi-Layer Cake]] — A four-layer framework for understanding product building in the AI era: Self, Team, Product, User. Each layer is being rewritten simultaneously, creating both chaos and opportunity. ( #product #framework #ai-era #product-management)
+- [[concepts/product-taste|Product Taste]] — The third dimension of personal clarity (alongside vision and purpose). Having a refined sense of what good looks like in product design and interaction, especially in the AI era where new interact... ( #product #taste #design #ai-era #product-management)
+- [[concepts/production-eval-metrics|Production Eval Metrics]] — Production Eval Metrics ( #evals #metrics #production #online-evals #braintrust)
+- [[concepts/production-rag-complexity|Production RAG Complexity]] — The gap between simple RAG demos (10 documents) and production RAG (thousands of diverse documents) — why accuracy drops and systems become costly and slow at scale. ( #rag #production #scaling #complexity #enterprise-ai)
+- [[concepts/production-troubleshooting|Production Troubleshooting]] — The process of diagnosing and resolving production incidents. Anish Agarwal argues this is the hardest part of software engineering to automate and will get worse as AI-generated code reduces human... ( #production #debugging #incident-response #root-cause-analysis #on-call)
+- [[concepts/profit-first-mentality|Profit-First Mentality]] — Profit-First Mentality ( #profit #lean-startup #financial-discipline #startup #decision-making)
+- [[concepts/programmable-money|Programmable Money]] — Money whose ledger is built into internet technology (blockchain networks and smart contracts), enabling near-instant, borderless, and programmable value transfer with conditional logic. ( #blockchain #payments #smart-contracts #usdc #fintech)
+- [[concepts/progressive-disclosure-forms|Progressive Disclosure Forms]] — Stub page created to resolve incoming wiki links for Progressive Disclosure Forms. ( #stub)
+- [[concepts/prompt-catalog-pattern|Prompt Catalog Pattern]] — Prompt Catalog Pattern ( #prompt-engineering #ai-agents #templates #generative-ai #system-design)
+- [[concepts/prompt-crafting|Prompt Crafting]] — Stub page created to resolve incoming wiki links for Prompt Crafting. ( #stub)
+- [[concepts/prompt-engineering|Prompt Engineering]] — Stub page created to resolve incoming wiki links for Prompt Engineering. ( #stub)
+- [[concepts/prompt-engineering-amnesia|Prompt Engineering Amnesia]] — Prompt Engineering Amnesia ( #prompt-engineering #ai-memory #context-window #agi #aief2025)
+- [[concepts/prompt-engineering-for-code-review|Prompt Engineering for Code Review]] — Constraining LLM output in code review by updating prompts to only trigger comments that fall in the intersection of LLM capability and human desirability — the top-right quadrant of the bug taxonomy. ( #prompt-engineering #code-review #llm-constraint #ai-code-review)
+- [[concepts/prompt-engineering-is-dead|Prompt Engineering is Dead]] — The thesis that prompt engineering never existed as real engineering — the value in LLM applications comes from evaluation infrastructure and auto-improving loops, not manual prompt iteration. ( #prompt-engineering #llm #ai-engineering #methodology #infrastructure-over-prompts)
+- [[concepts/prompt-engineering-llm-output|Prompt Engineering for LLM Output]] — Prompt Engineering for LLM Output ( #prompt-engineering #llm #output-formatting #xml-tags #ai-editing)
+- [[concepts/prompt-fallback-infrastructure|Prompt Fallback Infrastructure]] — The system for managing hundreds of prompts across multiple model providers with config-based fallback mechanisms that account for cost, capability, and latency differences. ( #ai #architecture #reliability #operations #production)
+- [[concepts/prompt-injection|Prompt Injection]] — Prompt Injection ( #prompt-injection #security #adversarial #llm-security #attack-strategies)
+- [[concepts/prompt-is-a-bug|The Prompt Is a Bug]] — The prompt interface is a stepping stone, not a destination. Best AI products feel like mind reading because they collect context automatically — users should not have to explain what they need. ( #concept #ai #ux #product-design)
+- [[concepts/prompt-management-gap|Prompt Management Gap]] — The finding that 31% of AI engineering teams have no systematic way of managing their prompts, despite 70% updating prompts monthly and 10% daily — revealing a tooling gap in the AI engineering stack. ( #prompt-engineering #prompt-management #tooling #ai-infrastructure)
+- [[concepts/prompt-shields|Prompt Shields]] — Prompt Shields ( #prompt-shields #guardrails #prompt-injection #defense #azure-ai-foundry)
+- [[concepts/prompt-to-reward-function|Prompt-to-Reward Function]] — Using foundation models (O3, Opus, Gemini) to generate reinforcement learning reward functions from natural language descriptions, democratizing RL by removing the need for specialist math and coding. ( #ai #reinforcement-learning #llm #robotics #simulation)
+- [[concepts/promptification|Promptification]] — Promptification ( #promptification #llm #recommendation-systems #prompt-engineering #data-formatting)
+- [[concepts/prompting-vs-fine-tuning|Prompting vs Fine-tuning]] — A comparison framework between prompting (low barrier, quick iteration) and fine-tuning (continued training for domain optimization). The recommended decision process: always start with prompting a... ( #prompting #fine-tuning #llm #model-selection #prompt-engineering)
+- [[concepts/property-graph-model|Property Graph Model]] — Neo4j's data model consisting of three primitives: nodes (nouns/entities), directed relationships (verbs/connections), and properties (key-value pairs). Both nodes and relationships can carry prope... ( #knowledge-graph #neo4j #graph-database #data-model #graphrag)
+- [[concepts/proprietary-models|Proprietary Models]] — Stub page created to resolve incoming wiki links for Proprietary Models. ( #stub)
+- [[concepts/providers|Providers]] — Stub page created to resolve incoming wiki links for Providers. ( #stub)
+- [[concepts/proxy-metric-problem|Proxy Metric Problem]] — The problem of optimizing for a proxy metric (semantic similarity, relevance) that does not equal the actual goal (ranking quality). Standard embeddings and re-rankers only measure similarity, not... ( #proxy-metrics #relevance #ranking #evaluation #retrieval)
+- [[concepts/public-key-infrastructure|Public Key Infrastructure]] — Public Key Infrastructure ( #term)
+- [[concepts/public-key-infrastructure-pki|Public Key Infrastructure (PKI)]] — Public Key Infrastructure Pki
+- [[concepts/pydantic|Pydantic]] — A Python library for data validation via type annotations. At AIEF2025, used as the schema definition for LLM-guided entity extraction from unstructured documents, producing structured JSON for gra... ( #python #data-model #llm #extraction #graphrag)
+- [[concepts/pytorch-inference|Pytorch Inference]] — Stub page created to resolve incoming wiki links for Pytorch Inference. ( #stub)
+- [[concepts/qos-classes|QoS classes]] — QoS classes ( #deployment)
+- [[concepts/quality-chasm-in-ai|Quality Chasm in AI]] — The reliability gap teams hit when moving from a working prototype or V1 AI product to a V2 that drives real customer value — only crossable through systematic iteration. ( #ai #quality #production #reliability #product-development)
+- [[concepts/quality-engineering-loop|Quality Engineering Loop]] — Iterative improvement cycle for RAG systems: baseline → loss analysis → technique selection → re-baseline. Start with outcomes, not techniques. Match fix complexity to problem severity. ( #quality-engineering #rag #retrieval #loss-analysis #technique-selection)
+- [[concepts/quality-vs-quantity-recommendations|Quality vs Quantity in Recommendations]] — Finding that reducing bad recommendations improves engagement more than maintaining high recommendation volume, demonstrated by Indeed's 20% reduction in bad recs leading to 4% higher application r... ( #recommendation-systems #quality #metrics #recsys #product-metrics)
+- [[concepts/quantitative-reasoning-rag|Quantitative Reasoning RAG]] — The challenge of RAG systems performing quantitative reasoning over structured data like financial tables — requiring data interpretation capabilities beyond simple text retrieval. ( #rag #quantitative-reasoning #financial-data #table-processing #data-interpretation)
+- [[concepts/quantization-aware-training|Quantization-Aware Training]] — Training technique that lowers embedding vector numerical precision during training, achieving 10–100× storage reduction with 0–10% accuracy loss. ( #quantization #embeddings #storage-optimization #training #voyage-ai)
+- [[concepts/quantization-inference|Quantization for Inference]] — Reducing model numerical precision during inference to speed up latency and decrease cost by enabling higher batch sizes. A composable technique that stacks with RAG and other optimization strategies. ( #quantization #inference #optimization #latency #cost)
+- [[concepts/query-decomposition|Query Decomposition]] — RAG enhancement technique that expands and decomposes a query into multiple sub-queries using an LLM, then searches for different document subsets for each sub-query. ( #rag #retrieval #query-processing #llm #voyage-ai)
+- [[concepts/query-rewriting|Query Rewriting]] — Using an LLM to transform a user's natural language query into something more search-engine-friendly before retrieval. Includes HyDE (synthetic document generation for vector search). ( #search #llm #query-processing #rag)
+- [[concepts/query-understanding|Query Understanding]] — The most upstream component of the search stack, responsible for normalizing, tagging, classifying, and mapping user queries to a product taxonomy before retrieval and ranking. ( #search #llm #query-processing #nlp #e-commerce)
+- [[concepts/queue-phase|Queue Phase]] — Queue Phase ( #scheduling)
+- [[concepts/queuing-theory-gpu|Queuing Theory in GPU Markets]] — Queuing Theory in GPU Markets ( #queuing-theory #gpu #marketplace #economics #mm-c-model)
+- [[concepts/race-conditions-in-async-systems|Race Conditions in Async Systems]] — Race conditions are the inevitable result of asynchronous, uncoordinated event processing — where multiple consumers access shared state without coordination, leading to unpredictable behavior and... ( #race-conditions #async-systems #distributed-systems #reliability #event-driven)
+- [[concepts/rag-agent-symbiosis|RAG-Agent Symbiosis]] — The symbiotic relationship between RAG and agents: agents need RAG for context, and RAG needs agents for introspection, decomposition, and self-correction. ( #rag #agent #retrieval #llamaindex #symbiosis)
+- [[concepts/rag-as-managed-service|RAG as Managed Service]] — The philosophy that RAG should be treated as a managed service — consumers don't build their own vector databases or train their own LLMs, they use a platform that handles extraction, retrieval, an... ( #rag #managed-service #abstraction #enterprise-ai #platform)
+- [[concepts/rag-evaluation|RAG Evaluation]] — End-to-end evaluation of RAG pipelines using dedicated libraries (Ragas) and reward models, measuring response quality, retrieval quality, and query interpretation. Includes eval spectrum from expe... ( #rag #evaluation #metrics #ragas #llm-as-judge)
+- [[concepts/rag-grounding|RAG Grounding]] — The practice of providing LLMs with retrieved, relevant context from external sources to prevent hallucination, enable refusal, and produce specific rather than generic answers. ( #rag #retrieval #grounding #hallucination-prevention #llm)
+- [[concepts/rag-pipeline-architecture|RAG Pipeline Architecture]] — Standard RAG architecture: a vector database retrieves relevant documents for a query, and an LLM generates an answer grounded in that retrieved context. ( #rag #retrieval #vector-database #llm #architecture)
+- [[concepts/rag-pipeline-evals|RAG Pipeline Evals]] — Evaluating RAG systems at each pipeline step — retrieval relevance, generation quality, and end-to-end output — enabling targeted debugging of specific pipeline failures. ( #evals #rag #retrieval #evaluation-methodology #aief2025)
+- [[concepts/raise-without-raising|Raise Without Raising]] — The 'ask for advice, get money' principle: bring investors into conversations early for advice, which creates relationships that often become fundraising opportunities. ( #fundraising #relationship-building #vc #networking #ask-for-advice-get-money)
+- [[concepts/ralph-coding-technique|Ralph Coding Technique]] — Ralph Coding Technique ( #ai-assisted-development #agent-loop #vibe-coding)
+- [[concepts/rapid-iteration-loop|Rapid Iteration Loop]] — The cycle of ship → measure → learn → iterate at maximum speed. Bolt.new's clean ARR ramp from $0.7M to $20M in 60 days was enabled by rapid iteration on a lean team. ( #product-development #iteration #feedback-loops #lean-startup)
+- [[concepts/rate-limiting|Rate Limiting]] — Stub page created to resolve incoming wiki links for Rate Limiting. ( #stub)
+- [[concepts/rbac|RBAC]] — RBAC ( #security)
+- [[concepts/re-ranking|Re-ranking]] — Two-stage retrieval: retrieve a broad set of candidates with a cheap method, then re-score the top N with a more expensive, higher-quality model. Increasingly popular for improving search quality. ( #search #ranking #two-stage-retrieval)
+- [[concepts/reachability-testing|Reachability Testing]] — Stub page created to resolve incoming wiki links for Reachability Testing. ( #stub)
+- [[concepts/react-pattern|React Pattern]] — Stub page created to resolve incoming wiki links for React Pattern. ( #stub)
+- [[concepts/read-write-workload-benchmarking|Read-Write Workload Benchmarking]] — Most vector search benchmarks measure only read performance, but real-world workloads are read-write. Adding writes introduces index merges, segment management, and read-write ratio complexity that... ( #benchmarking #vector-search #workload-modeling #performance #aief2025)
+- [[concepts/readme-driven-development|README-Driven Development]] — README-Driven Development ( #readme #agent-mode #spec-driven #github-copilot #ai-coding)
+- [[concepts/real-time-apis|Real-Time APIs]] — Real-Time APIs ( #real-time-api #voice-ai #streaming #inference #gemini)
+- [[concepts/real-time-conversational-video|Real-Time Conversational Video]] — Real-Time Conversational Video ( #video-ai #real-time #conversational-ai #latency #video-generation)
+- [[concepts/real-time-os-constraints|Real-Time OS Constraints]] — Real-Time OS Constraints ( #real-time-os #robotics #microcontroller #rtos #synchronization)
+- [[concepts/real-users-only|Real Users Only]] — The principle that feedback loops require real people with names, emails, and phone numbers — not personas or abstract user segments. You must know your users personally and understand how they sol... ( #user-research #product-development #feedback-loops #personas #ux)
+- [[concepts/real-world-impact-ai|Real-World Impact AI]] — AI systems whose outputs have physical, geopolitical, or life-safety consequences — not just financial or reputational damage. The defining characteristic of government and national security AI. ( #real-world-impact #kinetic-consequences #geopolitical-risk #ai-safety #government-ai)
+- [[concepts/real-world-robotics-data|Real-World Robotics Data]] — Real-World Robotics Data ( #robotics #data-collection #can-bus #diagnostics #external-monitoring)
+- [[concepts/reasoning-in-search|Reasoning In Search]] — Stub page created to resolve incoming wiki links for Reasoning In Search. ( #stub)
+- [[concepts/reasoning-model-pricing|Reasoning Model Pricing]] — The trend of reasoning models (Claude 3.7 Sonnet, O1 Pro) being priced at extreme premiums relative to standard models, with O1 Pro at ~$150/1M input tokens — twice GPT-4.5's $75 rate — raising que... ( #pricing #reasoning #cost #llm #aief2025)
+- [[concepts/reasoning-model-tradeoffs|Reasoning Model Trade-offs]] — Reasoning models offer 10× more intelligence at the cost of 10× more output tokens, 10× higher latency, and 10× higher cost. ( #reasoning #latency #cost #verbosity #reasoning-models)
+- [[concepts/reasoning-models|Reasoning Models]] — LLMs that produce additional 'thinking' tokens before generating the final answer, increasing both quality and cost. A Pareto frontier technique that trades more tokens for better outputs. ( #reasoning #inference #llm #quality #cost)
+- [[concepts/reasoning-models-failure-analysis|Reasoning Models for Failure Analysis]] — Reasoning Models for Failure Analysis ( #reasoning-models #failure-analysis #debugging #ai-agents #llm-as-judge)
+- [[concepts/reasoning-time-branching|Reasoning Time Branching]] — Technique where AI agents branch their entire computational environment during reasoning to explore multiple solution paths in parallel, then recombine results against verifiers. ( #ai #agents #infrastructure #reasoning)
+- [[concepts/reasoning-token-visibility|Reasoning Token Visibility]] — Reasoning tokens are charged even when labs hide them. Per-token pricing alone is misleading without considering output verbosity and hidden reasoning costs. ( #reasoning #tokens #transparency #pricing #aief2025)
+- [[concepts/recall-at-k|Recall@K]] — The retrieval evaluation metric measuring whether the expected document appears in the top-k results. Used as the primary success rate metric in fast evals for comparing embedding models. ( #retrieval #evaluation #metrics #recall #embedding-models)
+- [[concepts/recipe-state-machines|Recipe State Machines]] — Modeling recipes as state machines driven by thermal and visual embeddings, where each state transition depends on the current sensory state of the food rather than a fixed time schedule. ( #cooking #state-machines #recipe-execution #food-perception #robotics)
+- [[concepts/reciprocal-rank-fusion|Reciprocal Rank Fusion]] — Simple, position-based method for blending ranked results from multiple retrieval methods. Ignores absolute scores, uses only rank positions. Described in a ~2-page paper. ( #search #ranking #fusion #rrf)
+- [[concepts/recommendation-serving-cost|Recommendation Serving Cost]] — The primary constraint on deploying LLM-based recommendation systems at scale. YouTube's LRM achieved 95%+ TPU cost reduction to make production deployment feasible for 2B+ DAU. ( #recommendation-systems #serving-cost #llm #infrastructure #tpu)
+- [[concepts/recommender|Recommender]] — Recommender ( #scheduling)
+- [[concepts/recreate-strategy|Recreate Strategy]] — Recreate Strategy ( #deployment)
+- [[concepts/recsys-event-tokenization|Event Tokenization for Recommendation Systems]] — The process of encoding user interaction events as tokens for recommendation transformers, decomposing each event into when, where, and what facets. ( #recommendation-systems #tokenization #transformer #recsys #representation-learning)
+- [[concepts/recsys-foundation-model|Recommendation Foundation Models]] — Architectural pattern where a single large transformer is pre-trained on all user interaction data, then adapted via fine-tuning, embedding push, or subgraph integration for downstream recommendati... ( #recommendation-systems #foundation-model #transformer #personalization #recsys)
+- [[concepts/red-teaming|Red Teaming AI Agents]] — Systematic adversarial testing of AI agents to discover security vulnerabilities. Methodology includes system prompt extraction, tool analysis, and exploitation within constrained time windows. ( #red-teaming #security #agent-security #adversarial-testing #vulnerability-discovery)
+- [[concepts/refactoring-priority-matrix|Refactoring Priority Matrix]] — Refactoring decision framework: prioritize by badness × pain × ease. Avoid refactoring code that is bad but not painful to work with, even if easy to change. ( #refactoring #code-quality #development-methodology #prioritization #aief2025)
+- [[concepts/reference-free-evaluation|Reference-Free Evaluation]] — Evaluation approach that measures agent performance without predefined expected outputs — enables scaling and handles subjective truth when ground-truth is unavailable. ( #evals #voice-ai #metrics #simulation #ai-search)
+- [[concepts/reference-powered-generation|Reference-Powered Generation]] — A generation technique where a reference image (or set of images) conditions the output — enabling composition of subjects into environments, style transfer, and character identity preservation acr... ( #reference #image-conditioning #video-generation #style-transfer)
+- [[concepts/refresh-token|Refresh Token]] — Refresh Token ( #oauth #tokens #authorization #security)
+- [[concepts/reinforcement-fine-tuning|Reinforcement Fine-Tuning (RFT)]] — OpenAI's fine-tuning method for reasoning models: the model generates chain-of-thought outputs evaluated by a grader that provides feedback for continued training. Designed to reach state-of-the-ar... ( #fine-tuning #reinforcement-learning #reasoning #llm #openai)
+- [[concepts/reinforcement-learning|Reinforcement Learning]] — A machine learning paradigm where systems learn by interacting with their environment. Sutton identifies it as one of the two general methods (with search) that consistently outperform domain-knowl... ( #reinforcement-learning #rl #learning #search #bitter-lesson)
+- [[concepts/reinforcement-learning-at-scale|Reinforcement Learning at Scale]] — RL applied at scale works now: DeepSeek surprised the field by showing RL at scale produces strong open models with few tweaks. O3 and other frontier models double down on RL as the scaling direction. ( #reinforcement-learning #deepseek #openai #o3 #scaling)
+- [[concepts/release-channel|Release Channel]] — Release Channel ( #deployment)
+- [[concepts/reliability-is-revenue|Reliability Is Revenue]] — The thesis that reliability is the direct driver of revenue in AI applications — every reliable use case unlocks a billion-dollar app. Articulated by Federalist AI at AIEF2025. ( #ai-reliability #production-ai #revenue #practical-ai #aief2025)
+- [[concepts/reliability-over-intelligence|Reliability Over Intelligence]] — The thesis that AI companies should prioritize reliability for boring tasks over marginal intelligence gains, because 99.9% reliable models for common tasks unlock billion-dollar applications. ( #ai-reliability #production-ai #agent-reliability #inference-cost #practical-ai)
+- [[concepts/remote-agents-as-a-service|Remote Agents as a Service]] — Remote Agents as a Service ( #remote-agents #cloud-agents #agents-as-a-service #coding-agents #infrastructure)
+- [[concepts/remote-attestation|Remote Attestation]] — Protocol where a client verifies what software a remote server is running before trusting it with data — the server presents signed claims tied to a public key, and can only decrypt the client's da... ( #concept #security #trust #cryptography #attestation)
+- [[concepts/repetitive-migrations|Repetitive Migrations]] — Repetitive code migrations (JS-to-TS, framework upgrades) were the first AI agent use case with product-market fit. They require clear step-by-step execution across thousands of files — tedious for... ( #ai-agents #code-migration #software-engineering #aief2025)
+- [[concepts/replica-set-creation|replica-set-creation]] — replica-set-creation ( #deployment)
+- [[concepts/replicaset|Replicaset]] — Stub page created to resolve incoming wiki links for Replicaset. ( #stub)
+- [[concepts/replicasets|Replicasets]] — A ReplicaSet is a Kubernetes controller that ensures a specified number of pod replicas are running at any given time, making it a cornerstone of workload management for scaling and replication...
+- [[concepts/replication-controller-&-replicaset|Replication Controller & ReplicaSet]] — Replication Controller & Replicaset ( #term)
+- [[concepts/replication-controllers-&-replicasets|Replication Controllers & ReplicaSets]] — Replication Controllers & Replicasets ( #term)
+- [[concepts/replicationcontroller|ReplicationController]] — ReplicationController ( #deployment)
+- [[concepts/repo-snapshot-pattern|Repository Snapshot Pattern]] — The ability to set up, snapshot, reload, and roll back repository states for AI agent execution. Enables clean, isolated environments for agents to work in without affecting the developer's workspace. ( #ai-agents #agent-systems #environment-management #software-engineering #aief2025)
+- [[concepts/repository-level-understanding|Repository-Level Code Understanding]] — Repository-Level Code Understanding ( #code-understanding #repository-analysis #graphrag #llm #code-base)
+- [[concepts/requiredduringschedulingignoredduringexecution|Requiredduringschedulingignoredduringexecution]] — `requiredDuringSchedulingIgnoredDuringExecution` is the primary implementation of a '
+- [[concepts/resource-limits|Resource Limits]] — Resource Limits ( #resources #qos)
+- [[concepts/resource-requests|Resource Requests]] — Resource Requests in Kubernetes define the minimum CPU and memory guarantees for a container at scheduling time, which the kube-scheduler uses to filter and select appropriate nodes. If no node...
+- [[concepts/resource-requests-&-limits|resource-requests-&-limits]] — Resource Requests & Limits ( #term)
+- [[concepts/resource-requests-and-limits|Resource Requests and Limits (merged into Resource Limits)]] — Resource Requests And Limits ( #term #resources #qos)
+- [[concepts/resource-server|Resource Server]] — Resource Server ( #oauth #api #tokens #authorization)
+- [[concepts/resourcequota|Resourcequota]] — Resourcequota ( #resources #limits)
+- [[concepts/resources-and-verbs|Resources and Verbs]] — Resources and Verbs ( #deployment)
+- [[concepts/responsible-ai-ai-media|Responsible Ai Ai Media]] — Stub page created to resolve incoming wiki links for Responsible Ai Ai Media. ( #stub)
+- [[concepts/responsible-ai-governance|Responsible AI Governance]] — Responsible AI Governance ( #responsible-ai #governance #pii #privacy #brand-trust)
+- [[concepts/retrieval-augmented-generation|Retrieval-Augmented Generation (RAG)]] — A technique for improving LLM output quality by retrieving relevant documents at inference time. Increases latency and cost but improves quality — a Pareto frontier shift technique that stacks with... ( #rag #retrieval #inference #quality #llm)
+- [[concepts/retrieval-evaluation-isolation|Retrieval Evaluation Isolation]] — A RAG evaluation pattern where the retrieval step is frozen or evaluated independently from the generation step, preventing retrieval changes from confounding generation quality measurement. ( #ai #rag #evaluation #retrieval #methodology)
+- [[concepts/revenue-cycle-management|Revenue Cycle Management]] — The financial process managing the patient journey from eligibility checks through payment collection. A major source of healthcare cost and administrative friction. ( #rcm #billing #insurance #claims #finance)
+- [[concepts/revision-history|Revision History]] — Revision History ( #deployment)
+- [[concepts/rework-vs-refactoring|Rework vs Refactoring]] — In AI productivity measurement, 'rework' means altering recently-written code (wasteful), while 'refactoring' means altering existing code without changing behavior (potentially beneficial). AI imp... ( #software-engineering #ai-productivity #code-quality #measurement #rework)
+- [[concepts/rf-detter|RF-DeTter]] — Roboflow's detection transformer model that swaps DETR's backbone with DINOv2's pre-trained backbone for real-time object detection, achieving improvements on COCO and massive gains on RF100VL. ( #rf-detter #object-detection #transformer #dinov2 #backbone)
+- [[concepts/rf100vl|RF100VL Benchmark]] — A vision-language benchmark of 100 object detection datasets from diverse domains (medical imaging, aerial views, microscopy) designed to measure visual intelligence and domain adaptability beyond... ( #rf100vl #benchmark #object-detection #vision-language #few-shot)
+- [[concepts/risk-evaluation|Risk Evaluation]] — Stub page created to resolve incoming wiki links for Risk Evaluation. ( #stub)
+- [[concepts/risk-mapping|Risk Mapping]] — Risk Mapping ( #risk-mapping #safety #ai-governance #risk-assessment #ai-red-teaming)
+- [[concepts/ritualized-discovery|Ritualized Discovery]] — The practice of making AI experimentation and discovery a systematic, repeatable process embedded into planning cycles — not ad-hoc spikes but structured innovation rhythms. ( #concept #ai #methodology #experimentation #product-development)
+- [[concepts/rl-training-moat|RL Training Moat]] — The thesis that teams who RL-tune open models for their specific tasks build a defensible moat beyond generic API wrappers — owning your model creates competitive advantage. ( #reinforcement-learning #competitive-advantage #custom-models #moat #aief2025)
+- [[concepts/rlhf|Reinforcement Learning from Human Feedback (RLHF)]] — Training LLMs to prefer better responses using human preference data. Teaches models to follow instructions and also works in code, producing performance improvements. ( #rlhf #reinforcement-learning #human-feedback #llm #instruction-tuning)
+- [[concepts/robot-evaluation-methods|Robot Evaluation Methods]] — Multi-dimensional evaluation of cooking robots: motor skills (speed vs human), perception accuracy (state estimation vs expert chefs), and end-product quality (blind taste tests vs human recreation). ( #robotics #evaluation #benchmarks #taste-tests #motor-skills)
+- [[concepts/robot-foundation-models|Robot Foundation Models]] — Foundation models trained on robotic motion primitives (picking, stirring, sautéing) via fine-tuning and teleoperation, enabling robots to learn cooking skills from expert demonstrations. ( #robotics #foundation-models #motion-primitives #teleoperation #fine-tuning)
+- [[concepts/robot-state-action|Robot State and Action]] — "The fundamental state-action framework in robotics: robot state is a snapshot of the robot and environment at an instant; action is what the robot decides to do next based on that state. ( #robot-state #robot-action #robotics #state-space #control-theory)
+- [[concepts/robotic-culinary-automation|Robotic Culinary Automation]] — Using robots with thermal/RGB perception and foundation models to automate commercial kitchen labor — cooking 1000+ recipes autonomously with better consistency than human chefs. ( #robotics #cooking #automation #commercial-kitchen #food-tech)
+- [[concepts/robotic-process-automation|Robotic Process Automation]] — Stub page created to resolve incoming wiki links for Robotic Process Automation. ( #stub)
+- [[concepts/robotics-control-loop|Robotics Control Loop]] — Robotics Control Loop ( #robotics #control-loop #real-time #actuator #sensor)
+- [[concepts/robotics-data-engine|Robotics Data Engine]] — A purpose-built data collection and training pipeline for robotics that uses teleoperation, continuous data collection, cloud annotation, and model training to produce policies for robot control. ( #robotics #data-engineering #data-collection #teleoperation #training-data)
+- [[concepts/robotics-synchronization|Robotics Synchronization]] — Robotics Synchronization ( #synchronization #multithreading #robotics #semaphores #condition-variables)
+- [[concepts/roi-expectation-pull-forward|ROI Expectation Pull-Forward]] — ROI Expectation Pull-Forward ( #roi #expectations #enterprise-ai #timeline)
+- [[concepts/roi-measurement-challenges|ROI Measurement Challenges]] — ROI Measurement Challenges ( #roi #measurement #enterprise-ai #impact)
+- [[concepts/role-rbac|Role (RBAC)]] — Role (RBAC) ( #security)
+- [[concepts/rolebinding|RoleBinding]] — RoleBinding ( #security)
+- [[concepts/rollback|Rollback]] — In Kubernetes, a rollback is the process of reverting a Deployment to a previous, known-good revision after a new update causes issues. It is a critical safety mechanism for restoring applicati...
+- [[concepts/rolling-update-strategy|Rolling Update Strategy]] — The Rolling Update strategy is the default deployment strategy used by Kubernetes Deployments to upgrade applications without causing downtime. It ensures continuous availability by gradually r...
+- [[concepts/rolling-updates-&-rollbacks|rolling-updates-&-rollbacks]] — Rolling Updates & Rollbacks ( #term)
+- [[concepts/rolling-updates-rollbacks|rolling-updates-rollbacks]] — Rolling Updates Rollbacks ( #term)
+- [[concepts/rolling-upgrade|Rolling Upgrade]] — Rolling Upgrade ( #deployment)
+- [[concepts/rollout|rollout]] — rollout ( #deployment)
+- [[concepts/route-tables|Route tables]] — Route tables ( #networking)
+- [[concepts/rqvae-quantization|RQVAE Quantization]] — Residual Quantized Variational Autoencoder — the quantization technique YouTube uses to convert multi-dimensional video embeddings into discrete Semantic ID tokens that LLMs can process. ( #quantization #embeddings #vector-quantization #autoencoder #recommendation-systems)
+- [[concepts/rsa|Rsa]] — RSA is an asymmetric cryptographic algorithm whose security relies on the practical difficulty of factoring the product of two large prime numbers. It is significantly slower than symmetric enc...
+- [[concepts/runbook-dependency|Runbook Dependency]] — The problem that runbooks — documented incident response procedures — are deprecated the moment they are created. This makes runbook-dependent agent workflows ineffective for production troubleshoo... ( #runbooks #incident-response #documentation #agent-workflows #observability)
+- [[concepts/runway-and-burn-rate|Runway and Burn Rate]] — Runway (time until funds run out) and burn rate (monthly spending) determine how long a startup can survive while searching for product-market fit. Lower burn = more shots on goal. ( #startup #finance #survival #lean-startup)
+- [[concepts/sampled-profiling|Sampled Profiling]] — A profiling approach that samples system state at fixed intervals (e.g., 20-100 times per second) rather than recording every event, achieving low overhead while still capturing relevant patterns. ( #profiling #sampling #performance #overhead #eBPF)
+- [[concepts/sanctions-circumvention|Sanctions Circumvention]] — Methods by which Chinese entities circumvent US sanctions and export controls on AI hardware through intermediaries, shell companies, and supply chain workarounds. ( #geopolitics #supply-chain #sanctions #workarounds #hbm)
+- [[concepts/scaffold-over-framework|Scaffold Over Framework]] — Stub page created to resolve incoming wiki links for Scaffold Over Framework. ( #stub)
+- [[concepts/scaling|Scaling]] — Scaling is a fundamental operational practice in Kubernetes for maintaining performance and cost-efficiency. At the workload level, it is primarily understood as **horizontal scaling**—adjustin...
+- [[concepts/scaling-is-dead-thesis|Scaling is Dead Thesis]] — The argument that scaling model size and compute alone will not solve AI reliability problems, and that architectural innovation or specialized models are needed for production-quality real-world p... ( #ai #scaling #reliability #architecture #inference)
+- [[concepts/scaling-judge-time-compute|Scaling Judge Time Compute]] — The philosophy of investing more compute at the judging/evaluation stage — scaling judge time compute — rather than only at the generation stage. Two approaches: train reasoning models or use struc... ( #judge-scaling #compute-scaling #evaluation #reward-modeling #ai-evaluation)
+- [[concepts/scaling-laws|Scaling Laws]] — Scaling Laws ( #scaling-laws #scaling #llm #model-training)
+- [[concepts/scaling-laws-recsys|Scaling Laws Recsys]] — Stub page created to resolve incoming wiki links for Scaling Laws Recsys. ( #stub)
+- [[concepts/scaling-limits|Scaling Limits]] — The observation that throwing more money and compute at LLM training has diminishing returns, demonstrated by GPT-4.5's failure despite enormous investment and its rapid deprecation. ( #scaling #compute #diminishing-returns #llm #aief2025)
+- [[concepts/scenario-tuning-bias|Scenario Tuning Bias]] — The tendency for benchmark authors to design scenarios that favor their own system — whether intentionally or unintentionally — by tuning data characteristics, query patterns, filters, and configur... ( #benchmarking #bias #cherry-picking #vector-search #aief2025)
+- [[concepts/scheduler|Scheduler]] — Scheduler ( #control-plane #scheduling)
+- [[concepts/scheduler-profiles|Scheduler Profiles]] — Scheduler Profiles ( #scheduling)
+- [[concepts/schrodingers-chat|Schrodinger's Chat]] — The paradox in AI UX design where chatbots have well-documented usability problems yet remain the dominant interaction paradigm because one attribute — the ability to conform to the next model — ou... ( #ai #ux #chat #design #aief2025)
+- [[concepts/scorers-as-specs|Scorers as Specs]] — Scoring functions are specifications for your AI application — they define what good looks like for your specific product. Using generic scorers means using someone else's spec, not yours. ( #evals #scorers #specs #product-design #production-ai)
+- [[concepts/screenshot-based-multimodal-retrieval|Screenshot-Based Multimodal Retrieval]] — A simplified approach to retrieving from mixed-modality documents by capturing page-level screenshots, embedding them with VLM-based multimodal embedding models, and storing image references alongs... ( #multimodal #retrieval #rag #embeddings)
+- [[concepts/sdlc-commoditization|SDLC Commoditization in AI]] — SDLC Commoditization in AI ( #sdlc #commoditization #ai-engineering #production #evals)
+- [[concepts/sdlc-shift-left-ai|SDLC Shift-Left AI]] — The V-shape model of SDLC executability and the argument for shifting review and testing left — so developers get feedback as they write code rather than after pushing. Requires agentic workflows w... ( #sdlc #shift-left #aief2025 #itamar-friedman #qodo)
+- [[concepts/seamless-ai|Seamless AI]] — Design philosophy where AI features are integrated so naturally into a product that users don't realize AI is involved — contrasting with 'AI-in-your-face' approaches that prominently brand AI feat... ( #ai #ux #product-design #hidden-ai #pragmatic-ai)
+- [[concepts/seamless-authentication-for-agents|Seamless Authentication for Agents]] — Seamless Authentication for Agents ( #agent-experience #authentication #agent-identity #oauth #aief2025)
+- [[concepts/search-and-learn|Search and Learn]] — The two general methods that Sutton's Bitter Lesson identifies as consistently outperforming domain-knowledge approaches: search (exploring large spaces) and learning (system understanding its envi... ( #search #learning #ai-research #scaling #rich-sutton)
+- [[concepts/search-and-retrieval|Search and Retrieval]] — The end-to-end search pipeline from query understanding through retrieval and ranking — the core infrastructure that determines what users see when they search. ( #search #retrieval #information-retrieval #e-commerce #ranking)
+- [[concepts/search-engine-relevance|Search Engine Relevance]] — Stub page created to resolve incoming wiki links for Search Engine Relevance. ( #stub)
+- [[concepts/search-evaluation-methods|Search Evaluation Methods]] — Methods for measuring search result quality: golden datasets, clickstream analysis, LLM-as-judge, and human+LLM evaluation. Robust evaluation is rare but critical. ( #search #evaluation #quality #metrics)
+- [[concepts/search-fulfillment|Search Fulfillment]] — Search Fulfillment ( #search-fulfillment #engagement-metrics #search-relevance #user-actions #aief2025)
+- [[concepts/search-relevance|Search Relevance]] — Search Relevance ( #search-relevance #relevance-model #classification #five-point-scale #search-quality)
+- [[concepts/secret|Secret]] — Stub page created to resolve incoming wiki links for Secret. ( #stub)
+- [[concepts/secrets|Secrets]] — "Secrets are Kubernetes objects specifically for storing sensitive information like passwords, tokens, and certificates. This makes them a secure alternative to [[concepts/configmaps]]" - "env-conf...
+- [[concepts/secure-dev-environment|Secure Dev Environment]] — A developer environment designed for regulated industries — banks, pharmaceuticals, healthcare — where source code, data, and integrations must remain on customer-controlled infrastructure with str... ( #secure-dev-environment #dev-environment #regulated-industries #cloud-for-agents #gitpod)
+- [[concepts/security-groups|Security Groups]] — Security Groups act as instance-level firewalls within a Virtual Private Cloud (VPC), governing both ingress and egress traffic through rules evaluated by protocol, port, and IP/CIDR. For Kuber...
+- [[concepts/security-in-kubernetes|Security in Kubernetes (merged into Host Security)]] — Security In Kubernetes ( #term #security)
+- [[concepts/seed-funding|Seed Funding]] — Seed-stage VC investing focuses on founder quality, team, and vision. Seed funds are comfortable investing in pre-revenue and sometimes pre-product companies. ( #seed #funding #vc #fundraising #startup)
+- [[concepts/selectors|Selectors]] — Selectors are queries that filter Kubernetes resources based on label values, enabling the identification of object sets for management and routing. They come in two main types: equality-based sele...
+- [[concepts/self-driving-car-evals|Self-Driving Car Evals]] — Self-Driving Car Evals ( #evals #self-driving-cars #analogy #production-ai #safety)
+- [[concepts/self-driving-code-review|Self-Driving Code Review]] — AI handles the manual, painful parts of code review so developers can focus on what matters — shipping features that work as expected. Achieves higher acceptance rates than human review comments. ( #code-review #ai #automation #software-engineering #aief2025)
+- [[concepts/self-healing|Self-Healing]] — Self Healing ( #term)
+- [[concepts/self-hosted-overhead|Self-Hosted Overhead]] — The day-2 operational burden that self-hosted software creates for customers — setup complexity, maintenance costs, and weak vendor-customer relationships that erode ROI for both parties. ( #self-hosted #day-2 #operational-overhead #roi #enterprise)
+- [[concepts/self-managed-kubernetes|Self-Managed Kubernetes]] — Self-Managed Kubernetes ( #deployment)
+- [[concepts/self-reconciling|Self Reconciling]] — Self-reconciling is the automatic state maintenance for static Pods managed directly by a node's kubelet. It ensures the Pod's runtime state matches its manifest specification through automatic...
+- [[concepts/self-reflection-evaluator|Self-Reflection Evaluator-Optimizer]] — Agent design pattern where an LLM evaluates its own output against the original goal, generates feedback, and iteratively improves — implemented as a generate-evaluate-feedback loop. ( #agent #ai #architecture #design-pattern #evaluation)
+- [[concepts/self-reported-productivity|Self-Reported Productivity]] — Self-reported productivity surveys are poor predictors of actual developer productivity. Stanford's study found developers misjudge their productivity by ~30 percentile points, and only 1 in 3 esti... ( #software-engineering #measurement #surveys #productivity #developer-metrics)
+- [[concepts/self-signed-certificates|Self-Signed Certificates]] — Self-Signed Certificates ( #tls)
+- [[concepts/self-supervised-driving|Self-Supervised Driving]] — A training methodology for autonomous driving where the model learns from driving logs without manual labeling — the car's actual future trajectory provides the ground truth signal. ( #self-supervised #autonomous-driving #training #end-to-end #scaling)
+- [[concepts/semantic-collision-tools|Semantic Collision in Tool Use]] — The accuracy degradation that occurs when too many tools are exposed to an LLM in a single prompt, caused by semantic overlap between tool definitions. ( #ai-agents #tool-use #prompt-design #accuracy #llm)
+- [[concepts/semantic-conventions|Semantic Conventions]] — Semantic Conventions ( #semantic-conventions #open-telemetry #observability #mcp #spans)
+- [[concepts/semantic-end-of-utterance-detection|Semantic End-of-Utterance Detection]] — Models that augment traditional Voice Activity Detection by analyzing semantics, syntax, and prosody to predict when a speaker has truly finished their turn, reducing interruptions. ( #voice #ai #speech #vad #turn-taking)
+- [[concepts/semantic-ids|Semantic IDs]] — Content-aware item identifiers for recommendation systems that encode multimodal item features, replacing hash-based IDs to address cold start and sparsity problems. ( #recommendation-systems #embeddings #cold-start #llm #recsys)
+- [[concepts/semantic-kernel-agent|Semantic Kernel Agent]] — Semantic Kernel Agent ( #semantic-kernel #microsoft #agents #plugin-architecture #azure-ai-foundry)
+- [[concepts/semantic-memory-noise|Semantic Memory Noise]] — The problem where irrelevant facts generated by LLMs pollute agent memory stored in vector databases, causing retrieval to return unrelated facts and leading to hallucinations. ( #agent-memory #retrieval #semantic-similarity #hallucination #vector-database)
+- [[concepts/semantic-similarity|Semantic Similarity]] — The measure of how closely related two words are in meaning. Used as edge weights in Connections graph coloring solvers. Critiqued as insufficient for business-relevant memory retrieval in agent sy... ( #nlp #embeddings #word-relationships #connections #graph-coloring)
+- [[concepts/semantic-understanding-in-code|Semantic Understanding in Code Analysis]] — Semantic Understanding in Code Analysis ( #code-understanding #semantic-analysis #llm #graphrag)
+- [[concepts/semantic-versioning|semantic versioning]] — semantic versioning ( #deployment)
+- [[concepts/semantic-video-tokenization|Semantic Video Tokenization]] — YouTube's approach to tokenizing videos into semantically meaningful tokens using multi-modal feature extraction and RQVAE quantization, replacing hash-based IDs to enable LLM-based video recommend... ( #recommendation-systems #tokenization #embeddings #semantic-ids #youtube)
+- [[concepts/semantic-vs-lexical-query-patterns|Semantic vs Lexical Query Patterns]] — Two dominant query styles: keyword-style queries (short, term-based, matched by BM25) and natural-language queries (conversational, matched by vector search). Analyzing your query set determines wh... ( #query-patterns #bm25 #embeddings #lexical-search #semantic-search)
+- [[concepts/semi-supervised-learning|Semi-Supervised Learning for Model Training]] — Semi-Supervised Learning for Model Training ( #semi-supervised-learning #model-training #data-scaling #teacher-model #search-relevance)
+- [[concepts/senior-knowledge-replication|Senior Knowledge Replication]] — Senior Knowledge Replication ( #ai-adoption #knowledge-management #ai-first-firm #aief2025)
+- [[concepts/sequence-of-moats|Sequence of Moats]] — A strategy concept where competitive advantage is built from a sequence of smaller, stacked moats that each buy limited time, rather than a single durable moat. ( #product-strategy #competitive-advantage #execution #timing)
+- [[concepts/sequential-revision|Sequential Revision]] — Having an LLM review and correct its own previous output, iteratively improving. Mirrors how humans write, evaluate, and fix their own work. ( #sequential-revision #self-correction #llm #inference-time-compute #iterative-improvement)
+- [[concepts/server-certificate|Server Certificate]] — Server Certificate ( #tls)
+- [[concepts/server-rendered-html|Server-Rendered HTML for AI Teams]] — Datalab's frontend stack: server-rendered HTML with HTMX and Alpine.js instead of React or fancy frameworks. Simple, clean, modular code that AI can add to very well. ( #frontend #simplicity #technology-choice #ai #aief2025)
+- [[concepts/service-discovery|Service discovery]] — Service discovery ( #networking)
+- [[concepts/serviceaccount|ServiceAccount]] — ServiceAccount ( #security)
+- [[concepts/serviceaccounts|ServiceAccounts]] — ServiceAccounts ( #security)
+- [[concepts/services|Services]] — Services ( #networking)
+- [[concepts/session-key|session key]] — session key ( #tls)
+- [[concepts/set-a-thief-to-catch-a-thief|Set a Thief to Catch a Thief]] — Using a better LLM to evaluate the outputs and behavior of a production LLM. AIs are about as good as humans at determining whether an AI worked. ( #llm-evaluation #llm-as-judge #ai-evaluation #self-evaluation #evals)
+- [[concepts/set-based-selector|Set-based Selector]] — Set-based Selector ( #scheduling)
+- [[concepts/set-based-selectors|Set-based Selectors]] — Set-based Selectors ( #scheduling)
+- [[concepts/shared-timeline|Shared Timeline]] — A mental model where the human developer and AI agent share a single timeline of actions and context, enabling the AI to anticipate needs and act seamlessly across the full software engineering wor... ( #ai #human-ai-collaboration #agentic #windsurf #workflow)
+- [[concepts/shift-left-ai-quality|Shift-Left AI Quality]] — Moving code quality evaluation to the earliest possible point in the development cycle — providing immediate feedback as soon as code is generated, not at pull request review. ( #shift-left #code-quality #ai-coding #defect-prevention #aief2025)
+- [[concepts/ship-confidently|Ship Confidently]] — Ship Confidently ( #evals #deployment #confidence #production-ai #iteration-speed)
+- [[concepts/ship-first-product|Ship First Product]] — The principle of shipping the first working product as quickly as possible, even if it's stripped down to bare essentials. Bolt.new launched as an MVP 'just metal' and grew to $20M ARR in 60 days. ( #product-development #lean-startup #shipping #iteration)
+- [[concepts/side-project-to-startup|Side Project to Startup]] — Founders can raise VC while working on their startup as a side project alongside full-time employment at a reputable tech company. ( #side-project #startup #vc #fundraising #founder)
+- [[concepts/sidecar-pattern|Sidecar pattern]] — Sidecar pattern ( #deployment)
+- [[concepts/signal-from-noise|Signal from Noise in AI Systems]] — Evals as a mechanism for discerning signal from the massive data produced by LLM applications. The core purpose of evals is not judgment — it's understanding what's working and what isn't. ( #evals #observability #signal-processing #data-analysis #aief2025)
+- [[concepts/signal-loop-ai|Signal Loop (AI)]] — Continuous feedback loop where real-world agent interactions are collected, A/B tested, and used to fine-tune models for personalized outcomes — demonstrated by Dragon healthcare copilot reaching 8... ( #concept #agent #fine-tuning #feedback-loop #personalization)
+- [[concepts/silent-ai-failures|Silent AI Failures]] — AI failures that are difficult to detect and quantify ahead of time but cause enormous cumulative damage — such as telecom network disruptions costing millions per minute, gas sensor data misinterp... ( #concept #ai #risk #enterprise #failure-mode)
+- [[concepts/simple-ai-app-architecture|Simple AI App Architecture]] — The minimal four-step architecture for AI applications: user input → single AI model call → store result → show to user. Simplicity enables rapid iteration and fast validation. ( #concept #ai-architecture #simplicity #api-pattern #aief2025)
+- [[concepts/simple-browser-vscode|Simple Browser in VS Code]] — Simple Browser in VS Code ( #vscode #browser #copilot #visual-editing #github)
+- [[concepts/simple-is-better-ai|Simple is Better in AI Engineering]] — Simple is Better in AI Engineering ( #simplicity #ai-engineering #production #anti-overengineering #practical)
+- [[concepts/simpleqa|SimpleQA]] — SimpleQA ( #evals #benchmarking #openai #retrieval #static-eval-sets)
+- [[concepts/simulation-based-hiring|Simulation-Based Hiring]] — Simulation-Based Hiring ( #hiring #technical-interviews #simulation #ai-recruitment #assessment)
+- [[concepts/simulation-realism-hierarchy|Simulation Realism Hierarchy]] — The principle that not all simulations need maximum realism — the required fidelity depends on what you are testing, following the scientific method of controlling variables. ( #simulation #testing #voice-ai #methodology)
+- [[concepts/skill-acquisition-efficiency|Skill Acquisition Efficiency]] — Francois Chollet's definition of intelligence as the efficiency with which a system can acquire new skills — distinguishing genuine intelligence from knowledge or memorization. ( #ai #agi #intelligence #benchmarking #evaluation)
+- [[concepts/skill-hell|Skill Hell]] — Skill Hell ( #ai-coding #vibe-engineering #skill-gap #model-capabilities #prompt-engineering)
+- [[concepts/skills-checklist-framework|Skills Checklist Framework]] — Skills Checklist Framework ( #agent-skills #engineering #skill-design)
+- [[concepts/sla-based-scheduling|SLA-Based Scheduling]] — A scheduling approach where job priority is determined by the percentage of their service-level objective (SLA) consumed, producing fair resource allocation across user tiers. ( #sla #scheduling #aging #priority #multi-tenant)
+- [[concepts/small-ai-teams|Small AI Teams with Huge Impact]] — The thesis that small teams (under 15 people) of generalists, augmented by AI tools, can achieve outsized impact compared to large specialized organizations. Head count does not equal productivity. ( #team-design #ai #productivity #startup #generalist)
+- [[concepts/small-team-scaling|Small Team Scaling]] — Strategy of scaling a startup with under 10 people by hiring only exceptional individuals, using product-led hiring, work-trial interviews, and minimizing meetings to maintain velocity. Extended wi... ( #startup #team-size #hiring #productivity #ai-native)
+- [[concepts/smart-allocation|Smart Allocation]] — Stub page created to resolve incoming wiki links for Smart Allocation. ( #stub)
+- [[concepts/smart-velocity|Smart Velocity]] — The principle that in AI product development, speed only matters when paired with clarity of direction — moving fast with purpose rather than speed for its own sake. ( #concept #ai #strategy #product-development #methodology)
+- [[concepts/soft-rule|soft rule]] — soft rule ( #deployment)
+- [[concepts/software-2-0|Software 2.0]] — Karpathy's 2019 thesis that machine learning models will write code for us and be better at it than humans. Predicted the rise of vibe coding and AI-assisted development. ( #software-2-0 #karpathy #machine-learning #code-generation #ai-programming)
+- [[concepts/software-abstraction-evolution|Software Abstraction Evolution]] — The 50-70 year progression of abstraction in software engineering — from assembly to Fortran to structured programming to OOP to garbage collection — with durable execution as the next step, abstra... ( #software-engineering #abstraction #history #durable-execution #programming-languages)
+- [[concepts/software-eating-media|Software Eating Media]] — Software Eating Media ( #media #software #youtube #advertising #digital-transformation)
+- [[concepts/software-engineering-model|Software Engineering Model]] — A model trained specifically for software engineering workflows rather than pure code generation — exemplified by Windsurf's SweeOne, which handles PRs, mid-workflow assistance, and achieves near-f... ( #ai #model #fine-tuning #windsurf #sweeone)
+- [[concepts/software-vs-policy-debugging|Software vs Policy Debugging]] — Software vs Policy Debugging ( #debugging #robotics #root-cause-analysis #policy #software-system)
+- [[concepts/solvay-analogy|Solvay Conference Analogy]] — Solvay Conference Analogy ( #analogy #history-of-science #ai-engineering #standard-model #convergence)
+- [[concepts/sora-competition-dynamics|Sora Competition Dynamics]] — Sora Competition Dynamics ( #sora #openai #video-generation #competition #open-source)
+- [[concepts/sound-effects-generation|Sound Effects Generation]] — AI-generated sound effects from text prompts. ElevenLabs' sound effects model generates four samples per prompt, powers the Sound Board drum machine, and includes text-to-bark for dog applications. ( #sound-effects #ai-audio #generative-ai #elevenlabs #multimodal)
+- [[concepts/spade-pattern|SPADE Pattern]] — SPADE Pattern ( #ai-intensive #pattern #architecture #workflow #orchestration)
+- [[concepts/sparse-autoencoders|Sparse Autoencoders]] — A neural network architecture used in mechanistic interpretability to discover interpretable features inside LLMs by learning sparse decompositions of model activations into individual concept repr... ( #concept #ai #interpretability #technique #neural-networks)
+- [[concepts/sparse-vector-retrieval|Sparse Vector Retrieval]] — Learned sparse retrieval (ELSER/SPLADE) represents text as a list of expanded terms with relevance weights. More interpretable than dense vectors but expensive at query time due to many OR-style ma... ( #search #embeddings #learned-sparse)
+- [[concepts/speaker-diarization|Speaker Diarization]] — Speaker diarization — identifying and labeling different speakers in audio. Built into ElevenLabs' multilingual ASR model for structured transcript output. ( #speech #asr #diarization #multi-speaker #elevenlabs)
+- [[concepts/spec-driven-vibe-coding|Spec-Driven Vibe Coding]] — Spec-Driven Vibe Coding ( #vibe-coding #enterprise-ai #scalability #aief2025)
+- [[concepts/spec-first-development|Spec-First Development]] — Treating specifications and documentation as first-class artifacts in AI-assisted development, with automated consistency checking between code and docs. ( #specifications #documentation #ai-agents #ai-coding #aief2025)
+- [[concepts/specialized-model-for-graph-construction|Specialized Model for Graph Construction]] — Writer's approach to knowledge graph construction: building a specialized model trained to map enterprise data into graph structures of nodes and edges, scalable on CPUs or smaller GPUs. ( #specialized-models #graph-construction #knowledge-graph #fine-tuning #cpu-inference)
+- [[concepts/specifications-as-code|Specifications as Code]] — Paradigm shift where written specifications — not generated code — are the primary development artifact, capturing full intent and values while serving as both human alignment document and machine-... ( #specification #ai-engineering #methodology #communication #alignment)
+- [[concepts/speculative-decoding|Speculative Decoding]] — An inference optimization technique that allows non-transformer architectures (like CoreKey 72B) to be applied to existing transformer models, enabling 1000x lower inference costs without replacing... ( #ai #inference #optimization #speculative #efficiency)
+- [[concepts/speculative-decoding-eagle|Eagle Speculative Decoding]] — Speculative decoding algorithm where the draft model is derived from multiple layers of the target model rather than being a separate smaller model. ( #inference #optimization #serving #speculation)
+- [[concepts/speech-to-speech-architecture|Speech-to-Speech Architecture]] — An end-to-end model architecture that handles transcription, reasoning, and speech generation in a single pass, enabling low-latency, expressive voice interactions. ( #ai #voice #architecture #speech #multimodal)
+- [[concepts/speech-to-text|Speech-to-Text]] — The capability to convert spoken language into text, serving as the bridge between voice interfaces and text-based AI systems. A core component of voice agent architectures that enables spoken inte... ( #speech-to-text #stt #voice-agents #transcription #voice-ai)
+- [[concepts/spurious-correlation-detection|Spurious Correlation Detection]] — Using spurious correlation data as a stress test for RAG systems — evaluating whether retrieval systems correctly handle data that contradicts conventional wisdom rather than regurgitating expected... ( #rag #spurious-correlations #data-quality #hallucination #evaluation)
+- [[concepts/stablecoin-settlement|Stablecoin Settlement]] — Near-instant, irreversible value settlement using fiat-pegged stablecoins on public blockchain networks, enabling global 24/7 transaction finality. ( #stablecoins #payments #blockchain #settlement #fintech)
+- [[concepts/stack-maturity|Stack Maturity in Voice AI]] — Stack Maturity in Voice AI ( #voice-ai #stack-maturity #capability-migration #pipecat #turn-detection)
+- [[concepts/stack-selection-ai-code|Stack Selection for AI Code Generation]] — Stack Selection for AI Code Generation ( #github-copilot #vibe-coding #stack-selection #ai-coding #best-practices)
+- [[concepts/stagehand-browser-tool|Stagehand Browser Tool]] — Stagehand is BrowserBase's browser tool framework for reliable, deterministic web automation when workflows are known in advance. It translates high-level steps into reliable web actions. ( #stagehand #browser-tools #web-automation #deterministic #browserbase)
+- [[concepts/standard-models-ai-engineering|Standard Models in AI Engineering]] — Standard Models in AI Engineering ( #standard-model #ai-engineering #architecture #pattern #mental-model)
+- [[concepts/stargate-project|Stargate Project]] — The Stargate project — a massive AI infrastructure initiative in the Middle East involving 5+ gigawatts of data center capacity, led by G42 in the UAE with Saudi Arabia's Data Vault. ( #ai-infrastructure #middle-east #data-center #uae #saudi-arabia)
+- [[concepts/startup-grit-and-resilience|Startup Grit and Resilience]] — The capacity to endure extreme startup chaos — rapid growth, support overload, near-shutdown anxiety — while maintaining focus on what matters. The foundation underneath operational chaos. ( #startup #team-culture #resilience #leadership)
+- [[concepts/startup-survival|Startup Survival]] — The principle that startup survival depends on staying around long enough to hit product-market fit. The competitor who runs out of runway first loses, regardless of product quality. ( #startup #survival #runway #product-market-fit)
+- [[concepts/state-space-models|State Space Models]] — State Space Models ( #state-space-models #ssm #transformers #architecture #voice-ai)
+- [[concepts/stateful-environments|Stateful Environments for Vertical Agents]] — Architectural pattern where domain-specific business logic is containerized into a resettable, observable environment external to the agent, enabling rollback, multi-agent coordination, and tree-se... ( #ai #agents #architecture #infrastructure #vertical)
+- [[concepts/stateful-workloads|Stateful Workloads]] — Stateful Workloads ( #deployment)
+- [[concepts/statefulsets|StatefulSets]] — StatefulSets ( #deployment)
+- [[concepts/stateless-computation|Stateless Computation]] — Computation model where data is used only to satisfy the immediate request and cannot be logged, stored, or reused — enforced by eliminating persistent storage rather than by policy. ( #concept #architecture #privacy #security)
+- [[concepts/stateless-services|Stateless Services]] — Stateless Services ( #deployment)
+- [[concepts/static-eval-sets|Static Eval Sets]] — Static Eval Sets ( #evals #benchmarking #golden-datasets #rag)
+- [[concepts/static-password-file|Static Password File]] — Static Password File ( #security)
+- [[concepts/static-pod|static-pod]] — Static Pod ( #term)
+- [[concepts/static-pods|Static Pods]] — Static Pods are special Kubernetes Pods managed directly by the kubelet on a specific node, without involvement from the Kubernetes API server. They are defined by YAML manifest files placed in...
+- [[concepts/static-secrets-problem|Static Secrets Problem]] — Static Secrets Problem ( #security #api-keys #secrets #oauth #agent-security)
+- [[concepts/static-token-file|Static Token File]] — Static Token File ( #security)
+- [[concepts/static-vs-dynamic-llm-queries|Static vs Dynamic LLM Queries]] — Two query patterns for LLM applications: static queries (prepared-statement style with known context) and dynamic queries (open-ended user questions). Static queries are easier to evaluate and opti... ( #llm #queries #prompts #tax #enterprise-ai)
+- [[concepts/stochastic-evals|Stochastic Evals]] — Stochastic Evals ( #evaluation #ai-testing #non-deterministic #ci #agentic)
+- [[concepts/stochastic-systems-evaluation|Stochastic Systems Evaluation]] — Stochastic Systems Evaluation ( #evals #stochastic #search #non-deterministic #evaluation-methodology)
+- [[concepts/streaming-diff-algorithm|Streaming Diff Algorithm]] — Streaming Diff Algorithm ( #diff #streaming #llm #text-comparison #ai-editing)
+- [[concepts/streaming-telemetry|Streaming Telemetry]] — A real-time data delivery mode for network telemetry where devices continuously stream operational data (interfaces, protocols, performance metrics) to monitoring systems, serving as one of the ing... ( #streaming-telemetry #network-operations #telemetry #real-time #data-ingestion)
+- [[concepts/structural-vs-superficial-understanding|Structural vs. Superficial Understanding in Code]] — Structural vs. Superficial Understanding in Code ( #code-understanding #llm #graphrag #context-length #knowledge-graph)
+- [[concepts/structured-data-filtering|Structured Data Filtering in Search]] — The practice of combining semantic embedding search with structured data filters (metadata predicates) in search systems — embeddings alone are often insufficient for powerful retrieval. ( #search #filtering #structured-data #hybrid-retrieval #metadata)
+- [[concepts/structured-output|Structured Output for Agent Termination]] — Using LLM structured output capabilities (JSON mode, schema-constrained generation) to produce parseable output that serves dual purposes: data extraction and agent loop termination signals. ( #structured-output #agent-loop #agent-termination #schema-validation #json-mode)
+- [[concepts/structured-output-classification|Structured Output Classification]] — Structured Output Classification ( #llm-techniques #classification #structured-outputs #tool-calling #aief2025)
+- [[concepts/structured-programming|Structured Programming]] — A programming paradigm emphasizing clear structure, control flow, and avoidance of premature optimization. Donald Knuth's 'premature optimization is the root of all evil' is a foundational principle. ( #structured-programming #knuth #premature-optimization #software-engineering #programming-paradigms)
+- [[concepts/structured-vibe-coding|Structured Vibe Coding]] — Structured Vibe Coding ( #vibe-coding #enterprise-ai #templates #guardrails #aief2025)
+- [[concepts/style-guide-enforcement|Style Guide Enforcement]] — Enforcing coding standards through automated tools and real-time suggestions — keeping both human developers and AI agents on a consistent, error-preventing path. ( #style-guide #code-quality #ai-agents #linting #aief2025)
+- [[concepts/style-preservation|Style Preservation]] — Stub page created to resolve incoming wiki links for Style Preservation. ( #stub)
+- [[concepts/sub-goal-division|Sub-goal Division]] — Sub-goal Division ( #planning #task-decomposition #agentic-workflows #sub-goals #goal-breakdown)
+- [[concepts/subject-alternative-name-san|Subject Alternative Name (SAN)]] — Subject Alternative Name (SAN) ( #tls)
+- [[concepts/summarization|Summarization]] — Stub page created to resolve incoming wiki links for Summarization. ( #stub)
+- [[concepts/super-tools|Super Tools]] — Super Tools ( #super-tools #launchdarkly #tool-augmentation #lean-startup #workflow-consolidation)
+- [[concepts/supervised-fine-tuning|Supervised Fine-Tuning (SFT)]] — Continued training on labeled input-output pairs where the model learns to directly imitate provided examples. The foundational fine-tuning method with the lowest barrier to entry. ( #fine-tuning #llm #supervised-learning #imitation #openai)
+- [[concepts/supervisor-node|Supervisor Node]] — Supervisor Node ( #multi-agent #langgraph #coordination #evals #aief2025)
+- [[concepts/supported-upgrade-path|Supported Upgrade Path]] — Supported Upgrade Path ( #deployment)
+- [[concepts/sustainability-in-ai|Sustainability in AI]] — Sustainability in AI ( #sustainability #ai-infrastructure #environment #data-center #energy)
+- [[concepts/swap|swap]] — swap ( #security)
+- [[concepts/swe-bench|SWE Bench]] — SWE Bench ( #benchmark #ai-coding #evaluation #real-world-tasks #model-capability)
+- [[concepts/sweetask-benchmark|SweeTask Benchmark]] — Windsurf's conversational benchmark for evaluating AI models on mid-workflow assistance — testing how well a model helps when dropped into an existing conversation or partially completed task, meas... ( #benchmark #eval #windsurf #sweeone #software-engineering)
+- [[concepts/swingbench-verified|SWE-bench Verified]] — A benchmark measuring LLM performance on real-world software engineering tasks. SWE-bench verified scores reached ~80% by end of 2024, improving with inference-time compute scaling. ( #swe-bench #coding-benchmark #llm-evaluation #autonomous-coding #inference-time-compute)
+- [[concepts/symmetric-encryption|Symmetric Encryption]] — Symmetric Encryption ( #tls)
+- [[concepts/synthetic-data-for-evals|Synthetic Data for Evals]] — Synthetic Data for Evals ( #evaluation #synthetic-data #data-centric #eval-design)
+- [[concepts/synthetic-data-vs-metrics|Synthetic Data vs Metrics in Evaluation]] — Synthetic Data vs Metrics in Evaluation ( #evals #synthetic-data #metrics #evaluation-design #ai-evaluation)
+- [[concepts/synthetic-eval-generation|Synthetic Eval Generation]] — Synthetic Eval Generation ( #ai #evaluation #llm #testing #synthetic-data)
+- [[concepts/synthetic-query-generation|Synthetic Query Generation]] — Using LLMs to generate test queries for retrieval evaluation, with careful prompt engineering to align synthetic queries semantically with real user query distributions. ( #synthetic-data #queries #retrieval #evals #llm-generation)
+- [[concepts/synthid-watermarking|SynthID Watermarking]] — Google's digital watermarking technology for synthetically generated images and video, providing machine-detectable provenance for AI-generated media. Also used in Lyria 2 for audio asset watermark... ( #watermarking #synthetic-media #provenance #responsible-ai)
+- [[concepts/sysctl-configuration-for-kubernetes|Sysctl Configuration For Kubernetes]] — Sysctl configuration for Kubernetes involves setting kernel parameters such as br_netfilter and IP forwarding in /etc/sysctl.d/99-kubernetes-cri.conf to ensure proper container networking and bridg...
+- [[concepts/system-1-system-2-thinking|System 1 / System 2 Thinking]] — Kahneman's dual-process theory: System 1 (fast, intuitive) and System 2 (slow, deliberate). Applied to Connections solving and AI reasoning. ( #cognitive-science #decision-making #kahneman #problem-solving #connections)
+- [[concepts/system-level-optimization|System-Level Optimization]] — Optimize the entire AI system — data, task, and scorers — not just the prompt. System-level optimization produces dramatically better results than prompt-only optimization. ( #optimization #evals #prompt-engineering #production-ai #braintrust)
+- [[concepts/system-one-system-two-robotics|System One / System Two Robotics]] — "A dual-system architecture for robotics inspired by Daniel Kahneman's Thinking Fast and Slow: System Two is the slow planner that breaks down complex tasks; System One is the fast executor operati... ( #system-one #system-two #robotics #dual-system #planning)
+- [[concepts/system-prompt-inversion|System Prompt Inversion]] — Stub page created to resolve incoming wiki links for System Prompt Inversion. ( #stub)
+- [[concepts/system-prompt-security|System Prompt Security]] — System prompts reveal agent capabilities and constraints. Attackers extract system prompts to discover tool definitions and invert instructions. The prompt itself is not a vulnerability but an inte... ( #system-prompt #security #prompt-engineering #adversarial #agent-security)
+- [[concepts/t-shaped-ai-talent|T-Shaped AI Talent]] — The talent profile needed in AI-first companies: deep AI specialization combined with the ability to stretch wide, prototype quickly, collaborate across silos, and navigate ambiguity. ( #concept #ai #talent #organization #people)
+- [[concepts/tacit-code-sharing|Tacit Code Sharing]] — Compounding engineering's second-order effect: tacit knowledge becomes trivially shareable via prompts, sub-agents, and slash commands. ( #knowledge-sharing #ai-native #organizational-learning #aief2025)
+- [[concepts/tacit-knowledge-codification|Tacit Knowledge Codification]] — The process of converting tacit knowledge (intuitions, patterns, and decisions accumulated by individual engineers) into explicit, shareable artifacts like prompts, sub-agents, and slash commands. ( #knowledge-management #ai-native #organizational-learning #aief2025)
+- [[concepts/tail-query-handling|Tail Query Handling]] — Strategies for handling low-frequency, highly specific search queries that lack sufficient engagement data for traditional ML models — where LLMs with proper context can excel. ( #search #tail-queries #data-sparsity #llm #e-commerce)
+- [[concepts/taintnodesbycondition|TaintNodesByCondition]] — TaintNodesByCondition ( #scheduling)
+- [[concepts/taints|Taints]] — Taints are labels applied to Kubernetes nodes that repel pods unless they have matching tolerations, controlling which workloads can be scheduled where.
+- [[concepts/take-shots-on-goal|Take Shots on Goal]] — The startup principle of taking as many product iterations and experiments as possible before running out of runway. More shots = higher probability of hitting product-market fit. ( #startup #experimentation #product-development #iteration)
+- [[concepts/talent-skills-graph|Talent Skills Graph]] — A knowledge graph use case for employee talent management: modeling people, their skills, accomplishments, and domains to enable team formation, substitution, collaboration analysis, and talent dis... ( #knowledge-graph #hr-tech #talent-management #neo4j #graphrag)
+- [[concepts/task-specific-evals|Task-Specific Evals]] — Generic evaluation metrics (groundedness, factuality, bias) don't measure whether an AI application works for users. Metrics must be reverse-engineered from specific business outcomes and user expe... ( #ai #evaluation #metrics #testing #product)
+- [[concepts/tavus-proprietary-models|Tavus Proprietary Models]] — Tavus Proprietary Models ( #tavus #video-ai #proprietary-models #sparrows-zero #raven-zero)
+- [[concepts/tavus-replica|Tavus Replica]] — Tavus Replica ( #tavus #digital-twin #video-replication #conversational-ai #real-time)
+- [[concepts/taxonomy-classification|Taxonomy Classification]] — The task of mapping user queries or content to labels in a predefined hierarchical category system — a core component of search query understanding in e-commerce. ( #taxonomy #classification #search #nlp #e-commerce)
+- [[concepts/tech-as-thought-partner|Technology as Thought Partner]] — Technology as Thought Partner ( #ai-philosophy #human-ai-collaboration #agentic-ai #ai-vision)
+- [[concepts/tech-evolution-from-rule-based|From Rule-Based to Adaptive Technology]] — From Rule-Based to Adaptive Technology ( #ai-philosophy #rule-based-systems #adaptive-systems #ai-vision #evolution)
+- [[concepts/techno-social-co-evolution|Techno-Social Co-Evolution]] — The process by which we invent new technologies that then reshape our brains and cognitive abilities — from language and writing to computers and AI agents. Each innovation changes how we think and... ( #theory #ai #cognition)
+- [[concepts/technology-adoption-bottleneck|Technology Adoption Bottleneck]] — The observation that technology is rarely the limiting factor for organizational success — adoption, usage, and change management are the real bottlenecks. ( #technology #adoption #innovation #bottleneck #change-management)
+- [[concepts/technology-as-enabler|Technology as Enabler]] — The principle that technology enables success but is not itself the limiting factor — team building, problem understanding, and usage determine outcomes. ( #technology #strategy #ai-team #capability #bottleneck)
+- [[concepts/teleoperation-robotics|Teleoperation in Robotics]] — The practice of humans remotely controlling robots through wearable interfaces (e.g., VR headsets + data gloves) to collect high-quality task execution data for training robotics foundation models. ( #teleoperation #robotics #data-collection #human-in-the-loop #telemanipulation)
+- [[concepts/temporal-graph|Temporal Graph]] — A graph data structure that stores not just entities and relationships but also their state changes over time. Enables time-travel queries and audit trails for agent memory systems. ( #graph-database #temporal-data #knowledge-graph #versioning #agent-memory)
+- [[concepts/temporal-workflow-orchestration|Temporal Workflow Orchestration]] — A workflow abstraction pattern for AI agents where complex multi-step processes are coded as durable workflows with signals, queries, activities, and full execution history — all reliability concer... ( #ai #architecture #orchestration #reliability #workflow)
+- [[concepts/terminal-first-design|Terminal-First Design]] — A design philosophy that starts with the terminal as the primary interface, providing low-level access to AI models while remaining productive. Used by Claude Code as a response to rapid model evol... ( #design-philosophy #terminal #developer-tools #ux #aief2025)
+- [[concepts/test-coverage-as-arbiter|Test Coverage as Arbiter]] — Test Coverage as Arbiter ( #test-coverage #evaluation #parallel-agents #metrics #aief2025)
+- [[concepts/test-time-compute-scaling|Test-Time Compute Scaling]] — The paradigm of dynamically scaling computation at inference time to improve model reasoning — inserting a thinking stage where models iteratively process additional tokens before answering, traine... ( #concept #ai #inference #reasoning #scaling)
+- [[concepts/text-to-speech|Text-to-Speech]] — Text-to-Speech (TTS) — converting written text into natural-sounding speech. Core component of voice agent pipelines, enabling AI agents to communicate verbally. ( #tts #voice-ai #speech #elevenlabs #generative-ai)
+- [[concepts/text-to-speech-in-agents|Text-to-Speech in AI Agents]] — Using text-to-speech as a built-in tool in AI agents, enabling agents to speak their outputs aloud as part of a multi-step pipeline — demonstrated as file-read → summarize → write → speak. ( #text-to-speech #tts #ai-agents #multimodal #voice)
+- [[concepts/the-agentic-economy|The Agentic Economy]] — The Agentic Economy ( #ai-agents #economy #mcp #agent-to-agent #marketplace)
+- [[concepts/thermal-computer-vision|Thermal Computer Vision]] — Using thermal (infrared) imagery alongside RGB vision for food perception — judging doneness, browning, and cooking state by temperature and color patterns invisible to standard cameras. ( #computer-vision #thermal-imaging #cooking #perception #foundation-models)
+- [[concepts/thinking-budgets|Thinking Budgets]] — A continuous, granular control mechanism for the quality-cost tradeoff of AI inference — replacing discrete model size choices with a slider-like budget parameter that controls how much thinking co... ( #concept #ai #inference #pricing #quality)
+- [[concepts/thinking-models-for-bug-detection|Thinking Models for Bug Detection]] — Empirical finding that thinking/reasoning models significantly outperform non-thinking models at bug detection in codebases, though they still exhibit high run-to-run variability. ( #thinking-models #reasoning-models #bug-detection #agent-evaluation #aief2025)
+- [[concepts/three-computer-problem|Three-Computer Problem]] — NVIDIA's framing of the robotics development pipeline as three distinct compute stages — simulation (OVX), training (DGX), and edge deployment (AGX) — each requiring fundamentally different hardwar... ( #three-computer-problem #robotics #compute #simulation #edge-deployment)
+- [[concepts/three-signs-evals-provide-value|Three Signs Evals Provide Value]] — "Three indicators that evals are providing real organizational value: 24-hour model integration, user complaint → eval pipeline, and using evals to play offense on use cases before shipping. ( #evals #evaluation #metrics #value #production-ai)
+- [[concepts/tiny-teams|Tiny Teams]] — Tiny Teams ( #lean-startup #ai #team-size #arr #profitability)
+- [[concepts/tls|Tls]] — Stub page created to resolve incoming wiki links for Tls. ( #stub)
+- [[concepts/tls-certificates|TLS Certificates]] — TLS Certificates ( #security)
+- [[concepts/tls-certificates-in-kubernetes|TLS Certificates in Kubernetes (merged into TLS Certificates)]] — Tls Certificates In Kubernetes ( #term #security)
+- [[concepts/tls-encryption|Key Characteristics]] — > **Source: sources/tls-certificates_c8ca8c** > - ' > - '
+- [[concepts/tls-handshake|TLS Handshake]] — TLS Handshake ( #security)
+- [[concepts/token-burner|Token Burner]] — Token Burner ( #ai-coding #vibe-coding #productivity-metrics #enterprise-ai #vibe-engineering)
+- [[concepts/tolerations|Tolerations]] — Tolerations ( #scheduling #taints)
+- [[concepts/tool-design-for-agents|Tool Design for Agents]] — Tool Design for Agents ( #agent-tools #tool-design #mcp #tool-schemas #enterprise-ai)
+- [[concepts/tool-design-for-llms|Tool Design for LLMs]] — Tools should be designed for what LLMs want to see, not as API mirrors. Good tool design is disruptive and requires rethinking interfaces for LLM consumption. ( #tool-design #prompt-engineering #context #production-ai #agents)
+- [[concepts/tool-discovery|Tool Discovery]] — Tool Discovery ( #mcp #tool-discovery #dynamic-discovery #ai-agents #model-context-protocol)
+- [[concepts/tool-use-loop|Tool-Use Loop]] — The iterative loop where an autoregressive model outputs function calls, tools are invoked, observations are fed back, and the cycle repeats until a final output is produced. ( #ai-agents #tool-use #function-calling #loop #autoregressive)
+- [[concepts/tools-for-imagination|Tools for Imagination]] — Gamma's long-term vision: building tools that help people stretch, shape, and share ideas more easily, with the broader goal of pushing innovation forward. ( #ai-tools #creativity #innovation #aief2025 #gamma)
+- [[concepts/torch-compile-audio|Torch Compile for Audio Decoding]] — Applying PyTorch's torch compile and inference mode to audio decoders (like Snac) for GPU-accelerated decoding, reducing CPU-GPU transfer overhead in TTS inference pipelines. ( #pytorch #torch-compile #audio #decoding #gpu)
+- [[concepts/tower-of-babel-story|Tower of Babel Story]] — Diego Rodriguez (CREA) used the Tower of Babel story as a framing metaphor for language barriers and misunderstanding in AI — comparing stand-up meetings about tech stacks to God creating languages... ( #ai #communication #metaphor #aief2025 #framing)
+- [[concepts/trace-analysis|Trace Analysis]] — Analyzing structured execution traces — sequences of spans capturing LLM calls, tool invocations, and decisions — to identify where agent failures occur. ( #observability #traces #spans #agent-evaluation #debugging)
+- [[concepts/trace-context-propagation|Trace Context Propagation]] — Trace Context Propagation ( #trace-context #context-propagation #distributed-tracing #open-telemetry #mcp)
+- [[concepts/tracing-profiling|Tracing Profiling]] — A profiling approach that records every event continuously for maximum visibility, at the cost of high overhead and data volume. Contrasts with sampled profiling. ( #profiling #tracing #observability #eBPF #performance)
+- [[concepts/training-cost-efficiency|Training Cost Efficiency]] — The trend of dramatically decreasing LLM training costs, exemplified by DeepSeek V3's $5.5M training budget for a 685B parameter model — far below the expected $55M–$550M range — suggesting effecti... ( #training-cost #efficiency #llm #compute #aief2025)
+- [[concepts/trajectory-evaluation|Trajectory Evaluation]] — Trajectory Evaluation ( #evaluation #agents #trajectory #multi-step #adaptive-evals)
+- [[concepts/transformers|Transformers]] — Stub page created to resolve incoming wiki links for Transformers. ( #stub)
+- [[concepts/tribal-knowledge|Tribal Knowledge]] — Knowledge that exists in senior developers' heads rather than documentation — such as 'we used to do it this way because X' — that LLMs cannot access and represents the hardest category for AI code... ( #tribal-knowledge #code-review #llm-limitations #organizational-memory)
+- [[concepts/tribal-knowledge-in-ai|Tribal Knowledge in AI]] — The underappreciated cause of AI unreliability: LLMs lack the tacit, context-dependent business language that human analysts develop over years in a specific company. ( #ai #enterprise-ai #domain-knowledge #reliability #semantics)
+- [[concepts/triplet-extraction|Triplet Extraction]] — Triplet Extraction ( #knowledge-graph #llm #extraction #nlp #rag)
+- [[concepts/trust|Trust]] — Trust ( #security)
+- [[concepts/trust-adjusted-risk|Trust Adjusted Risk & Dollars]] — A metric that puts a dollar value on what happens when AI trust breaks — including fines, lost customers, reputational damage, and engineering effort. Designed to help CIOs quantify the business ca... ( #concept #ai #metric #risk #enterprise)
+- [[concepts/trust-root|Trust Root]] — Trust Root ( #security)
+- [[concepts/turing-award|Turing Award]] — The highest honor in computer science, often called the 'Nobel Prize of Computing.' Rich Sutton, author of The Bitter Lesson, is a Turing Award winner. ( #turing-award #computing #recognition #ai-research #rich-sutton)
+- [[concepts/turn-detection|Turn Detection]] — Turn Detection ( #voice-ai #turn-taking #voice-activity-detection #real-time #smart-turn)
+- [[concepts/two-brain-analogy-llm|Two-Brain Analogy: LLMs and Knowledge Graphs]] — Two-Brain Analogy: LLMs and Knowledge Graphs ( #llm #knowledge-graph #graphrag #cognitive-analogy #reasoning)
+- [[concepts/two-circle-eval-model|Two-Circle Eval Model]] — A two-circle model for AI improvement: the left circle (improve the system through evals) and the right circle (tune the evals themselves). The right circle is often forgotten but essential. ( #evals #iteration #feedback-loop #continuous-improvement #aief2025)
+- [[concepts/two-tower-semantic-id-model|Two Tower Semantic Id Model]] — Stub page created to resolve incoming wiki links for Two Tower Semantic Id Model. ( #stub)
+- [[concepts/type-safe-agent-tool-deps|Type-Safe Agent Tool Dependencies]] — Pattern where agent tool signatures are parameterized by a dependency type, creating compile-time guarantees that tool inputs and outputs match the agent's expectations. ( #type-safety #agent-tools #dependency-injection #pydantic #agent-framework)
+- [[concepts/type-safety-ai|Type Safety in AI Applications]] — Using static typing and schema validation as a foundation for building reliable, refactorable AI applications. Enables coding agents to verify their own work and reduces runtime failures. ( #type-safety #ai-agents #refactoring #coding-agents #pydantic)
+- [[concepts/ubiquitous-ai|Ubiquitous AI]] — The vision of AI being present and context-aware across all the tools and sources a developer uses — reading from Slack, GitHub, Google Docs, Figma, Jira, and any MCP-connected service, not just th... ( #ai #integration #windsurf #mcp #context)
+- [[concepts/ufw|ufw]] — ufw ( #networking)
+- [[concepts/umap-visualization|UMAP Vector Visualization]] — Using UMAP to project high-dimensional vector embeddings into 3D space for interactive visualization of a knowledge base. Lets users inspect an agent's stored knowledge by clicking on nodes. ( #umap #dimensionality-reduction #vector-visualization #3d-visualization #knowledge-base)
+- [[concepts/unified-ai-platforms|Unified AI Product Platforms]] — AI products that serve as a unifying layer across an organization's product ecosystem — replacing fragmented identity systems with a single thread that connects all services. ( #unified-platform #product-design #ai #gemini #google)
+- [[concepts/unified-recommendation-models|Unified Recommendation Models]] — Architectural pattern where a single model replaces multiple specialized models for search, recommendations, and related tasks — reducing operational costs and enabling cross-task learning. ( #recommendation-systems #search #multi-task-learning #architecture #recsys)
+- [[concepts/unopinionated-product-design|Unopinionated Product Design]] — A product philosophy of staying unopinionated about the end-user experience when the underlying technology is evolving rapidly. Prioritizes flexibility and model access over polished UX. ( #product-design #philosophy #ux #ai-tools #aief2025)
+- [[concepts/unstructured-data-extraction|Unstructured Data Extraction]] — Using LLMs to extract structured data from unstructured enterprise documents like contracts, leases, and proposals. Also covers triplet extraction for knowledge graph construction. ( #ai #data-extraction #enterprise #documents #llm)
+- [[concepts/upcycling|Upcycling]] — Upcycling ( #upcycling #model-size #llm #model-training)
+- [[concepts/updatepolicy-mode|updatePolicy.mode]] — updatePolicy.mode ( #deployment)
+- [[concepts/updater|Updater]] — Updater ( #deployment)
+- [[concepts/urban-legend|Urban Legend]] — Stub page created to resolve incoming wiki links for Urban Legend. ( #stub)
+- [[concepts/usage-based-pricing-for-ai|Usage-Based Pricing for AI]] — Usage-Based Pricing for AI ( #pricing #ai-engineering #monetization #infrastructure)
+- [[concepts/useful-general-intelligence|Useful General Intelligence]] — Danielle Perszyk's framing of AI that augments human intelligence rather than replacing it — building systems that make humans smarter and give us more agency, contrasting with the standard AGI goa... ( #theory #ai #agents)
+- [[concepts/user-action-signals|User Action Signals in Search]] — User Action Signals in Search ( #user-action #implicit-signal #search-relevance #engagement #board-titles)
+- [[concepts/user-defined-bridge-network|User-defined bridge network]] — User-defined bridge network ( #container)
+- [[concepts/user-engagement-metrics|User Engagement Metrics]] — Stub page created to resolve incoming wiki links for User Engagement Metrics. ( #stub)
+- [[concepts/user-experience-latency|User Experience Latency]] — Stub page created to resolve incoming wiki links for User Experience Latency. ( #stub)
+- [[concepts/user-feedback-evals|User Feedback as Evals Signal]] — User feedback as a high-quality eval signal — ~30% of production AI teams have implemented it. Organic, real-user data that provides ground-truth quality assessment without manual grading. ( #evals #user-feedback #signals #production-ai #aief2025)
+- [[concepts/user-simulation-testing|User Simulation Testing]] — A testing approach for conversational AI agents that simulates dozens of user personas with accounts and scenarios, running tens of thousands of conversations before production deployment. ( #concept #agent #testing #evaluation #ai-engineering)
+- [[concepts/user-state-and-codebase-state|User State and Codebase State]] — User State and Codebase State ( #context #user-state #codebase-state #ai-coding #windsurf)
+- [[concepts/validating-phase|Validating Phase]] — Validating Phase ( #scheduling)
+- [[concepts/validatingadmissionpolicy|ValidatingAdmissionPolicy]] — ValidatingAdmissionPolicy ( #auth)
+- [[concepts/validatingadmissionwebhook|ValidatingAdmissionWebhook]] — ValidatingAdmissionWebhook ( #auth)
+- [[concepts/validation-error-feedback|Validation Error Feedback Loop]] — Pattern where validation errors from schema checks are returned to the LLM as feedback, enabling the model to self-correct its output in subsequent iterations of the agent loop. ( #agent-loop #validation #self-correction #structured-output #evals)
+- [[concepts/value-metric-spectrum|Value Metric Spectrum for AI Pricing]] — A spectrum of value metrics for AI pricing, ranging from resource-based (tokens) through task-based and labor replacement to fully outcome-based pricing aligned with ROI. ( #pricing #ai-engineering #monetization #product-strategy #ai-agents)
+- [[concepts/vc-fund-stage-spectrum|VC Fund Stage Spectrum]] — VC funds operate at different stages with different requirements: pre-seed/seed invest in people and vision, while later-stage funds require ARR and growth metrics. ( #vc #fund-stages #pre-seed #seed #series-a)
+- [[concepts/vector-database-comparison|Vector Database Comparison]] — Stub page created to resolve incoming wiki links for Vector Database Comparison. ( #stub)
+- [[concepts/vector-database-migration|Vector Database Migration]] — Patterns for migrating vector search infrastructure — from PG Vector on GCP to specialized vector databases like Turbo Puffer, and from OpenAI embeddings to domain-optimized providers like Cohere. ( #vector-database #migration #embeddings #search-infrastructure #pgvector)
+- [[concepts/vector-retrieval-code-limitations|Vector Retrieval Limitations for Code]] — Vector Retrieval Limitations for Code ( #rag #code-understanding #vector-search #retrieval #graphrag)
+- [[concepts/vector-search-limitations|Vector Search Limitations]] — Two fundamental failure modes of vector-based RAG (chunking inaccuracy, concentrated data overwhelm) plus benchmarking-specific failure modes: read-only bias, ignored quality metrics, and the HNSW... ( #vector-search #rag #retrieval #chunking #limitations)
+- [[concepts/vector-similarity-vs-relevance|Vector Similarity vs. Relevance]] — Vector Similarity vs. Relevance ( #vector-database #rag #retrieval #graphrag #similarity)
+- [[concepts/vendor-lock-in-llm|Vendor Lock-in in LLM]] — Vendor lock-in in LLM applications arises from expensive contracts, model-specific prompt engineering, and the difficulty of switching models even within the same vendor. Long-term contracts reduce... ( #llm #vendor-lock-in #contracts #migration #enterprise-ai)
+- [[concepts/verifiable-transparency|Verifiable Transparency]] — Design principle that a system's state can be publicly and cryptographically audited — implemented via append-only, Merkle-tree-based logs that record every software deployment for offline verifica... ( #concept #security #transparency #audit #merkle-tree)
+- [[concepts/verified-superintelligence|Verified Superintelligence]] — Approach to building AI systems that use formal verification software and symbolic methods to reflect upon and improve their own reasoning, producing algorithmically checkable outputs. ( #ai #safety #reasoning #verification)
+- [[concepts/version-locking|Version Locking]] — Version Locking ( #deployment)
+- [[concepts/version-skew-policy|version skew policy]] — version skew policy ( #deployment)
+- [[concepts/vertical-pod-autoscaler|Vertical Pod Autoscaler]] — Vertical Pod Autoscaler ( #scaling)
+- [[concepts/vertical-scaling|Vertical Scaling]] — Vertical Scaling ( #scaling)
+- [[concepts/veth-pair|veth pair]] — veth pair ( #networking)
+- [[concepts/vibe-check|Vibe Check]] — The anti-pattern of evaluating an AI system by testing it with a single prompt and declaring it 'good enough' based on a subjective impression, rather than using rigorous, reproducible evaluation m... ( #vibe-check #evals #testing #quality-assurance #ai-systems)
+- [[concepts/vibe-code-fixer|Vibe Code Fixer]] — Vibe Code Fixer ( #ai-coding #freelance #gig-economy #vibe-coding #legacy-code)
+- [[concepts/vibe-coding|Vibe Coding]] — Development approach using AI to rapidly prototype without upfront planning, iterating through waves of AI-generated code until stability, then switching to traditional engineering. ( #vibe-coding #ai-coding #rapid-prototyping #development-methodology #aief2025)
+- [[concepts/vibe-coding-as-agentic-ai|Vibe Coding as Agentic AI]] — Vibe Coding as Agentic AI ( #vibe-coding #agentic-ai #cursor #windsurf #prototype)
+- [[concepts/vibe-coding-as-whiteboard|Vibe Coding as Whiteboard]] — Vibe Coding as Whiteboard ( #vibe-coding #whiteboard #exploration #ai-coding #vscode)
+- [[concepts/vibe-coding-gap|Vibe Coding Gap]] — The gap between AI-generated prototype code and production-ready code — the awkward choice between manually reviewing every line or blindly merging. ( #vibe-coding #prototype-to-production #ai-coding #code-quality #aief2025)
+- [[concepts/vibe-coding-origins|Vibe Coding Origins]] — Vibe Coding Origins ( #ai #llm #coding #demo #gpt-3)
+- [[concepts/vibe-coding-with-confidence|Vibe Coding with Confidence]] — The thesis that the next game-changing shift in software development is not "vibe coding" alone, but "vibe coding with confidence" — combining AI-generated code speed with structured review, testin... ( #vibe-coding #enterprise-ai #aief2025 #itamar-friedman #qodo)
+- [[concepts/vibe-engineering|Vibe Engineering]] — Vibe Engineering ( #vibe-engineering #vibe-coding #ai-coding #agentic-coding #code-scrutiny)
+- [[concepts/video-engagement-reasoning|Video Engagement Reasoning]] — An LLM's ability to reason across video sequences based on Semantic ID definitions and user engagement patterns — demonstrated by inferring a fourth video is about AI when given three videos about... ( #recommendation-systems #llm-reasoning #sequence-modeling #youtube #recsys)
+- [[concepts/video-generation-real-time|Real-Time Video Generation]] — Real-Time Video Generation ( #video-ai #real-time #rendering #video-generation #latency)
+- [[concepts/viral-growth-mechanics|Viral Growth Mechanics]] — Viral Growth Mechanics ( #viral-growth #tiktok #social-media #user-acquisition #lean-startup)
+- [[concepts/viral-side-project-pattern|Viral Side Project Pattern]] — The pattern where a personal side project posted on Twitter goes viral and unexpectedly becomes a real product. Excalidraw's origin: a code sandbox demo that got 200+ likes on its first tweet. ( #concept #open-source #side-projects #virality #excalidraw-origin)
+- [[concepts/virtual-cards|Virtual Cards]] — Virtual Cards ( #virtual-cards #payments #agent-payments #fintech #checkout)
+- [[concepts/virtual-try-on|Virtual Try-On]] — Virtual Try-On ( #e-commerce #virtual-try-on #product-market-fit #generative-media #fashion-tech)
+- [[concepts/vision-evals-saturation|Vision Evals Saturation]] — Vision benchmarks like ImageNet and COCO are saturated because they measure pattern matching rather than visual intelligence, disincentivizing large-scale pre-training for vision models. ( #computer-vision #evaluation #benchmarks #coco #imagenet)
+- [[concepts/vision-language-action-models|Vision-Language-Action Models]] — A model architecture that extends Vision-Language Models (VLMs) for robotic control by adding robot state inputs and producing control actions instead of text responses. GR00T N1 extends this with... ( #vla #robotics #vision-language-model #multimodal #robot-control)
+- [[concepts/vision-language-models|Vision-Language Models]] — AI models processing both visual and textual inputs. Used for image captioning, VQA, and object detection. Suffer from visual fidelity gap — excellent at linguistic generalization but poor at visua... ( #vlm #multimodal #captioning #media-pipeline #multimodal-generation)
+- [[concepts/vision-vs-text-web-agents|Vision vs Text Web Agents]] — Two paradigms for web agents: vision-driven (screenshots as context) vs text/DOM-based (HTML as context), with accessibility trees and computer-use models as emerging approaches. ( #web-agents #vision-agents #dom-agents #text-agents #screenshots)
+- [[concepts/visual-agentic-workflows|Visual Agentic Workflows]] — Designing multi-step AI agent workflows as visual graphs on a canvas — each node is an LLM-driven block that accepts inputs, executes a prompt, and pipes outputs to downstream nodes. ( #ai #agent #visual-programming #pipeline #graph)
+- [[concepts/visual-consistency|Visual Consistency]] — The challenge of maintaining coherent characters, backgrounds, and scene elements across frames in generated video — historically a major limitation where characters 'jump' between frames and backg... ( #consistency #video-generation #temporal-coherence #style)
+- [[concepts/visual-context-attachment|Visual Context Attachment in AI Coding]] — Visual Context Attachment in AI Coding ( #github-copilot #vscode #visual-editing #vibe-coding #ui)
+- [[concepts/vlm-image-captions|VLM-Generated Image Captions]] — VLM-Generated Image Captions ( #vlm #vision-language-model #image-captioning #multimodal #content-annotation)
+- [[concepts/vlm-visual-fidelity|VLM Visual Fidelity Gap]] — Current VLMs excel at linguistic generalization but fail at visual generalization — they can understand novel class names in text but cannot detect those objects visually without extensive fine-tun... ( #vlm #visual-fidelity #visual-generalization #linguistic-generalization #multimodal)
+- [[concepts/voice-activated-software|Voice-Activated Software]] — The vision of software development through voice interaction — coding from bed, the toilet, or the bus via voice-activated AI assistants like Alexa. Represents the interface frontier of always-on A... ( #voice #ai #windsurf #interface #ambient)
+- [[concepts/voice-activity-detection|Voice Activity Detection]] — A two-part system using a neural network (speech/not-speech classification) plus a silence algorithm to detect when a speaker has finished their turn in voice AI conversations. ( #voice #ai #speech #vad #turn-taking)
+- [[concepts/voice-agent-architecture|Voice Agent Architecture]] — Two dominant architectures for voice agents: chained (transcription + LLM + TTS) and speech-to-speech (single model), with trade-offs across latency, cost, accuracy, UX, and integrations. ( #agent #ai #voice #architecture #speech)
+- [[concepts/voice-agent-escalation|Voice Agent Escalation and Context Handoff]] — Patterns for escalating voice AI agent calls to human agents with full context handoff, including transcript summaries and configurable escalation paths. ( #voice-ai #human-agent #escalation #workflow-integration #customer-service)
+- [[concepts/voice-agent-evals|Voice Agent Evals]] — Four-tier evaluation strategy for voice agents: observability, SME labeling, transcription-based evals, audio evals, and synthetic conversation simulation. ( #evals #voice #ai #testing #observability)
+- [[concepts/voice-agent-guardrails|Voice Agent Guardrails]] — Safety and guardrail patterns for real-time voice agents, emphasizing async execution and debounce strategies to work within audio latency windows. ( #guardrails #voice #ai #safety #real-time)
+- [[concepts/voice-agent-prompting|Voice Agent Prompting]] — Techniques for prompting voice agents that go beyond text prompts, controlling expressiveness, tone, demeanor, and enthusiasm through voice-specific customization. ( #ai #voice #prompting #ux #speech)
+- [[concepts/voice-agent-rapid-build|Voice Agent Rapid Build Pattern]] — The pattern of building a production voice AI agent in ~100 days by leveraging existing infrastructure (chat agent, RAG, telephony) and shipping a minimal but meaningful MVP. ( #voice-ai #product-development #mvp #rapid-deployment #enterprise-ai)
+- [[concepts/voice-agent-resolution-rate|Voice Agent Resolution Rate]] — Resolution rate as the North Star metric for voice AI agents — defined as user confirming resolution on call OR disconnecting after hearing at least one answer without calling back within 24 hours. ( #voice-ai #metrics #evals #customer-service #kpis)
+- [[concepts/voice-agent-trust-problem|Voice Agent Trust Problem]] — The central barrier preventing voice agents from moving beyond proof-of-concept into production, manifesting as enterprises simultaneously overestimating and underestimating capabilities. ( #voice-ai #trust #enterprise-ai #adoption #evals)
+- [[concepts/voice-agents|Voice Agents]] — Voice Agents ( #voice-ai #agents #real-time #web-rtc #user-experience)
+- [[concepts/voice-ai-builder-ecosystem|Voice AI Builder Ecosystem]] — Voice AI Builder Ecosystem ( #voice-ai #open-source #community #democratization #voice-agents)
+- [[concepts/voice-ai-cost-structure|Voice AI Cost Structure]] — Voice AI agent cost structure: $0.20–$0.30 per minute depending on query complexity and provider choices, with usage-based and outcome-based pricing models. ( #voice-ai #pricing #cost #monetization #usage-based)
+- [[concepts/voice-ai-latency|Voice AI Latency]] — Voice AI Latency ( #voice-ai #latency #real-time #speed #voice-agents)
+- [[concepts/voice-ai-stack|Voice AI Stack]] — Voice AI Stack ( #voice-ai #architecture #stack #real-time #pipecat)
+- [[concepts/voice-ai-takeover-narrative|Voice Ai Takeover Narrative]] — Stub page created to resolve incoming wiki links for Voice Ai Takeover Narrative. ( #stub)
+- [[concepts/voice-as-primary-interface|Voice as Primary Interface]] — The thesis that natural conversation should replace command-based language and GUIs as the primary interface for interacting with AI and smart devices. ( #voice-ai #conversational-ui #natural-language #smart-speaker #human-computer-interaction)
+- [[concepts/voice-as-ui|Voice as the Next UI Paradigm]] — Voice as the Next UI Paradigm ( #voice-ai #ui #interaction-design #platform-shift #generative-ai)
+- [[concepts/voice-cloning|Voice Cloning]] — Techniques for replicating a person's voice in AI-generated speech. Zero-shot cloning relies on large pre-trained models; fine-tuning (especially LoRA) achieves higher fidelity with less pre-traini... ( #voice-ai #cloning #lora #fine-tuning #voice-naturalness)
+- [[concepts/voice-controllability|Voice Controllability]] — Voice Controllability ( #voice-ai #controllability #voice-customization #brand-voice #voice-cloning)
+- [[concepts/voice-conversation-design|Voice Conversation Design]] — Design principles for voice agent conversations that differ fundamentally from text chat: latency management, answer chunking, and guiding user interaction patterns. ( #voice-ai #conversation-design #ux #latency #user-experience)
+- [[concepts/voice-dictation-ai-coding|Voice Dictation in AI Coding Assistants]] — Voice Dictation in AI Coding Assistants ( #github-copilot #vscode #voice #vibe-coding #accessibility)
+- [[concepts/voice-dictation-copilot|Copilot Voice Dictation]] — Copilot Voice Dictation ( #copilot #voice #dictation #speech-recognition #github)
+- [[concepts/voice-generation|Voice Generation]] — Text-to-speech and natural audio generation capabilities that enable conversational AI interfaces. Part of the trajectory toward omnimodal models. ( #voice #tts #audio #multimodal #google-deepmind)
+- [[concepts/voice-inference-metrics|Voice Inference Metrics]] — Key metrics for measuring voice AI inference performance: tokens per second, time to first token, throughput requirements relative to audio codec bitrate, and latency budgets for real-time voice. ( #voice-ai #inference #latency #throughput #tokens-per-second)
+- [[concepts/voice-marketplace|Voice Marketplace]] — Voice Marketplace ( #voice-ai #voice-marketplace #voice-actors #creator-economy #voice-cloning)
+- [[concepts/voice-naturalness|Voice Naturalness]] — Voice Naturalness ( #voice-ai #naturalness #quality #voice-cloning #tts)
+- [[concepts/voice-pipeline|Voice AI Pipeline]] — Voice AI Pipeline ( #voice-ai #pipeline #stt #llm #tts)
+- [[concepts/voice-to-code|Voice-to-Code]] — Voice-to-Code ( #voice-to-code #voice-dictation #ai-coding #vibe-engineering #prompt-engineering)
+- [[concepts/voice-to-voice-vs-stt-lam-tts|Voice-to-Voice vs STT-LAM-TTS Architecture]] — Comparison of two voice agent architectures: the traditional STT → LLM → TTS pipeline versus emerging voice-to-voice models that process audio directly. ( #voice-ai #architecture #stt #tts #voice-to-voice)
+- [[concepts/voice-uncanny-valley|Voice Uncanny Valley]] — Voice Uncanny Valley ( #voice-ai #uncanny-valley #user-experience #naturalness #controllability)
+- [[concepts/volume-mounted-files|Volume-mounted files]] — Volume-mounted files ( #deployment)
+- [[concepts/volumes|Volumes]] — Volumes ( #deployment)
+- [[concepts/vpc|VPC]] — VPC ( #deployment)
+- [[concepts/vpc-basics|VPC Basics]] — VPC Basics ( #networking)
+- [[concepts/vs-code-agent-mode-features|VS Code Agent Mode Features]] — VS Code Agent Mode Features ( #vscode #agent-mode #github-copilot #aief2025 #auto-approve)
+- [[concepts/vscode-agent-mode|VS Code Agent Mode]] — VS Code Agent Mode ( #vscode #github-copilot #vibe-coding #agent-mode #ux)
+- [[concepts/vxlan|VXLAN]] — VXLAN ( #scaling)
+- [[concepts/warm-intro-strategy|Warm Intro Strategy]] — Warm introductions are preferred over cold outreach for VC fundraising. Building relationships early through casual conversations yields better outcomes than formal pitch processes. ( #warm-intro #networking #vc #fundraising #referrals)
+- [[concepts/wcag-compliance|Wcag Compliance]] — Stub page created to resolve incoming wiki links for Wcag Compliance. ( #stub)
+- [[concepts/web-agent-vs-browser-tool|Web Agent vs Browser Tool]] — Two paradigms for browser automation: web agents (one prompt, many actions, non-deterministic) vs browser tools (one prompt, one action, deterministic). ( #web-agents #browser-tools #ai-agents #automation #deterministic)
+- [[concepts/web-performance|Web Performance]] — Stub page created to resolve incoming wiki links for Web Performance. ( #stub)
+- [[concepts/web-research-for-optimization|Web Research for Optimization]] — An agent autonomously researches the web for best practices to inform system optimization — Gazit used it to crawl prompt engineering guides for RAG improvement. ( #web-research #knowledge-sourcing #agent-research #prompt-engineering-guides #external-knowledge)
+- [[concepts/web-rtc|WebRTC]] — WebRTC ( #web-rtc #real-time #audio #video #networking)
+- [[concepts/web-sockets|WebSockets]] — WebSockets ( #web-sockets #networking #protocol #real-time)
+- [[concepts/web-trajectories-rl|Web Trajectories and RL for Browsing]] — Training AI models on web trajectories via reinforcement learning to teach them not just which button to click, but how to reason across multiple pages toward a goal. ( #web-trajectories #reinforcement-learning #computer-use-models #browsing #rl)
+- [[concepts/webhooks-authorization|Webhooks (Authorization)]] — Webhooks (Authorization) ( #security)
+- [[concepts/webrtc-beyond-consumer|WebRTC Beyond Consumer Apps]] — WebRTC Beyond Consumer Apps ( #web-rtc #telemedicine #autonomous-vehicles #industrial #real-time)
+- [[concepts/webrtc-connection-patterns|WebRTC Connection Patterns]] — WebRTC Connection Patterns ( #web-rtc #networking #peer-to-peer #edge-to-cloud #multi-party)
+- [[concepts/webrtc-transport|WebRTC Transport]] — WebRTC as the real-time transport layer for voice-based agent interfaces, enabling bidirectional audio streaming between users and AI agents. A foundational technology for voice agents. ( #webrtc #voice-agents #real-time #transport-protocol #voice-ai)
+- [[concepts/wheeled-robotics-over-humanoids|Wheeled Robotics Over Humanoids]] — The argument that wheeled two-arm robots are superior to humanoid robots for commercial kitchen automation due to cost, reliability, maintenance, and practical deployment advantages. ( #robotics #form-factor #humanoid-robots #cost-analysis #mobile-manipulation)
+- [[concepts/when-not-to-use-agentic-workflows|When NOT to Use Agentic Workflows]] — When NOT to Use Agentic Workflows ( #agentic-workflows #decision-framework #enterprise-ai #anti-patterns #design-decisions)
+- [[concepts/windsurf-browser-previews|Windsurf Browser Previews]] — Windsurf's browser automation feature that lets the AI visually iterate on web applications by taking control of Chrome, inspecting DOM elements, and reading the JS console — enabling visual develo... ( #windsurf #browser-automation #visual-iteration #dom-inspection #aief2025)
+- [[concepts/windsurf-context-connectors|Windsurf Context Connectors]] — Windsurf Context Connectors ( #context #windsurf #retrieval #embedding-search #mcp)
+- [[concepts/windsurf-reviews|Windsurf Reviews]] — Windsurf's automated code review feature that asynchronously leaves comments and suggests changes, enabling developers to ship production-ready code with AI-native review instead of manual PR review. ( #ai #code-review #windsurf #automation #self-driving)
+- [[concepts/windsurf-waves|Windsurf Waves]] — Windsurf's framework for organizing product evolution into sequential 'waves' of innovation — from autocomplete to parallel agents, with 10 waves shipped including MCP, auto-generated memories, dep... ( #windsurf #product-evolution #waves #agentic #mcp)
+- [[concepts/wireframe-to-app-generation|Wireframe-to-App Generation]] — Using vision-capable LLMs to convert hand-drawn wireframes, screenshots, or lo-fi mockups into working applications through iterative screenshot-and-prompt cycles. ( #ai #vision #code-generation #prototyping #wireframe)
+- [[concepts/wisdom-graph|Wisdom Graph]] — A state-machine conceptual model for AI systems where Wisdom guides Decision-Making by analyzing Situations using Knowledge, Experience, and Insight — with a continuous feedback loop that enriches... ( #knowledge-graph #architecture #decision-making #agent #feedback-loop)
+- [[concepts/work-starvation|Work Starvation in Queue-Based Scheduling]] — The phenomenon where lower-priority jobs in a queue-based scheduling system are never processed because higher-priority jobs continuously consume available compute resources. ( #work-starvation #queue-scheduling #priority #multi-tenant #ml-infrastructure)
+- [[concepts/work-trial-interviews|Work-Trial Interviews]] — Hiring process where candidates work on the team for several days as if they already joined, allowing both sides to evaluate fit through actual collaboration rather than theoretical questions. ( #hiring #interview #startup #evaluation #aief2025)
+- [[concepts/worker-node|Key Characteristics]] — > **Source: kubernetes-installation-steps_e573e8** > - ' > - '
+- [[concepts/worker-nodes|Worker Nodes]] — Worker Nodes ( #term)
+- [[concepts/workflow-agent-spectrum|Workflow-Agent Spectrum]] — The spectrum between fully deterministic workflows and fully autonomous agents. Enterprise agents typically need a mix of both — deterministic sequences for predictability, LLM-driven decisions for... ( #agent-workflows #agents #determinism #langgraph #enterprise-ai)
+- [[concepts/workflow-automation|Workflow Automation]] — Approach to AI automation where tasks are defined as configurable nodes in a workflow graph, rather than relying on general-purpose agents to figure things out from natural language. ( #automation #workflows #ai-agents #nodes #aief2025)
+- [[concepts/workflow-vs-agent|Workflow Vs Agent]] — Stub page created to resolve incoming wiki links for Workflow Vs Agent. ( #stub)
+- [[concepts/workload-scaling|Workload Scaling]] — Workload Scaling ( #scaling)
+- [[concepts/write-the-launch-post|Write the Launch Post]] — Writing the launch blog post or PRD before building anything. Forces specificity, clarifies what's being built, how to position it, and how to sell it. Pushed to real users for feedback before prot... ( #product-development #prd #documentation #shipping #communication)
+- [[concepts/writer-research-team-structure|Writer Research Team Structure]] — Writer's research team has four areas of focus: enterprise models (Palmyra X5), practical evaluations (Failsafe QA), domain-specific specialization (Palmyra Med/Fin), and retrieval/knowledge integr... ( #research-team #ai-organization #enterprise-models #evaluations #domain-models)
+- [[concepts/x-509-client-certificates|X.509 client certificates]] — X.509 client certificates ( #tls)
+- [[concepts/x-tops|X-TOPS (Extended MLOPS)]] — An operational framework extending standard MLOPS with built-in trust, conscience, and human oversight — encompassing AI-aware guardrails, trust-specific dashboards, click-to-fix human feedback wor... ( #concept #ai #operations #mlops #governance)
+- [[concepts/yaml-vs-json-for-llms|YAML vs JSON for LLMs]] — YAML tool outputs are more token-efficient and easier for LLMs to parse than verbose JSON, even though both represent the same structured data to programs. ( #format #llm #token-efficiency #prompt-engineering #context)
+- [[concepts/yashins-bilingual-voice-app|Yashin's Bilingual Voice App]] — Yashin's Bilingual Voice App ( #voice-ai #democratization #non-technical #voice-apps #language-education)
+- [[concepts/yolo-structured-spectrum-vibe-coding|YOLO, Structured, Spec-Driven Spectrum of Vibe Coding]] — YOLO, Structured, Spec-Driven Spectrum of Vibe Coding ( #vibe-coding #enterprise-ai #ai-assistants #aief2025 #development-methodology)
+- [[concepts/zero-shot-learning|Zero-Shot Learning]] — Zero-Shot Learning ( #zero-shot-learning #zero-shot #llm #generalization)
+- [[misc/slow-boiling-frog-benchmarking|Slow Boiling Frog Benchmarking]] — The 'slow boiling frog' problem in benchmarking: gradual performance degradation goes unnoticed when benchmarks are run ad hoc. Solved by nightly automated benchmarking that continuously compares a... ( #benchmarking #regression-detection #performance-monitoring #aief2025)
 
-## entities
+## Entities
 
-- [[entities/11x.md]]
-- [[entities/567.md]]
-- [[entities/7rdgs.md]]
-- [[entities/a24.md]]
-- [[entities/aakanksha-chowdhery.md]]
-- [[entities/adam-behrens.md]]
-- [[entities/adobe.md]]
-- [[entities/agentuity.md]]
-- [[entities/ai-daily-brief.md]]
-- [[entities/aiden-bai.md]]
-- [[entities/aief2025.md]]
-- [[entities/alex-atallah.md]]
-- [[entities/alex-duffy.md]]
-- [[entities/alex-volkov.md]]
-- [[entities/alexa.md]]
-- [[entities/alibaba.md]]
-- [[entities/alice-ai-sdr.md]]
-- [[entities/alicorp.md]]
-- [[entities/alix-partners.md]]
-- [[entities/altimeter-capital.md]]
-- [[entities/alvaro-morales.md]]
-- [[entities/aman-khan.md]]
-- [[entities/amanda-askell.md]]
-- [[entities/amazon-agi.md]]
-- [[entities/amazon-bedrock-agents.md]]
-- [[entities/amazon-bedrock.md]]
-- [[entities/amazon-nova.md]]
-- [[entities/amazon-q-developer.md]]
-- [[entities/amazon-sns.md]]
-- [[entities/amazon-titan.md]]
-- [[entities/amd.md]]
-- [[entities/amir-haghighat.md]]
-- [[entities/amplify.md]]
-- [[entities/andre-karpathy.md]]
-- [[entities/andreas-kolleger.md]]
-- [[entities/andrej-karpathy.md]]
-- [[entities/andrew-ng.md]]
-- [[entities/andy-maguire.md]]
-- [[entities/anish-agarwal.md]]
-- [[entities/ankur-goyal.md]]
-- [[entities/annika-and-aastha.md]]
-- [[entities/anoop-kotha.md]]
-- [[entities/answer-ai.md]]
-- [[entities/anterior.md]]
-- [[entities/anthropic.md]]
-- [[entities/antje-barth.md]]
-- [[entities/anushrut-gupta.md]]
-- [[entities/apache-lucene.md]]
-- [[entities/apify.md]]
-- [[entities/apoorva-joshi.md]]
-- [[entities/apple.md]]
-- [[entities/arango-db.md]]
-- [[entities/arc-institute.md]]
-- [[entities/arc-prize-foundation.md]]
-- [[entities/arcade.md]]
-- [[entities/arcjet.md]]
-- [[entities/arize-ai.md]]
-- [[entities/arize.md]]
-- [[entities/arthur-ai.md]]
-- [[entities/artificial-analysis.md]]
-- [[entities/asaf.md]]
-- [[entities/asha-sharma.md]]
-- [[entities/assembly-ai.md]]
-- [[entities/augment-code.md]]
-- [[entities/augment-slack-bot.md]]
-- [[entities/auth0.md]]
-- [[entities/aws-agents.md]]
-- [[entities/aws.md]]
-- [[entities/azure-ai-foundry.md]]
-- [[entities/barr-yaron.md]]
-- [[entities/barry-zhang.md]]
-- [[entities/baseten.md]]
-- [[entities/ben-kus.md]]
-- [[entities/ben-stein.md]]
-- [[entities/benjamin-dunphy.md]]
-- [[entities/benjamin-eckel.md]]
-- [[entities/beth-glenfield.md]]
-- [[entities/birdclaw.md]]
-- [[entities/bismuth.md]]
-- [[entities/blackrock.md]]
-- [[entities/bolt.md]]
-- [[entities/bolt.new.md]]
-- [[entities/boris-cherny.md]]
-- [[entities/box.md]]
-- [[entities/brainbox-ai.md]]
-- [[entities/braintrust.md]]
-- [[entities/branch.md]]
-- [[entities/brett-victor.md]]
-- [[entities/brian-balfour.md]]
-- [[entities/brian-johnson.md]]
-- [[entities/bridgewater.md]]
-- [[entities/brooke-hopkins.md]]
-- [[entities/browserbase.md]]
-- [[entities/busybox.md]]
-- [[entities/calico.md]]
-- [[entities/calvin-qi.md]]
-- [[entities/canopy-labs.md]]
-- [[entities/carlos-esteban.md]]
-- [[entities/cartesia.md]]
-- [[entities/cascade.md]]
-- [[entities/casco.md]]
-- [[entities/caylent.md]]
-- [[entities/cedric-vidal.md]]
-- [[entities/ceph.md]]
-- [[entities/cerebral-valley.md]]
-- [[entities/certificate-authority.md]]
-- [[entities/chad-bailey.md]]
-- [[entities/chang-she.md]]
-- [[entities/charles-frye.md]]
-- [[entities/chelcie-taylor.md]]
-- [[entities/cheng-lu.md]]
-- [[entities/chime.md]]
-- [[entities/chin-keong-lam.md]]
-- [[entities/chris-hernandez.md]]
-- [[entities/chris-kelly.md]]
-- [[entities/christian-segeti.md]]
-- [[entities/christopher-chedeau.md]]
-- [[entities/christopher-harrison.md]]
-- [[entities/christopher-lovejoy.md]]
-- [[entities/chroma.md]]
-- [[entities/circle.md]]
-- [[entities/cisco.md]]
-- [[entities/cisco’s-martianbank.md]]
-- [[entities/claude-3-7-sonnet.md]]
-- [[entities/claude-code.md]]
-- [[entities/claude-sonnet-4.md]]
-- [[entities/clay-bavor.md]]
-- [[entities/cleo-lant.md]]
-- [[entities/clerk.md]]
-- [[entities/clickhouse.md]]
-- [[entities/cloud-glue.md]]
-- [[entities/cloudchef.md]]
-- [[entities/cloudflare-agents-sdk.md]]
-- [[entities/cloudflare.md]]
-- [[entities/cluey.md]]
-- [[entities/cncf.md]]
-- [[entities/cni-ipam-specification.md]]
-- [[entities/coasia.md]]
-- [[entities/codex.md]]
-- [[entities/coframe.md]]
-- [[entities/cognition.md]]
-- [[entities/confidence-security.md]]
-- [[entities/consult-gov-uk.md]]
-- [[entities/containerd.md]]
-- [[entities/contextual-ai.md]]
-- [[entities/continue-dev.md]]
-- [[entities/conviction.md]]
-- [[entities/coredns.md]]
-- [[entities/corekey-72b.md]]
-- [[entities/corey-cooper.md]]
-- [[entities/coval.md]]
-- [[entities/craig-wattrus.md]]
-- [[entities/crea.md]]
-- [[entities/crewai.md]]
-- [[entities/cri-o.md]]
-- [[entities/crictl.md]]
-- [[entities/cron.md]]
-- [[entities/ctr.md]]
-- [[entities/cuda.md]]
-- [[entities/cursor-ai.md]]
-- [[entities/dagger.md]]
-- [[entities/daily.md]]
-- [[entities/dan-shipper.md]]
-- [[entities/dani-grant.md]]
-- [[entities/daniel-chalef.md]]
-- [[entities/danielle-perszyk.md]]
-- [[entities/dario-amodei.md]]
-- [[entities/dat-ngo.md]]
-- [[entities/databricks.md]]
-- [[entities/datadog.md]]
-- [[entities/datalab.md]]
-- [[entities/dataquest.md]]
-- [[entities/david-cramer.md]]
-- [[entities/david-favorited.md]]
-- [[entities/david-karam.md]]
-- [[entities/david-mytton.md]]
-- [[entities/david-vorick.md]]
-- [[entities/daytona.md]]
-- [[entities/debsha.md]]
-- [[entities/deepmind.md]]
-- [[entities/deepseek.md]]
-- [[entities/den-delimarsky.md]]
-- [[entities/denys-linkov.md]]
-- [[entities/devansh-tandon.md]]
-- [[entities/devday.md]]
-- [[entities/devin.md]]
-- [[entities/dex-horthy.md]]
-- [[entities/diamond.md]]
-- [[entities/diego-rodriguez.md]]
-- [[entities/digitalocean.md]]
-- [[entities/dmitry-kuchin.md]]
-- [[entities/docker-compose.md]]
-- [[entities/docker.md]]
-- [[entities/donald-hruska.md]]
-- [[entities/doug-guthrie.md]]
-- [[entities/douglas-engelbart.md]]
-- [[entities/dspy.md]]
-- [[entities/dylan-patel.md]]
-- [[entities/dylibso.md]]
-- [[entities/eashan-sinha.md]]
-- [[entities/ec2.md]]
-- [[entities/elastic.md]]
-- [[entities/elasticsearch.md]]
-- [[entities/elevenlabs.md]]
-- [[entities/eliza-cabrera.md]]
-- [[entities/emma-ning.md]]
-- [[entities/eno-reyes.md]]
-- [[entities/ensemble-health.md]]
-- [[entities/entra-id.md]]
-- [[entities/eric-hou.md]]
-- [[entities/eric-simons.md]]
-- [[entities/etcd.md]]
-- [[entities/etlify.md]]
-- [[entities/eugene-yan.md]]
-- [[entities/eugene.md]]
-- [[entities/eureka-labs.md]]
-- [[entities/every-company.md]]
-- [[entities/every-to.md]]
-- [[entities/exa.md]]
-- [[entities/excalidraw.md]]
-- [[entities/exifunction.md]]
-- [[entities/factory.md]]
-- [[entities/factset.md]]
-- [[entities/fal.md]]
-- [[entities/faraday.md]]
-- [[entities/faraz.md]]
-- [[entities/favorited.md]]
-- [[entities/featherless.md]]
-- [[entities/federalist-ai.md]]
-- [[entities/file-ai.md]]
-- [[entities/firecrawl.md]]
-- [[entities/fish-audio.md]]
-- [[entities/flannel.md]]
-- [[entities/flatfile.md]]
-- [[entities/fluent-bit.md]]
-- [[entities/fluentd.md]]
-- [[entities/forrest-brazeal.md]]
-- [[entities/fouad-matin.md]]
-- [[entities/foundry-local.md]]
-- [[entities/francois-chollet.md]]
-- [[entities/frank-liu.md]]
-- [[entities/freeplay.md]]
-- [[entities/g42.md]]
-- [[entities/gabber.md]]
-- [[entities/galileo.md]]
-- [[entities/gamma.md]]
-- [[entities/gemini.md]]
-- [[entities/geoffrey-huntley.md]]
-- [[entities/george-cameron.md]]
-- [[entities/github-copilot.md]]
-- [[entities/gitpod.md]]
-- [[entities/glow-labs.md]]
-- [[entities/glusterd-source.md]]
-- [[entities/glusterd.md]]
-- [[entities/goodfire-ai.md]]
-- [[entities/google-deepmind.md]]
-- [[entities/google-jules.md]]
-- [[entities/google-photos.md]]
-- [[entities/google.md]]
-- [[entities/google’s-online-boutique.md]]
-- [[entities/gorkem-yurtseven.md]]
-- [[entities/gpt-4-5.md]]
-- [[entities/gpt-4o.md]]
-- [[entities/grafana.md]]
-- [[entities/granola.md]]
-- [[entities/grant-lee.md]]
-- [[entities/graphite.md]]
-- [[entities/greg-brockman.md]]
-- [[entities/greg-kamradt.md]]
-- [[entities/grok-ai-chips.md]]
-- [[entities/guardhat.md]]
-- [[entities/guidellm.md]]
-- [[entities/gumloop.md]]
-- [[entities/haize-labs.md]]
-- [[entities/hamed-linkedin-ai.md]]
-- [[entities/han-wang.md]]
-- [[entities/harald-kirschner.md]]
-- [[entities/harald-kirshner.md]]
-- [[entities/hariharan-ganesan.md]]
-- [[entities/harold.md]]
-- [[entities/harrison-chase.md]]
-- [[entities/harvey-ai.md]]
-- [[entities/hassan-el-mghari.md]]
-- [[entities/helicone.md]]
-- [[entities/helm.md]]
-- [[entities/home-depot.md]]
-- [[entities/host-local.md]]
-- [[entities/hpe.md]]
-- [[entities/huawei.md]]
-- [[entities/huggingface.md]]
-- [[entities/humane.md]]
-- [[entities/humanlayer.md]]
-- [[entities/huxe.md]]
-- [[entities/hyperbolic.md]]
-- [[entities/hyperdos.md]]
-- [[entities/iam.md]]
-- [[entities/ian-butler.md]]
-- [[entities/ido-pesok.md]]
-- [[entities/ilan-bigio.md]]
-- [[entities/imagine-4.md]]
-- [[entities/imbue.md]]
-- [[entities/incubator-for-ai.md]]
-- [[entities/indeed.md]]
-- [[entities/infant-vasanth.md]]
-- [[entities/infobip.md]]
-- [[entities/instacart.md]]
-- [[entities/intercom-fin.md]]
-- [[entities/intuit.md]]
-- [[entities/itamar-friedman.md]]
-- [[entities/ivan-burazin.md]]
-- [[entities/jack-rae.md]]
-- [[entities/jam-vc.md]]
-- [[entities/james-lowe.md]]
-- [[entities/jamin-ball.md]]
-- [[entities/jan-curn.md]]
-- [[entities/jared-hanson.md]]
-- [[entities/jason-liu-567.md]]
-- [[entities/jasper-zhang.md]]
-- [[entities/jasper.md]]
-- [[entities/jaspreet-singh.md]]
-- [[entities/jcr-licklider.md]]
-- [[entities/jeff-atwood.md]]
-- [[entities/jeff-huber.md]]
-- [[entities/jensen-huang.md]]
-- [[entities/jeremy-adams.md]]
-- [[entities/jeremy-howard.md]]
-- [[entities/jeremy-silva.md]]
-- [[entities/jerry-liu.md]]
-- [[entities/jesse-han.md]]
-- [[entities/jesús-barrasa.md]]
-- [[entities/jim-bennett.md]]
-- [[entities/jmo.md]]
-- [[entities/joel-hron.md]]
-- [[entities/john-collison.md]]
-- [[entities/john-dickerson.md]]
-- [[entities/john-peck.md]]
-- [[entities/john-pham.md]]
-- [[entities/john-welsh.md]]
-- [[entities/jon-peck.md]]
-- [[entities/jonas-upside.md]]
-- [[entities/jonas.md]]
-- [[entities/jonathan-larson.md]]
-- [[entities/josh-albrecht.md]]
-- [[entities/josh-brown.md]]
-- [[entities/josh-purtell.md]]
-- [[entities/josh-snyder.md]]
-- [[entities/jost-tobias-springberg.md]]
-- [[entities/julia-kasper.md]]
-- [[entities/julian-voice-agent.md]]
-- [[entities/jx-mo.md]]
-- [[entities/jyh-jing-hwang.md]]
-- [[entities/k-scale-labs.md]]
-- [[entities/keegan-mccallum.md]]
-- [[entities/keiji-kanazawa.md]]
-- [[entities/kelvin-ma.md]]
-- [[entities/kenneth-auchenberg.md]]
-- [[entities/kevin-hou.md]]
-- [[entities/kevin-madura.md]]
-- [[entities/keycard.md]]
-- [[entities/keycloak.md]]
-- [[entities/kitze.md]]
-- [[entities/krea-ai.md]]
-- [[entities/kshitij-grover.md]]
-- [[entities/kuaishou.md]]
-- [[entities/kube-controller-manager.md]]
-- [[entities/kubeadm.md]]
-- [[entities/kubectl-set-image-command.md]]
-- [[entities/kubectl.md]]
-- [[entities/kubelet.md]]
-- [[entities/kubernetes-v1-24.md]]
-- [[entities/kubernetes.md]]
-- [[entities/kubestriker.md]]
-- [[entities/kwindla-kramer.md]]
-- [[entities/kyle-kranen.md]]
-- [[entities/kyle-penfound.md]]
-- [[entities/lance-cb.md]]
-- [[entities/lance-db.md]]
-- [[entities/langchain.md]]
-- [[entities/langgraph.md]]
-- [[entities/langsmith.md]]
-- [[entities/larry-tesler.md]]
-- [[entities/launchdarkly.md]]
-- [[entities/laurie-voss.md]]
-- [[entities/lee-co-wizard.md]]
-- [[entities/lemonade-insurance.md]]
-- [[entities/lengthmist.md]]
-- [[entities/leonard-tang.md]]
-- [[entities/leto.md]]
-- [[entities/lexica.md]]
-- [[entities/linear.md]]
-- [[entities/linkedin.md]]
-- [[entities/linus-lee.md]]
-- [[entities/linux.md]]
-- [[entities/live.md]]
-- [[entities/livekit.md]]
-- [[entities/livermore-national-laboratory.md]]
-- [[entities/llama-3.md]]
-- [[entities/llamaindex.md]]
-- [[entities/llamaparse.md]]
-- [[entities/lm-eval-harness.md]]
-- [[entities/lockfire.md]]
-- [[entities/logan-kilpatrick.md]]
-- [[entities/logfire.md]]
-- [[entities/los-alamos-national-laboratory.md]]
-- [[entities/lou-bichard.md]]
-- [[entities/lovable.md]]
-- [[entities/lukasz-gandecki.md]]
-- [[entities/luke-alvoeiro.md]]
-- [[entities/luma-ai.md]]
-- [[entities/lyria-2.md]]
-- [[entities/magi-1.md]]
-- [[entities/mani-khanuja.md]]
-- [[entities/manu-goyal.md]]
-- [[entities/manual-notes.md]]
-- [[entities/mark-benioff.md]]
-- [[entities/mark-bissell.md]]
-- [[entities/mark-machotton.md]]
-- [[entities/mark-myshatyn.md]]
-- [[entities/mark-zuckerberg.md]]
-- [[entities/marker.md]]
-- [[entities/mason-egger.md]]
-- [[entities/master-node.md]]
-- [[entities/mastra-ai.md]]
-- [[entities/material-ui.md]]
-- [[entities/matt-ball.md]]
-- [[entities/matt-pocock.md]]
-- [[entities/matt-traversal.md]]
-- [[entities/matthias-loibl.md]]
-- [[entities/max-brodeur-urbas.md]]
-- [[entities/maxime-labonne.md]]
-- [[entities/maximillian-piras.md]]
-- [[entities/maziar-linkedin-ai.md]]
-- [[entities/mcp-community-registry.md]]
-- [[entities/mcp-steering-committee.md]]
-- [[entities/mcp.run.md]]
-- [[entities/meta.md]]
-- [[entities/metrics-server.md]]
-- [[entities/michael-albada.md]]
-- [[entities/michael-grinich.md]]
-- [[entities/michael-hunger.md]]
-- [[entities/microsoft-ai-red-team.md]]
-- [[entities/microsoft.md]]
-- [[entities/microsoft’s-eshop-reference-application.md]]
-- [[entities/midjourney.md]]
-- [[entities/mike-chambers.md]]
-- [[entities/minute-ai-transcription.md]]
-- [[entities/mistral-ai.md]]
-- [[entities/mistral.md]]
-- [[entities/mitesh-patel.md]]
-- [[entities/mo-bhasin.md]]
-- [[entities/modal.md]]
-- [[entities/monday-com.md]]
-- [[entities/mongodb.md]]
-- [[entities/monologue.md]]
-- [[entities/morph.md]]
-- [[entities/mozilla-ai.md]]
-- [[entities/mujoco.md]]
-- [[entities/muktesh-mishra.md]]
-- [[entities/mukuntha-narayanan.md]]
-- [[entities/multinear.md]]
-- [[entities/n8n.md]]
-- [[entities/nagkumar-arkalgud.md]]
-- [[entities/nasa.md]]
-- [[entities/nathan-sobo.md]]
-- [[entities/nathan-wan.md]]
-- [[entities/nature-footage.md]]
-- [[entities/neil-dwyer.md]]
-- [[entities/neo4j-browser.md]]
-- [[entities/neo4j.md]]
-- [[entities/neon.md]]
-- [[entities/nerdctl.md]]
-- [[entities/netflix.md]]
-- [[entities/networkx.md]]
-- [[entities/new-generation.md]]
-- [[entities/new-york-times.md]]
-- [[entities/nick-nisi.md]]
-- [[entities/nikhil-abraham.md]]
-- [[entities/nina-daily.md]]
-- [[entities/nina-lopatina.md]]
-- [[entities/nir-gazit.md]]
-- [[entities/nlw.md]]
-- [[entities/notable-vc.md]]
-- [[entities/notebooklm.md]]
-- [[entities/notion.md]]
-- [[entities/nova-act.md]]
-- [[entities/nvidia-dynamo.md]]
-- [[entities/nvidia-gr00t.md]]
-- [[entities/nvidia.md]]
-- [[entities/nyt-games.md]]
-- [[entities/o1-pro.md]]
-- [[entities/observable.tools.md]]
-- [[entities/okta.md]]
-- [[entities/ola-mabadeje.md]]
-- [[entities/olive-optimizer.md]]
-- [[entities/olive.md]]
-- [[entities/ollama.md]]
-- [[entities/omar-khattab.md]]
-- [[entities/onnx-runtime.md]]
-- [[entities/open-container-initiative-oci.md]]
-- [[entities/open-evidence.md]]
-- [[entities/open-policy-agent-opa.md]]
-- [[entities/openai-agents-sdk.md]]
-- [[entities/openai.md]]
-- [[entities/openaudio.md]]
-- [[entities/openhands.md]]
-- [[entities/openhome.md]]
-- [[entities/openrouter.md]]
-- [[entities/openssl.md]]
-- [[entities/orb.md]]
-- [[entities/orpheus-tts.md]]
-- [[entities/outshift.md]]
-- [[entities/paige-bailey.md]]
-- [[entities/palantir.md]]
-- [[entities/passport-js.md]]
-- [[entities/patho-ai.md]]
-- [[entities/patrick-collison.md]]
-- [[entities/paul-klein-iv.md]]
-- [[entities/peter-bar.md]]
-- [[entities/peter-robicheaux.md]]
-- [[entities/peter-steinberger.md]]
-- [[entities/philip-kiely.md]]
-- [[entities/philipp-krenn.md]]
-- [[entities/physical-intelligence.md]]
-- [[entities/pi-labs.md]]
-- [[entities/pi-zero.md]]
-- [[entities/pieces.md]]
-- [[entities/pinecone.md]]
-- [[entities/pinterest.md]]
-- [[entities/pion.md]]
-- [[entities/pipe-cat.md]]
-- [[entities/plausible-analytics.md]]
-- [[entities/pods.md]]
-- [[entities/polar-signals.md]]
-- [[entities/postgres-mcp.md]]
-- [[entities/posthog.md]]
-- [[entities/preeti-somal.md]]
-- [[entities/prime-intellect.md]]
-- [[entities/prisma.md]]
-- [[entities/prometheus-node-exporter.md]]
-- [[entities/prometheus-operator.md]]
-- [[entities/prometheus.md]]
-- [[entities/promptfu.md]]
-- [[entities/promptql.md]]
-- [[entities/pydantic-ai.md]]
-- [[entities/pydantic.md]]
-- [[entities/pyrit.md]]
-- [[entities/pytorch.md]]
-- [[entities/qodo.md]]
-- [[entities/quan-vuong.md]]
-- [[entities/quora.md]]
-- [[entities/quotient-ai.md]]
-- [[entities/qwen.md]]
-- [[entities/rafal-willinski.md]]
-- [[entities/ragas.md]]
-- [[entities/raiza-martin.md]]
-- [[entities/rajiv-shah.md]]
-- [[entities/randall-hunt.md]]
-- [[entities/raspberry-pi.md]]
-- [[entities/ravi-meta.md]]
-- [[entities/red-hat.md]]
-- [[entities/redis.md]]
-- [[entities/reflection-ai.md]]
-- [[entities/reforge.md]]
-- [[entities/rene-brandel.md]]
-- [[entities/replicate.md]]
-- [[entities/replit.md]]
-- [[entities/retool.md]]
-- [[entities/rich-sutton.md]]
-- [[entities/richmond-alake.md]]
-- [[entities/rick-blalock.md]]
-- [[entities/rishabh-garg.md]]
-- [[entities/rita-kozlov.md]]
-- [[entities/rkt.md]]
-- [[entities/robbie-coomber.md]]
-- [[entities/robert-brennan.md]]
-- [[entities/roboflow.md]]
-- [[entities/rossella.md]]
-- [[entities/rover-js.md]]
-- [[entities/rt2.md]]
-- [[entities/runc.md]]
-- [[entities/rustin-banks.md]]
-- [[entities/sahil-yadav.md]]
-- [[entities/salesforce.md]]
-- [[entities/sam-altman.md]]
-- [[entities/sam-bhagwat.md]]
-- [[entities/sam-fertig.md]]
-- [[entities/sam-julien.md]]
-- [[entities/sam2.md]]
-- [[entities/samsung.md]]
-- [[entities/samuel-colvin.md]]
-- [[entities/sarah-guo.md]]
-- [[entities/sarah-sachs.md]]
-- [[entities/scott-wu.md]]
-- [[entities/sculptor.md]]
-- [[entities/sean-dubois.md]]
-- [[entities/sean-grove.md]]
-- [[entities/seaweedfs.md]]
-- [[entities/semi-analysis.md]]
-- [[entities/sentry.md]]
-- [[entities/service-now.md]]
-- [[entities/seth-juarez.md]]
-- [[entities/sf-compute.md]]
-- [[entities/sglang.md]]
-- [[entities/shadcn.md]]
-- [[entities/shafik-quoraishee.md]]
-- [[entities/sharif-shameem.md]]
-- [[entities/shijia.md]]
-- [[entities/shristha.md]]
-- [[entities/sid-bendre.md]]
-- [[entities/sierra-ai.md]]
-- [[entities/simon-willison.md]]
-- [[entities/simon.md]]
-- [[entities/simple-browser-vscode.md]]
-- [[entities/sizzy.md]]
-- [[entities/sk-hynix.md]]
-- [[entities/slurm.md]]
-- [[entities/smich.md]]
-- [[entities/snack.md]]
-- [[entities/solomon-hykes.md]]
-- [[entities/sonic-2.md]]
-- [[entities/sorish.md]]
-- [[entities/splunk.md]]
-- [[entities/sprout-social.md]]
-- [[entities/ssh.md]]
-- [[entities/stackblitz.md]]
-- [[entities/stanford.md]]
-- [[entities/stefania-druma.md]]
-- [[entities/stephen-chin.md]]
-- [[entities/stephen-shin.md]]
-- [[entities/steve-ruiz.md]]
-- [[entities/strands-agents.md]]
-- [[entities/stripe.md]]
-- [[entities/suman-debnath.md]]
-- [[entities/summarize.md]]
-- [[entities/supabase.md]]
-- [[entities/superintelligent.md]]
-- [[entities/surepath.md]]
-- [[entities/surya.md]]
-- [[entities/swix.md]]
-- [[entities/swyx.md]]
-- [[entities/synth-labs.md]]
-- [[entities/tailscale.md]]
-- [[entities/tailwind-css.md]]
-- [[entities/tavily.md]]
-- [[entities/tavus.md]]
-- [[entities/taylor-jordan-smith.md]]
-- [[entities/teammates.md]]
-- [[entities/tejas-kumar.md]]
-- [[entities/tejaswi.md]]
-- [[entities/telemetrak.md]]
-- [[entities/temporal.md]]
-- [[entities/tengyu-ma.md]]
-- [[entities/tensorrt-llm.md]]
-- [[entities/tesla-optimus.md]]
-- [[entities/tharun.md]]
-- [[entities/thebrain-pro.md]]
-- [[entities/theme-finder.md]]
-- [[entities/theodora-chu.md]]
-- [[entities/thomson-reuters.md]]
-- [[entities/thor-schaeff.md]]
-- [[entities/tinder.md]]
-- [[entities/tldraw.md]]
-- [[entities/tobin-south.md]]
-- [[entities/together-ai.md]]
-- [[entities/toki-sherbakov.md]]
-- [[entities/tom-moor.md]]
-- [[entities/tom-shapland.md]]
-- [[entities/tom-smoker.md]]
-- [[entities/tomas-reimers.md]]
-- [[entities/traceloop.md]]
-- [[entities/traversal-ai.md]]
-- [[entities/treesitter.md]]
-- [[entities/triton-inference-server.md]]
-- [[entities/tsmc.md]]
-- [[entities/turbotax.md]]
-- [[entities/ubuntu-server.md]]
-- [[entities/upside.md]]
-- [[entities/v0.md]]
-- [[entities/vaibhav-page.md]]
-- [[entities/vasu.md]]
-- [[entities/venato-supercomputer.md]]
-- [[entities/veo-2.md]]
-- [[entities/veo-3.md]]
-- [[entities/vercel.md]]
-- [[entities/vidya.md]]
-- [[entities/vik-paruchuri.md]]
-- [[entities/vinesh.md]]
-- [[entities/visa.md]]
-- [[entities/vitor-balocco.md]]
-- [[entities/vllm.md]]
-- [[entities/voyage-ai.md]]
-- [[entities/vs-code.md]]
-- [[entities/vzero.md]]
-- [[entities/w3schools.md]]
-- [[entities/walmart.md]]
-- [[entities/waymo.md]]
-- [[entities/weave.md]]
-- [[entities/weavenet.md]]
-- [[entities/weaveworks’-sock-shop.md]]
-- [[entities/weights-and-biases.md]]
-- [[entities/wells-fargo.md]]
-- [[entities/whyhow.md]]
-- [[entities/will-brown.md]]
-- [[entities/will-bryk.md]]
-- [[entities/windsurf.md]]
-- [[entities/wisedocs.md]]
-- [[entities/wordle.md]]
-- [[entities/workday.md]]
-- [[entities/worker-node-1.md]]
-- [[entities/worker-node-2.md]]
-- [[entities/workos.md]]
-- [[entities/writer.md]]
-- [[entities/y-combinator.md]]
-- [[entities/yegor-denisov-blanch.md]]
-- [[entities/yesu-feng.md]]
-- [[entities/yineng-zhang.md]]
-- [[entities/yogendra-miraje.md]]
-- [[entities/youtube.md]]
-- [[entities/yutori.md]]
-- [[entities/zach-blumenfeld.md]]
-- [[entities/zapier.md]]
-- [[entities/zed.md]]
-- [[entities/zeke-sikelianos.md]]
-- [[entities/zep.md]]
-- [[entities/zod.md]]
-- [[entities/zscaler.md]]
-- [[entities/zwibbler.md]]
+- [[entities/11x|11x]] — 11x is a company building digital workers for go-to-market organizations. Their products include Alice (AI SDR) and Julian (voice agent). ( #company #ai #digital-workers #sales #voice-ai)
+- [[entities/567|567]] — 567 ( #company #ai #agents #conversation-analysis)
+- [[entities/7rdgs|7RDGS]] — AI consulting firm (7RDGS) that builds AI projects for clients requiring on-device processing of sensitive data. Uses Foundry Local to create hybrid solutions where sensitive components run locally. ( #company #ai-consulting #privacy-focused #microsoft-partner #on-device-ai)
+- [[entities/a24|A24]] — A24 ( #company #film-studio #marketing #generative-media)
+- [[entities/aakanksha-chowdhery|Aakanksha Chowdhery]] — Former Google researcher (6+ years) who led PALM research and was a lead researcher on Gemini. Now at Reflection.ai pushing the frontier for autonomous coding with reinforcement learning. ( #researcher #llm #palm #gemini #reflection-ai)
+- [[entities/adam-behrens|Adam Behrens]] — Adam Behrens ( #person #founder #philosopher #engineer #ai-commerce)
+- [[entities/adobe|Adobe]] — Adobe ( #company #enterprise-software #ai #developer-tools)
+- [[entities/agentuity|Agentuity]] — Agent deployment platform supporting Bun, Python with UV, and Node.js runtimes. Provides AI gateway, agent routing, dev mode, observability, and framework-agnostic multi-agent networking. ( #platform #agent-infrastructure #agent-deployment #ai-gateway #framework-agnostic)
+- [[entities/ai-daily-brief|AI Daily Brief]] — AI Daily Brief ( #podcast #ai-news #daily-analysis)
+- [[entities/aiden-bai|Aiden Bai]] — Aiden Bai ( #react #performance #open-source)
+- [[entities/aief2025|AIEF2025]] — AI Engineer World's Fair 2025 — a conference featuring talks on AI engineering, agent development, robotics, evals, generative media, and production AI systems. ( #conference #ai-engineer #events)
+- [[entities/alex-atallah|Alex Atallah]] — Co-founder of OpenRouter, the multi-model inference marketplace. Previously built Window AI, an open-source Chrome extension for model choice. ( #person #ai #founder #openrouter)
+- [[entities/alex-duffy|Alex Duffy]] — Lead of Training Consulting at Every.to. AI education advocate who created AI Diplomacy, a benchmark game where LLMs negotiate and form alliances. Spoke at AIEF2025 on benchmarks as memes. ( #person #every-to #ai-education #benchmark-design #speaker)
+- [[entities/alex-volkov|Alex Volkov]] — Alex Volkov ( #person #ai-evangelist #weights-and-biases #mcp #observability)
+- [[entities/alexa|Alexa]] — Amazon's voice assistant platform, now being completely reimagined as Alexa Plus — the largest integration of services, agentic capabilities, and LLMs known to any organization, deployed across 600... ( #aws #ai-agents #voice-assistant #smart-home #alexa-plus)
+- [[entities/alibaba|Alibaba (AI / Qwen)]] — Chinese tech giant whose Qwen 3 series leads non-reasoning open-weight models and ranks second in reasoning open-weight, per Artificial Analysis benchmarks. ( #company #ai #chinese-ai #open-weight #qwen)
+- [[entities/alice-ai-sdr|Alice]] — Alice is 11x's AI Sales Development Representative — an AI agent that writes personalized outreach emails, sources leads, and books meetings. Sends ~50,000 emails/day across ~300 organizations. ( #ai-sdr #sales #email #digital-worker #11x)
+- [[entities/alicorp|Alicorp]] — Early-stage venture fund based in New York. Kenneth Auchenberg is a partner at Alicorp. ( #venture-fund #early-stage #new-york #investment)
+- [[entities/alix-partners|Alix Partners]] — Alix Partners ( #consulting #ai-adoption #professional-services)
+- [[entities/altimeter-capital|Altimeter Capital]] — Venture capital firm where Jamin Ball is a partner. Known for investment in technology companies and analysis of competitive dynamics in the AI era. ( #company #venture-capital #investor)
+- [[entities/alvaro-morales|Alvaro Morales]] — Co-founder and CEO of Orb, a billing infrastructure company for AI and SaaS companies. Speaker on AI pricing strategy and monetization. ( #person #entrepreneur #pricing #billing #ai-engineering)
+- [[entities/aman-khan|Aman Khan]] — Speaker at AIEF2025 on scalable LLM evaluation pipelines, co-presenting with Dat Ngo at Arize. ( #person #ai #aief2025)
+- [[entities/amanda-askell|Amanda Askell]] — AI researcher at Anthropic known for leading the character design of Claude. Her approach to building Claude's personality — designing character over controlling outputs — influenced the character... ( #person #anthropic #ai #character-design)
+- [[entities/amazon|Amazon]] — Stub page created to resolve incoming wiki links for Amazon. ( #stub)
+- [[entities/amazon-agi|Amazon AGI]] — Amazon's experimental artificial general intelligence lab based in San Francisco. Researchers include cognitive scientist Danielle Perszyk. The lab focuses on computer-use agents (Nova Act) and the... ( #organization #amazon #agi #research)
+- [[entities/amazon-bedrock|Amazon Bedrock]] — AWS's fully managed service for building generative AI applications, providing access to foundational models from multiple providers (Anthropic, Amazon, Meta, Mistral, AI21 Labs) through a unified... ( #aws #ai-infrastructure #llm #generative-ai #managed-service)
+- [[entities/amazon-bedrock-agents|Amazon Bedrock Agents]] — AWS's fully managed service for building, deploying, and versioning AI agents. Handles the agentic loop, conversational history, and tool orchestration with no infrastructure management required. ( #aws #agents #managed-service #bedrock #cloud-scale)
+- [[entities/amazon-nova|Amazon Nova]] — Amazon Nova ( #amazon #aws #ai-models #foundational-models #generative-ai)
+- [[entities/amazon-q-developer|Amazon Q Developer]] — AWS's AI-powered coding assistant built into the AWS console's code editor. Also available as a CLI agent with agentic chat experience, MCP integration, and file read/write capabilities — built in... ( #aws #ai-coding-assistant #code-generation #ide #cli-agent)
+- [[entities/amazon-sns|Amazon SNS]] — Amazon Simple Notification Service — a fully managed pub/sub messaging service. Used in Randall Hunt's sports analytics architecture to send push notifications when AI-detected events occur. ( #aws #messaging #push-notifications #event-notifications #enterprise-ai)
+- [[entities/amazon-titan|Amazon Titan]] — Amazon's family of foundation models including Titan embeddings — multimodal embedding models that create shared spaces for text and image embeddings, enabling cross-modal search. ( #aws #embeddings #multimodal-embeddings #titan-embeddings #vector-search)
+- [[entities/amd|AMD]] — GPU chip manufacturer whose accelerators Luma AI explores for Dream Machine inference, targeting PyTorch compatibility for hardware-agnostic model deployment. ( #gpu #hardware #chip-manufacturer #ml-hardware #inference)
+- [[entities/amir-haghighat|Amir Haghighat]] — Co-founder and CTO of Baseten, an inference platform. Observed enterprise AI adoption patterns across 100+ enterprise conversations over two years. ( #person #speaker #inference #baseten)
+- [[entities/amplify|Amplify]] — Venture capital firm that invests in technical founders, including companies built by and for AI engineers. Barr Yaron is an investment partner at Amplify. ( #organization #vc #venture-capital #investment)
+- [[entities/andre-karpathy|Andre Karpathy]] — AI researcher and educator who worked at Google, OpenAI, Tesla, and xAI. Coined 'vibe coding', created Menugen, and advocates that English is the hottest programming language. ( #karpathy #ai-researcher #y-combinator #openai #tesla)
+- [[entities/andreas-kolleger|Andreas Kollegger]] — Andreas Kollegger ( #person #speaker #neo4j #aief2025)
+- [[entities/andrej-karpathy|Andrej Karpathy]] — Andrej Karpathy ( #ai #research)
+- [[entities/andrew-ng|Andrew Ng]] — Renowned AI educator and co-creator of the DeepLearning.AI 'Fundamentals of LLMs' course with Mike Chambers and AWS colleagues. The course has been taken by over 370,000 people. ( #person #ai-educator #machine-learning #llm)
+- [[entities/andy-maguire|Andy Maguire]] — Andy Maguire ( #posthog #agent-systems)
+- [[entities/anish-agarwal|Anish Agarwal]] — CEO and co-founder of Traversal.ai. AI researcher specializing in causal machine learning. Speaks at AI Engineer World's Fair 2025 on why AI coding tools will make production troubleshooting expone... ( #person #entrepreneur #ai #causal-machine-learning #observability)
+- [[entities/ankur|Ankur]] — Stub page created to resolve incoming wiki links for Ankur. ( #stub)
+- [[entities/ankur-goyal|Ankur Goyal]] — Speaker at AI Engineer World's Fair 2025 presenting on the future of AI evaluation, author of Braintrust's Loop product for automated prompt/dataset/scorer optimization. ( #person #braintrust #evaluation #aief2025 #llm)
+- [[entities/annika-and-aastha|Annika and Aastha]] — Two GR00T team members from Vidya who presented at AIEF2025 on the GR00T N1 humanoid foundation model, the data pyramid strategy, and the dual-system (System One / System Two) robotics architecture. ( #speaker #robotics #nvidia #groot #physical-ai)
+- [[entities/anoop-kotha|Anoop Kotha]] — Solution Architect at OpenAI. Co-presented on voice agent patterns including delegation, evals, and guardrails at AI Engineer World's Fair 2025. ( #person #openai #ai #voice)
+- [[entities/answer-ai|Answer AI]] — Company founded by Jeremy Howard that embodies the small-team generalist philosophy. Jeremy Howard's investment philosophy influences Datalab's approach to team building. ( #company #ai #startup #venture-capital)
+- [[entities/anterior|Anterior]] — NY clinician-led company building clinical reasoning tools for health insurance. Serves insurers covering ~50M lives. AI system 'Florence' achieves ~99% on medical necessity reviews.
+- [[entities/anthropic|Anthropic]] — AI safety and research company and creator of Claude, which originated the Model Context Protocol (MCP) and demonstrated Golden Gate Claude as a prominent mechanistic interpretability demo. Creator... ( #organization #ai-company #llm #mcp #infrastructure)
+- [[entities/antje-barth|Antje Barth]] — AWS speaker at AI Engineer World's Fair 2025 who presented on building AI agents at cloud scale, including the Alexa Plus reimagining and the open-source Strands Agents SDK. ( #aws #speaker #ai-agents #cloud-scale)
+- [[entities/anushrut-gupta|Anushrut Gupta]] — Leads the applied research team at PromptQL. Presented on the data readiness myth and agentic semantic layers at AI Engineer World's Fair 2025. ( #person #speaker #ai-engineer #promptql)
+- [[entities/apache-lucene|Apache Lucene]] — Core Java search library underlying Elasticsearch and many other search engines. Provides inverted index, BM25 scoring, analysis pipelines, and vector search primitives. ( #library #search #indexing #java)
+- [[entities/apify|Apify]] — Apify ( #company #ai-agents #mcp #marketplace #actors)
+- [[entities/apoorva-joshi|Apoorva Joshi]] — AI-focused Developer Advocate at MongoDB, building workshops for AI developers. Previously 6 years as a data scientist in cybersecurity. Speaker at AI Engineer World's Fair 2025. ( #person #speaker #mongodb #ai #engineer)
+- [[entities/apple|Apple]] — Consumer technology company whose Private Cloud Compute (PCC) architecture set the standard for private AI inference — combining remote attestation, transparency logs, oblivious HTTP, blind signatu... ( #entity #company #consumer-electronics #privacy #ai)
+- [[entities/arango-db|ArangoDB]] — ArangoDB ( #entity #company #graph-database #document-database #multi-model)
+- [[entities/arc-institute|ARC Institute]] — Research organization training foundational genomics models including EVO2, a superhuman genome prediction model. Collaborates with Goodfire AI on extracting scientific knowledge from neural networks. ( #organization #research #genomics #ai)
+- [[entities/arc-prize-foundation|ARC Prize Foundation]] — Non-profit organization founded by Francois Chollet and Mike Knup with the mission to be a North Star guide towards Open AGI. Creators of the ARC-AGI benchmark series. ( #organization #nonprofit #ai #benchmarking #agi)
+- [[entities/arcade|Arcade]] — Arcade ( #company #authentication #agent-experience #ai-agents #aief2025)
+- [[entities/arcjet|Arcjet]] — Security SDK for developers providing bot detection, rate limiting, and automated client defense. Founded by David Mytton. ( #company #security #bot-detection #aief2025 #sdk)
+- [[entities/arize|Arize]] — Arize ( #company #ai #observability #mcp #open-inference)
+- [[entities/arize-ai|Arize AI]] — The largest AI evals company, providing observability and evaluation infrastructure for LLM applications. Clients include Reddit and Duolingo. ( #company #ai-observability #evals #llm-monitoring #aief2025)
+- [[entities/arthur-ai|Arthur AI]] — AI observability, evaluation, and security company (founded ~2018). Provides monitoring and guardrails across traditional ML, deep learning, gen AI, and agentic AI. ( #organization #ai #evaluation #monitoring #security)
+- [[entities/artificial-analysis|Artificial Analysis]] — Independent AI benchmarking company evaluating models, API endpoints, hardware, and modalities. Publishes the Artificial Analysis Intelligence Index across 150+ models. ( #company #ai #benchmarking #llm #evaluation)
+- [[entities/asaf|Asaf (Monday.com AI)]] — Head of AI at Monday.com and creator of GPT Researcher (open source package). Cited by Harrison Chase as a key influence on his thinking about enterprise agent reliability. ( #person #ai-leader #monday-com #gpt-researcher)
+- [[entities/asha-sharma|Asha Sharma]] — Corporate Vice President leading Microsoft's Core AI Platform. Previously built machine learning products at major tech companies. Keynote speaker at AI Engineer World's Fair 2025. ( #entity #person #microsoft #ai-platform)
+- [[entities/assembly-ai|Assembly AI]] — Speech-to-text provider whose streaming STT service emits both transcript and end-of-utterance probability from a single model. ( #company #ai #speech #stt #voice)
+- [[entities/augment-code|Augment Code]] — AI-assisted coding platform focused on enterprise codebases, featuring a proprietary context engine that lifts codebase knowledge for LLMs. Provides chat, agent, and remote agent modes for code und... ( #company #ai #developer-tools #enterprise)
+- [[entities/augment-slack-bot|Augment Slack Bot]] — Augment Slack Bot ( #ai-agents #slack #bot #augment-code #aief2025)
+- [[entities/auth0|Auth0]] — Auth0 (an Okta company) is a leading identity and access management platform that provides authentication, authorization, and user management for applications, now extending to AI agent identity wi... ( #company #identity #auth #security #iam)
+- [[entities/aws|AWS]] — AWS ( #organization)
+- [[entities/aws-agents|AWS Agents Ecosystem]] — AWS's internal ecosystem of AI agents: 1,000+ generative AI applications, an internal agent managing 6,000+ tools via semantic search, and the Alexa Plus platform with hundreds of expert systems. ( #aws #ai-agents #enterprise-ai #generative-ai)
+- [[entities/aws-lambda|Aws Lambda]] — Stub page created to resolve incoming wiki links for Aws Lambda. ( #stub)
+- [[entities/azure-ai-foundry|Azure AI Foundry]] — Microsoft's enterprise AI agent platform with model catalog (10K+ models), intelligent routing, agent SDK, evaluation SDK (quality/NLP/risk evaluators, multimodal, configurable thresholds), and con... ( #entity #platform #microsoft #agent-factory #ai-platform)
+- [[entities/azure-openai|Azure Openai]] — Stub page created to resolve incoming wiki links for Azure Openai. ( #stub)
+- [[entities/barr-yaron|Barr Yaron]] — Investment partner at Amplify who invests in technical founders including companies built by and for AI engineers. Presented the 2025 State of AI Engineering Survey findings at AIEF2025. ( #person #investor #vc #amplify)
+- [[entities/barry-zhang|Barry Zhang]] — Speaker at AI Engineer NYC in February 2025. Provided the widely-adopted definition of an AI agent used by Anthropic, OpenAI, and Google's ADK. ( #person #ai-agents #agent-definition #anthropic)
+- [[entities/baseten|Baseten]] — Inference platform company founded in 2019. Provides horizontal AI infrastructure for enterprises to run and optimize model inference at production scale. ( #organization #company #inference #infrastructure)
+- [[entities/ben-kus|Ben Kus]] — CTO of Box, leading the company's AI and agentic platform strategy for enterprise content. ( #person #executive #cto #ai #enterprise)
+- [[entities/ben-stein|Ben Stein]] — Ben Stein ( #person #founder #product-management #teammates #aief2025)
+- [[entities/benjamin-dunphy|Benjamin Dunphy]] — Co-founder of AI Engineer World's Fair 2025 (with SWIX) and announcer of the new AI Education Summit initiative. ( #person #conference-organizer #aief2025 #swix #ai-education)
+- [[entities/benjamin-eckel|Benjamin Eckel]] — Benjamin Eckel ( #person #co-founder #cto #dylibso #mcp)
+- [[entities/beth-glenfield|Beth Glenfield]] — Beth Glenfield ( #person #hiring #recruitment #ai-recruitment #devday)
+- [[entities/birdclaw|birdclaw]] — Local-first Twitter/X archive and operator console. Stores tweets, DMs, likes, and bookmarks in local SQLite with a CLI and web UI. Fully offline-capable via archive import. ( #tool #twitter #open-source #sqlite #privacy)
+- [[entities/bismuth|Bismuth]] — End-to-end agent debugging solution by Ian Butler. Creates PRs automatically, scans for vulnerabilities, provides reviews. Integrates with GitHub, GitLab, JIRA, and Linear. Supports on-prem deploym... ( #agent-debugging #bug-detection #github-integration #on-prem #aief2025)
+- [[entities/blackrock|BlackRock]] — BlackRock is the world's largest asset manager, with a significant internal data platform and engineering organization that builds custom AI knowledge applications for investment operations teams.... ( #company #financial-services #asset-management #enterprise-ai)
+- [[entities/bobby-tiernay|Bobby Tiernay]] — Stub page created to resolve incoming wiki links for Bobby Tiernay. ( #stub)
+- [[entities/bolt|Bolt]] — AI coding tool by StackBlitz mentioned by Tomas Reimers alongside Cursor, Copilot, Windsurf, and V0 as part of the wave of AI tools accelerating code generation and creating the outer loop bottleneck. ( #ai #coding-agent #developer-tools #aief2025)
+- [[entities/bolt.new|Bolt.new]] — AI-powered web development product by StackBlitz. Launched October previous year with an MVP that grew ARR from $0.7M to $20M in 60 days with a team of <20 people. ( #product #bolt #stackblitz #ai-coding #vibe-coding)
+- [[entities/boris-cherny|Boris Cherny]] — Member of Technical Staff at Anthropic and creator of Claude Code. Known in the JavaScript ecosystem for Node.js tooling and the ts-node project. ( #person #anthropic #claude-code #speaker #aief2025)
+- [[entities/box|Box]] — Enterprise unstructured content platform managing exabytes of data for 115K+ customers including 2/3 of the Fortune 500. ( #organization #enterprise #content-platform #ai #cloud)
+- [[entities/brainbox-ai|Brainbox AI]] — Building operating system company that manages HVAC systems across tens of thousands of buildings. Caylent built an AI agent for decarbonization that was named among the Times 100 best inventions o... ( #company #building-automation #hvac #decarbonization #ai-agent)
+- [[entities/braintrust|Braintrust]] — Enterprise AI evaluation and observability platform providing prompt management, automated evals, production logging, online scoring, and human-in-the-loop review workflows. ( #company #evaluation #ai-platform #tooling #observability)
+- [[entities/branch|Branch]] — Mobile deep-linking startup. Jonas (Upside co-founder) worked here building a search engine used by over 100 million people daily. Jonas left with a Branch co-founder to start Upside. ( #company #mobile #deep-linking #search-engine #aief2025)
+- [[entities/brett-victor|Brett Victor]] — HCI researcher known for the principle that 'creators need immediate feedback with what they're creating,' which inspired early GPT-3 interactive coding demos. ( #person #hci #research #interaction-design #programming)
+- [[entities/brian-balfour|Brian Balfour]] — Founder and CEO of Reforge, 25+ year tech veteran, helped HubSpot launch their CRM, author of the AI Lego Blocks Framework for product differentiation. ( #person #product-strategy #founder #product-management #reforge)
+- [[entities/brian-johnson|Brian Johnson]] — Brian Johnson ( #person #tavus #video-ai #real-time #speaker)
+- [[entities/bridgewater|Bridgewater]] — Bridgewater ( #company #hedge-fund #trading #market-systems #finance)
+- [[entities/brooke-hopkins|Brooke Hopkins]] — Founder of Coval, building evals for voice agents. Previously led eval job infrastructure at Waymo for autonomous vehicle simulations. ( #person #voice-ai #evals #waymo #coval)
+- [[entities/browserbase|Browserbase]] — Cloud infrastructure platform for running thousands of headless browsers for AI agents. Founder Paul Klein IV operates the most popular browser automation MCP server. ( #company #browser #headless #cloud #mcp)
+- [[entities/busybox|busybox]] — busybox ( #product)
+- [[entities/calico|Calico]] — Calico ( #product)
+- [[entities/calvin-qi|Calvin Qi]] — CEO and co-founder of LanceCB, co-author of Pandas. Leads RAG team at Harvey, tackling retrieval over massive complex legal document sets. ( #person #engineer #legal-ai #rag #pandas)
+- [[entities/canopy-labs|Canopy Labs]] — Open-source AI company that created Orpheus TTS, a LLaMA-based text-to-speech model. Team includes Elias, Amu, and others. ( #organization #company #tts #voice-ai #open-source)
+- [[entities/carlos-esteban|Carlos Esteban]] — Solutions Engineer at Braintrust, co-presented the hands-on evals workshop at AI Engineer World's Fair 2025. ( #entity #person #evaluation #braintrust #speaker)
+- [[entities/cartesia|Cartesia]] — Cartesia ( #company #voice-ai #tts #state-space-models #real-time-ai)
+- [[entities/cascade|Cascade]] — Cascade ( #agent #windsurf #ai-agent #developer-tools #aief2025)
+- [[entities/casco|Casco]] — YC-backed company specializing in red-teaming AI agents and apps. Founded by Rene Brandel after he left AWS to work out of a garage. ( #company #yc #ai-security #red-teaming #agent-security)
+- [[entities/caylent|Caylent]] — AWS Partner of the Year company co-founded by Randall Hunt. Builds enterprise AI solutions including chatbots, copilots, and AI agents. Serves hundreds of customers from Fortune 500 to startups. ( #company #aws-partner #enterprise-ai #genai #chatbots)
+- [[entities/cedric-vidal|Cedric Vidal]] — Cedric Vidal ( #person #microsoft #principal-advocate #evaluation #azure-ai)
+- [[entities/ceph|Ceph]] — Ceph ( #product)
+- [[entities/cerebral-valley|Cerebral Valley]] — The largest AI community in the world, based in the Bay Area, known for organizing hackathons and events. Partnered with AI Engineer for the first official AI Engineer hackathon at the 2025 World's... ( #organization #community #bay-area #hackathon #ai)
+- [[entities/certificate-authority|Certificate Authority]] — Certificate Authority ( #organization)
+- [[entities/chad-bailey|Chad Bailey]] — Chad Bailey ( #person #voice-ai #real-time #daily #pipecat)
+- [[entities/chang-she|Chang She]] — Speaker at AIEF2025, associated with LanceDB. Co-presented on scaling enterprise-grade RAG with Calvin Qi from Harvey. ( #person #engineer #lance-db #vector-database #speaker)
+- [[entities/charles-frye|Charles Frye]] — Developer Advocate at Modal. Created the LLM Almanac benchmark. Predicted open models would catch up to proprietary models (2023). Known for LLM inference benchmarking and performance analysis. ( #person #modal #inference #benchmarking #ai-engineering)
+- [[entities/chatgpt|Chatgpt]] — Stub page created to resolve incoming wiki links for Chatgpt. ( #stub)
+- [[entities/chelcie-taylor|Chelcie Taylor]] — Venture investor at Notable. Speaker at AI Engineer World's Fair 2025 on the AI engineer's guide to raising VC capital. ( #person #investor #vc #notable #aief2025)
+- [[entities/cheng-lu|Cheng Lu]] — Engineer at MidJourney known for the 'cars vs traffic' metaphor about AI prediction — predicting cars is easy, predicting traffic is hard. Speaker referenced by Diego Rodriguez at AIEF2025. ( #person #ai #midjourney #prediction #aief2025)
+- [[entities/chime|Chime]] — Financial technology company. Chris Hernandez, lead of speech analytics at Chime, co-presented on AI ops and HITL at AI Engineer World's Fair 2025. ( #company #fintech #ai-engineer-worlds-fair-2025)
+- [[entities/chin-keong-lam|Chin Keong Lam]] — Founder and CEO of Patho AI. Presented on Wisdom-Driven Knowledge Augmented Generation (KAG) at AI Engineer World's Fair 2025, advocating structured knowledge graphs over vector RAG for complex ana... ( #person #speaker #ai-engineering #patho-ai #aief2025)
+- [[entities/chris-hernandez|Chris Hernandez]] — Lead of speech analytics at Chime. ~10 years in CX, ~9 years in ML. Co-speaker on HITL and AI ops evolution at AI Engineer World's Fair 2025. ( #person #speaker #ai-engineer-worlds-fair-2025 #chime #ml)
+- [[entities/chris-kelly|Chris Kelly]] — Engineer at Augment Code, former GitHub employee, advocate for production-oriented software engineering in the AI era. Argues that AI code generation is only one part of software engineering and th... ( #person #software-engineering #production #aief2025)
+- [[entities/christian-segeti|Christian Segeti]] — Chief Scientist at Morph, formerly co-founder at xAI, led code reasoning for Grok 3, known for batch storm and adversarial examples. ( #person #ai #reasoning)
+- [[entities/christopher-chedeau|Christopher Chedeau]] — Creator of Excalidraw, the open-source whiteboarding tool. Former Facebook engineer. Speaker at AIEF2025 on AI and human whiteboarding partnership. ( #person #open-source #founder #excalidraw #aief2025)
+- [[entities/christopher-harrison|Christopher Harrison]] — GitHub Enterprise Advocate (formerly Microsoft), developer experience advocate and speaker at AI Engineer World's Fair 2025. Co-presented on GitHub Copilot's evolution and coding agent workflows. ( #entity #person #devrel #github #microsoft)
+- [[entities/christopher-lovejoy|Christopher Lovejoy]] — Medical doctor turned AI engineer with 8 years clinical practice and 7 years building AI systems with medical domain expertise. Currently at Anterior, building clinical reasoning tools. ( #person #ai-engineer #healthcare-ai #medical-doctor #speaker)
+- [[entities/chroma|Chroma]] — Chroma ( #company #ai #vector-database #embeddings #open-source)
+- [[entities/circle|Circle]] — Fintech company founded in 2013 that issues USDC and EURC stablecoins. Backed by BlackRock and Fidelity. Has settled over $26 trillion in transactions across 20+ blockchain networks. ( #company #fintech #stablecoin #payments #blockchain)
+- [[entities/cisco|Cisco]] — Cisco ( #entity #company #networking #ai #enterprise)
+- [[entities/cisco’s-martianbank|Cisco’s MartianBank]] — Cisco’s MartianBank ( #project)
+- [[entities/claude-3-7-sonnet|Claude 3.7 Sonnet]] — Anthropic's first reasoning model, released February 2025. Simon Willison praised it as a 'great model' with creative SVG output — putting a bicycle on top of a bicycle since pelicans can't ride bi... ( #anthropic #claude #reasoning #model #aief2025)
+- [[entities/claude-code|Claude Code]] — Anthropic's agentic coding tool that provides low-level terminal access to Claude models. Designed to be unopinionated, working across any terminal, IDE, and GitHub repositories. ( #tool #ai-coding-agent #anthropic #claude #terminal)
+- [[entities/claude-sonnet-4|Claude Sonnet 4]] — Claude Sonnet 4 ( #entity #model #claude #anthropic #aief2025)
+- [[entities/clay-bavor|Clay Bavor]] — Cofounder of Sierra (AI customer service platform). Former Google VP who led AR/VR, Google Lens. Known for articulating the 'AI Architect' role and Agent Development Life Cycle. ( #person #ai #entrepreneur #google-alumni)
+- [[entities/cleo-lant|Cleo Lant]] — Cleo Lant ( #posthog #ai-evals)
+- [[entities/clerk|Clerk]] — Authentication platform for web applications, providing user management, sessions, and OAuth integration. ( #tool #authentication #identity #aief2025)
+- [[entities/clickhouse|ClickHouse]] — ClickHouse ( #columnar #analytics #open-source)
+- [[entities/cloud-glue|Cloud Glue]] — Cloud Glue is a newer parsing vendor that handles both audio and video resources, including extracting information directly from video content (not just transcription). ( #parsing #audio-parsing #video-parsing #transcription #video-understanding)
+- [[entities/cloudchef|CloudChef]] — CloudChef builds wheeled two-arm robots deployed in real commercial kitchens, using thermal/RGB perception and foundation models to cook 1000+ recipes autonomously. ( #company #robotics #cooking #automation #ai)
+- [[entities/cloudflare|Cloudflare]] — Cloud infrastructure and CDN company. Co-developed Oblivious HTTP (OHTTP) with Apple. Serves as the anonymizer relay for Apple's Private Cloud Compute. Workers platform enables CPU-millisecond pric... ( #company #infrastructure #cdn #compute #ai)
+- [[entities/cloudflare-agents-sdk|Cloudflare Agents SDK]] — Cloudflare's SDK for building and hosting AI agents and MCP servers. Provides built-in OAuth, transport (SSE/WebSockets), HTTP streaming, and state management via Durable Objects. Compatible with O... ( #sdk #cloudflare #agents #mcp #durable-objects)
+- [[entities/cluey|Cluey]] — Cluey ( #company #hiring #ai-cheating #recruitment #ai-tools)
+- [[entities/cncf|Cncf]] — Cncf ( #organization)
+- [[entities/cni-ipam-specification|cni-ipam-specification]] — Cni Ipam Specification ( #other)
+- [[entities/coasia|Coasia]] — Taiwanese company that serves as an intermediary in the HBM supply chain, purchasing HBM from Samsung and packaging it into Faraday chips for shipment to China. ( #company #taiwan #intermediary #hbm #supply-chain)
+- [[entities/codex|Codex CLI]] — Codex CLI ( #tool #openai #cli #agent #code-execution)
+- [[entities/coframe|CoFrame]] — AI website personalization platform giving every customer experience its own AI growth team. Only marketing tech company partnered with OpenAI. Co-founder Josh Brown previously scaled company to $2B. ( #company #ai #personalization #marketing-tech #aief2025)
+- [[entities/cognition|Cognition]] — Company that built Devin, the first widely-adopted AI software engineering agent. Founded by Scott Wu, launched late 2023. PMF initially found in repetitive code migrations before expanding to gene... ( #ai-agents #software-engineering #ai-coding #aief2025)
+- [[entities/coinbase|Coinbase]] — Stub page created to resolve incoming wiki links for Coinbase. ( #stub)
+- [[entities/confidence-security|Confidence Security]] — Privacy infrastructure company building Apple Private Cloud Compute-equivalent capabilities for non-Apple platforms — TPM-based attestation, transparency logs, and confidential computing. ( #entity #company #privacy #security #ai-infrastructure)
+- [[entities/consult-gov-uk|Consult (UK Government)]] — Consult (UK Government) ( #project #uk-government #consultation #public-policy #text-analysis)
+- [[entities/containerd|Containerd]] — Containerd ( #product)
+- [[entities/contextual-ai|Contextual AI]] — AI company building a modular, production-ready RAG platform, founded by Dow and Aman from Meta's RAG research team. Focuses exclusively on RAG as a managed service for enterprise data. ( #rag #ai #platform #enterprise #managed-service)
+- [[entities/continue-dev|continue.dev]] — Open-source coding assistant that implements a classic RAG plus re-ranking approach for 'chat with your codebase' applications. Found Voyage Code 3 to be the best embedding model for code understan... ( #tool #open-source #code-search #rag #coding-agent)
+- [[entities/conviction|Conviction]] — AI-native venture capital firm founded by Sarah Guo and Mike Vernal. Runs the Embed grant program for AI startups and backs companies across the AI stack. ( #organization #venture-capital #ai #investment)
+- [[entities/coredns|CoreDNS]] — CoreDNS ( #product)
+- [[entities/corekey-72b|CoreKey 72B]] — World's largest model without transformer attention, built by Federalist AI. Runs on only 8 GPUs with 1000x lower inference cost than comparable models. Techniques also applicable to existing trans... ( #ai-model #non-transformer #inference #aief2025 #hf0-residency)
+- [[entities/corey-cooper|Corey Cooper]] — DevRel Lead at Circle. Presented on combining USDC and AI agents to automate escrow workflows at AI Engineer World's Fair 2025. ( #person #devrel #circle #payments #stablecoin)
+- [[entities/coval|Coval]] — Company building evaluation infrastructure for voice agents. Founded by Brooke Hopkins (Waymo), applying large-scale simulation from autonomous vehicles to voice AI. ( #company #voice-ai #evals #evaluation #infrastructure)
+- [[entities/craig-wattrus|Craig Wattrus]] — Director of AI Transformation at Flatfile. Speaks on AI coworker form factors, character coaching for agents, and using design thinking (woodworking analogies) for AI product development. ( #person #speaker #flatfile #ai-engineering #aief2025)
+- [[entities/crea|CREA]] — AI creative suite founded by Diego Rodriguez (CTO). 25M users, built with a team of 8. Presented at HF0 Residency talk at AIEF2025. ( #company #ai #creative-suite #aief2025 #hf0-residency)
+- [[entities/crewai|CrewAI]] — Multi-agent framework for building autonomous agent teams. Used by Nir Gazit at Traceloop to build a researcher agent for auto-improving RAG prompt optimization at AIEF2025. ( #company #agent-framework #multi-agent #crewai #ai-tools)
+- [[entities/cri-o|CRI-O]] — CRI-O ( #product)
+- [[entities/crictl|Crictl]] — Crictl ( #product)
+- [[entities/cron|Cron]] — Luma AI engineer who manages the public API, built out their SDK and developer relations program, and handles the API integration for Dream Machine image/video generation. ( #person #engineer #luma-ai #api #developer-relations)
+- [[entities/ctr|Ctr]] — Ctr ( #product)
+- [[entities/cuda|CUDA]] — NVIDIA's parallel computing platform and programming model for GPU-accelerated computing. Enables CPU-side code (Python, Rust, etc.) to launch and manage GPU kernel execution. ( #cuda #nvidia #gpu-computing #parallel-computing #kernel)
+- [[entities/cursor-ai|Cursor]] — AI-native code editor and the archetypal AI application company. Grew from $1M to $100M ARR in 12 months with zero salespeople. Valued at ~$14-15B. ( #organization #ai #developer-tools #code-editor)
+- [[entities/dagger|Dagger]] — Container workflow engine and CI/CD platform by the founders of Docker. Now supports LLMs as a first-class primitive for building agent environments with sandboxed execution. ( #entity #company #tool #cicd #container)
+- [[entities/daily|Daily]] — Daily ( #company #voice-ai #real-time #audio #video)
+- [[entities/dan-shipper|Dan Shipper]] — Founder and operator of Every, a 15-person AI-native company running four software products with 99% AI-written code. Speaker at AIEF2025 on compounding engineering. ( #person #founder #ai-native #startup #aief2025)
+- [[entities/dani-grant|Dani Grant]] — Venture investor at Jam. Speaker at AI Engineer World's Fair 2025 on the AI engineer's guide to raising VC capital. ( #person #investor #vc #jam #aief2025)
+- [[entities/daniel-chalef|Daniel Chalef]] — Speaker at AI Engineer World's Fair 2025 representing Zep. Presented on domain-aware memory and Graffiti, Zep's open-source temporal graph framework. ( #person #speaker #aief2025 #zep #agent-memory)
+- [[entities/danielle-perszyk|Danielle Perszyk]] — Cognitive scientist at the Amazon AGI SF lab. Speaker at AI Engineer World's Fair 2025 on useful general intelligence — the vision of building AI that augments human intelligence rather than replac... ( #person #cognitive-scientist #amazon #agi)
+- [[entities/dario-amodei|Dario Amodei]] — CEO of Anthropic whose framing that generative AI systems are 'more grown than built' inspired a gardening metaphor for AI UX design. ( #person #ai #anthropic #safety #aief2025)
+- [[entities/dat-ngo|Dat Ngo]] — AI architect at Arize AI, building observability and evals since day zero. Works with top AI teams including Reddit and Duolingo. ( #person #ai-architect #evals #observability #aief2025)
+- [[entities/databricks|Databricks]] — Data and AI platform company where Omar Khattab works. Known for Apache Spark, MLflow, and AI/ML infrastructure. ( #company #databricks #ai-platform #mlops #nlp)
+- [[entities/datadog|Datadog]] — Cloud-scale observability platform providing monitoring, analytics, and real-time dashboards. Mentioned in both production troubleshooting and MCP observability contexts. ( #company #observability #monitoring #dashboards #apm)
+- [[entities/datalab|Datalab]] — AI document intelligence company founded by Vik Paruchuri. Seven-figure ARR with 4-person team. Built open-source tools Marker and Surya OCR. Customers include tier-one AI labs, universities, Fortu... ( #company #ai #document-intelligence #open-source #aief2025)
+- [[entities/dataquest|DataQuest]] — Online education startup founded by Vik Paruchuri. Scaled to 30 people and $4M ARR bootstrapped during COVID. Post-COVID layoffs (30→15→7) unexpectedly increased productivity and happiness. ( #company #education #online-education #startup #bootstrapped)
+- [[entities/david-cramer|David Cramer]] — Founder of Sentry (application monitoring platform). Engineer-executive who built Sentry's MCP server and advocates for pragmatic agent architectures over protocol hype. ( #person #founder #engineer #software-engineering #sentry)
+- [[entities/david-favorited|David (Favorited)]] — Founder of Favorited (live engagement app, $1 to $100M ARR in 6 months). Previously built a social app with 250M users generating $20M/year. Distinct from David Vorick (Glow Labs). Presented at AIE... ( #person #founder #social-app #aief2025 #hf0-residency)
+- [[entities/david-karam|David Karam]] — David Karam ( #person #ai-evaluation #google #pi-labs)
+- [[entities/david-mytton|David Mytton]] — Founder of Arcjet, a security SDK for developers providing bot detection and automated client defense. ( #person #security #founder #aief2025 #bot-detection)
+- [[entities/david-vorick|David Vorick]] — Founder of Glow Labs (incentive protocol for solar construction). Previously built Scalia, a cryptocurrency taken from $10K to $3B+ market cap. Raised $30M from Framework and USV. Presented at AIEF... ( #person #founder #crypto #solar #aief2025)
+- [[entities/daytona|Daytona]] — Daytona ( #company #infrastructure #agent-native #sandboxes #ai-agents)
+- [[entities/debsha|Debsha]] — Sprout Social AI leader and co-presenter at AI Engineer World's Fair 2025 on building an AI-first SaaS company. Only identified by first name in the talk. ( #person #speaker #ai #saas)
+- [[entities/deepmind|DeepMind]] — AI research lab (Google/Alphabet). Yann LeCun (CEO) argued that a new AI architecture is needed to push the paradigm forward and that compound agent errors will take more than 10 years to fix. Refe... ( #company #ai #research #google #aief2025)
+- [[entities/deepseek|DeepSeek]] — Chinese AI lab that released DeepSeek V3 (Christmas Day 2024) and DeepSeek R1 (January 2025), both open-weight models that challenged Western assumptions about GPU restrictions and training costs. ( #company #ai #llm #open-source #chinese)
+- [[entities/deloitte|Deloitte]] — Stub page created to resolve incoming wiki links for Deloitte. ( #stub)
+- [[entities/den-delimarsky|Den Delimarsky]] — Den Delimarsky ( #person #microsoft #mcp #steering-committee #product-engineer)
+- [[entities/denys-linkov|Denys Linkov]] — ML team lead at WiseDocs who spoke at AI Engineer World's Fair 2025 on structuring AI teams, the generalist approach, and hiring trade-offs. ( #ai #ml #hiring #team-building #speaker)
+- [[entities/deployments|Deployments]] — Stub page created to resolve incoming wiki links for Deployments. ( #stub)
+- [[entities/devansh-tandon|Devansh Tandon]] — Engineer at YouTube who presented the Large Recommender Model (LRM) — adapting Gemini for video recommendations at 2B+ DAU — at AI Engineer World's Fair 2025. ( #person #engineer #recommendation-systems #llm #youtube)
+- [[entities/devday|DevDay]] — DevDay ( #conference #hiring #ai-recruitment #simulation #devtools)
+- [[entities/devin|Devin]] — First widely-adopted AI software engineering agent by Cognition. Evolved from tab completion to full agentic coding across capability tiers, with PMF initially found in repetitive code migrations. ( #ai-agent #software-engineering #ai-coding #aief2025 #cognition)
+- [[entities/dex-horthy|Dex Horthy]] — Founder of HumanLayer, creator of the 12-Factor Agents framework for building reliable LLM applications. Author of the A2H (Agent-to-Human) Protocol for human-in-the-loop agent collaboration. ( #person #speaker #humanlayer #ai-engineer #agents)
+- [[entities/diamond|Diamond]] — AI code review platform by Graphite that provides high-signal, low-noise feedback on pull requests with a 52% comment acceptance rate and <4% downvote rate. ( #ai-product #code-review #llm #graphite #developer-tools)
+- [[entities/diego-rodriguez|Diego Rodriguez]] — Co-founder and CTO of CREA (AI creative suite, 25M users) and Krea.ai (generative media, perceptual evaluation). Previously founded multiple companies. Speaker at AIEF2025 on perceptual evaluations... ( #person #entrepreneur #ai #creative-suite #aief2025)
+- [[entities/digitalocean|DigitalOcean]] — Cloud provider serving hundreds of thousands of customers. Traversal.ai customer that achieved ~40% MTTR reduction through autonomous incident investigation using causal ML and agent swarms. ( #company #cloud-provider #observability #customer-case-study #ai-eng-worlds-fair-2025)
+- [[entities/dmitry-kuchin|Dmitry Kuchin]] — Co-founder, CTO with 15+ years experience, founder of Multinear open-source evaluation platform. Speaker on practical AI evaluation and reliability methodology at AI Engineer World's Fair 2025. ( #person #speaker #ai-engineer-worlds-fair #evaluation)
+- [[entities/docker|Docker]] — Docker ( #product)
+- [[entities/docker-compose|Docker Compose]] — Docker Compose ( #product)
+- [[entities/donald-hruska|Donald Hruska]] — Donald Hruska ( #person #retool #product-management #ai-agents #aief2025)
+- [[entities/doug-guthrie|Doug Guthrie]] — Doug Guthrie ( #person #braintrust #solutions-engineer #aief2025)
+- [[entities/douglas-engelbart|Douglas Engelbart]] — Inventor of the computer mouse and graphical user interface. Proponent of augmenting human intelligence rather than building thinking machines. His vision for computers as tools for human augmentat... ( #person #inventor #hci #computing-pioneer)
+- [[entities/dspy|DSPy]] — A programming framework for building AI systems with language models, created by Omar Khattab. Emphasizes programmatic structure over manual prompt engineering. ( #framework #nlp #dspy #programming-over-prompting #databricks)
+- [[entities/duolingo|Duolingo]] — Stub page created to resolve incoming wiki links for Duolingo. ( #stub)
+- [[entities/dust|Dust]] — Stub page created to resolve incoming wiki links for Dust. ( #stub)
+- [[entities/dylan-patel|Dylan Patel]] — Founder and analyst at SemiAnalysis, covering semiconductor industry, AI infrastructure, and the geopolitics of compute. ( #person #analyst #semiconductor #ai-infrastructure #geopolitics)
+- [[entities/dylibso|Dylibso]] — Dylibso ( #company #ai #mcp #mcp.run #observability)
+- [[entities/eashan-sinha|Eashan Sinha]] — Eashan Sinha ( #speaker #windsurf #engineer #aief2025)
+- [[entities/ec2|EC2]] — EC2 ( #product)
+- [[entities/elastic|Elastic]] — Company behind Elasticsearch, the most downloaded and deployed search engine. Provides keyword search, vector search, hybrid search, and observability solutions built on Apache Lucene. ( #company #search #elasticsearch #observability)
+- [[entities/elasticsearch|Elasticsearch]] — A distributed search and analytics engine with vector search capabilities. Used by Caylent for multimodal video search, storing pooled embeddings alongside metadata for text-to-video retrieval. ( #search #vector-search #elasticsearch #document-database #multimodal-search)
+- [[entities/elevenlabs|ElevenLabs]] — ElevenLabs — AI voice company building TTS, ASR, sound effects, and multilingual conversational AI agent infrastructure. ( #company #ai #voice-ai #tts #stt)
+- [[entities/eliza-cabrera|Eliza Cabrera]] — Principal AI Product Manager at Workday, building the financial audit agent and leading go-to-market for Workday's policy agent and Workday Assistant. ( #person #ai #product-management #speaker #aief2025)
+- [[entities/elon-musk|Elon Musk]] — Stub page created to resolve incoming wiki links for Elon Musk. ( #stub)
+- [[entities/emma-ning|Emma Ning]] — Product Manager at Microsoft presenting Foundry Local, Microsoft's end-to-end on-device AI platform combining ONNX Runtime, Azure AI Foundry, and hardware-accelerated inference. ( #person #microsoft #product-manager #onnx #local-ai)
+- [[entities/eno-reyes|Eno Reyes]] — Founder of Factory, an AI agent platform company. Started working on LLMs around GPT-3.5. Advocates for agent-driven development and the transition from human-driven to agent-driven software develo... ( #eno-reyes #factory #ai-agents #agent-native #software-development)
+- [[entities/ensemble-health|Ensemble Health Partners]] — U.S. healthcare revenue cycle management company serving hundreds of hospitals. ~14,000 employees. Led by Head of AI Nathan Wan. Provides end-to-end RCM with longitudinal data visibility. ( #organization #healthcare #revenue-cycle #rcm #ai)
+- [[entities/entra-id|Microsoft Entra ID]] — Microsoft Entra ID ( #identity #auth #microsoft #iam #oauth)
+- [[entities/eric-hou|Eric Hou]] — Eric Hou ( #person #software-engineer #augment-code #aief2025)
+- [[entities/eric-simons|Eric Simons]] — Co-founder of Bolt.new and StackBlitz. Building websites since age 13 with co-founder/childhood friend. Spoke at AIEF2025 about scaling from $0.7M to $20M ARR in 60 days. ( #person #founder #bolt #stackblitz #aief2025)
+- [[entities/eric-stuntz|Eric Stuntz]] — Stub page created to resolve incoming wiki links for Eric Stuntz. ( #stub)
+- [[entities/etcd|Etcd]] — Etcd ( #product)
+- [[entities/etlify|Etlify]] — Etlify ( #company #data-pipeline #api-first #agent-experience #aief2025)
+- [[entities/eugene|Eugene]] — Founder of Federalist AI, a research lab building reliable personalized AGI. Presented CoreKey 72B and the reliability-is-revenue thesis at AIEF2025 HF0 Residency. ( #person #founder #ai-reliability #aief2025 #hf0-residency)
+- [[entities/eugene-yan|Eugene Yan]] — Amazon scientist and author of the REXIS keynote at AI Engineer World's Fair 2025 on improving recommendation systems and search with LLMs. ( #person #ai #recommendation-systems #amazon #recsys)
+- [[entities/eureka-labs|Eureka Labs]] — Andre Karpathy's new educational platform. Part of his career trajectory spanning Google, OpenAI, Tesla, xAI, and now education. ( #eureka-labs #karpathy #education #ai-education #platform)
+- [[entities/every-company|Every]] — A 15-person AI-native company run by Dan Shipper, operating 6 business units and 4 software products with 99% AI-written code, 7K+ paying subscribers, and only $1M raised. ( #company #startup #ai-native #small-team #aief2025)
+- [[entities/every-to|Every.to]] — AI education and newsletter platform where Alex Duffy leads training consulting. Organizer of the AI Engineer World's Fair 2025 conference. ( #company #ai-education #newsletter #aief2025)
+- [[entities/exa|Exa.ai]] — AI-native web search engine founded in 2021 (YC Summer 2021). Built from scratch using transformer embeddings instead of keyword indexing. Designed for AI agents, not human users. ( #search #ai-native #embeddings #exa #aief2025)
+- [[entities/excalidraw|Excalidraw]] — Open-source virtual whiteboard tool built by Christopher Chedeau in January 2020. Became a widely adopted remote collaboration tool during COVID. Used by Anthropic to demo Claude's AI agent. ( #tool #open-source #whiteboarding #collaboration #excalidraw)
+- [[entities/exifunction|Exifunction]] — Exifunction ( #company #windsurf #gpu-optimization #aief2025 #origin)
+- [[entities/factory|Factory]] — AI agent platform company founded by Eno Reyes, building agent-native development infrastructure for enterprise organizations transitioning from human-driven to agent-driven software development. ( #factory #ai-agents #agent-platform #droids #agent-native)
+- [[entities/factset|FactSet]] — FactSet ( #company #financial-data #enterprise-ai #financial-software)
+- [[entities/fal|FAL]] — FAL ( #company #gpu #inference #ml-infrastructure #voice-ai)
+- [[entities/faraday|Faraday]] — Chinese company that receives HBM-packaged Faraday chips from Taiwan, extracts the HBM, and mounts it on Huawei Ascend processors. ( #company #china #intermediary #hbm #supply-chain)
+- [[entities/faraz|Faraz]] — Newest hire at Datalab. Team grew from 3 to 4 people with Faraz's addition. Not pictured in the AIEF2025 talk materials. ( #person #engineer #datalab)
+- [[entities/favorited|Favorited]] — World's most engaging live app. Scaled from $1 to $100M annualized in six months. Founded by David, who previously built a social app with 250M users generating $20M/year. ( #company #ai #social-app #live-engagement #aief2025)
+- [[entities/featherless|Featherless]] — AI company building inference infrastructure and action models. Published Featherless Action R1 (65% on real eval) and the world's largest non-transformer 72B parameter model based on RWKV architec... ( #company #ai #inference #infrastructure #models)
+- [[entities/federalist-ai|Federalist AI]] — Research lab building reliable personalized AGI. Created CoreKey 72B — world's largest non-transformer model with 1000x lower inference cost. Claims action R1 agent beats Claude Sonnet, Gemini, and... ( #company #ai #reliability #inference #aief2025)
+- [[entities/file-ai|File AI]] — AI company where Gorkem built a model that transforms Excalidraw diagrams with natural elements into photorealistic beach scenes. Demonstrated at AIEF2025. ( #company #ai #machine-learning #excalidraw-integration #aief2025)
+- [[entities/firecrawl|Firecrawl]] — Firecrawl is a web crawling service that converts websites into structured markdown. Selected by 11x for Alice's knowledge base website parsing. ( #web-crawling #parsing #vendor #markdown-output)
+- [[entities/fish-audio|Fish Audio]] — Open-source voice AI company behind Fish Speech and Soviet SVC. Grew from $400K to $5.5M ARR in 4 months. Acquired by OpenAudio (Shijia) for $100M valuation. TTS Arena leader. ( #company #ai #voice-model #tts #open-source)
+- [[entities/flannel|Flannel]] — Flannel ( #product)
+- [[entities/flatfile|Flatfile]] — Data migration and import platform that moves data between enterprise systems. Operates an AI platform layer including agents, tools, and real-time context analysis for checking, transforming, and... ( #company #data-migration #ai-platform #saas)
+- [[entities/fluent-bit|Fluent Bit]] — Fluent Bit ( #product)
+- [[entities/fluentd|Fluentd]] — Fluentd ( #product)
+- [[entities/forrest-brazeal|Forrest Brazeal]] — Cloud educator, speaker, and AI/developer tooling commentator. Presented at AI Engineer World's Fair 2025 on legacy code navigation with Augment Agent. ( #person #speaker #cloud #developer-relations)
+- [[entities/fouad-matin|Fouad Matin]] — Fouad Matin ( #person #security #openai #agent-robustness #codex)
+- [[entities/foundry-local|Foundry Local]] — Microsoft's end-to-end on-device AI platform combining ONNX Runtime acceleration, Azure AI Foundry model downloads, and a management service for seamless local inference across Windows and macOS. ( #platform #microsoft #on-device-ai #edge-computing #local-inference)
+- [[entities/francois-chollet|Francois Chollet]] — AI researcher, creator of Keras, author of 'On the Measure of Intelligence' (2019), and co-founder of the ARC Prize Foundation. Defined intelligence as 'skill acquisition efficiency' and created th... ( #person #ai #benchmarking #arc-agi)
+- [[entities/frank-liu|Frank Liu]] — Speaker at AI Engineer World's Fair 2025, formerly of Voyage AI, now at MongoDB. Builds embedding models and re-rankers for RAG and semantic search. ( #person #speaker #mongodb #voyage-ai #search)
+- [[entities/freeplay|Freeplay]] — Company focused on solving operational problems in Gen AI product development. Jeremy, Freeplay's product lead, co-presented at AI Engineer World's Fair 2025 on the build-operate divide. ( #company #ai-ops #evaluation #ai-engineer-worlds-fair-2025)
+- [[entities/g42|G42]] — UAE-based AI company building a 5-gigawatt data center campus, with a deal allowing purchase of 500,000 GPUs/year in exchange for 80% going to US companies. ( #company #uae #ai #data-center #middle-east)
+- [[entities/gabber|Gabber]] — Real-time AI personas startup founded by Neil and Jack Dwyer. Focuses on consumer voice AI (companions, therapists, trainers) using self-hosted Orpheus TTS on NVIDIA L40s GPUs at ~$1/hr. ( #company #startup #voice-ai #consumer-ai #ai-personas)
+- [[entities/galileo|Galileo]] — AI evaluation company offering observability-driven evaluation tools, including a custom-trained small language model designed specifically for evaluation tasks. ( #company #ai-evaluation #llm-evaluation #observability #aief2025)
+- [[entities/gamma|Gamma]] — AI presentation company, the anti-PowerPoint, led by Grant Lee. 50M users on a 30-person team. Content-first philosophy, building tools for imagination. ( #company #ai #presentation #startup #customer)
+- [[entities/gatsby|Gatsby]] — Stub page created to resolve incoming wiki links for Gatsby. ( #stub)
+- [[entities/gchat|Gchat]] — Stub page created to resolve incoming wiki links for Gchat. ( #stub)
+- [[entities/gemini|Gemini]] — Google DeepMind's multimodal LLM family. Includes Gemini 2.5 Pro (latest benchmark-improving update), YouTube Large Recommender Model adaptation, thinking/reasoning capabilities, VO video generatio... ( #model #llm #google #google-deepmind #multimodal)
+- [[entities/geoffrey-huntley|Geoffrey Huntley]] — Creator of the Ralph coding technique. Architect of CURSED programming language, author of the Groundhog specification technique, and proponent of deliberate intentional practice in AI-assisted sof... ( #person #ai-assisted-development)
+- [[entities/george-cameron|George Cameron]] — Co-founder of Artificial Analysis, an independent AI benchmarking company. Presented 'Trends Across the AI Frontier' at AIEF2025, covering reasoning, open-weight, cost, and speed frontiers in AI. ( #person #ai #benchmarking #entrepreneur #aief2025)
+- [[entities/github|Github]] — Stub page created to resolve incoming wiki links for Github. ( #stub)
+- [[entities/github-copilot|GitHub Copilot]] — GitHub Copilot ( #entity #tool #coding-agent #microsoft #github)
+- [[entities/gitpod|Gitpod]] — Gitpod is a platform for secure developer environments. Developers work ~37 hours/week inside Gitpod. Serves banks, pharmaceutical, and healthcare companies. Now runs AI agent fleet architecture on... ( #company #platform #secure-dev-environment #kubernetes #ai-agents)
+- [[entities/glow-labs|Glow Labs]] — Incentive protocol for solar panel construction. $30M funding round from Framework and USV. $10M/day on-chain DPIN revenue record. Building in India, Mexico, Lebanon. Founded by David Vorick (ex-Sc... ( #company #ai #solar #incentive-protocol #aief2025)
+- [[entities/glusterd|Glusterd]] — Glusterd ( #product)
+- [[entities/glusterd-source|glusterd-source]] — Glusterd Source ( #other)
+- [[entities/goodfire-ai|Goodfire AI]] — AI interpretability company building the Ember platform for mechanistic interpretability — enabling debugging, steering, and programming of models at the neuron level. Also created Paint with Ember... ( #organization #ai #interpretability #startup)
+- [[entities/google|Google]] — Alphabet Inc. (Google) — technology conglomerate and parent company of Google DeepMind. Stefania Druga is a former Google research scientist. ( #company #technology #ai #search #cloud)
+- [[entities/google-deepmind|Google DeepMind]] — AI research lab formed from the merger of Google Brain and DeepMind, responsible for the Gemini model family including Gemini 2.5 Pro, thinking/reasoning capabilities, and 50x year-over-year infere... ( #entity #organization #ai #research #google)
+- [[entities/google-jules|Google Jules]] — Google Jules ( #google #google-labs #coding-agent #async-agent #remote-agent)
+- [[entities/google-photos|Google Photos]] — Google's photo platform with 1.5B MAU and hundreds of millions of monthly edits. Hosts the Computational Photography Team pioneering on-device ML photo editing. ( #entity #company #google #photo-editing #on-device-ml)
+- [[entities/google’s-online-boutique|Google’s Online Boutique]] — Google’s Online Boutique ( #project)
+- [[entities/gorkem-yurtseven|Gorkem Yurtseven]] — Gorkem Yurtseven ( #person #founder #generative-media #fal)
+- [[entities/gpt-4-5|GPT-4.5]] — OpenAI's expensive reasoning model released February 2025 at $75/M input tokens. Described by Simon Willison as 'a lemon' and deprecated just six weeks after release, demonstrating scaling limits. ( #openai #gpt #model #deprecated #aief2025)
+- [[entities/gpt-4o|GPT-4o Multimodal Image Generation]] — OpenAI's GPT-4o native multimodal image generation feature launched in March 2025, achieving 100 million new signups in a week with viral adoption. Notable for its 'memory' feature that adds unrequ... ( #openai #multimodal #image-generation #virality #aief2025)
+- [[entities/grafana|Grafana]] — Open-source observability and visualization platform. Mentioned by Anish Agarwal as one of the major dashboard tools engineers must sift through during dashboard dumpster diving during production i... ( #company #observability #visualization #dashboards #metrics)
+- [[entities/granola|Granola]] — AI note-taking product that differentiates by empowering users to take better notes rather than replacing them. Used as a primary case study of the AI Lego Blocks Framework. ( #company #ai-product #note-taking #productivity #case-study)
+- [[entities/grant-lee|Grant Lee]] — Co-founder and CEO of Gamma. Previously a consultant. Advocates for generalist hiring, player-coach leadership, and organizational innovation over traditional startup scaling. ( #person #founder #ceo #gamma #aief2025)
+- [[entities/graphite|Graphite]] — AI code review company that built Diamond, an AI-powered code review platform. Developed the AI Entomology framework for classifying bugs in AI-generated code. Focused on making the developer outer... ( #company #ai #code-review #developer-tools #aief2025)
+- [[entities/greg-brockman|Greg Brockman]] — Greg Brockman ( #person #co-founder #openai #stripe #cto)
+- [[entities/greg-kamradt|Greg Kamradt]] — President of the ARC Prize Foundation, a nonprofit working toward open AGI. Announced ARC-AGI-3 at AI Engineer World's Fair 2025. ( #person #ai #benchmarking #arc-agi)
+- [[entities/grok-ai-chips|Grok AI Chips]] — AI accelerator chips from xAI, explored by Luma AI through a partnership with Humane for Dream Machine inference workloads. ( #ai-chips #hardware #xai #inference #ml-hardware)
+- [[entities/guardhat|Guardhat]] — Worker safety company with an AI-driven IoT platform using wearable devices to predict and prevent incidents in hazardous environments. Case study for Telemetrak's X-TOPS trust framework where GPS... ( #company #iot #worker-safety #ai #case-study)
+- [[entities/guidellm|GuideLLM]] — Open-source system performance benchmarking tool for LLM inference, part of the VLLM ecosystem. Measures latency, throughput, time-to-first-token, and inter-token latency with an in-terminal UI and... ( #tool #benchmarking #evaluation #inference #performance)
+- [[entities/gumloop|Gumloop]] — Workflow automation tool by Max Brodeur-Urbas. YC Winter 2024. Raised Series A as two people. Core product: AI agents as configurable workflow nodes. Used by large enterprises. ( #company #tool #workflow-automation #ai-agents #y-combinator)
+- [[entities/haize-labs|Haize Labs]] — Company founded by Leonard Tang focused on AI reliability through property-based testing and fuzz testing. Positions itself as a QA/eval company that pressure-tests AI systems before production dep... ( #company #ai-reliability #fuzz-testing #qa #evaluation)
+- [[entities/hamed-linkedin-ai|Hamed (LinkedIn AI)]] — Hamed (LinkedIn AI) ( #linkedin #ai-engineer #recommendation-systems #llm)
+- [[entities/han-wang|Han Wang]] — Han Wang ( #person #machine-learning-engineer #pinterest #search-relevance #knowledge-distillation)
+- [[entities/harald-kirschner|Harald Kirschner]] — Harald Kirschner ( #person #microsoft #vscode #mcp #speaker)
+- [[entities/harald-kirshner|Harald Kirshner]] — Harald Kirshner ( #person #microsoft #vscode #github-copilot #aief2025)
+- [[entities/hariharan-ganesan|Hariharan Ganesan]] — Co-presenter at AI Engineer World's Fair 2025 on trustworthy AI inference. Presented the three pillars of trust framework and the X-TOPS operational model from Telemetrak. ( #person #speaker #ai-eng-fair-2025 #trust)
+- [[entities/harold|Harold]] — Harold ( #person #microsoft #vscode #github-copilot #engineer)
+- [[entities/harrison-chase|Harrison Chase]] — Founder of LangChain, creator of LangGraph and LangSmith. Speaks on enterprise agent reliability, the workflow-agent spectrum, and observability for enterprise trust. ( #person #entrepreneur #langchain #langgraph #langsmith)
+- [[entities/harvard|Harvard]] — Stub page created to resolve incoming wiki links for Harvard. ( #stub)
+- [[entities/harvey-ai|Harvey]] — AI platform for the legal industry. Reached $70M+ ARR within two years. OpenAI was its seed investor. AI is now essential for competitiveness in legal. Processes legal data at three scales using La... ( #organization #ai #legal #enterprise)
+- [[entities/hassan-el-mghari|Hassan El Mghari]] — Developer Relations lead at Together AI; builds open-source AI apps at a rate of ~1/month for 4 years, with some reaching 1M+ users. ( #person #developer-relations #open-source #ai-apps #together-ai)
+- [[entities/helicone|Helicone]] — LLM analytics platform for tracking and troubleshooting LLM requests in AI applications. ( #tool #llm-observability #analytics #aief2025)
+- [[entities/helm|Helm]] — Helm ( #product)
+- [[entities/home-depot|Home Depot]] — Home Depot ( #company #retail #e-commerce #big-box)
+- [[entities/host-local|host-local]] — host-local ( #product)
+- [[entities/hpe|HPE]] — Hewlett Packard Enterprise. Partner with NVIDIA and Los Alamos National Laboratory to build the Venato supercomputer — 2,500+ nodes of Grace Hopper superchips for AI research on classified networks. ( #company #supercomputer #hpc #nvidia-partnership #los-alamos)
+- [[entities/huawei|Huawei]] — Chinese technology giant that has developed competitive AI chips (Ascend 910B/C) and large-scale GPU cluster architectures, circumventing US sanctions through complex supply chains. ( #company #china #semiconductor #ai #gpu)
+- [[entities/huggingface|Hugging Face]] — Open-source AI platform that served as the unexpected distribution channel for DeepSeek V3 on Christmas Day 2024, when the lab dumped model weights as a binary file with no documentation. ( #company #platform #open-source #ml-models #aief2025)
+- [[entities/humane|Humane]] — AI hardware company known for the AI Pin wearable; maintains a close partnership with xAI's Grok chip team that Luma AI leverages for exploring alternative inference hardware. ( #ai-hardware #wearable #ai-device #xai-partner #consumer-ai)
+- [[entities/humanlayer|HumanLayer]] — Company building open-source infrastructure for agent-to-human communication, including the A2H (Agent-to-Human) Protocol. Founded by Dex Horthy, creator of the 12-Factor Agents framework. ( #company #infrastructure #agents #human-in-the-loop #opensource)
+- [[entities/huxe|Huxe]] — AI-powered writing tool. Raiza Martin works here after previously being a PM on NotebookLM at Google. ( #ai #writing-tool #product)
+- [[entities/hyperbolic|Hyperbolic]] — Hyperbolic ( #company #gpu #marketplace #ai-infrastructure #aief2025)
+- [[entities/hyperdos|HyperDOS]] — HyperDOS ( #software #orchestration #gpu #kubernetes #distributed-systems)
+- [[entities/iam|IAM]] — IAM ( #product)
+- [[entities/ian-butler|Ian Butler]] — CEO of Bismuth, end-to-end agent debugging solution. Published benchmark of AI agent bug-finding capabilities at AIEF2025. ( #ceo #bismuth #agent-evaluation #bug-detection #aief2025)
+- [[entities/ibm-granite|Ibm Granite]] — Stub page created to resolve incoming wiki links for Ibm Granite. ( #stub)
+- [[entities/ido-pesok|Ido Pesok]] — Engineer at Vercel working on vZero, a full-stack vibe coding platform. Spoke at AIEF2025 on application-layer evaluation practices. ( #person #engineer #vercel #aief2025)
+- [[entities/ilan-bigio|Ilan Bigio]] — Developer Experience team member at OpenAI who focuses on early testing of new API products and directions. Presented on SFT, DPO, and RFT at AI Engineer World's Fair 2025. ( #person #openai #developer-experience #fine-tuning)
+- [[entities/imagine-4|Imagine 4]] — Google DeepMind's static image generation model that preserves realism across humans, animals, and objects, maintains detail across diverse styles, and supports typography rendering. ( #model #image-generation #google-deepmind)
+- [[entities/imbue|Imbue]] — AI agent company focused on robust, useful AI agents for software development. Creator of Sculptor, an experimental coding agent environment. ( #company #ai-agents #software-agents #coding-agents #aief2025)
+- [[entities/incubator-for-ai|Incubator for AI]] — Incubator for AI ( #organization #uk-government #ai-public-sector #experimentation #product-building)
+- [[entities/indeed|Indeed]] — Job search and recruitment platform whose LLM distillation pipeline for filtering bad job recommendations demonstrated that recommendation quality matters more than quantity. ( #company #job-platform #recommendation-systems #recsys #llm)
+- [[entities/infant-vasanth|Infant Vasanth]] — Director of Engineering at BlackRock, working on the data platform team, focused on building AI knowledge applications and the sandbox + app factory framework for enterprise AI at scale. ( #person #blackrock #ai-engineer-worlds-fair #director-of-engineering)
+- [[entities/infobip|Infobip]] — Infobip ( #company #communications #cps #twilio #developer-experience)
+- [[entities/instacart|Instacart]] — Leader in online grocery in North America. Search and ML team uses LLMs to transform search and discovery, achieving major tail-query precision/recall gains. ( #e-commerce #grocery #search #machine-learning #instacart)
+- [[entities/intercom|Intercom]] — Stub page created to resolve incoming wiki links for Intercom. ( #stub)
+- [[entities/intercom-fin|Intercom Fin]] — Intercom's AI agent product, launched after GPT-4, supporting text chat and voice channels with 5000+ customers and 56% average resolution rate. ( #ai-agent #customer-service #enterprise-ai #intercom #voice-ai)
+- [[entities/intuit|Intuit]] — Intuit ( #company #fintech #tax #gen-ai #enterprise-ai)
+- [[entities/intuit-assist|Intuit Assist]] — Stub page created to resolve incoming wiki links for Intuit Assist. ( #stub)
+- [[entities/itamar-friedman|Itamar Friedman]] — CEO and co-founder of Qodo, focused on AI-powered code review and testing. Presented "Vibe Coding with Confidence" at AIEF2025, arguing CLI is the next interface leader for AI developer tools. ( #itamar-friedman #qodo #ai-coding #aief2025 #ceo)
+- [[entities/ivan-burazin|Ivan Burazin]] — Ivan Burazin ( #person #founder #daytona #agent-experience #ai-agents)
+- [[entities/jack-rae|Jack Rae]] — Researcher at Google DeepMind and technical lead of thinking within Gemini, responsible for advancing reasoning and test-time compute scaling in Gemini models. ( #entity #person #google #deepmind #reasoning)
+- [[entities/jam-vc|Jam (VC Firm)]] — Venture capital firm where Dani Grant is an investor. Invests in pre-seed and seed-stage companies, comfortable with pre-revenue and pre-product investments. ( #company #venture-capital #vc-firm #pre-seed #seed)
+- [[entities/james-lowe|James Lowe]] — James Lowe ( #person #ai-engineering #product-management #uk-government #ai-product-manager)
+- [[entities/jamin-ball|Jamin Ball]] — Partner at Altimeter Capital. Author of the 'sequence of moats' concept describing how competitive advantage has shrunk from 6-12 months to 2-3 weeks in the AI era. ( #person #venture-capital #investor #product-strategy)
+- [[entities/jan-curn|Jan Čern]] — Jan Čern ( #person #founder #apify #mcp #ai-agents)
+- [[entities/jared-hanson|Jared Hanson]] — Jared Hanson ( #person #keycard #passport-js #auth0 #okta)
+- [[entities/jason-liu-567|Jason Liu (567)]] — Jason Liu (567) ( #person #ai)
+- [[entities/jasper|Jasper]] — AI-powered writing platform for marketing teams. Notable as a cautionary tale — first-mover brand raised $125M, but its prompt-in-a-textbox product was crushed by ChatGPT, illustrating that executi... ( #company #ai #writing #marketing #saas)
+- [[entities/jasper-zhang|Dr. Jasper Zhang]] — Dr. Jasper Zhang ( #person #entrepreneur #gpu #ai-infrastructure #aief2025)
+- [[entities/jaspreet-singh|Jaspreet Singh]] — Jaspreet Singh ( #person #engineer #intuit #turbo-tax #gen-ai)
+- [[entities/jcr-licklider|J.C.R. Licklider]] — Computer scientist who authored the 1960 'Man-Computer Symbiosis' paper, envisioning an intelligent assistant with perfect context — a vision cited as still unfulfilled by modern AI tools. ( #person #computer-science #pioneer #hci #man-machine)
+- [[entities/jeff-atwood|Jeff Atwood]] — Co-founder of Stack Overflow, author of the Coding Horror blog, and advocate for pragmatic software engineering. Famous for the aphorism 'the best code is no code at all.' ( #person #software-engineering #stack-overflow)
+- [[entities/jeff-huber|Jeff Huber]] — Jeff Huber ( #person #ai #founder #ceo #chroma)
+- [[entities/jensen-huang|Jensen Huang]] — Jensen Huang ( #person #ceo #nvidia #entrepreneur)
+- [[entities/jeremy-adams|Jeremy Adams]] — Member of the Dagger ecosystem team, co-presenter of the 'Ship Agents that Ship' workshop at AI Engineer World's Fair 2025. Focuses on developer ecosystems and community adoption of Dagger for CI/C... ( #entity #person #dagger #ecosystem #aief2025)
+- [[entities/jeremy-howard|Jeremy Howard]] — Entrepreneur and AI researcher who founded Answer AI. Advocates for teams of fewer than 15 generalists, simple technology, and AI-filled edges. His philosophy directly influenced Datalab's approach. ( #person #entrepreneur #ai #fast-ai #venture-capital)
+- [[entities/jeremy-silva|Jeremy Silva]] — Product lead at Freeplay with a data science and machine learning background, co-presented at AI Engineer World's Fair 2025 on building dynamic AI products and avoiding the AI sideshow. ( #person #ai #product-management #speaker #aief2025)
+- [[entities/jerry-liu|Jerry Liu]] — Co-founder and CEO of LlamaIndex. Presented on building AI agents for knowledge work automation over unstructured enterprise data at AI Engineer World's Fair 2025. ( #person #ceo #llamaindex #ai-engineer #founder)
+- [[entities/jesse-han|Jesse Han]] — Founder of Morph, creator of InfiniBranch and Morph Cloud, and advocate for infrastructure purpose-built for AI agents and verified superintelligence. ( #person #ai #infrastructure)
+- [[entities/jesús-barrasa|Jesús Barrasa]] — Field CTO for AI at Neo4j, specializing in knowledge graphs, GraphRAG architectures, and ontology-driven AI applications. ( #person #neo4j #knowledge-graph #graphrag #ontology)
+- [[entities/jim-bennett|Jim Bennett]] — Speaker at AI Engineer World's Fair 2025, representing Galileo. Focuses on observability-driven evaluation for AI agents and using LLMs to evaluate LLM outputs. ( #person #speaker #galileo #ai-evaluation #aief2025)
+- [[entities/jmo|Jmo]] — Founder of Confidence Security, PhD in data science/biomedical informatics, former founder of two exited companies (AI/data and cybersecurity/infrastructure). Presented the unofficial guide to Appl... ( #entity #person #privacy #security #ai)
+- [[entities/joel-hron|Joel Hron]] — CTO of Thomson Reuters. Led the company's AI assistance journey over 2.5 years, shifting focus from helpfulness to productive agents that make judgments in high-stakes domains. ( #person #cto #thomson-reuters #ai-agents #enterprise-ai)
+- [[entities/joel-spolsky|Joel Spolsky]] — Stub page created to resolve incoming wiki links for Joel Spolsky. ( #stub)
+- [[entities/john-collison|John Collison]] — John Collison ( #person #co-founder #stripe #entrepreneur)
+- [[entities/john-dickerson|John Dickerson]] — CEO of Mozilla AI, former co-founder and chief scientist at Arthur AI. Expert in AI/ML monitoring, evaluation, security, and open source AI tooling. ( #person #ai #evaluation #entrepreneurship #open-source)
+- [[entities/john-peck|Jon Peck]] — GitHub Enterprise Advocate, developer relations specialist. Co-presents on GitHub Copilot workflows and coding agent patterns at AI Engineer World's Fair 2025. ( #entity #person #devrel #github #microsoft)
+- [[entities/john-pham|John Pham]] — Designer and engineer at SF Compute, previously at Vercel. Known for building memorable and viral web experiences, creator of the prediction cone UI pattern and the four-pillar design framework. ( #person #designer #ux #performance)
+- [[entities/john-welsh|John Welsh]] — Member of Technical Staff at Anthropic focused on MCP integration, tool calling systems, and large-scale AI infrastructure. ( #person #anthropic #mcp #ai-engineering #tool-calling)
+- [[entities/jon-peck|Jon Peck]] — GitHub Developer Advocate and Enterprise Advocate, speaker at AI Engineer World's Fair 2025 on organizational AI adoption, Copilot Instructions, .instructions files, and coding agent workflows. Sof... ( #entity #person #devrel #github #aief2025)
+- [[entities/jonas|Jonas]] — Co-founder of Upside (forensic revenue attribution). Former engineer at Branch, where he built a search engine used by over 100 million people daily. Presented at AIEF2025 HF0 Residency. ( #person #founder #engineer #aief2025 #hf0-residency)
+- [[entities/jonas-upside|Jonas (Upside)]] — Engineer and co-founder of Upside (forensic revenue attribution). Previously worked at Branch (app deep linking, search engine for 100M+ users). Dropped out of high school at 15. ( #person #entrepreneur #data-analytics #aief2025 #hf0-residency)
+- [[entities/jonathan-larson|Jonathan Larson]] — Jonathan Larson ( #person #microsoft #graphrag #microsoft-research)
+- [[entities/josh-albrecht|Josh Albrecht]] — CTO of Imbue, focused on building robust AI software agents. Speaker at AIEF2025 on using AI to write high-quality production code. ( #person #cto #ai-agents #coding-agents #imbue)
+- [[entities/josh-brown|Josh Brown]] — Founder of CoFrame (AI website personalization). Previously scaled a company to over $2B. Co-founder and speaker at AIEF2025 HF0 Residency showcase. ( #person #entrepreneur #marketing-tech #aief2025 #hf0-residency)
+- [[entities/josh-purtell|Josh Purtell]] — Founder of Synth Labs. Builds stateful environment abstractions for vertical AI agents, enabling production-grade agent tree search and rollback. ( #person #ai-engineer #agents)
+- [[entities/josh-snyder|Josh Snyder]] — Josh Snyder ( #posthog #agent-systems)
+- [[entities/jost-tobias-springberg|Jost Tobias Springberg]] — Co-founder of Physical Intelligence (PI), presented on Vision-Language-Action model architecture, VLA vs VLM training pipelines, and PI's data engine for robotics. ( #person #robotics #ai #founder #physical-intelligence)
+- [[entities/julia-kasper|Julia Kasper]] — Julia Kasper ( #person #microsoft #mcp #azure #api-management)
+- [[entities/julian-voice-agent|Julian]] — Julian is 11x's voice agent, part of their digital worker platform alongside Alice (AI SDR). Designed for voice-based GTM conversations. ( #voice-agent #digital-worker #11x #go-to-market)
+- [[entities/jx-mo|JX Mo]] — Founding engineer at K-Scale Labs, building open-source humanoid robots. Presented K-Bot ($8,999) and Z-Bot at AI Engineer World's Fair 2025. ( #person #robotics #open-source #k-scale-labs)
+- [[entities/jyh-jing-hwang|Jyh Jing Hwang]] — Waymo engineer who presented EMMA — a Gemini-based end-to-end autonomous driving system — at the AI Engineer World's Fair 2025. ( #person #waymo #autonomous-driving #ai-engineer)
+- [[entities/k-scale-labs|K-Scale Labs]] — Palo Alto-based startup (15 people) building fully open-source humanoid robots. Creators of K-Bot ($8,999), Z-Bot, KOS robotics OS, and KOS Sim digital twin. MIT-licensed hardware + software + ML s... ( #company #robotics #open-source #hardware #humanoid)
+- [[entities/kam-sween|Kam Sween]] — Stub page created to resolve incoming wiki links for Kam Sween. ( #stub)
+- [[entities/karpathy|Karpathy]] — Stub page created to resolve incoming wiki links for Karpathy. ( #stub)
+- [[entities/keegan-mccallum|Keegan McCallum]] — ML engineer at Luma AI who presented on scaling Dream Machine to 1M users in 4 days at AI Engineer World's Fair 2025. ( #person #infrastructure #ml-engineering #gpu-scaling #model-serving)
+- [[entities/keiji-kanazawa|Keiji Kanazawa]] — Keiji Kanazawa ( #person #microsoft #azure-ai-foundry #ai-red-teaming #aief2025)
+- [[entities/kelvin-ma|Kelvin Ma]] — Engineer on Google Photos editing team (Computational Photography Team, est. 2018), presented on-device ML architecture powering Google Photos editing at AI Engineer World's Fair 2025. ( #person #google #computer-vision #on-device-ml)
+- [[entities/kenneth-auchenberg|Kenneth Auchenberg]] — Engineer and product builder, early VS Code team (Microsoft), ran developer platform at Stripe, now partner at Alicorp venture fund. Advocates rapid iteration loops and shipping to real users. ( #person #product-builder #ai #stripe #vscode)
+- [[entities/kevin-hou|Kevin Hou]] — Kevin Hou ( #person #product #windsurf #aief2025 #speaker)
+- [[entities/kevin-madura|Kevin Madura]] — Kevin Madura ( #speaker #aief2025 #consulting #ai-education)
+- [[entities/keycard|Keycard]] — Keycard ( #company #identity #access-management #ai-agents #oauth)
+- [[entities/keycloak|Keycloak]] — Keycloak ( #identity #auth #open-source #iam #oauth)
+- [[entities/kitze|Kitze]] — Kitze ( #person #entrepreneur #independent-developer #twitter-influencer #aief2025)
+- [[entities/krea-ai|Krea.ai]] — AI company focused on generative media and perceptual evaluation, founded by Diego Rodriguez. Speaker at AIEF2025 on perceptual evaluations for aesthetics. ( #company #ai #generative-media #perceptual-evals #aief2025)
+- [[entities/kshitij-grover|Kshitij Grover]] — Co-founder of Orb, a usage-based billing infrastructure company. Speaker on revenue engineering and AI product pricing at AI Engineer World's Fair 2025. ( #person #entrepreneur #billing #pricing #ai-engineering)
+- [[entities/kuaishou|Kuaishou]] — China's number two short video platform; pioneered trainable multimodal semantic IDs for recommendation systems and created the Kling text-to-video model. ( #company #short-video #recommendation-systems #recsys #china)
+- [[entities/kube-controller-manager|kube-controller-manager]] — Kube Controller Manager ( #other)
+- [[entities/kubeadm|Kubeadm]] — Kubeadm ( #product)
+- [[entities/kubectl|Kubectl]] — Kubectl ( #product)
+- [[entities/kubectl-set-image-command|kubectl set image command]] — Kubectl Set Image Command ( #other)
+- [[entities/kubelet|Kubelet]] — Kubelet ( #product)
+- [[entities/kubernetes|Kubernetes]] — Kubernetes ( #project)
+- [[entities/kubernetes-v1-24|Kubernetes v1.24]] — Kubernetes v1.24 ( #event)
+- [[entities/kubestriker|Kubestriker]] — Polar Signals' SaaS platform for continuous profiling on Kubernetes. Deployed as a daemon set, collects CPU, memory, and GPU profiles via eBPF. Provides flame chart visualization and GPU time profi... ( #kubestriker #polar-signals #profiling #kubernetes #saas)
+- [[entities/kwindla-kramer|Kwindla Kramer]] — Kwindla Kramer ( #person #daily #voice-ai #speaker #open-source)
+- [[entities/kyle-kranen|Kyle Kranen]] — Architect and lead for NVIDIA Dynamo, previously managed NVIDIA's largest inference deployment with multi-million-dollar quarterly cloud bill. ( #person #nvidia #inference #llm-serving #open-source)
+- [[entities/kyle-penfound|Kyle Penfound]] — Member of the Dagger ecosystem team, co-presenter of the 'Ship Agents that Ship' workshop at AI Engineer World's Fair 2025. Background in DevOps and platform engineering. ( #entity #person #dagger #devops #platform-engineering)
+- [[entities/lance-cb|LanceCB]] — Data tools company for ML and data science founded by Calvin Qi (Pandas co-author). Building tools for data that doesn't fit neatly into Pandas data frames. ( #company #ml-infrastructure #data-tools #machine-learning #aief2025)
+- [[entities/lance-db|LanceDB]] — LanceDB delivers an AI-native multimodal lake house — positioning beyond just a vector database as a foundational platform for AI data operations including feature extraction, summarization, and ge... ( #company #vector-database #ai-infrastructure #lakehouse #multimodal)
+- [[entities/langchain|LangChain]] — AI company founded by Harrison Chase, building agent frameworks (LangGraph) and observability tools (LangSmith) for enterprise AI applications. ( #organization #ai-tools #agent-framework #langgraph #langsmith)
+- [[entities/langgraph|LangGraph]] — An agent framework from LangChain designed around the workflow-agent spectrum, allowing developers to mix deterministic workflow steps with LLM-driven decision points anywhere on the spectrum. ( #tool #agent-framework #langchain #workflows #determinism)
+- [[entities/langsmith|LangSmith]] — LangChain's observability and evaluation platform for agents. Serves two audiences: developers debugging agents, and enterprise stakeholders reviewing agent performance for production approval. ( #tool #observability #evals #langchain #enterprise-ai)
+- [[entities/larry-page|Larry Page]] — Stub page created to resolve incoming wiki links for Larry Page. ( #stub)
+- [[entities/larry-tesler|Larry Tesler]] — HCI pioneer known for inventing copy-paste and the principle of modeless interfaces ('don't mode me in'), invoked by Piras to critique AI model picker dropdowns. ( #person #hci #design #pioneer #aief2025)
+- [[entities/launchdarkly|LaunchDarkly]] — LaunchDarkly ( #feature-flags #infrastructure #experimentation #lean-startup #tool-augmentation)
+- [[entities/laurie-voss|Laurie Voss]] — VP of Developer Relations at LlamaIndex. Hosted Day 2 of AI Engineer World's Fair 2025 and announced the AI Education Summit. ( #person #developer-relations #llamaindex #aief2025 #pride)
+- [[entities/lee-co-wizard|LeeCo Wizard]] — LeeCo Wizard ( #tool #ai-assistant #hiring #ai-cheating #interview-prep)
+- [[entities/lemonade-insurance|Lemonade]] — AI-powered insurance company cited as a case study for early investment in evals, guardrails, and feedback mechanisms for voice agents. ( #company #insurance #ai #voice)
+- [[entities/lengthmist|LengthMist]] — LengthMist ( #observability #evals #llm-monitoring #aief2025)
+- [[entities/leonard-tang|Leonard Tang]] — Founder of Haize Labs, a property-based testing and fuzz testing company for AI reliability. Speaker at AI Engineer World's Fair 2025 on fuzzing in the GenAI era. ( #person #founder #haize #ai-reliability #fuzz-testing)
+- [[entities/leto|Leto]] — Leto is a cloud agent provider used by 11x to build their deep research agent for Alice's knowledge base retrieval. Easy to build with; supports multi-step retrieval planning. ( #agent-platform #deep-research #cloud-agents #rag #vendor)
+- [[entities/lexica|Lexica]] — AI company building generative models, specifically image models. Founded by Sharif Shameem. ( #company #ai #generative-ai #image-generation)
+- [[entities/linear|Linear]] — Product development tool used by OpenAI, Ramp, and thousands of modern software companies. Describes itself as 'an operating system for engineering and product teams.' Launched an agent coordinatio... ( #company #tool #developer-tools #issue-tracker #project-management)
+- [[entities/linkedin|LinkedIn]] — LinkedIn ( #linkedin #professional-networking #social-media #recommendation-systems #ai)
+- [[entities/linus-lee|Linus Lee]] — Early critic (May 2022) of the raw text completion UI paradigm for AI, arguing before ChatGPT launched that it is not the right long-term interaction model. ( #person #ai #ux #design #aief2025)
+- [[entities/linux|Linux]] — Linux ( #product)
+- [[entities/liquid-ai|Liquid Ai]] — Stub page created to resolve incoming wiki links for Liquid Ai. ( #stub)
+- [[entities/live|Live]] — Live ( #tool #open-source #voice-ai #framework)
+- [[entities/livekit|LiveKit]] — Real-time voice AI infrastructure platform providing audio transport, voice agents, and open-weight turn detection models. ( #company #voice #ai #infrastructure #real-time)
+- [[entities/livermore-national-laboratory|Lawrence Livermore National Laboratory]] — Sister national laboratory to LANL across the bay, collaborating on inertial confinement fusion (ICF) capsule design using AI agents. ( #organization #national-lab #government #sister-lab #icf)
+- [[entities/llama-3|Llama 3]] — Llama 3 ( #llm #open-source #meta #foundation-model #fine-tuning)
+- [[entities/llamaindex|LlamaIndex]] — Framework (Python/TypeScript) for building generative AI applications with focus on agents, RAG, and document automation. Offers LlamaParse, LlamaCloud, LlamaHub, Workflows, and GenEI document tool... ( #organization #framework #ai #rag #agent)
+- [[entities/llamaparse|LlamaParse]] — LlamaParse is a LlamaIndex product for parsing documents and images into structured markdown. Uses interleaved LLM/LVM and traditional parsing with agentic validation for complex enterprise documen... ( #parsing #document-parsing #image-parsing #markdown-output #llamaindex)
+- [[entities/lm-eval-harness|lm-eval-harness]] — Open-source framework from EleutherAI for running standardized LLM benchmarks including MMLU-Pro. Supports many eval tasks and allows custom dataset integration via forking. ( #tool #evaluation #benchmarking #llm #open-source)
+- [[entities/lockfire|Lockfire]] — LLM observability platform that adopted OpenTelemetry support, mentioned alongside W&B Weave and Sentry as part of the emerging OTEL-compatible observability ecosystem. ( #company #observability #llm-observability #open-telemetry #aief2025)
+- [[entities/logan-kilpatrick|Logan Kilpatrick]] — Developer relations engineer at Google DeepMind who announced Gemini 2.5 Pro, recapped a year of Gemini progress, and previewed the future across models, the Gemini app, and the developer platform... ( #person #google-deepmind #developer-relations #aief2025 #gemini)
+- [[entities/logfire|Logfire]] — Observability platform by Samuel Colvin for AI applications. Provides execution traces, tool call details, and model interaction histories for Pydantic AI agents. ( #observability #monitoring #pydantic #ai-observability #agent-tracing)
+- [[entities/los-alamos-national-laboratory|Los Alamos National Laboratory]] — U.S. national laboratory with 70-year history in applied AI/ML, 20,000 researchers, 13 nuclear facilities. Pioneering agentic AI for science under strict government regulations. ( #organization #national-lab #government #national-security #ai-research)
+- [[entities/lou-bichard|Lou Bichard]] — Lou Bichard, Field TTO at Gitpod. Background in software and platform engineering; nearly four years at Gitpod building secure dev environment platforms for regulated industries; six years total on... ( #person #gitpod #field-tto #platform-engineering #security)
+- [[entities/lovable|Lovable]] — AI-powered app builder that lets users prototype applications through natural language, lowering the barrier to building software. ( #tool #ai-builder #app-generation #vibe-coding #aief2025)
+- [[entities/lukasz-gandecki|Łukasz Gądecki]] — Polish programmer and founder of TheBrain.pro. Creator of Books Reimagined — AI-powered multimodal book experiences. Vibe-coding advocate. ( #person #programmer #entrepreneur #speaker #aief2025)
+- [[entities/luke-alvoeiro|Luke Alvoeiro]] — Luke Alvoeiro ( #multi-agent #ai-engineering)
+- [[entities/luma-ai|Luma AI]] — Foundation model lab building general multimodal intelligence; creators of Dream Machine video model and Ray2. Scaled to 1M users in 4 days in June 2024. ( #ai #foundation-model-lab #video-generation #multimodal #inference)
+- [[entities/lyria-2|Lyria 2]] — Google DeepMind's high-fidelity music generation model with granular creative control over tones and styles. Built in collaboration with musicians including Jacob Collier and Toru Iuma. Includes Sy... ( #model #music-generation #audio-generation #google-deepmind)
+- [[entities/magi-1|Magi 1]] — Upcoming AI model from Morph trained to use InfiniBranch for reasoning time branching and verified reasoning, targeting a Q1 2026 release. ( #model #ai #reasoning)
+- [[entities/mani-khanuja|Mani Khanuja]] — Mani Khanuja ( #person #aws #generative-ai #data-strategy #speaker)
+- [[entities/manim|Manim]] — Stub page created to resolve incoming wiki links for Manim. ( #stub)
+- [[entities/manu-goyal|Manu Goyal]] — Manu Goyal ( #person #speaker #braintrust #evals)
+- [[entities/manual-notes|manual-notes]] — Manual Notes ( #other)
+- [[entities/mark-benioff|Mark Benioff]] — Mark Benioff ( #person #ceo #enterprise-software #ai)
+- [[entities/mark-bissell|Mark Bissell]] — Member of Technical Staff at Goodfire AI specializing in mechanistic interpretability. Previously spent three years on Palantir's healthcare team building reliable AI systems for mission-critical c... ( #person #ai #interpretability #speaker)
+- [[entities/mark-machotton|Mark Machotton]] — Enterprise AI Architect at Los Alamos National Laboratory with 70+ years of applied AI/ML context. Speaker on agentic AI for national security science at AI Engineer World's Fair 2025. ( #person #ai-architect #national-security #los-alamos #aief2025)
+- [[entities/mark-myshatyn|Mark Myshatyn]] — Enterprise AI Architect at Los Alamos National Laboratory, speaking on AI agents meeting tough government regulations at AIEF 2025. ( #person #enterprise-ai-architect #los-alamos #national-lab #speaker)
+- [[entities/mark-zuckerberg|Mark Zuckerberg]] — Mark Zuckerberg ( #person #ceo #meta #ai)
+- [[entities/marker|Marker]] — Open-source document processing tool by Datalab. Recently re-architected to be extremely modular, easy to work with, and well-documented — optimized for AI-assisted development. ( #tool #open-source #document-processing #ai #datalab)
+- [[entities/mason-egger|Mason Egger]] — Engineer at Temporal who presented at AI Engineer World's Fair 2025 arguing that event-driven architecture is the wrong abstraction for AI agents and durable execution is the proper alternative. ( #person #engineer #speaker #temporal #durable-execution)
+- [[entities/master-node|Master Node]] — Master Node ( #other)
+- [[entities/mastra-ai|Mastra.ai]] — AI workflow framework co-founded by Sam Bhagwat (former Gatsby co-founder). Focuses on composing agents and workflows together with fluent, readable code APIs. ( #company #ai #workflow #framework #agents)
+- [[entities/material-ui|Material UI]] — Material UI ( #entity #framework #ui-library #react #aief2025)
+- [[entities/matt-ball|Matt Ball]] — Solutions Architect at Augment Code. Formerly at Postman. Co-presented on legacy code navigation with Augment Agent at AI Engineer World's Fair 2025. ( #person #speaker #developer-tools #enterprise)
+- [[entities/matt-pocock|Matt Pocock]] — Matt Pocock ( #typescript #ai #education)
+- [[entities/matt-traversal|Matt (Traversal.ai co-founder)]] — Co-founder of Traversal.ai. Former high-frequency trading engineer who quit debugging production incidents, took a causal AI class, and joined Traversal after learning the company was building to s... ( #person #entrepreneur #causal-ai #observability #high-frequency-trading)
+- [[entities/matthias-loibl|Matthias Loibl]] — Director of Product and Cloud at Polar Signals, Prometheus Prometheus Operator maintainer, GPU profiling pioneer from Berlin, Germany. ( #person #speaker #director #open-source #observability)
+- [[entities/max-brodeur-urbas|Max Brodeur-Urbas]] — Founder of Gumloop. YC Winter 2024. Raised Series A as a team of two. Built workflow automation tool from AutoGPT UI. Advocates for scaling with under 10 people. ( #person #founder #gumloop #y-combinator #aief2025)
+- [[entities/maxime-labonne|Maxime Labonne]] — Maxime Labonne ( #ai #ml #post-training)
+- [[entities/maximillian-piras|Maximillian Piras]] — Designer at Yutori who coined the concepts of the Bitter Layout, the Bitter Design Lesson, and Schrödinger's Chat at AI Engineer World's Fair 2025. ( #person #designer #ai #ux #aief2025)
+- [[entities/maziar-linkedin-ai|Maziar (LinkedIn AI)]] — Maziar (LinkedIn AI) ( #linkedin #ai-engineer #recommendation-systems #llm)
+- [[entities/mcp-community-registry|MCP Community Registry]] — The community-driven registry for discovering MCP servers, solving the server discovery problem in the MCP ecosystem. ( #mcp #registry #discovery #model-context-protocol #open-source)
+- [[entities/mcp-steering-committee|MCP Steering Committee]] — The governance body for the Model Context Protocol specification, responsible for evolving the spec, reviewing RFCs, and coordinating ecosystem development. ( #mcp #steering-committee #governance #model-context-protocol #open-source)
+- [[entities/mcp.run|mcp.run]] — mcp.run ( #mcp #platform #observability #dylibso #aief2025)
+- [[entities/meta|Meta]] — Tech company whose Llama 3.3 70B model was described by Simon Willison as matching the capabilities of its own 405B model, making GPT-4-class AI runnable on a three-year-old consumer laptop for the... ( #company #ai #llm #open-source #facebook)
+- [[entities/metrics-server|Metrics Server]] — Metrics Server ( #product)
+- [[entities/michael-albada|Michael Albada]] — Principal Applied Scientist at Microsoft, key contributor to Security Co-Pilot and Security Co-Pilot Agents. Author of an O'Reilly book on building applications with AI agents. ( #person #microsoft #cybersecurity #ai-agents #speaker)
+- [[entities/michael-grinich|Michael Grinich]] — CEO of WorkOS. Speaker at AI Engineer World's Fair 2025 on customer identity and access management (CIAM) for AI agents, proposing four identity architecture patterns and calling for new standards. ( #person #ai #identity #auth #ceo)
+- [[entities/michael-hunger|Michael Hunger]] — Michael Hunger ( #person #neo4j #graphrag #knowledge-graph #aief2025)
+- [[entities/microsoft|Microsoft]] — Microsoft ( #entity #company #ai-platform #cloud #enterprise)
+- [[entities/microsoft-ai-red-team|Microsoft AI Red Team]] — Microsoft AI Red Team ( #organization #microsoft #ai-red-teaming #security #ai-risk)
+- [[entities/microsoft’s-eshop-reference-application|Microsoft’s eShop Reference Application]] — Microsoft’s eShop Reference Application ( #project)
+- [[entities/midjourney|MidJourney]] — AI image generation company where Cheng Lu works. Referenced in the context of perceptual evaluation and the cars vs traffic metaphor for AI prediction. ( #company #ai #generative-image #aief2025)
+- [[entities/mike-chambers|Mike Chambers]] — Developer Advocate for Amazon Web Services, specializing in generative AI. Co-created the DeepLearning.AI 'Fundamentals of LLMs' course with Dr. Andrew Ng, taken by over 370,000 people. ( #person #developer-advocate #aws #generative-ai #llm)
+- [[entities/minute-ai-transcription|Minute (AI Transcription)]] — Minute (AI Transcription) ( #product #ai-transcription #ai-summarization #government #meeting-tools)
+- [[entities/mistral|Mistral AI]] — French AI lab whose Mixtral MoE 7×2 model helped close the open-weight vs proprietary intelligence gap before the O1 breakout. ( #company #ai #french-ai #open-weight #aief2025)
+- [[entities/mistral-ai|Mistral AI]] — French AI lab that released Mistral Small 3 (24B parameters), a model Simon Willison highlighted as the smallest that maintains GPT-4-class capabilities while fitting comfortably on a consumer lapt... ( #company #ai #llm #open-source #french)
+- [[entities/mit|Mit]] — Stub page created to resolve incoming wiki links for Mit. ( #stub)
+- [[entities/mitesh-patel|Mitesh Patel]] — Lead of the Developer Advocate team at NVIDIA, specializing in creating technical workflows and notebooks for RAG systems, GraphRAG, and HybridRAG. ( #person #nvidia #developer-advocate #rag #ai-engineer-worlds-fair)
+- [[entities/mo-bhasin|Mo Bhasin]] — Mo Bhasin ( #speaker #aief2025 #consulting #ai-products)
+- [[entities/modal|Modal]] — Cloud GPU compute platform providing serverless infrastructure for AI workloads. Created the LLM Almanac — a comprehensive benchmark comparing vLLM, SGLang, and TensorRT-LLM across 10+ models on H1... ( #company #cloud #gpu #compute #infrastructure)
+- [[entities/monday-com|Monday.com]] — Work management platform company. Asaf, head of AI at Monday and creator of GPT Researcher, is cited by Harrison Chase as a key influence on his thinking about enterprise agent reliability. ( #organization #work-management #ai #saas)
+- [[entities/mongodb|MongoDB]] — NoSQL document database company positioning itself as the memory provider for agentic systems, offering multiple retrieval mechanisms for agent memory. ( #company #database #nosql #graph-capabilities #vector-search)
+- [[entities/monologue|Monologue]] — A speech-to-text app built by Every, similar to Whisper Flow. Beautifully designed with complicated functionality, built by one engineer with thousands of users. ( #product #ai #speech-to-text #aief2025 #every-company)
+- [[entities/morph|Morph]] — AI infrastructure company building InfiniBranch, Morph Cloud, and verified superintelligence technology for agentic AI systems. ( #company #ai #infrastructure #cloud)
+- [[entities/mozilla-ai|Mozilla AI]] — Mozilla's AI division focused on open source AI tooling, supporting the open source AI stack, and enabling community parity with frontier AI labs. ( #organization #ai #open-source #tooling)
+- [[entities/mujoco|MuJoCo]] — A physics simulation engine originally built by Google DeepMind, widely used for robotics and reinforcement learning research. Supports 3D rendering of articulated robots with full physical dynamics. ( #tool #robotics #simulation #physics #google)
+- [[entities/muktesh-mishra|Muktesh Mishra]] — Muktesh Mishra ( #person #ai-engineer #evaluation #adobe)
+- [[entities/mukuntha-narayanan|Mukuntha Narayanan]] — Mukuntha Narayanan ( #person #machine-learning-engineer #pinterest #search-relevance #knowledge-distillation)
+- [[entities/multinear|Multinear]] — Open-source platform for AI evaluation and reliability, founded by Dmitry Kuchin. Implements eval-first methodology with checklist-based evaluation, synthetic test generation, and iterative benchma... ( #company #evaluation #open-source #ai #platform)
+- [[entities/n8n|N8N]] — Open-source workflow automation tool with AI agent nodes, used for rapid prototyping of multi-agent KAG systems. Its AI agent node enables supervisory agents that orchestrate sub-agents updating a... ( #tool #workflow #automation #no-code #node-js)
+- [[entities/nagkumar-arkalgud|Nagkumar Arkalgud]] — Nagkumar Arkalgud ( #person #microsoft #engineer #ai-red-teaming #aief2025)
+- [[entities/nasa|NASA]] — National Aeronautics and Space Administration. Randall Hunt did physics work at NASA before his career at TenGen/MongoDB, SpaceX, and AWS. ( #nasa #space #physics #government #aerospace)
+- [[entities/nathan-sobo|Nathan Sobo]] — Nathan Sobo ( #founder #ai-editor #rust #zed #stochastic-evals)
+- [[entities/nathan-wan|Nathan Wan]] — Head of AI at Ensemble Health Partners; ex-Google (speech recognition, ambient docs), biotech diagnostics and therapeutics. Spoke at AIEF2025 on AI in healthcare revenue cycle. ( #person #ai-leader #healthcare #revenue-cycle #google)
+- [[entities/nature-footage|Nature Footage]] — A stock footage company with extensive wildlife video library (lions, tigers, bears, crocodiles). Caylent built a multimodal video search system for them using Nova Pro and Titan V2 embeddings. ( #company #stock-footage #video-library #multimodal-search #wildlife)
+- [[entities/neil-dwyer|Neil Dwyer]] — CTO and co-founder of Gabber (real-time AI personas startup). Former LiveKit agents platform creator, Uber, multiplayer gaming startup, and Bebo. Speaker at AIEF2025 on self-hosting Orpheus TTS at... ( #person #cto #voice-ai #real-time-media #livekit)
+- [[entities/neo4j|Neo4j]] — Neo4j ( #entity #company #graph-database #ai #neo4j)
+- [[entities/neo4j-browser|Neo4j Browser]] — Neo4j's web-based graph visualization tool (browser.neo4j.io/preview) for exploring and visualizing property graphs in real-time during workshops and development. ( #tool #neo4j #visualization #graph-database #aief2025)
+- [[entities/neon|Neon]] — Neon ( #company #database #api-first #agent-experience #aief2025)
+- [[entities/nerdctl|Nerdctl]] — > - 'nerdctl (Docker-like Containerd client) — ' ( #product)
+- [[entities/netflix|Netflix]] — Global streaming entertainment company that pioneered a single transformer-based foundation model for all recommendation and personalization use cases. ( #company #streaming #recommendation-systems #personalization #recsys)
+- [[entities/networkx|NetworkX]] — A Python library for the creation, manipulation, and study of complex networks and graph algorithms, now integrated with NVIDIA cuGraph for GPU acceleration. ( #library #python #graph #network-analysis #open-source)
+- [[entities/new-generation|New Generation]] — New Generation ( #company #ai-commerce #agent-infrastructure #agentic-economy)
+- [[entities/new-york-times|New York Times]] — Major American newspaper and publisher of popular games including Wordle and Connections through its NYT Games division. ( #company #media #journalism #games #nyt-games)
+- [[entities/nextjs|Nextjs]] — Stub page created to resolve incoming wiki links for Nextjs. ( #stub)
+- [[entities/nick-nisi|Nick Nisi]] — Nick Nisi ( #ai #harness #workos)
+- [[entities/nikhil-abraham|Nikhil Abraham]] — Co-founder and CEO of CloudChef, presenting on robotic culinary automation at AIEF2025. Leads a small, fast-growing team building wheeled robots that cook in commercial kitchens. ( #person #entrepreneur #robotics #cooking #cloudchef)
+- [[entities/nina-daily|Nina (Daily Co-founder)]] — Nina (Daily Co-founder) ( #person #daily #voice-ai #co-founder)
+- [[entities/nina-lopatina|Nina Lopatina]] — NLP and language modeling engineer with 7-8 years of experience since the BERT era. Speaker at AIEF2025 on building production-ready RAG agents with Contextual AI. ( #nlp #language-modeling #rag #speaker #contextual-ai)
+- [[entities/nir-gazit|Nir Gazit]] — Founder of Traceloop. Speaker at AIEF2025 who argued that prompt engineering never existed as real engineering, demonstrating an auto-improving agent loop for RAG optimization. ( #person #founder #traceloop #ai-engineering #rag)
+- [[entities/nlw|NLW]] — NLW ( #person #ceo #ai-consulting #podcast-host)
+- [[entities/notable-vc|Notable (VC Firm)]] — Venture capital firm where Chelcie Taylor is an investor. Publishes blog content on fundraising and startup strategy. ( #company #venture-capital #vc-firm #pre-seed #seed)
+- [[entities/notebooklm|NotebookLM]] — AI-powered note-taking and document analysis tool from Google. First version codenamed "Tailwind," announced at Google I/O 2023. Raiza Martin was the PM who drove it from concept to launch despite... ( #ai #google #product #notebooklm #tailwind)
+- [[entities/notion|Notion]] — Connected workspace platform with over 100 million users, known for its AI features spanning writing, search, meetings, and deep research. ( #company #product #ai #workspace #enterprise)
+- [[entities/nova-act|Nova Act]] — Amazon's computer-use agent SDK combining a vision-trained Amazon Nova model with a Python SDK for building and deploying browser-based agents. Enables natural language to screen actions, with gran... ( #product #amazon #agents #sdk)
+- [[entities/nvidia|NVIDIA]] — Technology company known for GPUs and AI computing, providing GPU-accelerated graph libraries (cuGraph), LLM reward models (NeMoTron), open-source inference tools (Dynamo), and developer programs. ( #company #gpu #ai #hardware #software)
+- [[entities/nvidia-dynamo|NVIDIA Dynamo]] — Open-source NVIDIA project for data-center-scale LLM inference, enabling teams to manipulate their deployment's Pareto frontier for better SLAs or lower costs through techniques like disaggregation. ( #nvidia #inference #open-source #llm-serving #disaggregation)
+- [[entities/nvidia-gr00t|NVIDIA Project GR00T]] — NVIDIA's strategy for bringing humanoid and other forms of robotics into the world. GR00T N1 is an open-source, cross-embodiment, 2-billion-parameter robotics foundation model announced at GTC in M... ( #nvidia #groot #robotics #foundation-model #humanoid)
+- [[entities/nyt-games|NYT Games]] — The games division of The New York Times, responsible for popular word games including Connections and Wordle. All puzzles and game mechanics are human-made. ( #company #games #word-games #new-york-times #puzzle)
+- [[entities/o1-pro|O1 Pro]] — OpenAI's extremely expensive reasoning model released March 2025 at ~$150/M input tokens. Simon Willison noted he doesn't know anyone using it via the API, and his pelican SVG benchmark cost 88 cents. ( #openai #o1 #reasoning #model #expensive)
+- [[entities/observable.tools|observable.tools]] — observable.tools ( #mcp #observability #open-source #manifesto #aief2025)
+- [[entities/okta|Okta]] — Okta ( #company #identity #auth #security #iam)
+- [[entities/ola-mabadeje|Ola Mabadeje]] — Ola Mabadeje ( #person #product #cisco #ai #network-operations)
+- [[entities/olive|Olive]] — Olive ( #startup #consumer-software #ai #lean-startup #tiny-teams)
+- [[entities/olive-optimizer|Olive (Model Optimizer)]] — Microsoft's Olive model optimization tool that prepares AI models for efficient execution on ONNX Runtime across different hardware targets, enabling the hardware-specific variants found in Foundry... ( #model-optimization #microsoft #onnx #performance #quantization)
+- [[entities/ollama|Ollama]] — Ollama ( #tool #open-source #local-inference #llm #inference)
+- [[entities/omar-khattab|Omar Khattab]] — NLP researcher, creator of DSPy, and AI systems engineer at Databricks. Known for engineering-focused approaches to building reliable AI systems. ( #person #ai-engineering #dspy #databricks #nlp)
+- [[entities/onnx-runtime|ONNX Runtime]] — Microsoft's cross-platform, high-performance on-device AI inference engine with 10M+ monthly downloads, delivering significant acceleration over PyTorch across CPU, GPU, and NPU hardware. ( #inference-engine #microsoft #onnx #cross-platform #performance)
+- [[entities/open-container-initiative-oci|Open Container Initiative Oci]] — Open Container Initiative Oci ( #organization)
+- [[entities/open-evidence|Open Evidence]] — AI platform for medical research. Clinician-only access, reaches 1/3 of US doctors weekly with daily average usage. ( #organization #ai #healthcare #medical)
+- [[entities/open-policy-agent-opa|Open Policy Agent (OPA)]] — Open Policy Agent (OPA) ( #project)
+- [[entities/openai|OpenAI]] — AI research and deployment company behind GPT, the Real-time API, and multimodal models spanning text, image, video, and audio. Its model market share is declining as competition from Anthropic, Go... ( #organization #ai #llm #research)
+- [[entities/openai-agents-sdk|OpenAI Agents SDK]] — OpenAI's SDK for building AI agents, released shortly before AIEF2025. Shares the same name as Cloudflare's Agents SDK but is cross-compatible — the two SDKs work and play with each other. ( #sdk #openai #agents #mcp #agent-framework)
+- [[entities/openaudio|OpenAudio]] — Company behind Fish Audio and the S1 instructable voice model — the world's most expressive voice model with instruction-based control. $5.5M ARR, $100M valuation. Founded by Shijia, creator of Fis... ( #company #ai #voice-model #tts #open-source)
+- [[entities/openhands|OpenHands]] — Open source software development agent formerly known as OpenDevon. Built by Robert Brennan and team. Agents run in Docker containers by default with scoped credentials. ( #agent #opensource #coding-agent #software-development)
+- [[entities/openhome|Open Home]] — AI-driven smart speaker platform enabling developers to build custom voice AI applications. 10K+ developers, offering free dev kits. Presented at AIEF2025 HF0 Residency. ( #company #ai #smart-speaker #voice-ai #developer-platform)
+- [[entities/openrouter|OpenRouter]] — Multi-model inference marketplace providing a single API to 400+ models across 60+ providers. Aggregates inference from open-source and closed models with unified billing, routing, and observability. ( #company #ai #inference #marketplace #infrastructure)
+- [[entities/openssl|OpenSSL]] — OpenSSL ( #product)
+- [[entities/orb|Orb]] — Orb ( #company #billing #infrastructure #pricing #ai-engineering)
+- [[entities/orpheus-tts|Orpheus TTS]] — Open-source TTS model by Canopy Labs built on a LLaMA 3.2 3B backbone with causal LM architecture, larger vocabulary for speech tokens, and extended context via RoPE scaling. Pre-trained on ~100k h... ( #tts #text-to-speech #voice-ai #open-source #llama)
+- [[entities/outshift|OutShift]] — OutShift ( #entity #organization #cisco #incubation #emerging-technology)
+- [[entities/paige-bailey|Paige Bailey]] — Engine lead for the DevRel team at Google DeepMind. Presented Veo 3, Imagine 4, and Lyria 2 at AIEF2025 on behalf of the generative media team. ( #person #developer-relations #google-deepmind #ai-media)
+- [[entities/palantir|Palantir]] — Palantir ( #palantir #enterprise-software #organizational-model #harvester-cultivator #consulting-engineering)
+- [[entities/pandas|Pandas]] — Stub page created to resolve incoming wiki links for Pandas. ( #stub)
+- [[entities/passport-js|Passport.js]] — Passport.js ( #library #node-js #authentication #oauth #middleware)
+- [[entities/patho-ai|Patho AI]] — AI consulting company founded by Chin Keong Lam, specializing in expert AI systems that use knowledge-augmented generation (KAG) and wisdom graphs for research and advisory tasks. ( #company #ai #knowledge-graph #kag #consulting)
+- [[entities/patrick-collison|Patrick Collison]] — Patrick Collison ( #person #ceo #stripe #entrepreneur)
+- [[entities/paul-klein-iv|Paul Klein IV]] — Founder of BrowserBase, obsessed with headless browsers and the role of browsers as the universal integration layer between AI agents and the legacy internet. ( #person #founder #browserbase #browsers #headless)
+- [[entities/perplexity|Perplexity]] — Stub page created to resolve incoming wiki links for Perplexity. ( #stub)
+- [[entities/peter-bar|Peter Bar]] — Peter Bar from Intercom Fin, speaker at AI Engineer World's Fair 2025 on building Finvoice, an enterprise voice AI agent shipped in 100 days. ( #person #intercom #voice-ai #product-management)
+- [[entities/peter-robicheaux|Peter Robicheaux]] — ML Lead at Roboflow, speaker on the state of computer vision in 2025, author of RF-DeTter and co-creator of RF100VL benchmark. ( #person #ml-engineer #computer-vision #roboflow #speaker)
+- [[entities/peter-steinberger|Peter Steinberger]] — Creator of summarize (CLI + Chrome Side Panel for LLM-powered summarization), birdclaw (local-first Twitter/X archive and operator console), sweetistics, and the bird CLI. Independent iOS/macOS dev... ( #person #open-source #ios #llm #tools)
+- [[entities/philip-kiely|Philip Kiely]] — Developer Advocate at Baseten covering inference and model serving. Co-presented the SGLang workshop at AI Engineer World's Fair 2025. ( #person #developer-advocate #baseten #inference)
+- [[entities/philipp-krenn|Philipp Krenn]] — Developer advocate and search expert at Elastic. Covers information retrieval, Elasticsearch, vector search, and hybrid retrieval. Native German speaker. ( #person #search #elasticsearch #speaker)
+- [[entities/physical-intelligence|Physical Intelligence]] — AI robotics company founded by Quan Vuong and Jost Tobias Springberg, building Vision-Language-Action models for general-purpose robot control. Open-sources research and models. Collected 10,000+ h... ( #company #robotics #ai #vla #physical-intelligence)
+- [[entities/pi-labs|Pi Labs]] — Pi Labs ( #company #ai-evaluation #ai-metrics #google-alumni)
+- [[entities/pi-zero|PI Zero]] — A VLA model released by Physical Intelligence that can perform highly dexterous tasks like shirt folding autonomously — demonstrated at AI Engineer World's Fair 2025. ( #model #robotics #vla #physical-intelligence #shirt-folding)
+- [[entities/pieces|Pieces]] — Startup by Savu (CEO/co-founder) building artificial long-term memory for developers across the OS. Explored edge small language models since 2022; partnered with Microsoft on Foundry Local for pro... ( #company #developer-tools #ai-memory #offline-first #microsoft-partner)
+- [[entities/pinecone|Pinecone]] — Pinecone is a managed vector database for similarity search, used by 11x for Alice's knowledge base. Offers bundled embedding models, cloud hosting, and SDKs. ( #vector-database #ai-infrastructure #embeddings #similarity-search #managed-service)
+- [[entities/pinterest|Pinterest]] — Pinterest ( #pinterest #visual-search #recommendation #search-relevance #llm)
+- [[entities/pion|Pion]] — Pion ( #tool #web-rtc #go #open-source)
+- [[entities/pipe-cat|PipeCat]] — PipeCat ( #tool #open-source #voice-ai #agents #framework)
+- [[entities/plaid|Plaid]] — Stub page created to resolve incoming wiki links for Plaid. ( #stub)
+- [[entities/plausible-analytics|Plausible Analytics]] — Privacy-focused, lightweight web analytics platform providing visitor counts, traffic sources, geographic data, and device breakdowns. ( #tool #web-analytics #privacy #aief2025)
+- [[entities/pods|Pods]] — Pods ( #term)
+- [[entities/polar-signals|Polar Signals]] — Berlin-based observability company offering continuous profiling for CPUs, memory, and GPUs using eBPF. Products: Kubestriker (SaaS), Prometheus Operator (open source). ( #company #observability #profiling #eBPF #continuous-profiling)
+- [[entities/postgres-mcp|PostgreSQL MCP]] — PostgreSQL MCP ( #entity #tool #mcp-server #database #postgresql)
+- [[entities/posthog|Product highlights]] — Posthog ( #analytics #open-source #product-analytics #ai-observability)
+- [[entities/preeti-somal|Preeti Somal]] — Engineer at Temporal who presented on using Temporal's workflow orchestration platform to build reliable, scalable AI agents at AI Engineer World's Fair 2025. ( #person #engineer #temporal #ai-engineering #conference-speaker)
+- [[entities/prime-intellect|Prime Intellect]] — AI company affiliated with Will Brown, who presented on training agentic reasoners via RL at AIEF2025. ( #company #ai #reinforcement-learning #aief2025 #agentic-ai)
+- [[entities/prisma|Prisma]] — Type-safe ORM for TypeScript that provides a type-safe way to interact with databases, particularly Postgres via Neon. ( #tool #orm #typescript #database #aief2025)
+- [[entities/professor-kaczynski|Professor Kaczynski]] — Stub page created to resolve incoming wiki links for Professor Kaczynski. ( #stub)
+- [[entities/prometheus|Prometheus]] — Open-source monitoring and alerting toolkit from CNCF. Time-series database with powerful query language (PromQL). Foundation for Polar Signals' profiling platform. ( #prometheus #monitoring #metrics #open-source #cnf)
+- [[entities/prometheus-node-exporter|Prometheus Node Exporter]] — Prometheus Node Exporter ( #product)
+- [[entities/prometheus-operator|Prometheus Operator]] — Open-source Kubernetes operator for managing Prometheus installations. Maintained by Matthias Loibl at Polar Signals. Forms the open-source foundation of Polar Signals' profiling platform. ( #prometheus #kubernetes #operator #open-source #monitoring)
+- [[entities/promptfu|PromptFu]] — Red Hat's open-source safety evaluation tool for LLMs, supporting customizable safety and bias tests with a wide range of examples available in its GitHub repository. ( #tool #evaluation #safety #bias #red-hat)
+- [[entities/promptql|PromptQL]] — AI company building an agentic semantic layer with a domain-specific language (DSL) for reliable, self-improving data access. Sponsor of the reliability track at AI Engineer World's Fair 2025. ( #company #ai #semantic-layer #data #enterprise-ai)
+- [[entities/pydantic|Pydantic]] — Python library for data validation using type annotations. Foundation for Pydantic AI (type-safe agent framework), Zep entity types, and domain-aware memory schemas. ( #library #python #schema-validation #data-models #agent-memory)
+- [[entities/pydantic-ai|Pydantic AI]] — Type-safe AI agent framework by Samuel Colvin. Provides structured data extraction, validation error feedback loops, and type-safe tool dependencies. Claims to be the only agent framework with this... ( #agent-framework #pydantic #type-safety #python #structured-output)
+- [[entities/pyrit|PyRIT]] — PyRIT ( #tool #python #microsoft #ai-red-teaming #security)
+- [[entities/pytorch|PyTorch]] — Deep learning framework used by Luma AI as the substrate for their custom multi-vendor GPU inference serving stack, replacing NVIDIA's Triton Inference Server. ( #deep-learning-framework #inference #gpu-compute #open-source #meta)
+- [[entities/qodo|Qodo]] — AI-powered code review and testing company founded by Itamar Friedman. Focuses on the "red team" for code quality. Soft-launched a CLI tool at AIEF2025. ( #qodo #ai-coding #code-review #testing #aief2025)
+- [[entities/quan-vuong|Quan Vuong]] — Co-founder of Physical Intelligence (PI), presenting on Vision-Language-Action models and the data engine pipeline for general-purpose robot control. ( #person #robotics #ai #founder #physical-intelligence)
+- [[entities/quora|Quora]] — An AI email management app built by Every — summarizes incoming emails and serves as an email assistant for questions. Built primarily by one engineer using AI agents. ( #product #ai #email #aief2025 #every-company)
+- [[entities/quotient-ai|Quotient AI]] — Quotient AI ( #ai-evaluation #agent-monitoring #evals #aief2025)
+- [[entities/qwen|Qwen]] — Alibaba's open-weight LLM family. Qwen 3 series ranks second in reasoning open-weight and leads non-reasoning open-weight per Artificial Analysis benchmarks. ( #model #open-weight #chinese-ai #reasoning #qwen)
+- [[entities/rafal-willinski|Rafal Willinski]] — Rafal Willinski ( #person #zapier #ai-agents #evaluation #aief2025)
+- [[entities/ragas|Ragas]] — A Python library for end-to-end evaluation of RAG pipelines, measuring faithfulness, answer relevancy, precision recall, and other metrics across response, retrieval, and query dimensions. ( #library #rag #evaluation #metrics #python)
+- [[entities/raiza-martin|Raiza Martin]] — Product leader, former NotebookLM PM at Google, now at Huxe. Dropped out of college, returned for full-time studies while building NotebookLM. Known for her framework on product building as a multi... ( #product #ai #huxe #notebooklm #google)
+- [[entities/rajiv-shah|Rajiv Shah]] — Chief evangelist at Contextual AI, previously at Hugging Face. Long-time AI speaker and advocate focused on making RAG accessible as a managed service. ( #ai-evangelist #speaker #rag #contextual-ai #huggingface)
+- [[entities/randall-hunt|Randall Hunt]] — AI engineer and builder who co-founded Kalen (Caylent). Previously at AWS, SpaceX (led CI/CD team), and TenGen (became MongoDB). Spoke at AIEF2025 on hard lessons from 200+ enterprise GenAI deploym... ( #ai-engineer #founder #aws #mongodb #spacex)
+- [[entities/raspberry-pi|Raspberry Pi]] — Raspberry Pi ( #hardware #edge-computing #voice-ai #on-device)
+- [[entities/ravi-meta|Ravi Meta]] — Former Chief Product Officer at Tinder. Product leader at Facebook, Microsoft, and TripAdvisor. Collaborated on Reforge's AI strategy course. ( #person #product-management #ai-strategy #product-leadership)
+- [[entities/react|React]] — Stub page created to resolve incoming wiki links for React. ( #stub)
+- [[entities/recur-center|Recur Center]] — Stub page created to resolve incoming wiki links for Recur Center. ( #stub)
+- [[entities/red-hat|Red Hat]] — Enterprise open-source software company with an AI Business Unit. Provides LLM evaluation tools and infrastructure including PromptFu, GuideLLM integration, and VLLM-based inference on RHEL. ( #organization #enterprise #ai #linux #cloud)
+- [[entities/redis|Redis]] — In-memory data store used by Luma AI as the distributed queue backbone for their decoupled CPU/GPU inference serving architecture. ( #in-memory-datastore #distributed-queue #cache #key-value-store #ml-infrastructure)
+- [[entities/reflection-ai|Reflection.ai]] — Company founded by Aakanksha Chowdhery (former Google PALM/Gemini researcher) focused on pushing the frontier for autonomous coding with reinforcement learning. ( #company #ai #autonomous-coding #reinforcement-learning #llm)
+- [[entities/reforge|Reforge]] — A company that helps product teams decode best practices through expert-led courses and AI agents. Founded by Brian Balfour, with over 400 experts and 100,000 professionals. ( #company #product-management #ai-education #community)
+- [[entities/rene-brandel|Rene Brandel]] — CEO of Casco (YC-backed), former AWS AI agents engineer. Won Europe's largest hackathon 10 years ago building Voice2Code. ( #person #founder #ceo #ai-security #yc)
+- [[entities/replicate|Replicate]] — Cloud platform for running AI models via API. Hosts open source models (Flux from Black Forest Labs) and proprietary models (Anthropic, OpenAI, Google). Created cog for containerizing ML models and... ( #replicate #ai-platform #cloud-compute #openai #anthropic)
+- [[entities/replit|Replit]] — AI-powered coding platform that builds full-stack web apps via agents. Cited as a key case study in AI agent pricing challenges. ( #company #ai #coding #agent #platform)
+- [[entities/retool|Retool]] — Retool ( #company #internal-tools #ai-agents #low-code #aief2025)
+- [[entities/rich-sutton|Rich Sutton]] — AI researcher and reinforcement learning pioneer, author of The Bitter Lesson essay arguing that general methods leveraging computation outperform human-engineered approaches. ( #person #ai #reinforcement-learning #research #aief2025)
+- [[entities/richmond-alake|Richmond Alake]] — Speaker and representative at MongoDB who presented on architecting agent memory at AI Engineer World's Fair 2025. ( #person #speaker #mongodb #agent-memory #ai-agents)
+- [[entities/rick-blalock|Rick Blalock]] — Founder of Agentuity, speaks on agent deployment challenges and infrastructure needs. Previously built qualitative research agent systems. ( #person #founder #agentuity #ai-agents #agent-infrastructure)
+- [[entities/rishabh-garg|Rishabh Garg]] — Rishabh Garg ( #person #robotics #tesla #optimus #software-engineering)
+- [[entities/rita-kozlov|Rita Kozlov]] — VP of Product for Cloudflare's developer platform (Workers and Durable Objects). Speaker at AI Engineer World's Fair 2025 on building agents. Led introduction of Cloudflare's Agents SDK. ( #person #cloudflare #developer-platform #vp-product #durable-objects)
+- [[entities/rkt|rkt]] — rkt ( #product)
+- [[entities/robbie-coomber|Robbie Coomber]] — Robbie Coomber ( #posthog #engineering #sql)
+- [[entities/robert-brennan|Robert Brennan]] — Co-founder of OpenHands (formerly OpenDevon), open source development tools builder for over a decade. Advocate for AI-driven software development and the shift from coding to thinking. ( #person #openhands #opensource #software-engineering)
+- [[entities/roboflow|Roboflow]] — Platform for building and deploying vision models. Created RF100VL benchmark and RF-DeTter detection transformer. Maintains Roboflow Universe with ~750k datasets. ( #company #computer-vision #ml-platform #open-source #vision-models)
+- [[entities/roboflow-universe|Roboflow Universe]] — Stub page created to resolve incoming wiki links for Roboflow Universe. ( #stub)
+- [[entities/rossella|Rossella]] — Sprout Social AI leader and co-presenter at AI Engineer World's Fair 2025 on building an AI-first SaaS company. Only identified by first name in the talk. ( #person #speaker #ai #saas)
+- [[entities/rover-js|Rover.js]] — JavaScript library that Christopher Chedeau used in a code sandbox to build the first version of Excalidraw when Zwibbler was unavailable. ( #library #javascript #canvas #excalidraw-origin #drawing)
+- [[entities/rt2|RT2]] — An early Vision-Language-Action model from Google DeepMind (2023) that demonstrated generalization capabilities for robotic control. Some of its researchers later joined Physical Intelligence. ( #model #robotics #vla #google-deepmind #vision-language-model)
+- [[entities/runc|runC]] — runC ( #product)
+- [[entities/rustin-banks|Rustin Banks]] — Rustin Banks ( #google #google-labs #product-manager #coding-agent #aief2025)
+- [[entities/sahil-yadav|Sahil Yadav]] — AI practitioner with 10 years deploying AI across health monitoring, industrial IoT, and telecom network automation. Co-presenter at AI Engineer World's Fair 2025 on trustworthy AI inference. ( #person #speaker #ai-eng-fair-2025 #trust #iot)
+- [[entities/salesforce|Salesforce]] — Salesforce ( #company #enterprise-software #ai #crm)
+- [[entities/sam-altman|Sam Altman]] — Sam Altman ( #person #ceo #openai #ai)
+- [[entities/sam-bhagwat|Sam Bhagwat]] — Co-founder of Mastra.ai and Gatsby. Author of 'Principles of AI Agents'. Former Gatsby co-founder; advocates for composing agents and workflows together in production systems. ( #person #ai #speaker #entrepreneur #mastra)
+- [[entities/sam-fertig|Sam Fertig]] — Sam Fertig ( #person #windsurf #engineer #aief2025 #ai-coding)
+- [[entities/sam-julien|Sam Julien]] — Director of Developer Relations at Writer. Author, speaker, and advocate for graph-based RAG. Writes books, newsletters, and technical content at samjulien.com. ( #person #writer #developer-relations #rag #graphrag)
+- [[entities/sam2|SAM2]] — Meta's Segment Anything Model 2 — an automated segmentation model for images and video. Used to generate annotations that dramatically improve video understanding model accuracy. ( #ai-model #computer-vision #segmentation #video-segmentation #meta)
+- [[entities/samsung|Samsung]] — South Korean technology conglomerate and major HBM (High Bandwidth Memory) manufacturer, selling to Chinese intermediaries despite export restrictions. ( #company #south-korea #semiconductor #hbm #memory)
+- [[entities/samuel-colvin|Samuel Colvin]] — Creator of Pydantic and Pydantic AI. Strong advocate for type safety in AI application development. Speaker at AI Engineer World's Fair 2025 on human-seeded evals. ( #person #pydantic #pydantic-ai #python #type-safety)
+- [[entities/sarah-guo|Sarah Guo]] — Founder of Conviction, an AI-native venture fund. Previously partner at Greylock. Investor in Cursor, Cognition, Mistral, Thinking Machines, and Harvey. ( #person #venture-capital #ai)
+- [[entities/sarah-sachs|Sarah Sachs]] — AI lead at Notion, responsible for Notion AI product development — including AI writing, search, meetings, and deep research features. ( #person #ai #notion #product #speaker)
+- [[entities/saudi-arabia|Saudi Arabia]] — Stub page created to resolve incoming wiki links for Saudi Arabia. ( #stub)
+- [[entities/savu|Savu]] — Stub page created to resolve incoming wiki links for Savu. ( #stub)
+- [[entities/scott-wu|Scott Wu]] — Founder and CEO of Cognition, creator of Devin. Spoke at AI Engineer World's Fair 2025 about the evolution of AI software engineering agents and Moore's Law for agent capabilities. ( #founder #ai-agents #software-engineering #aief2025 #cognition)
+- [[entities/sculptor|Sculptor]] — Imbue's experimental coding agent environment for synchronous, immediate-feedback code generation. Focuses on identifying problems in AI-generated code before production. ( #tool #coding-agent #ai-agent #imbue #developer-tools)
+- [[entities/sean-dubois|Sean DuBois]] — Sean DuBois ( #person #openai #web-rtc #voice-ai #speaker)
+- [[entities/sean-grove|Sean Grove]] — Alignment researcher at OpenAI, speaker at AI Engineer World's Fair 2025 on the case for specifications as the new code. ( #person #openai #alignment #ai-research #speaker)
+- [[entities/seaweedfs|SeaweedFS]] — Distributed filesystem used by Luma AI for storing model weights, checkpoints, and intermediate data across their multi-provider GPU inference fleet. ( #distributed-storage #filesystem #object-storage #ml-infrastructure #storage)
+- [[entities/semi-analysis|SemiAnalysis]] — Research and analysis firm founded by Dylan Patel, covering semiconductor supply chains, AI hardware, and the geopolitics of compute. ( #company #research #semiconductor #ai-infrastructure #analysis)
+- [[entities/sentry|Sentry]] — Application monitoring and bug tracking platform. Built a production MCP server exposing curated agent workflows for debugging and root cause analysis. ( #company #saas #observability #apm #developer-tools)
+- [[entities/service-now|ServiceNow]] — ServiceNow ( #entity #company #itsm #it-service-management #enterprise-software)
+- [[entities/seth-juarez|Seth Juarez]] — Microsoft presenter who demonstrated GitHub Copilot agentic features (Copilot Spaces, task assignment, Amelie M-L-E agent) and local AI deployment at AI Engineer World's Fair 2025. ( #entity #person #microsoft #ai-platform)
+- [[entities/sf-compute|SF Compute (San Francisco Compute Company)]] — GPU cloud provider based in San Francisco. Known for a design-forward onboarding experience that makes legally required compliance friction feel light through event-driven fog animations, expectati... ( #company #cloud #gpu #infrastructure)
+- [[entities/sglang|SGLang]] — Open-source fast serving framework for LLMs and VLMs. Competing with vLLM and TensorRT-LLM. Supports CUDA Graph optimization and Eagle 3 speculative decoding. Initial Qwen3 8-bit support had bugs i... ( #tool #inference #serving #llm #open-source)
+- [[entities/shad-cn|Shad Cn]] — Stub page created to resolve incoming wiki links for Shad Cn. ( #stub)
+- [[entities/shadcn|shadcn]] — Popular component library built on Radix UI primitives and Tailwind CSS, providing accessible, customizable UI components. ( #tool #ui-components #styling #aief2025)
+- [[entities/shafik-quoraishee|Shafik Quoraishee]] — NYT Games developer with ML, mobile dev, and data science background. Presented Connections as an NLP benchmark at AIEF2025. ( #person #game-developer #machine-learning #data-science #mobile-development)
+- [[entities/sharif-shameem|Sharif Shameem]] — Founder of Lexica, generative AI company building image models. Early GPT-3 demo builder whose work pioneered vibe coding and demo-driven AI exploration. ( #person #ai #entrepreneur #llm #lexica)
+- [[entities/shijia|Shijia]] — Founder of OpenAudio, creator of the S1 instructable voice model and Fish Audio. Grew ARR from $400K to $5.5M in four months, achieving $100M valuation. Presented at AIEF2025 HF0 Residency. ( #person #founder #voice-ai #open-source #aief2025)
+- [[entities/shopify|Shopify]] — Stub page created to resolve incoming wiki links for Shopify. ( #stub)
+- [[entities/shristha|Shristha]] — Shristha — Speaker at AIEF2025, focused on models and APIs for voice AI. Co-presenter with Thor Schaeff on the Gemini Live API and Pipecat. ( #person #speaker #voice-ai #aief2025 #models)
+- [[entities/sid-bendre|Sid Bendre]] — Sid Bendre ( #entrepreneur #ai #lean-startup #olive #consumer-software)
+- [[entities/sierra-ai|Sierra]] — AI customer service platform cofounded by Bret Taylor and Clay Bavor. Resolves 70% of customer service queries for companies like SiriusXM and ADT. Builds the AgentOS platform and pioneered the Age... ( #organization #ai #customer-service #enterprise)
+- [[entities/simon|Simon (Lockfire)]] — Engineer from Lockfire who spoke on stage at AIEF2025 about LLM observability and OpenTelemetry adoption. ( #person #lockfire #observability #llm-observability #aief2025)
+- [[entities/simon-from-industry|Simon From Industry]] — Stub page created to resolve incoming wiki links for Simon From Industry. ( #stub)
+- [[entities/simon-willison|Simon Willison]] — Speaker and Python/web developer who presented a six-month LLM landscape review at AIEF2025, including his informal SVG pelican-on-bicycle benchmark for evaluating text model code-output capabilities. ( #person #speaker #python #web #llm)
+- [[entities/simple-browser-vscode|Simple Browser in VS Code]] — Simple Browser in VS Code ( #vscode #github-copilot #browser-preview #vibe-coding)
+- [[entities/sizzy|Sizzy]] — Sizzy ( #tool #front-end-development #browser #developer-tools #kitze)
+- [[entities/sk-hynix|SK Hynix]] — South Korean memory chip manufacturer and leading HBM supplier, competing with Samsung in the AI memory market. ( #company #south-korea #semiconductor #hbm #memory)
+- [[entities/slurm|SLURM]] — Workload manager and job scheduler used by Luma AI to run PyTorch inference workers on their training cluster and manage burst scaling for Dream Machine. ( #job-scheduler #hpc #cluster-management #gpu-clusters #ml-infrastructure)
+- [[entities/smich|SMIC]] — Semiconductor Manufacturing International Corporation — China's leading semiconductor foundry, expected to begin 7nm AI chip production at high volumes within the year. ( #company #china #semiconductor #foundry #chip-manufacturing)
+- [[entities/snack|Snack]] — Open-source audio codec used by Orpheus TTS. Orpheus outputs snack tokens at ~24kHz, decoded to produce final audio. ~85 snack tokens per second of audio. ( #audio-codec #open-source #voice-ai #audio-compression #canopy-labs)
+- [[entities/solomon-hykes|Solomon Hykes]] — Founder of Docker and co-founder of Dagger. Platform engineer who spoke at AI Engineer World's Fair 2025 on containing agent chaos through container-native environments for coding agents. ( #person #founder #docker #dagger #containers)
+- [[entities/sonic-2|Sonic 2]] — Sonic 2 ( #tts #text-to-speech #voice-ai #cartesia #state-space-models)
+- [[entities/sorish|Sorish]] — Luma AI engineer who implemented the SLA-based fair scheduling system in "a couple hours" on a weekend, preventing work starvation across user tiers. ( #person #engineer #luma-ai #scheduling #ml-infrastructure)
+- [[entities/spacex|Spacex]] — Stub page created to resolve incoming wiki links for Spacex. ( #stub)
+- [[entities/splunk|Splunk]] — Splunk ( #entity #company #data-analytics #monitoring #telemetry)
+- [[entities/spotify|Spotify]] — Stub page created to resolve incoming wiki links for Spotify. ( #stub)
+- [[entities/sprout-social|Sprout Social]] — Public SaaS company providing social media management, engagement, analytics, and AI-powered tools. Speakers at AI Engineer World's Fair 2025 on their AI-first transformation journey. ( #company #saas #ai #social-media)
+- [[entities/ssh|SSH]] — SSH ( #method)
+- [[entities/stack-overflow|Stack Overflow]] — Stub page created to resolve incoming wiki links for Stack Overflow. ( #stub)
+- [[entities/stackblitz|StackBlitz]] — Company founded by Eric Simons and co-founder. Built Bolt.new after 7 years of operation. Previously operated in the IDE space. Team of <20 people at time of Bolt.new launch. ( #company #bolt #ide #web-development)
+- [[entities/stanford|Stanford University]] — Stanford University is the academic home of a major research group studying AI's impact on developer productivity. The study analyzes 100k+ engineers across 600+ companies and also produced the 'gh... ( #university #research #stanford #software-engineering #ai-research)
+- [[entities/stefania-druma|Stefania Druga]] — Former research scientist at Google and three-time AI conference speaker, featured at the AI Education Summit. ( #person #researcher #google #ai-education #aief2025)
+- [[entities/stephen-chin|Stephen Chin]] — Stephen Chin ( #person #speaker #neo4j #aief2025)
+- [[entities/stephen-shin|Stephen Shin]] — Stephen Shin ( #person #neo4j #graphrag #developer-relations #aief2025)
+- [[entities/steve-ruiz|Steve Ruiz]] — Founder of tldraw, creator of the tldraw canvas SDK and tldraw.computer — a graph-based visual AI pipeline system. Speaker at AI Engineer World's Fair 2025. ( #person #creator #tldraw #canvas #whiteboard)
+- [[entities/strands-agents|Strands Agents]] — Open-source AI agent SDK by AWS with minimal scaffolding — just model and tools. Supports Bedrock (Claude 3.7 Sonnet), Ollama, LiteLLM, OpenAI. 20+ built-in tools including Retrieve, multi-modal, r... ( #open-source #sdk #ai-agents #aws #python)
+- [[entities/stripe|Stripe]] — Stripe ( #company #payments #fintech #saas)
+- [[entities/suman-debnath|Suman Debnath]] — AWS developer advocate who introduced Strands Agents, an open-source AI agent SDK focused on minimal scaffolding — just model and tools. ( #person #aws #ai #open-source #developer-advocate)
+- [[entities/sumith|Sumith]] — Stub page created to resolve incoming wiki links for Sumith. ( #stub)
+- [[entities/summarize|summarize]] — CLI tool and Chrome Side Panel for extracting clean text from URLs, files, and media, then summarizing via any LLM provider. Free, open source, MIT licensed. ( #tool #cli #llm #open-source #summarization)
+- [[entities/supabase|Supabase]] — Supabase ( #company #database #backend-as-a-service #api-first #agent-experience)
+- [[entities/superintelligent|Superintelligent]] — Superintelligent ( #company #ai-planning #enterprise-ai)
+- [[entities/surepath|SurePath]] — A tool for monitoring and tracking third-party AI tool usage in enterprise environments. Detects PII/PHI in API traffic and integrates with network security tools like Zscaler. ( #company #ai-governance #monitoring #pii #phi)
+- [[entities/surya|Surya OCR]] — Multilingual OCR model by Datalab. Surya OCR3: 500M parameters, 90 languages, 99% accuracy on internal benchmarks including math. Features character-level bounding boxes and PDF text grounding at l... ( #tool #open-source #ocr #computer-vision #multilingual)
+- [[entities/swix|Swix]] — Swix ( #person #co-founder #aief2025)
+- [[entities/swyx|swyx]] — swyx ( #person #ai-engineer #ai-news #conference-organizer #open-source)
+- [[entities/synth-labs|Synth Labs]] — AI infrastructure company building stateful environment abstractions for vertical agents. Founded by Josh Purtell. ( #organization #ai #agents #infrastructure)
+- [[entities/tailscale|Tailscale]] — WireGuard-based mesh VPN used by Luma AI to connect heterogeneous GPU clusters across cloud providers into a unified compute pool for Dream Machine inference. ( #networking #vpn #mesh-network #remote-access #ml-infrastructure)
+- [[entities/tailwind-css|Tailwind CSS]] — Utility-first CSS framework for rapid UI development, used alongside shadcn for styling modern web applications. ( #tool #css #styling #utility-first #aief2025)
+- [[entities/tavily|Tavily]] — Tavily ( #ai-search #real-time-data #retrieval #evals #aief2025)
+- [[entities/tavus|Tavus]] — Tavus ( #company #video-ai #real-time #conversational-video #rendering)
+- [[entities/taylor-jordan-smith|Taylor Jordan Smith]] — AI developer advocate, evangelist, and technical marketing professional at Red Hat AI Business Unit. Presented the 'Strategies for LLM Evals' workshop at AI Engineer World's Fair 2025 covering the... ( #person #speaker #ai-engineering #red-hat #evaluation)
+- [[entities/teammates|Teammates]] — Teammates ( #company #ai-agents #digital-workforce #collaboration #agent-identity)
+- [[entities/tejas-kumar|Tejas Kumar]] — Tejas Kumar ( #ai #ibm #harness)
+- [[entities/tejaswi|Tejaswi]] — Search and machine learning team member at Instacart. Presented on transforming search and discovery using LLMs at AIEF2025 alongside Vinesh. ( #person #instacart #search #machine-learning #aief2025)
+- [[entities/telemetrak|Telemetrak]] — Company focused on critical AI inference trust solutions. Present at AI Engineer World's Fair 2025 with the X-TOPS framework and three-pillar trust model for enterprise AI. ( #company #ai #trust #iot #enterprise)
+- [[entities/temporal|Temporal]] — Company providing a battle-tested workflow orchestration platform that handles reliability, state management, and scalability for distributed applications, including AI agent systems. ( #company #platform #orchestration #reliability #workflow-engine)
+- [[entities/tengyu-ma|Tengyu Ma]] — CEO and co-founder of Voyage AI (acquired by MongoDB), Stanford instructor, RAG and embedding model researcher. Spoke at AIEF2025 on RAG state of the art. ( #person #ceo #researcher #stanford #voyage-ai)
+- [[entities/tensorrt-llm|TensorRT-LLM]] — NVIDIA's high-performance inference engine for LLMs, optimized for Hopper architecture with FP8 support. Outperforms vLLM for many workloads, especially on small models running on MIG instances. ( #inference-engine #tensorrt #nvidia #llm-serving #optimization)
+- [[entities/tesla|Tesla]] — Stub page created to resolve incoming wiki links for Tesla. ( #stub)
+- [[entities/tesla-optimus|Tesla Optimus]] — Tesla Optimus ( #robotics #humanoid #tesla #automation #optimus)
+- [[entities/tharun|Tharun]] — Research engineer at Datalab. Co-developed Surya OCR3 end-to-end with Vik Paruchuri, handling customer discovery, architecture, data pipeline building, model training, inference code, and customer... ( #person #engineer #research-engineer #datalab)
+- [[entities/thebrain-pro|TheBrain.pro]] — Company founded by Łukasz Gądecki behind Books Reimagined — AI-powered multimodal book experiences. Open-sourced its player at AIEF2025. ( #company #ai #startup #books #thebrain-pro)
+- [[entities/theme-finder|Theme Finder]] — Theme Finder ( #tool #open-source #ai-evaluation #government #text-analysis)
+- [[entities/theodora-chu|Theodora Chu]] — Product Manager for MCP at Anthropic, former AI startup founder. Speaks on MCP origins, design principles, and ecosystem building at AIEF2025. ( #theodora-chu #mcp #product-management #anthropic #startup-founder)
+- [[entities/thomson-reuters|Thomson Reuters]] — 100+ year old company serving legal, tax, compliance, audit, and risk industries. 97% of top 100 US law firms and 99% of Fortune 100 corporate customers. 4,500 domain experts, 1.5TB proprietary con... ( #company #legal #tax #compliance #enterprise-ai)
+- [[entities/thor-schaeff|Thor Schaeff]] — Thor Schaeff — Developer Experience engineer at ElevenLabs, focused on the conversational AI agents platform. Speaker at AIEF2025. ( #person #developer-experience #elevenlabs #voice-ai #conversational-ai)
+- [[entities/tinder|Tinder]] — Dating app cited as a case study for voice agent brand customization, specifically for their Riz Chat experience. ( #company #consumer #ai #voice)
+- [[entities/tldraw|tldraw]] — Company behind the tldraw infinite canvas SDK and tldraw.com whiteboard application. Known for AI features including Make Real, Draw Fast, and tldraw.computer. ( #company #tool #canvas #whiteboard #sdk)
+- [[entities/tobin-south|Tobin South]] — Research fellow at Stanford working on AI agent safety, PhD graduate, works at WorkOS on enterprise security for AI agents. Gave the 'Enterprise Ready MCP' talk at AI Engineer 2026. ( #person #research #ai-safety)
+- [[entities/together-ai|Together AI]] — AI cloud platform providing inference API for open source models across all modalities, plus fine-tuning, dedicated instances, and GPU cluster products. ( #company #ai-infrastructure #open-source-models #inference-api #aief2025)
+- [[entities/toki-sherbakov|Toki Sherbakov]] — Leads the Solution Architecture team in the U.S. for OpenAI. Presented on building effective voice agents at AI Engineer World's Fair 2025. ( #person #openai #ai #voice)
+- [[entities/tom-moor|Tom Moor]] — Engineering leader at Linear who leads their AI journey from skunkworks team in 2023 to agent coordination platform. Spoke at AI Engineer World's Fair 2025 on building the platform for agent coordi... ( #person #engineering-leader #linear #ai-strategy #speaker)
+- [[entities/tom-shapland|Tom Shapland]] — Director of AI at LiveKit. Expert in voice AI turn-taking, interruption handling, and real-time voice agent infrastructure. ( #person #voice #ai #livekit #research)
+- [[entities/tom-smoker|Tom Smoker]] — Tom Smoker ( #person #speaker #entrepreneur #graphs #legal-ai)
+- [[entities/tomas-reimers|Tomas Reimers]] — Co-founder of Graphite, an AI code review company. Articulated the inner loop / outer loop model, the AI Entomology framework for classifying code bugs, and the 2D bug taxonomy of code review comme... ( #person #entrepreneur #code-review #aief2025)
+- [[entities/traceloop|Traceloop]] — LLM observability and agent infrastructure platform founded by Nir Gazit. Provides tools for tracing, evaluating, and improving LLM-based applications. ( #company #llm-observability #agent-infrastructure #traceloop #ai-tools)
+- [[entities/traversal-ai|Traversal.ai]] — AI startup building autonomous production troubleshooting systems using causal ML, reasoning models, and agent swarms. Validated at DigitalOcean with 40% MTTR reduction. Integrates with all major o... ( #company #ai #observability #incident-response #causal-machine-learning)
+- [[entities/treesitter|TreeSitter]] — TreeSitter ( #parser #code-analysis #syntactic-analysis #rust #max-brunsfeld)
+- [[entities/triton-inference-server|Triton Inference Server]] — NVIDIA's model inference server. Luma AI used it for Dream Machine launch but replaced it with custom PyTorch serving for brittleness, multi-node limits, and chipset support. ( #inference-server #nvidia #model-serving #gpu-inference #open-source)
+- [[entities/tsmc|TSMC]] — Taiwan Semiconductor Manufacturing Company — the world's leading semiconductor foundry, supplying chips to NVIDIA, Apple, and (through intermediaries) Huawei. ( #company #taiwan #semiconductor #foundry #chip-manufacturing)
+- [[entities/turbotax|TurboTax]] — TurboTax ( #product #tax #fintech #intuit #consumer-app)
+- [[entities/twilio|Twilio]] — Stub page created to resolve incoming wiki links for Twilio. ( #stub)
+- [[entities/uber|Uber]] — Stub page created to resolve incoming wiki links for Uber. ( #stub)
+- [[entities/ubuntu-server|Ubuntu Server]] — Ubuntu Server ( #product)
+- [[entities/upside|Upside]] — Forensic revenue attribution and intelligence platform. Uses LLMs to turn messy enterprise data into structured maps of customer interactions. Building in stealth for ~1 year, hiring for knowledge... ( #company #ai #revenue-attribution #data-analytics #aief2025)
+- [[entities/v0|V0]] — AI coding tool by Vercel mentioned by Tomas Reimers alongside Cursor, Copilot, Windsurf, and Bolt as part of the wave of AI tools accelerating code generation and creating the outer loop bottleneck. ( #ai #coding-agent #developer-tools #aief2025)
+- [[entities/vaibhav-page|Vaibhav Page]] — Principal Engineer at BlackRock, working on the data platform team, focused on building AI knowledge applications and the sandbox + app factory framework for enterprise AI at scale. ( #person #blackrock #ai-engineer-worlds-fair #principal-engineer)
+- [[entities/vasu|Vasu]] — Luma AI engineer affected by queue management challenges in Dream Machine's inference serving architecture. ( #person #engineer #luma-ai #queue-management #ml-infrastructure)
+- [[entities/venato-supercomputer|Venato Supercomputer]] — 2,500+ node supercomputer at LANL built with NVIDIA and HPE, running Grace Hopper superchips for AI research and hosting OpenAI models on classified networks. ( #supercomputer #hpc #nvidia #hpe #grace-hopper)
+- [[entities/veo-2|Veo 2]] — Google DeepMind's video generation model with extensive creative control features: reference-powered videos, outpainting, add/remove objects, character control, first-to-last frame interpolation, a... ( #model #video-generation #google-deepmind #creative-control)
+- [[entities/veo-3|Veo 3]] — Google DeepMind's state-of-the-art video generation model with native audio composition. Tokens composed across modalities natively — not audio added as a post-processing tool. Improved prompt adhe... ( #model #video-generation #audio-generation #multimodal #google-deepmind)
+- [[entities/vercel|Vercel]] — Cloud platform for frontend hosting and AI tooling. Creator of the Vercel AI SDK, v0 (v0.dev), and vZero (full-stack vibe coding platform). ( #company #cloud-platform #ai #developer-tools)
+- [[entities/vidya|Vidya]] — A company whose team members Annika and Aastha developed the GR00T N1 Robotics Foundation Model at NVIDIA. The company name references the Sanskrit word for knowledge/wisdom. ( #company #robotics #ai #nvidia #groot)
+- [[entities/vik-paruchuri|Vik Paruchuri]] — CEO of Datalab, open-source AI researcher who built Marker and Surya OCR. Scaled Datalab to 7-figure ARR with a team of 3-4. Previously founded DataQuest, which scaled to 30 people and $4M ARR. ( #person #entrepreneur #ai #open-source #aief2025)
+- [[entities/vinesh|Vinesh]] — Search and machine learning team member at Instacart. Presented on transforming search and discovery using LLMs at AIEF2025 alongside Tejaswi. ( #person #instacart #search #machine-learning #aief2025)
+- [[entities/visa|Visa]] — Visa ( #company #payments #fintech #credit-cards #authentication)
+- [[entities/vitor-balocco|Vitor Balocco]] — Vitor Balocco ( #person #zapier #ai-agents #evaluation #aief2025)
+- [[entities/vllm|VLLM]] — Open-source high-performance LLM inference runtime. Featured in the Modal LLM Almanac as the most optimized engine for Qwen3 and Llama model families. Supports SafeTensor format, PagedAttention, an... ( #tool #inference #llm #open-source #serving)
+- [[entities/voyage-ai|Voyage AI]] — Company providing multimodal embedding models, including the VLM-based Voyage multimodal 3 model used in screenshot-based multimodal retrieval architectures. ( #company #embeddings #multimodal #ai)
+- [[entities/vs-code|VS Code]] — VS Code ( #entity #tool #ide #microsoft #mcp)
+- [[entities/vscode|Vscode]] — Stub page created to resolve incoming wiki links for Vscode. ( #stub)
+- [[entities/vzero|vZero]] — Full-stack vibe coding platform by Vercel. Crossed 100M messages sent at time of AIEF2025 talk. Features GitHub Sync for bidirectional code collaboration. ( #ai #coding-agent #developer-tools #vibe-coding #vercel)
+- [[entities/w3schools|W3Schools]] — W3Schools ( #website #tutorial #web-development #education)
+- [[entities/walmart|Walmart]] — Walmart ( #company #retail #e-commerce #big-box)
+- [[entities/waymo|Waymo]] — Alphabet's autonomous driving subsidiary operating robotaxi services in Phoenix, San Francisco, Austin, Los Angeles, with expansion planned to 10 cities and Tokyo in 2025. ( #autonomous-driving #self-driving #google #alphabet #robotaxi)
+- [[entities/weave|Weave (W&B)]] — Weave (W&B) ( #tool #observability #mcp #weights-and-biases #aief2025)
+- [[entities/weavenet|WeaveNet]] — WeaveNet ( #product)
+- [[entities/weaveworks’-sock-shop|Weaveworks’ Sock Shop]] — Weaveworks’ Sock Shop ( #project)
+- [[entities/weights-and-biases|Weights & Biases (W&B)]] — Weights & Biases (W&B) ( #company #ai #observability #mcp #weav)
+- [[entities/wells-fargo|Wells Fargo]] — Wells Fargo ( #company #banking #payments #financial-services)
+- [[entities/whyhow|WhyHow]] — WhyHow ( #company #legal-ai #graph-database #multi-agent #litigation)
+- [[entities/will-brown|Will Brown]] — Speaker at AIEF2025, affiliated with Prime Intellect. Presented on training agentic reasoners via reinforcement learning, arguing reasoning and agents are the same thing. ( #person #speaker #aief2025 #prime-intellect #reinforcement-learning)
+- [[entities/will-bryk|Will Bryk]] — Founder of Exa.ai, building AI-native web search. YC Summer 2021. Spoke at AIEF2025 on neural RAG and search built for AI agents. ( #person #founder #exa #search #aief2025)
+- [[entities/windsurf|Windsurf]] — AI coding tool and editor that generates ~90M lines of code/day. Pioneered the shared timeline model between human and AI. Powers Cascade, the first agentic IDE. Introduced AI Flows in Nov 2024. Sh... ( #ai #coding-agent #developer-tools #aief2025)
+- [[entities/wisedocs|WiseDocs]] — Verticalized AI solutions company focused on document processing, led by ML team lead Denys Linkov. ( #ai #document-processing #verticalized #services #company)
+- [[entities/wordle|Wordle]] — The most-played game on the New York Times platform. Acquired by NYT in 2022. Compared to Connections as the top game by plays. ( #word-game #puzzle #new-york-times #popular-game #daily-puzzle)
+- [[entities/workday|Workday]] — Enterprise cloud software company providing HCM, financials, and planning services. Serves approximately 60% of the S&P 500. Has progressively integrated Gen AI capabilities from embedded features... ( #company #enterprise-software #hcm #financials #ai)
+- [[entities/worker-node-1|worker-node-1]] — worker-node-1 ( #other)
+- [[entities/worker-node-2|Worker Node 2]] — Worker Node 2 ( #other)
+- [[entities/workos|WorkOS]] — Enterprise security vendor that provides auth, authorization, SSO, audit logs, and DLP infrastructure for AI labs and companies building agentic and MCP-based products. ( #company #enterprise #security #auth)
+- [[entities/writer|Writer]] — End-to-end agentic platform for enterprises. Builds its own models (Palmyra series), graph-based RAG systems, and AI application tools. Serves Fortune 500 and Global 2000 companies in regulated ind... ( #company #ai #enterprise #llm #rag)
+- [[entities/xai|Xai]] — Stub page created to resolve incoming wiki links for Xai. ( #stub)
+- [[entities/y-combinator|Y Combinator]] — Startup accelerator. Gumloop was part of the Winter 2024 batch. Max Brodeur-Urbas raised a Series A as a team of two after YC. ( #company #venture-capital #accelerator #startup #aief2025)
+- [[entities/yann-lecun|Yann Lecun]] — Stub page created to resolve incoming wiki links for Yann Lecun. ( #stub)
+- [[entities/yc|Yc]] — Stub page created to resolve incoming wiki links for Yc. ( #stub)
+- [[entities/yegor-denisov-blanch|Yegor Denisov-Blanch]] — Stanford researcher and speaker at AI Engineer World's Fair 2025. Leads one of the largest studies on AI's impact on developer productivity, analyzing 100k+ engineers across 600+ companies. Former... ( #person #researcher #stanford #software-engineering #ai-productivity)
+- [[entities/yesu-feng|Yesu Feng]] — Netflix engineer who architected the company's unified recommendation foundation model, a single transformer-based model covering all personalization use cases. ( #person #netflix #recommendation-systems #recsys)
+- [[entities/yineng-zhang|Yineng Zhang]] — Core maintainer of SGLang and inference lead at Baseten. Previously at Baidu. Author of FlashInfo papers. Involved with LMSys.org. ( #person #engineer #sglang #inference)
+- [[entities/yogendra-miraje|Yogendra Miraje]] — Yogendra Miraje ( #person #factset #ai-agents #planning-agents #enterprise-ai)
+- [[entities/youtube|YouTube]] — Global video platform with 2B+ daily active users, where a large majority of watch time is driven by the recommendation system across home, watch-next, Shorts, and personalized search. ( #company #video-platform #recommendation-systems #google #recsys)
+- [[entities/yutori|Yutori]] — AI company employing Maximillian Piras, the designer who coined the Bitter Layout concept. ( #company #ai #design #aief2025)
+- [[entities/zach-blumenfeld|Zach Blumenfeld]] — Neo4j presenter and educator who delivered two talks at AIEF2025: a hands-on GraphRAG workshop and an architectural talk on agentic GraphRAG using Neo4j, MCP, and Pydantic-based entity extraction. ( #person #neo4j #graphrag #ai-engineering #aief2025)
+- [[entities/zapier|Zapier]] — Zapier ( #company #automation #ai-agents #saas #ai-first)
+- [[entities/zed|Zed]] — Zed ( #code-editor #ai-native #rust #gpu-shaders #agentic-editing)
+- [[entities/zeke-sikelianos|Zeke Sikelianos]] — Speaker at AIEF2025 who presented 'Design like Karpathy is watching.' Works at Replicate. Known on GitHub and X as 'Zeke.' ( #zeke-sikelianos #replicate #speaker #aief2025 #llms-txt)
+- [[entities/zep|Zep]] — Company building domain-aware memory for AI agents using temporal graphs. Creator of Graffiti, an open-source temporal graph framework for custom entity and edge definitions. ( #company #ai-agents #agent-memory #knowledge-graph #temporal-graph)
+- [[entities/zod|Zod]] — TypeScript-first schema validation library. Used by Zep to define entity types with fields and business rules for domain-aware memory. ( #library #typescript #schema-validation #data-models #agent-memory)
+- [[entities/zscaler|Zscaler]] — Cloud-based cybersecurity company providing zero-trust network access. Integrates with AI monitoring tools like SurePath for enterprise AI governance and PII/PHI detection. ( #company #cybersecurity #zero-trust #network-security #ai-governance)
+- [[entities/zwibbler|Zwibbler]] — Online whiteboard/illustration tool that Christopher Chedeau attempted to use before building Excalidraw. The service being down was the catalyst for Excalidraw's creation. ( #tool #whiteboarding #illustration #excalidraw-origin)
 
-## references
+## Misc
 
-- [[references/12-factor-agents-patterns-dex-horthy-humanlayer.md]]
-- [[references/agent-design-patterns-production-laurie-voss-llamaindex.md]]
-- [[references/ai-eng-worlds-fair-2025-agents-vs-workflows-sam-bhagwat-mastra.md]]
-- [[references/ai-eng-worlds-fair-2025-hackathon-presentations.md]]
-- [[references/ai-eng-worlds-fair-2025-hype-to-habit-sprout-social.md]]
-- [[references/ai-eng-worlds-fair-2025-llm-evals-strategies-taylor-jordan-smith.md]]
-- [[references/ai-eng-worlds-fair-2025-spark-to-system-open-agentic-web-asha-sharma.md]]
-- [[references/ai-eng-worlds-fair-2025-talk-practical-tactics-reliable-ai.md]]
-- [[references/aief2025-2025-in-llms-simon-willison.md]]
-- [[references/aief2025-3-ingredients-reliable-enterprise-agents-harrison-chase.md]]
-- [[references/aief2025-360brew-llm-based-personalized-ranking-and-recommendation.md]]
-- [[references/aief2025-agentic-excellence-azure-eval-sdk.md]]
-- [[references/aief2025-agentic-graphrag-zach-blumenfeld.md]]
-- [[references/aief2025-agents-500b-promise-donald-hruska-retool.md]]
-- [[references/aief2025-ai-consulting-in-practice-nlw-superintelligent-aidailybrief.md]]
-- [[references/aief2025-ai-education-summit-ben-dunphy.md]]
-- [[references/aief2025-ai-powered-entomology-tomas-reimers-graphite.md]]
-- [[references/aief2025-ai-red-teaming-agent-azure-ai-foundry.md]]
-- [[references/aief2025-ai-that-pays-nathan-wan-ensemble-health.md]]
-- [[references/aief2025-applied-ai-agents-national-security.md]]
-- [[references/aief2025-architecting-agent-memory-richmond-alake-mongodb.md]]
-- [[references/aief2025-automating-escrow-usdc-ai-corey-cooper.md]]
-- [[references/aief2025-ax-is-the-only-experience-that-matters-ivan-burazin-daytona.md]]
-- [[references/aief2025-benchmarks-are-memes-alex-duffy-every.md]]
-- [[references/aief2025-beyond-the-prototype-josh-albrecht-imbue.md]]
-- [[references/aief2025-bitter-layout-maximillian-piras-yutori.md]]
-- [[references/aief2025-bolt-new-how-we-scaled-0-20m-arr-in-60-days-with-15-people-eric-simons-bolt.md]]
-- [[references/aief2025-books-reimagined-ai-experiences-lukasz-gandecki.md]]
-- [[references/aief2025-build-dynamic-products-stop-ai-sideshow.md]]
-- [[references/aief2025-building-a-10-person-unicorn-max-brodeur-urbas-gumloop.md]]
-- [[references/aief2025-building-agent-fleet-architectures.md]]
-- [[references/aief2025-building-agents-at-cloud-scale-antje-barth-aws.md]]
-- [[references/aief2025-building-agents-hard-parts-rita-kozlov.md]]
-- [[references/aief2025-building-ai-agents-jerry-liu-llamaindex.md]]
-- [[references/aief2025-building-alices-brain-ai-sales-rep-learns-like-human-sherwood-satwik-11x.md]]
-- [[references/aief2025-building-applications-ai-agents-michael-albada-microsoft.md]]
-- [[references/aief2025-building-conversational-ai-agents-thor-schaeff.md]]
-- [[references/aief2025-building-metrics-that-actually-work-david-karam-pi-labs.md]]
-- [[references/aief2025-building-protected-mcp-servers-den-delimarsky-julia-kasper.md]]
-- [[references/aief2025-building-smarter-ai-agent-neural-rag-will-bryk-exa.ai.md]]
-- [[references/aief2025-building-the-platform-for-agent-coordination-tom-moor-linear.md]]
-- [[references/aief2025-ci-era-ai-stochastic-evals-nathan-sobo-zed.md]]
-- [[references/aief2025-ciam-for-ai-michael-grinich.md]]
-- [[references/aief2025-claude-code-evolution-of-agentic-coding-boris-cherny.md]]
-- [[references/aief2025-collaborating-with-agents-jon-peck-christopher-harrison.md]]
-- [[references/aief2025-connections-nlp-word-games.md]]
-- [[references/aief2025-conquering-agent-chaos-rick-blalock-agentuity.md]]
-- [[references/aief2025-containing-agent-chaos-solomon-hykes-dagger.md]]
-- [[references/aief2025-continuous-profiling-for-gpus-matthias-loibl.md]]
-- [[references/aief2025-data-is-your-differentiator-mani-khanuja-aws.md]]
-- [[references/aief2025-day2-intro-laurie-voss.md]]
-- [[references/aief2025-defend-sites-ai-bots-david-mytton-arcjet.md]]
-- [[references/aief2025-define-ai-engineer-greg-brockman-openai-jensen-huang.md]]
-- [[references/aief2025-design-like-karpathy-is-watching.md]]
-- [[references/aief2025-designing-ai-intensive-applications-swyx.md]]
-- [[references/aief2025-devin-2-scott-wu.md]]
-- [[references/aief2025-dispatch-from-future-dan-shipper.md]]
-- [[references/aief2025-does-ai-actually-boost-developer-productivity-yegor-denisov-blanch-stanford.md]]
-- [[references/aief2025-dont-get-one-shotted-tomas-reimers-graphite.md]]
-- [[references/aief2025-dream-machine-scaling-keegan-mccallum-luma-ai.md]]
-- [[references/aief2025-engineering-better-evals-dat-ngo-aman-khan-arize.md]]
-- [[references/aief2025-evals-101-doug-guthrie-braintrust.md]]
-- [[references/aief2025-evals-are-not-unit-tests-ido-pesok-vercel-v0.md]]
-- [[references/aief2025-evals-workshop-braintrust.md]]
-- [[references/aief2025-evaluating-ai-search-quotient-ai-tavily.md]]
-- [[references/aief2025-events-wrong-abstraction-mason-egger.md]]
-- [[references/aief2025-everything-is-ugly-so-go-build-something-that-isnt-raiza-martin-huxe.md]]
-- [[references/aief2025-excalidraw-ai-human-whiteboarding-christopher-chedeau.md]]
-- [[references/aief2025-five-hard-earned-lessons-evals-ankur-goyal-braintrust.md]]
-- [[references/aief2025-forget-rag-pipelines-nina-lopatina-rajiv-shah-contextual.md]]
-- [[references/aief2025-form-factors-ai-coworkers-craig-wattrus-flatfile.md]]
-- [[references/aief2025-foundry-local-emma-ning.md]]
-- [[references/aief2025-from-copilot-to-colleague-joel-hron.md]]
-- [[references/aief2025-from-self-driving-to-autonomous-voice-agents-brooke-hopkins-coval.md]]
-- [[references/aief2025-from-vibe-coding-to-vibe-engineering-kitze-sizzy.md]]
-- [[references/aief2025-full-spec-mcp-hidden-capabilities-harald-kirschner.md]]
-- [[references/aief2025-fuzzing-in-the-genai-era.md]]
-- [[references/aief2025-gemini-25-pro-logan-kilpatrick.md]]
-- [[references/aief2025-gemini-progress-logan-kilpatrick.md]]
-- [[references/aief2025-google-photos-magic-editor-kelvin-ma.md]]
-- [[references/aief2025-government-agents-mark-myshatyn.md]]
-- [[references/aief2025-graph-intelligence-alison-andreas-neo4j.md]]
-- [[references/aief2025-graphrag-code-jonathan-larson.md]]
-- [[references/aief2025-hacking-inference-pareto-frontier-kyle-kranen-nvidia.md]]
-- [[references/aief2025-hacking-yagents-yc-spring-2025-rene-brandel-casco.md]]
-- [[references/aief2025-how-intuit-uses-llms-to-explain-taxes-to-millions-of-taxpayers-jaspreet-singh-intuit.md]]
-- [[references/aief2025-how-to-build-planning-agents-without-losing-control-yogendra-miraje-factset.md]]
-- [[references/aief2025-how-to-hire-ai-engineers-when-everyone-is-cheating-beth-glenfield-devday.md]]
-- [[references/aief2025-how-to-improve-your-vibe-coding.md]]
-- [[references/aief2025-how-to-look-at-your-data-jeff-huber-chroma-jason-liu-567.md]]
-- [[references/aief2025-how-to-run-evals-at-scale-muktesh-mishra-adobe.md]]
-- [[references/aief2025-how-to-secure-agents-oauth-jared-hanson.md]]
-- [[references/aief2025-human-seeded-evals-samuel-colvin-pydantic.md]]
-- [[references/aief2025-inference-engines-benchmarking-charles-frye-modal.md]]
-- [[references/aief2025-intro-to-graphrag-zach-blumenfeld.md]]
-- [[references/aief2025-introducing-strands-agents-open-source-ai-agents-sdk-suman-debnath-aws.md]]
-- [[references/aief2025-introduction-to-llm-serving-sglang-philip-kiely-yineng-zhang.md]]
-- [[references/aief2025-knowledge-graphs-litigation-agents-tom-smoker-whyhow.md]]
-- [[references/aief2025-layering-every-technique-in-rag-david-karam.md]]
-- [[references/aief2025-machines-of-buying-and-selling-grace-adam-behrens-new-generation.md]]
-- [[references/aief2025-make-your-llm-app-a-domain-expert-christopher-lovejoy.md]]
-- [[references/aief2025-mastering-engineering-flow-windsurf-eashan-sinha.md]]
-- [[references/aief2025-mcp-is-not-good-yet-david-cramer-sentry.md]]
-- [[references/aief2025-mcp-origins-and-requests-for-startups-theodora-chu.md]]
-- [[references/aief2025-mentoring-the-machine-eric-hou-augment-code.md]]
-- [[references/aief2025-milliseconds-to-magic.md]]
-- [[references/aief2025-multi-agent-ai-and-network-knowledge-graphs-for-change-ola-mabadeje-cisco.md]]
-- [[references/aief2025-netflix-one-model-recommendations-yesu-feng.md]]
-- [[references/aief2025-on-engineering-ai-systems-that-endure-omar-khattab.md]]
-- [[references/aief2025-open-source-humanoid-robot-k-scale-labs.md]]
-- [[references/aief2025-optimizing-inference-voice-models-philip-kiely-baseten.md]]
-- [[references/aief2025-perceptual-evaluations-diego-rodriguez-krea-ai.md]]
-- [[references/aief2025-pipecat-cloud-kwindla-kramer.md]]
-- [[references/aief2025-poc-to-prod-hard-lessons-200-enterprise-genai-deployments.md]]
-- [[references/aief2025-practical-graphrag-michael-jesus-stephen-neo4j.md]]
-- [[references/aief2025-private-cloud-compute-jmo.md]]
-- [[references/aief2025-production-software-keeps-breaking-anish-agarwal-traversal.md]]
-- [[references/aief2025-prompt-engineering-is-dead-nir-gazit-traceloop.md]]
-- [[references/aief2025-rag-in-2025-state-of-the-art-and-the-road-forward-tengyu-ma.md]]
-- [[references/aief2025-real-world-mcps-jon-peck.md]]
-- [[references/aief2025-realtime-conversational-video-with-pipecat-and-tavus.md]]
-- [[references/aief2025-rethinking-team-building-grant-lee-gamma.md]]
-- [[references/aief2025-rft-dpo-sft-fine-tuning-with-openai-ilan-bigio.md]]
-- [[references/aief2025-rise-of-ai-architect-clay-bavor-sierra.md]]
-- [[references/aief2025-rishabh-garg-tesla-optimus.md]]
-- [[references/aief2025-rl-autonomous-coding-aakanksha-chowdhery.md]]
-- [[references/aief2025-robotics-why-now-quan-vuong-jost-tobias-springberg-physical-intelligence.md]]
-- [[references/aief2025-robots-as-professional-chefs-nikhil-abraham-cloudchef.md]]
-- [[references/aief2025-scaling-enterprise-grade-rag-legal-frontier.md]]
-- [[references/aief2025-securing-agents-open-standards-bobby-tiernay-auth0.md]]
-- [[references/aief2025-securing-code-executing-ai-agents-fouad-matin.md]]
-- [[references/aief2025-serving-voice-ai-at-1-hr-neil-dwyer-gabber.md]]
-- [[references/aief2025-serving-voice-ai-at-scale-arjun-desai-cartesia-rohit-talluri-aws.md]]
-- [[references/aief2025-ship-agents-that-ship.md]]
-- [[references/aief2025-ship-it-building-production-ready-agents-mike-chambers-aws.md]]
-- [[references/aief2025-ship-production-software-minutes-not-months-eno-reyes-factory.md]]
-- [[references/aief2025-shipping-enterprise-voice-ai-100-days-peter-bar.md]]
-- [[references/aief2025-shipping-products-when-you-dont-know-what-they-can-do.md]]
-- [[references/aief2025-shipping-something-to-someone-kenneth-auchenberg.md]]
-- [[references/aief2025-small-ai-teams-vik-paruchuri-datalab.md]]
-- [[references/aief2025-software-development-agents-robert-brennan.md]]
-- [[references/aief2025-state-of-generative-media-gorkem-yurtseven-fal.md]]
-- [[references/aief2025-state-of-mcp-observability.md]]
-- [[references/aief2025-stop-using-rag-as-memory-daniel-chalef-zep.md]]
-- [[references/aief2025-structuring-modern-ai-team-denys-linkov-wisedocs.md]]
-- [[references/aief2025-taming-rogue-ai-agents-jim-bennett-galileo.md]]
-- [[references/aief2025-teaching-gemini-to-speak-youtube-devansh-tandon.md]]
-- [[references/aief2025-the-2025-ai-engineering-report-barr-yaron-amplify.md]]
-- [[references/aief2025-the-agent-awakens-christopher-harrison.md]]
-- [[references/aief2025-the-ai-engineers-guide-to-raising-vc.md]]
-- [[references/aief2025-the-billable-hour-is-dead.md]]
-- [[references/aief2025-the-eyes-are-the-context-window-to-the-soul-sam-fertig-windsurf.md]]
-- [[references/aief2025-the-future-of-evals-ankur-goyal-braintrust.md]]
-- [[references/aief2025-the-geopolitics-of-ai-infrastructure-dylan-patel-semianalysis.md]]
-- [[references/aief2025-the-new-lean-startup-sid-bendre-olive.md]]
-- [[references/aief2025-the-next-unicorns-7-top-ai-startups-hf0-residency.md]]
-- [[references/aief2025-the-rise-of-the-agentic-economy-jan-curn-apify.md]]
-- [[references/aief2025-the-state-of-ai-powered-search-and-retrieval-frank-liu-mongodb.md]]
-- [[references/aief2025-the-web-browser-is-all-you-needed-paul-klein-iv-browserbase.md]]
-- [[references/aief2025-top-ten-challenges-agi-stephen-chin-andreas-kolleger.md]]
-- [[references/aief2025-training-agentic-reasoners-will-brown-prime-intellect.md]]
-- [[references/aief2025-transforming-search-discovery-using-llms.md]]
-- [[references/aief2025-trends-across-the-ai-frontier-george-cameron-artificialanalysis.md]]
-- [[references/aief2025-turning-fails-into-features-zapier-evals-rafal-willinski-vitor-balocco.md]]
-- [[references/aief2025-unlocking-ai-devops-jon-peck.md]]
-- [[references/aief2025-useful-general-intelligence-danielle-perszyk.md]]
-- [[references/aief2025-using-oss-models-hassan-el-mghari.md]]
-- [[references/aief2025-vector-search-benchmarking-philipp-krenn-elastic.md]]
-- [[references/aief2025-veo-3-for-developers-paige-bailey-google-deepmind.md]]
-- [[references/aief2025-vibe-coding-at-scale-harald-kirshner.md]]
-- [[references/aief2025-vibe-coding-at-scale-harold.js.md]]
-- [[references/aief2025-vibe-coding-with-confidence-itamar-friedman-qodo.md]]
-- [[references/aief2025-vibes-wont-cut-it-chris-kelly-augment.md]]
-- [[references/aief2025-vision-ai-2025-peter-robicheaux-roboflow.md]]
-- [[references/aief2025-waymas-emma-teaching-cars-to-think-jyh-jing-hwang.md]]
-- [[references/aief2025-what-is-a-humanoid-foundation-model-annika-aastha.md]]
-- [[references/aief2025-what-we-learned-from-using-llms-in-pinterest.md]]
-- [[references/aief2025-when-vectors-break-down-sam-julien-writer.md]]
-- [[references/aief2025-why-should-anyone-care-about-evals-manu-goyal-braintrust.md]]
-- [[references/aief2025-why-we-dont-need-more-data-centers-jasper-zhang-hyperbolic.md]]
-- [[references/aief2025-why-your-agent-brain-needs-playbook-ontologies-jesus-barrasa.md]]
-- [[references/aief2025-why-your-product-needs-an-ai-product-manager-james-lowe-i-ai.md]]
-- [[references/aief2025-windsurf-everywhere-kevin-hou.md]]
-- [[references/aief2025-wisdom-driven-kag-chin-keong-lam.md]]
-- [[references/aief2025-year-of-evals-john-dickerson-mozilla.md]]
-- [[references/aief2025-your-coding-agent-just-got-cloned-rustin-banks-jules.md]]
-- [[references/aief2025-your-realtime-ai-is-ngmi.md]]
-- [[references/blackrock-knowledge-apps-ai-eng-fair-2025.md]]
-- [[references/box-agentic-platform-ben-kus.md]]
-- [[references/build-operate-divide-freeplay-chime-2025.md]]
-- [[references/building-effective-voice-agents-openai-2025.md]]
-- [[references/building-multimodal-ai-agents-from-scratch-apoorva-joshi-mongodb.md]]
-- [[references/copilot-instructions-file-format.md]]
-- [[references/critical-ai-inference-cio-trust-telemetrak-2025.md]]
-- [[references/deepseek-open-source-models.md]]
-- [[references/fundamentals-of-llms-course.md]]
-- [[references/good-design-hasnt-changed-with-ai-john-pham-sf-compute.md]]
-- [[references/hybridrag-fusion-graph-vector-retrieval-mitesh-patel.md]]
-- [[references/improving-recsys-search-llms-eugene-yan.md]]
-- [[references/information-retrieval-ground-up-philipp-krenn-elastic-2025.md]]
-- [[references/infrastructure-for-the-singularity-jesse-han-morph.md]]
-- [[references/llms-txt.md]]
-- [[references/measuring-agi-interactive-reasoning-benchmarks-arc-agi-3.md]]
-- [[references/microsoft-graphrag-blog-post-july-2025.md]]
-- [[references/monetizing-ai-alvaro-morales-orb.md]]
-- [[references/notion-ai-building-world-class-products.md]]
-- [[references/on-curiosity-sharif-shameem-ai-eng-2025.md]]
-- [[references/palm-model.md]]
-- [[references/promptql-agentic-semantic-layer-ai-eng-2025.md]]
-- [[references/revenue-engineering-pricing-ai-product-grover-orb.md]]
-- [[references/rise-of-open-models-enterprise-amir-haghighat.md]]
-- [[references/scaling-ai-agents-without-breaking-reliability-temporal-somal.md]]
-- [[references/scaling-laws-2020.md]]
-- [[references/state-of-startups-and-ai-2025-sarah-guo.md]]
-- [[references/stateful-environments-vertical-agents-josh-purtell-synth-labs.md]]
-- [[references/survive-ai-knife-fight-brian-balfour.md]]
-- [[references/terminal-game-demo-200-lines.md]]
-- [[references/the-bitter-lesson.md]]
-- [[references/the-new-code-sean-grove-openai.md]]
-- [[references/thinking-deeper-in-gemini-jack-rae-deepmind.md]]
-- [[references/tldraw-computer-steve-ruiz-ai-eng-2025.md]]
-- [[references/to-the-moon-legacy-code-augment-agent.md]]
-- [[references/why-care-about-ai-interpretability-bissell-goodfire-2025.md]]
-- [[references/why-chatgpt-keeps-interrupting-you-tom-shapland-livekit.md]]
+- [[misc/ai-engineer-worlds-fair-2025|AI Engineer World's Fair 2025]] — AIEF2025 — AI Engineer World's Fair 2025, a conference bringing together AI engineers, product leaders, and builders. Multiple talks covering agent architectures, evals, RAG, voice AI, and product... ( #conference #aief2025 #ai #engineering)
+- [[misc/aief2025-building-metrics-workshop|AIEF2025 - Building Metrics that actually work — David Karam, Pi Labs]] — AIEF2025 - Building Metrics that actually work ( #aief2025 #workshop #evals #metrics #david-karam)
+- [[misc/on-call-fatigue|On-Call Fatigue]] — The phenomenon where engineers spend most of their time on on-call and QA rather than creative system design work, as AI coding tools increase system complexity while reducing human understanding o... ( #on-call #fatigue #engineer-burnout #production-troubleshooting #ai-coding)
+- [[misc/web-gist-githubusercontent-com-karpathy-442a6bf5|LLM Wiki — Karpathy's Foundational Gist]] — Karpathy's original gist describing the LLM Wiki pattern — a persistent, compounding wiki maintained by LLMs, replacing ephemeral RAG with compiled knowledge. ( #llm #wiki #knowledge-management #pattern #karpathy)
+- [[misc/web-github-com-aidenybai-react-scan|React Scan]] — Zero-config tool that automatically detects and visually highlights unnecessary React re-renders. Drop-in script tag or npm install, no code changes required. ( #react #performance #debugging #devtools)
+- [[misc/web-github-com-karpathy-autoresearch|autoresearch — Autonomous pretraining research (Andrej Karpathy)]] — Karpathy's original autoresearch repo: an AI agent that autonomously modifies LLM training code, runs 5-minute experiments, and keeps/discards based on validation bits-per-byte — the canonical impl... ( #ai #research #automation #llm-training #pi-autoresearch)
+- [[misc/web-posthog-com-blog-karpathy-autoresearch-query|Karpathy's Autoresearch found a 3-year-old bug in our query engine (and improved performance by 11%)]] — PostHog's engineering team applied Karpathy's autoresearch pattern to ClickHouse query optimization, finding a 3-year-old timezone wrapping bug that prevented primary key usage and improving query... ( #ai #query-optimization #clickhouse #engineering #agent-loop)
+- [[misc/web-posthog-com-blog-sql-parser|I wrote a 70x faster SQL parser while barely looking at the code (Robbie Coomber)]] — Robbie Coomber rewrote PostHog's SQL parser (ANTLR C++ → hand-rolled Rust) using multiple parallel Claude Code sessions, achieving 454x faster parsing in production. Key techniques: property-based... ( #ai #agent-loop #sql #parser #rust)
+- [[misc/web-posthog-com-blog-stop-ai-slop|Stop AI slop: Run evals with LLM-as-a-Judge]] — PostHog guide to AI evaluations using LLM-as-a-Judge — why manual review doesn't scale, how to write evals, five pre-built templates, and the AI product improvement loop connecting observability, s... ( #ai #evals #llm #observability #product-engineering)
+- [[misc/web-posthog-com-blog-what-if-your-product-built-itself|What If Your Product Built Itself? — PostHog Self-driving Pipeline]] — PostHog's self-driving product improvement pipeline — ingest signals, group into problems, research, decide actionability, write fix, open PR, iterate until CI green. By Josh Snyder and Cleo Lant (... ( #posthog #self-driving #agent-pipeline #product-engineering)
+- [[misc/web-posthog-com-blog-what-is-a-scout|What is a Scout? — PostHog's Self-driving Agent Pattern]] — Deep dive into PostHog Scouts — small scheduled agents that watch PostHog data, learn what's worth knowing, and emit signals for the self-driving pipeline. By Andy Maguire (Jun 2026). ( #posthog #agent #self-driving #agent-skill #signals)
+- [[misc/web-posthog-com-docs-ai-evals|PostHog AI Evals Documentation]] — Official PostHog documentation on AI evaluations — three evaluation types (LLM-as-judge, Hog code-based, sentiment analysis), MCP management, evaluation reports, error states, and pricing. ( #ai #evals #llm #observability #posthog)
+- [[misc/web-posthog-com-newsletter-loops|Why we're bullish on loops]] — PostHog's newsletter on engineering loops with AI agents — the four requirements (goal, context, evaluation, agent), concrete examples, industry momentum, and the vision of self-driving products. ( #ai #loops #agent-loop #engineering #product-engineering)
+- [[misc/web-youtube-com-watch-ow1we5pzk-o|The Multi-Agent Architecture That Actually Ships — Luke Alvoeiro, Factory]] — Luke Alvoeiro (Factory) presents Missions — a three-role multi-agent system (orchestrator, workers, validators) using validation contracts, structured handoffs, serial execution, and adversarial ve... ( #ai #multi-agent #architecture #agent-systems #factory)
+- [[misc/web-youtube-com-watch-v-c_gg5g38vlu|Harnesses in AI: A Deep Dive — Tejas Kumar, IBM]] — Tejas Kumar's AI Engineer talk on building agent harnesses — the infrastructure layer (tooling + context + guardrails) that wraps agents to make them reliable, with a live demo using GPT-3.5 Turbo... ( #ai #harness #agent #reliability #guardrails)
+- [[misc/web-youtube-com-watch-v-flutukqyhnq|Everything I Learned Training Frontier Small Models — Maxime Labonne]] — Maxime Labonne's AI Engineer talk on post-training frontier small models (350M–1.2B): architecture tradeoffs, the LFM 2.5 recipe, doom loops at 1B scale, and agentic RL with verifiable rewards. ( #ai #small-models #edge-ml #lfm #liquid-ai)
+- [[misc/web-youtube-com-watch-v-qfhioco-ko|Full Walkthrough: Workflow for AI Coding — Matt Pocock]] — Matt Pocock's hands-on workshop at AI Engineer covering the full AI-assisted development lifecycle: stress-testing requirements into PRDs, tracer bullet slicing, TDD with agents, and autonomous AFK... ( #ai #workflow #tdd #autonomous-agents #matt-pocock)
+- [[misc/web-youtube-com-watch-v-unzcg3lw6o0|Building Great Agent Skills: The Missing Manual — Matt Pocock]] — Matt Pocock's AI Engineer talk defining the Skill Checklist Framework (Trigger → Structure → Steering → Pruning) for building and evaluating high-quality agent skills. ( #ai #agent-skills #engineering)
+- [[misc/web-youtube-com-watch-v4f1gfy-hqg|Software Fundamentals Matter More Than Ever — Matt Pocock]] — Matt Pocock's AI Engineer talk on why software fundamentals (ubiquitous language, deep modules, feedback loops, shared design concepts) matter more than ever when working with AI coding agents. ( #ai #software-engineering #fundamentals #deep-modules #ddd)
+- [[misc/web-youtube-com-watch-vy7o1g2ihy8|How I Deleted 95% of My Agent Skills and Got Better Results — Nick Nisi, WorkOS]] — Nick Nisi's AI Engineer talk on evidence-based agent verification: SHA-256 hashing test output to catch Claude faking results, deleting 95% of auto-generated skills (97%→77% accuracy), and replacin... ( #ai #harness #evals #skills #reliability)
 
-## misc
+## References
 
-- [[misc/ai-engineer-worlds-fair-2025.md]]
-- [[misc/aief2025-building-metrics-workshop.md]]
-- [[misc/on-call-fatigue.md]]
-- [[misc/slow-boiling-frog-benchmarking.md]]
-- [[misc/web-gist-githubusercontent-com-karpathy-442a6bf5.md]]
-- [[misc/web-github-com-aidenybai-react-scan.md]]
-- [[misc/web-github-com-karpathy-autoresearch.md]]
-- [[misc/web-posthog-com-blog-karpathy-autoresearch-query.md]]
-- [[misc/web-posthog-com-blog-sql-parser.md]]
-- [[misc/web-posthog-com-blog-stop-ai-slop.md]]
-- [[misc/web-posthog-com-blog-what-if-your-product-built-itself.md]]
-- [[misc/web-posthog-com-blog-what-is-a-scout.md]]
-- [[misc/web-posthog-com-docs-ai-evals.md]]
-- [[misc/web-posthog-com-newsletter-loops.md]]
-- [[misc/web-youtube-com-watch-ow1we5pzk-o.md]]
-- [[misc/web-youtube-com-watch-v-c_gg5g38vlu.md]]
-- [[misc/web-youtube-com-watch-v-flutukqyhnq.md]]
-- [[misc/web-youtube-com-watch-v-qfhioco-ko.md]]
-- [[misc/web-youtube-com-watch-v-unzcg3lw6o0.md]]
-- [[misc/web-youtube-com-watch-v4f1gfy-hqg.md]]
-- [[misc/web-youtube-com-watch-vy7o1g2ihy8.md]]
+- [[references/12-factor-agents-patterns-dex-horthy-humanlayer|12-Factor Agents: Patterns of Reliable LLM Applications — Dex Horthy, HumanLayer]] — AI Engineer World's Fair 2025 talk codifying 12 factors for building reliable LLM-based agents, grounded in software engineering principles rather than AI-specific abstractions. ( #reference #talk #ai-engineer #agents #reliability)
+- [[references/agent-design-patterns-production-laurie-voss-llamaindex|Effective Agent Design Patterns in Production — Laurie Voss, LlamaIndex]] — Laurie Voss presents the five Anthropic-codified agent design patterns (chaining, routing, parallelization, orchestrator workers, evaluator-optimizer) implemented via LlamaIndex Workflows, plus the... ( #reference #talk #agent #llamaindex #ai-eng-fair-2025)
+- [[references/ai-eng-worlds-fair-2025-agents-vs-workflows-sam-bhagwat-mastra|Agents vs Workflows: Why Not Both? — Sam Bhagwat, Mastra.ai]] — AI Engineer World's Fair 2025 talk by Sam Bhagwat (Mastra.ai) arguing for composing agents and workflows together, rather than treating them as opposing paradigms. Covers composition patterns, code... ( #reference #talk #ai-engineer #agents #workflow)
+- [[references/ai-eng-worlds-fair-2025-hackathon-presentations|AI Engineer World's Fair 2025 Hackathon Presentations]] — Three finalist teams present their 48-hour builds at the first official AI Engineer hackathon: automated A/B testing agents, browser-based RL robotics simulation, and action models focused on real-... ( #reference #talk #hackathon #ai-engineer)
+- [[references/ai-eng-worlds-fair-2025-hype-to-habit-sprout-social|From Hype to Habit: How We're Building an AI-First SaaS Company—While Still Shipping the Roadmap]] — AI Engineer World's Fair 2025 talk by Sprout Social on their candid, real-time AI transformation journey — covering a three-dimensional framework across strategy, ways of working, and people. ( #reference #talk #ai-engineer #transformation #strategy)
+- [[references/ai-eng-worlds-fair-2025-llm-evals-strategies-taylor-jordan-smith|Strategies for LLM Evals — Taylor Jordan Smith, Red Hat]] — Workshop at AI Engineer World's Fair 2025 covering a tiered approach to LLM evaluation — from system performance benchmarking (GuideLLM) through factual accuracy (lm-eval-harness/MMLU-Pro) to safet... ( #reference #talk #ai-engineering #evaluation #benchmarking)
+- [[references/ai-eng-worlds-fair-2025-spark-to-system-open-agentic-web-asha-sharma|Spark to System: Building the Open Agentic Web — Asha Sharma, Microsoft]] — Asha Sharma (Microsoft) lays out the vision for the open agentic web — agents interacting across clouds, companies, and devices — and demonstrates Microsoft's Foundry platform for building, evaluat... ( #reference #talk #ai-engineer #microsoft #agents)
+- [[references/ai-eng-worlds-fair-2025-talk-practical-tactics-reliable-ai|Practical tactics to build reliable AI apps — Dmitry Kuchin, Multinear]] — AI Engineer World's Fair 2025 talk covering practical methodology for building reliable AI applications through evaluation-first development, task-specific evals, synthetic eval generation, and che... ( #reference #talk #ai-engineer #evaluation #reliability)
+- [[references/aief2025-2025-in-llms-simon-willison|2025 in LLMs so far, illustrated by Pelicans on Bicycles — Simon Willison]] — Simon Willison's AIEF2025 talk reviewing ~30 significant LLM releases from December 2024 to March 2025, using his informal SVG pelican-on-bicycle benchmark to evaluate text model code-output capabi... ( #aief2025 #llm-releases #benchmark #local-models #open-weight)
+- [[references/aief2025-3-ingredients-reliable-enterprise-agents-harrison-chase|3 Ingredients for Building Reliable Enterprise Agents — Harrison Chase, LangChain/LangGraph]] — Harrison Chase distills enterprise agent adoption into a first-principles equation: value when right, cost when wrong, and probability of success. Argues for deterministic workflows over pure promp... ( #aief2025 #enterprise-ai #agent-reliability #langgraph #langsmith)
+- [[references/aief2025-360brew-llm-based-personalized-ranking-and-recommendation|360Brew: LLM-based Personalized Ranking and Recommendation — Hamed and Maziar, LinkedIn AI]] — Hamed and Maziar (LinkedIn AI) present 360Brew, a single LLM-based foundation model (~150B params distilled to 3B) that replaces dozens of disjoint recommendation models at LinkedIn, with zero-shot... ( #reference #talk #aief2025 #recommendation-systems #llm)
+- [[references/aief2025-agentic-excellence-azure-eval-sdk|Agentic Excellence: Mastering AI Agent Evals w/ Azure AI Evaluation SDK — Cedric Vidal, Microsoft]] — Agentic Excellence: Mastering AI Agent Evals w/ Azure AI Evaluation SDK — Cedric Vidal, Microsoft ( #aief2025 #evaluation #azure-ai-foundry #azure-ai-eval-sdk #agents)
+- [[references/aief2025-agentic-graphrag-zach-blumenfeld|AIEF2025 — Agentic GraphRAG: Simplifying Retrieval Across Structured & Unstructured Data — Zach Blumenfeld]] — Zach Blumenfeld presents an agentic GraphRAG architecture using Neo4j as the central data layer, demonstrating through a live notebook why document-only vector retrieval fails for analytical querie... ( #ai-engineering #knowledge-graph #graphrag #neo4j #aief2025)
+- [[references/aief2025-agents-500b-promise-donald-hruska-retool|AIEF2025 — How agents will unlock the $500B promise of AI]] — AIEF2025 — How agents will unlock the $500B promise of AI ( #aief2025 #agent-strategy #build-vs-buy #enterprise-ai #vibe-coding)
+- [[references/aief2025-ai-consulting-in-practice-nlw-superintelligent-aidailybrief|AI Consulting in Practice – NLW, Superintelligent, @AIDailyBrief]] — AI Consulting in Practice – NLW, Superintelligent, @AIDailyBrief ( #aief2025 #enterprise-ai #ai-adoption #roi #consulting)
+- [[references/aief2025-ai-education-summit-ben-dunphy|AI Education Summit Announcement]] — Benjamin Dunphy's AIEF2025 announcement of the AI Education Summit, addressing the gap between AI advancement and educational preparedness, featuring Stefania Druga. ( #aief2025 #ai-education #pedagogy #hci #benjamin-dunphy)
+- [[references/aief2025-ai-powered-entomology-tomas-reimers-graphite|AI Powered Entomology: Lessons from Millions of AI Code Reviews — Tomas Reimers, Graphite (AIEF2025)]] — Tomas Reimers presents a 2D taxonomy of code review comments based on what LLMs can catch and what humans want to receive, revealing that tribal knowledge and codebase conventions are the hardest c... ( #ai-engineering #code-review #bug-taxonomy #llm-evaluation #aief2025)
+- [[references/aief2025-ai-red-teaming-agent-azure-ai-foundry|AIEF2025 - AI Red Teaming Agent: Azure AI Foundry]] — Microsoft demonstrates the AI Red Teaming Agent in Azure AI Foundry — a hosted SDK wrapping PyRIT for automated adversarial testing of AI applications and models via attack strategies and risk-cate... ( #ai-red-teaming #azure-ai-foundry #microsoft #evaluation #security)
+- [[references/aief2025-ai-that-pays-nathan-wan-ensemble-health|AI That Pays: Lessons from Revenue Cycle — Nathan Wan, Ensemble Health]] — Nathan Wan (Head of AI, Ensemble Health) at AIEF2025 on AI's opportunity in healthcare revenue cycle — claim denials, prior auth, and reducing administrative friction. ( #talk #aief2025 #healthcare #revenue-cycle #ai)
+- [[references/aief2025-applied-ai-agents-national-security|Applied AI and Agentic Science at a National Laboratory — Mark Machotton, Los Alamos National Laboratory]] — Mark Machotton (LANL) presents on 70 years of applied AI, the Venato supercomputer, agentic AI for fusion design, and governance for classified AI systems. ( #talk #aief2025 #national-security #agentic-ai #los-alamos)
+- [[references/aief2025-architecting-agent-memory-richmond-alake-mongodb|AIEF2025 — Architecting Agent Memory: Principles, Patterns, and Best Practices]] — Richmond Alake of MongoDB presents agent memory as the core mechanism for building reliable, believable, and capable AI agents — covering memory types, management systems, and the agenticity spectrum. ( #aief2025 #agent-memory #memory-management #agenticity-spectrum #rag)
+- [[references/aief2025-automating-escrow-usdc-ai-corey-cooper|Automating Escrow with USDC and AI — Corey Cooper, Circle]] — Corey Cooper (DevRel Lead, Circle) demonstrates using AI agents and USDC stablecoin smart contracts to automate escrow workflows — from PDF agreement parsing to on-chain conditional settlement. ( #reference #talk #aief2025 #escrow #usdc)
+- [[references/aief2025-ax-is-the-only-experience-that-matters-ivan-burazin-daytona|AX is the only Experience that Matters — Ivan Burazin, Daytona]] — AX is the only Experience that Matters — Ivan Burazin, Daytona ( #aief2025 #talk #agent-experience #ax #agent-autonomy)
+- [[references/aief2025-benchmarks-are-memes-alex-duffy-every|Benchmarks Are Memes: How What We Measure Shapes AI—and Us]] — Alex Duffy argues that benchmarks function as memes in the Dawkins sense — ideas that spread and shape the most powerful tool ever created. He proposes six design principles for future benchmarks a... ( #benchmark #meme-theory #evaluation #llm #aief2025)
+- [[references/aief2025-beyond-the-prototype-josh-albrecht-imbue|AIEF2025 - Beyond the Prototype: Using AI to Write High-Quality Code]] — Josh Albrecht (CTO, Imbue) presents four prevention and three detection strategies for producing high-quality AI-generated code, introducing Sculptor as an experimental coding agent environment. ( #aief2025 #talk #coding-agents #code-quality #ai-verification)
+- [[references/aief2025-bitter-layout-maximillian-piras-yutori|The Bitter Layout or: How I Learned to Love the Model Picker]] — Maximillian Piras argues that the converged AI UX pattern of chat + model picker persists because it can absorb the next model's capabilities, and introduces the Bitter Design Lesson as a corollary... ( #talk #aief2025 #ux #design #ai)
+- [[references/aief2025-bolt-new-how-we-scaled-0-20m-arr-in-60-days-with-15-people-eric-simons-bolt|Bolt.new: How we scaled $0-20m ARR in 60 days, with 15 people — Eric Simons, Bolt]] — Eric Simons of Bolt.new shares how StackBlitz's team of <20 people scaled ARR from $0.7M to $20M in 60 days after launching Bolt.new, covering team structure, prioritization, and the philosophy of... ( #aief2025 #bolt #stackblitz #startup-growth #product-market-fit)
+- [[references/aief2025-books-reimagined-ai-experiences-lukasz-gandecki|Books reimagined: AI to create new experiences for things you know]] — Łukasz Gądecki's AIEF2025 talk on Books Reimagined — AI-powered multimodal book experiences, vibe coding methodology, and open-sourcing the book player. ( #aief2025 #talk #books #ai-experiences #vibe-coding)
+- [[references/aief2025-build-dynamic-products-stop-ai-sideshow|Build Dynamic Products, and Stop the AI Sideshow — Eliza Cabrera (Workday) + Jeremy Silva (Freeplay)]] — AI Engineer World's Fair 2025 talk by Eliza Cabrera (Workday) and Jeremy Silva (Freeplay) arguing against bolt-on AI features and presenting the crawl-walk-run framework for deeply integrating AI i... ( #reference #talk #aief2025 #product-strategy #ai-integration)
+- [[references/aief2025-building-a-10-person-unicorn-max-brodeur-urbas-gumloop|Building a 10 Person Unicorn — Max Brodeur-Urbas, Gumloop]] — AIEF2025 talk by Max Brodeur-Urbas, founder of Gumloop, on scaling a startup with under 10 people through exceptional hiring, product-led recruitment, and internal automation. ( #aief2025 #startup #hiring #small-team #workflow-automation)
+- [[references/aief2025-building-agent-fleet-architectures|AIEF2025 — Building agent fleet architectures your CISO doesn't hate]] — Lou Bichard's talk at AI Engineer World's Fair 2025 on Gitpod's architectural evolution from multi-tenant SaaS to managed substrate to a first-principles platform for secure dev environments and AI... ( #aief2025 #agent-fleet #architecture #security #ciso)
+- [[references/aief2025-building-agents-at-cloud-scale-antje-barth-aws|AIEF2025 - Building Agents at Cloud Scale — Antje Barth, AWS]] — Antje Barth (AWS) at AI Engineer World's Fair 2025: building AI agents at cloud scale, covering Alexa Plus reimagining, Strands Agents SDK, Amazon Q Developer CLI, and model-driven agent design. ( #ai-engineer-worlds-fair-2025 #aws #ai-agents #cloud-scale #strands-agents)
+- [[references/aief2025-building-agents-hard-parts-rita-kozlov|Building Agents (the hard parts!) - Rita Kozlov, Cloudflare]] — Rita Kozlov, VP of Product for Cloudflare's developer platform, presents a four-component framework for building agents (client, AI reasoning, workflows, tools), introduces MCP as the standard for... ( #reference #talk #agents #mcp #cloudflare)
+- [[references/aief2025-building-ai-agents-jerry-liu-llamaindex|Building AI Agents that actually automate Knowledge Work — Jerry Liu, LlamaIndex]] — Jerry Liu presents LlamaIndex's document toolbox for automating knowledge work over unstructured enterprise data, including the document MCP server concept, assistive vs automation agents, and new... ( #reference #talk #agent #llamaindex #document-parsing)
+- [[references/aief2025-building-alices-brain-ai-sales-rep-learns-like-human-sherwood-satwik-11x|AIEF2025 - Building Alice's Brain: an AI Sales Rep that Learns Like a Human — Sherwood & Satwik, 11x]] — 11x tech leads Sherwood and Satwik present Alice's knowledge base — a RAG pipeline that lets their AI SDR proactively pull seller context from documents, websites, and media instead of requiring ma... ( #ai-sdr #rag #knowledge-base #parsing #vector-database)
+- [[references/aief2025-building-applications-ai-agents-michael-albada-microsoft|Building Applications with AI Agents — Michael Albada, Microsoft]] — Michael Albada (Microsoft Principal Applied Scientist) covers agentic development fundamentals: agency vs effectiveness, tool-use design, orchestration patterns, and production pitfalls. ( #aief2025 #ai-agents #tool-use #orchestration #production)
+- [[references/aief2025-building-conversational-ai-agents-thor-schaeff|[Full Workshop] Building Conversational AI Agents - Thor Schaeff, ElevenLabs]] — Full workshop at AIEF2025 by Thor Schaeff (ElevenLabs) on building multilingual conversational AI agents, covering STT→LLM→TTS pipeline, ElevenLabs' ASR model, sound effects, and developer tools. ( #reference #talk #aief2025 #voice-ai #conversational-ai)
+- [[references/aief2025-building-metrics-that-actually-work-david-karam-pi-labs|AIEF2025 - Building Metrics that actually work — David Karam, Pi Labs]] — AIEF2025 - Building Metrics that actually work ( #aief2025 #workshop #evals #metrics #evaluation-methodology)
+- [[references/aief2025-building-protected-mcp-servers-den-delimarsky-julia-kasper|Building Protected MCP Servers — Den Delimarsky and Julia Kasper, MCP Steering Committee & Microsoft]] — Building Protected MCP Servers — Den Delimarsky and Julia Kasper, MCP Steering Committee & Microsoft ( #aief2025 #mcp #auth #security #oauth)
+- [[references/aief2025-building-smarter-ai-agent-neural-rag-will-bryk-exa.ai|AIEF2025 - Building a Smarter AI Agent with Neural RAG]] — Will Bryk (Exa.ai) at AIEF2025: the case for AI-native search built from scratch with transformer embeddings, the information theory argument for why LLMs need search, and why human-optimized searc... ( #aief2025 #neural-rag #ai-native-search #embeddings #exa)
+- [[references/aief2025-building-the-platform-for-agent-coordination-tom-moor-linear|Building the platform for agent coordination — Tom Moor, Linear]] — Tom Moor, engineering leader at Linear, describes Linear's AI journey from skunkworks to agent coordination platform — covering search infrastructure, product intelligence, and treating agents as t... ( #talk #agents #coordination #ai-strategy #linear)
+- [[references/aief2025-ci-era-ai-stochastic-evals-nathan-sobo-zed|AIEF2025 - CI in the Era of AI: From Unit Tests to Stochastic Evals — Nathan Sobo, Zed]] — AIEF2025 - CI in the Era of AI: From Unit Tests to Stochastic Evals ( #aief2025 #stochastic-evals #ci #agentic-editing #zed)
+- [[references/aief2025-ciam-for-ai-michael-grinich|CIAM for AI: Authn/Authz for Agents — Michael Grinich, CEO of WorkOS]] — WorkOS CEO Michael Grinich at AI Engineer World's Fair 2025 on why AI agents need first-class identity, four architecture patterns (persona shadowing, delegation chains, capability tokens, human es... ( #reference #talk #aief2025 #identity #auth)
+- [[references/aief2025-claude-code-evolution-of-agentic-coding-boris-cherny|AIEF2025 - Claude Code & the evolution of agentic coding — Boris Cherny, Anthropic]] — Boris Cherny (Anthropic) traces the history of programming from punch cards to AI coding agents, explains Claude Code's terminal-first unopinionated design, and presents the thesis that model capab... ( #aief2025 #talk #claude-code #agentic-coding #anthropic)
+- [[references/aief2025-collaborating-with-agents-jon-peck-christopher-harrison|AIEF2025 - Collaborating with Agents in your Software Dev Workflow — Jon Peck & Christopher Harrison, Microsoft]] — Hands-on lab on GitHub Copilot's evolution from code completions to autonomous coding agents — covering security model, context engineering, Copilot Instructions, .instructions files, MCP, and the... ( #reference #talk #aief2025 #github #copilot)
+- [[references/aief2025-connections-nlp-word-games|AIEF2025 - New York Times' Connections: A Case Study on NLP in Word Games — Shafik Quoraishee, NYT Games]] — NYT Connections game presented as an NLP benchmark testing LLMs' abstract reasoning and overfitting resistance via graph coloring and System 1/System 2 thinking. ( #aief2025 #connections #nlp #word-games #llm-benchmarking)
+- [[references/aief2025-conquering-agent-chaos-rick-blalock-agentuity|AIEF2025 — Conquering Agent Chaos — Rick Blalock, Agentuity]] — Rick Blalock (Agentuity) presents the core deployment challenges of AI agents — serverless timeouts, statefulness, gateway wiring — and the infrastructure primitives agents need: long runtimes, pau... ( #aief2025 #agent-deployment #agent-infrastructure #agent-chaos #agentuity)
+- [[references/aief2025-containing-agent-chaos-solomon-hykes-dagger|Containing Agent Chaos — Solomon Hykes, Dagger]] — "Solomon Hykes at AIEF2025: coding agents need container-native environments with isolation, customizability, multiplayer, and openness — introducing container use for agent environments." - contai... ( #aief2025 #talk #agents #containers #platform-engineering)
+- [[references/aief2025-continuous-profiling-for-gpus-matthias-loibl|AIEF2025 - Continuous Profiling for GPUs — Matthias Loibl, Polar Signals]] — Talk by Matthias Loibl (Director of Product and Cloud, Polar Signals) on continuous profiling for GPUs using eBPF, GPU time profiling, and flame charts at AI Engineer World's Fair 2025. ( #aief2025 #gpu-profiling #continuous-profiling #eBPF #cuda)
+- [[references/aief2025-data-is-your-differentiator-mani-khanuja-aws|Data is Your Differentiator: Building Secure and Tailored AI Systems — Mani Khanuja, AWS]] — Data is Your Differentiator: Building Secure and Tailored AI Systems ( #talk #ai-engineering #data-strategy #generative-ai #aws)
+- [[references/aief2025-day2-intro-laurie-voss|Day 2 Keynotes Intro]] — Laurie Voss's Day 2 opening at AIEF2025, introducing Logan Kilpatrick (Gemini 2.5 Pro), Docker founder (agent reliability), and Benjamin Dunphy (AI Education Summit announcement). ( #aief2025 #keynote #day2 #laurie-voss #gemini)
+- [[references/aief2025-defend-sites-ai-bots-david-mytton-arcjet|How to defend your sites from AI bots — David Mytton, Arcjet (AIEF2025)]] — David Mytton (Arcjet) walks through eight layers of defense against AI crawlers and automated clients — from robots.txt and user-agent verification through JA4 fingerprinting and cryptographic sign... ( #reference #talk #aief2025 #security #bots)
+- [[references/aief2025-define-ai-engineer-greg-brockman-openai-jensen-huang|AIEF2025 - #define AI Engineer - Greg Brockman, OpenAI (ft. Jensen Huang)]] — AIEF2025 - #define AI Engineer - Greg Brockman, OpenAI (ft. Jensen Huang) ( #talk #aief2025 #openai #stripe #interview)
+- [[references/aief2025-design-like-karpathy-is-watching|Design like Karpathy is watching — Zeke Sikelianos, Replicate]] — Zeke Sikelianos (Replicate) presents at AIEF2025 on designing AI-native products inspired by Andre Karpathy's work. Covers Menugen, LLMs.txt, curl-first APIs, OpenAPI, and MCP. ( #aief2025 #zeke-sikelianos #replicate #karpathy #vibe-coding)
+- [[references/aief2025-designing-ai-intensive-applications-swyx|AIEF2025 - Designing AI-Intensive Applications — swyx]] — AIEF2025 - Designing AI-Intensive Applications — swyx ( #aief2025 #ai-intensive #agent-patterns #standard-models #architecture)
+- [[references/aief2025-devin-2-scott-wu|AIEF2025 - Devin 2.0 and the Future of SWE — Scott Wu, Cognition]] — Scott Wu (Cognition) presents Moore's Law for AI agents (70-day doubling in code), traces the tiered evolution from tab completion to cross-file diagnosis, and explains why agent interfaces change... ( #aief2025 #talk #devin #cognition #scott-wu)
+- [[references/aief2025-dispatch-from-future-dan-shipper|Dispatch from the Future: building an AI-native Company]] — Dan Shipper's AIEF2025 talk on building Every — 15 people, 4 products, 99% AI-written code, using compounding engineering. ( #aief2025 #ai-native #compounding-engineering #small-teams #ai-coding)
+- [[references/aief2025-does-ai-actually-boost-developer-productivity-yegor-denisov-blanch-stanford|AIEF2025 — Does AI Actually Boost Developer Productivity? (100k Devs Study) — Yegor Denisov-Blanch, Stanford]] — Stanford's largest study on AI's impact on developer productivity, analyzing 100k+ engineers across 600+ companies. Finds 15-20% net productivity boost from AI, but significant rework costs mask tr... ( #aief2025 #ai-productivity #software-engineering #research #methodology)
+- [[references/aief2025-dont-get-one-shotted-tomas-reimers-graphite|Don't Get One-Shotted: Use AI to Test, Review, Merge, and Deploy Code — Tomas Reimers, Graphite (AIEF2025)]] — Tomas Reimers, co-founder of Graphite, argues that AI accelerates the inner loop of development (writing code) so dramatically that the outer loop (testing, reviewing, merging, deploying) becomes t... ( #ai-engineering #code-review #software-engineering #workflow #cicd)
+- [[references/aief2025-dream-machine-scaling-keegan-mccallum-luma-ai|AIEF2025 - Dream Machine: Scaling to 1M Users in 4 Days — Keegan McCallum, Luma AI]] — Keegan McCallum's talk on scaling Dream Machine from 500 to ~9,000 GPUs in 4 days, custom PyTorch serving, SLA-based fair scheduling, and model versioning. ( #aief2025 #luma-ai #gpu-scaling #inference-serving #fair-scheduling)
+- [[references/aief2025-engineering-better-evals-dat-ngo-aman-khan-arize|Engineering Better Evals: Scalable LLM Evaluation Pipelines That Work]] — Dat Ngo and Aman Khan from Arize AI present the full evals toolbox — from LLM-as-judge through code-based heuristics — and the two-circle model for continuous eval improvement. ( #evals #observability #llm-evaluation #pipeline #scalable)
+- [[references/aief2025-evals-101-doug-guthrie-braintrust|Evals 101 — Doug Guthrie, Braintrust]] — Evals 101 — Doug Guthrie, Braintrust ( #evals #intro #braintrust #aief2025 #evaluation-methodology)
+- [[references/aief2025-evals-are-not-unit-tests-ido-pesok-vercel-v0|AIEF2025 - Evals Are Not Unit Tests — Ido Pesok, Vercel v0]] — Ido Pesok (Vercel) explains why AI application evals differ fundamentally from unit tests, using a basketball court metaphor for building eval datasets. ( #aief2025 #evals #testing #production-ai #vercel)
+- [[references/aief2025-evals-workshop-braintrust|AIEF2025 - [Evals Workshop] Mastering AI Evaluation: From Playground to Production]] — Braintrust workshop at AIEF2025 on building structured AI evaluation pipelines: eval ingredients (task, dataset, score), LLM-as-judge best practices, judge calibration, and the transition from play... ( #reference #workshop #aief2025 #evals #evaluation)
+- [[references/aief2025-evaluating-ai-search-quotient-ai-tavily|Evaluating AI Search: A Practical Framework for Augmented AI Systems — Quotient AI + Tavily]] — Evaluating AI Search: A Practical Framework for Augmented AI Systems — Quotient AI + Tavily ( #evals #ai-search #benchmarking #dynamic-data #aief2025)
+- [[references/aief2025-events-wrong-abstraction-mason-egger|Events are the Wrong Abstraction for Your AI Agents — Mason Egger, Temporal.io]] — Mason Egger argues that event-driven architecture is the wrong center for AI agent systems, proposing durable execution as the re-centered abstraction that abstracts away event complexity like prio... ( #ai #architecture #durable-execution #event-driven #distributed-systems)
+- [[references/aief2025-everything-is-ugly-so-go-build-something-that-isnt-raiza-martin-huxe|AIEF2025 - Everything is ugly, so go build something that isn't — Raiza Martin, Huxe (ex NotebookLM)]] — Raiza Martin's talk at the AI Engineer World's Fair 2025 on why all current products are at their ugliest point ever, the multi-layer cake model of product building, and personal clarity as the fou... ( #aief2025 #product #ai #talk #raiza-martin)
+- [[references/aief2025-excalidraw-ai-human-whiteboarding-christopher-chedeau|AIEF2025 - Excalidraw: AI and Human Whiteboarding Partnership - Christopher Chedeau]] — Christopher Chedeau's AIEF2025 talk on building Excalidraw from procrastination, the physical-vs-virtual whiteboard paradigm shift, and lessons from AI integration experiments. ( #reference #talk #aief2025 #excalidraw #whiteboarding)
+- [[references/aief2025-five-hard-earned-lessons-evals-ankur-goyal-braintrust|Five Hard Earned Lessons About Evals — Ankur Goyal, Braintrust]] — "AIEF2025 talk by Ankur Goyal presenting five lessons: evals must provide value, must be engineered, scorers are specs, modern prompts are about context, and you must optimize the entire system. ( #reference #talk #aief2025 #braintrust #evaluation)
+- [[references/aief2025-forget-rag-pipelines-nina-lopatina-rajiv-shah-contextual|AIEF2025 — Forget RAG Pipelines—Build Production Ready Agents in 15 Mins: Nina Lopatina, Rajiv Shah, Contextual]] — Nina Lopatina and Rajiv Shah from Contextual AI demonstrate how to treat RAG as a managed service, showing their modular platform for production-ready RAG agents with no-code, developer, and modula... ( #aief2025 #rag #contextual-ai #managed-service #enterprise-ai)
+- [[references/aief2025-form-factors-ai-coworkers-craig-wattrus-flatfile|Form Factors for Your New AI Coworkers — Craig Wattrus, Flatfile]] — Craig Wattrus (Flatfile) on four form factors for AI coworkers (invisible, ambient, in-line, conversational), character coaching vs output control, and woodworking-inspired design philosophy of fee... ( #reference #talk #aief2025 #agent-design #flatfile)
+- [[references/aief2025-foundry-local-emma-ning|AIEF2025 - Foundry Local: Cutting-Edge AI on Device with ONNX Runtime/Olive]] — Emma Ning (Microsoft PM) presents Foundry Local, Microsoft's end-to-end on-device AI platform combining ONNX Runtime, Azure AI Foundry model downloads, and hardware-accelerated inference across CPU... ( #talk #microsoft #onnx-runtime #olive #foundry-local)
+- [[references/aief2025-from-copilot-to-colleague-joel-hron|From Copilot to Colleague: Trustworthy Agents for High-Stakes]] — Joel Hron, CTO of Thomson Reuters, describes the company's evolution from helpful AI assistants to productive agents in high-stakes domains (law, tax, risk), covering agentic dials, eval challenges... ( #aief2025 #talk #thomson-reuters #enterprise-ai #evals)
+- [[references/aief2025-from-self-driving-to-autonomous-voice-agents-brooke-hopkins-coval|From Self-driving to Autonomous Voice Agents — Brooke Hopkins, Coval]] — Brooke Hopkins (Waymo -> Coval) argues that large-scale simulation and continuous eval loops from autonomous vehicle development are equally critical for making voice agents production-ready. ( #aief2025 #voice-ai #evals #simulation #waymo)
+- [[references/aief2025-from-vibe-coding-to-vibe-engineering-kitze-sizzy|From Vibe Coding To Vibe Engineering — Kitze, Sizzy]] — From Vibe Coding To Vibe Engineering — Kitze, Sizzy ( #vibe-coding #vibe-engineering #ai-coding #aief2025 #cursor)
+- [[references/aief2025-full-spec-mcp-hidden-capabilities-harald-kirschner|Full Spec MCP: Hidden Capabilities of the MCP spec — Harald Kirschner, Microsoft/VSCode]] — Harald Kirschner's AIEF2025 talk on unlocking the full Model Context Protocol spec beyond tools — dynamic discovery, sampling, elicitations, streamable HTTP, and the MCP Steering Committee. ( #mcp #model-context-protocol #aief2025 #vscode #microsoft)
+- [[references/aief2025-fuzzing-in-the-genai-era|AIEF2025 - Fuzzing in the GenAI Era — Leonard Tang, Haize Labs]] — Leonard Tang (Haize Labs) at AIEF2025 on applying property-based/fuzz testing to GenAI — brittleness, Lipschitz discontinuity, LLM-as-judge problems, and scaling judge time compute. ( #reference #talk #aief2025 #fuzz-testing #ai-reliability)
+- [[references/aief2025-gemini-25-pro-logan-kilpatrick|Gemini 2.5 Pro Launch]] — Logan Kilpatrick's AIEF2025 talk announcing Gemini 2.5 Pro, recapping a year of Gemini progress, and previewing what's coming across models, the Gemini app, and the developer platform. ( #aief2025 #gemini #google-deepmind #model-launch #benchmark)
+- [[references/aief2025-gemini-progress-logan-kilpatrick|A year of Gemini progress + what comes next]] — Logan Kilpatrick's AIEF2025 talk recapping a year of Gemini progress, announcing Gemini 2.5 Pro, and previewing the future across models, the Gemini app, and the developer platform. ( #aief2025 #gemini #google-deepmind #model-roadmap #multimodal)
+- [[references/aief2025-google-photos-magic-editor-kelvin-ma|Google Photos Magic Editor: GenAI Under the Hood of a Billion-User App — Kelvin Ma, Google Photos]] — Google Photos editing on on-device ML photo editing evolution (2018-present): U-Net segmentation, Magic Eraser, model evaluation as unit testing, ML iteration vs deadlines. ( #reference #talk #aief2025 #google #computer-vision)
+- [[references/aief2025-government-agents-mark-myshatyn|Government Agents: AI Agents Meet Tough Regulations]] — Mark Myshatyn (LANL) on bringing AI agents into government mission work under strict regulatory constraints — OMB memos, FedRAMP, CNSSI 1253, classified data, and HPC-executed agents. ( #aief2025 #government-ai #ai-agents #regulations #national-security)
+- [[references/aief2025-graph-intelligence-alison-andreas-neo4j|AIEF2025 — Graph Intelligence: Enhance Reasoning and Retrieval Using Graph Analytics — Alison Cosette & Andreas, Neo4j]] — How to apply graph data science algorithms — KNN similarity, community detection, PageRank, betweenness centrality — to improve RAG grounding data quality and retrieval diversity at scale. Introduc... ( #aief2025 #neo4j #graph-analytics #rag #community-detection)
+- [[references/aief2025-graphrag-code-jonathan-larson|GraphRAG Methods to Create Optimized LLM Context Windows for Retrieval]] — GraphRAG Methods to Create Optimized LLM Context Windows for Retrieval ( #graphrag #code-understanding #microsoft-research #aief2025 #talk)
+- [[references/aief2025-hacking-inference-pareto-frontier-kyle-kranen-nvidia|AIEF2025 - Hacking the Inference Pareto Frontier — Kyle Kranen, NVIDIA]] — Kyle Kranen (NVIDIA) presents how to manipulate the quality-latency-cost Pareto frontier for LLM inference through techniques like disaggregation, quantization, and RAG, with real production data f... ( #inference #pareto-frontier #disaggregation #kv-cache #quantization)
+- [[references/aief2025-hacking-yagents-yc-spring-2025-rene-brandel-casco|How we hacked YC Spring 2025 batch's AI agents — Rene Brandel, Casco]] — Casco CEO Rene Brandel demonstrates hacking 7 of 16 YC Spring 2025 batch agents in 30 minutes each, revealing three common agent security vulnerabilities: IDOR, code sandbox abuse, and prompt inver... ( #aief2025 #agent-security #red-teaming #y-combinator #idor)
+- [[references/aief2025-how-intuit-uses-llms-to-explain-taxes-to-millions-of-taxpayers-jaspreet-singh-intuit|AIEF2025 - How Intuit uses LLMs to explain taxes to millions of taxpayers — Jaspreet Singh, Intuit]] — AIEF2025 - How Intuit uses LLMs to explain taxes to millions of taxpayers — Jaspreet Singh, Intuit ( #reference #talk #aief2025 #enterprise-ai #tax)
+- [[references/aief2025-how-to-build-planning-agents-without-losing-control-yogendra-miraje-factset|AIEF2025 - How to Build Planning Agents without losing control - Yogendra Miraje, FactSet]] — AIEF2025 - How to Build Planning Agents without losing control ( #aief2025 #planning-agents #agentic-workflows #blueprint-pattern #enterprise-ai)
+- [[references/aief2025-how-to-hire-ai-engineers-when-everyone-is-cheating-beth-glenfield-devday|How to Hire AI Engineers when EVERYONE is cheating with AI — Beth Glenfield, DevDay]] — How to Hire AI Engineers when EVERYONE is cheating with AI — Beth Glenfield, DevDay ( #hiring #ai-recruitment #technical-interviews #simulation-based-assessment #aief2025)
+- [[references/aief2025-how-to-improve-your-vibe-coding|AIEF2025 - How to Improve your Vibe Coding — Ian Butler]] — Ian Butler (CEO, Bismuth) presents benchmark results on AI agent bug-finding capabilities, practical tips for improving vibe coding through bug-focused rules, context management, and thinking models. ( #aief2025 #vibe-coding #agent-evaluation #bug-detection #false-positives)
+- [[references/aief2025-how-to-look-at-your-data-jeff-huber-chroma-jason-liu-567|AIEF2025 - How to look at your data — Jeff Huber (Chroma) + Jason Liu (567)]] — Two-part talk on empirically measuring and improving AI systems: Jeff Huber covers fast evals for retrieval systems and embedding model selection; Jason Liu covers analyzing conversation outputs at... ( #aief2025 #evals #retrieval #embedding-models #fast-evals)
+- [[references/aief2025-how-to-run-evals-at-scale-muktesh-mishra-adobe|AIEF2025 - How to run Evals at Scale: Thinking beyond Accuracy or Similarity — Muktesh Mishra, Adobe]] — AIEF2025 — How to run Evals at Scale: Thinking beyond Accuracy or Similarity ( #aief2025 #evaluation #scale #adaptive-evals #data-centric)
+- [[references/aief2025-how-to-secure-agents-oauth-jared-hanson|How to Secure Agents using OAuth — Jared Hanson (Keycard, Passport.js)]] — How to Secure Agents using OAuth — Jared Hanson (Keycard, Passport.js) ( #reference #talk #aief2025 #oauth #security)
+- [[references/aief2025-human-seeded-evals-samuel-colvin-pydantic|AIEF2025 — Human Seeded Evals — Samuel Colvin, Pydantic]] — Samuel Colvin's talk at AI Engineer World's Fair 2025 demonstrating Pydantic AI's type-safe agent framework, validation error feedback loops, and structured output extraction. ( #aief2025 #pydantic #type-safety #agent-framework #validation)
+- [[references/aief2025-inference-engines-benchmarking-charles-frye-modal|How Fast Are LLM Inference Engines Anyway? — Charles Frye, Modal (AIEF2025)]] — Charles Frye presents the Modal LLM Almanac — comprehensive benchmark data comparing vLLM, SGLang, and TensorRT-LLM across 10+ models on H100 GPUs. Key finding: prefill-dominated workloads achieve... ( #reference #talk #aief2025 #inference #benchmarking)
+- [[references/aief2025-intro-to-graphrag-zach-blumenfeld|AIEF2025 — Intro to GraphRAG: Hands-On Workshop — Zach Blumenfeld]] — A hands-on 80-minute workshop introducing GraphRAG fundamentals through three modules: Neo4j graph basics with Cypher queries, entity extraction from unstructured data, and building a simple agent... ( #ai-engineering #knowledge-graph #graphrag #neo4j #aief2025)
+- [[references/aief2025-introducing-strands-agents-open-source-ai-agents-sdk-suman-debnath-aws|Introducing Strands Agents, an Open Source AI Agents SDK — Suman Debnath, AWS]] — AWS developer Suman Debnath demos Strands, an open-source AI agent SDK with minimal scaffolding — just model and tools. Covers default tools, MCP server integration, and custom tool creation. ( #reference #talk #aief2025 #aws #strands)
+- [[references/aief2025-introduction-to-llm-serving-sglang-philip-kiely-yineng-zhang|Introduction to LLM serving with SGLang — Philip Kiely and Yineng Zhang, Baseten]] — Workshop covering the SGLang LLM serving framework including deployment, CUDA Graph optimization, Eagle 3 speculative decoding, and community contribution. ( #reference #talk #aief2025 #sglang #inference)
+- [[references/aief2025-knowledge-graphs-litigation-agents-tom-smoker-whyhow|AIEF2025 — Knowledge Graphs in Litigation Agents]] — AIEF2025 — Knowledge Graphs in Litigation Agents ( #conference-talk #aief2025 #graphrag #litigation #multi-agent)
+- [[references/aief2025-layering-every-technique-in-rag-david-karam|AIEF2025 - Layering every technique in RAG, one query at a time — David Karam, Pi Labs]] — AIEF2025 - Layering every technique in RAG, one query at a time ( #aief2025 #talk #rag #retrieval #bm25)
+- [[references/aief2025-machines-of-buying-and-selling-grace-adam-behrens-new-generation|AIEF2025 - Machines of Buying and Selling Grace - Adam Behrens, New Generation]] — AIEF2025 - Machines of Buying and Selling Grace - Adam Behrens, New Generation ( #conference-talk #aief2025 #agentic-commerce #e-commerce #agent-infrastructure)
+- [[references/aief2025-make-your-llm-app-a-domain-expert-christopher-lovejoy|AIEF2025 - Make your LLM app a Domain Expert: How to Build an Expert System — Christopher Lovejoy, Anterior]] — Christopher Lovejoy (Anterior) on domain-native LLM apps. The system for incorporating domain insights matters more than model sophistication. Covers last-mile problem and failure mode ontology.
+- [[references/aief2025-mastering-engineering-flow-windsurf-eashan-sinha|AIEF2025 - Mastering Engineering Flow with Windsurf - Eashan Sinha, Windsurf]] — AIEF2025 - Mastering Engineering Flow with Windsurf - Eashan Sinha, Windsurf ( #aief2025 #windsurf #cascade #ai-flows #flow-awareness)
+- [[references/aief2025-mcp-is-not-good-yet-david-cramer-sentry|MCP Is Not Good Yet — David Cramer, Sentry (AIEF2025)]] — A grounded, experience-based critique of MCP from the founder of Sentry, arguing that MCP is just a pluggable architecture for agents — not magic — and that the real value is in building agents, no... ( #mcp #aief2025 #agents #production #architecture)
+- [[references/aief2025-mcp-origins-and-requests-for-startups-theodora-chu|AIEF2025 - MCP: Origins and Requests For Startups — Theodora Chu]] — Theodora Chu (MCP PM at Anthropic) covers MCP's origin story, design principles, project updates, and roadmap — from two engineers copying context to a standardized protocol adopted by Cursor, VS C... ( #aief2025 #mcp #model-context-protocol #theodora-chu #anthropic)
+- [[references/aief2025-mentoring-the-machine-eric-hou-augment-code|AIEF2025 - Mentoring the Machine — Eric Hou, Augment Code]] — AIEF2025 - Mentoring the Machine — Eric Hou, Augment Code ( #reference #talk #aief2025 #ai-agents #mentoring)
+- [[references/aief2025-milliseconds-to-magic|AIEF2025 - Milliseconds to Magic: Real-Time Workflows using the Gemini Live API and Pipecat]] — AIEF2025 - Milliseconds to Magic: Real-Time Workflows using the Gemini Live API and Pipecat ( #aief2025 #voice-ai #gemini #pipecat #real-time)
+- [[references/aief2025-multi-agent-ai-and-network-knowledge-graphs-for-change-ola-mabadeje-cisco|AIEF2025 — Multi Agent AI and Network Knowledge Graphs for Change — Ola Mabadeje, Cisco]] — AIEF2025 — Multi Agent AI and Network Knowledge Graphs for Change — Ola Mabadeje, Cisco ( #aief2025 #multi-agent #knowledge-graph #network-operations #digital-twin)
+- [[references/aief2025-netflix-one-model-recommendations-yesu-feng|Netflix's Big Bet: One Model to Rule Recommendations — Yesu Feng, Netflix]] — Yesu Feng (Netflix) presents Netflix's bet on a single transformer-based foundation model covering all recommendation use cases — covering tokenization, architecture, scaling evidence, consumption... ( #reference #talk #aief2025 #recommendation-systems #foundation-model)
+- [[references/aief2025-on-engineering-ai-systems-that-endure-omar-khattab|On Engineering AI Systems that Endure: The Bitter Lesson]] — Omar Khattab's AIEF 2025 talk reframing Sutton's Bitter Lesson for AI engineering: we build software not because we lack AGI but because we need reliable systems that subtract agency in the right p... ( #aief2025 #talk #bitter-lesson #ai-engineering #reliability)
+- [[references/aief2025-open-source-humanoid-robot-k-scale-labs|Your Personal Open-Source Humanoid Robot for $8,999 — JX Mo, K-Scale Labs]] — JX Mo (founding engineer, K-Scale Labs) presents the K-Bot ($8,999) and Z-Bot open-source humanoid robots — fully open-sourced hardware, software, and ML stack with a developer-first Python/Rust SD... ( #reference #talk #aief2025 #robotics #humanoid)
+- [[references/aief2025-optimizing-inference-voice-models-philip-kiely-baseten|AIEF2025 - Optimizing Inference for Voice Models in Production]] — Philip Kiely of Baseten covers runtime optimization techniques for TTS models (Orpheus TTS) including TensorRT-LLM, FP8 quantization on Hopper architecture, dynamic batching, and GPU audio decoding... ( #talk #aief2025 #voice-ai #inference #optimization)
+- [[references/aief2025-perceptual-evaluations-diego-rodriguez-krea-ai|Perceptual Evaluations: Evals for Aesthetics]] — Diego Rodriguez (Krea.ai) argues that AI evaluation metrics must measure human-perceived quality rather than proxy signals like FID scores, which are optimized for computational convenience over hu... ( #aief2025 #perceptual-evals #aesthetics #evals #human-perception)
+- [[references/aief2025-pipecat-cloud-kwindla-kramer|AIEF2025 - Pipecat Cloud: Enterprise Voice Agents Built On Open Source]] — AIEF2025 - Pipecat Cloud: Enterprise Voice Agents Built On Open Source ( #aief2025 #voice-ai #pipecat #cloud #enterprise)
+- [[references/aief2025-poc-to-prod-hard-lessons-200-enterprise-genai-deployments|AIEF2025 - POC to PROD: Hard Lessons from 200+ Enterprise GenAI Deployments]] — Randall Hunt of Caylent shares hard lessons from 200+ enterprise GenAI deployments at AIEF2025, covering evals as the real moat, input-output specification, multimodal video search, and practical a... ( #aief2025 #enterprise-ai #poc-to-prod #evals #input-output)
+- [[references/aief2025-practical-graphrag-michael-jesus-stephen-neo4j|AIEF2025 — Practical GraphRAG: Making LLMs smarter with Knowledge Graphs — Michael, Jesus, and Stephen, Neo4j]] — AIEF2025 — Practical GraphRAG: Making LLMs smarter with Knowledge Graphs ( #ai-engineering #knowledge-graph #graphrag #neo4j #aief2025)
+- [[references/aief2025-private-cloud-compute-jmo|The Unofficial Guide to Apple's Private Cloud Compute — Jmo, CONFSEC]] — Jmo (Confidence Security) presents an unofficial deep-dive into Apple's Private Cloud Compute (PCC) architecture — the five key privacy requirements, six technical components that implement them, a... ( #reference #talk #aief2025 #privacy #apple)
+- [[references/aief2025-production-software-keeps-breaking-anish-agarwal-traversal|AIEF2025 - Production software keeps breaking and it will only get worse — Anish Agarwal, Traversal.ai]] — Traversal.ai founders Anish Agarwal and Matt argue that AI coding tools will make production troubleshooting exponentially harder, and present causal ML + reasoning models + agent swarms as the sol... ( #production-troubleshooting #causal-machine-learning #agent-swarm #aiops #observability)
+- [[references/aief2025-prompt-engineering-is-dead-nir-gazit-traceloop|Prompt Engineering is Dead — Nir Gazit, Traceloop]] — Nir Gazit argues prompt engineering never existed as real engineering. He demonstrates an auto-improving agent loop that optimized a RAG chatbot over five weeks without manual prompt iteration. ( #aief2025 #prompt-engineering #rag #evaluation #auto-improvement)
+- [[references/aief2025-rag-in-2025-state-of-the-art-and-the-road-forward-tengyu-ma|RAG in 2025: State of the Art and the Road Forward]] — Tengyu Ma (MongoDB, acq. Voyage AI) presents why RAG beats fine-tuning and long-context for enterprise knowledge, covering embedding model progress, matricial learning, quantization, hybrid search,... ( #rag #embedding-models #retrieval #fine-tuning #long-context)
+- [[references/aief2025-real-world-mcps-jon-peck|Real World MCPs in GitHub Copilot Agent Mode — Jon Peck, Microsoft]] — Real World MCPs in GitHub Copilot Agent Mode — Jon Peck, Microsoft ( #aief2025 #mcp #github-copilot #agent-mode #jon-peck)
+- [[references/aief2025-realtime-conversational-video-with-pipecat-and-tavus|AIEF2025 — Realtime Conversational Video with Pipecat and Tavus]] — AIEF2025 — Realtime Conversational Video with Pipecat and Tavus ( #aief2025 #video-ai #pipecat #tavus #real-time)
+- [[references/aief2025-rethinking-team-building-grant-lee-gamma|AIEF2025 — Rethinking Team Building: how a 30-person Startup serves 50 Million Users (Grant Lee, Gamma)]] — Grant Lee (CEO, Gamma) shares how Gamma serves 50M users on a 30-person team using generalist hiring, player-coach leadership, and org design innovation. ( #aief2025 #team-building #org-design #generalist #player-coach)
+- [[references/aief2025-rft-dpo-sft-fine-tuning-with-openai-ilan-bigio|RFT, DPO, SFT: Fine-tuning with OpenAI — Ilan Bigio, OpenAI]] — OpenAI's Ilan Bigio covers SFT, DPO, and RFT as three progressive fine-tuning methods, demonstrating each with live coding and real-world case studies including a function-calling latency reduction... ( #fine-tuning #rl #dpo #sft #reinforcement-learning)
+- [[references/aief2025-rise-of-ai-architect-clay-bavor-sierra|Rise of the AI Architect — Clay Bavor, Cofounder, Sierra w/ Alessio Fanelli]] — AI Engineer World's Fair 2025 talk by Clay Bavor (Sierra) defining the AI Architect role — combining technology, brand/experience design, and business outcomes — and introducing the Agent Developme... ( #reference #talk #aief2025 #agents #ai-architecture)
+- [[references/aief2025-rishabh-garg-tesla-optimus|AIEF2025 - Rishabh Garg, Tesla Optimus — Challenges in High Performance Robotics Systems]] — AIEF2025 - Rishabh Garg, Tesla Optimus — Challenges in High Performance Robotics Systems ( #aief2025 #robotics #tesla #optimus #can-bus)
+- [[references/aief2025-rl-autonomous-coding-aakanksha-chowdhery|AIEF2025 - RL for Autonomous Coding — Aakanksha Chowdhery, Reflection.ai]] — Aakanksha Chowdhery traces the arc of LLM progress from scaling laws through chain-of-thought emergence, RLHF, and into inference-time compute scaling via majority voting and sequential revision. ( #aief2025 #autonomous-coding #reinforcement-learning #scaling-laws #chain-of-thought)
+- [[references/aief2025-robotics-why-now-quan-vuong-jost-tobias-springberg-physical-intelligence|Robotics: Why Now? — Quan Vuong and Jost Tobias Springberg, Physical Intelligence]] — Physical Intelligence co-founders present their vision for general-purpose robot control via Vision-Language-Action models, their data engine pipeline, and why the AI wave has made robotics feasibl... ( #reference #talk #aief2025 #robotics #vla)
+- [[references/aief2025-robots-as-professional-chefs-nikhil-abraham-cloudchef|AIEF2025 - Robots as Professional Chefs - Nikhil Abraham, CloudChef]] — Nikhil Abraham (CloudChef CEO) presents CloudChef's wheeled two-arm robots deployed in real commercial kitchens, using thermal/RGB perception, foundation models, and teleoperation to cook 1000+ rec... ( #reference #talk #aief2025 #robotics #cooking)
+- [[references/aief2025-scaling-enterprise-grade-rag-legal-frontier|Scaling Enterprise-Grade RAG: Lessons from Legal Frontier]] — Calvin Qi (Harvey) and Chang She (LanceDB) discuss challenges of building RAG systems for legal data at massive scale, including query complexity, eval-driven development, and AI-native lakehouse i... ( #talk #rag #legal-ai #enterprise #lance-db)
+- [[references/aief2025-securing-agents-open-standards-bobby-tiernay-auth0|Securing Agents with Open Standards — Bobby Tiernay and Kam Sween, Auth0 (AIEF2025)]] — Auth0 engineers on practical patterns for agent identity and access control: token exchange over shared secrets, CIBA for headless auth, OAuth 2.1 for MCP, and retrieval-layer authorization for RAG. ( #reference #talk #aief2025 #identity #auth)
+- [[references/aief2025-securing-code-executing-ai-agents-fouad-matin|OpenAI on Securing Code-Executing AI Agents — Fouad Matin (Codex, Agent Robustness)]] — OpenAI on Securing Code-Executing AI Agents — Fouad Matin (AIEF2025) ( #aief2025 #agent-security #agent-sandboxing #prompt-injection #data-exfiltration)
+- [[references/aief2025-serving-voice-ai-at-1-hr-neil-dwyer-gabber|Serving Voice AI at $1/hr: Open-source, LoRAs, Latency, Load Balancing — Neil Dwyer, Gabber]] — Neil Dwyer (CTO, Gabber) at AIEF2025 on hosting Orpheus TTS inference at $1/hr for consumer voice AI, covering LoRA fine-tuning for voice cloning, head-of-line silence, snack token throughput, and... ( #voice-ai #orpheus #lora #voice-cloning #latency)
+- [[references/aief2025-serving-voice-ai-at-scale-arjun-desai-cartesia-rohit-talluri-aws|Serving Voice AI at Scale — Arjun Desai (Cartesia) & Rohit Talluri (AWS)]] — Arjun Desai (Cartesia) and Rohit Talluri (AWS) at AIEF2025 on building real-time voice AI for enterprise, covering state space models, Sonic 2, voice quality/latency/controllability pillars, and th... ( #voice-ai #enterprise-ai #cartesia #aws #aief2025)
+- [[references/aief2025-ship-agents-that-ship|Ship Agents that Ship: A Hands-On Workshop — Kyle Penfound, Jeremy Adams, Dagger (AIEF2025)]] — Hands-on workshop at AI Engineer World's Fair 2025 demonstrating how to build container-sandboxed software engineering agents using Dagger's LLM primitives, from local development through GitHub is... ( #reference #talk #aief2025 #dagger #agents)
+- [[references/aief2025-ship-it-building-production-ready-agents-mike-chambers-aws|AIEF2025 - Ship it! Building Production Ready Agents — Mike Chambers, AWS]] — AWS Developer Advocate Mike Chambers demonstrates taking a local Python agent to cloud scale using Amazon Bedrock Agents, Lambda for tool execution, and the full managed agent lifecycle — from conf... ( #ai-engineering #agents #production #aws #bedrock)
+- [[references/aief2025-ship-production-software-minutes-not-months-eno-reyes-factory|AIEF2025 - Ship Production Software in Minutes, Not Months — Eno Reyes, Factory]] — Eno Reyes (Factory) presents agent-native development: delegating most software lifecycle tasks to agents, the critical role of context, and the transition from executing to orchestrating. ( #aief2025 #factory #agent-native #agent-driven #droids)
+- [[references/aief2025-shipping-enterprise-voice-ai-100-days-peter-bar|Shipping an Enterprise Voice AI Agent in 100 Days]] — Peter Bar (Intercom Fin) at AIEF2025 on building Finvoice — an enterprise voice AI agent for phone support shipped in 100 days, covering use case selection, tech stack, conversation design, evals,... ( #voice-ai #enterprise-ai #customer-service #intercom #aief2025)
+- [[references/aief2025-shipping-products-when-you-dont-know-what-they-can-do|AIEF2025 - Shipping Products When You Don't Know What They Can Do — Ben Stein, Teammates]] — AIEF2025 - Shipping Products When You Don't Know What They Can Do ( #aief2025 #product-management #ai-agents #affordances #emergent-behavior)
+- [[references/aief2025-shipping-something-to-someone-kenneth-auchenberg|AIEF2025 — Shipping something to someone always wins]] — Kenneth Auchenberg (ex-Stripe, VSCode) presents his core product principle: building great products is about rapid iterative feedback loops with real users, not big-bang launches. Uses the skateboa... ( #aief2025 #talk #product-development #iteration #feedback-loops)
+- [[references/aief2025-small-ai-teams-vik-paruchuri-datalab|Small AI Teams with Huge Impact — Vik Paruchuri, Datalab]] — AIEF2025 talk by Vik Paruchuri, CEO of Datalab. Argues that head count does not equal productivity. Shares how a 3-4 person team achieved seven-figure ARR, 40k GitHub stars, and trained state-of-th... ( #aief2025 #talk #small-teams #productivity #datalab)
+- [[references/aief2025-software-development-agents-robert-brennan|"Software Development Agents: What Works and What Doesn't - Robert Brennan, OpenHands"]] — Robert Brennan (OpenHands) at AIEF2025 shares practical lessons on coding agents: how they work under the hood, tooling choices, sandboxing, and best practices for getting started. ( #aief2025 #coding-agents #agent-best-practices #agent-tools #opensource)
+- [[references/aief2025-state-of-generative-media-gorkem-yurtseven-fal|The State of Generative Media - Gorkem Yurtseven, FAL]] — The State of Generative Media - Gorkem Yurtseven, FAL ( #talk #generative-media #video-generation #advertising #e-commerce)
+- [[references/aief2025-state-of-mcp-observability|The State of MCP Observability: Observable.tools]] — The State of MCP Observability: Observable.tools ( #aief2025 #mcp #observability #open-telemetry #talk)
+- [[references/aief2025-stop-using-rag-as-memory-daniel-chalef-zep|AIEF2025 — Stop Using RAG as Memory]] — Daniel Chalef of Zep argues that memory for AI agents should be modeled after the business domain, not dumped as arbitrary facts into vector databases. Domain-aware memory using temporal graphs eli... ( #aief2025 #agent-memory #domain-aware-memory #knowledge-graph #rag)
+- [[references/aief2025-structuring-modern-ai-team-denys-linkov-wisedocs|Structuring a modern AI team — Denys Linkov, Wisedocs]] — Denys Linkov (WiseDocs) at AI Engineer World's Fair 2025: three themes on building AI teams — company types, the generalist approach, and hiring trade-offs. ( #aief2025 #hiring #ai-team #ml-engineering #generalist)
+- [[references/aief2025-taming-rogue-ai-agents-jim-bennett-galileo|Taming Rogue AI Agents with Observability-Driven Evaluation — Jim Bennett, Galileo]] — Jim Bennett (Galileo) presents observability-driven evaluation for AI agents: per-span metrics, LLMs evaluating LLMs, and day-one eval integration. ( #aief2025 #observability #evals #agent-evaluation #llm-as-judge)
+- [[references/aief2025-teaching-gemini-to-speak-youtube-devansh-tandon|AIEF2025 - Teaching Gemini to Speak YouTube: Adapting LLMs for Video Recommendations to 2B+DAU — Devansh Tandon]] — Devansh Tandon presents YouTube's Large Recommender Model (LRM) — adapting Gemini for video recommendations at 2B+ daily active users, covering Semantic ID tokenization, continued pre-training, gen... ( #reference #talk #aief2025 #recommendation-systems #llm)
+- [[references/aief2025-the-2025-ai-engineering-report-barr-yaron-amplify|The 2025 AI Engineering Report — Barr Yaron, Amplify]] — Barr Yaron presents early findings from the 2025 State of AI Engineering Survey (500 respondents), covering model usage, fine-tuning practices, multimodal gaps, agent adoption, monitoring, and eval... ( #aief2025 #survey #ai-engineering #state-of-the-field)
+- [[references/aief2025-the-agent-awakens-christopher-harrison|AIEF2025 — The Agent Awakens: Collaborative Development with Copilot — Christopher Harrison, GitHub]] — Christopher Harrison frames GitHub Copilot as an AI pair programmer, argues that context goes beyond prompt crafting to encompass code quality, and maps Copilot's five workload levels from completi... ( #reference #talk #aief2025 #github #copilot)
+- [[references/aief2025-the-ai-engineers-guide-to-raising-vc|The AI Engineer's Guide to Raising VC — Dani Grant (Jam), Chelcie Taylor (Notable)]] — AI Engineer World's Fair 2025 talk by Dani Grant (Jam) and Chelcie Taylor (Notable) on VC fundraising fundamentals for AI engineers. ( #aief2025 #vc #fundraising #pre-seed #seed)
+- [[references/aief2025-the-billable-hour-is-dead|The Billable Hour is Dead; Long Live the Billable Hour]] — The Billable Hour is Dead; Long Live the Billable Hour ( #aief2025 #professional-services #ai-adoption #consulting #alix-partners)
+- [[references/aief2025-the-eyes-are-the-context-window-to-the-soul-sam-fertig-windsurf|The Eyes Are The (Context) Window to The Soul: How Windsurf Gets to Know You — Sam Fertig, Windsurf]] — The Eyes Are The (Context) Window to The Soul: How Windsurf Gets to Know You — Sam Fertig, Windsurf ( #aief2025 #windsurf #context #ai-coding #cascade)
+- [[references/aief2025-the-future-of-evals-ankur-goyal-braintrust|The Future of Evals - Ankur Goyal, Braintrust]] — AIEF2025 talk by Ankur Goyal on the evolution of AI evaluation from manual dashboard review to automated optimization via Loop, Braintrust's agent built on frontier model capabilities. ( #reference #talk #aief2025 #braintrust #evaluation)
+- [[references/aief2025-the-geopolitics-of-ai-infrastructure-dylan-patel-semianalysis|The Geopolitics of AI Infrastructure — Dylan Patel, SemiAnalysis]] — SemiAnalysis founder Dylan Patel covers China-US semiconductor competition, Huawei's Ascend chips and supply chain circumvention, and the Middle East AI infrastructure boom. ( #reference #talk #aief2025 #geopolitics #ai-infrastructure)
+- [[references/aief2025-the-new-lean-startup-sid-bendre-olive|AIEF2025 — The New Lean Startup: Sid Bendre, Olive]] — AIEF2025 — The New Lean Startup: Sid Bendre, Olive ( #aief2025 #lean-startup #tiny-teams #olive #sid-bendre)
+- [[references/aief2025-the-next-unicorns-7-top-ai-startups-hf0-residency|The Next Unicorns: 7 Top AI Startups from the HF0 Residency]] — Diego Rodriguez (CREA) presents 7+ AI startups from the HF0 Residency at AIEF2025, opening with three framing stories about unpredictability, language barriers, and AI adoption speed. ( #aief2025 #hf0-residency #startups #unicorns #ai-founders)
+- [[references/aief2025-the-rise-of-the-agentic-economy-jan-curn-apify|The Rise of the Agentic Economy on the Shoulders of MCP — Jan Curn, Apify]] — The Rise of the Agentic Economy on the Shoulders of MCP — Jan Curn, Apify ( #aief2025 #talk #mcp #agentic-economy #tool-discovery)
+- [[references/aief2025-the-state-of-ai-powered-search-and-retrieval-frank-liu-mongodb|The State of AI Powered Search and Retrieval — Frank Liu, MongoDB (prev Voyage AI)]] — Frank Liu's AIEF2025 talk on AI-powered search: definition, three real-world applications (code search, structured filtering, agentic retrieval), and the future of retrieval systems. ( #aief2025 #search #retrieval #embeddings #re-ranking)
+- [[references/aief2025-the-web-browser-is-all-you-needed-paul-klein-iv-browserbase|The Web Browser Is All You Need — Paul Klein IV, Browserbase (AIEF2025)]] — Paul Klein IV argues the browser (specifically browser MCP servers) is the universal bridge between AI agents and the legacy internet, covering web agents vs browser tools, vision vs DOM agents, an... ( #mcp #browser #web-agents #browser-tools #headless)
+- [[references/aief2025-top-ten-challenges-agi-stephen-chin-andreas-kolleger|Top Ten Challenges to Reach AGI — Stephen Chin, Andreas Kollegger]] — Top Ten Challenges to Reach AGI ( #aief2025 #talk #agi #graphrag #neo4j)
+- [[references/aief2025-training-agentic-reasoners-will-brown-prime-intellect|AIEF2025 - Training Agentic Reasoners — Will Brown, Prime Intellect]] — Will Brown (Prime Intellect) at AIEF2025 argues that reasoning and agents are the same thing, both are interaction loops with evaluations. Covers RL at scale, PPO/GRPO/DPO comparison, and the custo... ( #aief2025 #reinforcement-learning #reasoning #agents #deepseek)
+- [[references/aief2025-transforming-search-discovery-using-llms|AIEF2025 - Transforming search and discovery using LLMs — Tejaswi & Vinesh, Instacart]] — Instacart search team presents how LLMs transformed their query understanding — category classification and query rewriting — with 18pp precision and 70pp recall gains on tail queries. ( #search #llm #e-commerce #instacart #query-understanding)
+- [[references/aief2025-trends-across-the-ai-frontier-george-cameron-artificialanalysis|Trends Across the AI Frontier — George Cameron, ArtificialAnalysis.ai]] — AIEF2025 talk examining four AI frontiers — reasoning, open weights, cost, speed — with quantitative trade-offs between intelligence, latency, and expense. ( #aief2025 #talk #benchmarking #reasoning #cost)
+- [[references/aief2025-turning-fails-into-features-zapier-evals-rafal-willinski-vitor-balocco|Turning Fails into Features: Zapier's Hard-Won Eval Lessons — Rafal Willinski, Vitor Balocco, Zapier]] — Turning Fails into Features: Zapier's Hard-Won Eval Lessons ( #reference #talk #aief2025 #zapier #evaluation)
+- [[references/aief2025-unlocking-ai-devops-jon-peck|AIEF2025 - Unlocking AI Powered DevOps Within Your Organization — Jon Peck, GitHub]] — Talk by Jon Peck (GitHub Developer Advocate) on organizational AI adoption strategy — brownfield-first learning, agentic IDE workflows, codifying team practices via Copilot Instructions, enterprise... ( #reference #talk #aief2025 #devops #ai-adoption)
+- [[references/aief2025-useful-general-intelligence-danielle-perszyk|Useful General Intelligence — Danielle Perszyk, Amazon AGI (AIEF2025)]] — Cognitive scientist Danielle Perszyk (Amazon AGI) proposes Useful General Intelligence as a reframing of AGI — building AI that makes humans smarter rather than building machines that are smarter t... ( #reference #talk #aief2025 #agi #agents)
+- [[references/aief2025-using-oss-models-hassan-el-mghari|AIEF2025 - Using OSS models to build AI apps with millions of users — Hassan El Mghari]] — Hassan El Mghari (Together AI) shares his process for building open-source AI apps at scale, from ideation to architecture to marketing, with demos of apps reaching 1M+ users. ( #reference #aief2025 #talk #together-ai #open-source-models)
+- [[references/aief2025-vector-search-benchmarking-philipp-krenn-elastic|AIEF2025 - Vector Search Benchmarking - Philipp Krenn, Elastic]] — Philipp Krenn (Elastic) dissects common flaws in vector search benchmarks — cherry-picked scenarios, read-only bias, ignored quality metrics, and selective versioning — and advocates for automated... ( #vector-search #benchmarking #hnsw #precision-recall #evaluation)
+- [[references/aief2025-veo-3-for-developers-paige-bailey-google-deepmind|Veo 3 for Developers — Paige Bailey, Google DeepMind]] — Paige Bailey (engine lead, DevRel at Google DeepMind) presents Veo 3, Imagine 4, and Lyria 2 — Google DeepMind's latest generative media models with native multimodal audio-video generation, creati... ( #aief2025 #video-generation #multimodal #ai-media #google-deepmind)
+- [[references/aief2025-vibe-coding-at-scale-harald-kirshner|AIEF2025 - Vibe Coding at Scale: Customizing AI Assistants for Enterprise Environments - Harald Kirshner]] — Vibe Coding at Scale: Customizing AI Assistants for Enterprise Environments ( #aief2025 #vibe-coding #enterprise-ai #vscode #github-copilot)
+- [[references/aief2025-vibe-coding-at-scale-harold.js|Vibe Coding at Scale: Customizing AI Assistants for Enterprise Environments — Harold, Microsoft]] — Vibe Coding at Scale: Customizing AI Assistants for Enterprise Environments ( #vibe-coding #github-copilot #vscode #enterprise #ai-assistant)
+- [[references/aief2025-vibe-coding-with-confidence-itamar-friedman-qodo|AIEF2025 — Vibe Coding with Confidence (Itamar Friedman, Qodo)]] — Itamar Friedman, CEO of Qodo, argues CLI is the next interface leader for AI coding tools and that "vibe coding with confidence" — not just vibe coding alone — will be the game-changing shift in so... ( #aief2025 #vibe-coding #cli #itamar-friedman #qodo)
+- [[references/aief2025-vibes-wont-cut-it-chris-kelly-augment|Vibes Won't Cut It — Chris Kelly, Augment Code (AIEF2025)]] — A grounded critique of AI coding hype from a production software engineering perspective — arguing that generated code is still code that must be maintained, production systems have emergent behavi... ( #ai-engineering #production #code-review #software-engineering #aief2025)
+- [[references/aief2025-vision-ai-2025-peter-robicheaux-roboflow|Vision AI in 2025 — Peter Robicheaux, Roboflow]] — Peter Robicheaux (ML Lead, Roboflow) argues vision models are not smart, evals are saturated, CLIP fails on visual fidelity, and introduces RF100VL benchmark and RF-DeTter model. ( #aief2025 #computer-vision #vision-language-models #evaluation #pre-training)
+- [[references/aief2025-waymas-emma-teaching-cars-to-think-jyh-jing-hwang|AIEF2025 — Waymo's EMMA: Teaching Cars to Think]] — Jyh Jing Hwang presents EMMA — a foundation-model-based autonomous driving system built on Google's Gemini that drives using only cameras, without HD maps, and uses chain-of-thought reasoning for e... ( #waymo #emma #end-to-end-driving #foundation-models #autonomous-driving)
+- [[references/aief2025-what-is-a-humanoid-foundation-model-annika-aastha|What Is a Humanoid Foundation Model? An Introduction to GR00T N1 — Annika & Aastha]] — NVIDIA GR00T team members Annika and Aastha explain the GR00T N1 humanoid foundation model, the data pyramid strategy, and the three-computer physical AI lifecycle from simulation to edge deployment. ( #conference #aief2025 #robotics #humanoid #foundation-model)
+- [[references/aief2025-what-we-learned-from-using-llms-in-pinterest|AIEF2025 - What We Learned from Using LLMs in Pinterest]] — AIEF2025 - What We Learned from Using LLMs in Pinterest ( #aief2025 #pinterest #search-relevance #cross-encoder #knowledge-distillation)
+- [[references/aief2025-when-vectors-break-down-sam-julien-writer|AIEF2025 - When Vectors Break Down: Graph-Based RAG for Dense Enterprise Knowledge — Sam Julien, Writer]] — Sam Julien (Writer) traces the journey from naive vector search to graph-based RAG, explaining why vector retrieval fails on dense enterprise data and how Writer built a specialized model for graph... ( #rag #graphrag #vector-search #knowledge-graph #enterprise)
+- [[references/aief2025-why-should-anyone-care-about-evals-manu-goyal-braintrust|Why should anyone care about Evals? — Manu Goyal, Braintrust]] — Why should anyone care about Evals? — Manu Goyal, Braintrust ( #evals #aief2025 #braintrust #production-ai #iteration-speed)
+- [[references/aief2025-why-we-dont-need-more-data-centers-jasper-zhang-hyperbolic|AIEF2025 - Why We Don't Need More Data Centers - Dr. Jasper Zhang, Hyperbolic]] — AIEF2025 - Why We Don't Need More Data Centers - Dr. Jasper Zhang, Hyperbolic ( #reference #talk #aief2025 #gpu #marketplace)
+- [[references/aief2025-why-your-agent-brain-needs-playbook-ontologies-jesus-barrasa|AIEF2025 — Why Your Agent's Brain Needs a Playbook: Practical Wins from Using Ontologies — Jesús Barrasa, Neo4j]] — Jesús Barrasa, Field CTO for AI at Neo4j, demonstrates how ontologies serve as an implementation-agnostic schema that drives both knowledge graph construction and dynamic retrieval behavior, solvin... ( #ai-engineering #knowledge-graph #ontology #graphrag #neo4j)
+- [[references/aief2025-why-your-product-needs-an-ai-product-manager-james-lowe-i-ai|AIEF2025 — Why your product needs an AI product manager, and why it should be you — James Lowe, i.AI]] — AIEF2025 — Why your product needs an AI product manager, and why it should be you ( #aief2025 #talk #ai-product-manager #product-management #uk-government)
+- [[references/aief2025-windsurf-everywhere-kevin-hou|Windsurf everywhere, doing everything, all at once]] — Kevin Hou, lead product at Windsurf, presents Windsurf's vision of ubiquitous AI in software engineering — a shared timeline between human and AI, the SweeOne model trained for workflows not just c... ( #aief2025 #windsurf #coding-agent #software-engineering #agent-harness)
+- [[references/aief2025-wisdom-driven-kag-chin-keong-lam|AIEF2025 — Wisdom-Driven Knowledge Augmented Generation at Scale — Chin Keong Lam, Patho AI]] — Chin Keong Lam, founder of Patho AI, presents KAG (Knowledge Augmented Generation) — a wisdom-driven architecture using structured knowledge graphs with knowledge cards for precise quantitative rea... ( #ai-engineering #knowledge-graph #kag #retrieval #neo4j)
+- [[references/aief2025-year-of-evals-john-dickerson-mozilla|2025 is the Year of Evals! Just like 2024, and 2023, and … — John Dickerson, CEO Mozilla AI]] — John Dickerson (CEO, Mozilla AI, former co-founder Arthur AI) argues that three converging forces finally make 2025 the real year of AI evaluation: ChatGPT, budget freezes, and the rise of agentic... ( #reference #talk #aief2025 #evaluation #monitoring)
+- [[references/aief2025-your-coding-agent-just-got-cloned-rustin-banks-jules|Your Coding Agent Just Got Cloned And Your Brain Isn't Ready]] — Your Coding Agent Just Got Cloned And Your Brain Isn't Ready ( #aief2025 #parallel-agents #coding-agents #google-jules #remote-agents)
+- [[references/aief2025-your-realtime-ai-is-ngmi|Your Realtime AI is NGMI — Sean DuBois (OpenAI), Kwindla Kramer (Daily)]] — Your Realtime AI is NGMI ( #aief2025 #voice-ai #web-rtc #web-sockets #latency)
+- [[references/blackrock-knowledge-apps-ai-eng-fair-2025|How BlackRock Builds Custom Knowledge Apps at Scale — Vaibhav Page & Infant Vasanth, BlackRock]] — AI Engineer World's Fair 2025 talk covering BlackRock's sandbox + app factory framework for building custom AI knowledge applications at scale in the highly regulated financial services domain. ( #reference #talk #ai-engineer-worlds-fair #enterprise #knowledge-apps)
+- [[references/box-agentic-platform-ben-kus|Building an Agentic Platform — Ben Kus, CTO Box]] — Conference talk by Ben Kus, CTO of Box, on Box's journey building an agentic platform for enterprise content AI. ( #reference #talk #agent #enterprise #ai)
+- [[references/build-operate-divide-freeplay-chime-2025|The Build-Operate Divide: Bridging Product Vision and AI Operational Reality]] — Jeremy (Freeplay) and Chris Hernandez (Chime) argue that scaling Gen AI is an operational reliability challenge, not just a technical one. The talk covers the iteration loop, human-in-the-loop as f... ( #ai #conference-talk #operations #human-in-the-loop #evaluation)
+- [[references/building-effective-voice-agents-openai-2025|Building Effective Voice Agents — Toki Sherbakov + Anoop Kotha, OpenAI]] — AI Engineer World's Fair 2025 talk covering voice agent architectures, prompting, evals, guardrails, and production patterns for speech-to-speech applications. ( #reference #talk #voice #openai #ai-engineer)
+- [[references/building-multimodal-ai-agents-from-scratch-apoorva-joshi-mongodb|Building Multimodal AI Agents From Scratch — Apoorva Joshi, MongoDB]] — AI Engineer World's Fair 2025 workshop covering agent fundamentals, the ReAct pattern, multimodal retrieval via page-level screenshots and VLM-based embedding models, and short-term memory for cohe... ( #reference #talk #multimodal #agents #ai-engineer)
+- [[references/copilot-instructions-file-format|Copilot Instructions File Format]] — Copilot Instructions File Format ( #github-copilot #vscode #instructions #enterprise-ai #vibe-coding)
+- [[references/critical-ai-inference-cio-trust-telemetrak-2025|Critical AI Inference Your CIO Can Trust — Sahil Yadav, Hariharan Ganesan, Telemetrak]] — Telemetrak presents a three-pillar framework for trustworthy enterprise AI inference — explainability, traceability, and adaptive guardrails — operationalized via X-TOPS (extended MLOPS), with metr... ( #reference #talk #ai-eng-fair-2025 #trust #governance)
+- [[references/deepseek-open-source-models|DeepSeek Open Source Models]] — Open-source DeepSeek models demonstrated that inference-time compute scaling works on real coding benchmarks. SWE-bench verified scores improved predictably with more samples, reaching ~80% by end... ( #deepseek #open-source #llm #coding-benchmark #swe-bench)
+- [[references/fundamentals-of-llms-course|Fundamentals of LLMs — DeepLearning.AI Course]] — The first-of-its-kind LLM fundamentals course on DeepLearning.AI, co-created by Andrew Ng and Mike Chambers (AWS). Taken by over 370,000 people, includes free AWS Bedrock environment access. ( #llm #education #course #deeplearning-ai #aws)
+- [[references/good-design-hasnt-changed-with-ai-john-pham-sf-compute|Good design hasn't changed with AI — John Pham, SF Compute]] — AI Engineer World's Fair 2025 talk arguing that AI tools do not change the fundamental principles of good design, introducing the four-pillar framework (speed, trust, accessibility, the light) with... ( #reference #talk #design #ux #performance)
+- [[references/hybridrag-fusion-graph-vector-retrieval-mitesh-patel|HybridRAG: A Fusion of Graph and Vector Retrieval — Mitesh Patel, NVIDIA]] — AI Engineer World's Fair 2025 talk covering HybridRAG architecture that fuses knowledge graph (graph-based) and semantic (vector-based) retrieval for RAG systems, including triplet extraction, onto... ( #reference #talk #ai-engineer #rag #knowledge-graph)
+- [[references/improving-recsys-search-llms-eugene-yan|Recsys Keynote: Improving Recommendation Systems & Search in the Age of LLMs — Eugene Yan, Amazon]] — AI Engineer World's Fair 2025 keynote covering three ideas for merging recommendation systems and LLMs: semantic IDs, LLM-based data augmentation, and unified models. Includes case studies from Kua... ( #reference #talk #ai-engineer #recommendation-systems #search)
+- [[references/information-retrieval-ground-up-philipp-krenn-elastic-2025|Information Retrieval from the Ground Up — Philipp Krenn (Elastic)]] — Hands-on walkthrough of retrieval fundamentals — keyword/lexical search through hybrid retrieval — with live Elasticsearch demos using Star Wars quotes. Covers tokenization, stemming, inverted inde... ( #search #retrieval #rag #elasticsearch #ai-eng-fair-2025)
+- [[references/infrastructure-for-the-singularity-jesse-han-morph|Infrastructure for the Singularity — Jesse Han, Morph]] — Jesse Han presents InfiniBranch, Morph Cloud, reasoning time branching, and verified superintelligence — infrastructure reimagined for AI agents. ( #reference #talk #ai-engineer #infrastructure)
+- [[references/llms-txt|llms.txt]] — llms.txt ( #llms-txt #agent-readable #documentation #machine-readable #agent-experience)
+- [[references/measuring-agi-interactive-reasoning-benchmarks-arc-agi-3|Measuring AGI: Interactive Reasoning Benchmarks for ARC-AGI-3 — Greg Kamradt, ARC Prize Foundation]] — Greg Kamradt announces ARC-AGI-3, an interactive reasoning benchmark where AI systems must explore novel games, infer rules, and complete objectives without prior training data — using human skill... ( #ai #benchmarking #agi #reasoning #arc-agi)
+- [[references/microsoft-graphrag-blog-post-july-2025|Microsoft GraphRAG Blog Post — LazyGraphRAG & Benchmark QED]] — Microsoft GraphRAG Blog Post — LazyGraphRAG & Benchmark QED ( #graphrag #lazy-graphrag #benchmark-qed #microsoft-research #blog)
+- [[references/monetizing-ai-alvaro-morales-orb|Monetizing AI — Alvaro Morales, Orb (AI Engineer World's Fair 2025)]] — Alvaro Morales, CEO/co-founder of Orb, presents three frameworks for AI pricing: direct vs indirect monetization, value metric spectrum selection, and continuous experimentation via pricing simulat... ( #ai-engineering #pricing #monetization #billing #conference-talk)
+- [[references/notion-ai-building-world-class-products|How to build world-class AI products — Sarah Sachs & Carlos Esteban]] — Sarah Sachs (Notion AI lead) and Carlos Esteban (Braintrust) discuss how Notion builds world-class AI products through evaluation-driven development, per-element LLM-as-judge, curated datasets, and... ( #ai #evaluation #notion #braintrust #product)
+- [[references/on-curiosity-sharif-shameem-ai-eng-2025|On Curiosity — Sharif Shameem, Lexica (AI Engineer World's Fair 2025)]] — Sharif Shameem argues that curiosity-driven demo building is the primary way to discover latent AI model capabilities, and that AI engineers have a moral obligation to explore and share what they f... ( #ai #llm #demo #exploration #curiosity)
+- [[references/palm-model|PALM Model]] — Google's 540-billion-parameter language model that demonstrated emergent chain-of-thought reasoning capabilities. Led by Aakanksha Chowdhery, who was a lead researcher on PALM. ( #palm #google #llm #chain-of-thought #scaling)
+- [[references/promptql-agentic-semantic-layer-ai-eng-2025|"Data readiness" is a Myth: Reliable AI with an Agentic Semantic Layer — Anushrut Gupta, PromptQL]] — AI Engineer World's Fair 2025 talk arguing that the pursuit of perfect 'data readiness' is futile, and proposing an agentic semantic layer that learns business context through corrections. ( #reference #talk #ai-engineer #semantic-layer #reliability)
+- [[references/revenue-engineering-pricing-ai-product-grover-orb|Revenue Engineering: How to Price (and Reprice) Your AI Product — Kshitij Grover, Orb (AI Engineer World's Fair 2025)]] — Kshitij Grover, co-founder of Orb, argues pricing is a form of friction and outlines three principles for AI-native pricing: audience awareness, margin structure over literal margins, and flexibili... ( #ai-engineering #pricing #monetization #ai-agents #conference-talk)
+- [[references/rft-dpo-sft-fine-tuning-openai|Rft Dpo Sft Fine Tuning Openai]] — Stub page created to resolve incoming wiki links for Rft Dpo Sft Fine Tuning Openai. ( #stub)
+- [[references/rise-of-open-models-enterprise-amir-haghighat|The Rise of Open Models in the Enterprise — Amir Haghighat, Baseten]] — Amir Haghighat draws on 100+ enterprise conversations to trace the shift from closed frontier API models toward open models — the four cracks in the closed-model assumption and the operational drag... ( #reference #talk #ai-engineer #enterprise #open-models)
+- [[references/scaling-ai-agents-without-breaking-reliability-temporal-somal|Scaling AI Agents Without Breaking Reliability — Preeti Somal, Temporal]] — Preeti Somal of Temporal argues that agent reliability should be handled at the orchestration platform level using Temporal's workflow abstraction, not by improving individual LLM reliability. ( #ai-engineering #reliability #orchestration #workflow #agents)
+- [[references/scaling-laws-2020|Scaling Laws for LLMs (2020)]] — The 2020 breakthrough paper establishing power law relationships between test loss and compute/data/parameters in transformer models. Bigger models generalize across domains. ( #scaling-laws #power-law #llm #google)
+- [[references/state-of-startups-and-ai-2025-sarah-guo|State of Startups and AI 2025 — Sarah Guo, Conviction]] — Sarah Guo, founder of Conviction, surveys the AI startup landscape in mid-2025 — reasoning as a new scaling vector, the Cursor playbook for vertical AI, the AI leapfrog effect in conservative indus... ( #reference #talk #ai #startups #venture-capital)
+- [[references/stateful-environments-vertical-agents-josh-purtell-synth-labs|Stateful Environments for Vertical Agents — Josh Purtell, Synth Labs]] — AI Engineer World's Fair 2025 talk on containerizing vertical application logic into resettable, network-bound stateful environments for production agents. ( #reference #talk #ai-engineer #agents #stateful)
+- [[references/survive-ai-knife-fight-brian-balfour|Survive the AI Knife Fight: Building Products That Win — Brian Balfour, Reforge]] — AI Engineer World's Fair 2025 talk covering product strategy for building differentiated AI products in hyper-competitive markets, introducing the AI Lego Blocks Framework. ( #reference #talk #ai-engineer #product-strategy #competitive-advantage)
+- [[references/terminal-game-demo-200-lines|Terminal Game Demo — 200-Line Codebase Experiment]] — Terminal Game Demo — 200-Line Codebase Experiment ( #graphrag #code-understanding #demonstration #microsoft-research #aief2025)
+- [[references/the-bitter-lesson|The Bitter Lesson]] — Rich Sutton's influential essay arguing that 70 years of AI research shows that general methods leveraging computation (search and learning) consistently outperform approaches that hard-code domain... ( #ai-research #bitter-lesson #rich-sutton #reinforcement-learning #scaling)
+- [[references/the-new-code-sean-grove-openai|The New Code — Sean Grove, OpenAI]] — Sean Grove presents the case for specifications as the new code — arguing that written specifications capturing intent and values are the most valuable artifact in AI engineering, with the OpenAI M... ( #reference #talk #ai-engineer #specification #alignment)
+- [[references/thinking-deeper-in-gemini-jack-rae-deepmind|Thinking Deeper in Gemini — Jack Rae, Google DeepMind]] — Jack Rae, tech lead of thinking at Google DeepMind, presents the research behind Gemini's thinking capabilities — intelligence bottlenecks, test-time compute scaling, RL training for reasoning, thi... ( #reference #talk #ai-engineer #reasoning #google)
+- [[references/tldraw-computer-steve-ruiz-ai-eng-2025|tldraw.computer - Steve Ruiz, tldraw (AI Engineer World's Fair 2025)]] — Steve Ruiz presents tldraw's AI features including Make Real (wireframe-to-app generation), Draw Fast (real-time generative drawing), and tldraw.computer (graph-based multi-modal agentic pipelines... ( #ai #whiteboard #canvas #visual-programming #agentic-workflows)
+- [[references/to-the-moon-legacy-code-augment-agent|To the moon! Navigating deep context in legacy code with Augment Agent]] — AI Engineer World's Fair 2025 talk by Forrest Brazeal and Matt Ball (Augment Code) demonstrating how AI agents can understand, test, and modernize legacy codebases — using the Apollo 11 Guidance Co... ( #reference #talk #ai-engineer #legacy-code #agents)
+- [[references/why-care-about-ai-interpretability-bissell-goodfire-2025|Why You Should Care About AI Interpretability — Mark Bissell, Goodfire AI]] — Mark Bissell makes the case for mechanistic interpretability as a practical engineering tool — from neural programming and feature steering to model diffs, novel UI paradigms, and scientific knowle... ( #reference #talk #ai-engineer #interpretability #safety)
+- [[references/why-chatgpt-keeps-interrupting-you-tom-shapland-livekit|Why ChatGPT Keeps Interrupting You — Dr. Tom Shapland, LiveKit]] — AI Engineer World's Fair 2025 talk by Tom Shapland (LiveKit) diagnosing the turn-taking problem in voice AI agents, covering VAD limitations, human turn-taking mechanisms, semantic end-of-utterance... ( #reference #talk #voice #ai #turn-taking)
+
+## Schema
+
+- [[schema/config|Wiki Schema Configuration]] — Wiki Schema Configuration ( #schema)
+- [[schema/suggestions|Suggestion — 2026-06-30T13:26:31.726Z]] — Suggestions ( #schema)
+
+## Sources
+
+- [[sources/2072018523669533180|2072018523669533180]] — Stub page created to resolve incoming wiki links for 2072018523669533180. ( #stub)
+- [[sources/admission-controllers_7667fc|Admission Controllers in Kubernetes - Summary]] — This source explains that Admission Controllers are critical components in the Kubernetes API Server. They intercept create, update, and delete requests after authentication and authorization but b... ( #MutatingAdmissionWebhook #ValidatingAdmissionWebhook #ValidatingAdmissionPolicy #Mutating Phase #Validating Phase)
+- [[sources/ai-engineer-worlds-fair-2025-information-retrieval-from-the-ground-up-philipp-krenn|Ai Engineer Worlds Fair 2025 Information Retrieval From The Ground Up Philipp Krenn]] — Stub page created to resolve incoming wiki links for Ai Engineer Worlds Fair 2025 Information Retrieval From The Ground Up Philipp Krenn. ( #stub)
+- [[sources/ai-engineer-worlds-fair-2025-talk|Ai Engineer Worlds Fair 2025 Talk]] — Stub page created to resolve incoming wiki links for Ai Engineer Worlds Fair 2025 Talk. ( #stub)
+- [[sources/ai-evals|Ai Evals]] — Stub page created to resolve incoming wiki links for Ai Evals. ( #stub)
+- [[sources/aief2025-building-the-platform-for-agent-coordination-—-tom-moor|Aief2025 Building The Platform For Agent Coordination — Tom Moor]] — Stub page created to resolve incoming wiki links for Aief2025 Building The Platform For Agent Coordination — Tom Moor. ( #stub)
+- [[sources/aief2025-rft|Aief2025 Rft]] — Stub page created to resolve incoming wiki links for Aief2025 Rft. ( #stub)
+- [[sources/autoresearch|Autoresearch]] — Stub page created to resolve incoming wiki links for Autoresearch. ( #stub)
+- [[sources/bootstrapping-control-place_e4e0df|Bootstrap the Kubernetes Control Plane - Summary]] — This source provides a step-by-step guide for initializing the Kubernetes control plane on a master node using `kubeadm init`. The process unfolds in four main stages: performing pre-flight checks ... ( #kube-proxy #controller-manager #scheduler #add-ons deployment #high-availability control plane)
+- [[sources/borisyankov|Borisyankov]] — Stub page created to resolve incoming wiki links for Borisyankov. ( #stub)
+- [[sources/cluster-maintenance-draining-&-os-upgrades_98d707|Kubernetes Node Maintenance and Cluster Upgrade Strategies - Summary]] — Source document covering Kubernetes cluster maintenance strategies including node draining, cordoning, rolling upgrades, and version skew policies. ( #node drain #node cordon #node uncordon #pod-eviction-timeout #kubeadm upgrade)
+- [[sources/commands-&-args-in-containers-&-pods_300e3e|Overriding Entrypoints and Commands in Docker and Kubernetes - Summary]] — Source document explaining how to override Docker ENTRYPOINT and CMD instructions using Kubernetes Pod command and args fields at runtime. ( #CMD #ENTRYPOINT #Kubernetes Pod command and args #Dockerfile #docker run)
+- [[sources/containerd-cri-etc_fb87d8|Container Runtimes in Kubernetes: Docker, Containerd, and Related Tools - Summary]] — This source details the historical and architectural evolution of container runtimes within Kubernetes. It begins with the initial tight coupling between Kubernetes and the Docker platform. To supp... ( #Container Runtime Interface (CRI) #OCI Specifications #dockershim #containerd #high-level container runtime)
+- [[sources/daemonsets_9f31ec|DaemonSet Controller in Kubernetes - Summary]] — A DaemonSet is a fundamental Kubernetes controller that guarantees the deployment of exactly one pod instance on each eligible node within a cluster. Its primary function is to manage **node-lo... ( #DaemonSet #ReplicaSet #node-local agents)
+- [[sources/dpo|Dpo]] — Stub page created to resolve incoming wiki links for Dpo. ( #stub)
+- [[sources/env-configmaps-&-secrets_9586ac|Kubernetes Configuration Management: Environment Variables, ConfigMaps, Secrets, and Encryption - Summary]] — This source provides a comprehensive guide to managing application configuration and sensitive data within Kubernetes. It details the use of the `env` field to inject ( #Environment Variables in Pods #Encryption at Rest #EncryptionConfiguration #AES-CBC #ConfigMap)
+- [[sources/francois-chollet-on-the-measure-of-intelligence-2019|Francois Chollet On The Measure Of Intelligence 2019]] — Stub page created to resolve incoming wiki links for Francois Chollet On The Measure Of Intelligence 2019. ( #stub)
+- [[sources/how-tls-certificates-work-in-kubernetes-and-manual-cluster-setup_e2b507|TLS Certificates in Kubernetes — Manual Setup and Configuration - Summary]] — This source provides a detailed guide on implementing TLS security in Kubernetes clusters through manual configuration. It explains why TLS is critical in a distributed system, emphasizing that... ( #Mutual TLS (mTLS) #Subject Alternative Name (SAN) #Trust Root #Manual Certificate Management #Certificate Authority (CA))
+- [[sources/init-containers_798910|InitContainers - Summary]] — This source explains the concept of **[[concepts/init-container]]** within the [[entities/pods]] lifecycle in [[entities/kubernetes]]. Unlike regular containers i... ( #init-container #multi-container pod #pods #deployment-strategies)
+- [[sources/install-kubernetes-components_c70e92|Installing Kubernetes Components and Static Pods - Summary]] — This source details the essential setup phase for building a Kubernetes cluster from scratch: installing the node-level software. The process has two core parts. First, a CRI-compliant container ru... ( #container runtime #kubeadm #kubelet #kubectl #containerd)
+- [[sources/introduction_804367|🚀 Setting the Stage: Why Build Your Own Kubernetes Cluster? - Summary]] — This source introduces a step-by-step tutorial for building a self-managed [[concepts/kubernetes-cluster]] from scratch on AWS, chosen over [[concepts/managed-kubernetes]] ( #VPC #Security Groups #AWS Free Tier #Master Node #Worker Nodes)
+- [[sources/karpathy-autoresearch-query-engine-bug|Karpathy Autoresearch Query Engine Bug]] — Stub page created to resolve incoming wiki links for Karpathy Autoresearch Query Engine Bug. ( #stub)
+- [[sources/kubernetes-api-groups-authorization-and-rbac-a-comprehensive-overview_ab21cb|API Groups in Kubernetes - Summary]] — This source provides a comprehensive overview of the structure and security mechanisms of the Kubernetes API. It details how the API is logically organized into [[concepts/api-groups]] ( #API Groups #Core API Group #Named API Groups #Resources and Verbs #kubectl proxy)
+- [[sources/kubernetes-autoscaling_59fbf3|Kubernetes Autoscaling: Quick-Recall Notes - Summary]] — This source provides a concise overview of Kubernetes autoscaling fundamentals, covering the distinction between [[concepts/vertical-scaling]] and ( #Horizontal Scaling #Vertical Scaling #Horizontal Pod Autoscaler #Vertical Pod Autoscaler #In-Place Pod Vertical Scaling)
+- [[sources/kubernetes-installation-steps_e573e8|{{source_title}} - Summary]] — This guide details the essential prerequisites for configuring [[concepts/control-plane-node]] and [[entities/worker-node-2]] before initializing a Kubernetes cluster. ... ( #Disable swap #Network port configuration #Hostname setting #Prerequisites verification #NodePort Services)
+- [[sources/labels-&-selectors_7e0f44|Kubernetes Labels, Selectors, and Annotations Guide - Summary]] — This source is a comprehensive guide to managing metadata in Kubernetes. It defines labels as key-value pairs attached to objects like Pods and Services, used for identification and organization. T... ( #Labels #Selectors #Annotations #equality-based selector #set-based selector)
+- [[sources/llm-wiki|Llm Wiki]] — Stub page created to resolve incoming wiki links for Llm Wiki. ( #stub)
+- [[sources/loops|Loops]] — Stub page created to resolve incoming wiki links for Loops. ( #stub)
+- [[sources/main-kubernetes-components_82b036|Kubernetes Core Concepts and Components - Summary]] — This source document provides a foundational overview of the Kubernetes architecture, explaining its core components and how they collaborate to manage containerized applications. It details th... ( #Ingress #ConfigMaps #Secrets #Volumes #StatefulSets)
+- [[sources/manual-notes_10b5c5|Setting up Nodes - Summary]] — This guide details the manual process of establishing a Kubernetes cluster on virtual machines. It begins with crucial VM specifications (CPU ≥ 2, RAM ≥ 1.5GB, Disk ≥ 10GB) and recommends using Bri... ( #Bridged Adapter #/etc/hosts #swap #iptables #CRI)
+- [[sources/microservices-demo-projects_ac9b1f|Open-Source Microservices Demo Projects - Summary]] — This source provides a curated list of open-source microservices demo projects chosen for practical Kubernetes learning. It evaluates projects based on moderate complexity, realistic architectu... ( #microservices architecture #Kubernetes practice #gRPC #Service discovery #Containerization)
+- [[sources/miscellaneous_1e6927|Docker Networking, DNS, and Network Namespaces - Summary]] — This source provides a technical deep dive into the networking mechanisms used by Docker containers. It explains how a **user-defined bridge network**, such as one created via ( #User-defined bridge network #Embedded DNS server #Bridge network in Docker #Linux network namespace #Linux namespace types)
+- [[sources/nodeselector-&-nodeaffinity_5d8764|Node Selector and Node Affinity in Kubernetes - Summary]] — This source details Kubernetes pod scheduling mechanisms that control which nodes can run specific pods. It contrasts two primary methods: the simple `nodeSelector`, which matches pods to nodes bas... ( #nodeSelector #node affinity #requiredDuringSchedulingIgnoredDuringExecution #preferredDuringSchedulingIgnoredDuringExecution #labels)
+- [[sources/pods_c92b62|Container Network Interface (CNI) - Summary]] — This source explains the fundamental building blocks of Kubernetes networking, focusing on the [[entities/pods]] as the core deployable unit and the pods_c92b62 ( #CNI #IPAM #CIDR #Sidecar pattern #Init container)
+- [[sources/priorityclasses_438f81|PriorityClasses in Kubernetes - Summary]] — This source details **PriorityClasses**, a core scheduling mechanism in Kubernetes that assigns integer priority values to Pods to manage scheduling order and resource contention. The ( #PriorityClass #Pod Preemption #priorityClassName #globalDefault #preemptionPolicy)
+- [[sources/ralph-ai-coding-technique_ghuntley|Ralph Wiggum as a software engineer]] — --- ( #AI #Software Engineering #Ralph Wiggum #Coding Technique)
+- [[sources/react-scan|React Scan]] — Stub page created to resolve incoming wiki links for React Scan. ( #stub)
+- [[sources/replication-controller-&-replicaset_285a2a|ReplicationControllers and ReplicaSets in Kubernetes - Summary]] — This source provides a comprehensive overview of how [[concepts/replicationcontroller]] (RC) and its successor, [[concepts/replicaset]] (RS), function within th... ( #ReplicationController #ReplicaSet #Labels #Selectors #Deployments)
+- [[sources/resource-requests-&-limits_4bd978|Kubernetes Resource Management: Requests, Limits, and Quotas - Summary]] — This source provides a detailed explanation of Kubernetes resource management, centered on defining container resource requirements for scheduling and runtime enforcement. It defines that ( #Resource Requests #Resource Limits #kube-scheduler #LimitRange #ResourceQuota)
+- [[sources/resources_ab28e6|Pasted image 20250501022055.png - Summary]] — This source file is an image reference contained within a larger documentation file (`Kubernetes/Resources.md`). The provided content is only an embed tag for the image file `Pasted image 20250...
+- [[sources/rolling-updates-&-rollbacks_f484ef|Deployment Rollouts, Updates & Rollbacks – Easy Recall Notes - Summary]] — This source provides a concise guide to managing application deployments in Deployment using Kubernetes. It explains that creating a Deployment triggers an initial rollout (Revision 1), with subseq... ( #rolling-update-strategy #recreate-strategy #replicasets #rollout #deployment-strategies)
+- [[sources/scheduling_f2b3ef|Container Runtimes and Multiple Schedulers in Kubernetes - Summary]] — This source details the evolution of container runtimes within [[entities/kubernetes]], tracing the path from Docker as the sole runtime to the standardized, pluggable architecture e... ( #container runtime #CRI #OCI specs #dockershim #containerd)
+- [[sources/sft-fine-tuning-with-openai-—-ilan-bigio|Sft Fine Tuning With Openai — Ilan Bigio]] — Stub page created to resolve incoming wiki links for Sft Fine Tuning With Openai — Ilan Bigio. ( #stub)
+- [[sources/sql-parser|Sql Parser]] — Stub page created to resolve incoming wiki links for Sql Parser. ( #stub)
+- [[sources/static-pod_d72e06|Static Pods in Kubernetes - Summary]] — This source explains **Static Pods** in the [[concepts/static-pods]] platform, which are Pods managed directly by the [[entities/kubelet]] on a single node, bypassing the ( #Static Pods #Mirror Pod #Manifest directory #Bootstrapping control-plane #ReplicaSets)
+- [[sources/stop-ai-slop|Stop Ai Slop]] — Stub page created to resolve incoming wiki links for Stop Ai Slop. ( #stub)
+- [[sources/summarize-sh-website|Summarize Sh Website]] — Stub page created to resolve incoming wiki links for Summarize Sh Website. ( #stub)
+- [[sources/taints-&-tolerations_37a014|Taints and Tolerations in Kubernetes - Summary]] — This source details the mechanisms of **Taints** and **Tolerations** within the Taints and Tolerations scheduling system of Kubernetes. Taints are applied to nodes to create a repulsion effect, pre... ( #Taints #Tolerations)
+- [[sources/temporal-io|Temporal Io]] — Stub page created to resolve incoming wiki links for Temporal Io. ( #stub)
+- [[sources/tls-certificates_c8ca8c|How TLS works? - Summary]] — This document explains the fundamentals of the Transport Layer Security protocol, which secures internet communication. It details how [[concepts/tls]] prevents eavesdropping and impersonat... ( #TLS #TLS Certificates #Symmetric Encryption #Asymmetric Encryption #TLS Handshake)
+- [[sources/what-if-your-product-built-itself|What If Your Product Built Itself]] — Stub page created to resolve incoming wiki links for What If Your Product Built Itself. ( #stub)
+- [[sources/what-is-a-scout|What Is A Scout]] — Stub page created to resolve incoming wiki links for What Is A Scout. ( #stub)
+- [[sources/🔐-security-in-kubernetes_0a37d1|Kubernetes Security Overview - Summary]] — This source provides a comprehensive guide to securing a [[concepts/host-security]] cluster across multiple layers. It begins with foundational host security, emphasizi... ( #Authentication (Kubernetes) #Authorization (Kubernetes) #RBAC #ABAC #Network Policies)
 

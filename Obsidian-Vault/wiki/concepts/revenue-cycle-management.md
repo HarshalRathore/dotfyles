@@ -9,7 +9,7 @@ tags:
   - finance
 summary: "The financial process managing the patient journey from eligibility checks through payment collection. A major source of healthcare cost and administrative friction."
 sources:
-  - "[[sources/watchv=tquusn1qsws]]"
+  - "https://www.youtube.com/watch?v=tquusn1qsws"
 provenance:
   extracted: 0.9
   inferred: 0.1

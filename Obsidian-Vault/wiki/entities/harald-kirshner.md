@@ -1,22 +1,22 @@
 ---
-title: "Harald Kirshner"
+title: Harald Kirshner
 category: entities
 tags:
-  - person
-  - microsoft
-  - vscode
-  - github-copilot
-  - aief2025
+- person
+- microsoft
+- vscode
+- github-copilot
+- aief2025
 aliases:
-  - Harald
-  - Harold
+- Harald
+- Harold
 sources:
-  - "AIEF2025 - Vibe Coding at Scale: Customizing AI Assistants for Enterprise Environments - Harald Kirshner, - https://www.youtube.com/watch?v=i1uPAN6uW4s"
-  - "AIEF2025 - Full Spec MCP: Hidden Capabilities - Harald Kirshner - https://www.youtube.com/watch?v=g1hhmz6mxt0"
+- 'AIEF2025 - Vibe Coding at Scale: Customizing AI Assistants for Enterprise Environments - Harald Kirshner, - https://www.youtube.com/watch?v=i1uPAN6uW4s'
+- 'AIEF2025 - Full Spec MCP: Hidden Capabilities - Harald Kirshner - https://www.youtube.com/watch?v=g1hhmz6mxt0'
 provenance:
-  extracted: 0.90
-  inferred: 0.10
-  ambiguous: 0.00
+  extracted: 0.9
+  inferred: 0.1
+  ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-04
@@ -24,12 +24,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/microsoft|Microsoft]]"
-    type: works-at
-  - target: "[[entities/vs-code|VS Code]]"
-    type: contributes-to
-  - target: "[[entities/github-copilot|GitHub Copilot]]"
-    type: contributes-to
+- target: '[[entities/microsoft|Microsoft]]'
+  type: works-at
+- target: '[[entities/vs-code|VS Code]]'
+  type: contributes-to
+- target: '[[entities/github-copilot|GitHub Copilot]]'
+  type: contributes-to
+summary: Harald Kirshner
 ---
 
 # Harald Kirshner

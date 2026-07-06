@@ -1,12 +1,28 @@
 ---
-type: "concept"
-title: "Certificate Generation"
-created: [datetime.date(2026, 6, 30)]
-updated: [datetime.date(2026, 6, 30)]
-sources: ["[[sources/how-tls-certificates-work-in-kubernetes-and-manual-cluster-setup_e2b507]]"]
+type: concept
+title: Certificate Generation
+created:
+- datetime.date(2026
+- 6
+- 30)
+updated:
+- datetime.date(2026
+- 6
+- 30)
+sources:
+- '[[sources/how-tls-certificates-work-in-kubernetes-and-manual-cluster-setup_e2b507]]'
 tags:
-  - security
-  - tls
+- security
+- tls
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Certificate Generation
 ---
 ## Description
 Certificate generation is a foundational security step during Kubernetes cluster bootstrapping, essential for establishing mutual TLS (mTLS) authentication and encrypted communication between control plane components. The process begins by creating a self-signed root Certificate Authority (CA), which acts as the central trusted authority for issuing and signing other certificates. Following this, unique, signed TLS certificates are generated for each component (API server, etcd, controller-manager, scheduler, and kubelets), with server certificates requiring configuration files containing Subject Alternative Names (SANs). All generated keys and certificates are stored in the `/etc/kubernetes/pki` directory, enabling encrypted and authenticated traffic between components and creating the trust hierarchy required for all internal API communication. A separate, dedicated CA is often used for etcd to secure its communication independently. Mastering both the automated process via `kubeadm` and manual certificate management is crucial for understanding and troubleshooting Kubernetes cluster security.
@@ -22,7 +38,7 @@ Certificate generation is a foundational security step during Kubernetes cluster
 - [[concepts/trust-root]]
 - [[concepts/manual-certificate-management]]
 - [[concepts/kubeconfig]]
-- [[tls-encryption]]
+- [[concepts/tls-encryption]]
 - [[concepts/static-pods]]
 - [[concepts/kubeadm-init]]
 

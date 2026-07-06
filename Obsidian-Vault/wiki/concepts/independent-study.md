@@ -1,18 +1,18 @@
 ---
-title: "Independent Study"
+title: Independent Study
 category: concepts
 tags:
-  - learning
-  - self-education
-  - pedagogy
-  - skill-acquisition
+- learning
+- self-education
+- pedagogy
+- skill-acquisition
 aliases:
-  - independent-study
+- independent-study
 sources:
-  - "AIEF2025 - #define AI Engineer - Greg Brockman, OpenAI (ft. Jensen Huang) - https://www.youtube.com/watch?v=avWhreBUYF0"
+- 'AIEF2025 - #define AI Engineer - Greg Brockman, OpenAI (ft. Jensen Huang) - https://www.youtube.com/watch?v=avWhreBUYF0'
 provenance:
   extracted: 0.65
-  inferred: 0.30
+  inferred: 0.3
   ambiguous: 0.05
 base_confidence: 0.65
 lifecycle: draft
@@ -21,10 +21,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/greg-brockman|Greg Brockman]]"
-    type: exemplified-by
-  - target: "[[entities/recur-center|Recur Center]]"
-    type: used-by
+- target: '[[entities/greg-brockman|Greg Brockman]]'
+  type: exemplified-by
+- target: '[[entities/recur-center|Recur Center]]'
+  type: used-by
+summary: Independent Study
 ---
 
 # Independent Study

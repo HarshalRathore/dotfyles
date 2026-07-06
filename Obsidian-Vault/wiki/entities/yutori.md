@@ -1,22 +1,23 @@
 ---
-title: "Yutori"
+title: Yutori
 tags:
-  - company
-  - ai
-  - design
-  - aief2025
+- company
+- ai
+- design
+- aief2025
 sources:
-  - "[[sources/watchv=bztd0yyagcq]]"
-summary: "AI company employing Maximillian Piras, the designer who coined the Bitter Layout concept."
+- 'https://www.youtube.com/watch?v=bztd0yyagcq'
+summary: AI company employing Maximillian Piras, the designer who coined the Bitter Layout concept.
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.40
+base_confidence: 0.4
 lifecycle: draft
 tier: peripheral
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Yutori

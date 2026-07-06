@@ -1,25 +1,26 @@
 ---
-title: "Corey Cooper"
+title: Corey Cooper
 tags:
-  - person
-  - devrel
-  - circle
-  - payments
-  - stablecoin
+- person
+- devrel
+- circle
+- payments
+- stablecoin
 aliases:
-  - Corey Cooper
+- Corey Cooper
 sources:
-  - "[[sources/watchv=axmdsqdoghm]]"
-summary: "DevRel Lead at Circle. Presented on combining USDC and AI agents to automate escrow workflows at AI Engineer World's Fair 2025."
+- 'https://www.youtube.com/watch?v=axmdsqdoghm'
+summary: DevRel Lead at Circle. Presented on combining USDC and AI agents to automate escrow workflows at AI Engineer World's Fair 2025.
 provenance:
-  extracted: 0.90
-  inferred: 0.10
-  ambiguous: 0.00
+  extracted: 0.9
+  inferred: 0.1
+  ambiguous: 0.0
 base_confidence: 0.65
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Corey Cooper

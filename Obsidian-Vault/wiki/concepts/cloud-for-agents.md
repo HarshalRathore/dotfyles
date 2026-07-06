@@ -1,29 +1,30 @@
 ---
-title: "Cloud for Agents"
+title: Cloud for Agents
 tags:
-  - ai
-  - infrastructure
-  - cloud
-  - agents
-  - voice-ai
+- ai
+- infrastructure
+- cloud
+- agents
+- voice-ai
 sources:
-  - "[[sources/watchv=2goss66xrbk]]"
-  - "[[sources/watchv=ia4lzjh9sts]]"
-summary: "Cloud infrastructure purpose-built for AI agents, featuring declarative workspaces, fast snapshotting and branching of environments, and frictionless handoff between humans and agents. Extended to voice AI: specialized cloud infrastructure for real-time voice sessions with cold start optimization, auto-scaling for persistent connections, and global edge routing."
+- 'https://www.youtube.com/watch?v=2goss66xrbk'
+- 'https://www.youtube.com/watch?v=ia4lzjh9sts'
+summary: Cloud infrastructure purpose-built for AI agents, featuring declarative workspaces, fast snapshotting and branching of environments, and frictionless handoff between humans and agents. Extended to...
 provenance:
   extracted: 0.68
   inferred: 0.22
-  ambiguous: 0.10
+  ambiguous: 0.1
 base_confidence: 0.45
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/reasoning-time-branching]]"
-    type: related_to
-  - target: "[[concepts/voice-ai-latency]]"
-    type: related_to
+- target: '[[concepts/reasoning-time-branching]]'
+  type: related_to
+- target: '[[concepts/voice-ai-latency]]'
+  type: related_to
+category: concepts
 ---
 # Cloud for Agents
 

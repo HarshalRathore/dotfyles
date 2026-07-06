@@ -1,18 +1,18 @@
 ---
-title: "Local and Global Search in GraphRAG"
+title: Local and Global Search in GraphRAG
 category: concepts
 tags:
-  - graphrag
-  - retrieval
-  - search
-  - knowledge-graph
-  - neo4j
+- graphrag
+- retrieval
+- search
+- knowledge-graph
+- neo4j
 aliases:
-  - GraphRAG Search Strategies
-  - Local Search GraphRAG
-  - Global Search GraphRAG
+- GraphRAG Search Strategies
+- Local Search GraphRAG
+- Global Search GraphRAG
 sources:
-  - "AIEF2025 - Practical GraphRAG: Making LLMs smarter with Knowledge Graphs — Michael, Jesus, and Stephen, Neo4j - https://www.youtube.com/watch?v=XNneh6-eyPg"
+- 'AIEF2025 - Practical GraphRAG: Making LLMs smarter with Knowledge Graphs — Michael, Jesus, and Stephen, Neo4j - https://www.youtube.com/watch?v=XNneh6-eyPg'
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -23,12 +23,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: uses
-  - target: "[[concepts/multi-hop-retrieval|Multi-Hop Retrieval]]"
-    type: uses
-  - target: "[[concepts/community-summarization|Community Summarization]]"
-    type: uses
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: uses
+- target: '[[concepts/multi-hop-retrieval|Multi-Hop Retrieval]]'
+  type: uses
+- target: '[[concepts/community-summarization|Community Summarization]]'
+  type: uses
+summary: Local and Global Search in GraphRAG
 ---
 
 # Local and Global Search in GraphRAG

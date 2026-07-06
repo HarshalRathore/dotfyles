@@ -1,17 +1,17 @@
 ---
-title: "Olive (Model Optimizer)"
+title: Olive (Model Optimizer)
 category: entities
 tags:
-  - model-optimization
-  - microsoft
-  - onnx
-  - performance
-  - quantization
+- model-optimization
+- microsoft
+- onnx
+- performance
+- quantization
 sources:
-  - "AIEF2025 - Foundry Local: Cutting-Edge AI experiences on device with ONNX Runtime/Olive — Emma Ning, Microsoft - https://www.youtube.com/watch?v=l614N5W60ls"
-summary: "Microsoft's Olive model optimization tool that prepares AI models for efficient execution on ONNX Runtime across different hardware targets, enabling the hardware-specific variants found in Foundry Local."
+- 'AIEF2025 - Foundry Local: Cutting-Edge AI experiences on device with ONNX Runtime/Olive — Emma Ning, Microsoft - https://www.youtube.com/watch?v=l614N5W60ls'
+summary: Microsoft's Olive model optimization tool that prepares AI models for efficient execution on ONNX Runtime across different hardware targets, enabling the hardware-specific variants found in Foundry...
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.55
@@ -21,12 +21,12 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/onnx-runtime|ONNX Runtime]]"
-    type: prepares-for
-  - target: "[[entities/foundry-local|Foundry Local]]"
-    type: feeds-into
-  - target: "[[concepts/quantization-inference|Quantization for Inference]]"
-    type: enables
+- target: '[[entities/onnx-runtime|ONNX Runtime]]'
+  type: prepares-for
+- target: '[[entities/foundry-local|Foundry Local]]'
+  type: feeds-into
+- target: '[[concepts/quantization-inference|Quantization for Inference]]'
+  type: enables
 ---
 
 # Olive (Model Optimizer)

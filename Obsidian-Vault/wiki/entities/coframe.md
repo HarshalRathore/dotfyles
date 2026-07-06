@@ -4,7 +4,7 @@ category: entities
 tags: [company, ai, personalization, marketing-tech, aief2025, hf0-residency, openai-partner]
 summary: "AI website personalization platform giving every customer experience its own AI growth team. Only marketing tech company partnered with OpenAI. Co-founder Josh Brown previously scaled company to $2B."
 sources:
-  - "[[sources/watchv=l8-5ezsoi5a]]"
+  - "https://www.youtube.com/watch?v=l8-5ezsoi5a"
 provenance:
   extracted: 0.95
   inferred: 0.05

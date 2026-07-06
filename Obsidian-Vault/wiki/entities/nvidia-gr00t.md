@@ -1,44 +1,27 @@
 ---
-title: "NVIDIA Project GR00T"
+title: NVIDIA Project GR00T
 category: entities
 tags:
-  - nvidia
-  - groot
-  - robotics
-  - foundation-model
-  - humanoid
-  - open-source
-  - physical-ai
-aliases:
-  - GR00T
-  - GR00T N1
-  - Project GR00T
+- nvidia
+- groot
+- robotics
+- foundation-model
+- humanoid
+- open-source
+- physical-ai
 sources:
-  - "AIEF2025 - What Is a Humanoid Foundation Model? An Introduction to GR00T N1 - Annika & Aastha - https://www.youtube.com/watch?v=mWKYvT9Lc50"
-summary: "NVIDIA's strategy for bringing humanoid and other forms of robotics into the world. GR00T N1 is an open-source, cross-embodiment, 2-billion-parameter robotics foundation model announced at GTC in March 2025.
+- AIEF2025 - What Is a Humanoid Foundation Model? An Introduction to GR00T N1 - Annika & Aastha - https://www.youtube.com/watch?v=mWKYvT9Lc50
+summary: NVIDIA's strategy for bringing humanoid and other forms of robotics into the world. GR00T N1 is an open-source, cross-embodiment, 2-billion-parameter robotics foundation model announced at GTC in M...
 provenance:
-  extracted: 0.85
-  inferred: 0.10
-  ambiguous: 0.05
-base_confidence: 0.80
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+base_confidence: 0.42
 lifecycle: draft
-lifecycle_changed: 2026-07-05
+lifecycle_changed: '2026-07-05'
 tier: supporting
-created: 2026-07-05
-updated: 2026-07-05
-relationships:
-  - target: "[[entities/nvidia|NVIDIA]]"
-    type: owned_by
-  - target: "[[concepts/humanoid-foundation-model|Humanoid Foundation Model]]"
-    type: implements
-  - target: "[[concepts/physical-ai|Physical AI]]"
-    type: enables
-  - target: "[[concepts/data-pyramid|Data Pyramid]]"
-    type: trained_on
-  - target: "[[concepts/system-one-system-two-robotics|System One / System Two Robotics]]"
-    type: implements
-  - target: "[[concepts/three-computer-problem|Three-Computer Problem]]"
-    type: addresses
+created: '2026-07-05'
+updated: '2026-07-05'
 ---
 
 # NVIDIA Project GR00T

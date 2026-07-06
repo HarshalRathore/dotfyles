@@ -1,19 +1,19 @@
 ---
-title: "Cascade"
+title: Cascade
 tags:
-  - agent
-  - windsurf
-  - ai-agent
-  - developer-tools
-  - aief2025
+- agent
+- windsurf
+- ai-agent
+- developer-tools
+- aief2025
 aliases:
-  - Cascade
-  - Windsurf Cascade
+- Cascade
+- Windsurf Cascade
 sources:
-  - "AIEF2025 - Mastering Engineering Flow with Windsurf - Eashan Sinha, Windsurf - https://www.youtube.com/watch?v=W_5tzQY-hVs"
-  - "AIEF2025 - The Eyes Are The (Context) Window to The Soul: How Windsurf Gets to Know You — Sam Fertig, Windsurf - https://www.youtube.com/watch?v=jUv5WSPo9fk"
+- AIEF2025 - Mastering Engineering Flow with Windsurf - Eashan Sinha, Windsurf - https://www.youtube.com/watch?v=W_5tzQY-hVs
+- 'AIEF2025 - The Eyes Are The (Context) Window to The Soul: How Windsurf Gets to Know You — Sam Fertig, Windsurf - https://www.youtube.com/watch?v=jUv5WSPo9fk'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.07
   ambiguous: 0.03
 base_confidence: 0.85
@@ -22,14 +22,20 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: [[entities/windsurf|Windsurf]]
-    type: implements
-  - target: [[concepts/flow-awareness|Flow Awareness]]
-    type: uses
-  - target: [[concepts/context-engine-vs-rag|Context Engine vs RAG]]
-    type: uses
-  - target: [[concepts/agent-evolution-co-pilot-to-agent|Agent Evolution]]
-    type: extends
+- target:
+  - - entities/windsurf|Windsurf
+  type: implements
+- target:
+  - - concepts/flow-awareness|Flow Awareness
+  type: uses
+- target:
+  - - concepts/context-engine-vs-rag|Context Engine vs RAG
+  type: uses
+- target:
+  - - concepts/agent-evolution-co-pilot-to-agent|Agent Evolution
+  type: extends
+category: entities
+summary: Cascade
 ---
 
 # Cascade

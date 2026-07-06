@@ -1,12 +1,28 @@
 ---
-type: "concept"
-title: "Iptables"
-created: [datetime.date(2026, 6, 30)]
-updated: [datetime.date(2026, 6, 30)]
-sources: ["[[sources/manual-notes_10b5c5]]"]
+type: concept
+title: Iptables
+created:
+- datetime.date(2026
+- 6
+- 30)
+updated:
+- datetime.date(2026
+- 6
+- 30)
+sources:
+- '[[sources/manual-notes_10b5c5]]'
 tags:
-  - networking
-  - firewall
+- networking
+- firewall
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Iptables
 ---
 ## Related Concepts
 - [[concepts/container-dns-resolution]]

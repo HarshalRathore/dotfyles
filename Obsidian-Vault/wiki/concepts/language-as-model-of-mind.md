@@ -1,18 +1,18 @@
 ---
-title: "Language as Model of Mind"
+title: Language as Model of Mind
 tags:
-  - theory
-  - cognition
-  - linguistics
+- theory
+- cognition
+- linguistics
 aliases:
-  - language as placeholder concept
-  - language and theory of mind
-  - models of mind
+- language as placeholder concept
+- language and theory of mind
+- models of mind
 sources:
-  - "[[sources/watchv=dj0b_cebhhi]]"
-summary: "Danielle Perszyk's argument that language co-evolved with models of mind (theory of mind) in a flywheel that integrated communication and representation systems — making models of mind 'the first variable' and the origin of generalization in human intelligence."
+- 'https://www.youtube.com/watch?v=dj0b_cebhhi'
+summary: Danielle Perszyk's argument that language co-evolved with models of mind (theory of mind) in a flywheel that integrated communication and representation systems — making models of mind 'the first v...
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.55
@@ -20,6 +20,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Language as Model of Mind

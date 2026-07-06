@@ -1,23 +1,26 @@
 ---
-title: "Data Readiness Myth"
+title: Data Readiness Myth
 tags:
-  - ai
-  - data
-  - reliability
-  - production
-  - enterprise-ai
-aliases: [data readiness is a myth, data readiness fallacy, perfect data myth]
+- ai
+- data
+- reliability
+- production
+- enterprise-ai
+aliases:
+- data readiness is a myth
+- data readiness fallacy
+- perfect data myth
 relationships:
-  - target: "[[concepts/tribal-knowledge-in-ai]]"
-    type: related_to
-  - target: "[[concepts/agentic-semantic-layer]]"
-    type: related_to
+- target: '[[concepts/tribal-knowledge-in-ai]]'
+  type: related_to
+- target: '[[concepts/agentic-semantic-layer]]'
+  type: related_to
 sources:
-  - "[[sources/ai-engineer-worlds-fair-2025-talk]]"
+- '[[sources/ai-engineer-worlds-fair-2025-talk]]'
 Data readiness\" is a Myth: Reliable AI with an Agentic Semantic Layer — Anushrut Gupta, PromptQL - https://www.youtube.com/watch?v=1nOTQsfe1RU"
-summary: "The industry fallacy that data must be perfectly clean, annotated, and structured before AI can work reliably on it — a goal that never materializes in practice."
+summary: The industry fallacy that data must be perfectly clean, annotated, and structured before AI can work reliably on it — a goal that never materializes in practice.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.42
@@ -25,6 +28,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Data Readiness Myth

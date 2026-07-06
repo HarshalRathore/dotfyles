@@ -1,16 +1,16 @@
 ---
-title: "AIEF2025 - Unlocking AI Powered DevOps Within Your Organization — Jon Peck, GitHub"
+title: AIEF2025 - Unlocking AI Powered DevOps Within Your Organization — Jon Peck, GitHub
 tags:
-  - reference
-  - talk
-  - aief2025
-  - devops
-  - ai-adoption
+- reference
+- talk
+- aief2025
+- devops
+- ai-adoption
 sources:
-  - "[[sources/watchv=c1nivhys1si]]"
-summary: "Talk by Jon Peck (GitHub Developer Advocate) on organizational AI adoption strategy — brownfield-first learning, agentic IDE workflows, codifying team practices via Copilot Instructions, enterprise governance, and the issue-to-PR autonomous pipeline."
+- 'https://www.youtube.com/watch?v=c1nivhys1si'
+summary: Talk by Jon Peck (GitHub Developer Advocate) on organizational AI adoption strategy — brownfield-first learning, agentic IDE workflows, codifying team practices via Copilot Instructions, enterprise...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.18
   ambiguous: 0.02
 base_confidence: 0.65
@@ -18,6 +18,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: references
 ---
 
 # AIEF2025 — Unlocking AI Powered DevOps Within Your Organization

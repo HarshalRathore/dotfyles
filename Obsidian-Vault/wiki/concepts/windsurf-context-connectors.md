@@ -1,27 +1,35 @@
 ---
-title: "Windsurf Context Connectors"
+title: Windsurf Context Connectors
 category: concepts
-tags: [context, windsurf, retrieval, embedding-search, mcp, ast, aief2025]
+tags:
+- context
+- windsurf
+- retrieval
+- embedding-search
+- mcp
+- ast
+- aief2025
 aliases:
-  - Windsurf Context Tools
-  - Context Retrieval Toolkit
+- Windsurf Context Tools
+- Context Retrieval Toolkit
 sources:
-  - "AIEF2025 - The Eyes Are The (Context) Window to The Soul: How Windsurf Gets to Know You — Sam Fertig, Windsurf - https://www.youtube.com/watch?v=jUv5WSPo9fk"
+- 'AIEF2025 - The Eyes Are The (Context) Window to The Soul: How Windsurf Gets to Know You — Sam Fertig, Windsurf - https://www.youtube.com/watch?v=jUv5WSPo9fk'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.07
   ambiguous: 0.03
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/windsurf]]"
-    type: implemented-by
-  - target: "[[concepts/context-relevance-over-size]]"
-    type: enables
+- target: '[[entities/windsurf]]'
+  type: implemented-by
+- target: '[[concepts/context-relevance-over-size]]'
+  type: enables
+summary: Windsurf Context Connectors
 ---
 
 # Windsurf Context Connectors

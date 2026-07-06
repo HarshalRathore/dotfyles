@@ -1,24 +1,25 @@
 ---
-title: "Skill Acquisition Efficiency"
+title: Skill Acquisition Efficiency
 tags:
-  - ai
-  - agi
-  - intelligence
-  - benchmarking
-  - evaluation
+- ai
+- agi
+- intelligence
+- benchmarking
+- evaluation
 sources:
-  - "[[sources/watchv=3xmfpwjg8pg]]"
-  - "[[sources/francois-chollet-on-the-measure-of-intelligence-2019]]"
-summary: "Francois Chollet's definition of intelligence as the efficiency with which a system can acquire new skills — distinguishing genuine intelligence from knowledge or memorization."
+- 'https://www.youtube.com/watch?v=3xmfpwjg8pg'
+- '[[sources/francois-chollet-on-the-measure-of-intelligence-2019]]'
+summary: Francois Chollet's definition of intelligence as the efficiency with which a system can acquire new skills — distinguishing genuine intelligence from knowledge or memorization.
 provenance:
   extracted: 0.68
   inferred: 0.22
-  ambiguous: 0.10
+  ambiguous: 0.1
 base_confidence: 0.55
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 # Skill Acquisition Efficiency
 

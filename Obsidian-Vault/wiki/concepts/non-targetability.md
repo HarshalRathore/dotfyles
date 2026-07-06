@@ -1,17 +1,17 @@
 ---
-title: "Non-Targetability"
+title: Non-Targetability
 tags:
-  - concept
-  - privacy
-  - security
-  - threat-model
+- concept
+- privacy
+- security
+- threat-model
 aliases:
-  - Non-targetability
+- Non-targetability
 sources:
-  - "[[sources/watchv=ccswz5bjlo8]]"
-summary: "Privacy property ensuring an attacker cannot single out a specific user's data — to find a target, they would need to compromise all data and sift through it."
+- 'https://www.youtube.com/watch?v=ccswz5bjlo8'
+summary: Privacy property ensuring an attacker cannot single out a specific user's data — to find a target, they would need to compromise all data and sift through it.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.55
@@ -19,6 +19,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Non-Targetability

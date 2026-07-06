@@ -1,30 +1,31 @@
 ---
-title: "Build vs Buy Agents"
+title: Build vs Buy Agents
 category: concepts
 tags:
-  - agent
-  - strategy
-  - enterprise-ai
-  - engineering-decision
-  - platform-selection
+- agent
+- strategy
+- enterprise-ai
+- engineering-decision
+- platform-selection
 sources:
-  - "[[sources/watchv=lqq_lcbajcc]]"
+- 'https://www.youtube.com/watch?v=lqq_lcbajcc'
 relationships:
-  - target: "[[concepts/agent-platform|Agent Platform]]"
-    type: related_to
-  - target: "[[concepts/langgraph|LangGraph]]"
-    type: related_to
-  - target: "[[concepts/agent-guardrails|Agent Guardrails]]"
-    type: related_to
+- target: '[[concepts/agent-platform|Agent Platform]]'
+  type: related_to
+- target: '[[concepts/langgraph|LangGraph]]'
+  type: related_to
+- target: '[[concepts/agent-guardrails|Agent Guardrails]]'
+  type: related_to
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.85
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Build vs Buy Agents
 ---
 
 # Build vs Buy Agents

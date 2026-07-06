@@ -1,17 +1,26 @@
 ---
 type: concept
-title: "Flat Network Model"
+title: Flat Network Model
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/pods_c92b62]]"
+- '[[sources/pods_c92b62]]'
 tags:
-  - networking
+- networking
 aliases:
-  - Flat addressing
-  - Kubernetes Flat Network
+- Flat addressing
+- Kubernetes Flat Network
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Flat Network Model
 ---
 # Flat Network Model
 

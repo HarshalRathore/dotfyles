@@ -19,7 +19,7 @@ relationships:
   - target: "[[entities/dataquest|DataQuest]]"
     type: implements
 sources:
-  - "[[sources/watchv=k-iykdmfkhe]]"
+  - "https://www.youtube.com/watch?v=k-iykdmfkhe"
 summary: "CEO of Datalab, open-source AI researcher who built Marker and Surya OCR. Scaled Datalab to 7-figure ARR with a team of 3-4. Previously founded DataQuest, which scaled to 30 people and $4M ARR."
 provenance:
   extracted: 0.95

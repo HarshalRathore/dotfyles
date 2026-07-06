@@ -1,18 +1,18 @@
 ---
-title: "AIEF2025 - Robots as Professional Chefs - Nikhil Abraham, CloudChef"
+title: AIEF2025 - Robots as Professional Chefs - Nikhil Abraham, CloudChef
 category: references
 tags:
-  - reference
-  - talk
-  - aief2025
-  - robotics
-  - cooking
-  - cloudchef
-  - thermal-vision
-  - foundation-models
-summary: Nikhil Abraham (CloudChef CEO) presents CloudChef's wheeled two-arm robots deployed in real commercial kitchens, using thermal/RGB perception, foundation models, and teleoperation to cook 1000+ recipes autonomously.
+- reference
+- talk
+- aief2025
+- robotics
+- cooking
+- cloudchef
+- thermal-vision
+- foundation-models
+summary: Nikhil Abraham (CloudChef CEO) presents CloudChef's wheeled two-arm robots deployed in real commercial kitchens, using thermal/RGB perception, foundation models, and teleoperation to cook 1000+ rec...
 sources:
-  - "[[sources/watchv=mbwgiwjdlso]]"
+- 'https://www.youtube.com/watch?v=mbwgiwjdlso'
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -24,18 +24,18 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/nikhil-abraham]]"
-    type: related_to
-  - target: "[[entities/cloudchef]]"
-    type: related_to
-  - target: "[[concepts/robotic-culinary-automation]]"
-    type: related_to
-  - target: "[[concepts/thermal-computer-vision]]"
-    type: related_to
-  - target: "[[concepts/robot-foundation-models]]"
-    type: related_to
-  - target: "[[concepts/wheeled-robotics-over-humanoids]]"
-    type: related_to
+- target: '[[entities/nikhil-abraham]]'
+  type: related_to
+- target: '[[entities/cloudchef]]'
+  type: related_to
+- target: '[[concepts/robotic-culinary-automation]]'
+  type: related_to
+- target: '[[concepts/thermal-computer-vision]]'
+  type: related_to
+- target: '[[concepts/robot-foundation-models]]'
+  type: related_to
+- target: '[[concepts/wheeled-robotics-over-humanoids]]'
+  type: related_to
 ---
 
 Nikhil Abraham, co-founder and CEO of [[entities/cloudchef|CloudChef]], presents the company's approach to automating commercial kitchen labor using wheeled robots with two arms — a form factor chosen over humanoids for cost, reliability, and maintenance reasons.

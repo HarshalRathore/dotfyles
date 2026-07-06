@@ -1,18 +1,21 @@
 ---
-title: "Perceived Performance UX"
+title: Perceived Performance UX
 tags:
-  - performance
-  - ux
-  - frontend
-  - web-vitals
-  - voice-ai
-aliases: [perceived time design, perceived performance, performance perception]
+- performance
+- ux
+- frontend
+- web-vitals
+- voice-ai
+aliases:
+- perceived time design
+- perceived performance
+- performance perception
 sources:
-  - "[[sources/watchv=7e7evtcygcm]]"
-  - "[[sources/watchv=e71ytnbcfxy]]"
-summary: "Design techniques for making software feel fast to users, centered on the observation that humans perceive events under ~400ms as instantaneous — first paint, 60FPS, minimal bundles, SSR, caching, and color psychology as perception modifiers."
+- 'https://www.youtube.com/watch?v=7e7evtcygcm'
+- 'https://www.youtube.com/watch?v=e71ytnbcfxy'
+summary: Design techniques for making software feel fast to users, centered on the observation that humans perceive events under ~400ms as instantaneous — first paint, 60FPS, minimal bundles, SSR, caching,...
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.55
@@ -20,6 +23,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-04
+category: concepts
 ---
 
 # Perceived Performance UX

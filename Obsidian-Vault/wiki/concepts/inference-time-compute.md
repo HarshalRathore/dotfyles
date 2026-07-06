@@ -1,13 +1,22 @@
 ---
-title: "Inference-Time Compute Scaling"
+title: Inference-Time Compute Scaling
 category: concepts
-tags: [inference-time-compute, scaling, llm, cost-optimization, autonomous-coding, aief2025]
-aliases: [inference scaling, inference-time compute, compute-at-inference]
+tags:
+- inference-time-compute
+- scaling
+- llm
+- cost-optimization
+- autonomous-coding
+- aief2025
+aliases:
+- inference scaling
+- inference-time compute
+- compute-at-inference
 sources:
-  - "[[sources/watchv=qludzkvfp6a]]"
-summary: "The paradigm of improving LLM outputs by spending additional compute per inference call — generating multiple samples, performing majority voting, and sequential revision — rather than scaling pre-training."
+- 'https://www.youtube.com/watch?v=qludzkvfp6a'
+summary: The paradigm of improving LLM outputs by spending additional compute per inference call — generating multiple samples, performing majority voting, and sequential revision — rather than scaling pre-...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -16,14 +25,14 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/compute-scaling-laws|Compute Scaling Laws]]"
-    type: contrasts_with
-  - target: "[[concepts/majority-voting-self-consistency|Majority Voting / Self-Consistency]]"
-    type: implements
-  - target: "[[concepts/sequential-revision|Sequential Revision]]"
-    type: implements
-  - target: "[[concepts/agentic-coding|Agentic Coding]]"
-    type: enables
+- target: '[[concepts/compute-scaling-laws|Compute Scaling Laws]]'
+  type: contrasts_with
+- target: '[[concepts/majority-voting-self-consistency|Majority Voting / Self-Consistency]]'
+  type: implements
+- target: '[[concepts/sequential-revision|Sequential Revision]]'
+  type: implements
+- target: '[[concepts/agentic-coding|Agentic Coding]]'
+  type: enables
 ---
 
 # Inference-Time Compute Scaling

@@ -1,35 +1,37 @@
 ---
-title: "AIEF2025 - Optimizing Inference for Voice Models in Production"
+title: AIEF2025 - Optimizing Inference for Voice Models in Production
 tags:
-  - talk
-  - aief2025
-  - voice-ai
-  - inference
-  - optimization
-  - tensorrt-llm
-  - quantization
-  - tts
-summary: Philip Kiely of Baseten covers runtime optimization techniques for TTS models (Orpheus TTS) including TensorRT-LLM, FP8 quantization on Hopper architecture, dynamic batching, and GPU audio decoding to achieve 24+ concurrent streams on half an H100 MIG.
+- talk
+- aief2025
+- voice-ai
+- inference
+- optimization
+- tensorrt-llm
+- quantization
+- tts
+summary: Philip Kiely of Baseten covers runtime optimization techniques for TTS models (Orpheus TTS) including TensorRT-LLM, FP8 quantization on Hopper architecture, dynamic batching, and GPU audio decoding...
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/voice-inference-metrics]]"
-    type: uses
-  - target: "[[concepts/dynamic-batching]]"
-    type: uses
-  - target: "[[concepts/gpu-mig]]"
-    type: uses
-  - target: "[[entities/baseten]]"
-    type: related_to
-  - target: "[[entities/canopy-labs]]"
-    type: related_to
+- target: '[[concepts/voice-inference-metrics]]'
+  type: uses
+- target: '[[concepts/dynamic-batching]]'
+  type: uses
+- target: '[[concepts/gpu-mig]]'
+  type: uses
+- target: '[[entities/baseten]]'
+  type: related_to
+- target: '[[entities/canopy-labs]]'
+  type: related_to
+category: references
+sources: []
 ---
 
 # AIEF2025 - Optimizing Inference for Voice Models in Production
@@ -40,7 +42,7 @@ relationships:
 
 ## Summary
 
-Philip Kiely presents a comprehensive walkthrough of optimizing inference runtime for text-to-speech models in production, using [[entities/canopy-labs|Canopy Labs]]'s [[concepts/orpheus-tts|Orpheus TTS]] as the primary case study. The talk covers the full stack from model architecture through infrastructure decisions, demonstrating how to fit multiple concurrent voice streams on a single GPU using TensorRT-LLM, FP8 quantization, and dynamic batching.
+Philip Kiely presents a comprehensive walkthrough of optimizing inference runtime for text-to-speech models in production, using [[entities/canopy-labs|Canopy Labs]]'s [[entities/orpheus-tts|Orpheus TTS]] as the primary case study. The talk covers the full stack from model architecture through infrastructure decisions, demonstrating how to fit multiple concurrent voice streams on a single GPU using TensorRT-LLM, FP8 quantization, and dynamic batching.
 
 ## Key Topics
 
@@ -70,7 +72,7 @@ Profiling revealed the TTS pipeline is often CPU-bound rather than GPU-bound —
 - [[entities/philip-kiely]] — Speaker
 - [[entities/baseten]] — Speaker's company
 - [[entities/canopy-labs]] — Creators of Orpheus TTS
-- [[concepts/orpheus-tts]] — The TTS model used as example
+- [[entities/orpheus-tts]] — The TTS model used as example
 - [[concepts/voice-inference-metrics]] — Voice-specific performance metrics
 - [[concepts/dynamic-batching]] — Batching strategy for TTS
 - [[concepts/gpu-mig]] — MIG for cost-efficient GPU usage

@@ -1,16 +1,16 @@
 ---
-title: "Evals as Industry Transformation"
+title: Evals as Industry Transformation
 category: concepts
 tags:
-  - evals
-  - industry-transformation
-  - production-ai
-  - ai-adoption
+- evals
+- industry-transformation
+- production-ai
+- ai-adoption
 sources:
-  - "AIEF2025 - Why should anyone care about Evals? — Manu Goyal, Braintrust - https://www.youtube.com/watch?v=jJ45Yz1lJao"
+- AIEF2025 - Why should anyone care about Evals? — Manu Goyal, Braintrust - https://www.youtube.com/watch?v=jJ45Yz1lJao
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.75
 lifecycle: draft
@@ -18,12 +18,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/enterprise-ai-adoption|Enterprise AI Adoption]]"
-    type: enables
-  - target: "[[concepts/eval-driven-development|Eval-Driven Development]]"
-    type: implements
-  - target: "[[concepts/ship-confidently|Ship Confidently]]"
-    type: enables
+- target: '[[concepts/enterprise-ai-adoption|Enterprise AI Adoption]]'
+  type: enables
+- target: '[[concepts/eval-driven-development|Eval-Driven Development]]'
+  type: implements
+- target: '[[concepts/ship-confidently|Ship Confidently]]'
+  type: enables
+summary: Evals as Industry Transformation
 ---
 
 # Evals as Industry Transformation

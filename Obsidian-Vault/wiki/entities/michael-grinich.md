@@ -1,19 +1,25 @@
 ---
-title: "Michael Grinich"
+title: Michael Grinich
 tags:
-  - person
-  - ai
-  - identity
-  - auth
-  - ceo
-  - workos
+- person
+- ai
+- identity
+- auth
+- ceo
+- workos
 sources:
-  - "[[sources/watchv=d4dswf-__rm]]"
-summary: "CEO of WorkOS. Speaker at AI Engineer World's Fair 2025 on customer identity and access management (CIAM) for AI agents, proposing four identity architecture patterns and calling for new standards."
+- 'https://www.youtube.com/watch?v=d4dswf-__rm'
+summary: CEO of WorkOS. Speaker at AI Engineer World's Fair 2025 on customer identity and access management (CIAM) for AI agents, proposing four identity architecture patterns and calling for new standards.
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
 ---
 # Michael Grinich
 

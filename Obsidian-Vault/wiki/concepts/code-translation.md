@@ -1,32 +1,33 @@
 ---
-title: "Code Translation with LLMs"
+title: Code Translation with LLMs
 category: concepts
 tags:
-  - code-translation
-  - llm
-  - code-generation
-  - multi-file
-  - graphrag
+- code-translation
+- llm
+- code-generation
+- multi-file
+- graphrag
 aliases:
-  - LLM code translation
-  - language migration
+- LLM code translation
+- language migration
 sources:
-  - "AIEF2025 - GraphRAG methods to create optimized LLM context windows for Retrieval — Jonathan Larson, Microsoft - https://www.youtube.com/watch?v=c5qJHr3DnT4"
+- AIEF2025 - GraphRAG methods to create optimized LLM context windows for Retrieval — Jonathan Larson, Microsoft - https://www.youtube.com/watch?v=c5qJHr3DnT4
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/graphrag-code|GraphRAG for Code]]"
-    type: enabled-by
-  - target: "[[concepts/multi-file-modification|Multi-File Modification Challenge]]"
-    type: relates_to
+- target: '[[concepts/graphrag-code|GraphRAG for Code]]'
+  type: enabled-by
+- target: '[[concepts/multi-file-modification|Multi-File Modification Challenge]]'
+  type: relates_to
+summary: Code Translation with LLMs
 ---
 
 # Code Translation with LLMs

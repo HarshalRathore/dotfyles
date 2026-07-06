@@ -1,21 +1,33 @@
 ---
-summary: "This source provides a technical deep dive into the networking mechanisms used by Docker containers. It explains how a **user-defined bridge network**, such as one created via "
+summary: 'This source provides a technical deep dive into the networking mechanisms used by Docker containers. It explains how a **user-defined bridge network**, such as one created via '
 tags:
-  - "User-defined bridge network"
-  - Embedded DNS server
-  - Bridge network in Docker
-  - Linux network namespace
-  - Linux namespace types
-  - Container DNS Resolution
-  - Docker Gateway IP
-  - iptables
-  - NAT
-  - veth pair
+- User-defined bridge network
+- Embedded DNS server
+- Bridge network in Docker
+- Linux network namespace
+- Linux namespace types
+- Container DNS Resolution
+- Docker Gateway IP
+- iptables
+- NAT
+- veth pair
 aliases:
-  - Docker Networking Internals
-  - Docker Name Resolution
-contentHash: "1987-840ab118"
-generation_complete: True
+- Docker Networking Internals
+- Docker Name Resolution
+contentHash: 1987-840ab118
+generation_complete: true
+title: Docker Networking, DNS, and Network Namespaces - Summary
+category: sources
+sources: []
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+created: '2026-07-02T13:38:25.552241+00:00'
+updated: '2026-07-02T13:38:25.552241+00:00'
 ---
 # Docker Networking, DNS, and Network Namespaces - Summary
 

@@ -1,17 +1,26 @@
 ---
 type: entity
-title: "worker-node-1"
+title: worker-node-1
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/introduction_804367]]"
+- '[[sources/introduction_804367]]'
 tags:
-  - other
+- other
 aliases:
-  - Worker Node
-  - Worker Node 1
+- Worker Node
+- Worker Node 1
+category: entities
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: worker-node-1
 ---
 # worker-node-1
 
@@ -29,7 +38,7 @@ worker-node-1 is one of the two dedicated EC2 instances provisioned to form the 
 - kubernetes
 
 ## Related Concepts
-- [[worker-node]]
+- [[concepts/worker-node]]
 
 ## Mentions in Source
 - "Launch EC2 Instances (Worker Nodes): 2x Instances, OS: Ubuntu 20.04 LTS, Instance Type: t2.large (better, 2 CPU, 8GB RAM) (or t2.medium if saving cost)" — introduction_804367

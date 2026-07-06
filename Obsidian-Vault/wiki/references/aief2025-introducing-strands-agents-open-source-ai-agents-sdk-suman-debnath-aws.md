@@ -1,27 +1,30 @@
 ---
-title: "Introducing Strands Agents, an Open Source AI Agents SDK — Suman Debnath, AWS"
+title: Introducing Strands Agents, an Open Source AI Agents SDK — Suman Debnath, AWS
 tags:
-  - reference
-  - talk
-  - aief2025
-  - aws
-  - strands
-  - agents
-  - mcp
-  - open-source
-aliases: [Strands Agents SDK, Strands open source SDK]
-summary: "AWS developer Suman Debnath demos Strands, an open-source AI agent SDK with minimal scaffolding — just model and tools. Covers default tools, MCP server integration, and custom tool creation."
+- reference
+- talk
+- aief2025
+- aws
+- strands
+- agents
+- mcp
+- open-source
+aliases:
+- Strands Agents SDK
+- Strands open source SDK
+summary: AWS developer Suman Debnath demos Strands, an open-source AI agent SDK with minimal scaffolding — just model and tools. Covers default tools, MCP server integration, and custom tool creation.
 sources:
-  - "[[sources/watchv=q3nreeadkmc]]"
+- 'https://www.youtube.com/watch?v=q3nreeadkmc'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+category: references
 ---
 
 # Introducing Strands Agents, an Open Source AI Agents SDK

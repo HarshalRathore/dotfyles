@@ -16,18 +16,18 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/traceloop.md]]"
+  - target: "[[entities/traceloop]]"
     type: related_to
-  - target: "[[concepts/prompt-engineering-is-dead.md]]"
+  - target: "[[concepts/prompt-engineering-is-dead]]"
     type: related_to
-  - target: "[[concepts/rag-pipeline-architecture.md]]"
+  - target: "[[concepts/rag-pipeline-architecture]]"
     type: related_to
-  - target: "[[concepts/llm-as-judge-evaluation.md]]"
+  - target: "[[concepts/llm-as-judge-evaluation]]"
     type: related_to
 ---
 
 # Nir Gazit
 
-Founder of [[entities/traceloop.md|Traceloop]], a platform for LLM observability and agent infrastructure. Presented "Prompt Engineering is Dead" at the AI Engineer World's Fair 2025.
+Founder of [[entities/traceloop|Traceloop]], a platform for LLM observability and agent infrastructure. Presented "Prompt Engineering is Dead" at the AI Engineer World's Fair 2025.
 
 At Traceloop, Gazit built infrastructure for observing and improving LLM-based applications. His AIEF2025 talk illustrated a personal project where he improved his company's RAG chatbot over five weeks without manual prompt engineering, instead building an auto-improving agent loop with evaluation-driven iteration.

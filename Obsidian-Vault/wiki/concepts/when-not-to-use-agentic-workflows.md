@@ -1,19 +1,19 @@
 ---
-title: "When NOT to Use Agentic Workflows"
+title: When NOT to Use Agentic Workflows
 category: concepts
 tags:
-  - agentic-workflows
-  - decision-framework
-  - enterprise-ai
-  - anti-patterns
-  - design-decisions
+- agentic-workflows
+- decision-framework
+- enterprise-ai
+- anti-patterns
+- design-decisions
 aliases:
-  - agentic workflow anti-patterns
-  - when not to use agents
+- agentic workflow anti-patterns
+- when not to use agents
 sources:
-  - "AIEF2025 - How to Build Planning Agents without losing control - Yogendra Miraje, Factset - https://www.youtube.com/watch?v=sl3icG-IjHo"
+- AIEF2025 - How to Build Planning Agents without losing control - Yogendra Miraje, Factset - https://www.youtube.com/watch?v=sl3icG-IjHo
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -23,14 +23,15 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/agentic-workflow-vs-workflow-agent|Agentic Workflow vs Workflow Agent]]"
-    type: related_to
-  - target: "[[concepts/deterministic-vs-autonomous-agents|Deterministic vs Autonomous Agents]]"
-    type: related_to
-  - target: "[[concepts/etl-pipeline|ETL Pipeline]]"
-    type: replaces
-  - target: "[[concepts/workflow-agent-spectrum|Workflow-Agent Spectrum]]"
-    type: related_to
+- target: '[[concepts/agentic-workflow-vs-workflow-agent|Agentic Workflow vs Workflow Agent]]'
+  type: related_to
+- target: '[[concepts/deterministic-vs-autonomous-agents|Deterministic vs Autonomous Agents]]'
+  type: related_to
+- target: '[[concepts/etl-pipeline|ETL Pipeline]]'
+  type: replaces
+- target: '[[concepts/workflow-agent-spectrum|Workflow-Agent Spectrum]]'
+  type: related_to
+summary: When NOT to Use Agentic Workflows
 ---
 
 # When NOT to Use Agentic Workflows

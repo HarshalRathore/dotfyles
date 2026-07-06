@@ -1,19 +1,19 @@
 ---
-title: "LLM Judge Correctness Metric"
+title: LLM Judge Correctness Metric
 category: concepts
 tags:
-  - evals
-  - llm-as-judge
-  - metrics
-  - ai-search
-  - aief2025
+- evals
+- llm-as-judge
+- metrics
+- ai-search
+- aief2025
 aliases:
-  - correctness metric
-  - simpleqa correctness
+- correctness metric
+- simpleqa correctness
 sources:
-  - "AIEF2025 - Evaluating AI Search: A Practical Framework for Augmented AI Systems — Quotient AI + Tavily - https://www.youtube.com/watch?v=wRJD0inpmjU"
+- 'AIEF2025 - Evaluating AI Search: A Practical Framework for Augmented AI Systems — Quotient AI + Tavily - https://www.youtube.com/watch?v=wRJD0inpmjU'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.06
   ambiguous: 0.04
 base_confidence: 0.85
@@ -23,10 +23,11 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/llm-as-judge-evaluation]]"
-    type: is_a
-  - target: "[[concepts/simpleqa]]"
-    type: used_with
+- target: '[[concepts/llm-as-judge-evaluation]]'
+  type: is_a
+- target: '[[concepts/simpleqa]]'
+  type: used_with
+summary: LLM Judge Correctness Metric
 ---
 
 # LLM Judge Correctness Metric

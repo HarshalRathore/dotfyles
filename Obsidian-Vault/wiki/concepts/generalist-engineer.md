@@ -1,29 +1,29 @@
 ---
-title: "Generalist Engineer"
+title: Generalist Engineer
 category: concepts
 tags:
-  - hiring
-  - team-design
-  - generalist
-  - ai
-  - aief2025
+- hiring
+- team-design
+- generalist
+- ai
+- aief2025
 aliases:
-  - Generalist
-  - Full-stack generalist
+- Generalist
+- Full-stack generalist
 relationships:
-  - target: "[[concepts/small-ai-teams|Small AI Teams with Huge Impact]]"
-    type: implements
-  - target: "[[concepts/headcount-vs-productivity|Headcount vs Productivity]]"
-    type: related_to
-  - target: "[[concepts/high-trust-culture|High-Trust Culture]]"
-    type: related_to
+- target: '[[concepts/small-ai-teams|Small AI Teams with Huge Impact]]'
+  type: implements
+- target: '[[concepts/headcount-vs-productivity|Headcount vs Productivity]]'
+  type: related_to
+- target: '[[concepts/high-trust-culture|High-Trust Culture]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=k-iykdmfkhe]]"
-summary: "The ideal team member for small AI teams: someone who can work across the full stack, talk to customers, build go-to-market, and operate with high maturity. Seniority means maturity, not years of experience."
+- 'https://www.youtube.com/watch?v=k-iykdmfkhe'
+summary: 'The ideal team member for small AI teams: someone who can work across the full stack, talk to customers, build go-to-market, and operate with high maturity. Seniority means maturity, not years of e...'
 provenance:
   extracted: 0.85
   inferred: 0.15
-  ambiguous: 0.00
+  ambiguous: 0.0
 base_confidence: 0.75
 lifecycle: draft
 lifecycle_changed: 2026-07-04

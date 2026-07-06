@@ -1,13 +1,21 @@
 ---
 title: Agentic Retrieval
 category: concepts
-tags: [agentic, retrieval, feedback-loop, query-decomposition, multi-step, llm]
-aliases: [agentic search, agentic RAG]
-summary: "Retrieval architecture where the search system participates in a feedback loop with the LLM — the agent decomposes queries, issues multiple searches, expands queries, and iterates rather than performing a single input-output lookup."
+tags:
+- agentic
+- retrieval
+- feedback-loop
+- query-decomposition
+- multi-step
+- llm
+aliases:
+- agentic search
+- agentic RAG
+summary: Retrieval architecture where the search system participates in a feedback loop with the LLM — the agent decomposes queries, issues multiple searches, expands queries, and iterates rather than perfo...
 sources:
-  - "AIEF2025 - The State of AI Powered Search and Retrieval — Frank Liu, MongoDB (prev Voyage AI) - https://www.youtube.com/watch?v=pIPtpBZ6TKk"
+- AIEF2025 - The State of AI Powered Search and Retrieval — Frank Liu, MongoDB (prev Voyage AI) - https://www.youtube.com/watch?v=pIPtpBZ6TKk
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -17,14 +25,14 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/rag-pipeline-architecture]]"
-    type: extends
-  - target: "[[concepts/query-decomposition]]"
-    type: uses
-  - target: "[[concepts/rag-agent-symbiosis]]"
-    type: related_to
-  - target: "[[concepts/ai-powered-search]]"
-    type: extends
+- target: '[[concepts/rag-pipeline-architecture]]'
+  type: extends
+- target: '[[concepts/query-decomposition]]'
+  type: uses
+- target: '[[concepts/rag-agent-symbiosis]]'
+  type: related_to
+- target: '[[concepts/ai-powered-search]]'
+  type: extends
 ---
 
 # Agentic Retrieval

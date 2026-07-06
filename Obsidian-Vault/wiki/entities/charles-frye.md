@@ -1,19 +1,19 @@
 ---
-title: "Charles Frye"
+title: Charles Frye
 tags:
-  - person
-  - modal
-  - inference
-  - benchmarking
-  - ai-engineering
+- person
+- modal
+- inference
+- benchmarking
+- ai-engineering
 aliases:
-  - Charles Frye
-  - Charles Frye Modal
+- Charles Frye
+- Charles Frye Modal
 sources:
-  - "[[sources/watchv=deff3j8t5pk]]"
-summary: "Developer Advocate at Modal. Created the LLM Almanac benchmark. Predicted open models would catch up to proprietary models (2023). Known for LLM inference benchmarking and performance analysis."
+- 'https://www.youtube.com/watch?v=deff3j8t5pk'
+summary: Developer Advocate at Modal. Created the LLM Almanac benchmark. Predicted open models would catch up to proprietary models (2023). Known for LLM inference benchmarking and performance analysis.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.55
@@ -21,6 +21,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Charles Frye

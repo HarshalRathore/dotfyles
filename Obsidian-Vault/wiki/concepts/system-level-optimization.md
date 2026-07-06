@@ -1,33 +1,26 @@
 ---
-title: "System-Level Optimization"
+title: System-Level Optimization
 category: concepts
 tags:
-  - optimization
-  - evals
-  - prompt-engineering
-  - production-ai
-  - braintrust
-  - aief2025
+- optimization
+- evals
+- prompt-engineering
+- production-ai
+- braintrust
+- aief2025
 sources:
-  - "AIEF2025 - Five hard earned lessons about Evals — Ankur Goyal, Braintrust - https://www.youtube.com/watch?v=a4BV0gGmXgA"
-summary: "Optimize the entire AI system — data, task, and scorers — not just the prompt. System-level optimization produces dramatically better results than prompt-only optimization.
+- AIEF2025 - Five hard earned lessons about Evals — Ankur Goyal, Braintrust - https://www.youtube.com/watch?v=a4BV0gGmXgA
+summary: Optimize the entire AI system — data, task, and scorers — not just the prompt. System-level optimization produces dramatically better results than prompt-only optimization.
 provenance:
-  extracted: 0.90
-  inferred: 0.10
-  ambiguous: 0.00
-base_confidence: 0.85
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+base_confidence: 0.42
 lifecycle: draft
-lifecycle_changed: 2026-07-04
+lifecycle_changed: '2026-07-04'
 tier: supporting
-created: 2026-07-04
-updated: 2026-07-04
-relationships:
-  - target: "[[concepts/evals-play-offense|Evals Play Offense]]"
-    type: enables
-  - target: "[[concepts/loop-automated-eval-optimization|Loop — Automated Eval Optimization]]"
-    type: implements
-  - target: "[[concepts/eval-ingredients-task-dataset-score|Eval Ingredients: Task, Dataset, Score]]"
-    type: relates_to
+created: '2026-07-04'
+updated: '2026-07-04'
 ---
 
 # System-Level Optimization

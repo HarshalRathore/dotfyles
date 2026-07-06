@@ -1,19 +1,23 @@
 ---
-title: "MCP Dynamic Client Registration"
+title: MCP Dynamic Client Registration
 tags:
-  - mcp
-  - auth
-  - protocol
-  - enterprise
+- mcp
+- auth
+- protocol
+- enterprise
 sources:
-  - "[[sources/watchv=0mqya52iwqu]]"
-summary: "The MCP protocol behavior where clients dynamically register themselves with servers as applications, creating operational challenges for auth management, dashboards, and headless AI agent authentication."
+- 'https://www.youtube.com/watch?v=0mqya52iwqu'
+summary: The MCP protocol behavior where clients dynamically register themselves with servers as applications, creating operational challenges for auth management, dashboards, and headless AI agent authenti...
 provenance:
-  extracted: 0.50
-  inferred: 0.40
-  ambiguous: 0.10
-base_confidence: 0.50
+  extracted: 0.5
+  inferred: 0.4
+  ambiguous: 0.1
+base_confidence: 0.5
 lifecycle: draft
+category: concepts
+tier: supporting
+created: '2026-07-04T15:08:36.577091+00:00'
+updated: '2026-07-04T15:08:36.577091+00:00'
 ---
 # MCP Dynamic Client Registration
 

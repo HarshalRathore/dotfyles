@@ -1,32 +1,39 @@
 ---
-summary: "This source provides a comprehensive overview of how [[concepts/replicationcontroller]] (RC) and its successor, [[concepts/replicaset]] (RS), function within th..."
+summary: This source provides a comprehensive overview of how [[concepts/replicationcontroller]] (RC) and its successor, [[concepts/replicaset]] (RS), function within th...
 type: source
-title: "ReplicationControllers and ReplicaSets in Kubernetes - Summary"
-created: "2026-06-30"
-updated: "2026-06-30"
+title: ReplicationControllers and ReplicaSets in Kubernetes - Summary
+created: '2026-06-30'
+updated: '2026-06-30'
 lifecycle: draft
 base_confidence: 0.7
-source_file: ""
+source_file: ''
 tags:
-  - ReplicationController
-  - ReplicaSet
-  - Labels
-  - Selectors
-  - Deployments
-  - Services
-  - Scaling
-  - HorizontalPodAutoscaler
-  - Rolling Updates
-  - "Self-Healing"
-  - Desired State
-  - High Availability
-  - "Equality-based Selectors"
-  - "Set-based Selectors"
+- ReplicationController
+- ReplicaSet
+- Labels
+- Selectors
+- Deployments
+- Services
+- Scaling
+- HorizontalPodAutoscaler
+- Rolling Updates
+- Self-Healing
+- Desired State
+- High Availability
+- Equality-based Selectors
+- Set-based Selectors
 aliases:
-  - RC and RS in Kubernetes
-  - Kubernetes Pod Replication Controllers
-contentHash: "15e0-c59edb54"
-generation_complete: True
+- RC and RS in Kubernetes
+- Kubernetes Pod Replication Controllers
+contentHash: 15e0-c59edb54
+generation_complete: true
+category: sources
+sources: []
+tier: supporting
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
 ---
 # ReplicationControllers and ReplicaSets in Kubernetes - Summary
 

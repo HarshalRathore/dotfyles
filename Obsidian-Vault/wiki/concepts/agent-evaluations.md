@@ -1,34 +1,35 @@
 ---
-title: "Agent Evaluations"
+title: Agent Evaluations
 category: concepts
 tags:
-  - agent
-  - evals
-  - quality-assurance
-  - production
-  - non-deterministic
+- agent
+- evals
+- quality-assurance
+- production
+- non-deterministic
 sources:
-  - "[[sources/watchv=lqq_lcbajcc]]"
-  - "[[sources/watchv=mc55hdwlq4o]]"
-  - "[[sources/watchv=pthmdt92qng]]"
+- 'https://www.youtube.com/watch?v=lqq_lcbajcc'
+- 'https://www.youtube.com/watch?v=mc55hdwlq4o'
+- 'https://www.youtube.com/watch?v=pthmdt92qng'
 relationships:
-  - target: "[[concepts/agent-guardrails|Agent Guardrails]]"
-    type: implements
-  - target: "[[concepts/agent-loop|Agent Loop]]"
-    type: related_to
-  - target: "[[concepts/swe-bench|SWE Bench]]"
-    type: related_to
-  - target: "[[concepts/advantage-estimation|Advantage Estimation]]"
-    type: related_to
+- target: '[[concepts/agent-guardrails|Agent Guardrails]]'
+  type: implements
+- target: '[[concepts/agent-loop|Agent Loop]]'
+  type: related_to
+- target: '[[concepts/swe-bench|SWE Bench]]'
+  type: related_to
+- target: '[[concepts/advantage-estimation|Advantage Estimation]]'
+  type: related_to
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.78
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Agent Evaluations
 ---
 
 # Agent Evaluations

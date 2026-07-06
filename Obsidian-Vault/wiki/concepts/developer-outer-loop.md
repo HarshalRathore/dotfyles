@@ -1,29 +1,29 @@
 ---
-title: "Developer Outer Loop"
+title: Developer Outer Loop
 tags:
-  - concept
-  - software-engineering
-  - workflow
-  - code-review
-  - cicd
+- concept
+- software-engineering
+- workflow
+- code-review
+- cicd
 aliases:
-  - outer loop
-  - inner loop and outer loop
-  - inner/outer loop model
-  - two-loop model
+- outer loop
+- inner loop and outer loop
+- inner/outer loop model
+- two-loop model
 relationships:
-  - target: "[[concepts/code-review-primary-skill]]"
-    type: related_to
-  - target: "[[concepts/issue-to-pr-pipeline]]"
-    type: extends
-  - target: "[[concepts/peer-programming]]"
-    type: related_to
+- target: '[[concepts/code-review-primary-skill]]'
+  type: related_to
+- target: '[[concepts/issue-to-pr-pipeline]]'
+  type: extends
+- target: '[[concepts/peer-programming]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=h6mrr5nbtza]]"
-  - "[[sources/watchv=jvunpl5qo8q]]"
-summary: "The two-loop model of software development: the inner loop (writing code) and the outer loop (testing, reviewing, merging, deploying). AI accelerates the inner loop dramatically, shifting the bottleneck to the outer loop — requiring AI-native tooling across the entire development lifecycle."
+- 'https://www.youtube.com/watch?v=h6mrr5nbtza'
+- 'https://www.youtube.com/watch?v=jvunpl5qo8q'
+summary: 'The two-loop model of software development: the inner loop (writing code) and the outer loop (testing, reviewing, merging, deploying). AI accelerates the inner loop dramatically, shifting the bottl...'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.65
@@ -31,6 +31,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-04
+category: concepts
 ---
 
 # Developer Outer Loop

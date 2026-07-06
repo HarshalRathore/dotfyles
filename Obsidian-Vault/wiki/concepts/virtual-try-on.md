@@ -1,28 +1,29 @@
 ---
-title: "Virtual Try-On"
+title: Virtual Try-On
 category: concepts
 tags:
-  - e-commerce
-  - virtual-try-on
-  - product-market-fit
-  - generative-media
-  - fashion-tech
+- e-commerce
+- virtual-try-on
+- product-market-fit
+- generative-media
+- fashion-tech
 sources:
-  - "[[sources/watchv=p370d8kmlkw]]"
+- 'https://www.youtube.com/watch?v=p370d8kmlkw'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/generative-media]]"
-    type: uses
-  - target: "[[concepts/e-commerce-ai-transformation]]"
-    type: related_to
+- target: '[[concepts/generative-media]]'
+  type: uses
+- target: '[[concepts/e-commerce-ai-transformation]]'
+  type: related_to
+summary: Virtual Try-On
 ---
 
 # Virtual Try-On

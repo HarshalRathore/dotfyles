@@ -1,31 +1,32 @@
 ---
-title: "Model-Driven Agent Design"
+title: Model-Driven Agent Design
 tags:
-  - ai-agents
-  - agent-architecture
-  - llm-driven
-  - aws
-  - strands-agents
+- ai-agents
+- agent-architecture
+- llm-driven
+- aws
+- strands-agents
 sources:
-  - "AIEF2025 - Building Agents at Cloud Scale — Antje Barth, AWS - https://www.youtube.com/watch?v=WJjInLeaJjo"
-summary: "An agent design approach where developers define what the agent should do (prompt + tools) and let state-of-the-art LLMs handle reasoning, planning, and action — minimizing scaffolding and orchestration code."
+- AIEF2025 - Building Agents at Cloud Scale — Antje Barth, AWS - https://www.youtube.com/watch?v=WJjInLeaJjo
+summary: An agent design approach where developers define what the agent should do (prompt + tools) and let state-of-the-art LLMs handle reasoning, planning, and action — minimizing scaffolding and orchestr...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/strands-agents|Strands Agents]]"
-    type: implements
-  - target: "[[concepts/agent-loop|Agent Loop]]"
-    type: extends
-  - target: "[[concepts/ai-native-toolchain|AI-Native Toolchain]]"
-    type: related_to
+- target: '[[entities/strands-agents|Strands Agents]]'
+  type: implements
+- target: '[[concepts/agent-loop|Agent Loop]]'
+  type: extends
+- target: '[[concepts/ai-native-toolchain|AI-Native Toolchain]]'
+  type: related_to
+category: concepts
 ---
 # Model-Driven Agent Design
 

@@ -1,23 +1,24 @@
 ---
-title: "From Hype to Habit: How We're Building an AI-First SaaS Company—While Still Shipping the Roadmap"
+title: 'From Hype to Habit: How We''re Building an AI-First SaaS Company—While Still Shipping the Roadmap'
 tags:
-  - reference
-  - talk
-  - ai-engineer
-  - transformation
-  - strategy
+- reference
+- talk
+- ai-engineer
+- transformation
+- strategy
 sources:
-  - "[[sources/watchv=3ygrcgzj3yc]]"
-summary: "AI Engineer World's Fair 2025 talk by Sprout Social on their candid, real-time AI transformation journey — covering a three-dimensional framework across strategy, ways of working, and people."
+- 'https://www.youtube.com/watch?v=3ygrcgzj3yc'
+summary: AI Engineer World's Fair 2025 talk by Sprout Social on their candid, real-time AI transformation journey — covering a three-dimensional framework across strategy, ways of working, and people.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: references
 ---
 
 # From Hype to Habit: How We're Building an AI-First SaaS Company—While Still Shipping the Roadmap

@@ -4,7 +4,7 @@ category: concepts
 tags: [temporal-graph, knowledge-graph, open-source, zep, domain-aware-memory, graph-database]
 summary: "Zep's open-source temporal graph framework that allows developers to build custom entities and edges for their particular business domain. Powers Zep's domain-aware memory system."
 sources:
-  - "[[sources/watchv=t5imo5ntyha]]"
+  - "https://www.youtube.com/watch?v=t5imo5ntyha"
 provenance:
   extracted: 0.90
   inferred: 0.07

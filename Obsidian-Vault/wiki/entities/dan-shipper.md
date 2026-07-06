@@ -1,32 +1,33 @@
 ---
-title: "Dan Shipper"
+title: Dan Shipper
 category: entities
 tags:
-  - person
-  - founder
-  - ai-native
-  - startup
-  - aief2025
+- person
+- founder
+- ai-native
+- startup
+- aief2025
 aliases:
-  - Dan Shipper
-summary: "Founder and operator of Every, a 15-person AI-native company running four software products with 99% AI-written code. Speaker at AIEF2025 on compounding engineering."
+- Dan Shipper
+summary: Founder and operator of Every, a 15-person AI-native company running four software products with 99% AI-written code. Speaker at AIEF2025 on compounding engineering.
 provenance:
   extracted: 0.95
   inferred: 0.04
   ambiguous: 0.01
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/every-company|Every]]"
-    type: implements
-  - target: "[[concepts/compounding-engineering|Compounding Engineering]]"
-    type: related_to
-  - target: "[[concepts/ai-native-company|AI-Native Company]]"
-    type: related_to
+- target: '[[entities/every-company|Every]]'
+  type: implements
+- target: '[[concepts/compounding-engineering|Compounding Engineering]]'
+  type: related_to
+- target: '[[concepts/ai-native-company|AI-Native Company]]'
+  type: related_to
+sources: []
 ---
 
 # Dan Shipper

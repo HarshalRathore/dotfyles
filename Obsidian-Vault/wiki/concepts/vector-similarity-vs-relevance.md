@@ -1,34 +1,35 @@
 ---
-title: "Vector Similarity vs. Relevance"
+title: Vector Similarity vs. Relevance
 category: concepts
 tags:
-  - vector-database
-  - rag
-  - retrieval
-  - graphrag
-  - similarity
-  - relevance
+- vector-database
+- rag
+- retrieval
+- graphrag
+- similarity
+- relevance
 aliases:
-  - Similarity Is Not Relevance
-  - Vector Search Limitations
+- Similarity Is Not Relevance
+- Vector Search Limitations
 sources:
-  - "AIEF2025 - Practical GraphRAG: Making LLMs smarter with Knowledge Graphs — Michael, Jesus, and Stephen, Neo4j - https://www.youtube.com/watch?v=XNneh6-eyPg"
+- 'AIEF2025 - Practical GraphRAG: Making LLMs smarter with Knowledge Graphs — Michael, Jesus, and Stephen, Neo4j - https://www.youtube.com/watch?v=XNneh6-eyPg'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: contradicts
-  - target: "[[concepts/semantic-similarity|Semantic Similarity]]"
-    type: related_to
-  - target: "[[concepts/hybrid-search|Hybrid Search]]"
-    type: related_to
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: contradicts
+- target: '[[concepts/semantic-similarity|Semantic Similarity]]'
+  type: related_to
+- target: '[[concepts/hybrid-search|Hybrid Search]]'
+  type: related_to
+summary: Vector Similarity vs. Relevance
 ---
 
 # Vector Similarity vs. Relevance

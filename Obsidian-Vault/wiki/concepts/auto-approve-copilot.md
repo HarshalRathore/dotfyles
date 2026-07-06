@@ -1,23 +1,24 @@
 ---
-title: "Auto-Approve and Auto-Accept in Copilot"
+title: Auto-Approve and Auto-Accept in Copilot
 category: concepts
 tags:
-  - github-copilot
-  - vscode
-  - vibe-coding
-  - yolo
-  - ux
+- github-copilot
+- vscode
+- vibe-coding
+- yolo
+- ux
 sources:
-  - "[[sources/watchv=eafp8pds7h4]]"
+- 'https://www.youtube.com/watch?v=eafp8pds7h4'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.55
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Auto-Approve and Auto-Accept in Copilot
 ---
 
 # Auto-Approve and Auto-Accept in Copilot

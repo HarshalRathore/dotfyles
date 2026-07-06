@@ -1,22 +1,24 @@
 ---
-title: "Jesús Barrasa"
+title: Jesús Barrasa
 tags:
-  - person
-  - neo4j
-  - knowledge-graph
-  - graphrag
-  - ontology
+- person
+- neo4j
+- knowledge-graph
+- graphrag
+- ontology
 sources:
-  - "[[sources/watchv=cbir9xs2skq]]"
-summary: "Field CTO for AI at Neo4j, specializing in knowledge graphs, GraphRAG architectures, and ontology-driven AI applications."
+- 'https://www.youtube.com/watch?v=cbir9xs2skq'
+summary: Field CTO for AI at Neo4j, specializing in knowledge graphs, GraphRAG architectures, and ontology-driven AI applications.
 provenance:
-  extracted: 0.80
-  inferred: 0.20
-  ambiguous: 0.00
+  extracted: 0.8
+  inferred: 0.2
+  ambiguous: 0.0
 base_confidence: 0.55
 lifecycle: draft
 tier: supporting
 updated: 2026-07-04
+category: entities
+created: '2026-07-04T17:31:05.319550+00:00'
 ---
 
 # Jesús Barrasa

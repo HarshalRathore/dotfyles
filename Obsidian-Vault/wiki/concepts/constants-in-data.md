@@ -1,24 +1,24 @@
 ---
-title: "Constants in Data, Variables in Task"
+title: Constants in Data, Variables in Task
 category: concepts
 tags:
-  - evals
-  - test-design
-  - dataset
-  - task-design
-  - reusability
+- evals
+- test-design
+- dataset
+- task-design
+- reusability
 relationships:
-  - target: "[[concepts/eval-ingredients-task-dataset-score]]"
-    type: implements
-  - target: "[[concepts/application-layer-evals]]"
-    type: extends
-  - target: "[[concepts/online-evals]]"
-    type: related_to
+- target: '[[concepts/eval-ingredients-task-dataset-score]]'
+  type: implements
+- target: '[[concepts/application-layer-evals]]'
+  type: extends
+- target: '[[concepts/online-evals]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=l8ooyedi_ls]]"
-summary: "Eval design pattern: put constant user queries in the dataset (data), and put what you're testing (system prompts, RAG, preprocessing) in the task. Enables clarity, reuse, and generalization across experiments."
+- 'https://www.youtube.com/watch?v=l8ooyedi_ls'
+summary: 'Eval design pattern: put constant user queries in the dataset (data), and put what you''re testing (system prompts, RAG, preprocessing) in the task. Enables clarity, reuse, and generalization across...'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
 base_confidence: 0.75

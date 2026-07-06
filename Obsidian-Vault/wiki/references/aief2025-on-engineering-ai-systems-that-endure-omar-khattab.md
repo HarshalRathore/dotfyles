@@ -1,13 +1,22 @@
 ---
-title: "On Engineering AI Systems that Endure: The Bitter Lesson"
+title: 'On Engineering AI Systems that Endure: The Bitter Lesson'
 category: references
-tags: [aief2025, talk, bitter-lesson, ai-engineering, reliability, scaling, search, learning, dspy]
-summary: "Omar Khattab's AIEF 2025 talk reframing Sutton's Bitter Lesson for AI engineering: we build software not because we lack AGI but because we need reliable systems that subtract agency in the right places."
+tags:
+- aief2025
+- talk
+- bitter-lesson
+- ai-engineering
+- reliability
+- scaling
+- search
+- learning
+- dspy
+summary: 'Omar Khattab''s AIEF 2025 talk reframing Sutton''s Bitter Lesson for AI engineering: we build software not because we lack AGI but because we need reliable systems that subtract agency in the right p...'
 sources:
-  - "AIEF2025 - On Engineering AI Systems that Endure The Bitter Lesson - Omar Khattab, DSPy & Databricks - https://www.youtube.com/watch?v=qdmxApz3EJI"
+- AIEF2025 - On Engineering AI Systems that Endure The Bitter Lesson - Omar Khattab, DSPy & Databricks - https://www.youtube.com/watch?v=qdmxApz3EJI
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.85
 lifecycle: draft
@@ -16,14 +25,14 @@ tier: core
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/omar-khattab|Omar Khattab]]"
-    type: presented_by
-  - target: "[[concepts/bitter-lesson|The Bitter Lesson]]"
-    type: discusses
-  - target: "[[concepts/ai-engineering|AI Engineering]]"
-    type: defines
-  - target: "[[entities/rich-sutton|Rich Sutton]]"
-    type: references
+- target: '[[entities/omar-khattab|Omar Khattab]]'
+  type: presented_by
+- target: '[[concepts/bitter-lesson|The Bitter Lesson]]'
+  type: discusses
+- target: '[[concepts/ai-engineering|AI Engineering]]'
+  type: defines
+- target: '[[entities/rich-sutton|Rich Sutton]]'
+  type: references
 ---
 
 # On Engineering AI Systems that Endure: The Bitter Lesson

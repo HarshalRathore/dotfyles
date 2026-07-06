@@ -1,30 +1,31 @@
 ---
-title: "Stefania Druga"
+title: Stefania Druga
 category: entities
 tags:
-  - person
-  - researcher
-  - google
-  - ai-education
-  - aief2025
-summary: "Former research scientist at Google and three-time AI conference speaker, featured at the AI Education Summit."
+- person
+- researcher
+- google
+- ai-education
+- aief2025
+summary: Former research scientist at Google and three-time AI conference speaker, featured at the AI Education Summit.
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/ai-education|AI Education]]"
-    type: related_to
-  - target: "[[entities/google|Google]]"
-    type: related_to
-  - target: "[[references/aief2025-ai-education-summit-ben-dunphy|AI Education Summit Announcement]]"
-    type: related_to
+- target: '[[concepts/ai-education|AI Education]]'
+  type: related_to
+- target: '[[entities/google|Google]]'
+  type: related_to
+- target: '[[references/aief2025-ai-education-summit-ben-dunphy|AI Education Summit Announcement]]'
+  type: related_to
+sources: []
 ---
 
 # Stefania Druga

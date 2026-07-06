@@ -1,18 +1,18 @@
 ---
-title: "Voice AI Stack"
+title: Voice AI Stack
 category: concepts
 tags:
-  - voice-ai
-  - architecture
-  - stack
-  - real-time
-  - pipecat
-  - gemini
+- voice-ai
+- architecture
+- stack
+- real-time
+- pipecat
+- gemini
 sources:
-  - "AIEF2025 - Milliseconds to Magic: Real‑Time Workflows using the Gemini Live API and Pipecat - https://www.youtube.com/watch?v=fWY1FQwpWkY"
+- 'AIEF2025 - Milliseconds to Magic: Real‑Time Workflows using the Gemini Live API and Pipecat - https://www.youtube.com/watch?v=fWY1FQwpWkY'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.85
 lifecycle: draft
@@ -20,12 +20,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/stack-maturity]]"
-    type: related_to
-  - target: "[[concepts/voice-agents]]"
-    type: related_to
-  - target: "[[entities/pipe-cat]]"
-    type: related_to
+- target: '[[concepts/stack-maturity]]'
+  type: related_to
+- target: '[[concepts/voice-agents]]'
+  type: related_to
+- target: '[[entities/pipe-cat]]'
+  type: related_to
+summary: Voice AI Stack
 ---
 
 # Voice AI Stack

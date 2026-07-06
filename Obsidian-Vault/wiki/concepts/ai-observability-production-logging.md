@@ -1,27 +1,32 @@
 ---
-title: "AI Observability & Production Logging"
+title: AI Observability & Production Logging
 tags:
-  - concept
-  - ai
-  - observability
-  - logging
-  - production
-  - monitoring
-  - tracing
-aliases: [AI observability, production logging for AI, LLM tracing, AI monitoring infrastructure]
+- concept
+- ai
+- observability
+- logging
+- production
+- monitoring
+- tracing
+aliases:
+- AI observability
+- production logging for AI
+- LLM tracing
+- AI monitoring infrastructure
 sources:
-  - "[[sources/watchv=9in-cpnp7xg]]"
-  - "AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY"
-summary: "Infrastructure for logging, tracing, and monitoring AI applications in production: wrapping LLM clients for automatic capture, online scoring, custom views, and human review workflows."
+- 'https://www.youtube.com/watch?v=9in-cpnp7xg'
+- AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY
+summary: 'Infrastructure for logging, tracing, and monitoring AI applications in production: wrapping LLM clients for automatic capture, online scoring, custom views, and human review workflows.'
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # AI Observability & Production Logging

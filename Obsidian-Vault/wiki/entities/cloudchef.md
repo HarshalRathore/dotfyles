@@ -12,7 +12,7 @@ tags:
   - commercial-kitchen
 summary: CloudChef builds wheeled two-arm robots deployed in real commercial kitchens, using thermal/RGB perception and foundation models to cook 1000+ recipes autonomously.
 sources:
-  - "[[sources/watchv=mbwgiwjdlso]]"
+  - "https://www.youtube.com/watch?v=mbwgiwjdlso"
 provenance:
   extracted: 0.90
   inferred: 0.08

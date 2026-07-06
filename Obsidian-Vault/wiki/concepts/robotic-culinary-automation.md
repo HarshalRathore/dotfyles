@@ -10,7 +10,7 @@ tags:
   - foundation-models
 summary: Using robots with thermal/RGB perception and foundation models to automate commercial kitchen labor — cooking 1000+ recipes autonomously with better consistency than human chefs.
 sources:
-  - "[[sources/watchv=mbwgiwjdlso]]"
+  - "https://www.youtube.com/watch?v=mbwgiwjdlso"
 provenance:
   extracted: 0.75
   inferred: 0.20

@@ -1,21 +1,21 @@
 ---
-title: "Physical Intelligence"
+title: Physical Intelligence
 category: entities
 tags:
-  - company
-  - robotics
-  - ai
-  - vla
-  - physical-intelligence
-  - open-source
+- company
+- robotics
+- ai
+- vla
+- physical-intelligence
+- open-source
 aliases:
-  - PI
-  - physical intelligence company
+- PI
+- physical intelligence company
 sources:
-  - "AIEF2025 - Robotics: why now? - Quan Vuong and Jost Tobias Springberg, Physical Intelligence - https://www.youtube.com/watch?v=cGLa8DsOYdk"
-summary: "AI robotics company founded by Quan Vuong and Jost Tobias Springberg, building Vision-Language-Action models for general-purpose robot control. Open-sources research and models. Collected 10,000+ hours of robotics data in 6 months."
+- 'AIEF2025 - Robotics: why now? - Quan Vuong and Jost Tobias Springberg, Physical Intelligence - https://www.youtube.com/watch?v=cGLa8DsOYdk'
+summary: AI robotics company founded by Quan Vuong and Jost Tobias Springberg, building Vision-Language-Action models for general-purpose robot control. Open-sources research and models. Collected 10,000+ h...
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
 base_confidence: 0.85
@@ -25,16 +25,16 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/vision-language-action-models|Vision-Language-Action Models]]"
-    type: develops
-  - target: "[[concepts/robotics-data-engine|Robotics Data Engine]]"
-    type: builds
-  - target: "[[entities/pi-zero|PI Zero]]"
-    type: released
-  - target: "[[entities/quan-vuong|Quan Vuong]]"
-    type: founded-by
-  - target: "[[entities/jost-tobias-springberg|Jost Tobias Springberg]]"
-    type: founded-by
+- target: '[[concepts/vision-language-action-models|Vision-Language-Action Models]]'
+  type: develops
+- target: '[[concepts/robotics-data-engine|Robotics Data Engine]]'
+  type: builds
+- target: '[[entities/pi-zero|PI Zero]]'
+  type: released
+- target: '[[entities/quan-vuong|Quan Vuong]]'
+  type: founded-by
+- target: '[[entities/jost-tobias-springberg|Jost Tobias Springberg]]'
+  type: founded-by
 ---
 
 # Physical Intelligence

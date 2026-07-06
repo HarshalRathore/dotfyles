@@ -1,20 +1,26 @@
 ---
-title: "How to defend your sites from AI bots — David Mytton, Arcjet (AIEF2025)"
+title: How to defend your sites from AI bots — David Mytton, Arcjet (AIEF2025)
 tags:
-  - reference
-  - talk
-  - aief2025
-  - security
-  - bots
-  - crawlers
-  - rate-limiting
+- reference
+- talk
+- aief2025
+- security
+- bots
+- crawlers
+- rate-limiting
 sources:
-  - "[[sources/watchv=gi4v8vibgyq]]"
-summary: "David Mytton (Arcjet) walks through eight layers of defense against AI crawlers and automated clients — from robots.txt and user-agent verification through JA4 fingerprinting and cryptographic signatures."
+- 'https://www.youtube.com/watch?v=gi4v8vibgyq'
+summary: David Mytton (Arcjet) walks through eight layers of defense against AI crawlers and automated clients — from robots.txt and user-agent verification through JA4 fingerprinting and cryptographic sign...
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: references
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
 ---
 
 # How to defend your sites from AI bots — David Mytton, Arcjet

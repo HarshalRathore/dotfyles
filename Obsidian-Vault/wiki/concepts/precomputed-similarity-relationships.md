@@ -1,19 +1,19 @@
 ---
-title: "Precomputed Similarity Relationships"
+title: Precomputed Similarity Relationships
 tags:
-  - knowledge-graph
-  - similarity
-  - graph-analytics
-  - neo4j
-  - performance
-  - graphrag
-  - aief2025
+- knowledge-graph
+- similarity
+- graph-analytics
+- neo4j
+- performance
+- graphrag
+- aief2025
 aliases:
-  - Materialized Similarity
-  - Precomputed Overlap
+- Materialized Similarity
+- Precomputed Overlap
 sources:
-  - "[[sources/watchv=j-9ebjbxcbg]]"
-summary: "A performance optimization that materializes pairwise entity similarity as graph edges with an overlap property, turning O(n²) similarity computation into a simple graph traversal for repeated queries."
+- 'https://www.youtube.com/watch?v=j-9ebjbxcbg'
+summary: A performance optimization that materializes pairwise entity similarity as graph edges with an overlap property, turning O(n²) similarity computation into a simple graph traversal for repeated quer...
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -24,10 +24,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/graph-traversal-similarity|Graph Traversal Similarity]]"
-    type: extends
-  - target: "[[concepts/graph-analytics-rag-curation|Graph Analytics for RAG Curation]]"
-    type: related_to
+- target: '[[concepts/graph-traversal-similarity|Graph Traversal Similarity]]'
+  type: extends
+- target: '[[concepts/graph-analytics-rag-curation|Graph Analytics for RAG Curation]]'
+  type: related_to
+category: concepts
 ---
 
 # Precomputed Similarity Relationships

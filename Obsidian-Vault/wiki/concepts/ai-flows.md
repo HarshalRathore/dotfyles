@@ -1,19 +1,19 @@
 ---
-title: "AI Flows"
+title: AI Flows
 tags:
-  - ai-flows
-  - windsurf
-  - agent
-  - developer-tools
-  - aief2025
-  - agentic-ide
+- ai-flows
+- windsurf
+- agent
+- developer-tools
+- aief2025
+- agentic-ide
 aliases:
-  - AI Flows
-  - Windsurf AI Flows
+- AI Flows
+- Windsurf AI Flows
 sources:
-  - "AIEF2025 - Mastering Engineering Flow with Windsurf - Eashan Sinha, Windsurf - https://www.youtube.com/watch?v=W_5tzQY-hVs"
+- AIEF2025 - Mastering Engineering Flow with Windsurf - Eashan Sinha, Windsurf - https://www.youtube.com/watch?v=W_5tzQY-hVs
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.07
   ambiguous: 0.03
 base_confidence: 0.85
@@ -22,12 +22,17 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: [[concepts/flow-awareness|Flow Awareness]]
-    type: extends
-  - target: [[concepts/agent-evolution-co-pilot-to-agent|Agent Evolution]]
-    type: derived_from
-  - target: [[concepts/agent-vs-workflow|Agent vs Workflow]]
-    type: related_to
+- target:
+  - - concepts/flow-awareness|Flow Awareness
+  type: extends
+- target:
+  - - concepts/agent-evolution-co-pilot-to-agent|Agent Evolution
+  type: derived_from
+- target:
+  - - concepts/agent-vs-workflow|Agent vs Workflow
+  type: related_to
+category: concepts
+summary: AI Flows
 ---
 
 # AI Flows

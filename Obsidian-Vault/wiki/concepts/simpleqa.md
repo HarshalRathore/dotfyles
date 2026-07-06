@@ -1,16 +1,16 @@
 ---
-title: "SimpleQA"
+title: SimpleQA
 category: concepts
 tags:
-  - evals
-  - benchmarking
-  - openai
-  - retrieval
-  - static-eval-sets
+- evals
+- benchmarking
+- openai
+- retrieval
+- static-eval-sets
 aliases:
-  - simple qa
+- simple qa
 sources:
-  - "AIEF2025 - Evaluating AI Search: A Practical Framework for Augmented AI Systems — Quotient AI + Tavily - https://www.youtube.com/watch?v=wRJD0inpmjU"
+- 'AIEF2025 - Evaluating AI Search: A Practical Framework for Augmented AI Systems — Quotient AI + Tavily - https://www.youtube.com/watch?v=wRJD0inpmjU'
 provenance:
   extracted: 0.92
   inferred: 0.06
@@ -22,12 +22,13 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/static-eval-sets]]"
-    type: is_a
-  - target: "[[concepts/hotpotqa]]"
-    type: contrasts_with
-  - target: "[[concepts/dynamic-eval-sets]]"
-    type: limited_by
+- target: '[[concepts/static-eval-sets]]'
+  type: is_a
+- target: '[[concepts/hotpotqa]]'
+  type: contrasts_with
+- target: '[[concepts/dynamic-eval-sets]]'
+  type: limited_by
+summary: SimpleQA
 ---
 
 # SimpleQA

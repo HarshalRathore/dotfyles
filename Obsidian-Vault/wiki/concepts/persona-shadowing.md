@@ -1,18 +1,24 @@
 ---
-title: "Persona Shadowing"
+title: Persona Shadowing
 tags:
-  - agent
-  - identity
-  - auth
-  - architecture
-  - pattern
+- agent
+- identity
+- auth
+- architecture
+- pattern
 sources:
-  - "[[sources/watchv=d4dswf-__rm]]"
-summary: "Identity architecture pattern where an agent gets a shadow persona that reflects off a user identity but with scoped-down privileges, enabling isolation and accountability."
+- 'https://www.youtube.com/watch?v=d4dswf-__rm'
+summary: Identity architecture pattern where an agent gets a shadow persona that reflects off a user identity but with scoped-down privileges, enabling isolation and accountability.
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
 ---
 # Persona Shadowing
 

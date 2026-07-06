@@ -1,24 +1,25 @@
 ---
-title: "Mani Khanuja"
+title: Mani Khanuja
 category: entities
 tags:
-  - person
-  - aws
-  - generative-ai
-  - data-strategy
-  - speaker
-  - aief2025
+- person
+- aws
+- generative-ai
+- data-strategy
+- speaker
+- aief2025
 sources:
-  - "[[sources/watchv=rofhhjmumcc]]"
+- 'https://www.youtube.com/watch?v=rofhhjmumcc'
 provenance:
   extracted: 0.95
   inferred: 0.03
   ambiguous: 0.02
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Mani Khanuja
 ---
 # Mani Khanuja
 

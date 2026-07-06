@@ -1,23 +1,23 @@
 ---
-title: "Voice Agents"
+title: Voice Agents
 category: concepts
 tags:
-  - voice-ai
-  - agents
-  - real-time
-  - web-rtc
-  - user-experience
-  - stack-maturity
-  - video-ai
+- voice-ai
+- agents
+- real-time
+- web-rtc
+- user-experience
+- stack-maturity
+- video-ai
 sources:
-  - "[[sources/watchv=e71ytnbcfxy]]"
-  - "[[sources/watchv=ia4lzjh9sts]]"
-  - "AIEF2025 - Milliseconds to Magic: Real‑Time Workflows using the Gemini Live API and Pipecat - https://www.youtube.com/watch?v=fWY1FQwpWkY"
-  - "AIEF2025 - Optimizing inference for voice models in production - Philip Kiely, Baseten - https://www.youtube.com/watch?v=gmTHs5T_YAE"
-  - "AIEF2025 - Building Agents (the hard parts!) - Rita Kozlov, Cloudflare - https://www.youtube.com/watch?v=j_TKDweOsYE"
-  - "AIEF2025 - From Self-driving to Autonomous Voice Agents — Brooke Hopkins, Coval - https://www.youtube.com/watch?v=kDczF4wBh8s"
-  - "AIEF2025 - Serving Voice AI at $1/hr: Open-source, LoRAs, Latency, Load Balancing - Neil Dwyer, Gabber - https://www.youtube.com/watch?v=rD23-VZZHOo"
-  - "AIEF2025 - Realtime Conversational Video with Pipecat and Tavus — Chad Bailey and Brian Johnson, Daily & Tavus - https://www.youtube.com/watch?v=ujt0da9Z29Q"
+- 'https://www.youtube.com/watch?v=e71ytnbcfxy'
+- 'https://www.youtube.com/watch?v=ia4lzjh9sts'
+- 'AIEF2025 - Milliseconds to Magic: Real‑Time Workflows using the Gemini Live API and Pipecat - https://www.youtube.com/watch?v=fWY1FQwpWkY'
+- AIEF2025 - Optimizing inference for voice models in production - Philip Kiely, Baseten - https://www.youtube.com/watch?v=gmTHs5T_YAE
+- AIEF2025 - Building Agents (the hard parts!) - Rita Kozlov, Cloudflare - https://www.youtube.com/watch?v=j_TKDweOsYE
+- AIEF2025 - From Self-driving to Autonomous Voice Agents — Brooke Hopkins, Coval - https://www.youtube.com/watch?v=kDczF4wBh8s
+- 'AIEF2025 - Serving Voice AI at $1/hr: Open-source, LoRAs, Latency, Load Balancing - Neil Dwyer, Gabber - https://www.youtube.com/watch?v=rD23-VZZHOo'
+- AIEF2025 - Realtime Conversational Video with Pipecat and Tavus — Chad Bailey and Brian Johnson, Daily & Tavus - https://www.youtube.com/watch?v=ujt0da9Z29Q
 provenance:
   extracted: 0.68
   inferred: 0.24
@@ -28,30 +28,31 @@ tier: core
 created: 2026-07-04
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/voice-ai-latency]]"
-    type: related_to
-  - target: "[[concepts/beyond-chatbots]]"
-    type: extends
-  - target: "[[concepts/web-rtc]]"
-    type: uses
-  - target: "[[concepts/turn-detection]]"
-    type: related_to
-  - target: "[[concepts/voice-ai-stack]]"
-    type: related_to
-  - target: "[[concepts/stack-maturity]]"
-    type: related_to
-  - target: "[[entities/baseten]]"
-    type: related_to
-  - target: "[[entities/orpheus-tts]]"
-    type: related_to
-  - target: "[[concepts/voice-inference-metrics]]"
-    type: related_to
-  - target: "[[concepts/voice-agent-trust-problem|Voice Agent Trust Problem]]"
-    type: related_to
-  - target: "[[concepts/large-scale-simulation|Large-Scale Simulation]]"
-    type: related_to
-  - target: "[[concepts/real-time-conversational-video]]"
-    type: related_to
+- target: '[[concepts/voice-ai-latency]]'
+  type: related_to
+- target: '[[concepts/beyond-chatbots]]'
+  type: extends
+- target: '[[concepts/web-rtc]]'
+  type: uses
+- target: '[[concepts/turn-detection]]'
+  type: related_to
+- target: '[[concepts/voice-ai-stack]]'
+  type: related_to
+- target: '[[concepts/stack-maturity]]'
+  type: related_to
+- target: '[[entities/baseten]]'
+  type: related_to
+- target: '[[entities/orpheus-tts]]'
+  type: related_to
+- target: '[[concepts/voice-inference-metrics]]'
+  type: related_to
+- target: '[[concepts/voice-agent-trust-problem|Voice Agent Trust Problem]]'
+  type: related_to
+- target: '[[concepts/large-scale-simulation|Large-Scale Simulation]]'
+  type: related_to
+- target: '[[concepts/real-time-conversational-video]]'
+  type: related_to
+summary: Voice Agents
 ---
 
 # Voice Agents

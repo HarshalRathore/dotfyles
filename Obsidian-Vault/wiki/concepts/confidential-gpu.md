@@ -1,28 +1,29 @@
 ---
-title: "Confidential GPU"
+title: Confidential GPU
 tags:
-  - concept
-  - hardware
-  - security
-  - gpu
-  - confidential-computing
-  - tpm
+- concept
+- hardware
+- security
+- gpu
+- confidential-computing
+- tpm
 aliases:
-  - Confidential GPU Computing
-  - Confidential H100
-  - GPU Memory Encryption
+- Confidential GPU Computing
+- Confidential H100
+- GPU Memory Encryption
 sources:
-  - "[[sources/watchv=ccswz5bjlo8]]"
-summary: "Hardware trust technology where GPU memory is encrypted (H100/H200), preventing physical memory access attacks — paired with TPMs/vTPMs for attestation and key management."
+- 'https://www.youtube.com/watch?v=ccswz5bjlo8'
+summary: Hardware trust technology where GPU memory is encrypted (H100/H200), preventing physical memory access attacks — paired with TPMs/vTPMs for attestation and key management.
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Confidential GPU

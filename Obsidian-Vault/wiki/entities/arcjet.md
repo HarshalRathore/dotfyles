@@ -1,17 +1,18 @@
 ---
-title: "Arcjet"
+title: Arcjet
 tags:
-  - company
-  - security
-  - bot-detection
-  - aief2025
-  - sdk
-aliases: [Artjet]
+- company
+- security
+- bot-detection
+- aief2025
+- sdk
+aliases:
+- Artjet
 sources:
-  - "[[sources/watchv=gi4v8vibgyq]]"
-summary: "Security SDK for developers providing bot detection, rate limiting, and automated client defense. Founded by David Mytton."
+- 'https://www.youtube.com/watch?v=gi4v8vibgyq'
+summary: Security SDK for developers providing bot detection, rate limiting, and automated client defense. Founded by David Mytton.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.55
@@ -19,6 +20,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Arcjet
@@ -28,7 +30,7 @@ Arcjet is a security SDK for developers providing [[concepts/ai-bot-defense|bot 
 ## Key Offerings
 
 - **User-agent database** — Open source project with several thousand user-agent strings for identifying crawlers. ^[extracted]
-- **Bot detection SDK** — Multi-layered detection combining user-agent verification, IP reputation, TLS fingerprinting ([[concepts/ai-bot-defense#JA4 Fingerprinting|JA4 hash]]), and rate limiting. ^[inferred]
+- **Bot detection SDK** — Multi-layered detection combining user-agent verification, IP reputation, TLS fingerprinting ([[concepts/ai-bot-defense|JA4 hash]]), and rate limiting. ^[inferred]
 - **Verification tooling** — Reverse DNS-based verification for known crawlers (Google, Bing, OpenAI, Apple). ^[inferred]
 
 ## Philosophy

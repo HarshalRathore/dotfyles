@@ -1,28 +1,29 @@
 ---
-title: "Full Walkthrough: Workflow for AI Coding — Matt Pocock"
+title: 'Full Walkthrough: Workflow for AI Coding — Matt Pocock'
 category: misc
 tags:
-  - ai
-  - workflow
-  - tdd
-  - autonomous-agents
-  - matt-pocock
+- ai
+- workflow
+- tdd
+- autonomous-agents
+- matt-pocock
 sources:
-  - "[[sources/watchv=-qfhioco-ko]]"
-source_url: "https://www.youtube.com/watch?v=-QFHIoCo-Ko"
-created: "2026-07-01"
-updated: "2026-07-01"
-summary: "Matt Pocock's hands-on workshop at AI Engineer covering the full AI-assisted development lifecycle: stress-testing requirements into PRDs, tracer bullet slicing, TDD with agents, and autonomous AFK runs."
+- 'https://www.youtube.com/watch?v=-qfhioco-ko'
+source_url: https://www.youtube.com/watch?v=-QFHIoCo-Ko
+created: '2026-07-01'
+updated: '2026-07-01'
+summary: 'Matt Pocock''s hands-on workshop at AI Engineer covering the full AI-assisted development lifecycle: stress-testing requirements into PRDs, tracer bullet slicing, TDD with agents, and autonomous AFK...'
 affinity: {}
 promotion_status: misc
 stub: false
 provenance:
   extracted: 0.55
-  inferred: 0.40
+  inferred: 0.4
   ambiguous: 0.05
 base_confidence: 0.45
 lifecycle: draft
 lifecycle_changed: 2026-07-01
+tier: supporting
 ---
 
 # Full Walkthrough: Workflow for AI Coding — Matt Pocock
@@ -54,7 +55,7 @@ A full lifecycle workshop on AI-assisted development, from turning ambiguous req
 ## Related
 
 - [[entities/matt-pocock]] — Matt Pocock's entity page
-- [[web-youtube-com-watch-v4f1gfy-hqg]] — Matt's other AI Engineer talk: "Software Fundamentals Matter More Than Ever"
+- [[misc/web-youtube-com-watch-v4f1gfy-hqg]] — Matt's other AI Engineer talk: "Software Fundamentals Matter More Than Ever"
 - [[concepts/agent-loop]] — Agent loop concept page
 
 ## Open Questions

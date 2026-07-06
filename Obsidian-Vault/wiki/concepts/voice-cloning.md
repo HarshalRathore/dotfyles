@@ -1,34 +1,35 @@
 ---
-title: "Voice Cloning"
+title: Voice Cloning
 category: concepts
 tags:
-  - voice-ai
-  - cloning
-  - lora
-  - fine-tuning
-  - voice-naturalness
-  - voice-controllability
-  - consumer-ai
-summary: Techniques for replicating a person's voice in AI-generated speech. Zero-shot cloning relies on large pre-trained models; fine-tuning (especially LoRA) achieves higher fidelity with less pre-training data but requires speaker-specific training.
+- voice-ai
+- cloning
+- lora
+- fine-tuning
+- voice-naturalness
+- voice-controllability
+- consumer-ai
+summary: Techniques for replicating a person's voice in AI-generated speech. Zero-shot cloning relies on large pre-trained models; fine-tuning (especially LoRA) achieves higher fidelity with less pre-traini...
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/voice-naturalness]]"
-    type: related_to
-  - target: "[[concepts/voice-controllability]]"
-    type: related_to
-  - target: "[[concepts/fine-tuning-practices-2025]]"
-    type: related_to
-  - target: "[[entities/orpheus-tts]]"
-    type: related_to
+- target: '[[concepts/voice-naturalness]]'
+  type: related_to
+- target: '[[concepts/voice-controllability]]'
+  type: related_to
+- target: '[[concepts/fine-tuning-practices-2025]]'
+  type: related_to
+- target: '[[entities/orpheus-tts]]'
+  type: related_to
+sources: []
 ---
 
 # Voice Cloning

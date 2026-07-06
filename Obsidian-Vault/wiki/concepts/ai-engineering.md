@@ -1,30 +1,35 @@
 ---
-title: "AI Engineering"
+title: AI Engineering
 category: concepts
-tags: [ai-engineering, software-engineering, reliability, bitter-lesson, engineering-principles]
-summary: "The discipline of building reliable, robust, controllable, and scalable AI systems. Distinguished from AI research: engineering subtracts agency in the right places rather than maximizing intelligence."
+tags:
+- ai-engineering
+- software-engineering
+- reliability
+- bitter-lesson
+- engineering-principles
+summary: 'The discipline of building reliable, robust, controllable, and scalable AI systems. Distinguished from AI research: engineering subtracts agency in the right places rather than maximizing intellige...'
 sources:
-  - "AIEF2025 - On Engineering AI Systems that Endure The Bitter Lesson - Omar Khattab, DSPy & Databricks - https://www.youtube.com/watch?v=qdmxApz3EJI"
-  - "AIEF2025 - Define AI Engineer — Greg Brockman, OpenAI & Jensen Huang - https://www.youtube.com/watch?v=..."
+- AIEF2025 - On Engineering AI Systems that Endure The Bitter Lesson - Omar Khattab, DSPy & Databricks - https://www.youtube.com/watch?v=qdmxApz3EJI
+- AIEF2025 - Define AI Engineer — Greg Brockman, OpenAI & Jensen Huang - https://www.youtube.com/watch?v=...
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: core
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/bitter-lesson|The Bitter Lesson]]"
-    type: reframed_by
-  - target: "[[concepts/agi-vs-software|AGI vs Software Engineering]]"
-    type: distinguished_from
-  - target: "[[entities/omar-khattab|Omar Khattab]]"
-    type: discussed_by
-  - target: "[[entities/dspy|DSPy]]"
-    type: enables
+- target: '[[concepts/bitter-lesson|The Bitter Lesson]]'
+  type: reframed_by
+- target: '[[concepts/agi-vs-software|AGI vs Software Engineering]]'
+  type: distinguished_from
+- target: '[[entities/omar-khattab|Omar Khattab]]'
+  type: discussed_by
+- target: '[[entities/dspy|DSPy]]'
+  type: enables
 ---
 
 # AI Engineering

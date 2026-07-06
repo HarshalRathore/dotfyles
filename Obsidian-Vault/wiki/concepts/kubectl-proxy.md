@@ -1,17 +1,26 @@
 ---
 type: concept
-title: "kubectl proxy"
+title: kubectl proxy
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/kubernetes-api-groups-authorization-and-rbac-a-comprehensive-overview_ab21cb]]"
+- '[[sources/kubernetes-api-groups-authorization-and-rbac-a-comprehensive-overview_ab21cb]]'
 tags:
-  - deployment
+- deployment
 aliases:
-  - Kubernetes API Proxy
-  - local kubectl proxy
+- Kubernetes API Proxy
+- local kubectl proxy
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: kubectl proxy
 ---
 # kubectl proxy
 

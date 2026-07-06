@@ -1,14 +1,14 @@
 ---
-title: "Code Hierarchy Understanding"
+title: Code Hierarchy Understanding
 category: concepts
 tags:
-  - ai-agents
-  - code-understanding
-  - software-engineering
-  - aief2025
+- ai-agents
+- code-understanding
+- software-engineering
+- aief2025
 sources:
-  - "[[sources/watchv=mi83but_23o]]"
-summary: "Treating code as a connected hierarchy rather than just text — using call hierarchies, language servers, and git commit history to understand how files relate to one another. Critical for Tier 4 cross-file diagnosis."
+- 'https://www.youtube.com/watch?v=mi83but_23o'
+summary: Treating code as a connected hierarchy rather than just text — using call hierarchies, language servers, and git commit history to understand how files relate to one another. Critical for Tier 4 cr...
 provenance:
   extracted: 0.85
   inferred: 0.12

@@ -1,16 +1,25 @@
 ---
 type: concept
-title: "Mutual TLS (mTLS)"
+title: Mutual TLS (mTLS)
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/how-tls-certificates-work-in-kubernetes-and-manual-cluster-setup_e2b507]]"
+- '[[sources/how-tls-certificates-work-in-kubernetes-and-manual-cluster-setup_e2b507]]'
 tags:
-  - security
+- security
 aliases:
-  - mutual authentication TLS
+- mutual authentication TLS
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Mutual TLS (mTLS)
 ---
 # Mutual TLS (mTLS)
 
@@ -30,7 +39,7 @@ Mutual TLS (mTLS) is an extension of the standard TLS protocol that requires bot
 
 ## Related Concepts
 - [[concepts/tls-certificates]]
-- [[tls-encryption]]
+- [[concepts/tls-encryption]]
 - [[concepts/certificate-authority-ca]]
 - [[concepts/certificate-signing-request]]
 - [[concepts/public-key-infrastructure]]

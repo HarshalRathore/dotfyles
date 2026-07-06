@@ -1,17 +1,26 @@
 ---
 type: concept
-title: "Node subnet"
+title: Node subnet
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/pods_c92b62]]"
+- '[[sources/pods_c92b62]]'
 tags:
-  - deployment
+- deployment
 aliases:
-  - "Per-node subnet"
-  - "Per-node CIDR subnet"
+- Per-node subnet
+- Per-node CIDR subnet
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Node subnet
 ---
 # Node subnet
 

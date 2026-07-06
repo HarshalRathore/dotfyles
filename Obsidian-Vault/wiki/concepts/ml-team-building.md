@@ -11,7 +11,7 @@ relationships:
   - target: "[[concepts/ai-native-toolchain]]"
     type: related_to
 sources:
-  - "[[sources/watchv=sbuxrluvrwk]]"
+  - "https://www.youtube.com/watch?v=sbuxrluvrwk"
 summary: "Building the first ML team from scratch: custom MLOps platform, generalist hiring, automation-first approach, and scaling to hundreds of thousands of concurrent models."
 provenance:
   extracted: 0.90

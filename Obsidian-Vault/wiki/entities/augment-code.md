@@ -1,27 +1,29 @@
 ---
-title: "Augment Code"
+title: Augment Code
 tags:
-  - company
-  - ai
-  - developer-tools
-  - enterprise
+- company
+- ai
+- developer-tools
+- enterprise
 aliases:
-  - Augment
-  - Augment Agent
-  - augmentcode.com
-  - "https://www.youtube.com/watch?v=6NIr_cYPglk"
-  - "AIEF2025 - Vibes won't cut it — Chris Kelly, Augment Code - https://www.youtube.com/watch?v=Dc3qOA9WOnE"
-  - "AIEF2025 - Mentoring the Machine — Eric Hou, Augment Code - https://www.youtube.com/watch?v=Zniw5c9_jx8"
-summary: "AI-assisted coding platform focused on enterprise codebases, featuring a proprietary context engine that lifts codebase knowledge for LLMs. Provides chat, agent, and remote agent modes for code understanding, testing, and modernization."
+- Augment
+- Augment Agent
+- augmentcode.com
+- https://www.youtube.com/watch?v=6NIr_cYPglk
+- AIEF2025 - Vibes won't cut it — Chris Kelly, Augment Code - https://www.youtube.com/watch?v=Dc3qOA9WOnE
+- AIEF2025 - Mentoring the Machine — Eric Hou, Augment Code - https://www.youtube.com/watch?v=Zniw5c9_jx8
+summary: AI-assisted coding platform focused on enterprise codebases, featuring a proprietary context engine that lifts codebase knowledge for LLMs. Provides chat, agent, and remote agent modes for code und...
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-04
+category: entities
+sources: []
 ---
 
 # Augment Code

@@ -1,16 +1,19 @@
 ---
-title: "AI Evaluation Market History"
+title: AI Evaluation Market History
 tags:
-  - concept
-  - evaluation
-  - market
-  - history
-  - c-suite
-  - agentic
-aliases: [year of evals, eval market forces, evaluation becoming C-suite priority]
+- concept
+- evaluation
+- market
+- history
+- c-suite
+- agentic
+aliases:
+- year of evals
+- eval market forces
+- evaluation becoming C-suite priority
 sources:
-  - "[[sources/watchv=cqguvf6gsrm]]"
-summary: "The historical evolution of AI evaluation from niche ML monitoring concern to C-suite priority, driven by three converging forces: ChatGPT's democratization of AI awareness, enterprise budget freezes that channeled all IT spend to gen AI, and agentic systems creating autonomous risk."
+- 'https://www.youtube.com/watch?v=cqguvf6gsrm'
+summary: 'The historical evolution of AI evaluation from niche ML monitoring concern to C-suite priority, driven by three converging forces: ChatGPT''s democratization of AI awareness, enterprise budget freez...'
 provenance:
   extracted: 0.72
   inferred: 0.23
@@ -18,8 +21,9 @@ provenance:
 base_confidence: 0.55
 lifecycle: draft
 tier: supporting
-created: 2026-07-03T08:13:21Z
-updated: 2026-07-03T08:13:21Z
+created: 2026-07-03 08:13:21+00:00
+updated: 2026-07-03 08:13:21+00:00
+category: concepts
 ---
 
 # AI Evaluation Market History

@@ -1,17 +1,26 @@
 ---
 type: concept
-title: "ValidatingAdmissionPolicy"
+title: ValidatingAdmissionPolicy
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/admission-controllers_7667fc]]"
+- '[[sources/admission-controllers_7667fc]]'
 tags:
-  - auth
+- auth
 aliases:
-  - Kubernetes Admission Policy
-  - ValidatingAdmissionPolicy
+- Kubernetes Admission Policy
+- ValidatingAdmissionPolicy
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: ValidatingAdmissionPolicy
 ---
 # ValidatingAdmissionPolicy
 

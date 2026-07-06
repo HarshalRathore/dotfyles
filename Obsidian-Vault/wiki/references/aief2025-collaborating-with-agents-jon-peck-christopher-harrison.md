@@ -1,15 +1,15 @@
 ---
-title: "AIEF2025 - Collaborating with Agents in your Software Dev Workflow — Jon Peck & Christopher Harrison, Microsoft"
+title: AIEF2025 - Collaborating with Agents in your Software Dev Workflow — Jon Peck & Christopher Harrison, Microsoft
 tags:
-  - reference
-  - talk
-  - aief2025
-  - github
-  - copilot
-  - agents
-  - coding-agent
-  - devops
-summary: "Hands-on lab on GitHub Copilot's evolution from code completions to autonomous coding agents — covering security model, context engineering, Copilot Instructions, .instructions files, MCP, and the DevOps implications of AI-generated code."
+- reference
+- talk
+- aief2025
+- github
+- copilot
+- agents
+- coding-agent
+- devops
+summary: Hands-on lab on GitHub Copilot's evolution from code completions to autonomous coding agents — covering security model, context engineering, Copilot Instructions, .instructions files, MCP, and the...
 provenance:
   extracted: 0.85
   inferred: 0.13
@@ -20,8 +20,8 @@ tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
 sources:
-  - "[[sources/watchv=g1hhmz6mxt0]]"
-
+- 'https://www.youtube.com/watch?v=g1hhmz6mxt0'
+category: references
 ---
 
 # AIEF2025 — Collaborating with Agents in your Software Dev Workflow

@@ -1,33 +1,26 @@
 ---
-title: "AutoEvals"
+title: AutoEvals
 category: concepts
 tags:
-  - auto-evals
-  - scorers
-  - open-source
-  - braintrust
-  - evaluation
-  - aief2025
+- auto-evals
+- scorers
+- open-source
+- braintrust
+- evaluation
+- aief2025
 sources:
-  - "AIEF2025 - Five hard earned lessons about Evals — Ankur Goyal, Braintrust - https://www.youtube.com/watch?v=a4BV0gGmXgA"
-summary: "Braintrust's open-source library for automated evaluation scoring. Powerful but intentionally flexible, because every advanced company needs to write and modify custom scoring functions.
+- AIEF2025 - Five hard earned lessons about Evals — Ankur Goyal, Braintrust - https://www.youtube.com/watch?v=a4BV0gGmXgA
+summary: Braintrust's open-source library for automated evaluation scoring. Powerful but intentionally flexible, because every advanced company needs to write and modify custom scoring functions.
 provenance:
-  extracted: 0.90
-  inferred: 0.10
-  ambiguous: 0.00
-base_confidence: 0.80
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+base_confidence: 0.42
 lifecycle: draft
-lifecycle_changed: 2026-07-04
+lifecycle_changed: '2026-07-06'
 tier: supporting
-created: 2026-07-04
-updated: 2026-07-04
-relationships:
-  - target: "[[concepts/scorers-as-specs|Scorers as Specs]]"
-    type: relates_to
-  - target: "[[concepts/braintrust|Braintrust]]"
-    type: part_of
-  - target: "[[concepts/llm-as-judge|LLM as Judge]]"
-    type: implements
+created: '2026-07-04'
+updated: '2026-07-04'
 ---
 
 # AutoEvals
@@ -47,5 +40,5 @@ AutoEvals embodies the principle that [[concepts/scorers-as-specs|scorers are sp
 ## Related
 
 - [[concepts/scorers-as-specs|Scorers as Specs]] — Why scorers require product-specific investment
-- [[concepts/braintrust|Braintrust]] — The platform
+- [[entities/braintrust|Braintrust]] — The platform
 - [[concepts/llm-as-judge|LLM as Judge]] — The evaluation method AutoEvals supports

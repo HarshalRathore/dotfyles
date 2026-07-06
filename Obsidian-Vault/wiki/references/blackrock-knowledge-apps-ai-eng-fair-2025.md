@@ -1,27 +1,28 @@
 ---
-title: "How BlackRock Builds Custom Knowledge Apps at Scale — Vaibhav Page & Infant Vasanth, BlackRock"
+title: How BlackRock Builds Custom Knowledge Apps at Scale — Vaibhav Page & Infant Vasanth, BlackRock
 tags:
-  - reference
-  - talk
-  - ai-engineer-worlds-fair
-  - enterprise
-  - knowledge-apps
-  - regulated-industry
+- reference
+- talk
+- ai-engineer-worlds-fair
+- enterprise
+- knowledge-apps
+- regulated-industry
 aliases:
-  - BlackRock AI Apps Framework
-  - BlackRock Sandbox App Factory
+- BlackRock AI Apps Framework
+- BlackRock Sandbox App Factory
 sources:
-  - "[[sources/watchv=08mh36_nvos]]"
-summary: "AI Engineer World's Fair 2025 talk covering BlackRock's sandbox + app factory framework for building custom AI knowledge applications at scale in the highly regulated financial services domain."
+- 'https://www.youtube.com/watch?v=08mh36_nvos'
+summary: AI Engineer World's Fair 2025 talk covering BlackRock's sandbox + app factory framework for building custom AI knowledge applications at scale in the highly regulated financial services domain.
 provenance:
-  extracted: 0.90
-  inferred: 0.10
-  ambiguous: 0.00
+  extracted: 0.9
+  inferred: 0.1
+  ambiguous: 0.0
 base_confidence: 0.75
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: references
 ---
 
 # How BlackRock Builds Custom Knowledge Apps at Scale

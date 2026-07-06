@@ -1,14 +1,22 @@
 ---
 title: Decoupled Architecture
 category: concepts
-tags: [architecture, gpu-inference, cpu-workers, queue-based, distributed-systems, event-driven, runtime-decoupling, design-time-decoupling]
-summary: A serving architecture where CPU workers and GPU workers operate as independent, queue-mediated layers — preventing GPU blocking on I/O and enabling heterogeneous compute placement. Also covers the distinction between runtime loose coupling and design-time tight coupling in event-driven systems.
+tags:
+- architecture
+- gpu-inference
+- cpu-workers
+- queue-based
+- distributed-systems
+- event-driven
+- runtime-decoupling
+- design-time-decoupling
+summary: A serving architecture where CPU workers and GPU workers operate as independent, queue-mediated layers — preventing GPU blocking on I/O and enabling heterogeneous compute placement. Also covers the...
 sources:
-  - "[[sources/watchv=ey4o9m6aswi]]"
-  - "[[sources/watchv=kj9ezytws1y]]"
+- 'https://www.youtube.com/watch?v=ey4o9m6aswi'
+- 'https://www.youtube.com/watch?v=kj9ezytws1y'
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.85
 lifecycle: draft
@@ -17,16 +25,16 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[inference-serving]]"
-    type: related_to
-  - target: "[[distributed-inference]]"
-    type: extends
-  - target: "[[back-pressure]]"
-    type: related_to
-  - target: "[[work-starvation]]"
-    type: related_to
-  - target: "[[concepts/events-wrong-abstraction-thesis]]"
-    type: related_to
+- target: '[[concepts/inference-serving]]'
+  type: related_to
+- target: '[[concepts/distributed-inference]]'
+  type: extends
+- target: '[[concepts/back-pressure]]'
+  type: related_to
+- target: '[[concepts/work-starvation]]'
+  type: related_to
+- target: '[[concepts/events-wrong-abstraction-thesis]]'
+  type: related_to
 ---
 
 A decoupled CPU/GPU architecture separates request preprocessing (CPU-bound) from model inference (GPU-bound) into independent worker pools connected by distributed queues. This is a critical pattern for ML serving at scale.

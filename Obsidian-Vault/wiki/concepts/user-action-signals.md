@@ -1,14 +1,20 @@
 ---
-title: "User Action Signals in Search"
+title: User Action Signals in Search
 category: concepts
-tags: [user-action, implicit-signal, search-relevance, engagement, board-titles, aief2025]
+tags:
+- user-action
+- implicit-signal
+- search-relevance
+- engagement
+- board-titles
+- aief2025
 aliases:
-  - user action signals
-  - implicit user signals
+- user action signals
+- implicit user signals
 sources:
-  - "AIEF2025 - What We Learned from Using LLMs in Pinterest — Mukuntha Narayanan, Han Wang, Pinterest - https://www.youtube.com/watch?v=XdAWgO11zuk"
+- AIEF2025 - What We Learned from Using LLMs in Pinterest — Mukuntha Narayanan, Han Wang, Pinterest - https://www.youtube.com/watch?v=XdAWgO11zuk
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.75
@@ -17,12 +23,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/content-annotation-search|Content Annotation for Search]]"
-    type: used_in
-  - target: "[[concepts/search-relevance|Search Relevance]]"
-    type: improves
-  - target: "[[concepts/user-engagement-metrics|User Engagement Metrics]]"
-    type: related_to
+- target: '[[concepts/content-annotation-search|Content Annotation for Search]]'
+  type: used_in
+- target: '[[concepts/search-relevance|Search Relevance]]'
+  type: improves
+- target: '[[concepts/user-engagement-metrics|User Engagement Metrics]]'
+  type: related_to
+summary: User Action Signals in Search
 ---
 
 # User Action Signals in Search

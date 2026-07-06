@@ -1,18 +1,18 @@
 ---
-title: "Agentic Benchmark Progress"
+title: Agentic Benchmark Progress
 tags:
-  - ai-agents
-  - benchmarks
-  - evaluation
-  - progress
-  - tool-calling
-  - multi-step
+- ai-agents
+- benchmarks
+- evaluation
+- progress
+- tool-calling
+- multi-step
 category: concepts
 sources:
-  - "[[sources/watchv=r30col3upug]]"
-summary: "Academic agentic benchmarks have improved from single-digit scores to 50-70% over 5-10 years, reflecting progress in multi-step tool calling and complex environment navigation — but perfection remains elusive."
+- 'https://www.youtube.com/watch?v=r30col3upug'
+summary: Academic agentic benchmarks have improved from single-digit scores to 50-70% over 5-10 years, reflecting progress in multi-step tool calling and complex environment navigation — but perfection rema...
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.75
@@ -22,10 +22,10 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/agent-evaluations]]"
-    type: related_to
-  - target: "[[concepts/agency-effectiveness-axis]]"
-    type: related_to
+- target: '[[concepts/agent-evaluations]]'
+  type: related_to
+- target: '[[concepts/agency-effectiveness-axis]]'
+  type: related_to
 ---
 
 # Agentic Benchmark Progress

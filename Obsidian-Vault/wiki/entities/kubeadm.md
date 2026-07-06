@@ -1,19 +1,28 @@
 ---
 type: entity
-title: "Kubeadm"
+title: Kubeadm
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/install-kubernetes-components_c70e92]]"
-  - "[[sources/how-tls-certificates-work-in-kubernetes-and-manual-cluster-setup_e2b507]]"
-  - "[[sources/manual-notes_10b5c5]]"
-  - "[[sources/admission-controllers_7667fc]]"
+- '[[sources/install-kubernetes-components_c70e92]]'
+- '[[sources/how-tls-certificates-work-in-kubernetes-and-manual-cluster-setup_e2b507]]'
+- '[[sources/manual-notes_10b5c5]]'
+- '[[sources/admission-controllers_7667fc]]'
 tags:
-  - product
+- product
 aliases:
-  - kubeadm tool
+- kubeadm tool
+category: entities
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Kubeadm
 ---
 ## Related Entities
 - Kubernetes
@@ -34,8 +43,8 @@ aliases:
 - [[concepts/certificate-generation]]
 - [[concepts/kubeconfig]]
 - [[concepts/high-availability-control-plane]]
-- [[kubernetes-apt-repository-setup]]
-- [[kubernetes-api-server]]
+- [[concepts/kubernetes-apt-repository-setup]]
+- [[concepts/kubernetes-api-server]]
 
 ## Mentions in Source
 > **Source: kubernetes-installation-steps_e573e8**

@@ -1,25 +1,26 @@
 ---
-title: "HybridRAG: A Fusion of Graph and Vector Retrieval — Mitesh Patel, NVIDIA"
+title: 'HybridRAG: A Fusion of Graph and Vector Retrieval — Mitesh Patel, NVIDIA'
 tags:
-  - reference
-  - talk
-  - ai-engineer
-  - rag
-  - knowledge-graph
-  - vector-database
-  - evaluation
+- reference
+- talk
+- ai-engineer
+- rag
+- knowledge-graph
+- vector-database
+- evaluation
 sources:
-  - "[[sources/watchv=-tgqa8fzf80]]"
-summary: "AI Engineer World's Fair 2025 talk covering HybridRAG architecture that fuses knowledge graph (graph-based) and semantic (vector-based) retrieval for RAG systems, including triplet extraction, ontology design, multi-hop retrieval, graph acceleration, and RAG evaluation."
+- 'https://www.youtube.com/watch?v=-tgqa8fzf80'
+summary: AI Engineer World's Fair 2025 talk covering HybridRAG architecture that fuses knowledge graph (graph-based) and semantic (vector-based) retrieval for RAG systems, including triplet extraction, onto...
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.42
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: references
 ---
 
 # HybridRAG: A Fusion of Graph and Vector Retrieval

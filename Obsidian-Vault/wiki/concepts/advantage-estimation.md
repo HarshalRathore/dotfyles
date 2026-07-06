@@ -9,7 +9,7 @@ tags:
   - aief2025
 aliases: [advantage-estimation, rl-advantage, forking-process, learning-signal]
 sources:
-  - "[[sources/watchv=pbhm2qknu10]]"
+  - "https://www.youtube.com/watch?v=pbhm2qknu10"
 summary: "The core RL mechanism of identifying which specific decision points in a branching process caused a difference in outcome. Enables surgical learning without changing the model too much overall."
 provenance:
   extracted: 0.75

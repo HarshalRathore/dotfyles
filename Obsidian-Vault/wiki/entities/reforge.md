@@ -4,7 +4,7 @@ category: entities
 tags: [company, product-management, ai-education, community]
 aliases: [Reforge platform]
 sources:
-  - "[[sources/watchv=1mvh05gdyde]]"
+  - "https://www.youtube.com/watch?v=1mvh05gdyde"
 summary: "A company that helps product teams decode best practices through expert-led courses and AI agents. Founded by Brian Balfour, with over 400 experts and 100,000 professionals."
 provenance:
   extracted: 0.80

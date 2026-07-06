@@ -1,35 +1,36 @@
 ---
-title: "Small Team Scaling"
+title: Small Team Scaling
 category: concepts
 tags:
-  - startup
-  - team-size
-  - hiring
-  - productivity
-  - ai-native
-  - aief2025
-summary: Strategy of scaling a startup with under 10 people by hiring only exceptional individuals, using product-led hiring, work-trial interviews, and minimizing meetings to maintain velocity. Extended with Gamma's 30-person/50M-users model.
+- startup
+- team-size
+- hiring
+- productivity
+- ai-native
+- aief2025
+summary: Strategy of scaling a startup with under 10 people by hiring only exceptional individuals, using product-led hiring, work-trial interviews, and minimizing meetings to maintain velocity. Extended wi...
 provenance:
   extracted: 0.65
   inferred: 0.25
-  ambiguous: 0.10
-base_confidence: 0.80
+  ambiguous: 0.1
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/product-led-hiring]]"
-    type: extends
-  - target: "[[concepts/work-trial-interviews]]"
-    type: extends
-  - target: "[[concepts/meeting-minimalism]]"
-    type: extends
-  - target: "[[concepts/player-coach-model|Player-Coach Model]]"
-    type: related_to
-  - target: "[[entities/grant-lee|Grant Lee]]"
-    type: related_to
+- target: '[[concepts/product-led-hiring]]'
+  type: extends
+- target: '[[concepts/work-trial-interviews]]'
+  type: extends
+- target: '[[concepts/meeting-minimalism]]'
+  type: extends
+- target: '[[concepts/player-coach-model|Player-Coach Model]]'
+  type: related_to
+- target: '[[entities/grant-lee|Grant Lee]]'
+  type: related_to
+sources: []
 ---
 
 ## Small Team Scaling

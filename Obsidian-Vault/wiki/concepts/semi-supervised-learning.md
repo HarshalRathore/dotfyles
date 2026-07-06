@@ -1,13 +1,19 @@
 ---
-title: "Semi-Supervised Learning for Model Training"
+title: Semi-Supervised Learning for Model Training
 category: concepts
-tags: [semi-supervised-learning, model-training, data-scaling, teacher-model, search-relevance, aief2025]
+tags:
+- semi-supervised-learning
+- model-training
+- data-scaling
+- teacher-model
+- search-relevance
+- aief2025
 aliases:
-  - semi-supervised learning
+- semi-supervised learning
 sources:
-  - "AIEF2025 - What We Learned from Using LLMs in Pinterest — Mukuntha Narayanan, Han Wang, Pinterest - https://www.youtube.com/watch?v=XdAWgO11zuk"
+- AIEF2025 - What We Learned from Using LLMs in Pinterest — Mukuntha Narayanan, Han Wang, Pinterest - https://www.youtube.com/watch?v=XdAWgO11zuk
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.75
@@ -16,12 +22,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/knowledge-distillation-search|Knowledge Distillation for Search]]"
-    type: used_in
-  - target: "[[concepts/model-distillation|Model Distillation]]"
-    type: enables
-  - target: "[[concepts/data-as-differentiator|Data as Differentiator]]"
-    type: related_to
+- target: '[[concepts/knowledge-distillation-search|Knowledge Distillation for Search]]'
+  type: used_in
+- target: '[[concepts/model-distillation|Model Distillation]]'
+  type: enables
+- target: '[[concepts/data-as-differentiator|Data as Differentiator]]'
+  type: related_to
+summary: Semi-Supervised Learning for Model Training
 ---
 
 # Semi-Supervised Learning for Model Training

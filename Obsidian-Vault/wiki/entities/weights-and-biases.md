@@ -1,16 +1,19 @@
 ---
-title: "Weights & Biases (W&B)"
+title: Weights & Biases (W&B)
 category: entities
 tags:
-  - company
-  - ai
-  - observability
-  - mcp
-  - weav
-  - aief2025
-aliases: [W&B, Weights and Biases, wandb]
+- company
+- ai
+- observability
+- mcp
+- weav
+- aief2025
+aliases:
+- W&B
+- Weights and Biases
+- wandb
 sources:
-  - "[[sources/watchv=lcqat4ip_le]]"
+- 'https://www.youtube.com/watch?v=lcqat4ip_le'
 provenance:
   extracted: 0.88
   inferred: 0.08
@@ -22,12 +25,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/weave]]"
-    type: related_to
-  - target: "[[concepts/open-telemetry]]"
-    type: uses
-  - target: "[[entities/observable.tools]]"
-    type: related_to
+- target: '[[entities/weave]]'
+  type: related_to
+- target: '[[concepts/open-telemetry]]'
+  type: uses
+- target: '[[entities/observable.tools]]'
+  type: related_to
+summary: Weights & Biases (W&B)
 ---
 
 # Weights & Biases (W&B)

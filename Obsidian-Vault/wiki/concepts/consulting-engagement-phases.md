@@ -1,20 +1,20 @@
 ---
-title: "Consulting Engagement Phases"
+title: Consulting Engagement Phases
 category: concepts
 tags:
-  - professional-services
-  - ai-workflow
-  - consulting
-  - aief2025
+- professional-services
+- ai-workflow
+- consulting
+- aief2025
 sources:
-  - "AIEF2025 - The Billable Hour is Dead; Long Live the Billable Hour — Kevin Madura + Mo Bhasin, Alix Partners - https://www.youtube.com/watch?v=Wv1tAxKYLeE"
+- AIEF2025 - The Billable Hour is Dead; Long Live the Billable Hour — Kevin Madura + Mo Bhasin, Alix Partners - https://www.youtube.com/watch?v=Wv1tAxKYLeE
 relationships:
-  - target: "[[concepts/enterprise-ai-productivity-paradox|Enterprise AI Productivity Paradox]]"
-    type: related_to
-  - target: "[[concepts/ai-first-firm|AI-First Firm]]"
-    type: related_to
+- target: '[[concepts/enterprise-ai-productivity-paradox|Enterprise AI Productivity Paradox]]'
+  type: related_to
+- target: '[[concepts/ai-first-firm|AI-First Firm]]'
+  type: related_to
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.07
   ambiguous: 0.03
 base_confidence: 0.85
@@ -22,6 +22,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Consulting Engagement Phases
 ---
 
 # Consulting Engagement Phases

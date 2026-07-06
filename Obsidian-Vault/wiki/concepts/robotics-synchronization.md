@@ -1,10 +1,19 @@
 ---
-title: "Robotics Synchronization"
+title: Robotics Synchronization
 category: concepts
-tags: [synchronization, multithreading, robotics, semaphores, condition-variables, padding]
-aliases: [thread synchronization, robotics threading, real-time synchronization]
+tags:
+- synchronization
+- multithreading
+- robotics
+- semaphores
+- condition-variables
+- padding
+aliases:
+- thread synchronization
+- robotics threading
+- real-time synchronization
 sources:
-  - "AIEF2025 - Rishabh Garg, Tesla Optimus — Challenges in High Performance Robotics Systems - https://www.youtube.com/watch?v=bCGbuyv8PMk"
+- AIEF2025 - Rishabh Garg, Tesla Optimus — Challenges in High Performance Robotics Systems - https://www.youtube.com/watch?v=bCGbuyv8PMk
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -16,12 +25,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/multithreaded-robotics-architecture|Multithreaded Robotics Architecture]]"
-    type: enables
-  - target: "[[concepts/jitter-in-robotics|Jitter in Robotics]]"
-    type: prevents
-  - target: "[[concepts/real-time-os-constraints|Real-Time OS Constraints]]"
-    type: constrained_by
+- target: '[[concepts/multithreaded-robotics-architecture|Multithreaded Robotics Architecture]]'
+  type: enables
+- target: '[[concepts/jitter-in-robotics|Jitter in Robotics]]'
+  type: prevents
+- target: '[[concepts/real-time-os-constraints|Real-Time OS Constraints]]'
+  type: constrained_by
+summary: Robotics Synchronization
 ---
 
 # Robotics Synchronization

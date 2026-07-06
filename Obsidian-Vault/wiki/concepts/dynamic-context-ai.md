@@ -1,23 +1,24 @@
 ---
-title: "Dynamic Context in AI Agents"
+title: Dynamic Context in AI Agents
 category: concepts
 tags:
-  - context-management
-  - ai-agents
-  - rag
-  - generative-ai
-  - data-retrieval
+- context-management
+- ai-agents
+- rag
+- generative-ai
+- data-retrieval
 sources:
-  - "[[sources/watchv=rofhhjmumcc]]"
+- 'https://www.youtube.com/watch?v=rofhhjmumcc'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.82
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Dynamic Context in AI Agents
 ---
 # Dynamic Context in AI Agents
 

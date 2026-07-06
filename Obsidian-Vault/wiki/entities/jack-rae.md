@@ -1,30 +1,31 @@
 ---
-title: "Jack Rae"
+title: Jack Rae
 tags:
-  - entity
-  - person
-  - google
-  - deepmind
-  - reasoning
+- entity
+- person
+- google
+- deepmind
+- reasoning
 aliases:
-  - Jack Rae (Google DeepMind)
+- Jack Rae (Google DeepMind)
 relationships:
-  - target: "[[entities/google-deepmind]]"
-    type: related_to
-  - target: "[[concepts/test-time-compute-scaling]]"
-    type: related_to
+- target: '[[entities/google-deepmind]]'
+  type: related_to
+- target: '[[concepts/test-time-compute-scaling]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=8eqo4j2bwkw]]"
-summary: "Researcher at Google DeepMind and technical lead of thinking within Gemini, responsible for advancing reasoning and test-time compute scaling in Gemini models."
+- 'https://www.youtube.com/watch?v=8eqo4j2bwkw'
+summary: Researcher at Google DeepMind and technical lead of thinking within Gemini, responsible for advancing reasoning and test-time compute scaling in Gemini models.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Jack Rae

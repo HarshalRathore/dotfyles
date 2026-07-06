@@ -1,25 +1,34 @@
 ---
-title: "Events are the Wrong Abstraction for Your AI Agents — Mason Egger, Temporal.io"
+title: Events are the Wrong Abstraction for Your AI Agents — Mason Egger, Temporal.io
 category: references
-tags: [ai, architecture, durable-execution, event-driven, distributed-systems, conference-talk, ai-eng-worlds-fair-2025]
-aliases: [Mason Egger Temporal events wrong abstraction, Temporal durable execution AI agents]
+tags:
+- ai
+- architecture
+- durable-execution
+- event-driven
+- distributed-systems
+- conference-talk
+- ai-eng-worlds-fair-2025
+aliases:
+- Mason Egger Temporal events wrong abstraction
+- Temporal durable execution AI agents
 relationships:
-  - target: "[[concepts/durable-execution]]"
-    type: related_to
-  - target: "[[concepts/events-wrong-abstraction-thesis]]"
-    type: related_to
-  - target: "[[concepts/software-abstraction-evolution]]"
-    type: related_to
-  - target: "[[entities/temporal]]"
-    type: related_to
+- target: '[[concepts/durable-execution]]'
+  type: related_to
+- target: '[[concepts/events-wrong-abstraction-thesis]]'
+  type: related_to
+- target: '[[concepts/software-abstraction-evolution]]'
+  type: related_to
+- target: '[[entities/temporal]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=kj9ezytws1y]]"
-summary: "Mason Egger argues that event-driven architecture is the wrong center for AI agent systems, proposing durable execution as the re-centered abstraction that abstracts away event complexity like prior programming language evolutions did."
+- 'https://www.youtube.com/watch?v=kj9ezytws1y'
+summary: Mason Egger argues that event-driven architecture is the wrong center for AI agent systems, proposing durable execution as the re-centered abstraction that abstracts away event complexity like prio...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-04

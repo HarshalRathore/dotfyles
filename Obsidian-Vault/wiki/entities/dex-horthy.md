@@ -1,16 +1,16 @@
 ---
-title: "Dex Horthy"
+title: Dex Horthy
 tags:
-  - person
-  - speaker
-  - humanlayer
-  - ai-engineer
-  - agents
+- person
+- speaker
+- humanlayer
+- ai-engineer
+- agents
 sources:
-  - "[[sources/watchv=8kmatybvduw]]"
-summary: "Founder of HumanLayer, creator of the 12-Factor Agents framework for building reliable LLM applications. Author of the A2H (Agent-to-Human) Protocol for human-in-the-loop agent collaboration."
+- 'https://www.youtube.com/watch?v=8kmatybvduw'
+summary: Founder of HumanLayer, creator of the 12-Factor Agents framework for building reliable LLM applications. Author of the A2H (Agent-to-Human) Protocol for human-in-the-loop agent collaboration.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.55
@@ -18,6 +18,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Dex Horthy

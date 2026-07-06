@@ -1,33 +1,34 @@
 ---
-title: "Finvoice"
+title: Finvoice
 category: concepts
 tags:
-  - voice-ai
-  - enterprise-ai
-  - customer-service
-  - intercom
-  - agent-loop
-  - rag
+- voice-ai
+- enterprise-ai
+- customer-service
+- intercom
+- agent-loop
+- rag
 summary: Finvoice is Intercom's voice AI agent for inbound phone support — a knowledge-based voice agent built in 100 days, extending the existing Fin chat agent to the voice channel.
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/knowledge-based-voice-agent]]"
-    type: implements
-  - target: "[[concepts/voice-pipeline]]"
-    type: uses
-  - target: "[[concepts/voice-conversation-design]]"
-    type: uses
-  - target: "[[entities/intercom-fin]]"
-    type: implements
+- target: '[[concepts/knowledge-based-voice-agent]]'
+  type: implements
+- target: '[[concepts/voice-pipeline]]'
+  type: uses
+- target: '[[concepts/voice-conversation-design]]'
+  type: uses
+- target: '[[entities/intercom-fin]]'
+  type: implements
+sources: []
 ---
 
 # Finvoice

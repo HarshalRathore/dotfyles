@@ -1,16 +1,19 @@
 ---
-title: "Distributed Tracing"
+title: Distributed Tracing
 category: concepts
 tags:
-  - distributed-tracing
-  - tracing
-  - observability
-  - open-telemetry
-  - spans
-  - traces
-aliases: [distributed-tracing, distributed trace, distributed traces]
+- distributed-tracing
+- tracing
+- observability
+- open-telemetry
+- spans
+- traces
+aliases:
+- distributed-tracing
+- distributed trace
+- distributed traces
 sources:
-  - "[[sources/watchv=lcqat4ip_le]]"
+- 'https://www.youtube.com/watch?v=lcqat4ip_le'
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -22,12 +25,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/open-telemetry]]"
-    type: uses
-  - target: "[[concepts/mcp-observability]]"
-    type: related_to
-  - target: "[[concepts/trace-context-propagation]]"
-    type: extends
+- target: '[[concepts/open-telemetry]]'
+  type: uses
+- target: '[[concepts/mcp-observability]]'
+  type: related_to
+- target: '[[concepts/trace-context-propagation]]'
+  type: extends
+summary: Distributed Tracing
 ---
 
 # Distributed Tracing

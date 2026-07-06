@@ -1,19 +1,19 @@
 ---
-title: "Multi-Agent Workflows"
+title: Multi-Agent Workflows
 tags:
-  - ai-agents
-  - multi-agent
-  - network-operations
-  - aws
-  - strands-agents
+- ai-agents
+- multi-agent
+- network-operations
+- aws
+- strands-agents
 sources:
-  - "AIEF2025 - Building Agents at Cloud Scale — Antje Barth, AWS - https://www.youtube.com/watch?v=WJjInLeaJjo"
-  - "AIEF2025 - Multi Agent AI and Network Knowledge Graphs for Change — Ola Mabadeje, Cisco - https://www.youtube.com/watch?v=m0dxZ-NDKHo"
-  - "AIEF2025 - Vibe Coding with Confidence — Itamar Friedman, Qodo - https://www.youtube.com/watch?v=n991Yxo1aOI"
-summary: "Patterns for coordinating multiple AI agents working together — including graph-based workflows, swarm approaches, and inter-system agent-to-agent communication across platform boundaries."
+- AIEF2025 - Building Agents at Cloud Scale — Antje Barth, AWS - https://www.youtube.com/watch?v=WJjInLeaJjo
+- AIEF2025 - Multi Agent AI and Network Knowledge Graphs for Change — Ola Mabadeje, Cisco - https://www.youtube.com/watch?v=m0dxZ-NDKHo
+- AIEF2025 - Vibe Coding with Confidence — Itamar Friedman, Qodo - https://www.youtube.com/watch?v=n991Yxo1aOI
+summary: Patterns for coordinating multiple AI agents working together — including graph-based workflows, swarm approaches, and inter-system agent-to-agent communication across platform boundaries.
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.75
 lifecycle: draft
@@ -22,14 +22,15 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/strands-agents|Strands Agents]]"
-    type: related_to
-  - target: "[[entities/alexa|Alexa]]"
-    type: implements
-  - target: "[[concepts/agent-coordination|Agent Coordination]]"
-    type: extends
-  - target: "[[entities/service-now|ServiceNow]]"
-    type: used_by
+- target: '[[entities/strands-agents|Strands Agents]]'
+  type: related_to
+- target: '[[entities/alexa|Alexa]]'
+  type: implements
+- target: '[[concepts/agent-coordination|Agent Coordination]]'
+  type: extends
+- target: '[[entities/service-now|ServiceNow]]'
+  type: used_by
+category: concepts
 ---
 # Multi-Agent Workflows
 

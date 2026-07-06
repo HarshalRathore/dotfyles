@@ -1,16 +1,25 @@
 ---
 type: concept
-title: "Recreate Strategy"
+title: Recreate Strategy
 created:
-  - 2025-06-30
+- 2025-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/rolling-updates-&-rollbacks_f484ef]]"
+- '[[sources/rolling-updates-&-rollbacks_f484ef]]'
 tags:
-  - deployment
+- deployment
 aliases:
-  - Recreate Deployment Strategy
+- Recreate Deployment Strategy
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Recreate Strategy
 ---
 # Recreate Strategy
 

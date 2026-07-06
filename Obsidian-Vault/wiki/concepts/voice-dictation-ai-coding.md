@@ -1,23 +1,24 @@
 ---
-title: "Voice Dictation in AI Coding Assistants"
+title: Voice Dictation in AI Coding Assistants
 category: concepts
 tags:
-  - github-copilot
-  - vscode
-  - voice
-  - vibe-coding
-  - accessibility
+- github-copilot
+- vscode
+- voice
+- vibe-coding
+- accessibility
 sources:
-  - "[[sources/watchv=eafp8pds7h4]]"
+- 'https://www.youtube.com/watch?v=eafp8pds7h4'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Voice Dictation in AI Coding Assistants
 ---
 
 # Voice Dictation in AI Coding Assistants

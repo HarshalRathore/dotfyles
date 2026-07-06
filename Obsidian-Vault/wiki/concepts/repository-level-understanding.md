@@ -1,20 +1,20 @@
 ---
-title: "Repository-Level Code Understanding"
+title: Repository-Level Code Understanding
 category: concepts
 tags:
-  - code-understanding
-  - repository-analysis
-  - graphrag
-  - llm
-  - code-base
+- code-understanding
+- repository-analysis
+- graphrag
+- llm
+- code-base
 aliases:
-  - repo-level understanding
-  - codebase understanding
+- repo-level understanding
+- codebase understanding
 sources:
-  - "AIEF2025 - GraphRAG methods to create optimized LLM context windows for Retrieval — Jonathan Larson, Microsoft - https://www.youtube.com/watch?v=c5qJHr3DnT4"
+- AIEF2025 - GraphRAG methods to create optimized LLM context windows for Retrieval — Jonathan Larson, Microsoft - https://www.youtube.com/watch?v=c5qJHr3DnT4
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.75
 lifecycle: draft
@@ -23,12 +23,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/graphrag-code|GraphRAG for Code]]"
-    type: enabled-by
-  - target: "[[concepts/local-global-queries|Local and Global Queries in GraphRAG]]"
-    type: uses
-  - target: "[[concepts/context-length-scaling|Context Length Scaling]]"
-    type: competes-with
+- target: '[[concepts/graphrag-code|GraphRAG for Code]]'
+  type: enabled-by
+- target: '[[concepts/local-global-queries|Local and Global Queries in GraphRAG]]'
+  type: uses
+- target: '[[concepts/context-length-scaling|Context Length Scaling]]'
+  type: competes-with
+summary: Repository-Level Code Understanding
 ---
 
 # Repository-Level Code Understanding

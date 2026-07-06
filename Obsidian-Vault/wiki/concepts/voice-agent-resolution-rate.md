@@ -1,30 +1,31 @@
 ---
-title: "Voice Agent Resolution Rate"
+title: Voice Agent Resolution Rate
 category: concepts
 tags:
-  - voice-ai
-  - metrics
-  - evals
-  - customer-service
-  - kpis
+- voice-ai
+- metrics
+- evals
+- customer-service
+- kpis
 summary: Resolution rate as the North Star metric for voice AI agents — defined as user confirming resolution on call OR disconnecting after hearing at least one answer without calling back within 24 hours.
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/finvoice]]"
-    type: implements
-  - target: "[[concepts/voice-agent-evals]]"
-    type: related_to
-  - target: "[[concepts/evaluation-first-development]]"
-    type: uses
+- target: '[[concepts/finvoice]]'
+  type: implements
+- target: '[[concepts/voice-agent-evals]]'
+  type: related_to
+- target: '[[concepts/evaluation-first-development]]'
+  type: uses
+sources: []
 ---
 
 # Voice Agent Resolution Rate

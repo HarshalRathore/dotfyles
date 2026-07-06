@@ -1,24 +1,37 @@
 ---
-title: "AIEF2025 - MCP: Origins and Requests For Startups — Theodora Chu"
+title: 'AIEF2025 - MCP: Origins and Requests For Startups — Theodora Chu'
 category: references
-tags: [aief2025, mcp, model-context-protocol, theodora-chu, anthropic, origin-story, design-principles, agent-architecture, elicitation, registry-api]
-summary: "Theodora Chu (MCP PM at Anthropic) covers MCP's origin story, design principles, project updates, and roadmap — from two engineers copying context to a standardized protocol adopted by Cursor, VS Code, Google, Microsoft, and OpenAI."
+tags:
+- aief2025
+- mcp
+- model-context-protocol
+- theodora-chu
+- anthropic
+- origin-story
+- design-principles
+- agent-architecture
+- elicitation
+- registry-api
+summary: Theodora Chu (MCP PM at Anthropic) covers MCP's origin story, design principles, project updates, and roadmap — from two engineers copying context to a standardized protocol adopted by Cursor, VS C...
 sources:
-  - "AIEF2025 - MCP: Origins and Requests For Startups — Theodora Chu, Model Context Protocol PM, Anthropic - https://www.youtube.com/watch?v=x-8pBqWiTzk"
-provenance: { extracted: 0.95, inferred: 0.03, ambiguous: 0.02 }
-base_confidence: 0.90
+- 'AIEF2025 - MCP: Origins and Requests For Startups — Theodora Chu, Model Context Protocol PM, Anthropic - https://www.youtube.com/watch?v=x-8pBqWiTzk'
+provenance:
+  extracted: 0.95
+  inferred: 0.03
+  ambiguous: 0.02
+base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
-created: 2026-07-05T00:00:00Z
-updated: 2026-07-05T00:00:00Z
+created: 2026-07-05 00:00:00+00:00
+updated: 2026-07-05 00:00:00+00:00
 relationships:
-  - target: "[[entities/theodora-chu|Theodora Chu]]"
-    type: related_to
-  - target: "[[entities/anthropic|Anthropic]]"
-    type: related_to
-  - target: "[[concepts/mcp|Model Context Protocol]]"
-    type: related_to
+- target: '[[entities/theodora-chu|Theodora Chu]]'
+  type: related_to
+- target: '[[entities/anthropic|Anthropic]]'
+  type: related_to
+- target: '[[concepts/mcp|Model Context Protocol]]'
+  type: related_to
 ---
 
 # AIEF2025 - MCP: Origins and Requests For Startups — Theodora Chu

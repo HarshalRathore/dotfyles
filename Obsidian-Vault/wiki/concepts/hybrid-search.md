@@ -1,18 +1,26 @@
 ---
 title: Hybrid Search
-tags: [search, retrieval, hybrid, fusion]
-sources: ["[[sources/ai-engineer-worlds-fair-2025-information-retrieval-from-the-ground-up-philipp-krenn]]", "[[sources/watchv=4xe_imyxbqc]]", "AIEF2025 - Building the platform for agent coordination — Tom Moor, Linear - https://www.youtube.com/watch?v=UG9IAdmi2Dg"]
-summary: "Combining multiple search methods (keyword + dense vector + sparse vector) to get the best of each. Increasingly recognized as necessary for production retrieval systems. Uses RRF or score normalization for fusion."
+tags:
+- search
+- retrieval
+- hybrid
+- fusion
+sources:
+- '[[sources/ai-engineer-worlds-fair-2025-information-retrieval-from-the-ground-up-philipp-krenn]]'
+- 'https://www.youtube.com/watch?v=4xe_imyxbqc'
+- AIEF2025 - Building the platform for agent coordination — Tom Moor, Linear - https://www.youtube.com/watch?v=UG9IAdmi2Dg
+summary: Combining multiple search methods (keyword + dense vector + sparse vector) to get the best of each. Increasingly recognized as necessary for production retrieval systems. Uses RRF or score normaliz...
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
-created: 2026-07-03T08:30:00Z
-updated: 2026-07-04T00:00:00Z
-
+created: 2026-07-03 08:30:00+00:00
+updated: 2026-07-04 00:00:00+00:00
+category: concepts
+---
 # Hybrid Search
 
 Combining multiple retrieval methods into a single ranked result set. Defined as any search using more than one type of retrieval — keyword + dense vector, dense + sparse vector, or even multiple dense vector models against different field representations. ^[extracted]

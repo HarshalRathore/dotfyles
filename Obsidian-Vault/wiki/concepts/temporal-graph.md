@@ -4,7 +4,7 @@ category: concepts
 tags: [graph-database, temporal-data, knowledge-graph, versioning, agent-memory]
 summary: "A graph data structure that stores not just entities and relationships but also their state changes over time. Enables time-travel queries and audit trails for agent memory systems."
 sources:
-  - "[[sources/watchv=t5imo5ntyha]]"
+  - "https://www.youtube.com/watch?v=t5imo5ntyha"
 provenance:
   extracted: 0.75
   inferred: 0.20

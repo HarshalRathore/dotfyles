@@ -1,34 +1,39 @@
 ---
-title: "Agent Evolution: Co-pilot to Agent"
+title: 'Agent Evolution: Co-pilot to Agent'
 tags:
-  - agent-evolution
-  - co-pilot
-  - agent
-  - developer-tools
-  - aief2025
-  - ai-history
+- agent-evolution
+- co-pilot
+- agent
+- developer-tools
+- aief2025
+- ai-history
 aliases:
-  - agent evolution
-  - co-pilot-to-agent
-  - evolution of ai coding tools
+- agent evolution
+- co-pilot-to-agent
+- evolution of ai coding tools
 sources:
-  - "AIEF2025 - Mastering Engineering Flow with Windsurf - Eashan Sinha, Windsurf - https://www.youtube.com/watch?v=W_5tzQY-hVs"
+- AIEF2025 - Mastering Engineering Flow with Windsurf - Eashan Sinha, Windsurf - https://www.youtube.com/watch?v=W_5tzQY-hVs
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: [[concepts/ai-flows|AI Flows]]
-    type: extends
-  - target: [[concepts/agent-vs-workflow|Agent vs Workflow]]
-    type: related_to
-  - target: [[concepts/agentic-coding|Agentic Coding]]
-    type: related_to
+- target:
+  - - concepts/ai-flows|AI Flows
+  type: extends
+- target:
+  - - concepts/agent-vs-workflow|Agent vs Workflow
+  type: related_to
+- target:
+  - - concepts/agentic-coding|Agentic Coding
+  type: related_to
+category: concepts
+summary: 'Agent Evolution: Co-pilot to Agent'
 ---
 
 # Agent Evolution: Co-pilot to Agent

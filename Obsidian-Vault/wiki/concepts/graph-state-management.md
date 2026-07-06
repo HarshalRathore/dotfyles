@@ -1,31 +1,32 @@
 ---
-title: "Graph State Management"
+title: Graph State Management
 category: concepts
 tags:
-  - state-management
-  - graphs
-  - agents
-  - knowledge-graphs
-  - data-models
+- state-management
+- graphs
+- agents
+- knowledge-graphs
+- data-models
 sources:
-  - "AIEF2025 - Knowledge Graphs in Litigation Agents — Tom Smoker, WhyHow - https://www.youtube.com/watch?v=yYxr6LdXNWM"
+- AIEF2025 - Knowledge Graphs in Litigation Agents — Tom Smoker, WhyHow - https://www.youtube.com/watch?v=yYxr6LdXNWM
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/multi-agent-systems|Multi-Agent Systems]]"
-    type: used_by
-  - target: "[[concepts/episodic-memory-agents|Episodic Memory for Agents]]"
-    type: implements
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: related_to
+- target: '[[concepts/multi-agent-systems|Multi-Agent Systems]]'
+  type: used_by
+- target: '[[concepts/episodic-memory-agents|Episodic Memory for Agents]]'
+  type: implements
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: related_to
+summary: Graph State Management
 ---
 
 # Graph State Management

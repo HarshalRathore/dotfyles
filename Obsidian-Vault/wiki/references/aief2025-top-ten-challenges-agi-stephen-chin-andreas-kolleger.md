@@ -1,14 +1,14 @@
 ---
-title: "Top Ten Challenges to Reach AGI — Stephen Chin, Andreas Kollegger"
+title: Top Ten Challenges to Reach AGI — Stephen Chin, Andreas Kollegger
 category: references
 tags:
-  - aief2025
-  - talk
-  - agi
-  - graphrag
-  - neo4j
+- aief2025
+- talk
+- agi
+- graphrag
+- neo4j
 sources:
-  - "AIEF2025 - Top Ten Challenges to Reach AGI — Stephen Chin, Andreas Kollegger - https://www.youtube.com/watch?v=ypyvj_56sBU"
+- AIEF2025 - Top Ten Challenges to Reach AGI — Stephen Chin, Andreas Kollegger - https://www.youtube.com/watch?v=ypyvj_56sBU
 provenance:
   extracted: 0.95
   inferred: 0.04
@@ -20,14 +20,15 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/stephen-chin|Stephen Chin]]"
-    type: has_speaker
-  - target: "[[entities/andreas-kolleger|Andreas Kollegger]]"
-    type: has_speaker
-  - target: "[[entities/neo4j|Neo4j]]"
-    type: presented_by
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: related_to
+- target: '[[entities/stephen-chin|Stephen Chin]]'
+  type: has_speaker
+- target: '[[entities/andreas-kolleger|Andreas Kollegger]]'
+  type: has_speaker
+- target: '[[entities/neo4j|Neo4j]]'
+  type: presented_by
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: related_to
+summary: Top Ten Challenges to Reach AGI
 ---
 
 # Top Ten Challenges to Reach AGI

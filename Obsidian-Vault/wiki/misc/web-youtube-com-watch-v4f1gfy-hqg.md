@@ -1,13 +1,19 @@
 ---
-title: "Software Fundamentals Matter More Than Ever — Matt Pocock"
+title: Software Fundamentals Matter More Than Ever — Matt Pocock
 category: misc
-tags: [ai, software-engineering, fundamentals, deep-modules, ddd, feedback-loops]
+tags:
+- ai
+- software-engineering
+- fundamentals
+- deep-modules
+- ddd
+- feedback-loops
 sources:
-  - "[[sources/watchv=v4f1gfy-hqg]]"
-source_url: "https://www.youtube.com/watch?v=v4F1gFy-hqg"
-created: 2026-06-30T23:55:00Z
-updated: 2026-06-30T23:55:00Z
-summary: "Matt Pocock's AI Engineer talk on why software fundamentals (ubiquitous language, deep modules, feedback loops, shared design concepts) matter more than ever when working with AI coding agents."
+- 'https://www.youtube.com/watch?v=v4f1gfy-hqg'
+source_url: https://www.youtube.com/watch?v=v4F1gFy-hqg
+created: 2026-06-30 23:55:00+00:00
+updated: 2026-06-30 23:55:00+00:00
+summary: Matt Pocock's AI Engineer talk on why software fundamentals (ubiquitous language, deep modules, feedback loops, shared design concepts) matter more than ever when working with AI coding agents.
 affinity: {}
 promotion_status: misc
 stub: false
@@ -18,6 +24,7 @@ provenance:
 base_confidence: 0.45
 lifecycle: draft
 lifecycle_changed: 2026-06-30
+tier: supporting
 ---
 
 # Software Fundamentals Matter More Than Ever — Matt Pocock
@@ -75,7 +82,7 @@ AI is great at generating codebases filled with tiny, shallow modules — tons o
 ## Entities
 
 - [[entities/matt-pocock]] — TypeScript educator, creator of the Grill Me, Ubiquitous Language, and Improve Codebase Architecture skills
-- [[posthog]] — The company whose blog has been a source for related AI engineering content
+- [[entities/posthog]] — The company whose blog has been a source for related AI engineering content
 
 ## Sources Referenced
 
@@ -92,5 +99,5 @@ AI is great at generating codebases filled with tiny, shallow modules — tons o
 
 ## Related
 
-- [[web-posthog-com-newsletter-loops]] — Engineering loops (feedback loops are a type of agent loop)
-- [[web-posthog-com-blog-stop-ai-slop]] — AI evals as a feedback mechanism similar to Tip 3
+- [[misc/web-posthog-com-newsletter-loops]] — Engineering loops (feedback loops are a type of agent loop)
+- [[misc/web-posthog-com-blog-stop-ai-slop]] — AI evals as a feedback mechanism similar to Tip 3

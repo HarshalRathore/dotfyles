@@ -1,18 +1,18 @@
 ---
-title: "Pydantic"
+title: Pydantic
 tags:
-  - python
-  - data-model
-  - llm
-  - extraction
-  - graphrag
-  - aief2025
+- python
+- data-model
+- llm
+- extraction
+- graphrag
+- aief2025
 aliases:
-  - pydantic
+- pydantic
 sources:
-  - "[[sources/watchv=j-9ebjbxcbg]]"
-  - "[[sources/watchv=czm3cw6fdbs]]"
-summary: "A Python library for data validation via type annotations. At AIEF2025, used as the schema definition for LLM-guided entity extraction from unstructured documents, producing structured JSON for graph database loading."
+- 'https://www.youtube.com/watch?v=j-9ebjbxcbg'
+- 'https://www.youtube.com/watch?v=czm3cw6fdbs'
+summary: A Python library for data validation via type annotations. At AIEF2025, used as the schema definition for LLM-guided entity extraction from unstructured documents, producing structured JSON for gra...
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -23,12 +23,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: used_by
-  - target: "[[concepts/triplet-extraction|Triplet Extraction]]"
-    type: used_by
-  - target: "[[concepts/knowledge-graph-ontology-design|Knowledge Graph Ontology Design]]"
-    type: implements
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: used_by
+- target: '[[concepts/triplet-extraction|Triplet Extraction]]'
+  type: used_by
+- target: '[[concepts/knowledge-graph-ontology-design|Knowledge Graph Ontology Design]]'
+  type: implements
+category: concepts
 ---
 
 # Pydantic

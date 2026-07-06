@@ -1,22 +1,22 @@
 ---
-title: "Graph vs Document Retrieval"
+title: Graph vs Document Retrieval
 tags:
-  - retrieval
-  - knowledge-graph
-  - rag
-  - agent
-  - architecture
+- retrieval
+- knowledge-graph
+- rag
+- agent
+- architecture
 aliases:
-  - Document-Only vs Graph Retrieval
-  - Structured vs Unstructured Retrieval
-  - Graph-Augmented Retrieval
+- Document-Only vs Graph Retrieval
+- Structured vs Unstructured Retrieval
+- Graph-Augmented Retrieval
 sources:
-  - "[[sources/watchv=j-9ebjbxcbg]]"
-  - "[[sources/watchv=czm3cw6fdbs]]"
-summary: "The contrast between pure document-level retrieval (vector search on raw documents) and graph-based retrieval (structured entity-relationship queries), with the key insight that document-only retrieval fails for aggregation, analytics, similarity, and relationship queries that graphs handle naturally."
+- 'https://www.youtube.com/watch?v=j-9ebjbxcbg'
+- 'https://www.youtube.com/watch?v=czm3cw6fdbs'
+summary: The contrast between pure document-level retrieval (vector search on raw documents) and graph-based retrieval (structured entity-relationship queries), with the key insight that document-only retri...
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.45
 lifecycle: draft
@@ -24,12 +24,13 @@ tier: supporting
 created: 2026-07-03
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: related_to
-  - target: "[[concepts/agentic-rag|Agentic RAG]]"
-    type: related_to
-  - target: "[[concepts/triplet-extraction|Triplet Extraction]]"
-    type: related_to
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: related_to
+- target: '[[concepts/agentic-rag|Agentic RAG]]'
+  type: related_to
+- target: '[[concepts/triplet-extraction|Triplet Extraction]]'
+  type: related_to
+category: concepts
 ---
 
 # Graph vs Document Retrieval

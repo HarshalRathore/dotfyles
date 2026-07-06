@@ -4,7 +4,7 @@ category: concepts
 tags: [agent-memory, domain-model, knowledge-graph, rag, semantic-similarity, retrieval]
 summary: "An approach to agent memory where the memory model is defined by the business domain's entity types and relationships, rather than free-form fact generation into vector databases."
 sources:
-  - "[[sources/watchv=t5imo5ntyha]]"
+  - "https://www.youtube.com/watch?v=t5imo5ntyha"
 provenance:
   extracted: 0.80
   inferred: 0.15

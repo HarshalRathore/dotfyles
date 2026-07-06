@@ -1,28 +1,29 @@
 ---
-title: "Automating Escrow with USDC and AI — Corey Cooper, Circle"
+title: Automating Escrow with USDC and AI — Corey Cooper, Circle
 tags:
-  - reference
-  - talk
-  - aief2025
-  - escrow
-  - usdc
-  - ai-agents
-  - payments
+- reference
+- talk
+- aief2025
+- escrow
+- usdc
+- ai-agents
+- payments
 aliases:
-  - AIEF2025 Circle Escrow
-  - Cooper Circle Escrow 2025
+- AIEF2025 Circle Escrow
+- Cooper Circle Escrow 2025
 sources:
-  - "[[sources/watchv=axmdsqdoghm]]"
-summary: "Corey Cooper (DevRel Lead, Circle) demonstrates using AI agents and USDC stablecoin smart contracts to automate escrow workflows — from PDF agreement parsing to on-chain conditional settlement."
+- 'https://www.youtube.com/watch?v=axmdsqdoghm'
+summary: Corey Cooper (DevRel Lead, Circle) demonstrates using AI agents and USDC stablecoin smart contracts to automate escrow workflows — from PDF agreement parsing to on-chain conditional settlement.
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: references
 ---
 
 # Automating Escrow with USDC and AI — Corey Cooper, Circle

@@ -1,27 +1,28 @@
 ---
-title: "Amazon Bedrock"
+title: Amazon Bedrock
 tags:
-  - aws
-  - ai-infrastructure
-  - llm
-  - generative-ai
-  - managed-service
+- aws
+- ai-infrastructure
+- llm
+- generative-ai
+- managed-service
 sources:
-  - "[[sources/watchv=ht4l0dep69i]]"
-  - "[[sources/watchv=q3nreeadkmc]]"
-  - "[[sources/watchv=rofhhjmumcc]]"
-  - "AIEF2025 - Building Agents at Cloud Scale — Antje Barth, AWS - https://www.youtube.com/watch?v=WJjInLeaJjo"
-summary: "AWS's fully managed service for building generative AI applications, providing access to foundational models from multiple providers (Anthropic, Amazon, Meta, Mistral, AI21 Labs) through a unified API. Default model for Strands Agents is Claude 3.7 Sonnet."
+- 'https://www.youtube.com/watch?v=ht4l0dep69i'
+- 'https://www.youtube.com/watch?v=q3nreeadkmc'
+- 'https://www.youtube.com/watch?v=rofhhjmumcc'
+- AIEF2025 - Building Agents at Cloud Scale — Antje Barth, AWS - https://www.youtube.com/watch?v=WJjInLeaJjo
+summary: AWS's fully managed service for building generative AI applications, providing access to foundational models from multiple providers (Anthropic, Amazon, Meta, Mistral, AI21 Labs) through a unified...
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+category: entities
 ---
 # Amazon Bedrock
 

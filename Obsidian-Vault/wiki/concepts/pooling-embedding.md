@@ -1,12 +1,18 @@
 ---
 title: Pooling Embedding
 category: concepts
-tags: [embedding, pooling, multimodal, video-search, semantic-search, vector-embedding]
-summary: "A technique where embeddings from multiple samples (e.g., video frames) are combined into a single pooled embedding, enabling efficient multimodal search over sequences of data."
+tags:
+- embedding
+- pooling
+- multimodal
+- video-search
+- semantic-search
+- vector-embedding
+summary: A technique where embeddings from multiple samples (e.g., video frames) are combined into a single pooled embedding, enabling efficient multimodal search over sequences of data.
 provenance:
-  extracted: 0.80
-  inferred: 0.20
-  ambiguous: 0.00
+  extracted: 0.8
+  inferred: 0.2
+  ambiguous: 0.0
 base_confidence: 0.75
 lifecycle: draft
 lifecycle_changed: 2026-07-05
@@ -14,12 +20,13 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/multimodal-embedding]]"
-    type: extends
-  - target: "[[concepts/embedding-quality]]"
-    type: related_to
-  - target: "[[concepts/vector-similarity-vs-relevance]]"
-    type: related_to
+- target: '[[concepts/multimodal-embedding]]'
+  type: extends
+- target: '[[concepts/embedding-quality]]'
+  type: related_to
+- target: '[[concepts/vector-similarity-vs-relevance]]'
+  type: related_to
+sources: []
 ---
 
 **Pooling embedding** is a technique where embeddings from multiple samples are combined into a single pooled embedding. This enables efficient representation and search over sequences of data — such as video frames, audio segments, or document sections — without requiring per-sample queries.

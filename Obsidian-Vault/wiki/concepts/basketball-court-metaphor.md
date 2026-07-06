@@ -1,27 +1,27 @@
 ---
-title: "Basketball Court Metaphor"
+title: Basketball Court Metaphor
 category: concepts
 tags:
-  - evals
-  - visualization
-  - dataset-strategy
-  - metaphor
-  - production-ai
+- evals
+- visualization
+- dataset-strategy
+- metaphor
+- production-ai
 relationships:
-  - target: "[[concepts/application-layer-evals]]"
-    type: implements
-  - target: "[[concepts/eval-dataset-strategy]]"
-    type: implements
-  - target: "[[concepts/eval-ingredients-task-dataset-score]]"
-    type: related_to
+- target: '[[concepts/application-layer-evals]]'
+  type: implements
+- target: '[[concepts/eval-dataset-strategy]]'
+  type: implements
+- target: '[[concepts/eval-ingredients-task-dataset-score]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=l8ooyedi_ls]]"
-summary: "A visualization metaphor for evals: the basketball court where data points are positions (user queries), distance from the basket represents difficulty, blue means shot made, red means shot missed, and out-of-bounds queries are excluded."
+- 'https://www.youtube.com/watch?v=l8ooyedi_ls'
+summary: 'A visualization metaphor for evals: the basketball court where data points are positions (user queries), distance from the basket represents difficulty, blue means shot made, red means shot missed,...'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-05

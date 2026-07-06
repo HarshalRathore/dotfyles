@@ -1,23 +1,24 @@
 ---
-title: "Dario Amodei"
+title: Dario Amodei
 tags:
-  - person
-  - ai
-  - anthropic
-  - safety
-  - aief2025
+- person
+- ai
+- anthropic
+- safety
+- aief2025
 sources:
-  - "[[sources/watchv=bztd0yyagcq]]"
-summary: "CEO of Anthropic whose framing that generative AI systems are 'more grown than built' inspired a gardening metaphor for AI UX design."
+- 'https://www.youtube.com/watch?v=bztd0yyagcq'
+summary: CEO of Anthropic whose framing that generative AI systems are 'more grown than built' inspired a gardening metaphor for AI UX design.
 provenance:
-  extracted: 0.50
-  inferred: 0.40
-  ambiguous: 0.10
+  extracted: 0.5
+  inferred: 0.4
+  ambiguous: 0.1
 base_confidence: 0.35
 lifecycle: draft
 tier: peripheral
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Dario Amodei

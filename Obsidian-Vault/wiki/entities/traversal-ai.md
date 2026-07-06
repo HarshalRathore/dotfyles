@@ -1,20 +1,23 @@
 ---
-title: "Traversal.ai"
+title: Traversal.ai
 tags:
-  - company
-  - ai
-  - observability
-  - incident-response
-  - causal-machine-learning
-  - agent-swarm
-  - startup
-  - ai-eng-worlds-fair-2025
-aliases: [traversal, traversal-ai, Traversal]
+- company
+- ai
+- observability
+- incident-response
+- causal-machine-learning
+- agent-swarm
+- startup
+- ai-eng-worlds-fair-2025
+aliases:
+- traversal
+- traversal-ai
+- Traversal
 sources:
-  - "[[sources/watchv=l6_nigiexzq]]"
-summary: AI startup building autonomous production troubleshooting systems using causal ML, reasoning models, and agent swarms. Validated at DigitalOcean with 40% MTTR reduction. Integrates with all major observability tools, processing trillions of logs.
+- 'https://www.youtube.com/watch?v=l6_nigiexzq'
+summary: AI startup building autonomous production troubleshooting systems using causal ML, reasoning models, and agent swarms. Validated at DigitalOcean with 40% MTTR reduction. Integrates with all major o...
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -24,18 +27,19 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/anish-agarwal]]"
-    type: related_to
-  - target: "[[entities/matt-traversal]]"
-    type: related_to
-  - target: "[[entities/digitalocean]]"
-    type: related_to
-  - target: "[[concepts/causal-machine-learning]]"
-    type: uses
-  - target: "[[concepts/agent-swarm]]"
-    type: uses
-  - target: "[[concepts/production-troubleshooting]]"
-    type: related_to
+- target: '[[entities/anish-agarwal]]'
+  type: related_to
+- target: '[[entities/matt-traversal]]'
+  type: related_to
+- target: '[[entities/digitalocean]]'
+  type: related_to
+- target: '[[concepts/causal-machine-learning]]'
+  type: uses
+- target: '[[concepts/agent-swarm]]'
+  type: uses
+- target: '[[concepts/production-troubleshooting]]'
+  type: related_to
+category: entities
 ---
 
 # Traversal.ai

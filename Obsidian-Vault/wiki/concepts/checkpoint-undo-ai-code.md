@@ -1,23 +1,24 @@
 ---
-title: "Checkpoint and Undo in AI Code Generation"
+title: Checkpoint and Undo in AI Code Generation
 category: concepts
 tags:
-  - github-copilot
-  - vscode
-  - vibe-coding
-  - version-control
-  - ux
+- github-copilot
+- vscode
+- vibe-coding
+- version-control
+- ux
 sources:
-  - "[[sources/watchv=eafp8pds7h4]]"
+- 'https://www.youtube.com/watch?v=eafp8pds7h4'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Checkpoint and Undo in AI Code Generation
 ---
 
 # Checkpoint and Undo in AI Code Generation

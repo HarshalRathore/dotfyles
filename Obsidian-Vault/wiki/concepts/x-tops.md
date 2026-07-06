@@ -1,25 +1,29 @@
 ---
-title: "X-TOPS (Extended MLOPS)"
+title: X-TOPS (Extended MLOPS)
 tags:
-  - concept
-  - ai
-  - operations
-  - mlops
-  - governance
-  - trust
-aliases: [extended MLOPS, X-TOPS framework, trust-aware MLOPS]
+- concept
+- ai
+- operations
+- mlops
+- governance
+- trust
+aliases:
+- extended MLOPS
+- X-TOPS framework
+- trust-aware MLOPS
 sources:
-  - "[[sources/watchv=6tpm4m1yxhk]]"
-summary: "An operational framework extending standard MLOPS with built-in trust, conscience, and human oversight — encompassing AI-aware guardrails, trust-specific dashboards, click-to-fix human feedback workflows, and verifiable traceability for mission-critical AI systems."
+- 'https://www.youtube.com/watch?v=6tpm4m1yxhk'
+summary: An operational framework extending standard MLOPS with built-in trust, conscience, and human oversight — encompassing AI-aware guardrails, trust-specific dashboards, click-to-fix human feedback wor...
 provenance:
   extracted: 0.82
   inferred: 0.15
   ambiguous: 0.03
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # X-TOPS (Extended MLOPS)

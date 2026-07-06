@@ -1,24 +1,38 @@
 ---
-title: "RFT, DPO, SFT: Fine-tuning with OpenAI — Ilan Bigio, OpenAI"
+title: 'RFT, DPO, SFT: Fine-tuning with OpenAI — Ilan Bigio, OpenAI'
 category: references
-tags: [fine-tuning, rl, dpo, sft, reinforcement-learning, llm, openai, aief2025]
-aliases: [RFT-DPO-SFT-OpenAI, fine-tuning-with-openai]
+tags:
+- fine-tuning
+- rl
+- dpo
+- sft
+- reinforcement-learning
+- llm
+- openai
+- aief2025
+aliases:
+- RFT-DPO-SFT-OpenAI
+- fine-tuning-with-openai
 relationships:
-  - target: "[[concepts/rlhf]]"
-    type: related_to
-  - target: "[[concepts/llm-evaluation]]"
-    type: related_to
-sources: ["[[sources/aief2025-rft]]", "[[sources/dpo]]", "[[sources/sft-fine-tuning-with-openai-—-ilan-bigio]]", "[[sources/watchv=jfalqqfxqpa]]"]
-summary: "OpenAI's Ilan Bigio covers SFT, DPO, and RFT as three progressive fine-tuning methods, demonstrating each with live coding and real-world case studies including a function-calling latency reduction project."
+- target: '[[concepts/rlhf]]'
+  type: related_to
+- target: '[[concepts/llm-evaluation]]'
+  type: related_to
+sources:
+- '[[sources/aief2025-rft]]'
+- '[[sources/dpo]]'
+- '[[sources/sft-fine-tuning-with-openai-—-ilan-bigio]]'
+- 'https://www.youtube.com/watch?v=jfalqqfxqpa'
+summary: OpenAI's Ilan Bigio covers SFT, DPO, and RFT as three progressive fine-tuning methods, demonstrating each with live coding and real-world case studies including a function-calling latency reduction...
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.65
 lifecycle: draft
 tier: supporting
-created: 2026-07-03T15:05:02Z
-updated: 2026-07-03T15:05:02Z
+created: 2026-07-03 15:05:02+00:00
+updated: 2026-07-03 15:05:02+00:00
 ---
 
 # RFT, DPO, SFT: Fine-tuning with OpenAI

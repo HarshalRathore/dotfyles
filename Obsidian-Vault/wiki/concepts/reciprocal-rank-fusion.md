@@ -1,18 +1,26 @@
 ---
 title: Reciprocal Rank Fusion
-tags: [search, ranking, fusion, rrf]
-aliases: [RRF]
-sources: ["[[sources/ai-engineer-worlds-fair-2025-information-retrieval-from-the-ground-up-philipp-krenn]]", "[[sources/watchv=4xe_imyxbqc]]"]
-summary: "Simple, position-based method for blending ranked results from multiple retrieval methods. Ignores absolute scores, uses only rank positions. Described in a ~2-page paper."
+tags:
+- search
+- ranking
+- fusion
+- rrf
+aliases:
+- RRF
+sources:
+- '[[sources/ai-engineer-worlds-fair-2025-information-retrieval-from-the-ground-up-philipp-krenn]]'
+- 'https://www.youtube.com/watch?v=4xe_imyxbqc'
+summary: Simple, position-based method for blending ranked results from multiple retrieval methods. Ignores absolute scores, uses only rank positions. Described in a ~2-page paper.
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
-created: 2026-07-03T08:30:00Z
-updated: 2026-07-03T08:30:00Z
+created: 2026-07-03 08:30:00+00:00
+updated: 2026-07-03 08:30:00+00:00
+category: concepts
 ---
 
 # Reciprocal Rank Fusion

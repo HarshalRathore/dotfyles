@@ -1,17 +1,26 @@
 ---
 type: entity
-title: "Microsoft’s eShop Reference Application"
+title: Microsoft’s eShop Reference Application
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/microservices-demo-projects_ac9b1f]]"
+- '[[sources/microservices-demo-projects_ac9b1f]]'
 tags:
-  - project
+- project
 aliases:
-  - dotnet/eShop
-  - eShop Sample App
+- dotnet/eShop
+- eShop Sample App
+category: entities
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Microsoft’s eShop Reference Application
 ---
 # Microsoft’s eShop Reference Application
 

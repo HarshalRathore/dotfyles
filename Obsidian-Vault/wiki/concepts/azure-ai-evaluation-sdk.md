@@ -1,26 +1,28 @@
 ---
-title: "Azure AI Evaluation SDK"
+title: Azure AI Evaluation SDK
 category: concepts
 tags:
-  - evaluation
-  - azure-ai-foundry
-  - azure-ai-eval-sdk
-  - agents
-  - microsoft
-  - automated-evals
-aliases: [Azure AI Eval SDK, Azure AI Foundry evaluators]
+- evaluation
+- azure-ai-foundry
+- azure-ai-eval-sdk
+- agents
+- microsoft
+- automated-evals
+aliases:
+- Azure AI Eval SDK
+- Azure AI Foundry evaluators
 relationships:
-  - target: "[[concepts/agent-evaluation-pipeline]]"
-    type: implements
-  - target: "[[concepts/llm-judge-best-practices]]"
-    type: extends
-  - target: "[[concepts/multimodal-evaluation]]"
-    type: extends
+- target: '[[concepts/agent-evaluation-pipeline]]'
+  type: implements
+- target: '[[concepts/llm-judge-best-practices]]'
+  type: extends
+- target: '[[concepts/multimodal-evaluation]]'
+  type: extends
 sources:
-  - "[[sources/watchv=j4vpq2i0qze]]"
-  - "[[sources/watchv=jhjkgramfiu]]"
+- 'https://www.youtube.com/watch?v=j4vpq2i0qze'
+- 'https://www.youtube.com/watch?v=jhjkgramfiu'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.17
   ambiguous: 0.03
 base_confidence: 0.75
@@ -28,6 +30,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Azure AI Evaluation SDK
 ---
 
 # Azure AI Evaluation SDK

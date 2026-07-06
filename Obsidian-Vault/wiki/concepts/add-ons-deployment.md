@@ -1,17 +1,26 @@
 ---
 type: concept
-title: "add-ons deployment"
+title: add-ons deployment
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/bootstrapping-control-place_e4e0df]]"
+- '[[sources/bootstrapping-control-place_e4e0df]]'
 tags:
-  - deployment
+- deployment
 aliases:
-  - "core add-ons"
-  - "add-ons"
+- core add-ons
+- add-ons
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: add-ons deployment
 ---
 # add-ons deployment
 

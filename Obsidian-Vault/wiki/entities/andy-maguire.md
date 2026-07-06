@@ -1,14 +1,23 @@
 ---
-title: "Andy Maguire"
-created: "2026-07-01"
-updated: "2026-07-01"
+title: Andy Maguire
+created: '2026-07-01'
+updated: '2026-07-01'
 tags:
-  - posthog
-  - "agent-systems"
+- posthog
+- agent-systems
 sources:
-  - "[[sources/web-posthog-com-blog-what-is-a-scout]]"
+- '[[misc/web-posthog-com-blog-what-is-a-scout]]'
 aliases:
-  - andymaguire
+- andymaguire
+category: entities
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Andy Maguire
 ---
 # Andy Maguire
 
@@ -29,4 +38,4 @@ Andy Maguire is a PostHog engineer who wrote about and developed the Scout patte
 
 ## Sources
 
-- [[web-posthog-com-blog-what-is-a-scout]] — What is a Scout? PostHog blog post (2026-06-23)
+- [[misc/web-posthog-com-blog-what-is-a-scout]] — What is a Scout? PostHog blog post (2026-06-23)

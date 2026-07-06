@@ -1,29 +1,30 @@
 ---
-title: "AI Crawler Landscape"
+title: AI Crawler Landscape
 tags:
-  - bots
-  - crawlers
-  - ai
-  - web
-  - security
-  - agents
+- bots
+- crawlers
+- ai
+- web
+- security
+- agents
 relationships:
-  - target: "[[concepts/ai-bot-defense]]"
-    type: related_to
-  - target: "[[concepts/agent-traffic-inversion]]"
-    type: related_to
+- target: '[[concepts/ai-bot-defense]]'
+  type: related_to
+- target: '[[concepts/agent-traffic-inversion]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=gi4v8vibgyq]]"
-summary: "The evolving taxonomy of AI-driven crawlers visiting web applications — from search indexers to model trainers to autonomous agents — and the challenge of distinguishing beneficial from malicious traffic."
+- 'https://www.youtube.com/watch?v=gi4v8vibgyq'
+summary: The evolving taxonomy of AI-driven crawlers visiting web applications — from search indexers to model trainers to autonomous agents — and the challenge of distinguishing beneficial from malicious t...
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.65
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # AI Crawler Landscape

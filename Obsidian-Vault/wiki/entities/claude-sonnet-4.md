@@ -1,19 +1,19 @@
 ---
-title: "Claude Sonnet 4"
+title: Claude Sonnet 4
 category: entities
 tags:
-  - entity
-  - model
-  - claude
-  - anthropic
-  - aief2025
+- entity
+- model
+- claude
+- anthropic
+- aief2025
 aliases:
-  - claussen-4
-  - claude-4
+- claussen-4
+- claude-4
 sources:
-  - "AIEF2025 - Vibe Coding at Scale: Customizing AI Assistants for Enterprise Environments - Harald Kirshner, - https://www.youtube.com/watch?v=i1uPAN6uW4s"
+- 'AIEF2025 - Vibe Coding at Scale: Customizing AI Assistants for Enterprise Environments - Harald Kirshner, - https://www.youtube.com/watch?v=i1uPAN6uW4s'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -23,10 +23,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/anthropic|Anthropic]]"
-    type: developed-by
-  - target: "[[concepts/ai-design-sense|AI Design Sense]]"
-    type: exemplifies
+- target: '[[entities/anthropic|Anthropic]]'
+  type: developed-by
+- target: '[[concepts/ai-design-sense|AI Design Sense]]'
+  type: exemplifies
+summary: Claude Sonnet 4
 ---
 
 # Claude Sonnet 4

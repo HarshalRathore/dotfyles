@@ -1,31 +1,32 @@
 ---
-title: "Conversational Video Interface"
+title: Conversational Video Interface
 category: concepts
 tags:
-  - video-ai
-  - conversational-ai
-  - digital-twin
-  - video-replication
-  - real-time
+- video-ai
+- conversational-ai
+- digital-twin
+- video-replication
+- real-time
 sources:
-  - "AIEF2025 - Realtime Conversational Video with Pipecat and Tavus — Chad Bailey and Brian Johnson, Daily & Tavus - https://www.youtube.com/watch?v=ujt0da9Z29Q"
+- AIEF2025 - Realtime Conversational Video with Pipecat and Tavus — Chad Bailey and Brian Johnson, Daily & Tavus - https://www.youtube.com/watch?v=ujt0da9Z29Q
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/real-time-conversational-video]]"
-    type: related_to
-  - target: "[[concepts/tavus-replica]]"
-    type: related_to
-  - target: "[[entities/tavus]]"
-    type: implements
+- target: '[[concepts/real-time-conversational-video]]'
+  type: related_to
+- target: '[[concepts/tavus-replica]]'
+  type: related_to
+- target: '[[entities/tavus]]'
+  type: implements
+summary: Conversational Video Interface
 ---
 
 # Conversational Video Interface

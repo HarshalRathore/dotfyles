@@ -1,28 +1,35 @@
 ---
-summary: "This source details Kubernetes pod scheduling mechanisms that control which nodes can run specific pods. It contrasts two primary methods: the simple `nodeSelector`, which matches pods to nodes bas..."
+summary: 'This source details Kubernetes pod scheduling mechanisms that control which nodes can run specific pods. It contrasts two primary methods: the simple `nodeSelector`, which matches pods to nodes bas...'
 type: source
-title: "Node Selector and Node Affinity in Kubernetes - Summary"
-created: "2026-06-30"
-updated: "2026-06-30"
+title: Node Selector and Node Affinity in Kubernetes - Summary
+created: '2026-06-30'
+updated: '2026-06-30'
 lifecycle: draft
 base_confidence: 0.7
-source_file: ""
+source_file: ''
 tags:
-  - nodeSelector
-  - node affinity
-  - requiredDuringSchedulingIgnoredDuringExecution
-  - preferredDuringSchedulingIgnoredDuringExecution
-  - labels
-  - taints
-  - matchExpressions
-  - tolerations
-  - hard rule
-  - soft rule
+- nodeSelector
+- node affinity
+- requiredDuringSchedulingIgnoredDuringExecution
+- preferredDuringSchedulingIgnoredDuringExecution
+- labels
+- taints
+- matchExpressions
+- tolerations
+- hard rule
+- soft rule
 aliases:
-  - "NodeSelector & NodeAffinity"
-  - Kubernetes Node Scheduling Constraints
-contentHash: "1591-77714408"
-generation_complete: True
+- NodeSelector & NodeAffinity
+- Kubernetes Node Scheduling Constraints
+contentHash: 1591-77714408
+generation_complete: true
+category: sources
+sources: []
+tier: supporting
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
 ---
 # Node Selector and Node Affinity in Kubernetes - Summary
 

@@ -1,34 +1,35 @@
 ---
-title: "Parallel Agent Work"
+title: Parallel Agent Work
 category: concepts
 tags:
-  - parallel-work
-  - ai-agents
-  - productivity
-  - aief2025
+- parallel-work
+- ai-agents
+- productivity
+- aief2025
 aliases:
-  - parallel agent work
-  - multi-agent parallelism
-summary: "The capability for engineers to work on multiple features and bugs in parallel by managing multiple AI agent panes simultaneously, dramatically increasing individual throughput."
+- parallel agent work
+- multi-agent parallelism
+summary: The capability for engineers to work on multiple features and bugs in parallel by managing multiple AI agent panes simultaneously, dramatically increasing individual throughput.
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/parallel-agents|Parallel Agents]]"
-    type: related_to
-  - target: "[[concepts/code-is-cheap|Code Is Cheap]]"
-    type: extends
-  - target: "[[concepts/compounding-engineering|Compounding Engineering]]"
-    type: related_to
-  - target: "[[concepts/ai-native-company|AI-Native Company]]"
-    type: related_to
+- target: '[[concepts/parallel-agents|Parallel Agents]]'
+  type: related_to
+- target: '[[concepts/code-is-cheap|Code Is Cheap]]'
+  type: extends
+- target: '[[concepts/compounding-engineering|Compounding Engineering]]'
+  type: related_to
+- target: '[[concepts/ai-native-company|AI-Native Company]]'
+  type: related_to
+sources: []
 ---
 
 # Parallel Agent Work

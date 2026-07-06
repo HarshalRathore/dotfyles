@@ -1,21 +1,21 @@
 ---
-title: "Vibe Code Fixer"
+title: Vibe Code Fixer
 category: concepts
 tags:
-  - ai-coding
-  - freelance
-  - gig-economy
-  - vibe-coding
-  - legacy-code
+- ai-coding
+- freelance
+- gig-economy
+- vibe-coding
+- legacy-code
 sources:
-  - "[[sources/watchv=jv-wy5pxxlo]]"
+- 'https://www.youtube.com/watch?v=jv-wy5pxxlo'
 relationships:
-  - target: "[[concepts/burden-of-generated-code]]"
-    type: related_to
-  - target: "[[concepts/code-review-primary-skill]]"
-    type: implements
-  - target: "[[concepts/vibe-engineering]]"
-    type: implements
+- target: '[[concepts/burden-of-generated-code]]'
+  type: related_to
+- target: '[[concepts/code-review-primary-skill]]'
+  type: implements
+- target: '[[concepts/vibe-engineering]]'
+  type: implements
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -25,6 +25,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Vibe Code Fixer
 ---
 
 # Vibe Code Fixer

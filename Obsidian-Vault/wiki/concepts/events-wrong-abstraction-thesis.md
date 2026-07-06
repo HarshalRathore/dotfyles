@@ -1,21 +1,30 @@
 ---
 title: Events are the Wrong Abstraction Thesis
 category: concepts
-tags: [architecture, event-driven, critique, durable-execution, ai-agents, distributed-systems]
-aliases: [EDA critique, events wrong abstraction, event-driven architecture problems]
+tags:
+- architecture
+- event-driven
+- critique
+- durable-execution
+- ai-agents
+- distributed-systems
+aliases:
+- EDA critique
+- events wrong abstraction
+- event-driven architecture problems
 relationships:
-  - target: "[[concepts/durable-execution]]"
-    type: derived_from
-  - target: "[[concepts/decoupled-architecture]]"
-    type: contradicts
-  - target: "[[concepts/agent-reliability-challenge]]"
-    type: related_to
+- target: '[[concepts/durable-execution]]'
+  type: derived_from
+- target: '[[concepts/decoupled-architecture]]'
+  type: contradicts
+- target: '[[concepts/agent-reliability-challenge]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=kj9ezytws1y]]"
-summary: "The argument that event-driven architecture puts the wrong thing at the center of AI agent ecosystems — creating more infrastructure than business logic, scattered logic, and hidden design-time coupling — and that durable execution is the proper re-centered abstraction."
+- 'https://www.youtube.com/watch?v=kj9ezytws1y'
+summary: The argument that event-driven architecture puts the wrong thing at the center of AI agent ecosystems — creating more infrastructure than business logic, scattered logic, and hidden design-time cou...
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.55
 lifecycle: draft

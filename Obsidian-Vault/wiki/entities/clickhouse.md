@@ -1,12 +1,22 @@
 ---
-title: "ClickHouse"
+title: ClickHouse
 tags:
-  - columnar
-  - analytics
-  - "open-source"
+- columnar
+- analytics
+- open-source
 sources:
-  - "[[sources/karpathy-autoresearch-query-engine-bug]]"
-
+- '[[sources/karpathy-autoresearch-query-engine-bug]]'
+category: entities
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+created: '2026-07-04T15:08:32.269055+00:00'
+updated: '2026-07-04T15:08:32.269055+00:00'
+summary: ClickHouse
 ---
 # ClickHouse
 
@@ -14,7 +24,7 @@ ClickHouse is an open-source, column-oriented DBMS for real-time analytics. Key 
 
 ## Related
 
-- [[web-github-com-karpathy-autoresearch]] — Details how `toTimeZone()` wrapping silently disabled partition pruning for 3 years
+- [[misc/web-github-com-karpathy-autoresearch]] — Details how `toTimeZone()` wrapping silently disabled partition pruning for 3 years
 
 
 ## Related Pages

@@ -1,31 +1,32 @@
 ---
-title: "MCP Native Integration"
+title: MCP Native Integration
 tags:
-  - mcp
-  - tool-integration
-  - ai-agents
-  - aws
-  - strands-agents
+- mcp
+- tool-integration
+- ai-agents
+- aws
+- strands-agents
 sources:
-  - "AIEF2025 - Building Agents at Cloud Scale — Antje Barth, AWS - https://www.youtube.com/watch?v=WJjInLeaJjo"
-summary: "Native Model Context Protocol (MCP) integration in AI agent frameworks, enabling agents to discover and use tools from thousands of MCP servers without custom adapters."
+- AIEF2025 - Building Agents at Cloud Scale — Antje Barth, AWS - https://www.youtube.com/watch?v=WJjInLeaJjo
+summary: Native Model Context Protocol (MCP) integration in AI agent frameworks, enabling agents to discover and use tools from thousands of MCP servers without custom adapters.
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/strands-agents|Strands Agents]]"
-    type: implements
-  - target: "[[entities/amazon-q-developer|Amazon Q Developer]]"
-    type: related_to
-  - target: "[[concepts/agent-tool-discovery|Agent Tool Discovery]]"
-    type: related_to
+- target: '[[entities/strands-agents|Strands Agents]]'
+  type: implements
+- target: '[[entities/amazon-q-developer|Amazon Q Developer]]'
+  type: related_to
+- target: '[[concepts/agent-tool-discovery|Agent Tool Discovery]]'
+  type: related_to
+category: concepts
 ---
 # MCP Native Integration
 

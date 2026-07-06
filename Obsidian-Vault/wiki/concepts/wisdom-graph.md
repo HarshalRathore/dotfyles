@@ -1,31 +1,32 @@
 ---
-title: "Wisdom Graph"
+title: Wisdom Graph
 tags:
-  - knowledge-graph
-  - architecture
-  - decision-making
-  - agent
-  - feedback-loop
+- knowledge-graph
+- architecture
+- decision-making
+- agent
+- feedback-loop
 aliases:
-  - Wisdom Engine
-  - Wisdom Graph State Machine
+- Wisdom Engine
+- Wisdom Graph State Machine
 sources:
-  - "[[sources/watchv=9aqovt8lnmi]]"
-summary: "A state-machine conceptual model for AI systems where Wisdom guides Decision-Making by analyzing Situations using Knowledge, Experience, and Insight — with a continuous feedback loop that enriches the system over time."
+- 'https://www.youtube.com/watch?v=9aqovt8lnmi'
+summary: A state-machine conceptual model for AI systems where Wisdom guides Decision-Making by analyzing Situations using Knowledge, Experience, and Insight — with a continuous feedback loop that enriches...
 provenance:
-  extracted: 0.60
-  inferred: 0.30
-  ambiguous: 0.10
+  extracted: 0.6
+  inferred: 0.3
+  ambiguous: 0.1
 base_confidence: 0.35
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
 relationships:
-  - target: "[[concepts/kag-knowledge-augmented-generation|KAG]]"
-    type: extends
-  - target: "[[concepts/knowledge-graph-ontology-design|Knowledge Graph Ontology Design]]"
-    type: related_to
+- target: '[[concepts/kag-knowledge-augmented-generation|KAG]]'
+  type: extends
+- target: '[[concepts/knowledge-graph-ontology-design|Knowledge Graph Ontology Design]]'
+  type: related_to
+category: concepts
 ---
 
 # Wisdom Graph

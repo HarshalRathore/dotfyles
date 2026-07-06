@@ -1,23 +1,26 @@
 ---
-title: "Design Four Pillars"
+title: Design Four Pillars
 tags:
-  - design-philosophy
-  - ux
-  - framework
-  - product-design
-aliases: [four pillars of design, speed trust accessibility light]
+- design-philosophy
+- ux
+- framework
+- product-design
+aliases:
+- four pillars of design
+- speed trust accessibility light
 sources:
-  - "[[sources/watchv=7e7evtcygcm]]"
-summary: "A design framework articulating four pillars of product experience: Speed (perceived performance), Trust (state communication, error prevention, affordances), Accessibility (inclusive design), and The Light (delight, care, and memorable moments)."
+- 'https://www.youtube.com/watch?v=7e7evtcygcm'
+summary: 'A design framework articulating four pillars of product experience: Speed (perceived performance), Trust (state communication, error prevention, affordances), Accessibility (inclusive design), and...'
 provenance:
   extracted: 0.65
-  inferred: 0.30
+  inferred: 0.3
   ambiguous: 0.05
 base_confidence: 0.55
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Design Four Pillars

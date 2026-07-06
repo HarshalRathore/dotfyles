@@ -1,16 +1,27 @@
 ---
-title: "Ralph Coding Technique"
+title: Ralph Coding Technique
 sources:
-  - "[[sources/ralph-ai-coding-technique_ghuntley]]"
+- '[[sources/ralph-ai-coding-technique_ghuntley]]'
 tags:
-  - "ai-assisted-development"
-  - "agent-loop"
-  - "vibe-coding"
+- ai-assisted-development
+- agent-loop
+- vibe-coding
 aliases:
-  - Ralph technique
-  - Ralph Wiggum coding
-  - AI recursive coding loop
-  - monolithic AI agent
+- Ralph technique
+- Ralph Wiggum coding
+- AI recursive coding loop
+- monolithic AI agent
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+created: '2026-07-04T15:08:34.914077+00:00'
+updated: '2026-07-04T15:08:34.914077+00:00'
+summary: Ralph Coding Technique
 ---
 # Ralph Coding Technique
 
@@ -155,7 +166,7 @@ ralph-ai-coding-technique_ghuntley
 ## Related
 
 - [[concepts/microservices-architecture]] — Ralph is the opposite: monolithic single-loop instead of multi-agent
-- [[web-youtube-com-watch-v-flutukqyhnq]] — Factory's Missions multi-agent system: the structured multi-agent alternative to Ralph's monolithic approach. Uses three specialized roles (orchestrator, workers, validators) instead of one agent per loop.
+- [[misc/web-youtube-com-watch-v-flutukqyhnq]] — Factory's Missions multi-agent system: the structured multi-agent alternative to Ralph's monolithic approach. Uses three specialized roles (orchestrator, workers, validators) instead of one agent per loop.
 - [[entities/geoffrey-huntley]] — Creator of the Ralph technique, author of Groundhog and CURSED
 
 See also: Groundhog (conversation-first specification technique), deliberate intentional practice (operator skill development framework) — both by the same author.

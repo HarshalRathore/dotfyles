@@ -1,25 +1,33 @@
 ---
 title: Intelligent Document Processing
 category: concepts
-tags: [document-processing, intelligent-document-processing, idp, classification, generative-ai, logistics, receipts]
-summary: "An AI application pattern where documents (receipts, bills of lading, invoices) are processed using a combination of custom classifiers and generative AI models for faster, more accurate results than human annotators."
+tags:
+- document-processing
+- intelligent-document-processing
+- idp
+- classification
+- generative-ai
+- logistics
+- receipts
+summary: An AI application pattern where documents (receipts, bills of lading, invoices) are processed using a combination of custom classifiers and generative AI models for faster, more accurate results th...
 provenance:
   extracted: 0.85
   inferred: 0.15
-  ambiguous: 0.00
-base_confidence: 0.80
+  ambiguous: 0.0
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/evals-as-moat]]"
-    type: related_to
-  - target: "[[concepts/classification-vs-generation]]"
-    type: related_to
-  - target: "[[concepts/ai-native-toolchain]]"
-    type: related_to
+- target: '[[concepts/evals-as-moat]]'
+  type: related_to
+- target: '[[concepts/classification-vs-generation]]'
+  type: related_to
+- target: '[[concepts/ai-native-toolchain]]'
+  type: related_to
+sources: []
 ---
 
 **Intelligent Document Processing (IDP)** is an AI application pattern where documents such as receipts, bills of lading, and invoices are processed using a combination of custom classifiers and generative AI models. This hybrid approach — classify first, then generate — produces faster and more accurate results than either approach alone, and can outperform human annotators. ^[extracted]

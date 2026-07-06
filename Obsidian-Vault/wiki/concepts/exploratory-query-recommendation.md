@@ -9,7 +9,7 @@ relationships:
   - target: "[[concepts/cold-start-recommendation]]"
     type: related_to
 sources:
-  - "[[sources/watchv=2vlcqd6igva]]"
+  - "https://www.youtube.com/watch?v=2vlcqd6igva"
 summary: "Using LLMs to generate natural language search queries that surface new content categories (e.g., podcasts, audiobooks) to users who would not otherwise discover them."
 provenance:
   extracted: 0.65

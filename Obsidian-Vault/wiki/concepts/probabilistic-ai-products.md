@@ -1,10 +1,18 @@
 ---
-title: "Probabilistic AI Products"
+title: Probabilistic AI Products
 category: concepts
-tags: [ai-products, probabilistic, non-deterministic, guardrails, user-experience]
-aliases: [probabilistic ai, probabilistic products, non-deterministic products]
+tags:
+- ai-products
+- probabilistic
+- non-deterministic
+- guardrails
+- user-experience
+aliases:
+- probabilistic ai
+- probabilistic products
+- non-deterministic products
 sources:
-  - "AIEF2025 - Why your product needs an AI product manager, and why it should be you — James Lowe, i.AI - https://www.youtube.com/watch?v=xzJdSi2Tsqw"
+- AIEF2025 - Why your product needs an AI product manager, and why it should be you — James Lowe, i.AI - https://www.youtube.com/watch?v=xzJdSi2Tsqw
 provenance:
   extracted: 0.7
   inferred: 0.3
@@ -16,12 +24,13 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/ai-product-manager]]"
-    type: managed_by
-  - target: "[[concepts/human-in-the-loop]]"
-    type: requires
-  - target: "[[concepts/ai-evaluation]]"
-    type: evaluated_by
+- target: '[[concepts/ai-product-manager]]'
+  type: managed_by
+- target: '[[concepts/human-in-the-loop]]'
+  type: requires
+- target: '[[concepts/ai-evaluation]]'
+  type: evaluated_by
+summary: Probabilistic AI Products
 ---
 
 # Probabilistic AI Products

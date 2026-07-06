@@ -1,10 +1,20 @@
 ---
 title: Olive
 category: entities
-tags: [startup, consumer-software, ai, lean-startup, tiny-teams, arr, profitability, olive-optimizer]
-aliases: [aleve, olive software]
+tags:
+- startup
+- consumer-software
+- ai
+- lean-startup
+- tiny-teams
+- arr
+- profitability
+- olive-optimizer
+aliases:
+- aleve
+- olive software
 sources:
-  - AIEF2025 - The New Lean Startup — Sid Bendre, Olive - https://www.youtube.com/watch?v=pQz-PgA1eJw
+- AIEF2025 - The New Lean Startup — Sid Bendre, Olive - https://www.youtube.com/watch?v=pQz-PgA1eJw
 provenance:
   extracted: 0.92
   inferred: 0.06
@@ -13,17 +23,18 @@ base_confidence: 0.93
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
-created: 2026-07-05T00:00:00Z
-updated: 2026-07-05T00:00:00Z
+created: 2026-07-05 00:00:00+00:00
+updated: 2026-07-05 00:00:00+00:00
 relationships:
-  - target: "[[entities/sid-bendre]]"
-    type: related_to
-  - target: "[[concepts/tiny-teams]]"
-    type: related_to
-  - target: "[[concepts/lean-startup-playbook]]"
-    type: related_to
-  - target: "[[concepts/harvester-cultivator-model]]"
-    type: related_to
+- target: '[[entities/sid-bendre]]'
+  type: related_to
+- target: '[[concepts/tiny-teams]]'
+  type: related_to
+- target: '[[concepts/lean-startup-playbook]]'
+  type: related_to
+- target: '[[concepts/harvester-cultivator-model]]'
+  type: related_to
+summary: Olive
 ---
 
 # Olive

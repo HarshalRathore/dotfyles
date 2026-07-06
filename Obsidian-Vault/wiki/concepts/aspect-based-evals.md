@@ -1,40 +1,41 @@
 ---
-title: "Aspect-Based Evals"
+title: Aspect-Based Evals
 category: concepts
 tags:
-  - evals
-  - evaluation
-  - aspect-based
-  - llm-as-judge
-  - code-based-evals
-  - human-in-the-loop
-  - enterprise-ai
+- evals
+- evaluation
+- aspect-based
+- llm-as-judge
+- code-based-evals
+- human-in-the-loop
+- enterprise-ai
 aliases:
-  - aspect-based evaluation
-  - component evals
-  - eval techniques
+- aspect-based evaluation
+- component evals
+- eval techniques
 sources:
-  - "AIEF2025 - How to Build Planning Agents without losing control - Yogendra Miraje, Factset - https://www.youtube.com/watch?v=sl3icG-IjHo"
-  - "AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY"
+- AIEF2025 - How to Build Planning Agents without losing control - Yogendra Miraje, Factset - https://www.youtube.com/watch?v=sl3icG-IjHo
+- AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/llm-evaluation-framework|LLM Evaluation Framework]]"
-    type: extends
-  - target: "[[concepts/blueprint-generator-pattern|Blueprint Generator Pattern]]"
-    type: used_by
-  - target: "[[concepts/llm-as-judge|LLM as Judge]]"
-    type: uses
-  - target: "[[concepts/human-seeded-evals|Human-Seeded Evals]]"
-    type: related_to
+- target: '[[concepts/llm-evaluation-framework|LLM Evaluation Framework]]'
+  type: extends
+- target: '[[concepts/blueprint-generator-pattern|Blueprint Generator Pattern]]'
+  type: used_by
+- target: '[[concepts/llm-as-judge|LLM as Judge]]'
+  type: uses
+- target: '[[concepts/human-seeded-evals|Human-Seeded Evals]]'
+  type: related_to
+summary: Aspect-Based Evals
 ---
 
 # Aspect-Based Evals

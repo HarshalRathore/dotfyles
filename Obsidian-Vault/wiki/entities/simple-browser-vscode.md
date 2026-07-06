@@ -1,22 +1,23 @@
 ---
-title: "Simple Browser in VS Code"
+title: Simple Browser in VS Code
 category: entities
 tags:
-  - vscode
-  - github-copilot
-  - browser-preview
-  - vibe-coding
+- vscode
+- github-copilot
+- browser-preview
+- vibe-coding
 sources:
-  - "[[sources/watchv=eafp8pds7h4]]"
+- 'https://www.youtube.com/watch?v=eafp8pds7h4'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.55
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Simple Browser in VS Code
 ---
 
 # Simple Browser in VS Code

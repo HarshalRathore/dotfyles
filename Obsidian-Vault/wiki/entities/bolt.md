@@ -1,32 +1,33 @@
 ---
-title: "Bolt"
+title: Bolt
 tags:
-  - ai
-  - coding-agent
-  - developer-tools
-  - aief2025
+- ai
+- coding-agent
+- developer-tools
+- aief2025
 aliases:
-  - Bolt
-  - Bolt.new
+- Bolt
+- Bolt.new
 relationships:
-  - target: "[[concepts/developer-outer-loop]]"
-    type: related_to
-  - target: "[[entities/cursor-ai]]"
-    type: related_to
-  - target: "[[entities/github-copilot]]"
-    type: related_to
+- target: '[[concepts/developer-outer-loop]]'
+  type: related_to
+- target: '[[entities/cursor-ai]]'
+  type: related_to
+- target: '[[entities/github-copilot]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=h6mrr5nbtza]]"
-summary: "AI coding tool by StackBlitz mentioned by Tomas Reimers alongside Cursor, Copilot, Windsurf, and V0 as part of the wave of AI tools accelerating code generation and creating the outer loop bottleneck."
+- 'https://www.youtube.com/watch?v=h6mrr5nbtza'
+summary: AI coding tool by StackBlitz mentioned by Tomas Reimers alongside Cursor, Copilot, Windsurf, and V0 as part of the wave of AI tools accelerating code generation and creating the outer loop bottleneck.
 provenance:
   extracted: 0.95
   inferred: 0.03
   ambiguous: 0.02
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+category: entities
 ---
 
 # Bolt

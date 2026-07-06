@@ -1,22 +1,22 @@
 ---
-title: "Domain Expert Prompt Engineering"
+title: Domain Expert Prompt Engineering
 category: concepts
 tags:
-  - prompt-engineering
-  - domain-experts
-  - human-in-the-loop
-  - tax
-  - enterprise-ai
+- prompt-engineering
+- domain-experts
+- human-in-the-loop
+- tax
+- enterprise-ai
 aliases:
-  - Domain Expert Prompt Engineering
-  - Expert Prompt Engineers
-  - Tax Analyst Prompt Engineering
+- Domain Expert Prompt Engineering
+- Expert Prompt Engineers
+- Tax Analyst Prompt Engineering
 sources:
-  - "AIEF2025 - How Intuit uses LLMs to explain taxes to millions of taxpayers - Jaspreet Singh, Intuit - https://www.youtube.com/watch?v=_zl_zimMRak"
-summary: "Using domain experts (tax analysts) as prompt engineers, bridging the gap between regulatory knowledge and ML engineering. This allows data science teams to focus on metrics and datasets while experts handle prompt quality."
+- AIEF2025 - How Intuit uses LLMs to explain taxes to millions of taxpayers - Jaspreet Singh, Intuit - https://www.youtube.com/watch?v=_zl_zimMRak
+summary: Using domain experts (tax analysts) as prompt engineers, bridging the gap between regulatory knowledge and ML engineering. This allows data science teams to focus on metrics and datasets while expe...
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.85
 lifecycle: draft
@@ -25,10 +25,10 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/llm-evaluation-framework|LLM Evaluation Framework]]"
-    type: part_of
-  - target: "[[concepts/llm-as-judge|LLM as Judge]]"
-    type: relates_to
+- target: '[[concepts/llm-evaluation-framework|LLM Evaluation Framework]]'
+  type: part_of
+- target: '[[concepts/llm-as-judge|LLM as Judge]]'
+  type: relates_to
 ---
 
 # Domain Expert Prompt Engineering

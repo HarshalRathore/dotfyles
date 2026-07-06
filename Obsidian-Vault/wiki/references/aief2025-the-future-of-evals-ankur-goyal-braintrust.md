@@ -12,7 +12,7 @@ tags:
   - automated-evals
 aliases: [AIEF2025 Ankur Goyal evals, Future of Evals Braintrust, Braintrust Loop talk]
 sources:
-  - "[[sources/watchv=mc55hdwlq4o]]"
+  - "https://www.youtube.com/watch?v=mc55hdwlq4o"
   - "AIEF2025 - Five hard earned lessons about Evals — Ankur Goyal, Braintrust - https://www.youtube.com/watch?v=a4BV0gGmXgA"
 summary: "AIEF2025 talk by Ankur Goyal on the evolution of AI evaluation from manual dashboard review to automated optimization via Loop, Braintrust's agent built on frontier model capabilities."
 provenance:

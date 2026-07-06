@@ -1,12 +1,30 @@
 ---
-type: "concept"
-title: "Scheduler"
-created: [datetime.date(2026, 6, 30)]
-updated: [datetime.date(2026, 6, 30)]
-sources: ["[[sources/static-pod_d72e06]]", "[[sources/resource-requests-&-limits_4bd978]]", "[[sources/main-kubernetes-components_82b036]]"]
+type: concept
+title: Scheduler
+created:
+- datetime.date(2026
+- 6
+- 30)
+updated:
+- datetime.date(2026
+- 6
+- 30)
+sources:
+- '[[sources/static-pod_d72e06]]'
+- '[[sources/resource-requests-&-limits_4bd978]]'
+- '[[sources/main-kubernetes-components_82b036]]'
 tags:
-  - control-plane
-  - scheduling
+- control-plane
+- scheduling
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Scheduler
 ---
 ## Description
 The scheduler is a central decision-maker in the Kubernetes control plane that watches the API server for Pods with an empty `nodeName` field. It filters Nodes based on resource availability and constraints like node selectors, affinities, and taints/tolerations, then ranks the feasible Nodes to select the most optimal one. It uses resource requests from pods to filter and rank nodes, ensuring optimal placement for performance and stability; each container's `resources.requests` tells the scheduler what minimum CPU/memory it needs, and nodes lacking these requested resources are filtered out, leaving pods in a `Pending` state if none qualify. This selection process ensures efficient resource utilization and workload distribution across the cluster. While essential for distributing standard Pods, it has no effect on static Pods, which bypass the entire scheduling process and are managed directly by the kubelet. It is typically deployed as a static Pod on control-plane nodes during cluster bootstrapping.

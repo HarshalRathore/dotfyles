@@ -1,27 +1,34 @@
 ---
 title: Engagement Data
 category: concepts
-tags: [data, engagement, search, ml, e-commerce, cold-start, data-sparsity]
-summary: "User interaction signals (clicks, purchases, views) used to train search and recommendation models — the core data source that traditional ML depends on, and the source of cold-start and tail-query challenges."
+tags:
+- data
+- engagement
+- search
+- ml
+- e-commerce
+- cold-start
+- data-sparsity
+summary: User interaction signals (clicks, purchases, views) used to train search and recommendation models — the core data source that traditional ML depends on, and the source of cold-start and tail-query...
 sources:
-  - "[[sources/watchv=pjavhm_3ljg]]"
+- 'https://www.youtube.com/watch?v=pjavhm_3ljg'
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 relationships:
-  - target: "[[concepts/cold-start-recommendation]]"
-    type: related_to
-  - target: "[[concepts/tail-query-handling]]"
-    type: related_to
-  - target: "[[concepts/data-flywheel]]"
-    type: related_to
-  - target: "[[concepts/llm-user-behavior-alignment]]"
-    type: related_to
+- target: '[[concepts/cold-start-recommendation]]'
+  type: related_to
+- target: '[[concepts/tail-query-handling]]'
+  type: related_to
+- target: '[[concepts/data-flywheel]]'
+  type: related_to
+- target: '[[concepts/llm-user-behavior-alignment]]'
+  type: related_to
 created: 2026-07-04
 updated: 2026-07-04
 ---

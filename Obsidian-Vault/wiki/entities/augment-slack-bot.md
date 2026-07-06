@@ -1,18 +1,18 @@
 ---
-title: "Augment Slack Bot"
+title: Augment Slack Bot
 tags:
-  - ai-agents
-  - slack
-  - bot
-  - augment-code
-  - aief2025
+- ai-agents
+- slack
+- bot
+- augment-code
+- aief2025
 aliases:
-  - augment slack bot
-  - Augment bot
+- augment slack bot
+- Augment bot
 sources:
-  - "AIEF2025 - Mentoring the Machine — Eric Hou, Augment Code - https://www.youtube.com/watch?v=Zniw5c9_jx8"
+- AIEF2025 - Mentoring the Machine — Eric Hou, Augment Code - https://www.youtube.com/watch?v=Zniw5c9_jx8
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.88
@@ -21,12 +21,17 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: [[entities/augment-code|Augment Code]]
-    type: product_of
-  - target: [[concepts/knowledge-infrastructure|Knowledge Infrastructure]]
-    type: implements
-  - target: [[concepts/parallel-ai-workstreams|Parallel AI Workstreams]]
-    type: enables
+- target:
+  - - entities/augment-code|Augment Code
+  type: product_of
+- target:
+  - - concepts/knowledge-infrastructure|Knowledge Infrastructure
+  type: implements
+- target:
+  - - concepts/parallel-ai-workstreams|Parallel AI Workstreams
+  type: enables
+category: entities
+summary: Augment Slack Bot
 ---
 
 # Augment Slack Bot

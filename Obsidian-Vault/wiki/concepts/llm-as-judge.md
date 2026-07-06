@@ -1,35 +1,36 @@
 ---
-title: "LLM as Judge"
+title: LLM as Judge
 category: concepts
 tags:
-  - llm
-  - evaluation
-  - automated-eval
-  - llm-as-judge
-  - golden-dataset
+- llm
+- evaluation
+- automated-eval
+- llm-as-judge
+- golden-dataset
 aliases:
-  - LLM Judge
-  - Judge LLM
-  - LLM-as-a-Judge
+- LLM Judge
+- Judge LLM
+- LLM-as-a-Judge
 sources:
-  - "AIEF2025 - How Intuit uses LLMs to explain taxes to millions of taxpayers - Jaspreet Singh, Intuit - https://www.youtube.com/watch?v=_zl_zimMRak"
-  - "AIEF2025 - Mentoring the Machine — Eric Hou, Augment Code - https://www.youtube.com/watch?v=Zniw5c9_jx8"
-  - "AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY"
+- AIEF2025 - How Intuit uses LLMs to explain taxes to millions of taxpayers - Jaspreet Singh, Intuit - https://www.youtube.com/watch?v=_zl_zimMRak
+- AIEF2025 - Mentoring the Machine — Eric Hou, Augment Code - https://www.youtube.com/watch?v=Zniw5c9_jx8
+- AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY
 provenance:
-  extracted: 0.70
-  inferred: 0.20
-  ambiguous: 0.10
-base_confidence: 0.70
+  extracted: 0.7
+  inferred: 0.2
+  ambiguous: 0.1
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/llm-evaluation-framework|LLM Evaluation Framework]]"
-    type: part_of
-  - target: "[[concepts/rag-evaluation|RAG Evaluation]]"
-    type: relates_to
+- target: '[[concepts/llm-evaluation-framework|LLM Evaluation Framework]]'
+  type: part_of
+- target: '[[concepts/rag-evaluation|RAG Evaluation]]'
+  type: relates_to
+summary: LLM as Judge
 ---
 
 # LLM as Judge

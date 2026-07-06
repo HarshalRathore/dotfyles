@@ -1,37 +1,38 @@
 ---
-title: "VS Code"
+title: VS Code
 category: entities
 tags:
-  - entity
-  - tool
-  - ide
-  - microsoft
-  - mcp
-  - github-copilot
+- entity
+- tool
+- ide
+- microsoft
+- mcp
+- github-copilot
 aliases:
-  - visual-studio-code
-  - vscode
+- visual-studio-code
+- vscode
 sources:
-  - "[[sources/watchv=rkvilz06y08]]"
-  - "[[sources/watchv=full-spec-mcp]]"
-  - "AIEF2025 - Vibe Coding at Scale: Customizing AI Assistants for Enterprise Environments - Harald Kirshner, - https://www.youtube.com/watch?v=i1uPAN6uW4s"
+- 'https://www.youtube.com/watch?v=rkvilz06y08'
+- 'https://www.youtube.com/watch?v=full-spec-mcp'
+- 'AIEF2025 - Vibe Coding at Scale: Customizing AI Assistants for Enterprise Environments - Harald Kirshner, - https://www.youtube.com/watch?v=i1uPAN6uW4s'
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/microsoft|Microsoft]]"
-    type: developed-by
-  - target: "[[entities/github-copilot|GitHub Copilot]]"
-    type: hosts
-  - target: "[[concepts/model-context-protocol|MCP]]"
-    type: integrates
+- target: '[[entities/microsoft|Microsoft]]'
+  type: developed-by
+- target: '[[entities/github-copilot|GitHub Copilot]]'
+  type: hosts
+- target: '[[concepts/model-context-protocol|MCP]]'
+  type: integrates
+summary: VS Code
 ---
 
 # VS Code

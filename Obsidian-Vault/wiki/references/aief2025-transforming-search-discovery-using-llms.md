@@ -4,7 +4,7 @@ category: references
 tags: [search, llm, e-commerce, instacart, query-understanding, query-rewriting, taxonomy, multi-label-classification, tail-queries, aief2025]
 summary: "Instacart search team presents how LLMs transformed their query understanding — category classification and query rewriting — with 18pp precision and 70pp recall gains on tail queries."
 sources:
-  - "[[sources/watchv=pjavhm_3ljg]]"
+  - "https://www.youtube.com/watch?v=pjavhm_3ljg"
 provenance:
   extracted: 0.90
   inferred: 0.08

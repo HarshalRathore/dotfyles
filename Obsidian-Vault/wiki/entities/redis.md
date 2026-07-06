@@ -4,7 +4,7 @@ category: entities
 tags: [in-memory-datastore, distributed-queue, cache, key-value-store, ml-infrastructure]
 summary: In-memory data store used by Luma AI as the distributed queue backbone for their decoupled CPU/GPU inference serving architecture.
 sources:
-  - "[[sources/watchv=ey4o9m6aswi]]"
+  - "https://www.youtube.com/watch?v=ey4o9m6aswi"
 provenance:
   extracted: 0.90
   inferred: 0.08
@@ -16,11 +16,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[decoupled-architecture]]"
+  - target: "[[concepts/decoupled-architecture]]"
     type: uses
-  - target: "[[distributed-inference]]"
+  - target: "[[concepts/distributed-inference]]"
     type: related_to
-  - target: "[[inference-serving]]"
+  - target: "[[concepts/inference-serving]]"
     type: related_to
 ---
 

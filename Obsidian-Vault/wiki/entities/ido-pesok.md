@@ -1,31 +1,32 @@
 ---
-title: "Ido Pesok"
+title: Ido Pesok
 tags:
-  - person
-  - engineer
-  - vercel
-  - aief2025
+- person
+- engineer
+- vercel
+- aief2025
 relationships:
-  - target: "[[entities/vercel]]"
-    type: works_at
-  - target: "[[entities/v0]]"
-    type: related_to
-  - target: "[[concepts/eval-ingredients-task-dataset-score]]"
-    type: implements
-  - target: "[[concepts/basketball-court-metaphor]]"
-    type: introduces
+- target: '[[entities/vercel]]'
+  type: works_at
+- target: '[[entities/v0]]'
+  type: related_to
+- target: '[[concepts/eval-ingredients-task-dataset-score]]'
+  type: implements
+- target: '[[concepts/basketball-court-metaphor]]'
+  type: introduces
 sources:
-  - "[[sources/watchv=l8ooyedi_ls]]"
-summary: "Engineer at Vercel working on vZero, a full-stack vibe coding platform. Spoke at AIEF2025 on application-layer evaluation practices."
+- 'https://www.youtube.com/watch?v=l8ooyedi_ls'
+summary: Engineer at Vercel working on vZero, a full-stack vibe coding platform. Spoke at AIEF2025 on application-layer evaluation practices.
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-05
+category: entities
 ---
 
 # Ido Pesok

@@ -1,17 +1,17 @@
 ---
-title: "Bedrock Platform Capabilities"
+title: Bedrock Platform Capabilities
 category: concepts
 tags:
-  - aws
-  - bedrock
-  - ai-platform
-  - generative-ai
-  - rag
-  - fine-tuning
+- aws
+- bedrock
+- ai-platform
+- generative-ai
+- rag
+- fine-tuning
 sources:
-  - "[[sources/watchv=rofhhjmumcc]]"
+- 'https://www.youtube.com/watch?v=rofhhjmumcc'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.82
@@ -19,6 +19,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Bedrock Platform Capabilities
 ---
 # Bedrock Platform Capabilities
 

@@ -1,18 +1,18 @@
 ---
-title: "Neo4j Browser"
+title: Neo4j Browser
 tags:
-  - tool
-  - neo4j
-  - visualization
-  - graph-database
-  - aief2025
+- tool
+- neo4j
+- visualization
+- graph-database
+- aief2025
 aliases:
-  - Neo4j Browser Preview
+- Neo4j Browser Preview
 sources:
-  - "[[sources/watchv=j-9ebjbxcbg]]"
-summary: "Neo4j's web-based graph visualization tool (browser.neo4j.io/preview) for exploring and visualizing property graphs in real-time during workshops and development."
+- 'https://www.youtube.com/watch?v=j-9ebjbxcbg'
+summary: Neo4j's web-based graph visualization tool (browser.neo4j.io/preview) for exploring and visualizing property graphs in real-time during workshops and development.
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.55
@@ -21,10 +21,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/neo4j|Neo4j]]"
-    type: product_of
-  - target: "[[concepts/property-graph-model|Property Graph Model]]"
-    type: visualizes
+- target: '[[entities/neo4j|Neo4j]]'
+  type: product_of
+- target: '[[concepts/property-graph-model|Property Graph Model]]'
+  type: visualizes
+category: entities
 ---
 
 # Neo4j Browser

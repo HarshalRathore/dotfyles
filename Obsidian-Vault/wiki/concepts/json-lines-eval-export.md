@@ -1,23 +1,26 @@
 ---
-title: "JSON Lines Evaluation Export"
+title: JSON Lines Evaluation Export
 category: concepts
 tags:
-  - evaluation
-  - data-format
-  - json-lines
-  - export
-  - ci-cd
-  - automation
-aliases: [eval export, JSONL eval, evaluation dataset export]
+- evaluation
+- data-format
+- json-lines
+- export
+- ci-cd
+- automation
+aliases:
+- eval export
+- JSONL eval
+- evaluation dataset export
 relationships:
-  - target: "[[concepts/agent-evaluation-pipeline]]"
-    type: implements
-  - target: "[[concepts/manual-vs-automated-evals]]"
-    type: supports
+- target: '[[concepts/agent-evaluation-pipeline]]'
+  type: implements
+- target: '[[concepts/manual-vs-automated-evals]]'
+  type: supports
 sources:
-  - "[[sources/watchv=j4vpq2i0qze]]"
+- 'https://www.youtube.com/watch?v=j4vpq2i0qze'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -25,6 +28,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: JSON Lines Evaluation Export
 ---
 
 # JSON Lines Evaluation Export

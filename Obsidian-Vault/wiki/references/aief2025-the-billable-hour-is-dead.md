@@ -1,30 +1,31 @@
 ---
-title: "The Billable Hour is Dead; Long Live the Billable Hour"
+title: The Billable Hour is Dead; Long Live the Billable Hour
 category: references
 tags:
-  - aief2025
-  - professional-services
-  - ai-adoption
-  - consulting
-  - alix-partners
+- aief2025
+- professional-services
+- ai-adoption
+- consulting
+- alix-partners
 sources:
-  - "AIEF2025 - The Billable Hour is Dead; Long Live the Billable Hour — Kevin Madura + Mo Bhasin, Alix Partners - https://www.youtube.com/watch?v=Wv1tAxKYLeE"
+- AIEF2025 - The Billable Hour is Dead; Long Live the Billable Hour — Kevin Madura + Mo Bhasin, Alix Partners - https://www.youtube.com/watch?v=Wv1tAxKYLeE
 relationships:
-  - target: "[[entities/kevin-madura|Kevin Madura]]"
-    type: related_to
-  - target: "[[entities/mo-bhasin|Mo Bhasin]]"
-    type: related_to
-  - target: "[[entities/alix-partners|Alix Partners]]"
-    type: related_to
+- target: '[[entities/kevin-madura|Kevin Madura]]'
+  type: related_to
+- target: '[[entities/mo-bhasin|Mo Bhasin]]'
+  type: related_to
+- target: '[[entities/alix-partners|Alix Partners]]'
+  type: related_to
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.07
   ambiguous: 0.03
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: The Billable Hour is Dead; Long Live the Billable Hour
 ---
 
 # The Billable Hour is Dead; Long Live the Billable Hour

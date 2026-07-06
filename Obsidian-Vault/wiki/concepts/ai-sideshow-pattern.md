@@ -24,7 +24,7 @@ The **AI sideshow pattern** describes the phenomenon where AI features are added
 
 ## The Excalidraw Example
 
-[[Christopher Chedeau|christopher-chedeau]] described this pattern at AIEF2025 through his team's AI integration experiments. The File AI model that transformed Excalidraw diagrams into photorealistic beach scenes was "mind-blowing" from a technical standpoint — but people don't draw realistic images on Excalidraw. The feature was impressive but irrelevant to how the product was actually used.
+[[entities/christopher-chedeau|christopher-chedeau]] described this pattern at AIEF2025 through his team's AI integration experiments. The File AI model that transformed Excalidraw diagrams into photorealistic beach scenes was "mind-blowing" from a technical standpoint — but people don't draw realistic images on Excalidraw. The feature was impressive but irrelevant to how the product was actually used.
 
 ## The Degradation Principle
 

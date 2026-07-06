@@ -1,17 +1,17 @@
 ---
-title: "Agent Workflow Loop"
+title: Agent Workflow Loop
 category: concepts
 tags:
-  - agent-workflow
-  - engineering-methodology
-  - ai-native
-  - aief2025
+- agent-workflow
+- engineering-methodology
+- ai-native
+- aief2025
 aliases:
-  - agent workflow loop
-  - plan-delegate-assess-codify
-summary: "The four-step loop (plan, delegate, assess, codify) that structures how engineers work with AI agents, forming the operational core of compounding engineering."
+- agent workflow loop
+- plan-delegate-assess-codify
+summary: The four-step loop (plan, delegate, assess, codify) that structures how engineers work with AI agents, forming the operational core of compounding engineering.
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -21,14 +21,15 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/compounding-engineering|Compounding Engineering]]"
-    type: implements
-  - target: "[[concepts/tacit-knowledge-codification|Tacit Knowledge Codification]]"
-    type: extends
-  - target: "[[concepts/agent-loop|Agent Loop]]"
-    type: related_to
-  - target: "[[concepts/agent-evaluations|Agent Evaluations]]"
-    type: related_to
+- target: '[[concepts/compounding-engineering|Compounding Engineering]]'
+  type: implements
+- target: '[[concepts/tacit-knowledge-codification|Tacit Knowledge Codification]]'
+  type: extends
+- target: '[[concepts/agent-loop|Agent Loop]]'
+  type: related_to
+- target: '[[concepts/agent-evaluations|Agent Evaluations]]'
+  type: related_to
+sources: []
 ---
 
 # Agent Workflow Loop

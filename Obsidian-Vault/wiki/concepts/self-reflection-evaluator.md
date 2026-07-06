@@ -1,24 +1,25 @@
 ---
-title: "Self-Reflection Evaluator-Optimizer"
+title: Self-Reflection Evaluator-Optimizer
 tags:
-  - agent
-  - ai
-  - architecture
-  - design-pattern
-  - evaluation
-  - loop
+- agent
+- ai
+- architecture
+- design-pattern
+- evaluation
+- loop
 sources:
-  - "[[sources/watchv=72xxwkd8jrk]]"
-summary: "Agent design pattern where an LLM evaluates its own output against the original goal, generates feedback, and iteratively improves — implemented as a generate-evaluate-feedback loop."
+- 'https://www.youtube.com/watch?v=72xxwkd8jrk'
+summary: Agent design pattern where an LLM evaluates its own output against the original goal, generates feedback, and iteratively improves — implemented as a generate-evaluate-feedback loop.
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Self-Reflection Evaluator-Optimizer

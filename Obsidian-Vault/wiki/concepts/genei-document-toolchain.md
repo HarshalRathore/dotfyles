@@ -1,15 +1,15 @@
 ---
-title: "GenEI Document Toolchain"
+title: GenEI Document Toolchain
 category: concepts
 tags:
-  - genai
-  - document-parsing
-  - enterprise-data
-  - llamaindex
-  - toolchain
+- genai
+- document-parsing
+- enterprise-data
+- llamaindex
+- toolchain
 summary: LlamaIndex's GenEI-native document toolchain — a cloud service providing document parsing, extraction, indexing, and tool interfaces for AI agents to interact with enterprise documents.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.65
@@ -19,12 +19,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/document-toolbox]]"
-    type: implements
-  - target: "[[entities/llamaindex]]"
-    type: implements
-  - target: "[[entities/llamaparse]]"
-    type: implements
+- target: '[[concepts/document-toolbox]]'
+  type: implements
+- target: '[[entities/llamaindex]]'
+  type: implements
+- target: '[[entities/llamaparse]]'
+  type: implements
+sources: []
 ---
 
 # GenEI Document Toolchain

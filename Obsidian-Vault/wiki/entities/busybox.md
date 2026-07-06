@@ -1,17 +1,26 @@
 ---
 type: entity
-title: "busybox"
+title: busybox
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/init-containers_798910]]"
+- '[[sources/init-containers_798910]]'
 tags:
-  - product
+- product
 aliases:
-  - Busy Box
-  - bb
+- Busy Box
+- bb
+category: entities
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: busybox
 ---
 # busybox
 

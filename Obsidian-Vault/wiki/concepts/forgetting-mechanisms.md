@@ -4,7 +4,7 @@ category: concepts
 tags: [agent-memory, forgetting, memory-management, deletion, memory-research]
 summary: "Research direction into implementing forgetting mechanisms in agent memory systems — a more nuanced approach to memory removal than simple deletion, inspired by human memory dynamics."
 sources:
-  - "[[sources/watchv=w2hvdb4jbjs]]"
+  - "https://www.youtube.com/watch?v=w2hvdb4jbjs"
 provenance:
   extracted: 0.75
   inferred: 0.20

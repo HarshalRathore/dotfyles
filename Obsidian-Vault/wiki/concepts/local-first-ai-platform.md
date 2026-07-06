@@ -1,17 +1,21 @@
 ---
-title: "Local-First AI Platform"
+title: Local-First AI Platform
 tags:
-  - concept
-  - architecture
-  - edge
-  - deployment
-  - infrastructure
-  - microsoft
-aliases: [cloud-to-edge AI, local AI deployment, edge agent runtime, local-first agents]
+- concept
+- architecture
+- edge
+- deployment
+- infrastructure
+- microsoft
+aliases:
+- cloud-to-edge AI
+- local AI deployment
+- edge agent runtime
+- local-first agents
 sources:
-  - "[[sources/watchv=7hrw6rtxahc]]"
-  - "AIEF2025 - Foundry Local: Cutting-Edge AI experiences on device with ONNX Runtime/Olive — Emma Ning, Microsoft - https://www.youtube.com/watch?v=l614N5W60ls"
-summary: "Architectural principle that local execution must be a core platform capability, not a fork — agents created in the cloud should run and reason locally on devices for latency, privacy, and offline scenarios."
+- 'https://www.youtube.com/watch?v=7hrw6rtxahc'
+- 'AIEF2025 - Foundry Local: Cutting-Edge AI experiences on device with ONNX Runtime/Olive — Emma Ning, Microsoft - https://www.youtube.com/watch?v=l614N5W60ls'
+summary: Architectural principle that local execution must be a core platform capability, not a fork — agents created in the cloud should run and reason locally on devices for latency, privacy, and offline...
 provenance:
   extracted: 0.72
   inferred: 0.23
@@ -21,6 +25,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-04
+category: concepts
 ---
 
 # Local-First AI Platform

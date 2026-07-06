@@ -1,18 +1,18 @@
 ---
-title: "RAG as Managed Service"
+title: RAG as Managed Service
 category: concepts
 tags:
-  - rag
-  - managed-service
-  - abstraction
-  - enterprise-ai
-  - platform
-summary: "The philosophy that RAG should be treated as a managed service — consumers don't build their own vector databases or train their own LLMs, they use a platform that handles extraction, retrieval, and generation."
+- rag
+- managed-service
+- abstraction
+- enterprise-ai
+- platform
+summary: The philosophy that RAG should be treated as a managed service — consumers don't build their own vector databases or train their own LLMs, they use a platform that handles extraction, retrieval, an...
 sources:
-  - "AIEF2025 - Forget RAG Pipelines—Build Production Ready Agents in 15 Mins: Nina Lopatina, Rajiv Shah, Contextual - https://www.youtube.com/watch?v=lArgRvBV3tQ"
+- 'AIEF2025 - Forget RAG Pipelines—Build Production Ready Agents in 15 Mins: Nina Lopatina, Rajiv Shah, Contextual - https://www.youtube.com/watch?v=lArgRvBV3tQ'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.75
 lifecycle: draft
@@ -21,14 +21,14 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/contextual-ai]]"
-    type: related_to
-  - target: "[[concepts/rag-pipeline-architecture]]"
-    type: related_to
-  - target: "[[concepts/production-rag-complexity]]"
-    type: related_to
-  - target: "[[concepts/contextual-modular-rag]]"
-    type: related_to
+- target: '[[entities/contextual-ai]]'
+  type: related_to
+- target: '[[concepts/rag-pipeline-architecture]]'
+  type: related_to
+- target: '[[concepts/production-rag-complexity]]'
+  type: related_to
+- target: '[[concepts/contextual-modular-rag]]'
+  type: related_to
 ---
 
 # RAG as Managed Service

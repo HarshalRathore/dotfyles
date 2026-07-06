@@ -1,23 +1,36 @@
 ---
 title: Seamless AI
-tags: [ai, ux, product-design, hidden-ai, pragmatic-ai]
-aliases: [hidden ai, seamless ai, pragmatic ai]
-summary: "Design philosophy where AI features are integrated so naturally into a product that users don't realize AI is involved — contrasting with 'AI-in-your-face' approaches that prominently brand AI features."
-sources: ["[[sources/aief2025-building-the-platform-for-agent-coordination-—-tom-moor]]", "[[sources/watchv=ug9iadmi2dg]]"]
+tags:
+- ai
+- ux
+- product-design
+- hidden-ai
+- pragmatic-ai
+aliases:
+- hidden ai
+- seamless ai
+- pragmatic ai
+summary: Design philosophy where AI features are integrated so naturally into a product that users don't realize AI is involved — contrasting with 'AI-in-your-face' approaches that prominently brand AI feat...
+sources:
+- '[[sources/aief2025-building-the-platform-for-agent-coordination-—-tom-moor]]'
+- 'https://www.youtube.com/watch?v=ug9iadmi2dg'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.85
 lifecycle: draft
 tier: supporting
-created: 2026-07-04T00:00:00Z
-updated: 2026-07-04T00:00:00Z
+created: 2026-07-04 00:00:00+00:00
+updated: 2026-07-04 00:00:00+00:00
 relationships:
-  - target: [[concepts/ai-hide-from-user|AI Hide from User]]
-    type: extends
-  - target: [[concepts/ai-sideshow|AI as Sideshow]]
-    type: related_to
+- target:
+  - - concepts/ai-hide-from-user|AI Hide from User
+  type: extends
+- target:
+  - - concepts/ai-sideshow|AI as Sideshow
+  type: related_to
+category: concepts
 ---
 
 # Seamless AI

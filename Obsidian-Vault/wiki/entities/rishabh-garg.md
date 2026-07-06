@@ -1,12 +1,18 @@
 ---
-title: "Rishabh Garg"
+title: Rishabh Garg
 category: entities
-tags: [person, robotics, tesla, optimus, software-engineering]
-aliases: [Rishabh Garg Tesla]
+tags:
+- person
+- robotics
+- tesla
+- optimus
+- software-engineering
+aliases:
+- Rishabh Garg Tesla
 sources:
-  - "AIEF2025 - Rishabh Garg, Tesla Optimus — Challenges in High Performance Robotics Systems - https://www.youtube.com/watch?v=bCGbuyv8PMk"
+- AIEF2025 - Rishabh Garg, Tesla Optimus — Challenges in High Performance Robotics Systems - https://www.youtube.com/watch?v=bCGbuyv8PMk
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
 base_confidence: 0.85
@@ -16,12 +22,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/tesla|Tesla]]"
-    type: works_at
-  - target: "[[entities/tesla-optimus|Tesla Optimus]]"
-    type: works_on
-  - target: "[[concepts/software-vs-policy-debugging|Software vs Policy Debugging]]"
-    type: author_of
+- target: '[[entities/tesla|Tesla]]'
+  type: works_at
+- target: '[[entities/tesla-optimus|Tesla Optimus]]'
+  type: works_on
+- target: '[[concepts/software-vs-policy-debugging|Software vs Policy Debugging]]'
+  type: author_of
+summary: Rishabh Garg
 ---
 
 # Rishabh Garg

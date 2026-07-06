@@ -1,19 +1,21 @@
 ---
-title: "E-commerce Evolution"
+title: E-commerce Evolution
 category: concepts
 tags:
-  - e-commerce
-  - retail
-  - digitization
-  - browsing
-  - commerce-history
-aliases: [evolution of stores, store evolution]
+- e-commerce
+- retail
+- digitization
+- browsing
+- commerce-history
+aliases:
+- evolution of stores
+- store evolution
 sources:
-  - "AIEF2025 - Machines of Buying and Selling Grace - Adam Behrens, New Generation - https://www.youtube.com/watch?v=zlZz0mDF2eg"
+- AIEF2025 - Machines of Buying and Selling Grace - Adam Behrens, New Generation - https://www.youtube.com/watch?v=zlZz0mDF2eg
 provenance:
-  extracted: 0.90
-  inferred: 0.10
-  ambiguous: 0.00
+  extracted: 0.9
+  inferred: 0.1
+  ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-05
@@ -21,12 +23,13 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/agentic-commerce|Agentic Commerce]]"
-    type: extends
-  - target: "[[entities/walmart|Walmart]]"
-    type: relates-to
-  - target: "[[entities/home-depot|Home Depot]]"
-    type: relates-to
+- target: '[[concepts/agentic-commerce|Agentic Commerce]]'
+  type: extends
+- target: '[[entities/walmart|Walmart]]'
+  type: relates-to
+- target: '[[entities/home-depot|Home Depot]]'
+  type: relates-to
+summary: E-commerce Evolution
 ---
 
 # E-commerce Evolution

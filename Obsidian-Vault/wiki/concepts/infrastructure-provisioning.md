@@ -1,17 +1,26 @@
 ---
 type: concept
-title: "Infrastructure Provisioning"
+title: Infrastructure Provisioning
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/introduction_804367]]"
+- '[[sources/introduction_804367]]'
 tags:
-  - deployment
+- deployment
 aliases:
-  - Infra Provisioning
-  - Infrastructure Setup
+- Infra Provisioning
+- Infrastructure Setup
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Infrastructure Provisioning
 ---
 # Infrastructure Provisioning
 
@@ -33,7 +42,7 @@ The primary application detailed in the source is setting up the foundational no
 - [[concepts/vpc]]
 - [[concepts/aws-free-tier]]
 - [[concepts/control-plane-node]]
-- [[worker-node]]
+- [[concepts/worker-node]]
 
 ## Related Entities
 - [[entities/ec2]]

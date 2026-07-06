@@ -1,26 +1,36 @@
 ---
 title: Temporal Workflow Orchestration
 category: concepts
-tags: [ai, architecture, orchestration, reliability, workflow, distributed-systems, agent-architecture]
-aliases: [workflow orchestration, Temporal workflow, durable execution]
+tags:
+- ai
+- architecture
+- orchestration
+- reliability
+- workflow
+- distributed-systems
+- agent-architecture
+aliases:
+- workflow orchestration
+- Temporal workflow
+- durable execution
 relationships:
-  - target: "[[concepts/agent-reliability-challenge]]"
-    type: related_to
-  - target: "[[concepts/events-wrong-abstraction-thesis]]"
-    type: replaces
-  - target: "[[concepts/agentic-architecture]]"
-    type: extends
+- target: '[[concepts/agent-reliability-challenge]]'
+  type: related_to
+- target: '[[concepts/events-wrong-abstraction-thesis]]'
+  type: replaces
+- target: '[[concepts/agentic-architecture]]'
+  type: extends
 sources:
-  - "[[sources/watchv=1izywsokr9s]]"
-summary: "A workflow abstraction pattern for AI agents where complex multi-step processes are coded as durable workflows with signals, queries, activities, and full execution history — all reliability concerns handled transparently by the platform."
+- 'https://www.youtube.com/watch?v=1izywsokr9s'
+summary: A workflow abstraction pattern for AI agents where complex multi-step processes are coded as durable workflows with signals, queries, activities, and full execution history — all reliability concer...
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.55
 lifecycle: draft
 tier: supporting
-created: 2026-07-03T00:00:00Z
+created: 2026-07-03 00:00:00+00:00
 updated: 2026-07-04
 ---
 

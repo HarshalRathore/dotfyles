@@ -1,23 +1,36 @@
 ---
 title: AI Skunkworks
-tags: [ai-strategy, skunkworks, internal-ai, team-building, pragmatic-ai]
-aliases: [ai skunkworks, internal ai team, ai lab]
-summary: "An internal AI team formed to experiment and build AI capabilities without the constraints of product timelines — often starting with no AI experience and learning by doing."
-sources: ["[[sources/aief2025-building-the-platform-for-agent-coordination-—-tom-moor]]", "[[sources/watchv=ug9iadmi2dg]]"]
+tags:
+- ai-strategy
+- skunkworks
+- internal-ai
+- team-building
+- pragmatic-ai
+aliases:
+- ai skunkworks
+- internal ai team
+- ai lab
+summary: An internal AI team formed to experiment and build AI capabilities without the constraints of product timelines — often starting with no AI experience and learning by doing.
+sources:
+- '[[sources/aief2025-building-the-platform-for-agent-coordination-—-tom-moor]]'
+- 'https://www.youtube.com/watch?v=ug9iadmi2dg'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
-created: 2026-07-04T00:00:00Z
-updated: 2026-07-04T00:00:00Z
+created: 2026-07-04 00:00:00+00:00
+updated: 2026-07-04 00:00:00+00:00
 relationships:
-  - target: [[concepts/pragmatic-ai|Pragmatic AI]]
-    type: related_to
-  - target: [[concepts/ai-integration-patterns|AI Integration Patterns]]
-    type: related_to
+- target:
+  - - concepts/pragmatic-ai|Pragmatic AI
+  type: related_to
+- target:
+  - - concepts/ai-integration-patterns|AI Integration Patterns
+  type: related_to
+category: concepts
 ---
 
 # AI Skunkworks

@@ -1,20 +1,24 @@
 ---
-title: "WorkOS"
+title: WorkOS
 tags:
-  - company
-  - enterprise
-  - security
-  - auth
+- company
+- enterprise
+- security
+- auth
 sources:
-  - "[[sources/watchv=0mqya52iwqu]]"
-  - "[[sources/watchv=d4dswf-__rm]]"
-summary: "Enterprise security vendor that provides auth, authorization, SSO, audit logs, and DLP infrastructure for AI labs and companies building agentic and MCP-based products."
+- 'https://www.youtube.com/watch?v=0mqya52iwqu'
+- 'https://www.youtube.com/watch?v=d4dswf-__rm'
+summary: Enterprise security vendor that provides auth, authorization, SSO, audit logs, and DLP infrastructure for AI labs and companies building agentic and MCP-based products.
 provenance:
-  extracted: 0.60
+  extracted: 0.6
   inferred: 0.35
   ambiguous: 0.05
 base_confidence: 0.55
 lifecycle: draft
+category: entities
+tier: supporting
+created: '2026-07-04T15:08:25.939234+00:00'
+updated: '2026-07-04T15:08:25.939234+00:00'
 ---
 # WorkOS
 

@@ -1,16 +1,16 @@
 ---
-title: "Larry Tesler"
+title: Larry Tesler
 tags:
-  - person
-  - hci
-  - design
-  - pioneer
-  - aief2025
+- person
+- hci
+- design
+- pioneer
+- aief2025
 sources:
-  - "[[sources/watchv=bztd0yyagcq]]"
-summary: "HCI pioneer known for inventing copy-paste and the principle of modeless interfaces ('don't mode me in'), invoked by Piras to critique AI model picker dropdowns."
+- 'https://www.youtube.com/watch?v=bztd0yyagcq'
+summary: HCI pioneer known for inventing copy-paste and the principle of modeless interfaces ('don't mode me in'), invoked by Piras to critique AI model picker dropdowns.
 provenance:
-  extracted: 0.60
+  extracted: 0.6
   inferred: 0.35
   ambiguous: 0.05
 base_confidence: 0.45
@@ -18,6 +18,7 @@ lifecycle: draft
 tier: peripheral
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Larry Tesler

@@ -1,31 +1,25 @@
 ---
-title: "Vidya"
+title: Vidya
 category: entities
 tags:
-  - company
-  - robotics
-  - ai
-  - nvidia
-  - groot
-aliases: []
+- company
+- robotics
+- ai
+- nvidia
+- groot
 sources:
-  - "AIEF2025 - What Is a Humanoid Foundation Model? An Introduction to GR00T N1 - Annika & Aastha - https://www.youtube.com/watch?v=mWKYvT9Lc50"
-summary: "A company whose team members Annika and Aastha developed the GR00T N1 Robotics Foundation Model at NVIDIA. The company name references the Sanskrit word for knowledge/wisdom.
+- AIEF2025 - What Is a Humanoid Foundation Model? An Introduction to GR00T N1 - Annika & Aastha - https://www.youtube.com/watch?v=mWKYvT9Lc50
+summary: A company whose team members Annika and Aastha developed the GR00T N1 Robotics Foundation Model at NVIDIA. The company name references the Sanskrit word for knowledge/wisdom.
 provenance:
-  extracted: 0.90
-  inferred: 0.05
-  ambiguous: 0.05
-base_confidence: 0.70
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+base_confidence: 0.42
 lifecycle: draft
-lifecycle_changed: 2026-07-05
-tier: peripheral
-created: 2026-07-05
-updated: 2026-07-05
-relationships:
-  - target: "[[entities/nvidia-gr00t|NVIDIA Project GR00T]]"
-    type: contributes_to
-  - target: "[[entities/annika-and-aastha|Annika and Aastha]]"
-    type: employs
+lifecycle_changed: '2026-07-05'
+tier: supporting
+created: '2026-07-05'
+updated: '2026-07-05'
 ---
 
 # Vidya

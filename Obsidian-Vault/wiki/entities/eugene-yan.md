@@ -7,7 +7,7 @@ relationships:
   - target: "[[entities/amazon]]"
     type: implements
 sources:
-  - "[[sources/watchv=2vlcqd6igva]]"
+  - "https://www.youtube.com/watch?v=2vlcqd6igva"
 summary: "Amazon scientist and author of the REXIS keynote at AI Engineer World's Fair 2025 on improving recommendation systems and search with LLMs."
 provenance:
   extracted: 0.70

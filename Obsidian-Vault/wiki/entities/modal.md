@@ -1,17 +1,25 @@
 ---
 title: Modal
 category: entities
-tags: [company, cloud, gpu, compute, infrastructure]
-aliases: [Modal.com, Modal Cloud, Modal Labs]
+tags:
+- company
+- cloud
+- gpu
+- compute
+- infrastructure
+aliases:
+- Modal.com
+- Modal Cloud
+- Modal Labs
 sources:
-  - "[[sources/watchv=1zlo9yu2ziu]]"
-  - "[[sources/watchv=deff3j8t5pk]]"
-summary: "Cloud GPU compute platform providing serverless infrastructure for AI workloads. Created the LLM Almanac — a comprehensive benchmark comparing vLLM, SGLang, and TensorRT-LLM across 10+ models on H100 GPUs."
+- 'https://www.youtube.com/watch?v=1zlo9yu2ziu'
+- 'https://www.youtube.com/watch?v=deff3j8t5pk'
+summary: Cloud GPU compute platform providing serverless infrastructure for AI workloads. Created the LLM Almanac — a comprehensive benchmark comparing vLLM, SGLang, and TensorRT-LLM across 10+ models on H1...
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03

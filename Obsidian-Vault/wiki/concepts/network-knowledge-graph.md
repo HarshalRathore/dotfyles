@@ -1,18 +1,18 @@
 ---
-title: "Network Knowledge Graph"
+title: Network Knowledge Graph
 category: concepts
 tags:
-  - knowledge-graph
-  - network-operations
-  - digital-twin
-  - openconfig
-  - arango-db
-  - multi-agent
+- knowledge-graph
+- network-operations
+- digital-twin
+- openconfig
+- arango-db
+- multi-agent
 aliases:
-  - Network KG
+- Network KG
 sources:
-  - "AIEF2025 - Multi Agent AI and Network Knowledge Graphs for Change — Ola Mabadeje, Cisco - https://www.youtube.com/watch?v=m0dxZ-NDKHo"
-summary: "A graph-based representation of a production network built on OpenConfig schema and ArangoDB, enabling AI agents to reason about network changes, perform impact assessments, and execute testing before production deployment."
+- AIEF2025 - Multi Agent AI and Network Knowledge Graphs for Change — Ola Mabadeje, Cisco - https://www.youtube.com/watch?v=m0dxZ-NDKHo
+summary: A graph-based representation of a production network built on OpenConfig schema and ArangoDB, enabling AI agents to reason about network changes, perform impact assessments, and execute testing bef...
 provenance:
   extracted: 0.92
   inferred: 0.06
@@ -24,14 +24,14 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/digital-twin|Digital Twin]]"
-    type: implements
-  - target: "[[concepts/openconfig-schema|OpenConfig Schema]]"
-    type: uses
-  - target: "[[entities/arango-db|ArangoDB]]"
-    type: implemented_on
-  - target: "[[concepts/layered-graph-architecture|Layered Graph Architecture]]"
-    type: structured_as
+- target: '[[concepts/digital-twin|Digital Twin]]'
+  type: implements
+- target: '[[concepts/openconfig-schema|OpenConfig Schema]]'
+  type: uses
+- target: '[[entities/arango-db|ArangoDB]]'
+  type: implemented_on
+- target: '[[concepts/layered-graph-architecture|Layered Graph Architecture]]'
+  type: structured_as
 ---
 
 # Network Knowledge Graph

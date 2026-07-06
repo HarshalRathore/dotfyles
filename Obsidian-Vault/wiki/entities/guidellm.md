@@ -1,27 +1,28 @@
 ---
-title: "GuideLLM"
+title: GuideLLM
 tags:
-  - tool
-  - benchmarking
-  - evaluation
-  - inference
-  - performance
-  - open-source
+- tool
+- benchmarking
+- evaluation
+- inference
+- performance
+- open-source
 aliases:
-  - Guide LLM
-  - guidellm
+- Guide LLM
+- guidellm
 sources:
-  - "[[sources/watchv=89nuzmkokik]]"
-summary: "Open-source system performance benchmarking tool for LLM inference, part of the VLLM ecosystem. Measures latency, throughput, time-to-first-token, and inter-token latency with an in-terminal UI and JSON output."
+- 'https://www.youtube.com/watch?v=89nuzmkokik'
+summary: Open-source system performance benchmarking tool for LLM inference, part of the VLLM ecosystem. Measures latency, throughput, time-to-first-token, and inter-token latency with an in-terminal UI and...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # GuideLLM

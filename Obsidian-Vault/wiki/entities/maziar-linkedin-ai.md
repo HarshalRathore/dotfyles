@@ -1,30 +1,31 @@
 ---
-title: "Maziar (LinkedIn AI)"
+title: Maziar (LinkedIn AI)
 category: entities
 tags:
-  - linkedin
-  - ai-engineer
-  - recommendation-systems
-  - llm
+- linkedin
+- ai-engineer
+- recommendation-systems
+- llm
 aliases:
-  - Mazia
-  - Maziar
+- Mazia
+- Maziar
 sources:
-  - "[[sources/watchv=u0s6cfzay5c]]"
+- 'https://www.youtube.com/watch?v=u0s6cfzay5c'
 provenance:
   extracted: 0.95
   inferred: 0.05
-  ambiguous: 0.00
+  ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/360brew]]"
-    type: related_to
-  - target: "[[entities/hamed-linkedin-ai]]"
-    type: related_to
+- target: '[[concepts/360brew]]'
+  type: related_to
+- target: '[[entities/hamed-linkedin-ai]]'
+  type: related_to
+summary: Maziar (LinkedIn AI)
 ---
 # Maziar (LinkedIn AI)
 

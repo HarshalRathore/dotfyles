@@ -1,23 +1,24 @@
 ---
-title: "Agent History in Production"
+title: Agent History in Production
 tags:
-  - agent
-  - history
-  - state-management
-  - production
-  - context
+- agent
+- history
+- state-management
+- production
+- context
 sources:
-  - "[[sources/watchv=ht4l0dep69i]]"
-summary: "The dual role of history in production agents: conversational history (remembering user interactions) and execution history (remembering the agent's own reasoning steps and tool calls). Both are essential for multi-step agentic reasoning.
+- 'https://www.youtube.com/watch?v=ht4l0dep69i'
+summary: '"The dual role of history in production agents: conversational history (remembering user interactions) and execution history (remembering the agent''s own reasoning steps and tool calls). Both are e...'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.78
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+category: concepts
 ---
 # Agent History in Production
 

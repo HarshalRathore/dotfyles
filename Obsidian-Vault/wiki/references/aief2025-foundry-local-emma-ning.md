@@ -1,19 +1,19 @@
 ---
-title: "AIEF2025 - Foundry Local: Cutting-Edge AI on Device with ONNX Runtime/Olive"
+title: 'AIEF2025 - Foundry Local: Cutting-Edge AI on Device with ONNX Runtime/Olive'
 category: references
 tags:
-  - talk
-  - microsoft
-  - onnx-runtime
-  - olive
-  - foundry-local
-  - edge-ai
-  - aief2025
+- talk
+- microsoft
+- onnx-runtime
+- olive
+- foundry-local
+- edge-ai
+- aief2025
 sources:
-  - "https://www.youtube.com/watch?v=l614N5W60ls"
-summary: "Emma Ning (Microsoft PM) presents Foundry Local, Microsoft's end-to-end on-device AI platform combining ONNX Runtime, Azure AI Foundry model downloads, and hardware-accelerated inference across CPU/GPU/NPU."
+- https://www.youtube.com/watch?v=l614N5W60ls
+summary: Emma Ning (Microsoft PM) presents Foundry Local, Microsoft's end-to-end on-device AI platform combining ONNX Runtime, Azure AI Foundry model downloads, and hardware-accelerated inference across CPU...
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.75
@@ -23,12 +23,12 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/emma-ning|Emma Ning]]"
-    type: presents_by
-  - target: "[[entities/foundry-local|Foundry Local]]"
-    type: describes
-  - target: "[[entities/onnx-runtime|ONNX Runtime]]"
-    type: describes
+- target: '[[entities/emma-ning|Emma Ning]]'
+  type: presents_by
+- target: '[[entities/foundry-local|Foundry Local]]'
+  type: describes
+- target: '[[entities/onnx-runtime|ONNX Runtime]]'
+  type: describes
 ---
 
 # AIEF2025 - Foundry Local: Cutting-Edge AI on Device with ONNX Runtime/Olive

@@ -1,30 +1,34 @@
 ---
-title: "Multimodal Evaluation"
+title: Multimodal Evaluation
 category: concepts
 tags:
-  - evaluation
-  - multimodal
-  - multi-modal
-  - vision
-  - image-evals
-  - text-and-image
-aliases: [multi-modal evals, multimodal assessment, vision-language evaluation]
+- evaluation
+- multimodal
+- multi-modal
+- vision
+- image-evals
+- text-and-image
+aliases:
+- multi-modal evals
+- multimodal assessment
+- vision-language evaluation
 relationships:
-  - target: "[[concepts/azure-ai-evaluation-sdk]]"
-    type: implements
-  - target: "[[concepts/llm-judge-best-practices]]"
-    type: related_to
+- target: '[[concepts/azure-ai-evaluation-sdk]]'
+  type: implements
+- target: '[[concepts/llm-judge-best-practices]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=j4vpq2i0qze]]"
+- 'https://www.youtube.com/watch?v=j4vpq2i0qze'
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Multimodal Evaluation
 ---
 
 # Multimodal Evaluation

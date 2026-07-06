@@ -1,23 +1,24 @@
 ---
-title: "Micro-Agents"
+title: Micro-Agents
 tags:
-  - agent
-  - architecture
-  - pattern
-  - reliability
-  - dag
+- agent
+- architecture
+- pattern
+- reliability
+- dag
 sources:
-  - "[[sources/watchv=8kmatybvduw]]"
-summary: "Architectural pattern where small agent loops (3-10 steps) are embedded within larger deterministic workflows, handling only the naturally ambiguous decision points while everything else runs on deterministic code."
+- 'https://www.youtube.com/watch?v=8kmatybvduw'
+summary: Architectural pattern where small agent loops (3-10 steps) are embedded within larger deterministic workflows, handling only the naturally ambiguous decision points while everything else runs on de...
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Micro-Agents

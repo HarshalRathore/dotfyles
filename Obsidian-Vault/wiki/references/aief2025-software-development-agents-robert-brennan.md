@@ -1,8 +1,10 @@
 ---
-title: "Software Development Agents: What Works and What Doesn't - Robert Brennan, OpenHands"
+title: >-
+  "Software Development Agents: What Works and What Doesn't - Robert Brennan, OpenHands"
 category: references
 tags: [aief2025, coding-agents, agent-best-practices, agent-tools, opensource, openhands]
-summary: Robert Brennan (OpenHands) at AIEF2025 shares practical lessons on coding agents: how they work under the hood, tooling choices, sandboxing, and best practices for getting started.
+summary: >-
+  Robert Brennan (OpenHands) at AIEF2025 shares practical lessons on coding agents: how they work under the hood, tooling choices, sandboxing, and best practices for getting started.
 sources:
   - "AIEF2025 - Software Development Agents: What Works and What Doesn't - Robert Brennan, OpenHands - https://www.youtube.com/watch?v=o_hhkJtlbSs"
 provenance:

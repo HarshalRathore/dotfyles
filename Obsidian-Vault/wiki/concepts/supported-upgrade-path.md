@@ -1,11 +1,22 @@
 ---
-title: "Supported Upgrade Path"
+title: Supported Upgrade Path
 sources:
-  - "[[sources/cluster-maintenance-draining-&-os-upgrades_98d707]]"
+- '[[sources/cluster-maintenance-draining-&-os-upgrades_98d707]]'
 tags:
-  - deployment
+- deployment
 aliases:
-  - K8s Upgrade Path
+- K8s Upgrade Path
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+created: '2026-07-04T15:08:33.840068+00:00'
+updated: '2026-07-04T15:08:33.840068+00:00'
+summary: Supported Upgrade Path
 ---
 # Supported Upgrade Path
 

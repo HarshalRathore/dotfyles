@@ -1,19 +1,19 @@
 ---
-title: "HNSW Filtering Paradox"
+title: HNSW Filtering Paradox
 category: concepts
 tags:
-  - hnsw
-  - vector-search
-  - filtering
-  - performance
-  - approximate-nearest-neighbor
-  - aief2025
+- hnsw
+- vector-search
+- filtering
+- performance
+- approximate-nearest-neighbor
+- aief2025
 sources:
-  - "AIEF2025 - Vector Search Benchmarking - Philipp Krenn, Elastic - https://www.youtube.com/watch?v=YrUBFXa1KUY"
-summary: "In HNSW-based vector search, applying a restrictive filter makes queries slower — the opposite of traditional databases. Filters force the algorithm to examine more candidates before finding matching ones."
+- AIEF2025 - Vector Search Benchmarking - Philipp Krenn, Elastic - https://www.youtube.com/watch?v=YrUBFXa1KUY
+summary: In HNSW-based vector search, applying a restrictive filter makes queries slower — the opposite of traditional databases. Filters force the algorithm to examine more candidates before finding matchi...
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.85
 lifecycle: draft
@@ -22,12 +22,12 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/vector-search-limitations|Vector Search Limitations]]"
-    type: extends
-  - target: "[[concepts/benchmark-design-principles|Benchmark Design Principles]]"
-    type: related_to
-  - target: "[[concepts/approximate-nearest-neighbor|Approximate Nearest Neighbor]]"
-    type: related_to
+- target: '[[concepts/vector-search-limitations|Vector Search Limitations]]'
+  type: extends
+- target: '[[concepts/benchmark-design-principles|Benchmark Design Principles]]'
+  type: related_to
+- target: '[[concepts/approximate-nearest-neighbor|Approximate Nearest Neighbor]]'
+  type: related_to
 ---
 
 # HNSW Filtering Paradox

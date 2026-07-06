@@ -1,19 +1,22 @@
 ---
-title: "Emergent Behavior in AI"
+title: Emergent Behavior in AI
 category: concepts
 tags:
-  - ai-agents
-  - emergent-behavior
-  - product-management
-  - non-determinism
-  - aief2025
-aliases: [emergent behavior, emergent functionality, behavior is emergent]
+- ai-agents
+- emergent-behavior
+- product-management
+- non-determinism
+- aief2025
+aliases:
+- emergent behavior
+- emergent functionality
+- behavior is emergent
 sources:
-  - "[[sources/watchv=pthmdt92qng]]"
-  - "AIEF2025 - The rise of the agentic economy on the shoulders of MCP — Jan Curn, Apify - https://www.youtube.com/watch?v=blW-lSd5CYQ"
+- 'https://www.youtube.com/watch?v=pthmdt92qng'
+- AIEF2025 - The rise of the agentic economy on the shoulders of MCP — Jan Curn, Apify - https://www.youtube.com/watch?v=blW-lSd5CYQ
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.72
 lifecycle: draft
@@ -22,16 +25,17 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/affordance-thinking]]"
-    type: requires
-  - target: "[[concepts/discover-functionality]]"
-    type: enables
-  - target: "[[concepts/non-deterministic-software]]"
-    type: relates_to
-  - target: "[[concepts/agent-evaluations]]"
-    type: measured_by
-  - target: "[[concepts/emergent-intelligence]]"
-    type: relates_to
+- target: '[[concepts/affordance-thinking]]'
+  type: requires
+- target: '[[concepts/discover-functionality]]'
+  type: enables
+- target: '[[concepts/non-deterministic-software]]'
+  type: relates_to
+- target: '[[concepts/agent-evaluations]]'
+  type: measured_by
+- target: '[[concepts/emergent-intelligence]]'
+  type: relates_to
+summary: Emergent Behavior in AI
 ---
 
 # Emergent Behavior in AI

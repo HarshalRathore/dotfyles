@@ -1,30 +1,31 @@
 ---
-title: "Jensen Huang"
+title: Jensen Huang
 category: entities
 tags:
-  - person
-  - ceo
-  - nvidia
-  - entrepreneur
+- person
+- ceo
+- nvidia
+- entrepreneur
 aliases:
-  - Jensen Huang
+- Jensen Huang
 sources:
-  - "AIEF2025 - #define AI Engineer - Greg Brockman, OpenAI (ft. Jensen Huang) - https://www.youtube.com/watch?v=avWhreBUYF0"
+- 'AIEF2025 - #define AI Engineer - Greg Brockman, OpenAI (ft. Jensen Huang) - https://www.youtube.com/watch?v=avWhreBUYF0'
 provenance:
-  extracted: 0.30
-  inferred: 0.60
-  ambiguous: 0.10
-base_confidence: 0.50
+  extracted: 0.3
+  inferred: 0.6
+  ambiguous: 0.1
+base_confidence: 0.5
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/nvidia|NVIDIA]]"
-    type: leads
-  - target: "[[entities/greg-brockman|Greg Brockman]]"
-    type: co-featured
+- target: '[[entities/nvidia|NVIDIA]]'
+  type: leads
+- target: '[[entities/greg-brockman|Greg Brockman]]'
+  type: co-featured
+summary: Jensen Huang
 ---
 
 # Jensen Huang

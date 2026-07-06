@@ -1,34 +1,35 @@
 ---
-title: "Structural vs. Superficial Understanding in Code"
+title: Structural vs. Superficial Understanding in Code
 category: concepts
 tags:
-  - code-understanding
-  - llm
-  - graphrag
-  - context-length
-  - knowledge-graph
+- code-understanding
+- llm
+- graphrag
+- context-length
+- knowledge-graph
 aliases:
-  - structural understanding
-  - superficial familiarity
+- structural understanding
+- superficial familiarity
 sources:
-  - "AIEF2025 - GraphRAG methods to create optimized LLM context windows for Retrieval — Jonathan Larson, Microsoft - https://www.youtube.com/watch?v=c5qJHr3DnT4"
+- AIEF2025 - GraphRAG methods to create optimized LLM context windows for Retrieval — Jonathan Larson, Microsoft - https://www.youtube.com/watch?v=c5qJHr3DnT4
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: core
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: provides
-  - target: "[[concepts/context-length-scaling|Context Length Scaling]]"
-    type: competes-with
-  - target: "[[concepts/semantic-understanding-in-code|Semantic Understanding in Code Analysis]]"
-    type: related_to
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: provides
+- target: '[[concepts/context-length-scaling|Context Length Scaling]]'
+  type: competes-with
+- target: '[[concepts/semantic-understanding-in-code|Semantic Understanding in Code Analysis]]'
+  type: related_to
+summary: Structural vs. Superficial Understanding in Code
 ---
 
 # Structural vs. Superficial Understanding in Code

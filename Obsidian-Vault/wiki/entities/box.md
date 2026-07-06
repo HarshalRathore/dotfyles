@@ -1,22 +1,24 @@
 ---
-title: "Box"
+title: Box
 tags:
-  - organization
-  - enterprise
-  - content-platform
-  - ai
-  - cloud
+- organization
+- enterprise
+- content-platform
+- ai
+- cloud
 sources:
-  - "[[sources/watchv=12v5s1n1eoy]]"
-summary: "Enterprise unstructured content platform managing exabytes of data for 115K+ customers including 2/3 of the Fortune 500."
+- 'https://www.youtube.com/watch?v=12v5s1n1eoy'
+summary: Enterprise unstructured content platform managing exabytes of data for 115K+ customers including 2/3 of the Fortune 500.
 provenance:
   extracted: 0.85
   inferred: 0.15
-  ambiguous: 0.00
-base_confidence: 0.70
+  ambiguous: 0.0
+base_confidence: 0.7
 lifecycle: draft
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
+tier: supporting
 ---
 
 # Box

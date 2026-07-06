@@ -1,28 +1,29 @@
 ---
-title: "LengthMist"
+title: LengthMist
 category: entities
 tags:
-  - observability
-  - evals
-  - llm-monitoring
-  - aief2025
+- observability
+- evals
+- llm-monitoring
+- aief2025
 aliases:
-  - lengthmist
+- lengthmist
 sources:
-  - "AIEF2025 - Evaluating AI Search: A Practical Framework for Augmented AI Systems — Quotient AI + Tavily - https://www.youtube.com/watch?v=wRJD0inpmjU"
+- 'AIEF2025 - Evaluating AI Search: A Practical Framework for Augmented AI Systems — Quotient AI + Tavily - https://www.youtube.com/watch?v=wRJD0inpmjU'
 provenance:
   extracted: 0.95
   inferred: 0.03
   ambiguous: 0.02
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/dynamic-eval-sets]]"
-    type: used_by
+- target: '[[concepts/dynamic-eval-sets]]'
+  type: used_by
+summary: LengthMist
 ---
 
 # LengthMist

@@ -1,16 +1,16 @@
 ---
-title: "Intercom Fin"
+title: Intercom Fin
 category: entities
 tags:
-  - ai-agent
-  - customer-service
-  - enterprise-ai
-  - intercom
-  - voice-ai
+- ai-agent
+- customer-service
+- enterprise-ai
+- intercom
+- voice-ai
 summary: Intercom's AI agent product, launched after GPT-4, supporting text chat and voice channels with 5000+ customers and 56% average resolution rate.
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.75
 lifecycle: draft
@@ -19,12 +19,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/finvoice]]"
-    type: implements
-  - target: "[[concepts/outcome-based-pricing-for-ai]]"
-    type: related_to
-  - target: "[[entities/intercom]]"
-    type: implements
+- target: '[[concepts/finvoice]]'
+  type: implements
+- target: '[[concepts/outcome-based-pricing-for-ai]]'
+  type: related_to
+- target: '[[entities/intercom]]'
+  type: implements
+sources: []
 ---
 
 # Intercom Fin

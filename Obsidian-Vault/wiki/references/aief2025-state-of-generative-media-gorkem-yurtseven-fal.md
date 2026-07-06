@@ -1,15 +1,15 @@
 ---
-title: "The State of Generative Media - Gorkem Yurtseven, FAL"
+title: The State of Generative Media - Gorkem Yurtseven, FAL
 category: references
 tags:
-  - talk
-  - generative-media
-  - video-generation
-  - advertising
-  - e-commerce
-  - aief2025
+- talk
+- generative-media
+- video-generation
+- advertising
+- e-commerce
+- aief2025
 sources:
-  - "[[sources/watchv=p370d8kmlkw]]"
+- 'https://www.youtube.com/watch?v=p370d8kmlkw'
 provenance:
   extracted: 0.85
   inferred: 0.15
@@ -20,14 +20,15 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/fal]]"
-    type: related_to
-  - target: "[[entities/gorkem-yurtseven]]"
-    type: related_to
-  - target: "[[concepts/generative-media]]"
-    type: related_to
-  - target: "[[concepts/marginal-cost-of-creation]]"
-    type: related_to
+- target: '[[entities/fal]]'
+  type: related_to
+- target: '[[entities/gorkem-yurtseven]]'
+  type: related_to
+- target: '[[concepts/generative-media]]'
+  type: related_to
+- target: '[[concepts/marginal-cost-of-creation]]'
+  type: related_to
+summary: The State of Generative Media - Gorkem Yurtseven, FAL
 ---
 
 # The State of Generative Media - Gorkem Yurtseven, FAL

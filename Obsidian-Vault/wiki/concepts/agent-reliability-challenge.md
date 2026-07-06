@@ -1,43 +1,53 @@
 ---
 title: Agent Reliability Challenge
 category: concepts
-tags: [ai, agents, reliability, evaluation, enterprise-ai, production]
-aliases: [AI reliability problem, compound AI agent error]
+tags:
+- ai
+- agents
+- reliability
+- evaluation
+- enterprise-ai
+- production
+aliases:
+- AI reliability problem
+- compound AI agent error
 relationships:
-  - target: "[[concepts/evaluation-first-development]]"
-    type: related_to
-  - target: "[[concepts/ai-regression-testing]]"
-    type: related_to
-  - target: "[[concepts/tribal-knowledge-in-ai]]"
-    type: related_to
-  - target: "[[concepts/data-readiness-myth]]"
-    type: related_to
-  - target: "[[concepts/test-time-compute-scaling]]"
-    type: related_to
-  - target: "[[concepts/micro-agents]]"
-    type: related_to
-  - target: "[[concepts/context-engineering]]"
-    type: related_to
-  - target: "[[concepts/12-factor-agents]]"
-    type: related_to
-  - "AI Engineer World's Fair 2025 talk - AI Engineer World's Fair 2025 Hackathon Presentations - https://www.youtube.com/watch?v=1ZlO9Yu2ZiU"
-  - "AI Engineer World's Fair 2025 talk - Scaling AI Agents Without Breaking Reliability — Preeti Somal, Temporal - https://www.youtube.com/watch?v=1izYWsokr9s"
-  - "AI Engineer World's Fair 2025 talk - Practical tactics to build reliable AI apps — Dmitry Kuchin, Multinear - https://www.youtube.com/watch?v=-T6uZYYzkWw"
-  - "AI Engineer World's Fair 2025 talk - \"Data readiness\" is a Myth: Reliable AI with an Agentic Semantic Layer — Anushrut Gupta, PromptQL - https://www.youtube.com/watch?v=1nOTQsfe1RU"
-  - "AI Engineer World's Fair 2025 - The Rise of Open Models in the Enterprise — Amir Haghighat, Baseten - https://www.youtube.com/watch?v=3WV1vT0B0cg"
-  - "AIEF2025 - Thinking Deeper in Gemini — Jack Rae, Google DeepMind - https://www.youtube.com/watch?v=8EQo4J2BWKw"
-  - "AIEF2025 - 12-Factor Agents: Patterns of Reliable LLM applications — Dex Horthy, HumanLayer - https://www.youtube.com/watch?v=8kMaTybvDUw"
-  - "AIEF2025 - How to Improve your Vibe Coding — Ian Butler - https://www.youtube.com/watch?v=g03m-WFEu1U"
-  - "AIEF2025 - 3 ingredients for building reliable enterprise agents - Harrison Chase, LangChain/LangGraph - https://www.youtube.com/watch?v=kTnfJszFxCg"
+- target: '[[concepts/evaluation-first-development]]'
+  type: related_to
+- target: '[[concepts/ai-regression-testing]]'
+  type: related_to
+- target: '[[concepts/tribal-knowledge-in-ai]]'
+  type: related_to
+- target: '[[concepts/data-readiness-myth]]'
+  type: related_to
+- target: '[[concepts/test-time-compute-scaling]]'
+  type: related_to
+- target: '[[concepts/micro-agents]]'
+  type: related_to
+- target: '[[concepts/context-engineering]]'
+  type: related_to
+- target: '[[concepts/12-factor-agents]]'
+  type: related_to
+- AI Engineer World's Fair 2025 talk - AI Engineer World's Fair 2025 Hackathon Presentations - https://www.youtube.com/watch?v=1ZlO9Yu2ZiU
+- AI Engineer World's Fair 2025 talk - Scaling AI Agents Without Breaking Reliability — Preeti Somal, Temporal - https://www.youtube.com/watch?v=1izYWsokr9s
+- AI Engineer World's Fair 2025 talk - Practical tactics to build reliable AI apps — Dmitry Kuchin, Multinear - https://www.youtube.com/watch?v=-T6uZYYzkWw
+- 'AI Engineer World''s Fair 2025 talk - "Data readiness" is a Myth: Reliable AI with an Agentic Semantic Layer — Anushrut Gupta, PromptQL - https://www.youtube.com/watch?v=1nOTQsfe1RU'
+- AI Engineer World's Fair 2025 - The Rise of Open Models in the Enterprise — Amir Haghighat, Baseten - https://www.youtube.com/watch?v=3WV1vT0B0cg
+- AIEF2025 - Thinking Deeper in Gemini — Jack Rae, Google DeepMind - https://www.youtube.com/watch?v=8EQo4J2BWKw
+- 'AIEF2025 - 12-Factor Agents: Patterns of Reliable LLM applications — Dex Horthy, HumanLayer - https://www.youtube.com/watch?v=8kMaTybvDUw'
+- AIEF2025 - How to Improve your Vibe Coding — Ian Butler - https://www.youtube.com/watch?v=g03m-WFEu1U
+- AIEF2025 - 3 ingredients for building reliable enterprise agents - Harrison Chase, LangChain/LangGraph - https://www.youtube.com/watch?v=kTnfJszFxCg
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+sources: []
+summary: Agent Reliability Challenge
 ---
 
 # Agent Reliability Challenge

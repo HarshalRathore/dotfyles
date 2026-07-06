@@ -22,4 +22,4 @@ relationships:
 
 Huxe is an AI-powered writing tool where Raiza Martin currently works. The company was mentioned by Martin as her current employer in her talk at the AI Engineer World's Fair 2025.
 
-Raiza Martin previously worked at [[Google]] on [[NotebookLM]], making Huxe her post-Google role. The company operates in the AI writing space, competing in a market that includes tools like ChatGPT, Claude, and Cursor — products Martin describes as setting a new bar for intuitive user experience that creates "consumer unrest" when compared to legacy software.
+Raiza Martin previously worked at [[entities/google]] on [[entities/notebooklm]], making Huxe her post-Google role. The company operates in the AI writing space, competing in a market that includes tools like ChatGPT, Claude, and Cursor — products Martin describes as setting a new bar for intuitive user experience that creates "consumer unrest" when compared to legacy software.

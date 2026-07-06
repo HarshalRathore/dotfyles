@@ -1,34 +1,35 @@
 ---
-title: "FP8 Compute on Hopper"
+title: FP8 Compute on Hopper
 category: concepts
 tags:
-  - fp8
-  - hopper
-  - nvidia
-  - quantization
-  - gpu
-  - tensorrt-llm
+- fp8
+- hopper
+- nvidia
+- quantization
+- gpu
+- tensorrt-llm
 aliases:
-  - FP8
-  - FP8 floating point
-  - Hopper FP8
+- FP8
+- FP8 floating point
+- Hopper FP8
 summary: NVIDIA Hopper architecture's native FP8 (8-bit floating point) compute support, enabling faster matrix operations and reduced memory usage for LLM inference. Requires H100/H200 GPUs.
 provenance:
   extracted: 0.75
   inferred: 0.15
-  ambiguous: 0.10
-base_confidence: 0.70
+  ambiguous: 0.1
+base_confidence: 0.7
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/nvidia]]"
-    type: implements
-  - target: "[[concepts/quantization-inference]]"
-    type: enables
-  - target: "[[concepts/fp8-kv-cache]]"
-    type: enables
+- target: '[[entities/nvidia]]'
+  type: implements
+- target: '[[concepts/quantization-inference]]'
+  type: enables
+- target: '[[concepts/fp8-kv-cache]]'
+  type: enables
+sources: []
 ---
 
 # FP8 Compute on Hopper

@@ -1,33 +1,34 @@
 ---
-title: "LangGraph"
+title: LangGraph
 tags:
-  - framework
-  - agents
-  - llm
-  - graphrag
-  - aief2025
+- framework
+- agents
+- llm
+- graphrag
+- aief2025
 aliases:
-  - langgraph
+- langgraph
 sources:
-  - "[[sources/watchv=j-9ebjbxcbg]]"
-  - "[[sources/watchv=lqq_lcbajcc]]"
-summary: "A LangChain sub-project for building stateful, multi-actor applications with LLMs. At AIEF2025, used to build a simple retrieval agent that connects to a Neo4j knowledge graph via retrieval tools."
+- 'https://www.youtube.com/watch?v=j-9ebjbxcbg'
+- 'https://www.youtube.com/watch?v=lqq_lcbajcc'
+summary: A LangChain sub-project for building stateful, multi-actor applications with LLMs. At AIEF2025, used to build a simple retrieval agent that connects to a Neo4j knowledge graph via retrieval tools.
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: used_by
-  - target: "[[concepts/agent-loop|Agent Loop]]"
-    type: implements
-  - target: "[[concepts/build-vs-buy-agents|Build vs Buy Agents]]"
-    type: related_to
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: used_by
+- target: '[[concepts/agent-loop|Agent Loop]]'
+  type: implements
+- target: '[[concepts/build-vs-buy-agents|Build vs Buy Agents]]'
+  type: related_to
+category: concepts
 ---
 
 # LangGraph

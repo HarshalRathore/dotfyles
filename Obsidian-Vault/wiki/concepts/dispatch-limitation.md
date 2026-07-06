@@ -4,7 +4,7 @@ category: concepts
 tags: [dispatch-limitation, back-pressure, queue-management, multi-cluster, ml-infrastructure]
 summary: A queue management mechanism that limits the number of jobs assigned to a GPU cluster before being picked up, preventing localized queue buildup in decoupled CPU/GPU architectures.
 sources:
-  - "[[sources/watchv=ey4o9m6aswi]]"
+  - "https://www.youtube.com/watch?v=ey4o9m6aswi"
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -16,11 +16,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[back-pressure]]"
+  - target: "[[concepts/back-pressure]]"
     type: extends
-  - target: "[[decoupled-architecture]]"
+  - target: "[[concepts/decoupled-architecture]]"
     type: related_to
-  - target: "[[fair-scheduling]]"
+  - target: "[[concepts/fair-scheduling]]"
     type: related_to
 ---
 

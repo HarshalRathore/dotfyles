@@ -1,24 +1,25 @@
 ---
-title: "Cognitive Technologies"
+title: Cognitive Technologies
 tags:
-  - theory
-  - cognition
-  - ai
+- theory
+- cognition
+- ai
 aliases:
-  - cognitive technology
-  - tools for thought
+- cognitive technology
+- tools for thought
 sources:
-  - "[[sources/watchv=dj0b_cebhhi]]"
-summary: "A series of foundational technologies — language, writing, mathematics, computing, now AI agents — each enabling increasingly abstract thought and reorganizing human cognition. Each cognitive technology serves as the foundation for the next."
+- 'https://www.youtube.com/watch?v=dj0b_cebhhi'
+summary: A series of foundational technologies — language, writing, mathematics, computing, now AI agents — each enabling increasingly abstract thought and reorganizing human cognition. Each cognitive techn...
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Cognitive Technologies

@@ -1,32 +1,32 @@
 ---
-title: "Scenario Tuning Bias"
+title: Scenario Tuning Bias
 category: concepts
 tags:
-  - benchmarking
-  - bias
-  - cherry-picking
-  - vector-search
-  - aief2025
+- benchmarking
+- bias
+- cherry-picking
+- vector-search
+- aief2025
 sources:
-  - "AIEF2025 - Vector Search Benchmarking - Philipp Krenn, Elastic - https://www.youtube.com/watch?v=YrUBFXa1KUY"
-summary: "The tendency for benchmark authors to design scenarios that favor their own system — whether intentionally or unintentionally — by tuning data characteristics, query patterns, filters, and configurations to exploit their system's strengths."
+- AIEF2025 - Vector Search Benchmarking - Philipp Krenn, Elastic - https://www.youtube.com/watch?v=YrUBFXa1KUY
+summary: The tendency for benchmark authors to design scenarios that favor their own system — whether intentionally or unintentionally — by tuning data characteristics, query patterns, filters, and configur...
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/benchmark-memes|Benchmark Memes]]"
-    type: related_to
-  - target: "[[concepts/benchmark-design-principles|Benchmark Design Principles]]"
-    type: related_to
-  - target: "[[concepts/vector-search-limitations|Vector Search Limitations]]"
-    type: related_to
+- target: '[[concepts/benchmark-memes|Benchmark Memes]]'
+  type: related_to
+- target: '[[concepts/benchmark-design-principles|Benchmark Design Principles]]'
+  type: related_to
+- target: '[[concepts/vector-search-limitations|Vector Search Limitations]]'
+  type: related_to
 ---
 
 # Scenario Tuning Bias

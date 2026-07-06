@@ -1,15 +1,15 @@
 ---
-title: "Muktesh Mishra"
+title: Muktesh Mishra
 category: entities
 tags:
-  - person
-  - ai-engineer
-  - evaluation
-  - adobe
+- person
+- ai-engineer
+- evaluation
+- adobe
 aliases:
-  - Muktesh
+- Muktesh
 sources:
-  - "AIEF2025 - How to run Evals at Scale: Thinking beyond Accuracy or Similarity — Muktesh Mishra, Adobe - https://www.youtube.com/watch?v=coKKKKh8Vns"
+- 'AIEF2025 - How to run Evals at Scale: Thinking beyond Accuracy or Similarity — Muktesh Mishra, Adobe - https://www.youtube.com/watch?v=coKKKKh8Vns'
 provenance:
   extracted: 1.0
   inferred: 0.0
@@ -21,10 +21,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/adobe|Adobe]]"
-    type: works_at
-  - target: "[[concepts/adaptive-evals|Adaptive Evals]]"
-    type: advocates
+- target: '[[entities/adobe|Adobe]]'
+  type: works_at
+- target: '[[concepts/adaptive-evals|Adaptive Evals]]'
+  type: advocates
+summary: Muktesh Mishra
 ---
 
 # Muktesh Mishra

@@ -1,35 +1,36 @@
 ---
-title: "AI Displacement in Engineering"
+title: AI Displacement in Engineering
 category: concepts
 tags:
-  - ai-displacement
-  - engineering-jobs
-  - mid-level-engineers
-  - entry-level
-  - ai-productivity
+- ai-displacement
+- engineering-jobs
+- mid-level-engineers
+- entry-level
+- ai-productivity
 aliases:
-  - AI replacing engineers
-  - engineering job displacement
-  - AI mid-level displacement
+- AI replacing engineers
+- engineering job displacement
+- AI mid-level displacement
 sources:
-  - "AIEF2025 - How to Hire AI Engineers when EVERYONE is cheating with AI — Beth Glenfield, DevDay - https://www.youtube.com/watch?v=Zqu0VaJw3vo"
+- AIEF2025 - How to Hire AI Engineers when EVERYONE is cheating with AI — Beth Glenfield, DevDay - https://www.youtube.com/watch?v=Zqu0VaJw3vo
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/ai-era-talent-competition|AI-Era Talent Competition]]"
-    type: related_to
-  - target: "[[concepts/enterprise-ai-productivity-paradox|Enterprise AI Productivity Paradox]]"
-    type: related_to
-  - target: "[[entities/salesforce|Salesforce]]"
-    type: relates_to
+- target: '[[concepts/ai-era-talent-competition|AI-Era Talent Competition]]'
+  type: related_to
+- target: '[[concepts/enterprise-ai-productivity-paradox|Enterprise AI Productivity Paradox]]'
+  type: related_to
+- target: '[[entities/salesforce|Salesforce]]'
+  type: relates_to
+summary: AI Displacement in Engineering
 ---
 
 # AI Displacement in Engineering

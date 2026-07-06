@@ -1,42 +1,28 @@
 ---
-title: "What Is a Humanoid Foundation Model? An Introduction to GR00T N1 — Annika & Aastha"
+title: What Is a Humanoid Foundation Model? An Introduction to GR00T N1 — Annika & Aastha
 category: references
 tags:
-  - conference
-  - aief2025
-  - robotics
-  - humanoid
-  - foundation-model
-  - nvidia
-  - groot
-  - physical-ai
-aliases:
-  - GR00T N1 Talk
-  - Annika Aastha GR00T
+- conference
+- aief2025
+- robotics
+- humanoid
+- foundation-model
+- nvidia
+- groot
+- physical-ai
 sources:
-  - "AIEF2025 - What Is a Humanoid Foundation Model? An Introduction to GR00T N1 - Annika & Aastha - https://www.youtube.com/watch?v=mWKYvT9Lc50"
-summary: "NVIDIA GR00T team members Annika and Aastha explain the GR00T N1 humanoid foundation model, the data pyramid strategy, and the three-computer physical AI lifecycle from simulation to edge deployment.
+- AIEF2025 - What Is a Humanoid Foundation Model? An Introduction to GR00T N1 - Annika & Aastha - https://www.youtube.com/watch?v=mWKYvT9Lc50
+summary: NVIDIA GR00T team members Annika and Aastha explain the GR00T N1 humanoid foundation model, the data pyramid strategy, and the three-computer physical AI lifecycle from simulation to edge deployment.
 provenance:
-  extracted: 0.80
-  inferred: 0.15
-  ambiguous: 0.05
-base_confidence: 0.80
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+base_confidence: 0.42
 lifecycle: draft
-lifecycle_changed: 2026-07-05
+lifecycle_changed: '2026-07-05'
 tier: supporting
-created: 2026-07-05
-updated: 2026-07-05
-relationships:
-  - target: "[[entities/nvidia-gr00t|NVIDIA Project GR00T]]"
-    type: describes
-  - target: "[[concepts/physical-ai|Physical AI]]"
-    type: addresses
-  - target: "[[concepts/data-pyramid|Data Pyramid]]"
-    type: introduces
-  - target: "[[concepts/system-one-system-two-robotics|System One / System Two Robotics]]"
-    type: describes
-  - target: "[[concepts/three-computer-problem|Three-Computer Problem]]"
-    type: describes
+created: '2026-07-05'
+updated: '2026-07-05'
 ---
 
 # What Is a Humanoid Foundation Model? An Introduction to GR00T N1

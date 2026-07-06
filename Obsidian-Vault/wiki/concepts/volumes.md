@@ -1,16 +1,25 @@
 ---
 type: concept
-title: "Volumes"
+title: Volumes
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/main-kubernetes-components_82b036]]"
+- '[[sources/main-kubernetes-components_82b036]]'
 tags:
-  - deployment
+- deployment
 aliases:
-  - Persistent Storage
+- Persistent Storage
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Volumes
 ---
 # Volumes
 

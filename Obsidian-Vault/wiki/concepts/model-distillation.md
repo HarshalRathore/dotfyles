@@ -8,7 +8,7 @@ relationships:
     type: related_to
   - target: "[[concepts/model-progression-framework]]"
     type: extends
-sources: ["[[sources/aief2025-rft]]", "[[sources/dpo]]", "[[sources/sft-fine-tuning-with-openai-—-ilan-bigio]]", "[[sources/watchv=jfalqqfxqpa]]"]
+sources: ["[[sources/aief2025-rft]]", "[[sources/dpo]]", "[[sources/sft-fine-tuning-with-openai-—-ilan-bigio]]", "https://www.youtube.com/watch?v=jfalqqfxqpa"]
 summary: "Technique of training a smaller, faster model to replicate the behavior of a larger, more capable model. In the demo case, GPT-3.5 was distilled to achieve GPT-4 level performance at GPT-3.5 latency."
 provenance:
   extracted: 0.65

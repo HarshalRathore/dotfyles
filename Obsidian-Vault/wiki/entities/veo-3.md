@@ -1,19 +1,19 @@
 ---
-title: "Veo 3"
+title: Veo 3
 category: entities
 tags:
-  - model
-  - video-generation
-  - audio-generation
-  - multimodal
-  - google-deepmind
+- model
+- video-generation
+- audio-generation
+- multimodal
+- google-deepmind
 aliases:
-  - Veo3
+- Veo3
 sources:
-  - "AIEF2025 - Veo 3 for Developers — Paige Bailey, Google DeepMind - https://www.youtube.com/watch?v=hlcAZ2lX_ZI"
-summary: "Google DeepMind's state-of-the-art video generation model with native audio composition. Tokens composed across modalities natively — not audio added as a post-processing tool. Improved prompt adherence, stylistic consistency, and contextual consistency over Veo 2."
+- AIEF2025 - Veo 3 for Developers — Paige Bailey, Google DeepMind - https://www.youtube.com/watch?v=hlcAZ2lX_ZI
+summary: Google DeepMind's state-of-the-art video generation model with native audio composition. Tokens composed across modalities natively — not audio added as a post-processing tool. Improved prompt adhe...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -23,14 +23,14 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/google-deepmind|Google DeepMind]]"
-    type: related_to
-  - target: "[[entities/veo-2|Veo 2]]"
-    type: extends
-  - target: "[[concepts/multimodal-generation|Multimodal Generation]]"
-    type: implements
-  - target: "[[concepts/synthid-watermarking|SynthID Watermarking]]"
-    type: uses
+- target: '[[entities/google-deepmind|Google DeepMind]]'
+  type: related_to
+- target: '[[entities/veo-2|Veo 2]]'
+  type: extends
+- target: '[[concepts/multimodal-generation|Multimodal Generation]]'
+  type: implements
+- target: '[[concepts/synthid-watermarking|SynthID Watermarking]]'
+  type: uses
 ---
 
 # Veo 3

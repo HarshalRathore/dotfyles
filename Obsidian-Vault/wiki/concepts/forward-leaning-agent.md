@@ -1,23 +1,24 @@
 ---
-title: "Forward-Leaning Agent"
+title: Forward-Leaning Agent
 tags:
-  - agent
-  - ai
-  - design
-  - personality
-  - behavior
+- agent
+- ai
+- design
+- personality
+- behavior
 sources:
-  - "[[sources/watchv=cimvknx-cni]]"
-summary: "An agent characteristic: curious, excitable, and focused — takes initiative and makes suggestions without needing explicit prompting, but stays within bounds and knows when to defer to humans."
+- 'https://www.youtube.com/watch?v=cimvknx-cni'
+summary: 'An agent characteristic: curious, excitable, and focused — takes initiative and makes suggestions without needing explicit prompting, but stays within bounds and knows when to defer to humans.'
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Forward-Leaning Agent

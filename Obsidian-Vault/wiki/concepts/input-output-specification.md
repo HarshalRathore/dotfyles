@@ -1,25 +1,32 @@
 ---
 title: Input-Output Specification
 category: concepts
-tags: [input-output, specification, ai-systems, moat, system-design, enterprise-ai]
-summary: "The principle that clearly defining what goes into an AI system and what comes out is the most fundamental and durable part of building an AI application — more important than the choice of model or architecture."
+tags:
+- input-output
+- specification
+- ai-systems
+- moat
+- system-design
+- enterprise-ai
+summary: The principle that clearly defining what goes into an AI system and what comes out is the most fundamental and durable part of building an AI application — more important than the choice of model o...
 provenance:
   extracted: 0.85
   inferred: 0.15
-  ambiguous: 0.00
-base_confidence: 0.80
+  ambiguous: 0.0
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/evals-as-moat]]"
-    type: related_to
-  - target: "[[concepts/sequence-of-moats]]"
-    type: related_to
-  - target: "[[concepts/ai-lego-blocks-framework]]"
-    type: related_to
+- target: '[[concepts/evals-as-moat]]'
+  type: related_to
+- target: '[[concepts/sequence-of-moats]]'
+  type: related_to
+- target: '[[concepts/ai-lego-blocks-framework]]'
+  type: related_to
+sources: []
 ---
 
 **Input-Output Specification** is the principle that clearly defining what goes into an AI system and what comes out is the most fundamental and durable part of building an AI application. This specification should be defined before choosing models, architectures, or tools — and it remains valid even as those underlying choices evolve. ^[inferred]

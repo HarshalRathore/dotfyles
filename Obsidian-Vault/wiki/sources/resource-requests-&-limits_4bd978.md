@@ -1,20 +1,32 @@
 ---
-summary: "This source provides a detailed explanation of Kubernetes resource management, centered on defining container resource requirements for scheduling and runtime enforcement. It defines that "
+summary: 'This source provides a detailed explanation of Kubernetes resource management, centered on defining container resource requirements for scheduling and runtime enforcement. It defines that '
 tags:
-  - Resource Requests
-  - Resource Limits
-  - "kube-scheduler"
-  - LimitRange
-  - ResourceQuota
-  - CPU Throttling
-  - OOM Kill
-  - MilliCPU
-  - Memory Suffixes
+- Resource Requests
+- Resource Limits
+- kube-scheduler
+- LimitRange
+- ResourceQuota
+- CPU Throttling
+- OOM Kill
+- MilliCPU
+- Memory Suffixes
 aliases:
-  - K8s Resource Management
-  - "Requests & Limits"
-contentHash: "e9a-ae6b9c8b"
-generation_complete: True
+- K8s Resource Management
+- Requests & Limits
+contentHash: e9a-ae6b9c8b
+generation_complete: true
+title: 'Kubernetes Resource Management: Requests, Limits, and Quotas - Summary'
+category: sources
+sources: []
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+created: '2026-07-02T13:38:25.554456+00:00'
+updated: '2026-07-02T13:38:25.554456+00:00'
 ---
 # Kubernetes Resource Management: Requests, Limits, and Quotas - Summary
 

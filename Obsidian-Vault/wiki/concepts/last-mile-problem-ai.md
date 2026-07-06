@@ -1,29 +1,34 @@
 ---
-title: "The Last Mile Problem in AI"
+title: The Last Mile Problem in AI
 category: concepts
-tags: [last-mile, ai-reliability, production-ai, demo-vs-production, enterprise-ai]
-summary: "The gap between demo-ready/POC-ready AI systems and production-grade, enterprise-grade, reliable systems. Has persisted 2+ years since ChatGPT despite promises of autonomy and enterprise transformation."
+tags:
+- last-mile
+- ai-reliability
+- production-ai
+- demo-vs-production
+- enterprise-ai
+summary: The gap between demo-ready/POC-ready AI systems and production-grade, enterprise-grade, reliable systems. Has persisted 2+ years since ChatGPT despite promises of autonomy and enterprise transforma...
 sources:
-  - "[[sources/watchv=omgpvw8tbhc]]"
-  - "[[sources/watchv=mrm7oa3jsfs]]"
+- 'https://www.youtube.com/watch?v=omgpvw8tbhc'
+- 'https://www.youtube.com/watch?v=mrm7oa3jsfs'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/brittleness-lipschitz-discontinuity]]"
-    type: relates_to
-  - target: "[[concepts/fuzz-testing-ai]]"
-    type: addressed_by
-  - target: "[[concepts/reliability-over-intelligence]]"
-    type: related_to
-  - target: "[[concepts/demo-savvy-problem]]"
-    type: extends
+- target: '[[concepts/brittleness-lipschitz-discontinuity]]'
+  type: relates_to
+- target: '[[concepts/fuzz-testing-ai]]'
+  type: addressed_by
+- target: '[[concepts/reliability-over-intelligence]]'
+  type: related_to
+- target: '[[concepts/demo-savvy-problem]]'
+  type: extends
 ---
 
 # Last Mile Problem in AI

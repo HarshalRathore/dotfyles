@@ -1,17 +1,17 @@
 ---
-title: "Useful General Intelligence"
+title: Useful General Intelligence
 tags:
-  - theory
-  - ai
-  - agents
+- theory
+- ai
+- agents
 aliases:
-  - UGI
-  - useful general intelligence
+- UGI
+- useful general intelligence
 sources:
-  - "[[sources/watchv=dj0b_cebhbi]]"
-summary: "Danielle Perszyk's framing of AI that augments human intelligence rather than replacing it — building systems that make humans smarter and give us more agency, contrasting with the standard AGI goal of building machines as smart or smarter than humans."
+- 'https://www.youtube.com/watch?v=dj0b_cebhbi'
+summary: Danielle Perszyk's framing of AI that augments human intelligence rather than replacing it — building systems that make humans smarter and give us more agency, contrasting with the standard AGI goa...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.18
   ambiguous: 0.02
 base_confidence: 0.65
@@ -19,6 +19,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Useful General Intelligence

@@ -1,33 +1,34 @@
 ---
-title: "Voice AI Pipeline"
+title: Voice AI Pipeline
 category: concepts
 tags:
-  - voice-ai
-  - pipeline
-  - stt
-  - llm
-  - tts
-  - latency
+- voice-ai
+- pipeline
+- stt
+- llm
+- tts
+- latency
 sources:
-  - "[[sources/watchv=e71ytnbcfxy]]"
-  - "[[sources/watchv=ia4lzjh9sts]]"
-  - "[[sources/watchv=mptcbazn84a]]"
+- 'https://www.youtube.com/watch?v=e71ytnbcfxy'
+- 'https://www.youtube.com/watch?v=ia4lzjh9sts'
+- 'https://www.youtube.com/watch?v=mptcbazn84a'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/voice-ai-latency]]"
-    type: related_to
-  - target: "[[concepts/edge-to-cloud]]"
-    type: uses
-  - target: "[[entities/pipe-cat]]"
-    type: uses
+- target: '[[concepts/voice-ai-latency]]'
+  type: related_to
+- target: '[[concepts/edge-to-cloud]]'
+  type: uses
+- target: '[[entities/pipe-cat]]'
+  type: uses
+summary: Voice AI Pipeline
 ---
 
 # Voice AI Pipeline

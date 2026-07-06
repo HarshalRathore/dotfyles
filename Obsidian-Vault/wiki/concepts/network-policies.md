@@ -1,17 +1,26 @@
 ---
 type: concept
-title: "Network Policies"
+title: Network Policies
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/🔐-security-in-kubernetes_0a37d1]]"
+- '[[sources/🔐-security-in-kubernetes_0a37d1]]'
 tags:
-  - security
+- security
 aliases:
-  - K8s Network Policies
-  - NetPol
+- K8s Network Policies
+- NetPol
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Network Policies
 ---
 # Network Policies
 

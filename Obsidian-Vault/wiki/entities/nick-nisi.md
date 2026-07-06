@@ -1,12 +1,22 @@
 ---
-title: "Nick Nisi"
+title: Nick Nisi
 tags:
-  - ai
-  - harness
-  - workos
+- ai
+- harness
+- workos
 sources:
-  - "[[sources/watchv=vy7o1g2ihy8]]"
-
+- 'https://www.youtube.com/watch?v=vy7o1g2ihy8'
+category: entities
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+created: '2026-07-04T15:08:28.342022+00:00'
+updated: '2026-07-04T15:08:28.342022+00:00'
+summary: Nick Nisi
 ---
 # Nick Nisi
 
@@ -14,6 +24,6 @@ DX Engineer at [[entities/workos|WorkOS]], maintaining SDKs across 8+ languages 
 
 ## Related
 
-- [[web-youtube-com-watch-vy7o1g2ihy8]] — His AI Engineer talk on deleting 95% of agent skills
+- [[misc/web-youtube-com-watch-vy7o1g2ihy8]] — His AI Engineer talk on deleting 95% of agent skills
 - [[concepts/agent-loop]] — Case is an implementation of a purpose-built agent harness
-- [[web-youtube-com-watch-v-c_gg5g38vlu]] — Tejas Kumar's harness talk at the same conference, same theme of code-level enforcement
+- [[misc/web-youtube-com-watch-v-c_gg5g38vlu]] — Tejas Kumar's harness talk at the same conference, same theme of code-level enforcement

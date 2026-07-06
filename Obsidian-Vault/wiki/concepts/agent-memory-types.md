@@ -4,7 +4,7 @@ category: concepts
 tags: [agent-memory, memory-types, short-term, long-term, working-memory, semantic, episodic, procedural, conversational, entity-memory]
 summary: "Different forms of memory in AI agents: short-term, long-term, working, semantic, episodic, procedural, conversational, entity memory, knowledge, cache — mapped from human cognitive science."
 sources:
-  - "[[sources/watchv=w2hvdb4jbjs]]"
+  - "https://www.youtube.com/watch?v=w2hvdb4jbjs"
 provenance:
   extracted: 0.80
   inferred: 0.15

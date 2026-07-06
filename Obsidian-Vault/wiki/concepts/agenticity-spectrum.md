@@ -4,7 +4,7 @@ category: concepts
 tags: [agent, autonomy, spectrum, agenticity, agent-definition, memory, reliability]
 summary: "A spectrum-based view of agent autonomy levels, from minimal LLM loops to fully autonomous multi-agent systems, with memory as the defining characteristic."
 sources:
-  - "[[sources/watchv=w2hvdb4jbjs]]"
+  - "https://www.youtube.com/watch?v=w2hvdb4jbjs"
 provenance:
   extracted: 0.85
   inferred: 0.10

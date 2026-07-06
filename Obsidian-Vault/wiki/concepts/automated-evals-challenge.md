@@ -1,33 +1,34 @@
 ---
-title: "Automated Evals Challenge"
+title: Automated Evals Challenge
 category: concepts
 tags:
-  - evals
-  - automation
-  - llm-as-judge
-  - automated-evals
-  - ai-evaluation
+- evals
+- automation
+- llm-as-judge
+- automated-evals
+- ai-evaluation
 aliases:
-  - automated-evaluation-challenge
+- automated-evaluation-challenge
 sources:
-  - "AIEF2025 - [Full Workshop] Building Metrics that actually work — David Karam, Pi Labs (fmr Google Search) - https://www.youtube.com/watch?v=jxrGodnopHo"
+- AIEF2025 - [Full Workshop] Building Metrics that actually work — David Karam, Pi Labs (fmr Google Search) - https://www.youtube.com/watch?v=jxrGodnopHo
 provenance:
-  extracted: 0.80
-  inferred: 0.20
-  ambiguous: 0.00
-base_confidence: 0.80
+  extracted: 0.8
+  inferred: 0.2
+  ambiguous: 0.0
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/llms-are-hard-at-evals|LLMs Are Hard at Evals]]"
-    type: extends
-  - target: "[[concepts/llm-as-judge-evaluation|LLM as Judge Evaluation]]"
-    type: relates_to
-  - target: "[[concepts/eval-driven-development|Eval-Driven Development]]"
-    type: motivates
+- target: '[[concepts/llms-are-hard-at-evals|LLMs Are Hard at Evals]]'
+  type: extends
+- target: '[[concepts/llm-as-judge-evaluation|LLM as Judge Evaluation]]'
+  type: relates_to
+- target: '[[concepts/eval-driven-development|Eval-Driven Development]]'
+  type: motivates
+summary: Automated Evals Challenge
 ---
 
 # Automated Evals Challenge

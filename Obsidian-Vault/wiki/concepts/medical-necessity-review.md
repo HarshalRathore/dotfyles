@@ -1,9 +1,9 @@
 ---
-title: "Medical Necessity Review"
+title: Medical Necessity Review
 category: concepts
-summary: "Evaluating whether recommended treatments meet insurance coverage criteria. A key use case for domain-native LLM apps, exemplified by Anterior's AI system Florence achieving ~99% accuracy."
+summary: Evaluating whether recommended treatments meet insurance coverage criteria. A key use case for domain-native LLM apps, exemplified by Anterior's AI system Florence achieving ~99% accuracy.
 sources:
-  - "[[sources/watchv=mrm7oa3jsfs]]"
+- 'https://www.youtube.com/watch?v=mrm7oa3jsfs'
 provenance:
   extracted: 0.8
   inferred: 0.2
@@ -14,12 +14,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/domain-native-llm-application]]"
-    type: use-case-of
-  - target: "[[concepts/clinical-reasoning]]"
-    type: requires
-  - target: "[[concepts/domain-intelligence-engine]]"
-    type: improves
+- target: '[[concepts/domain-native-llm-application]]'
+  type: use-case-of
+- target: '[[concepts/clinical-reasoning]]'
+  type: requires
+- target: '[[concepts/domain-intelligence-engine]]'
+  type: improves
+tags: []
 ---
 
 # Medical Necessity Review

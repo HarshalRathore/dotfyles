@@ -1,22 +1,23 @@
 ---
-title: "Synth Labs"
+title: Synth Labs
 tags:
-  - organization
-  - ai
-  - agents
-  - infrastructure
+- organization
+- ai
+- agents
+- infrastructure
 sources:
-  - "[[sources/watchv=5rmc-monvx0]]"
-summary: "AI infrastructure company building stateful environment abstractions for vertical agents. Founded by Josh Purtell."
+- 'https://www.youtube.com/watch?v=5rmc-monvx0'
+summary: AI infrastructure company building stateful environment abstractions for vertical agents. Founded by Josh Purtell.
 provenance:
-  extracted: 0.50
+  extracted: 0.5
   inferred: 0.45
   ambiguous: 0.05
-base_confidence: 0.30
+base_confidence: 0.3
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Synth Labs

@@ -1,25 +1,26 @@
 ---
-title: "Nova Act"
+title: Nova Act
 tags:
-  - product
-  - amazon
-  - agents
-  - sdk
+- product
+- amazon
+- agents
+- sdk
 aliases:
-  - Nova Act
-  - Amazon Nova Act
+- Nova Act
+- Amazon Nova Act
 sources:
-  - "[[sources/watchv=dj0b_cebhhi]]"
-summary: "Amazon's computer-use agent SDK combining a vision-trained Amazon Nova model with a Python SDK for building and deploying browser-based agents. Enables natural language to screen actions, with granular atomic action control and composability via standard Python."
+- 'https://www.youtube.com/watch?v=dj0b_cebhhi'
+summary: Amazon's computer-use agent SDK combining a vision-trained Amazon Nova model with a Python SDK for building and deploying browser-based agents. Enables natural language to screen actions, with gran...
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.55
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Nova Act

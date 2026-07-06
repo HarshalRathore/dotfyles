@@ -1,21 +1,21 @@
 ---
-title: "How to Hire AI Engineers when EVERYONE is cheating with AI — Beth Glenfield, DevDay"
+title: How to Hire AI Engineers when EVERYONE is cheating with AI — Beth Glenfield, DevDay
 category: references
 tags:
-  - hiring
-  - ai-recruitment
-  - technical-interviews
-  - simulation-based-assessment
-  - aief2025
-  - devday
+- hiring
+- ai-recruitment
+- technical-interviews
+- simulation-based-assessment
+- aief2025
+- devday
 aliases:
-  - Beth Glenfield DevDay talk
-  - AI hiring cheating
-  - DevDay hiring process
+- Beth Glenfield DevDay talk
+- AI hiring cheating
+- DevDay hiring process
 sources:
-  - "AIEF2025 - How to Hire AI Engineers when EVERYONE is cheating with AI — Beth Glenfield, DevDay - https://www.youtube.com/watch?v=Zqu0VaJw3vo"
+- AIEF2025 - How to Hire AI Engineers when EVERYONE is cheating with AI — Beth Glenfield, DevDay - https://www.youtube.com/watch?v=Zqu0VaJw3vo
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -25,16 +25,17 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/ai-hiring-trade-offs|AI Hiring Trade-offs]]"
-    type: related_to
-  - target: "[[concepts/ai-team-anatomy|AI Team Anatomy]]"
-    type: related_to
-  - target: "[[concepts/agent-as-teammate|Agent as Teammate]]"
-    type: extends
-  - target: "[[concepts/agent-mentoring-model|Agent Mentoring Model]]"
-    type: related_to
-  - target: "[[entities/salesforce|Salesforce]]"
-    type: related_to
+- target: '[[concepts/ai-hiring-trade-offs|AI Hiring Trade-offs]]'
+  type: related_to
+- target: '[[concepts/ai-team-anatomy|AI Team Anatomy]]'
+  type: related_to
+- target: '[[concepts/agent-as-teammate|Agent as Teammate]]'
+  type: extends
+- target: '[[concepts/agent-mentoring-model|Agent Mentoring Model]]'
+  type: related_to
+- target: '[[entities/salesforce|Salesforce]]'
+  type: related_to
+summary: How to Hire AI Engineers when EVERYONE is cheating with AI — Beth Glenfield, DevDay
 ---
 
 # How to Hire AI Engineers when EVERYONE is cheating with AI — Beth Glenfield, DevDay

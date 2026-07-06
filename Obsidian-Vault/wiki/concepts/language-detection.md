@@ -10,7 +10,7 @@ tags:
   - agent-tools
 summary: Automatic language detection in voice agents — identifying the spoken language to enable seamless multilingual conversation switching within a voice agent pipeline.
 sources:
-  - "[[sources/watchv=mptcbazn84a]]"
+  - "https://www.youtube.com/watch?v=mptcbazn84a"
 provenance:
   extracted: 0.85
   inferred: 0.10

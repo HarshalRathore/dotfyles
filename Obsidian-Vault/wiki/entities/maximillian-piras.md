@@ -1,23 +1,24 @@
 ---
-title: "Maximillian Piras"
+title: Maximillian Piras
 tags:
-  - person
-  - designer
-  - ai
-  - ux
-  - aief2025
+- person
+- designer
+- ai
+- ux
+- aief2025
 sources:
-  - "[[sources/watchv=bztd0yyagcq]]"
-summary: "Designer at Yutori who coined the concepts of the Bitter Layout, the Bitter Design Lesson, and Schrödinger's Chat at AI Engineer World's Fair 2025."
+- 'https://www.youtube.com/watch?v=bztd0yyagcq'
+summary: Designer at Yutori who coined the concepts of the Bitter Layout, the Bitter Design Lesson, and Schrödinger's Chat at AI Engineer World's Fair 2025.
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.55
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Maximillian Piras

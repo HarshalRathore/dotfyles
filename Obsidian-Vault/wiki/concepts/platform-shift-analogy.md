@@ -1,30 +1,31 @@
 ---
-title: "Platform Shift Analogy for Voice AI"
+title: Platform Shift Analogy for Voice AI
 category: concepts
 tags:
-  - voice-ai
-  - platform-shift
-  - ui
-  - interaction-design
-  - generative-ai
+- voice-ai
+- platform-shift
+- ui
+- interaction-design
+- generative-ai
 sources:
-  - "[[sources/watchv=e71ytnbcfxy]]"
+- 'https://www.youtube.com/watch?v=e71ytnbcfxy'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/voice-as-ui]]"
-    type: related_to
-  - target: "[[concepts/voice-agents]]"
-    type: related_to
-  - target: "[[concepts/beyond-chatbots]]"
-    type: extends
+- target: '[[concepts/voice-as-ui]]'
+  type: related_to
+- target: '[[concepts/voice-agents]]'
+  type: related_to
+- target: '[[concepts/beyond-chatbots]]'
+  type: extends
+summary: Platform Shift Analogy for Voice AI
 ---
 
 # Platform Shift Analogy for Voice AI

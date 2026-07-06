@@ -1,33 +1,37 @@
 ---
-title: "AIOps"
+title: AIOps
 tags:
-  - aiops
-  - anomaly-detection
-  - machine-learning
-  - observability
-  - false-positives
-  - statistics
-aliases: [aiops, ai-ops, AIOps]
+- aiops
+- anomaly-detection
+- machine-learning
+- observability
+- false-positives
+- statistics
+aliases:
+- aiops
+- ai-ops
+- AIOps
 sources:
-  - "[[sources/watchv=l6_nigiexzq]]"
-summary: The use of traditional machine learning and statistical anomaly detection for IT operations and incident management. Criticized by Traversal.ai for producing too many false positives and more noise than signal in complex production systems.
+- 'https://www.youtube.com/watch?v=l6_nigiexzq'
+summary: The use of traditional machine learning and statistical anomaly detection for IT operations and incident management. Criticized by Traversal.ai for producing too many false positives and more noise...
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/causal-machine-learning]]"
-    type: contradicts
-  - target: "[[concepts/production-troubleshooting]]"
-    type: related_to
-  - target: "[[concepts/agent-swarm]]"
-    type: related_to
+- target: '[[concepts/causal-machine-learning]]'
+  type: contradicts
+- target: '[[concepts/production-troubleshooting]]'
+  type: related_to
+- target: '[[concepts/agent-swarm]]'
+  type: related_to
+category: concepts
 ---
 
 # AIOps

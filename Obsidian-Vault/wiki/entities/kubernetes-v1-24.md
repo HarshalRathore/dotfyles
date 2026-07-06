@@ -1,17 +1,26 @@
 ---
 type: entity
-title: "Kubernetes v1.24"
+title: Kubernetes v1.24
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/containerd-cri-etc_fb87d8]]"
+- '[[sources/containerd-cri-etc_fb87d8]]'
 tags:
-  - event
+- event
 aliases:
-  - v1.24 release
-  - Kubernetes v1.24
+- v1.24 release
+- Kubernetes v1.24
+category: entities
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Kubernetes v1.24
 ---
 # Kubernetes v1.24
 
@@ -31,7 +40,7 @@ Kubernetes v1.24 was a major release of the Kubernetes container orchestration p
 
 ## Related Concepts
 - [[concepts/container-runtime]]
-- [[dockershim]]
+- [[concepts/dockershim]]
 
 ## Mentions in Source
 - "Removal in v1.24: Dockershim removed; Docker Engine no longer a direct Kubernetes runtime — containerd-cri-etc_fb87d8"

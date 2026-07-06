@@ -1,32 +1,33 @@
 ---
-title: "Thinking Budgets"
+title: Thinking Budgets
 tags:
-  - concept
-  - ai
-  - inference
-  - pricing
-  - quality
-  - reasoning
+- concept
+- ai
+- inference
+- pricing
+- quality
+- reasoning
 aliases:
-  - Thinking token budgets
-  - Reasoning budgets
+- Thinking token budgets
+- Reasoning budgets
 relationships:
-  - target: "[[concepts/test-time-compute-scaling]]"
-    type: implements
-  - target: "[[concepts/pricing-as-friction]]"
-    type: related_to
+- target: '[[concepts/test-time-compute-scaling]]'
+  type: implements
+- target: '[[concepts/pricing-as-friction]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=8eqo4j2bwkw]]"
-summary: "A continuous, granular control mechanism for the quality-cost tradeoff of AI inference — replacing discrete model size choices with a slider-like budget parameter that controls how much thinking compute a model applies."
+- 'https://www.youtube.com/watch?v=8eqo4j2bwkw'
+summary: A continuous, granular control mechanism for the quality-cost tradeoff of AI inference — replacing discrete model size choices with a slider-like budget parameter that controls how much thinking co...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Thinking Budgets

@@ -1,34 +1,26 @@
 ---
-title: "Humanoid Foundation Model"
+title: Humanoid Foundation Model
 category: concepts
 tags:
-  - humanoid
-  - foundation-model
-  - robotics
-  - physical-ai
-  - cross-embodiment
-  - nvidia
-  - groot
-summary: "A foundation model designed specifically for humanoid robots — a general-purpose AI that can be fine-tuned across different robot embodiments to perform diverse physical tasks in human-built environments.
+- humanoid
+- foundation-model
+- robotics
+- physical-ai
+- cross-embodiment
+- nvidia
+- groot
+sources: []
+summary: A foundation model designed specifically for humanoid robots — a general-purpose AI that can be fine-tuned across different robot embodiments to perform diverse physical tasks in human-built enviro...
 provenance:
-  extracted: 0.70
-  inferred: 0.25
-  ambiguous: 0.05
-base_confidence: 0.75
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+base_confidence: 0.42
 lifecycle: draft
-lifecycle_changed: 2026-07-05
+lifecycle_changed: '2026-07-05'
 tier: supporting
-created: 2026-07-05
-updated: 2026-07-05
-relationships:
-  - target: "[[concepts/physical-ai|Physical AI]]"
-    type: implements
-  - target: "[[entities/nvidia-gr00t|NVIDIA Project GR00T]]"
-    type: implemented_by
-  - target: "[[concepts/cross-embodiment-robotics|Cross-Embodiment Robotics]]"
-    type: requires
-  - target: "[[concepts/data-pyramid|Data Pyramid]]"
-    type: trained_on
+created: '2026-07-05'
+updated: '2026-07-05'
 ---
 
 # Humanoid Foundation Model

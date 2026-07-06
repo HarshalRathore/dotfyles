@@ -1,18 +1,18 @@
 ---
-title: "Authorization Server"
+title: Authorization Server
 category: concepts
 tags:
-  - oauth
-  - authorization
-  - tokens
-  - identity
-  - consent
+- oauth
+- authorization
+- tokens
+- identity
+- consent
 sources:
-  - "AIEF2025 - How to Secure Agents using OAuth — Jared Hanson (Keycard, Passport.js) - https://www.youtube.com/watch?v=blmAkayzE8M"
-  - "[[sources/watchv=fzomsupg37e]]"
+- AIEF2025 - How to Secure Agents using OAuth — Jared Hanson (Keycard, Passport.js) - https://www.youtube.com/watch?v=blmAkayzE8M
+- 'https://www.youtube.com/watch?v=fzomsupg37e'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.95
 lifecycle: draft
@@ -20,14 +20,15 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/oauth-2.0|OAuth 2.0]]"
-    type: related_to
-  - target: "[[concepts/resource-server|Resource Server]]"
-    type: related_to
-  - target: "[[concepts/access-token|Access Token]]"
-    type: related_to
-  - target: "[[concepts/mcp-resource-server-separation|MCP Resource Server Separation]]"
-    type: related_to
+- target: '[[concepts/oauth-2.0|OAuth 2.0]]'
+  type: related_to
+- target: '[[concepts/resource-server|Resource Server]]'
+  type: related_to
+- target: '[[concepts/access-token|Access Token]]'
+  type: related_to
+- target: '[[concepts/mcp-resource-server-separation|MCP Resource Server Separation]]'
+  type: related_to
+summary: Authorization Server
 ---
 
 # Authorization Server

@@ -4,7 +4,7 @@ category: concepts
 tags: [pricing, ai-engineering, monetization, product-strategy, go-to-market]
 aliases: [Simon Kutcher monetization framework, direct monetization, indirect monetization, AI monetization strategy]
 sources:
-  - "[[sources/watchv=6wqylqb0odc]]"
+  - "https://www.youtube.com/watch?v=6wqylqb0odc"
 summary: "Framework for deciding whether to monetize an AI feature directly (standalone/add-on) or indirectly (bundled free to drive upsells or desired user behavior)."
 provenance:
   extracted: 0.85

@@ -1,33 +1,34 @@
 ---
-title: "Ola Mabadeje"
+title: Ola Mabadeje
 category: entities
 tags:
-  - person
-  - product
-  - cisco
-  - ai
-  - network-operations
+- person
+- product
+- cisco
+- ai
+- network-operations
 aliases:
-  - Ola
+- Ola
 sources:
-  - "AIEF2025 - Multi Agent AI and Network Knowledge Graphs for Change — Ola Mabadeje, Cisco - https://www.youtube.com/watch?v=m0dxZ-NDKHo"
+- AIEF2025 - Multi Agent AI and Network Knowledge Graphs for Change — Ola Mabadeje, Cisco - https://www.youtube.com/watch?v=m0dxZ-NDKHo
 provenance:
   extracted: 0.95
   inferred: 0.04
   ambiguous: 0.01
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/cisco|Cisco]]"
-    type: works_for
-  - target: "[[entities/outshift|OutShift]]"
-    type: works_for
-  - target: "[[concepts/network-knowledge-graph|Network Knowledge Graph]]"
-    type: designed
+- target: '[[entities/cisco|Cisco]]'
+  type: works_for
+- target: '[[entities/outshift|OutShift]]'
+  type: works_for
+- target: '[[concepts/network-knowledge-graph|Network Knowledge Graph]]'
+  type: designed
+summary: Ola Mabadeje
 ---
 
 # Ola Mabadeje

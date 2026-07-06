@@ -1,16 +1,22 @@
 ---
-summary: "Bridged Adapter connects VMs directly to the physical network, making them appear as independent devices with their own IP addresses."
+summary: Bridged Adapter connects VMs directly to the physical network, making them appear as independent devices with their own IP addresses.
 type: concept
-title: "Bridged Adapter"
+title: Bridged Adapter
 created:
-  - "2026-06-30"
+- '2026-06-30'
 updated:
-  - "2026-06-30"
+- '2026-06-30'
 lifecycle: draft
 base_confidence: 0.75
 sources:
-  - "[[sources/manual-notes_10b5c5]]"
-
+- '[[sources/manual-notes_10b5c5]]'
+category: concepts
+tags: []
+tier: supporting
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
 ---
 ## Description
 Bridged Adapter networking is a virtualization technique that connects virtual machines directly to the physical network. This configuration makes VMs appear as independent devices, allowing them to obtain their own IP addresses from the local network's DHCP server (such as a home router) and participate as separate entities. It is often the recommended and simplest network configuration for Kubernetes nodes in a home lab setup, enabling each node to have its own accessible IP address (e.g., 192.168.1.5) for direct communication and administrative access. This mode facilitates full network connectivity, which is essential for distributed systems and cluster environments where direct host or device-to-device communication is required.

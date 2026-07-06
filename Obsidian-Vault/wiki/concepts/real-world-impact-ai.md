@@ -4,7 +4,7 @@ category: concepts
 tags: [real-world-impact, kinetic-consequences, geopolitical-risk, ai-safety, government-ai, high-stakes-ai]
 summary: AI systems whose outputs have physical, geopolitical, or life-safety consequences — not just financial or reputational damage. The defining characteristic of government and national security AI.
 sources:
-  - "[[sources/watchv=tnsgx36ly0q]]"
+  - "https://www.youtube.com/watch?v=tnsgx36ly0q"
 provenance: {extracted: 0.75, inferred: 0.20, ambiguous: 0.05}
 base_confidence: 0.85
 lifecycle: draft

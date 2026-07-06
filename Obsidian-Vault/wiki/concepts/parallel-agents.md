@@ -10,7 +10,7 @@ tags:
   - wave
 summary: "The capability for AI agents to execute multiple tasks simultaneously — researching while coding, testing while preparing PRs — enabling background operation and supporting the always-on AI vision."
 sources:
-  - "[[sources/watchv=jvunpl5qo8q]]"
+  - "https://www.youtube.com/watch?v=jvunpl5qo8q"
 provenance:
   extracted: 0.90
   inferred: 0.07

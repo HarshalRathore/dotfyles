@@ -1,22 +1,32 @@
 ---
 title: Monte Carlo Methods in AI
 category: concepts
-tags: [monte-carlo, statistics, simulation, los-alamos, nuclear-physics, hpc, historical-ai]
-summary: Monte Carlo simulation methods developed at Los Alamos during the Manhattan Project era, representing one of the earliest applications of statistical computation that evolved into modern AI/ML practice.
+tags:
+- monte-carlo
+- statistics
+- simulation
+- los-alamos
+- nuclear-physics
+- hpc
+- historical-ai
+summary: Monte Carlo simulation methods developed at Los Alamos during the Manhattan Project era, representing one of the earliest applications of statistical computation that evolved into modern AI/ML prac...
 sources:
-  - "[[sources/watchv=tnsgx36ly0q]]"
-provenance: {extracted: 0.85, inferred: 0.10, ambiguous: 0.05}
-base_confidence: 0.90
+- 'https://www.youtube.com/watch?v=tnsgx36ly0q'
+provenance:
+  extracted: 0.85
+  inferred: 0.1
+  ambiguous: 0.05
+base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
-created: 2026-07-04T12:00:00Z
-updated: 2026-07-04T12:00:00Z
+created: 2026-07-04 12:00:00+00:00
+updated: 2026-07-04 12:00:00+00:00
 relationships:
-  - target: "[[concepts/agentic-science]]"
-    type: historical_precursor
-  - target: "[[entities/los-alamos-national-laboratory]]"
-    type: developed_at
+- target: '[[concepts/agentic-science]]'
+  type: historical_precursor
+- target: '[[entities/los-alamos-national-laboratory]]'
+  type: developed_at
 ---
 
 Monte Carlo methods are a class of computational algorithms that rely on repeated random sampling to obtain numerical results. They were developed at [[entities/los-alamos-national-laboratory|Los Alamos National Laboratory]] during the Manhattan Project era and remain in use today, nearly 80 years later.

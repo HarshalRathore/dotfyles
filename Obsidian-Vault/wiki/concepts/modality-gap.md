@@ -1,15 +1,15 @@
 ---
-title: "Modality Gap"
+title: Modality Gap
 tags:
-  - multimodal
-  - embeddings
-  - retrieval
-  - architecture
+- multimodal
+- embeddings
+- retrieval
+- architecture
 sources:
-  - "[[sources/watchv=640kmytxcei]]"
-summary: "A limitation of CLIP-based multimodal embedding models where text and image vectors from separate encoders occupy distinct regions of the embedding space, causing irrelevant items of the same modality to cluster together rather than related items across modalities."
+- 'https://www.youtube.com/watch?v=640kmytxcei'
+summary: A limitation of CLIP-based multimodal embedding models where text and image vectors from separate encoders occupy distinct regions of the embedding space, causing irrelevant items of the same modal...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.55
@@ -17,6 +17,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Modality Gap

@@ -4,7 +4,7 @@ category: entities
 tags: [company, mobile, deep-linking, search-engine, aief2025]
 summary: "Mobile deep-linking startup. Jonas (Upside co-founder) worked here building a search engine used by over 100 million people daily. Jonas left with a Branch co-founder to start Upside."
 sources:
-  - "[[sources/watchv=l8-5ezsoi5a]]"
+  - "https://www.youtube.com/watch?v=l8-5ezsoi5a"
 provenance:
   extracted: 0.9
   inferred: 0.1

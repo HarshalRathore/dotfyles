@@ -1,23 +1,24 @@
 ---
-title: "Private Cloud Compute"
+title: Private Cloud Compute
 tags:
-  - concept
-  - privacy
-  - apple
-  - cloud-compute
-  - architecture
+- concept
+- privacy
+- apple
+- cloud-compute
+- architecture
 sources:
-  - "[[sources/watchv=ccswz5bjlo8]]"
-summary: "Architectural pattern for delivering remote AI inference while preserving user privacy through stateless computation, enforceable guarantees, non-targetability, and verifiable transparency."
+- 'https://www.youtube.com/watch?v=ccswz5bjlo8'
+summary: Architectural pattern for delivering remote AI inference while preserving user privacy through stateless computation, enforceable guarantees, non-targetability, and verifiable transparency.
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.55
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Private Cloud Compute

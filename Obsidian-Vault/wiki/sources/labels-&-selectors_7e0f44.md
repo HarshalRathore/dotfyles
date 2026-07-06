@@ -1,24 +1,31 @@
 ---
-summary: "This source is a comprehensive guide to managing metadata in Kubernetes. It defines labels as key-value pairs attached to objects like Pods and Services, used for identification and organization. T..."
+summary: This source is a comprehensive guide to managing metadata in Kubernetes. It defines labels as key-value pairs attached to objects like Pods and Services, used for identification and organization. T...
 type: source
-title: "Kubernetes Labels, Selectors, and Annotations Guide - Summary"
-created: "2026-06-30"
-updated: "2026-06-30"
+title: Kubernetes Labels, Selectors, and Annotations Guide - Summary
+created: '2026-06-30'
+updated: '2026-06-30'
 lifecycle: draft
 base_confidence: 0.7
-source_file: ""
+source_file: ''
 tags:
-  - Labels
-  - Selectors
-  - Annotations
-  - "equality-based selector"
-  - "set-based selector"
-  - matchLabels
+- Labels
+- Selectors
+- Annotations
+- equality-based selector
+- set-based selector
+- matchLabels
 aliases:
-  - Kubernetes Metadata Management Guide
-  - Labels and Selectors in Kubernetes
-contentHash: "ef0-b52a4860"
-generation_complete: True
+- Kubernetes Metadata Management Guide
+- Labels and Selectors in Kubernetes
+contentHash: ef0-b52a4860
+generation_complete: true
+category: sources
+sources: []
+tier: supporting
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
 ---
 # Kubernetes Labels, Selectors, and Annotations Guide - Summary
 

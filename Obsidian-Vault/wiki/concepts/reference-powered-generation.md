@@ -1,19 +1,19 @@
 ---
-title: "Reference-Powered Generation"
+title: Reference-Powered Generation
 category: concepts
 tags:
-  - reference
-  - image-conditioning
-  - video-generation
-  - style-transfer
+- reference
+- image-conditioning
+- video-generation
+- style-transfer
 aliases:
-  - Reference-Based Generation
-  - Reference-Powered Video
+- Reference-Based Generation
+- Reference-Powered Video
 sources:
-  - "AIEF2025 - Veo 3 for Developers — Paige Bailey, Google DeepMind - https://www.youtube.com/watch?v=hlcAZ2lX_ZI"
-summary: "A generation technique where a reference image (or set of images) conditions the output — enabling composition of subjects into environments, style transfer, and character identity preservation across generated frames."
+- AIEF2025 - Veo 3 for Developers — Paige Bailey, Google DeepMind - https://www.youtube.com/watch?v=hlcAZ2lX_ZI
+summary: A generation technique where a reference image (or set of images) conditions the output — enabling composition of subjects into environments, style transfer, and character identity preservation acr...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -23,10 +23,10 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/style-preservation|Style Preservation]]"
-    type: extends
-  - target: "[[entities/veo-2|Veo 2]]"
-    type: related_to
+- target: '[[concepts/style-preservation|Style Preservation]]'
+  type: extends
+- target: '[[entities/veo-2|Veo 2]]'
+  type: related_to
 ---
 
 # Reference-Powered Generation

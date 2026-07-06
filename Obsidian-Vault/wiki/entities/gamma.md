@@ -18,7 +18,7 @@ relationships:
   - target: "[[concepts/content-first-design|Content-First Design]]"
     type: related_to
 sources:
-  - "[[sources/watchv=k-iykdmfkhe]]"
+  - "https://www.youtube.com/watch?v=k-iykdmfkhe"
   - "AIEF2025 - Rethinking Team Building: how a 30-person Startup serves 50 Million Users — Grant Lee, Gamma - https://www.youtube.com/watch?v=q8zoXAbmJdI"
 summary: "AI presentation company, the anti-PowerPoint, led by Grant Lee. 50M users on a 30-person team. Content-first philosophy, building tools for imagination."
 provenance:

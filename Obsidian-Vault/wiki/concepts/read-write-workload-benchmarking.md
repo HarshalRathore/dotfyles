@@ -1,18 +1,18 @@
 ---
-title: "Read-Write Workload Benchmarking"
+title: Read-Write Workload Benchmarking
 category: concepts
 tags:
-  - benchmarking
-  - vector-search
-  - workload-modeling
-  - performance
-  - aief2025
+- benchmarking
+- vector-search
+- workload-modeling
+- performance
+- aief2025
 sources:
-  - "AIEF2025 - Vector Search Benchmarking - Philipp Krenn, Elastic - https://www.youtube.com/watch?v=YrUBFXa1KUY"
-summary: "Most vector search benchmarks measure only read performance, but real-world workloads are read-write. Adding writes introduces index merges, segment management, and read-write ratio complexity that read-only benchmarks miss entirely."
+- AIEF2025 - Vector Search Benchmarking - Philipp Krenn, Elastic - https://www.youtube.com/watch?v=YrUBFXa1KUY
+summary: Most vector search benchmarks measure only read performance, but real-world workloads are read-write. Adding writes introduces index merges, segment management, and read-write ratio complexity that...
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.82
 lifecycle: draft
@@ -21,12 +21,12 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/vector-search-limitations|Vector Search Limitations]]"
-    type: extends
-  - target: "[[concepts/benchmark-design-principles|Benchmark Design Principles]]"
-    type: related_to
-  - target: "[[concepts/nightly-regression-benchmarking|Nightly Regression Benchmarking]]"
-    type: related_to
+- target: '[[concepts/vector-search-limitations|Vector Search Limitations]]'
+  type: extends
+- target: '[[concepts/benchmark-design-principles|Benchmark Design Principles]]'
+  type: related_to
+- target: '[[concepts/nightly-regression-benchmarking|Nightly Regression Benchmarking]]'
+  type: related_to
 ---
 
 # Read-Write Workload Benchmarking

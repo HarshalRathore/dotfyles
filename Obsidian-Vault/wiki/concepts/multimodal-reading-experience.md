@@ -4,7 +4,7 @@ category: concepts
 tags: [multimodal, reading, books, graphics, music, immersive, aief2025]
 summary: "Reading experience that combines text, AI-generated graphics, AI-generated music, and character avatars to transform books into movie-like experiences."
 sources:
-  - "[[sources/watchv=kcka7rzcxlk]]"
+  - "https://www.youtube.com/watch?v=kcka7rzcxlk"
 provenance: { extracted: 1.0, inferred: 0.0, ambiguous: 0.0 }
 base_confidence: 0.95
 lifecycle: draft

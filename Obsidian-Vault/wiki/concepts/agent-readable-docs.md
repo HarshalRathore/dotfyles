@@ -1,17 +1,20 @@
 ---
-title: "Agent-Readable Docs"
+title: Agent-Readable Docs
 category: concepts
 tags:
-  - agent-experience
-  - documentation
-  - agent-readable
-  - llms-txt
-  - aief2025
-aliases: [agent-readable docs, agent-friendly documentation, machine-readable docs]
+- agent-experience
+- documentation
+- agent-readable
+- llms-txt
+- aief2025
+aliases:
+- agent-readable docs
+- agent-friendly documentation
+- machine-readable docs
 sources:
-  - "AIEF2025 - AX is the only Experience that Matters - Ivan Burazin, Daytona - https://www.youtube.com/watch?v=e9sLVMN76qU"
+- AIEF2025 - AX is the only Experience that Matters - Ivan Burazin, Daytona - https://www.youtube.com/watch?v=e9sLVMN76qU
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -21,10 +24,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/agent-experience]]"
-    type: component_of
-  - target: "[[references/llms-txt]]"
-    type: uses
+- target: '[[concepts/agent-experience]]'
+  type: component_of
+- target: '[[references/llms-txt]]'
+  type: uses
+summary: Agent-Readable Docs
 ---
 
 # Agent-Readable Docs

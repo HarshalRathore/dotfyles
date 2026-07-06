@@ -1,28 +1,29 @@
 ---
-title: "W3Schools"
+title: W3Schools
 category: entities
 tags:
-  - website
-  - tutorial
-  - web-development
-  - education
+- website
+- tutorial
+- web-development
+- education
 aliases:
-  - W3Schools
+- W3Schools
 sources:
-  - "AIEF2025 - #define AI Engineer - Greg Brockman, OpenAI (ft. Jensen Huang) - https://www.youtube.com/watch?v=avWhreBUYF0"
+- 'AIEF2025 - #define AI Engineer - Greg Brockman, OpenAI (ft. Jensen Huang) - https://www.youtube.com/watch?v=avWhreBUYF0'
 provenance:
   extracted: 0.95
   inferred: 0.03
   ambiguous: 0.02
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: peripheral
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/greg-brockman|Greg Brockman]]"
-    type: taught-by
+- target: '[[entities/greg-brockman|Greg Brockman]]'
+  type: taught-by
+summary: W3Schools
 ---
 
 # W3Schools

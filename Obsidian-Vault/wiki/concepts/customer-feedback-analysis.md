@@ -1,23 +1,35 @@
 ---
 title: Customer Feedback Analysis
-tags: [customer-feedback, llm, product-management, text-analysis, prioritization]
-aliases: [customer feedback analysis, feedback synthesis]
-summary: "Using LLMs to analyze hundreds or thousands of customer feedback items, identifying feature opportunities, grouping requests, and producing actionable product recommendations."
-sources: ["[[sources/aief2025-building-the-platform-for-agent-coordination-—-tom-moor]]", "[[sources/watchv=ug9iadmi2dg]]"]
+tags:
+- customer-feedback
+- llm
+- product-management
+- text-analysis
+- prioritization
+aliases:
+- customer feedback analysis
+- feedback synthesis
+summary: Using LLMs to analyze hundreds or thousands of customer feedback items, identifying feature opportunities, grouping requests, and producing actionable product recommendations.
+sources:
+- '[[sources/aief2025-building-the-platform-for-agent-coordination-—-tom-moor]]'
+- 'https://www.youtube.com/watch?v=ug9iadmi2dg'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
-created: 2026-07-04T00:00:00Z
-updated: 2026-07-04T00:00:00Z
+created: 2026-07-04 00:00:00+00:00
+updated: 2026-07-04 00:00:00+00:00
 relationships:
-  - target: [[concepts/agentic-reasoning|Agentic Reasoning]]
-    type: uses
-  - target: [[concepts/product-intelligence|Product Intelligence]]
-    type: related_to
+- target:
+  - - concepts/agentic-reasoning|Agentic Reasoning
+  type: uses
+- target:
+  - - concepts/product-intelligence|Product Intelligence
+  type: related_to
+category: concepts
 ---
 
 # Customer Feedback Analysis

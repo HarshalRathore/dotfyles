@@ -1,32 +1,33 @@
 ---
-title: "Keycard"
+title: Keycard
 category: entities
 tags:
-  - company
-  - identity
-  - access-management
-  - ai-agents
-  - oauth
+- company
+- identity
+- access-management
+- ai-agents
+- oauth
 sources:
-  - "AIEF2025 - How to Secure Agents using OAuth — Jared Hanson (Keycard, Passport.js) - https://www.youtube.com/watch?v=blmAkayzE8M"
+- AIEF2025 - How to Secure Agents using OAuth — Jared Hanson (Keycard, Passport.js) - https://www.youtube.com/watch?v=blmAkayzE8M
 provenance:
-  extracted: 0.90
-  inferred: 0.10
-  ambiguous: 0.00
+  extracted: 0.9
+  inferred: 0.1
+  ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/jared-hanson|Jared Hanson]]"
-    type: related_to
-  - target: "[[entities/auth0|Auth0]]"
-    type: related_to
-  - target: "[[entities/okta|Okta]]"
-    type: related_to
-  - target: "[[concepts/oauth-2.0|OAuth 2.0]]"
-    type: uses
+- target: '[[entities/jared-hanson|Jared Hanson]]'
+  type: related_to
+- target: '[[entities/auth0|Auth0]]'
+  type: related_to
+- target: '[[entities/okta|Okta]]'
+  type: related_to
+- target: '[[concepts/oauth-2.0|OAuth 2.0]]'
+  type: uses
+summary: Keycard
 ---
 
 # Keycard

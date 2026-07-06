@@ -10,7 +10,7 @@ relationships:
   - target: "[[concepts/self-driving-code-review]]"
     type: related_to
 sources:
-  - "[[sources/watchv=tswqekftnaw]]"
+  - "https://www.youtube.com/watch?v=tswqekftnaw"
 summary: "The practice of studying bugs in AI-generated code using AI itself — applying LLMs to detect, classify, and categorize the types of bugs that emerge when AI accelerates code generation."
 provenance:
   extracted: 0.80

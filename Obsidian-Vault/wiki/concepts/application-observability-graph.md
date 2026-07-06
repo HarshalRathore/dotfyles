@@ -1,28 +1,29 @@
 ---
-title: "Application Observability Graph"
+title: Application Observability Graph
 tags:
-  - observability
-  - graph-database
-  - agents
-  - rag
-  - monitoring
-  - analytics
+- observability
+- graph-database
+- agents
+- rag
+- monitoring
+- analytics
 aliases:
-  - Application Memory Graph
-  - App Graph
-  - Runtime Knowledge Graph
+- Application Memory Graph
+- App Graph
+- Runtime Knowledge Graph
 sources:
-  - "[[sources/watchv=ggxaqvbwbl4]]"
-summary: "Modeling an AI application's runtime state as a property graph — sessions, prompts, responses, and retrieved context documents interconnected — for content usage analytics and agent behavior monitoring."
+- 'https://www.youtube.com/watch?v=ggxaqvbwbl4'
+summary: Modeling an AI application's runtime state as a property graph — sessions, prompts, responses, and retrieved context documents interconnected — for content usage analytics and agent behavior monito...
 provenance:
   extracted: 0.65
-  inferred: 0.30
+  inferred: 0.3
   ambiguous: 0.05
 base_confidence: 0.38
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Application Observability Graph

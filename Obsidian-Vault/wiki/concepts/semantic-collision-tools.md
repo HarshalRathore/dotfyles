@@ -9,7 +9,7 @@ tags:
   - tool-selection
 category: concepts
 sources:
-  - "[[sources/watchv=r30col3upug]]"
+  - "https://www.youtube.com/watch?v=r30col3upug"
 summary: "The accuracy degradation that occurs when too many tools are exposed to an LLM in a single prompt, caused by semantic overlap between tool definitions."
 provenance:
   extracted: 0.90

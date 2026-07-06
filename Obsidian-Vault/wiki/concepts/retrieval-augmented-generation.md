@@ -1,41 +1,41 @@
 ---
-title: "Retrieval-Augmented Generation (RAG)"
+title: Retrieval-Augmented Generation (RAG)
 category: concepts
 tags:
-  - rag
-  - retrieval
-  - inference
-  - quality
-  - llm
-  - optimization
+- rag
+- retrieval
+- inference
+- quality
+- llm
+- optimization
 aliases:
-  - RAG
-  - retrieval augmented generation
+- RAG
+- retrieval augmented generation
 sources:
-  - "AIEF2025 - Hacking the Inference Pareto Frontier - Kyle Kranen, NVIDIA - https://www.youtube.com/watch?v=Y2qc0UhDSnc"
-  - "AIEF2025 - RAG in 2025: State of the Art and the Road Forward — Tengyu Ma, MongoDB - https://www.youtube.com/watch?v=W_CYk2ogcDI"
-summary: "A technique for improving LLM output quality by retrieving relevant documents at inference time. Increases latency and cost but improves quality — a Pareto frontier shift technique that stacks with quantization."
+- AIEF2025 - Hacking the Inference Pareto Frontier - Kyle Kranen, NVIDIA - https://www.youtube.com/watch?v=Y2qc0UhDSnc
+- 'AIEF2025 - RAG in 2025: State of the Art and the Road Forward — Tengyu Ma, MongoDB - https://www.youtube.com/watch?v=W_CYk2ogcDI'
+summary: A technique for improving LLM output quality by retrieving relevant documents at inference time. Increases latency and cost but improves quality — a Pareto frontier shift technique that stacks with...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: core
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/inference-pareto-frontier|Inference Pareto Frontier]]"
-    type: shifts
-  - target: "[[concepts/quantization-inference|Quantization for Inference]]"
-    type: stacks_with
-  - target: "[[concepts/enterprise-rag|Enterprise RAG]]"
-    type: relates_to
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: relates_to
-  - target: "[[concepts/hybrid-retrieval|Hybrid Retrieval]]"
-    type: relates_to
+- target: '[[concepts/inference-pareto-frontier|Inference Pareto Frontier]]'
+  type: shifts
+- target: '[[concepts/quantization-inference|Quantization for Inference]]'
+  type: stacks_with
+- target: '[[concepts/enterprise-rag|Enterprise RAG]]'
+  type: relates_to
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: relates_to
+- target: '[[concepts/hybrid-retrieval|Hybrid Retrieval]]'
+  type: relates_to
 ---
 
 # Retrieval-Augmented Generation (RAG)

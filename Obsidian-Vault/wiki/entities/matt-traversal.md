@@ -1,19 +1,22 @@
 ---
-title: "Matt (Traversal.ai co-founder)"
+title: Matt (Traversal.ai co-founder)
 tags:
-  - person
-  - entrepreneur
-  - causal-ai
-  - observability
-  - high-frequency-trading
-  - speaker
-  - ai-eng-worlds-fair-2025
-aliases: [matt-traversal, Matt, Matt Traversal]
+- person
+- entrepreneur
+- causal-ai
+- observability
+- high-frequency-trading
+- speaker
+- ai-eng-worlds-fair-2025
+aliases:
+- matt-traversal
+- Matt
+- Matt Traversal
 sources:
-  - "[[sources/watchv=l6_nigiexzq]]"
-summary: Co-founder of Traversal.ai. Former high-frequency trading engineer who quit debugging production incidents, took a causal AI class, and joined Traversal after learning the company was building to solve incident remediation.
+- 'https://www.youtube.com/watch?v=l6_nigiexzq'
+summary: Co-founder of Traversal.ai. Former high-frequency trading engineer who quit debugging production incidents, took a causal AI class, and joined Traversal after learning the company was building to s...
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -23,12 +26,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/traversal-ai]]"
-    type: related_to
-  - target: "[[entities/anish-agarwal]]"
-    type: related_to
-  - target: "[[concepts/production-troubleshooting]]"
-    type: related_to
+- target: '[[entities/traversal-ai]]'
+  type: related_to
+- target: '[[entities/anish-agarwal]]'
+  type: related_to
+- target: '[[concepts/production-troubleshooting]]'
+  type: related_to
+category: entities
 ---
 
 # Matt (Traversal.ai co-founder)

@@ -1,25 +1,27 @@
 ---
-title: "Jon Peck"
+title: Jon Peck
 tags:
-  - entity
-  - person
-  - devrel
-  - github
-  - aief2025
-aliases: [John Peck]
+- entity
+- person
+- devrel
+- github
+- aief2025
+aliases:
+- John Peck
 sources:
-  - "[[sources/watchv=c1nivhys1si]]"
-  - "[[sources/watchv=g1hhmz6mxt0]]"
-summary: "GitHub Developer Advocate and Enterprise Advocate, speaker at AI Engineer World's Fair 2025 on organizational AI adoption, Copilot Instructions, .instructions files, and coding agent workflows. Software developer since the late 90s with 10+ years in developer advocacy."
+- 'https://www.youtube.com/watch?v=c1nivhys1si'
+- 'https://www.youtube.com/watch?v=g1hhmz6mxt0'
+summary: GitHub Developer Advocate and Enterprise Advocate, speaker at AI Engineer World's Fair 2025 on organizational AI adoption, Copilot Instructions, .instructions files, and coding agent workflows. Sof...
 provenance:
   extracted: 0.85
   inferred: 0.15
-  ambiguous: 0.00
-base_confidence: 0.70
+  ambiguous: 0.0
+base_confidence: 0.7
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Jon Peck

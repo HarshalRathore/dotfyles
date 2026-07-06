@@ -1,33 +1,38 @@
 ---
-title: "Context Engine vs RAG"
+title: Context Engine vs RAG
 tags:
-  - context-engine
-  - rag
-  - retrieval
-  - windsurf
-  - aief2025
-  - code-understanding
+- context-engine
+- rag
+- retrieval
+- windsurf
+- aief2025
+- code-understanding
 aliases:
-  - context engine
-  - context-engine-vs-rag
+- context engine
+- context-engine-vs-rag
 sources:
-  - "AIEF2025 - Mastering Engineering Flow with Windsurf - Eashan Sinha, Windsurf - https://www.youtube.com/watch?v=W_5tzQY-hVs"
+- AIEF2025 - Mastering Engineering Flow with Windsurf - Eashan Sinha, Windsurf - https://www.youtube.com/watch?v=W_5tzQY-hVs
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: [[concepts/flow-awareness|Flow Awareness]]
-    type: related_to
-  - target: [[concepts/context-engineering|Context Engineering]]
-    type: related_to
-  - target: [[concepts/hybrid-retrieval|Hybrid Retrieval]]
-    type: related_to
+- target:
+  - - concepts/flow-awareness|Flow Awareness
+  type: related_to
+- target:
+  - - concepts/context-engineering|Context Engineering
+  type: related_to
+- target:
+  - - concepts/hybrid-retrieval|Hybrid Retrieval
+  type: related_to
+category: concepts
+summary: Context Engine vs RAG
 ---
 
 # Context Engine vs RAG

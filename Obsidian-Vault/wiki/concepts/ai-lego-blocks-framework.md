@@ -4,7 +4,7 @@ category: concepts
 tags: [product-strategy, ai-product, differentiation, competitive-advantage]
 aliases: [Lego Blocks approach, AI Lego blocks, Lego block framework, assembled AI]
 sources:
-  - "[[sources/watchv=1mvh05gdyde]]"
+  - "https://www.youtube.com/watch?v=1mvh05gdyde"
 summary: "A framework for AI product differentiation: assemble off-the-shelf AI capabilities with proprietary data, functionality, and unmet customer need understanding to build moats."
 provenance:
   extracted: 0.80

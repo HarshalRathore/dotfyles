@@ -1,32 +1,33 @@
 ---
-title: "Recommendation Foundation Models"
+title: Recommendation Foundation Models
 tags:
-  - recommendation-systems
-  - foundation-model
-  - transformer
-  - personalization
-  - recsys
+- recommendation-systems
+- foundation-model
+- transformer
+- personalization
+- recsys
 aliases:
-  - RecSys Foundation Model
-  - Netflix Recommendation FM
-  - Unified Personalization Model
+- RecSys Foundation Model
+- Netflix Recommendation FM
+- Unified Personalization Model
 relationships:
-  - target: "[[concepts/unified-recommendation-models]]"
-    type: extends
-  - target: "[[concepts/recsys-event-tokenization]]"
-    type: uses
+- target: '[[concepts/unified-recommendation-models]]'
+  type: extends
+- target: '[[concepts/recsys-event-tokenization]]'
+  type: uses
 sources:
-  - "[[sources/watchv=abz4iygbfpq]]"
-summary: "Architectural pattern where a single large transformer is pre-trained on all user interaction data, then adapted via fine-tuning, embedding push, or subgraph integration for downstream recommendation tasks."
+- 'https://www.youtube.com/watch?v=abz4iygbfpq'
+summary: Architectural pattern where a single large transformer is pre-trained on all user interaction data, then adapted via fine-tuning, embedding push, or subgraph integration for downstream recommendati...
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Recommendation Foundation Models

@@ -1,24 +1,26 @@
 ---
-title: "Nagkumar Arkalgud"
+title: Nagkumar Arkalgud
 category: entities
 tags:
-  - person
-  - microsoft
-  - engineer
-  - ai-red-teaming
-  - aief2025
-aliases: [Nagkumar Arkalgud, Nagkumar]
+- person
+- microsoft
+- engineer
+- ai-red-teaming
+- aief2025
+aliases:
+- Nagkumar Arkalgud
+- Nagkumar
 relationships:
-  - target: "[[entities/azure-ai-foundry]]"
-    type: uses
-  - target: "[[entities/pyrit]]"
-    type: uses
-  - target: "[[concepts/ai-red-teaming]]"
-    type: related_to
+- target: '[[entities/azure-ai-foundry]]'
+  type: uses
+- target: '[[entities/pyrit]]'
+  type: uses
+- target: '[[concepts/ai-red-teaming]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=jhjkgramfiu]]"
+- 'https://www.youtube.com/watch?v=jhjkgramfiu'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
 base_confidence: 0.85
@@ -26,6 +28,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Nagkumar Arkalgud
 ---
 
 # Nagkumar Arkalgud

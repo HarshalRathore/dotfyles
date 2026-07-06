@@ -1,17 +1,18 @@
 ---
-title: "Etlify"
+title: Etlify
 category: entities
 tags:
-  - company
-  - data-pipeline
-  - api-first
-  - agent-experience
-  - aief2025
-aliases: [Etlify]
+- company
+- data-pipeline
+- api-first
+- agent-experience
+- aief2025
+aliases:
+- Etlify
 sources:
-  - "AIEF2025 - AX is the only Experience that Matters - Ivan Burazin, Daytona - https://www.youtube.com/watch?v=e9sLVMN76qU"
+- AIEF2025 - AX is the only Experience that Matters - Ivan Burazin, Daytona - https://www.youtube.com/watch?v=e9sLVMN76qU
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.17
   ambiguous: 0.03
 base_confidence: 0.75
@@ -21,10 +22,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/api-first-design-for-agents]]"
-    type: implements
-  - target: "[[concepts/agent-experience]]"
-    type: applies
+- target: '[[concepts/api-first-design-for-agents]]'
+  type: implements
+- target: '[[concepts/agent-experience]]'
+  type: applies
+summary: Etlify
 ---
 
 # Etlify

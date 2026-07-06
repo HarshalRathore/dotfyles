@@ -1,14 +1,14 @@
 ---
-title: "Brian Johnson"
+title: Brian Johnson
 category: entities
 tags:
-  - person
-  - tavus
-  - video-ai
-  - real-time
-  - speaker
+- person
+- tavus
+- video-ai
+- real-time
+- speaker
 sources:
-  - "AIEF2025 - Realtime Conversational Video with Pipecat and Tavus — Chad Bailey and Brian Johnson, Daily & Tavus - https://www.youtube.com/watch?v=ujt0da9Z29Q"
+- AIEF2025 - Realtime Conversational Video with Pipecat and Tavus — Chad Bailey and Brian Johnson, Daily & Tavus - https://www.youtube.com/watch?v=ujt0da9Z29Q
 provenance:
   extracted: 0.95
   inferred: 0.03
@@ -20,12 +20,13 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/tavus]]"
-    type: related_to
-  - target: "[[entities/chad-bailey]]"
-    type: related_to
-  - target: "[[entities/pipe-cat]]"
-    type: related_to
+- target: '[[entities/tavus]]'
+  type: related_to
+- target: '[[entities/chad-bailey]]'
+  type: related_to
+- target: '[[entities/pipe-cat]]'
+  type: related_to
+summary: Brian Johnson
 ---
 
 # Brian Johnson

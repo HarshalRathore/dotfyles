@@ -9,7 +9,7 @@ tags:
   - aief2025
 aliases: [Jeremy]
 sources:
-  - "[[sources/watchv=cb-4nkdynrs]]"
+  - "https://www.youtube.com/watch?v=cb-4nkdynrs"
 summary: "Product lead at Freeplay with a data science and machine learning background, co-presented at AI Engineer World's Fair 2025 on building dynamic AI products and avoiding the AI sideshow."
 provenance:
   extracted: 0.85

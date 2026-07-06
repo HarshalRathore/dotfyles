@@ -1,12 +1,12 @@
 ---
-title: "Work-Trial Interviews"
+title: Work-Trial Interviews
 category: concepts
 tags:
-  - hiring
-  - interview
-  - startup
-  - evaluation
-  - aief2025
+- hiring
+- interview
+- startup
+- evaluation
+- aief2025
 summary: Hiring process where candidates work on the team for several days as if they already joined, allowing both sides to evaluate fit through actual collaboration rather than theoretical questions.
 provenance:
   extracted: 0.85
@@ -19,10 +19,11 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/small-team-scaling]]"
-    type: extends
-  - target: "[[concepts/product-led-hiring]]"
-    type: related_to
+- target: '[[concepts/small-team-scaling]]'
+  type: extends
+- target: '[[concepts/product-led-hiring]]'
+  type: related_to
+sources: []
 ---
 
 ## Work-Trial Interviews

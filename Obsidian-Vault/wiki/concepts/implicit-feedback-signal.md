@@ -1,36 +1,37 @@
 ---
-title: "Implicit Feedback Signals"
+title: Implicit Feedback Signals
 category: concepts
 tags:
-  - feedback
-  - user-behavior
-  - evals
-  - ai-agents
-  - user-signal
-  - data-mining
+- feedback
+- user-behavior
+- evals
+- ai-agents
+- user-signal
+- data-mining
 aliases:
-  - implicit feedback
-  - behavioral signals
+- implicit feedback
+- behavioral signals
 sources:
-  - "AIEF2025 - Turning Fails into Features: Zapier's Hard-Won Eval Lessons — Rafal Willinski, Vitor Balocco, Zapier - https://www.youtube.com/watch?v=blrovBxxN9o"
-  - "AIEF2025 - How to look at your data — Jeff Huber (Chroma) + Jason Liu (567) - https://www.youtube.com/watch?v=jryZvCuA0Uc"
+- 'AIEF2025 - Turning Fails into Features: Zapier''s Hard-Won Eval Lessons — Rafal Willinski, Vitor Balocco, Zapier - https://www.youtube.com/watch?v=blrovBxxN9o'
+- AIEF2025 - How to look at your data — Jeff Huber (Chroma) + Jason Liu (567) - https://www.youtube.com/watch?v=jryZvCuA0Uc
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/explicit-feedback-strategies|Explicit Feedback Strategies]]"
-    type: contrasts-with
-  - target: "[[concepts/eval-flywheel-effect|Eval Flywheel Effect]]"
-    type: feeds-into
-  - target: "[[concepts/ai-observability-production-logging|AI Observability & Production Logging]]"
-    type: uses
+- target: '[[concepts/explicit-feedback-strategies|Explicit Feedback Strategies]]'
+  type: contrasts-with
+- target: '[[concepts/eval-flywheel-effect|Eval Flywheel Effect]]'
+  type: feeds-into
+- target: '[[concepts/ai-observability-production-logging|AI Observability & Production Logging]]'
+  type: uses
+summary: Implicit Feedback Signals
 ---
 
 # Implicit Feedback Signals

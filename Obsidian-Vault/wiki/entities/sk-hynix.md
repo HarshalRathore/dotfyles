@@ -1,28 +1,29 @@
 ---
-title: "SK Hynix"
+title: SK Hynix
 tags:
-  - company
-  - south-korea
-  - semiconductor
-  - hbm
-  - memory
+- company
+- south-korea
+- semiconductor
+- hbm
+- memory
 sources:
-  - "AIEF2025 - The Geopolitics of AI Infrastructure - Dylan Patel, SemiAnalysis - https://www.youtube.com/watch?v=Zz4QjZsYWK0"
-summary: "South Korean memory chip manufacturer and leading HBM supplier, competing with Samsung in the AI memory market."
+- AIEF2025 - The Geopolitics of AI Infrastructure - Dylan Patel, SemiAnalysis - https://www.youtube.com/watch?v=Zz4QjZsYWK0
+summary: South Korean memory chip manufacturer and leading HBM supplier, competing with Samsung in the AI memory market.
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
-updated: 2026-07-04T23:59:00Z
+updated: 2026-07-04 23:59:00+00:00
 relationships:
-  - target: "[[entities/samsung|Samsung]]"
-    type: competes_with
-  - target: "[[concepts/hbm-memory|HBM Memory]]"
-    type: produces
+- target: '[[entities/samsung|Samsung]]'
+  type: competes_with
+- target: '[[concepts/hbm-memory|HBM Memory]]'
+  type: produces
+category: entities
 ---
 
 # SK Hynix

@@ -1,35 +1,25 @@
 ---
-title: "OpenAI Agents SDK"
+title: OpenAI Agents SDK
 category: entities
 tags:
-  - sdk
-  - openai
-  - agents
-  - mcp
-  - agent-framework
-aliases:
-  - OpenAI Agents
-  - OAI Agents SDK
+- sdk
+- openai
+- agents
+- mcp
+- agent-framework
 sources:
-  - "AIEF2025 - Building Agents (the hard parts!) - Rita Kozlov, Cloudflare - https://www.youtube.com/watch?v=j_TKDweOsYE"
-summary: "OpenAI's SDK for building AI agents, released shortly before AIEF2025. Shares the same name as Cloudflare's Agents SDK but is cross-compatible — the two SDKs work and play with each other.
+- AIEF2025 - Building Agents (the hard parts!) - Rita Kozlov, Cloudflare - https://www.youtube.com/watch?v=j_TKDweOsYE
+summary: OpenAI's SDK for building AI agents, released shortly before AIEF2025. Shares the same name as Cloudflare's Agents SDK but is cross-compatible — the two SDKs work and play with each other.
 provenance:
-  extracted: 0.85
-  inferred: 0.10
-  ambiguous: 0.05
-base_confidence: 0.75
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+base_confidence: 0.42
 lifecycle: draft
-lifecycle_changed: 2026-07-04
+lifecycle_changed: '2026-07-04'
 tier: supporting
-created: 2026-07-04
-updated: 2026-07-04
-relationships:
-  - target: "[[concepts/model-context-protocol]]"
-    type: implements
-  - target: "[[entities/cloudflare-agents-sdk]]"
-    type: related_to
-  - target: "[[entities/openai]]"
-    type: owned_by
+created: '2026-07-04'
+updated: '2026-07-04'
 ---
 
 # OpenAI Agents SDK

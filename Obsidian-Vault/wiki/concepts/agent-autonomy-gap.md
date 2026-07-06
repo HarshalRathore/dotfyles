@@ -1,32 +1,36 @@
 ---
-title: "Agent Autonomy Gap"
+title: Agent Autonomy Gap
 category: concepts
 tags:
-  - ai-agents
-  - agent-autonomy
-  - agent-identity
-  - mcp
-  - agentic-economy
-aliases: [agent autonomy gap, agent independence gap, agent self-service gap]
+- ai-agents
+- agent-autonomy
+- agent-identity
+- mcp
+- agentic-economy
+aliases:
+- agent autonomy gap
+- agent independence gap
+- agent self-service gap
 sources:
-  - "AIEF2025 - The rise of the agentic economy on the shoulders of MCP — Jan Curn, Apify - https://www.youtube.com/watch?v=blW-lSd5CYQ"
+- AIEF2025 - The rise of the agentic economy on the shoulders of MCP — Jan Curn, Apify - https://www.youtube.com/watch?v=blW-lSd5CYQ
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/the-agentic-economy]]"
-    type: blocks
-  - target: "[[concepts/agent-identity-and-payments]]"
-    type: solved_by
-  - target: "[[concepts/tool-discovery]]"
-    type: partially_solved_by
+- target: '[[concepts/the-agentic-economy]]'
+  type: blocks
+- target: '[[concepts/agent-identity-and-payments]]'
+  type: solved_by
+- target: '[[concepts/tool-discovery]]'
+  type: partially_solved_by
+summary: Agent Autonomy Gap
 ---
 
 # Agent Autonomy Gap

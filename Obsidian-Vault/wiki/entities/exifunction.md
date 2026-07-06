@@ -1,11 +1,16 @@
 ---
-title: "Exifunction"
+title: Exifunction
 category: entities
-tags: [company, windsurf, gpu-optimization, aief2025, origin]
+tags:
+- company
+- windsurf
+- gpu-optimization
+- aief2025
+- origin
 aliases:
-  - Exifunction
+- Exifunction
 sources:
-  - "AIEF2025 - The Eyes Are The (Context) Window to The Soul: How Windsurf Gets to Know You — Sam Fertig, Windsurf - https://www.youtube.com/watch?v=jUv5WSPo9fk"
+- 'AIEF2025 - The Eyes Are The (Context) Window to The Soul: How Windsurf Gets to Know You — Sam Fertig, Windsurf - https://www.youtube.com/watch?v=jUv5WSPo9fk'
 provenance:
   extracted: 0.95
   inferred: 0.03
@@ -17,8 +22,9 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/windsurf]]"
-    type: predecessor_of
+- target: '[[entities/windsurf]]'
+  type: predecessor_of
+summary: Exifunction
 ---
 
 # Exifunction

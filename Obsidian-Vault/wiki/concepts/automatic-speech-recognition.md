@@ -10,7 +10,7 @@ tags:
   - transcription
 summary: Automatic Speech Recognition (ASR) — converting spoken audio to text. ElevenLabs' model benchmarks across 99 languages with word-level timestamps, speaker diarization, and audio event tagging.
 sources:
-  - "[[sources/watchv=mptcbazn84a]]"
+  - "https://www.youtube.com/watch?v=mptcbazn84a"
 provenance:
   extracted: 0.85
   inferred: 0.10

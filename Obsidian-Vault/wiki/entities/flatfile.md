@@ -1,22 +1,23 @@
 ---
-title: "Flatfile"
+title: Flatfile
 tags:
-  - company
-  - data-migration
-  - ai-platform
-  - saas
+- company
+- data-migration
+- ai-platform
+- saas
 sources:
-  - "[[sources/watchv=cimvknx-cni]]"
-summary: "Data migration and import platform that moves data between enterprise systems. Operates an AI platform layer including agents, tools, and real-time context analysis for checking, transforming, and validating data."
+- 'https://www.youtube.com/watch?v=cimvknx-cni'
+summary: Data migration and import platform that moves data between enterprise systems. Operates an AI platform layer including agents, tools, and real-time context analysis for checking, transforming, and...
 provenance:
   extracted: 0.65
-  inferred: 0.30
+  inferred: 0.3
   ambiguous: 0.05
 base_confidence: 0.55
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Flatfile

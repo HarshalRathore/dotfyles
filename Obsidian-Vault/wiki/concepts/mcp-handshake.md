@@ -1,14 +1,14 @@
 ---
-title: "MCP Handshake"
+title: MCP Handshake
 category: concepts
 tags:
-  - mcp
-  - handshake
-  - agent
-  - copilot
-  - protocol
+- mcp
+- handshake
+- agent
+- copilot
+- protocol
 sources:
-  - "[[sources/watchv=rkvilz06y08]]"
+- 'https://www.youtube.com/watch?v=rkvilz06y08'
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -18,6 +18,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: MCP Handshake
 ---
 
 # MCP Handshake

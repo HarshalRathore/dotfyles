@@ -13,16 +13,16 @@ tier: supporting
 created: 2026-07-05T00:00:00Z
 updated: 2026-07-05T00:00:00Z
 relationships:
-  - target: "[[entities/polar-signals.md]]"
+  - target: "[[entities/polar-signals]]"
     type: relates_to
-  - target: "[[entities/matthias-loibl.md]]"
+  - target: "[[entities/matthias-loibl]]"
     type: relates_to
 ---
 
 # Prometheus Operator
 
-The [[Prometheus Operator]] is an open-source Kubernetes operator for managing [[entities/prometheus.md|Prometheus]] installations and configurations. It is maintained by [[entities/matthias-loibl.md|Matthias Loibl]] at [[entities/polar-signals.md|Polar Signals]] and forms the open-source foundation of Polar Signals' profiling platform.
+The [[entities/prometheus-operator]] is an open-source Kubernetes operator for managing [[entities/prometheus|Prometheus]] installations and configurations. It is maintained by [[entities/matthias-loibl|Matthias Loibl]] at [[entities/polar-signals|Polar Signals]] and forms the open-source foundation of Polar Signals' profiling platform.
 
 The Prometheus Operator automates the deployment, configuration, and management of Prometheus instances on Kubernetes, handling tasks like service discovery, configuration generation, and monitoring of monitoring itself.
 
-Polar Signals built their continuous profiling platform on top of the Prometheus ecosystem, extending it with CPU, memory, and GPU profiling capabilities using [[concepts/ebpf.md|eBPF]].
+Polar Signals built their continuous profiling platform on top of the Prometheus ecosystem, extending it with CPU, memory, and GPU profiling capabilities using [[concepts/ebpf|eBPF]].

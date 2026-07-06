@@ -1,30 +1,30 @@
 ---
-title: "Pieces"
+title: Pieces
 category: entities
 tags:
-  - company
-  - developer-tools
-  - ai-memory
-  - offline-first
-  - microsoft-partner
+- company
+- developer-tools
+- ai-memory
+- offline-first
+- microsoft-partner
 sources:
-  - "AIEF2025 - Foundry Local: Cutting-Edge AI experiences on device with ONNX Runtime/Olive — Emma Ning, Microsoft - https://www.youtube.com/watch?v=l614N5W60ls"
-summary: "Startup by Savu (CEO/co-founder) building artificial long-term memory for developers across the OS. Explored edge small language models since 2022; partnered with Microsoft on Foundry Local for production-ready on-device AI with improved memory management and inference performance."
+- 'AIEF2025 - Foundry Local: Cutting-Edge AI experiences on device with ONNX Runtime/Olive — Emma Ning, Microsoft - https://www.youtube.com/watch?v=l614N5W60ls'
+summary: Startup by Savu (CEO/co-founder) building artificial long-term memory for developers across the OS. Explored edge small language models since 2022; partnered with Microsoft on Foundry Local for pro...
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/foundry-local|Foundry Local]]"
-    type: uses
-  - target: "[[concepts/offline-first-ai|Offline-First AI]]"
-    type: aligns_with
+- target: '[[entities/foundry-local|Foundry Local]]'
+  type: uses
+- target: '[[concepts/offline-first-ai|Offline-First AI]]'
+  type: aligns_with
 ---
 
 # Pieces

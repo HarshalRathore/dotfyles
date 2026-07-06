@@ -1,17 +1,17 @@
 ---
-title: "Why ChatGPT Keeps Interrupting You — Dr. Tom Shapland, LiveKit"
+title: Why ChatGPT Keeps Interrupting You — Dr. Tom Shapland, LiveKit
 tags:
-  - reference
-  - talk
-  - voice
-  - ai
-  - turn-taking
-  - ai-engineer
+- reference
+- talk
+- voice
+- ai
+- turn-taking
+- ai-engineer
 sources:
-  - "[[sources/watchv=1v9zbizkliy]]"
-summary: "AI Engineer World's Fair 2025 talk by Tom Shapland (LiveKit) diagnosing the turn-taking problem in voice AI agents, covering VAD limitations, human turn-taking mechanisms, semantic end-of-utterance models, and full duplex approaches."
+- 'https://www.youtube.com/watch?v=1v9zbizkliy'
+summary: AI Engineer World's Fair 2025 talk by Tom Shapland (LiveKit) diagnosing the turn-taking problem in voice AI agents, covering VAD limitations, human turn-taking mechanisms, semantic end-of-utterance...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.42
@@ -19,6 +19,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: references
 ---
 
 # Why ChatGPT Keeps Interrupting You

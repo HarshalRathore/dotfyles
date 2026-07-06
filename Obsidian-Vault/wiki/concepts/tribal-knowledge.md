@@ -1,19 +1,23 @@
 ---
-title: "Tribal Knowledge"
+title: Tribal Knowledge
 category: concepts
-tags: [tribal-knowledge, code-review, llm-limitations, organizational-memory]
+tags:
+- tribal-knowledge
+- code-review
+- llm-limitations
+- organizational-memory
 relationships:
-  - target: "[[concepts/bug-taxonomy]]"
-    type: extends
-  - target: "[[concepts/codebase-conventions]]"
-    type: related_to
-  - target: "[[concepts/ai-native-toolchain]]"
-    type: related_to
+- target: '[[concepts/bug-taxonomy]]'
+  type: extends
+- target: '[[concepts/codebase-conventions]]'
+  type: related_to
+- target: '[[concepts/ai-native-toolchain]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=tswqekftnaw]]"
-summary: "Knowledge that exists in senior developers' heads rather than documentation — such as 'we used to do it this way because X' — that LLMs cannot access and represents the hardest category for AI code review to handle."
+- 'https://www.youtube.com/watch?v=tswqekftnaw'
+summary: Knowledge that exists in senior developers' heads rather than documentation — such as 'we used to do it this way because X' — that LLMs cannot access and represents the hardest category for AI code...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.65

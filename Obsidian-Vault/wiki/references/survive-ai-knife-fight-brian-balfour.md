@@ -1,24 +1,25 @@
 ---
-title: "Survive the AI Knife Fight: Building Products That Win — Brian Balfour, Reforge"
+title: 'Survive the AI Knife Fight: Building Products That Win — Brian Balfour, Reforge'
 tags:
-  - reference
-  - talk
-  - ai-engineer
-  - product-strategy
-  - competitive-advantage
-  - differentiation
+- reference
+- talk
+- ai-engineer
+- product-strategy
+- competitive-advantage
+- differentiation
 sources:
-  - "[[sources/watchv=1mvh05gdyde]]"
-summary: "AI Engineer World's Fair 2025 talk covering product strategy for building differentiated AI products in hyper-competitive markets, introducing the AI Lego Blocks Framework."
+- 'https://www.youtube.com/watch?v=1mvh05gdyde'
+summary: AI Engineer World's Fair 2025 talk covering product strategy for building differentiated AI products in hyper-competitive markets, introducing the AI Lego Blocks Framework.
 provenance:
   extracted: 0.82
   inferred: 0.15
   ambiguous: 0.03
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: references
 ---
 
 # Survive the AI Knife Fight: Building Products That Win

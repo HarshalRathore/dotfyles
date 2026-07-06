@@ -1,36 +1,37 @@
 ---
-title: "Sustainability in AI"
+title: Sustainability in AI
 category: concepts
 tags:
-  - sustainability
-  - ai-infrastructure
-  - environment
-  - data-center
-  - energy
-  - aief2025
+- sustainability
+- ai-infrastructure
+- environment
+- data-center
+- energy
+- aief2025
 aliases:
-  - sustainable ai
-  - ai environmental impact
-  - green ai infrastructure
+- sustainable ai
+- ai environmental impact
+- green ai infrastructure
 sources:
-  - "[[sources/watchv=m6vbaig1tsm]]"
+- 'https://www.youtube.com/watch?v=m6vbaig1tsm'
 provenance:
   extracted: 0.85
   inferred: 0.15
-  ambiguous: 0.00
-base_confidence: 0.80
+  ambiguous: 0.0
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/data-center-economics|Data Center Economics]]"
-    type: related_to
-  - target: "[[concepts/gpu-marketplace|GPU Marketplace]]"
-    type: related_to
-  - target: "[[concepts/compute-allocation|Compute Allocation]]"
-    type: related_to
+- target: '[[concepts/data-center-economics|Data Center Economics]]'
+  type: related_to
+- target: '[[concepts/gpu-marketplace|GPU Marketplace]]'
+  type: related_to
+- target: '[[concepts/compute-allocation|Compute Allocation]]'
+  type: related_to
+summary: Sustainability in AI
 ---
 
 # Sustainability in AI

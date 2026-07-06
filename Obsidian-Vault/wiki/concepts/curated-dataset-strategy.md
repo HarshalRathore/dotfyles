@@ -1,24 +1,25 @@
 ---
-title: "Curated Dataset Strategy"
+title: Curated Dataset Strategy
 tags:
-  - ai
-  - evaluation
-  - data-quality
-  - methodology
-  - product
-  - testing
+- ai
+- evaluation
+- data-quality
+- methodology
+- product
+- testing
 sources:
-  - "[[sources/watchv=6ydpi9ybjbi]]"
-summary: "The practice of starting AI evaluation datasets with a small number (10-30) of handcrafted, carefully structured examples rather than generating large volumes of synthetic or dummy data."
+- 'https://www.youtube.com/watch?v=6ydpi9ybjbi'
+summary: The practice of starting AI evaluation datasets with a small number (10-30) of handcrafted, carefully structured examples rather than generating large volumes of synthetic or dummy data.
 provenance:
   extracted: 0.65
-  inferred: 0.30
+  inferred: 0.3
   ambiguous: 0.05
 base_confidence: 0.48
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Curated Dataset Strategy

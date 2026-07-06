@@ -1,18 +1,18 @@
 ---
-title: "LLM Wiki — Karpathy's Foundational Gist"
+title: LLM Wiki — Karpathy's Foundational Gist
 category: misc
 tags:
-  - llm
-  - wiki
-  - knowledge-management
-  - pattern
-  - karpathy
+- llm
+- wiki
+- knowledge-management
+- pattern
+- karpathy
 sources:
-  - "[[sources/llm-wiki]]"
-source_url: "https://gist.githubusercontent.com/karpathy/442a6bf555914893e9891c11519de94f/raw/ac46de1ad27f92b28ac95459c782c07f6b8c964a/llm-wiki.md"
-created: "2026-07-01"
-updated: "2026-07-01"
-summary: "Karpathy's original gist describing the LLM Wiki pattern — a persistent, compounding wiki maintained by LLMs, replacing ephemeral RAG with compiled knowledge."
+- '[[sources/llm-wiki]]'
+source_url: https://gist.githubusercontent.com/karpathy/442a6bf555914893e9891c11519de94f/raw/ac46de1ad27f92b28ac95459c782c07f6b8c964a/llm-wiki.md
+created: '2026-07-01'
+updated: '2026-07-01'
+summary: Karpathy's original gist describing the LLM Wiki pattern — a persistent, compounding wiki maintained by LLMs, replacing ephemeral RAG with compiled knowledge.
 affinity: {}
 promotion_status: misc
 stub: false
@@ -23,6 +23,7 @@ provenance:
 base_confidence: 0.55
 lifecycle: draft
 lifecycle_changed: 2026-07-01
+tier: supporting
 ---
 
 # LLM Wiki — Karpathy's Foundational Gist

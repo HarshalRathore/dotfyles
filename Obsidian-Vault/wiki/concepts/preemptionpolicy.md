@@ -1,16 +1,25 @@
 ---
 type: concept
-title: "preemptionPolicy"
+title: preemptionPolicy
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/priorityclasses_438f81]]"
+- '[[sources/priorityclasses_438f81]]'
 tags:
-  - scheduling
+- scheduling
 aliases:
-  - PreemptionPolicy
+- PreemptionPolicy
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: preemptionPolicy
 ---
 # preemptionPolicy
 

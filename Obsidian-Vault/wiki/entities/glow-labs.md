@@ -1,10 +1,17 @@
 ---
 title: Glow Labs
 category: entities
-tags: [company, ai, solar, incentive-protocol, aief2025, hf0-residency, crypto]
-summary: "Incentive protocol for solar panel construction. $30M funding round from Framework and USV. $10M/day on-chain DPIN revenue record. Building in India, Mexico, Lebanon. Founded by David Vorick (ex-Scalia crypto)."
+tags:
+- company
+- ai
+- solar
+- incentive-protocol
+- aief2025
+- hf0-residency
+- crypto
+summary: Incentive protocol for solar panel construction. $30M funding round from Framework and USV. $10M/day on-chain DPIN revenue record. Building in India, Mexico, Lebanon. Founded by David Vorick (ex-Sc...
 sources:
-  - "[[sources/watchv=l8-5ezsoi5a]]"
+- 'https://www.youtube.com/watch?v=l8-5ezsoi5a'
 provenance:
   extracted: 0.9
   inferred: 0.1
@@ -15,10 +22,10 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/incentive-protocols-infrastructure]]"
-    type: implements
-  - target: "[[entities/david-vorick]]"
-    type: implements
+- target: '[[concepts/incentive-protocols-infrastructure]]'
+  type: implements
+- target: '[[entities/david-vorick]]'
+  type: implements
 ---
 
 # Glow Labs

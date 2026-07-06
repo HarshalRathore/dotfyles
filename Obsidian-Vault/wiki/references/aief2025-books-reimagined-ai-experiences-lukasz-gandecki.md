@@ -4,7 +4,7 @@ category: references
 tags: [aief2025, talk, books, ai-experiences, vibe-coding, voice-assistants, open-source, thebrain-pro]
 summary: "Łukasz Gądecki's AIEF2025 talk on Books Reimagined — AI-powered multimodal book experiences, vibe coding methodology, and open-sourcing the book player."
 sources:
-  - "[[sources/watchv=kcka7rzcxlk]]"
+  - "https://www.youtube.com/watch?v=kcka7rzcxlk"
 provenance: { extracted: 1.0, inferred: 0.0, ambiguous: 0.0 }
 base_confidence: 0.95
 lifecycle: draft

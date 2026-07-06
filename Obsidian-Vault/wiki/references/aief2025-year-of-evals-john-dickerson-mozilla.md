@@ -1,25 +1,28 @@
 ---
-title: "2025 is the Year of Evals! Just like 2024, and 2023, and … — John Dickerson, CEO Mozilla AI"
+title: 2025 is the Year of Evals! Just like 2024, and 2023, and … — John Dickerson, CEO Mozilla AI
 tags:
-  - reference
-  - talk
-  - aief2025
-  - evaluation
-  - monitoring
-  - market
-aliases: [AIEF2025 John Dickerson Year of Evals, John Dickerson Mozilla AI talk]
+- reference
+- talk
+- aief2025
+- evaluation
+- monitoring
+- market
+aliases:
+- AIEF2025 John Dickerson Year of Evals
+- John Dickerson Mozilla AI talk
 sources:
-  - "[[sources/watchv=cqguvf6gsrm]]"
-summary: "John Dickerson (CEO, Mozilla AI, former co-founder Arthur AI) argues that three converging forces finally make 2025 the real year of AI evaluation: ChatGPT, budget freezes, and the rise of agentic systems."
+- 'https://www.youtube.com/watch?v=cqguvf6gsrm'
+summary: 'John Dickerson (CEO, Mozilla AI, former co-founder Arthur AI) argues that three converging forces finally make 2025 the real year of AI evaluation: ChatGPT, budget freezes, and the rise of agentic...'
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
-created: 2026-07-03T08:13:21Z
-updated: 2026-07-03T08:13:21Z
+created: 2026-07-03 08:13:21+00:00
+updated: 2026-07-03 08:13:21+00:00
+category: references
 ---
 
 # 2025 is the Year of Evals! Just like 2024, and 2023, and …

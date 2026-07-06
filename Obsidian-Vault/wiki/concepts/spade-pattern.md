@@ -1,16 +1,16 @@
 ---
-title: "SPADE Pattern"
+title: SPADE Pattern
 tags:
-  - ai-intensive
-  - pattern
-  - architecture
-  - workflow
-  - orchestration
-  - multi-step
+- ai-intensive
+- pattern
+- architecture
+- workflow
+- orchestration
+- multi-step
 sources:
-  - "[[sources/watchv=ihkyfhu6jey]]"
+- 'https://www.youtube.com/watch?v=ihkyfhu6jey'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.65
@@ -18,6 +18,8 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+category: concepts
+summary: SPADE Pattern
 ---
 
 # SPADE Pattern

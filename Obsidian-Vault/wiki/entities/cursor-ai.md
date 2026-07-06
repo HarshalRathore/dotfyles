@@ -1,23 +1,26 @@
 ---
-title: "Cursor"
+title: Cursor
 tags:
-  - organization
-  - ai
-  - developer-tools
-  - code-editor
-aliases: [Cursor AI, cursor.dev]
+- organization
+- ai
+- developer-tools
+- code-editor
+aliases:
+- Cursor AI
+- cursor.dev
 sources:
-  - "[[sources/watchv=3mzs5gnelzm]]"
-summary: "AI-native code editor and the archetypal AI application company. Grew from $1M to $100M ARR in 12 months with zero salespeople. Valued at ~$14-15B."
+- 'https://www.youtube.com/watch?v=3mzs5gnelzm'
+summary: AI-native code editor and the archetypal AI application company. Grew from $1M to $100M ARR in 12 months with zero salespeople. Valued at ~$14-15B.
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.55
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Cursor

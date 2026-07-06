@@ -1,17 +1,26 @@
 ---
 type: concept
-title: "Human vs Machine Users"
+title: Human vs Machine Users
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/🔐-security-in-kubernetes_0a37d1]]"
+- '[[sources/🔐-security-in-kubernetes_0a37d1]]'
 tags:
-  - deployment
+- deployment
 aliases:
-  - K8s User Types
-  - User Types in Kubernetes
+- K8s User Types
+- User Types in Kubernetes
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Human vs Machine Users
 ---
 # Human vs Machine Users
 

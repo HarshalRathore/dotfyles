@@ -4,7 +4,7 @@ category: entities
 tags: [person, engineer, luma-ai, queue-management, ml-infrastructure]
 summary: Luma AI engineer affected by queue management challenges in Dream Machine's inference serving architecture.
 sources:
-  - "[[sources/watchv=ey4o9m6aswi]]"
+  - "https://www.youtube.com/watch?v=ey4o9m6aswi"
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -16,11 +16,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[luma-ai]]"
+  - target: "[[entities/luma-ai]]"
     type: related_to
-  - target: "[[sorish]]"
+  - target: "[[entities/sorish]]"
     type: related_to
-  - target: "[[keegan-mccallum]]"
+  - target: "[[entities/keegan-mccallum]]"
     type: related_to
 ---
 

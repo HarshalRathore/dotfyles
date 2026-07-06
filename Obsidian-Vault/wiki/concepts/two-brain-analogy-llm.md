@@ -1,33 +1,34 @@
 ---
-title: "Two-Brain Analogy: LLMs and Knowledge Graphs"
+title: 'Two-Brain Analogy: LLMs and Knowledge Graphs'
 category: concepts
 tags:
-  - llm
-  - knowledge-graph
-  - graphrag
-  - cognitive-analogy
-  - reasoning
+- llm
+- knowledge-graph
+- graphrag
+- cognitive-analogy
+- reasoning
 aliases:
-  - Left Brain Right Brain AI
-  - Creative vs Logical AI
+- Left Brain Right Brain AI
+- Creative vs Logical AI
 sources:
-  - "AIEF2025 - Practical GraphRAG: Making LLMs smarter with Knowledge Graphs — Michael, Jesus, and Stephen, Neo4j - https://www.youtube.com/watch?v=XNneh6-eyPg"
+- 'AIEF2025 - Practical GraphRAG: Making LLMs smarter with Knowledge Graphs — Michael, Jesus, and Stephen, Neo4j - https://www.youtube.com/watch?v=XNneh6-eyPg'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: related_to
-  - target: "[[concepts/llm-hallucination-detection|LLM Hallucination]]"
-    type: related_to
-  - target: "[[concepts/brain-memory-analogy|Brain Memory Analogy]]"
-    type: related_to
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: related_to
+- target: '[[concepts/llm-hallucination-detection|LLM Hallucination]]'
+  type: related_to
+- target: '[[concepts/brain-memory-analogy|Brain Memory Analogy]]'
+  type: related_to
+summary: 'Two-Brain Analogy: LLMs and Knowledge Graphs'
 ---
 
 # Two-Brain Analogy: LLMs and Knowledge Graphs

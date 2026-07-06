@@ -1,23 +1,29 @@
 ---
-title: "Karpathy's Autoresearch found a 3-year-old bug in our query engine (and improved performance by 11%)"
+title: Karpathy's Autoresearch found a 3-year-old bug in our query engine (and improved performance by 11%)
 category: misc
-tags: [ai, query-optimization, clickhouse, engineering, agent-loop]
+tags:
+- ai
+- query-optimization
+- clickhouse
+- engineering
+- agent-loop
 sources:
-  - "[[sources/karpathy-autoresearch-query-engine-bug]]"
-source_url: "https://posthog.com/blog/karpathy-autoresearch-query-engine-bug"
-created: 2026-06-30T23:15:00Z
-updated: 2026-06-30T23:15:00Z
-summary: "PostHog's engineering team applied Karpathy's autoresearch pattern to ClickHouse query optimization, finding a 3-year-old timezone wrapping bug that prevented primary key usage and improving query performance by 11-37%."
+- '[[sources/karpathy-autoresearch-query-engine-bug]]'
+source_url: https://posthog.com/blog/karpathy-autoresearch-query-engine-bug
+created: 2026-06-30 23:15:00+00:00
+updated: 2026-06-30 23:15:00+00:00
+summary: PostHog's engineering team applied Karpathy's autoresearch pattern to ClickHouse query optimization, finding a 3-year-old timezone wrapping bug that prevented primary key usage and improving query...
 affinity: {}
 promotion_status: misc
 stub: false
 provenance:
   extracted: 0.88
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.02
 base_confidence: 0.45
 lifecycle: draft
 lifecycle_changed: 2026-06-30
+tier: supporting
 ---
 
 # Karpathy's Autoresearch found a 3-year-old bug in our query engine (and improved performance by 11%)
@@ -48,7 +54,7 @@ The fix: rewriting comparisons so the bare `timestamp` field sits on the left si
 ## Entities
 
 - [[entities/andrej-karpathy]] — AI researcher who packaged and named the autoresearch pattern
-- [[posthog]] — The company that applied this technique to find a ClickHouse query bug
+- [[entities/posthog]] — The company that applied this technique to find a ClickHouse query bug
 - [[entities/clickhouse]] — The column-oriented database whose query engine was being optimized
 
 ## Open Questions

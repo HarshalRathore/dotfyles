@@ -1,17 +1,26 @@
 ---
 type: concept
-title: "ServiceAccounts"
+title: ServiceAccounts
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/🔐-security-in-kubernetes_0a37d1]]"
+- '[[sources/🔐-security-in-kubernetes_0a37d1]]'
 tags:
-  - security
+- security
 aliases:
-  - K8s Service Account
-  - K8s Service Accounts
+- K8s Service Account
+- K8s Service Accounts
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: ServiceAccounts
 ---
 # ServiceAccounts
 

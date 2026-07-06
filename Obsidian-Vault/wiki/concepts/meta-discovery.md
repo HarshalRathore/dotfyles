@@ -1,16 +1,19 @@
 ---
-title: "Meta Discovery"
+title: Meta Discovery
 category: concepts
 tags:
-  - meta-discovery
-  - mcp
-  - agent-debugging
-  - autonomous-agents
-  - observability
-  - aief2025
-aliases: [meta-discovery, Meta Discovery, self-discovery]
+- meta-discovery
+- mcp
+- agent-debugging
+- autonomous-agents
+- observability
+- aief2025
+aliases:
+- meta-discovery
+- Meta Discovery
+- self-discovery
 sources:
-  - "[[sources/watchv=lcqat4ip_le]]"
+- 'https://www.youtube.com/watch?v=lcqat4ip_le'
 provenance:
   extracted: 0.95
   inferred: 0.04
@@ -22,12 +25,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/mcp-observability]]"
-    type: related_to
-  - target: "[[entities/weave]]"
-    type: uses
-  - target: "[[concepts/agent-to-agent-observability]]"
-    type: extends
+- target: '[[concepts/mcp-observability]]'
+  type: related_to
+- target: '[[entities/weave]]'
+  type: uses
+- target: '[[concepts/agent-to-agent-observability]]'
+  type: extends
+summary: Meta Discovery
 ---
 
 # Meta Discovery

@@ -1,25 +1,26 @@
 ---
-title: "Agents with Models of Mind"
+title: Agents with Models of Mind
 tags:
-  - theory
-  - agents
-  - ai
+- theory
+- agents
+- ai
 aliases:
-  - theory of mind for agents
-  - agent models of mind
-  - mind-reading agents
+- theory of mind for agents
+- agent models of mind
+- mind-reading agents
 sources:
-  - "[[sources/watchv=dj0b_cebhhi]]"
-summary: "Danielle Perszyk's argument that for AI agents to be truly reliable and general-purpose, they will eventually need models of human minds — the ability to infer and reason about human goals, beliefs, and intentions, not just execute instructions."
+- 'https://www.youtube.com/watch?v=dj0b_cebhhi'
+summary: Danielle Perszyk's argument that for AI agents to be truly reliable and general-purpose, they will eventually need models of human minds — the ability to infer and reason about human goals, beliefs...
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.55
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Agents with Models of Mind

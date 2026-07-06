@@ -1,29 +1,30 @@
 ---
-title: "Mitesh Patel"
+title: Mitesh Patel
 tags:
-  - person
-  - nvidia
-  - developer-advocate
-  - rag
-  - ai-engineer-worlds-fair
+- person
+- nvidia
+- developer-advocate
+- rag
+- ai-engineer-worlds-fair
 aliases:
-  - Mitesh Patel
-  - mitesh-patel
+- Mitesh Patel
+- mitesh-patel
 sources:
-  - "[[sources/watchv=-tgqa8fzf80]]"
-summary: "Lead of the Developer Advocate team at NVIDIA, specializing in creating technical workflows and notebooks for RAG systems, GraphRAG, and HybridRAG."
+- 'https://www.youtube.com/watch?v=-tgqa8fzf80'
+summary: Lead of the Developer Advocate team at NVIDIA, specializing in creating technical workflows and notebooks for RAG systems, GraphRAG, and HybridRAG.
 provenance:
-  extracted: 0.80
-  inferred: 0.20
-  ambiguous: 0.00
+  extracted: 0.8
+  inferred: 0.2
+  ambiguous: 0.0
 base_confidence: 0.42
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
 relationships:
-  - target: "[[entities/nvidia|NVIDIA]]"
-    type: related_to
+- target: '[[entities/nvidia|NVIDIA]]'
+  type: related_to
+category: entities
 ---
 
 # Mitesh Patel

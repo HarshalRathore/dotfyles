@@ -1,26 +1,39 @@
 ---
-title: "Replicate"
+title: Replicate
 category: entities
-tags: [replicate, ai-platform, cloud-compute, openai, anthropic, google, black-bforest-labs, flux-models, cog, mcp]
-summary: "Cloud platform for running AI models via API. Hosts open source models (Flux from Black Forest Labs) and proprietary models (Anthropic, OpenAI, Google). Created cog for containerizing ML models and an MCP server for Claude integration."
+tags:
+- replicate
+- ai-platform
+- cloud-compute
+- openai
+- anthropic
+- google
+- black-bforest-labs
+- flux-models
+- cog
+- mcp
+summary: Cloud platform for running AI models via API. Hosts open source models (Flux from Black Forest Labs) and proprietary models (Anthropic, OpenAI, Google). Created cog for containerizing ML models and...
 sources:
-  - "AIEF2025 - Design like Karpathy is watching — Zeke Sikelianos, Replicate - https://www.youtube.com/watch?v=huQPkrwVWwc"
-provenance: { extracted: 0.85, inferred: 0.15, ambiguous: 0.0 }
+- AIEF2025 - Design like Karpathy is watching — Zeke Sikelianos, Replicate - https://www.youtube.com/watch?v=huQPkrwVWwc
+provenance:
+  extracted: 0.85
+  inferred: 0.15
+  ambiguous: 0.0
 base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
-created: 2026-07-04T00:00:00Z
-updated: 2026-07-04T00:00:00Z
+created: 2026-07-04 00:00:00+00:00
+updated: 2026-07-04 00:00:00+00:00
 relationships:
-  - target: "[[concepts/cog-container|Cog]]"
-    type: implements
-  - target: "[[concepts/mcp|Model Context Protocol]]"
-    type: uses
-  - target: "[[concepts/llms-txt|LLMs.txt]]"
-    type: uses
-  - target: "[[entities/andre-karpathy|Andre Karpathy]]"
-    type: related_to
+- target: '[[concepts/cog-container|Cog]]'
+  type: implements
+- target: '[[concepts/mcp|Model Context Protocol]]'
+  type: uses
+- target: '[[concepts/llms-txt|LLMs.txt]]'
+  type: uses
+- target: '[[entities/andre-karpathy|Andre Karpathy]]'
+  type: related_to
 ---
 
 ## Replicate

@@ -1,17 +1,20 @@
 ---
-title: "Agent-to-Agent Observability"
+title: Agent-to-Agent Observability
 category: concepts
 tags:
-  - agent-observability
-  - mcp
-  - distributed-tracing
-  - meta-observability
-  - autonomous-debugging
-aliases: [agent-to-agent observability, meta observability, agent self-observability]
+- agent-observability
+- mcp
+- distributed-tracing
+- meta-observability
+- autonomous-debugging
+aliases:
+- agent-to-agent observability
+- meta observability
+- agent self-observability
 sources:
-  - "[[sources/watchv=lcqat4ip_le]]"
+- 'https://www.youtube.com/watch?v=lcqat4ip_le'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -21,12 +24,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/mcp-observability]]"
-    type: extends
-  - target: "[[concepts/distributed-tracing]]"
-    type: related_to
-  - target: "[[entities/weave]]"
-    type: related_to
+- target: '[[concepts/mcp-observability]]'
+  type: extends
+- target: '[[concepts/distributed-tracing]]'
+  type: related_to
+- target: '[[entities/weave]]'
+  type: related_to
+summary: Agent-to-Agent Observability
 ---
 
 # Agent-to-Agent Observability

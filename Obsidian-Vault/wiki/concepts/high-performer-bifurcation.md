@@ -1,34 +1,35 @@
 ---
-title: "High Performer Bifurcation"
+title: High Performer Bifurcation
 category: concepts
 tags:
-  - enterprise-ai
-  - adoption
-  - performance
-  - strategy
+- enterprise-ai
+- adoption
+- performance
+- strategy
 aliases:
-  - AI Leaders vs Laggards
-  - High Performer Gap
+- AI Leaders vs Laggards
+- High Performer Gap
 sources:
-  - "AIEF2025 - AI Consulting in Practice – NLW, Superintelligent, @AIDailyBrief - https://www.youtube.com/watch?v=ehQFj6VmuI8"
-  - "McKinsey State of AI Study"
+- AIEF2025 - AI Consulting in Practice – NLW, Superintelligent, @AIDailyBrief - https://www.youtube.com/watch?v=ehQFj6VmuI8
+- McKinsey State of AI Study
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/enterprise-ai-adoption|Enterprise AI Adoption]]"
-    type: describes
-  - target: "[[concepts/pilot-to-scale-bottleneck|Pilot-to-Scale Bottleneck]]"
-    type: related_to
-  - target: "[[concepts/ai-impact-categories|AI Impact Categories]]"
-    type: related_to
+- target: '[[concepts/enterprise-ai-adoption|Enterprise AI Adoption]]'
+  type: describes
+- target: '[[concepts/pilot-to-scale-bottleneck|Pilot-to-Scale Bottleneck]]'
+  type: related_to
+- target: '[[concepts/ai-impact-categories|AI Impact Categories]]'
+  type: related_to
+summary: High Performer Bifurcation
 ---
 
 # High Performer Bifurcation

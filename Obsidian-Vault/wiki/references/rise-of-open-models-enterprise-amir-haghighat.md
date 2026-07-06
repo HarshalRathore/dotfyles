@@ -1,23 +1,24 @@
 ---
-title: "The Rise of Open Models in the Enterprise — Amir Haghighat, Baseten"
+title: The Rise of Open Models in the Enterprise — Amir Haghighat, Baseten
 tags:
-  - reference
-  - talk
-  - ai-engineer
-  - enterprise
-  - open-models
+- reference
+- talk
+- ai-engineer
+- enterprise
+- open-models
 sources:
-  - "[[sources/watchv=3wv1vt0b0cg]]"
-summary: "Amir Haghighat draws on 100+ enterprise conversations to trace the shift from closed frontier API models toward open models — the four cracks in the closed-model assumption and the operational dragons of self-hosted inference."
+- 'https://www.youtube.com/watch?v=3wv1vt0b0cg'
+summary: Amir Haghighat draws on 100+ enterprise conversations to trace the shift from closed frontier API models toward open models — the four cracks in the closed-model assumption and the operational drag...
 provenance:
   extracted: 0.78
   inferred: 0.17
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: references
 ---
 
 # The Rise of Open Models in the Enterprise — Amir Haghighat, Baseten

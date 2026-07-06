@@ -4,7 +4,7 @@ category: references
 tags: [reference, talk, aief2025, fuzz-testing, ai-reliability, qa, evaluation, property-based-testing, brittleness]
 summary: "Leonard Tang (Haize Labs) at AIEF2025 on applying property-based/fuzz testing to GenAI — brittleness, Lipschitz discontinuity, LLM-as-judge problems, and scaling judge time compute."
 sources:
-  - "[[sources/watchv=omgpvw8tbhc]]"
+  - "https://www.youtube.com/watch?v=omgpvw8tbhc"
 provenance:
   extracted: 0.95
   inferred: 0.03

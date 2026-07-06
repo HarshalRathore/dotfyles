@@ -1,33 +1,38 @@
 ---
-title: "Flow Awareness"
+title: Flow Awareness
 tags:
-  - flow-awareness
-  - user-intent
-  - agent
-  - context
-  - windsurf
-  - aief2025
+- flow-awareness
+- user-intent
+- agent
+- context
+- windsurf
+- aief2025
 aliases:
-  - flow awareness
-  - flow-aware agent
+- flow awareness
+- flow-aware agent
 sources:
-  - "AIEF2025 - Mastering Engineering Flow with Windsurf - Eashan Sinha, Windsurf - https://www.youtube.com/watch?v=W_5tzQY-hVs"
+- AIEF2025 - Mastering Engineering Flow with Windsurf - Eashan Sinha, Windsurf - https://www.youtube.com/watch?v=W_5tzQY-hVs
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: [[concepts/ai-flows|AI Flows]]
-    type: extends
-  - target: [[concepts/context-engineering|Context Engineering]]
-    type: related_to
-  - target: [[concepts/dynamic-context-ai|Dynamic Context AI]]
-    type: related_to
+- target:
+  - - concepts/ai-flows|AI Flows
+  type: extends
+- target:
+  - - concepts/context-engineering|Context Engineering
+  type: related_to
+- target:
+  - - concepts/dynamic-context-ai|Dynamic Context AI
+  type: related_to
+category: concepts
+summary: Flow Awareness
 ---
 
 # Flow Awareness

@@ -1,16 +1,16 @@
 ---
-title: "Local and Global Queries in GraphRAG"
+title: Local and Global Queries in GraphRAG
 category: concepts
 tags:
-  - graphrag
-  - retrieval
-  - querying
-  - knowledge-graph
-  - code-understanding
+- graphrag
+- retrieval
+- querying
+- knowledge-graph
+- code-understanding
 sources:
-  - "AIEF2025 - GraphRAG methods to create optimized LLM context windows for Retrieval — Jonathan Larson, Microsoft - https://www.youtube.com/watch?v=c5qJHr3DnT4"
+- AIEF2025 - GraphRAG methods to create optimized LLM context windows for Retrieval — Jonathan Larson, Microsoft - https://www.youtube.com/watch?v=c5qJHr3DnT4
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -20,12 +20,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: extends
-  - target: "[[concepts/graphrag-code|GraphRAG for Code]]"
-    type: used-in
-  - target: "[[concepts/multi-hop-retrieval|Multi-Hop Retrieval]]"
-    type: related_to
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: extends
+- target: '[[concepts/graphrag-code|GraphRAG for Code]]'
+  type: used-in
+- target: '[[concepts/multi-hop-retrieval|Multi-Hop Retrieval]]'
+  type: related_to
+summary: Local and Global Queries in GraphRAG
 ---
 
 # Local and Global Queries in GraphRAG

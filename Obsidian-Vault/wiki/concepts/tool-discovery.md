@@ -1,17 +1,20 @@
 ---
-title: "Tool Discovery"
+title: Tool Discovery
 category: concepts
 tags:
-  - mcp
-  - tool-discovery
-  - dynamic-discovery
-  - ai-agents
-  - model-context-protocol
-aliases: [dynamic tool discovery, tool discovery, MCP tool discovery]
+- mcp
+- tool-discovery
+- dynamic-discovery
+- ai-agents
+- model-context-protocol
+aliases:
+- dynamic tool discovery
+- tool discovery
+- MCP tool discovery
 sources:
-  - "AIEF2025 - The rise of the agentic economy on the shoulders of MCP — Jan Curn, Apify - https://www.youtube.com/watch?v=blW-lSd5CYQ"
+- AIEF2025 - The rise of the agentic economy on the shoulders of MCP — Jan Curn, Apify - https://www.youtube.com/watch?v=blW-lSd5CYQ
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.75
@@ -21,12 +24,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/mcp-dynamic-tool-discovery|MCP Dynamic Tool Discovery]]"
-    type: related_to
-  - target: "[[concepts/the-agentic-economy]]"
-    type: enables
-  - target: "[[entities/apify]]"
-    type: used_by
+- target: '[[concepts/mcp-dynamic-tool-discovery|MCP Dynamic Tool Discovery]]'
+  type: related_to
+- target: '[[concepts/the-agentic-economy]]'
+  type: enables
+- target: '[[entities/apify]]'
+  type: used_by
+summary: Tool Discovery
 ---
 
 # Tool Discovery

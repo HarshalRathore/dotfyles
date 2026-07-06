@@ -4,7 +4,7 @@ category: entities
 tags: [person, programmer, entrepreneur, speaker, aief2025, thebrain-pro]
 summary: "Polish programmer and founder of TheBrain.pro. Creator of Books Reimagined — AI-powered multimodal book experiences. Vibe-coding advocate."
 sources:
-  - "[[sources/watchv=kcka7rzcxlk]]"
+  - "https://www.youtube.com/watch?v=kcka7rzcxlk"
 provenance: { extracted: 1.0, inferred: 0.0, ambiguous: 0.0 }
 base_confidence: 0.95
 lifecycle: draft

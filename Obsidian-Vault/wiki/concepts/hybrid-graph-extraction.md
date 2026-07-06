@@ -1,21 +1,21 @@
 ---
-title: "Hybrid Graph Extraction"
+title: Hybrid Graph Extraction
 tags:
-  - knowledge-graph
-  - extraction
-  - llm
-  - ontology
-  - methodology
+- knowledge-graph
+- extraction
+- llm
+- ontology
+- methodology
 aliases:
-  - LLM + Expert Graph Extraction
-  - Semi-Automated Graph Extraction
+- LLM + Expert Graph Extraction
+- Semi-Automated Graph Extraction
 sources:
-  - "[[sources/watchv=9aqovt8lnmi]]"
-  - "[[sources/watchv=-tgqa8fzf80]]"
-summary: "A graph construction methodology that combines fully automated LLM triplet extraction with manual expert taxonomy refinement, where domain experts prune and correct the auto-extracted graph to ensure quality."
+- 'https://www.youtube.com/watch?v=9aqovt8lnmi'
+- 'https://www.youtube.com/watch?v=-tgqa8fzf80'
+summary: A graph construction methodology that combines fully automated LLM triplet extraction with manual expert taxonomy refinement, where domain experts prune and correct the auto-extracted graph to ensu...
 provenance:
   extracted: 0.65
-  inferred: 0.30
+  inferred: 0.3
   ambiguous: 0.05
 base_confidence: 0.35
 lifecycle: draft
@@ -23,14 +23,15 @@ tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
 relationships:
-  - target: "[[concepts/knowledge-graph-ontology-design|Knowledge Graph Ontology Design]]"
-    type: uses
-  - target: "[[concepts/triplet-extraction|Triplet Extraction]]"
-    type: uses
-  - target: "[[concepts/kag-knowledge-augmented-generation|KAG]]"
-    type: used_by
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: used_by
+- target: '[[concepts/knowledge-graph-ontology-design|Knowledge Graph Ontology Design]]'
+  type: uses
+- target: '[[concepts/triplet-extraction|Triplet Extraction]]'
+  type: uses
+- target: '[[concepts/kag-knowledge-augmented-generation|KAG]]'
+  type: used_by
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: used_by
+category: concepts
 ---
 
 # Hybrid Graph Extraction

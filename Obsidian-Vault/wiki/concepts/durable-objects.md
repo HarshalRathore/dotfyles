@@ -1,21 +1,21 @@
 ---
-title: "Durable Objects"
+title: Durable Objects
 category: concepts
 tags:
-  - durable-objects
-  - cloudflare
-  - serverless
-  - stateful-serverless
-  - agent-state
-  - workers
+- durable-objects
+- cloudflare
+- serverless
+- stateful-serverless
+- agent-state
+- workers
 aliases:
-  - Cloudflare Durable Objects
+- Cloudflare Durable Objects
 sources:
-  - "AIEF2025 - Building Agents (the hard parts!) - Rita Kozlov, Cloudflare - https://www.youtube.com/watch?v=j_TKDweOsYE"
-summary: "Cloudflare's serverless primitive with persistent state, analogous to serverless functions but with state management. Used by Cloudflare's Agents SDK to provide built-in state management for MCP servers and agent workflows."
+- AIEF2025 - Building Agents (the hard parts!) - Rita Kozlov, Cloudflare - https://www.youtube.com/watch?v=j_TKDweOsYE
+summary: Cloudflare's serverless primitive with persistent state, analogous to serverless functions but with state management. Used by Cloudflare's Agents SDK to provide built-in state management for MCP se...
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.75
 lifecycle: draft
@@ -24,12 +24,12 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/agent-architecture]]"
-    type: enables
-  - target: "[[concepts/model-context-protocol]]"
-    type: enables
-  - target: "[[entities/cloudflare]]"
-    type: owned_by
+- target: '[[concepts/agent-architecture]]'
+  type: enables
+- target: '[[concepts/model-context-protocol]]'
+  type: enables
+- target: '[[entities/cloudflare]]'
+  type: owned_by
 ---
 
 # Durable Objects

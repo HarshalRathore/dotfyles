@@ -1,22 +1,22 @@
 ---
-title: "Building Agents (the hard parts!) - Rita Kozlov, Cloudflare"
+title: Building Agents (the hard parts!) - Rita Kozlov, Cloudflare
 category: references
 tags:
-  - reference
-  - talk
-  - agents
-  - mcp
-  - cloudflare
-  - agent-architecture
-  - ai-eng-fair-2025
+- reference
+- talk
+- agents
+- mcp
+- cloudflare
+- agent-architecture
+- ai-eng-fair-2025
 sources:
-  - "AIEF2025 - Building Agents (the hard parts!) - Rita Kozlov, Cloudflare - https://www.youtube.com/watch?v=j_TKDweOsYE"
-summary: "Rita Kozlov, VP of Product for Cloudflare's developer platform, presents a four-component framework for building agents (client, AI reasoning, workflows, tools), introduces MCP as the standard for exposing APIs to LLMs, and showcases Cloudflare's Agents SDK as a production-ready toolkit."
+- AIEF2025 - Building Agents (the hard parts!) - Rita Kozlov, Cloudflare - https://www.youtube.com/watch?v=j_TKDweOsYE
+summary: Rita Kozlov, VP of Product for Cloudflare's developer platform, presents a four-component framework for building agents (client, AI reasoning, workflows, tools), introduces MCP as the standard for...
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting

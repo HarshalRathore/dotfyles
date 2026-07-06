@@ -1,23 +1,23 @@
 ---
-title: "RAG Evaluation"
+title: RAG Evaluation
 tags:
-  - rag
-  - evaluation
-  - metrics
-  - ragas
-  - llm-as-judge
-  - reward-model
-  - testing
+- rag
+- evaluation
+- metrics
+- ragas
+- llm-as-judge
+- reward-model
+- testing
 aliases:
-  - RAG Evaluation Metrics
-  - End-to-End RAG Evaluation
+- RAG Evaluation Metrics
+- End-to-End RAG Evaluation
 sources:
-  - "[[sources/watchv=-tgqa8fzf80]]"
-  - "[[sources/watchv=w1mizchnkfa]]"
-  - "AIEF2025 - How Intuit uses LLMs to explain taxes to millions of taxpayers - Jaspreet Singh, Intuit - https://www.youtube.com/watch?v=_zl_zimMRak"
-summary: "End-to-end evaluation of RAG pipelines using dedicated libraries (Ragas) and reward models, measuring response quality, retrieval quality, and query interpretation. Includes eval spectrum from expert review to automated metrics."
+- 'https://www.youtube.com/watch?v=-tgqa8fzf80'
+- 'https://www.youtube.com/watch?v=w1mizchnkfa'
+- AIEF2025 - How Intuit uses LLMs to explain taxes to millions of taxpayers - Jaspreet Singh, Intuit - https://www.youtube.com/watch?v=_zl_zimMRak
+summary: End-to-end evaluation of RAG pipelines using dedicated libraries (Ragas) and reward models, measuring response quality, retrieval quality, and query interpretation. Includes eval spectrum from expe...
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.23
   ambiguous: 0.07
 base_confidence: 0.45
@@ -26,10 +26,11 @@ tier: supporting
 created: 2026-07-03
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/hybridrag|HybridRAG]]"
-    type: related_to
-  - target: "[[entities/ragas|Ragas]]"
-    type: uses
+- target: '[[concepts/hybridrag|HybridRAG]]'
+  type: related_to
+- target: '[[entities/ragas|Ragas]]'
+  type: uses
+category: concepts
 ---
 
 # RAG Evaluation

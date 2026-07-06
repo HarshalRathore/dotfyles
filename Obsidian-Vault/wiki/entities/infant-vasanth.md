@@ -1,28 +1,29 @@
 ---
-title: "Infant Vasanth"
+title: Infant Vasanth
 tags:
-  - person
-  - blackrock
-  - ai-engineer-worlds-fair
-  - director-of-engineering
+- person
+- blackrock
+- ai-engineer-worlds-fair
+- director-of-engineering
 aliases:
-  - Infant Vasanth
-  - infant-vasanth
+- Infant Vasanth
+- infant-vasanth
 sources:
-  - "[[sources/watchv=08mh36_nvos]]"
-summary: "Director of Engineering at BlackRock, working on the data platform team, focused on building AI knowledge applications and the sandbox + app factory framework for enterprise AI at scale."
+- 'https://www.youtube.com/watch?v=08mh36_nvos'
+summary: Director of Engineering at BlackRock, working on the data platform team, focused on building AI knowledge applications and the sandbox + app factory framework for enterprise AI at scale.
 provenance:
   extracted: 0.85
   inferred: 0.15
-  ambiguous: 0.00
+  ambiguous: 0.0
 base_confidence: 0.55
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
 relationships:
-  - target: "[[entities/blackrock|BlackRock]]"
-    type: related_to
+- target: '[[entities/blackrock|BlackRock]]'
+  type: related_to
+category: entities
 ---
 
 # Infant Vasanth

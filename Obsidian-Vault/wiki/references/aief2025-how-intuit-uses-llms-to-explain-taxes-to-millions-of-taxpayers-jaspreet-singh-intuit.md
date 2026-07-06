@@ -1,32 +1,34 @@
 ---
-title: "AIEF2025 - How Intuit uses LLMs to explain taxes to millions of taxpayers — Jaspreet Singh, Intuit"
+title: AIEF2025 - How Intuit uses LLMs to explain taxes to millions of taxpayers — Jaspreet Singh, Intuit
 tags:
-  - reference
-  - talk
-  - aief2025
-  - enterprise-ai
-  - tax
-  - gen-ai
-  - evaluation
+- reference
+- talk
+- aief2025
+- enterprise-ai
+- tax
+- gen-ai
+- evaluation
 aliases:
-  - Intuit LLMs Taxes AIEF2025
-  - Jaspreet Singh TurboTax AIEF2025
+- Intuit LLMs Taxes AIEF2025
+- Jaspreet Singh TurboTax AIEF2025
 sources:
-  - "AIEF2025 - How Intuit uses LLMs to explain taxes to millions of taxpayers - Jaspreet Singh, Intuit - https://www.youtube.com/watch?v=_zl_zimMRak"
+- AIEF2025 - How Intuit uses LLMs to explain taxes to millions of taxpayers - Jaspreet Singh, Intuit - https://www.youtube.com/watch?v=_zl_zimMRak
 provenance:
   extracted: 0.95
   inferred: 0.03
   ambiguous: 0.02
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/jaspreet-singh|Jaspreet Singh]]"
-    type: speaker
-  - target: "[[entities/intuit|Intuit]]"
-    type: affiliation
+- target: '[[entities/jaspreet-singh|Jaspreet Singh]]'
+  type: speaker
+- target: '[[entities/intuit|Intuit]]'
+  type: affiliation
+category: references
+summary: AIEF2025 - How Intuit uses LLMs to explain taxes to millions of taxpayers — Jaspreet Singh, Intuit
 ---
 
 # AIEF2025 - How Intuit uses LLMs to explain taxes to millions of taxpayers — Jaspreet Singh, Intuit

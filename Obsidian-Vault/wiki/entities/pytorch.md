@@ -4,7 +4,7 @@ category: entities
 tags: [deep-learning-framework, inference, gpu-compute, open-source, meta]
 summary: Deep learning framework used by Luma AI as the substrate for their custom multi-vendor GPU inference serving stack, replacing NVIDIA's Triton Inference Server.
 sources:
-  - "[[sources/watchv=ey4o9m6aswi]]"
+  - "https://www.youtube.com/watch?v=ey4o9m6aswi"
 provenance:
   extracted: 0.70
   inferred: 0.25
@@ -16,13 +16,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[nvidia]]"
+  - target: "[[entities/nvidia]]"
     type: related_to
-  - target: "[[amd]]"
+  - target: "[[entities/amd]]"
     type: related_to
-  - target: "[[triton-inference-server]]"
+  - target: "[[entities/triton-inference-server]]"
     type: related_to
-  - target: "[[inference-serving]]"
+  - target: "[[concepts/inference-serving]]"
     type: related_to
 ---
 

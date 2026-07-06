@@ -1,13 +1,23 @@
 ---
 title: Proxy Metric Problem
 category: concepts
-tags: [proxy-metrics, relevance, ranking, evaluation, retrieval, semantic-similarity, aief2025]
-aliases: [proxy metric, relevance-vs-ranking, proxy problem]
-summary: "The problem of optimizing for a proxy metric (semantic similarity, relevance) that does not equal the actual goal (ranking quality). Standard embeddings and re-rankers only measure similarity, not true relevance or ranking."
+tags:
+- proxy-metrics
+- relevance
+- ranking
+- evaluation
+- retrieval
+- semantic-similarity
+- aief2025
+aliases:
+- proxy metric
+- relevance-vs-ranking
+- proxy problem
+summary: The problem of optimizing for a proxy metric (semantic similarity, relevance) that does not equal the actual goal (ranking quality). Standard embeddings and re-rankers only measure similarity, not...
 sources:
-  - "AIEF2025 - Layering every technique in RAG, one query at a time — David Karam, Pi Labs (fmr. Google Search) - https://www.youtube.com/watch?v=w9u11ioHGA0"
+- AIEF2025 - Layering every technique in RAG, one query at a time — David Karam, Pi Labs (fmr. Google Search) - https://www.youtube.com/watch?v=w9u11ioHGA0
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.75
@@ -17,14 +27,14 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/semantic-similarity|Semantic Similarity]]"
-    type: contrasts_with
-  - target: "[[concepts/re-ranking|Re-ranking]]"
-    type: relates_to
-  - target: "[[concepts/search-relevance|Search Relevance]]"
-    type: relates_to
-  - target: "[[concepts/rag-pipeline-architecture|RAG Pipeline Architecture]]"
-    type: applies_to
+- target: '[[concepts/semantic-similarity|Semantic Similarity]]'
+  type: contrasts_with
+- target: '[[concepts/re-ranking|Re-ranking]]'
+  type: relates_to
+- target: '[[concepts/search-relevance|Search Relevance]]'
+  type: relates_to
+- target: '[[concepts/rag-pipeline-architecture|RAG Pipeline Architecture]]'
+  type: applies_to
 ---
 
 # Proxy Metric Problem

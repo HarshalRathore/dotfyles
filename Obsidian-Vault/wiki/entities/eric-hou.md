@@ -1,27 +1,30 @@
 ---
-title: "Eric Hou"
+title: Eric Hou
 tags:
-  - person
-  - software-engineer
-  - augment-code
-  - aief2025
+- person
+- software-engineer
+- augment-code
+- aief2025
 aliases:
-  - Eric Hou
-  - Eric
+- Eric Hou
+- Eric
 sources:
-  - "AIEF2025 - Mentoring the Machine — Eric Hou, Augment Code - https://www.youtube.com/watch?v=Zniw5c9_jx8"
+- AIEF2025 - Mentoring the Machine — Eric Hou, Augment Code - https://www.youtube.com/watch?v=Zniw5c9_jx8
 provenance:
   extracted: 0.95
   inferred: 0.05
-  ambiguous: 0.00
-base_confidence: 0.90
+  ambiguous: 0.0
+base_confidence: 0.9
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: [[entities/augment-code|Augment Code]]
-    type: works_at
+- target:
+  - - entities/augment-code|Augment Code
+  type: works_at
+category: entities
+summary: Eric Hou
 ---
 
 # Eric Hou

@@ -1,17 +1,26 @@
 ---
 type: entity
-title: "Weaveworks’ Sock Shop"
+title: Weaveworks’ Sock Shop
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/microservices-demo-projects_ac9b1f]]"
+- '[[sources/microservices-demo-projects_ac9b1f]]'
 tags:
-  - project
+- project
 aliases:
-  - Weaveworks Sock Shop
-  - Sock Shop Demo
+- Weaveworks Sock Shop
+- Sock Shop Demo
+category: entities
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Weaveworks’ Sock Shop
 ---
 # Weaveworks’ Sock Shop
 

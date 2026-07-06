@@ -1,29 +1,30 @@
 ---
-title: "AIEF2025 - Teaching Gemini to Speak YouTube: Adapting LLMs for Video Recommendations to 2B+DAU — Devansh Tandon"
+title: 'AIEF2025 - Teaching Gemini to Speak YouTube: Adapting LLMs for Video Recommendations to 2B+DAU — Devansh Tandon'
 tags:
-  - reference
-  - talk
-  - aief2025
-  - recommendation-systems
-  - llm
-  - youtube
-  - gemini
-  - generative-retrieval
+- reference
+- talk
+- aief2025
+- recommendation-systems
+- llm
+- youtube
+- gemini
+- generative-retrieval
 aliases:
-  - AIEF2025 YouTube LRM Devansh Tandon
-  - Teaching Gemini to Speak YouTube
+- AIEF2025 YouTube LRM Devansh Tandon
+- Teaching Gemini to Speak YouTube
 sources:
-  - "[[sources/watchv=lxqsq3vzdqo]]"
-summary: "Devansh Tandon presents YouTube's Large Recommender Model (LRM) — adapting Gemini for video recommendations at 2B+ daily active users, covering Semantic ID tokenization, continued pre-training, generative retrieval, and 95% TPU cost reduction for production."
+- 'https://www.youtube.com/watch?v=lxqsq3vzdqo'
+summary: Devansh Tandon presents YouTube's Large Recommender Model (LRM) — adapting Gemini for video recommendations at 2B+ daily active users, covering Semantic ID tokenization, continued pre-training, gen...
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+category: references
 ---
 
 # AIEF2025 - Teaching Gemini to Speak YouTube: Adapting LLMs for Video Recommendations to 2B+DAU

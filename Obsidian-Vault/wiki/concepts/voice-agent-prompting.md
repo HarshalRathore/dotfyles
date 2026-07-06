@@ -1,23 +1,24 @@
 ---
-title: "Voice Agent Prompting"
+title: Voice Agent Prompting
 tags:
-  - ai
-  - voice
-  - prompting
-  - ux
-  - speech
+- ai
+- voice
+- prompting
+- ux
+- speech
 sources:
-  - "[[sources/watchv=-oxiljtjxqu]]"
-summary: "Techniques for prompting voice agents that go beyond text prompts, controlling expressiveness, tone, demeanor, and enthusiasm through voice-specific customization."
+- 'https://www.youtube.com/watch?v=-oxiljtjxqu'
+summary: Techniques for prompting voice agents that go beyond text prompts, controlling expressiveness, tone, demeanor, and enthusiasm through voice-specific customization.
 provenance:
   extracted: 0.65
-  inferred: 0.30
+  inferred: 0.3
   ambiguous: 0.05
 base_confidence: 0.42
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Voice Agent Prompting

@@ -1,31 +1,31 @@
 ---
-title: "Generative Retrieval for Recommendation Systems"
+title: Generative Retrieval for Recommendation Systems
 category: concepts
 tags:
-  - recommendation-systems
-  - generative-retrieval
-  - llm
-  - retrieval
-  - recsys
+- recommendation-systems
+- generative-retrieval
+- llm
+- retrieval
+- recsys
 aliases:
-  - Generative RecSys
-  - LLM-based Retrieval
-  - Generative Recommendation
+- Generative RecSys
+- LLM-based Retrieval
+- Generative Recommendation
 relationships:
-  - target: "[[concepts/large-recommender-model]]"
-    type: uses
-  - target: "[[concepts/semantic-video-tokenization]]"
-    type: uses
-  - target: "[[concepts/recommendation-serving-cost]]"
-    type: related_to
+- target: '[[concepts/large-recommender-model]]'
+  type: uses
+- target: '[[concepts/semantic-video-tokenization]]'
+  type: uses
+- target: '[[concepts/recommendation-serving-cost]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=lxqsq3vzdqo]]"
-summary: "Using LLMs to generate item recommendations directly as tokens from user prompts, rather than scoring a candidate set. YouTube's LRM uses this approach to produce unique recommendations for hard tasks."
+- 'https://www.youtube.com/watch?v=lxqsq3vzdqo'
+summary: Using LLMs to generate item recommendations directly as tokens from user prompts, rather than scoring a candidate set. YouTube's LRM uses this approach to produce unique recommendations for hard ta...
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-04

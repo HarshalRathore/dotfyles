@@ -1,22 +1,22 @@
 ---
-title: "GPU Commoditization"
+title: GPU Commoditization
 category: concepts
 tags:
-  - gpu
-  - commodity
-  - marketplace
-  - ai-infrastructure
-  - pricing
-  - aief2025
+- gpu
+- commodity
+- marketplace
+- ai-infrastructure
+- pricing
+- aief2025
 aliases:
-  - gpu commoditization
-  - gpu as commodity
+- gpu commoditization
+- gpu as commodity
 sources:
-  - "[[sources/watchv=m6vbaig1tsm]]"
+- 'https://www.youtube.com/watch?v=m6vbaig1tsm'
 provenance:
-  extracted: 0.80
-  inferred: 0.20
-  ambiguous: 0.00
+  extracted: 0.8
+  inferred: 0.2
+  ambiguous: 0.0
 base_confidence: 0.75
 lifecycle: draft
 lifecycle_changed: 2026-07-04
@@ -24,12 +24,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/gpu-marketplace|GPU Marketplace]]"
-    type: extends
-  - target: "[[concepts/gpu-utilization|GPU Utilization]]"
-    type: related_to
-  - target: "[[concepts/compute-allocation|Compute Allocation]]"
-    type: related_to
+- target: '[[concepts/gpu-marketplace|GPU Marketplace]]'
+  type: extends
+- target: '[[concepts/gpu-utilization|GPU Utilization]]'
+  type: related_to
+- target: '[[concepts/compute-allocation|Compute Allocation]]'
+  type: related_to
+summary: GPU Commoditization
 ---
 
 # GPU Commoditization

@@ -1,18 +1,18 @@
 ---
-title: "Greenfield vs Brownfield"
+title: Greenfield vs Brownfield
 category: concepts
 tags:
-  - software-engineering
-  - ai
-  - methodology
-  - productivity
+- software-engineering
+- ai
+- methodology
+- productivity
 aliases:
-  - Greenfield vs Brownfield
-  - Greenfield Projects
-  - Brownfield Projects
+- Greenfield vs Brownfield
+- Greenfield Projects
+- Brownfield Projects
 sources:
-  - "AIEF2025 - Does AI Actually Boost Developer Productivity? (100k Devs Study) - Yegor Denisov-Blanch, Stanford - https://www.youtube.com/watch?v=tbDDYKRFjhk"
-summary: "Most software engineering is brownfield (existing codebases with dependencies), not greenfield (from-scratch). AI excels at greenfield boilerplate, so lab studies showing AI's massive advantage in greenfield tasks overstate its real-world impact."
+- AIEF2025 - Does AI Actually Boost Developer Productivity? (100k Devs Study) - Yegor Denisov-Blanch, Stanford - https://www.youtube.com/watch?v=tbDDYKRFjhk
+summary: Most software engineering is brownfield (existing codebases with dependencies), not greenfield (from-scratch). AI excels at greenfield boilerplate, so lab studies showing AI's massive advantage in...
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -24,12 +24,12 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/ai-productivity-measurement|AI Productivity Measurement]]"
-    type: related_to
-  - target: "[[concepts/ai-developer-productivity|AI Developer Productivity]]"
-    type: related_to
-  - target: "[[concepts/commit-based-metrics-limitations|Commit-Based Metrics Limitations]]"
-    type: related_to
+- target: '[[concepts/ai-productivity-measurement|AI Productivity Measurement]]'
+  type: related_to
+- target: '[[concepts/ai-developer-productivity|AI Developer Productivity]]'
+  type: related_to
+- target: '[[concepts/commit-based-metrics-limitations|Commit-Based Metrics Limitations]]'
+  type: related_to
 ---
 
 # Greenfield vs Brownfield

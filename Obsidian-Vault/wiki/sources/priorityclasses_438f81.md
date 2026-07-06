@@ -1,16 +1,28 @@
 ---
-summary: "This source details **PriorityClasses**, a core scheduling mechanism in Kubernetes that assigns integer priority values to Pods to manage scheduling order and resource contention. The "
+summary: 'This source details **PriorityClasses**, a core scheduling mechanism in Kubernetes that assigns integer priority values to Pods to manage scheduling order and resource contention. The '
 tags:
-  - PriorityClass
-  - Pod Preemption
-  - priorityClassName
-  - globalDefault
-  - preemptionPolicy
+- PriorityClass
+- Pod Preemption
+- priorityClassName
+- globalDefault
+- preemptionPolicy
 aliases:
-  - Pod Priority and Preemption
-  - Kubernetes PriorityClasses
-contentHash: "de6-b288de62"
-generation_complete: True
+- Pod Priority and Preemption
+- Kubernetes PriorityClasses
+contentHash: de6-b288de62
+generation_complete: true
+title: PriorityClasses in Kubernetes - Summary
+category: sources
+sources: []
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+created: '2026-07-02T13:38:25.552843+00:00'
+updated: '2026-07-02T13:38:25.552843+00:00'
 ---
 # PriorityClasses in Kubernetes - Summary
 

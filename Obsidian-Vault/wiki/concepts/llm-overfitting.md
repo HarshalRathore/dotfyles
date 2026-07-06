@@ -1,33 +1,37 @@
 ---
-title: "LLM Overfitting in Word Games"
+title: LLM Overfitting in Word Games
 tags:
-  - llm-evaluation
-  - overfitting
-  - superficial-patterns
-  - connections
-  - generalization
-aliases: [LLM Overfitting, AI Overfitting, Superficial Pattern Matching]
+- llm-evaluation
+- overfitting
+- superficial-patterns
+- connections
+- generalization
+aliases:
+- LLM Overfitting
+- AI Overfitting
+- Superficial Pattern Matching
 sources:
-  - "[[sources/watchv=p_uhfgh4j9y]]"
-summary: "LLMs matching words by superficial similarities instead of deeper relationships. Connections' decoy design tests overfitting resistance."
+- 'https://www.youtube.com/watch?v=p_uhfgh4j9y'
+summary: LLMs matching words by superficial similarities instead of deeper relationships. Connections' decoy design tests overfitting resistance.
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/connections-game]]"
-    type: tested_by
-  - target: "[[concepts/abstract-reasoning]]"
-    type: contrasts_with
-  - target: "[[concepts/semantic-similarity]]"
-    type: exploits
-  - target: "[[concepts/llm-benchmarking]]"
-    type: benchmarked_by
+- target: '[[concepts/connections-game]]'
+  type: tested_by
+- target: '[[concepts/abstract-reasoning]]'
+  type: contrasts_with
+- target: '[[concepts/semantic-similarity]]'
+  type: exploits
+- target: '[[concepts/llm-benchmarking]]'
+  type: benchmarked_by
+category: concepts
 ---
 
 # LLM Overfitting in Word Games

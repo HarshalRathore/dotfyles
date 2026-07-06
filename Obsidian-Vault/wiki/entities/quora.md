@@ -1,13 +1,13 @@
 ---
-title: "Quora"
+title: Quora
 category: entities
 tags:
-  - product
-  - ai
-  - email
-  - aief2025
-  - every-company
-summary: "An AI email management app built by Every — summarizes incoming emails and serves as an email assistant for questions. Built primarily by one engineer using AI agents."
+- product
+- ai
+- email
+- aief2025
+- every-company
+summary: An AI email management app built by Every — summarizes incoming emails and serves as an email assistant for questions. Built primarily by one engineer using AI agents.
 provenance:
   extracted: 0.95
   inferred: 0.04
@@ -19,10 +19,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/every-company|Every]]"
-    type: implements
-  - target: "[[entities/dan-shipper|Dan Shipper]]"
-    type: related_to
+- target: '[[entities/every-company|Every]]'
+  type: implements
+- target: '[[entities/dan-shipper|Dan Shipper]]'
+  type: related_to
+sources: []
 ---
 
 # Quora (Every)

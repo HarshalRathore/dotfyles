@@ -1,32 +1,33 @@
 ---
-title: "Semantic Understanding in Code Analysis"
+title: Semantic Understanding in Code Analysis
 category: concepts
 tags:
-  - code-understanding
-  - semantic-analysis
-  - llm
-  - graphrag
+- code-understanding
+- semantic-analysis
+- llm
+- graphrag
 aliases:
-  - code semantics
+- code semantics
 sources:
-  - "AIEF2025 - GraphRAG methods to create optimized LLM context windows for Retrieval — Jonathan Larson, Microsoft - https://www.youtube.com/watch?v=c5qJHr3DnT4"
+- AIEF2025 - GraphRAG methods to create optimized LLM context windows for Retrieval — Jonathan Larson, Microsoft - https://www.youtube.com/watch?v=c5qJHr3DnT4
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/graphrag-code|GraphRAG for Code]]"
-    type: demonstrated-by
-  - target: "[[concepts/context-length-scaling|Context Length Scaling]]"
-    type: competes-with
-  - target: "[[concepts/retrieval-augmented-generation|Retrieval Augmented Generation]]"
-    type: improves
+- target: '[[concepts/graphrag-code|GraphRAG for Code]]'
+  type: demonstrated-by
+- target: '[[concepts/context-length-scaling|Context Length Scaling]]'
+  type: competes-with
+- target: '[[concepts/retrieval-augmented-generation|Retrieval Augmented Generation]]'
+  type: improves
+summary: Semantic Understanding in Code Analysis
 ---
 
 # Semantic Understanding in Code Analysis

@@ -8,9 +8,10 @@ tags:
   - labor-costs
   - automation
   - food-tech
-summary: The economic case for robotic kitchen automation: $12/hr robot labor with no overtime, turnover, or sick days vs human chefs at $150k+/year, deployed in novel kitchens without pre-programming.
+summary: >-
+  The economic case for robotic kitchen automation: $12/hr robot labor with no overtime, turnover, or sick days vs human chefs at $150k+/year, deployed in novel kitchens without pre-programming.
 sources:
-  - "[[sources/watchv=mbwgiwjdlso]]"
+  - "https://www.youtube.com/watch?v=mbwgiwjdlso"
 provenance:
   extracted: 0.85
   inferred: 0.10

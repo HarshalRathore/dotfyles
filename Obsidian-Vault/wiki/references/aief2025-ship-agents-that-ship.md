@@ -1,26 +1,29 @@
 ---
-title: "Ship Agents that Ship: A Hands-On Workshop — Kyle Penfound, Jeremy Adams, Dagger (AIEF2025)"
+title: 'Ship Agents that Ship: A Hands-On Workshop — Kyle Penfound, Jeremy Adams, Dagger (AIEF2025)'
 tags:
-  - reference
-  - talk
-  - aief2025
-  - dagger
-  - agents
-  - workshop
-  - cicd
-aliases: [Dagger agents workshop AIEF2025, Ship Agents that Ship]
-summary: "Hands-on workshop at AI Engineer World's Fair 2025 demonstrating how to build container-sandboxed software engineering agents using Dagger's LLM primitives, from local development through GitHub issue-to-PR automation."
+- reference
+- talk
+- aief2025
+- dagger
+- agents
+- workshop
+- cicd
+aliases:
+- Dagger agents workshop AIEF2025
+- Ship Agents that Ship
+summary: Hands-on workshop at AI Engineer World's Fair 2025 demonstrating how to build container-sandboxed software engineering agents using Dagger's LLM primitives, from local development through GitHub is...
 sources:
-  - "[[sources/watchv=fzb1a24hf-o]]"
+- 'https://www.youtube.com/watch?v=fzb1a24hf-o'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: references
 ---
 
 # Ship Agents that Ship: A Hands-On Workshop

@@ -1,34 +1,35 @@
 ---
-title: "Data Pyramid"
+title: Data Pyramid
 category: concepts
 tags:
-  - data-pyramid
-  - robotics
-  - synthetic-data
-  - teleoperation
-  - data-strategy
-  - nvidia
-  - groot
-summary: "A three-tier data strategy for robotics foundation models: scarce high-quality real-world teleoperation data at the top, large-scale synthetic simulation data in the middle, and weakly-relevant internet video data at the base.
+- data-pyramid
+- robotics
+- synthetic-data
+- teleoperation
+- data-strategy
+- nvidia
+- groot
+summary: '"A three-tier data strategy for robotics foundation models: scarce high-quality real-world teleoperation data at the top, large-scale synthetic simulation data in the middle, and weakly-relevant in...'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/physical-ai|Physical AI]]"
-    type: enables
-  - target: "[[entities/nvidia-gr00t|NVIDIA Project GR00T]]"
-    type: used_by
-  - target: "[[concepts/dreamgen|DreamGen]]"
-    type: extends
-  - target: "[[concepts/simulation-realism-hierarchy|Simulation Realism Hierarchy]]"
-    type: related_to
+- target: '[[concepts/physical-ai|Physical AI]]'
+  type: enables
+- target: '[[entities/nvidia-gr00t|NVIDIA Project GR00T]]'
+  type: used_by
+- target: '[[concepts/dreamgen|DreamGen]]'
+  type: extends
+- target: '[[concepts/simulation-realism-hierarchy|Simulation Realism Hierarchy]]'
+  type: related_to
+sources: []
 ---
 
 # Data Pyramid

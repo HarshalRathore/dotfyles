@@ -1,23 +1,25 @@
 ---
-title: "AI News Pipeline"
+title: AI News Pipeline
 tags:
-  - ai-news
-  - pipeline
-  - scraping
-  - summarization
-  - workflow
-  - ai-intensive
+- ai-news
+- pipeline
+- scraping
+- summarization
+- workflow
+- ai-intensive
 sources:
-  - "[[sources/watchv=ihkyfhu6jey]]"
+- 'https://www.youtube.com/watch?v=ihkyfhu6jey'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.65
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+category: concepts
+summary: AI News Pipeline
 ---
 
 # AI News Pipeline

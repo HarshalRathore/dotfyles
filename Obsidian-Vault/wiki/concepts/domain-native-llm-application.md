@@ -1,9 +1,9 @@
 ---
-title: "Domain-Native LLM Application"
+title: Domain-Native LLM Application
 category: concepts
-summary: "LLM architecture prioritizing domain insight incorporation over model sophistication. The bet: domain context, not model capability, is the bottleneck in vertical AI."
+summary: 'LLM architecture prioritizing domain insight incorporation over model sophistication. The bet: domain context, not model capability, is the bottleneck in vertical AI.'
 sources:
-  - "[[sources/watchv=mrm7oa3jsfs]]"
+- 'https://www.youtube.com/watch?v=mrm7oa3jsfs'
 provenance:
   extracted: 0.7
   inferred: 0.3
@@ -14,14 +14,15 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/last-mile-problem-ai]]"
-    type: addresses
-  - target: "[[concepts/reliability-over-intelligence]]"
-    type: extends
-  - target: "[[concepts/domain-intelligence-engine]]"
-    type: implements
-  - target: "[[concepts/domain-expert-product-manager]]"
-    type: requires
+- target: '[[concepts/last-mile-problem-ai]]'
+  type: addresses
+- target: '[[concepts/reliability-over-intelligence]]'
+  type: extends
+- target: '[[concepts/domain-intelligence-engine]]'
+  type: implements
+- target: '[[concepts/domain-expert-product-manager]]'
+  type: requires
+tags: []
 ---
 
 # Domain-Native LLM Application

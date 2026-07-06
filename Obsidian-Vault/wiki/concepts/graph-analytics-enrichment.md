@@ -1,36 +1,37 @@
 ---
-title: "Graph Analytics Enrichment"
+title: Graph Analytics Enrichment
 category: concepts
 tags:
-  - knowledge-graph
-  - graphrag
-  - graph-analytics
-  - pagerank
-  - community-detection
-  - enrichment
+- knowledge-graph
+- graphrag
+- graph-analytics
+- pagerank
+- community-detection
+- enrichment
 aliases:
-  - Graph Algorithm Enrichment
-  - Post-Construction Graph Analytics
+- Graph Algorithm Enrichment
+- Post-Construction Graph Analytics
 sources:
-  - "AIEF2025 - Practical GraphRAG: Making LLMs smarter with Knowledge Graphs — Michael, Jesus, and Stephen, Neo4j - https://www.youtube.com/watch?v=XNneh6-eyPg"
+- 'AIEF2025 - Practical GraphRAG: Making LLMs smarter with Knowledge Graphs — Michael, Jesus, and Stephen, Neo4j - https://www.youtube.com/watch?v=XNneh6-eyPg'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.07
   ambiguous: 0.03
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: uses
-  - target: "[[concepts/knowledge-graph-construction-pipeline|Knowledge Graph Construction Pipeline]]"
-    type: extends
-  - target: "[[concepts/pagerank-enrichment|PageRank Enrichment]]"
-    type: related_to
-  - target: "[[concepts/community-summarization|Community Summarization]]"
-    type: related_to
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: uses
+- target: '[[concepts/knowledge-graph-construction-pipeline|Knowledge Graph Construction Pipeline]]'
+  type: extends
+- target: '[[concepts/pagerank-enrichment|PageRank Enrichment]]'
+  type: related_to
+- target: '[[concepts/community-summarization|Community Summarization]]'
+  type: related_to
+summary: Graph Analytics Enrichment
 ---
 
 # Graph Analytics Enrichment

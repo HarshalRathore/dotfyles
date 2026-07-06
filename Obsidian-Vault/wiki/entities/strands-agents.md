@@ -1,20 +1,23 @@
 ---
-title: "Strands Agents"
+title: Strands Agents
 tags:
-  - open-source
-  - sdk
-  - ai-agents
-  - aws
-  - python
-  - mcp
-  - agent-framework
-aliases: [Strands, strands-agents, Strands SDK]
+- open-source
+- sdk
+- ai-agents
+- aws
+- python
+- mcp
+- agent-framework
+aliases:
+- Strands
+- strands-agents
+- Strands SDK
 sources:
-  - "[[sources/watchv=q3nreeadkmc]]"
-  - "AIEF2025 - Building Agents at Cloud Scale — Antje Barth, AWS - https://www.youtube.com/watch?v=WJjInLeaJjo"
-summary: "Open-source AI agent SDK by AWS with minimal scaffolding — just model and tools. Supports Bedrock (Claude 3.7 Sonnet), Ollama, LiteLLM, OpenAI. 20+ built-in tools including Retrieve, multi-modal, reasoning, and multi-agent workflows. Native MCP integration."
+- 'https://www.youtube.com/watch?v=q3nreeadkmc'
+- AIEF2025 - Building Agents at Cloud Scale — Antje Barth, AWS - https://www.youtube.com/watch?v=WJjInLeaJjo
+summary: Open-source AI agent SDK by AWS with minimal scaffolding — just model and tools. Supports Bedrock (Claude 3.7 Sonnet), Ollama, LiteLLM, OpenAI. 20+ built-in tools including Retrieve, multi-modal, r...
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
 base_confidence: 0.85
@@ -24,16 +27,17 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/suman-debnath|Suman Debnath]]"
-    type: related_to
-  - target: "[[entities/aws|AWS]]"
-    type: related_to
-  - target: "[[entities/amazon-bedrock|Amazon Bedrock]]"
-    type: uses
-  - target: "[[entities/ollama|Ollama]]"
-    type: uses
-  - target: "[[concepts/agent-loop|Agent Loop]]"
-    type: implements
+- target: '[[entities/suman-debnath|Suman Debnath]]'
+  type: related_to
+- target: '[[entities/aws|AWS]]'
+  type: related_to
+- target: '[[entities/amazon-bedrock|Amazon Bedrock]]'
+  type: uses
+- target: '[[entities/ollama|Ollama]]'
+  type: uses
+- target: '[[concepts/agent-loop|Agent Loop]]'
+  type: implements
+category: entities
 ---
 
 # Strands Agents

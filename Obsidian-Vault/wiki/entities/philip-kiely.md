@@ -1,23 +1,26 @@
 ---
-title: "Philip Kiely"
+title: Philip Kiely
 tags:
-  - person
-  - developer-advocate
-  - baseten
-  - inference
-aliases: [Philip Kiely, philip-kiely]
+- person
+- developer-advocate
+- baseten
+- inference
+aliases:
+- Philip Kiely
+- philip-kiely
 sources:
-  - "[[sources/watchv=ahtaha9fem0]]"
-summary: "Developer Advocate at Baseten covering inference and model serving. Co-presented the SGLang workshop at AI Engineer World's Fair 2025."
+- 'https://www.youtube.com/watch?v=ahtaha9fem0'
+summary: Developer Advocate at Baseten covering inference and model serving. Co-presented the SGLang workshop at AI Engineer World's Fair 2025.
 provenance:
-  extracted: 0.90
-  inferred: 0.10
-  ambiguous: 0.00
-base_confidence: 0.50
+  extracted: 0.9
+  inferred: 0.1
+  ambiguous: 0.0
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Philip Kiely

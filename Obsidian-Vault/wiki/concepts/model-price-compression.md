@@ -1,36 +1,36 @@
 ---
-title: "Model Price Compression"
+title: Model Price Compression
 category: concepts
 tags:
-  - pricing
-  - compression
-  - llm
-  - economics
-  - aief2025
+- pricing
+- compression
+- llm
+- economics
+- aief2025
 aliases:
-  - model price compression
-  - model pricing crash
-  - AI price compression
+- model price compression
+- model pricing crash
+- AI price compression
 sources:
-  - "AIEF2025 - 2025 in LLMs so far, illustrated by Pelicans on Bicycles — Simon Willison - https://www.youtube.com/watch?v=YpY83-kA7Bo"
-summary: "The dramatic compression of capable LLM prices over three years — from GPT-3.5 DaVinci at $60/M tokens to GPT-4o Nano at ~$0.10/M tokens, a 500×+ reduction — making high-quality AI accessible at near-zero cost."
+- AIEF2025 - 2025 in LLMs so far, illustrated by Pelicans on Bicycles — Simon Willison - https://www.youtube.com/watch?v=YpY83-kA7Bo
+summary: The dramatic compression of capable LLM prices over three years — from GPT-3.5 DaVinci at $60/M tokens to GPT-4o Nano at ~$0.10/M tokens, a 500×+ reduction — making high-quality AI accessible at ne...
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/training-cost-efficiency|Training Cost Efficiency]]"
-    type: extends
-  - target: "[[concepts/reasoning-model-pricing|Reasoning Model Pricing]]"
-    type: contrasts_with
-  - target: "[[concepts/scaling-limits|Scaling Limits]]"
-    type: relates_to
+- target: '[[concepts/training-cost-efficiency|Training Cost Efficiency]]'
+  type: extends
+- target: '[[concepts/reasoning-model-pricing|Reasoning Model Pricing]]'
+  type: contrasts_with
+- target: '[[concepts/scaling-limits|Scaling Limits]]'
+  type: relates_to
 ---
 
 # Model Price Compression

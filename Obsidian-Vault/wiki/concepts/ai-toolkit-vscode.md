@@ -1,30 +1,34 @@
 ---
-title: "AI Toolkit (VS Code Extension)"
+title: AI Toolkit (VS Code Extension)
 category: concepts
 tags:
-  - vscode
-  - ai-toolkit
-  - evaluation
-  - agent-development
-  - microsoft
-  - ide-tools
-aliases: [AI Toolkit VS Code, VS Code AI Toolkit, Microsoft AI Toolkit]
+- vscode
+- ai-toolkit
+- evaluation
+- agent-development
+- microsoft
+- ide-tools
+aliases:
+- AI Toolkit VS Code
+- VS Code AI Toolkit
+- Microsoft AI Toolkit
 relationships:
-  - target: "[[concepts/agent-evaluation-pipeline]]"
-    type: implements
-  - target: "[[concepts/evaluation-first-development]]"
-    type: supports
+- target: '[[concepts/agent-evaluation-pipeline]]'
+  type: implements
+- target: '[[concepts/evaluation-first-development]]'
+  type: supports
 sources:
-  - "[[sources/watchv=j4vpq2i0qze]]"
+- 'https://www.youtube.com/watch?v=j4vpq2i0qze'
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: AI Toolkit (VS Code Extension)
 ---
 
 # AI Toolkit (VS Code Extension)

@@ -1,35 +1,36 @@
 ---
-title: "Structured Vibe Coding"
+title: Structured Vibe Coding
 category: concepts
 tags:
-  - vibe-coding
-  - enterprise-ai
-  - templates
-  - guardrails
-  - aief2025
+- vibe-coding
+- enterprise-ai
+- templates
+- guardrails
+- aief2025
 aliases:
-  - structured-vibes
+- structured-vibes
 sources:
-  - "AIEF2025 - Vibe Coding at Scale: Customizing AI Assistants for Enterprise Environments - Harald Kirshner, - https://www.youtube.com/watch?v=i1uPAN6uW4s"
+- 'AIEF2025 - Vibe Coding at Scale: Customizing AI Assistants for Enterprise Environments - Harald Kirshner, - https://www.youtube.com/watch?v=i1uPAN6uW4s'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/vibe-coding|Vibe Coding]]"
-    type: extends
-  - target: "[[concepts/yolo-structured-spectrum-vibe-coding|YOLO, Structured, Spec-Driven Spectrum of Vibe Coding]]"
-    type: stage-of
-  - target: "[[concepts/agent-rails|Agent Rails]]"
-    type: related_to
-  - target: "[[concepts/model-context-protocol|MCP]]"
-    type: uses
+- target: '[[concepts/vibe-coding|Vibe Coding]]'
+  type: extends
+- target: '[[concepts/yolo-structured-spectrum-vibe-coding|YOLO, Structured, Spec-Driven Spectrum of Vibe Coding]]'
+  type: stage-of
+- target: '[[concepts/agent-rails|Agent Rails]]'
+  type: related_to
+- target: '[[concepts/model-context-protocol|MCP]]'
+  type: uses
+summary: Structured Vibe Coding
 ---
 
 # Structured Vibe Coding

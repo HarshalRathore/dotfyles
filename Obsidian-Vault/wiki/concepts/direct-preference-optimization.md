@@ -10,7 +10,7 @@ relationships:
     type: related_to
   - target: "[[concepts/rlhf]]"
     type: extends
-sources: ["[[sources/aief2025-rft]]", "[[sources/dpo]]", "[[sources/sft-fine-tuning-with-openai-—-ilan-bigio]]", "[[sources/watchv=jfalqqfxqpa]]"]
+sources: ["[[sources/aief2025-rft]]", "[[sources/dpo]]", "[[sources/sft-fine-tuning-with-openai-—-ilan-bigio]]", "https://www.youtube.com/watch?v=jfalqqfxqpa"]
 summary: "A fine-tuning method where the model learns the preference delta between positive and negative output pairs rather than memorizing individual examples. Operates in the model's latent embedding space."
 provenance:
   extracted: 0.70

@@ -1,18 +1,18 @@
 ---
-title: "AIEF2025 - Milliseconds to Magic: Real-Time Workflows using the Gemini Live API and Pipecat"
+title: 'AIEF2025 - Milliseconds to Magic: Real-Time Workflows using the Gemini Live API and Pipecat'
 category: references
 tags:
-  - aief2025
-  - voice-ai
-  - gemini
-  - pipecat
-  - real-time
-  - voice-agent
-  - stack-maturity
+- aief2025
+- voice-ai
+- gemini
+- pipecat
+- real-time
+- voice-agent
+- stack-maturity
 sources:
-  - "AIEF2025 - Milliseconds to Magic: Real‑Time Workflows using the Gemini Live API and Pipecat - https://www.youtube.com/watch?v=fWY1FQwpWkY"
+- 'AIEF2025 - Milliseconds to Magic: Real‑Time Workflows using the Gemini Live API and Pipecat - https://www.youtube.com/watch?v=fWY1FQwpWkY'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.85
@@ -21,18 +21,19 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/gemini]]"
-    type: uses
-  - target: "[[entities/pipe-cat]]"
-    type: uses
-  - target: "[[entities/daily]]"
-    type: related_to
-  - target: "[[entities/thor-schaeff]]"
-    type: related_to
-  - target: "[[concepts/voice-ai-stack]]"
-    type: related_to
-  - target: "[[concepts/turn-detection]]"
-    type: related_to
+- target: '[[entities/gemini]]'
+  type: uses
+- target: '[[entities/pipe-cat]]'
+  type: uses
+- target: '[[entities/daily]]'
+  type: related_to
+- target: '[[entities/thor-schaeff]]'
+  type: related_to
+- target: '[[concepts/voice-ai-stack]]'
+  type: related_to
+- target: '[[concepts/turn-detection]]'
+  type: related_to
+summary: 'AIEF2025 - Milliseconds to Magic: Real-Time Workflows using the Gemini Live API and Pipecat'
 ---
 
 # AIEF2025 - Milliseconds to Magic: Real-Time Workflows using the Gemini Live API and Pipecat

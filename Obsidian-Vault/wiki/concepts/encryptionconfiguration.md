@@ -1,16 +1,25 @@
 ---
 type: concept
-title: "EncryptionConfiguration"
+title: EncryptionConfiguration
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/env-configmaps-&-secrets_9586ac]]"
+- '[[sources/env-configmaps-&-secrets_9586ac]]'
 tags:
-  - security
+- security
 aliases:
-  - K8s Encryption Configuration
+- K8s Encryption Configuration
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: EncryptionConfiguration
 ---
 # EncryptionConfiguration
 

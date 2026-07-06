@@ -1,32 +1,32 @@
 ---
-title: "Large Recommender Model"
+title: Large Recommender Model
 category: concepts
 tags:
-  - recommendation-systems
-  - llm
-  - gemini
-  - generative-retrieval
-  - youtube
-  - recsys
+- recommendation-systems
+- llm
+- gemini
+- generative-retrieval
+- youtube
+- recsys
 aliases:
-  - LRM
-  - Large Recommender Model
-  - YouTube LRM
+- LRM
+- Large Recommender Model
+- YouTube LRM
 relationships:
-  - target: "[[concepts/semantic-video-tokenization]]"
-    type: uses
-  - target: "[[concepts/generative-retrieval-recsys]]"
-    type: uses
-  - target: "[[concepts/continued-pre-training]]"
-    type: uses
+- target: '[[concepts/semantic-video-tokenization]]'
+  type: uses
+- target: '[[concepts/generative-retrieval-recsys]]'
+  type: uses
+- target: '[[concepts/continued-pre-training]]'
+  type: uses
 sources:
-  - "[[sources/watchv=lxqsq3vzdqo]]"
-summary: "YouTube's Gemini-adapted LLM for video recommendations at 2B+ DAU. Uses Semantic ID tokenization, continued pre-training, and generative retrieval to decode video recommendations directly from user prompts."
+- 'https://www.youtube.com/watch?v=lxqsq3vzdqo'
+summary: YouTube's Gemini-adapted LLM for video recommendations at 2B+ DAU. Uses Semantic ID tokenization, continued pre-training, and generative retrieval to decode video recommendations directly from user...
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-04

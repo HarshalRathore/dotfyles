@@ -11,7 +11,7 @@ relationships:
   - target: "[[concepts/execution-as-moat]]"
     type: related_to
 sources:
-  - "[[sources/watchv=sbuxrluvrwk]]"
+  - "https://www.youtube.com/watch?v=sbuxrluvrwk"
 summary: "Before hiring for AI, identify what is actually stopping your organization from achieving success — shipping features, acquiring users, retention, monetization, scalability, or reliability."
 provenance:
   extracted: 0.95

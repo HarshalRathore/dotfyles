@@ -17,7 +17,7 @@ relationships:
   - target: "[[entities/gemini]]"
     type: related_to
 sources:
-  - "[[sources/watchv=lxqsq3vzdqo]]"
+  - "https://www.youtube.com/watch?v=lxqsq3vzdqo"
 summary: "Engineer at YouTube who presented the Large Recommender Model (LRM) — adapting Gemini for video recommendations at 2B+ DAU — at AI Engineer World's Fair 2025."
 provenance:
   extracted: 0.80

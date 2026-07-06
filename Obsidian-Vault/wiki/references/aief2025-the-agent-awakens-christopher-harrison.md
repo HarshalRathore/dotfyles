@@ -1,34 +1,36 @@
 ---
-title: "AIEF2025 — The Agent Awakens: Collaborative Development with Copilot — Christopher Harrison, GitHub"
+title: 'AIEF2025 — The Agent Awakens: Collaborative Development with Copilot — Christopher Harrison, GitHub'
 tags:
-  - reference
-  - talk
-  - aief2025
-  - github
-  - copilot
-  - pair-programming
-  - context
-  - coding-agent
-summary: "Christopher Harrison frames GitHub Copilot as an AI pair programmer, argues that context goes beyond prompt crafting to encompass code quality, and maps Copilot's five workload levels from completions to autonomous coding agents."
+- reference
+- talk
+- aief2025
+- github
+- copilot
+- pair-programming
+- context
+- coding-agent
+summary: Christopher Harrison frames GitHub Copilot as an AI pair programmer, argues that context goes beyond prompt crafting to encompass code quality, and maps Copilot's five workload levels from completi...
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/christopher-harrison|Christopher Harrison]]"
-    type: presented-by
-  - target: "[[entities/john-peck|Jon Peck]]"
-    type: co-presenter
-  - target: "[[concepts/ai-pair-programmer-analogy|AI Pair Programmer Analogy]]"
-    type: introduces
-  - target: "[[concepts/code-quality-as-context|Code Quality as Context]]"
-    type: introduces
+- target: '[[entities/christopher-harrison|Christopher Harrison]]'
+  type: presented-by
+- target: '[[entities/john-peck|Jon Peck]]'
+  type: co-presenter
+- target: '[[concepts/ai-pair-programmer-analogy|AI Pair Programmer Analogy]]'
+  type: introduces
+- target: '[[concepts/code-quality-as-context|Code Quality as Context]]'
+  type: introduces
+category: references
+sources: []
 ---
 
 # AIEF2025 — The Agent Awakens: Collaborative Development with Copilot

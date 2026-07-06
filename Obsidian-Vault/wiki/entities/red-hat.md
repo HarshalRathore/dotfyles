@@ -1,27 +1,28 @@
 ---
-title: "Red Hat"
+title: Red Hat
 tags:
-  - organization
-  - enterprise
-  - ai
-  - linux
-  - cloud
+- organization
+- enterprise
+- ai
+- linux
+- cloud
 aliases:
-  - Red Hat AI
-  - Red Hat AI Business Unit
-  - RH
+- Red Hat AI
+- Red Hat AI Business Unit
+- RH
 sources:
-  - "[[sources/watchv=89nuzmkokik]]"
-summary: "Enterprise open-source software company with an AI Business Unit. Provides LLM evaluation tools and infrastructure including PromptFu, GuideLLM integration, and VLLM-based inference on RHEL."
+- 'https://www.youtube.com/watch?v=89nuzmkokik'
+summary: Enterprise open-source software company with an AI Business Unit. Provides LLM evaluation tools and infrastructure including PromptFu, GuideLLM integration, and VLLM-based inference on RHEL.
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.55
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Red Hat

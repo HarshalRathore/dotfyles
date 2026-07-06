@@ -1,10 +1,11 @@
 ---
-title: The Next Unicorns: 7 Top AI Startups from the HF0 Residency
+title: >-
+  The Next Unicorns: 7 Top AI Startups from the HF0 Residency
 category: references
 tags: [aief2025, hf0-residency, startups, unicorns, ai-founders, pitch-decks]
 summary: "Diego Rodriguez (CREA) presents 7+ AI startups from the HF0 Residency at AIEF2025, opening with three framing stories about unpredictability, language barriers, and AI adoption speed."
 sources:
-  - "[[sources/watchv=l8-5ezsoi5a]]"
+  - "https://www.youtube.com/watch?v=l8-5ezsoi5a"
 provenance:
   extracted: 0.95
   inferred: 0.05

@@ -1,29 +1,33 @@
 ---
-title: "Eashan Sinha"
+title: Eashan Sinha
 tags:
-  - speaker
-  - windsurf
-  - engineer
-  - aief2025
+- speaker
+- windsurf
+- engineer
+- aief2025
 aliases:
-  - Eashan Sinha
-  - Ishan
+- Eashan Sinha
+- Ishan
 sources:
-  - "AIEF2025 - Mastering Engineering Flow with Windsurf - Eashan Sinha, Windsurf - https://www.youtube.com/watch?v=W_5tzQY-hVs"
+- AIEF2025 - Mastering Engineering Flow with Windsurf - Eashan Sinha, Windsurf - https://www.youtube.com/watch?v=W_5tzQY-hVs
 provenance:
   extracted: 0.95
   inferred: 0.03
   ambiguous: 0.02
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: [[entities/windsurf|Windsurf]]
-    type: related_to
-  - target: [[entities/cascade|Cascade]]
-    type: related_to
+- target:
+  - - entities/windsurf|Windsurf
+  type: related_to
+- target:
+  - - entities/cascade|Cascade
+  type: related_to
+category: entities
+summary: Eashan Sinha
 ---
 
 # Eashan Sinha

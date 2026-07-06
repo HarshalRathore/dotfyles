@@ -1,16 +1,16 @@
 ---
-title: "MCP-to-MCP Protocol"
+title: MCP-to-MCP Protocol
 category: concepts
 tags:
-  - mcp
-  - protocol
-  - remote
-  - security
-  - agent
+- mcp
+- protocol
+- remote
+- security
+- agent
 sources:
-  - "[[sources/watchv=rkvilz06y08]]"
+- 'https://www.youtube.com/watch?v=rkvilz06y08'
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.65
@@ -18,6 +18,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: MCP-to-MCP Protocol
 ---
 
 # MCP-to-MCP Protocol

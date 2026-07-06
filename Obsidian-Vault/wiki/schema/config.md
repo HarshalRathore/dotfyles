@@ -1,11 +1,20 @@
 ---
-type: "meta"
-title: "Wiki Schema Configuration"
-created: "2026-06-30"
-updated: "2026-06-30"
-lifecycle: "reviewed"
-base_confidence: "0.9"
-tags: ["schema"]
+type: meta
+title: Wiki Schema Configuration
+created: '2026-06-30'
+updated: '2026-06-30'
+lifecycle: reviewed
+base_confidence: 0.9
+tags:
+- schema
+category: schema
+sources: []
+tier: supporting
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Wiki Schema Configuration
 ---
 # Wiki Schema Configuration
 
@@ -32,8 +41,8 @@ Pages in `entities/` MUST follow this structure:
 **Sections:**
 1. **Basic Information**: Type, source file link
 2. **Description**: 3-6 sentences with concrete facts, bidirectional links
-3. **Related Entities**: Links to related entities using [[entities/...]]
-4. **Related Concepts**: Links to related concepts using [[concepts/...]]
+3. **Related Entities**: Links to related entities using entities/...
+4. **Related Concepts**: Links to related concepts using concepts/...
 5. **Mentions in Source**: Verbatim quotes with source attribution — see [Mentions Format](#mentions-format) below
 
 ## Concept Page Template
@@ -51,8 +60,8 @@ Pages in `concepts/` MUST follow this structure:
 1. **Definition**: Clear, concise definition
 2. **Key Characteristics**: Bullet list of defining traits
 3. **Applications**: Real-world usage scenarios
-4. **Related Concepts**: Links using [[concepts/...]]
-5. **Related Entities**: Links using [[entities/...]]
+4. **Related Concepts**: Links using concepts/...
+5. **Related Entities**: Links using entities/...
 6. **Mentions in Source**: Verbatim quotes with source attribution — see [Mentions Format](#mentions-format) below
 
 ## Naming Conventions
@@ -72,7 +81,7 @@ Pages in `sources/` MUST follow this structure:
 **Sections:**
 1. **Summary**: Brief description of the source content (2-4 sentences)
 2. **Key Points**: Bullet list of main insights
-3. **Mentioned Pages**: List of [[entities/...]] and [[concepts/...]] pages created from this source
+3. **Mentioned Pages**: List of entities/... and concepts/... pages created from this source
 
 ## Date Fields
 - `created:` and `updated:` are filled by the system programmatically — NEVER LLM-generated

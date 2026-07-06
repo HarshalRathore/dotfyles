@@ -1,26 +1,30 @@
 ---
-title: "Lighthouse Scores"
+title: Lighthouse Scores
 category: concepts
 tags:
-  - lighthouse
-  - performance
-  - web-vitals
-  - audits
-  - ai-agents
-  - aief2025
+- lighthouse
+- performance
+- web-vitals
+- audits
+- ai-agents
+- aief2025
 sources:
-  - "AIEF2025 - Your Coding Agent Just Got Cloned And Your Brain Isn't Ready - Rustin Banks, Google Jules - https://www.youtube.com/watch?v=X4BwOu0GWb8"
+- AIEF2025 - Your Coding Agent Just Got Cloned And Your Brain Isn't Ready - Rustin Banks, Google Jules - https://www.youtube.com/watch?v=X4BwOu0GWb8
 relationships:
-  - target: [[concepts/ai-audits-accessibility-security|AI Audits: Accessibility and Security]]
-    type: relates_to
-  - target: [[concepts/agent-as-laundry|Agent as Laundry]]
-    type: relates_to
-  - target: [[concepts/web-performance|Web Performance]]
-    type: relates_to
-  - target: [[concepts/core-web-vitals|Core Web Vitals]]
-    type: relates_to
+- target:
+  - - concepts/ai-audits-accessibility-security|AI Audits: Accessibility and Security
+  type: relates_to
+- target:
+  - - concepts/agent-as-laundry|Agent as Laundry
+  type: relates_to
+- target:
+  - - concepts/web-performance|Web Performance
+  type: relates_to
+- target:
+  - - concepts/core-web-vitals|Core Web Vitals
+  type: relates_to
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.75
@@ -28,6 +32,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Lighthouse Scores
 ---
 
 # Lighthouse Scores

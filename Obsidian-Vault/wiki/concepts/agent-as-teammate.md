@@ -1,9 +1,21 @@
 ---
 title: Agent as Teammate
-tags: [agents, team-dynamics, ai-strategy, cloud-agents, workforce, windsurf]
-aliases: [agent as teammate, cloud teammates, agents as teammates]
-summary: "Framing AI agents as 'infinitely scalable cloud-based teammates' rather than tools — implying they should be managed, assigned work, and integrated into team structures like human members. Windsurf extends this with flow-awareness as the technical mechanism."
-sources: ["[[sources/aief2025-building-the-platform-for-agent-coordination-—-tom-moor]]", "[[sources/watchv=ug9iadmi2dg]]", "AIEF2025 - Mastering Engineering Flow with Windsurf - Eashan Sinha, Windsurf - https://www.youtube.com/watch?v=W_5tzQY-hVs"]
+tags:
+- agents
+- team-dynamics
+- ai-strategy
+- cloud-agents
+- workforce
+- windsurf
+aliases:
+- agent as teammate
+- cloud teammates
+- agents as teammates
+summary: Framing AI agents as 'infinitely scalable cloud-based teammates' rather than tools — implying they should be managed, assigned work, and integrated into team structures like human members. Windsurf...
+sources:
+- '[[sources/aief2025-building-the-platform-for-agent-coordination-—-tom-moor]]'
+- 'https://www.youtube.com/watch?v=ug9iadmi2dg'
+- AIEF2025 - Mastering Engineering Flow with Windsurf - Eashan Sinha, Windsurf - https://www.youtube.com/watch?v=W_5tzQY-hVs
 provenance:
   extracted: 0.88
   inferred: 0.08
@@ -11,19 +23,25 @@ provenance:
 base_confidence: 0.85
 lifecycle: draft
 tier: supporting
-created: 2026-07-04T00:00:00Z
+created: 2026-07-04 00:00:00+00:00
 updated: 2026-07-05
 relationships:
-  - target: [[concepts/scaling-is-dead-thesis|Scaling Is Dead Thesis]]
-    type: related_to
-  - target: [[concepts/ai-multiplication|AI Multiplication]]
-    type: extends
-  - target: [[concepts/agent-vs-workflow|Agent vs Workflow]]
-    type: related_to
-  - target: [[concepts/agent-teammate-relationship|Agent-Teammate Relationship]]
-    type: related_to
-  - target: [[concepts/flow-awareness|Flow Awareness]]
-    type: related_to
+- target:
+  - - concepts/scaling-is-dead-thesis|Scaling Is Dead Thesis
+  type: related_to
+- target:
+  - - concepts/ai-multiplication|AI Multiplication
+  type: extends
+- target:
+  - - concepts/agent-vs-workflow|Agent vs Workflow
+  type: related_to
+- target:
+  - - concepts/agent-teammate-relationship|Agent-Teammate Relationship
+  type: related_to
+- target:
+  - - concepts/flow-awareness|Flow Awareness
+  type: related_to
+category: concepts
 ---
 
 # Agent as Teammate

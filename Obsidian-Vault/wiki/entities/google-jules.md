@@ -1,27 +1,31 @@
 ---
-title: "Google Jules"
+title: Google Jules
 category: entities
 tags:
-  - google
-  - google-labs
-  - coding-agent
-  - async-agent
-  - remote-agent
-  - cloud-agent
-  - aief2025
+- google
+- google-labs
+- coding-agent
+- async-agent
+- remote-agent
+- cloud-agent
+- aief2025
 sources:
-  - "AIEF2025 - Your Coding Agent Just Got Cloned And Your Brain Isn't Ready - Rustin Banks, Google Jules - https://www.youtube.com/watch?v=X4BwOu0GWb8"
+- AIEF2025 - Your Coding Agent Just Got Cloned And Your Brain Isn't Ready - Rustin Banks, Google Jules - https://www.youtube.com/watch?v=X4BwOu0GWb8
 relationships:
-  - target: [[entities/google|Google]]
-    type: implements
-  - target: [[concepts/parallel-agent-workflows|Parallel Agent Workflows]]
-    type: enables
-  - target: [[concepts/remote-agents-as-a-service|Remote Agents as a Service]]
-    type: exemplifies
-  - target: [[concepts/asynchronous-coding-agents|Asynchronous Coding Agents]]
-    type: exemplifies
+- target:
+  - - entities/google|Google
+  type: implements
+- target:
+  - - concepts/parallel-agent-workflows|Parallel Agent Workflows
+  type: enables
+- target:
+  - - concepts/remote-agents-as-a-service|Remote Agents as a Service
+  type: exemplifies
+- target:
+  - - concepts/asynchronous-coding-agents|Asynchronous Coding Agents
+  type: exemplifies
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.07
   ambiguous: 0.03
 base_confidence: 0.85
@@ -29,6 +33,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Google Jules
 ---
 
 # Google Jules

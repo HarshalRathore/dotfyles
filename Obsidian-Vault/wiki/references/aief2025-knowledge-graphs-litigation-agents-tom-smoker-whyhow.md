@@ -1,18 +1,18 @@
 ---
-title: "AIEF2025 — Knowledge Graphs in Litigation Agents"
+title: AIEF2025 — Knowledge Graphs in Litigation Agents
 category: references
 tags:
-  - conference-talk
-  - aief2025
-  - graphrag
-  - litigation
-  - multi-agent
-  - legal-ai
-  - whyhow
+- conference-talk
+- aief2025
+- graphrag
+- litigation
+- multi-agent
+- legal-ai
+- whyhow
 sources:
-  - "AIEF2025 - Knowledge Graphs in Litigation Agents — Tom Smoker, WhyHow - https://www.youtube.com/watch?v=yYxr6LdXNWM"
+- AIEF2025 - Knowledge Graphs in Litigation Agents — Tom Smoker, WhyHow - https://www.youtube.com/watch?v=yYxr6LdXNWM
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -22,14 +22,15 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: related_to
-  - target: "[[concepts/multi-agent-systems|Multi-Agent Systems]]"
-    type: uses
-  - target: "[[entities/neo4j|Neo4j]]"
-    type: related_to
-  - target: "[[entities/whyhow|WhyHow]]"
-    type: created_by
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: related_to
+- target: '[[concepts/multi-agent-systems|Multi-Agent Systems]]'
+  type: uses
+- target: '[[entities/neo4j|Neo4j]]'
+  type: related_to
+- target: '[[entities/whyhow|WhyHow]]'
+  type: created_by
+summary: AIEF2025 — Knowledge Graphs in Litigation Agents
 ---
 
 # AIEF2025 — Knowledge Graphs in Litigation Agents

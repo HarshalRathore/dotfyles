@@ -1,22 +1,26 @@
 ---
-title: "Evaluator Thresholds"
+title: Evaluator Thresholds
 category: concepts
 tags:
-  - evaluation
-  - thresholds
-  - scoring
-  - risk-calibration
-  - domain-specific-evals
-aliases: [eval thresholds, score thresholds, risk thresholds, evaluator calibration]
+- evaluation
+- thresholds
+- scoring
+- risk-calibration
+- domain-specific-evals
+aliases:
+- eval thresholds
+- score thresholds
+- risk thresholds
+- evaluator calibration
 relationships:
-  - target: "[[concepts/azure-ai-evaluation-sdk]]"
-    type: implements
-  - target: "[[concepts/llm-judge-best-practices]]"
-    type: related_to
+- target: '[[concepts/azure-ai-evaluation-sdk]]'
+  type: implements
+- target: '[[concepts/llm-judge-best-practices]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=j4vpq2i0qze]]"
+- 'https://www.youtube.com/watch?v=j4vpq2i0qze'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.72
@@ -24,6 +28,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Evaluator Thresholds
 ---
 
 # Evaluator Thresholds

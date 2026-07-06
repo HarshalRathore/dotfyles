@@ -1,20 +1,20 @@
 ---
-title: "Agentic Workflow vs Workflow Agent"
+title: Agentic Workflow vs Workflow Agent
 category: concepts
 tags:
-  - agentic-workflows
-  - workflow-agents
-  - enterprise-ai
-  - control
-  - autonomy
-  - planning
+- agentic-workflows
+- workflow-agents
+- enterprise-ai
+- control
+- autonomy
+- planning
 aliases:
-  - agentic workflow
-  - workflow agent
-  - agenticness
+- agentic workflow
+- workflow agent
+- agenticness
 sources:
-  - "AIEF2025 - How to Build Planning Agents without losing control - Yogendra Miraje, Factset - https://www.youtube.com/watch?v=sl3icG-IjHo"
-  - "AIEF2025 - 3 ingredients for building reliable enterprise agents - Harrison Chase, LangChain/LangGraph - https://www.youtube.com/watch?v=kTnfJszFxCg"
+- AIEF2025 - How to Build Planning Agents without losing control - Yogendra Miraje, Factset - https://www.youtube.com/watch?v=sl3icG-IjHo
+- AIEF2025 - 3 ingredients for building reliable enterprise agents - Harrison Chase, LangChain/LangGraph - https://www.youtube.com/watch?v=kTnfJszFxCg
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -26,14 +26,15 @@ tier: core
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/agent-workflows|Agent Workflows]]"
-    type: extends
-  - target: "[[concepts/workflow-agent-spectrum|Workflow-Agent Spectrum]]"
-    type: related_to
-  - target: "[[concepts/agent-autonomy|Agent Autonomy]]"
-    type: related_to
-  - target: "[[concepts/deterministic-vs-autonomous-agents|Deterministic vs Autonomous Agents]]"
-    type: related_to
+- target: '[[concepts/agent-workflows|Agent Workflows]]'
+  type: extends
+- target: '[[concepts/workflow-agent-spectrum|Workflow-Agent Spectrum]]'
+  type: related_to
+- target: '[[concepts/agent-autonomy|Agent Autonomy]]'
+  type: related_to
+- target: '[[concepts/deterministic-vs-autonomous-agents|Deterministic vs Autonomous Agents]]'
+  type: related_to
+summary: Agentic Workflow vs Workflow Agent
 ---
 
 # Agentic Workflow vs Workflow Agent

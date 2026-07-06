@@ -1,30 +1,31 @@
 ---
-title: "Generative Media"
+title: Generative Media
 category: concepts
 tags:
-  - generative-media
-  - ai-content
-  - video-generation
-  - image-generation
-  - audio-generation
+- generative-media
+- ai-content
+- video-generation
+- image-generation
+- audio-generation
 sources:
-  - "[[sources/watchv=p370d8kmlkw]]"
+- 'https://www.youtube.com/watch?v=p370d8kmlkw'
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: core
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/marginal-cost-of-creation]]"
-    type: related_to
-  - target: "[[concepts/generative-video-vs-image]]"
-    type: extends
-  - target: "[[concepts/virtual-try-on]]"
-    type: related_to
+- target: '[[concepts/marginal-cost-of-creation]]'
+  type: related_to
+- target: '[[concepts/generative-video-vs-image]]'
+  type: extends
+- target: '[[concepts/virtual-try-on]]'
+  type: related_to
+summary: Generative Media
 ---
 
 # Generative Media

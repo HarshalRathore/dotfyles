@@ -1,12 +1,23 @@
 ---
-title: "CMD"
+title: CMD
 sources:
-  - "[[sources/commands-&-args-in-containers-&-pods_300e3e]]"
+- '[[sources/commands-&-args-in-containers-&-pods_300e3e]]'
 tags:
-  - deployment
+- deployment
 aliases:
-  - Docker CMD
-  - CMD instruction
+- Docker CMD
+- CMD instruction
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+created: '2026-07-04T15:08:38.706108+00:00'
+updated: '2026-07-04T15:08:38.706108+00:00'
+summary: CMD
 ---
 # CMD
 

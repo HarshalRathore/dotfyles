@@ -1,31 +1,32 @@
 ---
-title: "WhyHow"
+title: WhyHow
 category: entities
 tags:
-  - company
-  - legal-ai
-  - graph-database
-  - multi-agent
-  - litigation
+- company
+- legal-ai
+- graph-database
+- multi-agent
+- litigation
 sources:
-  - "AIEF2025 - Knowledge Graphs in Litigation Agents — Tom Smoker, WhyHow - https://www.youtube.com/watch?v=yYxr6LdXNWM"
+- AIEF2025 - Knowledge Graphs in Litigation Agents — Tom Smoker, WhyHow - https://www.youtube.com/watch?v=yYxr6LdXNWM
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: uses
-  - target: "[[concepts/multi-agent-systems|Multi-Agent Systems]]"
-    type: uses
-  - target: "[[entities/tom-smoker|Tom Smoker]]"
-    type: founded_by
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: uses
+- target: '[[concepts/multi-agent-systems|Multi-Agent Systems]]'
+  type: uses
+- target: '[[entities/tom-smoker|Tom Smoker]]'
+  type: founded_by
+summary: WhyHow
 ---
 
 # WhyHow

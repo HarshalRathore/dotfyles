@@ -1,16 +1,23 @@
 ---
 title: Featherless
 category: entities
-tags: [company, ai, inference, infrastructure, models]
-aliases: [Featherless AI, featherless.ai]
+tags:
+- company
+- ai
+- inference
+- infrastructure
+- models
+aliases:
+- Featherless AI
+- featherless.ai
 sources:
-  - "[[sources/watchv=1zlo9yu2ziu]]"
-summary: "AI company building inference infrastructure and action models. Published Featherless Action R1 (65% on real eval) and the world's largest non-transformer 72B parameter model based on RWKV architecture."
+- 'https://www.youtube.com/watch?v=1zlo9yu2ziu'
+summary: AI company building inference infrastructure and action models. Published Featherless Action R1 (65% on real eval) and the world's largest non-transformer 72B parameter model based on RWKV architec...
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03

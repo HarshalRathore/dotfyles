@@ -1,17 +1,26 @@
 ---
 type: concept
-title: "Bootstrapping"
+title: Bootstrapping
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/install-kubernetes-components_c70e92]]"
+- '[[sources/install-kubernetes-components_c70e92]]'
 tags:
-  - deployment
+- deployment
 aliases:
-  - kubeadm Bootstrapping
-  - Bootstrapping a Cluster
+- kubeadm Bootstrapping
+- Bootstrapping a Cluster
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Bootstrapping
 ---
 # Bootstrapping
 
@@ -31,7 +40,7 @@ Bootstrapping is the essential procedure for setting up any self-managed Kuberne
 
 ## Related Concepts
 - [[concepts/control-plane-node]]
-- [[worker-node]]
+- [[concepts/worker-node]]
 - kubernetes-api-server
 - kubernetes-cluster
 - infrastructure-provisioning

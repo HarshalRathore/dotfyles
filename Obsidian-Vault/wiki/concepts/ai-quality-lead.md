@@ -1,21 +1,22 @@
 ---
-title: "AI Quality Lead"
+title: AI Quality Lead
 category: concepts
 tags:
-  - ai
-  - roles
-  - operations
-  - evaluation
-  - team-structure
-aliases: [AI quality lead role]
+- ai
+- roles
+- operations
+- evaluation
+- team-structure
+aliases:
+- AI quality lead role
 sources:
-  - "[[sources/watchv=1__v4ktv_gw]]"
-summary: "An emerging cross-functional role combining deep domain expertise with systems thinking to own AI quality — labeling, eval criteria, experiments, prompt engineering — without necessarily writing production code."
+- 'https://www.youtube.com/watch?v=1__v4ktv_gw'
+summary: An emerging cross-functional role combining deep domain expertise with systems thinking to own AI quality — labeling, eval criteria, experiments, prompt engineering — without necessarily writing pr...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.18
   ambiguous: 0.02
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-03

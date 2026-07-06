@@ -1,31 +1,32 @@
 ---
-title: "Unified AI Product Platforms"
+title: Unified AI Product Platforms
 category: concepts
 tags:
-  - unified-platform
-  - product-design
-  - ai
-  - gemini
-  - google
-  - identity
-summary: "AI products that serve as a unifying layer across an organization's product ecosystem — replacing fragmented identity systems with a single thread that connects all services."
+- unified-platform
+- product-design
+- ai
+- gemini
+- google
+- identity
+summary: AI products that serve as a unifying layer across an organization's product ecosystem — replacing fragmented identity systems with a single thread that connects all services.
 provenance:
-  extracted: 0.60
+  extracted: 0.6
   inferred: 0.35
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/gemini|Gemini]]"
-    type: related_to
-  - target: "[[concepts/proactive-agents|Proactive Agents]]"
-    type: related_to
-  - target: "[[concepts/agent-vs-workflow|Agent vs Workflow]]"
-    type: related_to
+- target: '[[entities/gemini|Gemini]]'
+  type: related_to
+- target: '[[concepts/proactive-agents|Proactive Agents]]'
+  type: related_to
+- target: '[[concepts/agent-vs-workflow|Agent vs Workflow]]'
+  type: related_to
+sources: []
 ---
 
 # Unified AI Product Platforms

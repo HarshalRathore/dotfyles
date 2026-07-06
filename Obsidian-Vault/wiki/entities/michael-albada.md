@@ -10,7 +10,7 @@ tags:
   - author
 category: entities
 sources:
-  - "[[sources/watchv=r30col3upug]]"
+  - "https://www.youtube.com/watch?v=r30col3upug"
 summary: "Principal Applied Scientist at Microsoft, key contributor to Security Co-Pilot and Security Co-Pilot Agents. Author of an O'Reilly book on building applications with AI agents."
 provenance:
   extracted: 0.95

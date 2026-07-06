@@ -1,37 +1,37 @@
 ---
-title: "Vibe Coding with Confidence"
+title: Vibe Coding with Confidence
 category: concepts
 tags:
-  - vibe-coding
-  - enterprise-ai
-  - aief2025
-  - itamar-friedman
-  - qodo
-  - code-review
-  - testing
-  - developer-experience
-summary: The thesis that the next game-changing shift in software development is not "vibe coding" alone, but "vibe coding with confidence" — combining AI-generated code speed with structured review, testing, and end-to-end workflows.
+- vibe-coding
+- enterprise-ai
+- aief2025
+- itamar-friedman
+- qodo
+- code-review
+- testing
+- developer-experience
+summary: The thesis that the next game-changing shift in software development is not "vibe coding" alone, but "vibe coding with confidence" — combining AI-generated code speed with structured review, testin...
 sources:
-  - "AIEF2025 - Vibe Coding with Confidence — Itamar Friedman, Qodo - https://www.youtube.com/watch?v=n991Yxo1aOI"
+- AIEF2025 - Vibe Coding with Confidence — Itamar Friedman, Qodo - https://www.youtube.com/watch?v=n991Yxo1aOI
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.07
   ambiguous: 0.03
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/vibe-coding|Vibe Coding]]"
-    type: extends
-  - target: "[[concepts/cli-ai-interface-leader|CLI as AI Interface Leader]]"
-    type: relies_on
-  - target: "[[concepts/red-teaming|Red Teaming]]"
-    type: incorporates
-  - target: "[[concepts/sdlc-shift-left-ai|SDLC Shift-Left AI]]"
-    type: requires
+- target: '[[concepts/vibe-coding|Vibe Coding]]'
+  type: extends
+- target: '[[concepts/cli-ai-interface-leader|CLI as AI Interface Leader]]'
+  type: relies_on
+- target: '[[concepts/red-teaming|Red Teaming]]'
+  type: incorporates
+- target: '[[concepts/sdlc-shift-left-ai|SDLC Shift-Left AI]]'
+  type: requires
 ---
 
 # Vibe Coding with Confidence

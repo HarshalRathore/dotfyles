@@ -1,21 +1,28 @@
 ---
 title: Dirty Secret of Abstraction
 category: concepts
-tags: [abstraction, software-engineering, distributed-systems, durable-execution]
-aliases: [dirty secret, abstraction hidden complexity, each abstraction uses the layer below]
+tags:
+- abstraction
+- software-engineering
+- distributed-systems
+- durable-execution
+aliases:
+- dirty secret
+- abstraction hidden complexity
+- each abstraction uses the layer below
 relationships:
-  - target: "[[concepts/software-abstraction-evolution|Software Abstraction Evolution]]"
-    type: related_to
-  - target: "[[concepts/durable-execution|Durable Execution]]"
-    type: related_to
+- target: '[[concepts/software-abstraction-evolution|Software Abstraction Evolution]]'
+  type: related_to
+- target: '[[concepts/durable-execution|Durable Execution]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=kj9ezytws1y]]"
-summary: "Each layer of abstraction still uses the previous layer under the hood — the complexity doesn't disappear, it just moves deeper into the tooling. This pattern makes abstraction useful but means the complexity still exists somewhere."
+- 'https://www.youtube.com/watch?v=kj9ezytws1y'
+summary: Each layer of abstraction still uses the previous layer under the hood — the complexity doesn't disappear, it just moves deeper into the tooling. This pattern makes abstraction useful but means the...
 provenance:
-  extracted: 0.90
-  inferred: 0.10
-  ambiguous: 0.00
-base_confidence: 0.80
+  extracted: 0.9
+  inferred: 0.1
+  ambiguous: 0.0
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04

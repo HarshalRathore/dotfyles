@@ -1,13 +1,20 @@
 ---
-title: "The Bitter Lesson"
+title: The Bitter Lesson
 category: references
-tags: [ai-research, bitter-lesson, rich-sutton, reinforcement-learning, scaling, search, learning]
-summary: "Rich Sutton's influential essay arguing that 70 years of AI research shows that general methods leveraging computation (search and learning) consistently outperform approaches that hard-code domain knowledge."
+tags:
+- ai-research
+- bitter-lesson
+- rich-sutton
+- reinforcement-learning
+- scaling
+- search
+- learning
+summary: Rich Sutton's influential essay arguing that 70 years of AI research shows that general methods leveraging computation (search and learning) consistently outperform approaches that hard-code domain...
 sources:
-  - "The Bitter Lesson — Rich Sutton (Turing Award winner, reinforcement learning pioneer) - https://www.incompleteideas.net/IncIdeas/BitterLesson.html"
-  - "AIEF2025 - On Engineering AI Systems that Endure The Bitter Lesson - Omar Khattab, DSPy & Databricks - https://www.youtube.com/watch?v=qdmxApz3EJI"
+- The Bitter Lesson — Rich Sutton (Turing Award winner, reinforcement learning pioneer) - https://www.incompleteideas.net/IncIdeas/BitterLesson.html
+- AIEF2025 - On Engineering AI Systems that Endure The Bitter Lesson - Omar Khattab, DSPy & Databricks - https://www.youtube.com/watch?v=qdmxApz3EJI
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.85
@@ -17,14 +24,14 @@ tier: core
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/rich-sutton|Rich Sutton]]"
-    type: authored_by
-  - target: "[[entities/omar-khattab|Omar Khattab]]"
-    type: discussed_by
-  - target: "[[concepts/bitter-lesson|The Bitter Lesson (Concept)]]"
-    type: primary_source
-  - target: "[[concepts/premature-optimization|Premature Optimization]]"
-    type: related_to
+- target: '[[entities/rich-sutton|Rich Sutton]]'
+  type: authored_by
+- target: '[[entities/omar-khattab|Omar Khattab]]'
+  type: discussed_by
+- target: '[[concepts/bitter-lesson|The Bitter Lesson (Concept)]]'
+  type: primary_source
+- target: '[[concepts/premature-optimization|Premature Optimization]]'
+  type: related_to
 ---
 
 # The Bitter Lesson

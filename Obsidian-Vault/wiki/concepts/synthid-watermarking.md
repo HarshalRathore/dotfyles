@@ -1,19 +1,19 @@
 ---
-title: "SynthID Watermarking"
+title: SynthID Watermarking
 category: concepts
 tags:
-  - watermarking
-  - synthetic-media
-  - provenance
-  - responsible-ai
+- watermarking
+- synthetic-media
+- provenance
+- responsible-ai
 aliases:
-  - SynthID
-  - Synthetic Watermark
+- SynthID
+- Synthetic Watermark
 sources:
-  - "AIEF2025 - Veo 3 for Developers — Paige Bailey, Google DeepMind - https://www.youtube.com/watch?v=hlcAZ2lX_ZI"
-summary: "Google's digital watermarking technology for synthetically generated images and video, providing machine-detectable provenance for AI-generated media. Also used in Lyria 2 for audio asset watermarking."
+- AIEF2025 - Veo 3 for Developers — Paige Bailey, Google DeepMind - https://www.youtube.com/watch?v=hlcAZ2lX_ZI
+summary: Google's digital watermarking technology for synthetically generated images and video, providing machine-detectable provenance for AI-generated media. Also used in Lyria 2 for audio asset watermark...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -23,10 +23,10 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/veo-3|Veo 3]]"
-    type: related_to
-  - target: "[[entities/lyria-2|Lyria 2]]"
-    type: related_to
+- target: '[[entities/veo-3|Veo 3]]'
+  type: related_to
+- target: '[[entities/lyria-2|Lyria 2]]'
+  type: related_to
 ---
 
 # SynthID Watermarking

@@ -1,15 +1,15 @@
 ---
-title: "Vibe Coding at Scale: Customizing AI Assistants for Enterprise Environments — Harold, Microsoft"
+title: 'Vibe Coding at Scale: Customizing AI Assistants for Enterprise Environments — Harold, Microsoft'
 category: references
 tags:
-  - vibe-coding
-  - github-copilot
-  - vscode
-  - enterprise
-  - ai-assistant
-  - aief2025
+- vibe-coding
+- github-copilot
+- vscode
+- enterprise
+- ai-assistant
+- aief2025
 sources:
-  - "[[sources/watchv=eafp8pds7h4]]"
+- 'https://www.youtube.com/watch?v=eafp8pds7h4'
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -19,6 +19,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: 'Vibe Coding at Scale: Customizing AI Assistants for Enterprise Environments'
 ---
 
 # Vibe Coding at Scale: Customizing AI Assistants for Enterprise Environments

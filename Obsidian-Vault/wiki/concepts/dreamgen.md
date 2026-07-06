@@ -1,32 +1,26 @@
 ---
-title: "DreamGen"
+title: DreamGen
 category: concepts
 tags:
-  - dreamgen
-  - data-multiplication
-  - video-generation
-  - world-foundation-model
-  - robotics
-  - synthetic-data
-  - nvidia
-summary: "A data multiplication technique announced at Computex that takes human teleoperation trajectories and multiplies them through video generation models (World Foundation Models) to create large-scale training data for robotics.
+- dreamgen
+- data-multiplication
+- video-generation
+- world-foundation-model
+- robotics
+- synthetic-data
+- nvidia
+sources: []
+summary: A data multiplication technique announced at Computex that takes human teleoperation trajectories and multiplies them through video generation models (World Foundation Models) to create large-scale...
 provenance:
-  extracted: 0.85
-  inferred: 0.10
-  ambiguous: 0.05
-base_confidence: 0.80
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+base_confidence: 0.42
 lifecycle: draft
-lifecycle_changed: 2026-07-05
+lifecycle_changed: '2026-07-05'
 tier: supporting
-created: 2026-07-05
-updated: 2026-07-05
-relationships:
-  - target: "[[concepts/data-pyramid|Data Pyramid]]"
-    type: extends
-  - target: "[[concepts/physical-ai|Physical AI]]"
-    type: enables
-  - target: "[[entities/nvidia-gr00t|NVIDIA Project GR00T]]"
-    type: used_by
+created: '2026-07-05'
+updated: '2026-07-05'
 ---
 
 # DreamGen

@@ -1,17 +1,26 @@
 ---
 type: concept
-title: "Kubernetes practice"
+title: Kubernetes practice
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/microservices-demo-projects_ac9b1f]]"
+- '[[sources/microservices-demo-projects_ac9b1f]]'
 tags:
-  - deployment
+- deployment
 aliases:
-  - "Kubernetes hands-on learning"
-  - K8s practice guide
+- Kubernetes hands-on learning
+- K8s practice guide
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Kubernetes practice
 ---
 # Kubernetes practice
 

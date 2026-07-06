@@ -1,22 +1,22 @@
 ---
-title: "TreeSitter"
+title: TreeSitter
 category: entities
 tags:
-  - parser
-  - code-analysis
-  - syntactic-analysis
-  - rust
-  - max-brunsfeld
-  - code-intelligence
+- parser
+- code-analysis
+- syntactic-analysis
+- rust
+- max-brunsfeld
+- code-intelligence
 sources:
-  - "AIEF2025 - CI in the Era of AI: From Unit Tests to Stochastic Evals — Nathan Sobo, Zed - https://www.youtube.com/watch?v=WXy8Yy9xGss"
+- 'AIEF2025 - CI in the Era of AI: From Unit Tests to Stochastic Evals — Nathan Sobo, Zed - https://www.youtube.com/watch?v=WXy8Yy9xGss'
 relationships:
-  - target: "[[entities/zed|Zed]]"
-    type: uses
-  - target: "[[concepts/deterministic-from-stochastic|Deterministic-From-Stochastic]]"
-    type: uses
+- target: '[[entities/zed|Zed]]'
+  type: uses
+- target: '[[concepts/deterministic-from-stochastic|Deterministic-From-Stochastic]]'
+  type: uses
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.07
   ambiguous: 0.03
 base_confidence: 0.88
@@ -24,6 +24,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: TreeSitter
 ---
 
 # TreeSitter

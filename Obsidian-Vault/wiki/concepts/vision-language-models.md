@@ -1,15 +1,23 @@
 ---
 title: Vision-Language Models
 category: concepts
-tags: [vlm, multimodal, captioning, media-pipeline, multimodal-generation, visual-fidelity, clip, dino]
-summary: AI models processing both visual and textual inputs. Used for image captioning, VQA, and object detection. Suffer from visual fidelity gap — excellent at linguistic generalization but poor at visual generalization.
+tags:
+- vlm
+- multimodal
+- captioning
+- media-pipeline
+- multimodal-generation
+- visual-fidelity
+- clip
+- dino
+summary: AI models processing both visual and textual inputs. Used for image captioning, VQA, and object detection. Suffer from visual fidelity gap — excellent at linguistic generalization but poor at visua...
 sources:
-  - "[[sources/watchv=ey4o9m6aswi]]"
-  - "[[sources/watchv=iqc05ecvnye]]"
+- 'https://www.youtube.com/watch?v=ey4o9m6aswi'
+- 'https://www.youtube.com/watch?v=iqc05ecvnye'
 provenance:
-  extracted: 0.70
-  inferred: 0.20
-  ambiguous: 0.10
+  extracted: 0.7
+  inferred: 0.2
+  ambiguous: 0.1
 base_confidence: 0.75
 lifecycle: draft
 lifecycle_changed: 2026-07-04
@@ -17,18 +25,18 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[multimodal-generation]]"
-    type: extends
-  - target: "[[decoupled-architecture]]"
-    type: related_to
-  - target: "[[inference-serving]]"
-    type: related_to
-  - target: "[[concepts/clip-limitations|clip-limitations]]"
-    type: related_to
-  - target: "[[concepts/vlm-visual-fidelity|vlm-visual-fidelity]]"
-    type: related_to
-  - target: "[[concepts/dinov2-pre-training|dinov2-pre-training]]"
-    type: related_to
+- target: '[[concepts/multimodal-generation]]'
+  type: extends
+- target: '[[concepts/decoupled-architecture]]'
+  type: related_to
+- target: '[[concepts/inference-serving]]'
+  type: related_to
+- target: '[[concepts/clip-limitations|clip-limitations]]'
+  type: related_to
+- target: '[[concepts/vlm-visual-fidelity|vlm-visual-fidelity]]'
+  type: related_to
+- target: '[[concepts/dinov2-pre-training|dinov2-pre-training]]'
+  type: related_to
 ---
 
 Vision-language models (VLMs) are AI models that process both visual and textual inputs to produce unified representations. They are used across a spectrum of applications: automatic image and video captioning, visual question answering (VQA), object detection, and prompt enhancement in generative media pipelines.

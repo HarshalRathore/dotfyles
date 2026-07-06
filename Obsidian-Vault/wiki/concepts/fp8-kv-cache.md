@@ -1,19 +1,19 @@
 ---
-title: "FP8 KV Cache Quantization"
+title: FP8 KV Cache Quantization
 category: concepts
 tags:
-  - quantization
-  - fp8
-  - kv-cache
-  - hopper
-  - memory-optimization
-  - tensorrt-llm
+- quantization
+- fp8
+- kv-cache
+- hopper
+- memory-optimization
+- tensorrt-llm
 aliases:
-  - FP8 KV cache
-  - KV cache quantization FP8
+- FP8 KV cache
+- KV cache quantization FP8
 summary: Quantizing the KV cache to FP8 precision on Hopper GPUs, reducing memory usage for attention state. Works well even on small models like Orpheus TTS (3B), enabling higher concurrency.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -22,12 +22,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/quantization-inference]]"
-    type: extends
-  - target: "[[concepts/fp8-compute]]"
-    type: uses
-  - target: "[[entities/nvidia]]"
-    type: requires
+- target: '[[concepts/quantization-inference]]'
+  type: extends
+- target: '[[concepts/fp8-compute]]'
+  type: uses
+- target: '[[entities/nvidia]]'
+  type: requires
+sources: []
 ---
 
 # FP8 KV Cache Quantization

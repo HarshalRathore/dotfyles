@@ -9,7 +9,7 @@ tags:
   - maintainability
 category: concepts
 sources:
-  - "[[sources/watchv=r30col3upug]]"
+  - "https://www.youtube.com/watch?v=r30col3upug"
 summary: "When hardcoded orchestration (chains and trees) becomes too complex to maintain, the bitter lesson says to move to agentic patterns — trading measurability for long-term maintainability."
 provenance:
   extracted: 0.90

@@ -10,7 +10,7 @@ tags:
   - aief2025
 summary: "Windsurf's automated code review feature that asynchronously leaves comments and suggests changes, enabling developers to ship production-ready code with AI-native review instead of manual PR review."
 sources:
-  - "[[sources/watchv=jvunpl5qo8q]]"
+  - "https://www.youtube.com/watch?v=jvunpl5qo8q"
 provenance:
   extracted: 0.90
   inferred: 0.07

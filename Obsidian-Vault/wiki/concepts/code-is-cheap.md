@@ -1,32 +1,33 @@
 ---
-title: "Code Is Cheap"
+title: Code Is Cheap
 category: concepts
 tags:
-  - economics
-  - ai-coding
-  - prototyping
-  - aief2025
+- economics
+- ai-coding
+- prototyping
+- aief2025
 aliases:
-  - code is cheap
-  - cheap code
-summary: "The economic principle that AI agents have made code cheap enough to prototype risky ideas freely, enabling more experiments and lower-cost exploration of uncertain directions."
+- code is cheap
+- cheap code
+summary: The economic principle that AI agents have made code cheap enough to prototype risky ideas freely, enabling more experiments and lower-cost exploration of uncertain directions.
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/demo-culture|Demo Culture]]"
-    type: extends
-  - target: "[[concepts/compounding-engineering|Compounding Engineering]]"
-    type: related_to
-  - target: "[[concepts/vibe-coding|Vibe Coding]]"
-    type: related_to
+- target: '[[concepts/demo-culture|Demo Culture]]'
+  type: extends
+- target: '[[concepts/compounding-engineering|Compounding Engineering]]'
+  type: related_to
+- target: '[[concepts/vibe-coding|Vibe Coding]]'
+  type: related_to
+sources: []
 ---
 
 # Code Is Cheap

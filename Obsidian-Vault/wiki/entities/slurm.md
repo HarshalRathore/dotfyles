@@ -4,7 +4,7 @@ category: entities
 tags: [job-scheduler, hpc, cluster-management, gpu-clusters, ml-infrastructure]
 summary: Workload manager and job scheduler used by Luma AI to run PyTorch inference workers on their training cluster and manage burst scaling for Dream Machine.
 sources:
-  - "[[sources/watchv=ey4o9m6aswi]]"
+  - "https://www.youtube.com/watch?v=ey4o9m6aswi"
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -16,11 +16,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[gpu-scaling]]"
+  - target: "[[concepts/gpu-scaling]]"
     type: uses
-  - target: "[[distributed-inference]]"
+  - target: "[[concepts/distributed-inference]]"
     type: related_to
-  - target: "[[inference-serving]]"
+  - target: "[[concepts/inference-serving]]"
     type: related_to
 ---
 

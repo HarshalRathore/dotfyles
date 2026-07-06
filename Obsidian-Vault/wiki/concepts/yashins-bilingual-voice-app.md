@@ -1,16 +1,16 @@
 ---
-title: "Yashin's Bilingual Voice App"
+title: Yashin's Bilingual Voice App
 category: concepts
 tags:
-  - voice-ai
-  - democratization
-  - non-technical
-  - voice-apps
-  - language-education
+- voice-ai
+- democratization
+- non-technical
+- voice-apps
+- language-education
 sources:
-  - "[[sources/watchv=e71ytnbcfxy]]"
+- 'https://www.youtube.com/watch?v=e71ytnbcfxy'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -19,12 +19,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/voice-agents]]"
-    type: related_to
-  - target: "[[concepts/voice-as-ui]]"
-    type: related_to
-  - target: "[[entities/pipe-cat]]"
-    type: related_to
+- target: '[[concepts/voice-agents]]'
+  type: related_to
+- target: '[[concepts/voice-as-ui]]'
+  type: related_to
+- target: '[[entities/pipe-cat]]'
+  type: related_to
+summary: Yashin's Bilingual Voice App
 ---
 
 # Yashin's Bilingual Voice App

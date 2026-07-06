@@ -1,34 +1,35 @@
 ---
-title: "How to Secure Agents using OAuth — Jared Hanson (Keycard, Passport.js)"
+title: How to Secure Agents using OAuth — Jared Hanson (Keycard, Passport.js)
 category: references
 tags:
-  - reference
-  - talk
-  - aief2025
-  - oauth
-  - security
-  - agents
-  - mcp
-  - identity
-  - passport-js
+- reference
+- talk
+- aief2025
+- oauth
+- security
+- agents
+- mcp
+- identity
+- passport-js
 sources:
-  - "AIEF2025 - How to Secure Agents using OAuth — Jared Hanson (Keycard, Passport.js) - https://www.youtube.com/watch?v=blmAkayzE8M"
+- AIEF2025 - How to Secure Agents using OAuth — Jared Hanson (Keycard, Passport.js) - https://www.youtube.com/watch?v=blmAkayzE8M
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/oauth-2.0|OAuth 2.0]]"
-    type: related_to
-  - target: "[[concepts/mcp-resource-server-separation|MCP Resource Server Separation]]"
-    type: related_to
-  - target: "[[references/aief2025-securing-agents-open-standards-bobby-tiernay-auth0]]"
-    type: related_to
+- target: '[[concepts/oauth-2.0|OAuth 2.0]]'
+  type: related_to
+- target: '[[concepts/mcp-resource-server-separation|MCP Resource Server Separation]]'
+  type: related_to
+- target: '[[references/aief2025-securing-agents-open-standards-bobby-tiernay-auth0]]'
+  type: related_to
+summary: How to Secure Agents using OAuth — Jared Hanson (Keycard, Passport.js)
 ---
 
 # How to Secure Agents using OAuth — Jared Hanson (Keycard, Passport.js)

@@ -1,18 +1,27 @@
 ---
 title: BM25 Scoring
-tags: [search, ranking, algorithm]
-aliases: [BM25, Best Match 25, Okapi BM25]
-sources: ["[[sources/ai-engineer-worlds-fair-2025-information-retrieval-from-the-ground-up-philipp-krenn]]", "[[sources/watchv=4xe_imyxbqc]]"]
-summary: "The standard ranking algorithm for lexical search. Replaces TF-IDF with a saturated term frequency curve. Combines term frequency, inverse document frequency, and field length normalization."
+tags:
+- search
+- ranking
+- algorithm
+aliases:
+- BM25
+- Best Match 25
+- Okapi BM25
+sources:
+- '[[sources/ai-engineer-worlds-fair-2025-information-retrieval-from-the-ground-up-philipp-krenn]]'
+- 'https://www.youtube.com/watch?v=4xe_imyxbqc'
+summary: The standard ranking algorithm for lexical search. Replaces TF-IDF with a saturated term frequency curve. Combines term frequency, inverse document frequency, and field length normalization.
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
-created: 2026-07-03T08:30:00Z
-updated: 2026-07-03T08:30:00Z
+created: 2026-07-03 08:30:00+00:00
+updated: 2026-07-03 08:30:00+00:00
+category: concepts
 ---
 
 # BM25 Scoring

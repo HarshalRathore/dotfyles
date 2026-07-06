@@ -24,7 +24,7 @@ relationships:
 
 ## Origin Story
 
-[[Christopher Chedeau|christopher-chedeau]] described this approach during Facebook's performance review cycle. Knowing he wouldn't write his reviews until the last minute, he chose to spend the intervening time building [[Excalidraw|excalidraw]] rather than passively scrolling on his phone. The result: a tool that went viral on Twitter and became widely adopted during the COVID-19 remote work shift.
+[[entities/christopher-chedeau|christopher-chedeau]] described this approach during Facebook's performance review cycle. Knowing he wouldn't write his reviews until the last minute, he chose to spend the intervening time building [[entities/excalidraw|excalidraw]] rather than passively scrolling on his phone. The result: a tool that went viral on Twitter and became widely adopted during the COVID-19 remote work shift.
 
 ## Key Insight
 

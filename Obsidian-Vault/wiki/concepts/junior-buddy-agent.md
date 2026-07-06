@@ -7,7 +7,7 @@ tags:
   - software-engineering
   - aief2025
 sources:
-  - "[[sources/watchv=mi83but_23o]]"
+  - "https://www.youtube.com/watch?v=mi83but_23o"
 summary: "The mental model of an AI agent as a 'junior buddy' — capable of intern-level tasks, requiring some guidance but improving over time through feedback and memory. Emerged at Tier 3 of agent capability."
 provenance:
   extracted: 0.85

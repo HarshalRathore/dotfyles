@@ -1,17 +1,26 @@
 ---
 type: concept
-title: "kubectl set image"
+title: kubectl set image
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/rolling-updates-&-rollbacks_f484ef]]"
+- '[[sources/rolling-updates-&-rollbacks_f484ef]]'
 tags:
-  - deployment
+- deployment
 aliases:
-  - "kubectl set-image"
-  - "set-image"
+- kubectl set-image
+- set-image
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: kubectl set image
 ---
 # kubectl set image
 

@@ -1,22 +1,25 @@
 ---
-title: "Ritualized Discovery"
+title: Ritualized Discovery
 tags:
-  - concept
-  - ai
-  - methodology
-  - experimentation
-  - product-development
-aliases: [systematic discovery, structured experimentation, repeatable innovation]
+- concept
+- ai
+- methodology
+- experimentation
+- product-development
+aliases:
+- systematic discovery
+- structured experimentation
+- repeatable innovation
 relationships:
-  - target: "[[concepts/ai-driven-experimentation]]"
-    type: related_to
-  - target: "[[concepts/ai-first-transformation]]"
-    type: related_to
+- target: '[[concepts/ai-driven-experimentation]]'
+  type: related_to
+- target: '[[concepts/ai-first-transformation]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=3ygrcgzj3yc]]"
-summary: "The practice of making AI experimentation and discovery a systematic, repeatable process embedded into planning cycles — not ad-hoc spikes but structured innovation rhythms."
+- 'https://www.youtube.com/watch?v=3ygrcgzj3yc'
+summary: The practice of making AI experimentation and discovery a systematic, repeatable process embedded into planning cycles — not ad-hoc spikes but structured innovation rhythms.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.18
   ambiguous: 0.02
 base_confidence: 0.55
@@ -24,6 +27,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Ritualized Discovery

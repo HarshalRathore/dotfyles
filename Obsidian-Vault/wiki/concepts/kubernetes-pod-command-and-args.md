@@ -1,12 +1,23 @@
 ---
-title: "Kubernetes Pod command and args"
+title: Kubernetes Pod command and args
 sources:
-  - "[[sources/commands-&-args-in-containers-&-pods_300e3e]]"
+- '[[sources/commands-&-args-in-containers-&-pods_300e3e]]'
 tags:
-  - deployment
+- deployment
 aliases:
-  - Container Command Override
-  - Docker ENTRYPOINT CMD Mapping
+- Container Command Override
+- Docker ENTRYPOINT CMD Mapping
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+created: '2026-07-04T15:08:36.795092+00:00'
+updated: '2026-07-04T15:08:36.795092+00:00'
+summary: Kubernetes Pod command and args
 ---
 # Kubernetes Pod command and args
 

@@ -1,29 +1,29 @@
 ---
-title: "Model and Prompt Update Velocity"
+title: Model and Prompt Update Velocity
 category: concepts
 tags:
-  - model-updates
-  - prompt-updates
-  - iteration-velocity
-  - ai-infrastructure
-summary: "The high velocity at which AI engineering teams update their models and prompts: 50%+ update models monthly, 17% weekly, 70% update prompts monthly, 10% daily — driven by constant model releases and benchmark improvements."
+- model-updates
+- prompt-updates
+- iteration-velocity
+- ai-infrastructure
+summary: 'The high velocity at which AI engineering teams update their models and prompts: 50%+ update models monthly, 17% weekly, 70% update prompts monthly, 10% daily — driven by constant model releases an...'
 sources:
-  - "AIEF2025 - The 2025 AI Engineering Report — Barr Yaron, Amplify - https://www.youtube.com/watch?v=mQ7_Zje7WKE"
+- AIEF2025 - The 2025 AI Engineering Report — Barr Yaron, Amplify - https://www.youtube.com/watch?v=mQ7_Zje7WKE
 provenance:
-  extracted: 0.90
-  inferred: 0.10
+  extracted: 0.9
+  inferred: 0.1
   ambiguous: 0.0
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/prompt-management-gap|Prompt Management Gap]]"
-    type: extends
-  - target: "[[concepts/rapid-iteration-loop|Rapid Iteration Loop]]"
-    type: related_to
+- target: '[[concepts/prompt-management-gap|Prompt Management Gap]]'
+  type: extends
+- target: '[[concepts/rapid-iteration-loop|Rapid Iteration Loop]]'
+  type: related_to
 ---
 
 # Model and Prompt Update Velocity
@@ -61,7 +61,7 @@ This is fundamentally different from traditional software engineering, where har
 ## Implications
 
 The high update velocity creates:
-- Need for systematic prompt management (see [[Prompt Management Gap]])
+- Need for systematic prompt management (see [[concepts/prompt-management-gap]])
 - Importance of model-agnostic architecture
 - Value of automated evaluation to catch regression when updating
 - Pressure on engineering teams to maintain constant awareness of the model landscape

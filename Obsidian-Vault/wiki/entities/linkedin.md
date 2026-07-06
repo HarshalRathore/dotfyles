@@ -1,28 +1,29 @@
 ---
-title: "LinkedIn"
+title: LinkedIn
 category: entities
 tags:
-  - linkedin
-  - professional-networking
-  - social-media
-  - recommendation-systems
-  - ai
+- linkedin
+- professional-networking
+- social-media
+- recommendation-systems
+- ai
 aliases:
-  - LinkedIn
+- LinkedIn
 sources:
-  - "[[sources/watchv=u0s6cfzay5c]]"
+- 'https://www.youtube.com/watch?v=u0s6cfzay5c'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 tier: core
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/360brew]]"
-    type: uses
+- target: '[[concepts/360brew]]'
+  type: uses
+summary: LinkedIn
 ---
 # LinkedIn
 

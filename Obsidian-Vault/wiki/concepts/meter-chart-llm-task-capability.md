@@ -1,27 +1,28 @@
 ---
-title: "Meter Chart and LLM Task Capability"
+title: Meter Chart and LLM Task Capability
 category: concepts
 tags:
-  - llm-evaluation
-  - ai-disruption
-  - capability-measurement
-  - aief2025
+- llm-evaluation
+- ai-disruption
+- capability-measurement
+- aief2025
 sources:
-  - "AIEF2025 - The Billable Hour is Dead; Long Live the Billable Hour — Kevin Madura + Mo Bhasin, Alix Partners - https://www.youtube.com/watch?v=Wv1tAxKYLeE"
+- AIEF2025 - The Billable Hour is Dead; Long Live the Billable Hour — Kevin Madura + Mo Bhasin, Alix Partners - https://www.youtube.com/watch?v=Wv1tAxKYLeE
 relationships:
-  - target: "[[concepts/billable-hour-paradox|Billable Hour Paradox]]"
-    type: related_to
-  - target: "[[concepts/ai-first-firm|AI-First Firm]]"
-    type: related_to
+- target: '[[concepts/billable-hour-paradox|Billable Hour Paradox]]'
+  type: related_to
+- target: '[[concepts/ai-first-firm|AI-First Firm]]'
+  type: related_to
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Meter Chart and LLM Task Capability
 ---
 
 # Meter Chart and LLM Task Capability

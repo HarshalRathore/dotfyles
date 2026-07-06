@@ -24,6 +24,6 @@ File AI is an AI company where Gorkem (mentioned as being present at AIEF2025) b
 
 ## Significance
 
-Chedeau described this demo as "mind-blowing" — it demonstrated that machines could now generate contextual images from hand-drawn diagram elements. However, it also became a cautionary case study in [[AI product fit]]: people don't draw realistic images on Excalidraw; they draw diagrams. The model was technically impressive but misaligned with actual user behavior.
+Chedeau described this demo as "mind-blowing" — it demonstrated that machines could now generate contextual images from hand-drawn diagram elements. However, it also became a cautionary case study in [[concepts/ai-product-fit]]: people don't draw realistic images on Excalidraw; they draw diagrams. The model was technically impressive but misaligned with actual user behavior.
 
 The demo was still working at the time of the AIEF2025 talk, and Chedeau encouraged attendees to try it.

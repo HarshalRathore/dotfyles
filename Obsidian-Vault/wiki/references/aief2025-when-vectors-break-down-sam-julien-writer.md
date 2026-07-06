@@ -1,39 +1,40 @@
 ---
-title: "AIEF2025 - When Vectors Break Down: Graph-Based RAG for Dense Enterprise Knowledge — Sam Julien, Writer"
+title: 'AIEF2025 - When Vectors Break Down: Graph-Based RAG for Dense Enterprise Knowledge — Sam Julien, Writer'
 tags:
-  - rag
-  - graphrag
-  - vector-search
-  - knowledge-graph
-  - enterprise
-  - chunking
-  - hybrid-retrieval
-  - conference-talk
-  - aief2025
+- rag
+- graphrag
+- vector-search
+- knowledge-graph
+- enterprise
+- chunking
+- hybrid-retrieval
+- conference-talk
+- aief2025
 sources:
-  - "AIEF2025 - When Vectors Break Down: Graph-Based RAG for Dense Enterprise Knowledge - Sam Julien, Writer - https://www.youtube.com/watch?v=XlAIgmi_Vow"
-summary: "Sam Julien (Writer) traces the journey from naive vector search to graph-based RAG, explaining why vector retrieval fails on dense enterprise data and how Writer built a specialized model for graph construction."
+- 'AIEF2025 - When Vectors Break Down: Graph-Based RAG for Dense Enterprise Knowledge - Sam Julien, Writer - https://www.youtube.com/watch?v=XlAIgmi_Vow'
+summary: Sam Julien (Writer) traces the journey from naive vector search to graph-based RAG, explaining why vector retrieval fails on dense enterprise data and how Writer built a specialized model for graph...
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: related_to
-  - target: "[[concepts/vector-similarity-vs-relevance|Vector Similarity vs. Relevance]]"
-    type: related_to
-  - target: "[[concepts/enterprise-rag|Enterprise RAG]]"
-    type: extends
-  - target: "[[entities/writer|Writer]]"
-    type: related_to
-  - target: "[[entities/sam-julien|Sam Julien]]"
-    type: related_to
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: related_to
+- target: '[[concepts/vector-similarity-vs-relevance|Vector Similarity vs. Relevance]]'
+  type: related_to
+- target: '[[concepts/enterprise-rag|Enterprise RAG]]'
+  type: extends
+- target: '[[entities/writer|Writer]]'
+  type: related_to
+- target: '[[entities/sam-julien|Sam Julien]]'
+  type: related_to
+category: references
 ---
 
 # AIEF2025 - When Vectors Break Down: Graph-Based RAG for Dense Enterprise Knowledge — Sam Julien, Writer

@@ -4,7 +4,7 @@ category: concepts
 tags: [refactoring, code-quality, development-methodology, prioritization, aief2025]
 summary: "Refactoring decision framework: prioritize by badness × pain × ease. Avoid refactoring code that is bad but not painful to work with, even if easy to change."
 sources:
-  - "[[sources/watchv=kcka7rzcxlk]]"
+  - "https://www.youtube.com/watch?v=kcka7rzcxlk"
 provenance: { extracted: 1.0, inferred: 0.0, ambiguous: 0.0 }
 base_confidence: 0.9
 lifecycle: draft

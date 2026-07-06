@@ -7,8 +7,8 @@ relationships:
   - target: "[[concepts/temporal-workflow-orchestration]]"
     type: implements
 sources:
-  - "[[sources/watchv=1izywsokr9s]]"
-  - "[[sources/watchv=kj9ezytws1y]]"
+  - "https://www.youtube.com/watch?v=1izywsokr9s"
+  - "https://www.youtube.com/watch?v=kj9ezytws1y"
   - "[[sources/temporal-io]]"
 summary: "Company providing a battle-tested workflow orchestration platform that handles reliability, state management, and scalability for distributed applications, including AI agent systems."
 provenance:

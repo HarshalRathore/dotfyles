@@ -1,28 +1,35 @@
 ---
 title: Feature Flag Infrastructure
 category: concepts
-tags: [feature-flags, launchdarkly, infrastructure, lean-startup, experimentation, tool-augmentation]
+tags:
+- feature-flags
+- launchdarkly
+- infrastructure
+- lean-startup
+- experimentation
+- tool-augmentation
 sources:
-  - AIEF2025 - The New Lean Startup — Sid Bendre, Olive - https://www.youtube.com/watch?v=pQz-PgA1eJw
+- AIEF2025 - The New Lean Startup — Sid Bendre, Olive - https://www.youtube.com/watch?v=pQz-PgA1eJw
 provenance:
   extracted: 0.72
   inferred: 0.22
   ambiguous: 0.06
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
-created: 2026-07-05T00:00:00Z
-updated: 2026-07-05T00:00:00Z
+created: 2026-07-05 00:00:00+00:00
+updated: 2026-07-05 00:00:00+00:00
 relationships:
-  - target: "[[concepts/super-tools]]"
-    type: related_to
-  - target: "[[concepts/lean-startup-playbook]]"
-    type: related_to
-  - target: "[[concepts/continuous-process-refinement]]"
-    type: related_to
-  - target: "[[entities/launchdarkly]]"
-    type: related_to
+- target: '[[concepts/super-tools]]'
+  type: related_to
+- target: '[[concepts/lean-startup-playbook]]'
+  type: related_to
+- target: '[[concepts/continuous-process-refinement]]'
+  type: related_to
+- target: '[[entities/launchdarkly]]'
+  type: related_to
+summary: Feature Flag Infrastructure
 ---
 
 # Feature Flag Infrastructure

@@ -1,21 +1,28 @@
 ---
 title: Software Abstraction Evolution
 category: concepts
-tags: [software-engineering, abstraction, history, durable-execution, programming-languages]
-aliases: [evolution of abstraction, history of programming abstraction]
+tags:
+- software-engineering
+- abstraction
+- history
+- durable-execution
+- programming-languages
+aliases:
+- evolution of abstraction
+- history of programming abstraction
 relationships:
-  - target: "[[concepts/durable-execution]]"
-    type: related_to
-  - target: "[[concepts/events-wrong-abstraction-thesis]]"
-    type: related_to
+- target: '[[concepts/durable-execution]]'
+  type: related_to
+- target: '[[concepts/events-wrong-abstraction-thesis]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=kj9ezytws1y]]"
-summary: "The 50-70 year progression of abstraction in software engineering — from assembly to Fortran to structured programming to OOP to garbage collection — with durable execution as the next step, abstracting away events and distributed systems complexity."
+- 'https://www.youtube.com/watch?v=kj9ezytws1y'
+summary: The 50-70 year progression of abstraction in software engineering — from assembly to Fortran to structured programming to OOP to garbage collection — with durable execution as the next step, abstra...
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 tier: supporting
 created: 2026-07-04

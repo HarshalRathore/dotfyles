@@ -1,20 +1,20 @@
 ---
-title: "Junior-led vs Senior-led Consulting Models"
+title: Junior-led vs Senior-led Consulting Models
 category: concepts
 tags:
-  - professional-services
-  - consulting
-  - organizational-models
-  - aief2025
+- professional-services
+- consulting
+- organizational-models
+- aief2025
 sources:
-  - "AIEF2025 - The Billable Hour is Dead; Long Live the Billable Hour — Kevin Madura + Mo Bhasin, Alix Partners - https://www.youtube.com/watch?v=Wv1tAxKYLeE"
+- AIEF2025 - The Billable Hour is Dead; Long Live the Billable Hour — Kevin Madura + Mo Bhasin, Alix Partners - https://www.youtube.com/watch?v=Wv1tAxKYLeE
 relationships:
-  - target: "[[concepts/ai-first-firm|AI-First Firm]]"
-    type: related_to
-  - target: "[[concepts/senior-knowledge-replication|Senior Knowledge Replication]]"
-    type: related_to
+- target: '[[concepts/ai-first-firm|AI-First Firm]]'
+  type: related_to
+- target: '[[concepts/senior-knowledge-replication|Senior Knowledge Replication]]'
+  type: related_to
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.07
   ambiguous: 0.03
 base_confidence: 0.85
@@ -22,6 +22,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Junior-led vs Senior-led Consulting Models
 ---
 
 # Junior-led vs Senior-led Consulting Models

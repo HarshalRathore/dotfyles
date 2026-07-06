@@ -1,20 +1,20 @@
 ---
-title: "AIEF2025 - How to Build Planning Agents without losing control - Yogendra Miraje, FactSet"
+title: AIEF2025 - How to Build Planning Agents without losing control - Yogendra Miraje, FactSet
 category: references
 tags:
-  - aief2025
-  - planning-agents
-  - agentic-workflows
-  - blueprint-pattern
-  - enterprise-ai
-  - factset
-  - langgraph
-  - tool-design
-  - evals
+- aief2025
+- planning-agents
+- agentic-workflows
+- blueprint-pattern
+- enterprise-ai
+- factset
+- langgraph
+- tool-design
+- evals
 sources:
-  - "AIEF2025 - How to Build Planning Agents without losing control - Yogendra Miraje, Factset - https://www.youtube.com/watch?v=sl3icG-IjHo"
+- AIEF2025 - How to Build Planning Agents without losing control - Yogendra Miraje, Factset - https://www.youtube.com/watch?v=sl3icG-IjHo
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -24,16 +24,17 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/agentic-workflow-vs-workflow-agent|Agentic Workflow vs Workflow Agent]]"
-    type: describes
-  - target: "[[concepts/blueprint-generator-pattern|Blueprint Generator Pattern]]"
-    type: describes
-  - target: "[[concepts/sub-goal-division|Sub-goal Division]]"
-    type: describes
-  - target: "[[concepts/tool-design-for-agents|Tool Design for Agents]]"
-    type: describes
-  - target: "[[concepts/aspect-based-evals|Aspect-Based Evals]]"
-    type: describes
+- target: '[[concepts/agentic-workflow-vs-workflow-agent|Agentic Workflow vs Workflow Agent]]'
+  type: describes
+- target: '[[concepts/blueprint-generator-pattern|Blueprint Generator Pattern]]'
+  type: describes
+- target: '[[concepts/sub-goal-division|Sub-goal Division]]'
+  type: describes
+- target: '[[concepts/tool-design-for-agents|Tool Design for Agents]]'
+  type: describes
+- target: '[[concepts/aspect-based-evals|Aspect-Based Evals]]'
+  type: describes
+summary: AIEF2025 - How to Build Planning Agents without losing control
 ---
 
 # AIEF2025 - How to Build Planning Agents without losing control

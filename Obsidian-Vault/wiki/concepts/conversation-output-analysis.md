@@ -1,23 +1,23 @@
 ---
-title: "Conversation Output Analysis"
+title: Conversation Output Analysis
 category: concepts
 tags:
-  - conversation-analysis
-  - evals
-  - ai-agents
-  - product-insights
-  - implicit-feedback
-  - output-evaluation
+- conversation-analysis
+- evals
+- ai-agents
+- product-insights
+- implicit-feedback
+- output-evaluation
 aliases:
-  - conversation-analysis
-  - output-analysis
-  - conversation-analytics
-summary: "Systematic analysis of conversation outputs at scale to extract product insights, agent tooling needs, and implicit feedback signals — moving beyond manual review when conversation volume exceeds human capacity."
+- conversation-analysis
+- output-analysis
+- conversation-analytics
+summary: Systematic analysis of conversation outputs at scale to extract product insights, agent tooling needs, and implicit feedback signals — moving beyond manual review when conversation volume exceeds h...
 sources:
-  - "AIEF2025 - How to look at your data — Jeff Huber (Chroma) + Jason Liu (567) - https://www.youtube.com/watch?v=jryZvCuA0Uc"
+- AIEF2025 - How to look at your data — Jeff Huber (Chroma) + Jason Liu (567) - https://www.youtube.com/watch?v=jryZvCuA0Uc
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.75
 lifecycle: draft
@@ -26,12 +26,12 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/implicit-feedback-signal|Implicit Feedback Signals]]"
-    type: uses
-  - target: "[[concepts/llm-evaluation-framework|LLM Evaluation Framework]]"
-    type: relates_to
-  - target: "[[concepts/agent-evaluation-pipeline|Agent Evaluation Pipeline]]"
-    type: extends
+- target: '[[concepts/implicit-feedback-signal|Implicit Feedback Signals]]'
+  type: uses
+- target: '[[concepts/llm-evaluation-framework|LLM Evaluation Framework]]'
+  type: relates_to
+- target: '[[concepts/agent-evaluation-pipeline|Agent Evaluation Pipeline]]'
+  type: extends
 ---
 
 # Conversation Output Analysis

@@ -1,17 +1,26 @@
 ---
 type: concept
-title: "Authorization Modes"
+title: Authorization Modes
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/kubernetes-api-groups-authorization-and-rbac-a-comprehensive-overview_ab21cb]]"
+- '[[sources/kubernetes-api-groups-authorization-and-rbac-a-comprehensive-overview_ab21cb]]'
 tags:
-  - security
+- security
 aliases:
-  - Kubernetes Authorization Modes
-  - K8s Authorization Modes
+- Kubernetes Authorization Modes
+- K8s Authorization Modes
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Authorization Modes
 ---
 # Authorization Modes
 

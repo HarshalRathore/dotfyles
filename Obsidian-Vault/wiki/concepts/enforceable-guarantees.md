@@ -1,24 +1,25 @@
 ---
-title: "Enforceable Guarantees"
+title: Enforceable Guarantees
 tags:
-  - concept
-  - security
-  - architecture
-  - privacy
+- concept
+- security
+- architecture
+- privacy
 aliases:
-  - Enforceable Guarantee
+- Enforceable Guarantee
 sources:
-  - "[[sources/watchv=ccswz5bjlo8]]"
-summary: "Security principle where restrictions are enforced by system architecture (no disk, no SSH, no access) rather than by human-readable policies ('don't SSH in')."
+- 'https://www.youtube.com/watch?v=ccswz5bjlo8'
+summary: Security principle where restrictions are enforced by system architecture (no disk, no SSH, no access) rather than by human-readable policies ('don't SSH in').
 provenance:
   extracted: 0.82
   inferred: 0.15
   ambiguous: 0.03
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Enforceable Guarantees

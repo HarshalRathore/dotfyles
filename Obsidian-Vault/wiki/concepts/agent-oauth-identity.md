@@ -1,17 +1,17 @@
 ---
-title: "Agent OAuth Identity"
+title: Agent OAuth Identity
 category: concepts
 tags:
-  - agents
-  - oauth
-  - identity
-  - security
-  - mcp
+- agents
+- oauth
+- identity
+- security
+- mcp
 sources:
-  - "AIEF2025 - How to Secure Agents using OAuth — Jared Hanson (Keycard, Passport.js) - https://www.youtube.com/watch?v=blmAkayzE8M"
-  - "[[sources/watchv=fzomsupg37e]]"
+- AIEF2025 - How to Secure Agents using OAuth — Jared Hanson (Keycard, Passport.js) - https://www.youtube.com/watch?v=blmAkayzE8M
+- 'https://www.youtube.com/watch?v=fzomsupg37e'
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.85
@@ -20,14 +20,15 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/oauth-2.0|OAuth 2.0]]"
-    type: uses
-  - target: "[[concepts/mcp-resource-server-separation|MCP Resource Server Separation]]"
-    type: related_to
-  - target: "[[concepts/static-secrets-problem|Static Secrets Problem]]"
-    type: related_to
-  - target: "[[concepts/authorization-server|Authorization Server]]"
-    type: related_to
+- target: '[[concepts/oauth-2.0|OAuth 2.0]]'
+  type: uses
+- target: '[[concepts/mcp-resource-server-separation|MCP Resource Server Separation]]'
+  type: related_to
+- target: '[[concepts/static-secrets-problem|Static Secrets Problem]]'
+  type: related_to
+- target: '[[concepts/authorization-server|Authorization Server]]'
+  type: related_to
+summary: Agent OAuth Identity
 ---
 
 # Agent OAuth Identity

@@ -1,36 +1,36 @@
 ---
-title: "Foundation Models in Autonomous Driving"
+title: Foundation Models in Autonomous Driving
 category: concepts
 tags:
-  - foundation-models
-  - autonomous-driving
-  - gemini
-  - large-language-models
-  - multimodal
+- foundation-models
+- autonomous-driving
+- gemini
+- large-language-models
+- multimodal
 aliases:
-  - foundation models driving
-  - LLM autonomous driving
+- foundation models driving
+- LLM autonomous driving
 sources:
-  - "AIEF2025 - Waymo's EMMA: Teaching Cars to Think - Jyh Jing Hwang, Waymo - https://www.youtube.com/watch?v=iS9YFW28XyM"
-summary: "The application of multimodal foundation models (Gemini, etc.) to autonomous driving, enabling end-to-end systems that generalize to longtail scenarios and provide explainable reasoning through chain-of-thought."
+- 'AIEF2025 - Waymo''s EMMA: Teaching Cars to Think - Jyh Jing Hwang, Waymo - https://www.youtube.com/watch?v=iS9YFW28XyM'
+summary: The application of multimodal foundation models (Gemini, etc.) to autonomous driving, enabling end-to-end systems that generalize to longtail scenarios and provide explainable reasoning through cha...
 provenance:
-  extracted: 0.80
-  inferred: 0.20
-  ambiguous: 0.00
-base_confidence: 0.80
+  extracted: 0.8
+  inferred: 0.2
+  ambiguous: 0.0
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/end-to-end-driving]]"
-    type: enables
-  - target: "[[concepts/foundation-models]]"
-    type: extends
-  - target: "[[concepts/longtail-scenarios]]"
-    type: related_to
-  - target: "[[concepts/chain-of-thought-driving]]"
-    type: related_to
+- target: '[[concepts/end-to-end-driving]]'
+  type: enables
+- target: '[[concepts/foundation-models]]'
+  type: extends
+- target: '[[concepts/longtail-scenarios]]'
+  type: related_to
+- target: '[[concepts/chain-of-thought-driving]]'
+  type: related_to
 ---
 
 # Foundation Models in Autonomous Driving

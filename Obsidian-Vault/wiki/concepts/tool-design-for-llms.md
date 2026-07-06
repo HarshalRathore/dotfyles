@@ -1,34 +1,27 @@
 ---
-title: "Tool Design for LLMs"
+title: Tool Design for LLMs
 category: concepts
 tags:
-  - tool-design
-  - prompt-engineering
-  - context
-  - production-ai
-  - agents
-  - braintrust
-  - aief2025
+- tool-design
+- prompt-engineering
+- context
+- production-ai
+- agents
+- braintrust
+- aief2025
 sources:
-  - "AIEF2025 - Five hard earned lessons about Evals — Ankur Goyal, Braintrust - https://www.youtube.com/watch?v=a4BV0gGmXgA"
-summary: "Tools should be designed for what LLMs want to see, not as API mirrors. Good tool design is disruptive and requires rethinking interfaces for LLM consumption.
+- AIEF2025 - Five hard earned lessons about Evals — Ankur Goyal, Braintrust - https://www.youtube.com/watch?v=a4BV0gGmXgA
+summary: Tools should be designed for what LLMs want to see, not as API mirrors. Good tool design is disruptive and requires rethinking interfaces for LLM consumption.
 provenance:
-  extracted: 0.90
-  inferred: 0.10
-  ambiguous: 0.00
-base_confidence: 0.85
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+base_confidence: 0.42
 lifecycle: draft
-lifecycle_changed: 2026-07-04
+lifecycle_changed: '2026-07-04'
 tier: supporting
-created: 2026-07-04
-updated: 2026-07-04
-relationships:
-  - target: "[[concepts/modern-prompt-engineering|Modern Prompt Engineering]]"
-    type: extends
-  - target: "[[concepts/yaml-vs-json-for-llms|YAML vs JSON for LLMs]]"
-    type: illustrates
-  - target: "[[concepts/system-level-optimization|System-Level Optimization]]"
-    type: relates_to
+created: '2026-07-04'
+updated: '2026-07-04'
 ---
 
 # Tool Design for LLMs

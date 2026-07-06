@@ -1,29 +1,33 @@
 ---
-title: "Built-in Agent Tools"
+title: Built-in Agent Tools
 tags:
-  - ai-agents
-  - tools
-  - agent-frameworks
-  - developer-experience
-  - sdk-design
-aliases: [default tools, agent tools, built-in tools]
+- ai-agents
+- tools
+- agent-frameworks
+- developer-experience
+- sdk-design
+aliases:
+- default tools
+- agent tools
+- built-in tools
 sources:
-  - "[[sources/watchv=q3nreeadkmc]]"
-summary: "Pre-packaged tools that ship with an agent SDK — such as file read, file write, and text-to-speech — allowing agents to perform common operations without custom tool code."
+- 'https://www.youtube.com/watch?v=q3nreeadkmc'
+summary: Pre-packaged tools that ship with an agent SDK — such as file read, file write, and text-to-speech — allowing agents to perform common operations without custom tool code.
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/minimal-scaffolding-ai-agents|Minimal Scaffolding for AI Agents]]"
-    type: implements
-  - target: "[[concepts/agent-loop|Agent Loop]]"
-    type: related_to
+- target: '[[concepts/minimal-scaffolding-ai-agents|Minimal Scaffolding for AI Agents]]'
+  type: implements
+- target: '[[concepts/agent-loop|Agent Loop]]'
+  type: related_to
+category: concepts
 ---
 
 # Built-in Agent Tools

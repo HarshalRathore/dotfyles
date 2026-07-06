@@ -4,7 +4,7 @@ category: references
 tags: [palm, google, llm, chain-of-thought, scaling, emergent-behavior, 540b, aief2025]
 aliases: [PALM, Pathways Language Model, PaLM]
 sources:
-  - "[[sources/watchv=qludzkvfp6a]]"
+  - "https://www.youtube.com/watch?v=qludzkvfp6a"
 summary: "Google's 540-billion-parameter language model that demonstrated emergent chain-of-thought reasoning capabilities. Led by Aakanksha Chowdhery, who was a lead researcher on PALM."
 provenance:
   extracted: 0.90

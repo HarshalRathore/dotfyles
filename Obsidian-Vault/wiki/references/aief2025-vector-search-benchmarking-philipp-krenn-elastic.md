@@ -1,37 +1,38 @@
 ---
-title: "AIEF2025 - Vector Search Benchmarking - Philipp Krenn, Elastic"
+title: AIEF2025 - Vector Search Benchmarking - Philipp Krenn, Elastic
 tags:
-  - vector-search
-  - benchmarking
-  - hnsw
-  - precision-recall
-  - evaluation
-  - aief2025
-  - elastic
+- vector-search
+- benchmarking
+- hnsw
+- precision-recall
+- evaluation
+- aief2025
+- elastic
 sources:
-  - "AIEF2025 - Vector Search Benchmarking - Philipp Krenn, Elastic - https://www.youtube.com/watch?v=YrUBFXa1KUY"
-summary: "Philipp Krenn (Elastic) dissects common flaws in vector search benchmarks — cherry-picked scenarios, read-only bias, ignored quality metrics, and selective versioning — and advocates for automated nightly benchmarks to catch regressions."
+- AIEF2025 - Vector Search Benchmarking - Philipp Krenn, Elastic - https://www.youtube.com/watch?v=YrUBFXa1KUY
+summary: Philipp Krenn (Elastic) dissects common flaws in vector search benchmarks — cherry-picked scenarios, read-only bias, ignored quality metrics, and selective versioning — and advocates for automated...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/vector-search-limitations|Vector Search Limitations]]"
-    type: related_to
-  - target: "[[concepts/benchmark-memes|Benchmark Memes]]"
-    type: related_to
-  - target: "[[concepts/hybrid-search|Hybrid Search]]"
-    type: related_to
-  - target: "[[entities/elastic|Elastic]]"
-    type: related_to
-  - target: "[[entities/philipp-krenn|Philipp Krenn]]"
-    type: related_to
+- target: '[[concepts/vector-search-limitations|Vector Search Limitations]]'
+  type: related_to
+- target: '[[concepts/benchmark-memes|Benchmark Memes]]'
+  type: related_to
+- target: '[[concepts/hybrid-search|Hybrid Search]]'
+  type: related_to
+- target: '[[entities/elastic|Elastic]]'
+  type: related_to
+- target: '[[entities/philipp-krenn|Philipp Krenn]]'
+  type: related_to
+category: references
 ---
 
 # AIEF2025 - Vector Search Benchmarking - Philipp Krenn, Elastic

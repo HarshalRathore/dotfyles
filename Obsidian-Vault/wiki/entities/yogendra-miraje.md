@@ -1,34 +1,35 @@
 ---
-title: "Yogendra Miraje"
+title: Yogendra Miraje
 category: entities
 tags:
-  - person
-  - factset
-  - ai-agents
-  - planning-agents
-  - enterprise-ai
+- person
+- factset
+- ai-agents
+- planning-agents
+- enterprise-ai
 aliases:
-  - Yogi
-  - Yogendra
+- Yogi
+- Yogendra
 sources:
-  - "AIEF2025 - How to Build Planning Agents without losing control - Yogendra Miraje, Factset - https://www.youtube.com/watch?v=sl3icG-IjHo"
+- AIEF2025 - How to Build Planning Agents without losing control - Yogendra Miraje, Factset - https://www.youtube.com/watch?v=sl3icG-IjHo
 provenance:
   extracted: 0.95
   inferred: 0.03
   ambiguous: 0.02
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/factset|FactSet]]"
-    type: works_at
-  - target: "[[concepts/agentic-workflow-vs-workflow-agent|Agentic Workflow vs Workflow Agent]]"
-    type: contributes_to
-  - target: "[[concepts/blueprint-generator-pattern|Blueprint Generator Pattern]]"
-    type: contributes_to
+- target: '[[entities/factset|FactSet]]'
+  type: works_at
+- target: '[[concepts/agentic-workflow-vs-workflow-agent|Agentic Workflow vs Workflow Agent]]'
+  type: contributes_to
+- target: '[[concepts/blueprint-generator-pattern|Blueprint Generator Pattern]]'
+  type: contributes_to
+summary: Yogendra Miraje
 ---
 
 # Yogendra Miraje

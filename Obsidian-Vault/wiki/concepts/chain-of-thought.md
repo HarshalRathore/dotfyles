@@ -4,7 +4,7 @@ category: concepts
 tags: [chain-of-thought, reasoning, llm, prompting, emergent-behavior, palm, aief2025]
 aliases: [chain of thought, CoT, reasoning chains, think step by step]
 sources:
-  - "[[sources/watchv=qludzkvfp6a]]"
+  - "https://www.youtube.com/watch?v=qludzkvfp6a"
 summary: "Asking LLMs to output their reasoning chains before answering dramatically improves performance. An emergent capability discovered in PALM (540B params) that generalized across domains."
 provenance:
   extracted: 0.80

@@ -1,13 +1,23 @@
 ---
 title: Framework-Agnostic Agents
 category: concepts
-tags: [framework-agnostic, multi-framework, agent-deployment, crewai, langchain, pydantic, vercel-ai-sdk]
-aliases: [framework agnostic agents, multi-framework agents, framework-independent agents]
-summary: The approach of deploying and coordinating AI agents built with different frameworks (CrewAI, LangChain, Pydantic, Vercel AI SDK) within the same system, with platform-managed inter-agent communication.
+tags:
+- framework-agnostic
+- multi-framework
+- agent-deployment
+- crewai
+- langchain
+- pydantic
+- vercel-ai-sdk
+aliases:
+- framework agnostic agents
+- multi-framework agents
+- framework-independent agents
+summary: The approach of deploying and coordinating AI agents built with different frameworks (CrewAI, LangChain, Pydantic, Vercel AI SDK) within the same system, with platform-managed inter-agent communica...
 sources:
-  - "AIEF2025 - Conquering Agent Chaos — Rick Blalock, Agentuity - https://www.youtube.com/watch?v=yASxPZ-tZe0"
+- AIEF2025 - Conquering Agent Chaos — Rick Blalock, Agentuity - https://www.youtube.com/watch?v=yASxPZ-tZe0
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.07
   ambiguous: 0.03
 base_confidence: 0.85
@@ -17,16 +27,16 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/agent-routing]]"
-    type: enables
-  - target: "[[concepts/agent-factory]]"
-    type: relates_to
-  - target: "[[entities/crewai]]"
-    type: uses
-  - target: "[[entities/langchain]]"
-    type: uses
-  - target: "[[entities/pydantic]]"
-    type: uses
+- target: '[[concepts/agent-routing]]'
+  type: enables
+- target: '[[concepts/agent-factory]]'
+  type: relates_to
+- target: '[[entities/crewai]]'
+  type: uses
+- target: '[[entities/langchain]]'
+  type: uses
+- target: '[[entities/pydantic]]'
+  type: uses
 ---
 
 ## Framework-Agnostic Agents

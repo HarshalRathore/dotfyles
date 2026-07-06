@@ -4,7 +4,7 @@ category: concepts
 tags: [back-pressure, queue-management, dispatch-limitation, distributed-systems, ml-infrastructure]
 summary: The phenomenon where decoupled ML serving systems create imbalanced queues when CPU workers pull more work than GPU clusters can process. Luma's dispatch limitation system addresses this.
 sources:
-  - "[[sources/watchv=ey4o9m6aswi]]"
+  - "https://www.youtube.com/watch?v=ey4o9m6aswi"
 provenance:
   extracted: 0.85
   inferred: 0.10
@@ -16,13 +16,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[decoupled-architecture]]"
+  - target: "[[concepts/decoupled-architecture]]"
     type: extends
-  - target: "[[fair-scheduling]]"
+  - target: "[[concepts/fair-scheduling]]"
     type: related_to
-  - target: "[[work-starvation]]"
+  - target: "[[concepts/work-starvation]]"
     type: related_to
-  - target: "[[sla-based-scheduling]]"
+  - target: "[[concepts/sla-based-scheduling]]"
     type: related_to
 ---
 

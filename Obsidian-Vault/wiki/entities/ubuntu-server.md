@@ -1,16 +1,25 @@
 ---
 type: entity
-title: "Ubuntu Server"
+title: Ubuntu Server
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/introduction_804367]]"
+- '[[sources/introduction_804367]]'
 tags:
-  - product
+- product
 aliases:
-  - Ubuntu OS
+- Ubuntu OS
+category: entities
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Ubuntu Server
 ---
 # Ubuntu Server
 

@@ -1,17 +1,26 @@
 ---
 type: entity
-title: "CRI-O"
+title: CRI-O
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/pods_c92b62]]"
+- '[[sources/pods_c92b62]]'
 tags:
-  - product
+- product
 aliases:
-  - "Container Runtime Interface - Open"
-  - "CRI-O Container Runtime"
+- Container Runtime Interface - Open
+- CRI-O Container Runtime
+category: entities
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: CRI-O
 ---
 # CRI-O
 

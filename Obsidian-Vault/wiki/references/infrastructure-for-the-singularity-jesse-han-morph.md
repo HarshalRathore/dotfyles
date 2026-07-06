@@ -1,22 +1,23 @@
 ---
-title: "Infrastructure for the Singularity — Jesse Han, Morph"
+title: Infrastructure for the Singularity — Jesse Han, Morph
 tags:
-  - reference
-  - talk
-  - ai-engineer
-  - infrastructure
+- reference
+- talk
+- ai-engineer
+- infrastructure
 sources:
-  - "[[sources/watchv=2goss66xrbk]]"
-summary: "Jesse Han presents InfiniBranch, Morph Cloud, reasoning time branching, and verified superintelligence — infrastructure reimagined for AI agents."
+- 'https://www.youtube.com/watch?v=2goss66xrbk'
+summary: Jesse Han presents InfiniBranch, Morph Cloud, reasoning time branching, and verified superintelligence — infrastructure reimagined for AI agents.
 provenance:
   extracted: 0.75
   inferred: 0.15
-  ambiguous: 0.10
+  ambiguous: 0.1
 base_confidence: 0.42
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: references
 ---
 # Infrastructure for the Singularity — Jesse Han, Morph
 

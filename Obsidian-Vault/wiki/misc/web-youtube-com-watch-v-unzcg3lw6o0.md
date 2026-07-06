@@ -1,23 +1,27 @@
 ---
-title: "Building Great Agent Skills: The Missing Manual — Matt Pocock"
+title: 'Building Great Agent Skills: The Missing Manual — Matt Pocock'
 category: misc
-tags: [ai, agent-skills, engineering]
+tags:
+- ai
+- agent-skills
+- engineering
 sources:
-  - "[[sources/watchv=unzcg3lw6o0]]"
-source_url: "https://www.youtube.com/watch?v=UNzCG3lw6O0"
-created: "2026-07-01T09:49:00Z"
-updated: "2026-07-01T09:49:00Z"
-summary: "Matt Pocock's AI Engineer talk defining the Skill Checklist Framework (Trigger → Structure → Steering → Pruning) for building and evaluating high-quality agent skills."
+- 'https://www.youtube.com/watch?v=unzcg3lw6o0'
+source_url: https://www.youtube.com/watch?v=UNzCG3lw6O0
+created: '2026-07-01T09:49:00Z'
+updated: '2026-07-01T09:49:00Z'
+summary: Matt Pocock's AI Engineer talk defining the Skill Checklist Framework (Trigger → Structure → Steering → Pruning) for building and evaluating high-quality agent skills.
 affinity: {}
 promotion_status: misc
 stub: false
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.37
 lifecycle: draft
 lifecycle_changed: 2026-07-01
+tier: supporting
 ---
 
 # Building Great Agent Skills: The Missing Manual
@@ -54,7 +58,7 @@ Matt Pocock's talk defines "skill hell" — the inability to distinguish good ag
 
 ## Related
 
-- [[web-youtube-com-watch-v4f1gfy-hqg]] — Matt's "Software Fundamentals Matter More Than Ever" talk
-- [[web-youtube-com-watch-v-unzcg3lw6o0]] — Matt's full AI coding workflow workshop
+- [[misc/web-youtube-com-watch-v4f1gfy-hqg]] — Matt's "Software Fundamentals Matter More Than Ever" talk
+- [[misc/web-youtube-com-watch-v-unzcg3lw6o0]] — Matt's full AI coding workflow workshop
 - [[concepts/skills-checklist-framework]] — The core framework from this talk
 - [[concepts/skill-hell]] — The problem space this framework addresses

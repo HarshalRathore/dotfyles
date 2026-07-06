@@ -3,7 +3,7 @@ title: "Lexica"
 category: entities
 tags: [company, ai, generative-ai, image-generation]
 sources:
-  - "[[sources/watchv=0f8mngpuycy]]"
+  - "https://www.youtube.com/watch?v=0f8mngpuycy"
 summary: "AI company building generative models, specifically image models. Founded by Sharif Shameem."
 provenance:
   extracted: 0.70

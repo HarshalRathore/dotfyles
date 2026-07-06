@@ -1,31 +1,25 @@
 ---
-title: "Imitation Learning in Robotics"
+title: Imitation Learning in Robotics
 category: concepts
 tags:
-  - imitation-learning
-  - robotics
-  - teleoperation
-  - demonstration
-  - behavioral-cloning
-  - foundation-model
-summary: "The paradigm where robots learn by watching human demonstrations — teleoperation trajectories serve as the demonstration dataset from which the robot's policy is learned, forming the basis for foundation model training.
+- imitation-learning
+- robotics
+- teleoperation
+- demonstration
+- behavioral-cloning
+- foundation-model
+sources: []
+summary: The paradigm where robots learn by watching human demonstrations — teleoperation trajectories serve as the demonstration dataset from which the robot's policy is learned, forming the basis for foun...
 provenance:
-  extracted: 0.70
-  inferred: 0.25
-  ambiguous: 0.05
-base_confidence: 0.70
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+base_confidence: 0.42
 lifecycle: draft
-lifecycle_changed: 2026-07-05
+lifecycle_changed: '2026-07-05'
 tier: supporting
-created: 2026-07-05
-updated: 2026-07-05
-relationships:
-  - target: "[[concepts/teleoperation-robotics|Teleoperation in Robotics]]"
-    type: uses
-  - target: "[[concepts/data-pyramid|Data Pyramid]]"
-    type: trained_on
-  - target: "[[concepts/noise-to-action-learning|Noise-to-Action Learning]]"
-    type: extends
+created: '2026-07-05'
+updated: '2026-07-05'
 ---
 
 # Imitation Learning in Robotics

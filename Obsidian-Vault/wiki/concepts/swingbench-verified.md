@@ -4,7 +4,7 @@ category: concepts
 tags: [swe-bench, coding-benchmark, llm-evaluation, autonomous-coding, inference-time-compute, aief2025]
 aliases: [SWE-bench, SWE-bench verified, software engineering benchmark]
 sources:
-  - "[[sources/watchv=qludzkvfp6a]]"
+  - "https://www.youtube.com/watch?v=qludzkvfp6a"
 summary: "A benchmark measuring LLM performance on real-world software engineering tasks. SWE-bench verified scores reached ~80% by end of 2024, improving with inference-time compute scaling."
 provenance:
   extracted: 0.85

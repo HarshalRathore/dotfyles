@@ -1,21 +1,28 @@
 ---
-summary: "A DaemonSet is a fundamental Kubernetes controller that guarantees the deployment of exactly one pod instance on each eligible node within a cluster. Its primary function is to manage **node-lo..."
+summary: A DaemonSet is a fundamental Kubernetes controller that guarantees the deployment of exactly one pod instance on each eligible node within a cluster. Its primary function is to manage **node-lo...
 type: source
-title: "DaemonSet Controller in Kubernetes - Summary"
-created: "2026-06-30"
-updated: "2026-06-30"
+title: DaemonSet Controller in Kubernetes - Summary
+created: '2026-06-30'
+updated: '2026-06-30'
 lifecycle: draft
 base_confidence: 0.7
-source_file: ""
+source_file: ''
 tags:
-  - DaemonSet
-  - ReplicaSet
-  - "node-local agents"
+- DaemonSet
+- ReplicaSet
+- node-local agents
 aliases:
-  - Kubernetes DaemonSet Documentation
-  - DaemonSets in K8s
-contentHash: "c2c-71a395d7"
-generation_complete: True
+- Kubernetes DaemonSet Documentation
+- DaemonSets in K8s
+contentHash: c2c-71a395d7
+generation_complete: true
+category: sources
+sources: []
+tier: supporting
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
 ---
 # DaemonSet Controller in Kubernetes - Summary
 

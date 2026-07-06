@@ -1,18 +1,18 @@
 ---
-title: "Vibe Coding as Whiteboard"
+title: Vibe Coding as Whiteboard
 category: concepts
 tags:
-  - vibe-coding
-  - whiteboard
-  - exploration
-  - ai-coding
-  - vscode
-  - github-copilot
+- vibe-coding
+- whiteboard
+- exploration
+- ai-coding
+- vscode
+- github-copilot
 sources:
-  - "[[sources/watchv=eafp8pds7h4]]"
-  - "[[sources/watchv=jv-wy5pxxlo]]"
+- 'https://www.youtube.com/watch?v=eafp8pds7h4'
+- 'https://www.youtube.com/watch?v=jv-wy5pxxlo'
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.55
@@ -20,6 +20,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Vibe Coding as Whiteboard
 ---
 
 # Vibe Coding as Whiteboard

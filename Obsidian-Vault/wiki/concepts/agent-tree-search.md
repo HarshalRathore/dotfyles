@@ -1,26 +1,27 @@
 ---
-title: "Agent Tree Search"
+title: Agent Tree Search
 tags:
-  - ai
-  - agents
-  - architecture
-  - infrastructure
-  - reliability
+- ai
+- agents
+- architecture
+- infrastructure
+- reliability
 aliases:
-  - "Language Agent Tree Search"
+- Language Agent Tree Search
 sources:
-  - "[[sources/watchv=5rmc-monvx0]]"
-  - "[[sources/watchv=8eqo4j2bwkw]]"
-summary: "Technique where resettable stateful environments enable branching agent trajectories, exploring multiple paths in parallel, and converging on the best outcome — making Language Agent Tree Search practical for production."
+- 'https://www.youtube.com/watch?v=5rmc-monvx0'
+- 'https://www.youtube.com/watch?v=8eqo4j2bwkw'
+summary: Technique where resettable stateful environments enable branching agent trajectories, exploring multiple paths in parallel, and converging on the best outcome — making Language Agent Tree Search pr...
 provenance:
   extracted: 0.65
-  inferred: 0.30
+  inferred: 0.3
   ambiguous: 0.05
 base_confidence: 0.35
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Agent Tree Search

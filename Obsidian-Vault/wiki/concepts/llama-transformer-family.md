@@ -1,34 +1,35 @@
 ---
-title: "LLaMA Transformer Family"
+title: LLaMA Transformer Family
 category: concepts
 tags:
-  - llama
-  - transformer
-  - meta
-  - causal-lm
-  - open-models
-  - tts
+- llama
+- transformer
+- meta
+- causal-lm
+- open-models
+- tts
 aliases:
-  - LLaMA
-  - LLaMA family
-  - LLaMA architecture
+- LLaMA
+- LLaMA family
+- LLaMA architecture
 summary: Meta's LLaMA family of open-weight transformer models (LLaMA 3, 3.2) that serve as backbone architectures for various AI applications including TTS, embeddings, and other modalities.
 provenance:
-  extracted: 0.70
-  inferred: 0.20
-  ambiguous: 0.10
+  extracted: 0.7
+  inferred: 0.2
+  ambiguous: 0.1
 base_confidence: 0.75
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/meta]]"
-    type: implements
-  - target: "[[entities/orpheus-tts]]"
-    type: used_by
-  - target: "[[concepts/causal-language-model]]"
-    type: implements
+- target: '[[entities/meta]]'
+  type: implements
+- target: '[[entities/orpheus-tts]]'
+  type: used_by
+- target: '[[concepts/causal-language-model]]'
+  type: implements
+sources: []
 ---
 
 # LLaMA Transformer Family

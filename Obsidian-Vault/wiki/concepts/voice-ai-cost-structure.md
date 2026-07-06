@@ -1,16 +1,16 @@
 ---
-title: "Voice AI Cost Structure"
+title: Voice AI Cost Structure
 category: concepts
 tags:
-  - voice-ai
-  - pricing
-  - cost
-  - monetization
-  - usage-based
-summary: Voice AI agent cost structure: $0.20–$0.30 per minute depending on query complexity and provider choices, with usage-based and outcome-based pricing models.
+- voice-ai
+- pricing
+- cost
+- monetization
+- usage-based
+summary: 'Voice AI agent cost structure: $0.20–$0.30 per minute depending on query complexity and provider choices, with usage-based and outcome-based pricing models.'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.75
 lifecycle: draft
@@ -19,12 +19,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/outcome-based-pricing-for-ai]]"
-    type: related_to
-  - target: "[[concepts/finvoice]]"
-    type: implements
-  - target: "[[concepts/voice-ai-latency]]"
-    type: related_to
+- target: '[[concepts/outcome-based-pricing-for-ai]]'
+  type: related_to
+- target: '[[concepts/finvoice]]'
+  type: implements
+- target: '[[concepts/voice-ai-latency]]'
+  type: related_to
+sources: []
 ---
 
 # Voice AI Cost Structure

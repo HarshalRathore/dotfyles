@@ -1,21 +1,21 @@
 ---
-title: "Evals Are Custom and Subjective"
+title: Evals Are Custom and Subjective
 category: concepts
 tags:
-  - evals
-  - evaluation
-  - custom-evals
-  - subjective-evaluation
-  - ai-evaluation
+- evals
+- evaluation
+- custom-evals
+- subjective-evaluation
+- ai-evaluation
 aliases:
-  - custom-evaluation
-  - eval-subjectivity
+- custom-evaluation
+- eval-subjectivity
 sources:
-  - "AIEF2025 - [Full Workshop] Building Metrics that actually work — David Karam, Pi Labs (fmr Google Search) - https://www.youtube.com/watch?v=jxrGodnopHo"
+- AIEF2025 - [Full Workshop] Building Metrics that actually work — David Karam, Pi Labs (fmr Google Search) - https://www.youtube.com/watch?v=jxrGodnopHo
 provenance:
-  extracted: 0.90
-  inferred: 0.10
-  ambiguous: 0.00
+  extracted: 0.9
+  inferred: 0.1
+  ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-04
@@ -23,12 +23,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/eval-driven-development|Eval-Driven Development]]"
-    type: motivates
-  - target: "[[concepts/evals-are-not-unit-tests|Evals Are Not Unit Tests]]"
-    type: extends
-  - target: "[[concepts/domain-specific-evals|Domain-Specific Evals]]"
-    type: relates_to
+- target: '[[concepts/eval-driven-development|Eval-Driven Development]]'
+  type: motivates
+- target: '[[concepts/evals-are-not-unit-tests|Evals Are Not Unit Tests]]'
+  type: extends
+- target: '[[concepts/domain-specific-evals|Domain-Specific Evals]]'
+  type: relates_to
+summary: Evals Are Custom and Subjective
 ---
 
 # Evals Are Custom and Subjective

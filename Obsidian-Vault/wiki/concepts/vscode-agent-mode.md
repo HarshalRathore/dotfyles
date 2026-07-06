@@ -1,23 +1,24 @@
 ---
-title: "VS Code Agent Mode"
+title: VS Code Agent Mode
 category: concepts
 tags:
-  - vscode
-  - github-copilot
-  - vibe-coding
-  - agent-mode
-  - ux
+- vscode
+- github-copilot
+- vibe-coding
+- agent-mode
+- ux
 sources:
-  - "[[sources/watchv=eafp8pds7h4]]"
+- 'https://www.youtube.com/watch?v=eafp8pds7h4'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.55
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: VS Code Agent Mode
 ---
 
 # VS Code Agent Mode

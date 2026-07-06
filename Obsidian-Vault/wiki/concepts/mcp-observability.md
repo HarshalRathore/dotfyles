@@ -1,35 +1,39 @@
 ---
-title: "MCP Observability"
+title: MCP Observability
 category: concepts
 tags:
-  - mcp
-  - observability
-  - tracing
-  - distributed-systems
-  - open-telemetry
-  - aief2025
-aliases: [mcp-observability, MCP observability, observability for MCP]
+- mcp
+- observability
+- tracing
+- distributed-systems
+- open-telemetry
+- aief2025
+aliases:
+- mcp-observability
+- MCP observability
+- observability for MCP
 sources:
-  - "[[sources/watchv=lcqat4ip_le]]"
+- 'https://www.youtube.com/watch?v=lcqat4ip_le'
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/open-telemetry]]"
-    type: uses
-  - target: "[[concepts/distributed-tracing]]"
-    type: extends
-  - target: "[[concepts/model-context-protocol]]"
-    type: related_to
-  - target: "[[entities/observable.tools]]"
-    type: related_to
+- target: '[[concepts/open-telemetry]]'
+  type: uses
+- target: '[[concepts/distributed-tracing]]'
+  type: extends
+- target: '[[concepts/model-context-protocol]]'
+  type: related_to
+- target: '[[entities/observable.tools]]'
+  type: related_to
+summary: MCP Observability
 ---
 
 # MCP Observability

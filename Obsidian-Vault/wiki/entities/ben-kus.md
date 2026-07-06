@@ -1,22 +1,24 @@
 ---
-title: "Ben Kus"
+title: Ben Kus
 tags:
-  - person
-  - executive
-  - cto
-  - ai
-  - enterprise
+- person
+- executive
+- cto
+- ai
+- enterprise
 sources:
-  - "[[sources/watchv=12v5s1n1eoy]]"
-summary: "CTO of Box, leading the company's AI and agentic platform strategy for enterprise content."
+- 'https://www.youtube.com/watch?v=12v5s1n1eoy'
+summary: CTO of Box, leading the company's AI and agentic platform strategy for enterprise content.
 provenance:
-  extracted: 0.80
-  inferred: 0.20
-  ambiguous: 0.00
+  extracted: 0.8
+  inferred: 0.2
+  ambiguous: 0.0
 base_confidence: 0.65
 lifecycle: draft
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
+tier: supporting
 ---
 
 # Ben Kus

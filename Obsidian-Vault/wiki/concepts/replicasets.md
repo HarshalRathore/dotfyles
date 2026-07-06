@@ -1,19 +1,25 @@
 ---
-summary: "A ReplicaSet is a Kubernetes controller that ensures a specified number of pod replicas are running at any given time, making it a cornerstone of workload management for scaling and replication..."
+summary: A ReplicaSet is a Kubernetes controller that ensures a specified number of pod replicas are running at any given time, making it a cornerstone of workload management for scaling and replication...
 type: concept
-title: "Replicasets"
+title: Replicasets
 created:
-  - "2026-06-30"
+- '2026-06-30'
 updated:
-  - "2026-06-30"
+- '2026-06-30'
 lifecycle: draft
 base_confidence: 0.75
 sources:
-  - "[[sources/static-pod_d72e06]]"
-  - "[[sources/rolling-updates-&-rollbacks_f484ef]]"
-  - "[[sources/replication-controller-&-replicaset_285a2a]]"
-  - "[[sources/daemonsets_9f31ec]]"
-
+- '[[sources/static-pod_d72e06]]'
+- '[[sources/rolling-updates-&-rollbacks_f484ef]]'
+- '[[sources/replication-controller-&-replicaset_285a2a]]'
+- '[[sources/daemonsets_9f31ec]]'
+category: concepts
+tags: []
+tier: supporting
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
 ---
 ## Description
 A ReplicaSet is a Kubernetes controller that ensures a specified number of pod replicas are running at any given time, making it a cornerstone of workload management for scaling and replication. It evolved from the ReplicationController to support set-based selectors (`matchLabels` and `matchExpressions`) for more flexible pod matching, in addition to the original equality-based selectors. While a ReplicaSet can be used standalone, it is typically managed by a higher-level [[concepts/deployment]], which handles declarative updates, [[concepts/rolling-update-strategy]], and rollbacks. During a rolling update, Kubernetes creates a new ReplicaSet to gradually replace pods from the old one, enabling seamless, zero-downtime deployments. ReplicaSets are primarily used for scaling the count of pod replicas for stateless applications, contrasting with controllers like DaemonSets which target nodes for pod placement rather than scaling counts. They do not directly manage [[concepts/static-pods]]; instead, the kubelet independently maintains static Pods from manifest files on the node, unaffected by the control plane's ReplicaSet logic.

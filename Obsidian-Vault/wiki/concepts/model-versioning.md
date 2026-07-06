@@ -4,7 +4,7 @@ category: concepts
 tags: [model-versioning, model-repo, immutable-versions, model-deployment, ml-ops]
 summary: A model management pattern where each model has an immutable versioned repository in object storage with YAML-based active-version pointers, enabling reproducible deployments and hot-rollout updates.
 sources:
-  - "[[sources/watchv=ey4o9m6aswi]]"
+  - "https://www.youtube.com/watch?v=ey4o9m6aswi"
 provenance:
   extracted: 0.85
   inferred: 0.10
@@ -16,11 +16,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[hot-model-rollout]]"
+  - target: "[[concepts/hot-model-rollout]]"
     type: extends
-  - target: "[[inference-serving]]"
+  - target: "[[concepts/inference-serving]]"
     type: related_to
-  - target: "[[model-distillation]]"
+  - target: "[[concepts/model-distillation]]"
     type: related_to
 ---
 
@@ -61,7 +61,7 @@ models/
 
 ## Hot Rollout
 
-The model versioning system enables [[hot-model-rollout]]: when the active.yaml file is updated, workers automatically switch to the new version without restarting. This allows rolling out model changes to thousands of GPUs across multiple cloud providers simultaneously, without downtime.
+The model versioning system enables [[concepts/hot-model-rollout]]: when the active.yaml file is updated, workers automatically switch to the new version without restarting. This allows rolling out model changes to thousands of GPUs across multiple cloud providers simultaneously, without downtime.
 
 ## Tradeoffs
 

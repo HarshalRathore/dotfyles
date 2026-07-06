@@ -1,22 +1,22 @@
 ---
-title: "Blueprint Generator Pattern"
+title: Blueprint Generator Pattern
 category: concepts
 tags:
-  - blueprint
-  - planning
-  - agentic-workflows
-  - langgraph
-  - task-decomposition
-  - cognitive-load
-  - enterprise-ai
+- blueprint
+- planning
+- agentic-workflows
+- langgraph
+- task-decomposition
+- cognitive-load
+- enterprise-ai
 aliases:
-  - blueprint pattern
-  - blueprint generator
-  - blueprint architecture
+- blueprint pattern
+- blueprint generator
+- blueprint architecture
 sources:
-  - "AIEF2025 - How to Build Planning Agents without losing control - Yogendra Miraje, Factset - https://www.youtube.com/watch?v=sl3icG-IjHo"
+- AIEF2025 - How to Build Planning Agents without losing control - Yogendra Miraje, Factset - https://www.youtube.com/watch?v=sl3icG-IjHo
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -26,14 +26,15 @@ tier: core
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/agentic-workflow-vs-workflow-agent|Agentic Workflow vs Workflow Agent]]"
-    type: enables
-  - target: "[[concepts/sub-goal-division|Sub-goal Division]]"
-    type: implements
-  - target: "[[concepts/agent-architecture|Agent Architecture]]"
-    type: extends
-  - target: "[[concepts/aspect-based-evals|Aspect-Based Evals]]"
-    type: evaluated_by
+- target: '[[concepts/agentic-workflow-vs-workflow-agent|Agentic Workflow vs Workflow Agent]]'
+  type: enables
+- target: '[[concepts/sub-goal-division|Sub-goal Division]]'
+  type: implements
+- target: '[[concepts/agent-architecture|Agent Architecture]]'
+  type: extends
+- target: '[[concepts/aspect-based-evals|Aspect-Based Evals]]'
+  type: evaluated_by
+summary: Blueprint Generator Pattern
 ---
 
 # Blueprint Generator Pattern

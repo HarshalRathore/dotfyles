@@ -4,7 +4,7 @@ category: concepts
 tags: [voice-model, tts, voice-control, instructable-models, openaudio, expressiveness]
 summary: "Voice models that accept natural language instructions controlling not just what to say but how to say it — including emotional tone, proximity, focus, and delivery style."
 sources:
-  - "[[sources/watchv=l8-5ezsoi5a]]"
+  - "https://www.youtube.com/watch?v=l8-5ezsoi5a"
 provenance:
   extracted: 0.9
   inferred: 0.1

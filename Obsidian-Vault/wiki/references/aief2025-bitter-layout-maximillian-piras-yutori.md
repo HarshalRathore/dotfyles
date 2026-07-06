@@ -1,24 +1,25 @@
 ---
-title: "The Bitter Layout or: How I Learned to Love the Model Picker"
+title: 'The Bitter Layout or: How I Learned to Love the Model Picker'
 tags:
-  - talk
-  - aief2025
-  - ux
-  - design
-  - ai
-  - chat
+- talk
+- aief2025
+- ux
+- design
+- ai
+- chat
 sources:
-  - "[[sources/watchv=bztd0yyagcq]]"
-summary: "Maximillian Piras argues that the converged AI UX pattern of chat + model picker persists because it can absorb the next model's capabilities, and introduces the Bitter Design Lesson as a corollary to Sutton's Bitter Lesson."
+- 'https://www.youtube.com/watch?v=bztd0yyagcq'
+summary: Maximillian Piras argues that the converged AI UX pattern of chat + model picker persists because it can absorb the next model's capabilities, and introduces the Bitter Design Lesson as a corollary...
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: references
 ---
 
 # The Bitter Layout or: How I Learned to Love the Model Picker

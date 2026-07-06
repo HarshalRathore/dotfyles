@@ -1,16 +1,16 @@
 ---
-title: "AI Education Summit"
+title: AI Education Summit
 category: concepts
 tags:
-  - ai-education
-  - pedagogy
-  - aief2025
-  - hci
-  - ethics
-  - emerging-ux
-summary: "A new initiative announced at AIEF2025 to address the gap between rapid AI advancement and the preparedness of children, parents, and educators to navigate AI ethically and effectively."
+- ai-education
+- pedagogy
+- aief2025
+- hci
+- ethics
+- emerging-ux
+summary: A new initiative announced at AIEF2025 to address the gap between rapid AI advancement and the preparedness of children, parents, and educators to navigate AI ethically and effectively.
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -20,12 +20,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/human-computer-interaction|Human-Computer Interaction]]"
-    type: related_to
-  - target: "[[concepts/ai-fluency|AI Fluency]]"
-    type: related_to
-  - target: "[[references/aief2025-ai-education-summit-ben-dunphy|AI Education Summit Announcement]]"
-    type: related_to
+- target: '[[concepts/human-computer-interaction|Human-Computer Interaction]]'
+  type: related_to
+- target: '[[concepts/ai-fluency|AI Fluency]]'
+  type: related_to
+- target: '[[references/aief2025-ai-education-summit-ben-dunphy|AI Education Summit Announcement]]'
+  type: related_to
+sources: []
 ---
 
 # AI Education Summit

@@ -1,36 +1,28 @@
 ---
-title: "Three-Computer Problem"
+title: Three-Computer Problem
 category: concepts
 tags:
-  - three-computer-problem
-  - robotics
-  - compute
-  - simulation
-  - edge-deployment
-  - nvidia
-  - ovx
-  - dgx
-  - agx
-summary: "NVIDIA's framing of the robotics development pipeline as three distinct compute stages — simulation (OVX), training (DGX), and edge deployment (AGX) — each requiring fundamentally different hardware architectures.
+- three-computer-problem
+- robotics
+- compute
+- simulation
+- edge-deployment
+- nvidia
+- ovx
+- dgx
+- agx
+sources: []
+summary: NVIDIA's framing of the robotics development pipeline as three distinct compute stages — simulation (OVX), training (DGX), and edge deployment (AGX) — each requiring fundamentally different hardwar...
 provenance:
-  extracted: 0.90
-  inferred: 0.05
-  ambiguous: 0.05
-base_confidence: 0.85
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+base_confidence: 0.42
 lifecycle: draft
-lifecycle_changed: 2026-07-05
+lifecycle_changed: '2026-07-05'
 tier: supporting
-created: 2026-07-05
-updated: 2026-07-05
-relationships:
-  - target: "[[concepts/physical-ai|Physical AI]]"
-    type: describes
-  - target: "[[concepts/edge-ai-hardware-acceleration|Edge AI Hardware Acceleration]]"
-    type: related_to
-  - target: "[[concepts/on-device-inference|On-Device Inference]]"
-    type: related_to
-  - target: "[[entities/nvidia-gr00t|NVIDIA Project GR00T]]"
-    type: used_by
+created: '2026-07-05'
+updated: '2026-07-05'
 ---
 
 # Three-Computer Problem

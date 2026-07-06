@@ -1,14 +1,21 @@
 ---
-title: "Content Annotation for Search"
+title: Content Annotation for Search
 category: concepts
-tags: [content-annotation, search-relevance, feature-engineering, multimodal, vlm, user-signal, aief2025]
+tags:
+- content-annotation
+- search-relevance
+- feature-engineering
+- multimodal
+- vlm
+- user-signal
+- aief2025
 aliases:
-  - content annotation search
+- content annotation search
 sources:
-  - "AIEF2025 - What We Learned from Using LLMs in Pinterest — Mukuntha Narayanan, Han Wang, Pinterest - https://www.youtube.com/watch?v=XdAWgO11zuk"
+- AIEF2025 - What We Learned from Using LLMs in Pinterest — Mukuntha Narayanan, Han Wang, Pinterest - https://www.youtube.com/watch?v=XdAWgO11zuk
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.78
 lifecycle: draft
@@ -16,14 +23,15 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/search-relevance|Search Relevance]]"
-    type: used_in
-  - target: "[[concepts/cross-encoder-relevance-model|Cross-Encoder Relevance Model]]"
-    type: used_by
-  - target: "[[concepts/multimodal-search|Multimodal Search]]"
-    type: related_to
-  - target: "[[concepts/document-enrichment|Document Enrichment]]"
-    type: related_to
+- target: '[[concepts/search-relevance|Search Relevance]]'
+  type: used_in
+- target: '[[concepts/cross-encoder-relevance-model|Cross-Encoder Relevance Model]]'
+  type: used_by
+- target: '[[concepts/multimodal-search|Multimodal Search]]'
+  type: related_to
+- target: '[[concepts/document-enrichment|Document Enrichment]]'
+  type: related_to
+summary: Content Annotation for Search
 ---
 
 # Content Annotation for Search

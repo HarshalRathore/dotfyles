@@ -1,26 +1,26 @@
 ---
-title: "Application-Layer Evals"
+title: Application-Layer Evals
 category: concepts
 tags:
-  - evals
-  - application-layer
-  - production-ai
-  - reliability
-  - testing
+- evals
+- application-layer
+- production-ai
+- reliability
+- testing
 relationships:
-  - target: "[[concepts/eval-ingredients-task-dataset-score]]"
-    type: implements
-  - target: "[[concepts/model-data-application-harmony]]"
-    type: extends
-  - target: "[[concepts/demo-savvy-problem]]"
-    type: related_to
-  - target: "[[concepts/basketball-court-metaphor]]"
-    type: implements
+- target: '[[concepts/eval-ingredients-task-dataset-score]]'
+  type: implements
+- target: '[[concepts/model-data-application-harmony]]'
+  type: extends
+- target: '[[concepts/demo-savvy-problem]]'
+  type: related_to
+- target: '[[concepts/basketball-court-metaphor]]'
+  type: implements
 sources:
-  - "[[sources/watchv=mc55hdwlq4o]]"
-  - "AIEF2025 - Five hard earned lessons about Evals — Ankur Goyal, Braintrust - https://www.youtube.com/watch?v=a4BV0gGmXgA"
+- 'https://www.youtube.com/watch?v=mc55hdwlq4o'
+- AIEF2025 - Five hard earned lessons about Evals — Ankur Goyal, Braintrust - https://www.youtube.com/watch?v=a4BV0gGmXgA
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.65
@@ -28,6 +28,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-05
+summary: Application-Layer Evals
 ---
 
 # Application-Layer Evals

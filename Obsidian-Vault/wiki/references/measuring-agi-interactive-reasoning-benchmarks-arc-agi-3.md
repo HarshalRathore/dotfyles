@@ -1,11 +1,19 @@
 ---
-title: "Measuring AGI: Interactive Reasoning Benchmarks for ARC-AGI-3 — Greg Kamradt, ARC Prize Foundation"
+title: 'Measuring AGI: Interactive Reasoning Benchmarks for ARC-AGI-3 — Greg Kamradt, ARC Prize Foundation'
 category: references
-tags: [ai, benchmarking, agi, reasoning, arc-agi, ai-engineering]
-aliases: [Greg Kamradt AI Eng 2025, ARC-AGI-3 announcement]
+tags:
+- ai
+- benchmarking
+- agi
+- reasoning
+- arc-agi
+- ai-engineering
+aliases:
+- Greg Kamradt AI Eng 2025
+- ARC-AGI-3 announcement
 sources:
-  - "[[sources/watchv=3xmfpwjg8pg]]"
-summary: "Greg Kamradt announces ARC-AGI-3, an interactive reasoning benchmark where AI systems must explore novel games, infer rules, and complete objectives without prior training data — using human skill acquisition efficiency as the baseline for measuring AGI."
+- 'https://www.youtube.com/watch?v=3xmfpwjg8pg'
+summary: Greg Kamradt announces ARC-AGI-3, an interactive reasoning benchmark where AI systems must explore novel games, infer rules, and complete objectives without prior training data — using human skill...
 provenance:
   extracted: 0.82
   inferred: 0.13

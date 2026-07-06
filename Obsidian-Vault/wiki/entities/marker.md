@@ -15,7 +15,7 @@ relationships:
   - target: "[[concepts/ai-native-toolchain|AI-Native Toolchain]]"
     type: related_to
 sources:
-  - "[[sources/watchv=k-iykdmfkhe]]"
+  - "https://www.youtube.com/watch?v=k-iykdmfkhe"
 summary: "Open-source document processing tool by Datalab. Recently re-architected to be extremely modular, easy to work with, and well-documented — optimized for AI-assisted development."
 provenance:
   extracted: 0.90

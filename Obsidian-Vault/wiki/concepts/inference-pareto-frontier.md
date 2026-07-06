@@ -1,42 +1,42 @@
 ---
-title: "Inference Pareto Frontier"
+title: Inference Pareto Frontier
 category: concepts
 tags:
-  - inference
-  - pareto-frontier
-  - latency
-  - cost
-  - quality
-  - llm-serving
-  - optimization
-  - nvidia
+- inference
+- pareto-frontier
+- latency
+- cost
+- quality
+- llm-serving
+- optimization
+- nvidia
 aliases:
-  - pareto frontier inference
-  - inference optimization frontier
+- pareto frontier inference
+- inference optimization frontier
 sources:
-  - "AIEF2025 - Hacking the Inference Pareto Frontier - Kyle Kranen, NVIDIA - https://www.youtube.com/watch?v=Y2qc0UhDSnc"
-summary: "The quality-latency-cost tradeoff surface for LLM inference: the set of optimal operating points where improving one axis requires sacrificing another. Different applications need different points on this frontier."
+- AIEF2025 - Hacking the Inference Pareto Frontier - Kyle Kranen, NVIDIA - https://www.youtube.com/watch?v=Y2qc0UhDSnc
+summary: 'The quality-latency-cost tradeoff surface for LLM inference: the set of optimal operating points where improving one axis requires sacrificing another. Different applications need different points...'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: core
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/disaggregated-inference|Disaggregated Inference]]"
-    type: expanded_by
-  - target: "[[concepts/quantization-inference|Quantization for Inference]]"
-    type: shifted_by
-  - target: "[[concepts/retrieval-augmented-generation|RAG]]"
-    type: shifted_by
-  - target: "[[concepts/inference-time-compute|Inference-Time Compute]]"
-    type: related_to
-  - target: "[[concepts/inference-performance-evaluation|Inference Performance Evaluation]]"
-    type: evaluated_on
+- target: '[[concepts/disaggregated-inference|Disaggregated Inference]]'
+  type: expanded_by
+- target: '[[concepts/quantization-inference|Quantization for Inference]]'
+  type: shifted_by
+- target: '[[concepts/retrieval-augmented-generation|RAG]]'
+  type: shifted_by
+- target: '[[concepts/inference-time-compute|Inference-Time Compute]]'
+  type: related_to
+- target: '[[concepts/inference-performance-evaluation|Inference Performance Evaluation]]'
+  type: evaluated_on
 ---
 
 # Inference Pareto Frontier

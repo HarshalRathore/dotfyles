@@ -4,7 +4,7 @@ category: concepts
 tags: [search, embeddings, semantic-search, natural-language, books, retrieval]
 summary: "Search method using vector embeddings to find content by meaning rather than exact text matching — useful for finding scenes or passages when you can't remember exact keywords."
 sources:
-  - "[[sources/watchv=kcka7rzcxlk]]"
+  - "https://www.youtube.com/watch?v=kcka7rzcxlk"
 provenance: { extracted: 0.9, inferred: 0.1, ambiguous: 0.0 }
 base_confidence: 0.9
 lifecycle: draft

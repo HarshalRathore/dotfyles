@@ -1,22 +1,23 @@
 ---
-title: "Goodfire AI"
+title: Goodfire AI
 tags:
-  - organization
-  - ai
-  - interpretability
-  - startup
+- organization
+- ai
+- interpretability
+- startup
 sources:
-  - "[[sources/watchv=6avmhzpjptq]]"
-summary: "AI interpretability company building the Ember platform for mechanistic interpretability — enabling debugging, steering, and programming of models at the neuron level. Also created Paint with Ember, an interpretability-driven image generation interface."
+- 'https://www.youtube.com/watch?v=6avmhzpjptq'
+summary: AI interpretability company building the Ember platform for mechanistic interpretability — enabling debugging, steering, and programming of models at the neuron level. Also created Paint with Ember...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Goodfire AI

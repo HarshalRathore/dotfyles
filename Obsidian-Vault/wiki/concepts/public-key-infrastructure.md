@@ -2,15 +2,22 @@
 type: concept
 title: Public Key Infrastructure
 created:
-  - 2026-06-30
-updated: "2026-07-02"
+- 2026-06-30
+updated: '2026-07-02'
 lifecycle: draft
 base_confidence: 0.75
 sources:
-  - tls-certificates_c8ca8c
-  - how-tls-certificates-work-in-kubernetes-and-manual-cluster-setup_e2b507
+- tls-certificates_c8ca8c
+- how-tls-certificates-work-in-kubernetes-and-manual-cluster-setup_e2b507
 tags:
-  - term
+- term
+category: concepts
+tier: supporting
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Public Key Infrastructure
 ---
 ## Description
 Public Key Infrastructure (PKI) is a framework of policies, roles, and procedures used to create, manage, distribute, use, store, and revoke digital certificates and manage public-key encryption. It provides the trust model for secure communications, such as TLS, by offering a standardized method to verify the identities of entities. PKI encompasses the entire lifecycle of digital certificates, from creation to revocation, establishing a chain of trust through Certificate Authorities (CAs) that serve as the trust root. The system utilizes asymmetric encryption (public-key cryptography) for secure data exchange and identity verification, relying on standardized procedures for certificate generation, signing, validation, and revocation.

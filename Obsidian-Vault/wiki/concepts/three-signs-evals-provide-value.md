@@ -11,7 +11,8 @@ tags:
   - aief2025
 sources:
   - "AIEF2025 - Five hard earned lessons about Evals — Ankur Goyal, Braintrust - https://www.youtube.com/watch?v=a4BV0gGmXgA"
-summary: "Three indicators that evals are providing real organizational value: 24-hour model integration, user complaint → eval pipeline, and using evals to play offense on use cases before shipping.
+summary: >-
+  "Three indicators that evals are providing real organizational value: 24-hour model integration, user complaint → eval pipeline, and using evals to play offense on use cases before shipping.
 provenance:
   extracted: 0.95
   inferred: 0.05

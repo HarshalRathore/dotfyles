@@ -1,30 +1,31 @@
 ---
-title: "Model Timing"
+title: Model Timing
 category: concepts
 tags:
-  - ai-coding
-  - model-providers
-  - vibe-coding
-  - skill-hell
-  - user-experience
+- ai-coding
+- model-providers
+- vibe-coding
+- skill-hell
+- user-experience
 sources:
-  - "[[sources/watchv=jv-wy5pxxlo]]"
+- 'https://www.youtube.com/watch?v=jv-wy5pxxlo'
 relationships:
-  - target: "[[concepts/skill-hell]]"
-    type: related_to
-  - target: "[[concepts/vibe-engineering]]"
-    type: related_to
-  - target: "[[concepts/model-progression-framework]]"
-    type: related_to
+- target: '[[concepts/skill-hell]]'
+  type: related_to
+- target: '[[concepts/vibe-engineering]]'
+  type: related_to
+- target: '[[concepts/model-progression-framework]]'
+  type: related_to
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.78
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Model Timing
 ---
 
 # Model Timing

@@ -1,20 +1,26 @@
 ---
-title: "Agent Middleware Trust Boundary"
+title: Agent Middleware Trust Boundary
 tags:
-  - agent
-  - security
-  - architecture
-  - middleware
-  - auth
-  - enterprise
+- agent
+- security
+- architecture
+- middleware
+- auth
+- enterprise
 sources:
-  - "[[sources/watchv=d4dswf-__rm]]"
-  - "[[sources/watchv=fzomsupg37e]]"
-summary: "The architecture pattern of treating agents as untrusted code and placing an authorization middleware layer between agentic code and enterprise resources."
+- 'https://www.youtube.com/watch?v=d4dswf-__rm'
+- 'https://www.youtube.com/watch?v=fzomsupg37e'
+summary: The architecture pattern of treating agents as untrusted code and placing an authorization middleware layer between agentic code and enterprise resources.
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
 ---
 # Agent Middleware Trust Boundary
 

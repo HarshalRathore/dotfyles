@@ -1,34 +1,41 @@
 ---
-summary: "This source provides a concise guide to managing application deployments in Deployment using Kubernetes. It explains that creating a Deployment triggers an initial rollout (Revision 1), with subseq..."
+summary: This source provides a concise guide to managing application deployments in Deployment using Kubernetes. It explains that creating a Deployment triggers an initial rollout (Revision 1), with subseq...
 type: source
-title: "Deployment Rollouts, Updates & Rollbacks – Easy Recall Notes - Summary"
-created: "2026-06-30"
-updated: "2026-06-30"
+title: Deployment Rollouts, Updates & Rollbacks – Easy Recall Notes - Summary
+created: '2026-06-30'
+updated: '2026-06-30'
 lifecycle: draft
 base_confidence: 0.7
-source_file: ""
+source_file: ''
 tags:
-  - "rolling-update-strategy"
-  - "recreate-strategy"
-  - replicasets
-  - rollout
-  - "deployment-strategies"
-  - "replica-set-creation"
-  - Deployment Strategies
-  - Revision History
-  - rollback
-  - Deployment
-  - kubectl rollout status
-  - kubectl rollout history
-  - kubectl set image
-  - Deployment Rollout Status
-  - kubectl rollout undo
+- rolling-update-strategy
+- recreate-strategy
+- replicasets
+- rollout
+- deployment-strategies
+- replica-set-creation
+- Deployment Strategies
+- Revision History
+- rollback
+- Deployment
+- kubectl rollout status
+- kubectl rollout history
+- kubectl set image
+- Deployment Rollout Status
+- kubectl rollout undo
 aliases:
-  - "K8s Deployment Management: Updates"
-  - "Rollouts & Rollbacks"
-  - Kubernetes Deployment Rollout Reference
-contentHash: "c0a-4fbce6e8"
-generation_complete: True
+- 'K8s Deployment Management: Updates'
+- Rollouts & Rollbacks
+- Kubernetes Deployment Rollout Reference
+contentHash: c0a-4fbce6e8
+generation_complete: true
+category: sources
+sources: []
+tier: supporting
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
 ---
 # Deployment Rollouts, Updates & Rollbacks – Easy Recall Notes - Summary
 

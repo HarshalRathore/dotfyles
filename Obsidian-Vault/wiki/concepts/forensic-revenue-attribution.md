@@ -4,7 +4,7 @@ category: concepts
 tags: [revenue-attribution, data-forensics, enterprise-data, llm-parsing, knowledge-graphs, sales-intelligence]
 summary: "Using LLMs to forensically extract structured insights from messy enterprise data (emails, CRM records) to create actionable maps of customer interactions and revenue drivers."
 sources:
-  - "[[sources/watchv=l8-5ezsoi5a]]"
+  - "https://www.youtube.com/watch?v=l8-5ezsoi5a"
 provenance:
   extracted: 0.85
   inferred: 0.15

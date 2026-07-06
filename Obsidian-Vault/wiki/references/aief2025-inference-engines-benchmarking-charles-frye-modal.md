@@ -1,36 +1,36 @@
 ---
-title: "How Fast Are LLM Inference Engines Anyway? — Charles Frye, Modal (AIEF2025)"
+title: How Fast Are LLM Inference Engines Anyway? — Charles Frye, Modal (AIEF2025)
 category: references
 tags:
-  - reference
-  - talk
-  - aief2025
-  - inference
-  - benchmarking
-  - llm
-  - modal
+- reference
+- talk
+- aief2025
+- inference
+- benchmarking
+- llm
+- modal
 aliases:
-  - Charles Frye AIEF2025
-  - LLM Almanac
+- Charles Frye AIEF2025
+- LLM Almanac
 relationships:
-  - target: "[[concepts/inference-performance-evaluation]]"
-    type: extends
-  - target: "[[concepts/prefill-decode-throughput-tradeoff]]"
-    type: extends
-  - target: "[[entities/modal]]"
-    type: related_to
-  - target: "[[entities/vllm]]"
-    type: related_to
-  - target: "[[entities/sglang]]"
-    type: related_to
+- target: '[[concepts/inference-performance-evaluation]]'
+  type: extends
+- target: '[[concepts/prefill-decode-throughput-tradeoff]]'
+  type: extends
+- target: '[[entities/modal]]'
+  type: related_to
+- target: '[[entities/vllm]]'
+  type: related_to
+- target: '[[entities/sglang]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=deff3j8t5pk]]"
-summary: "Charles Frye presents the Modal LLM Almanac — comprehensive benchmark data comparing vLLM, SGLang, and TensorRT-LLM across 10+ models on H100 GPUs. Key finding: prefill-dominated workloads achieve ~4x higher throughput than decode-dominated workloads."
+- 'https://www.youtube.com/watch?v=deff3j8t5pk'
+summary: 'Charles Frye presents the Modal LLM Almanac — comprehensive benchmark data comparing vLLM, SGLang, and TensorRT-LLM across 10+ models on H100 GPUs. Key finding: prefill-dominated workloads achieve...'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 tier: supporting
 created: 2026-07-03

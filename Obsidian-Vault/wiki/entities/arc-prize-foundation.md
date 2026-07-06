@@ -1,15 +1,18 @@
 ---
-title: "ARC Prize Foundation"
+title: ARC Prize Foundation
 tags:
-  - organization
-  - nonprofit
-  - ai
-  - benchmarking
-  - agi
-aliases: [ArcPrize, ARC Prize, Arc Prize Foundation]
+- organization
+- nonprofit
+- ai
+- benchmarking
+- agi
+aliases:
+- ArcPrize
+- ARC Prize
+- Arc Prize Foundation
 sources:
-  - "[[sources/watchv=3xmfpwjg8pg]]"
-summary: "Non-profit organization founded by Francois Chollet and Mike Knup with the mission to be a North Star guide towards Open AGI. Creators of the ARC-AGI benchmark series."
+- 'https://www.youtube.com/watch?v=3xmfpwjg8pg'
+summary: Non-profit organization founded by Francois Chollet and Mike Knup with the mission to be a North Star guide towards Open AGI. Creators of the ARC-AGI benchmark series.
 provenance:
   extracted: 0.78
   inferred: 0.17
@@ -19,6 +22,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 # ARC Prize Foundation
 

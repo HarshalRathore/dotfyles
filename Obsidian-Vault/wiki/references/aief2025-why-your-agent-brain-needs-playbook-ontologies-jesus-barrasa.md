@@ -1,23 +1,23 @@
 ---
-title: "AIEF2025 — Why Your Agent's Brain Needs a Playbook: Practical Wins from Using Ontologies — Jesús Barrasa, Neo4j"
+title: 'AIEF2025 — Why Your Agent''s Brain Needs a Playbook: Practical Wins from Using Ontologies — Jesús Barrasa, Neo4j'
 category: references
 tags:
-  - ai-engineering
-  - knowledge-graph
-  - ontology
-  - graphrag
-  - neo4j
-  - retrieval
-  - aief2025
+- ai-engineering
+- knowledge-graph
+- ontology
+- graphrag
+- neo4j
+- retrieval
+- aief2025
 aliases:
-  - Jesús Barrasa AIEF2025
-  - Ontologies for Agents
+- Jesús Barrasa AIEF2025
+- Ontologies for Agents
 sources:
-  - "[[sources/watchv=cbir9xs2skq]]"
-summary: "Jesús Barrasa, Field CTO for AI at Neo4j, demonstrates how ontologies serve as an implementation-agnostic schema that drives both knowledge graph construction and dynamic retrieval behavior, solving the schema divergence problem across structured and unstructured data pipelines."
+- 'https://www.youtube.com/watch?v=cbir9xs2skq'
+summary: Jesús Barrasa, Field CTO for AI at Neo4j, demonstrates how ontologies serve as an implementation-agnostic schema that drives both knowledge graph construction and dynamic retrieval behavior, solvin...
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.55
 lifecycle: draft
@@ -25,16 +25,16 @@ tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
 relationships:
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: related_to
-  - target: "[[concepts/knowledge-graph-ontology-design|Knowledge Graph Ontology Design]]"
-    type: related_to
-  - target: "[[concepts/ontology-driven-retrieval|Ontology-Driven Retrieval]]"
-    type: related_to
-  - target: "[[entities/neo4j|Neo4j]]"
-    type: related_to
-  - target: "[[entities/jesús-barrasa|Jesús Barrasa]]"
-    type: related_to
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: related_to
+- target: '[[concepts/knowledge-graph-ontology-design|Knowledge Graph Ontology Design]]'
+  type: related_to
+- target: '[[concepts/ontology-driven-retrieval|Ontology-Driven Retrieval]]'
+  type: related_to
+- target: '[[entities/neo4j|Neo4j]]'
+  type: related_to
+- target: '[[entities/jesús-barrasa|Jesús Barrasa]]'
+  type: related_to
 ---
 
 # AIEF2025 — Why Your Agent's Brain Needs a Playbook: Practical Wins from Using Ontologies

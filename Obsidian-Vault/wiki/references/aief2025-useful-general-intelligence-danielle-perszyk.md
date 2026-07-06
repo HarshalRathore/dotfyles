@@ -1,51 +1,51 @@
 ---
-title: "Useful General Intelligence — Danielle Perszyk, Amazon AGI (AIEF2025)"
+title: Useful General Intelligence — Danielle Perszyk, Amazon AGI (AIEF2025)
 category: references
 tags:
-  - reference
-  - talk
-  - aief2025
-  - agi
-  - agents
-  - cognitive-science
+- reference
+- talk
+- aief2025
+- agi
+- agents
+- cognitive-science
 aliases:
-  - Useful General Intelligence
-  - Danielle Perszyk AIEF2025
+- Useful General Intelligence
+- Danielle Perszyk AIEF2025
 relationships:
-  - target: "[[concepts/useful-general-intelligence]]"
-    type: defines
-  - target: "[[concepts/techno-social-co-evolution]]"
-    type: extends
-  - target: "[[concepts/controlled-hallucination]]"
-    type: defines
-  - target: "[[concepts/computer-use-agents]]"
-    type: describes
-  - target: "[[concepts/agents-with-models-of-mind]]"
-    type: defines
-  - target: "[[concepts/cognitive-technologies]]"
-    type: extends
-  - target: "[[concepts/automation-augmentation-agency]]"
-    type: describes
-  - target: "[[concepts/human-agent-co-evolution]]"
-    type: describes
-  - target: "[[concepts/language-as-model-of-mind]]"
-    type: extends
-  - target: "[[entities/danielle-perszyk]]"
-    type: related_to
-  - target: "[[entities/nova-act]]"
-    type: describes
-  - target: "[[entities/amazon-agi]]"
-    type: related_to
-  - target: "[[entities/douglas-engelbart]]"
-    type: cites
+- target: '[[concepts/useful-general-intelligence]]'
+  type: defines
+- target: '[[concepts/techno-social-co-evolution]]'
+  type: extends
+- target: '[[concepts/controlled-hallucination]]'
+  type: defines
+- target: '[[concepts/computer-use-agents]]'
+  type: describes
+- target: '[[concepts/agents-with-models-of-mind]]'
+  type: defines
+- target: '[[concepts/cognitive-technologies]]'
+  type: extends
+- target: '[[concepts/automation-augmentation-agency]]'
+  type: describes
+- target: '[[concepts/human-agent-co-evolution]]'
+  type: describes
+- target: '[[concepts/language-as-model-of-mind]]'
+  type: extends
+- target: '[[entities/danielle-perszyk]]'
+  type: related_to
+- target: '[[entities/nova-act]]'
+  type: describes
+- target: '[[entities/amazon-agi]]'
+  type: related_to
+- target: '[[entities/douglas-engelbart]]'
+  type: cites
 sources:
-  - "[[sources/watchv=dj0b_cebhhi]]"
-summary: "Cognitive scientist Danielle Perszyk (Amazon AGI) proposes Useful General Intelligence as a reframing of AGI — building AI that makes humans smarter rather than building machines that are smarter than humans. Covers techno-social co-evolution, controlled hallucination, computer-use agents (Nova Act), cognitive technologies, and the eventual need for agents with models of human minds."
+- 'https://www.youtube.com/watch?v=dj0b_cebhhi'
+summary: Cognitive scientist Danielle Perszyk (Amazon AGI) proposes Useful General Intelligence as a reframing of AGI — building AI that makes humans smarter rather than building machines that are smarter t...
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 tier: supporting
 created: 2026-07-03

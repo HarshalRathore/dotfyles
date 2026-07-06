@@ -1,20 +1,20 @@
 ---
-title: "Mobile Manipulation in Robotics"
+title: Mobile Manipulation in Robotics
 category: concepts
 tags:
-  - robotics
-  - mobile-robotics
-  - manipulation
-  - locomotion
-  - foundation-models
+- robotics
+- mobile-robotics
+- manipulation
+- locomotion
+- foundation-models
 aliases:
-  - mobile manipulation
-  - mobile robot manipulation
+- mobile manipulation
+- mobile robot manipulation
 sources:
-  - "AIEF2025 - Robotics: why now? - Quan Vuong and Jost Tobias Springberg, Physical Intelligence - https://www.youtube.com/watch?v=cGLa8DsOYdk"
-summary: "Robotics capability combining mobile locomotion with dexterous manipulation — enabling robots to move through environments while performing tasks. Added by Physical Intelligence as a new data collection modality."
+- 'AIEF2025 - Robotics: why now? - Quan Vuong and Jost Tobias Springberg, Physical Intelligence - https://www.youtube.com/watch?v=cGLa8DsOYdk'
+summary: Robotics capability combining mobile locomotion with dexterous manipulation — enabling robots to move through environments while performing tasks. Added by Physical Intelligence as a new data colle...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -24,12 +24,12 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/robotics-control-loop|Robotics Control Loop]]"
-    type: extends
-  - target: "[[concepts/robotics-data-engine|Robotics Data Engine]]"
-    type: requires
-  - target: "[[concepts/vision-language-action-models|Vision-Language-Action Models]]"
-    type: controlled-by
+- target: '[[concepts/robotics-control-loop|Robotics Control Loop]]'
+  type: extends
+- target: '[[concepts/robotics-data-engine|Robotics Data Engine]]'
+  type: requires
+- target: '[[concepts/vision-language-action-models|Vision-Language-Action Models]]'
+  type: controlled-by
 ---
 
 # Mobile Manipulation in Robotics

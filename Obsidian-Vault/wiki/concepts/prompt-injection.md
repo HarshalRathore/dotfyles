@@ -1,28 +1,30 @@
 ---
-title: "Prompt Injection"
+title: Prompt Injection
 category: concepts
 tags:
-  - prompt-injection
-  - security
-  - adversarial
-  - llm-security
-  - attack-strategies
-aliases: [prompt injection attack, LLM prompt injection]
+- prompt-injection
+- security
+- adversarial
+- llm-security
+- attack-strategies
+aliases:
+- prompt injection attack
+- LLM prompt injection
 relationships:
-  - target: "[[concepts/attack-strategies]]"
-    type: implements
-  - target: "[[concepts/prompt-shields]]"
-    type: related_to
-  - target: "[[concepts/ai-red-teaming]]"
-    type: related_to
-  - target: "[[concepts/market-design|Market Design]]"
-    type: relates-to
+- target: '[[concepts/attack-strategies]]'
+  type: implements
+- target: '[[concepts/prompt-shields]]'
+  type: related_to
+- target: '[[concepts/ai-red-teaming]]'
+  type: related_to
+- target: '[[concepts/market-design|Market Design]]'
+  type: relates-to
 sources:
-  - "[[sources/watchv=jhjkgramfiu]]"
-  - "AIEF2025 - How we hacked YC Spring 2025 batch's AI agents — Rene Brandel, Casco - https://www.youtube.com/watch?v=kv-QAuKWllQ"
-  - "AIEF2025 - Machines of Buying and Selling Grace - Adam Behrens, New Generation - https://www.youtube.com/watch?v=zlZz0mDF2eg"
+- 'https://www.youtube.com/watch?v=jhjkgramfiu'
+- AIEF2025 - How we hacked YC Spring 2025 batch's AI agents — Rene Brandel, Casco - https://www.youtube.com/watch?v=kv-QAuKWllQ
+- AIEF2025 - Machines of Buying and Selling Grace - Adam Behrens, New Generation - https://www.youtube.com/watch?v=zlZz0mDF2eg
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.75
@@ -30,6 +32,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-05
+summary: Prompt Injection
 ---
 
 # Prompt Injection

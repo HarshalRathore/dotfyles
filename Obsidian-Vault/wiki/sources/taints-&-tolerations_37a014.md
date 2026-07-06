@@ -1,19 +1,26 @@
 ---
-summary: "This source details the mechanisms of **Taints** and **Tolerations** within the Taints and Tolerations scheduling system of Kubernetes. Taints are applied to nodes to create a repulsion effect, pre..."
+summary: This source details the mechanisms of **Taints** and **Tolerations** within the Taints and Tolerations scheduling system of Kubernetes. Taints are applied to nodes to create a repulsion effect, pre...
 type: source
-title: "Taints and Tolerations in Kubernetes - Summary"
-created: "2026-06-30"
-updated: "2026-06-30"
+title: Taints and Tolerations in Kubernetes - Summary
+created: '2026-06-30'
+updated: '2026-06-30'
 lifecycle: draft
 base_confidence: 0.7
-source_file: ""
+source_file: ''
 tags:
-  - Taints
-  - Tolerations
+- Taints
+- Tolerations
 aliases:
-  - Kubernetes Taints and Tolerations
-contentHash: "14fd-7c15b573"
-generation_complete: True
+- Kubernetes Taints and Tolerations
+contentHash: 14fd-7c15b573
+generation_complete: true
+category: sources
+sources: []
+tier: supporting
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
 ---
 # Taints and Tolerations in Kubernetes - Summary
 

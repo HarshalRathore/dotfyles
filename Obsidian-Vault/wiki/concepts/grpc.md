@@ -1,17 +1,26 @@
 ---
 type: concept
-title: "gRPC"
+title: gRPC
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/microservices-demo-projects_ac9b1f]]"
+- '[[sources/microservices-demo-projects_ac9b1f]]'
 tags:
-  - networking
+- networking
 aliases:
-  - gRPC protocol
-  - Google RPC
+- gRPC protocol
+- Google RPC
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: gRPC
 ---
 # gRPC
 

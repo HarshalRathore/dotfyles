@@ -1,20 +1,28 @@
 ---
 title: All AI is Distributed Systems
 category: concepts
-tags: [ai, distributed-systems, reliability, ai-agents, architecture]
-aliases: [ai is distributed systems, all ai is distributed, ai systems are distributed]
+tags:
+- ai
+- distributed-systems
+- reliability
+- ai-agents
+- architecture
+aliases:
+- ai is distributed systems
+- all ai is distributed
+- ai systems are distributed
 relationships:
-  - target: "[[concepts/events-wrong-abstraction-thesis|Events are the Wrong Abstraction Thesis]]"
-    type: related_to
-  - target: "[[concepts/durable-execution|Durable Execution]]"
-    type: related_to
+- target: '[[concepts/events-wrong-abstraction-thesis|Events are the Wrong Abstraction Thesis]]'
+  type: related_to
+- target: '[[concepts/durable-execution|Durable Execution]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=kj9ezytws1y]]"
-summary: "Any code that crosses a network boundary is a distributed system. AI systems inherently cross network boundaries — calling LLM APIs, communicating between agent services — making them distributed systems that require reliability infrastructure."
+- 'https://www.youtube.com/watch?v=kj9ezytws1y'
+summary: Any code that crosses a network boundary is a distributed system. AI systems inherently cross network boundaries — calling LLM APIs, communicating between agent services — making them distributed s...
 provenance:
   extracted: 0.85
   inferred: 0.15
-  ambiguous: 0.00
+  ambiguous: 0.0
 base_confidence: 0.75
 lifecycle: draft
 tier: supporting

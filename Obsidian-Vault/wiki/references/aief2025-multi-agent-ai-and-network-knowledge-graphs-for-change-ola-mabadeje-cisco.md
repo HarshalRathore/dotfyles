@@ -1,19 +1,19 @@
 ---
-title: "AIEF2025 — Multi Agent AI and Network Knowledge Graphs for Change — Ola Mabadeje, Cisco"
+title: AIEF2025 — Multi Agent AI and Network Knowledge Graphs for Change — Ola Mabadeje, Cisco
 category: references
 tags:
-  - aief2025
-  - multi-agent
-  - knowledge-graph
-  - network-operations
-  - digital-twin
-  - arango-db
-  - openconfig
-  - change-management
+- aief2025
+- multi-agent
+- knowledge-graph
+- network-operations
+- digital-twin
+- arango-db
+- openconfig
+- change-management
 aliases:
-  - AIEF2025 Ola Mabadeje Cisco
+- AIEF2025 Ola Mabadeje Cisco
 sources:
-  - "AIEF2025 - Multi Agent AI and Network Knowledge Graphs for Change — Ola Mabadeje, Cisco - https://www.youtube.com/watch?v=m0dxZ-NDKHo"
+- AIEF2025 - Multi Agent AI and Network Knowledge Graphs for Change — Ola Mabadeje, Cisco - https://www.youtube.com/watch?v=m0dxZ-NDKHo
 provenance:
   extracted: 0.95
   inferred: 0.04
@@ -25,16 +25,17 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/ola-mabadeje|Ola Mabadeje]]"
-    type: related_to
-  - target: "[[entities/cisco|Cisco]]"
-    type: related_to
-  - target: "[[concepts/network-knowledge-graph|Network Knowledge Graph]]"
-    type: describes
-  - target: "[[concepts/digital-twin|Digital Twin]]"
-    type: describes
-  - target: "[[entities/arango-db|ArangoDB]]"
-    type: uses
+- target: '[[entities/ola-mabadeje|Ola Mabadeje]]'
+  type: related_to
+- target: '[[entities/cisco|Cisco]]'
+  type: related_to
+- target: '[[concepts/network-knowledge-graph|Network Knowledge Graph]]'
+  type: describes
+- target: '[[concepts/digital-twin|Digital Twin]]'
+  type: describes
+- target: '[[entities/arango-db|ArangoDB]]'
+  type: uses
+summary: AIEF2025 — Multi Agent AI and Network Knowledge Graphs for Change — Ola Mabadeje, Cisco
 ---
 
 # AIEF2025 — Multi Agent AI and Network Knowledge Graphs for Change — Ola Mabadeje, Cisco

@@ -1,23 +1,24 @@
 ---
-title: "Apoorva Joshi"
+title: Apoorva Joshi
 tags:
-  - person
-  - speaker
-  - mongodb
-  - ai
-  - engineer
+- person
+- speaker
+- mongodb
+- ai
+- engineer
 sources:
-  - "[[sources/watchv=640kmytxcei]]"
-summary: "AI-focused Developer Advocate at MongoDB, building workshops for AI developers. Previously 6 years as a data scientist in cybersecurity. Speaker at AI Engineer World's Fair 2025."
+- 'https://www.youtube.com/watch?v=640kmytxcei'
+summary: AI-focused Developer Advocate at MongoDB, building workshops for AI developers. Previously 6 years as a data scientist in cybersecurity. Speaker at AI Engineer World's Fair 2025.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Apoorva Joshi

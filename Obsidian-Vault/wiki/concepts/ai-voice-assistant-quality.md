@@ -4,7 +4,7 @@ category: concepts
 tags: [voice-ai, voice-assistants, turn-taking, latency, user-experience, aief2025]
 summary: "Common failures in AI voice assistants: unreliable turn-taking, wrong interruptions, delays, and poor timing. Hold-to-speak models can solve many of these issues."
 sources:
-  - "[[sources/watchv=kcka7rzcxlk]]"
+  - "https://www.youtube.com/watch?v=kcka7rzcxlk"
 provenance: { extracted: 1.0, inferred: 0.0, ambiguous: 0.0 }
 base_confidence: 0.95
 lifecycle: draft

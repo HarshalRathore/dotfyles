@@ -1,10 +1,18 @@
 ---
 title: OpenAudio
 category: entities
-tags: [company, ai, voice-model, tts, open-source, aief2025, hf0-residency, fish-audio]
-summary: "Company behind Fish Audio and the S1 instructable voice model — the world's most expressive voice model with instruction-based control. $5.5M ARR, $100M valuation. Founded by Shijia, creator of FishAudio."
+tags:
+- company
+- ai
+- voice-model
+- tts
+- open-source
+- aief2025
+- hf0-residency
+- fish-audio
+summary: Company behind Fish Audio and the S1 instructable voice model — the world's most expressive voice model with instruction-based control. $5.5M ARR, $100M valuation. Founded by Shijia, creator of Fis...
 sources:
-  - "[[sources/watchv=l8-5ezsoi5a]]"
+- 'https://www.youtube.com/watch?v=l8-5ezsoi5a'
 provenance:
   extracted: 0.9
   inferred: 0.1
@@ -15,10 +23,10 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/instructable-voice]]"
-    type: implements
-  - target: "[[entities/fish-audio]]"
-    type: implements
+- target: '[[concepts/instructable-voice]]'
+  type: implements
+- target: '[[entities/fish-audio]]'
+  type: implements
 ---
 
 # OpenAudio

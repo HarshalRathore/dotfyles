@@ -4,7 +4,7 @@ category: concepts
 tags: [work-starvation, queue-scheduling, priority, multi-tenant, ml-infrastructure]
 summary: The phenomenon where lower-priority jobs in a queue-based scheduling system are never processed because higher-priority jobs continuously consume available compute resources.
 sources:
-  - "[[sources/watchv=ey4o9m6aswi]]"
+  - "https://www.youtube.com/watch?v=ey4o9m6aswi"
 provenance:
   extracted: 0.85
   inferred: 0.10
@@ -16,13 +16,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[fair-scheduling]]"
+  - target: "[[concepts/fair-scheduling]]"
     type: related_to
-  - target: "[[sla-based-scheduling]]"
+  - target: "[[concepts/sla-based-scheduling]]"
     type: related_to
-  - target: "[[back-pressure]]"
+  - target: "[[concepts/back-pressure]]"
     type: related_to
-  - target: "[[decoupled-architecture]]"
+  - target: "[[concepts/decoupled-architecture]]"
     type: related_to
 ---
 

@@ -1,34 +1,34 @@
 ---
-title: "Longtail Scenarios"
+title: Longtail Scenarios
 category: concepts
 tags:
-  - longtail
-  - edge-cases
-  - autonomous-driving
-  - rare-events
-  - generalization
+- longtail
+- edge-cases
+- autonomous-driving
+- rare-events
+- generalization
 aliases:
-  - long tail scenarios
-  - edge cases driving
+- long tail scenarios
+- edge cases driving
 sources:
-  - "AIEF2025 - Waymo's EMMA: Teaching Cars to Think - Jyh Jing Hwang, Waymo - https://www.youtube.com/watch?v=iS9YFW28XyM"
-summary: "Rare but critical scenarios in autonomous driving that occur frequently at scale — such as bird flocks attacking cars or wet-road scooter slips — where foundation models show superior generalization compared to specialized models."
+- 'AIEF2025 - Waymo''s EMMA: Teaching Cars to Think - Jyh Jing Hwang, Waymo - https://www.youtube.com/watch?v=iS9YFW28XyM'
+summary: Rare but critical scenarios in autonomous driving that occur frequently at scale — such as bird flocks attacking cars or wet-road scooter slips — where foundation models show superior generalizatio...
 provenance:
   extracted: 0.85
   inferred: 0.15
-  ambiguous: 0.00
-base_confidence: 0.80
+  ambiguous: 0.0
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/autonomous-driving]]"
-    type: related_to
-  - target: "[[concepts/foundation-models-autonomous-driving]]"
-    type: related_to
-  - target: "[[concepts/scaling-laws]]"
-    type: related_to
+- target: '[[concepts/autonomous-driving]]'
+  type: related_to
+- target: '[[concepts/foundation-models-autonomous-driving]]'
+  type: related_to
+- target: '[[concepts/scaling-laws]]'
+  type: related_to
 ---
 
 # Longtail Scenarios

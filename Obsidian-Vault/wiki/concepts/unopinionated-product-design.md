@@ -1,26 +1,27 @@
 ---
-title: "Unopinionated Product Design"
+title: Unopinionated Product Design
 tags:
-  - product-design
-  - philosophy
-  - ux
-  - ai-tools
-  - aief2025
+- product-design
+- philosophy
+- ux
+- ai-tools
+- aief2025
 aliases:
-  - unopinionated design
-  - opinionless product
+- unopinionated design
+- opinionless product
 sources:
-  - "[[sources/watchv=lue8k2jqfkk]]"
-summary: "A product philosophy of staying unopinionated about the end-user experience when the underlying technology is evolving rapidly. Prioritizes flexibility and model access over polished UX."
+- 'https://www.youtube.com/watch?v=lue8k2jqfkk'
+summary: A product philosophy of staying unopinionated about the end-user experience when the underlying technology is evolving rapidly. Prioritizes flexibility and model access over polished UX.
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+category: concepts
 ---
 
 # Unopinionated Product Design

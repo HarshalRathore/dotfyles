@@ -1,14 +1,17 @@
 ---
-title: "Context Loss"
+title: Context Loss
 tags:
-  - context-loss
-  - ai-coding
-  - knowledge-gap
-  - production-troubleshooting
-  - ai-generated-code
-aliases: [context-loss, knowledge-gap, ai-context-loss]
+- context-loss
+- ai-coding
+- knowledge-gap
+- production-troubleshooting
+- ai-generated-code
+aliases:
+- context-loss
+- knowledge-gap
+- ai-context-loss
 sources:
-  - "[[sources/watchv=l6_nigiexzq]]"
+- 'https://www.youtube.com/watch?v=l6_nigiexzq'
 summary: The phenomenon where humans lose understanding of system internals as AI systems write more code, creating a knowledge gap that makes production troubleshooting exponentially harder.
 provenance:
   extracted: 0.85
@@ -21,12 +24,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/production-troubleshooting]]"
-    type: extends
-  - target: "[[concepts/agent-swarm]]"
-    type: related_to
-  - target: "[[concepts/software-engineering-model]]"
-    type: related_to
+- target: '[[concepts/production-troubleshooting]]'
+  type: extends
+- target: '[[concepts/agent-swarm]]'
+  type: related_to
+- target: '[[concepts/software-engineering-model]]'
+  type: related_to
+category: concepts
 ---
 
 # Context Loss

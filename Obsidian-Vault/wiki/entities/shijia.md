@@ -4,7 +4,7 @@ category: entities
 tags: [person, founder, voice-ai, open-source, aief2025, hf0-residency, openaudio]
 summary: "Founder of OpenAudio, creator of the S1 instructable voice model and Fish Audio. Grew ARR from $400K to $5.5M in four months, achieving $100M valuation. Presented at AIEF2025 HF0 Residency."
 sources:
-  - "[[sources/watchv=l8-5ezsoi5a]]"
+  - "https://www.youtube.com/watch?v=l8-5ezsoi5a"
 provenance:
   extracted: 0.9
   inferred: 0.1

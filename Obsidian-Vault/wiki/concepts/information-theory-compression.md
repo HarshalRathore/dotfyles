@@ -1,20 +1,20 @@
 ---
-title: "Information Theory and Compression"
+title: Information Theory and Compression
 category: concepts
 tags:
-  - information-theory
-  - compression
-  - human-perception
-  - jpeg
-  - mp3
-  - shannon
-  - aief2025
-summary: "Claude Shannon's information theory and compression formats (JPEG, MP3, MP4) exploit human perceptual limitations — removing information we cannot perceive. This has implications for AI training data quality."
+- information-theory
+- compression
+- human-perception
+- jpeg
+- mp3
+- shannon
+- aief2025
+summary: Claude Shannon's information theory and compression formats (JPEG, MP3, MP4) exploit human perceptual limitations — removing information we cannot perceive. This has implications for AI training da...
 sources:
-  - "AIEF2025 - Perceptual Evaluations: Evals for Aesthetics — Diego Rodriguez, Krea.ai - https://www.youtube.com/watch?v=h5ItAJuB3Fc"
+- 'AIEF2025 - Perceptual Evaluations: Evals for Aesthetics — Diego Rodriguez, Krea.ai - https://www.youtube.com/watch?v=h5ItAJuB3Fc'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.83
 lifecycle: draft
@@ -23,10 +23,10 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/perceptual-evaluations|Perceptual Evaluations]]"
-    type: related_to
-  - target: "[[concepts/structural-vs-superficial-understanding|Structural vs. Superficial Understanding]]"
-    type: related_to
+- target: '[[concepts/perceptual-evaluations|Perceptual Evaluations]]'
+  type: related_to
+- target: '[[concepts/structural-vs-superficial-understanding|Structural vs. Superficial Understanding]]'
+  type: related_to
 ---
 
 # Information Theory and Compression

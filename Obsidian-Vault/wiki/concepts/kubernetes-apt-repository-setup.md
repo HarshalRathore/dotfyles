@@ -1,17 +1,23 @@
 ---
-summary: "Kubernetes APT repository setup is the procedure for adding the official Kubernetes package repository to Ubuntu/Debian APT sources, enabling installation of kubeadm, kubelet, and kubectl packages."
+summary: Kubernetes APT repository setup is the procedure for adding the official Kubernetes package repository to Ubuntu/Debian APT sources, enabling installation of kubeadm, kubelet, and kubectl packages.
 type: concept
-title: "Apt Repository Setup"
+title: Apt Repository Setup
 created:
-  - "2026-06-30"
+- '2026-06-30'
 updated:
-  - "2026-06-30"
+- '2026-06-30'
 lifecycle: draft
 base_confidence: 0.75
 sources:
-  - "[[sources/install-kubernetes-components_c70e92]]"
-  - "[[sources/manual-notes_10b5c5]]"
-tags:
+- '[[sources/install-kubernetes-components_c70e92]]'
+- '[[sources/manual-notes_10b5c5]]'
+tags: []
+category: concepts
+tier: supporting
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
 ---
 ## Related Concepts
 - [[concepts/version-locking]]

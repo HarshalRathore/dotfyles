@@ -1,25 +1,26 @@
 ---
-title: "Agent-to-Agent Payments"
+title: Agent-to-Agent Payments
 tags:
-  - agents
-  - payments
-  - stablecoins
-  - infrastructure
+- agents
+- payments
+- stablecoins
+- infrastructure
 aliases:
-  - agent payments
-  - A2A payments
+- agent payments
+- A2A payments
 sources:
-  - "[[sources/watchv=axmdsqdoghm]]"
-summary: "Payment rails designed for AI agents transacting with each other — requiring near-instant settlement, irreversibility, always-on availability, and programmable conditional logic."
+- 'https://www.youtube.com/watch?v=axmdsqdoghm'
+summary: Payment rails designed for AI agents transacting with each other — requiring near-instant settlement, irreversibility, always-on availability, and programmable conditional logic.
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Agent-to-Agent Payments

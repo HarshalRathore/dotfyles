@@ -1,15 +1,23 @@
 ---
 title: Human vs AI Information Consumption
 category: concepts
-tags: [human-ai-difference, information-consumption, user-model, search-design, ai-native-toolchain]
-aliases: [human vs AI search, human vs agent information, search user models]
-summary: "The fundamental difference between human and AI information consumption patterns: humans type simple keywords and click a few links; AI agents process vast information, use complex queries, and need dense knowledge retrieval."
+tags:
+- human-ai-difference
+- information-consumption
+- user-model
+- search-design
+- ai-native-toolchain
+aliases:
+- human vs AI search
+- human vs agent information
+- search user models
+summary: 'The fundamental difference between human and AI information consumption patterns: humans type simple keywords and click a few links; AI agents process vast information, use complex queries, and nee...'
 sources:
-  - "AIEF2025 - Building a Smarter AI Agent with Neural RAG - Will Bryk, Exa.ai - https://www.youtube.com/watch?v=xnXqpUW_Kp8"
+- AIEF2025 - Building a Smarter AI Agent with Neural RAG - Will Bryk, Exa.ai - https://www.youtube.com/watch?v=xnXqpUW_Kp8
 provenance:
   extracted: 0.95
   inferred: 0.05
-  ambiguous: 0.00
+  ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-05
@@ -17,12 +25,12 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/ai-native-search]]"
-    type: motivates
-  - target: "[[concepts/ai-native-toolchain]]"
-    type: relates_to
-  - target: "[[concepts/semantic-vs-lexical-query-patterns]]"
-    type: relates_to
+- target: '[[concepts/ai-native-search]]'
+  type: motivates
+- target: '[[concepts/ai-native-toolchain]]'
+  type: relates_to
+- target: '[[concepts/semantic-vs-lexical-query-patterns]]'
+  type: relates_to
 ---
 
 # Human vs AI Information Consumption

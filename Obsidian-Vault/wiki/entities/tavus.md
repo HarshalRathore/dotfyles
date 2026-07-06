@@ -1,17 +1,17 @@
 ---
-title: "Tavus"
+title: Tavus
 category: entities
 tags:
-  - company
-  - video-ai
-  - real-time
-  - conversational-video
-  - rendering
-  - ai-research
+- company
+- video-ai
+- real-time
+- conversational-video
+- rendering
+- ai-research
 sources:
-  - "AIEF2025 - Realtime Conversational Video with Pipecat and Tavus — Chad Bailey and Brian Johnson, Daily & Tavus - https://www.youtube.com/watch?v=ujt0da9Z29Q"
+- AIEF2025 - Realtime Conversational Video with Pipecat and Tavus — Chad Bailey and Brian Johnson, Daily & Tavus - https://www.youtube.com/watch?v=ujt0da9Z29Q
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.07
   ambiguous: 0.03
 base_confidence: 0.82
@@ -21,14 +21,15 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/pipe-cat]]"
-    type: related_to
-  - target: "[[entities/daily]]"
-    type: related_to
-  - target: "[[concepts/conversational-video-interface]]"
-    type: provides
-  - target: "[[concepts/tavus-proprietary-models]]"
-    type: owns
+- target: '[[entities/pipe-cat]]'
+  type: related_to
+- target: '[[entities/daily]]'
+  type: related_to
+- target: '[[concepts/conversational-video-interface]]'
+  type: provides
+- target: '[[concepts/tavus-proprietary-models]]'
+  type: owns
+summary: Tavus
 ---
 
 # Tavus

@@ -1,28 +1,29 @@
 ---
-title: "The Multi-Agent Architecture That Actually Ships — Luke Alvoeiro, Factory"
+title: The Multi-Agent Architecture That Actually Ships — Luke Alvoeiro, Factory
 category: misc
 tags:
-  - ai
-  - multi-agent
-  - architecture
-  - agent-systems
-  - factory
+- ai
+- multi-agent
+- architecture
+- agent-systems
+- factory
 sources:
-  - "[[sources/watchv=ow1we5pzk-o]]"
-source_url: "https://www.youtube.com/watch?v=ow1we5PzK-o"
-created: "2026-07-01"
-updated: "2026-07-01"
-summary: "Luke Alvoeiro (Factory) presents Missions — a three-role multi-agent system (orchestrator, workers, validators) using validation contracts, structured handoffs, serial execution, and adversarial verification for multi-day autonomous runs."
+- 'https://www.youtube.com/watch?v=ow1we5pzk-o'
+source_url: https://www.youtube.com/watch?v=ow1we5PzK-o
+created: '2026-07-01'
+updated: '2026-07-01'
+summary: Luke Alvoeiro (Factory) presents Missions — a three-role multi-agent system (orchestrator, workers, validators) using validation contracts, structured handoffs, serial execution, and adversarial ve...
 affinity: {}
 promotion_status: misc
 stub: false
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.18
   ambiguous: 0.02
 base_confidence: 0.45
 lifecycle: draft
 lifecycle_changed: 2026-07-01
+tier: supporting
 ---
 
 # The Multi-Agent Architecture That Actually Ships — Luke Alvoeiro, Factory

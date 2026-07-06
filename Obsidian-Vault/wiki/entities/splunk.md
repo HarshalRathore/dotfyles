@@ -1,31 +1,32 @@
 ---
-title: "Splunk"
+title: Splunk
 category: entities
 tags:
-  - entity
-  - company
-  - data-analytics
-  - monitoring
-  - telemetry
-  - siem
+- entity
+- company
+- data-analytics
+- monitoring
+- telemetry
+- siem
 aliases: []
 sources:
-  - "AIEF2025 - Multi Agent AI and Network Knowledge Graphs for Change — Ola Mabadeje, Cisco - https://www.youtube.com/watch?v=m0dxZ-NDKHo"
+- AIEF2025 - Multi Agent AI and Network Knowledge Graphs for Change — Ola Mabadeje, Cisco - https://www.youtube.com/watch?v=m0dxZ-NDKHo
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/streaming-telemetry|Streaming Telemetry]]"
-    type: produces
-  - target: "[[concepts/etl-pipeline|ETL Pipeline]]"
-    type: data_source
+- target: '[[concepts/streaming-telemetry|Streaming Telemetry]]'
+  type: produces
+- target: '[[concepts/etl-pipeline|ETL Pipeline]]'
+  type: data_source
+summary: Splunk
 ---
 
 # Splunk

@@ -1,17 +1,26 @@
 ---
 type: concept
-title: "OOM Kill"
+title: OOM Kill
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/resource-requests-&-limits_4bd978]]"
+- '[[sources/resource-requests-&-limits_4bd978]]'
 tags:
-  - scaling
+- scaling
 aliases:
-  - "out-of-memory kill"
-  - memory kill
+- out-of-memory kill
+- memory kill
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: OOM Kill
 ---
 # OOM Kill
 

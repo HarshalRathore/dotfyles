@@ -1,18 +1,18 @@
 ---
-title: "Evidence-Based QA Generation"
+title: Evidence-Based QA Generation
 category: concepts
 tags:
-  - evals
-  - synthetic-data
-  - qa-generation
-  - hallucination-prevention
-  - rag
+- evals
+- synthetic-data
+- qa-generation
+- hallucination-prevention
+- rag
 aliases:
-  - evidence-based question generation
+- evidence-based question generation
 sources:
-  - "AIEF2025 - Evaluating AI Search: A Practical Framework for Augmented AI Systems — Quotient AI + Tavily - https://www.youtube.com/watch?v=wRJD0inpmjU"
+- 'AIEF2025 - Evaluating AI Search: A Practical Framework for Augmented AI Systems — Quotient AI + Tavily - https://www.youtube.com/watch?v=wRJD0inpmjU'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -22,10 +22,11 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/dynamic-eval-sets]]"
-    type: used_in
-  - target: "[[concepts/synthetic-data-vs-metrics]]"
-    type: relates_to
+- target: '[[concepts/dynamic-eval-sets]]'
+  type: used_in
+- target: '[[concepts/synthetic-data-vs-metrics]]'
+  type: relates_to
+summary: Evidence-Based QA Generation
 ---
 
 # Evidence-Based QA Generation

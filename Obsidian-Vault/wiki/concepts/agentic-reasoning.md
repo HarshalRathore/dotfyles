@@ -9,7 +9,7 @@ tags:
   - aief2025
 aliases: [agentic-reasoning, agentic-reasoners, training-agentic-reasoners]
 sources:
-  - "[[sources/watchv=pbhm2qknu10]]"
+  - "https://www.youtube.com/watch?v=pbhm2qknu10"
 summary: "The thesis that reasoning models and agentic systems are the same thing: both are interaction loops with evaluations. RL-trained models like O3 and Claude Code are naturally agentic."
 provenance:
   extracted: 0.75

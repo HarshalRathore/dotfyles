@@ -1,15 +1,15 @@
 ---
-title: "AIEF2025 — Graph Intelligence: Enhance Reasoning and Retrieval Using Graph Analytics — Alison Cosette & Andreas, Neo4j"
+title: 'AIEF2025 — Graph Intelligence: Enhance Reasoning and Retrieval Using Graph Analytics — Alison Cosette & Andreas, Neo4j'
 tags:
-  - aief2025
-  - neo4j
-  - graph-analytics
-  - rag
-  - community-detection
-  - knowledge-graph
+- aief2025
+- neo4j
+- graph-analytics
+- rag
+- community-detection
+- knowledge-graph
 sources:
-  - "[[sources/watchv=ggxaqvbwbl4]]"
-summary: "How to apply graph data science algorithms — KNN similarity, community detection, PageRank, betweenness centrality — to improve RAG grounding data quality and retrieval diversity at scale. Introduces the Connect → Cluster → Curate framework."
+- 'https://www.youtube.com/watch?v=ggxaqvbwbl4'
+summary: How to apply graph data science algorithms — KNN similarity, community detection, PageRank, betweenness centrality — to improve RAG grounding data quality and retrieval diversity at scale. Introduc...
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -19,6 +19,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: references
 ---
 
 # AIEF2025 — Graph Intelligence: Enhance Reasoning and Retrieval Using Graph Analytics — Alison Cosette & Andreas, Neo4j

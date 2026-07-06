@@ -1,26 +1,27 @@
 ---
-title: "SemiAnalysis"
+title: SemiAnalysis
 tags:
-  - company
-  - research
-  - semiconductor
-  - ai-infrastructure
-  - analysis
+- company
+- research
+- semiconductor
+- ai-infrastructure
+- analysis
 sources:
-  - "AIEF2025 - The Geopolitics of AI Infrastructure - Dylan Patel, SemiAnalysis - https://www.youtube.com/watch?v=Zz4QjZsYWK0"
-summary: "Research and analysis firm founded by Dylan Patel, covering semiconductor supply chains, AI hardware, and the geopolitics of compute."
+- AIEF2025 - The Geopolitics of AI Infrastructure - Dylan Patel, SemiAnalysis - https://www.youtube.com/watch?v=Zz4QjZsYWK0
+summary: Research and analysis firm founded by Dylan Patel, covering semiconductor supply chains, AI hardware, and the geopolitics of compute.
 provenance:
   extracted: 0.95
   inferred: 0.03
   ambiguous: 0.02
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
-updated: 2026-07-04T23:59:00Z
+updated: 2026-07-04 23:59:00+00:00
 relationships:
-  - target: "[[entities/dylan-patel|Dylan Patel]]"
-    type: founded_by
+- target: '[[entities/dylan-patel|Dylan Patel]]'
+  type: founded_by
+category: entities
 ---
 
 # SemiAnalysis

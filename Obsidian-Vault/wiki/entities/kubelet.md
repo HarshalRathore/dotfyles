@@ -1,19 +1,28 @@
 ---
 type: entity
-title: "Kubelet"
+title: Kubelet
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/install-kubernetes-components_c70e92]]"
-  - "[[sources/manual-notes_10b5c5]]"
-  - "[[sources/static-pod_d72e06]]"
-  - "[[sources/main-kubernetes-components_82b036]]"
+- '[[sources/install-kubernetes-components_c70e92]]'
+- '[[sources/manual-notes_10b5c5]]'
+- '[[sources/static-pod_d72e06]]'
+- '[[sources/main-kubernetes-components_82b036]]'
 tags:
-  - product
+- product
 aliases:
-  - Node Agent
+- Node Agent
+category: entities
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Kubelet
 ---
 ## Description
 The **kubelet** is the primary node agent that runs on every node in a Kubernetes cluster. It ensures the containers described in PodSpecs are running and healthy as defined. Acting on instructions from the control plane, it manages pod scheduling and resource allocation on its node, communicates with the configured container runtime to start or stop containers, and reports the node's status back to the API server.
@@ -30,7 +39,7 @@ The **kubelet** is the primary node agent that runs on every node in a Kubernete
 ## Related Concepts
 - [[concepts/intra-node-networking]]
 - [[concepts/network-port-configuration]]
-- [[worker-node]]
+- [[concepts/worker-node]]
 - [[concepts/static-pods]]
 - [[concepts/mirror-pod]]
 - [[concepts/bootstrapping]]

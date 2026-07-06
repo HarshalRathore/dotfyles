@@ -1,23 +1,24 @@
 ---
-title: "Building Multimodal AI Agents From Scratch — Apoorva Joshi, MongoDB"
+title: Building Multimodal AI Agents From Scratch — Apoorva Joshi, MongoDB
 tags:
-  - reference
-  - talk
-  - multimodal
-  - agents
-  - ai-engineer
+- reference
+- talk
+- multimodal
+- agents
+- ai-engineer
 sources:
-  - "[[sources/watchv=640kmytxcei]]"
-summary: "AI Engineer World's Fair 2025 workshop covering agent fundamentals, the ReAct pattern, multimodal retrieval via page-level screenshots and VLM-based embedding models, and short-term memory for coherent multi-turn conversations."
+- 'https://www.youtube.com/watch?v=640kmytxcei'
+summary: AI Engineer World's Fair 2025 workshop covering agent fundamentals, the ReAct pattern, multimodal retrieval via page-level screenshots and VLM-based embedding models, and short-term memory for cohe...
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: references
 ---
 
 # Building Multimodal AI Agents From Scratch

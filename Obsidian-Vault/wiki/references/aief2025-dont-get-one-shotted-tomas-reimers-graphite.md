@@ -1,22 +1,31 @@
 ---
-title: "Don't Get One-Shotted: Use AI to Test, Review, Merge, and Deploy Code — Tomas Reimers, Graphite (AIEF2025)"
+title: 'Don''t Get One-Shotted: Use AI to Test, Review, Merge, and Deploy Code — Tomas Reimers, Graphite (AIEF2025)'
 category: references
-tags: [ai-engineering, code-review, software-engineering, workflow, cicd, aief2025]
-aliases: [Don't get one-shotted, Tomas Reimers AIEF2025, Graphite AI outer loop]
+tags:
+- ai-engineering
+- code-review
+- software-engineering
+- workflow
+- cicd
+- aief2025
+aliases:
+- Don't get one-shotted
+- Tomas Reimers AIEF2025
+- Graphite AI outer loop
 relationships:
-  - target: "[[concepts/developer-outer-loop]]"
-    type: articulates
-  - target: "[[concepts/code-review-primary-skill]]"
-    type: extends
-  - target: "[[entities/graphite]]"
-    type: describes
-  - target: "[[entities/tomas-reimers]]"
-    type: describes
+- target: '[[concepts/developer-outer-loop]]'
+  type: articulates
+- target: '[[concepts/code-review-primary-skill]]'
+  type: extends
+- target: '[[entities/graphite]]'
+  type: describes
+- target: '[[entities/tomas-reimers]]'
+  type: describes
 sources:
-  - "[[sources/watchv=h6mrr5nbtza]]"
-summary: "Tomas Reimers, co-founder of Graphite, argues that AI accelerates the inner loop of development (writing code) so dramatically that the outer loop (testing, reviewing, merging, deploying) becomes the bottleneck — and the entire toolchain must become AI-native, not just the IDE."
+- 'https://www.youtube.com/watch?v=h6mrr5nbtza'
+summary: Tomas Reimers, co-founder of Graphite, argues that AI accelerates the inner loop of development (writing code) so dramatically that the outer loop (testing, reviewing, merging, deploying) becomes t...
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.75

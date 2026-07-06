@@ -1,18 +1,18 @@
 ---
-title: "Frames, Processors, and Pipelines"
+title: Frames, Processors, and Pipelines
 category: concepts
 tags:
-  - pipecat
-  - real-time
-  - architecture
-  - streaming
-  - media-pipeline
-  - voice-ai
+- pipecat
+- real-time
+- architecture
+- streaming
+- media-pipeline
+- voice-ai
 sources:
-  - "AIEF2025 - Realtime Conversational Video with Pipecat and Tavus — Chad Bailey and Brian Johnson, Daily & Tavus - https://www.youtube.com/watch?v=ujt0da9Z29Q"
+- AIEF2025 - Realtime Conversational Video with Pipecat and Tavus — Chad Bailey and Brian Johnson, Daily & Tavus - https://www.youtube.com/watch?v=ujt0da9Z29Q
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.82
 lifecycle: draft
@@ -21,12 +21,13 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/pipe-cat]]"
-    type: implements
-  - target: "[[concepts/real-time-conversational-video]]"
-    type: related_to
-  - target: "[[concepts/voice-agents]]"
-    type: related_to
+- target: '[[entities/pipe-cat]]'
+  type: implements
+- target: '[[concepts/real-time-conversational-video]]'
+  type: related_to
+- target: '[[concepts/voice-agents]]'
+  type: related_to
+summary: Frames, Processors, and Pipelines
 ---
 
 # Frames, Processors, and Pipelines

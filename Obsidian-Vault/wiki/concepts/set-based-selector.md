@@ -1,16 +1,25 @@
 ---
 type: concept
-title: "Set-based Selector"
+title: Set-based Selector
 created:
-  - 2025-07-18
+- 2025-07-18
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/labels-&-selectors_7e0f44]]"
+- '[[sources/labels-&-selectors_7e0f44]]'
 tags:
-  - scheduling
+- scheduling
 aliases:
-  - "set-based label selector"
+- set-based label selector
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Set-based Selector
 ---
 # Set-based Selector
 

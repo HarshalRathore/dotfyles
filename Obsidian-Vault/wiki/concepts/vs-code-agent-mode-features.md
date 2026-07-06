@@ -1,18 +1,18 @@
 ---
-title: "VS Code Agent Mode Features"
+title: VS Code Agent Mode Features
 category: concepts
 tags:
-  - vscode
-  - agent-mode
-  - github-copilot
-  - aief2025
-  - auto-approve
+- vscode
+- agent-mode
+- github-copilot
+- aief2025
+- auto-approve
 aliases:
-  - vscode-agent-features
+- vscode-agent-features
 sources:
-  - "AIEF2025 - Vibe Coding at Scale: Customizing AI Assistants for Enterprise Environments - Harald Kirshner, - https://www.youtube.com/watch?v=i1uPAN6uW4s"
+- 'AIEF2025 - Vibe Coding at Scale: Customizing AI Assistants for Enterprise Environments - Harald Kirshner, - https://www.youtube.com/watch?v=i1uPAN6uW4s'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
 base_confidence: 0.85
@@ -22,12 +22,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/vs-code|VS Code]]"
-    type: feature-of
-  - target: "[[entities/github-copilot|GitHub Copilot]]"
-    type: provided-by
-  - target: "[[concepts/vibe-coding|Vibe Coding]]"
-    type: enables
+- target: '[[entities/vs-code|VS Code]]'
+  type: feature-of
+- target: '[[entities/github-copilot|GitHub Copilot]]'
+  type: provided-by
+- target: '[[concepts/vibe-coding|Vibe Coding]]'
+  type: enables
+summary: VS Code Agent Mode Features
 ---
 
 # VS Code Agent Mode Features

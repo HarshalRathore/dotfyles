@@ -1,30 +1,31 @@
 ---
-title: "Donald Hruska"
+title: Donald Hruska
 category: entities
 tags:
-  - person
-  - retool
-  - product-management
-  - ai-agents
-  - aief2025
+- person
+- retool
+- product-management
+- ai-agents
+- aief2025
 sources:
-  - "[[sources/watchv=lqq_lcbajcc]]"
+- 'https://www.youtube.com/watch?v=lqq_lcbajcc'
 relationships:
-  - target: "[[entities/retool|Retool]]"
-    type: implements
-  - target: "[[concepts/agent-guardrails|Agent Guardrails]]"
-    type: related_to
-  - target: "[[concepts/build-vs-buy-agents|Build vs Buy Agents]]"
-    type: related_to
+- target: '[[entities/retool|Retool]]'
+  type: implements
+- target: '[[concepts/agent-guardrails|Agent Guardrails]]'
+  type: related_to
+- target: '[[concepts/build-vs-buy-agents|Build vs Buy Agents]]'
+  type: related_to
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Donald Hruska
 ---
 
 # Donald Hruska

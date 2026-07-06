@@ -1,16 +1,16 @@
 ---
-title: "Gemini 2.5 Pro Launch"
+title: Gemini 2.5 Pro Launch
 category: references
 tags:
-  - aief2025
-  - gemini
-  - google-deepmind
-  - model-launch
-  - benchmark
-  - logan-kilpatrick
-summary: "Logan Kilpatrick's AIEF2025 talk announcing Gemini 2.5 Pro, recapping a year of Gemini progress, and previewing what's coming across models, the Gemini app, and the developer platform."
+- aief2025
+- gemini
+- google-deepmind
+- model-launch
+- benchmark
+- logan-kilpatrick
+summary: Logan Kilpatrick's AIEF2025 talk announcing Gemini 2.5 Pro, recapping a year of Gemini progress, and previewing what's coming across models, the Gemini app, and the developer platform.
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -20,12 +20,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/logan-kilpatrick|Logan Kilpatrick]]"
-    type: related_to
-  - target: "[[entities/gemini|Gemini]]"
-    type: related_to
-  - target: "[[entities/google-deepmind|Google DeepMind]]"
-    type: related_to
+- target: '[[entities/logan-kilpatrick|Logan Kilpatrick]]'
+  type: related_to
+- target: '[[entities/gemini|Gemini]]'
+  type: related_to
+- target: '[[entities/google-deepmind|Google DeepMind]]'
+  type: related_to
+sources: []
 ---
 
 # Gemini 2.5 Pro Launch

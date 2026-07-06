@@ -1,17 +1,17 @@
 ---
-title: "Moore's Law for AI Agents"
+title: Moore's Law for AI Agents
 category: concepts
 tags:
-  - ai-agents
-  - exponential-growth
-  - capability-scaling
-  - software-engineering
-  - aief2025
+- ai-agents
+- exponential-growth
+- capability-scaling
+- software-engineering
+- aief2025
 sources:
-  - "[[sources/watchv=mi83but_23o]]"
-summary: "AI agent capability in code doubles every 70 days — faster than general LLM doubling (~7 months). This translates to 16-64x improvement per year, measured as uninterrupted work before human intervention."
+- 'https://www.youtube.com/watch?v=mi83but_23o'
+summary: AI agent capability in code doubles every 70 days — faster than general LLM doubling (~7 months). This translates to 16-64x improvement per year, measured as uninterrupted work before human interve...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75

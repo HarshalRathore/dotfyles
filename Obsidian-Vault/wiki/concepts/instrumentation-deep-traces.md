@@ -1,21 +1,21 @@
 ---
-title: "Instrumentation & Deep Traces"
+title: Instrumentation & Deep Traces
 category: concepts
 tags:
-  - instrumentation
-  - tracing
-  - observability
-  - debugging
-  - ai-agents
-  - evals
+- instrumentation
+- tracing
+- observability
+- debugging
+- ai-agents
+- evals
 aliases:
-  - deep tracing
-  - agent instrumentation
+- deep tracing
+- agent instrumentation
 sources:
-  - "AIEF2025 - Turning Fails into Features: Zapier's Hard-Won Eval Lessons — Rafal Willinski, Vitor Balocco, Zapier - https://www.youtube.com/watch?v=blrovBxxN9o"
-  - "AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY"
+- 'AIEF2025 - Turning Fails into Features: Zapier''s Hard-Won Eval Lessons — Rafal Willinski, Vitor Balocco, Zapier - https://www.youtube.com/watch?v=blrovBxxN9o'
+- AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -25,10 +25,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/ai-observability-production-logging|AI Observability & Production Logging]]"
-    type: extends
-  - target: "[[concepts/llm-ops-tooling|LLM Ops Tooling]]"
-    type: feeds
+- target: '[[concepts/ai-observability-production-logging|AI Observability & Production Logging]]'
+  type: extends
+- target: '[[concepts/llm-ops-tooling|LLM Ops Tooling]]'
+  type: feeds
+summary: Instrumentation & Deep Traces
 ---
 
 # Instrumentation & Deep Traces

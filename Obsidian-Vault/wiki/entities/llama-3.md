@@ -1,14 +1,22 @@
 ---
 title: Llama 3
 category: entities
-tags: [llm, open-source, meta, foundation-model, fine-tuning, search-relevance, cross-encoder, aief2025]
+tags:
+- llm
+- open-source
+- meta
+- foundation-model
+- fine-tuning
+- search-relevance
+- cross-encoder
+- aief2025
 aliases:
-  - Llama3
-  - Llama 3 model
+- Llama3
+- Llama 3 model
 sources:
-  - "AIEF2025 - What We Learned from Using LLMs in Pinterest — Mukuntha Narayanan, Han Wang, Pinterest - https://www.youtube.com/watch?v=XdAWgO11zuk"
+- AIEF2025 - What We Learned from Using LLMs in Pinterest — Mukuntha Narayanan, Han Wang, Pinterest - https://www.youtube.com/watch?v=XdAWgO11zuk
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -17,12 +25,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/pinterest|Pinterest]]"
-    type: used_by
-  - target: "[[concepts/cross-encoder-relevance-model|Cross-Encoder Relevance Model]]"
-    type: implements
-  - target: "[[concepts/model-size-scaling|Model Size Scaling]]"
-    type: demonstrates
+- target: '[[entities/pinterest|Pinterest]]'
+  type: used_by
+- target: '[[concepts/cross-encoder-relevance-model|Cross-Encoder Relevance Model]]'
+  type: implements
+- target: '[[concepts/model-size-scaling|Model Size Scaling]]'
+  type: demonstrates
+summary: Llama 3
 ---
 
 # Llama 3

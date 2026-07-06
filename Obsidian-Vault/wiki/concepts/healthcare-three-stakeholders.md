@@ -10,7 +10,7 @@ tags:
   - framework
 summary: "The three core groups in U.S. healthcare: patients (receive care), providers (deliver care), and payers (fund care). Understanding their interactions is key to analyzing healthcare friction."
 sources:
-  - "[[sources/watchv=tquusn1qsws]]"
+  - "https://www.youtube.com/watch?v=tquusn1qsws"
 provenance:
   extracted: 0.9
   inferred: 0.1

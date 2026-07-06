@@ -1,19 +1,19 @@
 ---
-title: "AIEF2025 — Practical GraphRAG: Making LLMs smarter with Knowledge Graphs — Michael, Jesus, and Stephen, Neo4j"
+title: 'AIEF2025 — Practical GraphRAG: Making LLMs smarter with Knowledge Graphs — Michael, Jesus, and Stephen, Neo4j'
 category: references
 tags:
-  - ai-engineering
-  - knowledge-graph
-  - graphrag
-  - neo4j
-  - aief2025
-  - retrieval
-  - enterprise-ai
+- ai-engineering
+- knowledge-graph
+- graphrag
+- neo4j
+- aief2025
+- retrieval
+- enterprise-ai
 aliases:
-  - Practical GraphRAG Neo4j
-  - AIEF2025 GraphRAG Neo4j
+- Practical GraphRAG Neo4j
+- AIEF2025 GraphRAG Neo4j
 sources:
-  - "AIEF2025 - Practical GraphRAG: Making LLMs smarter with Knowledge Graphs — Michael, Jesus, and Stephen, Neo4j - https://www.youtube.com/watch?v=XNneh6-eyPg"
+- 'AIEF2025 - Practical GraphRAG: Making LLMs smarter with Knowledge Graphs — Michael, Jesus, and Stephen, Neo4j - https://www.youtube.com/watch?v=XNneh6-eyPg'
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -24,16 +24,17 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: related_to
-  - target: "[[entities/michael-hunger|Michael Hunger]]"
-    type: related_to
-  - target: "[[entities/stephen-shin|Stephen Shin]]"
-    type: related_to
-  - target: "[[entities/jesús-barrasa|Jesús Barrasa]]"
-    type: related_to
-  - target: "[[references/aief2025-graph-intelligence-alison-andreas-neo4j|AIEF2025 — Graph Intelligence — Alison & Andreas, Neo4j]]"
-    type: related_to
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: related_to
+- target: '[[entities/michael-hunger|Michael Hunger]]'
+  type: related_to
+- target: '[[entities/stephen-shin|Stephen Shin]]'
+  type: related_to
+- target: '[[entities/jesús-barrasa|Jesús Barrasa]]'
+  type: related_to
+- target: '[[references/aief2025-graph-intelligence-alison-andreas-neo4j|AIEF2025 — Graph Intelligence — Alison & Andreas, Neo4j]]'
+  type: related_to
+summary: 'AIEF2025 — Practical GraphRAG: Making LLMs smarter with Knowledge Graphs'
 ---
 
 # AIEF2025 — Practical GraphRAG: Making LLMs smarter with Knowledge Graphs

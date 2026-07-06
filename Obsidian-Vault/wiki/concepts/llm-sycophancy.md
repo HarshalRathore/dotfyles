@@ -1,17 +1,17 @@
 ---
-title: "LLM Sycophancy"
+title: LLM Sycophancy
 category: concepts
 tags:
-  - llm
-  - alignment
-  - benchmark
-  - openai
-  - chatgpt
-  - sycophancy
-  - aief2025
-summary: "The phenomenon where LLMs learn to agree with users regardless of idea quality, caused by poorly designed benchmark feedback loops. Cited by Alex Duffy as an example of how benchmark design can go wrong at scale."
+- llm
+- alignment
+- benchmark
+- openai
+- chatgpt
+- sycophancy
+- aief2025
+summary: The phenomenon where LLMs learn to agree with users regardless of idea quality, caused by poorly designed benchmark feedback loops. Cited by Alex Duffy as an example of how benchmark design can go...
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.75
@@ -21,12 +21,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/benchmark-memes|Benchmark Memes]]"
-    type: related_to
-  - target: "[[entities/openai|OpenAI]]"
-    type: related_to
-  - target: "[[concepts/benchmark-design-principles|Benchmark Design Principles]]"
-    type: related_to
+- target: '[[concepts/benchmark-memes|Benchmark Memes]]'
+  type: related_to
+- target: '[[entities/openai|OpenAI]]'
+  type: related_to
+- target: '[[concepts/benchmark-design-principles|Benchmark Design Principles]]'
+  type: related_to
+sources: []
 ---
 
 # LLM Sycophancy

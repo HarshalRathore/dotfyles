@@ -1,12 +1,20 @@
 ---
-type: "meta"
-title: "Suggestion — 2026-06-30T13:26:31.726Z"
-created: "2026-06-30"
-updated: "2026-06-30"
-lifecycle: "reviewed"
-base_confidence: "0.9"
+type: meta
+title: Suggestion — 2026-06-30T13:26:31.726Z
+created: '2026-06-30'
+updated: '2026-06-30'
+lifecycle: reviewed
+base_confidence: 0.9
 tags:
-  - "schema"
+- schema
+category: schema
+sources: []
+tier: supporting
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Suggestions
 ---
 summary: "> Suggestions for improving your Wiki Schema. Review and decide whether to apply them to `schema/config.md`."
 

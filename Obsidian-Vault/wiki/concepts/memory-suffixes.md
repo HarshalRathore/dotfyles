@@ -1,17 +1,26 @@
 ---
 type: concept
-title: "Memory Suffixes"
+title: Memory Suffixes
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/resource-requests-&-limits_4bd978]]"
+- '[[sources/resource-requests-&-limits_4bd978]]'
 tags:
-  - scaling
+- scaling
 aliases:
-  - Binary vs Decimal Suffixes
-  - Kubernetes Memory Suffixes
+- Binary vs Decimal Suffixes
+- Kubernetes Memory Suffixes
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Memory Suffixes
 ---
 # Memory Suffixes
 

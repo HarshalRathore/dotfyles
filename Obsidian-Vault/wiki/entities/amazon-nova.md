@@ -1,25 +1,26 @@
 ---
-title: "Amazon Nova"
+title: Amazon Nova
 category: entities
 tags:
-  - amazon
-  - aws
-  - ai-models
-  - foundational-models
-  - generative-ai
-  - bedrock
+- amazon
+- aws
+- ai-models
+- foundational-models
+- generative-ai
+- bedrock
 sources:
-  - "[[sources/watchv=rofhhjmumcc]]"
-  - "[[sources/watchv=ht4l0dep69i]]"
+- 'https://www.youtube.com/watch?v=rofhhjmumcc'
+- 'https://www.youtube.com/watch?v=ht4l0dep69i'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Amazon Nova
 ---
 # Amazon Nova
 

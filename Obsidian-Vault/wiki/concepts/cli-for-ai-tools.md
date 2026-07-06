@@ -1,29 +1,29 @@
 ---
-title: "CLI for AI Tools"
+title: CLI for AI Tools
 category: concepts
 tags:
-  - cli
-  - developer-experience
-  - model-management
-  - local-ai
+- cli
+- developer-experience
+- model-management
+- local-ai
 sources:
-  - "AIEF2025 - Foundry Local: Cutting-Edge AI experiences on device with ONNX Runtime/Olive — Emma Ning, Microsoft - https://www.youtube.com/watch?v=l614N5W60ls"
-summary: "Command-line interfaces as the primary developer tool for discovering, running, and evaluating AI models on-device — offering model browsing, interactive inference, and performance metrics in a terminal-native workflow."
+- 'AIEF2025 - Foundry Local: Cutting-Edge AI experiences on device with ONNX Runtime/Olive — Emma Ning, Microsoft - https://www.youtube.com/watch?v=l614N5W60ls'
+summary: Command-line interfaces as the primary developer tool for discovering, running, and evaluating AI models on-device — offering model browsing, interactive inference, and performance metrics in a ter...
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/local-model-management|Local Model Management]]"
-    type: interfaces_with
-  - target: "[[concepts/developer-experience|Developer Experience]]"
-    type: improves
+- target: '[[concepts/local-model-management|Local Model Management]]'
+  type: interfaces_with
+- target: '[[concepts/developer-experience|Developer Experience]]'
+  type: improves
 ---
 
 # CLI for AI Tools

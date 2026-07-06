@@ -1,27 +1,33 @@
 ---
 title: Grounding DINO
 category: concepts
-tags: [grounding-dino, object-detection, zero-shot, vision-language, federated-loss, open-vocabulary]
-summary: A zero-shot object detection model that can detect objects given natural language class names. Benchmarked on RF100VL where zero-shot achieves ~19 mAP and fine-tuning with federated loss achieves the highest known performance.
+tags:
+- grounding-dino
+- object-detection
+- zero-shot
+- vision-language
+- federated-loss
+- open-vocabulary
+summary: A zero-shot object detection model that can detect objects given natural language class names. Benchmarked on RF100VL where zero-shot achieves ~19 mAP and fine-tuning with federated loss achieves t...
 sources:
-  - "[[sources/watchv=iqc05ecvnye]]"
+- 'https://www.youtube.com/watch?v=iqc05ecvnye'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/vlm-visual-fidelity|vlm-visual-fidelity]]"
-    type: related_to
-  - target: "[[concepts/rf100vl|rf100vl]]"
-    type: related_to
-  - target: "[[concepts/object-detection-transformers|object-detection-transformers]]"
-    type: related_to
+- target: '[[concepts/vlm-visual-fidelity|vlm-visual-fidelity]]'
+  type: related_to
+- target: '[[concepts/rf100vl|rf100vl]]'
+  type: related_to
+- target: '[[concepts/object-detection-transformers|object-detection-transformers]]'
+  type: related_to
 ---
 
 Grounding DINO is a zero-shot object detection model capable of detecting objects described by natural language class names — not just predefined categories. This makes it an open-vocabulary detector.

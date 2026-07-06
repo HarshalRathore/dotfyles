@@ -1,17 +1,17 @@
 ---
-title: "Recsys Keynote: Improving Recommendation Systems & Search in the Age of LLMs — Eugene Yan, Amazon"
+title: 'Recsys Keynote: Improving Recommendation Systems & Search in the Age of LLMs — Eugene Yan, Amazon'
 tags:
-  - reference
-  - talk
-  - ai-engineer
-  - recommendation-systems
-  - search
-  - llm
+- reference
+- talk
+- ai-engineer
+- recommendation-systems
+- search
+- llm
 sources:
-  - "[[sources/watchv=2vlcqd6igva]]"
-summary: "AI Engineer World's Fair 2025 keynote covering three ideas for merging recommendation systems and LLMs: semantic IDs, LLM-based data augmentation, and unified models. Includes case studies from Kuaishou, Indeed, Spotify, Netflix, and Etsy."
+- 'https://www.youtube.com/watch?v=2vlcqd6igva'
+summary: 'AI Engineer World''s Fair 2025 keynote covering three ideas for merging recommendation systems and LLMs: semantic IDs, LLM-based data augmentation, and unified models. Includes case studies from Kua...'
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.65
@@ -19,6 +19,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: references
 ---
 
 # Recsys Keynote: Improving Recommendation Systems & Search in the Age of LLMs

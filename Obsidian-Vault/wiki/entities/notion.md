@@ -1,23 +1,24 @@
 ---
-title: "Notion"
+title: Notion
 tags:
-  - company
-  - product
-  - ai
-  - workspace
-  - enterprise
+- company
+- product
+- ai
+- workspace
+- enterprise
 sources:
-  - "[[sources/watchv=6ydpi9ybjbi]]"
-summary: "Connected workspace platform with over 100 million users, known for its AI features spanning writing, search, meetings, and deep research."
+- 'https://www.youtube.com/watch?v=6ydpi9ybjbi'
+summary: Connected workspace platform with over 100 million users, known for its AI features spanning writing, search, meetings, and deep research.
 provenance:
   extracted: 0.55
   inferred: 0.35
-  ambiguous: 0.10
-base_confidence: 0.40
+  ambiguous: 0.1
+base_confidence: 0.4
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Notion

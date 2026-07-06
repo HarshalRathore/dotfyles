@@ -1,16 +1,25 @@
 ---
 type: concept
-title: "ReplicationController"
+title: ReplicationController
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/replication-controller-&-replicaset_285a2a]]"
+- '[[sources/replication-controller-&-replicaset_285a2a]]'
 tags:
-  - deployment
+- deployment
 aliases:
-  - Replication Controller
+- Replication Controller
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: ReplicationController
 ---
 # ReplicationController
 

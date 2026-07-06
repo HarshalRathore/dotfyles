@@ -1,29 +1,30 @@
 ---
-title: "UMAP Vector Visualization"
+title: UMAP Vector Visualization
 category: concepts
 tags:
-  - umap
-  - dimensionality-reduction
-  - vector-visualization
-  - 3d-visualization
-  - knowledge-base
-  - user-trust
+- umap
+- dimensionality-reduction
+- vector-visualization
+- 3d-visualization
+- knowledge-base
+- user-trust
 summary: Using UMAP to project high-dimensional vector embeddings into 3D space for interactive visualization of a knowledge base. Lets users inspect an agent's stored knowledge by clicking on nodes.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/knowledge-base-pattern]]"
-    type: uses
-  - target: "[[concepts/dense-vector-search]]"
-    type: related_to
+- target: '[[concepts/knowledge-base-pattern]]'
+  type: uses
+- target: '[[concepts/dense-vector-search]]'
+  type: related_to
+sources: []
 ---
 
 # UMAP Vector Visualization

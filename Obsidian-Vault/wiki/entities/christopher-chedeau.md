@@ -22,11 +22,11 @@ relationships:
 
 # Christopher Chedeau
 
-Christopher Chedeau is the creator of [[Excalidraw|excalidraw]], an open-source whiteboarding tool that became widely adopted during the COVID-19 remote work shift. He previously worked at Facebook (now Meta), where he was employed on January 1, 2020.
+Christopher Chedeau is the creator of [[entities/excalidraw|excalidraw]], an open-source whiteboarding tool that became widely adopted during the COVID-19 remote work shift. He previously worked at Facebook (now Meta), where he was employed on January 1, 2020.
 
 ## Excalidraw Origin
 
-Chedeau built Excalidraw as a side project born from procrastination during Facebook's performance review cycle. He had wanted to write a blog post with handwritten illustrations for a long time and attempted to use [[Zwibbler|zwibbler]], but the service was down. He instead used [[Rover.js|rover.js]] in a code sandbox to build a minimal whiteboard clone, posted it on Twitter, and it went viral. The community interest led to Excalidraw becoming a real product.
+Chedeau built Excalidraw as a side project born from procrastination during Facebook's performance review cycle. He had wanted to write a blog post with handwritten illustrations for a long time and attempted to use [[entities/zwibbler|zwibbler]], but the service was down. He instead used rover.js in a code sandbox to build a minimal whiteboard clone, posted it on Twitter, and it went viral. The community interest led to Excalidraw becoming a real product.
 
 ## Philosophy
 

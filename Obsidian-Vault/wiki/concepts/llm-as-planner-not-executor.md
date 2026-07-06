@@ -1,21 +1,24 @@
 ---
-title: "LLM as Planner, Not Executor"
+title: LLM as Planner, Not Executor
 tags:
-  - ai
-  - architecture
-  - llm
-  - reliability
-  - deterministic
-aliases: [decoupled LLM execution, planner-executor pattern, deterministic plan execution]
+- ai
+- architecture
+- llm
+- reliability
+- deterministic
+aliases:
+- decoupled LLM execution
+- planner-executor pattern
+- deterministic plan execution
 relationships:
-  - target: "[[concepts/agentic-semantic-layer]]"
-    type: extends
-  - target: "[[concepts/agent-reliability-challenge]]"
-    type: related_to
+- target: '[[concepts/agentic-semantic-layer]]'
+  type: extends
+- target: '[[concepts/agent-reliability-challenge]]'
+  type: related_to
 sources:
-  - "[[sources/ai-engineer-worlds-fair-2025-talk]]"
+- '[[sources/ai-engineer-worlds-fair-2025-talk]]'
 Data readiness\" is a Myth: Reliable AI with an Agentic Semantic Layer — Anushrut Gupta, PromptQL - https://www.youtube.com/watch?v=1nOTQsfe1RU"
-summary: "An architectural pattern where the LLM generates a deterministic plan (in a domain-specific language) but a runtime executes it, eliminating hallucination at the answer layer."
+summary: An architectural pattern where the LLM generates a deterministic plan (in a domain-specific language) but a runtime executes it, eliminating hallucination at the answer layer.
 provenance:
   extracted: 0.78
   inferred: 0.18
@@ -25,6 +28,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # LLM as Planner, Not Executor

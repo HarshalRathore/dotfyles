@@ -1,31 +1,32 @@
 ---
-title: "Eval SDK-First Workflow"
+title: Eval SDK-First Workflow
 category: concepts
 tags:
-  - evals
-  - sdk
-  - development-workflow
-  - braintrust
-  - ci-cd
+- evals
+- sdk
+- development-workflow
+- braintrust
+- ci-cd
 sources:
-  - "AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY"
+- AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/eval-playground-experiment-workflow|Eval Playground vs Experiments Workflow]]"
-    type: complements
-  - target: "[[concepts/eval-driven-development|Eval-Driven Development]]"
-    type: implements
-  - target: "[[concepts/evals-in-ci|Evals in CI]]"
-    type: enables
+- target: '[[concepts/eval-playground-experiment-workflow|Eval Playground vs Experiments Workflow]]'
+  type: complements
+- target: '[[concepts/eval-driven-development|Eval-Driven Development]]'
+  type: implements
+- target: '[[concepts/evals-in-ci|Evals in CI]]'
+  type: enables
+summary: Eval SDK-First Workflow
 ---
 
 # Eval SDK-First Workflow

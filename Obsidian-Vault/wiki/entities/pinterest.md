@@ -1,11 +1,19 @@
 ---
 title: Pinterest
 category: entities
-tags: [pinterest, visual-search, recommendation, search-relevance, llm, cross-encoder, knowledge-distillation, aief2025]
+tags:
+- pinterest
+- visual-search
+- recommendation
+- search-relevance
+- llm
+- cross-encoder
+- knowledge-distillation
+- aief2025
 sources:
-  - "AIEF2025 - What We Learned from Using LLMs in Pinterest — Mukuntha Narayanan, Han Wang, Pinterest - https://www.youtube.com/watch?v=XdAWgO11zuk"
+- AIEF2025 - What We Learned from Using LLMs in Pinterest — Mukuntha Narayanan, Han Wang, Pinterest - https://www.youtube.com/watch?v=XdAWgO11zuk
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -14,18 +22,19 @@ tier: core
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/cross-encoder-relevance-model|Cross-Encoder Relevance Model]]"
-    type: uses
-  - target: "[[concepts/model-distillation|Model Distillation]]"
-    type: uses
-  - target: "[[concepts/hybrid-search|Hybrid Search]]"
-    type: uses
-  - target: "[[concepts/re-ranking|Re-ranking]]"
-    type: uses
-  - target: "[[entities/mukuntha-narayanan|Mukuntha Narayanan]]"
-    type: employed_by
-  - target: "[[entities/han-wang|Han Wang]]"
-    type: employed_by
+- target: '[[concepts/cross-encoder-relevance-model|Cross-Encoder Relevance Model]]'
+  type: uses
+- target: '[[concepts/model-distillation|Model Distillation]]'
+  type: uses
+- target: '[[concepts/hybrid-search|Hybrid Search]]'
+  type: uses
+- target: '[[concepts/re-ranking|Re-ranking]]'
+  type: uses
+- target: '[[entities/mukuntha-narayanan|Mukuntha Narayanan]]'
+  type: employed_by
+- target: '[[entities/han-wang|Han Wang]]'
+  type: employed_by
+summary: Pinterest
 ---
 
 # Pinterest

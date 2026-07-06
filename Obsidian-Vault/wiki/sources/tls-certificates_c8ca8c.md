@@ -1,25 +1,32 @@
 ---
-summary: "This document explains the fundamentals of the Transport Layer Security protocol, which secures internet communication. It details how [[concepts/tls]] prevents eavesdropping and impersonat..."
+summary: This document explains the fundamentals of the Transport Layer Security protocol, which secures internet communication. It details how [[concepts/tls]] prevents eavesdropping and impersonat...
 type: source
-title: "How TLS works? - Summary"
-created: "2026-06-30"
-updated: "2026-06-30"
+title: How TLS works? - Summary
+created: '2026-06-30'
+updated: '2026-06-30'
 lifecycle: draft
 base_confidence: 0.7
-source_file: ""
+source_file: ''
 tags:
-  - TLS
-  - TLS Certificates
-  - Symmetric Encryption
-  - Asymmetric Encryption
-  - TLS Handshake
-  - Public Key Infrastructure
-  - Certificate Authority
+- TLS
+- TLS Certificates
+- Symmetric Encryption
+- Asymmetric Encryption
+- TLS Handshake
+- Public Key Infrastructure
+- Certificate Authority
 aliases:
-  - TLS Primer
-  - How TLS Works
-contentHash: "e41-42ba1b11"
-generation_complete: True
+- TLS Primer
+- How TLS Works
+contentHash: e41-42ba1b11
+generation_complete: true
+category: sources
+sources: []
+tier: supporting
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
 ---
 # How TLS works? - Summary
 

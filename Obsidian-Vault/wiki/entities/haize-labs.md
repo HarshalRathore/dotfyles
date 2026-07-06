@@ -1,24 +1,31 @@
 ---
-title: "Haize Labs"
+title: Haize Labs
 category: entities
-tags: [company, ai-reliability, fuzz-testing, qa, evaluation, property-based-testing, haize]
-summary: "Company founded by Leonard Tang focused on AI reliability through property-based testing and fuzz testing. Positions itself as a QA/eval company that pressure-tests AI systems before production deployment."
+tags:
+- company
+- ai-reliability
+- fuzz-testing
+- qa
+- evaluation
+- property-based-testing
+- haize
+summary: Company founded by Leonard Tang focused on AI reliability through property-based testing and fuzz testing. Positions itself as a QA/eval company that pressure-tests AI systems before production dep...
 sources:
-  - "[[sources/watchv=omgpvw8tbhc]]"
+- 'https://www.youtube.com/watch?v=omgpvw8tbhc'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/fuzz-testing-ai]]"
-    type: implements
-  - target: "[[entities/leonard-tang]]"
-    type: founded_by
+- target: '[[concepts/fuzz-testing-ai]]'
+  type: implements
+- target: '[[entities/leonard-tang]]'
+  type: founded_by
 ---
 
 # Haize Labs

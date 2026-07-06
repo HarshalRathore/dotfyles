@@ -1,15 +1,15 @@
 ---
-title: "AI Daily Brief"
+title: AI Daily Brief
 category: entities
 tags:
-  - podcast
-  - ai-news
-  - daily-analysis
+- podcast
+- ai-news
+- daily-analysis
 aliases:
-  - The AI Daily Brief
-  - AIDailyBrief
+- The AI Daily Brief
+- AIDailyBrief
 sources:
-  - "AIEF2025 - AI Consulting in Practice – NLW, Superintelligent, @AIDailyBrief - https://www.youtube.com/watch?v=ehQFj6VmuI8"
+- AIEF2025 - AI Consulting in Practice – NLW, Superintelligent, @AIDailyBrief - https://www.youtube.com/watch?v=ehQFj6VmuI8
 provenance:
   extracted: 0.95
   inferred: 0.03
@@ -21,10 +21,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/nlw|NLW]]"
-    type: hosted-by
-  - target: "[[entities/superintelligent|Superintelligent]]"
-    type: related-to
+- target: '[[entities/nlw|NLW]]'
+  type: hosted-by
+- target: '[[entities/superintelligent|Superintelligent]]'
+  type: related-to
+summary: AI Daily Brief
 ---
 
 # AI Daily Brief

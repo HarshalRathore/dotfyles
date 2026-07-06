@@ -1,30 +1,42 @@
 ---
-summary: "This source provides a concise overview of Kubernetes autoscaling fundamentals, covering the distinction between [[concepts/vertical-scaling]] and "
+summary: 'This source provides a concise overview of Kubernetes autoscaling fundamentals, covering the distinction between [[concepts/vertical-scaling]] and '
 tags:
-  - Horizontal Scaling
-  - Vertical Scaling
-  - Horizontal Pod Autoscaler
-  - Vertical Pod Autoscaler
-  - "In-Place Pod Vertical Scaling"
-  - Scaling
-  - Cluster Autoscaler
-  - Workload Scaling
-  - Cluster Scaling
-  - Manual Scaling
-  - Automated Scaling
-  - Resource Requests
-  - Resource Limits
-  - Stateful Workloads
-  - Stateless Services
-  - Recommender
-  - Updater
-  - Admission Controller
-  - updatePolicy.mode
+- Horizontal Scaling
+- Vertical Scaling
+- Horizontal Pod Autoscaler
+- Vertical Pod Autoscaler
+- In-Place Pod Vertical Scaling
+- Scaling
+- Cluster Autoscaler
+- Workload Scaling
+- Cluster Scaling
+- Manual Scaling
+- Automated Scaling
+- Resource Requests
+- Resource Limits
+- Stateful Workloads
+- Stateless Services
+- Recommender
+- Updater
+- Admission Controller
+- updatePolicy.mode
 aliases:
-  - K8s Autoscaling Notes
-  - Kubernetes Scaling Quick Reference
-contentHash: "c0b-58aa9aa6"
-generation_complete: True
+- K8s Autoscaling Notes
+- Kubernetes Scaling Quick Reference
+contentHash: c0b-58aa9aa6
+generation_complete: true
+title: 'Kubernetes Autoscaling: Quick-Recall Notes - Summary'
+category: sources
+sources: []
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+created: '2026-07-02T13:38:50.547021+00:00'
+updated: '2026-07-02T13:38:50.547021+00:00'
 ---
 # Kubernetes Autoscaling: Quick-Recall Notes - Summary
 

@@ -1,18 +1,18 @@
 ---
-title: "Shared Timeline"
+title: Shared Timeline
 category: concepts
 tags:
-  - ai
-  - human-ai-collaboration
-  - agentic
-  - windsurf
-  - workflow
-  - timeline
-summary: "A mental model where the human developer and AI agent share a single timeline of actions and context, enabling the AI to anticipate needs and act seamlessly across the full software engineering workflow."
+- ai
+- human-ai-collaboration
+- agentic
+- windsurf
+- workflow
+- timeline
+summary: A mental model where the human developer and AI agent share a single timeline of actions and context, enabling the AI to anticipate needs and act seamlessly across the full software engineering wor...
 sources:
-  - "[[sources/watchv=jvunpl5qo8q]]"
+- 'https://www.youtube.com/watch?v=jvunpl5qo8q'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.65

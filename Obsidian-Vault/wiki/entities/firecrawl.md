@@ -1,11 +1,11 @@
 ---
-title: "Firecrawl"
+title: Firecrawl
 category: entities
 tags:
-  - web-crawling
-  - parsing
-  - vendor
-  - markdown-output
+- web-crawling
+- parsing
+- vendor
+- markdown-output
 summary: Firecrawl is a web crawling service that converts websites into structured markdown. Selected by 11x for Alice's knowledge base website parsing.
 provenance:
   extracted: 0.95
@@ -18,10 +18,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/parsing]]"
-    type: implements
-  - target: "[[entities/alice-ai-sdr]]"
-    type: uses
+- target: '[[concepts/parsing]]'
+  type: implements
+- target: '[[entities/alice-ai-sdr]]'
+  type: uses
+sources: []
 ---
 
 # Firecrawl

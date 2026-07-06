@@ -1,23 +1,24 @@
 ---
-title: "HumanLayer"
+title: HumanLayer
 tags:
-  - company
-  - infrastructure
-  - agents
-  - human-in-the-loop
-  - opensource
+- company
+- infrastructure
+- agents
+- human-in-the-loop
+- opensource
 sources:
-  - "[[sources/watchv=8kmatybvduw]]"
-summary: "Company building open-source infrastructure for agent-to-human communication, including the A2H (Agent-to-Human) Protocol. Founded by Dex Horthy, creator of the 12-Factor Agents framework."
+- 'https://www.youtube.com/watch?v=8kmatybvduw'
+summary: Company building open-source infrastructure for agent-to-human communication, including the A2H (Agent-to-Human) Protocol. Founded by Dex Horthy, creator of the 12-Factor Agents framework.
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # HumanLayer

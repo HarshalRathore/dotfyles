@@ -4,7 +4,7 @@ category: concepts
 tags: [ai-creative-tools, content-generation, creative-suite, ai-design, studio-tools]
 summary: "AI-powered creative tooling for studios and content creators, enabling mass generation and management of personalized creative content at scale (millions of images per day)."
 sources:
-  - "[[sources/watchv=l8-5ezsoi5a]]"
+  - "https://www.youtube.com/watch?v=l8-5ezsoi5a"
 provenance:
   extracted: 0.9
   inferred: 0.1

@@ -1,18 +1,18 @@
 ---
-title: "Stop AI slop: Run evals with LLM-as-a-Judge"
+title: 'Stop AI slop: Run evals with LLM-as-a-Judge'
 category: misc
 tags:
-  - ai
-  - evals
-  - llm
-  - observability
-  - product-engineering
+- ai
+- evals
+- llm
+- observability
+- product-engineering
 sources:
-  - "[[sources/stop-ai-slop]]"
+- '[[sources/stop-ai-slop]]'
 source_url: https://posthog.com/blog/stop-ai-slop
-created: 2026-06-30T23:50:00Z
-updated: 2026-06-30T23:50:00Z
-summary: PostHog guide to AI evaluations using LLM-as-a-Judge — why manual review doesn't scale, how to write evals, five pre-built templates, and the AI product improvement loop connecting observability, session replay, and analytics.
+created: 2026-06-30 23:50:00+00:00
+updated: 2026-06-30 23:50:00+00:00
+summary: PostHog guide to AI evaluations using LLM-as-a-Judge — why manual review doesn't scale, how to write evals, five pre-built templates, and the AI product improvement loop connecting observability, s...
 affinity: {}
 promotion_status: misc
 stub: false
@@ -23,6 +23,7 @@ provenance:
 base_confidence: 0.45
 lifecycle: draft
 lifecycle_changed: 2026-06-30
+tier: supporting
 ---
 
 # Stop AI slop: Run evals with LLM-as-a-Judge
@@ -59,7 +60,7 @@ PostHog's guide to running AI evaluations using LLM-as-a-Judge — using one lan
 
 ## Entities
 
-- [[posthog]] — The company behind this guide and the eval tool described
+- [[entities/posthog]] — The company behind this guide and the eval tool described
 
 ## Open Questions
 
@@ -69,5 +70,5 @@ PostHog's guide to running AI evaluations using LLM-as-a-Judge — using one lan
 
 ## Related
 
-- [[web-posthog-com-newsletter-loops]] — PostHog's newsletter on engineering loops covers the broader agent-loop context that evals plug into
-- [[web-github-com-karpathy-autoresearch]] — The autoresearch pattern uses evaluation (benchmark improvement) as its core loop; evals are a general-purpose version of the same idea
+- [[misc/web-posthog-com-newsletter-loops]] — PostHog's newsletter on engineering loops covers the broader agent-loop context that evals plug into
+- [[misc/web-github-com-karpathy-autoresearch]] — The autoresearch pattern uses evaluation (benchmark improvement) as its core loop; evals are a general-purpose version of the same idea

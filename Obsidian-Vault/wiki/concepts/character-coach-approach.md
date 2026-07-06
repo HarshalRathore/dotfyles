@@ -1,23 +1,24 @@
 ---
-title: "Character Coach Approach"
+title: Character Coach Approach
 tags:
-  - agent
-  - ai
-  - design
-  - personality
-  - prompt-engineering
+- agent
+- ai
+- design
+- personality
+- prompt-engineering
 sources:
-  - "[[sources/watchv=cimvknx-cni]]"
-summary: "Design methodology for AI agents: instead of controlling outputs (editing copy, policing word choice), coach the agent's character — build out its nature, personality, and behavioral tendencies."
+- 'https://www.youtube.com/watch?v=cimvknx-cni'
+summary: 'Design methodology for AI agents: instead of controlling outputs (editing copy, policing word choice), coach the agent''s character — build out its nature, personality, and behavioral tendencies.'
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Character Coach Approach

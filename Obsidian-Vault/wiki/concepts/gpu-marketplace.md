@@ -1,36 +1,37 @@
 ---
-title: "GPU Marketplace"
+title: GPU Marketplace
 category: concepts
 tags:
-  - gpu
-  - marketplace
-  - compute
-  - ai-infrastructure
-  - resource-allocation
-  - aief2025
+- gpu
+- marketplace
+- compute
+- ai-infrastructure
+- resource-allocation
+- aief2025
 aliases:
-  - GPU marketplace
-  - GPU aggregation layer
-  - compute marketplace
+- GPU marketplace
+- GPU aggregation layer
+- compute marketplace
 sources:
-  - "[[sources/watchv=m6vbaig1tsm]]"
+- 'https://www.youtube.com/watch?v=m6vbaig1tsm'
 provenance:
   extracted: 0.85
   inferred: 0.15
-  ambiguous: 0.00
-base_confidence: 0.80
+  ambiguous: 0.0
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/gpu-utilization|GPU Utilization]]"
-    type: derived_from
-  - target: "[[concepts/gpu-commoditization|GPU Commoditization]]"
-    type: extends
-  - target: "[[concepts/compute-allocation|Compute Allocation]]"
-    type: related_to
+- target: '[[concepts/gpu-utilization|GPU Utilization]]'
+  type: derived_from
+- target: '[[concepts/gpu-commoditization|GPU Commoditization]]'
+  type: extends
+- target: '[[concepts/compute-allocation|Compute Allocation]]'
+  type: related_to
+summary: GPU Marketplace
 ---
 
 # GPU Marketplace

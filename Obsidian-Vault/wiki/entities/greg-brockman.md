@@ -1,18 +1,18 @@
 ---
-title: "Greg Brockman"
+title: Greg Brockman
 category: entities
 tags:
-  - person
-  - co-founder
-  - openai
-  - stripe
-  - cto
+- person
+- co-founder
+- openai
+- stripe
+- cto
 aliases:
-  - Greg Brockman
+- Greg Brockman
 sources:
-  - "AIEF2025 - #define AI Engineer - Greg Brockman, OpenAI (ft. Jensen Huang) - https://www.youtube.com/watch?v=avWhreBUYF0"
+- 'AIEF2025 - #define AI Engineer - Greg Brockman, OpenAI (ft. Jensen Huang) - https://www.youtube.com/watch?v=avWhreBUYF0'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -22,12 +22,13 @@ tier: core
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/openai|OpenAI]]"
-    type: co-founded
-  - target: "[[entities/stripe|Stripe]]"
-    type: first-cto
-  - target: "[[entities/sam-altman|Sam Altman]]"
-    type: colleague
+- target: '[[entities/openai|OpenAI]]'
+  type: co-founded
+- target: '[[entities/stripe|Stripe]]'
+  type: first-cto
+- target: '[[entities/sam-altman|Sam Altman]]'
+  type: colleague
+summary: Greg Brockman
 ---
 
 # Greg Brockman

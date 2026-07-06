@@ -1,26 +1,27 @@
 ---
-title: "Terminal-First Design"
+title: Terminal-First Design
 tags:
-  - design-philosophy
-  - terminal
-  - developer-tools
-  - ux
-  - aief2025
+- design-philosophy
+- terminal
+- developer-tools
+- ux
+- aief2025
 aliases:
-  - terminal-first
-  - terminal-first-ux
+- terminal-first
+- terminal-first-ux
 sources:
-  - "[[sources/watchv=lue8k2jqfkk]]"
-summary: "A design philosophy that starts with the terminal as the primary interface, providing low-level access to AI models while remaining productive. Used by Claude Code as a response to rapid model evolution."
+- 'https://www.youtube.com/watch?v=lue8k2jqfkk'
+summary: A design philosophy that starts with the terminal as the primary interface, providing low-level access to AI models while remaining productive. Used by Claude Code as a response to rapid model evol...
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+category: concepts
 ---
 
 # Terminal-First Design

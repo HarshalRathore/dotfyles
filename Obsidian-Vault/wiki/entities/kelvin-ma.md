@@ -1,29 +1,30 @@
 ---
-title: "Kelvin Ma"
+title: Kelvin Ma
 tags:
-  - person
-  - google
-  - computer-vision
-  - on-device-ml
+- person
+- google
+- computer-vision
+- on-device-ml
 aliases:
-  - Kelvin Ma Google Photos
+- Kelvin Ma Google Photos
 relationships:
-  - target: "[[entities/google-photos]]"
-    type: related_to
-  - target: "[[entities/google-deepmind]]"
-    type: related_to
+- target: '[[entities/google-photos]]'
+  type: related_to
+- target: '[[entities/google-deepmind]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=c13jifwnuo8]]"
-summary: "Engineer on Google Photos editing team (Computational Photography Team, est. 2018), presented on-device ML architecture powering Google Photos editing at AI Engineer World's Fair 2025."
+- 'https://www.youtube.com/watch?v=c13jifwnuo8'
+summary: Engineer on Google Photos editing team (Computational Photography Team, est. 2018), presented on-device ML architecture powering Google Photos editing at AI Engineer World's Fair 2025.
 provenance:
-  extracted: 0.60
-  inferred: 0.30
-  ambiguous: 0.10
+  extracted: 0.6
+  inferred: 0.3
+  ambiguous: 0.1
 base_confidence: 0.45
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Kelvin Ma

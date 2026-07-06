@@ -11,7 +11,7 @@ tags:
   - clinical
 summary: "AI-powered documentation that automatically captures and structures clinical notes from patient encounters, reducing the administrative burden on doctors."
 sources:
-  - "[[sources/watchv=tquusn1qsws]]"
+  - "https://www.youtube.com/watch?v=tquusn1qsws"
 provenance:
   extracted: 0.7
   inferred: 0.3

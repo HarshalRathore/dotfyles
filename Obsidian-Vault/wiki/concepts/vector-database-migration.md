@@ -1,23 +1,36 @@
 ---
 title: Vector Database Migration
-tags: [vector-database, migration, embeddings, search-infrastructure, pgvector, puffer]
-aliases: [vector database migration, embedding storage migration]
-summary: "Patterns for migrating vector search infrastructure — from PG Vector on GCP to specialized vector databases like Turbo Puffer, and from OpenAI embeddings to domain-optimized providers like Cohere."
-sources: ["[[sources/aief2025-building-the-platform-for-agent-coordination-—-tom-moor]]", "[[sources/watchv=ug9iadmi2dg]]"]
+tags:
+- vector-database
+- migration
+- embeddings
+- search-infrastructure
+- pgvector
+- puffer
+aliases:
+- vector database migration
+- embedding storage migration
+summary: Patterns for migrating vector search infrastructure — from PG Vector on GCP to specialized vector databases like Turbo Puffer, and from OpenAI embeddings to domain-optimized providers like Cohere.
+sources:
+- '[[sources/aief2025-building-the-platform-for-agent-coordination-—-tom-moor]]'
+- 'https://www.youtube.com/watch?v=ug9iadmi2dg'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
-created: 2026-07-04T00:00:00Z
-updated: 2026-07-04T00:00:00Z
+created: 2026-07-04 00:00:00+00:00
+updated: 2026-07-04 00:00:00+00:00
 relationships:
-  - target: [[concepts/hybrid-search|Hybrid Search]]
-    type: related_to
-  - target: [[concepts/pragmatic-ai|Pragmatic AI]]
-    type: related_to
+- target:
+  - - concepts/hybrid-search|Hybrid Search
+  type: related_to
+- target:
+  - - concepts/pragmatic-ai|Pragmatic AI
+  type: related_to
+category: concepts
 ---
 
 # Vector Database Migration

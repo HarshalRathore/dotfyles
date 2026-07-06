@@ -1,37 +1,38 @@
 ---
-title: "LlamaIndex"
+title: LlamaIndex
 tags:
-  - organization
-  - framework
-  - ai
-  - rag
-  - agent
-  - python
-  - typescript
+- organization
+- framework
+- ai
+- rag
+- agent
+- python
+- typescript
 sources:
-  - "[[sources/watchv=72xxwkd8jrk]]"
-  - "AIEF2025 - Building AI Agents that actually automate Knowledge Work - Jerry Liu, LlamaIndex - https://www.youtube.com/watch?v=jVGCulhBRZI"
-summary: "Framework (Python/TypeScript) for building generative AI applications with focus on agents, RAG, and document automation. Offers LlamaParse, LlamaCloud, LlamaHub, Workflows, and GenEI document toolchain with Excel normalization."
+- 'https://www.youtube.com/watch?v=72xxwkd8jrk'
+- AIEF2025 - Building AI Agents that actually automate Knowledge Work - Jerry Liu, LlamaIndex - https://www.youtube.com/watch?v=jVGCulhBRZI
+summary: Framework (Python/TypeScript) for building generative AI applications with focus on agents, RAG, and document automation. Offers LlamaParse, LlamaCloud, LlamaHub, Workflows, and GenEI document tool...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/jerry-liu|Jerry Liu]]"
-    type: related_to
-  - target: "[[entities/llamaparse]]"
-    type: implements
-  - target: "[[concepts/document-toolbox]]"
-    type: implements
-  - target: "[[concepts/genei-document-toolchain]]"
-    type: implements
-  - target: "[[concepts/rag-agent-symbiosis]]"
-    type: implements
+- target: '[[entities/jerry-liu|Jerry Liu]]'
+  type: related_to
+- target: '[[entities/llamaparse]]'
+  type: implements
+- target: '[[concepts/document-toolbox]]'
+  type: implements
+- target: '[[concepts/genei-document-toolchain]]'
+  type: implements
+- target: '[[concepts/rag-agent-symbiosis]]'
+  type: implements
+category: entities
 ---
 
 # LlamaIndex

@@ -1,22 +1,24 @@
 ---
-title: "Building an Agentic Platform — Ben Kus, CTO Box"
+title: Building an Agentic Platform — Ben Kus, CTO Box
 tags:
-  - reference
-  - talk
-  - agent
-  - enterprise
-  - ai
+- reference
+- talk
+- agent
+- enterprise
+- ai
 sources:
-  - "[[sources/watchv=12v5s1n1eoy]]"
-summary: "Conference talk by Ben Kus, CTO of Box, on Box's journey building an agentic platform for enterprise content AI."
+- 'https://www.youtube.com/watch?v=12v5s1n1eoy'
+summary: Conference talk by Ben Kus, CTO of Box, on Box's journey building an agentic platform for enterprise content AI.
 provenance:
-  extracted: 0.90
-  inferred: 0.10
-  ambiguous: 0.00
+  extracted: 0.9
+  inferred: 0.1
+  ambiguous: 0.0
 base_confidence: 0.75
 lifecycle: draft
 created: 2026-07-03
 updated: 2026-07-03
+category: references
+tier: supporting
 ---
 
 # Building an Agentic Platform — Ben Kus, CTO Box

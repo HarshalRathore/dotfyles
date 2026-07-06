@@ -3,8 +3,8 @@ title: "Brett Victor"
 category: entities
 tags: [person, hci, research, interaction-design, programming]
 sources:
-  - "[[sources/watchv=0f8mngpuycy]]"
-  - "[[sources/watchv=bztd0yyagcq]]"
+  - "https://www.youtube.com/watch?v=0f8mngpuycy"
+  - "https://www.youtube.com/watch?v=bztd0yyagcq"
 summary: "HCI researcher known for the principle that 'creators need immediate feedback with what they're creating,' which inspired early GPT-3 interactive coding demos."
 provenance:
   extracted: 0.70

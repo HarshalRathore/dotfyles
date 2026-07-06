@@ -1,10 +1,18 @@
 ---
-title: "AI Evaluation"
+title: AI Evaluation
 category: concepts
-tags: [ai-evaluation, evals, quality-assurance, ai-product-development, metrics]
-aliases: [ai eval, ai evaluation, evaluating ai]
+tags:
+- ai-evaluation
+- evals
+- quality-assurance
+- ai-product-development
+- metrics
+aliases:
+- ai eval
+- ai evaluation
+- evaluating ai
 sources:
-  - "AIEF2025 - Why your product needs an AI product manager, and why it should be you — James Lowe, i.AI - https://www.youtube.com/watch?v=xzJdSi2Tsqw"
+- AIEF2025 - Why your product needs an AI product manager, and why it should be you — James Lowe, i.AI - https://www.youtube.com/watch?v=xzJdSi2Tsqw
 provenance:
   extracted: 0.7
   inferred: 0.3
@@ -16,12 +24,13 @@ tier: core
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/ai-product-manager]]"
-    type: core_skill_of
-  - target: "[[concepts/evaluate-ai-early]]"
-    type: foundation_of
-  - target: "[[concepts/ai-capability-first]]"
-    type: enables
+- target: '[[concepts/ai-product-manager]]'
+  type: core_skill_of
+- target: '[[concepts/evaluate-ai-early]]'
+  type: foundation_of
+- target: '[[concepts/ai-capability-first]]'
+  type: enables
+summary: AI Evaluation
 ---
 
 # AI Evaluation

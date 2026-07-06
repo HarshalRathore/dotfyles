@@ -4,7 +4,7 @@ category: entities
 tags: [ai-hardware, wearable, ai-device, xai-partner, consumer-ai]
 summary: AI hardware company known for the AI Pin wearable; maintains a close partnership with xAI's Grok chip team that Luma AI leverages for exploring alternative inference hardware.
 sources:
-  - "[[sources/watchv=ey4o9m6aswi]]"
+  - "https://www.youtube.com/watch?v=ey4o9m6aswi"
 provenance:
   extracted: 0.80
   inferred: 0.15
@@ -16,9 +16,9 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[grok-ai-chips]]"
+  - target: "[[entities/grok-ai-chips]]"
     type: related_to
-  - target: "[[luma-ai]]"
+  - target: "[[entities/luma-ai]]"
     type: related_to
   - target: "[[xai]]"
     type: related_to

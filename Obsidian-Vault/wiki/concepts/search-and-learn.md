@@ -1,13 +1,19 @@
 ---
-title: "Search and Learn"
+title: Search and Learn
 category: concepts
-tags: [search, learning, ai-research, scaling, rich-sutton, bitter-lesson]
-summary: "The two general methods that Sutton's Bitter Lesson identifies as consistently outperforming domain-knowledge approaches: search (exploring large spaces) and learning (system understanding its environment)."
+tags:
+- search
+- learning
+- ai-research
+- scaling
+- rich-sutton
+- bitter-lesson
+summary: 'The two general methods that Sutton''s Bitter Lesson identifies as consistently outperforming domain-knowledge approaches: search (exploring large spaces) and learning (system understanding its envi...'
 sources:
-  - "The Bitter Lesson — Rich Sutton - https://www.incompleteideas.net/IncIdeas/BitterLesson.html"
-  - "AIEF2025 - On Engineering AI Systems that Endure The Bitter Lesson - Omar Khattab, DSPy & Databricks - https://www.youtube.com/watch?v=qdmxApz3EJI"
+- The Bitter Lesson — Rich Sutton - https://www.incompleteideas.net/IncIdeas/BitterLesson.html
+- AIEF2025 - On Engineering AI Systems that Endure The Bitter Lesson - Omar Khattab, DSPy & Databricks - https://www.youtube.com/watch?v=qdmxApz3EJI
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.85
@@ -17,12 +23,12 @@ tier: core
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/bitter-lesson|The Bitter Lesson]]"
-    type: described_by
-  - target: "[[concepts/inference-time-scaling|Inference-Time Scaling]]"
-    type: maps_to
-  - target: "[[concepts/ai-engineering|AI Engineering]]"
-    type: constrains
+- target: '[[concepts/bitter-lesson|The Bitter Lesson]]'
+  type: described_by
+- target: '[[concepts/inference-time-scaling|Inference-Time Scaling]]'
+  type: maps_to
+- target: '[[concepts/ai-engineering|AI Engineering]]'
+  type: constrains
 ---
 
 # Search and Learn

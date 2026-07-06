@@ -8,7 +8,7 @@ tags:
   - reliability
   - methodology
 sources:
-  - "[[sources/watchv=1__v4ktv_gw]]"
+  - "https://www.youtube.com/watch?v=1__v4ktv_gw"
 summary: "The gap between AI product vision and operational reality where good product concepts fail to reach their potential due to operational challenges rather than technical limitations."
 provenance:
   extracted: 0.80

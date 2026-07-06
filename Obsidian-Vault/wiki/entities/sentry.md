@@ -1,25 +1,28 @@
 ---
-title: "Sentry"
+title: Sentry
 tags:
-  - company
-  - saas
-  - observability
-  - apm
-  - developer-tools
-  - application-monitoring
-aliases: [Sentry.io, getsentry]
+- company
+- saas
+- observability
+- apm
+- developer-tools
+- application-monitoring
+aliases:
+- Sentry.io
+- getsentry
 sources:
-  - "[[sources/watchv=fci4jt86gsw]]"
-summary: "Application monitoring and bug tracking platform. Built a production MCP server exposing curated agent workflows for debugging and root cause analysis."
+- 'https://www.youtube.com/watch?v=fci4jt86gsw'
+summary: Application monitoring and bug tracking platform. Built a production MCP server exposing curated agent workflows for debugging and root cause analysis.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Sentry

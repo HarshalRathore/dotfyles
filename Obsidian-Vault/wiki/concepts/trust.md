@@ -1,16 +1,25 @@
 ---
 type: concept
-title: "Trust"
+title: Trust
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/tls-certificates_c8ca8c]]"
+- '[[sources/tls-certificates_c8ca8c]]'
 tags:
-  - security
+- security
 aliases:
-  - Confidence in Identity
+- Confidence in Identity
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Trust
 ---
 # Trust
 

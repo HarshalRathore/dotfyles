@@ -1,24 +1,32 @@
 ---
-title: "Curl Over Click"
+title: Curl Over Click
 category: concepts
-tags: [curl, api-design, llm-consumption, developer-experience, machine-readable]
-summary: "The principle that LLMs prefer curl commands over interactive UI for API interaction. A curl command encodes HTTP method, JSON payload, credentials, request type, and endpoint — everything an LLM needs in one line."
+tags:
+- curl
+- api-design
+- llm-consumption
+- developer-experience
+- machine-readable
+summary: The principle that LLMs prefer curl commands over interactive UI for API interaction. A curl command encodes HTTP method, JSON payload, credentials, request type, and endpoint — everything an LLM n...
 sources:
-  - "AIEF2025 - Design like Karpathy is watching — Zeke Sikelianos, Replicate - https://www.youtube.com/watch?v=huQPkrwVWwc"
-provenance: { extracted: 0.85, inferred: 0.15, ambiguous: 0.0 }
+- AIEF2025 - Design like Karpathy is watching — Zeke Sikelianos, Replicate - https://www.youtube.com/watch?v=huQPkrwVWwc
+provenance:
+  extracted: 0.85
+  inferred: 0.15
+  ambiguous: 0.0
 base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
-created: 2026-07-04T00:00:00Z
-updated: 2026-07-04T00:00:00Z
+created: 2026-07-04 00:00:00+00:00
+updated: 2026-07-04 00:00:00+00:00
 relationships:
-  - target: "[[concepts/agent-readable-docs|Agent-Readable Docs]]"
-    type: extends
-  - target: "[[concepts/llms-txt|LLMs.txt]]"
-    type: related_to
-  - target: "[[concepts/api-first-design-for-agents|API-First Design for Agents]]"
-    type: related_to
+- target: '[[concepts/agent-readable-docs|Agent-Readable Docs]]'
+  type: extends
+- target: '[[concepts/llms-txt|LLMs.txt]]'
+  type: related_to
+- target: '[[concepts/api-first-design-for-agents|API-First Design for Agents]]'
+  type: related_to
 ---
 
 ## Curl Over Click

@@ -1,15 +1,15 @@
 ---
-title: "Prompt Fallback Infrastructure"
+title: Prompt Fallback Infrastructure
 tags:
-  - ai
-  - architecture
-  - reliability
-  - operations
-  - production
-  - model-management
+- ai
+- architecture
+- reliability
+- operations
+- production
+- model-management
 sources:
-  - "[[sources/watchv=6ydpi9ybjbi]]"
-summary: "The system for managing hundreds of prompts across multiple model providers with config-based fallback mechanisms that account for cost, capability, and latency differences."
+- 'https://www.youtube.com/watch?v=6ydpi9ybjbi'
+summary: The system for managing hundreds of prompts across multiple model providers with config-based fallback mechanisms that account for cost, capability, and latency differences.
 provenance:
   extracted: 0.68
   inferred: 0.27
@@ -19,6 +19,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Prompt Fallback Infrastructure

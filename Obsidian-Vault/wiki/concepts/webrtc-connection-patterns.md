@@ -1,31 +1,32 @@
 ---
-title: "WebRTC Connection Patterns"
+title: WebRTC Connection Patterns
 category: concepts
 tags:
-  - web-rtc
-  - networking
-  - peer-to-peer
-  - edge-to-cloud
-  - multi-party
-  - real-time
+- web-rtc
+- networking
+- peer-to-peer
+- edge-to-cloud
+- multi-party
+- real-time
 sources:
-  - "[[sources/watchv=e71ytnbcfxy]]"
+- 'https://www.youtube.com/watch?v=e71ytnbcfxy'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/web-rtc]]"
-    type: related_to
-  - target: "[[concepts/edge-to-cloud]]"
-    type: related_to
-  - target: "[[entities/pipe-cat]]"
-    type: related_to
+- target: '[[concepts/web-rtc]]'
+  type: related_to
+- target: '[[concepts/edge-to-cloud]]'
+  type: related_to
+- target: '[[entities/pipe-cat]]'
+  type: related_to
+summary: WebRTC Connection Patterns
 ---
 
 # WebRTC Connection Patterns

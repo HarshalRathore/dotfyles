@@ -1,36 +1,37 @@
 ---
-title: "Scaling Laws"
+title: Scaling Laws
 category: concepts
 tags:
-  - scaling-laws
-  - scaling
-  - llm
-  - model-training
+- scaling-laws
+- scaling
+- llm
+- model-training
 aliases:
-  - scaling laws
+- scaling laws
 sources:
-  - "[[sources/watchv=u0s6cfzay5c]]"
-  - "AIEF2025 - Waymo's EMMA: Teaching Cars to Think - Jyh Jing Hwang, Waymo - https://www.youtube.com/watch?v=iS9YFW28XyM"
+- 'https://www.youtube.com/watch?v=u0s6cfzay5c'
+- 'AIEF2025 - Waymo''s EMMA: Teaching Cars to Think - Jyh Jing Hwang, Waymo - https://www.youtube.com/watch?v=iS9YFW28XyM'
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/360brew]]"
-    type: demonstrated_by
-  - target: "[[concepts/data-scaling-recommendation]]"
-    type: related_to
-  - target: "[[concepts/model-size-scaling]]"
-    type: related_to
-  - target: "[[concepts/context-length-scaling]]"
-    type: related_to
-  - target: "[[entities/waymo]]"
-    type: demonstrated_by
+- target: '[[concepts/360brew]]'
+  type: demonstrated_by
+- target: '[[concepts/data-scaling-recommendation]]'
+  type: related_to
+- target: '[[concepts/model-size-scaling]]'
+  type: related_to
+- target: '[[concepts/context-length-scaling]]'
+  type: related_to
+- target: '[[entities/waymo]]'
+  type: demonstrated_by
+summary: Scaling Laws
 ---
 # Scaling Laws
 

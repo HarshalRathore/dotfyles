@@ -1,17 +1,20 @@
 ---
-title: "Agentic Mesh"
+title: Agentic Mesh
 category: concepts
 tags:
-  - ai-agents
-  - mcp
-  - agent-communication
-  - agentic-economy
-  - interop
-aliases: [agentic mesh, agent mesh, agent communication fabric]
+- ai-agents
+- mcp
+- agent-communication
+- agentic-economy
+- interop
+aliases:
+- agentic mesh
+- agent mesh
+- agent communication fabric
 sources:
-  - "AIEF2025 - The rise of the agentic economy on the shoulders of MCP — Jan Curn, Apify - https://www.youtube.com/watch?v=blW-lSd5CYQ"
+- AIEF2025 - The rise of the agentic economy on the shoulders of MCP — Jan Curn, Apify - https://www.youtube.com/watch?v=blW-lSd5CYQ
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -21,12 +24,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/the-agentic-economy]]"
-    type: enables
-  - target: "[[concepts/mcp-as-agent-tools|MCP as Agent Tool Layer]]"
-    type: implemented_by
-  - target: "[[concepts/emergent-intelligence]]"
-    type: instance_of
+- target: '[[concepts/the-agentic-economy]]'
+  type: enables
+- target: '[[concepts/mcp-as-agent-tools|MCP as Agent Tool Layer]]'
+  type: implemented_by
+- target: '[[concepts/emergent-intelligence]]'
+  type: instance_of
+summary: Agentic Mesh
 ---
 
 # Agentic Mesh

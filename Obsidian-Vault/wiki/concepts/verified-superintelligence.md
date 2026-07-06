@@ -1,13 +1,13 @@
 ---
-title: "Verified Superintelligence"
+title: Verified Superintelligence
 tags:
-  - ai
-  - safety
-  - reasoning
-  - verification
+- ai
+- safety
+- reasoning
+- verification
 sources:
-  - "[[sources/watchv=2goss66xrbk]]"
-summary: "Approach to building AI systems that use formal verification software and symbolic methods to reflect upon and improve their own reasoning, producing algorithmically checkable outputs."
+- 'https://www.youtube.com/watch?v=2goss66xrbk'
+summary: Approach to building AI systems that use formal verification software and symbolic methods to reflect upon and improve their own reasoning, producing algorithmically checkable outputs.
 provenance:
   extracted: 0.65
   inferred: 0.22
@@ -17,6 +17,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 # Verified Superintelligence
 

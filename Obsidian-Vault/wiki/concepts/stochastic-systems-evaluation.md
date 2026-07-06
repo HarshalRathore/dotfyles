@@ -1,20 +1,20 @@
 ---
-title: "Stochastic Systems Evaluation"
+title: Stochastic Systems Evaluation
 category: concepts
 tags:
-  - evals
-  - stochastic
-  - search
-  - non-deterministic
-  - evaluation-methodology
+- evals
+- stochastic
+- search
+- non-deterministic
+- evaluation-methodology
 aliases:
-  - evaluating-stochastic-systems
+- evaluating-stochastic-systems
 sources:
-  - "AIEF2025 - [Full Workshop] Building Metrics that actually work — David Karam, Pi Labs (fmr Google Search) - https://www.youtube.com/watch?v=jxrGodnopHo"
+- AIEF2025 - [Full Workshop] Building Metrics that actually work — David Karam, Pi Labs (fmr Google Search) - https://www.youtube.com/watch?v=jxrGodnopHo
 provenance:
   extracted: 0.85
   inferred: 0.15
-  ambiguous: 0.00
+  ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-04
@@ -22,12 +22,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/eval-driven-development|Eval-Driven Development]]"
-    type: motivates
-  - target: "[[concepts/llm-evaluation-framework|LLM Evaluation Framework]]"
-    type: extends
-  - target: "[[concepts/evals-are-not-unit-tests|Evals Are Not Unit Tests]]"
-    type: relates_to
+- target: '[[concepts/eval-driven-development|Eval-Driven Development]]'
+  type: motivates
+- target: '[[concepts/llm-evaluation-framework|LLM Evaluation Framework]]'
+  type: extends
+- target: '[[concepts/evals-are-not-unit-tests|Evals Are Not Unit Tests]]'
+  type: relates_to
+summary: Stochastic Systems Evaluation
 ---
 
 # Stochastic Systems Evaluation

@@ -1,20 +1,22 @@
 ---
-title: "Dynamic Products"
+title: Dynamic Products
 category: concepts
 tags:
-  - ai
-  - product-strategy
-  - methodology
-  - architecture
-aliases: [crawl-walk-run AI integration, dynamic AI products]
+- ai
+- product-strategy
+- methodology
+- architecture
+aliases:
+- crawl-walk-run AI integration
+- dynamic AI products
 sources:
-  - "[[sources/watchv=pthmdt92qng]]"
-summary: "The North Star for AI product integration: AI features that are deeply and dynamically integrated into the product ecosystem, responsive to environment and user context, achieved through a crawl-walk-run maturity model."
+- 'https://www.youtube.com/watch?v=pthmdt92qng'
+summary: 'The North Star for AI product integration: AI features that are deeply and dynamically integrated into the product ecosystem, responsive to environment and user context, achieved through a crawl-wa...'
 provenance:
   extracted: 0.75
   inferred: 0.22
   ambiguous: 0.03
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-03

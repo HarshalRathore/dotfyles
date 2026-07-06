@@ -20,11 +20,11 @@ relationships:
 
 # AIEF2025 - Excalidraw: AI and Human Whiteboarding Partnership
 
-Christopher Chedeau, creator of [[Excalidraw|excalidraw]], delivered a two-part talk at the AI Engineer World's Fair 2025. The first half covered the origin story of Excalidraw and a framework for thinking about online whiteboarding; the second half detailed AI integration experiments and lessons learned.
+Christopher Chedeau, creator of [[entities/excalidraw|excalidraw]], delivered a two-part talk at the AI Engineer World's Fair 2025. The first half covered the origin story of Excalidraw and a framework for thinking about online whiteboarding; the second half detailed AI integration experiments and lessons learned.
 
 ## Origin Story
 
-Chedeau built Excalidraw on January 1, 2020 — out of frustration while trying to write a blog post. He wanted to use [[Zwibbler|zwibbler]] for illustrations, but the website was down. Instead of waiting, he opened a code sandbox and used [[Rover.js|rover.js]] to build a minimal whiteboard clone. He posted about it on Twitter, and it went viral (200+ likes on the first tweet), sparking community interest that led to Excalidraw's creation. Three months later, COVID forced everyone remote, and Excalidraw unexpectedly became a whiteboarding solution for distributed teams.
+Chedeau built Excalidraw on January 1, 2020 — out of frustration while trying to write a blog post. He wanted to use [[entities/zwibbler|zwibbler]] for illustrations, but the website was down. Instead of waiting, he opened a code sandbox and used rover.js to build a minimal whiteboard clone. He posted about it on Twitter, and it went viral (200+ likes on the first tweet), sparking community interest that led to Excalidraw's creation. Three months later, COVID forced everyone remote, and Excalidraw unexpectedly became a whiteboarding solution for distributed teams.
 
 ## Physical vs. Virtual Whiteboarding Framework
 
@@ -34,7 +34,7 @@ Chedeau's key conceptual insight: early online whiteboarding tools mapped physic
 
 The second half covered three AI experiments:
 
-1. **Image-to-beach transformation**: Gorkem at [[File AI|file-ai]] built a model that turns Excalidraw diagrams with natural elements (palm trees, sun) into photorealistic beach scenes. Chedeau called it "mind-blowing" but noted a critical product lesson: people don't draw realistic images on Excalidraw — they draw diagrams. Just because a model exists doesn't mean it should be in your product.
+1. **Image-to-beach transformation**: Gorkem at [[entities/file-ai|file-ai]] built a model that turns Excalidraw diagrams with natural elements (palm trees, sun) into photorealistic beach scenes. Chedeau called it "mind-blowing" but noted a critical product lesson: people don't draw realistic images on Excalidraw — they draw diagrams. Just because a model exists doesn't mean it should be in your product.
 
 2. **Diagram generation with LLMs**: Attempting to have LLMs generate Excalidraw diagrams produced poor results — no resemblance to the intended content. The gap between what AI can generate and what users actually need for diagramming was too wide.
 

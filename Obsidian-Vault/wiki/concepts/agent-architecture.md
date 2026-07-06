@@ -1,26 +1,26 @@
 ---
-title: "Agent Architecture"
+title: Agent Architecture
 category: concepts
 tags:
-  - agent-architecture
-  - agents
-  - ai-agents
-  - agent-design
-  - client-server
-  - workflow-engine
-  - tool-calling
+- agent-architecture
+- agents
+- ai-agents
+- agent-design
+- client-server
+- workflow-engine
+- tool-calling
 aliases:
-  - agent design
-  - agent components
-  - agent framework
+- agent design
+- agent components
+- agent framework
 sources:
- - "AIEF2025 - Building Agents (the hard parts!) - Rita Kozlov, Cloudflare - https://www.youtube.com/watch?v=j_TKDweOsYE"
- - "AIEF2025 - Building AI Agents that actually automate Knowledge Work - Jerry Liu, LlamaIndex - https://www.youtube.com/watch?v=jVGCulhBRZI"
- - "AIEF2025 - Software Development Agents: What Works and What Doesn't - Robert Brennan, OpenHands - https://www.youtube.com/watch?v=o_hhkJtlbSs"
- - "AIEF2025 - How to Build Planning Agents without losing control - Yogendra Miraje, Factset - https://www.youtube.com/watch?v=sl3icG-IjHo"
-summary: "Four-component framework for building agents: client (human interface), AI reasoning (executive branch), workflows (execution orchestration), and tools (action mechanisms). Complements Jerry Liu's two-layer stack of nice tools and agent architecture."
+- AIEF2025 - Building Agents (the hard parts!) - Rita Kozlov, Cloudflare - https://www.youtube.com/watch?v=j_TKDweOsYE
+- AIEF2025 - Building AI Agents that actually automate Knowledge Work - Jerry Liu, LlamaIndex - https://www.youtube.com/watch?v=jVGCulhBRZI
+- 'AIEF2025 - Software Development Agents: What Works and What Doesn''t - Robert Brennan, OpenHands - https://www.youtube.com/watch?v=o_hhkJtlbSs'
+- AIEF2025 - How to Build Planning Agents without losing control - Yogendra Miraje, Factset - https://www.youtube.com/watch?v=sl3icG-IjHo
+summary: 'Four-component framework for building agents: client (human interface), AI reasoning (executive branch), workflows (execution orchestration), and tools (action mechanisms). Complements Jerry Liu''s...'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -30,16 +30,16 @@ tier: core
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/assistive-vs-automation-agents]]"
-    type: related_to
-  - target: "[[concepts/micro-agents]]"
-    type: related_to
-  - target: "[[concepts/agent-fleet-architecture]]"
-    type: related_to
-  - target: "[[concepts/agent-workflows]]"
-    type: extends
-  - target: "[[concepts/agent-tool-calling]]"
-    type: requires
+- target: '[[concepts/assistive-vs-automation-agents]]'
+  type: related_to
+- target: '[[concepts/micro-agents]]'
+  type: related_to
+- target: '[[concepts/agent-fleet-architecture]]'
+  type: related_to
+- target: '[[concepts/agent-workflows]]'
+  type: extends
+- target: '[[concepts/agent-tool-calling]]'
+  type: requires
 ---
 
 # Agent Architecture

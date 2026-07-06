@@ -1,10 +1,17 @@
 ---
 title: David Vorick
 category: entities
-tags: [person, founder, crypto, solar, aief2025, hf0-residency, glow-labs]
-summary: "Founder of Glow Labs (incentive protocol for solar construction). Previously built Scalia, a cryptocurrency taken from $10K to $3B+ market cap. Raised $30M from Framework and USV. Presented at AIEF2025 HF0 Residency."
+tags:
+- person
+- founder
+- crypto
+- solar
+- aief2025
+- hf0-residency
+- glow-labs
+summary: Founder of Glow Labs (incentive protocol for solar construction). Previously built Scalia, a cryptocurrency taken from $10K to $3B+ market cap. Raised $30M from Framework and USV. Presented at AIEF...
 sources:
-  - "[[sources/watchv=l8-5ezsoi5a]]"
+- 'https://www.youtube.com/watch?v=l8-5ezsoi5a'
 provenance:
   extracted: 0.95
   inferred: 0.05
@@ -15,8 +22,8 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/glow-labs]]"
-    type: implements
+- target: '[[entities/glow-labs]]'
+  type: implements
 ---
 
 # David Vorick

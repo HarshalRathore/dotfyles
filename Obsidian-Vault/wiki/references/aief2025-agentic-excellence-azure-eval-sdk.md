@@ -1,26 +1,30 @@
 ---
-title: "Agentic Excellence: Mastering AI Agent Evals w/ Azure AI Evaluation SDK — Cedric Vidal, Microsoft"
+title: 'Agentic Excellence: Mastering AI Agent Evals w/ Azure AI Evaluation SDK — Cedric Vidal, Microsoft'
 category: references
 tags:
-  - aief2025
-  - evaluation
-  - azure-ai-foundry
-  - azure-ai-eval-sdk
-  - agents
-  - microsoft
-  - multi-modal-evals
-aliases: [Azure AI Evaluation SDK, Agent Evals Azure, Cedric Vidal AIEF2025]
+- aief2025
+- evaluation
+- azure-ai-foundry
+- azure-ai-eval-sdk
+- agents
+- microsoft
+- multi-modal-evals
+aliases:
+- Azure AI Evaluation SDK
+- Agent Evals Azure
+- Cedric Vidal AIEF2025
 sources:
-  - "[[sources/watchv=j4vpq2i0qze]]"
+- 'https://www.youtube.com/watch?v=j4vpq2i0qze'
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: 'Agentic Excellence: Mastering AI Agent Evals w/ Azure AI Evaluation SDK — Cedric Vidal, Microsoft'
 ---
 
 # Agentic Excellence: Mastering AI Agent Evals w/ Azure AI Evaluation SDK — Cedric Vidal, Microsoft

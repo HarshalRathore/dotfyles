@@ -1,20 +1,20 @@
 ---
-title: "Gabber"
+title: Gabber
 category: entities
 tags:
-  - company
-  - startup
-  - voice-ai
-  - consumer-ai
-  - ai-personas
-  - real-time
-  - open-source
-  - orpheus
+- company
+- startup
+- voice-ai
+- consumer-ai
+- ai-personas
+- real-time
+- open-source
+- orpheus
 aliases:
-  - Gabber AI
+- Gabber AI
 summary: Real-time AI personas startup founded by Neil and Jack Dwyer. Focuses on consumer voice AI (companions, therapists, trainers) using self-hosted Orpheus TTS on NVIDIA L40s GPUs at ~$1/hr.
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -24,14 +24,15 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/neil-dwyer]]"
-    type: related_to
-  - target: "[[entities/orpheus-tts]]"
-    type: uses
-  - target: "[[entities/snack]]"
-    type: uses
-  - target: "[[concepts/voice-cloning]]"
-    type: uses
+- target: '[[entities/neil-dwyer]]'
+  type: related_to
+- target: '[[entities/orpheus-tts]]'
+  type: uses
+- target: '[[entities/snack]]'
+  type: uses
+- target: '[[concepts/voice-cloning]]'
+  type: uses
+sources: []
 ---
 
 # Gabber

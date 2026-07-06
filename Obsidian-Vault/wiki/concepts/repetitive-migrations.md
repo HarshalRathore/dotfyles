@@ -1,19 +1,19 @@
 ---
-title: "Repetitive Migrations"
+title: Repetitive Migrations
 category: concepts
 tags:
-  - ai-agents
-  - code-migration
-  - software-engineering
-  - aief2025
+- ai-agents
+- code-migration
+- software-engineering
+- aief2025
 sources:
-  - "[[sources/watchv=mi83but_23o]]"
-summary: "Repetitive code migrations (JS-to-TS, framework upgrades) were the first AI agent use case with product-market fit. They require clear step-by-step execution across thousands of files — tedious for humans, reliable for agents."
+- 'https://www.youtube.com/watch?v=mi83but_23o'
+summary: Repetitive code migrations (JS-to-TS, framework upgrades) were the first AI agent use case with product-market fit. They require clear step-by-step execution across thousands of files — tedious for...
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting

@@ -11,7 +11,7 @@ relationships:
   - target: "[[concepts/company-type-spectrum]]"
     type: related_to
 sources:
-  - "[[sources/watchv=sbuxrluvrwk]]"
+  - "https://www.youtube.com/watch?v=sbuxrluvrwk"
 summary: "The comprehensive set of responsibilities an AI team must handle: use case definition, product integration, ROI measurement, data strategy, workflow refinement, interface building, and go-to-market."
 provenance:
   extracted: 0.95

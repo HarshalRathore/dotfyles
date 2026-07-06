@@ -1,27 +1,28 @@
 ---
-title: "lm-eval-harness"
+title: lm-eval-harness
 tags:
-  - tool
-  - evaluation
-  - benchmarking
-  - llm
-  - open-source
+- tool
+- evaluation
+- benchmarking
+- llm
+- open-source
 aliases:
-  - LM Evaluation Harness
-  - EleutherAI LM Eval Harness
-  - lm_eval
+- LM Evaluation Harness
+- EleutherAI LM Eval Harness
+- lm_eval
 sources:
-  - "[[sources/watchv=89nuzmkokik]]"
-summary: "Open-source framework from EleutherAI for running standardized LLM benchmarks including MMLU-Pro. Supports many eval tasks and allows custom dataset integration via forking."
+- 'https://www.youtube.com/watch?v=89nuzmkokik'
+summary: Open-source framework from EleutherAI for running standardized LLM benchmarks including MMLU-Pro. Supports many eval tasks and allows custom dataset integration via forking.
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.55
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # lm-eval-harness

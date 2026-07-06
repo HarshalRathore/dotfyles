@@ -4,7 +4,7 @@ category: entities
 tags: [person, speaker, mongodb, agent-memory, ai-agents, aief2025]
 summary: "Speaker and representative at MongoDB who presented on architecting agent memory at AI Engineer World's Fair 2025."
 sources:
-  - "[[sources/watchv=w2hvdb4jbjs]]"
+  - "https://www.youtube.com/watch?v=w2hvdb4jbjs"
 provenance:
   extracted: 0.95
   inferred: 0.03

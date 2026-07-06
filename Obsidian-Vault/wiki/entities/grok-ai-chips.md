@@ -4,7 +4,7 @@ category: entities
 tags: [ai-chips, hardware, xai, inference, ml-hardware]
 summary: AI accelerator chips from xAI, explored by Luma AI through a partnership with Humane for Dream Machine inference workloads.
 sources:
-  - "[[sources/watchv=ey4o9m6aswi]]"
+  - "https://www.youtube.com/watch?v=ey4o9m6aswi"
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -16,11 +16,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[humane]]"
+  - target: "[[entities/humane]]"
     type: related_to
-  - target: "[[pytorch]]"
+  - target: "[[entities/pytorch]]"
     type: related_to
-  - target: "[[nvidia]]"
+  - target: "[[entities/nvidia]]"
     type: related_to
 ---
 

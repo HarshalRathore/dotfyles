@@ -1,27 +1,36 @@
 ---
-summary: "Source document covering Kubernetes cluster maintenance strategies including node draining, cordoning, rolling upgrades, and version skew policies."
+summary: Source document covering Kubernetes cluster maintenance strategies including node draining, cordoning, rolling upgrades, and version skew policies.
 type: source
-title: "Kubernetes Node Maintenance and Cluster Upgrade Strategies - Summary"
+title: Kubernetes Node Maintenance and Cluster Upgrade Strategies - Summary
 base_confidence: 0.7
 lifecycle: draft
-source_file: ""
+source_file: ''
 tags:
-  - node drain
-  - node cordon
-  - node uncordon
-  - "pod-eviction-timeout"
-  - kubeadm upgrade
-  - version skew policy
-  - semantic versioning
-  - Release Channel
-  - Supported Upgrade Path
-  - Rolling Upgrade
-  - Pod Eviction
+- node drain
+- node cordon
+- node uncordon
+- pod-eviction-timeout
+- kubeadm upgrade
+- version skew policy
+- semantic versioning
+- Release Channel
+- Supported Upgrade Path
+- Rolling Upgrade
+- Pod Eviction
 aliases:
-  - Kubernetes Cluster Maintenance Guide
-  - "Cluster Maintenance - Draining & OS Upgrades"
-contentHash: "100e-b7c6d340"
-generation_complete: True
+- Kubernetes Cluster Maintenance Guide
+- Cluster Maintenance - Draining & OS Upgrades
+contentHash: 100e-b7c6d340
+generation_complete: true
+category: sources
+sources: []
+tier: supporting
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+created: '2026-07-02T13:38:25.548117+00:00'
+updated: '2026-07-02T13:38:25.548117+00:00'
 ---
 # Kubernetes Node Maintenance and Cluster Upgrade Strategies - Summary
 

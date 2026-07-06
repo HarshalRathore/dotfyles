@@ -1,37 +1,38 @@
 ---
-title: "Simulation-Based Hiring"
+title: Simulation-Based Hiring
 category: concepts
 tags:
-  - hiring
-  - technical-interviews
-  - simulation
-  - ai-recruitment
-  - assessment
+- hiring
+- technical-interviews
+- simulation
+- ai-recruitment
+- assessment
 aliases:
-  - workplace simulation hiring
-  - simulation assessment
-  - real-life hiring simulations
+- workplace simulation hiring
+- simulation assessment
+- real-life hiring simulations
 sources:
-  - "AIEF2025 - How to Hire AI Engineers when EVERYONE is cheating with AI — Beth Glenfield, DevDay - https://www.youtube.com/watch?v=Zqu0VaJw3vo"
+- AIEF2025 - How to Hire AI Engineers when EVERYONE is cheating with AI — Beth Glenfield, DevDay - https://www.youtube.com/watch?v=Zqu0VaJw3vo
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/ai-hiring-trade-offs|AI Hiring Trade-offs]]"
-    type: related_to
-  - target: "[[concepts/agent-as-teammate|Agent as Teammate]]"
-    type: extends
-  - target: "[[concepts/agent-mentoring-model|Agent Mentoring Model]]"
-    type: related_to
-  - target: "[[entities/devday|DevDay]]"
-    type: implements
+- target: '[[concepts/ai-hiring-trade-offs|AI Hiring Trade-offs]]'
+  type: related_to
+- target: '[[concepts/agent-as-teammate|Agent as Teammate]]'
+  type: extends
+- target: '[[concepts/agent-mentoring-model|Agent Mentoring Model]]'
+  type: related_to
+- target: '[[entities/devday|DevDay]]'
+  type: implements
+summary: Simulation-Based Hiring
 ---
 
 # Simulation-Based Hiring

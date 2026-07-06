@@ -1,10 +1,15 @@
 ---
-title: "Bismuth"
+title: Bismuth
 category: entities
-tags: [agent-debugging, bug-detection, github-integration, on-prem, aief2025]
-summary: End-to-end agent debugging solution by Ian Butler. Creates PRs automatically, scans for vulnerabilities, provides reviews. Integrates with GitHub, GitLab, JIRA, and Linear. Supports on-prem deployments.
+tags:
+- agent-debugging
+- bug-detection
+- github-integration
+- on-prem
+- aief2025
+summary: End-to-end agent debugging solution by Ian Butler. Creates PRs automatically, scans for vulnerabilities, provides reviews. Integrates with GitHub, GitLab, JIRA, and Linear. Supports on-prem deploym...
 sources:
-  - "AIEF2025 - How to Improve your Vibe Coding — Ian Butler - https://www.youtube.com/watch?v=g03m-WFEu1U"
+- AIEF2025 - How to Improve your Vibe Coding — Ian Butler - https://www.youtube.com/watch?v=g03m-WFEu1U
 provenance:
   extracted: 0.95
   inferred: 0.05
@@ -16,10 +21,10 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/ian-butler]]"
-    type: created_by
-  - target: "[[concepts/agent-evaluation-pipeline]]"
-    type: implements
+- target: '[[entities/ian-butler]]'
+  type: created_by
+- target: '[[concepts/agent-evaluation-pipeline]]'
+  type: implements
 ---
 
 # Bismuth

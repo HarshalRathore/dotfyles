@@ -1,20 +1,20 @@
 ---
-title: "CISO Approval"
+title: CISO Approval
 category: concepts
 tags:
-  - ciso
-  - security
-  - compliance
-  - enterprise
-  - regulated-industries
-  - architecture
-summary: The enterprise security review process that AI and platform tools must pass before deployment in regulated organizations. The architecture itself — not just the AI models — must satisfy CISO requirements.
+- ciso
+- security
+- compliance
+- enterprise
+- regulated-industries
+- architecture
+summary: The enterprise security review process that AI and platform tools must pass before deployment in regulated organizations. The architecture itself — not just the AI models — must satisfy CISO requir...
 sources:
-  - "AIEF2025 - Building agent fleet architectures your CISO doesn't hate — Lou Bichard, Gitpod - https://www.youtube.com/watch?v=d9rsC6_VLoA"
+- AIEF2025 - Building agent fleet architectures your CISO doesn't hate — Lou Bichard, Gitpod - https://www.youtube.com/watch?v=d9rsC6_VLoA
 provenance:
   extracted: 0.75
   inferred: 0.25
-  ambiguous: 0.00
+  ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-04
@@ -22,14 +22,18 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: [[concepts/agent-fleet-architecture|Agent Fleet Architecture]]
-    type: prerequisite-for
-  - target: [[concepts/data-sovereignty|Data Sovereignty]]
-    type: requires
-  - target: [[concepts/secure-dev-environment|Secure Dev Environment]]
-    type: required-for
-  - target: [[concepts/mcp-compliance-ciso-governance|MCP Compliance & CISO Governance]]
-    type: related_to
+- target:
+  - - concepts/agent-fleet-architecture|Agent Fleet Architecture
+  type: prerequisite-for
+- target:
+  - - concepts/data-sovereignty|Data Sovereignty
+  type: requires
+- target:
+  - - concepts/secure-dev-environment|Secure Dev Environment
+  type: required-for
+- target:
+  - - concepts/mcp-compliance-ciso-governance|MCP Compliance & CISO Governance
+  type: related_to
 ---
 
 # CISO Approval

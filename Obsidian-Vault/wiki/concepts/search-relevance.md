@@ -1,14 +1,20 @@
 ---
-title: "Search Relevance"
+title: Search Relevance
 category: concepts
-tags: [search-relevance, relevance-model, classification, five-point-scale, search-quality, aief2025]
+tags:
+- search-relevance
+- relevance-model
+- classification
+- five-point-scale
+- search-quality
+- aief2025
 aliases:
-  - search relevance
+- search relevance
 sources:
-  - "AIEF2025 - What We Learned from Using LLMs in Pinterest — Mukuntha Narayanan, Han Wang, Pinterest - https://www.youtube.com/watch?v=XdAWgO11zuk"
+- AIEF2025 - What We Learned from Using LLMs in Pinterest — Mukuntha Narayanan, Han Wang, Pinterest - https://www.youtube.com/watch?v=XdAWgO11zuk
 provenance:
   extracted: 0.65
-  inferred: 0.30
+  inferred: 0.3
   ambiguous: 0.05
 base_confidence: 0.72
 lifecycle: draft
@@ -16,14 +22,15 @@ tier: core
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/cross-encoder-relevance-model|Cross-Encoder Relevance Model]]"
-    type: implemented_by
-  - target: "[[concepts/re-ranking|Re-ranking]]"
-    type: used_in
-  - target: "[[concepts/hybrid-search|Hybrid Search]]"
-    type: used_in
-  - target: "[[concepts/search-fulfillment|Search Fulfillment]]"
-    type: measured_by
+- target: '[[concepts/cross-encoder-relevance-model|Cross-Encoder Relevance Model]]'
+  type: implemented_by
+- target: '[[concepts/re-ranking|Re-ranking]]'
+  type: used_in
+- target: '[[concepts/hybrid-search|Hybrid Search]]'
+  type: used_in
+- target: '[[concepts/search-fulfillment|Search Fulfillment]]'
+  type: measured_by
+summary: Search Relevance
 ---
 
 # Search Relevance

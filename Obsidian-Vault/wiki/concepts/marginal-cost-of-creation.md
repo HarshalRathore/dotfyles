@@ -1,27 +1,28 @@
 ---
-title: "Marginal Cost of Creation"
+title: Marginal Cost of Creation
 category: concepts
 tags:
-  - economics
-  - generative-media
-  - marginal-cost
-  - ai-economics
+- economics
+- generative-media
+- marginal-cost
+- ai-economics
 sources:
-  - "[[sources/watchv=p370d8kmlkw]]"
+- 'https://www.youtube.com/watch?v=p370d8kmlkw'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/generative-media]]"
-    type: related_to
-  - target: "[[concepts/hyper-personalized-ads]]"
-    type: enables
+- target: '[[concepts/generative-media]]'
+  type: related_to
+- target: '[[concepts/hyper-personalized-ads]]'
+  type: enables
+summary: Marginal Cost of Creation
 ---
 
 # Marginal Cost of Creation

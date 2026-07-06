@@ -1,24 +1,36 @@
 ---
 title: AI Governance — OMB Memoranda
 category: concepts
-tags: [ai-governance, omb, federal-regulation, fedramp, cnssi-1253, dod-csfc, nist-800-53, ai-policy, government-ai]
-summary: Federal AI governance framework driven by OMB Memoranda M25-21 and M25-22, layered with FedRAMP, DOD CSfC, CNSSI 1253, and NIST SP 800-53 — creating the world's most comprehensive AI compliance regime.
+tags:
+- ai-governance
+- omb
+- federal-regulation
+- fedramp
+- cnssi-1253
+- dod-csfc
+- nist-800-53
+- ai-policy
+- government-ai
+summary: Federal AI governance framework driven by OMB Memoranda M25-21 and M25-22, layered with FedRAMP, DOD CSfC, CNSSI 1253, and NIST SP 800-53 — creating the world's most comprehensive AI compliance reg...
 sources:
-  - "[[sources/watchv=tnsgx36ly0q]]"
-provenance: {extracted: 0.85, inferred: 0.10, ambiguous: 0.05}
+- 'https://www.youtube.com/watch?v=tnsgx36ly0q'
+provenance:
+  extracted: 0.85
+  inferred: 0.1
+  ambiguous: 0.05
 base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
-created: 2026-07-04T12:00:00Z
-updated: 2026-07-04T12:00:00Z
+created: 2026-07-04 12:00:00+00:00
+updated: 2026-07-04 12:00:00+00:00
 relationships:
-  - target: "[[concepts/government-ai-agents]]"
-    type: governs
-  - target: "[[concepts/ai-trust-pillars]]"
-    type: extends
-  - target: "[[concepts/ai-governance-standards]]"
-    type: related_to
+- target: '[[concepts/government-ai-agents]]'
+  type: governs
+- target: '[[concepts/ai-trust-pillars]]'
+  type: extends
+- target: '[[concepts/ai-governance-standards]]'
+  type: related_to
 ---
 
 Federal AI governance in the United States is being rapidly codified through Executive Order implementations and Office of Management and Budget (OMB) Memoranda. As of April 2025, OMB Memoranda M25-21 and M25-22 establish the framework for how federal agencies must approach AI deployment, with a 180-day rulemaking period for agencies to develop their AI strategies.

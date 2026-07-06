@@ -4,7 +4,7 @@ category: entities
 tags: [person, entrepreneur, marketing-tech, aief2025, hf0-residency, coframe]
 summary: "Founder of CoFrame (AI website personalization). Previously scaled a company to over $2B. Co-founder and speaker at AIEF2025 HF0 Residency showcase."
 sources:
-  - "[[sources/watchv=l8-5ezsoi5a]]"
+  - "https://www.youtube.com/watch?v=l8-5ezsoi5a"
 provenance:
   extracted: 0.95
   inferred: 0.05

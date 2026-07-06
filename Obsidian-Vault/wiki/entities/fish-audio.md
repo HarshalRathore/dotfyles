@@ -4,7 +4,7 @@ category: entities
 tags: [company, ai, voice-model, tts, open-source, fish-speech, soviet-svc]
 summary: "Open-source voice AI company behind Fish Speech and Soviet SVC. Grew from $400K to $5.5M ARR in 4 months. Acquired by OpenAudio (Shijia) for $100M valuation. TTS Arena leader."
 sources:
-  - "[[sources/watchv=l8-5ezsoi5a]]"
+  - "https://www.youtube.com/watch?v=l8-5ezsoi5a"
 provenance:
   extracted: 0.9
   inferred: 0.1

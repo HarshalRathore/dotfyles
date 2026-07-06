@@ -1,13 +1,13 @@
 ---
-title: "Live"
+title: Live
 category: entities
 tags:
-  - tool
-  - open-source
-  - voice-ai
-  - framework
+- tool
+- open-source
+- voice-ai
+- framework
 sources:
-  - "[[sources/watchv=e71ytnbcfxy]]"
+- 'https://www.youtube.com/watch?v=e71ytnbcfxy'
 provenance:
   extracted: 0.85
   inferred: 0.15
@@ -18,8 +18,9 @@ tier: peripheral
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/voice-agents]]"
-    type: enables
+- target: '[[concepts/voice-agents]]'
+  type: enables
+summary: Live
 ---
 
 # Live

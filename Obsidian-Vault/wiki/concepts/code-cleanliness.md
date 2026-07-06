@@ -1,22 +1,26 @@
 ---
-title: "Code Cleanliness"
+title: Code Cleanliness
 category: concepts
-tags: [code-cleanliness, code-review, llm-limitations, best-practices]
+tags:
+- code-cleanliness
+- code-review
+- llm-limitations
+- best-practices
 relationships:
-  - target: "[[concepts/bug-taxonomy]]"
-    type: extends
-  - target: "[[concepts/code-review-feedback-quality]]"
-    type: related_to
-  - target: "[[concepts/high-signal-low-noise]]"
-    type: related_to
+- target: '[[concepts/bug-taxonomy]]'
+  type: extends
+- target: '[[concepts/code-review-feedback-quality]]'
+  type: related_to
+- target: '[[concepts/high-signal-low-noise]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=tswqekftnaw]]"
-summary: "Best-practice comments like 'add tests' or 'extract this function' that LLMs can easily generate but humans find frustrating to receive from AI — sitting in the bottom-left quadrant of the bug taxonomy."
+- 'https://www.youtube.com/watch?v=tswqekftnaw'
+summary: Best-practice comments like 'add tests' or 'extract this function' that LLMs can easily generate but humans find frustrating to receive from AI — sitting in the bottom-left quadrant of the bug taxo...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting

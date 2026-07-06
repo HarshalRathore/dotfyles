@@ -1,23 +1,24 @@
 ---
-title: "Reasoning Time Branching"
+title: Reasoning Time Branching
 tags:
-  - ai
-  - agents
-  - infrastructure
-  - reasoning
+- ai
+- agents
+- infrastructure
+- reasoning
 sources:
-  - "[[sources/watchv=2goss66xrbk]]"
-  - "[[sources/watchv=8eqo4j2bwkw]]"
-summary: "Technique where AI agents branch their entire computational environment during reasoning to explore multiple solution paths in parallel, then recombine results against verifiers."
+- 'https://www.youtube.com/watch?v=2goss66xrbk'
+- 'https://www.youtube.com/watch?v=8eqo4j2bwkw'
+summary: Technique where AI agents branch their entire computational environment during reasoning to explore multiple solution paths in parallel, then recombine results against verifiers.
 provenance:
   extracted: 0.72
   inferred: 0.18
-  ambiguous: 0.10
+  ambiguous: 0.1
 base_confidence: 0.42
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 # Reasoning Time Branching
 

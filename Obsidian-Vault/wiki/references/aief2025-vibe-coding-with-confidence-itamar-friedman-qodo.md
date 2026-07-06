@@ -1,20 +1,20 @@
 ---
-title: "AIEF2025 — Vibe Coding with Confidence (Itamar Friedman, Qodo)"
+title: AIEF2025 — Vibe Coding with Confidence (Itamar Friedman, Qodo)
 category: references
 tags:
-  - aief2025
-  - vibe-coding
-  - cli
-  - itamar-friedman
-  - qodo
-  - developer-tools
-  - code-review
-  - testing
-  - sdlc
-  - agentic-workflows
-summary: Itamar Friedman, CEO of Qodo, argues CLI is the next interface leader for AI coding tools and that "vibe coding with confidence" — not just vibe coding alone — will be the game-changing shift in software development.
+- aief2025
+- vibe-coding
+- cli
+- itamar-friedman
+- qodo
+- developer-tools
+- code-review
+- testing
+- sdlc
+- agentic-workflows
+summary: Itamar Friedman, CEO of Qodo, argues CLI is the next interface leader for AI coding tools and that "vibe coding with confidence" — not just vibe coding alone — will be the game-changing shift in so...
 sources:
-  - "AIEF2025 - Vibe Coding with Confidence — Itamar Friedman, Qodo - https://www.youtube.com/watch?v=n991Yxo1aOI"
+- AIEF2025 - Vibe Coding with Confidence — Itamar Friedman, Qodo - https://www.youtube.com/watch?v=n991Yxo1aOI
 provenance:
   extracted: 0.98
   inferred: 0.01
@@ -26,18 +26,18 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/vibe-coding-with-confidence|Vibe Coding with Confidence]]"
-    type: primary_topic
-  - target: "[[concepts/ai-developer-tool-generations|AI Developer Tool Generations]]"
-    type: discusses
-  - target: "[[concepts/cli-ai-interface-leader|CLI as AI Interface Leader]]"
-    type: argues_for
-  - target: "[[concepts/sdlc-shift-left-ai|SDLC Shift-Left AI]]"
-    type: discusses
-  - target: "[[entities/itamar-friedman|Itamar Friedman]]"
-    type: presented_by
-  - target: "[[entities/qodo|Qodo]]"
-    type: represents
+- target: '[[concepts/vibe-coding-with-confidence|Vibe Coding with Confidence]]'
+  type: primary_topic
+- target: '[[concepts/ai-developer-tool-generations|AI Developer Tool Generations]]'
+  type: discusses
+- target: '[[concepts/cli-ai-interface-leader|CLI as AI Interface Leader]]'
+  type: argues_for
+- target: '[[concepts/sdlc-shift-left-ai|SDLC Shift-Left AI]]'
+  type: discusses
+- target: '[[entities/itamar-friedman|Itamar Friedman]]'
+  type: presented_by
+- target: '[[entities/qodo|Qodo]]'
+  type: represents
 ---
 
 # AIEF2025 — Vibe Coding with Confidence

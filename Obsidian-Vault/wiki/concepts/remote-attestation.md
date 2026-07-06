@@ -1,16 +1,16 @@
 ---
-title: "Remote Attestation"
+title: Remote Attestation
 tags:
-  - concept
-  - security
-  - trust
-  - cryptography
-  - attestation
+- concept
+- security
+- trust
+- cryptography
+- attestation
 sources:
-  - "[[sources/watchv=ccswz5bjlo8]]"
-summary: "Protocol where a client verifies what software a remote server is running before trusting it with data — the server presents signed claims tied to a public key, and can only decrypt the client's data as long as those claims remain true."
+- 'https://www.youtube.com/watch?v=ccswz5bjlo8'
+summary: Protocol where a client verifies what software a remote server is running before trusting it with data — the server presents signed claims tied to a public key, and can only decrypt the client's da...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.55
@@ -18,6 +18,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Remote Attestation

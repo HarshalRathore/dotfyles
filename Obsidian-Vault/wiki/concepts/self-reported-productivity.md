@@ -1,35 +1,35 @@
 ---
-title: "Self-Reported Productivity"
+title: Self-Reported Productivity
 category: concepts
 tags:
-  - software-engineering
-  - measurement
-  - surveys
-  - productivity
-  - developer-metrics
+- software-engineering
+- measurement
+- surveys
+- productivity
+- developer-metrics
 aliases:
-  - Self-Reported Productivity
-  - Survey-Based Productivity
+- Self-Reported Productivity
+- Survey-Based Productivity
 sources:
-  - "AIEF2025 - Does AI Actually Boost Developer Productivity? (100k Devs Study) - Yegor Denisov-Blanch, Stanford - https://www.youtube.com/watch?v=tbDDYKRFjhk"
-summary: "Self-reported productivity surveys are poor predictors of actual developer productivity. Stanford's study found developers misjudge their productivity by ~30 percentile points, and only 1 in 3 estimate within their quartile."
+- AIEF2025 - Does AI Actually Boost Developer Productivity? (100k Devs Study) - Yegor Denisov-Blanch, Stanford - https://www.youtube.com/watch?v=tbDDYKRFjhk
+summary: Self-reported productivity surveys are poor predictors of actual developer productivity. Stanford's study found developers misjudge their productivity by ~30 percentile points, and only 1 in 3 esti...
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/ai-productivity-measurement|AI Productivity Measurement]]"
-    type: contradicts
-  - target: "[[concepts/commit-based-metrics-limitations|Commit-Based Metrics Limitations]]"
-    type: related_to
-  - target: "[[concepts/ai-developer-productivity|AI Developer Productivity]]"
-    type: related_to
+- target: '[[concepts/ai-productivity-measurement|AI Productivity Measurement]]'
+  type: contradicts
+- target: '[[concepts/commit-based-metrics-limitations|Commit-Based Metrics Limitations]]'
+  type: related_to
+- target: '[[concepts/ai-developer-productivity|AI Developer Productivity]]'
+  type: related_to
 ---
 
 # Self-Reported Productivity

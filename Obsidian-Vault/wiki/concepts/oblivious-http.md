@@ -1,26 +1,27 @@
 ---
-title: "Oblivious HTTP"
+title: Oblivious HTTP
 tags:
-  - concept
-  - privacy
-  - networking
-  - protocol
-  - anonymization
+- concept
+- privacy
+- networking
+- protocol
+- anonymization
 aliases:
-  - OHTTP
-  - Oblivious HTTP
+- OHTTP
+- Oblivious HTTP
 sources:
-  - "[[sources/watchv=ccswz5bjlo8]]"
-summary: "Protocol that anonymizes HTTP requests by routing them through a third-party relay, so the destination server sees only the relay's IP, not the original client's — developed by Cloudflare and Apple."
+- 'https://www.youtube.com/watch?v=ccswz5bjlo8'
+summary: Protocol that anonymizes HTTP requests by routing them through a third-party relay, so the destination server sees only the relay's IP, not the original client's — developed by Cloudflare and Apple.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Oblivious HTTP

@@ -1,17 +1,26 @@
 ---
 type: entity
-title: "Ceph"
+title: Ceph
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/daemonsets_9f31ec]]"
+- '[[sources/daemonsets_9f31ec]]'
 tags:
-  - product
+- product
 aliases:
-  - CephFS
-  - RADOS
+- CephFS
+- RADOS
+category: entities
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Ceph
 ---
 # Ceph
 

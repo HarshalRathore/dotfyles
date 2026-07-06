@@ -1,17 +1,20 @@
 ---
-title: "Weave (W&B)"
+title: Weave (W&B)
 category: entities
 tags:
-  - tool
-  - observability
-  - mcp
-  - weights-and-biases
-  - aief2025
-aliases: [Weave, W&B Weave, weave]
+- tool
+- observability
+- mcp
+- weights-and-biases
+- aief2025
+aliases:
+- Weave
+- W&B Weave
+- weave
 sources:
-  - "[[sources/watchv=lcqat4ip_le]]"
+- 'https://www.youtube.com/watch?v=lcqat4ip_le'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.06
   ambiguous: 0.04
 base_confidence: 0.88
@@ -21,12 +24,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/weights-and-biases]]"
-    type: related_to
-  - target: "[[concepts/mcp-observability]]"
-    type: related_to
-  - target: "[[concepts/open-telemetry]]"
-    type: uses
+- target: '[[entities/weights-and-biases]]'
+  type: related_to
+- target: '[[concepts/mcp-observability]]'
+  type: related_to
+- target: '[[concepts/open-telemetry]]'
+  type: uses
+summary: Weave (W&B)
 ---
 
 # Weave (W&B)

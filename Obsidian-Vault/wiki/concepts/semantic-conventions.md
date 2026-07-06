@@ -1,32 +1,36 @@
 ---
-title: "Semantic Conventions"
+title: Semantic Conventions
 category: concepts
 tags:
-  - semantic-conventions
-  - open-telemetry
-  - observability
-  - mcp
-  - spans
-aliases: [semantic-conventions, semantic convention, semconv]
+- semantic-conventions
+- open-telemetry
+- observability
+- mcp
+- spans
+aliases:
+- semantic-conventions
+- semantic convention
+- semconv
 sources:
-  - "[[sources/watchv=lcqat4ip_le]]"
+- 'https://www.youtube.com/watch?v=lcqat4ip_le'
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/open-telemetry]]"
-    type: uses
-  - target: "[[concepts/gen-ai-semantic-conventions]]"
-    type: extends
-  - target: "[[concepts/mcp-observability]]"
-    type: related_to
+- target: '[[concepts/open-telemetry]]'
+  type: uses
+- target: '[[concepts/gen-ai-semantic-conventions]]'
+  type: extends
+- target: '[[concepts/mcp-observability]]'
+  type: related_to
+summary: Semantic Conventions
 ---
 
 # Semantic Conventions

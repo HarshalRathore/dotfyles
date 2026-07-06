@@ -1,12 +1,21 @@
 ---
-title: "Software vs Policy Debugging"
+title: Software vs Policy Debugging
 category: concepts
-tags: [debugging, robotics, root-cause-analysis, policy, software-system, diagnostics]
-aliases: [robotics debugging, policy vs system debugging, robotics root cause]
+tags:
+- debugging
+- robotics
+- root-cause-analysis
+- policy
+- software-system
+- diagnostics
+aliases:
+- robotics debugging
+- policy vs system debugging
+- robotics root cause
 sources:
-  - "AIEF2025 - Rishabh Garg, Tesla Optimus — Challenges in High Performance Robotics Systems - https://www.youtube.com/watch?v=bCGbuyv8PMk"
+- AIEF2025 - Rishabh Garg, Tesla Optimus — Challenges in High Performance Robotics Systems - https://www.youtube.com/watch?v=bCGbuyv8PMk
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -16,14 +25,15 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/jitter-in-robotics|Jitter in Robotics]]"
-    type: applies_to
-  - target: "[[concepts/cycle-time-plot|Cycle Time Plot]]"
-    type: uses
-  - target: "[[concepts/bus-saturation-overhead|Bus Saturation Overhead]]"
-    type: relates_to
-  - target: "[[concepts/real-world-robotics-data|Real-World Robotics Data]]"
-    type: applies_to
+- target: '[[concepts/jitter-in-robotics|Jitter in Robotics]]'
+  type: applies_to
+- target: '[[concepts/cycle-time-plot|Cycle Time Plot]]'
+  type: uses
+- target: '[[concepts/bus-saturation-overhead|Bus Saturation Overhead]]'
+  type: relates_to
+- target: '[[concepts/real-world-robotics-data|Real-World Robotics Data]]'
+  type: applies_to
+summary: Software vs Policy Debugging
 ---
 
 # Software vs Policy Debugging

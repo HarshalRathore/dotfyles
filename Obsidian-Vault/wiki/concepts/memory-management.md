@@ -4,7 +4,7 @@ category: concepts
 tags: [agent-memory, memory-management, retrieval, generation, storage, integration, forgetting]
 summary: "The systematic process of organizing information in the context window: generation, storage, retrieval, integration, updates, and deletion — with retrieval as the most critical component."
 sources:
-  - "[[sources/watchv=w2hvdb4jbjs]]"
+  - "https://www.youtube.com/watch?v=w2hvdb4jbjs"
 provenance:
   extracted: 0.82
   inferred: 0.13

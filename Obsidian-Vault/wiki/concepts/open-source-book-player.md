@@ -4,7 +4,7 @@ category: concepts
 tags: [open-source, book-player, books, aief2025, thebrain-pro]
 summary: "TheBrain.pro open-sourced its book player at AIEF2025, enabling anyone to create Netflix-style interactive book experiences with AI-generated graphics, music, and voice Q&A."
 sources:
-  - "[[sources/watchv=kcka7rzcxlk]]"
+  - "https://www.youtube.com/watch?v=kcka7rzcxlk"
 provenance: { extracted: 1.0, inferred: 0.0, ambiguous: 0.0 }
 base_confidence: 0.95
 lifecycle: draft

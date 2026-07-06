@@ -1,17 +1,17 @@
 ---
-title: "Benchmark Memes"
+title: Benchmark Memes
 category: concepts
 tags:
-  - benchmark
-  - meme-theory
-  - dawkins
-  - evaluation
-  - llm
-  - aief2025
-summary: "The thesis that benchmarks function as memes in the Dawkins sense — ideas that spread and shape AI model development. A single person's idea about what capability matters can propagate and become the training target for the most powerful tools ever created."
+- benchmark
+- meme-theory
+- dawkins
+- evaluation
+- llm
+- aief2025
+summary: The thesis that benchmarks function as memes in the Dawkins sense — ideas that spread and shape AI model development. A single person's idea about what capability matters can propagate and become t...
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.78
 lifecycle: draft
@@ -20,16 +20,17 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/model-benchmarks|Model Benchmarks]]"
-    type: extends
-  - target: "[[concepts/benchmark-saturation|Benchmark Saturation]]"
-    type: related_to
-  - target: "[[concepts/benchmark-design-principles|Benchmark Design Principles]]"
-    type: related_to
-  - target: "[[entities/alex-duffy|Alex Duffy]]"
-    type: related_to
-  - target: "[[concepts/scenario-tuning-bias|Scenario Tuning Bias]]"
-    type: related_to
+- target: '[[concepts/model-benchmarks|Model Benchmarks]]'
+  type: extends
+- target: '[[concepts/benchmark-saturation|Benchmark Saturation]]'
+  type: related_to
+- target: '[[concepts/benchmark-design-principles|Benchmark Design Principles]]'
+  type: related_to
+- target: '[[entities/alex-duffy|Alex Duffy]]'
+  type: related_to
+- target: '[[concepts/scenario-tuning-bias|Scenario Tuning Bias]]'
+  type: related_to
+sources: []
 ---
 
 # Benchmark Memes

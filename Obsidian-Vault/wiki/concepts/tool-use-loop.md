@@ -9,7 +9,7 @@ tags:
   - api
 category: concepts
 sources:
-  - "[[sources/watchv=r30col3upug]]"
+  - "https://www.youtube.com/watch?v=r30col3upug"
 summary: "The iterative loop where an autoregressive model outputs function calls, tools are invoked, observations are fed back, and the cycle repeats until a final output is produced."
 provenance:
   extracted: 0.92

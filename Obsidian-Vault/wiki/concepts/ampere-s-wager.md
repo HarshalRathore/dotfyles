@@ -11,7 +11,7 @@ relationships:
   - target: "[[concepts/ai-team-anatomy]]"
     type: related_to
 sources:
-  - "[[sources/watchvsbuxrluvrwk]]"
+  - "https://www.youtube.com/watch?v=sbuxrluvrwk"
 summary: "A thought experiment challenging the assumption that more AI research talent is always better: would you trade your domain-knowledgeable team for five top AI researchers?"
 provenance:
   extracted: 0.90

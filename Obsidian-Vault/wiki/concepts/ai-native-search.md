@@ -1,30 +1,38 @@
 ---
 title: AI-Native Search
 category: concepts
-tags: [ai-native-search, ai-agent-search, agent-first-search, exa, ai-native-toolchain]
-aliases: [search for AI, agent search, AI-first search]
-summary: "Search paradigm designed from scratch for AI agents rather than humans. AI agents process vast information, use complex queries, and need dense knowledge retrieval — requiring fundamentally different search algorithms than human-optimized engines."
+tags:
+- ai-native-search
+- ai-agent-search
+- agent-first-search
+- exa
+- ai-native-toolchain
+aliases:
+- search for AI
+- agent search
+- AI-first search
+summary: Search paradigm designed from scratch for AI agents rather than humans. AI agents process vast information, use complex queries, and need dense knowledge retrieval — requiring fundamentally differe...
 sources:
-  - "AIEF2025 - Building a Smarter AI Agent with Neural RAG - Will Bryk, Exa.ai - https://www.youtube.com/watch?v=xnXqpUW_Kp8"
+- AIEF2025 - Building a Smarter AI Agent with Neural RAG - Will Bryk, Exa.ai - https://www.youtube.com/watch?v=xnXqpUW_Kp8
 provenance:
-  extracted: 0.90
-  inferred: 0.10
-  ambiguous: 0.00
-base_confidence: 0.80
+  extracted: 0.9
+  inferred: 0.1
+  ambiguous: 0.0
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/neural-rag]]"
-    type: uses
-  - target: "[[concepts/ai-powered-search]]"
-    type: extends
-  - target: "[[concepts/ai-native-toolchain]]"
-    type: related_to
-  - target: "[[concepts/semantic-vs-lexical-query-patterns]]"
-    type: contrasts
+- target: '[[concepts/neural-rag]]'
+  type: uses
+- target: '[[concepts/ai-powered-search]]'
+  type: extends
+- target: '[[concepts/ai-native-toolchain]]'
+  type: related_to
+- target: '[[concepts/semantic-vs-lexical-query-patterns]]'
+  type: contrasts
 ---
 
 # AI-Native Search

@@ -1,24 +1,25 @@
 ---
-title: "Human-Agent Co-Evolution"
+title: Human-Agent Co-Evolution
 tags:
-  - theory
-  - agents
-  - ai
+- theory
+- agents
+- ai
 aliases:
-  - agent-augmented intelligence
-  - reciprocal intelligence leveling
+- agent-augmented intelligence
+- reciprocal intelligence leveling
 sources:
-  - "[[sources/watchv=dj0b_cebhhi]]"
-summary: "Danielle Perszyk's model of the reciprocal relationship between humans and AI agents: agents learn from humans and redistribute skills across communities, humans teach agents and benefit from agent-discovered knowledge, creating a flywheel of mutual intelligence improvement."
+- 'https://www.youtube.com/watch?v=dj0b_cebhhi'
+summary: 'Danielle Perszyk''s model of the reciprocal relationship between humans and AI agents: agents learn from humans and redistribute skills across communities, humans teach agents and benefit from agent...'
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.55
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Human-Agent Co-Evolution

@@ -1,35 +1,35 @@
 ---
-title: "Commit-Based Metrics Limitations"
+title: Commit-Based Metrics Limitations
 category: concepts
 tags:
-  - software-engineering
-  - metrics
-  - measurement
-  - productivity
-  - developer-metrics
+- software-engineering
+- metrics
+- measurement
+- productivity
+- developer-metrics
 aliases:
-  - Commit Metrics Problems
-  - Why Commits Don't Measure Productivity
+- Commit Metrics Problems
+- Why Commits Don't Measure Productivity
 sources:
-  - "AIEF2025 - Does AI Actually Boost Developer Productivity? (100k Devs Study) - Yegor Denisov-Blanch, Stanford - https://www.youtube.com/watch?v=tbDDYKRFjhk"
-summary: "Commit count, PR count, and time-between-commits are flawed productivity metrics because task size varies. AI often introduces new tasks (bug fixes for AI code), making teams appear more active while spinning wheels."
+- AIEF2025 - Does AI Actually Boost Developer Productivity? (100k Devs Study) - Yegor Denisov-Blanch, Stanford - https://www.youtube.com/watch?v=tbDDYKRFjhk
+summary: Commit count, PR count, and time-between-commits are flawed productivity metrics because task size varies. AI often introduces new tasks (bug fixes for AI code), making teams appear more active whi...
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/ai-productivity-measurement|AI Productivity Measurement]]"
-    type: contradicts
-  - target: "[[concepts/lines-of-code-metrics|Lines of Code Metrics]]"
-    type: related_to
-  - target: "[[concepts/rework-vs-refactoring|Rework vs Refactoring]]"
-    type: related_to
+- target: '[[concepts/ai-productivity-measurement|AI Productivity Measurement]]'
+  type: contradicts
+- target: '[[concepts/lines-of-code-metrics|Lines of Code Metrics]]'
+  type: related_to
+- target: '[[concepts/rework-vs-refactoring|Rework vs Refactoring]]'
+  type: related_to
 ---
 
 # Commit-Based Metrics Limitations

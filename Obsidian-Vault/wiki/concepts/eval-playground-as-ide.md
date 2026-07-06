@@ -1,30 +1,31 @@
 ---
-title: "Eval Playground as IDE"
+title: Eval Playground as IDE
 category: concepts
 tags:
-  - evals
-  - playground
-  - experimentation
-  - braintrust
-  - development-tools
+- evals
+- playground
+- experimentation
+- braintrust
+- development-tools
 sources:
-  - "AIEF2025 - Why should anyone care about Evals? — Manu Goyal, Braintrust - https://www.youtube.com/watch?v=jJ45Yz1lJao"
+- AIEF2025 - Why should anyone care about Evals? — Manu Goyal, Braintrust - https://www.youtube.com/watch?v=jJ45Yz1lJao
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/eval-playground-experiment-workflow|Eval Playground vs Experiments Workflow]]"
-    type: implements
-  - target: "[[concepts/evals-laboratory|Evals as Laboratory]]"
-    type: enables
-  - target: "[[concepts/eval-driven-development|Eval-Driven Development]]"
-    type: supports
+- target: '[[concepts/eval-playground-experiment-workflow|Eval Playground vs Experiments Workflow]]'
+  type: implements
+- target: '[[concepts/evals-laboratory|Evals as Laboratory]]'
+  type: enables
+- target: '[[concepts/eval-driven-development|Eval-Driven Development]]'
+  type: supports
+summary: Eval Playground as IDE
 ---
 
 # Eval Playground as IDE

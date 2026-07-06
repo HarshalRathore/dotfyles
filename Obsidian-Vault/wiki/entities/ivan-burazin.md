@@ -1,34 +1,36 @@
 ---
-title: "Ivan Burazin"
+title: Ivan Burazin
 category: entities
 tags:
-  - person
-  - founder
-  - daytona
-  - agent-experience
-  - ai-agents
-  - aief2025
-  - speaker
-aliases: [Ivan Burazin]
+- person
+- founder
+- daytona
+- agent-experience
+- ai-agents
+- aief2025
+- speaker
+aliases:
+- Ivan Burazin
 sources:
-  - "AIEF2025 - AX is the only Experience that Matters - Ivan Burazin, Daytona - https://www.youtube.com/watch?v=e9sLVMN76qU"
+- AIEF2025 - AX is the only Experience that Matters - Ivan Burazin, Daytona - https://www.youtube.com/watch?v=e9sLVMN76qU
 provenance:
   extracted: 0.95
   inferred: 0.03
   ambiguous: 0.02
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/daytona]]"
-    type: founded
-  - target: "[[concepts/agent-experience]]"
-    type: advocates
-  - target: "[[entities/infobip]]"
-    type: formerly_worked_at
+- target: '[[entities/daytona]]'
+  type: founded
+- target: '[[concepts/agent-experience]]'
+  type: advocates
+- target: '[[entities/infobip]]'
+  type: formerly_worked_at
+summary: Ivan Burazin
 ---
 
 # Ivan Burazin

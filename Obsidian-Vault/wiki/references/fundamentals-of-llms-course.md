@@ -1,24 +1,26 @@
 ---
-title: "Fundamentals of LLMs — DeepLearning.AI Course"
+title: Fundamentals of LLMs — DeepLearning.AI Course
+category: references
 tags:
-  - llm
-  - education
-  - course
-  - deeplearning-ai
-  - aws
-  - bedrock
+- llm
+- education
+- course
+- deeplearning-ai
+- aws
+- bedrock
 sources:
-  - "[[sources/watchv=ht4l0dep69i]]"
-summary: "The first-of-its-kind LLM fundamentals course on DeepLearning.AI, co-created by Andrew Ng and Mike Chambers (AWS). Taken by over 370,000 people, includes free AWS Bedrock environment access.
+- https://www.youtube.com/watch?v=ht4l0dep69i
+summary: The first-of-its-kind LLM fundamentals course on DeepLearning.AI, co-created by Andrew Ng and Mike Chambers (AWS). Taken by over 370,000 people, includes free AWS Bedrock environment access.
 provenance:
-  extracted: 0.95
-  inferred: 0.03
-  ambiguous: 0.02
-base_confidence: 0.90
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+base_confidence: 0.42
 lifecycle: draft
+lifecycle_changed: '2026-07-06'
 tier: supporting
-created: 2026-07-04
-updated: 2026-07-04
+created: '2026-07-04'
+updated: '2026-07-04'
 ---
 # Fundamentals of LLMs — DeepLearning.AI Course
 

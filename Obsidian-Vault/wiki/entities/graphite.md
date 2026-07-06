@@ -1,34 +1,35 @@
 ---
-title: "Graphite"
+title: Graphite
 tags:
-  - company
-  - ai
-  - code-review
-  - developer-tools
-  - aief2025
+- company
+- ai
+- code-review
+- developer-tools
+- aief2025
 aliases:
-  - Graphite AI
-  - Diamond (Graphite)
+- Graphite AI
+- Diamond (Graphite)
 relationships:
-  - target: "[[entities/tomas-reimers]]"
-    type: founded_by
-  - target: "[[concepts/developer-outer-loop]]"
-    type: implements
-  - target: "[[concepts/code-review-primary-skill]]"
-    type: related_to
+- target: '[[entities/tomas-reimers]]'
+  type: founded_by
+- target: '[[concepts/developer-outer-loop]]'
+  type: implements
+- target: '[[concepts/code-review-primary-skill]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=h6mrr5nbtza]]"
-  - "[[sources/watchv=tswqekftnaw]]"
-summary: "AI code review company that built Diamond, an AI-powered code review platform. Developed the AI Entomology framework for classifying bugs in AI-generated code. Focused on making the developer outer loop AI-native."
+- 'https://www.youtube.com/watch?v=h6mrr5nbtza'
+- 'https://www.youtube.com/watch?v=tswqekftnaw'
+summary: AI code review company that built Diamond, an AI-powered code review platform. Developed the AI Entomology framework for classifying bugs in AI-generated code. Focused on making the developer outer...
 provenance:
-  extracted: 0.80
-  inferred: 0.20
-  ambiguous: 0.00
+  extracted: 0.8
+  inferred: 0.2
+  ambiguous: 0.0
 base_confidence: 0.65
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Graphite

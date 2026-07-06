@@ -1,18 +1,18 @@
 ---
-title: "Offline-First AI"
+title: Offline-First AI
 category: concepts
 tags:
-  - offline
-  - architecture
-  - edge-computing
-  - local-ai
-  - resilience
+- offline
+- architecture
+- edge-computing
+- local-ai
+- resilience
 sources:
-  - "AIEF2025 - Foundry Local: Cutting-Edge AI experiences on device with ONNX Runtime/Olive — Emma Ning, Microsoft - https://www.youtube.com/watch?v=l614N5W60ls"
-summary: "Architectural philosophy where AI capabilities are designed to operate fully without network connectivity, using on-device models and local inference engines. Contrasts with cloud-dependent AI that requires reliable internet."
+- 'AIEF2025 - Foundry Local: Cutting-Edge AI experiences on device with ONNX Runtime/Olive — Emma Ning, Microsoft - https://www.youtube.com/watch?v=l614N5W60ls'
+summary: Architectural philosophy where AI capabilities are designed to operate fully without network connectivity, using on-device models and local inference engines. Contrasts with cloud-dependent AI that...
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.65
 lifecycle: draft
@@ -21,10 +21,10 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/on-device-inference|On-Device Inference]]"
-    type: implements
-  - target: "[[concepts/local-first-ai-platform|Local-First AI Platform]]"
-    type: relates_to
+- target: '[[concepts/on-device-inference|On-Device Inference]]'
+  type: implements
+- target: '[[concepts/local-first-ai-platform|Local-First AI Platform]]'
+  type: relates_to
 ---
 
 # Offline-First AI

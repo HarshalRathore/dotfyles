@@ -4,7 +4,7 @@ category: concepts
 tags: [failure-modes, ai-evaluation, error-analysis, domain-expertise, ai-reliability, taxonomy]
 summary: "A structured taxonomy of all ways an AI system can fail in a specific domain, co-developed with domain experts. Enables systematic measurement and targeted improvement of AI pipeline performance."
 sources:
-  - "[[sources/watchv=mrm7oa3jsfs]]"
+  - "https://www.youtube.com/watch?v=mrm7oa3jsfs"
 provenance:
   extracted: 0.85
   inferred: 0.15

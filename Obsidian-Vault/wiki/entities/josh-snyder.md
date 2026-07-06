@@ -1,14 +1,23 @@
 ---
-title: "Josh Snyder"
-created: "2026-07-01"
-updated: "2026-07-01"
+title: Josh Snyder
+created: '2026-07-01'
+updated: '2026-07-01'
 tags:
-  - posthog
-  - "agent-systems"
+- posthog
+- agent-systems
 sources:
-  - "[[sources/web-posthog-com-blog-what-if-your-product-built-itself]]"
+- '[[misc/web-posthog-com-blog-what-if-your-product-built-itself]]'
 aliases:
-  - joshsnyder
+- joshsnyder
+category: entities
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Josh Snyder
 ---
 # Josh Snyder
 
@@ -21,4 +30,4 @@ Josh Snyder is a PostHog engineer and co-author (with [[entities/cleo-lant]]) of
 
 ## Sources
 
-- [[web-posthog-com-blog-what-if-your-product-built-itself]] — What If Your Product Built Itself? PostHog blog post (2026-06-22)
+- [[misc/web-posthog-com-blog-what-if-your-product-built-itself]] — What If Your Product Built Itself? PostHog blog post (2026-06-22)

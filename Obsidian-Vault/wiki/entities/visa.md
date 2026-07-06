@@ -1,19 +1,19 @@
 ---
-title: "Visa"
+title: Visa
 category: entities
 tags:
-  - company
-  - payments
-  - fintech
-  - credit-cards
-  - authentication
+- company
+- payments
+- fintech
+- credit-cards
+- authentication
 aliases: []
 sources:
-  - "AIEF2025 - Machines of Buying and Selling Grace - Adam Behrens, New Generation - https://www.youtube.com/watch?v=zlZz0mDF2eg"
+- AIEF2025 - Machines of Buying and Selling Grace - Adam Behrens, New Generation - https://www.youtube.com/watch?v=zlZz0mDF2eg
 provenance:
-  extracted: 0.70
-  inferred: 0.30
-  ambiguous: 0.00
+  extracted: 0.7
+  inferred: 0.3
+  ambiguous: 0.0
 base_confidence: 0.75
 lifecycle: draft
 lifecycle_changed: 2026-07-05
@@ -21,10 +21,11 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/new-generation|New Generation]]"
-    type: partners-with
-  - target: "[[concepts/delegated-authentication|Delegated Authentication]]"
-    type: develops
+- target: '[[entities/new-generation|New Generation]]'
+  type: partners-with
+- target: '[[concepts/delegated-authentication|Delegated Authentication]]'
+  type: develops
+summary: Visa
 ---
 
 # Visa

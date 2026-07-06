@@ -1,34 +1,35 @@
 ---
-title: "Create-Refine Loop"
+title: Create-Refine Loop
 tags:
-  - ai-engineering
-  - workflow
-  - prompt-engineering
-  - methodology
+- ai-engineering
+- workflow
+- prompt-engineering
+- methodology
 aliases:
-  - plan-create-refine loop
-  - Kelly loop
+- plan-create-refine loop
+- Kelly loop
 relationships:
-  - target: "[[concepts/context-engineering]]"
-    type: related_to
-  - target: "[[concepts/code-review-primary-skill]]"
-    type: related_to
-  - target: "[[concepts/agent-loop]]"
-    type: related_to
-  - target: "[[concepts/evaluation-first-development]]"
-    type: extends
+- target: '[[concepts/context-engineering]]'
+  type: related_to
+- target: '[[concepts/code-review-primary-skill]]'
+  type: related_to
+- target: '[[concepts/agent-loop]]'
+  type: related_to
+- target: '[[concepts/evaluation-first-development]]'
+  type: extends
 sources:
-  - "[[sources/watchv=dc3qoa9wone]]"
-summary: "A three-phase iterative workflow for productive AI coding — Create a plan document, have the AI execute against the plan, then refine the output — repeated as a loop."
+- 'https://www.youtube.com/watch?v=dc3qoa9wone'
+summary: A three-phase iterative workflow for productive AI coding — Create a plan document, have the AI execute against the plan, then refine the output — repeated as a loop.
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Create-Refine Loop

@@ -1,18 +1,18 @@
 ---
-title: "Voice Generation"
+title: Voice Generation
 category: concepts
 tags:
-  - voice
-  - tts
-  - audio
-  - multimodal
-  - google-deepmind
-  - gemini
-  - conversational-ai
-summary: "Text-to-speech and natural audio generation capabilities that enable conversational AI interfaces. Part of the trajectory toward omnimodal models."
+- voice
+- tts
+- audio
+- multimodal
+- google-deepmind
+- gemini
+- conversational-ai
+summary: Text-to-speech and natural audio generation capabilities that enable conversational AI interfaces. Part of the trajectory toward omnimodal models.
 provenance:
   extracted: 0.65
-  inferred: 0.30
+  inferred: 0.3
   ambiguous: 0.05
 base_confidence: 0.75
 lifecycle: draft
@@ -21,12 +21,13 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/multimodal-models|Multimodal Models]]"
-    type: related_to
-  - target: "[[concepts/omnimodal|Omnimodal Models]]"
-    type: related_to
-  - target: "[[entities/gemini|Gemini]]"
-    type: related_to
+- target: '[[concepts/multimodal-models|Multimodal Models]]'
+  type: related_to
+- target: '[[concepts/omnimodal|Omnimodal Models]]'
+  type: related_to
+- target: '[[entities/gemini|Gemini]]'
+  type: related_to
+sources: []
 ---
 
 # Voice Generation

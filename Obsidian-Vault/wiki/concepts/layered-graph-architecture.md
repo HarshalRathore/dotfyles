@@ -1,32 +1,32 @@
 ---
-title: "Layered Graph Architecture"
+title: Layered Graph Architecture
 category: concepts
 tags:
-  - knowledge-graph
-  - architecture
-  - network-operations
-  - graph-design
-  - multi-agent
+- knowledge-graph
+- architecture
+- network-operations
+- graph-design
+- multi-agent
 aliases:
-  - Layered Graph
+- Layered Graph
 sources:
-  - "AIEF2025 - Multi Agent AI and Network Knowledge Graphs for Change — Ola Mabadeje, Cisco - https://www.youtube.com/watch?v=m0dxZ-NDKHo"
-summary: "A knowledge graph organization pattern where data is structured in conceptual layers matching networking domains, allowing AI agents to query only the relevant depth for their specific task rather than traversing the entire graph."
+- AIEF2025 - Multi Agent AI and Network Knowledge Graphs for Change — Ola Mabadeje, Cisco - https://www.youtube.com/watch?v=m0dxZ-NDKHo
+summary: A knowledge graph organization pattern where data is structured in conceptual layers matching networking domains, allowing AI agents to query only the relevant depth for their specific task rather...
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/network-knowledge-graph|Network Knowledge Graph]]"
-    type: organizes
-  - target: "[[concepts/multi-agent-workflows|Multi-Agent Workflows]]"
-    type: used_by
+- target: '[[concepts/network-knowledge-graph|Network Knowledge Graph]]'
+  type: organizes
+- target: '[[concepts/multi-agent-workflows|Multi-Agent Workflows]]'
+  type: used_by
 ---
 
 # Layered Graph Architecture

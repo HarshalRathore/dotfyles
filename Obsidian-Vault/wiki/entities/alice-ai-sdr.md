@@ -1,33 +1,34 @@
 ---
-title: "Alice"
+title: Alice
 category: entities
 tags:
-  - ai-sdr
-  - sales
-  - email
-  - digital-worker
-  - 11x
-  - agent
+- ai-sdr
+- sales
+- email
+- digital-worker
+- 11x
+- agent
 summary: Alice is 11x's AI Sales Development Representative — an AI agent that writes personalized outreach emails, sources leads, and books meetings. Sends ~50,000 emails/day across ~300 organizations.
 provenance:
   extracted: 0.95
   inferred: 0.04
   ambiguous: 0.01
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/11x]]"
-    type: implements
-  - target: "[[entities/julian-voice-agent]]"
-    type: related_to
-  - target: "[[concepts/ai-sdr]]"
-    type: implements
-  - target: "[[concepts/knowledge-base-pattern]]"
-    type: uses
+- target: '[[entities/11x]]'
+  type: implements
+- target: '[[entities/julian-voice-agent]]'
+  type: related_to
+- target: '[[concepts/ai-sdr]]'
+  type: implements
+- target: '[[concepts/knowledge-base-pattern]]'
+  type: uses
+sources: []
 ---
 
 # Alice

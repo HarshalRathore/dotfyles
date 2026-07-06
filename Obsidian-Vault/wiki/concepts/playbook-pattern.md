@@ -8,7 +8,7 @@ tags:
   - software-engineering
   - aief2025
 sources:
-  - "[[sources/watchv=mi83but_23o]]"
+  - "https://www.youtube.com/watch?v=mi83but_23o"
 summary: "A system for outlining clear step-by-step instructions that AI agents follow reliably. Built by Cognition for Devin to handle repetitive migrations across thousands of files."
 provenance:
   extracted: 0.90

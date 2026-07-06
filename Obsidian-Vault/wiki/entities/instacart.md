@@ -4,7 +4,7 @@ category: entities
 tags: [e-commerce, grocery, search, machine-learning, instacart, aief2025]
 summary: "Leader in online grocery in North America. Search and ML team uses LLMs to transform search and discovery, achieving major tail-query precision/recall gains."
 sources:
-  - "[[sources/watchv=pjavhm_3ljg]]"
+  - "https://www.youtube.com/watch?v=pjavhm_3ljg"
 provenance:
   extracted: 0.85
   inferred: 0.10

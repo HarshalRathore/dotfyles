@@ -1,12 +1,19 @@
 ---
 title: Multimodal Video Search
 category: concepts
-tags: [video-search, multimodal, semantic-search, embedding, elasticsearch, nova-pro, titan-embeddings]
-summary: "A video search architecture where videos are indexed using multimodal embeddings from frame samples, pooled into single representations, and stored in vector-capable databases for text-to-video retrieval."
+tags:
+- video-search
+- multimodal
+- semantic-search
+- embedding
+- elasticsearch
+- nova-pro
+- titan-embeddings
+summary: A video search architecture where videos are indexed using multimodal embeddings from frame samples, pooled into single representations, and stored in vector-capable databases for text-to-video ret...
 provenance:
-  extracted: 0.90
-  inferred: 0.10
-  ambiguous: 0.00
+  extracted: 0.9
+  inferred: 0.1
+  ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-05
@@ -14,14 +21,15 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/pooling-embedding]]"
-    type: uses
-  - target: "[[concepts/multimodal-embedding]]"
-    type: uses
-  - target: "[[concepts/semantic-video-tokenization]]"
-    type: related_to
-  - target: "[[concepts/screenshot-based-multimodal-retrieval]]"
-    type: related_to
+- target: '[[concepts/pooling-embedding]]'
+  type: uses
+- target: '[[concepts/multimodal-embedding]]'
+  type: uses
+- target: '[[concepts/semantic-video-tokenization]]'
+  type: related_to
+- target: '[[concepts/screenshot-based-multimodal-retrieval]]'
+  type: related_to
+sources: []
 ---
 
 **Multimodal video search** is a retrieval architecture where videos are indexed using multimodal embeddings generated from frame samples, enabling text-to-video search. This approach was demonstrated by **[[entities/randall-hunt|Randall Hunt]]** of **[[entities/caylent|Caylent]]** for a stock footage customer.

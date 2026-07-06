@@ -1,33 +1,37 @@
 ---
-title: "New York Times"
+title: New York Times
 tags:
-  - company
-  - media
-  - journalism
-  - games
-  - nyt-games
-  - wordle
-  - connections
-aliases: [NYT, New York Times, The New York Times]
+- company
+- media
+- journalism
+- games
+- nyt-games
+- wordle
+- connections
+aliases:
+- NYT
+- New York Times
+- The New York Times
 sources:
-  - "[[sources/watchv=p_uhfgh4j9y]]"
-summary: "Major American newspaper and publisher of popular games including Wordle and Connections through its NYT Games division."
+- 'https://www.youtube.com/watch?v=p_uhfgh4j9y'
+summary: Major American newspaper and publisher of popular games including Wordle and Connections through its NYT Games division.
 provenance:
   extracted: 0.95
   inferred: 0.03
   ambiguous: 0.02
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/nyt-games]]"
-    type: owns
-  - target: "[[entities/wordle]]"
-    type: publishes
-  - target: "[[concepts/connections-game]]"
-    type: publishes
+- target: '[[entities/nyt-games]]'
+  type: owns
+- target: '[[entities/wordle]]'
+  type: publishes
+- target: '[[concepts/connections-game]]'
+  type: publishes
+category: entities
 ---
 
 # New York Times

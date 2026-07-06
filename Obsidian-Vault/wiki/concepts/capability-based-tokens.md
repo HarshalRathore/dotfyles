@@ -1,19 +1,25 @@
 ---
-title: "Capability Tokens"
+title: Capability Tokens
 tags:
-  - agent
-  - identity
-  - auth
-  - architecture
-  - pattern
-  - tokens
+- agent
+- identity
+- auth
+- architecture
+- pattern
+- tokens
 sources:
-  - "[[sources/watchv=d4dswf-__rm]]"
-summary: "Identity architecture pattern where agents receive time-bound tokens scoped to exactly one action, like 'Agent X can read Bob's calendar for the next 60 minutes.'"
+- 'https://www.youtube.com/watch?v=d4dswf-__rm'
+summary: Identity architecture pattern where agents receive time-bound tokens scoped to exactly one action, like 'Agent X can read Bob's calendar for the next 60 minutes.'
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
 ---
 # Capability Tokens
 

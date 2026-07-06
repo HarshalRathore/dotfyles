@@ -1,26 +1,30 @@
 ---
-title: "Enterprise Inference Infrastructure"
+title: Enterprise Inference Infrastructure
 tags:
-  - concept
-  - ai
-  - infrastructure
-  - enterprise
-  - inference
-aliases: [enterprise inference dragons, self-hosted inference challenges, production inference ops]
+- concept
+- ai
+- infrastructure
+- enterprise
+- inference
+aliases:
+- enterprise inference dragons
+- self-hosted inference challenges
+- production inference ops
 sources:
-  - "[[sources/watchv=6tpm4m1yxhk]]"
-  - "[[sources/watchv=3wv1vt0b0cg]]"
-  - "[[sources/watchv=deff3j8t5pk]]"
-summary: "The operational challenges ('dragons') that enterprises face when moving from API-based frontier models to self-hosted inference with open models — spanning performance, reliability, scaling, observability, and trust. The economic case for self-hosting is now supported by production-viable open models and mature inference engines."
+- 'https://www.youtube.com/watch?v=6tpm4m1yxhk'
+- 'https://www.youtube.com/watch?v=3wv1vt0b0cg'
+- 'https://www.youtube.com/watch?v=deff3j8t5pk'
+summary: The operational challenges ('dragons') that enterprises face when moving from API-based frontier models to self-hosted inference with open models — spanning performance, reliability, scaling, obser...
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.48
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Enterprise Inference Infrastructure

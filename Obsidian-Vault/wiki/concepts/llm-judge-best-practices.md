@@ -1,20 +1,23 @@
 ---
-title: "LLM-as-Judge Best Practices"
+title: LLM-as-Judge Best Practices
 tags:
-  - concept
-  - evaluation
-  - llm-as-judge
-  - methodology
-  - scoring
-aliases: [judge prompt design, LLM judge optimization, eval the judge]
+- concept
+- evaluation
+- llm-as-judge
+- methodology
+- scoring
+aliases:
+- judge prompt design
+- LLM judge optimization
+- eval the judge
 sources:
-  - "[[sources/watchv=9in-cpnp7xg]]"
-  - "[[sources/watchv=cqguvf6gsrm]]"
-  - "[[sources/watchv=omgpvw8tbhc]]"
-summary: "Design principles for using an LLM as an evaluation judge: focused criteria per score, use a higher-quality model to grade, evaluate the judge against human ground truth, and trial averaging for non-determinism."
+- 'https://www.youtube.com/watch?v=9in-cpnp7xg'
+- 'https://www.youtube.com/watch?v=cqguvf6gsrm'
+- 'https://www.youtube.com/watch?v=omgpvw8tbhc'
+summary: 'Design principles for using an LLM as an evaluation judge: focused criteria per score, use a higher-quality model to grade, evaluate the judge against human ground truth, and trial averaging for no...'
 provenance:
   extracted: 0.73
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.07
 base_confidence: 0.55
 lifecycle: draft
@@ -22,12 +25,13 @@ tier: supporting
 created: 2026-07-03
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/llm-as-judge-problems]]"
-    type: addresses
-  - target: "[[concepts/scaling-judge-time-compute]]"
-    type: related_to
-  - target: "[[concepts/eval-ingredients-task-dataset-score]]"
-    type: implements
+- target: '[[concepts/llm-as-judge-problems]]'
+  type: addresses
+- target: '[[concepts/scaling-judge-time-compute]]'
+  type: related_to
+- target: '[[concepts/eval-ingredients-task-dataset-score]]'
+  type: implements
+category: concepts
 ---
 
 # LLM-as-Judge Best Practices

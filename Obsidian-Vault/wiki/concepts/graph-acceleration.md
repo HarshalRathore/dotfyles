@@ -1,18 +1,18 @@
 ---
-title: "Graph Acceleration"
+title: Graph Acceleration
 tags:
-  - graph
-  - gpu
-  - acceleration
-  - cugraph
-  - networkx
-  - performance
+- graph
+- gpu
+- acceleration
+- cugraph
+- networkx
+- performance
 aliases:
-  - GPU-Accelerated Graph Algorithms
-  - cuGraph
+- GPU-Accelerated Graph Algorithms
+- cuGraph
 sources:
-  - "[[sources/watchv=-tgqa8fzf80]]"
-summary: "The use of GPU-accelerated graph algorithms (via cuGraph, integrated with NetworkX) to reduce graph traversal latency in large-scale knowledge graphs for RAG systems."
+- 'https://www.youtube.com/watch?v=-tgqa8fzf80'
+summary: The use of GPU-accelerated graph algorithms (via cuGraph, integrated with NetworkX) to reduce graph traversal latency in large-scale knowledge graphs for RAG systems.
 provenance:
   extracted: 0.78
   inferred: 0.17
@@ -23,10 +23,11 @@ tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
 relationships:
-  - target: "[[concepts/multi-hop-retrieval|Multi-Hop Retrieval]]"
-    type: enables
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: used_by
+- target: '[[concepts/multi-hop-retrieval|Multi-Hop Retrieval]]'
+  type: enables
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: used_by
+category: concepts
 ---
 
 # Graph Acceleration

@@ -1,16 +1,18 @@
 ---
-title: "Baseten"
+title: Baseten
 tags:
-  - organization
-  - company
-  - inference
-  - infrastructure
-aliases: [B10, Baseten]
+- organization
+- company
+- inference
+- infrastructure
+aliases:
+- B10
+- Baseten
 sources:
-  - "[[sources/watchv=3wv1vt0b0cg]]"
-summary: "Inference platform company founded in 2019. Provides horizontal AI infrastructure for enterprises to run and optimize model inference at production scale."
+- 'https://www.youtube.com/watch?v=3wv1vt0b0cg'
+summary: Inference platform company founded in 2019. Provides horizontal AI infrastructure for enterprises to run and optimize model inference at production scale.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.45
@@ -18,6 +20,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Baseten

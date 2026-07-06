@@ -1,20 +1,20 @@
 ---
-title: "Stanford University"
+title: Stanford University
 category: entities
 tags:
-  - university
-  - research
-  - stanford
-  - software-engineering
-  - ai-research
+- university
+- research
+- stanford
+- software-engineering
+- ai-research
 aliases:
-  - Stanford
-  - Stanford University
+- Stanford
+- Stanford University
 sources:
-  - "AIEF2025 - Does AI Actually Boost Developer Productivity? (100k Devs Study) - Yegor Denisov-Blanch, Stanford - https://www.youtube.com/watch?v=tbDDYKRFjhk"
-summary: "Stanford University is the academic home of a major research group studying AI's impact on developer productivity. The study analyzes 100k+ engineers across 600+ companies and also produced the 'ghost engineers' finding."
+- AIEF2025 - Does AI Actually Boost Developer Productivity? (100k Devs Study) - Yegor Denisov-Blanch, Stanford - https://www.youtube.com/watch?v=tbDDYKRFjhk
+summary: Stanford University is the academic home of a major research group studying AI's impact on developer productivity. The study analyzes 100k+ engineers across 600+ companies and also produced the 'gh...
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -24,12 +24,12 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/yegor-denisov-blanch|Yegor Denisov-Blanch]]"
-    type: employs
-  - target: "[[concepts/ai-productivity-measurement|AI Productivity Measurement]]"
-    type: research_on
-  - target: "[[concepts/ghost-engineers|Ghost Engineers]]"
-    type: research_on
+- target: '[[entities/yegor-denisov-blanch|Yegor Denisov-Blanch]]'
+  type: employs
+- target: '[[concepts/ai-productivity-measurement|AI Productivity Measurement]]'
+  type: research_on
+- target: '[[concepts/ghost-engineers|Ghost Engineers]]'
+  type: research_on
 ---
 
 # Stanford University

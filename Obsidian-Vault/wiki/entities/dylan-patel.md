@@ -1,30 +1,31 @@
 ---
-title: "Dylan Patel"
+title: Dylan Patel
 tags:
-  - person
-  - analyst
-  - semiconductor
-  - ai-infrastructure
-  - geopolitics
+- person
+- analyst
+- semiconductor
+- ai-infrastructure
+- geopolitics
 sources:
-  - "AIEF2025 - The Geopolitics of AI Infrastructure - Dylan Patel, SemiAnalysis - https://www.youtube.com/watch?v=Zz4QjZsYWK0"
-summary: "Founder and analyst at SemiAnalysis, covering semiconductor industry, AI infrastructure, and the geopolitics of compute."
+- AIEF2025 - The Geopolitics of AI Infrastructure - Dylan Patel, SemiAnalysis - https://www.youtube.com/watch?v=Zz4QjZsYWK0
+summary: Founder and analyst at SemiAnalysis, covering semiconductor industry, AI infrastructure, and the geopolitics of compute.
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
 base_confidence: 0.75
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
-updated: 2026-07-04T23:59:00Z
+updated: 2026-07-04 23:59:00+00:00
 relationships:
-  - target: "[[entities/huawei|Huawei]]"
-    type: related_to
-  - target: "[[entities/nvidia|NVIDIA]]"
-    type: related_to
-  - target: "[[entities/tsmc|TSMC]]"
-    type: related_to
+- target: '[[entities/huawei|Huawei]]'
+  type: related_to
+- target: '[[entities/nvidia|NVIDIA]]'
+  type: related_to
+- target: '[[entities/tsmc|TSMC]]'
+  type: related_to
+category: entities
 ---
 
 # Dylan Patel

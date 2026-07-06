@@ -1,17 +1,26 @@
 ---
 type: concept
-title: "Certificate Authority (CA)"
+title: Certificate Authority (CA)
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/how-tls-certificates-work-in-kubernetes-and-manual-cluster-setup_e2b507]]"
+- '[[sources/how-tls-certificates-work-in-kubernetes-and-manual-cluster-setup_e2b507]]'
 tags:
-  - tls
+- tls
 aliases:
-  - Cluster CA
-  - Root CA
+- Cluster CA
+- Root CA
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Certificate Authority (CA)
 ---
 # Certificate Authority (CA)
 

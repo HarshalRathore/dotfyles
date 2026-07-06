@@ -1,16 +1,16 @@
 ---
-title: "Cartesia"
+title: Cartesia
 category: entities
 tags:
-  - company
-  - voice-ai
-  - tts
-  - state-space-models
-  - real-time-ai
+- company
+- voice-ai
+- tts
+- state-space-models
+- real-time-ai
 sources:
-  - "AIEF2025 - Serving Voice AI at Scale — Arjun Desai (Cartesia) & Rohit Talluri (AWS) - https://www.youtube.com/watch?v=knH3fmGAteQ"
+- AIEF2025 - Serving Voice AI at Scale — Arjun Desai (Cartesia) & Rohit Talluri (AWS) - https://www.youtube.com/watch?v=knH3fmGAteQ
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -20,12 +20,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/sonic-2]]"
-    type: related_to
-  - target: "[[concepts/state-space-models]]"
-    type: related_to
-  - target: "[[entities/aws]]"
-    type: related_to
+- target: '[[entities/sonic-2]]'
+  type: related_to
+- target: '[[concepts/state-space-models]]'
+  type: related_to
+- target: '[[entities/aws]]'
+  type: related_to
+summary: Cartesia
 ---
 
 # Cartesia

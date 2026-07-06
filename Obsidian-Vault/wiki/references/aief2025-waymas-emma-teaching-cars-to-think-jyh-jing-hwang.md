@@ -1,36 +1,36 @@
 ---
-title: "AIEF2025 — Waymo's EMMA: Teaching Cars to Think"
+title: 'AIEF2025 — Waymo''s EMMA: Teaching Cars to Think'
 category: references
 tags:
-  - waymo
-  - emma
-  - end-to-end-driving
-  - foundation-models
-  - autonomous-driving
-  - gemini
-  - jyh-jing-hwang
+- waymo
+- emma
+- end-to-end-driving
+- foundation-models
+- autonomous-driving
+- gemini
+- jyh-jing-hwang
 aliases:
-  - EMMA Waymo
-  - Waymo EMMA
+- EMMA Waymo
+- Waymo EMMA
 sources:
-  - "AIEF2025 - Waymo's EMMA: Teaching Cars to Think - Jyh Jing Hwang, Waymo - https://www.youtube.com/watch?v=iS9YFW28XyM"
-summary: "Jyh Jing Hwang presents EMMA — a foundation-model-based autonomous driving system built on Google's Gemini that drives using only cameras, without HD maps, and uses chain-of-thought reasoning for explainability."
+- 'AIEF2025 - Waymo''s EMMA: Teaching Cars to Think - Jyh Jing Hwang, Waymo - https://www.youtube.com/watch?v=iS9YFW28XyM'
+summary: Jyh Jing Hwang presents EMMA — a foundation-model-based autonomous driving system built on Google's Gemini that drives using only cameras, without HD maps, and uses chain-of-thought reasoning for e...
 provenance:
   extracted: 0.95
   inferred: 0.05
-  ambiguous: 0.00
+  ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/waymo]]"
-    type: related_to
-  - target: "[[entities/gemini]]"
-    type: uses
-  - target: "[[entities/jyh-jing-hwang]]"
-    type: related_to
+- target: '[[entities/waymo]]'
+  type: related_to
+- target: '[[entities/gemini]]'
+  type: uses
+- target: '[[entities/jyh-jing-hwang]]'
+  type: related_to
 ---
 
 # AIEF2025 — Waymo's EMMA: Teaching Cars to Think

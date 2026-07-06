@@ -1,34 +1,45 @@
 ---
-title: "Container Network Interface (CNI) - Summary"
-summary: "This source explains the fundamental building blocks of Kubernetes networking, focusing on the [[entities/pods]] as the core deployable unit and the pods_c92b62"
+title: Container Network Interface (CNI) - Summary
+summary: This source explains the fundamental building blocks of Kubernetes networking, focusing on the [[entities/pods]] as the core deployable unit and the pods_c92b62
 tags:
-  - CNI
-  - IPAM
-  - CIDR
-  - Sidecar pattern
-  - Init container
-  - Pause container
-  - Overlay networking
-  - Flat network model
-  - "Co-scheduling"
-  - VXLAN
-  - BGP
-  - Container Runtime Interface
-  - Network plugin
-  - Port conflicts
-  - Kubernetes network model
-  - Node subnet
-  - "Intra-node networking"
-  - "Inter-node routing"
-  - Route tables
-  - DaemonSet for network plugins
-  - Cluster CIDR
-  - Pod
+- CNI
+- IPAM
+- CIDR
+- Sidecar pattern
+- Init container
+- Pause container
+- Overlay networking
+- Flat network model
+- Co-scheduling
+- VXLAN
+- BGP
+- Container Runtime Interface
+- Network plugin
+- Port conflicts
+- Kubernetes network model
+- Node subnet
+- Intra-node networking
+- Inter-node routing
+- Route tables
+- DaemonSet for network plugins
+- Cluster CIDR
+- Pod
 aliases:
-  - Kubernetes CNI Specification
-  - Container Networking Interface
-contentHash: "3a9d-ea9405b0"
-generation_complete: True
+- Kubernetes CNI Specification
+- Container Networking Interface
+contentHash: 3a9d-ea9405b0
+generation_complete: true
+category: sources
+sources: []
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+created: '2026-07-02T13:38:25.553438+00:00'
+updated: '2026-07-02T13:38:25.553438+00:00'
 ---
 # Container Network Interface (CNI) - Summary
 

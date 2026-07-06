@@ -1,23 +1,27 @@
 ---
-title: "Dial-Up Era of AI"
+title: Dial-Up Era of AI
 tags:
-  - concept
-  - ai
-  - startups
-  - timing
-aliases: [dial-up era, AI broadband analogy, transformative AI companies]
+- concept
+- ai
+- startups
+- timing
+aliases:
+- dial-up era
+- AI broadband analogy
+- transformative AI companies
 sources:
-  - "[[sources/watchv=3mzs5gnelzm]]"
-summary: "We are in the 'dial-up era' of AI, analogous to the early internet. Truly transformative AI companies — like Instagram, Uber, and DoorDash after the iPhone — have not been built yet."
+- 'https://www.youtube.com/watch?v=3mzs5gnelzm'
+summary: We are in the 'dial-up era' of AI, analogous to the early internet. Truly transformative AI companies — like Instagram, Uber, and DoorDash after the iPhone — have not been built yet.
 provenance:
   extracted: 0.65
-  inferred: 0.30
+  inferred: 0.3
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Dial-Up Era of AI

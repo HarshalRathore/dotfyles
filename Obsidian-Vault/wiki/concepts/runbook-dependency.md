@@ -1,32 +1,36 @@
 ---
-title: "Runbook Dependency"
+title: Runbook Dependency
 tags:
-  - runbooks
-  - incident-response
-  - documentation
-  - agent-workflows
-  - observability
-aliases: [runbook-dependency, runbook-problem, runbook-deprecation]
+- runbooks
+- incident-response
+- documentation
+- agent-workflows
+- observability
+aliases:
+- runbook-dependency
+- runbook-problem
+- runbook-deprecation
 sources:
-  - "[[sources/watchv=l6_nigiexzq]]"
-summary: The problem that runbooks — documented incident response procedures — are deprecated the moment they are created. This makes runbook-dependent agent workflows ineffective for production troubleshooting.
+- 'https://www.youtube.com/watch?v=l6_nigiexzq'
+summary: The problem that runbooks — documented incident response procedures — are deprecated the moment they are created. This makes runbook-dependent agent workflows ineffective for production troubleshoo...
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/production-troubleshooting]]"
-    type: related_to
-  - target: "[[concepts/agent-swarm]]"
-    type: contradicts
-  - target: "[[concepts/causal-machine-learning]]"
-    type: related_to
+- target: '[[concepts/production-troubleshooting]]'
+  type: related_to
+- target: '[[concepts/agent-swarm]]'
+  type: contradicts
+- target: '[[concepts/causal-machine-learning]]'
+  type: related_to
+category: concepts
 ---
 
 # Runbook Dependency

@@ -1,16 +1,16 @@
 ---
-title: "HybridRAG"
+title: HybridRAG
 tags:
-  - rag
-  - retrieval
-  - knowledge-graph
-  - vector-database
-  - hybrid
-  - architecture
+- rag
+- retrieval
+- knowledge-graph
+- vector-database
+- hybrid
+- architecture
 sources:
-  - "[[sources/watchv=-tgqa8fzf80]]"
-  - "[[sources/watchv=9aqovt8lnmi]]"
-summary: "A RAG architecture that fuses two retrieval pathways — a knowledge graph (graph-based retrieval) and a semantic vector database (embedding-based retrieval) — to capture both structured entity relationships and semantic similarity."
+- 'https://www.youtube.com/watch?v=-tgqa8fzf80'
+- 'https://www.youtube.com/watch?v=9aqovt8lnmi'
+summary: A RAG architecture that fuses two retrieval pathways — a knowledge graph (graph-based retrieval) and a semantic vector database (embedding-based retrieval) — to capture both structured entity relat...
 provenance:
   extracted: 0.78
   inferred: 0.17
@@ -21,14 +21,15 @@ tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
 relationships:
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: extends
-  - target: "[[concepts/triplet-extraction|Triplet Extraction]]"
-    type: uses
-  - target: "[[concepts/multi-hop-retrieval|Multi-Hop Retrieval]]"
-    type: uses
-  - target: "[[concepts/kag-knowledge-augmented-generation|KAG (Knowledge Augmented Generation)]]"
-    type: related_to
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: extends
+- target: '[[concepts/triplet-extraction|Triplet Extraction]]'
+  type: uses
+- target: '[[concepts/multi-hop-retrieval|Multi-Hop Retrieval]]'
+  type: uses
+- target: '[[concepts/kag-knowledge-augmented-generation|KAG (Knowledge Augmented Generation)]]'
+  type: related_to
+category: concepts
 ---
 
 # HybridRAG

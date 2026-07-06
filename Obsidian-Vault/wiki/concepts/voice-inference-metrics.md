@@ -1,31 +1,32 @@
 ---
-title: "Voice Inference Metrics"
+title: Voice Inference Metrics
 category: concepts
 tags:
-  - voice-ai
-  - inference
-  - latency
-  - throughput
-  - tokens-per-second
-  - voice-inference-metrics
-summary: Key metrics for measuring voice AI inference performance: tokens per second, time to first token, throughput requirements relative to audio codec bitrate, and latency budgets for real-time voice.
+- voice-ai
+- inference
+- latency
+- throughput
+- tokens-per-second
+- voice-inference-metrics
+summary: 'Key metrics for measuring voice AI inference performance: tokens per second, time to first token, throughput requirements relative to audio codec bitrate, and latency budgets for real-time voice.'
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/voice-ai-latency]]"
-    type: related_to
-  - target: "[[entities/snack]]"
-    type: related_to
-  - target: "[[entities/orpheus-tts]]"
-    type: related_to
+- target: '[[concepts/voice-ai-latency]]'
+  type: related_to
+- target: '[[entities/snack]]'
+  type: related_to
+- target: '[[entities/orpheus-tts]]'
+  type: related_to
+sources: []
 ---
 
 # Voice Inference Metrics

@@ -1,21 +1,21 @@
 ---
-title: "Augmented LLM Foundations"
+title: Augmented LLM Foundations
 category: concepts
 tags:
-  - augmented-llm
-  - llm-fundamentals
-  - agentic-systems
-  - tool-use
-  - memory
-  - definitions
+- augmented-llm
+- llm-fundamentals
+- agentic-systems
+- tool-use
+- memory
+- definitions
 aliases:
-  - augmented language models
-  - LLM augmentation
-  - what is an augmented LLM
+- augmented language models
+- LLM augmentation
+- what is an augmented LLM
 sources:
-  - "AIEF2025 - How to Build Planning Agents without losing control - Yogendra Miraje, Factset - https://www.youtube.com/watch?v=sl3icG-IjHo"
+- AIEF2025 - How to Build Planning Agents without losing control - Yogendra Miraje, Factset - https://www.youtube.com/watch?v=sl3icG-IjHo
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -25,12 +25,13 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/agent-architecture|Agent Architecture]]"
-    type: foundational_to
-  - target: "[[concepts/agent-workflows|Agent Workflows]]"
-    type: foundational_to
-  - target: "[[concepts/agent-autonomy|Agent Autonomy]]"
-    type: foundational_to
+- target: '[[concepts/agent-architecture|Agent Architecture]]'
+  type: foundational_to
+- target: '[[concepts/agent-workflows|Agent Workflows]]'
+  type: foundational_to
+- target: '[[concepts/agent-autonomy|Agent Autonomy]]'
+  type: foundational_to
+summary: Augmented LLM Foundations
 ---
 
 # Augmented LLM Foundations

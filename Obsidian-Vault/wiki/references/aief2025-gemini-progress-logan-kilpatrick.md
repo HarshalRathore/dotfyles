@@ -1,16 +1,16 @@
 ---
-title: "A year of Gemini progress + what comes next"
+title: A year of Gemini progress + what comes next
 category: references
 tags:
-  - aief2025
-  - gemini
-  - google-deepmind
-  - model-roadmap
-  - multimodal
-  - agentic
-  - voice-ai
-  - logan-kilpatrick
-summary: "Logan Kilpatrick's AIEF2025 talk recapping a year of Gemini progress, announcing Gemini 2.5 Pro, and previewing the future across models, the Gemini app, and the developer platform."
+- aief2025
+- gemini
+- google-deepmind
+- model-roadmap
+- multimodal
+- agentic
+- voice-ai
+- logan-kilpatrick
+summary: Logan Kilpatrick's AIEF2025 talk recapping a year of Gemini progress, announcing Gemini 2.5 Pro, and previewing the future across models, the Gemini app, and the developer platform.
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -22,16 +22,17 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/logan-kilpatrick|Logan Kilpatrick]]"
-    type: related_to
-  - target: "[[entities/gemini|Gemini]]"
-    type: related_to
-  - target: "[[entities/google-deepmind|Google DeepMind]]"
-    type: related_to
-  - target: "[[concepts/multimodal-models|Multimodal Models]]"
-    type: related_to
-  - target: "[[concepts/proactive-agents|Proactive Agents]]"
-    type: related_to
+- target: '[[entities/logan-kilpatrick|Logan Kilpatrick]]'
+  type: related_to
+- target: '[[entities/gemini|Gemini]]'
+  type: related_to
+- target: '[[entities/google-deepmind|Google DeepMind]]'
+  type: related_to
+- target: '[[concepts/multimodal-models|Multimodal Models]]'
+  type: related_to
+- target: '[[concepts/proactive-agents|Proactive Agents]]'
+  type: related_to
+sources: []
 ---
 
 # A year of Gemini progress + what comes next

@@ -1,39 +1,40 @@
 ---
-title: "AIEF2025 - Hacking the Inference Pareto Frontier — Kyle Kranen, NVIDIA"
+title: AIEF2025 - Hacking the Inference Pareto Frontier — Kyle Kranen, NVIDIA
 tags:
-  - inference
-  - pareto-frontier
-  - disaggregation
-  - kv-cache
-  - quantization
-  - llm-serving
-  - nvidia
-  - conference-talk
-  - aief2025
+- inference
+- pareto-frontier
+- disaggregation
+- kv-cache
+- quantization
+- llm-serving
+- nvidia
+- conference-talk
+- aief2025
 sources:
-  - "AIEF2025 - Hacking the Inference Pareto Frontier - Kyle Kranen, NVIDIA - https://www.youtube.com/watch?v=Y2qc0UhDSnc"
-summary: "Kyle Kranen (NVIDIA) presents how to manipulate the quality-latency-cost Pareto frontier for LLM inference through techniques like disaggregation, quantization, and RAG, with real production data from NVIDIA's multi-million-dollar cloud operations."
+- AIEF2025 - Hacking the Inference Pareto Frontier - Kyle Kranen, NVIDIA - https://www.youtube.com/watch?v=Y2qc0UhDSnc
+summary: Kyle Kranen (NVIDIA) presents how to manipulate the quality-latency-cost Pareto frontier for LLM inference through techniques like disaggregation, quantization, and RAG, with real production data f...
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: core
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/inference-pareto-frontier|Inference Pareto Frontier]]"
-    type: related_to
-  - target: "[[concepts/disaggregated-inference|Disaggregated Inference]]"
-    type: related_to
-  - target: "[[entities/nvidia|NVIDIA]]"
-    type: related_to
-  - target: "[[entities/kyle-kranen|Kyle Kranen]]"
-    type: related_to
-  - target: "[[entities/nvidia-dynamo|NVIDIA Dynamo]]"
-    type: related_to
+- target: '[[concepts/inference-pareto-frontier|Inference Pareto Frontier]]'
+  type: related_to
+- target: '[[concepts/disaggregated-inference|Disaggregated Inference]]'
+  type: related_to
+- target: '[[entities/nvidia|NVIDIA]]'
+  type: related_to
+- target: '[[entities/kyle-kranen|Kyle Kranen]]'
+  type: related_to
+- target: '[[entities/nvidia-dynamo|NVIDIA Dynamo]]'
+  type: related_to
+category: references
 ---
 
 # AIEF2025 - Hacking the Inference Pareto Frontier — Kyle Kranen, NVIDIA

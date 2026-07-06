@@ -4,7 +4,7 @@ category: entities
 tags: [company, ai, coding, agent, platform]
 aliases: [Replit AI]
 sources:
-  - "[[sources/watchv=1c3szbaxomw]]"
+  - "https://www.youtube.com/watch?v=1c3szbaxomw"
 summary: "AI-powered coding platform that builds full-stack web apps via agents. Cited as a key case study in AI agent pricing challenges."
 provenance:
   extracted: 0.80

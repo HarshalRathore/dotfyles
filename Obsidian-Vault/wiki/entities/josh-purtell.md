@@ -1,14 +1,14 @@
 ---
-title: "Josh Purtell"
+title: Josh Purtell
 tags:
-  - person
-  - ai-engineer
-  - agents
+- person
+- ai-engineer
+- agents
 sources:
-  - "[[sources/watchv=5rmc-monvx0]]"
-summary: "Founder of Synth Labs. Builds stateful environment abstractions for vertical AI agents, enabling production-grade agent tree search and rollback."
+- 'https://www.youtube.com/watch?v=5rmc-monvx0'
+summary: Founder of Synth Labs. Builds stateful environment abstractions for vertical AI agents, enabling production-grade agent tree search and rollback.
 provenance:
-  extracted: 0.60
+  extracted: 0.6
   inferred: 0.35
   ambiguous: 0.05
 base_confidence: 0.35
@@ -16,6 +16,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Josh Purtell

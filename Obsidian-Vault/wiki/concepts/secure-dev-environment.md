@@ -1,20 +1,20 @@
 ---
-title: "Secure Dev Environment"
+title: Secure Dev Environment
 category: concepts
 tags:
-  - secure-dev-environment
-  - dev-environment
-  - regulated-industries
-  - cloud-for-agents
-  - gitpod
-  - data-sovereignty
-summary: A developer environment designed for regulated industries — banks, pharmaceuticals, healthcare — where source code, data, and integrations must remain on customer-controlled infrastructure with strict security controls.
+- secure-dev-environment
+- dev-environment
+- regulated-industries
+- cloud-for-agents
+- gitpod
+- data-sovereignty
+summary: A developer environment designed for regulated industries — banks, pharmaceuticals, healthcare — where source code, data, and integrations must remain on customer-controlled infrastructure with str...
 sources:
-  - "AIEF2025 - Building agent fleet architectures your CISO doesn't hate — Lou Bichard, Gitpod - https://www.youtube.com/watch?v=d9rsC6_VLoA"
+- AIEF2025 - Building agent fleet architectures your CISO doesn't hate — Lou Bichard, Gitpod - https://www.youtube.com/watch?v=d9rsC6_VLoA
 provenance:
-  extracted: 0.80
-  inferred: 0.20
-  ambiguous: 0.00
+  extracted: 0.8
+  inferred: 0.2
+  ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-04
@@ -22,14 +22,18 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: [[concepts/agent-fleet-architecture|Agent Fleet Architecture]]
-    type: enables
-  - target: [[concepts/data-sovereignty|Data Sovereignty]]
-    type: requires
-  - target: [[concepts/ciso-approval|CISO Approval]]
-    type: requires
-  - target: [[concepts/cloud-for-agents|Cloud for Agents]]
-    type: related_to
+- target:
+  - - concepts/agent-fleet-architecture|Agent Fleet Architecture
+  type: enables
+- target:
+  - - concepts/data-sovereignty|Data Sovereignty
+  type: requires
+- target:
+  - - concepts/ciso-approval|CISO Approval
+  type: requires
+- target:
+  - - concepts/cloud-for-agents|Cloud for Agents
+  type: related_to
 ---
 
 # Secure Dev Environment

@@ -1,10 +1,18 @@
 ---
-title: "AI Coding Assistance"
+title: AI Coding Assistance
 category: concepts
-tags: [ai-coding, coding-assistance, developer-tools, rapid-prototyping, feature-exploration]
-aliases: [ai coding, coding assistant, ai coding tool]
+tags:
+- ai-coding
+- coding-assistance
+- developer-tools
+- rapid-prototyping
+- feature-exploration
+aliases:
+- ai coding
+- coding assistant
+- ai coding tool
 sources:
-  - "AIEF2025 - Why your product needs an AI product manager, and why it should be you — James Lowe, i.AI - https://www.youtube.com/watch?v=xzJdSi2Tsqw"
+- AIEF2025 - Why your product needs an AI product manager, and why it should be you — James Lowe, i.AI - https://www.youtube.com/watch?v=xzJdSi2Tsqw
 provenance:
   extracted: 0.75
   inferred: 0.25
@@ -16,10 +24,11 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/feature-exploration-strategy]]"
-    type: enables
-  - target: "[[concepts/ai-product-manager]]"
-    type: tool_of
+- target: '[[concepts/feature-exploration-strategy]]'
+  type: enables
+- target: '[[concepts/ai-product-manager]]'
+  type: tool_of
+summary: AI Coding Assistance
 ---
 
 # AI Coding Assistance

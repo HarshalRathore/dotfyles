@@ -1,12 +1,12 @@
 ---
-title: "Jesse Han"
+title: Jesse Han
 tags:
-  - person
-  - ai
-  - infrastructure
+- person
+- ai
+- infrastructure
 sources:
-  - "[[sources/watchv=2goss66xrbk]]"
-summary: "Founder of Morph, creator of InfiniBranch and Morph Cloud, and advocate for infrastructure purpose-built for AI agents and verified superintelligence."
+- 'https://www.youtube.com/watch?v=2goss66xrbk'
+summary: Founder of Morph, creator of InfiniBranch and Morph Cloud, and advocate for infrastructure purpose-built for AI agents and verified superintelligence.
 provenance:
   extracted: 0.78
   inferred: 0.15
@@ -16,6 +16,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 # Jesse Han
 

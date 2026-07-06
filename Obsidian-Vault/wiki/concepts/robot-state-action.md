@@ -1,32 +1,33 @@
 ---
-title: "Robot State and Action"
+title: Robot State and Action
 category: concepts
 tags:
-  - robot-state
-  - robot-action
-  - robotics
-  - state-space
-  - control-theory
-  - nvidia
-  - groot
-summary: "The fundamental state-action framework in robotics: robot state is a snapshot of the robot and environment at an instant; action is what the robot decides to do next based on that state.
+- robot-state
+- robot-action
+- robotics
+- state-space
+- control-theory
+- nvidia
+- groot
+summary: '"The fundamental state-action framework in robotics: robot state is a snapshot of the robot and environment at an instant; action is what the robot decides to do next based on that state.'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/nvidia-gr00t|NVIDIA Project GR00T]]"
-    type: used_by
-  - target: "[[concepts/noise-to-action-learning|Noise-to-Action Learning]]"
-    type: relates_to
-  - target: "[[concepts/robotics-control-loop|Robotics Control Loop]]"
-    type: relates_to
+- target: '[[entities/nvidia-gr00t|NVIDIA Project GR00T]]'
+  type: used_by
+- target: '[[concepts/noise-to-action-learning|Noise-to-Action Learning]]'
+  type: relates_to
+- target: '[[concepts/robotics-control-loop|Robotics Control Loop]]'
+  type: relates_to
+sources: []
 ---
 
 # Robot State and Action

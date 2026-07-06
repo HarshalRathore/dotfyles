@@ -1,17 +1,17 @@
 ---
-title: "OutShift"
+title: OutShift
 category: entities
 tags:
-  - entity
-  - organization
-  - cisco
-  - incubation
-  - emerging-technology
-  - ai
-  - quantum
+- entity
+- organization
+- cisco
+- incubation
+- emerging-technology
+- ai
+- quantum
 aliases: []
 sources:
-  - "AIEF2025 - Multi Agent AI and Network Knowledge Graphs for Change — Ola Mabadeje, Cisco - https://www.youtube.com/watch?v=m0dxZ-NDKHo"
+- AIEF2025 - Multi Agent AI and Network Knowledge Graphs for Change — Ola Mabadeje, Cisco - https://www.youtube.com/watch?v=m0dxZ-NDKHo
 provenance:
   extracted: 0.95
   inferred: 0.04
@@ -23,10 +23,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/cisco|Cisco]]"
-    type: part_of
-  - target: "[[entities/ola-mabadeje|Ola Mabadeje]]"
-    type: employs
+- target: '[[entities/cisco|Cisco]]'
+  type: part_of
+- target: '[[entities/ola-mabadeje|Ola Mabadeje]]'
+  type: employs
+summary: OutShift
 ---
 
 # OutShift

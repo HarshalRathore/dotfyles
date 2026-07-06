@@ -1,24 +1,25 @@
 ---
-title: "Per-Element LLM Judge"
+title: Per-Element LLM Judge
 tags:
-  - ai
-  - evaluation
-  - llm-as-judge
-  - methodology
-  - testing
-  - product
+- ai
+- evaluation
+- llm-as-judge
+- methodology
+- testing
+- product
 sources:
-  - "[[sources/watchv=6ydpi9ybjbi]]"
-summary: "An evaluation methodology where each data point in a dataset has its own unique judge prompt with specific scoring criteria, rather than a single generic LLM-as-judge prompt applied to all samples."
+- 'https://www.youtube.com/watch?v=6ydpi9ybjbi'
+summary: An evaluation methodology where each data point in a dataset has its own unique judge prompt with specific scoring criteria, rather than a single generic LLM-as-judge prompt applied to all samples.
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Per-Element LLM Judge

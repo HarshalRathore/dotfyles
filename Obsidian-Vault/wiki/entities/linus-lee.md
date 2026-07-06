@@ -1,23 +1,24 @@
 ---
-title: "Linus Lee"
+title: Linus Lee
 tags:
-  - person
-  - ai
-  - ux
-  - design
-  - aief2025
+- person
+- ai
+- ux
+- design
+- aief2025
 sources:
-  - "[[sources/watchv=bztd0yyagcq]]"
-summary: "Early critic (May 2022) of the raw text completion UI paradigm for AI, arguing before ChatGPT launched that it is not the right long-term interaction model."
+- 'https://www.youtube.com/watch?v=bztd0yyagcq'
+summary: Early critic (May 2022) of the raw text completion UI paradigm for AI, arguing before ChatGPT launched that it is not the right long-term interaction model.
 provenance:
   extracted: 0.65
-  inferred: 0.30
+  inferred: 0.3
   ambiguous: 0.05
 base_confidence: 0.45
 lifecycle: draft
 tier: peripheral
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Linus Lee

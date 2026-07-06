@@ -1,31 +1,32 @@
 ---
-title: "2025 in LLMs so far, illustrated by Pelicans on Bicycles — Simon Willison"
+title: 2025 in LLMs so far, illustrated by Pelicans on Bicycles — Simon Willison
 category: references
 tags:
-  - aief2025
-  - llm-releases
-  - benchmark
-  - local-models
-  - open-weight
-  - training-cost
-  - pricing
-  - simon-willison
-summary: "Simon Willison's AIEF2025 talk reviewing ~30 significant LLM releases from December 2024 to March 2025, using his informal SVG pelican-on-bicycle benchmark to evaluate text model code-output capabilities."
+- aief2025
+- llm-releases
+- benchmark
+- local-models
+- open-weight
+- training-cost
+- pricing
+- simon-willison
+summary: Simon Willison's AIEF2025 talk reviewing ~30 significant LLM releases from December 2024 to March 2025, using his informal SVG pelican-on-bicycle benchmark to evaluate text model code-output capabi...
 provenance:
   extracted: 0.95
   inferred: 0.04
   ambiguous: 0.01
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/simon-willison|Simon Willison]]"
-    type: related_to
-  - target: "[[concepts/pelican-bicycle-benchmark|Pelican-on-Bicycle Benchmark]]"
-    type: introduces
+- target: '[[entities/simon-willison|Simon Willison]]'
+  type: related_to
+- target: '[[concepts/pelican-bicycle-benchmark|Pelican-on-Bicycle Benchmark]]'
+  type: introduces
+sources: []
 ---
 
 # 2025 in LLMs so far, illustrated by Pelicans on Bicycles

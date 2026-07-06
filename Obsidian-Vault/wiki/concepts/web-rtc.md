@@ -1,17 +1,17 @@
 ---
-title: "WebRTC"
+title: WebRTC
 category: concepts
 tags:
-  - web-rtc
-  - real-time
-  - audio
-  - video
-  - networking
-  - protocol
+- web-rtc
+- real-time
+- audio
+- video
+- networking
+- protocol
 sources:
-  - "[[sources/watchv=e71ytnbcfxy]]"
+- 'https://www.youtube.com/watch?v=e71ytnbcfxy'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
 base_confidence: 0.85
@@ -20,12 +20,13 @@ tier: core
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/web-sockets]]"
-    type: contrasts
-  - target: "[[concepts/voice-ai-latency]]"
-    type: enables
-  - target: "[[concepts/voice-agents]]"
-    type: enables
+- target: '[[concepts/web-sockets]]'
+  type: contrasts
+- target: '[[concepts/voice-ai-latency]]'
+  type: enables
+- target: '[[concepts/voice-agents]]'
+  type: enables
+summary: WebRTC
 ---
 
 # WebRTC

@@ -1,24 +1,26 @@
 ---
-title: "Sierra"
+title: Sierra
 tags:
-  - organization
-  - ai
-  - customer-service
-  - enterprise
-aliases: [Sierra AI]
+- organization
+- ai
+- customer-service
+- enterprise
+aliases:
+- Sierra AI
 sources:
-  - "[[sources/watchv=3mzs5gnelzm]]"
-  - "[[sources/watchv=c3geufbr2js]]"
-summary: "AI customer service platform cofounded by Bret Taylor and Clay Bavor. Resolves 70% of customer service queries for companies like SiriusXM and ADT. Builds the AgentOS platform and pioneered the Agent Development Lifecycle (ADLC)."
+- 'https://www.youtube.com/watch?v=3mzs5gnelzm'
+- 'https://www.youtube.com/watch?v=c3geufbr2js'
+summary: AI customer service platform cofounded by Bret Taylor and Clay Bavor. Resolves 70% of customer service queries for companies like SiriusXM and ADT. Builds the AgentOS platform and pioneered the Age...
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.55
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Sierra

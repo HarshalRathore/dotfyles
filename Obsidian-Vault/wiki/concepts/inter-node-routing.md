@@ -1,17 +1,26 @@
 ---
 type: concept
-title: "Inter-node routing"
+title: Inter-node routing
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/pods_c92b62]]"
+- '[[sources/pods_c92b62]]'
 tags:
-  - networking
+- networking
 aliases:
-  - Pod routing across nodes
-  - "Inter-node routing"
+- Pod routing across nodes
+- Inter-node routing
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Inter-node routing
 ---
 # Inter-node routing
 

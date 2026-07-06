@@ -1,17 +1,17 @@
 ---
-title: "Workday"
+title: Workday
 category: entities
 tags:
-  - company
-  - enterprise-software
-  - hcm
-  - financials
-  - ai
+- company
+- enterprise-software
+- hcm
+- financials
+- ai
 sources:
-  - "[[sources/watchv=cb-4nkdynrs]]"
-summary: "Enterprise cloud software company providing HCM, financials, and planning services. Serves approximately 60% of the S&P 500. Has progressively integrated Gen AI capabilities from embedded features to an agent system of record."
+- 'https://www.youtube.com/watch?v=cb-4nkdynrs'
+summary: Enterprise cloud software company providing HCM, financials, and planning services. Serves approximately 60% of the S&P 500. Has progressively integrated Gen AI capabilities from embedded features...
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.55

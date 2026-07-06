@@ -1,17 +1,17 @@
 ---
-title: "MCP Gateway Pattern"
+title: MCP Gateway Pattern
 tags:
-  - mcp
-  - architecture
-  - infrastructure
-  - enterprise
-  - gateway
+- mcp
+- architecture
+- infrastructure
+- enterprise
+- gateway
 sources:
-  - "[[sources/watchv=0nhcyq8bbcm]]"
-  - "[[sources/watchv=fci4jt86gsw]]"
-summary: "Architectural pattern for centralizing MCP connections through a shared gateway service that handles routing, auth, rate limiting, observability, and policy enforcement."
+- 'https://www.youtube.com/watch?v=0nhcyq8bbcm'
+- 'https://www.youtube.com/watch?v=fci4jt86gsw'
+summary: Architectural pattern for centralizing MCP connections through a shared gateway service that handles routing, auth, rate limiting, observability, and policy enforcement.
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.42
@@ -19,6 +19,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # MCP Gateway Pattern

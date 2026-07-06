@@ -1,33 +1,26 @@
 ---
-title: "Ambitious Evals for Future Models"
+title: Ambitious Evals for Future Models
 category: concepts
 tags:
-  - evals
-  - model-evaluation
-  - product-strategy
-  - production-ai
-  - braintrust
-  - aief2025
+- evals
+- model-evaluation
+- product-strategy
+- production-ai
+- braintrust
+- aief2025
 sources:
-  - "AIEF2025 - Five hard earned lessons about Evals — Ankur Goyal, Braintrust - https://www.youtube.com/watch?v=a4BV0gGmXgA"
-summary: "Build evals ambitious enough that they're not viable today. When a new model releases, plug it in and see if previously-infeasible use cases become viable.
+- AIEF2025 - Five hard earned lessons about Evals — Ankur Goyal, Braintrust - https://www.youtube.com/watch?v=a4BV0gGmXgA
+summary: Build evals ambitious enough that they're not viable today. When a new model releases, plug it in and see if previously-infeasible use cases become viable.
 provenance:
-  extracted: 0.90
-  inferred: 0.10
-  ambiguous: 0.00
-base_confidence: 0.85
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+base_confidence: 0.42
 lifecycle: draft
-lifecycle_changed: 2026-07-04
+lifecycle_changed: '2026-07-04'
 tier: supporting
-created: 2026-07-04
-updated: 2026-07-04
-relationships:
-  - target: "[[concepts/evals-play-offense|Evals Play Offense]]"
-    type: implements
-  - target: "[[concepts/model-picking|Model Picking]]"
-    type: extends
-  - target: "[[concepts/three-signs-evals-provide-value|Three Signs Evals Provide Value]]"
-    type: relates_to
+created: '2026-07-04'
+updated: '2026-07-04'
 ---
 
 # Ambitious Evals for Future Models

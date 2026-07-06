@@ -1,16 +1,16 @@
 ---
-title: "AIEF2025 — Forget RAG Pipelines—Build Production Ready Agents in 15 Mins: Nina Lopatina, Rajiv Shah, Contextual"
+title: 'AIEF2025 — Forget RAG Pipelines—Build Production Ready Agents in 15 Mins: Nina Lopatina, Rajiv Shah, Contextual'
 category: references
 tags:
-  - aief2025
-  - rag
-  - contextual-ai
-  - managed-service
-  - enterprise-ai
-  - modular-platform
-summary: "Nina Lopatina and Rajiv Shah from Contextual AI demonstrate how to treat RAG as a managed service, showing their modular platform for production-ready RAG agents with no-code, developer, and modular tiers."
+- aief2025
+- rag
+- contextual-ai
+- managed-service
+- enterprise-ai
+- modular-platform
+summary: Nina Lopatina and Rajiv Shah from Contextual AI demonstrate how to treat RAG as a managed service, showing their modular platform for production-ready RAG agents with no-code, developer, and modula...
 sources:
-  - "AIEF2025 - Forget RAG Pipelines—Build Production Ready Agents in 15 Mins: Nina Lopatina, Rajiv Shah, Contextual - https://www.youtube.com/watch?v=lArgRvBV3tQ"
+- 'AIEF2025 - Forget RAG Pipelines—Build Production Ready Agents in 15 Mins: Nina Lopatina, Rajiv Shah, Contextual - https://www.youtube.com/watch?v=lArgRvBV3tQ'
 provenance:
   extracted: 0.95
   inferred: 0.03
@@ -22,14 +22,14 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/contextual-ai]]"
-    type: related_to
-  - target: "[[entities/nina-lopatina]]"
-    type: related_to
-  - target: "[[entities/rajiv-shah]]"
-    type: related_to
-  - target: "[[concepts/rag-as-managed-service]]"
-    type: related_to
+- target: '[[entities/contextual-ai]]'
+  type: related_to
+- target: '[[entities/nina-lopatina]]'
+  type: related_to
+- target: '[[entities/rajiv-shah]]'
+  type: related_to
+- target: '[[concepts/rag-as-managed-service]]'
+  type: related_to
 ---
 
 # AIEF2025 — Forget RAG Pipelines—Build Production Ready Agents in 15 Mins

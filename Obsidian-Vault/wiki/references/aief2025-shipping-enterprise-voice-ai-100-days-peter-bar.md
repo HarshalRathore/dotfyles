@@ -1,34 +1,34 @@
 ---
-title: "Shipping an Enterprise Voice AI Agent in 100 Days"
+title: Shipping an Enterprise Voice AI Agent in 100 Days
 category: references
 tags:
-  - voice-ai
-  - enterprise-ai
-  - customer-service
-  - intercom
-  - aief2025
-  - product-development
-  - finvoice
-summary: Peter Bar (Intercom Fin) at AIEF2025 on building Finvoice — an enterprise voice AI agent for phone support shipped in 100 days, covering use case selection, tech stack, conversation design, evals, and pricing.
+- voice-ai
+- enterprise-ai
+- customer-service
+- intercom
+- aief2025
+- product-development
+- finvoice
+summary: Peter Bar (Intercom Fin) at AIEF2025 on building Finvoice — an enterprise voice AI agent for phone support shipped in 100 days, covering use case selection, tech stack, conversation design, evals,...
 provenance:
   extracted: 0.95
   inferred: 0.05
-  ambiguous: 0.00
-base_confidence: 0.90
+  ambiguous: 0.0
+base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 sources:
-  - "[[sources/watchv=hoylz7ivgjo]]"
+- 'https://www.youtube.com/watch?v=hoylz7ivgjo'
 relationships:
-  - target: "[[concepts/finvoice]]"
-    type: related_to
-  - target: "[[entities/intercom-fin]]"
-    type: related_to
-  - target: "[[entities/peter-bar]]"
-    type: related_to
+- target: '[[concepts/finvoice]]'
+  type: related_to
+- target: '[[entities/intercom-fin]]'
+  type: related_to
+- target: '[[entities/peter-bar]]'
+  type: related_to
 ---
 
 # Shipping an Enterprise Voice AI Agent in 100 Days

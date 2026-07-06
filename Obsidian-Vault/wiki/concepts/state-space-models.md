@@ -1,35 +1,36 @@
 ---
-title: "State Space Models"
+title: State Space Models
 category: concepts
 tags:
-  - state-space-models
-  - ssm
-  - transformers
-  - architecture
-  - voice-ai
-  - inference
-  - latency
+- state-space-models
+- ssm
+- transformers
+- architecture
+- voice-ai
+- inference
+- latency
 sources:
-  - "AIEF2025 - Serving Voice AI at Scale — Arjun Desai (Cartesia) & Rohit Talluri (AWS) - https://www.youtube.com/watch?v=knH3fmGAteQ"
+- AIEF2025 - Serving Voice AI at Scale — Arjun Desai (Cartesia) & Rohit Talluri (AWS) - https://www.youtube.com/watch?v=knH3fmGAteQ
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/transformers]]"
-    type: contradicts
-  - target: "[[entities/cartesia]]"
-    type: uses
-  - target: "[[entities/sonic-2]]"
-    type: implements
-  - target: "[[concepts/voice-ai-latency]]"
-    type: enables
+- target: '[[concepts/transformers]]'
+  type: contradicts
+- target: '[[entities/cartesia]]'
+  type: uses
+- target: '[[entities/sonic-2]]'
+  type: implements
+- target: '[[concepts/voice-ai-latency]]'
+  type: enables
+summary: State Space Models
 ---
 
 # State Space Models

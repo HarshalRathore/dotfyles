@@ -1,33 +1,38 @@
 ---
-title: "AI Audits: Accessibility and Security"
+title: 'AI Audits: Accessibility and Security'
 category: concepts
 tags:
-  - accessibility
-  - security
-  - audits
-  - ai-agents
-  - code-quality
-  - aief2025
+- accessibility
+- security
+- audits
+- ai-agents
+- code-quality
+- aief2025
 sources:
-  - "AIEF2025 - Your Coding Agent Just Got Cloned And Your Brain Isn't Ready - Rustin Banks, Google Jules - https://www.youtube.com/watch?v=X4BwOu0GWb8"
+- AIEF2025 - Your Coding Agent Just Got Cloned And Your Brain Isn't Ready - Rustin Banks, Google Jules - https://www.youtube.com/watch?v=X4BwOu0GWb8
 relationships:
-  - target: [[concepts/agent-as-laundry|Agent as Laundry]]
-    type: exemplifies
-  - target: [[concepts/parallel-agent-workflows|Parallel Agent Workflows]]
-    type: enables
-  - target: [[concepts/lighthouse-scores|Lighthouse Scores]]
-    type: relates_to
-  - target: [[concepts/wcag-compliance|WCAG Compliance]]
-    type: relates_to
+- target:
+  - - concepts/agent-as-laundry|Agent as Laundry
+  type: exemplifies
+- target:
+  - - concepts/parallel-agent-workflows|Parallel Agent Workflows
+  type: enables
+- target:
+  - - concepts/lighthouse-scores|Lighthouse Scores
+  type: relates_to
+- target:
+  - - concepts/wcag-compliance|WCAG Compliance
+  type: relates_to
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: 'AI Audits: Accessibility and Security'
 ---
 
 # AI Audits: Accessibility and Security

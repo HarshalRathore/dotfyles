@@ -1,30 +1,31 @@
 ---
-title: "AI Language and Culture Understanding"
+title: AI Language and Culture Understanding
 category: concepts
 tags:
-  - natural-language
-  - culture
-  - sarcasm
-  - idioms
-  - agi
-  - aief2025
+- natural-language
+- culture
+- sarcasm
+- idioms
+- agi
+- aief2025
 sources:
-  - "AIEF2025 - Top Ten Challenges to Reach AGI — Stephen Chin, Andreas Kollegger - https://www.youtube.com/watch?v=ypyvj_56sBU"
+- AIEF2025 - Top Ten Challenges to Reach AGI — Stephen Chin, Andreas Kollegger - https://www.youtube.com/watch?v=ypyvj_56sBU
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/agi-challenges|AGI Challenges]]"
-    type: is_challenge_of
-  - target: "[[concepts/ontology-driven-retrieval|Ontology-Driven Retrieval]]"
-    type: relates_to
+- target: '[[concepts/agi-challenges|AGI Challenges]]'
+  type: is_challenge_of
+- target: '[[concepts/ontology-driven-retrieval|Ontology-Driven Retrieval]]'
+  type: relates_to
+summary: AI Language and Culture Understanding
 ---
 
 # AI Language and Culture Understanding

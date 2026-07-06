@@ -1,20 +1,20 @@
 ---
-title: "VLLM"
+title: VLLM
 tags:
-  - tool
-  - inference
-  - llm
-  - open-source
-  - serving
+- tool
+- inference
+- llm
+- open-source
+- serving
 aliases:
-  - vLLM
-  - VLLM inference runtime
+- vLLM
+- VLLM inference runtime
 sources:
-  - "[[sources/watchv=89nuzmkokik]]"
-  - "[[sources/watchv=deff3j8t5pk]]"
-summary: "Open-source high-performance LLM inference runtime. Featured in the Modal LLM Almanac as the most optimized engine for Qwen3 and Llama model families. Supports SafeTensor format, PagedAttention, and efficient serving."
+- 'https://www.youtube.com/watch?v=89nuzmkokik'
+- 'https://www.youtube.com/watch?v=deff3j8t5pk'
+summary: Open-source high-performance LLM inference runtime. Featured in the Modal LLM Almanac as the most optimized engine for Qwen3 and Llama model families. Supports SafeTensor format, PagedAttention, an...
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.45
@@ -22,6 +22,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # VLLM

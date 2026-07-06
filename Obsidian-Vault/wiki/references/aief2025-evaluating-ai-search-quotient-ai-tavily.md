@@ -1,36 +1,37 @@
 ---
-title: "Evaluating AI Search: A Practical Framework for Augmented AI Systems — Quotient AI + Tavily"
+title: 'Evaluating AI Search: A Practical Framework for Augmented AI Systems — Quotient AI + Tavily'
 category: references
 tags:
-  - evals
-  - ai-search
-  - benchmarking
-  - dynamic-data
-  - aief2025
-  - evaluation-methodology
+- evals
+- ai-search
+- benchmarking
+- dynamic-data
+- aief2025
+- evaluation-methodology
 sources:
-  - "AIEF2025 - Evaluating AI Search: A Practical Framework for Augmented AI Systems — Quotient AI + Tavily - https://www.youtube.com/watch?v=wRJD0inpmjU"
+- 'AIEF2025 - Evaluating AI Search: A Practical Framework for Augmented AI Systems — Quotient AI + Tavily - https://www.youtube.com/watch?v=wRJD0inpmjU'
 provenance:
   extracted: 0.95
   inferred: 0.03
   ambiguous: 0.02
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/quotient-ai]]"
-    type: presents_by
-  - target: "[[entities/tavily]]"
-    type: presents_by
-  - target: "[[concepts/holistic-eval-framework]]"
-    type: introduces
-  - target: "[[concepts/dynamic-eval-sets]]"
-    type: introduces
-  - target: "[[concepts/static-eval-sets]]"
-    type: discusses
+- target: '[[entities/quotient-ai]]'
+  type: presents_by
+- target: '[[entities/tavily]]'
+  type: presents_by
+- target: '[[concepts/holistic-eval-framework]]'
+  type: introduces
+- target: '[[concepts/dynamic-eval-sets]]'
+  type: introduces
+- target: '[[concepts/static-eval-sets]]'
+  type: discusses
+summary: 'Evaluating AI Search: A Practical Framework for Augmented AI Systems — Quotient AI + Tavily'
 ---
 
 # Evaluating AI Search: A Practical Framework for Augmented AI Systems — Quotient AI + Tavily

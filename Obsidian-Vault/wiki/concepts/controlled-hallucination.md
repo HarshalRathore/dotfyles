@@ -1,24 +1,25 @@
 ---
-title: "Controlled Hallucination"
+title: Controlled Hallucination
 tags:
-  - theory
-  - cognition
-  - neuroscience
+- theory
+- cognition
+- neuroscience
 aliases:
-  - perception as controlled hallucination
-  - brain as prediction machine
+- perception as controlled hallucination
+- brain as prediction machine
 sources:
-  - "[[sources/watchv=dj0b_cebhhi]]"
-summary: "The neuroscientific view that the brain has no direct access to reality and operates as a prediction machine — constructing perception through controlled hallucination. Applied by Danielle Perszyk as an analogy for AI reliability: hallucinations are features, not bugs, if properly controlled."
+- 'https://www.youtube.com/watch?v=dj0b_cebhhi'
+summary: The neuroscientific view that the brain has no direct access to reality and operates as a prediction machine — constructing perception through controlled hallucination. Applied by Danielle Perszyk...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Controlled Hallucination

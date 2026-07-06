@@ -1,27 +1,28 @@
 ---
-title: "PromptFu"
+title: PromptFu
 tags:
-  - tool
-  - evaluation
-  - safety
-  - bias
-  - red-hat
-  - open-source
+- tool
+- evaluation
+- safety
+- bias
+- red-hat
+- open-source
 aliases:
-  - promptfu
-  - Prompt FU
+- promptfu
+- Prompt FU
 sources:
-  - "[[sources/watchv=89nuzmkokik]]"
-summary: "Red Hat's open-source safety evaluation tool for LLMs, supporting customizable safety and bias tests with a wide range of examples available in its GitHub repository."
+- 'https://www.youtube.com/watch?v=89nuzmkokik'
+summary: Red Hat's open-source safety evaluation tool for LLMs, supporting customizable safety and bias tests with a wide range of examples available in its GitHub repository.
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # PromptFu

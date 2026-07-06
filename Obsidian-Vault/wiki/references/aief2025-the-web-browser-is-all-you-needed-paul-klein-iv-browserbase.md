@@ -1,24 +1,37 @@
 ---
-title: "The Web Browser Is All You Need — Paul Klein IV, Browserbase (AIEF2025)"
+title: The Web Browser Is All You Need — Paul Klein IV, Browserbase (AIEF2025)
 category: references
-tags: [mcp, browser, web-agents, browser-tools, headless, horizontal-mcp, browserbase, aief2025, stagehand, vision-agents, dom-agents]
-aliases: [Browser Is All You Need, Paul Klein Browserbase AIEF2025]
+tags:
+- mcp
+- browser
+- web-agents
+- browser-tools
+- headless
+- horizontal-mcp
+- browserbase
+- aief2025
+- stagehand
+- vision-agents
+- dom-agents
+aliases:
+- Browser Is All You Need
+- Paul Klein Browserbase AIEF2025
 relationships:
-  - target: "[[concepts/browser-as-integration-layer|Browser as Integration Layer]]"
-    type: extends
-  - target: "[[concepts/web-agent-vs-browser-tool|Web Agent vs Browser Tool]]"
-    type: extends
-  - target: "[[concepts/horizontal-vs-vertical-mcp|Horizontal vs Vertical MCP]]"
-    type: extends
-  - target: "[[concepts/vision-vs-text-web-agents|Vision vs Text Web Agents]]"
-    type: extends
-  - target: "[[entities/browserbase|Browserbase]]"
-    type: related_to
-  - target: "[[entities/paul-klein-iv|Paul Klein IV]]"
-    type: related_to
+- target: '[[concepts/browser-as-integration-layer|Browser as Integration Layer]]'
+  type: extends
+- target: '[[concepts/web-agent-vs-browser-tool|Web Agent vs Browser Tool]]'
+  type: extends
+- target: '[[concepts/horizontal-vs-vertical-mcp|Horizontal vs Vertical MCP]]'
+  type: extends
+- target: '[[concepts/vision-vs-text-web-agents|Vision vs Text Web Agents]]'
+  type: extends
+- target: '[[entities/browserbase|Browserbase]]'
+  type: related_to
+- target: '[[entities/paul-klein-iv|Paul Klein IV]]'
+  type: related_to
 sources:
-  - "AIEF2025 - The Web Browser Is All You Need - Paul Klein IV, Browserbase - https://www.youtube.com/watch?v=YRGjll7uu5w"
-summary: "Paul Klein IV argues the browser (specifically browser MCP servers) is the universal bridge between AI agents and the legacy internet, covering web agents vs browser tools, vision vs DOM agents, and horizontal MCP servers."
+- AIEF2025 - The Web Browser Is All You Need - Paul Klein IV, Browserbase - https://www.youtube.com/watch?v=YRGjll7uu5w
+summary: Paul Klein IV argues the browser (specifically browser MCP servers) is the universal bridge between AI agents and the legacy internet, covering web agents vs browser tools, vision vs DOM agents, an...
 provenance:
   extracted: 0.95
   inferred: 0.03

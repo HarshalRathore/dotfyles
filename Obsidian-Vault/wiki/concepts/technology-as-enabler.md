@@ -11,7 +11,7 @@ relationships:
   - target: "[[concepts/ai-first-transformation]]"
     type: related_to
 sources:
-  - "[[sources/watchv=sbuxrluvrwk]]"
+  - "https://www.youtube.com/watch?v=sbuxrluvrwk"
 summary: "The principle that technology enables success but is not itself the limiting factor — team building, problem understanding, and usage determine outcomes."
 provenance:
   extracted: 0.90

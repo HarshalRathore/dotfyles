@@ -1,19 +1,19 @@
 ---
-title: "Microsoft GraphRAG Blog Post — LazyGraphRAG & Benchmark QED"
+title: Microsoft GraphRAG Blog Post — LazyGraphRAG & Benchmark QED
 category: references
 tags:
-  - graphrag
-  - lazy-graphrag
-  - benchmark-qed
-  - microsoft-research
-  - blog
-  - open-source
+- graphrag
+- lazy-graphrag
+- benchmark-qed
+- microsoft-research
+- blog
+- open-source
 aliases:
-  - Microsoft GraphRAG July 2025 blog
+- Microsoft GraphRAG July 2025 blog
 sources:
-  - "AIEF2025 - GraphRAG methods to create optimized LLM context windows for Retrieval — Jonathan Larson, Microsoft - https://www.youtube.com/watch?v=c5qJHr3DnT4"
+- AIEF2025 - GraphRAG methods to create optimized LLM context windows for Retrieval — Jonathan Larson, Microsoft - https://www.youtube.com/watch?v=c5qJHr3DnT4
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.65
@@ -23,12 +23,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/lazy-graphrag|LazyGraphRAG]]"
-    type: announces
-  - target: "[[concepts/benchmark-qed|Benchmark QED]]"
-    type: announces
-  - target: "[[entities/jonathan-larson|Jonathan Larson]]"
-    type: authored-by
+- target: '[[concepts/lazy-graphrag|LazyGraphRAG]]'
+  type: announces
+- target: '[[concepts/benchmark-qed|Benchmark QED]]'
+  type: announces
+- target: '[[entities/jonathan-larson|Jonathan Larson]]'
+  type: authored-by
+summary: Microsoft GraphRAG Blog Post — LazyGraphRAG & Benchmark QED
 ---
 
 # Microsoft GraphRAG Blog Post — LazyGraphRAG & Benchmark QED

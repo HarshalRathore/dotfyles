@@ -4,7 +4,7 @@ category: concepts
 tags: [inference, model-serving, gpu-inference, ml-infrastructure, serving-stack]
 summary: The architecture and operational patterns for serving trained ML models at scale during inference. Luma AI's journey from Triton to custom PyTorch-based serving illustrates key design tradeoffs.
 sources:
-  - "[[sources/watchv=ey4o9m6aswi]]"
+  - "https://www.youtube.com/watch?v=ey4o9m6aswi"
 provenance:
   extracted: 0.75
   inferred: 0.20
@@ -16,13 +16,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[enterprise-inference-infrastructure]]"
+  - target: "[[concepts/enterprise-inference-infrastructure]]"
     type: extends
-  - target: "[[model-serving-stack]]"
+  - target: "model-serving-stack"
     type: related_to
-  - target: "[[triton-inference-server]]"
+  - target: "[[entities/triton-inference-server]]"
     type: related_to
-  - target: "[[prefill-decode-throughput-tradeoff]]"
+  - target: "[[concepts/prefill-decode-throughput-tradeoff]]"
     type: related_to
 ---
 

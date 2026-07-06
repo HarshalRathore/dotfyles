@@ -4,7 +4,7 @@ category: concepts
 tags: [llm-as-judge, evaluation, scoring, reward-modeling, judge-calibration, ai-evaluation]
 summary: "Off-the-shelf LLM-as-judge suffers from hallucinations, miscalibration, bias, and instability. These failures make it unreliable as a quality metric for AI evaluation and fuzz testing."
 sources:
-  - "[[sources/watchv=omgpvw8tbhc]]"
+  - "https://www.youtube.com/watch?v=omgpvw8tbhc"
 provenance:
   extracted: 0.70
   inferred: 0.25

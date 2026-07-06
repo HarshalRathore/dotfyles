@@ -1,30 +1,37 @@
 ---
 title: AI Augmentation 10X
 category: concepts
-tags: [ai-augmentation, 10x, tool-use, lean-startup, productivity, ai-tooling]
+tags:
+- ai-augmentation
+- 10x
+- tool-use
+- lean-startup
+- productivity
+- ai-tooling
 sources:
-  - AIEF2025 - The New Lean Startup — Sid Bendre, Olive - https://www.youtube.com/watch?v=pQz-PgA1eJw
+- AIEF2025 - The New Lean Startup — Sid Bendre, Olive - https://www.youtube.com/watch?v=pQz-PgA1eJw
 provenance:
   extracted: 0.88
   inferred: 0.08
   ambiguous: 0.04
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
-created: 2026-07-05T00:00:00Z
-updated: 2026-07-05T00:00:00Z
+created: 2026-07-05 00:00:00+00:00
+updated: 2026-07-05 00:00:00+00:00
 relationships:
-  - target: "[[concepts/lean-startup-playbook]]"
-    type: related_to
-  - target: "[[concepts/10x-generalist-hiring]]"
-    type: related_to
-  - target: "[[concepts/super-tools]]"
-    type: related_to
-  - target: "[[concepts/compounding-benefits]]"
-    type: related_to
-  - target: "[[concepts/tiny-teams]]"
-    type: related_to
+- target: '[[concepts/lean-startup-playbook]]'
+  type: related_to
+- target: '[[concepts/10x-generalist-hiring]]'
+  type: related_to
+- target: '[[concepts/super-tools]]'
+  type: related_to
+- target: '[[concepts/compounding-benefits]]'
+  type: related_to
+- target: '[[concepts/tiny-teams]]'
+  type: related_to
+summary: AI Augmentation 10X
 ---
 
 # AI Augmentation 10X

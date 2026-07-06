@@ -1,37 +1,38 @@
 ---
-title: "Benchmark Design Principles"
+title: Benchmark Design Principles
 category: concepts
 tags:
-  - benchmark
-  - design
-  - evaluation
-  - llm
-  - aief2025
-  - benchmark-quality
-summary: "Six principles for designing effective benchmarks for LLM evaluation: multi-faceted, creativity-rewarding, accessible, generative, evolutionary, and experiential. Proposed by Alex Duffy at AIEF2025. Also applicable to vector search benchmarking."
+- benchmark
+- design
+- evaluation
+- llm
+- aief2025
+- benchmark-quality
+summary: 'Six principles for designing effective benchmarks for LLM evaluation: multi-faceted, creativity-rewarding, accessible, generative, evolutionary, and experiential. Proposed by Alex Duffy at AIEF2025...'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/model-benchmarks|Model Benchmarks]]"
-    type: related_to
-  - target: "[[concepts/benchmark-memes|Benchmark Memes]]"
-    type: related_to
-  - target: "[[concepts/benchmark-saturation|Benchmark Saturation]]"
-    type: related_to
-  - target: "[[concepts/evolutionary-benchmarks|Evolutionary Benchmarks]]"
-    type: related_to
-  - target: "[[concepts/experiential-benchmarks|Experiential Benchmarks]]"
-    type: related_to
-  - target: "[[concepts/scenario-tuning-bias|Scenario Tuning Bias]]"
-    type: related_to
+- target: '[[concepts/model-benchmarks|Model Benchmarks]]'
+  type: related_to
+- target: '[[concepts/benchmark-memes|Benchmark Memes]]'
+  type: related_to
+- target: '[[concepts/benchmark-saturation|Benchmark Saturation]]'
+  type: related_to
+- target: '[[concepts/evolutionary-benchmarks|Evolutionary Benchmarks]]'
+  type: related_to
+- target: '[[concepts/experiential-benchmarks|Experiential Benchmarks]]'
+  type: related_to
+- target: '[[concepts/scenario-tuning-bias|Scenario Tuning Bias]]'
+  type: related_to
+sources: []
 ---
 
 # Benchmark Design Principles

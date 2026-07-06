@@ -1,18 +1,21 @@
 ---
-title: "Observability Tool Landscape"
+title: Observability Tool Landscape
 tags:
-  - observability
-  - tools
-  - monitoring
-  - logging
-  - dashboards
-  - incident-response
-aliases: [observability-tools, observability-landscape, observability-stack]
+- observability
+- tools
+- monitoring
+- logging
+- dashboards
+- incident-response
+aliases:
+- observability-tools
+- observability-landscape
+- observability-stack
 sources:
-  - "[[sources/watchv=l6_nigiexzq]]"
-summary: The landscape of observability tools used in production environments: Grafana, Datadog, Splunk, Elastic, Sentry. These tools process and visualize telemetry data but create the "dashboard dumpster diving" problem during incident response.
+- 'https://www.youtube.com/watch?v=l6_nigiexzq'
+summary: 'The landscape of observability tools used in production environments: Grafana, Datadog, Splunk, Elastic, Sentry. These tools process and visualize telemetry data but create the "dashboard dumpster...'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -22,12 +25,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/production-troubleshooting]]"
-    type: related_to
-  - target: "[[concepts/aiops]]"
-    type: related_to
-  - target: "[[concepts/agent-swarm]]"
-    type: related_to
+- target: '[[concepts/production-troubleshooting]]'
+  type: related_to
+- target: '[[concepts/aiops]]'
+  type: related_to
+- target: '[[concepts/agent-swarm]]'
+  type: related_to
+category: concepts
 ---
 
 # Observability Tool Landscape

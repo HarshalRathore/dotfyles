@@ -1,24 +1,25 @@
 ---
-title: "Automation → Augmentation → Agency"
+title: Automation → Augmentation → Agency
 tags:
-  - theory
-  - ai
-  - product
+- theory
+- ai
+- product
 aliases:
-  - offloading to augmentation
-  - automation-augmentation chain
+- offloading to augmentation
+- automation-augmentation chain
 sources:
-  - "[[sources/watchv=dj0b_cebhhi]]"
-summary: "Danielle Perszyk's framework tracing how automation (offloading cognitive work) can lead to augmentation (becoming expert) but doesn't always — it can also reduce agency through echo chambers, endless scrolling, and auto-complete that shuts down thinking."
+- 'https://www.youtube.com/watch?v=dj0b_cebhhi'
+summary: Danielle Perszyk's framework tracing how automation (offloading cognitive work) can lead to augmentation (becoming expert) but doesn't always — it can also reduce agency through echo chambers, endl...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Automation → Augmentation → Agency

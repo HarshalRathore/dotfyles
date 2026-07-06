@@ -1,19 +1,19 @@
 ---
-title: "Private Robotics Data"
+title: Private Robotics Data
 category: concepts
 tags:
-  - robotics
-  - data-collection
-  - proprietary-data
-  - foundation-models
-  - self-supervised-learning
-  - thermal-data
-summary: Collecting proprietary robotics data by installing sensors in active commercial kitchens — hundreds of thousands of live-cooked meals with thermal and RGB footage — to train culinary-specific perception models.
+- robotics
+- data-collection
+- proprietary-data
+- foundation-models
+- self-supervised-learning
+- thermal-data
+summary: Collecting proprietary robotics data by installing sensors in active commercial kitchens — hundreds of thousands of live-cooked meals with thermal and RGB footage — to train culinary-specific perce...
 sources:
-  - "[[sources/watchv=mbwgiwjdlso]]"
+- 'https://www.youtube.com/watch?v=mbwgiwjdlso'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.83
 lifecycle: draft
@@ -22,12 +22,12 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/thermal-computer-vision]]"
-    type: uses
-  - target: "[[concepts/robot-foundation-models]]"
-    type: related_to
-  - target: "[[concepts/data-flywheel]]"
-    type: related_to
+- target: '[[concepts/thermal-computer-vision]]'
+  type: uses
+- target: '[[concepts/robot-foundation-models]]'
+  type: related_to
+- target: '[[concepts/data-flywheel]]'
+  type: related_to
 ---
 
 Private robotics data refers to proprietary datasets collected by installing sensors in active, production environments — as opposed to scraped public data or simulated environments. CloudChef's approach involves deploying thermal and RGB cameras in working commercial kitchens to capture "hundreds of thousands of live-cooked meals" across various recipes, cuisines, and seasons.

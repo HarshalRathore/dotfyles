@@ -1,20 +1,20 @@
 ---
-title: "Agent Adoption Surge"
+title: Agent Adoption Surge
 category: concepts
 tags:
-  - agents
-  - adoption
-  - enterprise-ai
-  - automation
+- agents
+- adoption
+- enterprise-ai
+- automation
 aliases:
-  - Enterprise Agent Adoption
-  - Agent Deployment Surge
+- Enterprise Agent Adoption
+- Agent Deployment Surge
 sources:
-  - "AIEF2025 - AI Consulting in Practice – NLW, Superintelligent, @AIDailyBrief - https://www.youtube.com/watch?v=ehQFj6VmuI8"
-  - "KPMG Quarterly Pulse Survey"
+- AIEF2025 - AI Consulting in Practice – NLW, Superintelligent, @AIDailyBrief - https://www.youtube.com/watch?v=ehQFj6VmuI8
+- KPMG Quarterly Pulse Survey
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.85
 lifecycle: draft
@@ -23,12 +23,13 @@ tier: core
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/enterprise-ai-adoption|Enterprise AI Adoption]]"
-    type: part-of
-  - target: "[[concepts/pilot-to-scale-bottleneck|Pilot-to-Scale Bottleneck]]"
-    type: related_to
-  - target: "[[concepts/agent-human-interaction|Agent-Human Interaction]]"
-    type: leads-to
+- target: '[[concepts/enterprise-ai-adoption|Enterprise AI Adoption]]'
+  type: part-of
+- target: '[[concepts/pilot-to-scale-bottleneck|Pilot-to-Scale Bottleneck]]'
+  type: related_to
+- target: '[[concepts/agent-human-interaction|Agent-Human Interaction]]'
+  type: leads-to
+summary: Agent Adoption Surge
 ---
 
 # Agent Adoption Surge

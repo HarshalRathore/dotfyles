@@ -1,18 +1,18 @@
 ---
-title: "Verifiable Transparency"
+title: Verifiable Transparency
 tags:
-  - concept
-  - security
-  - transparency
-  - audit
-  - merkle-tree
-  - trust
+- concept
+- security
+- transparency
+- audit
+- merkle-tree
+- trust
 aliases:
-  - Transparency Log
-  - Verifiable Audit Log
+- Transparency Log
+- Verifiable Audit Log
 sources:
-  - "[[sources/watchv=ccswz5bjlo8]]"
-summary: "Design principle that a system's state can be publicly and cryptographically audited — implemented via append-only, Merkle-tree-based logs that record every software deployment for offline verification."
+- 'https://www.youtube.com/watch?v=ccswz5bjlo8'
+summary: Design principle that a system's state can be publicly and cryptographically audited — implemented via append-only, Merkle-tree-based logs that record every software deployment for offline verifica...
 provenance:
   extracted: 0.78
   inferred: 0.18
@@ -22,6 +22,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Verifiable Transparency

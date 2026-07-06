@@ -1,13 +1,13 @@
 ---
-title: "John Pham"
+title: John Pham
 tags:
-  - person
-  - designer
-  - ux
-  - performance
+- person
+- designer
+- ux
+- performance
 sources:
-  - "[[sources/watchv=7e7evtcygcm]]"
-summary: "Designer and engineer at SF Compute, previously at Vercel. Known for building memorable and viral web experiences, creator of the prediction cone UI pattern and the four-pillar design framework."
+- 'https://www.youtube.com/watch?v=7e7evtcygcm'
+summary: Designer and engineer at SF Compute, previously at Vercel. Known for building memorable and viral web experiences, creator of the prediction cone UI pattern and the four-pillar design framework.
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -17,6 +17,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # John Pham

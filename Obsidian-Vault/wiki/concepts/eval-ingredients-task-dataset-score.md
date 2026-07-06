@@ -1,23 +1,28 @@
 ---
-title: "Eval Ingredients: Task, Dataset, Score"
+title: '"Eval Ingredients: Task, Dataset, Score"'
 tags:
-  - concept
-  - evaluation
-  - methodology
-  - testing
-  - framework
-aliases: [eval three ingredients, task dataset score triad, eval components]
+- concept
+- evaluation
+- methodology
+- testing
+- framework
+aliases:
+- eval three ingredients
+- task dataset score triad
+- eval components
 sources:
-  - "[[sources/watchv=mc55hdwlq4o]]"
-summary: "The three components that every AI evaluation requires: a task (the prompt or workflow being tested), a dataset (real-world test cases), and a score (grading logic — LLM-as-judge or code-based). Optimized together via [[concepts/loop-automated-eval-optimization|Loop]] for compounding improvements."
-  extracted: 0.75
-  inferred: 0.20
-  ambiguous: 0.05
+- 'https://www.youtube.com/watch?v=mc55hdwlq4o'
+summary: '"The three components that every AI evaluation requires: a task (the prompt or workflow being tested), a dataset (real-world test cases), and a score (grading logic — LLM-as-judge or code-based). O...'
 base_confidence: 0.55
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-05
+category: concepts
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
 ---
 
 # Eval Ingredients: Task, Dataset, Score

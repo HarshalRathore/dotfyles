@@ -1,24 +1,25 @@
 ---
-title: "PostgreSQL MCP"
+title: PostgreSQL MCP
 category: entities
 tags:
-  - entity
-  - tool
-  - mcp-server
-  - database
-  - postgresql
-  - read-only
+- entity
+- tool
+- mcp-server
+- database
+- postgresql
+- read-only
 sources:
-  - "[[sources/watchv=rkvilz06y08]]"
+- 'https://www.youtube.com/watch?v=rkvilz06y08'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: PostgreSQL MCP
 ---
 
 # PostgreSQL MCP

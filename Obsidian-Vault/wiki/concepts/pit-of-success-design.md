@@ -1,14 +1,14 @@
 ---
-title: "Pit of Success Design"
+title: Pit of Success Design
 tags:
-  - design-philosophy
-  - engineering-culture
-  - infrastructure
+- design-philosophy
+- engineering-culture
+- infrastructure
 sources:
-  - "[[sources/watchv=0nhcyq8bbcm]]"
-summary: "Design philosophy where making the correct approach the easiest path naturally guides teams toward good practices without enforcement overhead."
+- 'https://www.youtube.com/watch?v=0nhcyq8bbcm'
+summary: Design philosophy where making the correct approach the easiest path naturally guides teams toward good practices without enforcement overhead.
 provenance:
-  extracted: 0.60
+  extracted: 0.6
   inferred: 0.35
   ambiguous: 0.05
 base_confidence: 0.42
@@ -16,6 +16,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Pit of Success Design

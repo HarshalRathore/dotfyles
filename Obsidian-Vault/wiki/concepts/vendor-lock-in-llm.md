@@ -1,23 +1,23 @@
 ---
-title: "Vendor Lock-in in LLM"
+title: Vendor Lock-in in LLM
 category: concepts
 tags:
-  - llm
-  - vendor-lock-in
-  - contracts
-  - migration
-  - enterprise-ai
-  - cost
+- llm
+- vendor-lock-in
+- contracts
+- migration
+- enterprise-ai
+- cost
 aliases:
-  - LLM Vendor Lock-in
-  - AI Vendor Lock-in
-  - Model Lock-in
-  - Prompt Lock-in
+- LLM Vendor Lock-in
+- AI Vendor Lock-in
+- Model Lock-in
+- Prompt Lock-in
 sources:
-  - "AIEF2025 - How Intuit uses LLMs to explain taxes to millions of taxpayers - Jaspreet Singh, Intuit - https://www.youtube.com/watch?v=_zl_zimMRak"
-summary: "Vendor lock-in in LLM applications arises from expensive contracts, model-specific prompt engineering, and the difficulty of switching models even within the same vendor. Long-term contracts reduce cost but increase dependency."
+- AIEF2025 - How Intuit uses LLMs to explain taxes to millions of taxpayers - Jaspreet Singh, Intuit - https://www.youtube.com/watch?v=_zl_zimMRak
+summary: Vendor lock-in in LLM applications arises from expensive contracts, model-specific prompt engineering, and the difficulty of switching models even within the same vendor. Long-term contracts reduce...
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.22
   ambiguous: 0.08
 base_confidence: 0.75
@@ -27,10 +27,10 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/model-picking|Model Picking]]"
-    type: relates_to
-  - target: "[[concepts/fine-tuning-for-specialization|Fine-Tuning for Specialization]]"
-    type: relates_to
+- target: '[[concepts/model-picking|Model Picking]]'
+  type: relates_to
+- target: '[[concepts/fine-tuning-for-specialization|Fine-Tuning for Specialization]]'
+  type: relates_to
 ---
 
 # Vendor Lock-in in LLM

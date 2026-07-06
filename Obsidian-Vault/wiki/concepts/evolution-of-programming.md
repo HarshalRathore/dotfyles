@@ -1,19 +1,19 @@
 ---
-title: "Evolution of Programming"
+title: Evolution of Programming
 tags:
-  - history
-  - programming
-  - abstraction
-  - ux
-  - software-engineering
-  - aief2025
+- history
+- programming
+- abstraction
+- ux
+- software-engineering
+- aief2025
 aliases:
-  - history of programming
-  - programming evolution
-  - evolution of coding
+- history of programming
+- programming evolution
+- evolution of coding
 sources:
-  - "[[sources/watchv=lue8k2jqfkk]]"
-summary: "The historical progression of programming from physical punch cards through higher-level languages, text editors, IDEs, and now AI coding agents — with both model capability and programming UX on exponential curves."
+- 'https://www.youtube.com/watch?v=lue8k2jqfkk'
+summary: The historical progression of programming from physical punch cards through higher-level languages, text editors, IDEs, and now AI coding agents — with both model capability and programming UX on e...
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -23,6 +23,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+category: concepts
 ---
 
 # Evolution of Programming

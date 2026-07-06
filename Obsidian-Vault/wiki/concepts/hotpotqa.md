@@ -1,18 +1,18 @@
 ---
-title: "HotPotQA"
+title: HotPotQA
 category: concepts
 tags:
-  - evals
-  - benchmarking
-  - multi-hop
-  - retrieval
-  - static-eval-sets
+- evals
+- benchmarking
+- multi-hop
+- retrieval
+- static-eval-sets
 aliases:
-  - hotpot qa
+- hotpot qa
 sources:
-  - "AIEF2025 - Evaluating AI Search: A Practical Framework for Augmented AI Systems — Quotient AI + Tavily - https://www.youtube.com/watch?v=wRJD0inpmjU"
+- 'AIEF2025 - Evaluating AI Search: A Practical Framework for Augmented AI Systems — Quotient AI + Tavily - https://www.youtube.com/watch?v=wRJD0inpmjU'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.06
   ambiguous: 0.04
 base_confidence: 0.85
@@ -22,10 +22,11 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/static-eval-sets]]"
-    type: is_a
-  - target: "[[concepts/simpleqa]]"
-    type: contrasts_with
+- target: '[[concepts/static-eval-sets]]'
+  type: is_a
+- target: '[[concepts/simpleqa]]'
+  type: contrasts_with
+summary: HotPotQA
 ---
 
 # HotPotQA

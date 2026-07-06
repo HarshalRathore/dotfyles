@@ -1,16 +1,16 @@
 ---
-title: "The 2025 AI Engineering Report — Barr Yaron, Amplify"
+title: The 2025 AI Engineering Report — Barr Yaron, Amplify
 category: references
 tags:
-  - aief2025
-  - survey
-  - ai-engineering
-  - state-of-the-field
-summary: "Barr Yaron presents early findings from the 2025 State of AI Engineering Survey (500 respondents), covering model usage, fine-tuning practices, multimodal gaps, agent adoption, monitoring, and evaluation pain points."
+- aief2025
+- survey
+- ai-engineering
+- state-of-the-field
+summary: Barr Yaron presents early findings from the 2025 State of AI Engineering Survey (500 respondents), covering model usage, fine-tuning practices, multimodal gaps, agent adoption, monitoring, and eval...
 sources:
-  - "AIEF2025 - The 2025 AI Engineering Report — Barr Yaron, Amplify - https://www.youtube.com/watch?v=mQ7_Zje7WKE"
+- AIEF2025 - The 2025 AI Engineering Report — Barr Yaron, Amplify - https://www.youtube.com/watch?v=mQ7_Zje7WKE
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -20,8 +20,8 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[misc/ai-engineer-worlds-fair-2025|AI Engineer World's Fair 2025]]"
-    type: related_to
+- target: '[[misc/ai-engineer-worlds-fair-2025|AI Engineer World''s Fair 2025]]'
+  type: related_to
 ---
 
 # The 2025 AI Engineering Report — Barr Yaron, Amplify

@@ -1,36 +1,38 @@
 ---
-title: "Shafik Quoraishee"
+title: Shafik Quoraishee
 tags:
-  - person
-  - game-developer
-  - machine-learning
-  - data-science
-  - mobile-development
-  - nyt
-  - aief2025
-  - speaker
-aliases: [Shafik Quoraishee]
+- person
+- game-developer
+- machine-learning
+- data-science
+- mobile-development
+- nyt
+- aief2025
+- speaker
+aliases:
+- Shafik Quoraishee
 sources:
-  - "[[sources/watchv=p_uhfgh4j9y]]"
-summary: "NYT Games developer with ML, mobile dev, and data science background. Presented Connections as an NLP benchmark at AIEF2025."
+- 'https://www.youtube.com/watch?v=p_uhfgh4j9y'
+summary: NYT Games developer with ML, mobile dev, and data science background. Presented Connections as an NLP benchmark at AIEF2025.
 provenance:
   extracted: 0.95
   inferred: 0.03
   ambiguous: 0.02
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/nyt-games]]"
-    type: works_at
-  - target: "[[entities/new-york-times]]"
-    type: works_at
-  - target: "[[concepts/connections-game]]"
-    type: presents
-  - target: "[[concepts/graph-coloring]]"
-    type: applies
+- target: '[[entities/nyt-games]]'
+  type: works_at
+- target: '[[entities/new-york-times]]'
+  type: works_at
+- target: '[[concepts/connections-game]]'
+  type: presents
+- target: '[[concepts/graph-coloring]]'
+  type: applies
+category: entities
 ---
 
 # Shafik Quoraishee

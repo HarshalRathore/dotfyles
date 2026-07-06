@@ -9,7 +9,7 @@ tags:
   - agentic-ai
 aliases: [Prime Intellect, prime-intellect]
 sources:
-  - "[[sources/watchv=pbhm2qknu10]]"
+  - "https://www.youtube.com/watch?v=pbhm2qknu10"
 summary: "AI company affiliated with Will Brown, who presented on training agentic reasoners via RL at AIEF2025."
 provenance:
   extracted: 0.85

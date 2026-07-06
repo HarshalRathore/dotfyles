@@ -1,34 +1,35 @@
 ---
-title: "Dynamic Batching for Voice Inference"
+title: Dynamic Batching for Voice Inference
 category: concepts
 tags:
-  - batching
-  - voice-ai
-  - inference
-  - optimization
-  - throughput
-  - latency
-  - tts
+- batching
+- voice-ai
+- inference
+- optimization
+- throughput
+- latency
+- tts
 aliases:
-  - dynamic batching
-  - voice dynamic batching
+- dynamic batching
+- voice dynamic batching
 summary: A batching strategy for TTS inference that packs tokens into variable-size batches and flushes on a timeout (e.g., 15ms), trading latency for throughput. Different from LLM continuous batching.
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/voice-inference-metrics]]"
-    type: optimizes
-  - target: "[[concepts/continuous-batching]]"
-    type: contrasts_with
-  - target: "[[concepts/audio-decoding-pipeline]]"
-    type: used_in
+- target: '[[concepts/voice-inference-metrics]]'
+  type: optimizes
+- target: '[[concepts/continuous-batching]]'
+  type: contrasts_with
+- target: '[[concepts/audio-decoding-pipeline]]'
+  type: used_in
+sources: []
 ---
 
 # Dynamic Batching for Voice Inference

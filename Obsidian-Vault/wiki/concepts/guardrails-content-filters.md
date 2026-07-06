@@ -1,32 +1,36 @@
 ---
-title: "Guardrails & Content Filters"
+title: Guardrails & Content Filters
 category: concepts
 tags:
-  - guardrails
-  - content-filters
-  - safety
-  - azure-ai-foundry
-  - microsoft
-  - defense-in-depth
-aliases: [AI guardrails, content filtering, input-output filters]
+- guardrails
+- content-filters
+- safety
+- azure-ai-foundry
+- microsoft
+- defense-in-depth
+aliases:
+- AI guardrails
+- content filtering
+- input-output filters
 relationships:
-  - target: "[[concepts/layered-agent-safety]]"
-    type: implements
-  - target: "[[concepts/prompt-shields]]"
-    type: related_to
-  - target: "[[concepts/ai-red-teaming]]"
-    type: related_to
+- target: '[[concepts/layered-agent-safety]]'
+  type: implements
+- target: '[[concepts/prompt-shields]]'
+  type: related_to
+- target: '[[concepts/ai-red-teaming]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=jhjkgramfiu]]"
+- 'https://www.youtube.com/watch?v=jhjkgramfiu'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Guardrails & Content Filters
 ---
 
 # Guardrails & Content Filters

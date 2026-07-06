@@ -1,9 +1,14 @@
 ---
 title: Super Tools
 category: concepts
-tags: [super-tools, launchdarkly, tool-augmentation, lean-startup, workflow-consolidation]
+tags:
+- super-tools
+- launchdarkly
+- tool-augmentation
+- lean-startup
+- workflow-consolidation
 sources:
-  - AIEF2025 - The New Lean Startup — Sid Bendre, Olive - https://www.youtube.com/watch?v=pQz-PgA1eJw
+- AIEF2025 - The New Lean Startup — Sid Bendre, Olive - https://www.youtube.com/watch?v=pQz-PgA1eJw
 provenance:
   extracted: 0.82
   inferred: 0.13
@@ -12,17 +17,18 @@ base_confidence: 0.88
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
-created: 2026-07-05T00:00:00Z
-updated: 2026-07-05T00:00:00Z
+created: 2026-07-05 00:00:00+00:00
+updated: 2026-07-05 00:00:00+00:00
 relationships:
-  - target: "[[concepts/lean-startup-playbook]]"
-    type: related_to
-  - target: "[[concepts/compounding-benefits]]"
-    type: related_to
-  - target: "[[concepts/ai-augmentation-10x]]"
-    type: related_to
-  - target: "[[entities/olive]]"
-    type: related_to
+- target: '[[concepts/lean-startup-playbook]]'
+  type: related_to
+- target: '[[concepts/compounding-benefits]]'
+  type: related_to
+- target: '[[concepts/ai-augmentation-10x]]'
+  type: related_to
+- target: '[[entities/olive]]'
+  type: related_to
+summary: Super Tools
 ---
 
 # Super Tools

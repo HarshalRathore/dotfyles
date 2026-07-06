@@ -1,10 +1,17 @@
 ---
 title: Federalist AI
 category: entities
-tags: [company, ai, reliability, inference, aief2025, hf0-residency, corekey]
-summary: "Research lab building reliable personalized AGI. Created CoreKey 72B — world's largest non-transformer model with 1000x lower inference cost. Claims action R1 agent beats Claude Sonnet, Gemini, and OpenAI on task reliability."
+tags:
+- company
+- ai
+- reliability
+- inference
+- aief2025
+- hf0-residency
+- corekey
+summary: Research lab building reliable personalized AGI. Created CoreKey 72B — world's largest non-transformer model with 1000x lower inference cost. Claims action R1 agent beats Claude Sonnet, Gemini, and...
 sources:
-  - "[[sources/watchv=l8-5ezsoi5a]]"
+- 'https://www.youtube.com/watch?v=l8-5ezsoi5a'
 provenance:
   extracted: 0.9
   inferred: 0.1
@@ -15,12 +22,12 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/scaling-is-dead-thesis]]"
-    type: implements
-  - target: "[[concepts/agent-reliability-challenge]]"
-    type: implements
-  - target: "[[concepts/reliability-over-intelligence]]"
-    type: implements
+- target: '[[concepts/scaling-is-dead-thesis]]'
+  type: implements
+- target: '[[concepts/agent-reliability-challenge]]'
+  type: implements
+- target: '[[concepts/reliability-over-intelligence]]'
+  type: implements
 ---
 
 # Federalist AI

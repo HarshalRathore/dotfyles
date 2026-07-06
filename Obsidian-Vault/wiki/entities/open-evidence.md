@@ -1,15 +1,15 @@
 ---
-title: "Open Evidence"
+title: Open Evidence
 tags:
-  - organization
-  - ai
-  - healthcare
-  - medical
+- organization
+- ai
+- healthcare
+- medical
 sources:
-  - "[[sources/watchv=3mzs5gnelzm]]"
-summary: "AI platform for medical research. Clinician-only access, reaches 1/3 of US doctors weekly with daily average usage."
+- 'https://www.youtube.com/watch?v=3mzs5gnelzm'
+summary: AI platform for medical research. Clinician-only access, reaches 1/3 of US doctors weekly with daily average usage.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.55
@@ -17,6 +17,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Open Evidence

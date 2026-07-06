@@ -1,20 +1,20 @@
 ---
-title: "Evolution of Verification"
+title: Evolution of Verification
 tags:
-  - testing
-  - verification
-  - debugging
-  - quality-assurance
-  - software-engineering
-  - aief2025
+- testing
+- verification
+- debugging
+- quality-assurance
+- software-engineering
+- aief2025
 aliases:
-  - verification evolution
-  - history of testing
+- verification evolution
+- history of testing
 sources:
-  - "[[sources/watchv=lue8k2jqfkk]]"
-summary: "The progression of software verification from manual debugging through probabilistic methods (fuzzing, chaos engineering) to agentic self-verification — evolving alongside programming itself."
+- 'https://www.youtube.com/watch?v=lue8k2jqfkk'
+summary: The progression of software verification from manual debugging through probabilistic methods (fuzzing, chaos engineering) to agentic self-verification — evolving alongside programming itself.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.65
@@ -22,6 +22,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+category: concepts
 ---
 
 # Evolution of Verification

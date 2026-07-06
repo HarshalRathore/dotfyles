@@ -1,13 +1,19 @@
 ---
 title: CLIP Limitations in Vision-Language Pre-training
 category: concepts
-tags: [clip, vision-language, pre-training, contrastive-learning, visual-fidelity, multimodal]
-summary: CLIP's contrastive pre-training fails to capture fine-grained visual distinctions because its caption-based loss function cannot distinguish images that share the same caption but differ in visual detail.
+tags:
+- clip
+- vision-language
+- pre-training
+- contrastive-learning
+- visual-fidelity
+- multimodal
+summary: CLIP's contrastive pre-training fails to capture fine-grained visual distinctions because its caption-based loss function cannot distinguish images that share the same caption but differ in visual...
 sources:
-  - "[[sources/watchv=iqc05ecvnye]]"
+- 'https://www.youtube.com/watch?v=iqc05ecvnye'
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.75
 lifecycle: draft
@@ -16,12 +22,12 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/dinov2-pre-training|dinov2-pre-training]]"
-    type: contradicts
-  - target: "[[concepts/vision-language-models|vision-language-models]]"
-    type: related_to
-  - target: "[[concepts/mmvp-dataset|mmvp-dataset]]"
-    type: related_to
+- target: '[[concepts/dinov2-pre-training|dinov2-pre-training]]'
+  type: contradicts
+- target: '[[concepts/vision-language-models|vision-language-models]]'
+  type: related_to
+- target: '[[concepts/mmvp-dataset|mmvp-dataset]]'
+  type: related_to
 ---
 
 CLIP is a vision-language model trained through contrastive learning on internet-scale captioned image datasets. The training process scrambles captions and images, asking the model to pair each image with its correct caption. This works well at a coarse level but fails to capture fine-grained visual distinctions.

@@ -1,18 +1,19 @@
 ---
-title: "Daytona"
+title: Daytona
 category: entities
 tags:
-  - company
-  - infrastructure
-  - agent-native
-  - sandboxes
-  - ai-agents
-  - aief2025
-aliases: [Daytona]
+- company
+- infrastructure
+- agent-native
+- sandboxes
+- ai-agents
+- aief2025
+aliases:
+- Daytona
 sources:
-  - "AIEF2025 - AX is the only Experience that Matters - Ivan Burazin, Daytona - https://www.youtube.com/watch?v=e9sLVMN76qU"
+- AIEF2025 - AX is the only Experience that Matters - Ivan Burazin, Daytona - https://www.youtube.com/watch?v=e9sLVMN76qU
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.07
   ambiguous: 0.03
 base_confidence: 0.85
@@ -22,12 +23,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/agent-native-runtime]]"
-    type: implements
-  - target: "[[concepts/agent-experience]]"
-    type: applies
-  - target: "[[entities/ivan-burazin]]"
-    type: founded_by
+- target: '[[concepts/agent-native-runtime]]'
+  type: implements
+- target: '[[concepts/agent-experience]]'
+  type: applies
+- target: '[[entities/ivan-burazin]]'
+  type: founded_by
+summary: Daytona
 ---
 
 # Daytona

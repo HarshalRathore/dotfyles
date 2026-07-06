@@ -1,30 +1,31 @@
 ---
-title: "Customer Obsession"
+title: Customer Obsession
 category: concepts
 tags:
-  - philosophy
-  - engineering-culture
-  - startup
-  - customer-success
+- philosophy
+- engineering-culture
+- startup
+- customer-success
 aliases:
-  - customer-obsession
+- customer-obsession
 sources:
-  - "AIEF2025 - #define AI Engineer - Greg Brockman, OpenAI (ft. Jensen Huang) - https://www.youtube.com/watch?v=avWhreBUYF0"
+- 'AIEF2025 - #define AI Engineer - Greg Brockman, OpenAI (ft. Jensen Huang) - https://www.youtube.com/watch?v=avWhreBUYF0'
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/stripe|Stripe]]"
-    type: exemplified-by
-  - target: "[[entities/greg-brockman|Greg Brockman]]"
-    type: practiced-by
+- target: '[[entities/stripe|Stripe]]'
+  type: exemplified-by
+- target: '[[entities/greg-brockman|Greg Brockman]]'
+  type: practiced-by
+summary: Customer Obsession
 ---
 
 # Customer Obsession

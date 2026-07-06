@@ -1,29 +1,33 @@
 ---
-title: "Agentic Evaluators"
+title: Agentic Evaluators
 category: concepts
 tags:
-  - evaluators
-  - agents
-  - evaluation
-  - azure-ai-foundry
-  - microsoft
-aliases: [agent evaluators, agentic evaluation, agent behavior evaluation]
+- evaluators
+- agents
+- evaluation
+- azure-ai-foundry
+- microsoft
+aliases:
+- agent evaluators
+- agentic evaluation
+- agent behavior evaluation
 relationships:
-  - target: "[[concepts/azure-ai-evaluation-sdk]]"
-    type: extends
-  - target: "[[concepts/agent-evaluation-pipeline]]"
-    type: related_to
+- target: '[[concepts/azure-ai-evaluation-sdk]]'
+  type: extends
+- target: '[[concepts/agent-evaluation-pipeline]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=jhjkgramfiu]]"
+- 'https://www.youtube.com/watch?v=jhjkgramfiu'
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Agentic Evaluators
 ---
 
 # Agentic Evaluators

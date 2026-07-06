@@ -1,32 +1,33 @@
 ---
-title: "TurboTax"
+title: TurboTax
 category: entities
 tags:
-  - product
-  - tax
-  - fintech
-  - intuit
-  - consumer-app
+- product
+- tax
+- fintech
+- intuit
+- consumer-app
 aliases:
-  - TurboTax
-  - Turbo Tax
+- TurboTax
+- Turbo Tax
 sources:
-  - "AIEF2025 - How Intuit uses LLMs to explain taxes to millions of taxpayers - Jaspreet Singh, Intuit - https://www.youtube.com/watch?v=_zl_zimMRak"
+- AIEF2025 - How Intuit uses LLMs to explain taxes to millions of taxpayers - Jaspreet Singh, Intuit - https://www.youtube.com/watch?v=_zl_zimMRak
 provenance:
   extracted: 0.95
   inferred: 0.03
   ambiguous: 0.02
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/intuit|Intuit]]"
-    type: owned_by
-  - target: "[[entities/intuit-assist|Intuit Assist]]"
-    type: uses
+- target: '[[entities/intuit|Intuit]]'
+  type: owned_by
+- target: '[[entities/intuit-assist|Intuit Assist]]'
+  type: uses
+summary: TurboTax
 ---
 
 # TurboTax

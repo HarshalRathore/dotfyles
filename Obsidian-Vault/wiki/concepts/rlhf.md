@@ -4,7 +4,7 @@ category: concepts
 tags: [rlhf, reinforcement-learning, human-feedback, llm, instruction-tuning, aief2025]
 aliases: [RLHF, human feedback, reinforcement learning from human feedback, preference learning]
 sources:
-  - "[[sources/watchv=qludzkvfp6a]]"
+  - "https://www.youtube.com/watch?v=qludzkvfp6a"
 summary: "Training LLMs to prefer better responses using human preference data. Teaches models to follow instructions and also works in code, producing performance improvements."
 provenance:
   extracted: 0.85

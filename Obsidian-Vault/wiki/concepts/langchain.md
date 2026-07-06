@@ -1,34 +1,35 @@
 ---
-title: "LangChain"
+title: LangChain
 tags:
-  - framework
-  - llm
-  - rag
-  - extraction
-  - graphrag
-  - aief2025
+- framework
+- llm
+- rag
+- extraction
+- graphrag
+- aief2025
 aliases:
-  - langchain
+- langchain
 sources:
-  - "[[sources/watchv=j-9ebjbxcbg]]"
-  - "[[sources/watchv=czm3cw6fdbs]]"
-summary: "An LLM application framework used at AIEF2025 for document decomposition and structured entity extraction from unstructured text, producing JSON conforming to a Pydantic schema for graph database loading."
+- 'https://www.youtube.com/watch?v=j-9ebjbxcbg'
+- 'https://www.youtube.com/watch?v=czm3cw6fdbs'
+summary: An LLM application framework used at AIEF2025 for document decomposition and structured entity extraction from unstructured text, producing JSON conforming to a Pydantic schema for graph database l...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: used_by
-  - target: "[[concepts/triplet-extraction|Triplet Extraction]]"
-    type: used_by
-  - target: "[[concepts/pydantic|Pydantic]]"
-    type: uses
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: used_by
+- target: '[[concepts/triplet-extraction|Triplet Extraction]]'
+  type: used_by
+- target: '[[concepts/pydantic|Pydantic]]'
+  type: uses
+category: concepts
 ---
 
 # LangChain

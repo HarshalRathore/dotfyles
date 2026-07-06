@@ -1,11 +1,17 @@
 ---
 title: GPU Cold Start Problem
 category: concepts
-tags: [cold-start, gpu-scaling, auto-scaling, ml-infrastructure, model-loading, voice-ai]
-summary: The expensive latency cost of warming up GPU workers for inference — loading and compiling 10-20 sub-models takes 10-20 minutes, making traditional auto-scaling wasteful for large model serving. In voice AI, cold starts are even more critical because users initiating phone calls expect immediate response.
+tags:
+- cold-start
+- gpu-scaling
+- auto-scaling
+- ml-infrastructure
+- model-loading
+- voice-ai
+summary: The expensive latency cost of warming up GPU workers for inference — loading and compiling 10-20 sub-models takes 10-20 minutes, making traditional auto-scaling wasteful for large model serving. In...
 sources:
-  - "[[sources/watchv=ey4o9m6aswi]]"
-  - "[[sources/watchv=ia4lzjh9sts]]"
+- 'https://www.youtube.com/watch?v=ey4o9m6aswi'
+- 'https://www.youtube.com/watch?v=ia4lzjh9sts'
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -17,14 +23,14 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[gpu-scaling]]"
-    type: extends
-  - target: "[[distributed-inference]]"
-    type: related_to
-  - target: "[[model-versioning]]"
-    type: related_to
-  - target: "[[concepts/voice-ai-latency]]"
-    type: related_to
+- target: '[[concepts/gpu-scaling]]'
+  type: extends
+- target: '[[concepts/distributed-inference]]'
+  type: related_to
+- target: '[[concepts/model-versioning]]'
+  type: related_to
+- target: '[[concepts/voice-ai-latency]]'
+  type: related_to
 ---
 
 The GPU cold start problem refers to the significant time and compute cost required to prepare a GPU worker for inference — loading model weights, compiling operations, and initializing the runtime environment before the worker can process any requests.

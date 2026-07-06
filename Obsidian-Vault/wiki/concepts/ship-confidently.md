@@ -1,30 +1,31 @@
 ---
-title: "Ship Confidently"
+title: Ship Confidently
 category: concepts
 tags:
-  - evals
-  - deployment
-  - confidence
-  - production-ai
-  - iteration-speed
+- evals
+- deployment
+- confidence
+- production-ai
+- iteration-speed
 sources:
-  - "AIEF2025 - Why should anyone care about Evals? — Manu Goyal, Braintrust - https://www.youtube.com/watch?v=jJ45Yz1lJao"
+- AIEF2025 - Why should anyone care about Evals? — Manu Goyal, Braintrust - https://www.youtube.com/watch?v=jJ45Yz1lJao
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/evals-laboratory|Evals as Laboratory]]"
-    type: enabled_by
-  - target: "[[concepts/ai-iteration-loop|AI Iteration Loop]]"
-    type: accelerates
-  - target: "[[concepts/eval-driven-development|Eval-Driven Development]]"
-    type: enables
+- target: '[[concepts/evals-laboratory|Evals as Laboratory]]'
+  type: enabled_by
+- target: '[[concepts/ai-iteration-loop|AI Iteration Loop]]'
+  type: accelerates
+- target: '[[concepts/eval-driven-development|Eval-Driven Development]]'
+  type: enables
+summary: Ship Confidently
 ---
 
 # Ship Confidently

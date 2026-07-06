@@ -11,7 +11,7 @@ tags:
   - providers
 summary: "Inefficiencies from communication between payers, providers, and patients. Includes claim denials, appeals, rework, and delays that increase cost without improving outcomes."
 sources:
-  - "[[sources/watchv=tquusn1qsws]]"
+  - "https://www.youtube.com/watch?v=tquusn1qsws"
 provenance:
   extracted: 0.85
   inferred: 0.15

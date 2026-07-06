@@ -1,24 +1,29 @@
 ---
-title: "Trust Adjusted Risk & Dollars"
+title: Trust Adjusted Risk & Dollars
 tags:
-  - concept
-  - ai
-  - metric
-  - risk
-  - enterprise
-aliases: [trust adjusted risk, TAR, trust risk premium, trust cost quantification]
+- concept
+- ai
+- metric
+- risk
+- enterprise
+aliases:
+- trust adjusted risk
+- TAR
+- trust risk premium
+- trust cost quantification
 sources:
-  - "[[sources/watchv=6tpm4m1yxhk]]"
-summary: "A metric that puts a dollar value on what happens when AI trust breaks — including fines, lost customers, reputational damage, and engineering effort. Designed to help CIOs quantify the business case for AI governance investment."
+- 'https://www.youtube.com/watch?v=6tpm4m1yxhk'
+summary: A metric that puts a dollar value on what happens when AI trust breaks — including fines, lost customers, reputational damage, and engineering effort. Designed to help CIOs quantify the business ca...
 provenance:
   extracted: 0.82
   inferred: 0.15
   ambiguous: 0.03
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Trust Adjusted Risk & Dollars

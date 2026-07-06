@@ -1,15 +1,15 @@
 ---
-title: "To the moon! Navigating deep context in legacy code with Augment Agent"
+title: To the moon! Navigating deep context in legacy code with Augment Agent
 tags:
-  - reference
-  - talk
-  - ai-engineer
-  - legacy-code
-  - agents
-  - developer-tools
+- reference
+- talk
+- ai-engineer
+- legacy-code
+- agents
+- developer-tools
 sources:
-  - "[[sources/watchv=6nir_cypglk]]"
-summary: "AI Engineer World's Fair 2025 talk by Forrest Brazeal and Matt Ball (Augment Code) demonstrating how AI agents can understand, test, and modernize legacy codebases — using the Apollo 11 Guidance Computer as a case study."
+- 'https://www.youtube.com/watch?v=6nir_cypglk'
+summary: AI Engineer World's Fair 2025 talk by Forrest Brazeal and Matt Ball (Augment Code) demonstrating how AI agents can understand, test, and modernize legacy codebases — using the Apollo 11 Guidance Co...
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -19,6 +19,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: references
 ---
 
 # To the moon! Navigating deep context in legacy code with Augment Agent

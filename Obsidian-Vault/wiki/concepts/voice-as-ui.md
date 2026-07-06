@@ -1,14 +1,14 @@
 ---
-title: "Voice as the Next UI Paradigm"
+title: Voice as the Next UI Paradigm
 category: concepts
 tags:
-  - voice-ai
-  - ui
-  - interaction-design
-  - platform-shift
-  - generative-ai
+- voice-ai
+- ui
+- interaction-design
+- platform-shift
+- generative-ai
 sources:
-  - "[[sources/watchv=e71ytnbcfxy]]"
+- 'https://www.youtube.com/watch?v=e71ytnbcfxy'
 provenance:
   extracted: 0.85
   inferred: 0.15
@@ -19,10 +19,11 @@ tier: core
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/beyond-chatbots]]"
-    type: extends
-  - target: "[[concepts/voice-agents]]"
-    type: enables
+- target: '[[concepts/beyond-chatbots]]'
+  type: extends
+- target: '[[concepts/voice-agents]]'
+  type: enables
+summary: Voice as the Next UI Paradigm
 ---
 
 # Voice as the Next UI Paradigm

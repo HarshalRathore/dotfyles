@@ -1,16 +1,16 @@
 ---
-title: "Legacy Code AI Agent Strategy"
+title: Legacy Code AI Agent Strategy
 tags:
-  - concept
-  - agents
-  - legacy-code
-  - engineering
-  - methodology
+- concept
+- agents
+- legacy-code
+- engineering
+- methodology
 sources:
-  - "[[sources/watchv=6nir_cypglk]]"
-summary: "A three-step methodology for using AI agents to work with unfamiliar legacy codebases: Understand (explore with chat), Write Tests (validate predicted behavior), Modernize (convert code with test verification)."
+- 'https://www.youtube.com/watch?v=6nir_cypglk'
+summary: 'A three-step methodology for using AI agents to work with unfamiliar legacy codebases: Understand (explore with chat), Write Tests (validate predicted behavior), Modernize (convert code with test v...'
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.55
@@ -18,6 +18,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Legacy Code AI Agent Strategy

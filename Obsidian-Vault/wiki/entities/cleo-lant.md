@@ -1,14 +1,23 @@
 ---
-title: "Cleo Lant"
-created: "2026-07-01"
-updated: "2026-07-01"
+title: Cleo Lant
+created: '2026-07-01'
+updated: '2026-07-01'
 tags:
-  - posthog
-  - "ai-evals"
+- posthog
+- ai-evals
 sources:
-  - "[[sources/web-posthog-com-blog-stop-ai-slop]]"
+- '[[misc/web-posthog-com-blog-stop-ai-slop]]'
 aliases:
-  - cleolant
+- cleolant
+category: entities
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Cleo Lant
 ---
 # Cleo Lant
 
@@ -21,5 +30,5 @@ Cleo Lant is a PostHog engineer. She wrote the "stop AI slop" guide to AI evalua
 
 ## Sources
 
-- [[web-posthog-com-blog-stop-ai-slop]] — Stop AI slop: a guide to AI evaluations (2026-01-15)
-- [[web-posthog-com-blog-what-if-your-product-built-itself]] — What If Your Product Built Itself? (2026-06-22)
+- [[misc/web-posthog-com-blog-stop-ai-slop]] — Stop AI slop: a guide to AI evaluations (2026-01-15)
+- [[misc/web-posthog-com-blog-what-if-your-product-built-itself]] — What If Your Product Built Itself? (2026-06-22)

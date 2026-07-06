@@ -1,27 +1,28 @@
 ---
-title: "Agentic Coding"
+title: Agentic Coding
 tags:
-  - ai-coding
-  - agents
-  - programming
-  - developer-tools
-  - aief2025
+- ai-coding
+- agents
+- programming
+- developer-tools
+- aief2025
 aliases:
-  - agentic programming
-  - ai-agentic-coding
+- agentic programming
+- ai-agentic-coding
 sources:
-  - "[[sources/watchv=lue8k2jqfkk]]"
-  - "[[sources/watchv=mi83but_23o]]"
-summary: "The paradigm where developers write natural language instead of code, and an AI agent translates it into executable programs. Represents the highest level of programming abstraction yet."
+- 'https://www.youtube.com/watch?v=lue8k2jqfkk'
+- 'https://www.youtube.com/watch?v=mi83but_23o'
+summary: The paradigm where developers write natural language instead of code, and an AI agent translates it into executable programs. Represents the highest level of programming abstraction yet.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+category: concepts
 ---
 
 # Agentic Coding

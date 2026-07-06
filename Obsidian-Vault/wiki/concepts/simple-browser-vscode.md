@@ -1,19 +1,19 @@
 ---
-title: "Simple Browser in VS Code"
+title: Simple Browser in VS Code
 category: concepts
 tags:
-  - vscode
-  - browser
-  - copilot
-  - visual-editing
-  - github
-  - microsoft
-  - aief2025
+- vscode
+- browser
+- copilot
+- visual-editing
+- github
+- microsoft
+- aief2025
 sources:
-  - "[[sources/watchv=rkvilz06y08]]"
+- 'https://www.youtube.com/watch?v=rkvilz06y08'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.75
 lifecycle: draft
@@ -21,10 +21,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/vs-code]]"
-    type: implements
-  - target: "[[entities/github-copilot]]"
-    type: related_to
+- target: '[[entities/vs-code]]'
+  type: implements
+- target: '[[entities/github-copilot]]'
+  type: related_to
+summary: Simple Browser in VS Code
 ---
 
 # Simple Browser in VS Code

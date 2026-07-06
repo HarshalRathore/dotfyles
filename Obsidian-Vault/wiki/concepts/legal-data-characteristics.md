@@ -1,17 +1,17 @@
 ---
-title: "Legal Data Characteristics"
+title: Legal Data Characteristics
 tags:
-  - legal
-  - data-characteristics
-  - document-processing
-  - domain-specific
-  - rag
-  - aief2025
+- legal
+- data-characteristics
+- document-processing
+- domain-specific
+- rag
+- aief2025
 aliases:
-  - Legal Document Characteristics
+- Legal Document Characteristics
 sources:
-  - "[[sources/watchv=w1mizchnkfa]]"
-summary: "Legal data is characterized by extreme length, high density, complex cross-references, domain-specific jargon, temporal sensitivity, and strict privacy requirements."
+- 'https://www.youtube.com/watch?v=w1mizchnkfa'
+summary: Legal data is characterized by extreme length, high density, complex cross-references, domain-specific jargon, temporal sensitivity, and strict privacy requirements.
 provenance:
   extracted: 0.85
   inferred: 0.15
@@ -22,10 +22,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/legal-ai|Legal AI]]"
-    type: related_to
-  - target: "[[concepts/enterprise-rag|Enterprise RAG]]"
-    type: related_to
+- target: '[[concepts/legal-ai|Legal AI]]'
+  type: related_to
+- target: '[[concepts/enterprise-rag|Enterprise RAG]]'
+  type: related_to
+category: concepts
 ---
 
 # Legal Data Characteristics

@@ -1,20 +1,20 @@
 ---
-title: "AIEF2025 - Building Metrics that actually work — David Karam, Pi Labs"
+title: AIEF2025 - Building Metrics that actually work — David Karam, Pi Labs
 category: references
 tags:
-  - aief2025
-  - workshop
-  - evals
-  - metrics
-  - evaluation-methodology
+- aief2025
+- workshop
+- evals
+- metrics
+- evaluation-methodology
 aliases:
-  - building-metrics-that-actually-work
+- building-metrics-that-actually-work
 sources:
-  - "AIEF2025 - [Full Workshop] Building Metrics that actually work — David Karam, Pi Labs (fmr Google Search) - https://www.youtube.com/watch?v=jxrGodnopHo"
+- AIEF2025 - [Full Workshop] Building Metrics that actually work — David Karam, Pi Labs (fmr Google Search) - https://www.youtube.com/watch?v=jxrGodnopHo
 provenance:
-  extracted: 0.90
-  inferred: 0.10
-  ambiguous: 0.00
+  extracted: 0.9
+  inferred: 0.1
+  ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-04
@@ -22,14 +22,15 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/david-karam|David Karam]]"
-    type: authored_by
-  - target: "[[entities/aief2025|AIEF2025]]"
-    type: presented_at
-  - target: "[[concepts/eval-driven-development|Eval-Driven Development]]"
-    type: relates_to
-  - target: "[[concepts/llm-evaluation-framework|LLM Evaluation Framework]]"
-    type: relates_to
+- target: '[[entities/david-karam|David Karam]]'
+  type: authored_by
+- target: '[[entities/aief2025|AIEF2025]]'
+  type: presented_at
+- target: '[[concepts/eval-driven-development|Eval-Driven Development]]'
+  type: relates_to
+- target: '[[concepts/llm-evaluation-framework|LLM Evaluation Framework]]'
+  type: relates_to
+summary: AIEF2025 - Building Metrics that actually work
 ---
 
 # AIEF2025 - Building Metrics that actually work

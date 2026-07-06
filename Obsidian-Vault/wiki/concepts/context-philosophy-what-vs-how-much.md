@@ -1,31 +1,37 @@
 ---
-title: "Context Philosophy: What vs How Much"
+title: 'Context Philosophy: What vs How Much'
 category: concepts
-tags: [context, llm-context, ai-coding, windsurf, context-engineering]
+tags:
+- context
+- llm-context
+- ai-coding
+- windsurf
+- context-engineering
 aliases:
-  - Context Philosophy
-  - What vs How Much Context
+- Context Philosophy
+- What vs How Much Context
 sources:
-  - "AIEF2025 - The Eyes Are The (Context) Window to The Soul: How Windsurf Gets to Know You — Sam Fertig, Windsurf - https://www.youtube.com/watch?v=jUv5WSPo9fk"
+- 'AIEF2025 - The Eyes Are The (Context) Window to The Soul: How Windsurf Gets to Know You — Sam Fertig, Windsurf - https://www.youtube.com/watch?v=jUv5WSPo9fk'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/context-over-models]]"
-    type: extends
-  - target: "[[concepts/heuristics-vs-hard-evidence-context]]"
-    type: encompasses
-  - target: "[[concepts/context-relevance-over-size]]"
-    type: encompasses
-  - target: "[[concepts/user-state-and-codebase-state]]"
-    type: encompasses
+- target: '[[concepts/context-over-models]]'
+  type: extends
+- target: '[[concepts/heuristics-vs-hard-evidence-context]]'
+  type: encompasses
+- target: '[[concepts/context-relevance-over-size]]'
+  type: encompasses
+- target: '[[concepts/user-state-and-codebase-state]]'
+  type: encompasses
+summary: 'Context Philosophy: What vs How Much'
 ---
 
 # Context Philosophy: What vs How Much

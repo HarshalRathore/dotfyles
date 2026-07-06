@@ -1,16 +1,25 @@
 ---
 type: concept
-title: "high-level container runtime"
+title: high-level container runtime
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/containerd-cri-etc_fb87d8]]"
+- '[[sources/containerd-cri-etc_fb87d8]]'
 tags:
-  - container
+- container
 aliases:
-  - "high-level runtime"
+- high-level runtime
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: high-level container runtime
 ---
 # high-level container runtime
 

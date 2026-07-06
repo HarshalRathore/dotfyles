@@ -1,15 +1,18 @@
 ---
-title: "Out-of-Sample Debugging"
+title: Out-of-Sample Debugging
 tags:
-  - debugging
-  - incident-response
-  - autonomous-ai
-  - first-principles
-  - observability
-aliases: [out-of-sample-debugging, out-of-sample-troubleshooting, autonomous-troubleshooting]
+- debugging
+- incident-response
+- autonomous-ai
+- first-principles
+- observability
+aliases:
+- out-of-sample-debugging
+- out-of-sample-troubleshooting
+- autonomous-troubleshooting
 sources:
-  - "[[sources/watchv=l6_nigiexzq]]"
-summary: The ability to troubleshoot a production incident from first principles without having seen it before. Traversal.ai's goal: combine causal ML, reasoning models, and agent swarms to achieve autonomous troubleshooting for novel incidents.
+- 'https://www.youtube.com/watch?v=l6_nigiexzq'
+summary: 'The ability to troubleshoot a production incident from first principles without having seen it before. Traversal.ai''s goal: combine causal ML, reasoning models, and agent swarms to achieve autonomo...'
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -21,14 +24,15 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/production-troubleshooting]]"
-    type: related_to
-  - target: "[[concepts/causal-machine-learning]]"
-    type: uses
-  - target: "[[concepts/agent-swarm]]"
-    type: uses
-  - target: "[[concepts/runbook-dependency]]"
-    type: contradicts
+- target: '[[concepts/production-troubleshooting]]'
+  type: related_to
+- target: '[[concepts/causal-machine-learning]]'
+  type: uses
+- target: '[[concepts/agent-swarm]]'
+  type: uses
+- target: '[[concepts/runbook-dependency]]'
+  type: contradicts
+category: concepts
 ---
 
 # Out-of-Sample Debugging

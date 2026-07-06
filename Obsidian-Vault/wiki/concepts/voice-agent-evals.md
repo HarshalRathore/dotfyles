@@ -1,18 +1,18 @@
 ---
-title: "Voice Agent Evals"
+title: Voice Agent Evals
 tags:
-  - evals
-  - voice
-  - ai
-  - testing
-  - observability
+- evals
+- voice
+- ai
+- testing
+- observability
 sources:
-  - "[[sources/watchv=-oxiljtjxqu]]"
-  - "[[sources/watchv=hoylz7ivgjo]]"
-  - "[[sources/watchv=l8ooyedi_ls]]"
-summary: "Four-tier evaluation strategy for voice agents: observability, SME labeling, transcription-based evals, audio evals, and synthetic conversation simulation."
+- 'https://www.youtube.com/watch?v=-oxiljtjxqu'
+- 'https://www.youtube.com/watch?v=hoylz7ivgjo'
+- 'https://www.youtube.com/watch?v=l8ooyedi_ls'
+summary: 'Four-tier evaluation strategy for voice agents: observability, SME labeling, transcription-based evals, audio evals, and synthetic conversation simulation.'
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.42
@@ -21,6 +21,7 @@ lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-04
+category: concepts
 ---
 
 # Voice Agent Evals

@@ -1,23 +1,23 @@
 ---
-title: "Model-Data-Application Harmony"
+title: Model-Data-Application Harmony
 category: concepts
 tags:
-  - ai
-  - product-design
-  - windsurf
-  - sweeone
-  - model-training
-  - application-design
-  - aief2025
-summary: "The principle that successful 2025 AI products require tight alignment between model, data, and application — where the application design mimics user behavior to inform model training, creating a cohesive system rather than three independent components."
+- ai
+- product-design
+- windsurf
+- sweeone
+- model-training
+- application-design
+- aief2025
+summary: The principle that successful 2025 AI products require tight alignment between model, data, and application — where the application design mimics user behavior to inform model training, creating a...
 sources:
-  - "[[sources/watchv=jvunpl5qo8q]]"
-  - "[[sources/watchv=k-iykdmfkhe]]"
+- 'https://www.youtube.com/watch?v=jvunpl5qo8q'
+- 'https://www.youtube.com/watch?v=k-iykdmfkhe'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.07
   ambiguous: 0.03
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting

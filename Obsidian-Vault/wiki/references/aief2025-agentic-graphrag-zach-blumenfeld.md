@@ -1,39 +1,39 @@
 ---
-title: "AIEF2025 — Agentic GraphRAG: Simplifying Retrieval Across Structured & Unstructured Data — Zach Blumenfeld"
+title: 'AIEF2025 — Agentic GraphRAG: Simplifying Retrieval Across Structured & Unstructured Data — Zach Blumenfeld'
 category: references
 tags:
-  - ai-engineering
-  - knowledge-graph
-  - graphrag
-  - neo4j
-  - aief2025
-  - mcp
+- ai-engineering
+- knowledge-graph
+- graphrag
+- neo4j
+- aief2025
+- mcp
 aliases:
-  - Zach Blumenfeld AIEF2025
-  - Agentic GraphRAG
+- Zach Blumenfeld AIEF2025
+- Agentic GraphRAG
 sources:
-  - "[[sources/watchv=czm3cw6fdbs]]"
-summary: "Zach Blumenfeld presents an agentic GraphRAG architecture using Neo4j as the central data layer, demonstrating through a live notebook why document-only vector retrieval fails for analytical queries and how structured graph extraction plus MCP-based Cypher generation enables accurate aggregation, similarity, and relationship queries."
+- 'https://www.youtube.com/watch?v=czm3cw6fdbs'
+summary: Zach Blumenfeld presents an agentic GraphRAG architecture using Neo4j as the central data layer, demonstrating through a live notebook why document-only vector retrieval fails for analytical querie...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.40
+base_confidence: 0.4
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
 relationships:
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: related_to
-  - target: "[[concepts/graph-vs-document-retrieval|Graph vs Document Retrieval]]"
-    type: related_to
-  - target: "[[concepts/graph-traversal-similarity|Graph Traversal Similarity]]"
-    type: related_to
-  - target: "[[concepts/triplet-extraction|Triplet Extraction]]"
-    type: related_to
-  - target: "[[concepts/knowledge-graph-ontology-design|Knowledge Graph Ontology Design]]"
-    type: related_to
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: related_to
+- target: '[[concepts/graph-vs-document-retrieval|Graph vs Document Retrieval]]'
+  type: related_to
+- target: '[[concepts/graph-traversal-similarity|Graph Traversal Similarity]]'
+  type: related_to
+- target: '[[concepts/triplet-extraction|Triplet Extraction]]'
+  type: related_to
+- target: '[[concepts/knowledge-graph-ontology-design|Knowledge Graph Ontology Design]]'
+  type: related_to
 ---
 
 # AIEF2025 — Agentic GraphRAG: Simplifying Retrieval Across Structured & Unstructured Data

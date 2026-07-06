@@ -1,25 +1,26 @@
 ---
-title: "MMLU-Pro"
+title: MMLU-Pro
 tags:
-  - evaluation
-  - benchmarking
-  - llm
-  - accuracy
+- evaluation
+- benchmarking
+- llm
+- accuracy
 aliases:
-  - MMLU Pro
-  - Massive Multitask Language Understanding Pro
+- MMLU Pro
+- Massive Multitask Language Understanding Pro
 sources:
-  - "[[sources/watchv=89nuzmkokik]]"
-summary: "An enhanced version of the MMLU benchmark for factual accuracy evaluation of LLMs. Extended and more challenging than the original MMLU, implemented in the lm-eval-harness framework."
+- 'https://www.youtube.com/watch?v=89nuzmkokik'
+summary: An enhanced version of the MMLU benchmark for factual accuracy evaluation of LLMs. Extended and more challenging than the original MMLU, implemented in the lm-eval-harness framework.
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # MMLU-Pro

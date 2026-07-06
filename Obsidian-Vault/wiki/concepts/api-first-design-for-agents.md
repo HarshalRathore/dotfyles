@@ -1,15 +1,18 @@
 ---
-title: "API-First Design for Agents"
+title: API-First Design for Agents
 category: concepts
 tags:
-  - agent-experience
-  - api-first
-  - machine-native
-  - agent-experience
-  - aief2025
-aliases: [api-first design, API-first for agents, machine-native interface]
+- agent-experience
+- api-first
+- machine-native
+- agent-experience
+- aief2025
+aliases:
+- api-first design
+- API-first for agents
+- machine-native interface
 sources:
-  - "AIEF2025 - AX is the only Experience that Matters - Ivan Burazin, Daytona - https://www.youtube.com/watch?v=e9sLVMN76qU"
+- AIEF2025 - AX is the only Experience that Matters - Ivan Burazin, Daytona - https://www.youtube.com/watch?v=e9sLVMN76qU
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -21,10 +24,11 @@ tier: core
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/agent-experience]]"
-    type: core_component_of
-  - target: "[[concepts/agent-autonomy]]"
-    type: enables
+- target: '[[concepts/agent-experience]]'
+  type: core_component_of
+- target: '[[concepts/agent-autonomy]]'
+  type: enables
+summary: API-First Design for Agents
 ---
 
 # API-First Design for Agents

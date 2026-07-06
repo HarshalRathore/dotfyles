@@ -1,23 +1,23 @@
 ---
-title: "Frontier Model Eval Capability"
+title: Frontier Model Eval Capability
 category: concepts
 tags:
-  - frontier-models
-  - eval-capability
-  - model-benchmarking
-  - llm-evals
+- frontier-models
+- eval-capability
+- model-benchmarking
+- llm-evals
 relationships:
-  - target: "[[concepts/cloud-4-model-breakthrough]]"
-    type: extends
-  - target: "[[concepts/synthetic-eval-generation]]"
-    type: related_to
-  - target: "[[concepts/loop-automated-eval-optimization]]"
-    type: enables
+- target: '[[concepts/cloud-4-model-breakthrough]]'
+  type: extends
+- target: '[[concepts/synthetic-eval-generation]]'
+  type: related_to
+- target: '[[concepts/loop-automated-eval-optimization]]'
+  type: enables
 sources:
-  - "[[sources/watchv=mc55hdwlq4o]]"
-summary: "The measurement of frontier models' capability at eval-related tasks — improving prompts, datasets, and scorers — tracked via quarterly evaluations. Cloud 4 represents a 6x breakthrough over its predecessor."
+- 'https://www.youtube.com/watch?v=mc55hdwlq4o'
+summary: The measurement of frontier models' capability at eval-related tasks — improving prompts, datasets, and scorers — tracked via quarterly evaluations. Cloud 4 represents a 6x breakthrough over its pr...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.17
   ambiguous: 0.03
 base_confidence: 0.68

@@ -1,15 +1,15 @@
 ---
-title: "Seth Juarez"
+title: Seth Juarez
 tags:
-  - entity
-  - person
-  - microsoft
-  - ai-platform
+- entity
+- person
+- microsoft
+- ai-platform
 sources:
-  - "[[sources/watchv=7hrw6rtxahc]]"
-summary: "Microsoft presenter who demonstrated GitHub Copilot agentic features (Copilot Spaces, task assignment, Amelie M-L-E agent) and local AI deployment at AI Engineer World's Fair 2025."
+- 'https://www.youtube.com/watch?v=7hrw6rtxahc'
+summary: Microsoft presenter who demonstrated GitHub Copilot agentic features (Copilot Spaces, task assignment, Amelie M-L-E agent) and local AI deployment at AI Engineer World's Fair 2025.
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.35
@@ -17,6 +17,7 @@ lifecycle: draft
 tier: peripheral
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Seth Juarez

@@ -1,29 +1,29 @@
 ---
-title: "Eval Optimization Triad"
+title: Eval Optimization Triad
 category: concepts
 tags:
-  - evals
-  - optimization
-  - prompts
-  - datasets
-  - scorers
-  - braintrust
+- evals
+- optimization
+- prompts
+- datasets
+- scorers
+- braintrust
 relationships:
-  - target: "[[concepts/eval-ingredients-task-dataset-score]]"
-    type: extends
-  - target: "[[concepts/loop-automated-eval-optimization]]"
-    type: implements
-  - target: "[[concepts/model-data-application-harmony]]"
-    type: related_to
+- target: '[[concepts/eval-ingredients-task-dataset-score]]'
+  type: extends
+- target: '[[concepts/loop-automated-eval-optimization]]'
+  type: implements
+- target: '[[concepts/model-data-application-harmony]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=mc55hdwlq4o]]"
-  - "[[sources/watchv=omgpvw8tbhc]]"
-summary: "The principle that eval quality depends on the interdependent optimization of three components — prompts, datasets, and scorers — where optimizing all three together yields better results than optimizing any single component in isolation."
+- 'https://www.youtube.com/watch?v=mc55hdwlq4o'
+- 'https://www.youtube.com/watch?v=omgpvw8tbhc'
+summary: The principle that eval quality depends on the interdependent optimization of three components — prompts, datasets, and scorers — where optimizing all three together yields better results than opti...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.17
   ambiguous: 0.03
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 tier: supporting
 created: 2026-07-04

@@ -8,7 +8,7 @@ tags:
   - speaker
   - aief2025
 sources:
-  - "[[sources/watchv=cb-4nkdynrs]]"
+  - "https://www.youtube.com/watch?v=cb-4nkdynrs"
 summary: "Principal AI Product Manager at Workday, building the financial audit agent and leading go-to-market for Workday's policy agent and Workday Assistant."
 provenance:
   extracted: 0.80

@@ -1,38 +1,39 @@
 ---
-title: "GraphRAG Methods to Create Optimized LLM Context Windows for Retrieval"
+title: GraphRAG Methods to Create Optimized LLM Context Windows for Retrieval
 category: references
 tags:
-  - graphrag
-  - code-understanding
-  - microsoft-research
-  - aief2025
-  - talk
-  - benchmark
-  - lazy-graphrag
-  - benchmark-qed
+- graphrag
+- code-understanding
+- microsoft-research
+- aief2025
+- talk
+- benchmark
+- lazy-graphrag
+- benchmark-qed
 aliases:
-  - GraphRAG for Code talk
-  - Jonathan Larson AIEF2025 talk
-  - GraphRAG context windows talk
+- GraphRAG for Code talk
+- Jonathan Larson AIEF2025 talk
+- GraphRAG context windows talk
 sources:
-  - "AIEF2025 - GraphRAG methods to create optimized LLM context windows for Retrieval — Jonathan Larson, Microsoft - https://www.youtube.com/watch?v=c5qJHr3DnT4"
+- AIEF2025 - GraphRAG methods to create optimized LLM context windows for Retrieval — Jonathan Larson, Microsoft - https://www.youtube.com/watch?v=c5qJHr3DnT4
 provenance:
   extracted: 0.95
   inferred: 0.03
   ambiguous: 0.02
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/jonathan-larson|Jonathan Larson]]"
-    type: presented-by
-  - target: "[[entities/aief2025|AI Engineer World's Fair 2025]]"
-    type: presented-at
-  - target: "[[entities/microsoft|Microsoft]]"
-    type: affiliated-with
+- target: '[[entities/jonathan-larson|Jonathan Larson]]'
+  type: presented-by
+- target: '[[entities/aief2025|AI Engineer World''s Fair 2025]]'
+  type: presented-at
+- target: '[[entities/microsoft|Microsoft]]'
+  type: affiliated-with
+summary: GraphRAG Methods to Create Optimized LLM Context Windows for Retrieval
 ---
 
 # GraphRAG Methods to Create Optimized LLM Context Windows for Retrieval

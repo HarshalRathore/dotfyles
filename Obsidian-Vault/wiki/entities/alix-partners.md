@@ -1,19 +1,19 @@
 ---
-title: "Alix Partners"
+title: Alix Partners
 category: entities
 tags:
-  - consulting
-  - ai-adoption
-  - professional-services
+- consulting
+- ai-adoption
+- professional-services
 sources:
-  - "AIEF2025 - The Billable Hour is Dead; Long Live the Billable Hour — Kevin Madura + Mo Bhasin, Alix Partners - https://www.youtube.com/watch?v=Wv1tAxKYLeE"
+- AIEF2025 - The Billable Hour is Dead; Long Live the Billable Hour — Kevin Madura + Mo Bhasin, Alix Partners - https://www.youtube.com/watch?v=Wv1tAxKYLeE
 relationships:
-  - target: "[[entities/kevin-madura|Kevin Madura]]"
-    type: related_to
-  - target: "[[entities/mo-bhasin|Mo Bhasin]]"
-    type: related_to
+- target: '[[entities/kevin-madura|Kevin Madura]]'
+  type: related_to
+- target: '[[entities/mo-bhasin|Mo Bhasin]]'
+  type: related_to
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.05
   ambiguous: 0.05
 base_confidence: 0.85
@@ -21,6 +21,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Alix Partners
 ---
 
 # Alix Partners

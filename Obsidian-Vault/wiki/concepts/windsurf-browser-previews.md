@@ -1,20 +1,20 @@
 ---
-title: "Windsurf Browser Previews"
+title: Windsurf Browser Previews
 category: concepts
 tags:
-  - windsurf
-  - browser-automation
-  - visual-iteration
-  - dom-inspection
-  - aief2025
-summary: "Windsurf's browser automation feature that lets the AI visually iterate on web applications by taking control of Chrome, inspecting DOM elements, and reading the JS console — enabling visual development workflows."
+- windsurf
+- browser-automation
+- visual-iteration
+- dom-inspection
+- aief2025
+summary: Windsurf's browser automation feature that lets the AI visually iterate on web applications by taking control of Chrome, inspecting DOM elements, and reading the JS console — enabling visual develo...
 sources:
-  - "[[sources/watchv=jvunpl5qo8q]]"
+- 'https://www.youtube.com/watch?v=jvunpl5qo8q'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.07
   ambiguous: 0.03
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting

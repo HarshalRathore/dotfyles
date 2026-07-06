@@ -1,23 +1,26 @@
 ---
-title: "Francois Chollet"
+title: Francois Chollet
 tags:
-  - person
-  - ai
-  - benchmarking
-  - arc-agi
-aliases: [François Chollet, Francois Chollet]
+- person
+- ai
+- benchmarking
+- arc-agi
+aliases:
+- François Chollet
+- Francois Chollet
 sources:
-  - "[[sources/watchv=3xmfpwjg8pg]]"
-summary: "AI researcher, creator of Keras, author of 'On the Measure of Intelligence' (2019), and co-founder of the ARC Prize Foundation. Defined intelligence as 'skill acquisition efficiency' and created the ARC-AGI benchmark series."
+- 'https://www.youtube.com/watch?v=3xmfpwjg8pg'
+summary: AI researcher, creator of Keras, author of 'On the Measure of Intelligence' (2019), and co-founder of the ARC Prize Foundation. Defined intelligence as 'skill acquisition efficiency' and created th...
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.65
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 # Francois Chollet
 

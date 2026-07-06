@@ -1,25 +1,29 @@
 ---
-title: "Eval Playground vs Experiments Workflow"
+title: Eval Playground vs Experiments Workflow
 tags:
-  - concept
-  - evaluation
-  - workflow
-  - experimentation
-  - testing
-aliases: [playground vs experiments, eval workspace pattern, playground experiments comparison]
+- concept
+- evaluation
+- workflow
+- experimentation
+- testing
+aliases:
+- playground vs experiments
+- eval workspace pattern
+- playground experiments comparison
 sources:
-  - "[[sources/watchv=9in-cpnp7xg]]"
-  - "AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY"
-summary: "Two complementary modes for AI evaluation: the playground for rapid iteration and A/B comparison of prompts and models, and experiments for long-lived historical tracking of scores over time."
+- 'https://www.youtube.com/watch?v=9in-cpnp7xg'
+- AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY
+summary: 'Two complementary modes for AI evaluation: the playground for rapid iteration and A/B comparison of prompts and models, and experiments for long-lived historical tracking of scores over time.'
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.55
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Eval Playground vs Experiments Workflow

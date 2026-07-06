@@ -1,32 +1,33 @@
 ---
-title: "Model Benchmarks"
+title: Model Benchmarks
 category: concepts
 tags:
-  - benchmark
-  - evaluation
-  - llm
-  - gemini
-  - model-development
-summary: "Standardized evaluation metrics used to measure and compare AI model performance across reasoning, coding, math, and other capabilities. Benchmarks function as memes that shape AI development through a lifecycle from inception to saturation."
+- benchmark
+- evaluation
+- llm
+- gemini
+- model-development
+summary: Standardized evaluation metrics used to measure and compare AI model performance across reasoning, coding, math, and other capabilities. Benchmarks function as memes that shape AI development throu...
 provenance:
-  extracted: 0.60
-  inferred: 0.30
-  ambiguous: 0.10
-base_confidence: 0.70
+  extracted: 0.6
+  inferred: 0.3
+  ambiguous: 0.1
+base_confidence: 0.7
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/gemini|Gemini]]"
-    type: related_to
-  - target: "[[concepts/model-iteration-feedback-loop|Model Iteration Feedback Loop]]"
-    type: related_to
-  - target: "[[concepts/benchmark-memes|Benchmark Memes]]"
-    type: related_to
-  - target: "[[concepts/benchmark-design-principles|Benchmark Design Principles]]"
-    type: related_to
+- target: '[[entities/gemini|Gemini]]'
+  type: related_to
+- target: '[[concepts/model-iteration-feedback-loop|Model Iteration Feedback Loop]]'
+  type: related_to
+- target: '[[concepts/benchmark-memes|Benchmark Memes]]'
+  type: related_to
+- target: '[[concepts/benchmark-design-principles|Benchmark Design Principles]]'
+  type: related_to
+sources: []
 ---
 
 # Model Benchmarks

@@ -1,20 +1,24 @@
 ---
-title: "Enterprise-Ready MCP Deployment"
+title: Enterprise-Ready MCP Deployment
 tags:
-  - mcp
-  - enterprise
-  - deployment
-  - ai-agents
+- mcp
+- enterprise
+- deployment
+- ai-agents
 sources:
-  - "[[sources/watchv=0mqya52iwqu]]"
-  - "[[sources/watchv=fci4jt86gsw]]"
-summary: "The progression of MCP (Model Context Protocol) servers from local development through authenticated internal service to full enterprise-ready deployment, covering transport architecture (remote vs stdio), OAuth 2.1 maturity, and the need to design for unknown agent consumers."
+- 'https://www.youtube.com/watch?v=0mqya52iwqu'
+- 'https://www.youtube.com/watch?v=fci4jt86gsw'
+summary: The progression of MCP (Model Context Protocol) servers from local development through authenticated internal service to full enterprise-ready deployment, covering transport architecture (remote vs...
 provenance:
   extracted: 0.55
-  inferred: 0.40
+  inferred: 0.4
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
+category: concepts
+tier: supporting
+created: '2026-07-04T15:08:37.887101+00:00'
+updated: '2026-07-04T15:08:37.887101+00:00'
 ---
 # Enterprise-Ready MCP Deployment
 

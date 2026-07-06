@@ -1,15 +1,15 @@
 ---
-title: "AI Pair Programmer Analogy"
+title: AI Pair Programmer Analogy
 tags:
-  - ai-pair-programmer
-  - copilot
-  - human-ai-collaboration
-  - mental-model
-  - aief2025
-  - github
-summary: "The mental model of treating GitHub Copilot as a human pair programmer — sharing context incrementally through natural conversation, rather than crafting terse prompts for a dumb tool."
+- ai-pair-programmer
+- copilot
+- human-ai-collaboration
+- mental-model
+- aief2025
+- github
+summary: The mental model of treating GitHub Copilot as a human pair programmer — sharing context incrementally through natural conversation, rather than crafting terse prompts for a dumb tool.
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -19,12 +19,14 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/context-management-for-agents|Context Management for Agents]]"
-    type: relates-to
-  - target: "[[entities/github-copilot|GitHub Copilot]]"
-    type: describes
-  - target: "[[concepts/code-quality-as-context|Code Quality as Context]]"
-    type: requires
+- target: '[[concepts/context-management-for-agents|Context Management for Agents]]'
+  type: relates-to
+- target: '[[entities/github-copilot|GitHub Copilot]]'
+  type: describes
+- target: '[[concepts/code-quality-as-context|Code Quality as Context]]'
+  type: requires
+category: concepts
+sources: []
 ---
 
 # AI Pair Programmer Analogy

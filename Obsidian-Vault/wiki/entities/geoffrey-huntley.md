@@ -1,27 +1,29 @@
 ---
-summary: "Creator of the Ralph coding technique. Architect of CURSED programming language, author of the Groundhog specification technique, and proponent of deliberate intentional practice in AI-assisted software development."
-title: "Geoffrey Huntley"
+summary: Creator of the Ralph coding technique. Architect of CURSED programming language, author of the Groundhog specification technique, and proponent of deliberate intentional practice in AI-assisted sof...
+title: Geoffrey Huntley
 type: entity
 created: 2026-06-30
 updated: 2026-06-30
 tags:
-  - person
-  - ai-assisted-development
-sources: ["[[sources/ralph-ai-coding-technique_ghuntley]]"]
+- person
+- ai-assisted-development
+sources:
+- '[[sources/ralph-ai-coding-technique_ghuntley]]'
 base_confidence: 0.45
 lifecycle: draft
 lifecycle_changed: 2026-06-30
 tier: supporting
 visibility: public
 provenance:
-  extracted: 0.60
-  inferred: 0.40
-  ambiguous: 0.00
+  extracted: 0.6
+  inferred: 0.4
+  ambiguous: 0.0
 aliases:
-  - ghuntley
-  - Geoffrey Huntley
-  - "@GeoffreyHuntley"
-  - geoff
+- ghuntley
+- Geoffrey Huntley
+- '@GeoffreyHuntley'
+- geoff
+category: entities
 ---
 
 # Geoffrey Huntley

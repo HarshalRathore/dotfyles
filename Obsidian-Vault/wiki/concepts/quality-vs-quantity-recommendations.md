@@ -1,21 +1,28 @@
 ---
-title: "Quality vs Quantity in Recommendations"
+title: Quality vs Quantity in Recommendations
 category: concepts
-tags: [recommendation-systems, quality, metrics, recsys, product-metrics]
-aliases: [RecSys Quality vs Quantity, Better Recs Beat More Recs]
+tags:
+- recommendation-systems
+- quality
+- metrics
+- recsys
+- product-metrics
+aliases:
+- RecSys Quality vs Quantity
+- Better Recs Beat More Recs
 relationships:
-  - target: "[[concepts/llm-data-augmentation-recsys]]"
-    type: related_to
-  - target: "[[concepts/exploratory-query-recommendation]]"
-    type: related_to
+- target: '[[concepts/llm-data-augmentation-recsys]]'
+  type: related_to
+- target: '[[concepts/exploratory-query-recommendation]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=2vlcqd6igva]]"
-summary: "Finding that reducing bad recommendations improves engagement more than maintaining high recommendation volume, demonstrated by Indeed's 20% reduction in bad recs leading to 4% higher application rate and 5% lower unsubscribe rate."
+- 'https://www.youtube.com/watch?v=2vlcqd6igva'
+summary: Finding that reducing bad recommendations improves engagement more than maintaining high recommendation volume, demonstrated by Indeed's 20% reduction in bad recs leading to 4% higher application r...
 provenance:
   extracted: 0.65
-  inferred: 0.30
+  inferred: 0.3
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-03

@@ -23,7 +23,7 @@ relationships:
   - target: "[[concepts/simple-is-better-ai|Simple is Better in AI Engineering]]"
     type: related_to
 sources:
-  - "[[sources/watchv=k-iykdmfkhe]]"
+  - "https://www.youtube.com/watch?v=k-iykdmfkhe"
 summary: "The thesis that small teams (under 15 people) of generalists, augmented by AI tools, can achieve outsized impact compared to large specialized organizations. Head count does not equal productivity."
 provenance:
   extracted: 0.80

@@ -1,25 +1,33 @@
 ---
-summary: "---"
+summary: ---
 title: Ralph Wiggum as a software engineer
-source_url:
-  - "https://ghuntley.com/ralph/"
+sources_url:
+  - https://ghuntley.com/ralph/
 author:
-  - "Geoffrey Huntley (@GeoffreyHuntley)"
+  - Geoffrey Huntley (@GeoffreyHuntley)
 date:
-  - "2025-07-14"
+  - 2025-07-14
 lifecycle: draft
 base_confidence: 0.7
 type: source
 tags:
   - AI
-  - Software Engineering
-  - Ralph Wiggum
-  - Coding Technique
+  - Software-Engineering
+  - Ralph-Wiggum
+  - Coding-Technique
 aliases:
   - Ralph Wiggum Software Engineer
   - Ralph Wiggum Coding Technique
+category: sources
+tier: supporting
+provenance:
+  extracted: 1
+  inferred: 0
+  ambiguous: 0
+created: 2026-07-02T13:00:31.011882+00:00
+updated: 2026-07-02T13:00:31.011882+00:00
 ---
-Ralph Wiggum as a "software engineer"
+# Ralph Wiggum as a "software engineer"
 
 By Geoffrey Huntley
 in AI

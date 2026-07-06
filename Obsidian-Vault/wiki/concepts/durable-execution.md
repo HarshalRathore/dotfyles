@@ -1,24 +1,33 @@
 ---
 title: Durable Execution
 category: concepts
-tags: [durable-execution, reliability, crash-proof, distributed-systems, workflow, temporal, ai-agents]
-aliases: [crash-proof execution, durable workflows]
+tags:
+- durable-execution
+- reliability
+- crash-proof
+- distributed-systems
+- workflow
+- temporal
+- ai-agents
+aliases:
+- crash-proof execution
+- durable workflows
 relationships:
-  - target: "[[concepts/events-wrong-abstraction-thesis]]"
-    type: replaces
-  - target: "[[concepts/temporal-workflow-orchestration]]"
-    type: implements
-  - target: "[[concepts/agent-reliability-challenge]]"
-    type: related_to
+- target: '[[concepts/events-wrong-abstraction-thesis]]'
+  type: replaces
+- target: '[[concepts/temporal-workflow-orchestration]]'
+  type: implements
+- target: '[[concepts/agent-reliability-challenge]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=kj9ezytws1y]]"
-  - "[[sources/watchv=1izywsokr9s]]"
-summary: "A paradigm of crash-proof execution where application state is automatically preserved, execution spans processes and machines transparently, and failures become inconsequential — proposed as the re-centered abstraction for AI agent systems."
+- 'https://www.youtube.com/watch?v=kj9ezytws1y'
+- 'https://www.youtube.com/watch?v=1izywsokr9s'
+summary: A paradigm of crash-proof execution where application state is automatically preserved, execution spans processes and machines transparently, and failures become inconsequential — proposed as the r...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.60
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-04

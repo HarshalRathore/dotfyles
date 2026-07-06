@@ -1,32 +1,33 @@
 ---
-title: "Google Photos"
+title: Google Photos
 tags:
-  - entity
-  - company
-  - google
-  - photo-editing
-  - on-device-ml
+- entity
+- company
+- google
+- photo-editing
+- on-device-ml
 aliases:
-  - Google Photos app
-  - Google Photos editing
-  - Google Photos ML
+- Google Photos app
+- Google Photos editing
+- Google Photos ML
 relationships:
-  - target: "[[entities/google-deepmind]]"
-    type: related_to
-  - target: "[[entities/kelvin-ma]]"
-    type: related_to
+- target: '[[entities/google-deepmind]]'
+  type: related_to
+- target: '[[entities/kelvin-ma]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=c13jifwnuo8]]"
-summary: "Google's photo platform with 1.5B MAU and hundreds of millions of monthly edits. Hosts the Computational Photography Team pioneering on-device ML photo editing."
+- 'https://www.youtube.com/watch?v=c13jifwnuo8'
+summary: Google's photo platform with 1.5B MAU and hundreds of millions of monthly edits. Hosts the Computational Photography Team pioneering on-device ML photo editing.
 provenance:
   extracted: 0.65
   inferred: 0.25
-  ambiguous: 0.10
-base_confidence: 0.50
+  ambiguous: 0.1
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Google Photos

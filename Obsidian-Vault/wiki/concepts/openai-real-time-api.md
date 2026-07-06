@@ -1,17 +1,17 @@
 ---
-title: "OpenAI Real-time API"
+title: OpenAI Real-time API
 tags:
-  - openai
-  - api
-  - voice
-  - speech
-  - real-time
+- openai
+- api
+- voice
+- speech
+- real-time
 sources:
-  - "[[sources/watchv=-oxiljtjxqu]]"
-  - "[[sources/watchv=1v9zbizkliy]]"
-summary: "OpenAI's speech-to-speech API that handles transcription, reasoning, and speech generation in a single real-time pass for low-latency voice applications."
+- 'https://www.youtube.com/watch?v=-oxiljtjxqu'
+- 'https://www.youtube.com/watch?v=1v9zbizkliy'
+summary: OpenAI's speech-to-speech API that handles transcription, reasoning, and speech generation in a single real-time pass for low-latency voice applications.
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.42
@@ -19,6 +19,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # OpenAI Real-time API

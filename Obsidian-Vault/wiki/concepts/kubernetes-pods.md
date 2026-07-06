@@ -1,11 +1,21 @@
 ---
 title: Kubernetes Pods
 type: redirect
-redirects_to: "[[install-kubernetes-components]]"
+redirects_to: '[[concepts/install-kubernetes-components]]'
 tags:
-  - term
-created: 
-updated: "2026-07-02"
+- term
+created: '2026-07-02T13:38:25.480409+00:00'
+updated: '2026-07-02'
+category: concepts
+sources: []
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Kubernetes Pods
 ---
 
-This page has been merged into [[install-kubernetes-components]].
+This page has been merged into [[concepts/install-kubernetes-components]].

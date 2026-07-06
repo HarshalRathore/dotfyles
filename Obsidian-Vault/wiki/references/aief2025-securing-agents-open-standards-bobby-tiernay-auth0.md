@@ -1,21 +1,27 @@
 ---
-title: "Securing Agents with Open Standards — Bobby Tiernay and Kam Sween, Auth0 (AIEF2025)"
+title: Securing Agents with Open Standards — Bobby Tiernay and Kam Sween, Auth0 (AIEF2025)
 tags:
-  - reference
-  - talk
-  - aief2025
-  - identity
-  - auth
-  - agents
-  - security
-  - oauth
+- reference
+- talk
+- aief2025
+- identity
+- auth
+- agents
+- security
+- oauth
 sources:
-  - "[[sources/watchv=fzomsupg37e]]"
-summary: "Auth0 engineers on practical patterns for agent identity and access control: token exchange over shared secrets, CIBA for headless auth, OAuth 2.1 for MCP, and retrieval-layer authorization for RAG."
+- 'https://www.youtube.com/watch?v=fzomsupg37e'
+summary: 'Auth0 engineers on practical patterns for agent identity and access control: token exchange over shared secrets, CIBA for headless auth, OAuth 2.1 for MCP, and retrieval-layer authorization for RAG.'
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: references
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
 ---
 # Securing Agents with Open Standards — Bobby Tiernay and Kam Sween, Auth0
 

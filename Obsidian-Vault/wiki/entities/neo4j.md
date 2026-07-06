@@ -1,38 +1,39 @@
 ---
-title: "Neo4j"
+title: Neo4j
 category: entities
 tags:
-  - entity
-  - company
-  - graph-database
-  - ai
-  - neo4j
+- entity
+- company
+- graph-database
+- ai
+- neo4j
 aliases:
-  - Neo4j Inc
+- Neo4j Inc
 sources:
-  - "[[sources/watchv=XNneh6-eyPg]]"
-  - "[[sources/watchv=cbir9xs2skq]]"
-  - "[[sources/watchv=czm3cw6fdbs]]"
-  - "[[sources/watchv=9aqovt8lnmi]]"
-  - "[[sources/watchv=-tgqa8fzf80]]"
-  - "[[sources/watchv=1nOTQsfe1RU]]"
-  - "AIEF2025 - Knowledge Graphs in Litigation Agents — Tom Smoker, WhyHow - https://www.youtube.com/watch?v=yYxr6LdXNWM"
-  - "AIEF2025 - Top Ten Challenges to Reach AGI — Stephen Chin, Andreas Kollegger - https://www.youtube.com/watch?v=ypyvj_56sBU"
+- 'https://www.youtube.com/watch?v=XNneh6-eyPg'
+- 'https://www.youtube.com/watch?v=cbir9xs2skq'
+- 'https://www.youtube.com/watch?v=czm3cw6fdbs'
+- 'https://www.youtube.com/watch?v=9aqovt8lnmi'
+- 'https://www.youtube.com/watch?v=-tgqa8fzf80'
+- 'https://www.youtube.com/watch?v=1nOTQsfe1RU'
+- AIEF2025 - Knowledge Graphs in Litigation Agents — Tom Smoker, WhyHow - https://www.youtube.com/watch?v=yYxr6LdXNWM
+- AIEF2025 - Top Ten Challenges to Reach AGI — Stephen Chin, Andreas Kollegger - https://www.youtube.com/watch?v=ypyvj_56sBU
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: promotes
-  - target: "[[concepts/ontology-driven-retrieval|Ontology-Driven Retrieval]]"
-    type: developed-pattern
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: promotes
+- target: '[[concepts/ontology-driven-retrieval|Ontology-Driven Retrieval]]'
+  type: developed-pattern
+summary: Neo4j
 ---
 
 # Neo4j

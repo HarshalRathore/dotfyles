@@ -13,16 +13,16 @@ tier: supporting
 created: 2026-07-05T00:00:00Z
 updated: 2026-07-05T00:00:00Z
 relationships:
-  - target: "[[entities/nvidia.md]]"
+  - target: "[[entities/nvidia]]"
     type: implements
-  - target: "[[concepts/gpu-time-profiling.md]]"
+  - target: "[[concepts/gpu-time-profiling]]"
     type: relates_to
 ---
 
 # CUDA
 
-[[CUDA]] (Compute Unified Device Architecture) is NVIDIA's parallel computing platform and programming model that enables developers to use GPU-accelerated computing. It provides a programming interface (libcuda) that allows CPU-side code in various languages (Python, Rust, etc.) to launch and manage GPU kernel execution.
+[[entities/cuda]] (Compute Unified Device Architecture) is NVIDIA's parallel computing platform and programming model that enables developers to use GPU-accelerated computing. It provides a programming interface (libcuda) that allows CPU-side code in various languages (Python, Rust, etc.) to launch and manage GPU kernel execution.
 
-In the context of [[concepts/gpu-time-profiling|GPU time profiling]], CUDA kernel launches are tracked by the Linux kernel via [[concepts/ebpf.md|eBPF]] — when a CUDA stack is pushed onto the CPU, the kernel records the start time, and when the kernel terminates, it records the end time, enabling measurement of actual GPU time per function.
+In the context of [[concepts/gpu-time-profiling|GPU time profiling]], CUDA kernel launches are tracked by the Linux kernel via [[concepts/ebpf|eBPF]] — when a CUDA stack is pushed onto the CPU, the kernel records the start time, and when the kernel terminates, it records the end time, enabling measurement of actual GPU time per function.
 
 The `libcuda` library is the interface through which applications (including Python via PyTorch, TensorFlow, etc.) interact with NVIDIA GPUs to launch compute kernels.

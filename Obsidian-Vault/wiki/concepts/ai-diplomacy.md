@@ -1,18 +1,18 @@
 ---
-title: "AI Diplomacy"
+title: AI Diplomacy
 category: concepts
 tags:
-  - benchmark
-  - game
-  - negotiation
-  - model-personality
-  - llm
-  - aief2025
-  - diplomacy
-  - ai-diplomacy
-summary: "A benchmark game created by Alex Duffy where LLMs play the board game Diplomacy — a zero-luck strategy game where progress depends entirely on inter-model messaging, negotiation, alliance formation, and betrayal."
+- benchmark
+- game
+- negotiation
+- model-personality
+- llm
+- aief2025
+- diplomacy
+- ai-diplomacy
+summary: A benchmark game created by Alex Duffy where LLMs play the board game Diplomacy — a zero-luck strategy game where progress depends entirely on inter-model messaging, negotiation, alliance formation...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.82
@@ -22,14 +22,15 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/model-personality|Model Personality]]"
-    type: related_to
-  - target: "[[concepts/experiential-benchmarks|Experiential Benchmarks]]"
-    type: extends
-  - target: "[[entities/alex-duffy|Alex Duffy]]"
-    type: related_to
-  - target: "[[entities/google-deepmind|Google DeepMind]]"
-    type: related_to
+- target: '[[concepts/model-personality|Model Personality]]'
+  type: related_to
+- target: '[[concepts/experiential-benchmarks|Experiential Benchmarks]]'
+  type: extends
+- target: '[[entities/alex-duffy|Alex Duffy]]'
+  type: related_to
+- target: '[[entities/google-deepmind|Google DeepMind]]'
+  type: related_to
+sources: []
 ---
 
 # AI Diplomacy

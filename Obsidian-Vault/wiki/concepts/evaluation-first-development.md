@@ -1,27 +1,30 @@
 ---
-title: "Evaluation-First Development"
+title: Evaluation-First Development
 tags:
-  - ai
-  - evaluation
-  - methodology
-  - testing
-  - development
+- ai
+- evaluation
+- methodology
+- testing
+- development
 sources:
-  - "[[sources/watchv=-tgqa8fzf80]]"
-  - "[[sources/watchv=1__v4ktv_gw]]"
-  - "[[sources/watchv=6ydpi9ybjbi]]"
-  - "[[sources/watchv=89nuzmkokik]]"
-  - "[[sources/watchv=8rabwkrsec4]]"
-  - "[[sources/watchv=9in-cpnp7xg]]"
-  - "[[sources/watchv=cqguvf6gsrm]]"
+- 'https://www.youtube.com/watch?v=-tgqa8fzf80'
+- 'https://www.youtube.com/watch?v=1__v4ktv_gw'
+- 'https://www.youtube.com/watch?v=6ydpi9ybjbi'
+- 'https://www.youtube.com/watch?v=89nuzmkokik'
+- 'https://www.youtube.com/watch?v=8rabwkrsec4'
+- 'https://www.youtube.com/watch?v=9in-cpnp7xg'
+- 'https://www.youtube.com/watch?v=cqguvf6gsrm'
 provenance:
   extracted: 0.75
-  inferred: 0.20
+  inferred: 0.2
   ambiguous: 0.05
 base_confidence: 0.58
 lifecycle: draft
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
+tier: supporting
+summary: Evaluation-First Development
 ---
 
 # Evaluation-First Development

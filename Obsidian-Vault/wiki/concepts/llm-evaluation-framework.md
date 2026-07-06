@@ -1,52 +1,53 @@
 ---
-title: "LLM Evaluation Framework"
+title: LLM Evaluation Framework
 category: concepts
 tags:
-  - llm
-  - evaluation
-  - metrics
-  - quality
-  - enterprise-ai
-  - llm-as-judge
+- llm
+- evaluation
+- metrics
+- quality
+- enterprise-ai
+- llm-as-judge
 aliases:
-  - LLM Eval Framework
-  - LLM Evaluation
-  - LLM Quality Assessment
+- LLM Eval Framework
+- LLM Evaluation
+- LLM Quality Assessment
 sources:
-  - "AIEF2025 - How Intuit uses LLMs to explain taxes to millions of taxpayers - Jaspreet Singh, Intuit - https://www.youtube.com/watch?v=_zl_zimMRak"
-  - "AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY"
-  - "AIEF2025 - How to run Evals at Scale: Thinking beyond Accuracy or Similarity — Muktesh Mishra, Adobe - https://www.youtube.com/watch?v=coKKKKh8Vns"
-  - "AIEF2025 - How to look at your data — Jeff Huber (Chroma) + Jason Liu (567) - https://www.youtube.com/watch?v=jryZvCuA0Uc"
-  - "AIEF2025 - Prompt Engineering is Dead — Nir Gazit, Traceloop - https://www.youtube.com/watch?v=jvKf6zXrNO4"
-  - "AIEF2025 - [Full Workshop] Building Metrics that actually work — David Karam, Pi Labs (fmr Google Search) - https://www.youtube.com/watch?v=jxrGodnopHo"
-  - "AIEF2025 - How to Build Planning Agents without losing control - Yogendra Miraje, Factset - https://www.youtube.com/watch?v=sl3icG-IjHo"
-  - "AIEF2025 - Engineering Better Evals: Scalable LLM Evaluation Pipelines That Work — Dat Ngo, Aman Khan, Arize - https://www.youtube.com/watch?v=spvXj9tnWAQ"
-  - "AIEF2025 - Taming Rogue AI Agents with Observability-Driven Evaluation — Jim Bennett, Galileo - https://www.youtube.com/watch?v=xJXm4Wcw4m8"
+- AIEF2025 - How Intuit uses LLMs to explain taxes to millions of taxpayers - Jaspreet Singh, Intuit - https://www.youtube.com/watch?v=_zl_zimMRak
+- AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY
+- 'AIEF2025 - How to run Evals at Scale: Thinking beyond Accuracy or Similarity — Muktesh Mishra, Adobe - https://www.youtube.com/watch?v=coKKKKh8Vns'
+- AIEF2025 - How to look at your data — Jeff Huber (Chroma) + Jason Liu (567) - https://www.youtube.com/watch?v=jryZvCuA0Uc
+- AIEF2025 - Prompt Engineering is Dead — Nir Gazit, Traceloop - https://www.youtube.com/watch?v=jvKf6zXrNO4
+- AIEF2025 - [Full Workshop] Building Metrics that actually work — David Karam, Pi Labs (fmr Google Search) - https://www.youtube.com/watch?v=jxrGodnopHo
+- AIEF2025 - How to Build Planning Agents without losing control - Yogendra Miraje, Factset - https://www.youtube.com/watch?v=sl3icG-IjHo
+- 'AIEF2025 - Engineering Better Evals: Scalable LLM Evaluation Pipelines That Work — Dat Ngo, Aman Khan, Arize - https://www.youtube.com/watch?v=spvXj9tnWAQ'
+- AIEF2025 - Taming Rogue AI Agents with Observability-Driven Evaluation — Jim Bennett, Galileo - https://www.youtube.com/watch?v=xJXm4Wcw4m8
 provenance:
   extracted: 0.68
   inferred: 0.26
   ambiguous: 0.06
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/rag-evaluation|RAG Evaluation]]"
-    type: relates_to
-  - target: "[[concepts/llm-as-judge|LLM as Judge]]"
-    type: uses
-  - target: "[[concepts/domain-expert-prompt-engineering|Domain Expert Prompt Engineering]]"
-    type: includes
-  - target: "[[concepts/fast-evals|Fast Evals]]"
-    type: relates_to
-  - target: "[[concepts/ground-truth-evaluation|Ground Truth Evaluation]]"
-    type: relates_to
-  - target: "[[concepts/stochastic-systems-evaluation|Stochastic Systems Evaluation]]"
-    type: relates_to
-  - target: "[[concepts/methodology-over-tooling|Methodology Over Tooling]]"
-    type: relates_to
+- target: '[[concepts/rag-evaluation|RAG Evaluation]]'
+  type: relates_to
+- target: '[[concepts/llm-as-judge|LLM as Judge]]'
+  type: uses
+- target: '[[concepts/domain-expert-prompt-engineering|Domain Expert Prompt Engineering]]'
+  type: includes
+- target: '[[concepts/fast-evals|Fast Evals]]'
+  type: relates_to
+- target: '[[concepts/ground-truth-evaluation|Ground Truth Evaluation]]'
+  type: relates_to
+- target: '[[concepts/stochastic-systems-evaluation|Stochastic Systems Evaluation]]'
+  type: relates_to
+- target: '[[concepts/methodology-over-tooling|Methodology Over Tooling]]'
+  type: relates_to
+summary: LLM Evaluation Framework
 ---
 
 # LLM Evaluation Framework

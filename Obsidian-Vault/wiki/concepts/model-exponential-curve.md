@@ -1,26 +1,27 @@
 ---
-title: "Model Exponential Curve"
+title: Model Exponential Curve
 tags:
-  - ai
-  - models
-  - exponential-growth
-  - capability
-  - aief2025
+- ai
+- models
+- exponential-growth
+- capability
+- aief2025
 aliases:
-  - exponential model improvement
-  - model capability curve
+- exponential model improvement
+- model capability curve
 sources:
-  - "[[sources/watchv=lue8k2jqfkk]]"
-summary: "The observation that AI model capability improves exponentially while product development moves at human speed, creating a widening gap that shapes product design decisions."
+- 'https://www.youtube.com/watch?v=lue8k2jqfkk'
+summary: The observation that AI model capability improves exponentially while product development moves at human speed, creating a widening gap that shapes product design decisions.
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.7
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+category: concepts
 ---
 
 # Model Exponential Curve

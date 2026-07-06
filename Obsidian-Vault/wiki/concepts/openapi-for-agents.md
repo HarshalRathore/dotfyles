@@ -1,26 +1,35 @@
 ---
-title: "OpenAPI for Agents"
+title: OpenAPI for Agents
 category: concepts
-tags: [openapi, json-schema, api-schema, agent-tools, machine-readable, api-design]
-summary: "Using OpenAPI JSON schemas as the foundation for agent tool discovery and execution. A single JSON file describing paths, endpoints, parameters, and payloads becomes the contract between agents and APIs."
+tags:
+- openapi
+- json-schema
+- api-schema
+- agent-tools
+- machine-readable
+- api-design
+summary: Using OpenAPI JSON schemas as the foundation for agent tool discovery and execution. A single JSON file describing paths, endpoints, parameters, and payloads becomes the contract between agents and...
 sources:
-  - "AIEF2025 - Design like Karpathy is watching — Zeke Sikelianos, Replicate - https://www.youtube.com/watch?v=huQPkrwVWwc"
-provenance: { extracted: 0.8, inferred: 0.2, ambiguous: 0.0 }
+- AIEF2025 - Design like Karpathy is watching — Zeke Sikelianos, Replicate - https://www.youtube.com/watch?v=huQPkrwVWwc
+provenance:
+  extracted: 0.8
+  inferred: 0.2
+  ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
-created: 2026-07-04T00:00:00Z
-updated: 2026-07-04T00:00:00Z
+created: 2026-07-04 00:00:00+00:00
+updated: 2026-07-04 00:00:00+00:00
 relationships:
-  - target: "[[concepts/mcp|Model Context Protocol]]"
-    type: extends
-  - target: "[[concepts/api-first-design-for-agents|API-First Design for Agents]]"
-    type: related_to
-  - target: "[[concepts/cog-container|Cog]]"
-    type: uses
-  - target: "[[concepts/curl-over-click|Curl Over Click]]"
-    type: related_to
+- target: '[[concepts/mcp|Model Context Protocol]]'
+  type: extends
+- target: '[[concepts/api-first-design-for-agents|API-First Design for Agents]]'
+  type: related_to
+- target: '[[concepts/cog-container|Cog]]'
+  type: uses
+- target: '[[concepts/curl-over-click|Curl Over Click]]'
+  type: related_to
 ---
 
 ## OpenAPI for Agents

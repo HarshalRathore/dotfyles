@@ -1,22 +1,22 @@
 ---
-title: "AI Bot Defense"
+title: AI Bot Defense
 tags:
-  - security
-  - bots
-  - crawlers
-  - web-security
-  - rate-limiting
-  - fingerprinting
+- security
+- bots
+- crawlers
+- web-security
+- rate-limiting
+- fingerprinting
 relationships:
-  - target: "[[concepts/ai-crawler-landscape]]"
-    type: related_to
-  - target: "[[entities/arcjet]]"
-    type: implements
+- target: '[[concepts/ai-crawler-landscape]]'
+  type: related_to
+- target: '[[entities/arcjet]]'
+  type: implements
 sources:
-  - "[[sources/watchv=gi4v8vibgyq]]"
-summary: "Layered defense strategies for protecting web applications from AI-driven bots, crawlers, and automated clients. Eight layers from robots.txt to cryptographic fingerprinting."
+- 'https://www.youtube.com/watch?v=gi4v8vibgyq'
+summary: Layered defense strategies for protecting web applications from AI-driven bots, crawlers, and automated clients. Eight layers from robots.txt to cryptographic fingerprinting.
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.65
@@ -24,6 +24,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # AI Bot Defense

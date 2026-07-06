@@ -1,27 +1,27 @@
 ---
-title: "Offline Recommendations Table"
+title: Offline Recommendations Table
 category: concepts
 tags:
-  - recommendation-systems
-  - offline-computation
-  - serving-cost
-  - recsys
+- recommendation-systems
+- offline-computation
+- serving-cost
+- recsys
 aliases:
-  - Precomputed Recommendations
-  - Recommendations Lookup Table
+- Precomputed Recommendations
+- Recommendations Lookup Table
 relationships:
-  - target: "[[concepts/large-recommender-model]]"
-    type: related_to
-  - target: "[[concepts/recommendation-serving-cost]]"
-    type: related_to
-  - target: "[[concepts/generative-retrieval-recsys]]"
-    type: related_to
+- target: '[[concepts/large-recommender-model]]'
+  type: related_to
+- target: '[[concepts/recommendation-serving-cost]]'
+  type: related_to
+- target: '[[concepts/generative-retrieval-recsys]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=lxqsq3vzdqo]]"
-summary: "A strategy to reduce LLM serving cost by precomputing recommendations offline — building a lookup table that maps 'if watching video A, what candid videos are good to watch next?' — converting real-time personalized inference into offline computation."
+- 'https://www.youtube.com/watch?v=lxqsq3vzdqo'
+summary: A strategy to reduce LLM serving cost by precomputing recommendations offline — building a lookup table that maps 'if watching video A, what candid videos are good to watch next?' — converting real...
 provenance:
   extracted: 0.65
-  inferred: 0.30
+  inferred: 0.3
   ambiguous: 0.05
 base_confidence: 0.55
 lifecycle: draft

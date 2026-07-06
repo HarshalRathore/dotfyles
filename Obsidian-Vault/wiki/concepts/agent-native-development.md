@@ -1,24 +1,32 @@
 ---
-title: "Agent-Native Development"
+title: Agent-Native Development
 category: concepts
-tags: [agent-native, development, platform, orchestration, ai-development]
-summary: "A development paradigm where organizations build on platforms purpose-designed for agent delegation, with centralized context, reliable agents, and parallel infrastructure — not human tools with AI sprinkled on top."
+tags:
+- agent-native
+- development
+- platform
+- orchestration
+- ai-development
+summary: A development paradigm where organizations build on platforms purpose-designed for agent delegation, with centralized context, reliable agents, and parallel infrastructure — not human tools with AI...
 sources:
-  - "AIEF2025 - Ship Production Software in Minutes, Not Months — Eno Reyes, Factory - https://www.youtube.com/watch?v=iheWKg2Tkrk"
-provenance: { extracted: 0.8, inferred: 0.2, ambiguous: 0.0 }
+- AIEF2025 - Ship Production Software in Minutes, Not Months — Eno Reyes, Factory - https://www.youtube.com/watch?v=iheWKg2Tkrk
+provenance:
+  extracted: 0.8
+  inferred: 0.2
+  ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
-created: 2026-07-04T00:00:00Z
-updated: 2026-07-04T00:00:00Z
+created: 2026-07-04 00:00:00+00:00
+updated: 2026-07-04 00:00:00+00:00
 relationships:
-  - target: "[[concepts/agent-driven-development|Agent-Driven Development]]"
-    type: enables
-  - target: "[[concepts/documentation-as-agent-knowledge-base|Documentation as Agent Knowledge Base]]"
-    type: requires
-  - target: "[[concepts/context-over-models|Context Over Models]]"
-    type: requires
+- target: '[[concepts/agent-driven-development|Agent-Driven Development]]'
+  type: enables
+- target: '[[concepts/documentation-as-agent-knowledge-base|Documentation as Agent Knowledge Base]]'
+  type: requires
+- target: '[[concepts/context-over-models|Context Over Models]]'
+  type: requires
 ---
 
 # Agent-Native Development

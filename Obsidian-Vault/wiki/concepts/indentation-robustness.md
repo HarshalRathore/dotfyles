@@ -1,30 +1,31 @@
 ---
-title: "Indentation Robustness"
+title: Indentation Robustness
 category: concepts
 tags:
-  - indentation
-  - llm
-  - text-editing
-  - ai-editing
-  - delta-computation
+- indentation
+- llm
+- text-editing
+- ai-editing
+- delta-computation
 sources:
-  - "AIEF2025 - CI in the Era of AI: From Unit Tests to Stochastic Evals — Nathan Sobo, Zed - https://www.youtube.com/watch?v=WXy8Yy9xGss"
+- 'AIEF2025 - CI in the Era of AI: From Unit Tests to Stochastic Evals — Nathan Sobo, Zed - https://www.youtube.com/watch?v=WXy8Yy9xGss'
 relationships:
-  - target: "[[concepts/fuzzy-text-matching|Fuzzy Text Matching]]"
-    type: related_to
-  - target: "[[concepts/streaming-diff-algorithm|Streaming Diff Algorithm]]"
-    type: related_to
-  - target: "[[concepts/stochastic-evals|Stochastic Evals]]"
-    type: related_to
+- target: '[[concepts/fuzzy-text-matching|Fuzzy Text Matching]]'
+  type: related_to
+- target: '[[concepts/streaming-diff-algorithm|Streaming Diff Algorithm]]'
+  type: related_to
+- target: '[[concepts/stochastic-evals|Stochastic Evals]]'
+  type: related_to
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
 base_confidence: 0.88
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Indentation Robustness
 ---
 
 # Indentation Robustness

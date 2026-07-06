@@ -32,14 +32,14 @@ The first approach — attempted by Chedeau's team — was to have LLMs generate
 
 ### Approach 2: Data Format Generation (Promising)
 
-The second approach — demonstrated by a [[Gemini|gemini]] demo at AIEF2025 — had Gemini output Excalidraw files directly. This is more promising because:
+The second approach — demonstrated by a [[entities/gemini|gemini]] demo at AIEF2025 — had Gemini output Excalidraw files directly. This is more promising because:
 
 1. LLMs are better at generating structured text (JSON, markup) than visual content
 2. The rendering is handled by the existing tool (Excalidraw), not by the AI
-3. This follows the [[AI product fit]] principle: AI produces data, the tool handles presentation
+3. This follows the [[concepts/ai-product-fit]] principle: AI produces data, the tool handles presentation
 
 ## Implications
 
-This pattern — AI generates structured data, the existing tool renders it — generalizes beyond diagrams. It's an example of [[AI integration patterns]] done right: instead of having AI replicate human drawing behavior, have AI generate the structured input that a rendering engine (the existing tool) can display.
+This pattern — AI generates structured data, the existing tool renders it — generalizes beyond diagrams. It's an example of [[concepts/ai-integration-patterns]] done right: instead of having AI replicate human drawing behavior, have AI generate the structured input that a rendering engine (the existing tool) can display.
 
 The key insight is that AI doesn't need to be the entire pipeline; it can be one component in a larger system.^{[inferred]}

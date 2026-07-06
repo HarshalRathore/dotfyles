@@ -1,30 +1,32 @@
 ---
-title: "Code Quality as Context"
+title: Code Quality as Context
 tags:
-  - code-quality
-  - context
-  - pair-programming
-  - readability
-  - aief2025
-  - github
-summary: "The principle that code quality — good names, comments, project structure — is the primary form of context for AI coding agents, analogous to how readable code helps human pair programmers."
+- code-quality
+- context
+- pair-programming
+- readability
+- aief2025
+- github
+summary: The principle that code quality — good names, comments, project structure — is the primary form of context for AI coding agents, analogous to how readable code helps human pair programmers.
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/ai-pair-programmer-analogy|AI Pair Programmer Analogy]]"
-    type: implements
-  - target: "[[concepts/context-management-for-agents|Context Management for Agents]]"
-    type: extends
-  - target: "[[concepts/prompt-crafting|Prompt Crafting]]"
-    type: supersedes
+- target: '[[concepts/ai-pair-programmer-analogy|AI Pair Programmer Analogy]]'
+  type: implements
+- target: '[[concepts/context-management-for-agents|Context Management for Agents]]'
+  type: extends
+- target: '[[concepts/prompt-crafting|Prompt Crafting]]'
+  type: supersedes
+category: concepts
+sources: []
 ---
 
 # Code Quality as Context

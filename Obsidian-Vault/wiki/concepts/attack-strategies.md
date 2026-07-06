@@ -1,32 +1,36 @@
 ---
-title: "Attack Strategies"
+title: Attack Strategies
 category: concepts
 tags:
-  - attack-strategies
-  - adversarial
-  - prompt-injection
-  - obfuscation
-  - ai-red-teaming
-  - security
-aliases: [adversarial strategies, prompt attack strategies, AI attack patterns]
+- attack-strategies
+- adversarial
+- prompt-injection
+- obfuscation
+- ai-red-teaming
+- security
+aliases:
+- adversarial strategies
+- prompt attack strategies
+- AI attack patterns
 relationships:
-  - target: "[[concepts/ai-red-teaming]]"
-    type: implements
-  - target: "[[concepts/prompt-injection]]"
-    type: related_to
-  - target: "[[entities/pyrit]]"
-    type: implements
+- target: '[[concepts/ai-red-teaming]]'
+  type: implements
+- target: '[[concepts/prompt-injection]]'
+  type: related_to
+- target: '[[entities/pyrit]]'
+  type: implements
 sources:
-  - "[[sources/watchv=jhjkgramfiu]]"
+- 'https://www.youtube.com/watch?v=jhjkgramfiu'
 provenance:
   extracted: 0.85
-  inferred: 0.10
+  inferred: 0.1
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
+summary: Attack Strategies
 ---
 
 # Attack Strategies

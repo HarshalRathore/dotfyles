@@ -1,21 +1,21 @@
 ---
-title: "Multi-Hop Retrieval"
+title: Multi-Hop Retrieval
 tags:
-  - rag
-  - knowledge-graph
-  - retrieval
-  - graph-traversal
-  - latency
+- rag
+- knowledge-graph
+- retrieval
+- graph-traversal
+- latency
 aliases:
-  - Multi-Hop Graph Retrieval
-  - Graph Traversal Strategy
+- Multi-Hop Graph Retrieval
+- Graph Traversal Strategy
 sources:
-  - "[[sources/watchv=j-9ebjbxcbg]]"
-  - "[[sources/watchv=-tgqa8fzf80]]"
-  - "[[sources/watchv=9aqovt8lnmi]]"
-  - "[[sources/watchv=czm3cw6fdbs]]"
+- 'https://www.youtube.com/watch?v=j-9ebjbxcbg'
+- 'https://www.youtube.com/watch?v=-tgqa8fzf80'
+- 'https://www.youtube.com/watch?v=9aqovt8lnmi'
+- 'https://www.youtube.com/watch?v=czm3cw6fdbs'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.42
@@ -24,12 +24,14 @@ tier: supporting
 created: 2026-07-03
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: uses
-  - target: "[[concepts/graph-acceleration|Graph Acceleration]]"
-    type: related_to
-  - target: "[[concepts/kag-knowledge-augmented-generation|KAG (Knowledge Augmented Generation)]]"
-    type: uses
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: uses
+- target: '[[concepts/graph-acceleration|Graph Acceleration]]'
+  type: related_to
+- target: '[[concepts/kag-knowledge-augmented-generation|KAG (Knowledge Augmented Generation)]]'
+  type: uses
+category: concepts
+summary: Multi-Hop Retrieval
 ---
 
 

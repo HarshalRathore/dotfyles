@@ -1,21 +1,21 @@
 ---
-title: "Training Cost Efficiency"
+title: Training Cost Efficiency
 category: concepts
 tags:
-  - training-cost
-  - efficiency
-  - llm
-  - compute
-  - aief2025
+- training-cost
+- efficiency
+- llm
+- compute
+- aief2025
 aliases:
-  - training cost
-  - model training cost
-  - training efficiency
+- training cost
+- model training cost
+- training efficiency
 sources:
-  - "AIEF2025 - 2025 in LLMs so far, illustrated by Pelicans on Bicycles — Simon Willison - https://www.youtube.com/watch?v=YpY83-kA7Bo"
-summary: "The trend of dramatically decreasing LLM training costs, exemplified by DeepSeek V3's $5.5M training budget for a 685B parameter model — far below the expected $55M–$550M range — suggesting effective models can be trained for much less than assumed."
+- AIEF2025 - 2025 in LLMs so far, illustrated by Pelicans on Bicycles — Simon Willison - https://www.youtube.com/watch?v=YpY83-kA7Bo
+summary: The trend of dramatically decreasing LLM training costs, exemplified by DeepSeek V3's $5.5M training budget for a 685B parameter model — far below the expected $55M–$550M range — suggesting effecti...
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
 base_confidence: 0.75
@@ -25,10 +25,10 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/model-size-scaling|Model Size Scaling]]"
-    type: relates_to
-  - target: "[[concepts/compute-bound-vs-memory-bound|Compute-Bound vs Memory-Bound]]"
-    type: relates_to
+- target: '[[concepts/model-size-scaling|Model Size Scaling]]'
+  type: relates_to
+- target: '[[concepts/compute-bound-vs-memory-bound|Compute-Bound vs Memory-Bound]]'
+  type: relates_to
 ---
 
 # Training Cost Efficiency

@@ -1,25 +1,26 @@
 ---
-title: "Amazon AGI"
+title: Amazon AGI
 tags:
-  - organization
-  - amazon
-  - agi
-  - research
+- organization
+- amazon
+- agi
+- research
 aliases:
-  - Amazon AGI SF Lab
-  - Amazon AGI San Francisco
+- Amazon AGI SF Lab
+- Amazon AGI San Francisco
 sources:
-  - "[[sources/watchv=dj0b_cebhhi]]"
-summary: "Amazon's experimental artificial general intelligence lab based in San Francisco. Researchers include cognitive scientist Danielle Perszyk. The lab focuses on computer-use agents (Nova Act) and the vision of AI that augments human intelligence rather than replacing it."
+- 'https://www.youtube.com/watch?v=dj0b_cebhhi'
+summary: Amazon's experimental artificial general intelligence lab based in San Francisco. Researchers include cognitive scientist Danielle Perszyk. The lab focuses on computer-use agents (Nova Act) and the...
 provenance:
   extracted: 0.65
-  inferred: 0.30
+  inferred: 0.3
   ambiguous: 0.05
 base_confidence: 0.45
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # Amazon AGI

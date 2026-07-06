@@ -1,27 +1,34 @@
 ---
-title: "Agentic Dials"
+title: Agentic Dials
 category: concepts
-tags: [agent-design, autonomy, context, memory, coordination, agent-experience, aief2025]
-summary: Framework for thinking about agentic AI as four tunable dials — autonomy, context, memory, coordination — rather than a binary agentic/non-agentic distinction. Each dial is adjusted based on use case risk tolerance.
+tags:
+- agent-design
+- autonomy
+- context
+- memory
+- coordination
+- agent-experience
+- aief2025
+summary: Framework for thinking about agentic AI as four tunable dials — autonomy, context, memory, coordination — rather than a binary agentic/non-agentic distinction. Each dial is adjusted based on use ca...
 sources:
-  - "AIEF2025 - From Copilot to Colleague: Trustworthy Agents for High-Stakes - Joel Hron, CTO Thomson Reuters - https://www.youtube.com/watch?v=kDEvo2__Ijg"
+- 'AIEF2025 - From Copilot to Colleague: Trustworthy Agents for High-Stakes - Joel Hron, CTO Thomson Reuters - https://www.youtube.com/watch?v=kDEvo2__Ijg'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/agent-autonomy]]"
-    type: extends
-  - target: "[[concepts/context-management-for-agents]]"
-    type: extends
-  - target: "[[concepts/assistive-vs-automation-agents]]"
-    type: relates_to
+- target: '[[concepts/agent-autonomy]]'
+  type: extends
+- target: '[[concepts/context-management-for-agents]]'
+  type: extends
+- target: '[[concepts/assistive-vs-automation-agents]]'
+  type: relates_to
 ---
 
 # Agentic Dials

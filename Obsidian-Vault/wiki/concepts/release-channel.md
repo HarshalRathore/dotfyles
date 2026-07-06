@@ -1,11 +1,22 @@
 ---
-title: "Release Channel"
+title: Release Channel
 sources:
-  - "[[sources/cluster-maintenance-draining-&-os-upgrades_98d707]]"
+- '[[sources/cluster-maintenance-draining-&-os-upgrades_98d707]]'
 tags:
-  - deployment
+- deployment
 aliases:
-  - Release Tracks
+- Release Tracks
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+created: '2026-07-04T15:08:34.766075+00:00'
+updated: '2026-07-04T15:08:34.766075+00:00'
+summary: Release Channel
 ---
 # Release Channel
 
@@ -29,7 +40,7 @@ Release channels are categorized pathways through which software is distributed 
 - Version Skew Policy
 
 ## Related Entities
-- [[kubernetes]]
+- [[entities/kubernetes]]
 
 ## Mentions in Source
 - **Alpha**: features off by default, may break — cluster-maintenance-draining-&-os-upgrades_98d707

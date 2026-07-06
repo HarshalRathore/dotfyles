@@ -1,38 +1,38 @@
 ---
-title: "Vector Search Limitations"
+title: Vector Search Limitations
 category: concepts
 tags:
-  - vector-search
-  - rag
-  - retrieval
-  - chunking
-  - limitations
-  - aief2025
+- vector-search
+- rag
+- retrieval
+- chunking
+- limitations
+- aief2025
 sources:
-  - "AIEF2025 - When Vectors Break Down: Graph-Based RAG for Dense Enterprise Knowledge - Sam Julien, Writer - https://www.youtube.com/watch?v=XlAIgmi_Vow"
-  - "AIEF2025 - Vector Search Benchmarking - Philipp Krenn, Elastic - https://www.youtube.com/watch?v=YrUBFXa1KUY"
-summary: "Two fundamental failure modes of vector-based RAG (chunking inaccuracy, concentrated data overwhelm) plus benchmarking-specific failure modes: read-only bias, ignored quality metrics, and the HNSW filtering paradox where restrictive filters make queries slower."
+- 'AIEF2025 - When Vectors Break Down: Graph-Based RAG for Dense Enterprise Knowledge - Sam Julien, Writer - https://www.youtube.com/watch?v=XlAIgmi_Vow'
+- AIEF2025 - Vector Search Benchmarking - Philipp Krenn, Elastic - https://www.youtube.com/watch?v=YrUBFXa1KUY
+summary: 'Two fundamental failure modes of vector-based RAG (chunking inaccuracy, concentrated data overwhelm) plus benchmarking-specific failure modes: read-only bias, ignored quality metrics, and the HNSW...'
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: contradicts
-  - target: "[[concepts/vector-similarity-vs-relevance|Vector Similarity vs. Relevance]]"
-    type: related_to
-  - target: "[[concepts/enterprise-rag|Enterprise RAG]]"
-    type: extends
-  - target: "[[concepts/hnsw-filtering-paradox|HNSW Filtering Paradox]]"
-    type: related_to
-  - target: "[[concepts/ann-quality-aware-benchmarking|ANN Quality-Aware Benchmarking]]"
-    type: related_to
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: contradicts
+- target: '[[concepts/vector-similarity-vs-relevance|Vector Similarity vs. Relevance]]'
+  type: related_to
+- target: '[[concepts/enterprise-rag|Enterprise RAG]]'
+  type: extends
+- target: '[[concepts/hnsw-filtering-paradox|HNSW Filtering Paradox]]'
+  type: related_to
+- target: '[[concepts/ann-quality-aware-benchmarking|ANN Quality-Aware Benchmarking]]'
+  type: related_to
 ---
 
 # Vector Search Limitations

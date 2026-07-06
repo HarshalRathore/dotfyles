@@ -1,16 +1,25 @@
 ---
 type: concept
-title: "priorityClassName"
+title: priorityClassName
 created:
-  - 2026-06-30
+- 2026-06-30
 updated:
-  - 2026-06-30
+- 2026-06-30
 sources:
-  - "[[sources/priorityclasses_438f81]]"
+- '[[sources/priorityclasses_438f81]]'
 tags:
-  - deployment
+- deployment
 aliases:
-  - Pod Priority Class
+- Pod Priority Class
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: priorityClassName
 ---
 # priorityClassName
 

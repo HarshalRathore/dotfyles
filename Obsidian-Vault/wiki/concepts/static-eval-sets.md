@@ -1,31 +1,32 @@
 ---
-title: "Static Eval Sets"
+title: Static Eval Sets
 category: concepts
 tags:
-  - evals
-  - benchmarking
-  - golden-datasets
-  - rag
+- evals
+- benchmarking
+- golden-datasets
+- rag
 aliases:
-  - static evaluation sets
-  - static benchmarks
+- static evaluation sets
+- static benchmarks
 sources:
-  - "AIEF2025 - Evaluating AI Search: A Practical Framework for Augmented AI Systems — Quotient AI + Tavily - https://www.youtube.com/watch?v=wRJD0inpmjU"
+- 'AIEF2025 - Evaluating AI Search: A Practical Framework for Augmented AI Systems — Quotient AI + Tavily - https://www.youtube.com/watch?v=wRJD0inpmjU'
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/dynamic-eval-sets]]"
-    type: contrasts_with
-  - target: "[[concepts/ai-evaluation-benchmarks]]"
-    type: used_in
+- target: '[[concepts/dynamic-eval-sets]]'
+  type: contrasts_with
+- target: '[[concepts/ai-evaluation-benchmarks]]'
+  type: used_in
+summary: Static Eval Sets
 ---
 
 # Static Eval Sets

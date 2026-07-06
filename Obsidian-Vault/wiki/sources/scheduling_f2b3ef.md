@@ -1,29 +1,36 @@
 ---
-summary: "This source details the evolution of container runtimes within [[entities/kubernetes]], tracing the path from Docker as the sole runtime to the standardized, pluggable architecture e..."
+summary: This source details the evolution of container runtimes within [[entities/kubernetes]], tracing the path from Docker as the sole runtime to the standardized, pluggable architecture e...
 type: source
-title: "Container Runtimes and Multiple Schedulers in Kubernetes - Summary"
-created: "2026-06-30"
-updated: "2026-06-30"
+title: Container Runtimes and Multiple Schedulers in Kubernetes - Summary
+created: '2026-06-30'
+updated: '2026-06-30'
 lifecycle: draft
 base_confidence: 0.7
-source_file: ""
+source_file: ''
 tags:
-  - container runtime
-  - CRI
-  - OCI specs
-  - dockershim
-  - containerd
-  - nerdctl
-  - crictl
-  - ctr
-  - multiple schedulers
-  - scheduling framework
-  - scheduler profiles
+- container runtime
+- CRI
+- OCI specs
+- dockershim
+- containerd
+- nerdctl
+- crictl
+- ctr
+- multiple schedulers
+- scheduling framework
+- scheduler profiles
 aliases:
-  - Kubernetes Scheduling and Container Runtimes
-  - "CRI, OCI, and Scheduler Architecture"
-contentHash: "auto-fill-mr0vx781"
-generation_complete: True
+- Kubernetes Scheduling and Container Runtimes
+- CRI, OCI, and Scheduler Architecture
+contentHash: auto-fill-mr0vx781
+generation_complete: true
+category: sources
+sources: []
+tier: supporting
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
 ---
 source_file: ""
 tags: [container runtime, CRI, OCI specs, dockershim, containerd, nerdctl, crictl, ctr, multiple schedulers, scheduling framework, scheduler profiles]
@@ -41,7 +48,7 @@ contentHash: "auto-fill-mr0vqvkj"
 - Ingested: 2026-06-30
 
 ## Core Content
-This source details the evolution of container runtimes within [[entities/kubernetes]], tracing the path from Docker as the sole runtime to the standardized, pluggable architecture enabled by the [[concepts/container-runtime-interface-cri]] and [[concepts/oci-specs]]. It explains the role of the now-removed [[dockershim]] and the rise of [[entities/containerd]] as a standalone, CRI-compliant runtime, alongside essential CLI tools like [[entities/nerdctl]], [[entities/crictl]], and [[entities/ctr]]. The second half provides a deep dive into [[concepts/multiple-schedulers]] in Kubernetes, explaining the  with its key extension points, the scheduling and binding cycles, and methods for deploying custom schedulers and [[concepts/scheduler-profiles]].
+This source details the evolution of container runtimes within [[entities/kubernetes]], tracing the path from Docker as the sole runtime to the standardized, pluggable architecture enabled by the [[concepts/container-runtime-interface-cri]] and [[concepts/oci-specs]]. It explains the role of the now-removed [[concepts/dockershim]] and the rise of [[entities/containerd]] as a standalone, CRI-compliant runtime, alongside essential CLI tools like [[entities/nerdctl]], [[entities/crictl]], and [[entities/ctr]]. The second half provides a deep dive into [[concepts/multiple-schedulers]] in Kubernetes, explaining the  with its key extension points, the scheduling and binding cycles, and methods for deploying custom schedulers and [[concepts/scheduler-profiles]].
 
 ## Key Entities
 - [[entities/docker]]: The original all-in-one container platform and historical Kubernetes runtime.
@@ -54,7 +61,7 @@ This source details the evolution of container runtimes within [[entities/kubern
 ## Key Concepts
 - [[concepts/container-runtime-interface-cri]]: The standard API that enables Kubernetes to work with multiple container runtimes.
 - [[concepts/oci-specs]]: The standards defining container image formats and runtime behavior.
-- [[dockershim]]: The temporary compatibility layer removed in Kubernetes v1.24.
+- [[concepts/dockershim]]: The temporary compatibility layer removed in Kubernetes v1.24.
 - : The pluggable architecture underlying the Kubernetes scheduler, defined by extension points, a scheduling cycle, and a binding cycle.
 - [[concepts/multiple-schedulers]]: The ability to run and use several scheduler instances or [[concepts/scheduler-profiles]] side-by-side for customized Pod placement.
 

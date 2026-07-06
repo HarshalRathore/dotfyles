@@ -1,19 +1,19 @@
 ---
-title: "Knowledge Cards"
+title: Knowledge Cards
 tags:
-  - retrieval
-  - structured-data
-  - kag
-  - rag
-  - function-calling
+- retrieval
+- structured-data
+- kag
+- rag
+- function-calling
 aliases:
-  - Knowledge Card Retrieval
-  - Structured Data Cards
+- Knowledge Card Retrieval
+- Structured Data Cards
 sources:
-  - "[[sources/watchv=9aqovt8lnmi]]"
-summary: "A structured data retrieval pattern where entity data is stored in queryable card structures (e.g., financial metrics) enabling precise numerical answers via function calls, as opposed to passage retrieval which yields imprecise text snippets."
+- 'https://www.youtube.com/watch?v=9aqovt8lnmi'
+summary: A structured data retrieval pattern where entity data is stored in queryable card structures (e.g., financial metrics) enabling precise numerical answers via function calls, as opposed to passage r...
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.35
@@ -22,12 +22,13 @@ tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
 relationships:
-  - target: "[[concepts/kag-knowledge-augmented-generation|KAG]]"
-    type: uses
-  - target: "[[concepts/graphrag|GraphRAG]]"
-    type: related_to
-  - target: "[[concepts/information-retrieval|Information Retrieval]]"
-    type: related_to
+- target: '[[concepts/kag-knowledge-augmented-generation|KAG]]'
+  type: uses
+- target: '[[concepts/graphrag|GraphRAG]]'
+  type: related_to
+- target: '[[concepts/information-retrieval|Information Retrieval]]'
+  type: related_to
+category: concepts
 ---
 
 # Knowledge Cards

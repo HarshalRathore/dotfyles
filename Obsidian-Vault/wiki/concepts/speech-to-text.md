@@ -1,36 +1,25 @@
 ---
-title: "Speech-to-Text"
+title: Speech-to-Text
 category: concepts
 tags:
-  - speech-to-text
-  - stt
-  - voice-agents
-  - transcription
-  - voice-ai
-aliases:
-  - STT
-  - transcription
-  - voice recognition
+- speech-to-text
+- stt
+- voice-agents
+- transcription
+- voice-ai
 sources:
-  - "AIEF2025 - Building Agents (the hard parts!) - Rita Kozlov, Cloudflare - https://www.youtube.com/watch?v=j_TKDweOsYE"
-summary: "The capability to convert spoken language into text, serving as the bridge between voice interfaces and text-based AI systems. A core component of voice agent architectures that enables spoken interaction with LLM-based agents.
+- AIEF2025 - Building Agents (the hard parts!) - Rita Kozlov, Cloudflare - https://www.youtube.com/watch?v=j_TKDweOsYE
+summary: The capability to convert spoken language into text, serving as the bridge between voice interfaces and text-based AI systems. A core component of voice agent architectures that enables spoken inte...
 provenance:
-  extracted: 0.90
-  inferred: 0.05
-  ambiguous: 0.05
-base_confidence: 0.75
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+base_confidence: 0.42
 lifecycle: draft
-lifecycle_changed: 2026-07-04
+lifecycle_changed: '2026-07-04'
 tier: supporting
-created: 2026-07-04
-updated: 2026-07-04
-relationships:
-  - target: "[[concepts/voice-agents]]"
-    type: core_component_of
-  - target: "[[concepts/voice-ai-stack]]"
-    type: extends
-  - target: "[[concepts/agent-architecture]]"
-    type: enables
+created: '2026-07-04'
+updated: '2026-07-04'
 ---
 
 # Speech-to-Text

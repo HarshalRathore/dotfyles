@@ -1,16 +1,20 @@
 ---
-title: "Agent Evaluation Pipeline"
+title: Agent Evaluation Pipeline
 tags:
-  - concept
-  - agent
-  - evaluation
-  - ci-cd
-  - testing
-  - quality
-aliases: [CI/CD for agents, agent CI pipeline, agent red teaming, agent observability]
+- concept
+- agent
+- evaluation
+- ci-cd
+- testing
+- quality
+aliases:
+- CI/CD for agents
+- agent CI pipeline
+- agent red teaming
+- agent observability
 sources:
-  - "[[sources/watchv=7hrw6rtxahc]]"
-summary: "Integrated evaluation, red teaming, and observability pipeline for agents — evaluated on every update via CI/CD, with continuous monitoring regardless of deployment platform."
+- 'https://www.youtube.com/watch?v=7hrw6rtxahc'
+summary: Integrated evaluation, red teaming, and observability pipeline for agents — evaluated on every update via CI/CD, with continuous monitoring regardless of deployment platform.
 provenance:
   extracted: 0.72
   inferred: 0.23
@@ -20,6 +24,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Agent Evaluation Pipeline

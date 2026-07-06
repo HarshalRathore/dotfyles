@@ -1,18 +1,18 @@
 ---
-title: "Cisco"
+title: Cisco
 category: entities
 tags:
-  - entity
-  - company
-  - networking
-  - ai
-  - enterprise
+- entity
+- company
+- networking
+- ai
+- enterprise
 aliases:
-  - Cisco Systems
+- Cisco Systems
 sources:
-  - "AIEF2025 - Multi Agent AI and Network Knowledge Graphs for Change — Ola Mabadeje, Cisco - https://www.youtube.com/watch?v=m0dxZ-NDKHo"
+- AIEF2025 - Multi Agent AI and Network Knowledge Graphs for Change — Ola Mabadeje, Cisco - https://www.youtube.com/watch?v=m0dxZ-NDKHo
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -22,10 +22,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/outshift|OutShift]]"
-    type: houses
-  - target: "[[entities/ola-mabadeje|Ola Mabadeje]]"
-    type: employs
+- target: '[[entities/outshift|OutShift]]'
+  type: houses
+- target: '[[entities/ola-mabadeje|Ola Mabadeje]]'
+  type: employs
+summary: Cisco
 ---
 
 # Cisco

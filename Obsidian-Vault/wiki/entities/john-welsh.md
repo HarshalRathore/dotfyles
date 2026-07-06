@@ -1,16 +1,16 @@
 ---
-title: "John Welsh"
+title: John Welsh
 tags:
-  - person
-  - anthropic
-  - mcp
-  - ai-engineering
-  - tool-calling
+- person
+- anthropic
+- mcp
+- ai-engineering
+- tool-calling
 sources:
-  - "[[sources/watchv=0nhcyq8bbcm]]"
-summary: "Member of Technical Staff at Anthropic focused on MCP integration, tool calling systems, and large-scale AI infrastructure."
+- 'https://www.youtube.com/watch?v=0nhcyq8bbcm'
+summary: Member of Technical Staff at Anthropic focused on MCP integration, tool calling systems, and large-scale AI infrastructure.
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
 base_confidence: 0.42
@@ -18,6 +18,7 @@ lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: entities
 ---
 
 # John Welsh

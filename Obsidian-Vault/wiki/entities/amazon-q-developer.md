@@ -1,32 +1,33 @@
 ---
-title: "Amazon Q Developer"
+title: Amazon Q Developer
 tags:
-  - aws
-  - ai-coding-assistant
-  - code-generation
-  - ide
-  - cli-agent
+- aws
+- ai-coding-assistant
+- code-generation
+- ide
+- cli-agent
 sources:
-  - "[[sources/watchv=ht4l0dep69i]]"
-  - "AIEF2025 - Building Agents at Cloud Scale — Antje Barth, AWS - https://www.youtube.com/watch?v=WJjInLeaJjo"
-summary: "AWS's AI-powered coding assistant built into the AWS console's code editor. Also available as a CLI agent with agentic chat experience, MCP integration, and file read/write capabilities — built in just three weeks."
+- 'https://www.youtube.com/watch?v=ht4l0dep69i'
+- AIEF2025 - Building Agents at Cloud Scale — Antje Barth, AWS - https://www.youtube.com/watch?v=WJjInLeaJjo
+summary: AWS's AI-powered coding assistant built into the AWS console's code editor. Also available as a CLI agent with agentic chat experience, MCP integration, and file read/write capabilities — built in...
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.07
   ambiguous: 0.03
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/aws-lambda|AWS Lambda]]"
-    type: related_to
-  - target: "[[entities/antje-barth|Antje Barth]]"
-    type: related_to
-  - target: "[[concepts/agentic-services|Agentic Services]]"
-    type: implements
+- target: '[[entities/aws-lambda|AWS Lambda]]'
+  type: related_to
+- target: '[[entities/antje-barth|Antje Barth]]'
+  type: related_to
+- target: '[[concepts/agentic-services|Agentic Services]]'
+  type: implements
+category: entities
 ---
 # Amazon Q Developer
 

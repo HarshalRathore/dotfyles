@@ -1,34 +1,34 @@
 ---
-title: "Mistral AI"
+title: Mistral AI
 category: entities
 tags:
-  - company
-  - ai
-  - llm
-  - open-source
-  - french
-  - aief2025
+- company
+- ai
+- llm
+- open-source
+- french
+- aief2025
 aliases:
-  - Mistral
-  - Mistral AI
+- Mistral
+- Mistral AI
 sources:
-  - "AIEF2025 - 2025 in LLMs so far, illustrated by Pelicans on Bicycles — Simon Willison - https://www.youtube.com/watch?v=YpY83-kA7Bo"
-summary: "French AI lab that released Mistral Small 3 (24B parameters), a model Simon Willison highlighted as the smallest that maintains GPT-4-class capabilities while fitting comfortably on a consumer laptop alongside other applications."
+- AIEF2025 - 2025 in LLMs so far, illustrated by Pelicans on Bicycles — Simon Willison - https://www.youtube.com/watch?v=YpY83-kA7Bo
+summary: French AI lab that released Mistral Small 3 (24B parameters), a model Simon Willison highlighted as the smallest that maintains GPT-4-class capabilities while fitting comfortably on a consumer lapt...
 provenance:
   extracted: 0.85
   inferred: 0.12
   ambiguous: 0.03
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/meta|Meta]]"
-    type: related_to
-  - target: "[[concepts/local-models|Local Models]]"
-    type: demonstrates
+- target: '[[entities/meta|Meta]]'
+  type: related_to
+- target: '[[concepts/local-models|Local Models]]'
+  type: demonstrates
 ---
 
 # Mistral AI

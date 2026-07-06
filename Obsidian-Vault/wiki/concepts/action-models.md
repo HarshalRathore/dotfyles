@@ -1,21 +1,29 @@
 ---
 title: Action Models
 category: concepts
-tags: [ai, agents, models, reliability, web-tasks, llm]
-aliases: [web task models, execution models]
+tags:
+- ai
+- agents
+- models
+- reliability
+- web-tasks
+- llm
+aliases:
+- web task models
+- execution models
 relationships:
-  - target: "[[concepts/agent-reliability-challenge]]"
-    type: related_to
-  - target: "[[concepts/scaling-is-dead-thesis]]"
-    type: related_to
+- target: '[[concepts/agent-reliability-challenge]]'
+  type: related_to
+- target: '[[concepts/scaling-is-dead-thesis]]'
+  type: related_to
 sources:
-  - "[[sources/watchv=1zlo9yu2ziu]]"
-summary: "AI models specialized for reliable execution of real-world web tasks (shopping, booking, form filling) rather than broad knowledge or reasoning — prioritizing task completion accuracy over general capability."
+- 'https://www.youtube.com/watch?v=1zlo9yu2ziu'
+summary: AI models specialized for reliable execution of real-world web tasks (shopping, booking, form filling) rather than broad knowledge or reasoning — prioritizing task completion accuracy over general...
 provenance:
-  extracted: 0.60
+  extracted: 0.6
   inferred: 0.35
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03

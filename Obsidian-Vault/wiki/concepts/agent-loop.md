@@ -1,38 +1,39 @@
 ---
-title: "Agent Loop"
+title: Agent Loop
 tags:
-  - agent
-  - automation
-  - engineering
-  - control-flow
-  - state-management
+- agent
+- automation
+- engineering
+- control-flow
+- state-management
 sources:
-  - "[[sources/loops]]"
-  - "[[sources/stop-ai-slop]]"
-  - "[[sources/ai-evals]]"
-  - "[[sources/watchv=8kmatybvduw]]"
-  - "[[sources/watchv=c1nivhys1si]]"
-  - "[[sources/watchv=lqq_lcbajcc]]"
-  - "[[sources/watchv=lue8k2jqfkk]]"
-  - "[[sources/watchv=pbhm2qknu10]]"
-  - "[[sources/watchv=q3nreeadkmc]]"
-summary: "An AI-driven iterative pattern where an autonomous agent repeatedly performs a cycle of work, evaluates the result, and decides whether to continue, adapt, or stop. Covers agent loops in development, research, IDEs, and RL training."
+- '[[sources/loops]]'
+- '[[sources/stop-ai-slop]]'
+- '[[sources/ai-evals]]'
+- 'https://www.youtube.com/watch?v=8kmatybvduw'
+- 'https://www.youtube.com/watch?v=c1nivhys1si'
+- 'https://www.youtube.com/watch?v=lqq_lcbajcc'
+- 'https://www.youtube.com/watch?v=lue8k2jqfkk'
+- 'https://www.youtube.com/watch?v=pbhm2qknu10'
+- 'https://www.youtube.com/watch?v=q3nreeadkmc'
+summary: An AI-driven iterative pattern where an autonomous agent repeatedly performs a cycle of work, evaluates the result, and decides whether to continue, adapt, or stop. Covers agent loops in developmen...
 provenance:
-  extracted: 0.70
+  extracted: 0.7
   inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/vibe-coding-as-agentic-ai|Vibe Coding as Agentic AI]]"
-    type: implements
-  - target: "[[concepts/agent-guardrails|Agent Guardrails]]"
-    type: related_to
-  - target: "[[entities/donald-hruska|Donald Hruska]]"
-    type: related_to
+- target: '[[concepts/vibe-coding-as-agentic-ai|Vibe Coding as Agentic AI]]'
+  type: implements
+- target: '[[concepts/agent-guardrails|Agent Guardrails]]'
+  type: related_to
+- target: '[[entities/donald-hruska|Donald Hruska]]'
+  type: related_to
+category: concepts
 ---
 
 # Agent Loop
@@ -159,13 +160,13 @@ The owning-your-control-flow pattern pairs naturally with [[concepts/micro-agent
 ## Related
 
 - [[concepts/ralph-coding-technique]] — A build-focused agent loop for greenfield development
-- [[web-github-com-karpathy-autoresearch]] — An optimization-focused agent loop applied to ClickHouse query performance
-- [[web-posthog-com-newsletter-loops]] — PostHog's comprehensive take on why engineering loops are the next paradigm
+- [[misc/web-github-com-karpathy-autoresearch]] — An optimization-focused agent loop applied to ClickHouse query performance
+- [[misc/web-posthog-com-newsletter-loops]] — PostHog's comprehensive take on why engineering loops are the next paradigm
 - [[entities/peter-steinberger]] — Creator of OpenClaw, drove the loops conversation
 - [[entities/boris-cherny]] — Creator of Claude Code, drove the loops conversation
 - [[misc/web-posthog-com-docs-ai-evals]] — PostHog AI Evals official documentation: three evaluation types, MCP management, reports, error handling
-- [[web-youtube-com-watch-v-unzcg3lw6o0]] — Matt Pocock's full AI coding workflow workshop: PRDs → tracer bullets → TDD → AFK runs
-- [[web-posthog-com-blog-what-if-your-product-built-itself]] — PostHog's self-driving product improvement pipeline: a concrete production deployment of the agent loop. Signals as goal, grouped reports as context, research agent and PR author as agent, CI green as evaluation.
+- [[misc/web-youtube-com-watch-v-unzcg3lw6o0]] — Matt Pocock's full AI coding workflow workshop: PRDs → tracer bullets → TDD → AFK runs
+- [[misc/web-posthog-com-blog-what-if-your-product-built-itself]] — PostHog's self-driving product improvement pipeline: a concrete production deployment of the agent loop. Signals as goal, grouped reports as context, research agent and PR author as agent, CI green as evaluation.
 - [[concepts/skills-checklist-framework]] — Matt Pocock's framework for building high-quality agent skills; skills are the mechanism by which agents execute loop steps
 - [[concepts/leading-words]] — Steering technique for agent skills that complements the agent loop pattern
 - [[concepts/stateful-environments|Stateful Environments]] — Complementary architecture: the agent loop drives iterative work, while the stateful environment provides the resettable workspace within which the loop operates. Agent tree search extends the loop with branching exploration.

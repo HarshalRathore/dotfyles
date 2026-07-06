@@ -1,11 +1,22 @@
 ---
-title: "kubeadm upgrade"
+title: kubeadm upgrade
 sources:
-  - "[[sources/cluster-maintenance-draining-&-os-upgrades_98d707]]"
+- '[[sources/cluster-maintenance-draining-&-os-upgrades_98d707]]'
 tags:
-  - deployment
+- deployment
 aliases:
-  - kubeadm upgrade node
+- kubeadm upgrade node
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+created: '2026-07-04T15:08:36.860093+00:00'
+updated: '2026-07-04T15:08:36.860093+00:00'
+summary: kubeadm upgrade
 ---
 # kubeadm upgrade
 

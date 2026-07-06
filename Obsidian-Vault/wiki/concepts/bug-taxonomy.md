@@ -12,7 +12,7 @@ relationships:
   - target: "[[concepts/high-signal-low-noise]]"
     type: related_to
 sources:
-  - "[[sources/watchv=tswqekftnaw]]"
+  - "https://www.youtube.com/watch?v=tswqekftnaw"
 summary: "A 2D taxonomy classifying code review comments by whether LLMs can catch them and whether humans want to receive them, revealing seven distinct categories of feedback."
 provenance:
   extracted: 0.75

@@ -1,36 +1,37 @@
 ---
-title: "FAL"
+title: FAL
 category: entities
 tags:
-  - company
-  - gpu
-  - inference
-  - ml-infrastructure
-  - voice-ai
-  - open-source
+- company
+- gpu
+- inference
+- ml-infrastructure
+- voice-ai
+- open-source
 sources:
-  - "[[sources/watchv=p370d8kmlkw]]"
-  - "[[sources/watchv=ia4lzjh9sts]]"
+- 'https://www.youtube.com/watch?v=p370d8kmlkw'
+- 'https://www.youtube.com/watch?v=ia4lzjh9sts'
 provenance:
-  extracted: 0.80
+  extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/pipe-cat]]"
-    type: related_to
-  - target: "[[concepts/turn-detection]]"
-    type: hosts
-  - target: "[[concepts/generative-media]]"
-    type: related_to
-  - target: "[[entities/gorkem-yurtseven]]"
-    type: related_to
-  - target: "[[entities/a24]]"
-    type: related_to
+- target: '[[entities/pipe-cat]]'
+  type: related_to
+- target: '[[concepts/turn-detection]]'
+  type: hosts
+- target: '[[concepts/generative-media]]'
+  type: related_to
+- target: '[[entities/gorkem-yurtseven]]'
+  type: related_to
+- target: '[[entities/a24]]'
+  type: related_to
+summary: FAL
 ---
 
 # FAL

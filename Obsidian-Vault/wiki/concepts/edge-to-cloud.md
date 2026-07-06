@@ -1,13 +1,13 @@
 ---
-title: "Edge-to-Cloud Audio Architecture"
+title: Edge-to-Cloud Audio Architecture
 category: concepts
 tags:
-  - voice-ai
-  - architecture
-  - web-rtc
-  - real-time
+- voice-ai
+- architecture
+- web-rtc
+- real-time
 sources:
-  - "[[sources/watchv=e71ytnbcfxy]]"
+- 'https://www.youtube.com/watch?v=e71ytnbcfxy'
 provenance:
   extracted: 0.85
   inferred: 0.15
@@ -18,10 +18,11 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/web-rtc]]"
-    type: uses
-  - target: "[[concepts/voice-ai-latency]]"
-    type: enables
+- target: '[[concepts/web-rtc]]'
+  type: uses
+- target: '[[concepts/voice-ai-latency]]'
+  type: enables
+summary: Edge-to-Cloud Audio Architecture
 ---
 
 # Edge-to-Cloud Audio Architecture

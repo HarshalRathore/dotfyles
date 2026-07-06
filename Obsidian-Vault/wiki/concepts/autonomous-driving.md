@@ -1,37 +1,37 @@
 ---
-title: "Autonomous Driving"
+title: Autonomous Driving
 category: concepts
 tags:
-  - autonomous-driving
-  - self-driving
-  - robotaxi
-  - perception
-  - prediction
-  - planning
+- autonomous-driving
+- self-driving
+- robotaxi
+- perception
+- prediction
+- planning
 aliases:
-  - self-driving cars
-  - autonomous vehicles
+- self-driving cars
+- autonomous vehicles
 sources:
-  - "AIEF2025 - Waymo's EMMA: Teaching Cars to Think - Jyh Jing Hwang, Waymo - https://www.youtube.com/watch?v=iS9YFW28XyM"
-summary: "The field of enabling vehicles to navigate and operate without human intervention, evolving from 1980s neural networks through modular perception-prediction-planning pipelines to foundation-model-based end-to-end systems."
+- 'AIEF2025 - Waymo''s EMMA: Teaching Cars to Think - Jyh Jing Hwang, Waymo - https://www.youtube.com/watch?v=iS9YFW28XyM'
+summary: The field of enabling vehicles to navigate and operate without human intervention, evolving from 1980s neural networks through modular perception-prediction-planning pipelines to foundation-model-b...
 provenance:
   extracted: 0.85
   inferred: 0.15
-  ambiguous: 0.00
+  ambiguous: 0.0
 base_confidence: 0.85
 lifecycle: draft
 tier: core
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[concepts/end-to-end-driving]]"
-    type: related_to
-  - target: "[[concepts/l2-vs-l4-autonomy]]"
-    type: related_to
-  - target: "[[concepts/perception-prediction-planning]]"
-    type: related_to
-  - target: "[[concepts/foundation-models-autonomous-driving]]"
-    type: related_to
+- target: '[[concepts/end-to-end-driving]]'
+  type: related_to
+- target: '[[concepts/l2-vs-l4-autonomy]]'
+  type: related_to
+- target: '[[concepts/perception-prediction-planning]]'
+  type: related_to
+- target: '[[concepts/foundation-models-autonomous-driving]]'
+  type: related_to
 ---
 
 # Autonomous Driving

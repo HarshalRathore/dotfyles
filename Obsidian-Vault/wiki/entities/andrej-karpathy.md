@@ -1,12 +1,22 @@
 ---
-title: "Andrej Karpathy"
+title: Andrej Karpathy
 tags:
-  - ai
-  - research
+- ai
+- research
 sources:
-  - "[[sources/autoresearch]]"
-  - "[[sources/llm-wiki]]"
-
+- '[[sources/autoresearch]]'
+- '[[sources/llm-wiki]]'
+category: entities
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+created: '2026-07-04T15:08:32.607057+00:00'
+updated: '2026-07-04T15:08:32.607057+00:00'
+summary: Andrej Karpathy
 ---
 # Andrej Karpathy
 

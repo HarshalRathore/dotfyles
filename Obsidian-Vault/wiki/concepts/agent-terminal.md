@@ -2,7 +2,8 @@
 title: "Agent Terminal"
 category: concepts
 tags: [agent-tools, terminal, command-execution, long-running-processes, parallel-execution]
-summary: How coding agents interact with the terminal: challenges with long-running commands, parallel execution, background processes, and server-curl patterns. Text-in-text-out is deceptively complex.
+summary: >-
+  How coding agents interact with the terminal: challenges with long-running commands, parallel execution, background processes, and server-curl patterns. Text-in-text-out is deceptively complex.
 sources:
   - "AIEF2025 - Software Development Agents: What Works and What Doesn't - Robert Brennan, OpenHands - https://www.youtube.com/watch?v=o_hhkJtlbSs"
 provenance:

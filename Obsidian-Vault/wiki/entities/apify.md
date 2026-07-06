@@ -1,19 +1,21 @@
 ---
-title: "Apify"
+title: Apify
 category: entities
 tags:
-  - company
-  - ai-agents
-  - mcp
-  - marketplace
-  - actors
-  - web-scraping
-  - aief2025
-aliases: [Apify, apify.com]
+- company
+- ai-agents
+- mcp
+- marketplace
+- actors
+- web-scraping
+- aief2025
+aliases:
+- Apify
+- apify.com
 sources:
-  - "AIEF2025 - The rise of the agentic economy on the shoulders of MCP — Jan Curn, Apify - https://www.youtube.com/watch?v=blW-lSd5CYQ"
+- AIEF2025 - The rise of the agentic economy on the shoulders of MCP — Jan Curn, Apify - https://www.youtube.com/watch?v=blW-lSd5CYQ
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.08
   ambiguous: 0.02
 base_confidence: 0.85
@@ -23,12 +25,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/jan-curn]]"
-    type: related_to
-  - target: "[[concepts/the-agentic-economy]]"
-    type: implements
-  - target: "[[concepts/actor-model-software]]"
-    type: implements
+- target: '[[entities/jan-curn]]'
+  type: related_to
+- target: '[[concepts/the-agentic-economy]]'
+  type: implements
+- target: '[[concepts/actor-model-software]]'
+  type: implements
+summary: Apify
 ---
 
 # Apify

@@ -1,26 +1,27 @@
 ---
-title: "Human-in-the-Loop Payments"
+title: Human-in-the-Loop Payments
 tags:
-  - payments
-  - agents
-  - safety
-  - human-in-the-loop
+- payments
+- agents
+- safety
+- human-in-the-loop
 aliases:
-  - HITL payments
-  - human oversight payments
-  - AI payment safety
+- HITL payments
+- human oversight payments
+- AI payment safety
 sources:
-  - "[[sources/watchv=axmdsqdoghm]]"
-summary: "The design pattern of keeping a human as the final approver in AI-driven payment workflows, reflecting the current gap between probabilistic AI and deterministic payment systems."
+- 'https://www.youtube.com/watch?v=axmdsqdoghm'
+summary: The design pattern of keeping a human as the final approver in AI-driven payment workflows, reflecting the current gap between probabilistic AI and deterministic payment systems.
 provenance:
   extracted: 0.65
-  inferred: 0.30
+  inferred: 0.3
   ambiguous: 0.05
-base_confidence: 0.50
+base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
 updated: 2026-07-03
+category: concepts
 ---
 
 # Human-in-the-Loop Payments

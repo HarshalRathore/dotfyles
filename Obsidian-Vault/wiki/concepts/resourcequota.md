@@ -1,12 +1,28 @@
 ---
-type: "concept"
-title: "Resourcequota"
-created: [datetime.date(2024, 6, 29)]
-updated: [datetime.date(2026, 6, 30)]
-sources: ["[[sources/admission-controllers_7667fc]]"]
+type: concept
+title: Resourcequota
+created:
+- datetime.date(2024
+- 6
+- 29)
+updated:
+- datetime.date(2026
+- 6
+- 30)
+sources:
+- '[[sources/admission-controllers_7667fc]]'
 tags:
-  - resources
-  - limits
+- resources
+- limits
+category: concepts
+lifecycle: draft
+tier: supporting
+base_confidence: 0.42
+provenance:
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
+summary: Resourcequota
 ---
 ## Definition
 ResourceQuota is a Kubernetes object that enforces hard limits on the total amount of resources (like CPU and memory requests and limits) that can be consumed across all pods in a namespace. It operates as a built-in validating admission controller that checks whether resource requests and limits would exceed the defined quota for a namespace. It aggregates resource usage to prevent any single namespace from monopolizing cluster resources, promoting fairness in shared environments.

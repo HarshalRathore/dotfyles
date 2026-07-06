@@ -1,19 +1,19 @@
 ---
-title: "Holistic Eval Framework"
+title: Holistic Eval Framework
 category: concepts
 tags:
-  - evals
-  - benchmarking
-  - multi-metric
-  - ai-search
-  - aief2025
+- evals
+- benchmarking
+- multi-metric
+- ai-search
+- aief2025
 aliases:
-  - holistic evaluation
-  - multi-dimensional evals
+- holistic evaluation
+- multi-dimensional evals
 sources:
-  - "AIEF2025 - Evaluating AI Search: A Practical Framework for Augmented AI Systems — Quotient AI + Tavily - https://www.youtube.com/watch?v=wRJD0inpmjU"
+- 'AIEF2025 - Evaluating AI Search: A Practical Framework for Augmented AI Systems — Quotient AI + Tavily - https://www.youtube.com/watch?v=wRJD0inpmjU'
 provenance:
-  extracted: 0.90
+  extracted: 0.9
   inferred: 0.06
   ambiguous: 0.04
 base_confidence: 0.85
@@ -23,12 +23,13 @@ tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[concepts/llm-evaluation-framework]]"
-    type: extends
-  - target: "[[concepts/evals-spectrum]]"
-    type: uses
-  - target: "[[concepts/reference-free-evaluation]]"
-    type: incorporates
+- target: '[[concepts/llm-evaluation-framework]]'
+  type: extends
+- target: '[[concepts/evals-spectrum]]'
+  type: uses
+- target: '[[concepts/reference-free-evaluation]]'
+  type: incorporates
+summary: Holistic Eval Framework
 ---
 
 # Holistic Eval Framework

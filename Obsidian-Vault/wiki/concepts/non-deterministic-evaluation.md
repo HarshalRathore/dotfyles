@@ -12,7 +12,8 @@ aliases:
   - non-deterministic-systems-evaluation
 sources:
   - "AIEF2025 - Taming Rogue AI Agents with Observability-Driven Evaluation — Jim Bennett, Galileo - https://www.youtube.com/watch?v=xJXm4Wcw4m8"
-summary: Evaluating non-deterministic AI systems: the same input produces different outputs and execution paths, making evaluation inherently probabilistic.
+summary: >-
+  Evaluating non-deterministic AI systems: the same input produces different outputs and execution paths, making evaluation inherently probabilistic.
 provenance:
   extracted: 0.85
   inferred: 0.10

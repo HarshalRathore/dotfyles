@@ -1,34 +1,35 @@
 ---
-title: "Neil Dwyer"
+title: Neil Dwyer
 category: entities
 tags:
-  - person
-  - cto
-  - voice-ai
-  - real-time-media
-  - livekit
-  - gabber
-  - aief2025
+- person
+- cto
+- voice-ai
+- real-time-media
+- livekit
+- gabber
+- aief2025
 aliases:
-  - Neil
-summary: CTO and co-founder of Gabber (real-time AI personas startup). Former LiveKit agents platform creator, Uber, multiplayer gaming startup, and Bebo. Speaker at AIEF2025 on self-hosting Orpheus TTS at $1/hr.
+- Neil
+summary: CTO and co-founder of Gabber (real-time AI personas startup). Former LiveKit agents platform creator, Uber, multiplayer gaming startup, and Bebo. Speaker at AIEF2025 on self-hosting Orpheus TTS at...
 provenance:
   extracted: 0.95
   inferred: 0.04
   ambiguous: 0.01
-base_confidence: 0.90
+base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/gabber]]"
-    type: related_to
-  - target: "[[entities/livekit]]"
-    type: related_to
-  - target: "[[entities/orpheus-tts]]"
-    type: related_to
+- target: '[[entities/gabber]]'
+  type: related_to
+- target: '[[entities/livekit]]'
+  type: related_to
+- target: '[[entities/orpheus-tts]]'
+  type: related_to
+sources: []
 ---
 
 # Neil Dwyer

@@ -1,12 +1,18 @@
 ---
 title: Zscaler
 category: entities
-tags: [company, cybersecurity, zero-trust, network-security, ai-governance, cloud-security]
-summary: "Cloud-based cybersecurity company providing zero-trust network access. Integrates with AI monitoring tools like SurePath for enterprise AI governance and PII/PHI detection."
+tags:
+- company
+- cybersecurity
+- zero-trust
+- network-security
+- ai-governance
+- cloud-security
+summary: Cloud-based cybersecurity company providing zero-trust network access. Integrates with AI monitoring tools like SurePath for enterprise AI governance and PII/PHI detection.
 provenance:
-  extracted: 0.80
-  inferred: 0.20
-  ambiguous: 0.00
+  extracted: 0.8
+  inferred: 0.2
+  ambiguous: 0.0
 base_confidence: 0.75
 lifecycle: draft
 lifecycle_changed: 2026-07-05
@@ -14,10 +20,11 @@ tier: peripheral
 created: 2026-07-05
 updated: 2026-07-05
 relationships:
-  - target: "[[entities/surepath]]"
-    type: related_to
-  - target: "[[concepts/enterprise-ai-administration]]"
-    type: related_to
+- target: '[[entities/surepath]]'
+  type: related_to
+- target: '[[concepts/enterprise-ai-administration]]'
+  type: related_to
+sources: []
 ---
 
 **Zscaler** is a cloud-based cybersecurity company that provides zero-trust network access and internet security services. It is mentioned in the context of enterprise AI administration as a network security tool that can integrate with AI monitoring solutions.

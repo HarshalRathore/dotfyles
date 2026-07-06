@@ -1,24 +1,36 @@
 ---
-title: "Knowledge Injection in LLMs"
+title: Knowledge Injection in LLMs
 category: concepts
-tags: [knowledge-injection, context, fine-tuning, llm, domain-knowledge]
-aliases: [injecting knowledge, domain knowledge, context injection]
+tags:
+- knowledge-injection
+- context
+- fine-tuning
+- llm
+- domain-knowledge
+aliases:
+- injecting knowledge
+- domain knowledge
+- context injection
 relationships:
-  - target: "[[concepts/model-progression-framework]]"
-    type: related_to
-  - target: "[[concepts/agentic-rag]]"
-    type: related_to
-sources: ["[[sources/aief2025-rft]]", "[[sources/dpo]]", "[[sources/sft-fine-tuning-with-openai-—-ilan-bigio]]", "[[sources/watchv=jfalqqfxqpa]]"]
-summary: "Strategies for injecting domain knowledge into LLMs: context injection is preferred over fine-tuning for knowledge acquisition, with fine-tuning reserved for later-stage optimization of behavior rather than facts."
+- target: '[[concepts/model-progression-framework]]'
+  type: related_to
+- target: '[[concepts/agentic-rag]]'
+  type: related_to
+sources:
+- '[[sources/aief2025-rft]]'
+- '[[sources/dpo]]'
+- '[[sources/sft-fine-tuning-with-openai-—-ilan-bigio]]'
+- 'https://www.youtube.com/watch?v=jfalqqfxqpa'
+summary: 'Strategies for injecting domain knowledge into LLMs: context injection is preferred over fine-tuning for knowledge acquisition, with fine-tuning reserved for later-stage optimization of behavior ra...'
 provenance:
-  extracted: 0.60
+  extracted: 0.6
   inferred: 0.35
   ambiguous: 0.05
 base_confidence: 0.65
 lifecycle: draft
 tier: supporting
-created: 2026-07-03T15:05:02Z
-updated: 2026-07-03T15:05:02Z
+created: 2026-07-03 15:05:02+00:00
+updated: 2026-07-03 15:05:02+00:00
 ---
 
 # Knowledge Injection in LLMs

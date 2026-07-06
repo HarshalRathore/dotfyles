@@ -1,14 +1,24 @@
 ---
-title: "AIEF2025 - Rishabh Garg, Tesla Optimus — Challenges in High Performance Robotics Systems"
+title: AIEF2025 - Rishabh Garg, Tesla Optimus — Challenges in High Performance Robotics Systems
 category: references
-tags: [aief2025, robotics, tesla, optimus, can-bus, multithreading, jitter, synchronization]
-aliases: [Rishabh Garg AIEF2025, Tesla Optimus software challenges]
+tags:
+- aief2025
+- robotics
+- tesla
+- optimus
+- can-bus
+- multithreading
+- jitter
+- synchronization
+aliases:
+- Rishabh Garg AIEF2025
+- Tesla Optimus software challenges
 sources:
-  - "AIEF2025 - Rishabh Garg, Tesla Optimus — Challenges in High Performance Robotics Systems - https://www.youtube.com/watch?v=bCGbuyv8PMk"
+- AIEF2025 - Rishabh Garg, Tesla Optimus — Challenges in High Performance Robotics Systems - https://www.youtube.com/watch?v=bCGbuyv8PMk
 provenance:
-  extracted: 1.00
-  inferred: 0.00
-  ambiguous: 0.00
+  extracted: 1.0
+  inferred: 0.0
+  ambiguous: 0.0
 base_confidence: 0.95
 lifecycle: draft
 lifecycle_changed: 2026-07-04
@@ -16,12 +26,13 @@ tier: supporting
 created: 2026-07-04
 updated: 2026-07-04
 relationships:
-  - target: "[[entities/rishabh-garg|Rishabh Garg]]"
-    type: features_speaker
-  - target: "[[entities/tesla-optimus|Tesla Optimus]]"
-    type: features_topic
-  - target: "[[entities/aief2025|AI Engineer World's Fair 2025]]"
-    type: part_of
+- target: '[[entities/rishabh-garg|Rishabh Garg]]'
+  type: features_speaker
+- target: '[[entities/tesla-optimus|Tesla Optimus]]'
+  type: features_topic
+- target: '[[entities/aief2025|AI Engineer World''s Fair 2025]]'
+  type: part_of
+summary: AIEF2025 - Rishabh Garg, Tesla Optimus — Challenges in High Performance Robotics Systems
 ---
 
 # AIEF2025 - Rishabh Garg, Tesla Optimus — Challenges in High Performance Robotics Systems
