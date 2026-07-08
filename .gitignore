@@ -20,3 +20,6 @@ alacritty.*\.bak
 lazy-lock\.json
 .luarc.json
 tags
+.git-lock
+.commit-vault.sh
+.env
