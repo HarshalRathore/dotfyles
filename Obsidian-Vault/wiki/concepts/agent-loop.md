@@ -124,6 +124,28 @@ The ultimate application of loops: rather than an engineer prompting an agent to
 
 Loops target the "1% gains" — bugs, UX issues, paper cuts, conversion tweaks. Not strategic work, but the things that drain engineering hours.
 
+The "self" in self-driving doesn't mean autonomy from the engineer — it means autonomy from user instruction as the starting point. ^[extracted]
+
+### The Product Engineer Loop
+
+Loops aren't just an AI phenomenon. Product engineers already complete this loop manually:
+- Collect data through analytics and talking to users
+- Build and ship improvements based on that data
+- Evaluate performance to guide future development
+- Repeat constantly
+
+Self-driving agents automate this exact loop, removing the need for human prompting at step one. ^[extracted]
+
+## Limits
+
+Loops aren't about eliminating all engineering work. They automate the "1% gains" — bugs, UX issues, paper cuts, conversion tweaks — things that drain engineering hours but rarely need strategic input. The more you automate, the more time engineers spend on impactful and interesting work. ^[extracted]
+
+## Code Was Never the Problem
+
+Critics deride loops as a ploy from OpenAI and Anthropic to get everyone tokenmaxxing. But the rise of product engineers already showed that writing code is only a small portion of the work. Direction, taste, and empathy remain critical — even in a loop-driven future. ^[extracted]
+
+The opposition to loops is an understandable reaction to another shift in how software is built. Engineers feel threatened when told they should be "designing loops" rather than writing code. The work is increasingly abstracted away from writing code. ^[extracted]
+
 ## Owning the Loop: Control Flow and State Management
 
 [[entities/dex-horthy|Dex Horthy]] ([[entities/humanlayer|HumanLayer]]) argues that the naive agent loop (event → LLM picks step → execute → append → repeat) breaks down with longer contexts. The solution: own your control flow (Factor 8 of [[concepts/12-factor-agents]]). ^[extracted]
@@ -164,6 +186,7 @@ The owning-your-control-flow pattern pairs naturally with [[concepts/micro-agent
 - [[misc/web-posthog-com-newsletter-loops]] — PostHog's comprehensive take on why engineering loops are the next paradigm
 - [[entities/peter-steinberger]] — Creator of OpenClaw, drove the loops conversation
 - [[entities/boris-cherny]] — Creator of Claude Code, drove the loops conversation
+- [[concepts/claude-code-loop-types]] — Claude Code team's classification of four loop types (turn-based, goal-based, time-based, proactive) with specific primitives for each.
 - [[misc/web-posthog-com-docs-ai-evals]] — PostHog AI Evals official documentation: three evaluation types, MCP management, reports, error handling
 - [[misc/web-youtube-com-watch-v-unzcg3lw6o0]] — Matt Pocock's full AI coding workflow workshop: PRDs → tracer bullets → TDD → AFK runs
 - [[misc/web-posthog-com-blog-what-if-your-product-built-itself]] — PostHog's self-driving product improvement pipeline: a concrete production deployment of the agent loop. Signals as goal, grouped reports as context, research agent and PR author as agent, CI green as evaluation.

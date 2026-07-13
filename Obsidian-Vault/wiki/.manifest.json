@@ -993,7 +993,7 @@
       "page_count": 23
     },
     {
-      "source": "AIEF2025 - Top Ten Challenges to Reach AGI — Stephen Chin, Andreas Kollegger - https://www.youtube.com/watch?v=ypyvj_56sBU",
+      "source": "AIEF2025 - Top Ten Challenges to Reach AGI \u2014 Stephen Chin, Andreas Kollegger - https://www.youtube.com/watch?v=ypyvj_56sBU",
       "ingested": "2026-07-05T14:30:00Z",
       "updated": "2026-07-05T14:30:00Z",
       "pages_created": [
@@ -1015,6 +1015,160 @@
         "misc/ai-engineer-worlds-fair-2025.md"
       ],
       "page_count": 14
+    },
+    {
+      "source": "tweet:arpit_bhayani:1924808826529972348",
+      "ingested": "2026-07-13T00:00:00Z",
+      "pages_created": [
+        "skills/build-http-server-from-scratch.md"
+      ],
+      "pages_updated": [],
+      "page_count": 1
+    },
+    {
+      "source": "https://x.com/mattpocockuk/status/2066612676520779867",
+      "ingested": "2026-07-13T00:00:00Z",
+      "updated": "2026-07-13T00:00:00Z",
+      "pages_created": [
+        "concepts/instruction-rot.md"
+      ],
+      "page_count": 2
+    },
+    {
+      "source": "robert-courson-supergoal.md",
+      "ingested": "2026-07-13T00:00:00Z",
+      "updated": "2026-07-13T00:00:00Z",
+      "pages_created": [
+        "skills/supergoal.md",
+        "entities/robert-courson.md"
+      ],
+      "pages_updated": [],
+      "page_count": 2
+    },
+    {
+      "source": "remaining/bootoshi-ai-workflow-productivity-breakthrough.md",
+      "ingested": "2026-07-13T20:18:21Z",
+      "pages_created": [
+        "skills/codex-goal-mode-workflow.md"
+      ],
+      "pages_updated": [],
+      "page_count": 1
+    },
+    {
+      "source": "https://x.com/ClaudeDevs/status/2074208949205881033",
+      "ingested": "2026-07-13T00:00:00Z",
+      "pages_created": [
+        "concepts/claude-code-loop-types.md"
+      ],
+      "pages_updated": [
+        "concepts/agent-loop.md"
+      ],
+      "page_count": 2
+    },
+    {
+      "source": "threads/agent-4-thariq-skills-thread.md",
+      "ingested": "2026-07-13T00:00:00Z",
+      "pages_created": [
+        "entities/thariq-al-samarrai.md"
+      ],
+      "pages_updated": [],
+      "page_count": 1
+    },
+    {
+      "source": "remaining/yu-su-mind2web2-agent-as-judge.md",
+      "ingested": "2026-07-13T20:30:00Z",
+      "content_hash": "0ba6965ac98c6542542919a8ad589e5b9db7ac3da9a005a57d0fdd279ff2a484",
+      "pages_created": [
+        "references/mind2web-2.md",
+        "concepts/agent-as-a-judge.md",
+        "entities/yu-su.md",
+        "entities/zhu-liang.md",
+        "references/mind2web-2-twitter-thread.md"
+      ],
+      "pages_updated": [
+        "references/mind2web-2.md",
+        "concepts/agent-as-a-judge.md",
+        "entities/yu-su.md"
+      ],
+      "page_count": 5
+    },
+    {
+      "source": "https://x.com/geoffreylitt/status/2072522251300409556",
+      "ingested": "2026-07-13T00:00:00Z",
+      "pages_created": [
+        "concepts/understanding-code-agents-write.md",
+        "entities/geoffrey-litt.md"
+      ],
+      "pages_updated": [],
+      "page_count": 2
+    },
+    {
+      "source": "https://x.com/posthog/status/2075645235724767739",
+      "ingested": "2026-07-13T00:00:00Z",
+      "pages_created": [
+        "references/posthog-stop-being-the-code-review-bottleneck.md"
+      ],
+      "pages_updated": [],
+      "page_count": 1
+    },
+    {
+      "source": "https://x.com/trq212/status/2035372725921882119",
+      "ingested": "2026-07-13T00:00:00Z",
+      "pages_created": [
+        "concepts/agents-should-use-a-filesystem.md",
+        "references/your-agent-should-use-a-filesystem-thread-trq212.md"
+      ],
+      "pages_updated": [
+        "entities/claude-code.md"
+      ],
+      "page_count": 3
+    },
+    {
+      "source": "remaining/rohit-ghumare-kubernetes-free-resources.md",
+      "ingested": "2026-07-13T00:00:00Z",
+      "pages_created": [
+        "references/kubernetes-free-resources.md",
+        "entities/rohit-ghumare.md"
+      ],
+      "pages_updated": [],
+      "page_count": 2
+    },
+    {
+      "source": "remaining/mattpocock-grill-prep-skill.md",
+      "ingested": "2026-07-13T00:00:00Z",
+      "pages_created": [
+        "concepts/grill-prep-skill.md"
+      ],
+      "pages_updated": [],
+      "page_count": 1
+    },
+    {
+      "source": "remaining/seventhoce56019-reverse-skill.md",
+      "ingested": "2026-07-13T00:00:00Z",
+      "pages_created": [],
+      "pages_updated": [
+        "references/reverse-skill.md"
+      ]
+    },
+    {
+      "source": "threads/agent-2-claude-agent-sdk.md",
+      "ingested": "2026-07-13T21:15:00Z",
+      "pages_created": [
+        "references/claude-agent-sdk.md"
+      ],
+      "pages_updated": [],
+      "page_count": 1
+    },
+    {
+      "source": "threads/agent-3-making-playgrounds-using-claude-code.md",
+      "ingested": "2026-07-13T21:30:00Z",
+      "pages_created": [
+        "references/claude-code-playground-plugin.md"
+      ],
+      "pages_updated": [
+        "entities/thariq-al-samarrai.md"
+      ],
+      "page_count": 1
     }
   ]
 }

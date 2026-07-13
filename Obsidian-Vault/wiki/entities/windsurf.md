@@ -115,5 +115,4 @@ Windsurf is mentioned alongside [[entities/cursor-ai|Cursor]], [[entities/github
 - [[concepts/workflow-agent-spectrum]] — Windsurf bridges workflow determinism with agent flexibility
 - [[references/aief2025-windsurf-everywhere-kevin-hou]] — Full talk by Kevin Hou
 - [[references/aief2025-mastering-engineering-flow-windsurf-eashan-sinha]] — Full talk by Eashan Sinha
-
 - [[references/aief2025-the-eyes-are-the-context-window-to-the-soul-sam-fertig-windsurf|The Eyes Are The (Context) Window to The Soul — Sam Fertig]] — Context philosophy: what context and how much context

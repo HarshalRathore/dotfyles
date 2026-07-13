@@ -146,6 +146,7 @@ Updated: 2026-07-05T04:32:00.506586+00:00
 
 ## Recent Activity
 
+- 2026-07-13 — Dedup: merged concepts/llm-as-judge.md into concepts/llm-as-judge-evaluation.md (same concept, complementary content); redirect stub created at former path.
 - 2026-07-06 — Ingested WF2026: Autoresearch & Keynotes transcript into wiki/concepts, wiki/entities, and wiki/sources; added major coverage for ACDC, agency ladder, JEPA, memory harnesses, agent evaluation, and sovereign AI.
 - 2026-07-06 — Autonomous wiki repair: YAML 56, frontmatter 2057, links 1306.
 
