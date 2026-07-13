@@ -185,3 +185,6 @@ bind p paste-buffer -p
 # Bind P to choose which buffer to paste from.
 bind P choose-buffer    
 
+
+# <prefix>Q → CodexBar usage detail popup. Press q or Escape to close.
+bind-key Q display-popup -E -h 36 -w 92 -T "CodexBar usage" 'codexbar usage'

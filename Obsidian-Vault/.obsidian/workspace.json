@@ -25,18 +25,48 @@
             "id": "09c61c8ebb161445",
             "type": "leaf",
             "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "f7e33f8308427ad8",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/concepts/llm-evaluation-framework.md",
+                "file": "wiki/concepts/leading-words.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "llm-evaluation-framework"
+              "title": "leading-words"
+            }
+          },
+          {
+            "id": "548284ba1ff7f61b",
+            "type": "leaf",
+            "state": {
+              "type": "smart-release-notes-view",
+              "state": {},
+              "icon": "file-text",
+              "title": "Release Notes"
+            }
+          },
+          {
+            "id": "e9e49d2b16b7263f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -68,7 +98,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "index",
+                "query": "instruction rot",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -89,7 +119,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -109,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wiki/index.md",
+                "file": "wiki/concepts/leading-words.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +150,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for index"
+              "title": "Backlinks for leading-words"
             }
           },
           {
@@ -128,12 +159,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wiki/index.md",
+                "file": "wiki/concepts/leading-words.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from index"
+              "title": "Outgoing links from leading-words"
             }
           },
           {
@@ -155,13 +186,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/index.md",
+                "file": "wiki/concepts/leading-words.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of leading-words"
             }
           },
           {
@@ -179,13 +210,13 @@
             }
           },
           {
-            "id": "033d1b0b9f12b0c1",
+            "id": "53c809ba8cc2e00c",
             "type": "leaf",
             "state": {
-              "type": "llm-wiki-query-view",
+              "type": "smart-connections-view",
               "state": {},
-              "icon": "message-circle",
-              "title": "Query Wiki - Conversational Query"
+              "icon": "smart-connections",
+              "title": "Connections"
             }
           }
         ],
@@ -193,11 +224,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "remotely-save:Remotely Save": false,
       "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -207,37 +238,42 @@
       "command-palette:Open command palette": false,
       "hide-folders:Show hidden folders": false,
       "karpathywiki:Ingest current file": false,
-      "karpathywiki:Query wiki": false
+      "karpathywiki:Query wiki": false,
+      "smart-connections:Smart Connections: Open connections view": false,
+      "smart-connections:Toggle Footer Connections": false,
+      "smart-connections:Smart Connections: Open random connection": false
     }
   },
-  "active": "09c61c8ebb161445",
+  "active": "53c809ba8cc2e00c",
   "lastOpenFiles": [
-    "wiki/concepts/llm-as-judge.md",
-    "wiki/concepts/agent-as-judge.md",
-    "wiki/sources/wf2026-autoresearch-keynotes.md",
-    "wiki/concepts/auto-research-loop.md",
-    "log.md",
-    "hot.md",
-    "index.md",
-    "entities/peter-steinberger.md",
-    "wiki/index.md",
-    "wiki/concepts/Karpathy-AutoResearch.md",
-    "wiki/sources/autoresearch.md",
-    "wiki/concepts/autonomous-driving.md",
-    "wiki/entities/andrej-karpathy.md",
-    "wiki/concepts/auto-improving-agent-loop.md",
-    "wiki/concepts/eval-orchestration-parallelism.md",
-    "wiki/concepts/ai-chemistry.md",
-    "wiki/entities/fei-fei-fei.md",
-    "wiki/entities/david-silver.md",
-    "wiki/entities/jitendra-malik.md",
-    "wiki/entities/aj.md",
-    "wiki/entities/amol.md",
-    "wiki/concepts/self-supervised-learning.md",
-    "wiki/concepts/optimize-anything.md",
-    "wiki/concepts/decisions-ledger.md",
-    "wiki/concepts/vo3.md",
-    "wiki/concepts/life-leaderboard.md",
+    "wiki/references/mind2web-2-twitter-thread.md",
+    "wiki/entities/zhu-liang.md",
+    "wiki/concepts/agent-jailbreak-fake-law.md",
+    "wiki/entities/mingchen-zhuge.md",
+    "wiki/references/skillweaver.md",
+    "wiki/concepts/skillweaver.md",
+    "wiki/references/agent-as-a-judge-evaluate-agents.md",
+    "wiki/references/claude-code-spec-based-building.md",
+    "wiki/concepts/claude-code-session-management.md",
+    "wiki/references/claude-code-html-effectiveness.md",
+    "wiki/references/claude-agent-sdk.md",
+    "wiki/concepts/claude-code-dynamic-workflows.md",
+    "wiki/entities/the-office-us.md",
+    "wiki/entities/friends.md",
+    "wiki/entities/the-sopranos.md",
+    "wiki/entities/the-wire.md",
+    "wiki/entities/game-of-thrones.md",
+    "wiki/entities/breaking-bad.md",
+    "wiki/references/top-100-web-series-tweet.md",
+    "wiki/entities/elvis-sun.md",
+    "wiki/skills/lfd-design.md",
+    "wiki/concepts/loss-function-development.md",
+    "wiki/references/elvis-goal-loss-functions-playbook.md",
+    "wiki/concepts/grill-prep-skill.md",
+    "wiki/entities/robert-courson.md",
+    "wiki/entities/h100envy.md",
+    "wiki/synthesis",
+    "wiki/skills",
     "wiki/sedUkafDv",
     "wiki/sedRrx8qD",
     "wiki/sedsWQ8vP",
@@ -246,8 +282,6 @@
     "wiki/sedEAB3jW",
     "wiki/sedCCQrnE",
     "wiki/sedhdH6ov",
-    "wiki/sedCwai4w",
-    "wiki/concepts/sedO4I4VP",
     "attachments/loops-startup-monopoly.png",
     "attachments/loops-peter-steinberger-quote.png",
     "attachments/loops-hero-why-were-bullish.png",
