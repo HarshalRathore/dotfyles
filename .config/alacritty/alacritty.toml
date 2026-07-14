@@ -18,9 +18,25 @@ blink_interval = 500
 blink_timeout = 5
 unfocused_hollow = false
 
+# This is a fork of Alacritty! Read about configuration and report issues at https://github.com/GregTheMadMonk/alacritty-smooth-cursor
+# Fork specifically for the cursor blinking and smooth movement. The rest of the configuration is from the original Alacritty project.
+smooth_motion = true
+smooth_motion_factor = 0.3
+smooth_motion_spring = 0.6
+smooth_motion_max_stretch_x = 3.0
+smooth_motion_max_stretch_y = 3.0
+smooth_motion_antijitter_ms = 50
+
   [cursor.style]
   blinking = "On"
   shape = "Block"
+
+[seltools]
+# Custom fork settings
+enabled = true
+parse_json = true
+hint_width = 40
+
 
 [env]
 TERM = "xterm-256color"
@@ -74,6 +90,7 @@ startup_mode = "Maximized"
 bindings = [
    { key = "Return", mods = "Control|Shift", action = "SpawnNewInstance" }
 ]
+
 
 # Colors (Oxocarbon)
 # Source https://vimcolorschemes.com/nyoom-engineering/oxocarbon.nvim
