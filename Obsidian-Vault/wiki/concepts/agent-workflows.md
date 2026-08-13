@@ -16,20 +16,23 @@ sources:
   - "AIEF2025 - 3 ingredients for building reliable enterprise agents - Harrison Chase, LangChain/LangGraph - https://www.youtube.com/watch?v=kTnfJszFxCg"
   - "AIEF2025 - Vibe Coding with Confidence — Itamar Friedman, Qodo - https://www.youtube.com/watch?v=n991Yxo1aOI"
   - "AIEF2025 - How to Build Planning Agents without losing control - Yogendra Miraje, Factset - https://www.youtube.com/watch?v=sl3icG-IjHo"
+  - "Graph Engineering: build 1000+ agent loops in one window from one prompt — X post and captured Google Hands-on AI Multi-Agent Lab, 2026-08-02"
+  - "https://www.deeplearning.ai/courses/agentic-ai"
+  - "https://nitter.tiekoetter.com/i/article/2080296261576687751"
 summary: "Workflow orchestration layer in agent architecture that tracks execution state, manages action sequencing, and bridges the gap between AI reasoning and tool execution. Core to agentic automation."
 provenance:
   extracted: 0.75
   inferred: 0.20
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.72
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: core
 created: 2026-07-04
-updated: 2026-07-05
+updated: 2026-08-02T13:04:14Z
 relationships:
   - target: "[[concepts/agent-architecture]]"
-    type: core_component_of
+    type: related_to
   - target: "[[concepts/orchestrating-vs-executing]]"
     type: related_to
   - target: "[[concepts/open-loop-planning]]"
@@ -41,6 +44,8 @@ relationships:
   - target: "[[concepts/agentic-workflow-vs-workflow-agent|Agentic Workflow vs Workflow Agent]]"
     type: related_to
   - target: "[[concepts/blueprint-generator-pattern|Blueprint Generator Pattern]]"
+    type: related_to
+  - target: "[[references/google-hands-on-ai-multi-agent-lab|Google Hands-on AI Multi-Agent Lab]]"
     type: related_to
 ---
 
@@ -120,6 +125,18 @@ Miraje's four-node LangGraph architecture for agentic workflows:
 4. **Joiner** — Combines outputs from different tasks
 
 The Blueprint acts as a cognitive load management layer: it reduces the Planner's context by limiting which tools are included, provides finer control over task planning, and makes the agent's behavior interpretable to non-technical stakeholders. ^[extracted]
+## Graph Engineering as Workflow Composition
+
+The captured lab makes the workflow layer concrete: an agent can compose sequential, parallel, and loop workflows around shared state, while MCP provides tool boundaries and A2A provides agent-to-agent boundaries. The graph is the control surface; the model supplies decisions inside bounded nodes. ^[extracted]
+
+## Andrew Ng's Agentic Workflow Lens
+
+Andrew Ng's course treats an agentic workflow as a multi-step LM application whose steps can combine reasoning, ordinary code, retrieval, and external tools. The useful design move is to decompose a complex task and choose the smallest appropriate building block for each step rather than defaulting to one large prompt. ^[extracted]
+
+The course also frames agentic systems as a spectrum of autonomy: fixed sequences, semi-autonomous workflows, and systems that plan, call tools, reflect, or delegate to other agents. This complements the workflow/agent spectrum already described above. ^[extracted]
+
+Its development loop is practical: build a safe end-to-end version, inspect intermediate outputs, add targeted evals, and improve the component that the evidence says is limiting the result. ^[extracted]
+
 ## Related
 
 - [[concepts/agent-architecture]] — Four-component framework where workflows live

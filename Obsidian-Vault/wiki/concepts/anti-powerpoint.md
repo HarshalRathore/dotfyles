@@ -16,17 +16,18 @@ relationships:
     type: related_to
 sources:
   - "AIEF2025 - Rethinking Team Building: how a 30-person Startup serves 50 Million Users — Grant Lee, Gamma - https://www.youtube.com/watch?v=q8zoXAbmJdI"
+  - "https://ocw.mit.edu/courses/res-tll-005-how-to-speak-january-iap-2018/pages/how-to-speak/"
 summary: "Gamma's product positioning as the anti-PowerPoint — reimaging presentation creation from a design-first to content-first model where users focus on ideas, not formatting."
 provenance:
-  extracted: 0.90
-  inferred: 0.05
-  ambiguous: 0.05
-base_confidence: 0.80
+  extracted: 0.86
+  inferred: 0.10
+  ambiguous: 0.04
+base_confidence: 0.66
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
-updated: 2026-07-05
+updated: "2026-08-02T10:46:10Z"
 ---
 
 # Anti-PowerPoint
@@ -50,9 +51,17 @@ AI-powered tools are uniquely positioned to implement anti-PowerPoint because th
 - Adapt designs to different audiences and contexts
 - Maintain consistent professional quality without design expertise
 
+## Winston's Complementary Slide Rules
+
+Patrick Winston's lecture adds a communication constraint to the content-first [[concepts/anti-powerpoint|Anti-PowerPoint]] philosophy: slides are support, not the main event. Remove background clutter, logos, unnecessary titles, and excess words; preserve whitespace and readable type; and use arrows instead of a laser pointer that turns the speaker away from the audience. ^[extracted]
+
+The shared principle is not “never use slides.” It is to make the visual layer carry only what the audience needs while the presenter carries the explanation. ^[inferred]
+
 ## Related
 
 - [[entities/gamma|Gamma]] — Source of the positioning
 - [[concepts/content-first-design|Content-First Design]] — The underlying philosophy
 - [[concepts/tools-for-imagination|Tools for Imagination]] — Broader vision
 - [[concepts/vibe-coding|Vibe Coding]] — Related AI-era creation philosophy
+- [[references/mit-how-to-speak-patrick-winston|MIT How to Speak — Patrick Winston]] — source of the complementary slide rules
+- [[concepts/technical-presentation|Technical Presentation]] — reusable presentation framework

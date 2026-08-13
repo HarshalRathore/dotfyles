@@ -9,22 +9,23 @@ tags:
 - product-engineering
 sources:
 - '[[sources/loops]]'
+- 'https://x.com/i/status/2083231950744244360'
+- 'https://posthog.com/blog/10k-prs-a-month'
 source_url: https://posthog.com/newsletter/loops
 created: 2026-06-30 23:45:00+00:00
-updated: 2026-06-30 23:45:00+00:00
-summary: PostHog's newsletter on engineering loops with AI agents — the four requirements (goal, context, evaluation, agent), concrete examples, industry momentum, and the vision of self-driving products.
+updated: 2026-08-02T03:34:00+05:30
+summary: PostHog's model of engineering loops — goal, context, evaluation, and agent — now backed by a scale case where the outer loop handles thousands of agent-assisted PRs.
 affinity: {}
 promotion_status: misc
 stub: false
 provenance:
-  extracted: 0.9
-  inferred: 0.08
-  ambiguous: 0.02
-base_confidence: 0.45
+  extracted: 0.84
+  inferred: 0.13
+  ambiguous: 0.03
+base_confidence: 0.78
 lifecycle: draft
 lifecycle_changed: 2026-06-30
 tier: supporting
----
 
 # Why we're bullish on loops
 
@@ -48,6 +49,13 @@ PostHog's newsletter argues that the future of AI-assisted engineering is not pr
 - **Self-driving products vision:** Rather than an engineer prompting an agent to progress a project, the agent prompts itself. The product improves itself without direct human instruction. PostHog is betting on this via their Slack app, PostHog Code, and Replay Vision.
 - **What loops target:** The 1% gains — bugs, UX issues, paper cuts, conversion tweaks. Not strategic work, but the things that drain engineering hours.
 - **Code was never the problem:** Direction, taste, and empathy remain critical for building successful products in a loop-driven future.
+## Evidence at 10,000 PRs per Month
+
+PostHog's later developer-experience account shows the four-part loop under load: agent-opened monorepo PRs rose from about 20% to 70% in four months, while the self-driving loop reached about 4% of PRs. The organization responded by extending the loop beyond prompting with cloud dev boxes, selective CI, automated review, and browser-based QA. ^[extracted]
+
+The scale case clarifies the role of evaluation and context. Context includes trunk state, CI history, review feedback, GitHub workflow analytics, and visible browser behavior; evaluation includes deterministic checks, selective test results, review safety checks, uptime, and UI evidence. ^[inferred]
+
+See [[misc/web-x-com-posthog-status-2083231950744244360]] for the source account and [[concepts/ai-native-toolchain]] for the outer-loop design implication.
 
 ## Concepts
 

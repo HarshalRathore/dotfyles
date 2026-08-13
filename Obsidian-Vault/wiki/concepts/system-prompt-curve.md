@@ -12,17 +12,18 @@ relationships:
     type: related_to
 sources:
   - https://www.youtube.com/watch?v=4sX_He5c4sI
-summary: A U-shaped curve showing that system prompt size correlates with model capability: small prompts for old models, large prompts for mid-tier models, small prompts again for the newest models.
+  - https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models
+summary: "A U-shaped curve showing that system prompt size correlates with model capability: small prompts for old models, large prompts for mid-tier models, small prompts again for the newest models."
 provenance:
   extracted: 0.85
   inferred: 0.10
   ambiguous: 0.05
-base_confidence: 0.55
+base_confidence: 0.60
 lifecycle: draft
 lifecycle_changed: 2026-07-06
 tier: supporting
 created: 2026-07-06T00:00:00Z
-updated: 2026-07-06T00:00:00Z
+updated: 2026-08-04T00:00:00Z
 ---
 
 # System Prompt Curve
@@ -36,6 +37,8 @@ The **system prompt curve** (also called the **U-shaped system prompt curve**) d
 | Newest models | Small | Models understand context well enough that verbose prompts are unnecessary |
 
 This curve was demonstrated by **Cloud Code** removing **80% of its system prompt** — a deliberate reduction tied to newer model capabilities. ^[extracted]
+
+Anthropic's official context-engineering article (July 2026) confirms the mechanism: the old prompt overconstrained Claude Opus 5 and Claude Fable 5, conflicting instructions forced the model to burn reasoning tokens deciding which rule wins, and the cut produced **no measurable loss on coding evaluations**. The new rules replace rules with judgment, examples with interface design, and upfront context with progressive disclosure. ^[extracted]
 
 ## The Three Phases
 
@@ -68,3 +71,4 @@ The newest class of models want **fewer, simpler** system prompts. They understa
 ## Sources
 
 - AI Engineer World's Fair 2026: https://www.youtube.com/watch?v=4sX_He5c4sI
+- "The new rules of context engineering for Claude 5 generation models" — https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models

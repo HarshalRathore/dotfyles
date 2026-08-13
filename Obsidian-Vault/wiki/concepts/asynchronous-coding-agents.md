@@ -8,7 +8,8 @@ tags:
 - parallel-agents
 - aief2025
 sources:
-- AIEF2025 - Your Coding Agent Just Got Cloned And Your Brain Isn't Ready - Rustin Banks, Google Jules - https://www.youtube.com/watch?v=X4BwOu0GWb8
+  - AIEF2025 - Your Coding Agent Just Got Cloned And Your Brain Isn't Ready — Rustin Banks, Google Jules - https://www.youtube.com/watch?v=X4BwOu0GWb8
+  - https://x.com/i/status/2083430232405733819
 relationships:
 - target:
   - - concepts/parallel-agent-workflows|Parallel Agent Workflows
@@ -23,15 +24,15 @@ relationships:
   - - concepts/agent-as-laundry|Agent as Laundry
   type: exemplifies
 provenance:
-  extracted: 0.85
-  inferred: 0.1
+  extracted: 0.82
+  inferred: 0.13
   ambiguous: 0.05
-base_confidence: 0.82
+base_confidence: 0.80
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
-updated: 2026-07-04
-summary: Asynchronous Coding Agents
+updated: 2026-08-02T01:17:21Z
+summary: Asynchronous coding agents work in the background while developers focus elsewhere; Antigravity adds sub-agents, hooks, and task management to this pattern.
 ---
 
 # Asynchronous Coding Agents
@@ -64,6 +65,12 @@ Rustin Banks described async agents as tools that "do the laundry, so to say, so
 ## Relationship to Parallel Agents
 
 Async agents are the foundation of parallel agent workflows. When multiple async agents run simultaneously, each handling different tasks from the backlog, the result is a parallel development model that can dramatically increase throughput. ^[inferred]
+
+## Google Antigravity's Async Extension
+
+The Antigravity source describes asynchronous task management as a core harness primitive alongside sub-agents and hooks. Its operating-system experiment reports agents working in parallel for more than 12 hours, generating tests and iterating while the product surface remained available for artifact inspection. ^[extracted]
+
+This extends the queue-and-review model beyond isolated backlog chores: the unit of work can be a long-running, decomposed project with intermediate artifacts and repair loops. The scale figures are self-reported product-demo claims. ^[inferred] See [[entities/google-antigravity|Google Antigravity]].
 
 ## Comparison with Synchronous Agents
 

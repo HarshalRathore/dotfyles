@@ -21,12 +21,14 @@ base_confidence: 0.7
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-08-11
 relationships:
 - target: '[[concepts/hybrid-search|Hybrid Search]]'
   type: extends
 - target: '[[concepts/enterprise-rag|Enterprise RAG]]'
   type: uses
+- target: '[[concepts/codebase-rag|Codebase RAG]]'
+  type: related_to
 category: concepts
 ---
 
@@ -57,6 +59,10 @@ A hybrid retrieval system requires a database or lakehouse that supports: ^[extr
 - Sorting and pagination
 - Dynamic or agentic navigation patterns
 
+## Agentic Retrieval: Semantic + Regex Hybrid
+
+Coding agents exemplify hybrid retrieval in practice: [[entities/cursor-ai|Cursor]]'s agent uses **semantic search** (embedding-based, for natural-language queries like "where do we handle authentication?") **in addition to** regex-based tools like grep and ripgrep (for exact string matches). [[references/cursor-semantic-search|Cursor's measurements]] show the combination outperforms either alone — semantic search adds +12.5% average accuracy vs grep-only, but grep remains heavily used because exact-match search is cheap and precise. ^[extracted] See [[concepts/codebase-rag|Codebase RAG]].
+
 ## RAG Enhancement Techniques
 
 Beyond hybrid retrieval, two complementary techniques improve RAG quality: ^[extracted]
@@ -74,9 +80,12 @@ This is why [[entities/lance-db|LanceDB]] positions itself as an AI-native multi
 - [[concepts/enterprise-rag|Enterprise RAG]] — where hybrid retrieval is essential
 - [[concepts/legal-ai|Legal AI]] — domain driving hybrid retrieval needs
 - [[entities/lance-db|LanceDB]] — infrastructure supporting hybrid retrieval
+- [[concepts/codebase-rag|Codebase RAG]] — semantic + regex hybrid in coding agents
 
 ## Sources
 
 - AIEF2025 - Scaling Enterprise-Grade RAG: Lessons from Legal Frontier - Calvin Qi (Harvey), Chang She (Lance) - https://www.youtube.com/watch?v=W1MiZChnkfA
 
 - AIEF2025 - RAG in 2025: State of the Art and the Road Forward — Tengyu Ma, MongoDB (acq. Voyage AI) - https://www.youtube.com/watch?v=W_CYk2ogcDI
+- https://cursor.com/blog/semsearch
+- https://towardsdatascience.com/how-cursor-actually-indexes-your-codebase/

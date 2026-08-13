@@ -5,20 +5,25 @@ tags: [ai-agents, scientific-research, hpc, simulation, national-security, los-a
 summary: "Using AI agents that execute code on HPC systems to accelerate scientific discovery — reading papers, generating hypotheses, running simulations, and designing experiments."
 sources:
   - "AIEF2025 - Applied AI and Agentic Science at a National Laboratory — Mark Machotton, Los Alamos National Laboratory - https://www.youtube.com/watch?v=cFxWPP1ik6A"
-provenance: {extracted: 0.85, inferred: 0.15, ambiguous: 0.0}
+  - "https://x.com/anshuc/status/2077173469293535723"
+  - "https://x.com/cerebras/status/2077822555159945507"
 base_confidence: 0.90
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04T00:00:00Z
-updated: 2026-07-04T00:00:00Z
+updated: 2026-07-18T00:00:00Z
 relationships:
   - target: "[[concepts/agent-environment]]"
     type: extends
   - target: "[[entities/los-alamos-national-laboratory]]"
-    type: used_by
+    type: related_to
   - target: "[[entities/venato-supercomputer]]"
-    type: runs_on
+    type: uses
+provenance:
+  extracted: 0.80
+  inferred: 0.15
+  ambiguous: 0.05
 ---
 
 Agentic science refers to the use of AI agents that don't just generate text or recommendations, but execute code on high-performance computing (HPC) systems to perform real scientific work. The distinguishing feature is that the agent's output is executable simulation — not a chat response.
@@ -33,3 +38,11 @@ Key characteristics of agentic science:
 - **Real-world impact:** The simulations produce results that inform actual scientific decisions (e.g., fusion capsule design for [[entities/livermore-national-laboratory|Lawrence Livermore National Laboratory]]).
 
 Agentic science represents a shift from AI as a knowledge assistant to AI as a research collaborator that can perform the full cycle: literature review → hypothesis → design → simulation → analysis.
+
+## Consumer-Hardware Agentic Science
+
+Agentic science is not limited to HPC. An AI agent (GPT-5.6 Sol) autonomously drove a complete ML experiment — scanning benchmarks, shortlisting base models (Qwen 3.5, Gemma 4, Liquid LFM 2.5), building a keyboard typing simulator with Gaussian per-key timing, and fine-tuning a custom autocorrect model that outperformed GPT-5.6 Sol itself (91.02% vs 90.56% error reduction) — with $0 compute spend on a MacBook. ^[extracted] This demonstrates that agentic science workflows can operate on consumer hardware under tight resource constraints. ^[inferred]
+
+## Research Infrastructure
+
+Agentic research requires robust knowledge retrieval infrastructure. Cerebras Systems built an internal RAG system that ingests from Slack, Wiki/Confluence, code repos, documents, and custom databases into a unified embeddings table, using hybrid retrieval (vector + FTS + graph + wiki indexes) with Reciprocal Rank Fusion scoring and LLM reranking. ^[extracted] The system supports MCP protocol access for LLM coding agents, making it a reference architecture for agentic research infrastructure. ^[inferred]

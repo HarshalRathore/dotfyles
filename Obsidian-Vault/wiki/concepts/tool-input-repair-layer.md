@@ -19,7 +19,9 @@ relationships:
     type: uses
 sources:
   - "Twitter — @MrAhmadAwais, May 3 2026 (DeepSeek tool-input repair) — https://x.com/MrAhmadAwais/status/2050956678502420612"
-summary: Technique for fixing common LLM tool-calling failures via a small set of targeted repairs (30–100 lines) instead of treating failures as model capability gaps.
+  - "https://commandcode.ai/docs/harness-engineering/read-tool"
+  - "https://x.com/MrAhmadAwais/status/2086521445694517404"
+summary: Technique for fixing common LLM tool-calling failures via a small set of targeted repairs (30–100 lines) instead of treating failures as model capability gaps — extended by Command Code's read-tool input repair (10 aliases, strict numeric coercion, negative-offset tail reads).
 provenance:
   extracted: 0.76
   inferred: 0.16
@@ -29,7 +31,7 @@ lifecycle: draft
 lifecycle_changed: 2026-07-13
 tier: supporting
 created: 2026-07-13
-updated: 2026-07-13
+updated: 2026-08-09
 ---
 
 # Tool-Input Repair Layer
@@ -79,6 +81,18 @@ Not all problems are fixable with input repair: ^[extracted]
 
 Example: `read_file` had a relational invariant where "if you provide offset, you must also provide limit, and vice versa." Input repair can't fix this — instead, teach the function the model's intent: `limit` alone → `offset = 0`; `offset` alone → `limit = 2000`. Surface the decision in the result transparently. ^[extracted]
 
+## Read-Tool Extensions (Aug 2026)
+
+The same validate-then-repair philosophy, applied to `read_file` inputs in [[entities/commandcode|Command Code]]'s v1 rebuild (documented in [[references/command-code-read-tool-harness-engineering|The Read Tool deep dive]]): ^[extracted]
+
+- **10 aliases** for the path argument (`filePath`, `absolutePath`, `target_file`…) get repaired onto the canonical field.
+- **Numeric coercion via `Number()`, never `parseInt`** — `"2000"` → 2000, but `"2abc"` is rejected, never silently read as 2.
+- **Fractional offsets rejected, never floored** — a silently wrong window is worse than an error.
+- **Negative offset reads the tail** — the benchmark lists this as a Command Code capability absent from the other nine harnesses.
+- The repair surface is deliberately bounded: repairs are re-checked against the workspace boundary so a repair never becomes an escape hatch (same rule as the filename retries).
+
+These repairs are the same category as the four canonical failure-mode repairs above: predictable, limited, and fixable in the harness rather than the model. ^[inferred]
+
 ## Implications
 
 The frame of "tool confusion" is more useful than "capability gap." A strict schema is a choice with a cost — the harness mediates between distributions. ^[extracted]
@@ -91,3 +105,5 @@ Practical evidence: after adding a repair layer, DeepSeek V4 Pro beat Opus 4.7 6
 
 - @MrAhmadAwais, Twitter, May 3 2026 — https://x.com/MrAhmadAwais/status/2050956678502420612
 - @MrAhmadAwais, Twitter (quoted tweet), May 3 2026 — https://x.com/MrAhmadAwais/status/2050742839827734997
+- Command Code docs, "The Read Tool", Aug 2026 — https://commandcode.ai/docs/harness-engineering/read-tool
+- @MrAhmadAwais, X post, Aug 9 2026 — https://x.com/MrAhmadAwais/status/2086521445694517404

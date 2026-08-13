@@ -5,15 +5,16 @@ tags: [llm-as-judge, evaluation, scoring, reward-modeling, judge-calibration, ai
 summary: "Off-the-shelf LLM-as-judge suffers from hallucinations, miscalibration, bias, and instability. These failures make it unreliable as a quality metric for AI evaluation and fuzz testing."
 sources:
   - "https://www.youtube.com/watch?v=omgpvw8tbhc"
+  - "https://nitter.tiekoetter.com/i/article/2083540339147567268"
 provenance:
-  extracted: 0.70
-  inferred: 0.25
+  extracted: 0.72
+  inferred: 0.23
   ambiguous: 0.05
-base_confidence: 0.70
+base_confidence: 0.72
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-08-03
 relationships:
   - target: "[[concepts/fuzz-testing-ai]]"
     type: complicates
@@ -23,6 +24,10 @@ relationships:
     type: relates_to
   - target: "[[concepts/reasoning-models]]"
     type: related_to
+  - target: "[[concepts/eval-gate]]"
+    type: related_to
+  - target: "[[references/eval-engineering-merge-gate]]"
+    type: derived_from
 ---
 
 # LLM-as-Judge Problems
@@ -43,6 +48,12 @@ LLM judges exhibit multiple biases: ^[extracted]
 - **Position bias**: Flipping the order of two responses can change the evaluation result
 - **Context bias**: Changing part of the rubric or adding context changes the judge's output
 - **Fickleness**: The judge is extremely sensitive to how criteria are presented
+- **Self-family bias**: Judges systematically inflate scores for outputs from their own model family — in a 2026 benchmark GPT-5.2 and Gemini 3.1 Pro handed 75–84% win rates to their own families, while Claude Opus 4.7 under-rated its own family at 10.6–41.2%. Measured bias across judges on ArenaHard spans −38% to +90%, and identical outputs scored 93.3% under one judge and 39.5% under another. ^[ambiguous] (self-reported benchmark figures from [[references/eval-engineering-merge-gate|Hanako's eval-engineering article]]; not independently verified)
+- **Verbosity bias**: Judges reward length whether or not the extra words carry information ^[extracted]
+
+### Mitigation rules for judge bias
+
+From Hanako's eval-engineering course: judge from a different model family than the one generating (same family means shared blind spots); for high-stakes evaluation use a panel of judges from different vendors so averaging breaks correlated errors; and anything objectively checkable goes to code, not to a judge — "a gate fed by a biased judge is worse than no gate." ^[extracted]
 
 ### Instability
 Even with good articulation of criteria, the judge may not operationalize those criteria well into the model's actual behavior. The criteria exist in the prompt but not in the model's scoring behavior.

@@ -9,7 +9,8 @@ tags:
 - local-models
 sources:
 - 'https://www.youtube.com/watch?v=4sX_He5c4sI'
-summary: The degradation of agent performance over long task horizons due to forgetting context — a problem made urgent by the convergence of longer tasks and fewer model releases.
+- 'https://www.trychroma.com/research/context-rot'
+summary: Two distinct senses of context rot — agent-level forgetting over long task horizons (Meter/AIEF framing) and token-level LLM performance degradation as input length grows (Chroma's 18-model report). Both make context management and memory harnesses load-bearing.
 provenance:
   extracted: 0.85
   inferred: 0.10
@@ -60,6 +61,15 @@ When running tests across 68 questions with multiple cells and seeds, **ranked r
 When the task fits entirely within the context window, memory harnesses add cost without capability gain — performance is identical with or without memory. ^[extracted]
 
 But when context does not fit, a good memory harness is essential. Bad memory is expensive: it spends more tokens and can send the agent in the wrong direction. A good structural policy for recall saves tokens and budget. ^[extracted]
+
+## 2026-08-13: The Two Senses of Context Rot
+
+"Context rot" names two related but distinct phenomena in this vault — keep them separate: ^[inferred]
+
+1. **Agent-level context rot** (this page's original framing): the agent *forgets* what it did as the session extends beyond the context window — drift from the original question, lost task state. Solution: memory harnesses. ^[extracted]
+2. **Token-level context rot** ([[references/chroma-context-rot-report|Chroma's technical report]], 2025-07): LLM performance degrades *as input length grows even when everything fits* — 18 models, non-uniform decline on semantically-oriented tasks (low needle-question similarity, distractors, haystack structure). Solution: keep contexts smaller — compact, don't accumulate. ^[extracted]
+
+The two senses compound: long-horizon agents that stuff more context instead of compacting pay both costs. [[misc/web-earendil-com-posts-compaction-in-pi|Pi's compaction post]] cites the Chroma report directly as the reason "just keep more context" is not free. ^[extracted]
 
 ## Related
 

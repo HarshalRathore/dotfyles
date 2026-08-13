@@ -7,25 +7,30 @@ tags:
 - ai
 - search
 - cloud
-summary: Alphabet Inc. (Google) — technology conglomerate and parent company of Google DeepMind. Stefania Druga is a former Google research scientist.
+summary: Alphabet Inc. (Google) — technology conglomerate and parent company of Google DeepMind, Gemini, and the Antigravity agent-first development surface.
 provenance:
-  extracted: 0.6
-  inferred: 0.3
-  ambiguous: 0.1
-base_confidence: 0.7
+  extracted: 0.65
+  inferred: 0.25
+  ambiguous: 0.10
+base_confidence: 0.70
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-08-02T01:17:21Z
 relationships:
 - target: '[[entities/google-deepmind|Google DeepMind]]'
+  type: related_to
+- target: '[[entities/google-antigravity|Google Antigravity]]'
+  type: related_to
+- target: '[[entities/gemini|Gemini]]'
   type: related_to
 - target: '[[entities/stefania-druma|Stefania Druga]]'
   type: related_to
 - target: '[[entities/youtube|YouTube]]'
   type: related_to
-sources: []
+sources:
+  - 'https://x.com/i/status/2083430232405733819'
 ---
 
 # Google
@@ -52,6 +57,10 @@ In March 2025, Google released Gemini 2.5 Pro, which [[entities/simon-willison|S
 Google has processed a **50× year-over-year increase** in AI inference through its servers, according to Logan Kilpatrick at AIEF2025. This massive scale growth reflects the accelerating adoption of AI across Google's services. ^[extracted]
 
 
+
+## Antigravity and Agent-First Development
+
+The Google I/O source presents Google Antigravity as an agent-first development surface with a CLI, SDK, voice support, platform integrations, sub-agents, hooks, asynchronous task management, and multi-agent orchestration. ^[extracted] This extends Google's AI stack from models and consumer products into the tools used to build and operate software. ^[inferred]
 ## Related
 
 - [[entities/google-deepmind|Google DeepMind]] — AI research subsidiary

@@ -14,6 +14,8 @@ aliases:
 summary: Search technique that represents documents and queries as dense embedding vectors, performing similarity search in vector space rather than keyword matching. Foundation of neural RAG and AI-native...
 sources:
 - AIEF2025 - Building a Smarter AI Agent with Neural RAG - Will Bryk, Exa.ai - https://www.youtube.com/watch?v=xnXqpUW_Kp8
+- https://cursor.com/blog/semsearch
+- https://towardsdatascience.com/how-cursor-actually-indexes-your-codebase/
 provenance:
   extracted: 0.85
   inferred: 0.15
@@ -23,7 +25,7 @@ lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
-updated: 2026-07-05
+updated: 2026-08-11
 relationships:
 - target: '[[concepts/neural-rag]]'
   type: implements
@@ -63,6 +65,12 @@ Unlike [[concepts/semantic-vs-lexical-query-patterns|lexical search]] which work
 
 Embedding-based search embodies the [[concepts/bitter-lesson|Bitter Lesson]]: rather than hard-coding search rules, use transformers and scaling. More compute and more quality data consistently improve embedding quality and search performance. ^[inferred]
 
+## Semantic Search in Coding Agents
+
+Embedding-based search is what powers codebase retrieval in tools like [[entities/cursor-ai|Cursor]]: code is chunked, embedded, and stored in a vector database; queries are embedded with the same model and matched semantically — retrieval works even when exact keywords don't overlap, improving code understanding, refactoring, and debugging. ^[extracted] (See [[concepts/codebase-rag|Codebase RAG]].)
+
+Evidence from [[references/cursor-semantic-search|Cursor's engineering blog]]: semantic search over a codebase index improves agent answer accuracy by **+12.5% on average** (6.5–23.5% depending on model) vs grep-only agents, and increases code retention +0.3% overall (+2.6% on codebases with 1,000+ files). Cursor's retrieval model is trained on **agent session traces** — aligning similarity scores with LLM-generated rankings of what should have been retrieved. ^[extracted]
+
 ## Related
 
 - [[concepts/neural-rag]] — Neural RAG builds on embedding-based search
@@ -70,3 +78,4 @@ Embedding-based search embodies the [[concepts/bitter-lesson|Bitter Lesson]]: ra
 - [[concepts/ai-native-search]] — AI-native search uses embedding-based retrieval
 - [[concepts/ai-powered-search]] — Embedding search is a component of AI-powered search
 - [[concepts/semantic-vs-lexical-query-patterns]] — When to use embedding vs lexical search
+- [[concepts/codebase-rag]] — Codebase retrieval built on embedding-based search

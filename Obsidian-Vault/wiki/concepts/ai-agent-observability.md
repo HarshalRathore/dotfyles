@@ -14,6 +14,7 @@ sources:
   - "AIEF2025 - Taming Rogue AI Agents with Observability-Driven Evaluation — Jim Bennett, Galileo - https://www.youtube.com/watch?v=xJXm4Wcw4m8"
   - "AIEF2025 - 3 ingredients for building reliable enterprise agents - Harrison Chase, LangChain/LangGraph - https://www.youtube.com/watch?v=kTnfJszFxCg"
   - "AIEF2025 - Conquering Agent Chaos — Rick Blalock, Agentuity - https://www.youtube.com/watch?v=yASxPZ-tZe0"
+  - "https://www.deeplearning.ai/courses/agentic-ai"
 summary: Instrumenting AI agent executions to capture every step — LLM calls, tool invocations, decisions — as structured traces and spans for debugging and evaluation.
 provenance:
   extracted: 0.80
@@ -24,7 +25,7 @@ lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
-updated: 2026-07-05
+updated: 2026-08-02T13:04:14Z
 relationships:
   - target: "[[concepts/observability-driven-development]]"
     type: implements
@@ -75,6 +76,12 @@ The question: **did the agent work?** Two valid answers:
 - **No** — it took three steps and multiple clarifications, which is poor UX
 
 This illustrates why binary evaluation is insufficient — you need to see *where* the friction occurred. ^[extracted]
+
+## Traces as Error-Analysis Input
+
+Andrew Ng uses traces and intermediate outputs as the practical bridge between observability and improvement. Reading each step reveals whether search, retrieval, synthesis, tool use, or another component is materially worse than a human baseline; a simple spreadsheet can count recurring errors and prioritize work. ^[extracted]
+
+The same per-step trace can expose latency and cost contributors after quality is acceptable. This makes observability useful for both correctness diagnosis and targeted production optimization. ^[extracted]
 
 ## Relation to Related Concepts
 

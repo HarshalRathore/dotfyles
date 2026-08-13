@@ -5,6 +5,7 @@ tags: [agent-memory, memory-types, short-term, long-term, working-memory, semant
 summary: "Different forms of memory in AI agents: short-term, long-term, working, semantic, episodic, procedural, conversational, entity memory, knowledge, cache — mapped from human cognitive science."
 sources:
   - "https://www.youtube.com/watch?v=w2hvdb4jbjs"
+  - "https://x.com/i/status/2084613319558635940"
 provenance:
   extracted: 0.80
   inferred: 0.15
@@ -14,7 +15,7 @@ lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-08-11
 relationships:
   - target: "[[concepts/agent-memory-knowledge]]"
     type: related_to
@@ -60,6 +61,15 @@ The diversity of memory types is why retrieval must go beyond vector search — 
 ## Relationship to Memory Management
 
 Memory management (generation, storage, retrieval, integration, updates, deletion) operates across all these memory types simultaneously. Effective agents route information to the appropriate memory type based on its nature and intended use. ^[inferred]
+
+## 2026-08-11 — Hermes Implementation (Sean's Walkthrough)
+
+How [[entities/hermes-agent|Hermes Agent]] maps the memory taxonomy in practice (from [[references/cyrilxbt-agent-concepts-explainer-video|Sean's walkthrough]]): ^[extracted]
+
+- **Procedural memory** → `~/.hermes/skills/` — markdown skill files telling the agent how to act (e.g. a `video prep` skill with formatting rules; a Claude Code delegation skill). Created explicitly via skill management, or offered proactively by the system prompt after difficult iterative tasks (5+ tool calls). ^[extracted]
+- **Semantic memory** → `memory.md` — durable facts / user profile, self-updated by the agent mid-run (the YouTube-URL-correction example: the agent "realized that it had a mistake, so it updated itself with a memory"). ^[extracted]
+- **Episodic memory** → `state.db` (SQLite) — chat history and dated events; consolidated into semantic memory by **cheaper auxiliary models** doing summarization. ^[extracted]
+- **Notable divergence from the AIEF2025 pattern:** Hermes retrieves semantic memory via **plain-text top-k keyword search — no embeddings, no vector store, no RAG** ("I'm not too sure why, but just doing text"). Everything stays local; nothing stored on the cloud. ^[extracted]
 
 ## Related Pages
 

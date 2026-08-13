@@ -9,22 +9,23 @@ relationships:
   - target: '[[concepts/nano-chat]]'
     type: implements
   - target: '[[concepts/reward-hacking]]'
-    type: relates_to
+    type: related_to
   - target: '[[concepts/valued-work-per-watt]]'
     type: related_to
 sources:
   - https://www.youtube.com/watch?v=4sX_He5c4sI
-summary: A recursive self-improvement loop for AI research: define a problem, run the agent, trace results, score performance, propose improvements, rerun, and keep only if performance improved.
+  - https://x.com/zhengyaojiang/status/2077079778793042425
+summary: "A recursive self-improvement loop for AI research: define a problem, run the agent, trace results, score performance, propose improvements, rerun, and keep only if performance improved."
 provenance:
-  extracted: 0.80
-  inferred: 0.15
+  extracted: 0.85
+  inferred: 0.10
   ambiguous: 0.05
-base_confidence: 0.55
+base_confidence: 0.60
 lifecycle: draft
 lifecycle_changed: 2026-07-06
 tier: supporting
 created: 2026-07-06T00:00:00Z
-updated: 2026-07-06T00:00:00Z
+updated: 2026-07-18T00:00:00Z
 ---
 
 # Auto-Research Loop
@@ -62,6 +63,28 @@ An AI participant named **Aden** competed in a research competition using the au
 ### Nano GPT Speed Run
 
 AI agents (Codex with GPT 5.5 + X1, and Cloud Code with Opus 4.8 + X1) competed in an optimizer speedrun challenge. They iterated on a CUDA kernel optimizer over multiple versions (V1, V2, V3), with each run taking 15–20 minutes. ^[extracted]
+
+## Practical Evidence: AIDE²
+
+The **AIDE²** system, developed by Zhengyao Jiang and colleagues at Weco AI, provides the first experimental evidence of recursive self-improvement (RSI) meeting specific outcome-based criteria. ^[extracted] After 100 iterations of its outer optimization loop, AIDE² discovered 7 improvements over a hand-tuned baseline, including a new search policy, a 16× prompt compression memory system, and a layered reward hacking defense. ^[extracted] The discovered agents beat a 2-year hand-tuned baseline on all 3 held-out benchmarks, including a physics-based weather model. ^[extracted]
+
+### The RSI Ladder
+
+Zhengyao Jiang proposed an RSI ladder to contextualize progress:
+
+- **Level 1 (Achieved):** The outer loop improves the inner agent's performance, demonstrated with held-out generalization and efficiency under equal compute.
+- **Level 2 (Mixed results):** Using the improved inner agent as the outer loop yielded mixed results — the authors explicitly "do not claim ignition." ^[extracted]
+
+### Practical RSI Criteria
+
+In response to Jeff Clune's challenge citing prior work (Darwin Godel Machine, HyperAgents), Zhengyao clarified the bar for practical RSI:
+
+1. Start from a frontier AI model
+2. Compare against top human experts
+3. Generalize to held-out benchmarks
+4. Measure efficiency under the same compute budget
+
+No prior work met all four criteria simultaneously. ^[extracted]
 
 ## Relationship to Reward Hacking
 

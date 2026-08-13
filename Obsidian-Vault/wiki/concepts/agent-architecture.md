@@ -18,6 +18,8 @@ sources:
 - AIEF2025 - Building AI Agents that actually automate Knowledge Work - Jerry Liu, LlamaIndex - https://www.youtube.com/watch?v=jVGCulhBRZI
 - 'AIEF2025 - Software Development Agents: What Works and What Doesn''t - Robert Brennan, OpenHands - https://www.youtube.com/watch?v=o_hhkJtlbSs'
 - AIEF2025 - How to Build Planning Agents without losing control - Yogendra Miraje, Factset - https://www.youtube.com/watch?v=sl3icG-IjHo
+- Graph Engineering: build 1000+ agent loops in one window from one prompt — linked X source and captured Google Hands-on AI Multi-Agent Lab, 2026-08-02
+- https://www.deeplearning.ai/courses/agentic-ai
 summary: 'Four-component framework for building agents: client (human interface), AI reasoning (executive branch), workflows (execution orchestration), and tools (action mechanisms). Complements Jerry Liu''s...'
 provenance:
   extracted: 0.8
@@ -28,7 +30,7 @@ lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: core
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-08-02T13:04:14Z
 relationships:
 - target: '[[concepts/assistive-vs-automation-agents]]'
   type: related_to
@@ -39,7 +41,9 @@ relationships:
 - target: '[[concepts/agent-workflows]]'
   type: extends
 - target: '[[concepts/agent-tool-calling]]'
-  type: requires
+  type: uses
+- target: '[[references/google-hands-on-ai-multi-agent-lab|Google Hands-on AI Multi-Agent Lab]]'
+  type: related_to
 ---
 
 # Agent Architecture
@@ -93,6 +97,10 @@ This architecture demonstrates how the four-component framework (AI reasoning, w
 
 Miraje emphasized that the relationship between tools and microservices in enterprise settings is not one-to-one. Building tools around microservices is the most time-consuming part of building agentic workflows, and tools must be designed from the agent's perspective so the agent knows which tool to use and has knowledge of the underlying microservices. ^[extracted]
 
+## Andrew Ng's Building Blocks
+
+The Agentic AI course gives the four-part stack a complementary implementation lens: use LMs for reasoning and generation, ordinary code for deterministic transformations, retrieval for large knowledge stores, and tools for APIs, databases, web access, or code execution. Task decomposition is the act of mapping each workflow step to the right block. ^[extracted]
+
 ## Type Safety as Architecture Decision
 
 [[entities/samuel-colvin|Samuel Colvin]] argues that type safety is a critical architecture decision for AI applications. Frameworks that invest in type safety (like [[entities/pydantic-ai|Pydantic AI]]) enable coding agents to verify their own work and make refactoring "incredibly easy." Frameworks that don't (like LangChain/LangGraph) leave developers to handle type mismatches manually. ^[extracted]
@@ -107,3 +115,4 @@ Miraje emphasized that the relationship between tools and microservices in enter
 - [[concepts/type-safety-ai]] — Type safety as a foundation for reliable AI applications
 - [[concepts/type-safe-agent-tool-deps]] — Type-safe tool dependencies
 - [[entities/pydantic-ai]] — Type-safe agent framework
+- [[references/google-hands-on-ai-multi-agent-lab|Google Hands-on AI Multi-Agent Lab]] — MCP, ADK, A2A, memory, and graph-based agent composition in a single lab

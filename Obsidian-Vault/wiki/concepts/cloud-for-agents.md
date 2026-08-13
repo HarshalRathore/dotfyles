@@ -9,16 +9,18 @@ tags:
 sources:
 - 'https://www.youtube.com/watch?v=2goss66xrbk'
 - 'https://www.youtube.com/watch?v=ia4lzjh9sts'
-summary: Cloud infrastructure purpose-built for AI agents, featuring declarative workspaces, fast snapshotting and branching of environments, and frictionless handoff between humans and agents. Extended to...
+- 'https://x.com/i/status/2083231950744244360'
+- 'https://posthog.com/blog/10k-prs-a-month'
+summary: Cloud infrastructure for agents, from declarative workspaces and branching to PostHog's skill-driven dev boxes for parallel PR testing and browser-visible validation.
 provenance:
-  extracted: 0.68
-  inferred: 0.22
-  ambiguous: 0.1
-base_confidence: 0.45
+  extracted: 0.72
+  inferred: 0.23
+  ambiguous: 0.05
+base_confidence: 0.79
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
-updated: 2026-07-04
+updated: 2026-08-02T03:34:00+05:30
 relationships:
 - target: '[[concepts/reasoning-time-branching]]'
   type: related_to
@@ -53,6 +55,11 @@ A specialized subset of "cloud for agents" is emerging for voice AI. PipeCat Clo
 
 The voice AI cloud paradigm differs from general agent cloud platforms in that it must handle real-time, bidirectional audio streams rather than request/response patterns. ^[inferred]
 
+## Developer-Experience Case: PostHog
+
+PostHog describes a practical, narrower cloud-for-agents use case: skill-driven dev machines that let an agent run a PR in an isolated environment and record the test output. The motivation is parallel PR testing against a heavy stack that no longer fits comfortably on a single laptop. ^[extracted]
+
+This case emphasizes workflow integration over infrastructure novelty. The cloud workspace is useful because it connects to [[entities/hogli|hogli]], local CI checks, feedback to the developer-experience team, and browser-visible validation. ^[inferred] See [[misc/web-x-com-posthog-status-2083231950744244360]].
 ## Relationship to [[concepts/reasoning-time-branching|Reasoning Time Branching]]
 
 The cloud for agents provides the substrate for reasoning time branching: without sub-second environment branching, parallel agent exploration at scale is infeasible on traditional cloud infrastructure. ^[inferred]

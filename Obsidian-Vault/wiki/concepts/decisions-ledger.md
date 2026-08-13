@@ -22,7 +22,7 @@ lifecycle: draft
 lifecycle_changed: 2026-07-06
 tier: supporting
 created: 2026-07-06T00:00:00Z
-updated: 2026-07-06T00:00:00Z
+updated: 2026-08-09T20:15:12Z
 ---
 
 # Decisions Ledger
@@ -64,6 +64,7 @@ The ranked recall (decisions ledger) was tested on the **Spyder V2** benchmark a
 - [[concepts/retrieval-augmented-generation|RAG]] — the retrieval paradigm that decisions ledger extends
 - [[concepts/project-paradox|Project Paradox]] — multi-agent system using importance-scored memory
 - [[concepts/spyder-v2-benchmark|Spyder V2]] — the benchmark where decisions ledger was evaluated
+- [[skills/read-tool-engineering|Read Tool Engineering]] — a *different* ledger: the read tool's partial-view record of what the model has seen (content + mtime + partial flag), consulted by the write tool. Same name, different store: decisions-ledger is memory recall; read-ledger is tool-call state. ^[inferred]
 
 ## Sources
 

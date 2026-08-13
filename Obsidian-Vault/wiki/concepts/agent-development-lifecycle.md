@@ -19,6 +19,7 @@ relationships:
   type: extends
 sources:
 - 'https://www.youtube.com/watch?v=j4vpq2i0qze'
+- https://www.deeplearning.ai/courses/agentic-ai
 provenance:
   extracted: 0.75
   inferred: 0.2
@@ -27,7 +28,7 @@ base_confidence: 0.7
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-08-02T13:04:14Z
 summary: Agent Development Lifecycle
 ---
 
@@ -58,6 +59,12 @@ Monitor agent behavior in production with continuous observability and periodic 
 ## Core Principle
 
 "Evaluation starts at the very beginning of your AI development project — the sooner the better." ^[extracted] Waiting until after building the agent to start evaluating is "a bit late." ^[extracted]
+
+## Iteration Order
+
+The Andrew Ng course makes the lifecycle explicitly evidence-driven: build a quick but responsible end-to-end prototype, inspect traces, create a small eval, and use error counts to choose the next change. Improve prompts or examples, replace a weak component or model, and decompose difficult steps before attempting fine-tuning. ^[extracted]
+
+Once quality is acceptable, measure latency and cost per component and optimize the material contributors rather than the overall average. ^[extracted]
 
 ## Relationship to Evaluation-First Development
 

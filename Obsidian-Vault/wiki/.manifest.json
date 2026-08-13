@@ -1,7 +1,7 @@
 {
   "sources": [
     {
-      "source": "AIEF2025 - Foundry Local: Cutting-Edge AI experiences on device with ONNX Runtime/Olive \u2014 Emma Ning, Microsoft - https://www.youtube.com/watch?v=l614N5W60ls",
+      "source": "AIEF2025 - Foundry Local: Cutting-Edge AI experiences on device with ONNX Runtime/Olive — Emma Ning, Microsoft - https://www.youtube.com/watch?v=l614N5W60ls",
       "ingested": "2026-07-04T00:00:00Z",
       "pages_created": [
         "entities/foundry-local.md",
@@ -27,7 +27,7 @@
       ]
     },
     {
-      "source": "AIEF2025 - How we hacked YC Spring 2025 batch's AI agents \u2014 Rene Brandel, Casco - https://www.youtube.com/watch?v=kv-QAuKWllQ",
+      "source": "AIEF2025 - How we hacked YC Spring 2025 batch's AI agents — Rene Brandel, Casco - https://www.youtube.com/watch?v=kv-QAuKWllQ",
       "ingested": "2026-07-04T00:00:00Z",
       "pages_created": [
         "entities/casco.md",
@@ -76,7 +76,7 @@
       ]
     },
     {
-      "source": "AIEF2025 - How to look at your data \u2014 Jeff Huber (Chroma) + Jason Liu (567) - https://www.youtube.com/watch?v=jryZvCuA0Uc",
+      "source": "AIEF2025 - How to look at your data — Jeff Huber (Chroma) + Jason Liu (567) - https://www.youtube.com/watch?v=jryZvCuA0Uc",
       "ingested": "2026-07-04T00:00:00Z",
       "pages_created": [
         "references/aief2025-how-to-look-at-your-data-jeff-huber-chroma-jason-liu-567.md",
@@ -98,7 +98,7 @@
       ]
     },
     {
-      "source": "AIEF2025 - Prompt Engineering is Dead \u2014 Nir Gazit, Traceloop - https://www.youtube.com/watch?v=jvKf6zXrNO4",
+      "source": "AIEF2025 - Prompt Engineering is Dead — Nir Gazit, Traceloop - https://www.youtube.com/watch?v=jvKf6zXrNO4",
       "ingested": "2026-07-04T00:00:00Z",
       "pages_created": [
         "references/aief2025-prompt-engineering-is-dead-nir-gazit-traceloop.md",
@@ -121,7 +121,7 @@
       ]
     },
     {
-      "source": "AIEF2025 - From Self-driving to Autonomous Voice Agents \u2014 Brooke Hopkins, Coval - https://www.youtube.com/watch?v=kDczF4wBh8s",
+      "source": "AIEF2025 - From Self-driving to Autonomous Voice Agents — Brooke Hopkins, Coval - https://www.youtube.com/watch?v=kDczF4wBh8s",
       "ingested": "2026-07-04T00:00:00Z",
       "pages_created": [
         "entities/brooke-hopkins.md",
@@ -165,7 +165,7 @@
       ]
     },
     {
-      "source": "AIEF2025 - Serving Voice AI at Scale \u2014 Arjun Desai (Cartesia) & Rohit Talluri (AWS) - https://www.youtube.com/watch?v=knH3fmGAteQ",
+      "source": "AIEF2025 - Serving Voice AI at Scale — Arjun Desai (Cartesia) & Rohit Talluri (AWS) - https://www.youtube.com/watch?v=knH3fmGAteQ",
       "ingested": "2026-07-04T00:00:00Z",
       "pages_created": [
         "entities/cartesia.md",
@@ -183,7 +183,7 @@
       ]
     },
     {
-      "source": "AIEF2025 - Forget RAG Pipelines\u2014Build Production Ready Agents in 15 Mins: Nina Lopatina, Rajiv Shah, Contextual - https://www.youtube.com/watch?v=lArgRvBV3tQ",
+      "source": "AIEF2025 - Forget RAG Pipelines—Build Production Ready Agents in 15 Mins: Nina Lopatina, Rajiv Shah, Contextual - https://www.youtube.com/watch?v=lArgRvBV3tQ",
       "ingested": "2026-07-04T00:00:00Z",
       "pages_created": [
         "entities/contextual-ai.md",
@@ -204,7 +204,7 @@
       ]
     },
     {
-      "source": "AIEF2025 - Multi Agent AI and Network Knowledge Graphs for Change \u2014 Ola Mabadeje, Cisco - https://www.youtube.com/watch?v=m0dxZ-NDKHo",
+      "source": "AIEF2025 - Multi Agent AI and Network Knowledge Graphs for Change — Ola Mabadeje, Cisco - https://www.youtube.com/watch?v=m0dxZ-NDKHo",
       "ingested": "2026-07-04T00:00:00Z",
       "pages_created": [
         "references/aief2025-multi-agent-ai-and-network-knowledge-graphs-for-change-ola-mabadeje-cisco",
@@ -229,7 +229,7 @@
       ]
     },
     {
-      "source": "AIEF2025 - [Full Workshop] Building Metrics that actually work \u2014 David Karam, Pi Labs (fmr Google Search) - https://www.youtube.com/watch?v=jxrGodnopHo",
+      "source": "AIEF2025 - [Full Workshop] Building Metrics that actually work — David Karam, Pi Labs (fmr Google Search) - https://www.youtube.com/watch?v=jxrGodnopHo",
       "ingested": "2026-07-04T00:00:00Z",
       "pages_created": [
         "/home/harshal/dotfyles/Obsidian-Vault/wiki/references/aief2025-building-metrics-that-actually-work-david-karam-pi-labs.md",
@@ -249,7 +249,7 @@
       ]
     },
     {
-      "source": "AIEF2025 - Shipping something to someone always wins \u2014 Kenneth Auchenberg (ex. Stripe, VSCode) - https://www.youtube.com/watch?v=mHzJhXppwUA",
+      "source": "AIEF2025 - Shipping something to someone always wins — Kenneth Auchenberg (ex. Stripe, VSCode) - https://www.youtube.com/watch?v=mHzJhXppwUA",
       "ingested": "2026-07-05T00:00:00Z",
       "pages_created": [
         "/home/harshal/dotfyles/Obsidian-Vault/wiki/entities/kenneth-auchenberg.md",
@@ -270,7 +270,7 @@
       ]
     },
     {
-      "source": "AIEF2025 - The 2025 AI Engineering Report \u2014 Barr Yaron, Amplify - https://www.youtube.com/watch?v=mQ7_Zje7WKE",
+      "source": "AIEF2025 - The 2025 AI Engineering Report — Barr Yaron, Amplify - https://www.youtube.com/watch?v=mQ7_Zje7WKE",
       "ingested": "2026-07-05T00:00:00Z",
       "pages_created": [
         "/home/harshal/dotfyles/Obsidian-Vault/wiki/references/aief2025-the-2025-ai-engineering-report-barr-yaron-amplify.md",
@@ -321,7 +321,7 @@
       ]
     },
     {
-      "source": "AIEF2025 - Human seeded Evals \u2014 Samuel Colvin, Pydantic - https://www.youtube.com/watch?v=o_LRtAomJCs",
+      "source": "AIEF2025 - Human seeded Evals — Samuel Colvin, Pydantic - https://www.youtube.com/watch?v=o_LRtAomJCs",
       "ingested": "2026-07-05T00:00:00Z",
       "pages_created": [
         "/home/harshal/dotfyles/Obsidian-Vault/wiki/entities/samuel-colvin.md",
@@ -344,7 +344,7 @@
       ]
     },
     {
-      "source": "AIEF2025 - Vibe Coding with Confidence \u2014 Itamar Friedman, Qodo - https://www.youtube.com/watch?v=n991Yxo1aOI",
+      "source": "AIEF2025 - Vibe Coding with Confidence — Itamar Friedman, Qodo - https://www.youtube.com/watch?v=n991Yxo1aOI",
       "ingested": "2026-07-05T00:00:00Z",
       "pages_created": [
         "/home/harshal/dotfyles/Obsidian-Vault/wiki/entities/itamar-friedman.md",
@@ -399,7 +399,7 @@
       ]
     },
     {
-      "source": "AIEF2025 - The State of AI Powered Search and Retrieval \u2014 Frank Liu, MongoDB (prev Voyage AI) - https://www.youtube.com/watch?v=pIPtpBZ6TKk",
+      "source": "AIEF2025 - The State of AI Powered Search and Retrieval — Frank Liu, MongoDB (prev Voyage AI) - https://www.youtube.com/watch?v=pIPtpBZ6TKk",
       "ingested": "2026-07-05T00:00:00Z",
       "pages_created": [
         "/home/harshal/dotfyles/Obsidian-Vault/wiki/entities/frank-liu.md",
@@ -422,7 +422,7 @@
       ]
     },
     {
-      "source": "AIEF2025 - Rethinking Team Building: how a 30-person Startup serves 50 Million Users \u2014 Grant Lee, Gamma - https://www.youtube.com/watch?v=q8zoXAbmJdI",
+      "source": "AIEF2025 - Rethinking Team Building: how a 30-person Startup serves 50 Million Users — Grant Lee, Gamma - https://www.youtube.com/watch?v=q8zoXAbmJdI",
       "ingested": "2026-07-05T00:00:00Z",
       "pages_created": [
         "entities/grant-lee.md",
@@ -467,7 +467,7 @@
       ]
     },
     {
-      "source": "AIEF2025 - The New Lean Startup \u2014 Sid Bendre, Olive - https://www.youtube.com/watch?v=pQz-PgA1eJw",
+      "source": "AIEF2025 - The New Lean Startup — Sid Bendre, Olive - https://www.youtube.com/watch?v=pQz-PgA1eJw",
       "ingested": "2026-07-05T00:00:00Z",
       "pages_created": [
         "/home/harshal/dotfyles/Obsidian-Vault/wiki/concepts/viral-growth-mechanics.md",
@@ -513,7 +513,7 @@
       ]
     },
     {
-      "source": "AIEF2025 - Bolt.new: How we scaled $0-20m ARR in 60 days, with 15 people \u2014 Eric Simons, Bolt - https://www.youtube.com/watch?v=s8RM8uYxkoY",
+      "source": "AIEF2025 - Bolt.new: How we scaled $0-20m ARR in 60 days, with 15 people — Eric Simons, Bolt - https://www.youtube.com/watch?v=s8RM8uYxkoY",
       "ingested": "2026-07-05T00:00:00Z",
       "pages_created": [
         "references/aief2025-bolt-new-how-we-scaled-0-20m-arr-in-60-days-with-15-people-eric-simons-bolt.md",
@@ -536,7 +536,7 @@
       "pages_updated": []
     },
     {
-      "source": "AIEF2025 - Trends Across the AI Frontier \u2014 George Cameron, ArtificialAnalysis.ai - https://www.youtube.com/watch?v=sRpqPgKeXNk",
+      "source": "AIEF2025 - Trends Across the AI Frontier — George Cameron, ArtificialAnalysis.ai - https://www.youtube.com/watch?v=sRpqPgKeXNk",
       "ingested": "2026-07-05T00:00:00Z",
       "pages_created": [
         "entities/artificial-analysis.md",
@@ -582,7 +582,7 @@
       ]
     },
     {
-      "source": "AIEF2025 - Engineering Better Evals: Scalable LLM Evaluation Pipelines That Work \u2014 Dat Ngo, Aman Khan, Arize - https://www.youtube.com/watch?v=spvXj9tnWAQ",
+      "source": "AIEF2025 - Engineering Better Evals: Scalable LLM Evaluation Pipelines That Work — Dat Ngo, Aman Khan, Arize - https://www.youtube.com/watch?v=spvXj9tnWAQ",
       "ingested": "2026-07-05T00:00:00Z",
       "pages_created": [
         "references/aief2025-engineering-better-evals-dat-ngo-aman-khan-arize.md",
@@ -650,7 +650,7 @@
     },
     {
       "path": "/home/harshal/dotfyles/Obsidian-Vault/wiki",
-      "source": "AIEF2025 - Realtime Conversational Video with Pipecat and Tavus \u2014 Chad Bailey and Brian Johnson, Daily & Tavus - https://www.youtube.com/watch?v=ujt0da9Z29Q",
+      "source": "AIEF2025 - Realtime Conversational Video with Pipecat and Tavus — Chad Bailey and Brian Johnson, Daily & Tavus - https://www.youtube.com/watch?v=ujt0da9Z29Q",
       "source_key": "AIEF2025-Realtime-Conversational-Video-with-Pipecat-and-Tavus",
       "ingested_at": "2026-07-05T00:00:00Z",
       "pages_created": [
@@ -706,7 +706,7 @@
     },
     {
       "path": "/home/harshal/dotfyles/Obsidian-Vault/wiki",
-      "source": "AIEF2025 - Layering every technique in RAG, one query at a time \u2014 David Karam, Pi Labs (fmr. Google Search) - https://www.youtube.com/watch?v=w9u11ioHGA0",
+      "source": "AIEF2025 - Layering every technique in RAG, one query at a time — David Karam, Pi Labs (fmr. Google Search) - https://www.youtube.com/watch?v=w9u11ioHGA0",
       "source_key": "AIEF2025-Layering-every-technique-in-RAG-one-query-at-a-time",
       "ingested_at": "2026-07-05T00:00:00Z",
       "pages_created": [
@@ -728,7 +728,7 @@
     },
     {
       "path": "/home/harshal/dotfyles/Obsidian-Vault/wiki",
-      "source": "AIEF2025 - A year of Gemini progress + what comes next \u2014 Logan Kilpatrick, Google DeepMind - https://www.youtube.com/watch?v=wE1ZCmCLP5g",
+      "source": "AIEF2025 - A year of Gemini progress + what comes next — Logan Kilpatrick, Google DeepMind - https://www.youtube.com/watch?v=wE1ZCmCLP5g",
       "source_key": "AIEF2025-A-year-of-Gemini-progress-what-comes-next",
       "ingested_at": "2026-07-05T00:00:00Z",
       "pages_created": [
@@ -749,7 +749,7 @@
     },
     {
       "path": "/home/harshal/dotfyles/Obsidian-Vault/wiki",
-      "source": "AIEF2025 - Evaluating AI Search: A Practical Framework for Augmented AI Systems \u2014 Quotient AI + Tavily - https://www.youtube.com/watch?v=wRJD0inpmjU",
+      "source": "AIEF2025 - Evaluating AI Search: A Practical Framework for Augmented AI Systems — Quotient AI + Tavily - https://www.youtube.com/watch?v=wRJD0inpmjU",
       "source_key": "AIEF2025-Evaluating-AI-Search-A-Practical-Framework-for-Augmented-AI-Systems",
       "ingested_at": "2026-07-05T00:00:00Z",
       "pages_created": [
@@ -773,7 +773,7 @@
       ]
     },
     {
-      "path": "AIEF2025 - Continuous Profiling for GPUs \u2014 Matthias Loibl, Polar Signals - https://www.youtube.com/watch?v=wt8gzWR6auQ",
+      "path": "AIEF2025 - Continuous Profiling for GPUs — Matthias Loibl, Polar Signals - https://www.youtube.com/watch?v=wt8gzWR6auQ",
       "ingested_at": "2026-07-05T00:00:00Z",
       "pages_created": [
         "entities/matthias-loibl.md",
@@ -796,7 +796,7 @@
       ]
     },
     {
-      "path": "AIEF2025 - MCP: Origins and Requests For Startups \u2014 Theodora Chu, Model Context Protocol PM, Anthropic - https://www.youtube.com/watch?v=x-8pBqWiTzk",
+      "path": "AIEF2025 - MCP: Origins and Requests For Startups — Theodora Chu, Model Context Protocol PM, Anthropic - https://www.youtube.com/watch?v=x-8pBqWiTzk",
       "ingested_at": "2026-07-05T00:00:00Z",
       "pages_created": [
         "entities/theodora-chu.md",
@@ -815,7 +815,7 @@
       ]
     },
     {
-      "source": "AIEF2025 - Taming Rogue AI Agents with Observability-Driven Evaluation \u2014 Jim Bennett, Galileo - https://www.youtube.com/watch?v=xJXm4Wcw4m8",
+      "source": "AIEF2025 - Taming Rogue AI Agents with Observability-Driven Evaluation — Jim Bennett, Galileo - https://www.youtube.com/watch?v=xJXm4Wcw4m8",
       "ingested": "2026-07-05T08:59:14Z",
       "updated": "2026-07-05T08:59:14Z",
       "pages_created": [
@@ -886,7 +886,7 @@
       "page_count": 12
     },
     {
-      "source": "AIEF2025 - Why your product needs an AI product manager, and why it should be you \u2014 James Lowe, i.AI - https://www.youtube.com/watch?v=xzJdSi2Tsqw",
+      "source": "AIEF2025 - Why your product needs an AI product manager, and why it should be you — James Lowe, i.AI - https://www.youtube.com/watch?v=xzJdSi2Tsqw",
       "ingested": "2026-07-05T12:00:00Z",
       "updated": "2026-07-05T12:00:00Z",
       "pages_created": [
@@ -911,7 +911,7 @@
       "page_count": 15
     },
     {
-      "source": "AIEF2025 - Conquering Agent Chaos \u2014 Rick Blalock, Agentuity - https://www.youtube.com/watch?v=yASxPZ-tZe0",
+      "source": "AIEF2025 - Conquering Agent Chaos — Rick Blalock, Agentuity - https://www.youtube.com/watch?v=yASxPZ-tZe0",
       "ingested": "2026-07-05T12:30:00Z",
       "updated": "2026-07-05T12:30:00Z",
       "pages_created": [
@@ -936,7 +936,7 @@
       "page_count": 15
     },
     {
-      "source": "AIEF2025 - Everything is ugly, so go build something that isn't \u2014 Raiza Martin, Huxe (ex NotebookLM) - https://www.youtube.com/watch?v=yG5d5UaGz1M",
+      "source": "AIEF2025 - Everything is ugly, so go build something that isn't — Raiza Martin, Huxe (ex NotebookLM) - https://www.youtube.com/watch?v=yG5d5UaGz1M",
       "ingested": "2026-07-05T13:00:00Z",
       "updated": "2026-07-05T13:00:00Z",
       "pages_created": [
@@ -993,7 +993,7 @@
       "page_count": 23
     },
     {
-      "source": "AIEF2025 - Top Ten Challenges to Reach AGI \u2014 Stephen Chin, Andreas Kollegger - https://www.youtube.com/watch?v=ypyvj_56sBU",
+      "source": "AIEF2025 - Top Ten Challenges to Reach AGI — Stephen Chin, Andreas Kollegger - https://www.youtube.com/watch?v=ypyvj_56sBU",
       "ingested": "2026-07-05T14:30:00Z",
       "updated": "2026-07-05T14:30:00Z",
       "pages_created": [
@@ -1169,6 +1169,71 @@
         "entities/thariq-al-samarrai.md"
       ],
       "page_count": 1
+    },
+    {
+      "source": "https://x.com/i/status/2083932817738666010",
+      "ingested": "2026-08-03T00:00:00Z",
+      "source_type": "url",
+      "project": null,
+      "promotion_status": "misc",
+      "pages_created": [
+        "misc/web-x-com-i-status-2083932817738666010.md",
+        "references/google-agents-to-autonomous-systems-course.md",
+        "references/eval-engineering-merge-gate.md",
+        "concepts/eval-gate.md",
+        "skills/eval-gate.md",
+        "entities/hanakoxbt.md",
+        "entities/annie.md"
+      ],
+      "pages_updated": [
+        "concepts/agent-evaluations.md",
+        "concepts/llm-as-judge-problems.md",
+        "concepts/agent-loop.md",
+        "concepts/loop-engineering.md",
+        "concepts/multi-agent-architecture.md",
+        "concepts/multimodal-agent-architecture.md"
+      ],
+      "page_count": 13
+    },
+    {
+      "source": "https://x.com/i/status/2084018136437985417",
+      "ingested": "2026-08-03T00:00:00Z",
+      "source_type": "url",
+      "project": null,
+      "promotion_status": "misc",
+      "pages_created": [
+        "misc/web-x-com-i-status-2084018136437985417.md",
+        "references/how-to-be-a-memory-engineer.md",
+        "concepts/memory-engineering.md",
+        "skills/memory-engineer.md",
+        "entities/n01ennn.md",
+        "entities/microsoft-research.md"
+      ],
+      "pages_updated": [
+        "references/aief2025-graphrag-code-jonathan-larson.md",
+        "concepts/lazy-graphrag.md",
+        "concepts/agent-memory.md",
+        "entities/jonathan-larson.md"
+      ],
+      "page_count": 10
+    },
+    {
+      "source": "https://x.com/i/status/2083960395056939396",
+      "ingested": "2026-08-03T00:00:00Z",
+      "source_type": "url",
+      "project": null,
+      "promotion_status": "misc",
+      "pages_created": [
+        "misc/web-x-com-i-status-2083960395056939396.md",
+        "references/stanford-llms-from-scratch-course.md",
+        "concepts/llm-training-pipeline.md",
+        "entities/roan.md"
+      ],
+      "pages_updated": [
+        "references/stanford-llm-lecture-asr-transcript.md",
+        "misc/web-x-com-i-status-2083498308899573948.md"
+      ],
+      "page_count": 6
     }
   ]
 }

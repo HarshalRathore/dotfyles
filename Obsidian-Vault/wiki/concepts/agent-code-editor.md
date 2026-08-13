@@ -2,10 +2,11 @@
 title: "Agent Code Editor"
 category: concepts
 tags: [agent-tools, code-editor, diff-editing, token-efficiency, ast]
-summary: >-
-  How coding agents edit source code: diff-based (find-and-replace) editing vs full-file regeneration. Diff-based editing saves tokens on large files. AST navigation may supplement text-based editing.
 sources:
   - "AIEF2025 - Software Development Agents: What Works and What Doesn't - Robert Brennan, OpenHands - https://www.youtube.com/watch?v=o_hhkJtlbSs"
+  - "https://commandcode.ai/docs/harness-engineering/read-tool"
+summary: >-
+  How coding agents edit source code: diff-based (find-and-replace) editing vs full-file regeneration. Diff-based editing saves tokens on large files. AST navigation may supplement text-based editing. Reads are the context-building half of the edit loop — the token bill is mostly reads.
 provenance:
   extracted: 0.88
   inferred: 0.12
@@ -15,7 +16,7 @@ lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
-updated: 2026-07-05
+updated: 2026-08-09
 relationships:
   - target: "[[concepts/agent-tools|Agent Tools]]"
     type: extends
@@ -60,6 +61,16 @@ Some agents provide abstract syntax tree access to enable structural code unders
 ## Relationship to Token Efficiency
 
 Diff-based editing is a form of [[concepts/llm-big-text-into-small-text|big text into small text]] optimization — reducing the amount of context the LLM must process and generate per edit. This directly impacts cost and speed. ^[inferred]
+
+## Reading: The Context-Building Half of the Edit Loop
+
+Every edit starts with a read; the token bill of a coding session is "mostly reads building context." ^[extracted] [[entities/commandcode|Command Code]]'s v1 read tool (see [[skills/read-tool-engineering|Read Tool Engineering]] and [[references/command-code-read-tool-harness-engineering|the deep dive]]) treats the read as a **compiler that turns the filesystem into the model's context** — every decision inside it is a token-budget decision: ^[extracted]
+
+- Three ceilings bound what enters context: a 2,000-line window, a 128 KB byte budget, and a 2,000 ch/line clamp — a single minified line inside the window can otherwise eat the entire budget.
+- Failure modes name their own recovery (`"offset=1847"`, `"retry smaller"`) so the model never burns turns re-reading after a miss.
+- A partial-view ledger records what the model has seen; the write tool refuses to overwrite unseen parts — read and write tools are one coupled system, and their relational invariants are where the real bugs live.
+
+Edit-side efficiency (diffing) and read-side efficiency (ceilings, recovery, ledger) are two halves of the same cost problem: both decide how many tokens the model pays for work it didn't need. ^[inferred]
 
 ## Related
 

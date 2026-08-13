@@ -19,18 +19,25 @@ relationships:
   type: related_to
 - target: '[[entities/graphite]]'
   type: implements
+- target: '[[entities/stamphog]]'
+  type: related_to
+- target: '[[entities/reviewhog]]'
+  type: related_to
 sources:
 - 'https://www.youtube.com/watch?v=h6mrr5nbtza'
-summary: AI handles the manual, painful parts of code review so developers can focus on what matters — shipping features that work as expected. Achieves higher acceptance rates than human review comments.
+- 'https://x.com/i/status/2083231950744244360'
+- 'https://posthog.com/blog/10k-prs-a-month'
+- 'https://x.com/i/status/2083486328172273795'
+summary: AI handles routine, painful review work so developers can focus on whether a change is understood, safe, and valuable; PostHog's StampHog and ReviewHog show a production-oriented split.
 provenance:
-  extracted: 0.8
-  inferred: 0.15
+  extracted: 0.83
+  inferred: 0.12
   ambiguous: 0.05
-base_confidence: 0.65
+base_confidence: 0.80
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-08-02T05:25:57+05:30
 category: concepts
 ---
 
@@ -61,6 +68,18 @@ Graphite's Diamond AI reviewer demonstrates that AI review can match or exceed h
 - **Zero setup** — Works out of the box without configuration
 
 These numbers suggest that AI review, when properly tuned, can handle routine review work and free humans for the decisions that truly matter. ^[inferred]
+
+## PostHog's Review Split
+
+PostHog reports a concrete division of review labor. [[entities/stamphog|StampHog]] runs deterministic safety checks and an LLM pass for showstoppers, approving about 20% of PRs at roughly $300 per month in token cost; uncertain changes escalate to people. ^[extracted] [[entities/reviewhog|ReviewHog]] is planned as a fleet of agents for more complicated, top-down reviews. ^[extracted]
+
+The human review surface becomes smaller but more consequential: “Do I understand this change?”, “Does the author understand it?”, “Is it safe?”, and “Is it valuable?” Routine review is treated like linting—automatable and consistent—while judgment stays human. ^[extracted]
+
+The same approach extends beyond source inspection: PostHog's browser-driven `qa-frontend` skill designs test cases, drives the UI, returns annotated evidence, and can escalate when the result is confusing or not good enough. ^[extracted]
+
+## Boundary: Implementation vs Review
+
+[[misc/web-x-com-i-status-2083486328172273795|The Claude Code product video]] is adjacent evidence rather than a direct self-driving-review example. It shows an agent implementing an Excalidraw table feature, updating comments, and producing a commit that the presenter inspects; it does not show the agent independently deciding whether the change is safe or valuable. ^[extracted] The distinction keeps feature implementation, artifact inspection, and autonomous review as separate steps in the broader outer loop. ^[inferred]
 
 ## Relationship to AI-Native Toolchain
 

@@ -10,18 +10,18 @@ aliases:
 - agentic programming
 - ai-agentic-coding
 sources:
-- 'https://www.youtube.com/watch?v=lue8k2jqfkk'
-- 'https://www.youtube.com/watch?v=mi83but_23o'
-summary: The paradigm where developers write natural language instead of code, and an AI agent translates it into executable programs. Represents the highest level of programming abstraction yet.
+  - 'https://www.youtube.com/watch?v=lue8k2jqfkk'
+  - 'https://www.youtube.com/watch?v=mi83but_23o'
+  - 'https://x.com/i/status/2083430232405733819'
+summary: The paradigm where developers express feature intent and AI agents coordinate repository changes, tools, tests, and artifacts instead of only completing lines of code.
 provenance:
-  extracted: 0.8
+  extracted: 0.80
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.7
+base_confidence: 0.74
 lifecycle: draft
 tier: supporting
-created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-08-02T01:17:21Z
 category: concepts
 ---
 
@@ -48,6 +48,12 @@ Different products have taken different approaches to agentic coding:
 
 Claude Code's approach is deliberately minimal: no flashy UI, no scaffolding. It starts with the terminal and gives the user as low-level access to the model as possible while remaining productive. ^[extracted]
 
+
+## Agent-First Product Surface
+
+Google Antigravity represents a product direction beyond IDE autocomplete: a CLI, SDK, native voice, integrations, asynchronous tasks, sub-agents, and artifact-oriented desktop conversations. The source positions agentic coding as orchestration over a development environment, not simply natural-language-to-code translation. ^[extracted] ^[inferred]
+
+The reported operating-system experiment makes the distinction concrete: agents decomposed a large task, wrote and ran tests, repaired missing drivers, and returned inspectable artifacts. The scale numbers are self-reported product-demo claims. ^[inferred] See [[entities/google-antigravity|Google Antigravity]].
 ## Why Terminal-First Matters
 
 Claude Code's terminal-first approach is a response to the uncertainty of what the right UX will be:

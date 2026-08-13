@@ -8,6 +8,7 @@ tags:
 - llm
 sources:
 - https://www.youtube.com/watch?v=ht4l0dep69i
+- https://www.deeplearning.ai/courses/agentic-ai
 summary: Renowned AI educator and co-creator of the DeepLearning.AI 'Fundamentals of LLMs' course with Mike Chambers and AWS colleagues. The course has been taken by over 370,000 people.
 provenance:
   extracted: 1.0
@@ -18,7 +19,7 @@ lifecycle: draft
 lifecycle_changed: '2026-07-06'
 tier: supporting
 created: '2026-07-04'
-updated: '2026-07-04'
+updated: 2026-08-02T13:04:14Z
 ---
 # Andrew Ng
 
@@ -27,6 +28,10 @@ Renowned AI educator, machine learning pioneer, and co-creator of the DeepLearni
 ## Fundamentals of LLMs
 
 The course was the first of its kind and has been taken by over 370,000 people. It includes free access to an AWS Bedrock environment for hands-on practice with foundational models. ^[extracted]
+
+## Agentic AI Course
+
+Andrew Ng teaches DeepLearning.AI's intermediate **Agentic AI** course. The official page describes a 9h55m, 31-lesson course covering reflection, tool use, planning, multi-agent workflows, evaluation, error analysis, and production optimization. ^[extracted]
 
 ## Related Pages
 

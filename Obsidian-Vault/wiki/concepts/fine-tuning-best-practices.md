@@ -8,7 +8,7 @@ relationships:
     type: extends
   - target: "[[concepts/supervised-fine-tuning]]"
     type: related_to
-sources: ["[[sources/aief2025-rft]]", "[[sources/dpo]]", "[[sources/sft-fine-tuning-with-openai-—-ilan-bigio]]", "https://www.youtube.com/watch?v=jfalqqfxqpa"]
+sources: ["[[sources/aief2025-rft]]", "[[sources/dpo]]", "[[sources/sft-fine-tuning-with-openai-—-ilan-bigio]]", "https://www.youtube.com/watch?v=jfalqqfxqpa", "https://x.com/googlegemma/status/2078144198130430343"]
 summary: "Actionable best practices for fine-tuning models: always start with prompting, run evals, use diverse data, handle overfitting, include context in training, and begin with the biggest model."
 provenance:
   extracted: 0.75
@@ -18,7 +18,7 @@ base_confidence: 0.75
 lifecycle: draft
 tier: supporting
 created: 2026-07-03T15:05:02Z
-updated: 2026-07-03T15:05:02Z
+updated: 2026-07-18T00:00:00Z
 ---
 
 # Fine-tuning Best Practices
@@ -50,6 +50,10 @@ Practical guidelines for successfully fine-tuning language models, derived from 
 
 - **Avoid trivially bad negatives** — when using DPO, negative examples should be mediocre (what you'd actually see), not terrible. Teaching the model to go from mediocre to good is more useful than from terrible to good. ^[extracted]
 - **Grader quality limits RFT** — the grader is the limiting factor; invest in building a robust grader. ^[extracted]
+
+## Agent-Assisted Fine-Tuning
+
+Recent tooling enables agents to assist with the fine-tuning workflow. Google Gemma's **gemma-trainer skill** helps agents configure training settings, manage training runs, and evaluate results for Gemma 4 fine-tuning. ^[extracted] This represents a shift toward agent-mediated fine-tuning pipelines where LLM agents handle configuration, execution monitoring, and evaluation, making fine-tuning accessible beyond ML specialists.
 
 ## Sources
 

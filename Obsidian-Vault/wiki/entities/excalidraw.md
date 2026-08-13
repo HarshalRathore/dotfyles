@@ -1,18 +1,24 @@
 ---
 title: "Excalidraw"
 category: entities
-tags: [tool, open-source, whiteboarding, collaboration, excalidraw, aief2025]
-summary: Open-source virtual whiteboard tool built by Christopher Chedeau in January 2020. Became a widely adopted remote collaboration tool during COVID. Used by Anthropic to demo Claude's AI agent.
-sources: ["AIEF2025 - Excalidraw: AI and Human Whiteboarding Partnership - Christopher Chedeau - https://www.youtube.com/watch?v=aopgVJBQC0o"]
+tags: [tool, open-source, whiteboarding, collaboration, excalidraw, aief2025, claude-code]
+summary: Open-source virtual whiteboard tool built by Christopher Chedeau and used in Anthropic demonstrations of Claude Code implementing a table component.
+sources:
+  - "AIEF2025 - Excalidraw: AI and Human Whiteboarding Partnership - Christopher Chedeau - https://www.youtube.com/watch?v=aopgVJBQC0o"
+  - "https://x.com/i/status/2083486328172273795"
 provenance: { extracted: 0.95, inferred: 0.05, ambiguous: 0.0 }
 base_confidence: 0.95
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-08-02T05:25:57+05:30
 relationships:
   - target: "[[entities/christopher-chedeau]]"
+    type: related_to
+  - target: "[[entities/claude-code]]"
+    type: uses
+  - target: "[[entities/cat-wu]]"
     type: related_to
   - target: "[[entities/rover-js]]"
     type: uses
@@ -43,6 +49,12 @@ This philosophy — don't just digitize the physical, exploit the virtual — be
 ## Anthropic Keynote Demo
 
 During the Anthropic keynote at AIEF2025, Excalidraw was used to demonstrate [[entities/claude-code|claude-code]]'s AI agent capabilities. The team had the agent reimplement the most popular feature request — a table layout — inside Excalidraw. As of the talk, no PR had been submitted.
+
+## Claude Code Feature Demo
+
+A separate [[misc/web-x-com-i-status-2083486328172273795|Claude Code product video]] uses Excalidraw as a real repository for implementing a table component. The requested behavior includes custom dimensions, drag-to-resize interaction, and Excalidraw's existing styling options. The agent is shown making the changes, updating comments, and leaving a commit for inspection. ^[extracted]
+
+This revisits the table request from the earlier Anthropic demonstration but shows a later workflow in which the resulting changes are inspected as a commit. The two demonstrations should not be treated as one event. ^[ambiguous]
 
 ## AI Integration Experiments
 

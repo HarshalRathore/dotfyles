@@ -10,7 +10,7 @@ sources:
 - '[[sources/what-if-your-product-built-itself]]'
 source_url: https://posthog.com/blog/what-if-your-product-built-itself
 created: '2026-07-01'
-updated: '2026-07-01'
+updated: '2026-07-18'
 summary: PostHog's self-driving product improvement pipeline — ingest signals, group into problems, research, decide actionability, write fix, open PR, iterate until CI green. By Josh Snyder and Cleo Lant (...
 affinity:
   posthog: 3
@@ -73,20 +73,16 @@ PostHog's product improvement loop: a signal emits from your product, and rather
 
 Products need to build for **agents as a first-class surface**. PostHog's MCP server lets agents pull in extra data on demand — session replays, errors, logs — making research much more accurate than static analysis alone.
 
-## Concepts
+## Related
 
-- [[concepts/agent-loop]] — This pipeline is a concrete production deployment of the agent loop: signals as the goal, grouped reports as context, research and PR writing as the agent, and CI green as the evaluation.
-- [[misc/web-posthog-com-blog-what-is-a-scout]] — Scouts feed signals into this pipeline. The scout article describes what a signal looks like; this article describes what happens after the signal.
-
+- [[references/posthog-self-driving]] — PostHog's /self-driving product page describing the Signals → Scouts → Inbox → PR → measurement product loop with safety guarantees and pricing
+- [[misc/web-posthog-com-blog-what-is-a-scout]] — Companion post about scouts (the signal layer above this pipeline)
+- [[misc/web-posthog-com-blog-stop-ai-slop]] — Cleo Lant's earlier post on AI evals that informs the quality assurance layer
+- [[entities/posthog]] — PostHog entity page
+- [[concepts/agent-loop]] — Agent loop concept that this pipeline implements
 ## Entities
 
 - [[entities/josh-snyder]] — Co-author, PostHog engineer building the self-driving pipeline
 - [[entities/cleo-lant]] — Co-author, PostHog engineer, also wrote the "stop AI slop" evals guide
 - [[entities/posthog]] — The company behind the self-driving product pipeline
 
-## Related
-
-- [[misc/web-posthog-com-blog-what-is-a-scout]] — Companion post about scouts (the signal layer above this pipeline)
-- [[misc/web-posthog-com-blog-stop-ai-slop]] — Cleo Lant's earlier post on AI evals that informs the quality assurance layer
-- [[entities/posthog]] — PostHog entity page
-- [[concepts/agent-loop]] — Agent loop concept that this pipeline implements

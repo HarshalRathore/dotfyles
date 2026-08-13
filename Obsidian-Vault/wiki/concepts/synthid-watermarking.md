@@ -10,18 +10,19 @@ aliases:
 - SynthID
 - Synthetic Watermark
 sources:
-- AIEF2025 - Veo 3 for Developers — Paige Bailey, Google DeepMind - https://www.youtube.com/watch?v=hlcAZ2lX_ZI
-summary: Google's digital watermarking technology for synthetically generated images and video, providing machine-detectable provenance for AI-generated media. Also used in Lyria 2 for audio asset watermark...
+  - AIEF2025 - Veo 3 for Developers — Paige Bailey, Google DeepMind - https://www.youtube.com/watch?v=hlcAZ2lX_ZI
+  - https://x.com/i/status/2083430232405733819
+summary: Google's digital watermarking technology for synthetic images, video, and audio, with machine-detectable provenance expanding into Search and Chrome.
 provenance:
-  extracted: 0.8
-  inferred: 0.15
+  extracted: 0.82
+  inferred: 0.13
   ambiguous: 0.05
-base_confidence: 0.75
+base_confidence: 0.78
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-08-02T01:17:21Z
 relationships:
 - target: '[[entities/veo-3|Veo 3]]'
   type: related_to
@@ -52,6 +53,12 @@ SynthID is part of Google DeepMind's broader responsible AI framework, which als
 - **Human-visible watermarks** — subtle visual indicators of synthetic content
 - **Artist collaboration** — working with creative industry professionals (Darren Aronofsky, Ross Lovegrove) rather than operating outside it
 
+
+## Scale and Search Verification
+
+The Google I/O source claims SynthID has watermarked more than 100 billion images and videos plus 60,000 years of audio. It also says provenance checks are expanding to Search and Chrome, where users can ask whether an image was generated with AI. ^[extracted]
+
+The keynote names OpenAI, Kakao, and Levin Labs as adopting SynthID. This is a time-bound announcement claim; the source does not provide implementation details or independent adoption evidence. ^[ambiguous]
 ## Related
 
 - [[entities/veo-3|Veo 3]] — Uses SynthID for video

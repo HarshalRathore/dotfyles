@@ -23,16 +23,20 @@ relationships:
 sources:
 - 'https://www.youtube.com/watch?v=h6mrr5nbtza'
 - 'https://www.youtube.com/watch?v=k-iykdmfkhe'
-summary: The entire developer toolchain — testing, review, merge, deploy — must be designed for the AI-accelerated inner loop. AI-native means more than AI teammates; it means re-architecting the outer loop...
+- 'https://x.com/i/status/2083231950744244360'
+- 'https://posthog.com/blog/10k-prs-a-month'
+- 'https://x.com/i/status/2083486328172273795'
+- 'https://claude.com/blog/product-management-on-the-ai-exponential'
+summary: AI-native development redesigns testing, review, merge, and deployment around the higher change volume produced by agents, not just adding assistants to an old toolchain.
 provenance:
-  extracted: 0.85
-  inferred: 0.1
+  extracted: 0.83
+  inferred: 0.12
   ambiguous: 0.05
-base_confidence: 0.65
+base_confidence: 0.79
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-08-02T05:25:57+05:30
 category: concepts
 ---
 
@@ -76,6 +80,24 @@ The distinction matters: you cannot solve an AI-induced problem with incremental
 
 This approach shows that AI-native tooling extends beyond the developer's IDE to include the architecture of open-source projects themselves. ^[inferred]
 
+## PostHog Evidence at Scale
+
+PostHog's engineering account provides a concrete stress test for the AI-native outer loop. Agent-opened monorepo PRs rose from about 20% to 70% over four months, while self-driving accounted for about 4% of PRs. The response was not one more AI assistant, but a coordinated redesign of environment capacity, CI, review, and validation. ^[extracted]
+
+- **PR readiness:** agentic loops keep branches current, get CI green, and act on review feedback before human attention is requested.
+- **CI selection:** flaky-test quarantine, AST-based change analysis, merge queues, and faster database setup reduce work that does not need to run while preserving safety signals. ^[extracted]
+- **Environment capacity:** skill-driven cloud dev boxes and [[entities/hogli|hogli]] move parallel PR testing beyond laptop RAM and disk limits. ^[extracted]
+- **Review and QA:** [[entities/stamphog|StampHog]] handles a reported 20% of PR approvals at roughly $300/month; planned [[entities/reviewhog|ReviewHog]] and browser-driven QA extend automation to more complex changes. ^[extracted]
+
+This is the outer-loop counterpart to faster code generation: if validation, review, and merge do not scale, the organization simply moves its bottleneck from writing code to handling PRs. ^[inferred]
+
+See [[concepts/developer-experience]] and [[misc/web-x-com-posthog-status-2083231950744244360]] for the source-backed account.
+
+## Claude Code as a Lifecycle Example
+
+The Claude Code product video supplies a smaller, product-level example of the same shift. It presents terminal work, VS Code and JetBrains integrations, asynchronous GitHub Actions, and SDK-powered execution as one coding workflow. ^[extracted] The example does not by itself establish a complete AI-native outer loop, but it shows how agent capability is extended into the environments and handoffs around code generation. ^[inferred]
+
+See [[misc/web-x-com-i-status-2083486328172273795]] for the source demonstration.
 ## Implications
 
 - Tooling vendors must design for AI-accelerated inner loops, not retrofit AI onto existing workflows

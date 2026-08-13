@@ -12,21 +12,23 @@ aliases:
 - ICL
 - few-shot learning
 sources:
-- 'https://www.youtube.com/watch?v=u0s6cfzay5c'
+- 'https://x.com/i/status/2083498308899573948'
 provenance:
   extracted: 0.8
   inferred: 0.15
-  ambiguous: 0.05
+  ambiguous: 0.10
 base_confidence: 0.72
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
-updated: 2026-07-04
+updated: "2026-08-02"
 relationships:
 - target: '[[concepts/360brew]]'
-  type: used_by
+  type: uses
 - target: '[[concepts/cold-start-recommendation]]'
   type: related_to
+- target: '[[misc/web-x-com-i-status-2083498308899573948|Stanford LLM Lecture Clip: Tokenization, Causal Attention, and the X Caption]]'
+  type: contradicts
 summary: In-Context Learning
 ---
 # In-Context Learning
@@ -52,3 +54,8 @@ Traditional recommendation systems require substantial interaction history befor
 - [[concepts/360brew|360Brew]] — ICL is one of 360Brew's four main characteristics
 - [[concepts/cold-start-recommendation|Cold Start in Recommendation Systems]] — ICL directly addresses cold start
 - [[concepts/zero-shot-learning|Zero-Shot Learning]] — ICL is the few-shot variant of zero-shot capability
+
+
+## Source Integrity Note
+
+An X post labels a chapter in its embedded media “In-Context Learning makes AI smarter for free.” The captured 76m48s media instead transcribes as a transformer fundamentals lecture; its sections around `00:38:00` and `00:59:00` discuss attention and causal masking, and the transcript contains no identifiable in-context-learning explanation. Treat the chapter label as **ambiguous** rather than evidence about ICL. ^[ambiguous]

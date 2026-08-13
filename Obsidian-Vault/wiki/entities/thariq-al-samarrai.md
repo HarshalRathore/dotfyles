@@ -16,8 +16,8 @@ relationships:
     type: related_to
   - target: "[[concepts/agent-architecture]]"
     type: related_to
-sources: [threads/agent-4-thariq-skills-thread.md, threads/agent-2-bash-for-agents.md, https://x.com/trq212/status/2052809885763747935, https://x.com/trq212/status/2053632475294040084]
-summary: Anthropic engineer and technical writer known for insights on agent design patterns, skills abstractions, and building coding agents.
+sources: [threads/agent-4-thariq-skills-thread.md, threads/agent-2-bash-for-agents.md, https://x.com/trq212/status/2052809885763747935, https://x.com/trq212/status/2053632475294040084, https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models]
+summary: Anthropic engineer and technical writer known for insights on agent design patterns, skills abstractions, context engineering, and building coding agents like Claude Code.
 provenance:
   extracted: 0.90
   inferred: 0.08
@@ -65,6 +65,10 @@ Several foundational opinions on agent architecture that have gained traction in
 - **Prompt caching is everything** — considered his highest-alpha writing, most relevant for teams building agents from scratch
 - **Playgrounds for visual iteration** — one of the best ways to iterate on agent ideas visually
 
+### Context Engineering for Claude 5
+
+Author of Anthropic's official "new rules of context engineering" (July 24, 2026), documenting how the team removed **over 80% of Claude Code's system prompt** for Claude Opus 5 and Claude Fable 5 with no measurable eval loss. The rules invert earlier best practices: rules become judgment, examples become interface design, upfront context becomes progressive disclosure, duplicated instructions move into tool descriptions, CLAUDE.md memory becomes auto-memory, and simple specs become rich references (code, test suites, rubrics). The lessons ship as the `claude doctor` (`/doctor`) command for rightsizing skills and CLAUDE.md files. ^[extracted]
+
 ### Agent SDK and Development Patterns
 
 - Advocates the **Claude Agent SDK** (renamed from Claude Code SDK) as the easiest way to build agents — giving agents access to a computer via the terminal
@@ -92,6 +96,7 @@ His published articles (some cross-posted to the Claude Blog):
 - "Using Claude Code: The Unreasonable Effectiveness of HTML" — [[https://claude.com/blog/using-claude-code-html|source]]
 - "A harness for every task: dynamic workflows in Claude Code" — [[https://claude.com/blog/dynamic-workflows|source]]
 - "A Field Guide to Fable: Finding Your Unknowns" — Jul 9, 2026 — [[https://claude.com/blog/fable-field-guide|source]]
+- "The new rules of context engineering for Claude 5 generation models" — Jul 24, 2026 — [[https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models|source]] — distilled at [[references/new-rules-of-context-engineering]]
 
 ---
 

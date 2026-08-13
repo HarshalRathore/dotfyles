@@ -16,16 +16,18 @@ aliases:
 - GraphRAG context windows talk
 sources:
 - AIEF2025 - GraphRAG methods to create optimized LLM context windows for Retrieval — Jonathan Larson, Microsoft - https://www.youtube.com/watch?v=c5qJHr3DnT4
+- "https://x.com/i/status/2084018136437985417"
+- "https://video.twimg.com/amplify_video/2084017844644175872/vid/avc1/1920x1080/ulwbPatVcvxMIoCb.mp4"
 provenance:
-  extracted: 0.95
-  inferred: 0.03
-  ambiguous: 0.02
-base_confidence: 0.9
+  extracted: 0.93
+  inferred: 0.04
+  ambiguous: 0.03
+base_confidence: 0.88
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-08-03T00:00:00Z
 relationships:
 - target: '[[entities/jonathan-larson|Jonathan Larson]]'
   type: presented-by
@@ -33,7 +35,11 @@ relationships:
   type: presented-at
 - target: '[[entities/microsoft|Microsoft]]'
   type: affiliated-with
-summary: GraphRAG Methods to Create Optimized LLM Context Windows for Retrieval
+- target: '[[concepts/lazy-graphrag|LazyGraphRAG]]'
+  type: related_to
+- target: '[[misc/web-x-com-i-status-2084018136437985417|LazyGraphRAG X post]]'
+  type: derived_from
+summary: "Jonathan Larson's AIEF2025 talk: GraphRAG for code (game QA, Python-to-Rust, Doom feature dev), Benchmark QED (AutoQ/AutoE/AutoD), and LazyGraphRAG's 92/90/91% wins over vector RAG at 8k/120k/1M tokens at a tenth of the cost."
 ---
 
 # GraphRAG Methods to Create Optimized LLM Context Windows for Retrieval
@@ -71,8 +77,20 @@ N/A — this is a systems/demonstration talk, not a theoretical paper. ^[extract
 
 ## New Announcements
 
-- **Benchmark QED** — A new evaluation benchmark that went open source alongside the talk. A Microsoft blog post was scheduled for the day after the talk. ^[extracted]
+- **Benchmark QED** — A new evaluation benchmark that went open source alongside the talk. A Microsoft blog post was scheduled for the day after the talk. ^[extracted] Its three components (from the talk's X-clip transcript): **AutoQ** generates queries across a local/global × data-driven/activity-driven spectrum (data-local questions like "why are junior doctors in South Korea striking in February 2024?" vs activity-global questions with nothing to pivot on for embedding); **AutoE** evaluates query performance with an LLM-as-judge; **AutoD** handles dataset summarization and sampling. ^[extracted]
 - **LazyGraphRAG** — An evolution of GraphRAG with improved benchmark performance. Larson did not disclose the specific mechanics, focusing instead on benchmark results. Blog post and open-source release were imminent. ^[extracted]
+
+## LazyGraphRAG Benchmark Results (from the X clip)
+
+The X-posted clip of the talk captures the benchmark segment with the actual numbers: ^[extracted]
+
+- LazyGraphRAG beat vector RAG at **8k, 120k, and a full million-token context window**, winning **92%, 90%, and 91%** of data-local questions respectively — "the exact place plain RAG was supposed to be strong."
+- Long context windows did not help: the million-token run was expected to gain on global questions, but LazyGraphRAG still dominated.
+- LazyGraphRAG ran at **a tenth of the cost** of the million-token context run.
+
+Larson closes with a graph-based scientific co-reasoning demonstration (hypothesis → experiment → learning → knowledge) whose answers are powered by GraphRAG and LazyGraphRAG, and the takeaway: "LLM memory with structure is a really, really powerful tool." ^[extracted]
+
+The clip (14:48, remote ASR, 15 chunks) is the same talk already sourced from YouTube; it confirms the post's numbers and adds the QED component details above. ^[extracted]
 
 ## Limitations
 

@@ -8,6 +8,8 @@ tags:
 sources:
 - '[[sources/ai-engineer-worlds-fair-2025-information-retrieval-from-the-ground-up-philipp-krenn]]'
 - 'https://www.youtube.com/watch?v=4xe_imyxbqc'
+- 'https://towardsdatascience.com/how-cursor-actually-indexes-your-codebase/'
+- 'https://docs.chonkie.ai/oss/chunkers/code-chunker'
 summary: Strategy for splitting documents into smaller segments before embedding for dense vector search. Crucial because dense vector representations can only hold limited context per chunk.
 provenance:
   extracted: 0.85
@@ -17,7 +19,7 @@ base_confidence: 0.75
 lifecycle: draft
 tier: supporting
 created: 2026-07-03 08:30:00+00:00
-updated: 2026-07-03 08:30:00+00:00
+updated: 2026-08-11
 category: concepts
 ---
 
@@ -49,8 +51,13 @@ Modern search engines like [[entities/elastic|Elasticsearch]] can handle chunkin
 
 When chunks are retrieved, the system can highlight the specific fragment that matched, showing directly which part of a long document was most relevant. ^[extracted]
 
+## Code Chunking
+
+For source code, chunking is a distinct specialization: code is already structured, so pipelines skip document parsing and split into **semantically coherent units** (functions, classes, logical blocks) using an **abstract syntax tree** rather than text boundaries. Splits land between functions and between statements, never mid-line. See [[concepts/code-chunking|Code Chunking]] for the full treatment (AST traversal + token-limit grouping, e.g. [[entities/chonkie|Chonkie]]'s CodeChunker). ^[extracted]
+
 ## Related
 
+- [[concepts/code-chunking|Code Chunking]] — the code-specific specialization
 - [[concepts/dense-vector-search]]
 - [[concepts/information-retrieval]]
 - [[concepts/lexical-search]]

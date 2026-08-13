@@ -13,16 +13,17 @@ tags:
 summary: MCP and A2A (Agent-to-Agent) protocols enabling different AI agents to communicate and coordinate across SDLC phases — one agent using tools that connect all SDLC parts. Essential for holistic AI w...
 sources:
 - AIEF2025 - Vibe Coding with Confidence — Itamar Friedman, Qodo - https://www.youtube.com/watch?v=n991Yxo1aOI
+- Graph Engineering: build 1000+ agent loops in one window from one prompt — X post and captured Google Hands-on AI Multi-Agent Lab, 2026-08-02
 provenance:
   extracted: 0.8
   inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.7
+base_confidence: 0.72
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
-updated: 2026-07-05
+updated: 2026-08-02
 relationships:
 - target: '[[concepts/model-context-protocol|MCP]]'
   type: implements
@@ -32,6 +33,8 @@ relationships:
   type: enables
 - target: '[[concepts/sdlc-shift-left-ai|SDLC Shift-Left AI]]'
   type: enables
+- target: '[[references/google-hands-on-ai-multi-agent-lab|Google Hands-on AI Multi-Agent Lab]]'
+  type: related_to
 ---
 
 # Agent-to-Agent Communication (MCP, A2A)
@@ -75,3 +78,7 @@ Friedman described "squeezing the V" — the V-shape model of SDLC executability
 ## Connection to CLI
 
 The [[concepts/cli-ai-interface-leader|CLI as interface leader]] thesis and A2A communication are complementary: the CLI provides the unified interface through which developers command AI agents, while A2A protocols enable those agents to coordinate internally. Together, they form the foundation for Gen 3.0 AI developer tools. ^[inferred]
+
+## A2A in the Captured Multi-Agent Lab
+
+The lab uses A2A as the boundary for agent-to-agent handoffs, distinct from MCP's tool boundary. A2A therefore carries collaboration between separately scoped agents; MCP carries access to tools and data. ^[extracted]

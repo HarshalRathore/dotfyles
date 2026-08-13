@@ -11,7 +11,11 @@ aliases:
   - prefix-match caching
 sources:
   - "https://claude.com/blog/lessons-from-building-claude-code-prompt-caching-is-everything"
-summary: Prompt caching is a prefix-match optimization that reuses computation from previous API roundtrips, dramatically reducing latency and cost for long-running agentic products like Claude Code.
+  - "https://earendil.com/posts/prompt-caching/"
+  - "https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus"
+  - "https://yingchao.dev/blog/compaction"
+  - "https://earendil.com/posts/compaction-in-pi/"
+summary: Prompt caching is a prefix-match optimization that reuses computation from previous API roundtrips, dramatically reducing latency and cost for long-running agentic products like Claude Code. Exact-prefix matching makes compaction a deliberate cache break.
 provenance:
   extracted: 0.85
   inferred: 0.10
@@ -21,7 +25,7 @@ lifecycle: draft
 lifecycle_changed: '2026-07-13'
 tier: supporting
 created: '2026-07-13T00:00:00Z'
-updated: '2026-07-13T00:00:00Z'
+updated: '2026-08-13T15:30:00Z'
 relationships:
   - target: '[[concepts/prompt-engineering]]'
     type: extends
@@ -90,6 +94,16 @@ A few percentage points of cache miss rate can dramatically affect cost and late
 - [[entities/thariq-al-samarrai|Thariq Shihipar]] — author, member of technical staff on Claude Code team. Also mentioned: "[[https://claude.com/blog/seeing-like-an-agent|Seeing like an agent: how we design tools in Claude Code]]" and "[[https://claude.com/blog/using-claude-code-session-management|Using Claude Code: Session Management & 1M Context]]"
 - [[references/aief2025-prompt-engineering-is-dead-nir-gazit-traceloop]] — related perspective on prompt engineering evolution
 - [[https://x.com/RLanceMartin/status/2024573404888911886]] — referenced in the article for prompt caching insights
+
+## 2026-08-13: Cache Health as a Systems Property
+
+[[references/prompt-caching-in-agents|Earendil Engineering's essay]] (2026-07) deepens the picture: caching is prefix-keyed — one changed token invalidates everything after it; tool loadouts, dynamic system prompts (timestamps), model/provider switches, and branch navigation (`/tree`, forks) are the usual killers; Anthropic's default **5-minute TTL** is shorter than normal coding activities (a test run or diff review outlives it and the next request is billed at full input price). ^[extracted] The economics of pruning: a rewrite costs `surviving tokens × (uncached − cache-read price)` vs `pruned tokens × cache-read price` per turn — so stable append-only transcripts beat aggressive pruning. ^[extracted] Gateway/reseller billing incentives can misalign with hit rates, so cache health must be observable (Pi's footer `R`/`W`/`CH`, `/session` re-billed estimates, `showCacheMissNotices`). ^[extracted]
+
+[[references/manus-context-engineering-lessons|Manus's design rules]] align: stable prompt prefix (no second-precision timestamps at the start), append-only context, and **masking tool logits instead of dynamically adding/removing tools** — tool definitions sit near the front, so loadout changes invalidate the cached conversation behind them. ^[extracted]
+
+**Compaction is the deliberate cache reset**: [[misc/web-yingchao-dev-blog-compaction|Yingchao Dai]] notes compaction's prompt swaps, model switches, and tool removal bust caching by design; Pi's session statistics count compaction as "a cache reset rather than a cache failure". ^[extracted] OpenAI's server-side compaction ([[references/openai-server-side-compaction|docs]]) moves the rewrite into the provider and returns an opaque encrypted compaction item. ^[extracted]
+
+[[misc/web-earendil-com-posts-compaction-in-pi|Pi's official compaction post]] (2026-08-13) spells out the exact-prefix mechanics: caching requires an **exact prefix match**, and compaction inserts the summary mid-prefix — the retained recent turns are token-identical but now follow a different prefix, so their cached state cannot be reused and everything after the first changed token must be recomputed. Two design consequences: Pi checks auto-compaction **after a turn ends** (each request until then extends the prompt and reuses the cached prefix), and only compacts mid-turn when an overflow error forces it. After the first post-compaction request, caching builds up again. ^[extracted]
 
 ## Open Questions
 

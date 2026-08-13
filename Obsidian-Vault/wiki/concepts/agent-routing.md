@@ -6,6 +6,7 @@ aliases: [agent routing, agent-to-agent routing, internal agent networking]
 summary: The mechanism by which agents discover, authenticate, and communicate with each other within a multi-agent system — using ephemeral tokens scoped to execution lifetime and platform-managed routing.
 sources:
   - "AIEF2025 - Conquering Agent Chaos — Rick Blalock, Agentuity - https://www.youtube.com/watch?v=yASxPZ-tZe0"
+  - "Graph Engineering: build 1000+ agent loops in one window from one prompt — X post and captured Google Hands-on AI Multi-Agent Lab, 2026-08-02"
 provenance:
   extracted: 0.85
   inferred: 0.12
@@ -15,7 +16,7 @@ lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
-updated: 2026-07-05
+updated: 2026-08-02
 relationships:
   - target: "[[concepts/framework-agnostic-agents]]"
     type: enables
@@ -23,6 +24,8 @@ relationships:
     type: component_of
   - target: "[[concepts/agent-deployment-challenges]]"
     type: solves
+  - target: "[[references/google-hands-on-ai-multi-agent-lab|Google Hands-on AI Multi-Agent Lab]]"
+    type: related_to
 ---
 
 ## Agent Routing
@@ -47,6 +50,10 @@ It's important to distinguish agent routing from AI gateway routing:
 - **Agent Routing** routes requests between agents (enabling multi-agent coordination).
 
 Both are needed for a complete agent infrastructure. ^[inferred]
+
+## Graph Routing and Agent Handoffs
+
+The captured lab illustrates routing as a graph boundary: agents exchange work through A2A, while each agent reaches tools through MCP. This keeps agent-to-agent handoffs distinct from tool invocation and makes the graph topology explicit. ^[extracted]
 
 ## Related Pages
 

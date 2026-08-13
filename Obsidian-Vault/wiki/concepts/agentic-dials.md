@@ -12,6 +12,7 @@ tags:
 summary: Framework for thinking about agentic AI as four tunable dials — autonomy, context, memory, coordination — rather than a binary agentic/non-agentic distinction. Each dial is adjusted based on use ca...
 sources:
 - 'AIEF2025 - From Copilot to Colleague: Trustworthy Agents for High-Stakes - Joel Hron, CTO Thomson Reuters - https://www.youtube.com/watch?v=kDEvo2__Ijg'
+- 'https://www.deeplearning.ai/courses/agentic-ai'
 provenance:
   extracted: 0.8
   inferred: 0.15
@@ -21,7 +22,7 @@ lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-08-02T13:04:14Z
 relationships:
 - target: '[[concepts/agent-autonomy]]'
   type: extends
@@ -58,6 +59,10 @@ How the AI handles task execution. Ranges from atomically executing a single tas
 The framework implies that agent systems should be designed with adjustable levers, not fixed architectures. Some use cases (exploratory analysis) benefit from high autonomy and coordination; others (precision-critical workflows) benefit from lower agency and tighter control. ^[inferred]
 
 This is a practical alternative to the binary "agentic or not" framing that dominates AI discourse. ^[inferred]
+
+## Autonomy as a Spectrum
+
+Andrew Ng's course rejects a binary agent/non-agent boundary. Systems range from a direct LM call, through fixed multi-step workflows and semi-autonomous tool use, to agents that choose plans, create tools, or coordinate other agents. The appropriate autonomy level depends on the task and the desired control surface. ^[extracted]
 
 ## Related
 

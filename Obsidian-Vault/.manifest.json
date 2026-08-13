@@ -1,467 +1,1409 @@
 {
-  "version": 1,
-  "stats": {
-    "total_pages": 385
-  },
-  "ralph-ai-coding-technique_ghuntley": {
-    "ingested_at": "2026-06-30T18:41:00Z",
-    "size_bytes": 82661,
-    "modified_at": "2026-06-30T18:41:00Z",
-    "content_hash": "sha256:47b97715a01b66cd196770586b233398ea8f28d30405ebd42228e1a075bc859e",
-    "source_url": "https://ghuntley.com/ralph/",
-    "source_type": "url",
-    "project": null,
-    "pages_created": [
-      "wiki/sources/ralph-ai-coding-technique_ghuntley.md",
-      "wiki/concepts/ralph-coding-technique.md",
-      "wiki/entities/geoffrey-huntley.md"
-    ],
-    "pages_updated": [
-      "wiki/index.md",
-      "wiki/log.md",
-      "wiki/hot.md",
-      "wiki/concepts/ralph-coding-technique.md",
-      "wiki/sources/ralph-ai-coding-technique_ghuntley.md"
-    ]
-  },
-  "karpathy-autoresearch-query-engine-bug_posthog": {
-    "ingested_at": "2026-06-30T23:15:00Z",
-    "size_bytes": 10897,
-    "modified_at": "2026-06-30T23:15:00Z",
-    "content_hash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
-    "source_url": "https://posthog.com/blog/karpathy-autoresearch-query-engine-bug",
-    "source_type": "url",
-    "project": null,
-    "pages_created": [
-      "wiki/misc/web-posthog-com-blog-karpathy-autoresearch-query.md",
-      "wiki/entities/andrej-karpathy.md",
-      "wiki/entities/posthog.md",
-      "wiki/entities/clickhouse.md",
-      "wiki/concepts/agent-loop.md"
-    ],
-    "pages_updated": [
-      "wiki/index.md",
-      "wiki/log.md",
-      "wiki/hot.md",
-      "wiki/concepts/ralph-coding-technique.md"
-    ]
-  },
-  "posthog-newsletter-loops": {
-    "ingested_at": "2026-06-30T23:45:00Z",
-    "size_bytes": 4840,
-    "modified_at": "2026-06-30T23:45:00Z",
-    "content_hash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
-    "source_url": "https://posthog.com/newsletter/loops",
-    "source_type": "url",
-    "project": null,
-    "pages_created": [
-      "wiki/misc/web-posthog-com-newsletter-loops.md",
-      "wiki/entities/peter-steinberger.md",
-      "wiki/entities/boris-cherny.md"
-    ],
-    "pages_updated": [
-      "wiki/concepts/agent-loop.md",
-      "wiki/index.md",
-      "wiki/log.md",
-      "wiki/hot.md"
-    ]
-  },
-  "stop-ai-slop_posthog": {
-    "ingested_at": "2026-06-30T23:50:00Z",
-    "size_bytes": 4491,
-    "modified_at": "2026-06-30T23:50:00Z",
-    "content_hash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
-    "source_url": "https://posthog.com/blog/stop-ai-slop",
-    "source_type": "url",
-    "project": null,
-    "pages_created": [
-      "wiki/misc/web-posthog-com-blog-stop-ai-slop.md"
-    ],
-    "pages_updated": [
-      "wiki/concepts/agent-loop.md",
-      "wiki/index.md",
-      "wiki/log.md",
-      "wiki/hot.md"
-    ]
-  },
-  "react-scan-github": {
-    "ingested_at": "2026-06-30T18:50:00Z",
-    "size_bytes": 6045,
-    "modified_at": "2026-06-30T18:50:00Z",
-    "content_hash": "sha256:58e2ff7f89aa6b0544e50b9560780b00c05954973e2ad35258b4928aedc15e2e",
-    "source_url": "https://github.com/aidenybai/react-scan",
-    "source_type": "url",
-    "project": null,
-    "pages_created": [
-      "wiki/misc/web-github-com-aidenybai-react-scan.md",
-      "wiki/entities/aiden-bai.md"
-    ],
-    "pages_updated": [
-      "wiki/index.md",
-      "wiki/log.md",
-      "wiki/hot.md"
-    ]
-  },
-  "software-fundamentals-matter-more-than-ever_matt-pocock": {
-    "ingested_at": "2026-06-30T23:55:00Z",
-    "size_bytes": 5458,
-    "modified_at": "2026-06-30T23:55:00Z",
-    "content_hash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
-    "source_url": "https://www.youtube.com/watch?v=v4F1gFy-hqg",
-    "source_type": "url",
-    "project": null,
-    "pages_created": [
-      "wiki/misc/web-youtube-com-watch-v4f1gfy-hqg.md",
-      "wiki/entities/matt-pocock.md"
-    ],
-    "pages_updated": [
-      "wiki/concepts/agent-loop.md",
-      "wiki/index.md",
-      "wiki/log.md",
-      "wiki/hot.md"
-    ]
-  },
-  "posthog-docs-ai-evals": {
-    "ingested_at": "2026-07-01T00:30:00Z",
-    "size_bytes": 26872,
-    "modified_at": "2026-07-01T00:30:00Z",
-    "content_hash": "sha256:3b5d5b4f8a2c1e6d7f9a0b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d",
-    "source_url": "https://posthog.com/docs/ai-evals",
-    "source_type": "url",
-    "project": null,
-    "pages_created": [
-      "wiki/misc/web-posthog-com-docs-ai-evals.md"
-    ],
-    "pages_updated": [
-      "wiki/concepts/agent-loop.md",
-      "wiki/entities/posthog.md",
-      "wiki/index.md",
-      "wiki/log.md",
-      "wiki/hot.md"
-    ]
-  },
-  "everything-i-learned-training-frontier-small-models_labonne": {
-    "ingested_at": "2026-06-30T23:59:00Z",
-    "size_bytes": 5486,
-    "modified_at": "2026-06-30T23:59:00Z",
-    "content_hash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
-    "source_url": "https://www.youtube.com/watch?v=fLUtUkqYHnQ",
-    "source_type": "url",
-    "project": null,
-    "pages_created": [
-      "wiki/misc/web-youtube-com-watch-v-flutukqyhnq.md",
-      "wiki/entities/maxime-labonne.md",
-      "wiki/entities/liquid-ai.md"
-    ],
-    "pages_updated": [
-      "wiki/index.md",
-      "wiki/log.md",
-      "wiki/hot.md"
-    ]
-  },
-  "harnesses-in-ai-deep-dive_tejas-kumar": {
-    "ingested_at": "2026-07-01T00:05:00Z",
-    "size_bytes": 4837,
-    "modified_at": "2026-07-01T00:05:00Z",
-    "content_hash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
-    "source_url": "https://www.youtube.com/watch?v=C_GG5g38vLU",
-    "source_type": "url",
-    "project": null,
-    "pages_created": [
-      "wiki/misc/web-youtube-com-watch-v-c_gg5g38vlu.md",
-      "wiki/entities/tejas-kumar.md"
-    ],
-    "pages_updated": [
-      "wiki/concepts/agent-loop.md",
-      "wiki/index.md",
-      "wiki/log.md",
-      "wiki/hot.md"
-    ]
-  },
-  "matt-pocock-ai-coding-workflow-youtube": {
-    "ingested_at": "2026-07-01T01:00:00Z",
-    "size_bytes": 3448,
-    "modified_at": "2026-07-01T01:00:00Z",
-    "content_hash": "sha256:7c6d5e4f3a2b1c0d9e8f7a6b5c4d3e2f1a0b9c8d7e6f5a4b3c2d1e0f9a8b7c6d",
-    "source_url": "https://www.youtube.com/watch?v=-QFHIoCo-Ko",
-    "source_type": "url",
-    "project": null,
-    "pages_created": [
-      "wiki/misc/web-youtube-com-watch-v-qfhioco-ko.md"
-    ],
-    "pages_updated": [
-      "wiki/concepts/agent-loop.md",
-      "wiki/entities/matt-pocock.md",
-      "wiki/index.md",
-      "wiki/log.md",
-      "wiki/hot.md"
-    ]
-  },
-  "deleted-95-percent-agent-skills_nick-nisi": {
-    "ingested_at": "2026-07-01T00:10:00Z",
-    "size_bytes": 5342,
-    "modified_at": "2026-07-01T00:10:00Z",
-    "content_hash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
-    "source_url": "https://www.youtube.com/watch?v=vy7o1g2iHY8",
-    "source_type": "url",
-    "project": null,
-    "pages_created": [
-      "wiki/misc/web-youtube-com-watch-vy7o1g2ihy8.md",
-      "wiki/entities/nick-nisi.md"
-    ],
-    "pages_updated": [
-      "wiki/concepts/agent-loop.md",
-      "wiki/index.md",
-      "wiki/log.md",
-      "wiki/hot.md"
-    ]
-  },
-  "factory-missions-multi-agent-youtube": {
-    "ingested_at": "2026-07-01T01:30:00Z",
-    "size_bytes": 7539,
-    "modified_at": "2026-07-01T01:30:00Z",
-    "content_hash": "sha256:8a9b7c6d5e4f3a2b1c0d9e8f7a6b5c4d3e2f1a0b9c8d7e6f5a4b3c2d1e0f9a8b7c",
-    "source_url": "https://www.youtube.com/watch?v=ow1we5PzK-o",
-    "source_type": "url",
-    "project": null,
-    "pages_created": [
-      "wiki/misc/web-youtube-com-watch-ow1we5pzk-o.md",
-      "wiki/entities/luke-alvoeiro.md"
-    ],
-    "pages_updated": [
-      "wiki/concepts/agent-loop.md",
-      "wiki/concepts/ralph-coding-technique.md",
-      "wiki/index.md",
-      "wiki/log.md",
-      "wiki/hot.md"
-    ]
-  },
-  "karpathy-autoresearch_github": {
-    "ingested_at": "2026-07-01T00:20:00Z",
-    "size_bytes": 5449,
-    "modified_at": "2026-07-01T00:20:00Z",
-    "content_hash": "sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0",
-    "source_url": "https://github.com/karpathy/autoresearch",
-    "source_type": "url",
-    "project": null,
-    "pages_created": [
-      "wiki/misc/web-github-com-karpathy-autoresearch.md"
-    ],
-    "pages_updated": [
-      "wiki/entities/andrej-karpathy.md",
-      "wiki/index.md",
-      "wiki/log.md",
-      "wiki/hot.md"
-    ]
-  },
-  "karpathy-llm-wiki-gist": {
-    "ingested_at": "2026-07-01T02:00:00Z",
-    "size_bytes": 5018,
-    "modified_at": "2026-07-01T02:00:00Z",
-    "content_hash": "sha256:6b8c4d2e9f1a7c3d5e6f8a0b2c4d6e8f0a2b4c6d8e0a2b4c6d8e0a2b4c6d8e0a",
-    "source_url": "https://gist.githubusercontent.com/karpathy/442a6bf555914893e9891c11519de94f/raw/ac46de1ad27f92b28ac95459c782c07f6b8c964a/llm-wiki.md",
-    "source_type": "url",
-    "project": null,
-    "pages_created": [
-      "wiki/misc/web-gist-githubusercontent-com-karpathy-442a6bf5.md"
-    ],
-    "pages_updated": [
-      "wiki/concepts/agent-loop.md",
-      "wiki/entities/andrej-karpathy.md",
-      "wiki/index.md",
-      "wiki/log.md",
-      "wiki/hot.md"
-    ]
-  },
-  "posthog-scout-blog": {
-    "ingested_at": "2026-07-01T03:00:00Z",
-    "size_bytes": 4645,
-    "modified_at": "2026-07-01T03:00:00Z",
-    "content_hash": "sha256:a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c",
-    "source_url": "https://posthog.com/blog/what-is-a-scout",
-    "source_type": "url",
-    "project": null,
-    "pages_created": [
-      "wiki/misc/web-posthog-com-blog-what-is-a-scout.md",
-      "wiki/entities/andy-maguire.md"
-    ],
-    "pages_updated": [
-      "wiki/concepts/agent-loop.md",
-      "wiki/entities/posthog.md",
-      "wiki/index.md",
-      "wiki/log.md",
-      "wiki/hot.md"
-    ]
-  },
-  "sql-parser-70x-faster_posthog": {
-    "ingested_at": "2026-07-01T00:30:00Z",
-    "size_bytes": 6832,
-    "modified_at": "2026-07-01T00:30:00Z",
-    "content_hash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
-    "source_url": "https://posthog.com/blog/sql-parser",
-    "source_type": "url",
-    "project": null,
-    "pages_created": [
-      "wiki/misc/web-posthog-com-blog-sql-parser.md",
-      "wiki/entities/robbie-coomber.md"
-    ],
-    "pages_updated": [
-      "wiki/index.md",
-      "wiki/log.md",
-      "wiki/hot.md"
-    ]
-  },
-  "posthog-self-driving-pipeline": {
-    "ingested_at": "2026-07-01T03:30:00Z",
-    "size_bytes": 4774,
-    "modified_at": "2026-07-01T03:30:00Z",
-    "content_hash": "sha256:d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e",
-    "source_url": "https://posthog.com/blog/what-if-your-product-built-itself",
-    "source_type": "url",
-    "project": null,
-    "pages_created": [
-      "wiki/misc/web-posthog-com-blog-what-if-your-product-built-itself.md",
-      "wiki/entities/josh-snyder.md",
-      "wiki/entities/cleo-lant.md"
-    ],
-    "pages_updated": [
-      "wiki/concepts/agent-loop.md",
-      "wiki/entities/posthog.md",
-      "wiki/index.md",
-      "wiki/log.md",
-      "wiki/hot.md"
-    ]
-  },
-  "building-great-agent-skills-matt-pocock": {
-    "ingested_at": "2026-07-01T09:49:00Z",
-    "size_bytes": 82661,
-    "modified_at": "2026-07-01T09:49:00Z",
-    "content_hash": "sha256:82661-placeholder",
-    "source_url": "https://www.youtube.com/watch?v=UNzCG3lw6O0",
-    "source_type": "url",
-    "project": null,
-    "stub": false,
-    "promotion_status": "misc",
-    "pages_created": [
-      "wiki/misc/web-youtube-com-watch-v-unzcg3lw6o0.md",
-      "wiki/concepts/skills-checklist-framework.md",
-      "wiki/concepts/skill-hell.md",
-      "wiki/concepts/leading-words.md"
-    ],
-    "pages_updated": [
-      "wiki/entities/matt-pocock.md",
-      "wiki/concepts/agent-loop.md"
-    ]
-  },
-  "github-com-steipete-birdclaw": {
-    "ingested_at": "2026-07-02T18:42:00Z",
-    "size_bytes": 0,
-    "modified_at": "2026-07-02T18:42:00Z",
-    "content_hash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
-    "source_url": "https://github.com/steipete/birdclaw",
-    "source_type": "url",
-    "project": null,
-    "pages_created": [
-      "wiki/entities/birdclaw.md",
-      "wiki/entities/peter-steinberger.md"
-    ],
-    "pages_updated": [
-      "wiki/index.md",
-      "wiki/log.md",
-      "wiki/hot.md"
-    ]
-  },
-  "summarize-sh-website-github": {
-    "ingested_at": "2026-07-02T19:09:00Z",
-    "size_bytes": 0,
-    "modified_at": "2026-07-02T19:09:00Z",
-    "content_hash": null,
-    "source_url": "https://summarize.sh/ + https://github.com/steipete/summarize",
-    "source_type": "url",
-    "project": null,
-    "pages_created": [
-      "wiki/entities/summarize.md"
-    ],
-    "pages_updated": [
-      "wiki/entities/peter-steinberger.md"
-    ]
-  },
-  "wf2026-autoresearch-keynotes-4sX_He5c4sI": {
-    "ingested_at": "2026-07-06T12:00:00Z",
-    "size_bytes": 136700,
-    "modified_at": "2026-07-06T12:00:00Z",
-    "content_hash": "sha256:111e763fba0b7cddf627b15d3e1f5bc0616e9f651e627e6a6ce20d6a525d2e93",
-    "source_url": "https://www.youtube.com/watch?v=4sX_He5c4sI",
-    "source_type": "session_transcript",
-    "project": null,
-    "pages_created": [
-      "wiki/misc/wf2026.md",
-      "wiki/entities/tariq-shihapar.md",
-      "wiki/entities/tariq-shawkat.md",
-      "wiki/entities/jabarth.md",
-      "wiki/references/aief2025-fable-model-field-guide-tariq-shihapar.md",
-      "wiki/references/aief2025-code-verification-acdc-tariq-shawkat.md",
-      "wiki/references/aief2025-perception-agents-jabarth.md",
-      "wiki/concepts/capability-overhang.md",
-      "wiki/concepts/perception-agents.md",
-      "wiki/concepts/agent-centric-development-cycle.md",
-      "wiki/concepts/mythos-models.md",
-      "wiki/concepts/acdc-framework.md",
-      "wiki/concepts/agency-ladder.md",
-      "wiki/concepts/agent-identity-log.md",
-      "wiki/concepts/auto-research-loop.md",
-      "wiki/concepts/agent-recipes.md",
-      "wiki/concepts/discernment.md",
-      "wiki/concepts/iteration-friction.md",
-      "wiki/concepts/JEPA.md",
-      "wiki/concepts/memory-harness.md",
-      "wiki/concepts/polygraph.md",
-      "wiki/concepts/nano-chat.md",
-      "wiki/concepts/nano-gpt-speed-run.md",
-      "wiki/concepts/three-tier-delegation.md",
-      "wiki/concepts/structured-output.md",
-      "wiki/concepts/test-time-compute-spectrum.md",
-      "wiki/concepts/perception-agents.md",
-      "wiki/concepts/valued-work-per-watt.md",
-      "wiki/concepts/self-play.md",
-      "wiki/concepts/code-compression-benchmark.md",
-      "wiki/concepts/sovereign-ai.md",
-      "wiki/concepts/three-eras-of-software.md",
-      "wiki/concepts/evaluate-pyramid.md",
-      "wiki/concepts/system-prompt-curve.md",
-      "wiki/concepts/agent-economy-impact.md",
-      "wiki/concepts/agent-as-judge.md",
-      "wiki/concepts/model-progression-framework.md",
-      "wiki/concepts/modality-gap.md",
-      "wiki/concepts/s-curve-technology.md",
-      "wiki/concepts/Karpathy-AutoResearch.md",
-      "wiki/concepts/agent-evaluation-pipeline.md",
-      "wiki/entities/aden.md",
-      "wiki/entities/anthropic.md",
-      "wiki/entities/google-deepmind.md",
-      "wiki/entities/coinbase.md",
-      "wiki/entities/replicate.md",
-      "wiki/entities/claude-code.md",
-      "wiki/entities/cursor-ai.md",
-      "wiki/entities/codex.md",
-      "wiki/entities/openai.md",
-      "wiki/entities/xai.md",
-      "wiki/entities/amazon.md",
-      "wiki/entities/meta.md",
-      "wiki/entities/dropbox.md",
-      "wiki/entities/shopify.md",
-      "wiki/entities/ibm.md",
-      "wiki/entities/weights-and-biases.md",
-      "wiki/entities/sonic-2.md",
-      "wiki/entities/AMD.md",
-      "wiki/entities/Databricks.md",
-      "wiki/entities/NVIDIA.md",
-      "wiki/entities/sonar.md",
-      "wiki/sources/wf2026-autoresearch-keynotes.md"
-    ],
-    "pages_updated": [
-      "wiki/entities/anthropic.md",
-      "wiki/misc/ai-engineer-worlds-fair-2025.md"
-    ]
-  }
+ "version": 1,
+ "stats": {
+  "total_sources_ingested": 70,
+  "total_pages": 3226
+ },
+ "ralph-ai-coding-technique_ghuntley": {
+  "ingested_at": "2026-06-30T18:41:00Z",
+  "size_bytes": 82661,
+  "modified_at": "2026-06-30T18:41:00Z",
+  "content_hash": "sha256:47b97715a01b66cd196770586b233398ea8f28d30405ebd42228e1a075bc859e",
+  "source_url": "https://ghuntley.com/ralph/",
+  "source_type": "url",
+  "project": null,
+  "pages_created": [
+   "wiki/sources/ralph-ai-coding-technique_ghuntley.md",
+   "wiki/concepts/ralph-coding-technique.md",
+   "wiki/entities/geoffrey-huntley.md"
+  ],
+  "pages_updated": [
+   "wiki/index.md",
+   "wiki/log.md",
+   "wiki/hot.md",
+   "wiki/concepts/ralph-coding-technique.md",
+   "wiki/sources/ralph-ai-coding-technique_ghuntley.md"
+  ]
+ },
+ "karpathy-autoresearch-query-engine-bug_posthog": {
+  "ingested_at": "2026-06-30T23:15:00Z",
+  "size_bytes": 10897,
+  "modified_at": "2026-06-30T23:15:00Z",
+  "content_hash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+  "source_url": "https://posthog.com/blog/karpathy-autoresearch-query-engine-bug",
+  "source_type": "url",
+  "project": null,
+  "pages_created": [
+   "wiki/misc/web-posthog-com-blog-karpathy-autoresearch-query.md",
+   "wiki/entities/andrej-karpathy.md",
+   "wiki/entities/posthog.md",
+   "wiki/entities/clickhouse.md",
+   "wiki/concepts/agent-loop.md"
+  ],
+  "pages_updated": [
+   "wiki/index.md",
+   "wiki/log.md",
+   "wiki/hot.md",
+   "wiki/concepts/ralph-coding-technique.md"
+  ]
+ },
+ "posthog-newsletter-loops": {
+  "ingested_at": "2026-06-30T23:45:00Z",
+  "size_bytes": 4840,
+  "modified_at": "2026-06-30T23:45:00Z",
+  "content_hash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+  "source_url": "https://posthog.com/newsletter/loops",
+  "source_type": "url",
+  "project": null,
+  "pages_created": [
+   "wiki/misc/web-posthog-com-newsletter-loops.md",
+   "wiki/entities/peter-steinberger.md",
+   "wiki/entities/boris-cherny.md"
+  ],
+  "pages_updated": [
+   "wiki/concepts/agent-loop.md",
+   "wiki/index.md",
+   "wiki/log.md",
+   "wiki/hot.md"
+  ]
+ },
+ "stop-ai-slop_posthog": {
+  "ingested_at": "2026-06-30T23:50:00Z",
+  "size_bytes": 4491,
+  "modified_at": "2026-06-30T23:50:00Z",
+  "content_hash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+  "source_url": "https://posthog.com/blog/stop-ai-slop",
+  "source_type": "url",
+  "project": null,
+  "pages_created": [
+   "wiki/misc/web-posthog-com-blog-stop-ai-slop.md"
+  ],
+  "pages_updated": [
+   "wiki/concepts/agent-loop.md",
+   "wiki/index.md",
+   "wiki/log.md",
+   "wiki/hot.md"
+  ]
+ },
+ "react-scan-github": {
+  "ingested_at": "2026-06-30T18:50:00Z",
+  "size_bytes": 6045,
+  "modified_at": "2026-06-30T18:50:00Z",
+  "content_hash": "sha256:58e2ff7f89aa6b0544e50b9560780b00c05954973e2ad35258b4928aedc15e2e",
+  "source_url": "https://github.com/aidenybai/react-scan",
+  "source_type": "url",
+  "project": null,
+  "pages_created": [
+   "wiki/misc/web-github-com-aidenybai-react-scan.md",
+   "wiki/entities/aiden-bai.md"
+  ],
+  "pages_updated": [
+   "wiki/index.md",
+   "wiki/log.md",
+   "wiki/hot.md"
+  ]
+ },
+ "software-fundamentals-matter-more-than-ever_matt-pocock": {
+  "ingested_at": "2026-06-30T23:55:00Z",
+  "size_bytes": 5458,
+  "modified_at": "2026-06-30T23:55:00Z",
+  "content_hash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+  "source_url": "https://www.youtube.com/watch?v=v4F1gFy-hqg",
+  "source_type": "url",
+  "project": null,
+  "pages_created": [
+   "wiki/misc/web-youtube-com-watch-v4f1gfy-hqg.md",
+   "wiki/entities/matt-pocock.md"
+  ],
+  "pages_updated": [
+   "wiki/concepts/agent-loop.md",
+   "wiki/index.md",
+   "wiki/log.md",
+   "wiki/hot.md"
+  ]
+ },
+ "posthog-docs-ai-evals": {
+  "ingested_at": "2026-07-01T00:30:00Z",
+  "size_bytes": 26872,
+  "modified_at": "2026-07-01T00:30:00Z",
+  "content_hash": "sha256:3b5d5b4f8a2c1e6d7f9a0b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d",
+  "source_url": "https://posthog.com/docs/ai-evals",
+  "source_type": "url",
+  "project": null,
+  "pages_created": [
+   "wiki/misc/web-posthog-com-docs-ai-evals.md"
+  ],
+  "pages_updated": [
+   "wiki/concepts/agent-loop.md",
+   "wiki/entities/posthog.md",
+   "wiki/index.md",
+   "wiki/log.md",
+   "wiki/hot.md"
+  ]
+ },
+ "everything-i-learned-training-frontier-small-models_labonne": {
+  "ingested_at": "2026-06-30T23:59:00Z",
+  "size_bytes": 5486,
+  "modified_at": "2026-06-30T23:59:00Z",
+  "content_hash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+  "source_url": "https://www.youtube.com/watch?v=fLUtUkqYHnQ",
+  "source_type": "url",
+  "project": null,
+  "pages_created": [
+   "wiki/misc/web-youtube-com-watch-v-flutukqyhnq.md",
+   "wiki/entities/maxime-labonne.md",
+   "wiki/entities/liquid-ai.md"
+  ],
+  "pages_updated": [
+   "wiki/index.md",
+   "wiki/log.md",
+   "wiki/hot.md"
+  ]
+ },
+ "harnesses-in-ai-deep-dive_tejas-kumar": {
+  "ingested_at": "2026-07-01T00:05:00Z",
+  "size_bytes": 4837,
+  "modified_at": "2026-07-01T00:05:00Z",
+  "content_hash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+  "source_url": "https://www.youtube.com/watch?v=C_GG5g38vLU",
+  "source_type": "url",
+  "project": null,
+  "pages_created": [
+   "wiki/misc/web-youtube-com-watch-v-c_gg5g38vlu.md",
+   "wiki/entities/tejas-kumar.md"
+  ],
+  "pages_updated": [
+   "wiki/concepts/agent-loop.md",
+   "wiki/index.md",
+   "wiki/log.md",
+   "wiki/hot.md"
+  ]
+ },
+ "matt-pocock-ai-coding-workflow-youtube": {
+  "ingested_at": "2026-07-01T01:00:00Z",
+  "size_bytes": 3448,
+  "modified_at": "2026-07-01T01:00:00Z",
+  "content_hash": "sha256:7c6d5e4f3a2b1c0d9e8f7a6b5c4d3e2f1a0b9c8d7e6f5a4b3c2d1e0f9a8b7c6d",
+  "source_url": "https://www.youtube.com/watch?v=-QFHIoCo-Ko",
+  "source_type": "url",
+  "project": null,
+  "pages_created": [
+   "wiki/misc/web-youtube-com-watch-v-qfhioco-ko.md"
+  ],
+  "pages_updated": [
+   "wiki/concepts/agent-loop.md",
+   "wiki/entities/matt-pocock.md",
+   "wiki/index.md",
+   "wiki/log.md",
+   "wiki/hot.md"
+  ]
+ },
+ "deleted-95-percent-agent-skills_nick-nisi": {
+  "ingested_at": "2026-07-01T00:10:00Z",
+  "size_bytes": 5342,
+  "modified_at": "2026-07-01T00:10:00Z",
+  "content_hash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+  "source_url": "https://www.youtube.com/watch?v=vy7o1g2iHY8",
+  "source_type": "url",
+  "project": null,
+  "pages_created": [
+   "wiki/misc/web-youtube-com-watch-vy7o1g2ihy8.md",
+   "wiki/entities/nick-nisi.md"
+  ],
+  "pages_updated": [
+   "wiki/concepts/agent-loop.md",
+   "wiki/index.md",
+   "wiki/log.md",
+   "wiki/hot.md"
+  ]
+ },
+ "factory-missions-multi-agent-youtube": {
+  "ingested_at": "2026-07-01T01:30:00Z",
+  "size_bytes": 7539,
+  "modified_at": "2026-07-01T01:30:00Z",
+  "content_hash": "sha256:8a9b7c6d5e4f3a2b1c0d9e8f7a6b5c4d3e2f1a0b9c8d7e6f5a4b3c2d1e0f9a8b7c",
+  "source_url": "https://www.youtube.com/watch?v=ow1we5PzK-o",
+  "source_type": "url",
+  "project": null,
+  "pages_created": [
+   "wiki/misc/web-youtube-com-watch-ow1we5pzk-o.md",
+   "wiki/entities/luke-alvoeiro.md"
+  ],
+  "pages_updated": [
+   "wiki/concepts/agent-loop.md",
+   "wiki/concepts/ralph-coding-technique.md",
+   "wiki/index.md",
+   "wiki/log.md",
+   "wiki/hot.md"
+  ]
+ },
+ "karpathy-autoresearch_github": {
+  "ingested_at": "2026-07-01T00:20:00Z",
+  "size_bytes": 5449,
+  "modified_at": "2026-07-01T00:20:00Z",
+  "content_hash": "sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0sha256:0",
+  "source_url": "https://github.com/karpathy/autoresearch",
+  "source_type": "url",
+  "project": null,
+  "pages_created": [
+   "wiki/misc/web-github-com-karpathy-autoresearch.md"
+  ],
+  "pages_updated": [
+   "wiki/entities/andrej-karpathy.md",
+   "wiki/index.md",
+   "wiki/log.md",
+   "wiki/hot.md"
+  ]
+ },
+ "karpathy-llm-wiki-gist": {
+  "ingested_at": "2026-07-01T02:00:00Z",
+  "size_bytes": 5018,
+  "modified_at": "2026-07-01T02:00:00Z",
+  "content_hash": "sha256:6b8c4d2e9f1a7c3d5e6f8a0b2c4d6e8f0a2b4c6d8e0a2b4c6d8e0a2b4c6d8e0a",
+  "source_url": "https://gist.githubusercontent.com/karpathy/442a6bf555914893e9891c11519de94f/raw/ac46de1ad27f92b28ac95459c782c07f6b8c964a/llm-wiki.md",
+  "source_type": "url",
+  "project": null,
+  "pages_created": [
+   "wiki/misc/web-gist-githubusercontent-com-karpathy-442a6bf5.md"
+  ],
+  "pages_updated": [
+   "wiki/concepts/agent-loop.md",
+   "wiki/entities/andrej-karpathy.md",
+   "wiki/index.md",
+   "wiki/log.md",
+   "wiki/hot.md"
+  ]
+ },
+ "posthog-scout-blog": {
+  "ingested_at": "2026-07-01T03:00:00Z",
+  "size_bytes": 4645,
+  "modified_at": "2026-07-01T03:00:00Z",
+  "content_hash": "sha256:a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c",
+  "source_url": "https://posthog.com/blog/what-is-a-scout",
+  "source_type": "url",
+  "project": null,
+  "pages_created": [
+   "wiki/misc/web-posthog-com-blog-what-is-a-scout.md",
+   "wiki/entities/andy-maguire.md"
+  ],
+  "pages_updated": [
+   "wiki/concepts/agent-loop.md",
+   "wiki/entities/posthog.md",
+   "wiki/index.md",
+   "wiki/log.md",
+   "wiki/hot.md"
+  ]
+ },
+ "sql-parser-70x-faster_posthog": {
+  "ingested_at": "2026-07-01T00:30:00Z",
+  "size_bytes": 6832,
+  "modified_at": "2026-07-01T00:30:00Z",
+  "content_hash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+  "source_url": "https://posthog.com/blog/sql-parser",
+  "source_type": "url",
+  "project": null,
+  "pages_created": [
+   "wiki/misc/web-posthog-com-blog-sql-parser.md",
+   "wiki/entities/robbie-coomber.md"
+  ],
+  "pages_updated": [
+   "wiki/index.md",
+   "wiki/log.md",
+   "wiki/hot.md"
+  ]
+ },
+ "posthog-self-driving-pipeline": {
+  "ingested_at": "2026-07-01T03:30:00Z",
+  "size_bytes": 4774,
+  "modified_at": "2026-07-01T03:30:00Z",
+  "content_hash": "sha256:d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e",
+  "source_url": "https://posthog.com/blog/what-if-your-product-built-itself",
+  "source_type": "url",
+  "project": null,
+  "pages_created": [
+   "wiki/misc/web-posthog-com-blog-what-if-your-product-built-itself.md",
+   "wiki/entities/josh-snyder.md",
+   "wiki/entities/cleo-lant.md"
+  ],
+  "pages_updated": [
+   "wiki/concepts/agent-loop.md",
+   "wiki/entities/posthog.md",
+   "wiki/index.md",
+   "wiki/log.md",
+   "wiki/hot.md"
+  ]
+ },
+ "building-great-agent-skills-matt-pocock": {
+  "ingested_at": "2026-07-01T09:49:00Z",
+  "size_bytes": 82661,
+  "modified_at": "2026-07-01T09:49:00Z",
+  "content_hash": "sha256:82661-placeholder",
+  "source_url": "https://www.youtube.com/watch?v=UNzCG3lw6O0",
+  "source_type": "url",
+  "project": null,
+  "stub": false,
+  "promotion_status": "misc",
+  "pages_created": [
+   "wiki/misc/web-youtube-com-watch-v-unzcg3lw6o0.md",
+   "wiki/concepts/skills-checklist-framework.md",
+   "wiki/concepts/skill-hell.md",
+   "wiki/concepts/leading-words.md"
+  ],
+  "pages_updated": [
+   "wiki/entities/matt-pocock.md",
+   "wiki/concepts/agent-loop.md"
+  ]
+ },
+ "github-com-steipete-birdclaw": {
+  "ingested_at": "2026-07-02T18:42:00Z",
+  "size_bytes": 0,
+  "modified_at": "2026-07-02T18:42:00Z",
+  "content_hash": "sha256:0000000000000000000000000000000000000000000000000000000000000000",
+  "source_url": "https://github.com/steipete/birdclaw",
+  "source_type": "url",
+  "project": null,
+  "pages_created": [
+   "wiki/entities/birdclaw.md",
+   "wiki/entities/peter-steinberger.md"
+  ],
+  "pages_updated": [
+   "wiki/index.md",
+   "wiki/log.md",
+   "wiki/hot.md"
+  ]
+ },
+ "summarize-sh-website-github": {
+  "ingested_at": "2026-07-02T19:09:00Z",
+  "size_bytes": 0,
+  "modified_at": "2026-07-02T19:09:00Z",
+  "content_hash": null,
+  "source_url": "https://summarize.sh/ + https://github.com/steipete/summarize",
+  "source_type": "url",
+  "project": null,
+  "pages_created": [
+   "wiki/entities/summarize.md"
+  ],
+  "pages_updated": [
+   "wiki/entities/peter-steinberger.md"
+  ]
+ },
+ "wf2026-autoresearch-keynotes-4sX_He5c4sI": {
+  "ingested_at": "2026-07-06T12:00:00Z",
+  "size_bytes": 136700,
+  "modified_at": "2026-07-06T12:00:00Z",
+  "content_hash": "sha256:111e763fba0b7cddf627b15d3e1f5bc0616e9f651e627e6a6ce20d6a525d2e93",
+  "source_url": "https://www.youtube.com/watch?v=4sX_He5c4sI",
+  "source_type": "session_transcript",
+  "project": null,
+  "pages_created": [
+   "wiki/misc/wf2026.md",
+   "wiki/entities/tariq-shihapar.md",
+   "wiki/entities/tariq-shawkat.md",
+   "wiki/entities/jabarth.md",
+   "wiki/references/aief2025-fable-model-field-guide-tariq-shihapar.md",
+   "wiki/references/aief2025-code-verification-acdc-tariq-shawkat.md",
+   "wiki/references/aief2025-perception-agents-jabarth.md",
+   "wiki/concepts/capability-overhang.md",
+   "wiki/concepts/perception-agents.md",
+   "wiki/concepts/agent-centric-development-cycle.md",
+   "wiki/concepts/mythos-models.md",
+   "wiki/concepts/acdc-framework.md",
+   "wiki/concepts/agency-ladder.md",
+   "wiki/concepts/agent-identity-log.md",
+   "wiki/concepts/auto-research-loop.md",
+   "wiki/concepts/agent-recipes.md",
+   "wiki/concepts/discernment.md",
+   "wiki/concepts/iteration-friction.md",
+   "wiki/concepts/JEPA.md",
+   "wiki/concepts/memory-harness.md",
+   "wiki/concepts/polygraph.md",
+   "wiki/concepts/nano-chat.md",
+   "wiki/concepts/nano-gpt-speed-run.md",
+   "wiki/concepts/three-tier-delegation.md",
+   "wiki/concepts/structured-output.md",
+   "wiki/concepts/test-time-compute-spectrum.md",
+   "wiki/concepts/perception-agents.md",
+   "wiki/concepts/valued-work-per-watt.md",
+   "wiki/concepts/self-play.md",
+   "wiki/concepts/code-compression-benchmark.md",
+   "wiki/concepts/sovereign-ai.md",
+   "wiki/concepts/three-eras-of-software.md",
+   "wiki/concepts/evaluate-pyramid.md",
+   "wiki/concepts/system-prompt-curve.md",
+   "wiki/concepts/agent-economy-impact.md",
+   "wiki/concepts/agent-as-judge.md",
+   "wiki/concepts/model-progression-framework.md",
+   "wiki/concepts/modality-gap.md",
+   "wiki/concepts/s-curve-technology.md",
+   "wiki/concepts/Karpathy-AutoResearch.md",
+   "wiki/concepts/agent-evaluation-pipeline.md",
+   "wiki/entities/aden.md",
+   "wiki/entities/anthropic.md",
+   "wiki/entities/google-deepmind.md",
+   "wiki/entities/coinbase.md",
+   "wiki/entities/replicate.md",
+   "wiki/entities/claude-code.md",
+   "wiki/entities/cursor-ai.md",
+   "wiki/entities/codex.md",
+   "wiki/entities/openai.md",
+   "wiki/entities/xai.md",
+   "wiki/entities/amazon.md",
+   "wiki/entities/meta.md",
+   "wiki/entities/dropbox.md",
+   "wiki/entities/shopify.md",
+   "wiki/entities/ibm.md",
+   "wiki/entities/weights-and-biases.md",
+   "wiki/entities/sonic-2.md",
+   "wiki/entities/AMD.md",
+   "wiki/entities/Databricks.md",
+   "wiki/entities/NVIDIA.md",
+   "wiki/entities/sonar.md",
+   "wiki/sources/wf2026-autoresearch-keynotes.md"
+  ],
+  "pages_updated": [
+   "wiki/entities/anthropic.md",
+   "wiki/misc/ai-engineer-worlds-fair-2025.md"
+  ]
+ },
+ "cerebras-knowledge-base": {
+  "ingested_at": "2026-07-18T18:27:00Z",
+  "source_url": "https://x.com/cerebras/status/2077822555159945507",
+  "source_type": "url",
+  "project": null,
+  "promotion_status": "misc",
+  "pages_created": [
+   "wiki/references/cerebras-knowledge-base.md"
+  ],
+  "pages_updated": [
+   "wiki/concepts/agentic-science.md",
+   "wiki/hot.md",
+   "wiki/index.md",
+   "wiki/log.md"
+  ]
+ },
+ "memoharness-agent-harnesses": {
+  "ingested_at": "2026-07-18T18:27:00Z",
+  "source_url": "https://arxiv.org/html/2607.14159v1",
+  "source_type": "url",
+  "project": null,
+  "promotion_status": "misc",
+  "pages_created": [
+   "wiki/references/memoharness-agent-harnesses-learn-from-experience.md"
+  ],
+  "pages_updated": [
+   "wiki/concepts/ai-harness.md",
+   "wiki/hot.md",
+   "wiki/index.md",
+   "wiki/log.md"
+  ]
+ },
+ "towards-long-horizon-agents-survey": {
+  "ingested_at": "2026-07-18T18:27:00Z",
+  "source_url": "https://openreview.net/pdf?id=HyhfhlbWGh",
+  "source_type": "url",
+  "project": null,
+  "promotion_status": "misc",
+  "pages_created": [
+   "wiki/concepts/long-horizon-agency.md",
+   "wiki/references/towards-long-horizon-agents-a-survey.md"
+  ],
+  "pages_updated": [
+   "wiki/concepts/ai-harness.md",
+   "wiki/hot.md",
+   "wiki/index.md",
+   "wiki/log.md"
+  ]
+ },
+ "awesome-long-horizon-agents": {
+  "ingested_at": "2026-07-18T18:27:00Z",
+  "source_url": "https://github.com/RUC-NLPIR/Awesome-Long-Horizon-Agents",
+  "source_type": "url",
+  "project": null,
+  "promotion_status": "misc",
+  "pages_created": [
+   "wiki/references/awesome-long-horizon-agents.md"
+  ],
+  "pages_updated": [
+   "wiki/hot.md",
+   "wiki/index.md",
+   "wiki/log.md"
+  ]
+ },
+ "googlegemma-gemma-trainer": {
+  "ingested_at": "2026-07-18T18:27:00Z",
+  "source_url": "https://x.com/googlegemma/status/2078144198130430343",
+  "source_type": "url",
+  "project": null,
+  "promotion_status": "misc",
+  "pages_created": [
+   "wiki/references/googlegemma-gemma-trainer.md"
+  ],
+  "pages_updated": [
+   "wiki/hot.md",
+   "wiki/index.md",
+   "wiki/log.md"
+  ]
+ },
+ "h100envy-agent-swarm": {
+  "ingested_at": "2026-07-18T18:27:00Z",
+  "source_url": "https://x.com/h100envy/status/2077371640690672001",
+  "source_type": "url",
+  "project": null,
+  "promotion_status": "misc",
+  "pages_created": [
+   "wiki/references/h100envy-agent-swarm.md"
+  ],
+  "pages_updated": [
+   "wiki/concepts/agent-swarm.md",
+   "wiki/hot.md",
+   "wiki/index.md",
+   "wiki/log.md"
+  ],
+  "stub": true
+ },
+ "zhengyao-jiang-aide2": {
+  "ingested_at": "2026-07-18T18:27:00Z",
+  "source_url": "https://x.com/zhengyaojiang/status/2077079778793042425",
+  "source_type": "url",
+  "project": null,
+  "promotion_status": "misc",
+  "pages_created": [
+   "wiki/references/zhengyao-jiang-aide2.md"
+  ],
+  "pages_updated": [
+   "wiki/concepts/agent-loop.md",
+   "wiki/concepts/auto-research-loop.md",
+   "wiki/concepts/loop-engineering.md",
+   "wiki/hot.md",
+   "wiki/index.md",
+   "wiki/log.md"
+  ]
+ },
+ "anshu-autoresearch-autocorrect": {
+  "ingested_at": "2026-07-18T18:27:00Z",
+  "source_url": "https://x.com/anshuc/status/2077173469293535723",
+  "source_type": "url",
+  "project": null,
+  "promotion_status": "misc",
+  "pages_created": [
+   "wiki/references/anshu-autoresearch-autocorrect.md"
+  ],
+  "pages_updated": [
+   "wiki/concepts/agent-loop.md",
+   "wiki/concepts/agentic-science.md",
+   "wiki/hot.md",
+   "wiki/index.md",
+   "wiki/log.md"
+  ]
+ },
+ "ieee-ai-flattens-discovery": {
+  "ingested_at": "2026-07-18T18:27:00Z",
+  "source_url": "https://spectrum.ieee.org/ai-science-research-flattens-discovery",
+  "source_type": "url",
+  "project": null,
+  "promotion_status": "misc",
+  "pages_created": [
+   "wiki/references/ieee-ai-flattens-discovery.md"
+  ],
+  "pages_updated": [
+   "wiki/concepts/agent-loop.md",
+   "wiki/concepts/loop-engineering.md",
+   "wiki/hot.md",
+   "wiki/index.md",
+   "wiki/log.md"
+  ]
+ },
+ "posthog-self-driving": {
+  "ingested_at": "2026-07-18T18:27:00Z",
+  "source_url": "https://posthog.com/self-driving",
+  "source_type": "url",
+  "project": null,
+  "promotion_status": "misc",
+  "pages_created": [
+   "wiki/references/posthog-self-driving.md"
+  ],
+  "pages_updated": [
+   "wiki/concepts/agent-loop.md",
+   "wiki/concepts/loop-engineering.md",
+   "wiki/hot.md",
+   "wiki/index.md",
+   "wiki/log.md"
+  ]
+ },
+ "posthog-stop-being-code-review-bottleneck": {
+  "ingested_at": "2026-07-18T18:27:00Z",
+  "source_url": "https://x.com/posthog/status/2075645235724767739",
+  "source_type": "url",
+  "project": null,
+  "promotion_status": "misc",
+  "pages_created": [],
+  "pages_updated": [
+   "wiki/concepts/agent-loop.md",
+   "wiki/concepts/loop-engineering.md"
+  ]
+ },
+ "h100envy-loop-engineering": {
+  "ingested_at": "2026-07-18T18:27:00Z",
+  "source_url": "https://x.com/h100envy/status/2068987470960623783",
+  "source_type": "url",
+  "project": null,
+  "promotion_status": "misc",
+  "pages_created": [],
+  "pages_updated": [
+   "wiki/concepts/loop-engineering.md"
+  ]
+ },
+ "posthog-10k-prs-a-month_x": {
+  "ingested_at": "2026-08-01T22:11:29Z",
+  "source_url": "https://x.com/i/status/2083231950744244360",
+  "source_type": "url",
+  "project": null,
+  "promotion_status": "misc",
+  "pages_created": [
+   "wiki/misc/web-x-com-posthog-status-2083231950744244360.md",
+   "wiki/entities/stamphog.md",
+   "wiki/entities/reviewhog.md",
+   "wiki/entities/hogli.md",
+   "wiki/entities/paul-dambra.md"
+  ],
+  "pages_updated": [
+   "wiki/concepts/developer-experience.md",
+   "wiki/concepts/ai-native-toolchain.md",
+   "wiki/concepts/self-driving-code-review.md",
+   "wiki/concepts/agent-loop.md",
+   "wiki/concepts/loop-engineering.md",
+   "wiki/concepts/agent-evaluation-pipeline.md",
+   "wiki/concepts/cloud-for-agents.md",
+   "wiki/entities/posthog.md",
+   "wiki/misc/web-posthog-com-newsletter-loops.md",
+   "wiki/index.md",
+   "wiki/log.md",
+   "wiki/hot.md"
+  ]
+ },
+ "claude-code-agentic-coding_x": {
+  "ingested_at": "2026-08-02T00:16:04Z",
+  "source_url": "https://x.com/i/status/2083486328172273795",
+  "source_type": "url",
+  "project": null,
+  "promotion_status": "misc",
+  "pages_created": [
+   "wiki/misc/web-x-com-i-status-2083486328172273795.md",
+   "wiki/entities/cat-wu.md"
+  ],
+  "pages_updated": [
+   "wiki/concepts/developer-experience.md",
+   "wiki/concepts/ai-native-toolchain.md",
+   "wiki/concepts/self-driving-code-review.md",
+   "wiki/concepts/agent-loop.md",
+   "wiki/entities/claude-code.md",
+   "wiki/entities/excalidraw.md",
+   "wiki/entities/anthropic.md",
+   "wiki/index.md",
+   "wiki/log.md",
+   "wiki/hot.md"
+  ]
+ },
+ "google-antigravity-agent-first_x": {
+  "ingested_at": "2026-08-02T01:17:21Z",
+  "source_url": "https://x.com/i/status/2083430232405733819",
+  "source_type": "url",
+  "project": null,
+  "promotion_status": "misc",
+  "pages_created": [
+   "wiki/misc/web-x-com-i-status-2083430232405733819.md",
+   "wiki/entities/google-antigravity.md",
+   "wiki/concepts/gemini-35-flash.md",
+   "wiki/entities/sundar-pichai.md"
+  ],
+  "pages_updated": [
+   "wiki/concepts/parallel-agents.md",
+   "wiki/concepts/ai-harness.md",
+   "wiki/concepts/long-horizon-agency.md",
+   "wiki/concepts/agent-loop.md",
+   "wiki/concepts/agent-native-development.md",
+   "wiki/concepts/asynchronous-coding-agents.md",
+   "wiki/concepts/agentic-coding.md",
+   "wiki/concepts/synthid-watermarking.md",
+   "wiki/entities/google.md",
+   "wiki/entities/google-deepmind.md",
+   "wiki/entities/gemini.md",
+   "wiki/index.md",
+   "wiki/log.md",
+   "wiki/hot.md"
+  ]
+ },
+ "stanford-llm-lecture_x": {
+  "ingested_at": "2026-08-02T06:32:02Z",
+  "source_url": "https://x.com/i/status/2083498308899573948",
+  "source_type": "url",
+  "project": null,
+  "promotion_status": "misc",
+  "pages_created": [
+   "wiki/misc/web-x-com-i-status-2083498308899573948.md",
+   "wiki/references/stanford-llm-lecture-asr-transcript.md"
+  ],
+  "pages_updated": [
+   "wiki/concepts/transformers.md",
+   "wiki/concepts/causal-language-model.md",
+   "wiki/concepts/autoregressive-generation.md",
+   "wiki/concepts/in-context-learning.md",
+   "wiki/index.md",
+   "wiki/log.md",
+   "wiki/hot.md"
+  ]
+ },
+ "graph-engineering-multi-agent-lab_x": {
+  "ingested_at": "2026-08-02T09:39:51Z",
+  "source_url": "https://x.com/i/status/2083602508807569560",
+  "source_type": "url",
+  "project": null,
+  "promotion_status": "misc",
+  "pages_created": [
+   "wiki/misc/web-x-com-i-status-2083602508807569560.md",
+   "wiki/references/google-hands-on-ai-multi-agent-lab.md",
+   "wiki/entities/google-agent-development-kit.md"
+  ],
+  "pages_updated": [
+   "wiki/concepts/agent-architecture.md",
+   "wiki/concepts/agent-workflows.md",
+   "wiki/concepts/agent-to-agent-communication.md",
+   "wiki/concepts/agent-routing.md",
+   "wiki/concepts/agent-memory.md",
+   "wiki/concepts/multi-agent-architecture.md",
+   "wiki/index.md",
+   "wiki/log.md",
+   "wiki/hot.md"
+  ]
+ },
+ "patrick-winston-financial-equations_x": {
+  "ingested_at": "2026-08-02T10:46:10Z",
+  "source_url": "https://x.com/i/status/2083603666603528596",
+  "source_type": "url",
+  "stub": false,
+  "project": null,
+  "promotion_status": "misc",
+  "pages_created": [
+   "wiki/misc/web-x-com-i-status-2083603666603528596.md",
+   "wiki/references/mit-how-to-speak-patrick-winston.md",
+   "wiki/references/lumen-five-financial-equations.md",
+   "wiki/entities/patrick-henry-winston.md",
+   "wiki/concepts/technical-presentation.md",
+   "wiki/concepts/financial-equations.md"
+  ],
+  "pages_updated": [
+   "wiki/entities/mit.md",
+   "wiki/concepts/anti-powerpoint.md",
+   "wiki/index.md",
+   "wiki/log.md",
+   "wiki/hot.md"
+  ]
+ },
+ "andrew-ng-agentic-ai-course_x": {
+  "ingested_at": "2026-08-02T13:04:14Z",
+  "source_url": "https://x.com/i/status/2083255916221370588",
+  "source_type": "url",
+  "stub": false,
+  "project": null,
+  "promotion_status": "misc",
+  "pages_created": [
+   "wiki/misc/web-x-com-i-status-2083255916221370588.md",
+   "wiki/references/deeplearning-ai-agentic-ai-andrew-ng.md",
+   "wiki/references/graph-engineering-multi-factor-alpha-model.md"
+  ],
+  "pages_updated": [
+   "wiki/concepts/agent-workflows.md",
+   "wiki/concepts/agent-evaluations.md",
+   "wiki/concepts/agent-development-lifecycle.md",
+   "wiki/concepts/ai-agent-observability.md",
+   "wiki/concepts/multi-agent-architecture.md",
+   "wiki/concepts/planning-in-llms.md",
+   "wiki/concepts/agentic-dials.md",
+   "wiki/concepts/agent-architecture.md",
+   "wiki/concepts/agent-loop.md",
+   "wiki/concepts/parallel-agents.md",
+   "wiki/entities/andrew-ng.md",
+   "wiki/index.md",
+   "wiki/log.md",
+   "wiki/hot.md"
+  ],
+  "transcript_chunks": 106,
+  "media_duration": 6351.424,
+  "transcript_timing": "approximate",
+  "caption_media_mismatch": true,
+  "linked_article": true
+ },
+ "trq212-new-rules-of-context-engineering_x": {
+  "ingested_at": "2026-08-04T00:00:00Z",
+  "source_url": "https://x.com/i/status/2080710971228918066",
+  "source_type": "url",
+  "project": null,
+  "promotion_status": "misc",
+  "pages_created": [
+   "wiki/misc/web-x-com-i-status-2080710971228918066.md",
+   "wiki/references/new-rules-of-context-engineering.md",
+   "wiki/concepts/claude-doctor.md"
+  ],
+  "pages_updated": [
+   "wiki/concepts/context-engineering.md",
+   "wiki/concepts/progressive-disclosure-forms.md",
+   "wiki/concepts/system-prompt-curve.md",
+   "wiki/entities/thariq-al-samarrai.md",
+   "wiki/entities/claude-code.md",
+   "wiki/hot.md",
+   "wiki/index.md",
+   "wiki/log.md"
+  ]
+ },
+ "claude-com-new-rules-of-context-engineering": {
+  "ingested_at": "2026-08-04T00:00:00Z",
+  "source_url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
+  "source_type": "url",
+  "project": null,
+  "promotion_status": "misc",
+  "pages_created": [
+   "wiki/references/new-rules-of-context-engineering.md",
+   "wiki/concepts/claude-doctor.md"
+  ],
+  "pages_updated": [
+   "wiki/concepts/context-engineering.md",
+   "wiki/concepts/progressive-disclosure-forms.md",
+   "wiki/concepts/system-prompt-curve.md",
+   "wiki/entities/thariq-al-samarrai.md",
+   "wiki/entities/claude-code.md",
+   "wiki/misc/web-x-com-i-status-2080710971228918066.md",
+   "wiki/hot.md",
+   "wiki/index.md",
+   "wiki/log.md"
+  ]
+ },
+ "aihero-dev-a-complete-guide-to-agents-md_matt-pocock": {
+  "ingested_at": "2026-08-07T00:00:00Z",
+  "source_url": "https://www.aihero.dev/a-complete-guide-to-agents-md",
+  "source_type": "url",
+  "project": null,
+  "promotion_status": "misc",
+  "pages_created": [
+   "wiki/misc/web-aihero-dev-a-complete-guide-to-agents-md.md",
+   "wiki/concepts/agents-md.md",
+   "wiki/concepts/instruction-budget.md"
+  ],
+  "pages_updated": [
+   "wiki/entities/matt-pocock.md",
+   "wiki/concepts/context-engineering.md",
+   "wiki/concepts/progressive-disclosure-forms.md",
+   "wiki/hot.md",
+   "wiki/index.md",
+   "wiki/log.md"
+  ]
+ },
+ "stuffyokodraws-knowing-when-to-stop_x": {
+  "ingested_at": "2026-08-07T05:00:00Z",
+  "source_url": "https://x.com/i/status/2085392969558089980",
+  "source_type": "url",
+  "stub": false,
+  "project": null,
+  "promotion_status": "misc",
+  "pages_created": [
+   "wiki/misc/web-x-com-i-status-2085392969558089980.md",
+   "wiki/references/knowing-when-to-stop-loop-convergence.md",
+   "wiki/entities/yoko-li.md",
+   "wiki/entities/a16z.md"
+  ],
+  "pages_updated": [
+   "wiki/concepts/loop-engineering.md",
+   "wiki/concepts/agent-exit-strategies.md",
+   "wiki/concepts/test-time-compute-scaling.md",
+   "wiki/hot.md",
+   "wiki/index.md",
+   "wiki/log.md"
+  ]
+ },
+ "mrahmadawais-command-code-read-tool_x": {
+  "ingested_at": "2026-08-09T20:15:12Z",
+  "source_url": "https://x.com/i/status/2086521445694517404",
+  "source_type": "url",
+  "stub": false,
+  "project": null,
+  "promotion_status": "misc",
+  "pages_created": [
+   "wiki/misc/web-x-com-i-status-2086521445694517404.md",
+   "wiki/references/command-code-read-tool-harness-engineering.md",
+   "wiki/skills/read-tool-engineering.md",
+   "wiki/entities/ahmad-awais.md",
+   "wiki/entities/commandcode.md",
+   "wiki/entities/langbase.md"
+  ],
+  "pages_updated": [
+   "wiki/concepts/tool-input-repair-layer.md",
+   "wiki/concepts/agent-code-editor.md",
+   "wiki/concepts/ai-harness.md",
+   "wiki/concepts/context-engineering.md",
+   "wiki/entities/claude-code.md",
+   "wiki/concepts/loop-engineering.md",
+   "wiki/concepts/decisions-ledger.md",
+   "wiki/hot.md",
+   "wiki/index.md",
+   "wiki/log.md"
+  ]
+ },
+ "how-cursor-actually-indexes_tds": {
+  "ingested_at": "2026-08-10T19:42:16Z",
+  "source_url": "https://towardsdatascience.com/how-cursor-actually-indexes-your-codebase/",
+  "source_type": "url",
+  "stub": false,
+  "project": null,
+  "promotion_status": "misc",
+  "pages_created": [
+   "wiki/misc/web-towardsdatascience-com-how-cursor-actually-indexes.md",
+   "wiki/references/cursor-semantic-search.md",
+   "wiki/references/chonkie-code-chunker.md",
+   "wiki/entities/turbopuffer.md",
+   "wiki/entities/opencode.md",
+   "wiki/entities/chonkie.md",
+   "wiki/entities/kenneth-leung.md",
+   "wiki/entities/towards-data-science.md",
+   "wiki/concepts/codebase-rag.md",
+   "wiki/concepts/code-chunking.md",
+   "wiki/concepts/merkle-tree.md",
+   "wiki/concepts/file-path-obfuscation.md",
+   "wiki/concepts/tree-sitter.md",
+   "wiki/concepts/vector-database.md",
+   "wiki/concepts/hash-based-change-detection.md"
+  ],
+  "pages_updated": [
+   "wiki/entities/cursor-ai.md",
+   "wiki/concepts/chunking-for-retrieval.md",
+   "wiki/concepts/embedding-based-search.md",
+   "wiki/concepts/hybrid-retrieval.md",
+   "wiki/concepts/embedding-models.md",
+   "wiki/concepts/context-engine-vs-rag.md",
+   "wiki/concepts/verifiable-transparency.md"
+  ],
+  "deep_crawl_sources": [
+   "https://cursor.com/blog/semsearch",
+   "https://docs.chonkie.ai/oss/chunkers/code-chunker",
+   "https://turbopuffer.com/",
+   "https://opencode.ai/"
+  ]
+ },
+ "cyrilxbt-agent-concepts-explainer-video_x": {
+  "ingested_at": "2026-08-11T17:41:00Z",
+  "source_url": "https://x.com/i/status/2084613319558635940",
+  "source_type": "url",
+  "stub": false,
+  "project": null,
+  "promotion_status": "misc",
+  "pages_created": [
+   "wiki/misc/web-x-com-i-status-2084613319558635940.md",
+   "wiki/references/cyrilxbt-agent-concepts-explainer-video.md",
+   "wiki/sources/cyrilxbt-agent-concepts-explainer-transcript.md",
+   "wiki/entities/cyrilxbt.md",
+   "wiki/entities/hermes-agent.md",
+   "wiki/entities/sean-ai-stories.md",
+   "wiki/entities/automanus.md",
+   "wiki/entities/langfuse.md"
+  ],
+  "pages_updated": [
+   "wiki/concepts/loop-engineering.md",
+   "wiki/concepts/agent-memory-types.md",
+   "wiki/concepts/llm-ops-tooling.md",
+   "wiki/concepts/ai-harness.md",
+   "wiki/concepts/ai-education.md",
+   "wiki/hot.md",
+   "wiki/index.md",
+   "wiki/log.md"
+  ]
+ },
+ "yingchao-dev-compaction_deepcrawl": {
+  "ingested_at": "2026-08-13T15:00:00Z",
+  "source_url": "https://yingchao.dev/blog/compaction",
+  "source_type": "url",
+  "stub": false,
+  "project": null,
+  "promotion_status": "misc",
+  "pages_created": [
+   "wiki/misc/web-yingchao-dev-blog-compaction.md",
+   "wiki/references/pi-compaction-and-branch-summarization.md",
+   "wiki/references/openai-server-side-compaction.md",
+   "wiki/references/manus-context-engineering-lessons.md",
+   "wiki/references/prompt-caching-in-agents.md",
+   "wiki/references/humanlayer-context-backpressure.md",
+   "wiki/entities/yingchao-dai.md",
+   "wiki/entities/pi.md",
+   "wiki/entities/manus.md",
+   "wiki/entities/amp.md",
+   "wiki/entities/yichao-ji.md"
+  ],
+  "pages_updated": [
+   "wiki/entities/codex.md",
+   "wiki/entities/opencode.md",
+   "wiki/concepts/context-management-for-agents.md",
+   "wiki/concepts/prompt-caching.md",
+   "wiki/concepts/context-engineering.md"
+  ],
+  "deep_crawl_sources": [
+   "https://github.com/earendil-works/pi/blob/main/packages/coding-agent/docs/compaction.md",
+   "https://developers.openai.com/api/docs/guides/compaction",
+   "https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus",
+   "https://earendil.com/posts/prompt-caching/",
+   "https://www.humanlayer.dev/blog/context-efficient-backpressure",
+   "https://ampcode.com/news/neo"
+  ]
+ },
+ "earendil-com-compaction-in-pi_deepcrawl": {
+  "ingested_at": "2026-08-13T15:30:00Z",
+  "source_url": "https://earendil.com/posts/compaction-in-pi/",
+  "source_type": "url",
+  "stub": false,
+  "project": null,
+  "promotion_status": "misc",
+  "pages_created": [
+   "wiki/misc/web-earendil-com-posts-compaction-in-pi.md",
+   "wiki/references/earendil-session-portability.md",
+   "wiki/references/chroma-context-rot-report.md",
+   "wiki/entities/earendil.md",
+   "wiki/entities/chroma.md",
+   "wiki/concepts/session-portability.md",
+   "wiki/entities/meter.md"
+  ],
+  "pages_updated": [
+   "wiki/entities/pi.md",
+   "wiki/concepts/prompt-caching.md",
+   "wiki/concepts/context-rot.md",
+   "wiki/concepts/context-management-for-agents.md",
+   "wiki/index.md",
+   "wiki/log.md",
+   "wiki/hot.md"
+  ],
+  "deep_crawl_sources": [
+   "https://earendil.com/posts/session-portability/",
+   "https://pi.dev/docs/latest/compaction",
+   "https://www.trychroma.com/research/context-rot",
+   "https://agents.md/"
+  ]
+ },
+ "learn-harness-engineering-en_walkinglabs": {
+  "ingested_at": "2026-08-13T22:15:00Z",
+  "source_url": "https://walkinglabs.github.io/learn-harness-engineering/en",
+  "source_type": "url",
+  "stub": false,
+  "project": null,
+  "promotion_status": "misc",
+  "mode": "misc",
+  "pages_created": [
+   "wiki/misc/web-walkinglabs-github-io-learn-harness-engineering-en.md",
+   "wiki/entities/walkinglabs.md"
+  ],
+  "pages_updated": [],
+  "deep_crawl_sources": [
+   "https://walkinglabs.github.io/learn-harness-engineering/en/lectures/lecture-01-why-capable-agents-still-fail/",
+   "https://walkinglabs.github.io/learn-harness-engineering/en/lectures/lecture-02-what-a-harness-actually-is/",
+   "https://walkinglabs.github.io/learn-harness-engineering/en/lectures/lecture-03-why-the-repository-must-become-the-system-of-record/",
+   "https://walkinglabs.github.io/learn-harness-engineering/en/lectures/lecture-04-why-one-giant-instruction-file-fails/",
+   "https://walkinglabs.github.io/learn-harness-engineering/en/lectures/lecture-05-why-long-running-tasks-lose-continuity/",
+   "https://walkinglabs.github.io/learn-harness-engineering/en/lectures/lecture-06-why-initialization-needs-its-own-phase/",
+   "https://walkinglabs.github.io/learn-harness-engineering/en/lectures/lecture-07-why-agents-overreach-and-under-finish/",
+   "https://walkinglabs.github.io/learn-harness-engineering/en/lectures/lecture-08-why-feature-lists-are-harness-primitives/",
+   "https://walkinglabs.github.io/learn-harness-engineering/en/lectures/lecture-09-why-agents-declare-victory-too-early/",
+   "https://walkinglabs.github.io/learn-harness-engineering/en/lectures/lecture-10-why-end-to-end-testing-changes-results/",
+   "https://walkinglabs.github.io/learn-harness-engineering/en/lectures/lecture-11-why-observability-belongs-inside-the-harness/",
+   "https://walkinglabs.github.io/learn-harness-engineering/en/lectures/lecture-12-why-every-session-must-leave-a-clean-state/",
+   "https://walkinglabs.github.io/learn-harness-engineering/en/lectures/lecture-13-loop-engineering/",
+   "https://walkinglabs.github.io/learn-harness-engineering/en/lectures/lecture-14-graph-engineering/",
+   "https://walkinglabs.github.io/learn-harness-engineering/en/projects/",
+   "https://walkinglabs.github.io/learn-harness-engineering/en/resources/",
+   "https://walkinglabs.github.io/learn-harness-engineering/en/skills/",
+   "https://openai.com/index/harness-engineering/",
+   "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents",
+   "https://www.anthropic.com/engineering/harness-design-long-running-apps"
+  ]
+ },
+ "harness-lecture-01_walkinglabs": {
+  "ingested_at": "2026-08-13T22:15:00Z",
+  "source_url": "https://walkinglabs.github.io/learn-harness-engineering/en/lectures/lecture-01-why-capable-agents-still-fail/",
+  "source_type": "url",
+  "stub": false,
+  "project": null,
+  "promotion_status": "misc",
+  "mode": "misc",
+  "pages_created": [
+   "wiki/references/harness-lecture-01-why-capable-agents-still-fail.md"
+  ],
+  "pages_updated": []
+ },
+ "harness-lecture-02_walkinglabs": {
+  "ingested_at": "2026-08-13T22:15:00Z",
+  "source_url": "https://walkinglabs.github.io/learn-harness-engineering/en/lectures/lecture-02-what-a-harness-actually-is/",
+  "source_type": "url",
+  "stub": false,
+  "project": null,
+  "promotion_status": "misc",
+  "mode": "misc",
+  "pages_created": [
+   "wiki/references/harness-lecture-02-what-a-harness-actually-is.md"
+  ],
+  "pages_updated": [
+   "wiki/concepts/ai-harness.md"
+  ]
+ },
+ "harness-lecture-03_walkinglabs": {
+  "ingested_at": "2026-08-13T22:15:00Z",
+  "source_url": "https://walkinglabs.github.io/learn-harness-engineering/en/lectures/lecture-03-why-the-repository-must-become-the-system-of-record/",
+  "source_type": "url",
+  "stub": false,
+  "project": null,
+  "promotion_status": "misc",
+  "mode": "misc",
+  "pages_created": [
+   "wiki/references/harness-lecture-03-repository-system-of-record.md",
+   "wiki/concepts/repository-as-system-of-record.md"
+  ],
+  "pages_updated": []
+ },
+ "harness-lecture-04_walkinglabs": {
+  "ingested_at": "2026-08-13T22:15:00Z",
+  "source_url": "https://walkinglabs.github.io/learn-harness-engineering/en/lectures/lecture-04-why-one-giant-instruction-file-fails/",
+  "source_type": "url",
+  "stub": false,
+  "project": null,
+  "promotion_status": "misc",
+  "mode": "misc",
+  "pages_created": [
+   "wiki/references/harness-lecture-04-giant-instruction-file-fails.md"
+  ],
+  "pages_updated": [
+   "wiki/concepts/agents-md.md"
+  ]
+ },
+ "harness-lecture-05_walkinglabs": {
+  "ingested_at": "2026-08-13T22:15:00Z",
+  "source_url": "https://walkinglabs.github.io/learn-harness-engineering/en/lectures/lecture-05-why-long-running-tasks-lose-continuity/",
+  "source_type": "url",
+  "stub": false,
+  "project": null,
+  "promotion_status": "misc",
+  "mode": "misc",
+  "pages_created": [
+   "wiki/references/harness-lecture-05-long-running-tasks-continuity.md"
+  ],
+  "pages_updated": [
+   "wiki/concepts/context-management-for-agents.md"
+  ]
+ },
+ "harness-lecture-06_walkinglabs": {
+  "ingested_at": "2026-08-13T22:15:00Z",
+  "source_url": "https://walkinglabs.github.io/learn-harness-engineering/en/lectures/lecture-06-why-initialization-needs-its-own-phase/",
+  "source_type": "url",
+  "stub": false,
+  "project": null,
+  "promotion_status": "misc",
+  "mode": "misc",
+  "pages_created": [
+   "wiki/references/harness-lecture-06-initialization-phase.md",
+   "wiki/concepts/agent-initialization.md"
+  ],
+  "pages_updated": []
+ },
+ "harness-lecture-07_walkinglabs": {
+  "ingested_at": "2026-08-13T22:15:00Z",
+  "source_url": "https://walkinglabs.github.io/learn-harness-engineering/en/lectures/lecture-07-why-agents-overreach-and-under-finish/",
+  "source_type": "url",
+  "stub": false,
+  "project": null,
+  "promotion_status": "misc",
+  "mode": "misc",
+  "pages_created": [
+   "wiki/references/harness-lecture-07-overreach-under-finish.md"
+  ],
+  "pages_updated": [
+   "wiki/concepts/agent-exit-strategies.md"
+  ]
+ },
+ "harness-lecture-08_walkinglabs": {
+  "ingested_at": "2026-08-13T22:15:00Z",
+  "source_url": "https://walkinglabs.github.io/learn-harness-engineering/en/lectures/lecture-08-why-feature-lists-are-harness-primitives/",
+  "source_type": "url",
+  "stub": false,
+  "project": null,
+  "promotion_status": "misc",
+  "mode": "misc",
+  "pages_created": [
+   "wiki/references/harness-lecture-08-feature-lists-primitives.md"
+  ],
+  "pages_updated": []
+ },
+ "harness-lecture-09_walkinglabs": {
+  "ingested_at": "2026-08-13T22:15:00Z",
+  "source_url": "https://walkinglabs.github.io/learn-harness-engineering/en/lectures/lecture-09-why-agents-declare-victory-too-early/",
+  "source_type": "url",
+  "stub": false,
+  "project": null,
+  "promotion_status": "misc",
+  "mode": "misc",
+  "pages_created": [
+   "wiki/references/harness-lecture-09-declare-victory-too-early.md"
+  ],
+  "pages_updated": [
+   "wiki/concepts/agent-evaluations.md"
+  ]
+ },
+ "harness-lecture-10_walkinglabs": {
+  "ingested_at": "2026-08-13T22:15:00Z",
+  "source_url": "https://walkinglabs.github.io/learn-harness-engineering/en/lectures/lecture-10-why-end-to-end-testing-changes-results/",
+  "source_type": "url",
+  "stub": false,
+  "project": null,
+  "promotion_status": "misc",
+  "mode": "misc",
+  "pages_created": [
+   "wiki/references/harness-lecture-10-e2e-testing.md"
+  ],
+  "pages_updated": [
+   "wiki/concepts/agent-evaluation-pipeline.md"
+  ]
+ },
+ "harness-lecture-11_walkinglabs": {
+  "ingested_at": "2026-08-13T22:15:00Z",
+  "source_url": "https://walkinglabs.github.io/learn-harness-engineering/en/lectures/lecture-11-why-observability-belongs-inside-the-harness/",
+  "source_type": "url",
+  "stub": false,
+  "project": null,
+  "promotion_status": "misc",
+  "mode": "misc",
+  "pages_created": [
+   "wiki/references/harness-lecture-11-observability-in-harness.md"
+  ],
+  "pages_updated": [
+   "wiki/concepts/agent-observability.md",
+   "wiki/concepts/sprint-contract.md",
+   "wiki/concepts/task-trace.md"
+  ]
+ },
+ "harness-lecture-12_walkinglabs": {
+  "ingested_at": "2026-08-13T22:15:00Z",
+  "source_url": "https://walkinglabs.github.io/learn-harness-engineering/en/lectures/lecture-12-why-every-session-must-leave-a-clean-state/",
+  "source_type": "url",
+  "stub": false,
+  "project": null,
+  "promotion_status": "misc",
+  "mode": "misc",
+  "pages_created": [
+   "wiki/references/harness-lecture-12-clean-state.md"
+  ],
+  "pages_updated": [
+   "wiki/concepts/session-portability.md"
+  ]
+ },
+ "harness-lecture-13_walkinglabs": {
+  "ingested_at": "2026-08-13T22:15:00Z",
+  "source_url": "https://walkinglabs.github.io/learn-harness-engineering/en/lectures/lecture-13-loop-engineering/",
+  "source_type": "url",
+  "stub": false,
+  "project": null,
+  "promotion_status": "misc",
+  "mode": "misc",
+  "pages_created": [
+   "wiki/references/harness-lecture-13-loop-engineering.md"
+  ],
+  "pages_updated": [
+   "wiki/concepts/loop-engineering.md"
+  ]
+ },
+ "harness-lecture-14_walkinglabs": {
+  "ingested_at": "2026-08-13T22:15:00Z",
+  "source_url": "https://walkinglabs.github.io/learn-harness-engineering/en/lectures/lecture-14-graph-engineering/",
+  "source_type": "url",
+  "stub": false,
+  "project": null,
+  "promotion_status": "misc",
+  "mode": "misc",
+  "pages_created": [
+   "wiki/references/harness-lecture-14-graph-engineering.md",
+   "wiki/concepts/graph-engineering.md"
+  ],
+  "pages_updated": []
+ },
+ "harness-projects-hub_walkinglabs": {
+  "ingested_at": "2026-08-13T22:15:00Z",
+  "source_url": "https://walkinglabs.github.io/learn-harness-engineering/en/projects/",
+  "source_type": "url",
+  "stub": false,
+  "project": null,
+  "promotion_status": "misc",
+  "mode": "misc",
+  "pages_created": [
+   "wiki/references/harness-projects-hub.md"
+  ],
+  "pages_updated": []
+ },
+ "harness-resources-hub_walkinglabs": {
+  "ingested_at": "2026-08-13T22:15:00Z",
+  "source_url": "https://walkinglabs.github.io/learn-harness-engineering/en/resources/",
+  "source_type": "url",
+  "stub": false,
+  "project": null,
+  "promotion_status": "misc",
+  "mode": "misc",
+  "pages_created": [
+   "wiki/references/harness-resources-hub.md"
+  ],
+  "pages_updated": []
+ },
+ "harness-skills-hub_walkinglabs": {
+  "ingested_at": "2026-08-13T22:15:00Z",
+  "source_url": "https://walkinglabs.github.io/learn-harness-engineering/en/skills/",
+  "source_type": "url",
+  "stub": false,
+  "project": null,
+  "promotion_status": "misc",
+  "mode": "misc",
+  "pages_created": [
+   "wiki/references/harness-skills-hub.md"
+  ],
+  "pages_updated": []
+ },
+ "openai-harness-engineering_walkinglabs": {
+  "ingested_at": "2026-08-13T22:15:00Z",
+  "source_url": "https://openai.com/index/harness-engineering/",
+  "source_type": "url",
+  "stub": false,
+  "project": null,
+  "promotion_status": "misc",
+  "mode": "misc",
+  "pages_created": [
+   "wiki/references/openai-harness-engineering.md"
+  ],
+  "pages_updated": [
+   "wiki/entities/openai.md"
+  ]
+ },
+ "anthropic-effective-harnesses_walkinglabs": {
+  "ingested_at": "2026-08-13T22:15:00Z",
+  "source_url": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents",
+  "source_type": "url",
+  "stub": false,
+  "project": null,
+  "promotion_status": "misc",
+  "mode": "misc",
+  "pages_created": [
+   "wiki/references/anthropic-effective-harnesses.md"
+  ],
+  "pages_updated": [
+   "wiki/entities/anthropic.md"
+  ]
+ },
+ "anthropic-harness-design_walkinglabs": {
+  "ingested_at": "2026-08-13T22:15:00Z",
+  "source_url": "https://www.anthropic.com/engineering/harness-design-long-running-apps",
+  "source_type": "url",
+  "stub": false,
+  "project": null,
+  "promotion_status": "misc",
+  "mode": "misc",
+  "pages_created": [
+   "wiki/references/anthropic-harness-design.md"
+  ],
+  "pages_updated": []
+ }
 }

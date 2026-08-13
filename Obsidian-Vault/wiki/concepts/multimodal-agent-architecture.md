@@ -7,17 +7,23 @@ tags:
 - retrieval
 sources:
 - 'https://www.youtube.com/watch?v=640kmytxcei'
-summary: Architecture for agents that process and retrieve across multiple modalities (text, images, tables) using a multimodal LLM for reasoning, VLM-based embedding for retrieval over page-level screensho...
+- 'https://video.twimg.com/amplify_video/2083930623962406912/vid/avc1/1922x1080/Z6F8963hpN2se-3A.mp4'
+summary: "Architecture for agents that process and retrieve across multiple modalities (text, images, tables) using a multimodal LLM for reasoning, VLM-based embedding for retrieval over page-level screenshots, and live full-duplex streaming (Gemini Live, WebSocket, request queues) for bidirectional real-time agents."
 provenance:
-  extracted: 0.75
-  inferred: 0.2
+  extracted: 0.77
+  inferred: 0.18
   ambiguous: 0.05
-base_confidence: 0.55
+base_confidence: 0.60
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
-updated: 2026-07-03
+updated: 2026-08-03T00:00:00Z
 category: concepts
+relationships:
+  - target: "[[references/google-agents-to-autonomous-systems-course]]"
+    type: derived_from
+  - target: "[[entities/google-agent-development-kit|Google Agent Development Kit]]"
+    type: uses
 ---
 
 # Multimodal Agent Architecture
@@ -68,6 +74,18 @@ Session-based chat history stored in a database. Each user query retrieves prior
 | LLM | Text-only LLM | Multimodal LLM (text + images) |
 | Perception | Text inputs only | Text, images, potentially audio/video |
 | Data prep | Standard chunking pipeline | Screenshot capture + multimodal embedding |
+
+## Live Bidirectional Multimodal Agents
+
+The retrieval-focused architecture above is *turn-based*; Google's Space Quest workshop extends multimodal agents into **live bidirectional** operation — perceive and express run simultaneously rather than in turns, so the agent feels like a person instead of a tool. ^[extracted] See [[references/google-agents-to-autonomous-systems-course]].
+
+Key elements: ^[extracted]
+
+- **Full-duplex transport** — WebSocket keeps one open connection (a phone call) instead of HTTP request/response (ordering at a counter), enabling mid-sentence interruption and simultaneous talk.
+- **Native audio processing** — Gemini Live API consumes raw audio in/out instead of a blocking STT → LLM → TTS pipeline, preserving tone, hesitation, and emphasis rather than reducing speech to a transcript.
+- **Live request queue** — a decoupling structure (ADK's sushi-conveyor belt): the browser pushes audio/video frames every ~16 ms while the runner consumes them asynchronously; upstream never blocks on downstream.
+- **Stream vs discrete inputs** — send-realtime for continuous streams (voice, camera feed), send-content for discrete actions (image snapshot, text); both become queue items.
+- **Mock-server-first development** — verify the WebSocket ears/eyes/mouth wiring against an AI-less server speaking the same protocol before adding the model brain, isolating AI logic from plumbing.
 
 ## Open Questions
 

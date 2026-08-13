@@ -18,6 +18,7 @@ relationships:
   type: related_to
 sources:
 - 'https://www.youtube.com/watch?v=8eqo4j2bwkw'
+- 'https://x.com/i/status/2085392969558089980'
 summary: The paradigm of dynamically scaling computation at inference time to improve model reasoning — inserting a thinking stage where models iteratively process additional tokens before answering, traine...
 provenance:
   extracted: 0.75
@@ -27,7 +28,7 @@ base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
-updated: 2026-07-03
+updated: 2026-08-07T05:00:00Z
 category: concepts
 ---
 
@@ -86,6 +87,16 @@ Test-time compute scaling is a **third scaling axis** that stacks on top of pre-
 2. **Quality-cost slider** — thinking budgets provide continuous granular control over cost vs. capability (see [[concepts/thinking-budgets|Thinking Budets]])
 3. **Hard problem handling** — the model can allocate dramatically more compute to the hardest problems (math olympiad, complex code)
 4. **Application diversity** — same model handles both simple queries (fast, cheap) and complex reasoning (slow, expensive)
+
+## The Economics of More Compute
+
+The returns on additional test-time compute are **logarithmic**, and past the plateau the marginal iteration can go **negative**. ^[extracted] Measured data points from [[entities/yoko-li|Yoko Li]]'s loop-convergence essay ([[references/knowing-when-to-stop-loop-convergence|Knowing When to Stop]]):
+
+- One web-agent benchmark: 1 → 10 samples lifted success from 38.8% to 43.2%; doubling again to 20 bought +0.2 points for twice the tokens. ^[extracted]
+- Reasoning models given larger budgets start **abandoning answers that were already correct** — more cycles do not just stop helping, they start hurting. ^[extracted]
+- In her Lighthouse loop stress-test, all the value landed in the first third of the spend ($1.40 took the score 26 → 89); the remaining $2.84 (67% of the bill) bought exactly zero points. ^[extracted]
+
+Implication: the bottleneck is not generating more compute but knowing **when to stop** — which requires infrastructure (spend metering, progress-per-dollar measurement, a cut-off mechanism), since neither the model nor the developer can predict the plateau in advance. ^[inferred]
 
 ## Applications
 

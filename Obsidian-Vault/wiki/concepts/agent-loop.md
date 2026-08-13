@@ -16,16 +16,29 @@ sources:
 - 'https://www.youtube.com/watch?v=lue8k2jqfkk'
 - 'https://www.youtube.com/watch?v=pbhm2qknu10'
 - 'https://www.youtube.com/watch?v=q3nreeadkmc'
-summary: An AI-driven iterative pattern where an autonomous agent repeatedly performs a cycle of work, evaluates the result, and decides whether to continue, adapt, or stop. Covers agent loops in developmen...
+- 'https://spectrum.ieee.org/ai-science-research-flattens-discovery'
+- 'https://x.com/posthog/status/2075645235724767739'
+- 'https://posthog.com/self-driving'
+- 'https://x.com/zhengyaojiang/status/2077079778793042425'
+- 'https://x.com/anshuc/status/2077173469293535723'
+- 'https://x.com/i/status/2083231950744244360'
+- 'https://x.com/i/status/2083430232405733819'
+- 'https://posthog.com/blog/10k-prs-a-month'
+- 'https://x.com/i/status/2083486328172273795'
+- 'https://claude.com/blog/product-management-on-the-ai-exponential'
+summary: An AI-driven iteration pattern that repeatedly works, evaluates, and adapts; at scale it coordinates sub-agents, artifacts, review, and verification.
+- 'https://www.deeplearning.ai/courses/agentic-ai'
+- 'https://nitter.tiekoetter.com/i/article/2080296261576687751'
+- 'https://video.twimg.com/amplify_video/2083930623962406912/vid/avc1/1922x1080/Z6F8963hpN2se-3A.mp4'
 provenance:
-  extracted: 0.7
-  inferred: 0.25
+  extracted: 0.73
+  inferred: 0.22
   ambiguous: 0.05
-base_confidence: 0.5
+base_confidence: 0.81
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
-updated: 2026-07-05
+updated: 2026-08-03T00:00:00Z
 relationships:
 - target: '[[concepts/vibe-coding-as-agentic-ai|Vibe Coding as Agentic AI]]'
   type: implements
@@ -33,6 +46,8 @@ relationships:
   type: related_to
 - target: '[[entities/donald-hruska|Donald Hruska]]'
   type: related_to
+- target: '[[references/google-agents-to-autonomous-systems-course]]'
+  type: derived_from
 category: concepts
 ---
 
@@ -55,6 +70,19 @@ A well-engineered loop needs four things:
 - **Flaky test hunter:** Goal: kill flaky tests. Context: CI history + retry logs. Eval: consecutive green runs.
 - **Performance autoresearcher:** Goal: beat a benchmark. Context: system, metrics, budget. Eval: speed/quality improvement. PostHog used this to fix a 3-year-old ClickHouse bug.
 
+- **RSI research loop (AIDE²):** Two nested loops — inner loop optimizes code against eval, outer loop optimizes the inner agent's harness. After 100 iterations the outer loop discovered 7 improvements including a new search policy, 16x prompt compression, and layered reward hacking defense. Beat a 2-year hand-tuned baseline on held-out benchmarks, including a physics weather model. ^[extracted]
+- **AI research loop (Anshu):** GPT-5.6 Sol autonomously drove fine-tuning a custom autocorrect model that outperformed Sol itself — scanning benchmarks, building a keyboard simulator via Gaussian per-key presses, solving tokenization bottlenecks with a custom byte-aligned edit-weighted loss, and deploying beam search with live prefix display. 3 days of Codex iteration, $0 spend, runs entirely on a MacBook with ~40ms TTFT. ^[extracted]
+## At Scale: Developer Experience as the Outer Loop
+
+PostHog's 10,000-PR north star shows an engineering loop operating at organizational scale. Agent-opened monorepo PRs rose from about 20% to 70% in four months, while self-driving accounted for about 4% of PRs. The loop therefore expands beyond “edit and test” into keeping branches current, selecting CI work, applying review feedback, and preparing evidence for human attention. ^[extracted]
+
+The source's concrete loop components include:
+
+- **Context:** diffs, trunk state, CI history, review comments, GitHub analytics, cloud dev environments, and browser-visible application behavior.
+- **Evaluation:** CI status, selective-test results, PR quality signals, deterministic review checks, LLM showstopper review, and UI evidence.
+- **Control flow:** flaky-test quarantine, AST-based test selection, merge queues, human escalation, and a human merge gate.
+
+This is [[concepts/ai-native-toolchain]] in operational form: higher code-generation throughput only helps when the surrounding loop makes validation and review cheaper than asking humans to do every repetitive step. ^[inferred] See [[misc/web-x-com-posthog-status-2083231950744244360]].
 ## Variants
 
 - **Karpathy's Autoresearch:** Optimization-focused loop — run against a benchmark, propose changes, measure, keep/discard. Used by PostHog to optimize ClickHouse queries.
@@ -64,6 +92,18 @@ A well-engineered loop needs four things:
 - **IDE agent mode:** Interactive loop where the user iterates on a spec (README-based prompt drafting) with the AI, then hands a well-scoped document to the agent for implementation. During execution, the agent pauses for user approval before terminal access, sending progress updates. The operator can redirect mid-execution or revert all changes and restart. Articulated by [[entities/jon-peck|Jon Peck]] at AIEF2025 for both brownfield and greenfield development. ^[extracted]
 
 - **Validation error feedback (Pydantic AI):** [[entities/samuel-colvin|Samuel Colvin]] demonstrated at AIEF2025 a pattern where schema validation errors are returned to the LLM as feedback, enabling self-correction. A `Person` schema required date of birth before 1900; the LLM returned `1987`, validation failed, the error was returned to Gemini Flash, and the model self-corrected to `1887` on the second attempt. This turns schema validators into deterministic, human-seeded evals — faster and more precise than LLM-as-judge scoring. ^[extracted]
+
+- **Self-driving product loop:** PostHog's bounded product improvement loop — Signals (error tracking, session replay dead clicks/quick backs/long stalls, scheduled Scouts, external tools) → Scouts → Inbox → PR → Measure. Distinguished from research loops by a human merge gate and product-domain scope: the loop improves the product within safety constraints rather than driving unrestricted scientific discovery. ^[extracted]
+
+## From Prompts to Graphs
+
+The linked graph-engineering article frames a progression from manual prompts to scheduled loops, parallel swarms, and graphs with explicit node ownership and data hand-offs. This extends the loop's work/evaluate/adapt cycle from one task to a coordinated system; it also makes fan-out, synchronization, and independent verification visible. ^[extracted]
+
+The article's runtime and scale claims are self-reported, but the underlying design lesson is consistent with the loop invariant: every autonomous step needs an observable result and a condition for continuing, adapting, or stopping. ^[ambiguous]
+
+## The Runner: Loop as Framework
+
+Google's [[entities/google-agent-development-kit|ADK]] makes the loop an explicit framework object. The **runner** is "the engine for your agent": it manages lifecycle and events — whether the LM is deciding, calling a tool, or responding, everything is processed as an event in an event loop. The runner connects to a **session service** (conversation history and state: in-memory for low latency, database-backed for durability, or a managed agent-platform service) and to a **live request queue** for real-time agents: the browser pushes audio/video frames every ~16 ms while the runner consumes them asynchronously, so upstream never blocks on downstream. This is the [[concepts/agent-loop|agent loop]] in framework form, with state externalized (matching the stateless-iteration discipline of [[concepts/loop-engineering|loop engineering]]). ^[extracted] See [[references/google-agents-to-autonomous-systems-course]].
 
 ## Claude Code's Loop Design
 
@@ -113,6 +153,16 @@ The loop pattern has crossed into practical use due to:
 
  This coding agent loop is distinguished from [[concepts/assistive-vs-automation-agents|assistive agents]] by its autonomy window — coding agents work for 5–15 minutes independently, while tactical code generation tools (like [[entities/github-copilot|GitHub Copilot]] autocomplete) require continuous human direction at the line level. ^[inferred]
 
+### Google Antigravity's Parallel Coding Loop
+
+The Google Antigravity demonstration extends the coding-agent loop from one interactive process to an asynchronous team: 93 sub-agents decompose an operating-system build, generate and run tests, iterate for more than 12 hours, and return a reviewable artifact. The keynote reports more than 15,000 requests and 2.6 billion tokens. ^[extracted]
+
+The live demo still finds missing video and keyboard drivers when Doom fails to launch, then feeds that failure back into the agent for repair. This preserves the core loop invariant — action, observation, evaluation, and another action — while moving execution across parallel workers. ^[inferred] See [[entities/google-antigravity|Google Antigravity]].
+
+The [[misc/web-x-com-i-status-2083486328172273795|Claude Code product video]] shows the coding-agent loop at repository scale: a feature request supplies the goal, the codebase supplies context, the agent edits and integrates the implementation, and the resulting commit gives the human a reviewable artifact. In the Excalidraw table demo, the requested behavior includes custom dimensions, drag-to-resize interaction, and existing styling options. ^[extracted]
+
+The loop is not presented as fully autonomous. The presenter inspects the commit after the agent works, preserving a human evaluation and approval point. ^[extracted]
+
 ## Relationship to Signal Loop
 
 While the [[concepts/agent-loop|agent loop]] describes how an individual agent iterates on a single task (self-improving via evaluation), the [[concepts/signal-loop-ai|signal loop]] describes how the model *behind* the agent improves over time across many users and interactions. The agent loop runs per-task in milliseconds to hours; the signal loop runs across the fleet in days to weeks. They are complementary — agent loop outputs (success/failure logs, user corrections) become input to the signal loop's fine-tuning pipeline. ^[inferred]
@@ -120,11 +170,27 @@ While the [[concepts/agent-loop|agent loop]] describes how an individual agent i
 
 ## Self-Driving Products Vision
 
-The ultimate application of loops: rather than an engineer prompting an agent to progress a project, the agent prompts itself. The product improves itself without direct human instruction. PostHog is betting on this via their Slack app, PostHog Code, and Replay Vision.
+The ultimate application of loops: rather than an engineer prompting an agent to progress a project, the agent prompts itself. The product improves itself without direct human instruction. PostHog is betting on this via their self-driving mode — a concrete pipeline implementation available in open beta. ^[extracted]
 
 Loops target the "1% gains" — bugs, UX issues, paper cuts, conversion tweaks. Not strategic work, but the things that drain engineering hours.
 
 The "self" in self-driving doesn't mean autonomy from the engineer — it means autonomy from user instruction as the starting point. ^[extracted]
+
+### PostHog's Self-Driving Pipeline
+
+PostHog's self-driving loop follows a five-stage pipeline: Signals → Scouts → Inbox → Pull Requests → Measure. ^[extracted]
+
+1. **Signals** — Inbound triggers from error tracking, session replay (dead clicks, quick backs, long stalls), scheduled agents (Scouts), and external tools (Zendesk, Linear, GitHub issues). ^[extracted]
+2. **Scouts** — Research agents investigate each signal, gather context from analytics, session replays, and the codebase, then produce a structured report. ^[extracted]
+3. **Inbox** — Reports surface in a prioritized queue alongside other product feedback. The engineer triages: accept, modify, or discard. ^[extracted]
+4. **Pull Requests** — The agent authors a PR that ships with its own instrumentation — adding events, feature flags, and experiments automatically. ^[extracted]
+5. **Measure** — PostHog checks whether the metric actually moved after merge. If not, that generates a new signal and the change can be rolled back. ^[extracted]
+
+### Safety and Human Merge Gate
+
+PostHog's safety model: "autonomy from instruction, not from you" — nothing reaches production without human merge. ^[extracted] Safety guarantees include sandboxed cloud work agents (no direct repo access), human-only merge button, secrets protection, and private repos remain private. ^[extracted] Pricing is per-pull-request with unlimited reports and 3 free PRs per month. ^[extracted]
+
+The human merge gate is the load-bearing distinction between safe autonomous loops and uncontrolled automation. PostHog's bounded approach — where the loop generates work within product constraints but a human must approve each merge — contrasts with research-oriented loops that aim for full autonomy within a defined evaluation boundary. ^[inferred]
 
 ### The Product Engineer Loop
 
@@ -139,6 +205,8 @@ Self-driving agents automate this exact loop, removing the need for human prompt
 ## Limits
 
 Loops aren't about eliminating all engineering work. They automate the "1% gains" — bugs, UX issues, paper cuts, conversion tweaks — things that drain engineering hours but rarely need strategic input. The more you automate, the more time engineers spend on impactful and interesting work. ^[extracted]
+
+A counterpoint from IEEE Spectrum ([source](https://spectrum.ieee.org/ai-science-research-flattens-discovery)): AI-using scientists publish 3x more papers but occupy a smaller footprint in "knowledge space", clustering around data-rich tractable problems. ^[extracted] The concern for autonomous agent loops — whether in product engineering or scientific research — is that optimizing for measurable signals may converge on the same tractable fixes rather than expanding into harder, less-measurable improvements. ^[inferred] The narrowing is not about algorithmic design but about incentives and reward structures. ^[extracted]
 
 ## Code Was Never the Problem
 
@@ -213,3 +281,5 @@ The owning-your-control-flow pattern pairs naturally with [[concepts/micro-agent
 - [[references/aief2025-training-agentic-reasoners-will-brown-prime-intellect]] — Will Brown's AIEF2025 talk on training agentic reasoners via RL
 - [[references/aief2025-human-seeded-evals-samuel-colvin-pydantic]] — Samuel Colvin's AIEF2025 talk demonstrating validation error feedback in the agent loop
 - [[references/aief2025-introducing-strands-agents-open-source-ai-agents-sdk-suman-debnath-aws]] — Suman Debnath's AIEF2025 talk on Strands, demonstrating minimal scaffolding agent loops
+- [[concepts/loop-engineering|Loop Engineering]] — Technical roadmap for building safe autonomous loops; complements PostHog's product-loop approach with engineering mechanics (statelessness, isolation, reward-hacking defense)
+- [[concepts/continuous-eval-loops|Continuous Eval Loops]] — The operational cycle for eval-driven improvement; AIDE²'s inner/outer loop architecture is a concrete implementation

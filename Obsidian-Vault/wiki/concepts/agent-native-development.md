@@ -7,19 +7,20 @@ tags:
 - platform
 - orchestration
 - ai-development
-summary: A development paradigm where organizations build on platforms purpose-designed for agent delegation, with centralized context, reliable agents, and parallel infrastructure — not human tools with AI...
+summary: A development paradigm built for agent delegation, centralized context, reliable agents, parallel infrastructure, and artifact-oriented workflows.
 sources:
-- AIEF2025 - Ship Production Software in Minutes, Not Months — Eno Reyes, Factory - https://www.youtube.com/watch?v=iheWKg2Tkrk
+  - AIEF2025 - Ship Production Software in Minutes, Not Months — Eno Reyes, Factory - https://www.youtube.com/watch?v=iheWKg2Tkrk
+  - https://x.com/i/status/2083430232405733819
 provenance:
-  extracted: 0.8
-  inferred: 0.2
-  ambiguous: 0.0
-base_confidence: 0.85
+  extracted: 0.76
+  inferred: 0.22
+  ambiguous: 0.02
+base_confidence: 0.80
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04 00:00:00+00:00
-updated: 2026-07-04 00:00:00+00:00
+updated: 2026-08-02T01:17:21Z
 relationships:
 - target: '[[concepts/agent-driven-development|Agent-Driven Development]]'
   type: enables
@@ -57,6 +58,12 @@ Factory's "droids" exemplify agent-native development: they don't just write cod
 - Analyze feedback patterns for planning
 - Convert PRDs into parallelized ticket roadmaps
 
+
+## Google Antigravity as an Agent-Native Surface
+
+The Google Antigravity announcement makes the platform model concrete: a CLI, SDK, native voice, integrations, asynchronous tasks, sub-agents, and a desktop surface organized around conversations and artifacts. It is designed for delegation and inspection rather than only line-by-line editing. ^[extracted] ^[inferred]
+
+The reported operating-system experiment also matches the paradigm's parallel-infrastructure requirement: 93 agents worked concurrently for more than 12 hours and produced a tested artifact. The figures are self-reported product-demo claims. ^[inferred] See [[entities/google-antigravity|Google Antigravity]].
 ## Documentation as First-Class Citizen
 
 In agent-native development, documentation and process are not overhead — they are the **knowledge base and map** for agents to learn and imitate the team's thinking. PRDs, design docs, RCAs, and meeting transcriptions become a conversation with both future developers and future AI systems.^[extracted]

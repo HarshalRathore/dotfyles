@@ -14,6 +14,7 @@ aliases:
 sources:
 - 'AIEF2025 - Turning Fails into Features: Zapier''s Hard-Won Eval Lessons — Rafal Willinski, Vitor Balocco, Zapier - https://www.youtube.com/watch?v=blrovBxxN9o'
 - AIEF2025 - Evals 101 — Doug Guthrie, Braintrust - https://www.youtube.com/watch?v=bk0TmxoZlUY
+- https://x.com/i/status/2084613319558635940
 provenance:
   extracted: 0.75
   inferred: 0.2
@@ -23,7 +24,7 @@ lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-08-11
 relationships:
 - target: '[[concepts/ai-observability-production-logging|AI Observability & Production Logging]]'
   type: extends
@@ -62,6 +63,17 @@ Once individual runs are understood, LLM Ops tooling enables scale-level analysi
 - **Problematic interaction identification** — Surface the interactions that cause the most issues
 
 This analysis creates an "almost automatic roadmap" for where to apply time and effort to improve the product. ^[extracted]
+
+## 2026-08-11 — The Trace → Evaluate → Diagnose → Fix Loop (Sean's LLM-ops Primer)
+
+The complete LLM-ops loop as taught in [[references/cyrilxbt-agent-concepts-explainer-video|Sean's explainer]] — why ops exists, and its four stages: ^[extracted]
+
+- **Why:** without feedback, "we don't know how well it's performing" — the harness produces replies but no health signal. ^[extracted]
+- **1. Trace** — every agent run traced as a tree of events: what was asked, what retrievals happened, how many LLM calls / tool calls, response time, token usage. Tools: [[entities/langfuse|Langfuse]], [[entities/langsmith|LangSmith]]. ^[extracted]
+- **2. Evaluate** — was it a good run and a healthy run? LLM-as-judge scoring ("use large language model as a judge here to give us a score on how well it performed", e.g. did the meeting actually trigger) + deterministic checks (latency 20s vs 2ms, token counts). ^[extracted]
+- **3. Diagnose** — where and why something broke; feed the failure to a coding agent for deep-dive ("the meeting scheduling event was never triggered — why?"), or spot bloated working memory / unnecessary retrieval. ^[extracted]
+- **4. Fix & feedback** — ship a better system prompt, model configuration, tool changes, or retrieval parameters back into the agent run; if deeply broken, fix the bug, rerun, retrace, re-evaluate. ^[extracted]
+- **Gap case:** Hermes ships logs + trajectory export only — no eval system — so this loop must be assembled externally; Sean's live demo (cron delivered 2/10 jokes, undetected) is the failure mode of a harness without ops. ^[extracted]
 
 ## Related
 

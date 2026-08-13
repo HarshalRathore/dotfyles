@@ -9,6 +9,7 @@ tags:
 - fleet-management
 sources:
 - 'https://www.youtube.com/watch?v=lqq_lcbajcc'
+- 'https://walkinglabs.github.io/learn-harness-engineering/en/lectures/lecture-11-why-observability-belongs-inside-the-harness/'
 relationships:
 - target: '[[concepts/agent-guardrails|Agent Guardrails]]'
   type: implements
@@ -24,8 +25,8 @@ base_confidence: 0.82
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
-updated: 2026-07-04
-summary: Agent Observability
+updated: 2026-08-13
+summary: "Monitoring and debugging agent fleets: token usage, costs, runtime traces — plus the harness lens (runtime vs process observability, sprint contracts, evaluator rubrics)."
 ---
 
 # Agent Observability
@@ -64,5 +65,19 @@ With whatever platform you choose, you should be able to dial into any specific 
 Observability is one of the core guardrails for production agents. Without it, you cannot detect cost overruns, identify hallucination patterns, or debug unexpected agent behavior. Platform selection should evaluate whether observability comes built in or requires a separate vendor. ^[extracted]
 
 ## Sources
+
+## 2026-08 — Learn Harness Engineering (Walking Labs): observability in the harness
+
+The course's Lecture 11 ("Why Observability Belongs Inside the Harness") frames observability as a harness architecture property, not a monitoring-vendor add-on. It extends this page's fleet/run monitoring with the following claims: ^[extracted]
+
+- **Two layers, both essential:** runtime observability (system-level signals — logs, traces, process events, health checks; answers "what did the system do") and process observability (harness decision artifacts — plans, sprint contracts, scoring rubrics, acceptance criteria; answers "why should this change be accepted"). ^[extracted]
+- **Agents can't instrument themselves:** they don't know what they don't know, log formats are inconsistent, and process observability can't be solved by logging — the harness must collect runtime signals automatically (application lifecycle phases, feature-path execution, data flow, resource utilization, full-error context). ^[extracted]
+- **Reliability is an evidence problem** (OpenAI/Anthropic framing): the harness must expose runtime behavior and evaluation signals in a form that can guide the next decision. ^[extracted]
+- **Process-layer artifacts:** a sprint contract (scope, verification standards, exclusions) front-loads alignment between generator and evaluator; an evaluator rubric (A/B/C/D scoring per dimension) makes evaluation reproducible across evaluators. ^[extracted]
+- **Standardize with OpenTelemetry:** one trace per harness session, a span per task, sub-spans per verification step — observability data then integrates with standard toolchains (Jaeger, Zipkin). ^[extracted]
+- **Cost of missing observability:** cannot distinguish "correct" from "looks correct", non-reproducible evaluation, blind retries, and session-handoff diagnosis that wastes 30–50% of total session time (Anthropic's long-running-agent observations). ^[extracted]
+- Anthropic's March 2026 three-agent experiment (planner/generator/evaluator, browser DAW task) ran 3h50m at $124.70; its evaluator was made reliable by reading its logs, finding where its judgment diverged from human judgment, and updating the QA prompt. ^[extracted]
+
+Primary source: [[references/harness-lecture-11-observability-in-harness|Why Observability Belongs Inside the Harness — Lecture 11]]. Related: [[concepts/ai-harness|AI Agentic Harness]], [[concepts/open-telemetry|OpenTelemetry (OTEL)]].
 
 - [[references/aief2025-agents-500b-promise-donald-hruska-retool|AIEF2025 — How agents will unlock the $500B promise of AI]]

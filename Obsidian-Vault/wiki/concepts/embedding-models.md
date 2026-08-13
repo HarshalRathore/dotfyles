@@ -14,7 +14,7 @@ lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: core
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-08-11
 relationships:
   - target: "[[concepts/rag-pipeline-architecture]]"
     type: uses
@@ -83,6 +83,10 @@ Domain-specific embedding models achieve even better trade-offs than general-pur
 
 Embedding quality is domain-dependent. General-purpose models may perform well on web text but poorly on code, legal documents, or other specialized domains. Domain-specific models trained on domain-specific data consistently outperform general-purpose models within their target domain. For example, Voyage Code 3 outperforms general-purpose models for code understanding, and Voyage Law 2 is optimized for legal document semantics. ^[extracted]
 
+## Training Retrieval Models from Agent Traces
+
+A novel training signal pioneered by [[entities/cursor-ai|Cursor]] for its code embedding model: use **agent sessions as training data**. When an agent works through a task it performs multiple searches and opens files before finding the right code; analyzing these traces reveals, in retrospect, what *should* have been retrieved earlier. An LLM **ranks what content would have been most helpful at each step**, and the embedding model is trained to **align its similarity scores with those rankings** — a feedback loop that learns from how agents actually work through coding tasks rather than from generic code similarity. ^[extracted] Reported result: +12.5% average retrieval-driven accuracy gain for the agent (see [[references/cursor-semantic-search|Cursor's semantic search blog]]).
+
 ## Query-Style Guidance
 
 The choice of retrieval technique depends on your actual query patterns, not on what's trendy. Karam's framework distinguishes two query styles: ^[extracted]
@@ -109,3 +113,4 @@ The recommendation: analyze your real query set. If most queries are keyword-sty
 - AIEF2025 - RAG in 2025: State of the Art and the Road Forward — Tengyu Ma, MongoDB (acq. Voyage AI) - https://www.youtube.com/watch?v=W_CYk2ogcDI
 - AIEF2025 - The State of AI Powered Search and Retrieval — Frank Liu, MongoDB (prev Voyage AI) - https://www.youtube.com/watch?v=pIPtpBZ6TKk
 - AIEF2025 - Building a Smarter AI Agent with Neural RAG — Will Bryk, Exa.ai - https://www.youtube.com/watch?v=xnXqpUW_Kp8
+- https://cursor.com/blog/semsearch

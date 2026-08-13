@@ -12,6 +12,8 @@ aliases:
 - context-engine-vs-rag
 sources:
 - AIEF2025 - Mastering Engineering Flow with Windsurf - Eashan Sinha, Windsurf - https://www.youtube.com/watch?v=W_5tzQY-hVs
+- https://towardsdatascience.com/how-cursor-actually-indexes-your-codebase/
+- https://cursor.com/blog/semsearch
 provenance:
   extracted: 0.85
   inferred: 0.1
@@ -20,7 +22,7 @@ base_confidence: 0.8
 lifecycle: draft
 tier: supporting
 created: 2026-07-05
-updated: 2026-07-05
+updated: 2026-08-11
 relationships:
 - target:
   - - concepts/flow-awareness|Flow Awareness
@@ -61,6 +63,10 @@ The result is more accurate results, fewer hallucinations, and suggestions that 
 ## Key Differentiator
 
 Unlike products that use only RAG or embedding-based search, a context engine treats context retrieval as a multi-dimensional problem requiring multiple complementary signals. ^[inferred]
+
+## The Cursor-Style Counterpoint
+
+[[entities/cursor-ai|Cursor]] demonstrates that a strong **pure-RAG** approach is also viable: a full [[concepts/codebase-rag|codebase RAG]] pipeline (AST-aware chunking, custom embedding model trained on agent traces, vector storage, hybrid semantic + regex retrieval) yields +12.5% average agent accuracy vs grep-only baselines. ^[extracted] The two approaches differ in emphasis — context engines widen the *signal set* (user flow, multiple tools in tandem), while Cursor deepens the *retrieval quality* of the code signal itself. ^[inferred]
 
 ## Related
 

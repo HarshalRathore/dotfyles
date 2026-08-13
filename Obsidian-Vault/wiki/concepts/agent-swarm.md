@@ -14,6 +14,7 @@ aliases:
 - agent-swarming
 sources:
 - 'https://www.youtube.com/watch?v=l6_nigiexzq'
+- 'https://x.com/h100envy/status/2077371640690672001'
 summary: An agentic control flow pattern where thousands of parallel agent tool calls perform exhaustive search across telemetry data. Used by Traversal.ai to autonomously troubleshoot production incidents...
 provenance:
   extracted: 0.85
@@ -24,7 +25,7 @@ lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-07-18
 relationships:
 - target: '[[concepts/production-troubleshooting]]'
   type: uses
@@ -72,6 +73,11 @@ In the Traversal system:
 ## Why It Matters
 
 Incidents need resolution in 2-5 minutes for real utility. Sequential agents with simple tool-calling loops might take days. Agent swarms make exhaustive search feasible within the incident timeline.
+
+
+## Related Work
+
+A separate post titled "A Swarm of Agents for Multi-Angle Analysis: Building a Team of Experts from LLMs" describes a similar multi-agent parallel analysis approach, though its full content was not accessible for verification. ^[ambiguous]
 
 ## Sources
 

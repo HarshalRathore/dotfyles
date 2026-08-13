@@ -5,7 +5,7 @@ tags: []
 sources: []
 summary: Hot Pages
 created: '2026-07-05T04:32:00.508136+00:00'
-updated: '2026-07-05T04:32:00.508136+00:00'
+updated: '2026-08-13T22:40:00Z'
 lifecycle: draft
 base_confidence: 0.42
 tier: supporting
@@ -17,9 +17,123 @@ provenance:
 
 # Hot Pages
 
-Updated: 2026-07-05T04:32:00.506586+00:00
+Updated: 2026-08-13T22:40:00Z
 
 ## Recently Created
+- [[references/loop-engineering-product-vs-research-loops]] — Product vs research loops extracted from loop-engineering
+- [[references/loop-engineering-convergence-and-verifier]] — Yoko Li verifier lens extracted from loop-engineering
+- [[references/loop-engineering-failure-modes]] — Relational-deadlock failure mode extracted from loop-engineering
+- [[references/loop-engineering-hermes-walkthrough]] — Sean's Hermes walkthrough extracted from loop-engineering
+- [[misc/web-walkinglabs-github-io-learn-harness-engineering-en]] — Learn Harness Engineering course landing (Walking Labs) — 14-lecture map + hubs + OpenAI/Anthropic references
+- [[references/harness-lecture-13-loop-engineering]] — Loop Engineering: generator/evaluator separation as the core reliability guarantee, six loop primitives
+- [[references/harness-lecture-14-graph-engineering]] — Graph Engineering: loops become graphs at specialization/parallelism/shared-state thresholds
+- [[references/openai-harness-engineering]] — OpenAI's harness engineering article (Codex, agent-first world, repo-as-spec)
+- [[references/anthropic-effective-harnesses]] — Anthropic: effective harnesses for long-running agents (initializer agent, feature-list bootstrapping)
+- [[references/anthropic-harness-design]] — Anthropic: harness design for long-running apps (worker/checker separation, context resets)
+- [[references/harness-lecture-01-why-capable-agents-still-fail]] — Lecture 1: five failure modes, Anthropic/OpenAI evidence, fix-the-harness-first
+- [[references/harness-lecture-02-what-a-harness-actually-is]] — Lecture 2: five-subsystem harness model (instructions/tools/environment/state/feedback)
+- [[concepts/graph-engineering]] — NEW concept: graph engineering
+- [[concepts/repository-as-system-of-record]] — NEW concept: repo as system of record (ACID for agent state)
+- [[concepts/agent-initialization]] — NEW concept: initialization as its own harness phase
+- [[entities/walkinglabs]] — Walking Labs entity page
+- [[misc/web-earendil-com-posts-compaction-in-pi]] — How Compaction Works in Pi — Earendil Engineering (Official)
+- [[references/earendil-session-portability]] — The Session You Cannot Take With You — Earendil Engineering
+- [[references/chroma-context-rot-report]] — Context Rot — Chroma Technical Report
+- [[entities/earendil]] — Earendil (company behind Pi)
+- [[entities/chroma]] — Chroma (embedding database + context-rot research)
+- [[concepts/session-portability]] — Session Portability
+- [[misc/web-yingchao-dev-blog-compaction]] — Compaction: How Pi, opencode, and codex Rebuild Context — Yingchao Dai
+- [[references/pi-compaction-and-branch-summarization]] — Pi: Compaction & Branch Summarization (Official Docs)
+- [[references/openai-server-side-compaction]] — OpenAI Server-Side Compaction (Official Docs)
+- [[references/manus-context-engineering-lessons]] — Context Engineering for AI Agents — Lessons from Building Manus
+- [[references/prompt-caching-in-agents]] — Prompt Caching In Agents — Earendil Engineering
+- [[references/humanlayer-context-backpressure]] — Context-Efficient Backpressure for Coding Agents — HumanLayer
+- [[entities/yingchao-dai]] — Yingchao Dai (baggiiiie)
+- [[entities/pi]] — Pi (earendil-works coding agent)
+- [[entities/manus]] — Manus (manus.im)
+- [[entities/amp]] — Amp (Ampcode)
+- [[entities/yichao-ji]] — Yichao 'Peak' Ji (Manus)
+- [[misc/web-x-com-i-status-2084613319558635940]] — CyrilXBT on Making Complex AI Agent Concepts Easy to Understand (Sean’s 61.7-min explainer video)
+- [[references/cyrilxbt-agent-concepts-explainer-video]] — Hermes Agent Harness & Loop Engineering Explained — Deep Dive
+- [[sources/cyrilxbt-agent-concepts-explainer-transcript]] — Full transcript of the compilation video
+- [[entities/hermes-agent]] — Hermes Agent (Nous Research open-source agent platform)
+- [[entities/sean-ai-stories]] — Sean (AI explainer YouTuber, AutoManus founder)
+- [[entities/automanus]] — AutoManus (MCP sales-agent product)
+- [[entities/cyrilxbt]] — CyrilXBT (amplifier)
+- [[entities/langfuse]] — Langfuse (LLM observability)
+- [[misc/web-towardsdatascience-com-how-cursor-actually-indexes]] — How Cursor Actually Indexes Your Codebase — Kenneth Leung (TDS)
+- [[references/cursor-semantic-search]] — Improving Agent with Semantic Search — Cursor's Engineering Blog
+- [[references/chonkie-code-chunker]] — Chonkie CodeChunker — AST-Based Code Chunking (Official Docs)
+- [[entities/turbopuffer]] — Turbopuffer (vector + full-text search on object storage)
+- [[entities/opencode]] — OpenCode (open-source coding agent, LSP-based)
+- [[entities/chonkie]] — Chonkie (open-source chunking framework)
+- [[entities/kenneth-leung]] — Kenneth Leung (TDS author)
+- [[entities/towards-data-science]] — Towards Data Science (publication)
+- [[concepts/codebase-rag]] — Codebase RAG
+- [[concepts/code-chunking]] — Code Chunking (AST-based)
+- [[concepts/merkle-tree]] — Merkle Tree
+- [[concepts/file-path-obfuscation]] — File Path Obfuscation
+- [[concepts/tree-sitter]] — tree-sitter (parser)
+- [[concepts/vector-database]] — Vector Database
+- [[concepts/hash-based-change-detection]] — Hash-Based Change Detection
+- [[misc/web-x-com-i-status-2086521445694517404]] — How Command Code's Read Tool Saves Billions of Tokens vs Claude Code — Ahmad Awais' X Post
+- [[references/command-code-read-tool-harness-engineering]] — The Read Tool — Command Code's Harness-Engineering Deep Dive
+- [[skills/read-tool-engineering]] — Read Tool Engineering: Fourteen Design Lessons
+- [[entities/ahmad-awais]] — Ahmad Awais (CEO, Command Code)
+- [[entities/commandcode]] — Command Code
+- [[entities/langbase]] — Langbase (stub)
+- [[misc/web-x-com-i-status-2085392969558089980]] — Knowing When to Stop: The Art of Making a Loop Converge — Yoko Li's X Article
+- [[references/knowing-when-to-stop-loop-convergence]] — Knowing When to Stop: The Art of Making a Loop Converge (X Article)
+- [[entities/yoko-li]] — Yoko Li (a16z)
+- [[misc/web-aihero-dev-a-complete-guide-to-agents-md]] — A Complete Guide To AGENTS.md — Matt Pocock (AI Hero)
+- [[concepts/agents-md]] — AGENTS.md
+- [[concepts/instruction-budget]] — Instruction Budget
+- [[misc/web-x-com-i-status-2083960395056939396]] — Stanford LLMs from Scratch Course: X Post, Captured Lecture, and Graph-Engineering Article
+- [[references/stanford-llms-from-scratch-course]] — Stanford Course: Building LLMs from Scratch (Two Sessions)
+- [[concepts/llm-training-pipeline]] — LLM Training Pipeline
+- [[entities/roan]] — Roan
+- [[misc/web-x-com-i-status-2084018136437985417]] — LazyGraphRAG vs Million-Token Context + How to be a Memory Engineer
+- [[references/how-to-be-a-memory-engineer]] — How to be a Memory Engineer (Stanford, Microsoft, Anthropic, Nvidia)
+- [[concepts/memory-engineering]] — Memory Engineering
+- [[skills/memory-engineer]] — Memory Engineer: Fifteen-Step Procedure
+- [[entities/n01ennn]] — NO1ennn
+- [[entities/microsoft-research]] — Microsoft Research
+- [[misc/web-x-com-i-status-2083932817738666010]] — Google Agents Course: Agents → Tools → Loops → Graphs → Autonomous Systems (Space Quest workshop + eval-engineering quote)
+- [[references/google-agents-to-autonomous-systems-course]] — Google Space Quest Workshop: From Agents to Autonomous Systems (Omni App)
+- [[references/eval-engineering-merge-gate]] — Eval Engineering: The Gate That Lets Agents Merge Without You
+- [[concepts/eval-gate]] — Eval Gate
+- [[skills/eval-gate]] — Eval Gate: Six-Step Merge Gate Course
+- [[entities/hanakoxbt]] — Hanako
+- [[entities/annie]] — Annie (Google Cloud)
+- [[misc/web-x-com-i-status-2083255916221370588]] — Andrew Ng Agentic AI Course: X Clip, Official Course, and Graph-Engineering Article
+- [[references/deeplearning-ai-agentic-ai-andrew-ng]] — Agentic AI — Andrew Ng / DeepLearning.AI
+- [[references/graph-engineering-multi-factor-alpha-model]] — Graph Engineering Multi-Factor Alpha Model
+- [[entities/andrew-ng]] — Andrew Ng (Agentic AI course source)
+
+- [[misc/web-x-com-i-status-2083603666603528596]] — How to Speak and Five Financial Equations: Lumen's X Post
+- [[references/mit-how-to-speak-patrick-winston]] — MIT How to Speak — Patrick Winston
+- [[references/lumen-five-financial-equations]] — Five Financial Equations — Lumen X Article
+- [[entities/patrick-henry-winston]] — Patrick Henry Winston
+- [[concepts/technical-presentation]] — Technical Presentation
+- [[concepts/financial-equations]] — Financial Equations
+
+- [[misc/web-x-com-i-status-2083602508807569560]] — Graph Engineering Course: The X Post, Linked Architecture, and Captured Lab
+- [[references/google-hands-on-ai-multi-agent-lab]] — Google Hands-on AI Multi-Agent Lab — MCP, ADK, A2A, and Agent Memory
+- [[entities/google-agent-development-kit]] — Google Agent Development Kit
+
+- [[misc/web-x-com-i-status-2083498308899573948]] — Stanford LLM Lecture Clip: Tokenization, Causal Attention, and the X Caption
+- [[references/stanford-llm-lecture-asr-transcript]] — Stanford LLM Lecture — Remote ASR Transcript
+- [[misc/web-x-com-posthog-status-2083231950744244360]] — 10,000 PRs a Month Is Easy — PostHog Developer Experience at Scale
+- [[entities/stamphog]] — StampHog
+- [[entities/reviewhog]] — ReviewHog
+- [[entities/hogli]] — hogli
+- [[entities/paul-dambra]] — Paul D'Ambra
+- [[misc/web-x-com-i-status-2083486328172273795]] — Claude Code: Agentic Coding Across the Development Lifecycle
+- [[entities/cat-wu]] — Cat Wu
+- [[misc/web-x-com-i-status-2083430232405733819]] — Google I/O Keynote: Antigravity and Agent-First Development
+- [[entities/google-antigravity]] — Google Antigravity
+- [[concepts/gemini-35-flash]] — Gemini 3.5 Flash
+- [[entities/sundar-pichai]] — Sundar Pichai
 
 - [[entities/dat-ngo]] - Dat Ngo
 - [[entities/aman-khan]] - Aman Khan
@@ -93,7 +207,123 @@ Updated: 2026-07-05T04:32:00.506586+00:00
 - [[entities/new-generation]] - New Generation
 - [[entities/visa]] - Visa
 
+- [[concepts/agent-workflows]] — Added Andrew Ng's decomposition and build/trace/eval workflow
+- [[concepts/agent-evaluations]] — Added the objective/subjective × ground-truth/rubric eval frame
+- [[concepts/agent-development-lifecycle]] — Added evidence-driven iteration and optimization order
+- [[concepts/ai-agent-observability]] — Added trace-based error analysis and per-step optimization
+- [[concepts/multi-agent-architecture]] — Added communication topologies and bounded-role guidance
+- [[concepts/planning-in-llms]] — Added structured and code-based executable plans
+- [[concepts/agentic-dials]] — Added the autonomy spectrum from direct calls to multi-agent systems
+- [[concepts/agent-architecture]] — Added LM/code/retrieval/tool building blocks
+- [[concepts/agent-loop]] — Added the prompts-to-graphs progression and verification invariant
+- [[concepts/parallel-agents]] — Added parallel factor-construction graph evidence
+- [[entities/andrew-ng]] — Added the official Agentic AI course
+- [[index]] — Added the X source and two reference pages
+- [[log]] — Recorded the 106-chunk BharatCode clip ingest
+- [[hot]] — Added current source, course, graph, and eval threads
+
 ## Recently Updated
+- [[concepts/loop-engineering]] — Loop Engineering lecture merged (generator/evaluator, six primitives, /goal minimal loop)
+- [[concepts/ai-harness]] — Five-subsystem harness definition merged (Lecture 2)
+- [[concepts/agents-md]] — Monolithic instruction-file failure modes merged (Lecture 4)
+- [[concepts/context-management-for-agents]] — Continuity/compaction-vs-handoff claims merged (Lecture 5)
+- [[concepts/agent-exit-strategies]] — Overreach/under-finish controls merged (Lecture 7)
+- [[concepts/agent-evaluations]] — Premature-victory/self-assessment-bias claims merged (Lecture 9)
+- [[concepts/agent-evaluation-pipeline]] — E2E verification layer claims merged (Lecture 10)
+- [[concepts/agent-observability]] — Runtime+process observability layers merged (Lecture 11)
+- [[concepts/session-portability]] — Clean-session-state conditions merged (Lecture 12)
+- [[entities/openai]] — Harness engineering article section added
+- [[entities/anthropic]] — Effective-harnesses article section added
+- [[entities/pi]] — Official compaction post merged: standalone summarization-assistant request, mid-turn overflow compaction, plain-text portable summaries
+- [[concepts/prompt-caching]] — Exact-prefix mechanics of compaction as cache break (retained turns, new prefix, recompute)
+- [[concepts/context-rot]] — Disambiguated two senses: agent-level forgetting vs Chroma's token-level degradation report
+- [[concepts/context-management-for-agents]] — First-party overflow decision framing (restart vs compact) and standalone summarization request
+- [[entities/codex]] — Compaction implementation (20k user-message budget, server-side /responses/compact + CompactionTrigger, 64k tail, encrypted compaction item)
+- [[entities/opencode]] — Compaction implementation (8k recent context, tool-free summary, <conversation-checkpoint> serialization)
+- [[concepts/context-management-for-agents]] — Compaction as automated context management (Pi/opencode/codex/Amp comparison, handoff-vs-compaction)
+- [[concepts/prompt-caching]] — Cache health as a systems property (TTLs, tool loadouts, compaction as deliberate cache reset)
+- [[concepts/context-engineering]] — Practitioner rules from Manus, Earendil, and HumanLayer
+- [[entities/cursor-ai]] — Codebase RAG pipeline + custom embedding model (agent-trace trained) + Context Bench results
+- [[concepts/embedding-models]] — Agent-trace-trained retrieval models section
+- [[concepts/embedding-based-search]] — Semantic search in coding agents (+12.5% accuracy evidence)
+- [[concepts/hybrid-retrieval]] — Semantic + regex hybrid in coding agents
+- [[concepts/chunking-for-retrieval]] — Code chunking specialization section
+- [[concepts/context-engine-vs-rag]] — Cursor-style pure-RAG counterpoint
+- [[concepts/verifiable-transparency]] — Merkle tree cross-link
+- [[concepts/loop-engineering]] — relational deadlock failure mode + self-expiring dedup caches
+- [[concepts/context-engineering]] — the read path: where the context bill is spent
+- [[concepts/ai-harness]] — Command Code read tool as D2-surface case study
+- [[concepts/agent-code-editor]] — reading as the context-building half of the edit loop
+- [[concepts/tool-input-repair-layer]] — read-tool input repairs (10 aliases, strict coercion)
+- [[entities/claude-code]] — read-tool benchmark column (probe-only)
+- [[concepts/decisions-ledger]] — disambiguated from the read ledger
+- [[concepts/loop-engineering]] — Added convergence-conditions and verifier lens from Yoko Li's loop essay (four conditions of completion, editability × verifiability axes, Lighthouse cost data)
+- [[concepts/agent-exit-strategies]] — Added external verifier stop conditions (cost-aware stopping, unreliable escape hatches)
+- [[concepts/test-time-compute-scaling]] — Added the economics of more compute (logarithmic returns, negative marginal returns, Lighthouse spend curve)
+- [[entities/matt-pocock]] — Added AI Hero blog and the AGENTS.md guide to contributions/sources
+- [[concepts/context-engineering]] — Added AGENTS.md and instruction-budget connections
+- [[concepts/progressive-disclosure-forms]] — Added repo doc-tree forms (AGENTS.md practice, nested docs, monorepo files)
+- [[references/stanford-llm-lecture-asr-transcript]] — Cross-linked as session 1 of the full Stanford course
+- [[misc/web-x-com-i-status-2083498308899573948]] — Cross-linked the clip to the full course
+- [[references/aief2025-graphrag-code-jonathan-larson]] — Added LazyGraphRAG benchmark numbers (92/90/91%, 1/10 cost) and Benchmark QED components (AutoQ/AutoE/AutoD) from the X clip
+- [[concepts/lazy-graphrag]] — Replaced pre-release status with extracted benchmark results
+- [[concepts/agent-memory]] — Added memory-engineering cost/lifecycle section
+- [[entities/jonathan-larson]] — Added LazyGraphRAG results and X-clip source
+- [[concepts/agent-evaluations]] — Added verdict-driven gates, three-level path grading, and log-derived tests
+- [[concepts/llm-as-judge-problems]] — Added 2026 quantitative judge-bias evidence and mitigation rules
+- [[concepts/agent-loop]] — Added the ADK runner event-loop and live request queue section
+- [[concepts/loop-engineering]] — Added framework-form loops (ADK runner) section
+- [[concepts/multi-agent-architecture]] — Added parallel specialist voting and state-as-whiteboard pattern
+- [[concepts/multimodal-agent-architecture]] — Added live bidirectional full-duplex agents (Gemini Live, WebSocket, request queues)
+- [[entities/mit]] — Enriched MIT entity with official OpenCourseWare provenance
+- [[concepts/anti-powerpoint]] — Added Winston's complementary sparse-slide rules
+- [[index]] — Added the Lumen source, lecture/article references, entity, and concepts
+- [[log]] — Recorded the 63-chunk BharatCode lecture ingest
+- [[hot]] — Added communication and finance takeaways
+- [[concepts/agent-architecture]] — Added captured graph-engineering lab context and multi-agent composition link
+- [[concepts/agent-workflows]] — Added MCP/A2A graph composition and workflow boundary context
+- [[concepts/agent-to-agent-communication]] — Added A2A-versus-MCP boundary from the captured lab
+- [[concepts/agent-routing]] — Added graph routing and agent handoff context
+- [[concepts/agent-memory]] — Replaced stub with source-backed state, retrieval, and memory distinctions
+- [[concepts/multi-agent-architecture]] — Replaced stub with source-backed graph composition pattern
+- [[index]] — Added the X source, course reference, ADK entity, and refreshed concept entries
+- [[log]] — Recorded the graph-engineering ingest and approximate transcript provenance
+- [[concepts/transformers]] — Replaced stub with source-backed attention, causal masking, multi-head, and sequence-cost explanation
+- [[concepts/causal-language-model]] — Added chain-rule probability, causal training, and decoding controls
+- [[concepts/autoregressive-generation]] — Added lecture source, probability model, temperature, and top-k details
+- [[concepts/in-context-learning]] — Added source-integrity note for the caption/media mismatch
+- [[misc/web-x-com-i-status-2083498308899573948]] — Added remote-transcript provenance, lecture distillation, and flagged caption mismatch
+- [[references/stanford-llm-lecture-asr-transcript]] — Added 77-chunk timestamped remote ASR transcript
+- [[concepts/developer-experience]] — Rebuilt the former stub around agent-scaled DevEx, outer-loop capacity, cloud workspaces, and human attention
+- [[concepts/ai-native-toolchain]] — Added PostHog evidence on PR readiness, CI selection, cloud dev boxes, review, and QA
+- [[concepts/self-driving-code-review]] — Added StampHog, ReviewHog, and browser-driven QA review split
+- [[concepts/agent-loop]] — Added organizational-scale PR readiness and evaluation loop
+- [[concepts/loop-engineering]] — Added scale evidence and flagged differing StampHog rates
+- [[concepts/agent-evaluation-pipeline]] — Added CI, browser evidence, and production telemetry case
+- [[concepts/cloud-for-agents]] — Added skill-driven cloud dev machine case
+- [[entities/posthog]] — Rebuilt entity summary around product and developer-experience loops
+- [[misc/web-posthog-com-newsletter-loops]] — Added later scale evidence to the four-part loop model
+- [[misc/web-x-com-i-status-2083486328172273795]] — Added feature-level intent, lifecycle-spanning integrations, Excalidraw demo, and transcript notes
+- [[entities/claude-code]] — Added lifecycle-spanning coding-agent section and source
+- [[entities/excalidraw]] — Added separate Claude Code feature demonstration and source
+- [[entities/anthropic]] — Added Claude Code and Cat Wu source context
+- [[concepts/developer-experience]] — Added lifecycle-spanning agent experience
+- [[concepts/ai-native-toolchain]] — Added Claude Code lifecycle example
+- [[concepts/self-driving-code-review]] — Clarified implementation-versus-review boundary
+- [[concepts/agent-loop]] — Added Claude Code feature loop and human inspection point
+- [[index]] — Added Claude Code source and Cat Wu entity entries
+- [[concepts/ai-harness]] — Added Antigravity harness primitives and the 93-sub-agent operating-system case
+- [[concepts/parallel-agents]] — Added large-scale parallel sub-agent evidence
+- [[concepts/long-horizon-agency]] — Added the twelve-hour Antigravity case
+- [[concepts/agent-loop]] — Added the parallel coding loop and repair feedback
+- [[concepts/agent-native-development]] — Added Antigravity as an agent-native surface
+- [[concepts/asynchronous-coding-agents]] — Added asynchronous task management and long-running projects
+- [[concepts/agentic-coding]] — Added agent-first CLI, SDK, artifacts, and orchestration
+- [[entities/google]] — Added Antigravity and agent-first development context
+- [[entities/google-deepmind]] — Added world-model and agentic-coding context
+- [[entities/gemini]] — Added Gemini 3.5 Flash and Antigravity context
+- [[concepts/synthid-watermarking]] — Added scale and Search/Chrome provenance claims
+- [[index]] — Added four new pages and refreshed related summaries
 
 - [[concepts/llm-evaluation-framework]] - Added two-circle model, encoder-only evals, platform vs application teams, evals
 - [[concepts/evals-testing-pyramid]] - Added new source and signal-from-noise reframing connecting pyramid to evals as 
@@ -146,27 +376,78 @@ Updated: 2026-07-05T04:32:00.506586+00:00
 
 ## Recent Activity
 
-- 2026-07-13 — Dedup: merged concepts/llm-as-judge.md into concepts/llm-as-judge-evaluation.md (same concept, complementary content); redirect stub created at former path.
-- 2026-07-06 — Ingested WF2026: Autoresearch & Keynotes transcript into wiki/concepts, wiki/entities, and wiki/sources; added major coverage for ACDC, agency ladder, JEPA, memory harnesses, agent evaluation, and sovereign AI.
-- 2026-07-06 — Autonomous wiki repair: YAML 56, frontmatter 2057, links 1306.
+- 2026-08-13 — Learn Harness Engineering deep-crawl ingest (Walking Labs): 21 sources orchestrated across 21 parallel sub-agents (one per page, depth-1 only). The course's core thesis — the harness is everything outside the model weights, and most 'model failures' are harness failures — now grounds the vault's agent-engineering corpus: five-subsystem harness model (instructions/tools/environment/state/feedback), repo-as-system-of-record with ACID-for-agent-state, feature-list primitives with four-state machine, generator/evaluator separation as loop-engineering's core guarantee, graph engineering as the loop-to-graph threshold, and Anthropic's initializer-agent harness (init.sh + feature list + progress file). Merges into 9 existing concept pages + 2 entity pages; 27 pages created (20 references, 3 new concepts, 1 entity, 1 misc landing, 2 stubs). Key tension recorded: handoff files (course, Lecture 5) vs provider-side compaction ('handoff is out' — Earendil/Amp) — both positions noted with dates, model-dependent (Sonnet 4.5 context anxiety vs Opus 4.5).
+- 2026-08-13 — Official Pi compaction deep-crawl: Earendil Engineering's "How Compaction Works in Pi" + linked sources. The first-party account confirms the third-party picture and adds: compaction runs as a standalone request with a dedicated "context summarization assistant" system prompt (goal/progress/key-decisions sections) that can use a cheaper model; auto-compaction is checked after a turn ends to maximize cached-prefix reuse, with mid-turn compaction only on overflow errors; summaries are plain text for session portability. Deep-crawled: "The Session You Cannot Take With You" (portability tests — inspection/export/replay/audit/deletion — vs provider-sealed state: encrypted reasoning, hidden searches, opaque compaction, sealed subagent messages) and Chroma's Context Rot technical report (18 models, 194K calls: degradation grows with input length, faster on low-similarity pairs, non-uniform under distractors and haystack structure). 6 pages created, 7 updated.
+- 2026-08-13 — Compaction deep-crawl ingest: Yingchao Dai's "Compaction" (yingchao.dev) + 6 nested sources (Pi compaction docs, OpenAI server-side compaction docs, Manus context-engineering lessons, Earendil prompt-caching essay, HumanLayer backpressure, Amp Neo announcement). Core: harnesses rebuild context three ways — Pi's structured client summaries with split-turn prefixes and 20k tails (cache writes disabled), opencode's 8k serialized checkpoint as one user message, codex's provider-side compaction (encrypted opaque compaction item, 64k tail). Handoff is out, compaction is in — the industry shifts from manual context management to harness automation; compaction deliberately busts the prompt cache ("a cache reset rather than a cache failure"), and Manus makes KV-cache hit rate the #1 production metric. 11 pages created, 5 updated.
+- 2026-08-10 — Codebase-RAG deep-crawl ingest: Kenneth Leung's TDS article "How Cursor Actually Indexes Your Codebase" + 4 linked sources (cursor.com/blog/semsearch, docs.chonkie.ai code-chunker, turbopuffer.com, opencode.ai). Pipeline: AST-based code chunking (tree-sitter, Chonkie) → custom embeddings + path/line metadata → client-side file-path obfuscation (secret key + fixed nonce, e.g. src/payments/invoice_processor.py → a9f3/x72k/qp1m8d.f4) → Turbopuffer vector store (embeddings cached by chunk hash, raw code never leaves the machine) → hybrid semantic + grep/ripgrep retrieval. Index sync via Merkle tree of file hashes (~5-min checks, targeted re-embedding, batches). Cursor's own blog adds: Cursor Context Bench, embedding model trained on agent session traces with LLM-generated rankings (+12.5% avg accuracy, 6.5–23.5%; code retention +0.3%, +2.6% on 1,000+ file repos; −2.2% dissatisfied follow-ups). 15 pages created, 7 updated.
+- 2026-08-09 — Read-tool ingest: Ahmad Awais' X post + commandcode.ai docs "The Read Tool" — read_file as a compiler from filesystem to context (500 junk tokens × 50M reads/month = 25B junk tokens); three ceilings (2,000-line window / 128 KB byte budget / 2,000 ch-per-line clamp); recovery notices instead of silence (precomputed resume offsets, no Error: prefix); partial-view ledger → write DENIED deadlock with dedup "unchanged" (relational invariants found in production); self-expiring dedup cache; 7-spelling unicode filename retry + Levenshtein-2 did-you-mean; chunk-boundary deferral; JPEG quality ladder; scale-factor disclosure; notebook→tagged-cells rendering; device-path blocklist; 10-harness benchmark (Claude Code probed live — no window/byte cap/clamp; bottom-of-table features in only 1-3/10 harnesses). 6 pages created (misc source, references deep-dive, skills/read-tool-engineering, entities/ahmad-awais, entities/commandcode, entities/langbase stub), 7 updated (tool-input-repair-layer, agent-code-editor, ai-harness, context-engineering, claude-code, loop-engineering, decisions-ledger).
+- 2026-08-07 — Loop-convergence ingest: Yoko Li's (a16z) X Article "Knowing When to Stop" — done is a judgment produced by the system around the work; the verifier defines progress (SpecBench 2,900-line "compiler" memorized test inputs); four conditions of completion (target state, observable state, precise edits, external cost-aware stopping rule); editability × verifiability axes; loops are tuned to their stack; economics are logarithmic with negative marginal returns (Lighthouse run: 67% of bill bought zero points); inference-time and training-time loops feed each other. 3 pages created (misc source, references deep-dive, entities/yoko-li), 3 updated (loop-engineering, agent-exit-strategies, test-time-compute-scaling).
+- 2026-08-07 — AGENTS.md ingest: Matt Pocock's AI Hero guide "A Complete Guide To AGENTS.md" — instruction budget (150-200 instructions for frontier thinking LLMs, every token loaded per request), minimal root file (one-line project description, package manager, non-standard build commands), progressive disclosure via separate doc files/nested trees/agent skills, monorepo AGENTS.md merging, ball-of-mud anti-pattern with refactor prompt. 3 pages created (misc source, concepts/agents-md, concepts/instruction-budget), 3 updated (matt-pocock, context-engineering, progressive-disclosure-forms).
 
 ## Active Threads
+- **Compaction & context-window management**: Pi/opencode/codex/Amp now the vault's reference cases — client-side structured summaries (Pi, split-turn prefixes, 20k tail, 16k budget, standalone summarization-assistant request that can run a cheaper model) vs serialized checkpoints (opencode 8k) vs provider-side opaque compaction (codex/OpenAI, encrypted compaction item); compaction busts prompt caching by design and is counted as a deliberate cache reset; handoff is out, compaction is in. Pi's official post makes the overflow decision explicit: restart empty (quality degrades with context — Chroma's context-rot report) vs compact (plain-text summaries keep sessions portable across models).
+- **Session portability / provider-sealed state**: Earendil's five tests (inspection, export, replay, audit, deletion) as the yardstick; encrypted reasoning (OpenAI encrypted_content, Anthropic signature), hidden hosted searches, opaque compaction, and sealed subagent messages (Codex multi-agent ciphertext) all fail it; the local event log should be canonical and store:false the default.
+- **Codebase RAG / retrieval for coding agents**: Cursor's pipeline is now the vault's reference case — AST chunking, agent-trace-trained embeddings (+12.5% accuracy), path-obfuscated metadata, object-storage vector DBs, Merkle-tree sync; OpenCode's LSP/text-search approach is the embedding-free counterpoint; hybrid semantic+regex is the operating pattern.
+- **Read-tool / harness engineering**: Command Code's read tool shows the read path dominates the token bill; the cheap read-tool features are common, the invisible-failure fixes (chunk deferral, unicode retry, device blocklist, did-you-mean, partial-view ledger) are almost nowhere; open-model constraint as forcing function.
 
-- **Agent reliability**: ACDC framework (guide→verify→solve) and the verification gap between coding tasks and end-to-end workflows.
-- **Auto-research**: Aden, Nano Chat, Nano GPT Speed Run, valued work per watt, and recursive improvement loops.
-- **JEPA**: Pareto-pool optimization, production use, and the cost/performance claims around AMD NPUs and Databricks.
-- **Evaluation**: Agent Arena, agent-as-judge, structured outputs, and telemetry-driven evaluation pipelines.
-- **Local models**: sovereign AI, M3 Ultra / local-model tradeoffs, and control over the full agent stack.
-- **Multimodal systems**: modality gap, VO3, and the split between understanding and generation.
+- **Loop convergence & stopping**: The verifier defines progress, not just stopping — four conditions of completion (target state, observable state, precise edits, external cost-aware stopping rule); tasks move on the editability × verifiability axes; stopping well is infrastructure, not prompting.
+- **Context engineering inversion**: Anthropic's 80% system-prompt cut confirms context engineering is capability-relative — the rules that constrained weak models tax stronger ones; judgment, progressive disclosure, and rich references replace them.
+- **Technical communication**: Winston's lecture turns presentations into a designed path of promises, landmarks, evidence, and contribution-focused endings.
+- **Financial literacy**: Compound growth, discounting, geometric averaging, and real return expose different ways headline numbers can mislead.
+- **Agent-scaled developer experience**: Higher PR volume shifts the bottleneck to cloud environments, CI selection, review, validation, and human attention.
+- **Lifecycle-spanning coding agents**: Claude Code's source demo connects terminal work, IDE integrations, asynchronous GitHub Actions, and reviewable commits around feature-level intent.
+- **Bounded self-driving loops**: PostHog's loops automate routine work while keeping human merge and escalation gates.
+- **Agent-first orchestration**: Google's Antigravity case connects model speed to sub-agents, hooks, async task management, artifacts, and long-running software work.
+- **Agent reliability**: ACDC, deterministic checks, browser evidence, and production telemetry address the verification gap.
+- **Long-horizon agency**: Harness co-evolution (Agent = pi_theta ⊕ H), three-tier difficulty scaling, and adaptive control remain active research.
+- **Recursive AI research**: AIDE² and Anshu's autocorrect experiment show practical recursive improvement patterns.
+- **Evaluation**: Agent Arena, agent-as-judge, structured outputs, and telemetry-driven evaluation pipelines remain core infrastructure.
+- **Agentic workflow craft**: Andrew Ng's course links decomposition, traces, small evals, component diagnosis, model choice, and per-step latency/cost measurement into one development loop.
+- **Graph coordination**: Roan's article extends prompts → loops → swarms into explicit nodes and edges, but its runtime and trading claims remain unverified. ^[ambiguous]
+- **Eval gates**: Hanako's six-step course moves evals into the runtime — verdicts steer runs, merges open on blast radius not confidence, judges are pinned and cross-family.
+- **Omni apps / live multimodal agents**: The Space Quest workshop compresses the agent progression into three builds — express, perceive-and-reason, go live — with ADK runner/session/live-request-queue as the loop infrastructure.
+- **Structured memory over scale**: LazyGraphRAG's 92/90/91% wins over 8k/120k/1M-token vector RAG and the memory-engineering course converge on one claim — a bigger context window is not memory; structured, curated memory is.
+- **Memory engineering**: Four labs, one job — price the write path (Stanford), keep facts and skills (Microsoft), keep memory deletable and audited (Anthropic), read memory as KV cache (Nvidia). The job is engineering forgetting.
 
 ## Key Takeaways
+- Compaction is the harness taking over context management: three reference implementations — Pi's structured client summaries with tool-boundary cut rules and split-turn prefix handling (20k tail, 16k summary budget), opencode's 8k serialized checkpoint sent as one user message, codex's provider-side compaction with an opaque encrypted compaction item and 64k recent tail. ^[extracted]
+- Compaction deliberately busts the prompt cache — prompt swaps, model switches, and tool removal change the prefix; Pi counts it as "a cache reset rather than a cache failure," and providers like Anthropic keep default TTLs (5 min) shorter than normal coding activity, so cache health (hit rate, re-billed tokens) must be observable, not inferred from the bill. ^[extracted]
+- Compaction is a portability decision: plain-text summaries (Pi) are inspectable and transferable — reviewable, editable, regenerable by another model — while opaque encrypted compaction items (OpenAI) continue only within the original provider; a sealed artifact is at most an optimization that should accompany a readable handoff summary, never replace one. ^[extracted]
+- "Context rot" is two phenomena: agent-level forgetting over long horizons (fix: memory harnesses) and token-level performance degradation as input length grows — Chroma's 18-model report shows even simple tasks degrade non-uniformly, faster on semantically-ambiguous needles; growing context is not free. ^[extracted]
+- Cache stability is a context-engineering constraint: tool definitions sit near the front of the prompt, so loadout changes invalidate the cached conversation behind them — Manus masks tool logits instead of adding/removing tools, and message-anchored additive tool loading preserves prefixes. ^[extracted]
+- Codebase grounding is a five-stage RAG pipeline: AST-aware chunking → embeddings + path/line metadata → client-side path obfuscation → object-storage vector DB (raw code never leaves the machine) → hybrid semantic + regex retrieval with local resolution. ^[extracted]
+- Retrieval quality can be trained from agent behavior: LLM-ranked agent session traces teach an embedding model what should have been retrieved — +12.5% average agent accuracy, with gains largest on big codebases. ^[extracted]
+- Index freshness is an engineering problem: Merkle-tree fingerprints let the server pinpoint changed files so only those get re-embedded, in batches, every ~5 minutes. ^[extracted]
+- A read tool is a compiler from filesystem to context — three ceilings (lines, bytes, per-line clamp) bound what the model pays for, recovery notices replace silent failures, and a partial-view ledger protects unseen content from destructive writes; the expensive lessons are invisible in demos and only forced by production. ^[extracted]
+- Harness features cluster: the cheap ceiling rows are solved by 8/10 coding agents, but the invisible-failure rows (deferred chunk cut, unicode name retry, device blocklist, EOF-not-error, coord-scale note, did-you-mean, partial-view ledger) exist in 1-3/10 — benchmark rows are demos; hour-nine failures decide. ^[extracted]
 
-- Coding is verifiable; end-to-end knowledge workflows are not, so verification must be designed into the loop.
-- Agent identity is best modeled as an append-only log, not just a runtime/tool bundle.
-- Memory harnesses, structured outputs, and evaluation pipelines are core infrastructure, not optional add-ons.
-- Auto-research value comes from the loop itself and from distilling improvements back into the system.
-- Technology progress follows S-curves; local and sovereign AI matter because they restore control over the full workflow.
+- Loops converge on their verifier, not on user intent: an incomplete check makes the loop better at passing the check while diverging from the task (SpecBench's 2,900-line "compiler"). Stopping rules must be external, cost-aware, and backed by infrastructure — escape hatches and prompts are unreliable. ^[extracted]
+- AGENTS.md guidance is loaded on every request: keep the root file to a one-sentence project description, package manager, and non-standard build commands; push everything else behind progressive disclosure (doc trees, nested AGENTS.md, skills). ^[extracted]
+- Lumen's source combines a corroborated MIT lecture with an unverified X-native finance article; keep the two evidence levels separate. ^[ambiguous]
+- Clear technical presentation depends on both content structure and visual restraint. ^[inferred]
+- Long-horizon agency is jointly shaped by harness engineering and model optimization — the harness is not a separate concern but half of the agent equation.
+- PostHog's developer-experience case shows that agentic throughput requires an AI-native outer loop, not only faster code generation.
+- Routine review can be automated with deterministic checks, LLM showstopper detection, and browser-driven QA while human judgment remains at the merge and value gates.
+- Recursive self-improvement is experimentally real, but reliable evaluation and reward-hacking defenses remain necessary.
+- Memory harnesses, structured outputs, selective CI, and production telemetry are core infrastructure for dependable agent loops.
+- Coding-agent value depends on the surrounding workflow and human checkpoints, not only model capability. ^[inferred]
+- Gemini 3.5 Flash and Antigravity reinforce that practical agent capability is a model-and-harness property, not a model-only property. ^[inferred]
+- The captured LLM lecture is useful evidence for transformer mechanics, but the X post's $2.1M student story and ICL chapter label remain unverified because they do not appear in the downloaded media. ^[ambiguous]
+- The official DeepLearning.AI page lists a 9h55m course; the X-hosted clip is 1:45:51 and omits the full reflection/tool-use modules, so the post's “1 hour course” label is only an approximate caption. ^[ambiguous]
+- The eval-engineering article's judge-bias numbers (75–84% self-family win rates, −38% to +90% ArenaHard spread) are self-reported 2026 benchmarks; the mitigation rules (cross-family judge, judge panel, code for checkable facts) are the load-bearing part. ^[ambiguous]
+- The Google course video matches the tweet's 2h17m duration exactly, but the tweet's "loops" and "graphs" chapter markers do not correspond to anything in the recording; the video's actual progression is express → perceive-and-reason → go live.
+- LazyGraphRAG's benchmark numbers (92/90/91% data-local wins, 1/10th cost) match the talk transcript exactly; the memory-engineering article's 47× cost spread and 97% error reduction are self-reported without methodology. ^[ambiguous]
+- The memory-engineering article's sources are real (Stanford Agent Memory, PlugMem, Memento, Anthropic Built-in Memory), but the article's specific numbers should be verified against the papers before reuse. ^[ambiguous]
+- The Stanford "LLMs from scratch" recording is two sessions in one video: the previously ingested 76m48s clip is verbatim session 1, so the vault's transformer content is unchanged; session 2 adds the training/optimization layer (cross-entropy, SGD at trillion-token scale) and network components.
+- The course tweet's markers are roughly right for tokenization/decode/training but "LLM architecture from scratch" at 1:16:47 mislabels the session boundary; the "$750K Anthropic salary" claim is unverifiable marketing. ^[ambiguous]
 
 ## Flagged Contradictions
 
-- None identified in this ingest.
+- PostHog's earlier reporting described StampHog handling 1 in 3 PRs and 1.6K PRs in one month; the July 2026 account reports about 20% of PRs at roughly $300/month. The time window or denominator is unclear. ^[ambiguous]
+- The X caption attributes a Sundar Pichai quote that is absent from the captured keynote transcript; treat the wording and attribution as ambiguous.
+- The Stanford/student revenue claim and chapter labels in the X caption do not match the captured transcript; treat them as ambiguous until the original source is independently identified. ^[ambiguous]
+- The quoted financial article contains a numerical inconsistency in its +50%/−50%/+50% CAGR example; preserve the discrepancy rather than choosing silently. ^[ambiguous]
+- The X post's career outcome claim, the linked Slate product claims, and the article's factor-performance numbers are self-reported and were not independently verified. ^[ambiguous]
+- The Google course tweet's chapter markers ("four loop patterns", "loops into a graph", "autonomous system") do not match the embedded 2h17m Space Quest workshop recording, which contains no loop-pattern or graph curriculum; only the "connect MCP tools" marker lands near matching content. ^[ambiguous]
+- Command Code's 10-harness read-tool benchmark is self-produced by AI with "little human review" (author expects errors); the Claude Code column is probe-based rather than source-based, and the post's "no window/byte cap/clamp" claims about Claude Code are the benchmark author's characterization, not Anthropic's. ^[ambiguous]
+- 13 of 16 replies to the post were behind X's login wall at capture; the visible reply thread (author's benchmark footnote + Ali Zahid's cost claim) may not represent the full discussion. ^[ambiguous]

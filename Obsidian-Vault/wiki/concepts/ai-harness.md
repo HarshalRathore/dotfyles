@@ -8,19 +8,32 @@ tags:
 - memory
 - windsurf
 - agentic
-summary: The agentic harness is the infrastructure layer that enables AI agents to operate autonomously across software engineering workflows — including memory systems, checkpointing, parallel agent execut...
+summary: Infrastructure layer for autonomous AI agents — memory, checkpointing, tools, parallelism, hooks, and verification around a model.
 sources:
-- 'https://www.youtube.com/watch?v=jvunpl5qo8q'
+  - 'https://www.youtube.com/watch?v=jvunpl5qo8q'
+  - 'https://arxiv.org/html/2607.14159v1'
+  - 'https://openreview.net/pdf?id=HyhfhlbWGh'
+  - 'https://x.com/i/status/2083430232405733819'
+  - 'https://commandcode.ai/docs/harness-engineering/read-tool'
+  - 'https://x.com/i/status/2084613319558635940'
+  - 'https://walkinglabs.github.io/learn-harness-engineering/en/lectures/lecture-02-what-a-harness-actually-is/'
+relationships:
+  - target: "[[references/memoharness-agent-harnesses-learn-from-experience]]"
+    type: derived_from
+  - target: "[[references/towards-long-horizon-agents-a-survey]]"
+    type: related_to
+  - target: "[[concepts/long-horizon-agency]]"
+    type: related_to
 provenance:
-  extracted: 0.8
-  inferred: 0.15
+  extracted: 0.78
+  inferred: 0.17
   ambiguous: 0.05
-base_confidence: 0.65
+base_confidence: 0.72
 lifecycle: draft
-lifecycle_changed: 2026-07-04
+lifecycle_changed: 2026-07-18
 tier: supporting
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-08-13
 ---
 
 # AI Agentic Harness
@@ -43,6 +56,52 @@ Parallel agents (Wave 10) enable the harness to execute multiple agent tasks sim
 ### Tool Integration
 The harness connects to external tools and services through [[concepts/model-context-protocol|MCP]] and custom integrations. Windsurf supports one-click connections to MCP services (Notion, Linear, Stripe, etc.), GitHub MCP for PR creation, and custom tool integrations for deployment (Netlify one-click deploy). ^[extracted]
 
+
+## Six-Surface Harness Decomposition
+
+[[references/memoharness-agent-harnesses-learn-from-experience|MemoHarness]] (Huang et al., arXiv Jul 2026) provides a formal decomposition of the agent harness into six independent control surfaces $\mathcal{W} = \prod_{d=1}^{6} \mathcal{W}^{(d)}$. This framework explicitly models the harness as something that can be searched, diagnosed, and adapted per test-case from execution experience. ^[extracted]
+
+| Dim | Stage | Controls |
+|:---:|:------|:---------|
+| D1 | Context assembly | Pre-call input construction: prompt structure, demos, compression |
+| D2 | Tool interaction | External tool/retrieval: enable retrieval, set top-k, rerank evidence |
+| D3 | Generation control | Decoding: max tokens, temperature, sample candidates |
+| D4 | Orchestration | Workflow topology: single call → plan/execute/refine |
+| D5 | Memory management | Cross-call state persistence: keep, summarize, drop stale context |
+| D6 | Output processing | Post-call: extract answer, validate schema, choose fallback |
+
+This decomposition is complementary to product-specific harness components (memory systems, checkpointing, parallel agents, tool integration above). MemoHarness shows that optimizing these surfaces together from experience yields +0.084 over static harnesses on Terminal-Bench, with cross-model transfer gains of +0.098 mean. ^[extracted]
+
+## Harness–Model Co-Evolution
+
+[[references/towards-long-horizon-agents-a-survey|Towards Long-Horizon Agents]] (Dong et al., Jul 2026) formalizes the harness as the externalized half of a broader agent: ^[extracted]
+
+$$
+\text{Agent} = \pi_\theta \oplus H
+$$
+
+A base policy $\pi_\theta$ coupled to a surrounding harness $H$, where capability co-evolves — features first implemented explicitly in the harness may later be internalized into model weights, while stronger policies enable more capable harnesses. ^[extracted]
+
+The survey identifies six broad harness components beyond what any single product implements: loops & workflows, context & memory, tools/MCP/skills, orchestration, hooks & middleware, and verification. This framing positions the harness not as a fixed infrastructure layer but as an **evolving design space** that expands as model capabilities grow. ^[extracted]
+
+See [[concepts/long-horizon-agency]] for the full formalization and three difficulty levels (H1⊂H2⊂H3) that harness design must address.
+
+
+## Antigravity Harness Example
+
+Google Antigravity is a concrete product example of the harness surfaces described above. The keynote names sub-agents, hooks, asynchronous task management, generated artifacts, and multi-agent orchestration as first-class parts of the runtime around Gemini 3.5 Flash. ^[extracted]
+
+Its reported operating-system experiment ran for more than 12 hours with 93 parallel sub-agents, over 15,000 model requests, 2.6 billion tokens, and generated tests. The result is a useful case study in harness scale, but the figures are self-reported product-demo claims rather than an independent benchmark. ^[inferred] See [[entities/google-antigravity|Google Antigravity]].
+## Read Tool Case Study: The D2 Surface in Practice
+
+[[entities/commandcode|Command Code]]'s v1 `read_file` rebuild (Aug 2026) is a concrete implementation of the D2 (tool interaction) surface — and a demonstration that harness engineering, not model capability, decides token cost. See [[references/command-code-read-tool-harness-engineering|The Read Tool deep dive]] and [[skills/read-tool-engineering|Read Tool Engineering]] for the full lesson set; the harness-relevant points: ^[extracted]
+
+- **`read_file` is a compiler from filesystem to context** — "every decision inside it is a token budget decision multiplied by fifty million times it's used every month"; the bill of a coding agent is mostly reads building context.
+- **Invisible-failure repair is the harness's job** — when a failure is invisible to the model (unicode filename variants, a minified single-line file, /dev/zero), the tool retries/refuses so the model can focus on reasoning. This is the "harness engineering" layer the survey's D2 surface formalizes.
+- **Relational invariants across stateful tools** — the read tool's partial-view ledger interacts with the write tool (refuses overwriting unseen files); the resulting deadlock (read → clamped line → ledger partial → write DENIED → dedup "unchanged") is a harness-level bug class invisible to per-field validation.
+- **"Constraint is a feature"** — Command Code runs open models where a wasted turn shows in the eval score the same day; the constraint forced engineering that frontier-model harnesses haven't been forced to do yet.
+- Its own 10-harness benchmark (AI-read at pinned commits, 29 July 2026; Claude Code probed live) found the *cheap* read-tool features (line window + one more ceiling) in 8/10 harnesses, but the *expensive-to-learn* ones (deferred chunk cut, unicode retry, device blocklist, EOF notes, did-you-mean, partial-view ledger) in only 1–3/10 — "teams build them only after production forces it."
+
 ## Beyond Code Generation
 
 The agentic harness distinguishes Windsurf from autocomplete-only tools. While autocomplete handles character-level assistance, the harness enables the agent to:
@@ -56,9 +115,51 @@ The agentic harness distinguishes Windsurf from autocomplete-only tools. While a
 
 This is the infrastructure that makes the [[concepts/shared-timeline|shared timeline]] model possible. ^[inferred]
 
+## 2026-08-11 — The Horse-and-Harness Model & Hermes as a Concrete Harness
+
+The most accessible framing of the harness concept — from [[references/cyrilxbt-agent-concepts-explainer-video|Sean's explainer]] (amplified by @cyrilXBT): the LLM is "a really powerful horse" that knows everything but "has no clue how you want it to perform"; the harness is the set of control tools that keeps it running in the right direction. "If you don't have a good set of tools to ride this horse, it could just get hurt, it might go anywhere." ^[extracted]
+
+[[entities/hermes-agent|Hermes Agent]] is presented as a working instance of this model — its harness surfaces: ^[extracted]
+- **Control layer:** runs locally (CLI, Docker/SSH, VPS); chat apps (WhatsApp) or desktop app as gateways; user-editable `soul.md` system prompt. ^[extracted]
+- **Tools:** terminal, browser, `delegate_task` (sub-agents incl. Claude Code CLI), cron scheduling, skill management, MCP connections. ^[extracted]
+- **Loop:** prompt → working memory → LLM → tool calls → end-loop guardrail → reply, with procedural/semantic/episodic memory updated after each run. ^[extracted]
+- **Harness vs model separation made explicit:** "You can see that this is a harness, and there's a loop because after I fetched it, it will stop and tell me and reply to me" — the stop-and-reply behavior is harness infrastructure, not model behavior. ^[extracted]
+
+## 2026-08 — Learn Harness Engineering (Walking Labs): The Five-Subsystem Definition
+
+Walking Labs' course defines a harness operationally: **a prompt file is not a harness**; the harness is "everything in the engineering infrastructure outside the model weights" — the layer that determines how much of the model's capability actually gets realized. ^[extracted] OpenAI's "the repo IS the spec" and Anthropic's long-running-agents guidance (state persistence, explicit recovery paths, structured progress tracking) are presented as the same principle: all necessary context should live in the repository, delivered through structured instruction files and explicit verification commands. ^[extracted]
+
+The lecture decomposes a harness into **five subsystems**, all essential — missing any one makes the harness incomplete: ^[extracted]
+
+| Subsystem | Responsibility | Canonical artifact |
+|---|---|---|
+| Instructions | Project overview & purpose, tech stack/versions, first-run commands, hard constraints | AGENTS.md / CLAUDE.md (~100 lines; split overflow into docs/) |
+| Tools | Sufficient tool access under least privilege — don't disable shell | shell, editor, browser |
+| Environment | Self-describing, reproducible environment state | `pyproject.toml`/`package.json`, `.nvmrc`, Docker/devcontainers |
+| State | Progress tracking across sessions | PROGRESS.md (done / in progress / blocked) |
+| Feedback | Verification commands — the highest-ROI subsystem | `pytest`, `mypy --strict`, `ruff`, `make check` in AGENTS.md |
+
+Supporting claims:
+
+- **"The repo is the single source of truth"** — anything the agent cannot see, for all practical purposes, does not exist; OpenAI treats the repo as the "system of record." ^[extracted]
+- **Give a map, not a manual** — AGENTS.md should be a directory page, not an encyclopedia; if it doesn't fit, split it into `docs/` and let the agent read on demand. ^[extracted]
+- **Constrain, don't micromanage** — executable rules enforce invariants; Anthropic's finding that agents confidently praise their own work motivates separating the worker from the checker. ^[extracted]
+- **Controlled variable exclusion test** — keep the model fixed, remove one subsystem at a time, measure the performance drop to quantify marginal contribution; bottleneck location requires failure records and root-cause attribution, with ablation as supporting evidence only. ^[extracted]
+- **Case study:** a team's GPT-4o TypeScript/React build (~20k LOC) went from **20% → 60% → 80% → 80–100%** run success by adding only harness components (AGENTS.md, verification commands, progress templates) — the model never changed. "You did not switch to a better model — what changed was the harness." ^[extracted]
+- **Harness debt** — harnesses rot like code; audit regularly and pay down harness debt like technical debt. ^[extracted]
+- AutoGPT's looping failures are cited as harness failure, not model failure. ^[extracted]
+
+This five-subsystem model is a practitioner-level complement to the MemoHarness six-surface decomposition above: the lecture's surfaces are repo-level artifacts (files, commands, environment), while MemoHarness's $\mathcal{W} = \prod_{d=1}^{6} \mathcal{W}^{(d)}$ are control surfaces over the execution loop. ^[inferred] The lecture also cites Anthropic calling its Claude Agent SDK a "general-purpose agent harness" in support. ^[extracted]
+
+See [[references/harness-lecture-02-what-a-harness-actually-is|Lecture 02: What a Harness Actually Is]] for the full deep-dive.
+
 ## Related
 
 - [[concepts/shared-timeline|Shared Timeline]] — The workflow model the harness enables
 - [[concepts/parallel-agents|Parallel Agents]] — A harness capability
+- [[concepts/long-horizon-agency]] — Full formalization of Agent = π_θ ⊕ H and H1/H2/H3 levels
+- [[references/memoharness-agent-harnesses-learn-from-experience]] — MemoHarness six-surface decomposition
+- [[references/towards-long-horizon-agents-a-survey]] — Survey on harness engineering and model optimization
+- [[references/awesome-long-horizon-agents]] — Curated reading list companion to the survey
 - [[concepts/ai-eval-beyond-sweebench|AI Evals Beyond SweeBench]] — Why harness capability matters for evals
 - [[concepts/ubiquitous-ai|Ubiquitous AI]] — The harness enables AI to be everywhere

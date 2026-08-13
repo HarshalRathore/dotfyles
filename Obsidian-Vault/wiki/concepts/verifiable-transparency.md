@@ -58,6 +58,7 @@ The log is **append-only** and uses a **Merkle tree** structure so that its cont
 - [[concepts/remote-attestation|Remote Attestation]]
 - [[concepts/trust|Trust]]
 - [[concepts/trust-root|Trust Root]]
+- [[concepts/merkle-tree|Merkle Tree]] — the hash-tree structure transparency logs are built on
 
 ## Sources
 

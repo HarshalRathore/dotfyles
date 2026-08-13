@@ -5,6 +5,7 @@ tags: [reasoning-models, planning, strategy, abstraction, inference-time-compute
 aliases: [planning, model planning, reasoning planning]
 sources:
   - "https://www.youtube.com/watch?v=-9E9_21tx04"
+  - "https://www.deeplearning.ai/courses/agentic-ai"
 summary: "The frontier of reasoning model capabilities: strategy (choosing the right direction), abstraction (breaking problems into tractable sub-tasks), and parallel compute. Planning is the next frontier beyond skills."
 provenance:
   extracted: 0.75
@@ -14,7 +15,7 @@ base_confidence: 0.65
 lifecycle: draft
 tier: supporting
 created: 2026-07-06
-updated: 2026-07-06
+updated: 2026-08-02T13:04:14Z
 relationships:
   - target: "[[concepts/reasoning-models|Reasoning Models]]"
     type: applies_to
@@ -65,6 +66,10 @@ Nathan Lambert (AI2) proposed a taxonomy at AI Engineer World's Fair 2025: ^[ext
 - **Parallel compute** — o1 pro and o3 pro use parallel compute to make solutions more robust
 - **Human effort** — skills like backtracking and verification required 12–18 months of human data from OpenAI (QStar → Strawberry → o1)
 - Planning outputs are more intuitive to collect from humans than reasoning traces
+
+## Executable Plans from Agentic Workflows
+
+Andrew Ng's course presents planning as a tool-aware step that can inspect available capabilities, produce a sequence, and pass each plan step to an executor. JSON or XML makes the plan parseable by downstream code; code can express richer branching and parallelism. This reduces hard-coded sequences without removing the need to inspect, constrain, and evaluate execution. ^[extracted]
 
 ## The Provocation: Training vs. Post-Training
 
