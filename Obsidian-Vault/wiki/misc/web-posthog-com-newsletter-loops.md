@@ -26,6 +26,7 @@ base_confidence: 0.78
 lifecycle: draft
 lifecycle_changed: 2026-06-30
 tier: supporting
+---
 
 # Why we're bullish on loops
 

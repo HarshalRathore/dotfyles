@@ -6,7 +6,7 @@ aliases: [planning, model planning, reasoning planning]
 sources:
   - "https://www.youtube.com/watch?v=-9E9_21tx04"
   - "https://www.deeplearning.ai/courses/agentic-ai"
-summary: "The frontier of reasoning model capabilities: strategy (choosing the right direction), abstraction (breaking problems into tractable sub-tasks), and parallel compute. Planning is the next frontier beyond skills."
+summary: "The frontier of reasoning models: strategy (choosing direction), abstraction (breaking problems into tractable sub-tasks), and parallel compute — planning is the next frontier beyond skills."
 provenance:
   extracted: 0.75
   inferred: 0.20

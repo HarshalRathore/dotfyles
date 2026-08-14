@@ -1,7 +1,13 @@
 ---
-title: Spec-Based Feature Building — Tweet by @trq212
+title: "Spec-Based Feature Building — Tweet by @trq212"
 category: references
-tags: [twitter #claude-code #agent-design #spec-based #coding-agents #anthropic]
+tags:
+- twitter
+- "#claude-code"
+- "#agent-design"
+- "#spec-based"
+- "#coding-agents"
+- "#anthropic"
 aliases: [Spec-Based Building, Claude Code Spec Workflow]
 relationships:
   - target: "[[entities/thariq-al-samarrai]]"
@@ -12,7 +18,7 @@ relationships:
     type: related_to
 sources:
   - https://x.com/trq212/status/2035579288724947380
-summary: Thariq Al-Samarrai's tweet describing his preferred Claude Code workflow: start with a minimal spec, interview the user via AskUserQuestionTool, then execute the spec in a new session.
+summary: "Thariq Al-Samarrai's tweet describing his preferred Claude Code workflow: start with a minimal spec, interview the user via AskUserQuestionTool, then execute the spec in a new session."
 provenance:
   extracted: 0.90
   inferred: 0.08

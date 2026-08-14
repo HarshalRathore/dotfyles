@@ -12,7 +12,7 @@ relationships:
     type: related_to
 sources:
   - https://earendil.com/posts/prompt-caching/
-summary: Earendil Engineering's systems-level essay on prompt caching for coding agents — KV-cache mechanics, session affinity vs distributed caches, explicit vs automatic prefix caching, how tool loadouts and TTLs trash caches, the price of a miss, and why Pi doesn't prune aggressively (compaction is a cache reset, not a failure).
+summary: "Earendil's essay on prompt caching for coding agents — KV-cache mechanics, session affinity vs distributed caches, how tool loadouts and TTLs trash caches, and why Pi doesn't prune aggressively."
 provenance:
   extracted: 0.9
   inferred: 0.08

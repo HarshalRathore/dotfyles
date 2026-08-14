@@ -12,7 +12,7 @@ relationships:
     type: related_to
 sources:
   - https://earendil.com/posts/session-portability/
-summary: Earendil Engineering's essay on session ownership — inference APIs returning provider-bound state (encrypted reasoning, hidden searches, opaque compaction, sealed subagent messages) erode the transcript; the five tests of a portable session (inspection, export, replay, audit, deletion) and what a portable inference API should promise.
+summary: "Earendil's essay on session ownership — provider-bound state erodes the transcript; portable-session tests: inspection, export, replay, audit, deletion; what a portable inference API should promise."
 provenance:
   extracted: 0.9
   inferred: 0.07

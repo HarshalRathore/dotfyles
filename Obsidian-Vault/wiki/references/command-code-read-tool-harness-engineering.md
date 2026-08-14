@@ -7,7 +7,7 @@ sources:
   - "https://x.com/MrAhmadAwais/status/2086521445694517404"
 created: "2026-08-09T20:15:12Z"
 updated: "2026-08-09T20:15:12Z"
-summary: "Long-form source of Ahmad Awais' X post: how Command Code rebuilt read_file for open models — three read ceilings, recovery-on-silence, partial-view ledger, self-expiring dedup, adversarial filename repair, and a 10-harness benchmark."
+summary: "Ahmad Awais' long-form X post: Command Code's read_file rebuild for open models — three read ceilings, recovery-on-silence, partial-view ledger, filename repair, 10-harness benchmark."
 provenance:
   extracted: 0.82
   inferred: 0.14

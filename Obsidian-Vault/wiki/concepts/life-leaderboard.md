@@ -10,7 +10,7 @@ relationships:
     type: part_of
 sources:
   - https://www.youtube.com/watch?v=4sX_He5c4sI
-summary: A real-world evaluation leaderboard powered by 10 million users and 700 million traces, ranking frontier models across text, image, video, code, and agent capabilities — achieving 100M ARR in 8 months.
+summary: "Real-world evaluation leaderboard from 10M users and 700M traces, ranking frontier models across text, image, video, code, and agent capabilities — 100M ARR in 8 months."
 provenance:
   extracted: 0.85
   inferred: 0.10

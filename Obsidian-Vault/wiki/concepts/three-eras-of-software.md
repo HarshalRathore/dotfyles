@@ -12,7 +12,7 @@ relationships:
     type: related_to
 sources:
   - https://www.youtube.com/watch?v=4sX_He5c4sI
-summary: A historical framework dividing software development into three eras: machine-limited, human-brain-limited, and AI frontier — each defined by its primary constraint.
+summary: "A historical framework dividing software development into three eras: machine-limited, human-brain-limited, and AI frontier — each defined by its primary constraint."
 provenance:
   extracted: 0.85
   inferred: 0.10

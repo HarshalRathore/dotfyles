@@ -12,7 +12,7 @@ relationships:
     type: related_to
 sources:
   - https://www.youtube.com/watch?v=4sX_He5c4sI
-summary: A delegation hierarchy: exact answers → code, interpretation/judgment → agents, authority → humans. Each tier matches the right tool to the right kind of decision.
+summary: "A delegation hierarchy: exact answers → code, interpretation/judgment → agents, authority → humans. Each tier matches the right tool to the right kind of decision."
 provenance:
   extracted: 0.90
   inferred: 0.05

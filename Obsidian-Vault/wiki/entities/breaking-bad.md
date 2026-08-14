@@ -1,7 +1,17 @@
 ---
 title: Breaking Bad
 category: entities
-tags: [tv-show #breaking-bad #amc #crime-drama #walter-white #heisenberg #ryan-gillian #bryan-cranston #vince-gilligan #peak-tv]
+tags:
+  - tv-show
+  - "#breaking-bad"
+  - "#amc"
+  - "#crime-drama"
+  - "#walter-white"
+  - "#heisenberg"
+  - "#ryan-gillian"
+  - "#bryan-cranston"
+  - "#vince-gilligan"
+  - "#peak-tv"
 aliases: [Breaking Bad]
 relationships:
   - target: "[[references/top-100-web-series-tweet]]"

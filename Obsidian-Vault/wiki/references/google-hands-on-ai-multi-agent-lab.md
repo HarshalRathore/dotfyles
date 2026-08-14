@@ -10,7 +10,7 @@ tags:
 sources:
   - "https://x.com/i/status/2083602508807569560"
   - "https://nitter.tiekoetter.com/i/article/2079597821511020996"
-summary: "A timestamped distillation of the captured 2h03m Google Hands-on AI lab: MCP tooling, ADK sequential/parallel/loop agents, A2A agent cards, callbacks, plugins, state, memory, and a Cloud Run boss fight."
+summary: "A timestamped distillation of the captured 2h03m Google Hands-on AI lab — MCP tooling, ADK sequential/parallel/loop agents, A2A cards, callbacks, plugins, state, memory, a Cloud Run boss fight."
 provenance:
   extracted: 0.84
   inferred: 0.12

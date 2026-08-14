@@ -5,7 +5,7 @@ tags: [reinforcement-learning, rl, multi-turn, agents, tool-use, aief2025]
 aliases: [multi-turn reinforcement learning, multi-turn rl, agentic rl]
 sources:
   - "https://www.youtube.com/watch?v=-9E9_21tx04"
-summary: "The direction of reinforcement learning toward multi-turn agentic systems — tool calls, software, games, long-horizon planning, computer use, and memory. Scaling on tool calls lets agents solve harder problems."
+summary: "Reinforcement learning heads toward multi-turn agentic systems — tool calls, software, games, long-horizon planning, computer use, memory. Scaling on tool calls lets agents solve harder problems."
 provenance:
   extracted: 0.80
   inferred: 0.15

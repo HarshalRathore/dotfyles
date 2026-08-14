@@ -1,13 +1,13 @@
 ---
-title: Loop Failure Modes: Relational Deadlock and Cache Hygiene
+title: "Loop Failure Modes: Relational Deadlock and Cache Hygiene"
 category: references
 type: reference
 tags:
-  - oop-engineering
-  - gent-architecture
-  - utonomous-agents
-  - ngineering-patterns
-  - eliability
+  - loop-engineering
+  - agent-architecture
+  - autonomous-agents
+  - engineering-patterns
+  - reliability
   - failure-modes
   - deadlock
   - cache

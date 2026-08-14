@@ -39,7 +39,7 @@ relationships:
   type: related_to
 - target: '[[misc/web-x-com-i-status-2084018136437985417|LazyGraphRAG X post]]'
   type: derived_from
-summary: "Jonathan Larson's AIEF2025 talk: GraphRAG for code (game QA, Python-to-Rust, Doom feature dev), Benchmark QED (AutoQ/AutoE/AutoD), and LazyGraphRAG's 92/90/91% wins over vector RAG at 8k/120k/1M tokens at a tenth of the cost."
+summary: "Jonathan Larson's AIEF2025 talk: GraphRAG for code (game QA, Python-to-Rust, Doom dev), Benchmark QED (AutoQ/AutoE/AutoD), and LazyGraphRAG's 92/90/91% wins over vector RAG, tenth the cost."
 ---
 
 # GraphRAG Methods to Create Optimized LLM Context Windows for Retrieval

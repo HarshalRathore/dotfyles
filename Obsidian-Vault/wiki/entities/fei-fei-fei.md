@@ -10,7 +10,7 @@ relationships:
     type: pioneer_of
 sources:
   - https://www.youtube.com/watch?v=4sX_He5c4sI
-summary: Renowned AI researcher and computer vision pioneer (ImageNet), associated with the concept of "special intelligence" — a framing of spatial/world intelligence as distinct from language-based reasoning — discussed at WF2026.
+summary: "Renowned AI researcher and computer vision pioneer (ImageNet), associated with \"special intelligence\" — spatial/world intelligence as distinct from language-based reasoning — discussed at WF2026."
 provenance:
   extracted: 0.80
   inferred: 0.15

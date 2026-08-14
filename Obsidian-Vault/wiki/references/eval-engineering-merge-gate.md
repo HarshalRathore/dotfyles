@@ -13,7 +13,7 @@ sources:
 source_url: "https://nitter.tiekoetter.com/i/article/2083540339147567268"
 created: "2026-08-03T00:00:00Z"
 updated: "2026-08-03T00:00:00Z"
-summary: "Hanako's six-step course on building an evaluation gate that lets agents merge without human review: judge bias, verdict-driven control, path grading, log-derived tests, judge pinning, and blast-radius lanes."
+summary: "Hanako's six-step course on an eval gate that lets agents merge without review: judge bias, verdict-driven control, path grading, log-derived tests, judge pinning, blast-radius lanes."
 stub: false
 provenance:
   extracted: 0.80

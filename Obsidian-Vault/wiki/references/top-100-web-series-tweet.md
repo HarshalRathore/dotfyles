@@ -1,7 +1,14 @@
 ---
 title: Top 100 Web Series / TV Shows of All Time
 category: references
-tags: [curated-list #tv-shows #web-series #imdb #entertainment #ranking #globalstats]
+tags:
+- curated-list
+- "#tv-shows"
+- "#web-series"
+- "#imdb"
+- "#entertainment"
+- "#ranking"
+- "#globalstats"
 aliases: [Top 100 TV Shows All Time, Global Stats Top 100 TV]
 relationships:
   - target: "[[references/top-5-most-expensive-tv-shows]]"

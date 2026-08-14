@@ -9,7 +9,7 @@ tags:
   - engineering-paradigm
 sources:
   - 'https://newsletter.posthog.com/p/why-were-bullish-on-loops'
-summary: PostHog's Ian Vanagas on why engineering loops are an expression of real industry-wide progress: models are 6× better at long-running tasks, loops are built into tools, and subagents separate loops from work.
+summary: "PostHog's Ian Vanagas: engineering loops are an expression of real progress — models are 6× better at long-running tasks, loops are built into tools, subagents separate loops from work."
 provenance:
   extracted: 0.90
   inferred: 0.10

@@ -3,7 +3,7 @@ title: Public Key Infrastructure (PKI)
 type: redirect
 redirects_to: '[[concepts/public-key-infrastructure]]'
 tags: []
-created: None
+created: 2026-07-02
 updated: 2026-07-02
 category: concepts
 sources: []

@@ -8,7 +8,7 @@ sources:
   - "https://x.com/i/status/2084613319558635940"
 created: "2026-08-11"
 updated: "2026-08-11"
-summary: "AI systems-design explainer on YouTube (channel: Sean's AI Stories); creator of the AutoManus sales-agent MCP product; author of viral explainer videos on agent harnesses, loop engineering, and agent memory."
+summary: "YouTube AI systems-design channel (Sean's AI Stories); creator of AutoManus sales-agent MCP product; author of viral explainer videos on agent harnesses, loop engineering, agent memory."
 provenance:
   extracted: 0.6
   inferred: 0.35

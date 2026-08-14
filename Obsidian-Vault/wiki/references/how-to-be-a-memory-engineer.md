@@ -13,7 +13,7 @@ sources:
 source_url: "https://nitter.tiekoetter.com/i/article/2083971749079581120"
 created: "2026-08-03T00:00:00Z"
 updated: "2026-08-03T00:00:00Z"
-summary: "N01ennn's fifteen-step memory-engineering course across four labs: Stanford prices the write path, Microsoft stores facts not logs, Anthropic keeps deletable memory, Nvidia reads memory as KV cache — the job is forgetting."
+summary: "N01ennn's 15-step memory-engineering course: Stanford prices the write path, Microsoft stores facts not logs, Anthropic keeps deletable memory, Nvidia reads memory as KV cache — forgetting is the job."
 stub: false
 provenance:
   extracted: 0.82

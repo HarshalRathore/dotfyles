@@ -1,13 +1,13 @@
 ---
-title: Loop Engineering: Product vs Research Loops
+title: "Loop Engineering: Product vs Research Loops"
 category: references
 type: reference
 tags:
-  - oop-engineering
-  - gent-architecture
-  - utonomous-agents
-  - ngineering-patterns
-  - eliability
+  - loop-engineering
+  - agent-architecture
+  - autonomous-agents
+  - engineering-patterns
+  - reliability
   - posthog
   - research-loops
   - reward-hacking

@@ -5,7 +5,7 @@ tags: [compaction, pi, context-management, prompt-caching, coding-agents]
 aliases: [earendil compaction post, pi compaction official, compaction in pi]
 sources:
   - https://earendil.com/posts/compaction-in-pi/
-summary: The official Earendil Engineering post on how compaction works in Pi — context overflow mechanics, the 20k-token retained tail, the standalone summarization-assistant request, plain-text portable summaries, and why compaction breaks prompt caching.
+summary: "Earendil's post on compaction in Pi — overflow mechanics, 20k-token retained tail, standalone summarization-assistant request, plain-text portable summaries, why compaction breaks prompt caching."
 provenance:
   extracted: 0.92
   inferred: 0.05

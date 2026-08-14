@@ -16,7 +16,7 @@ sources:
   - https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models
   - https://commandcode.ai/docs/harness-engineering/read-tool
   - https://x.com/MrAhmadAwais/status/2086521445694517404
-summary: "Anthropic's coding agent combining filesystem-centered context with feature-level implementation — and the product that demonstrated the 80% system-prompt reduction; its read tool also anchors Command Code's 2026 ten-harness benchmark as the probe-only column."
+summary: "Anthropic's coding agent combining filesystem-centered context with feature-level implementation — it demonstrated the 80% system-prompt reduction; its read tool anchors the probe-only column."
 provenance:
   extracted: 0.85
   inferred: 0.10

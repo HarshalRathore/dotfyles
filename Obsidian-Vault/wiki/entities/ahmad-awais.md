@@ -10,7 +10,7 @@ relationships:
     type: related_to
 sources:
   - "https://x.com/MrAhmadAwais/status/2086521445694517404"
-summary: "CEO of Command Code AI (⌘ CommandCode), founder of Langbase, ex-VP DX, Google Developer Advisory Board, GitHub Star — prolific open-source developer-advocate writing on harness engineering for open models."
+summary: "CEO of Command Code AI (⌘ CommandCode), founder of Langbase, ex-VP DX, Google Developer Advisory Board, GitHub Star — open-source developer-advocate writing on harness engineering for open models."
 provenance:
   extracted: 0.90
   inferred: 0.10

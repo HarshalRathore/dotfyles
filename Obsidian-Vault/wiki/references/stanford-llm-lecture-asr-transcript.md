@@ -9,7 +9,7 @@ tags:
   - education
 sources:
   - "https://x.com/i/status/2083498308899573948"
-summary: "Timestamped remote ASR transcript of the 76m48s media embedded in an X post; the recording covers subword tokenization, causal language modeling, decoding, scaled dot-product attention, causal masking, and multi-head attention."
+summary: "Timestamped remote ASR transcript of the 76m48s media from an X post: subword tokenization, causal language modeling, decoding, scaled dot-product attention, causal masking, multi-head attention."
 provenance:
   extracted: 0.78
   inferred: 0.00

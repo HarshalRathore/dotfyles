@@ -15,7 +15,7 @@ sources:
   - "https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus"
   - "https://yingchao.dev/blog/compaction"
   - "https://earendil.com/posts/compaction-in-pi/"
-summary: Prompt caching is a prefix-match optimization that reuses computation from previous API roundtrips, dramatically reducing latency and cost for long-running agentic products like Claude Code. Exact-prefix matching makes compaction a deliberate cache break.
+summary: "Prompt caching reuses prior API-roundtrip computation via exact-prefix matching, cutting latency and cost for long-running agentic products like Claude Code — compaction is a deliberate cache break."
 provenance:
   extracted: 0.85
   inferred: 0.10

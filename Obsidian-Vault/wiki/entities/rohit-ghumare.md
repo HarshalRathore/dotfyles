@@ -4,7 +4,7 @@ category: entities
 tags: [devops, kubernetes, cloud-native, devrel, author]
 aliases:
   - That DevOps Guy
-  - @ghumare64
+  - "@ghumare64"
 sources:
   - 'https://x.com/ghumare64/status/1625365398156877826'
 summary: DevOps advocate and cloud-native educator. Creator of free K8s resources, Gumroad ebook, Kubesimplify YouTube workshop, and monthly newsletter with 10K+ subscribers.

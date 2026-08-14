@@ -10,7 +10,7 @@ tags:
 - popper
 sources:
 - 'https://www.youtube.com/watch?v=4sX_He5c4sI'
-summary: Karl Popper's philosophy of science — theories compete through natural selection via empirical testing, and the best theory survives. Referenced at WF2026 as the intellectual foundation for automating scientific discovery via AI.
+summary: "Karl Popper's philosophy: theories compete through empirical testing and the best survive. Cited at WF2026 as the intellectual foundation for automating scientific discovery via AI."
 provenance:
   extracted: 0.80
   inferred: 0.15

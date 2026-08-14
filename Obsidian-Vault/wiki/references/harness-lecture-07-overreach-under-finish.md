@@ -14,7 +14,7 @@ provenance:
   extracted: 0.85
   inferred: 0.10
   ambiguous: 0.05
-summary: "Lecture 7 of Learn Harness Engineering: overreach (doing more than asked) and under-finish (stopping before done) feed each other; WIP=1, executable completion evidence, and an externalized scope surface fix it."
+summary: "Learn Harness Engineering Lecture 7: overreach (more than asked) and under-finish (stopping early) feed each other; WIP=1, executable completion evidence, and externalized scope fix it."
 ---
 
 # Draw Clear Task Boundaries for Agents — Learn Harness Engineering, Lecture 7

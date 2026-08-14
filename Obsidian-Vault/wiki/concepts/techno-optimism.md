@@ -9,7 +9,7 @@ tags:
 - technology
 sources:
 - 'https://www.youtube.com/watch?v=4sX_He5c4sI'
-summary: The belief that technology is the perpetual source of economic growth and that no material problem is beyond solution through more technology — articulated by Mark Andreessen's Techno-Optimist Manifesto.
+summary: "Belief that technology drives economic growth perpetually and no material problem is beyond solution through more technology — from Andreessen's Techno-Optimist Manifesto."
 provenance:
   extracted: 0.80
   inferred: 0.15

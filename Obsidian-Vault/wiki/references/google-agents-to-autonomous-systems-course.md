@@ -14,7 +14,7 @@ aliases:
 sources:
   - "https://x.com/i/status/2083932817738666010"
   - "https://video.twimg.com/amplify_video/2083930623962406912/vid/avc1/1922x1080/Z6F8963hpN2se-3A.mp4"
-summary: "Google Cloud's 2h17m Space Quest live workshop by Annie: consistent avatar generation (express), multi-agent MCP voting (perceive and reason), and a bidirectional live multimodal agent (go live) with ADK."
+summary: "Google Cloud's 2h17m Space Quest workshop by Annie: consistent avatar generation (express), multi-agent MCP voting (perceive and reason), and a live multimodal agent (go live) with ADK."
 provenance:
   extracted: 0.80
   inferred: 0.15

@@ -15,7 +15,7 @@ sources:
 - "https://www.deeplearning.ai/courses/agentic-ai"
 - "https://nitter.tiekoetter.com/i/article/2080296261576687751"
 - "https://video.twimg.com/amplify_video/2083930623962406912/vid/avc1/1922x1080/Z6F8963hpN2se-3A.mp4"
-summary: "Multi-agent architecture composes specialized agents into a graph of bounded tools, agent-to-agent handoffs, workflow transitions, and shared memory instead of one undifferentiated loop; parallel specialist voting with state as a shared whiteboard is a core coordination pattern."
+summary: "Multi-agent architecture composes specialized agents with bounded tools, handoffs, and shared memory instead of one loop; parallel specialist voting on a shared whiteboard is a core pattern."
 provenance:
   extracted: 0.81
   inferred: 0.14

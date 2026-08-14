@@ -5,7 +5,7 @@ tags: [transcript, aief2025, reasoning, reinforcement-learning, agents, arc-agi,
 aliases: [aief2025-reasoning-rl, ai-engineer-worlds-fair-2025-reasoning-rl]
 sources:
   - "https://www.youtube.com/watch?v=-9E9_21tx04"
-summary: "AI Engineer World's Fair 2025 track on reasoning and reinforcement learning. Speakers: Kyle Corbett (OpenPipe), Greg Kamradt (ARC Prize Foundation), Akansha Chowdhury (Reflection AI), Ryan Martin (Bespoke Labs), Chris Segity (ex-xAI). Topics: RL for agent reliability, ARC-AGI benchmarks, OpenThoughts 3, Verifiers toolkit, reward hacking, calibration, planning, rubric-based evals, verified superintelligence."
+summary: "AI Engineer World's Fair 2025 reasoning & RL track — RL for agent reliability, ARC-AGI, OpenThoughts 3, Verifiers, reward hacking, calibration, planning, rubric evals, verified superintelligence."
 provenance:
   extracted: 1.0
   inferred: 0.0

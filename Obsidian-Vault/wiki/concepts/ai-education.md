@@ -7,7 +7,7 @@ sources:
   - "https://x.com/i/status/2084613319558635940"
 created: "2026-07-06"
 updated: "2026-08-11"
-summary: "How complex AI concepts get taught well: the one-analogy theory of explanation — simplification by finding the analogy that makes the whole thing click, not by cutting corners. Case study: Sean's AI Stories."
+summary: "How complex AI concepts get taught well — the one-analogy theory: simplification via the analogy that makes it click, not by cutting corners. Case study: Sean's AI Stories."
 provenance:
   extracted: 0.6
   inferred: 0.3

@@ -1,7 +1,16 @@
 ---
 title: Game of Thrones
 category: entities
-tags: [tv-show #game-of-thrones #hbo #fantasy #david-benioff #d-b-weiss #emilia-clarke #kit-harington #george-rr-martin]
+tags:
+- tv-show
+- "#game-of-thrones"
+- "#hbo"
+- "#fantasy"
+- "#david-benioff"
+- "#d-b-weiss"
+- "#emilia-clarke"
+- "#kit-harington"
+- "#george-rr-martin"
 aliases: [GoT, Game of Thrones]
 relationships:
   - target: "[[references/top-100-web-series-tweet]]"

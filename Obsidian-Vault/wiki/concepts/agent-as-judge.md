@@ -29,7 +29,7 @@ relationships:
 sources:
   - "https://arxiv.org/abs/2506.21506"
   - "https://www.youtube.com/watch?v=4sX_He5c4sI"
-summary: Using agents to evaluate other agents through adaptive dynamic analysis and tree-structured rubrics — enabling evaluation of non-deterministic and long-horizon agentic systems where traditional static evaluation fails.
+summary: "Using agents to evaluate other agents via adaptive dynamic analysis and tree-structured rubrics — for non-deterministic, long-horizon agentic systems where static evaluation fails."
 provenance:
   extracted: 0.80
   inferred: 0.18

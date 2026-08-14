@@ -11,7 +11,7 @@ tags:
 sources:
 - "https://commandcode.ai/docs/harness-engineering/read-tool"
 - "https://x.com/MrAhmadAwais/status/2086521445694517404"
-summary: "Fourteen design lessons for building a file-read tool that spends tokens only on what the model needs — ceilings, recovery-on-silence, partial-view ledger, self-expiring dedup, filename repair, and input coercion rules."
+summary: "14 design lessons for a file-read tool spending tokens only on what the model needs — ceilings, recovery-on-silence, partial-view ledger, self-expiring dedup, filename repair, coercion rules."
 provenance:
   extracted: 0.80
   inferred: 0.16

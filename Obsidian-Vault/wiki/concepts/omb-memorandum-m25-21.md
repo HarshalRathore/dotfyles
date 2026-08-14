@@ -1,7 +1,7 @@
 ---
 title: OMB Memorandum M-25-21
 category: concepts
-tags: [omb, ai-policy, government-regulation, ai-governance, federal-agencies, 2025]
+tags: [omb, ai-policy, government-regulation, ai-governance, federal-agencies, "2025"]
 summary: "OMB Memorandum M-25-21 (April 2025) codifies AI governance for federal agencies, mandating 180-day strategy development and mission-critical AI integration."
 sources:
   - "AIEF2025 - Applied AI and Agentic Science at a National Laboratory — Mark Machotton, Los Alamos National Laboratory - https://www.youtube.com/watch?v=cFxWPP1ik6A"

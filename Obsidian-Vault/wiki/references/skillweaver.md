@@ -1,5 +1,5 @@
 ---
-title: SkillWeaver: Web Agents can Self-Improve by Discovering and Honing Skills
+title: "SkillWeaver: Web Agents can Self-Improve by Discovering and Honing Skills"
 category: references
 tags:
   - self-improvement

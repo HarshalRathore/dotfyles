@@ -26,10 +26,10 @@ sources:
 - 'https://posthog.com/blog/10k-prs-a-month'
 - 'https://x.com/i/status/2083486328172273795'
 - 'https://claude.com/blog/product-management-on-the-ai-exponential'
-summary: An AI-driven iteration pattern that repeatedly works, evaluates, and adapts; at scale it coordinates sub-agents, artifacts, review, and verification.
 - 'https://www.deeplearning.ai/courses/agentic-ai'
 - 'https://nitter.tiekoetter.com/i/article/2080296261576687751'
 - 'https://video.twimg.com/amplify_video/2083930623962406912/vid/avc1/1922x1080/Z6F8963hpN2se-3A.mp4'
+summary: An AI-driven iteration pattern that repeatedly works, evaluates, and adapts; at scale it coordinates sub-agents, artifacts, review, and verification.
 provenance:
   extracted: 0.73
   inferred: 0.22

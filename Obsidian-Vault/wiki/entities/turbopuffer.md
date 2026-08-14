@@ -8,7 +8,7 @@ sources:
   - "https://towardsdatascience.com/how-cursor-actually-indexes-your-codebase/"
 created: "2026-08-11"
 updated: "2026-08-11"
-summary: "Serverless vector + full-text search database built on object storage (S3): 10x cheaper than alternatives, sub-10ms p50 latency, 1T+ documents in production. Used by Cursor to store code-chunk embeddings."
+summary: "Serverless vector + full-text search database on object storage (S3): 10x cheaper than alternatives, sub-10ms p50 latency, 1T+ docs in production; used by Cursor for code-chunk embeddings."
 provenance:
   extracted: 0.85
   inferred: 0.10

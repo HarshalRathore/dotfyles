@@ -7,7 +7,7 @@ tags:
 - agent-navigation
 - vibe-coding
 - aief2025
-summary: Actively managing an AI agent's context window — feeding diffs, protecting key files, building component inventories, and persisting state across sessions — to maintain reasoning quality and continuity.
+summary: "Managing an AI agent's context window — feeding diffs, protecting key files, component inventories, and persisting state across sessions — to maintain reasoning quality and continuity."
 sources:
 - AIEF2025 - How to Improve your Vibe Coding — Ian Butler - https://www.youtube.com/watch?v=g03m-WFEu1U
 - 'AIEF2025 - The Eyes Are The (Context) Window to The Soul: How Windsurf Gets to Know You — Sam Fertig, Windsurf - https://www.youtube.com/watch?v=jUv5WSPo9fk'

@@ -12,7 +12,7 @@ relationships:
     type: related_to
 sources:
   - https://github.com/earendil-works/pi/blob/main/packages/coding-agent/docs/compaction.md
-summary: Official Pi documentation for compaction and branch summarization — trigger thresholds, valid cut-point rules, split-turn handling, structured summary format with cumulative file tracking, extension hooks, and cache-disabling compaction requests.
+summary: "Official Pi docs on compaction and branch summarization — trigger thresholds, cut-point rules, split-turn handling, structured summary format, extension hooks, cache-disabling requests."
 provenance:
   extracted: 0.92
   inferred: 0.06

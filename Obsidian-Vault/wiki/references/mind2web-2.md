@@ -1,5 +1,5 @@
 ---
-title: Mind2Web 2: Evaluating Agentic Search with Agent-as-a-Judge
+title: "Mind2Web 2: Evaluating Agentic Search with Agent-as-a-Judge"
 category: references
 tags:
   - agentic-search
@@ -18,8 +18,8 @@ relationships:
     type: extends
 sources:
   - "https://arxiv.org/abs/2506.21506"
-  - "https://x.com/ysu_nlp/status/2073602859523031301" — Yu Su's tweet sharing Mind2Web 2 on Jul 5, 2026
-  - "https://x.com/paradite_/status/2073521542062831267" — Zhu Liang's original tweet asking about agent-as-judge evals (Jul 4, 2026)
+  - "https://x.com/ysu_nlp/status/2073602859523031301 — Yu Su's tweet sharing Mind2Web 2 on Jul 5, 2026"
+  - "https://x.com/paradite_/status/2073521542062831267 — Zhu Liang's original tweet asking about agent-as-judge evals (Jul 4, 2026)"
 summary: Benchmark of 130 long-horizon agentic search tasks + novel Agent-as-a-Judge evaluation framework using tree-structured rubrics for automatic assessment.
 provenance:
   extracted: 0.90

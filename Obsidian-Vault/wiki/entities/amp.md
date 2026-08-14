@@ -9,7 +9,7 @@ relationships:
 sources:
   - https://ampcode.com/
   - https://ampcode.com/news/neo
-summary: Amp — coding agent from Ampcode (ampcode.com). Its rebuilt "Neo" CLI is compaction-first: auto-compaction at 90% context, handoff removed, remote control, plugin API, queuing/steering, permissions as a plugin.
+summary: "Amp — coding agent from Ampcode. Its rebuilt \"Neo\" CLI is compaction-first: auto-compaction at 90% context, handoff removed, remote control, plugin API, permissions as a plugin."
 provenance:
   extracted: 0.85
   inferred: 0.1

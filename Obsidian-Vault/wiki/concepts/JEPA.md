@@ -12,7 +12,7 @@ relationships:
     type: extends
 sources:
   - https://www.youtube.com/watch?v=4sX_He5c4sI
-summary: Yann LeCun's Joint Embedding Predictive Architecture — a self-supervised learning approach using a Pareto pool for reflective optimization, delivering 7× AMD NPU improvement and 90× Databricks cost reduction.
+summary: "Yann LeCun's Joint Embedding Predictive Architecture — a self-supervised approach using a Pareto pool for reflective optimization, delivering 7× AMD NPU and 90× Databricks gains."
 provenance:
   extracted: 0.75
   inferred: 0.20

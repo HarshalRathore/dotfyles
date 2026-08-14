@@ -10,7 +10,7 @@ relationships:
     type: related_to
 sources:
   - https://www.trychroma.com/research/context-rot
-summary: Chroma's technical report (July 2025) measuring how increasing input tokens degrades LLM performance — 18 models, four controlled NIAH-extension experiments (needle-question similarity, distractors, needle-haystack similarity, haystack structure), LongMemEval, and a repeated-words task; performance degrades non-uniformly with input length on semantically-oriented tasks.
+summary: "Chroma's report (July 2025): as input tokens grow, LLM performance degrades non-uniformly — 18 models, four NIAH-extension experiments, LongMemEval, and a repeated-words task."
 provenance:
   extracted: 0.9
   inferred: 0.07

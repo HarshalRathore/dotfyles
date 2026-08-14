@@ -8,7 +8,7 @@ sources:
 source_url: "https://walkinglabs.github.io/learn-harness-engineering/en/lectures/lecture-03-why-the-repository-must-become-the-system-of-record/"
 created: "2026-08-13"
 updated: "2026-08-13"
-summary: "Lecture 03: the repo is the agent's single source of truth — knowledge visibility gap, fresh session test, map-drawing principles, ACID agent state, and drift costs when decisions live in chat/task trackers."
+summary: "Lecture 03: the repo is the agent's single source of truth — knowledge visibility gap, fresh-session test, map-drawing principles, ACID agent state, and drift when decisions live in chat/trackers."
 affinity: {}
 promotion_status: misc
 stub: false

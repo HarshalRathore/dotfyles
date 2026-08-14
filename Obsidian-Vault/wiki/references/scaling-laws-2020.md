@@ -1,7 +1,7 @@
 ---
 title: "Scaling Laws for LLMs (2020)"
 category: references
-tags: [scaling-laws, power-law, llm, google, 2020, compute-data-parameter-tradeoff]
+tags: [scaling-laws, power-law, llm, google, "2020", compute-data-parameter-tradeoff]
 aliases: [scaling laws, scaling law, power law LLM, 2020 scaling paper]
 sources:
   - "https://www.youtube.com/watch?v=qludzkvfp6a"

@@ -9,7 +9,7 @@ relationships:
 sources:
   - https://manus.im/
   - https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus
-summary: Manus — general-purpose AI agent company (manus.im), built on a context-engineering bet rather than a trained end-to-end agentic model; known for KV-cache-first design, logit-masking tool control, file-system-as-context, and todo.md recitation.
+summary: "Manus — AI agent company betting on context engineering over a trained end-to-end agentic model; KV-cache-first design, logit-masking tool control, file-system-as-context, todo.md recitation."
 provenance:
   extracted: 0.85
   inferred: 0.1

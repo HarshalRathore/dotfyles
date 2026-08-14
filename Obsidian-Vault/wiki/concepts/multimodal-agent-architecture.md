@@ -8,7 +8,7 @@ tags:
 sources:
 - 'https://www.youtube.com/watch?v=640kmytxcei'
 - 'https://video.twimg.com/amplify_video/2083930623962406912/vid/avc1/1922x1080/Z6F8963hpN2se-3A.mp4'
-summary: "Architecture for agents that process and retrieve across multiple modalities (text, images, tables) using a multimodal LLM for reasoning, VLM-based embedding for retrieval over page-level screenshots, and live full-duplex streaming (Gemini Live, WebSocket, request queues) for bidirectional real-time agents."
+summary: "Agent architecture across text, images, tables: multimodal LLM reasoning, VLM embeddings over page screenshots, and full-duplex streaming (Gemini Live, WebSocket) for bidirectional agents."
 provenance:
   extracted: 0.77
   inferred: 0.18

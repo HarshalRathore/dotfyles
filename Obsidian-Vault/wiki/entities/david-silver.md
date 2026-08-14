@@ -10,7 +10,7 @@ relationships:
     type: pioneer_of
 sources:
   - https://www.youtube.com/watch?v=4sX_He5c4sI
-summary: Principal Research Scientist at Google DeepMind, pioneer of reinforcement learning (AlphaGo, AlphaZero), described as the archetypal "RO maximalist" — the view that reasoning chains are just additional compute — at WF2026.
+summary: "Principal Research Scientist at Google DeepMind and RL pioneer (AlphaGo, AlphaZero), described as the archetypal \"RO maximalist\" — reasoning chains as additional compute — at WF2026."
 provenance:
   extracted: 0.85
   inferred: 0.10

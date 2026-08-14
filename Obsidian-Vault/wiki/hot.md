@@ -5,7 +5,7 @@ tags: []
 sources: []
 summary: Hot Pages
 created: '2026-07-05T04:32:00.508136+00:00'
-updated: '2026-08-13T22:40:00Z'
+updated: '2026-08-14T00:00:00Z'
 lifecycle: draft
 base_confidence: 0.42
 tier: supporting
@@ -17,9 +17,21 @@ provenance:
 
 # Hot Pages
 
-Updated: 2026-08-13T22:40:00Z
+Updated: 2026-08-14T00:00:00Z
 
 ## Recently Created
+- [[references/show-me-compact-visual-representations]] — Dex Horthy's X Article deep-dive: the show-me skill, a nine-item visual vocabulary for agent output (component trees, call stacks, diagrams, file layouts, pseudocode, types/signatures, diff syntax, HTML mockups)
+- [[misc/web-x-com-i-status-2087569590268391897]] — /show-me announcement post page (676K views, 8.2K bookmarks at capture)
+- [[concepts/visual-agent-communication]] — NEW concept: agents communicating via compact visual representations instead of prose walls
+- [[references/how-to-bypass-ai-detectors]] — Ruben Hassid X Article deep-dive: Pangram detector mechanics, the em-dash→colon bypass, workslop, and the 26-image evidence catalog
+- [[misc/web-x-com-i-status-2080171634103840976]] — How to bypass AI detectors — Ruben Hassid's X Article post page (725K views, 648 bookmarks at capture)
+- [[concepts/ai-writing-tells]] — NEW concept: the full AI-writing tell catalog (Tier 1/2 lexicon, 15 constructions, punctuation tells, human markers, swap tables)
+- [[concepts/ai-slop]] — NEW concept: AI slop, workslop, Claudefishing, and why text-level detection is unreliable
+- [[skills/anti-ai-skill]] — Ruben Hassid's Claude Code anti-ai skill (mode router, discourse fracture, 'write worse' checklist)
+- [[entities/ruben-hassid]] — Ruben Hassid (How to AI newsletter, 849K readers, ~900K LinkedIn)
+- [[entities/substack]] — Substack entity page (Pangram scan integration, anti-slop stance)
+- [[entities/chris-best]] — Chris Best entity page (Substack CEO, coined Claudefishing)
+- [[entities/pangram]] — Pangram entity page (AI detection service, 1 credit/1000 words, v3.3.2)
 - [[references/loop-engineering-product-vs-research-loops]] — Product vs research loops extracted from loop-engineering
 - [[references/loop-engineering-convergence-and-verifier]] — Yoko Li verifier lens extracted from loop-engineering
 - [[references/loop-engineering-failure-modes]] — Relational-deadlock failure mode extracted from loop-engineering
@@ -223,6 +235,7 @@ Updated: 2026-08-13T22:40:00Z
 - [[hot]] — Added current source, course, graph, and eval threads
 
 ## Recently Updated
+- [[entities/andrej-karpathy]] — 2026-07 AI-detector stance section added (school-board quote: detectors "doomed to fail")
 - [[concepts/loop-engineering]] — Loop Engineering lecture merged (generator/evaluator, six primitives, /goal minimal loop)
 - [[concepts/ai-harness]] — Five-subsystem harness definition merged (Lecture 2)
 - [[concepts/agents-md]] — Monolithic instruction-file failure modes merged (Lecture 4)
@@ -375,6 +388,8 @@ Updated: 2026-08-13T22:40:00Z
 - [[concepts/prompt-injection]] - Added Market Design Context section connecting prompt injection to agentic comme
 
 ## Recent Activity
+
+- 2026-08-14 — X-Article ingest: Ruben Hassid's "How to bypass AI detectors" (x.com/i/status/2080171634103840976). Substack CEO Chris Best wired a Pangram scan into the Substack app ("we don't want substack to turn into LinkedIn"); the author spent $34/3h of Claude Code credits building an 'anti-ai' skill against it and found the detector brittle at punctuation level — one em dash→colon edit flipped a "100% AI Generated, Confidence Low" verdict to "100% Human Written". Detection theory captured: detectors are pattern-matchers over overlapping distributions; short text is near-undetectable; style prompting (ADS-STE100 Simplified Technical English) escapes the trained distribution; Karpathy: detectors "are in principle doomed to fail". The article's tells catalog was distilled into concepts/ai-writing-tells (Tier 1/2 lexicon, 15 constructions, human markers, swap tables), and concepts/ai-slop captures workslop + Claudefishing. Nested link crawled: Dropbox transfer of the skill zip (password-gated; metadata captured, contents not fetched). All 26 embedded images were vision-analyzed and catalogued in the deep-dive. 9 pages created, 1 updated (entities/andrej-karpathy).
 
 - 2026-08-13 — Learn Harness Engineering deep-crawl ingest (Walking Labs): 21 sources orchestrated across 21 parallel sub-agents (one per page, depth-1 only). The course's core thesis — the harness is everything outside the model weights, and most 'model failures' are harness failures — now grounds the vault's agent-engineering corpus: five-subsystem harness model (instructions/tools/environment/state/feedback), repo-as-system-of-record with ACID-for-agent-state, feature-list primitives with four-state machine, generator/evaluator separation as loop-engineering's core guarantee, graph engineering as the loop-to-graph threshold, and Anthropic's initializer-agent harness (init.sh + feature list + progress file). Merges into 9 existing concept pages + 2 entity pages; 27 pages created (20 references, 3 new concepts, 1 entity, 1 misc landing, 2 stubs). Key tension recorded: handoff files (course, Lecture 5) vs provider-side compaction ('handoff is out' — Earendil/Amp) — both positions noted with dates, model-dependent (Sonnet 4.5 context anxiety vs Opus 4.5).
 - 2026-08-13 — Official Pi compaction deep-crawl: Earendil Engineering's "How Compaction Works in Pi" + linked sources. The first-party account confirms the third-party picture and adds: compaction runs as a standalone request with a dedicated "context summarization assistant" system prompt (goal/progress/key-decisions sections) that can use a cheaper model; auto-compaction is checked after a turn ends to maximize cached-prefix reuse, with mid-turn compaction only on overflow errors; summaries are plain text for session portability. Deep-crawled: "The Session You Cannot Take With You" (portability tests — inspection/export/replay/audit/deletion — vs provider-sealed state: encrypted reasoning, hidden searches, opaque compaction, sealed subagent messages) and Chroma's Context Rot technical report (18 models, 194K calls: degradation grows with input length, faster on low-similarity pairs, non-uniform under distractors and haystack structure). 6 pages created, 7 updated.

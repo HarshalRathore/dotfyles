@@ -17,7 +17,7 @@ base_confidence: 0.55
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
-updated: 2026-07-03
+updated: 2026-08-14
 category: entities
 ---
 
@@ -39,6 +39,7 @@ At [[entities/humanlayer|HumanLayer]], he is developing the **A2H (Agent-to-Huma
 - **Micro-agents in deterministic DAGs** — Pattern of embedding small (3-10 step) agent loops inside mostly deterministic workflows, applied at HumanLayer's own deployment pipeline. ^[extracted]
 - **Scaffold-over-framework** — Proposal for create-12-factor-agent following the shad-cn model: generate scaffold code that teams own and modify, rather than wrapping with a framework that hides the hard AI parts. ^[extracted]
 - **Error recovery patterns** — Specific technique: on tool failure, add error to context and retry; on success after errors, clear all pending errors rather than letting them accumulate. ^[extracted]
+- **show-me skill** — Open-source skill (announced August 2026 in his X Article "/show-me: compact visual representations for coding agents") prompting agents to explain with compact visuals — component trees, call stacks, diagrams, file layouts, pseudocode, types/signatures, diff syntax — instead of prose. Install: `npx skills add humanlayer/skills --skill show-me`. ^[extracted]
 
 ## Related
 
@@ -47,7 +48,9 @@ At [[entities/humanlayer|HumanLayer]], he is developing the **A2H (Agent-to-Huma
 - [[concepts/micro-agents]] — Key pattern he advocates
 - [[concepts/context-engineering]] — His foundational thesis about LLM quality
 - [[concepts/agent-loop]] — His perspective on owning control flow and state
+- [[concepts/visual-agent-communication]] — His show-me pattern generalized
 
 ## Sources
 
 - [[references/12-factor-agents-patterns-dex-horthy-humanlayer|12-Factor Agents: Patterns of Reliable LLM Applications — AI Engineer World's Fair 2025]]
+- [[references/show-me-compact-visual-representations|/show-me: compact visual representations for coding agents — X Article, 2026]]

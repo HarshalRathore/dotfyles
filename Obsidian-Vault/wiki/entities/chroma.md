@@ -9,7 +9,7 @@ relationships:
 sources:
   - https://www.trychroma.com/
   - https://www.trychroma.com/research/context-rot
-summary: Chroma — company behind the open-source embedding database of the same name; published the "Context Rot" technical report (2025-07-14) showing LLM performance degrades non-uniformly as input length grows.
+summary: "Chroma — company behind the open-source embedding database; published the 'Context Rot' report (2025-07-14) showing LLM performance degrades non-uniformly with input length."
 provenance:
   extracted: 0.85
   inferred: 0.1

@@ -9,7 +9,7 @@ sources:
   - "https://yingchao.dev/blog/compaction"
 created: "2026-08-11"
 updated: "2026-08-13T15:00:00Z"
-summary: "Open-source AI coding agent (195K+ GitHub stars, 16M monthly developers) running in terminal, IDE, and desktop. Structural codebase awareness via LSP and text search rather than embedding-based semantic search; compaction via an 8k-token recent context and a serialized conversation checkpoint."
+summary: "Open-source AI coding agent (195K+ stars, 16M devs) in terminal, IDE, desktop. Codebase awareness via LSP + text search, not embeddings; compaction via 8k-token context + checkpoint."
 provenance:
   extracted: 0.85
   inferred: 0.10

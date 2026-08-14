@@ -8,7 +8,7 @@ sources:
 source_url: "https://x.com/i/status/2084613319558635940"
 created: "2026-08-11"
 updated: "2026-08-11"
-summary: "Deep dive on Sean's 61.7-min explainer compilation: Hermes harness walkthrough (soul.md, memory, tools, gateway, no eval), the horse-harness model of loop engineering, the three-memory system, and the AutoManus MCP demo."
+summary: "Deep dive on Sean's 61.7-min explainer: Hermes harness walkthrough (soul.md, memory, tools, gateway), horse-harness loop-engineering model, three-memory system, AutoManus MCP demo."
 provenance:
   extracted: 0.8
   inferred: 0.15

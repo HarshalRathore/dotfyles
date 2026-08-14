@@ -11,7 +11,7 @@ sources:
   - "https://cursor.com/blog/semsearch"
 created: "2026-08-11"
 updated: "2026-08-11"
-summary: "The RAG pipeline that grounds coding agents in a codebase: AST-aware chunking, custom embeddings with file-path/line-range metadata, privacy-preserving path masking, vector storage, and hybrid semantic+regex retrieval — as built by Cursor."
+summary: "RAG pipeline grounding coding agents: AST-aware chunking, embeddings with path/line-range metadata, privacy-preserving path masking, vector storage, hybrid semantic+regex retrieval (Cursor)."
 provenance:
   extracted: 0.85
   inferred: 0.10

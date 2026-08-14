@@ -32,7 +32,7 @@ relationships:
     type: related_to
   - target: "[[concepts/llm-as-judge-problems]]"
     type: contrasts_with
-summary: "LLM-as-judge evaluation uses an LLM to assess generated outputs against quality criteria, using either ground truth answers or context-based judgment. Requires golden datasets, structured evaluation prompts, and well-defined quality criteria."
+summary: "LLM-as-judge evaluation: an LLM assesses outputs against quality criteria via ground truth answers or context-based judgment, requiring golden datasets, structured prompts, and clear criteria."
 ---
 
 # LLM as Judge

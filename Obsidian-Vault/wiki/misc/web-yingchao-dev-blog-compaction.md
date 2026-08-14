@@ -5,7 +5,7 @@ tags: [compaction, context-management, agent-harness, coding-agents, prompt-cach
 aliases: [compaction yingchao, baggiiiie compaction, harness compaction comparison]
 sources:
   - https://yingchao.dev/blog/compaction
-summary: Yingchao Dai's technical comparison of context-window compaction across three harnesses — Pi's structured summaries and split-turn handling, opencode's 8k-token checkpoint serialization, codex's server-side encrypted compaction — plus the handoff-vs-compaction philosophy shift.
+summary: "Yingchao Dai's comparison of context compaction across Pi, opencode, and codex — structured summaries, 8k-token checkpoints, server-side encryption — plus the handoff-vs-compaction shift."
 provenance:
   extracted: 0.85
   inferred: 0.12

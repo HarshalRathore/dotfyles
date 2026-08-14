@@ -14,7 +14,7 @@ aliases:
 sources:
   - "https://x.com/i/status/2083960395056939396"
   - "https://video.twimg.com/amplify_video/2083958381459738624/vid/avc1/1280x720/OOa_UkKZGnnk1NYC.mp4"
-summary: "Stanford lecture course on building LLMs from scratch in two sessions: session 1 covers tokenization, chain-rule LM, generation, training, and transformer attention; session 2 covers cross-entropy, SGD, and network components."
+summary: "Stanford course on building LLMs from scratch in two sessions: tokenization, chain-rule LM, generation, training, transformer attention; then cross-entropy, SGD, and network components."
 provenance:
   extracted: 0.82
   inferred: 0.12

@@ -2,7 +2,7 @@
 title: "Elvis Sun"
 category: entities
 tags: [person, agent-developer, pr, solo-founder]
-aliases: [Elvis, @elvissun, elvissun]
+aliases: [Elvis, "@elvissun", elvissun]
 relationships:
   - target: "[[concepts/loss-function-development]]"
     type: developed

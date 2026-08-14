@@ -5,8 +5,7 @@ tags: [agent-tools, code-editor, diff-editing, token-efficiency, ast]
 sources:
   - "AIEF2025 - Software Development Agents: What Works and What Doesn't - Robert Brennan, OpenHands - https://www.youtube.com/watch?v=o_hhkJtlbSs"
   - "https://commandcode.ai/docs/harness-engineering/read-tool"
-summary: >-
-  How coding agents edit source code: diff-based (find-and-replace) editing vs full-file regeneration. Diff-based editing saves tokens on large files. AST navigation may supplement text-based editing. Reads are the context-building half of the edit loop — the token bill is mostly reads.
+summary: "How coding agents edit source: diff-based (find-and-replace) vs full-file regeneration — diff editing saves tokens; AST navigation may supplement; reads dominate the context bill."
 provenance:
   extracted: 0.88
   inferred: 0.12

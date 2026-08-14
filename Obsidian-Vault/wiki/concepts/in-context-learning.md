@@ -14,7 +14,7 @@ aliases:
 sources:
 - 'https://x.com/i/status/2083498308899573948'
 provenance:
-  extracted: 0.8
+  extracted: 0.75
   inferred: 0.15
   ambiguous: 0.10
 base_confidence: 0.72

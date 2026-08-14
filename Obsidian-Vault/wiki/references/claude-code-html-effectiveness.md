@@ -28,7 +28,7 @@ lifecycle: draft
 lifecycle_changed: 2026-07-13
 tier: supporting
 created: 2026-07-13T00:00:00Z
-updated: 2026-07-13T00:00:00Z
+updated: 2026-08-14T00:00:00Z
 ---
 
 # Using Claude Code — The Unreasonable Effectiveness of HTML
@@ -76,6 +76,10 @@ The original article thread received significant traction:
 
 This thread extends Thariq's earlier thesis that [[concepts/agents-should-use-a-filesystem|agents should use a file system]]. If the file system is the agent's state representation, then **the format of files the agent produces matters** — HTML is one such format choice that trades simplicity for expressive power, much like how the file system trades context-window simplicity for persistent state. ^[inferred]
 
+## 2026-08-14: show-me (HumanLayer) — the compact-visual counterweight
+
+[[entities/dex-horthy|Dex Horthy]]'s show-me skill ([[references/show-me-compact-visual-representations]]) extends the HTML-for-agent-output thesis into a layered vocabulary: compact text-native visuals (component trees, call stacks, diagrams, diff syntax) are "lighter and faster than HTML, good enough for most dev-work shaped problems", with full HTML mockups/explainers retained as the heavier tier for prototyping. HumanLayer's hosted product lets agents include HTML directly in assistant responses — a first-class HTML output path parallel to Claude Code's HTML files. The two sources agree on direction (visual agent output beats Markdown prose) and differ on weight: HTML is the power tier, show-me the everyday tier. ^[extracted]
+
 ## Open Questions
 
 - When does HTML's richness become overkill vs. genuinely improve agent output quality?
@@ -87,3 +91,4 @@ This thread extends Thariq's earlier thesis that [[concepts/agents-should-use-a-
 - Original tweet thread: https://x.com/trq212/status/2052809885763747935
 - Thread continuation: https://x.com/trq212/status/2053632475294040084
 - Claude Blog (cross-post): https://claude.com/blog/using-claude-code-html
+- HumanLayer show-me X Article (related): https://x.com/i/status/2087569590268391897

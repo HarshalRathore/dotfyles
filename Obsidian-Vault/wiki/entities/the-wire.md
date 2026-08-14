@@ -1,7 +1,13 @@
 ---
 title: The Wire
 category: entities
-tags: [tv-show #the-wire #hbo #crime-drama #david-chase #ed-berns]
+tags:
+  - tv-show
+  - the-wire
+  - hbo
+  - crime-drama
+  - david-chase
+  - ed-berns
 aliases: [The Wire]
 relationships:
   - target: "[[references/top-100-web-series-tweet]]"

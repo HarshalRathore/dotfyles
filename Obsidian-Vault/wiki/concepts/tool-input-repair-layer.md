@@ -21,7 +21,7 @@ sources:
   - "Twitter — @MrAhmadAwais, May 3 2026 (DeepSeek tool-input repair) — https://x.com/MrAhmadAwais/status/2050956678502420612"
   - "https://commandcode.ai/docs/harness-engineering/read-tool"
   - "https://x.com/MrAhmadAwais/status/2086521445694517404"
-summary: Technique for fixing common LLM tool-calling failures via a small set of targeted repairs (30–100 lines) instead of treating failures as model capability gaps — extended by Command Code's read-tool input repair (10 aliases, strict numeric coercion, negative-offset tail reads).
+summary: "Fixes LLM tool-calling failures via small targeted repairs (30–100 lines), not capability gaps; extended by Command Code's read-tool repair (10 aliases, numeric coercion, negative-offset reads)."
 provenance:
   extracted: 0.76
   inferred: 0.16

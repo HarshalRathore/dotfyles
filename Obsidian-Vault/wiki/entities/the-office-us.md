@@ -1,7 +1,16 @@
 ---
 title: The Office (US)
 category: entities
-tags: [tv-show #the-office #the-office-us #nb #sitcom #mockumentary #ste-king #jenna-fischer #ste-carell]
+tags:
+- tv-show
+- "#the-office"
+- "#the-office-us"
+- "#nb"
+- "#sitcom"
+- "#mockumentary"
+- "#ste-king"
+- "#jenna-fischer"
+- "#ste-carell"
 aliases: [The Office (US), The Office US, US Office]
 relationships:
   - target: "[[references/top-100-web-series-tweet]]"

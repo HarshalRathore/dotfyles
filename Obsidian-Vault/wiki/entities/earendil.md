@@ -10,7 +10,7 @@ sources:
   - https://earendil.com/
   - https://github.com/earendil-works/
   - https://pi.dev
-summary: Earendil Inc. — the company behind the Pi coding agent (pi.dev), the Lefos platform, and the earendil-works GitHub org; publishes first-party engineering essays (prompt caching, session portability, compaction) under "Earendil Engineering".
+summary: "Earendil Inc. — company behind Pi (pi.dev), Lefos, and earendil-works GitHub org; publishes first-party engineering essays (prompt caching, session portability, compaction)."
 provenance:
   extracted: 0.85
   inferred: 0.12

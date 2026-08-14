@@ -12,7 +12,7 @@ sources:
 - "Graph Engineering: build 1000+ agent loops in one window from one prompt — X post and captured Google Hands-on AI Multi-Agent Lab, 2026-08-02"
 - "Google Hands-on AI Multi-Agent Lab - MCP, ADK, A2A, and Agent Memory"
 - "https://nitter.tiekoetter.com/i/article/2083971749079581120"
-summary: "Agent memory is the state and context an agent preserves across steps or executions; memory engineering adds its cost, retention, control, and hardware lenses — optimizing what the system forgets on purpose."
+summary: "Agent memory: the state and context an agent preserves across steps or executions; memory engineering adds cost, retention, control, and hardware lenses — optimizing what the system forgets."
 provenance:
   extracted: 0.79
   inferred: 0.16

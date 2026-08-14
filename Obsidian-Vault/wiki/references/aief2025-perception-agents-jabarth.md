@@ -10,7 +10,7 @@ tags:
 - computer-use
 sources:
 - 'https://www.youtube.com/watch?v=4sX_He5c4sI'
-summary: Amazon AGI Lab's Jabarth presents perception agents — agents that perceive rendered screens, plan, and act in real-time — as the solution to the reliability gap in agentic computer use and knowledge work.
+summary: "Amazon AGI Lab's Jabarth presents perception agents — perceiving rendered screens, planning, acting in real-time — as the fix for the reliability gap in agentic computer use and knowledge work."
 provenance:
   extracted: 0.85
   inferred: 0.15

@@ -8,7 +8,7 @@ tags:
 - anthropic
 sources:
 - 'https://www.youtube.com/watch?v=4sX_He5c4sI'
-summary: The phenomenon where models have latent abilities that aren't visible in raw interaction but emerge when given the right tools or scaffolding — Claude can solve the Pokemon suffix question with code execution but not in raw chat.
+summary: Models' latent abilities invisible in raw interaction but emerging with the right tools or scaffolding — Claude solves the Pokemon suffix question with code execution, not raw chat.
 provenance:
   extracted: 0.75
   inferred: 0.25

@@ -14,7 +14,7 @@ sources:
   - "https://x.com/MrAhmadAwais/status/2086521445694517404"
   - "https://commandcode.ai/docs/harness-engineering/read-tool"
   - "https://x.com/MrAhmadAwais/status/2050956678502420612"
-summary: "⌘ Command Code — the coding-agent CLI by Ahmad Awais purpose-built for open models: deterministic tool-input repair, an engineered read tool (three ceilings, recovery notices, partial-view ledger), and planned open-sourcing."
+summary: "⌘ Command Code — Ahmad Awais's coding-agent CLI for open models: deterministic tool-input repair, engineered read tool (ceilings, recovery notices, partial-view ledger), planned open-sourcing."
 provenance:
   extracted: 0.85
   inferred: 0.12

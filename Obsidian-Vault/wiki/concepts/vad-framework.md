@@ -10,7 +10,7 @@ relationships:
     type: same_as
 sources:
   - https://www.youtube.com/watch?v=4sX_He5c4sI
-summary: A thinking process (Value Architecture Design) that surfaces requirements AI agents can act on by asking four foundational questions about problem ownership, success criteria, refusal triggers, and decision impact.
+summary: "A thinking process (Value Architecture Design) surfacing requirements AI agents can act on via four questions: problem ownership, success criteria, refusal triggers, decision impact."
 provenance:
   extracted: 0.85
   inferred: 0.10

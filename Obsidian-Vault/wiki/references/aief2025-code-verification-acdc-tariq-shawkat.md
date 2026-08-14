@@ -10,7 +10,7 @@ tags:
 - enterprise-ai
 sources:
 - 'https://www.youtube.com/watch?v=4sX_He5c4sI'
-summary: Sonar CEO Tariq Shawkat presents the ACDC (Agent-Centric Development Cycle) framework for verification-powered agentic loops, with data on AI coding productivity gains, AI slop, and multi-layered verification results.
+summary: "Sonar CEO Tariq Shawkat presents the ACDC framework for verification-powered agentic loops, with data on AI coding productivity, AI slop, and multi-layered verification."
 provenance:
   extracted: 0.85
   inferred: 0.15

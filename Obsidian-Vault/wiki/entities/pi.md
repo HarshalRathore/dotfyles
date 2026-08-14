@@ -12,7 +12,7 @@ sources:
   - https://github.com/earendil-works/pi
   - https://github.com/earendil-works/pi/blob/main/packages/coding-agent/docs/compaction.md
   - https://earendil.com/posts/compaction-in-pi/
-summary: Pi — the coding agent from earendil-works. Tree-structured sessions with /tree and /fork, structured-summary compaction (20k tail, split-turn prefix summaries, 16k budget, standalone "context summarization assistant" request), branch summarization, cumulative file tracking, cache-aware design (compaction = cache reset), plain-text summaries for session portability.
+summary: "Pi — earendil-works' coding agent: tree-structured sessions (/tree, /fork), structured-summary compaction (20k tail, 16k budget), cache-aware design (compaction = cache reset)."
 provenance:
   extracted: 0.85
   inferred: 0.12

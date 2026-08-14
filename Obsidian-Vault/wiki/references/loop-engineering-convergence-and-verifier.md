@@ -3,11 +3,11 @@ title: Loop Convergence and the Verifier (Yoko Li)
 category: references
 type: reference
 tags:
-  - oop-engineering
-  - gent-architecture
-  - utonomous-agents
-  - ngineering-patterns
-  - eliability
+  - loop-engineering
+  - agent-architecture
+  - autonomous-agents
+  - engineering-patterns
+  - reliability
   - verifier
   - stopping-rule
   - convergence

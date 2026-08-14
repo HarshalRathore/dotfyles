@@ -5,7 +5,7 @@ tags: [distillation, knowledge-distillation, teacher-model, sft, reasoning-model
 aliases: [distillation, model distillation, teacher-student distillation]
 sources:
   - "https://www.youtube.com/watch?v=-9E9_21tx04"
-summary: "Using a stronger teacher model to generate training data (reasoning traces) for a smaller student model. OpenThoughts 3 found that Qwen 32B was a better teacher than DeepSeek R1 despite R1 being stronger on benchmarks."
+summary: "Using a stronger teacher to generate training data (reasoning traces) for a smaller student. OpenThoughts 3 found Qwen 32B a better teacher than DeepSeek R1 despite R1's stronger benchmarks."
 provenance:
   extracted: 0.80
   inferred: 0.15

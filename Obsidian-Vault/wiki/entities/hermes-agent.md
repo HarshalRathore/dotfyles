@@ -9,7 +9,7 @@ sources:
   - "https://hermes-agent.nousresearch.com"
 created: "2026-08-11"
 updated: "2026-08-11"
-summary: "Nous Research's open-source, self-improving local-first agent platform — harness with loop engineering, skill/memory auto-accumulation, and multi-gateway chat (Telegram, WhatsApp, Discord, desktop, CLI)."
+summary: "Nous Research's open-source, self-improving local-first agent platform — harness with loop engineering, skill/memory auto-accumulation, and multi-gateway chat (Telegram, WhatsApp, Discord, CLI)."
 provenance:
   extracted: 0.7
   inferred: 0.25

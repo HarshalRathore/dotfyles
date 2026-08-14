@@ -4,7 +4,7 @@ category: entities
 tags:
 - person
 - ai
-- 567
+- "567"
 aliases:
 - jason-liu
 sources:

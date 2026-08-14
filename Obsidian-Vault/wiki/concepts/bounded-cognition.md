@@ -15,7 +15,7 @@ relationships:
     type: related_to
 sources:
   - "https://shapeofthesystem.com/posts/2026/02/03/bounded-cognition.html"
-summary: Engineering thesis: the human mind holds ~4 chunks of working memory, yet software systems are vastly larger. Good engineering designs systems that any single mind can work on without being overwhelmed by complexity.
+summary: "Engineering thesis: the human mind holds ~4 working-memory chunks, yet software systems are vastly larger; good engineering designs systems a single mind can handle without being overwhelmed."
 provenance:
   extracted: 0.75
   inferred: 0.2

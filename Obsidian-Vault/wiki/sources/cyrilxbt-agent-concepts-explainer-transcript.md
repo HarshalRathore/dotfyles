@@ -6,7 +6,7 @@ sources:
   - "https://x.com/i/status/2084613319558635940"
 source_url: "https://x.com/i/status/2084613319558635940"
 source_note: "[[references/cyrilxbt-agent-concepts-explainer-video]]"
-summary: "Full BharatCode whisper-large-v3-turbo transcript of the 61.7-min X video attached to cyrilXBT's post — Sean's AI Stories compilation on Hermes agent harness, loop engineering, LLM ops, agent memory, and AutoManus."
+summary: "BharatCode whisper-large-v3-turbo transcript of the 61.7-min X video on cyrilXBT's post — Sean's AI Stories compilation on Hermes harness, loop engineering, LLM ops, agent memory, AutoManus."
 ingested: 2026-08-11
 transcribed_by: bharatcode-whisper-large-v3-turbo
 transcribed_at: 2026-08-13

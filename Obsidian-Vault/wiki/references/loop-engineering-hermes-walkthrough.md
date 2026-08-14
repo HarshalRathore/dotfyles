@@ -1,13 +1,13 @@
 ---
-title: Loop Engineering in Practice: Hermes Walkthrough (Sean)
+title: "Loop Engineering in Practice: Hermes Walkthrough (Sean)"
 category: references
 type: reference
 tags:
-  - oop-engineering
-  - gent-architecture
-  - utonomous-agents
-  - ngineering-patterns
-  - eliability
+  - loop-engineering
+  - agent-architecture
+  - autonomous-agents
+  - engineering-patterns
+  - reliability
   - hermes
   - guardrails
   - observability

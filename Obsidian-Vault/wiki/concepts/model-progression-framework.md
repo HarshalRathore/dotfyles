@@ -12,7 +12,7 @@ relationships:
     type: related_to
 sources:
   - https://www.youtube.com/watch?v=4sX_He5c4sI
-summary: The progression of language models from GPT-2 through LSTM days, instruction tuning, chatbot usability, reasoning capability, and finally test-time scaling with RL — a pattern that repeats for each new modality.
+summary: "Language-model progression from GPT-2 through instruction tuning, chatbot usability, reasoning, and test-time scaling with RL — a pattern repeating for each new modality."
 provenance:
   extracted: 0.85
   inferred: 0.10

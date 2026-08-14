@@ -10,7 +10,7 @@ tags:
 sources:
 - 'https://www.youtube.com/watch?v=4sX_He5c4sI'
 - 'https://www.trychroma.com/research/context-rot'
-summary: Two distinct senses of context rot — agent-level forgetting over long task horizons (Meter/AIEF framing) and token-level LLM performance degradation as input length grows (Chroma's 18-model report). Both make context management and memory harnesses load-bearing.
+summary: "Two senses of context rot: agent-level forgetting over horizons (Meter/AIEF) and token-level LLM degradation as input grows (Chroma's 18-model report). Both make memory harnesses load-bearing."
 provenance:
   extracted: 0.85
   inferred: 0.10

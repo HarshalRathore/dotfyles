@@ -12,7 +12,7 @@ relationships:
     type: related_to
 sources:
   - https://www.youtube.com/watch?v=4sX_He5c4sI
-summary: A three-level evaluation framework for agents: benchmarks → scenarios → production telemetry — each level providing different signals about agent quality.
+summary: "A three-level evaluation framework for agents: benchmarks → scenarios → production telemetry — each level providing different signals about agent quality."
 provenance:
   extracted: 0.80
   inferred: 0.15

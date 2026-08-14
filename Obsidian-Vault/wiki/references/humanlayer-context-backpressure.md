@@ -12,7 +12,7 @@ relationships:
     type: extends
 sources:
   - https://www.humanlayer.dev/blog/context-efficient-backpressure
-summary: Dex Horthy's pattern for keeping agents in the ~75k-token "smart zone" — deterministically swallow test/build/lint output (run_silent wrapper, ✓ on pass, full output on failure), failFast, filter output, and avoid letting context-anxious models burn more tokens than they save.
+summary: "Dex Horthy's pattern keeps agents in the ~75k-token \"smart zone\": swallow test/build/lint output, failFast, filter, avoid context-anxious models burning tokens."
 provenance:
   extracted: 0.9
   inferred: 0.08

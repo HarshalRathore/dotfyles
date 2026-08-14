@@ -8,7 +8,7 @@ sources:
   - "https://towardsdatascience.com/how-cursor-actually-indexes-your-codebase/"
 created: "2026-08-11"
 updated: "2026-08-11"
-summary: "A data structure of cryptographic fingerprints where each file becomes a hash and hashes combine hierarchically into a single top-level fingerprint — enabling efficient change detection across large file sets."
+summary: "Cryptographic-fingerprint data structure: each file becomes a hash; hashes combine hierarchically into a single top-level fingerprint — enabling efficient change detection across large file sets."
 provenance:
   extracted: 0.85
   inferred: 0.10

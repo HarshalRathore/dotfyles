@@ -12,7 +12,7 @@ relationships:
     type: authored_by
 sources:
   - https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus
-summary: Yichao 'Peak' Ji's six context-engineering principles from building Manus — design around the KV-cache, mask instead of removing tools, use the file system as restorable context, recite goals via todo.md, keep failures in context, and avoid few-shot ruts.
+summary: "Yichao 'Peak' Ji's six principles from building Manus: design around the KV-cache, mask tools, filesystem as restorable context, recite goals via todo.md, keep failures, avoid few-shot ruts."
 provenance:
   extracted: 0.9
   inferred: 0.08

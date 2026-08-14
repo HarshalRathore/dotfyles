@@ -14,7 +14,7 @@ provenance:
   extracted: 0.85
   inferred: 0.10
   ambiguous: 0.05
-summary: "Lecture 5 of Walking Labs' Learn Harness Engineering: context windows are finite, compaction keeps the 'what' but loses the 'why,' Anthropic's context anxiety, and state persistence files (PROGRESS/DECISIONS/git + clock-in/clock-out) as the fix."
+summary: "Lecture 5 of Learn Harness Engineering: finite context windows, compaction keeps the 'what' but loses the 'why,' and state persistence files (PROGRESS/DECISIONS/git + clock-in/clock-out) as the fix."
 ---
 
 # Lecture 05 — Keeping Context Alive Across Sessions

@@ -1,7 +1,13 @@
 ---
 title: The Sopranos
 category: entities
-tags: [tv-show #the-sopranos #hbo #crime-drama #david-chase #james-gandolfini]
+tags:
+  - tv-show
+  - "#the-sopranos"
+  - "#hbo"
+  - "#crime-drama"
+  - "#david-chase"
+  - "#james-gandolfini"
 aliases: [The Sopranos]
 relationships:
   - target: "[[references/top-100-web-series-tweet]]"

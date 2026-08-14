@@ -8,9 +8,9 @@ tags:
 aliases:
 - /grill-prep
 relationships:
-- target: '[['entities/matt-pocock']]'
+- target: "[[entities/matt-pocock]]"
   type: derived_from
-- target: '[['concepts/skills-checklist-framework']]'
+- target: "[[concepts/skills-checklist-framework]]"
   type: extends
 sources:
 - '[[misc/remaining-mattpocock-grill-prep-skill]]'

@@ -6,7 +6,7 @@ tags:
   - agent-termination
   - control-flow
   - agent-design
-summary: "Patterns for determining when an agent loop should terminate: plain text output, final result tools, structured output types, iteration limits, and harness-enforced scope controls (WIP=1, completion evidence, VCR)."
+summary: "Patterns for deciding when an agent loop should terminate: plain text output, final result tools, structured output, iteration limits, and harness scope controls (WIP=1, completion evidence, VCR)."
 sources:
   - "AIEF2025 - Human seeded Evals — Samuel Colvin, Pydantic - https://www.youtube.com/watch?v=o_LRtAomJCs"
   - "https://x.com/i/status/2085392969558089980"

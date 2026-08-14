@@ -1,7 +1,16 @@
 ---
 title: Friends
 category: entities
-tags: [tv-show #friends #nb #sitcom #jennifer-aniston #courteney-cox #matthew-perry #david-krane #marta-kaufman]
+tags:
+  - tv-show
+  - friends
+  - nb
+  - sitcom
+  - jennifer-aniston
+  - courteney-cox
+  - matthew-perry
+  - david-krane
+  - marta-kaufman
 aliases: [Friends]
 relationships:
   - target: "[[references/top-100-web-series-tweet]]"

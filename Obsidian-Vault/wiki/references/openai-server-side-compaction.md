@@ -12,7 +12,7 @@ relationships:
     type: related_to
 sources:
   - https://developers.openai.com/api/docs/guides/compaction
-summary: OpenAI's official guide to compaction in the Responses API — context_management.compact_threshold for streaming server-side compaction, the stateless /responses/compact endpoint, the opaque encrypted compaction item, and chaining patterns (stateless arrays vs previous_response_id).
+summary: "Guide to Responses API compaction — context_management.compact_threshold streaming compaction, stateless /responses/compact endpoint, encrypted item, chaining (arrays vs previous_response_id)."
 provenance:
   extracted: 0.93
   inferred: 0.05

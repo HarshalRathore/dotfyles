@@ -7,7 +7,7 @@ sources:
 source_url: "https://cursor.com/blog/semsearch"
 created: "2026-08-11"
 updated: "2026-08-11"
-summary: "Cursor's engineering blog (Nov 2025, Heule/Jia/Jain) on why they trained their own embedding model: +12.5% average accuracy, the Cursor Context Bench eval, agent-session traces as training data, and A/B evidence that semantic search raises code retention."
+summary: "Cursor's engineering blog (Nov 2025): custom embedding model, +12.5% accuracy, Cursor Context Bench, agent traces as training data, A/B evidence that semantic search raises code retention."
 affinity: {}
 promotion_status: misc
 stub: false

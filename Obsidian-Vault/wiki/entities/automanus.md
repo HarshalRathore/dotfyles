@@ -8,7 +8,7 @@ sources:
   - "https://x.com/i/status/2084613319558635940"
 created: "2026-08-11"
 updated: "2026-08-11"
-summary: "MCP server + API service (by Sean / Sean's AI Stories) that creates AI sales-representative agents from a company website in ~1 minute — WhatsApp chat, knowledge base, claim-and-verify, leads hub, web widget."
+summary: "MCP server + API (Sean / Sean's AI Stories) creating AI sales-representative agents from a company website in ~1 minute — WhatsApp chat, knowledge base, claim-and-verify, leads hub."
 provenance:
   extracted: 0.75
   inferred: 0.2

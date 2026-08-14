@@ -17,7 +17,7 @@ base_confidence: 0.5
 lifecycle: draft
 tier: supporting
 created: 2026-07-03
-updated: 2026-07-03
+updated: 2026-08-14
 category: entities
 ---
 
@@ -35,6 +35,8 @@ The company is developing the **A2H (Agent-to-Human) Protocol** — a standardiz
 
 HumanLayer maintains the [12-Factor Agents](https://github.com/humanlayer/12-factor-agents) open-source repository, which has gained significant community traction (front page of Hacker News, 4,000+ stars, 14 active contributors). ^[extracted]
 
+HumanLayer also publishes the **show-me skill** — an open-source agent skill for compact visual output (`npx skills add humanlayer/skills --skill show-me`). The hosted HumanLayer product lets agents include inline HTML and diagrams in assistant responses first-class. ^[extracted]
+
 ## Internal Usage
 
 HumanLayer runs its own deployment pipeline using the micro-agents pattern: a deterministic CI/CD workflow with small agent loops (3-10 steps) at decision points. Their deploy bot manages the full cycle — PR merge detection, deployment ordering, human approval, rollout, and end-to-end testing — all within a Slack interface. ^[extracted]
@@ -45,8 +47,10 @@ HumanLayer runs its own deployment pipeline using the micro-agents pattern: a de
 - [[concepts/12-factor-agents]] — Framework created by the founder
 - [[concepts/micro-agents]] — Architecture pattern used internally
 - [[concepts/context-engineering]] — Foundational AI quality thesis
+- [[concepts/visual-agent-communication]] — Pattern published as the show-me skill
 - [[concepts/human-in-the-loop-regulated-ai]] — Related human-in-the-loop patterns
 
 ## Sources
 
 - [[references/12-factor-agents-patterns-dex-horthy-humanlayer|12-Factor Agents: Patterns of Reliable LLM Applications — AI Engineer World's Fair 2025]]
+- [[references/show-me-compact-visual-representations|/show-me: compact visual representations for coding agents — X Article, 2026]]

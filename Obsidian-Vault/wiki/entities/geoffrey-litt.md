@@ -2,12 +2,12 @@
 title: Geoffrey Litt
 category: entities
 tags: [ai-engineering, coding-agents, open-source, windsurf]
-aliases: [geoffrey litt, geoff litt, glitt, @geoffreylitt]
+aliases: [geoffrey litt, geoff litt, glitt, "@geoffreylitt"]
 relationships:
   - target: '[[concepts/understanding-code-agents-write]]'
     type: related_to
 sources:
-- https://x.com/geoffreylitt/status/2072522251300409556
+  - https://x.com/geoffreylitt/status/2072522251300409556
 summary: AI engineer, creator of the /explain-diff skill, author of widely-shared threads on human-agent collaboration and understanding agent-written code.
 provenance:
   extracted: 0.95

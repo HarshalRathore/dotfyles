@@ -12,7 +12,7 @@ sources:
   - https://www.youtube.com/watch?v=4sX_He5c4sI
   - https://towardsdatascience.com/how-cursor-actually-indexes-your-codebase/
   - https://cursor.com/blog/semsearch
-summary: AI-powered code editor that exemplifies the shift from IDE-based development to chat-style engineering, with a codebase RAG pipeline (AST chunking, custom embeddings, Turbopuffer, Merkle-tree sync) grounding its agents.
+summary: AI-powered code editor exemplifying the shift from IDE-based development to chat-style engineering, with a codebase RAG pipeline (AST chunking, embeddings, Turbopuffer, Merkle-tree sync).
 provenance:
   extracted: 0.85
   inferred: 0.10

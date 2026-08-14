@@ -8,7 +8,7 @@ sources:
 source_url: "https://walkinglabs.github.io/learn-harness-engineering/en/lectures/lecture-02-what-a-harness-actually-is/"
 created: "2026-08-13"
 updated: "2026-08-13"
-summary: "Walking Labs defines a harness as everything in the engineering infrastructure outside the model weights — five subsystems (instructions, tools, environment, state, feedback); the repo IS the spec; ablation quantifies each subsystem's value."
+summary: "Walking Labs: a harness is everything outside model weights — five subsystems (instructions, tools, environment, state, feedback); the repo IS the spec; ablation quantifies value."
 affinity: {}
 promotion_status: misc
 stub: false

@@ -14,7 +14,7 @@ sources:
   - https://claude.com/blog/using-claude-code-session-management
   - https://x.com/trq212/status/2044548257058328723
   - https://x.com/trq212/status/2044873898572001376
-summary: Thariq Shihipar's thesis that Claude Code's 1M token context window is a double-edged sword: it enables longer autonomous operation but requires more careful session management, not less.
+summary: "Thariq Shihipar's thesis that Claude Code's 1M token context window is a double-edged sword: it enables longer autonomous operation but requires more careful session management, not less."
 provenance:
   extracted: 0.75
   inferred: 0.20

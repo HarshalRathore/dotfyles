@@ -5,7 +5,7 @@ tags: [benchmarking, interactive-reasoning, arc-agi, agi, exploration, aief2025]
 aliases: [interactive reasoning benchmarks, interactive benchmarks]
 sources:
   - "https://www.youtube.com/watch?v=-9E9_21tx04"
-summary: "Benchmarks where agents must navigate controlled environments with defined rules and sparse rewards, exploring to understand the system before completing objectives. ARC-AGI-3 is the first such benchmark."
+summary: "Benchmarks where agents navigate controlled environments with defined rules and sparse rewards, exploring to understand the system before completing objectives. ARC-AGI-3 is the first."
 provenance:
   extracted: 0.85
   inferred: 0.10

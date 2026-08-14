@@ -15,7 +15,7 @@ relationships:
     type: related_to
 sources:
   - "threads/agent-2-bash-for-agents.md"
-summary: Thariq's principle that the bash tool is the most impactful single tool for any agent — enabling reproducible computation, file-based state, chained API calls, and scheduled tasks through Unix primitives.
+summary: "Thariq's principle: the bash tool is the most impactful single tool for any agent — enabling reproducible computation, file-based state, chained API calls, and scheduled tasks via Unix primitives."
 provenance:
   extracted: 0.85
   inferred: 0.12

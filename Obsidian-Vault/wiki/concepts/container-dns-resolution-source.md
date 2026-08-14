@@ -3,7 +3,7 @@ title: Container DNS Resolution Source
 type: redirect
 redirects_to: '[[concepts/container-dns-resolution]]'
 tags: []
-created: None
+created: 2026-07-02
 updated: 2026-07-02
 category: concepts
 sources: []

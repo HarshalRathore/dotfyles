@@ -7,7 +7,7 @@ sources:
 source_url: "https://towardsdatascience.com/how-cursor-actually-indexes-your-codebase/"
 created: "2026-08-11"
 updated: "2026-08-11"
-summary: "TDS article (Jan 2026) walking through Cursor's codebase RAG pipeline: AST-based code chunking, custom embeddings with metadata, client-side path obfuscation, Turbopuffer storage, hybrid semantic+regex search, and Merkle-tree-driven index sync."
+summary: "TDS article (Jan 2026) on Cursor's codebase RAG pipeline: AST chunking, custom embeddings with metadata, Turbopuffer storage, hybrid semantic+regex search, Merkle-tree index sync."
 affinity: {}
 promotion_status: misc
 stub: false

@@ -12,7 +12,7 @@ sources:
   - https://www.youtube.com/watch?v=4sX_He5c4sI
   - https://yingchao.dev/blog/compaction
   - https://developers.openai.com/api/docs/guides/compaction
-summary: OpenAI's AI coding agent — Nano GPT Speed Run competitor (GPT 5.5 + X1) and the reference client for OpenAI's server-side compaction (20k user-message budget, /responses/compact and CompactionTrigger, 64k retained tail, encrypted compaction item).
+summary: "OpenAI's coding agent — Nano GPT Speed Run competitor and reference client for server-side compaction (20k user-message budget, /responses/compact, CompactionTrigger, 64k tail, encrypted item)."
 provenance:
   extracted: 0.85
   inferred: 0.10
