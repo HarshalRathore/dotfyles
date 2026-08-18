@@ -1,0 +1,1083 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lesson 4 &#8212; Models &amp; Messages: The Contract Between Your Code and the Model</title>
+<style>
+/* Inlined from assets/course.css */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=JetBrains+Mono&display=swap');
+
+:root {
+  --ink: #e8e8e8;
+  --body: #a3a3a3;
+  --mute: #808080;
+  --hairline: #262626;
+  --hairline-soft: #1a1a1a;
+  --canvas: #000000;
+  --elevated: #0a0a0a;
+  --accent: #a78bfa;
+  --accent-soft: #2e1065;
+  --gold: #d4a547;
+  --gold-soft: #3a2f0e;
+  --blue: #60a5fa;
+  --blue-deep: #93c5fd;
+  --blue-soft: #1e3a5f;
+  --warning: #fbbf24;
+  --green: #4ade80;
+  --green-soft: #14532d;
+  --error: #f87171;
+  --sans: 'DM Sans', -apple-system, 'Segoe UI', sans-serif;
+  --mono: 'JetBrains Mono', ui-monospace, 'SF Mono', 'Fira Code', monospace;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 28px;
+  --space-xl: 36px;
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-pill: 100px;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; line-height: 1.5; }
+
+html { font-size: 16px; scroll-behavior: smooth; }
+
+body {
+  background: var(--canvas);
+  color: var(--body);
+  font-family: var(--sans);
+  line-height: 1.7;
+  max-width: 720px;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  font-size: clamp(1.75rem, 3.5vw, 2.25rem);
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+  color: var(--ink);
+  margin-bottom: var(--space-md);
+}
+
+h1 .gold-accent {
+  color: var(--gold);
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--ink);
+  margin-top: 60px;
+  margin-bottom: var(--space-md);
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--ink);
+  margin-top: var(--space-xl);
+  margin-bottom: var(--space-xs);
+}
+
+p { margin-bottom: 1.25rem; }
+strong { color: var(--ink); font-weight: 600; }
+a { color: var(--blue); text-decoration: none; }
+a:hover { color: var(--blue-deep); text-decoration: underline; }
+
+code {
+  font-family: var(--mono);
+  font-size: 0.88em;
+  background: var(--hairline-soft);
+  padding: 0.15em 0.4em;
+  border-radius: var(--radius-sm);
+  color: var(--ink);
+}
+
+pre {
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+  margin: var(--space-xl) 0;
+  overflow-x: auto;
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  line-height: 1.7;
+}
+
+pre code { background: none; padding: 0; color: inherit; }
+
+ul, ol { margin-bottom: 1.25rem; padding-left: 1.5rem; }
+li { margin-bottom: 0.35rem; }
+
+hr { border: none; border-top: 1px solid var(--hairline); margin: 60px 0; }
+
+.card {
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  font-size: 0.9rem;
+  padding: 36px;
+  line-height: 1.5;
+}
+
+.card-title { font-weight: 600; font-size: 0.9rem; color: var(--ink); margin-bottom: 6px; }
+
+.card p { margin-bottom: 0; font-size: 0.9rem; line-height: 1.5; color: var(--body); }
+
+.card-grid {
+  display: grid;
+  gap: var(--space-md);
+  margin: var(--space-xl) 0;
+}
+
+.callout {
+  padding: 36px;
+  margin: var(--space-xl) 0;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--hairline);
+  background: var(--elevated);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.callout.accent { background: rgba(167, 139, 250, 0.08); }
+.callout.info { background: rgba(96, 165, 250, 0.08); }
+.callout.warn { background: rgba(251, 191, 36, 0.08); }
+.callout.good { background: rgba(74, 222, 128, 0.08); }
+.callout.gold { background: rgba(212, 165, 71, 0.08); }
+
+.callout-label {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.04em;
+  margin-bottom: 8px;
+  display: block;
+  font-weight: 600;
+}
+
+.callout.accent .callout-label { color: var(--accent); }
+.callout.info .callout-label { color: var(--blue); }
+.callout.warn .callout-label { color: var(--warning); }
+.callout.gold .callout-label { color: var(--gold); }
+.callout.good .callout-label { color: var(--green); }
+.callout p:last-child { margin-bottom: 0; }
+
+.lesson-header {
+  margin-bottom: 60px;
+  border-bottom: 1px solid var(--hairline);
+  padding-bottom: 48px;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: var(--mute);
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.lesson-footer {
+  border-top: 1px solid var(--hairline);
+  margin-top: 60px;
+  padding-top: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+}
+
+.footer-col { font-size: 0.9rem; color: var(--mute); }
+
+.sources {
+  font-size: 0.9rem;
+  color: var(--mute);
+  line-height: 1.6;
+  margin-top: var(--space-xl);
+}
+
+.sources a { color: var(--mute); text-decoration: underline; text-underline-offset: 2px; }
+.sources a:hover { color: var(--body); }
+
+.quiz {
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  padding: 36px;
+  margin: var(--space-xl) 0;
+}
+
+.quiz-title {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: var(--space-md);
+}
+
+.quiz-question {
+  font-weight: 500;
+  margin-bottom: var(--space-md);
+  color: var(--ink);
+}
+
+.quiz-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 0;
+  cursor: pointer;
+  border-radius: var(--radius-sm);
+  transition: background 0.1s;
+  border-top: 1px solid var(--hairline-soft);
+  background: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  width: 100%;
+  text-align: left;
+  font-family: var(--sans);
+  font-size: inherit;
+  color: inherit;
+  line-height: 1.5;
+}
+
+.quiz-option:first-child { border-top: none; }
+.quiz-option:hover { background: rgba(96, 165, 250, 0.08); }
+
+.quiz-option:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 2px;
+  background: rgba(96, 165, 250, 0.08);
+}
+
+.quiz-option .option-key {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  color: var(--mute);
+  min-width: 1.5rem;
+  text-align: center;
+  flex-shrink: 0;
+  line-height: 1.6;
+}
+
+.quiz-option .option-text { font-size: 0.9rem; color: var(--body); line-height: 1.5; }
+
+.quiz-result {
+  margin-top: var(--space-md);
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  display: none;
+  line-height: 1.5;
+}
+
+.quiz-result.correct {
+  background: var(--green-soft);
+  border: 1px solid rgba(74, 222, 128, 0.4);
+  color: var(--ink);
+  display: block;
+}
+
+.quiz-result.incorrect {
+  background: rgba(248, 113, 113, 0.1);
+  border: 1px solid rgba(248, 113, 113, 0.2);
+  color: var(--ink);
+  display: block;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: var(--space-xl) 0;
+  font-size: 0.9rem;
+}
+
+thead th {
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--hairline);
+  color: var(--mute);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+tbody td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--hairline-soft);
+  color: var(--body);
+  line-height: 1.5;
+}
+
+tbody tr:last-child td { border-bottom: none; }
+
+.tag {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  padding: 3px 8px;
+  border-radius: var(--radius-pill);
+  background: var(--hairline-soft);
+  color: var(--mute);
+}
+
+.tag.accent { background: var(--accent-soft); color: var(--accent); }
+.tag.blue { background: var(--blue-soft); color: var(--blue); }
+.tag.gold { background: var(--gold-soft); color: var(--gold); }
+
+.exercise {
+  font-size: 0.9rem;
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  padding: 36px;
+  margin: var(--space-xl) 0;
+  line-height: 1.6;
+}
+
+.exercise-title { font-weight: 600; color: var(--ink); margin-bottom: var(--space-md); }
+
+details { margin-bottom: var(--space-xl); cursor: pointer; }
+
+details .answer-content {
+  margin-top: var(--space-md);
+  font-size: 0.9rem;
+  line-height: 1.7;
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  padding: 36px;
+}
+
+.code-annotation {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+  margin: var(--space-xl) 0;
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  padding: 4px;
+}
+
+.annotation-line {
+  display: grid;
+  grid-template-columns: 1fr 220px;
+  border-bottom: 1px solid var(--hairline-soft);
+}
+
+.annotation-line:last-child { border-bottom: none; }
+
+.annotation-line .code-part {
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  padding: 12px var(--space-md);
+  color: var(--ink);
+  background: var(--elevated);
+  line-height: 1.6;
+}
+
+.annotation-line .desc-part {
+  font-size: 0.78rem;
+  padding: 12px var(--space-md);
+  color: var(--body);
+  line-height: 1.6;
+  border-left: 1px solid var(--hairline-soft);
+  background: rgba(212, 165, 71, 0.03);
+}
+
+.schematic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: var(--space-xl) 0;
+  flex-wrap: wrap;
+  font-family: var(--mono);
+  font-size: 0.85rem;
+}
+
+.schematic-box {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 18px;
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  background: var(--elevated);
+  text-align: center;
+  min-width: 48px;
+  line-height: 1.3;
+}
+
+.schematic-box.provider { border-color: var(--blue); color: var(--blue); }
+.schematic-box.model { border-color: var(--gold); color: var(--gold); }
+.schematic-box.message { border-color: var(--accent); color: var(--accent); }
+.schematic-box.schema { border-color: var(--green); color: var(--green); }
+
+.schematic-arrow { color: var(--mute); font-weight: 300; }
+
+.pause-panel {
+  border: 1px solid rgba(212, 165, 71, 0.25);
+  padding: 36px;
+  margin: var(--space-xl) 0;
+  background: rgba(212, 165, 71, 0.04);
+  border-radius: var(--radius-md);
+}
+
+.pause-panel .pause-label {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.04em;
+  color: var(--gold);
+  font-weight: 600;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.pause-panel p { font-size: 0.9rem; color: var(--body); margin-bottom: 0; line-height: 1.6; }
+.pause-panel p + p { margin-top: 12px; }
+
+.stage-label {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  padding: 2px 7px;
+  border-radius: var(--radius-sm);
+  background: var(--hairline-soft);
+  color: var(--mute);
+}
+
+.stage-label.model { background: var(--blue-soft); color: var(--blue); }
+.stage-label.tool { background: var(--green-soft); color: var(--green); }
+.stage-label.end { background: rgba(248, 113, 113, 0.1); color: var(--error); }
+.stage-label.schema { background: var(--gold-soft); color: var(--gold); }
+.stage-label.message { background: var(--accent-soft); color: var(--accent); }
+
+/* Lesson-specific: parameter table */
+.param-table td:first-child {
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  color: var(--ink);
+  white-space: nowrap;
+}
+
+.param-table td:last-child {
+  font-size: 0.85rem;
+}
+
+@media (max-width: 660px) {
+  body { padding: var(--space-xl) var(--space-md); }
+  pre { padding: var(--space-md); font-size: 0.8rem; }
+  .annotation-line { grid-template-columns: 1fr; }
+  .annotation-line .desc-part { border-left: none; border-top: 1px solid var(--hairline-soft); }
+  .card-grid { grid-template-columns: 1fr !important; }
+}
+
+@media (max-width: 400px) {
+  html { font-size: 15px; }
+  body { padding: var(--space-lg) var(--space-sm); }
+  .lesson-footer { flex-direction: column; gap: var(--space-sm); }
+}
+</style>
+</head>
+<body>
+
+<div class="lesson-header">
+  <h1><span class="gold-accent">Models</span> &amp; Messages: The Contract Between Your Code and the Model</h1>
+  <p class="subtitle">In Chapter 3 you traced messages through the loop. In this chapter you learn what those messages are made of, how LangChain talks to any model provider, and how to make the model speak your language back.</p>
+</div>
+
+<p>You know Pi, the agent coding tool you use every day. Pi has a model inside it. So does Claude Code. So does every agent you have ever used. They all speak to some LLM provider (OpenAI, Anthropic, Ollama, Groq) and they all pass messages back and forth. The provider and the message format change, but the <em>pattern</em> stays the same.</p>
+
+<p>LangChain formalises that pattern into a clean contract. You write Python code; LangChain translates it into provider-specific HTTP calls. You switch providers by changing one string. The model receives typed messages and returns typed messages. Your code never touches a raw API endpoint.</p>
+
+<div class="callout gold">
+  <span class="callout-label">This chapter's win</span>
+  <p>By the end of this chapter you will have a <strong>provider-neutral message lab</strong> that works with OpenAI, Anthropic, or a local Ollama model. You will switch providers by changing one line. You will see typed messages flow in and structured data come out. This is the chapter that makes LangChain's abstraction real.</p>
+</div>
+
+<hr>
+
+<h2 id="provider-boundary">The Provider Boundary</h2>
+
+<p>Each LLM provider exposes its own API. The shape of those APIs is similar (messages in, message out) but every detail differs: authentication header, message format, parameter names, error codes, streaming protocol. Writing provider-specific code for each one is exactly the kind of work you should never do.</p>
+
+<p>LangChain draws a line between <strong>your code</strong> and <strong>the provider</strong>. Your code talks to a LangChain chat model object. That object talks to the provider behind the scenes. You never construct a raw HTTP request or parse a provider-specific response.</p>
+
+<div class="schematic">
+  <span class="schematic-box provider">Your Code</span>
+  <span class="schematic-arrow">&rarr;</span>
+  <span class="schematic-box model">ChatModel</span>
+  <span class="schematic-arrow">&rarr;</span>
+  <span class="schematic-box provider">Provider API</span>
+</div>
+
+<p>The piece in the middle is the LangChain <strong>chat model interface</strong>. It defines one method that matters: <code>invoke</code>. You pass messages in. You get an <code>AIMessage</code> back. Everything else (API key management, retry logic, parameter translation) is handled by the implementation.</p>
+
+<div class="callout info">
+  <span class="callout-label">Official source</span>
+  <p>Read the full model interface documentation at <a href="https://docs.langchain.com/oss/python/langchain/models" target="_blank">docs.langchain.com/oss/python/langchain/models</a> and the provider concepts guide at <a href="https://docs.langchain.com/oss/python/concepts/providers-and-models" target="_blank">docs.langchain.com/oss/python/concepts/providers-and-models</a>.</p>
+</div>
+
+<hr>
+
+<h2 id="init-chat-model">The One Function: <code>init_chat_model</code></h2>
+
+<p>LangChain gives you a single import to create any chat model:</p>
+
+<pre><code>from langchain.chat_models import init_chat_model
+
+model = init_chat_model("openai:gpt-5.5")
+
+response = model.invoke("Hello!")
+print(response)
+# AIMessage(content='Hello! How can I help you today?', ...)</code></pre>
+
+<p>The <code>"openai:gpt-5.5"</code> string is a <strong>provider:model</strong> identifier. The part before the colon selects the provider package; the part after selects the model name. LangChain loads the right integration, configures it with your environment credentials, and hands you a ready-to-use object.</p>
+
+<div class="callout warn">
+  <span class="callout-label">Credentials live in the environment</span>
+  <p><code>init_chat_model</code> reads credentials from standard environment variables: <code>OPENAI_API_KEY</code>, <code>ANTHROPIC_API_KEY</code>, and so on. Never hardcode keys. Set them in a <code>.env</code> file or your shell profile. The <code>langchain-openai</code> and <code>langchain-anthropic</code> packages handle the rest.</p>
+</div>
+
+<p>The <code>invoke</code> method accepts either a plain string or a list of message objects. You saw <code>invoke</code> in Chapter 2 inside <code>create_agent</code>; this is the same method, just called directly on the model instead of through the harness.</p>
+
+<div class="callout gold">
+  <span class="callout-label">Official API reference</span>
+  <p>See the complete <code>init_chat_model</code> signature at <a href="https://reference.langchain.com/python/langchain/chat_models/base/init_chat_model" target="_blank">reference.langchain.com/python/langchain/chat_models/base/init_chat_model</a>.</p>
+</div>
+
+<hr>
+
+<h2 id="one-line-swap">The One-Line Provider Swap</h2>
+
+<p>This is the moment that makes LangChain click. Watch:</p>
+
+<pre><code>model = init_chat_model("openai:gpt-5.5")
+
+model = init_chat_model("anthropic:claude-sonnet-4-6")
+
+model = init_chat_model("ollama:llama3.1")</code></pre>
+
+<div class="callout good">
+  <span class="callout-label">Local development with Ollama</span>
+  <p>No API key, no bill, no internet? Install <a href="https://ollama.ai" target="_blank">Ollama</a>, pull a model like <code>llama3.1</code> (<code>ollama pull llama3.1</code>), and run <code>pip install langchain-ollama</code>. Then <code>init_chat_model("ollama:llama3.1")</code> works immediately. This is how you develop and test without spending a cent.</p>
+</div>
+
+<p>The provider packages you need installed:</p>
+
+<table>
+  <thead>
+    <tr><th>Provider string</th><th>Package</th><th>Environment variable</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><code>openai:*</code></td><td><code>langchain-openai</code></td><td><code>OPENAI_API_KEY</code></td></tr>
+    <tr><td><code>anthropic:*</code></td><td><code>langchain-anthropic</code></td><td><code>ANTHROPIC_API_KEY</code></td></tr>
+    <tr><td><code>ollama:*</code></td><td><code>langchain-ollama</code></td><td><em>none required</em></td></tr>
+    <tr><td><code>google_genai:*</code></td><td><code>langchain-google-genai</code></td><td><code>GOOGLE_API_KEY</code></td></tr>
+</tbody></table>
+
+<div class="callout warn">
+  <span class="callout-label">Not all models support every feature</span>
+  <p>The interface is uniform. The capabilities are not. A local Ollama model may not support tool calling or structured output the same way GPT-5.5 does. Your code stays the same; the model's ability to <em>do</em> what you ask depends on the model, not LangChain. We will return to this caveat in the model parameters section.</p>
+</div>
+<hr>
+
+<h2 id="typed-messages">Typed Messages, Deeper</h2>
+
+<p>Chapter 3 introduced the four message types. Now you will work with them directly in Python. Each type is a class in <code>langchain.messages</code>:</p>
+
+<pre><code>from langchain.messages import (
+    SystemMessage,
+    HumanMessage,
+    AIMessage,
+    ToolMessage,
+)</code></pre>
+
+<p>Here is what each one carries and when to use it:</p>
+
+<table>
+  <thead>
+    <tr><th>Class</th><th>Constructor args</th><th>Used when</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>SystemMessage</strong></td>
+      <td><code>content: str</code></td>
+      <td>Setting the model's behaviour at the start of a conversation. Injected once, lasts the whole session.</td>
+    </tr>
+    <tr>
+      <td><strong>HumanMessage</strong></td>
+      <td><code>content: str</code></td>
+      <td>Wrapping user input. Every turn the user takes becomes a HumanMessage.</td>
+    </tr>
+    <tr>
+      <td><strong>AIMessage</strong></td>
+      <td><code>content: str</code>, <code>tool_calls: list</code></td>
+      <td>The model's output. Contains text, tool call requests, and metadata like token usage.</td>
+    </tr>
+    <tr>
+      <td><strong>ToolMessage</strong></td>
+      <td><code>content: str</code>, <code>tool_call_id: str</code></td>
+      <td>Carrying a tool result back to the model. The <code>tool_call_id</code> links it to the specific call that produced it.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>You construct them like any Python object:</p>
+
+<pre><code>from langchain.messages import SystemMessage, HumanMessage
+
+messages = [
+    SystemMessage("You are a helpful assistant."),
+    HumanMessage("What is the capital of Japan?"),
+]
+
+response = model.invoke(messages)
+print(type(response).__name__)   # AIMessage
+print(response.content)          # Tokyo
+print(response.tool_calls)       # []  (empty &mdash; no tool called)</code></pre>
+
+<p>The model <code>invoke</code> method is polymorphic on input: pass a string, get a reply; pass a list of messages, get a reply. LangChain normalises the string into a <code>HumanMessage</code> internally, but passing explicit typed messages gives you control over the full conversation shape including system prompts.</p>
+
+<div class="callout info">
+  <span class="callout-label">The message types are serialisable</span>
+  <p>Every message class can be converted to a dictionary with <code>.dict()</code> or <code>.model_dump()</code> (Pydantic v2) and reconstructed from a dictionary. This is how messages travel across network boundaries and get stored in databases. The canonical schema is documented at <a href="https://docs.langchain.com/oss/python/langchain/messages" target="_blank">docs.langchain.com/oss/python/langchain/messages</a>.</p>
+</div>
+
+<p>When the model emits an <code>AIMessage</code> with tool calls, the <code>tool_calls</code> field contains structured data that the harness (from Chapter 2) uses to execute your tools:</p>
+
+<pre><code>response = model.invoke("What is the weather in London?")
+
+if response.tool_calls:
+    for tc in response.tool_calls:
+        print(tc["name"])       # "get_weather"
+        print(tc["args"])       # {"location": "London"}
+        print(tc["id"])         # "call_abc123"</code></pre>
+
+<div class="callout gold">
+  <span class="callout-label">Connecting to Chapter 3</span>
+  <p>In Chapter 3 you saw the <code>tool_calls</code> field in the trace. Now you can see it in code: the model returns an <code>AIMessage</code>, and that message carries the tool call requests as structured data. Chapter 5 will teach you how to build tools that receive these calls.</p>
+</div>
+
+<hr>
+
+<h2 id="system-prompts">System Prompts</h2>
+
+<p>A system prompt is a <code>SystemMessage</code> at the front of your message list. It sets the model's behaviour, tone, and constraints for the entire conversation. Unlike a <code>HumanMessage</code>, the system message is not usually shown to the end user &mdash; it is the invisible instruction layer between your code and the model.</p>
+
+<pre><code>from langchain.messages import SystemMessage, HumanMessage
+
+messages = [
+    SystemMessage(
+        "You are a concise Python tutor. "
+        "Answer in five sentences or fewer. "
+        "Include a code example when relevant."
+    ),
+    HumanMessage("What is a decorator?"),
+]
+
+response = model.invoke(messages)
+print(response.content)</code></pre>
+
+<p>The system prompt is the first message in the list. Provider behaviour varies: some models are sensitive to how the system prompt is phrased &mdash; a well-written system prompt can dramatically improve output quality without changing any code.</p>
+
+<div class="callout warn">
+  <span class="callout-label">System prompt vs tool descriptions</span>
+  <p>The system prompt tells the model <em>how to behave</em>. Tool descriptions (the docstring on your <code>@tool</code> function) tell the model <em>what it can do</em>. They serve different purposes. Do not cram tool descriptions into the system prompt; LangChain sends them separately as part of the tool schema.</p>
+</div>
+
+<p>When you pass <code>system_prompt</code> to <code>create_agent</code> (as you did in Chapter 2), LangChain adds a <code>SystemMessage</code> at the front of every conversation automatically. Calling <code>model.invoke(messages)</code> directly gives you manual control over that placement.</p>
+
+<hr>
+
+<h2 id="provider-neutral-lab">The Provider-Neutral Message Lab</h2>
+
+<p>Here is the practical win for this chapter. Save this as <code>message_lab.py</code> and run it against any provider:</p>
+
+<pre><code>from langchain.chat_models import init_chat_model
+from langchain.messages import SystemMessage, HumanMessage, AIMessage
+
+<span style="color: var(--mute);"># ── Change this one line to switch providers ──</span>
+model = init_chat_model("openai:gpt-5.5")
+
+messages = [
+    SystemMessage("You are a concise assistant. Answer in two sentences."),
+    HumanMessage("Tell me a fun fact about the Python language."),
+]
+
+response = model.invoke(messages)
+
+print(f"Response type:    {type(response).__name__}")
+print(f"Content:          {response.content}")
+print(f"Tool calls:       {response.tool_calls}")
+if response.response_metadata:
+    print(f"Model:            {response.response_metadata.get('model', 'N/A')}")
+    print(f"Finish reason:    {response.response_metadata.get('finish_reason', 'N/A')}")
+if response.usage_metadata:
+    print(f"Token usage:      {response.usage_metadata}")</code></pre>
+
+<p>Run it once with OpenAI, then change the <code>init_chat_model</code> string to <code>"anthropic:claude-sonnet-4-6"</code> and run it again. Then try <code>"ollama:llama3.1"</code>. The output format is identical. The <em>content</em> will differ (different models give different answers), but the <em>shape</em> is always an <code>AIMessage</code> with <code>content</code>, <code>tool_calls</code>, <code>response_metadata</code>, and <code>usage_metadata</code> (when the provider reports token usage).</p>
+
+<div class="callout good">
+  <span class="callout-label">What the metadata tells you</span>
+<p><code>usage_metadata</code> provides standardized token usage (input tokens, output tokens, total tokens) when the provider reports it — the keys are the same regardless of provider. <code>response_metadata</code> contains provider-specific information: the exact model name used, finish reason, and any other provider-specific metadata. The keys in <code>response_metadata</code> vary across providers. Both are read-only observability data — you can inspect them but should not build logic that depends on provider-specific keys.</p>
+</div>
+
+<p>This script is your diagnostic tool for the rest of the course. Whenever you are unsure what a model is doing, drop into the message lab, test your hypothesis with typed messages, and see the raw <code>AIMessage</code> output. No harness, no tools, no graph &mdash; just the model contract.</p>
+
+<hr>
+
+<h2 id="structured-output">Structured Output: Making the Model Fill in a Form</h2>
+
+<p>So far the model has returned free text. But many applications need the model to return <strong>structured data</strong>: a JSON object with known fields, types, and validation rules. LangChain gives you two ways to achieve this, and understanding the difference between them is important.</p>
+
+<h3 id="model-level-structured">Model-level: <code>with_structured_output</code></h3>
+
+<p>The <code>with_structured_output</code> method wraps any chat model and adds output parsing. You give it a Pydantic schema, and the model returns parsed instances of that schema instead of an <code>AIMessage</code>:</p>
+
+<pre><code>from pydantic import BaseModel
+from langchain.chat_models import init_chat_model
+
+class MovieReview(BaseModel):
+    title: str
+    rating: int
+    summary: str
+
+model = init_chat_model("openai:gpt-5.5")
+structured = model.with_structured_output(MovieReview)
+
+result = structured.invoke(
+    "Review the movie Inception."
+)
+print(f"Title:   {result.title}")
+print(f"Rating:  {result.rating}/10")
+print(f"Summary: {result.summary}")
+<span style="color: var(--mute);"># result is a MovieReview instance, not an AIMessage</span></code></pre>
+
+<p><code>with_structured_output</code> returns a <strong>new model-like object</strong> that shares the same <code>invoke</code> interface. When you call <code>invoke</code>, LangChain sends the schema definition to the model along with the messages, tells the model to return JSON matching that schema, and parses the response into your Pydantic class.</p>
+
+<div class="callout gold">
+  <span class="callout-label">Official API reference</span>
+  <p>See the full <code>with_structured_output</code> signature at <a href="https://reference.langchain.com/python/langchain-core/language_models/chat_models/BaseChatModel/with_structured_output" target="_blank">reference.langchain.com/python/langchain-core/language_models/chat_models/BaseChatModel/with_structured_output</a>.</p>
+</div>
+
+<h3 id="agent-level-format">Agent-level: <code>response_format</code></h3>
+
+<p>When you use <code>create_agent</code>, you can pass <code>response_format</code> at the agent level:</p>
+
+<pre><code>agent = create_agent(
+    model="openai:gpt-5.5",
+    tools=[...],
+    response_format=MovieReview,
+)</code></pre>
+
+<p>The agent-level <code>response_format</code> configures the <strong>entire agent loop</strong> to produce structured output as its final result. The agent runs its normal loop (model &rarr; tools &rarr; model &rarr; ...) and the final output is parsed into the schema. This is different from <code>with_structured_output</code>, which is a model-level transformation: it replaces the model's output format without involving tools or the agent loop.</p>
+
+<div class="code-annotation">
+  <div class="annotation-line">
+    <div class="code-part"><span style="color: var(--mute);"># Model level (this chapter)</span><br>structured = model.with_structured_output(MovieReview)<br>result = structured.invoke("Review Inception.")</div>
+    <div class="desc-part">Replaces the single model call. Returns a <code>MovieReview</code> instance. No harness, no tools, no loop.</div>
+  </div>
+  <div class="annotation-line">
+    <div class="code-part"><span style="color: var(--mute);"># Agent level (Chapter 6)</span><br>agent = create_agent(model, tools, response_format=MovieReview)<br>result = agent.invoke({"messages": [...]})</div>
+    <div class="desc-part">Wraps the full agent loop. The final output is parsed. Tools can contribute data that feeds the structured result.</div>
+  </div>
+</div>
+
+<p>The structured output documentation at <a href="https://docs.langchain.com/oss/python/langchain/structured-output" target="_blank">docs.langchain.com/oss/python/langchain/structured-output</a> covers both modes. For now, focus on <code>with_structured_output</code>: it is the simpler path and the one you will reach for when you need typed data from a single model call.</p>
+
+<div class="callout warn">
+  <p><code>with_structured_output</code> works best with providers that support native JSON mode or tool-use-based structured output (OpenAI, Anthropic, Google). With Ollama or other local models, the model may return malformed JSON that the parser cannot validate, raising a parsing error. Test structured output with your chosen provider before depending on it.</p>
+</div>
+
+<h3 id="predict-structured">Predict the Shape</h3>
+
+<p>Before you read the next code block, what Python type does <code>structured.invoke(...)</code> return? (The <code>structured</code> variable comes from <code>model.with_structured_output(MovieReview)</code>.)</p>
+
+<details>
+  <summary>Reveal the answer</summary>
+  <div class="answer-content">
+    <p><strong>It returns a <code>MovieReview</code> instance</strong>, not an <code>AIMessage</code> and not a raw string. <code>with_structured_output</code> creates a wrapper that intercepts the model's output, parses the JSON into the Pydantic schema, and returns the validated object. You can access <code>result.title</code>, <code>result.rating</code>, and <code>result.summary</code> directly.</p>
+    <p>If parsing fails (the model returns invalid JSON), the method raises a parsing error. You can catch it and retry with a different prompt or model.</p>
+  </div>
+</details>
+
+<hr>
+
+<table class="param-table">
+  <thead>
+    <tr><th>Parameter</th><th>What it controls</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>temperature</code></td>
+      <td>Randomness of the output. 0 = deterministic, 1 = very random. Default varies by provider (usually 0.7 or 1.0).</td>
+    </tr>
+    <tr>
+      <td><code>max_tokens</code></td>
+      <td>Maximum number of tokens the model can generate in one response. Cuts off output when reached.</td>
+    </tr>
+    <tr>
+      <td><code>timeout</code></td>
+      <td>Maximum seconds to wait for a response from the provider API. Prevents hanging on a slow request.</td>
+    </tr>
+    <tr>
+      <td><code>max_retries</code></td>
+      <td>Number of times to retry on transient failures (rate limits, network errors, server errors). Default 6.</td>
+    </tr>
+  </tbody>
+</table>
+
+<pre><code>model = init_chat_model(
+    "openai:gpt-5.5",
+    temperature=0.3,
+    max_tokens=500,
+    timeout=30,
+    max_retries=2,
+)</code></pre>
+
+<p>These parameters are standard across providers at the LangChain level. However, each provider may interpret or support them differently &mdash; for example, parameter naming, accepted ranges, and additional options like <code>top_p</code> or <code>frequency_penalty</code> vary. Provider capability and behaviour differ; always test your specific provider-model combination.</p>
+
+<div class="callout warn">
+  <p>The LangChain chat model interface gives you a <strong>uniform calling convention</strong>. It does not give you a <strong>uniform capability guarantee</strong>. Lower temperature values are generally less random, but the exact behavior varies by provider. Structured output support is provider-dependent; it works on some models and not on others. Tool calling requires a model fine-tuned for it. The interface is the same; the model's capabilities are not. Always test your specific provider-model combination.</p>
+</div>
+
+<hr>
+
+<h2 id="quiz">Check Your Understanding</h2>
+
+<div class="quiz">
+  <div class="quiz-title">Question 1 of 3</div>
+  <p class="quiz-question">You call <code>init_chat_model("anthropic:claude-sonnet-4-6")</code>. What does LangChain return?</p>
+  <button class="quiz-option" onclick="checkAnswer(this,'q4','B')">
+    <span class="option-key">A</span>
+    <span class="option-text">A local inference server that handles incoming chat request traffic.</span>
+  </button>
+  <button class="quiz-option" onclick="checkAnswer(this,'q4','B')">
+    <span class="option-key">B</span>
+    <span class="option-text">A ready-to-use chat model instance that accepts your typed messages.</span>
+  </button>
+  <button class="quiz-option" onclick="checkAnswer(this,'q4','B')">
+    <span class="option-key">C</span>
+    <span class="option-text">A provider registration entry stored inside the LangChain runtime config.</span>
+  </button>
+  <button class="quiz-option" onclick="checkAnswer(this,'q4','B')">
+    <span class="option-key">D</span>
+    <span class="option-text">A set of model weights for local inference without API.</span>
+  </button>
+  <div class="quiz-result" id="q4" aria-live="polite" role="status"></div>
+</div>
+
+<div class="quiz">
+  <div class="quiz-title">Question 2 of 3</div>
+  <p class="quiz-question">Which message type carries a tool execution result back to the model for further reasoning?</p>
+  <button class="quiz-option" onclick="checkAnswer(this,'q5','C')">
+    <span class="option-key">A</span>
+    <span class="option-text">SystemMessage provides the system-level behaviour instructions to the given model.</span>
+  </button>
+  <button class="quiz-option" onclick="checkAnswer(this,'q5','C')">
+    <span class="option-key">B</span>
+    <span class="option-text">HumanMessage wraps the original user query that started the conversation.</span>
+  </button>
+  <button class="quiz-option" onclick="checkAnswer(this,'q5','C')">
+    <span class="option-key">C</span>
+    <span class="option-text">ToolMessage carries tool result with tool_call_id linking to the call.</span>
+  </button>
+  <button class="quiz-option" onclick="checkAnswer(this,'q5','C')">
+    <span class="option-key">D</span>
+    <span class="option-text">AIMessage contains the model text output and optional tool_calls field.</span>
+  </button>
+  <div class="quiz-result" id="q5" aria-live="polite" role="status"></div>
+</div>
+
+<div class="quiz">
+  <div class="quiz-title">Question 3 of 3</div>
+  <p class="quiz-question">What distinguishes <code>with_structured_output</code> from the agent-level <code>response_format</code>?</p>
+  <button class="quiz-option" onclick="checkAnswer(this,'q6','B')">
+    <span class="option-key">A</span>
+    <span class="option-text">The agent-level option configures parallel tool execution and retries in the harness loop run.</span>
+  </button>
+  <button class="quiz-option" onclick="checkAnswer(this,'q6','B')">
+    <span class="option-key">B</span>
+    <span class="option-text">The model-level method returns a Pydantic schema instance; the agent wraps the full loop.</span>
+  </button>
+  <button class="quiz-option" onclick="checkAnswer(this,'q6','B')">
+    <span class="option-key">C</span>
+    <span class="option-text">Both settings are identical; the agent option is a deprecated name for the method.</span>
+  </button>
+  <button class="quiz-option" onclick="checkAnswer(this,'q6','B')">
+    <span class="option-key">D</span>
+    <span class="option-text">The model method returns a raw JSON string; agent option returns parsed object output.</span>
+  </button>
+  <div class="quiz-result" id="q6" aria-live="polite" role="status"></div>
+</div>
+
+<hr>
+
+<h2 id="predict-object">Predict the Object</h2>
+
+<div class="exercise">
+  <div class="exercise-title">What does this code output?</div>
+  <p>Read the code below. Predict exactly what <code>type(result).__name__</code> prints and what fields <code>result</code> has.</p>
+
+<pre><code>from langchain.chat_models import init_chat_model
+from pydantic import BaseModel
+
+class Joke(BaseModel):
+    setup: str
+    punchline: str
+
+model = init_chat_model("openai:gpt-5.5")
+structured = model.with_structured_output(Joke)
+result = structured.invoke("Tell me a programming joke.")
+print(type(result).__name__)
+print(result.setup)
+print(result.punchline)</code></pre>
+
+  <details>
+    <summary>Reveal the answer</summary>
+    <div class="answer-content">
+      <p><strong>The output is:</strong></p>
+      <pre><code>Joke
+Why do programmers prefer dark mode?
+Because light attracts bugs.</code></pre>
+      <p><strong>Why:</strong> <code>with_structured_output(Joke)</code> wraps the model so that <code>invoke</code> returns a <code>Joke</code> instance instead of an <code>AIMessage</code>. LangChain sends the Joke schema to the model, instructs it to return JSON matching that schema, and parses the response into a validated <code>Joke</code> object with <code>.setup</code> and <code>.punchline</code> fields.</p>
+      <p>The exact joke content will vary between models, but the <strong>shape</strong> is always a <code>Joke</code> with those two fields. That is the contract.</p>
+    </div>
+  </details>
+</div>
+
+<hr>
+
+<h2 id="review">Review and Bridge</h2>
+
+<div class="pause-panel">
+  <span class="pause-label">Before Chapter 5</span>
+  <p>Write a version of the message lab that works with <strong>three</strong> providers using a <code>PROVIDER</code> environment variable. Use <code>os.getenv("PROVIDER", "openai:gpt-5.5")</code> as the model identifier. Run it with each provider and compare the outputs. What differences do you notice in response style, latency, and metadata fields?</p>
+  <p style="margin-top: var(--space-md);">Then extend the lab to pass a <code>SystemMessage</code> that asks for structured output (invent a Pydantic schema for the response) and call <code>with_structured_output</code>. Does every provider produce valid output?</p>
+</div>
+
+<div class="callout good">
+  <span class="callout-label">Bridge to Chapter 5: Tools in Depth</span>
+  <p>You now control the model interface directly. You can switch providers, craft typed messages, set system prompts, parse structured output, and tune parameters. Chapter 5 goes back to the other side of the contract: <strong>tools</strong>. The <code>@tool</code> decorator is more powerful than Chapter 2 showed &mdash; it can inject runtime objects (state, config, store), validate arguments automatically, and handle errors gracefully. You will build tools that feel like native parts of the framework.</p>
+  <p>The model speaks messages. Tools speak Python. Chapter 5 makes the conversation two-way.</p>
+</div>
+
+<hr>
+
+<h2 id="next">Where to Go Next</h2>
+
+<div class="card-grid" style="grid-template-columns: 1fr 1fr;">
+  <div class="card">
+    <div class="card-title"><a href="https://f9d1ffa4.ht-ml.app/">Chapter 3: Seeing the Loop</a></div>
+    <p>Refresh the message table, stream API, and the finish condition.</p>
+  </div>
+  <div class="card">
+    <div class="card-title"><a href="https://56ad0f9a.ht-ml.app/">Chapter 4 Quick Reference</a></div>
+    <p>Keep the message API, provider table, and structured output cheat sheet at hand.</p>
+  </div>
+  <div class="card">
+    <div class="card-title"><a href="https://7848bafa.ht-ml.app/">Course Index</a></div>
+    <p>See all 12 chapters and mark your progress.</p>
+  </div>
+  <div class="card">
+    <div class="card-title"><a href="https://3e997043.ht-ml.app/">Reference Glossary</a></div>
+    <p>Every term defined with official source links.</p>
+  </div>
+  <div class="card">
+    <div class="card-title"><a href="https://docs.langchain.com/oss/python/langchain/models">LangChain Models</a></div>
+    <p>Official docs on the model interface and provider integration.</p>
+  </div>
+  <div class="card">
+    <div class="card-title"><a href="https://docs.langchain.com/oss/python/langchain/messages">LangChain Messages</a></div>
+    <p>Official docs on message types, fields, and serialization.</p>
+  </div>
+  <div class="card">
+    <div class="card-title"><a href="https://docs.langchain.com/oss/python/langchain/structured-output">Structured Output</a></div>
+    <p>Official guide to Pydantic output parsing with LangChain.</p>
+  </div>
+  <div class="card">
+    <div class="card-title">Chapter 5 (Planned)</div>
+    <p>Tools in Depth &mdash; the <code>@tool</code> decorator, runtime injection, error handling.</p>
+  </div>
+</div>
+
+<div class="lesson-footer">
+  <div class="footer-col">
+    <a href="https://3e997043.ht-ml.app/">Glossary</a> &middot; <a href="https://7848bafa.ht-ml.app/">Course Index</a> &middot; <a href="https://56ad0f9a.ht-ml.app/">Quick Reference</a>
+  </div>
+  <div class="footer-col" style="text-align: right;">
+    <strong>Previous</strong><br>
+    <a href="https://f9d1ffa4.ht-ml.app/">Chapter 3: Seeing the Loop</a>
+  </div>
+</div>
+
+<div class="sources">
+  <strong>Sources</strong><br>
+  <a href="https://docs.langchain.com/oss/python/langchain/models" target="_blank">LangChain Models Docs</a> &middot;
+  <a href="https://reference.langchain.com/python/langchain/chat_models/base/init_chat_model" target="_blank">init_chat_model API Reference</a> &middot;
+  <a href="https://docs.langchain.com/oss/python/langchain/messages" target="_blank">LangChain Messages Docs</a> &middot;
+  <a href="https://docs.langchain.com/oss/python/langchain/structured-output" target="_blank">LangChain Structured Output Docs</a> &middot;
+  <a href="https://reference.langchain.com/python/langchain-core/language_models/chat_models/BaseChatModel/with_structured_output" target="_blank">with_structured_output API Reference</a> &middot;
+  <a href="https://docs.langchain.com/oss/python/concepts/providers-and-models" target="_blank">Providers and Models Concepts</a>
+</div>
+
+<script>
+function checkAnswer(el, quizId, correctKey) {
+  var result = document.getElementById(quizId);
+  var quiz = el.closest('.quiz');
+  var allOptions = quiz.querySelectorAll('.quiz-option');
+  var key = el.querySelector('.option-key').textContent;
+  var isCorrect = (key === correctKey);
+
+  allOptions.forEach(function(opt) {
+    opt.style.pointerEvents = 'none';
+    opt.style.opacity = '0.5';
+  });
+  el.style.opacity = '1';
+
+  if (isCorrect) {
+    el.style.background = 'rgba(74, 222, 128, 0.15)';
+    result.className = 'quiz-result correct';
+    if (quizId === 'q4') {
+      result.innerHTML = '<strong>Correct.</strong> <code>init_chat_model</code> returns a ready-to-use chat model instance. It does not start a server, register a provider, or download weights. It creates a LangChain model object that wraps the provider SDK and translates your typed messages into provider-specific API calls.';
+    } else if (quizId === 'q5') {
+      result.innerHTML = '<strong>Correct.</strong> <code>ToolMessage</code> carries the tool result and the <code>tool_call_id</code> that links it to the original call. The model uses this ID to correlate results with its earlier tool call decisions, especially when multiple tools are called in parallel.';
+    } else {
+      result.innerHTML = '<strong>Correct.</strong> <code>with_structured_output</code> is a model-level transformer that returns a Pydantic instance from a single invoke. <code>response_format</code> on <code>create_agent</code> configures the full agent loop to produce structured output as the final result, after tools and routing have completed.';
+    }
+  } else {
+    el.style.background = 'rgba(248, 113, 113, 0.15)';
+    result.className = 'quiz-result incorrect';
+    if (quizId === 'q4') {
+      if (key === 'A') result.innerHTML = '<strong>Not quite.</strong> <code>init_chat_model</code> does not start a server. It creates a LangChain model object that makes API calls to an existing provider endpoint.';
+      else if (key === 'C') result.innerHTML = '<strong>Not quite.</strong> No provider registration step is needed. <code>init_chat_model</code> loads the provider integration directly and returns a working model instance.';
+      else result.innerHTML = '<strong>No.</strong> <code>init_chat_model</code> does not download model weights. It connects to a provider API that hosts the weights remotely. For local models, use the <code>ollama:*</code> provider string.';
+    } else if (quizId === 'q5') {
+      if (key === 'A') result.innerHTML = '<strong>Not quite.</strong> <code>SystemMessage</code> sets behaviour instructions. It does not carry tool results, which are runtime data produced by tool execution.';
+      else if (key === 'B') result.innerHTML = '<strong>Not quite.</strong> <code>HumanMessage</code> wraps user input. Tool results are not user input; they are produced by Python functions the harness executes.';
+      else result.innerHTML = '<strong>Not quite.</strong> <code>AIMessage</code> carries the model\'s output, including tool call requests. The <em>result</em> of those tool calls comes back as a <code>ToolMessage</code>, not an <code>AIMessage</code>.';
+    } else {
+      if (key === 'A') result.innerHTML = '<strong>Not quite.</strong> The agent-level option does not configure parallel tool execution. That is controlled by the tool definitions and the harness, not by <code>response_format</code>.';
+      else if (key === 'C') result.innerHTML = '<strong>No.</strong> They are not identical. <code>with_structured_output</code> operates at the model level (single call, no tools). <code>response_format</code> operates at the agent level (full loop with tools and routing).';
+      else result.innerHTML = '<strong>Not quite.</strong> The model method does not return a raw JSON string. It returns a validated Pydantic instance. The parsing happens inside <code>with_structured_output</code>.';
+    }
+  }
+}
+</script>
+
+</body>
+</html>

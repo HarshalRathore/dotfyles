@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quick Reference &mdash; Agent Harnesses</title>
+<style>
+
+/* ============================================================
+   Inlined from assets/course.css — shared token declarations.
+   DO NOT ALTER shared selectors or tokens. Reference-only
+   overrides are at the bottom.
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=JetBrains+Mono&display=swap');
+
+:root {
+  --ink: #e8e8e8;
+  --body: #a3a3a3;
+  --mute: #808080;
+  --hairline: #262626;
+  --hairline-soft: #1a1a1a;
+  --canvas: #000000;
+  --elevated: #0a0a0a;
+  --accent: #a78bfa;
+  --accent-soft: #2e1065;
+  --gold: #d4a547;
+  --gold-soft: #3a2f0e;
+  --blue: #60a5fa;
+  --blue-deep: #93c5fd;
+  --blue-soft: #1e3a5f;
+  --warning: #fbbf24;
+  --green: #4ade80;
+  --green-soft: #14532d;
+  --error: #f87171;
+  --sans: 'DM Sans', -apple-system, 'Segoe UI', sans-serif;
+  --mono: 'JetBrains Mono', ui-monospace, 'SF Mono', 'Fira Code', monospace;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 28px;
+  --space-xl: 36px;
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-pill: 100px;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; line-height: 1.5; }
+
+html { font-size: 16px; scroll-behavior: smooth; }
+
+body {
+  background: var(--canvas);
+  color: var(--body);
+  font-family: var(--sans);
+  line-height: 1.7;
+  max-width: 720px;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  font-size: clamp(1.75rem, 3.5vw, 2.25rem);
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+  color: var(--ink);
+  margin-bottom: var(--space-md);
+}
+
+h1 .gold-accent {
+  color: var(--gold);
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--ink);
+  margin-top: 60px;
+  margin-bottom: var(--space-md);
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--ink);
+  margin-top: var(--space-xl);
+  margin-bottom: var(--space-xs);
+}
+
+p { margin-bottom: 1.25rem; }
+strong { color: var(--ink); font-weight: 600; }
+a { color: var(--blue); text-decoration: none; }
+a:hover { color: var(--blue-deep); text-decoration: underline; }
+
+code {
+  font-family: var(--mono);
+  font-size: 0.88em;
+  background: var(--hairline-soft);
+  padding: 0.15em 0.4em;
+  border-radius: var(--radius-sm);
+  color: var(--ink);
+}
+
+pre {
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+  margin: var(--space-xl) 0;
+  overflow-x: auto;
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  line-height: 1.7;
+}
+
+pre code { background: none; padding: 0; color: inherit; }
+
+ul, ol { margin-bottom: 1.25rem; padding-left: 1.5rem; }
+li { margin-bottom: 0.35rem; }
+
+hr { border: none; border-top: 1px solid var(--hairline); margin: 60px 0; }
+
+.card {
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  font-size: 0.9rem;
+  padding: 36px;
+  line-height: 1.5;
+}
+
+.card-title { font-weight: 600; font-size: 0.9rem; color: var(--ink); margin-bottom: 6px; }
+
+.card p { margin-bottom: 0; font-size: 0.9rem; line-height: 1.5; color: var(--body); }
+
+.card-grid {
+  display: grid;
+  gap: var(--space-md);
+  margin: var(--space-xl) 0;
+}
+
+.callout {
+  padding: 36px;
+  margin: var(--space-xl) 0;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--hairline);
+  background: var(--elevated);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.callout.accent { background: rgba(167, 139, 250, 0.08); }
+.callout.info { background: rgba(96, 165, 250, 0.08); }
+.callout.warn { background: rgba(251, 191, 36, 0.08); }
+.callout.good { background: rgba(74, 222, 128, 0.08); }
+.callout.gold { background: rgba(212, 165, 71, 0.08); }
+
+.callout-label {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.04em;
+  margin-bottom: 8px;
+  display: block;
+  font-weight: 600;
+}
+
+.callout.accent .callout-label { color: var(--accent); }
+.callout.info .callout-label { color: var(--blue); }
+.callout.warn .callout-label { color: var(--warning); }
+.callout.gold .callout-label { color: var(--gold); }
+.callout.good .callout-label { color: var(--green); }
+.callout p:last-child { margin-bottom: 0; }
+
+.lesson-header {
+  margin-bottom: 60px;
+  border-bottom: 1px solid var(--hairline);
+  padding-bottom: 48px;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: var(--mute);
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.lesson-footer {
+  border-top: 1px solid var(--hairline);
+  margin-top: 60px;
+  padding-top: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+}
+
+.footer-col { font-size: 0.9rem; color: var(--mute); }
+
+.sources {
+  font-size: 0.9rem;
+  color: var(--mute);
+  line-height: 1.6;
+  margin-top: var(--space-xl);
+}
+
+.sources a { color: var(--mute); text-decoration: underline; text-underline-offset: 2px; }
+.sources a:hover { color: var(--body); }
+
+.quiz {
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  padding: 36px;
+  margin: var(--space-xl) 0;
+}
+
+.quiz-title {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: var(--space-md);
+}
+
+.quiz-question {
+  font-weight: 500;
+  margin-bottom: var(--space-md);
+  color: var(--ink);
+}
+
+.quiz-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 0;
+  cursor: pointer;
+  border-radius: var(--radius-sm);
+  transition: background 0.1s;
+  border-top: 1px solid var(--hairline-soft);
+  background: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  width: 100%;
+  text-align: left;
+  font-family: var(--sans);
+  font-size: inherit;
+  color: inherit;
+  line-height: 1.5;
+}
+
+.quiz-option:first-child { border-top: none; }
+.quiz-option:hover { background: rgba(96, 165, 250, 0.08); }
+
+.quiz-option:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 2px;
+  background: rgba(96, 165, 250, 0.08);
+}
+
+.quiz-option .option-key {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  color: var(--mute);
+  min-width: 1.5rem;
+  text-align: center;
+  flex-shrink: 0;
+  line-height: 1.6;
+}
+
+.quiz-option .option-text { font-size: 0.9rem; color: var(--body); line-height: 1.5; }
+
+.quiz-result {
+  margin-top: var(--space-md);
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  display: none;
+  line-height: 1.5;
+}
+
+.quiz-result.correct {
+  background: var(--green-soft);
+  border: 1px solid rgba(74, 222, 128, 0.4);
+  color: var(--ink);
+  display: block;
+}
+
+.quiz-result.incorrect {
+  background: rgba(248, 113, 113, 0.1);
+  border: 1px solid rgba(248, 113, 113, 0.2);
+  color: var(--ink);
+  display: block;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: var(--space-xl) 0;
+  font-size: 0.9rem;
+}
+
+thead th {
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--hairline);
+  color: var(--mute);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+tbody td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--hairline-soft);
+  color: var(--body);
+  line-height: 1.5;
+}
+
+tbody tr:last-child td { border-bottom: none; }
+
+.tag {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  padding: 3px 8px;
+  border-radius: var(--radius-pill);
+  background: var(--hairline-soft);
+  color: var(--mute);
+}
+
+.tag.accent { background: var(--accent-soft); color: var(--accent); }
+.tag.blue { background: var(--blue-soft); color: var(--blue); }
+.tag.gold { background: var(--gold-soft); color: var(--gold); }
+
+.exercise {
+  font-size: 0.9rem;
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  padding: 36px;
+  margin: var(--space-xl) 0;
+  line-height: 1.6;
+}
+
+.exercise-title { font-weight: 600; color: var(--ink); margin-bottom: var(--space-md); }
+
+details { margin-bottom: var(--space-xl); cursor: pointer; }
+
+details .answer-content {
+  margin-top: var(--space-md);
+  font-size: 0.9rem;
+  line-height: 1.7;
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  padding: 36px;
+}
+
+.code-annotation {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+  margin: var(--space-xl) 0;
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  padding: 4px;
+}
+
+.annotation-line {
+  display: grid;
+  grid-template-columns: 1fr 220px;
+  border-bottom: 1px solid var(--hairline-soft);
+}
+
+.annotation-line:last-child { border-bottom: none; }
+
+.annotation-line .code-part {
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  padding: 12px var(--space-md);
+  color: var(--ink);
+  background: var(--elevated);
+  line-height: 1.6;
+}
+
+.annotation-line .desc-part {
+  font-size: 0.78rem;
+  padding: 12px var(--space-md);
+  color: var(--body);
+  line-height: 1.6;
+  border-left: 1px solid var(--hairline-soft);
+  background: rgba(212, 165, 71, 0.03);
+}
+
+.schematic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: var(--space-xl) 0;
+  flex-wrap: wrap;
+  font-family: var(--mono);
+  font-size: 0.85rem;
+}
+
+.schematic-box {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 18px;
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  background: var(--elevated);
+  text-align: center;
+  min-width: 48px;
+  line-height: 1.3;
+}
+
+.schematic-box.provider { border-color: var(--blue); color: var(--blue); }
+.schematic-box.model { border-color: var(--gold); color: var(--gold); }
+.schematic-box.message { border-color: var(--accent); color: var(--accent); }
+.schematic-box.schema { border-color: var(--green); color: var(--green); }
+
+.schematic-arrow { color: var(--mute); font-weight: 300; }
+
+.pause-panel {
+  border: 1px solid rgba(212, 165, 71, 0.25);
+  padding: 36px;
+  margin: var(--space-xl) 0;
+  background: rgba(212, 165, 71, 0.04);
+  border-radius: var(--radius-md);
+}
+
+.pause-panel .pause-label {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.04em;
+  color: var(--gold);
+  font-weight: 600;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.pause-panel p { font-size: 0.9rem; color: var(--body); margin-bottom: 0; line-height: 1.6; }
+.pause-panel p + p { margin-top: 12px; }
+
+.stage-label {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  padding: 2px 7px;
+  border-radius: var(--radius-sm);
+  background: var(--hairline-soft);
+  color: var(--mute);
+}
+
+.stage-label.model { background: var(--blue-soft); color: var(--blue); }
+.stage-label.tool { background: var(--green-soft); color: var(--green); }
+.stage-label.end { background: rgba(248, 113, 113, 0.1); color: var(--error); }
+.stage-label.schema { background: var(--gold-soft); color: var(--gold); }
+.stage-label.message { background: var(--accent-soft); color: var(--accent); }
+
+/* Lesson-specific: parameter table */
+.param-table td:first-child {
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  color: var(--ink);
+  white-space: nowrap;
+}
+
+.param-table td:last-child {
+  font-size: 0.85rem;
+}
+
+@media (max-width: 660px) {
+  body { padding: var(--space-xl) var(--space-md); }
+  pre { padding: var(--space-md); font-size: 0.8rem; }
+  .annotation-line { grid-template-columns: 1fr; }
+  .annotation-line .desc-part { border-left: none; border-top: 1px solid var(--hairline-soft); }
+  .card-grid { grid-template-columns: 1fr !important; }
+}
+
+@media (max-width: 400px) {
+  html { font-size: 15px; }
+  body { padding: var(--space-lg) var(--space-sm); }
+  .lesson-footer { flex-direction: column; gap: var(--space-sm); }
+}
+
+/* ============================================================
+   Quick-reference layout overrides.
+   Keep the shared token declarations above unchanged.
+   ============================================================ */
+body { max-width: 780px; padding: 0 var(--space-md); font-size: 1rem; line-height: 1.6; }
+h1 { font-size: clamp(1.5rem, 3vw, 1.9rem); margin: 48px 0 var(--space-sm); padding-bottom: var(--space-md); border-bottom: 1px solid var(--hairline); }
+h2 { font-size: 1.3rem; margin: 36px 0 var(--space-sm); }
+h3 { font-size: 1rem; margin: 24px 0 var(--space-xs); }
+p { font-size: 0.88rem; margin-bottom: 0.85rem; }
+table { font-size: 0.86rem; }
+pre { font-size: 0.8rem; padding: var(--space-md); margin: var(--space-md) 0; }
+.card { padding: 20px; margin: var(--space-md) 0; }
+.card p { font-size: 0.86rem; }
+.ref-label { color: var(--gold); font-family: var(--mono); font-size: 0.65rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
+@media (max-width: 660px) { body { padding: 0 var(--space-md); } }
+
+</style>
+</head>
+<body>
+
+<h1><span class="gold-accent">Agent</span> Harnesses</h1>
+<p class="subtitle">Chapter 6 quick reference. <code>create_agent</code> parameters, middleware hooks, guardrails, limits, retries, routing, and the customization ladder.</p>
+
+<div class="card">
+  <div class="card-title">The mental model</div>
+  <p>An agent is a model calling tools in a loop. The <strong>harness</strong> is the policy layer around that loop. <code>create_agent</code> is LangChain's configurable harness. Middleware adds policy at the seams without rebuilding the loop. LangGraph opens the loop into explicit nodes and edges when the topology changes.</p>
+</div>
+
+<div class="callout gold">
+  <span class="callout-label">Provider-neutral</span>
+  <p>All examples use provider-neutral model identifiers (<code>openai:gpt-5.5</code>). The harness, middleware, and guardrail patterns work identically across providers. No example depends on provider-specific features.</p>
+</div>
+
+<hr>
+
+<h2 id="params">1. <code>create_agent</code> core parameters</h2>
+
+<p>Start with these four controls. They shape the harness and nothing else.</p>
+
+<pre><code>agent = create_agent(
+    model="openai:gpt-5.5",
+    tools=[lookup_order, get_account_tier],
+    system_prompt="Use tools for order facts.",
+    middleware=[...],
+)</code></pre>
+
+<table>
+  <thead>
+    <tr><th>Parameter</th><th>Use it for</th><th>Do not confuse it with</th></tr>
+  </thead>
+  <tbody>
+    <tr><td style="font-family:var(--mono);color:var(--ink);white-space:nowrap;">model</td><td>A provider-neutral model string or model instance.</td><td>The harness itself.</td></tr>
+    <tr><td style="font-family:var(--mono);color:var(--ink);white-space:nowrap;">tools</td><td>The callable actions whose schemas the model can see.</td><td>Runtime context hidden from the model.</td></tr>
+    <tr><td style="font-family:var(--mono);color:var(--ink);white-space:nowrap;">system_prompt</td><td>Stable role and operating instructions.</td><td>Authorization or a hard stop.</td></tr>
+    <tr><td style="font-family:var(--mono);color:var(--ink);white-space:nowrap;">middleware</td><td>Checks and policies around execution.</td><td>A replacement for the agent loop.</td></tr>
+  </tbody>
+</table>
+
+<p><span class="ref-label">Note</span> A system prompt is model <em>guidance</em>, not authorization. If a rule must hold even when the model ignores instructions, enforce it in deterministic Python middleware or tool code. Provider implementations interpret system prompts differently; do not rely on them as a security boundary.</p>
+
+<p>Other parameters are available but secondary to the harness layer: <code>response_format</code> shapes the final agent output, <code>context_schema</code> types per-run context, and <code>checkpointer</code> persists thread state.</p>
+
+<hr>
+
+<h2 id="hooks">2. Middleware hooks</h2>
+
+<p>Middleware runs inside the compiled LangGraph that <code>create_agent</code> returns. There are two hook styles.</p>
+
+<div class="code-annotation">
+  <div class="annotation-line">
+    <div class="code-part"><span style="color: var(--gold);">Node-style</span><br>before_agent<br>before_model<br>after_model<br>after_agent</div>
+    <div class="desc-part">Run at named points. Return state updates or short-circuit a run. <code>before_agent</code> and <code>after_agent</code> run once per invocation; model hooks run per model iteration.</div>
+  </div>
+  <div class="annotation-line">
+    <div class="code-part"><span style="color: var(--gold);">Wrap-style</span><br>wrap_model_call<br>wrap_tool_call</div>
+    <div class="desc-part">Surround one model or tool call. Decide whether the handler runs zero, one, or multiple times. Useful for retries, transformation, and interception.</div>
+  </div>
+</div>
+
+<table>
+  <thead>
+    <tr><th>Need</th><th>Which hook</th><th>Runs</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Check once at the start</td><td><code>before_agent</code></td><td>Once per invocation</td></tr>
+    <tr><td>Inspect every model response</td><td><code>after_model</code></td><td>After each model call</td></tr>
+    <tr><td>Retry a failing tool call</td><td><code>wrap_tool_call</code> or built-in retry</td><td>Zero or more times per call</td></tr>
+    <tr><td>Intercept or transform a tool result</td><td><code>wrap_tool_call</code></td><td>Once per tool call</td></tr>
+    <tr><td>Replace the model per request</td><td><code>wrap_model_call</code></td><td>Before each model call</td></tr>
+    <tr><td>Run cleanup after the invocation</td><td><code>after_agent</code></td><td>Once per invocation</td></tr>
+  </tbody>
+</table>
+
+<p><span class="ref-label">Reminder</span> <code>before_model</code> and <code>after_model</code> repeat when the agent loops &mdash; they are not one-time setup hooks. If the agent makes three model calls, each runs three times.</p>
+
+<hr>
+
+<h2 id="guardrail">3. Deterministic <code>before_agent</code> guardrail</h2>
+
+<p>A guardrail prevents the model from seeing unsafe input. The simplest useful guardrail runs before the model sees the request, applies keyword rules in Python, and short-circuits to the end when triggered.</p>
+
+<pre><code>from typing import Any
+from langchain.agents.middleware import AgentState, before_agent
+from langgraph.runtime import Runtime
+
+BLOCKED_WORDS = {"delete", "transfer"}
+
+@before_agent(can_jump_to=["end"])
+def safety_gate(
+    state: AgentState,
+    runtime: Runtime,
+) -&gt; dict[str, Any] | None:
+    if not state["messages"]:
+        return None
+
+    first_message = state["messages"][0]
+    if first_message.type != "human":
+        return None
+
+    if any(word in first_message.content.lower() for word in BLOCKED_WORDS):
+        return {
+            "messages": [{
+                "role": "assistant",
+                "content": "This assistant cannot perform that operation.",
+            }],
+            "jump_to": "end",
+        }
+    return None</code></pre>
+
+<table>
+  <thead>
+    <tr><th>Pattern</th><th>What it does</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><code>@before_agent(can_jump_to=["end"])</code></td><td>Register a node-style hook that may short-circuit before the model runs.</td></tr>
+    <tr><td><code>return {"jump_to": "end", "messages": [...]}</code></td><td>Inject a terminal message and skip the rest of the graph.</td></tr>
+    <tr><td><code>return None</code></td><td>Allow the run to proceed unmodified.</td></tr>
+  </tbody>
+</table>
+
+<div class="callout warn">
+  <span class="callout-label">Teaching example, not production security</span>
+  <p>Keyword checks miss paraphrases, encoded input, and every other bypass. Authorization and dangerous side-effect controls must live at the tool or service boundary, not in pattern-matching middleware.</p>
+</div>
+
+<hr>
+
+<h2 id="limit">4. <code>ModelCallLimitMiddleware</code></h2>
+
+<p>A model can make reasonable decisions and still use too many calls. The harness needs a budget.</p>
+
+<pre><code>from langchain.agents.middleware import ModelCallLimitMiddleware
+
+agent = create_agent(
+    model="openai:gpt-5.5",
+    tools=tools,
+    middleware=[
+        safety_gate,
+        ModelCallLimitMiddleware(
+            run_limit=3,
+            exit_behavior="end",
+        ),
+    ],
+)</code></pre>
+
+<table>
+  <thead>
+    <tr><th>Limit</th><th>Protects</th><th>Scope</th></tr>
+  </thead>
+  <tbody>
+    <tr><td style="font-family:var(--mono);color:var(--ink);white-space:nowrap;">run_limit</td><td>One invocation from making too many model calls.</td><td>Resets on the next invocation.</td></tr>
+    <tr><td style="font-family:var(--mono);color:var(--ink);white-space:nowrap;">thread_limit</td><td>A persistent conversation from accumulating too many calls.</td><td>Requires a checkpointer.</td></tr>
+    <tr><td style="font-family:var(--mono);color:var(--ink);white-space:nowrap;">ToolCallLimitMiddleware</td><td>Expensive or risky tool execution.</td><td>Global or one named tool.</td></tr>
+  </tbody>
+</table>
+
+<p><code>exit_behavior="end"</code> stops gracefully when the limit is reached. <code>exit_behavior="error"</code> raises instead. Pick based on whether the caller needs a normal terminal state or an explicit failure signal.</p>
+
+<div class="callout info">
+  <span class="callout-label">Cost control is behavior control</span>
+  <p>Limits are not only billing protection. They make the agent's possible execution finite, which makes testing and incident analysis tractable.</p>
+</div>
+
+<hr>
+
+<h2 id="retry">5. <code>ToolRetryMiddleware</code></h2>
+
+<p>Retries are a policy, not a guarantee that a request is valid. A timeout may be transient. An unknown order ID is usually permanent bad input.</p>
+
+<pre><code>from langchain.agents.middleware import ToolRetryMiddleware
+
+agent = create_agent(
+    model="openai:gpt-5.5",
+    tools=[lookup_order],
+    middleware=[
+        ToolRetryMiddleware(
+            tools=["lookup_order"],
+            max_retries=2,
+            retry_on=(TimeoutError,),
+            on_failure="continue",
+        ),
+    ],
+)</code></pre>
+
+<table>
+  <thead>
+    <tr><th>Policy</th><th>Result after retries are exhausted</th></tr>
+  </thead>
+  <tbody>
+    <tr><td style="font-family:var(--mono);color:var(--ink);white-space:nowrap;">on_failure="continue"</td><td>Return a <code>ToolMessage</code> error so the model can respond.</td></tr>
+    <tr><td style="font-family:var(--mono);color:var(--ink);white-space:nowrap;">on_failure="error"</td><td>Re-raise the exception and stop the agent execution.</td></tr>
+    <tr><td style="font-family:var(--mono);color:var(--ink);white-space:nowrap;">retry_on=(TimeoutError,)</td><td>Retry only the failure type you consider transient. Omit to retry any exception.</td></tr>
+  </tbody>
+</table>
+
+<div class="callout warn">
+  <span class="callout-label">Do not blindly retry side effects</span>
+  <p>Retrying a read is different from retrying a payment, email, or database write. Idempotency and service-level guarantees belong to the tool implementation and the external system.</p>
+</div>
+
+<hr>
+
+<h2 id="routing">6. Fallback, routing, and approval</h2>
+
+<p>Middleware can solve several different routing problems. Do not collapse them into one vague idea.</p>
+
+<table>
+  <thead>
+    <tr><th>Need</th><th>Smallest fitting policy</th><th>What it actually decides</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Primary model failed</td><td><code>ModelFallbackMiddleware</code></td><td>Try ordered fallback models after failure.</td></tr>
+    <tr><td>Model depends on request state</td><td><code>wrap_model_call</code></td><td>Choose or replace the model before this call.</td></tr>
+    <tr><td>Many tools exist</td><td><code>LLMToolSelectorMiddleware</code></td><td>Use a selector model to reduce the visible tool set.</td></tr>
+    <tr><td>High-impact tool needs approval</td><td><code>HumanInTheLoopMiddleware</code></td><td>Pause before execution and resume after a decision.</td></tr>
+  </tbody>
+</table>
+
+<p>These policies have different costs. Fallback is failure-only, not latency-based routing. Tool selection adds another model call. Human approval requires a checkpointer and stable thread ID so the run can resume.</p>
+
+<hr>
+
+<h2 id="ladder">7. The customization ladder</h2>
+
+<p>Three tiers of increasing power. Start as high on the ladder as the topology demands.</p>
+
+<table>
+  <thead>
+    <tr><th>Level</th><th>Details</th><th>When to use</th></tr>
+  </thead>
+  <tbody>
+    <tr><td style="font-family:var(--mono);color:var(--ink);white-space:nowrap;">1. Configure</td><td>Set <code>model</code>, <code>tools</code>, and <code>system_prompt</code> on <code>create_agent</code>.</td><td>A standard model-tools loop with a static prompt.</td></tr>
+    <tr><td style="font-family:var(--mono);color:var(--ink);white-space:nowrap;">2. Middleware</td><td>Add guardrails, limits, retries, fallbacks, routing, or approval hooks.</td><td>The topology is still a model-tools loop with extra policy.</td></tr>
+    <tr><td style="font-family:var(--mono);color:var(--ink);white-space:nowrap;">3. LangGraph</td><td>Write explicit nodes, edges, conditional branches, parallel work, and multiple agent calls.</td><td>The topology changes: branching, parallelism, or several agent calls stitched together.</td></tr>
+  </tbody>
+</table>
+
+<p><span class="ref-label">Rule of thumb</span> Configure first. Add middleware when checks and limits are needed. Move to LangGraph when "model plus tools plus loop" is no longer enough to describe the workflow.</p>
+
+<hr>
+
+<h2 id="checklist">8. Checklist</h2>
+
+<ul>
+  <li>Every harness starts with a model, tool list, system prompt, and middleware array.</li>
+  <li>Use <code>before_agent</code> for checks that must run before the model sees the request.</li>
+  <li>Use wrap-style hooks (<code>wrap_model_call</code>, <code>wrap_tool_call</code>) for retries, transformation, and interception.</li>
+  <li>Set a model-call limit to bound each invocation's cost and behavior.</li>
+  <li>Configure tool retries with <code>retry_on</code> for transient failures and <code>on_failure</code> for exhausted retries.</li>
+  <li>Route, fall back, select tools, or request approval when the policy requires it — do not collapse these into one middleware.</li>
+  <li>A system prompt is model guidance. Middleware is application control.</li>
+  <li>Configure first, add middleware second, move to LangGraph when the topology changes.</li>
+</ul>
+
+<hr>
+
+<p><a href="../lessons/0006-agent-harnesses.html">Read Chapter 6</a> &middot; <a href="https://7848bafa.ht-ml.app/">Course Index</a> &middot; <a href="https://3e997043.ht-ml.app/">Glossary</a> &middot; <a href="https://e9366b4b.ht-ml.app/">Chapter 5</a> &middot; <a href="https://aaa51794.ht-ml.app/">Chapter 5 Reference</a></p>
+
+<div class="sources">
+  <strong>Official sources</strong><br>
+  <a href="https://docs.langchain.com/oss/python/langchain/agents" target="_blank">LangChain Agents Docs</a> &middot;
+  <a href="https://reference.langchain.com/python/langchain/agents/factory/create_agent" target="_blank"><code>create_agent</code> API Reference</a> &middot;
+  <a href="https://docs.langchain.com/oss/python/langchain/middleware/overview" target="_blank">Middleware Overview</a> &middot;
+  <a href="https://docs.langchain.com/oss/python/langchain/middleware/custom" target="_blank">Custom Middleware</a> &middot;
+  <a href="https://docs.langchain.com/oss/python/langchain/middleware/built-in" target="_blank">Prebuilt Middleware</a> &middot;
+  <a href="https://docs.langchain.com/oss/python/langchain/guardrails" target="_blank">Guardrails</a> &middot;
+  <a href="https://reference.langchain.com/python/langchain/agents/middleware/model_call_limit/ModelCallLimitMiddleware" target="_blank"><code>ModelCallLimitMiddleware</code> Reference</a> &middot;
+  <a href="https://reference.langchain.com/python/langchain/agents/middleware/tool_retry/ToolRetryMiddleware" target="_blank"><code>ToolRetryMiddleware</code> Reference</a> &middot;
+  <a href="https://reference.langchain.com/python/langchain/agents/middleware/model_fallback/ModelFallbackMiddleware" target="_blank"><code>ModelFallbackMiddleware</code> Reference</a> &middot;
+  <a href="https://docs.langchain.com/oss/python/langchain/middleware/built-in#llm-tool-selector" target="_blank">Tool Selector</a> &middot;
+  <a href="https://docs.langchain.com/oss/python/langchain/middleware/built-in#human-in-the-loop" target="_blank">Human-in-the-Loop</a>
+</div>
+
+</body>
+</html>

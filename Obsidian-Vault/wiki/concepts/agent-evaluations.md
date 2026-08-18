@@ -14,6 +14,7 @@ sources:
 - https://www.deeplearning.ai/courses/agentic-ai
 - https://nitter.tiekoetter.com/i/article/2083540339147567268
 - 'https://walkinglabs.github.io/learn-harness-engineering/en/lectures/lecture-09-why-agents-declare-victory-too-early/'
+- 'https://x.com/ashpreetbedi/status/2084301728363462919'
 relationships:
 - target: '[[concepts/agent-guardrails|Agent Guardrails]]'
   type: implements
@@ -37,7 +38,7 @@ base_confidence: 0.80
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
-updated: 2026-08-13
+updated: 2026-08-15T20:08:52Z
 summary: "Evaluation infrastructure for agent systems: RL training signals, error analysis, verdict-driven runtime gates, three-level grading, log-derived evals, and externalized completion gates."
 ---
 
@@ -112,6 +113,12 @@ When choosing an agent platform, evals are a key evaluation criterion. The quest
 - **Actionable error feedback** (OpenAI/Codex practice): agent-facing error messages must carry repair instructions ("Test failed: POST /api/reset-password returned 500 — check that the email service config exists in environment variables…"), letting the agent self-correct without human intervention. ^[extracted]
 - **Completion priority constraint:** verify functional correctness first, then performance, then style; no refactoring until core functionality passes verification. ^[extracted]
 - **Runtime feedback signals** — application reaches ready state, critical paths execute, side effects correct, temporary resources cleaned up — form the objective basis for completion judgment; runtime signals, not agent confidence, are the verifier's input. Consistent with this page's verdict-driven gating: only verified completion ends the run. ^[extracted]
+
+## Session-Mined Probes and Live-Agent Repair
+
+Ashpreet Bedi's recursive auto-improvement workflow turns production sessions into evaluation inputs: mine recurring shapes and fumbles from Postgres, write expected behavior from the spec, run probes against the live API, inspect tool calls and logs, then repair one rule, tool, or parameter and rerun only failures. ^[extracted] See [[concepts/recursive-auto-improvement]].
+
+This makes logs a source of tests rather than merely a debugging archive, while held-out probes remain necessary to detect overfitting to observed usage. ^[inferred]
 
 ## Relationship to Other Concepts
 

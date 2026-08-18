@@ -11,16 +11,17 @@ summary: 'The discipline of building reliable, robust, controllable, and scalabl
 sources:
 - AIEF2025 - On Engineering AI Systems that Endure The Bitter Lesson - Omar Khattab, DSPy & Databricks - https://www.youtube.com/watch?v=qdmxApz3EJI
 - AIEF2025 - Define AI Engineer — Greg Brockman, OpenAI & Jensen Huang - https://www.youtube.com/watch?v=...
+- https://x.com/AndrewYNg/status/2088302050706686198
 provenance:
-  extracted: 0.75
-  inferred: 0.2
+  extracted: 0.73
+  inferred: 0.22
   ambiguous: 0.05
 base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: core
 created: 2026-07-05
-updated: 2026-07-05
+updated: 2026-08-15T19:39:57Z
 relationships:
 - target: '[[concepts/bitter-lesson|The Bitter Lesson]]'
   type: reframed_by
@@ -57,6 +58,8 @@ Khattab's key insight: we don't build software because we lack AGI. We have bill
 - **Scalable**: they work at scale
 
 Engineering is about **subtracting agency and intelligence in exactly the right places**, carefully and not restricting intelligence everywhere. ^[extracted]
+
+Andrew Ng’s [[concepts/ai-engineering-skills-map|AI Engineering Skills Map]] complements this reliability-centered definition with a practitioner profile: build AI applications, retain software fundamentals, use coding agents effectively, and exercise product judgment about what to build. ^[extracted]
 
 ## The Bitter Lesson for Engineers
 

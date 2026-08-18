@@ -12,6 +12,7 @@ sources:
   - https://github.com/earendil-works/pi
   - https://github.com/earendil-works/pi/blob/main/packages/coding-agent/docs/compaction.md
   - https://earendil.com/posts/compaction-in-pi/
+  - https://x.com/Vercantez/status/2082138839888589200
 summary: "Pi — earendil-works' coding agent: tree-structured sessions (/tree, /fork), structured-summary compaction (20k tail, 16k budget), cache-aware design (compaction = cache reset)."
 provenance:
   extracted: 0.85
@@ -22,7 +23,7 @@ lifecycle: draft
 lifecycle_changed: 2026-08-13
 tier: supporting
 created: 2026-08-13T15:00:00Z
-updated: 2026-08-13T15:30:00Z
+updated: 2026-08-15T20:08:52Z
 ---
 
 # Pi
@@ -42,6 +43,10 @@ updated: 2026-08-13T15:30:00Z
 ## Cache-Aware Design
 
 Pi keeps a stable, append-oriented transcript and does **not** prune aggressively — rewriting mid-context is usually more expensive than the tokens saved (break-even formula in [[references/prompt-caching-in-agents|Earendil's prompt caching essay]]). Compaction is counted as a **cache reset rather than a cache failure** in session statistics. Cache observability: footer `R`/`W`/`CH`, `/session` totals, `showCacheMissNotices`. Supports additive tool loading (`setActiveTools()` → deferred definitions / tool-search items) where models allow. ^[extracted]
+
+## camelAI Harness Reuse
+
+camelAI imports Pi's lower-level agent-loop and state-management libraries while leaving the operating-system-dependent top layer behind. It runs those primitives inside a Cloudflare Durable Object and supplies its own filesystem, execution methods, and Code Mode runtime. ^[extracted] See [[references/camelai-durable-object-agent]].
 
 ## Related
 

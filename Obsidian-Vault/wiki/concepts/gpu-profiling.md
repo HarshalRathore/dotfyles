@@ -5,13 +5,14 @@ tags: [gpu, profiling, performance, nvidia, cuda, observability, continuous-prof
 summary: Technique for monitoring GPU utilization, memory, power, temperature, and per-process performance metrics to identify bottlenecks and optimize GPU resource usage.
 sources:
   - "AIEF2025 - Continuous Profiling for GPUs — Matthias Loibl, Polar Signals - https://www.youtube.com/watch?v=wt8gzWR6auQ"
+  - "Vibecoding GPU Kernels — maharshi (X Article) - https://x.com/i/status/2086442755748970889"
 provenance: { extracted: 0.8, inferred: 0.2, ambiguous: 0.0 }
 base_confidence: 0.9
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05T00:00:00Z
-updated: 2026-07-05T00:00:00Z
+updated: 2026-08-16T00:00:00Z
 relationships:
   - target: "[[concepts/continuous-profiling]]"
     type: extends
@@ -55,3 +56,12 @@ GPU profiling helps teams:
 - Detect CPU bottlenecks that prevent GPUs from being fully utilized (e.g., CPU not feeding data fast enough)
 - Monitor for thermal throttling and power limit violations
 - Profile applications across languages including Python, Rust, Ruby, JVM-based languages, and any complete language integrating with CUDA
+
+## 2026-08-09: vibecoding gpu kernels (maharshi)
+
+In the [[concepts/agent-driven-kernel-development|agent-driven kernel development]] workflow, GPU profiling becomes part of the agent's verifiable feedback loop rather than a human-only activity: ^[extracted]
+
+- **NCU (Nsight Compute) profiling in the loop** — when the agent can access the NCU CLI, it profiles the kernel and generates a report as part of the verifiable feedback loop. ^[extracted]
+- **Intra-kernel tracing** — benchmark sections within a kernel via a custom tracer or CUPTI and dump section timings into the output. ^[extracted]
+- **IR/PTX/SASS/CUBIN dumps as agent-readable artifacts** — dump the generated IR, PTX, SASS, and CUBIN to a dumps directory for the agent to inspect; when the DSL lowers to suboptimal PTX/SASS, the agent can read the text files and inline lower-level code instead of letting the DSL handle the suboptimal part. ^[extracted]
+- **Searchable PTX documentation as agent context** — passing searchable PTX docs as context helps the agent navigate the dumps and choose better instructions or shapes. ^[extracted]

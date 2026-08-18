@@ -12,19 +12,35 @@ tags:
 aliases:
   - DeepSeek
   - deep seek
+  - DeepSeek-AI
 sources:
   - "AIEF2025 - 2025 in LLMs so far, illustrated by Pelicans on Bicycles — Simon Willison - https://www.youtube.com/watch?v=YpY83-kA7Bo"
-summary: "Chinese AI lab that released DeepSeek V3 (Christmas Day 2024) and DeepSeek R1 (January 2025), both open-weight models that challenged Western assumptions about GPU restrictions and training costs."
+  - "https://github.com/cordiverse/paper"
+  - "https://raw.githubusercontent.com/cordiverse/paper/main/paper.pdf"
+summary: "Chinese AI lab behind DeepSeek V3 and R1 open-weight models that challenged assumptions about GPU restrictions and training costs; also the affiliation of Cordis paper co-authors."
 provenance:
-  extracted: 0.85
-  inferred: 0.12
+  extracted: 0.82
+  inferred: 0.15
   ambiguous: 0.03
-base_confidence: 0.80
+base_confidence: 0.83
 lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-08-15
+relationships:
+  - target: "[[concepts/open-weight-models|Open Weight Models]]"
+    type: demonstrates
+  - target: "[[concepts/reasoning-models|Reasoning Models]]"
+    type: produces
+  - target: "[[entities/nvidia|NVIDIA]]"
+    type: contradicts
+  - target: "[[entities/tianyi-cui|Tianyi Cui]]"
+    type: related_to
+  - target: "[[entities/yifan-shi|Yifan Shi]]"
+    type: related_to
+  - target: "[[references/cordis-spatiotemporal-composability|Cordis Paper]]"
+    type: related_to
 relationships:
   - target: "[[concepts/open-weight-models|Open Weight Models]]"
     type: demonstrates
@@ -75,6 +91,13 @@ At AIEF2025, George Cameron of Artificial Analysis presented data showing the op
 This represents a dramatic shift from the GPT-4 era when open-weight models (Llama-65B, Llama-2-70B) were not close to proprietary intelligence. The trajectory: closed with Mixtral MoE 7×2 and Llama-405B, widened with O1 (late 2024), then closed again with DeepSeek V3 and R1. ^[extracted]
 
 
+## DeepSeek-AI and the Cordis Paper (2026)
+
+The paper *A Programming Paradigm for Spatiotemporal Composability* ([[references/cordis-spatiotemporal-composability|Cordis paper]], draft 2026-08-13) lists **DeepSeek-AI** as its affiliation 2 — the host institution of co-author [[entities/tianyi-cui|Tianyi Cui]], with [[entities/yifan-shi|Yifan Shi]] carrying a dual Peking University / DeepSeek-AI affiliation. ^[extracted]
+
+The paper is a programming-systems contribution rather than a model-training one: it formalizes dynamic composition for plugin systems and [[concepts/self-evolving-agent-harnesses|self-evolving agent harnesses]]. Its relevance to DeepSeek's arc in this wiki is the research-direction signal — a DeepSeek-affiliated author contributing to the formal foundations of agent-harness self-evolution, the same space as [[entities/hermes-agent|Hermes]]-style harnesses in the vault. ^[inferred]
+
+
 ## Huawei Ascend Chip Usage
 
 - AIEF2025 - Trends Across the AI Frontier — George Cameron, ArtificialAnalysis.ai - https://www.youtube.com/watch?v=sRpqPgKeXNk
@@ -89,3 +112,4 @@ This represents a dramatic shift from the GPT-4 era when open-weight models (Lla
 
 - AIEF2025 - 2025 in LLMs so far, illustrated by Pelicans on Bicycles — Simon Willison - https://www.youtube.com/watch?v=YpY83-kA7Bo
 - AIEF2025 - The Geopolitics of AI Infrastructure - Dylan Patel, SemiAnalysis - https://www.youtube.com/watch?v=Zz4QjZsYWK0
+- https://github.com/cordiverse/paper — Cordis paper repository (DeepSeek-AI affiliation)

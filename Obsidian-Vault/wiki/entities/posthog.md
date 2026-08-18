@@ -11,6 +11,7 @@ sources:
   - '[[sources/ai-evals]]'
   - 'https://x.com/i/status/2083231950744244360'
   - 'https://posthog.com/blog/10k-prs-a-month'
+  - 'https://x.com/posthog/status/2084345938089316582'
 summary: "PostHog is an analytics and developer-tools company whose engineering practice combines self-driving product loops, AI evaluation, and an AI-native developer-experience outer loop."
 provenance:
   extracted: 0.84
@@ -21,7 +22,7 @@ lifecycle: draft
 lifecycle_changed: 2026-08-02
 tier: supporting
 created: '2026-07-04T15:08:28.018019+00:00'
-updated: '2026-08-02T03:34:00+05:30'
+updated: '2026-08-15T20:08:52Z'
 relationships:
   - target: '[[concepts/agent-loop]]'
     type: uses
@@ -41,6 +42,10 @@ PostHog is an all-in-one developer analytics platform. Its product surface inclu
 - [[misc/web-posthog-com-blog-what-is-a-scout]] — scheduled agents that watch product data and emit signals
 - [[misc/web-posthog-com-docs-ai-evals]] — LLM-as-judge, code-based Hog evals, sentiment analysis, and MCP management
 - [[misc/web-github-com-karpathy-autoresearch]] — autoresearch applied to a ClickHouse query bug
+
+## Agent Skills at Scale
+
+PostHog's skills article reports 226 skills in its internal store and 187 `SKILL.md` files across 28 products. Its practice emphasizes progressive disclosure, goal-and-constraint contracts rather than brittle procedures, source-linked regeneration to prevent rot, asking agents what they need, and creating skills only for repeated, context-heavy, error-prone, or automatable work. ^[extracted] See [[concepts/agent-skill-engineering]] and [[references/posthog-writing-agent-skills]].
 
 ## Developer Experience at Scale
 

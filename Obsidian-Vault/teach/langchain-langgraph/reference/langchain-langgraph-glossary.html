@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Glossary — LangChain & LangGraph</title>
+<style>
+/* Inlined from assets/course.css */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=JetBrains+Mono&display=swap');
+
+:root {
+  --ink: #e8e8e8;
+  --body: #a3a3a3;
+  --mute: #808080;
+  --hairline: #262626;
+  --hairline-soft: #1a1a1a;
+  --canvas: #000000;
+  --elevated: #0a0a0a;
+  --accent: #a78bfa;
+  --accent-soft: #2e1065;
+  --blue: #60a5fa;
+  --blue-deep: #93c5fd;
+  --blue-soft: #1e3a5f;
+  --warning: #fbbf24;
+  --green: #4ade80;
+  --green-soft: #14532d;
+  --error: #f87171;
+  --sans: 'DM Sans', -apple-system, 'Segoe UI', sans-serif;
+  --mono: 'JetBrains Mono', ui-monospace, 'SF Mono', 'Fira Code', monospace;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 28px;
+  --space-xl: 36px;
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-pill: 100px;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { font-size: 16px; scroll-behavior: smooth; }
+
+body {
+  background: var(--canvas);
+  color: var(--body);
+  font-family: var(--sans);
+  line-height: 1.7;
+  max-width: 720px;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  font-size: clamp(1.75rem, 3.5vw, 2.25rem);
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+  color: var(--ink);
+  margin-bottom: var(--space-md);
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--ink);
+  margin-top: 60px;
+  margin-bottom: var(--space-md);
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--ink);
+  margin-top: var(--space-xl);
+  margin-bottom: var(--space-xs);
+}
+
+p { margin-bottom: 1.25rem; }
+strong { color: var(--ink); font-weight: 600; }
+a { color: var(--blue); text-decoration: none; }
+a:hover { color: var(--blue-deep); text-decoration: underline; }
+
+code {
+  font-family: var(--mono);
+  font-size: 0.88em;
+  background: var(--hairline-soft);
+  padding: 0.15em 0.4em;
+  border-radius: var(--radius-sm);
+  color: var(--ink);
+}
+
+pre {
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+  margin: var(--space-xl) 0;
+  overflow-x: auto;
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  line-height: 1.7;
+}
+
+pre code { background: none; padding: 0; color: inherit; }
+
+ul, ol { margin-bottom: 1.25rem; padding-left: 1.5rem; }
+li { margin-bottom: 0.35rem; }
+
+hr { border: none; border-top: 1px solid var(--hairline); margin: 60px 0; }
+
+.card {
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  font-size: 0.9rem;
+  padding: var(--space-lg);
+}
+
+.card-title { font-weight: 600; font-size: 0.9rem; color: var(--ink); margin-bottom: 6px; }
+
+.card p { margin-bottom: 0; font-size: 0.9rem; line-height: 1.5; color: var(--body); }
+
+.card-grid {
+  display: grid;
+  gap: var(--space-md);
+  margin: var(--space-xl) 0;
+}
+
+.callout {
+  padding: var(--space-lg);
+  margin: var(--space-xl) 0;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--hairline);
+  background: var(--elevated);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.callout.accent { background: rgba(167, 139, 250, 0.08); }
+.callout.info { background: rgba(96, 165, 250, 0.08); }
+.callout.warn { background: rgba(251, 191, 36, 0.08); }
+.callout.good { background: rgba(74, 222, 128, 0.08); }
+
+.callout-label {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  display: block;
+  font-weight: 600;
+}
+
+.callout.accent .callout-label { color: var(--accent); }
+.callout.info .callout-label { color: var(--blue); }
+.callout.warn .callout-label { color: var(--warning); }
+.callout.good .callout-label { color: var(--green); }
+.callout p:last-child { margin-bottom: 0; }
+
+.lesson-header {
+  margin-bottom: 60px;
+  border-bottom: 1px solid var(--hairline);
+  padding-bottom: var(--space-xl);
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: var(--mute);
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.lesson-footer {
+  border-top: 1px solid var(--hairline);
+  margin-top: 60px;
+  padding-top: var(--space-xl);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+}
+
+.footer-col { font-size: 0.9rem; color: var(--mute); }
+
+.sources {
+  font-size: 0.9rem;
+  color: var(--mute);
+  line-height: 1.6;
+  margin-top: var(--space-xl);
+}
+
+.sources a { color: var(--mute); text-decoration: underline; text-underline-offset: 2px; }
+.sources a:hover { color: var(--body); }
+
+.quiz {
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+  margin: var(--space-xl) 0;
+}
+
+.quiz-title {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: var(--space-md);
+}
+
+.quiz-question {
+  font-weight: 500;
+  margin-bottom: var(--space-md);
+  color: var(--ink);
+}
+
+.quiz-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 0;
+  cursor: pointer;
+  border-radius: var(--radius-sm);
+  transition: background 0.1s;
+  border-top: 1px solid var(--hairline-soft);
+}
+
+.quiz-option:first-child { border-top: none; }
+.quiz-option:hover { background: rgba(96, 165, 250, 0.08); }
+
+.quiz-option .option-key {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  color: var(--mute);
+  min-width: 1.5rem;
+  text-align: center;
+  flex-shrink: 0;
+  line-height: 1.6;
+}
+
+.quiz-option .option-text { font-size: 0.9rem; color: var(--body); line-height: 1.5; }
+
+.quiz-result {
+  margin-top: var(--space-md);
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  display: none;
+  line-height: 1.5;
+}
+
+.quiz-result.correct {
+  background: var(--green-soft);
+  border: 1px solid rgba(74, 222, 128, 0.4);
+  color: var(--ink);
+  display: block;
+}
+
+.quiz-result.incorrect {
+  background: rgba(248, 113, 113, 0.1);
+  border: 1px solid rgba(248, 113, 113, 0.2);
+  color: var(--ink);
+  display: block;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: var(--space-xl) 0;
+  font-size: 0.9rem;
+}
+
+thead th {
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--hairline);
+  color: var(--mute);
+  font-size: 0.7rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+tbody td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--hairline-soft);
+  color: var(--body);
+  line-height: 1.5;
+}
+
+tbody tr:last-child td { border-bottom: none; }
+
+.tag {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  padding: 3px 8px;
+  border-radius: var(--radius-pill);
+  background: var(--hairline-soft);
+  color: var(--mute);
+}
+
+.tag.accent { background: var(--accent-soft); color: var(--accent); }
+.tag.blue { background: var(--blue-soft); color: var(--blue); }
+
+.exercise {
+  font-size: 0.9rem;
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+  margin: var(--space-xl) 0;
+}
+
+.exercise-title { font-weight: 600; color: var(--ink); margin-bottom: var(--space-md); }
+
+.flow-diagram {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  margin: var(--space-xl) 0;
+  flex-wrap: wrap;
+}
+
+.flow-node {
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-sm);
+  padding: 8px 18px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: center;
+  min-width: 80px;
+}
+
+.flow-node.model { border-color: var(--blue); color: var(--ink); }
+.flow-node.tools { border-color: var(--green); color: var(--ink); }
+.flow-node.loop { border-color: var(--warning); color: var(--ink); }
+
+.flow-arrow { color: var(--mute); font-size: 1.1rem; padding: 0 8px; }
+.flow-caption { text-align: center; font-size: 0.85rem; color: var(--mute); margin-top: 6px; }
+
+.glossary-term {
+  margin-bottom: var(--space-lg);
+  padding-bottom: var(--space-lg);
+  border-bottom: 1px solid var(--hairline-soft);
+}
+
+.glossary-term:last-child { border-bottom: none; }
+
+.glossary-term .term {
+  font-weight: 600;
+  font-family: var(--mono);
+  font-size: 1rem;
+  color: var(--ink);
+  margin-bottom: 4px;
+}
+
+.glossary-term .def { font-size: 0.9rem; color: var(--body); line-height: 1.6; }
+
+details { margin-bottom: var(--space-xl); cursor: pointer; }
+  font-size: 0.9rem;
+
+details .answer-content {
+  margin-top: var(--space-md);
+  font-size: 0.9rem;
+  line-height: 1.7;
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+}
+
+@media (max-width: 660px) {
+  body { padding: var(--space-xl) var(--space-md); }
+  pre { padding: var(--space-md); font-size: 0.8rem; }
+  .flow-diagram { font-size: 0.85rem; gap: 0.25rem; }
+  .flow-node { padding: 6px 12px; min-width: 60px; font-size: 0.85rem; }
+  .card-grid { grid-template-columns: 1fr !important; }
+}
+@media (max-width: 400px) {
+  html { font-size: 15px; }
+  body { padding: var(--space-lg) var(--space-sm); }
+  .lesson-footer { flex-direction: column; gap: var(--space-sm); }
+}
+
+
+</style>
+<style>
+.glossary-letter {
+  font-family: var(--sans);
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--ink);
+  margin-top: var(--space-xl);
+  margin-bottom: var(--space-md);
+  letter-spacing: -0.03em;
+  padding-bottom: var(--space-xs);
+  border-bottom: 2px solid var(--ink);
+}
+.letter-nav {
+  display: flex;
+  gap: var(--space-xs);
+  flex-wrap: wrap;
+  margin: var(--space-lg) 0;
+  padding: var(--space-md) 0;
+  border-top: 1px solid var(--hairline);
+  border-bottom: 1px solid var(--hairline);
+}
+.letter-nav a {
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  color: var(--mute);
+  text-decoration: none;
+  padding: 2px 6px;
+  border-radius: var(--radius-sm);
+}
+.letter-nav a:hover {
+  background: var(--hairline-soft);
+  color: var(--ink);
+}
+</style>
+</head>
+<body>
+
+<h1>Glossary: LangChain & LangGraph</h1>
+  <p class="subtitle">Every term used in this course, defined in plain language. <a href="https://2769bf05.ht-ml.app/">Back to Lesson 1</a> &middot; <a href="https://7848bafa.ht-ml.app/">Course Index</a></p>
+
+<nav class="letter-nav">
+  <a href="#A">A</a><a href="#B">B</a><a href="#C">C</a><a href="#D">D</a><a href="#E">E</a><a href="#G">G</a><a href="#H">H</a><a href="#I">I</a><a href="#L">L</a><a href="#M">M</a><a href="#N">N</a><a href="#P">P</a><a href="#R">R</a><a href="#S">S</a><a href="#T">T</a><a href="#W">W</a>
+</nav>
+
+<!-- A -->
+<h2 class="glossary-letter" id="A">A</h2>
+
+<div class="glossary-term">
+  <div class="term">args_schema</div>
+  <div class="def">The input schema attached to a tool. LangChain can infer it from a function's type hints, or you can provide a Pydantic model or JSON Schema explicitly with <code>@tool(args_schema=...)</code>. The schema tells the model which arguments it may construct. <a href="https://docs.langchain.com/oss/python/langchain/tools" target="_blank">[Source]</a></div>
+</div>
+<div class="glossary-term">
+  <div class="term">agent</div>
+  <div class="def">A model that calls tools in a loop until a task is complete. In LangChain, agents are built with <code>create_agent</code>, which bundles a model, a set of tools, and a system prompt. The agent receives a message, decides which tool to call (or whether to answer directly), calls it, and loops. The best mental model: <strong>agent = model + tools + loop</strong>. <a href="https://docs.langchain.com/oss/python/langchain/agents" target="_blank">[Source]</a></div>
+</div>
+<div class="glossary-term">
+  <div class="term">AIMessage</div>
+  <div class="def">The message type for model responses. Returned by chat models when you invoke them. Contains the model&#39;s reply text in <code>.content</code>, and may carry <code>tool_calls</code> when the model decides to invoke a tool. See <a href="https://docs.langchain.com/oss/python/langchain/messages" target="_blank">messages</a> for all types. <a href="https://docs.langchain.com/oss/python/langchain/messages" target="_blank">[Source]</a></div>
+</div>
+<div class="glossary-term">
+  <div class="term">after_agent</div>
+  <div class="def">A node-style middleware hook that runs once after the agent completes its execution loop. Receives the agent state and runtime; returns an optional dict of state updates. Useful for teardown, logging, metrics collection, and final output validation. <a href="https://docs.langchain.com/oss/python/langchain/middleware/custom" target="_blank">[Source]</a></div>
+</div>
+<div class="glossary-term">
+  <div class="term">after_model</div>
+  <div class="def">A node-style middleware hook that runs after each model response. Receives the agent state (including the model&#39;s output) and runtime; returns an optional dict of state updates. Useful for logging model responses, response validation, post-processing, and state tracking. <a href="https://docs.langchain.com/oss/python/langchain/middleware/custom" target="_blank">[Source]</a></div>
+</div>
+
+<!-- B -->
+<h2 class="glossary-letter" id="B">B</h2>
+
+<div class="glossary-term">
+  <div class="term">before_agent</div>
+  <div class="def">A node-style middleware hook that runs once before the agent starts processing an invocation. Receives the agent state and runtime; returns an optional dict of state updates. Use for early validation, input transformation, guardrails, and dynamic prompt injection. Can jump to a different graph node via <code>can_jump_to</code>. <a href="https://docs.langchain.com/oss/python/langchain/middleware/custom" target="_blank">[Source]</a></div>
+</div>
+<div class="glossary-term">
+  <div class="term">before_model</div>
+  <div class="def">A node-style middleware hook that runs before each model call. Receives the agent state and runtime; returns an optional dict of state updates. Use for policy enforcement, guardrails, dynamic system prompt injection, and input filtering before the model sees it. Can jump to a different graph node via <code>can_jump_to</code>. <a href="https://docs.langchain.com/oss/python/langchain/middleware/custom" target="_blank">[Source]</a></div>
+</div>
+<!-- C -->
+<h2 class="glossary-letter" id="C">C</h2>
+<div class="glossary-term">
+  <div class="term">chat model</div>
+  <div class="def">The LangChain abstraction for an LLM that accepts a list of messages and returns an <code>AIMessage</code>. Every provider (OpenAI, Anthropic, Ollama, etc.) is wrapped into this same interface so your code works the same way regardless of backend. Instantiated via <code>init_chat_model()</code> or through provider-specific constructors. <a href="https://docs.langchain.com/oss/python/langchain/models" target="_blank">[Source]</a></div>
+</div>
+
+<div class="glossary-term">
+  <div class="term">checkpointer</div>
+  <div class="def">A LangGraph component that persists a thread's graph state at each step as a checkpoint. Enables fault tolerance (resume from the last checkpoint after a crash), time travel (replay from any past checkpoint), and human-in-the-loop (interrupt execution and resume). Checkpointers are passed to <code>graph.compile(checkpointer=...)</code>. <a href="https://docs.langchain.com/oss/python/langgraph/persistence" target="_blank">[Source]</a></div>
+</div>
+
+<div class="glossary-term">
+  <div class="term">compile</div>
+  <div class="def">The required final step before a LangGraph can be used. <code>graph = graph.compile(...)</code> runs structural checks (are all nodes reachable? are all edges defined?) and accepts runtime configuration like the checkpointer and breakpoints. A graph that hasn't been compiled will raise an error when you try to invoke it. <a href="https://docs.langchain.com/oss/python/langgraph/graph-api" target="_blank">[Source]</a></div>
+</div>
+
+<div class="glossary-term">
+  <div class="term">create_agent</div>
+  <div class="def">The modern LangChain entrypoint for building agents. Replaces the deprecated <code>LLMChain</code> and <code>AgentExecutor</code> patterns. Takes a model string, a list of tools, and a system prompt, and returns a runnable agent. Created agents are built on LangGraph under the hood. <a href="https://docs.langchain.com/oss/python/langchain/agents" target="_blank">[Source]</a></div>
+</div>
+
+<!-- D -->
+<h2 class="glossary-letter" id="D">D</h2>
+
+<div class="glossary-term">
+  <div class="term">Deep Agents</div>
+  <div class="def">A higher-level SDK built on LangGraph that provides batteries-included agent capabilities: planning, subagent spawning, filesystem access, automated context engineering. Not covered in this beginner course. Mentioned so you know it exists for when you outgrow raw LangChain or LangGraph. <a href="https://docs.langchain.com/oss/python/deepagents/overview" target="_blank">[Source]</a></div>
+</div>
+
+<!-- E -->
+<h2 class="glossary-letter" id="E">E</h2>
+
+<div class="glossary-term">
+  <div class="term">edge</div>
+  <div class="def">In LangGraph, a function that determines which node to execute next based on the current state. Edges can be <strong>fixed</strong> (always go from node A to node B) or <strong>conditional</strong> (inspect state and choose a different next node depending on the values). "Edges tell what to do next." <a href="https://docs.langchain.com/oss/python/langgraph/graph-api" target="_blank">[Source]</a></div>
+</div>
+
+<!-- G -->
+<h2 class="glossary-letter" id="G">G</h2>
+
+<div class="glossary-term">
+  <div class="term">graph</div>
+  <div class="def">The central object in LangGraph. A graph is a network of nodes (functions that do work) connected by edges (functions that route), with a shared state object flowing through all of them. Built with <code>StateGraph(StateType)</code>, populated with <code>add_node</code> and <code>add_edge</code>, and made runnable with <code>compile()</code>. <a href="https://docs.langchain.com/oss/python/langgraph/graph-api" target="_blank">[Source]</a></div>
+</div>
+<div class="glossary-term">
+  <div class="term">guardrail</div>
+  <div class="def">A middleware pattern that enforces constraints on agent behavior. Implemented via <code>before_agent</code>, <code>before_model</code>, or <code>after_model</code> hooks; a guardrail can block execution, inject safety instructions, filter inputs or outputs, or route to a different node (via <code>can_jump_to</code>). Examples: output content filtering, topic restrictions, PII detection, safety checks. <a href="https://docs.langchain.com/oss/python/langchain/middleware/custom" target="_blank">[Source]</a></div>
+</div>
+
+<!-- H -->
+<h2 class="glossary-letter" id="H">H</h2>
+
+<div class="glossary-term">
+  <div class="term">harness</div>
+  <div class="def">Everything around the model loop: the prompt, the tool definitions, the middleware that shapes agent behavior. In LangChain, <code>create_agent</code> provides the default harness. You can customize it with middleware for guardrails, retries, routing, and human-in-the-loop. <a href="https://docs.langchain.com/oss/python/langchain/agents" target="_blank">[Source]</a></div>
+</div>
+<div class="glossary-term">
+  <div class="term">HumanMessage</div>
+  <div class="def">The message type representing user input. When a person sends a prompt to an agent, it becomes a <code>HumanMessage</code> in the message list. Usually the first message in any conversation turn. See <a href="https://docs.langchain.com/oss/python/langchain/messages" target="_blank">messages</a> for all types. <a href="https://docs.langchain.com/oss/python/langchain/messages" target="_blank">[Source]</a></div>
+</div>
+
+<!-- I -->
+<h2 class="glossary-letter" id="I">I</h2>
+
+<div class="glossary-term">
+  <div class="term">init_chat_model</div>
+  <div class="def">The provider-neutral LangChain function for constructing a chat model. Import from <code>langchain.chat_models</code> and call with a <code>provider:model</code> string such as <code>openai:gpt-5.5</code>, <code>anthropic:claude-sonnet-4-6</code>, or <code>ollama:llama3.1</code>. Accepts standard parameters like <code>temperature</code>, <code>max_tokens</code>, <code>timeout</code>, and <code>max_retries</code> — though exact support varies by provider. Returns a <code>BaseChatModel</code> instance. <a href="https://reference.langchain.com/python/langchain/chat_models/base/init_chat_model" target="_blank">[Source]</a></div>
+</div>
+<!-- L -->
+<h2 class="glossary-letter" id="L">L</h2>
+
+<div class="glossary-term">
+  <div class="term">LangChain</div>
+  <div class="def">The high-level Python framework for building LLM agents. Provides <code>create_agent</code>, model and tool abstractions, middleware, and standard agent patterns. Built on top of LangGraph. Every LangChain agent runs on a LangGraph runtime under the hood. You don't need to know LangGraph to use LangChain. <a href="https://docs.langchain.com/oss/python/langchain/overview" target="_blank">[Source]</a></div>
+</div>
+
+<div class="glossary-term">
+  <div class="term">LangGraph</div>
+  <div class="def">The low-level orchestration runtime for long-running, stateful agents. Inspired by Google's Pregel and Apache Beam. Provides durable execution, persistence (checkpointers), streaming, and human-in-the-loop. LangGraph can be used standalone with any model provider. It does not require LangChain. Its API is modeled after NetworkX. <a href="https://docs.langchain.com/oss/python/langgraph/overview" target="_blank">[Source]</a></div>
+</div>
+
+<div class="glossary-term">
+  <div class="term">LangSmith</div>
+  <div class="def">LangChain Inc's paid SaaS platform for tracing, evaluation, and observability. Used to debug agent runs, compare model outputs, and monitor deployed agents. Not open source. Not covered in this beginner course. <a href="https://docs.langchain.com/langsmith/observability" target="_blank">[Source]</a></div>
+</div>
+
+<!-- M -->
+<h2 class="glossary-letter" id="M">M</h2>
+
+<div class="glossary-term">
+  <div class="term">max_retries</div>
+  <div class="def">A standard parameter for chat model calls. Sets how many times the framework retries a model call when it fails due to a transient error (network hiccup, rate limit, server error). Passed to <code>init_chat_model()</code> or <code>create_agent()</code>. Default is 6 retries. <a href="https://docs.langchain.com/oss/python/langchain/models" target="_blank">[Source]</a></div>
+</div>
+
+<div class="glossary-term">
+  <div class="term">max_tokens</div>
+  <div class="def">A standard parameter that caps the length of the model&#39;s response in tokens. Controls both cost and response size. Passed to <code>init_chat_model()</code> or <code>create_agent()</code>. Not every provider supports hard caps in the same way. <a href="https://docs.langchain.com/oss/python/langchain/models" target="_blank">[Source]</a></div>
+</div>
+<div class="glossary-term">
+  <div class="term">message</div>
+  <div class="def">The core input/output unit in LangChain. Every interaction with a model is structured as typed messages. The main types are <code>HumanMessage</code> (user input), <code>AIMessage</code> (model response &mdash; may carry <code>tool_calls</code>), <code>SystemMessage</code> (instructions that set model behavior), and <code>ToolMessage</code> (tool results, correlated via <code>tool_call_id</code>). Messages carry a <code>.content</code> field and optional metadata like <code>.response_metadata</code>. <a href="https://docs.langchain.com/oss/python/langchain/messages" target="_blank">[Source]</a></div>
+</div>
+
+<div class="glossary-term">
+  <div class="term">MessagesState</div>
+  <div class="def">A prebuilt state type in LangGraph that includes a <code>messages: list[AnyMessage]</code> key with the <code>add_messages</code> reducer. New messages are appended to the list rather than replacing it. This is the standard pattern for conversation state. <a href="https://docs.langchain.com/oss/python/langgraph/graph-api" target="_blank">[Source]</a></div>
+</div>
+
+<div class="glossary-term">
+  <div class="term">middleware</div>
+  <div class="def">Extensions that modify agent behavior by hooking into the compiled LangGraph that <code>create_agent</code> returns. Provides two hook styles: <strong>node-style hooks</strong> (<code>before_agent</code>, <code>before_model</code>, <code>after_model</code>, <code>after_agent</code>) that run sequentially at specific execution points, and <strong>wrap-style hooks</strong> (<code>wrap_model_call</code>, <code>wrap_tool_call</code>) that intercept and control each model or tool call. Examples: guardrails, retry logic, routing, human-in-the-loop. Passed to <code>create_agent</code> via the <code>middleware=</code> parameter. <a href="https://docs.langchain.com/oss/python/langchain/middleware/overview" target="_blank">[Source]</a></div>
+</div>
+<div class="glossary-term">
+  <div class="term">model</div>
+  <div class="def">The LLM reasoning engine used by agents. In LangChain, a model accepts messages and returns an <code>AIMessage</code>. Models support tool calling, structured output (returning validated JSON via Pydantic), multimodality (images, audio), and reasoning. Standard call parameters include <code>temperature</code> (response randomness), <code>max_tokens</code> (response length cap), <code>timeout</code> (per-request deadline), and <code>max_retries</code> (transient-failure retries). Provider packages like <code>langchain-openai</code> and <code>langchain-anthropic</code> wrap different backends into a common interface. <a href="https://docs.langchain.com/oss/python/langchain/models" target="_blank">[Source]</a></div>
+</div>
+<div class="glossary-term">
+  <div class="term">ModelCallLimitMiddleware</div>
+  <div class="def">A built-in middleware that limits the number of model calls per thread or per invocation. Configured with <code>thread_limit</code> (max calls across all runs in a conversation thread) and <code>run_limit</code> (max calls per single invocation). <code>exit_behavior</code> controls what happens when the limit is reached: <code>'end'</code> (graceful termination) or <code>'error'</code> (raise an exception). Requires a checkpointer for thread limits. <a href="https://reference.langchain.com/python/langchain/agents/middleware/model_call_limit/ModelCallLimitMiddleware" target="_blank">[Source]</a></div>
+</div>
+<div class="glossary-term">
+  <div class="term">ModelFallbackMiddleware</div>
+  <div class="def">A built-in middleware that automatically falls back to alternative models when the primary model fails. Accepts one or more fallback model identifiers (or <code>BaseChatModel</code> instances). When the primary model call fails, the middleware tries each fallback in order. Useful for building resilient agents that handle model outages and provider failures. <a href="https://reference.langchain.com/python/langchain/agents/middleware/model_fallback/ModelFallbackMiddleware" target="_blank">[Source]</a></div>
+</div>
+
+<!-- N -->
+<h2 class="glossary-letter" id="N">N</h2>
+
+<div class="glossary-term">
+  <div class="term">node</div>
+  <div class="def">In LangGraph, a function that receives the current state, performs computation, and returns a state update (or a diff to apply). "Nodes do the work." Each node focuses on one task: call an LLM, run a tool, validate output, transform data. Nodes are added to a graph with <code>add_node(name, function)</code>. <a href="https://docs.langchain.com/oss/python/langgraph/graph-api" target="_blank">[Source]</a></div>
+</div>
+
+<!-- P -->
+<h2 class="glossary-letter" id="P">P</h2>
+
+<div class="glossary-term">
+  <div class="term">provider package</div>
+  <div class="def">A separate Python package that wraps a specific LLM provider into LangChain's model interface. Examples: <code>langchain-openai</code>, <code>langchain-anthropic</code>, <code>langchain-google-genai</code>, <code>langchain-ollama</code>, <code>langchain-aws</code>. These must be installed independently of <code>langchain</code> itself. <a href="https://docs.langchain.com/oss/python/langchain/install" target="_blank">[Source]</a></div>
+</div>
+
+<!-- R -->
+<h2 class="glossary-letter" id="R">R</h2>
+
+<div class="glossary-term">
+  <div class="term">reducer</div>
+  <div class="def">A function that specifies how to apply updates to each key in the graph state. By default, updates <strong>override</strong> the previous value. Common custom reducers: <code>operator.add</code> (for incrementing counters), <code>add_messages</code> (for appending messages to a list). Reducers are attached using Python's <code>Annotated[type, reducer_fn]</code> syntax. <a href="https://docs.langchain.com/oss/python/langgraph/graph-api" target="_blank">[Source]</a></div>
+</div>
+<div class="glossary-term">
+  <div class="term">response_format</div>
+  <div class="def">An agent-level parameter on <code>create_agent()</code> that instructs the model to return structured output matching a Pydantic schema. Distinguish from <code>with_structured_output()</code>, which is the standalone model method. <code>response_format</code> configures the whole agent to respond in a structured shape. <a href="https://docs.langchain.com/oss/python/langchain/agents" target="_blank">[Source]</a></div>
+</div>
+
+<!-- S -->
+<h2 class="glossary-letter" id="S">S</h2>
+
+<div class="glossary-term">
+  <div class="term">state</div>
+  <div class="def">The shared data structure that flows through every node and edge in a LangGraph graph. Defined as a TypedDict, dataclass, or Pydantic model. Each key in the state can have an associated <strong>reducer</strong> that controls how updates are applied. State is the graph's single source of truth. Nodes read from it, write diffs to it, and edges route based on it. <a href="https://docs.langchain.com/oss/python/langgraph/graph-api" target="_blank">[Source]</a></div>
+</div>
+
+<div class="glossary-term">
+  <div class="term">StateGraph</div>
+  <div class="def">The main LangGraph class for building graphs. Parameterized by a user-defined <code>State</code> type. You create an instance, add nodes and edges, then compile it into a runnable object. <code>StateGraph(MessagesState)</code> is the most common starting point. <a href="https://docs.langchain.com/oss/python/langgraph/graph-api" target="_blank">[Source]</a></div>
+</div>
+
+<div class="glossary-term">
+  <div class="term">Store</div>
+  <div class="def">LangGraph's long-term memory abstraction. A key-value document store organized by namespaces (hierarchical prefixes). Unlike checkpointers (which store thread-scoped state), the Store persists data across threads and conversations. Example: namespace <code>("users", user_id)</code> with document <code>{"preferences": ..., "history": ...}</code>. <a href="https://docs.langchain.com/oss/python/langgraph/persistence" target="_blank">[Source]</a></div>
+</div>
+
+<div class="glossary-term">
+  <div class="term">structured output</div>
+  <div class="def">Returning model output as a validated Pydantic schema rather than free text. The model returns a JSON object matching a schema you define. Use <code>model.with_structured_output(PydanticSchema)</code> on a chat model to get parsed output directly, or pass <code>response_format=</code> to <code>create_agent()</code> for agent-level enforcement. Provider support and output consistency vary, so always validate results in production. <a href="https://docs.langchain.com/oss/python/langchain/structured-output" target="_blank">[Source]</a></div>
+</div>
+<div class="glossary-term">
+  <div class="term">SystemMessage</div>
+  <div class="def">The message type for system-level instructions that set the model&#39;s behavior. Placed at the start of the message list, a <code>SystemMessage</code> tells the model its role, constraints, and persona. Unlike <code>HumanMessage</code> or <code>AIMessage</code>, its content is instruction, not conversation. See <a href="https://docs.langchain.com/oss/python/langchain/messages" target="_blank">messages</a> for all types. <a href="https://docs.langchain.com/oss/python/langchain/messages" target="_blank">[Source]</a></div>
+</div>
+<div class="glossary-term">
+  <div class="term">system_prompt</div>
+  <div class="def">A parameter on <code>create_agent()</code> that sets the agent&#39;s system instructions. Accepts a string or <code>SystemMessage</code>. The system prompt tells the model its role, constraints, and persona. For dynamic prompts that change at runtime, use middleware hooks like <code>before_agent</code> or <code>before_model</code>. <a href="https://docs.langchain.com/oss/python/langchain/agents" target="_blank">[Source]</a></div>
+</div>
+
+<!-- T -->
+<h2 class="glossary-letter" id="T">T</h2>
+
+<div class="glossary-term">
+  <div class="term">temperature</div>
+  <div class="def">A standard model parameter controlling response randomness. Lower values (near 0) produce more deterministic, focused outputs; higher values (near 1 or 2) produce more diverse, creative ones. Passed to <code>init_chat_model()</code> or <code>create_agent()</code>. The exact range and effect vary by provider. <a href="https://docs.langchain.com/oss/python/langchain/models" target="_blank">[Source]</a></div>
+</div>
+<div class="glossary-term">
+  <div class="term">thread</div>
+  <div class="def">A conversation scope identified by a <code>thread_id</code> in the runtime config. Checkpoints are per-thread, so state from one thread is isolated from others. Threads enable multi-turn conversations and fault-tolerant long-running agents. <a href="https://docs.langchain.com/oss/python/langgraph/persistence" target="_blank">[Source]</a></div>
+</div>
+<div class="glossary-term">
+  <div class="term">timeout</div>
+  <div class="def">A standard parameter that sets a per-request deadline in seconds for model calls. If the provider doesn&#39;t respond within the timeout, the call raises an error. Passed to <code>init_chat_model()</code> or <code>create_agent()</code>. <a href="https://docs.langchain.com/oss/python/langchain/models" target="_blank">[Source]</a></div>
+</div>
+
+<div class="glossary-term">
+  <div class="term">tool</div>
+  <div class="def">A callable function with well-defined inputs and outputs that an agent can invoke. Created with the <code>@tool</code> decorator in LangChain. Type hints define the input schema and the docstring becomes the default tool description. Tools can receive injected runtime data through <strong>ToolRuntime</strong>: state, context, store, stream writer, execution info, config, and tool-call ID. <a href="https://docs.langchain.com/oss/python/langchain/tools" target="_blank">[Source]</a></div>
+</div>
+<div class="glossary-term">
+  <div class="term">ToolMessage</div>
+  <div class="def">The message type for returning tool execution results to the model. Created by the agent harness after a tool runs. The <code>tool_call_id</code> field correlates it to the specific <code>AIMessage</code> tool call that triggered it. See <a href="https://docs.langchain.com/oss/python/langchain/messages" target="_blank">messages</a> for all types. <a href="https://docs.langchain.com/oss/python/langchain/messages" target="_blank">[Source]</a></div>
+</div>
+<div class="glossary-term">
+  <div class="term">tool_call_id</div>
+  <div class="def">The correlation ID shared by an <code>AIMessage</code> tool call and its resulting <code>ToolMessage</code>. It lets the model match each tool result to the request that produced it, including when several tools run in one turn. <a href="https://docs.langchain.com/oss/python/langchain/models#tool-calling" target="_blank">[Source]</a></div>
+</div>
+
+<div class="glossary-term">
+  <div class="term">ToolRuntime</div>
+  <div class="def">An injected parameter type that gives a tool access to execution context without exposing that parameter in the model-visible schema. Its fields include <code>state</code> (short-term conversation data), <code>context</code> (immutable per-run data), <code>store</code> (long-term data), <code>stream_writer</code>, execution information, <code>config</code>, and <code>tool_call_id</code>. <a href="https://docs.langchain.com/oss/python/langchain/tools#access-context" target="_blank">[Source]</a></div>
+</div>
+<div class="glossary-term">
+  <div class="term">ToolRetryMiddleware</div>
+  <div class="def">A built-in middleware that automatically retries failed tool calls with exponential backoff. Configurable with <code>max_retries</code>, <code>backoff_factor</code>, <code>initial_delay</code>, <code>max_delay</code>, and <code>jitter</code> (&#177;25% random delay to avoid thundering herd). <code>on_failure</code> controls behavior when retries are exhausted: <code>'continue'</code> (return error to the model), <code>'error'</code> (re-raise exception), or a custom function. <code>retry_on</code> filters which exception types trigger a retry. <a href="https://reference.langchain.com/python/langchain/agents/middleware/tool_retry/ToolRetryMiddleware" target="_blank">[Source]</a></div>
+</div>
+<div class="glossary-term">
+  <div class="term">wrap_tool_call</div>
+  <div class="def">An agent middleware decorator for intercepting tool execution. It can catch an exception and return a custom <code>ToolMessage</code> so the model receives an error result instead of the run stopping immediately. <a href="https://docs.langchain.com/oss/python/langchain/tools#error-handling" target="_blank">[Source]</a></div>
+</div>
+
+<!-- W -->
+<h2 class="glossary-letter" id="W">W</h2>
+
+<div class="glossary-term">
+  <div class="term">with_structured_output</div>
+  <div class="def">A method on <code>BaseChatModel</code> that wraps a model to return parsed Pydantic output. Call <code>model.with_structured_output(MyPydanticSchema)</code> to get a model that returns validated schema objects instead of raw <code>AIMessage</code> instances. The agent-level equivalent is <code>response_format=</code> on <code>create_agent()</code>. <a href="https://reference.langchain.com/python/langchain-core/language_models/chat_models/BaseChatModel/with_structured_output" target="_blank">[Source]</a></div>
+</div>
+<hr>
+
+<footer style="margin-top: var(--space-xl); text-align: center; font-size: 0.8rem; color: var(--mute);">
+  <p>Part of the LangChain &amp; LangGraph Course. All definitions sourced from <a href="https://docs.langchain.com" target="_blank">docs.langchain.com</a>.</p>
+</footer>
+
+</body>
+</html>

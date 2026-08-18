@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quick Reference - Tools in Depth</title>
+<style>
+
+/* Inlined from assets/course.css */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=JetBrains+Mono&display=swap');
+
+:root {
+  --ink: #e8e8e8;
+  --body: #a3a3a3;
+  --mute: #808080;
+  --hairline: #262626;
+  --hairline-soft: #1a1a1a;
+  --canvas: #000000;
+  --elevated: #0a0a0a;
+  --accent: #a78bfa;
+  --accent-soft: #2e1065;
+  --gold: #d4a547;
+  --gold-soft: #3a2f0e;
+  --blue: #60a5fa;
+  --blue-deep: #93c5fd;
+  --blue-soft: #1e3a5f;
+  --warning: #fbbf24;
+  --green: #4ade80;
+  --green-soft: #14532d;
+  --error: #f87171;
+  --sans: 'DM Sans', -apple-system, 'Segoe UI', sans-serif;
+  --mono: 'JetBrains Mono', ui-monospace, 'SF Mono', 'Fira Code', monospace;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 28px;
+  --space-xl: 36px;
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-pill: 100px;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; line-height: 1.5; }
+
+html { font-size: 16px; scroll-behavior: smooth; }
+
+body {
+  background: var(--canvas);
+  color: var(--body);
+  font-family: var(--sans);
+  line-height: 1.7;
+  max-width: 720px;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  font-size: clamp(1.75rem, 3.5vw, 2.25rem);
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+  color: var(--ink);
+  margin-bottom: var(--space-md);
+}
+
+h1 .gold-accent {
+  color: var(--gold);
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--ink);
+  margin-top: 60px;
+  margin-bottom: var(--space-md);
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--ink);
+  margin-top: var(--space-xl);
+  margin-bottom: var(--space-xs);
+}
+
+p { margin-bottom: 1.25rem; }
+strong { color: var(--ink); font-weight: 600; }
+a { color: var(--blue); text-decoration: none; }
+a:hover { color: var(--blue-deep); text-decoration: underline; }
+
+code {
+  font-family: var(--mono);
+  font-size: 0.88em;
+  background: var(--hairline-soft);
+  padding: 0.15em 0.4em;
+  border-radius: var(--radius-sm);
+  color: var(--ink);
+}
+
+pre {
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+  margin: var(--space-xl) 0;
+  overflow-x: auto;
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  line-height: 1.7;
+}
+
+pre code { background: none; padding: 0; color: inherit; }
+
+ul, ol { margin-bottom: 1.25rem; padding-left: 1.5rem; }
+li { margin-bottom: 0.35rem; }
+
+hr { border: none; border-top: 1px solid var(--hairline); margin: 60px 0; }
+
+.card {
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  font-size: 0.9rem;
+  padding: 36px;
+  line-height: 1.5;
+}
+
+.card-title { font-weight: 600; font-size: 0.9rem; color: var(--ink); margin-bottom: 6px; }
+
+.card p { margin-bottom: 0; font-size: 0.9rem; line-height: 1.5; color: var(--body); }
+
+.card-grid {
+  display: grid;
+  gap: var(--space-md);
+  margin: var(--space-xl) 0;
+}
+
+.callout {
+  padding: 36px;
+  margin: var(--space-xl) 0;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--hairline);
+  background: var(--elevated);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.callout.accent { background: rgba(167, 139, 250, 0.08); }
+.callout.info { background: rgba(96, 165, 250, 0.08); }
+.callout.warn { background: rgba(251, 191, 36, 0.08); }
+.callout.good { background: rgba(74, 222, 128, 0.08); }
+.callout.gold { background: rgba(212, 165, 71, 0.08); }
+
+.callout-label {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.04em;
+  margin-bottom: 8px;
+  display: block;
+  font-weight: 600;
+}
+
+.callout.accent .callout-label { color: var(--accent); }
+.callout.info .callout-label { color: var(--blue); }
+.callout.warn .callout-label { color: var(--warning); }
+.callout.gold .callout-label { color: var(--gold); }
+.callout.good .callout-label { color: var(--green); }
+.callout p:last-child { margin-bottom: 0; }
+
+.lesson-header {
+  margin-bottom: 60px;
+  border-bottom: 1px solid var(--hairline);
+  padding-bottom: 48px;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: var(--mute);
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.lesson-footer {
+  border-top: 1px solid var(--hairline);
+  margin-top: 60px;
+  padding-top: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+}
+
+.footer-col { font-size: 0.9rem; color: var(--mute); }
+
+.sources {
+  font-size: 0.9rem;
+  color: var(--mute);
+  line-height: 1.6;
+  margin-top: var(--space-xl);
+}
+
+.sources a { color: var(--mute); text-decoration: underline; text-underline-offset: 2px; }
+.sources a:hover { color: var(--body); }
+
+.quiz {
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  padding: 36px;
+  margin: var(--space-xl) 0;
+}
+
+.quiz-title {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: var(--space-md);
+}
+
+.quiz-question {
+  font-weight: 500;
+  margin-bottom: var(--space-md);
+  color: var(--ink);
+}
+
+.quiz-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 0;
+  cursor: pointer;
+  border-radius: var(--radius-sm);
+  transition: background 0.1s;
+  border-top: 1px solid var(--hairline-soft);
+  background: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  width: 100%;
+  text-align: left;
+  font-family: var(--sans);
+  font-size: inherit;
+  color: inherit;
+  line-height: 1.5;
+}
+
+.quiz-option:first-child { border-top: none; }
+.quiz-option:hover { background: rgba(96, 165, 250, 0.08); }
+
+.quiz-option:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 2px;
+  background: rgba(96, 165, 250, 0.08);
+}
+
+.quiz-option .option-key {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  color: var(--mute);
+  min-width: 1.5rem;
+  text-align: center;
+  flex-shrink: 0;
+  line-height: 1.6;
+}
+
+.quiz-option .option-text { font-size: 0.9rem; color: var(--body); line-height: 1.5; }
+
+.quiz-result {
+  margin-top: var(--space-md);
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  display: none;
+  line-height: 1.5;
+}
+
+.quiz-result.correct {
+  background: var(--green-soft);
+  border: 1px solid rgba(74, 222, 128, 0.4);
+  color: var(--ink);
+  display: block;
+}
+
+.quiz-result.incorrect {
+  background: rgba(248, 113, 113, 0.1);
+  border: 1px solid rgba(248, 113, 113, 0.2);
+  color: var(--ink);
+  display: block;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: var(--space-xl) 0;
+  font-size: 0.9rem;
+}
+
+thead th {
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--hairline);
+  color: var(--mute);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+tbody td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--hairline-soft);
+  color: var(--body);
+  line-height: 1.5;
+}
+
+tbody tr:last-child td { border-bottom: none; }
+
+.tag {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  padding: 3px 8px;
+  border-radius: var(--radius-pill);
+  background: var(--hairline-soft);
+  color: var(--mute);
+}
+
+.tag.accent { background: var(--accent-soft); color: var(--accent); }
+.tag.blue { background: var(--blue-soft); color: var(--blue); }
+.tag.gold { background: var(--gold-soft); color: var(--gold); }
+
+.exercise {
+  font-size: 0.9rem;
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  padding: 36px;
+  margin: var(--space-xl) 0;
+  line-height: 1.6;
+}
+
+.exercise-title { font-weight: 600; color: var(--ink); margin-bottom: var(--space-md); }
+
+details { margin-bottom: var(--space-xl); cursor: pointer; }
+
+details .answer-content {
+  margin-top: var(--space-md);
+  font-size: 0.9rem;
+  line-height: 1.7;
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  padding: 36px;
+}
+
+.code-annotation {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+  margin: var(--space-xl) 0;
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  padding: 4px;
+}
+
+.annotation-line {
+  display: grid;
+  grid-template-columns: 1fr 220px;
+  border-bottom: 1px solid var(--hairline-soft);
+}
+
+.annotation-line:last-child { border-bottom: none; }
+
+.annotation-line .code-part {
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  padding: 12px var(--space-md);
+  color: var(--ink);
+  background: var(--elevated);
+  line-height: 1.6;
+}
+
+.annotation-line .desc-part {
+  font-size: 0.78rem;
+  padding: 12px var(--space-md);
+  color: var(--body);
+  line-height: 1.6;
+  border-left: 1px solid var(--hairline-soft);
+  background: rgba(212, 165, 71, 0.03);
+}
+
+.schematic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: var(--space-xl) 0;
+  flex-wrap: wrap;
+  font-family: var(--mono);
+  font-size: 0.85rem;
+}
+
+.schematic-box {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 18px;
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  background: var(--elevated);
+  text-align: center;
+  min-width: 48px;
+  line-height: 1.3;
+}
+
+.schematic-box.provider { border-color: var(--blue); color: var(--blue); }
+.schematic-box.model { border-color: var(--gold); color: var(--gold); }
+.schematic-box.message { border-color: var(--accent); color: var(--accent); }
+.schematic-box.schema { border-color: var(--green); color: var(--green); }
+
+.schematic-arrow { color: var(--mute); font-weight: 300; }
+
+.pause-panel {
+  border: 1px solid rgba(212, 165, 71, 0.25);
+  padding: 36px;
+  margin: var(--space-xl) 0;
+  background: rgba(212, 165, 71, 0.04);
+  border-radius: var(--radius-md);
+}
+
+.pause-panel .pause-label {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.04em;
+  color: var(--gold);
+  font-weight: 600;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.pause-panel p { font-size: 0.9rem; color: var(--body); margin-bottom: 0; line-height: 1.6; }
+.pause-panel p + p { margin-top: 12px; }
+
+.stage-label {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  padding: 2px 7px;
+  border-radius: var(--radius-sm);
+  background: var(--hairline-soft);
+  color: var(--mute);
+}
+
+.stage-label.model { background: var(--blue-soft); color: var(--blue); }
+.stage-label.tool { background: var(--green-soft); color: var(--green); }
+.stage-label.end { background: rgba(248, 113, 113, 0.1); color: var(--error); }
+.stage-label.schema { background: var(--gold-soft); color: var(--gold); }
+.stage-label.message { background: var(--accent-soft); color: var(--accent); }
+
+/* Lesson-specific: parameter table */
+.param-table td:first-child {
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  color: var(--ink);
+  white-space: nowrap;
+}
+
+.param-table td:last-child {
+  font-size: 0.85rem;
+}
+
+@media (max-width: 660px) {
+  body { padding: var(--space-xl) var(--space-md); }
+  pre { padding: var(--space-md); font-size: 0.8rem; }
+  .annotation-line { grid-template-columns: 1fr; }
+  .annotation-line .desc-part { border-left: none; border-top: 1px solid var(--hairline-soft); }
+  .card-grid { grid-template-columns: 1fr !important; }
+}
+
+@media (max-width: 400px) {
+  html { font-size: 15px; }
+  body { padding: var(--space-lg) var(--space-sm); }
+  .lesson-footer { flex-direction: column; gap: var(--space-sm); }
+}
+
+
+
+/* Quick-reference layout overrides. Keep the shared token declarations above unchanged. */
+body { max-width: 780px; padding: 0 var(--space-md); font-size: 1rem; line-height: 1.6; }
+h1 { font-size: clamp(1.5rem, 3vw, 1.9rem); margin: 48px 0 var(--space-sm); padding-bottom: var(--space-md); border-bottom: 1px solid var(--hairline); }
+h2 { font-size: 1.3rem; margin: 36px 0 var(--space-sm); }
+h3 { font-size: 1rem; margin: 24px 0 var(--space-xs); }
+p { font-size: 0.88rem; margin-bottom: 0.85rem; }
+table { font-size: 0.86rem; }
+pre { font-size: 0.8rem; padding: var(--space-md); margin: var(--space-md) 0; }
+.card { padding: 20px; margin: var(--space-md) 0; }
+.card p { font-size: 0.86rem; }
+.ref-label { color: var(--gold); font-family: var(--mono); font-size: 0.65rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; }
+@media (max-width: 660px) { body { padding: 0 var(--space-md); } }
+
+</style>
+</head>
+<body>
+<h1><span class="gold-accent">Tools</span> in Depth</h1>
+<p class="subtitle">Chapter 5 quick reference. Tool contracts, tool-call messages, runtime injection, composition, and error paths.</p>
+
+<div class="card">
+  <div class="card-title">The mental model</div>
+  <p>The model chooses when and how to call. Your Python tool validates and acts. The harness coordinates the loop.</p>
+</div>
+
+<h2>1. Define a tool</h2>
+<pre><code>from langchain.tools import tool
+
+@tool
+def lookup_order(order_id: str) -&gt; str:
+    """Look up the shipping status for one order ID."""
+    return ORDERS[order_id]</code></pre>
+<table>
+  <thead><tr><th>Source</th><th>Contract effect</th></tr></thead>
+  <tbody>
+    <tr><td>Function name</td><td>Default tool name.</td></tr>
+    <tr><td>Type hints</td><td>Input schema the model must fill.</td></tr>
+    <tr><td>Docstring</td><td>Default description used for tool selection.</td></tr>
+    <tr><td><code>args_schema=Model</code></td><td>Explicit Pydantic or JSON Schema input contract.</td></tr>
+  </tbody>
+</table>
+<p><span class="ref-label">Inspect</span> <code>tool.name</code>, <code>tool.description</code>, and <code>tool.args_schema.model_json_schema()</code>.</p>
+
+<h2>2. The tool-call loop</h2>
+<pre><code>model_with_tools = model.bind_tools([lookup_order])
+messages = [HumanMessage("Where is ORD-1042?")]
+
+ai_msg = model_with_tools.invoke(messages)
+messages.append(ai_msg)
+
+for tool_call in ai_msg.tool_calls:
+    messages.append(lookup_order.invoke(tool_call))
+
+final = model_with_tools.invoke(messages)</code></pre>
+<table>
+  <thead><tr><th>Message</th><th>Meaning</th></tr></thead>
+  <tbody>
+    <tr><td><code>AIMessage</code></td><td>Model output; <code>tool_calls</code> contains name, args, and id.</td></tr>
+    <tr><td><code>ToolMessage</code></td><td>Executed result; <code>tool_call_id</code> matches the request ID.</td></tr>
+    <tr><td>Final <code>AIMessage</code></td><td>Model uses tool results to answer or call again.</td></tr>
+  </tbody>
+</table>
+
+<h2>3. Compose tools in an agent</h2>
+<pre><code>agent = create_agent(
+    model="openai:gpt-5.5",
+    tools=[lookup_order, get_shipping_eta],
+    system_prompt="Use tools for order facts. Never invent a status.",
+)
+result = agent.invoke({"messages": [{"role": "user", "content": question}]})</code></pre>
+<p>The <code>tools=[...]</code> list is the composition boundary. The model sees every tool schema and decides which one fits. Capability varies by model.</p>
+
+<h2>4. Inject trusted runtime context</h2>
+<pre><code>from dataclasses import dataclass
+from langchain.tools import ToolRuntime, tool
+
+@dataclass
+class UserContext:
+    user_id: str
+
+@tool
+def get_account_tier(runtime: ToolRuntime[UserContext]) -&gt; str:
+    """Return the current user's account tier."""
+    return USER_TIERS.get(runtime.context.user_id, "unknown")
+
+agent = create_agent(
+    model="openai:gpt-5.5",
+    tools=[get_account_tier],
+    context_schema=UserContext,
+)
+agent.invoke(input, context=UserContext(user_id="user_123"))</code></pre>
+<table>
+  <thead><tr><th>Injected field</th><th>Use</th></tr></thead>
+  <tbody>
+    <tr><td><code>runtime.state</code></td><td>Short-term conversation state.</td></tr>
+    <tr><td><code>runtime.context</code></td><td>Immutable per-run identity or session data.</td></tr>
+    <tr><td><code>runtime.store</code></td><td>Long-term cross-conversation data.</td></tr>
+    <tr><td><code>runtime.stream_writer</code></td><td>Custom progress updates during execution.</td></tr>
+    <tr><td><code>runtime.tool_call_id</code></td><td>Current call ID when returning a state update.</td></tr>
+  </tbody>
+</table>
+<p><strong>Reserved:</strong> <code>runtime</code> and <code>config</code> are not ordinary tool arguments. The injected runtime parameter stays out of the model-visible schema.</p>
+
+<h2>5. Return errors through the loop</h2>
+<pre><code>from langchain.agents.middleware import wrap_tool_call
+from langchain.messages import ToolMessage
+from langchain.tools.tool_node import ToolCallRequest
+
+@wrap_tool_call
+def handle_tool_errors(request, handler) -&gt; ToolMessage:
+    try:
+        return handler(request)
+    except Exception:
+        return ToolMessage(
+            content="Check the input and try again.",
+            tool_call_id=request.tool_call["id"],
+        )
+
+agent = create_agent(
+    model="openai:gpt-5.5",
+    tools=tools,
+    middleware=[handle_tool_errors],
+)</code></pre>
+<p>Use <code>ToolRetryMiddleware</code> for retry policy. An error message and a retry are different decisions.</p>
+
+<h2>6. Checklist</h2>
+<ul>
+  <li>Every model-facing argument has a useful type hint.</li>
+  <li>Every tool has a concise, accurate docstring.</li>
+  <li>Tool results return as <code>ToolMessage</code> objects with matching call IDs.</li>
+  <li>Trusted identity and session data arrive through <code>ToolRuntime</code>, not model arguments.</li>
+  <li>Tools validate important actions in Python; prompts are not access control.</li>
+  <li>Provider/model tool-calling support is tested before production use.</li>
+</ul>
+
+<hr>
+<p><a href="https://50a64951.ht-ml.app/">Read Chapter 5</a> &middot; <a href="https://7848bafa.ht-ml.app/">Course Index</a> &middot; <a href="https://3e997043.ht-ml.app/">Glossary</a></p>
+
+<div class="sources">
+  <strong>Official sources</strong><br>
+  <a href="https://docs.langchain.com/oss/python/langchain/tools" target="_blank">Tools Docs</a> &middot;
+  <a href="https://docs.langchain.com/oss/python/langchain/models#tool-calling" target="_blank">Model Tool Calling</a> &middot;
+  <a href="https://docs.langchain.com/oss/python/langchain/agents#tools" target="_blank">Agent Tools</a> &middot;
+  <a href="https://reference.langchain.com/python/langchain-core/tools/convert/tool" target="_blank"><code>@tool</code> Reference</a> &middot;
+  <a href="https://reference.langchain.com/python/langchain/tools/ToolRuntime" target="_blank"><code>ToolRuntime</code> Reference</a> &middot;
+  <a href="https://reference.langchain.com/python/langchain-core/messages/tool/ToolMessage" target="_blank"><code>ToolMessage</code> Reference</a>
+</div>
+
+</body>
+</html>

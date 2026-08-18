@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quick Reference — LangChain Agent Fundamentals</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=JetBrains+Mono&display=swap');
+
+:root {
+  --ink: #e8e8e8;
+  --body: #a3a3a3;
+  --mute: #808080;
+  --hairline: #262626;
+  --hairline-soft: #1a1a1a;
+  --canvas: #000000;
+  --elevated: #0a0a0a;
+  --accent: #a78bfa;
+  --accent-soft: #2e1065;
+  --gold: #d4a547;
+  --gold-soft: #3a2f0e;
+  --blue: #60a5fa;
+  --blue-deep: #93c5fd;
+  --blue-soft: #1e3a5f;
+  --warning: #fbbf24;
+  --green: #4ade80;
+  --green-soft: #14532d;
+  --sans: 'DM Sans', -apple-system, 'Segoe UI', sans-serif;
+  --mono: 'JetBrains Mono', ui-monospace, 'SF Mono', 'Fira Code', monospace;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 28px;
+  --space-xl: 36px;
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-pill: 100px;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { font-size: 15px; scroll-behavior: smooth; }
+
+body {
+  background: var(--canvas);
+  color: var(--body);
+  font-family: var(--sans);
+  line-height: 1.6;
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 0 var(--space-md);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  font-size: clamp(1.5rem, 3vw, 1.9rem);
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  color: var(--ink);
+  margin: 48px 0 var(--space-sm) 0;
+  border-bottom: 1px solid var(--hairline);
+  padding-bottom: var(--space-md);
+}
+
+h1 .gold { color: var(--gold); }
+
+h2 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--ink);
+  margin: 36px 0 var(--space-sm) 0;
+  letter-spacing: -0.01em;
+}
+
+p { margin-bottom: 0.85rem; font-size: 0.9rem; }
+strong { color: var(--ink); }
+a { color: var(--blue); text-decoration: none; }
+a:hover { color: var(--blue-deep); text-decoration: underline; }
+
+code {
+  font-family: var(--mono);
+  font-size: 0.85em;
+  background: var(--hairline-soft);
+  padding: 0.15em 0.35em;
+  border-radius: var(--radius-sm);
+  color: var(--ink);
+}
+
+pre {
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+  margin: var(--space-md) 0;
+  overflow-x: auto;
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  line-height: 1.6;
+}
+
+pre code { background: none; padding: 0; color: inherit; }
+
+ul, ol { margin-bottom: 0.85rem; padding-left: 1.4rem; font-size: 0.9rem; }
+li { margin-bottom: 0.2rem; }
+
+hr { border: none; border-top: 1px solid var(--hairline); margin: 36px 0; }
+
+.card {
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+  margin: var(--space-md) 0;
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: var(--gold);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 6px;
+}
+
+.card p { font-size: 0.85rem; margin-bottom: 0; color: var(--body); line-height: 1.5; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: var(--space-md) 0;
+  font-size: 0.85rem;
+}
+
+thead th {
+  text-align: left;
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--hairline);
+  color: var(--mute);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+tbody td {
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--hairline-soft);
+  color: var(--body);
+  line-height: 1.5;
+}
+
+tbody tr:last-child td { border-bottom: none; }
+
+.section-label {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--mute);
+  display: block;
+  margin-bottom: var(--space-sm);
+}
+
+.subsection { margin: var(--space-md) 0; }
+
+.flow-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin: var(--space-md) 0;
+}
+
+.flow-row .item {
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-sm);
+  padding: 6px 14px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--ink);
+  text-align: center;
+}
+
+.flow-row .arrow { color: var(--mute); font-size: 0.9rem; }
+
+.loop-numbered {
+  counter-reset: lstep;
+  margin: var(--space-md) 0;
+}
+
+.loop-item {
+  display: flex;
+  gap: var(--space-sm);
+  padding: 6px 0;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  border-bottom: 1px solid var(--hairline-soft);
+  align-items: flex-start;
+}
+
+.loop-item:last-child { border-bottom: none; }
+
+.loop-item .num {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--gold);
+  min-width: 1.4rem;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.loop-item .body { color: var(--body); }
+.loop-item .body strong { color: var(--ink); }
+
+.footer {
+  border-top: 1px solid var(--hairline);
+  margin-top: 48px;
+  padding: var(--space-md) 0;
+  font-size: 0.8rem;
+  color: var(--mute);
+}
+
+@media print {
+  body { font-size: 12pt; max-width: 100%; }
+  pre { break-inside: avoid; }
+  .card { break-inside: avoid; }
+}
+</style>
+</head>
+<body>
+
+<h1>LangChain Agent <span class="gold">Quick Reference</span></h1>
+<p>Chapter 2 essentials: the mental model, the API skeleton, tool rules, and the hidden loop. Keep this open as you work through the course.</p>
+
+<hr>
+
+<h2>The Mental Model</h2>
+
+<div class="flow-row">
+  <span class="item" style="border-color: var(--blue);">Model</span>
+  <span class="arrow">+</span>
+  <span class="item" style="border-color: var(--green);">Tools</span>
+  <span class="arrow">+</span>
+  <span class="item" style="border-color: var(--warning);">Loop</span>
+  <span class="arrow">=</span>
+  <span class="item" style="border-color: var(--accent);">Agent</span>
+</div>
+
+<p>A LangChain agent is <strong>model + tools + loop</strong>. The model reasons. The tools act. The loop connects them, repeating until the model produces a final answer instead of a tool call.</p>
+
+<hr>
+
+<h2>Installation</h2>
+
+<pre><code>python3 -m venv .venv
+source .venv/bin/activate
+pip install -U langchain
+pip install -U langchain-openai  # or langchain-anthropic, langchain-ollama
+export OPENAI_API_KEY="sk-..."    # your provider key</code></pre>
+
+<p>LangChain is provider-agnostic. The core package handles the framework. Provider packages handle model-specific APIs.</p>
+
+<hr>
+
+<h2>API Skeleton</h2>
+
+<pre><code>from langchain.agents import create_agent
+from langchain.tools import tool
+
+@tool
+def my_tool(param: str) -> str:
+    """Description the model reads to decide when to call this."""
+    # Your logic here (safe: dict lookup, calculation, etc.)
+    return f"Result: {param}"
+
+agent = create_agent(
+    model="openai:gpt-4o",        # provider:model_id
+    tools=[my_tool],               # list of @tool functions
+    system_prompt="You are a...",  # instructions for the model
+)
+
+result = agent.invoke({
+    "messages": [{"role": "user", "content": "Your question here"}]
+})
+print(result["messages"][-1].content_blocks)</code></pre>
+
+<hr>
+
+<h2>Tool Rules</h2>
+
+<div class="card">
+  <div class="card-title">Safe tool principles</div>
+  <ul style="margin: 0; padding-left: 1.2rem;">
+    <li>No <code>eval()</code>, <code>exec()</code>, or arbitrary code execution</li>
+    <li>No shell commands, filesystem writes, or network calls (yet)</li>
+    <li>Use dict lookups, calculations, or fixed data</li>
+    <li>Write clear docstrings &mdash; the model reads them to decide when to call</li>
+    <li>Use type hints &mdash; LangChain infers the input schema from them</li>
+  </ul>
+</div>
+
+<div class="card">
+  <div class="card-title">How the model sees your tool</div>
+  <p>For each <code>@tool</code> function, LangChain builds a JSON schema containing the <strong>function name</strong>, <strong>docstring</strong> (becomes the tool description), and <strong>parameter types</strong> (become the input schema). The model receives this schema alongside the system prompt and user message.</p>
+</div>
+
+<hr>
+
+<h2>The Hidden Loop (Numbered)</h2>
+
+<p>Everything inside <code>agent.invoke()</code>:</p>
+
+<div class="loop-numbered">
+  <div class="loop-item">
+    <span class="num">1</span>
+    <span class="body"><strong>Message in.</strong> User message + system prompt + tool schemas sent to model.</span>
+  </div>
+  <div class="loop-item">
+    <span class="num">2</span>
+    <span class="body"><strong>Model decides.</strong> Model reads everything and emits a tool call (name + args) or a final answer.</span>
+  </div>
+  <div class="loop-item">
+    <span class="num">3</span>
+    <span class="body"><strong>Harness intercepts.</strong> The loop sees the tool call, extracts name + parsed arguments.</span>
+  </div>
+  <div class="loop-item">
+    <span class="num">4</span>
+    <span class="body"><strong>Tool runs.</strong> Your Python function executes with the parsed arguments.</span>
+  </div>
+  <div class="loop-item">
+    <span class="num">5</span>
+    <span class="body"><strong>Result feeds back.</strong> Return value wrapped as ToolMessage, appended to conversation.</span>
+  </div>
+  <div class="loop-item">
+    <span class="num">6</span>
+    <span class="body"><strong>Model decides again.</strong> With result in context, model chooses: another tool call or a final answer.</span>
+  </div>
+  <div class="loop-item">
+    <span class="num">7</span>
+    <span class="body"><strong>Stop.</strong> If model outputs a text answer (not a tool call), loop ends. Full message list returned.</span>
+  </div>
+</div>
+
+<hr>
+
+<h2>Key Terms</h2>
+
+<table>
+  <thead>
+    <tr><th>Term</th><th>Definition</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Model identifier</strong></td><td><code>provider:model_id</code> string, e.g. <code>"openai:gpt-4o"</code>.</td></tr>
+    <tr><td><strong>Provider</strong></td><td>Company serving the model; each has its own pip package.</td></tr>
+    <tr><td><strong>System prompt</strong></td><td>Instructions at the start of every conversation. Sets behavior and constraints.</td></tr>
+    <tr><td><strong>@tool</strong></td><td>Decorator that turns a function into a tool schema for the model.</td></tr>
+    <tr><td><strong>create_agent</strong></td><td>Factory function that wires model + tools + prompt into an agent harness.</td></tr>
+    <tr><td><strong>invoke()</strong></td><td>Method that runs the full agent loop with a message input.</td></tr>
+    <tr><td><strong>Tool call</strong></td><td>Model's structured request: "call function X with arguments Y".</td></tr>
+    <tr><td><strong>ToolMessage</strong></td><td>Message type holding the result of a tool execution.</td></tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h2>What This Doesn't Do Yet</h2>
+
+<ul>
+  <li><strong>No memory</strong> &mdash; each invoke starts fresh. (Chapter 9)</li>
+  <li><strong>No custom branching</strong> &mdash; no conditional logic between steps. (Chapters 6-8)</li>
+  <li><strong>No durable workflow</strong> &mdash; crash mid-loop loses everything. (Chapter 9)</li>
+  <li><strong>No middleware</strong> &mdash; no guardrails, retries, or logging. (Chapter 5)</li>
+</ul>
+
+<div class="footer">
+  <p>LangChain &amp; LangGraph Course &mdash; <a href="https://7848bafa.ht-ml.app/">Course Index</a> &middot; <a href="https://3e997043.ht-ml.app/">Glossary</a> &middot; <a href="https://docs.langchain.com/oss/python/langchain/agents">Official Agents Docs</a></p>
+</div>
+
+</body>
+</html>

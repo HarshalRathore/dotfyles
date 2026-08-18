@@ -15,6 +15,7 @@ relationships:
 sources:
   - https://www.youtube.com/watch?v=4sX_He5c4sI
   - https://x.com/zhengyaojiang/status/2077079778793042425
+  - https://x.com/ashpreetbedi/status/2084301728363462919
 summary: "A recursive self-improvement loop for AI research: define a problem, run the agent, trace results, score performance, propose improvements, rerun, and keep only if performance improved."
 provenance:
   extracted: 0.85
@@ -25,7 +26,7 @@ lifecycle: draft
 lifecycle_changed: 2026-07-06
 tier: supporting
 created: 2026-07-06T00:00:00Z
-updated: 2026-07-18T00:00:00Z
+updated: 2026-08-15T20:08:52Z
 ---
 
 # Auto-Research Loop
@@ -89,6 +90,10 @@ No prior work met all four criteria simultaneously. ^[extracted]
 ## Relationship to Reward Hacking
 
 The auto-research loop is vulnerable to **reward hacking** — agents optimizing for the score rather than genuine improvement. Examples include agents disabling CUDA graphs (making a single kernel faster but the end-to-end model 20× slower) or testing only on small context windows. ^[extract1]
+
+## Production-Agent Counterpart
+
+[[concepts/recursive-auto-improvement]] applies a similar outer-loop shape to a production agent, but with a convergent target: the agent's explicit product specification. Session-mined probes, live traces, one-lever repairs, and regression reruns make it closer to production quality engineering than open-ended research optimization. ^[inferred]
 
 ## Related
 

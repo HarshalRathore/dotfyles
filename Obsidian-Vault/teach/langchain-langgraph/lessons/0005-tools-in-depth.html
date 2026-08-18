@@ -1,0 +1,1075 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lesson 5 - Tools in Depth: Give the Model a Safe Way to Act</title>
+<style>
+
+/* Inlined from assets/course.css */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=JetBrains+Mono&display=swap');
+
+:root {
+  --ink: #e8e8e8;
+  --body: #a3a3a3;
+  --mute: #808080;
+  --hairline: #262626;
+  --hairline-soft: #1a1a1a;
+  --canvas: #000000;
+  --elevated: #0a0a0a;
+  --accent: #a78bfa;
+  --accent-soft: #2e1065;
+  --gold: #d4a547;
+  --gold-soft: #3a2f0e;
+  --blue: #60a5fa;
+  --blue-deep: #93c5fd;
+  --blue-soft: #1e3a5f;
+  --warning: #fbbf24;
+  --green: #4ade80;
+  --green-soft: #14532d;
+  --error: #f87171;
+  --sans: 'DM Sans', -apple-system, 'Segoe UI', sans-serif;
+  --mono: 'JetBrains Mono', ui-monospace, 'SF Mono', 'Fira Code', monospace;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 28px;
+  --space-xl: 36px;
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-pill: 100px;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; line-height: 1.5; }
+
+html { font-size: 16px; scroll-behavior: smooth; }
+
+body {
+  background: var(--canvas);
+  color: var(--body);
+  font-family: var(--sans);
+  line-height: 1.7;
+  max-width: 720px;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  font-size: clamp(1.75rem, 3.5vw, 2.25rem);
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+  color: var(--ink);
+  margin-bottom: var(--space-md);
+}
+
+h1 .gold-accent {
+  color: var(--gold);
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--ink);
+  margin-top: 60px;
+  margin-bottom: var(--space-md);
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--ink);
+  margin-top: var(--space-xl);
+  margin-bottom: var(--space-xs);
+}
+
+p { margin-bottom: 1.25rem; }
+strong { color: var(--ink); font-weight: 600; }
+a { color: var(--blue); text-decoration: none; }
+a:hover { color: var(--blue-deep); text-decoration: underline; }
+
+code {
+  font-family: var(--mono);
+  font-size: 0.88em;
+  background: var(--hairline-soft);
+  padding: 0.15em 0.4em;
+  border-radius: var(--radius-sm);
+  color: var(--ink);
+}
+
+pre {
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+  margin: var(--space-xl) 0;
+  overflow-x: auto;
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  line-height: 1.7;
+}
+
+pre code { background: none; padding: 0; color: inherit; }
+
+ul, ol { margin-bottom: 1.25rem; padding-left: 1.5rem; }
+li { margin-bottom: 0.35rem; }
+
+hr { border: none; border-top: 1px solid var(--hairline); margin: 60px 0; }
+
+.card {
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  font-size: 0.9rem;
+  padding: 36px;
+  line-height: 1.5;
+}
+
+.card-title { font-weight: 600; font-size: 0.9rem; color: var(--ink); margin-bottom: 6px; }
+
+.card p { margin-bottom: 0; font-size: 0.9rem; line-height: 1.5; color: var(--body); }
+
+.card-grid {
+  display: grid;
+  gap: var(--space-md);
+  margin: var(--space-xl) 0;
+}
+
+.callout {
+  padding: 36px;
+  margin: var(--space-xl) 0;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--hairline);
+  background: var(--elevated);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.callout.accent { background: rgba(167, 139, 250, 0.08); }
+.callout.info { background: rgba(96, 165, 250, 0.08); }
+.callout.warn { background: rgba(251, 191, 36, 0.08); }
+.callout.good { background: rgba(74, 222, 128, 0.08); }
+.callout.gold { background: rgba(212, 165, 71, 0.08); }
+
+.callout-label {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.04em;
+  margin-bottom: 8px;
+  display: block;
+  font-weight: 600;
+}
+
+.callout.accent .callout-label { color: var(--accent); }
+.callout.info .callout-label { color: var(--blue); }
+.callout.warn .callout-label { color: var(--warning); }
+.callout.gold .callout-label { color: var(--gold); }
+.callout.good .callout-label { color: var(--green); }
+.callout p:last-child { margin-bottom: 0; }
+
+.lesson-header {
+  margin-bottom: 60px;
+  border-bottom: 1px solid var(--hairline);
+  padding-bottom: 48px;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: var(--mute);
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.lesson-footer {
+  border-top: 1px solid var(--hairline);
+  margin-top: 60px;
+  padding-top: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+}
+
+.footer-col { font-size: 0.9rem; color: var(--mute); }
+
+.sources {
+  font-size: 0.9rem;
+  color: var(--mute);
+  line-height: 1.6;
+  margin-top: var(--space-xl);
+}
+
+.sources a { color: var(--mute); text-decoration: underline; text-underline-offset: 2px; }
+.sources a:hover { color: var(--body); }
+
+.quiz {
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  padding: 36px;
+  margin: var(--space-xl) 0;
+}
+
+.quiz-title {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: var(--space-md);
+}
+
+.quiz-question {
+  font-weight: 500;
+  margin-bottom: var(--space-md);
+  color: var(--ink);
+}
+
+.quiz-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 0;
+  cursor: pointer;
+  border-radius: var(--radius-sm);
+  transition: background 0.1s;
+  border-top: 1px solid var(--hairline-soft);
+  background: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  width: 100%;
+  text-align: left;
+  font-family: var(--sans);
+  font-size: inherit;
+  color: inherit;
+  line-height: 1.5;
+}
+
+.quiz-option:first-child { border-top: none; }
+.quiz-option:hover { background: rgba(96, 165, 250, 0.08); }
+
+.quiz-option:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 2px;
+  background: rgba(96, 165, 250, 0.08);
+}
+
+.quiz-option .option-key {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  color: var(--mute);
+  min-width: 1.5rem;
+  text-align: center;
+  flex-shrink: 0;
+  line-height: 1.6;
+}
+
+.quiz-option .option-text { font-size: 0.9rem; color: var(--body); line-height: 1.5; }
+
+.quiz-result {
+  margin-top: var(--space-md);
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  display: none;
+  line-height: 1.5;
+}
+
+.quiz-result.correct {
+  background: var(--green-soft);
+  border: 1px solid rgba(74, 222, 128, 0.4);
+  color: var(--ink);
+  display: block;
+}
+
+.quiz-result.incorrect {
+  background: rgba(248, 113, 113, 0.1);
+  border: 1px solid rgba(248, 113, 113, 0.2);
+  color: var(--ink);
+  display: block;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: var(--space-xl) 0;
+  font-size: 0.9rem;
+}
+
+thead th {
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--hairline);
+  color: var(--mute);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+tbody td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--hairline-soft);
+  color: var(--body);
+  line-height: 1.5;
+}
+
+tbody tr:last-child td { border-bottom: none; }
+
+.tag {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  padding: 3px 8px;
+  border-radius: var(--radius-pill);
+  background: var(--hairline-soft);
+  color: var(--mute);
+}
+
+.tag.accent { background: var(--accent-soft); color: var(--accent); }
+.tag.blue { background: var(--blue-soft); color: var(--blue); }
+.tag.gold { background: var(--gold-soft); color: var(--gold); }
+
+.exercise {
+  font-size: 0.9rem;
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  padding: 36px;
+  margin: var(--space-xl) 0;
+  line-height: 1.6;
+}
+
+.exercise-title { font-weight: 600; color: var(--ink); margin-bottom: var(--space-md); }
+
+details { margin-bottom: var(--space-xl); cursor: pointer; }
+
+details .answer-content {
+  margin-top: var(--space-md);
+  font-size: 0.9rem;
+  line-height: 1.7;
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  padding: 36px;
+}
+
+.code-annotation {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+  margin: var(--space-xl) 0;
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  padding: 4px;
+}
+
+.annotation-line {
+  display: grid;
+  grid-template-columns: 1fr 220px;
+  border-bottom: 1px solid var(--hairline-soft);
+}
+
+.annotation-line:last-child { border-bottom: none; }
+
+.annotation-line .code-part {
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  padding: 12px var(--space-md);
+  color: var(--ink);
+  background: var(--elevated);
+  line-height: 1.6;
+}
+
+.annotation-line .desc-part {
+  font-size: 0.78rem;
+  padding: 12px var(--space-md);
+  color: var(--body);
+  line-height: 1.6;
+  border-left: 1px solid var(--hairline-soft);
+  background: rgba(212, 165, 71, 0.03);
+}
+
+.schematic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: var(--space-xl) 0;
+  flex-wrap: wrap;
+  font-family: var(--mono);
+  font-size: 0.85rem;
+}
+
+.schematic-box {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 18px;
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  background: var(--elevated);
+  text-align: center;
+  min-width: 48px;
+  line-height: 1.3;
+}
+
+.schematic-box.provider { border-color: var(--blue); color: var(--blue); }
+.schematic-box.model { border-color: var(--gold); color: var(--gold); }
+.schematic-box.message { border-color: var(--accent); color: var(--accent); }
+.schematic-box.schema { border-color: var(--green); color: var(--green); }
+
+.schematic-arrow { color: var(--mute); font-weight: 300; }
+
+.pause-panel {
+  border: 1px solid rgba(212, 165, 71, 0.25);
+  padding: 36px;
+  margin: var(--space-xl) 0;
+  background: rgba(212, 165, 71, 0.04);
+  border-radius: var(--radius-md);
+}
+
+.pause-panel .pause-label {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.04em;
+  color: var(--gold);
+  font-weight: 600;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.pause-panel p { font-size: 0.9rem; color: var(--body); margin-bottom: 0; line-height: 1.6; }
+.pause-panel p + p { margin-top: 12px; }
+
+.stage-label {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  padding: 2px 7px;
+  border-radius: var(--radius-sm);
+  background: var(--hairline-soft);
+  color: var(--mute);
+}
+
+.stage-label.model { background: var(--blue-soft); color: var(--blue); }
+.stage-label.tool { background: var(--green-soft); color: var(--green); }
+.stage-label.end { background: rgba(248, 113, 113, 0.1); color: var(--error); }
+.stage-label.schema { background: var(--gold-soft); color: var(--gold); }
+.stage-label.message { background: var(--accent-soft); color: var(--accent); }
+
+/* Lesson-specific: parameter table */
+.param-table td:first-child {
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  color: var(--ink);
+  white-space: nowrap;
+}
+
+.param-table td:last-child {
+  font-size: 0.85rem;
+}
+
+@media (max-width: 660px) {
+  body { padding: var(--space-xl) var(--space-md); }
+  pre { padding: var(--space-md); font-size: 0.8rem; }
+  .annotation-line { grid-template-columns: 1fr; }
+  .annotation-line .desc-part { border-left: none; border-top: 1px solid var(--hairline-soft); }
+  .card-grid { grid-template-columns: 1fr !important; }
+}
+
+@media (max-width: 400px) {
+  html { font-size: 15px; }
+  body { padding: var(--space-lg) var(--space-sm); }
+  .lesson-footer { flex-direction: column; gap: var(--space-sm); }
+}
+
+</style>
+</head>
+<body>
+<div class="lesson-header">
+  <h1><span class="gold-accent">Tools</span> in Depth: Give the Model a Safe Way to Act</h1>
+  <p class="subtitle">In Chapter 4 you controlled the model and its messages. Now you will give that model carefully described Python functions, then watch the harness carry a request from AIMessage to ToolMessage and back.</p>
+</div>
+
+<p>A model can decide that it needs information or an action. It cannot, by itself, query your order table, read your database, or call your business logic. A <strong>tool</strong> is the contract that lets it ask your Python code to do one bounded thing.</p>
+
+<p>The model chooses <em>when</em> a tool is useful and supplies arguments. Your code owns <em>what the tool actually does</em>. That separation is the important idea.</p>
+
+<div class="callout gold">
+  <span class="callout-label">This chapter's win</span>
+  <p>By the end of this chapter you will have a safe, deterministic <strong>order assistant</strong>. It will use two typed tools, pass user context through <code>ToolRuntime</code>, handle a failed lookup as a message the model can understand, and keep the provider choice in one model string.</p>
+</div>
+
+<hr>
+
+<h2 id="tool-contract">A Tool Is a Contract</h2>
+
+<p>Start with an ordinary Python function. The <code>@tool</code> decorator turns it into a LangChain tool that an agent can expose to a model.</p>
+
+<pre><code>from langchain.tools import tool
+
+ORDERS = {
+    "ORD-1042": "packed and leaving the warehouse",
+    "ORD-1088": "delivered yesterday",
+}
+
+@tool
+def lookup_order(order_id: str) -&gt; str:
+    """Look up the shipping status for one order ID."""
+    if order_id not in ORDERS:
+        raise ValueError(f"Unknown order: {order_id}")
+    return ORDERS[order_id]
+
+print(lookup_order.name)
+# lookup_order
+print(lookup_order.description)
+# Look up the shipping status for one order ID.
+print(lookup_order.args_schema.model_json_schema())</code></pre>
+
+<p>Three pieces make the contract useful:</p>
+
+<table>
+  <thead>
+    <tr><th>Python source</th><th>What the model receives</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Function name</td><td>The default tool name: <code>lookup_order</code>.</td></tr>
+    <tr><td>Type hint: <code>order_id: str</code></td><td>An input schema saying the tool needs one string argument.</td></tr>
+    <tr><td>Docstring</td><td>The description that helps the model decide when this tool fits.</td></tr>
+  </tbody>
+</table>
+
+<div class="callout info">
+  <span class="callout-label">The boring rule that prevents bad calls</span>
+  <p>Type hints are not decoration here. They define the tool's input schema. The docstring is not a comment for humans only; by default it becomes the tool description the model uses. Keep both precise, short, and honest.</p>
+</div>
+
+<h3 id="predict-schema">Predict the Schema</h3>
+
+<p>Before reading the answer, what should appear in <code>lookup_order.args_schema.model_json_schema()["properties"]</code>? The function has one annotated parameter and no optional inputs.</p>
+
+<details>
+  <summary>Reveal the answer</summary>
+  <div class="answer-content">
+    <p>You should see one property named <code>order_id</code> with a string type. The model never sees the Python <code>ORDERS</code> dictionary or the function's internal <code>if</code> statement. It sees a name, a description, and the arguments it is allowed to construct.</p>
+  </div>
+</details>
+
+<div class="callout warn">
+  <span class="callout-label">Do not hide the contract</span>
+  <p>A tool with a vague name, missing type hints, or a misleading docstring gives the model a bad interface. Fix the tool description before adding a clever prompt.</p>
+</div>
+
+<div class="callout gold">
+  <span class="callout-label">Official source</span>
+  <p>The canonical <a href="https://docs.langchain.com/oss/python/langchain/tools" target="_blank">Tools documentation</a> covers basic definitions, schemas, names, descriptions, and return values. The <a href="https://reference.langchain.com/python/langchain-core/tools/convert/tool" target="_blank"><code>@tool</code> API reference</a> lists the decorator parameters.</p>
+</div>
+
+<hr>
+
+<h2 id="tool-loop">Read the Tool Call</h2>
+
+<p>Chapter 4 corrected an easy confusion: the model does not execute your Python function. It emits an <code>AIMessage</code> containing a tool-call request. Your application or the agent harness executes the tool, wraps the result in a <code>ToolMessage</code>, and sends the messages back to the model.</p>
+
+<div class="schematic">
+  <span class="schematic-box message">HumanMessage</span>
+  <span class="schematic-arrow">&rarr;</span>
+  <span class="schematic-box model">AIMessage + tool_calls</span>
+  <span class="schematic-arrow">&rarr;</span>
+  <span class="schematic-box tool">ToolMessage</span>
+  <span class="schematic-arrow">&rarr;</span>
+  <span class="schematic-box model">AIMessage</span>
+</div>
+
+<p>At the model layer, the loop is visible:</p>
+
+<pre><code>from langchain.messages import HumanMessage
+
+model_with_tools = model.bind_tools([lookup_order])
+messages = [HumanMessage("Where is order ORD-1042?")]
+
+ai_msg = model_with_tools.invoke(messages)
+messages.append(ai_msg)
+
+for tool_call in ai_msg.tool_calls:
+    tool_message = lookup_order.invoke(tool_call)
+    messages.append(tool_message)
+
+final_response = model_with_tools.invoke(messages)
+print(final_response.content)</code></pre>
+
+<p>The important identity is <code>tool_call_id</code>. The model puts an ID on its request. The resulting <code>ToolMessage</code> carries the same ID so the model can match a result to the request that caused it.</p>
+
+<div class="code-annotation">
+  <div class="annotation-line">
+    <div class="code-part"><span style="color: var(--mute);">AIMessage</span><br>tool_calls = [{"name": "lookup_order",<br>"args": {"order_id": "ORD-1042"},<br>"id": "call_1"}]</div>
+    <div class="desc-part">The model proposes a function name, arguments, and correlation ID. It has not run Python yet.</div>
+  </div>
+  <div class="annotation-line">
+    <div class="code-part"><span style="color: var(--mute);">ToolMessage</span><br>content = "packed and leaving the warehouse"<br>tool_call_id = "call_1"</div>
+    <div class="desc-part">Your tool ran. Its result is now a message that points back to the exact model request.</div>
+  </div>
+  <div class="annotation-line">
+    <div class="code-part"><span style="color: var(--mute);">AIMessage</span><br>content = "Order ORD-1042 is packed..."</div>
+    <div class="desc-part">The model sees the tool result and decides whether it can answer or needs another tool.</div>
+  </div>
+</div>
+
+<div class="callout info">
+  <span class="callout-label">Model capability caveat</span>
+  <p><code>bind_tools</code> makes tools available to a chat model. The model still needs tool-calling support, and support differs by provider and model. The interface is uniform; the capability is not.</p>
+</div>
+
+<div class="callout gold">
+  <span class="callout-label">Official source</span>
+  <p>Read the <a href="https://docs.langchain.com/oss/python/langchain/models#tool-calling" target="_blank">model tool-calling section</a> for the manual loop, tool-call IDs, and the <code>ToolMessage</code> result. The <a href="https://reference.langchain.com/python/langchain-core/messages/tool/ToolMessage" target="_blank"><code>ToolMessage</code> reference</a> defines its fields.</p>
+</div>
+
+<hr>
+
+<h2 id="compose">Compose Tools in an Agent</h2>
+
+<p>You usually do not write that loop yourself. <code>create_agent</code> is the harness that binds the tools, asks the model what to call, executes the selected functions, appends results, and continues until the model produces a final answer.</p>
+
+<pre><code>from langchain.agents import create_agent
+
+@tool
+def get_shipping_eta(order_id: str) -&gt; str:
+    """Return the estimated delivery window for one order ID."""
+    if order_id not in ORDERS:
+        raise ValueError(f"Unknown order: {order_id}")
+    return "tomorrow afternoon"
+
+agent = create_agent(
+    model="openai:gpt-5.5",
+    tools=[lookup_order, get_shipping_eta],
+    system_prompt=(
+        "You are an order assistant. "
+        "Use tools for order facts. Never invent a status."
+    ),
+)
+
+result = agent.invoke({
+    "messages": [{
+        "role": "user",
+        "content": "Where is ORD-1042 and when should it arrive?",
+    }]
+})</code></pre>
+
+<p>The list is the composition boundary: <code>tools=[lookup_order, get_shipping_eta]</code>. The model sees both contracts and chooses one or both based on the request. It does not see your Python implementation.</p>
+
+<div class="callout good">
+  <span class="callout-label">Trace it like Chapter 3</span>
+  <p>Inspect <code>result["messages"]</code>. You should find the user message, one or more <code>AIMessage</code> objects with tool calls, matching <code>ToolMessage</code> results, and a final <code>AIMessage</code>. The harness is still the same model plus loop you already know. Tools are the new participants.</p>
+</div>
+
+<div class="callout warn">
+  <span class="callout-label">No guarantee of one call</span>
+  <p>The model may call one tool, both tools, the same tool again, or no tool at all. Your system prompt can set expectations, but the model's decision is not a hard control flow guarantee. Validate important actions in Python.</p>
+</div>
+
+<div class="callout gold">
+  <span class="callout-label">Official source</span>
+  <p>The <a href="https://docs.langchain.com/oss/python/langchain/agents#tools" target="_blank">Agents tools section</a> shows how a callable or LangChain tool is passed to <code>create_agent</code>. The <a href="https://reference.langchain.com/python/langchain/agents/factory/create_agent" target="_blank"><code>create_agent</code> reference</a> documents the factory contract.</p>
+</div>
+
+<hr>
+
+<h2 id="runtime">ToolRuntime: Context Without Schema Noise</h2>
+
+<p>A tool sometimes needs information that the model should not invent or supply: the authenticated user, a session identifier, or current conversation state. <code>ToolRuntime</code> injects that runtime information into the Python function.</p>
+
+<pre><code>from dataclasses import dataclass
+from langchain.tools import ToolRuntime, tool
+
+@dataclass
+class UserContext:
+    user_id: str
+
+USER_TIERS = {
+    "user_123": "premium",
+    "user_456": "standard",
+}
+
+@tool
+def get_account_tier(runtime: ToolRuntime[UserContext]) -&gt; str:
+    """Return the current user's account tier."""
+    return USER_TIERS.get(runtime.context.user_id, "unknown")
+
+agent = create_agent(
+    model="openai:gpt-5.5",
+    tools=[get_account_tier],
+    context_schema=UserContext,
+)
+
+result = agent.invoke(
+    {"messages": [{"role": "user", "content": "What account tier am I on?"}]},
+    context=UserContext(user_id="user_123"),
+)</code></pre>
+
+<p>The model sees a zero-argument tool named <code>get_account_tier</code>. It does <strong>not</strong> see <code>runtime</code> as an input it must construct. LangChain recognizes the <code>ToolRuntime</code> annotation, injects the value, and hides that parameter from the model-visible schema.</p>
+
+<table>
+  <thead>
+    <tr><th>Runtime field</th><th>What it is for</th><th>Chapter 5 use</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><code>state</code></td><td>Short-term conversation state, including messages and custom fields.</td><td>Map only; deeper state arrives with LangGraph.</td></tr>
+    <tr><td><code>context</code></td><td>Immutable per-run data such as user or session identity.</td><td><strong>Build this now.</strong></td></tr>
+    <tr><td><code>store</code></td><td>Long-term data that survives across conversations.</td><td>Defer to memory chapters.</td></tr>
+    <tr><td><code>stream_writer</code></td><td>Custom progress updates during a tool execution.</td><td>Defer until streaming is revisited.</td></tr>
+  </tbody>
+</table>
+
+<div class="callout warn">
+  <span class="callout-label">Reserved names</span>
+  <p><code>runtime</code> and <code>config</code> are reserved parameter names. Do not use them as ordinary user-supplied tool arguments. LangChain uses them for injected execution data.</p>
+</div>
+
+<div class="callout gold">
+  <span class="callout-label">Official source</span>
+  <p>The <a href="https://docs.langchain.com/oss/python/langchain/tools#access-context" target="_blank">ToolRuntime access-context documentation</a> covers state, context, store, stream writer, execution information, and tool-call IDs. <a href="https://reference.langchain.com/python/langchain/tools/ToolRuntime" target="_blank"><code>ToolRuntime</code> itself is an alias</a>; its detailed usage lives on the Tools page.</p>
+</div>
+
+<hr>
+
+<h2 id="errors">Errors Need a Path Back</h2>
+
+<p>Tools are ordinary Python functions, so they can fail: an order ID may not exist, a database may be unavailable, or an argument may be invalid. If the harness turns every exception into a dead run, the model has no chance to recover.</p>
+
+<p>LangChain's agent middleware can catch a tool exception and return an error <code>ToolMessage</code> tied to the original call:</p>
+
+<pre><code>from typing import Callable
+from langchain.agents.middleware import wrap_tool_call
+from langchain.messages import ToolMessage
+from langchain.tools.tool_node import ToolCallRequest
+
+@wrap_tool_call
+def handle_tool_errors(
+    request: ToolCallRequest,
+    handler: Callable[[ToolCallRequest], ToolMessage],
+) -&gt; ToolMessage:
+    try:
+        return handler(request)
+    except Exception:
+        return ToolMessage(
+            content="That tool could not complete the request. Check the input and try again.",
+            tool_call_id=request.tool_call["id"],
+        )
+
+agent = create_agent(
+    model="openai:gpt-5.5",
+    tools=[lookup_order, get_shipping_eta],
+    middleware=[handle_tool_errors],
+)</code></pre>
+
+<p>The error does not magically become a successful answer. It becomes model-readable context. The model may explain the problem, ask for a corrected ID, or choose another tool. That decision is still model behavior, so important business actions need validation outside the model.</p>
+
+<div class="callout info">
+  <span class="callout-label">Retry is a separate policy</span>
+  <p>LangChain also documents <code>ToolRetryMiddleware</code> for retrying transient failures. Do not confuse retrying a failed function with returning a useful error message. One is a recovery policy; the other is a communication path.</p>
+</div>
+
+<div class="callout gold">
+  <span class="callout-label">Official source</span>
+  <p>See the Tools page's <a href="https://docs.langchain.com/oss/python/langchain/tools#error-handling" target="_blank">error-handling section</a> and the <a href="https://reference.langchain.com/python/langchain/agents/middleware/tool_retry/ToolRetryMiddleware" target="_blank"><code>ToolRetryMiddleware</code> reference</a>.</p>
+</div>
+
+<hr>
+
+<h2 id="lab">The Safe Order Assistant Lab</h2>
+
+<p>Put the pieces together. This lab has no network tools and no destructive actions. It uses a tiny in-memory order table so you can reason about the messages before you connect real services.</p>
+
+<pre><code>import os
+from dataclasses import dataclass
+from typing import Callable
+
+from langchain.agents import create_agent
+from langchain.agents.middleware import wrap_tool_call
+from langchain.messages import ToolMessage
+from langchain.tools import ToolRuntime, tool
+from langchain.tools.tool_node import ToolCallRequest
+
+ORDERS = {
+    "ORD-1042": "packed and leaving the warehouse",
+    "ORD-1088": "delivered yesterday",
+}
+USER_TIERS = {"user_123": "premium", "user_456": "standard"}
+
+@dataclass
+class UserContext:
+    user_id: str
+
+@tool
+def lookup_order(order_id: str) -&gt; str:
+    """Look up the shipping status for one order ID."""
+    if order_id not in ORDERS:
+        raise ValueError(f"Unknown order: {order_id}")
+    return ORDERS[order_id]
+
+@tool
+def get_account_tier(runtime: ToolRuntime[UserContext]) -&gt; str:
+    """Return the current user's account tier."""
+    return USER_TIERS.get(runtime.context.user_id, "unknown")
+
+@wrap_tool_call
+def handle_tool_errors(request: ToolCallRequest, handler) -&gt; ToolMessage:
+    try:
+        return handler(request)
+    except Exception:
+        return ToolMessage(
+            content="The lookup failed. Ask the user to check the order ID.",
+            tool_call_id=request.tool_call["id"],
+        )
+
+agent = create_agent(
+    model=os.getenv("MODEL", "openai:gpt-5.5"),
+    tools=[lookup_order, get_account_tier],
+    context_schema=UserContext,
+    middleware=[handle_tool_errors],
+    system_prompt="Use tools for order facts. Never invent a status.",
+)
+
+result = agent.invoke(
+    {"messages": [{
+        "role": "user",
+        "content": "Check ORD-1042 and tell me my account tier.",
+    }]},
+    context=UserContext(user_id="user_123"),
+)
+
+for message in result["messages"]:
+    print(type(message).__name__, message)</code></pre>
+
+<div class="pause-panel">
+  <span class="pause-label">Run the thought experiment</span>
+  <p>Predict the message order before running anything: the user message, an <code>AIMessage</code> with calls for the order and account tier, two <code>ToolMessage</code> results, then a final <code>AIMessage</code>. The exact order and number of calls are model decisions, but every tool result must point to its matching call ID.</p>
+  <p>Now change the request to <code>Check ORD-9999 and tell me my account tier.</code> The lookup raises an exception. The middleware turns it into a <code>ToolMessage</code>. The agent can now explain the missing order instead of losing the entire run.</p>
+</div>
+
+<div class="callout good">
+  <span class="callout-label">The durable boundary</span>
+  <p>The model chooses and explains. The tool validates and acts. <code>ToolRuntime</code> supplies trusted execution context that the model should not invent. Middleware decides how failures travel back through the loop.</p>
+</div>
+
+<hr>
+
+<h2 id="quiz">Check Your Understanding</h2>
+
+<div class="quiz">
+  <div class="quiz-title">Question 1 of 3</div>
+  <p class="quiz-question">What does a type hint on a <code>@tool</code> function primarily provide?</p>
+  <button class="quiz-option" onclick="checkAnswer(this,'q7','A')">
+    <span class="option-key">A</span>
+    <span class="option-text">It gives the model a typed input schema for constructing valid tool arguments.</span>
+  </button>
+  <button class="quiz-option" onclick="checkAnswer(this,'q7','A')">
+    <span class="option-key">B</span>
+    <span class="option-text">It gives the model a descriptive label for selecting the correct provider quickly.</span>
+  </button>
+  <button class="quiz-option" onclick="checkAnswer(this,'q7','A')">
+    <span class="option-key">C</span>
+    <span class="option-text">It gives the model a retry policy for recovering failed tool executions automatically.</span>
+  </button>
+  <button class="quiz-option" onclick="checkAnswer(this,'q7','A')">
+    <span class="option-key">D</span>
+    <span class="option-text">It gives the model a system prompt for controlling the assistant's tone globally.</span>
+  </button>
+  <div class="quiz-result" id="q7" aria-live="polite" role="status"></div>
+</div>
+
+<div class="quiz">
+  <div class="quiz-title">Question 2 of 3</div>
+  <p class="quiz-question">After an <code>AIMessage</code> requests <code>lookup_order</code>, what does execution append?</p>
+  <button class="quiz-option" onclick="checkAnswer(this,'q8','A')">
+    <span class="option-key">A</span>
+    <span class="option-text">A ToolMessage whose tool_call_id matches the requested call identifier for the next turn.</span>
+  </button>
+  <button class="quiz-option" onclick="checkAnswer(this,'q8','A')">
+    <span class="option-key">B</span>
+    <span class="option-text">A HumanMessage whose content contains the function's returned text for conversation history storage.</span>
+  </button>
+  <button class="quiz-option" onclick="checkAnswer(this,'q8','A')">
+    <span class="option-key">C</span>
+    <span class="option-text">An AIMessage whose content contains the function's returned text for conversation history storage.</span>
+  </button>
+  <button class="quiz-option" onclick="checkAnswer(this,'q8','A')">
+    <span class="option-key">D</span>
+    <span class="option-text">A SystemMessage whose content contains the function's returned text for conversation history storage.</span>
+  </button>
+  <div class="quiz-result" id="q8" aria-live="polite" role="status"></div>
+</div>
+
+<div class="quiz">
+  <div class="quiz-title">Question 3 of 3</div>
+  <p class="quiz-question">Why add <code>ToolRuntime</code> to a tool signature?</p>
+  <button class="quiz-option" onclick="checkAnswer(this,'q9','A')">
+    <span class="option-key">A</span>
+    <span class="option-text">To access injected state or context without exposing runtime parameters to the model.</span>
+  </button>
+  <button class="quiz-option" onclick="checkAnswer(this,'q9','A')">
+    <span class="option-key">B</span>
+    <span class="option-text">To force every provider to support the same tool schema without additional configuration.</span>
+  </button>
+  <button class="quiz-option" onclick="checkAnswer(this,'q9','A')">
+    <span class="option-key">C</span>
+    <span class="option-text">To replace the model with deterministic Python code before the agent begins running.</span>
+  </button>
+  <button class="quiz-option" onclick="checkAnswer(this,'q9','A')">
+    <span class="option-key">D</span>
+    <span class="option-text">To persist every tool result in long-term storage before the next model response.</span>
+  </button>
+  <div class="quiz-result" id="q9" aria-live="polite" role="status"></div>
+</div>
+
+<hr>
+
+<h2 id="predict-message">Predict the Message</h2>
+
+<div class="exercise">
+  <div class="exercise-title">What does this tool invocation return?</div>
+  <p>Read the code and predict the type name and the correlation ID. The tool call is already in the shape emitted by an <code>AIMessage</code>.</p>
+
+<pre><code>tool_call = {
+    "name": "lookup_order",
+    "args": {"order_id": "ORD-1042"},
+    "id": "call_1",
+    "type": "tool_call",
+}
+
+result = lookup_order.invoke(tool_call)
+print(type(result).__name__)
+print(result.tool_call_id)</code></pre>
+
+  <details>
+    <summary>Reveal the answer</summary>
+    <div class="answer-content">
+      <p>The type name is <code>ToolMessage</code>. The printed ID is <code>call_1</code>. Passing the full tool-call dictionary lets the decorated tool execute the arguments and return a message already linked to the model's request.</p>
+    </div>
+  </details>
+</div>
+
+<hr>
+
+<h2 id="review">Review and Bridge</h2>
+
+<div class="pause-panel">
+  <span class="pause-label">Before Chapter 6</span>
+  <p>Write two tools for a domain you care about. Give every argument a type hint and every tool a one-sentence docstring. Predict the generated schema before you inspect it.</p>
+  <p>Then add one <code>ToolRuntime</code> parameter for trusted context. Ask: what data belongs in the model-visible arguments, and what data should arrive from the runtime instead?</p>
+</div>
+
+<div class="callout good">
+  <span class="callout-label">Bridge to Chapter 6: Agent Harnesses</span>
+  <p>You can now define the model's available actions, understand the tool-call message lifecycle, inject trusted context, compose several tools, and choose an error policy. Chapter 6 will open the harness itself: system prompts, middleware, retries, and the control points around the model loop.</p>
+  <p>The model chooses. The tool executes. The harness coordinates.</p>
+</div>
+
+<hr>
+
+<h2 id="next">Where to Go Next</h2>
+
+<div class="card-grid" style="grid-template-columns: 1fr 1fr;">
+  <div class="card">
+    <div class="card-title"><a href="https://50a64951.ht-ml.app/">Chapter 4: Models &amp; Messages</a></div>
+    <p>Refresh provider switching, typed messages, and structured output.</p>
+  </div>
+  <div class="card">
+    <div class="card-title"><a href="https://aaa51794.ht-ml.app/">Chapter 5 Quick Reference</a></div>
+    <p>Keep the tool contract, message loop, runtime fields, and error policy close at hand.</p>
+  </div>
+  <div class="card">
+    <div class="card-title"><a href="https://7848bafa.ht-ml.app/">Course Index</a></div>
+    <p>See all 12 chapters and mark your progress.</p>
+  </div>
+  <div class="card">
+    <div class="card-title"><a href="https://3e997043.ht-ml.app/">Reference Glossary</a></div>
+    <p>Review every term with official source links.</p>
+  </div>
+  <div class="card">
+    <div class="card-title"><a href="https://docs.langchain.com/oss/python/langchain/tools">LangChain Tools</a></div>
+    <p>Official definitions, schemas, runtime context, return values, and error handling.</p>
+  </div>
+  <div class="card">
+    <div class="card-title">Chapter 6 (Planned)</div>
+    <p>Agent harnesses, middleware, system prompts, and control points.</p>
+  </div>
+</div>
+
+<div class="lesson-footer">
+  <div class="footer-col">
+    <a href="https://3e997043.ht-ml.app/">Glossary</a> &middot; <a href="https://7848bafa.ht-ml.app/">Course Index</a> &middot; <a href="https://aaa51794.ht-ml.app/">Quick Reference</a>
+  </div>
+  <div class="footer-col" style="text-align: right;">
+    <strong>Previous</strong><br>
+    <a href="https://50a64951.ht-ml.app/">Chapter 4: Models &amp; Messages</a>
+  </div>
+</div>
+
+<div class="sources">
+  <strong>Sources</strong><br>
+  <a href="https://docs.langchain.com/oss/python/langchain/tools" target="_blank">LangChain Tools Docs</a> &middot;
+  <a href="https://docs.langchain.com/oss/python/langchain/models#tool-calling" target="_blank">Model Tool Calling Docs</a> &middot;
+  <a href="https://docs.langchain.com/oss/python/langchain/agents#tools" target="_blank">Agent Tools Docs</a> &middot;
+  <a href="https://reference.langchain.com/python/langchain-core/tools/convert/tool" target="_blank"><code>@tool</code> API Reference</a> &middot;
+  <a href="https://reference.langchain.com/python/langchain/tools/ToolRuntime" target="_blank"><code>ToolRuntime</code> API Reference</a> &middot;
+  <a href="https://reference.langchain.com/python/langchain-core/messages/tool/ToolMessage" target="_blank"><code>ToolMessage</code> API Reference</a> &middot;
+  <a href="https://reference.langchain.com/python/langchain/agents/middleware/tool_retry/ToolRetryMiddleware" target="_blank"><code>ToolRetryMiddleware</code> API Reference</a>
+</div>
+
+<script>
+function checkAnswer(el, quizId, correctKey) {
+  var result = document.getElementById(quizId);
+  var quiz = el.closest('.quiz');
+  var allOptions = quiz.querySelectorAll('.quiz-option');
+  var key = el.querySelector('.option-key').textContent;
+  var isCorrect = (key === correctKey);
+
+  allOptions.forEach(function(opt) {
+    opt.style.pointerEvents = 'none';
+    opt.style.opacity = '0.5';
+  });
+  el.style.opacity = '1';
+
+  if (isCorrect) {
+    el.style.background = 'rgba(74, 222, 128, 0.15)';
+    result.className = 'quiz-result correct';
+    if (quizId === 'q7') {
+      result.innerHTML = '<strong>Correct.</strong> Type hints become the input schema the model uses to construct tool arguments. The docstring supplies the default description.';
+    } else if (quizId === 'q8') {
+      result.innerHTML = '<strong>Correct.</strong> Tool execution returns a <code>ToolMessage</code> whose <code>tool_call_id</code> matches the ID in the <code>AIMessage</code> tool call.';
+    } else {
+      result.innerHTML = '<strong>Correct.</strong> <code>ToolRuntime</code> injects trusted execution data such as context or state, and the injected parameter stays out of the model-visible schema.';
+    }
+  } else {
+    el.style.background = 'rgba(248, 113, 113, 0.15)';
+    result.className = 'quiz-result incorrect';
+    if (quizId === 'q7') {
+      if (key === 'B') result.innerHTML = '<strong>Not quite.</strong> A tool description helps selection, but type hints define the arguments schema.';
+      else if (key === 'C') result.innerHTML = '<strong>Not quite.</strong> Retry policy belongs to middleware or another explicit policy, not a parameter annotation.';
+      else result.innerHTML = '<strong>Not quite.</strong> A system prompt controls behavior. Type hints describe the tool inputs the model can construct.';
+    } else if (quizId === 'q8') {
+      if (key === 'B') result.innerHTML = '<strong>Not quite.</strong> Tool results are not new user messages. They are <code>ToolMessage</code> objects produced by execution.';
+      else if (key === 'C') result.innerHTML = '<strong>Not quite.</strong> <code>AIMessage</code> contains the model request. The function result comes back as a <code>ToolMessage</code>.';
+      else result.innerHTML = '<strong>Not quite.</strong> System messages set instructions. They do not carry the result of a tool call.';
+    } else {
+      if (key === 'B') result.innerHTML = '<strong>Not quite.</strong> ToolRuntime does not force provider capability. It injects execution data into the Python function.';
+      else if (key === 'C') result.innerHTML = '<strong>Not quite.</strong> The tool still runs Python. ToolRuntime adds trusted context; it does not replace the model.';
+      else result.innerHTML = '<strong>Not quite.</strong> A runtime value can expose context or state, but it does not automatically persist every result.';
+    }
+  }
+}
+</script>
+
+</body>
+</html>

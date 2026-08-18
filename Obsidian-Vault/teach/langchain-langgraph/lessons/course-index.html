@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Course Index — LangChain &amp; LangGraph</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=JetBrains+Mono&display=swap');
+:root {
+  --ink: #e8e8e8; --body: #a3a3a3; --mute: #808080;
+  --hairline: #262626; --hairline-soft: #1a1a1a;
+  --canvas: #000000; --elevated: #0a0a0a;
+  --accent: #a78bfa; --accent-soft: #2e1065;
+  --blue: #60a5fa; --blue-deep: #93c5fd; --blue-soft: #1e3a5f;
+  --warning: #fbbf24; --green: #4ade80; --green-soft: #14532d;
+  --sans: 'DM Sans', -apple-system, 'Segoe UI', sans-serif;
+  --mono: 'JetBrains Mono', ui-monospace, 'SF Mono', 'Fira Code', monospace;
+  --space-xs: 8px; --space-sm: 12px; --space-md: 16px;
+  --space-lg: 28px; --space-xl: 36px;
+  --radius-sm: 6px; --radius-md: 12px; --radius-pill: 100px;
+}
+*,*::before,*::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { font-size: 16px; scroll-behavior: smooth; }
+body {
+  background: var(--canvas); color: var(--body);
+  font-family: var(--sans); line-height: 1.7;
+  max-width: 720px; margin: 60px auto;
+  font-size: 1.6rem; -webkit-font-smoothing: antialiased;
+  padding: 0 var(--space-md);
+}
+h1 {
+  font-size: clamp(1.75rem, 3.5vw, 2.25rem);
+  font-weight: 600; line-height: 1.15; letter-spacing: -0.03em;
+  color: var(--ink); margin-bottom: var(--space-md);
+}
+h2 {
+  font-size: 1.1rem; font-weight: 600; line-height: 1.3;
+  color: var(--ink); margin: 0 0 4px 0;
+}
+p { margin-bottom: 1.25rem; }
+strong { color: var(--ink); font-weight: 600; }
+a { color: var(--blue); text-decoration: none; }
+a:hover { color: var(--blue-deep); text-decoration: underline; }
+code {
+  font-family: var(--mono); font-size: 0.88em;
+  background: var(--hairline-soft); padding: 0.15em 0.4em;
+  border-radius: var(--radius-sm); color: var(--ink);
+}
+hr { border: none; border-top: 1px solid var(--hairline); margin: 48px 0; }
+.subtitle {
+  font-size: 1rem; color: var(--mute); line-height: 1.5; margin-bottom: 0;
+}
+.chapter {
+  margin: var(--space-md) 0;
+  padding: 0 0 var(--space-sm) 0;
+  border-bottom: 1px solid var(--hairline-soft);
+}
+.chapter:last-of-type { border-bottom: none; }
+.chapter p { font-size: 0.9rem; color: var(--body); margin-bottom: 6px; }
+.chapter .meta {
+  font-family: var(--mono); font-size: 0.65rem; font-weight: 500;
+  letter-spacing: 0.04em; padding: 3px 8px;
+  border-radius: var(--radius-pill);
+  display: inline-block;
+}
+.chapter .meta.published { background: var(--green-soft); color: var(--green); }
+.chapter .meta.planned { background: var(--accent-soft); color: var(--accent); }
+</style>
+</head>
+<body>
+
+<h1>Course Index: LangChain &amp; LangGraph</h1>
+<p class="subtitle">12 chapters from zero to production. Python developers who have never used LangChain or LangGraph. Each chapter builds on the previous.</p>
+
+<hr>
+
+<div class="chapter">
+  <h2><a href="https://2769bf05.ht-ml.app/">Chapter 1: Orientation</a></h2>
+  <p>Mental model, glossary, and the big picture. What is an agent? The model + tools + loop mental model. LangChain vs LangGraph. The mailroom analogy. Beginner glossary. Spot-the-parts exercise.</p>
+  <span class="meta published">Published</span>
+</div>
+<div class="chapter">
+  <h2><a href="https://e9fea6ef.ht-ml.app/">Chapter 2: Your First Agent</a></h2>
+  <p>Install, create_agent, and make your first tool call. Setting up a Python environment. Your first create_agent with one tool. The @tool decorator. What happens inside the agent loop.</p>
+  <span class="meta published">Published</span>
+</div>
+<div class="chapter">
+  <h2><a href="https://f9d1ffa4.ht-ml.app/">Chapter 3: Seeing the Loop</a></h2>
+  <p>Messages, tool calls, stream tracing, and finish conditions. Message types, stream_mode="updates", reading trace output, finish condition, thinking tokens caveat, other exits.</p>
+  <span class="meta published">Published</span>
+</div>
+
+<div class="chapter">
+  <h2><a href="https://50a64951.ht-ml.app/">Chapter 4: Models & Messages</a></h2>
+  <p>Chat models, message types, and structured output. How LangChain abstracts LLM providers. Message types: HumanMessage, AIMessage, SystemMessage, ToolMessage. Adding system prompts.</p>
+  <span class="meta published">Published</span>
+</div>
+
+<div class="chapter">
+  <h2><a href="https://e9366b4b.ht-ml.app/">Chapter 5: Tools in Depth</a></h2>
+  <p>Tool contracts, tool-call messages, runtime context, and error paths. Define typed tools, compose them in an agent, inject trusted context with ToolRuntime, and return failures as ToolMessage results.</p>
+  <span class="meta published">Published</span>
+</div>
+
+<div class="chapter">
+  <h2><a href="https://db7e5380.ht-ml.app/">Chapter 6: Agent Harnesses</a></h2>
+  <p>The harness around the model-tools loop: create_agent controls, middleware hook styles, deterministic guardrails, model-call limits, retries, fallback, and when to use LangGraph.</p>
+  <span class="meta published">Published</span>
+</div>
+
+<div class="chapter">
+  <h2>Chapter 7: LangGraph Fundamentals</h2>
+  <p>StateGraph, nodes, edges, and compile. Why LangGraph underlies LangChain. Building your first graph: add_node, add_edge, START, END. compile() and invoke().</p>
+  <span class="meta planned">Planned</span>
+</div>
+
+<div class="chapter">
+  <h2>Chapter 8: State &amp; Reducers</h2>
+  <p>Custom state types, reducer functions, and MessagesState. TypedDict, dataclass, Pydantic state. Reducers: override, append, custom. MessagesState and add_messages.</p>
+  <span class="meta planned">Planned</span>
+</div>
+
+<div class="chapter">
+  <h2>Chapter 9: Conditional Flow</h2>
+  <p>Conditional edges, routing, and branching. Conditional edges that inspect state. Routing between agent steps and deterministic logic. Parallel node execution.</p>
+  <span class="meta planned">Planned</span>
+</div>
+
+<div class="chapter">
+  <h2>Chapter 10: Persistence &amp; Threads</h2>
+  <p>Checkpointers, thread scoping, and time travel. State persistence across restarts. Thread scoping with thread_id. Fault tolerance and replay.</p>
+  <span class="meta planned">Planned</span>
+</div>
+
+<div class="chapter">
+  <h2>Chapter 11: Long-Term Memory</h2>
+  <p>Store, cross-thread memory, and namespaces. The Store abstraction: namespaces, documents, search. Cross-thread memory across conversations.</p>
+  <span class="meta planned">Planned</span>
+</div>
+
+<div class="chapter">
+  <h2>Chapter 12: Human-in-the-Loop</h2>
+  <p>Interrupts, approval, breakpoints. Setting breakpoints. Interrupting graph execution. Collecting human input and resuming. Safety patterns.</p>
+  <span class="meta planned">Planned</span>
+</div>
+
+<hr>
+
+<p><a href="https://2769bf05.ht-ml.app/">&larr; Back to Lesson 1</a> &middot; <a href="https://3e997043.ht-ml.app/">Reference Glossary</a> &middot; <a href="https://56ad0f9a.ht-ml.app/">Chapter 4 Quick Reference</a> &middot; <a href="https://aaa51794.ht-ml.app/">Chapter 5 Quick Reference</a> &middot; <a href="https://85187eed.ht-ml.app/">Chapter 6 Quick Reference</a></p>
+
+</body>
+</html>

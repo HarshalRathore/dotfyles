@@ -13,15 +13,16 @@ sources:
   - 'https://www.youtube.com/watch?v=lue8k2jqfkk'
   - 'https://www.youtube.com/watch?v=mi83but_23o'
   - 'https://x.com/i/status/2083430232405733819'
+  - 'https://x.com/AndrewYNg/status/2088302050706686198'
 summary: The paradigm where developers express feature intent and AI agents coordinate repository changes, tools, tests, and artifacts instead of only completing lines of code.
 provenance:
-  extracted: 0.80
-  inferred: 0.15
+  extracted: 0.78
+  inferred: 0.17
   ambiguous: 0.05
 base_confidence: 0.74
 lifecycle: draft
 tier: supporting
-updated: 2026-08-02T01:17:21Z
+updated: 2026-08-15T19:39:57Z
 category: concepts
 ---
 
@@ -79,6 +80,8 @@ Agentic coding has evolved through distinct capability tiers:
 4. **Cross-file diagnosis** — Code hierarchy understanding (late 2024)
 
 Each tier has its own optimal interface, which changes every 2-3 months. ^[inferred]
+
+Andrew Ng’s [[concepts/ai-engineering-skills-map|AI Engineering Skills Map]] treats coding-agent use as a broader engineering skill: context management, planning, specification, orchestration, verification, and safe deployment—not prompting alone. ^[inferred]
 
 ## Verification in Agentic Coding
 

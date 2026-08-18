@@ -17,6 +17,9 @@ sources:
   - 'https://commandcode.ai/docs/harness-engineering/read-tool'
   - 'https://x.com/i/status/2084613319558635940'
   - 'https://walkinglabs.github.io/learn-harness-engineering/en/lectures/lecture-02-what-a-harness-actually-is/'
+  - 'https://github.com/cordiverse/paper'
+  - 'https://x.com/Vercantez/status/2082138839888589200'
+  - 'https://x.com/i/status/2086442755748970889'
 relationships:
   - target: "[[references/memoharness-agent-harnesses-learn-from-experience]]"
     type: derived_from
@@ -24,16 +27,20 @@ relationships:
     type: related_to
   - target: "[[concepts/long-horizon-agency]]"
     type: related_to
+  - target: "[[references/cordis-spatiotemporal-composability]]"
+    type: related_to
+  - target: "[[concepts/self-evolving-agent-harnesses]]"
+    type: related_to
 provenance:
-  extracted: 0.78
-  inferred: 0.17
+  extracted: 0.76
+  inferred: 0.19
   ambiguous: 0.05
-base_confidence: 0.72
+base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-18
 tier: supporting
 created: 2026-07-04
-updated: 2026-08-13
+updated: 2026-08-16T00:00:00Z
 ---
 
 # AI Agentic Harness
@@ -102,6 +109,10 @@ Its reported operating-system experiment ran for more than 12 hours with 93 para
 - **"Constraint is a feature"** — Command Code runs open models where a wasted turn shows in the eval score the same day; the constraint forced engineering that frontier-model harnesses haven't been forced to do yet.
 - Its own 10-harness benchmark (AI-read at pinned commits, 29 July 2026; Claude Code probed live) found the *cheap* read-tool features (line window + one more ceiling) in 8/10 harnesses, but the *expensive-to-learn* ones (deferred chunk cut, unicode retry, device blocklist, EOF notes, did-you-mean, partial-view ledger) in only 1–3/10 — "teams build them only after production forces it."
 
+## Edge-Native Harness Example: camelAI
+
+camelAI demonstrates a harness that moves the agent loop from a VM into a Durable Object, stores the workspace as SQLite/R2 data, keeps git history in Cloudflare Artifacts, and replaces bash with Code Mode JavaScript plus explicit methods. Short-lived Linux containers are reserved for builds and notebooks. ^[extracted] The example sharpens the harness boundary: the model's capability is mediated by state, tools, credential isolation, and execution substrates. See [[concepts/edge-native-agent-harness]].
+
 ## Beyond Code Generation
 
 The agentic harness distinguishes Windsurf from autocomplete-only tools. While autocomplete handles character-level assistance, the harness enables the agent to:
@@ -153,6 +164,25 @@ This five-subsystem model is a practitioner-level complement to the MemoHarness 
 
 See [[references/harness-lecture-02-what-a-harness-actually-is|Lecture 02: What a Harness Actually Is]] for the full deep-dive.
 
+## 2026-08 — Dynamic Composition as Harness Infrastructure (Cordis)
+
+The [[references/cordis-spatiotemporal-composability|Cordis paper]] (Shi, Zhang & Cui, draft 2026-08-13) contributes the formal foundations for the *dynamic-composition* half of harness engineering: the ability to load, unload, and reconfigure a harness's own components at runtime. Its motivating application is [[concepts/self-evolving-agent-harnesses|self-evolving agent harnesses]], where each self-modification is an instance of dynamic composition. ^[extracted]
+
+Key claims that connect to this page's existing content:
+
+- **Without temporal composability**, each self-modification of a harness forces a full restart that discards all process-local accumulated state (caches, connections, partial computations) — and "a faulty self-modification can disable the very process needed to recover." ^[extracted]
+- **Without spatial composability**, each module detects and adapts to changes in the modules it depends on by ad hoc means; naive code replacement may silently break dependents or surface circular dependencies only at reload time. ^[extracted]
+- **The formal mechanism** is two runtime constructs: **[[concepts/revertible-effects|revertible effects]]** (every context transformation carries an inverse the runtime tracks — teardown derived from loading) and **[[concepts/reactive-coeffects|reactive coeffects]]** (context changes notify components as activating/deactivating/neutral — dependency rewiring resolved automatically). These unify in the [[concepts/context-paradigm|context paradigm]] and are implemented as [[entities/cordis|Cordis]], validated by [[entities/koishi|Koishi]] (4000+ plugins). ^[extracted]
+- **Metatheory**: under pairwise independence and acyclicity of dependency precedence, the calculus guarantees recovery exactness (a fiber's accumulator withdraws its contribution and nothing else), provider-withdrawal ordering, progress (no deadlock), and confluence — the quiescent state is the one a static assembly would have produced. ^[extracted]
+
+This positions dynamic composition as the *lifecycle infrastructure layer* beneath the five-subsystem harness model above: the repo (system of record), tools, environment, state, and feedback are all *components* that a self-evolving harness must be able to swap safely at runtime. ^[inferred]
+
+## 2026-08-09: vibecoding gpu kernels (maharshi)
+
+Maharshi's kernel-development workflow ([[references/vibecoding-gpu-kernels|Vibecoding GPU Kernels]]) is a concrete harness instance: a verifiable-reward loop gated by compile checks, correctness against a ground-truth reference implementation, and roofline/satisfaction checks — the harness's verification scaffolding around the model. ^[extracted]
+
+The **context directory** (e.g. a cloned CUTLASS repo for CuTeDSL) is the harness's knowledge-passing mechanism, and the article's closing claim — "the better your context and harness, the faster the process" — states that better context + harness beats raw agent capability. ^[extracted] See [[concepts/agent-driven-kernel-development|Agent-Driven Kernel Development]].
+
 ## Related
 
 - [[concepts/shared-timeline|Shared Timeline]] — The workflow model the harness enables
@@ -163,3 +193,7 @@ See [[references/harness-lecture-02-what-a-harness-actually-is|Lecture 02: What 
 - [[references/awesome-long-horizon-agents]] — Curated reading list companion to the survey
 - [[concepts/ai-eval-beyond-sweebench|AI Evals Beyond SweeBench]] — Why harness capability matters for evals
 - [[concepts/ubiquitous-ai|Ubiquitous AI]] — The harness enables AI to be everywhere
+- [[concepts/self-evolving-agent-harnesses|Self-Evolving Agent Harnesses]] — Harnesses that modify their own components at runtime (Cordis motivating application)
+- [[references/cordis-spatiotemporal-composability|Cordis: A Programming Paradigm for Spatiotemporal Composability]] — Formal foundations for dynamic composition of harness components
+- [[concepts/dynamic-composition]] — The umbrella problem (revertible effects + reactive coeffects)
+- [[entities/cordis|Cordis]] — Meta-framework implementing the paradigm

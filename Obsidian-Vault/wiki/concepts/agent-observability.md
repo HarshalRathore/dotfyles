@@ -10,6 +10,7 @@ tags:
 sources:
 - 'https://www.youtube.com/watch?v=lqq_lcbajcc'
 - 'https://walkinglabs.github.io/learn-harness-engineering/en/lectures/lecture-11-why-observability-belongs-inside-the-harness/'
+- 'https://x.com/ashpreetbedi/status/2084301728363462919'
 relationships:
 - target: '[[concepts/agent-guardrails|Agent Guardrails]]'
   type: implements
@@ -25,7 +26,7 @@ base_confidence: 0.82
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
-updated: 2026-08-13
+updated: 2026-08-15T20:08:52Z
 summary: "Monitoring and debugging agent fleets: token usage, costs, runtime traces — plus the harness lens (runtime vs process observability, sprint contracts, evaluator rubrics)."
 ---
 
@@ -79,5 +80,9 @@ The course's Lecture 11 ("Why Observability Belongs Inside the Harness") frames 
 - Anthropic's March 2026 three-agent experiment (planner/generator/evaluator, browser DAW task) ran 3h50m at $124.70; its evaluator was made reliable by reading its logs, finding where its judgment diverged from human judgment, and updating the QA prompt. ^[extracted]
 
 Primary source: [[references/harness-lecture-11-observability-in-harness|Why Observability Belongs Inside the Harness — Lecture 11]]. Related: [[concepts/ai-harness|AI Agentic Harness]], [[concepts/open-telemetry|OpenTelemetry (OTEL)]].
+
+### Observability as an Improvement Input
+
+Bedi's recursive auto-improvement loop consumes the target agent's logs, tool calls, errors, and debug messages directly. The observability surface is therefore part of the repair loop: it supplies probe evidence and helps the coding agent choose whether to tighten a rule, add a rule, or swap a tool. ^[extracted] See [[concepts/recursive-auto-improvement]].
 
 - [[references/aief2025-agents-500b-promise-donald-hruska-retool|AIEF2025 — How agents will unlock the $500B promise of AI]]

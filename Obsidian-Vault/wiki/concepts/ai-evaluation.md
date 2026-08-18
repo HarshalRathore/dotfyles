@@ -13,16 +13,17 @@ aliases:
 - evaluating ai
 sources:
 - AIEF2025 - Why your product needs an AI product manager, and why it should be you — James Lowe, i.AI - https://www.youtube.com/watch?v=xzJdSi2Tsqw
+- https://x.com/AndrewYNg/status/2088302050706686198
 provenance:
-  extracted: 0.7
-  inferred: 0.3
-  ambiguous: 0.0
+  extracted: 0.72
+  inferred: 0.25
+  ambiguous: 0.03
 base_confidence: 0.8
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: core
 created: 2026-07-05
-updated: 2026-07-05
+updated: 2026-08-15T19:39:57Z
 relationships:
 - target: '[[concepts/ai-product-manager]]'
   type: core_skill_of
@@ -55,8 +56,11 @@ James Lowe's key insight from the **Incubator for AI**'s work: evaluation is not
 
 Government AI products face higher evaluation thresholds than commercial products. The UK government's consultation analysis work requires results that meet legal standards — inaccurate or inconsistent AI output is not acceptable when policy decisions depend on it. ^[extracted]
 
+Andrew Ng’s [[concepts/ai-engineering-skills-map|AI Engineering Skills Map]] places evaluation, measurement, and error analysis inside the core skill of building AI applications, not as a late-stage quality gate. ^[extracted]
+
 ## Related
 
+- [[concepts/ai-engineering-skills-map]] — Skills-map framing of evaluation as core AI-engineering work
 - [[concepts/ai-product-manager]] — Core skill of the AI product manager
 - [[concepts/evaluate-ai-early]] — The principle of evaluating before building
 - [[concepts/ai-capability-first]] — Prioritizing evaluation over product design

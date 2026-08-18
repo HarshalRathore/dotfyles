@@ -23,7 +23,7 @@ provenance:
 base_confidence: 0.65
 lifecycle: draft
 tier: core
-updated: 2026-08-13
+updated: 2026-08-15T20:08:52Z
 category: concepts
 created: '2026-07-04T15:08:38.589107+00:00'
 summary: "The thesis that everything in agent quality reduces to getting the right tokens into the model — from Dex Horthy's 'LLMs are pure functions' framing through Anthropic's 2026 new rules for Claude 5."
@@ -148,6 +148,7 @@ The same "cost per successful read" logic applies to any harness: **claude code'
 - [[concepts/progressive-disclosure-forms]] — Upfront context becomes on-demand loading
 - [[concepts/agents-md]] — The repo-level configuration layer; AGENTS.md quality is a context-engineering problem
 - [[concepts/instruction-budget]] — The ~150-200 instruction ceiling that bounds how much guidance files may carry
+- [[concepts/agent-skill-engineering]] — Skills as progressive context routers with source-linked regeneration
 - [[entities/dex-horthy]] — Originator of the term in this context
 
 ## Sources
@@ -157,6 +158,7 @@ The same "cost per successful read" logic applies to any harness: **claude code'
 - "The new rules of context engineering for Claude 5 generation models" — https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models
 - Announcing tweet — https://x.com/i/status/2080710971228918066
 - "A Complete Guide To AGENTS.md" — Matt Pocock, AI Hero, https://www.aihero.dev/a-complete-guide-to-agents-md
+- PostHog, "What nobody tells you about writing agent skills" — https://x.com/posthog/status/2084345938089316582
 
 ## 2026-08-13: Practitioner Rules from Manus, Earendil, and HumanLayer
 

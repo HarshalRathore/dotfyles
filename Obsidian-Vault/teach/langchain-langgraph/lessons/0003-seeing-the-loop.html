@@ -1,0 +1,1402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lesson 3 &#8212; Seeing the Loop: Messages, Tool Calls, and Finish Conditions</title>
+<style>
+/* Inlined from assets/course.css */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=JetBrains+Mono&display=swap');
+
+:root {
+  --ink: #e8e8e8;
+  --body: #a3a3a3;
+  --mute: #808080;
+  --hairline: #262626;
+  --hairline-soft: #1a1a1a;
+  --canvas: #000000;
+  --elevated: #0a0a0a;
+  --accent: #a78bfa;
+  --accent-soft: #2e1065;
+  --gold: #d4a547;
+  --gold-soft: #3a2f0e;
+  --blue: #60a5fa;
+  --blue-deep: #93c5fd;
+  --blue-soft: #1e3a5f;
+  --warning: #fbbf24;
+  --green: #4ade80;
+  --green-soft: #14532d;
+  --error: #f87171;
+  --sans: 'DM Sans', -apple-system, 'Segoe UI', sans-serif;
+  --mono: 'JetBrains Mono', ui-monospace, 'SF Mono', 'Fira Code', monospace;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 28px;
+  --space-xl: 36px;
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-pill: 100px;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; line-height: 1.5; }
+
+html { font-size: 16px; scroll-behavior: smooth; }
+
+body {
+  background: var(--canvas);
+  color: var(--body);
+  font-family: var(--sans);
+  line-height: 1.7;
+  max-width: 720px;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  font-size: clamp(1.75rem, 3.5vw, 2.25rem);
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+  color: var(--ink);
+  margin-bottom: var(--space-md);
+}
+
+h1 .gold-accent {
+  color: var(--gold);
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--ink);
+  margin-top: 60px;
+  margin-bottom: var(--space-md);
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--ink);
+  margin-top: var(--space-xl);
+  margin-bottom: var(--space-xs);
+}
+
+p { margin-bottom: 1.25rem; }
+strong { color: var(--ink); font-weight: 600; }
+a { color: var(--blue); text-decoration: none; }
+a:hover { color: var(--blue-deep); text-decoration: underline; }
+
+code {
+  font-family: var(--mono);
+  font-size: 0.88em;
+  background: var(--hairline-soft);
+  padding: 0.15em 0.4em;
+  border-radius: var(--radius-sm);
+  color: var(--ink);
+}
+
+pre {
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+  margin: var(--space-xl) 0;
+  overflow-x: auto;
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  line-height: 1.7;
+}
+
+pre code { background: none; padding: 0; color: inherit; }
+
+ul, ol { margin-bottom: 1.25rem; padding-left: 1.5rem; }
+li { margin-bottom: 0.35rem; }
+
+hr { border: none; border-top: 1px solid var(--hairline); margin: 60px 0; }
+
+.card {
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  font-size: 0.9rem;
+  padding: var(--space-lg);
+  line-height: 1.5;
+}
+
+.card-title { font-weight: 600; font-size: 0.9rem; color: var(--ink); margin-bottom: 6px; }
+
+.card p { margin-bottom: 0; font-size: 0.9rem; line-height: 1.5; color: var(--body); }
+
+.card-grid {
+  display: grid;
+  gap: var(--space-md);
+  margin: var(--space-xl) 0;
+}
+
+.callout {
+  padding: var(--space-lg);
+  margin: var(--space-xl) 0;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--hairline);
+  background: var(--elevated);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.callout.accent { background: rgba(167, 139, 250, 0.08); }
+.callout.info { background: rgba(96, 165, 250, 0.08); }
+.callout.warn { background: rgba(251, 191, 36, 0.08); }
+.callout.good { background: rgba(74, 222, 128, 0.08); }
+.callout.gold { background: rgba(212, 165, 71, 0.08); }
+
+.callout-label {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.04em;
+  margin-bottom: 8px;
+  display: block;
+  font-weight: 600;
+}
+
+.callout.accent .callout-label { color: var(--accent); }
+.callout.info .callout-label { color: var(--blue); }
+.callout.warn .callout-label { color: var(--warning); }
+.callout.gold .callout-label { color: var(--gold); }
+.callout.good .callout-label { color: var(--green); }
+.callout p:last-child { margin-bottom: 0; }
+
+.lesson-header {
+  margin-bottom: 60px;
+  border-bottom: 1px solid var(--hairline);
+  padding-bottom: var(--space-xl);
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: var(--mute);
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.lesson-footer {
+  border-top: 1px solid var(--hairline);
+  margin-top: 60px;
+  padding-top: var(--space-xl);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+}
+
+.footer-col { font-size: 0.9rem; color: var(--mute); }
+
+.sources {
+  font-size: 0.9rem;
+  color: var(--mute);
+  line-height: 1.6;
+  margin-top: var(--space-xl);
+}
+
+.sources a { color: var(--mute); text-decoration: underline; text-underline-offset: 2px; }
+.sources a:hover { color: var(--body); }
+
+.quiz {
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+  margin: var(--space-xl) 0;
+}
+
+.quiz-title {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: var(--space-md);
+}
+
+.quiz-question {
+  font-weight: 500;
+  margin-bottom: var(--space-md);
+  color: var(--ink);
+}
+
+.quiz-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 0;
+  cursor: pointer;
+  border-radius: var(--radius-sm);
+  transition: background 0.1s;
+  border-top: 1px solid var(--hairline-soft);
+  background: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  width: 100%;
+  text-align: left;
+  font-family: var(--sans);
+  font-size: inherit;
+  color: inherit;
+  line-height: 1.5;
+}
+
+.quiz-option:first-child { border-top: none; }
+.quiz-option:hover { background: rgba(96, 165, 250, 0.08); }
+
+.quiz-option:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 2px;
+  background: rgba(96, 165, 250, 0.08);
+}
+
+.quiz-option .option-key {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  color: var(--mute);
+  min-width: 1.5rem;
+  text-align: center;
+  flex-shrink: 0;
+  line-height: 1.6;
+}
+
+.quiz-option .option-text { font-size: 0.9rem; color: var(--body); line-height: 1.5; }
+
+.quiz-result {
+  margin-top: var(--space-md);
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  display: none;
+  line-height: 1.5;
+}
+
+.quiz-result.correct {
+  background: var(--green-soft);
+  border: 1px solid rgba(74, 222, 128, 0.4);
+  color: var(--ink);
+  display: block;
+}
+
+.quiz-result.incorrect {
+  background: rgba(248, 113, 113, 0.1);
+  border: 1px solid rgba(248, 113, 113, 0.2);
+  color: var(--ink);
+  display: block;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: var(--space-xl) 0;
+  font-size: 0.9rem;
+}
+
+thead th {
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--hairline);
+  color: var(--mute);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+tbody td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--hairline-soft);
+  color: var(--body);
+  line-height: 1.5;
+}
+
+tbody tr:last-child td { border-bottom: none; }
+
+.tag {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  padding: 3px 8px;
+  border-radius: var(--radius-pill);
+  background: var(--hairline-soft);
+  color: var(--mute);
+}
+
+.tag.accent { background: var(--accent-soft); color: var(--accent); }
+.tag.blue { background: var(--blue-soft); color: var(--blue); }
+.tag.gold { background: var(--gold-soft); color: var(--gold); }
+
+.exercise {
+  font-size: 0.9rem;
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+  margin: var(--space-xl) 0;
+  line-height: 1.6;
+}
+
+.exercise-title { font-weight: 600; color: var(--ink); margin-bottom: var(--space-md); }
+
+.flow-diagram {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  margin: var(--space-xl) 0;
+  flex-wrap: wrap;
+}
+
+.flow-node {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 18px;
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  background: var(--elevated);
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-align: center;
+  min-width: 80px;
+  line-height: 1.3;
+}
+
+.flow-node.model { border-color: var(--blue); color: var(--ink); }
+.flow-node.tools { border-color: var(--green); color: var(--ink); }
+.flow-node.loop { border-color: var(--warning); color: var(--ink); }
+.flow-node.start { border-color: var(--mute); color: var(--mute); }
+.flow-node.end { border-color: var(--error); color: var(--ink); }
+.flow-node.branch { border-color: var(--gold); color: var(--gold); }
+
+.flow-arrow { color: var(--mute); font-size: 1.1rem; padding: 0 8px; }
+.flow-caption { text-align: center; font-size: 0.85rem; color: var(--mute); margin-top: 6px; }
+
+details { margin-bottom: var(--space-xl); cursor: pointer; }
+
+details .answer-content {
+  margin-top: var(--space-md);
+  font-size: 0.9rem;
+  line-height: 1.7;
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+}
+
+@media (max-width: 660px) {
+  body { padding: var(--space-xl) var(--space-md); }
+  pre { padding: var(--space-md); font-size: 0.8rem; }
+  .flow-diagram { font-size: 0.85rem; gap: 0.25rem; }
+  .flow-node { padding: 6px 12px; min-width: 60px; font-size: 0.85rem; }
+  .card-grid { grid-template-columns: 1fr !important; }
+}
+@media (max-width: 400px) {
+  html { font-size: 15px; }
+  body { padding: var(--space-lg) var(--space-sm); }
+  .lesson-footer { flex-direction: column; gap: var(--space-sm); }
+}
+
+
+/* State-machine automaton diagram */
+.diagram-wrapper {
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+  margin: var(--space-xl) 0;
+  overflow-x: auto;
+}
+.diagram-wrapper svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 860px;
+  margin: 0 auto;
+}
+.stage-label {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  padding: 2px 7px;
+  border-radius: var(--radius-sm);
+  background: var(--hairline-soft);
+  color: var(--mute);
+}
+.stage-label.model { background: var(--blue-soft); color: var(--blue); }
+.stage-label.tool { background: var(--green-soft); color: var(--green); }
+.stage-label.end { background: rgba(248, 113, 113, 0.1); color: var(--error); }
+.annotation-line {
+  display: flex;
+  gap: var(--space-sm);
+  padding: 6px 0;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  border-bottom: 1px solid var(--hairline-soft);
+  align-items: flex-start;
+}
+.annotation-line:last-child { border-bottom: none; }
+
+@media (max-width: 660px) {
+  .diagram-wrapper { padding: var(--space-sm); }
+}
+/* Lesson-specific styles */
+.loop-steps {
+  counter-reset: step;
+  margin: var(--space-xl) 0;
+}
+
+.loop-step {
+  display: flex;
+  gap: var(--space-md);
+  align-items: flex-start;
+  padding: var(--space-md) 0;
+  border-bottom: 1px solid var(--hairline-soft);
+}
+
+.loop-step:last-child { border-bottom: none; }
+
+.loop-step .step-num {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--gold);
+  min-width: 1.8rem;
+  flex-shrink: 0;
+  border: 1px solid var(--gold);
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loop-step .step-body {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--body);
+}
+
+.loop-step .step-body strong { color: var(--ink); }
+
+.pause-panel {
+  border: 1px solid rgba(212, 165, 71, 0.25);
+  padding: var(--space-lg);
+  margin: var(--space-xl) 0;
+  background: rgba(212, 165, 71, 0.04);
+  border-radius: var(--radius-md);
+}
+
+.pause-panel .pause-label {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.04em;
+  color: var(--gold);
+  font-weight: 600;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.pause-panel p { font-size: 0.9rem; color: var(--body); margin-bottom: 0; line-height: 1.6; }
+.pause-panel p + p { margin-top: 12px; }
+
+.code-annotation {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+  margin: var(--space-xl) 0;
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  padding: 4px;
+}
+
+.annotation-line {
+  display: grid;
+  grid-template-columns: 1fr 220px;
+  border-bottom: 1px solid var(--hairline-soft);
+}
+
+.annotation-line:last-child { border-bottom: none; }
+
+.annotation-line .code-part {
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  padding: 12px var(--space-md);
+  color: var(--ink);
+  background: var(--elevated);
+  line-height: 1.6;
+}
+
+.annotation-line .desc-part {
+  font-size: 0.78rem;
+  padding: 12px var(--space-md);
+  color: var(--body);
+  line-height: 1.6;
+  border-left: 1px solid var(--hairline-soft);
+  background: rgba(212, 165, 71, 0.03);
+}
+
+@media (max-width: 660px) {
+  .annotation-line { grid-template-columns: 1fr; }
+  .annotation-line .desc-part { border-left: none; border-top: 1px solid var(--hairline-soft); }
+}
+
+/* (trace-flow styles removed - replaced by automaton SVG diagram above) */
+
+/* Sample trace */
+.sample-trace {
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+  margin: var(--space-xl) 0;
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  line-height: 1.8;
+  overflow-x: auto;
+}
+
+.trace-line { white-space: pre; }
+.trace-line .hl-model { color: var(--blue); }
+.trace-line .hl-tool { color: var(--green); }
+.trace-line .hl-end { color: var(--error); }
+.trace-line .hl-label { color: var(--gold); }
+.trace-line .hl-data { color: var(--ink); }
+.trace-line .hl-sep { color: var(--mute); }
+
+.trace-annotated {
+  display: grid;
+  grid-template-columns: 1fr 200px;
+  gap: 0;
+  margin: var(--space-xl) 0;
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  padding: 4px;
+}
+
+.trace-annotated-line {
+  display: contents;
+}
+
+.trace-annotated .trace-part {
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  padding: 10px var(--space-md);
+  color: var(--ink);
+  background: var(--elevated);
+  line-height: 1.6;
+  white-space: pre;
+  border-bottom: 1px solid var(--hairline-soft);
+}
+
+.trace-annotated .trace-desc {
+  font-size: 0.77rem;
+  padding: 10px var(--space-md);
+  color: var(--body);
+  line-height: 1.5;
+  border-left: 1px solid var(--hairline-soft);
+  border-bottom: 1px solid var(--hairline-soft);
+  background: rgba(212, 165, 71, 0.03);
+}
+
+.trace-annotated-line:last-child .trace-part,
+.trace-annotated-line:last-child .trace-desc {
+  border-bottom: none;
+}
+
+@media (max-width: 660px) {
+  .trace-annotated { grid-template-columns: 1fr; }
+  .trace-annotated .trace-desc { border-left: none; border-top: 1px solid var(--hairline-soft); }
+}
+
+.stage-label {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+  background: var(--hairline-soft);
+  color: var(--mute);
+}
+
+.stage-label.model { background: var(--blue-soft); color: var(--blue); }
+.stage-label.tool { background: var(--green-soft); color: var(--green); }
+.stage-label.end { background: rgba(248, 113, 113, 0.1); color: var(--error); }
+.stage-label.gold { background: var(--gold-soft); color: var(--gold); }
+</style>
+</head>
+<body>
+
+<div class="lesson-header">
+  <h1>Seeing the <span class="gold-accent">Loop</span>: Messages, Tool Calls, and Finish Conditions</h1>
+  <p class="subtitle">In Chapter 2 you called <code style="color: var(--gold);">agent.invoke()</code> and got an answer back. The loop was hidden inside. In this chapter we crack it open and watch every step.</p>
+</div>
+
+<p>We know the loop exists. Chapter 2 proved it: you wrote a <code style="color: var(--gold);">@tool</code> function, wired it to <code style="color: var(--gold);">create_agent</code>, called <code style="color: var(--gold);">invoke()</code>, and the agent returned an answer. The model reasoned, called your tool, used the result, and produced a final response &mdash; all inside that one function call.</p>
+
+<p>But what exactly happened at each step? How did the framework know to stop? How did it know to keep going? What did the messages look like at every stage?</p>
+
+<p>In Chapter 2's <strong>"Make the Loop Visible"</strong> section, you saw a numbered sequence: message in, model decides, harness intercepts, tool executes, result feeds back, model decides again, answer returned. That sequence is the <em>conceptual</em> loop. In this chapter you will see the <em>actual</em> loop &mdash; the exact messages, the streaming trace, and the finish condition that tells the framework when to stop.</p>
+
+<div class="callout gold">
+  <span class="callout-label">This chapter is a trace</span>
+  <p>You will not build anything new here. You will watch. The skill this chapter teaches is <strong>reading the trace</strong>. Every agent debugging session starts with looking at the messages. Master this and you will never wonder "what is my agent doing?"</p>
+</div>
+
+<hr>
+
+<h2 id="normal-finish">The Normal Finish Condition</h2>
+
+<p>Here is the single most important rule in the entire agent loop. Memorize it:</p>
+
+<div class="card" style="border: 2px solid var(--blue); border-radius: var(--radius-md);">
+  <div class="card-title">The loop's finish condition</div>
+  <p>The agent loop ends when the latest <strong>AIMessage</strong> produced by the model contains an empty (or absent) <code>tool_calls</code> list. When <code>tool_calls</code> is empty, the graph routes to <code style="color: var(--error);">__end__</code>. When <code>tool_calls</code> has entries, the loop continues.</p>
+</div>
+
+<p>This is the only stop/go rule the loop evaluates. The model's latest output determines whether the loop continues or terminates.</p>
+
+<p>Let us trace through the two cases:</p>
+
+<div class="loop-steps">
+  <div class="loop-step">
+    <span class="step-num">1</span>
+    <div class="step-body"><strong>Model receives input.</strong> The harness sends the full message history including the user's question and the tool schemas.</div>
+  </div>
+  <div class="loop-step">
+    <span class="step-num">2</span>
+    <div class="step-body"><strong>Model emits a response.</strong> The model outputs an <strong>AIMessage</strong> which may contain <code>content</code> (text) and/or a <code>tool_calls</code> list.</div>
+  </div>
+  <div class="loop-step">
+    <span class="step-num">3</span>
+    <div class="step-body"><strong>Harness inspects tool_calls.</strong> If <code>tool_calls</code> is a non-empty list, the harness extracts each call (tool name + arguments) and executes the matching Python function.</div>
+  </div>
+  <div class="loop-step">
+    <span class="step-num">4</span>
+    <div class="step-body"><strong>Tool results become ToolMessages.</strong> Each function's return value is wrapped in a <strong>ToolMessage</strong> that carries the <code>tool_call_id</code> linking it back to the call that produced it. These messages are appended to the history.</div>
+  </div>
+  <div class="loop-step">
+    <span class="step-num">5</span>
+    <div class="step-body"><strong>Model sees updated history.</strong> The conversation now includes: user question, model's tool call, tool result. The model generates a new response. If it calls another tool, go to step 3. If it produces a plain text answer with no <code>tool_calls</code>, go to step 6.</div>
+  </div>
+  <div class="loop-step">
+    <span class="step-num">6</span>
+    <div class="step-body"><strong>Loop ends.</strong> The graph routes to <code style="color: var(--error);">__end__</code>. The full message list is returned to the caller.</div>
+  </div>
+</div>
+
+<div class="callout info">
+  <span class="callout-label">What "empty tool_calls" looks like</span>
+  <p>An AIMessage produced by most providers has a <code>tool_calls</code> field that defaults to an empty list <code>[]</code> when the model decides not to call any tool. The harness checks <code>if not aimessage.tool_calls</code> &mdash; if the list is empty (falsy), the loop terminates. If the list has items, the loop continues.</p>
+</div>
+
+<hr>
+
+<h2 id="messages-you-need">Messages You Need to Know</h2>
+
+<p>The agent loop runs on messages. Every piece of data that flows through the loop is wrapped in a typed message object. Here are the four you will see in every trace:</p>
+
+<table>
+  <thead>
+    <tr><th>Message Type</th><th>Created When</th><th>Key Fields</th><th>Purpose</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>HumanMessage</strong></td>
+      <td>User sends input</td>
+      <td><code>content</code></td>
+      <td>Carries the user's question or instruction. The starting point of every conversation.</td>
+    </tr>
+    <tr>
+      <td><strong>AIMessage</strong></td>
+      <td>Model responds</td>
+      <td><code>content</code>, <code>tool_calls</code></td>
+      <td>The model's output. <code>content</code> holds text. <code>tool_calls</code> holds a list of structured tool requests (empty when answering directly).</td>
+    </tr>
+    <tr>
+      <td><strong>ToolMessage</strong></td>
+      <td>Tool finishes</td>
+      <td><code>content</code>, <code>tool_call_id</code></td>
+      <td>Carries the result of a tool execution. <code>tool_call_id</code> links it to the specific AIMessage tool_call that triggered it.</td>
+    </tr>
+    <tr>
+      <td><strong>SystemMessage</strong></td>
+      <td>Session starts</td>
+      <td><code>content</code></td>
+      <td>System prompt set at agent creation. Injected at the start of the conversation to set model behavior.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The <code>tool_calls</code> field on AIMessage deserves special attention. It is a list of dictionaries, each containing:</p>
+
+<table>
+  <thead>
+    <tr><th>Field</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><code>name</code></td><td>string</td><td>The name of the tool to call (matches your <code>@tool</code> function name).</td></tr>
+    <tr><td><code>args</code></td><td>dict</td><td>The arguments the model wants to pass, as key-value pairs.</td></tr>
+    <tr><td><code>id</code></td><td>string</td><td>A unique identifier for this specific tool call. Used by <code>ToolMessage.tool_call_id</code> to link result to request.</td></tr>
+  </tbody>
+</table>
+
+<div class="callout good">
+  <span class="callout-label">The link is the ID</span>
+  <p>Each <code>tool_call</code> gets a unique <code>id</code> (a UUID string). When the tool result comes back, the harness produces a <code>ToolMessage</code> with <code>tool_call_id</code> set to that same ID. This is how the model knows which result belongs to which call &mdash; critical when the model makes multiple parallel tool calls.</p>
+</div>
+
+<hr>
+
+<h2 id="stream-modes">Stream, Stream Mode, Update</h2>
+
+<p>When you call <code>agent.invoke()</code>, the entire loop runs to completion before anything is returned. You get the final message list, but you never see the intermediate steps as they happen.</p>
+
+<p>To watch the loop in motion, you use <strong>streaming</strong>:</p>
+
+<table>
+  <thead>
+    <tr><th>Concept</th><th>Definition</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Stream</strong></td>
+      <td>A method that yields per-node updates as the graph executes, instead of waiting for the final result. Each yield represents one node completing its work.</td>
+    </tr>
+    <tr>
+      <td><strong><code>stream_mode='updates'</code></strong></td>
+      <td>Tells the graph to emit only the state <em>changes</em> made by each node. You see what each node produced, not the full accumulated state.</td>
+    </tr>
+    <tr>
+      <td><strong><code>version='v2'</code></strong></td>
+      <td>The current streaming API version. V2 normalises the output format across different graph types and ensures consistent key naming.</td>
+    </tr>
+    <tr>
+      <td><strong>Node name</strong></td>
+      <td>The label of the graph node that just executed. In <code>create_agent</code> graphs, you typically see <code>"model"</code> (the LLM call) and <code>"tools"</code> (tool execution).</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="callout info">
+  <span class="callout-label">Official stream docs</span>
+  <p>Read the full streaming guide at <a href="https://docs.langchain.com/oss/python/langgraph/streaming" target="_blank">docs.langchain.com/oss/python/langgraph/streaming</a> and the API reference at <a href="https://reference.langchain.com/python/langgraph/graph/stream" target="_blank">reference.langchain.com/python/langgraph/graph/stream</a>.</p>
+</div>
+
+<hr>
+
+<h2 id="watching-a-real-trace">Watching a Real Trace</h2>
+
+<p>Let us reuse the <code>lookup_shipping_status</code> tool from Chapter 2 and stream its execution step by step. This is the same agent you built before, but now we will watch every node fire:</p>
+
+<pre><code>from langchain.agents import create_agent
+from langchain.tools import tool
+
+@tool
+def lookup_shipping_status(order_id: str) -> str:
+    """Look up the shipping status of an order by its order ID.
+    Orders start with ORD- followed by four digits."""
+    orders = {
+        "ORD-1001": "Shipped. Estimated delivery in 3-5 business days.",
+        "ORD-1002": "Processing. Estimated ship date: tomorrow.",
+        "ORD-1003": "Delivered. Signed for on July 15, 2026.",
+    }
+    return orders.get(order_id,
+        "Order not found. Please check the ID and try again.")
+
+agent = create_agent(
+    model="openai:gpt-4o",   <span style="color: var(--mute);"># any provider works</span>
+    tools=[lookup_shipping_status],
+    system_prompt=(
+        "You are an order support agent. "
+        "Use the lookup_shipping_status tool to check orders. "
+        "Report the status clearly to the customer."
+    ),
+)
+
+<span style="color: var(--mute);"># Stream the execution node by node</span>
+for chunk in agent.stream(
+    {"messages": [{"role": "user", "content": "Where is my order? ORD-1002"}]},
+    stream_mode="updates",
+    version="v2",
+):
+    for node_name, data in chunk.items():
+        if node_name == "model":
+            msg = data["messages"][-1]
+            if msg.tool_calls:
+                tool_name = msg.tool_calls[0]["name"]
+                tool_args = msg.tool_calls[0]["args"]
+                print(f"[MODEL] calling tool: {tool_name}({tool_args})")
+            else:
+                print(f"[MODEL] final: {msg.content}")
+        elif node_name == "tools":
+            tool_result = data["messages"][-1].content
+            print(f"[TOOL] result: {tool_result}")
+
+print("[END]")</code></pre>
+
+<div class="callout gold">
+  <span class="callout-label">Provider-neutral note</span>
+  <p>The code above uses <code>"openai:gpt-4o"</code> as an example model identifier. Any model provider works &mdash; <code>"anthropic:claude-opus-4"</code>, <code>"ollama:llama3"</code>, or any other provider with a LangChain integration package. The loop pattern, finish condition, and stream output are the same regardless.</p>
+</div>
+
+<p>When you run this code, the output will look something like this (actual model output varies):</p>
+
+<pre><code>[MODEL] calling tool: lookup_shipping_status({'order_id': 'ORD-1002'})
+[TOOL] result: Processing. Estimated ship date: tomorrow.
+[MODEL] final: Your order ORD-1002 is being processed and is expected to ship tomorrow. You should receive tracking information once it ships.
+[END]</code></pre>
+
+<p>The stream yielded three events: one from the <code>model</code> node (where the LLM decided to call a tool), one from the <code>tools</code> node (where the Python function ran), and one more from the <code>model</code> node (where the LLM produced the final answer after seeing the tool result).</p>
+
+<hr>
+
+<h2 id="reading-the-output">Reading the Output</h2>
+
+<p>Let us annotate that trace line by line so you know exactly what each part means:</p>
+
+<div class="trace-annotated">
+  <div class="trace-annotated-line">
+    <div class="trace-part"><span class="stage-label model">MODEL</span> calling tool: lookup_shipping_status({'order_id': 'ORD-1002'})</div>
+    <div class="trace-desc">The graph's <strong>model node</strong> executed. The LLM received the user message plus tool schemas and decided to call <code>lookup_shipping_status</code> with <code>order_id="ORD-1002"</code>. The AIMessage has a non-empty <code>tool_calls</code> list, so the loop <strong>continues</strong>.</div>
+  </div>
+  <div class="trace-annotated-line">
+    <div class="trace-part"><span class="stage-label tool">TOOL</span> result: Processing. Estimated ship date: tomorrow.</div>
+    <div class="trace-desc">The graph's <strong>tools node</strong> executed. The harness took the tool call from the AIMessage, called <code>lookup_shipping_status(order_id="ORD-1002")</code> directly, and wrapped the return value as a <strong>ToolMessage</strong>. This message is appended to the conversation history.</div>
+  </div>
+  <div class="trace-annotated-line">
+    <div class="trace-part"><span class="stage-label model">MODEL</span> final: Your order ORD-1002 is being processed...</div>
+    <div class="trace-desc">The graph's <strong>model node</strong> executed again. This time the LLM had the full history: user question, its own tool call, and the tool result. It decided no more tools were needed and produced a plain text answer. The AIMessage's <code>tool_calls</code> is empty <code>[]</code>, so the loop <strong>ends</strong>.</div>
+  </div>
+  <div class="trace-annotated-line">
+    <div class="trace-part"><span class="stage-label end">END</span></div>
+    <div class="trace-desc">The graph routed to <code style="color: var(--error);">__end__</code>. No more nodes to execute. The full message list is available as the return value.</div>
+  </div>
+</div>
+
+<p>Every agent trace follows this pattern. A run that makes multiple tool calls produces a longer sequence, but the structure is the same: <span class="stage-label model">MODEL</span> &rarr; <span class="stage-label tool">TOOL</span> &rarr; <span class="stage-label model">MODEL</span> &rarr; <span class="stage-label tool">TOOL</span> &rarr; <span class="stage-label model">MODEL</span> &rarr; <span class="stage-label end">END</span>.</p>
+
+<hr>
+
+<h2 id="flow-diagram">The Automaton: Three States, Two Transitions</h2>
+
+<p>Every <code>create_agent</code> agent is a finite-state machine. Three nodes, two conditional transitions, one growing <code>messages[]</code> state. Once you internalize this diagram, you can read any LangGraph trace.</p>
+
+<div class="diagram-wrapper">
+<svg viewBox="0 0 820 580" xmlns="http://www.w3.org/2000/svg" font-family="'DM Sans', sans-serif">
+  <defs>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#60a5fa"/>
+    </marker>
+    <marker id="arrow-gold" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#d4a547"/>
+    </marker>
+    <marker id="arrow-green" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4ade80"/>
+    </marker>
+    <marker id="arrow-red" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#f87171"/>
+    </marker>
+    <linearGradient id="glow-blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1e3a5f" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#0a0a0a" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="glow-green" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#14532d" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#0a0a0a" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- START circle -->
+  <circle cx="108" cy="140" r="32" fill="none" stroke="#60a5fa" stroke-width="2" stroke-dasharray="4,3"/>
+  <text x="108" y="135" text-anchor="middle" fill="#60a5fa" font-size="10" font-weight="600" font-family="'JetBrains Mono', monospace">START</text>
+  <text x="108" y="148" text-anchor="middle" fill="#60a5fa" font-size="7" opacity="0.7">(init)</text>
+
+  <!-- Model node -->
+  <rect x="210" y="100" width="160" height="64" rx="10" fill="#0a0a0a" stroke="#60a5fa" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="210" y="100" width="160" height="64" rx="10" fill="url(#glow-blue)" opacity="0.3"/>
+  <text x="290" y="126" text-anchor="middle" fill="#60a5fa" font-size="14" font-weight="600" font-family="'JetBrains Mono', monospace">model</text>
+  <text x="290" y="144" text-anchor="middle" fill="#808080" font-size="8">LLM inference node</text>
+
+  <!-- Tools node -->
+  <rect x="210" y="270" width="160" height="64" rx="10" fill="#0a0a0a" stroke="#4ade80" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="210" y="270" width="160" height="64" rx="10" fill="url(#glow-green)" opacity="0.3"/>
+  <text x="290" y="296" text-anchor="middle" fill="#4ade80" font-size="14" font-weight="600" font-family="'JetBrains Mono', monospace">tools</text>
+  <text x="290" y="314" text-anchor="middle" fill="#808080" font-size="8">Python function executor</text>
+
+  <!-- END terminal -->
+  <rect x="520" y="120" width="160" height="52" rx="26" fill="#0a0a0a" stroke="#f87171" stroke-width="2" filter="url(#shadow)"/>
+  <text x="600" y="142" text-anchor="middle" fill="#f87171" font-size="13" font-weight="600" font-family="'JetBrains Mono', monospace">__end__</text>
+  <text x="600" y="156" text-anchor="middle" fill="#808080" font-size="8">terminal state</text>
+
+  <!-- START &rarr; model edge -->
+  <line x1="140" y1="140" x2="205" y2="132" stroke="#60a5fa" stroke-width="1.5" marker-end="url(#arrow-blue)"/>
+  <text x="160" y="118" fill="#60a5fa" font-size="8" font-family="'JetBrains Mono', monospace">START</text>
+  <text x="160" y="130" fill="#808080" font-size="7" font-family="'JetBrains Mono', monospace">initial invocation</text>
+
+  <!-- model &rarr; tools edge -->
+  <path d="M 240 164 L 240 220 L 290 220 L 290 265" stroke="#d4a547" stroke-width="1.5" fill="none" marker-end="url(#arrow-gold)"/>
+  <text x="146" y="198" fill="#d4a547" font-size="7.5" font-weight="600" font-family="'JetBrains Mono', monospace">tool_calls != []</text>
+  <text x="146" y="210" fill="#d4a547" font-size="7" font-family="'JetBrains Mono', monospace">finish_reason = "tool_calls"</text>
+  <text x="146" y="224" fill="#808080" font-size="7">model decided to call a tool</text>
+  <line x1="234" y1="210" x2="140" y2="210" stroke="#d4a547" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- tools &rarr; model edge -->
+  <path d="M 340 270 L 340 230 L 380 230 L 380 204 L 340 204 L 340 168" stroke="#4ade80" stroke-width="1.5" fill="none" marker-end="url(#arrow-green)"/>
+  <text x="386" y="224" fill="#4ade80" font-size="7.5" font-weight="600" font-family="'JetBrains Mono', monospace">always &rarr; model</text>
+  <text x="386" y="238" fill="#808080" font-size="7" font-family="'JetBrains Mono', monospace">ToolMessage appended</text>
+  <text x="386" y="252" fill="#808080" font-size="7" font-family="'JetBrains Mono', monospace">loop back to model</text>
+
+  <!-- model &rarr; END edge -->
+  <line x1="374" y1="120" x2="515" y2="128" stroke="#f87171" stroke-width="1.5" marker-end="url(#arrow-red)"/>
+  <text x="420" y="102" fill="#f87171" font-size="7.5" font-weight="600" font-family="'JetBrains Mono', monospace">tool_calls == []</text>
+  <text x="420" y="114" fill="#f87171" font-size="7" font-family="'JetBrains Mono', monospace">finish_reason = "stop"</text>
+  <text x="420" y="128" fill="#808080" font-size="7">model produced final answer</text>
+
+  <!-- HTTP annotations -->
+  <rect x="15" y="295" width="180" height="75" rx="6" fill="none" stroke="#262626" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="105" y="312" text-anchor="middle" fill="#808080" font-size="7" font-family="'JetBrains Mono', monospace">HTTP REQUEST</text>
+  <line x1="30" y1="316" x2="180" y2="316" stroke="#262626" stroke-width="0.5"/>
+  <text x="105" y="332" text-anchor="middle" fill="#808080" font-size="6.5">POST /v1/chat/completions</text>
+  <text x="105" y="346" text-anchor="middle" fill="#808080" font-size="6.5">Authorization: Bearer ...</text>
+  <text x="105" y="360" text-anchor="middle" fill="#808080" font-size="6.5">{ "model": "...", "messages": [...] }</text>
+
+  <rect x="15" y="160" width="180" height="75" rx="6" fill="none" stroke="#262626" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="105" y="178" text-anchor="middle" fill="#808080" font-size="7" font-family="'JetBrains Mono', monospace">HTTP RESPONSE</text>
+  <line x1="30" y1="182" x2="180" y2="182" stroke="#262626" stroke-width="0.5"/>
+  <text x="105" y="195" text-anchor="middle" fill="#808080" font-size="6.5">{"choices":[{"message":{</text>
+  <text x="105" y="209" text-anchor="middle" fill="#808080" font-size="6.5">"content":"...",</text>
+  <text x="105" y="223" text-anchor="middle" fill="#808080" font-size="6.5">"tool_calls":[...]}}]}</text>
+
+  <!-- Stream chunk annotations -->
+  <rect x="460" y="280" width="180" height="65" rx="6" fill="none" stroke="#262626" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="550" y="297" text-anchor="middle" fill="#808080" font-size="7" font-family="'JetBrains Mono', monospace">stream_mode="updates"</text>
+  <line x1="475" y1="301" x2="625" y2="301" stroke="#262626" stroke-width="0.5"/>
+  <text x="550" y="315" text-anchor="middle" fill="#808080" font-size="6.5">{model: {messages: [AIMessage(...)]}}</text>
+  <text x="550" y="330" text-anchor="middle" fill="#808080" font-size="6.5">{tools: {messages: [ToolMessage(...)]}}</text>
+
+  <!-- Growing state -->
+  <rect x="15" y="410" width="790" height="150" rx="8" fill="#0a0a0a" stroke="#262626" stroke-width="1" opacity="0.7"/>
+  <text x="30" y="430" fill="#808080" font-size="8" font-family="'JetBrains Mono', monospace">state.messages[]  (grows with each transition)</text>
+  <line x1="30" y1="436" x2="790" y2="436" stroke="#1a1a1a" stroke-width="0.5"/>
+
+  <rect x="30" y="442" width="300" height="22" rx="4" fill="#1e3a5f" opacity="0.3" stroke="#60a5fa" stroke-width="0.5"/>
+  <text x="40" y="457" fill="#a3a3a3" font-size="7.5" font-family="'JetBrains Mono', monospace">{role: "user", content: "Where is ORD-1002?"}</text>
+
+  <rect x="30" y="470" width="360" height="22" rx="4" fill="#2e1065" opacity="0.3" stroke="#a78bfa" stroke-width="0.5"/>
+  <text x="40" y="485" fill="#e8e8e8" font-size="7.5" font-family="'JetBrains Mono', monospace">{role: "assistant", content: "", tool_calls: [...]}</text>
+
+  <rect x="30" y="498" width="340" height="22" rx="4" fill="#14532d" opacity="0.3" stroke="#4ade80" stroke-width="0.5"/>
+  <text x="40" y="513" fill="#4ade80" font-size="7.5" font-family="'JetBrains Mono', monospace">{role: "tool", content: "Processing. Est. ship: tomorrow"}</text>
+
+  <rect x="30" y="526" width="340" height="22" rx="4" fill="#3a2f0e" opacity="0.3" stroke="#d4a547" stroke-width="0.5"/>
+  <text x="40" y="541" fill="#e8e8e8" font-size="7.5" font-family="'JetBrains Mono', monospace">{role: "assistant", content: "Your order ORD-1002..."}</text>
+
+  <text x="410" y="490" fill="#262626" font-size="14" text-anchor="middle">&#8942;</text>
+
+  <circle cx="648" cy="380" r="4" fill="#d4a547"/>
+  <text x="656" y="383" fill="#808080" font-size="7" font-family="'JetBrains Mono', monospace">= tool_calls edge</text>
+  <circle cx="648" cy="394" r="4" fill="#4ade80"/>
+  <text x="656" y="397" fill="#808080" font-size="7" font-family="'JetBrains Mono', monospace">= loop-back edge</text>
+  <circle cx="648" cy="408" r="4" fill="#f87171"/>
+  <text x="656" y="411" fill="#808080" font-size="7" font-family="'JetBrains Mono', monospace">= terminal edge</text>
+</svg>
+</div>
+
+<div class="callout info">
+  <span class="callout-label">The three states (nodes)</span>
+  <p><strong>model</strong> &mdash; The LLM inference node. Receives the full message history, picks tool schemas from the agent definition, generates the next AIMessage. This is where the HTTP request to the provider happens.</p>
+  <p><strong>tools</strong> &mdash; Executes each tool call from the model's output. LangChain runs the registered Python function with the arguments the model chose, wraps the return value in a <code>ToolMessage</code>, and appends it to state.</p>
+  <p><strong><code>__end__</code></strong> &mdash; Terminal state. Once reached, no more nodes execute. The full <code>messages[]</code> list becomes the return value.</p>
+</div>
+
+<div class="callout gold">
+  <span class="callout-label">How the edges decide</span>
+  <p>The only conditional fork in the entire automaton is between <strong>model</strong> and <strong><code>__end__</code></strong>. LangGraph inspects the model's latest <code>AIMessage.tool_calls</code> field. The decision is binary:</p>
+  <ul>
+    <li><strong>tool_calls</strong> present (<code>!= []</code> / <code>finish_reason = "tool_calls"</code>) &rarr; follow the gold edge to <strong>tools</strong></li>
+    <li><strong>no tool_calls</strong> (<code>== []</code> / <code>finish_reason = "stop"</code>) &rarr; follow the red edge to <strong><code>__end__</code></strong></li>
+  </ul>
+  <p style="margin-top: var(--space-sm);">The <span class="stage-label tool">tools</span> node always routes back to <span class="stage-label model">model</span> via the green edge after executing &mdash; a tool cannot end the session; only the model can.</p>
+</div>
+
+<h2 id="model-suggests">The Model Suggests, the Framework Executes</h2>
+
+<p>This distinction is so important it deserves its own section. Read it twice:</p>
+
+<div class="card" style="border: 2px solid var(--gold); border-radius: var(--radius-md);">
+  <div class="card-title">The model never runs your code</div>
+  <p>The model emits <strong>structured JSON</strong> that describes a tool call. LangChain parses that JSON, matches the tool name to a registered Python function, calls that function with the parsed arguments, wraps the return value as a <strong>ToolMessage</strong>, and appends it to the history.</p>
+  <p style="margin-top: var(--space-md);">The model is a <strong>planner</strong>. It suggests what to do. The framework is the <strong>executor</strong>. It does the actual work and reports back.</p>
+</div>
+
+<p>Here is exactly what the model emits vs what the framework runs:</p>
+
+<div class="code-annotation">
+  <div class="annotation-line">
+    <div class="code-part"><span style="color: var(--mute);"># What the model emits (JSON)</span></div>
+    <div class="desc-part">The model outputs structured text &mdash; it never calls a function.</div>
+  </div>
+  <div class="annotation-line">
+    <div class="code-part">{<br>  "name": "lookup_shipping_status",<br>  "args": {"order_id": "ORD-1002"},<br>  "id": "call_abc123"<br>}</div>
+    <div class="desc-part">This is a <strong>tool call</strong>. The model produces it as part of its text output, formatted as structured JSON. No Python was executed.</div>
+  </div>
+  <div class="annotation-line">
+    <div class="code-part"><span style="color: var(--mute);"># What the framework runs</span></div>
+    <div class="desc-part">The harness reads the JSON and calls your function.</div>
+  </div>
+  <div class="annotation-line">
+    <div class="code-part">lookup_shipping_status(order_id="ORD-1002")</div>
+    <div class="desc-part">This is the <strong>actual Python call</strong>. The harness extracted the tool name + args and invoked your <code>@tool</code> function directly. The result becomes a ToolMessage.</div>
+  </div>
+</div>
+
+<div class="callout warn">
+  <span class="callout-label">You cannot skip the harness</span>
+  <p>The model cannot call your function directly. It has no access to your Python runtime, your memory, or your filesystem. It only produces text. The harness translates that text into actions. This is what makes the agent pattern safe: the model can only <em>suggest</em> what should happen; you control what actually runs.</p>
+</div>
+
+<hr>
+
+<h2 id="thinking-tokens">Thinking Tokens and Reasoning</h2>
+
+<p>Some modern LLMs (OpenAI's o-series models, Anthropic's Claude Opus) include <strong>reasoning</strong> or <strong>thinking</strong> tokens &mdash; internal monologue that the model produces before arriving at its final answer. These are not part of the standard agent trace and require careful handling:</p>
+
+<table>
+  <thead>
+    <tr><th>Concept</th><th>Detail</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Thinking / reasoning</strong></td>
+      <td>Internal chain-of-thought the model generates before producing its visible output. Some providers expose it as a separate content block; others do not expose it at all.</td>
+    </tr>
+    <tr>
+      <td><strong>Provider-dependent</strong></td>
+      <td>OpenAI o-series models can expose <code>reasoning_summary</code> or token counts rather than the full reasoning text. Anthropic Claude Opus may include thinking blocks when enabled. Smaller models often have no reasoning output at all.</td>
+    </tr>
+    <tr>
+      <td><strong>Explicit settings required</strong></td>
+      <td>Thinking/reasoning features may require specific model configuration parameters. They are not guaranteed to appear and are not equivalent to the trace events shown in this chapter.</td>
+    </tr>
+    <tr>
+      <td><strong>NOT trace events</strong></td>
+      <td>The <code>[MODEL]</code> and <code>[TOOL]</code> events in your stream trace are graph node executions. Reasoning tokens are model internals. Do not confuse them. Do not build logic that depends on private reasoning output.</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="callout warn">
+  <span class="callout-label">Do not promise or print private reasoning</span>
+  <p>Never build an agent that depends on reading the model's reasoning or thinking tokens. These are not part of the stable API. They may change, disappear, or require explicit user consent depending on the provider. The visible trace events (message types, tool_calls, stream output) are the contract you should rely on.</p>
+</div>
+
+<hr>
+
+<h2 id="updates-vs-values">Updates vs Values</h2>
+
+<p>When you stream an agent's execution, you have two choices for what the stream yields:</p>
+
+<table>
+  <thead>
+    <tr><th>Mode</th><th>What it yields</th><th>When to use</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong><code>stream_mode='updates'</code></strong></td>
+      <td>Only the <strong>state changes</strong> produced by each node. Each chunk shows what that node added or modified. Compact and readable.</td>
+      <td>Use this. It is the default choice for debugging, logging, and displaying agent progress to users.</td>
+    </tr>
+    <tr>
+      <td><strong><code>stream_mode='values'</code></strong></td>
+      <td>The <strong>full accumulated state</strong> after each node. Every chunk includes the entire message list plus any private graph channels.</td>
+      <td>Avoid unless you specifically need the full state dump. It is verbose and may include internal graph channels that are not intended for casual reading.</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="callout warn">
+  <span class="callout-label">Warning: 'values' dumps everything</span>
+  <p><code>stream_mode='values'</code> does not just include messages. It also includes any <strong>private state channels</strong> the graph uses internally. Logging these casually could expose internal routing data or produce enormous output. Stick to <code>stream_mode='updates'</code> for routine tracing.</p>
+</div>
+
+<p>To see the difference: with <code>updates</code>, a model node that calls a tool yields just the new AIMessage. With <code>values</code>, that same node yields the entire message history (user message + system prompt + all prior turns) plus any graph-internal state. For a multi-turn agent, <code>values</code> grows linearly with each step.</p>
+
+<hr>
+
+<h2 id="other-ways-to-end">Other Ways the Loop Can End</h2>
+
+<p>The normal finish condition (empty <code>tool_calls</code> on AIMessage) covers 95% of agent runs. But the loop can end in a few other ways:</p>
+
+<div class="card-grid" style="grid-template-columns: 1fr;">
+  <div class="card">
+    <div class="card-title">Middleware can jump to end</div>
+    <p>A guardrail or routing middleware can send the graph directly to <code style="color: var(--error);">__end__</code> before the model even decides. For example, content filtering middleware might terminate a run that asks the agent to do something outside its scope.</p>
+  </div>
+  <div class="card">
+    <div class="card-title">Structured output can finish</div>
+    <p>Some agents use <strong>structured output</strong> (a Pydantic model as the response format). When the graph is configured to produce a specific output schema, the loop may end once the structured output node completes, even if the latest AIMessage has tool_calls.</p>
+  </div>
+  <div class="card">
+    <div class="card-title">Errors and recursion limits</div>
+    <p>If a tool raises an unhandled exception, the graph stops with an error. LangGraph also has a configurable <code>recursion_limit</code> (default 25) that forces termination to prevent infinite loops. Both produce error traces rather than normal completion.</p>
+  </div>
+  <div class="card">
+    <div class="card-title">Graph runs out of nodes</div>
+    <p>If the graph topology has no more edges to follow (a node with no outgoing edge to another node), execution stops. In a standard <code>create_agent</code> graph this does not happen, but custom LangGraph graphs (Chapters 6-8) can have terminal nodes other than <code style="color: var(--error);">__end__</code>.</p>
+  </div>
+</div>
+
+<p>For now, focus on the normal case: <strong>empty tool_calls means stop, non-empty means continue</strong>. The other exits are edge cases you will encounter as you build more complex agents.</p>
+
+<hr>
+
+<h2 id="quiz">Check Your Understanding</h2>
+
+<div class="quiz">
+  <div class="quiz-title">Question 1 of 3</div>
+  <p class="quiz-question">After the model receives a ToolMessage, what determines whether the loop continues or ends?</p>
+  <button class="quiz-option" onclick="checkAnswer(this,'q1','C')">
+    <span class="option-key">A</span>
+    <span class="option-text">The count of tool calls already made in this current session.</span>
+  </button>
+  <button class="quiz-option" onclick="checkAnswer(this,'q1','C')">
+    <span class="option-key">B</span>
+    <span class="option-text">Check if the ToolMessage payload contains an error code or not.</span>
+  </button>
+  <button class="quiz-option" onclick="checkAnswer(this,'q1','C')">
+    <span class="option-key">C</span>
+    <span class="option-text">Whether the model's latest response message has any tool_calls in it.</span>
+  </button>
+  <button class="quiz-option" onclick="checkAnswer(this,'q1','C')">
+    <span class="option-key">D</span>
+    <span class="option-text">A maximum loop counter set by the framework defaults to 25.</span>
+  </button>
+  <div class="quiz-result" id="q1" aria-live="polite" role="status"></div>
+</div>
+
+<div class="quiz">
+  <div class="quiz-title">Question 2 of 3</div>
+  <p class="quiz-question">What is the key difference between stream_mode='updates' and stream_mode='values'?</p>
+  <button class="quiz-option" onclick="checkAnswer(this,'q2','B')">
+    <span class="option-key">A</span>
+    <span class="option-text">Updates shows only error messages while values shows the complete message history from all nodes.</span>
+  </button>
+  <button class="quiz-option" onclick="checkAnswer(this,'q2','B')">
+    <span class="option-key">B</span>
+    <span class="option-text">Updates yields per-node state changes only; values yields the full accumulated state after every node.</span>
+  </button>
+  <button class="quiz-option" onclick="checkAnswer(this,'q2','B')">
+    <span class="option-key">C</span>
+    <span class="option-text">Updates runs in a synchronous mode only while values streams asynchronously with parallel node execution.</span>
+  </button>
+  <button class="quiz-option" onclick="checkAnswer(this,'q2','B')">
+    <span class="option-key">D</span>
+    <span class="option-text">Updates is for LangGraph graphs only while values is the default mode for create_agent loops.</span>
+  </button>
+  <div class="quiz-result" id="q2" aria-live="polite" role="status"></div>
+</div>
+
+<div class="quiz">
+  <div class="quiz-title">Question 3 of 3</div>
+  <p class="quiz-question">When a model decides to call a tool, what does the model actually emit vs what does the framework run?</p>
+  <button class="quiz-option" onclick="checkAnswer(this,'q3','A')">
+    <span class="option-key">A</span>
+    <span class="option-text">The model emits JSON containing name, args, and id; the framework parses and runs your Python function.</span>
+  </button>
+  <button class="quiz-option" onclick="checkAnswer(this,'q3','A')">
+    <span class="option-key">B</span>
+    <span class="option-text">The model emits Python bytecode instructions; the framework compiles and then executes them in a sandbox process.</span>
+  </button>
+  <button class="quiz-option" onclick="checkAnswer(this,'q3','A')">
+    <span class="option-key">C</span>
+    <span class="option-text">The model emits a direct function reference code; the framework resolves it from the registered tool list.</span>
+  </button>
+  <button class="quiz-option" onclick="checkAnswer(this,'q3','A')">
+    <span class="option-key">D</span>
+    <span class="option-text">The model emits a URL to invoke; the framework makes an HTTP request to that endpoint address.</span>
+  </button>
+  <div class="quiz-result" id="q3" aria-live="polite" role="status"></div>
+</div>
+
+<hr>
+
+<h2 id="predict-next">Predict the Next Line</h2>
+
+<div class="exercise">
+  <div class="exercise-title">Trace Reading Practice</div>
+  <p>Below are three lines from an agent trace. Read them carefully, then predict what the fourth line will be. The agent uses <code>lookup_shipping_status</code> and <code>get_return_policy</code> as tools.</p>
+
+  <pre><code>[MODEL] calling tool: lookup_shipping_status({'order_id': 'ORD-1001'})
+[TOOL] result: Shipped. Estimated delivery in 3-5 business days.
+[MODEL] calling tool: get_return_policy({'item_type': 'electronics'})</code></pre>
+
+  <details>
+    <summary>What is line 4?</summary>
+    <div class="answer-content">
+      <p><strong>Correct answer:</strong> <code>[TOOL] result: 30-day return. Must include all accessories.</code></p>
+      <p><strong>Why:</strong> The model saw the shipping status result (ORD-1001 is shipped) and decided it also needed the return policy to answer the user's question fully. It called <code>get_return_policy</code> with <code>item_type="electronics"</code>. The next node to execute is the <strong>tools node</strong>, which will run the function and produce a ToolMessage. After that, the model receives both results and decides whether to call another tool or produce a final answer.</p>
+      <p>The trace pattern is predictable: <span class="stage-label model">MODEL</span> (tool call) always leads to <span class="stage-label tool">TOOL</span> (result). Only when the model produces a plain text answer does <span class="stage-label end">END</span> follow.</p>
+    </div>
+  </details>
+</div>
+
+<hr>
+
+<h2 id="other-exits">Other Exits (Summary)</h2>
+
+<p>Here is a quick summary of every way an agent loop can end, from most to least common:</p>
+
+<table>
+  <thead>
+    <tr><th>Exit type</th><th>Trigger</th><th>Frequency</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Normal finish</strong></td><td>Latest AIMessage has empty <code>tool_calls</code>. Graph routes to <code>__end__</code>.</td><td>95%+ of runs</td></tr>
+    <tr><td><strong>Middleware termination</strong></td><td>Guardrail or routing middleware sends graph directly to <code>__end__</code>.</td><td>Rare &mdash; only if middleware is configured</td></tr>
+    <tr><td><strong>Structured output</strong></td><td>Output schema node completes, ending execution even if tool_calls remain.</td><td>Uncommon &mdash; specific to structured output agents</td></tr>
+    <tr><td><strong>Error / exception</strong></td><td>Tool raises an unhandled Python exception during execution.</td><td>Happens during development; rare in production</td></tr>
+    <tr><td><strong>Recursion limit</strong></td><td>Graph exceeds <code>recursion_limit</code> (default 25 iterations).</td><td>Rare &mdash; indicates a looping bug</td></tr>
+    <tr><td><strong>No more nodes</strong></td><td>Graph topology has no outgoing edge from the current node.</td><td>Rare &mdash; specific to custom LangGraph graphs</td></tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h2 id="review">Review and Bridge</h2>
+
+<div class="pause-panel">
+  <span class="pause-label">Before Chapter 4</span>
+  <p>Describe in your own words exactly why one agent run ends after one tool call and another run makes three tool calls before answering. What determines the difference?</p>
+  <p style="margin-top: var(--space-md);"><strong>Hint:</strong> The answer is not in the code. It is in the model's output. The same code, the same tools, the same system prompt can produce different numbers of tool calls depending on what the model <em>decides</em> to do.</p>
+</div>
+
+<div class="callout good">
+  <span class="callout-label">Bridge to Chapter 4: Models and Messages</span>
+  <p>You have now seen the loop from the outside: the messages, the stream trace, the finish condition. Chapter 4 goes <strong>inside</strong> the messages. How does <code>HumanMessage</code> differ from <code>AIMessage</code> from <code>ToolMessage</code> at the API level? How does the model interface work across providers? How do system prompts, structured output, and model parameters shape what the model produces?</p>
+  <p>The loop is the chassis. Messages are the fuel. Chapter 4 is about the fuel.</p>
+</div>
+
+<hr>
+
+<h2 id="next">Where to Go Next</h2>
+
+<div class="card-grid" style="grid-template-columns: 1fr 1fr;">
+  <div class="card">
+    <div class="card-title"><a href="https://45a785ec.ht-ml.app/">Chapter 3 Quick Reference</a></div>
+    <p>Keep the message table, stream API, and finish condition at your fingertips.</p>
+  </div>
+  <div class="card">
+    <div class="card-title"><a href="https://7848bafa.ht-ml.app/">Course Index</a></div>
+    <p>See all 12 chapters and mark your progress.</p>
+  </div>
+  <div class="card">
+    <div class="card-title"><a href="https://3e997043.ht-ml.app/">Reference Glossary</a></div>
+    <p>Every term defined with official source links.</p>
+  </div>
+  <div class="card">
+    <div class="card-title"><a href="https://37e6d6de.ht-ml.app/">Chapter 2 Review</a></div>
+    <p>Refresh the hidden loop and create_agent skeleton.</p>
+  </div>
+  <div class="card">
+    <div class="card-title"><a href="https://docs.langchain.com/oss/python/langgraph/streaming">LangGraph Streaming</a></div>
+    <p>Official docs on streaming graph execution.</p>
+  </div>
+  <div class="card">
+    <div class="card-title"><a href="https://reference.langchain.com/python/langgraph/graph/stream">Stream API Reference</a></div>
+    <p>Official API reference for stream() parameters.</p>
+  </div>
+  <div class="card">
+    <div class="card-title"><a href="https://docs.langchain.com/oss/python/langchain/messages">LangChain Messages</a></div>
+    <p>Official docs on message types and serialisation.</p>
+  </div>
+  <div class="card">
+    <div class="card-title"><a href="https://7848bafa.ht-ml.app/">Chapter 4 (Planned)</a></div>
+    <p>Models and Messages &mdash; how messages carry data between model and tools.</p>
+  </div>
+</div>
+
+<div class="lesson-footer">
+  <div class="footer-col">
+    <a href="https://3e997043.ht-ml.app/">Glossary</a> &middot; <a href="https://7848bafa.ht-ml.app/">Course Index</a> &middot; <a href="https://45a785ec.ht-ml.app/">Quick Reference</a>
+  </div>
+  <div class="footer-col" style="text-align: right;">
+    <strong>Previous</strong><br>
+    <a href="https://37e6d6de.ht-ml.app/">Chapter 2: Your First LangChain Agent</a>
+  </div>
+</div>
+
+<div class="sources">
+  <strong>Sources</strong><br>
+  <a href="https://docs.langchain.com/oss/python/langgraph/streaming" target="_blank">LangGraph Streaming Docs</a> &middot;
+  <a href="https://reference.langchain.com/python/langgraph/graph/stream" target="_blank">Stream API Reference</a> &middot;
+  <a href="https://docs.langchain.com/oss/python/langchain/messages" target="_blank">LangChain Messages Docs</a> &middot;
+  <a href="https://reference.langchain.com/python/langchain/messages" target="_blank">Messages API Reference</a> &middot;
+  <a href="https://reference.langchain.com/python/langchain/agents/factory/create_agent" target="_blank">create_agent API</a> &middot;
+  <a href="https://docs.langchain.com/oss/python/langchain/tools" target="_blank">LangChain Tools Docs</a>
+</div>
+
+<script>
+function checkAnswer(el, quizId, correctKey) {
+  var result = document.getElementById(quizId);
+  var quiz = el.closest('.quiz');
+  var allOptions = quiz.querySelectorAll('.quiz-option');
+  var key = el.querySelector('.option-key').textContent;
+  var isCorrect = (key === correctKey);
+
+  allOptions.forEach(function(opt) {
+    opt.style.pointerEvents = 'none';
+    opt.style.opacity = '0.5';
+  });
+  el.style.opacity = '1';
+
+  if (isCorrect) {
+    el.style.background = 'rgba(74, 222, 128, 0.15)';
+    result.className = 'quiz-result correct';
+    if (quizId === 'q1') {
+      result.innerHTML = '<strong>Correct.</strong> The loop checks the latest AIMessage\'s <code>tool_calls</code> field. If it is non-empty, the loop continues and executes those tools. If it is empty, the loop ends. The number of prior calls and the content of ToolMessages do not determine the finish &mdash; only the model\'s latest output matters.';
+    } else if (quizId === 'q2') {
+      result.innerHTML = '<strong>Correct.</strong> <code>stream_mode=\'updates\'</code> yields only the state changes each node produced. <code>stream_mode=\'values\'</code> yields the full accumulated state after every node, including private graph channels. Use updates for routine tracing.';
+    } else {
+      result.innerHTML = '<strong>Correct.</strong> The model emits a structured JSON object (tool name, arguments, call ID). The framework parses this JSON, matches the tool name to a registered Python function, and calls it directly. The model never runs Python code.';
+    }
+  } else {
+    el.style.background = 'rgba(248, 113, 113, 0.15)';
+    result.className = 'quiz-result incorrect';
+    if (quizId === 'q1') {
+      if (key === 'A') result.innerHTML = '<strong>Not quite.</strong> The number of prior tool calls does not determine the finish. The loop only looks at the <em>latest</em> AIMessage\'s tool_calls field. A model can make one call or ten &mdash; it ends the same way.';
+      else if (key === 'B') result.innerHTML = '<strong>Not quite.</strong> An error code in a ToolMessage does not necessarily end the loop. The model sees the error result and decides whether to call another tool or produce a final answer. Errors only force termination if raised as unhandled Python exceptions.';
+      else result.innerHTML = '<strong>Not quite.</strong> The recursion limit (default 25) is a safety net that prevents infinite loops, but it is not the normal finish condition. In a healthy agent run, the loop ends because the model\'s latest output has no tool_calls, not because a counter was reached.';
+    } else if (quizId === 'q2') {
+      if (key === 'A') result.innerHTML = '<strong>Not quite.</strong> Updates does not show only errors. It shows all state changes per node, including successful model and tool node outputs.';
+      else if (key === 'C') result.innerHTML = '<strong>Not quite.</strong> Both updates and values can be used with synchronous or asynchronous streaming. The difference is in what data they yield, not whether they block or stream.';
+      else result.innerHTML = '<strong>Not quite.</strong> Both modes work with both create_agent and custom LangGraph graphs. updates is not specific to LangGraph, and values is not the default mode for create_agent.';
+    } else {
+      if (key === 'B') result.innerHTML = '<strong>No.</strong> The model does not emit bytecode or any executable instructions. It emits structured JSON describing which tool to call and with what arguments.';
+      else if (key === 'C') result.innerHTML = '<strong>Not quite.</strong> The model cannot emit direct function references. It has no access to your Python runtime. It only produces text output that the framework interprets.';
+      else result.innerHTML = '<strong>No.</strong> The model does not emit URLs. Tool calls are resolved locally in the same Python process by looking up the registered function name.';
+    }
+  }
+}
+</script>
+
+</body>
+</html>

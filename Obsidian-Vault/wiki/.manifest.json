@@ -1234,6 +1234,197 @@
         "misc/web-x-com-i-status-2083498308899573948.md"
       ],
       "page_count": 6
+    },
+    {
+      "source": "/home/harshal/dotfyles/Obsidian-Vault/research/cordiverse-paper/paper.pdf",
+      "ingested_at": "2026-08-15T00:00:00Z",
+      "size_bytes": 2140840,
+      "modified_at": "2026-08-15T10:20:14Z",
+      "content_hash": "4d48478dc0b6222d9f74d7db10ee776449b1209eb112632336544d32a49db97f",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "references/cordis-spatiotemporal-composability.md",
+        "misc/web-github-com-cordiverse-paper.md",
+        "concepts/dynamic-composition.md",
+        "concepts/temporal-composability.md",
+        "concepts/spatial-composability.md",
+        "concepts/revertible-effects.md",
+        "concepts/reactive-coeffects.md",
+        "concepts/context-paradigm.md",
+        "concepts/self-evolving-agent-harnesses.md",
+        "entities/cordis.md",
+        "entities/koishi.md",
+        "entities/cordiverse.md",
+        "entities/peking-university.md",
+        "entities/yifan-shi.md",
+        "entities/wei-zhang.md",
+        "entities/tianyi-cui.md"
+      ],
+      "pages_updated": [
+        "entities/deepseek.md",
+        "concepts/ai-harness.md"
+      ],
+      "page_count": 18
+    },
+    {
+      "source": "/home/harshal/dotfyles/Obsidian-Vault/research/cordiverse-paper/README.md",
+      "ingested_at": "2026-08-15T00:00:00Z",
+      "size_bytes": 1711,
+      "modified_at": "2026-08-15T10:20:14Z",
+      "content_hash": "9fd0974e5f150e504754099aee89c0ffbf22fb295db0f60bb88421d4dbe7fc57",
+      "source_type": "document",
+      "project": null,
+      "pages_created": [
+        "references/cordis-spatiotemporal-composability.md",
+        "misc/web-github-com-cordiverse-paper.md",
+        "concepts/dynamic-composition.md",
+        "concepts/temporal-composability.md",
+        "concepts/spatial-composability.md",
+        "concepts/revertible-effects.md",
+        "concepts/reactive-coeffects.md",
+        "concepts/context-paradigm.md",
+        "concepts/self-evolving-agent-harnesses.md",
+        "entities/cordis.md",
+        "entities/koishi.md",
+        "entities/cordiverse.md",
+        "entities/peking-university.md",
+        "entities/yifan-shi.md",
+        "entities/wei-zhang.md",
+        "entities/tianyi-cui.md"
+      ],
+      "pages_updated": [
+        "entities/deepseek.md",
+        "concepts/ai-harness.md"
+      ],
+      "page_count": 18
+    },
+    {
+      "source": "https://github.com/cordiverse/paper",
+      "ingested_at": "2026-08-15T00:00:00Z",
+      "source_type": "url",
+      "project": null,
+      "promotion_status": "misc",
+      "pages_created": [
+        "references/cordis-spatiotemporal-composability.md",
+        "misc/web-github-com-cordiverse-paper.md",
+        "concepts/dynamic-composition.md",
+        "concepts/temporal-composability.md",
+        "concepts/spatial-composability.md",
+        "concepts/revertible-effects.md",
+        "concepts/reactive-coeffects.md",
+        "concepts/context-paradigm.md",
+        "concepts/self-evolving-agent-harnesses.md",
+        "entities/cordis.md",
+        "entities/koishi.md",
+        "entities/cordiverse.md",
+        "entities/peking-university.md",
+        "entities/yifan-shi.md",
+        "entities/wei-zhang.md",
+        "entities/tianyi-cui.md"
+      ],
+      "pages_updated": [
+        "entities/deepseek.md",
+        "concepts/ai-harness.md"
+      ],
+      "page_count": 18
+    },
+    {
+      "source": "https://x.com/AndrewYNg/status/2088302050706686198",
+      "ingested_at": "2026-08-15T19:39:57Z",
+      "source_type": "url",
+      "project": null,
+      "promotion_status": "misc",
+      "stub": false,
+      "linked_article": "https://x.com/i/article/2088296780983107584",
+      "linked_article_status": "unavailable-404-login-gated",
+      "pages_created": [
+        "misc/web-x-com-i-status-2088302050706686198.md",
+        "references/andrew-ng-ai-engineering-skills-map.md",
+        "concepts/ai-engineering-skills-map.md"
+      ],
+      "pages_updated": [
+        "concepts/ai-engineering.md",
+        "concepts/agentic-coding.md",
+        "concepts/ai-evaluation.md",
+        "concepts/ai-product-manager.md",
+        "entities/andrew-ng.md"
+      ],
+      "page_count": 8
+    },
+    {
+      "source": "https://x.com/posthog/status/2084345938089316582",
+      "ingested": "2026-08-15T20:08:52Z",
+      "source_type": "url",
+      "project": null,
+      "promotion_status": "misc",
+      "stub": false,
+      "linked_article": "https://x.com/posthog/article/2084345938089316582",
+      "linked_article_status": "authenticated-browser-read",
+      "pages_created": [
+        "misc/web-x-com-posthog-status-2084345938089316582.md",
+        "references/posthog-writing-agent-skills.md",
+        "concepts/agent-skill-engineering.md",
+        "entities/ian-vanagas.md"
+      ],
+      "pages_updated": [
+        "concepts/progressive-disclosure-forms.md",
+        "concepts/context-engineering.md",
+        "concepts/agent-evaluations.md",
+        "concepts/continuous-eval-loops.md",
+        "concepts/agent-observability.md",
+        "entities/posthog.md"
+      ],
+      "page_count": 10
+    },
+    {
+      "source": "https://x.com/ashpreetbedi/status/2084301728363462919",
+      "ingested": "2026-08-15T20:08:52Z",
+      "source_type": "url",
+      "project": null,
+      "promotion_status": "misc",
+      "stub": false,
+      "linked_article": "https://x.com/ashpreetbedi/article/2084301728363462919",
+      "linked_article_status": "authenticated-browser-read",
+      "pages_created": [
+        "misc/web-x-com-ashpreetbedi-status-2084301728363462919.md",
+        "references/ashpreet-bedi-recursive-auto-improvement.md",
+        "concepts/recursive-auto-improvement.md",
+        "entities/ashpreet-bedi.md",
+        "entities/agno.md"
+      ],
+      "pages_updated": [
+        "concepts/agent-evaluations.md",
+        "concepts/continuous-eval-loops.md",
+        "concepts/agent-observability.md",
+        "concepts/auto-research-loop.md"
+      ],
+      "page_count": 9
+    },
+    {
+      "source": "https://x.com/Vercantez/status/2082138839888589200",
+      "ingested": "2026-08-15T20:08:52Z",
+      "source_type": "url",
+      "project": null,
+      "promotion_status": "misc",
+      "stub": false,
+      "linked_article": "https://x.com/Vercantez/article/2082137754788646912",
+      "linked_article_status": "authenticated-browser-read",
+      "pages_created": [
+        "misc/web-x-com-vercantez-status-2082138839888589200.md",
+        "references/camelai-durable-object-agent.md",
+        "concepts/edge-native-agent-harness.md",
+        "entities/camelai.md",
+        "entities/miguel-salinas.md"
+      ],
+      "pages_updated": [
+        "concepts/durable-objects.md",
+        "concepts/ai-harness.md",
+        "entities/cloudflare.md",
+        "entities/cloudflare-agents-sdk.md",
+        "entities/pi.md"
+      ],
+      "page_count": 10
     }
   ],
   "gtm-machine-0-to-10k-mrr-machina": {

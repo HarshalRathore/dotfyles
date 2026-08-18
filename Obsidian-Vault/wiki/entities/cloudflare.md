@@ -15,6 +15,7 @@ sources:
 - 'https://www.youtube.com/watch?v=ccswz5bjlo8'
 - 'https://www.youtube.com/watch?v=d4dswf-__rm'
 - AIEF2025 - Building Agents (the hard parts!) - Rita Kozlov, Cloudflare - https://www.youtube.com/watch?v=j_TKDweOsYE
+- https://x.com/Vercantez/status/2082138839888589200
 summary: Cloud infrastructure and CDN company. Co-developed Oblivious HTTP (OHTTP) with Apple. Serves as the anonymizer relay for Apple's Private Cloud Compute. Workers platform enables CPU-millisecond pric...
 provenance:
   extracted: 0.8
@@ -25,7 +26,7 @@ lifecycle: draft
 lifecycle_changed: 2026-07-03
 tier: supporting
 created: 2026-07-03
-updated: 2026-07-03
+updated: 2026-08-15T20:08:52Z
 ---
 # Cloudflare
 
@@ -65,6 +66,10 @@ Cloudflare's developer services include functions (Workers), storage, compute, a
 ## Durable Objects and Stateful Serverless
 
 Cloudflare's Durable Objects are a serverless primitive with persistent state — analogous to serverless functions but with state management built in. They serve as the foundation for Cloudflare's Agents SDK, providing built-in state management for MCP servers and agent workflows without external database dependencies. ^[extracted]
+
+## Edge-Native Agent Harnesses
+
+camelAI's open-source architecture uses Cloudflare Durable Objects for per-thread agent loops and persistent state, SQLite and R2 for workspace files, Artifacts for git-compatible history, and Code Mode with dynamic Workers for JavaScript execution. Short-lived Sandbox SDK containers remain for builds and notebooks. ^[extracted] See [[concepts/edge-native-agent-harness]] and [[entities/camelai]].
 
 ## Agents SDK
 

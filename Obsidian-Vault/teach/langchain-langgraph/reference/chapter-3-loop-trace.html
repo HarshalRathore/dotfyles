@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quick Reference — Loop Tracing and Messages</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=JetBrains+Mono&display=swap');
+
+:root {
+  --ink: #e8e8e8;
+  --body: #a3a3a3;
+  --mute: #808080;
+  --hairline: #262626;
+  --hairline-soft: #1a1a1a;
+  --canvas: #000000;
+  --elevated: #0a0a0a;
+  --accent: #a78bfa;
+  --accent-soft: #2e1065;
+  --gold: #d4a547;
+  --gold-soft: #3a2f0e;
+  --blue: #60a5fa;
+  --blue-deep: #93c5fd;
+  --blue-soft: #1e3a5f;
+  --warning: #fbbf24;
+  --green: #4ade80;
+  --green-soft: #14532d;
+  --error: #f87171;
+  --sans: 'DM Sans', -apple-system, 'Segoe UI', sans-serif;
+  --mono: 'JetBrains Mono', ui-monospace, 'SF Mono', 'Fira Code', monospace;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 28px;
+  --space-xl: 36px;
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-pill: 100px;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { font-size: 15px; scroll-behavior: smooth; }
+
+body {
+  background: var(--canvas);
+  color: var(--body);
+  font-family: var(--sans);
+  line-height: 1.6;
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 0 var(--space-md);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  font-size: clamp(1.5rem, 3vw, 1.9rem);
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  color: var(--ink);
+  margin: 48px 0 var(--space-sm) 0;
+  border-bottom: 1px solid var(--hairline);
+  padding-bottom: var(--space-md);
+}
+
+h1 .gold { color: var(--gold); }
+
+h2 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--ink);
+  margin: 36px 0 var(--space-sm) 0;
+  letter-spacing: -0.01em;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--ink);
+  margin: 24px 0 var(--space-xs) 0;
+}
+
+p { margin-bottom: 0.85rem; font-size: 0.9rem; }
+strong { color: var(--ink); }
+a { color: var(--blue); text-decoration: none; }
+a:hover { color: var(--blue-deep); text-decoration: underline; }
+
+code {
+  font-family: var(--mono);
+  font-size: 0.85em;
+  background: var(--hairline-soft);
+  padding: 0.15em 0.35em;
+  border-radius: var(--radius-sm);
+  color: var(--ink);
+}
+
+pre {
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+  margin: var(--space-md) 0;
+  overflow-x: auto;
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  line-height: 1.6;
+}
+
+pre code { background: none; padding: 0; color: inherit; }
+
+ul, ol { margin-bottom: 0.85rem; padding-left: 1.4rem; font-size: 0.9rem; }
+li { margin-bottom: 0.2rem; }
+
+hr { border: none; border-top: 1px solid var(--hairline); margin: 36px 0; }
+
+.card {
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+  margin: var(--space-md) 0;
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: var(--gold);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 6px;
+}
+
+.card p { font-size: 0.85rem; margin-bottom: 0; color: var(--body); line-height: 1.5; }
+
+.card-grid {
+  display: grid;
+  gap: var(--space-md);
+  margin: var(--space-md) 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: var(--space-md) 0;
+  font-size: 0.85rem;
+}
+
+thead th {
+  text-align: left;
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--hairline);
+  color: var(--mute);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+tbody td {
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--hairline-soft);
+  color: var(--body);
+  line-height: 1.5;
+}
+
+tbody tr:last-child td { border-bottom: none; }
+
+.section-label {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--mute);
+  display: block;
+  margin-bottom: var(--space-sm);
+}
+
+.subsection { margin: var(--space-md) 0; }
+
+.stage-label {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  padding: 2px 7px;
+  border-radius: var(--radius-sm);
+  background: var(--hairline-soft);
+  color: var(--mute);
+}
+
+.stage-label.model { background: var(--blue-soft); color: var(--blue); }
+.stage-label.tool { background: var(--green-soft); color: var(--green); }
+.stage-label.end { background: rgba(248, 113, 113, 0.1); color: var(--error); }
+.stage-label.gold { background: var(--gold-soft); color: var(--gold); }
+
+.trace-flow-ref {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  margin: var(--space-md) 0;
+}
+
+.trace-flow-ref .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.trace-flow-ref .row .box {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 14px;
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-sm);
+  background: var(--elevated);
+  font-size: 0.78rem;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.trace-flow-ref .row .box.blue { border-color: var(--blue); color: var(--ink); }
+.trace-flow-ref .row .box.green { border-color: var(--green); color: var(--green); }
+.trace-flow-ref .row .box.gold { border-color: var(--gold); color: var(--gold); }
+.trace-flow-ref .row .box.end { border-color: var(--error); color: var(--error); }
+.trace-flow-ref .row .arr { color: var(--mute); font-size: 0.85rem; }
+
+.flow-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin: var(--space-md) 0;
+}
+
+.flow-row .item {
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-sm);
+  padding: 6px 14px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--ink);
+  text-align: center;
+}
+
+.flow-row .arrow { color: var(--mute); font-size: 0.9rem; }
+
+@media print {
+  body { font-size: 12pt; max-width: 100%; }
+  pre { break-inside: avoid; }
+  .card { break-inside: avoid; }
+}
+</style>
+</head>
+<body>
+
+<h1>Loop Tracing <span class="gold">Quick Reference</span></h1>
+<p>Chapter 3 essentials: messages, stream modes, finish condition, and trace reading. Keep this open as you work through the course.</p>
+
+<hr>
+
+<h2>The Finish Condition</h2>
+
+<div class="card">
+  <div class="card-title">The loop's single rule</div>
+  <p>The agent loop ends when the latest <strong>AIMessage</strong> has an empty <code>tool_calls</code> list. Non-empty <code>tool_calls</code> means continue. Empty <code>tool_calls</code> means route to <code>__end__</code>. That is the entire stop/go decision.</p>
+</div>
+
+<div class="flow-row">
+  <span class="item" style="border-color: var(--blue);">Model</span>
+  <span class="arrow">&rarr;</span>
+  <span class="item" style="border-color: var(--gold);">tool_calls?</span>
+  <span class="arrow">&rarr;</span>
+  <span class="item" style="border-color: var(--green);">[yes] Execute tools</span>
+  <span class="arrow" style="color: var(--gold);">&larr; loop</span>
+  <span class="item" style="border-color: var(--error);">[no] END</span>
+</div>
+
+<hr>
+
+<h2>Message Types</h2>
+
+<table>
+  <thead>
+    <tr><th>Type</th><th>Source</th><th>Key Fields</th><th>Role</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>HumanMessage</strong></td>
+      <td>User input</td>
+      <td><code>content</code></td>
+      <td>Carries the user's question or instruction.</td>
+    </tr>
+    <tr>
+      <td><strong>AIMessage</strong></td>
+      <td>Model output</td>
+      <td><code>content</code>, <code>tool_calls</code></td>
+      <td>Model's response. <code>tool_calls</code> is a list of dicts: <code>name</code>, <code>args</code>, <code>id</code>.</td>
+    </tr>
+    <tr>
+      <td><strong>ToolMessage</strong></td>
+      <td>Tool execution</td>
+      <td><code>content</code>, <code>tool_call_id</code></td>
+      <td>Result of a tool call. <code>tool_call_id</code> links it to the AIMessage that requested it.</td>
+    </tr>
+    <tr>
+      <td><strong>SystemMessage</strong></td>
+      <td>Session start</td>
+      <td><code>content</code></td>
+      <td>System prompt injected at the start of every conversation.</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h2>Stream API</h2>
+
+<h3>Parameters</h3>
+<table>
+  <thead>
+    <tr><th>Parameter</th><th>Values</th><th>Purpose</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><code>stream_mode</code></td><td><code>"updates"</code> (recommended), <code>"values"</code></td><td>Controls what each chunk contains: state changes or full state.</td></tr>
+    <tr><td><code>version</code></td><td><code>"v2"</code></td><td>Streaming API version. V2 is the current standard.</td></tr>
+  </tbody>
+</table>
+
+<h3>stream_mode='updates' vs 'values'</h3>
+<table>
+  <thead>
+    <tr><th>Mode</th><th>Yields</th><th>When to use</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><code>'updates'</code></td><td>State changes per node only</td><td>Standard tracing, debugging, logging</td></tr>
+    <tr><td><code>'values'</code></td><td>Full accumulated state after each node</td><td>Only when you need complete state, including private channels</td></tr>
+  </tbody>
+</table>
+
+<h3>Stream loop pattern</h3>
+<pre><code>for chunk in agent.stream(
+    {"messages": [{"role": "user", "content": "..."}]},
+    stream_mode="updates",
+    version="v2",
+):
+    for node_name, data in chunk.items():
+        if node_name == "model":
+            msg = data["messages"][-1]
+            if msg.tool_calls:
+                print(f"[MODEL] calling tool: {msg.tool_calls[0]['name']}")
+            else:
+                print(f"[MODEL] final: {msg.content}")
+        elif node_name == "tools":
+            print(f"[TOOL] result: {data['messages'][-1].content}")</code></pre>
+
+<p>Official docs: <a href="https://docs.langchain.com/oss/python/langgraph/streaming" target="_blank">docs.langchain.com/oss/python/langgraph/streaming</a> &middot; <a href="https://reference.langchain.com/python/langgraph/graph/stream" target="_blank">reference.langchain.com/python/langgraph/graph/stream</a></p>
+
+<hr>
+
+<h2>Trace Structure</h2>
+
+<p>A basic agent trace follows this pattern. Each line corresponds to one graph node execution:</p>
+
+<pre><code><span class="stage-label model">MODEL</span> calling tool: lookup_shipping_status({'order_id':'ORD-1002'})
+<span class="stage-label tool">TOOL</span> result: Processing. Estimated ship date: tomorrow.
+<span class="stage-label model">MODEL</span> final: Your order is being processed...
+<span class="stage-label end">END</span></code></pre>
+
+<div class="card">
+  <div class="card-title">Trace rhythm</div>
+  <p><span class="stage-label model">MODEL</span> (tool call) always leads to <span class="stage-label tool">TOOL</span> (result). <span class="stage-label model">MODEL</span> (final answer) leads to <span class="stage-label end">END</span>. Multiple tool calls produce repeated MODEL &rarr; TOOL pairs before the final MODEL &rarr; END.</p>
+</div>
+
+<hr>
+
+<h2>How It Works: Model vs Framework</h2>
+
+<table>
+  <thead>
+    <tr><th>Component</th><th>What it does</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Model</strong></td><td>Emits structured JSON describing a tool call (name, args, id). Never calls functions. Never runs Python code.</td></tr>
+    <tr><td><strong>Framework</strong></td><td>Parses the model's JSON output, matches tool name to registered Python function, calls it with parsed args, wraps result in ToolMessage, appends to history.</td></tr>
+    <tr><td><strong>Result</strong></td><td>The model suggests. The framework executes. The loop feeds back.</td></tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h2>Thinking / Reasoning Tokens</h2>
+<ul>
+  <li><strong>Provider-dependent</strong> &mdash; OpenAI o-series, Claude Opus may expose reasoning; smaller models generally do not.</li>
+  <li><strong>NOT the same as trace events</strong> &mdash; reasoning is model-internal; trace events are graph node executions.</li>
+  <li><strong>May require explicit model settings</strong> &mdash; not guaranteed to appear.</li>
+  <li><strong>Never build logic on reasoning output</strong> &mdash; it is not a stable API.</li>
+</ul>
+
+<hr>
+
+<h2>Ways the Loop Can End</h2>
+<table>
+  <thead>
+    <tr><th>Exit type</th><th>Trigger</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Normal finish</strong></td><td>Latest AIMessage has empty <code>tool_calls</code>. Graph routes to <code>__end__</code>.</td></tr>
+    <tr><td><strong>Middleware termination</strong></td><td>Guardrail sends graph directly to <code>__end__</code>.</td></tr>
+    <tr><td><strong>Structured output</strong></td><td>Output schema node completes, ending execution.</td></tr>
+    <tr><td><strong>Error / exception</strong></td><td>Tool raises an unhandled Python exception.</td></tr>
+    <tr><td><strong>Recursion limit</strong></td><td>Graph exceeds default 25 iterations.</td></tr>
+    <tr><td><strong>No more nodes</strong></td><td>Graph topology has no outgoing edge.</td></tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h2>Key Terms</h2>
+
+<table>
+  <thead>
+    <tr><th>Term</th><th>Definition</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>tool_calls</strong></td><td>List on AIMessage containing dicts with <code>name</code>, <code>args</code>, <code>id</code>. Empty = loop ends. Non-empty = loop continues.</td></tr>
+    <tr><td><strong>tool_call_id</strong></td><td>Field on ToolMessage that links the result back to the specific AIMessage tool_call that produced it.</td></tr>
+    <tr><td><strong>Stream</strong></td><td>Method that yields per-node updates as the graph executes, instead of blocking for the full result.</td></tr>
+    <tr><td><strong>stream_mode</strong></td><td>Parameter controlling whether stream yields state changes (updates) or full state (values).</td></tr>
+    <tr><td><strong>__end__</strong></td><td>Special graph node that terminates execution. The destination when no more tools need calling.</td></tr>
+    <tr><td><strong>Thinking tokens</strong></td><td>Model-internal reasoning output. Provider-dependent. Not part of the stable agent loop API.</td></tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h2>Offical Resources</h2>
+<ul>
+  <li><a href="https://docs.langchain.com/oss/python/langgraph/streaming" target="_blank">LangGraph Streaming Docs</a></li>
+  <li><a href="https://reference.langchain.com/python/langgraph/graph/stream" target="_blank">Stream API Reference</a></li>
+  <li><a href="https://docs.langchain.com/oss/python/langchain/messages" target="_blank">LangChain Messages Docs</a></li>
+  <li><a href="https://reference.langchain.com/python/langchain/messages" target="_blank">Messages API Reference</a></li>
+  <li><a href="https://docs.langchain.com/oss/python/langchain/tools" target="_blank">LangChain Tools Docs</a></li>
+  <li><a href="https://reference.langchain.com/python/langchain/agents/factory/create_agent" target="_blank">create_agent API</a></li>
+</ul>
+
+<div class="footer">
+  <p>LangChain &amp; LangGraph Course &mdash; <a href="https://7848bafa.ht-ml.app/">Course Index</a> &middot; <a href="https://3e997043.ht-ml.app/">Glossary</a> &middot; <a href="https://docs.langchain.com/oss/python/langgraph/streaming">Official Streaming Docs</a></p>
+</div>
+
+</body>
+</html>

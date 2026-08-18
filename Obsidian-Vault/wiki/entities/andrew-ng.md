@@ -9,17 +9,18 @@ tags:
 sources:
 - https://www.youtube.com/watch?v=ht4l0dep69i
 - https://www.deeplearning.ai/courses/agentic-ai
+- https://x.com/AndrewYNg/status/2088302050706686198
 summary: Renowned AI educator and co-creator of the DeepLearning.AI 'Fundamentals of LLMs' course with Mike Chambers and AWS colleagues. The course has been taken by over 370,000 people.
 provenance:
-  extracted: 1.0
-  inferred: 0.0
+  extracted: 0.95
+  inferred: 0.05
   ambiguous: 0.0
 base_confidence: 0.42
 lifecycle: draft
 lifecycle_changed: '2026-07-06'
 tier: supporting
 created: '2026-07-04'
-updated: 2026-08-02T13:04:14Z
+updated: 2026-08-15T19:39:57Z
 ---
 # Andrew Ng
 
@@ -33,7 +34,13 @@ The course was the first of its kind and has been taken by over 370,000 people. 
 
 Andrew Ng teaches DeepLearning.AI's intermediate **Agentic AI** course. The official page describes a 9h55m, 31-lesson course covering reflection, tool use, planning, multi-agent workflows, evaluation, error analysis, and production optimization. ^[extracted]
 
+## AI Engineering Skills Map
+
+Ng’s August 2026 post announces a four-part AI-engineering skills framework covering AI applications, software fundamentals, coding agents, and shaping the build. See [[concepts/ai-engineering-skills-map]] and [[references/andrew-ng-ai-engineering-skills-map]]. ^[extracted]
+
 ## Related Pages
 
+- [[concepts/ai-engineering-skills-map]] — Distilled skills framework
+- [[references/andrew-ng-ai-engineering-skills-map]] — Source reference
 - [[entities/mike-chambers]] — Co-creator of the LLMs course
 - [[references/fundamentals-of-llms-course]] — The course page

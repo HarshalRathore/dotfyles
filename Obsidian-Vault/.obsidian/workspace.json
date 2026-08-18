@@ -4,69 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "ad9fa91c861c1314",
+        "id": "e6f6000b1737bfb0",
         "type": "tabs",
         "children": [
           {
-            "id": "00133f35fb983610",
+            "id": "609ca22b6ccba8af",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "wiki/concepts/auto-research-loop.md",
-                "mode": "source",
-                "source": false
+                "file": "research/cordiverse-paper/paper.pdf"
               },
-              "icon": "lucide-file",
-              "title": "auto-research-loop"
-            }
-          },
-          {
-            "id": "09c61c8ebb161445",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "f7e33f8308427ad8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/concepts/leading-words.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "leading-words"
-            }
-          },
-          {
-            "id": "548284ba1ff7f61b",
-            "type": "leaf",
-            "state": {
-              "type": "smart-release-notes-view",
-              "state": {},
-              "icon": "file-text",
-              "title": "Release Notes"
-            }
-          },
-          {
-            "id": "e9e49d2b16b7263f",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "icon": "lucide-file-text",
+              "title": "paper"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -86,7 +39,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -98,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "instruction rot",
+                "query": "wardrobe",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -119,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -140,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wiki/concepts/leading-words.md",
+                "file": "wiki/concepts/llm-evaluation-framework.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for leading-words"
+              "title": "Backlinks for llm-evaluation-framework"
             }
           },
           {
@@ -159,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wiki/concepts/leading-words.md",
+                "file": "wiki/concepts/llm-evaluation-framework.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from leading-words"
+              "title": "Outgoing links from llm-evaluation-framework"
             }
           },
           {
@@ -186,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wiki/concepts/leading-words.md",
+                "file": "wiki/concepts/llm-evaluation-framework.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of leading-words"
+              "title": "Outline of llm-evaluation-framework"
             }
           },
           {
@@ -215,8 +169,8 @@
             "state": {
               "type": "smart-connections-view",
               "state": {},
-              "icon": "smart-connections",
-              "title": "Connections"
+              "icon": "lucide-ghost",
+              "title": "smart-connections-view"
             }
           }
         ],
@@ -224,7 +178,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -236,52 +191,47 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "hide-folders:Show hidden folders": false,
-      "karpathywiki:Ingest current file": false,
-      "karpathywiki:Query wiki": false,
-      "smart-connections:Smart Connections: Open connections view": false,
-      "smart-connections:Toggle Footer Connections": false,
-      "smart-connections:Smart Connections: Open random connection": false
+      "hide-folders:Show hidden folders": false
     }
   },
-  "active": "53c809ba8cc2e00c",
+  "active": "609ca22b6ccba8af",
   "lastOpenFiles": [
-    "wiki/references/mind2web-2-twitter-thread.md",
-    "wiki/entities/zhu-liang.md",
-    "wiki/concepts/agent-jailbreak-fake-law.md",
-    "wiki/entities/mingchen-zhuge.md",
-    "wiki/references/skillweaver.md",
-    "wiki/concepts/skillweaver.md",
-    "wiki/references/agent-as-a-judge-evaluate-agents.md",
-    "wiki/references/claude-code-spec-based-building.md",
-    "wiki/concepts/claude-code-session-management.md",
-    "wiki/references/claude-code-html-effectiveness.md",
-    "wiki/references/claude-agent-sdk.md",
-    "wiki/concepts/claude-code-dynamic-workflows.md",
-    "wiki/entities/the-office-us.md",
-    "wiki/entities/friends.md",
-    "wiki/entities/the-sopranos.md",
-    "wiki/entities/the-wire.md",
-    "wiki/entities/game-of-thrones.md",
-    "wiki/entities/breaking-bad.md",
-    "wiki/references/top-100-web-series-tweet.md",
-    "wiki/entities/elvis-sun.md",
-    "wiki/skills/lfd-design.md",
-    "wiki/concepts/loss-function-development.md",
-    "wiki/references/elvis-goal-loss-functions-playbook.md",
+    "wiki/entities/anthropic.md",
+    "wiki/concepts/ai-harness.md",
+    "wiki/concepts/llm-benchmarking.md",
+    "wiki/concepts/abstract-reasoning.md",
+    "wiki/concepts/10x-generalist-hiring.md",
+    "wiki/projects/ai-wardrobe-india/ai-wardrobe-india.md",
+    "wiki/projects/ai-wardrobe-india/references/ai-wardrobe-market-india-2026-08.md",
+    "research/ai-wardrobe-outfit-ranker-data.md",
+    "wiki/concepts/closet-first-wardrobe-memory.md",
+    "wiki/projects/ai-wardrobe-india/entities/pointai-my-wardrobe.md",
+    "wiki/projects/ai-wardrobe-india/synthesis/wardrobe-memory-and-taste-data-moat.md",
+    "wiki/concepts/advantage-estimation.md",
+    "wiki/concepts/agent-loop.md",
+    "wiki/concepts/shared-timeline.md",
+    "wiki/references/anthropic-effective-harnesses.md",
+    "wiki/references/harness-lecture-11-observability-in-harness.md",
+    "wiki/references/memoharness-agent-harnesses-learn-from-experience.md",
+    "wiki/references/openai-harness-engineering.md",
+    "wiki/concepts/self-evolving-agent-harnesses.md",
+    "wiki/references/show-me-compact-visual-representations.md",
+    "research/ai-wardrobe-market-india.md",
+    "wiki/concepts/continuous-eval-loops.md",
+    "wiki/concepts/skills-checklist-framework.md",
+    "wiki/concepts/skill-hell.md",
+    "wiki/concepts/leading-words.md",
     "wiki/concepts/grill-prep-skill.md",
-    "wiki/entities/robert-courson.md",
-    "wiki/entities/h100envy.md",
+    "_meta/stale-pages.base",
+    "_meta/recent-activity.base",
+    "_meta/entities-tracker.base",
+    "_meta/content-index.base",
+    "_meta/concepts-by-domain.base",
     "wiki/synthesis",
     "wiki/skills",
     "wiki/sedUkafDv",
     "wiki/sedRrx8qD",
     "wiki/sedsWQ8vP",
-    "wiki/sedmfSOfj",
-    "wiki/sedIt51jS",
-    "wiki/sedEAB3jW",
-    "wiki/sedCCQrnE",
-    "wiki/sedhdH6ov",
     "attachments/loops-startup-monopoly.png",
     "attachments/loops-peter-steinberger-quote.png",
     "attachments/loops-hero-why-were-bullish.png",

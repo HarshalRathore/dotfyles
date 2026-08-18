@@ -12,6 +12,7 @@ aliases:
 - Cloudflare Durable Objects
 sources:
 - AIEF2025 - Building Agents (the hard parts!) - Rita Kozlov, Cloudflare - https://www.youtube.com/watch?v=j_TKDweOsYE
+- Miguel Salinas, camelAI — https://x.com/Vercantez/status/2082138839888589200
 summary: Cloudflare's serverless primitive with persistent state, analogous to serverless functions but with state management. Used by Cloudflare's Agents SDK to provide built-in state management for MCP se...
 provenance:
   extracted: 0.85
@@ -22,7 +23,7 @@ lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-08-15T20:08:52Z
 relationships:
 - target: '[[concepts/agent-architecture]]'
   type: enables
@@ -55,6 +56,10 @@ This means MCP servers hosted on Cloudflare can maintain conversation state, too
 ## Pricing Advantage
 
 Cloudflare's architecture (isolates + Durable Objects) charges for CPU milliseconds rather than wall time. For agent workloads that make external API calls, this means users are not charged for idle wait time — only for actual computation. This is particularly advantageous for agents that spend significant time waiting for LLM responses or external API calls.
+
+## camelAI Agent-Harness Case Study
+
+camelAI uses Durable Objects as the host for each chat thread's agent loop and persistent state. Its workspace filesystem stores small files in Durable Object SQLite and larger files in R2; the agent itself runs through Pi's lower-level libraries, while Code Mode and dynamic Workers provide JavaScript execution. ^[extracted] See [[concepts/edge-native-agent-harness]] and [[references/camelai-durable-object-agent]].
 
 ## Related
 

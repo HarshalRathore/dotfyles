@@ -24,7 +24,7 @@ lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-04
-updated: 2026-07-18
+updated: 2026-08-15T20:08:52Z
 relationships:
   - target: "[[concepts/two-circle-eval-model|Two-Circle Eval Model]]"
     type: related_to
@@ -59,6 +59,10 @@ The outer loop performs continuous evaluation of the inner loop's performance, m
 
 [[entities/posthog|PostHog's]] self-driving mode closes the evaluation loop in production: after a change ships, the system checks whether the target metric actually moved. ^[extracted] If not, that generates a new signal and the change can be rolled back. ^[extracted] This makes the measurement phase a continuous loop rather than a one-time check — every change is an experiment whose outcome feeds back into the signal pipeline. ^[inferred]
 
+### Recursive Auto-Improvement as a Production Outer Loop
+
+Ashpreet Bedi describes a convergent outer loop around a live agent: session mining creates golden-path, edge-case, tool-selection, and adversarial probes; the coding agent runs them, reads the trajectory, changes one lever, restarts, and reruns failed cases. ^[extracted] This is a product-specification counterpart to AIDE²'s research-oriented outer loop. [[concepts/recursive-auto-improvement]]
+
 ## The Two-Circle Connection
 
 [[entities/dat-ngo|Dat Ngo]] ([[entities/arize-ai|Arize AI]]) at AIEF2025 introduced the **two-circle model**: the left circle improves the system through evals, while the right circle tunes the evals themselves. The continuous eval loop operates primarily in the left circle, but requires the right circle to remain effective over time. ^[extracted]
@@ -81,3 +85,4 @@ A counterpoint from the IEEE Spectrum study on AI-driven science ([source](https
 - Zhengyao Jiang et al. — AIDE²: First experimental evidence of recursive self-improvement: https://x.com/zhengyaojiang/status/2077079778793042425
 - PostHog — Self-driving mode: https://posthog.com/self-driving
 - Elie Dolgin, IEEE Spectrum — AI Boosts Research Careers but Flattens Scientific Discovery: https://spectrum.ieee.org/ai-science-research-flattens-discovery
+- Ashpreet Bedi, "How to Recursively Improve Your Agents" — https://x.com/ashpreetbedi/status/2084301728363462919

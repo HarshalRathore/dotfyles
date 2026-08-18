@@ -13,16 +13,17 @@ aliases:
 - ai-pm
 sources:
 - AIEF2025 - Why your product needs an AI product manager, and why it should be you — James Lowe, i.AI - https://www.youtube.com/watch?v=xzJdSi2Tsqw
+- https://x.com/AndrewYNg/status/2088302050706686198
 provenance:
-  extracted: 0.7
-  inferred: 0.3
-  ambiguous: 0.0
+  extracted: 0.68
+  inferred: 0.30
+  ambiguous: 0.02
 base_confidence: 0.85
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: core
 created: 2026-07-05
-updated: 2026-07-05
+updated: 2026-08-15T19:39:57Z
 relationships:
 - target: '[[concepts/product-management-triangle]]'
   type: extends
@@ -75,8 +76,11 @@ James Lowe emphasizes that "AI product manager" is better thought of as a **mind
 
 This aligns with Brett Taylor's view that there is "a lot of power in combining product and engineering into as few people as possible" and that "few great things have been created by committee." ^[inferred]
 
+Andrew Ng’s [[concepts/ai-engineering-skills-map|AI Engineering Skills Map]] makes this product-and-business judgment one of four central AI-engineering areas: engineers increasingly need to shape what gets built, not only implement it. ^[inferred]
+
 ## Related
 
+- [[concepts/ai-engineering-skills-map]] — Four-part skills framework that includes shaping the build
 - [[concepts/product-management-triangle]] — The traditional framework AI extends
 - [[concepts/evaluate-ai-early]] — Core skill: evaluating AI capability before building
 - [[concepts/probabilistic-ai-products]] — Managing non-deterministic AI behavior

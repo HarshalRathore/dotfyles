@@ -14,6 +14,7 @@ aliases:
 - CF Agents SDK
 sources:
 - AIEF2025 - Building Agents (the hard parts!) - Rita Kozlov, Cloudflare - https://www.youtube.com/watch?v=j_TKDweOsYE
+- https://x.com/Vercantez/status/2082138839888589200
 summary: Cloudflare's SDK for building and hosting AI agents and MCP servers. Provides built-in OAuth, transport (SSE/WebSockets), HTTP streaming, and state management via Durable Objects. Compatible with O...
 provenance:
   extracted: 0.85
@@ -24,7 +25,7 @@ lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-08-15T20:08:52Z
 relationships:
 - target: '[[concepts/model-context-protocol]]'
   type: implements
@@ -61,6 +62,10 @@ The SDK sits on Cloudflare's Workers platform, which provides:
 - **CPU-millisecond pricing** — Only charged for actual computation, not idle wait time (advantageous for agents waiting on LLM responses)
 - **Durable Objects** — Stateful serverless primitives for agent state management
 - **Global edge network** — Low-latency access for agents serving users worldwide
+
+## camelAI's Complementary Pattern
+
+camelAI reuses Cloudflare's stateful edge primitives for a coding-agent harness rather than an MCP server alone: Durable Objects host the agent and workspace state, while Code Mode and dynamic Workers expose constrained JavaScript execution. ^[extracted] This is a concrete [[concepts/edge-native-agent-harness]] pattern built on the same stateful-serverless substrate.
 
 ## Related
 

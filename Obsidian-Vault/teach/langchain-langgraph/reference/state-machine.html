@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>State Machine Reference — The Six-Tool Agent Automaton</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=JetBrains+Mono&display=swap');
+
+:root {
+  --ink: #e8e8e8;
+  --body: #a3a3a3;
+  --mute: #808080;
+  --hairline: #262626;
+  --hairline-soft: #1a1a1a;
+  --canvas: #000000;
+  --elevated: #0a0a0a;
+  --accent: #a78bfa;
+  --accent-soft: #2e1065;
+  --gold: #d4a547;
+  --gold-soft: #3a2f0e;
+  --blue: #60a5fa;
+  --blue-deep: #93c5fd;
+  --blue-soft: #1e3a5f;
+  --warning: #fbbf24;
+  --green: #4ade80;
+  --green-soft: #14532d;
+  --error: #f87171;
+  --sans: 'DM Sans', -apple-system, 'Segoe UI', sans-serif;
+  --mono: 'JetBrains Mono', ui-monospace, 'SF Mono', 'Fira Code', monospace;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 28px;
+  --space-xl: 36px;
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-pill: 100px;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { font-size: 15px; scroll-behavior: smooth; }
+
+body {
+  background: var(--canvas);
+  color: var(--body);
+  font-family: var(--sans);
+  line-height: 1.6;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 var(--space-md);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  font-size: clamp(1.5rem, 3vw, 1.9rem);
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  color: var(--ink);
+  margin: 48px 0 var(--space-sm) 0;
+  border-bottom: 1px solid var(--hairline);
+  padding-bottom: var(--space-md);
+}
+
+h1 .gold { color: var(--gold); }
+
+h2 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--ink);
+  margin: 36px 0 var(--space-sm) 0;
+  letter-spacing: -0.01em;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--ink);
+  margin: 24px 0 var(--space-xs) 0;
+}
+
+p { margin-bottom: 0.85rem; font-size: 0.9rem; }
+strong { color: var(--ink); }
+a { color: var(--blue); text-decoration: none; }
+a:hover { color: var(--blue-deep); text-decoration: underline; }
+
+code {
+  font-family: var(--mono);
+  font-size: 0.85em;
+  background: var(--hairline-soft);
+  padding: 0.15em 0.35em;
+  border-radius: var(--radius-sm);
+  color: var(--ink);
+}
+
+pre {
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+  margin: var(--space-md) 0;
+  overflow-x: auto;
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  line-height: 1.6;
+}
+
+pre code { background: none; padding: 0; color: inherit; }
+
+ul, ol { margin-bottom: 0.85rem; padding-left: 1.4rem; font-size: 0.9rem; }
+li { margin-bottom: 0.2rem; }
+
+hr { border: none; border-top: 1px solid var(--hairline); margin: 36px 0; }
+
+.card {
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+  margin: var(--space-md) 0;
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: var(--gold);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 6px;
+}
+
+.card p { font-size: 0.85rem; margin-bottom: 0; color: var(--body); line-height: 1.5; }
+
+.section-label {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--mute);
+  display: block;
+  margin-bottom: var(--space-sm);
+}
+
+.stage-label {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  padding: 2px 7px;
+  border-radius: var(--radius-sm);
+  background: var(--hairline-soft);
+  color: var(--mute);
+}
+
+.stage-label.model { background: var(--blue-soft); color: var(--blue); }
+.stage-label.tool { background: var(--green-soft); color: var(--green); }
+.stage-label.end { background: rgba(248, 113, 113, 0.1); color: var(--error); }
+.stage-label.gold { background: var(--gold-soft); color: var(--gold); }
+
+/* SVG diagram wrapper */
+.diagram-wrapper {
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+  margin: var(--space-md) 0;
+  overflow-x: auto;
+}
+
+.diagram-wrapper svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+/* Callouts */
+.callout {
+  padding: var(--space-lg);
+  margin: var(--space-xl) 0;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--hairline);
+  background: var(--elevated);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.callout.info { background: rgba(96, 165, 250, 0.08); }
+.callout.gold { background: rgba(212, 165, 71, 0.08); }
+.callout.good { background: rgba(74, 222, 128, 0.08); }
+
+.callout-label {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  display: block;
+  font-weight: 600;
+}
+
+.callout.info .callout-label { color: var(--blue); }
+.callout.gold .callout-label { color: var(--gold); }
+.callout.good .callout-label { color: var(--green); }
+.callout p:last-child { margin-bottom: 0; }
+
+/* Annotation lines */
+.annotation-line {
+  display: flex;
+  gap: var(--space-sm);
+  padding: 6px 0;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  border-bottom: 1px solid var(--hairline-soft);
+  align-items: flex-start;
+}
+
+.annotation-line:last-child { border-bottom: none; }
+
+.annotation-label {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  color: var(--mute);
+  min-width: 28px;
+  text-align: right;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.annotation-body {
+  color: var(--body);
+  flex: 1;
+}
+
+.annotation-body .hl { color: var(--gold); }
+
+/* Stream event table */
+.stream-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: var(--space-md) 0;
+  font-size: 0.8rem;
+}
+
+.stream-table thead th {
+  text-align: left;
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--hairline);
+  color: var(--mute);
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-family: var(--mono);
+}
+
+.stream-table tbody td {
+  padding: 7px 10px;
+  border-bottom: 1px solid var(--hairline-soft);
+  color: var(--body);
+  line-height: 1.5;
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  vertical-align: top;
+}
+
+.stream-table tbody tr:last-child td { border-bottom: none; }
+
+.stream-table .s-node { color: var(--blue); font-weight: 600; }
+.stream-table .s-node-tools { color: var(--green); font-weight: 600; }
+.stream-table .s-node-end { color: var(--error); font-weight: 600; }
+
+/* State accumulation visualization */
+.state-box {
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+  margin: var(--space-md) 0;
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  line-height: 1.6;
+  overflow-x: auto;
+}
+
+.state-box .msg {
+  display: block;
+  padding: 3px 0;
+  border-left: 2px solid var(--hairline);
+  padding-left: 10px;
+  margin: 2px 0;
+}
+
+.state-box .msg.user { border-left-color: var(--blue); color: var(--body); }
+.state-box .msg.ai { border-left-color: var(--accent); color: var(--ink); }
+.state-box .msg.tool { border-left-color: var(--green); color: var(--green); }
+.state-box .msg .label {
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--mute);
+  display: inline-block;
+  min-width: 42px;
+}
+
+.footer {
+  border-top: 1px solid var(--hairline);
+  margin-top: 48px;
+  padding: var(--space-md) 0;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--mute);
+}
+
+.footer a { color: var(--mute); text-decoration: underline; }
+.footer a:hover { color: var(--body); }
+
+/* SVG-specific styles */
+.diagram-container {
+  position: relative;
+  width: 100%;
+}
+
+@media (max-width: 660px) {
+  body { font-size: 14px; padding: 0 var(--space-sm); }
+  pre { font-size: 0.7rem; }
+  .stream-table { font-size: 0.7rem; }
+  .stream-table tbody td { font-size: 0.65rem; padding: 5px 7px; }
+}
+
+@media print {
+  body { font-size: 12pt; max-width: 100%; }
+  pre { break-inside: avoid; }
+}
+</style>
+</head>
+<body>
+
+<h1>State Machine <span class="gold">Automaton</span></h1>
+<p>The finite-state machine that drives every <code>create_agent</code> agent under the hood. Three nodes, two conditional transitions, one growing <code>messages[]</code> state. Once you internalize this diagram, you can read any LangGraph trace.</p>
+
+<hr>
+
+<h2>The Automaton</h2>
+
+<div class="diagram-wrapper">
+<svg viewBox="0 0 820 580" xmlns="http://www.w3.org/2000/svg" font-family="'DM Sans', sans-serif">
+  
+  <!-- Background -->
+  <defs>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#60a5fa"/>
+    </marker>
+    <marker id="arrow-gold" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#d4a547"/>
+    </marker>
+    <marker id="arrow-green" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4ade80"/>
+    </marker>
+    <marker id="arrow-red" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#f87171"/>
+    </marker>
+    <linearGradient id="glow-blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1e3a5f" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#0a0a0a" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="glow-green" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#14532d" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#0a0a0a" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- START circle -->
+  <circle cx="108" cy="140" r="32" fill="none" stroke="#60a5fa" stroke-width="2" stroke-dasharray="4,3"/>
+  <text x="108" y="135" text-anchor="middle" fill="#60a5fa" font-size="10" font-weight="600" font-family="'JetBrains Mono', monospace">START</text>
+  <text x="108" y="148" text-anchor="middle" fill="#60a5fa" font-size="7" opacity="0.7">(init)</text>
+
+  <!-- Model node -->
+  <rect x="210" y="100" width="160" height="64" rx="10" fill="#0a0a0a" stroke="#60a5fa" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="210" y="100" width="160" height="64" rx="10" fill="url(#glow-blue)" opacity="0.3"/>
+  <text x="290" y="126" text-anchor="middle" fill="#60a5fa" font-size="14" font-weight="600" font-family="'JetBrains Mono', monospace">model</text>
+  <text x="290" y="144" text-anchor="middle" fill="#808080" font-size="8">LLM inference node</text>
+
+  <!-- Tools node -->
+  <rect x="210" y="270" width="160" height="64" rx="10" fill="#0a0a0a" stroke="#4ade80" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="210" y="270" width="160" height="64" rx="10" fill="url(#glow-green)" opacity="0.3"/>
+  <text x="290" y="296" text-anchor="middle" fill="#4ade80" font-size="14" font-weight="600" font-family="'JetBrains Mono', monospace">tools</text>
+  <text x="290" y="314" text-anchor="middle" fill="#808080" font-size="8">Python function executor</text>
+
+  <!-- END terminal -->
+  <rect x="520" y="120" width="160" height="52" rx="26" fill="#0a0a0a" stroke="#f87171" stroke-width="2" filter="url(#shadow)"/>
+  <text x="600" y="142" text-anchor="middle" fill="#f87171" font-size="13" font-weight="600" font-family="'JetBrains Mono', monospace">__end__</text>
+  <text x="600" y="156" text-anchor="middle" fill="#808080" font-size="8">terminal state</text>
+
+  <!-- START → model edge -->
+  <line x1="140" y1="140" x2="205" y2="132" stroke="#60a5fa" stroke-width="1.5" marker-end="url(#arrow-blue)"/>
+  <text x="160" y="118" fill="#60a5fa" font-size="8" font-family="'JetBrains Mono', monospace">START</text>
+  <text x="160" y="130" fill="#808080" font-size="7" font-family="'JetBrains Mono', monospace">initial invocation</text>
+
+  <!-- model → tools edge (left side) -->
+  <path d="M 240 164 L 240 220 L 290 220 L 290 265" stroke="#d4a547" stroke-width="1.5" fill="none" marker-end="url(#arrow-gold)"/>
+  
+  <!-- model → tools label -->
+  <text x="146" y="198" fill="#d4a547" font-size="7.5" font-weight="600" font-family="'JetBrains Mono', monospace">tool_calls != []</text>
+  <text x="146" y="210" fill="#d4a547" font-size="7" font-family="'JetBrains Mono', monospace">finish_reason = "tool_calls"</text>
+  <text x="146" y="224" fill="#808080" font-size="7">model decided to call a tool</text>
+  <line x1="234" y1="210" x2="140" y2="210" stroke="#d4a547" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- tools → model edge (right side) -->
+  <path d="M 340 270 L 340 230 L 380 230 L 380 204 L 340 204 L 340 168" stroke="#4ade80" stroke-width="1.5" fill="none" marker-end="url(#arrow-green)"/>
+
+  <!-- tools → model label -->
+  <text x="386" y="224" fill="#4ade80" font-size="7.5" font-weight="600" font-family="'JetBrains Mono', monospace">always → model</text>
+  <text x="386" y="238" fill="#808080" font-size="7" font-family="'JetBrains Mono', monospace">ToolMessage appended</text>
+  <text x="386" y="252" fill="#808080" font-size="7" font-family="'JetBrains Mono', monospace">loop back to model</text>
+
+  <!-- model → END edge -->
+  <line x1="374" y1="120" x2="515" y2="128" stroke="#f87171" stroke-width="1.5" marker-end="url(#arrow-red)"/>
+
+  <!-- model → END label -->
+  <text x="420" y="102" fill="#f87171" font-size="7.5" font-weight="600" font-family="'JetBrains Mono', monospace">tool_calls == []</text>
+  <text x="420" y="114" fill="#f87171" font-size="7" font-family="'JetBrains Mono', monospace">finish_reason = "stop"</text>
+  <text x="420" y="128" fill="#808080" font-size="7">model produced final answer</text>
+
+  <!-- HTTP REQUEST → RESPONSE boundary annotation (left side) -->
+  <rect x="15" y="295" width="180" height="75" rx="6" fill="none" stroke="#262626" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="105" y="312" text-anchor="middle" fill="#808080" font-size="7" font-family="'JetBrains Mono', monospace">HTTP REQUEST</text>
+  <line x1="30" y1="316" x2="180" y2="316" stroke="#262626" stroke-width="0.5"/>
+  <text x="105" y="332" text-anchor="middle" fill="#808080" font-size="6.5">POST /v1/chat/completions</text>
+  <text x="105" y="346" text-anchor="middle" fill="#808080" font-size="6.5">Authorization: Bearer ...</text>
+  <text x="105" y="360" text-anchor="middle" fill="#808080" font-size="6.5">{ "model": "gpt-4o", "messages": [...] }</text>
+
+  <rect x="15" y="160" width="180" height="75" rx="6" fill="none" stroke="#262626" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="105" y="178" text-anchor="middle" fill="#808080" font-size="7" font-family="'JetBrains Mono', monospace">HTTP RESPONSE</text>
+  <line x1="30" y1="182" x2="180" y2="182" stroke="#262626" stroke-width="0.5"/>
+  <text x="105" y="195" text-anchor="middle" fill="#808080" font-size="6.5">{"choices":[{"message":{</text>
+  <text x="105" y="209" text-anchor="middle" fill="#808080" font-size="6.5">"content":"...",</text>
+  <text x="105" y="223" text-anchor="middle" fill="#808080" font-size="6.5">"tool_calls":[...]}}]}</text>
+
+  <!-- Stream chunk annotations -->
+  <rect x="460" y="280" width="180" height="65" rx="6" fill="none" stroke="#262626" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="550" y="297" text-anchor="middle" fill="#808080" font-size="7" font-family="'JetBrains Mono', monospace">stream_mode="updates"</text>
+  <line x1="475" y1="301" x2="625" y2="301" stroke="#262626" stroke-width="0.5"/>
+  <text x="550" y="315" text-anchor="middle" fill="#808080" font-size="6.5">{"model": {"messages": [AIMessage(...)]}}</text>
+  <text x="550" y="330" text-anchor="middle" fill="#808080" font-size="6.5">{"tools": {"messages": [ToolMessage(...)]}}</text>
+
+  <!-- Growing state visual at bottom -->
+  <rect x="15" y="410" width="790" height="150" rx="8" fill="#0a0a0a" stroke="#262626" stroke-width="1" opacity="0.7"/>
+  <text x="30" y="430" fill="#808080" font-size="8" font-family="'JetBrains Mono', monospace">state.messages[]  (grows with each transition)</text>
+  <line x1="30" y1="436" x2="790" y2="436" stroke="#1a1a1a" stroke-width="0.5"/>
+  
+  <!-- msg 1: UserMessage -->
+  <rect x="30" y="442" width="300" height="22" rx="4" fill="#1e3a5f" opacity="0.3" stroke="#60a5fa" stroke-width="0.5"/>
+  <text x="40" y="457" fill="#a3a3a3" font-size="7.5" font-family="'JetBrains Mono', monospace">{role: "user", content: "Where is ORD-1002?"}</text>
+  
+  <!-- msg 2: AIMessage (tool call) -->
+  <rect x="30" y="470" width="360" height="22" rx="4" fill="#2e1065" opacity="0.3" stroke="#a78bfa" stroke-width="0.5"/>
+  <text x="40" y="485" fill="#e8e8e8" font-size="7.5" font-family="'JetBrains Mono', monospace">{role: "assistant", content: "", tool_calls: [...]}</text>
+  
+  <!-- msg 3: ToolMessage -->
+  <rect x="30" y="498" width="340" height="22" rx="4" fill="#14532d" opacity="0.3" stroke="#4ade80" stroke-width="0.5"/>
+  <text x="40" y="513" fill="#4ade80" font-size="7.5" font-family="'JetBrains Mono', monospace">{role: "tool", content: "Processing. Est. ship: tomorrow"}</text>
+  
+  <!-- msg 4: AIMessage (final) -->
+  <rect x="30" y="526" width="340" height="22" rx="4" fill="#3a2f0e" opacity="0.3" stroke="#d4a547" stroke-width="0.5"/>
+  <text x="40" y="541" fill="#e8e8e8" font-size="7.5" font-family="'JetBrains Mono', monospace">{role: "assistant", content: "Your order ORD-1002..."}</text>
+
+  <!-- Vertical ellipse indicating more -->
+  <text x="410" y="490" fill="#262626" font-size="14" text-anchor="middle">&#8942;</text>
+
+  <!-- Edge legend -->
+  <circle cx="648" cy="380" r="4" fill="#d4a547"/>
+  <text x="656" y="383" fill="#808080" font-size="7" font-family="'JetBrains Mono', monospace">= tool_calls edge</text>
+  <circle cx="648" cy="394" r="4" fill="#4ade80"/>
+  <text x="656" y="397" fill="#808080" font-size="7" font-family="'JetBrains Mono', monospace">= loop-back edge</text>
+  <circle cx="648" cy="408" r="4" fill="#f87171"/>
+  <text x="656" y="411" fill="#808080" font-size="7" font-family="'JetBrains Mono', monospace">= terminal edge</text>
+
+</svg>
+</div>
+
+<div class="callout info">
+  <span class="callout-label">Nodes</span>
+  <p><strong>model</strong> — The LLM inference node. Receives the full message history, picks tool schemas from the agent definition, generates the next AIMessage. This is where the HTTP request to the provider happens.</p>
+  <p><strong>tools</strong> — Executes each tool call from the model's output. LangGraph runs the registered Python function with the arguments the model chose, wraps the return value in a <code>ToolMessage</code>, and appends it to state.</p>
+  <p><strong><code>__end__</code></strong> — Terminal state. Once reached, no more nodes execute. The full <code>messages[]</code> list becomes the return value of <code>agent.invoke()</code> or the final <code>stream()</code> chunk.</p>
+</div>
+
+<hr>
+
+<h2>How the Edges Decide</h2>
+
+<p>The only conditional branching in the entire automaton happens between <strong>model</strong> and <strong><code>__end__</code></strong>. LangGraph inspects the model's latest <code>AIMessage.tool_calls</code> field. The decision is binary:</p>
+
+<div class="card">
+  <div class="card-title">The Finish Condition</div>
+  <p><code>tool_calls</code> is a <code>list[dict]</code> on every <code>AIMessage</code>. Empty list <code>[]</code> means the model answered directly &mdash; go to <code>__end__</code>. Non-empty list means the model wants tool results first &mdash; go to <code>tools</code>.</p>
+</div>
+
+<div class="annotation-line">
+  <span class="annotation-label">&#9312;</span>
+  <span class="annotation-body"><strong>model &rarr; tools</strong> &mdash; Condition: <code>len(aimsg.tool_calls) &gt; 0</code>. LangGraph routes each tool call to its registered function. The provider's HTTP response included <code>finish_reason: "tool_calls"</code>.</span>
+</div>
+<div class="annotation-line">
+  <span class="annotation-label">&#9313;</span>
+  <span class="annotation-body"><strong>tools &rarr; model</strong> &mdash; Unconditional. After every tool execution, the graph routes back to the model. No decision is made here &mdash; the model must decide again whether it has enough information.</span>
+</div>
+<div class="annotation-line">
+  <span class="annotation-label">&#9314;</span>
+  <span class="annotation-body"><strong>model &rarr; <code>__end__</code></strong> &mdash; Condition: <code>len(aimsg.tool_calls) == 0</code>. The model produced a final text answer. The provider's HTTP response included <code>finish_reason: "stop"</code>.</span>
+</div>
+
+<hr>
+
+<h2>Stream Chunks At Each Transition</h2>
+
+<p>When you use <code>stream_mode="updates"</code>, the automaton yields one chunk per executed node. Each chunk is a dictionary with the node name as key and the delta to state as value:</p>
+
+<table class="stream-table">
+  <thead>
+    <tr>
+      <th style="width:20%">Transition</th>
+      <th style="width:45%">Yields</th>
+      <th style="width:35%">Meaning</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><span class="s-node">model</span> node runs</td>
+      <td><code>{"model": {"messages": [AIMessage(content="", tool_calls=[...])]}}</code></td>
+      <td>Model decided to call tools. <code>tool_calls</code> non-empty.</td>
+    </tr>
+    <tr>
+      <td><span class="s-node-tools">tools</span> node runs</td>
+      <td><code>{"tools": {"messages": [ToolMessage(content="...", name="lookup_shipping_status")]}}</code></td>
+      <td>Python function executed. Result wrapped as ToolMessage.</td>
+    </tr>
+    <tr>
+      <td><span class="s-node">model</span> node runs</td>
+      <td><code>{"model": {"messages": [AIMessage(content="Your order...", tool_calls=[])]}}</code></td>
+      <td>Model answered directly. <code>tool_calls</code> empty &rarr; will route to <code>__end__</code>.</td>
+    </tr>
+    <tr>
+      <td><span class="s-node-end">__end__</span></td>
+      <td><code>{"__end__": None}</code></td>
+      <td>Terminal event. No more chunks after this.</td>
+    </tr>
+  </tbody>
+</table>
+
+<pre><code><span class="stage-label model">MODEL</span> calling tool: lookup_shipping_status({'order_id': 'ORD-1002'})
+<span class="stage-label tool">TOOL</span>  result: Processing. Estimated ship date: tomorrow
+<span class="stage-label model">MODEL</span> final: Your order ORD-1002 is being processed...
+<span class="stage-label end">END</span></code></pre>
+
+<p>The trace above is what each <code>stream_mode="updates"</code> chunk looks like after your loop body processes it. One event per node execution. The <code>__end__</code> chunk signals no more state changes will arrive.</p>
+
+<hr>
+
+<h2>State Accumulation</h2>
+
+<p>The automaton's state is a flat grow-only list: <code>messages[]</code>. Each node <strong>appends</strong> to it &mdash; nothing is ever removed. The initial invoke call inserts the user message; each model call appends an AIMessage; each tool execution appends a ToolMessage.</p>
+
+<div class="state-box">
+  <span class="msg user">
+    <span class="label">[USER]</span> {"role": "user", "content": "Where is ORD-1002?"}
+  </span>
+  <span class="msg ai">
+    <span class="label">[AI]</span>   {"role": "assistant", "content": "", "tool_calls": [{"name": "lookup_shipping_status", "args": {"order_id": "ORD-1002"}}]}
+  </span>
+  <span class="msg tool">
+    <span class="label">[TOOL]</span> {"role": "tool", "content": "Processing. Estimated ship date: tomorrow", "name": "lookup_shipping_status"}
+  </span>
+  <span class="msg ai">
+    <span class="label">[AI]</span>   {"role": "assistant", "content": "Your order ORD-1002 is being processed and is estimated to ship tomorrow.", "tool_calls": []}
+  </span>
+</div>
+
+<p>Each message carries a <code>role</code> that tells you which part of the system produced it. The model sees the <strong>entire list</strong> on every invocation &mdash; that accumulated history is what lets it pick up where it left off.</p>
+
+<hr>
+
+<h2>One Complete Round Trip</h2>
+
+<p>A single model-to-model iteration involves:</p>
+
+<div class="callout gold">
+  <span class="callout-label">1 Iteration = 1 HTTP Round Trip</span>
+  <p><strong>1.</strong> LangGraph serializes <code>state.messages[]</code> into the provider's API format.</p>
+  <p><strong>2.</strong> It sends <code>POST /v1/chat/completions</code> with <code>messages</code> plus tool schemas in the request body.</p>
+  <p><strong>3.</strong> The provider streams or returns a response containing the model's next message (tokens, tool calls, finish reason).</p>
+  <p><strong>4.</strong> LangGraph deserializes the response into an <code>AIMessage</code> and appends it to state.</p>
+  <p><strong>5.</strong> If <code>tool_calls</code> non-empty &rarr; tools node executes &rarr; ToolMessages appended &rarr; back to step 1. If empty &rarr; <code>__end__</code>.</p>
+</div>
+
+<div class="footer">
+  <p>LangChain &amp; LangGraph Course &mdash; <a href="https://7848bafa.ht-ml.app/">Course Index</a> &middot; <a href="https://3e997043.ht-ml.app/">Glossary</a> &middot; <a href="https://docs.langchain.com/oss/python/langgraph/streaming">Official Streaming Docs</a></p>
+</div>
+
+</body>
+</html>

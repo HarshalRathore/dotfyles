@@ -19,15 +19,16 @@ relationships:
   type: related_to
 sources:
 - 'https://www.youtube.com/watch?v=j4vpq2i0qze'
+- /home/harshal/dotfyles/Obsidian-Vault/research/ai-wardrobe-fashion-intelligence-design.md
 provenance:
-  extracted: 0.75
-  inferred: 0.2
+  extracted: 0.7
+  inferred: 0.25
   ambiguous: 0.05
-base_confidence: 0.7
+base_confidence: 0.6
 lifecycle: draft
 tier: supporting
 created: 2026-07-04
-updated: 2026-07-04
+updated: 2026-08-15
 summary: Multimodal Evaluation
 ---
 
@@ -62,12 +63,25 @@ This reflects a broader principle in AI evaluation: thresholds should be calibra
 
 Multimodal evaluation extends text-only evaluation by adding visual reasoning capabilities. [[concepts/azure-ai-evaluation-sdk|Azure AI Evaluation SDK]] is one platform that supports both text-only and multimodal evaluators in the same evaluation pipeline. ^[inferred]
 
+## Wardrobe Outfit Ranking (2026-08 design extension)
+
+The AI-wardrobe design session (2026-08-15) extends multimodal evaluation into outfit ranking:
+
+- Text-only rankers depend on rich extraction and can still miss **visual relations** (how a blouse sits with a skirt, how a print interacts with jewelry) — difficult cases need a **multimodal ranker** that sees the garments rather than relying on text attributes alone. ^[extracted]
+- Proposed outfit-ranker metrics: blinded human pairwise agreement, top-choice acceptance, top-3 success, constraint-violation rate, paraphrase consistency, and actual-wear feedback. ^[extracted]
+- Reviewer disagreement should be preserved as probabilistic labels rather than collapsed to a single "correct" answer. ^[extracted]
+
+See [[concepts/outfit-ranker-evaluation|Outfit Ranker Evaluation]] for the full proposal.
+
 ## Related
 
 - [[concepts/azure-ai-evaluation-sdk]] — Platform providing multimodal evaluation tools
 - [[concepts/llm-judge-best-practices]] — General LLM-as-judge design principles
 - [[concepts/evaluator-thresholds]] — Domain-specific threshold configuration
+- [[concepts/outfit-ranker-evaluation|Outfit Ranker Evaluation]] — wardrobe extension of multimodal evaluation
+- [[concepts/multimodal-models|Multimodal Models]] — the models that can see garments directly
 
 ## Sources
 
 - Agentic Excellence: Mastering AI Agent Evals w/ Azure AI Evaluation SDK — Cedric Vidal, Microsoft. https://www.youtube.com/watch?v=J4vPq2i0QzE
+- /home/harshal/dotfyles/Obsidian-Vault/research/ai-wardrobe-fashion-intelligence-design.md — design-session synthesis (2026-08-15)

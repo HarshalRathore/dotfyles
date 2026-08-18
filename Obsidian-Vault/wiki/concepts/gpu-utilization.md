@@ -14,6 +14,7 @@ aliases:
 - compute utilization
 sources:
 - 'https://www.youtube.com/watch?v=m6vbaig1tsm'
+- 'How a GPU Actually Works — Akshay Pachaar (X Article) - https://x.com/i/status/2087928032904523980'
 provenance:
   extracted: 0.9
   inferred: 0.1
@@ -23,7 +24,7 @@ lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
-updated: 2026-07-04
+updated: '2026-08-16T00:00:00Z'
 relationships:
 - target: '[[concepts/gpu-marketplace|GPU Marketplace]]'
   type: related_to
@@ -68,6 +69,14 @@ A startup that reserves 1,000 GPUs for a year can: ^[extracted]
 - Rent an additional 1,000 GPUs for one month when needed
 - Release 500 idle GPUs after training completes and sell them back on the marketplace
 - Reduce total cost from $43.8M to $6.9M (6x savings)
+
+## 2026-08-13: How a GPU Actually Works (Akshay Pachaar)
+
+The X Article "How a GPU Actually Works" (Akshay Pachaar, 2026-08-13) adds a measurement caveat: the utilization number in monitoring usually reports **whether any work was scheduled on the chip, not whether the arithmetic units did anything useful**. ^[extracted]
+
+- A GPU at 100% "utilized" while starved for data looks identical to one running at full throughput — the scheduler can keep resident warps "busy" waiting on memory while the ALUs produce nothing. ^[extracted] This is why a high utilization reading can coexist with a few dozen tokens per second. ^[inferred]
+- **Overhead-bound** is a third failure mode the compute/memory split misses: when a model runs many small operations, the CPU's dispatch cost dominates, and the symptom is a GPU that looks idle while the CPU works hard. ^[extracted] The fixes are fewer/larger operations, or capturing a whole sequence of operations for replay as one unit (e.g. CUDA graphs). ^[extracted]
+- **Diagnosing which situation you are in:** measure achieved bytes/s from main memory and achieved ops/s during a run, and compare each against the hardware peak — three outcomes cover nearly everything. ^[extracted] For LLM serving, generation is memory-bound in essentially every realistic configuration; look first at batch size, precision, and KV cache size. ^[extracted]
 
 ## Related
 

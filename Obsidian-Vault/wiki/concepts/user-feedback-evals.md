@@ -14,16 +14,17 @@ aliases:
 summary: "User feedback as a high-quality eval signal — ~30% of production AI teams have implemented it. Organic, real-user data that provides ground-truth quality assessment without manual grading."
 sources:
   - "AIEF2025 - Engineering Better Evals: Scalable LLM Evaluation Pipelines That Work — Dat Ngo, Aman Khan, Arize - https://www.youtube.com/watch?v=spvXj9tnWAQ"
+  - "/home/harshal/dotfyles/Obsidian-Vault/research/ai-wardrobe-fashion-intelligence-design.md"
 provenance:
-  extracted: 0.85
-  inferred: 0.10
+  extracted: 0.8
+  inferred: 0.15
   ambiguous: 0.05
-base_confidence: 0.80
+base_confidence: 0.6
 lifecycle: draft
 lifecycle_changed: 2026-07-05
 tier: supporting
 created: 2026-07-05
-updated: 2026-07-05
+updated: 2026-08-15
 relationships:
   - target: "[[concepts/evals-spectrum|The Evals Spectrum]]"
     type: component-of
@@ -65,6 +66,16 @@ User feedback sits between golden datasets (high quality, low scale, expensive) 
 - **Noise** — Not all feedback is equally reliable
 - **Coverage** — Doesn't cover every interaction, unlike code-based evals
 
+## Wear-Diary and Actual-Wear Feedback (2026-08)
+
+The AI-wardrobe design session (2026-08-15) adds two user-feedback patterns to the palette:
+
+- **Actual-wear feedback** — what the user actually wore (logged via a wear diary) as ground truth for outfit recommendations; a continuous, organic signal in the same spirit as thumbs up/down but tied to real-world behavior rather than in-app ratings. ^[extracted]
+- **Preserve reviewer disagreement** — when human reviewers disagree on outfit quality, keep the outcome as a probabilistic label instead of collapsing to a single "correct" answer; disagreement is treated as signal, not noise. ^[extracted]
+
+See [[concepts/outfit-ranker-evaluation|Outfit Ranker Evaluation]] for the wardrobe metrics and [[concepts/closet-first-wardrobe-memory|Closet-First Wardrobe Memory]] for the wear-diary layer that produces the signal.
+
 ## Sources
 
 - AIEF2025 - Engineering Better Evals: Scalable LLM Evaluation Pipelines That Work — Dat Ngo, Aman Khan, Arize - https://www.youtube.com/watch?v=spvXj9tnWAQ
+- /home/harshal/dotfyles/Obsidian-Vault/research/ai-wardrobe-fashion-intelligence-design.md — design-session synthesis (2026-08-15)

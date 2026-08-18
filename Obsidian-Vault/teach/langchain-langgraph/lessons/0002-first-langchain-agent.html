@@ -1,0 +1,1157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lesson 2 &#8212; Your First LangChain Agent: From Mental Model to Python</title>
+<style>
+/* Inlined from assets/course.css */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=JetBrains+Mono&display=swap');
+
+:root {
+  --ink: #e8e8e8;
+  --body: #a3a3a3;
+  --mute: #808080;
+  --hairline: #262626;
+  --hairline-soft: #1a1a1a;
+  --canvas: #000000;
+  --elevated: #0a0a0a;
+  --accent: #a78bfa;
+  --accent-soft: #2e1065;
+  --gold: #d4a547;
+  --gold-soft: #3a2f0e;
+  --blue: #60a5fa;
+  --blue-deep: #93c5fd;
+  --blue-soft: #1e3a5f;
+  --warning: #fbbf24;
+  --green: #4ade80;
+  --green-soft: #14532d;
+  --error: #f87171;
+  --sans: 'DM Sans', -apple-system, 'Segoe UI', sans-serif;
+  --mono: 'JetBrains Mono', ui-monospace, 'SF Mono', 'Fira Code', monospace;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 28px;
+  --space-xl: 36px;
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-pill: 100px;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; line-height: 1.5; }
+
+html { font-size: 16px; scroll-behavior: smooth; }
+
+body {
+  background: var(--canvas);
+  color: var(--body);
+  font-family: var(--sans);
+  line-height: 1.7;
+  max-width: 720px;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  font-size: clamp(1.75rem, 3.5vw, 2.25rem);
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+  color: var(--ink);
+  margin-bottom: var(--space-md);
+}
+
+h1 .gold-accent {
+  color: var(--gold);
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--ink);
+  margin-top: 60px;
+  margin-bottom: var(--space-md);
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--ink);
+  margin-top: var(--space-xl);
+  margin-bottom: var(--space-xs);
+}
+
+p { margin-bottom: 1.25rem; }
+strong { color: var(--ink); font-weight: 600; }
+a { color: var(--blue); text-decoration: none; }
+a:hover { color: var(--blue-deep); text-decoration: underline; }
+
+code {
+  font-family: var(--mono);
+  font-size: 0.88em;
+  background: var(--hairline-soft);
+  padding: 0.15em 0.4em;
+  border-radius: var(--radius-sm);
+  color: var(--ink);
+}
+
+pre {
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+  margin: var(--space-xl) 0;
+  overflow-x: auto;
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  line-height: 1.7;
+}
+
+pre code { background: none; padding: 0; color: inherit; }
+
+ul, ol { margin-bottom: 1.25rem; padding-left: 1.5rem; }
+li { margin-bottom: 0.35rem; }
+.card { line-height: 1.5; }
+
+hr { border: none; border-top: 1px solid var(--hairline); margin: 60px 0; }
+
+.card {
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  font-size: 0.9rem;
+  padding: var(--space-lg);
+  line-height: 1.5;
+}
+
+.card-title { font-weight: 600; font-size: 0.9rem; color: var(--ink); margin-bottom: 6px; }
+
+.card p { margin-bottom: 0; font-size: 0.9rem; line-height: 1.5; color: var(--body); }
+
+.card-grid {
+  display: grid;
+  gap: var(--space-md);
+  margin: var(--space-xl) 0;
+}
+
+.callout {
+  padding: var(--space-lg);
+  margin: var(--space-xl) 0;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--hairline);
+  background: var(--elevated);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.callout.accent { background: rgba(167, 139, 250, 0.08); }
+.callout.info { background: rgba(96, 165, 250, 0.08); }
+.callout.warn { background: rgba(251, 191, 36, 0.08); }
+.callout.good { background: rgba(74, 222, 128, 0.08); }
+.callout.gold { background: rgba(212, 165, 71, 0.08); }
+
+.callout-label {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  display: block;
+  font-weight: 600;
+}
+
+.callout.accent .callout-label { color: var(--accent); }
+.callout.info .callout-label { color: var(--blue); }
+.callout.warn .callout-label { color: var(--warning); }
+.callout.gold .callout-label { color: var(--gold); }
+.callout.good .callout-label { color: var(--green); }
+.callout p:last-child { margin-bottom: 0; }
+
+.lesson-header {
+  margin-bottom: 60px;
+  border-bottom: 1px solid var(--hairline);
+  padding-bottom: var(--space-xl);
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: var(--mute);
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.lesson-footer {
+  border-top: 1px solid var(--hairline);
+  margin-top: 60px;
+  padding-top: var(--space-xl);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+}
+
+.footer-col { font-size: 0.9rem; color: var(--mute); }
+
+.sources {
+  font-size: 0.9rem;
+  color: var(--mute);
+  line-height: 1.6;
+  margin-top: var(--space-xl);
+}
+
+.sources a { color: var(--mute); text-decoration: underline; text-underline-offset: 2px; }
+.sources a:hover { color: var(--body); }
+
+.quiz {
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+  margin: var(--space-xl) 0;
+}
+
+.quiz-title {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: var(--space-md);
+}
+
+.quiz-question {
+  font-weight: 500;
+  margin-bottom: var(--space-md);
+  color: var(--ink);
+}
+
+.quiz-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 0;
+  cursor: pointer;
+  border-radius: var(--radius-sm);
+  transition: background 0.1s;
+  border-top: 1px solid var(--hairline-soft);
+  background: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  width: 100%;
+  text-align: left;
+  font-family: var(--sans);
+  font-size: inherit;
+  color: inherit;
+  line-height: 1.5;
+}
+
+.quiz-option:first-child { border-top: none; }
+.quiz-option:hover { background: rgba(96, 165, 250, 0.08); }
+
+.quiz-option:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 2px;
+  background: rgba(96, 165, 250, 0.08);
+}
+
+.quiz-option .option-key {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  color: var(--mute);
+  min-width: 1.5rem;
+  text-align: center;
+  flex-shrink: 0;
+  line-height: 1.6;
+}
+
+.quiz-option .option-text { font-size: 0.9rem; color: var(--body); line-height: 1.5; }
+
+.quiz-result {
+  margin-top: var(--space-md);
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  display: none;
+  line-height: 1.5;
+}
+
+.quiz-result.correct {
+  background: var(--green-soft);
+  border: 1px solid rgba(74, 222, 128, 0.4);
+  color: var(--ink);
+  display: block;
+}
+
+.quiz-result.incorrect {
+  background: rgba(248, 113, 113, 0.1);
+  border: 1px solid rgba(248, 113, 113, 0.2);
+  color: var(--ink);
+  display: block;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: var(--space-xl) 0;
+  font-size: 0.9rem;
+}
+
+thead th {
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--hairline);
+  color: var(--mute);
+  font-size: 0.7rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+tbody td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--hairline-soft);
+  color: var(--body);
+  line-height: 1.5;
+}
+
+tbody tr:last-child td { border-bottom: none; }
+
+.tag {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  padding: 3px 8px;
+  border-radius: var(--radius-pill);
+  background: var(--hairline-soft);
+  color: var(--mute);
+}
+
+.tag.accent { background: var(--accent-soft); color: var(--accent); }
+.tag.blue { background: var(--blue-soft); color: var(--blue); }
+.tag.gold { background: var(--gold-soft); color: var(--gold); }
+.exercise { line-height: 1.6; }
+
+.exercise {
+  font-size: 0.9rem;
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+  margin: var(--space-xl) 0;
+  line-height: 1.6;
+}
+
+.exercise-title { font-weight: 600; color: var(--ink); margin-bottom: var(--space-md); }
+
+.flow-diagram {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  margin: var(--space-xl) 0;
+  flex-wrap: wrap;
+}
+
+.flow-node.model { border-color: var(--blue); color: var(--ink); }
+.flow-node.tools { border-color: var(--green); color: var(--ink); }
+.flow-node.loop { border-color: var(--warning); color: var(--ink); }
+
+.flow-arrow { color: var(--mute); font-size: 1.1rem; padding: 0 8px; }
+.flow-caption { text-align: center; font-size: 0.85rem; color: var(--mute); margin-top: 6px; }
+
+details { margin-bottom: var(--space-xl); cursor: pointer; }
+
+details .answer-content {
+  margin-top: var(--space-md);
+  font-size: 0.9rem;
+  line-height: 1.7;
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+}
+
+@media (max-width: 660px) {
+  body { padding: var(--space-xl) var(--space-md); }
+  pre { padding: var(--space-md); font-size: 0.8rem; }
+  .flow-diagram { font-size: 0.85rem; gap: 0.25rem; }
+  .flow-node { padding: 6px 12px; min-width: 60px; font-size: 0.85rem; }
+  .card-grid { grid-template-columns: 1fr !important; }
+}
+@media (max-width: 400px) {
+  html { font-size: 15px; }
+  body { padding: var(--space-lg) var(--space-sm); }
+  .lesson-footer { flex-direction: column; gap: var(--space-sm); }
+}
+
+/* Lesson-specific styles */
+.loop-steps {
+  counter-reset: step;
+  margin: var(--space-xl) 0;
+}
+
+.loop-step {
+  display: flex;
+  gap: var(--space-md);
+  align-items: flex-start;
+  padding: var(--space-md) 0;
+  border-bottom: 1px solid var(--hairline-soft);
+}
+
+.loop-step:last-child { border-bottom: none; }
+
+.loop-step .step-num {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--gold);
+  min-width: 1.8rem;
+  flex-shrink: 0;
+  border: 1px solid var(--gold);
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loop-step .step-body {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--body);
+}
+
+.loop-step .step-body strong { color: var(--ink); }
+
+.pause-panel {
+  border: 1px solid rgba(212, 165, 71, 0.25);
+  padding: var(--space-lg);
+  margin: var(--space-xl) 0;
+  background: rgba(212, 165, 71, 0.04);
+  border-radius: var(--radius-md);
+}
+
+.pause-panel .pause-label {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--gold);
+  font-weight: 600;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.pause-panel p { font-size: 0.9rem; color: var(--body); margin-bottom: 0; line-height: 1.6; }
+
+.pause-panel p + p { margin-top: 12px; }
+
+.code-annotation {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+  margin: var(--space-xl) 0;
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  padding: 4px;
+}
+
+.annotation-line {
+  display: grid;
+  grid-template-columns: 1fr 200px;
+  border-bottom: 1px solid var(--hairline-soft);
+}
+
+.annotation-line:last-child { border-bottom: none; }
+
+.annotation-line .code-part {
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  padding: 12px var(--space-md);
+  color: var(--ink);
+  background: var(--elevated);
+  line-height: 1.6;
+}
+
+.annotation-line .desc-part {
+  font-size: 0.78rem;
+  padding: 12px var(--space-md);
+  color: var(--body);
+  line-height: 1.6;
+  border-left: 1px solid var(--hairline-soft);
+  background: rgba(212, 165, 71, 0.03);
+}
+
+@media (max-width: 660px) {
+  .annotation-line { grid-template-columns: 1fr; }
+  .annotation-line .desc-part { border-left: none; border-top: 1px solid var(--hairline-soft); }
+}
+
+.side-by-side {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-md);
+  margin: var(--space-xl) 0;
+}
+
+@media (max-width: 660px) {
+  .side-by-side { grid-template-columns: 1fr; }
+}
+
+.sbs-card {
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+}
+
+.sbs-card .sbs-label {
+.sbs-card { line-height: 1.5; }
+  font-size: 0.65rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--mute);
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.sbs-card .sbs-label.left { color: var(--blue); }
+.sbs-card .sbs-label.right { color: var(--gold); }
+
+.sbs-card p { font-size: 0.9rem; line-height: 1.6; color: var(--body); margin-bottom: 0; }
+.sbs-card p + p { margin-top: 10px; }
+/* Trace section styles */
+.trace-flow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  flex-wrap: wrap;
+  margin: var(--space-xl) 0;
+  padding: var(--space-lg);
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+}
+.trace-flow .tf-box {
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-sm);
+  padding: 6px 12px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--ink);
+  text-align: center;
+  line-height: 1.3;
+  min-width: 50px;
+}
+.trace-flow .tf-arrow { color: var(--mute); font-size: 0.85rem; flex-shrink: 0; padding: 0 2px; }
+.trace-flow .tf-box.user-msg { border-color: var(--accent); }
+.trace-flow .tf-box.model-call { border-color: var(--blue); }
+.trace-flow .tf-box.tool-run { border-color: var(--green); }
+.trace-flow .tf-box.tool-result { border-color: var(--gold); }
+.trace-flow .tf-box.decision { border-color: var(--warning); }
+.trace-flow .tf-box.final-answer { border-color: var(--green); }
+.trace-flow .tf-box.end-node { border-color: var(--mute); }
+
+</style>
+</head>
+<body>
+
+<div class="lesson-header">
+  <h1>Your First <span class="gold-accent">LangChain</span> Agent</h1>
+  <p class="subtitle">Installing the framework, writing your first <code style="color: var(--gold);">create_agent</code>, and seeing exactly what happens at every step of the hidden loop.</p>
+</div>
+
+<p>If Chapter 1 was the map, this is the first step on the trail.</p>
+
+<p>You now know the mental model: <strong>model + tools + loop</strong>. You saw the mailroom analogy. You spotted the parts in a code snippet. But you have not yet written or run a single line of LangChain code. That ends here.</p>
+
+<p>By the end of this lesson you will be able to read a LangChain agent and explain exactly what every part does. You will also, if you have a provider API key handy, run one yourself.</p>
+
+<hr>
+
+<h2 id="pi-langchain">Same Idea, Different Machinery: Pi and LangChain</h2>
+
+<p>Before we install anything, let us address the question you probably had after Chapter 1.</p>
+
+<div class="card-grid" style="grid-template-columns: 1fr;">
+  <div class="card">
+    <div class="card-title">"Does Pi use LangChain?"</div>
+    <p>Natural question. You work with Pi. You have seen it read files, write code, run bash, and loop until you stop it. LangChain's agents do the same kind of thing. Are they the same under the hood?</p>
+  </div>
+</div>
+
+<p>Here is what the sources tell us:</p>
+
+<div class="side-by-side">
+  <div class="sbs-card">
+    <div class="sbs-label left">Pi (your harness)</div>
+    <p>Pi is an <strong>open-source AI agent toolkit</strong> (MIT license). Its coding agent is a minimal terminal harness: a model, built-in tools (read, write, edit, bash), and an agentic loop that runs until the task is done.</p>
+    <p>Pi is <strong>open source</strong> — you can inspect every line of its agent loop and tool implementations at <a href="https://github.com/earendil-works/pi" target="_blank">github.com/earendil-works/pi</a>.</p>
+    <p>Pi does not use LangChain or LangGraph under the hood. It is an independent implementation of the same conceptual pattern.</p>
+  </div>
+  <div class="sbs-card">
+    <div class="sbs-label right">LangChain Docs</div>
+    <p>LangChain describes the <strong>same conceptual pattern</strong>: a harness that connects a model to tools and repeats until done. Its <code>create_agent</code> is a high-level factory built on LangGraph.</p>
+    <p>LangChain is a general-purpose framework, agnostic about which model provider you use.</p>
+  </div>
+</div>
+
+<p><strong>The bottom line:</strong> the <em>idea</em> is the same in both. The <em>implementation</em> is independent. Pi is an open-source harness you can inspect and learn from. LangChain is the framework you are learning here. This course uses Pi as a <strong>mental bridge</strong> — a concrete example you already have hands-on experience with — not as a dependency and not because one is built on the other.</p>
+
+<p>Think of it this way: Pi and LangChain both ship the same triangle (model, tools, loop). They just pack it in different boxes. Pi is a ready-to-use terminal harness. LangChain is a Python framework you assemble yourself. Neither is the other's implementation. They are siblings in idea space, not parent and child in code space.</p>
+
+<p>If that distinction feels fuzzy now, it will crystallize by the end of this lesson. The structure of the agent loop is the same everywhere. Master it once, and you can read any agent harness.</p>
+<hr>
+
+<h2 id="install">Installing LangChain</h2>
+
+<p>You need two things: a <strong>virtual environment</strong> (standard Python practice) and two <code>pip install</code> commands.</p>
+
+<p>Open a terminal and run:</p>
+
+<pre><code>python3 -m venv .venv
+source .venv/bin/activate   # Linux/macOS
+# .venv\Scripts\activate    # Windows</code></pre>
+
+<p>Now install the core package plus one provider package. You need at least one <strong>provider package</strong> because LangChain itself does not contain any model. It connects to external models through provider packages:</p>
+
+<pre><code>pip install -U langchain
+pip install -U langchain-openai</code></pre>
+
+<p><strong>Provider package</strong>: a separate pip package that teaches LangChain how to talk to a specific model provider. <code>langchain-openai</code> covers GPT models. <code>langchain-anthropic</code> covers Claude models. <code>langchain-ollama</code> covers local models. You install the core once, then add whichever providers you need.</p>
+
+<div class="callout info">
+  <span class="callout-label">Why two installs?</span>
+  <p>LangChain is model-agnostic. The core package handles the agent framework, tools, and loop. Provider packages handle the model-specific API calls. This means you can switch from GPT to Claude by changing one line of code and one pip package, with zero changes to your agent logic.</p>
+</div>
+
+<p>If you have an OpenAI API key, set it as an environment variable:</p>
+
+<pre><code>export OPENAI_API_KEY="sk-..."</code></pre>
+
+<div class="callout warn">
+  <span class="callout-label">No key? No problem</span>
+  <p>You can read and understand every line of code in this lesson without running it. The concepts are the same whether the code executes or not. When you are ready to run, you need a key from <a href="https://platform.openai.com/api-keys">platform.openai.com</a> or a local Ollama install.</p>
+</div>
+
+<hr>
+
+<h2 id="api-shape">The API Shape: Four Moving Parts</h2>
+
+<p>Every LangChain agent you build will follow the same four-step pattern. Learn this skeleton once; every future chapter just fills in details:</p>
+
+<div class="code-annotation">
+  <div class="annotation-line">
+    <div class="code-part"><span style="color: var(--mute);"># 1. Import</span></div>
+    <div class="desc-part">Bring in the factory function and the tool decorator</div>
+  </div>
+  <div class="annotation-line">
+    <div class="code-part">from langchain.agents import create_agent<br>from langchain.tools import tool</div>
+    <div class="desc-part"><code>create_agent</code> builds the harness. <code>@tool</code> turns a function into a callable tool.</div>
+  </div>
+  <div class="annotation-line">
+    <div class="code-part"><span style="color: var(--mute);"># 2. Define a tool</span></div>
+    <div class="desc-part">A plain Python function with a docstring and type hints</div>
+  </div>
+  <div class="annotation-line">
+    <div class="code-part">@tool<br>def my_tool(param: str) -> str:<br>    """Description the model reads to decide when to call this."""<br>    return f"Result: {param}"</div>
+    <div class="desc-part"><code>@tool</code> reads the function name, docstring, and type hints to build the schema the model sees.</div>
+  </div>
+  <div class="annotation-line">
+    <div class="code-part"><span style="color: var(--mute);"># 3. Create the agent</span></div>
+    <div class="desc-part">Wire model + tools + system prompt together</div>
+  </div>
+  <div class="annotation-line">
+    <div class="code-part">agent = create_agent(<br>    model="openai:gpt-4o",<br>    tools=[my_tool],<br>    system_prompt="You are a helpful assistant."<br>)</div>
+    <div class="desc-part"><code>model</code> = provider:model_id. <code>tools</code> = list of tool functions. <code>system_prompt</code> = instructions for the model.</div>
+  </div>
+  <div class="annotation-line">
+    <div class="code-part"><span style="color: var(--mute);"># 4. Invoke</span></div>
+    <div class="desc-part">Send a message and get a response</div>
+  </div>
+  <div class="annotation-line">
+    <div class="code-part">result = agent.invoke({<br>    "messages": [{"role": "user", "content": "..."}]<br>})<br>print(result["messages"][-1].content_blocks)</div>
+    <div class="desc-part"><code>invoke</code> runs the full loop. The result contains every message, including tool calls and responses.</div>
+  </div>
+</div>
+
+<div class="callout gold">
+  <span class="callout-label">Pause and predict</span>
+  <p>Read the skeleton above. Where do you think the <strong>loop</strong> lives? Is it visible in the code? Take ten seconds before reading on.</p>
+</div>
+
+<p>The loop is <em>inside</em> <code>agent.invoke()</code>. You do not see it because you do not have to write it. LangChain handles the repetition invisibly. You provide the model, the tools, and a message. The framework takes care of the rest.</p>
+
+<p>Let us define each term precisely before we see them in action:</p>
+
+<table>
+  <thead>
+    <tr><th>Term</th><th>Definition</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Model identifier</strong></td><td>A string like <code>"openai:gpt-4o"</code> that tells LangChain which provider and which model to use. Format: <code>provider:model_id</code>.</td></tr>
+    <tr><td><strong>Provider</strong></td><td>The company serving the model (OpenAI, Anthropic, Ollama). Each has its own package (<code>langchain-openai</code>, etc.).</td></tr>
+    <tr><td><strong>System prompt</strong></td><td>Instructions you give the model at the start of every conversation. Sets its behavior, tone, and constraints.</td></tr>
+    <tr><td><strong>Invoke</strong></td><td>The method that runs the agent. Sends your messages through the loop and returns the full conversation history.</td></tr>
+    <tr><td><strong>Message</strong></td><td>The unit of conversation. A dictionary with <code>role</code> (user, assistant, system, tool) and <code>content</code>.</td></tr>
+    <tr><td><strong>Schema</strong></td><td>The structure that describes a tool's inputs. LangChain infers it automatically from your function's type hints and docstring.</td></tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h2 id="your-first-agent">Your First Agent: Shipping Order Support</h2>
+
+<p>Enough definitions. Here is a complete, working LangChain agent with one tool that does not need a network connection or external data:</p>
+
+<pre><code>from langchain.agents import create_agent
+from langchain.tools import tool
+
+@tool
+def lookup_shipping_status(order_id: str) -> str:
+    """Look up the shipping status of an order by its order ID.
+    Orders start with ORD- followed by four digits."""
+    orders = {
+        "ORD-1001": "Shipped. Estimated delivery in 3-5 business days.",
+        "ORD-1002": "Processing. Estimated ship date: tomorrow.",
+        "ORD-1003": "Delivered. Signed for on July 15, 2026.",
+    }
+    return orders.get(order_id,
+        "Order not found. Please check the ID and try again.")
+
+agent = create_agent(
+    model="openai:gpt-4o",
+    tools=[lookup_shipping_status],
+    system_prompt=(
+        "You are an order support agent. "
+        "Use the lookup_shipping_status tool to check orders. "
+        "Report the status clearly to the customer."
+    ),
+)
+
+result = agent.invoke({
+    "messages": [
+        {"role": "user",
+         "content": "Where is my order? The ID is ORD-1002."}
+    ]
+})
+
+print(result["messages"][-1].content_blocks)</code></pre>
+
+<div class="pause-panel">
+  <span class="pause-label">Read this code aloud</span>
+  <p>Read each line to yourself, out loud if possible. Point at each part:</p>
+  <p><strong>"Import."</strong> <em>(from langchain.agents import create_agent)</em></p>
+  <p><strong>"Decorator."</strong> <em>(@tool)</em></p>
+  <p><strong>"Function name and docstring."</strong> <em>(lookup_shipping_status, the description)</em></p>
+  <p><strong>"Dict lookup."</strong> <em>(orders.get(order_id, ...))</em></p>
+  <p><strong>"Wire them together."</strong> <em>(create_agent with model, tools, system_prompt)</em></p>
+  <p><strong>"Send message."</strong> <em>(agent.invoke with user asking about ORD-1002)</em></p>
+</div>
+
+<p>Notice what is missing: there is no <code>for</code> loop, no <code>while</code>, no manual routing of tool results. The agent just takes a message and returns a result. The loop is implicit.</p>
+
+<div class="callout good">
+  <span class="callout-label">Safe by design</span>
+  <p>This tool uses a dictionary lookup. It does not execute shell commands, access the filesystem, make network calls, or touch secrets. Every tool you write in this course starts safe. We add power gradually, with guardrails, starting in Chapter 4.</p>
+</div>
+
+<hr>
+
+<h2 id="the-hidden-loop">The Hidden Loop, Visible at Last</h2>
+
+<p>Here is exactly what happens when you call <code>agent.invoke()</code>. This sequence is the same whether you are using LangChain, Pi, or any other agent harness:</p>
+
+<div class="loop-steps">
+  <div class="loop-step">
+    <span class="step-num">1</span>
+    <div class="step-body"><strong>User message enters.</strong> Your <code>{"role": "user", "content": "Where is my order? ORD-1002"}</code> is wrapped in messages and sent to the model.</div>
+  </div>
+  <div class="loop-step">
+    <span class="step-num">2</span>
+    <div class="step-body"><strong>Model decides.</strong> The model reads the system prompt, sees the tool definitions (name, description, parameters), and decides: "I should call <code>lookup_shipping_status</code> with <code>order_id="ORD-1002"</code>." It outputs a structured <strong>tool call</strong> request.</div>
+  </div>
+  <div class="loop-step">
+    <span class="step-num">3</span>
+    <div class="step-body"><strong>Loop intercepts.</strong> The harness inside <code>invoke()</code> sees the tool call output. It does <em>not</em> forward it to you yet. Instead, it extracts the tool name and the parsed arguments.</div>
+  </div>
+  <div class="loop-step">
+    <span class="step-num">4</span>
+    <div class="step-body"><strong>Tool executes.</strong> The harness calls your Python function directly: <code>lookup_shipping_status(order_id="ORD-1002")</code>. Your function runs and returns the string <code>"Processing. Expected ship date: tomorrow."</code></div>
+  </div>
+  <div class="loop-step">
+    <span class="step-num">5</span>
+    <div class="step-body"><strong>Result feeds back.</strong> The harness wraps the return value as a <strong>ToolMessage</strong> and appends it to the conversation: role=assistant (tool_call) -> role=tool (result).</div>
+  </div>
+  <div class="loop-step">
+    <span class="step-num">6</span>
+    <div class="step-body"><strong>Model decides again.</strong> The model now has the full history: user question, its own tool call, and the tool result. It decides whether to call another tool or produce a final answer.</div>
+  </div>
+  <div class="loop-step">
+    <span class="step-num">7</span>
+    <div class="step-body"><strong>Answer returned.</strong> The model outputs a final text response. The harness sees it is not a tool call and <strong>stops the loop</strong>. The full message list is returned as <code>result["messages"]</code>.</div>
+  </div>
+</div>
+
+<p>This is the same loop Pi's coding agent runs when you ask it to read a file or edit code. Pi's model emits a tool call for <code>read</code>. The harness runs it. The file content feeds back as a result. Pi decides the next step. The only difference: Pi's coding-agent tools are <code>read</code>, <code>write</code>, <code>edit</code>, <code>bash</code>. Your LangChain tools are whatever Python functions you define with <code>@tool</code>.</p>
+
+<div class="callout info">
+  <span class="callout-label">Model does not call functions</span>
+  <p>This is the single most important thing to understand: the model never calls your Python function directly. It outputs a <em>structured request</em> (a tool call with name + arguments). The harness reads that request, calls your function, and feeds back the result. The model is a planner, not an executor. It suggests. The harness executes.</p>
+</div>
+
+<hr>
+
+<h2 id="make-it-visible">Make the Loop Visible</h2>
+
+<p>So far you have taken the loop on faith. <code>invoke()</code> hides every intermediate step. It runs the full loop internally and hands you only the final answer object. That is fine for production, but terrible for learning. Let us crack it open.</p>
+
+<p>LangChain agents can <strong>stream</strong> their execution node by node. Instead of waiting for the full result, you see each stage as it happens: the model emitting a tool call, the Python tool running, the model responding again, the loop ending. Streaming transforms a black box into a transparent pipeline.</p>
+
+<div class="callout info">
+  <span class="callout-label">Why stream matters</span>
+  <p>Every future debugging skill depends on being able to watch what your agent actually does, not just what you expect it to do. Streaming is your window into the loop.</p>
+</div>
+
+<h3>The Path a Message Travels</h3>
+
+<p>Here is the exact path every message follows through the agent. Each box is a node you can observe in the stream output:</p>
+
+<div class="trace-flow">
+  <span class="tf-box user-msg">User<br>Message</span>
+  <span class="tf-arrow">&#8594;</span>
+  <span class="tf-box model-call">Model<br>(tool call?)</span>
+  <span class="tf-arrow">&#8594;</span>
+  <span class="tf-box tool-run">Python<br>Tool</span>
+  <span class="tf-arrow">&#8594;</span>
+  <span class="tf-box tool-result">Tool<br>Result</span>
+  <span class="tf-arrow">&#8594;</span>
+  <span class="tf-box decision">Decide</span>
+  <span class="tf-arrow">&#8594;</span>
+  <span class="tf-box final-answer">Final<br>Answer</span>
+  <span class="tf-arrow">&#8594;</span>
+  <span class="tf-box end-node">END</span>
+</div>
+
+<p class="flow-caption">The flow from user message through model, tools, and decision back to model (loop) or final answer (end). The decision node checks the model's latest <code>tool_calls</code> field to determine the next step.</p>
+
+<h3>Watching with <code>stream()</code></h3>
+
+<p>Instead of <code>invoke()</code>, call <code>stream()</code> with <code>stream_mode="updates"</code>. Each yielded value is a dictionary whose keys are node names (<code>"model"</code>, <code>"tools"</code>, <code>"__end__"</code>). You see state changes, not raw tokens:</p>
+
+<pre><code>for update in agent.stream(
+    {"messages": [{"role": "user", "content": "Where is ORD-1002?"}]},
+    stream_mode="updates",
+    version="v2",
+):
+    for node_name, output in update.items():
+        if node_name == "model":
+            msg = output["messages"][-1]
+            if msg.tool_calls:
+                tc = msg.tool_calls[0]
+                print(f"[MODEL] calling: {tc['name']}({tc['args']})")
+            else:
+                print(f"[MODEL] final: {msg.content[:120]}")
+        elif node_name == "tools":
+            tm = output["messages"][-1]
+            print(f"[TOOL]  {tm.name} &#8594; {tm.content[:120]}")
+        elif node_name == "__end__":
+            print("[END]  Agent finished")</code></pre>
+
+<p>This loop iterates over <strong>updates</strong> from each graph node. You never see the model's raw token stream (that is a different<code>stream_mode</code> called <code>"messages"</code>). You see <strong>state changes</strong> &mdash; the high-level trace of what each node produced.</p>
+
+<h3>What the Output Looks Like</h3>
+
+<p>Here is the trace you would see when the agent with <code>lookup_shipping_status</code> processes "Where is ORD-1002?":</p>
+
+<pre><code>[MODEL] calling: lookup_shipping_status({'order_id': 'ORD-1002'})
+[TOOL]  lookup_shipping_status &#8594; Processing. Estimated ship date: tomorrow.
+[MODEL] final: Your order ORD-1002 is currently being processed...
+[END]   Agent finished</pre>
+
+<p>Reading top to bottom:</p>
+<ol>
+  <li><strong>Line 1</strong> &mdash; The model node ran and emitted a tool call for <code>lookup_shipping_status</code> with <code>order_id="ORD-1002"</code>. Non-empty <code>tool_calls</code> means the loop continues.</li>
+  <li><strong>Line 2</strong> &mdash; The tools node executed your Python function. The harness called it directly and wrapped the return value.</li>
+  <li><strong>Line 3</strong> &mdash; The model node ran again with the tool result in history. It produced a text answer with empty <code>tool_calls</code> &mdash; loop ends.</li>
+  <li><strong>Line 4</strong> &mdash; The graph reached its end node.</li>
+</ol>
+
+<div class="callout gold">
+  <span class="callout-label">Why not just use invoke()?</span>
+  <p><code>invoke()</code> swallows all of this. It runs the full loop internally and returns the final <code>result["messages"]</code> object. You never see the intermediate tool calls, tool results, or the moment the model switches from reasoning to answering. <code>stream()</code> shows you everything &mdash; including where your agent spends its time and whether it is calling tools efficiently.</p>
+</div>
+
+<p>You will build on this skill in <strong>Chapter 3: Seeing the Loop</strong>, where we dive deeper into message types, the normal finish condition, stream modes, and how to read any trace output. <a href="https://f9d1ffa4.ht-ml.app/">Open Chapter 3 &rarr;</a></p>
+
+<h2 id="exercise">Exercise: Read This Code Aloud</h2>
+
+<div class="exercise">
+  <div class="exercise-title">Pause. Read aloud. Then answer.</div>
+
+  <p>Below is a second agent. It has two tools. Read the code aloud, then answer the questions:</p>
+
+  <pre><code>from langchain.agents import create_agent
+from langchain.tools import tool
+
+@tool
+def get_discount_code(department: str) -> str:
+    """Get a current discount code for a product department.
+    Departments: electronics, home, clothing."""
+    codes = {
+        "electronics": "TECH20",
+        "home": "HOME15",
+        "clothing": "STYLE10",
+    }
+    return codes.get(department, "No current discount for that department.")
+
+@tool
+def check_return_policy(item_type: str) -> str:
+    """Check the return policy for a type of item.
+    Item types: electronics, furniture, clothing."""
+    policies = {
+        "electronics": "30-day return. Must include all accessories.",
+        "furniture": "14-day return. Must be in original packaging.",
+        "clothing": "60-day return. Tags must be attached.",
+    }
+    return policies.get(item_type, "Check receipt for policy details.")
+
+agent = create_agent(
+    model="openai:gpt-4o",
+    tools=[get_discount_code, check_return_policy],
+    system_prompt="You are a retail customer service agent.",
+)</code></pre>
+
+  <div style="margin-top: var(--space-md);">
+    <p><strong>1.</strong> How many tools does this agent have? What are their names?</p>
+    <p><strong>2.</strong> What tells the model when to call <code>get_discount_code</code> vs <code>check_return_policy</code>?</p>
+    <p><strong>3.</strong> If the user asks "Can I return my laptop?" and "Is there a sale on electronics?" in one message, how many tool calls will the agent make?</p>
+  </div>
+</div>
+
+<details>
+  <summary>Reveal answers</summary>
+  <div class="answer-content">
+    <p><strong>1.</strong> Two tools: <code>get_discount_code</code> and <code>check_return_policy</code>.</p>
+    <p><strong>2.</strong> The <strong>docstrings</strong> are what the model reads. <code>get_discount_code</code>'s docstring says "Get a current discount code," which matches the question about sales. <code>check_return_policy</code>'s docstring mentions "return policy." The model reads these descriptions to decide which tool fits. This is why writing clear docstrings is critical.</p>
+    <p><strong>3.</strong> The agent will likely make <strong>two tool calls</strong> (one for the return policy, one for the discount code), then synthesize both results into a single answer. If the model supports parallel tool calling (GPT-4o does), it may even call both at the same time. The loop runs once but processes multiple tool calls in a single turn.</p>
+  </div>
+</details>
+
+<hr>
+
+<h2 id="quiz">Check Your Understanding</h2>
+
+<div class="quiz">
+  <div class="quiz-title">Question 1 of 3</div>
+  <p class="quiz-question">What does the <code>@tool</code> decorator do?</p>
+  <button class="quiz-option" onclick="checkAnswer(this,'q1','A')">
+    <span class="option-key">A</span>
+    <span class="option-text">Reads the function signature and docstring to build a tool schema for the model.</span>
+  </button>
+  <button class="quiz-option" onclick="checkAnswer(this,'q1','A')">
+    <span class="option-key">B</span>
+    <span class="option-text">Registers the function so that LangChain will run it automatically on each loop iteration.</span>
+  </button>
+  <button class="quiz-option" onclick="checkAnswer(this,'q1','A')">
+    <span class="option-key">C</span>
+    <span class="option-text">Wraps the function so the model can call it directly without the harness step.</span>
+  </button>
+  <button class="quiz-option" onclick="checkAnswer(this,'q1','A')">
+    <span class="option-key">D</span>
+    <span class="option-text">Validates that the function has no side effects before adding it as a tool.</span>
+  </button>
+  <div class="quiz-result" id="q1" aria-live="polite" role="status"></div>
+</div>
+
+<div class="quiz">
+  <div class="quiz-title">Question 2 of 3</div>
+  <p class="quiz-question">In the agent loop, who actually runs the Python function when a tool call is made?</p>
+  <button class="quiz-option" onclick="checkAnswer(this,'q2','B')">
+    <span class="option-key">A</span>
+    <span class="option-text">The LLM model runs each function by using its own built-in code execution capability.</span>
+  </button>
+  <button class="quiz-option" onclick="checkAnswer(this,'q2','B')">
+    <span class="option-key">B</span>
+    <span class="option-text">The framework harness intercepts the tool call request and calls your Python function directly.</span>
+  </button>
+  <button class="quiz-option" onclick="checkAnswer(this,'q2','B')">
+    <span class="option-key">C</span>
+    <span class="option-text">The model generates Python code and the harness runs it in a sandboxed subprocess.</span>
+  </button>
+  <button class="quiz-option" onclick="checkAnswer(this,'q2','B')">
+    <span class="option-key">D</span>
+    <span class="option-text">Each tool call spawns a new agent subprocess that independently runs the tool function.</span>
+  </button>
+  <div class="quiz-result" id="q2" aria-live="polite" role="status"></div>
+</div>
+
+<div class="quiz">
+  <div class="quiz-title">Question 3 of 3</div>
+  <p class="quiz-question">You install <code>langchain-openai</code> alongside <code>langchain</code>. Why are they separate packages?</p>
+  <button class="quiz-option" onclick="checkAnswer(this,'q3','C')">
+    <span class="option-key">A</span>
+    <span class="option-text">The core package is too large and model-specific code would make pip installs too slow.</span>
+  </button>
+  <button class="quiz-option" onclick="checkAnswer(this,'q3','C')">
+    <span class="option-key">B</span>
+    <span class="option-text">OpenAI does not allow its SDK to be bundled inside other frameworks for licensing reasons.</span>
+  </button>
+  <button class="quiz-option" onclick="checkAnswer(this,'q3','C')">
+    <span class="option-key">C</span>
+    <span class="option-text">LangChain stays model-agnostic so you can switch between providers by changing only the provider package.</span>
+  </button>
+  <button class="quiz-option" onclick="checkAnswer(this,'q3','C')">
+    <span class="option-key">D</span>
+    <span class="option-text">Provider packages are optional paid add-ons that unlock premium extra features beyond the core library.</span>
+  </button>
+  <div class="quiz-result" id="q3" aria-live="polite" role="status"></div>
+</div>
+
+<hr>
+
+<h2 id="not-yet">What This Agent Does Not Do Yet</h2>
+
+<p>Your first agent is a beautiful thing. But it is also limited. Before you get excited and try to build a production system, here is what our current agent <em>does not</em> do. These gaps are intentional &mdash; each one is a future chapter:</p>
+
+<div class="card-grid" style="grid-template-columns: 1fr 1fr;">
+  <div class="card">
+    <div class="card-title">No memory</div>
+    <p>Each invoke starts fresh. The agent does not remember the previous conversation. Short-term memory (checkpointers) comes in Chapter 9.</p>
+  </div>
+  <div class="card">
+    <div class="card-title">No custom branching</div>
+    <p>Take it or leave it: the agent calls tools or answers. You cannot add conditional logic between steps. That is LangGraph territory (Chapters 6-8).</p>
+  </div>
+  <div class="card">
+    <div class="card-title">No durable workflow</div>
+    <p>If the process crashes mid-loop, the conversation is lost. Durable execution with automatic resume comes with LangGraph persistence.</p>
+  </div>
+  <div class="card">
+    <div class="card-title">No middleware</div>
+    <p>No guardrails, no retries, no logging middleware between the model and tools. That comes in Chapter 5.</p>
+  </div>
+</div>
+
+<div class="callout gold">
+  <span class="callout-label">What you have built</span>
+  <p>None of those limitations matter right now. You have built the core: a model that reasons, tools that act, and a loop that connects them. Everything else is infrastructure around this triangle. The rest of this course is about adding that infrastructure, one layer at a time, without touching the core pattern you just learned.</p>
+</div>
+
+<hr>
+
+<h2 id="next">Where to Go Next</h2>
+
+<div class="card-grid" style="grid-template-columns: 1fr 1fr;">
+  <div class="card">
+    <div class="card-title"><a href="https://37e6d6de.ht-ml.app/">Chapter 2 Quick Reference</a></div>
+    <p>Keep the API skeleton, loop diagram, and tool rules at your fingertips.</p>
+  </div>
+  <div class="card">
+    <div class="card-title"><a href="https://7848bafa.ht-ml.app/">Course Index</a></div>
+    <p>See all 12 chapters and mark your progress.</p>
+  </div>
+  <div class="card">
+    <div class="card-title"><a href="https://3e997043.ht-ml.app/">Reference Glossary</a></div>
+    <p>Every term defined with official source links.</p>
+  </div>
+  <div class="card">
+    <div class="card-title"><a href="https://2769bf05.ht-ml.app/">Chapter 1 Review</a></div>
+    <p>Refresh the mental model and mailroom analogy.</p>
+  </div>
+  <div class="card">
+    <div class="card-title"><a href="https://docs.langchain.com/oss/python/langchain/agents">LangChain Agents</a></div>
+    <p>Official docs on the agent factory and tool integration.</p>
+  </div>
+  <div class="card">
+    <div class="card-title"><a href="https://docs.langchain.com/oss/python/langchain/install">Install Guide</a></div>
+    <p>Official install docs, troubleshooting, platform notes.</p>
+  </div>
+</div>
+
+<div class="callout good">
+  <span class="callout-label">Before the next session</span>
+  <p>Here is your homework: in your own words, explain the three parts of the agent (model, tools, loop) to someone who has not read this lesson. If you can do that, Chapter 3 is ready for you. If anything in this lesson raised a question, bring it to the next session.</p>
+</div>
+
+<div class="callout info">
+  <span class="callout-label">Up next: Chapter 4</span>
+  <p>Models and Messages &mdash; how LangChain abstracts LLM providers, message types (HumanMessage, AIMessage, ToolMessage), system prompts, and structured output with Pydantic.</p>
+</div>
+
+<div class="lesson-footer">
+  <div class="footer-col">
+    <a href="https://3e997043.ht-ml.app/">Glossary</a> &middot; <a href="https://7848bafa.ht-ml.app/">Course Index</a> &middot; <a href="https://37e6d6de.ht-ml.app/">Quick Reference</a>
+  </div>
+  <div class="footer-col" style="text-align: right;">
+    <strong>Previous</strong><br>
+    <a href="https://2769bf05.ht-ml.app/">Chapter 1: Orientation</a>
+  </div>
+</div>
+
+<div class="sources">
+  <strong>Sources</strong><br>
+  <a href="https://docs.langchain.com/oss/python/langchain/agents" target="_blank">LangChain Agents Docs</a> &middot;
+  <a href="https://docs.langchain.com/oss/python/langchain/tools" target="_blank">LangChain Tools Docs</a> &middot;
+  <a href="https://docs.langchain.com/oss/python/langchain/install" target="_blank">LangChain Install</a> &middot;
+  <a href="https://github.com/earendil-works/pi" target="_blank">Pi Repository (MIT License)</a> &middot;
+  <a href="https://github.com/earendil-works/pi/tree/main/packages/coding-agent" target="_blank">Pi Coding Agent Docs</a> &middot;
+  <a href="https://reference.langchain.com/python/langchain/agents/factory/create_agent" target="_blank">create_agent API</a>
+</div>
+
+<script>
+function checkAnswer(el, quizId, correctKey) {
+  var result = document.getElementById(quizId);
+  var quiz = el.closest('.quiz');
+  var allOptions = quiz.querySelectorAll('.quiz-option');
+  var key = el.querySelector('.option-key').textContent;
+  var isCorrect = (key === correctKey);
+
+  allOptions.forEach(function(opt) {
+    opt.style.pointerEvents = 'none';
+    opt.style.opacity = '0.5';
+  });
+  el.style.opacity = '1';
+
+  if (isCorrect) {
+    el.style.background = 'rgba(74, 222, 128, 0.15)';
+    result.className = 'quiz-result correct';
+    if (quizId === 'q1') {
+      result.innerHTML = '<strong>Correct.</strong> The @tool decorator inspects your function, extracts the name, docstring (becomes the tool description), and type hints (become the input schema). The model sees these when deciding whether to call the tool.';
+    } else if (quizId === 'q2') {
+      result.innerHTML = '<strong>Correct.</strong> The model only outputs a structured request (tool name + arguments). The harness in invoke() intercepts that request, calls your Python function directly, and feeds the result back as a new message. The model never runs code.';
+    } else {
+      result.innerHTML = '<strong>Correct.</strong> LangChain is designed as a model-agnostic framework. The core handles the universal agent pattern. Provider packages handle the API differences between OpenAI, Anthropic, Ollama, and others.';
+    }
+  } else {
+    el.style.background = 'rgba(248, 113, 113, 0.15)';
+    result.className = 'quiz-result incorrect';
+    if (quizId === 'q1') {
+      if (key === 'B') result.innerHTML = '<strong>Not quite.</strong> @tool does not make the function run automatically. It creates a schema that the harness presents to the model. The function only runs when the model specifically requests it via a tool call.';
+      else if (key === 'C') result.innerHTML = '<strong>No.</strong> The model never calls functions directly. That is the whole point of the harness pattern. The model suggests; the harness executes.';
+      else result.innerHTML = '<strong>Not quite.</strong> @tool does not validate side effects. It reads the function signature to build the schema. Side-effect analysis is your responsibility as the developer.';
+    } else if (quizId === 'q2') {
+      if (key === 'A') result.innerHTML = '<strong>No.</strong> The model does not run code. It is a text generation engine. It emits structured tool call requests that the harness executes.';
+      else if (key === 'C') result.innerHTML = '<strong>Close but not quite.</strong> The harness does not generate or execute arbitrary Python. It calls the specific tool function you defined with @tool, passing the parsed arguments from the models tool call.';
+      else result.innerHTML = '<strong>Not quite.</strong> No subprocesses are spawned. The harness calls your tool function in-process, in the same Python runtime.';
+    } else {
+      if (key === 'A') result.innerHTML = '<strong>Not quite.</strong> Package size is not the reason. The separation is about keeping the framework provider-agnostic, not download size.';
+      else if (key === 'B') result.innerHTML = '<strong>Not quite.</strong> There is no licensing restriction preventing bundling. The separation is a deliberate architectural choice for flexibility.';
+      else result.innerHTML = '<strong>No.</strong> Provider packages are not paid add-ons. They are free packages that simply wrap each providers API in a common interface.';
+    }
+  }
+}
+</script>
+
+</body>
+</html>

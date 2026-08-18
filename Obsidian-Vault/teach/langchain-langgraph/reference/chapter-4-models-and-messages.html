@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quick Reference — Models & Messages</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=JetBrains+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:opsz@9..40&display=swap');
+:root {
+  --ink: #e8e8e8;
+  --body: #a3a3a3;
+  --mute: #808080;
+  --hairline: #262626;
+  --hairline-soft: #1a1a1a;
+  --canvas: #000000;
+  --elevated: #0a0a0a;
+  --accent: #a78bfa;
+  --accent-soft: #2e1065;
+  --gold: #d4a547;
+  --gold-soft: #3a2f0e;
+  --blue: #60a5fa;
+  --blue-deep: #93c5fd;
+  --blue-soft: #1e3a5f;
+  --warning: #fbbf24;
+  --green: #4ade80;
+  --green-soft: #14532d;
+  --error: #f87171;
+  --sans: 'DM Sans', -apple-system, 'Segoe UI', sans-serif;
+  --mono: 'JetBrains Mono', ui-monospace, 'SF Mono', 'Fira Code', monospace;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 28px;
+  --space-xl: 36px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --display: 'DM Serif Display', 'DM Sans', serif;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { font-size: 15px; scroll-behavior: smooth; }
+
+body {
+  background: var(--canvas);
+  color: var(--body);
+  font-family: var(--sans);
+  line-height: 1.6;
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 0 var(--space-md);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  font-family: var(--display);
+  font-size: clamp(1.5rem, 3vw, 1.9rem);
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  color: var(--ink);
+  margin: 48px 0 var(--space-sm) 0;
+  border-bottom: 1px solid var(--hairline);
+  padding-bottom: var(--space-md);
+}
+
+h1 .gold { color: var(--gold); }
+h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--ink);
+  margin: 36px 0 var(--space-sm) 0;
+  letter-spacing: -0.01em;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--ink);
+  margin: 24px 0 var(--space-xs) 0;
+}
+
+p { margin-bottom: 0.85rem; font-size: 0.88rem; }
+a { color: var(--blue); text-decoration: none; }
+a:hover { color: var(--blue-deep); text-decoration: underline; }
+
+code {
+  font-family: var(--mono);
+  font-size: 0.85em;
+  background: var(--hairline-soft);
+  padding: 0.15em 0.35em;
+  border-radius: var(--radius-sm);
+  color: var(--ink);
+}
+
+pre {
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  padding: var(--space-md);
+  margin: var(--space-md) 0;
+  overflow-x: auto;
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  line-height: 1.6;
+}
+
+pre code { background: none; padding: 0; color: inherit; }
+
+ul, ol { margin-bottom: 0.85rem; padding-left: 1.4rem; font-size: 0.9rem; }
+li { margin-bottom: 0.2rem; }
+
+hr { border: none; border-top: 1px solid var(--hairline); margin: 36px 0; }
+
+.card {
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  padding: 20px;
+  margin: var(--space-md) 0;
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: var(--gold);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 8px;
+}
+
+
+.card p { font-size: 0.85rem; margin-bottom: 0; color: var(--body); line-height: 1.5; }
+
+.section-label {
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--mute);
+  display: block;
+  margin-bottom: var(--space-sm);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: var(--space-md) 0;
+  font-size: 0.85rem;
+}
+
+thead th {
+  text-align: left;
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--hairline);
+  color: var(--mute);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+tbody td {
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--hairline-soft);
+  color: var(--body);
+  line-height: 1.5;
+  vertical-align: top;
+}
+
+tbody tr:last-child td { border-bottom: none; }
+
+.stage-label {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  padding: 2px 7px;
+  border-radius: var(--radius-sm);
+  background: var(--hairline-soft);
+  color: var(--mute);
+}
+
+.stage-label.model { background: var(--blue-soft); color: var(--blue); }
+.stage-label.tool { background: var(--green-soft); color: var(--green); }
+.stage-label.gold { background: var(--gold-soft); color: var(--gold); }
+.flow-row .item {
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-sm);
+  padding: 10px 18px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--ink);
+  text-align: center;
+}
+.footer {
+  border-top: 1px solid var(--hairline);
+  margin-top: 48px;
+  padding: 20px 0;
+  font-size: 0.8rem;
+  color: var(--mute);
+}
+
+.flow-row .arrow { color: var(--mute); font-size: 0.9rem; }
+
+
+@media print {
+  body { font-size: 12pt; max-width: 100%; }
+  pre { break-inside: avoid; }
+  .card { break-inside: avoid; }
+  table { break-inside: avoid; }
+}
+</style>
+</head>
+<body>
+
+<h1>Models &amp; Messages <span class="gold">Quick Reference</span></h1>
+<p>Chapter 4 essentials: provider-neutral model initialization, the message protocol, structured output, and what every model can and can't do. Keep this open as you work through the course.</p>
+
+<hr>
+
+<h2>Provider-Neutral Model Initialization</h2>
+
+<p>LangChain's <code>init_chat_model</code> lets you write provider-agnostic code. Swap the <code>provider:model_id</code> string to change the backend without changing your logic.</p>
+
+<pre><code>from langchain.chat_models import init_chat_model
+
+# OpenAI
+model = init_chat_model("openai:gpt-5.5", temperature=0)
+
+# Anthropic
+model = init_chat_model("anthropic:claude-sonnet-4-6", temperature=0)
+
+# Ollama (local)
+model = init_chat_model("ollama:llama3.1", temperature=0)
+</code></pre>
+
+<div class="card">
+  <div class="card-title">Install the provider package</div>
+  <p>Each provider requires a separate pip package: <code>langchain-openai</code>, <code>langchain-anthropic</code>, <code>langchain-ollama</code>. The core <code>langchain</code> package dispatches to the correct provider based on the prefix.</p>
+</div>
+
+<p>Official: <a href="https://docs.langchain.com/oss/python/langchain/models" target="_blank">docs.langchain.com/oss/python/langchain/models</a> &middot; <a href="https://reference.langchain.com/python/langchain/chat_models/base/init_chat_model" target="_blank">reference.langchain.com (init_chat_model)</a> &middot; <a href="https://docs.langchain.com/oss/python/concepts/providers-and-models" target="_blank">providers-and-models</a></p>
+
+<hr>
+
+<h2>Standard Parameters</h2>
+
+<p>These parameters are accepted by <code>init_chat_model</code> and most model constructors. Support and semantics vary by provider (see caveats below).</p>
+
+<table>
+  <thead>
+    <tr><th>Parameter</th><th>Type</th><th>Purpose</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><code>temperature</code></td><td>number</td><td>Controls randomness. Higher values produce more creative responses.</td></tr>
+    <tr><td><code>max_tokens</code></td><td>int | None</td><td>Max tokens in the response. <code>None</code> = model default.</td></tr>
+    <tr><td><code>timeout</code></td><td>int | float | None</td><td>Request timeout in seconds. <code>None</code> = wait indefinitely.</td></tr>
+    <tr><td><code>max_retries</code></td><td>int</td><td>Number of retries on transient failures (network, rate-limit, server errors). Default 6.</td></tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h2>Model Interface Methods</h2>
+
+<p>Once you have a chat model instance, these are the primary methods:</p>
+
+<table>
+  <thead>
+    <tr><th>Method</th><th>Takes</th><th>Returns</th><th>Use Case</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><code>model.invoke(input)</code></td><td>string <em>or</em> list of message objects</td><td><code>AIMessage</code></td><td>Single turn: send messages, get one response.</td></tr>
+    <tr><td><code>model.stream(input)</code></td><td>string <em>or</em> list of message objects</td><td>iterator of <code>AIMessageChunk</code></td><td>Token-by-token streaming response.</td></tr>
+    <tr><td><code>model.batch([input1, input2, ...])</code></td><td>list of inputs</td><td>list of <code>AIMessage</code></td><td>Parallel calls to the same model.</td></tr>
+<tr><td><code>model.with_structured_output(schema)</code></td><td>Pydantic model, TypedDict, <em>or</em> JSON Schema dict</td><td>bound model whose <code>.invoke()</code> returns a Pydantic instance (Pydantic schema) or dict/provider-specific shape (TypedDict / JSON Schema)</td><td>Request structured output. Return type and validation depend on schema type; provider support varies.</td></tr>
+  </tbody>
+</table>
+
+<p><code>invoke</code> and <code>stream</code> accept the same input shapes: a plain string (treated as a human message) or a list of typed message objects, which is the standard pattern in the agent loop.</p>
+
+<p>Official: <a href="https://docs.langchain.com/oss/python/langchain/models" target="_blank">docs.langchain.com/oss/python/langchain/models</a></p>
+
+<hr>
+
+<h2>Message Types</h2>
+
+<p>Every turn in the agent loop is represented by a typed message object. These live in <code>langchain.messages</code> and are the same classes used behind the scenes in <code>create_agent</code>.</p>
+
+<table>
+  <thead>
+    <tr><th>Class</th><th>Role in the Loop</th><th>Key Fields</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>SystemMessage</code></td>
+      <td>Sets the model's behavior and constraints at the start of the conversation.</td>
+      <td><code>.content</code> holds the system prompt text.</td>
+    </tr>
+    <tr>
+      <td><code>HumanMessage</code></td>
+      <td>User input. Starts the loop in <code>agent.invoke({"messages": [...]})</code>.</td>
+      <td><code>.content</code> holds the user input text.</td>
+    </tr>
+    <tr>
+      <td><code>AIMessage</code></td>
+      <td>Model response. Carries the final answer <em>or</em> <code>tool_calls</code> that continue the loop.</td>
+<td><code>.content</code> holds the text answer. <code>.tool_calls</code> is a list of <code>ToolCall</code> dicts (name, args, id). <code>.usage_metadata</code> provides standardised token-usage info (input_tokens, output_tokens, total_tokens) when available. <code>.response_metadata</code> holds provider-specific response metadata (finish reason, etc.).</td>
+    </tr>
+    <tr>
+      <td><code>ToolMessage</code></td>
+      <td>Result of a tool execution. Fed back into the loop for the model's next decision.</td>
+      <td><code>.content</code> holds the tool output. <code>.tool_call_id</code> correlates to the <code>AIMessage.tool_calls[i].id</code> that requested it.</td>
+    </tr>
+    <tr>
+      <td><code>AIMessageChunk</code></td>
+      <td>Partial token chunk produced by <code>model.stream()</code>. Accumulated by the loop into a complete <code>AIMessage</code>.</td>
+      <td><code>.content</code> holds a token text fragment.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Tool call correlation:</strong> When the model requests a tool via <code>AIMessage.tool_calls</code>, each call carries a unique <code>id</code>. The tool's return value is wrapped in a <code>ToolMessage</code> whose <code>tool_call_id</code> matches that <code>id</code>, so the model knows which result belongs to which request.</p>
+
+<p>Official: <a href="https://docs.langchain.com/oss/python/langchain/messages" target="_blank">docs.langchain.com/oss/python/langchain/messages</a></p>
+
+<hr>
+
+<h2>Message Flow in the Agent Loop</h2>
+
+<div class="flow-row">
+  <span class="item" style="border-color: var(--blue);">HumanMessage</span>
+  <span class="arrow">&rarr;</span>
+  <span class="item" style="border-color: var(--accent);">Model</span>
+  <span class="arrow">&rarr;</span>
+  <span class="item" style="border-color: var(--gold);">AIMessage<br><small>(tool_calls)</small></span>
+  <span class="arrow">&rarr;</span>
+  <span class="item" style="border-color: var(--green);">Tool</span>
+  <span class="arrow">&rarr;</span>
+  <span class="item" style="border-color: var(--accent);">ToolMessage</span>
+  <span class="arrow">&rarr;</span>
+  <span class="item" style="border-color: var(--blue);">Model</span>
+  <span class="arrow">&rarr;</span>
+  <span class="item" style="border-color: var(--gold);">AIMessage<br><small>(answer)</small></span>
+</div>
+
+<div class="card">
+  <div class="card-title">System prompt is implicit</div>
+  <p><code>create_agent(system_prompt=...)</code> prepends a <code>SystemMessage</code> at the head of every turn. You never construct one manually, but you can, and it's the same object the harness creates for you.</p>
+</div>
+
+<hr>
+
+<h2>System Prompt Pattern</h2>
+
+<p>A system prompt is a <code>SystemMessage</code> placed at the start of the conversation. It shapes the model's behavior:</p>
+
+<pre><code>from langchain.messages import SystemMessage
+
+system = SystemMessage(
+    content="You are a helpful assistant. "
+            "You have access to tools for looking up order status. "
+            "Always be concise and accurate."
+)
+
+# Or pass as string to create_agent:
+agent = create_agent(
+    model="openai:gpt-5.5",
+    tools=[my_tool],
+    system_prompt="You are a helpful assistant. ...",
+)
+</code></pre>
+
+<p>Under the hood, <code>create_agent</code> wraps your string in a <code>SystemMessage</code> and prepends it to the message list on every invocation.</p>
+
+<hr>
+
+<h2>Structured Output</h2>
+
+<h3>Method 1: <code>with_structured_output</code> (model level)</h3>
+
+<p>Bind a Pydantic schema directly to a chat model. The model returns parsed, validated structured data instead of free text.</p>
+
+<pre><code>from pydantic import BaseModel
+from typing import Literal
+
+class OrderStatus(BaseModel):
+    order_id: str
+    status: Literal["shipped", "processing", "delivered", "cancelled"]
+    estimated_delivery: str | None = None
+
+model = init_chat_model("openai:gpt-5.5")
+structured_model = model.with_structured_output(OrderStatus)
+
+result: OrderStatus = structured_model.invoke(
+    "What's the status of order ORD-1002?"
+)
+print(result.status)          # e.g. "shipped"
+print(result.estimated_delivery)  # e.g. "2026-07-20"
+</code></pre>
+
+<div class="card">
+  <div class="card-title">What it does</div>
+  <p>The model receives the Pydantic schema as a tool-call definition and is instructed to populate it instead of generating free text. When supported by the provider, the returned object is a parsed result matching the requested shape. Provider capability and error behavior vary; consult the provider's documentation.</p>
+</div>
+
+<p>Official: <a href="https://docs.langchain.com/oss/python/langchain/structured-output" target="_blank">docs.langchain.com/oss/python/langchain/structured-output</a> &middot; <a href="https://reference.langchain.com/python/langchain-core/language_models/chat_models/BaseChatModel/with_structured_output" target="_blank">reference.langchain.com (with_structured_output)</a></p>
+
+<h3>Method 2: <code>response_format</code> (agent level)</h3>
+
+<pre><code>agent = create_agent(
+    model="openai:gpt-5.5",
+    tools=[my_tool],
+    system_prompt="You are a classification assistant.",
+    response_format=OrderStatus,   # &lt;-- agent-level structured output
+)
+</code></pre>
+
+<p><code>response_format</code> is configured on the <strong>agent harness</strong> (not the model directly). The harness wraps the model's output to enforce the schema at the agent level. Use <code>with_structured_output</code> when working with a model directly; use <code>response_format</code> when building an agent.</p>
+
+<p>Official: <a href="https://docs.langchain.com/oss/python/langchain/structured-output" target="_blank">docs.langchain.com/oss/python/langchain/structured-output</a></p>
+
+<hr>
+
+<h2>Provider Capability Caveats</h2>
+
+<p>Not every provider supports every parameter the same way. LangChain normalises the interface, but the underlying model's capabilities set the real limits.</p>
+
+<table>
+  <thead>
+    <tr><th>Capability</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Tool calling</td><td>Support and schema syntax vary by provider. Consult the provider's documentation for capabilities and limitations.</td></tr>
+    <tr><td>Structured output</td><td>Support and reliability vary by provider. Providers that support JSON-mode or tool-call-based structured output can return the requested shape; others may produce partial or unexpected results. Consult your provider's documentation.</td></tr>
+    <tr><td>Streaming</td><td>Support and chunk structure vary by provider. Where streaming is available, <code>AIMessageChunk</code> normalises the chunk shape.</td></tr>
+    <tr><td><code>temperature</code></td><td>Range 0–1 for some models, 0–2 for others. Very high values may produce incoherent output.</td></tr>
+    <tr><td><code>max_tokens</code></td><td>Some models treat it as a hard limit; others as a soft target. Check the provider's docs for exact semantics.</td></tr>
+    <tr><td>Thinking / reasoning tokens</td><td>Some providers expose reasoning or thinking tokens as separate content blocks. Behavior, naming, and support vary; consult your provider's documentation.</td></tr>
+  </tbody>
+</table>
+
+<div class="card">
+  <div class="card-title">Always test with your provider</div>
+  <p>The <code>init_chat_model</code> function validates the provider prefix and loads the right package, but it cannot guarantee that the model you named supports every parameter you passed. Start with simple <code>invoke()</code> calls and add parameters one at a time.</p>
+</div>
+
+<hr>
+
+<h2>Debugging Checklist</h2>
+
+<p>When things go wrong with models and messages:</p>
+
+<ol style="font-size: 0.9rem; margin-bottom: 0.85rem;">
+  <li><strong>Wrong provider package?</strong> Did you <code>pip install langchain-openai</code> (or <code>langchain-anthropic</code>, <code>langchain-ollama</code>)?</li>
+  <li><strong>Missing API key?</strong> Set <code>export ANTHROPIC_API_KEY="..."</code>; the provider package reads the standard env var for that provider.</li>
+  <li><strong>Wrong message type?</strong> <code>AIMessage.tool_calls</code> is a list, not a single dict. Iterate it. <code>ToolMessage.tool_call_id</code> must match the tool call's <code>id</code>.</li>
+  <li><strong>Structured output parse error?</strong> The model's output didn't match the Pydantic schema. Check field types, especially <code>Literal</code> values and optional fields. Try a simpler schema first.</li>
+  <li><strong>Unexpected <code>max_tokens</code> truncation?</strong> The response may be cut off mid-sentence. Increase <code>max_tokens</code> or set to <code>None</code> for the model default.</li>
+  <li><strong>Parameter ignored?</strong> Your model may not support the parameter. Check the provider's documentation for supported options.</li>
+  <li><strong>Stream not producing output?</strong> Verify <code>stream_mode</code> and iterate the generator. Each chunk is an <code>AIMessageChunk</code>; accumulate via <code>chunk.content</code>.</li>
+</ol>
+
+<hr>
+
+<h2>Key Terms</h2>
+
+<table>
+  <thead>
+    <tr><th>Term</th><th>Definition</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Provider</strong></td><td>Company or service that hosts the model (OpenAI, Anthropic, Ollama). Each has its own API and pip package.</td></tr>
+    <tr><td><strong>Model identifier</strong></td><td><code>provider:model_id</code> string, e.g. <code>"openai:gpt-5.5"</code>. Used by <code>init_chat_model</code> to select the backend.</td></tr>
+    <tr><td><strong>init_chat_model</strong></td><td>Provider-agnostic factory function. Dispatches to the correct package based on the provider prefix.</td></tr>
+    <tr><td><strong>SystemMessage</strong></td><td>Message type for instructions that set the model's behavior. Placed at the start of the conversation.</td></tr>
+    <tr><td><strong>HumanMessage</strong></td><td>Message type representing user input.</td></tr>
+    <tr><td><strong>AIMessage</strong></td><td>Message type representing a model response. May contain text, tool calls, or both.</td></tr>
+    <tr><td><strong>ToolMessage</strong></td><td>Message type wrapping the result of a tool execution. Linked to its request via <code>tool_call_id</code>.</td></tr>
+    <tr><td><strong>with_structured_output</strong></td><td>Model method that binds a Pydantic schema so the model returns typed data instead of free text.</td></tr>
+    <tr><td><strong>response_format</strong></td><td>Parameter on <code>create_agent</code> (not the model) that enforces structured output at the agent-harness level.</td></tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h2>Official Sources</h2>
+
+<ul>
+  <li><a href="https://docs.langchain.com/oss/python/langchain/models" target="_blank">Chat Models Overview</a> &middot; docs.langchain.com</li>
+  <li><a href="https://docs.langchain.com/oss/python/langchain/messages" target="_blank">Messages Overview</a> &middot; docs.langchain.com</li>
+  <li><a href="https://docs.langchain.com/oss/python/langchain/structured-output" target="_blank">Structured Output</a> &middot; docs.langchain.com</li>
+  <li><a href="https://docs.langchain.com/oss/python/concepts/providers-and-models" target="_blank">Providers and Models</a> &middot; docs.langchain.com</li>
+  <li><a href="https://reference.langchain.com/python/langchain/chat_models/base/init_chat_model" target="_blank">init_chat_model API Reference</a> &middot; reference.langchain.com</li>
+  <li><a href="https://reference.langchain.com/python/langchain-core/language_models/chat_models/BaseChatModel/with_structured_output" target="_blank">with_structured_output API Reference</a> &middot; reference.langchain.com</li>
+</ul>
+
+<div class="footer">
+  <p>LangChain &amp; LangGraph Course &middot; <a href="https://7848bafa.ht-ml.app/">Course Index</a> &middot; <a href="https://50a64951.ht-ml.app/">Chapter 4 Lesson</a> &middot; <a href="https://3e997043.ht-ml.app/">Glossary</a> &middot; <a href="https://37e6d6de.ht-ml.app/">Ch 2 Reference</a> &middot; <a href="https://45a785ec.ht-ml.app/">Ch 3 Reference</a></p>
+</div>
+
+</body>
+</html>

@@ -5,8 +5,9 @@ tags: [person, writer, open-source, ai-agents, nous-research, hermes-agent]
 aliases: [akshay_pachaar, Akshay]
 sources:
   - https://x.com/akshay_pachaar/status/2054564519280804028
+  - https://x.com/akshay_pachaar/status/2087928032904523980
 summary: >-
-  Technical writer and creator of the Hermes Agent Masterclass, a comprehensive guide to Nous Research's learning agent framework.
+  Technical writer and co-founder of Daily Dose of Data Science; creator of the Hermes Agent Masterclass and LLM/GPU education content like 'How a GPU Actually Works'.
 provenance:
   extracted: 0.90
   inferred: 0.10
@@ -16,9 +17,11 @@ lifecycle: draft
 lifecycle_changed: 2026-07-13
 tier: supporting
 created: 2026-07-13T00:00:00Z
-updated: 2026-07-13T00:00:00Z
+updated: 2026-08-16T00:00:00Z
 relationships:
   - target: "[[entities/nous-research|Nous Research]]"
+    type: related_to
+  - target: "[[entities/dailydoseofds|Daily Dose of Data Science]]"
     type: related_to
 ---
 
@@ -37,4 +40,11 @@ On May 13, 2026, Pachaar published the **Hermes Agent Masterclass**[^1] — a de
 
 This was Pachaar's first major publication in the AI agent education space, as referenced in [[references/hermes-agent-masterclass|the masterclass page]].
 
+## 2026-08-13: How a GPU Actually Works
+
+On August 13, 2026, Pachaar published **How a GPU Actually Works** — an X Article building LLM engineers' intuition for GPU internals[^2]. It explains why memory bandwidth, not peak arithmetic, limits token generation: arithmetic intensity, the ~300 ops/byte break-even ratio, and why decode is memory-bound while prefill is compute-bound. It is part of his ongoing LLM-education series.
+
+His bio at the time: co-founder of [[entities/dailydoseofds|Daily Dose of Data Science]], ex-AI Engineer at [[entities/lightning-ai|Lightning AI]], BITS Pilani alum, 3 patents, ~285K followers, verified.
+
 [^1]: https://x.com/akshay_pachaar/status/2054564519280804028
+[^2]: https://x.com/akshay_pachaar/status/2087928032904523980

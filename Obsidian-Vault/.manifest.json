@@ -1,8 +1,8 @@
 {
   "version": 1,
   "stats": {
-    "total_sources_ingested": 72,
-    "total_pages": 3241
+    "total_sources_ingested": 79,
+    "total_pages": 3277
   },
   "ralph-ai-coding-technique_ghuntley": {
     "ingested_at": "2026-06-30T18:41:00Z",
@@ -1462,6 +1462,145 @@
       "wiki/index.md",
       "wiki/log.md",
       "wiki/hot.md"
+    ]
+  },
+  "rubenhassid-how-to-bypass-ai-detectors_x": {
+    "ingested_at": "2026-08-14T00:00:00Z",
+    "source_url": "https://x.com/i/status/2080171634103840976",
+    "source_type": "url",
+    "project": null,
+    "stub": false,
+    "promotion_status": "misc",
+    "deep_crawl_sources": [
+      "https://www.dropbox.com/t/fORTSF4grrSCzrMN",
+      "http://how-to-ai.guide"
+    ],
+    "pages_created": [
+      "wiki/misc/web-x-com-i-status-2080171634103840976.md",
+      "wiki/references/how-to-bypass-ai-detectors.md",
+      "wiki/concepts/ai-slop.md",
+      "wiki/concepts/ai-writing-tells.md",
+      "wiki/skills/anti-ai-skill.md",
+      "wiki/entities/ruben-hassid.md",
+      "wiki/entities/substack.md",
+      "wiki/entities/chris-best.md",
+      "wiki/entities/pangram.md"
+    ],
+    "pages_updated": [
+      "wiki/entities/andrej-karpathy.md",
+      "wiki/index.md",
+      "wiki/log.md",
+      "wiki/hot.md"
+    ]
+  },
+  "dexhorthy-show-me-compact-visual-representations_x": {
+    "ingested_at": "2026-08-14T00:00:00Z",
+    "source_url": "https://x.com/i/status/2087569590268391897",
+    "source_type": "url",
+    "project": null,
+    "stub": false,
+    "promotion_status": "misc",
+    "pages_created": [
+      "wiki/misc/web-x-com-i-status-2087569590268391897.md",
+      "wiki/references/show-me-compact-visual-representations.md",
+      "wiki/concepts/visual-agent-communication.md"
+    ],
+    "pages_updated": [
+      "wiki/entities/dex-horthy.md",
+      "wiki/entities/humanlayer.md",
+      "wiki/references/claude-code-html-effectiveness.md",
+      "wiki/index.md",
+      "wiki/log.md",
+      "wiki/hot.md"
+    ]
+  },
+  "/home/harshal/dotfyles/Obsidian-Vault/research/ai-wardrobe-market-india.md": {
+    "ingested_at": "2026-08-15T00:00:00Z",
+    "size_bytes": 34807,
+    "modified_at": "2026-08-14T19:49:10Z",
+    "content_hash": "sha256:5ef23545595ef59c7b63ab678add5947bcaa902620e0436bd11d5e7e2c0e4b36",
+    "source_type": "document",
+    "project": "ai-wardrobe-india",
+    "pages_created": [
+      "wiki/projects/ai-wardrobe-india/ai-wardrobe-india.md",
+      "wiki/projects/ai-wardrobe-india/references/ai-wardrobe-market-india-2026-08.md",
+      "wiki/concepts/closet-first-wardrobe-memory.md",
+      "wiki/concepts/indian-ethnic-occasion-taxonomy.md",
+      "wiki/concepts/ai-virtual-tryon-landscape.md",
+      "wiki/projects/ai-wardrobe-india/concepts/ai-wardrobe-unit-economics.md",
+      "wiki/projects/ai-wardrobe-india/skills/ai-wardrobe-mvp-wedge-and-validation.md",
+      "wiki/projects/ai-wardrobe-india/entities/kya-pehne.md",
+      "wiki/projects/ai-wardrobe-india/entities/pointai-my-wardrobe.md",
+      "wiki/projects/ai-wardrobe-india/entities/myntra.md",
+      "wiki/projects/ai-wardrobe-india/synthesis/wardrobe-memory-and-taste-data-moat.md"
+    ],
+    "pages_updated": []
+  },
+  "/home/harshal/dotfyles/Obsidian-Vault/research/ai-wardrobe-fashion-intelligence-design.md": {
+    "ingested_at": "2026-08-15T00:00:00Z",
+    "size_bytes": 6593,
+    "modified_at": "2026-08-14T21:20:24Z",
+    "content_hash": "sha256:90f0972511ba38e3b06c01ec3287ebd436a28f216d02b6dd0b0d23c120de61cc",
+    "source_type": "document",
+    "project": "ai-wardrobe-india",
+    "pages_created": [
+      "wiki/concepts/outfit-ranking-vs-outfit-generation.md",
+      "wiki/concepts/fashion-taste-dimensions.md",
+      "wiki/concepts/outfit-ranker-evaluation.md"
+    ],
+    "pages_updated": [
+      "wiki/concepts/model-ensemble-routing.md",
+      "wiki/concepts/multimodal-evaluation.md",
+      "wiki/concepts/user-feedback-evals.md",
+      "wiki/index.md",
+      "wiki/log.md",
+      "wiki/hot.md"
+    ]
+  },
+  "akshay_pachaar-how-a-gpu-actually-works_x": {
+    "ingested_at": "2026-08-16T21:30:00Z",
+    "source_url": "https://x.com/i/status/2087928032904523980",
+    "source_type": "url",
+    "stub": false,
+    "project": null,
+    "promotion_status": "misc",
+    "pages_created": [
+      "wiki/misc/web-x-com-i-status-2087928032904523980.md",
+      "wiki/references/how-a-gpu-actually-works.md",
+      "wiki/concepts/arithmetic-intensity.md",
+      "wiki/concepts/gpu-memory-hierarchy.md",
+      "wiki/entities/dailydoseofds.md",
+      "wiki/entities/lightning-ai.md"
+    ],
+    "pages_updated": [
+      "wiki/entities/akshay-pachaar.md",
+      "wiki/concepts/compute-bound-vs-memory-bound.md",
+      "wiki/concepts/gpu-utilization.md",
+      "wiki/concepts/continuous-batching.md",
+      "wiki/hot.md",
+      "wiki/index.md",
+      "wiki/log.md"
+    ]
+  },
+  "maharshii-vibecoding-gpu-kernels_x": {
+    "ingested_at": "2026-08-16T21:30:00Z",
+    "source_url": "https://x.com/i/status/2086442755748970889",
+    "source_type": "url",
+    "stub": false,
+    "project": null,
+    "promotion_status": "misc",
+    "pages_created": [
+      "wiki/misc/web-x-com-i-status-2086442755748970889.md",
+      "wiki/references/vibecoding-gpu-kernels.md",
+      "wiki/concepts/agent-driven-kernel-development.md",
+      "wiki/entities/maharshi.md"
+    ],
+    "pages_updated": [
+      "wiki/concepts/gpu-profiling.md",
+      "wiki/concepts/ai-harness.md",
+      "wiki/hot.md",
+      "wiki/index.md",
+      "wiki/log.md"
     ]
   }
 }

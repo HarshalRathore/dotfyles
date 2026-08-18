@@ -22,7 +22,7 @@ lifecycle: draft
 lifecycle_changed: '2026-08-04'
 tier: supporting
 created: '2026-07-06'
-updated: '2026-08-07'
+updated: '2026-08-15T20:08:52Z'
 ---
 # Progressive Disclosure Forms
 
@@ -40,6 +40,10 @@ updated: '2026-08-07'
 
 Constraints and guidance that are always present consume tokens, can conflict with each other (burning reasoning tokens on conflict resolution), and can constrain exploration when not needed. Deferring them preserves their value precisely when they apply. ^[inferred]
 
+## PostHog's Skill-Routing Extension
+
+PostHog's 2026 guide makes the routing role explicit: a skill's name and description should say **when to reach for it**, while the main `SKILL.md` routes the agent to schemas, examples, scripts, and references only when needed. ^[extracted] This extends progressive disclosure from a file-tree pattern into a discoverability contract for the skill registry itself. [[concepts/agent-skill-engineering]] captures the broader practice. ^[inferred]
+
 ## Related
 
 - [[concepts/context-engineering]] — the discipline this pattern belongs to
@@ -56,3 +60,4 @@ Constraints and guidance that are always present consume tokens, can conflict wi
 - "The new rules of context engineering for Claude 5 generation models" — https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models
 - "A harness for every task: dynamic workflows in Claude Code" — https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code
 - "A Complete Guide To AGENTS.md" — Matt Pocock, AI Hero, https://www.aihero.dev/a-complete-guide-to-agents-md
+- PostHog, "What nobody tells you about writing agent skills" — https://x.com/posthog/status/2084345938089316582

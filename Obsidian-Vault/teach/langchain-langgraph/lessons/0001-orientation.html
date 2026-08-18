@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lesson 1 &#8212; Orientation: Agents, Frameworks, and the Mailroom</title>
+<style>
+/* Inlined from assets/course.css */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=JetBrains+Mono&display=swap');
+
+:root {
+  --ink: #e8e8e8;
+  --body: #a3a3a3;
+  --mute: #808080;
+  --hairline: #262626;
+  --hairline-soft: #1a1a1a;
+  --canvas: #000000;
+  --elevated: #0a0a0a;
+  --accent: #a78bfa;
+  --accent-soft: #2e1065;
+  --blue: #60a5fa;
+  --blue-deep: #93c5fd;
+  --blue-soft: #1e3a5f;
+  --warning: #fbbf24;
+  --green: #4ade80;
+  --green-soft: #14532d;
+  --error: #f87171;
+  --sans: 'DM Sans', -apple-system, 'Segoe UI', sans-serif;
+  --mono: 'JetBrains Mono', ui-monospace, 'SF Mono', 'Fira Code', monospace;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 28px;
+  --space-xl: 36px;
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-pill: 100px;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { font-size: 16px; scroll-behavior: smooth; }
+
+body {
+  background: var(--canvas);
+  color: var(--body);
+  font-family: var(--sans);
+  line-height: 1.7;
+  max-width: 720px;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  font-size: clamp(1.75rem, 3.5vw, 2.25rem);
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+  color: var(--ink);
+  margin-bottom: var(--space-md);
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--ink);
+  margin-top: 60px;
+  margin-bottom: var(--space-md);
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--ink);
+  margin-top: var(--space-xl);
+  margin-bottom: var(--space-xs);
+}
+
+p { margin-bottom: 1.25rem; }
+strong { color: var(--ink); font-weight: 600; }
+a { color: var(--blue); text-decoration: none; }
+a:hover { color: var(--blue-deep); text-decoration: underline; }
+
+code {
+  font-family: var(--mono);
+  font-size: 0.88em;
+  background: var(--hairline-soft);
+  padding: 0.15em 0.4em;
+  border-radius: var(--radius-sm);
+  color: var(--ink);
+}
+
+pre {
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+  margin: var(--space-xl) 0;
+  overflow-x: auto;
+  font-family: var(--mono);
+  font-size: 0.85rem;
+  line-height: 1.7;
+}
+
+pre code { background: none; padding: 0; color: inherit; }
+
+ul, ol { margin-bottom: 1.25rem; padding-left: 1.5rem; }
+li { margin-bottom: 0.35rem; }
+
+hr { border: none; border-top: 1px solid var(--hairline); margin: 60px 0; }
+
+.card {
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  font-size: 0.9rem;
+  padding: var(--space-lg);
+}
+
+.card-title { font-weight: 600; font-size: 0.9rem; color: var(--ink); margin-bottom: 6px; }
+
+.card p { margin-bottom: 0; font-size: 0.9rem; line-height: 1.5; color: var(--body); }
+
+.card-grid {
+  display: grid;
+  gap: var(--space-md);
+  margin: var(--space-xl) 0;
+}
+
+.callout {
+  padding: var(--space-lg);
+  margin: var(--space-xl) 0;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--hairline);
+  background: var(--elevated);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.callout.accent { background: rgba(167, 139, 250, 0.08); }
+.callout.info { background: rgba(96, 165, 250, 0.08); }
+.callout.warn { background: rgba(251, 191, 36, 0.08); }
+.callout.good { background: rgba(74, 222, 128, 0.08); }
+
+.callout-label {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  display: block;
+  font-weight: 600;
+}
+
+.callout.accent .callout-label { color: var(--accent); }
+.callout.info .callout-label { color: var(--blue); }
+.callout.warn .callout-label { color: var(--warning); }
+.callout.good .callout-label { color: var(--green); }
+.callout p:last-child { margin-bottom: 0; }
+
+.lesson-header {
+  margin-bottom: 60px;
+  border-bottom: 1px solid var(--hairline);
+  padding-bottom: var(--space-xl);
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: var(--mute);
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.lesson-footer {
+  border-top: 1px solid var(--hairline);
+  margin-top: 60px;
+  padding-top: var(--space-xl);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+}
+
+.footer-col { font-size: 0.9rem; color: var(--mute); }
+
+.sources {
+  font-size: 0.9rem;
+  color: var(--mute);
+  line-height: 1.6;
+  margin-top: var(--space-xl);
+}
+
+.sources a { color: var(--mute); text-decoration: underline; text-underline-offset: 2px; }
+.sources a:hover { color: var(--body); }
+
+.quiz {
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+  margin: var(--space-xl) 0;
+}
+
+.quiz-title {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: var(--space-md);
+}
+
+.quiz-question {
+  font-weight: 500;
+  margin-bottom: var(--space-md);
+  color: var(--ink);
+}
+
+.quiz-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 0;
+  cursor: pointer;
+  border-radius: var(--radius-sm);
+  transition: background 0.1s;
+  border-top: 1px solid var(--hairline-soft);
+  background: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  width: 100%;
+  text-align: left;
+  font-family: var(--sans);
+  font-size: inherit;
+  color: inherit;
+}
+
+.quiz-option:hover { background: rgba(96, 165, 250, 0.08); }
+
+.quiz-option:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 2px;
+  background: rgba(96, 165, 250, 0.08);
+}
+
+.quiz-option .option-key {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  color: var(--mute);
+  min-width: 1.5rem;
+  text-align: center;
+  flex-shrink: 0;
+  line-height: 1.6;
+}
+
+.quiz-option .option-text { font-size: 0.9rem; color: var(--body); line-height: 1.5; }
+
+.quiz-result {
+  margin-top: var(--space-md);
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  display: none;
+  line-height: 1.5;
+}
+
+.quiz-result.correct {
+  background: var(--green-soft);
+  border: 1px solid rgba(74, 222, 128, 0.4);
+  color: var(--ink);
+  display: block;
+}
+
+.quiz-result.incorrect {
+  background: rgba(248, 113, 113, 0.1);
+  border: 1px solid rgba(248, 113, 113, 0.2);
+  color: var(--ink);
+  display: block;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: var(--space-xl) 0;
+  font-size: 0.9rem;
+}
+
+thead th {
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--hairline);
+  color: var(--mute);
+  font-size: 0.7rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+tbody td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--hairline-soft);
+  color: var(--body);
+  line-height: 1.5;
+}
+
+tbody tr:last-child td { border-bottom: none; }
+
+.tag {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  padding: 3px 8px;
+  border-radius: var(--radius-pill);
+  background: var(--hairline-soft);
+  color: var(--mute);
+}
+
+.tag.accent { background: var(--accent-soft); color: var(--accent); }
+.tag.blue { background: var(--blue-soft); color: var(--blue); }
+
+.exercise {
+  font-size: 0.9rem;
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+  margin: var(--space-xl) 0;
+}
+
+.exercise-title { font-weight: 600; color: var(--ink); margin-bottom: var(--space-md); }
+
+.flow-diagram {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  margin: var(--space-xl) 0;
+  flex-wrap: wrap;
+}
+
+.flow-node {
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-sm);
+  padding: 8px 18px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: center;
+  min-width: 80px;
+}
+
+.flow-node.model { border-color: var(--blue); color: var(--ink); }
+.flow-node.tools { border-color: var(--green); color: var(--ink); }
+.flow-node.loop { border-color: var(--warning); color: var(--ink); }
+
+.flow-arrow { color: var(--mute); font-size: 1.1rem; padding: 0 8px; }
+.flow-caption { text-align: center; font-size: 0.85rem; color: var(--mute); margin-top: 6px; }
+
+.glossary-term {
+  margin-bottom: var(--space-lg);
+  padding-bottom: var(--space-lg);
+  border-bottom: 1px solid var(--hairline-soft);
+}
+
+.glossary-term:last-child { border-bottom: none; }
+
+.glossary-term .term {
+  font-weight: 600;
+  font-family: var(--mono);
+  font-size: 1rem;
+  color: var(--ink);
+  margin-bottom: 4px;
+}
+
+.glossary-term .def { font-size: 0.9rem; color: var(--body); line-height: 1.6; }
+
+details { margin-bottom: var(--space-xl); cursor: pointer; }
+  font-size: 0.9rem;
+
+details .answer-content {
+  margin-top: var(--space-md);
+  font-size: 0.9rem;
+  line-height: 1.7;
+  background: var(--elevated);
+  border: 1px solid var(--hairline);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+}
+@media (max-width: 660px) {
+  body { padding: var(--space-xl) var(--space-md); }
+  pre { padding: var(--space-md); font-size: 0.8rem; }
+  .flow-diagram { font-size: 0.85rem; gap: 0.25rem; }
+  .flow-node { padding: 6px 12px; min-width: 60px; font-size: 0.85rem; }
+  .card-grid { grid-template-columns: 1fr !important; }
+}
+@media (max-width: 400px) {
+  html { font-size: 15px; }
+  body { padding: var(--space-lg) var(--space-sm); }
+  .lesson-footer { flex-direction: column; gap: var(--space-sm); }
+}
+
+
+</style>
+<style>
+  body { font-family: var(--sans); }
+  .analogy-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-md);
+    margin: var(--space-xl) 0;
+  }
+  @media (max-width: 660px) {
+    .analogy-grid { grid-template-columns: 1fr; }
+  }
+  .analogy-card {
+    background: var(--elevated);
+    border: 1px solid var(--hairline);
+    border-radius: var(--radius-md);
+    padding: 32px;
+  }
+  .analogy-card .part {
+    font-family: var(--sans);
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--mute);
+    margin-bottom: 8px;
+  }
+  .analogy-card .pair { display: flex; flex-direction: column; gap: 2px; }
+  .analogy-card .pair .mail { font-size: 0.9rem; color: var(--body); line-height: 1.5; }
+  .analogy-card .pair .tech { font-weight: 600; font-size: 1rem; color: var(--ink); }
+
+  .stack-viz {
+    display: flex;
+    flex-direction: column;
+    margin: var(--space-xl) 0;
+    border: 1px solid var(--hairline);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+  }
+  .stack-layer {
+    padding: 24px 32px;
+    border-bottom: 1px solid var(--hairline);
+  }
+  .stack-layer:last-child { border-bottom: none; }
+  .stack-layer.l1 { background: #0c4a6e; }
+  .stack-layer.l2 { background: #3b0764; }
+  .stack-layer.l3 { background: #451a03; }
+  .stack-layer.l4 { background: var(--hairline-soft); }
+  .stack-layer .label { font-weight: 600; font-size: 1rem; color: var(--ink); }
+  .stack-layer .desc { font-size: 0.9rem; color: var(--ink); opacity: 0.65; margin-top: 4px; }
+
+  .depth-row {
+    display: flex;
+    margin: var(--space-xl) 0;
+  }
+  .depth-cell {
+    flex: 1;
+    padding: 28px;
+    border: 1px solid var(--hairline);
+    border-radius: var(--radius-md);
+    text-align: center;
+  }
+  .depth-cell:first-child { border-top-right-radius: 0; border-bottom-right-radius: 0; border-right: none; }
+  .depth-cell:last-child { border-top-left-radius: 0; border-bottom-left-radius: 0; }
+  .depth-cell .title { font-weight: 600; font-size: 0.9rem; color: var(--ink); }
+  .depth-cell .sub { font-size: 0.9rem; color: var(--ink); opacity: 0.65; margin-top: 4px; line-height: 1.5; }
+
+  .exercise-step {
+    display: flex;
+    gap: var(--space-md);
+    align-items: flex-start;
+    padding: var(--space-sm) 0;
+  }
+  .exercise-step .num {
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--accent);
+    min-width: 1.5rem;
+    text-align: center;
+    flex-shrink: 0;
+    line-height: 1.6;
+  }
+</style>
+</head>
+<body>
+
+<div class="lesson-header">
+  <h1>Orientation: Agents, Frameworks, and the Mailroom</h1>
+  <p class="subtitle">The big picture before the code. What LangChain and LangGraph are, how they fit together, and the one mental model that will carry you through this entire course.</p>
+</div>
+
+<p>You know Python. You have probably talked to ChatGPT or Claude. You might have written a script that calls an LLM API. But you have never used <strong>LangChain</strong> or <strong>LangGraph</strong>. That changes now.</p>
+
+<p>By the end of this lesson you will be able to answer three questions:</p>
+
+<ul>
+  <li>What is an agent, exactly?</li>
+  <li>What does LangChain do and what does LangGraph do?</li>
+  <li>Where do I look things up when I get stuck?</li>
+</ul>
+
+<hr>
+
+<h2 id="mental-model">The Mental Model: Agent = Model + Tools + Loop</h2>
+
+<p>Every agent in this course reduces to exactly three parts:</p>
+
+<div class="flow-diagram">
+  <div class="flow-node model">Model</div>
+  <div class="flow-arrow">+</div>
+  <div class="flow-node tools">Tools</div>
+  <div class="flow-arrow">+</div>
+  <div class="flow-node loop">Loop</div>
+</div>
+<p class="flow-caption">Agent = reasoning engine + capabilities + repetition</p>
+
+<div class="card-grid" style="grid-template-columns: 1fr 1fr 1fr;">
+  <div class="card">
+    <div class="card-title">Model</div>
+    <p>The LLM that decides what to do next. Given a message, it either answers directly or decides a tool needs to be called.</p>
+  </div>
+  <div class="card">
+    <div class="card-title">Tools</div>
+    <p>Functions the model can invoke: look up a database, call an API, run a calculation. Each tool has a name, description, and input schema.</p>
+  </div>
+  <div class="card">
+    <div class="card-title">Loop</div>
+    <p>The repetition that lets the agent work through multi-step tasks. The pattern: receive input, decide action, execute, observe result, decide again, repeat until done.</p>
+  </div>
+</div>
+
+<p>That is it. Everything else (state management, persistence, middleware, streaming) is infrastructure <em>around</em> these three parts. If you ever get lost in later chapters, come back to this triangle. It anchors everything.</p>
+
+<div class="callout info">
+  <span class="callout-label">Key insight</span>
+ <p>The model does not actually call functions. It outputs a structured request like <code>tool_call(name="get_weather", args={city: "Paris"})</code>. The loop intercepts this request, runs the function, and feeds the result back as a new message. The model never touches external code directly. It just emits structured tool calls, and the loop makes them real.</p>
+</div>
+
+<hr>
+
+<h2 id="stack">LangChain vs LangGraph: The Stack</h2>
+
+<p>LangChain and LangGraph are not alternatives. LangChain is built <strong>on top of</strong> LangGraph. Think of it as two layers of control:</p>
+
+<div class="stack-viz">
+  <div class="stack-layer l1">
+    <span class="label">LangChain</span>
+    <div class="desc">High-level framework. <code>create_agent</code>, tool abstractions, middleware.</div>
+  </div>
+  <div class="stack-layer l2">
+    <span class="label">LangGraph</span>
+    <div class="desc">Low-level runtime. State graphs, durable execution, persistence.</div>
+  </div>
+  <div class="stack-layer l3">
+    <span class="label">Model Provider</span>
+    <div class="desc">OpenAI, Anthropic, Ollama, or any LLM.</div>
+  </div>
+  <div class="stack-layer l4">
+    <span class="label">Python 3.10+</span>
+    <div class="desc">Your code, virtual environment, pip packages.</div>
+  </div>
+</div>
+
+<div class="depth-row">
+  <div class="depth-cell">
+    <div class="title">Use LangChain when</div>
+    <div class="sub">you want a standard agent fast. One model, a few tools, a system prompt, done.</div>
+  </div>
+  <div class="depth-cell">
+    <div class="title">Use LangGraph when</div>
+    <div class="sub">you need custom state machines, long-running agents, persistence, or human-in-the-loop.</div>
+  </div>
+</div>
+
+<p>The key quote from the official docs: <em>"While LangChain is built on top of LangGraph, you don't need to know LangGraph to use LangChain."</em></p>
+
+<p>This means Chapter 2 through Chapter 5 will use only LangChain. You will not see a graph until Chapter 6. And that is deliberate. LangChain's <code>create_agent</code> is the fastest way to get a working agent on screen, and the concepts you learn there (models, tools, messages) transfer directly into LangGraph later.</p>
+
+<div class="callout warn">
+  <span class="callout-label">Watch out</span>
+  <p>The old domains <code>python.langchain.com</code> and <code>langchain-ai.github.io/langgraph/</code> now redirect to <code>docs.langchain.com</code>. Always use the new URL. Tutorials on the old domains may return 404.</p>
+</div>
+
+<hr>
+
+<h2 id="analogy">The Mailroom Analogy</h2>
+
+<p>Imagine the mailroom at a large company. Every day, letters arrive and must be routed to the right department.</p>
+
+<div class="analogy-grid">
+  <div class="analogy-card">
+    <div class="part">Mailroom manager</div>
+    <div class="pair">
+      <span class="tech">Model</span>
+      <span class="mail">Reads each letter, decides where it goes: billing, shipping, HR, or handles it directly.</span>
+    </div>
+  </div>
+  <div class="analogy-card">
+    <div class="part">Departments</div>
+    <div class="pair">
+      <span class="tech">Tools</span>
+      <span class="mail">Each department has a specific function. Billing processes payments. Shipping dispatches packages. HR handles employee inquiries.</span>
+    </div>
+  </div>
+  <div class="analogy-card">
+    <div class="part">Conveyor belt</div>
+    <div class="pair">
+      <span class="tech">Loop</span>
+      <span class="mail">The physical system that moves letters from inbox to manager to department and back. Reliable, repeatable, observable.</span>
+    </div>
+  </div>
+  <div class="analogy-card">
+    <div class="part">Procedures manual</div>
+    <div class="pair">
+      <span class="tech">LangChain</span>
+      <span class="mail">The standard procedures: "when a billing letter arrives, do X." High-level, reusable, easy to use without knowing the conveyor design.</span>
+    </div>
+  </div>
+  <div class="analogy-card">
+    <div class="part">Conveyor infrastructure</div>
+    <div class="pair">
+      <span class="tech">LangGraph</span>
+      <span class="mail">The belts, sensors, and control system. You only touch this when you need custom routing, failover, or multi-floor workflows.</span>
+    </div>
+  </div>
+  <div class="analogy-card">
+    <div class="part">Logbook</div>
+    <div class="pair">
+      <span class="tech">LangSmith</span>
+      <span class="mail">A record of every letter, routing decision, and delivery. Useful for debugging, but not part of the core system.</span>
+    </div>
+  </div>
+</div>
+
+<p>The mailroom analogy will reappear throughout this course. When a concept feels abstract, ask: "what does this map to in the mailroom?"</p>
+
+<hr>
+
+<h2 id="glossary">Quick Glossary</h2>
+
+ <p>Ten terms to get you started. The <a href="https://3e997043.ht-ml.app/">full reference glossary</a> has every definition with official source links.</p>
+
+<table>
+  <thead>
+    <tr><th>Term</th><th>Plain English</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Agent</strong></td><td>A model that calls tools in a loop until a task is complete. The whole point of this course.</td></tr>
+    <tr><td><strong>Model</strong></td><td>The LLM reasoning engine. Accepts messages, returns messages. GPT, Claude, Llama.</td></tr>
+    <tr><td><strong>Tool</strong></td><td>A function the model can invoke. Created with <code>@tool</code>. Has a name, description, and input schema.</td></tr>
+    <tr><td><strong>Loop</strong></td><td>The repetition: model decides, tool runs, result feeds back, model decides again. Repeats until the task is done.</td></tr>
+    <tr><td><strong>Message</strong></td><td>The I/O unit. HumanMessage, AIMessage, SystemMessage, ToolMessage. Every interaction is messages.</td></tr>
+ <tr><td><strong>State</strong></td><td>In LangGraph: the current information and work-in-progress at a given moment. Checkpoints are saved snapshots of that state. State flows through every node in the graph as the source of truth.</td></tr>
+    <tr><td><strong>Node</strong></td><td>A function in a graph that receives state and returns an update. "Nodes do the work."</td></tr>
+    <tr><td><strong>Edge</strong></td><td>A function that routes between nodes based on state. "Edges tell what to do next."</td></tr>
+    <tr><td><strong>Compile</strong></td><td>The step that validates a graph and makes it runnable. <code>graph.compile()</code>.</td></tr>
+    <tr><td><strong>Harness</strong></td><td>Everything around the model loop: prompt, tools, middleware. <code>create_agent</code> is the standard harness.</td></tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h2 id="exercise">5-Minute Exercise: Spot the Parts</h2>
+
+<p>Look at this complete LangChain agent. Without running it, see if you can identify the model, tools, and loop:</p>
+
+<pre><code>from langchain.agents import create_agent
+
+def get_weather(city: str) -> str:
+    """Get weather for a given city."""
+    return f"Sunny in {city}!"
+
+def calculate(expression: str) -> str:
+    """Evaluate a math expression safely."""
+    import ast, operator
+    MAX_INPUT_LEN = 200
+    MAX_DEPTH = 10
+    if len(expression) > MAX_INPUT_LEN:
+        return "Error: expression too long"
+    ops = {ast.Add: operator.add, ast.Sub: operator.sub,
+           ast.Mult: operator.mul, ast.Div: operator.truediv,
+           ast.USub: operator.neg}
+    def _eval(node, _depth=0):
+        if _depth > MAX_DEPTH:
+            raise ValueError("expression too deep")
+        if isinstance(node, ast.Constant) and isinstance(node.value, (int, float)):
+            return node.value
+        if isinstance(node, ast.UnaryOp) and type(node.op) in ops:
+            return ops[type(node.op)](_eval(node.operand, _depth+1))
+        if isinstance(node, ast.BinOp) and type(node.op) in ops:
+            return ops[type(node.op)](_eval(node.left, _depth+1), _eval(node.right, _depth+1))
+        raise ValueError("unsafe expression")
+    return str(_eval(ast.parse(expression, mode="eval").body))
+
+agent = create_agent(
+    model="openai:gpt-5.5",
+    tools=[get_weather, calculate],
+    system_prompt="You are a helpful assistant.",
+)
+
+result = agent.invoke(
+    {"messages": [{"role": "user",
+      "content": "What's the weather in Paris and 2+2?"}]}
+)
+print(result["messages"][-1].content_blocks)</code></pre>
+
+<div class="exercise">
+  <div class="exercise-title">Your turn (60 seconds each)</div>
+
+  <div class="exercise-step">
+    <span class="num">1</span>
+    <span>Where is the <strong>model</strong> specified? What does <code>openai:gpt-5.5</code> mean?</span>
+  </div>
+  <div class="exercise-step">
+    <span class="num">2</span>
+    <span>How many <strong>tools</strong> does this agent have? What do they do?</span>
+  </div>
+  <div class="exercise-step">
+    <span class="num">3</span>
+    <span>Where is the <strong>loop</strong>? (Hint: you do not see it directly. It is inside <code>create_agent</code>.)</span>
+  </div>
+  <div class="exercise-step">
+    <span class="num">4</span>
+    <span>The user asks about two things (weather in Paris, 2+2). How many tool calls do you expect the agent to make?</span>
+  </div>
+</div>
+
+<details>
+  <summary>Reveal answers</summary>
+  <div class="answer-content">
+    <p><strong>1.</strong> <code>model="openai:gpt-5.5"</code>. This is shorthand for "use the OpenAI provider with the gpt-5.5 model." LangChain maps this to a model class from the <code>langchain-openai</code> package.</p>
+    <p><strong>2.</strong> Two tools: <code>get_weather</code> (takes a city name, returns weather) and <code>calculate</code> (evaluates a math expression). The docstrings are critical. They are sent to the model so it knows when to call each tool.</p>
+    <p><strong>3.</strong> The loop is inside <code>create_agent</code>. Behind the scenes it runs: model decides, if tool call then execute, feed result back, model decides again, repeat until the model answers directly.</p>
+    <p><strong>4.</strong> Likely two calls (one per tool), then a final answer. The agent might make them in parallel if the model supports parallel tool calling. The loop ends when the model produces a final text response instead of a tool call.</p>
+  </div>
+</details>
+
+<div class="callout good">
+  <span class="callout-label">Getting warmer</span>
+  <p>This exercise is your benchmark. After Chapter 2 you will write agents like this from memory. After Chapter 6 you will understand the graph that runs inside <code>create_agent</code>. After Chapter 12 you will deploy them to production.</p>
+</div>
+
+<hr>
+
+<h2 id="quiz">Check Your Understanding</h2>
+
+<div class="quiz">
+  <div class="quiz-title">Question 1 of 3</div>
+  <p class="quiz-question">Which statement best describes the relationship between LangChain and LangGraph?</p>
+  <button class="quiz-option" onclick="checkAnswer(this,'q1','C')">
+    <span class="option-key">A</span>
+    <span class="option-text">LangChain and LangGraph are competing frameworks you must choose between.</span>
+  </button>
+  <button class="quiz-option" onclick="checkAnswer(this,'q1','C')">
+    <span class="option-key">B</span>
+    <span class="option-text">LangGraph is built on top of LangChain as the framework.</span>
+  </button>
+  <button class="quiz-option" onclick="checkAnswer(this,'q1','C')">
+    <span class="option-key">C</span>
+    <span class="option-text">LangChain is built on top of LangGraph as the framework.</span>
+  </button>
+  <button class="quiz-option" onclick="checkAnswer(this,'q1','C')">
+    <span class="option-key">D</span>
+    <span class="option-text">They are the same product using different API version numbers.</span>
+  </button>
+  <div class="quiz-result" id="q1" aria-live="polite" role="status"></div>
+</div>
+
+<div class="quiz">
+  <div class="quiz-title">Question 2 of 3</div>
+  <p class="quiz-question">In the mental model "agent = model + tools + loop", what does the loop actually do?</p>
+  <button class="quiz-option" onclick="checkAnswer(this,'q2','B')">
+    <span class="option-key">A</span>
+    <span class="option-text">It trains the model using new data after each tool call returns.</span>
+  </button>
+  <button class="quiz-option" onclick="checkAnswer(this,'q2','B')">
+    <span class="option-key">B</span>
+    <span class="option-text">It intercepts each tool call runs each function and feeds back results.</span>
+  </button>
+  <button class="quiz-option" onclick="checkAnswer(this,'q2','B')">
+    <span class="option-key">C</span>
+    <span class="option-text">It sends messages to all tools at once and merges the results.</span>
+  </button>
+  <button class="quiz-option" onclick="checkAnswer(this,'q2','B')">
+    <span class="option-key">D</span>
+    <span class="option-text">It retrieves the old conversation history from a database during each iteration.</span>
+  </button>
+  <div class="quiz-result" id="q2" aria-live="polite" role="status"></div>
+</div>
+
+<div class="quiz">
+  <div class="quiz-title">Question 3 of 3</div>
+  <p class="quiz-question">In the mailroom analogy, what does LangGraph map to?</p>
+  <button class="quiz-option" onclick="checkAnswer(this,'q3','B')">
+    <span class="option-key">A</span>
+    <span class="option-text">The mailroom manager reads each inbound letter personally every day.</span>
+  </button>
+  <button class="quiz-option" onclick="checkAnswer(this,'q3','B')">
+    <span class="option-key">B</span>
+    <span class="option-text">The conveyor belts sensors and physical routing infrastructure for mail.</span>
+  </button>
+  <button class="quiz-option" onclick="checkAnswer(this,'q3','B')">
+    <span class="option-key">C</span>
+    <span class="option-text">The standard operating procedures manual hanging on the office wall.</span>
+  </button>
+  <button class="quiz-option" onclick="checkAnswer(this,'q3','B')">
+    <span class="option-key">D</span>
+    <span class="option-text">The company logbook for tracking every shipped package and delivery.</span>
+  </button>
+  <div class="quiz-result" id="q3" aria-live="polite" role="status"></div>
+</div>
+
+<hr>
+
+<h2 id="next">Where to Go Next</h2>
+
+ <div class="card-grid" style="grid-template-columns: 1fr 1fr;">
+   <div class="card">
+     <div class="card-title"><a href="https://7848bafa.ht-ml.app/">Course Index</a></div>
+     <p>See all 12 chapters and what each one teaches.</p>
+   </div>
+   <div class="card">
+     <div class="card-title"><a href="https://3e997043.ht-ml.app/">Reference Glossary</a></div>
+     <p>Every term defined with official source links. Keep this open.</p>
+   </div>
+   <div class="card">
+     <div class="card-title"><a href="https://docs.langchain.com/llms.txt">Official Docs Hub</a></div>
+     <p>Full index of every LangChain and LangGraph doc page.</p>
+   </div>
+   <div class="card">
+     <div class="card-title"><a href="https://docs.langchain.com/oss/python/langchain/overview">LangChain Overview</a></div>
+     <p>The official overview page. Source for the three-layer product model.</p>
+   </div>
+ </div>
+
+<div class="callout good">
+  <span class="callout-label">You made it</span>
+  <p>That was the orientation. Short by design. Just enough to build the mental map before we write code. Next: Chapter 2, where you install LangChain and write your first <code>create_agent</code> with a real live tool. If anything here raised a question, ask it now. The foundation needs to be solid before we start stacking.</p>
+</div>
+
+<div class="lesson-footer">
+  <div class="footer-col">
+    <strong>This lesson</strong><br>
+    <a href="https://3e997043.ht-ml.app/">Glossary</a> &middot; <a href="https://7848bafa.ht-ml.app/">Course Index</a>
+  </div>
+  <div class="footer-col" style="text-align: right;">
+    <strong>Next</strong><br>
+    <a href="#">Chapter 2: Your First Agent</a>
+  </div>
+</div>
+
+<div class="sources">
+  <strong>Sources</strong><br>
+  <a href="https://docs.langchain.com/oss/python/langchain/overview" target="_blank">LangChain Overview</a> &middot;
+  <a href="https://docs.langchain.com/oss/python/langgraph/overview" target="_blank">LangGraph Overview</a> &middot;
+  <a href="https://docs.langchain.com/oss/python/concepts/products" target="_blank">Product Hierarchy</a> &middot;
+  <a href="https://docs.langchain.com/oss/python/langchain/agents" target="_blank">Agents Overview</a> &middot;
+  <a href="https://docs.langchain.com/oss/python/langchain/tools" target="_blank">Tools</a> &middot;
+  <a href="https://reference.langchain.com/python/langchain/agents/factory/create_agent" target="_blank">create_agent API</a>
+</div>
+
+<script>
+function checkAnswer(el, quizId, correctKey) {
+  var result = document.getElementById(quizId);
+  var quiz = el.closest('.quiz');
+  var allOptions = quiz.querySelectorAll('.quiz-option');
+  var key = el.querySelector('.option-key').textContent;
+  var isCorrect = (key === correctKey);
+
+  allOptions.forEach(function(opt) {
+    opt.style.pointerEvents = 'none';
+    opt.style.opacity = '0.5';
+  });
+  el.style.opacity = '1';
+
+  if (isCorrect) {
+    el.style.background = 'rgba(74, 222, 128, 0.15)';
+    result.className = 'quiz-result correct';
+    if (quizId === 'q1') {
+      result.innerHTML = '<strong>Correct.</strong> LangChain (the high-level framework) is built on LangGraph (the low-level runtime). Every LangChain agent runs on a LangGraph under the hood.';
+    } else if (quizId === 'q2') {
+      result.innerHTML = '<strong>Correct.</strong> The loop intercepts the models tool call request, executes the function, and feeds the result back as a new message. The model never touches external code directly.';
+    } else {
+      result.innerHTML = '<strong>Correct.</strong> LangGraph is the conveyor infrastructure. The belts, sensors, and control system that move work through the system with durability and state.';
+    }
+  } else {
+    el.style.background = 'rgba(248, 113, 113, 0.15)';
+    result.className = 'quiz-result incorrect';
+    if (quizId === 'q1') {
+      if (key === 'A') result.innerHTML = '<strong>Not quite.</strong> They are not competitors. LangChain is built <em>on top of</em> LangGraph. You can use LangChain without knowing LangGraph, but LangChain agents run on LangGraph underneath.';
+      else if (key === 'B') result.innerHTML = '<strong>Backwards.</strong> LangChain is the higher-level framework. LangGraph is the lower-level runtime that LangChain is built on.';
+      else result.innerHTML = '<strong>Not quite.</strong> They are different products at different abstraction levels. LangChain is the framework layer. LangGraph is the runtime layer underneath it.';
+    } else if (quizId === 'q2') {
+      if (key === 'A') result.innerHTML = '<strong>Not quite.</strong> The loop does not train the model. Training is done by the provider during model development. The loop orchestrates tool call execution and response feeding over multiple turns.';
+      else if (key === 'C') result.innerHTML = '<strong>No.</strong> The model decides which tool to call, not all tools simultaneously. The loop respects the models decision.';
+      else result.innerHTML = '<strong>Not quite.</strong> History retrieval is part of state management (checkpointers handle that). The loop specifically handles tool call interception and execution.';
+    } else {
+      if (key === 'A') result.innerHTML = '<strong>Not quite.</strong> The manager is the <em>model</em> in the analogy. LangGraph is the infrastructure that routes work between departments.';
+      else if (key === 'C') result.innerHTML = '<strong>Close, but reversed.</strong> The procedures manual is LangChain. LangGraph is the physical conveyor infrastructure.';
+      else result.innerHTML = '<strong>Not quite.</strong> The logbook is LangSmith in the analogy. LangGraph is the routing infrastructure underneath everything.';
+    }
+  }
+}
+</script>
+
+</body>
+</html>

@@ -13,6 +13,7 @@ aliases:
   - inference performance bottlenecks
 sources:
   - "AIEF2025 - Hacking the Inference Pareto Frontier - Kyle Kranen, NVIDIA - https://www.youtube.com/watch?v=Y2qc0UhDSnc"
+  - "How a GPU Actually Works — Akshay Pachaar (X Article) - https://x.com/i/status/2087928032904523980"
 summary: "The two fundamental performance bottlenecks in LLM inference: compute-bound (GPU compute saturation, typical of prefill) and memory-bound (memory bandwidth saturation, typical of decode)."
 provenance:
   extracted: 0.85
@@ -23,13 +24,15 @@ lifecycle: draft
 lifecycle_changed: 2026-07-04
 tier: supporting
 created: 2026-07-04
-updated: 2026-07-04
+updated: '2026-08-16T00:00:00Z'
 relationships:
   - target: "[[concepts/disaggregated-inference|Disaggregated Inference]]"
     type: exploited_by
   - target: "[[concepts/kv-cache|KV Cache]]"
     type: relates_to
   - target: "[[concepts/quantization-inference|Quantization for Inference]]"
+    type: relates_to
+  - target: "[[concepts/arithmetic-intensity|Arithmetic Intensity]]"
     type: relates_to
 ---
 
@@ -63,12 +66,25 @@ The compute/memory split enables [[concepts/disaggregated-inference|disaggregate
 
 [[concepts/quantization-inference|Quantization]] also exploits this split: reducing precision speeds up compute-bound operations (prefill) and reduces memory footprint (decode), shifting the Pareto frontier in both directions.
 
+## 2026-08-13: How a GPU Actually Works (Akshay Pachaar)
+
+The X Article "How a GPU Actually Works" (Akshay Pachaar, 2026-08-13) reframes the same split through **arithmetic intensity** — work per byte fetched from main memory. ^[extracted]
+
+- Every chip has a break-even ratio (ridge point): peak FLOPs ÷ peak bandwidth. The H100 SXM5 (989 TFLOPS dense BF16 ÷ 3.35 TB/s) lands at ~295 ops/byte (~300); below it workloads are memory-bound, above it compute-bound. This framing is named the roofline model. ^[extracted]
+- **Decode is ~300× below break-even.** A 70B fp16 model reads 140 GB of weights per token for ~140B operations ≈ 1 op/byte; at ~3.3 TB/s that is 42 ms/token ≈ a 24 tok/s floor that no software cleverness moves. ^[extracted]
+- **Prefill sits on the opposite side of the line:** it handles many tokens at once, so each weight fetched is used across all of them, work per byte climbs immediately, and prefill is usually compute-bound — the same model has two phases with opposite bottlenecks. ^[extracted]
+- Batching raises work per byte at no extra memory cost: roughly **300 concurrent sequences** (fp16) are needed before generation becomes compute-bound; below that, spare arithmetic capability goes unused. ^[extracted]
+- Bandwidth upgrades speed inference without extra arithmetic: the H200 (same 989 TFLOPS die, 4.8 TB/s) drops the break-even to 206 ops/byte, so more workloads clear the bar. ^[extracted]
+- The threshold rises every generation because arithmetic grows faster than bandwidth — workloads that were compute-bound become memory-bound without a code change. ^[extracted]
+
 ## Related
 
 - [[concepts/disaggregated-inference|Disaggregated Inference]] — splits compute-bound and memory-bound phases
 - [[concepts/kv-cache|KV Cache]] — the data structure that makes decode memory-bound
 - [[concepts/quantization-inference|Quantization for Inference]] — reduces both compute and memory requirements
+- [[concepts/arithmetic-intensity|Arithmetic Intensity]] — the work-per-byte ratio that decides which bound applies
 
 ## Sources
 
 - AIEF2025 - Hacking the Inference Pareto Frontier - Kyle Kranen, NVIDIA - https://www.youtube.com/watch?v=Y2qc0UhDSnc
+- How a GPU Actually Works — Akshay Pachaar (X Article) - https://x.com/i/status/2087928032904523980
