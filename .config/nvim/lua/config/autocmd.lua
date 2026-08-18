@@ -59,6 +59,22 @@ vim.api.nvim_create_autocmd("BufWritePost", {
 		-- vim.defer_fn(set_highlight_groups(default_highlights), 1000)
 	end,
 })
+
+-- Auto-restart whisrs daemon when its config is saved
+vim.api.nvim_create_augroup("WhisrsConfigReload", { clear = true })
+vim.api.nvim_create_autocmd("BufWritePost", {
+	group = "WhisrsConfigReload",
+	desc = "Restart whisrs daemon when config.toml is saved",
+	pattern = vim.fn.expand("~") .. "/.config/whisrs/config.toml",
+	callback = function()
+		vim.fn.system({ "systemctl", "--user", "restart", "whisrs.service" })
+		if vim.v.shell_error == 0 then
+			vim.notify("whisrs daemon restarted", vim.log.levels.INFO, { title = "Whisrs" })
+		else
+			vim.notify("Failed to restart whisrs daemon", vim.log.levels.ERROR, { title = "Whisrs" })
+		end
+	end,
+})
 if vim.env.TMUX ~= nil then
 	vim.api.nvim_create_autocmd({ "BufReadPre", "FocusGained" }, {
 		desc = "Rename tmux window to current buffer file name",

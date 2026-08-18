@@ -455,6 +455,12 @@ set -g @tokyo-night-tmux_show_git 1
 set -s extended-keys on
 set -g extended-keys-format csi-u
 
+# -- copy mode clipboard (Wayland) --------------------------------------------
+# xclip is X11-only and fails on Wayland. wl-copy is the Wayland clipboard.
+# These re-binds override tmux-copycat's y/Enter run-shell bindings that pipe to xclip.
+bind -T copy-mode-vi y send-keys -X copy-pipe-and-cancel "wl-copy"
+bind -T copy-mode-vi Enter send-keys -X copy-pipe-and-cancel "wl-copy"
+
 # -- custom variables ----------------------------------------------------------
 
 # to define a custom #{foo} variable, define a POSIX shell function between the

@@ -25,7 +25,6 @@ smooth_motion_factor = 0.3
 smooth_motion_spring = 0.6
 smooth_motion_max_stretch_x = 3.0
 smooth_motion_max_stretch_y = 3.0
-smooth_motion_antijitter_ms = 50
 
   [cursor.style]
   blinking = "On"
