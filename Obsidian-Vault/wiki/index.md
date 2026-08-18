@@ -4,6 +4,10 @@ _Generated: 2026-08-10T19:42:16Z_
 
 ## Concepts
 
+- [[concepts/atomic-planning-ai-coding|Atomic Planning for AI Coding]] — Breaking dev work into micro-tasks (2-5 min) with exact file targets and verification criteria. Part of the SuperPowers framework. ( #planning #ai-coding #task-decomposition #atomic-tasks)
+- [[concepts/llm-junior-dev-psychology|LLM Junior-Dev Psychology]] — LLMs rush into code without analysis, make silent assumptions, and break unrelated parts when fixing one thing. The core problem SuperPowers addresses. ( #llm #ai-coding #prompt-crafting #agent-harness #psychology)
+- [[concepts/llm-structural-discipline|LLM Structural Discipline]] — LLMs fail on complex tasks due to lack of structural discipline, not lack of intelligence. Frameworks must force problem decomposition before execution. ( #llm #ai-coding #prompt-engineering #structured-development #frameworks)
+- [[concepts/superpowers-ai-coding-framework|SuperPowers AI Coding Framework]] — A skill-based framework that enforces structured, disciplined AI development through six modules: preparation, isolation, planning, execution, testing, and debugging. ( #superpowers #ai-coding #skill-framework #structured-development #discipline)
 - [[concepts/10x-generalist-hiring|10X Generalist Hiring]] — 10X Generalist Hiring ( #hiring #lean-startup #generalist #startup #team-building)
 - [[concepts/12-factor-agents|12-Factor Agents]] — Codified set of 12 patterns for building reliable LLM-based agents, grounded in software engineering principles rather than AI-specific abstractions. Created by Dex Horthy, HumanLayer. ( #agent #patterns #reliability #architecture #methodology)
 - [[concepts/360brew|360Brew]] — 360Brew ( #360brew #llm #recommendation-systems #personalization #foundation-model)
@@ -1937,6 +1941,22 @@ _Generated: 2026-08-10T19:42:16Z_
 - [[misc/slow-boiling-frog-benchmarking|Slow Boiling Frog Benchmarking]] — The 'slow boiling frog' problem in benchmarking: gradual performance degradation goes unnoticed when benchmarks are run ad hoc. Solved by nightly automated benchmarking that continuously compares a... ( #benchmarking #regression-detection #performance-monitoring #aief2025)
 - [[concepts/visual-agent-communication|Visual Agent Communication]] — Coding agents communicating via compact visual representations (component trees, call stacks, diagrams, diff syntax) instead of prose walls — popularized by Dex Horthy's show-me skill. ( #agent-output #visualization #coding-agents #agent-human-interaction #show-me)
 
+
+## Concepts
+- [[concepts/gtm-agent-machine]] — A blueprint for building an automated go-to-market system using AI agents that find and retain customers across agencies, SaaS, and infoproducts ( #go-to-market #agents)
+- [[concepts/four-part-workflow-pattern]] — Every GTM workflow follows a four-part pattern: trigger, source, output, and human approval. Nothing sends or spends without a human yes ( #workflow #human-in-the-loop)
+- [[concepts/seo-answer-engine]] — A shared SEO and answer engine layer used by all three GTM verticals — entity consistency, answer blocks, earned mentions, and third-party hosts ( #seo #answer-engines)
+
+## Entities
+- [[entities/viktor-ai-employee]] — Viktor is a pre-built AI employee that lives in Slack or Teams, connects to classic GTM tools, and delivers 80% of the GTM agent machine value without much setup ( #viktor #ai-employee)
+
+## Skills
+- [[skills/knowledge-base-vault]] — Every GTM workflow reads from a shared knowledge base (a folder of markdown/Obsidian files) before drafting anything — making it the perma-learner for agent corrections ( #knowledge-base #vault)
+- [[skills/agencies-gtm]] — Chapter 1 of the GTM agent machine: four agency-specific workflows — signal outbound, warm outbound, proposal-from-call, and retention loop ( #agencies #signal-outbound)
+- [[skills/saas-gtm]] — Chapter 2 of the GTM agent machine: four SaaS-specific workflows — demo-first content, competitor placements, warm outbound, and the money loop ( #saas #demo-first)
+- [[skills/infoproducts-gtm]] — Chapter 3 of the GTM agent machine: four infoproduct/creator workflows — owned email, content batch, borrowed rooms, and member retention ( #infoproducts #creators)
+- [[skills/build-sheet-best-practices]] — Compressed best practices for building and running a GTM agent machine — prioritization rules, workflow management, and build order guidance ( #best-practices)
+
 ## Skills
 
 - [[skills/codex-goal-mode-workflow|Codex Goal-Mode Workflow]] — Personal workflow using a single Codex agent in /goal mode with ADRs and dogfooding, replacing multi-agent orchestration for newer model generations. ( #agent-workflow #goal-mode #single-agent #codex #adr #dogfooding #ai-coding #productivity)
@@ -1947,7 +1967,8 @@ _Generated: 2026-08-10T19:42:16Z_
 - [[skills/bash-for-agents|Bash for Agents]] — Thariq's principle that the bash tool is the highest-leverage capability for any agent, enabling reproducible computation and verification through Unix primitives ( #bash #agent-tools #agent-architecture #unix-primitives)
 - [[skills/build-http-server-from-scratch|Build an HTTP Server from Scratch]] — A week-long project to build a functional HTTP web server from scratch, covering TCP sockets, protocol parsing, routing, and concurrency. ( #learning-project #http #networking #sockets #systems-programming)
 - [[skills/eval-gate|Eval Gate: Six-Step Merge Gate Course]] — Six-step procedure for building an evaluation gate that lets agents merge changes without human review: judge hygiene, verdict-driven control, path grading, log-derived tests, judge pinning, and blast-radius lanes. ( #skill #agent-evaluation #merge-gate #production-guardrails #llm-judge)
-- [[skills/memory-engineer|Memory Engineer: Fifteen-Step Procedure]] — Fifteen-step procedure for engineering agent memory: price the write path, store facts not logs, keep memory deletable and audited, treat memory as KV cache, and add a forgetting policy before the store grows. ( #skill #agent-memory #memory-engineering #forgetting #production-systems) — Six-step procedure for building an evaluation gate that lets agents merge changes without human review: judge hygiene, verdict-driven control, path grading, log-derived tests, judge pinning, and blast-radius lanes. ( #skill #agent-evaluation #merge-gate #production-guardrails #llm-judge) — A week-long project to build a functional HTTP web server from scratch, covering TCP sockets, protocol parsing, routing, and concurrency. ( #learning-project #http #networking #sockets #systems-programming)
+- [[skills/memory-engineer|Memory Engineer: Fifteen-Step Procedure]] — Fifteen-step procedure for engineering agent memory: price the write path, store facts not logs, keep memory deletable and audited, treat memory as KV cache, and add a forgetting policy before the store grows. ( #skill #agent-memory #memory-engineering #forgetting #production-systems)
+- [[skills/reddit-startup-marketing|Reddit Startup Marketing]] — Founder's guide to getting 100+ Reddit users: account warming (30-50 karma), strategic posts (educational/helpful formats), authentic commenting, ban-avoidance rules, and attribution tracking without links. ( #reddit #startup-marketing #user-acquisition #community-growth #self-promotion) — Six-step procedure for building an evaluation gate that lets agents merge changes without human review: judge hygiene, verdict-driven control, path grading, log-derived tests, judge pinning, and blast-radius lanes. ( #skill #agent-evaluation #merge-gate #production-guardrails #llm-judge) — A week-long project to build a functional HTTP web server from scratch, covering TCP sockets, protocol parsing, routing, and concurrency. ( #learning-project #http #networking #sockets #systems-programming)
 
 ## Entities
 

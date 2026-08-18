@@ -15,6 +15,12 @@ provenance:
   ambiguous: 0.0
 ---
 
+## Log
+- [2026-08-18T17:36:03Z] INGEST source="https://x.com/Yamik1shi/status/2066558238594576630" title="The Superpower No One Is Using: How to Turn Claude into Your Dev Team" pages_created=6 pages_updated=0
+- [2026-08-18T17:12:00Z] INGEST source="https://x.com/i/article/2089714600405356544" title="How to build a GTM machine from 0 to $10k MRR (Machina)" pages_created=9 pages_updated=0
+- [2026-08-18T19:00:00Z] INGEST source="https://x.com/i/status/2078039416233500934" title="How to get your first 100 users from reddit without getting banned" pages_created=1 pages_updated=0
+
+
 # Ingestion Log
 
 Last run: 2026-08-02T06:32:02Z
